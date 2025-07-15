@@ -184,7 +184,6 @@ jobs:
                 tags: [],
                 framework: null,
                 summary: cleanDescription(repo.description),
-                language: repo.language || null,
                 last_synced_sha: repo.last_commit_sha || '',
                 starred_at: repo.starred_at || new Date().toISOString(),
                 readme_quality: "missing",
@@ -296,6 +295,22 @@ jobs:
         with:
           cmd: yq eval '.' repos.yml -o=json
 
+      - name: Read original stars data
+        id: read_stars_for_ai
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = '.github-stars/data/fetched-stars-graphql.json';
+            
+            if (!fs.existsSync(path)) {
+              console.log('No stars data available for AI classification');
+              return [];
+            }
+            
+            const starsData = JSON.parse(fs.readFileSync(path, 'utf8'));
+            return starsData;
+
       - name: Prepare repositories for AI classification
         id: prep_repos
         uses: actions/github-script@v7
@@ -329,13 +344,19 @@ jobs:
             console.log('  2. Validator AI will review classifications');
             console.log('  3. Only approved classifications will be applied');
 
-            // Prepare repo data for AI
-            const repoData = unclassifiedRepos.map(repo => ({
-              repo: repo.repo,
-              summary: repo.summary,
-              language: repo.language,
-              starred_at: repo.starred_at
-            }));
+            // Get original stars data for language info
+            const starsData = ${{ steps.read_stars_for_ai.outputs.result }};
+
+            // Prepare repo data for AI (get language from original stars data)
+            const repoData = unclassifiedRepos.map(repo => {
+              const starRepo = starsData ? starsData.find(s => s.repo === repo.repo) : null;
+              return {
+                repo: repo.repo,
+                summary: repo.summary,
+                language: starRepo ? starRepo.language : null,
+                starred_at: repo.starred_at
+              };
+            });
 
             // Write repo data for AI
             fs.writeFileSync('repos-to-classify.json', JSON.stringify(repoData, null, 2));
