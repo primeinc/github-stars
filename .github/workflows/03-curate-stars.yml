@@ -219,6 +219,17 @@ jobs:
           echo "AI Classifications:" >> .github-stars/data/validation-prompt.txt
           echo '${{ steps.ai_classify.outputs.response }}' >> .github-stars/data/validation-prompt.txt
 
+      - name: Read validation prompt
+        id: read_validation
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        run: |
+          VALIDATION_PROMPT=$(cat .github-stars/data/validation-prompt.txt)
+          
+          # GitHub Actions multiline output
+          echo "prompt<<EOF" >> $GITHUB_OUTPUT
+          echo "$VALIDATION_PROMPT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
       - name: Validate AI classifications
         id: ai_validate
         if: steps.prep_repos.outputs.has_repos == 'true'
@@ -227,7 +238,7 @@ jobs:
           model: 'openai/gpt-4o'
           max-tokens: '500'
           system-prompt: 'You are a classification validator. Be strict about accuracy and only approve classifications that are clearly correct.'
-          prompt-file: '.github-stars/data/validation-prompt.txt'
+          prompt: ${{ steps.read_validation.outputs.prompt }}
 
       - name: Apply AI classification results
         id: apply_classification
