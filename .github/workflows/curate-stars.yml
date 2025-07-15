@@ -83,11 +83,10 @@ jobs:
 
             return starsData;
 
-      - name: Read current manifest
-        id: read_manifest
+      - name: Convert manifest to JSON for processing
         uses: mikefarah/yq@v4.46.1
         with:
-          cmd: yq eval '.' repos.yml -o=json
+          cmd: yq eval '.' repos.yml -o=json > manifest.json
 
       - name: Update manifest with new repositories
         id: diff
@@ -97,13 +96,7 @@ jobs:
           script: |
             const fs = require('fs');
             const starsData = ${{ steps.read_stars.outputs.result }};
-            let manifestData;
-            try {
-              manifestData = JSON.parse(`${{ steps.read_manifest.outputs.result }}`) || { repositories: [] };
-            } catch (error) {
-              core.setFailed(`Failed to parse manifest data: ${error.message}`);
-              return;
-            }
+            const manifestData = JSON.parse(fs.readFileSync('manifest.json', 'utf8')) || { repositories: [] };
             
             // Ensure required objects exist
             if (!manifestData.repositories) {
@@ -200,7 +193,7 @@ jobs:
 
               // Write updated manifest as JSON first, then convert with yq
               try {
-                fs.writeFileSync('manifest-temp.json', JSON.stringify(manifestData, null, 2));
+                fs.writeFileSync('manifest.json', JSON.stringify(manifestData, null, 2));
               } catch (error) {
                 core.setFailed(`Failed to write manifest file: ${error.message}`);
                 return;
@@ -216,11 +209,11 @@ jobs:
         if: steps.diff.outputs.changed == 'true'
         uses: mikefarah/yq@v4.46.1
         with:
-          cmd: yq eval '.' manifest-temp.json -o=yaml > repos.yml
+          cmd: yq eval '.' manifest.json -o=yaml > repos.yml
 
       - name: Clean up temp files
         if: always()
-        run: rm -f manifest-temp.json
+        run: rm -f manifest.json
 
       - name: Validate updated manifest
         if: steps.diff.outputs.changed == 'true'
@@ -230,50 +223,22 @@ jobs:
           file: 'repos.yml'
           mode: 'lax'
 
-      - name: Create Pull Request with changes
+      - name: Commit sync changes to main
         if: steps.diff.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
-          commit-message: |
-            Update repos.yml with new starred repositories
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add repos.yml
+          git commit -m "🌟 Sync ${{ steps.diff.outputs.total_new }} new starred repositories
 
-            - Added ${{ steps.diff.outputs.total_new }} new repositories
-            - All new repos marked as 'unclassified' for review
-            - Updated manifest metadata timestamp
+          - Added ${{ steps.diff.outputs.total_new }} new repositories  
+          - All new repos marked as 'unclassified' for AI review
+          - Updated manifest metadata timestamp
 
-            🤖 Generated with [Claude Code](https://claude.ai/code)
+          🤖 Generated with [Claude Code](https://claude.ai/code)
 
-            Co-Authored-By: Claude <noreply@anthropic.com>
-          title: "🌟 Sync starred repositories (${{ steps.diff.outputs.total_new }} new)"
-          body: |
-            ## Summary
-
-            - ✅ Added **${{ steps.diff.outputs.total_new }}** new starred repositories to the manifest
-            - ✅ All new repositories are initially marked as `unclassified` and `needs_review: true`
-            - ✅ Updated manifest metadata with current timestamp
-            - ✅ Schema validation passed
-
-            ## New Repositories Added
-
-            ${{ steps.diff.outputs.total_new > 0 && 'The following repositories were added:' || 'No new repositories to add.' }}
-
-            ## Test Plan
-
-            - [x] Schema validation passes
-            - [x] Manifest structure is valid
-            - [ ] Manual review of new repositories for proper categorization
-            - [ ] Run AI classification workflow after merge (if enabled)
-
-            ## Next Steps
-
-            1. Review the new repositories and update their categories/tags
-            2. Enable AI classification for automatic categorization
-            3. Generate repository structure with submodules
-
-            🤖 Generated with [Claude Code](https://claude.ai/code)
-          branch: sync-starred-repos-${{ github.run_number }}
-          delete-branch: true
+          Co-Authored-By: Claude <noreply@anthropic.com>"
+          git push
 
   classify-repositories:
     needs: sync-and-classify
@@ -284,32 +249,15 @@ jobs:
       models: read
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository  
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
 
-      - name: Read updated manifest
-        id: read_updated_manifest
+      - name: Convert updated manifest to JSON for AI processing
         uses: mikefarah/yq@v4.46.1
         with:
-          cmd: yq eval '.' repos.yml -o=json
-
-      - name: Read original stars data
-        id: read_stars_for_ai
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-            const path = '.github-stars/data/fetched-stars-graphql.json';
-            
-            if (!fs.existsSync(path)) {
-              console.log('No stars data available for AI classification');
-              return [];
-            }
-            
-            const starsData = JSON.parse(fs.readFileSync(path, 'utf8'));
-            return starsData;
+          cmd: yq eval '.' repos.yml -o=json > manifest.json
 
       - name: Prepare repositories for AI classification
         id: prep_repos
@@ -317,13 +265,7 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            let manifestData;
-            try {
-              manifestData = JSON.parse(`${{ steps.read_updated_manifest.outputs.result }}`);
-            } catch (error) {
-              core.setFailed(`Failed to parse updated manifest: ${error.message}`);
-              return;
-            }
+            const manifestData = JSON.parse(fs.readFileSync('manifest.json', 'utf8'));
 
             // Find repositories that need review
             const unclassifiedRepos = manifestData.repositories.filter(repo => 
@@ -345,7 +287,7 @@ jobs:
             console.log('  3. Only approved classifications will be applied');
 
             // Get original stars data for language info
-            const starsData = ${{ steps.read_stars_for_ai.outputs.result }};
+            const starsData = JSON.parse(fs.readFileSync('.github-stars/data/fetched-stars-graphql.json', 'utf8'));
 
             // Prepare repo data for AI (get language from original stars data)
             const repoData = unclassifiedRepos.map(repo => {
@@ -469,13 +411,7 @@ jobs:
             }
 
             // Read current manifest
-            let manifestData;
-            try {
-              manifestData = JSON.parse(`${{ steps.read_updated_manifest.outputs.result }}`);
-            } catch (error) {
-              core.setFailed(`Failed to parse manifest: ${error.message}`);
-              return;
-            }
+            const manifestData = JSON.parse(fs.readFileSync('manifest.json', 'utf8'));
 
             // Apply classifications
             let classifiedCount = 0;
@@ -497,7 +433,7 @@ jobs:
 
             // Write updated manifest
             try {
-              fs.writeFileSync('manifest-classified.json', JSON.stringify(manifestData, null, 2));
+              fs.writeFileSync('manifest.json', JSON.stringify(manifestData, null, 2));
               console.log(`Successfully classified ${classifiedCount} repositories`);
             } catch (error) {
               core.setFailed(`Failed to write classified manifest: ${error.message}`);
@@ -546,11 +482,11 @@ jobs:
         if: steps.apply_classification.outputs.classified_count > 0
         uses: mikefarah/yq@v4.46.1
         with:
-          cmd: yq eval '.' manifest-classified.json -o=yaml > repos.yml
+          cmd: yq eval '.' manifest.json -o=yaml > repos.yml
 
       - name: Clean up temp files
         if: always()
-        run: rm -f manifest-classified.json repos-to-classify.json classification-system-prompt.txt validation-prompt.txt
+        run: rm -f manifest.json repos-to-classify.json classification-system-prompt.txt validation-prompt.txt
 
       - name: Validate classified manifest
         if: steps.apply_classification.outputs.classified_count > 0
