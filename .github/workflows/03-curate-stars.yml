@@ -545,3 +545,66 @@ jobs:
 
           Co-Authored-By: Claude <noreply@anthropic.com>"
           git push
+
+      - name: Check for remaining unclassified repositories
+        id: check_remaining
+        if: steps.apply_classification.outputs.classified_count && steps.apply_classification.outputs.classified_count > 0
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const { execSync } = require('child_process');
+            
+            // Read updated repos.yml
+            const yamlContent = fs.readFileSync('repos.yml', 'utf8');
+            const manifestJson = execSync('./yq eval -o=json -', { 
+              input: yamlContent, 
+              encoding: 'utf8',
+              maxBuffer: 50 * 1024 * 1024
+            });
+            const manifestData = JSON.parse(manifestJson);
+            
+            // Count remaining unclassified repos
+            const remainingUnclassified = manifestData.repositories.filter(repo => 
+              repo.categories.includes('unclassified') && 
+              (repo.needs_review === true || 
+               !repo.ai_classification || 
+               !repo.ai_classification.timestamp)
+            );
+            
+            const remainingCount = remainingUnclassified.length;
+            console.log(`Remaining unclassified repositories: ${remainingCount}`);
+            
+            // Set output for next step
+            core.setOutput('has_remaining', remainingCount > 0 ? 'true' : 'false');
+            core.setOutput('remaining_count', remainingCount);
+
+      - name: Trigger next batch if repositories remain
+        if: steps.check_remaining.outputs.has_remaining == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const remainingCount = ${{ steps.check_remaining.outputs.remaining_count }};
+            console.log(`🔄 Triggering next batch to process ${remainingCount} remaining repositories`);
+            
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: '03-curate-stars.yml',
+              ref: 'main',
+              inputs: {
+                batch_limit: '${{ env.BATCH_LIMIT }}'
+              }
+            });
+
+      - name: Auto-loop completion summary
+        if: always()
+        run: |
+          echo "🎯 Auto-loop Summary:"
+          echo "  - Processed: ${{ steps.apply_classification.outputs.classified_count || 0 }} repositories"
+          echo "  - Remaining: ${{ steps.check_remaining.outputs.remaining_count || 'N/A' }}"
+          if [ "${{ steps.check_remaining.outputs.has_remaining }}" == "true" ]; then
+            echo "  - Status: Next batch queued"
+          else
+            echo "  - Status: All repositories classified ✅"
+          fi
