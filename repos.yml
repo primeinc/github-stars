@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2025-07-15T09:25:13.544Z"
+  last_updated: "2025-07-15T09:30:11.479Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -9687,182 +9687,393 @@ repositories:
     needs_review: true
   - repo: slate/slate
     categories:
-      - unclassified
-    tags: []
+      - communication-tools
+      - web-applications
+    tags:
+      - irc-client
+      - messaging
+      - javascript-application
+      - lang:js
     summary: Slate IRC client
     last_synced_sha: ebe63e37a980cc0bfb3d99b4ac02cad74f4d532d
     starred_at: "2014-03-23T17:00:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.479Z"
+      prompt_version: v1
   - repo: ossec/ossec-hids
     categories:
-      - unclassified
-    tags: []
+      - security-tools
+      - monitoring
+    tags:
+      - intrusion-detection
+      - log-analysis
+      - file-integrity
+      - rootkit-detection
+      - lang:c
     summary: OSSEC is an Open Source Host-based Intrusion Detection System that performs log analysis, file integrity checking, policy monitoring, rootkit detection, real-time alerting and active response.
     last_synced_sha: f6502012b7380208db81f82311ad4a1994d39905
     starred_at: "2014-03-22T18:15:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.479Z"
+      prompt_version: v1
   - repo: 64characters/Telephone
     categories:
-      - unclassified
-    tags: []
+      - telecommunication
+      - desktop-applications
+    tags:
+      - sip
+      - softphone
+      - mac-application
+      - voip
+      - lang:swift
     summary: SIP softphone for Mac
     last_synced_sha: 3f30dc142569eff0621ef59a9eb3f938db84fa60
     starred_at: "2014-03-22T18:08:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.479Z"
+      prompt_version: v1
   - repo: tariqbuilds/linux-dash
     categories:
-      - unclassified
-    tags: []
+      - monitoring-tools
+      - system-administration
+    tags:
+      - linux-dashboard
+      - web-ui
+      - server-monitoring
+      - lang:js
     summary: A beautiful web dashboard for Linux
     last_synced_sha: 186a802ea76e8bfcab7e8e7ebc533b74f80306fc
     starred_at: "2014-03-14T06:56:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.479Z"
+      prompt_version: v1
   - repo: FreePBX/framework
     categories:
-      - unclassified
-    tags: []
+      - telephony
+      - developer-tools
+    tags:
+      - bug-fixing
+      - freepbx
+      - module-management
+      - lang:php
     summary: This module provides a facility to install bug fixes to the framework code that is not otherwise housed in a module
     last_synced_sha: ac78ac76f90f40537fdbe89eaaf8dbeb1fa0593e
     starred_at: "2014-03-13T16:21:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.479Z"
+      prompt_version: v1
   - repo: POSSA/freepbx-Call-Statistics
     categories:
-      - unclassified
-    tags: []
+      - telephony
+      - analytics-tools
+    tags:
+      - call-statistics
+      - freepbx
+      - telephony
+      - lang:php
     summary: Free PBX module for reporting concurrent calls as well as breaking calls down by extension
     last_synced_sha: f3f0e8d81987f7383b027c42324a4a9487c219a6
     starred_at: "2014-03-13T08:55:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.479Z"
+      prompt_version: v1
   - repo: jedisct1/libpuzzle
     categories:
-      - unclassified
-    tags: []
+      - image-processing
+      - data-analysis
+    tags:
+      - image-comparison
+      - similar-images
+      - visual-matching
+      - lang:c
     summary: A library to quickly find visually similar images
     last_synced_sha: a1023d7d5db3f4eb03e607b2a74de72d815071bc
     starred_at: "2014-03-06T02:13:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.478Z"
+      prompt_version: v1
   - repo: xbmc/xbmc
     categories:
-      - unclassified
-    tags: []
+      - media-management
+      - desktop-applications
+    tags:
+      - home-theater
+      - media-center
+      - entertainment-hub
+      - lang:cpp
     summary: Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available f...
     last_synced_sha: 4c3a65d5266a49e2fb42cfdb5b748214330821c9
     starred_at: "2013-11-16T12:44:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.478Z"
+      prompt_version: v1
   - repo: syntaxhighlighter/syntaxhighlighter
     categories:
-      - unclassified
-    tags: []
+      - ui-components
+      - developer-tools
+    tags:
+      - syntax-highlighting
+      - javascript-library
+      - self-contained
+      - lang:js
     summary: Syntax Highlighter is a fully functional self-contained code syntax highlighter developed in Java Script.
     last_synced_sha: 37724fdb55a4635798993d2d69667e499b62db4b
     starred_at: "2013-11-14T23:35:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.478Z"
+      prompt_version: v1
   - repo: akonkol/spur
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - web-administration
+      - system-automation
+    tags:
+      - ssh
+      - network-automation
+      - web-interface
+      - configuration-management
+      - lang:python
     summary: Spur is a web based network configuration manager. It allows you to ssh or telnet to any networked device (cisco routers, linux hosts,etc) and run commands through a web front-end. The results of t...
     last_synced_sha: 3847696879c2a34b3c22982b008e6e63475f6c8f
     starred_at: "2013-11-14T23:21:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.478Z"
+      prompt_version: v1
   - repo: unifi-hackers/unifi-lab
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - iot-management
+      - system-administration
+    tags:
+      - unifi
+      - wifi
+      - network-management
+      - lang:python
     summary: '(THIS project IS DORMANT: Please have a look at calmh/unifi-api instead, which is cleaner) Add some extra spice to your Ubiquiti Uni Fi wifi network!'
     last_synced_sha: 13395740087e23cc65aaf2e4e1fb8ced7549a630
     starred_at: "2013-11-14T07:41:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.478Z"
+      prompt_version: v1
   - repo: Kukunin/jquery-endless-scroll
     categories:
-      - unclassified
-    tags: []
+      - ui-components
+      - web-development
+    tags:
+      - infinite-scroll
+      - pagination
+      - javascript-plugin
+      - unobtrusive
+      - jquery
+      - lang:js
     summary: Implementation for infinity scroll using j Query. It is unobtrusive, has module structure for easy extending and overriding
     last_synced_sha: 8b74ef6f97390f41cd213cb2b45ae7cb2839230c
     starred_at: "2013-11-13T09:46:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.478Z"
+      prompt_version: v1
   - repo: fredwu/jquery-endless-scroll
     categories:
-      - unclassified
-    tags: []
+      - ui-components
+      - web-development
+    tags:
+      - infinite-scroll
+      - pagination
+      - coffeescript
+      - jquery
     summary: Endless/infinite scrolling/pagination.
     last_synced_sha: 1eb7635ecb63b17beaa44afd44f156008fa09666
     starred_at: "2013-11-13T09:31:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.478Z"
+      prompt_version: v1
   - repo: bashou/chevereto_simple_admin
     categories:
-      - unclassified
-    tags: []
+      - system-administration
+      - web-development
+    tags:
+      - monitoring
+      - admin-dashboard
+      - chevereto
+      - lang:php
     summary: Simple admin monitor for Chevereto 2.0+
     last_synced_sha: 626663e4d14c8ce9f47db7ea4a20c7b003d5c3ac
     starred_at: "2013-11-13T04:06:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.478Z"
+      prompt_version: v1
   - repo: bitwiseshiftleft/sjcl
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cryptography
+    tags:
+      - javascript-library
+      - encryption
+      - crypto
+      - lang:js
     summary: Stanford Javascript Crypto Library
     last_synced_sha: 85caa53c281eeeb502310013312c775d35fe0867
     starred_at: "2013-11-12T22:15:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.477Z"
+      prompt_version: v1
   - repo: noodle1983/putty-nd
     categories:
-      - unclassified
-    tags: []
+      - system-administration
+      - networking-tools
+    tags:
+      - ssh
+      - terminal
+      - customization
+      - lang:c
     summary: putty to my taste. Available via http://sourceforge.net/projects/putty-nd.
     last_synced_sha: 563b05f09d7145e98e8325c6f773b0a802e077d2
     starred_at: "2013-11-10T17:08:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.477Z"
+      prompt_version: v1
   - repo: elastic/elasticsearch
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - search-engines
+      - cloud-tools
+    tags:
+      - distributed
+      - search-engine
+      - restful
+      - open-source
+      - lang:java
     summary: Free and Open Source, Distributed, REST ful Search Engine
     last_synced_sha: b3b83cc7e91595dc1a03e401257a7691763300b3
     starred_at: "2013-11-04T05:57:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.477Z"
+      prompt_version: v1
   - repo: midgetspy/Sick-Beard
     categories:
-      - unclassified
-    tags: []
+      - media-management
+      - automation
+    tags:
+      - pvr
+      - tv-shows
+      - episode-management
+      - downloads
+      - lang:python
     summary: PVR & episode guide that downloads and manages all your TV shows
     last_synced_sha: c36f21f80802eb75ba5e7c4be9fd9d9fff6c023c
     starred_at: "2013-11-04T01:16:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.477Z"
+      prompt_version: v1
   - repo: jprante/elasticsearch-jdbc
     categories:
-      - unclassified
-    tags: []
+      - data-ingestion
+      - apis
+    tags:
+      - elasticsearch
+      - jdbc
+      - data-import
+      - lang:java
     summary: JDBC importer for Elasticsearch
     last_synced_sha: 10df51a707572ba40abc2009aa02b99b8d28cbf7
     starred_at: "2013-11-03T21:48:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.477Z"
+      prompt_version: v1
   - repo: stefangabos/Zebra_Database
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - developer-tools
+    tags:
+      - php-wrapper
+      - lightweight
+      - prepared-statements
+      - caching-support
+      - lang:php
     summary: PHP My SQL i wrapper that is lightweight and secure, featuring prepared statements, debugging tools, and caching support.
     last_synced_sha: 512bf3315dbcb2865ef36563761690ed93c2a522
     starred_at: "2013-11-02T15:49:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T09:30:11.476Z"
+      prompt_version: v1
