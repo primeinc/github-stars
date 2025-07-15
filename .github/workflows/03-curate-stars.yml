@@ -365,6 +365,11 @@ jobs:
                 manifestData.repositories[repoIndex].tags = classification.tags || [];
                 manifestData.repositories[repoIndex].framework = classification.framework;
                 manifestData.repositories[repoIndex].needs_review = false;
+                manifestData.repositories[repoIndex].ai_classification = {
+                  model: "gpt-4o",
+                  timestamp: new Date().toISOString(),
+                  prompt_version: "v1"
+                };
                 classifiedCount++;
                 
                 console.log(`Classified ${classification.repo}: ${classification.categories.join(', ')}`);
