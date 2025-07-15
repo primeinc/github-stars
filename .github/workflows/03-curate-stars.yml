@@ -2,11 +2,6 @@
 name: 'Curate Starred Repos'
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'repos.yml'
   workflow_dispatch:
 
 permissions:
