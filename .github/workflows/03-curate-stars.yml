@@ -20,7 +20,7 @@ permissions:
   models: read
 
 env:
-  BATCH_LIMIT: ${{ github.event.inputs.batch_limit || '20' }}
+  BATCH_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.batch_limit || '20' }}
 
 concurrency:
   group: curate-stars-${{ github.ref }}
@@ -71,6 +71,15 @@ jobs:
           # Download yq locally
           wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
           chmod +x ./yq
+          
+      - name: Debug environment variables
+        run: |
+          echo "=== DEBUG ENVIRONMENT VARIABLES ==="
+          echo "GITHUB_EVENT_NAME: ${{ github.event_name }}"
+          echo "BATCH_LIMIT: '${{ env.BATCH_LIMIT }}'"
+          echo "github.event.inputs.batch_limit: '${{ github.event.inputs.batch_limit }}'"
+          echo "Expression result: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.batch_limit || '20' }}"
+          echo "=== END DEBUG ==="
 
       - name: Prepare repositories for AI classification
         id: prep_repos
@@ -103,28 +112,66 @@ jobs:
                !repo.ai_classification.timestamp)
             );
 
-            // Apply batch limit - default to 20 for automatic runs
-            const batchLimitStr = process.env.BATCH_LIMIT || '20';
+            // Apply batch limit - HARD LIMIT to prevent runaway processing
+            const batchLimitStr = process.env.BATCH_LIMIT;
+            console.log(`DEBUG: github.event_name = '${process.env.GITHUB_EVENT_NAME}'`);
+            console.log(`DEBUG: BATCH_LIMIT env var = '${batchLimitStr}' (type: ${typeof batchLimitStr})`);
+            console.log(`DEBUG: All env vars starting with BATCH: ${JSON.stringify(Object.keys(process.env).filter(k => k.startsWith('BATCH')).reduce((acc, k) => ({...acc, [k]: process.env[k]}), {}))}`);
+            
+            if (!batchLimitStr || batchLimitStr === 'undefined' || batchLimitStr === 'null' || batchLimitStr.trim() === '') {
+              core.setFailed(`BATCH_LIMIT environment variable is not properly set! Value: '${batchLimitStr}' (type: ${typeof batchLimitStr}). This prevents runaway processing.`);
+              return;
+            }
+            
             const batchLimit = parseInt(batchLimitStr);
-            console.log(`DEBUG: BATCH_LIMIT env var = '${process.env.BATCH_LIMIT}'`);
-            console.log(`DEBUG: batchLimitStr = '${batchLimitStr}'`);
             console.log(`DEBUG: parsed batchLimit = ${batchLimit}`);
             console.log(`DEBUG: allUnclassifiedRepos.length = ${allUnclassifiedRepos.length}`);
             
-            // Always apply limit unless explicitly set to 0
+            if (isNaN(batchLimit) || batchLimit < 0) {
+              core.setFailed(`Invalid BATCH_LIMIT value: ${batchLimitStr}. Must be a non-negative integer.`);
+              return;
+            }
+            
+            // CRITICAL FAIL-SAFE: Prevent processing more than 100 repositories at once
+            // This protects against runaway processing even if batch limit is misconfigured
+            const MAX_ABSOLUTE_LIMIT = 100;
+            if (batchLimit === 0 && allUnclassifiedRepos.length > MAX_ABSOLUTE_LIMIT) {
+              core.setFailed(`FAIL-SAFE TRIGGERED: Found ${allUnclassifiedRepos.length} repositories but batch limit is 0 (unlimited). This would process too many repositories at once. Set a reasonable batch limit or reduce the number of unclassified repositories.`);
+              return;
+            }
+            
+            if (batchLimit > MAX_ABSOLUTE_LIMIT) {
+              core.setFailed(`FAIL-SAFE TRIGGERED: Batch limit ${batchLimit} exceeds maximum allowed limit of ${MAX_ABSOLUTE_LIMIT}. This prevents runaway processing.`);
+              return;
+            }
+            
+            // Apply limit (0 means no limit)
             const unclassifiedRepos = (batchLimit === 0) ? 
               allUnclassifiedRepos :
               allUnclassifiedRepos
                 .sort((a, b) => new Date(a.starred_at) - new Date(b.starred_at)) // Oldest first
                 .slice(0, batchLimit);
                 
-            console.log(`DEBUG: final unclassifiedRepos.length = ${unclassifiedRepos.length}`);
+            console.log(`✅ BATCH LIMITED: Processing ${unclassifiedRepos.length} of ${allUnclassifiedRepos.length} repositories`);
 
             if (batchLimit > 0) {
               console.log(`🔄 BATCH MODE: Processing ${unclassifiedRepos.length} of ${allUnclassifiedRepos.length} repositories needing classification`);
             }
 
             console.log(`Found ${unclassifiedRepos.length} repositories needing AI classification`);
+            
+            // VALIDATION: Verify batch limit is working correctly
+            if (batchLimit > 0 && unclassifiedRepos.length > batchLimit) {
+              core.setFailed(`BATCH LIMIT VALIDATION FAILED: Expected max ${batchLimit} repositories but got ${unclassifiedRepos.length}. This indicates a bug in the batch limiting logic.`);
+              return;
+            }
+            
+            if (batchLimit === 0 && unclassifiedRepos.length !== allUnclassifiedRepos.length) {
+              core.setFailed(`BATCH LIMIT VALIDATION FAILED: Expected all ${allUnclassifiedRepos.length} repositories when batch limit is 0, but got ${unclassifiedRepos.length}. This indicates a bug in the batch limiting logic.`);
+              return;
+            }
+            
+            console.log(`✅ BATCH LIMIT VALIDATION PASSED: Successfully limited to ${unclassifiedRepos.length} repositories (limit: ${batchLimit === 0 ? 'unlimited' : batchLimit})`);
 
             if (unclassifiedRepos.length === 0) {
               console.log('No repositories need classification');
