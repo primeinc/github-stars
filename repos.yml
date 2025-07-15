@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2025-07-15T10:56:29.906Z"
+  last_updated: "2025-07-15T10:57:11.764Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -27414,13 +27414,20 @@ repositories:
       mirror_url: null
   - repo: vlucas/phpdotenv
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - devops
+      - configuration
+    tags:
+      - dotenv
+      - environment-variables
+      - php
+      - configuration-management
+      - lang:php
     summary: Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.
     last_synced_sha: 24ac4c74f91ee2c193fa1aaa5c249cb0822809af
     starred_at: "2015-06-02T04:12:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -27441,15 +27448,25 @@ repositories:
         published_at: "2025-04-30T23:40:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.764Z"
+      prompt_version: v1
   - repo: jolicode/JoliNotif
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - desktop-notifications
+      - notifier
+      - php
+      - lang:php
     summary: "\U0001F5A5️ Send notifications to your desktop directly from your PHP script"
     last_synced_sha: c3a886452b491924aae1ef5f7ad83d927040a9d1
     starred_at: "2015-05-27T00:04:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -27470,15 +27487,27 @@ repositories:
         published_at: "2025-05-22T13:19:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.764Z"
+      prompt_version: v1
   - repo: flarum/flarum
     categories:
-      - unclassified
-    tags: []
+      - social
+      - cms
+      - web-dev
+    tags:
+      - forum
+      - php
+      - laravel
+      - community
+      - lang:php
     summary: Simple forum software for building great communities.
     last_synced_sha: e2eb532b31bffcad3c5b3e9cdf3dc19461e3ac31
     starred_at: "2015-05-18T11:50:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -27497,15 +27526,25 @@ repositories:
         published_at: "2024-01-02T15:20:50Z"
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.764Z"
+      prompt_version: v1
   - repo: hephaest0s/usbkill
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - usb-monitoring
+      - anti-forensic
+      - kill-switch
+      - lang:python
     summary: « usbkill » is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.
     last_synced_sha: d3df79edab0c1dcec4b56468958c17a5c5dc6dce
     starred_at: "2015-05-12T19:46:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -27518,15 +27557,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.764Z"
+      prompt_version: v1
   - repo: Netflix/vector
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - analytics
+    tags:
+      - performance-monitoring
+      - metrics
+      - browser
+      - lang:js
     summary: Vector is an on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer’s browser.
     last_synced_sha: 5dd3736be7d9a275aa39c973c75ab648b772a309
     starred_at: "2015-05-05T13:45:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: JavaScript
@@ -27542,15 +27591,25 @@ repositories:
         published_at: "2019-04-19T17:30:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.763Z"
+      prompt_version: v1
   - repo: plivo/plivoframework
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - communication
+    tags:
+      - telephony
+      - framework
+      - open-source-telephony
+      - lang:python
     summary: Open Source Telephony Application Prototyping Framework
     last_synced_sha: 29fc41fb3c887d5d9022a941e87bbeb2269112ff
     starred_at: "2015-04-23T12:54:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -27563,15 +27622,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.763Z"
+      prompt_version: v1
   - repo: resque/resque
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - automation
+      - queues
+    tags:
+      - background-jobs
+      - queue
+      - asynchronous-tasks
+      - job-management
+      - lang:ruby
     summary: Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.
     last_synced_sha: da70131fb6d48aa6cb6f58a8a28b9014f620bfb0
     starred_at: "2015-04-14T23:24:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -27596,15 +27667,25 @@ repositories:
         published_at: "2024-12-30T16:23:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.763Z"
+      prompt_version: v1
   - repo: babun/babun
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cli-tools
+    tags:
+      - shell
+      - windows
+      - terminal
+      - zsh
     summary: Babun - a Windows shell you will love!
     last_synced_sha: b5c01c4f9d2cf7e2b01756e78d26a62530ff2f6b
     starred_at: "2015-04-09T13:41:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -27617,15 +27698,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.763Z"
+      prompt_version: v1
   - repo: syncthing/syncthing
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - productivity
+      - file-sync
+    tags:
+      - synchronization
+      - peer-to-peer
+      - p2p
+      - file-transfer
+      - lang:go
     summary: Open Source Continuous File Synchronization
     last_synced_sha: 0f6750c8f5d822cb47ee249c5c1d35b60dc87838
     starred_at: "2015-04-01T03:57:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -27644,15 +27737,26 @@ repositories:
         published_at: "2025-07-01T11:29:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.763Z"
+      prompt_version: v1
   - repo: robertdavidgraham/masscan
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - port-scanner
+      - tcp
+      - syn-packets
+      - internet-scanning
+      - lang:c
     summary: TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
     last_synced_sha: b99d433505f942fb384516553442c15322efc472
     starred_at: "2015-03-31T21:25:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -27667,15 +27771,28 @@ repositories:
         published_at: "2021-01-31T09:19:32Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.763Z"
+      prompt_version: v1
   - repo: tstack/lnav
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - cli-tools
+      - analytics
+    tags:
+      - log-viewer
+      - log-analysis
+      - tui
+      - command-line
+      - log-visualization
+      - lang:cpp
     summary: Log file navigator
     last_synced_sha: fd9467fa1edac3677098e7a1014494f14c80b952
     starred_at: "2015-03-31T21:17:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -27703,15 +27820,26 @@ repositories:
         published_at: "2025-02-12T20:40:01Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.763Z"
+      prompt_version: v1
   - repo: ideawu/ssdb
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - nosql
+    tags:
+      - nosql
+      - leveldb
+      - redis-alternative
+      - fast-storage
+      - lang:cpp
     summary: SSDB - A fast No SQL database, an alternative to Redis
     last_synced_sha: f229ba277c7f7d0ca5a441c0c6fb3d1209af68e4
     starred_at: "2015-03-31T07:44:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -27731,15 +27859,25 @@ repositories:
         published_at: "2020-10-07T09:45:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.762Z"
+      prompt_version: v1
   - repo: pawelantczak/crop-border-from-image
     categories:
-      - unclassified
-    tags: []
+      - media
+      - graphics
+      - image-processing
+    tags:
+      - image-cropping
+      - border-removal
+      - lang:php
     summary: This class can be used to crop images by removing common color borders.
     last_synced_sha: bab50f03b1bca776b3113237f5585d5de5e652ce
     starred_at: "2015-03-24T18:48:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -27752,15 +27890,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.762Z"
+      prompt_version: v1
   - repo: MikeOrtiz/TouchImageView
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ui-libraries
+    tags:
+      - android
+      - image-view
+      - touch-gestures
+      - lang:kotlin
     summary: Adds touch functionality to Android Image View.
     last_synced_sha: 86ee78239422fcb06203063d3a43ff64dc0fc318
     starred_at: "2015-03-19T18:37:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics: []
@@ -27775,15 +27923,27 @@ repositories:
         published_at: "2025-04-22T13:17:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.762Z"
+      prompt_version: v1
   - repo: davidsonfellipe/awesome-wpo
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - web-dev
+      - analytics
+    tags:
+      - awesome-list
+      - webperformance
+      - webperf-metrics
+      - optimization
+      - lang:js
     summary: ':pencil: A curated list of Web Performance Optimization. Everyone can contribute here!'
     last_synced_sha: 0193714b9c3defcc2ff9ef22fd3e643e22e39568
     starred_at: "2015-03-19T05:51:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -27802,6 +27962,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:57:11.762Z"
+      prompt_version: v1
   - repo: ptejada/uFlex
     categories:
       - security
