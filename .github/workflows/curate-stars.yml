@@ -57,7 +57,7 @@ jobs:
           github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
-            const path = 'fetched-stars-graphql.json';
+            const path = '.github-stars/data/fetched-stars-graphql.json';
 
             if (!fs.existsSync(path)) {
               core.setFailed('Fetched stars data not found. Please run fetch-stars workflow first.');
@@ -126,29 +126,17 @@ jobs:
               }
             }
 
+
+      - name: Write removed repos to temp file
+        if: steps.diff.outputs.changed == 'true'
+        run: echo '${{ steps.diff.outputs.removed_repos }}' > removed_repos.json
+
       - name: Remove deleted repositories from manifest
         if: steps.diff.outputs.changed == 'true'
         uses: mikefarah/yq@master
         with:
-          cmd: |
-            removed='${{ steps.diff.outputs.removed_repos }}'
-            echo "$removed" | jq -c '.[]' | while read repo; do
-              name=$(echo "$repo" | jq -r '.repo')
-              echo "Removing $name"
-              yq -i "del(.repositories[] | select(.repo == \"$name\"))" repos.yml
-            done
+          cmd: yq -i '.repositories = [.repositories[] | select(.repo as $item | load("removed_repos.json") | map(.repo) | index($item) | not)]' repos.yml
 
-      - name: Update metadata timestamp
-        if: steps.diff.outputs.changed == 'true'  
-        uses: mikefarah/yq@master
-        with:
-          cmd: yq -i '.manifest_metadata.last_updated = now' repos.yml
-
-      - name: Update repository count
-        if: steps.diff.outputs.changed == 'true'
-        uses: mikefarah/yq@master  
-        with:
-          cmd: yq -i '.manifest_metadata.total_repos = (.repositories | length)' repos.yml
 
       - name: Create processing matrix
         if: steps.diff.outputs.changed == 'true'
@@ -178,34 +166,32 @@ jobs:
             console.log(`Created ${batches.length} batches with ${batchSize} repos each`);
             return { batches };
 
+
+      - name: Write new repos to temp file
+        if: steps.diff.outputs.changed == 'true'
+        run: echo '${{ steps.diff.outputs.repos }}' > new_repos.json
+
       - name: Add new repositories to manifest
         if: steps.diff.outputs.changed == 'true'
         uses: mikefarah/yq@master
         with:
-          cmd: |
-            repos='${{ steps.diff.outputs.repos }}'
-            echo "$repos" | jq -c '.[]' | while read repo; do
-              name=$(echo "$repo" | jq -r '.nameWithOwner')
-              desc=$(echo "$repo" | jq -r '.description // "No description available"')
-              sha=$(echo "$repo" | jq -r '.defaultBranchRef.target.oid // ""')
-              starred=$(echo "$repo" | jq -r '.viewerHasStarred')
-              archived=$(echo "$repo" | jq -r '.isArchived')
-              fork=$(echo "$repo" | jq -r '.isFork')
-              
-              yq -i ".repositories += [{
-                \"repo\": \"$name\",
-                \"categories\": [\"unclassified\"],
-                \"tags\": [],
-                \"framework\": null,
-                \"summary\": \"$desc\",
-                \"last_synced_sha\": \"$sha\",
-                \"starred_at\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\",
-                \"readme_quality\": \"missing\",
-                \"archived\": $archived,
-                \"fork\": $fork,
-                \"needs_review\": true
-              }]" repos.yml
-            done
+          cmd: >-
+            yq -i '.repositories += [load("new_repos.json")[] | 
+            {"repo": .repo, "categories": ["unclassified"], "tags": [], "framework": null, 
+            "summary": .description, "last_synced_sha": .last_commit_sha, "starred_at": .starred_at, 
+            "readme_quality": "missing", "archived": .archived, "fork": .fork, "needs_review": true}]' repos.yml
+
+      - name: Update manifest timestamp
+        if: steps.diff.outputs.changed == 'true'
+        uses: mikefarah/yq@master
+        with:
+          cmd: yq -i '.manifest_metadata.last_updated = now' repos.yml
+
+      - name: Update repository count
+        if: steps.diff.outputs.changed == 'true'
+        uses: mikefarah/yq@master
+        with:
+          cmd: yq -i '.manifest_metadata.total_repos = (.repositories | length)' repos.yml
 
       - name: Validate updated manifest
         if: steps.diff.outputs.changed == 'true'
