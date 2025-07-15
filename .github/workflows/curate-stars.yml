@@ -83,15 +83,19 @@ jobs:
 
             return starsData;
 
+      - name: Create data directory for processing
+        run: |
+          mkdir -p .github-stars/data
+
       - name: Convert manifest to JSON for processing
         uses: mikefarah/yq@v4.46.1
         with:
-          cmd: yq eval '.' repos.yml -o=json > ./manifest.json
+          cmd: yq eval '.' repos.yml -o=json > .github-stars/data/manifest.json
 
       - name: Ensure manifest.json is writable
         run: |
-          touch ./manifest.json
-          chmod 664 ./manifest.json
+          touch .github-stars/data/manifest.json
+          chmod 664 .github-stars/data/manifest.json
 
       - name: Update manifest with new repositories
         id: diff
@@ -101,7 +105,7 @@ jobs:
           script: |
             const fs = require('fs');
             const starsData = ${{ steps.read_stars.outputs.result }};
-            const manifestData = JSON.parse(fs.readFileSync('./manifest.json', 'utf8')) || { repositories: [] };
+            const manifestData = JSON.parse(fs.readFileSync('.github-stars/data/manifest.json', 'utf8')) || { repositories: [] };
             
             // Ensure required objects exist
             if (!manifestData.repositories) {
@@ -182,7 +186,7 @@ jobs:
                 tags: [],
                 framework: null,
                 summary: cleanDescription(repo.description),
-                last_synced_sha: repo.last_commit_sha || '',
+                last_synced_sha: repo.last_commit_sha || '0000000000000000000000000000000000000000',
                 starred_at: repo.starred_at || new Date().toISOString(),
                 readme_quality: "missing",
                 archived: Boolean(repo.archived),
@@ -198,7 +202,7 @@ jobs:
 
               // Write updated manifest as JSON first, then convert with yq
               try {
-                fs.writeFileSync('./manifest.json', JSON.stringify(manifestData, null, 2));
+                fs.writeFileSync('.github-stars/data/manifest.json', JSON.stringify(manifestData, null, 2));
               } catch (error) {
                 core.setFailed(`Failed to write manifest file: ${error.message}`);
                 return;
@@ -220,11 +224,11 @@ jobs:
         if: steps.diff.outputs.changed == 'true'
         uses: mikefarah/yq@v4.46.1
         with:
-          cmd: yq eval '.' ./manifest.json -o=yaml > repos.yml
+          cmd: yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
 
       - name: Clean up temp files
         if: always()
-        run: rm -f ./manifest.json
+        run: rm -f .github-stars/data/manifest.json
 
       - name: Validate updated manifest
         if: steps.diff.outputs.changed == 'true'
@@ -265,20 +269,28 @@ jobs:
         with:
           token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
 
+      - name: Create data directory for AI processing
+        run: |
+          mkdir -p .github-stars/data
+
       - name: Convert updated manifest to JSON for AI processing
         uses: mikefarah/yq@v4.46.1
         with:
-          cmd: yq eval '.' repos.yml -o=json > ./manifest.json
+          cmd: yq eval '.' repos.yml -o=json > .github-stars/data/manifest.json
 
       - name: Ensure manifest.json is writable for AI processing
         run: |
-          touch ./manifest.json
-          chmod 664 ./manifest.json
+          touch .github-stars/data/manifest.json
+          chmod 664 .github-stars/data/manifest.json
 
       - name: Ensure AI temp files are writable
         run: |
-          touch repos-to-classify.json
-          chmod 664 repos-to-classify.json
+          touch .github-stars/data/repos-to-classify.json
+          touch .github-stars/data/classification-system-prompt.txt
+          touch .github-stars/data/validation-prompt.txt
+          chmod 664 .github-stars/data/repos-to-classify.json
+          chmod 664 .github-stars/data/classification-system-prompt.txt
+          chmod 664 .github-stars/data/validation-prompt.txt
 
       - name: Prepare repositories for AI classification
         id: prep_repos
@@ -286,7 +298,7 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const manifestData = JSON.parse(fs.readFileSync('./manifest.json', 'utf8'));
+            const manifestData = JSON.parse(fs.readFileSync('.github-stars/data/manifest.json', 'utf8'));
 
             // Find repositories that need review
             const unclassifiedRepos = manifestData.repositories.filter(repo => 
@@ -322,14 +334,14 @@ jobs:
             });
 
             // Write repo data for AI
-            fs.writeFileSync('repos-to-classify.json', JSON.stringify(repoData, null, 2));
+            fs.writeFileSync('.github-stars/data/repos-to-classify.json', JSON.stringify(repoData, null, 2));
             core.setOutput('has_repos', 'true');
             core.setOutput('repo_count', unclassifiedRepos.length);
 
       - name: Create system prompt file
         if: steps.prep_repos.outputs.has_repos == 'true'
         run: |
-          cat > classification-system-prompt.txt << 'EOF'
+          cat > .github-stars/data/classification-system-prompt.txt << 'EOF'
           You are a repository classification expert. Analyze GitHub repositories and classify them accurately.
           
           Available categories: dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, unclassified
@@ -361,13 +373,13 @@ jobs:
         with:
           model: 'openai/gpt-4o'
           max-tokens: '2000'
-          system-prompt-file: 'classification-system-prompt.txt'
-          prompt-file: 'repos-to-classify.json'
+          system-prompt-file: '.github-stars/data/classification-system-prompt.txt'
+          prompt-file: '.github-stars/data/repos-to-classify.json'
 
       - name: Create validation prompt
         if: steps.prep_repos.outputs.has_repos == 'true'
         run: |
-          cat > validation-prompt.txt << 'EOF'
+          cat > .github-stars/data/validation-prompt.txt << 'EOF'
           Review these AI classifications and validate them. Check for:
           1. Categories are appropriate and from the allowed list
           2. Framework assignments are conservative and accurate
@@ -379,10 +391,10 @@ jobs:
           
           Original repo data:
           EOF
-          cat repos-to-classify.json >> validation-prompt.txt
-          echo "" >> validation-prompt.txt
-          echo "AI Classifications:" >> validation-prompt.txt
-          echo '${{ steps.ai_classify.outputs.response }}' >> validation-prompt.txt
+          cat .github-stars/data/repos-to-classify.json >> .github-stars/data/validation-prompt.txt
+          echo "" >> .github-stars/data/validation-prompt.txt
+          echo "AI Classifications:" >> .github-stars/data/validation-prompt.txt
+          echo '${{ steps.ai_classify.outputs.response }}' >> .github-stars/data/validation-prompt.txt
 
       - name: Validate AI classifications
         id: ai_validate
@@ -392,7 +404,7 @@ jobs:
           model: 'openai/gpt-4o'
           max-tokens: '500'
           system-prompt: 'You are a classification validator. Be strict about accuracy and only approve classifications that are clearly correct.'
-          prompt-file: 'validation-prompt.txt'
+          prompt-file: '.github-stars/data/validation-prompt.txt'
 
       - name: Apply AI classification results
         id: apply_classification
@@ -432,7 +444,7 @@ jobs:
             }
 
             // Read current manifest
-            const manifestData = JSON.parse(fs.readFileSync('./manifest.json', 'utf8'));
+            const manifestData = JSON.parse(fs.readFileSync('.github-stars/data/manifest.json', 'utf8'));
 
             // Apply classifications
             let classifiedCount = 0;
@@ -454,7 +466,7 @@ jobs:
 
             // Write updated manifest
             try {
-              fs.writeFileSync('./manifest.json', JSON.stringify(manifestData, null, 2));
+              fs.writeFileSync('.github-stars/data/manifest.json', JSON.stringify(manifestData, null, 2));
               console.log(`Successfully classified ${classifiedCount} repositories`);
             } catch (error) {
               core.setFailed(`Failed to write classified manifest: ${error.message}`);
@@ -509,11 +521,11 @@ jobs:
         if: steps.apply_classification.outputs.classified_count > 0
         uses: mikefarah/yq@v4.46.1
         with:
-          cmd: yq eval '.' ./manifest.json -o=yaml > repos.yml
+          cmd: yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
 
       - name: Clean up temp files
         if: always()
-        run: rm -f ./manifest.json repos-to-classify.json classification-system-prompt.txt validation-prompt.txt
+        run: rm -f .github-stars/data/manifest.json .github-stars/data/repos-to-classify.json .github-stars/data/classification-system-prompt.txt .github-stars/data/validation-prompt.txt
 
       - name: Validate classified manifest
         if: steps.apply_classification.outputs.classified_count > 0
