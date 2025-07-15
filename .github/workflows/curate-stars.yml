@@ -92,11 +92,6 @@ jobs:
         with:
           cmd: yq eval '.' repos.yml -o=json > .github-stars/data/manifest.json
 
-      - name: Ensure manifest.json is writable
-        run: |
-          touch .github-stars/data/manifest.json
-          chmod 664 .github-stars/data/manifest.json
-
       - name: Update manifest with new repositories
         id: diff
         uses: actions/github-script@v7
@@ -214,12 +209,6 @@ jobs:
             core.setOutput('changed', hasChanges);
             core.setOutput('total_new', newRepos.length);
 
-      - name: Ensure repos.yml is writable
-        if: steps.diff.outputs.changed == 'true'
-        run: |
-          touch repos.yml
-          chmod 664 repos.yml
-
       - name: Convert manifest back to YAML
         if: steps.diff.outputs.changed == 'true'
         uses: mikefarah/yq@v4.46.1
@@ -277,11 +266,6 @@ jobs:
         uses: mikefarah/yq@v4.46.1
         with:
           cmd: yq eval '.' repos.yml -o=json > .github-stars/data/manifest.json
-
-      - name: Ensure manifest.json is writable for AI processing
-        run: |
-          touch .github-stars/data/manifest.json
-          chmod 664 .github-stars/data/manifest.json
 
       - name: Ensure AI temp files are writable
         run: |
@@ -510,12 +494,6 @@ jobs:
               cc: @${context.repo.owner}`,
               labels: ['ai-classification', 'validation-failed', 'needs-review']
             });
-
-      - name: Ensure repos.yml is writable for classification results
-        if: steps.apply_classification.outputs.classified_count > 0
-        run: |
-          touch repos.yml
-          chmod 664 repos.yml
 
       - name: Convert classified manifest to YAML
         if: steps.apply_classification.outputs.classified_count > 0
