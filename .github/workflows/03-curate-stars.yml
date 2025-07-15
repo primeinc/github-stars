@@ -3,6 +3,10 @@ name: 'Curate Starred Repos'
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Sync Starred Repos"]
+    types:
+      - completed
 
 permissions:
   contents: write
@@ -95,6 +99,22 @@ jobs:
             core.setOutput('has_repos', 'true');
             core.setOutput('repo_count', unclassifiedRepos.length);
 
+      - name: Debug outputs
+        run: |
+          echo "has_repos output: ${{ steps.prep_repos.outputs.has_repos }}"
+          echo "repo_count output: ${{ steps.prep_repos.outputs.repo_count }}"
+          
+      - name: Check if classification is needed
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        run: |
+          echo "Found repositories to classify"
+          if [ ! -f ".github-stars/data/repos-to-classify.json" ]; then
+            echo "ERROR: repos-to-classify.json was not created!"
+            exit 1
+          fi
+          echo "Repos to classify:"
+          cat .github-stars/data/repos-to-classify.json
+
       - name: Create system prompt file
         if: steps.prep_repos.outputs.has_repos == 'true'
         run: |
@@ -123,6 +143,24 @@ jobs:
           - Tags should be lowercase, hyphenated
           EOF
 
+      - name: Read prompts for AI
+        id: read_prompts
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        run: |
+          SYSTEM_PROMPT=$(cat .github-stars/data/classification-system-prompt.txt)
+          REPOS_DATA=$(cat .github-stars/data/repos-to-classify.json)
+          
+          # GitHub Actions multiline output
+          echo "system_prompt<<EOF" >> $GITHUB_OUTPUT
+          echo "$SYSTEM_PROMPT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+          echo "prompt<<EOF" >> $GITHUB_OUTPUT
+          echo "Please classify the following repositories according to the system prompt instructions:" >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "$REPOS_DATA" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
       - name: AI classify repositories  
         id: ai_classify
         if: steps.prep_repos.outputs.has_repos == 'true'
@@ -130,8 +168,8 @@ jobs:
         with:
           model: 'openai/gpt-4o'
           max-tokens: '2000'
-          system-prompt-file: '.github-stars/data/classification-system-prompt.txt'
-          prompt-file: '.github-stars/data/repos-to-classify.json'
+          system-prompt: ${{ steps.read_prompts.outputs.system_prompt }}
+          prompt: ${{ steps.read_prompts.outputs.prompt }}
 
       - name: Create validation prompt
         if: steps.prep_repos.outputs.has_repos == 'true'
@@ -273,9 +311,8 @@ jobs:
 
       - name: Convert classified manifest to YAML
         if: steps.apply_classification.outputs.classified_count > 0
-        uses: mikefarah/yq@v4.46.1
-        with:
-          cmd: yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
+        run: |
+          ./yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
 
       - name: Clean up temp files
         if: always()
