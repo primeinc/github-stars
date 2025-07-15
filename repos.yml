@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2025-07-15T10:58:21.437Z"
+  last_updated: "2025-07-15T10:59:25.247Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -26636,13 +26636,19 @@ repositories:
       mirror_url: null
   - repo: irontec/sngrep
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - debugging
+      - telecommunications
+    tags:
+      - sip
+      - ncurses
+      - debug-tools
+      - lang:c
     summary: Ncurses SIP Messages flow viewer
     last_synced_sha: 78ff9b01103e52219100b7c3ba308441ce056121
     starred_at: "2015-11-10T19:19:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -26665,15 +26671,25 @@ repositories:
         published_at: "2024-07-08T08:47:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.246Z"
+      prompt_version: v1
   - repo: chiraggude/awesome-laravel
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+      - resources
+    tags:
+      - awesome-list
+      - laravel
+      - php
     summary: A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem
     last_synced_sha: 0374093f529ba54bfd201c4c52b40a88e45ab1ae
     starred_at: "2015-11-09T21:30:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -26689,15 +26705,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.246Z"
+      prompt_version: v1
   - repo: bangordailynews/Public-FreePBX-hacks
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - apis
+      - telecommunications
+    tags:
+      - freepbx
+      - php
+      - lang:php
     summary: No description provided
     last_synced_sha: 41f7801b430cd9970c7b5fde8303f8dc36817657
     starred_at: "2015-11-05T18:03:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -26710,15 +26736,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.246Z"
+      prompt_version: v1
   - repo: Ventajou/WPInfo
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - tools
+    tags:
+      - utility
+      - lang:csharp
     summary: No description provided
     last_synced_sha: 0c21bc9eeaabdeaa9f27059d9ac922d0c5812816
     starred_at: "2015-10-22T17:16:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -26731,15 +26765,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.246Z"
+      prompt_version: v1
   - repo: firstfloorsoftware/mui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - wpf
+      - modern-ui
+      - lang:csharp
     summary: Modern UI for WPF
     last_synced_sha: cbd78931b5ffd1a77c8a82a423100e11015203c2
     starred_at: "2015-10-16T23:35:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -26755,15 +26798,25 @@ repositories:
         published_at: "2016-03-15T09:49:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.246Z"
+      prompt_version: v1
   - repo: ariccio/altWinDirStat
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - storage
+      - utilities
+    tags:
+      - disk-usage
+      - storage-analysis
+      - lang:cpp
     summary: An unofficial modification of Win Dir Stat
     last_synced_sha: 41dd067ce29d15113625759836b20911479008cb
     starred_at: "2015-10-10T01:43:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -26776,15 +26829,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.246Z"
+      prompt_version: v1
   - repo: AlphaDelta/Secure-Desktop
     categories:
-      - unclassified
-    tags: []
+      - security
+      - desktop-dev
+      - system-admin
+    tags:
+      - anti-keylogger
+      - anti-rat
+      - windows
+      - lang:csharp
     summary: Anti-keylogger/anti-rat application for Windows
     last_synced_sha: 905a05d25951abdf562ef9394415f750df8976ec
     starred_at: "2015-08-28T08:48:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -26805,15 +26869,26 @@ repositories:
         published_at: "2015-08-23T06:49:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.246Z"
+      prompt_version: v1
   - repo: hitherejoe/Android-Boilerplate
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - productivity
+      - learning
+    tags:
+      - android
+      - boilerplate
+      - rxjava
+      - lang:java
     summary: Android Boilerplate project using Rx Java, Dagger 2, Espresso, Mockito + more!
     last_synced_sha: 75382ad46c07c2bbc6094a93a581b6c4489986f3
     starred_at: "2015-08-24T04:45:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics: []
@@ -26826,15 +26901,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.246Z"
+      prompt_version: v1
   - repo: moezbhatti/qksms
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - communication
+      - ui-libraries
+    tags:
+      - android
+      - material-design
+      - sms-messenger
+      - lang:kotlin
     summary: The most beautiful SMS messenger for Android
     last_synced_sha: c86ea1082d2c0f3af846487fbe8198ce5cc01b44
     starred_at: "2015-08-24T04:38:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics:
@@ -26859,15 +26945,26 @@ repositories:
         published_at: "2021-02-24T14:50:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.245Z"
+      prompt_version: v1
   - repo: ivopetkov/responsively-lazy
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frontend
+      - ui-performance
+    tags:
+      - lazy-loading
+      - responsive-images
+      - performance
+      - lang:js
     summary: Lazy load responsive images and HTML
     last_synced_sha: 1c575e5b2cc8721e06689a66106a88d3b229007a
     starred_at: "2015-08-24T04:37:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -26892,15 +26989,26 @@ repositories:
         published_at: "2024-04-30T21:42:34Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.245Z"
+      prompt_version: v1
   - repo: yudai/gotty
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+      - web-dev
+    tags:
+      - terminal-sharing
+      - websocket
+      - browser
+      - lang:go
     summary: Share your terminal as a web application
     last_synced_sha: a080c85cbc59226c94c6941ad8c395232d72d517
     starred_at: "2015-08-24T04:32:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -26923,15 +27031,25 @@ repositories:
         published_at: "2017-08-08T08:34:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.245Z"
+      prompt_version: v1
   - repo: kriswallsmith/assetic
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+      - assets
+    tags:
+      - asset-management
+      - php
+      - lang:php
     summary: Asset Management for PHP
     last_synced_sha: d65c93d973947b94a054c03aef6ca780d0bfc0e6
     starred_at: "2015-08-17T00:20:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -26946,15 +27064,26 @@ repositories:
         published_at: "2016-11-11T20:00:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.245Z"
+      prompt_version: v1
   - repo: sindresorhus/awesome
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+      - resources
+    tags:
+      - awesome-list
+      - resources
+      - community-driven
+      - curated
     summary: "\U0001F60E Awesome lists about all kinds of interesting topics"
     last_synced_sha: ae6009066696f7591894536940997849d57598a8
     starred_at: "2015-08-04T05:38:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -26972,15 +27101,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.245Z"
+      prompt_version: v1
   - repo: cockpit-project/cockpit
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - monitoring
+      - web-dev
+    tags:
+      - web-interface
+      - linux-servers
+      - cockpit
+      - lang:js
     summary: Cockpit is a web-based graphical interface for servers.
     last_synced_sha: 8fda07a8e7898d1d865214b58131d6b5d74d876f
     starred_at: "2015-08-01T02:14:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -26998,15 +27138,27 @@ repositories:
         published_at: "2025-07-09T08:48:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.245Z"
+      prompt_version: v1
   - repo: allegro/ralph
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+      - data-management
+    tags:
+      - cmdb
+      - asset-management
+      - inventory
+      - data-center
+      - lang:python
     summary: Ralph is the CMDB / Asset Management system for data center and back office hardware.
     last_synced_sha: 14030d1a5c3773c081fdfe2377ebe2fba93ca866
     starred_at: "2015-07-31T23:44:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -27031,6 +27183,11 @@ repositories:
         published_at: "2025-07-08T09:50:37Z"
       is_mirror: false
       mirror_url: null
+    framework: django
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:59:25.244Z"
+      prompt_version: v1
   - repo: awesome-selfhosted/awesome-selfhosted
     categories:
       - education
