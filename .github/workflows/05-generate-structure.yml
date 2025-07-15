@@ -1,0 +1,119 @@
+---
+name: 'Generate Repository Structure'
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: 'Commit and push the generated structure'
+        type: boolean
+        default: true
+  workflow_run:
+    workflows: ["Curate Starred Repos"]
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+jobs:
+  generate-structure:
+    runs-on: ubuntu-latest
+    # Only run if manually triggered or if the triggering workflow succeeded
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+          ref: main
+
+      - name: Pull latest changes
+        run: |
+          echo "Ensuring we have the latest changes..."
+          git pull origin main
+
+      - name: Generate multi-axis repository structure
+        run: |
+          echo "🏗️ Generating repository structure from manifest..."
+          chmod +x scripts/generate-structure.sh
+          ./scripts/generate-structure.sh
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes to commit"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+            git status --porcelain
+          fi
+
+      - name: Generate structure summary
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          echo "# Repository Structure Generation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Count directories created
+          categories=$(find by-category -mindepth 1 -maxdepth 1 -type d | wc -l)
+          tags=$(find by-tag -mindepth 1 -maxdepth 1 -type d | wc -l)
+          frameworks=$(find by-framework -mindepth 1 -maxdepth 1 -type d 2>/dev/null | wc -l || echo 0)
+          
+          echo "## Generated Structure" >> $GITHUB_STEP_SUMMARY
+          echo "- **Categories**: $categories directories" >> $GITHUB_STEP_SUMMARY
+          echo "- **Tags**: $tags directories" >> $GITHUB_STEP_SUMMARY
+          echo "- **Frameworks**: $frameworks directories" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Get repository statistics
+          total_repos=$(./yq eval '.repositories | length' repos.yml)
+          classified_repos=$(./yq eval '.repositories | map(select(.categories[] != "unclassified")) | length' repos.yml)
+          
+          echo "## Repository Statistics" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total repositories**: $total_repos" >> $GITHUB_STEP_SUMMARY
+          echo "- **Classified repositories**: $classified_repos" >> $GITHUB_STEP_SUMMARY
+          echo "- **Structure coverage**: $(echo "scale=1; $classified_repos * 100 / $total_repos" | bc -l 2>/dev/null || echo "3")%" >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit and push structure
+        if: steps.check_changes.outputs.changed == 'true' && (github.event_name == 'workflow_dispatch' && github.event.inputs.commit_changes == 'true' || github.event_name == 'workflow_run')
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add by-category/ by-tag/ by-framework/
+          
+          # Count changes for commit message
+          categories=$(find by-category -mindepth 1 -maxdepth 1 -type d | wc -l)
+          tags=$(find by-tag -mindepth 1 -maxdepth 1 -type d | wc -l)
+          frameworks=$(find by-framework -mindepth 1 -maxdepth 1 -type d 2>/dev/null | wc -l || echo 0)
+          
+          git commit -m "📁 Generate browsable repository structure [skip ci]
+
+          - Generated $categories category directories
+          - Generated $tags tag directories  
+          - Generated $frameworks framework directories
+          - Each directory includes README with repository listings
+          - Structure based on current manifest classification
+
+          🤖 Generated with [Claude Code](https://claude.ai/code)
+
+          Co-Authored-By: Claude <noreply@anthropic.com>"
+          
+          git push
+
+      - name: Create structure overview
+        if: always()
+        run: |
+          echo "📊 Repository Structure Overview" 
+          echo "================================"
+          echo ""
+          echo "📁 by-category/: $(find by-category -mindepth 1 -maxdepth 1 -type d | wc -l) categories"
+          echo "📁 by-tag/: $(find by-tag -mindepth 1 -maxdepth 1 -type d | wc -l) tags"
+          echo "📁 by-framework/: $(find by-framework -mindepth 1 -maxdepth 1 -type d 2>/dev/null | wc -l || echo 0) frameworks"
+          echo ""
+          echo "Browse the generated structure to discover repositories!"

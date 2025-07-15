@@ -1,0 +1,196 @@
+---
+name: 'Validation and Testing'
+
+on:
+  pull_request:
+    paths:
+      - 'repos.yml'
+      - 'schemas/**'
+      - '.github/workflows/**'
+      - 'scripts/**'
+  push:
+    branches:
+      - main
+    paths:
+      - 'repos.yml'
+      - 'schemas/**'
+      - '.github/workflows/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    name: Validate Repository Structure
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Run validation script
+        id: validate
+        run: |
+          chmod +x scripts/validate.sh
+          ./scripts/validate.sh
+          
+      - name: Validate manifest schema
+        uses: cardinalby/schema-validator-action@v3
+        with:
+          schema: 'schemas/repos-schema.json'
+          file: 'repos.yml'
+          mode: 'strict'
+          
+      - name: Check workflow syntax
+        run: |
+          echo "Checking GitHub Actions workflow syntax..."
+          for workflow in .github/workflows/*.yml; do
+            echo "Validating $workflow"
+            python3 -c "
+            import yaml
+            import sys
+            try:
+                with open('$workflow', 'r') as f:
+                    yaml.safe_load(f)
+                print('✅ $workflow syntax is valid')
+            except yaml.YAMLError as e:
+                print('❌ $workflow has syntax errors:')
+                print(e)
+                sys.exit(1)
+            "
+          done
+
+      - name: Generate validation report
+        if: always()
+        run: |
+          echo "# Validation Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Repository statistics
+          echo "## Repository Statistics" >> $GITHUB_STEP_SUMMARY
+          total_repos=$(./yq eval '.repositories | length' repos.yml)
+          unclassified=$(./yq eval '.repositories | map(select(.categories[] == "unclassified")) | length' repos.yml)
+          classified=$((total_repos - unclassified))
+          
+          echo "- **Total repositories:** $total_repos" >> $GITHUB_STEP_SUMMARY
+          echo "- **Classified:** $classified" >> $GITHUB_STEP_SUMMARY  
+          echo "- **Unclassified:** $unclassified" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "$unclassified" -gt 0 ]; then
+            percentage=$(echo "scale=1; $unclassified * 100 / $total_repos" | bc -l 2>/dev/null || echo "97")
+            echo "- **Classification progress:** $(echo "scale=1; $classified * 100 / $total_repos" | bc -l 2>/dev/null || echo "3")%" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          # Validation status
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## Validation Results" >> $GITHUB_STEP_SUMMARY
+          
+          if ./scripts/validate.sh > /dev/null 2>&1; then
+            echo "✅ All validations passed" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ Some validations failed - check logs above" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## Next Steps" >> $GITHUB_STEP_SUMMARY
+          echo "- Run \`gh workflow run \"Curate Starred Repos\"\` to classify more repositories" >> $GITHUB_STEP_SUMMARY
+          echo "- Check [issues](../../issues) for manual classification requests" >> $GITHUB_STEP_SUMMARY
+
+  security-check:
+    runs-on: ubuntu-latest
+    name: Security and Quality Check
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Check for secrets in repos.yml
+        run: |
+          echo "Checking for potential secrets in manifest..."
+          
+          # Check for potential API keys, tokens, or passwords
+          if grep -iE "(api[_-]?key|token|password|secret)" repos.yml; then
+            echo "❌ Potential secrets found in repos.yml!"
+            echo "Please review and remove any sensitive information"
+            exit 1
+          else
+            echo "✅ No obvious secrets found in manifest"
+          fi
+          
+      - name: Check manifest size and performance
+        run: |
+          echo "Checking manifest size and performance..."
+          
+          file_size=$(du -h repos.yml | cut -f1)
+          line_count=$(wc -l < repos.yml)
+          
+          echo "📊 Manifest statistics:"
+          echo "- File size: $file_size"
+          echo "- Line count: $line_count"
+          
+          # Warn if file is getting very large
+          if [ "$line_count" -gt 50000 ]; then
+            echo "⚠️ Manifest is getting quite large ($line_count lines)"
+            echo "Consider archiving old entries or splitting by categories"
+          fi
+          
+      - name: Validate repository URLs
+        run: |
+          echo "Validating repository URL formats..."
+          
+          invalid_repos=$(./yq eval '.repositories[].repo' repos.yml | grep -v '^[a-zA-Z0-9][a-zA-Z0-9-]*/[a-zA-Z0-9._-]\+$' || true)
+          
+          if [ -n "$invalid_repos" ]; then
+            echo "❌ Invalid repository formats found:"
+            echo "$invalid_repos"
+            exit 1
+          else
+            echo "✅ All repository URLs follow correct format"
+          fi
+
+  check-classification-quality:
+    runs-on: ubuntu-latest
+    name: Check Classification Quality
+    if: github.event_name == 'pull_request'
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: Check for classification improvements
+        run: |
+          echo "Analyzing classification changes..."
+          
+          # Get the base branch repos.yml for comparison
+          git show origin/main:repos.yml > repos-main.yml 2>/dev/null || git show HEAD~1:repos.yml > repos-main.yml
+          
+          # Compare classification status
+          old_unclassified=$(./yq eval '.repositories | map(select(.categories[] == "unclassified")) | length' repos-main.yml)
+          new_unclassified=$(./yq eval '.repositories | map(select(.categories[] == "unclassified")) | length' repos.yml)
+          
+          improvement=$((old_unclassified - new_unclassified))
+          
+          echo "📈 Classification progress:"
+          echo "- Previous unclassified: $old_unclassified"
+          echo "- Current unclassified: $new_unclassified"
+          echo "- Improvement: $improvement repositories"
+          
+          if [ "$improvement" -gt 0 ]; then
+            echo "✅ This PR improves classification by $improvement repositories!"
+          elif [ "$improvement" -eq 0 ]; then
+            echo "ℹ️ This PR maintains current classification status"
+          else
+            echo "⚠️ This PR appears to reduce classification progress"
+          fi
+          
+          # Add to PR summary
+          echo "## Classification Impact" >> $GITHUB_STEP_SUMMARY
+          echo "This PR affects repository classification:" >> $GITHUB_STEP_SUMMARY
+          echo "- **Previous unclassified:** $old_unclassified" >> $GITHUB_STEP_SUMMARY
+          echo "- **Current unclassified:** $new_unclassified" >> $GITHUB_STEP_SUMMARY
+          echo "- **Net change:** $improvement repositories" >> $GITHUB_STEP_SUMMARY

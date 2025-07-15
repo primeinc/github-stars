@@ -40,6 +40,22 @@ taxonomy:
     - containers
     - apis
     - unclassified
+    - algorithms
+    - analytics
+    - backup
+    - cms
+    - communication
+    - crypto
+    - data-protection
+    - education
+    - encryption
+    - graphics
+    - infra
+    - libraries
+    - media
+    - programming-languages
+    - search
+    - web-development
   tags_allowed:
     - name: rust
       description: Rust programming language projects
@@ -29034,7 +29050,7 @@ repositories:
       - web-development
     tags:
       - bin-packing
-      - 2d-graphics
+      - graphics-2d
       - canvas
       - lang:javascript
     summary: 2D bin-packing using Java Script + canvas
