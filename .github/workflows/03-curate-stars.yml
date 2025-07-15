@@ -18,6 +18,7 @@ permissions:
   pull-requests: write
   issues: write
   models: read
+  actions: write
 
 env:
   BATCH_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.batch_limit || '10' }}
@@ -583,6 +584,7 @@ jobs:
         if: steps.check_remaining.outputs.has_remaining == 'true'
         uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             const remainingCount = ${{ steps.check_remaining.outputs.remaining_count }};
             console.log(`🔄 Triggering next batch to process ${remainingCount} remaining repositories`);
