@@ -21,6 +21,8 @@ concurrency:
 jobs:
   classify:
     runs-on: ubuntu-latest
+    # Only run if manually triggered or if the triggering workflow succeeded
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
 
     steps:
       - name: Checkout repository  
@@ -30,9 +32,30 @@ jobs:
           fetch-depth: 0
           ref: main
 
-      - name: Pull latest changes
+      - name: Pull latest changes with retry
         run: |
-          git pull origin main || true
+          echo "Ensuring we have the latest changes from workflow 02..."
+          # Try to pull up to 3 times with a 5-second delay
+          for i in 1 2 3; do
+            if git pull origin main; then
+              echo "✅ Successfully pulled latest changes"
+              break
+            else
+              echo "⚠️  Pull attempt $i failed, waiting 5 seconds..."
+              sleep 5
+            fi
+          done
+          
+          # Verify repos.yml exists
+          if [ -f "repos.yml" ]; then
+            echo "✅ repos.yml found"
+            echo "File size: $(ls -lh repos.yml | awk '{print $5}')"
+          else
+            echo "❌ ERROR: repos.yml not found after pulling latest changes"
+            echo "Current directory contents:"
+            ls -la
+            exit 1
+          fi
           
       - name: Setup environment  
         run: |

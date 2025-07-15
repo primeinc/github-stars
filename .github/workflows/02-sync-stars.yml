@@ -238,9 +238,11 @@ jobs:
 
       - name: Convert manifest back to YAML
         if: steps.diff.outputs.changed == 'true'
-        uses: mikefarah/yq@v4.46.1
-        with:
-          cmd: yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
+        run: |
+          ./yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
+          echo "✅ Successfully converted manifest.json to repos.yml"
+          echo "File contents preview:"
+          head -20 repos.yml
 
       - name: Clean up temp files
         if: always()
