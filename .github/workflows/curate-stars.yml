@@ -155,13 +155,32 @@ jobs:
                 );
               }
 
-              // Add new repositories (only new ones, never duplicates) with data validation
+              // Add new repositories (only new ones, never duplicates) with data validation and cleaning
+              const cleanDescription = (desc) => {
+                if (!desc || desc.trim() === '') return 'No description provided';
+                
+                // Clean markdown headers and formatting
+                let cleaned = desc
+                  .replace(/^#+\s*/, '')                    // Remove leading # headers
+                  .replace(/([a-z])([A-Z])/g, '$1 $2')     // Add spaces between camelCase
+                  .replace(/([A-Z]{2,})([a-z])/g, '$1 $2') // Fix acronyms like MCPAn -> MCP An
+                  .replace(/\s+/g, ' ')                     // Normalize whitespace
+                  .trim();
+                
+                // Truncate if too long
+                if (cleaned.length > 200) {
+                  cleaned = cleaned.substring(0, 197) + '...';
+                }
+                
+                return cleaned;
+              };
+              
               const newRepoEntries = newRepos.map(repo => ({
                 repo: repo.repo,
                 categories: ["unclassified"],
                 tags: [],
                 framework: null,
-                summary: repo.description || '',
+                summary: cleanDescription(repo.description),
                 last_synced_sha: repo.last_commit_sha || '',
                 starred_at: repo.starred_at || new Date().toISOString(),
                 readme_quality: "missing",
@@ -194,7 +213,7 @@ jobs:
         if: steps.diff.outputs.changed == 'true'
         uses: mikefarah/yq@v4.46.1
         with:
-          cmd: yq eval '.' manifest-temp.json > repos.yml
+          cmd: yq eval '.' manifest-temp.json -o=yaml > repos.yml
 
       - name: Clean up temp files
         if: always()
