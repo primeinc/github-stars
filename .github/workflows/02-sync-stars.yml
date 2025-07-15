@@ -61,23 +61,33 @@ jobs:
           echo "Files in .github-stars/data:"
           ls -la .github-stars/data/ || echo ".github-stars/data doesn't exist"
 
-      - name: Read fetched stars data
-        id: read_stars
+
+      - name: Setup environment
+        run: |
+          mkdir -p .github-stars/data
+          # Download yq locally
+          wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          chmod +x ./yq
+
+      - name: Update manifest with new repositories
+        id: diff
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
-            const path = '.github-stars/data/fetched-stars-graphql.json';
-
-            if (!fs.existsSync(path)) {
+            const { execSync } = require('child_process');
+            // Read stars data from file to avoid command line length limits
+            const starsDataPath = '.github-stars/data/fetched-stars-graphql.json';
+            
+            if (!fs.existsSync(starsDataPath)) {
               core.setFailed('Fetched stars data not found. Please run fetch-stars workflow first.');
               return;
             }
 
             let starsData;
             try {
-              starsData = JSON.parse(fs.readFileSync(path, 'utf8'));
+              starsData = JSON.parse(fs.readFileSync(starsDataPath, 'utf8'));
             } catch (error) {
               core.setFailed(`Failed to parse stars data: ${error.message}`);
               return;
@@ -96,25 +106,6 @@ jobs:
             if (testLimit > 0) {
               console.log(`⚠️  TEST MODE: Will sync ALL repos but only mark first ${testLimit} for AI classification`);
             }
-
-            return starsData;
-
-      - name: Setup environment
-        run: |
-          mkdir -p .github-stars/data
-          # Download yq locally
-          wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
-          chmod +x ./yq
-
-      - name: Update manifest with new repositories
-        id: diff
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
-          script: |
-            const fs = require('fs');
-            const { execSync } = require('child_process');
-            const starsData = ${{ steps.read_stars.outputs.result }};
             
             // Check if repos.yml exists, if not use template
             let yamlContent;
