@@ -89,15 +89,32 @@ jobs:
             const manifestJson = execSync('./yq eval -o=json -', { input: yamlContent, encoding: 'utf8' });
             const manifestData = JSON.parse(manifestJson);
 
-            // Find repositories that need review
-            const unclassifiedRepos = manifestData.repositories.filter(repo => 
-              repo.needs_review === true && 
-              repo.categories.includes('unclassified')
-            );
+            // Find repositories that have never been AI classified AND are marked for review
+            const reposToClassify = manifestData.repositories.filter(repo => {
+              // Never been AI classified if ai_classification is missing or timestamp is null
+              const neverClassified = !repo.ai_classification || !repo.ai_classification.timestamp;
+              
+              // Must be explicitly marked for review (throttling mechanism)
+              const markedForReview = repo.needs_review === true;
+              
+              // Only classify if BOTH conditions are met
+              return neverClassified && markedForReview;
+            });
 
-            console.log(`Found ${unclassifiedRepos.length} repositories needing AI classification`);
+            console.log(`Found ${reposToClassify.length} repositories that have never been AI classified`);
+            
+            // Log breakdown for debugging
+            const totalRepos = manifestData.repositories.length;
+            const alreadyClassified = manifestData.repositories.filter(r => r.ai_classification && r.ai_classification.timestamp).length;
+            const needsReviewCount = manifestData.repositories.filter(r => r.needs_review === true).length;
+            
+            console.log(`📊 Repository breakdown:`);
+            console.log(`  Total repos: ${totalRepos}`);
+            console.log(`  Already AI classified: ${alreadyClassified}`);
+            console.log(`  Marked needs_review: ${needsReviewCount}`);
+            console.log(`  Ready for classification: ${reposToClassify.length}`);
 
-            if (unclassifiedRepos.length === 0) {
+            if (reposToClassify.length === 0) {
               console.log('No repositories need classification');
               core.setOutput('has_repos', 'false');
               return;
@@ -117,7 +134,7 @@ jobs:
             const starsData = JSON.parse(fs.readFileSync(starsDataPath, 'utf8'));
 
             // Prepare repo data for AI (get language from original stars data)
-            const repoData = unclassifiedRepos.map(repo => {
+            const repoData = reposToClassify.map(repo => {
               const starRepo = starsData ? starsData.find(s => s.repo === repo.repo) : null;
               return {
                 repo: repo.repo,
@@ -127,10 +144,10 @@ jobs:
               };
             });
 
-            // Write repo data for AI
-            fs.writeFileSync('.github-stars/data/repos-to-classify.json', JSON.stringify(repoData, null, 2));
+            // Store repo data directly in output for next steps
             core.setOutput('has_repos', 'true');
-            core.setOutput('repo_count', unclassifiedRepos.length);
+            core.setOutput('repo_count', reposToClassify.length);
+            core.setOutput('repo_data', JSON.stringify(repoData));
 
       - name: Debug outputs
         run: |
@@ -140,13 +157,9 @@ jobs:
       - name: Check if classification is needed
         if: steps.prep_repos.outputs.has_repos == 'true'
         run: |
-          echo "Found repositories to classify"
-          if [ ! -f ".github-stars/data/repos-to-classify.json" ]; then
-            echo "ERROR: repos-to-classify.json was not created!"
-            exit 1
-          fi
+          echo "Found ${{ steps.prep_repos.outputs.repo_count }} repositories to classify"
           echo "Repos to classify:"
-          cat .github-stars/data/repos-to-classify.json
+          echo '${{ steps.prep_repos.outputs.repo_data }}' | jq .
 
       - name: Create system prompt file
         if: steps.prep_repos.outputs.has_repos == 'true'
@@ -222,7 +235,6 @@ jobs:
         if: steps.prep_repos.outputs.has_repos == 'true'
         run: |
           SYSTEM_PROMPT=$(cat .github-stars/data/classification-system-prompt.txt)
-          REPOS_DATA=$(cat .github-stars/data/repos-to-classify.json)
           
           # GitHub Actions multiline output
           echo "system_prompt<<EOF" >> $GITHUB_OUTPUT
@@ -232,7 +244,7 @@ jobs:
           echo "prompt<<EOF" >> $GITHUB_OUTPUT
           echo "Please classify the following repositories according to the system prompt instructions:" >> $GITHUB_OUTPUT
           echo "" >> $GITHUB_OUTPUT
-          echo "$REPOS_DATA" >> $GITHUB_OUTPUT
+          echo '${{ steps.prep_repos.outputs.repo_data }}' >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
           
       - name: AI classify repositories  
@@ -279,7 +291,7 @@ jobs:
           
           Original repo data:
           EOF
-          cat .github-stars/data/repos-to-classify.json >> .github-stars/data/validation-prompt.txt
+          echo '${{ steps.prep_repos.outputs.repo_data }}' >> .github-stars/data/validation-prompt.txt
           echo "" >> .github-stars/data/validation-prompt.txt
           echo "AI Classifications:" >> .github-stars/data/validation-prompt.txt
           echo '${{ steps.ai_classify.outputs.response }}' >> .github-stars/data/validation-prompt.txt
@@ -382,6 +394,14 @@ jobs:
                 manifestData.repositories[repoIndex].tags = classification.tags || [];
                 manifestData.repositories[repoIndex].framework = classification.framework;
                 manifestData.repositories[repoIndex].needs_review = false;
+                
+                // Add AI classification metadata for audit trail
+                manifestData.repositories[repoIndex].ai_classification = {
+                  model: 'openai/gpt-4o',
+                  timestamp: new Date().toISOString(),
+                  prompt_version: '3.0.0'
+                };
+                
                 classifiedCount++;
                 
                 console.log(`Classified ${classification.repo}: ${classification.categories.join(', ')}`);
@@ -457,7 +477,7 @@ jobs:
 
       - name: Clean up temp files
         if: always()
-        run: rm -f .github-stars/data/manifest.json .github-stars/data/repos-to-classify.json .github-stars/data/classification-system-prompt.txt .github-stars/data/validation-prompt.txt
+        run: rm -f .github-stars/data/manifest.json .github-stars/data/classification-system-prompt.txt .github-stars/data/validation-prompt.txt
 
       - name: Validate classified manifest
         if: steps.apply_classification.outputs.classified_count && steps.apply_classification.outputs.classified_count > 0

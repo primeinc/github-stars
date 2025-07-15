@@ -90,12 +90,11 @@ jobs:
             }
             
             console.log(`Found ${starsData.length} starred repositories`);
-
-            // Apply test limit if specified
+            
+            // Note: test limit is applied to needs_review flag later, not to data sync
             const testLimit = parseInt(process.env.TEST_LIMIT || '0');
-            if (testLimit > 0 && starsData.length > testLimit) {
-              console.log(`Limiting to first ${testLimit} repos for testing`);
-              starsData = starsData.slice(0, testLimit);
+            if (testLimit > 0) {
+              console.log(`⚠️  TEST MODE: Will sync ALL repos but only mark first ${testLimit} for AI classification`);
             }
 
             return starsData;
@@ -202,7 +201,10 @@ jobs:
                 return cleaned;
               };
               
-              const newRepoEntries = newRepos.map(repo => ({
+              // Apply test limit to needs_review flag for throttling AI classification
+              const testLimit = parseInt(process.env.TEST_LIMIT || '0');
+              
+              const newRepoEntries = newRepos.map((repo, index) => ({
                 repo: repo.repo,
                 categories: ["unclassified"],
                 tags: [],
@@ -213,7 +215,10 @@ jobs:
                 readme_quality: "missing",
                 archived: Boolean(repo.archived),
                 fork: Boolean(repo.fork),
-                needs_review: true
+                // Use needs_review as throttling mechanism:
+                // - If no test limit: needs_review = true (process all)
+                // - If test limit: needs_review = true only for first X repos
+                needs_review: testLimit === 0 || index < testLimit
               }));
 
               manifestData.repositories.push(...newRepoEntries);
