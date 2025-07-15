@@ -112,6 +112,9 @@ jobs:
             if (!manifestData.manifest_metadata) {
               manifestData.manifest_metadata = {};
             }
+            
+            // Set correct github user from context
+            manifestData.manifest_metadata.github_user = context.repo.owner;
 
             console.log(`Starred repos: ${starsData.length}`);
             console.log(`Manifest repos: ${manifestData.repositories.length}`);
