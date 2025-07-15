@@ -202,7 +202,7 @@ jobs:
               };
               
               // Apply test limit to needs_review flag for throttling AI classification
-              const testLimit = parseInt(process.env.TEST_LIMIT || '0');
+              // testLimit already defined above at line 95
               
               const newRepoEntries = newRepos.map((repo, index) => ({
                 repo: repo.repo,
@@ -267,10 +267,18 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add repos.yml
+          # Determine commit message based on test limit
+          TEST_LIMIT="${{ github.event.inputs.test_limit }}"
+          if [ "$TEST_LIMIT" = "0" ] || [ -z "$TEST_LIMIT" ]; then
+            LIMIT_MSG="all marked for AI review"
+          else
+            LIMIT_MSG="first $TEST_LIMIT marked for AI review"
+          fi
+          
           git commit -m "🌟 Sync ${{ steps.diff.outputs.total_new }} new starred repositories
 
           - Added ${{ steps.diff.outputs.total_new }} new repositories  
-          - All new repos marked as 'unclassified' for AI review
+          - Categories set to 'unclassified', $LIMIT_MSG
           - Updated manifest metadata timestamp
 
           🤖 Generated with [Claude Code](https://claude.ai/code)

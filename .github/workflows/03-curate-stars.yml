@@ -8,6 +8,10 @@ on:
         description: 'Skip AI validation step (cost savings)'
         type: boolean
         default: false
+      bulk_process_limit:
+        description: 'Process existing unclassified repos (0 = only new repos marked for review)'
+        type: number
+        default: 0
   workflow_run:
     workflows: ["Sync Starred Repos"]
     types:
@@ -89,30 +93,52 @@ jobs:
             const manifestJson = execSync('./yq eval -o=json -', { input: yamlContent, encoding: 'utf8' });
             const manifestData = JSON.parse(manifestJson);
 
-            // Find repositories that have never been AI classified AND are marked for review
-            const reposToClassify = manifestData.repositories.filter(repo => {
-              // Never been AI classified if ai_classification is missing or timestamp is null
-              const neverClassified = !repo.ai_classification || !repo.ai_classification.timestamp;
-              
-              // Must be explicitly marked for review (throttling mechanism)
-              const markedForReview = repo.needs_review === true;
-              
-              // Only classify if BOTH conditions are met
-              return neverClassified && markedForReview;
-            });
-
-            console.log(`Found ${reposToClassify.length} repositories that have never been AI classified`);
+            // Find repositories that have never been AI classified
+            const bulkProcessLimit = parseInt('${{ github.event.inputs.bulk_process_limit }}' || '0');
             
+            let reposToClassify;
+            if (bulkProcessLimit > 0) {
+              // Bulk processing mode: process up to X unclassified repos regardless of needs_review
+              console.log(`📦 BULK PROCESSING MODE: Will process up to ${bulkProcessLimit} unclassified repos`);
+              
+              const unclassifiedRepos = manifestData.repositories.filter(repo => {
+                return !repo.ai_classification || !repo.ai_classification.timestamp;
+              });
+              
+              // Take first X unclassified repos
+              reposToClassify = unclassifiedRepos.slice(0, bulkProcessLimit);
+            } else {
+              // Normal mode: only process repos marked for review
+              reposToClassify = manifestData.repositories.filter(repo => {
+                // Never been AI classified if ai_classification is missing or timestamp is null
+                const neverClassified = !repo.ai_classification || !repo.ai_classification.timestamp;
+                
+                // Must be explicitly marked for review (throttling mechanism)
+                const markedForReview = repo.needs_review === true;
+                
+                // Only classify if BOTH conditions are met
+                return neverClassified && markedForReview;
+              });
+            }
+
             // Log breakdown for debugging
             const totalRepos = manifestData.repositories.length;
             const alreadyClassified = manifestData.repositories.filter(r => r.ai_classification && r.ai_classification.timestamp).length;
             const needsReviewCount = manifestData.repositories.filter(r => r.needs_review === true).length;
+            const unclassifiedTotal = manifestData.repositories.filter(r => !r.ai_classification || !r.ai_classification.timestamp).length;
             
             console.log(`📊 Repository breakdown:`);
             console.log(`  Total repos: ${totalRepos}`);
             console.log(`  Already AI classified: ${alreadyClassified}`);
+            console.log(`  Never classified: ${unclassifiedTotal}`);
             console.log(`  Marked needs_review: ${needsReviewCount}`);
-            console.log(`  Ready for classification: ${reposToClassify.length}`);
+            console.log(`  Selected for processing: ${reposToClassify.length}`);
+            
+            if (bulkProcessLimit > 0) {
+              console.log(`📦 BULK MODE: Processing ${reposToClassify.length} of ${unclassifiedTotal} unclassified repos`);
+            } else {
+              console.log(`🎯 NORMAL MODE: Processing ${reposToClassify.length} repos marked for review`);
+            }
 
             if (reposToClassify.length === 0) {
               console.log('No repositories need classification');
@@ -493,7 +519,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add repos.yml
-          git commit -m "🤖 AI classify ${{ steps.apply_classification.outputs.classified_count }} repositories [skip ci]
+          
+          # Determine commit message based on processing mode
+          BULK_LIMIT="${{ github.event.inputs.bulk_process_limit }}"
+          if [ "$BULK_LIMIT" = "0" ] || [ -z "$BULK_LIMIT" ]; then
+            MODE="normal processing"
+          else
+            MODE="bulk processing (limit: $BULK_LIMIT)"
+          fi
+          
+          git commit -m "🤖 AI classify ${{ steps.apply_classification.outputs.classified_count }} repositories ($MODE) [skip ci]
 
           - Automatically categorized repositories using AI classification
           - Updated framework detection and tagging
