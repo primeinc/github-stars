@@ -96,9 +96,13 @@ jobs:
               return;
             }
             
-            // Read YAML and convert to JSON using yq directly in memory
+            // Read YAML and convert to JSON using yq with larger buffer
             const yamlContent = fs.readFileSync('repos.yml', 'utf8');
-            const manifestJson = execSync('./yq eval -o=json -', { input: yamlContent, encoding: 'utf8' });
+            const manifestJson = execSync('./yq eval -o=json -', { 
+              input: yamlContent, 
+              encoding: 'utf8',
+              maxBuffer: 50 * 1024 * 1024  // 50MB buffer
+            });
             const manifestData = JSON.parse(manifestJson);
 
             // Find repositories that need AI classification
@@ -439,7 +443,11 @@ jobs:
 
             // Read current manifest
             const yamlContent = fs.readFileSync('repos.yml', 'utf8');
-            const manifestJson = execSync('./yq eval -o=json -', { input: yamlContent, encoding: 'utf8' });
+            const manifestJson = execSync('./yq eval -o=json -', { 
+              input: yamlContent, 
+              encoding: 'utf8',
+              maxBuffer: 50 * 1024 * 1024  // 50MB buffer
+            });
             const manifestData = JSON.parse(manifestJson);
 
             // Apply classifications
