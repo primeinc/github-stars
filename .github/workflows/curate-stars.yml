@@ -87,11 +87,6 @@ jobs:
         run: |
           mkdir -p .github-stars/data
 
-      - name: Convert manifest to JSON for processing
-        uses: mikefarah/yq@v4.46.1
-        with:
-          cmd: yq eval '.' repos.yml -o=json > .github-stars/data/manifest.json
-
       - name: Update manifest with new repositories
         id: diff
         uses: actions/github-script@v7
@@ -99,8 +94,13 @@ jobs:
           github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
+            const { execSync } = require('child_process');
             const starsData = ${{ steps.read_stars.outputs.result }};
-            const manifestData = JSON.parse(fs.readFileSync('.github-stars/data/manifest.json', 'utf8')) || { repositories: [] };
+            
+            // Read YAML and convert to JSON using yq directly in memory
+            const yamlContent = fs.readFileSync('repos.yml', 'utf8');
+            const manifestJson = execSync('yq eval -o=json -', { input: yamlContent, encoding: 'utf8' });
+            const manifestData = JSON.parse(manifestJson) || { repositories: [] };
             
             // Ensure required objects exist
             if (!manifestData.repositories) {
@@ -262,18 +262,18 @@ jobs:
         run: |
           mkdir -p .github-stars/data
 
-      - name: Convert updated manifest to JSON for AI processing
-        uses: mikefarah/yq@v4.46.1
-        with:
-          cmd: yq eval '.' repos.yml -o=json > .github-stars/data/manifest.json
-
       - name: Prepare repositories for AI classification
         id: prep_repos
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
-            const manifestData = JSON.parse(fs.readFileSync('.github-stars/data/manifest.json', 'utf8'));
+            const { execSync } = require('child_process');
+            
+            // Read YAML and convert to JSON using yq directly in memory
+            const yamlContent = fs.readFileSync('repos.yml', 'utf8');
+            const manifestJson = execSync('yq eval -o=json -', { input: yamlContent, encoding: 'utf8' });
+            const manifestData = JSON.parse(manifestJson);
 
             // Find repositories that need review
             const unclassifiedRepos = manifestData.repositories.filter(repo => 
