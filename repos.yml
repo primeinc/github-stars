@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2025-07-15T10:50:34.025Z"
+  last_updated: "2025-07-15T10:51:20.223Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -28559,13 +28559,21 @@ repositories:
       mirror_url: null
   - repo: filp/whoops
     categories:
-      - unclassified
-    tags: []
+      - development-tools
+      - debugging
+      - error-handling
+    tags:
+      - error-handling
+      - php
+      - debugging-tools
+      - developer-friendly
+      - hacktoberfest
+      - lang:php
     summary: PHP errors for cool kids
     last_synced_sha: 5f9ed7ca9a65367f8c084dc069693a67a32f33d0
     starred_at: "2014-10-19T00:27:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -28584,15 +28592,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:51:20.223Z"
+      prompt_version: v1
   - repo: Seldaek/monolog
     categories:
-      - unclassified
-    tags: []
+      - development-tools
+      - logging
+    tags:
+      - logging
+      - multi-channel
+      - psr-3
+      - hacktoberfest
+      - lang:php
     summary: Sends your logs to files, sockets, inboxes, databases and various web services
     last_synced_sha: 2e97231b969e0ffdeff03329b808945b4ba55e38
     starred_at: "2014-10-19T00:13:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -28612,15 +28631,25 @@ repositories:
         published_at: "2025-03-24T10:02:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:51:20.223Z"
+      prompt_version: v1
   - repo: katzgrau/KLogger
     categories:
-      - unclassified
-    tags: []
+      - development-tools
+      - logging
+    tags:
+      - logging
+      - debugging
+      - lightweight
+      - lang:php
     summary: A Simple Logging Class For PHP
     last_synced_sha: 36481c69db9305169a2ceadead25c2acaabd567c
     starred_at: "2014-10-19T00:11:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -28633,15 +28662,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:51:20.223Z"
+      prompt_version: v1
   - repo: sebastianbergmann/phploc
     categories:
-      - unclassified
-    tags: []
+      - development-tools
+      - code-analysis
+    tags:
+      - php
+      - code-metrics
+      - size-analysis
+      - lang:php
     summary: A tool for quickly measuring the size of a PHP project.
     last_synced_sha: 5ef5995148aac195029dae2b12bb1608daa89fea
     starred_at: "2014-10-18T23:54:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: PHP
@@ -28655,15 +28694,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:51:20.223Z"
+      prompt_version: v1
   - repo: vladikoff/chromeos-apk
     categories:
-      - unclassified
-    tags: []
+      - tools
+      - desktop
+      - android-apps
+    tags:
+      - android
+      - chrome
+      - cross-platform
+      - app-runner
+      - lang:js
     summary: ☢️ Run Android Apps in Chrome OS OR Chrome in OS X, Linux and Windows.
     last_synced_sha: f13a94d2c08c68d3a1a298ec24e8fab031bbb3f6
     starred_at: "2014-10-18T10:09:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -28678,6 +28729,11 @@ repositories:
         published_at: "2014-10-16T02:46:45Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:51:20.222Z"
+      prompt_version: v1
   - repo: t4t5/sweetalert
     categories:
       - ui-libraries
