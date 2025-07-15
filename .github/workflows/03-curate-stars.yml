@@ -103,13 +103,18 @@ jobs:
                !repo.ai_classification.timestamp)
             );
 
-            // Apply batch limit if specified
+            // Apply batch limit - default to 20 for automatic runs
             const batchLimit = parseInt(process.env.BATCH_LIMIT || '20');
-            const unclassifiedRepos = batchLimit > 0 ? 
+            console.log(`DEBUG: BATCH_LIMIT env var = '${process.env.BATCH_LIMIT}'`);
+            console.log(`DEBUG: parsed batchLimit = ${batchLimit}`);
+            console.log(`DEBUG: allUnclassifiedRepos.length = ${allUnclassifiedRepos.length}`);
+            
+            // Always apply limit unless explicitly set to 0
+            const unclassifiedRepos = (batchLimit === 0) ? 
+              allUnclassifiedRepos :
               allUnclassifiedRepos
                 .sort((a, b) => new Date(a.starred_at) - new Date(b.starred_at)) // Oldest first
-                .slice(0, batchLimit) : 
-              allUnclassifiedRepos;
+                .slice(0, batchLimit);
 
             if (batchLimit > 0) {
               console.log(`🔄 BATCH MODE: Processing ${unclassifiedRepos.length} of ${allUnclassifiedRepos.length} repositories needing classification`);
