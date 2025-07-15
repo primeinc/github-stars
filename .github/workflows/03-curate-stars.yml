@@ -3,15 +3,6 @@ name: 'Curate Starred Repos'
 
 on:
   workflow_dispatch:
-    inputs:
-      skip_validation:
-        description: 'Skip AI validation step (cost savings)'
-        type: boolean
-        default: false
-      bulk_process_limit:
-        description: 'Process existing unclassified repos (0 = only new repos marked for review)'
-        type: number
-        default: 0
   workflow_run:
     workflows: ["Sync Starred Repos"]
     types:
@@ -73,8 +64,8 @@ jobs:
           wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
           chmod +x ./yq
 
-      - name: AI classify repositories (consolidated)
-        id: ai_classify_consolidated
+      - name: Prepare repositories for AI classification
+        id: prep_repos
         uses: actions/github-script@v7
         with:
           script: |
@@ -84,7 +75,7 @@ jobs:
             // Check if repos.yml exists
             if (!fs.existsSync('repos.yml')) {
               console.log('repos.yml not found. Nothing to classify.');
-              core.setOutput('classified_count', 0);
+              core.setOutput('has_repos', 'false');
               return;
             }
             
@@ -93,56 +84,17 @@ jobs:
             const manifestJson = execSync('./yq eval -o=json -', { input: yamlContent, encoding: 'utf8' });
             const manifestData = JSON.parse(manifestJson);
 
-            // Find repositories that have never been AI classified
-            const bulkProcessLimit = parseInt('${{ github.event.inputs.bulk_process_limit }}' || '0');
-            
-            let reposToClassify;
-            if (bulkProcessLimit > 0) {
-              // Bulk processing mode: process up to X unclassified repos regardless of needs_review
-              console.log(`📦 BULK PROCESSING MODE: Will process up to ${bulkProcessLimit} unclassified repos`);
-              
-              const unclassifiedRepos = manifestData.repositories.filter(repo => {
-                return !repo.ai_classification || !repo.ai_classification.timestamp;
-              });
-              
-              // Take first X unclassified repos
-              reposToClassify = unclassifiedRepos.slice(0, bulkProcessLimit);
-            } else {
-              // Normal mode: only process repos marked for review
-              reposToClassify = manifestData.repositories.filter(repo => {
-                // Never been AI classified if ai_classification is missing or timestamp is null
-                const neverClassified = !repo.ai_classification || !repo.ai_classification.timestamp;
-                
-                // Must be explicitly marked for review (throttling mechanism)
-                const markedForReview = repo.needs_review === true;
-                
-                // Only classify if BOTH conditions are met
-                return neverClassified && markedForReview;
-              });
-            }
+            // Find repositories that need review
+            const unclassifiedRepos = manifestData.repositories.filter(repo => 
+              repo.needs_review === true && 
+              repo.categories.includes('unclassified')
+            );
 
-            // Log breakdown for debugging
-            const totalRepos = manifestData.repositories.length;
-            const alreadyClassified = manifestData.repositories.filter(r => r.ai_classification && r.ai_classification.timestamp).length;
-            const needsReviewCount = manifestData.repositories.filter(r => r.needs_review === true).length;
-            const unclassifiedTotal = manifestData.repositories.filter(r => !r.ai_classification || !r.ai_classification.timestamp).length;
-            
-            console.log(`📊 Repository breakdown:`);
-            console.log(`  Total repos: ${totalRepos}`);
-            console.log(`  Already AI classified: ${alreadyClassified}`);
-            console.log(`  Never classified: ${unclassifiedTotal}`);
-            console.log(`  Marked needs_review: ${needsReviewCount}`);
-            console.log(`  Selected for processing: ${reposToClassify.length}`);
-            
-            if (bulkProcessLimit > 0) {
-              console.log(`📦 BULK MODE: Processing ${reposToClassify.length} of ${unclassifiedTotal} unclassified repos`);
-            } else {
-              console.log(`🎯 NORMAL MODE: Processing ${reposToClassify.length} repos marked for review`);
-            }
+            console.log(`Found ${unclassifiedRepos.length} repositories needing AI classification`);
 
-            if (reposToClassify.length === 0) {
+            if (unclassifiedRepos.length === 0) {
               console.log('No repositories need classification');
-              core.setOutput('classified_count', 0);
+              core.setOutput('has_repos', 'false');
               return;
             }
             
@@ -160,7 +112,7 @@ jobs:
             const starsData = JSON.parse(fs.readFileSync(starsDataPath, 'utf8'));
 
             // Prepare repo data for AI (get language from original stars data)
-            const repoData = reposToClassify.map(repo => {
+            const repoData = unclassifiedRepos.map(repo => {
               const starRepo = starsData ? starsData.find(s => s.repo === repo.repo) : null;
               return {
                 repo: repo.repo,
@@ -170,135 +122,211 @@ jobs:
               };
             });
 
-            console.log(`Found ${repoData.length} repositories to classify`);
+            // Write repo data for AI
+            fs.writeFileSync('.github-stars/data/repos-to-classify.json', JSON.stringify(repoData, null, 2));
+            core.setOutput('has_repos', 'true');
+            core.setOutput('repo_count', unclassifiedRepos.length);
 
-            // Create system prompt
-            const systemPrompt = `Classify GitHub repositories thoughtfully. Output ONLY a JSON array.
-            
-            SUGGESTED CATEGORIES (use these or create more specific ones):
-            dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, cli-tools, devops, infrastructure, analytics, visualization, education, media, graphics, audio, video, iot, blockchain, crypto, finance, health, science, math, algorithms, compilers, languages, operating-systems, virtualization, backup, storage, messaging, search, cms, e-commerce, social, communication
-            
-            COMMON FRAMEWORKS (use if applicable):
-            react, vue, angular, svelte, nextjs, nuxtjs, express, fastapi, django, flask, rails, laravel, spring
-            
-            LANGUAGE TAGS (use these exact formats when language is known):
-            lang:js, lang:ts, lang:python, lang:rust, lang:go, lang:csharp, lang:php, lang:dart, lang:lua, lang:gdscript, lang:java, lang:kotlin, lang:swift, lang:ruby, lang:cpp, lang:c
-            
-            GUIDELINES:
-            - Use 2-4 most relevant categories (be generous, repos often fit multiple categories)
-            - Add 3-6 descriptive tags that capture the essence of the repo
-            - Create new categories if existing ones don't fit well
-            - Only set framework if the repo is specifically built with/for that framework
-            - Include language tag only when provided in input data
-            - Be creative and specific with tags (e.g., "infinite-canvas", "local-first", "markdown-editor")
-            - Think about how someone might search for this repo
-            
-            STRICT RULES:
-            1. framework: Must be EXACTLY one of the allowed frameworks OR null (not "null" string)
-            2. categories: Array of 1-3 strings from ALLOWED CATEGORIES only
-            3. tags: Include lang:X tag ONLY if language is provided in input data
-            4. If input language is null/empty: DO NOT add any lang: tag
-            5. CRITICAL: Output ONLY the JSON array. First character must be [, last character must be ]
-            6. DO NOT include any text, markdown formatting, backticks, or explanations
-            7. DO NOT say "Here is the classification" or similar phrases
-            8. START YOUR RESPONSE WITH [ AND END WITH ]`;
+      - name: Debug outputs
+        run: |
+          echo "has_repos output: ${{ steps.prep_repos.outputs.has_repos }}"
+          echo "repo_count output: ${{ steps.prep_repos.outputs.repo_count }}"
+          
+      - name: Check if classification is needed
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        run: |
+          echo "Found repositories to classify"
+          if [ ! -f ".github-stars/data/repos-to-classify.json" ]; then
+            echo "ERROR: repos-to-classify.json was not created!"
+            exit 1
+          fi
+          echo "Repos to classify:"
+          cat .github-stars/data/repos-to-classify.json
 
-            // Create classification prompt
-            const classificationPrompt = `Please classify the following repositories according to the system prompt instructions:
+      - name: Create system prompt file
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        run: |
+          cat > .github-stars/data/classification-system-prompt.txt << 'EOF'
+          Classify GitHub repositories thoughtfully. Output ONLY a JSON array.
+          
+          SUGGESTED CATEGORIES (use these or create more specific ones):
+          dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, cli-tools, devops, infrastructure, analytics, visualization, education, media, graphics, audio, video, iot, blockchain, crypto, finance, health, science, math, algorithms, compilers, languages, operating-systems, virtualization, backup, storage, messaging, search, cms, e-commerce, social, communication
+          
+          COMMON FRAMEWORKS (use if applicable):
+          react, vue, angular, svelte, nextjs, nuxtjs, express, fastapi, django, flask, rails, laravel, spring
+          
+          LANGUAGE TAGS (use these exact formats when language is known):
+          lang:js, lang:ts, lang:python, lang:rust, lang:go, lang:csharp, lang:php, lang:dart, lang:lua, lang:gdscript, lang:java, lang:kotlin, lang:swift, lang:ruby, lang:cpp, lang:c
+          
+          GUIDELINES:
+          - Use 2-4 most relevant categories (be generous, repos often fit multiple categories)
+          - Add 3-6 descriptive tags that capture the essence of the repo
+          - Create new categories if existing ones don't fit well
+          - Only set framework if the repo is specifically built with/for that framework
+          - Include language tag only when provided in input data
+          - Be creative and specific with tags (e.g., "infinite-canvas", "local-first", "markdown-editor")
+          - Think about how someone might search for this repo
+          
+          EXAMPLES OF CORRECT OUTPUT:
+          [
+            {
+              "repo": "microsoft/vscode",
+              "categories": ["dev-tools", "productivity", "editors"],
+              "tags": ["code-editor", "ide", "extensible", "electron", "lang:ts"],
+              "framework": null
+            },
+            {
+              "repo": "facebook/react",
+              "categories": ["frameworks", "ui-libraries", "web-dev", "frontend"],
+              "tags": ["component-based", "virtual-dom", "jsx", "declarative", "lang:js"],
+              "framework": "react"
+            },
+            {
+              "repo": "actions/checkout",
+              "categories": ["automation", "devops", "ci-cd"],
+              "tags": ["github-actions", "git", "version-control", "workflow", "lang:ts"],
+              "framework": null
+            },
+            {
+              "repo": "some/readme-generator",
+              "categories": ["documentation", "automation", "dev-tools"],
+              "tags": ["markdown", "readme", "generator", "cli"],
+              "framework": null
+            },
+            {
+              "repo": "vercel/next.js",
+              "categories": ["frameworks", "web-dev", "full-stack"],
+              "tags": ["ssr", "react-framework", "jamstack", "serverless", "lang:js"],
+              "framework": "nextjs"
+            }
+          ]
+          
+          STRICT RULES:
+          1. framework: Must be EXACTLY one of the allowed frameworks OR null (not "null" string)
+          2. categories: Array of 1-3 strings from ALLOWED CATEGORIES only
+          3. tags: Include lang:X tag ONLY if language is provided in input data
+          4. If input language is null/empty: DO NOT add any lang: tag (see readme-generator example)
+          5. CRITICAL: Output ONLY the JSON array. First character must be [, last character must be ]
+          6. DO NOT include any text, markdown formatting, backticks, or explanations
+          7. DO NOT say "Here is the classification" or similar phrases
+          8. START YOUR RESPONSE WITH [ AND END WITH ]
+          EOF
 
-            ${JSON.stringify(repoData, null, 2)}`;
+      - name: Read prompts for AI
+        id: read_prompts
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        run: |
+          SYSTEM_PROMPT=$(cat .github-stars/data/classification-system-prompt.txt)
+          REPOS_DATA=$(cat .github-stars/data/repos-to-classify.json)
+          
+          # GitHub Actions multiline output
+          echo "system_prompt<<EOF" >> $GITHUB_OUTPUT
+          echo "$SYSTEM_PROMPT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+          echo "prompt<<EOF" >> $GITHUB_OUTPUT
+          echo "Please classify the following repositories according to the system prompt instructions:" >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "$REPOS_DATA" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+      - name: AI classify repositories  
+        id: ai_classify
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        uses: actions/ai-inference@v1
+        with:
+          model: 'openai/gpt-4o'
+          max-tokens: '2000'
+          system-prompt: ${{ steps.read_prompts.outputs.system_prompt }}
+          prompt: ${{ steps.read_prompts.outputs.prompt }}
 
-            // Call primary AI for classification
-            console.log('🤖 Calling primary AI for classification...');
-            const classificationResponse = await github.request('POST /models/openai/gpt-4o/inferences', {
-              input: {
-                messages: [
-                  { role: 'system', content: systemPrompt },
-                  { role: 'user', content: classificationPrompt }
-                ],
-                max_tokens: 2000
-              }
-            });
+      - name: Create validation prompt
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        run: |
+          cat > .github-stars/data/validation-prompt.txt << 'EOF'
+          RESPOND WITH ONE OF:
+          1. IF VALID: Output the CORRECTED JSON array (fixing any minor issues)
+          2. IF INVALID: Output "REJECTED: [specific issue]"
+          
+          START YOUR RESPONSE WITH EITHER [ (for JSON) OR "REJECTED:" (for rejection)
+          
+          Validation criteria:
+          - Categories should be relevant and descriptive (can use suggested ones or create new)
+          - Frameworks must be from common list OR null
+          - Tags MUST match pattern: ^([a-z]+:)?[a-z0-9][a-z0-9-]*$
+            Valid examples: "web-scraping", "lang:js", "real-estate", "open-source"
+            Invalid examples: "Web-Scraping", "lang:JavaScript", "real_estate", "open source"
+          - No language tag should exist if input language was null
+          - Classifications should help with discovery and organization
+          
+          FIX minor issues like:
+          - lang:c# → lang:csharp
+          - PascalCase tags → kebab-case
+          - Too few tags (add more descriptive ones)
+          - Overly generic categories (make more specific)
+          
+          DO NOT change abbreviated language tags (keep lang:js, lang:ts as is - do NOT expand to lang:javascript)
+          
+          If classifications have minor fixable issues (like lang:c# → lang:csharp), FIX THEM and return the corrected JSON.
+          Only reject if there are unfixable issues.
+          
+          Original repo data:
+          EOF
+          cat .github-stars/data/repos-to-classify.json >> .github-stars/data/validation-prompt.txt
+          echo "" >> .github-stars/data/validation-prompt.txt
+          echo "AI Classifications:" >> .github-stars/data/validation-prompt.txt
+          echo '${{ steps.ai_classify.outputs.response }}' >> .github-stars/data/validation-prompt.txt
 
-            let aiClassificationResult = classificationResponse.data.choices[0].message.content.trim();
+      - name: Read validation prompt
+        id: read_validation
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        run: |
+          VALIDATION_PROMPT=$(cat .github-stars/data/validation-prompt.txt)
+          
+          # GitHub Actions multiline output
+          echo "prompt<<EOF" >> $GITHUB_OUTPUT
+          echo "$VALIDATION_PROMPT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+      - name: Validate AI classifications
+        id: ai_validate
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        uses: actions/ai-inference@v1
+        with:
+          model: 'openai/gpt-4o'
+          max-tokens: '2500'
+          system-prompt: 'You are a classification validator. Fix minor issues and return corrected JSON, or reject with specific reasons.'
+          prompt: ${{ steps.read_validation.outputs.prompt }}
+
+      - name: Apply AI classification results
+        id: apply_classification
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const { execSync } = require('child_process');
+            
+            // Check validation result first - escape backticks to prevent syntax errors
+            let validationResult = String.raw`${{ steps.ai_validate.outputs.response }}`.trim();
             
             // Strip any markdown formatting if AI didn't follow instructions
-            aiClassificationResult = aiClassificationResult.replace(/^```json\s*/i, '').replace(/\s*```$/i, '').trim();
+            validationResult = validationResult.replace(/^```json\s*/i, '').replace(/\s*```$/i, '').trim();
+            console.log('Validation Result:', validationResult);
             
-            console.log('AI Classification Result:', aiClassificationResult);
-
             let finalClassifications;
-            const skipValidation = '${{ github.event.inputs.skip_validation }}' === 'true';
-
-            if (skipValidation) {
-              console.log('⚠️ Validation skipped - using original AI classifications');
-              finalClassifications = aiClassificationResult;
+            
+            if (validationResult.startsWith('REJECTED:')) {
+              core.setFailed(`AI classifications rejected by validator: ${validationResult}`);
+              return;
+            } else if (validationResult.startsWith('[')) {
+              // Validator provided corrected JSON
+              console.log('✅ Using validator-corrected classifications');
+              finalClassifications = validationResult;
             } else {
-              // Create validation prompt
-              const validationPrompt = `RESPOND WITH ONE OF:
-              1. IF VALID: Output the CORRECTED JSON array (fixing any minor issues)
-              2. IF INVALID: Output "REJECTED: [specific issue]"
-              
-              START YOUR RESPONSE WITH EITHER [ (for JSON) OR "REJECTED:" (for rejection)
-              
-              Validation criteria:
-              - Categories should be relevant and descriptive (can use suggested ones or create new)
-              - Frameworks must be from common list OR null
-              - Tags MUST match pattern: ^([a-z]+:)?[a-z0-9][a-z0-9-]*$
-                Valid examples: "web-scraping", "lang:js", "real-estate", "open-source"
-                Invalid examples: "Web-Scraping", "lang:JavaScript", "real_estate", "open source"
-              - No language tag should exist if input language was null
-              - Classifications should help with discovery and organization
-              
-              FIX ONLY these specific issues:
-              - lang:c# → lang:csharp (special character fix)
-              - PascalCase → kebab-case (e.g., "WebScraping" → "web-scraping")
-              - Spaces in tags → hyphens (e.g., "open source" → "open-source")
-              
-              DO NOT CHANGE:
-              - lang:js, lang:ts, lang:go, etc. (keep abbreviated language codes AS IS)
-              - Valid kebab-case tags
-              - Categories that work
-              
-              If classifications have minor fixable issues (like lang:c# → lang:csharp), FIX THEM and return the corrected JSON.
-              Only reject if there are unfixable issues.
-              
-              Original repo data:
-              ${JSON.stringify(repoData, null, 2)}
-
-              AI Classifications:
-              ${aiClassificationResult}`;
-
-              // Call validator AI
-              console.log('🤖 Calling validator AI for review...');
-              const validationResponse = await github.request('POST /models/openai/gpt-4o/inferences', {
-                input: {
-                  messages: [
-                    { role: 'system', content: 'You are a classification validator. Fix minor issues and return corrected JSON, or reject with specific reasons.' },
-                    { role: 'user', content: validationPrompt }
-                  ],
-                  max_tokens: 2500
-                }
-              });
-
-              let validationResult = validationResponse.data.choices[0].message.content.trim();
-              
-              // Strip any markdown formatting if AI didn't follow instructions
-              validationResult = validationResult.replace(/^```json\s*/i, '').replace(/\s*```$/i, '').trim();
-              console.log('Validation Result:', validationResult);
-              
-              if (validationResult.startsWith('REJECTED:')) {
-                core.setFailed(`AI classifications rejected by validator: ${validationResult}`);
-                return;
-              } else if (validationResult.startsWith('[')) {
-                // Validator provided corrected JSON
-                console.log('✅ Using validator-corrected classifications');
-                finalClassifications = validationResult;
-              } else {
-                // Unexpected response
-                core.setFailed(`Unexpected validator response: ${validationResult}`);
-                return;
-              }
+              // Unexpected response
+              core.setFailed(`Unexpected validator response: ${validationResult}`);
+              return;
             }
             
             let classifications;
@@ -321,7 +349,12 @@ jobs:
               return;
             }
 
-            // Apply classifications to manifest
+            // Read current manifest
+            const yamlContent = fs.readFileSync('repos.yml', 'utf8');
+            const manifestJson = execSync('./yq eval -o=json -', { input: yamlContent, encoding: 'utf8' });
+            const manifestData = JSON.parse(manifestJson);
+
+            // Apply classifications
             let classifiedCount = 0;
             let notFoundRepos = [];
             
@@ -332,14 +365,6 @@ jobs:
                 manifestData.repositories[repoIndex].tags = classification.tags || [];
                 manifestData.repositories[repoIndex].framework = classification.framework;
                 manifestData.repositories[repoIndex].needs_review = false;
-                
-                // Add AI classification metadata for audit trail
-                manifestData.repositories[repoIndex].ai_classification = {
-                  model: 'openai/gpt-4o',
-                  timestamp: new Date().toISOString(),
-                  prompt_version: '3.0.0'
-                };
-                
                 classifiedCount++;
                 
                 console.log(`Classified ${classification.repo}: ${classification.categories.join(', ')}`);
@@ -365,30 +390,33 @@ jobs:
             }
 
             core.setOutput('classified_count', classifiedCount);
-            
-            // Store AI response for error handling
-            core.setOutput('ai_classification_response', aiClassificationResult);
-            core.setOutput('repo_count', repoData.length);
 
       - name: Create validation failure issue
-        if: failure() && steps.ai_classify_consolidated.outputs.ai_classification_response != ''
+        if: failure() && steps.ai_validate.outputs.response != ''
         uses: actions/github-script@v7
         env:
-          AI_CLASSIFY_RESPONSE: ${{ steps.ai_classify_consolidated.outputs.ai_classification_response }}
-          REPO_COUNT: ${{ steps.ai_classify_consolidated.outputs.repo_count }}
+          VALIDATION_RESULT: ${{ steps.ai_validate.outputs.response }}
+          AI_CLASSIFY_RESPONSE: ${{ steps.ai_classify.outputs.response }}
+          REPO_COUNT: ${{ steps.prep_repos.outputs.repo_count }}
         with:
           script: |
             // Get values from environment to avoid template literal issues
+            const validationResult = process.env.VALIDATION_RESULT || 'No validation result';
             const aiClassifyResponse = process.env.AI_CLASSIFY_RESPONSE || 'No classification response';
             const repoCount = process.env.REPO_COUNT || '0';
             
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `🤖 AI Classification Failed (${repoCount} repos)`,
-              body: `## AI Classification Failure
+              title: `🤖 AI Classification Validation Failed (${repoCount} repos)`,
+              body: `## AI Classification Validation Failure
               
-              **AI Classification Response:**
+              **Validation Result:**
+              \`\`\`
+              ${validationResult}
+              \`\`\`
+              
+              **Original Classifications:**
               \`\`\`json
               ${aiClassifyResponse}
               \`\`\`
@@ -397,7 +425,7 @@ jobs:
               ${repoCount} repositories need manual classification.
               
               **Next Steps:**
-              1. Review the AI classification response
+              1. Review the validation feedback
               2. Manually classify the repositories
               3. Update the classification prompts if needed
               
@@ -406,16 +434,16 @@ jobs:
             });
 
       - name: Convert classified manifest to YAML
-        if: steps.ai_classify_consolidated.outputs.classified_count && steps.ai_classify_consolidated.outputs.classified_count > 0
+        if: steps.apply_classification.outputs.classified_count && steps.apply_classification.outputs.classified_count > 0
         run: |
           ./yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
 
       - name: Clean up temp files
         if: always()
-        run: rm -f .github-stars/data/manifest.json
+        run: rm -f .github-stars/data/manifest.json .github-stars/data/repos-to-classify.json .github-stars/data/classification-system-prompt.txt .github-stars/data/validation-prompt.txt
 
       - name: Validate classified manifest
-        if: steps.ai_classify_consolidated.outputs.classified_count && steps.ai_classify_consolidated.outputs.classified_count > 0
+        if: steps.apply_classification.outputs.classified_count && steps.apply_classification.outputs.classified_count > 0
         uses: cardinalby/schema-validator-action@v3
         with:
           schema: 'schemas/repos-schema.json'
@@ -423,21 +451,12 @@ jobs:
           mode: 'lax'
 
       - name: Commit AI classification results
-        if: steps.ai_classify_consolidated.outputs.classified_count && steps.ai_classify_consolidated.outputs.classified_count > 0
+        if: steps.apply_classification.outputs.classified_count && steps.apply_classification.outputs.classified_count > 0
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add repos.yml
-          
-          # Determine commit message based on processing mode
-          BULK_LIMIT="${{ github.event.inputs.bulk_process_limit }}"
-          if [ "$BULK_LIMIT" = "0" ] || [ -z "$BULK_LIMIT" ]; then
-            MODE="normal processing"
-          else
-            MODE="bulk processing (limit: $BULK_LIMIT)"
-          fi
-          
-          git commit -m "🤖 AI classify ${{ steps.ai_classify_consolidated.outputs.classified_count }} repositories ($MODE) [skip ci]
+          git commit -m "🤖 AI classify ${{ steps.apply_classification.outputs.classified_count }} repositories [skip ci]
 
           - Automatically categorized repositories using AI classification
           - Updated framework detection and tagging
