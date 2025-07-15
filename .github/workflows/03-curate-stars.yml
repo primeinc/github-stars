@@ -171,32 +171,32 @@ jobs:
           [
             {
               "repo": "microsoft/vscode",
-              "categories": ["dev-tools", "productivity"],
-              "tags": ["code-editor", "ide", "lang:ts"],
+              "categories": ["dev-tools", "productivity", "editors"],
+              "tags": ["code-editor", "ide", "extensible", "electron", "lang:ts"],
               "framework": null
             },
             {
               "repo": "facebook/react",
-              "categories": ["frameworks", "ui-libraries", "web-dev"],
-              "tags": ["frontend", "component-based", "lang:js"],
+              "categories": ["frameworks", "ui-libraries", "web-dev", "frontend"],
+              "tags": ["component-based", "virtual-dom", "jsx", "declarative", "lang:js"],
               "framework": "react"
             },
             {
               "repo": "actions/checkout",
-              "categories": ["automation", "dev-tools"],
-              "tags": ["github-actions", "ci-cd", "lang:ts"],
+              "categories": ["automation", "devops", "ci-cd"],
+              "tags": ["github-actions", "git", "version-control", "workflow", "lang:ts"],
               "framework": null
             },
             {
               "repo": "some/readme-generator",
-              "categories": ["documentation", "automation"],
-              "tags": ["markdown", "readme-automation"],
+              "categories": ["documentation", "automation", "dev-tools"],
+              "tags": ["markdown", "readme", "generator", "cli"],
               "framework": null
             },
             {
               "repo": "vercel/next.js",
-              "categories": ["frameworks", "web-dev"],
-              "tags": ["ssr", "full-stack", "lang:js"],
+              "categories": ["frameworks", "web-dev", "full-stack"],
+              "tags": ["ssr", "react-framework", "jamstack", "serverless", "lang:js"],
               "framework": "nextjs"
             }
           ]
