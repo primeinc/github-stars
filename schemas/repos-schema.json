@@ -330,6 +330,76 @@
             "type": "boolean",
             "default": false,
             "description": "Exclude from processing but keep in manifest"
+          },
+          "github_metadata": {
+            "type": "object",
+            "description": "GitHub API metadata preserved during sync",
+            "additionalProperties": false,
+            "properties": {
+              "language": {
+                "type": ["string", "null"],
+                "description": "Primary programming language"
+              },
+              "topics": {
+                "type": "array",
+                "description": "GitHub repository topics",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "stargazers_count": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "Number of stars"
+              },
+              "homepage_url": {
+                "type": ["string", "null"],
+                "format": "uri",
+                "description": "Project homepage URL"
+              },
+              "license": {
+                "type": ["string", "null"],
+                "description": "SPDX license identifier"
+              },
+              "updated_at": {
+                "type": "string",
+                "format": "date-time",
+                "description": "Last repository update timestamp"
+              },
+              "html_url": {
+                "type": "string",
+                "format": "uri",
+                "description": "GitHub repository URL"
+              },
+              "default_branch": {
+                "type": "string",
+                "description": "Default branch name"
+              },
+              "latest_release": {
+                "type": ["object", "null"],
+                "description": "Latest release information",
+                "properties": {
+                  "tag": {
+                    "type": "string",
+                    "description": "Release tag name"
+                  },
+                  "published_at": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "Release publication timestamp"
+                  }
+                }
+              },
+              "is_mirror": {
+                "type": "boolean",
+                "description": "Whether this is a mirror repository"
+              },
+              "mirror_url": {
+                "type": ["string", "null"],
+                "format": "uri",
+                "description": "Mirror source URL if applicable"
+              }
+            }
           }
         }
       }

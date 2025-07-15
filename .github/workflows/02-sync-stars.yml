@@ -194,6 +194,21 @@ jobs:
                   entry.fork = true;
                 }
                 
+                // Preserve GitHub metadata for enhanced AI classification
+                entry.github_metadata = {
+                  language: repo.language || null,
+                  topics: repo.topics || [],
+                  stargazers_count: repo.stargazers_count || 0,
+                  homepage_url: repo.homepage_url || null,
+                  license: repo.license || null,
+                  updated_at: repo.updated_at || null,
+                  html_url: repo.html_url || null,
+                  default_branch: repo.default_branch || null,
+                  latest_release: repo.latest_release || null,
+                  is_mirror: repo.is_mirror || false,
+                  mirror_url: repo.mirror_url || null
+                };
+                
                 return entry;
               });
 

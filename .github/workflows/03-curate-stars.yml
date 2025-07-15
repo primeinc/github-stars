@@ -128,21 +128,17 @@ jobs:
             console.log('  2. Validator AI will review classifications');
             console.log('  3. Only approved classifications will be applied');
 
-            // Get original stars data for language info
-            const starsDataPath = '.github-stars/data/fetched-stars-graphql.json';
-            if (!fs.existsSync(starsDataPath)) {
-              core.setFailed('Fetched stars data not found. Please run fetch-stars workflow first.');
-              return;
-            }
-            const starsData = JSON.parse(fs.readFileSync(starsDataPath, 'utf8'));
-
-            // Prepare repo data for AI (get language from original stars data)
+            // Prepare repo data for AI (use preserved GitHub metadata)
             const repoData = unclassifiedRepos.map(repo => {
-              const starRepo = starsData ? starsData.find(s => s.repo === repo.repo) : null;
+              const metadata = repo.github_metadata || {};
               return {
                 repo: repo.repo,
                 summary: repo.summary,
-                language: starRepo ? starRepo.language : null,
+                language: metadata.language || null,
+                topics: metadata.topics || [],
+                stargazers_count: metadata.stargazers_count || 0,
+                homepage_url: metadata.homepage_url || null,
+                license: metadata.license || null,
                 starred_at: repo.starred_at
               };
             });
@@ -191,6 +187,13 @@ jobs:
           - Include language tag only when provided in input data
           - Be creative and specific with tags (e.g., "infinite-canvas", "local-first", "markdown-editor")
           - Think about how someone might search for this repo
+          
+          ENHANCED METADATA USAGE:
+          - Use 'topics' array from GitHub as strong classification hints
+          - Consider 'stargazers_count' for popularity-based categorization (high stars = established/popular)
+          - Use 'license' info for open-source vs proprietary considerations
+          - Check 'homepage_url' for additional context about project purpose
+          - Language should always be used if provided (primary programming language)
           
           EXAMPLES OF CORRECT OUTPUT:
           [
@@ -250,7 +253,10 @@ jobs:
           echo "EOF" >> $GITHUB_OUTPUT
           
           echo "prompt<<EOF" >> $GITHUB_OUTPUT
-          echo "Please classify the following repositories according to the system prompt instructions:" >> $GITHUB_OUTPUT
+          echo "Please classify the following repositories according to the system prompt instructions." >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "Each repository includes enhanced metadata: language, topics, stargazers_count, homepage_url, and license." >> $GITHUB_OUTPUT
+          echo "Use this rich metadata to provide accurate classifications." >> $GITHUB_OUTPUT
           echo "" >> $GITHUB_OUTPUT
           echo "$REPOS_DATA" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
