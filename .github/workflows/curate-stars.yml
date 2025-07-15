@@ -48,7 +48,7 @@ jobs:
         with:
           schema: 'schemas/repos-schema.json'
           file: 'repos.yml'
-          mode: 'strict'
+          mode: 'strong'
 
       - name: Read fetched stars data
         id: read_stars
@@ -213,7 +213,7 @@ jobs:
         with:
           schema: 'schemas/repos-schema.json'
           file: 'repos.yml'
-          mode: 'strict'
+          mode: 'strong'
 
       - name: Create Pull Request with changes
         if: steps.diff.outputs.changed == 'true'
