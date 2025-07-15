@@ -141,7 +141,6 @@ jobs:
 
             // Find removed repos (in manifest but not in stars) (with null safety)
             // CRITICAL: Only check for removals if we're not using test limit to avoid data loss
-            const testLimit = parseInt(process.env.TEST_LIMIT || '0');
             const currentStarRepos = new Set(starsData.filter(s => s && s.repo).map(s => s.repo));
             const removedRepos = testLimit > 0 ? [] : manifestData.repositories.filter(r => r && r.repo && !currentStarRepos.has(r.repo));
 
@@ -193,7 +192,7 @@ jobs:
               };
               
               // Apply test limit to needs_review flag for throttling AI classification
-              // testLimit already defined above at line 95
+              // testLimit already defined above
               
               const newRepoEntries = newRepos.map((repo, index) => ({
                 repo: repo.repo,
