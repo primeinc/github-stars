@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2025-07-15T10:14:37.875Z"
+  last_updated: "2025-07-15T10:46:01.254Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -28815,13 +28815,20 @@ repositories:
       mirror_url: null
   - repo: brandonlw/Psychson
     categories:
-      - unclassified
-    tags: []
+      - security
+      - embedded-systems
+      - hardware-modifications
+    tags:
+      - custom-firmware
+      - usb
+      - badusb
+      - phison
+      - lang:csharp
     summary: Phison 2251-03 (2303) Custom Firmware & Existing Firmware Patches (Bad USB)
     last_synced_sha: 4522989aac27aada5f522675b33a2bde63a13b30
     starred_at: "2014-10-03T01:51:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -28836,15 +28843,26 @@ repositories:
         published_at: "2014-10-01T23:55:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:46:01.254Z"
+      prompt_version: v1
   - repo: joho/7XX-rfc
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - education
+      - humor
+    tags:
+      - http-status-codes
+      - rfc
+      - developer-humor
+      - satire
     summary: An RFC for a new series of HTTP status codes covering developer fouls.
     last_synced_sha: 295c8ff1ad264fd517f758e21da16433aabc10ec
     starred_at: "2014-09-24T06:56:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Makefile
       topics:
@@ -28859,15 +28877,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:46:01.254Z"
+      prompt_version: v1
   - repo: neurodroid/cryptonite
     categories:
-      - unclassified
-    tags: []
+      - security
+      - mobile-development
+      - cryptography
+    tags:
+      - encfs
+      - truecrypt
+      - android
+      - encryption
+      - lang:c
     summary: Enc FS and True Crypt on Android
     last_synced_sha: e086e1ab4a0022688d28086facead2276c74f9f7
     starred_at: "2014-09-23T07:02:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -28880,15 +28910,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:46:01.253Z"
+      prompt_version: v1
   - repo: markomarkovic/simple-php-git-deploy
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - devops
+      - deployment
+    tags:
+      - git-deploy
+      - automation
+      - deploy-tools
+      - lang:php
     summary: Automatically deploy the code using PHP and Git
     last_synced_sha: 4b390e94d334b1da175ce6f7d7f3a9c89d68794c
     starred_at: "2014-08-19T12:40:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -28901,15 +28942,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:46:01.253Z"
+      prompt_version: v1
   - repo: hipchat/hipchat-php
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - communication
+    tags:
+      - rest-api
+      - api-wrapper
+      - chat
+      - lang:php
     summary: A PHP library for interacting with the Hip Chat REST API.
     last_synced_sha: 5936c0a48d2d514d94bfc1d774b04c42cd3bc39e
     starred_at: "2014-08-19T04:49:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -28922,6 +28973,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:46:01.253Z"
+      prompt_version: v1
   - repo: defuse/php-encryption
     categories:
       - security
