@@ -32,12 +32,34 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
 
+      - name: Check if repos.yml exists
+        id: check_repos
+        run: |
+          if [ -f "repos.yml" ]; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "repos.yml not found - will use template"
+          fi
+
       - name: Validate existing manifest schema
+        if: steps.check_repos.outputs.exists == 'true'
         uses: cardinalby/schema-validator-action@v3
         with:
           schema: 'schemas/repos-schema.json'
           file: 'repos.yml'
           mode: 'lax'
+
+      - name: Debug - List files
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Files in root:"
+          ls -la
+          echo "Files in .github-stars:"
+          ls -la .github-stars/ || echo ".github-stars doesn't exist"
+          echo "Files in .github-stars/data:"
+          ls -la .github-stars/data/ || echo ".github-stars/data doesn't exist"
 
       - name: Read fetched stars data
         id: read_stars
