@@ -275,8 +275,8 @@ jobs:
         uses: actions/ai-inference@v1
         with:
           model: 'openai/gpt-4o'
-          max-tokens: '500'
-          system-prompt: 'You are a classification validator. Be strict about accuracy and only approve classifications that are clearly correct.'
+          max-tokens: '2500'
+          system-prompt: 'You are a classification validator. Fix minor issues and return corrected JSON, or reject with specific reasons.'
           prompt: ${{ steps.read_validation.outputs.prompt }}
 
       - name: Apply AI classification results
@@ -289,7 +289,10 @@ jobs:
             const { execSync } = require('child_process');
             
             // Check validation result first - escape backticks to prevent syntax errors
-            const validationResult = String.raw`${{ steps.ai_validate.outputs.response }}`.trim();
+            let validationResult = String.raw`${{ steps.ai_validate.outputs.response }}`.trim();
+            
+            // Strip any markdown formatting if AI didn't follow instructions
+            validationResult = validationResult.replace(/^```json\s*/i, '').replace(/\s*```$/i, '').trim();
             console.log('Validation Result:', validationResult);
             
             let finalClassifications;
@@ -320,6 +323,12 @@ jobs:
               core.setFailed('AI response is not an array');
               return;
             }
+            
+            if (classifications.length === 0) {
+              console.log('No classifications returned');
+              core.setOutput('classified_count', 0);
+              return;
+            }
 
             // Read current manifest
             const yamlContent = fs.readFileSync('repos.yml', 'utf8');
@@ -328,6 +337,8 @@ jobs:
 
             // Apply classifications
             let classifiedCount = 0;
+            let notFoundRepos = [];
+            
             classifications.forEach(classification => {
               const repoIndex = manifestData.repositories.findIndex(r => r.repo === classification.repo);
               if (repoIndex !== -1) {
@@ -338,8 +349,14 @@ jobs:
                 classifiedCount++;
                 
                 console.log(`Classified ${classification.repo}: ${classification.categories.join(', ')}`);
+              } else {
+                notFoundRepos.push(classification.repo);
               }
             });
+            
+            if (notFoundRepos.length > 0) {
+              console.warn(`⚠️ Could not find these repos in manifest: ${notFoundRepos.join(', ')}`);
+            }
 
             // Update metadata
             manifestData.manifest_metadata.last_updated = new Date().toISOString();
@@ -358,10 +375,16 @@ jobs:
       - name: Create validation failure issue
         if: failure() && steps.ai_validate.outputs.response != ''
         uses: actions/github-script@v7
+        env:
+          VALIDATION_RESULT: ${{ steps.ai_validate.outputs.response }}
+          AI_CLASSIFY_RESPONSE: ${{ steps.ai_classify.outputs.response }}
+          REPO_COUNT: ${{ steps.prep_repos.outputs.repo_count }}
         with:
           script: |
-            const validationResult = String.raw`${{ steps.ai_validate.outputs.response }}`;
-            const repoCount = `${{ steps.prep_repos.outputs.repo_count }}`;
+            // Get values from environment to avoid template literal issues
+            const validationResult = process.env.VALIDATION_RESULT || 'No validation result';
+            const aiClassifyResponse = process.env.AI_CLASSIFY_RESPONSE || 'No classification response';
+            const repoCount = process.env.REPO_COUNT || '0';
             
             await github.rest.issues.create({
               owner: context.repo.owner,
@@ -376,7 +399,7 @@ jobs:
               
               **Original Classifications:**
               \`\`\`json
-              ${{ steps.ai_classify.outputs.response }}
+              ${aiClassifyResponse}
               \`\`\`
               
               **Repositories Affected:**
@@ -392,7 +415,7 @@ jobs:
             });
 
       - name: Convert classified manifest to YAML
-        if: steps.apply_classification.outputs.classified_count > 0
+        if: steps.apply_classification.outputs.classified_count && steps.apply_classification.outputs.classified_count > 0
         run: |
           ./yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
 
@@ -401,7 +424,7 @@ jobs:
         run: rm -f .github-stars/data/manifest.json .github-stars/data/repos-to-classify.json .github-stars/data/classification-system-prompt.txt .github-stars/data/validation-prompt.txt
 
       - name: Validate classified manifest
-        if: steps.apply_classification.outputs.classified_count > 0
+        if: steps.apply_classification.outputs.classified_count && steps.apply_classification.outputs.classified_count > 0
         uses: cardinalby/schema-validator-action@v3
         with:
           schema: 'schemas/repos-schema.json'
@@ -409,7 +432,7 @@ jobs:
           mode: 'lax'
 
       - name: Commit AI classification results
-        if: steps.apply_classification.outputs.classified_count > 0
+        if: steps.apply_classification.outputs.classified_count && steps.apply_classification.outputs.classified_count > 0
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
