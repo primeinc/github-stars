@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2025-07-15T07:10:15.441Z"
+  last_updated: "2025-07-15T07:11:55.855Z"
   total_repos: 40
   generator_version: v1.0.0
   github_user: primeinc
@@ -405,8 +405,13 @@ repositories:
     needs_review: false
   - repo: zhiyiYo/PyQt-Fluent-Widgets
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-development
+    tags:
+      - fluent-design
+      - qt
+      - widgets
+      - lang:python
     framework: null
     summary: A fluent design widgets library based on C++ Qt/Py Qt/Py Side. Make Qt Great Again.
     last_synced_sha: ae95c7eac51f86d1697216dac07b605eecc539a6
@@ -414,11 +419,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: bdlukaa/fluent_ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - mobile-development
+    tags:
+      - fluent-design
+      - win-ui3
+      - flutter
+      - lang:dart
     framework: null
     summary: Implements Microsoft's Win UI3 in Flutter.
     last_synced_sha: 9c07c479d704b75a706184cfe7cc6f410d1a8bbc
@@ -426,11 +436,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: SandroMaglione/fpdart
     categories:
-      - unclassified
-    tags: []
+      - development-tools
+      - functional-programming
+    tags:
+      - functional-programming
+      - dart
+      - library
+      - lang:dart
     framework: null
     summary: Functional programming in Dart and Flutter. All the main functional programming types and patterns fully documented, tested, and with examples.
     last_synced_sha: 417c569c81647bc48192d457ff0fbcde2f95c6bd
@@ -438,11 +453,15 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: sxzz/rolldown-browser
     categories:
-      - unclassified
-    tags: []
+      - development-tools
+      - web-development
+    tags:
+      - bundler
+      - browser
+      - lang:vue
     framework: null
     summary: Rolldown on Browser
     last_synced_sha: 9cd244f1e4c023c9518cb488ace8565df6f52d50
@@ -450,11 +469,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: localsend/localsend
     categories:
-      - unclassified
-    tags: []
+      - communication-tools
+      - productivity-tools
+    tags:
+      - file-sharing
+      - cross-platform
+      - airdrop-alternative
+      - lang:dart
     framework: null
     summary: An open-source cross-platform alternative to Air Drop
     last_synced_sha: e605e78ebd615bc8542627d08aae5d828760a7fa
@@ -462,11 +486,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: bluewave-labs/Checkmate
     categories:
-      - unclassified
-    tags: []
+      - monitoring-tools
+      - data-visualization
+    tags:
+      - server-monitoring
+      - uptime-tracking
+      - visualization
+      - lang:javascript
     framework: null
     summary: Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join her...
     last_synced_sha: 0f9f814b27b61e2714029cb3a837a0f46bb8b690
@@ -474,11 +503,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: garethcheyne/PCF-FluentUi-AutoComplete-Boilerplate
     categories:
-      - unclassified
-    tags: []
+      - ui-development
+      - development-tools
+    tags:
+      - boilerplate
+      - autocomplete
+      - control
+      - lang:typescript
     framework: null
     summary: No description provided
     last_synced_sha: 1e76d725785766089302452d44ef5daf503fd839
@@ -486,11 +520,15 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: tj/commander.js
     categories:
-      - unclassified
-    tags: []
+      - development-tools
+      - cli-development
+    tags:
+      - command-line
+      - nodejs
+      - lang:javascript
     framework: null
     summary: node.js command-line interfaces made easy
     last_synced_sha: 395cf7145fe28122f5a69026b310e02df114f907
@@ -498,11 +536,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: qualialabs/mapped-collection
     categories:
-      - unclassified
-    tags: []
+      - development-tools
+      - database-tools
+    tags:
+      - memory-mapped-db
+      - meteor
+      - mongo
+      - lang:javascript
     framework: null
     summary: Memory-mapped Mongo collections in Meteor
     last_synced_sha: 4d2ee6355e0d9e36645707b21e5554dd7b0f5a09
@@ -510,11 +553,15 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: meteor/blaze
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-development
+    tags:
+      - live-updates
+      - frontend
+      - lang:javascript
     framework: null
     summary: ':fire: Meteor Blaze is a powerful library for creating live-updating user interfaces'
     last_synced_sha: 92a7d9ca7810655fb066274c54537d298fc1bca1
@@ -522,11 +569,15 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: pangaea-data-publisher/qualianon
     categories:
-      - unclassified
-    tags: []
+      - data-security
+      - data-management
+    tags:
+      - text-anonymization
+      - qualitative-research
+      - lang:java
     framework: null
     summary: Quali Anon is a tool to support the anonymization of text data. It is developed by the Qualiservice research data center for the anonymization of interviews in the qualitative social sciences for a...
     last_synced_sha: dfef926c1ce047f703a9abb14c9f99f3c90232e4
@@ -534,11 +585,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: coffeeAndCodeMSO/mort_comp
     categories:
-      - unclassified
-    tags: []
+      - finance-tools
+      - data-visualization
+    tags:
+      - mortgage-comparison
+      - visualization
+      - fintech
+      - lang:javascript
     framework: null
     summary: Compare two mortgages to see which is a better deal. Typically a 15 year versus a 30 year mortgage.
     last_synced_sha: 1a1c6ce1a09271910e74264533158cf872a31656
@@ -546,11 +602,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: cfpb/hmda-tools
     categories:
-      - unclassified
-    tags: []
+      - finance-tools
+      - analytics-tools
+    tags:
+      - mortgage-data
+      - government
+      - analysis-tool
+      - lang:python
     framework: null
     summary: Tools to make importing and analyzing mortgage application data easier. This is a public domain work of the US Government.
     last_synced_sha: 571f1ac67158d7e89c76346b646e741b3efe82b0
@@ -558,11 +619,15 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: jbmohler/mortgage
     categories:
-      - unclassified
-    tags: []
+      - finance-tools
+      - mathematics
+    tags:
+      - amortization
+      - mortgage-calculations
+      - lang:python
     framework: null
     summary: Python mortgage amortization calculations
     last_synced_sha: e4ecef1eeeceebfc51f3421f077727e5abefee17
@@ -570,11 +635,15 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: qbcore-framework/qb-housing
     categories:
-      - unclassified
-    tags: []
+      - game-development
+      - customization-tools
+    tags:
+      - five-m
+      - housing-system
+      - role-playing
     framework: null
     summary: The next iteration of QBC ore’s housing system
     last_synced_sha: 8599a518459c68729d05fea391578aa13a7b6b5f
@@ -582,11 +651,15 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: bibek376/Housing_Price_Prediction
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - machine-learning
+    tags:
+      - housing-prices
+      - prediction
+      - lang:jupyter-notebook
     framework: null
     summary: No description provided
     last_synced_sha: 731b9875c0ba8b3f0459ee1455622f7a7f1cf6c4
@@ -594,11 +667,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: Vidito/webscraping_housing
     categories:
-      - unclassified
-    tags: []
+      - data-automation
+      - web-scraping
+    tags:
+      - web-scraping
+      - real-estate
+      - beautiful-soup
+      - lang:python
     framework: null
     summary: Using Beautiful Soup to scrape a real estate agency website and generaate a CSV file based on the findings.
     last_synced_sha: 7b21382d500ae93ed4a0e467472b943980237783
@@ -606,11 +684,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: borisnliscool/bnl-housing
     categories:
-      - unclassified
-    tags: []
+      - game-development
+      - api-tools
+    tags:
+      - five-m
+      - player-properties
+      - open-source-api
+      - lang:lua
     framework: null
     summary: "\U0001F3E0 An open-source Five M player property script with extensive API for ultimate customization"
     last_synced_sha: eaf4568c150392681f604bf805ad17c21d55d0dd
@@ -618,11 +701,15 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: rodrigouroz/housing_scrapper
     categories:
-      - unclassified
-    tags: []
+      - data-automation
+      - web-scraping
+    tags:
+      - web-scraping
+      - real-estate-listings
+      - lang:python
     framework: null
     summary: A script to scrap housing listings sites
     last_synced_sha: 99628c2dd5ea80ee8dc328fc36b8d0c4d3889b42
@@ -630,11 +717,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: laurenshareshian/home_price_estimator
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - machine-learning
+    tags:
+      - housing-prices
+      - nlp
+      - image-processing
+      - lang:jupyter-notebook
     framework: null
     summary: Uses Zillow metadata, NLP on realtor description, and VGG16 on home images to predict home sale prices in Portland from 6/16 - 7/17.
     last_synced_sha: 337dfc17005064b2d01a1416453cd70347a08a04
@@ -642,4 +734,4 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
