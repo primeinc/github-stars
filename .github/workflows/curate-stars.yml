@@ -6,14 +6,6 @@ on:
     - cron: '0 3 * * *'  # Daily at 3 AM UTC
   workflow_dispatch:
     inputs:
-      force_full_sync:
-        description: 'Force processing all repos'
-        type: boolean
-        default: false
-      batch_size:
-        description: 'Number of repos to process in a batch'
-        type: number
-        default: 10
       test_limit:
         description: 'Limit total repos for testing (0 = no limit)'
         type: number
@@ -25,14 +17,16 @@ permissions:
   issues: write
 
 env:
-  BATCH_SIZE: ${{ github.event.inputs.batch_size || '10' }}
   TEST_LIMIT: ${{ github.event.inputs.test_limit || '20' }}
+
+concurrency:
+  group: curate-stars-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   sync-and-classify:
     runs-on: ubuntu-latest
     outputs:
-      repos_to_process: ${{ steps.diff.outputs.repos }}
       manifest_updated: ${{ steps.diff.outputs.changed }}
       total_new_repos: ${{ steps.diff.outputs.total_new }}
 
@@ -64,7 +58,20 @@ jobs:
               return;
             }
 
-            let starsData = JSON.parse(fs.readFileSync(path, 'utf8'));
+            let starsData;
+            try {
+              starsData = JSON.parse(fs.readFileSync(path, 'utf8'));
+            } catch (error) {
+              core.setFailed(`Failed to parse stars data: ${error.message}`);
+              return;
+            }
+            
+            // Validate data structure
+            if (!Array.isArray(starsData)) {
+              core.setFailed('Invalid stars data format: expected array');
+              return;
+            }
+            
             console.log(`Found ${starsData.length} starred repositories`);
 
             // Apply test limit if specified
@@ -78,120 +85,120 @@ jobs:
 
       - name: Read current manifest
         id: read_manifest
-        uses: mikefarah/yq@master
+        uses: mikefarah/yq@v4.46.1
         with:
           cmd: yq eval '.' repos.yml -o=json
 
-      - name: Compare and find new repositories
+      - name: Update manifest with new repositories
         id: diff
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
+            const fs = require('fs');
             const starsData = ${{ steps.read_stars.outputs.result }};
-            const manifestData = JSON.parse(`${{ steps.read_manifest.outputs.result }}`) || { repositories: [] };
+            let manifestData;
+            try {
+              manifestData = JSON.parse(`${{ steps.read_manifest.outputs.result }}`) || { repositories: [] };
+            } catch (error) {
+              core.setFailed(`Failed to parse manifest data: ${error.message}`);
+              return;
+            }
+            
+            // Ensure required objects exist
+            if (!manifestData.repositories) {
+              manifestData.repositories = [];
+            }
+            if (!manifestData.manifest_metadata) {
+              manifestData.manifest_metadata = {};
+            }
 
             console.log(`Starred repos: ${starsData.length}`);
             console.log(`Manifest repos: ${manifestData.repositories.length}`);
 
-            // Extract repo names from current manifest
-            const existingRepos = new Set(manifestData.repositories.map(r => r.repo));
+            // Extract repo names from current manifest (with null safety)
+            const existingRepos = new Set(manifestData.repositories.filter(r => r && r.repo).map(r => r.repo));
 
-            // Find new repos that aren't in the manifest
-            const newRepos = starsData.filter(star => !existingRepos.has(star.repo));
+            // Find new repos that aren't in the manifest (with null safety)
+            const newRepos = starsData.filter(star => star && star.repo && !existingRepos.has(star.repo));
 
-            // Find removed repos (in manifest but not in stars)
-            const currentStarRepos = new Set(starsData.map(s => s.repo));
-            const removedRepos = manifestData.repositories.filter(r => !currentStarRepos.has(r.repo));
+            // Find removed repos (in manifest but not in stars) (with null safety)
+            // CRITICAL: Only check for removals if we're not using test limit to avoid data loss
+            const testLimit = parseInt(process.env.TEST_LIMIT || '0');
+            const currentStarRepos = new Set(starsData.filter(s => s && s.repo).map(s => s.repo));
+            const removedRepos = testLimit > 0 ? [] : manifestData.repositories.filter(r => r && r.repo && !currentStarRepos.has(r.repo));
 
             console.log(`New repos to add: ${newRepos.length}`);
             console.log(`Repos to remove: ${removedRepos.length}`);
+            
+            if (testLimit > 0) {
+              console.log(`⚠️  TEST MODE: Repository removals disabled to prevent data loss`);
+            }
 
-            const forceSync = ${{ github.event.inputs.force_full_sync || false }};
-
-            // If forcing full sync, include all repos
-            const reposToProcess = forceSync ? starsData : newRepos;
-
-            core.setOutput('repos', JSON.stringify(reposToProcess));
-            core.setOutput('removed_repos', JSON.stringify(removedRepos));
-            core.setOutput('changed', reposToProcess.length > 0 || removedRepos.length > 0);
-            core.setOutput('total_new', newRepos.length);
+            const hasChanges = newRepos.length > 0 || removedRepos.length > 0;
 
             // Log summary
-            if (reposToProcess.length > 0) {
-              console.log('Repositories to process:');
-              reposToProcess.slice(0, 5).forEach(repo => console.log(`  - ${repo.repo}`));
-              if (reposToProcess.length > 5) {
-                console.log(`  ... and ${reposToProcess.length - 5} more`);
+            if (newRepos.length > 0) {
+              console.log('New repositories to add:');
+              newRepos.slice(0, 5).forEach(repo => console.log(`  - ${repo.repo}`));
+              if (newRepos.length > 5) {
+                console.log(`  ... and ${newRepos.length - 5} more`);
               }
             }
 
+            // Update manifest if there are changes
+            if (hasChanges) {
+              // Remove deleted repositories (only if not in test mode)
+              if (testLimit === 0) {
+                manifestData.repositories = manifestData.repositories.filter(r => 
+                  r && r.repo && currentStarRepos.has(r.repo)
+                );
+              }
 
-      - name: Write removed repos to temp file
-        if: steps.diff.outputs.changed == 'true'
-        run: echo '${{ steps.diff.outputs.removed_repos }}' > removed_repos.json
+              // Add new repositories (only new ones, never duplicates) with data validation
+              const newRepoEntries = newRepos.map(repo => ({
+                repo: repo.repo,
+                categories: ["unclassified"],
+                tags: [],
+                framework: null,
+                summary: repo.description || '',
+                last_synced_sha: repo.last_commit_sha || '',
+                starred_at: repo.starred_at || new Date().toISOString(),
+                readme_quality: "missing",
+                archived: Boolean(repo.archived),
+                fork: Boolean(repo.fork),
+                needs_review: true
+              }));
 
-      - name: Remove deleted repositories from manifest
-        if: steps.diff.outputs.changed == 'true'
-        uses: mikefarah/yq@master
-        with:
-          cmd: yq -i '.repositories = [.repositories[] | select(.repo as $r | load("removed_repos.json") | map(select(.repo == $r)) | length == 0)]' repos.yml
+              manifestData.repositories.push(...newRepoEntries);
 
+              // Update metadata
+              manifestData.manifest_metadata.last_updated = new Date().toISOString();
+              manifestData.manifest_metadata.total_repos = manifestData.repositories.length;
 
-      - name: Create processing matrix
-        if: steps.diff.outputs.changed == 'true'
-        id: matrix
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
-          script: |
-            const repos = JSON.parse(`${{ steps.diff.outputs.repos }}`);
-            const batchSize = parseInt('${{ env.BATCH_SIZE }}');
+              // Write updated manifest as JSON first, then convert with yq
+              try {
+                fs.writeFileSync('manifest-temp.json', JSON.stringify(manifestData, null, 2));
+              } catch (error) {
+                core.setFailed(`Failed to write manifest file: ${error.message}`);
+                return;
+              }
 
-            if (repos.length === 0) {
-              console.log('No repositories to process');
-              return { batches: [] };
+              console.log(`Updated manifest: +${newRepos.length} repos, -${removedRepos.length} repos`);
             }
 
-            const batches = [];
-            for (let i = 0; i < repos.length; i += batchSize) {
-              const batch = repos.slice(i, i + batchSize);
-              batches.push({
-                repos: batch,
-                batch_number: Math.floor(i / batchSize) + 1,
-                total_batches: Math.ceil(repos.length / batchSize)
-              });
-            }
+            core.setOutput('changed', hasChanges);
+            core.setOutput('total_new', newRepos.length);
 
-            console.log(`Created ${batches.length} batches with ${batchSize} repos each`);
-            return { batches };
-
-
-      - name: Write new repos to temp file
+      - name: Convert manifest back to YAML
         if: steps.diff.outputs.changed == 'true'
-        run: echo '${{ steps.diff.outputs.repos }}' > new_repos.json
-
-      - name: Add new repositories to manifest
-        if: steps.diff.outputs.changed == 'true'
-        uses: mikefarah/yq@master
+        uses: mikefarah/yq@v4.46.1
         with:
-          cmd: >-
-            yq -i '.repositories += [load("new_repos.json")[] | 
-            {"repo": .repo, "categories": ["unclassified"], "tags": [], "framework": null, 
-            "summary": .description, "last_synced_sha": .last_commit_sha, "starred_at": .starred_at, 
-            "readme_quality": "missing", "archived": .archived, "fork": .fork, "needs_review": true}]' repos.yml
+          cmd: yq eval '.' manifest-temp.json > repos.yml
 
-      - name: Update manifest timestamp
-        if: steps.diff.outputs.changed == 'true'
-        uses: mikefarah/yq@master
-        with:
-          cmd: yq -i '.manifest_metadata.last_updated = now' repos.yml
-
-      - name: Update repository count
-        if: steps.diff.outputs.changed == 'true'
-        uses: mikefarah/yq@master
-        with:
-          cmd: yq -i '.manifest_metadata.total_repos = (.repositories | length)' repos.yml
+      - name: Clean up temp files
+        if: always()
+        run: rm -f manifest-temp.json
 
       - name: Validate updated manifest
         if: steps.diff.outputs.changed == 'true'
