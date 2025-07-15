@@ -1,0 +1,276 @@
+---
+name: 'Curate Starred Repos'
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Daily at 3 AM UTC
+  workflow_dispatch:
+    inputs:
+      force_full_sync:
+        description: 'Force processing all repos'
+        type: boolean
+        default: false
+      batch_size:
+        description: 'Number of repos to process in a batch'
+        type: number
+        default: 10
+      test_limit:
+        description: 'Limit total repos for testing (0 = no limit)'
+        type: number
+        default: 20
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+env:
+  BATCH_SIZE: ${{ github.event.inputs.batch_size || '10' }}
+  TEST_LIMIT: ${{ github.event.inputs.test_limit || '20' }}
+
+jobs:
+  sync-and-classify:
+    runs-on: ubuntu-latest
+    outputs:
+      repos_to_process: ${{ steps.diff.outputs.repos }}
+      manifest_updated: ${{ steps.diff.outputs.changed }}
+      total_new_repos: ${{ steps.diff.outputs.total_new }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Validate existing manifest schema
+        uses: cardinalby/schema-validator-action@v3
+        with:
+          schema: 'schemas/repos-schema.json'
+          file: 'repos.yml'
+          mode: 'strict'
+
+      - name: Read fetched stars data
+        id: read_stars
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const path = 'fetched-stars-graphql.json';
+
+            if (!fs.existsSync(path)) {
+              core.setFailed('Fetched stars data not found. Please run fetch-stars workflow first.');
+              return;
+            }
+
+            let starsData = JSON.parse(fs.readFileSync(path, 'utf8'));
+            console.log(`Found ${starsData.length} starred repositories`);
+
+            // Apply test limit if specified
+            const testLimit = parseInt(process.env.TEST_LIMIT || '0');
+            if (testLimit > 0 && starsData.length > testLimit) {
+              console.log(`Limiting to first ${testLimit} repos for testing`);
+              starsData = starsData.slice(0, testLimit);
+            }
+
+            return starsData;
+
+      - name: Read current manifest
+        id: read_manifest
+        uses: mikefarah/yq@master
+        with:
+          cmd: yq eval '.' repos.yml -o=json
+
+      - name: Compare and find new repositories
+        id: diff
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
+          script: |
+            const starsData = ${{ steps.read_stars.outputs.result }};
+            const manifestData = JSON.parse(`${{ steps.read_manifest.outputs.result }}`) || { repositories: [] };
+
+            console.log(`Starred repos: ${starsData.length}`);
+            console.log(`Manifest repos: ${manifestData.repositories.length}`);
+
+            // Extract repo names from current manifest
+            const existingRepos = new Set(manifestData.repositories.map(r => r.repo));
+
+            // Find new repos that aren't in the manifest
+            const newRepos = starsData.filter(star => !existingRepos.has(star.repo));
+
+            // Find removed repos (in manifest but not in stars)
+            const currentStarRepos = new Set(starsData.map(s => s.repo));
+            const removedRepos = manifestData.repositories.filter(r => !currentStarRepos.has(r.repo));
+
+            console.log(`New repos to add: ${newRepos.length}`);
+            console.log(`Repos to remove: ${removedRepos.length}`);
+
+            const forceSync = ${{ github.event.inputs.force_full_sync || false }};
+
+            // If forcing full sync, include all repos
+            const reposToProcess = forceSync ? starsData : newRepos;
+
+            core.setOutput('repos', JSON.stringify(reposToProcess));
+            core.setOutput('removed_repos', JSON.stringify(removedRepos));
+            core.setOutput('changed', reposToProcess.length > 0 || removedRepos.length > 0);
+            core.setOutput('total_new', newRepos.length);
+
+            // Log summary
+            if (reposToProcess.length > 0) {
+              console.log('Repositories to process:');
+              reposToProcess.slice(0, 5).forEach(repo => console.log(`  - ${repo.repo}`));
+              if (reposToProcess.length > 5) {
+                console.log(`  ... and ${reposToProcess.length - 5} more`);
+              }
+            }
+
+      - name: Remove deleted repositories from manifest
+        if: steps.diff.outputs.changed == 'true'
+        uses: mikefarah/yq@master
+        with:
+          cmd: |
+            removed='${{ steps.diff.outputs.removed_repos }}'
+            echo "$removed" | jq -c '.[]' | while read repo; do
+              name=$(echo "$repo" | jq -r '.repo')
+              echo "Removing $name"
+              yq -i "del(.repositories[] | select(.repo == \"$name\"))" repos.yml
+            done
+
+      - name: Update metadata timestamp
+        if: steps.diff.outputs.changed == 'true'  
+        uses: mikefarah/yq@master
+        with:
+          cmd: yq -i '.manifest_metadata.last_updated = now' repos.yml
+
+      - name: Update repository count
+        if: steps.diff.outputs.changed == 'true'
+        uses: mikefarah/yq@master  
+        with:
+          cmd: yq -i '.manifest_metadata.total_repos = (.repositories | length)' repos.yml
+
+      - name: Create processing matrix
+        if: steps.diff.outputs.changed == 'true'
+        id: matrix
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
+          script: |
+            const repos = JSON.parse(`${{ steps.diff.outputs.repos }}`);
+            const batchSize = parseInt('${{ env.BATCH_SIZE }}');
+
+            if (repos.length === 0) {
+              console.log('No repositories to process');
+              return { batches: [] };
+            }
+
+            const batches = [];
+            for (let i = 0; i < repos.length; i += batchSize) {
+              const batch = repos.slice(i, i + batchSize);
+              batches.push({
+                repos: batch,
+                batch_number: Math.floor(i / batchSize) + 1,
+                total_batches: Math.ceil(repos.length / batchSize)
+              });
+            }
+
+            console.log(`Created ${batches.length} batches with ${batchSize} repos each`);
+            return { batches };
+
+      - name: Add new repositories to manifest
+        if: steps.diff.outputs.changed == 'true'
+        uses: mikefarah/yq@master
+        with:
+          cmd: |
+            repos='${{ steps.diff.outputs.repos }}'
+            echo "$repos" | jq -c '.[]' | while read repo; do
+              name=$(echo "$repo" | jq -r '.nameWithOwner')
+              desc=$(echo "$repo" | jq -r '.description // "No description available"')
+              sha=$(echo "$repo" | jq -r '.defaultBranchRef.target.oid // ""')
+              starred=$(echo "$repo" | jq -r '.viewerHasStarred')
+              archived=$(echo "$repo" | jq -r '.isArchived')
+              fork=$(echo "$repo" | jq -r '.isFork')
+              
+              yq -i ".repositories += [{
+                \"repo\": \"$name\",
+                \"categories\": [\"unclassified\"],
+                \"tags\": [],
+                \"framework\": null,
+                \"summary\": \"$desc\",
+                \"last_synced_sha\": \"$sha\",
+                \"starred_at\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\",
+                \"readme_quality\": \"missing\",
+                \"archived\": $archived,
+                \"fork\": $fork,
+                \"needs_review\": true
+              }]" repos.yml
+            done
+
+      - name: Validate updated manifest
+        if: steps.diff.outputs.changed == 'true'
+        uses: cardinalby/schema-validator-action@v3
+        with:
+          schema: 'schemas/repos-schema.json'
+          file: 'repos.yml'
+          mode: 'strict'
+
+      - name: Create Pull Request with changes
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
+          commit-message: |
+            Update repos.yml with new starred repositories
+
+            - Added ${{ steps.diff.outputs.total_new }} new repositories
+            - All new repos marked as 'unclassified' for review
+            - Updated manifest metadata timestamp
+
+            🤖 Generated with [Claude Code](https://claude.ai/code)
+
+            Co-Authored-By: Claude <noreply@anthropic.com>
+          title: "🌟 Sync starred repositories (${{ steps.diff.outputs.total_new }} new)"
+          body: |
+            ## Summary
+
+            - ✅ Added **${{ steps.diff.outputs.total_new }}** new starred repositories to the manifest
+            - ✅ All new repositories are initially marked as `unclassified` and `needs_review: true`
+            - ✅ Updated manifest metadata with current timestamp
+            - ✅ Schema validation passed
+
+            ## New Repositories Added
+
+            ${{ steps.diff.outputs.total_new > 0 && 'The following repositories were added:' || 'No new repositories to add.' }}
+
+            ## Test Plan
+
+            - [x] Schema validation passes
+            - [x] Manifest structure is valid
+            - [ ] Manual review of new repositories for proper categorization
+            - [ ] Run AI classification workflow after merge (if enabled)
+
+            ## Next Steps
+
+            1. Review the new repositories and update their categories/tags
+            2. Enable AI classification for automatic categorization
+            3. Generate repository structure with submodules
+
+            🤖 Generated with [Claude Code](https://claude.ai/code)
+          branch: sync-starred-repos-${{ github.run_number }}
+          delete-branch: true
+
+  # Future job for AI classification (to be implemented later)
+  classify-repositories:
+    needs: sync-and-classify
+    runs-on: ubuntu-latest
+    if: needs.sync-and-classify.outputs.manifest_updated == 'true' && false  # Disabled for now
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Placeholder for AI classification
+        run: |
+          echo "AI classification will be implemented in a future iteration"
+          echo "For now, repositories are added as 'unclassified' for manual review"
