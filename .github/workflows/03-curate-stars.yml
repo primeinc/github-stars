@@ -147,16 +147,25 @@ jobs:
         if: steps.prep_repos.outputs.has_repos == 'true'
         run: |
           cat > .github-stars/data/classification-system-prompt.txt << 'EOF'
-          OUTPUT ONLY A JSON ARRAY. NO OTHER TEXT. NO EXPLANATIONS. NO MARKDOWN. START WITH [ AND END WITH ]
+          Classify GitHub repositories thoughtfully. Output ONLY a JSON array.
           
-          ALLOWED CATEGORIES (use 1-3 per repo):
-          dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, unclassified
+          SUGGESTED CATEGORIES (use these or create more specific ones):
+          dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, cli-tools, devops, infrastructure, analytics, visualization, education, media, graphics, audio, video, iot, blockchain, crypto, finance, health, science, math, algorithms, compilers, languages, operating-systems, virtualization, backup, storage, messaging, search, cms, e-commerce, social, communication
           
-          ALLOWED FRAMEWORKS (or null):
+          COMMON FRAMEWORKS (use if applicable):
           react, vue, angular, svelte, nextjs, nuxtjs, express, fastapi, django, flask, rails, laravel, spring
           
-          ALLOWED LANGUAGE TAGS:
-          lang:js, lang:ts, lang:python, lang:rust, lang:go, lang:csharp, lang:php, lang:dart, lang:lua, lang:gdscript
+          LANGUAGE TAGS (use these exact formats when language is known):
+          lang:js, lang:ts, lang:python, lang:rust, lang:go, lang:csharp, lang:php, lang:dart, lang:lua, lang:gdscript, lang:java, lang:kotlin, lang:swift, lang:ruby, lang:cpp, lang:c
+          
+          GUIDELINES:
+          - Use 2-4 most relevant categories (be generous, repos often fit multiple categories)
+          - Add 3-6 descriptive tags that capture the essence of the repo
+          - Create new categories if existing ones don't fit well
+          - Only set framework if the repo is specifically built with/for that framework
+          - Include language tag only when provided in input data
+          - Be creative and specific with tags (e.g., "infinite-canvas", "local-first", "markdown-editor")
+          - Think about how someone might search for this repo
           
           EXAMPLES OF CORRECT OUTPUT:
           [
@@ -242,11 +251,18 @@ jobs:
           START YOUR RESPONSE WITH EITHER [ (for JSON) OR "REJECTED:" (for rejection)
           
           Validation criteria:
-          - Categories must be from: dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, unclassified
-          - Frameworks must be from: react, vue, angular, svelte, nextjs, nuxtjs, express, fastapi, django, flask, rails, laravel, spring (or null)
-          - Language tags must be from: lang:js, lang:ts, lang:python, lang:rust, lang:go, lang:csharp, lang:php, lang:dart, lang:lua, lang:gdscript
+          - Categories should be relevant and descriptive (can use suggested ones or create new)
+          - Frameworks must be from common list OR null
+          - Language tags must use lang: prefix format
           - No language tag should exist if input language was null
           - Tags must be lowercase, hyphenated
+          - Classifications should help with discovery and organization
+          
+          FIX minor issues like:
+          - lang:c# → lang:csharp
+          - PascalCase tags → kebab-case
+          - Too few tags (add more descriptive ones)
+          - Overly generic categories (make more specific)
           
           If classifications have minor fixable issues (like lang:c# → lang:csharp), FIX THEM and return the corrected JSON.
           Only reject if there are unfixable issues.
