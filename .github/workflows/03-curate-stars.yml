@@ -3,6 +3,11 @@ name: 'Curate Starred Repos'
 
 on:
   workflow_dispatch:
+    inputs:
+      skip_validation:
+        description: 'Skip AI validation step (cost savings)'
+        type: boolean
+        default: false
   workflow_run:
     workflows: ["Sync Starred Repos"]
     types:
@@ -259,13 +264,15 @@ jobs:
           - No language tag should exist if input language was null
           - Classifications should help with discovery and organization
           
-          FIX minor issues like:
-          - lang:c# → lang:csharp
-          - PascalCase tags → kebab-case
-          - Too few tags (add more descriptive ones)
-          - Overly generic categories (make more specific)
+          FIX ONLY these specific issues:
+          - lang:c# → lang:csharp (special character fix)
+          - PascalCase → kebab-case (e.g., "WebScraping" → "web-scraping")
+          - Spaces in tags → hyphens (e.g., "open source" → "open-source")
           
-          DO NOT change abbreviated language tags (keep lang:js, lang:ts as is - do NOT expand to lang:javascript)
+          DO NOT CHANGE:
+          - lang:js, lang:ts, lang:go, etc. (keep abbreviated language codes AS IS)
+          - Valid kebab-case tags
+          - Categories that work
           
           If classifications have minor fixable issues (like lang:c# → lang:csharp), FIX THEM and return the corrected JSON.
           Only reject if there are unfixable issues.
@@ -290,7 +297,7 @@ jobs:
           
       - name: Validate AI classifications
         id: ai_validate
-        if: steps.prep_repos.outputs.has_repos == 'true'
+        if: steps.prep_repos.outputs.has_repos == 'true' && github.event.inputs.skip_validation != 'true'
         uses: actions/ai-inference@v1
         with:
           model: 'openai/gpt-4o'
@@ -307,26 +314,36 @@ jobs:
             const fs = require('fs');
             const { execSync } = require('child_process');
             
-            // Check validation result first - escape backticks to prevent syntax errors
-            let validationResult = String.raw`${{ steps.ai_validate.outputs.response }}`.trim();
-            
-            // Strip any markdown formatting if AI didn't follow instructions
-            validationResult = validationResult.replace(/^```json\s*/i, '').replace(/\s*```$/i, '').trim();
-            console.log('Validation Result:', validationResult);
-            
             let finalClassifications;
             
-            if (validationResult.startsWith('REJECTED:')) {
-              core.setFailed(`AI classifications rejected by validator: ${validationResult}`);
-              return;
-            } else if (validationResult.startsWith('[')) {
-              // Validator provided corrected JSON
-              console.log('✅ Using validator-corrected classifications');
-              finalClassifications = validationResult;
+            // Check if validation was skipped
+            const skipValidation = '${{ github.event.inputs.skip_validation }}' === 'true';
+            
+            if (skipValidation) {
+              console.log('⚠️ Validation skipped - using original AI classifications');
+              finalClassifications = String.raw`${{ steps.ai_classify.outputs.response }}`.trim();
+              // Strip any markdown formatting if AI didn't follow instructions
+              finalClassifications = finalClassifications.replace(/^```json\s*/i, '').replace(/\s*```$/i, '').trim();
             } else {
-              // Unexpected response
-              core.setFailed(`Unexpected validator response: ${validationResult}`);
-              return;
+              // Check validation result - escape backticks to prevent syntax errors
+              let validationResult = String.raw`${{ steps.ai_validate.outputs.response }}`.trim();
+              
+              // Strip any markdown formatting if AI didn't follow instructions
+              validationResult = validationResult.replace(/^```json\s*/i, '').replace(/\s*```$/i, '').trim();
+              console.log('Validation Result:', validationResult);
+              
+              if (validationResult.startsWith('REJECTED:')) {
+                core.setFailed(`AI classifications rejected by validator: ${validationResult}`);
+                return;
+              } else if (validationResult.startsWith('[')) {
+                // Validator provided corrected JSON
+                console.log('✅ Using validator-corrected classifications');
+                finalClassifications = validationResult;
+              } else {
+                // Unexpected response
+                core.setFailed(`Unexpected validator response: ${validationResult}`);
+                return;
+              }
             }
             
             let classifications;
