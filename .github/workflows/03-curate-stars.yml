@@ -253,9 +253,10 @@ jobs:
           Validation criteria:
           - Categories should be relevant and descriptive (can use suggested ones or create new)
           - Frameworks must be from common list OR null
-          - Language tags must use lang: prefix format
+          - Tags MUST match pattern: ^([a-z]+:)?[a-z0-9][a-z0-9-]*$
+            Valid examples: "web-scraping", "lang:js", "real-estate", "open-source"
+            Invalid examples: "Web-Scraping", "lang:JavaScript", "real_estate", "open source"
           - No language tag should exist if input language was null
-          - Tags must be lowercase, hyphenated
           - Classifications should help with discovery and organization
           
           FIX minor issues like:
@@ -263,6 +264,8 @@ jobs:
           - PascalCase tags → kebab-case
           - Too few tags (add more descriptive ones)
           - Overly generic categories (make more specific)
+          
+          DO NOT change abbreviated language tags (keep lang:js, lang:ts as is - do NOT expand to lang:javascript)
           
           If classifications have minor fixable issues (like lang:c# → lang:csharp), FIX THEM and return the corrected JSON.
           Only reject if there are unfixable issues.
