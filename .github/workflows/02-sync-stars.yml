@@ -194,22 +194,32 @@ jobs:
               // Apply test limit to needs_review flag for throttling AI classification
               // testLimit already defined above
               
-              const newRepoEntries = newRepos.map((repo, index) => ({
-                repo: repo.repo,
-                categories: ["unclassified"],
-                tags: [],
-                framework: null,
-                summary: cleanDescription(repo.description),
-                last_synced_sha: repo.last_commit_sha || '0000000000000000000000000000000000000000',
-                starred_at: repo.starred_at || new Date().toISOString(),
-                readme_quality: "missing",
-                archived: Boolean(repo.archived),
-                fork: Boolean(repo.fork),
-                // Use needs_review as throttling mechanism:
-                // - If no test limit: needs_review = true (process all)
-                // - If test limit: needs_review = true only for first X repos
-                needs_review: testLimit === 0 || index < testLimit
-              }));
+              const newRepoEntries = newRepos.map((repo, index) => {
+                // Base entry with required fields
+                const entry = {
+                  repo: repo.repo,
+                  categories: ["unclassified"],
+                  tags: [],
+                  summary: cleanDescription(repo.description),
+                  last_synced_sha: repo.last_commit_sha || '0000000000000000000000000000000000000000',
+                  starred_at: repo.starred_at || new Date().toISOString(),
+                  readme_quality: "missing"
+                };
+                
+                // Only set non-default values (schema defaults: needs_review=false, archived=false, fork=false, framework=null)
+                if (testLimit === 0 || index < testLimit) {
+                  entry.needs_review = true;
+                }
+                if (repo.archived) {
+                  entry.archived = true;
+                }
+                if (repo.fork) {
+                  entry.fork = true;
+                }
+                // Don't set framework since it's null (schema default)
+                
+                return entry;
+              });
 
               manifestData.repositories.push(...newRepoEntries);
 

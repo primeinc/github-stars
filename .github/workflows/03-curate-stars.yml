@@ -328,13 +328,27 @@ jobs:
             classifications.forEach(classification => {
               const repoIndex = manifestData.repositories.findIndex(r => r.repo === classification.repo);
               if (repoIndex !== -1) {
-                manifestData.repositories[repoIndex].categories = classification.categories;
-                manifestData.repositories[repoIndex].tags = classification.tags || [];
-                manifestData.repositories[repoIndex].framework = classification.framework;
-                manifestData.repositories[repoIndex].needs_review = false;
+                const repo = manifestData.repositories[repoIndex];
+                
+                // Always update these fields
+                repo.categories = classification.categories;
+                repo.tags = classification.tags || [];
+                
+                // Only set non-default values (schema defaults: needs_review=false, framework=null)
+                if (classification.framework) {
+                  repo.framework = classification.framework;
+                } else {
+                  // Remove framework if it was previously set but classification is null
+                  delete repo.framework;
+                }
+                
+                // Only set needs_review false if it was previously true
+                if (repo.needs_review === true) {
+                  delete repo.needs_review; // Let it default to false
+                }
                 
                 // Add AI classification metadata for audit trail
-                manifestData.repositories[repoIndex].ai_classification = {
+                repo.ai_classification = {
                   model: 'openai/gpt-4o',
                   timestamp: new Date().toISOString(),
                   prompt_version: '3.0.0'
@@ -365,21 +379,16 @@ jobs:
             }
 
             core.setOutput('classified_count', classifiedCount);
-            
-            // Store AI response for error handling
-            core.setOutput('ai_classification_response', aiClassificationResult);
             core.setOutput('repo_count', repoData.length);
 
       - name: Create validation failure issue
-        if: failure() && steps.ai_classify_consolidated.outputs.ai_classification_response != ''
+        if: failure() && steps.ai_classify_consolidated.outputs.repo_count != ''
         uses: actions/github-script@v7
         env:
-          AI_CLASSIFY_RESPONSE: ${{ steps.ai_classify_consolidated.outputs.ai_classification_response }}
           REPO_COUNT: ${{ steps.ai_classify_consolidated.outputs.repo_count }}
         with:
           script: |
             // Get values from environment to avoid template literal issues
-            const aiClassifyResponse = process.env.AI_CLASSIFY_RESPONSE || 'No classification response';
             const repoCount = process.env.REPO_COUNT || '0';
             
             await github.rest.issues.create({
@@ -388,16 +397,11 @@ jobs:
               title: `🤖 AI Classification Failed (${repoCount} repos)`,
               body: `## AI Classification Failure
               
-              **AI Classification Response:**
-              \`\`\`json
-              ${aiClassifyResponse}
-              \`\`\`
-              
               **Repositories Affected:**
               ${repoCount} repositories need manual classification.
               
               **Next Steps:**
-              1. Review the AI classification response
+              1. Check the workflow logs for AI classification details
               2. Manually classify the repositories
               3. Update the classification prompts if needed
               
