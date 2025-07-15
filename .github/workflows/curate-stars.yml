@@ -86,7 +86,7 @@ jobs:
       - name: Convert manifest to JSON for processing
         uses: mikefarah/yq@v4.46.1
         with:
-          cmd: yq eval '.' repos.yml -o=json > manifest.json
+          cmd: yq eval '.' repos.yml -o=json > ./manifest.json
 
       - name: Update manifest with new repositories
         id: diff
@@ -96,7 +96,7 @@ jobs:
           script: |
             const fs = require('fs');
             const starsData = ${{ steps.read_stars.outputs.result }};
-            const manifestData = JSON.parse(fs.readFileSync('manifest.json', 'utf8')) || { repositories: [] };
+            const manifestData = JSON.parse(fs.readFileSync('./manifest.json', 'utf8')) || { repositories: [] };
             
             // Ensure required objects exist
             if (!manifestData.repositories) {
@@ -193,7 +193,7 @@ jobs:
 
               // Write updated manifest as JSON first, then convert with yq
               try {
-                fs.writeFileSync('manifest.json', JSON.stringify(manifestData, null, 2));
+                fs.writeFileSync('./manifest.json', JSON.stringify(manifestData, null, 2));
               } catch (error) {
                 core.setFailed(`Failed to write manifest file: ${error.message}`);
                 return;
@@ -209,11 +209,11 @@ jobs:
         if: steps.diff.outputs.changed == 'true'
         uses: mikefarah/yq@v4.46.1
         with:
-          cmd: yq eval '.' manifest.json -o=yaml > repos.yml
+          cmd: yq eval '.' ./manifest.json -o=yaml > repos.yml
 
       - name: Clean up temp files
         if: always()
-        run: rm -f manifest.json
+        run: rm -f ./manifest.json
 
       - name: Validate updated manifest
         if: steps.diff.outputs.changed == 'true'
@@ -257,7 +257,7 @@ jobs:
       - name: Convert updated manifest to JSON for AI processing
         uses: mikefarah/yq@v4.46.1
         with:
-          cmd: yq eval '.' repos.yml -o=json > manifest.json
+          cmd: yq eval '.' repos.yml -o=json > ./manifest.json
 
       - name: Prepare repositories for AI classification
         id: prep_repos
@@ -265,7 +265,7 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const manifestData = JSON.parse(fs.readFileSync('manifest.json', 'utf8'));
+            const manifestData = JSON.parse(fs.readFileSync('./manifest.json', 'utf8'));
 
             // Find repositories that need review
             const unclassifiedRepos = manifestData.repositories.filter(repo => 
@@ -411,7 +411,7 @@ jobs:
             }
 
             // Read current manifest
-            const manifestData = JSON.parse(fs.readFileSync('manifest.json', 'utf8'));
+            const manifestData = JSON.parse(fs.readFileSync('./manifest.json', 'utf8'));
 
             // Apply classifications
             let classifiedCount = 0;
@@ -433,7 +433,7 @@ jobs:
 
             // Write updated manifest
             try {
-              fs.writeFileSync('manifest.json', JSON.stringify(manifestData, null, 2));
+              fs.writeFileSync('./manifest.json', JSON.stringify(manifestData, null, 2));
               console.log(`Successfully classified ${classifiedCount} repositories`);
             } catch (error) {
               core.setFailed(`Failed to write classified manifest: ${error.message}`);
@@ -482,11 +482,11 @@ jobs:
         if: steps.apply_classification.outputs.classified_count > 0
         uses: mikefarah/yq@v4.46.1
         with:
-          cmd: yq eval '.' manifest.json -o=yaml > repos.yml
+          cmd: yq eval '.' ./manifest.json -o=yaml > repos.yml
 
       - name: Clean up temp files
         if: always()
-        run: rm -f manifest.json repos-to-classify.json classification-system-prompt.txt validation-prompt.txt
+        run: rm -f ./manifest.json repos-to-classify.json classification-system-prompt.txt validation-prompt.txt
 
       - name: Validate classified manifest
         if: steps.apply_classification.outputs.classified_count > 0
