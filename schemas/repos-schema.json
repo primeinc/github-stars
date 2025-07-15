@@ -1,0 +1,357 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/primeinc/github-stars/schemas/repos-schema.json",
+  "title": "GitHub Stars Curation Manifest Schema",
+  "description": "Schema for repos.yml - A comprehensive personal repository knowledge base",
+  "type": "object",
+  "required": ["schema_version", "manifest_metadata", "feature_flags", "taxonomy", "repositories"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "3.0.0",
+      "description": "Semantic version of this schema for migration support"
+    },
+    "manifest_metadata": {
+      "type": "object",
+      "description": "Metadata about the manifest itself",
+      "required": ["generated_at", "last_updated", "total_repos"],
+      "additionalProperties": false,
+      "properties": {
+        "generated_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of initial manifest creation"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of last modification"
+        },
+        "total_repos": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total count of repositories in manifest"
+        },
+        "generator_version": {
+          "type": "string",
+          "pattern": "^v?\\d+\\.\\d+\\.\\d+$",
+          "description": "Version of the workflow that last updated this manifest"
+        },
+        "github_user": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9]([a-zA-Z0-9-])*$",
+          "description": "GitHub username who owns these stars"
+        }
+      }
+    },
+    "feature_flags": {
+      "type": "object",
+      "description": "Runtime configuration for automation behavior",
+      "required": ["ai_sort", "ai_summarize_nondescript", "batch_threshold", "auto_merge", "archive_handling"],
+      "additionalProperties": false,
+      "properties": {
+        "ai_sort": {
+          "type": "boolean",
+          "default": true,
+          "description": "Use AI for automatic repository classification"
+        },
+        "ai_summarize_nondescript": {
+          "type": "boolean",
+          "default": true,
+          "description": "Generate AI summaries for repos with poor/missing documentation"
+        },
+        "batch_threshold": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "default": 10,
+          "description": "Number of repos to process in a single AI batch"
+        },
+        "auto_merge": {
+          "type": "boolean",
+          "default": false,
+          "description": "Automatically merge PRs that pass all CI checks"
+        },
+        "archive_handling": {
+          "type": "string",
+          "enum": ["skip", "separate-directory", "include-with-flag"],
+          "default": "separate-directory",
+          "description": "How to handle archived repositories"
+        },
+        "submodule_update_default": {
+          "type": "string",
+          "enum": ["latest", "pinned"],
+          "default": "latest",
+          "description": "Default update policy for submodules unless overridden"
+        },
+        "enable_submodule_updates": {
+          "type": "boolean",
+          "default": false,
+          "description": "WARNING: Enable actual submodule updates. DO NOT ENABLE unless you want to clone/update all repos! This system uses submodules as LINKS ONLY for GitHub UI navigation."
+        }
+      }
+    },
+    "taxonomy": {
+      "type": "object",
+      "description": "Controlled vocabulary for consistent classification",
+      "required": ["categories_allowed"],
+      "additionalProperties": false,
+      "properties": {
+        "categories_allowed": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "List of valid category names",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$",
+            "minLength": 2,
+            "maxLength": 50
+          }
+        },
+        "tags_allowed": {
+          "type": "array",
+          "uniqueItems": true,
+          "description": "Optional canonical list of allowed tags with descriptions",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string",
+                "pattern": "^([a-z]+:)?[a-z0-9][a-z0-9-]*$",
+                "description": "Tag name, optionally prefixed with namespace (e.g., 'lang:go')"
+              },
+              "description": {
+                "type": "string",
+                "maxLength": 200,
+                "description": "Brief description of what this tag represents"
+              },
+              "deprecated": {
+                "type": "boolean",
+                "default": false,
+                "description": "Whether this tag is deprecated and should not be used for new entries"
+              }
+            }
+          }
+        },
+        "frameworks_allowed": {
+          "type": "array",
+          "uniqueItems": true,
+          "description": "List of recognized framework names",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          }
+        }
+      }
+    },
+    "repositories": {
+      "type": "array",
+      "description": "The curated collection of starred repositories",
+      "items": {
+        "type": "object",
+        "required": ["repo", "categories", "tags", "last_synced_sha", "starred_at"],
+        "additionalProperties": false,
+        "properties": {
+          "repo": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9-]*/[a-zA-Z0-9._-]+$",
+            "description": "Repository identifier in owner/name format"
+          },
+          "categories": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 5,
+            "uniqueItems": true,
+            "description": "Functional categories this repository belongs to",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tags": {
+            "type": "array",
+            "maxItems": 20,
+            "uniqueItems": true,
+            "description": "Descriptive tags for discovery and filtering",
+            "items": {
+              "type": "string",
+              "pattern": "^([a-z]+:)?[a-z0-9][a-z0-9-]*$"
+            }
+          },
+          "framework": {
+            "type": ["string", "null"],
+            "pattern": "^[a-z][a-z0-9-]*$",
+            "description": "Primary framework if applicable (null for framework-agnostic)"
+          },
+          "summary": {
+            "type": "string",
+            "maxLength": 500,
+            "description": "Concise description of the repository's purpose and value"
+          },
+          "last_synced_sha": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{40}$",
+            "description": "Git SHA of the last processed commit"
+          },
+          "starred_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "ISO 8601 timestamp when this repository was starred"
+          },
+          "readme_quality": {
+            "type": "string",
+            "enum": ["good", "poor", "missing"],
+            "description": "AI assessment of documentation quality"
+          },
+          "archived": {
+            "type": "boolean",
+            "default": false,
+            "description": "Whether the upstream repository is archived"
+          },
+          "fork": {
+            "type": "boolean",
+            "default": false,
+            "description": "Whether this is a fork of another repository"
+          },
+          "submodule_config": {
+            "type": "object",
+            "description": "Override default submodule behavior for this repository (ONLY affects link generation, NOT actual cloning)",
+            "additionalProperties": false,
+            "properties": {
+              "update_policy": {
+                "type": "string",
+                "enum": ["latest", "pinned"],
+                "description": "Whether to track latest or pin to specific commit"
+              },
+              "pinned_commit": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{40}$",
+                "description": "Specific commit SHA when update_policy is 'pinned'"
+              },
+              "exclude_from": {
+                "type": "array",
+                "uniqueItems": true,
+                "description": "Categories/tags to exclude this submodule from",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "curation_details": {
+            "type": "object",
+            "description": "Personal knowledge management metadata",
+            "additionalProperties": false,
+            "properties": {
+              "rating": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5,
+                "description": "Personal quality/usefulness rating (1-5 stars)"
+              },
+              "status": {
+                "type": "string",
+                "enum": ["evaluating", "in-use", "archived", "learning", "reference"],
+                "description": "Current relationship status with this repository"
+              },
+              "notes": {
+                "type": "string",
+                "maxLength": 2000,
+                "description": "Personal notes, setup instructions, or observations"
+              },
+              "last_used": {
+                "type": "string",
+                "format": "date",
+                "description": "Date when last actively used or referenced"
+              }
+            }
+          },
+          "relationships": {
+            "type": "array",
+            "description": "Connections to other repositories in the collection",
+            "items": {
+              "type": "object",
+              "required": ["type", "repo"],
+              "additionalProperties": false,
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": ["depends_on", "replaces", "replaced_by", "alternative_to", "used_with", "inspired_by", "fork_of"],
+                  "description": "Nature of the relationship"
+                },
+                "repo": {
+                  "type": "string",
+                  "pattern": "^[a-zA-Z0-9][a-zA-Z0-9-]*/[a-zA-Z0-9._-]+$",
+                  "description": "Related repository in owner/name format"
+                },
+                "note": {
+                  "type": "string",
+                  "maxLength": 200,
+                  "description": "Optional context about this relationship"
+                }
+              }
+            }
+          },
+          "ai_classification": {
+            "type": "object",
+            "description": "Audit trail of AI classification decisions",
+            "additionalProperties": false,
+            "properties": {
+              "model": {
+                "type": "string",
+                "description": "AI model used for classification"
+              },
+              "timestamp": {
+                "type": "string",
+                "format": "date-time",
+                "description": "When AI classification occurred"
+              },
+              "confidence": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1,
+                "description": "AI confidence score if provided"
+              },
+              "prompt_version": {
+                "type": "string",
+                "description": "Version of the prompt template used"
+              }
+            }
+          },
+          "needs_review": {
+            "type": "boolean",
+            "default": false,
+            "description": "Flag for manual review needed"
+          },
+          "ignore": {
+            "type": "boolean",
+            "default": false,
+            "description": "Exclude from processing but keep in manifest"
+          }
+        }
+      }
+    },
+    "relationship_graph": {
+      "type": "object",
+      "description": "Optional pre-computed relationship graph for performance",
+      "additionalProperties": false,
+      "properties": {
+        "last_computed": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "nodes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "edges": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

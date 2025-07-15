@@ -1,0 +1,50 @@
+query($cursor: String) {
+  viewer {
+    starredRepositories(first: 100, after: $cursor, orderBy: {field: STARRED_AT, direction: DESC}) {
+      totalCount
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+      edges {
+        starredAt
+        node {
+          nameWithOwner
+          description
+          primaryLanguage {
+            name
+          }
+          repositoryTopics(first: 20) {
+            nodes {
+              topic {
+                name
+              }
+            }
+          }
+          isArchived
+          isFork
+          isPrivate
+          stargazerCount
+          updatedAt
+          url
+          defaultBranchRef {
+            name
+            target {
+              oid
+            }
+          }
+          homepageUrl
+          isMirror
+          mirrorUrl
+          licenseInfo {
+            spdxId
+          }
+          latestRelease {
+            tagName
+            publishedAt
+          }
+        }
+      }
+    }
+  }
+}

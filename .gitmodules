@@ -1,0 +1,3 @@
+[submodule "test/all-repos/rizzui"]
+	path = test/all-repos/rizzui
+	url = https://github.com/rizzui/rizzui
