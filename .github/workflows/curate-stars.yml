@@ -135,7 +135,7 @@ jobs:
         if: steps.diff.outputs.changed == 'true'
         uses: mikefarah/yq@master
         with:
-          cmd: yq -i '.repositories = [.repositories[] | select(.repo as $item | load("removed_repos.json") | map(.repo) | index($item) | not)]' repos.yml
+          cmd: yq -i '.repositories = [.repositories[] | select(.repo as $r | load("removed_repos.json") | map(select(.repo == $r)) | length == 0)]' repos.yml
 
 
       - name: Create processing matrix
