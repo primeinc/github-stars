@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2025-07-15T10:08:43.293Z"
+  last_updated: "2025-07-15T10:14:37.875Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -28924,13 +28924,19 @@ repositories:
       mirror_url: null
   - repo: defuse/php-encryption
     categories:
-      - unclassified
-    tags: []
+      - security
+      - libraries
+      - encryption
+    tags:
+      - php-library
+      - secure-data
+      - cryptography
+      - lang:php
     summary: Simple Encryption in PHP.
     last_synced_sha: 9b77beb6e1cd997aecfd2392849db5afab128b5e
     starred_at: "2014-08-15T08:04:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -28945,15 +28951,26 @@ repositories:
         published_at: "2023-06-19T06:21:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:14:37.875Z"
+      prompt_version: v1
   - repo: ziadoz/awesome-php
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+      - programming-languages
+    tags:
+      - awesome-lists
+      - php-resources
+      - curated-collections
+      - lang:php
     summary: A curated list of amazingly awesome PHP libraries, resources and shiny things.
     last_synced_sha: cfe9d5d43cb4ddb51b6a84e83cae24a1965e31f1
     starred_at: "2014-08-06T08:04:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -28973,15 +28990,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:14:37.874Z"
+      prompt_version: v1
   - repo: bayandin/awesome-awesomeness
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+      - education
+    tags:
+      - awesome-lists
+      - curated-collections
+      - resources
+      - lang:ruby
     summary: A curated list of awesome awesomeness
     last_synced_sha: c35ea15c5db11409f2bd6467725bcec57d9689df
     starred_at: "2014-08-06T08:04:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics: []
@@ -28994,15 +29022,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:14:37.874Z"
+      prompt_version: v1
   - repo: mackstann/binpack
     categories:
-      - unclassified
-    tags: []
+      - graphics
+      - algorithms
+      - web-development
+    tags:
+      - bin-packing
+      - 2d-graphics
+      - canvas
+      - lang:javascript
     summary: 2D bin-packing using Java Script + canvas
     last_synced_sha: 7f21b8d63b20eebf8a22fd8173f7cda6df14933d
     starred_at: "2014-06-27T04:52:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -29015,15 +29054,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:14:37.874Z"
+      prompt_version: v1
   - repo: FreeApophis/TrueCrypt
     categories:
-      - unclassified
-    tags: []
+      - security
+      - data-protection
+      - backup
+    tags:
+      - encryption
+      - truecrypt
+      - data-security
+      - lang:c
     summary: This repository applies all Versions of the Original True Crypt Source Files in order
     last_synced_sha: bc57fd6ce0e7f8f0817f5eebbb79aea1809863e9
     starred_at: "2014-06-23T05:15:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -29036,15 +29086,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:14:37.874Z"
+      prompt_version: v1
   - repo: google/WebFundamentals
     categories:
-      - unclassified
-    tags: []
+      - web-development
+      - documentation
+      - education
+    tags:
+      - best-practices
+      - progressive-web-app
+      - frontend-guide
+      - javascript
+      - lang:js
     summary: Former git repo for Web Fundamentals on developers.google.com
     last_synced_sha: f457a26e610a6c17d0b1864c04c892f38c117e8e
     starred_at: "2014-06-20T11:11:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: JavaScript
@@ -29069,15 +29131,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:14:37.874Z"
+      prompt_version: v1
   - repo: twbs/bootstrap
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ui-libraries
+      - web-development
+    tags:
+      - css-framework
+      - responsive-design
+      - scss
+      - html
+      - lang:mdx
     summary: The most popular HTML, CSS, and Java Script framework for developing responsive, mobile first projects on the web.
     last_synced_sha: 0c36327a993a44c49357fc59011d99f1849746bc
     starred_at: "2014-06-20T11:10:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: MDX
       topics:
@@ -29099,15 +29173,27 @@ repositories:
         published_at: "2025-06-17T16:16:45Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:14:37.874Z"
+      prompt_version: v1
   - repo: google/web-starter-kit
     categories:
-      - unclassified
-    tags: []
+      - web-development
+      - productivity
+      - dev-tools
+    tags:
+      - responsive-design
+      - multi-device
+      - workflow
+      - frontend-toolkit
+      - lang:html
     summary: Web Starter Kit - a workflow for multi-device websites
     last_synced_sha: e7e55e891ff6f00b223db5a5ef531e0ffaf84bbb
     starred_at: "2014-06-20T11:09:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: HTML
@@ -29123,15 +29209,26 @@ repositories:
         published_at: "2016-12-13T20:01:12Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:14:37.873Z"
+      prompt_version: v1
   - repo: chevereto/g-library
     categories:
-      - unclassified
-    tags: []
+      - libraries
+      - cms
+      - media
+    tags:
+      - chevereto
+      - php-library
+      - image-hosting
+      - lang:php
     summary: The library behind Chevereto V3.X. Replaced by chevere/chevere for Chevereto V4 onwards.
     last_synced_sha: 181a1d0eab7b3e19def013ed65d07314bc0545b5
     starred_at: "2014-06-14T11:29:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: PHP
@@ -29145,15 +29242,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:14:37.873Z"
+      prompt_version: v1
   - repo: ruflin/Elastica
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - databases
+      - dev-tools
+    tags:
+      - elasticsearch
+      - php-client
+      - search-engine
+      - lang:php
     summary: Elastica is a PHP client for elasticsearch
     last_synced_sha: 624ea092a418fac6d3aafc44afc27b7fd785d6bb
     starred_at: "2014-03-28T00:08:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -29171,6 +29279,11 @@ repositories:
         published_at: "2024-11-29T08:32:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:14:37.873Z"
+      prompt_version: v1
   - repo: slate/slate
     categories:
       - communication
