@@ -147,28 +147,60 @@ jobs:
         if: steps.prep_repos.outputs.has_repos == 'true'
         run: |
           cat > .github-stars/data/classification-system-prompt.txt << 'EOF'
-          You are a repository classification expert. Analyze GitHub repositories and classify them accurately.
+          OUTPUT ONLY A JSON ARRAY. NO OTHER TEXT. NO EXPLANATIONS. NO MARKDOWN. START WITH [ AND END WITH ]
           
-          Available categories: dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, unclassified
+          ALLOWED CATEGORIES (use 1-3 per repo):
+          dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, unclassified
           
-          Available frameworks: react, vue, angular, svelte, nextjs, nuxtjs, express, fastapi, django, flask, rails, laravel, spring
+          ALLOWED FRAMEWORKS (or null):
+          react, vue, angular, svelte, nextjs, nuxtjs, express, fastapi, django, flask, rails, laravel, spring
           
-          Language tags should use namespace format: lang:js, lang:ts, lang:python, lang:rust, lang:go
+          ALLOWED LANGUAGE TAGS:
+          lang:js, lang:ts, lang:python, lang:rust, lang:go, lang:csharp, lang:php, lang:dart, lang:lua, lang:gdscript
           
-          Return a JSON array with this exact structure for each repository:
-          {
-            "repo": "owner/name",
-            "categories": ["category1", "category2"],
-            "tags": ["tag1", "tag2", "lang:language"],
-            "framework": "framework-name-or-null"
-          }
+          EXAMPLES OF CORRECT OUTPUT:
+          [
+            {
+              "repo": "microsoft/vscode",
+              "categories": ["dev-tools", "productivity"],
+              "tags": ["code-editor", "ide", "lang:ts"],
+              "framework": null
+            },
+            {
+              "repo": "facebook/react",
+              "categories": ["frameworks", "ui-libraries", "web-dev"],
+              "tags": ["frontend", "component-based", "lang:js"],
+              "framework": "react"
+            },
+            {
+              "repo": "actions/checkout",
+              "categories": ["automation", "dev-tools"],
+              "tags": ["github-actions", "ci-cd", "lang:ts"],
+              "framework": null
+            },
+            {
+              "repo": "some/readme-generator",
+              "categories": ["documentation", "automation"],
+              "tags": ["markdown", "readme-automation"],
+              "framework": null
+            },
+            {
+              "repo": "vercel/next.js",
+              "categories": ["frameworks", "web-dev"],
+              "tags": ["ssr", "full-stack", "lang:js"],
+              "framework": "nextjs"
+            }
+          ]
           
-          Rules:
-          - Each repo should have 1-3 relevant categories (never just "unclassified" unless truly unclear)
-          - Include language tags based on the programming language
-          - Framework should be null if not a framework-specific project
-          - Be conservative with framework assignment
-          - Tags should be lowercase, hyphenated
+          STRICT RULES:
+          1. framework: Must be EXACTLY one of the allowed frameworks OR null (not "null" string)
+          2. categories: Array of 1-3 strings from ALLOWED CATEGORIES only
+          3. tags: Include lang:X tag ONLY if language is provided in input data
+          4. If input language is null/empty: DO NOT add any lang: tag (see readme-generator example)
+          5. CRITICAL: Output ONLY the JSON array. First character must be [, last character must be ]
+          6. DO NOT include any text, markdown formatting, backticks, or explanations
+          7. DO NOT say "Here is the classification" or similar phrases
+          8. START YOUR RESPONSE WITH [ AND END WITH ]
           EOF
 
       - name: Read prompts for AI
@@ -203,14 +235,21 @@ jobs:
         if: steps.prep_repos.outputs.has_repos == 'true'
         run: |
           cat > .github-stars/data/validation-prompt.txt << 'EOF'
-          Review these AI classifications and validate them. Check for:
-          1. Categories are appropriate and from the allowed list
-          2. Framework assignments are conservative and accurate
-          3. Language tags match the actual programming language
-          4. Tags are properly formatted (lowercase, hyphenated)
-          5. No obvious misclassifications
+          RESPOND WITH ONE OF:
+          1. IF VALID: Output the CORRECTED JSON array (fixing any minor issues)
+          2. IF INVALID: Output "REJECTED: [specific issue]"
           
-          Return ONLY "APPROVED" if all classifications look correct, or "REJECTED: [specific issues]" if there are problems.
+          START YOUR RESPONSE WITH EITHER [ (for JSON) OR "REJECTED:" (for rejection)
+          
+          Validation criteria:
+          - Categories must be from: dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, unclassified
+          - Frameworks must be from: react, vue, angular, svelte, nextjs, nuxtjs, express, fastapi, django, flask, rails, laravel, spring (or null)
+          - Language tags must be from: lang:js, lang:ts, lang:python, lang:rust, lang:go, lang:csharp, lang:php, lang:dart, lang:lua, lang:gdscript
+          - No language tag should exist if input language was null
+          - Tags must be lowercase, hyphenated
+          
+          If classifications have minor fixable issues (like lang:c# → lang:csharp), FIX THEM and return the corrected JSON.
+          Only reject if there are unfixable issues.
           
           Original repo data:
           EOF
@@ -249,27 +288,31 @@ jobs:
             const fs = require('fs');
             const { execSync } = require('child_process');
             
-            // Check validation result first
-            const validationResult = `${{ steps.ai_validate.outputs.response }}`.trim();
+            // Check validation result first - escape backticks to prevent syntax errors
+            const validationResult = String.raw`${{ steps.ai_validate.outputs.response }}`.trim();
             console.log('Validation Result:', validationResult);
             
-            if (!validationResult.startsWith('APPROVED')) {
+            let finalClassifications;
+            
+            if (validationResult.startsWith('REJECTED:')) {
               core.setFailed(`AI classifications rejected by validator: ${validationResult}`);
+              return;
+            } else if (validationResult.startsWith('[')) {
+              // Validator provided corrected JSON
+              console.log('✅ Using validator-corrected classifications');
+              finalClassifications = validationResult;
+            } else {
+              // Unexpected response
+              core.setFailed(`Unexpected validator response: ${validationResult}`);
               return;
             }
             
-            console.log('✅ AI classifications approved by validator');
-            
-            // Read the AI response
-            const aiResponse = `${{ steps.ai_classify.outputs.response }}`;
-            console.log('AI Response:', aiResponse);
-            
             let classifications;
             try {
-              classifications = JSON.parse(aiResponse);
+              classifications = JSON.parse(finalClassifications);
             } catch (error) {
-              console.error('Failed to parse AI response as JSON:', error);
-              core.setFailed(`AI returned invalid JSON: ${error.message}`);
+              console.error('Failed to parse classifications as JSON:', error);
+              core.setFailed(`Invalid JSON in classifications: ${error.message}`);
               return;
             }
             
@@ -317,7 +360,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const validationResult = `${{ steps.ai_validate.outputs.response }}`;
+            const validationResult = String.raw`${{ steps.ai_validate.outputs.response }}`;
             const repoCount = `${{ steps.prep_repos.outputs.repo_count }}`;
             
             await github.rest.issues.create({
