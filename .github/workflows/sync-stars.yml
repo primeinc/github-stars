@@ -97,8 +97,15 @@ jobs:
             const { execSync } = require('child_process');
             const starsData = ${{ steps.read_stars.outputs.result }};
             
-            // Read YAML and convert to JSON using yq directly in memory
-            const yamlContent = fs.readFileSync('repos.yml', 'utf8');
+            // Check if repos.yml exists, if not use template
+            let yamlContent;
+            if (!fs.existsSync('repos.yml')) {
+              console.log('repos.yml not found, using template...');
+              yamlContent = fs.readFileSync('.github-stars/repos-template.yml', 'utf8');
+            } else {
+              yamlContent = fs.readFileSync('repos.yml', 'utf8');
+            }
+            
             const manifestJson = execSync('./yq eval -o=json -', { input: yamlContent, encoding: 'utf8' });
             const manifestData = JSON.parse(manifestJson) || { repositories: [] };
             
