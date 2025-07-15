@@ -3,6 +3,11 @@ name: 'Curate Starred Repos'
 
 on:
   workflow_dispatch:
+    inputs:
+      batch_limit:
+        description: 'Limit repositories to classify in this batch (0 = no limit)'
+        type: number
+        default: 20
   workflow_run:
     workflows: ["Sync Starred Repos"]
     types:
@@ -84,11 +89,28 @@ jobs:
             const manifestJson = execSync('./yq eval -o=json -', { input: yamlContent, encoding: 'utf8' });
             const manifestData = JSON.parse(manifestJson);
 
-            // Find repositories that need review
-            const unclassifiedRepos = manifestData.repositories.filter(repo => 
-              repo.needs_review === true && 
-              repo.categories.includes('unclassified')
+            // Find repositories that need AI classification
+            // A repo needs classification if it's unclassified AND either:
+            // 1. Marked for review (needs_review: true), OR
+            // 2. Never been classified by AI (ai_classification missing/null/timestamp unset)
+            const allUnclassifiedRepos = manifestData.repositories.filter(repo => 
+              repo.categories.includes('unclassified') && 
+              (repo.needs_review === true || 
+               !repo.ai_classification || 
+               !repo.ai_classification.timestamp)
             );
+
+            // Apply batch limit if specified
+            const batchLimit = parseInt(process.env.BATCH_LIMIT || '${{ github.event.inputs.batch_limit }}' || '0');
+            const unclassifiedRepos = batchLimit > 0 ? 
+              allUnclassifiedRepos
+                .sort((a, b) => new Date(a.starred_at) - new Date(b.starred_at)) // Oldest first
+                .slice(0, batchLimit) : 
+              allUnclassifiedRepos;
+
+            if (batchLimit > 0) {
+              console.log(`🔄 BATCH MODE: Processing ${unclassifiedRepos.length} of ${allUnclassifiedRepos.length} repositories needing classification`);
+            }
 
             console.log(`Found ${unclassifiedRepos.length} repositories needing AI classification`);
 

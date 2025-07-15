@@ -3,19 +3,12 @@ name: 'Sync Starred Repos'
 
 on:
   workflow_dispatch:
-    inputs:
-      test_limit:
-        description: 'Limit total repos for testing (0 = no limit)'
-        type: number
-        default: 20
 
 permissions:
   contents: write
   pull-requests: write
   issues: write
 
-env:
-  TEST_LIMIT: ${{ github.event.inputs.test_limit || '20' }}
 
 concurrency:
   group: sync-stars-${{ github.ref }}
@@ -101,11 +94,6 @@ jobs:
             
             console.log(`Found ${starsData.length} starred repositories`);
             
-            // Note: test limit is applied to needs_review flag later, not to data sync
-            const testLimit = parseInt(process.env.TEST_LIMIT || '0');
-            if (testLimit > 0) {
-              console.log(`⚠️  TEST MODE: Will sync ALL repos but only mark first ${testLimit} for AI classification`);
-            }
             
             // Check if repos.yml exists, if not use template
             let yamlContent;
@@ -140,16 +128,11 @@ jobs:
             const newRepos = starsData.filter(star => star && star.repo && !existingRepos.has(star.repo));
 
             // Find removed repos (in manifest but not in stars) (with null safety)
-            // CRITICAL: Only check for removals if we're not using test limit to avoid data loss
             const currentStarRepos = new Set(starsData.filter(s => s && s.repo).map(s => s.repo));
-            const removedRepos = testLimit > 0 ? [] : manifestData.repositories.filter(r => r && r.repo && !currentStarRepos.has(r.repo));
+            const removedRepos = manifestData.repositories.filter(r => r && r.repo && !currentStarRepos.has(r.repo));
 
             console.log(`New repos to add: ${newRepos.length}`);
             console.log(`Repos to remove: ${removedRepos.length}`);
-            
-            if (testLimit > 0) {
-              console.log(`⚠️  TEST MODE: Repository removals disabled to prevent data loss`);
-            }
 
             const hasChanges = newRepos.length > 0 || removedRepos.length > 0;
 
@@ -164,12 +147,10 @@ jobs:
 
             // Update manifest if there are changes
             if (hasChanges) {
-              // Remove deleted repositories (only if not in test mode)
-              if (testLimit === 0) {
-                manifestData.repositories = manifestData.repositories.filter(r => 
-                  r && r.repo && currentStarRepos.has(r.repo)
-                );
-              }
+              // Remove deleted repositories
+              manifestData.repositories = manifestData.repositories.filter(r => 
+                r && r.repo && currentStarRepos.has(r.repo)
+              );
 
               // Add new repositories (only new ones, never duplicates) with data validation and cleaning
               const cleanDescription = (desc) => {
@@ -191,10 +172,8 @@ jobs:
                 return cleaned;
               };
               
-              // Apply test limit to needs_review flag for throttling AI classification
-              // testLimit already defined above
-              
-              const newRepoEntries = newRepos.map((repo, index) => {
+              // Create new repository entries - all marked for AI classification
+              const newRepoEntries = newRepos.map((repo) => {
                 // Base entry with required fields
                 const entry = {
                   repo: repo.repo,
@@ -203,20 +182,17 @@ jobs:
                   summary: cleanDescription(repo.description),
                   last_synced_sha: repo.last_commit_sha || '0000000000000000000000000000000000000000',
                   starred_at: repo.starred_at || new Date().toISOString(),
-                  readme_quality: "missing"
+                  readme_quality: "missing",
+                  needs_review: true  // All new repos need AI classification
                 };
                 
-                // Only set non-default values (schema defaults: needs_review=false, archived=false, fork=false, framework=null)
-                if (testLimit === 0 || index < testLimit) {
-                  entry.needs_review = true;
-                }
+                // Only set non-default values for archived and fork
                 if (repo.archived) {
                   entry.archived = true;
                 }
                 if (repo.fork) {
                   entry.fork = true;
                 }
-                // Don't set framework since it's null (schema default)
                 
                 return entry;
               });
@@ -267,18 +243,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add repos.yml
-          # Determine commit message based on test limit
-          TEST_LIMIT="${{ github.event.inputs.test_limit }}"
-          if [ "$TEST_LIMIT" = "0" ] || [ -z "$TEST_LIMIT" ]; then
-            LIMIT_MSG="all marked for AI review"
-          else
-            LIMIT_MSG="first $TEST_LIMIT marked for AI review"
-          fi
-          
           git commit -m "🌟 Sync ${{ steps.diff.outputs.total_new }} new starred repositories
 
           - Added ${{ steps.diff.outputs.total_new }} new repositories  
-          - Categories set to 'unclassified', $LIMIT_MSG
+          - Categories set to 'unclassified', all marked for AI review
           - Updated manifest metadata timestamp
 
           🤖 Generated with [Claude Code](https://claude.ai/code)
