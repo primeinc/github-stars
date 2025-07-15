@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2025-07-15T10:46:01.254Z"
+  last_updated: "2025-07-15T10:50:34.025Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -28680,13 +28680,20 @@ repositories:
       mirror_url: null
   - repo: t4t5/sweetalert
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-development
+      - productivity-tools
+    tags:
+      - modal-dialog
+      - popup
+      - alert-replacement
+      - javascript-ui
+      - lang:ts
     summary: A beautiful replacement for Java Script's "alert"
     last_synced_sha: d927c9bbc66bd26380dc360a71e1876d284a7faf
     starred_at: "2014-10-18T10:06:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28708,15 +28715,25 @@ repositories:
         published_at: "2017-12-14T13:45:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:50:34.025Z"
+      prompt_version: v1
   - repo: micjohnson/weed-php
     categories:
-      - unclassified
-    tags: []
+      - storage
+      - developer-tools
+    tags:
+      - distributed-file-system
+      - weed-fs
+      - php-client
+      - lang:php
     summary: PHP client for Weed-FS, a simple and highly scalable distributed file system
     last_synced_sha: 341df564e7bc4982277ccf526ec0511b27df99f1
     starred_at: "2014-10-09T22:23:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -28729,15 +28746,28 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:50:34.024Z"
+      prompt_version: v1
   - repo: litespeedtech/openlitespeed
     categories:
-      - unclassified
-    tags: []
+      - web-development
+      - infrastructure
+      - networking
+    tags:
+      - http-server
+      - high-performance
+      - http2
+      - http3
+      - quic
+      - lang:cpp
     summary: Our high-performance, lightweight, open source HTTP server
     last_synced_sha: 132a8e756e956840974019a7066d7bf50c10cccc
     starred_at: "2014-10-06T06:09:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -28759,15 +28789,27 @@ repositories:
         published_at: "2025-02-18T17:36:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:50:34.024Z"
+      prompt_version: v1
   - repo: ajenti/ajenti
     categories:
-      - unclassified
-    tags: []
+      - system-administration
+      - monitoring
+      - web-development
+    tags:
+      - control-panel
+      - administration
+      - linux
+      - angular
+      - lang:python
     summary: Ajenti Core and stock plugins
     last_synced_sha: 33f5fd63af07406b9752d99ac65788ecde70c916
     starred_at: "2014-10-06T05:37:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -28789,15 +28831,24 @@ repositories:
         published_at: "2024-03-03T12:24:15Z"
       is_mirror: false
       mirror_url: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:50:34.024Z"
+      prompt_version: v1
   - repo: guiguiboy/PHP-CLI-Progress-Bar
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - dev-tools
+    tags:
+      - progress-bar
+      - cli-progress
+      - lang:php
     summary: A PHP5 CLI Progress bar
     last_synced_sha: 7d3eb61c1f0c164b9c3139af694b2d38171e4d04
     starred_at: "2014-10-05T00:38:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: PHP
@@ -28813,6 +28864,11 @@ repositories:
         published_at: "2017-04-10T21:02:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2025-07-15T10:50:34.024Z"
+      prompt_version: v1
   - repo: brandonlw/Psychson
     categories:
       - security
