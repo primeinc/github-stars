@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2025-07-15T07:27:40.246Z"
+  last_updated: "2025-07-15T07:29:23.253Z"
   total_repos: 60
   generator_version: v1.0.0
   github_user: primeinc
@@ -737,8 +737,15 @@ repositories:
     needs_review: false
   - repo: pangrr/realtor
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+      - web-scraping
+    tags:
+      - python
+      - real-estate
+      - crawler
+      - realtor-com
+      - lang:python
     framework: null
     summary: crawl house data from realtor.com
     last_synced_sha: f01f171786a319c04419d3e4913dcec46478a31a
@@ -746,11 +753,17 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: pablotanner/RealtorRocket
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+      - real-estate
+    tags:
+      - real-estate-management
+      - crm
+      - property
+      - lang:js
     framework: null
     summary: Real Estate Management Software
     last_synced_sha: 22effec5246ad332102d9ac89a571590bcd73752
@@ -758,11 +771,17 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: harry-s-grewal/mls-real-estate-scraper-for-realtor.ca
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+      - web-scraping
+    tags:
+      - mls
+      - realtor-ca
+      - real-estate-data
+      - lang:python
     framework: null
     summary: Python MLS and Real-Estate Data Scraper for the Realtor.ca Website
     last_synced_sha: 6383b63ab2c8ed102cc52eb2599f5614e467bdc0
@@ -770,11 +789,17 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: Exclusiveideas/Realtor
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+      - real-estate
+    tags:
+      - real-estate-website
+      - realtime-data
+      - houses-for-sale
+      - lang:js
     framework: null
     summary: A real-estate website with realtime data and information on houses for rent and for sale.
     last_synced_sha: 8cade6e3cc1237d68bf9f7c8d7e6519c28583780
@@ -782,11 +807,17 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: Froren/realtorca
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - data-science
+      - real-estate
+    tags:
+      - api-wrapper
+      - realtor-ca
+      - mls
+      - lang:js
     framework: null
     summary: API wrapper for realtor.ca MLS website
     last_synced_sha: 3419970f3edc1f8061074301bb4701e90b68fc76
@@ -794,11 +825,18 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: baizel36/property_search
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+      - web-scraping
+    tags:
+      - real-estate
+      - realtor-com
+      - zillow
+      - search-scripts
+      - lang:python
     framework: null
     summary: Python scripts to search for real estate on realtor.com and zillow.com
     last_synced_sha: 098f9eb689173506bdfc070e95c432904949f03b
@@ -806,11 +844,17 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: rachitt96/pyRealtor
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+      - real-estate
+    tags:
+      - python-package
+      - data-analysis
+      - real-estate-data
+      - lang:python
     framework: null
     summary: Python package to extract and analyse Canadian, United States and Indian real estate data from REALTOR.CA, REALTOR.COM and HOUSING.COM
     last_synced_sha: ba878c3e4ef52ab2ad9898f2058e26e1fcb31252
@@ -818,11 +862,17 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: tysonthomas9/realtor-agent
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - real-estate
+      - productivity
+    tags:
+      - property-analysis
+      - ai-powered-tools
+      - real-estate
+      - lang:python
     framework: null
     summary: 'Realtor Agent: AI-powered tool for property analysis, running comparables, and assisting with contract document finalization in real estate transactions.'
     last_synced_sha: 0b406de995a4c508ed453ba208a54d9f59a5308b
@@ -830,11 +880,17 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: moov-io/fincen
     categories:
-      - unclassified
-    tags: []
+      - government
+      - finance
+      - documents
+    tags:
+      - bsa-filing
+      - forms
+      - banking-compliance
+      - lang:go
     framework: null
     summary: Fincen BSA E-Filing forms
     last_synced_sha: d302df03425b5c27720ae615b5efe0d3f38d53bd
@@ -842,11 +898,17 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: finos/perspective
     categories:
-      - unclassified
-    tags: []
+      - analytics
+      - visualization
+      - frameworks
+    tags:
+      - data-visualization
+      - streaming-data
+      - large-datasets
+      - lang:cpp
     framework: null
     summary: A data visualization and analytics component, especially well-suited for large and/or streaming datasets.
     last_synced_sha: 45464336a5d6e4b842d6450c4ac4053d115bd4fa
@@ -854,11 +916,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: moov-io/awesome-fintech
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - finance
+      - resources
+    tags:
+      - fintech
+      - open-source
+      - resources
     framework: null
     summary: A curated collection of open source fintech libraries and resources.
     last_synced_sha: 66b4a237985a646f2f7c60ddf89d2f20c0b6cdf4
@@ -866,11 +933,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: 7kfpun/awesome-fintech
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - finance
+      - resources
+    tags:
+      - fintech
+      - financial-resources
+      - awesome-list
     framework: null
     summary: A curated list of amazingly awesome financial libraries, resources and shiny things.
     last_synced_sha: ab2ac1404416f802567e96c5886a1ca33d408924
@@ -878,11 +950,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: Galaxies-dev/fintech-clone-react-native
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - finance
+    tags:
+      - fintech
+      - react-native
+      - mobile-app
+      - lang:ts
     framework: null
     summary: No description provided
     last_synced_sha: ff23a1f50bbdefcee5f85cc856a03e92b3a1d8df
@@ -890,11 +967,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: 4GeeksAcademy/realestate-datacleanup-exercise
     categories:
-      - unclassified
-    tags: []
+      - education
+      - data-science
+      - real-estate
+    tags:
+      - data-cleanup
+      - real-estate-data
+      - jupyter-notebook
     framework: null
     summary: No description provided
     last_synced_sha: 8cec2d2101779e1d5acba466905fd1fdf2c4cf6c
@@ -902,11 +984,18 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: nhost/nhost
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - databases
+      - cloud
+    tags:
+      - firebase-alternative
+      - graphql
+      - database
+      - serverless
+      - lang:ts
     framework: null
     summary: The Open Source Firebase Alternative with Graph QL.
     last_synced_sha: 85316e822f30ab18ffe5f708e0e552e3cf530b3b
@@ -914,11 +1003,16 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: adrianhajdin/project_graphql_blog
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - cms
+    tags:
+      - graphql
+      - blog-engine
+      - responsive-app
+      - lang:js
     framework: null
     summary: With featured and recent posts, categories. full markdown articles, author information, comments, and much more, this fully responsive CMS Blog App is the best Blog Application that you can current...
     last_synced_sha: 0d731ac97603fd2c725f0f2056036c9cfdc42385
@@ -926,11 +1020,18 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: kriasoft/graphql-starter-kit
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+      - databases
+    tags:
+      - graphql-api
+      - postgresql
+      - react
+      - boilerplate
+      - lang:ts
     framework: null
     summary: "\U0001F4A5 Monorepo template (seed project) pre-configured with Graph QL API, Postgre SQL, React, and Joy UI."
     last_synced_sha: d35106349570002a771d70f7187c5030dd2bd7fe
@@ -938,11 +1039,18 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: ChilliCream/graphql-platform
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+      - graphql
+    tags:
+      - graphql-server
+      - dotnet
+      - client-tools
+      - monaco-editor
+      - lang:csharp
     framework: null
     summary: Welcome to the home of the Hot Chocolate Graph QL server for .NET, the Strawberry Shake Graph QL client for .NET and Nitro the awesome Monaco based Graph QL IDE.
     last_synced_sha: 9dfb83147eea63a7426fc3ab4f42b16e6249c681
@@ -950,11 +1058,17 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: dotansimha/graphql-code-generator
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+      - graphql
+    tags:
+      - graphql-schema
+      - code-generation
+      - custom-plugins
+      - lang:ts
     framework: null
     summary: A tool for generating code based on a Graph QL schema and Graph QL operations (query/mutation/subscription), with flexible support for custom plugins.
     last_synced_sha: be5cb326fa25ca274640f74292784de16e1bd926
@@ -962,11 +1076,17 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
   - repo: gicentre/litvis
     categories:
-      - unclassified
-    tags: []
+      - visualization
+      - education
+      - data-science
+    tags:
+      - literate-programming
+      - data-storytelling
+      - visualization
+      - lang:ts
     framework: null
     summary: 'Literate Visualization: Theory, software and examples'
     last_synced_sha: 093f00a76ee2d911209788454f542983cc3ff991
@@ -974,4 +1094,4 @@ repositories:
     readme_quality: missing
     archived: false
     fork: false
-    needs_review: true
+    needs_review: false
