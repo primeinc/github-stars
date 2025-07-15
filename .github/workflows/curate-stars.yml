@@ -184,6 +184,7 @@ jobs:
                 tags: [],
                 framework: null,
                 summary: cleanDescription(repo.description),
+                language: repo.language || null,
                 last_synced_sha: repo.last_commit_sha || '',
                 starred_at: repo.starred_at || new Date().toISOString(),
                 readme_quality: "missing",
@@ -275,17 +276,282 @@ jobs:
           branch: sync-starred-repos-${{ github.run_number }}
           delete-branch: true
 
-  # Future job for AI classification (to be implemented later)
   classify-repositories:
     needs: sync-and-classify
     runs-on: ubuntu-latest
-    if: needs.sync-and-classify.outputs.manifest_updated == 'true' && false  # Disabled for now
+    if: needs.sync-and-classify.outputs.manifest_updated == 'true'
+    permissions:
+      contents: write
+      models: read
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
 
-      - name: Placeholder for AI classification
+      - name: Read updated manifest
+        id: read_updated_manifest
+        uses: mikefarah/yq@v4.46.1
+        with:
+          cmd: yq eval '.' repos.yml -o=json
+
+      - name: Prepare repositories for AI classification
+        id: prep_repos
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let manifestData;
+            try {
+              manifestData = JSON.parse(`${{ steps.read_updated_manifest.outputs.result }}`);
+            } catch (error) {
+              core.setFailed(`Failed to parse updated manifest: ${error.message}`);
+              return;
+            }
+
+            // Find repositories that need review
+            const unclassifiedRepos = manifestData.repositories.filter(repo => 
+              repo.needs_review === true && 
+              repo.categories.includes('unclassified')
+            );
+
+            console.log(`Found ${unclassifiedRepos.length} repositories needing AI classification`);
+
+            if (unclassifiedRepos.length === 0) {
+              console.log('No repositories need classification');
+              core.setOutput('has_repos', 'false');
+              return;
+            }
+            
+            console.log('🤖 Starting dual-AI classification process:');
+            console.log('  1. Primary AI will classify repositories');
+            console.log('  2. Validator AI will review classifications');
+            console.log('  3. Only approved classifications will be applied');
+
+            // Prepare repo data for AI
+            const repoData = unclassifiedRepos.map(repo => ({
+              repo: repo.repo,
+              summary: repo.summary,
+              language: repo.language,
+              starred_at: repo.starred_at
+            }));
+
+            // Write repo data for AI
+            fs.writeFileSync('repos-to-classify.json', JSON.stringify(repoData, null, 2));
+            core.setOutput('has_repos', 'true');
+            core.setOutput('repo_count', unclassifiedRepos.length);
+
+      - name: Create system prompt file
+        if: steps.prep_repos.outputs.has_repos == 'true'
         run: |
-          echo "AI classification will be implemented in a future iteration"
-          echo "For now, repositories are added as 'unclassified' for manual review"
+          cat > classification-system-prompt.txt << 'EOF'
+          You are a repository classification expert. Analyze GitHub repositories and classify them accurately.
+          
+          Available categories: dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, unclassified
+          
+          Available frameworks: react, vue, angular, svelte, nextjs, nuxtjs, express, fastapi, django, flask, rails, laravel, spring
+          
+          Language tags should use namespace format: lang:js, lang:ts, lang:python, lang:rust, lang:go
+          
+          Return a JSON array with this exact structure for each repository:
+          {
+            "repo": "owner/name",
+            "categories": ["category1", "category2"],
+            "tags": ["tag1", "tag2", "lang:language"],
+            "framework": "framework-name-or-null"
+          }
+          
+          Rules:
+          - Each repo should have 1-3 relevant categories (never just "unclassified" unless truly unclear)
+          - Include language tags based on the programming language
+          - Framework should be null if not a framework-specific project
+          - Be conservative with framework assignment
+          - Tags should be lowercase, hyphenated
+          EOF
+
+      - name: AI classify repositories  
+        id: ai_classify
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        uses: actions/ai-inference@v1
+        with:
+          model: 'openai/gpt-4o'
+          max-tokens: '2000'
+          system-prompt-file: 'classification-system-prompt.txt'
+          prompt-file: 'repos-to-classify.json'
+
+      - name: Create validation prompt
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        run: |
+          cat > validation-prompt.txt << 'EOF'
+          Review these AI classifications and validate them. Check for:
+          1. Categories are appropriate and from the allowed list
+          2. Framework assignments are conservative and accurate
+          3. Language tags match the actual programming language
+          4. Tags are properly formatted (lowercase, hyphenated)
+          5. No obvious misclassifications
+          
+          Return ONLY "APPROVED" if all classifications look correct, or "REJECTED: [specific issues]" if there are problems.
+          
+          Original repo data:
+          EOF
+          cat repos-to-classify.json >> validation-prompt.txt
+          echo "" >> validation-prompt.txt
+          echo "AI Classifications:" >> validation-prompt.txt
+          echo '${{ steps.ai_classify.outputs.response }}' >> validation-prompt.txt
+
+      - name: Validate AI classifications
+        id: ai_validate
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        uses: actions/ai-inference@v1
+        with:
+          model: 'openai/gpt-4o'
+          max-tokens: '500'
+          system-prompt: 'You are a classification validator. Be strict about accuracy and only approve classifications that are clearly correct.'
+          prompt-file: 'validation-prompt.txt'
+
+      - name: Apply AI classification results
+        id: apply_classification
+        if: steps.prep_repos.outputs.has_repos == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            
+            // Check validation result first
+            const validationResult = `${{ steps.ai_validate.outputs.response }}`.trim();
+            console.log('Validation Result:', validationResult);
+            
+            if (!validationResult.startsWith('APPROVED')) {
+              core.setFailed(`AI classifications rejected by validator: ${validationResult}`);
+              return;
+            }
+            
+            console.log('✅ AI classifications approved by validator');
+            
+            // Read the AI response
+            const aiResponse = `${{ steps.ai_classify.outputs.response }}`;
+            console.log('AI Response:', aiResponse);
+            
+            let classifications;
+            try {
+              classifications = JSON.parse(aiResponse);
+            } catch (error) {
+              console.error('Failed to parse AI response as JSON:', error);
+              core.setFailed(`AI returned invalid JSON: ${error.message}`);
+              return;
+            }
+            
+            if (!Array.isArray(classifications)) {
+              core.setFailed('AI response is not an array');
+              return;
+            }
+
+            // Read current manifest
+            let manifestData;
+            try {
+              manifestData = JSON.parse(`${{ steps.read_updated_manifest.outputs.result }}`);
+            } catch (error) {
+              core.setFailed(`Failed to parse manifest: ${error.message}`);
+              return;
+            }
+
+            // Apply classifications
+            let classifiedCount = 0;
+            classifications.forEach(classification => {
+              const repoIndex = manifestData.repositories.findIndex(r => r.repo === classification.repo);
+              if (repoIndex !== -1) {
+                manifestData.repositories[repoIndex].categories = classification.categories;
+                manifestData.repositories[repoIndex].tags = classification.tags || [];
+                manifestData.repositories[repoIndex].framework = classification.framework;
+                manifestData.repositories[repoIndex].needs_review = false;
+                classifiedCount++;
+                
+                console.log(`Classified ${classification.repo}: ${classification.categories.join(', ')}`);
+              }
+            });
+
+            // Update metadata
+            manifestData.manifest_metadata.last_updated = new Date().toISOString();
+
+            // Write updated manifest
+            try {
+              fs.writeFileSync('manifest-classified.json', JSON.stringify(manifestData, null, 2));
+              console.log(`Successfully classified ${classifiedCount} repositories`);
+            } catch (error) {
+              core.setFailed(`Failed to write classified manifest: ${error.message}`);
+              return;
+            }
+
+            core.setOutput('classified_count', classifiedCount);
+
+      - name: Create validation failure issue
+        if: failure() && steps.ai_validate.outputs.response != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const validationResult = `${{ steps.ai_validate.outputs.response }}`;
+            const repoCount = `${{ steps.prep_repos.outputs.repo_count }}`;
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🤖 AI Classification Validation Failed (${repoCount} repos)`,
+              body: `## AI Classification Validation Failure
+              
+              **Validation Result:**
+              \`\`\`
+              ${validationResult}
+              \`\`\`
+              
+              **Original Classifications:**
+              \`\`\`json
+              ${{ steps.ai_classify.outputs.response }}
+              \`\`\`
+              
+              **Repositories Affected:**
+              ${repoCount} repositories need manual classification.
+              
+              **Next Steps:**
+              1. Review the validation feedback
+              2. Manually classify the repositories
+              3. Update the classification prompts if needed
+              
+              cc: @${context.repo.owner}`,
+              labels: ['ai-classification', 'validation-failed', 'needs-review']
+            });
+
+      - name: Convert classified manifest to YAML
+        if: steps.apply_classification.outputs.classified_count > 0
+        uses: mikefarah/yq@v4.46.1
+        with:
+          cmd: yq eval '.' manifest-classified.json -o=yaml > repos.yml
+
+      - name: Clean up temp files
+        if: always()
+        run: rm -f manifest-classified.json repos-to-classify.json classification-system-prompt.txt validation-prompt.txt
+
+      - name: Validate classified manifest
+        if: steps.apply_classification.outputs.classified_count > 0
+        uses: cardinalby/schema-validator-action@v3
+        with:
+          schema: 'schemas/repos-schema.json'
+          file: 'repos.yml'
+          mode: 'lax'
+
+      - name: Commit AI classification results
+        if: steps.apply_classification.outputs.classified_count > 0
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add repos.yml
+          git commit -m "🤖 AI classify ${{ steps.apply_classification.outputs.classified_count }} repositories
+
+          - Automatically categorized repositories using AI classification
+          - Updated framework detection and tagging
+          - Marked classified repos as no longer needing review
+
+          🤖 Generated with [Claude Code](https://claude.ai/code)
+
+          Co-Authored-By: Claude <noreply@anthropic.com>"
+          git push
