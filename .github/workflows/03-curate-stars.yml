@@ -27,8 +27,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
-          fetch-depth: 2
+          fetch-depth: 0
+          ref: main
 
+      - name: Pull latest changes
+        run: |
+          git pull origin main || true
+          
       - name: Setup environment  
         run: |
           mkdir -p .github-stars/data
