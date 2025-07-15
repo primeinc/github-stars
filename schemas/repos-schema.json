@@ -354,7 +354,6 @@
               },
               "homepage_url": {
                 "type": ["string", "null"],
-                "format": "uri",
                 "description": "Project homepage URL"
               },
               "license": {
@@ -368,7 +367,6 @@
               },
               "html_url": {
                 "type": "string",
-                "format": "uri",
                 "description": "GitHub repository URL"
               },
               "default_branch": {
@@ -396,7 +394,6 @@
               },
               "mirror_url": {
                 "type": ["string", "null"],
-                "format": "uri",
                 "description": "Mirror source URL if applicable"
               }
             }
