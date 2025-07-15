@@ -104,8 +104,10 @@ jobs:
             );
 
             // Apply batch limit - default to 20 for automatic runs
-            const batchLimit = parseInt(process.env.BATCH_LIMIT || '20');
+            const batchLimitStr = process.env.BATCH_LIMIT || '20';
+            const batchLimit = parseInt(batchLimitStr);
             console.log(`DEBUG: BATCH_LIMIT env var = '${process.env.BATCH_LIMIT}'`);
+            console.log(`DEBUG: batchLimitStr = '${batchLimitStr}'`);
             console.log(`DEBUG: parsed batchLimit = ${batchLimit}`);
             console.log(`DEBUG: allUnclassifiedRepos.length = ${allUnclassifiedRepos.length}`);
             
@@ -115,6 +117,8 @@ jobs:
               allUnclassifiedRepos
                 .sort((a, b) => new Date(a.starred_at) - new Date(b.starred_at)) // Oldest first
                 .slice(0, batchLimit);
+                
+            console.log(`DEBUG: final unclassifiedRepos.length = ${unclassifiedRepos.length}`);
 
             if (batchLimit > 0) {
               console.log(`🔄 BATCH MODE: Processing ${unclassifiedRepos.length} of ${allUnclassifiedRepos.length} repositories needing classification`);
@@ -166,8 +170,9 @@ jobs:
             echo "ERROR: repos-to-classify.json was not created!"
             exit 1
           fi
-          echo "Repos to classify:"
-          cat .github-stars/data/repos-to-classify.json
+          echo "Repos to classify: ${{ steps.prep_repos.outputs.repo_count }} repositories"
+          echo "First repository:"
+          head -20 .github-stars/data/repos-to-classify.json
 
       - name: Create system prompt file
         if: steps.prep_repos.outputs.has_repos == 'true'
