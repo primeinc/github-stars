@@ -26,8 +26,9 @@
 | **MVP_PLAN.md** | Detailed MVP roadmap with phases | 460 | `/docs/MVP_PLAN.md` |
 | **COPILOT_SETUP.md** | GitHub Copilot setup guide | 534 | `/docs/COPILOT_SETUP.md` |
 | **CURRENT_STATE.md** | Comprehensive assessment | 714 | `/docs/CURRENT_STATE.md` |
+| **ISSUE_SUMMARY.md** | This summary document | 334 | `/docs/ISSUE_SUMMARY.md` |
 
-**Total**: 1,939 lines of comprehensive documentation
+**Total**: 2,273 lines of comprehensive documentation
 
 ### 2. Current State Assessment
 
