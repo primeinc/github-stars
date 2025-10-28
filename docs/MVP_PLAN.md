@@ -2,7 +2,11 @@
 
 ## Executive Summary
 
-This document outlines the remaining work to reach **Minimum Viable Product (MVP)** status for the GitHub Stars Curation System. The system is already functional with core automation in place, but several enhancements are needed for a complete user experience.
+This document outlines the remaining work to reach **Minimum Viable Product (MVP)** status for the GitHub Stars Curation System. 
+
+**Core Principle**: This project is designed as a **100% free, GitHub-only solution**—no external services, hosting, or costs. Everything runs on GitHub's free tier (Actions, Pages, Models) to ensure universal accessibility.
+
+The system is already functional with core automation in place, but several enhancements are needed for a complete user experience—all staying within GitHub's ecosystem.
 
 ## Current State Assessment
 
@@ -52,7 +56,14 @@ This document outlines the remaining work to reach **Minimum Viable Product (MVP
 
 An MVP for this project means:
 
-> **A user can star a repository on GitHub, and within 24 hours, it will be automatically classified, organized, and browsable through a simple web interface with search and filtering capabilities.**
+> **A user can star a repository on GitHub, and within 24 hours, it will be automatically classified, organized, and browsable through GitHub Pages—all completely free using only GitHub's built-in features.**
+
+**Key Requirements**:
+- ✅ Zero external dependencies or costs
+- ✅ 100% GitHub-native solution
+- ✅ Accessible to anyone who can fork a repo
+- ✅ Automated classification and organization
+- ✅ Simple web interface via GitHub Pages (static site)
 
 ## MVP Roadmap
 
@@ -161,33 +172,30 @@ An MVP for this project means:
 
 ### Phase 3: Simple Web Interface (Week 3-4)
 
-**Goal**: Create a basic, browsable web interface using GitHub Pages
+**Goal**: Create a browsable interface using GitHub Pages (free, GitHub-native)
 
-#### Option A: Static Site Generator Approach (Recommended)
+#### GitHub Pages Static Site Approach
 
-Use a simple static site generator with GitHub Actions to create a browsable site.
+Build a static site that leverages GitHub Pages for free hosting—staying 100% within GitHub's ecosystem.
 
 **Tasks**:
 
-1. **Choose static site generator**
-   - Options: Jekyll (GitHub native), Hugo, 11ty
-   - Recommendation: Jekyll (no build step needed)
+1. **Choose static approach**
+   - **Option A**: Pure HTML/CSS/JS (recommended - zero dependencies)
+   - **Option B**: Jekyll (GitHub's native static site generator)
+   - Both options are 100% free and require no external services
 
-2. **Create site structure**
+2. **Create site structure** (in `docs/` folder)
    ```
    docs/
-     _config.yml          # Jekyll config
      index.html           # Main landing page
-     categories/
-       index.html         # Category browser
-       [category].html    # Per-category pages
-     tags/
-       index.html         # Tag browser
-       [tag].html         # Per-tag pages
-     search.html          # Client-side search
+     categories.html      # Category browser
+     tags.html           # Tag browser  
+     search.html         # Client-side search
      assets/
-       css/               # Styles
-       js/                # Search logic
+       css/              # Styles
+       js/               # Search & filter logic
+       data.json        # Generated from repos.yml
    ```
 
 3. **Implement core pages**
@@ -196,63 +204,28 @@ Use a simple static site generator with GitHub Actions to create a browsable sit
    - **Category detail**: List of repos in category with metadata
    - **Tag browser**: Tag cloud or list
    - **Tag detail**: Repos with that tag
-   - **Search page**: Client-side search with fuse.js or similar
+   - **Search page**: Client-side search with no backend
 
 4. **Generate site data**
-   - Create workflow to convert repos.yml to JSON for site
-   - Generate search index
+   - Create workflow to convert repos.yml to JSON
+   - Generate search index (client-side)
    - Build category/tag lookup tables
 
 5. **Enable GitHub Pages**
-   - Configure in repository settings
-   - Deploy from `docs/` or `gh-pages` branch
-   - Add custom domain if desired
+   - Configure in repository settings (Settings → Pages)
+   - Deploy from `docs/` folder
+   - Free hosting at `username.github.io/github-stars`
 
 **Success Criteria**:
-- [ ] Site accessible via GitHub Pages URL
+- [ ] Site accessible via free GitHub Pages URL
 - [ ] All categories and tags browsable
-- [ ] Search works with reasonable performance
+- [ ] Client-side search works (no backend needed)
 - [ ] Responsive design for mobile
 - [ ] Updates automatically on manifest changes
 
-**Estimated Effort**: 5-7 days
+**Estimated Effort**: 3-5 days
+**Cost**: $0 (GitHub Pages is free)
 **Dependencies**: Phase 2 (content generation)
-**Blocker Risk**: Low-Medium
-
-#### Option B: Simple HTML/JS Approach (Faster, simpler)
-
-Build a single-page application with vanilla JavaScript.
-
-**Tasks**:
-
-1. **Create single-page app**
-   ```html
-   <!-- index.html -->
-   - Load repos.yml as JSON
-   - Render with vanilla JS or lightweight library (Alpine.js, Petite Vue)
-   - Client-side filtering and search
-   ```
-
-2. **Implement features**
-   - Category filter dropdown
-   - Tag filter (multi-select)
-   - Text search (name, description, topics)
-   - Sort options (stars, date, name)
-   - Repository cards with metadata
-
-3. **Enable GitHub Pages**
-   - Single `index.html` in `docs/`
-   - Fetch `repos.yml` or generated JSON
-   - Pure client-side rendering
-
-**Success Criteria**:
-- [ ] Site loads and renders repositories
-- [ ] Filter by category and tags works
-- [ ] Search returns relevant results
-- [ ] Sorted displays (top starred, recent, etc.)
-
-**Estimated Effort**: 2-3 days
-**Dependencies**: Phase 2 (data structure)
 **Blocker Risk**: Low
 
 ---
@@ -381,12 +354,14 @@ This reduces MVP scope by skipping the custom web interface (Phase 3) and using 
 
 ## Dependencies & Blockers
 
-### External Dependencies
+### GitHub-Native Dependencies (All Free)
 
-- **GitHub Actions**: Core platform (no alternative)
-- **GitHub Models**: AI classification (could swap with OpenAI API)
-- **GitHub Pages**: Web hosting (could use Vercel, Netlify)
-- **mikefarah/yq**: YAML processing (could write custom)
+- **GitHub Actions**: Core automation platform ✅
+- **GitHub Models**: AI classification (free tier) ✅
+- **GitHub Pages**: Web hosting (free) ✅
+- **mikefarah/yq**: YAML processing (Action, free) ✅
+
+**Note**: All dependencies are GitHub-native or GitHub Actions that run for free. No external services or costs required.
 
 ### Internal Dependencies
 
@@ -398,6 +373,7 @@ This reduces MVP scope by skipping the custom web interface (Phase 3) and using 
 
 - **None**: All core infrastructure is in place
 - System is functional, just needs user-facing features
+- All features can be built with free GitHub tools
 
 ---
 
@@ -407,16 +383,20 @@ This reduces MVP scope by skipping the custom web interface (Phase 3) and using 
 
 - **Week 1**: Documentation (Phase 1) - 5 days
 - **Week 2**: Content generation (Phase 2) - 3 days
-- **Week 3-4**: Web interface (Phase 3) - 7 days
+- **Week 3-4**: GitHub Pages interface (Phase 3) - 5 days
 - **Week 4-5**: Automation & polish (Phase 4) - 4 days
 
-**Total**: ~19 working days
+**Total**: ~17 working days
+**Cost**: $0 (all free GitHub features)
 
 ### Minimal MVP (1-2 weeks)
 
 - **Week 1**: Documentation (Phase 1) - 3 days
 - **Week 1-2**: Content generation (Phase 2) - 3 days
 - **Week 2**: Basic automation (Phase 4 partial) - 2 days
+
+**Total**: ~8 working days
+**Cost**: $0 (all free GitHub features)
 
 **Total**: ~8 working days
 

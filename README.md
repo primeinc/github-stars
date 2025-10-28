@@ -4,11 +4,15 @@ An automated, AI-powered system for organizing and curating your GitHub starred 
 
 ## Overview
 
-This project provides a comprehensive solution for managing your GitHub stars by:
+This project is a **100% free, GitHub-only solution** designed to be accessible to anyone with a GitHub account. No external services, hosting, or costs required.
+
+It provides a comprehensive solution for managing your GitHub stars by:
 - **Automatically fetching** your starred repositories using GitHub GraphQL API
 - **Syncing changes** to a YAML manifest (`repos.yml`) as your single source of truth
 - **AI-powered classification** using GitHub Models to categorize and tag repositories
 - **Maintaining metadata** including topics, languages, licenses, and release information
+
+**Key Principle**: Everything runs on GitHub's free tier—Actions, Pages, and Models—making this solution accessible to everyone.
 
 ## Current State
 
@@ -196,24 +200,27 @@ The system uses a sophisticated two-stage AI process:
 
 This is a personal repository organization system, but the architecture and workflows can be adapted for your own use.
 
-### Best Practices for GitHub Actions
+### Design Philosophy
 
-Based on agent instructions, this project demonstrates:
-- ✅ 100% GitHub Actions-based automation
-- ✅ No external dependencies or scripts
-- ✅ Schema validation for data consistency
-- ✅ AI-powered classification with validation
-- ✅ Batch processing to avoid rate limits
-- ✅ Graceful error handling with issue creation
+This project explores what's possible with a **100% GitHub-native solution**:
+- ✅ **Zero Cost**: Runs entirely on GitHub's free tier
+- ✅ **No External Services**: Everything stays within GitHub
+- ✅ **Universally Accessible**: Anyone can fork and use immediately
+- ✅ **GitHub Actions**: 100% automation without external scripts
+- ✅ **GitHub Pages**: Free hosting for browsing interface
+- ✅ **GitHub Models**: Free AI classification
+- ✅ **No Build Dependencies**: Pure YAML + JavaScript
 
 ## Future Enhancements
 
 See [MVP_PLAN.md](docs/MVP_PLAN.md) for detailed roadmap, including:
-- Web UI for browsing and searching repositories
-- Visual repository explorer with dependency graphs
-- Enhanced search and filtering capabilities
-- README generation for categories
-- Multi-axis organization (by-category, by-tag, by-framework)
+- **GitHub Pages web interface** for browsing and searching (static site, no external hosting)
+- **README generation** for categories and tags (browsable directly on GitHub)
+- **Enhanced search** and filtering (client-side JavaScript, no backend needed)
+- **Scheduled automation** (built-in GitHub Actions cron)
+- **Multi-axis organization** (by-category, by-tag, by-framework)
+
+All planned features maintain the **100% GitHub-only** approach.
 
 ## License
 
