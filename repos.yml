@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T09:50:28.395Z"
+  last_updated: "2026-01-10T09:50:46.439Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -19696,13 +19696,18 @@ repositories:
       mirror_url: null
   - repo: ForeverPs/content-aware-rotation
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-rotation
+      - tensorflow
+      - lang:python
+      - image-processing
     summary: Implementation of Kaiming He's Paper Content-Aware Rotation on ICCV 2013
     last_synced_sha: 6cf89b21ebef71247b78fe976d8294a00c819b0a
     starred_at: "2023-08-30T01:04:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -19721,15 +19726,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: ali-vilab/videocomposer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-synthesis
+      - diffusion-models
+      - motion-control
+      - lang:python
     summary: 'Official repo for Video Composer: Compositional Video Synthesis with Motion Controllability'
     last_synced_sha: 490ed21b5c41ecbb12fd024de4308ce68b1e0f64
     starred_at: "2023-08-30T00:34:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -19745,15 +19760,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: papuSpartan/stable-diffusion-webui-auto-tls-https
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - tls
+      - https
+      - lang:python
+      - stable-diffusion
+      - security
     summary: An extension for AUTOMATIC1111's Stable Diffusion Web-UI that enables easy or zero-conf TLS for HTTPS
     last_synced_sha: b4510969164a88788d23340d70115b5f4f02e7b1
     starred_at: "2023-08-25T20:35:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -19774,15 +19800,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: Sxela/WarpFusion
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-generation
+      - stable-diffusion
+      - lang:batchfile
     summary: Warp Fusion
     last_synced_sha: 98ddeba5e8def54f3619dc2795ac8c86aa83c495
     starred_at: "2023-08-23T18:15:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -19803,15 +19838,24 @@ repositories:
         published_at: "2024-10-06T09:54:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: valinet/ExplorerPatcher
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - windows-enhancements
+      - workflow
+      - lang:c
     summary: This project aims to enhance the working environment on Windows
     last_synced_sha: 14807a50a843166882071d6cb2cf93a68eddc246
     starred_at: "2023-08-22T07:58:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -19826,15 +19870,24 @@ repositories:
         published_at: "2025-05-20T22:58:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: Mortalitas/GShade
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - reshade
+      - graphics-enhancement
+      - game-utility
     summary: GS hade is a highly modified Re Shade fork & utility package with numerous improvements and settings autodetection for over 300 games.
     last_synced_sha: d4ecdbe666822bb11d0a014878080d7911c8c7f5
     starred_at: "2023-08-20T17:45:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HLSL
       topics: []
@@ -19849,15 +19902,24 @@ repositories:
         published_at: "2025-06-20T18:53:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: d8ahazard/sd_smartprocess
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - stable-diffusion
+      - image-processing
+      - lang:python
     summary: Smart Pre-processing extension for Stable Diffusion
     last_synced_sha: 61b0e747f11ac518b97571bdb482ea0d55cb4862
     starred_at: "2023-08-20T04:23:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -19872,15 +19934,25 @@ repositories:
         published_at: "2023-12-28T20:57:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: PromtEngineer/localGPT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - data-security
+      - lang:python
+      - gpt
+      - document-processing
     summary: Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.
     last_synced_sha: 9d9d051d5c224111e8090a17053b32595b1b55a2
     starred_at: "2023-08-15T12:50:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -19893,15 +19965,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: invoiceninja/invoiceninja
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - invoicing
+      - time-tracking
+      - lang:php
+      - laravel
     summary: A source-available invoice, quote, project and time-tracking app built with Laravel
     last_synced_sha: 0ea98ffe7dc29c6a3c42f7fa5b0474227858297c
     starred_at: "2023-08-14T15:10:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -19932,15 +20014,26 @@ repositories:
         published_at: "2025-07-06T06:02:54Z"
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: immich-app/immich
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - mobile-dev
+    tags:
+      - photo-management
+      - self-hosted
+      - lang:ts
+      - nestjs
+      - svelte
     summary: High performance self-hosted photo and video management solution.
     last_synced_sha: 82c3165247aed8dcc224b39329c92c4aa8e8aa54
     starred_at: "2023-08-14T15:08:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -19971,15 +20064,25 @@ repositories:
         published_at: "2025-06-20T20:19:20Z"
       is_mirror: false
       mirror_url: null
+    framework: nestjs
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: xaviviro/refacer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deepfakes
+      - lang:python
+      - face-swap
+      - onnx
     summary: 'Refacer: One-Click Deepfake Multi-Face Swap Tool'
     last_synced_sha: fe947b67682946790df65076f8bf2370a5d87fbc
     starred_at: "2023-08-11T20:11:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -20001,15 +20104,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: iperov/DeepFaceLab
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - deepfakes
+      - lang:python
+      - deep-learning
+      - face-swap
     summary: Deep Face Lab is the leading software for creating deepfakes.
     last_synced_sha: e4b7543ffa1d73b26fce1e31852727f658ba490c
     starred_at: "2023-08-11T20:07:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -20040,15 +20153,24 @@ repositories:
         published_at: "2020-04-09T05:48:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: webinstall/webi-installers
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - package-management
+      - cross-platform
+      - shell-scripts
     summary: Primary and community-submitted packages for webinstall.dev
     last_synced_sha: 81ffcf3182a1762e21aedca666991e774f875ed4
     starred_at: "2023-08-11T15:08:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -20069,15 +20191,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: deepinsight/insightface
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - face-recognition
+      - face-detection
+      - lang:python
+      - deep-learning
     summary: State-of-the-art 2D and 3D Face Analysis Project
     last_synced_sha: cf2a79c10dd3944d417ad4af96a99b8c469c7a94
     starred_at: "2023-08-10T19:03:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -20102,15 +20234,24 @@ repositories:
         published_at: "2023-04-02T07:43:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: theohbrothers/ItemLinkManagement
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - infrastructure
+    tags:
+      - powershell
+      - hardlinks
+      - infrastructure-as-code
     summary: A Power Shell module for managing hardlinks, junctions, symbolic links.
     last_synced_sha: f297f670a3db39b96ae600a0eeac89191683e440
     starred_at: "2023-08-09T09:24:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -20145,6 +20286,11 @@ repositories:
         published_at: "2021-10-17T17:51:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:50:46.439Z"
+      prompt_version: v2
   - repo: SkalskiP/make-sense
     categories:
       - ai-ml
