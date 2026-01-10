@@ -51,7 +51,7 @@ jobs:
           wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
           chmod +x ./yq
 
-      - name: Prepare repos for classification
+      - name: Prepare repos
         id: prep
         uses: actions/github-script@v8
         with:
@@ -93,71 +93,62 @@ jobs:
               stargazers_count: r.github_metadata?.stargazers_count || 0
             }));
 
-            fs.writeFileSync('.github-stars/data/repos-to-classify.json', JSON.stringify(repoData, null, 2));
+            // Write system prompt
+            fs.writeFileSync('.github-stars/data/system-prompt.txt', `Classify GitHub repos. Output ONLY a JSON array.
+
+CATEGORIES: dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, cli-tools, devops, infrastructure
+
+FRAMEWORKS: react, vue, angular, svelte, nextjs, nuxtjs, express, fastapi, django, flask, rails, laravel, spring
+
+LANGUAGE TAGS: lang:js, lang:ts, lang:python, lang:rust, lang:go, lang:java, lang:kotlin, lang:swift, lang:ruby, lang:cpp, lang:c, lang:csharp, lang:php
+
+RULES:
+- 2-4 categories per repo
+- 3-6 descriptive tags (include lang:X if language provided)
+- framework must be from list above OR null
+- Output ONLY valid JSON array, no markdown, no explanation
+- First char must be [, last char must be ]
+
+EXAMPLE:
+[{"repo":"microsoft/vscode","categories":["dev-tools","productivity"],"tags":["code-editor","extensible","electron","lang:ts"],"framework":null}]`);
+
+            // Write user prompt
+            fs.writeFileSync('.github-stars/data/user-prompt.txt', 
+              'Classify these repositories:\n\n' + JSON.stringify(repoData, null, 2));
+
             core.setOutput('has_repos', 'true');
             core.setOutput('repo_count', batch.length);
-
-      - name: Create prompts
-        if: steps.prep.outputs.has_repos == 'true'
-        run: |
-          cat > .github-stars/data/system-prompt.txt << 'EOF'
-          Classify GitHub repos. Output ONLY a JSON array.
-          
-          CATEGORIES: dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, cli-tools, devops, infrastructure
-          
-          FRAMEWORKS: react, vue, angular, svelte, nextjs, nuxtjs, express, fastapi, django, flask, rails, laravel, spring
-          
-          LANGUAGE TAGS: lang:js, lang:ts, lang:python, lang:rust, lang:go, lang:java, lang:kotlin, lang:swift, lang:ruby, lang:cpp, lang:c, lang:csharp, lang:php
-          
-          RULES:
-          - 2-4 categories per repo
-          - 3-6 descriptive tags (include lang:X if language provided)
-          - framework must be from list above OR null
-          - Output ONLY valid JSON array, no markdown, no explanation
-          - First char must be [, last char must be ]
-          
-          EXAMPLE:
-          [{"repo":"microsoft/vscode","categories":["dev-tools","productivity"],"tags":["code-editor","extensible","electron","lang:ts"],"framework":null}]
-          EOF
-
-      - name: Read prompts
-        id: prompts
-        if: steps.prep.outputs.has_repos == 'true'
-        run: |
-          {
-            echo "system<<EOF"
-            cat .github-stars/data/system-prompt.txt
-            echo "EOF"
-            echo "user<<EOF"
-            echo "Classify these repositories:"
-            cat .github-stars/data/repos-to-classify.json
-            echo "EOF"
-          } >> $GITHUB_OUTPUT
 
       - name: AI classify
         id: ai
         if: steps.prep.outputs.has_repos == 'true'
-        uses: actions/ai-inference@v1
+        uses: actions/ai-inference@v2
         with:
           model: 'openai/gpt-4o'
-          max-tokens: '3000'
-          system-prompt: ${{ steps.prompts.outputs.system }}
-          prompt: ${{ steps.prompts.outputs.user }}
+          max-tokens: 3000
+          system-prompt-file: '.github-stars/data/system-prompt.txt'
+          prompt-file: '.github-stars/data/user-prompt.txt'
 
-      - name: Validate and fix
+      - name: Write AI response
+        if: steps.prep.outputs.has_repos == 'true'
+        run: |
+          cat > .github-stars/data/validate-prompt.txt << 'ENDPROMPT'
+          Fix any issues in this classification JSON. Return ONLY the corrected JSON array.
+          Rules: tags must be lowercase kebab-case, framework must be from allowed list or null.
+          If unfixable, return: REJECTED: reason
+
+          ENDPROMPT
+          echo '${{ steps.ai.outputs.response }}' >> .github-stars/data/validate-prompt.txt
+
+      - name: Validate
         id: validate
         if: steps.prep.outputs.has_repos == 'true'
-        uses: actions/ai-inference@v1
+        uses: actions/ai-inference@v2
         with:
           model: 'openai/gpt-4o'
-          max-tokens: '3000'
-          system-prompt: 'Fix any issues in this classification JSON. Return ONLY the corrected JSON array. If unfixable, return: REJECTED: reason'
-          prompt: |
-            Validate and fix this classification:
-            ${{ steps.ai.outputs.response }}
-            
-            Rules: tags must be lowercase kebab-case, framework must be from allowed list or null.
-            Return corrected JSON array only.
+          max-tokens: 3000
+          system-prompt: 'You are a JSON validator. Fix and return valid JSON only.'
+          prompt-file: '.github-stars/data/validate-prompt.txt'
 
       - name: Apply classifications
         id: apply
@@ -168,7 +159,8 @@ jobs:
             const fs = require('fs');
             const { execSync } = require('child_process');
             
-            let result = `${{ steps.validate.outputs.response }}`.trim().replace(/^```json\s*/i, '').replace(/\s*```$/i, '');
+            let result = `${{ steps.validate.outputs.response }}`.trim()
+              .replace(/^```json\s*/i, '').replace(/\s*```$/i, '');
             
             if (result.startsWith('REJECTED:')) {
               core.setFailed(result);
@@ -214,21 +206,6 @@ jobs:
             fs.writeFileSync('.github-stars/data/manifest.json', JSON.stringify(data, null, 2));
             core.setOutput('count', count);
 
-      - name: Create issue on failure
-        if: failure() && steps.validate.outputs.response
-        uses: actions/github-script@v8
-        with:
-          script: |
-            await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: `AI Classification Failed`,
-              body: `Validation result:\n\`\`\`\n${process.env.RESULT}\n\`\`\``,
-              labels: ['ai-classification', 'needs-review']
-            });
-        env:
-          RESULT: ${{ steps.validate.outputs.response }}
-
       - name: Convert to YAML
         if: steps.apply.outputs.count > 0
         run: ./yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
@@ -237,7 +214,7 @@ jobs:
         if: always()
         run: rm -f .github-stars/data/*.json .github-stars/data/*.txt
 
-      - name: Validate
+      - name: Validate schema
         if: steps.apply.outputs.count > 0
         uses: cardinalby/schema-validator-action@v3
         with:
@@ -293,5 +270,6 @@ jobs:
       - name: Summary
         if: always()
         run: |
-          echo "Classified: ${{ steps.apply.outputs.count || 0 }}"
-          echo "Remaining: ${{ steps.remaining.outputs.count || 'N/A' }}"
+          echo "## Classification Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- Classified: ${{ steps.apply.outputs.count || 0 }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Remaining: ${{ steps.remaining.outputs.count || 'N/A' }}" >> $GITHUB_STEP_SUMMARY
