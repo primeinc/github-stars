@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T12:11:00.327Z"
+  last_updated: "2026-01-10T12:11:15.914Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -1882,13 +1882,18 @@ repositories:
       mirror_url: null
   - repo: FujiwaraChoki/MoneyPrinterV2
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - automation
+      - money-making
+      - cli
+      - lang:python
     summary: Automate the process of making money online.
     last_synced_sha: a9e3f76c1dc442acd93b0f82d2c4e7cdde75c7b1
     starred_at: "2025-07-12T04:19:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -1909,15 +1914,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: danielmiessler/Fabric
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - ai
+      - augmentation
+      - modular-system
+      - lang:js
     summary: Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
     last_synced_sha: e72e67de718dd1b804fd0f50628dc0d9dcc8fb41
     starred_at: "2025-07-12T04:13:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -1937,15 +1952,26 @@ repositories:
         published_at: "2025-07-15T07:07:49Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: langgenius/dify
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - genai
+      - orchestration
+      - gpt
+      - workflow
+      - lang:ts
     summary: Production-ready platform for agentic workflow development.
     last_synced_sha: d427088ab5a7870a512ddb7ab9a58bbce77645a9
     starred_at: "2025-07-12T04:10:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -1980,15 +2006,26 @@ repositories:
         published_at: "2025-07-10T09:57:46Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: practical-tutorials/project-based-learning
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - tutorials
+      - projects
+      - beginner-friendly
+      - cpp
+      - golang
     summary: Curated list of project-based tutorials
     last_synced_sha: 243d33995fc5a616010fced6c9e131090e8e1a39
     starred_at: "2025-07-12T04:09:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -2009,15 +2046,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: stax76/awesome-mpv
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - awesome-list
+      - mpv
+      - media-player
+      - video-player
     summary: A curated list of awesome mpv resources.
     last_synced_sha: 10d4f09f9c891c8e2bcf14b8798f5927c22d507a
     starred_at: "2025-07-12T02:24:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -2040,15 +2087,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: Huanshere/VideoLingo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - video-translation
+      - ai-translation
+      - voice-cloning
+      - lang:python
     summary: Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组
     last_synced_sha: b94d8fcd0897626b6110f43683f6a9fff222e446
     starred_at: "2025-07-12T02:11:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -2068,15 +2125,25 @@ repositories:
         published_at: "2025-05-05T09:34:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: sindresorhus/observable-to-promise
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - observable
+      - promise
+      - conversion
+      - lang:js
     summary: Convert an Observable to a Promise
     last_synced_sha: 8418990822686d2f2bff77a7d877641ad9b042eb
     starred_at: "2025-07-12T01:36:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -2091,15 +2158,25 @@ repositories:
         published_at: "2022-06-06T11:50:02Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: MichalLytek/type-graphql
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - graphql
+      - decorators
+      - schema
+      - lang:ts
     summary: Create Graph QL schema and resolvers with Type Script, using classes and decorators!
     last_synced_sha: d3a2304ff2193f76de2ce03dfd6a08bf47275fe8
     starred_at: "2025-07-12T01:34:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -2125,15 +2202,25 @@ repositories:
         published_at: "2024-06-07T12:27:54Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: unjs/consola
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - dev-tools
+    tags:
+      - console-logger
+      - node
+      - terminal
+      - lang:ts
     summary: "\U0001F428 Elegant Console Logger for Node.js and Browser"
     last_synced_sha: 512d570b3f99a27b6766a885cae2730aa3dc0ed4
     starred_at: "2025-07-12T01:32:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -2154,15 +2241,25 @@ repositories:
         published_at: "2025-03-18T10:18:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: june07/nimv3
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cli-tools
+    tags:
+      - nodejs
+      - debugging
+      - devtools
+      - lang:js
     summary: Streamline Your Java Script V8 (Node.js/Deno) Debugging Workflow
     last_synced_sha: cd2cde3cdfa05f1c6d29a6d74ea6a6470665ae2b
     starred_at: "2025-07-12T01:30:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -2193,15 +2290,25 @@ repositories:
         published_at: "2025-02-07T06:08:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: ipfs/helia
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - apis
+    tags:
+      - ipfs
+      - distributed-system
+      - protocols
+      - lang:ts
     summary: An implementation of IPFS in Type Script
     last_synced_sha: a0266903e981c5e6e2771e7d0d4b60fc659e0eef
     starred_at: "2025-07-12T01:26:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -2218,15 +2325,25 @@ repositories:
         published_at: "2025-05-21T07:52:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: wavetermdev/waveterm
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cli-tools
+    tags:
+      - terminal
+      - cross-platform
+      - developer-tools
+      - lang:go
     summary: An open-source, cross-platform terminal for seamless workflows
     last_synced_sha: 0d339afc746df7b85bdce0ff04e9709aea18e50e
     starred_at: "2025-07-12T01:21:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -2249,15 +2366,25 @@ repositories:
         published_at: "2025-05-05T19:12:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: rescript-lang/rescript
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - typed-language
+      - compiler
+      - altjs
+      - rescript
     summary: Re Script is a robustly typed language that compiles to efficient and human-readable Java Script.
     last_synced_sha: 4e705371a829296db280a3a35c408d83b08bd274
     starred_at: "2025-07-12T01:21:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: ReScript
       topics:
@@ -2276,15 +2403,26 @@ repositories:
         published_at: "2024-09-10T09:58:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: alibaba/formily
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - forms
+      - react
+      - vue
+      - low-code
+      - lang:ts
     summary: "\U0001F4F1\U0001F680 \U0001F9E9 Cross Device & High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3"
     last_synced_sha: d9a46442a575aa5f0fc1bd945e34d9a85d191d0e
     starred_at: "2025-07-12T01:19:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -2318,15 +2456,24 @@ repositories:
         published_at: "2025-05-15T09:53:46Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: styleguidist/react-styleguidist
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - documentation
+    tags:
+      - styleguide
+      - react
+      - lang:ts
     summary: Isolated React component development environment with a living style guide
     last_synced_sha: c223f9a279f4e872cf6ff925fb21d2a7f6e27a77
     starred_at: "2025-07-12T01:13:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -2345,6 +2492,11 @@ repositories:
         published_at: "2025-01-07T10:44:42Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:15.914Z"
+      prompt_version: v2
   - repo: welldone-software/why-did-you-render
     categories:
       - dev-tools
