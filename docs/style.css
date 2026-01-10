@@ -16,6 +16,12 @@
     --green: #3fb950;
     --yellow: #d29922;
     --purple: #a371f7;
+    
+    /* Neon Recency Colors */
+    --neon-fresh: #39ff14;
+    --neon-recent: #00ffff;
+    --neon-stale: #bc13fe;
+    --neon-old: #8b949e;
 }
 
 body {
@@ -223,13 +229,75 @@ main {
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 1.25rem;
-    transition: border-color 0.2s, transform 0.2s;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.repo-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    opacity: 0.7;
+    transition: opacity 0.3s;
 }
 
 .repo-card:hover {
-    border-color: var(--accent);
-    transform: translateY(-2px);
+    transform: translateY(-4px);
 }
+
+/* Neon Recency Styles */
+.repo-card.fresh {
+    border-color: rgba(57, 255, 20, 0.3);
+}
+.repo-card.fresh::before { background: var(--neon-fresh); box-shadow: 0 0 10px var(--neon-fresh); }
+.repo-card.fresh:hover {
+    border-color: var(--neon-fresh);
+    box-shadow: 0 0 15px rgba(57, 255, 20, 0.2);
+}
+
+.repo-card.recent {
+    border-color: rgba(0, 255, 255, 0.3);
+}
+.repo-card.recent::before { background: var(--neon-recent); box-shadow: 0 0 10px var(--neon-recent); }
+.repo-card.recent:hover {
+    border-color: var(--neon-recent);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+}
+
+.repo-card.stale {
+    border-color: rgba(188, 19, 254, 0.3);
+}
+.repo-card.stale::before { background: var(--neon-stale); box-shadow: 0 0 10px var(--neon-stale); }
+.repo-card.stale:hover {
+    border-color: var(--neon-stale);
+    box-shadow: 0 0 15px rgba(188, 19, 254, 0.2);
+}
+
+.repo-card.old {
+    border-color: var(--border);
+}
+.repo-card.old::before { background: var(--neon-old); }
+.repo-card.old:hover {
+    border-color: var(--text-secondary);
+}
+
+.updated-badge {
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: auto;
+    font-family: monospace;
+    opacity: 0.8;
+}
+
+.repo-card.fresh .updated-badge { color: var(--neon-fresh); border: 1px solid rgba(57, 255, 20, 0.3); }
+.repo-card.recent .updated-badge { color: var(--neon-recent); border: 1px solid rgba(0, 255, 255, 0.3); }
+.repo-card.stale .updated-badge { color: var(--neon-stale); border: 1px solid rgba(188, 19, 254, 0.3); }
+.repo-card.old .updated-badge { color: var(--text-secondary); border: 1px solid var(--border); }
 
 .repo-card h3 {
     margin-bottom: 0.5rem;
@@ -330,14 +398,25 @@ main {
     padding: 0.75rem 1rem;
     background: var(--bg-secondary);
     border: 1px solid var(--border);
+    border-left-width: 4px; /* Make space for color indicator */
     border-radius: 6px;
-    transition: border-color 0.2s;
+    transition: all 0.2s;
     gap: 1rem;
 }
 
 .repo-row:hover {
-    border-color: var(--accent);
+    transform: translateX(4px);
 }
+
+.repo-row.fresh { border-left-color: var(--neon-fresh); }
+.repo-row.recent { border-left-color: var(--neon-recent); }
+.repo-row.stale { border-left-color: var(--neon-stale); }
+.repo-row.old { border-left-color: var(--neon-old); }
+
+.repo-row.fresh:hover { border-color: var(--neon-fresh); box-shadow: 0 0 10px rgba(57, 255, 20, 0.1); }
+.repo-row.recent:hover { border-color: var(--neon-recent); box-shadow: 0 0 10px rgba(0, 255, 255, 0.1); }
+.repo-row.stale:hover { border-color: var(--neon-stale); box-shadow: 0 0 10px rgba(188, 19, 254, 0.1); }
+.repo-row.old:hover { border-color: var(--text-secondary); }
 
 .repo-row-main {
     flex: 1;

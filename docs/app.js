@@ -216,14 +216,18 @@
             const language = meta.language || '';
             const categories = (repo.categories || []).filter(c => c !== 'unclassified');
             const tags = (repo.tags || []).filter(t => !t.startsWith('lang:')).slice(0, 5);
+            const recency = getRecency(meta.pushed_at);
 
             return `
-                <div class="repo-card">
-                    <h3><a href="https://github.com/${repo.repo}" target="_blank" rel="noopener">${repo.repo}</a></h3>
+                <div class="repo-card ${recency.className}">
+                    <h3>
+                        <a href="https://github.com/${repo.repo}" target="_blank" rel="noopener">${repo.repo}</a>
+                    </h3>
                     <p class="description">${escapeHtml(repo.summary || 'No description')}</p>
                     <div class="meta">
                         ${stars ? `<span class="stars">&#9733; ${formatNumber(stars)}</span>` : ''}
                         ${language ? `<span class="language">&#9679; ${language}</span>` : ''}
+                        <span class="updated-badge" title="Last updated: ${new Date(meta.pushed_at).toLocaleDateString()}">Updated ${recency.relativeTime}</span>
                     </div>
                     ${categories.length ? `
                         <div class="categories">
@@ -247,14 +251,16 @@
             const stars = meta.stargazers_count || 0;
             const language = meta.language || '';
             const categories = (repo.categories || []).filter(c => c !== 'unclassified');
+            const recency = getRecency(meta.pushed_at);
 
             return `
-                <div class="repo-row">
+                <div class="repo-row ${recency.className}">
                     <div class="repo-row-main">
                         <a href="https://github.com/${repo.repo}" target="_blank" rel="noopener" class="repo-name">${repo.repo}</a>
                         <span class="repo-summary">${escapeHtml(repo.summary || 'No description')}</span>
                     </div>
                     <div class="repo-row-meta">
+                        <span class="updated-badge" style="margin-right: 1rem;">${recency.relativeTime}</span>
                         ${stars ? `<span class="stars">&#9733; ${formatNumber(stars)}</span>` : ''}
                         ${language ? `<span class="language">${language}</span>` : ''}
                         ${categories.length ? `<span class="category">${formatCategory(categories[0])}</span>` : ''}
@@ -270,6 +276,39 @@
         viewGridBtn.classList.toggle('active', view === 'grid');
         viewListBtn.classList.toggle('active', view === 'list');
         renderRepos();
+    }
+
+    // Helper: Calculate relative time and recency class
+    function getRecency(dateString) {
+        if (!dateString) return { className: 'old', label: 'Unknown', relativeTime: 'Unknown' };
+
+        const date = new Date(dateString);
+        // Handle invalid dates
+        if (isNaN(date.getTime())) return { className: 'old', label: 'Unknown', relativeTime: 'Unknown' };
+
+        const now = new Date();
+        const diffTime = now - date; // Difference in milliseconds
+        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+        
+        let className = 'old';
+        if (diffDays <= 30) className = 'fresh';
+        else if (diffDays <= 180) className = 'recent';
+        else if (diffDays <= 365) className = 'stale';
+
+        let relativeTime;
+        if (diffDays < 0) relativeTime = 'In the future'; // Should not happen but good safety
+        else if (diffDays === 0) relativeTime = 'Today';
+        else if (diffDays === 1) relativeTime = 'Yesterday';
+        else if (diffDays < 30) relativeTime = `${diffDays} days ago`;
+        else if (diffDays < 365) {
+            const months = Math.floor(diffDays / 30);
+            relativeTime = `${months} month${months > 1 ? 's' : ''} ago`;
+        } else {
+            const years = Math.floor(diffDays / 365);
+            relativeTime = `${years} year${years > 1 ? 's' : ''} ago`;
+        }
+
+        return { className, label: relativeTime, relativeTime };
     }
 
     // Helper: Format large numbers
