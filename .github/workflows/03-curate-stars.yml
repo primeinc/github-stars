@@ -1,4 +1,5 @@
 ---
+# AI-powered repository classification workflow
 name: 'Curate Starred Repos'
 
 on:
