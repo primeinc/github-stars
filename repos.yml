@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T12:02:12.745Z"
+  last_updated: "2026-01-10T12:02:29.293Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -11944,13 +11944,17 @@ repositories:
       mirror_url: null
   - repo: CESNET/UltraGrid
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - media
+    tags:
+      - low-latency
+      - audio-video
+      - lang:c
     summary: Ultra Grid low-latency audio and video network transmission system
     last_synced_sha: 7c882baa988fdbf168ca8806ca68e0834a9a117f
     starred_at: "2025-01-28T12:20:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -11965,15 +11969,23 @@ repositories:
         published_at: "2025-05-05T14:07:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: NSFW-API/P.E.N.I.S.
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - ai-tools
+      - lang:python
     summary: Prompt-based Evolutionary Nudity Iteration System
     last_synced_sha: d2067ed74bafd6cb3096e2d4456528c996994507
     starred_at: "2025-01-28T10:10:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11986,15 +11998,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: ArtBot2023/CharacterFaceSwap
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - graphics
+    tags:
+      - face-swap
+      - lang:python
     summary: No description provided
     last_synced_sha: f395496e5bf50d88579934ec2f776cd81866e8e9
     starred_at: "2025-01-28T10:05:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -12007,15 +12027,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: aerophile/awesome-deepfakes
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - deepfakes
+      - computer-vision
+      - awesome-list
     summary: Everything Deepfakes
     last_synced_sha: 06a95f4727ebe9a96afb59f75b63cf709da1a235
     starred_at: "2025-01-28T10:01:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12032,15 +12061,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: asyafiqe/Rope-docker-headless-vnc-container
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - ai-ml
+    tags:
+      - docker
+      - vnc
+      - headless
+      - lang:python
     summary: Docker for running Rope using headless VNC environments. Useful for running Rope on cloud GPU services like Runpod.io or Vast.ai.
     last_synced_sha: b40c92b3b8df48d86264e7859278fa46b3e09822
     starred_at: "2025-01-28T09:50:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -12060,15 +12099,24 @@ repositories:
         published_at: "2024-08-12T13:24:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: dusty-nv/jetson-utils
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - ai-ml
+    tags:
+      - multimedia
+      - nvidia-jetson
+      - lang:cpp
     summary: C++/CUDA/Python multimedia utilities for NVIDIA Jetson
     last_synced_sha: 0a32066bcb1b0cd72a9e863e1c7670c54647514b
     starred_at: "2025-01-28T09:47:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -12081,15 +12129,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: aimfordeb/Rope-experimental
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - gui
+      - lang:python
     summary: GUI-focused roop with Linux support
     last_synced_sha: d94c8a760777f73411000315302e7a27bba1d867
     starred_at: "2025-01-28T09:37:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -12103,15 +12159,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: swapagarwal/swag-for-dev
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - swag
+      - freebies
+      - lang:js
+      - awesome-list
     summary: "\U0001F60E swag opportunities for developers"
     last_synced_sha: 5026d376bf0d6aca144fc66b7c0dac1d0d89d933
     starred_at: "2025-01-28T09:17:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -12129,15 +12195,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: andrew--r/channels
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - learning
+    tags:
+      - javascript
+      - web-tutorials
+      - css
+      - html
     summary: "\U0001F4FA A collection of useful You Tube channels for javascript developers and web designers"
     last_synced_sha: c46987228e5d97854683ac9ba840f43079435d8d
     starred_at: "2025-01-28T09:16:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12157,15 +12233,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: inputsh/awesome-linux
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - learning
+    tags:
+      - linux
+      - awesome-list
+      - resources
     summary: ':penguin: A list of awesome projects and resources that make Linux even more awesome. :penguin:'
     last_synced_sha: 589dec2a8fec7a9b1dd78f5439b71ef1a8cd6800
     starred_at: "2025-01-28T09:16:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: null
@@ -12186,15 +12271,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: ikaijua/Awesome-AITools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-tools
+      - machinelearning
+      - awesome-list
+      - utilities
     summary: Collection of AI-related utilities. Welcome to submit issues and pull requests /收藏AI相关的实用工具，欢迎提交issues 或者pull requests
     last_synced_sha: ceb47f849dc94d4d4a26fa526b30f78709c32b3f
     starred_at: "2025-01-28T09:16:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12222,15 +12317,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: race2infinity/The-Documentation-Compendium
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - readme-template
+      - documentation-tool
+      - guidelines
+      - project-documentation
     summary: "\U0001F4E2 Various README templates & tips on writing high-quality documentation that people want to read."
     last_synced_sha: 272376ad2dfb2907b083990b3ef6a16af514ec48
     starred_at: "2025-01-28T09:13:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12260,15 +12365,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: sirredbeard/awesome-wsl
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - learning
+    tags:
+      - wsl
+      - linux
+      - awesome-list
     summary: Awesome list dedicated to Windows Subsystem for Linux
     last_synced_sha: 8668fe8caf4f813503db6ac5d68120ad1aa048c8
     starred_at: "2025-01-28T09:13:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12290,15 +12404,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: cipher387/osint_stuff_tool_collection
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - osint
+      - cybersecurity
+      - tools
+      - lang:html
     summary: A collection of several hundred online tools for OSINT
     last_synced_sha: e0bde64d32a9ca6e4ce605fd1a6b9c5b4ca1c1b8
     starred_at: "2025-01-28T09:13:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -12321,15 +12445,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: sottlmarek/DevSecOps
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - security
+    tags:
+      - devsecops
+      - cloud
+      - automation
+      - containers
     summary: Ultimate Dev Sec Ops library
     last_synced_sha: dc80ff53dcd3ddc6b2caa05cb747d0f2d46673cd
     starred_at: "2025-01-28T09:13:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12361,15 +12495,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: reorx/awesome-chatgpt-api
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - chatgpt
+      - ai-tools
+      - lang:python
+      - awesome-list
     summary: Curated list of apps and tools that not only use the new Chat GPT API, but also allow users to configure their own API keys, enabling free and on-demand usage of their own quota.
     last_synced_sha: 2f0c3834bb4832394bc72b7f143f01d80806a606
     starred_at: "2025-01-28T09:13:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -12386,15 +12530,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: kitspace/awesome-electronics
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - learning
+    tags:
+      - electronics
+      - hardware
+      - pcb
+      - awesome-list
     summary: A curated list of awesome resources for Electronic Engineers and hobbyists
     last_synced_sha: fb7712aa1153f3ff64e65b00d74a00ab4bcf2aa4
     starred_at: "2025-01-28T09:13:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12415,15 +12569,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: frenck/awesome-home-assistant
     categories:
-      - unclassified
-    tags: []
+      - iot
+      - automation
+    tags:
+      - home-automation
+      - smart-home
+      - iot
+      - awesome-list
     summary: A curated list of amazingly awesome Home Assistant resources.
     last_synced_sha: 801e7bce04b321f39a0f7c1a14d746f892abcfb4
     starred_at: "2025-01-28T09:12:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -12453,15 +12617,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: Lissy93/awesome-privacy
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - privacy
+      - self-hosted
+      - awesome-list
     summary: "\U0001F984 A curated list of privacy & security-focused software and services"
     last_synced_sha: fca0e86855de798f58e714109a5f9e637fbb0339
     starred_at: "2025-01-28T09:12:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Astro
       topics:
@@ -12481,15 +12654,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: hslatman/awesome-threat-intelligence
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - threat-intelligence
+      - resources
+      - awesome-list
     summary: A curated list of Awesome Threat Intelligence resources
     last_synced_sha: b3a03103ca1acf44a8e7eebb0223c029b3b6f6e5
     starred_at: "2025-01-28T09:11:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12506,6 +12688,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:02:29.293Z"
+      prompt_version: v2
   - repo: paralax/awesome-honeypots
     categories:
       - security
