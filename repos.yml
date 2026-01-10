@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T09:49:06.257Z"
+  last_updated: "2026-01-10T09:49:21.537Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -21719,13 +21719,17 @@ repositories:
       mirror_url: null
   - repo: krea-ai/open-prompts
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - prompt-engineering
+      - tools
+      - lang:python
     summary: No description provided
     last_synced_sha: 84d1628e7b3d97a45d237311579faf39692f2a02
     starred_at: "2023-02-12T08:15:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -21739,15 +21743,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.537Z"
+      prompt_version: v2
   - repo: QL-Win/QuickLook
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - quicklook
+      - windows
+      - lang:csharp
     summary: Bring mac OS “Quick Look” feature to Windows
     last_synced_sha: 55a069046f7e7d441c8978474fa887ca4ed0e499
     starred_at: "2023-02-11T09:54:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -21763,15 +21776,25 @@ repositories:
         published_at: "2025-05-28T22:13:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.537Z"
+      prompt_version: v2
   - repo: srwi/EverythingToolbar
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - windows-taskbar
+      - toolbar
+      - taskbar
+      - lang:csharp
     summary: Everything integration for the Windows taskbar.
     last_synced_sha: 60921bfe9f90cc59018ec29232f8bda31de2bc65
     starred_at: "2023-02-11T09:49:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -21796,15 +21819,25 @@ repositories:
         published_at: "2025-05-30T18:10:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.537Z"
+      prompt_version: v2
   - repo: hwtnb/SylphyHornPlusWin11
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - window-management
+      - virtual-desktop
+      - windows
+      - lang:csharp
     summary: Virtual Desktop Tools for Windows 11 and 10.
     last_synced_sha: 9d4a6b396f040a22edccd765d60f7856f8bf41d2
     starred_at: "2023-02-11T07:41:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C#
@@ -21828,15 +21861,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.537Z"
+      prompt_version: v2
   - repo: Grabacr07/VirtualDesktop
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - apis
+    tags:
+      - virtual-desktop
+      - windows-api
+      - lang:csharp
     summary: C# wrapper for the Virtual Desktop API on Windows 11.
     last_synced_sha: a6c69e420307e0717f296501c1e7595977e27b6b
     starred_at: "2023-02-11T07:35:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -21854,15 +21896,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.537Z"
+      prompt_version: v2
   - repo: MScholtes/VirtualDesktop
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - virtual-desktop
+      - windows
+      - lang:csharp
     summary: C# command line tool to manage virtual desktops in Windows 10
     last_synced_sha: 412c84b0cae76ff9ad7860d7b2422bf21fe66efd
     starred_at: "2023-02-11T07:32:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -21880,15 +21931,24 @@ repositories:
         published_at: "2025-01-27T17:18:34Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.537Z"
+      prompt_version: v2
   - repo: MScholtes/PSVirtualDesktop
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - virtual-desktop
+      - windows
+      - powershell
     summary: Virtual Desktop is a Powershell module that provides commandlets to manage virtual desktops of Windows 10.
     last_synced_sha: c952dce3437bff0c4da6cd775bee158e5d49dfb9
     starred_at: "2023-02-11T07:29:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -21904,15 +21964,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.537Z"
+      prompt_version: v2
   - repo: dankrusi/WindowsVirtualDesktopHelper
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - virtual-desktop
+      - windows
+      - lang:csharp
     summary: App to help manage Virtual Desktops for Windows 10 and Windows 11
     last_synced_sha: 887dc86aeefcee4f7437f84bb0579d983df10b5b
     starred_at: "2023-02-11T07:22:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -21927,15 +21996,26 @@ repositories:
         published_at: "2024-10-25T15:01:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.537Z"
+      prompt_version: v2
   - repo: mbadolato/iTerm2-Color-Schemes
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - terminal-themes
+      - color-schemes
+      - iterm2
+      - customization
+      - shell
     summary: Over 400 terminal color schemes/themes for i Term/i Term2. Includes ports to Terminal, Konsole, Pu TTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, Free BSD VT, Terminator, Kitty, Moba Xterm, ...
     last_synced_sha: 92f20650771384b82f981fb0f249e5fbdcb69e9f
     starred_at: "2023-02-11T06:58:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -21968,15 +22048,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.537Z"
+      prompt_version: v2
   - repo: starship/starship
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - shell-prompt
+      - customization
+      - zsh
+      - fish
+      - lang:rust
     summary: "☄\U0001F30C️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!"
     last_synced_sha: 195f28dbc06610208caa025086ffd0f45b681751
     starred_at: "2023-02-11T05:54:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -22003,15 +22094,26 @@ repositories:
         published_at: "2025-04-27T15:52:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.537Z"
+      prompt_version: v2
   - repo: ryanoasis/nerd-fonts
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - development-tools
+    tags:
+      - fonts
+      - patched-fonts
+      - iconic-fonts
+      - customization
+      - shell
     summary: 'Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more'
     last_synced_sha: ebc376cbd43f609d8084f47dd348646595ce066e
     starred_at: "2023-02-11T05:51:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics:
@@ -22039,15 +22141,24 @@ repositories:
         published_at: "2025-04-24T18:23:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.537Z"
+      prompt_version: v2
   - repo: nightroman/PowerShellTraps
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - testing
+    tags:
+      - powershell
+      - traps
+      - oddities
     summary: Collection of Power Shell traps and oddities
     last_synced_sha: e607b7bd29e0e995605f2c562ddc486c518253ea
     starred_at: "2023-02-11T03:23:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -22063,15 +22174,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.537Z"
+      prompt_version: v2
   - repo: Sanster/IOPaint
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - inpainting
+      - stable-diffusion
+      - image-editing
+      - pytorch
+      - lang:python
     summary: Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.
     last_synced_sha: 61a759fb3f332bacdce8b2813f4837495c9b86e0
     starred_at: "2023-02-10T23:57:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -22093,15 +22215,24 @@ repositories:
         published_at: "2024-11-23T12:31:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.537Z"
+      prompt_version: v2
   - repo: jas3333/GPT-Helper
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - gpt-helper
+      - code-helper
+      - lang:js
     summary: No description provided
     last_synced_sha: 9d0e1671310295e3a52d37eb0805cc891176c283
     starred_at: "2023-02-10T21:10:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -22114,15 +22245,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.537Z"
+      prompt_version: v2
   - repo: guaneec/custom-diffusion-webui
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - custom-diffusion
+      - webui
+      - lang:python
     summary: An unofficial implementation of Custom Diffusion for Automatic1111's Web UI.
     last_synced_sha: 006e46f6f19526cd84d3041664c6deed55036225
     starred_at: "2023-02-10T06:16:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -22136,6 +22276,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:49:21.536Z"
+      prompt_version: v2
   - repo: Zyin055/Inspect-Embedding-Training
     categories:
       - ai-ml
