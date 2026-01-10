@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T12:06:55.666Z"
+  last_updated: "2026-01-10T12:07:11.572Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -8227,13 +8227,19 @@ repositories:
       mirror_url: null
   - repo: OfficeDev/Microsoft-Teams-Samples
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - web-dev
+    tags:
+      - samples
+      - microsoft-teams
+      - lang:csharp
+      - lang:ts
+      - lang:js
     summary: Welcome to the Microsoft Teams samples repository. Here you will find task-focused samples in C#, Java Script and Type Script to help you get started with the Microsoft Teams App!
     last_synced_sha: 85a455e417b6fba90b9806cdf4d1e3ad10f62944
     starred_at: "2025-03-06T01:38:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -8246,15 +8252,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: OfficeDev/microsoft-teams-emergency-operations-center
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - microsoft-teams
+      - incident-response
+      - lang:ts
+      - microsoft-365
     summary: The Microsoft Teams Emergency Operations Center (TEOC) solution template leverages the power of the Microsoft 365 platform to centralize incident response, information sharing and field communicati...
     last_synced_sha: 27246ef9fa74338efd9445cba9a07bd24f5ddfe3
     starred_at: "2025-03-06T00:31:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -8269,15 +8285,25 @@ repositories:
         published_at: "2025-03-27T03:28:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: OfficeDev/microsoft-365-agents-toolkit-samples
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - dev-tools
+    tags:
+      - microsoft-teams
+      - tutorials
+      - samples
+      - lang:ts
     summary: Scenario-focused sample applications that help you get started with building Microsoft Teams App.
     last_synced_sha: a471023a96ed7ed14df6f04be0799fc2ae5f3074
     starred_at: "2025-03-05T23:54:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -8290,15 +8316,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: GitNirmal-u/Microsoft_Azure_E2E_Project
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - cloud
+    tags:
+      - azure
+      - data-analysis
+      - jupyter-notebook
     summary: No description provided
     last_synced_sha: 865eb0c73d1752a57c583e80378c2f40d1f2d737
     starred_at: "2025-03-03T13:18:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -8311,15 +8346,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: OfficeDev/microsoft-365-agents-toolkit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - microsoft-teams
+      - development-kit
+      - lang:ts
+      - microsoft-365
     summary: Developer tools for building Teams apps
     last_synced_sha: 9a4e3008a385edfb9a3488e69d34eb713b1d2c51
     starred_at: "2025-03-03T00:47:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -8334,15 +8379,25 @@ repositories:
         published_at: "2025-07-09T08:39:25Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: OfficeDev/Office-Addin-TaskPane
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - task-pane
+      - office-addin
+      - lang:ts
+      - template
     summary: Template to get started writing a Task Pane Office Add-in.
     last_synced_sha: 54bcf1b6fe815dd1755dfdaac147b853500b64eb
     starred_at: "2025-03-02T22:30:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -8355,15 +8410,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: GOVCERT-LU/GCNotify
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - outlook-addin
+      - email-automation
+      - lang:csharp
+      - mail-forwarding
     summary: GCN otify is an Outlook addin for quickly forwarding mail as attachment to a pre-defined e-mail address.
     last_synced_sha: a0d4dafee4b546bb6ccf57f681e288c5a91bbfa0
     starred_at: "2025-03-01T23:04:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Visual Basic .NET
       topics:
@@ -8382,15 +8447,25 @@ repositories:
         published_at: "2019-06-14T13:05:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: tonyfederer/OutlookFileDrag
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - drag-and-drop
+      - outlook
+      - lang:csharp
+      - desktop-integration
     summary: Drag and drop Outlook items as files into any application
     last_synced_sha: b9197a6baa5be94da82dfacbd1412217f1d80aa5
     starred_at: "2025-03-01T23:04:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -8407,15 +8482,25 @@ repositories:
         published_at: "2020-01-29T01:29:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: OfficeDev/office-js
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - office-addins
+      - lang:js
+      - office-js
+      - microsoft-office
     summary: 'A repository for issues related to the Office Java Script API s and Office Add-ins platform. Find the Office.js library in Office.js CDN: https://appsforoffice.microsoft.com/lib/1/hosted/office.js.'
     last_synced_sha: ed6a44a02503bc2db53477083ba969d3f451e9ad
     starred_at: "2025-02-28T22:30:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -8430,15 +8515,26 @@ repositories:
         published_at: "2018-09-20T23:18:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: Schniz/fnm
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - dev-tools
+    tags:
+      - version-manager
+      - nodejs
+      - lang:rust
+      - fast
+      - tooling
     summary: "\U0001F680 Fast and simple Node.js version manager, built in Rust"
     last_synced_sha: 3ea9e4d9899c51d4a1874c11031b6555e510c979
     starred_at: "2025-02-28T22:25:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -8459,15 +8555,26 @@ repositories:
         published_at: "2024-11-17T10:15:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: OlivierCC/spfx-40-fantastics
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - visual-webparts
+      - spfx
+      - lang:ts
+      - sharepoint-framework
+      - charts
     summary: This package is a sample kit of Client Side Web Parts built on the Share Point Framework SPF x. You can find here different kind of high visual web parts as carousel, images galleries, animations, ...
     last_synced_sha: e16bbc4c222dbc1d800c62b4fad1d01edb3b034a
     starred_at: "2025-02-28T22:10:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8491,15 +8598,25 @@ repositories:
         published_at: "2017-06-16T12:09:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: spblog/outlook-spfx-ms-graph-api
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - spfx
+      - microsoft-graph
+      - lang:ts
+      - outlook-addin
     summary: Building Outlook add-in with SPF x - save mail to One Drive with Azure Function, MSAL.NET and MS Graph .NET
     last_synced_sha: 30925ebb9457700be9c15c6d47338b4885cdaa5c
     starred_at: "2025-02-28T22:10:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8518,15 +8635,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: Azure/azure-storage-azcopy
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - cli-tools
+    tags:
+      - storage-management
+      - data-transfer
+      - azure
+      - lang:go
     summary: The new Azure Storage data transfer utility - Az Copy v10
     last_synced_sha: ee9a4bb995d324d51b74939d978977c7e1e1dc4c
     starred_at: "2025-02-28T21:49:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -8541,15 +8668,25 @@ repositories:
         published_at: "2025-05-15T23:40:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: PowerShell/AIShell
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - system-admin
+    tags:
+      - interactive-shell
+      - automation
+      - ai-integration
+      - lang:csharp
     summary: An interactive shell to work with AI-powered assistance providers
     last_synced_sha: cd50156e846fe53b595fdddd422f9fc66a531717
     starred_at: "2025-02-28T20:38:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -8562,15 +8699,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: adbertram/Random-PowerShell-Work
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - devops
+    tags:
+      - scripts
+      - automation
+      - powershell
     summary: Random Power Shell Work
     last_synced_sha: 62f5fa64294e9bdbb937a5d0211bde3209df5528
     starred_at: "2025-02-28T17:45:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -8583,6 +8729,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:07:11.572Z"
+      prompt_version: v2
   - repo: samwit/llm-tutorials
     categories:
       - learning
