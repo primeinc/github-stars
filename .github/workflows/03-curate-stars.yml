@@ -5,9 +5,9 @@ on:
   workflow_dispatch:
     inputs:
       batch_limit:
-        description: 'Limit repositories to classify in this batch (0 = no limit)'
+        description: 'Repos per batch (max 100)'
         type: number
-        default: 10
+        default: 15
   workflow_run:
     workflows: ["Sync Starred Repos"]
     types:
@@ -15,13 +15,12 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
   issues: write
   models: read
   actions: write
 
 env:
-  BATCH_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.batch_limit || '10' }}
+  BATCH_LIMIT: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.batch_limit || '15' }}
 
 concurrency:
   group: curate-stars-${{ github.ref }}
@@ -30,583 +29,269 @@ concurrency:
 jobs:
   classify:
     runs-on: ubuntu-latest
-    # Only run if manually triggered or if the triggering workflow succeeded
     if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
 
     steps:
-      - name: Checkout repository  
-        uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v6
         with:
-          token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
           fetch-depth: 0
           ref: main
 
-      - name: Pull latest changes with retry
+      - name: Pull latest
         run: |
-          echo "Ensuring we have the latest changes from workflow 02..."
-          # Try to pull up to 3 times with a 5-second delay
           for i in 1 2 3; do
-            if git pull origin main; then
-              echo "✅ Successfully pulled latest changes"
-              break
-            else
-              echo "⚠️  Pull attempt $i failed, waiting 5 seconds..."
-              sleep 5
-            fi
+            git pull origin main && break || sleep 5
           done
+          [ -f "repos.yml" ] || exit 1
           
-          # Verify repos.yml exists
-          if [ -f "repos.yml" ]; then
-            echo "✅ repos.yml found"
-            echo "File size: $(ls -lh repos.yml | awk '{print $5}')"
-          else
-            echo "❌ ERROR: repos.yml not found after pulling latest changes"
-            echo "Current directory contents:"
-            ls -la
-            exit 1
-          fi
-          
-      - name: Setup environment  
+      - name: Setup
         run: |
           mkdir -p .github-stars/data
-          # Download yq locally
           wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
           chmod +x ./yq
-          
-      - name: Debug environment variables
-        run: |
-          echo "Event: ${{ github.event_name }}, Batch limit: ${{ env.BATCH_LIMIT }}"
 
-      - name: Prepare repositories for AI classification
-        id: prep_repos
-        uses: actions/github-script@v7
+      - name: Prepare repos for classification
+        id: prep
+        uses: actions/github-script@v8
         with:
           script: |
             const fs = require('fs');
             const { execSync } = require('child_process');
             
-            // Check if repos.yml exists
             if (!fs.existsSync('repos.yml')) {
-              console.log('repos.yml not found. Nothing to classify.');
               core.setOutput('has_repos', 'false');
               return;
             }
             
-            // Read YAML and convert to JSON using yq with larger buffer
-            const yamlContent = fs.readFileSync('repos.yml', 'utf8');
-            const manifestJson = execSync('./yq eval -o=json -', { 
-              input: yamlContent, 
-              encoding: 'utf8',
-              maxBuffer: 50 * 1024 * 1024  // 50MB buffer
-            });
-            const manifestData = JSON.parse(manifestJson);
+            const yaml = fs.readFileSync('repos.yml', 'utf8');
+            const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
+            const data = JSON.parse(json);
 
-            // Find repositories that need AI classification
-            // A repo needs classification if it's unclassified AND either:
-            // 1. Marked for review (needs_review: true), OR
-            // 2. Never been classified by AI (ai_classification missing/null/timestamp unset)
-            const allUnclassifiedRepos = manifestData.repositories.filter(repo => 
-              repo.categories.includes('unclassified') && 
-              (repo.needs_review === true || 
-               !repo.ai_classification || 
-               !repo.ai_classification.timestamp)
+            const unclassified = data.repositories.filter(r => 
+              r.categories.includes('unclassified') && 
+              (r.needs_review || !r.ai_classification?.timestamp)
             );
 
-            // Apply batch limit - HARD LIMIT to prevent runaway processing
-            const batchLimitStr = process.env.BATCH_LIMIT;
+            const limit = parseInt(process.env.BATCH_LIMIT) || 15;
+            if (limit > 100) { core.setFailed('Batch limit max is 100'); return; }
             
-            if (!batchLimitStr || batchLimitStr === 'undefined' || batchLimitStr === 'null' || batchLimitStr.trim() === '') {
-              core.setFailed(`BATCH_LIMIT environment variable is not properly set! Value: '${batchLimitStr}'. This prevents runaway processing.`);
-              return;
-            }
+            const batch = unclassified.sort((a,b) => new Date(a.starred_at) - new Date(b.starred_at)).slice(0, limit);
             
-            const batchLimit = parseInt(batchLimitStr);
-            console.log(`Batch limit: ${batchLimit}, Found ${allUnclassifiedRepos.length} unclassified repos`);
+            console.log(`Processing ${batch.length} of ${unclassified.length} unclassified repos`);
             
-            if (isNaN(batchLimit) || batchLimit < 0) {
-              core.setFailed(`Invalid BATCH_LIMIT value: ${batchLimitStr}. Must be a non-negative integer.`);
-              return;
-            }
-            
-            // CRITICAL FAIL-SAFE: Prevent processing more than 100 repositories at once
-            // This protects against runaway processing even if batch limit is misconfigured
-            const MAX_ABSOLUTE_LIMIT = 100;
-            if (batchLimit === 0 && allUnclassifiedRepos.length > MAX_ABSOLUTE_LIMIT) {
-              core.setFailed(`FAIL-SAFE TRIGGERED: Found ${allUnclassifiedRepos.length} repositories but batch limit is 0 (unlimited). This would process too many repositories at once. Set a reasonable batch limit or reduce the number of unclassified repositories.`);
-              return;
-            }
-            
-            if (batchLimit > MAX_ABSOLUTE_LIMIT) {
-              core.setFailed(`FAIL-SAFE TRIGGERED: Batch limit ${batchLimit} exceeds maximum allowed limit of ${MAX_ABSOLUTE_LIMIT}. This prevents runaway processing.`);
-              return;
-            }
-            
-            // Apply limit (0 means no limit)
-            const unclassifiedRepos = (batchLimit === 0) ? 
-              allUnclassifiedRepos :
-              allUnclassifiedRepos
-                .sort((a, b) => new Date(a.starred_at) - new Date(b.starred_at)) // Oldest first
-                .slice(0, batchLimit);
-                
-            console.log(`Processing ${unclassifiedRepos.length} of ${allUnclassifiedRepos.length} repositories`);
-            
-            // VALIDATION: Verify batch limit is working correctly
-            if (batchLimit > 0 && unclassifiedRepos.length > batchLimit) {
-              core.setFailed(`BATCH LIMIT VALIDATION FAILED: Expected max ${batchLimit} repositories but got ${unclassifiedRepos.length}`);
-              return;
-            }
-            
-            if (batchLimit === 0 && unclassifiedRepos.length !== allUnclassifiedRepos.length) {
-              core.setFailed(`BATCH LIMIT VALIDATION FAILED: Expected all ${allUnclassifiedRepos.length} repositories when batch limit is 0, but got ${unclassifiedRepos.length}`);
-              return;
-            }
-
-            if (unclassifiedRepos.length === 0) {
-              console.log('No repositories need classification');
+            if (batch.length === 0) {
               core.setOutput('has_repos', 'false');
               return;
             }
-            
-            console.log('🤖 Starting AI classification process');
 
-            // Prepare repo data for AI (use preserved GitHub metadata)
-            const repoData = unclassifiedRepos.map(repo => {
-              const metadata = repo.github_metadata || {};
-              return {
-                repo: repo.repo,
-                summary: repo.summary,
-                language: metadata.language || null,
-                topics: metadata.topics || [],
-                stargazers_count: metadata.stargazers_count || 0,
-                homepage_url: metadata.homepage_url || null,
-                license: metadata.license || null,
-                starred_at: repo.starred_at
-              };
-            });
+            const repoData = batch.map(r => ({
+              repo: r.repo,
+              summary: r.summary,
+              language: r.github_metadata?.language || null,
+              topics: r.github_metadata?.topics || [],
+              stargazers_count: r.github_metadata?.stargazers_count || 0
+            }));
 
-            // Write repo data for AI
             fs.writeFileSync('.github-stars/data/repos-to-classify.json', JSON.stringify(repoData, null, 2));
             core.setOutput('has_repos', 'true');
-            core.setOutput('repo_count', unclassifiedRepos.length);
+            core.setOutput('repo_count', batch.length);
 
-      - name: Debug outputs
+      - name: Create prompts
+        if: steps.prep.outputs.has_repos == 'true'
         run: |
-          echo "has_repos output: ${{ steps.prep_repos.outputs.has_repos }}"
-          echo "repo_count output: ${{ steps.prep_repos.outputs.repo_count }}"
+          cat > .github-stars/data/system-prompt.txt << 'EOF'
+          Classify GitHub repos. Output ONLY a JSON array.
           
-      - name: Check if classification is needed
-        if: steps.prep_repos.outputs.has_repos == 'true'
-        run: |
-          echo "Found repositories to classify"
-          if [ ! -f ".github-stars/data/repos-to-classify.json" ]; then
-            echo "ERROR: repos-to-classify.json was not created!"
-            exit 1
-          fi
-          echo "Repos to classify: ${{ steps.prep_repos.outputs.repo_count }} repositories"
-
-      - name: Create system prompt file
-        if: steps.prep_repos.outputs.has_repos == 'true'
-        run: |
-          cat > .github-stars/data/classification-system-prompt.txt << 'EOF'
-          Classify GitHub repositories thoughtfully. Output ONLY a JSON array.
+          CATEGORIES: dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, cli-tools, devops, infrastructure
           
-          SUGGESTED CATEGORIES (use these or create more specific ones):
-          dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, cli-tools, devops, infrastructure, analytics, visualization, education, media, graphics, audio, video, iot, blockchain, crypto, finance, health, science, math, algorithms, compilers, languages, operating-systems, virtualization, backup, storage, messaging, search, cms, e-commerce, social, communication
+          FRAMEWORKS: react, vue, angular, svelte, nextjs, nuxtjs, express, fastapi, django, flask, rails, laravel, spring
           
-          COMMON FRAMEWORKS (use if applicable):
-          react, vue, angular, svelte, nextjs, nuxtjs, express, fastapi, django, flask, rails, laravel, spring
+          LANGUAGE TAGS: lang:js, lang:ts, lang:python, lang:rust, lang:go, lang:java, lang:kotlin, lang:swift, lang:ruby, lang:cpp, lang:c, lang:csharp, lang:php
           
-          LANGUAGE TAGS (use these exact formats when language is known):
-          lang:js, lang:ts, lang:python, lang:rust, lang:go, lang:csharp, lang:php, lang:dart, lang:lua, lang:gdscript, lang:java, lang:kotlin, lang:swift, lang:ruby, lang:cpp, lang:c
+          RULES:
+          - 2-4 categories per repo
+          - 3-6 descriptive tags (include lang:X if language provided)
+          - framework must be from list above OR null
+          - Output ONLY valid JSON array, no markdown, no explanation
+          - First char must be [, last char must be ]
           
-          GUIDELINES:
-          - Use 2-4 most relevant categories (be generous, repos often fit multiple categories)
-          - Add 3-6 descriptive tags that capture the essence of the repo
-          - Create new categories if existing ones don't fit well
-          - Only set framework if the repo is specifically built with/for that framework
-          - Include language tag only when provided in input data
-          - Be creative and specific with tags (e.g., "infinite-canvas", "local-first", "markdown-editor")
-          - Think about how someone might search for this repo
-          
-          ENHANCED METADATA USAGE:
-          - Use 'topics' array from GitHub as strong classification hints
-          - Consider 'stargazers_count' for popularity-based categorization (high stars = established/popular)
-          - Use 'license' info for open-source vs proprietary considerations
-          - Check 'homepage_url' for additional context about project purpose
-          - Language should always be used if provided (primary programming language)
-          
-          EXAMPLES OF CORRECT OUTPUT:
-          [
-            {
-              "repo": "microsoft/vscode",
-              "categories": ["dev-tools", "productivity", "editors"],
-              "tags": ["code-editor", "ide", "extensible", "electron", "lang:ts"],
-              "framework": null
-            },
-            {
-              "repo": "facebook/react",
-              "categories": ["frameworks", "ui-libraries", "web-dev", "frontend"],
-              "tags": ["component-based", "virtual-dom", "jsx", "declarative", "lang:js"],
-              "framework": "react"
-            },
-            {
-              "repo": "actions/checkout",
-              "categories": ["automation", "devops", "ci-cd"],
-              "tags": ["github-actions", "git", "version-control", "workflow", "lang:ts"],
-              "framework": null
-            },
-            {
-              "repo": "some/readme-generator",
-              "categories": ["documentation", "automation", "dev-tools"],
-              "tags": ["markdown", "readme", "generator", "cli"],
-              "framework": null
-            },
-            {
-              "repo": "vercel/next.js",
-              "categories": ["frameworks", "web-dev", "full-stack"],
-              "tags": ["ssr", "react-framework", "jamstack", "serverless", "lang:js"],
-              "framework": "nextjs"
-            }
-          ]
-          
-          STRICT RULES:
-          1. framework: Must be EXACTLY one of the allowed frameworks OR null (not "null" string)
-          2. categories: Array of 1-3 strings from ALLOWED CATEGORIES only
-          3. tags: Include lang:X tag ONLY if language is provided in input data
-          4. If input language is null/empty: DO NOT add any lang: tag (see readme-generator example)
-          5. CRITICAL: Output ONLY the JSON array. First character must be [, last character must be ]
-          6. DO NOT include any text, markdown formatting, backticks, or explanations
-          7. DO NOT say "Here is the classification" or similar phrases
-          8. START YOUR RESPONSE WITH [ AND END WITH ]
+          EXAMPLE:
+          [{"repo":"microsoft/vscode","categories":["dev-tools","productivity"],"tags":["code-editor","extensible","electron","lang:ts"],"framework":null}]
           EOF
 
-      - name: Read prompts for AI
-        id: read_prompts
-        if: steps.prep_repos.outputs.has_repos == 'true'
+      - name: Read prompts
+        id: prompts
+        if: steps.prep.outputs.has_repos == 'true'
         run: |
-          SYSTEM_PROMPT=$(cat .github-stars/data/classification-system-prompt.txt)
-          REPOS_DATA=$(cat .github-stars/data/repos-to-classify.json)
-          
-          # GitHub Actions multiline output
-          echo "system_prompt<<EOF" >> $GITHUB_OUTPUT
-          echo "$SYSTEM_PROMPT" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-          
-          echo "prompt<<EOF" >> $GITHUB_OUTPUT
-          echo "Please classify the following repositories according to the system prompt instructions." >> $GITHUB_OUTPUT
-          echo "" >> $GITHUB_OUTPUT
-          echo "Each repository includes enhanced metadata: language, topics, stargazers_count, homepage_url, and license." >> $GITHUB_OUTPUT
-          echo "Use this rich metadata to provide accurate classifications." >> $GITHUB_OUTPUT
-          echo "" >> $GITHUB_OUTPUT
-          echo "$REPOS_DATA" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-          
-      - name: AI classify repositories  
-        id: ai_classify
-        if: steps.prep_repos.outputs.has_repos == 'true'
+          {
+            echo "system<<EOF"
+            cat .github-stars/data/system-prompt.txt
+            echo "EOF"
+            echo "user<<EOF"
+            echo "Classify these repositories:"
+            cat .github-stars/data/repos-to-classify.json
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
+
+      - name: AI classify
+        id: ai
+        if: steps.prep.outputs.has_repos == 'true'
         uses: actions/ai-inference@v1
         with:
           model: 'openai/gpt-4o'
-          max-tokens: '2000'
-          system-prompt: ${{ steps.read_prompts.outputs.system_prompt }}
-          prompt: ${{ steps.read_prompts.outputs.prompt }}
+          max-tokens: '3000'
+          system-prompt: ${{ steps.prompts.outputs.system }}
+          prompt: ${{ steps.prompts.outputs.user }}
 
-      - name: Create validation prompt
-        if: steps.prep_repos.outputs.has_repos == 'true'
-        run: |
-          cat > .github-stars/data/validation-prompt.txt << 'EOF'
-          RESPOND WITH ONE OF:
-          1. IF VALID: Output the CORRECTED JSON array (fixing any minor issues)
-          2. IF INVALID: Output "REJECTED: [specific issue]"
-          
-          START YOUR RESPONSE WITH EITHER [ (for JSON) OR "REJECTED:" (for rejection)
-          
-          Validation criteria:
-          - Categories should be relevant and descriptive (can use suggested ones or create new)
-          - Frameworks must be from common list OR null
-          - Tags MUST match pattern: ^([a-z]+:)?[a-z0-9][a-z0-9-]*$
-            Valid examples: "web-scraping", "lang:js", "real-estate", "open-source"
-            Invalid examples: "Web-Scraping", "lang:JavaScript", "real_estate", "open source"
-          - No language tag should exist if input language was null
-          - Classifications should help with discovery and organization
-          
-          FIX minor issues like:
-          - lang:c# → lang:csharp
-          - PascalCase tags → kebab-case
-          - Too few tags (add more descriptive ones)
-          - Overly generic categories (make more specific)
-          
-          DO NOT change abbreviated language tags (keep lang:js, lang:ts as is - do NOT expand to lang:javascript)
-          
-          If classifications have minor fixable issues (like lang:c# → lang:csharp), FIX THEM and return the corrected JSON.
-          Only reject if there are unfixable issues.
-          
-          Original repo data:
-          EOF
-          cat .github-stars/data/repos-to-classify.json >> .github-stars/data/validation-prompt.txt
-          echo "" >> .github-stars/data/validation-prompt.txt
-          echo "AI Classifications:" >> .github-stars/data/validation-prompt.txt
-          echo '${{ steps.ai_classify.outputs.response }}' >> .github-stars/data/validation-prompt.txt
-
-      - name: Read validation prompt
-        id: read_validation
-        if: steps.prep_repos.outputs.has_repos == 'true'
-        run: |
-          VALIDATION_PROMPT=$(cat .github-stars/data/validation-prompt.txt)
-          
-          # GitHub Actions multiline output
-          echo "prompt<<EOF" >> $GITHUB_OUTPUT
-          echo "$VALIDATION_PROMPT" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-          
-      - name: Validate AI classifications
-        id: ai_validate
-        if: steps.prep_repos.outputs.has_repos == 'true'
+      - name: Validate and fix
+        id: validate
+        if: steps.prep.outputs.has_repos == 'true'
         uses: actions/ai-inference@v1
         with:
           model: 'openai/gpt-4o'
-          max-tokens: '2500'
-          system-prompt: 'You are a classification validator. Fix minor issues and return corrected JSON, or reject with specific reasons.'
-          prompt: ${{ steps.read_validation.outputs.prompt }}
+          max-tokens: '3000'
+          system-prompt: 'Fix any issues in this classification JSON. Return ONLY the corrected JSON array. If unfixable, return: REJECTED: reason'
+          prompt: |
+            Validate and fix this classification:
+            ${{ steps.ai.outputs.response }}
+            
+            Rules: tags must be lowercase kebab-case, framework must be from allowed list or null.
+            Return corrected JSON array only.
 
-      - name: Apply AI classification results
-        id: apply_classification
-        if: steps.prep_repos.outputs.has_repos == 'true'
-        uses: actions/github-script@v7
+      - name: Apply classifications
+        id: apply
+        if: steps.prep.outputs.has_repos == 'true'
+        uses: actions/github-script@v8
         with:
           script: |
             const fs = require('fs');
             const { execSync } = require('child_process');
             
-            // Check validation result first - escape backticks to prevent syntax errors
-            let validationResult = String.raw`${{ steps.ai_validate.outputs.response }}`.trim();
+            let result = `${{ steps.validate.outputs.response }}`.trim().replace(/^```json\s*/i, '').replace(/\s*```$/i, '');
             
-            // Strip any markdown formatting if AI didn't follow instructions
-            validationResult = validationResult.replace(/^```json\s*/i, '').replace(/\s*```$/i, '').trim();
-            console.log('Validation Result:', validationResult);
-            
-            let finalClassifications;
-            
-            if (validationResult.startsWith('REJECTED:')) {
-              core.setFailed(`AI classifications rejected by validator: ${validationResult}`);
-              return;
-            } else if (validationResult.startsWith('[')) {
-              // Validator provided corrected JSON
-              console.log('✅ Using validator-corrected classifications');
-              finalClassifications = validationResult;
-            } else {
-              // Unexpected response
-              core.setFailed(`Unexpected validator response: ${validationResult}`);
+            if (result.startsWith('REJECTED:')) {
+              core.setFailed(result);
               return;
             }
             
             let classifications;
             try {
-              classifications = JSON.parse(finalClassifications);
-            } catch (error) {
-              console.error('Failed to parse classifications as JSON:', error);
-              core.setFailed(`Invalid JSON in classifications: ${error.message}`);
+              classifications = JSON.parse(result);
+            } catch (e) {
+              core.setFailed(`Invalid JSON: ${e.message}`);
               return;
             }
             
-            if (!Array.isArray(classifications)) {
-              core.setFailed('AI response is not an array');
-              return;
-            }
-            
-            if (classifications.length === 0) {
-              console.log('No classifications returned');
-              core.setOutput('classified_count', 0);
+            if (!Array.isArray(classifications) || classifications.length === 0) {
+              core.setFailed('Empty or invalid classifications');
               return;
             }
 
-            // Read current manifest
-            const yamlContent = fs.readFileSync('repos.yml', 'utf8');
-            const manifestJson = execSync('./yq eval -o=json -', { 
-              input: yamlContent, 
-              encoding: 'utf8',
-              maxBuffer: 50 * 1024 * 1024  // 50MB buffer
-            });
-            const manifestData = JSON.parse(manifestJson);
+            const yaml = fs.readFileSync('repos.yml', 'utf8');
+            const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
+            const data = JSON.parse(json);
 
-            // Apply classifications
-            let classifiedCount = 0;
-            let notFoundRepos = [];
-            
-            classifications.forEach(classification => {
-              const repoIndex = manifestData.repositories.findIndex(r => r.repo === classification.repo);
-              if (repoIndex !== -1) {
-                manifestData.repositories[repoIndex].categories = classification.categories;
-                manifestData.repositories[repoIndex].tags = classification.tags || [];
-                manifestData.repositories[repoIndex].framework = classification.framework;
-                manifestData.repositories[repoIndex].needs_review = false;
-                manifestData.repositories[repoIndex].ai_classification = {
+            let count = 0;
+            for (const c of classifications) {
+              const idx = data.repositories.findIndex(r => r.repo === c.repo);
+              if (idx !== -1) {
+                data.repositories[idx].categories = c.categories;
+                data.repositories[idx].tags = c.tags || [];
+                data.repositories[idx].framework = c.framework;
+                data.repositories[idx].needs_review = false;
+                data.repositories[idx].ai_classification = {
                   model: "gpt-4o",
                   timestamp: new Date().toISOString(),
-                  prompt_version: "v1"
+                  prompt_version: "v2"
                 };
-                classifiedCount++;
-                
-                console.log(`Classified ${classification.repo}: ${classification.categories.join(', ')}`);
-              } else {
-                notFoundRepos.push(classification.repo);
+                count++;
+                console.log(`Classified: ${c.repo}`);
               }
-            });
-            
-            if (notFoundRepos.length > 0) {
-              console.warn(`⚠️ Could not find these repos in manifest: ${notFoundRepos.join(', ')}`);
             }
 
-            // Update metadata
-            manifestData.manifest_metadata.last_updated = new Date().toISOString();
+            data.manifest_metadata.last_updated = new Date().toISOString();
+            fs.writeFileSync('.github-stars/data/manifest.json', JSON.stringify(data, null, 2));
+            core.setOutput('count', count);
 
-            // Write updated manifest
-            try {
-              fs.writeFileSync('.github-stars/data/manifest.json', JSON.stringify(manifestData, null, 2));
-              console.log(`Successfully classified ${classifiedCount} repositories`);
-            } catch (error) {
-              core.setFailed(`Failed to write classified manifest: ${error.message}`);
-              return;
-            }
-
-            core.setOutput('classified_count', classifiedCount);
-
-      - name: Create validation failure issue
-        if: failure() && steps.ai_validate.outputs.response != ''
-        uses: actions/github-script@v7
-        env:
-          VALIDATION_RESULT: ${{ steps.ai_validate.outputs.response }}
-          AI_CLASSIFY_RESPONSE: ${{ steps.ai_classify.outputs.response }}
-          REPO_COUNT: ${{ steps.prep_repos.outputs.repo_count }}
+      - name: Create issue on failure
+        if: failure() && steps.validate.outputs.response
+        uses: actions/github-script@v8
         with:
           script: |
-            // Get values from environment to avoid template literal issues
-            const validationResult = process.env.VALIDATION_RESULT || 'No validation result';
-            const aiClassifyResponse = process.env.AI_CLASSIFY_RESPONSE || 'No classification response';
-            const repoCount = process.env.REPO_COUNT || '0';
-            
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `🤖 AI Classification Validation Failed (${repoCount} repos)`,
-              body: `## AI Classification Validation Failure
-              
-              **Validation Result:**
-              \`\`\`
-              ${validationResult}
-              \`\`\`
-              
-              **Original Classifications:**
-              \`\`\`json
-              ${aiClassifyResponse}
-              \`\`\`
-              
-              **Repositories Affected:**
-              ${repoCount} repositories need manual classification.
-              
-              **Next Steps:**
-              1. Review the validation feedback
-              2. Manually classify the repositories
-              3. Update the classification prompts if needed
-              
-              cc: @${context.repo.owner}`,
-              labels: ['ai-classification', 'validation-failed', 'needs-review']
+              title: `AI Classification Failed`,
+              body: `Validation result:\n\`\`\`\n${process.env.RESULT}\n\`\`\``,
+              labels: ['ai-classification', 'needs-review']
             });
+        env:
+          RESULT: ${{ steps.validate.outputs.response }}
 
-      - name: Convert classified manifest to YAML
-        if: steps.apply_classification.outputs.classified_count && steps.apply_classification.outputs.classified_count > 0
-        run: |
-          ./yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
+      - name: Convert to YAML
+        if: steps.apply.outputs.count > 0
+        run: ./yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
 
-      - name: Clean up temp files
+      - name: Cleanup
         if: always()
-        run: rm -f .github-stars/data/manifest.json .github-stars/data/repos-to-classify.json .github-stars/data/classification-system-prompt.txt .github-stars/data/validation-prompt.txt
+        run: rm -f .github-stars/data/*.json .github-stars/data/*.txt
 
-      - name: Validate classified manifest
-        if: steps.apply_classification.outputs.classified_count && steps.apply_classification.outputs.classified_count > 0
+      - name: Validate
+        if: steps.apply.outputs.count > 0
         uses: cardinalby/schema-validator-action@v3
         with:
           schema: 'schemas/repos-schema.json'
           file: 'repos.yml'
           mode: 'lax'
 
-      - name: Commit AI classification results
-        if: steps.apply_classification.outputs.classified_count && steps.apply_classification.outputs.classified_count > 0
+      - name: Commit
+        if: steps.apply.outputs.count > 0
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add repos.yml
-          git commit -m "🤖 AI classify ${{ steps.apply_classification.outputs.classified_count }} repositories [skip ci]
-
-          - Automatically categorized repositories using AI classification
-          - Updated framework detection and tagging
-          - Marked classified repos as no longer needing review
-
-          🤖 Generated with [Claude Code](https://claude.ai/code)
-
-          Co-Authored-By: Claude <noreply@anthropic.com>"
+          git commit -m "AI classify ${{ steps.apply.outputs.count }} repositories [skip ci]"
           git push
 
-      - name: Check for remaining unclassified repositories
-        id: check_remaining
-        if: steps.apply_classification.outputs.classified_count && steps.apply_classification.outputs.classified_count > 0
-        uses: actions/github-script@v7
+      - name: Check remaining
+        id: remaining
+        if: steps.apply.outputs.count > 0
+        uses: actions/github-script@v8
         with:
           script: |
             const fs = require('fs');
             const { execSync } = require('child_process');
             
-            // Read updated repos.yml
-            const yamlContent = fs.readFileSync('repos.yml', 'utf8');
-            const manifestJson = execSync('./yq eval -o=json -', { 
-              input: yamlContent, 
-              encoding: 'utf8',
-              maxBuffer: 50 * 1024 * 1024
-            });
-            const manifestData = JSON.parse(manifestJson);
+            const yaml = fs.readFileSync('repos.yml', 'utf8');
+            const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
+            const data = JSON.parse(json);
             
-            // Count remaining unclassified repos
-            const remainingUnclassified = manifestData.repositories.filter(repo => 
-              repo.categories.includes('unclassified') && 
-              (repo.needs_review === true || 
-               !repo.ai_classification || 
-               !repo.ai_classification.timestamp)
-            );
+            const remaining = data.repositories.filter(r => 
+              r.categories.includes('unclassified') && 
+              (r.needs_review || !r.ai_classification?.timestamp)
+            ).length;
             
-            const remainingCount = remainingUnclassified.length;
-            console.log(`Remaining unclassified repositories: ${remainingCount}`);
-            
-            // Set output for next step
-            core.setOutput('has_remaining', remainingCount > 0 ? 'true' : 'false');
-            core.setOutput('remaining_count', remainingCount);
+            console.log(`Remaining: ${remaining}`);
+            core.setOutput('count', remaining);
+            core.setOutput('has_more', remaining > 0);
 
-      - name: Trigger next batch if repositories remain
-        if: steps.check_remaining.outputs.has_remaining == 'true'
-        uses: actions/github-script@v7
+      - name: Trigger next batch
+        if: steps.remaining.outputs.has_more == 'true'
+        uses: actions/github-script@v8
         with:
-          github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
-            const remainingCount = ${{ steps.check_remaining.outputs.remaining_count }};
-            console.log(`🔄 Triggering next batch to process ${remainingCount} remaining repositories`);
-            
+            console.log(`Triggering next batch for ${{ steps.remaining.outputs.count }} remaining repos`);
             await github.rest.actions.createWorkflowDispatch({
               owner: context.repo.owner,
               repo: context.repo.repo,
               workflow_id: '03-curate-stars.yml',
               ref: 'main',
-              inputs: {
-                batch_limit: '${{ env.BATCH_LIMIT }}'
-              }
+              inputs: { batch_limit: '${{ env.BATCH_LIMIT }}' }
             });
 
-      - name: Auto-loop completion summary
+      - name: Summary
         if: always()
         run: |
-          echo "🎯 Auto-loop Summary:"
-          echo "  - Processed: ${{ steps.apply_classification.outputs.classified_count || 0 }} repositories"
-          echo "  - Remaining: ${{ steps.check_remaining.outputs.remaining_count || 'N/A' }}"
-          if [ "${{ steps.check_remaining.outputs.has_remaining }}" == "true" ]; then
-            echo "  - Status: Next batch queued"
-          else
-            echo "  - Status: All repositories classified ✅"
-          fi
+          echo "Classified: ${{ steps.apply.outputs.count || 0 }}"
+          echo "Remaining: ${{ steps.remaining.outputs.count || 'N/A' }}"

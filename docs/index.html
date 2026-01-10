@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Stars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GitHub Stars</h1>
+        <p class="subtitle">Browse and search through starred repositories</p>
+    </header>
+
+    <main>
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Search repos..." autocomplete="off">
+                <span class="search-icon">&#128269;</span>
+            </div>
+            
+            <div class="filters">
+                <select id="category-filter">
+                    <option value="">All Categories</option>
+                </select>
+                
+                <select id="language-filter">
+                    <option value="">All Languages</option>
+                </select>
+                
+                <select id="sort-by">
+                    <option value="stars">Most Stars</option>
+                    <option value="name">Name (A-Z)</option>
+                    <option value="recent">Recently Starred</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="stats">
+            <span id="stats-total">Loading...</span>
+            <span id="stats-showing"></span>
+        </div>
+
+        <div class="tag-cloud" id="tag-cloud"></div>
+
+        <div class="repos" id="repos-container">
+            <div class="loading">Loading repositories...</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Powered by GitHub Actions & AI Classification</p>
+        <p><a href="https://github.com/primeinc/github-stars">View on GitHub</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

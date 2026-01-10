@@ -3,12 +3,14 @@ name: 'Sync Starred Repos'
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Fetch GitHub Stars"]
+    types:
+      - completed
 
 permissions:
   contents: write
-  pull-requests: write
   issues: write
-
 
 concurrency:
   group: sync-stars-${{ github.ref }}
@@ -17,13 +19,13 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Check if repos.yml exists
         id: check_repos
@@ -32,10 +34,9 @@ jobs:
             echo "exists=true" >> $GITHUB_OUTPUT
           else
             echo "exists=false" >> $GITHUB_OUTPUT
-            echo "repos.yml not found - will use template"
           fi
 
-      - name: Validate existing manifest schema
+      - name: Validate existing manifest
         if: steps.check_repos.outputs.exists == 'true'
         uses: cardinalby/schema-validator-action@v3
         with:
@@ -43,62 +44,36 @@ jobs:
           file: 'repos.yml'
           mode: 'lax'
 
-      - name: Debug - List files
-        run: |
-          echo "Current directory:"
-          pwd
-          echo "Files in root:"
-          ls -la
-          echo "Files in .github-stars:"
-          ls -la .github-stars/ || echo ".github-stars doesn't exist"
-          echo "Files in .github-stars/data:"
-          ls -la .github-stars/data/ || echo ".github-stars/data doesn't exist"
-
-
       - name: Setup environment
         run: |
           mkdir -p .github-stars/data
-          # Download yq locally
           wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
           chmod +x ./yq
 
-      - name: Update manifest with new repositories
+      - name: Update manifest
         id: diff
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
-          github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
             const { execSync } = require('child_process');
-            // Read stars data from file to avoid command line length limits
-            const starsDataPath = '.github-stars/data/fetched-stars-graphql.json';
             
+            const starsDataPath = '.github-stars/data/fetched-stars-graphql.json';
             if (!fs.existsSync(starsDataPath)) {
-              core.setFailed('Fetched stars data not found. Please run fetch-stars workflow first.');
+              core.setFailed('Run fetch-stars workflow first.');
               return;
             }
 
-            let starsData;
-            try {
-              starsData = JSON.parse(fs.readFileSync(starsDataPath, 'utf8'));
-            } catch (error) {
-              core.setFailed(`Failed to parse stars data: ${error.message}`);
-              return;
-            }
-            
-            // Validate data structure
+            const starsData = JSON.parse(fs.readFileSync(starsDataPath, 'utf8'));
             if (!Array.isArray(starsData)) {
-              core.setFailed('Invalid stars data format: expected array');
+              core.setFailed('Invalid stars data format');
               return;
             }
             
             console.log(`Found ${starsData.length} starred repositories`);
             
-            
-            // Check if repos.yml exists, if not use template
             let yamlContent;
             if (!fs.existsSync('repos.yml')) {
-              console.log('repos.yml not found, using template...');
               yamlContent = fs.readFileSync('.github-stars/repos-template.yml', 'utf8');
             } else {
               yamlContent = fs.readFileSync('repos.yml', 'utf8');
@@ -107,95 +82,42 @@ jobs:
             const manifestJson = execSync('./yq eval -o=json -', { input: yamlContent, encoding: 'utf8' });
             const manifestData = JSON.parse(manifestJson) || { repositories: [] };
             
-            // Ensure required objects exist
-            if (!manifestData.repositories) {
-              manifestData.repositories = [];
-            }
-            if (!manifestData.manifest_metadata) {
-              manifestData.manifest_metadata = {};
-            }
-            
-            // Set correct github user from context
+            if (!manifestData.repositories) manifestData.repositories = [];
+            if (!manifestData.manifest_metadata) manifestData.manifest_metadata = {};
             manifestData.manifest_metadata.github_user = context.repo.owner;
 
-            console.log(`Starred repos: ${starsData.length}`);
-            console.log(`Manifest repos: ${manifestData.repositories.length}`);
+            const existingRepos = new Set(manifestData.repositories.filter(r => r?.repo).map(r => r.repo));
+            const newRepos = starsData.filter(s => s?.repo && !existingRepos.has(s.repo));
+            const currentStarRepos = new Set(starsData.filter(s => s?.repo).map(s => s.repo));
+            const removedRepos = manifestData.repositories.filter(r => r?.repo && !currentStarRepos.has(r.repo));
 
-            // Extract repo names from current manifest (with null safety)
-            const existingRepos = new Set(manifestData.repositories.filter(r => r && r.repo).map(r => r.repo));
+            console.log(`New: ${newRepos.length}, Removed: ${removedRepos.length}`);
 
-            // Find new repos that aren't in the manifest (with null safety)
-            const newRepos = starsData.filter(star => star && star.repo && !existingRepos.has(star.repo));
+            if (newRepos.length > 0 || removedRepos.length > 0) {
+              manifestData.repositories = manifestData.repositories.filter(r => r?.repo && currentStarRepos.has(r.repo));
 
-            // Find removed repos (in manifest but not in stars) (with null safety)
-            const currentStarRepos = new Set(starsData.filter(s => s && s.repo).map(s => s.repo));
-            const removedRepos = manifestData.repositories.filter(r => r && r.repo && !currentStarRepos.has(r.repo));
-
-            console.log(`New repos to add: ${newRepos.length}`);
-            console.log(`Repos to remove: ${removedRepos.length}`);
-
-            const hasChanges = newRepos.length > 0 || removedRepos.length > 0;
-
-            // Log summary
-            if (newRepos.length > 0) {
-              console.log('New repositories to add:');
-              newRepos.slice(0, 5).forEach(repo => console.log(`  - ${repo.repo}`));
-              if (newRepos.length > 5) {
-                console.log(`  ... and ${newRepos.length - 5} more`);
-              }
-            }
-
-            // Update manifest if there are changes
-            if (hasChanges) {
-              // Remove deleted repositories
-              manifestData.repositories = manifestData.repositories.filter(r => 
-                r && r.repo && currentStarRepos.has(r.repo)
-              );
-
-              // Add new repositories (only new ones, never duplicates) with data validation and cleaning
               const cleanDescription = (desc) => {
-                if (!desc || desc.trim() === '') return 'No description provided';
-                
-                // Clean markdown headers and formatting
+                if (!desc?.trim()) return 'No description provided';
                 let cleaned = desc
-                  .replace(/^#+\s*/, '')                    // Remove leading # headers
-                  .replace(/([a-z])([A-Z])/g, '$1 $2')     // Add spaces between camelCase
-                  .replace(/([A-Z]{2,})([a-z])/g, '$1 $2') // Fix acronyms like MCPAn -> MCP An
-                  .replace(/\s+/g, ' ')                     // Normalize whitespace
+                  .replace(/^#+\s*/, '')
+                  .replace(/([a-z])([A-Z])/g, '$1 $2')
+                  .replace(/\s+/g, ' ')
                   .trim();
-                
-                // Truncate if too long
-                if (cleaned.length > 200) {
-                  cleaned = cleaned.substring(0, 197) + '...';
-                }
-                
-                return cleaned;
+                return cleaned.length > 200 ? cleaned.substring(0, 197) + '...' : cleaned;
               };
               
-              // Create new repository entries - all marked for AI classification
-              const newRepoEntries = newRepos.map((repo) => {
-                // Base entry with required fields
-                const entry = {
-                  repo: repo.repo,
-                  categories: ["unclassified"],
-                  tags: [],
-                  summary: cleanDescription(repo.description),
-                  last_synced_sha: repo.last_commit_sha || '0000000000000000000000000000000000000000',
-                  starred_at: repo.starred_at || new Date().toISOString(),
-                  readme_quality: "missing",
-                  needs_review: true  // All new repos need AI classification
-                };
-                
-                // Only set non-default values for archived and fork
-                if (repo.archived) {
-                  entry.archived = true;
-                }
-                if (repo.fork) {
-                  entry.fork = true;
-                }
-                
-                // Preserve GitHub metadata for enhanced AI classification
-                entry.github_metadata = {
+              const newEntries = newRepos.map(repo => ({
+                repo: repo.repo,
+                categories: ["unclassified"],
+                tags: [],
+                summary: cleanDescription(repo.description),
+                last_synced_sha: repo.last_commit_sha || '0'.repeat(40),
+                starred_at: repo.starred_at || new Date().toISOString(),
+                readme_quality: "missing",
+                needs_review: true,
+                ...(repo.archived && { archived: true }),
+                ...(repo.fork && { fork: true }),
+                github_metadata: {
                   language: repo.language || null,
                   topics: repo.topics || [],
                   stargazers_count: repo.stargazers_count || 0,
@@ -207,44 +129,28 @@ jobs:
                   latest_release: repo.latest_release || null,
                   is_mirror: repo.is_mirror || false,
                   mirror_url: repo.mirror_url || null
-                };
-                
-                return entry;
-              });
+                }
+              }));
 
-              manifestData.repositories.push(...newRepoEntries);
-
-              // Update metadata
+              manifestData.repositories.push(...newEntries);
               manifestData.manifest_metadata.last_updated = new Date().toISOString();
               manifestData.manifest_metadata.total_repos = manifestData.repositories.length;
 
-              // Write updated manifest as JSON first, then convert with yq
-              try {
-                fs.writeFileSync('.github-stars/data/manifest.json', JSON.stringify(manifestData, null, 2));
-              } catch (error) {
-                core.setFailed(`Failed to write manifest file: ${error.message}`);
-                return;
-              }
-
-              console.log(`Updated manifest: +${newRepos.length} repos, -${removedRepos.length} repos`);
+              fs.writeFileSync('.github-stars/data/manifest.json', JSON.stringify(manifestData, null, 2));
             }
 
-            core.setOutput('changed', hasChanges);
+            core.setOutput('changed', newRepos.length > 0 || removedRepos.length > 0);
             core.setOutput('total_new', newRepos.length);
 
-      - name: Convert manifest back to YAML
+      - name: Convert to YAML
         if: steps.diff.outputs.changed == 'true'
-        run: |
-          ./yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
-          echo "✅ Successfully converted manifest.json to repos.yml"
-          echo "File contents preview:"
-          head -20 repos.yml
+        run: ./yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
 
-      - name: Clean up temp files
+      - name: Cleanup
         if: always()
         run: rm -f .github-stars/data/manifest.json
 
-      - name: Validate updated manifest
+      - name: Validate manifest
         if: steps.diff.outputs.changed == 'true'
         uses: cardinalby/schema-validator-action@v3
         with:
@@ -252,19 +158,11 @@ jobs:
           file: 'repos.yml'
           mode: 'lax'
 
-      - name: Commit sync changes to main
+      - name: Commit changes
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add repos.yml
-          git commit -m "🌟 Sync ${{ steps.diff.outputs.total_new }} new starred repositories
-
-          - Added ${{ steps.diff.outputs.total_new }} new repositories  
-          - Categories set to 'unclassified', all marked for AI review
-          - Updated manifest metadata timestamp
-
-          🤖 Generated with [Claude Code](https://claude.ai/code)
-
-          Co-Authored-By: Claude <noreply@anthropic.com>"
+          git commit -m "Sync ${{ steps.diff.outputs.total_new }} new starred repositories [skip ci]"
           git push

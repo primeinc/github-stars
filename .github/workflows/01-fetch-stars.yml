@@ -2,6 +2,8 @@ name: 'Fetch GitHub Stars'
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * *'  # Daily at 3 AM UTC
 
 permissions:
   contents: write
@@ -18,13 +20,12 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         
       - name: Fetch starred repositories
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         id: fetch-stars
         with:
-          github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
             const path = require('path');
@@ -37,35 +38,26 @@ jobs:
             const STARS_QUERY = fs.readFileSync(queryPath, 'utf8');
             
             // Configuration
-            const MAX_RETRIES = 3; // For transient errors only, not rate limits
+            const MAX_RETRIES = 3;
             const OUTPUT_FILE = '.github-stars/data/fetched-stars-graphql.json';
             
-            // Helper function for delays
             const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
             
-            // Initialize variables
             let hasNextPage = true;
             let cursor = null;
             let allRepos = [];
             let pageCount = 0;
             let retryCount = 0;
             
-            
-            // Fetch all pages
             while (hasNextPage) {
               pageCount++;
               core.info(`Fetching page ${pageCount}...`);
               
               try {
-                // Execute GraphQL query
                 const result = await github.graphql(STARS_QUERY, cursor ? { cursor } : {});
-                
                 const repos = result.viewer.starredRepositories;
-                
-                // Reset retry count on success
                 retryCount = 0;
                 
-                // Process this page
                 const pageRepos = repos.edges.map(edge => ({
                   repo: edge.node.nameWithOwner,
                   description: edge.node.description || '',
@@ -80,7 +72,6 @@ jobs:
                   default_branch: edge.node.defaultBranchRef?.name || 'main',
                   last_commit_sha: edge.node.defaultBranchRef?.target?.oid || null,
                   starred_at: edge.starredAt,
-                  // Extra metadata
                   homepage_url: edge.node.homepageUrl,
                   is_mirror: edge.node.isMirror,
                   mirror_url: edge.node.mirrorUrl,
@@ -91,82 +82,61 @@ jobs:
                   } : null
                 }));
                 
-                // Filter out private repos
                 const publicRepos = pageRepos.filter(r => !r.private);
                 allRepos = allRepos.concat(publicRepos);
                 
-                // Check if we need to continue
                 hasNextPage = repos.pageInfo.hasNextPage;
                 cursor = repos.pageInfo.endCursor;
                 
-                core.info(`  Found ${publicRepos.length} public repos (total so far: ${allRepos.length})`);
+                core.info(`  Found ${publicRepos.length} public repos (total: ${allRepos.length})`);
                 
-                
-                // Small delay between requests to avoid rate limits (500ms)
-                if (hasNextPage) {
-                  await sleep(500);
-                }
+                if (hasNextPage) await sleep(500);
                 
               } catch (error) {
-                // Check if it's a rate limit error
-                if (error.message && (error.message.includes('secondary rate limit') || error.message.includes('API rate limit'))) {
-                  core.error('GitHub rate limit hit. These last 1+ hours.');
-                  core.warning('Saving partial results. Re-run this workflow later to get remaining stars.');
+                if (error.message?.includes('rate limit')) {
+                  core.warning('Rate limit hit. Saving partial results.');
                   break;
                 }
                 
-                // For other transient errors, retry with exponential backoff
                 if (retryCount < MAX_RETRIES) {
                   retryCount++;
-                  const waitTime = Math.pow(2, retryCount); // 2, 4, 8 seconds
-                  core.warning(`Transient error, retrying in ${waitTime} seconds (attempt ${retryCount}/${MAX_RETRIES})...`);
+                  const waitTime = Math.pow(2, retryCount);
+                  core.warning(`Retrying in ${waitTime}s (${retryCount}/${MAX_RETRIES})...`);
                   await sleep(waitTime * 1000);
-                  pageCount--; // Retry the same page
+                  pageCount--;
                   continue;
                 }
                 
-                // Other errors
-                core.error('GraphQL query failed:', error.message);
                 if (allRepos.length > 0) {
-                  core.info('Saving partial results...');
+                  core.warning('Error occurred, saving partial results...');
                   break;
                 }
                 throw error;
               }
             }
             
-            core.info(`\nTotal starred repositories found: ${allRepos.length}`);
+            core.info(`\nTotal: ${allRepos.length} repositories`);
             
-            // Save final results
             const outputDir = path.dirname(OUTPUT_FILE);
             if (!fs.existsSync(outputDir)) {
               fs.mkdirSync(outputDir, { recursive: true });
             }
             fs.writeFileSync(OUTPUT_FILE, JSON.stringify(allRepos, null, 2));
-            core.info(`Saved to ${OUTPUT_FILE}`);
             
-            // Summary stats
             const archived = allRepos.filter(r => r.archived).length;
             const forks = allRepos.filter(r => r.fork).length;
             const noDesc = allRepos.filter(r => !r.description).length;
             
-            core.info(`\nSummary:`);
-            core.info(`  Archived: ${archived}`);
-            core.info(`  Forks: ${forks}`);
-            core.info(`  No description: ${noDesc}`);
+            core.info(`Archived: ${archived}, Forks: ${forks}, No description: ${noDesc}`);
             
-            
-            // Set outputs
             core.setOutput('total_repos', allRepos.length);
             core.setOutput('archived_count', archived);
             core.setOutput('fork_count', forks);
             core.setOutput('no_description_count', noDesc);
-            
-            return allRepos.length;
-            
-      - name: Upload results as artifact
+
+      - name: Upload results
         if: success() && steps.fetch-stars.outputs.total_repos != '0'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: fetched-stars-${{ github.run_id }}
           path: .github-stars/data/fetched-stars-graphql.json
@@ -174,37 +144,26 @@ jobs:
           
       - name: Create job summary
         run: |
-          echo "# GitHub Stars Fetch Summary" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- **Total repositories**: ${{ steps.fetch-stars.outputs.total_repos }}" >> $GITHUB_STEP_SUMMARY
+          echo "# GitHub Stars Fetch" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total**: ${{ steps.fetch-stars.outputs.total_repos }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Archived**: ${{ steps.fetch-stars.outputs.archived_count }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Forks**: ${{ steps.fetch-stars.outputs.fork_count }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **No description**: ${{ steps.fetch-stars.outputs.no_description_count }}" >> $GITHUB_STEP_SUMMARY
           
       - name: Commit results
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Check if file exists
           if [ ! -f ".github-stars/data/fetched-stars-graphql.json" ]; then
-            echo "No results file to commit"
+            echo "No results to commit"
             exit 0
           fi
           
           git add .github-stars/data/fetched-stars-graphql.json
           
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No changes"
           else
             git commit -m "chore: update starred repositories [skip ci]"
-            
-            # Push with error handling
-            if ! git push; then
-              echo "::error::Failed to push changes. This could be due to:"
-              echo "::error::- Protected branch settings"
-              echo "::error::- Merge conflicts"
-              echo "::error::- Missing permissions"
-              exit 1
-            fi
+            git push
           fi

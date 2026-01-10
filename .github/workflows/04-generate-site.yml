@@ -1,0 +1,62 @@
+---
+name: 'Generate Site Data'
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'repos.yml'
+    branches:
+      - main
+  workflow_run:
+    workflows: ["Curate Starred Repos"]
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.workflow_run.conclusion == 'success'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Pull latest changes
+        run: git pull origin main
+
+      - name: Setup yq
+        run: |
+          wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          chmod +x ./yq
+
+      - name: Generate site data
+        run: |
+          mkdir -p docs
+          
+          # Convert repos.yml to JSON for the static site
+          ./yq eval -o=json '.' repos.yml > docs/data.json
+          
+          echo "Generated docs/data.json"
+          echo "Size: $(ls -lh docs/data.json | awk '{print $5}')"
+          echo "Repos: $(./yq eval '.repositories | length' repos.yml)"
+
+      - name: Commit site data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add docs/
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update site data [skip ci]"
+            git push
+          fi
