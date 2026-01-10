@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T12:09:20.843Z"
+  last_updated: "2026-01-10T12:09:39.139Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -4418,13 +4418,18 @@ repositories:
       mirror_url: null
   - repo: andrei-markeev/mongodb-livedata-server
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - web-dev
+    tags:
+      - mongodb
+      - live-data
+      - websocket
+      - lang:ts
     summary: Standalone live data server implementation extracted from Meteor, Fibers removed and converted to Type Script.
     last_synced_sha: 26493db0deae604ea19155f8e9a2cfad626447a1
     starred_at: "2025-06-15T13:42:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4439,15 +4444,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.139Z"
+      prompt_version: v2
   - repo: Azure-Samples/mcp-container-ts
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - cloud
+      - ai-ml
+    tags:
+      - mcp
+      - azure-container-apps
+      - containers
+      - lang:ts
     summary: This is a quick start guide that provides the basic building blocks to set up a remote Model Context Protocol (MCP) server using Azure Container Apps. The MCP server is built using Node.js and Type...
     last_synced_sha: f093019b3a984eb4728f111c4383c6a939ff0f78
     starred_at: "2025-06-15T11:47:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4468,15 +4484,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.139Z"
+      prompt_version: v2
   - repo: Azure/azure-mcp
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - apis
+    tags:
+      - azure
+      - mcp
+      - lang:csharp
     summary: The Azure MCP Server, bringing the power of Azure to your agents.
     last_synced_sha: 28d4d767cb45fece7e77918ab6c0f29c16e75cb9
     starred_at: "2025-06-15T11:45:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -4489,15 +4514,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.139Z"
+      prompt_version: v2
   - repo: steipete/agent-rules
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - rules
+      - llms
+      - agents
+      - lang:shell
     summary: Rules and Knowledge to work better with agents such as Claude Code or Cursor
     last_synced_sha: 8fcff0fa2799d1ee564efad70c189ff17cfc3e74
     starred_at: "2025-06-15T08:02:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -4515,15 +4550,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.139Z"
+      prompt_version: v2
   - repo: microsoft/Conversation-Knowledge-Mining-Solution-Accelerator
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - azure-ai
+      - content-understanding
+      - conversation-insights
+      - lang:python
     summary: This solution accelerator leverages Azure AI Foundry, Azure AI Content Understanding, Azure Open AI Service, and Azure AI Search to enable organizations to derive insights from volumes of conversat...
     last_synced_sha: e3c9d0a9f7a6831532a4348adfd1322f2046e8d6
     starred_at: "2025-06-15T07:16:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4540,15 +4585,25 @@ repositories:
         published_at: "2025-07-11T10:58:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.139Z"
+      prompt_version: v2
   - repo: Stirling-Tools/Stirling-PDF
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - pdf-tools
+      - pdf-manipulation
+      - pdf-editor
+      - lang:java
     summary: 1 Locally hosted web application that allows you to perform various operations on PDF files
     last_synced_sha: 1f41cb97b0b7e1b12735acec170f0b1939496c19
     starred_at: "2025-06-15T05:34:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -4574,15 +4629,25 @@ repositories:
         published_at: "2025-07-08T19:14:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.139Z"
+      prompt_version: v2
   - repo: mondora/ddp.js
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+    tags:
+      - ddp
+      - isomorphic
+      - meteor
+      - lang:js
     summary: Isomorphic Java Script DDP client
     last_synced_sha: 70055210083f7a06f7c2606e698903c86619f82d
     starred_at: "2025-06-14T09:20:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -4595,15 +4660,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.139Z"
+      prompt_version: v2
   - repo: arunoda/meteor-ddp-analyzer
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - dev-tools
+    tags:
+      - ddp
+      - meteor
+      - logging
+      - lang:js
     summary: Simple DDP Proxy which logs DDP messages
     last_synced_sha: a069b261ffd85c7da9fc5b88140d326ea3d8d4ae
     starred_at: "2025-06-13T16:09:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -4616,15 +4691,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.139Z"
+      prompt_version: v2
   - repo: antwaremx/meteorman
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - testing
+    tags:
+      - meteor
+      - ddp
+      - gui
+      - testing-tools
+      - lang:vue
     summary: A DDP client with GUI (The Postman for Meteor)
     last_synced_sha: f03464bf3985571e93380251a32b8a47a3ca297d
     starred_at: "2025-06-13T12:59:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -4649,15 +4735,25 @@ repositories:
         published_at: "2021-06-29T21:28:29Z"
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.139Z"
+      prompt_version: v2
   - repo: pnp/powerplatform-snippets
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - power-platform
+      - powerapps
+      - powerautomate
+      - lang:hlsl
     summary: Repository with snippets that can easily be used in some of the Power Platform products
     last_synced_sha: ef623d2d3ce84796109e11d77186c3f3ea1ad9ad
     starred_at: "2025-06-12T06:09:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HLSL
       topics:
@@ -4677,15 +4773,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.139Z"
+      prompt_version: v2
   - repo: microsoft/content-processing-solution-accelerator
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - cloud
+    tags:
+      - azure-ai
+      - azure-openai
+      - cosmos-db
+      - document-processing
+      - lang:python
     summary: Programmatically extract data and apply schemas to unstructured documents across text-based and multi-modal content using Azure AI Foundry, Azure Open AI, Azure AI Content Understanding, and Cosmos...
     last_synced_sha: 2d12c285156b3a301c74c17f2fff3f46d8de7673
     starred_at: "2025-06-12T03:40:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4708,15 +4816,26 @@ repositories:
         published_at: "2025-07-11T11:01:25Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.139Z"
+      prompt_version: v2
   - repo: microsoft/Modernize-your-code-solution-accelerator
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - sql
+      - modernization
+      - data-migration
+      - cosmos-db
+      - lang:python
     summary: Designed to help customers transition their SQL queries to new environments quickly and efficiently. This accelerator is particularly useful for organizations modernizing their data estates, as it ...
     last_synced_sha: 5778a0a7fdbee72bc24eb08b1c9e5edecf7a0507
     starred_at: "2025-06-12T03:39:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4735,15 +4854,24 @@ repositories:
         published_at: "2025-07-08T16:10:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.139Z"
+      prompt_version: v2
   - repo: OfficeDev/Microsoft-Teams-Adaptive-Card-Samples
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - adaptive-cards
+      - teams
+      - collaboration
     summary: Adaptive Card Samples for Teams
     last_synced_sha: 086bc4adda736ed944178ac7f7a565d76dafdf9c
     starred_at: "2025-06-11T15:23:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -4756,15 +4884,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.139Z"
+      prompt_version: v2
   - repo: WhitewaterFoundry/Pengwin
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - embedded
+    tags:
+      - wsl
+      - debian
+      - linux-distribution
+      - lang:cpp
     summary: A Linux distro optimized for WSL based on Debian.
     last_synced_sha: acc34e670cb081efd2db928852cbee5f4947b04a
     starred_at: "2025-06-11T07:54:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C++
@@ -4786,15 +4924,25 @@ repositories:
         published_at: "2022-11-20T16:11:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.139Z"
+      prompt_version: v2
   - repo: microsoft/wslg
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - embedded
+    tags:
+      - wsl
+      - wayland
+      - x-server
+      - lang:cpp
     summary: Enabling the Windows Subsystem for Linux to include support for Wayland and X server related scenarios
     last_synced_sha: d45e34888ba7a7400e778b7f3f6a4007ffae60cf
     starred_at: "2025-06-11T07:52:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -4810,6 +4958,11 @@ repositories:
         published_at: "2025-02-26T17:24:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:39.138Z"
+      prompt_version: v2
   - repo: Yuyz0112/claude-code-reverse
     categories:
       - security
