@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T12:12:07.584Z"
+  last_updated: "2026-01-10T12:12:26.656Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -207,13 +207,18 @@ repositories:
       mirror_url: null
   - repo: actions/labeler
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - devops
+    tags:
+      - lang:ts
+      - github-actions
+      - pull-requests
+      - auto-labeling
     summary: An action for automatically labelling pull requests
     last_synced_sha: 110d44140c9195b853f2f24044bbfed8f4968efb
     starred_at: "2025-07-15T00:53:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -228,15 +233,25 @@ repositories:
         published_at: "2023-12-04T14:14:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.656Z"
+      prompt_version: v2
   - repo: actions/ai-inference
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - devops
+    tags:
+      - lang:ts
+      - github-actions
+      - ai-models
+      - automation
     summary: An action for calling AI models with Git Hub Models
     last_synced_sha: 8d1f0285487c9e14b15f1ac37d97c4f718636110
     starred_at: "2025-07-15T00:51:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -251,15 +266,27 @@ repositories:
         published_at: "2025-05-26T23:49:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.656Z"
+      prompt_version: v2
   - repo: copilot-extensions/gh-debug-cli
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - dev-tools
+      - testing
+    tags:
+      - lang:go
+      - debugging
+      - cli-tool
+      - faster-feedback
+      - local-testing
     summary: CLI tool that lets you chat with your agent locally for faster feedback and debugging
     last_synced_sha: 8a1d3c7ceadb53074762717cdb9df41776f3ef12
     starred_at: "2025-07-15T00:21:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -278,15 +305,26 @@ repositories:
         published_at: "2024-11-21T20:26:47Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.656Z"
+      prompt_version: v2
   - repo: astralapp/astral
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - lang:php
+      - github-stars
+      - tagging
+      - organization-tool
+      - bookmark-manager
     summary: Organize Your Git Hub Stars With Ease
     last_synced_sha: d8f24046235d479a8c2803e2ebdf49f0aba48e27
     starred_at: "2025-07-15T00:00:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -303,15 +341,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.656Z"
+      prompt_version: v2
   - repo: github/github-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - infrastructure
+    tags:
+      - lang:go
+      - github
+      - mcp-server
+      - server
+      - networking
     summary: Git Hub's official MCP Server
     last_synced_sha: d15026b0eb2a2e5d3265a2601798ab28017dc719
     starred_at: "2025-07-13T19:28:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -329,15 +378,25 @@ repositories:
         published_at: "2025-07-11T09:28:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.656Z"
+      prompt_version: v2
   - repo: Nachman-Libermensh/tanstack-form-playground
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - dev-tools
+    tags:
+      - lang:ts
+      - form-library
+      - prototype
+      - playground
     summary: No description provided
     last_synced_sha: ec2207901c4fd5d90369ff440a03f59b173946c8
     starred_at: "2025-07-13T18:34:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -350,15 +409,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.656Z"
+      prompt_version: v2
   - repo: rizzui/rizzui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react-component-library
+      - react
+      - tailwind-css
+      - lang:js
+      - minimal-design
     summary: "\U0001F389 A Modern and Minimal React UI Library built with Tailwind CSS"
     last_synced_sha: 0a09ebfb68488018a8676e24d6d3db49e9376985
     starred_at: "2025-07-13T18:20:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: MDX
       topics:
@@ -378,15 +448,26 @@ repositories:
         published_at: "2024-12-30T10:01:53Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.656Z"
+      prompt_version: v2
   - repo: f/awesome-chatgpt-prompts
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - lang:js
+      - chatgpt
+      - chatbot
+      - language-model
+      - prompt-engineering
     summary: This repo includes Chat GPT prompt curation to use Chat GPT and other LLM tools better.
     last_synced_sha: fbfd6613db1936ac530778b90b69fad3bff93047
     starred_at: "2025-07-13T16:12:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -404,15 +485,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.656Z"
+      prompt_version: v2
   - repo: PanseBossuSmecheru/notes-mcp
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - lang:ts
+      - note-taking
+      - ai
+      - apple-notes
+      - workflow
     summary: "Notes MCPA n MCP server that connects with your Apple Notes on mac OS. \U0001F4D3 This tool allows you to manage your notes efficiently with simple commands. \U0001F6E0️"
     last_synced_sha: a82ac75ee608eb6597bc2499f7c626c23c5df106
     starred_at: "2025-07-13T15:55:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -443,15 +535,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.656Z"
+      prompt_version: v2
   - repo: mbrlabs/Lorien
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+      - ui-libraries
+    tags:
+      - whiteboarding
+      - vector-graphics
+      - drawing-app
+      - infinite-canvas
+      - godot
     summary: Infinite canvas drawing/whiteboarding app for Windows, Linux and mac OS. Made with Godot.
     last_synced_sha: ea4e038d2a504927d55211b07afb8f416b23b6d4
     starred_at: "2025-07-13T15:54:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: GDScript
       topics:
@@ -473,15 +577,26 @@ repositories:
         published_at: "2023-11-06T15:27:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.656Z"
+      prompt_version: v2
   - repo: reorproject/reor
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - lang:js
+      - private-ai
+      - knowledge-management
+      - note-taking
+      - vector-database
     summary: Private & local AI personal knowledge management app for high entropy people.
     last_synced_sha: 9b47fcaf1158cedda1f0160392de25588efe4c31
     starred_at: "2025-07-13T15:53:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -508,15 +623,27 @@ repositories:
         published_at: "2025-04-05T18:33:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.656Z"
+      prompt_version: v2
   - repo: AppFlowy-IO/AppFlowy
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+      - ai-ml
+    tags:
+      - note-taking
+      - collaboration
+      - project-management
+      - content-management
+      - ai
     summary: Bring projects, wikis, and teams together with AI. App Flowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.
     last_synced_sha: 6b84c4b9701c9ca0b47123b6318a189ea8583318
     starred_at: "2025-07-13T15:50:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -543,15 +670,26 @@ repositories:
         published_at: "2025-07-02T12:19:01Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.656Z"
+      prompt_version: v2
   - repo: ratacat/slurp-ai
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - documentation
+    tags:
+      - lang:js
+      - documentation-tool
+      - web-scraping
+      - md-file
+      - consolidation
     summary: Tool for scraping and consolidating documentation websites into a single MD file.
     last_synced_sha: 4c3831265aaec3f7f319d21b29277e553ba3c18a
     starred_at: "2025-07-13T15:36:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -566,15 +704,27 @@ repositories:
         published_at: "2025-04-16T04:57:52Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.656Z"
+      prompt_version: v2
   - repo: DevToys-app/DevToys
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+      - desktop-dev
+    tags:
+      - lang:csharp
+      - developer-tools
+      - desktop-app
+      - cross-platform
+      - fluent-design
     summary: A Swiss Army knife for developers.
     last_synced_sha: bfeafa7f29267836d038d186d42647720fd82dd6
     starred_at: "2025-07-13T14:34:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -608,15 +758,26 @@ repositories:
         published_at: "2023-07-25T14:23:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.656Z"
+      prompt_version: v2
   - repo: Azure/communication-ui-library
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - lang:ts
+      - azure-communication-services
+      - react
+      - fluent-ui
+      - communication
     summary: UI Library for Azure Communication Services helps developers build communication applications with ease. From turn-key composites to UI components that can be composited together.
     last_synced_sha: 72aef319bc00f291c4ac654201471ad34e916889
     starred_at: "2025-07-13T13:30:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -638,6 +799,11 @@ repositories:
         published_at: "2025-06-17T23:28:34Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:26.655Z"
+      prompt_version: v2
   - repo: bkaankose/Wino-Mail
     categories:
       - desktop-dev
