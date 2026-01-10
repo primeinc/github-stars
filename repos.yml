@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T12:09:03.381Z"
+  last_updated: "2026-01-10T12:09:20.843Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -4812,13 +4812,17 @@ repositories:
       mirror_url: null
   - repo: Yuyz0112/claude-code-reverse
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - reverse-engineering
+      - source-analysis
+      - lang:js
     summary: 'Reverse Engineering Claude Code with LLM s: A Deep Dive into the Minified 4.6MB cli.mjs'
     last_synced_sha: 998d6d7482d4233fbc1c4633e94ef7581beb88e0
     starred_at: "2025-06-10T19:35:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -4831,15 +4835,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.843Z"
+      prompt_version: v2
   - repo: ghuntley/claude-code-source-code-deobfuscation
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - deobfuscation
+      - source-analysis
+      - lang:ts
     summary: This is a cleanroom deobfuscation of the official Claude Code npm package.
     last_synced_sha: ced7586d06751d071490f91cab1de04490d969ba
     starred_at: "2025-06-10T19:30:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -4853,15 +4866,21 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.843Z"
+      prompt_version: v2
   - repo: byrdsandbytes/beatnik-pi
     categories:
-      - unclassified
-    tags: []
+      - embedded
+    tags:
+      - embedded-devices
     summary: No description provided
     last_synced_sha: 0836ca9e8ca79201f35dfff53a41b11e2865942e
     starred_at: "2025-06-10T15:49:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -4874,15 +4893,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.843Z"
+      prompt_version: v2
   - repo: eythaann/Seelen-UI
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - desktop-environment
+      - taskbar
+      - app-launcher
+      - windows-ui
+      - lang:rust
     summary: The Fully Customizable Desktop Environment for Windows 10/11.
     last_synced_sha: 057e8b71dc1f3fd71c64a419d642213923f8346d
     starred_at: "2025-06-10T11:44:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -4916,15 +4946,26 @@ repositories:
         published_at: "2025-07-11T01:10:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.843Z"
+      prompt_version: v2
   - repo: Fosowl/agenticSeek
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - autonomous-agents
+      - ai-assistant
+      - local-ai
+      - voice-assistant
+      - lang:python
     summary: "Fully Local Manus AI. No API s, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. \U0001F514 Official updates only via twitter @Marti..."
     last_synced_sha: 308ba0e595b717bcd64ea4c3e4eff073defbfddc
     starred_at: "2025-06-10T11:41:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4945,15 +4986,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.843Z"
+      prompt_version: v2
   - repo: MODSetter/SurfSense
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-intelligence
+      - agents
+      - integration-platform
+      - chrome-extension
+      - lang:ts
     summary: Open Source Alternative to Notebook LM / Perplexity / Glean, connected to external sources such as search engines (Tavily, Linkup), Slack, Linear, Notion, You Tube, Git Hub, Discord and more.
     last_synced_sha: f852bcb1883c90c282e38849627863fd1326a0eb
     starred_at: "2025-06-10T11:41:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4988,15 +5040,26 @@ repositories:
         published_at: "2025-05-22T07:16:39Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.843Z"
+      prompt_version: v2
   - repo: mindsdb/mindsdb
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+    tags:
+      - query-engine
+      - ai-databases
+      - llms
+      - federated-data
+      - lang:python
     summary: AI's query engine - Platform for building AI that can answer questions over large scale federated data. - The only MCP Server you'll ever need
     last_synced_sha: bd6528e742ee0104eb1426d05f324a7a9029101b
     starred_at: "2025-06-10T11:40:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -5019,15 +5082,26 @@ repositories:
         published_at: "2025-07-09T10:16:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.843Z"
+      prompt_version: v2
   - repo: xming521/WeClone
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - llm
+      - digital-avatar
+      - chatbot
+      - ai
+      - lang:python
     summary: "\U0001F680 One-stop solution for creating your digital avatar from chat history \U0001F4A1 Fine-tune LLM s with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to lif..."
     last_synced_sha: 1a95fa3e532db80bb95a559c4d85d39e9ecf240d
     starred_at: "2025-06-10T11:37:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -5047,15 +5121,26 @@ repositories:
         published_at: "2025-07-05T07:49:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.843Z"
+      prompt_version: v2
   - repo: kamranahmedse/developer-roadmap
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - developer-guides
+      - roadmap
+      - career-growth
+      - interactive-content
+      - lang:ts
     summary: Interactive roadmaps, guides and other educational content to help developers grow in their careers.
     last_synced_sha: 588a2d006118107224188e0fc905658d9eaa95a3
     starred_at: "2025-06-10T11:36:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5088,15 +5173,26 @@ repositories:
         published_at: "2023-01-05T18:38:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.843Z"
+      prompt_version: v2
   - repo: tensorzero/tensorzero
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - infrastructure
+    tags:
+      - llmops
+      - mlops
+      - generative-ai
+      - optimization
+      - lang:rust
     summary: Tensor Zero is an open-source stack for industrial-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluation, and experimentation.
     last_synced_sha: 21271da1032d490e03442e7ba66e147a21ebcfcf
     starred_at: "2025-06-10T11:32:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -5131,15 +5227,26 @@ repositories:
         published_at: "2025-07-10T21:25:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.843Z"
+      prompt_version: v2
   - repo: block/goose
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-agent
+      - llm
+      - automation
+      - code-suggestions
+      - lang:rust
     summary: an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
     last_synced_sha: c6225e38d02295ef65714c1e87ff6494ac0f8b04
     starred_at: "2025-06-10T11:31:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -5154,15 +5261,26 @@ repositories:
         published_at: "2025-07-08T02:36:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.843Z"
+      prompt_version: v2
   - repo: aaPanel/BillionMail
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - email-server
+      - email-marketing
+      - newsletters
+      - lang:go
+      - smtp
     summary: 'Billion Mail gives you open-source Mail Server, News Letter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asf Xz BU h Zr'
     last_synced_sha: c55de3f8a8830c28613602609f4797476d8465a5
     starred_at: "2025-06-07T00:53:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5188,15 +5306,26 @@ repositories:
         published_at: "2025-07-04T09:38:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.843Z"
+      prompt_version: v2
   - repo: codexu/note-gen
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - note-taking
+      - ai-integration
+      - knowledge-base
+      - tauri
+      - lang:ts
     summary: A cross-platform Markdown note-taking application dedicated to using AI to bridge recording and writing, organizing fragmented knowledge into a readable note.
     last_synced_sha: fe21a18f21a3d3d71e05ae4ce2a3eb226625e48d
     starred_at: "2025-06-07T00:51:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5223,15 +5352,26 @@ repositories:
         published_at: "2025-07-15T01:58:56Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.843Z"
+      prompt_version: v2
   - repo: netbirdio/netbird
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - vpn
+      - wireguard
+      - zero-trust
+      - secure-networking
+      - lang:go
     summary: Connect your devices into a secure Wire Guard®-based overlay network with SSO, MFA and granular access controls.
     last_synced_sha: e49bcc343d30ef6c491782c45bea81c372bcf0e4
     starred_at: "2025-06-06T09:13:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5256,15 +5396,26 @@ repositories:
         published_at: "2025-07-12T09:41:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.843Z"
+      prompt_version: v2
   - repo: iamgio/quarkdown
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - markdown
+      - typesetting
+      - slides
+      - presentations
+      - lang:kotlin
     summary: "\U0001FA90 Markdown with superpowers — from ideas to papers, presentations and books."
     last_synced_sha: dbeeeb5eaed26c68ae8f55d39bc95625b2ac27e2
     starred_at: "2025-06-06T09:13:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics:
@@ -5290,6 +5441,11 @@ repositories:
         published_at: "2025-07-09T23:40:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:09:20.842Z"
+      prompt_version: v2
   - repo: scrapy/scrapy
     categories:
       - frameworks
