@@ -168,11 +168,22 @@ jobs:
             const data = JSON.parse(json);
 
             let count = 0;
+            const tagPattern = /^([a-z]+:)?[a-z0-9][a-z0-9-]*$/;
+
             for (const c of classifications) {
               const idx = data.repositories.findIndex(r => r.repo === c.repo);
               if (idx !== -1) {
-                data.repositories[idx].categories = c.categories;
-                data.repositories[idx].tags = c.tags || [];
+                // Sanitize categories (basic check)
+                const safeCategories = (c.categories || []).filter(cat => /^[a-z][a-z0-9-]*$/.test(cat)).slice(0, 5);
+                
+                // Sanitize tags: lowercase, replace space with dash, filter by pattern
+                const safeTags = (c.tags || [])
+                  .map(t => t.toLowerCase().replace(/[^a-z0-9-:]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, ''))
+                  .filter(t => tagPattern.test(t))
+                  .slice(0, 20);
+
+                data.repositories[idx].categories = safeCategories.length > 0 ? safeCategories : ["unclassified"];
+                data.repositories[idx].tags = safeTags;
                 data.repositories[idx].framework = c.framework;
                 data.repositories[idx].needs_review = false;
                 data.repositories[idx].ai_classification = {
