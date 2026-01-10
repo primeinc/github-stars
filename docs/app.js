@@ -5,6 +5,7 @@
     let allRepos = [];
     let filteredRepos = [];
     let activeTag = null;
+    let currentView = 'grid';
 
     // DOM Elements
     const searchInput = document.getElementById('search');
@@ -15,6 +16,8 @@
     const statsShowing = document.getElementById('stats-showing');
     const tagCloud = document.getElementById('tag-cloud');
     const reposContainer = document.getElementById('repos-container');
+    const viewGridBtn = document.getElementById('view-grid');
+    const viewListBtn = document.getElementById('view-list');
 
     // Initialize
     async function init() {
@@ -156,12 +159,20 @@
         // Sort
         filteredRepos.sort((a, b) => {
             switch (sort) {
-                case 'stars':
+                case 'stars-desc':
                     return (b.github_metadata?.stargazers_count || 0) - (a.github_metadata?.stargazers_count || 0);
-                case 'name':
+                case 'stars-asc':
+                    return (a.github_metadata?.stargazers_count || 0) - (b.github_metadata?.stargazers_count || 0);
+                case 'name-asc':
                     return a.repo.localeCompare(b.repo);
-                case 'recent':
+                case 'name-desc':
+                    return b.repo.localeCompare(a.repo);
+                case 'recent-desc':
                     return new Date(b.starred_at || 0) - new Date(a.starred_at || 0);
+                case 'recent-asc':
+                    return new Date(a.starred_at || 0) - new Date(b.starred_at || 0);
+                case 'updated-desc':
+                    return new Date(b.github_metadata?.pushed_at || 0) - new Date(a.github_metadata?.pushed_at || 0);
                 default:
                     return 0;
             }
@@ -187,6 +198,18 @@
             return;
         }
 
+        // Update container class based on view
+        reposContainer.className = `repos ${currentView}-view`;
+
+        if (currentView === 'list') {
+            renderListView();
+        } else {
+            renderGridView();
+        }
+    }
+
+    // Render grid view (cards)
+    function renderGridView() {
         reposContainer.innerHTML = filteredRepos.map(repo => {
             const meta = repo.github_metadata || {};
             const stars = meta.stargazers_count || 0;
@@ -217,6 +240,38 @@
         }).join('');
     }
 
+    // Render list view (compact rows)
+    function renderListView() {
+        reposContainer.innerHTML = filteredRepos.map(repo => {
+            const meta = repo.github_metadata || {};
+            const stars = meta.stargazers_count || 0;
+            const language = meta.language || '';
+            const categories = (repo.categories || []).filter(c => c !== 'unclassified');
+
+            return `
+                <div class="repo-row">
+                    <div class="repo-row-main">
+                        <a href="https://github.com/${repo.repo}" target="_blank" rel="noopener" class="repo-name">${repo.repo}</a>
+                        <span class="repo-summary">${escapeHtml(repo.summary || 'No description')}</span>
+                    </div>
+                    <div class="repo-row-meta">
+                        ${stars ? `<span class="stars">&#9733; ${formatNumber(stars)}</span>` : ''}
+                        ${language ? `<span class="language">${language}</span>` : ''}
+                        ${categories.length ? `<span class="category">${formatCategory(categories[0])}</span>` : ''}
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    // Set view mode
+    function setView(view) {
+        currentView = view;
+        viewGridBtn.classList.toggle('active', view === 'grid');
+        viewListBtn.classList.toggle('active', view === 'list');
+        renderRepos();
+    }
+
     // Helper: Format large numbers
     function formatNumber(num) {
         if (num >= 1000000) return (num / 1000000).toFixed(1) + 'M';
@@ -236,6 +291,8 @@
     categoryFilter.addEventListener('change', applyFilters);
     languageFilter.addEventListener('change', applyFilters);
     sortBy.addEventListener('change', applyFilters);
+    viewGridBtn.addEventListener('click', () => setView('grid'));
+    viewListBtn.addEventListener('click', () => setView('list'));
 
     // Debounce helper
     function debounce(func, wait) {
