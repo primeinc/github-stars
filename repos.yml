@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T12:10:45.267Z"
+  last_updated: "2026-01-10T12:11:00.327Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -2347,13 +2347,17 @@ repositories:
       mirror_url: null
   - repo: welldone-software/why-did-you-render
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - react
+    tags:
+      - react
+      - performance
+      - lang:js
     summary: why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.)
     last_synced_sha: 3ec3512d750c49448fe2241e26d05db9e42f0c21
     starred_at: "2025-07-12T01:10:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -2378,15 +2382,24 @@ repositories:
         published_at: "2025-01-18T17:49:06Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: ellisonleao/magictools
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - learning
+    tags:
+      - game-development
+      - frameworks
+      - resources
     summary: ':video_game: :pencil: A list of Game Development resources to make magic happen.'
     last_synced_sha: 81bffd517d787c9d8b0e3c6a49c843ad31184df5
     starred_at: "2025-07-11T22:47:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Markdown
       topics:
@@ -2415,15 +2428,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: kdeldycke/awesome-falsehood
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - falsehoods
+      - programming
+      - awesome-list
     summary: "\U0001F631 Falsehoods Programmers Believe in"
     last_synced_sha: 35d208fe55beae4be377a908df275d0627de7e1a
     starred_at: "2025-07-11T22:26:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -2455,15 +2477,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: TryGhost/Ghost
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - cms
+      - publishing
+      - blogging
+      - lang:js
     summary: Independent technology for modern publishing, memberships, subscriptions and newsletters.
     last_synced_sha: 938df942f35279741b4465a9486651f24d6b8b7e
     starred_at: "2025-07-11T22:24:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -2486,15 +2518,24 @@ repositories:
         published_at: "2025-07-11T15:17:00Z"
       is_mirror: false
       mirror_url: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: poloclub/transformer-explainer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - transformer
+      - visualization
+      - lang:js
     summary: 'Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization'
     last_synced_sha: b99a8215b6ddb2b291b5f217c7dbb82997158400
     starred_at: "2025-07-11T22:24:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -2515,15 +2556,27 @@ repositories:
         published_at: "2024-06-11T17:04:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: calcom/cal.com
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+      - apis
+    tags:
+      - scheduling
+      - tailwindcss
+      - lang:ts
+      - nextjs
+      - t3-stack
     summary: Scheduling infrastructure for absolutely everyone.
     last_synced_sha: 202d248ae45f8f2f01324b0d8eb5914e9154112f
     starred_at: "2025-07-11T22:20:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -2549,15 +2602,26 @@ repositories:
         published_at: "2025-07-15T00:46:45Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: rustfs/rustfs
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - infrastructure
+      - networking
+      - databases
+    tags:
+      - object-storage
+      - distributed-systems
+      - lang:rust
     summary: "\U0001F680 High-performance distributed object storage for Min IO alternative."
     last_synced_sha: 38cdc87e93e40bad3b30c753ea133b73e9bf2317
     starred_at: "2025-07-11T22:18:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -2579,15 +2643,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: langchain-ai/agents-from-scratch
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+      - productivity
+    tags:
+      - agents
+      - email-assistant
+      - memory
     summary: Build an email assistant with human-in-the-loop and memory
     last_synced_sha: 852e8ab15f36b4712e7ec936df0c0b72ae7d2c55
     starred_at: "2025-07-11T22:17:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -2602,15 +2676,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: GyulyVGC/sniffnet
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - monitoring
+      - security
+    tags:
+      - network-monitoring
+      - packet-sniffer
+      - lang:rust
     summary: "Comfortably monitor your Internet traffic \U0001F575️‍♂️"
     last_synced_sha: 5bbe44432705ed85e456b9dd5cb8c9953d154fc3
     starred_at: "2025-07-11T22:17:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -2644,15 +2728,26 @@ repositories:
         published_at: "2025-06-27T19:27:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: pocketbase/pocketbase
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - infrastructure
+      - apis
+    tags:
+      - realtime
+      - authentication
+      - backend
+      - lang:go
     summary: Open Source realtime backend in 1 file
     last_synced_sha: 3f3b77dcd43cf497a53e248ce32296bff1380115
     starred_at: "2025-07-11T22:16:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -2671,15 +2766,24 @@ repositories:
         published_at: "2025-06-21T08:29:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: RSSNext/Folo
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - rss-reader
+      - ai
+      - lang:ts
     summary: "\U0001F9E1 Follow everything in one place"
     last_synced_sha: 55e270a89d4d33bf011e3accce744834a61fc72b
     starred_at: "2025-07-11T22:16:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -2699,15 +2803,25 @@ repositories:
         published_at: "2025-07-11T14:46:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: ByteByteGoHq/system-design-101
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - cloud
+      - infrastructure
+    tags:
+      - system-design
+      - software-architecture
+      - cloud-computing
     summary: Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.
     last_synced_sha: b28380a4710c5ec9638ec037d4168e288f334cba
     starred_at: "2025-07-11T22:15:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -2730,15 +2844,22 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: siwenwang0803/RedForge
     categories:
-      - unclassified
-    tags: []
+      - data-science
+    tags:
+      - lang:python
+      - data
     summary: No description provided
     last_synced_sha: ee1f63478fd2fd4b9f6abc7b81dc0b6bd2829684
     starred_at: "2025-07-11T22:12:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -2753,15 +2874,25 @@ repositories:
         published_at: "2025-07-03T18:18:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: amantus-ai/llm-codes
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+      - productivity
+    tags:
+      - llms
+      - markdown
+      - lang:ts
     summary: Transform developer documentation to clean Markdown
     last_synced_sha: 232ecbac46b2761bcbd05f66c52277c07ddb8c50
     starred_at: "2025-07-11T20:42:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -2777,15 +2908,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: bingal/FastDomainCheck-MCP-Server
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - cli-tools
+    tags:
+      - domain-name-checking
+      - mcp-server
+      - lang:go
     summary: A Model Context Protocol for checking domain name registration status in bulk.
     last_synced_sha: 7564b6694bdefc5f43da2864738292c8de4bfac2
     starred_at: "2025-07-11T20:41:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -2802,6 +2942,11 @@ repositories:
         published_at: "2025-03-19T01:22:32Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:11:00.327Z"
+      prompt_version: v2
   - repo: stravu/crystal
     categories:
       - desktop-dev
