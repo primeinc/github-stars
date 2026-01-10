@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2025-07-15T10:59:25.247Z"
+  last_updated: "2026-01-10T09:45:01.235Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -26246,13 +26246,18 @@ repositories:
       mirror_url: null
   - repo: discourse/discourse
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - rails
+      - forum
+      - ruby
+      - lang:ruby
     summary: A platform for community discussion. Free, open, simple.
     last_synced_sha: 514431e04095a8d5454fee3687a0fe4bd9f14ff0
     starred_at: "2016-02-17T20:17:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -26272,15 +26277,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.235Z"
+      prompt_version: v2
   - repo: jdorn/sql-formatter
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - dev-tools
+    tags:
+      - sql
+      - formatter
+      - syntax-highlighting
     summary: A lightweight php class for formatting sql statements. Handles automatic indentation and syntax highlighting.
     last_synced_sha: 7ef9b85961956aa572413693e1194b60f50ab9ab
     starred_at: "2016-02-15T20:49:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -26295,15 +26309,25 @@ repositories:
         published_at: "2013-11-28T15:28:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.235Z"
+      prompt_version: v2
   - repo: php-school/learn-you-php
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - dev-tools
+    tags:
+      - php
+      - education
+      - workshop
+      - lang:php
     summary: "\U0001F3C6 Learn You PHP! - An introduction to PHP's core features: i/o, http, arrays, exceptions and so on."
     last_synced_sha: 20ffd00755e7c70c9f5179c0121f7e7c2f1a4318
     starred_at: "2016-02-05T14:12:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -26322,15 +26346,24 @@ repositories:
         published_at: "2021-01-20T20:06:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.235Z"
+      prompt_version: v2
   - repo: phpro/grumphp
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - testing
+    tags:
+      - code-quality
+      - git-hooks
+      - lang:php
     summary: A PHP code-quality tool
     last_synced_sha: 5f5d566f3aa15548884b6309e785effaad9a9ea5
     starred_at: "2016-02-05T14:10:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -26350,15 +26383,24 @@ repositories:
         published_at: "2025-06-04T13:47:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.235Z"
+      prompt_version: v2
   - repo: hirak/prestissimo
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - composer-plugin
+      - parallel-install
+      - lang:php
     summary: composer parallel install plugin
     last_synced_sha: 93abf7e1ace008f6fb69c28c26b483203c0662a7
     starred_at: "2016-02-05T14:07:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -26373,15 +26415,25 @@ repositories:
         published_at: "2020-02-16T14:02:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.234Z"
+      prompt_version: v2
   - repo: Sonarr/Sonarr
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - pvr
+      - newsgroups
+      - bittorrent
+      - lang:csharp
     summary: Smart PVR for newsgroup and bittorrent users.
     last_synced_sha: 6f1d461dad8eb146db739191d21390a34e3ba2bc
     starred_at: "2016-02-04T14:41:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -26396,15 +26448,25 @@ repositories:
         published_at: "2025-06-20T17:20:54Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.234Z"
+      prompt_version: v2
   - repo: ShareX/ShareX
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - screen-capture
+      - screen-recorder
+      - file-upload
+      - lang:csharp
     summary: Share X is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file typ...
     last_synced_sha: 40675a98cd26d12dbcc097fac804a30f54760e40
     starred_at: "2016-02-04T14:34:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -26439,15 +26501,25 @@ repositories:
         published_at: "2025-05-25T23:56:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.234Z"
+      prompt_version: v2
   - repo: nativefier/nativefier
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - cli-tools
+    tags:
+      - electron
+      - desktop-application
+      - web-app-conversion
+      - lang:ts
     summary: Make any web page a desktop application
     last_synced_sha: 9078a3071a3c7fab977d4e0bb54d3579af8296f3
     starred_at: "2016-02-01T02:41:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -26469,15 +26541,24 @@ repositories:
         published_at: "2023-08-25T18:12:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.234Z"
+      prompt_version: v2
   - repo: veltman/clmystery
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - cli-tools
+    tags:
+      - game
+      - learning-tool
+      - cmd-tool
     summary: A command-line murder mystery
     last_synced_sha: a159819c33fd37b4b0b079dc265c8b137ca71be6
     starred_at: "2016-02-01T02:05:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -26490,15 +26571,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.234Z"
+      prompt_version: v2
   - repo: jgthms/bulma
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - css-framework
+      - flexbox
+      - responsive-design
     summary: Modern CSS framework based on Flexbox
     last_synced_sha: 82c5f33b96e873f88d9306cea35a38598e01edf5
     starred_at: "2016-01-31T22:33:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics:
@@ -26518,15 +26608,25 @@ repositories:
         published_at: "2025-04-19T14:02:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.234Z"
+      prompt_version: v2
   - repo: MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - music-player
+      - electron
+      - cross-platform
+      - lang:js
     summary: A beautiful cross platform Desktop Player for Google Play Music
     last_synced_sha: b5c6bd893b76fce4a20494b46934f15977d3b777
     starred_at: "2016-01-29T18:58:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -26546,15 +26646,25 @@ repositories:
         published_at: "2020-01-07T01:50:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.234Z"
+      prompt_version: v2
   - repo: matbeedotcom/chromecast-audio-stream
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - desktop-dev
+    tags:
+      - chromecast
+      - audio-streaming
+      - windows
+      - lang:js
     summary: Stream your Windows PC's audio to the Chromecast
     last_synced_sha: cf808ba3cb19d247a17b543ead1536b30804bd0a
     starred_at: "2016-01-26T07:04:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -26569,15 +26679,24 @@ repositories:
         published_at: "2016-09-30T04:08:14Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.234Z"
+      prompt_version: v2
   - repo: tariqporter/Gdip
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - autohotkey
+      - gdi
+      - graphics
     summary: Official GDI+ library for Autohotkey
     last_synced_sha: da22594ae7090366e29877ece158eee28f9fbdde
     starred_at: "2016-01-22T05:25:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: AutoHotkey
       topics: []
@@ -26590,15 +26709,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.234Z"
+      prompt_version: v2
   - repo: AmirAzodi/cloudflare_ddns
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - ddns
+      - cloudflare
+      - dns
+      - lang:python
     summary: Python-based Dynamic DNS client for Cloud Flare.
     last_synced_sha: b17ffca9164c14d1f0ab7db4175006c93c5c37f3
     starred_at: "2016-01-19T19:48:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -26611,15 +26740,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.234Z"
+      prompt_version: v2
   - repo: vgough/encfs
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - encrypted-filesystem
+      - fuse
+      - lang:cpp
     summary: 'Enc FS: an Encrypted Filesystem for FUSE.'
     last_synced_sha: aa106e6eddcc16ce7f763c63e5f20dd9eb7f0f52
     starred_at: "2016-01-04T23:29:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -26634,6 +26772,11 @@ repositories:
         published_at: "2018-04-27T18:05:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:01.234Z"
+      prompt_version: v2
   - repo: irontec/sngrep
     categories:
       - networking
