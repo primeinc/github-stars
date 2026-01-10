@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T12:06:20.214Z"
+  last_updated: "2026-01-10T12:06:37.717Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -8946,13 +8946,18 @@ repositories:
       mirror_url: null
   - repo: openxc/uds-c
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - networking
+    tags:
+      - uds
+      - obd2
+      - automotive
+      - lang:c
     summary: Unified Diagnostics Service (UDS) and OBD-II (On Board Diagnostics for Vehicles) C Library
     last_synced_sha: e56aeb9c884ccbdbe73e1630942f8c0d17e27498
     starred_at: "2025-02-21T20:10:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -8965,15 +8970,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: andrewraharjo/CAN-Bus-Hack_Prius_Focus
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - data-science
+    tags:
+      - car-hacking
+      - autonomous-cars
+      - research
+      - lang:python
     summary: Leverage from ioactive blog for research purpose in Self Driving Car Development
     last_synced_sha: b2a73dfb4a3762d8439acd64d2e1b5d729988b2e
     starred_at: "2025-02-21T20:09:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -8986,15 +9001,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: iDoka/awesome-automotive-can-id
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - learning
+    tags:
+      - canbus
+      - automotive-security
+      - car-networks
+      - awesome-list
     summary: ':tractor: Collect of CAN ID s and its payloads for various car brands/models in one place. Might be useful for Cyber Security Researchers, Reverse Engineers, and Automotive Electronics Enthusiasts.'
     last_synced_sha: da33d4f757a8b2242ce7a9be549dfa469aa1050a
     starred_at: "2025-02-21T20:07:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -9026,15 +9051,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: CANBus-Triple/CANBus-Triple
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - networking
+    tags:
+      - can-bus
+      - automotive
+      - car-hacking
+      - lang:c
     summary: CANB us Triple – The car hacking platform
     last_synced_sha: 06375512c6184c8c3bc5180c49cf7e08660ed7cc
     starred_at: "2025-02-21T20:05:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -9047,15 +9082,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: Brandawg93/homebridge-fordpass
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - embedded
+    tags:
+      - homebridge
+      - fordpass
+      - smart-home
+      - lang:ts
     summary: Control your Ford vehicle in Home Kit using Homebridge.
     last_synced_sha: 2d9501c6cb34d18516d83b49f988e53cdb1700af
     starred_at: "2025-02-21T19:35:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -9070,15 +9115,26 @@ repositories:
         published_at: "2024-06-06T19:16:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: itchannel/fordpass-ha
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - embedded
+    tags:
+      - home-assistant
+      - fordpass
+      - python
+      - smart-home
+      - lang:python
     summary: Fordpass integration for Home Assistant
     last_synced_sha: fb62c827b8264802047c0f58c6a00c7cc149a40d
     starred_at: "2025-02-21T19:31:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -9097,15 +9153,25 @@ repositories:
         published_at: "2024-05-09T22:23:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: team-telnyx/demo-python-telnyx
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - learning
+    tags:
+      - telnyx
+      - api-examples
+      - python
+      - lang:python
     summary: Samples & Examples with Telnyx-Python
     last_synced_sha: 74ab376514f02924b670f9246ce6e64b58a50461
     starred_at: "2025-02-21T17:09:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -9118,15 +9184,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: microsoftgraph/microsoft-graph-explorer-v4
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - apis
+    tags:
+      - react
+      - microsoft-graph
+      - api-explorer
+      - lang:ts
     summary: React/Redux version of Graph Explorer used to learn the Microsoft Graph Api
     last_synced_sha: bbd3e4b292275fb680c1a62041f94d0e6dea80eb
     starred_at: "2025-02-21T12:02:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9147,15 +9223,25 @@ repositories:
         published_at: "2025-07-14T12:35:10Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: dafthack/GraphRunner
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+    tags:
+      - post-exploitation
+      - graph-api
+      - microsoft-api
+      - powershell
     summary: A Post-exploitation Toolset for Interacting with the Microsoft Graph API
     last_synced_sha: f5eaf103633f66d5ef7b21cd5b27cdddcf1b8175
     starred_at: "2025-02-21T12:02:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -9168,15 +9254,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: vgrem/office365-rest-python-client
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - office365
+      - graph-sdk
+      - python
+      - microsoft-integration
+      - lang:python
     summary: Microsoft 365 & Microsoft Graph Library for Python
     last_synced_sha: d572da855608ccaf7690646a91c6b5de23d5f368
     starred_at: "2025-02-21T12:01:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -9204,15 +9301,25 @@ repositories:
         published_at: "2025-05-11T13:24:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: WickyPlays/pip-player
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - pip-player
+      - electron
+      - video-playback
+      - lang:ts
     summary: A simple application to play Pi P with any links that you like.
     last_synced_sha: c1d5e63cdba9c624abff30d77bd134f02927770f
     starred_at: "2025-02-21T11:50:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9231,15 +9338,25 @@ repositories:
         published_at: "2025-06-30T15:39:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: fzf404/Monit
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - desktop-widget
+      - electron
+      - vue
+      - lang:js
     summary: "\U0001F3AF Desktop Widget ( 桌面小组件 )"
     last_synced_sha: 8ae99323b6a8a19535aced73becbb6c9bff9f1fd
     starred_at: "2025-02-21T11:48:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -9257,15 +9374,26 @@ repositories:
         published_at: "2023-07-01T16:38:58Z"
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: staniel359/muffon
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - web-dev
+    tags:
+      - music-streaming
+      - electron
+      - vue
+      - multi-source
+      - lang:js
     summary: Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads.
     last_synced_sha: 137f47926dbacffe5a80eda25eae2275f154bac2
     starred_at: "2025-02-21T11:47:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -9300,15 +9428,26 @@ repositories:
         published_at: "2025-04-14T07:29:49Z"
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: 4xmen/anubias
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - desktop-dev
+    tags:
+      - cross-platform
+      - native-apps
+      - gui
+      - vue
+      - lang:js
     summary: "Developed mobile apps so easy and native with GUI \U0001F4F1"
     last_synced_sha: a325c8039b6a715690046e959ca46ec91310b686
     starred_at: "2025-02-21T11:46:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -9341,15 +9480,25 @@ repositories:
         published_at: "2022-02-22T21:47:40Z"
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: sunzongzheng/music
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - web-dev
+    tags:
+      - music-player
+      - electron
+      - vue
+      - lang:js
     summary: electron跨平台音乐播放器；可搜网易云、QQ音乐、虾米音乐；支持QQ、微博、Github登录，云歌单; 支持一键导入音乐平台歌单
     last_synced_sha: e68d60ff4e011c283e00ebd5c32b6e101b9eab87
     starred_at: "2025-02-21T11:46:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -9369,6 +9518,11 @@ repositories:
         published_at: "2021-03-20T06:13:54Z"
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:06:37.717Z"
+      prompt_version: v2
   - repo: massCodeIO/massCode
     categories:
       - productivity
