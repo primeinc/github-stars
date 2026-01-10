@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T09:47:08.890Z"
+  last_updated: "2026-01-10T09:48:50.617Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -22584,13 +22584,19 @@ repositories:
       mirror_url: null
   - repo: BigJk/snd
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - dnd
+      - ttrpg
+      - dungeon-master
+      - lang:ts
+      - utility
     summary: Sales & Dungeons — Thermal Printer as D&D / TTRPG Utility
     last_synced_sha: 6d26a305cece43146db402afc5215a1b8c68b904
     starred_at: "2022-12-27T02:56:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -22615,15 +22621,25 @@ repositories:
         published_at: "2025-02-15T14:49:32Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.617Z"
+      prompt_version: v2
   - repo: lprichar/UwpMessageRelay
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - networking
+    tags:
+      - uwp
+      - app-service
+      - interprocess-communication
+      - lang:csharp
     summary: A sample UWP app demonstrating how to use App Service Connection to do interprocess communication
     last_synced_sha: 1aefa2efff55eada8c6acdf7b8876dd658971d52
     starred_at: "2022-12-25T08:09:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -22636,15 +22652,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.617Z"
+      prompt_version: v2
   - repo: files-community/Files
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - file-manager
+      - windows
+      - productivity
+      - lang:csharp
+      - utilities
     summary: A modern file manager that helps users organize their files and folders.
     last_synced_sha: 691ecdc3d1a68391f61d3eddf73b8e3c4d9cb2cb
     starred_at: "2022-12-25T05:59:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -22679,15 +22706,26 @@ repositories:
         published_at: "2025-02-06T23:01:47Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.617Z"
+      prompt_version: v2
   - repo: Winand/breadcrumbsaddressbar
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - pyqt
+      - qt6
+      - widget
+      - lang:python
+      - navigation
     summary: Py Qt6/Py Side6 breadcrumb navigation widget (WIP)
     last_synced_sha: f17f19177206db3e24fb75fd98b782e0990cda29
     starred_at: "2022-12-25T05:50:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -22705,15 +22743,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.617Z"
+      prompt_version: v2
   - repo: mikemackintosh/stickers
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cli-tools
+    tags:
+      - google-workspaces
+      - gmail
+      - tool
+      - lang:go
     summary: A Gmail labeling tool for your Google Workspaces org
     last_synced_sha: d9d2cc54c2e1b5d0f18d188d4ab83b35bb80c2e6
     starred_at: "2022-12-07T18:50:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -22726,15 +22774,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.617Z"
+      prompt_version: v2
   - repo: mifi/lossless-cut
     categories:
-      - unclassified
-    tags: []
+      - media
+      - productivity
+    tags:
+      - video-editor
+      - lossless
+      - ffmpeg
+      - lang:ts
+      - video-editing
     summary: The swiss army knife of lossless video/audio editing
     last_synced_sha: 250622bffc8841a2425b05d3fe41d227da63fcf4
     starred_at: "2022-11-28T07:43:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -22759,15 +22818,26 @@ repositories:
         published_at: "2024-11-01T12:27:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.617Z"
+      prompt_version: v2
   - repo: alex4108/scoreboard
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - game-dev
+    tags:
+      - scoreboard
+      - lang:js
+      - express
+      - react
+      - game-tracking
     summary: A simple scoreboard webapp using Express, React, and Mongo
     last_synced_sha: 03d5720f93129e82979db116e3d6b97b2b2944b3
     starred_at: "2022-09-14T19:42:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -22785,15 +22855,26 @@ repositories:
         published_at: "2022-11-16T08:48:31Z"
       is_mirror: false
       mirror_url: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.617Z"
+      prompt_version: v2
   - repo: AdamLaurie/hdmi-sniff
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - networking
+    tags:
+      - hardware
+      - hdmi
+      - ddc
+      - i2c
+      - lang:python
     summary: sniff HDMI DDC (I2C) traffic
     last_synced_sha: f7fbc0e66f239afac37bb7a4cbd805273b1f6618
     starred_at: "2022-07-19T04:55:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -22806,15 +22887,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.617Z"
+      prompt_version: v2
   - repo: ColonolNutty/s4cl-template-project
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - learning
+    tags:
+      - template
+      - s4cl
+      - sims
+      - lang:python
     summary: A template that can be used as a starting point for working with S4CL
     last_synced_sha: d707367b3e45c53249d8e764a0f1d65a8354651c
     starred_at: "2022-07-11T20:38:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -22827,15 +22918,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.616Z"
+      prompt_version: v2
   - repo: tubearchivist/tubearchivist
     categories:
-      - unclassified
-    tags: []
+      - media
+      - data-science
+    tags:
+      - youtube
+      - media-server
+      - download-manager
+      - archive
+      - lang:python
     summary: Your self hosted You Tube media server
     last_synced_sha: 6192fcc35057de9f5db48dc422bfaed5ff76d255
     starred_at: "2022-05-27T03:16:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -22857,15 +22959,25 @@ repositories:
         published_at: "2025-06-11T01:39:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.616Z"
+      prompt_version: v2
   - repo: whatdaybob/sonarr_youtubedl
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - sonarr
+      - youtube-dl
+      - automation
+      - lang:python
     summary: A Sonarr companion script to allow the automatic downloading of web series normally not available for Sonarr to search for. Using Youtube-DL it allows you to download your webseries from the list o...
     last_synced_sha: 531d56c4dbf977db27ba4d5f9efb576fde2e2f46
     starred_at: "2022-05-27T03:14:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -22880,15 +22992,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.616Z"
+      prompt_version: v2
   - repo: outline/outline
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - knowledge-base
+      - collaboration
+      - markdown
+      - lang:ts
+      - react
     summary: The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.
     last_synced_sha: 8a3a4f3a3033b990eeced119953471065a9cfc92
     starred_at: "2022-05-19T16:43:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -22911,15 +23034,25 @@ repositories:
         published_at: "2025-07-11T01:17:53Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.616Z"
+      prompt_version: v2
   - repo: dtcooper/raspotify
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - media
+    tags:
+      - spotify
+      - raspberry-pi
+      - spotify-connect
+      - shell
     summary: A Spotify Connect client that mostly Just Works™
     last_synced_sha: b6cb4e75ea938c13e4dadeccc9b2b27b3c1e8d4c
     starred_at: "2022-05-18T18:02:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -22939,15 +23072,25 @@ repositories:
         published_at: "2025-01-17T11:29:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.616Z"
+      prompt_version: v2
   - repo: marcopixel/monstercat-visualizer
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - media
+    tags:
+      - visualizer
+      - audio
+      - music
+      - media-player
     summary: A real time audio visualizer for Rainmeter similar to the ones used in the Monstercat videos.
     last_synced_sha: 553aa755ef0cc394259fb1a55560f1b31864d2e0
     starred_at: "2022-04-30T18:43:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics:
@@ -22975,15 +23118,26 @@ repositories:
         published_at: "2019-05-30T19:41:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.616Z"
+      prompt_version: v2
   - repo: pg07codes/fokus
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - time-management
+      - webapp
+      - lang:js
+      - react
+      - efficiency
     summary: 'react web app to help you become more productive :fire: and efficient with time:star2:'
     last_synced_sha: 3e9dd8ec813c5d1acf7df96b4f8bf2d58b6b425d
     starred_at: "2022-04-30T15:29:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -23000,6 +23154,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:48:50.616Z"
+      prompt_version: v2
   - repo: rcmaehl/MSEdgeRedirect
     categories:
       - productivity
