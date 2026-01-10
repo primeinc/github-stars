@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T12:10:28.933Z"
+  last_updated: "2026-01-10T12:10:45.267Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -2804,13 +2804,18 @@ repositories:
       mirror_url: null
   - repo: stravu/crystal
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ai-ml
+    tags:
+      - ai-coding
+      - claude-code
+      - development-environment
+      - lang:ts
     summary: Run multiple Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.
     last_synced_sha: 38d74ccc02bdc68945b853cba4aad7786c3eb17c
     starred_at: "2025-07-11T20:15:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -2836,15 +2841,24 @@ repositories:
         published_at: "2025-07-11T19:16:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: matthewp/robot
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - state-machine
+      - functional
+      - lang:js
     summary: "\U0001F916 A functional, immutable Finite State Machine library"
     last_synced_sha: a17a3c3a3034a5ca8f246751f47ebe492366548d
     starred_at: "2025-07-11T20:14:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -2859,15 +2873,25 @@ repositories:
         published_at: "2025-02-05T13:23:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: hangwin/mcp-chrome
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - browser
+    tags:
+      - chrome-extension
+      - browser-automation
+      - mcp
+      - lang:ts
     summary: Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, c...
     last_synced_sha: 262e733376ede0b96bb3f748ae560791ad07386f
     starred_at: "2025-07-11T20:11:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -2882,15 +2906,25 @@ repositories:
         published_at: "2025-07-09T16:37:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: basementstudio/xmcp
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - apis
+    tags:
+      - mcp
+      - typescript-framework
+      - developer-tools
+      - lang:ts
     summary: The Type Script MCP framework
     last_synced_sha: 4ce32a7f2b6eb4a1a6bffa1926677a58e2d48e59
     starred_at: "2025-07-11T20:10:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -2909,15 +2943,24 @@ repositories:
         published_at: "2025-07-12T20:44:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: CeeJayDK/SweetFX
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - graphics
+      - hlsl
+      - shader-effects
     summary: No description provided
     last_synced_sha: 16d1a42247cb5baaf660120ee35c9a33bb94649c
     starred_at: "2025-07-11T20:10:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HLSL
       topics: []
@@ -2930,15 +2973,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: radius-project/radius
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - infrastructure
+    tags:
+      - portable-platform
+      - cloud-native
+      - lang:go
     summary: Radius is a cloud-native, portable application platform that makes app development easier for teams building cloud-native apps.
     last_synced_sha: 890e6df611775cae7d8800154a1a4df3d33d503f
     starred_at: "2025-07-11T18:35:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -2953,15 +3005,25 @@ repositories:
         published_at: "2025-06-27T17:36:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: BuilderIO/mitosis
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ui-libraries
+    tags:
+      - compilers
+      - jsx
+      - multi-framework
+      - lang:ts
     summary: Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more.
     last_synced_sha: 3f5d293fca1f7e58512dde329fc07b042a83d7f3
     starred_at: "2025-07-11T16:35:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -2992,15 +3054,24 @@ repositories:
         published_at: "2025-06-30T14:01:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: fosrl/pangolin
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - reverse-proxy
+      - identity-management
+      - lang:ts
     summary: Tunneled Reverse Proxy Server with Identity and Access Control and Dashboard UI
     last_synced_sha: ca0e950cdffe1ea16a30f44bd449f621cccd9578
     starred_at: "2025-07-11T16:17:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -3026,15 +3097,24 @@ repositories:
         published_at: "2025-07-02T04:54:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: anthropics/anthropic-cookbook
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - notebooks
+      - recipes
+      - claude
     summary: A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
     last_synced_sha: 46f21f95981e3633d7b1eac235351de4842cf9f0
     starred_at: "2025-07-11T02:37:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -3047,15 +3127,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: humanlayer/12-factor-agents
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - llms
+      - prompt-engineering
+      - ai-agents
+      - lang:ts
     summary: What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?
     last_synced_sha: 1815849cdb91556c7d373acb115872ddba110fa6
     starred_at: "2025-07-11T02:37:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -3079,15 +3169,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: googleapis/genai-toolbox
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - ai-ml
+    tags:
+      - llms
+      - genai
+      - mcp
+      - lang:go
     summary: MCP Toolbox for Databases is an open source MCP server for databases.
     last_synced_sha: 26bdba46ca11b0dc624bbc56391a6cf14df5b41c
     starred_at: "2025-07-11T02:36:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -3106,15 +3206,25 @@ repositories:
         published_at: "2025-07-11T00:46:14Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: indragiek/Context
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - networking
+    tags:
+      - macos
+      - native-client
+      - mcp-protocol
+      - lang:swift
     summary: Native mac OS client for Model Context Protocol (MCP)
     last_synced_sha: f29b00f386a79e0e1d47e0e3dacd7975b748c835
     starred_at: "2025-07-11T01:13:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics: []
@@ -3129,15 +3239,24 @@ repositories:
         published_at: "2025-07-11T16:35:23Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: hewigovens/app-detective
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - macos
+      - gui-detection
+      - lang:swift
     summary: Detect mac OS apps' GUI tech stack
     last_synced_sha: 4904919f40d23890753df17b2f097613d80b9ed2
     starred_at: "2025-07-10T01:17:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics: []
@@ -3152,15 +3271,25 @@ repositories:
         published_at: "2025-05-16T00:33:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: modelcontextprotocol/servers
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - frameworks
+    tags:
+      - mcp
+      - model-context
+      - protocol
+      - lang:ts
     summary: Model Context Protocol Servers
     last_synced_sha: b64c0b2926c80f4ee12b3f6b776ad2667cbcb6ef
     starred_at: "2025-07-10T01:15:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -3175,15 +3304,24 @@ repositories:
         published_at: "2025-07-01T18:32:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: yukangcao/FreeMorph
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-processing
+      - diffusion-model
+      - lang:python
     summary: '[ICCV''25] Free Morph: Tuning-Free Generalized Image Morphing with Diffusion Model'
     last_synced_sha: 4d639a10aaa8e0f82518f28d9cabefab86785510
     starred_at: "2025-07-04T11:48:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -3196,6 +3334,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:10:45.267Z"
+      prompt_version: v2
   - repo: OrkunKocyigit/vidlib
     categories:
       - productivity
