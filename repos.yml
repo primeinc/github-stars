@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T12:12:26.656Z"
+  last_updated: "2026-01-10T12:12:40.182Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -94,13 +94,16 @@ taxonomy:
 repositories:
   - repo: primeinc/github-stars
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+    tags:
+      - twilio
+      - lang:js
+      - tooling
     summary: No description provided
     last_synced_sha: 3a8a8bb6c5f59b263fb4e378f57d6347c2755e4b
     starred_at: "2025-07-15T03:34:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -113,15 +116,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:40.182Z"
+      prompt_version: v2
   - repo: Panquesito7/submodules-alternative
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - git
+      - cloning
+      - submodules
+      - lua
     summary: An easy-to-use Git modules alternative to make the cloning process easier.
     last_synced_sha: 67d0bc8ffcf0f2f51a39f1acf0cafba2515899fd
     starred_at: "2025-07-15T01:31:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics:
@@ -154,15 +167,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:40.182Z"
+      prompt_version: v2
   - repo: muesli/readme-scribe
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - markdown
+      - readme
+      - github-actions
     summary: A Git Hub Action that automatically generates & updates markdown content (like your README.md)
     last_synced_sha: d2f6ab32d6b9f5b59941fe782d6c7e6499a37fe4
     starred_at: "2025-07-15T01:23:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -178,15 +200,25 @@ repositories:
         published_at: "2020-07-21T17:48:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:40.182Z"
+      prompt_version: v2
   - repo: dorny/test-reporter
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - devops
+    tags:
+      - github-actions
+      - ci-cd
+      - reporting
+      - lang:ts
     summary: Displays test results from popular testing frameworks directly in Git Hub
     last_synced_sha: b14337a039a066699a39f4758f31bd6366f99d58
     starred_at: "2025-07-15T01:18:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -205,6 +237,11 @@ repositories:
         published_at: "2025-07-09T14:38:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:40.182Z"
+      prompt_version: v2
   - repo: actions/labeler
     categories:
       - automation
