@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T09:45:01.235Z"
+  last_updated: "2026-01-10T09:45:15.749Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -25838,13 +25838,18 @@ repositories:
       mirror_url: null
   - repo: select2/select2
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - select-box
+      - searchable
+      - jquery
+      - lang:js
     summary: Select2 is a j Query based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.
     last_synced_sha: 595494a72fee67b0a61c64701cbb72e3121f97b9
     starred_at: "2016-03-04T04:56:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -25863,15 +25868,25 @@ repositories:
         published_at: "2020-01-28T05:09:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.749Z"
+      prompt_version: v2
   - repo: CodeSleeve/laravel-stapler
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - laravel
+      - file-upload
+      - stapler
+      - lang:php
     summary: Stapler-based file upload package for the Laravel framework.
     last_synced_sha: 265cfcc7430bda49521bcec8eee0b5311f267e53
     starred_at: "2016-02-29T00:43:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -25884,15 +25899,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.749Z"
+      prompt_version: v2
   - repo: davibennun/laravel-push-notification
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - mobile-dev
+    tags:
+      - laravel
+      - push-notifications
+      - lang:php
     summary: Laravel package to enable sending push notifications to devices
     last_synced_sha: f2a7855018900688fd5d3e4bd43ec3555289e005
     starred_at: "2016-02-29T00:19:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -25905,15 +25929,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.749Z"
+      prompt_version: v2
   - repo: 500px/greedo-layout-for-android
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ui-libraries
+    tags:
+      - android
+      - recyclerview
+      - grid-layout
+      - lang:java
     summary: Full aspect ratio grid Layout Manager for Android's Recycler View
     last_synced_sha: 0fb5b29182b701868c6c754aee73bb929ac13dd9
     starred_at: "2016-02-29T00:15:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -25935,15 +25969,24 @@ repositories:
         published_at: "2022-06-21T21:20:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.749Z"
+      prompt_version: v2
   - repo: callmecavs/bricks.js
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - masonry-layout
+      - responsive
+      - lang:js
     summary: A blazing fast masonry layout generator for fixed width elements.
     last_synced_sha: 63c31c6e75567a16cfc8bf5366c1b09997cf9f2f
     starred_at: "2016-02-28T13:46:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -25959,15 +26002,25 @@ repositories:
         published_at: "2017-03-22T21:51:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.749Z"
+      prompt_version: v2
   - repo: eschultze/URLextractor
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - osint
+      - information-gathering
+      - phishing
+      - shell
     summary: Information gathering & website reconnaissance | https://phishstats.info/
     last_synced_sha: 739864d0f8c6427c835a31e3360d491947fe406a
     starred_at: "2016-02-28T12:40:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -25992,15 +26045,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.749Z"
+      prompt_version: v2
   - repo: pi-hole/pi-hole
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - ad-blocker
+      - dns-server
+      - raspberry-pi
+      - shell
     summary: A black hole for Internet advertisements
     last_synced_sha: cef7fd4b02c9ae4314e7478c0d542379bfce7f65
     starred_at: "2016-02-28T12:32:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -26026,15 +26089,26 @@ repositories:
         published_at: "2025-07-14T21:22:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.749Z"
+      prompt_version: v2
   - repo: mdbootstrap/adminlte-laravel
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ui-libraries
+    tags:
+      - laravel
+      - adminlte
+      - scaffolding
+      - theme
+      - lang:php
     summary: A Laravel 5 package that switchs default Laravel scaffolding/boilerplate to Admin LTE template and Pratt Landing Page with Bootstrap 3.0
     last_synced_sha: a214d20c1c98bed84ecc87fae24bd16cf495ce9c
     starred_at: "2016-02-28T04:01:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -26061,15 +26135,25 @@ repositories:
         published_at: "2020-10-03T11:17:18Z"
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.749Z"
+      prompt_version: v2
   - repo: rappasoft/laravel-boilerplate
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - laravel
+      - boilerplate
+      - starter
+      - lang:php
     summary: The Laravel Boilerplate Project - https://laravel-boilerplate.com
     last_synced_sha: a91de1efacc38eea14b46a898c99e9b1b5d45636
     starred_at: "2016-02-28T03:08:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -26090,15 +26174,26 @@ repositories:
         published_at: "2022-01-17T03:00:35Z"
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.749Z"
+      prompt_version: v2
   - repo: leskhq/Laravel-Enterprise-Starter-Kit
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - laravel
+      - starter-kit
+      - enterprise
+      - template
+      - lang:php
     summary: "\U0001F454 Enterprise Web application starter kit or template using Laravel"
     last_synced_sha: c1668e2766cd01a9b9db751be2a279cf4dca0de4
     starred_at: "2016-02-27T01:07:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -26119,15 +26214,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.749Z"
+      prompt_version: v2
   - repo: FrozenNode/Laravel-Administrator
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - laravel
+      - admin-interface
+      - backend-tools
+      - lang:php
     summary: An administrative interface package for Laravel
     last_synced_sha: 34d604c2029ce2b11f93599baf4ec909501fd356
     starred_at: "2016-02-26T02:37:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -26142,15 +26247,25 @@ repositories:
         published_at: "2016-08-15T19:29:00Z"
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.749Z"
+      prompt_version: v2
   - repo: dthree/cash
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - linux-commands
+      - cross-platform
+      - es6
+      - lang:js
     summary: Cross-platform Linux commands in ES6
     last_synced_sha: 3e28dae8bdb71215d5034df9003f3ef2804c2754
     starred_at: "2016-02-24T20:22:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -26163,15 +26278,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.749Z"
+      prompt_version: v2
   - repo: thephpleague/flysystem
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+    tags:
+      - filesystem
+      - file-management
+      - abstraction
+      - lang:php
     summary: Abstraction for local and remote filesystems
     last_synced_sha: 2203e3151755d874bb2943649dae1eb8533ac93e
     starred_at: "2016-02-22T17:34:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -26190,15 +26315,25 @@ repositories:
         published_at: "2023-09-07T19:25:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.749Z"
+      prompt_version: v2
   - repo: unicodeveloper/laravel-hackathon-starter
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - laravel
+      - hackathon
+      - boilerplate
+      - lang:php
     summary: ':computer: :octocat: A hackathon/MVP boilerplate for laravel web applications. Start your hackathons without hassle.'
     last_synced_sha: 019976365262b79544b3c14a56c9e8ecfb9461a3
     starred_at: "2016-02-22T17:30:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -26223,15 +26358,24 @@ repositories:
         published_at: "2016-02-28T14:18:51Z"
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.749Z"
+      prompt_version: v2
   - repo: chall32/WinCDP
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - cisco
+      - network-discovery
+      - windows
     summary: Cisco Discovery for Windows
     last_synced_sha: 56b22652df86e02cd94c5026c819c552392b0ee3
     starred_at: "2016-02-19T02:20:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -26244,6 +26388,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:15.748Z"
+      prompt_version: v2
   - repo: discourse/discourse
     categories:
       - frameworks
