@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T09:45:15.749Z"
+  last_updated: "2026-01-10T09:45:29.674Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -25442,13 +25442,17 @@ repositories:
       mirror_url: null
   - repo: themsaid/laravel-langman
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - frameworks
+    tags:
+      - language-management
+      - artisan
+      - lang:php
     summary: Language files manager in your artisan console.
     last_synced_sha: 27cdaa7eca53a0fe7a54c413285de6112f3166de
     starred_at: "2016-04-05T17:04:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -25463,15 +25467,24 @@ repositories:
         published_at: "2017-08-06T15:03:08Z"
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.674Z"
+      prompt_version: v2
   - repo: glyptodon/guacamole-server
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - remote-desktop
+      - authentication
+      - lang:c
     summary: The Guacamole project is now Apache Guacamole (http://guacamole.apache.org/). This repository has been repurposed as the base for the Apache Guacamole packages built for Glyptodon Enterprise.
     last_synced_sha: 63ab3c8e304276c276f88f8398f57e6d23c8a61b
     starred_at: "2016-03-31T22:19:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C
@@ -25485,15 +25498,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.674Z"
+      prompt_version: v2
   - repo: netdata/netdata
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - devops
+    tags:
+      - full-stack
+      - observability
+      - ai
+      - lang:c
     summary: The fastest path to AI-powered full stack observability, even for lean teams.
     last_synced_sha: 72a4ee4b32927fa8cc4704b6c67f2cb4cc6c329e
     starred_at: "2016-03-31T22:11:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -25528,15 +25551,24 @@ repositories:
         published_at: "2025-06-24T15:08:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.674Z"
+      prompt_version: v2
   - repo: jobbyphp/jobby
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - cron-management
+      - error-logging
+      - lang:php
     summary: Manage all your cron jobs without modifying crontab. Handles locking, logging, error emails, and more.
     last_synced_sha: a02846de7056fa648e299c9ba426e7f73a9e26cb
     starred_at: "2016-03-30T09:35:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -25551,15 +25583,24 @@ repositories:
         published_at: "2020-07-25T20:20:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.674Z"
+      prompt_version: v2
   - repo: mpociot/laravel-test-factory-helper
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - frameworks
+    tags:
+      - test-factory
+      - laravel
+      - lang:php
     summary: Generate Laravel test factories from your existing models
     last_synced_sha: 4660d6116cf451394343dea7922dc0e9de7e78c0
     starred_at: "2016-03-30T09:32:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -25576,15 +25617,25 @@ repositories:
         published_at: "2020-03-02T16:05:05Z"
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.674Z"
+      prompt_version: v2
   - repo: teepluss/laravel-theme
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - frameworks
+    tags:
+      - themes
+      - assets
+      - laravel
+      - lang:php
     summary: Theme and asset managing for laravel
     last_synced_sha: 244399b8ac60086b29fd94dd9546bb635855ce8a
     starred_at: "2016-03-29T20:59:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -25597,15 +25648,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.674Z"
+      prompt_version: v2
   - repo: jarves/jarves
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - cms
+      - frontend
+      - symfony
+      - lang:js
     summary: Jarves CMS/Application Framework based on Symfony - Alpha material
     last_synced_sha: 3fd163887f22e88e144f3a8ef7d046b72d8c4d26
     starred_at: "2016-03-20T04:20:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -25624,15 +25685,25 @@ repositories:
         published_at: "2016-04-13T01:06:36Z"
       is_mirror: false
       mirror_url: null
+    framework: "null"
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.673Z"
+      prompt_version: v2
   - repo: php-pm/php-pm
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - productivity
+    tags:
+      - process-manager
+      - load-balancer
+      - php
+      - lang:php
     summary: PPM is a process manager, supercharger and load balancer for modern PHP applications.
     last_synced_sha: 4a7b600d8939f6c7b545b0a88473010e6e37bfbd
     starred_at: "2016-03-20T04:17:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -25651,15 +25722,25 @@ repositories:
         published_at: "2022-03-16T10:44:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.673Z"
+      prompt_version: v2
   - repo: spatie/laravel-mail-preview
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - testing
+    tags:
+      - email-preview
+      - mail
+      - testing
+      - lang:php
     summary: A mail driver to quickly preview mail
     last_synced_sha: 270ee5f3d5ecd8acc2d2c0288a1967aab3ada754
     starred_at: "2016-03-20T04:03:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -25677,15 +25758,24 @@ repositories:
         published_at: "2025-02-21T11:35:36Z"
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.673Z"
+      prompt_version: v2
   - repo: srvrco/getssl
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - ssl-certificates
+      - automation
+      - letsencrypt
     summary: obtain free SSL certificates from letsencrypt ACME server Suitable for automating the process on remote servers.
     last_synced_sha: c504b6df5a01e418ba150b75e3bcb7f5ebf0dd53
     starred_at: "2016-03-19T15:48:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -25709,15 +25799,24 @@ repositories:
         published_at: "2024-04-17T20:45:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.673Z"
+      prompt_version: v2
   - repo: Diyzzuf/grav-plugin-private
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - grav
+      - cms-plugin
+      - lang:php
     summary: Private is a Grav Plugin. It provide an authentification form to keep private your Grav site or part of it
     last_synced_sha: 444bbfa4befdf83908275a7964dc349d4c9100ab
     starred_at: "2016-03-19T11:53:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -25732,15 +25831,25 @@ repositories:
         published_at: "2017-11-09T13:44:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.673Z"
+      prompt_version: v2
   - repo: snowfire/Beautymail
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - frameworks
+    tags:
+      - html-emails
+      - email
+      - laravel
+      - lang:php
     summary: Send beautiful HTML emails with Laravel
     last_synced_sha: df2159b3f0c1b2e1752eaa5f1f35840e077394bb
     starred_at: "2016-03-16T18:35:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Blade
       topics:
@@ -25758,15 +25867,25 @@ repositories:
         published_at: "2025-03-06T13:25:04Z"
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.673Z"
+      prompt_version: v2
   - repo: SpartnerNL/Laravel-Excel
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - frameworks
+    tags:
+      - excel
+      - imports
+      - exports
+      - lang:php
     summary: "\U0001F680 Supercharged Excel exports and imports in Laravel"
     last_synced_sha: 047cf457e1c234ae639cbc7f9b17e748a04b7676
     starred_at: "2016-03-14T09:27:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -25788,15 +25907,24 @@ repositories:
         published_at: "2025-02-24T11:14:48Z"
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.673Z"
+      prompt_version: v2
   - repo: michaeldyrynda/phpstorm-laravel-code-style
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - phpstorm
+      - code-style
+      - ide-plugin
     summary: Php Storm code style to meet Laravel's contribution guidelines
     last_synced_sha: aa742c642484ae200e0480a189ef412a97382e46
     starred_at: "2016-03-11T03:22:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -25809,15 +25937,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.673Z"
+      prompt_version: v2
   - repo: rhsimplex/image-match
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-analysis
+      - image-search
+      - lang:python
     summary: "\U0001F387 Quickly search over billions of images"
     last_synced_sha: cbb1dc031922002006f2a4590a8da244e5aa0e7f
     starred_at: "2016-03-10T22:35:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -25836,6 +25973,11 @@ repositories:
         published_at: "2017-02-06T08:12:01Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:45:29.673Z"
+      prompt_version: v2
   - repo: select2/select2
     categories:
       - ui-libraries
