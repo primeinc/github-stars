@@ -127,16 +127,39 @@ jobs:
             let result = fs.readFileSync(responseFile, 'utf8').trim()
               .replace(/^```json\s*/i, '').replace(/\s*```$/i, '');
             
+            // Try to fix common JSON issues
+            // Remove trailing commas before ] or }
+            result = result.replace(/,(\s*[\]}])/g, '$1');
+            // Fix unescaped newlines in strings
+            result = result.replace(/:\s*"([^"]*)\n([^"]*)"/g, (m, a, b) => `: "${a}\\n${b}"`);
+            
             let classifications;
             try {
               classifications = JSON.parse(result);
             } catch (e) {
-              core.setFailed(`Invalid JSON: ${e.message}\nResponse: ${result.substring(0,500)}`);
-              return;
+              // Try to extract valid JSON array if wrapped in other content
+              const match = result.match(/\[[\s\S]*\]/);
+              if (match) {
+                try {
+                  classifications = JSON.parse(match[0]);
+                } catch (e2) {
+                  console.log('JSON parse failed, will retry workflow');
+                  core.setOutput('retry', 'true');
+                  core.setOutput('count', 0);
+                  return;
+                }
+              } else {
+                console.log('No JSON array found, will retry workflow');
+                core.setOutput('retry', 'true');
+                core.setOutput('count', 0);
+                return;
+              }
             }
             
             if (!Array.isArray(classifications)) {
-              core.setFailed('Not an array');
+              console.log('Not an array, will retry workflow');
+              core.setOutput('retry', 'true');
+              core.setOutput('count', 0);
               return;
             }
 
@@ -208,7 +231,7 @@ jobs:
             core.setOutput('has_more', remaining > 0);
 
       - name: Trigger next
-        if: steps.remaining.outputs.has_more == 'true'
+        if: steps.remaining.outputs.has_more == 'true' || steps.apply.outputs.retry == 'true'
         uses: actions/github-script@v8
         with:
           script: |
