@@ -115,12 +115,16 @@ jobs:
         id: apply
         if: steps.prep.outputs.has_repos == 'true'
         uses: actions/github-script@v8
+        env:
+          AI_RESPONSE_FILE: ${{ steps.ai.outputs.response-file }}
         with:
           script: |
             const fs = require('fs');
             const { execSync } = require('child_process');
             
-            let result = `${{ steps.ai.outputs.response }}`.trim()
+            // Read from file to avoid template literal escaping issues
+            const responseFile = process.env.AI_RESPONSE_FILE;
+            let result = fs.readFileSync(responseFile, 'utf8').trim()
               .replace(/^```json\s*/i, '').replace(/\s*```$/i, '');
             
             let classifications;
