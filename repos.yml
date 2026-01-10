@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T11:42:46.954Z"
+  last_updated: "2026-01-10T11:43:03.053Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -17315,13 +17315,19 @@ repositories:
       mirror_url: null
   - repo: transloadit/uppy
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - dev-tools
+    tags:
+      - file-upload
+      - lang:ts
+      - frontend
+      - modular-ui
+      - open-source
     summary: 'The next open source file uploader for web browsers :dog:'
     last_synced_sha: b55dbc604c95b089f81346b3262789750d90c3fa
     starred_at: "2024-06-11T16:29:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -17353,15 +17359,25 @@ repositories:
         published_at: "2025-06-30T13:51:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: iyaja/llama-fs
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - infrastructure
+    tags:
+      - file-management
+      - lang:ts
+      - self-organizing
+      - llama3
     summary: A self-organizing file system with llama 3
     last_synced_sha: a7a1426c5814a2da4c9827fb00e73a82e8a6d2f5
     starred_at: "2024-06-01T23:46:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -17374,15 +17390,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: ellite/Wallos
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - subscription-tracking
+      - lang:php
+      - personal-management
     summary: 'Wallos: Open-Source Personal Subscription Tracker'
     last_synced_sha: e27caf72564648e699af6cd5bd3779d2a0d3daf5
     starred_at: "2024-05-27T15:06:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -17397,15 +17422,25 @@ repositories:
         published_at: "2025-06-09T15:58:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: minio/minio
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - infrastructure
+    tags:
+      - object-storage
+      - lang:go
+      - s3-compatible
+      - cloud-native
     summary: Min IO is a high-performance, S3 compatible object store, open sourced under GNU AGPL v3 license.
     last_synced_sha: de234b888c26cc191f3062a625af82640c966795
     starred_at: "2024-05-27T14:21:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17432,15 +17467,25 @@ repositories:
         published_at: "2025-06-23T20:58:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: cryptomator/cryptomator
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - encryption
+      - lang:java
+      - cloud-storage
+      - privacy
     summary: 'Cryptomator for Windows, mac OS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data.'
     last_synced_sha: 27c10080d66f335b3408c59b1875aab792af3902
     starred_at: "2024-05-27T13:06:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -17463,15 +17508,25 @@ repositories:
         published_at: "2025-07-08T12:25:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: winfsp/winfsp
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - infrastructure
+    tags:
+      - fuse
+      - filesystem
+      - lang:c
+      - windows-kernel
     summary: Windows File System Proxy - FUSE for Windows
     last_synced_sha: ddca7bd5481857a65ba552f643b8776fd070836f
     starred_at: "2024-05-27T12:03:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -17493,15 +17548,25 @@ repositories:
         published_at: "2025-06-05T15:28:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: TagStudioDev/TagStudio
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - file-management
+      - lang:python
+      - tagging
+      - photo-organizer
     summary: A User-Focused Photo & File Management System
     last_synced_sha: 717690827438406f16a9545ce749e2ee43d70a62
     starred_at: "2024-05-23T07:25:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -17525,15 +17590,25 @@ repositories:
         published_at: "2025-03-31T23:52:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: NVlabs/edm2
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - pytorch
+      - lang:python
+      - machine-learning
+      - deep-learning
     summary: EDM2 and Autoguidance -- Official Py Torch implementation
     last_synced_sha: 4bf8162f601bcc09472ce8a32dd0cbe8889dc8fc
     starred_at: "2024-05-22T22:46:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -17546,15 +17621,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: lobehub/lobe-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - react
+      - lang:ts
+      - design-system
+      - aigc
+      - ui-components
     summary: "\U0001F36D Lobe UI - an open-source UI component library for building AIGC web apps"
     last_synced_sha: 29e15bc8dfcf73f42b8f12d9b40d83328a59dde0
     starred_at: "2024-05-21T20:54:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -17580,15 +17666,26 @@ repositories:
         published_at: "2025-06-23T07:16:58Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: McCloudS/subgen
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - subtitle-generation
+      - openai
+      - lang:python
+      - plex
+      - whisper-ai
     summary: Autogenerate subtitles using Open AI Whisper Model via Jellyfin, Plex, Emby, Tautulli, or Bazarr
     last_synced_sha: 67f0bf14040c53490ca9ef914fa48552f42f7346
     starred_at: "2024-05-17T04:41:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -17601,15 +17698,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: wandb/openui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - generative-ai
+      - ui-creation
+      - lang:ts
+      - tailwindcss
+      - frontend
     summary: Open UI let's you describe UI using your imagination, then see it rendered live.
     last_synced_sha: 17764dcdafe83cf2058eb6841f74654775f04f62
     starred_at: "2024-05-13T15:03:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -17626,15 +17734,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: gerardog/gsudo
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cli-tools
+    tags:
+      - windows
+      - admin-tools
+      - elevation
+      - lang:csharp
+      - powershell
     summary: Sudo for Windows
     last_synced_sha: 10725f2db4eb6cd3f24e1662a8ede3195722a48a
     starred_at: "2024-04-24T19:25:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -17661,15 +17780,25 @@ repositories:
         published_at: "2025-02-27T23:44:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: microsoft/sudo
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cli-tools
+    tags:
+      - sudo
+      - windows
+      - system-tools
+      - lang:rust
     summary: It's sudo, for Windows
     last_synced_sha: 9f50d79704a9d4d468bc59f725993714762981ca
     starred_at: "2024-04-24T19:25:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -17685,15 +17814,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: nyavramov/loopifi
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - automation
+    tags:
+      - video-processing
+      - gifs
+      - lang:python
+      - flask
+      - docker
     summary: Source for loopifi.com. Find and make smooth loops from videos! Create and download smoothly looping gifs and webms from youtube and other video streaming sites, or upload your own!
     last_synced_sha: 987ade07cad5b97fa78e462b5ac78172dee28c98
     starred_at: "2024-04-24T18:32:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -17717,15 +17857,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: flask
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: nylonee/watchlistarr
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - plex
+      - sync
+      - home-media
     summary: Customizable sync of Plex Watchlist to Sonarr/Radarr
     last_synced_sha: dc9ef8521d76428127cf112ad571d2eacb65e074
     starred_at: "2024-04-23T22:54:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Scala
       topics: []
@@ -17740,6 +17889,11 @@ repositories:
         published_at: "2024-10-17T07:44:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T11:43:03.053Z"
+      prompt_version: v2
   - repo: m-bain/whisperX
     categories:
       - ai-ml
