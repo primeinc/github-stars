@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T09:46:54.338Z"
+  last_updated: "2026-01-10T09:47:08.890Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -23002,13 +23002,18 @@ repositories:
       mirror_url: null
   - repo: rcmaehl/MSEdgeRedirect
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - uri-parser
+      - browser
+      - default-browser
+      - lang:autoit
     summary: A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Browser
     last_synced_sha: 4f797cd6b568544fec70d0bed9864649de90b7ca
     starred_at: "2022-04-29T16:13:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: AutoIt
       topics:
@@ -23033,15 +23038,25 @@ repositories:
         published_at: "2025-03-27T15:02:07Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: Servarr/Wiki
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - media
+    tags:
+      - wiki
+      - python-related
+      - community
+      - lang:python
     summary: No description provided
     last_synced_sha: b640fa9ab2ae0935f399b6ef628bc456e49b1c03
     starred_at: "2022-03-22T21:13:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -23054,15 +23069,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: 9072997/regwincontext
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cli-tools
+    tags:
+      - windows
+      - context-menu
+      - file-handling
+      - lang:go
     summary: Put a program in the windows context menu for a particular file type
     last_synced_sha: c971cc5f8804541ab3fb9494baa6de1330732996
     starred_at: "2021-06-13T23:15:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -23077,15 +23102,25 @@ repositories:
         published_at: "2019-12-17T07:58:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: Breakthrough/PySceneDetect
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - scene-detection
+      - opencv
+      - video-processing
+      - lang:python
     summary: ':movie_camera: Python and Open CV-based scene cut/transition detection program & library.'
     last_synced_sha: 0b7ff069ebf26c3c5b7b2d9b616d98fff7945d8d
     starred_at: "2021-04-29T20:27:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -23109,15 +23144,25 @@ repositories:
         published_at: "2025-03-10T01:43:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: unlimitedbacon/stl-thumb
     categories:
-      - unclassified
-    tags: []
+      - 3d-printing
+      - dev-tools
+    tags:
+      - stl-files
+      - 3d-models
+      - thumbnail-generator
+      - lang:rust
     summary: Thumbnail generator for STL files
     last_synced_sha: 6f4dd5507a74c15ba859f5946ffdf37c252490cc
     starred_at: "2021-04-28T23:03:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -23135,15 +23180,25 @@ repositories:
         published_at: "2022-05-30T07:34:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: jpirko/cyberpdu
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - pdu-control
+      - automation
+      - power-management
+      - lang:shell
     summary: Ultra dummy script to control Cyber Power PDU s
     last_synced_sha: a1ad71fc3a1ff53adc05b85aaaab8282e6ab6a76
     starred_at: "2021-04-21T16:58:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -23156,15 +23211,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: bwsw/rt-motion-detection-opencv-python
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - motion-detection
+      - numba
+      - real-time
+      - lang:cpp
     summary: High-performance noise-tolerant motion detection algorithm implemented with Python3, Numba, Numpy
     last_synced_sha: 1b39cf93ad6dcd25a1a5735577e77990e254a054
     starred_at: "2021-04-21T13:21:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C
@@ -23178,15 +23243,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: timmbogner/Farm-Data-Relay-System
     categories:
-      - unclassified
-    tags: []
+      - iot
+      - embedded
+    tags:
+      - agriculture
+      - lora
+      - esp-now
+      - lang:c
     summary: A system that uses ESP-NOW, Lo Ra, and other protocols to transport sensor data in remote areas without relying on Wi Fi.
     last_synced_sha: 532c1c82c7c63753394653227dd4d6672d0af211
     starred_at: "2021-04-21T13:07:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -23216,15 +23291,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: b-morgan/OctoPrint-FanSpeedMirror
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - 3d-printing
+      - fan-speed
+      - scripts
+      - lang:python
     summary: Mirror the parameter(s) of GC ode commands M106, M107 to scripts on the Octo Print host
     last_synced_sha: 5d305fb48a32d6c1b06bb72565b5a9057c390ad3
     starred_at: "2021-03-18T17:29:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -23239,15 +23324,24 @@ repositories:
         published_at: "2025-06-21T12:50:34Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: avi12/skillshare-player-control
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cli-tools
+    tags:
+      - keyboard-controls
+      - media
+      - lang:ts
     summary: Basic keyboard controls for Skillshare's player.
     last_synced_sha: 18b535e235b5d38150be940995b2648021315527
     starred_at: "2021-03-18T15:01:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -23262,15 +23356,24 @@ repositories:
         published_at: "2024-09-14T21:40:02Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: waltmoorhouse/OctoPrint-Filamentstorage
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - 3d-printing
+      - filament-storage
+      - lang:python
     summary: Octo Print Plugin for an Open Source Filament Storage system.
     last_synced_sha: 09b569a5b0d89aaa50c7620c8972f7b4d0c7f092
     starred_at: "2021-03-16T19:57:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -23283,15 +23386,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: waltmoorhouse/FilamentBox
     categories:
-      - unclassified
-    tags: []
+      - hardware
+      - automation
+    tags:
+      - 3d-printing
+      - filament
+      - weight-sensor
+      - lang:cpp
     summary: Open Source 3D printer filament dehydrator / weight sensor with Octo Print integration.
     last_synced_sha: 591c11b9c794d5f71fddb7eac9bd0000d7d62512
     starred_at: "2021-03-16T19:57:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -23304,15 +23417,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: daniel-frenkel/Valar-Systems
     categories:
-      - unclassified
-    tags: []
+      - iot
+      - embedded
+    tags:
+      - home-automation
+      - controllers
+      - devices
+      - lang:c
     summary: Welcome to my tiny one-man shop, Valar Systems. I make devices that control your home's curtains, windows, doors, and more!
     last_synced_sha: 38d7a24617750392bbbd08e775660d8efa905969
     starred_at: "2021-03-09T02:16:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -23325,15 +23448,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: KjetilSv/Win10As
     categories:
-      - unclassified
-    tags: []
+      - iot
+      - system-admin
+    tags:
+      - mqtt
+      - windows-10
+      - iot
+      - lang:csharp
     summary: Make your windows 10 computer IOT friendly
     last_synced_sha: 805eb8a92a3875c680f91850fb148614a14b3553
     starred_at: "2021-03-08T20:36:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -23350,15 +23483,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: ChristophSchranz/Octoprint-PrePrintService
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - 3d-printing
+      - auto-rotation
+      - slicing
+      - lang:python
     summary: This service supports your 3D printing workflow by providing auto-rotation and slicing functionality.
     last_synced_sha: 7e69aa86e29440ee41be1ef41a249e2319310b4a
     starred_at: "2021-03-07T15:51:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -23371,6 +23514,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T09:47:08.890Z"
+      prompt_version: v2
   - repo: Home-Is-Where-You-Hang-Your-Hack/sensor.goveetemp_bt_hci
     categories:
       - embedded
