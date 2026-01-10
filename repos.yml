@@ -28576,7 +28576,7 @@ repositories:
       - led-control
       - lang:cpp
       - home-assistant
-    summary: ESP MQTT Digital LED s for Home Assistant's MQTT JSON Light Component. Supports flash, fade, transitions, effects, and OTA uploading!
+    summary: ESP MQTT Digital LEDs for Home Assistant's MQTT JSON Light Component. Supports flash, fade, transitions, effects, and OTA uploading!
     last_synced_sha: ebf83a9371194a74ccb7840c5e5d906c18b5a006
     starred_at: "2019-10-31T18:49:58Z"
     readme_quality: missing
