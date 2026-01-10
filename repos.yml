@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T12:01:34.468Z"
+  last_updated: "2026-01-10T12:01:54.111Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -13124,13 +13124,17 @@ repositories:
       mirror_url: null
   - repo: sindresorhus/awesome-electron
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - documentation
+    tags:
+      - electron
+      - awesome-list
+      - desktop-apps
     summary: Useful resources for creating apps with Electron
     last_synced_sha: d78d44206911471212f790b4566eaca0f3099618
     starred_at: "2025-01-28T09:04:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -13147,15 +13151,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: kuchin/awesome-cto
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - cto
+      - engineering-management
+      - awesome-list
     summary: A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups
     last_synced_sha: 8540281f877a87d827d17cb5ecf039391f94050b
     starred_at: "2025-01-28T09:04:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -13182,15 +13195,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: awesome-foss/awesome-sysadmin
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - devops
+    tags:
+      - sysadmin
+      - resources
+      - awesome-list
     summary: A curated list of amazingly awesome open-source sysadmin resources.
     last_synced_sha: 1a360fceaf9cb9dc58b52a4111b476ee848bc0f2
     starred_at: "2025-01-28T09:04:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -13212,15 +13234,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: cloudcommunity/Free-Certifications
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - free-certifications
+      - free-courses
+      - awesome-list
     summary: A curated list of free courses with certifications. Also available at https://free-certifications.com/
     last_synced_sha: 26ad02be417315abb8f9092006186083acb57614
     starred_at: "2025-01-28T09:04:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -13253,15 +13284,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: herrbischoff/awesome-macos-command-line
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - documentation
+    tags:
+      - macos
+      - terminal
+      - awesome-list
     summary: Use your mac OS terminal shell to do awesome things.
     last_synced_sha: 05403438f153ee1f8ee82ec63806b25bb037a776
     starred_at: "2025-01-28T09:03:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: null
@@ -13282,15 +13322,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: veggiemonk/awesome-docker
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - devops
+    tags:
+      - docker
+      - containerization
+      - awesome-list
     summary: ':whale: A curated list of Docker resources and projects'
     last_synced_sha: 5002c486cfb2a29a7deb2125330134f4cea660cd
     starred_at: "2025-01-28T09:03:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -13323,15 +13372,24 @@ repositories:
         published_at: "2015-08-07T09:46:02Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: alebcay/awesome-shell
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - documentation
+    tags:
+      - shell
+      - command-line
+      - awesome-list
     summary: A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.
     last_synced_sha: cb355ae98ca6edc2d84de7e6376c7895066a65cb
     starred_at: "2025-01-28T09:03:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -13352,15 +13410,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: docker/awesome-compose
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - devops
+    tags:
+      - docker-compose
+      - awesome-list
+      - containerization
     summary: Awesome Docker Compose samples
     last_synced_sha: 18f59bdb09ecf520dd5758fbf90dec314baec545
     starred_at: "2025-01-28T09:03:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -13376,15 +13443,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: serhii-londar/open-source-mac-os-apps
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - desktop-dev
+    tags:
+      - macos
+      - open-source
+      - awesome-list
     summary: "\U0001F680 Awesome list of open source applications for mac OS. https://t.me/s/opensourcemacosapps"
     last_synced_sha: be6046fac5c1d02750deaaaddca6d0e73adb7027
     starred_at: "2025-01-28T09:01:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -13415,15 +13491,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: 0xced/XCDYouTubeKit
     categories:
-      - unclassified
-    tags: []
+      - media
+      - mobile-dev
+    tags:
+      - youtube
+      - video-player
+      - lang:cpp
     summary: You Tube video player for i OS, tv OS and mac OS
     last_synced_sha: 23f765941b36d6d28215ab81a37af1039d29138b
     starred_at: "2025-01-28T09:00:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Objective-C
       topics:
@@ -13441,15 +13526,24 @@ repositories:
         published_at: "2020-12-08T20:28:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: dcordero/FocusTvButton
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - tv-dev
+    tags:
+      - ui-customization
+      - apple-tv
+      - lang:swift
     summary: Light wrapper of UIB utton that allows extra customization for tv OS
     last_synced_sha: d40086a734ed1e45474fc43da64fcb2b158704b0
     starred_at: "2025-01-28T09:00:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics: []
@@ -13464,15 +13558,24 @@ repositories:
         published_at: "2020-09-25T11:07:52Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: tiimgreen/github-cheat-sheet
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - git
+      - github
+      - awesome-list
     summary: A list of cool features of Git and Git Hub.
     last_synced_sha: 746af1b42356973f66627319bbaf4ac5157c5308
     starred_at: "2025-01-28T08:59:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -13490,15 +13593,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: prakhar1989/awesome-courses
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - computer-science
+      - awesome-list
+      - courses
     summary: ':books: List of awesome university courses for learning Computer Science!'
     last_synced_sha: e0b02ce4084c3b426304ae03ffcb072f7c8057f3
     starred_at: "2025-01-28T08:58:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -13515,15 +13627,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: trimstray/the-book-of-secret-knowledge
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - system-admin
+    tags:
+      - resources
+      - security
+      - sysops
+      - awesome-list
     summary: A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
     last_synced_sha: 7d37069a361d3fd9f214480755f7969744e866fa
     starred_at: "2025-01-28T08:57:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -13555,15 +13677,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: datalab-to/marker
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - pdf-to-markdown
+      - conversion-tools
+      - lang:python
     summary: Convert PDF to markdown + JSON quickly with high accuracy
     last_synced_sha: 001736a65f25954c364fa938565301d45e13c3b8
     starred_at: "2025-01-28T08:56:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -13578,15 +13709,24 @@ repositories:
         published_at: "2025-07-04T18:45:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: aigc-apps/EasyAnimate
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - video-processing
+    tags:
+      - video-generation
+      - transformer-diffusion
+      - lang:python
     summary: "\U0001F4FA An End-to-End Solution for High-Resolution and Long Video Generation Based on Transformer Diffusion"
     last_synced_sha: c2a70d17daa1549a22129d0cd0e02053ecccd75c
     starred_at: "2025-01-28T08:56:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -13601,15 +13741,25 @@ repositories:
         published_at: "2024-05-29T03:20:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: kyutai-labs/moshi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - speech-text
+      - dialogue-framework
+      - neural-audio
+      - lang:python
     summary: Moshi is a speech-text foundation model and full-duplex spoken dialogue framework. It uses Mimi, a state-of-the-art streaming neural audio codec.
     last_synced_sha: 950e9771dc33d7aa48f80175a189c5c902016df2
     starred_at: "2025-01-28T08:56:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -13624,15 +13774,25 @@ repositories:
         published_at: "2024-09-22T14:31:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: hacksider/Deep-Live-Cam
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - video-processing
+    tags:
+      - deepfake
+      - realtime-face-changer
+      - faceswap
+      - lang:python
     summary: real time face swap and one-click video deepfake with only a single image
     last_synced_sha: 2b70131e6a92a1ca28391f63984a9d7f9e1b1515
     starred_at: "2025-01-28T08:56:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -13665,15 +13825,25 @@ repositories:
         published_at: "2025-06-15T16:48:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: KoljaB/RealtimeSTT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - speech-to-text
+      - realtime
+      - voice-activity-detection
+      - lang:python
     summary: A robust, efficient, low-latency speech-to-text library with advanced voice activity detection, wake word activation and instant transcription.
     last_synced_sha: e21151602c3d7df4fba39f9bb300a6679dbc9710
     starred_at: "2025-01-28T08:56:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -13691,15 +13861,25 @@ repositories:
         published_at: "2025-05-03T21:48:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: Integuru-AI/Integuru
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agents
+      - integrations
+      - unofficial-api
+      - lang:python
     summary: The first AI agent that builds permissionless integrations through reverse engineering platforms' internal API s.
     last_synced_sha: a31446f9453cab892f48005cf5e0b0674699f9b5
     starred_at: "2025-01-28T08:55:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -13728,6 +13908,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:01:54.111Z"
+      prompt_version: v2
   - repo: deepseek-ai/Janus
     categories:
       - ai-ml
