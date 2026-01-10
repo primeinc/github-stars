@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T12:08:34.823Z"
+  last_updated: "2026-01-10T12:08:49.015Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -5657,13 +5657,17 @@ repositories:
       mirror_url: null
   - repo: claudio-silva/claude-artifact-runner
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ai-ml
+    tags:
+      - react
+      - ai-integration
+      - lang:ts
     summary: A template project for easily converting Claude AI’s Artifacts into React applications, ready to run out of the box or extend as needed.
     last_synced_sha: 97fcccde33837bca8d3932074f38f3ddd2434df1
     starred_at: "2025-05-25T08:21:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5686,15 +5690,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: milistu/anthropic-parallel-calling
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - parallel-processing
+      - api-optimization
+      - lang:python
     summary: Faster and cheaper! parallel processing of Anthropic API requests, optimizing for speed, cost-efficiency, and rate limit compliance.
     last_synced_sha: 3f2d312076a276da0341a074b0f12f36b1e07cda
     starred_at: "2025-05-24T22:38:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -5713,15 +5726,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: ZitaoTech/HackberryPiCM5
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - productivity
+    tags:
+      - raspberry-pi
+      - hardware
     summary: An ultra portable handheld Linux device using Raspberry CM5 unit as Core with 4" 720X720 TFT Touch display and the original blackberry keyboard
     last_synced_sha: 479b852055ee31c6611b50ff1d67851e9b29ee4a
     starred_at: "2025-05-23T20:13:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -5736,15 +5757,23 @@ repositories:
         published_at: "2025-07-05T15:58:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: microsoft/Microsoft-Win32-Content-Prep-Tool
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cli-tools
+    tags:
+      - intune
+      - win32
     summary: A tool to wrap Win32 App and then it can be uploaded to Intune
     last_synced_sha: 2d0afcf7c1faf9c0f7dbd6db9c90b19f5dfec994
     starred_at: "2025-05-23T12:26:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -5759,15 +5788,24 @@ repositories:
         published_at: "2024-02-28T03:40:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: primeinc/file-analyzer
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - security
+    tags:
+      - file-analysis
+      - tools
+      - lang:python
     summary: Unified tool for comprehensive file analysis combining Exif Tool, rdfind, Tesseract OCR, Clam AV, ripgrep, and binwalk
     last_synced_sha: 1f09dbf0b7832c37fc46eae74899c33923458dd7
     starred_at: "2025-05-21T06:55:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -5780,15 +5818,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: anthropics/claude-code-action
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai
+      - code-generation
+      - lang:ts
     summary: No description provided
     last_synced_sha: c09fc691c5fcbf3cc5c4f95c39082636aaf165b7
     starred_at: "2025-05-20T23:15:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -5803,15 +5850,24 @@ repositories:
         published_at: "2025-05-19T16:14:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: Blaizzy/mlx-vlm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - vision-language
+      - local-ai
+      - lang:python
     summary: MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLM s) on your Mac using MLX.
     last_synced_sha: 5a0fcefd566d647255696a9b48105a69e3b7855b
     starred_at: "2025-05-20T22:52:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -5839,15 +5895,24 @@ repositories:
         published_at: "2025-07-12T16:21:01Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: modelscope/data-juicer
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - data-processing
+      - foundation-models
+      - lang:python
     summary: "Data processing for and with foundation models! \U0001F34E \U0001F34B \U0001F33D ➡️ ➡️\U0001F378 \U0001F379 \U0001F377"
     last_synced_sha: d2f663ed47c75ffeb427282a43268f696375102b
     starred_at: "2025-05-20T19:30:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -5876,15 +5941,24 @@ repositories:
         published_at: "2025-06-13T11:43:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: Fanghua-Yu/SUPIR
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deep-learning
+      - image-restoration
+      - lang:python
     summary: SUPIR aims at developing Practical Algorithms for Photo-Realistic Image Restoration In the Wild. Our new online demo is also released at suppixel.ai.
     last_synced_sha: bda91af2000042f8bedfec8897d92917e67c1d88
     starred_at: "2025-05-20T19:29:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -5906,15 +5980,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: Azure/arc_jumpstart_docs
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - documentation
+    tags:
+      - azure
+      - cloud-native
+      - lang:python
     summary: A public repo for hosting the Arc Jumpstart docs
     last_synced_sha: c6f8803a6cfe06366535be7233e24e9673e89db8
     starred_at: "2025-05-19T05:05:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -5937,15 +6020,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: d2phap/ImageGlass
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - image-viewer
+      - photo-viewer
+      - lang:csharp
     summary: "\U0001F3DE A lightweight, versatile image viewer"
     last_synced_sha: 109744c8376e0ad770657570f6e9ee49ec6c0dac
     starred_at: "2025-05-16T16:45:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -5978,15 +6070,24 @@ repositories:
         published_at: "2025-05-19T11:12:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: Wan-Video/Wan2.1
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-generation
+      - aigc
+      - lang:python
     summary: 'Wan: Open and Advanced Large-Scale Video Generative Models'
     last_synced_sha: 261ca43e67ccaf68dbb5c0d8d1f971efde267573
     starred_at: "2025-05-14T22:14:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6001,15 +6102,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: anderspitman/SirTunnel
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - tunneling
+      - self-hosted
+      - lang:python
     summary: Minimal, self-hosted, 0-config alternative to ngrok. Caddy+Open SSH+50 lines of Python.
     last_synced_sha: 82aaf92ddecaab4c62d3c9468ae38d59bafd1cba
     starred_at: "2025-05-12T21:53:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -6022,15 +6132,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: Vinzent03/obsidian-git
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - obsidian-plugin
+      - git
+      - lang:ts
     summary: Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md
     last_synced_sha: fd71d4b6c9a9bdc120d3032ad03e392adff7da0a
     starred_at: "2025-05-11T20:47:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6049,15 +6168,24 @@ repositories:
         published_at: "2025-06-14T16:14:14Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: vrtmrz/obsidian-livesync
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - sync
+    tags:
+      - obsidian-plugin
+      - note-sync
+      - lang:ts
     summary: No description provided
     last_synced_sha: 355e41f488a716ad641bf39979418bac12a9d5ce
     starred_at: "2025-05-11T20:43:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -6072,6 +6200,11 @@ repositories:
         published_at: "2025-07-10T10:29:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:08:49.015Z"
+      prompt_version: v2
   - repo: voideditor/void
     categories:
       - dev-tools
