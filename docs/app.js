@@ -44,7 +44,7 @@
         const languages = new Set();
 
         allRepos.forEach(repo => {
-            (repo.categories || []).forEach(cat => categories.add(cat));
+            (repo.categories || []).forEach(cat => { categories.add(cat); });
             if (repo.github_metadata?.language) {
                 languages.add(repo.github_metadata.language);
             }
