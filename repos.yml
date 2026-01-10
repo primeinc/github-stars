@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-10T12:11:49.889Z"
+  last_updated: "2026-01-10T12:12:07.584Z"
   total_repos: 1079
   generator_version: v1.0.0
   github_user: primeinc
@@ -640,13 +640,18 @@ repositories:
       mirror_url: null
   - repo: bkaankose/Wino-Mail
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - mail-client
+      - fluent-design
+      - uwp
+      - lang:csharp
     summary: Built-in Mail & Calendars app clone for Windows.
     last_synced_sha: 8cd7f68c30117e2d47f1aff8d6f15334ca9221b2
     starred_at: "2025-07-13T13:26:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -671,15 +676,25 @@ repositories:
         published_at: "2025-02-25T20:50:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: Rise-Software/Rise-Media-Player
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - media-player
+      - winui3
+      - fluent-design
+      - lang:csharp
     summary: One media player for everything you own or stream; whether it's music or videos, online or offline Rise Media Player does it all. And it's beautiful and native with the latest version of Win UI.
     last_synced_sha: b1164bed11f4e6d2d6be02707329fa0fc151f539
     starred_at: "2025-07-13T13:25:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -710,15 +725,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: zhiyiYo/PyQt-Fluent-Widgets
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - fluent-design
+      - gui
+      - pyqt
+      - lang:python
     summary: A fluent design widgets library based on C++ Qt/Py Qt/Py Side. Make Qt Great Again.
     last_synced_sha: ae95c7eac51f86d1697216dac07b605eecc539a6
     starred_at: "2025-07-13T13:24:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -753,15 +778,25 @@ repositories:
         published_at: "2024-10-20T06:09:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: bdlukaa/fluent_ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - mobile-dev
+    tags:
+      - flutter
+      - winui3
+      - fluent-design
+      - lang:dart
     summary: Implements Microsoft's Win UI3 in Flutter.
     last_synced_sha: 9c07c479d704b75a706184cfe7cc6f410d1a8bbc
     starred_at: "2025-07-13T13:22:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -785,15 +820,25 @@ repositories:
         published_at: "2024-12-13T18:12:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: SandroMaglione/fpdart
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - mobile-dev
+    tags:
+      - functional-programming
+      - dart
+      - flutter
+      - lang:dart
     summary: Functional programming in Dart and Flutter. All the main functional programming types and patterns fully documented, tested, and with examples.
     last_synced_sha: 417c569c81647bc48192d457ff0fbcde2f95c6bd
     starred_at: "2025-07-13T13:22:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -824,15 +869,24 @@ repositories:
         published_at: "2024-11-07T11:18:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: sxzz/rolldown-browser
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - javascript-tooling
+      - browser-integration
+      - lang:js
     summary: Rolldown on Browser
     last_synced_sha: 9cd244f1e4c023c9518cb488ace8565df6f52d50
     starred_at: "2025-07-13T13:03:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics: []
@@ -845,15 +899,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: localsend/localsend
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - mobile-dev
+    tags:
+      - file-sharing
+      - cross-platform
+      - flutter
+      - lang:dart
     summary: An open-source cross-platform alternative to Air Drop
     last_synced_sha: e605e78ebd615bc8542627d08aae5d828760a7fa
     starred_at: "2025-07-13T12:33:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -872,15 +936,24 @@ repositories:
         published_at: "2025-02-20T01:23:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: bluewave-labs/Checkmate
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - infrastructure
+    tags:
+      - server-monitoring
+      - uptime-monitoring
+      - lang:js
     summary: Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join her...
     last_synced_sha: 0f9f814b27b61e2714029cb3a837a0f46bb8b690
     starred_at: "2025-07-13T12:30:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -914,15 +987,24 @@ repositories:
         published_at: "2025-07-14T21:59:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: garethcheyne/PCF-FluentUi-AutoComplete-Boilerplate
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - autocomplete
+      - fluent-ui
+      - lang:ts
     summary: No description provided
     last_synced_sha: 1e76d725785766089302452d44ef5daf503fd839
     starred_at: "2025-07-13T12:23:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -935,15 +1017,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: tj/commander.js
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - dev-tools
+    tags:
+      - command-line
+      - node-js
+      - lang:js
     summary: node.js command-line interfaces made easy
     last_synced_sha: 395cf7145fe28122f5a69026b310e02df114f907
     starred_at: "2025-07-12T08:14:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -958,15 +1049,24 @@ repositories:
         published_at: "2025-05-18T06:12:07Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: qualialabs/mapped-collection
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - web-dev
+    tags:
+      - mongo-db
+      - memory-mapped
+      - lang:js
     summary: Memory-mapped Mongo collections in Meteor
     last_synced_sha: 4d2ee6355e0d9e36645707b21e5554dd7b0f5a09
     starred_at: "2025-07-12T08:05:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -979,15 +1079,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: meteor/blaze
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - reactive-templates
+      - javascript-ui
+      - lang:js
     summary: ':fire: Meteor Blaze is a powerful library for creating live-updating user interfaces'
     last_synced_sha: 92a7d9ca7810655fb066274c54537d298fc1bca1
     starred_at: "2025-07-12T08:03:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -1007,15 +1116,24 @@ repositories:
         published_at: "2024-04-08T17:59:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: pangaea-data-publisher/qualianon
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - anonymization
+      - text-processing
+      - lang:java
     summary: Quali Anon is a tool to support the anonymization of text data. It is developed by the Qualiservice research data center for the anonymization of interviews in the qualitative social sciences for a...
     last_synced_sha: dfef926c1ce047f703a9abb14c9f99f3c90232e4
     starred_at: "2025-07-12T06:13:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -1032,15 +1150,24 @@ repositories:
         published_at: "2025-02-28T10:46:52Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: coffeeAndCodeMSO/mort_comp
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - mortgage-comparison
+      - financial-tool
+      - lang:js
     summary: Compare two mortgages to see which is a better deal. Typically a 15 year versus a 30 year mortgage.
     last_synced_sha: 1a1c6ce1a09271910e74264533158cf872a31656
     starred_at: "2025-07-12T06:10:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -1053,15 +1180,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: cfpb/hmda-tools
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+    tags:
+      - mortgage-data
+      - analysis
+      - lang:python
     summary: Tools to make importing and analyzing mortgage application data easier. This is a public domain work of the US Government.
     last_synced_sha: 571f1ac67158d7e89c76346b646e741b3efe82b0
     starred_at: "2025-07-12T06:04:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -1074,6 +1210,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-10T12:12:07.584Z"
+      prompt_version: v2
   - repo: jbmohler/mortgage
     categories:
       - productivity
