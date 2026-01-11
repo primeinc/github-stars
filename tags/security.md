@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [suzuki-shunsuke/ghtkn](https://github.com/suzuki-shunsuke/ghtkn) | A CLI to create short-lived (8 hours) Git Hub App User Access Token for secure local development | `Go` ★ 75 | 2026-01-11 |
 | [WICG/email-verification-protocol](https://github.com/WICG/email-verification-protocol) | verified autofill | ★ 560 | 2025-12-09 |
-| [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | A collection of various awesome lists for hackers, pentesters and security researchers | ★ 104.2k | 2025-01-18 |
+| [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | A collection of various awesome lists for hackers, pentesters and security researchers | ★ 104.3k | 2025-01-18 |
 | [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | A list of useful payloads and bypass for Web Application Security and Pentest/CTF | `Python` ★ 74.3k | 2026-01-03 |
 | [google/grr](https://github.com/google/grr) | GRR Rapid Response: remote live forensics for incident response | `Python` ★ 5k | 2025-12-16 |
 | [Mail-0/Zero](https://github.com/Mail-0/Zero) | Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://discord.gg/mail0 | `TypeScript` ★ 10.3k | 2025-09-04 |

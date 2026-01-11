@@ -1,6 +1,6 @@
 # Awesome Starred Repositories
 
-> A curated list of **1954** repositories, automatically classified and organized.
+> A curated list of **1955** repositories, automatically classified and organized.
 
 Last updated: 2026-01-11
 
@@ -152,7 +152,7 @@ Last updated: 2026-01-11
 - [ui-libraries](categories/ui-libraries.md) *(208)*
 - [ui-performance](categories/ui-performance.md) *(1)*
 - [ui-tools](categories/ui-tools.md) *(1)*
-- [unclassified](categories/unclassified.md) *(1)*
+- [unclassified](categories/unclassified.md) *(2)*
 - [utilities](categories/utilities.md) *(2)*
 
 ### V
@@ -174,6 +174,7 @@ Last updated: 2026-01-11
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [devicons/devicon](https://github.com/devicons/devicon) | Set of icons representing programming languages, designing & development tools | `CSS` ★ 11.4k | 2025-12-28 |
 | [adriangalilea/namecheap-python](https://github.com/adriangalilea/namecheap-python) | A Python SDK for the Namecheap API & CLI/TUI tools using it | `Python` ★ 28 | 2025-11-04 |
 | [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) | A collaborative list of public APIs for developers | `JavaScript` ★ 7.5k | 2026-01-07 |
 | [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) | OSINT Framework | `JavaScript` ★ 10.5k | 2025-06-16 |
@@ -183,7 +184,6 @@ Last updated: 2026-01-11
 | [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | Community managed domain list. Generate geosite.dat for V2Ray. | `Go` ★ 7.2k | 2026-01-10 |
 | [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.1k | 2026-01-10 |
 | [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another :crocodile: :package: | `Go` ★ 33.8k | 2026-01-09 |
-| [steveiliop56/tinyauth](https://github.com/steveiliop56/tinyauth) | The simplest way to protect your apps with a login screen. | `Go` ★ 6.7k | 2026-01-11 |
 
 ---
 *Powered by [GitHub Stars Curation System](https://github.com/primeinc/github-stars)*

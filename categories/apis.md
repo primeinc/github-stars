@@ -35,7 +35,7 @@
 | [requestly/requestly](https://github.com/requestly/requestly) | Free and open-source API Client & Interceptor. | `TypeScript` ★ 6k | 2026-01-09 |
 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels from all over the world | `TypeScript` ★ 109k | 2026-01-11 |
 | [vemetric/favicon-api](https://github.com/vemetric/favicon-api) | Free and self-hostable API to fetch favicons from any website. | `TypeScript` ★ 163 | 2025-11-30 |
-| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 8.9k | 2026-01-10 |
+| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 8.9k | 2026-01-11 |
 | [pascalvanderheiden/ais-apim-openai](https://github.com/pascalvanderheiden/ais-apim-openai) | Unleash the power of Azure Open AI to your application developers in a secure & manageable way with Azure API Management and Azure Developer CLI. | `Bicep` ★ 34 | 2023-12-28 |
 | [rohit-gohri/redocusaurus](https://github.com/rohit-gohri/redocusaurus) | Open API for Docusaurus with Redoc | `TypeScript` ★ 732 | 2025-12-02 |
 | [unnoq/orpc](https://github.com/unnoq/orpc) | Typesafe APIs Made Simple 🪄 | `TypeScript` ★ 4.6k | 2026-01-11 |
@@ -134,7 +134,7 @@
 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. | `TypeScript` ★ 168k | 2026-01-10 |
 | [opethrocks/text-assist](https://github.com/opethrocks/text-assist) | AI Assistant that can communicate via SMS and MMS. Leverages Open AI and a Telnyx SIP phone number. | `JavaScript` ★ 2 | 2025-09-28 |
 | [tiniyo/neoms](https://github.com/tiniyo/neoms) | Open Source Twilio Alternative | `Go` ★ 35 | 2021-11-11 |
-| [0perationPrivacy/VoIP](https://github.com/0perationPrivacy/VoIP) | Web Base Telnyx/Twilio Vo IP Interface enabling SMS, MMS and Voice calls using the providers API Keys and self-hosting the application. | `JavaScript` ★ 284 | 2024-05-28 |
+| [0perationPrivacy/VoIP](https://github.com/0perationPrivacy/VoIP) | Web Base Telnyx/Twilio Vo IP Interface enabling SMS, MMS and Voice calls using the providers API Keys and self-hosting the application. | `JavaScript` ★ 285 | 2024-05-28 |
 | [msmhome/miniFaxServer](https://github.com/msmhome/miniFaxServer) | 📠 A tiny, ready to deploy, simple fax server with SMS recieve running on the Telynx Programmable Fax and SMS API s. | `Python` ★ 5 | 2025-09-09 |
 | [alufers/mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger) | Automagically reverse-engineer REST API s via capturing traffic | `HTML` ★ 9.2k | 2025-12-15 |
 | [NSFW-API/TripleX](https://github.com/NSFW-API/TripleX) | No description provided | `Python` ★ 229 | 2025-05-06 |

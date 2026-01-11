@@ -20,7 +20,7 @@
 | [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage a... | `C#` ★ 4.7k | 2026-01-11 |
 | [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | A list of open source games. | ★ 11.5k | 2026-01-06 |
 | [RodericAguilar/Pr_Elevators](https://github.com/RodericAguilar/Pr_Elevators) | Free fivem elevator scripts, works without framework. | `Lua` ★ 24 | 2024-10-14 |
-| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 33.4k | 2026-01-10 |
+| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 33.4k | 2026-01-11 |
 | [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minecraft with a high level of detail. | `Rust` ★ 8.1k | 2026-01-11 |
 | [ppy/osu](https://github.com/ppy/osu) | rhythm is just a *click* away! | `C#` ★ 17.8k | 2026-01-10 |
 | [jynew/jynew](https://github.com/jynew/jynew) | Jin Yong Legend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game. | `C#` ★ 8.8k | 2025-04-19 |
@@ -53,14 +53,14 @@
 | [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | OBS Studio - Free and open source software for live streaming and screen recording | `C` ★ 69.6k | 2026-01-10 |
 | [Aitum/obs-vertical-canvas](https://github.com/Aitum/obs-vertical-canvas) | No description provided | `C++` ★ 240 | 2025-10-15 |
 | [CodeYan01/media-playlist-source](https://github.com/CodeYan01/media-playlist-source) | An OBS Studio plugin that supports media playlists, based on the Media Source | `C` ★ 55 | 2025-04-13 |
-| [martymcmodding/qUINT](https://github.com/martymcmodding/qUINT) | Collection of general-purpose effects for the Re Shade shader injector. | `HLSL` ★ 546 | 2023-07-22 |
+| [martymcmodding/qUINT](https://github.com/martymcmodding/qUINT) | Collection of general-purpose effects for the Re Shade shader injector. | `HLSL` ★ 547 | 2023-07-22 |
 | [moebiussurfing/ofxNDIHelper](https://github.com/moebiussurfing/ofxNDIHelper) | open Frameworks add-on to fast integrate an NDI Manager with 2x IN + 1x OUT + a Webcam device with a customizable canvas layout. | `C++` ★ 13 | 2025-06-03 |
 | [keijiro/Nsmp](https://github.com/keijiro/Nsmp) | Teleprompter via NDI | `C#` ★ 13 | 2022-11-27 |
 | [vcync/modV](https://github.com/vcync/modV) | modular audio visualisation powered by Java Script | `GLSL` ★ 480 | 2025-12-09 |
 | [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) | A cross-platform, safe, pure-Rust graphics API. | `Rust` ★ 16.1k | 2026-01-10 |
 | [Crayon-Shinchan/AnyDressing](https://github.com/Crayon-Shinchan/AnyDressing) | [CVPR 2025] Official implementation of "Any Dressing: Customizable Multi-Garment Virtual Dressing via Latent Diffusion Models" | `JavaScript` ★ 328 | 2025-04-09 |
 | [martymcmodding/METEOR](https://github.com/martymcmodding/METEOR) | Marty's Extra Effects for Re Shade | `HLSL` ★ 47 | 2025-06-25 |
-| [martymcmodding/iMMERSE](https://github.com/martymcmodding/iMMERSE) | Marty's Mods Epic Re Shade Effects | `HLSL` ★ 398 | 2025-09-11 |
+| [martymcmodding/iMMERSE](https://github.com/martymcmodding/iMMERSE) | Marty's Mods Epic Re Shade Effects | `HLSL` ★ 397 | 2025-09-11 |
 | [Clad3815/adventure-game-ai](https://github.com/Clad3815/adventure-game-ai) | Adventure Game Generator is an interactive, text-based game creation tool powered by Open AI. Customize your game settings, generate dynamic player attributes, embark on quests, manage inventories,... | `JavaScript` ★ 18 | 2023-07-12 |
 | [Jimmyokok/RentControl](https://github.com/Jimmyokok/RentControl) | Rent Control Mod for the game Cities: Skyline 2 | `C#` ★ 4 | 2024-02-07 |
 | [algernon-A/LineToolLite](https://github.com/algernon-A/LineToolLite) | A Cities: Skylines 2 mod. | `C#` ★ 15 | 2024-03-27 |

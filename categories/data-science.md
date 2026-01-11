@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `Python` ★ 58k | 2026-01-10 |
+| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `Python` ★ 58k | 2026-01-11 |
 | [microsoft/data-formulator](https://github.com/microsoft/data-formulator) | 🪄 Create rich visualizations with AI | `TypeScript` ★ 14.7k | 2026-01-05 |
 | [apache/superset](https://github.com/apache/superset) | Apache Superset is a Data Visualization and Data Exploration Platform | `TypeScript` ★ 70k | 2026-01-10 |
 | [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | [KDD'2026] "Video RAG: Chat with Your Videos" | `Python` ★ 2.3k | 2025-12-28 |
@@ -19,21 +19,21 @@
 | [jamichss/Stream-DiffVSR](https://github.com/jamichss/Stream-DiffVSR) | The official repository of paper "Stream-Diff VSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion" | `Python` ★ 231 | 2026-01-08 |
 | [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11k | 2026-01-10 |
 | [mourad-ghafiri/youtube-mcp-server](https://github.com/mourad-ghafiri/youtube-mcp-server) | A powerful Model Context Protocol (MCP) server for You Tube video transcription and metadata extraction. | `Python` ★ 47 | 2026-01-03 |
-| [lcqysl/DiffThinker](https://github.com/lcqysl/DiffThinker) | Diff Thinker: Towards Generative Multimodal Reasoning with Diffusion Models | `Python` ★ 145 | 2026-01-04 |
+| [lcqysl/DiffThinker](https://github.com/lcqysl/DiffThinker) | Diff Thinker: Towards Generative Multimodal Reasoning with Diffusion Models | `Python` ★ 146 | 2026-01-04 |
 | [antvis/Infographic](https://github.com/antvis/Infographic) | 🦋 An Infographic Generation and Rendering Framework, bring words to life with AI! | `TypeScript` ★ 3.6k | 2026-01-09 |
 | [image-rs/fdeflate](https://github.com/image-rs/fdeflate) | Fast deflate implementation specialized for PNG image data | `Rust` ★ 28 | 2026-01-11 |
 | [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c... | `TypeScript` ★ 8.4k | 2026-01-10 |
-| [Francis-Rings/FlashPortrait](https://github.com/Francis-Rings/FlashPortrait) | We present Flash Portrait, an end-to-end video diffusion transformer capable of synthesizing ID-preserving, infinite-length videos while achieving up to 6$\times$ acceleration in inference speed. | `Python` ★ 409 | 2026-01-10 |
+| [Francis-Rings/FlashPortrait](https://github.com/Francis-Rings/FlashPortrait) | We present Flash Portrait, an end-to-end video diffusion transformer capable of synthesizing ID-preserving, infinite-length videos while achieving up to 6$\times$ acceleration in inference speed. | `Python` ★ 410 | 2026-01-10 |
 | [Zplusdragon/LowLevelBanana](https://github.com/Zplusdragon/LowLevelBanana) | [Technical Report] A Comprehensive Evaluation of Nano Banana Pro on 14 Low-Level Vision Tasks and 40 Datasets | `Python` ★ 67 | 2025-12-24 |
 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | Detectron2 is a platform for object detection, segmentation and other visual recognition tasks. | `Python` ★ 33.9k | 2025-11-17 |
 | [facebookresearch/SceneAcousticEstimation](https://github.com/facebookresearch/SceneAcousticEstimation) | Code, models, and dataset accompanying WASPAA 2025 paper, "Scene-wide Acoustic Parameter Estimation." | `Python` ★ 10 | 2025-11-24 |
 | [facebookresearch/perception_models](https://github.com/facebookresearch/perception_models) | State-of-the-art Image & Video CLIP, Multimodal Large Language Models, and More! | `Jupyter Notebook` ★ 2.1k | 2025-12-18 |
 | [zhu-xlab/GlobalBuildingAtlas](https://github.com/zhu-xlab/GlobalBuildingAtlas) | Global Building Atlas: an open global and complete dataset of building polygons, heights and Lo D1 3D models | `Python` ★ 1.9k | 2026-01-07 |
 | [facebookresearch/sam-audio](https://github.com/facebookresearch/sam-audio) | The repository provides code for running inference with the Meta Segment Anything Audio Model (SAM-Audio), links for downloading the trained model checkpoints, and example notebooks that show how t... | `Python` ★ 3k | 2026-01-05 |
-| [EternalEvan/Astra](https://github.com/EternalEvan/Astra) | The official repository of "Astra : General Interactive World Model with Autoregressive Denoising" | `Python` ★ 181 | 2025-12-29 |
+| [EternalEvan/Astra](https://github.com/EternalEvan/Astra) | The official repository of "Astra : General Interactive World Model with Autoregressive Denoising" | `Python` ★ 182 | 2025-12-29 |
 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | ✨ The fundamental numerical library for Java Script and Type Script. ✨ | `JavaScript` ★ 5.7k | 2026-01-11 |
 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | Hindsight: Agent Memory That Works Like Human Memory | `Python` ★ 1.1k | 2026-01-09 |
-| [memodb-io/Acontext](https://github.com/memodb-io/Acontext) | Data platform for context engineering. Context data platform that stores, observes and learns. Join the community❤️: https://discord.acontext.io | `Go` ★ 2.4k | 2026-01-10 |
+| [memodb-io/Acontext](https://github.com/memodb-io/Acontext) | Data platform for context engineering. Context data platform that stores, observes and learns. Join the community❤️: https://discord.acontext.io | `Go` ★ 2.4k | 2026-01-11 |
 | [coleam00/ottomator-agents](https://github.com/coleam00/ottomator-agents) | All the open source AI Agents hosted on the o TTomator Live Agent Studio platform! | `Python` ★ 5.2k | 2025-11-09 |
 | [MrNeRF/LichtFeld-Studio](https://github.com/MrNeRF/LichtFeld-Studio) | Licht Feld Studio: Where reality and the digital world blend. | `C++` ★ 2k | 2026-01-10 |
 | [facebookresearch/sam3](https://github.com/facebookresearch/sam3) | The repository provides code for running inference and finetuning with the Meta Segment Anything Model 3 (SAM 3), links for downloading the trained model checkpoints, and example notebooks that sho... | `Python` ★ 6.9k | 2026-01-07 |
@@ -42,7 +42,7 @@
 | [nv-tlabs/ChronoEdit](https://github.com/nv-tlabs/ChronoEdit) | Chrono Edit: Towards Temporal Reasoning for Image Editing and World Simulation | `Python` ★ 649 | 2025-11-20 |
 | [Visual-Agent/DeepEyesV2](https://github.com/Visual-Agent/DeepEyesV2) | No description provided | `Python` ★ 470 | 2025-12-22 |
 | [MemoriLabs/Memori](https://github.com/MemoriLabs/Memori) | SQL Native Memory Layer for LLMs, AI Agents & Multi-Agent Systems | `Python` ★ 11.6k | 2026-01-07 |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 92.8k | 2026-01-10 |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 92.8k | 2026-01-11 |
 | [lutzroeder/netron](https://github.com/lutzroeder/netron) | Visualizer for neural network, deep learning and machine learning models | `JavaScript` ★ 32.2k | 2026-01-11 |
 | [SpeechifyInc/Resemblyzer](https://github.com/SpeechifyInc/Resemblyzer) | A python package to analyze and compare voices with deep learning | `Python` ★ 1 | 2025-11-03 |
 | [krea-ai/realtime-video](https://github.com/krea-ai/realtime-video) | Krea Realtime 14B. An open-source realtime AI video model. | `Python` ★ 445 | 2025-11-13 |

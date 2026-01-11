@@ -9,7 +9,7 @@
 | [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | A powerful little TUI framework 🏗 | `Go` ★ 38.1k | 2025-12-17 |
 | [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework" | `Python` ★ 12k | 2026-01-06 |
 | [AndurilCode/mcp-apps-kit](https://github.com/AndurilCode/mcp-apps-kit) | A Type Script framework for building interactive MCP applications that work seamlessly with both MCP Apps and Chat GPT (Open AI Apps SDK) from a single codebase. | `TypeScript` ★ 8 | 2026-01-11 |
-| [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | Miro Thinker is an open-source search agent model, built for tool-augmented reasoning and real-world information seeking, aiming to match the deep research experience of Open AI Deep Research and G... | `Python` ★ 4.3k | 2026-01-10 |
+| [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | Miro Thinker is an open-source search agent model, built for tool-augmented reasoning and real-world information seeking, aiming to match the deep research experience of Open AI Deep Research and G... | `Python` ★ 4.3k | 2026-01-11 |
 | [basecamp/fizzy](https://github.com/basecamp/fizzy) | Kanban as it should be. Not as it has been. | `Ruby` ★ 6.6k | 2026-01-09 |
 | [Cysharp/R3](https://github.com/Cysharp/R3) | The new future of dotnet/reactive and Uni Rx. | `C#` ★ 3.5k | 2025-10-01 |
 | [abpframework/abp](https://github.com/abpframework/abp) | Open-source web application framework for ASP.NET Core! Offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET. Provides the fundamental in... | `C#` ★ 14.1k | 2026-01-11 |

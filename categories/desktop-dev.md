@@ -23,7 +23,7 @@
 | [huynhsontung/Screenbox](https://github.com/huynhsontung/Screenbox) | Lib VLC-based media player for the Universal Windows Platform | `C#` ★ 2.8k | 2026-01-10 |
 | [WerWolv/ImHex](https://github.com/WerWolv/ImHex) | 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. | `C++` ★ 52.2k | 2026-01-10 |
 | [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 33.2k | 2026-01-10 |
-| [DearVa/Everywhere](https://github.com/DearVa/Everywhere) | A context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools. | `C#` ★ 5k | 2026-01-10 |
+| [DearVa/Everywhere](https://github.com/DearVa/Everywhere) | A context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools. | `C#` ★ 5k | 2026-01-11 |
 | [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop_computer: :camera_flash: | `C++` ★ 28.6k | 2025-12-24 |
 | [longbridge/gpui-component](https://github.com/longbridge/gpui-component) | Rust GUI components for building fantastic cross-platform desktop application by using GPUI. | `Rust` ★ 9.7k | 2026-01-11 |
 | [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | A modern download manager that supports all platforms. Built with Golang and Flutter. | `Go` ★ 22.4k | 2026-01-10 |
@@ -33,7 +33,7 @@
 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | Win UI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications. | `C++` ★ 7.2k | 2026-01-07 |
 | [atuinsh/desktop](https://github.com/atuinsh/desktop) | 📖 Runbooks that run | `TypeScript` ★ 2.2k | 2026-01-10 |
 | [mountain-loop/yaak](https://github.com/mountain-loop/yaak) | The most intuitive desktop API client. Organize and execute REST, Graph QL, Web Sockets, Server Sent Events, and g RPC 🦬 | `TypeScript` ★ 17.4k | 2026-01-10 |
-| [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | Build smaller, faster, and more secure desktop and mobile applications with a web frontend. | `Rust` ★ 101k | 2026-01-08 |
+| [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | Build smaller, faster, and more secure desktop and mobile applications with a web frontend. | `Rust` ★ 101.1k | 2026-01-08 |
 | [debanjum/ai-wallpaper](https://github.com/debanjum/ai-wallpaper) | Get fresh, personal AI painted wallpapers on your phone or computer. Paints by using your current city, weather and even your recent experiences. Powered by Khoj AI | `Python` ★ 27 | 2024-12-18 |
 | [sonnyp/Eloquent](https://github.com/sonnyp/Eloquent) | Your proofreading assistant | `JavaScript` ★ 194 | 2025-12-16 |
 | [areibman/bottleneck](https://github.com/areibman/bottleneck) | Code review for AI native teams. Native Electron app for reviewing pull requests dramatically faster than Github web. Specialized for handling reviews for background agents working on multiple conc... | `TypeScript` ★ 139 | 2025-12-04 |
@@ -52,7 +52,7 @@
 | [namazso/SecureUxTheme](https://github.com/namazso/SecureUxTheme) | 🎨 A secure boot compatible in-memory Ux Theme patcher | `C++` ★ 2.9k | 2025-06-30 |
 | [0x7c13/Notepads](https://github.com/0x7c13/Notepads) | A modern, lightweight text editor with a minimalist design. | `C#` ★ 9.8k | 2025-10-27 |
 | [lepoco/wpfui](https://github.com/lepoco/wpfui) | WPF UI provides the Fluent experience in your known and loved WPF framework. Intuitive design, themes, navigation and new immersive controls. All natively and effortlessly. | `C#` ★ 9.1k | 2026-01-10 |
-| [unchihugo/FluentFlyout](https://github.com/unchihugo/FluentFlyout) | The modern Flyout app for Windows 11, built with Fluent 2 Design principles. Media Flyouts, Taskbar Widgets and more. | `C#` ★ 807 | 2026-01-10 |
+| [unchihugo/FluentFlyout](https://github.com/unchihugo/FluentFlyout) | The modern Flyout app for Windows 11, built with Fluent 2 Design principles. Media Flyouts, Taskbar Widgets and more. | `C#` ★ 808 | 2026-01-10 |
 | [glzr-io/glazewm](https://github.com/glzr-io/glazewm) | Glaze WM is a tiling window manager for Windows inspired by i3wm. | `Rust` ★ 11.1k | 2026-01-01 |
 | [primeinc/Files](https://github.com/primeinc/Files) | Building the best File Manager for Windows | `C#` ★ 1 | 2025-09-08 |
 | [ashesbloom/LocalLens](https://github.com/ashesbloom/LocalLens) | Local Lens is a privacy-first, AI-powered photo organizer for your PC. Sort and group photos by faces, dates, and locations—all locally, with no cloud upload. Enjoy a modern, intuitive UI and keep ... | `CSS` ★ 40 | 2025-12-31 |

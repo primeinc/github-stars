@@ -8,12 +8,12 @@
 |---|---|---|---|
 | [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) | A collaborative list of public APIs for developers | `JavaScript` ★ 7.5k | 2026-01-07 |
 | [3b1b/manim](https://github.com/3b1b/manim) | Animation engine for explanatory math videos | `Python` ★ 83.6k | 2025-10-20 |
-| [alexzhang13/rlm](https://github.com/alexzhang13/rlm) | General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes. | `Python` ★ 873 | 2026-01-11 |
+| [alexzhang13/rlm](https://github.com/alexzhang13/rlm) | General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes. | `Python` ★ 874 | 2026-01-11 |
 | [code-yeongyu/agent-engineering-guide](https://github.com/code-yeongyu/agent-engineering-guide) | Aren't you curious how i made Sisyphus? And what could be more? | ★ 9 | 2026-01-04 |
 | [lirang04/GroundingME](https://github.com/lirang04/GroundingME) | Evaluation Code for Grounding ME | `Python` ★ 7 | 2025-12-26 |
 | [NullandKale/NullSplats](https://github.com/NullandKale/NullSplats) | No description provided | `Python` ★ 112 | 2026-01-11 |
 | [Semperis/EntraGoat](https://github.com/Semperis/EntraGoat) | A deliberately vulnerable Microsoft Entra ID environment. Learn identity security through hands-on, realistic attack challenges. | `PowerShell` ★ 864 | 2025-10-19 |
-| [inclusionAI/TwinFlow](https://github.com/inclusionAI/TwinFlow) | Taming large-scale few-step training with self-adversarial flows! 👏🏻 | `Python` ★ 432 | 2026-01-08 |
+| [inclusionAI/TwinFlow](https://github.com/inclusionAI/TwinFlow) | Taming large-scale few-step training with self-adversarial flows! 👏🏻 | `Python` ★ 433 | 2026-01-08 |
 | [JoseDeFreitas/awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers) | An awesome list of awesome You Tubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more. | `Markdown` ★ 7.2k | 2025-11-30 |
 | [thangchung/clean-code-dotnet](https://github.com/thangchung/clean-code-dotnet) | :bathtub: Clean Code concepts and tools adapted for .NET | `C#` ★ 7.6k | 2024-08-10 |
 | [NirantK/awesome-project-ideas](https://github.com/NirantK/awesome-project-ideas) | Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas | ★ 8.9k | 2023-03-13 |
@@ -31,18 +31,18 @@
 | [palashmon/awesome-vscode-settings](https://github.com/palashmon/awesome-vscode-settings) | 🎨 A curated list of simple and awesome VS Code settings | ★ 38 | 2024-05-20 |
 | [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (`azd`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 237 | 2026-01-07 |
 | [karpathy/reader3](https://github.com/karpathy/reader3) | Quick illustration of how one can easily read books together with LLMs. It's great and I highly recommend it. | `Python` ★ 2.8k | 2025-11-18 |
-| [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | Hundreds of Claude Code plugins with embedded AI skills. Learn via interactive Jupyter tutorials. | `Python` ★ 939 | 2026-01-11 |
+| [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | Hundreds of Claude Code plugins with embedded AI skills. Learn via interactive Jupyter tutorials. | `Python` ★ 940 | 2026-01-11 |
 | [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 12 Lessons to Get Started Building AI Agents | `Jupyter Notebook` ★ 48.5k | 2026-01-01 |
 | [FFmpeg/asm-lessons](https://github.com/FFmpeg/asm-lessons) | FFmpeg Assembly Language Lessons | ★ 11.3k | 2025-11-07 |
 | [raine/anki-llm](https://github.com/raine/anki-llm) | A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs. | `TypeScript` ★ 176 | 2025-11-10 |
 | [andredesousa/typescript-best-practices](https://github.com/andredesousa/typescript-best-practices) | This is a guideline of best practices that you can apply to your Type Script project. | ★ 177 | 2021-05-03 |
-| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Master programming by recreating your favorite technologies from scratch. | `Markdown` ★ 455.6k | 2025-12-26 |
+| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Master programming by recreating your favorite technologies from scratch. | `Markdown` ★ 455.7k | 2025-12-26 |
 | [Azure-Samples/universal-api-center](https://github.com/Azure-Samples/universal-api-center) | APIC ♥️ all APIs - this repo contains labs focused on importing APIs from a wide variety of gateways and sources | `Jupyter Notebook` ★ 20 | 2024-08-08 |
 | [EzioBy/Ditto](https://github.com/EzioBy/Ditto) | [Preprint 2025] Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset | `Python` ★ 552 | 2025-10-29 |
 | [SkipToTheEndpoint/OpenIntuneBaseline](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline) | Community-driven baseline to accelerate Intune adoption and learning. | `PowerShell` ★ 1.1k | 2025-10-21 |
 | [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) | 📝 Algorithms and data structures implemented in Java Script with explanations and links to further readings | `JavaScript` ★ 195.3k | 2026-01-02 |
 | [sapientinc/HRM](https://github.com/sapientinc/HRM) | Hierarchical Reasoning Model Official Release | `Python` ★ 12.2k | 2025-09-09 |
-| [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | The simplest, fastest repository for training/finetuning medium-sized GPTs. | `Python` ★ 51.8k | 2025-11-12 |
+| [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | The simplest, fastest repository for training/finetuning medium-sized GPTs. | `Python` ★ 51.9k | 2025-11-12 |
 | [TheAlgorithms/TypeScript](https://github.com/TheAlgorithms/TypeScript) | Algorithms and Data Structures implemented in Type Script for beginners, following best practices. | `TypeScript` ★ 2.6k | 2024-10-16 |
 | [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | All Algorithms implemented in Python | `Python` ★ 216.7k | 2026-01-05 |
 | [spipm/Depixelization_poc](https://github.com/spipm/Depixelization_poc) | Depix is a Po C for a technique to recover plaintext from pixelized screenshots. | `Python` ★ 3.8k | 2025-04-16 |
@@ -57,8 +57,8 @@
 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popular chatbots like Chat GPT, Claude & Gemini | `Roff` ★ 25k | 2026-01-10 |
 | [Azure-Samples/communication-services-javascript-quickstarts](https://github.com/Azure-Samples/communication-services-javascript-quickstarts) | Sample code for Azure Communication Services Java Script quickstarts | `JavaScript` ★ 105 | 2025-12-16 |
 | [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | A curated list of awesome READMEs | ★ 20.3k | 2026-01-08 |
-| [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: | ★ 80k | 2024-07-29 |
-| [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | A collection of various awesome lists for hackers, pentesters and security researchers | ★ 104.2k | 2025-01-18 |
+| [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: | ★ 80.1k | 2024-07-29 |
+| [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | A collection of various awesome lists for hackers, pentesters and security researchers | ★ 104.3k | 2025-01-18 |
 | [bytedance/OneReward](https://github.com/bytedance/OneReward) | No description provided | `Python` ★ 319 | 2025-09-15 |
 | [Agent-on-the-Fly/Memento](https://github.com/Agent-on-the-Fly/Memento) | Official Code of Memento: Fine-tuning LLM Agents without Fine-tuning LLMs | `Python` ★ 2.1k | 2025-10-05 |
 | [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | A list of useful payloads and bypass for Web Application Security and Pentest/CTF | `Python` ★ 74.3k | 2026-01-03 |
@@ -149,7 +149,7 @@
 | [veltman/clmystery](https://github.com/veltman/clmystery) | A command-line murder mystery | ★ 6k | 2023-09-21 |
 | [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) | A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem | ★ 13k | 2024-07-03 |
 | [hitherejoe/Android-Boilerplate](https://github.com/hitherejoe/Android-Boilerplate) | Android Boilerplate project using Rx Java, Dagger 2, Espresso, Mockito + more! | `Java` ★ 1.9k | 2020-10-24 |
-| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 428.6k | 2026-01-06 |
+| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 428.7k | 2026-01-06 |
 | [davidsonfellipe/awesome-wpo](https://github.com/davidsonfellipe/awesome-wpo) | :pencil: A curated list of Web Performance Optimization. Everyone can contribute here! | `JavaScript` ★ 8.8k | 2025-07-21 |
 | [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) | A curated list of amazingly awesome PHP libraries, resources and shiny things. | ★ 32.3k | 2025-12-15 |
 | [bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) | A curated list of awesome awesomeness | `Ruby` ★ 33.1k | 2024-06-02 |

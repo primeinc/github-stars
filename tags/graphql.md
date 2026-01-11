@@ -16,4 +16,4 @@
 | [kriasoft/graphql-starter-kit](https://github.com/kriasoft/graphql-starter-kit) | 💥 Monorepo template (seed project) pre-configured with Graph QL API, Postgre SQL, React, and Joy UI. | `TypeScript` ★ 4k | 2024-11-10 |
 | [dotansimha/graphql-code-generator](https://github.com/dotansimha/graphql-code-generator) | A tool for generating code based on a Graph QL schema and Graph QL operations (query/mutation/subscription), with flexible support for custom plugins. | `TypeScript` ★ 11.2k | 2026-01-10 |
 | [MichalLytek/type-graphql](https://github.com/MichalLytek/type-graphql) | Create Graph QL schema and resolvers with Type Script, using classes and decorators! | `TypeScript` ★ 8.1k | 2026-01-06 |
-| [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, powered by the community. | `TypeScript` ★ 38.4k | 2026-01-10 |
+| [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, powered by the community. | `TypeScript` ★ 38.5k | 2026-01-11 |

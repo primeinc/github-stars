@@ -22,7 +22,7 @@
 | [memvid/claude-brain](https://github.com/memvid/claude-brain) | Give Claude Code photographic memory in ONE portable file. No database, no SQLite, no Chroma DB - just a single .mv2 file you can git commit, scp, or share. Native Rust core with sub-ms operations. | `JavaScript` ★ 129 | 2026-01-06 |
 | [AutoMaker-Org/automaker](https://github.com/AutoMaker-Org/automaker) | No description provided | `TypeScript` ★ 1.8k | 2026-01-11 |
 | [kdcokenny/opencode-worktree](https://github.com/kdcokenny/opencode-worktree) | Zero-friction git worktrees for Open Code. Auto-spawns terminals, syncs files, cleans up on exit. | `TypeScript` ★ 11 | 2026-01-10 |
-| [kasperjunge/agent-resources](https://github.com/kasperjunge/agent-resources) | Install Claude Code skills from Git Hub with one command: uvx add-skill 🚀 Also works for slash commands and subagents 🤙 | `Python` ★ 282 | 2026-01-10 |
+| [kasperjunge/agent-resources](https://github.com/kasperjunge/agent-resources) | Install Claude Code skills from Git Hub with one command: uvx add-skill 🚀 Also works for slash commands and subagents 🤙 | `Python` ★ 283 | 2026-01-10 |
 | [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code | `TypeScript` ★ 1.1k | 2026-01-10 |
 | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) | :zap: Dynamically generated stats for your github readmes | `JavaScript` ★ 77.9k | 2026-01-05 |
 | [image-rs/fdeflate](https://github.com/image-rs/fdeflate) | Fast deflate implementation specialized for PNG image data | `Rust` ★ 28 | 2026-01-11 |
@@ -55,7 +55,7 @@
 | [generalaction/emdash](https://github.com/generalaction/emdash) | Emdash is the Open-Source Agentic Development Environment | `TypeScript` ★ 927 | 2026-01-11 |
 | [universal-tool-calling-protocol/code-mode](https://github.com/universal-tool-calling-protocol/code-mode) | 🔌 Plug-and-play library to enable agents to call MCP and UTCP tools via code execution. | `Python` ★ 1.3k | 2025-12-15 |
 | [MoonshotAI/kosong](https://github.com/MoonshotAI/kosong) | The LLM abstraction layer for modern AI agent applications. | ★ 498 | 2026-01-08 |
-| [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art, fix bugs (frozen spinner), and ad... | `TypeScript` ★ 808 | 2026-01-11 |
+| [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art, fix bugs (frozen spinner), and ad... | `TypeScript` ★ 809 | 2026-01-11 |
 | [ken-yossy/nvmetool-win](https://github.com/ken-yossy/nvmetool-win) | Communicate with NVMe SSD using Windows' inbox device driver | `C` ★ 104 | 2025-03-27 |
 | [blueraincoatli/ComfyUI-Model-Cleaner](https://github.com/blueraincoatli/ComfyUI-Model-Cleaner) | Try to locate the "orphan models" and clean them | `Python` ★ 3 | 2025-12-18 |
 | [timdeschryver/zod-fixture](https://github.com/timdeschryver/zod-fixture) | Creating fixtures based on zod schemas | `TypeScript` ★ 144 | 2024-07-13 |
@@ -153,9 +153,9 @@
 | [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your terminal | `Rust` ★ 55.8k | 2026-01-11 |
 | [voideditor/void](https://github.com/voideditor/void) | No description provided | `TypeScript` ★ 28k | 2025-08-07 |
 | [novuhq/novu](https://github.com/novuhq/novu) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | `TypeScript` ★ 38.4k | 2026-01-09 |
-| [makeplane/plane](https://github.com/makeplane/plane) | 🔥 🔥 🔥 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and cycles the easiest way on the planet. | `TypeScript` ★ 43.2k | 2026-01-09 |
+| [makeplane/plane](https://github.com/makeplane/plane) | 🔥 🔥 🔥 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and cycles the easiest way on the planet. | `TypeScript` ★ 43.3k | 2026-01-11 |
 | [neu-se/testpilot2](https://github.com/neu-se/testpilot2) | Test Pilot 2 | `TypeScript` ★ 29 | 2024-07-23 |
-| [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflo... | `Shell` ★ 54.8k | 2026-01-11 |
+| [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflo... | `Shell` ★ 54.9k | 2026-01-11 |
 | [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent) | Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are commi... | `Python` ★ 10.2k | 2026-01-09 |
 | [team-telnyx/demo-node-telnyx](https://github.com/team-telnyx/demo-node-telnyx) | Samples & Examples with Telnyx-Node | `JavaScript` ★ 17 | 2025-11-26 |
 | [microsoft/kiota-samples](https://github.com/microsoft/kiota-samples) | sample generation SDK s for Kiota | `Go` ★ 108 | 2026-01-08 |
