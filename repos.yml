@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:52:15.399Z"
+  last_updated: "2026-01-11T02:52:32.498Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -50862,13 +50862,16 @@ repositories:
       mirror_url: null
   - repo: ExoFi-Labs/Nexface
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - lang:python
+      - face-processing
     summary: No description provided
     last_synced_sha: 695076c9d2532bb05a63051b1a78e07dae2c4e7b
     starred_at: "2025-11-08T02:36:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -50881,15 +50884,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.498Z"
+      prompt_version: v2
   - repo: Gourieff/ComfyUI-ReActor
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - face-swapping
+      - lang:python
+      - comfyui
+      - custom-nodes
     summary: Fast and Simple Face Swap Extension Node for Comfy UI (SFW)
     last_synced_sha: a2a61fd5e7a6ba546eff848b0783b5fb8bada2c0
     starred_at: "2025-11-08T02:34:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50907,15 +50920,26 @@ repositories:
         published_at: "2025-09-05T05:53:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.498Z"
+      prompt_version: v2
   - repo: mudler/LocalAI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - local-first-ai
+      - lang:go
+      - llms
+      - api
+      - decentralized
     summary: ':robot: The free, Open Source alternative to Open AI, Claude and others. Self-hosted and local-first. Drop-in replacement for Open AI, running on consumer-grade hardware. No GPU required. Runs gguf...'
     last_synced_sha: 2de30440feedd86968dfb2e7d4061c10ac7d6174
     starred_at: "2025-11-07T18:26:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -50950,15 +50974,25 @@ repositories:
         published_at: "2025-12-24T14:31:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.498Z"
+      prompt_version: v2
   - repo: charmbracelet/glow
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - markdown-rendering
+      - lang:go
+      - cli
+      - markdown
     summary: "Render markdown on the CLI, with pizzazz! \U0001F485\U0001F3FB"
     last_synced_sha: 752de97c5a331af0eed0c7b417462621bffa533e
     starred_at: "2025-11-07T17:44:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -50977,15 +51011,25 @@ repositories:
         published_at: "2025-05-30T13:30:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.498Z"
+      prompt_version: v2
   - repo: ad-on-is/rachoon
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - deployment
+    tags:
+      - invoices
+      - lang:ts
+      - self-hosted
+      - billing
     summary: "\U0001F99D Rachoon — A self-hostable way to handle invoices"
     last_synced_sha: f7e1af9e10e50f64d87ae788b3e08ea542c056d7
     starred_at: "2025-11-07T17:42:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -50998,15 +51042,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.498Z"
+      prompt_version: v2
   - repo: usestrix/strix
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - penetration-testing
+      - lang:python
+      - generative-ai
+      - cybersecurity
+      - ai-agents
     summary: Open-source AI agents for penetration testing
     last_synced_sha: 9bcb43e713ac86086c8fc107db4c41fb45722d59
     starred_at: "2025-11-07T17:42:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -51027,15 +51082,24 @@ repositories:
         published_at: "2025-12-15T18:34:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.498Z"
+      prompt_version: v2
   - repo: FFmpeg/asm-lessons
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - system-admin
+    tags:
+      - assembly-language
+      - ffmpeg
+      - system-optimization
     summary: FFmpeg Assembly Language Lessons
     last_synced_sha: 9b2839ecc7fa19e9d5c27d1a6e26624c9aa3a149
     starred_at: "2025-11-07T17:42:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -51048,15 +51112,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.498Z"
+      prompt_version: v2
   - repo: GopeedLab/gopeed
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - downloader
+      - lang:go
+      - cross-platform
+      - torrent
+      - flutter
     summary: A modern download manager that supports all platforms. Built with Golang and Flutter.
     last_synced_sha: a9eee26be7eb5b00776673ec391cf8231b62b5e4
     starred_at: "2025-11-07T17:41:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -51086,15 +51161,25 @@ repositories:
         published_at: "2025-11-30T13:57:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.498Z"
+      prompt_version: v2
   - repo: blueraincoatli/ComfyUI-Model-Cleaner
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - lang:python
+      - model-cleaning
+      - comfyui
+      - custom-nodes
     summary: Try to locate the "orphan models" and clean them
     last_synced_sha: 13e8ec89382f21cbf678e6aa9e3c8696e1726172
     starred_at: "2025-11-06T22:46:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -51113,15 +51198,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.498Z"
+      prompt_version: v2
   - repo: kijai/ComfyUI-WanVideoWrapper
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - lang:python
+      - video-processing
+      - custom-ui
     summary: No description provided
     last_synced_sha: 855d103ee6fb61d8e24452f56ffcd629591cd7e1
     starred_at: "2025-11-06T06:22:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -51134,15 +51228,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.498Z"
+      prompt_version: v2
   - repo: Orange-3DV-Team/MoCha
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - video-processing
+      - lang:python
+      - character-replacement
     summary: 'Mo Cha: End-to-End Video Character Replacement without Structural Guidance'
     last_synced_sha: 2538c72a7b921ef592c2c4502a498673652bceb1
     starred_at: "2025-11-06T06:22:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -51155,15 +51258,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.498Z"
+      prompt_version: v2
   - repo: timdeschryver/zod-fixture
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - dev-tools
+    tags:
+      - zod
+      - fixtures
+      - lang:ts
+      - testing-tools
     summary: Creating fixtures based on zod schemas
     last_synced_sha: d63d2373a78d76bf18d1c409f483f719b2126d45
     starred_at: "2025-11-06T00:06:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -51181,15 +51294,25 @@ repositories:
         published_at: "2024-03-09T14:47:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.498Z"
+      prompt_version: v2
   - repo: JoshuaKGoldberg/TypeStat
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - typescript
+      - javascript-conversion
+      - lang:ts
+      - static-analysis
     summary: "Converts Java Script to Type Script and Type Script to better Type Script. \U0001F9EB"
     last_synced_sha: 6d5cfba3298a11b29f81a1e8f85e45ceaec9a87d
     starred_at: "2025-11-06T00:04:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -51209,15 +51332,26 @@ repositories:
         published_at: "2025-02-17T00:37:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.498Z"
+      prompt_version: v2
   - repo: raine/anki-llm
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - learning
+    tags:
+      - anki
+      - flashcards
+      - lang:ts
+      - llms
+      - bulk-processing
     summary: A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs.
     last_synced_sha: 168b13a6bd47f786fd6ea05a925428c036ca6478
     starred_at: "2025-11-06T00:04:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -51230,15 +51364,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.498Z"
+      prompt_version: v2
   - repo: SpeechifyInc/Resemblyzer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - voice-analysis
+      - lang:python
+      - deep-learning
     summary: A python package to analyze and compare voices with deep learning
     last_synced_sha: af15d3fbff56d36ea55ef3528fd60a7bed678052
     starred_at: "2025-11-06T00:03:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -51252,6 +51395,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:52:32.497Z"
+      prompt_version: v2
   - repo: MaximeRivest/mcp2py
     categories:
       - apis
