@@ -98,7 +98,9 @@
                     activeTag = null;
                     el.classList.remove('active');
                 } else {
-                    tagCloud.querySelectorAll('.tag').forEach(t => t.classList.remove('active'));
+                    tagCloud.querySelectorAll('.tag').forEach(t => {
+                        t.classList.remove('active');
+                    });
                     activeTag = tag;
                     el.classList.add('active');
                 }
@@ -193,10 +195,11 @@
 
     // Update stats display
     function updateStats() {
-        if (filteredRepos.length === allRepos.length) {
-            statsShowing.textContent = '';
+        const count = filteredRepos.length;
+        if (count === allRepos.length) {
+            statsShowing.textContent = `${count} total`;
         } else {
-            statsShowing.textContent = `Showing ${filteredRepos.length}`;
+            statsShowing.textContent = `Showing ${count} of ${allRepos.length}`;
         }
     }
 
