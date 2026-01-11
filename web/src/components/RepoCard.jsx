@@ -20,7 +20,7 @@ export function RepoCard({ repo }) {
   };
 
   return (
-    <div className={styles.card}>
+    <div className={`${styles.card} repository-card`}>
       <div className={styles.header}>
         <img 
           src={repo.avatar || `https://github.com/${repo.repo.split('/')[0]}.png`} 

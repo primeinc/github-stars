@@ -66,6 +66,11 @@ jobs:
         working-directory: web
         run: npm run build
 
+      - name: Regenerate data.json in docs (ensure existence after build wipe)
+        run: |
+          ./yq eval -o=json '.' repos.yml > docs/data.json
+          echo "Regenerated docs/data.json after build"
+
       - name: Commit docs (built assets + data) atomically
         run: |
           git config user.name "github-actions[bot]"
