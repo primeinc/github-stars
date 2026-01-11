@@ -29,7 +29,10 @@ jobs:
           ref: main
 
       - name: Pull latest changes
-        run: git pull origin main
+        run: |
+          for i in 1 2 3; do
+            git pull origin main && break || sleep 5
+          done
 
       - name: Setup yq
         run: |
@@ -58,5 +61,8 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update site data [skip ci]"
-            git push
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main
+              git push && break || sleep 10
+            done
           fi

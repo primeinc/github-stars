@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Stars</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
 </head>
 <body>
     <header>
@@ -37,6 +38,8 @@
                     <option value="recent-asc">Oldest Starred</option>
                     <option value="updated-desc">Recently Pushed</option>
                 </select>
+
+                <button id="clear-filters" class="clear-btn" title="Clear All Filters" style="display: none;">Clear All &#10005;</button>
                 
                 <div class="view-toggle">
                     <button id="view-grid" class="view-btn active" title="Grid View">&#9638;</button>

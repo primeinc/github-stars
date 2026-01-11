@@ -178,5 +178,8 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "docs: generate READMEs [skip ci]"
-            git push
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main
+              git push && break || sleep 10
+            done
           fi

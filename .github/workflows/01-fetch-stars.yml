@@ -166,5 +166,8 @@ jobs:
             echo "No changes"
           else
             git commit -m "chore: update starred repositories [skip ci]"
-            git push
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main
+              git push && break || sleep 10
+            done
           fi

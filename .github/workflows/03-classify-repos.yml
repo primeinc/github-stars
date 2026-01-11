@@ -140,15 +140,29 @@ jobs:
             
             let classifications;
             try {
-              classifications = JSON.parse(result);
+              // Basic cleaning of common AI artifacts
+              let cleanedResult = result;
+              if (cleanedResult.includes('```')) {
+                const jsonMatch = cleanedResult.match(/```(?:json)?\s*([\s\S]*?)\s*```/);
+                if (jsonMatch) cleanedResult = jsonMatch[1];
+              }
+              
+              // Handle potential truncated JSON
+              if (cleanedResult.endsWith('...')) {
+                cleanedResult = cleanedResult.substring(0, cleanedResult.lastIndexOf('}') + 1);
+                if (!cleanedResult.endsWith(']')) cleanedResult += ']';
+              }
+
+              classifications = JSON.parse(cleanedResult);
             } catch (e) {
+              console.log('JSON parse failed, attempting fallback extraction:', e.message);
               // Try to extract valid JSON array if wrapped in other content
               const match = result.match(/\[[\s\S]*\]/);
               if (match) {
                 try {
                   classifications = JSON.parse(match[0]);
                 } catch (e2) {
-                  console.log('JSON parse failed, will retry workflow');
+                  console.log('Fallback extraction failed, will retry workflow');
                   core.setOutput('retry', 'true');
                   core.setOutput('count', 0);
                   return;
@@ -227,7 +241,10 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add repos.yml
           git commit -m "AI classify ${{ steps.apply.outputs.count }} repos [skip ci]"
-          git push
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main
+            git push && break || sleep 10
+          done
 
       - name: Check remaining
         id: remaining

@@ -209,4 +209,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add repos.yml
           git commit -m "Sync ${{ steps.diff.outputs.total_new }} new starred repositories [skip ci]"
-          git push
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main
+            git push && break || sleep 10
+          done

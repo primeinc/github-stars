@@ -4,7 +4,8 @@
 
     let allRepos = [];
     let filteredRepos = [];
-    let activeTag = null;
+    let fuse = null;
+    let activeTags = new Set();
     let currentView = 'grid';
 
     // DOM Elements
@@ -18,6 +19,7 @@
     const reposContainer = document.getElementById('repos-container');
     const viewGridBtn = document.getElementById('view-grid');
     const viewListBtn = document.getElementById('view-list');
+    const clearFiltersBtn = document.getElementById('clear-filters');
 
     // Initialize
     async function init() {
@@ -27,6 +29,7 @@
             const data = await response.json();
             allRepos = data.repositories || [];
             
+            initFuse();
             populateFilters();
             buildTagCloud();
             applyFilters();
@@ -36,6 +39,22 @@
             console.error('Error loading data:', error);
             reposContainer.innerHTML = '<div class="no-results">Failed to load repositories. Make sure data.json exists.</div>';
         }
+    }
+
+    // Initialize Fuse.js
+    function initFuse() {
+        const options = {
+            keys: [
+                { name: 'repo', weight: 1.0 },
+                { name: 'summary', weight: 0.7 },
+                { name: 'categories', weight: 0.5 },
+                { name: 'tags', weight: 0.5 },
+                { name: 'github_metadata.topics', weight: 0.3 }
+            ],
+            threshold: 0.3,
+            ignoreLocation: true
+        };
+        fuse = new Fuse(allRepos, options);
     }
 
     // Populate filter dropdowns
@@ -94,14 +113,11 @@
         tagCloud.querySelectorAll('.tag').forEach(el => {
             el.addEventListener('click', () => {
                 const tag = el.dataset.tag;
-                if (activeTag === tag) {
-                    activeTag = null;
+                if (activeTags.has(tag)) {
+                    activeTags.delete(tag);
                     el.classList.remove('active');
                 } else {
-                    tagCloud.querySelectorAll('.tag').forEach(t => {
-                        t.classList.remove('active');
-                    });
-                    activeTag = tag;
+                    activeTags.add(tag);
                     el.classList.add('active');
                 }
                 applyFilters();
@@ -123,18 +139,14 @@
         const language = languageFilter.value;
         const sort = sortBy.value;
 
-        filteredRepos = allRepos.filter(repo => {
-            // Search filter
-            if (searchTerm) {
-                const searchable = [
-                    repo.repo,
-                    repo.summary,
-                    ...(repo.categories || []),
-                    ...(repo.tags || [])
-                ].join(' ').toLowerCase();
-                if (!searchable.includes(searchTerm)) return false;
-            }
+        let baseList = allRepos;
 
+        // Use Fuse.js for search if searchTerm exists
+        if (searchTerm && fuse) {
+            baseList = fuse.search(searchTerm).map(result => result.item);
+        }
+
+        filteredRepos = baseList.filter(repo => {
             // Category filter
             if (category && !(repo.categories || []).includes(category)) {
                 return false;
@@ -146,15 +158,24 @@
             }
 
             // Tag filter
-            if (activeTag && !(repo.tags || []).includes(activeTag)) {
-                return false;
+            if (activeTags.size > 0) {
+                const repoTags = repo.tags || [];
+                let allMatch = true;
+                for (const tag of activeTags) {
+                    if (!repoTags.includes(tag)) {
+                        allMatch = false;
+                        break;
+                    }
+                }
+                if (!allMatch) return false;
             }
 
             // Skip unclassified repos unless:
             // - User is searching
             // - User selected a category
+            // - User selected any tags
             // - The repo was starred within the last 30 days (fresh)
-            if (!searchTerm && !category && (repo.categories || []).includes('unclassified')) {
+            if (!searchTerm && !category && activeTags.size === 0 && (repo.categories || []).includes('unclassified')) {
                 // Check if repo is fresh (starred within last 30 days)
                 const starredAt = new Date(repo.user_starred_at || 0);
                 const now = new Date();
@@ -167,30 +188,58 @@
             return true;
         });
 
-        // Sort
-        filteredRepos.sort((a, b) => {
-            switch (sort) {
-                case 'stars-desc':
-                    return (b.github_metadata?.stargazers_count || 0) - (a.github_metadata?.stargazers_count || 0);
-                case 'stars-asc':
-                    return (a.github_metadata?.stargazers_count || 0) - (b.github_metadata?.stargazers_count || 0);
-                case 'name-asc':
-                    return a.repo.localeCompare(b.repo);
-                case 'name-desc':
-                    return b.repo.localeCompare(a.repo);
-                case 'recent-desc':
-                    return new Date(b.user_starred_at || 0) - new Date(a.user_starred_at || 0);
-                case 'recent-asc':
-                    return new Date(a.user_starred_at || 0) - new Date(b.user_starred_at || 0);
-                case 'updated-desc':
-                    return new Date(b.github_metadata?.repo_pushed_at || 0) - new Date(a.github_metadata?.repo_pushed_at || 0);
-                default:
-                    return 0;
-            }
-        });
+        // Sort only if not searching (Fuse already sorts by relevance)
+        if (!searchTerm) {
+            filteredRepos.sort((a, b) => {
+                switch (sort) {
+                    case 'stars-desc':
+                        return (b.github_metadata?.stargazers_count || 0) - (a.github_metadata?.stargazers_count || 0);
+                    case 'stars-asc':
+                        return (a.github_metadata?.stargazers_count || 0) - (b.github_metadata?.stargazers_count || 0);
+                    case 'name-asc':
+                        return a.repo.localeCompare(b.repo);
+                    case 'name-desc':
+                        return b.repo.localeCompare(a.repo);
+                    case 'recent-desc':
+                        return new Date(b.user_starred_at || 0) - new Date(a.user_starred_at || 0);
+                    case 'recent-asc':
+                        return new Date(a.user_starred_at || 0) - new Date(b.user_starred_at || 0);
+                    case 'updated-desc':
+                        return new Date(b.github_metadata?.repo_pushed_at || 0) - new Date(a.github_metadata?.repo_pushed_at || 0);
+                    default:
+                        return 0;
+                }
+            });
+        }
 
         renderRepos();
         updateStats();
+        updateClearButton();
+    }
+
+    // Update visibility of the clear filters button
+    function updateClearButton() {
+        const hasFilters = searchInput.value.trim() !== '' || 
+                          categoryFilter.value !== '' || 
+                          languageFilter.value !== '' || 
+                          activeTags.size > 0;
+        
+        clearFiltersBtn.style.display = hasFilters ? 'block' : 'none';
+    }
+
+    // Reset all filters
+    function resetFilters() {
+        searchInput.value = '';
+        categoryFilter.value = '';
+        languageFilter.value = '';
+        activeTags.clear();
+        
+        // Update UI
+        tagCloud.querySelectorAll('.tag').forEach(el => {
+            el.classList.remove('active');
+        });
+        
+        applyFilters();
     }
 
     // Update stats display
@@ -344,6 +393,7 @@
     sortBy.addEventListener('change', applyFilters);
     viewGridBtn.addEventListener('click', () => setView('grid'));
     viewListBtn.addEventListener('click', () => setView('list'));
+    clearFiltersBtn.addEventListener('click', resetFilters);
 
     // Debounce helper
     function debounce(func, wait) {
