@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | Memory for AI Agents in 6 lines of code | `Python` ★ 10.8k | 2026-01-10 |
-| [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) | Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc. | `TypeScript` ★ 2.9k | 2026-01-08 |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | Memory for AI Agents in 6 lines of code | `Python` ★ 10.8k | 2026-01-11 |
+| [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) | Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc. | `TypeScript` ★ 2.9k | 2026-01-11 |
 | [reorproject/reor](https://github.com/reorproject/reor) | Private & local AI personal knowledge management app for high entropy people. | `JavaScript` ★ 8.5k | 2025-05-13 |
 | [zilliztech/attu](https://github.com/zilliztech/attu) | Web UI for Milvus Vector Database | `Shell` ★ 2.5k | 2025-12-24 |
 | [milvus-io/bootcamp](https://github.com/milvus-io/bootcamp) | Dealing with all unstructured data, such as reverse image search, audio search, molecular search, video analysis, question and answer systems, NLP, etc. | `Jupyter Notebook` ★ 2.4k | 2025-12-15 |

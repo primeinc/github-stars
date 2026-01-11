@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [gtsteffaniak/filebrowser](https://github.com/gtsteffaniak/filebrowser) | 📂 Web File Browser | `Go` ★ 5.8k | 2026-01-10 |
+| [gtsteffaniak/filebrowser](https://github.com/gtsteffaniak/filebrowser) | 📂 Web File Browser | `Go` ★ 5.9k | 2026-01-11 |
 | [danielperna84/hass-configurator](https://github.com/danielperna84/hass-configurator) | Configuration UI for Home Assistant | `Python` ★ 329 | 2024-01-13 |

@@ -12,4 +12,4 @@
 | [AgentDeskAI/browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp) | Monitor browser logs directly from Cursor and other MCP compatible IDEs. | `JavaScript` ★ 7k | 2025-03-26 |
 | [codexu/note-gen](https://github.com/codexu/note-gen) | A cross-platform Markdown note-taking application dedicated to using AI to bridge recording and writing, organizing fragmented knowledge into a readable note. | `TypeScript` ★ 10.5k | 2026-01-10 |
 | [claudio-silva/claude-artifact-runner](https://github.com/claudio-silva/claude-artifact-runner) | A template project for easily converting Claude AI’s Artifacts into React applications, ready to run out of the box or extend as needed. | `TypeScript` ★ 490 | 2026-01-08 |
-| [PowerShell/AIShell](https://github.com/PowerShell/AIShell) | An interactive shell to work with AI-powered assistance providers | `C#` ★ 498 | 2025-11-19 |
+| [PowerShell/AIShell](https://github.com/PowerShell/AIShell) | An interactive shell to work with AI-powered assistance providers | `C#` ★ 497 | 2025-11-19 |
