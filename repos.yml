@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:44:42.027Z"
+  last_updated: "2026-01-11T02:45:01.205Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -61571,13 +61571,19 @@ repositories:
       mirror_url: null
   - repo: openstates/openstates-scrapers
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - automation
+    tags:
+      - scrapers
+      - government
+      - python
+      - data-collection
+      - lang:python
     summary: source for Open States scrapers
     last_synced_sha: ebafcef73fa557cf3f61475c2288173ba1c7d815
     starred_at: "2025-08-20T02:22:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61596,15 +61602,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.205Z"
+      prompt_version: v2
   - repo: dobtco/openrfps-scrapers
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - automation
+    tags:
+      - web-scraping
+      - government
+      - data-extraction
+      - coffeescript
     summary: Scraping government contracting opportunities.
     last_synced_sha: f2d7f7eafbbf18eea5df15f0596840e1fbe27235
     starred_at: "2025-08-20T02:19:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CoffeeScript
       topics: []
@@ -61617,15 +61633,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.205Z"
+      prompt_version: v2
   - repo: rigwild/mcp-server-amazon
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - ai
+      - mcp-server
+      - amazon
+      - claude-ai
+      - lang:ts
     summary: "\U0001F6CD\U0001F4E6 Unofficial Amazon Model Context Protocol Server (MCP) - Search products and purchase directly from Claude AI! ✨"
     last_synced_sha: c2ad8d60bcde54c4444e98b6ec1201688650e403
     starred_at: "2025-08-18T18:58:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -61644,15 +61671,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.205Z"
+      prompt_version: v2
   - repo: emcie-co/parlant
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - deployment
+    tags:
+      - ai-agents
+      - llm
+      - genai
+      - customer-service
+      - lang:python
     summary: LLM agents built for control. Designed for real-world use. Deployed in minutes.
     last_synced_sha: d915a76737b0452790317af6b35254c8e7b472cb
     starred_at: "2025-08-18T02:39:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61678,15 +61716,26 @@ repositories:
         published_at: "2026-01-05T13:28:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.205Z"
+      prompt_version: v2
   - repo: dtyq/magic
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - ai
+      - workflow
+      - productivity
+      - low-code
+      - lang:php
     summary: Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)
     last_synced_sha: a74489ed10c2e550a79b90e0eedc38e4c4310db0
     starred_at: "2025-08-18T02:39:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -61710,15 +61759,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.205Z"
+      prompt_version: v2
   - repo: MotiaDev/motia
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ai-ml
+    tags:
+      - backend
+      - ai
+      - state-management
+      - workflows
+      - lang:ts
     summary: Multi-Language Backend Framework that unifies APIs, background jobs, queues, workflows, streams, and AI agents with a single core primitive with built-in observability and state management.
     last_synced_sha: 4fc0743d6dc64d935a7db1d504f2d09f9db5e526
     starred_at: "2025-08-18T02:17:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -61743,15 +61803,26 @@ repositories:
         published_at: "2026-01-09T15:15:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.205Z"
+      prompt_version: v2
   - repo: photoprism/photoprism
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - ai
+      - self-hosted
+      - photo-app
+      - tensorflow
+      - lang:go
     summary: "AI-Powered Photos App for the Decentralized Web \U0001F308\U0001F48E✨"
     last_synced_sha: 8f298857a66a9868e0c650e4d50bffdbb2ec19ee
     starred_at: "2025-08-17T22:14:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -61774,15 +61845,25 @@ repositories:
         published_at: "2025-12-01T05:07:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.205Z"
+      prompt_version: v2
   - repo: Ido-Levi/claude-code-tamagotchi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+    tags:
+      - ai-agents
+      - llms
+      - monitoring
+      - lang:ts
     summary: Real-time behavioral enforcement for Claude Code. Monitors AI actions, detects violations, and interrupts misbehavior. Also has a cute pet.
     last_synced_sha: ccf9399f41571b2e025b8a8f5e782a5ef6f3e730
     starred_at: "2025-08-17T18:28:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -61802,15 +61883,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.205Z"
+      prompt_version: v2
   - repo: context-labs/uwu
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+    tags:
+      - experimental
+      - typescript
+      - lang:ts
     summary: No description provided
     last_synced_sha: fe1171ba7a8d8ec0b7964d294674847451fcd3f9
     starred_at: "2025-08-17T18:10:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -61823,15 +61912,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.204Z"
+      prompt_version: v2
   - repo: kamailio/kamailio
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - embedded
+    tags:
+      - sip
+      - voip
+      - webrtc
+      - iot
+      - lang:c
     summary: Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms -
     last_synced_sha: e95b6034ecb5da608edfcee3ddf231a3b7062dd9
     starred_at: "2025-08-17T11:45:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -61853,15 +61953,25 @@ repositories:
         published_at: "2026-01-08T15:51:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.204Z"
+      prompt_version: v2
   - repo: dOpensource/dsiprouter
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - pbx
+      - sip
+      - ui-interface
+      - voice-services
     summary: UI Interface for implementing Kamailio to provide PBX Hosting and SIP Trunking Services
     last_synced_sha: 9fd2f01d679c34c08ecbd5abbc6d60e864caa1ac
     starred_at: "2025-08-17T11:15:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -61876,15 +61986,26 @@ repositories:
         published_at: "2025-07-18T16:52:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.204Z"
+      prompt_version: v2
   - repo: fusionpbx/fusionpbx
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - infrastructure
+    tags:
+      - multi-tenant
+      - voice-switch
+      - pbx
+      - telephony
+      - lang:php
     summary: Official Fusion PBX - A full-featured domain based multi-tenant PBX and voice switch for Free Switch.
     last_synced_sha: 39f26590fe473531eb83941f7c4f9b283ffa12a4
     starred_at: "2025-08-17T11:13:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -61899,15 +62020,26 @@ repositories:
         published_at: "2025-07-15T07:56:45Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.204Z"
+      prompt_version: v2
   - repo: xyflow/xyflow
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+    tags:
+      - node-based-ui
+      - flowchart
+      - react
+      - svelte
+      - lang:ts
     summary: React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely cust...
     last_synced_sha: cf2d4be3f57047ae02d08eed49dc640e89a2ef14
     starred_at: "2025-08-17T11:08:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -61933,15 +62065,26 @@ repositories:
         published_at: "2025-12-04T13:37:58Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.204Z"
+      prompt_version: v2
   - repo: swisskyrepo/PayloadsAllTheThings
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - pentest
+      - payloads
+      - security
+      - redteam
+      - lang:python
     summary: A list of useful payloads and bypass for Web Application Security and Pentest/CTF
     last_synced_sha: a711494a640a6116345496595be4a9b8a41b8ac0
     starred_at: "2025-08-17T11:07:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61973,15 +62116,26 @@ repositories:
         published_at: "2025-07-26T20:28:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.204Z"
+      prompt_version: v2
   - repo: megh-bari/pattern-craft
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+    tags:
+      - design-tools
+      - backgrounds
+      - tailwindcss
+      - ui-components
+      - lang:ts
     summary: Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration.
     last_synced_sha: a57980f158a4a44e0dd8146f43bb2278dca97561
     starred_at: "2025-08-17T11:06:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -62012,6 +62166,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:01.204Z"
+      prompt_version: v2
   - repo: Aider-AI/aider
     categories:
       - ai-ml
