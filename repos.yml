@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-11T16:47:32.793Z"
+  manifest_updated_at: "2026-01-11T16:50:33.706Z"
   total_repos: 1959
   generator_version: v1.0.0
   github_user: primeinc
@@ -82312,13 +82312,18 @@ repositories:
       prompt_version: v2
   - repo: nunchaku-ai/nunchaku
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - diffusion-models
+      - quantization
+      - genai
+      - lang:python
     summary: '[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models'
     last_synced_sha: 4bc2fbff51b280296b2f13bf1adea650e50fd976
     user_starred_at: "2025-04-15T12:37:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -82346,15 +82351,26 @@ repositories:
       forks_count: 213
       disk_usage: 92533
       owner_avatar: https://avatars.githubusercontent.com/u/220671840?v=4
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T16:50:33.705Z"
+      prompt_version: v2
   - repo: joelhooks/swarm-tools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - multi-agent
+      - machine-learning
+      - coordination
+      - lang:ts
+      - management
     summary: "\U0001F41D Multi-agent swarm coordination for Open Code with learning capabilities, agent issue tracking, and management"
     last_synced_sha: d5cf909947db9a6a778e398c3b71884f0590a588
     user_starred_at: "2026-01-11T15:42:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -82378,15 +82394,24 @@ repositories:
         published_at: "2026-01-10T23:21:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T16:50:33.706Z"
+      prompt_version: v2
   - repo: prabirshrestha/dotfiles
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - dotfiles
+      - configuration
+      - lang:lua
     summary: There is no place like ~
     last_synced_sha: 6f52fd5775404f8ab7e29bf8ba40dafc65a63f60
     user_starred_at: "2026-01-11T15:36:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics: []
@@ -82405,15 +82430,24 @@ repositories:
         published_at: "2020-06-20T19:30:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T16:50:33.706Z"
+      prompt_version: v2
   - repo: Dicklesworthstone/coding_agent_session_search
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - coding-agent
+      - session-management
+      - lang:rust
     summary: No description provided
     last_synced_sha: 9f2901e5dc849dedc060a1c804aa9efa191351c1
     user_starred_at: "2026-01-11T15:26:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -82432,15 +82466,25 @@ repositories:
         published_at: "2026-01-06T20:25:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T16:50:33.705Z"
+      prompt_version: v2
   - repo: randomascii/UIforETW
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - monitoring
+    tags:
+      - etw-traces
+      - tracing
+      - windows
+      - lang:cpp
     summary: User interface for recording and managing ETW traces
     last_synced_sha: 0168036340a0df18ac03ca4638ced02a5d2a6024
     user_starred_at: "2026-01-11T07:58:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C++
@@ -82460,15 +82504,25 @@ repositories:
         published_at: "2025-05-22T23:56:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T16:50:33.705Z"
+      prompt_version: v2
   - repo: devicons/devicon
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - icons
+      - font
+      - svg
+      - design
     summary: Set of icons representing programming languages, designing & development tools
     last_synced_sha: 54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08
     user_starred_at: "2026-01-11T06:21:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics:
@@ -82495,3 +82549,8 @@ repositories:
         published_at: "2025-07-21T04:23:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T16:50:33.705Z"
+      prompt_version: v2
