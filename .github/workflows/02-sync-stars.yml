@@ -138,8 +138,48 @@ jobs:
 
               fs.writeFileSync('.github-stars/data/manifest.json', JSON.stringify(manifestData, null, 2));
             }
+            
+            // Sync metadata for existing repos
+            let updatedCount = 0;
+            const repoMap = new Map(starsData.map(s => [s.repo, s]));
+            for (const repo of manifestData.repositories) {
+              const fresh = repoMap.get(repo.repo);
+              if (fresh) {
+                let changed = false;
+                
+                // Update starred_at if significantly different (e.g. real date vs import date)
+                if (fresh.starred_at && fresh.starred_at !== repo.starred_at) {
+                    repo.starred_at = fresh.starred_at;
+                    changed = true;
+                }
 
-            core.setOutput('changed', newRepos.length > 0 || removedRepos.length > 0);
+                // Update GitHub metadata
+                if (repo.last_synced_sha !== fresh.last_commit_sha && fresh.last_commit_sha) {
+                    repo.last_synced_sha = fresh.last_commit_sha;
+                    changed = true;
+                }
+                
+                if (fresh.updated_at && (!repo.github_metadata || repo.github_metadata.updated_at !== fresh.updated_at)) {
+                    if (!repo.github_metadata) repo.github_metadata = {};
+                    repo.github_metadata.updated_at = fresh.updated_at;
+                    repo.github_metadata.stargazers_count = fresh.stargazers_count;
+                    repo.github_metadata.language = fresh.language;
+                    repo.github_metadata.topics = fresh.topics;
+                    repo.github_metadata.license = fresh.license;
+                    changed = true;
+                }
+                
+                if (changed) updatedCount++;
+              }
+            }
+            
+            if (updatedCount > 0) {
+               console.log(`Updated metadata for ${updatedCount} existing repositories`);
+               fs.writeFileSync('.github-stars/data/manifest.json', JSON.stringify(manifestData, null, 2));
+               core.setOutput('changed', 'true');
+            }
+
+            core.setOutput('changed', newRepos.length > 0 || removedRepos.length > 0 || updatedCount > 0);
             core.setOutput('total_new', newRepos.length);
 
       - name: Convert to YAML

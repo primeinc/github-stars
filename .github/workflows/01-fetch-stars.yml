@@ -26,6 +26,7 @@ jobs:
         uses: actions/github-script@v8
         id: fetch-stars
         with:
+          github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
             const path = require('path');
