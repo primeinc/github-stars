@@ -111,6 +111,18 @@ jobs:
     container:
       image: mcr.microsoft.com/playwright:v1.49.0-noble
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        working-directory: web
+        run: npm install
+
       - name: Wait for Pages to be available
         run: |
           url="https://primeinc.github.io/github-stars/"
@@ -129,15 +141,22 @@ jobs:
             exit 1
           fi
 
-      - name: Screenshot home page (Playwright)
-        run: |
-          npm init -y
-          npm i -D playwright@1.49.0
-          node -e "const { chromium } = require('playwright'); (async () => { const b = await chromium.launch(); const p = await b.newPage(); await p.goto('https://primeinc.github.io/github-stars/'); await p.screenshot({ path: 'page-verification.png', fullPage: true }); await b.close(); })()"
+      - name: Run Playwright tests
+        working-directory: web
+        run: npx playwright test
 
       - name: Upload verification screenshot
         uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: site-verification-screenshot
           path: page-verification.png
+
+      - name: Upload Playwright report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: playwright-report
+          path: web/playwright-report/
+          retention-days: 30
 
