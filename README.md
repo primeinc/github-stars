@@ -11,7 +11,7 @@ Last updated: 2026-01-11
 - [3d-printing](categories/3d-printing.md) *(1)*
 
 ### A
-- [ai-ml](categories/ai-ml.md) *(522)*
+- [ai-ml](categories/ai-ml.md) *(523)*
 - [algorithms](categories/algorithms.md) *(1)*
 - [analytics](categories/analytics.md) *(8)*
 - [android-apps](categories/android-apps.md) *(1)*
@@ -42,7 +42,7 @@ Last updated: 2026-01-11
 ### D
 - [data-management](categories/data-management.md) *(2)*
 - [data-protection](categories/data-protection.md) *(1)*
-- [data-science](categories/data-science.md) *(193)*
+- [data-science](categories/data-science.md) *(194)*
 - [databases](categories/databases.md) *(47)*
 - [debugging](categories/debugging.md) *(2)*
 - [deployment](categories/deployment.md) *(20)*
@@ -50,7 +50,7 @@ Last updated: 2026-01-11
 - [desktop](categories/desktop.md) *(1)*
 - [desktop-dev](categories/desktop-dev.md) *(148)*
 - [desktop-development](categories/desktop-development.md) *(1)*
-- [dev-tools](categories/dev-tools.md) *(220)*
+- [dev-tools](categories/dev-tools.md) *(221)*
 - [developer-tools](categories/developer-tools.md) *(5)*
 - [development](categories/development.md) *(1)*
 - [development-tools](categories/development-tools.md) *(5)*
@@ -118,7 +118,7 @@ Last updated: 2026-01-11
 ### P
 - [performance](categories/performance.md) *(1)*
 - [privacy](categories/privacy.md) *(2)*
-- [productivity](categories/productivity.md) *(441)*
+- [productivity](categories/productivity.md) *(442)*
 - [productivity-tools](categories/productivity-tools.md) *(1)*
 - [programming](categories/programming.md) *(1)*
 - [programming-languages](categories/programming-languages.md) *(2)*
@@ -138,7 +138,7 @@ Last updated: 2026-01-11
 - [storage](categories/storage.md) *(4)*
 - [svelte](categories/svelte.md) *(1)*
 - [sync](categories/sync.md) *(1)*
-- [system-admin](categories/system-admin.md) *(168)*
+- [system-admin](categories/system-admin.md) *(169)*
 - [system-administration](categories/system-administration.md) *(5)*
 
 ### T
@@ -149,10 +149,9 @@ Last updated: 2026-01-11
 - [tv-dev](categories/tv-dev.md) *(1)*
 
 ### U
-- [ui-libraries](categories/ui-libraries.md) *(208)*
+- [ui-libraries](categories/ui-libraries.md) *(209)*
 - [ui-performance](categories/ui-performance.md) *(1)*
 - [ui-tools](categories/ui-tools.md) *(1)*
-- [unclassified](categories/unclassified.md) *(3)*
 - [utilities](categories/utilities.md) *(2)*
 
 ### V

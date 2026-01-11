@@ -1,11 +1,12 @@
 # Ui-libraries
 
-*208 repositories*
+*209 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [devicons/devicon](https://github.com/devicons/devicon) | Set of icons representing programming languages, designing & development tools | `CSS` ★ 11.4k | 2025-12-28 |
 | [dvdsgl/claude-canvas](https://github.com/dvdsgl/claude-canvas) | Give Claude Code an external monitor | `TypeScript` ★ 1.1k | 2026-01-08 |
 | [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 29k | 2026-01-07 |
 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | A browser based code editor | `JavaScript` ★ 45.2k | 2026-01-09 |
