@@ -19,7 +19,7 @@ permissions:
 
 concurrency:
   group: build-and-deploy-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
@@ -46,8 +46,6 @@ jobs:
           ./yq eval -o=json '.' repos.yml > docs/data.json
           cp docs/data.json web/public/data.json || true
           echo "Generated docs/data.json and copied to web/public/data.json"
-          echo "Size: $(ls -lh docs/data.json | awk '{print $5}')"
-          echo "Repos: $(./yq eval '.repositories | length' repos.yml)"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -59,6 +57,10 @@ jobs:
       - name: Install Dependencies
         working-directory: web
         run: npm ci
+
+      - name: Lint Code
+        working-directory: web
+        run: npm run lint
 
       - name: Build React App
         working-directory: web
