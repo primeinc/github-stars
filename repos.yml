@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:59:16.014Z"
+  last_updated: "2026-01-11T02:59:32.735Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -41436,13 +41436,18 @@ repositories:
       mirror_url: null
   - repo: flashinfer-ai/flashinfer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - infrastructure
+    tags:
+      - gpu
+      - llm-inference
+      - distributed-inference
+      - lang:python
     summary: 'Flash Infer: Kernel Library for LLM Serving'
     last_synced_sha: 2062decf4f5465974806a547450e3a150d68718c
     starred_at: "2026-01-09T20:26:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -41467,15 +41472,24 @@ repositories:
         published_at: "2026-01-08T02:50:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.735Z"
+      prompt_version: v2
   - repo: HKUDS/RAG-Anything
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - retrieval-augmented-generation
+      - multi-modal-rag
+      - lang:python
     summary: '"RAG-Anything: All-in-One RAG Framework"'
     last_synced_sha: 9c15ba5de6195733ead45d1cfd28c6f1c0fbc683
     starred_at: "2026-01-09T20:26:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -41492,15 +41506,25 @@ repositories:
         published_at: "2025-09-22T03:12:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.735Z"
+      prompt_version: v2
   - repo: HKUDS/VideoRAG
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - llms
+      - multi-modal-llms
+      - retrieval-augmented-generation
+      - lang:python
     summary: '[KDD''2026] "Video RAG: Chat with Your Videos"'
     last_synced_sha: b1c79db0ad28dddf3405baedc9a16e5b1b58d9ba
     starred_at: "2026-01-09T20:25:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -41519,15 +41543,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.735Z"
+      prompt_version: v2
   - repo: browser-use/browser-use
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - browser-automation
+      - ai-tools
+      - llm
+      - lang:python
     summary: "\U0001F310 Make websites accessible for AI agents. Automate tasks online with ease."
     last_synced_sha: 31ed79d6c988827a552e2ebebf42d9505020edaa
     starred_at: "2026-01-09T20:24:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -41549,15 +41583,25 @@ repositories:
         published_at: "2025-12-16T22:06:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.735Z"
+      prompt_version: v2
   - repo: dbt-labs/dbt-core
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - data-modeling
+      - analytics
+      - elt
+      - lang:python
     summary: dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.
     last_synced_sha: 9b4a8bba77bf42da3bd73e3e5ea44032d02eee1c
     starred_at: "2026-01-09T20:24:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -41579,15 +41623,25 @@ repositories:
         published_at: "2026-01-06T23:06:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.735Z"
+      prompt_version: v2
   - repo: NevaMind-AI/memU
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - agent-memory
+      - agentic-ai
+      - llms
+      - lang:python
     summary: Memory infrastructure for LLMs and AI agents
     last_synced_sha: bf44de722965fd611c0dc585712eac587caa9e6c
     starred_at: "2026-01-09T20:23:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -41615,15 +41669,25 @@ repositories:
         published_at: "2026-01-08T09:24:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.735Z"
+      prompt_version: v2
   - repo: hotheadhacker/no-as-a-service
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - api
+      - excuses
+      - expressjs
+      - lang:js
     summary: No-as-a-Service (Naa S) is a simple API that returns a random rejection reason. Use it when you need a realistic excuse, a fun “no,” or want to simulate being turned down in style.
     last_synced_sha: 1c9943dd3e4bb9c011abf4f049e9c2c94f7e6bec
     starred_at: "2026-01-09T20:23:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -41639,15 +41703,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.735Z"
+      prompt_version: v2
   - repo: microsoft/monaco-editor
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - code-editor
+      - browser-based
+      - monaco
+      - lang:js
     summary: A browser based code editor
     last_synced_sha: 558bbbcc1619da88d466bd64856f337a5604e43c
     starred_at: "2026-01-09T20:22:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -41667,15 +41741,26 @@ repositories:
         published_at: "2025-11-20T20:29:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.735Z"
+      prompt_version: v2
   - repo: MobSF/Mobile-Security-Framework-MobSF
     categories:
-      - unclassified
-    tags: []
+      - security
+      - mobile-dev
+      - testing
+    tags:
+      - mobile-security
+      - static-analysis
+      - malware-analysis
+      - lang:js
     summary: Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static...
     last_synced_sha: 457d1e61f3c8dccc3351b40cf7cc34fb764ac615
     starred_at: "2026-01-09T20:21:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -41709,15 +41794,26 @@ repositories:
         published_at: "2025-08-31T07:04:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.735Z"
+      prompt_version: v2
   - repo: coredns/coredns
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - devops
+      - infrastructure
+    tags:
+      - dns-server
+      - service-discovery
+      - cncf
+      - lang:go
     summary: Core DNS is a DNS server that chains plugins
     last_synced_sha: 1c964f2f68bd04a875a41479822ec3da1f1e76ef
     starred_at: "2026-01-09T20:20:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -41738,15 +41834,24 @@ repositories:
         published_at: "2026-01-08T01:10:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.735Z"
+      prompt_version: v2
   - repo: publicsuffix/list
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - documentation
+    tags:
+      - dns
+      - suffix-list
+      - lang:go
     summary: The Public Suffix List
     last_synced_sha: 6e5697a037da7d0a848e269cf9a9429b91817f22
     starred_at: "2026-01-09T20:20:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -41759,15 +41864,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.735Z"
+      prompt_version: v2
   - repo: hashicorp/vault
     categories:
-      - unclassified
-    tags: []
+      - security
+      - devops
+      - infrastructure
+    tags:
+      - secrets-management
+      - encryption
+      - lang:go
     summary: A tool for secrets management, encryption as a service, and privileged access management
     last_synced_sha: f364076082eaf952765ffee119107d64a06e7887
     starred_at: "2026-01-09T20:19:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -41785,15 +41900,26 @@ repositories:
         published_at: "2026-01-07T18:09:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.735Z"
+      prompt_version: v2
   - repo: charmbracelet/crush
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cli-tools
+      - productivity
+    tags:
+      - agentic-ai
+      - llms
+      - terminal
+      - lang:go
     summary: "The glamourous AI coding agent for your favourite terminal \U0001F498"
     last_synced_sha: 0868681f6665c05552491ad1d9f71939fd47f68e
     starred_at: "2026-01-09T20:19:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -41812,15 +41938,27 @@ repositories:
         published_at: "2026-01-07T16:27:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.735Z"
+      prompt_version: v2
   - repo: istio/istio
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - cloud
+      - infrastructure
+    tags:
+      - service-mesh
+      - microservices
+      - api-management
+      - kubernetes
+      - lang:go
     summary: Connect, secure, control, and observe services.
     last_synced_sha: 2099f74c5b920af892e7b409978ab5c6d94365ce
     starred_at: "2026-01-09T20:18:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -41851,15 +41989,24 @@ repositories:
         published_at: "2025-12-22T19:20:23Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.735Z"
+      prompt_version: v2
   - repo: facebook/rocksdb
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - embedded
+    tags:
+      - key-value-store
+      - storage-engine
+      - lang:cpp
     summary: A library that provides an embeddable, persistent key-value store for fast storage.
     last_synced_sha: 2893c25ca2a21590781066d77e6af4faf0ac8d0e
     starred_at: "2026-01-09T20:16:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -41876,6 +42023,11 @@ repositories:
         published_at: "2026-01-06T03:41:23Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:32.734Z"
+      prompt_version: v2
   - repo: upx/upx
     categories:
       - dev-tools
