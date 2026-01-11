@@ -1,13 +1,14 @@
 import { test, expect } from '@playwright/test';
 
 test('has title and loads data', async ({ page }) => {
-  console.log('Navigating to base URL...');
-  await page.goto('/', { waitUntil: 'networkidle' });
+  const url = 'https://primeinc.github.io/github-stars/';
+  console.log(`Navigating to: ${url}`);
+  await page.goto(url, { waitUntil: 'networkidle' });
 
   console.log('Current URL:', page.url());
   console.log('Current Title:', await page.title());
 
-  // Wait for the correct title, retry if it sees "Site not found"
+  // Wait for the correct title
   await expect(page).toHaveTitle(/web/, { timeout: 30000 });
 
   console.log('Title verified. Waiting for "Star Vault" visibility...');
