@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:45:18.717Z"
+  last_updated: "2026-01-11T02:45:38.804Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -60664,13 +60664,18 @@ repositories:
       mirror_url: null
   - repo: datavzrd/datavzrd
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+    tags:
+      - reports
+      - csv-parsing
+      - lang:rust
+      - visualization
     summary: A tool to create visual HTML reports from collections of CSV/TSV tables
     last_synced_sha: a822470573e08256f5e872cf78f6efdd1d00dd49
     starred_at: "2025-09-04T14:46:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -60685,15 +60690,26 @@ repositories:
         published_at: "2025-11-20T13:18:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.804Z"
+      prompt_version: v2
   - repo: olimpo88/PyDDNS
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - web-dev
+    tags:
+      - ddns
+      - dns-server
+      - lang:js
+      - django
+      - dynamic-dns
     summary: Complete system to create your own server ddns
     last_synced_sha: c4c8c7dfb913c4afb451b62c0b01d0a7a4bb6bc1
     starred_at: "2025-09-04T01:59:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -60717,15 +60733,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: django
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.803Z"
+      prompt_version: v2
   - repo: it-scripts/it-drugs
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - fivem
+      - esx
+      - lua-scripts
+      - roleplay
+      - drugs
     summary: Become a master herbalist with this drug script! Ready for every big Five M framework
     last_synced_sha: 78df12b537159eb3552311c158d07b98ed9d6219
     starred_at: "2025-09-03T18:28:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics:
@@ -60746,15 +60773,26 @@ repositories:
         published_at: "2025-05-30T00:04:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.803Z"
+      prompt_version: v2
   - repo: TibixDev/winboat
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - system-admin
+    tags:
+      - docker
+      - windows
+      - virtualization
+      - lang:ts
+      - linux
     summary: "Run Windows apps on \U0001F427 Linux with ✨ seamless integration"
     last_synced_sha: c3173167c3ed89dc3e4e1712283d71549b6217bf
     starred_at: "2025-09-03T18:24:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -60775,15 +60813,26 @@ repositories:
         published_at: "2025-11-23T23:23:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.803Z"
+      prompt_version: v2
   - repo: pgrok/pgrok
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - reverse-tunnel
+      - ssh-tunnel
+      - lang:go
+      - http
+      - tcp
     summary: Poor man's ngrok - a multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding
     last_synced_sha: 980291c68d182d335096f33c6f69081274d80815
     starred_at: "2025-09-03T07:47:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -60807,15 +60856,25 @@ repositories:
         published_at: "2026-01-08T19:48:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.803Z"
+      prompt_version: v2
   - repo: kiqu3z/printer-monitoring-dashboard
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+    tags:
+      - printers
+      - monitoring-dashboard
+      - lang:html
+      - snmp
     summary: um programa que faz a monitoria via SMNP das impressoras de sem a necessidade de configurar um Zabbix ou Grafana.
     last_synced_sha: 0d6383a9ea764269b482abb1d2b090f2a51a509e
     starred_at: "2025-08-30T01:40:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -60828,15 +60887,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.803Z"
+      prompt_version: v2
   - repo: tremorlabs/tremor
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react
+      - lang:ts
+      - components
+      - tailwindcss
+      - dashboard
+      - ui
     summary: Copy & Paste React components to build modern web applications.
     last_synced_sha: ca4d588f47820ff3d514d37fa4ee08a4222dec11
     starred_at: "2025-08-28T22:48:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -60856,15 +60927,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.803Z"
+      prompt_version: v2
   - repo: MorDavid/BruteForceAI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+    tags:
+      - lang:python
+      - brute-force
+      - login-attacks
+      - ai
+      - llm
     summary: Advanced LLM-powered brute-force tool combining AI intelligence with automated login attacks
     last_synced_sha: 0f64b278474a9b20d4a148ac89be49b3f87fd97c
     starred_at: "2025-08-28T22:48:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -60882,15 +60964,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.803Z"
+      prompt_version: v2
   - repo: rink-turksma/IntunePrepTool
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - deployment
+    tags:
+      - intune
+      - intunewin
+      - powershell
+      - deployment
+      - microsoft
     summary: Intune Prep Tool is a tool designed for creating Intune packages using the MS Win32 Content Prep Tool. The tool aims to simplify the process of packaging applications for deployment through Intune ...
     last_synced_sha: ba26ae635a24b6db4527983596f34861b3c5565f
     starred_at: "2025-08-28T05:42:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -60910,15 +61003,26 @@ repositories:
         published_at: "2025-11-01T13:18:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.803Z"
+      prompt_version: v2
   - repo: mltframework/shotcut
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - video-editor
+      - cross-platform
+      - lang:cpp
+      - open-source
+      - mlt
     summary: cross-platform (Qt), open-source (GPLv3) video editor
     last_synced_sha: afb087cb91efd7fab0f3ae24c0904b268e507d9a
     starred_at: "2025-08-28T04:44:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -60938,15 +61042,26 @@ repositories:
         published_at: "2026-01-01T01:15:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.803Z"
+      prompt_version: v2
   - repo: lainra/claude-code-telemetry
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - security
+    tags:
+      - telemetry
+      - observability
+      - lang:js
+      - opentelemetry
+      - llm
     summary: Claude Code Telemetry is a lightweight bridge that captures telemetry data from Claude Code and forwards it to Langfuse for visualization, with a secure local turnkey installation under a minute.
     last_synced_sha: 5ae1fc3c5efe600f9e84380385813c34e3c86a21
     starred_at: "2025-08-26T14:04:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -60970,15 +61085,27 @@ repositories:
         published_at: "2025-08-03T03:48:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.803Z"
+      prompt_version: v2
   - repo: langfuse/langfuse
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - monitoring
+    tags:
+      - llm-ops
+      - analytics
+      - lang:ts
+      - observability
+      - evaluation
+      - prompt-engineering
     summary: "\U0001FAA2 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with Open Telemetry, Langchain, Open AI SDK, Lite LLM, and more. \U0001F34AYC..."
     last_synced_sha: 5fae64e37794b16f8ae85c10db5c112546892a95
     starred_at: "2025-08-26T14:01:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -61012,15 +61139,26 @@ repositories:
         published_at: "2026-01-08T19:51:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.803Z"
+      prompt_version: v2
   - repo: Agent-on-the-Fly/Memento
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - llm
+      - fine-tuning
+      - lang:python
+      - agents
+      - ai-research
     summary: 'Official Code of Memento: Fine-tuning LLM Agents without Fine-tuning LLMs'
     last_synced_sha: 42fbbcac63dd58ed6856c0761357345a58e4f032
     starred_at: "2025-08-26T13:42:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -61033,15 +61171,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.803Z"
+      prompt_version: v2
   - repo: vfarcic/dot-ai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - deployment
+      - cloud
+    tags:
+      - kubernetes
+      - automation
+      - lang:ts
+      - dynamic-discovery
+      - governance
     summary: Intelligent dual-mode agent for deploying applications to ANY Kubernetes cluster through dynamic discovery and plain English governance
     last_synced_sha: d3d702f53c8ad2c1e4c607ca6bb084f464c31b84
     starred_at: "2025-08-26T12:37:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -61056,15 +61206,26 @@ repositories:
         published_at: "2026-01-08T14:32:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.803Z"
+      prompt_version: v2
   - repo: useflyyer/use-smartcrop
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - react-hooks
+      - image-recognition
+      - lang:js
+      - react
+      - smartcrop
     summary: React hook for smartcrop.js to content aware image cropping with points of interest and facial recognition.
     last_synced_sha: 9d03892c6bba0c17060925d05a9acb53d78fbf3e
     starred_at: "2025-08-25T09:40:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -61084,6 +61245,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:45:38.799Z"
+      prompt_version: v2
   - repo: roboflow/supervision
     categories:
       - ai-ml
