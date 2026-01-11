@@ -20,11 +20,14 @@
             template: false
         },
         sort: 'starred_at',
-        sidebarOpen: false
+        sidebarOpen: false,
+        isLoading: false
     };
 
     let fuse = null;
     let observer = null;
+    let tiltInitialized = false;
+    const DEFAULT_AVATAR_DATA_URI = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Ccircle cx=%228%22 cy=%228%22 r=%228%22 fill=%22%23475569%22/%3E%3C/svg%3E';
 
     // ============================================
     // DOM ELEMENTS
@@ -58,6 +61,11 @@
 
     async function init() {
         try {
+            if (els.repoCount) {
+                els.repoCount.setAttribute('aria-live', 'polite');
+                els.repoCount.setAttribute('aria-atomic', 'true');
+            }
+
             const response = await fetch('data.json');
             if (!response.ok) throw new Error('Failed to load data');
             const data = await response.json();
@@ -73,6 +81,12 @@
                 language: repo.github_metadata?.language || 'Unknown',
                 topics: repo.github_metadata?.topics || [],
                 pushed_at: repo.github_metadata?.repo_pushed_at || null,
+                pushed_at_ts: repo.github_metadata?.repo_pushed_at
+                    ? new Date(repo.github_metadata.repo_pushed_at).getTime()
+                    : 0,
+                starred_at_ts: repo.user_starred_at
+                    ? new Date(repo.user_starred_at).getTime()
+                    : 0,
                 avatar: repo.github_metadata?.owner_avatar || null,
                 disk_usage: repo.github_metadata?.disk_usage || 0,
                 is_fork: repo.github_metadata?.is_fork || false
@@ -84,6 +98,7 @@
             initCustomCursor();
             initTiltEffect();
             initMagneticButtons();
+            initAvatarErrorHandler();
             animateCounters();
 
             // Initial Render
@@ -101,6 +116,7 @@
 
     function initCustomCursor() {
         if (!els.cursorGlow) return;
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
         let cursorX = 0, cursorY = 0;
         let actualX = 0, actualY = 0;
@@ -114,8 +130,7 @@
         function animateCursor() {
             actualX += (cursorX - actualX) * 0.1;
             actualY += (cursorY - actualY) * 0.1;
-            els.cursorGlow.style.left = actualX + 'px';
-            els.cursorGlow.style.top = actualY + 'px';
+            els.cursorGlow.style.transform = `translate3d(${actualX}px, ${actualY}px, 0)`;
             requestAnimationFrame(animateCursor);
         }
         animateCursor();
@@ -126,44 +141,31 @@
     // ============================================
 
     function initTiltEffect() {
-        // Reinitialize after cards are rendered
-        const observeCards = () => {
-            document.querySelectorAll('.repo-card').forEach(card => {
-                if (card.hasAttribute('data-tilt-initialized')) return;
+        if (!els.repoGrid || tiltInitialized) return;
+        tiltInitialized = true;
 
-                card.addEventListener('mousemove', (e) => {
-                    const rect = card.getBoundingClientRect();
-                    const x = e.clientX - rect.left;
-                    const y = e.clientY - rect.top;
-                    const centerX = rect.width / 2;
-                    const centerY = rect.height / 2;
-                    const rotateX = (y - centerY) / 20;
-                    const rotateY = (centerX - x) / 20;
+        els.repoGrid.addEventListener('mousemove', (e) => {
+            const card = e.target.closest('.repo-card');
+            if (!card || !els.repoGrid.contains(card)) return;
 
-                    card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.02) translateY(-8px)`;
-                });
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+            const rotateX = (y - centerY) / 20;
+            const rotateY = (centerX - x) / 20;
 
-                card.addEventListener('mouseleave', () => {
-                    card.style.transform = '';
-                });
-
-                card.setAttribute('data-tilt-initialized', 'true');
-            });
-        };
-
-        // Initial setup
-        observeCards();
-
-        // Watch for dynamically added cards
-        const observer = new MutationObserver((mutations) => {
-            mutations.forEach((mutation) => {
-                if (mutation.addedNodes.length) {
-                    observeCards();
-                }
-            });
+            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.02) translateY(-8px)`;
         });
 
-        observer.observe(els.repoGrid, { childList: true });
+        els.repoGrid.addEventListener('mouseout', (e) => {
+            const card = e.target.closest('.repo-card');
+            if (!card || !els.repoGrid.contains(card)) return;
+            if (!card.contains(e.relatedTarget)) {
+                card.style.transform = '';
+            }
+        });
     }
 
     // ============================================
@@ -183,6 +185,21 @@
                 btn.style.transform = '';
             });
         });
+    }
+
+    // ============================================
+    // AVATAR ERROR HANDLER (CSP-safe)
+    // ============================================
+
+    const FALLBACK_AVATAR = 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><circle cx=%228%22 cy=%228%22 r=%228%22 fill=%22%23475569%22/></svg>';
+
+    function initAvatarErrorHandler() {
+        // Use event delegation for img error handling
+        els.repoGrid.addEventListener('error', (e) => {
+            if (e.target.tagName === 'IMG' && e.target.classList.contains('owner-avatar')) {
+                e.target.src = FALLBACK_AVATAR;
+            }
+        }, true); // Use capture phase for error events
     }
 
     // ============================================
@@ -299,6 +316,20 @@
                 }
             }
         });
+
+        els.repoGrid.addEventListener('error', handleAvatarError, true);
+    }
+
+    function handleAvatarError(event) {
+        const target = event.target;
+        if (!target || !target.classList || !target.classList.contains('js-owner-avatar')) {
+            return;
+        }
+        if (target.dataset.avatarFallbackApplied) {
+            return;
+        }
+        target.dataset.avatarFallbackApplied = 'true';
+        target.src = DEFAULT_AVATAR_DATA_URI;
     }
 
     // ============================================
@@ -379,10 +410,10 @@
             switch (state.sort) {
                 case 'stars': return b.stars - a.stars;
                 case 'forks': return b.forks - a.forks;
-                case 'pushed_at': return new Date(b.pushed_at || 0) - new Date(a.pushed_at || 0);
+                case 'pushed_at': return b.pushed_at_ts - a.pushed_at_ts;
                 case 'size': return b.disk_usage - a.disk_usage;
                 case 'starred_at': default:
-                    return new Date(b.user_starred_at || 0) - new Date(a.user_starred_at || 0);
+                    return b.starred_at_ts - a.starred_at_ts;
             }
         });
 
@@ -483,12 +514,16 @@
     }
 
     function renderFacetList(container, items, activeItem, callback) {
-        container.innerHTML = items.map(([name, count]) => `
-            <div class="facet-item ${name === activeItem ? 'selected' : ''}" data-val="${name}">
-                <span>${escapeHtml(name)}</span>
-                <span class="count">${count}</span>
-            </div>
-        `).join('');
+        container.innerHTML = items.map(([name, count]) => {
+            const isActive = name === activeItem;
+            const itemClass = `facet-item${isActive ? ' selected' : ''}`;
+            return `
+                <button type="button" class="${escapeAttr(itemClass)}" data-val="${escapeAttr(name)}" aria-pressed="${escapeAttr(isActive)}">
+                    <span>${escapeHtml(name)}</span>
+                    <span class="count">${count}</span>
+                </button>
+            `;
+        }).join('');
 
         Array.from(container.children).forEach(el => {
             el.addEventListener('click', () => callback(el.dataset.val));
@@ -530,13 +565,11 @@
             els.loadingTrigger.style.display = 'none';
             observer.unobserve(els.loadingTrigger);
         }
-
-        // Reinitialize tilt effect for new cards
-        initTiltEffect();
     }
 
     function loadMore() {
-        if (state.visibleCount >= state.filteredRepos.length) return;
+        if (state.isLoading || state.visibleCount >= state.filteredRepos.length) return;
+        state.isLoading = true;
 
         const nextBatch = state.filteredRepos.slice(state.visibleCount, state.visibleCount + 50);
         state.visibleCount += 50;
@@ -550,8 +583,7 @@
             els.loadingTrigger.style.display = 'none';
         }
 
-        // Reinitialize tilt effect for new cards
-        initTiltEffect();
+        state.isLoading = false;
     }
 
     // ============================================
@@ -559,7 +591,10 @@
     // ============================================
 
     function createCardHTML(repo) {
-        const avatar = repo.avatar || `https://github.com/${repo.repo.split('/')[0]}.png`;
+        const avatar = sanitizeUrl(
+            repo.avatar || `https://github.com/${repo.repo.split('/')[0]}.png`,
+            DEFAULT_AVATAR_DATA_URI
+        );
         const timeAgo = getRelativeTime(repo.pushed_at);
         const hasCategories = repo.categories && repo.categories.length > 0;
         const hasTopics = repo.topics && repo.topics.length > 0;
@@ -583,7 +618,7 @@
         let homepageLink = '';
         if (repo.homepage_url) {
             homepageLink = `
-                <a href="${escapeHtml(repo.homepage_url)}" target="_blank" rel="noopener" class="homepage-link" title="Homepage">
+                <a href="${escapeAttr(sanitizeUrl(repo.homepage_url))}" target="_blank" rel="noopener noreferrer" class="homepage-link" title="Homepage">
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
                         <path d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-.025 5.525a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 1 1-2.83-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 1 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25z"></path>
                     </svg>
@@ -591,22 +626,22 @@
         }
 
         return `
-            <div class="${cardClasses.join(' ')}" data-tilt>
+            <div class="${escapeAttr(cardClasses.join(' '))}" data-tilt>
                 <div class="card-header">
-                    <img src="${avatar}" class="owner-avatar" alt="Avatar" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><circle cx=%228%22 cy=%228%22 r=%228%22 fill=%22%23475569%22/></svg>'">
+                    <img src="${escapeAttr(avatar)}" class="owner-avatar js-owner-avatar" alt="Avatar" loading="lazy">
                     <div class="repo-name">
-                        <a href="${repo.html_url}" target="_blank">${escapeHtml(repo.repo)}</a>
+                        <a href="${escapeAttr(sanitizeUrl(repo.html_url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(repo.repo)}</a>
                     </div>
                     ${homepageLink}
                     ${badges ? `<div class="card-badges">${badges}</div>` : ''}
                 </div>
-                <div class="repo-desc" title="${escapeHtml(repo.summary)}">
+                <div class="repo-desc" title="${escapeAttr(repo.summary)}">
                     ${escapeHtml(repo.summary || 'No description provided.')}
                 </div>
 
                 ${hasCategories ? `
                 <div class="categories">
-                    ${repo.categories.slice(0, 3).map(c => `<button class="category-chip" data-category="${escapeHtml(c)}">${escapeHtml(c)}</button>`).join('')}
+                    ${repo.categories.slice(0, 3).map(c => `<button class="category-chip" data-category="${escapeAttr(c)}">${escapeHtml(c)}</button>`).join('')}
                 </div>
                 ` : ''}
 
@@ -626,10 +661,10 @@
                         ${formatNumber(repo.forks)}
                     </div>
                     <div class="stat-item">
-                        <span class="lang-dot" style="background-color: ${getLangColor(repo.language)}"></span>
+                        <span class="lang-dot" style="background-color: ${escapeAttr(getLangColor(repo.language))}"></span>
                         ${escapeHtml(repo.language)}
                     </div>
-                    <div class="stat-item" title="${repo.disk_usage ? formatBytes(repo.disk_usage * 1024) : 'Unknown size'}">
+                    <div class="stat-item" title="${escapeAttr(repo.disk_usage ? formatBytes(repo.disk_usage * 1024) : 'Unknown size')}">
                         ${timeAgo}
                     </div>
                 </div>
@@ -669,13 +704,35 @@
     }
 
     function escapeHtml(text) {
-        if (!text) return '';
+        if (text === null || text === undefined) return '';
         return String(text)
             .replace(/&/g, "&amp;")
             .replace(/</g, "&lt;")
             .replace(/>/g, "&gt;")
             .replace(/"/g, "&quot;")
             .replace(/'/g, "&#039;");
+    }
+
+    function escapeAttr(value) {
+        if (value === null || value === undefined) return '';
+        return String(value)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
+    }
+
+    function sanitizeUrl(url, fallback = '#') {
+        if (url === null || url === undefined) return fallback;
+        const value = String(url).trim();
+        if (!value) return fallback;
+        if (/^https?:\/\//i.test(value)) return value;
+        if (/^(\/|\.\/|\.\.\/)/.test(value)) return value;
+        if (!/^[a-zA-Z][a-zA-Z\d+\-.]*:/.test(value) && !value.startsWith('//')) {
+            return value;
+        }
+        return fallback;
     }
 
     function debounce(func, wait) {

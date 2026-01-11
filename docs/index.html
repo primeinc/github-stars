@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="style.css">
     <meta name="description" content="A curated, searchable vault of starred repositories.">
     <!-- Load Fuse.js from CDN since we don't have a build step -->
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" integrity="sha384-FhVe7L9Np6J5zqTTRmQX/YnZqNqFpKqWf/t5A1fN5J8cKvQNKEYvGXvwZHJzNfH" crossorigin="anonymous"></script>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <!-- Animated Gradient Mesh Background -->
     <div class="gradient-mesh" aria-hidden="true">
         <div class="gradient-orb gradient-orb-1"></div>
@@ -139,7 +140,7 @@
 
             <header class="content-header">
                 <div class="header-left">
-                    <h1 id="repo-count">Loading...</h1>
+                    <h1 id="repo-count" aria-live="polite" aria-atomic="true">Loading...</h1>
                     <div class="active-filters" id="active-filters"></div>
                 </div>
                 <div class="header-right">

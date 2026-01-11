@@ -61,8 +61,10 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
 }
 
 body {
@@ -77,6 +79,30 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+/* ============================================
+   SKIP LINK (Accessibility)
+   ============================================ */
+
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--accent-primary);
+    color: white;
+    padding: 12px 24px;
+    border-radius: var(--border-radius-md);
+    font-weight: 600;
+    z-index: 10000;
+    transition: top var(--duration-normal) var(--ease-out-expo);
+}
+
+.skip-link:focus {
+    top: 16px;
+    outline: 2px solid white;
+    outline-offset: 2px;
 }
 
 /* ============================================
@@ -290,26 +316,11 @@ body:hover .cursor-glow {
     position: relative;
 }
 
-.search-input::before {
-    content: '';
-    position: absolute;
-    inset: -2px;
-    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary), var(--accent-tertiary));
-    border-radius: inherit;
-    z-index: -1;
-    opacity: 0;
-    transition: opacity var(--duration-normal);
-    background-size: 200% 200%;
-}
-
 .search-input:focus {
     outline: none;
     background: rgba(15, 23, 42, 0.8);
-    animation: gradient-border 3s ease infinite;
-}
-
-.search-input:focus::before {
-    opacity: 1;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
 }
 
 @keyframes gradient-border {
@@ -393,12 +404,18 @@ body:hover .cursor-glow {
     align-items: center;
     padding: 10px 14px;
     border-radius: var(--border-radius-sm);
-    cursor: pointer;
+    font: inherit;
     font-size: 0.9rem;
     color: var(--text-secondary);
     transition: all var(--duration-normal) var(--ease-out-expo);
     position: relative;
     overflow: hidden;
+    appearance: none;
+    background: transparent;
+    border: none;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
 }
 
 .facet-item::before {
@@ -1405,5 +1422,26 @@ body:hover .cursor-glow {
 
     .repo-card {
         border: 2px solid var(--glass-border);
+    }
+}
+
+@media (forced-colors: active) {
+    .repo-card {
+        border: 2px solid CanvasText;
+    }
+
+    .facet-item.selected {
+        border-left: 3px solid Highlight;
+    }
+
+    .category-chip,
+    .topic-tag {
+        border: 1px solid CanvasText;
+    }
+
+    .gradient-text {
+        background: none;
+        -webkit-text-fill-color: inherit;
+        color: LinkText;
     }
 }
