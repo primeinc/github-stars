@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:43:59.165Z"
+  last_updated: "2026-01-11T02:44:17.378Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -62531,13 +62531,19 @@ repositories:
       mirror_url: null
   - repo: pola-rs/polars
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - frameworks
+    tags:
+      - dataframe-library
+      - dataframes
+      - rust
+      - high-performance
+      - lang:rust
     summary: Extremely fast Query Engine for Data Frames, written in Rust
     last_synced_sha: 29a38dc3d9bcb5465eef4cb7fcab4fc938dd28f8
     starred_at: "2025-08-16T08:00:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -62560,15 +62566,25 @@ repositories:
         published_at: "2026-01-10T12:28:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.378Z"
+      prompt_version: v2
   - repo: Y2Z/monolith
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - web-dev
+    tags:
+      - html-saving
+      - backup-tool
+      - lang:rust
+      - web-page
     summary: ⬛️ CLI tool and library for saving complete web pages as a single HTML file
     last_synced_sha: 8702e66fed5bb1b377d6c733f8aff3cdfa9b8dc3
     starred_at: "2025-08-16T07:59:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -62591,15 +62607,26 @@ repositories:
         published_at: "2025-03-30T02:41:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.378Z"
+      prompt_version: v2
   - repo: juspay/hyperswitch
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - fintech
+    tags:
+      - payments
+      - sdk
+      - postgresql
+      - high-performance
+      - lang:rust
     summary: An open source payments switch written in Rust to make payments fast, reliable and affordable
     last_synced_sha: 96053caea2d01913e00a45c310eafbd1a7da6524
     starred_at: "2025-08-16T07:59:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -62628,15 +62655,25 @@ repositories:
         published_at: "2025-11-27T14:01:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.377Z"
+      prompt_version: v2
   - repo: public-apis/public-apis
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+    tags:
+      - api-list
+      - public-apis
+      - free-resources
+      - lang:python
     summary: A collective list of free APIs
     last_synced_sha: a58c76cd32ef345da3e4b7252c7b47275e866ae7
     starred_at: "2025-08-16T07:57:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -62662,15 +62699,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.377Z"
+      prompt_version: v2
   - repo: haydenbleasel/ultracite
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - linter
+      - formatter
+      - vscode
+      - lang:ts
     summary: A highly opinionated, zero-configuration linter and formatter.
     last_synced_sha: ec55167d7670e6cf3f5f44d8ad6c2e09841d55c4
     starred_at: "2025-08-16T07:56:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -62693,15 +62740,26 @@ repositories:
         published_at: "2026-01-10T06:15:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.377Z"
+      prompt_version: v2
   - repo: jasonxtn/Argus
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - osint
+      - information-gathering
+      - reconnaissance
+      - dns-lookup
+      - lang:python
     summary: The Ultimate Information Gathering Toolkit
     last_synced_sha: f51c0442802f1a557220943c72fb2584c7c99fa4
     starred_at: "2025-08-16T07:55:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -62729,15 +62787,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.377Z"
+      prompt_version: v2
   - repo: ghostfolio/ghostfolio
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - personal-finance
+      - portfolio-tracker
+      - finance
+      - lang:ts
     summary: "Open Source Wealth Management Software. Angular + Nest JS + Prisma + Nx + Type Script \U0001F90D"
     last_synced_sha: d58e5f73e9162a589283da8c729bd5813f818bb9
     starred_at: "2025-08-16T07:54:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -62771,15 +62839,25 @@ repositories:
         published_at: "2026-01-03T16:38:36Z"
       is_mirror: false
       mirror_url: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.377Z"
+      prompt_version: v2
   - repo: coderamp-labs/pad.ws
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - dev-tools
+    tags:
+      - whiteboard
+      - ide
+      - lang:ts
+      - web-tools
     summary: Whiteboard as an IDE, draw and code in your browser
     last_synced_sha: eac61edab04e56567fd454e47f71ee0603e3e141
     starred_at: "2025-08-16T07:54:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -62797,15 +62875,26 @@ repositories:
         published_at: "2025-05-28T04:53:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.377Z"
+      prompt_version: v2
   - repo: documenso/documenso
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - digital-signature
+      - pdf-signing
+      - postgresql
+      - self-hosted
+      - lang:ts
     summary: The Open Source Docu Sign Alternative.
     last_synced_sha: 6b041c23b4728de5a8ca0235035015f8f56917e5
     starred_at: "2025-08-16T07:54:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -62838,15 +62927,25 @@ repositories:
         published_at: "2025-12-18T01:02:51Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.377Z"
+      prompt_version: v2
   - repo: dask/dask
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - parallel-computing
+      - task-scheduling
+      - numpy
+      - lang:python
     summary: Parallel computing with task scheduling
     last_synced_sha: f492ac928f1ddba6227835e73a92d0ba79239000
     starred_at: "2025-08-16T07:54:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -62868,15 +62967,25 @@ repositories:
         published_at: "2025-12-12T14:58:23Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.377Z"
+      prompt_version: v2
   - repo: OpenCut-app/OpenCut
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - video-editor
+      - open-source
+      - lang:ts
+      - multimedia
     summary: The open-source Cap Cut alternative
     last_synced_sha: 0173db99448d1c4c6415dcf15272e17551b48b04
     starred_at: "2025-08-16T07:50:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -62892,15 +63001,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.377Z"
+      prompt_version: v2
   - repo: pipecat-ai/pipecat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - ai
+      - chatbot-framework
+      - voice-assistant
+      - real-time
+      - lang:python
     summary: Open Source framework for voice and multimodal conversational AI
     last_synced_sha: 1df9575e2022a28677b65652bdcc46d0494399ae
     starred_at: "2025-08-16T07:48:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -62921,15 +63041,25 @@ repositories:
         published_at: "2025-12-17T19:31:07Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.377Z"
+      prompt_version: v2
   - repo: cli/cli
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - dev-tools
+    tags:
+      - github-api
+      - cli
+      - version-control
+      - lang:go
     summary: Git Hub’s official command line tool
     last_synced_sha: 722acf080d05798e91160e4fc7bedd7a05861542
     starred_at: "2025-08-16T07:47:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -62948,15 +63078,25 @@ repositories:
         published_at: "2025-12-10T16:56:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.377Z"
+      prompt_version: v2
   - repo: Jedward23/Tmux-Orchestrator
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - tmux
+      - automation
+      - task-runner
+      - lang:python
     summary: No description provided
     last_synced_sha: 7193530291e55b594f13196fd2ed97114f0153b8
     starred_at: "2025-08-16T07:47:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -62969,15 +63109,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.377Z"
+      prompt_version: v2
   - repo: microsoft/poml
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - llm
+      - markup-language
+      - vscode-extension
+      - prompt
+      - lang:ts
     summary: Prompt Orchestration Markup Language
     last_synced_sha: baad63aa25662c93e21c2bcee1f7d36e8931453b
     starred_at: "2025-08-16T07:46:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -62994,6 +63145,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:44:17.377Z"
+      prompt_version: v2
   - repo: satococoa/wtp
     categories:
       - cli-tools
