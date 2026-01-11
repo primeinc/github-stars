@@ -13,9 +13,9 @@
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. | `Python` ★ 75.2k | 2026-01-11 |
 | [AutoMaker-Org/automaker](https://github.com/AutoMaker-Org/automaker) | No description provided | `TypeScript` ★ 1.8k | 2026-01-11 |
 | [kdcokenny/opencode-worktree](https://github.com/kdcokenny/opencode-worktree) | Zero-friction git worktrees for Open Code. Auto-spawns terminals, syncs files, cleans up on exit. | `TypeScript` ★ 11 | 2026-01-10 |
-| [leonvanzyl/autocoder](https://github.com/leonvanzyl/autocoder) | No description provided | `Python` ★ 923 | 2026-01-10 |
+| [leonvanzyl/autocoder](https://github.com/leonvanzyl/autocoder) | No description provided | `Python` ★ 927 | 2026-01-10 |
 | [IIEleven11/ComfyUI-Dataset_Maker](https://github.com/IIEleven11/ComfyUI-Dataset_Maker) | No description provided | `Python` ★ 4 | 2026-01-09 |
-| [kasperjunge/agent-resources](https://github.com/kasperjunge/agent-resources) | Install Claude Code skills from Git Hub with one command: uvx add-skill 🚀 Also works for slash commands and subagents 🤙 | `Python` ★ 282 | 2026-01-10 |
+| [kasperjunge/agent-resources](https://github.com/kasperjunge/agent-resources) | Install Claude Code skills from Git Hub with one command: uvx add-skill 🚀 Also works for slash commands and subagents 🤙 | `Python` ★ 283 | 2026-01-10 |
 | [ArtemXTech/claude-code-obsidian-starter](https://github.com/ArtemXTech/claude-code-obsidian-starter) | Free starter kit: Claude Code + Obsidian. Pre-configured vault with skills for projects, tasks, clients, and daily routines. Just open and go. | `Typst` ★ 27 | 2026-01-08 |
 | [kaifcodec/Telespot](https://github.com/kaifcodec/Telespot) | Tele Spot OSINT lookup from Telephone number using DDGR + BING + GOOGLE and pattern recognition correlations. | `Python` ★ 4 | 2026-01-09 |
 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool | `JavaScript` ★ 81.1k | 2026-01-11 |
@@ -30,7 +30,7 @@
 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, v LLM pods | `TypeScript` ★ 1.5k | 2026-01-11 |
 | [jasonkneen/workflow-builder-template](https://github.com/jasonkneen/workflow-builder-template) | Visual AI workflow automation platform | `TypeScript` ★ 1 | 2026-01-09 |
 | [inclusionAI/AEnvironment](https://github.com/inclusionAI/AEnvironment) | Standardized environment infrastructure for Agentic AI development. | `Python` ★ 235 | 2026-01-09 |
-| [lux032/MusicAutoTagger](https://github.com/lux032/MusicAutoTagger) | A smart music file organization tool based on audio fingerprinting technology. It automatically monitors the download directory, identifies songs using Acoust ID and Music Brainz, completes metadat... | `Java` ★ 42 | 2026-01-02 |
+| [lux032/MusicAutoTagger](https://github.com/lux032/MusicAutoTagger) | A smart music file organization tool based on audio fingerprinting technology. It automatically monitors the download directory, identifies songs using Acoust ID and Music Brainz, completes metadat... | `Java` ★ 43 | 2026-01-02 |
 | [leukipp/touchkio](https://github.com/leukipp/touchkio) | Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display. | `JavaScript` ★ 1k | 2025-12-15 |
 | [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) | Automate browser based workflows with AI | `Python` ★ 20.1k | 2026-01-10 |
 | [alibaba/ROCK](https://github.com/alibaba/ROCK) | A construction kit for reinforcement learning environment management. | `Python` ★ 292 | 2026-01-11 |
@@ -40,7 +40,7 @@
 | [blueraincoatli/ComfyUI-Model-Cleaner](https://github.com/blueraincoatli/ComfyUI-Model-Cleaner) | Try to locate the "orphan models" and clean them | `Python` ★ 3 | 2025-12-18 |
 | [HKUDS/DeepCode](https://github.com/HKUDS/DeepCode) | "Deep Code: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)" | `Python` ★ 13.8k | 2026-01-07 |
 | [github/codeql-action](https://github.com/github/codeql-action) | Actions for running Code QL analysis | `TypeScript` ★ 1.5k | 2026-01-09 |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` ★ 60.1k | 2026-01-11 |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` ★ 60.2k | 2026-01-11 |
 | [nanobrowser/nanobrowser](https://github.com/nanobrowser/nanobrowser) | Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to Open AI Operator. | `TypeScript` ★ 11.9k | 2025-11-24 |
 | [JustAnotherArchivist/snscrape](https://github.com/JustAnotherArchivist/snscrape) | A social networking service scraper in Python | `Python` ★ 5.2k | 2023-11-15 |
 | [eddie-jimenez/IntunePolicyChangeReport](https://github.com/eddie-jimenez/IntunePolicyChangeReport) | An Azure runbook that provides a reliable, human-readable record of what changed in Intune policies, who changed it, and when. | `PowerShell` ★ 20 | 2025-10-22 |
@@ -87,7 +87,7 @@
 | [harry-s-grewal/mls-real-estate-scraper-for-realtor.ca](https://github.com/harry-s-grewal/mls-real-estate-scraper-for-realtor.ca) | Python MLS and Real-Estate Data Scraper for the Realtor.ca Website | `Python` ★ 73 | 2023-09-08 |
 | [baizel36/property_search](https://github.com/baizel36/property_search) | Python scripts to search for real estate on realtor.com and zillow.com | `Python` ★ 14 | 2021-11-13 |
 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | Automate the process of making money online. | `Python` ★ 12.9k | 2025-07-08 |
-| [langgenius/dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development. | `Python` ★ 125.4k | 2026-01-10 |
+| [langgenius/dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development. | `Python` ★ 125.4k | 2026-01-11 |
 | [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome) | Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, c... | `TypeScript` ★ 9.9k | 2026-01-06 |
 | [automatisch/automatisch](https://github.com/automatisch/automatisch) | The open source Zapier alternative. Build workflow automation without spending time and money. | `JavaScript` ★ 13.5k | 2026-01-07 |
 | [jahwag/ClaudeSync](https://github.com/jahwag/ClaudeSync) | Claude Sync is a Python tool that automates the synchronization of local files with Claude.ai Projects | `Python` ★ 657 | 2025-12-01 |
@@ -128,9 +128,9 @@
 | [TaxyAI/browser-extension](https://github.com/TaxyAI/browser-extension) | Automate your browser with GPT-4 | `TypeScript` ★ 1.3k | 2025-01-15 |
 | [McCloudS/subgen](https://github.com/McCloudS/subgen) | Autogenerate subtitles using Open AI Whisper Model via Jellyfin, Plex, Emby, Tautulli, or Bazarr | `Python` ★ 1.1k | 2026-01-10 |
 | [nyavramov/loopifi](https://github.com/nyavramov/loopifi) | Source for loopifi.com. Find and make smooth loops from videos! Create and download smoothly looping gifs and webms from youtube and other video streaming sites, or upload your own! | `Python` ★ 32 | 2022-12-08 |
-| [nylonee/watchlistarr](https://github.com/nylonee/watchlistarr) | Customizable sync of Plex Watchlist to Sonarr/Radarr | `Scala` ★ 347 | 2025-11-08 |
+| [nylonee/watchlistarr](https://github.com/nylonee/watchlistarr) | Customizable sync of Plex Watchlist to Sonarr/Radarr | `Scala` ★ 348 | 2025-11-08 |
 | [TheCactusVert/mpv-sponsorblock](https://github.com/TheCactusVert/mpv-sponsorblock) | MPV plugin that allow you to skip sponsors while watching You Tube videos | `Rust` ★ 70 | 2024-08-26 |
-| [stevenbennett/Open-Task-Light](https://github.com/stevenbennett/Open-Task-Light) | Components for making the DIY son lamp | `Python` ★ 621 | 2025-07-22 |
+| [stevenbennett/Open-Task-Light](https://github.com/stevenbennett/Open-Task-Light) | Components for making the DIY son lamp | `Python` ★ 622 | 2025-07-22 |
 | [Bing-su/adetailer](https://github.com/Bing-su/adetailer) | Auto detecting, masking and inpainting with detection model. | `Python` ★ 4.7k | 2025-12-22 |
 | [Romanitho/Winget-AutoUpdate](https://github.com/Romanitho/Winget-AutoUpdate) | WAU daily updates apps as system and notify connected users. (Allowlist and Blocklist support) | `PowerShell` ★ 1.7k | 2026-01-10 |
 | [d8ahazard/sd_smartprocess](https://github.com/d8ahazard/sd_smartprocess) | Smart Pre-processing extension for Stable Diffusion | `Python` ★ 198 | 2024-07-19 |

@@ -10,11 +10,11 @@
 | [rayenghanmi/RyTuneX](https://github.com/rayenghanmi/RyTuneX) | Ry Tune X is a cutting-edge optimizer built with the Win UI 3 framework, designed to amplify the performance of Windows devices. Crafted for both Windows 10 and 11. | `C#` ★ 3.8k | 2026-01-10 |
 | [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 29.3k | 2025-11-14 |
 | [upx/upx](https://github.com/upx/upx) | UPX - the Ultimate Packer for e Xecutables | `C++` ★ 17k | 2026-01-10 |
-| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 2.6k | 2026-01-10 |
+| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 2.6k | 2026-01-11 |
 | [memstechtips/Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | `C#` ★ 4.3k | 2026-01-09 |
 | [SpriteOvO/AirPodsDesktop](https://github.com/SpriteOvO/AirPodsDesktop) | ☄️ Air Pods desktop user experience enhancement program, for Windows and Linux (WIP) | `C++` ★ 2.4k | 2024-07-12 |
 | [builtbybel/FlyOOBE](https://github.com/builtbybel/FlyOOBE) | Fly through your Windows 11 setup 🐝 | `C#` ★ 6.4k | 2026-01-04 |
-| [jgarzik/hk](https://github.com/jgarzik/hk) | A modern, Linux compatible OS kernel | `Rust` ★ 328 | 2025-12-30 |
+| [jgarzik/hk](https://github.com/jgarzik/hk) | A modern, Linux compatible OS kernel | `Rust` ★ 329 | 2025-12-30 |
 | [xxh/xxh](https://github.com/xxh/xxh) | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | `Python` ★ 5.9k | 2025-09-22 |
 | [rothgar/awesome-tmux](https://github.com/rothgar/awesome-tmux) | A list of awesome resources for tmux | ★ 9.3k | 2026-01-09 |
 | [Klocman/Bulk-Crap-Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller) | Remove large amounts of unwanted applications quickly. | `C#` ★ 17k | 2025-08-14 |

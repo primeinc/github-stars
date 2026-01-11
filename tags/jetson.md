@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 238 | 2025-12-11 |
+| [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 237 | 2025-12-11 |
 | [paloukari/jetson-detectors](https://github.com/paloukari/jetson-detectors) | Contains examples and documentation on how to setup your remote development environment from your Windows host to a Jetson device | `Python` ★ 13 | 2019-10-05 |
 | [Ryoyo-NV/People-Flow-Analysis-System](https://github.com/Ryoyo-NV/People-Flow-Analysis-System) | People flow analysis system for Jetson Nano, Xavier NX, and AGX Xavier. | `Python` ★ 50 | 2022-01-28 |
 | [BestAnHongjun/LMDeploy-Jetson](https://github.com/BestAnHongjun/LMDeploy-Jetson) | Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access. | ★ 105 | 2024-03-23 |

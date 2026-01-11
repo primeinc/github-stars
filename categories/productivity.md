@@ -18,7 +18,7 @@
 | [Lulzx/zpdf](https://github.com/Lulzx/zpdf) | Zero-copy PDF text extraction library written in Zig. High-performance, memory-mapped parsing with SIMD acceleration. | `Zig` ★ 790 | 2026-01-02 |
 | [snarktank/ralph](https://github.com/snarktank/ralph) | Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete. | `TypeScript` ★ 1.9k | 2026-01-07 |
 | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition. | `Shell` ★ 6.9k | 2026-01-10 |
-| [openprose/prose](https://github.com/openprose/prose) | No description provided | ★ 516 | 2026-01-10 |
+| [openprose/prose](https://github.com/openprose/prose) | No description provided | ★ 517 | 2026-01-10 |
 | [taskflow/taskflow](https://github.com/taskflow/taskflow) | A General-purpose Task-parallel Programming System using Modern C++ | `C++` ★ 11.6k | 2026-01-10 |
 | [rayenghanmi/RyTuneX](https://github.com/rayenghanmi/RyTuneX) | Ry Tune X is a cutting-edge optimizer built with the Win UI 3 framework, designed to amplify the performance of Windows devices. Crafted for both Windows 10 and 11. | `C#` ★ 3.8k | 2026-01-10 |
 | [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | Get 10X more out of Claude Code, Codex or any coding agent | `Rust` ★ 14.6k | 2026-01-10 |
@@ -29,17 +29,17 @@
 | [sharkdp/bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | `Rust` ★ 56.6k | 2026-01-10 |
 | [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications. | `Python` ★ 12.1k | 2026-01-10 |
 | [charmbracelet/crush](https://github.com/charmbracelet/crush) | The glamourous AI coding agent for your favourite terminal 💘 | `Go` ★ 17.5k | 2026-01-10 |
-| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Claude Skills for Obsidian | ★ 4.9k | 2026-01-10 |
-| [0xSero/Azul](https://github.com/0xSero/Azul) | Browse the world in the comfort of your terminal | `Rust` ★ 140 | 2026-01-08 |
+| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Claude Skills for Obsidian | ★ 5k | 2026-01-10 |
+| [0xSero/Azul](https://github.com/0xSero/Azul) | Browse the world in the comfort of your terminal | `Rust` ★ 141 | 2026-01-08 |
 | [ishandutta2007/open-hr](https://github.com/ishandutta2007/open-hr) | 📖opensource equivalent of Deel payroll and HR solutions | ★ 1 | 2026-01-09 |
 | [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) | The first "code-first" agent framework for seamlessly planning and executing data analytics tasks. | `Python` ★ 6.1k | 2026-01-07 |
-| [davidfowl/tally](https://github.com/davidfowl/tally) | Let agents classify your bank transactions. | `Python` ★ 938 | 2026-01-10 |
+| [davidfowl/tally](https://github.com/davidfowl/tally) | Let agents classify your bank transactions. | `Python` ★ 940 | 2026-01-10 |
 | [ArtemXTech/claude-code-obsidian-starter](https://github.com/ArtemXTech/claude-code-obsidian-starter) | Free starter kit: Claude Code + Obsidian. Pre-configured vault with skills for projects, tasks, clients, and daily routines. Just open and go. | `Typst` ★ 27 | 2026-01-08 |
 | [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | A beautiful web UI for browsing Claude Code conversation history. | `TypeScript` ★ 436 | 2026-01-10 |
 | [OpenSignLabs/OpenSign](https://github.com/OpenSignLabs/OpenSign) | 🔥 The free & Open Source Docu Sign alternative | `JavaScript` ★ 5.8k | 2026-01-09 |
 | [subframe7536/maple-font](https://github.com/subframe7536/maple-font) | Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项 | `Python` ★ 22.7k | 2026-01-09 |
 | [riccardoruspoli/reko](https://github.com/riccardoruspoli/reko) | Make You Tube videos readable. Local-first Markdown summaries with Ollama, with cloud providers support. | `Python` ★ 60 | 2025-12-28 |
-| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 2.6k | 2026-01-10 |
+| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 2.6k | 2026-01-11 |
 | [supreme-gg-gg/instagram-cli](https://github.com/supreme-gg-gg/instagram-cli) | Instagram's terminal UI app - The ultimate weapon against brainrot | `TypeScript` ★ 1.2k | 2026-01-11 |
 | [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code | `TypeScript` ★ 1.1k | 2026-01-10 |
 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. | `TypeScript` ★ 5.3k | 2026-01-10 |
@@ -48,7 +48,7 @@
 | [memstechtips/Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | `C#` ★ 4.3k | 2026-01-09 |
 | [NullandKale/NullSplats](https://github.com/NullandKale/NullSplats) | No description provided | `Python` ★ 112 | 2026-01-11 |
 | [rsalmei/alive-progress](https://github.com/rsalmei/alive-progress) | A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations! | `Python` ★ 6.2k | 2025-10-10 |
-| [code-yeongyu/oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode) | The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you. | `TypeScript` ★ 13.6k | 2026-01-11 |
+| [code-yeongyu/oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode) | The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you. | `TypeScript` ★ 13.7k | 2026-01-11 |
 | [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) | Personal AI Infrastructure for upgrading humans. | `TypeScript` ★ 4.3k | 2026-01-10 |
 | [rendercv/rendercv](https://github.com/rendercv/rendercv) | CV/resume generator for academics and engineers, YAML to PDF | `Python` ★ 14.6k | 2026-01-05 |
 | [undox-rs/undox](https://github.com/undox-rs/undox) | :book: A batteries-included static site generator built for documentation, with first-class support for aggregating content from multiple repositories | `Rust` ★ 9 | 2025-12-16 |
@@ -56,7 +56,7 @@
 | [jgm/pandoc](https://github.com/jgm/pandoc) | Universal markup converter | `Haskell` ★ 41.3k | 2026-01-11 |
 | [sohzm/cheating-daddy](https://github.com/sohzm/cheating-daddy) | a free and opensource app that lets you gain an unfair advantage | `JavaScript` ★ 4.9k | 2025-12-12 |
 | [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs) | A list of semi to fully remote-friendly companies (jobs) in tech. | `JavaScript` ★ 39.9k | 2025-12-30 |
-| [refly-ai/refly](https://github.com/refly-ai/refly) | Vibe Workflow Platform for Non-technical Creators. | `TypeScript` ★ 5.9k | 2026-01-10 |
+| [refly-ai/refly](https://github.com/refly-ai/refly) | Vibe Workflow Platform for Non-technical Creators. | `TypeScript` ★ 5.9k | 2026-01-11 |
 | [rybbit-io/rybbit](https://github.com/rybbit-io/rybbit) | 🐸 Rybbit - open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive. | `TypeScript` ★ 10.7k | 2026-01-11 |
 | [korfuri/awesome-monorepo](https://github.com/korfuri/awesome-monorepo) | A curated list of awesome Monorepo tools, software and architectures. | ★ 5.7k | 2024-08-16 |
 | [humhub/humhub](https://github.com/humhub/humhub) | Hum Hub is an Open Source Enterprise Social Network. Easy to install, intuitive to use and extendable with countless freely available modules. | `PHP` ★ 6.6k | 2026-01-10 |
@@ -72,7 +72,7 @@
 | [C4illin/ConvertX](https://github.com/C4illin/ConvertX) | 💾 Self-hosted online file converter. Supports 1000+ formats ⚙️ | `TypeScript` ★ 14.3k | 2026-01-08 |
 | [KnifMelti/WAU-Settings-GUI](https://github.com/KnifMelti/WAU-Settings-GUI) | Provides a user-friendly portable standalone interface to modify every aspect of Winget-Auto Update (WAU) | `PowerShell` ★ 26 | 2026-01-01 |
 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future ... | `TypeScript` ★ 13.1k | 2026-01-10 |
-| [lux032/MusicAutoTagger](https://github.com/lux032/MusicAutoTagger) | A smart music file organization tool based on audio fingerprinting technology. It automatically monitors the download directory, identifies songs using Acoust ID and Music Brainz, completes metadat... | `Java` ★ 42 | 2026-01-02 |
+| [lux032/MusicAutoTagger](https://github.com/lux032/MusicAutoTagger) | A smart music file organization tool based on audio fingerprinting technology. It automatically monitors the download directory, identifies songs using Acoust ID and Music Brainz, completes metadat... | `Java` ★ 43 | 2026-01-02 |
 | [basecamp/fizzy](https://github.com/basecamp/fizzy) | Kanban as it should be. Not as it has been. | `Ruby` ★ 6.6k | 2026-01-09 |
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | :octocat: Browser extension that simplifies the Git Hub interface and adds useful features | `TypeScript` ★ 30.1k | 2026-01-10 |
 | [thinking-machines-lab/tinker-cookbook](https://github.com/thinking-machines-lab/tinker-cookbook) | Post-training with Tinker | `Python` ★ 2.7k | 2026-01-08 |
@@ -90,8 +90,8 @@
 | [luckgrid/lg-gnosys](https://github.com/luckgrid/lg-gnosys) | A monorepo architecture starter project for building framework agnostic applications with a feature rich development workspaces configuration... | `CSS` ★ 1 | 2025-09-13 |
 | [astrofox-io/astrofox](https://github.com/astrofox-io/astrofox) | Astrofox is a motion graphics program that lets you turn audio into amazing videos. | `JavaScript` ★ 1.9k | 2024-05-27 |
 | [pwa-builder/PWABuilder](https://github.com/pwa-builder/PWABuilder) | The simplest way to create progressive web apps across platforms and devices. Start here. This repo is home to several projects in the PWABuilder family of tools. | `TypeScript` ★ 3.4k | 2026-01-08 |
-| [marmelab/shadcn-admin-kit](https://github.com/marmelab/shadcn-admin-kit) | Component kit to build your Admin app with shadcn/ui | `TypeScript` ★ 711 | 2026-01-09 |
-| [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | Hundreds of Claude Code plugins with embedded AI skills. Learn via interactive Jupyter tutorials. | `Python` ★ 939 | 2026-01-11 |
+| [marmelab/shadcn-admin-kit](https://github.com/marmelab/shadcn-admin-kit) | Component kit to build your Admin app with shadcn/ui | `TypeScript` ★ 712 | 2026-01-09 |
+| [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | Hundreds of Claude Code plugins with embedded AI skills. Learn via interactive Jupyter tutorials. | `Python` ★ 940 | 2026-01-11 |
 | [gamosoft/NoteDiscovery](https://github.com/gamosoft/NoteDiscovery) | Your Self-Hosted Knowledge Base | `JavaScript` ★ 2k | 2026-01-05 |
 | [openworkflowdev/openworkflow](https://github.com/openworkflowdev/openworkflow) | Open-source Type Script framework for building durable, resumable workflows. | `TypeScript` ★ 674 | 2026-01-08 |
 | [opencloud-eu/opencloud](https://github.com/opencloud-eu/opencloud) | 🌤️ Open Cloud is the open source platform for file management, sharing and collaboration. Simple and sovereign. | `Go` ★ 4.6k | 2026-01-09 |
@@ -107,7 +107,7 @@
 | [microsoft/Intune-solutions](https://github.com/microsoft/Intune-solutions) | Git Hub Repository for Solution Intune Sample Scripts | `PowerShell` ★ 64 | 2023-07-02 |
 | [aleks-apostle/claude-code-patches](https://github.com/aleks-apostle/claude-code-patches) | A simple patch that toggles claude-code thinking traces to be fully expanded by default without having to press ctrl + o | `JavaScript` ★ 38 | 2025-12-09 |
 | [elie222/inbox-zero](https://github.com/elie222/inbox-zero) | The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast. | `TypeScript` ★ 9.8k | 2026-01-11 |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` ★ 60.1k | 2026-01-11 |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` ★ 60.2k | 2026-01-11 |
 | [github/docs](https://github.com/github/docs) | The open-source repo for docs.github.com | `TypeScript` ★ 18.7k | 2026-01-10 |
 | [ramensoftware/windhawk](https://github.com/ramensoftware/windhawk) | The customization marketplace for Windows programs: https://windhawk.net/ | `C++` ★ 6.6k | 2025-12-08 |
 | [Tyrrrz/YoutubeDownloader](https://github.com/Tyrrrz/YoutubeDownloader) | Downloads videos and playlists from You Tube | `C#` ★ 13.9k | 2026-01-01 |
@@ -119,7 +119,7 @@
 | [opf/openproject](https://github.com/opf/openproject) | Open Project is the leading open source project management software. | `Ruby` ★ 13.7k | 2026-01-11 |
 | [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) | The best way to get AI coding agents to solve hard problems in complex codebases. | `TypeScript` ★ 8.5k | 2026-01-11 |
 | [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) | An Open Source implementation of Notebook LM with more flexibility and features | `TypeScript` ★ 17.7k | 2026-01-10 |
-| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 37.2k | 2025-12-20 |
+| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 37.3k | 2025-12-20 |
 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader | `Python` ★ 141.3k | 2026-01-06 |
 | [deechtejoao/stonkfetch](https://github.com/deechtejoao/stonkfetch) | A command-line tool that fetches and displays stock information with beautiful colored ASCII art logos, inspired by neofetch. | `Python` ★ 33 | 2025-11-09 |
 | [sonnyp/Eloquent](https://github.com/sonnyp/Eloquent) | Your proofreading assistant | `JavaScript` ★ 194 | 2025-12-16 |
@@ -160,12 +160,12 @@
 | [Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy) | 🦄 A curated list of privacy & security-focused software and services | `Astro` ★ 8.7k | 2026-01-10 |
 | [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page_facing_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 26k | 2025-12-31 |
 | [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | 😎 A curated list of awesome Git Hub Profile which updates in real time | ★ 28.9k | 2024-08-19 |
-| [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: | ★ 80k | 2024-07-29 |
+| [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: | ★ 80.1k | 2024-07-29 |
 | [winapps-org/winapps](https://github.com/winapps-org/winapps) | Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration. Hard fork of https://github.com/Fmstr... | `Shell` ★ 13.8k | 2026-01-08 |
 | [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows) | all of the workflows of n8n i could find (also from the site itself) | `Python` ★ 49.5k | 2025-12-05 |
 | [11cafe/jaaz](https://github.com/11cafe/jaaz) | The world's first open-source multimodal creative assistant This is a substitute for Canva and Manus that prioritizes privacy and is usable locally. | `TypeScript` ★ 5.7k | 2025-11-10 |
 | [docling-project/docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI | `Python` ★ 49.7k | 2026-01-09 |
-| [github/spec-kit](https://github.com/github/spec-kit) | 💫 Toolkit to help you get started with Spec-Driven Development | `Python` ★ 61.5k | 2025-12-04 |
+| [github/spec-kit](https://github.com/github/spec-kit) | 💫 Toolkit to help you get started with Spec-Driven Development | `Python` ★ 61.6k | 2025-12-04 |
 | [ErsatzTV/ErsatzTV](https://github.com/ErsatzTV/ErsatzTV) | Open-source platform that transforms your personal media library into live, custom TV channels. | `C#` ★ 2.4k | 2026-01-10 |
 | [NVIDIA/NeMo-Agent-Toolkit](https://github.com/NVIDIA/NeMo-Agent-Toolkit) | The NVIDIA Ne Mo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents. | `Python` ★ 1.7k | 2026-01-10 |
 | [Mentra-Community/MentraOS](https://github.com/Mentra-Community/MentraOS) | Mentra OS is the leading smart glasses platform + SDK. Stream your view, transcribe audio, talk to AI and capture photos hands-free on compatible glasses. | `TypeScript` ★ 1.6k | 2026-01-11 |
@@ -234,7 +234,7 @@
 | [Mail-0/Zero](https://github.com/Mail-0/Zero) | Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://discord.gg/mail0 | `TypeScript` ★ 10.3k | 2025-09-04 |
 | [automatisch/automatisch](https://github.com/automatisch/automatisch) | The open source Zapier alternative. Build workflow automation without spending time and money. | `JavaScript` ★ 13.5k | 2026-01-07 |
 | [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | A CLI tool for analyzing Claude Code usage from local JSONL files. | `TypeScript` ★ 9.7k | 2026-01-10 |
-| [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, powered by the community. | `TypeScript` ★ 38.4k | 2026-01-10 |
+| [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, powered by the community. | `TypeScript` ★ 38.5k | 2026-01-11 |
 | [jahwag/ClaudeSync](https://github.com/jahwag/ClaudeSync) | Claude Sync is a Python tool that automates the synchronization of local files with Claude.ai Projects | `Python` ★ 657 | 2025-12-01 |
 | [GeoAnima/Gemini-Conversation-Downloader](https://github.com/GeoAnima/Gemini-Conversation-Downloader) | About Download Gemini conversations in JSON and PDF format. | `JavaScript` ★ 12 | 2025-03-26 |
 | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | The official Python SDK for Model Context Protocol servers and clients | `Python` ★ 21k | 2026-01-08 |
@@ -257,7 +257,7 @@
 | [Vinzent03/obsidian-git](https://github.com/Vinzent03/obsidian-git) | Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md | `TypeScript` ★ 9.5k | 2026-01-07 |
 | [vrtmrz/obsidian-livesync](https://github.com/vrtmrz/obsidian-livesync) | No description provided | `TypeScript` ★ 8.9k | 2026-01-10 |
 | [QiuYannnn/Local-File-Organizer](https://github.com/QiuYannnn/Local-File-Organizer) | An AI-powered file management tool that ensures privacy by organizing local texts, images. Using Llama3.2 3B and Llava v1.6 models with the Nexa SDK, it intuitively scans, restructures, and organiz... | `Python` ★ 3.1k | 2024-10-21 |
-| [makeplane/plane](https://github.com/makeplane/plane) | 🔥 🔥 🔥 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and cycles the easiest way on the planet. | `TypeScript` ★ 43.2k | 2026-01-09 |
+| [makeplane/plane](https://github.com/makeplane/plane) | 🔥 🔥 🔥 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and cycles the easiest way on the planet. | `TypeScript` ★ 43.3k | 2026-01-11 |
 | [RenjiYuusei/CursorFocus](https://github.com/RenjiYuusei/CursorFocus) | A lightweight tool that maintains a focused view of your project structure and environment. Cursor Focus automatically tracks your project files, functions, and environment variables, updating ever... | `Python` ★ 172 | 2025-04-02 |
 | [johnbenac/cursor-watchful-headers](https://github.com/johnbenac/cursor-watchful-headers) | Automated file header management and project structure visualization in cursorrules. Maintains consistent headers across multiple file types while providing real-time project tree updates. Perfect ... | `Python` ★ 51 | 2025-06-09 |
 | [glanceapp/glance](https://github.com/glanceapp/glance) | A self-hosted dashboard that puts all your feeds in one place | `Go` ★ 31.1k | 2025-12-10 |
@@ -314,10 +314,10 @@
 | [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) | Karabiner-Elements is a powerful tool for customizing keyboards on mac OS | `C++` ★ 21.3k | 2026-01-11 |
 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFF i NE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable ... | `TypeScript` ★ 61.6k | 2026-01-10 |
 | [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) |  Now we have become very big, Different from the original idea. Collect premium software in various categories. | `JavaScript` ★ 97.5k | 2025-12-27 |
-| [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate social media scheduling tool, with a bunch of AI 🤖 | `TypeScript` ★ 25.9k | 2026-01-09 |
+| [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate social media scheduling tool, with a bunch of AI 🤖 | `TypeScript` ★ 25.9k | 2026-01-11 |
 | [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | A community-supported supercharged document management system: scan, index and archive all your documents | `Python` ★ 35.5k | 2026-01-11 |
 | [Anze/KeyCluCask](https://github.com/Anze/KeyCluCask) | Simple and handy overview of applications shortcuts | ★ 1.8k | 2025-07-06 |
-| [martymcmodding/iMMERSE](https://github.com/martymcmodding/iMMERSE) | Marty's Mods Epic Re Shade Effects | `HLSL` ★ 398 | 2025-09-11 |
+| [martymcmodding/iMMERSE](https://github.com/martymcmodding/iMMERSE) | Marty's Mods Epic Re Shade Effects | `HLSL` ★ 397 | 2025-09-11 |
 | [Readarr/Readarr](https://github.com/Readarr/Readarr) | Book Manager and Automation (Sonarr for Ebooks) | `C#` ★ 3.4k | 2025-06-27 |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI Agents; Announcing Open Memory MCP - local and secure memory management. | `Python` ★ 45.3k | 2026-01-10 |
 | [abb128/LiveCaptions](https://github.com/abb128/LiveCaptions) | Linux Desktop application that provides live captioning | `C` ★ 1.7k | 2025-02-27 |
@@ -326,7 +326,7 @@
 | [openrecall/openrecall](https://github.com/openrecall/openrecall) | Open Recall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With Open Recall, you can easily access your digital history, enhancing your ... | `Python` ★ 2.6k | 2025-09-24 |
 | [ellite/Wallos](https://github.com/ellite/Wallos) | Wallos: Open-Source Personal Subscription Tracker | `PHP` ★ 7.1k | 2025-12-20 |
 | [TagStudioDev/TagStudio](https://github.com/TagStudioDev/TagStudio) | A User-Focused Photo & File Management System | `Python` ★ 6.7k | 2025-12-31 |
-| [nylonee/watchlistarr](https://github.com/nylonee/watchlistarr) | Customizable sync of Plex Watchlist to Sonarr/Radarr | `Scala` ★ 347 | 2025-11-08 |
+| [nylonee/watchlistarr](https://github.com/nylonee/watchlistarr) | Customizable sync of Plex Watchlist to Sonarr/Radarr | `Scala` ★ 348 | 2025-11-08 |
 | [m-bain/whisperX](https://github.com/m-bain/whisperX) | Whisper X: Automatic Speech Recognition with Word-level Timestamps (& Diarization) | `Python` ★ 19.6k | 2025-10-21 |
 | [phodal/auto-dev](https://github.com/phodal/auto-dev) | 🧙‍Auto Dev: the AI-native Multi-Agent development platform built on Kotlin Multiplatform, covering all 7 phases of SDLC. | `Kotlin` ★ 4.3k | 2026-01-10 |
 | [Hillobar/Rope](https://github.com/Hillobar/Rope) | GUI-focused roop | `Python` ★ 5.3k | 2024-05-28 |

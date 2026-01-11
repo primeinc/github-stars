@@ -35,7 +35,7 @@
 | [microsoft/Microsoft365DSC](https://github.com/microsoft/Microsoft365DSC) | Manages, configures, extracts and monitors Microsoft 365 tenant configurations | `PowerShell` ★ 2.1k | 2026-01-08 |
 | [ccfos/nightingale](https://github.com/ccfos/nightingale) | Nightingale is to monitoring and alerting what Grafana is to visualization. | `Go` ★ 12.8k | 2026-01-09 |
 | [piyushsachdeva/AzureDevOps-Zero-to-Hero](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero) | A central hub for artifacts, agendas, and resources related to the "Azure Dev Ops Zero to Hero" series on Tech Tutorials with Piyush You Tube channel. Access code snippets, agendas, notes, graphics... | `Shell` ★ 1.1k | 2025-09-18 |
-| [github/spec-kit](https://github.com/github/spec-kit) | 💫 Toolkit to help you get started with Spec-Driven Development | `Python` ★ 61.5k | 2025-12-04 |
+| [github/spec-kit](https://github.com/github/spec-kit) | 💫 Toolkit to help you get started with Spec-Driven Development | `Python` ★ 61.6k | 2025-12-04 |
 | [ariga/atlas](https://github.com/ariga/atlas) | Declarative schema migrations with schema-as-code workflows | `Go` ★ 7.9k | 2026-01-11 |
 | [fabio-marini/azd-aspire-basic](https://github.com/fabio-marini/azd-aspire-basic) | No description provided | `C#` ★ 1 | 2025-06-04 |
 | [tabs-not-spaces/Intune-App-Deploy](https://github.com/tabs-not-spaces/Intune-App-Deploy) | A fast, reliable way to package your win32 applications and deploy them to Intune from any source - including SCCM! | `PowerShell` ★ 89 | 2022-09-21 |
@@ -45,7 +45,7 @@
 | [actions/labeler](https://github.com/actions/labeler) | An action for automatically labelling pull requests | `TypeScript` ★ 2.4k | 2025-11-17 |
 | [actions/ai-inference](https://github.com/actions/ai-inference) | An action for calling AI models with Git Hub Models | `TypeScript` ★ 412 | 2026-01-07 |
 | [siwenwang0803/secure-pr-guard](https://github.com/siwenwang0803/secure-pr-guard) | No description provided | `Python` ★ 2 | 2025-07-02 |
-| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | A list of Saa S, Paa S and Iaa S offerings that have free tiers of interest to devops and infradev | `HTML` ★ 117.2k | 2026-01-09 |
+| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | A list of Saa S, Paa S and Iaa S offerings that have free tiers of interest to devops and infradev | `HTML` ★ 117.2k | 2026-01-11 |
 | [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide) | Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLM s, Wire Guard, Auto... | `Dockerfile` ★ 18.3k | 2025-06-27 |
 | [Azure-Samples/remote-mcp-functions-dotnet](https://github.com/Azure-Samples/remote-mcp-functions-dotnet) | This is a quickstart template to easily build and deploy a custom remote MCP server to the cloud using Azure functions. You can clone/restore/run on your local machine with debugging, and `azd up` ... | `Bicep` ★ 116 | 2026-01-09 |
 | [openai/codex-universal](https://github.com/openai/codex-universal) | Base docker image used in Codex environments | `Dockerfile` ★ 746 | 2026-01-10 |

@@ -17,7 +17,7 @@
 | [epi052/feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | `Rust` ★ 7.4k | 2025-12-24 |
 | [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static... | `JavaScript` ★ 20.2k | 2026-01-09 |
 | [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 33.8k | 2026-01-09 |
-| [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 792 | 2026-01-07 |
+| [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 803 | 2026-01-07 |
 | [kaifcodec/Telespot](https://github.com/kaifcodec/Telespot) | Tele Spot OSINT lookup from Telephone number using DDGR + BING + GOOGLE and pattern recognition correlations. | `Python` ★ 4 | 2026-01-09 |
 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | `Python` ★ 71.7k | 2026-01-11 |
 | [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | `C#` ★ 14k | 2026-01-08 |
@@ -74,12 +74,12 @@
 | [1r0BIT/TaskHound](https://github.com/1r0BIT/TaskHound) | Tool to enumerate privileged Scheduled Tasks on Remote Systems | `Python` ★ 263 | 2026-01-07 |
 | [berty/berty](https://github.com/berty/berty) | Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network | `TypeScript` ★ 9k | 2026-01-09 |
 | [mandiant/flare-vm](https://github.com/mandiant/flare-vm) | A collection of software installations scripts for Windows systems that allows you to easily setup and maintain a reverse engineering environment on a VM. | `PowerShell` ★ 8.2k | 2025-12-23 |
-| [hak5/usbrubberducky-payloads](https://github.com/hak5/usbrubberducky-payloads) | The Official USB Rubber Ducky Payload Repository | `PowerShell` ★ 5.4k | 2025-12-13 |
+| [hak5/usbrubberducky-payloads](https://github.com/hak5/usbrubberducky-payloads) | The Official USB Rubber Ducky Payload Repository | `PowerShell` ★ 5.5k | 2025-12-13 |
 | [beefproject/beef](https://github.com/beefproject/beef) | The Browser Exploitation Framework Project | `JavaScript` ★ 10.7k | 2026-01-09 |
 | [CompliantSec/M365SAT](https://github.com/CompliantSec/M365SAT) | Microsoft 365 Security Assessment Tool - A Easy-To-Use Microsoft 365 Security Assessment Tool | `PowerShell` ★ 166 | 2025-04-25 |
 | [Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy) | 🦄 A curated list of privacy & security-focused software and services | `Astro` ★ 8.7k | 2026-01-10 |
 | [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) | 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2024 | `TypeScript` ★ 20.5k | 2025-06-28 |
-| [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | A collection of various awesome lists for hackers, pentesters and security researchers | ★ 104.2k | 2025-01-18 |
+| [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | A collection of various awesome lists for hackers, pentesters and security researchers | ★ 104.3k | 2025-01-18 |
 | [zama-ai/fhevm](https://github.com/zama-ai/fhevm) | FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications | `Rust` ★ 26k | 2026-01-10 |
 | [Azure/industry-policy-portfolio](https://github.com/Azure/industry-policy-portfolio) | The Industry Policy Portfolio's Policy Initiatives aid in customizing deployments to reduce the time needed to audit environments and meet established regulatory compliance frameworks in regulated ... | ★ 21 | 2025-02-25 |
 | [x64dbg/x64dbg](https://github.com/x64dbg/x64dbg) | An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis. | `C++` ★ 47.5k | 2026-01-04 |

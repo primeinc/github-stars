@@ -13,18 +13,18 @@
 | [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe) | AI app store powered by 24/7 desktop history. open source | 100% local | dev friendly | 24/7 screen, mic recording | `TypeScript` ★ 16.4k | 2025-12-09 |
 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | An LLM agent that conducts deep research (local and web) on any given topic and generates a long report with citations. | `Python` ★ 24.8k | 2025-12-14 |
 | [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) | Personal AI Infrastructure for upgrading humans. | `TypeScript` ★ 4.3k | 2026-01-10 |
-| [refly-ai/refly](https://github.com/refly-ai/refly) | Vibe Workflow Platform for Non-technical Creators. | `TypeScript` ★ 5.9k | 2026-01-10 |
+| [refly-ai/refly](https://github.com/refly-ai/refly) | Vibe Workflow Platform for Non-technical Creators. | `TypeScript` ★ 5.9k | 2026-01-11 |
 | [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visual... | `TypeScript` ★ 17.8k | 2026-01-11 |
 | [johnlindquist/mdflow](https://github.com/johnlindquist/mdflow) | Multi-backend CLI for executable markdown prompts. Run .md files against Claude, Codex, Gemini, or Copilot. | `TypeScript` ★ 509 | 2025-12-19 |
 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Community-contributed instructions, prompts, and configurations to help you make the most of Git Hub Copilot. | `JavaScript` ★ 17k | 2026-01-09 |
-| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 8.9k | 2026-01-10 |
+| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 8.9k | 2026-01-11 |
 | [severity1/claude-code-prompt-improver](https://github.com/severity1/claude-code-prompt-improver) | Intelligent prompt improver hook for Claude Code. Type vibes, ship precision. | `Python` ★ 1k | 2025-12-13 |
 | [MoonshotAI/kosong](https://github.com/MoonshotAI/kosong) | The LLM abstraction layer for modern AI agent applications. | ★ 498 | 2026-01-08 |
 | [krea-ai/realtime-video](https://github.com/krea-ai/realtime-video) | Krea Realtime 14B. An open-source realtime AI video model. | `Python` ★ 445 | 2025-11-13 |
 | [Zejun-Yang/AniPortrait](https://github.com/Zejun-Yang/AniPortrait) | Ani Portrait: Audio-Driven Synthesis of Photorealistic Portrait Animation | `Python` ★ 5k | 2024-07-02 |
 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 Page Index: Document Index for Reasoning-based RAG | `Python` ★ 5.1k | 2026-01-08 |
 | [MCP-UI-Org/mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP. Create next-gen UI experiences with the protocol and SDK! | `TypeScript` ★ 4k | 2025-12-22 |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` ★ 60.1k | 2026-01-11 |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` ★ 60.2k | 2026-01-11 |
 | [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | So TA open-source TTS | `Python` ★ 21.2k | 2025-12-15 |
 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best Chat GPT that $100 can buy. | `Python` ★ 40.1k | 2026-01-08 |
 | [character-ai/Ovi](https://github.com/character-ai/Ovi) | No description provided | `Python` ★ 1.5k | 2025-11-15 |
@@ -54,7 +54,7 @@
 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | Bring projects, wikis, and teams together with AI. App Flowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative. | `Dart` ★ 67.4k | 2026-01-09 |
 | [RSSNext/Folo](https://github.com/RSSNext/Folo) | 🧡 Follow everything in one place | `TypeScript` ★ 36.6k | 2026-01-02 |
 | [Mail-0/Zero](https://github.com/Mail-0/Zero) | Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://discord.gg/mail0 | `TypeScript` ★ 10.3k | 2025-09-04 |
-| [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | An open-source AI agent that brings the power of Gemini directly into your terminal. | `TypeScript` ★ 90.4k | 2026-01-11 |
+| [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | An open-source AI agent that brings the power of Gemini directly into your terminal. | `TypeScript` ★ 90.5k | 2026-01-11 |
 | [xming521/WeClone](https://github.com/xming521/WeClone) | 🚀 One-stop solution for creating your digital avatar from chat history 💡 Fine-tune LLM s with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to lif... | `Python` ★ 16.2k | 2026-01-05 |
 | [SaM-92/mcp_autogen_sse_stdio](https://github.com/SaM-92/mcp_autogen_sse_stdio) | This repository demonstrates how to use Auto Gen to integrate local and remote MCP (Model Context Protocol) servers. It showcases a local math tool (math_server.py) using Stdio and a remote Apify t... | `Python` ★ 28 | 2025-04-13 |
 | [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | No description provided | `TypeScript` ★ 5k | 2026-01-11 |

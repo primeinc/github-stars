@@ -10,7 +10,7 @@
 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory infrastructure for LLMs and AI agents | `Python` ★ 4.3k | 2026-01-10 |
 | [charmbracelet/crush](https://github.com/charmbracelet/crush) | The glamourous AI coding agent for your favourite terminal 💘 | `Go` ★ 17.5k | 2026-01-10 |
 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | An LLM agent that conducts deep research (local and web) on any given topic and generates a long report with citations. | `Python` ★ 24.8k | 2025-12-14 |
-| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 8.9k | 2026-01-10 |
+| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 8.9k | 2026-01-11 |
 | [karpathy/reader3](https://github.com/karpathy/reader3) | Quick illustration of how one can easily read books together with LLMs. It's great and I highly recommend it. | `Python` ★ 2.8k | 2025-11-18 |
 | [mudler/LocalAI](https://github.com/mudler/LocalAI) | :robot: The free, Open Source alternative to Open AI, Claude and others. Self-hosted and local-first. Drop-in replacement for Open AI, running on consumer-grade hardware. No GPU required. Runs gguf... | `Go` ★ 41.3k | 2026-01-10 |
 | [raine/anki-llm](https://github.com/raine/anki-llm) | A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs. | `TypeScript` ★ 176 | 2025-11-10 |

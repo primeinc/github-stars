@@ -11,7 +11,7 @@
 | [edera-dev/sprout](https://github.com/edera-dev/sprout) | Sprout: UEFI Bootloader in Rust | `Rust` ★ 263 | 2025-12-29 |
 | [leukipp/touchkio](https://github.com/leukipp/touchkio) | Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display. | `JavaScript` ★ 1k | 2025-12-15 |
 | [facebookresearch/habitat-sim](https://github.com/facebookresearch/habitat-sim) | A flexible, high-performance 3D simulator for Embodied AI research. | `C++` ★ 3.4k | 2025-12-18 |
-| [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 238 | 2025-12-11 |
+| [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 237 | 2025-12-11 |
 | [tile-ai/tilelang](https://github.com/tile-ai/tilelang) | Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels | `Python` ★ 4.6k | 2026-01-10 |
 | [matiasmenares/Nissboard](https://github.com/matiasmenares/Nissboard) | 🚗 Nissan Consult/OBDII Realtime Dashboard | `JavaScript` ★ 53 | 2023-01-05 |
 | [ClemensElflein/OpenMower](https://github.com/ClemensElflein/OpenMower) | Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots! | `C++` ★ 6.4k | 2025-05-09 |
@@ -59,7 +59,7 @@
 | [MagicMirrorOrg/MagicMirror](https://github.com/MagicMirrorOrg/MagicMirror) | Magic Mirror² is an open source modular smart mirror platform. With a growing list of installable modules, the Magic Mirror² allows you to convert your hallway or bathroom mirror into your personal... | `JavaScript` ★ 23.2k | 2026-01-11 |
 | [sb-ocr/ocreeb-mk-2](https://github.com/sb-ocr/ocreeb-mk-2) | Modular Macro Keyboard System | `Python` ★ 550 | 2024-02-04 |
 | [ballaswag/guppyscreen](https://github.com/ballaswag/guppyscreen) | A native Touch UI for 3D Printers running Klipper/Moonraker. | `C` ★ 318 | 2024-07-15 |
-| [stevenbennett/Open-Task-Light](https://github.com/stevenbennett/Open-Task-Light) | Components for making the DIY son lamp | `Python` ★ 621 | 2025-07-22 |
+| [stevenbennett/Open-Task-Light](https://github.com/stevenbennett/Open-Task-Light) | Components for making the DIY son lamp | `Python` ★ 622 | 2025-07-22 |
 | [MycroftAI/mycroft-core](https://github.com/MycroftAI/mycroft-core) | Mycroft Core, the Mycroft Artificial Intelligence platform. | `Python` ★ 6.6k | 2024-09-08 |
 | [kpanchen/org.openhab.binding.icomforts30](https://github.com/kpanchen/org.openhab.binding.icomforts30) | Lennox i Comfort S30 binding for Open HAB 3 | `Java` ★ 3 | 2023-04-13 |
 | [nataliethenerd/picohatpad](https://github.com/nataliethenerd/picohatpad) | No description provided | `Python` ★ 75 | 2023-01-29 |

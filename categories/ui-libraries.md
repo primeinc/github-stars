@@ -19,18 +19,18 @@
 | [jayfunc/BetterLyrics](https://github.com/jayfunc/BetterLyrics) | An elegant and deeply customizable lyrics visualizer & versatile music player, built with Win UI3/Win2D | 一款优雅且高度自定义的歌词可视化与全能音乐播放应用，基于 Win UI3/Win2D 构建 | `C#` ★ 1.3k | 2026-01-10 |
 | [hosenur/portal](https://github.com/hosenur/portal) | Mobile first batteries included web ui for sst/opencode. Git integration, in browser terminal, isolated workspaces. | `TypeScript` ★ 210 | 2026-01-06 |
 | [pqoqubbw/icons](https://github.com/pqoqubbw/icons) | beautifully crafted animated icons | `TypeScript` ★ 6.6k | 2026-01-07 |
-| [ant-design/ant-design](https://github.com/ant-design/ant-design) | An enterprise-class UI design language and React UI library | `TypeScript` ★ 97.2k | 2026-01-10 |
+| [ant-design/ant-design](https://github.com/ant-design/ant-design) | An enterprise-class UI design language and React UI library | `TypeScript` ★ 97.2k | 2026-01-11 |
 | [wigggle-ui/ui](https://github.com/wigggle-ui/ui) | A beautiful collection of copy-and-paste widgets for your next project. | `TypeScript` ★ 616 | 2026-01-07 |
 | [zhiyiYo/PyQt-Frameless-Window](https://github.com/zhiyiYo/PyQt-Frameless-Window) | A cross-platform frameless window based on Py Qt/Py Side, support Win32, Linux and mac OS. | `Python` ★ 698 | 2026-01-01 |
 | [cppqtdev/QT-Home-Automation-Glass-UI](https://github.com/cppqtdev/QT-Home-Automation-Glass-UI) | Linkedin Page | `QML` ★ 25 | 2024-05-18 |
 | [Vasia92LTU/dv-radialmenu](https://github.com/Vasia92LTU/dv-radialmenu) | Radial Menu css/ui edited and nopixel 4.0 inspired | `Lua` ★ 27 | 2024-09-28 |
 | [chrissimpkins/codeface](https://github.com/chrissimpkins/codeface) | Typefaces for source code beautification | `Python` ★ 6.4k | 2020-09-19 |
 | [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian) | 🕶️ Awesome stuff for Obsidian | `CSS` ★ 8.2k | 2024-04-06 |
-| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) | A curated list of awesome things related to shadcn/ui. | `TypeScript` ★ 18.6k | 2025-12-26 |
+| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) | A curated list of awesome things related to shadcn/ui. | `TypeScript` ★ 18.5k | 2025-12-26 |
 | [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) | The best design tools and plugins for everything 👉 | `JavaScript` ★ 38.8k | 2024-07-28 |
 | [huynhsontung/Screenbox](https://github.com/huynhsontung/Screenbox) | Lib VLC-based media player for the Universal Windows Platform | `C#` ★ 2.8k | 2026-01-10 |
 | [alibaba/hooks](https://github.com/alibaba/hooks) | A high-quality & reliable React Hooks library. https://alibaba.github.io/hooks/ | `TypeScript` ★ 14.9k | 2026-01-09 |
-| [Ali-Hussein-dev/formcn](https://github.com/Ali-Hussein-dev/formcn) | Build production-ready forms with a few clicks | `TypeScript` ★ 433 | 2026-01-05 |
+| [Ali-Hussein-dev/formcn](https://github.com/Ali-Hussein-dev/formcn) | Build production-ready forms with a few clicks | `TypeScript` ★ 434 | 2026-01-05 |
 | [Nic13Gamer/better-upload](https://github.com/Nic13Gamer/better-upload) | Simple and easy file uploads for React. Upload directly to any S3-compatible service with minimal setup. | `TypeScript` ★ 1.1k | 2026-01-02 |
 | [kane50613/takumi](https://github.com/kane50613/takumi) | JSX → Image. Faster next/og & satori alternative plus variable fonts, RTL, inline layout, WOFF2, Web P output support. | `Rust` ★ 1.2k | 2026-01-10 |
 | [ocornut/imgui](https://github.com/ocornut/imgui) | Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies | `C++` ★ 70.7k | 2026-01-08 |
@@ -43,13 +43,13 @@
 | [shadcnblocks/mainline-nextjs-template](https://github.com/shadcnblocks/mainline-nextjs-template) | Mainline Next.js template built with shadcn/ui, Tailwind 4 & Next.js | `TypeScript` ★ 221 | 2025-12-26 |
 | [luckgrid/lg-turbo-ui](https://github.com/luckgrid/lg-turbo-ui) | A turborepo workspace with a ready to go Next v15, React v19, and Tailwind CSS v4 UI packages and configs. | `TypeScript` ★ 2 | 2025-05-25 |
 | [satnaing/astro-paper](https://github.com/satnaing/astro-paper) | A minimal, accessible and SEO-friendly Astro blog theme | `Astro` ★ 4k | 2026-01-11 |
-| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. | `TypeScript` ★ 104.5k | 2026-01-08 |
+| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. | `TypeScript` ★ 104.6k | 2026-01-08 |
 | [selfhst/icons](https://github.com/selfhst/icons) | Collection of icons and logos maintained by selfh.st | `Go` ★ 682 | 2026-01-09 |
-| [marmelab/shadcn-admin-kit](https://github.com/marmelab/shadcn-admin-kit) | Component kit to build your Admin app with shadcn/ui | `TypeScript` ★ 711 | 2026-01-09 |
+| [marmelab/shadcn-admin-kit](https://github.com/marmelab/shadcn-admin-kit) | Component kit to build your Admin app with shadcn/ui | `TypeScript` ★ 712 | 2026-01-09 |
 | [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) | The largest Open-Source UI Library! Community-made and free to use. Made with either CSS or Tailwind. | `HTML` ★ 9.2k | 2024-09-02 |
 | [aidenybai/react-grab](https://github.com/aidenybai/react-grab) | Select context for coding agents directly from your website | `TypeScript` ★ 4.2k | 2026-01-11 |
 | [longbridge/gpui-component](https://github.com/longbridge/gpui-component) | Rust GUI components for building fantastic cross-platform desktop application by using GPUI. | `Rust` ★ 9.7k | 2026-01-11 |
-| [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art, fix bugs (frozen spinner), and ad... | `TypeScript` ★ 808 | 2026-01-11 |
+| [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art, fix bugs (frozen spinner), and ad... | `TypeScript` ★ 809 | 2026-01-11 |
 | [google/adk-web](https://github.com/google/adk-web) | Agent Development Kit Web (adk web) is the built-in developer UI that is integrated with Agent Development Kit for easier agent development and debugging. | `TypeScript` ★ 800 | 2026-01-09 |
 | [Stremio/stremio-web](https://github.com/Stremio/stremio-web) | Stremio - Freedom to Stream | `JavaScript` ★ 8.9k | 2026-01-11 |
 | [anomalyco/opentui](https://github.com/anomalyco/opentui) | Open TUI is a library for building terminal user interfaces (TUIs) | `TypeScript` ★ 7.3k | 2026-01-09 |
@@ -75,14 +75,14 @@
 | [puckeditor/puck](https://github.com/puckeditor/puck) | The visual editor for React | `TypeScript` ★ 10.3k | 2026-01-09 |
 | [usekaneo/kaneo](https://github.com/usekaneo/kaneo) | 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you. | `TypeScript` ★ 3.1k | 2026-01-11 |
 | [lepoco/wpfui](https://github.com/lepoco/wpfui) | WPF UI provides the Fluent experience in your known and loved WPF framework. Intuitive design, themes, navigation and new immersive controls. All natively and effortlessly. | `C#` ★ 9.1k | 2026-01-10 |
-| [unchihugo/FluentFlyout](https://github.com/unchihugo/FluentFlyout) | The modern Flyout app for Windows 11, built with Fluent 2 Design principles. Media Flyouts, Taskbar Widgets and more. | `C#` ★ 807 | 2026-01-10 |
+| [unchihugo/FluentFlyout](https://github.com/unchihugo/FluentFlyout) | The modern Flyout app for Windows 11, built with Fluent 2 Design principles. Media Flyouts, Taskbar Widgets and more. | `C#` ★ 808 | 2026-01-10 |
 | [Ripple-TS/ripple](https://github.com/Ripple-TS/ripple) | the elegant Type Script UI framework | `JavaScript` ★ 6.6k | 2026-01-09 |
 | [makeswift/makeswift](https://github.com/makeswift/makeswift) | No description provided | `TypeScript` ★ 238 | 2026-01-09 |
 | [reshaped-ui/reshaped](https://github.com/reshaped-ui/reshaped) | Professionally crafted React & Figma components for building beautiful products or starting your own design system | `TypeScript` ★ 2.1k | 2026-01-10 |
 | [joelshepherd/tabliss](https://github.com/joelshepherd/tabliss) | A beautiful, customisable New Tab page for Firefox, Chrome, and Edge. | `TypeScript` ★ 2.7k | 2024-08-19 |
 | [tremorlabs/tremor](https://github.com/tremorlabs/tremor) | Copy & Paste React components to build modern web applications. | `TypeScript` ★ 3.1k | 2025-10-10 |
 | [useflyyer/use-smartcrop](https://github.com/useflyyer/use-smartcrop) | React hook for smartcrop.js to content aware image cropping with points of interest and facial recognition. | `JavaScript` ★ 103 | 2023-01-07 |
-| [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | `TypeScript` ★ 22.4k | 2026-01-05 |
+| [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | `TypeScript` ★ 22.5k | 2026-01-05 |
 | [xyflow/xyflow](https://github.com/xyflow/xyflow) | React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely cust... | `TypeScript` ★ 34.7k | 2026-01-05 |
 | [megh-bari/pattern-craft](https://github.com/megh-bari/pattern-craft) | Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration. | `TypeScript` ★ 2.8k | 2026-01-08 |
 | [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 27.9k | 2026-01-10 |
@@ -137,7 +137,7 @@
 | [flipswitchingmonkey/FlexASIO_GUI](https://github.com/flipswitchingmonkey/FlexASIO_GUI) | Simple configuration GUI for Flex ASIO | `C#` ★ 446 | 2024-01-27 |
 | [CodeYan01/media-playlist-source](https://github.com/CodeYan01/media-playlist-source) | An OBS Studio plugin that supports media playlists, based on the Media Source | `C` ★ 55 | 2025-04-13 |
 | [exeldro/obs-media-controls](https://github.com/exeldro/obs-media-controls) | No description provided | `CMake` ★ 84 | 2025-12-27 |
-| [martymcmodding/qUINT](https://github.com/martymcmodding/qUINT) | Collection of general-purpose effects for the Re Shade shader injector. | `HLSL` ★ 546 | 2023-07-22 |
+| [martymcmodding/qUINT](https://github.com/martymcmodding/qUINT) | Collection of general-purpose effects for the Re Shade shader injector. | `HLSL` ★ 547 | 2023-07-22 |
 | [vcync/modV](https://github.com/vcync/modV) | modular audio visualisation powered by Java Script | `GLSL` ★ 480 | 2025-12-09 |
 | [Lissy93/dashy](https://github.com/Lissy93/dashy) | 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more! | `Vue` ★ 23.7k | 2025-12-28 |
 | [dcordero/FocusTvButton](https://github.com/dcordero/FocusTvButton) | Light wrapper of UIB utton that allows extra customization for tv OS | `Swift` ★ 77 | 2025-09-17 |

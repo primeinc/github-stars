@@ -19,9 +19,9 @@
 | [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser | `C++` ★ 57.6k | 2026-01-10 |
 | [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) | Map Libre GL JS - Interactive vector tile maps in the browser | `TypeScript` ★ 9.6k | 2026-01-09 |
 | [pqoqubbw/icons](https://github.com/pqoqubbw/icons) | beautifully crafted animated icons | `TypeScript` ★ 6.6k | 2026-01-07 |
-| [ant-design/ant-design](https://github.com/ant-design/ant-design) | An enterprise-class UI design language and React UI library | `TypeScript` ★ 97.2k | 2026-01-10 |
+| [ant-design/ant-design](https://github.com/ant-design/ant-design) | An enterprise-class UI design language and React UI library | `TypeScript` ★ 97.2k | 2026-01-11 |
 | [wigggle-ui/ui](https://github.com/wigggle-ui/ui) | A beautiful collection of copy-and-paste widgets for your next project. | `TypeScript` ★ 616 | 2026-01-07 |
-| [waynesutton/markdown-site](https://github.com/waynesutton/markdown-site) | An open-source publishing framework built for AI agents and developers to ship websites, docs, or blogs. Write markdown, sync from the terminal. Your content is instantly available to browsers, LLM... | `TypeScript` ★ 525 | 2026-01-10 |
+| [waynesutton/markdown-site](https://github.com/waynesutton/markdown-site) | An open-source publishing framework built for AI agents and developers to ship websites, docs, or blogs. Write markdown, sync from the terminal. Your content is instantly available to browsers, LLM... | `TypeScript` ★ 526 | 2026-01-10 |
 | [bluesky-social/social-app](https://github.com/bluesky-social/social-app) | The Bluesky Social application for Web, i OS, and Android | `TypeScript` ★ 17.5k | 2026-01-10 |
 | [rybbit-io/rybbit](https://github.com/rybbit-io/rybbit) | 🐸 Rybbit - open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive. | `TypeScript` ★ 10.7k | 2026-01-11 |
 | [humhub/humhub](https://github.com/humhub/humhub) | Hum Hub is an Open Source Enterprise Social Network. Easy to install, intuitive to use and extendable with countless freely available modules. | `PHP` ★ 6.6k | 2026-01-10 |
@@ -32,7 +32,7 @@
 | [imputnet/helium](https://github.com/imputnet/helium) | Private, fast, and honest web browser | `C++` ★ 10k | 2026-01-07 |
 | [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visual... | `TypeScript` ★ 17.8k | 2026-01-11 |
 | [alibaba/hooks](https://github.com/alibaba/hooks) | A high-quality & reliable React Hooks library. https://alibaba.github.io/hooks/ | `TypeScript` ★ 14.9k | 2026-01-09 |
-| [Ali-Hussein-dev/formcn](https://github.com/Ali-Hussein-dev/formcn) | Build production-ready forms with a few clicks | `TypeScript` ★ 433 | 2026-01-05 |
+| [Ali-Hussein-dev/formcn](https://github.com/Ali-Hussein-dev/formcn) | Build production-ready forms with a few clicks | `TypeScript` ★ 434 | 2026-01-05 |
 | [Nic13Gamer/better-upload](https://github.com/Nic13Gamer/better-upload) | Simple and easy file uploads for React. Upload directly to any S3-compatible service with minimal setup. | `TypeScript` ★ 1.1k | 2026-01-02 |
 | [kane50613/takumi](https://github.com/kane50613/takumi) | JSX → Image. Faster next/og & satori alternative plus variable fonts, RTL, inline layout, WOFF2, Web P output support. | `Rust` ★ 1.2k | 2026-01-10 |
 | [abpframework/abp](https://github.com/abpframework/abp) | Open-source web application framework for ASP.NET Core! Offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET. Provides the fundamental in... | `C#` ★ 14.1k | 2026-01-11 |
@@ -47,7 +47,7 @@
 | [shadcnblocks/mainline-nextjs-template](https://github.com/shadcnblocks/mainline-nextjs-template) | Mainline Next.js template built with shadcn/ui, Tailwind 4 & Next.js | `TypeScript` ★ 221 | 2025-12-26 |
 | [satnaing/astro-paper](https://github.com/satnaing/astro-paper) | A minimal, accessible and SEO-friendly Astro blog theme | `Astro` ★ 4k | 2026-01-11 |
 | [withastro/astro](https://github.com/withastro/astro) | The web framework for content-driven websites. ⭐️ Star to support our work! | `TypeScript` ★ 55.5k | 2026-01-10 |
-| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. | `TypeScript` ★ 104.5k | 2026-01-08 |
+| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. | `TypeScript` ★ 104.6k | 2026-01-08 |
 | [primeinc/turborepo-nextjs](https://github.com/primeinc/turborepo-nextjs) | A production-ready Next.js 15 monorepo with React 19, Type Script, t RPC, and Prisma. | `TypeScript` ★ 1 | 2025-11-21 |
 | [withastro/starlight](https://github.com/withastro/starlight) | 🌟 Build beautiful, accessible, high-performance documentation websites with Astro | `TypeScript` ★ 7.7k | 2026-01-06 |
 | [pwa-builder/PWABuilder](https://github.com/pwa-builder/PWABuilder) | The simplest way to create progressive web apps across platforms and devices. Start here. This repo is home to several projects in the PWABuilder family of tools. | `TypeScript` ★ 3.4k | 2026-01-08 |
@@ -60,7 +60,7 @@
 | [ExoFi-Labs/Nexface](https://github.com/ExoFi-Labs/Nexface) | No description provided | `Python` ★ 52 | 2025-06-24 |
 | [Gourieff/ComfyUI-ReActor](https://github.com/Gourieff/ComfyUI-ReActor) | Fast and Simple Face Swap Extension Node for Comfy UI (SFW) | `Python` ★ 1k | 2025-12-08 |
 | [kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) | No description provided | `Python` ★ 5.9k | 2026-01-08 |
-| [Orange-3DV-Team/MoCha](https://github.com/Orange-3DV-Team/MoCha) | Mo Cha: End-to-End Video Character Replacement without Structural Guidance | `Python` ★ 533 | 2025-11-18 |
+| [Orange-3DV-Team/MoCha](https://github.com/Orange-3DV-Team/MoCha) | Mo Cha: End-to-End Video Character Replacement without Structural Guidance | `Python` ★ 534 | 2025-11-18 |
 | [Stremio/stremio-web](https://github.com/Stremio/stremio-web) | Stremio - Freedom to Stream | `JavaScript` ★ 8.9k | 2026-01-11 |
 | [ghostery/ghostery-extension](https://github.com/ghostery/ghostery-extension) | Ghostery Browser Extension for Firefox, Chrome, Opera, Edge and Safari | `JavaScript` ★ 1.6k | 2026-01-11 |
 | [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) | 👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro! | `TypeScript` ★ 37.8k | 2026-01-04 |
@@ -111,7 +111,7 @@
 | [mattf96s/QuackDB](https://github.com/mattf96s/QuackDB) | Open-source in-browser Duck DB SQL editor | `TypeScript` ★ 200 | 2025-08-17 |
 | [nguyenjessev/liquor-locker](https://github.com/nguyenjessev/liquor-locker) | A home bar management app to track your bottles and ingredients, with support for AI-powered cocktail recommendations | `TypeScript` ★ 64 | 2025-11-21 |
 | [nextjs/saas-starter](https://github.com/nextjs/saas-starter) | Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui. | `TypeScript` ★ 15.2k | 2025-12-11 |
-| [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Min... | `TypeScript` ★ 16.7k | 2026-01-10 |
+| [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Min... | `TypeScript` ★ 16.7k | 2026-01-11 |
 | [photoprism/photoprism](https://github.com/photoprism/photoprism) | AI-Powered Photos App for the Decentralized Web 🌈💎✨ | `Go` ★ 39.1k | 2026-01-09 |
 | [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) | Authentication for the Web. | `TypeScript` ★ 28k | 2025-12-12 |
 | [calcom/cal.com](https://github.com/calcom/cal.com) | Scheduling infrastructure for absolutely everyone. | `TypeScript` ★ 39.6k | 2026-01-11 |
@@ -149,7 +149,7 @@
 | [TryGhost/Ghost](https://github.com/TryGhost/Ghost) | Independent technology for modern publishing, memberships, subscriptions and newsletters. | `JavaScript` ★ 51.6k | 2026-01-10 |
 | [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) | ⚡️ A curated list of awesome things related to Vite.js | `JavaScript` ★ 16.7k | 2025-11-21 |
 | [mui/base-ui](https://github.com/mui/base-ui) | Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI. | `TypeScript` ★ 7.9k | 2026-01-11 |
-| [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, powered by the community. | `TypeScript` ★ 38.4k | 2026-01-10 |
+| [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, powered by the community. | `TypeScript` ★ 38.5k | 2026-01-11 |
 | [dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks) | Manually curated collection of resources for frontend web developers. | ★ 45.7k | 2024-05-21 |
 | [openai/openai-support-agent-demo](https://github.com/openai/openai-support-agent-demo) | Demo of a customer support agent interface using Next JS and the Open AI Responses API with File Search | `TypeScript` ★ 171 | 2025-12-15 |
 | [andrei-markeev/mongodb-livedata-server](https://github.com/andrei-markeev/mongodb-livedata-server) | Standalone live data server implementation extracted from Meteor, Fibers removed and converted to Type Script. | `TypeScript` ★ 4 | 2025-12-25 |
@@ -199,7 +199,7 @@
 | [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | Fullstack app framework for web, desktop, and mobile. | `Rust` ★ 33.1k | 2026-01-08 |
 | [jtydhr88/sd-3dmodel-loader](https://github.com/jtydhr88/sd-3dmodel-loader) | A custom extension for stable diffusion webui to load local 3D model/animation | `JavaScript` ★ 246 | 2023-09-12 |
 | [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) | A source-available invoice, quote, project and time-tracking app built with Laravel | `PHP` ★ 9.5k | 2026-01-07 |
-| [immich-app/immich](https://github.com/immich-app/immich) | High performance self-hosted photo and video management solution. | `TypeScript` ★ 88.7k | 2026-01-10 |
+| [immich-app/immich](https://github.com/immich-app/immich) | High performance self-hosted photo and video management solution. | `TypeScript` ★ 88.8k | 2026-01-10 |
 | [iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab) | Deep Face Lab is the leading software for creating deepfakes. | `Python` ★ 18.9k | 2024-11-13 |
 | [LucasMali/sd-history-slider](https://github.com/LucasMali/sd-history-slider) | History Slider for Automatic 1111 SD to reverse the prompts. | `JavaScript` ★ 19 | 2023-07-18 |
 | [s0md3v/sd-webui-roop](https://github.com/s0md3v/sd-webui-roop) | roop extension for Stable Diffusion web-ui | `Python` ★ 3.5k | 2024-04-01 |

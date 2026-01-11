@@ -10,7 +10,7 @@
 | [OneKeyHQ/app-monorepo](https://github.com/OneKeyHQ/app-monorepo) | Secure, open source and community driven crypto wallet runs on all platforms and trusted by millions. | `TypeScript` ★ 2.2k | 2026-01-10 |
 | [bluesky-social/social-app](https://github.com/bluesky-social/social-app) | The Bluesky Social application for Web, i OS, and Android | `TypeScript` ★ 17.5k | 2026-01-10 |
 | [droidrun/droidrun](https://github.com/droidrun/droidrun) | Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖 | `Python` ★ 7.3k | 2026-01-10 |
-| [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | Build smaller, faster, and more secure desktop and mobile applications with a web frontend. | `Rust` ★ 101k | 2026-01-08 |
+| [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | Build smaller, faster, and more secure desktop and mobile applications with a web frontend. | `Rust` ★ 101.1k | 2026-01-08 |
 | [berty/berty](https://github.com/berty/berty) | Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network | `TypeScript` ★ 9k | 2026-01-09 |
 | [KRTirtho/spotube](https://github.com/KRTirtho/spotube) | 🎧 Open source music streaming app! Available for both desktop & mobile! | `Dart` ★ 43.6k | 2026-01-09 |
 | [microsoft/react-native-windows-samples](https://github.com/microsoft/react-native-windows-samples) | A repository showcasing React Native samples and templates for Windows, mac OS, and Surface Duo. | `C#` ★ 533 | 2026-01-02 |
@@ -29,7 +29,7 @@
 | [0xced/XCDYouTubeKit](https://github.com/0xced/XCDYouTubeKit) | You Tube video player for i OS, tv OS and mac OS | `Objective-C` ★ 2.9k | 2024-04-08 |
 | [0perationPrivacy/VoIPSuite-Mobile](https://github.com/0perationPrivacy/VoIPSuite-Mobile) | Mobile App code for Android & i OS on React Native | `JavaScript` ★ 26 | 2023-12-07 |
 | [flutter/flutter](https://github.com/flutter/flutter) | Flutter makes it easy and fast to build beautiful apps for mobile and beyond | `Dart` ★ 174.6k | 2026-01-10 |
-| [immich-app/immich](https://github.com/immich-app/immich) | High performance self-hosted photo and video management solution. | `TypeScript` ★ 88.7k | 2026-01-10 |
+| [immich-app/immich](https://github.com/immich-app/immich) | High performance self-hosted photo and video management solution. | `TypeScript` ★ 88.8k | 2026-01-10 |
 | [davibennun/laravel-push-notification](https://github.com/davibennun/laravel-push-notification) | Laravel package to enable sending push notifications to devices | `PHP` ★ 1.2k | 2023-05-04 |
 | [500px/greedo-layout-for-android](https://github.com/500px/greedo-layout-for-android) | Full aspect ratio grid Layout Manager for Android's Recycler View | `Java` ★ 1.6k | 2022-06-21 |
 | [hitherejoe/Android-Boilerplate](https://github.com/hitherejoe/Android-Boilerplate) | Android Boilerplate project using Rx Java, Dagger 2, Espresso, Mockito + more! | `Java` ★ 1.9k | 2020-10-24 |

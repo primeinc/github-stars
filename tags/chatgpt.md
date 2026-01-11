@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [pionxzh/chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) | Export and Share your Chat GPT conversation history | `TypeScript` ★ 2.1k | 2025-07-25 |
-| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 8.9k | 2026-01-10 |
+| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 8.9k | 2026-01-11 |
 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best Chat GPT that $100 can buy. | `Python` ★ 40.1k | 2026-01-08 |
 | [vercel-labs/chatgpt-apps-sdk-nextjs-starter](https://github.com/vercel-labs/chatgpt-apps-sdk-nextjs-starter) | No description provided | `TypeScript` ★ 230 | 2025-12-12 |
 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | This repo includes Chat GPT prompt curation to use Chat GPT and other LLM tools better. | `TypeScript` ★ 142k | 2026-01-11 |

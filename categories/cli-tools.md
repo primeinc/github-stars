@@ -20,7 +20,7 @@
 | [sinelaw/fresh](https://github.com/sinelaw/fresh) | Text editor for your terminal: easy, powerful and fast | `Rust` ★ 5k | 2026-01-11 |
 | [sharkdp/bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | `Rust` ★ 56.6k | 2026-01-10 |
 | [charmbracelet/crush](https://github.com/charmbracelet/crush) | The glamourous AI coding agent for your favourite terminal 💘 | `Go` ★ 17.5k | 2026-01-10 |
-| [0xSero/Azul](https://github.com/0xSero/Azul) | Browse the world in the comfort of your terminal | `Rust` ★ 140 | 2026-01-08 |
+| [0xSero/Azul](https://github.com/0xSero/Azul) | Browse the world in the comfort of your terminal | `Rust` ★ 141 | 2026-01-08 |
 | [cocos/cocos-cli](https://github.com/cocos/cocos-cli) | COCOS CLI | `TypeScript` ★ 169 | 2026-01-10 |
 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | `Python` ★ 71.7k | 2026-01-11 |
 | [supreme-gg-gg/instagram-cli](https://github.com/supreme-gg-gg/instagram-cli) | Instagram's terminal UI app - The ultimate weapon against brainrot | `TypeScript` ★ 1.2k | 2026-01-11 |
@@ -85,7 +85,7 @@
 | [bingal/FastDomainCheck-MCP-Server](https://github.com/bingal/FastDomainCheck-MCP-Server) | A Model Context Protocol for checking domain name registration status in bulk. | `Go` ★ 36 | 2025-10-24 |
 | [google/zx](https://github.com/google/zx) | A tool for writing better scripts | `JavaScript` ★ 45k | 2026-01-08 |
 | [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | A CLI tool for analyzing Claude Code usage from local JSONL files. | `TypeScript` ★ 9.7k | 2026-01-10 |
-| [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | An open-source AI agent that brings the power of Gemini directly into your terminal. | `TypeScript` ★ 90.4k | 2026-01-11 |
+| [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | An open-source AI agent that brings the power of Gemini directly into your terminal. | `TypeScript` ★ 90.5k | 2026-01-11 |
 | [microsoft/edit](https://github.com/microsoft/edit) | We all edit. | `Rust` ★ 13.3k | 2026-01-10 |
 | [amantus-ai/vibetunnel](https://github.com/amantus-ai/vibetunnel) | Turn any browser into your terminal & command your agents on the go. | `TypeScript` ★ 2.9k | 2026-01-01 |
 | [GeoAnima/Gemini-Conversation-Downloader](https://github.com/GeoAnima/Gemini-Conversation-Downloader) | About Download Gemini conversations in JSON and PDF format. | `JavaScript` ★ 12 | 2025-03-26 |

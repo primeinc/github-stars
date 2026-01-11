@@ -18,7 +18,7 @@
 | [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 37.8k | 2026-01-11 |
 | [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | Wrap Gemini CLI, Antigravity, Chat GPT Codex, Claude Code, Qwen Code, i Flow as an Open AI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, ... | `Go` ★ 6.2k | 2026-01-11 |
 | [stan-smith/SlingShot](https://github.com/stan-smith/SlingShot) | Dead simple ultra-low bandwidth video over QUIC, written in Rust, dead simple to use, free forever, designed for use in any and all conditions | `Rust` ★ 1 | 2026-01-09 |
-| [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 792 | 2026-01-07 |
+| [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 803 | 2026-01-07 |
 | [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) | A platform for building proxies to bypass network restrictions. | `Go` ★ 46.8k | 2025-10-06 |
 | [grpc/grpc](https://github.com/grpc/grpc) | C++ based g RPC (C++, Python, Ruby, Objective-C, PHP, C#) | `C++` ★ 44.2k | 2026-01-11 |
 | [AlexandreRouma/SDRPlusPlus](https://github.com/AlexandreRouma/SDRPlusPlus) | Cross-Platform SDR Software | `C++` ★ 5.5k | 2025-12-12 |
@@ -37,7 +37,7 @@
 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels from all over the world | `TypeScript` ★ 109k | 2026-01-11 |
 | [fonoster/routr](https://github.com/fonoster/routr) | ⚡ The future of programmable SIP servers. | `TypeScript` ★ 1.6k | 2025-12-24 |
 | [serverless-dns/serverless-dns](https://github.com/serverless-dns/serverless-dns) | The Rethink DNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io | `JavaScript` ★ 3.3k | 2025-11-24 |
-| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 33.4k | 2026-01-10 |
+| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 33.4k | 2026-01-11 |
 | [p0dalirius/ShareHound](https://github.com/p0dalirius/ShareHound) | A python tool to map the access rights of network shares into a Blood Hound Open Graphs easily | `Python` ★ 249 | 2025-12-18 |
 | [eclipse-iceoryx/iceoryx2](https://github.com/eclipse-iceoryx/iceoryx2) | Eclipse iceoryx2™ - true zero-copy inter-process-communication with a Rust core | `Rust` ★ 2k | 2026-01-09 |
 | [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile) | `C++` ★ 9.5k | 2025-12-31 |
@@ -115,7 +115,7 @@
 | [SierraSoftworks/tailscale-udm](https://github.com/SierraSoftworks/tailscale-udm) | Run Tailscale on your Unifi Dream Machine | `Shell` ★ 1.3k | 2026-01-05 |
 | [0perationPrivacy/VoIPSuite-Mobile](https://github.com/0perationPrivacy/VoIPSuite-Mobile) | Mobile App code for Android & i OS on React Native | `JavaScript` ★ 26 | 2023-12-07 |
 | [tiniyo/neoms](https://github.com/tiniyo/neoms) | Open Source Twilio Alternative | `Go` ★ 35 | 2021-11-11 |
-| [0perationPrivacy/VoIP](https://github.com/0perationPrivacy/VoIP) | Web Base Telnyx/Twilio Vo IP Interface enabling SMS, MMS and Voice calls using the providers API Keys and self-hosting the application. | `JavaScript` ★ 284 | 2024-05-28 |
+| [0perationPrivacy/VoIP](https://github.com/0perationPrivacy/VoIP) | Web Base Telnyx/Twilio Vo IP Interface enabling SMS, MMS and Voice calls using the providers API Keys and self-hosting the application. | `JavaScript` ★ 285 | 2024-05-28 |
 | [gridironsolutions/unifios-tailscale](https://github.com/gridironsolutions/unifios-tailscale) | Run Tailscale natively on Unifi UDM-Pro Dream Machine | `Shell` ★ 8 | 2023-03-01 |
 | [pandres95/ndi.js](https://github.com/pandres95/ndi.js) | NDI® SDK for Node.js | `C` ★ 57 | 2024-01-11 |
 | [ljanyst/peroxide](https://github.com/ljanyst/peroxide) | A third-party Proton Mail bridge serving SMTP and IMAP | `Go` ★ 64 | 2023-01-27 |
