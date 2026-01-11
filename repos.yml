@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T03:00:49.687Z"
+  last_updated: "2026-01-11T03:01:04.476Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -39548,13 +39548,17 @@ repositories:
       prompt_version: v1
   - repo: adriangalilea/namecheap-python
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cli-tools
+    tags:
+      - sdk
+      - namecheap
+      - lang:python
     summary: A Python SDK for the Namecheap API & CLI/TUI tools using it
     last_synced_sha: 08937ea488831b8f64129d01809b6ecd43b4cd93
     starred_at: "2026-01-10T07:46:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -39569,15 +39573,24 @@ repositories:
         published_at: "2025-11-04T09:32:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T03:01:04.476Z"
+      prompt_version: v2
   - repo: marcelscruz/public-apis
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - learning
+    tags:
+      - public-api
+      - resources
+      - lang:js
     summary: A collaborative list of public APIs for developers
     last_synced_sha: ee4555382da902e39e5ed6932ba69f059dd2557d
     starred_at: "2026-01-09T21:17:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -39599,6 +39612,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T03:01:04.475Z"
+      prompt_version: v2
   - repo: lockfale/OSINT-Framework
     categories:
       - security
