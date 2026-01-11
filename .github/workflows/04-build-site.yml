@@ -1,5 +1,5 @@
 ---
-name: 'Build and Deploy Site'
+name: '04-Build and Deploy Site'
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ on:
     branches:
       - main
   workflow_run:
-    workflows: ["Curate Starred Repos"]
+    workflows: ["03-Classify Repos"]
     types:
       - completed
 
@@ -81,7 +81,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Deploy site and update data [skip ci]"
+            git commit -m "Deploy site and update data"
 
             attempts=0
             max_attempts=5

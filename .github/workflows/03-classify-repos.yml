@@ -1,4 +1,4 @@
-name: Classify Repos
+name: '03-Classify Repos'
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
         type: number
         default: 15
   workflow_run:
-    workflows: ["Sync Starred Repos"]
+    workflows: ["02-Sync Starred Repos"]
     types:
       - completed
 

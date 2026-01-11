@@ -1,4 +1,4 @@
-name: 'Generate READMEs'
+name: '05-Generate READMEs'
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
     branches:
       - main
   workflow_run:
-    workflows: ["Sync Starred Repos", "Classify Repos"]
+    workflows: ["02-Sync Starred Repos", "03-Classify Repos"]
     types:
       - completed
 

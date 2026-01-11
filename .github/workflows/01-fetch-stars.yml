@@ -1,4 +1,4 @@
-name: 'Fetch GitHub Stars'
+name: '01-Fetch GitHub Stars'
 
 on:
   workflow_dispatch:

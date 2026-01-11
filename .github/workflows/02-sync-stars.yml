@@ -1,10 +1,10 @@
 ---
-name: 'Sync Starred Repos'
+name: '02-Sync Starred Repos'
 
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Fetch GitHub Stars"]
+    workflows: ["01-Fetch GitHub Stars"]
     types:
       - completed
 
