@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:56:49.675Z"
+  last_updated: "2026-01-11T02:57:09.927Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -44481,13 +44481,17 @@ repositories:
       mirror_url: null
   - repo: Azure-Player/azure.datafactory.tools
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - deployment
+    tags:
+      - azure-data-factory
+      - ci-cd
+      - lang:powershell
     summary: Tools for deploying Data Factory (v2) in Microsoft Azure
     last_synced_sha: 2328860e0e593ac67672a02cb87ec8e52bbeb0ad
     starred_at: "2025-12-22T16:50:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -44512,15 +44516,24 @@ repositories:
         published_at: "2025-10-24T15:40:12Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: ghostty-org/ghostty
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - desktop-dev
+    tags:
+      - terminal-emulator
+      - gpu-acceleration
+      - lang:zig
     summary: "\U0001F47B Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration."
     last_synced_sha: 17da13840dc71ba36b0deb2c0e85097840630ad5
     starred_at: "2025-12-22T16:47:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Zig
       topics: []
@@ -44533,15 +44546,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: wigggle-ui/ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - ui-components
+      - widgets
+      - lang:ts
     summary: A beautiful collection of copy-and-paste widgets for your next project.
     last_synced_sha: afd6051ffa216b73ff4b6d71c435dba3a6fdcab1
     starred_at: "2025-12-22T16:47:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -44554,15 +44576,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: Francis-Rings/FlashPortrait
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-synthesis
+      - diffusion-transformer
+      - lang:python
     summary: We present Flash Portrait, an end-to-end video diffusion transformer capable of synthesizing ID-preserving, infinite-length videos while achieving up to 6$\times$ acceleration in inference speed.
     last_synced_sha: c72d9de06e3fd8d2179d380a9512f3e872fc9895
     starred_at: "2025-12-22T16:46:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -44575,15 +44606,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: numman-ali/opencode-openai-codex-auth
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+    tags:
+      - oauth
+      - authentication
+      - lang:ts
     summary: OAuth authentication plugin for personal coding assistance with Chat GPT Plus/Pro subscriptions - uses Open AI's official authentication method
     last_synced_sha: bec2ad69b252ef4ad7dd33b9532ff8b4fdb6d016
     starred_at: "2025-12-22T16:46:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -44598,15 +44638,24 @@ repositories:
         published_at: "2026-01-09T14:01:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: Azure/azure-monitor-baseline-alerts
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - cloud
+    tags:
+      - azure
+      - baseline-alerts
+      - bicep
     summary: Azure Monitor Baseline Alerts
     last_synced_sha: 7954f44764ad5601cf48f6a08d79e07353c0b857
     starred_at: "2025-12-22T16:42:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -44621,15 +44670,24 @@ repositories:
         published_at: "2025-10-22T12:08:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: code-yeongyu/oh-my-opencode
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-agents
+      - development-tools
+      - lang:ts
     summary: 'The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you.'
     last_synced_sha: 5f823b0f8e8f7cf70c6939844893296036446d32
     starred_at: "2025-12-22T16:42:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44660,15 +44718,24 @@ repositories:
         published_at: "2026-01-11T02:23:02Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: Zplusdragon/LowLevelBanana
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - vision-tasks
+      - datasets
+      - lang:python
     summary: '[Technical Report] A Comprehensive Evaluation of Nano Banana Pro on 14 Low-Level Vision Tasks and 40 Datasets'
     last_synced_sha: 21ea8baabb85da1b51927d1ee4553715a7bbe284
     starred_at: "2025-12-22T16:41:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -44681,15 +44748,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: badlogic/pi-mono
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - ai-agents
+      - cli-tools
+      - lang:ts
     summary: 'AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, v LLM pods'
     last_synced_sha: 6db2d0770a2221795c8919557b6120e4de531f45
     starred_at: "2025-12-22T16:41:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -44704,15 +44780,24 @@ repositories:
         published_at: "2026-01-10T12:58:02Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: Azure/ALZ-PowerShell-Module
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - devops
+    tags:
+      - azure
+      - landing-zones
+      - bicep
     summary: The Azure Landing Zones Accelerators Power Shell module
     last_synced_sha: f7e58fc921af82d066e37bbcb712ca33ed7dd6e7
     starred_at: "2025-12-22T16:40:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -44735,15 +44820,24 @@ repositories:
         published_at: "2026-01-10T11:16:34Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: danielmiessler/Personal_AI_Infrastructure
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai
+      - productivity
+      - lang:ts
     summary: Personal AI Infrastructure for upgrading humans.
     last_synced_sha: 14065adf74afc828715797fab7f5e954b046e652
     starred_at: "2025-12-22T16:39:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44761,15 +44855,24 @@ repositories:
         published_at: "2026-01-08T12:11:49Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: lintsinghua/DeepAudit
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - vulnerability-scanner
+      - code-audit
+      - lang:python
     summary: Deep Audit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 Po C 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。
     last_synced_sha: d857bca1c7752ff326c83ed463319096c1e84e2e
     starred_at: "2025-12-22T16:38:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -44801,15 +44904,24 @@ repositories:
         published_at: "2025-12-18T15:22:08Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: rendercv/rendercv
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - cv-generator
+      - resume-builder
+      - lang:python
     summary: CV/resume generator for academics and engineers, YAML to PDF
     last_synced_sha: 5afb8bf8cd2fa648edfb292d4dc4dd8fff6185c5
     starred_at: "2025-12-22T16:37:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -44834,15 +44946,24 @@ repositories:
         published_at: "2025-12-23T17:06:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: Semperis/EntraGoat
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - identity-security
+      - vulnerable-environment
+      - learning
     summary: A deliberately vulnerable Microsoft Entra ID environment. Learn identity security through hands-on, realistic attack challenges.
     last_synced_sha: 82c1674f5729cae2f0861b12bcc5f857258dc79e
     starred_at: "2025-12-22T16:37:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -44855,15 +44976,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: waynesutton/markdown-site
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - documentation
+    tags:
+      - cms
+      - markdown
+      - lang:ts
     summary: An open-source publishing framework built for AI agents and developers to ship websites, docs, or blogs. Write markdown, sync from the terminal. Your content is instantly available to browsers, LLM...
     last_synced_sha: 95cc8a46770f6a2500bce0d9c74f18d01deee64e
     starred_at: "2025-12-22T07:27:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44881,6 +45011,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:09.926Z"
+      prompt_version: v2
   - repo: facebookresearch/detectron2
     categories:
       - ai-ml
