@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-11T17:20:30.836Z"
+  manifest_updated_at: "2026-01-11T17:20:50.664Z"
   total_repos: 1959
   generator_version: v1.0.0
   github_user: primeinc
@@ -56655,13 +56655,18 @@ repositories:
       mirror_url: null
   - repo: TheCactusVert/mpv-sponsorblock
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - media
+    tags:
+      - lang:rust
+      - mpv
+      - youtube
+      - ad-skipping
     summary: MPV plugin that allow you to skip sponsors while watching You Tube videos
     last_synced_sha: 981531b496e137a34f5dad9b81a7ba2f5b212f5c
     user_starred_at: "2024-01-23T20:42:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -56683,15 +56688,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.664Z"
+      prompt_version: v2
   - repo: ParadoxSpiral/libmpv-rs
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - apis
+    tags:
+      - lang:rust
+      - libmpv
+      - media-support
+      - audio-video-codecs
     summary: A libmpv abstraction written in rust that's easy to use and provides the ability to read next to all video and audio codecs.
     last_synced_sha: 3e6c389b716f52a595cc5e8e3fa1f96cb76b3de7
     user_starred_at: "2024-01-23T20:41:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -56710,15 +56725,26 @@ repositories:
         published_at: "2020-09-29T10:16:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.664Z"
+      prompt_version: v2
   - repo: AmruthPillai/Reactive-Resume
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - lang:ts
+      - resume-builder
+      - react
+      - nextjs
+      - privacy
     summary: A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!
     last_synced_sha: 91c8624d8043fdb78424d4a1641b2fc3efdbd016
     user_starred_at: "2024-01-23T19:04:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -56745,15 +56771,25 @@ repositories:
         published_at: "2026-01-08T08:27:21Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.664Z"
+      prompt_version: v2
   - repo: mingrammer/diagrams
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cloud
+    tags:
+      - lang:python
+      - diagram-as-code
+      - architecture
+      - prototyping
     summary: ':art: Diagram as Code for prototyping cloud system architectures'
     last_synced_sha: 5db95a8843168337562ced3f41727a09c47cca4e
     user_starred_at: "2024-01-23T19:03:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -56776,15 +56812,24 @@ repositories:
         published_at: "2025-11-22T02:30:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.664Z"
+      prompt_version: v2
   - repo: TencentARC/PhotoMaker
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - ai-images
+      - photo-generation
+      - jupyter-notebooks
     summary: Photo Maker [CVPR 2024]
     last_synced_sha: 060b4fcb10b76a4554edf565d6106b7e36c968f0
     user_starred_at: "2024-01-23T18:47:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -56801,15 +56846,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.664Z"
+      prompt_version: v2
   - repo: devisasari/awesome-gpt-store
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - gpt-store
+      - awesome-list
+      - ai-tools
+      - openai
     summary: A curated list of awesome GPTs in the GPT Store
     last_synced_sha: cfd2fe85acb229d3e478b115513de8053a0dbb6a
     user_starred_at: "2024-01-21T15:22:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -56837,15 +56892,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.664Z"
+      prompt_version: v2
   - repo: ballaswag/guppyscreen
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - embedded
+    tags:
+      - lang:c
+      - touch-ui
+      - 3d-printers
+      - klipper-integration
     summary: A native Touch UI for 3D Printers running Klipper/Moonraker.
     last_synced_sha: 07409cb031bbbfc57cd7817ba295e5385e3d5565
     user_starred_at: "2024-01-20T21:34:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -56864,15 +56929,24 @@ repositories:
         published_at: "2024-04-28T07:16:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.664Z"
+      prompt_version: v2
   - repo: stevenbennett/Open-Task-Light
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - productivity
+    tags:
+      - lang:python
+      - task-light
+      - hardware-integration
     summary: Components for making the Open Task Light
     last_synced_sha: e9c2599b5a14a04370d274de7522923200948346
     user_starred_at: "2024-01-15T18:50:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -56889,15 +56963,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.663Z"
+      prompt_version: v2
   - repo: RupertAvery/DiffusionToolkit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - lang:csharp
+      - stable-diffusion
+      - metadata-indexing
+      - image-viewer
     summary: Metadata-indexer and Viewer for AI-generated images
     last_synced_sha: 8df86f84a2cda91c65cfe82c10d37fe44f13b3b7
     user_starred_at: "2023-12-31T07:34:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -56923,15 +57007,25 @@ repositories:
         published_at: "2026-01-06T13:07:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.663Z"
+      prompt_version: v2
   - repo: bsharper/atv-desktop-remote
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - networking
+    tags:
+      - lang:js
+      - apple-tv
+      - remote-control
+      - ui
     summary: A simple app to allow you to control an Apple TV from your desktop
     last_synced_sha: 2a4371e51c78fae09d4a8d70b1a3f775bea3f2dc
     user_starred_at: "2023-12-31T00:26:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -56950,15 +57044,24 @@ repositories:
         published_at: "2025-10-06T16:20:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.663Z"
+      prompt_version: v2
   - repo: phmullins/awesome-macos
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - productivity
+    tags:
+      - awesome-list
+      - macos
+      - software-curation
     summary: A curated list of awesome software for Apple's mac OS.
     last_synced_sha: a861c10bff2dfe1b86692fca58e76347f522347b
     user_starred_at: "2023-12-30T22:24:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -56983,15 +57086,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.663Z"
+      prompt_version: v2
   - repo: instaloader/instaloader
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+    tags:
+      - instagram
+      - lang:python
+      - metadata
+      - downloader
+      - osint
     summary: Download pictures (or videos) along with their captions and other metadata from Instagram.
     last_synced_sha: 520b69d6ef03d915b0092e99e5625bf1fb9f634d
     user_starred_at: "2023-12-30T16:54:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -57025,15 +57139,24 @@ repositories:
         published_at: "2025-11-08T21:48:54Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.663Z"
+      prompt_version: v2
   - repo: Guilouz/Creality-Helper-Script-Wiki
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - 3d-printing
+      - helper-scripts
+      - wiki
     summary: Wiki for Creality Helper Script
     last_synced_sha: d2a6290813e8fa079824ffae801173942a0154ac
     user_starred_at: "2023-12-28T14:52:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -57050,15 +57173,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.663Z"
+      prompt_version: v2
   - repo: kimlimjustin/xplorer
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - file-manager
+      - lang:ts
+      - cross-platform
+      - ui
+      - modern-design
     summary: Xplorer, a customizable, modern file manager
     last_synced_sha: 2eb6747a51b796e63911ec4e63374fc463ae59d0
     user_starred_at: "2023-12-23T23:33:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -57084,15 +57218,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.663Z"
+      prompt_version: v2
   - repo: C0nsumption/Consume-ComfyUI-Workflows
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - learning
+    tags:
+      - workflows
+      - modular-design
+      - comfy-ui
     summary: A collection of some of my basic Comfy UI workflows. These are meant to act as building block to construct larger workflows of your own.
     last_synced_sha: f7b8603e4d1a1358822a4a9ccdd17749e839b2e8
     user_starred_at: "2023-12-16T20:13:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -57109,6 +57252,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:20:50.663Z"
+      prompt_version: v2
   - repo: aegis72/aegisflow
     categories:
       - ai-ml
