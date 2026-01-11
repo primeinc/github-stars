@@ -1,8 +1,11 @@
-// Star Vault
+// Star Vault - 2026 UX Showcase
 (function() {
     'use strict';
 
-    // State
+    // ============================================
+    // STATE MANAGEMENT
+    // ============================================
+
     const state = {
         allRepos: [],
         filteredRepos: [],
@@ -23,7 +26,10 @@
     let fuse = null;
     let observer = null;
 
-    // DOM Elements
+    // ============================================
+    // DOM ELEMENTS
+    // ============================================
+
     const els = {
         searchInput: document.getElementById('searchInput'),
         filterArchived: document.getElementById('filter-archived'),
@@ -42,16 +48,20 @@
         loadingTrigger: document.getElementById('loading-trigger'),
         sidebar: document.getElementById('sidebar'),
         sidebarToggle: document.getElementById('sidebar-toggle'),
-        sidebarOverlay: document.getElementById('sidebar-overlay')
+        sidebarOverlay: document.getElementById('sidebar-overlay'),
+        cursorGlow: document.querySelector('.cursor-glow')
     };
 
-    // Initialize
+    // ============================================
+    // INITIALIZE
+    // ============================================
+
     async function init() {
         try {
             const response = await fetch('data.json');
             if (!response.ok) throw new Error('Failed to load data');
             const data = await response.json();
-            
+
             // Normalize data
             state.allRepos = (data.repositories || []).map(repo => ({
                 ...repo,
@@ -71,15 +81,137 @@
             initFuse();
             setupEventListeners();
             setupObserver();
-            
+            initCustomCursor();
+            initTiltEffect();
+            initMagneticButtons();
+            animateCounters();
+
             // Initial Render
             applyFilters();
-            
+
         } catch (error) {
             console.error('Initialization failed:', error);
             els.repoGrid.innerHTML = '<div class="no-results">Failed to load Star Vault.</div>';
         }
     }
+
+    // ============================================
+    // CUSTOM CURSOR GLOW EFFECT
+    // ============================================
+
+    function initCustomCursor() {
+        if (!els.cursorGlow) return;
+
+        let cursorX = 0, cursorY = 0;
+        let actualX = 0, actualY = 0;
+
+        document.addEventListener('mousemove', (e) => {
+            cursorX = e.clientX;
+            cursorY = e.clientY;
+        });
+
+        // Use requestAnimationFrame for smooth following
+        function animateCursor() {
+            actualX += (cursorX - actualX) * 0.1;
+            actualY += (cursorY - actualY) * 0.1;
+            els.cursorGlow.style.left = actualX + 'px';
+            els.cursorGlow.style.top = actualY + 'px';
+            requestAnimationFrame(animateCursor);
+        }
+        animateCursor();
+    }
+
+    // ============================================
+    // 3D CARD TILT EFFECT
+    // ============================================
+
+    function initTiltEffect() {
+        // Reinitialize after cards are rendered
+        const observeCards = () => {
+            document.querySelectorAll('.repo-card').forEach(card => {
+                if (card.hasAttribute('data-tilt-initialized')) return;
+
+                card.addEventListener('mousemove', (e) => {
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    const centerX = rect.width / 2;
+                    const centerY = rect.height / 2;
+                    const rotateX = (y - centerY) / 20;
+                    const rotateY = (centerX - x) / 20;
+
+                    card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.02) translateY(-8px)`;
+                });
+
+                card.addEventListener('mouseleave', () => {
+                    card.style.transform = '';
+                });
+
+                card.setAttribute('data-tilt-initialized', 'true');
+            });
+        };
+
+        // Initial setup
+        observeCards();
+
+        // Watch for dynamically added cards
+        const observer = new MutationObserver((mutations) => {
+            mutations.forEach((mutation) => {
+                if (mutation.addedNodes.length) {
+                    observeCards();
+                }
+            });
+        });
+
+        observer.observe(els.repoGrid, { childList: true });
+    }
+
+    // ============================================
+    // MAGNETIC BUTTON EFFECT
+    // ============================================
+
+    function initMagneticButtons() {
+        document.querySelectorAll('.btn-magnetic').forEach(btn => {
+            btn.addEventListener('mousemove', (e) => {
+                const rect = btn.getBoundingClientRect();
+                const x = e.clientX - rect.left - rect.width / 2;
+                const y = e.clientY - rect.top - rect.height / 2;
+                btn.style.transform = `translate(${x * 0.3}px, ${y * 0.3}px)`;
+            });
+
+            btn.addEventListener('mouseleave', () => {
+                btn.style.transform = '';
+            });
+        });
+    }
+
+    // ============================================
+    // ANIMATED COUNTERS
+    // ============================================
+
+    function animateCounters() {
+        document.querySelectorAll('[data-count]').forEach(el => {
+            const target = parseInt(el.dataset.count);
+            const duration = 2000;
+            const start = performance.now();
+
+            function update(currentTime) {
+                const elapsed = currentTime - start;
+                const progress = Math.min(elapsed / duration, 1);
+                const eased = 1 - Math.pow(1 - progress, 4); // Ease out quart
+                el.textContent = Math.floor(target * eased).toLocaleString();
+
+                if (progress < 1) {
+                    requestAnimationFrame(update);
+                }
+            }
+            requestAnimationFrame(update);
+        });
+    }
+
+    // ============================================
+    // FUSE.JS SEARCH INITIALIZATION
+    // ============================================
 
     function initFuse() {
         const options = {
@@ -95,6 +227,10 @@
         };
         fuse = new Fuse(state.allRepos, options);
     }
+
+    // ============================================
+    // EVENT LISTENERS
+    // ============================================
 
     function setupEventListeners() {
         // Search
@@ -141,11 +277,11 @@
         // Mobile Sidebar Toggle
         els.sidebarToggle.addEventListener('click', toggleSidebar);
         els.sidebarOverlay.addEventListener('click', closeSidebar);
-        
+
         // Close sidebar when selecting a filter on mobile
         els.sidebar.addEventListener('click', (e) => {
             if (e.target.classList.contains('facet-item') || e.target.closest('.facet-item')) {
-                if (window.innerWidth <= 768) {
+                if (window.innerWidth <= 900) {
                     closeSidebar();
                 }
             }
@@ -158,9 +294,16 @@
                 e.preventDefault();
                 state.filters.category = chip.dataset.category;
                 applyFilters();
+                if (window.innerWidth <= 900) {
+                    closeSidebar();
+                }
             }
         });
     }
+
+    // ============================================
+    // SIDEBAR TOGGLE
+    // ============================================
 
     function toggleSidebar() {
         state.sidebarOpen = !state.sidebarOpen;
@@ -180,6 +323,10 @@
         els.sidebarToggle.setAttribute('aria-expanded', 'false');
         document.body.style.overflow = '';
     }
+
+    // ============================================
+    // INTERSECTION OBSERVER FOR INFINITE SCROLL
+    // ============================================
 
     function setupObserver() {
         observer = new IntersectionObserver((entries) => {
@@ -204,7 +351,9 @@
         applyFilters();
     }
 
-    // --- Core Logic ---
+    // ============================================
+    // CORE FILTERING LOGIC
+    // ============================================
 
     function applyFilters() {
         let result = state.allRepos;
@@ -221,7 +370,7 @@
             if (state.filters.category && !repo.categories?.includes(state.filters.category)) return false;
             if (state.filters.language && repo.language !== state.filters.language) return false;
             if (state.filters.topic && !repo.topics.includes(state.filters.topic)) return false;
-            
+
             return true;
         });
 
@@ -232,27 +381,47 @@
                 case 'forks': return b.forks - a.forks;
                 case 'pushed_at': return new Date(b.pushed_at || 0) - new Date(a.pushed_at || 0);
                 case 'size': return b.disk_usage - a.disk_usage;
-                case 'starred_at': default: 
+                case 'starred_at': default:
                     return new Date(b.user_starred_at || 0) - new Date(a.user_starred_at || 0);
             }
         });
 
         state.filteredRepos = result;
         state.visibleCount = 50;
-        
+
         updateUI();
     }
 
+    // ============================================
+    // UI UPDATE WITH VIEW TRANSITIONS
+    // ============================================
+
     function updateUI() {
+        // View Transitions API
+        if (!document.startViewTransition) {
+            _render();
+            return;
+        }
+
+        document.startViewTransition(() => {
+            _render();
+        });
+    }
+
+    function _render() {
         els.repoCount.textContent = `${state.filteredRepos.length} repositories`;
-        
+
         renderFacets();
         renderGrid();
         renderActiveFilters();
     }
 
+    // ============================================
+    // RENDER FACETS
+    // ============================================
+
     function renderFacets() {
-        // 1. Categories (new!)
+        // 1. Categories
         const categoryCounts = {};
         state.filteredRepos.forEach(r => {
             (r.categories || []).forEach(c => {
@@ -333,15 +502,19 @@
         if (state.filters.language) filters.push(state.filters.language);
         if (state.filters.topic) filters.push(`#${state.filters.topic}`);
         if (state.filters.archived) filters.push('Archived');
-        
-        els.activeFilters.innerHTML = filters.length 
-            ? filters.map(f => `<span class="topic-tag">${escapeHtml(f)}</span>`).join('') 
+
+        els.activeFilters.innerHTML = filters.length
+            ? filters.map(f => `<span class="topic-tag">${escapeHtml(f)}</span>`).join('')
             : '';
     }
 
+    // ============================================
+    // RENDER GRID
+    // ============================================
+
     function renderGrid() {
         const slice = state.filteredRepos.slice(0, state.visibleCount);
-        
+
         if (slice.length === 0) {
             els.repoGrid.innerHTML = '<div class="no-results">No repositories found.</div>';
             els.loadingTrigger.style.display = 'none';
@@ -349,7 +522,7 @@
         }
 
         els.repoGrid.innerHTML = slice.map(repo => createCardHTML(repo)).join('');
-        
+
         if (state.visibleCount < state.filteredRepos.length) {
             els.loadingTrigger.style.display = 'block';
             observer.observe(els.loadingTrigger);
@@ -357,14 +530,17 @@
             els.loadingTrigger.style.display = 'none';
             observer.unobserve(els.loadingTrigger);
         }
+
+        // Reinitialize tilt effect for new cards
+        initTiltEffect();
     }
 
     function loadMore() {
         if (state.visibleCount >= state.filteredRepos.length) return;
-        
+
         const nextBatch = state.filteredRepos.slice(state.visibleCount, state.visibleCount + 50);
         state.visibleCount += 50;
-        
+
         const fragment = document.createRange().createContextualFragment(
             nextBatch.map(repo => createCardHTML(repo)).join('')
         );
@@ -373,7 +549,14 @@
         if (state.visibleCount >= state.filteredRepos.length) {
             els.loadingTrigger.style.display = 'none';
         }
+
+        // Reinitialize tilt effect for new cards
+        initTiltEffect();
     }
+
+    // ============================================
+    // CREATE CARD HTML
+    // ============================================
 
     function createCardHTML(repo) {
         const avatar = repo.avatar || `https://github.com/${repo.repo.split('/')[0]}.png`;
@@ -382,6 +565,10 @@
         const hasTopics = repo.topics && repo.topics.length > 0;
         const cardClasses = ['repo-card'];
         if (repo.archived) cardClasses.push('is-archived');
+
+        // Bento Logic: High impact repos get more space
+        if (repo.stars > 10000) cardClasses.push('bento-featured');
+        if (repo.stars > 50000) cardClasses.push('bento-hero');
 
         // Status badges
         let badges = '';
@@ -404,9 +591,9 @@
         }
 
         return `
-            <div class="${cardClasses.join(' ')}">
+            <div class="${cardClasses.join(' ')}" data-tilt>
                 <div class="card-header">
-                    <img src="${avatar}" class="owner-avatar" alt="Avatar" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>'">
+                    <img src="${avatar}" class="owner-avatar" alt="Avatar" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><circle cx=%228%22 cy=%228%22 r=%228%22 fill=%22%23475569%22/></svg>'">
                     <div class="repo-name">
                         <a href="${repo.html_url}" target="_blank">${escapeHtml(repo.repo)}</a>
                     </div>
@@ -416,7 +603,7 @@
                 <div class="repo-desc" title="${escapeHtml(repo.summary)}">
                     ${escapeHtml(repo.summary || 'No description provided.')}
                 </div>
-                
+
                 ${hasCategories ? `
                 <div class="categories">
                     ${repo.categories.slice(0, 3).map(c => `<button class="category-chip" data-category="${escapeHtml(c)}">${escapeHtml(c)}</button>`).join('')}
@@ -450,13 +637,15 @@
         `;
     }
 
-    // --- Helpers ---
+    // ============================================
+    // UTILITY FUNCTIONS
+    // ============================================
 
     function getRelativeTime(dateStr) {
         if (!dateStr) return 'Unknown';
         const date = new Date(dateStr);
         const diff = (new Date() - date) / 1000;
-        
+
         if (diff < 60) return 'Just now';
         if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
         if (diff < 86400) return Math.floor(diff / 3600) + 'h ago';
@@ -509,7 +698,10 @@
         return colors[lang] || '#ccc';
     }
 
-    // Start
+    // ============================================
+    // START THE APP
+    // ============================================
+
     init();
 
 })();
