@@ -1,6 +1,6 @@
 # Tag: cross-platform
 
-*34 repositories*
+*13 repositories*
 
 [← Back to Index](../README.md)
 
@@ -19,24 +19,3 @@
 | [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | A modern download manager that supports all platforms. Built with Golang and Flutter. | `Go` ★ 22.4k | 2026-01-11 |
 | [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) | A Foundation for Scalable Cross-Platform Apps | `TypeScript` ★ 24.2k | 2025-09-22 |
 | [KRTirtho/spotube](https://github.com/KRTirtho/spotube) | 🎧 Open source music streaming app! Available for both desktop & mobile! | `Dart` ★ 43.6k | 2026-01-09 |
-| [mltframework/shotcut](https://github.com/mltframework/shotcut) | cross-platform (Qt), open-source (GPLv3) video editor | `C++` ★ 13.2k | 2026-01-09 |
-| [DevToys-app/DevToys](https://github.com/DevToys-app/DevToys) | A Swiss Army knife for developers. | `C#` ★ 30.7k | 2026-01-09 |
-| [localsend/localsend](https://github.com/localsend/localsend) | An open-source cross-platform alternative to Air Drop | `Dart` ★ 73.1k | 2026-01-04 |
-| [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) | An open-source, cross-platform terminal for seamless workflows | `Go` ★ 16.1k | 2026-01-10 |
-| [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | An open-source remote desktop application designed for self-hosting, as an alternative to Team Viewer. | `Rust` ★ 105.5k | 2026-01-10 |
-| [expo/expo](https://github.com/expo/expo) | An open-source framework for making universal native apps with React. Expo runs on Android, i OS, and the web. | `TypeScript` ★ 46.3k | 2026-01-11 |
-| [4xmen/anubias](https://github.com/4xmen/anubias) | Developed mobile apps so easy and native with GUI 📱 | `Vue` ★ 2.3k | 2025-01-19 |
-| [electron/electron](https://github.com/electron/electron) | :electron: Build cross-platform desktop apps with Java Script, HTML, and CSS | `C++` ★ 119.7k | 2026-01-11 |
-| [flutter/flutter](https://github.com/flutter/flutter) | Flutter makes it easy and fast to build beautiful apps for mobile and beyond | `Dart` ★ 174.6k | 2026-01-10 |
-| [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) | Secure, cross-platform Git credential storage with authentication to Git Hub, Azure Repos, and other popular Git hosting services. | `C#` ★ 8.5k | 2026-01-06 |
-| [kimlimjustin/xplorer](https://github.com/kimlimjustin/xplorer) | Xplorer, a customizable, modern file manager | `TypeScript` ★ 5.4k | 2025-06-16 |
-| [rvion/CushyStudio](https://github.com/rvion/CushyStudio) | 🛋 The AI and Generative Art platform for everyone | `TypeScript` ★ 797 | 2025-07-16 |
-| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | Fullstack app framework for web, desktop, and mobile. | `Rust` ★ 33.2k | 2026-01-08 |
-| [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | Primary and community-submitted packages for webinstall.dev | `Shell` ★ 2.7k | 2025-10-21 |
-| [mikeroyal/WSL-Guide](https://github.com/mikeroyal/WSL-Guide) | Windows Subsystem for Linux (WSL) Guide. Use WSL develop to with Kubernetes and in the Cloud (Microsoft Azure, AWS, and Google Cloud). | `Rust` ★ 379 | 2024-01-04 |
-| [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder) | Video Duplicate Finder - Crossplatform | `C#` ★ 2.8k | 2026-01-04 |
-| [qarmin/czkawka](https://github.com/qarmin/czkawka) | Multi functional app to find duplicates, empty folders, similar images etc. | `Rust` ★ 28k | 2026-01-11 |
-| [dthree/cash](https://github.com/dthree/cash) | Cross-platform Linux commands in ES6 | `JavaScript` ★ 7.8k | 2020-01-14 |
-| [MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-) | A beautiful cross platform Desktop Player for Google Play Music | `JavaScript` ★ 8.2k | 2023-01-04 |
-| [vladikoff/chromeos-apk](https://github.com/vladikoff/chromeos-apk) | ☢️ Run Android Apps in Chrome OS OR Chrome in OS X, Linux and Windows. | `JavaScript` ★ 7.8k | 2023-07-13 |
-| [xbmc/xbmc](https://github.com/xbmc/xbmc) | Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available f... | `C++` ★ 20.3k | 2026-01-11 |

@@ -1,6 +1,6 @@
 # Tag: ai-tools
 
-*15 repositories*
+*8 repositories*
 
 [← Back to Index](../README.md)
 
@@ -14,10 +14,3 @@
 | [mcmonkeyprojects/SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) | Swarm UI (formerly Stable Swarm UI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility. | `C#` ★ 3.6k | 2026-01-10 |
 | [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 37.6k | 2025-12-20 |
 | [LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) | Multi-Platform Package Manager for Stable Diffusion | `C#` ★ 7.2k | 2026-01-03 |
-| [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL Augment Code, Claude Code, Cluely, Code Buddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, Notion AI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer ... | ★ 107.4k | 2026-01-08 |
-| [qdhenry/Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite) | Professional slash commands for Claude Code that provide structured workflows for software development tasks including code review, feature creation, security auditing, and architectural analysis. | `Shell` ★ 904 | 2026-01-10 |
-| [shraddha-gawde/reachInbox-assignment](https://github.com/shraddha-gawde/reachInbox-assignment) | The assignment is to build a tool that will parse and check the emails in a Google and Outlook email ID, and respond to the e-mails based on the context using AI. Use Bull MQ as the tasks scheduler. | `JavaScript` ★ 10 | 2024-08-26 |
-| [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) | Collection of AI-related utilities. Welcome to submit issues and pull requests /收藏AI相关的实用工具，欢迎提交issues 或者pull requests | ★ 5.5k | 2026-01-10 |
-| [reorx/awesome-chatgpt-api](https://github.com/reorx/awesome-chatgpt-api) | Curated list of apps and tools that not only use the new Chat GPT API, but also allow users to configure their own API keys, enabling free and on-demand usage of their own quota. | `Python` ★ 6.3k | 2024-09-26 |
-| [devisasari/awesome-gpt-store](https://github.com/devisasari/awesome-gpt-store) | A curated list of awesome GPT s in the GPT Store | ★ 2.1k | 2024-10-15 |
-| [mattjaybe/sd-wildcards](https://github.com/mattjaybe/sd-wildcards) | A collection of wildcards for Stable Diffusion | ★ 315 | 2024-05-27 |

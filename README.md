@@ -1,173 +1,91 @@
 # Awesome Starred Repositories
 
-> A curated list of **1959** repositories, automatically classified and organized.
+> A curated list of **700** repositories, automatically classified and organized.
 
 Last updated: 2026-01-11
 
 ## 📂 Categories
 
 
-### 3
-- [3d-printing](categories/3d-printing.md) *(1)*
-
 ### A
-- [ai-ml](categories/ai-ml.md) *(525)*
-- [algorithms](categories/algorithms.md) *(1)*
-- [analytics](categories/analytics.md) *(8)*
-- [android-apps](categories/android-apps.md) *(1)*
-- [apis](categories/apis.md) *(153)*
-- [apistools](categories/apistools.md) *(1)*
-- [assets](categories/assets.md) *(1)*
-- [audio](categories/audio.md) *(2)*
-- [automation](categories/automation.md) *(166)*
-
-### B
-- [backup](categories/backup.md) *(1)*
-- [blockchain](categories/blockchain.md) *(1)*
-- [browser](categories/browser.md) *(1)*
+- [ai-ml](categories/ai-ml.md) *(204)*
+- [apis](categories/apis.md) *(60)*
+- [audio](categories/audio.md) *(1)*
+- [automation](categories/automation.md) *(52)*
 
 ### C
-- [cli-tools](categories/cli-tools.md) *(125)*
-- [cloud](categories/cloud.md) *(91)*
-- [cloud-computing](categories/cloud-computing.md) *(1)*
-- [cms](categories/cms.md) *(2)*
-- [code-analysis](categories/code-analysis.md) *(1)*
+- [cli-tools](categories/cli-tools.md) *(61)*
+- [cloud](categories/cloud.md) *(43)*
 - [collaboration](categories/collaboration.md) *(1)*
-- [communication](categories/communication.md) *(8)*
-- [configuration](categories/configuration.md) *(1)*
-- [containers](categories/containers.md) *(30)*
-- [crypto](categories/crypto.md) *(1)*
-- [cryptography](categories/cryptography.md) *(1)*
+- [containers](categories/containers.md) *(11)*
 
 ### D
-- [data-management](categories/data-management.md) *(2)*
-- [data-protection](categories/data-protection.md) *(1)*
-- [data-science](categories/data-science.md) *(194)*
-- [databases](categories/databases.md) *(47)*
-- [debugging](categories/debugging.md) *(2)*
-- [deployment](categories/deployment.md) *(20)*
+- [data-science](categories/data-science.md) *(63)*
+- [databases](categories/databases.md) *(20)*
+- [deployment](categories/deployment.md) *(9)*
 - [design](categories/design.md) *(2)*
-- [desktop](categories/desktop.md) *(1)*
-- [desktop-dev](categories/desktop-dev.md) *(148)*
-- [desktop-development](categories/desktop-development.md) *(1)*
-- [dev-tools](categories/dev-tools.md) *(222)*
-- [developer-tools](categories/developer-tools.md) *(5)*
-- [development](categories/development.md) *(1)*
-- [development-tools](categories/development-tools.md) *(5)*
-- [devops](categories/devops.md) *(65)*
+- [desktop-dev](categories/desktop-dev.md) *(46)*
+- [dev-tools](categories/dev-tools.md) *(96)*
+- [devops](categories/devops.md) *(29)*
 - [document-processing](categories/document-processing.md) *(1)*
-- [documentation](categories/documentation.md) *(100)*
+- [documentation](categories/documentation.md) *(43)*
 
 ### E
-- [education](categories/education.md) *(6)*
-- [embedded](categories/embedded.md) *(78)*
-- [embedded-systems](categories/embedded-systems.md) *(2)*
+- [embedded](categories/embedded.md) *(8)*
 - [embedding](categories/embedding.md) *(1)*
-- [encryption](categories/encryption.md) *(1)*
-- [error-handling](categories/error-handling.md) *(1)*
-- [extensions](categories/extensions.md) *(1)*
 
 ### F
-- [file-management](categories/file-management.md) *(1)*
-- [file-sync](categories/file-sync.md) *(1)*
-- [finance](categories/finance.md) *(1)*
-- [fintech](categories/fintech.md) *(1)*
-- [frameworks](categories/frameworks.md) *(81)*
-- [frontend](categories/frontend.md) *(1)*
+- [frameworks](categories/frameworks.md) *(26)*
 
 ### G
-- [game-dev](categories/game-dev.md) *(81)*
+- [game-dev](categories/game-dev.md) *(23)*
 - [gis](categories/gis.md) *(1)*
-- [graphics](categories/graphics.md) *(6)*
 
 ### H
 - [hacking](categories/hacking.md) *(1)*
-- [hardware](categories/hardware.md) *(4)*
-- [hardware-modifications](categories/hardware-modifications.md) *(1)*
-- [home-automation](categories/home-automation.md) *(4)*
-- [humor](categories/humor.md) *(1)*
+- [home-automation](categories/home-automation.md) *(1)*
 
 ### I
-- [image-processing](categories/image-processing.md) *(2)*
-- [infra](categories/infra.md) *(1)*
-- [infrastructure](categories/infrastructure.md) *(65)*
-- [iot](categories/iot.md) *(7)*
+- [infrastructure](categories/infrastructure.md) *(33)*
 
 ### L
-- [learning](categories/learning.md) *(147)*
-- [libraries](categories/libraries.md) *(5)*
-- [logging](categories/logging.md) *(2)*
+- [learning](categories/learning.md) *(53)*
 
 ### M
-- [math](categories/math.md) *(1)*
-- [media](categories/media.md) *(41)*
+- [media](categories/media.md) *(2)*
 - [media-server](categories/media-server.md) *(2)*
-- [messaging](categories/messaging.md) *(1)*
-- [mobile-dev](categories/mobile-dev.md) *(32)*
-- [mobile-development](categories/mobile-development.md) *(1)*
-- [monitoring](categories/monitoring.md) *(48)*
-- [multimedia](categories/multimedia.md) *(2)*
+- [mobile-dev](categories/mobile-dev.md) *(9)*
+- [monitoring](categories/monitoring.md) *(20)*
 
 ### N
-- [networking](categories/networking.md) *(149)*
-- [nosql](categories/nosql.md) *(1)*
-
-### O
-- [open-source](categories/open-source.md) *(1)*
+- [networking](categories/networking.md) *(47)*
 
 ### P
-- [performance](categories/performance.md) *(1)*
-- [privacy](categories/privacy.md) *(2)*
-- [productivity](categories/productivity.md) *(443)*
-- [productivity-tools](categories/productivity-tools.md) *(1)*
+- [privacy](categories/privacy.md) *(1)*
+- [productivity](categories/productivity.md) *(157)*
 - [programming](categories/programming.md) *(1)*
-- [programming-languages](categories/programming-languages.md) *(2)*
-
-### Q
-- [queues](categories/queues.md) *(1)*
-
-### R
-- [react](categories/react.md) *(1)*
-- [resources](categories/resources.md) *(2)*
 
 ### S
-- [search](categories/search.md) *(2)*
-- [security](categories/security.md) *(164)*
-- [self-hosted](categories/self-hosted.md) *(1)*
-- [social](categories/social.md) *(1)*
-- [storage](categories/storage.md) *(4)*
-- [svelte](categories/svelte.md) *(1)*
-- [sync](categories/sync.md) *(1)*
-- [system-admin](categories/system-admin.md) *(169)*
-- [system-administration](categories/system-administration.md) *(5)*
+- [security](categories/security.md) *(74)*
+- [system-admin](categories/system-admin.md) *(54)*
 
 ### T
-- [task-scheduling](categories/task-scheduling.md) *(1)*
-- [telecommunications](categories/telecommunications.md) *(2)*
-- [testing](categories/testing.md) *(29)*
-- [tools](categories/tools.md) *(10)*
-- [tv-dev](categories/tv-dev.md) *(1)*
+- [testing](categories/testing.md) *(10)*
+- [tools](categories/tools.md) *(1)*
 
 ### U
-- [ui-libraries](categories/ui-libraries.md) *(209)*
-- [ui-performance](categories/ui-performance.md) *(1)*
-- [ui-tools](categories/ui-tools.md) *(1)*
-- [utilities](categories/utilities.md) *(2)*
+- [ui-libraries](categories/ui-libraries.md) *(70)*
 
 ### V
 - [video-dev](categories/video-dev.md) *(1)*
-- [video-generation](categories/video-generation.md) *(2)*
-- [video-processing](categories/video-processing.md) *(5)*
-- [visualization](categories/visualization.md) *(1)*
+- [video-processing](categories/video-processing.md) *(3)*
 
 ### W
-- [wearable-tech](categories/wearable-tech.md) *(1)*
-- [web-dev](categories/web-dev.md) *(244)*
-- [web-development](categories/web-development.md) *(15)*
+- [web-dev](categories/web-dev.md) *(94)*
 
 ## 🏷️ Popular Tags
 
-[awesome-list](tags/awesome-list.md) (75) • [react](tags/react.md) (68) • [ai](tags/ai.md) (64) • [azure](tags/azure.md) (64) • [automation](tags/automation.md) (61) • [llm](tags/llm.md) (59) • [windows](tags/windows.md) (48) • [self-hosted](tags/self-hosted.md) (40) • [cross-platform](tags/cross-platform.md) (34) • [machine-learning](tags/machine-learning.md) (33) • [deep-learning](tags/deep-learning.md) (32) • [stable-diffusion](tags/stable-diffusion.md) (31) • [docker](tags/docker.md) (29) • [nextjs](tags/nextjs.md) (28) • [ai-agents](tags/ai-agents.md) (26) • [cli](tags/cli.md) (26) • [ndi](tags/ndi.md) (24) • [resources](tags/resources.md) (22) • [terminal](tags/terminal.md) (22) • [powershell](tags/powershell.md) (22) • [privacy](tags/privacy.md) (21) • [llms](tags/llms.md) (20) • [mcp](tags/mcp.md) (20) • [open-source](tags/open-source.md) (20) • [tailwindcss](tags/tailwindcss.md) (19) • [chatgpt](tags/chatgpt.md) (18) • [home-automation](tags/home-automation.md) (18) • [gui](tags/gui.md) (17) • [frontend](tags/frontend.md) (17) • [electron](tags/electron.md) (17)
+[azure](tags/azure.md) (36) • [ai](tags/ai.md) (32) • [react](tags/react.md) (29) • [awesome-list](tags/awesome-list.md) (25) • [automation](tags/automation.md) (25) • [llm](tags/llm.md) (23) • [self-hosted](tags/self-hosted.md) (20) • [cli](tags/cli.md) (17) • [nextjs](tags/nextjs.md) (15) • [ai-agents](tags/ai-agents.md) (15) • [windows](tags/windows.md) (14) • [cross-platform](tags/cross-platform.md) (13) • [machine-learning](tags/machine-learning.md) (13) • [privacy](tags/privacy.md) (12) • [terminal](tags/terminal.md) (10) • [markdown](tags/markdown.md) (9) • [ai-tools](tags/ai-tools.md) (8) • [docker](tags/docker.md) (8) • [llms](tags/llms.md) (8) • [resources](tags/resources.md) (7) • [osint](tags/osint.md) (7) • [kubernetes](tags/kubernetes.md) (7) • [high-performance](tags/high-performance.md) (7) • [api-management](tags/api-management.md) (7) • [deep-learning](tags/deep-learning.md) (7) • [customization](tags/customization.md) (7) • [open-source](tags/open-source.md) (7) • [api](tags/api.md) (6) • [encryption](tags/encryption.md) (6) • [agents](tags/agents.md) (6)
 
 ## ⭐ Recently Starred
 

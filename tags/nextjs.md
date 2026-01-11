@@ -1,6 +1,6 @@
 # Tag: nextjs
 
-*28 repositories*
+*15 repositories*
 
 [← Back to Index](../README.md)
 
@@ -21,16 +21,3 @@
 | [midday-ai/v1](https://github.com/midday-ai/v1) | An open-source starter kit based on Midday. | `TypeScript` ★ 3.8k | 2025-08-02 |
 | [midday-ai/midday](https://github.com/midday-ai/midday) | Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers | `TypeScript` ★ 13.5k | 2026-01-11 |
 | [vercel/platforms](https://github.com/vercel/platforms) | A full-stack Next.js app with multi-tenancy. | `TypeScript` ★ 6.6k | 2025-12-06 |
-| [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) | Authentication for the Web. | `TypeScript` ★ 28k | 2025-12-12 |
-| [calcom/cal.com](https://github.com/calcom/cal.com) | Scheduling infrastructure for absolutely everyone. | `TypeScript` ★ 39.6k | 2026-01-11 |
-| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 27.9k | 2026-01-10 |
-| [nhost/nhost](https://github.com/nhost/nhost) | The Open Source Firebase Alternative with Graph QL. | `TypeScript` ★ 9k | 2026-01-10 |
-| [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) | ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs. | `TypeScript` ★ 42.8k | 2026-01-10 |
-| [openai/openai-support-agent-demo](https://github.com/openai/openai-support-agent-demo) | Demo of a customer support agent interface using Next JS and the Open AI Responses API with File Search | `TypeScript` ★ 171 | 2025-12-15 |
-| [makeplane/plane](https://github.com/makeplane/plane) | 🔥 🔥 🔥 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and cycles the easiest way on the planet. | `TypeScript` ★ 43.4k | 2026-01-11 |
-| [vercel/ai-chatbot](https://github.com/vercel/ai-chatbot) | A full-featured, hackable Next.js AI chatbot built by Vercel | `TypeScript` ★ 19.2k | 2026-01-10 |
-| [BasedHardware/omi](https://github.com/BasedHardware/omi) | AI wearables. Put it on, speak, transcribe, automatically | `C` ★ 7.5k | 2026-01-11 |
-| [sonnylazuardi/chat-ai-desktop](https://github.com/sonnylazuardi/chat-ai-desktop) | Unofficial Chat GPT desktop app for Mac & Windows menubar using Tauri & Rust | `Rust` ★ 2k | 2023-12-23 |
-| [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate social media scheduling tool, with a bunch of AI 🤖 | `TypeScript` ★ 25.9k | 2026-01-11 |
-| [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today! | `TypeScript` ★ 34.4k | 2026-01-11 |
-| [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | Open Assistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | `Python` ★ 37.5k | 2024-08-17 |

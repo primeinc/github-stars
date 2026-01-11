@@ -1,6 +1,6 @@
 # Tag: ai-agents
 
-*26 repositories*
+*15 repositories*
 
 [← Back to Index](../README.md)
 
@@ -21,14 +21,3 @@
 | [Ido-Levi/Hephaestus](https://github.com/Ido-Levi/Hephaestus) | Semi-Structured Agentic Framework. Workflows build themselves as agents discover what needs to be done, not what you predicted upfront. | `Python` ★ 1.1k | 2025-12-01 |
 | [nanobrowser/nanobrowser](https://github.com/nanobrowser/nanobrowser) | Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to Open AI Operator. | `TypeScript` ★ 11.9k | 2025-11-24 |
 | [sigoden/aichat](https://github.com/sigoden/aichat) | All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to Open AI, Claude, Gemini, Ollama, Groq, and more. | `Rust` ★ 9k | 2026-01-06 |
-| [Azure-Samples/snippy](https://github.com/Azure-Samples/snippy) | 🧩 Build AI-powered MCP Tools with Azure Functions, Durable Agents & Cosmos vector search. Features orchestrated multi-agent workflows using Open AI. | `Python` ★ 91 | 2025-12-18 |
-| [NVIDIA/NeMo-Agent-Toolkit](https://github.com/NVIDIA/NeMo-Agent-Toolkit) | The NVIDIA Ne Mo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents. | `Python` ★ 1.7k | 2026-01-11 |
-| [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and RAG using Open AI, Anthropic, Gemini and opensource models. | `Python` ★ 87.5k | 2026-01-07 |
-| [emcie-co/parlant](https://github.com/emcie-co/parlant) | LLM agents built for control. Designed for real-world use. Deployed in minutes. | `Python` ★ 17.5k | 2026-01-11 |
-| [Ido-Levi/claude-code-tamagotchi](https://github.com/Ido-Levi/claude-code-tamagotchi) | Real-time behavioral enforcement for Claude Code. Monitors AI actions, detects violations, and interrupts misbehavior. Also has a cute pet. | `TypeScript` ★ 240 | 2025-10-20 |
-| [wshobson/agents](https://github.com/wshobson/agents) | Intelligent automation and multi-agent orchestration for Claude Code | `C#` ★ 25k | 2026-01-09 |
-| [tysonthomas9/realtor-agent](https://github.com/tysonthomas9/realtor-agent) | Realtor Agent: AI-powered tool for property analysis, running comparables, and assisting with contract document finalization in real estate transactions. | `Python` ★ 10 | 2025-02-23 |
-| [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) | What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers? | `TypeScript` ★ 17.6k | 2025-09-21 |
-| [aipotheosis-labs/aci](https://github.com/aipotheosis-labs/aci) | ACI.dev is the open source tool-calling platform that hooks up 600+ tools into any agentic IDE or custom AI agent through direct function calling or a unified MCP server. The birthplace of Vibe Ops. | `Python` ★ 4.7k | 2026-01-08 |
-| [Integuru-AI/Integuru](https://github.com/Integuru-AI/Integuru) | The first AI agent that builds permissionless integrations through reverse engineering platforms' internal API s. | `Python` ★ 4.5k | 2025-08-28 |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, Crew AI empowers agents to work together seamlessly, tackling complex tasks. | `Python` ★ 42.5k | 2026-01-10 |

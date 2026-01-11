@@ -1,6 +1,6 @@
 # Tag: llm
 
-*59 repositories*
+*23 repositories*
 
 [← Back to Index](../README.md)
 
@@ -29,39 +29,3 @@
 | [CognitionAI/deepwiki](https://github.com/CognitionAI/deepwiki) | Devin-generated docs for any public repo | ★ 55 | 2025-05-22 |
 | [sigoden/aichat](https://github.com/sigoden/aichat) | All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to Open AI, Claude, Gemini, Ollama, Groq, and more. | `Rust` ★ 9k | 2026-01-06 |
 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popular chatbots like Chat GPT, Claude & Gemini | `Roff` ★ 25k | 2026-01-10 |
-| [MorDavid/BruteForceAI](https://github.com/MorDavid/BruteForceAI) | Advanced LLM-powered brute-force tool combining AI intelligence with automated login attacks | `Python` ★ 1.3k | 2025-11-01 |
-| [lainra/claude-code-telemetry](https://github.com/lainra/claude-code-telemetry) | Claude Code Telemetry is a lightweight bridge that captures telemetry data from Claude Code and forwards it to Langfuse for visualization, with a secure local turnkey installation under a minute. | `JavaScript` ★ 16 | 2026-01-01 |
-| [Agent-on-the-Fly/Memento](https://github.com/Agent-on-the-Fly/Memento) | Official Code of Memento: Fine-tuning LLM Agents without Fine-tuning LLMs | `Python` ★ 2.1k | 2025-10-05 |
-| [emcie-co/parlant](https://github.com/emcie-co/parlant) | LLM agents built for control. Designed for real-world use. Deployed in minutes. | `Python` ★ 17.5k | 2026-01-11 |
-| [Canner/WrenAI](https://github.com/Canner/WrenAI) | ⚡️ Gen BI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds. | `TypeScript` ★ 13.4k | 2026-01-08 |
-| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 27.9k | 2026-01-10 |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data | `TypeScript` ★ 74.3k | 2026-01-09 |
-| [mediar-ai/terminator](https://github.com/mediar-ai/terminator) | playwright for windows computer use | `Rust` ★ 1.2k | 2026-01-11 |
-| [microsoft/poml](https://github.com/microsoft/poml) | Prompt Orchestration Markup Language | `TypeScript` ★ 4.8k | 2026-01-01 |
-| [upstash/context7](https://github.com/upstash/context7) | Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors | `TypeScript` ★ 41.5k | 2026-01-10 |
-| [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) | Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic. | `TypeScript` ★ 25.3k | 2026-01-10 |
-| [tysonthomas9/realtor-agent](https://github.com/tysonthomas9/realtor-agent) | Realtor Agent: AI-powered tool for property analysis, running comparables, and assisting with contract document finalization in real estate transactions. | `Python` ★ 10 | 2025-02-23 |
-| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | A collection of notebooks/recipes showcasing some fun and effective ways of using Claude. | `Jupyter Notebook` ★ 30.9k | 2026-01-10 |
-| [winfunc/opcode](https://github.com/winfunc/opcode) | A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more. | `TypeScript` ★ 19.9k | 2025-10-16 |
-| [FreedomIntelligence/ShareGPT-4o-Image](https://github.com/FreedomIntelligence/ShareGPT-4o-Image) | No description provided | `Python` ★ 280 | 2025-07-22 |
-| [jujumilk3/leaked-system-prompts](https://github.com/jujumilk3/leaked-system-prompts) | Collection of leaked system prompts | ★ 13.9k | 2026-01-08 |
-| [jahwag/ClaudeSync](https://github.com/jahwag/ClaudeSync) | Claude Sync is a Python tool that automates the synchronization of local files with Claude.ai Projects | `Python` ★ 657 | 2025-12-01 |
-| [xming521/WeClone](https://github.com/xming521/WeClone) | 🚀 One-stop solution for creating your digital avatar from chat history 💡 Fine-tune LLM s with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to lif... | `Python` ★ 16.2k | 2026-01-05 |
-| [block/goose](https://github.com/block/goose) | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM | `Rust` ★ 25.7k | 2026-01-10 |
-| [SaM-92/mcp_autogen_sse_stdio](https://github.com/SaM-92/mcp_autogen_sse_stdio) | This repository demonstrates how to use Auto Gen to integrate local and remote MCP (Model Context Protocol) servers. It showcases a local math tool (math_server.py) using Stdio and a remote Apify t... | `Python` ★ 28 | 2025-04-13 |
-| [datajuicer/data-juicer](https://github.com/datajuicer/data-juicer) | Data processing for and with foundation models! 🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷 | `Python` ★ 5.7k | 2026-01-09 |
-| [voideditor/void](https://github.com/voideditor/void) | No description provided | `TypeScript` ★ 28k | 2025-08-07 |
-| [QiuYannnn/Local-File-Organizer](https://github.com/QiuYannnn/Local-File-Organizer) | An AI-powered file management tool that ensures privacy by organizing local texts, images. Using Llama3.2 3B and Llava v1.6 models with the Nexa SDK, it intuitively scans, restructures, and organiz... | `Python` ★ 3.1k | 2024-10-21 |
-| [llm-workflow-engine/llm-workflow-engine](https://github.com/llm-workflow-engine/llm-workflow-engine) | Power CLI and Workflow manager for LLM s (core package) | `Python` ★ 3.7k | 2025-12-29 |
-| [TabbyML/tabby](https://github.com/TabbyML/tabby) | Self-hosted AI coding assistant | `Rust` ★ 32.7k | 2026-01-11 |
-| [yamadashy/repomix](https://github.com/yamadashy/repomix) | 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLM s) or other AI tools l... | `TypeScript` ★ 21.1k | 2026-01-11 |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 🙌 Open Hands: AI-Driven Development | `Python` ★ 66.5k | 2026-01-11 |
-| [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous ... | `Python` ★ 32.1k | 2026-01-06 |
-| [deepseek-ai/DeepSeek-LLM](https://github.com/deepseek-ai/DeepSeek-LLM) | Deep Seek LLM: Let there be answers | `Makefile` ★ 6.7k | 2024-02-04 |
-| [BestAnHongjun/LMDeploy-Jetson](https://github.com/BestAnHongjun/LMDeploy-Jetson) | Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access. | ★ 105 | 2024-03-23 |
-| [NVIDIA-AI-IOT/jetson-copilot](https://github.com/NVIDIA-AI-IOT/jetson-copilot) | A reference application for a local AI assistant with LLM and RAG | `Python` ★ 117 | 2024-12-05 |
-| [shahizat/JetsonGPT](https://github.com/shahizat/JetsonGPT) | Using Fast Chat-T5 Large Language Model, Vosk API for automatic speech recognition, and Piper for text-to-speech | `Python` ★ 128 | 2023-06-15 |
-| [katanaml/sparrow](https://github.com/katanaml/sparrow) | Structured data extraction and instruction calling with ML, LLM and Vision LLM | `Python` ★ 5.1k | 2026-01-11 |
-| [acon96/home-llm](https://github.com/acon96/home-llm) | A Home Assistant integration & Model to control your smart home using a Local LLM | `Python` ★ 1.2k | 2026-01-04 |
-| [voxel51/voxelgpt](https://github.com/voxel51/voxelgpt) | AI assistant that can query visual datasets, search the Fifty One docs, and answer general computer vision questions | `Python` ★ 250 | 2024-12-06 |
-| [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) | LLM UI with advanced features, easy setup, and multiple backend support. | `Python` ★ 45.8k | 2026-01-08 |

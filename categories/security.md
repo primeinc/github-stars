@@ -1,6 +1,6 @@
 # Security
 
-*164 repositories*
+*74 repositories*
 
 [← Back to Index](../README.md)
 
@@ -13,11 +13,11 @@
 | [chaitin/SafeLine](https://github.com/chaitin/SafeLine) | Safe Line is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits. | `Go` ★ 20k | 2025-11-05 |
 | [matijazezelj/sib](https://github.com/matijazezelj/sib) | SIEM in a box | `Python` ★ 57 | 2026-01-09 |
 | [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 29.4k | 2025-11-14 |
-| [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs | `Rust` ★ 53.2k | 2026-01-09 |
+| [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs | `Rust` ★ 53.3k | 2026-01-09 |
 | [epi052/feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | `Rust` ★ 7.4k | 2025-12-24 |
 | [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static... | `JavaScript` ★ 20.2k | 2026-01-09 |
 | [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 33.8k | 2026-01-09 |
-| [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 856 | 2026-01-07 |
+| [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 857 | 2026-01-07 |
 | [kaifcodec/Telespot](https://github.com/kaifcodec/Telespot) | Tele Spot OSINT lookup from Telephone number using DDGR + BING + GOOGLE and pattern recognition correlations. | `Python` ★ 4 | 2026-01-09 |
 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | `Python` ★ 71.7k | 2026-01-11 |
 | [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | `C#` ★ 14k | 2026-01-08 |
@@ -80,95 +80,5 @@
 | [Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy) | 🦄 A curated list of privacy & security-focused software and services | `Astro` ★ 8.7k | 2026-01-10 |
 | [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) | 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2024 | `TypeScript` ★ 20.5k | 2025-06-28 |
 | [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | A collection of various awesome lists for hackers, pentesters and security researchers | ★ 104.3k | 2025-01-18 |
-| [zama-ai/fhevm](https://github.com/zama-ai/fhevm) | FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications | `Rust` ★ 26k | 2026-01-11 |
-| [Azure/industry-policy-portfolio](https://github.com/Azure/industry-policy-portfolio) | The Industry Policy Portfolio's Policy Initiatives aid in customizing deployments to reduce the time needed to audit environments and meet established regulatory compliance frameworks in regulated ... | ★ 21 | 2025-02-25 |
-| [x64dbg/x64dbg](https://github.com/x64dbg/x64dbg) | An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis. | `C++` ★ 47.5k | 2026-01-11 |
-| [cartesiancs/vessel](https://github.com/cartesiancs/vessel) | Home security / protection system 🦾 | `TypeScript` ★ 312 | 2025-09-27 |
-| [MorDavid/BruteForceAI](https://github.com/MorDavid/BruteForceAI) | Advanced LLM-powered brute-force tool combining AI intelligence with automated login attacks | `Python` ★ 1.3k | 2025-11-01 |
-| [lainra/claude-code-telemetry](https://github.com/lainra/claude-code-telemetry) | Claude Code Telemetry is a lightweight bridge that captures telemetry data from Claude Code and forwards it to Langfuse for visualization, with a secure local turnkey installation under a minute. | `JavaScript` ★ 16 | 2026-01-01 |
-| [bitwarden/clients](https://github.com/bitwarden/clients) | Bitwarden client apps (web, browser extension, desktop, and cli). | `TypeScript` ★ 11.8k | 2026-01-11 |
-| [Ido-Levi/claude-code-tamagotchi](https://github.com/Ido-Levi/claude-code-tamagotchi) | Real-time behavioral enforcement for Claude Code. Monitors AI actions, detects violations, and interrupts misbehavior. Also has a cute pet. | `TypeScript` ★ 240 | 2025-10-20 |
-| [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | A list of useful payloads and bypass for Web Application Security and Pentest/CTF | `Python` ★ 74.3k | 2026-01-03 |
-| [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) | Authentication for the Web. | `TypeScript` ★ 28k | 2025-12-12 |
-| [unionlabs/union](https://github.com/unionlabs/union) | The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance. | `Rust` ★ 74.4k | 2026-01-11 |
-| [peass-ng/PEASS-ng](https://github.com/peass-ng/PEASS-ng) | PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) | `C#` ★ 19.1k | 2026-01-01 |
-| [jasonxtn/Argus](https://github.com/jasonxtn/Argus) | The Ultimate Information Gathering Toolkit | `Python` ★ 2.6k | 2025-12-10 |
-| [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) | A simple zero-config tool to make locally trusted development certificates with any names you'd like. | `Go` ★ 57.7k | 2024-08-13 |
-| [j0eyv/ConditionalAccessBaseline](https://github.com/j0eyv/ConditionalAccessBaseline) | No description provided | ★ 223 | 2025-11-05 |
-| [EmenstaNougat/ESP32-BlueJammer](https://github.com/EmenstaNougat/ESP32-BlueJammer) | The ESP32-Blue Jammer (Bluetooth jammer, BLE jammer, Wi Fi jammer, RC jammer) disrupts 2.4GHz communications. Using an ESP32 and n RF24 modules, it generates noise and unnecessary packets, causing ... | ★ 5.1k | 2025-11-15 |
-| [pangaea-data-publisher/qualianon](https://github.com/pangaea-data-publisher/qualianon) | Quali Anon is a tool to support the anonymization of text data. It is developed by the Qualiservice research data center for the anonymization of interviews in the qualitative social sciences for a... | `Java` ★ 31 | 2025-05-27 |
-| [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | Comfortably monitor your Internet traffic 🕵️‍♂️ | `Rust` ★ 32.3k | 2026-01-07 |
-| [fosrl/pangolin](https://github.com/fosrl/pangolin) | Tunneled Reverse Proxy Server with Identity and Access Control and Dashboard UI | `TypeScript` ★ 17.9k | 2026-01-10 |
-| [siwenwang0803/secure-pr-guard](https://github.com/siwenwang0803/secure-pr-guard) | No description provided | `Python` ★ 2 | 2025-07-02 |
-| [google/grr](https://github.com/google/grr) | GRR Rapid Response: remote live forensics for incident response | `Python` ★ 5k | 2025-12-16 |
-| [Mail-0/Zero](https://github.com/Mail-0/Zero) | Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://discord.gg/mail0 | `TypeScript` ★ 10.3k | 2025-09-04 |
-| [Yuyz0112/claude-code-reverse](https://github.com/Yuyz0112/claude-code-reverse) | Reverse Engineering Claude Code with LLM s: A Deep Dive into the Minified 4.6MB cli.mjs | `JavaScript` ★ 1.9k | 2025-08-26 |
-| [ghuntley/claude-code-source-code-deobfuscation](https://github.com/ghuntley/claude-code-source-code-deobfuscation) | This is a cleanroom deobfuscation of the official Claude Code npm package. | `TypeScript` ★ 787 | 2025-03-01 |
-| [netbirdio/netbird](https://github.com/netbirdio/netbird) | Connect your devices into a secure Wire Guard®-based overlay network with SSO, MFA and granular access controls. | `Go` ★ 20.9k | 2026-01-11 |
-| [TA1312/supernote-a5x](https://github.com/TA1312/supernote-a5x) | various security information on the supernote a5x | `Batchfile` ★ 130 | 2022-12-07 |
-| [github/codeql](https://github.com/github/codeql) | Code QL: the libraries and queries that power security researchers around the world, as well as code scanning in Git Hub Advanced Security | `CodeQL` ★ 9.1k | 2026-01-09 |
-| [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | The Network Execution Tool | `Python` ★ 5.1k | 2026-01-04 |
-| [someengineering/fixinventory](https://github.com/someengineering/fixinventory) | Fix Inventory helps you identify and remove the most critical risks in AWS, GCP, Azure and Kubernetes. | `Python` ★ 2.1k | 2025-05-19 |
-| [devkimchi/azure-easyauth-sample](https://github.com/devkimchi/azure-easyauth-sample) | This provides a sample code for the Easy Auth feature on Azure App Service, Azure Static Web App and Azure Container Apps | `CSS` ★ 5 | 2025-02-12 |
-| [Jonathanpatta/E2E-Encryption-Chat-App](https://github.com/Jonathanpatta/E2E-Encryption-Chat-App) | End-to-End Encryption Chat Application using Diffie Hellman Key Exchange protocol | `JavaScript` ★ 1 | 2021-11-27 |
-| [team-telnyx/messaging-spam-detector](https://github.com/team-telnyx/messaging-spam-detector) | No description provided | `Python` ★ 2 | 2023-03-06 |
-| [dafthack/GraphRunner](https://github.com/dafthack/GraphRunner) | A Post-exploitation Toolset for Interacting with the Microsoft Graph API | `PowerShell` ★ 1.2k | 2025-07-22 |
-| [palakz-simform/MSAL-Nuxt3](https://github.com/palakz-simform/MSAL-Nuxt3) | No description provided | `JavaScript` ★ 2 | 2024-05-20 |
-| [Akash52/msal-with-nuxt3](https://github.com/Akash52/msal-with-nuxt3) | Microsoft Authentication Library (MSAL) with Nuxt 3 | `Vue` ★ 35 | 2023-11-17 |
-| [au2001/icloud-passwords-firefox](https://github.com/au2001/icloud-passwords-firefox) | Firefox extension which lets you use your passwords stored on i Cloud Keychain®. | `TypeScript` ★ 241 | 2025-04-21 |
-| [leonboe1/GoogleFindMyTools](https://github.com/leonboe1/GoogleFindMyTools) | Framework for tracking and building your own Google Find My Device / Find Hub trackers 🧭 | `Python` ★ 962 | 2025-11-08 |
-| [seemoo-lab/AirGuard-iOS](https://github.com/seemoo-lab/AirGuard-iOS) | Protect yourself from being tracked 📍by Air Tags, Smart Tags, Chipolo, Google, and Tile Trackers | `Swift` ★ 88 | 2025-01-01 |
-| [0x888e/certs](https://github.com/0x888e/certs) | Extracts certificates from BGW210 and BGW320 routers | `Python` ★ 109 | 2025-04-16 |
-| [cipher387/osint_stuff_tool_collection](https://github.com/cipher387/osint_stuff_tool_collection) | A collection of several hundred online tools for OSINT | `HTML` ★ 7.4k | 2025-07-16 |
-| [sottlmarek/DevSecOps](https://github.com/sottlmarek/DevSecOps) | Ultimate Dev Sec Ops library | ★ 6.5k | 2025-07-17 |
-| [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) | A curated list of Awesome Threat Intelligence resources | ★ 9.6k | 2025-12-15 |
-| [paralax/awesome-honeypots](https://github.com/paralax/awesome-honeypots) | an awesome list of honeypot resources | `Python` ★ 10k | 2025-04-01 |
-| [k4m4/movies-for-hackers](https://github.com/k4m4/movies-for-hackers) | 🎬 A curated list of movies every hacker & cyberpunk must watch. | `Shell` ★ 11.6k | 2024-08-01 |
-| [rshipp/awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) | Defund the Police. | ★ 13.3k | 2024-06-07 |
-| [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy) | Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS. | ★ 17.7k | 2025-11-05 |
-| [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) | 🐬 A collection of awesome resources for the Flipper Zero device. | ★ 22.6k | 2024-09-27 |
-| [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) | A collection of awesome penetration testing resources, tools and other shiny things | ★ 24.9k | 2025-12-17 |
-| [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username from thousands of sites | `Python` ★ 18.7k | 2026-01-09 |
-| [intuitem/ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community) | CISO Assistant is a one-stop-shop for GRC, covering Risk, App Sec, Compliance/Audit Management, Privacy and supporting +100 frameworks worldwide with auto-mapping: NIST CSF, ISO 27001, SOC2, CIS, P... | `Python` ★ 3.5k | 2026-01-11 |
-| [paulveillard/cybersecurity-cyberinsurance](https://github.com/paulveillard/cybersecurity-cyberinsurance) | An ongoing & curated collection of awesome software best practices and techniques, libraries and frameworks, E-books and videos, websites, blog posts, links to github Repositories, technical guidel... | ★ 3 | 2023-10-18 |
-| [openziti/ziti](https://github.com/openziti/ziti) | The parent project for Open Ziti. Here you will find the executables for a fully zero trust, application embedded, programmable network @Open Ziti | `Go` ★ 3.8k | 2026-01-09 |
-| [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | The best IP Toolbox. Easy to check what's your IP s, IP geolocation, check for DNS leaks, examine Web RTC connections, speed test, ping test, MTR test, check website availability, whois search and ... | `Vue` ★ 9.6k | 2026-01-05 |
-| [bee-san/RustScan](https://github.com/bee-san/RustScan) | 🤖 The Modern Port Scanner 🤖 | `Rust` ★ 19k | 2026-01-05 |
-| [swipelux/zeroid-secrets-storing-widget](https://github.com/swipelux/zeroid-secrets-storing-widget) | No description provided | `TypeScript` ★ 17 | 2024-01-18 |
-| [paolo-projects/auto-unlocker](https://github.com/paolo-projects/auto-unlocker) | Unlocker for VMW are mac OS | `C++` ★ 4.7k | 2025-09-17 |
-| [alufers/mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger) | Automagically reverse-engineer REST API s via capturing traffic | `HTML` ★ 9.2k | 2025-12-15 |
-| [ljanyst/peroxide](https://github.com/ljanyst/peroxide) | A third-party Proton Mail bridge serving SMTP and IMAP | `Go` ★ 64 | 2023-01-27 |
-| [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) | Secure, cross-platform Git credential storage with authentication to Git Hub, Azure Repos, and other popular Git hosting services. | `C#` ★ 8.5k | 2026-01-06 |
-| [zeek/zeek](https://github.com/zeek/zeek) | Zeek is a powerful network analysis framework that is much different from the typical IDS you may know. | `C++` ★ 7.4k | 2026-01-10 |
-| [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | Cryptomator for Windows, mac OS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data. | `Java` ★ 14.3k | 2026-01-09 |
-| [ente-io/ente](https://github.com/ente-io/ente) | 🔒 End-to-end encrypted cloud for photos, videos and 2FA secrets. | `Dart` ★ 23.8k | 2026-01-09 |
-| [papuSpartan/stable-diffusion-webui-auto-tls-https](https://github.com/papuSpartan/stable-diffusion-webui-auto-tls-https) | An extension for AUTOMATIC1111's Stable Diffusion Web-UI that enables easy or zero-conf TLS for HTTPS | `Python` ★ 61 | 2024-05-12 |
-| [WADComs/WADComs.github.io](https://github.com/WADComs/WADComs.github.io) | WADC oms is an interactive cheat sheet, containing a curated list of offensive security tools and their respective commands, to be used against Windows/AD environments. | `HTML` ★ 1.6k | 2025-08-29 |
-| [zonemaster/zonemaster](https://github.com/zonemaster/zonemaster) | The Zonemaster Project | `Perl` ★ 516 | 2025-12-20 |
-| [mxk/windows-secure-group-policy](https://github.com/mxk/windows-secure-group-policy) | Windows 11 secure group policy for standalone devices | `Batchfile` ★ 245 | 2025-12-14 |
-| [DigitalRuby/IPBan](https://github.com/DigitalRuby/IPBan) | Since 2011, IPB an is the worlds most trusted, free security software to block hackers and botnets. With both Windows and Linux support, IPB an has your dedicated or cloud server protected. Upgrade... | `C#` ★ 2k | 2026-01-11 |
-| [square/sharkey](https://github.com/square/sharkey) | Sharkey is a service for managing certificates for use by Open SSH | `Go` ★ 411 | 2025-12-15 |
-| [dxa4481/WPA2-HalfHandshake-Crack](https://github.com/dxa4481/WPA2-HalfHandshake-Crack) | This is a POC to show it is possible to capture enough of a handshake with a user from a fake AP to crack a WPA2 network without knowing the passphrase of the actual AP. | `Python` ★ 593 | 2022-03-03 |
-| [bastillion-io/Bastillion](https://github.com/bastillion-io/Bastillion) | Bastillion is a web-based SSH console that centrally manages administrative access to systems. Web-based administration is combined with management and distribution of user's public SSH keys. | `Java` ★ 3.4k | 2026-01-06 |
-| [threat9/routersploit](https://github.com/threat9/routersploit) | Exploitation Framework for Embedded Devices | `Python` ★ 12.9k | 2025-06-10 |
-| [gravitational/teleport](https://github.com/gravitational/teleport) | The easiest, and most secure way to access and protect all of your infrastructure. | `Go` ★ 19.6k | 2026-01-10 |
-| [srvrco/getssl](https://github.com/srvrco/getssl) | obtain free SSL certificates from letsencrypt ACME server Suitable for automating the process on remote servers. | `Shell` ★ 2.2k | 2025-11-26 |
-| [Diyzzuf/grav-plugin-private](https://github.com/Diyzzuf/grav-plugin-private) | Private is a Grav Plugin. It provide an authentification form to keep private your Grav site or part of it | `PHP` ★ 34 | 2022-10-14 |
-| [eschultze/URLextractor](https://github.com/eschultze/URLextractor) | Information gathering & website reconnaissance | https://phishstats.info/ | `Shell` ★ 455 | 2019-05-27 |
-| [vgough/encfs](https://github.com/vgough/encfs) | Enc FS: an Encrypted Filesystem for FUSE. | `C++` ★ 2.1k | 2026-01-10 |
-| [AlphaDelta/Secure-Desktop](https://github.com/AlphaDelta/Secure-Desktop) | Anti-keylogger/anti-rat application for Windows | `C#` ★ 250 | 2021-09-08 |
-| [SpiderOak/Encryptr](https://github.com/SpiderOak/Encryptr) | Encryptr is a zero-knowledge cloud-based password manager / e-wallet powered by Crypton | `JavaScript` ★ 1.6k | 2017-11-29 |
-| [Herzult/php-ssh](https://github.com/Herzult/php-ssh) | An experimental object oriented SSH api in PHP | `PHP` ★ 360 | 2023-05-11 |
-| [netheril96/securefs](https://github.com/netheril96/securefs) | Filesystem in userspace (FUSE) with transparent authenticated encryption | `C++` ★ 807 | 2026-01-09 |
-| [hephaest0s/usbkill](https://github.com/hephaest0s/usbkill) | « usbkill » is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer. | `Python` ★ 4.6k | 2024-03-01 |
-| [robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan) | TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. | `C` ★ 25.2k | 2025-06-05 |
-| [ptejada/uFlex](https://github.com/ptejada/uFlex) | All in one PHP user authentication classs | `PHP` ★ 115 | 2019-01-06 |
-| [perusio/php-ini-cleanup](https://github.com/perusio/php-ini-cleanup) | A script that cleans up the php.ini file with security in mind | `Awk` ★ 103 | 2013-07-30 |
-| [brandonlw/Psychson](https://github.com/brandonlw/Psychson) | Phison 2251-03 (2303) Custom Firmware & Existing Firmware Patches (Bad USB) | `C#` ★ 4.2k | 2021-07-19 |
-| [neurodroid/cryptonite](https://github.com/neurodroid/cryptonite) | Enc FS and True Crypt on Android | `C` ★ 207 | 2019-06-24 |
-| [defuse/php-encryption](https://github.com/defuse/php-encryption) | Simple Encryption in PHP. | `PHP` ★ 3.9k | 2024-01-02 |
-| [FreeApophis/TrueCrypt](https://github.com/FreeApophis/TrueCrypt) | This repository applies all Versions of the Original True Crypt Source Files in order | `C` ★ 851 | 2015-08-31 |
-| [ossec/ossec-hids](https://github.com/ossec/ossec-hids) | OSSEC is an Open Source Host-based Intrusion Detection System that performs log analysis, file integrity checking, policy monitoring, rootkit detection, real-time alerting and active response. | `C` ★ 5k | 2025-01-22 |
-| [bitwiseshiftleft/sjcl](https://github.com/bitwiseshiftleft/sjcl) | Stanford Javascript Crypto Library | `JavaScript` ★ 7.2k | 2026-01-08 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

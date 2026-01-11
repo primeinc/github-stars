@@ -1,6 +1,6 @@
 # Tag: debugging-tools
 
-*3 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,4 +8,3 @@
 |---|---|---|---|
 | [ChromeDevTools/awesome-chrome-devtools](https://github.com/ChromeDevTools/awesome-chrome-devtools) | Awesome tooling and resources in the Chrome Dev Tools & Dev Tools Protocol ecosystem | ★ 6.8k | 2025-09-29 |
 | [Mellanox/mstflint](https://github.com/Mellanox/mstflint) | Mstflint - an open source version of MFT (Mellanox Firmware Tools) | `C` ★ 240 | 2026-01-10 |
-| [filp/whoops](https://github.com/filp/whoops) | PHP errors for cool kids | `PHP` ★ 13.3k | 2025-11-28 |

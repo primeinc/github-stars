@@ -1,6 +1,6 @@
 # Infrastructure
 
-*65 repositories*
+*33 repositories*
 
 [← Back to Index](../README.md)
 
@@ -39,37 +39,5 @@
 | [unjs/obuild](https://github.com/unjs/obuild) | 📦 😯 Zero-config ESM/TS package builder. powered by oxc, rolldown and rolldown-plugin-dts. | `TypeScript` ★ 368 | 2026-01-10 |
 | [NousResearch/DisTrO](https://github.com/NousResearch/DisTrO) | Distributed Training Over-The-Internet | ★ 973 | 2025-10-14 |
 | [microsoft/garnet](https://github.com/microsoft/garnet) | Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication feat... | `C#` ★ 11.7k | 2026-01-10 |
-| [jamesmcroft/bicep-templates](https://github.com/jamesmcroft/bicep-templates) | A centralized resource for providing baseline templates for building and deploying infrastructure-as-code best practices using Azure Bicep | `Bicep` ★ 16 | 2025-06-18 |
-| [fusionpbx/fusionpbx](https://github.com/fusionpbx/fusionpbx) | Official Fusion PBX - A full-featured domain based multi-tenant PBX and voice switch for Free Switch. | `PHP` ★ 960 | 2026-01-11 |
-| [unionlabs/union](https://github.com/unionlabs/union) | The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance. | `Rust` ★ 74.4k | 2026-01-11 |
-| [Stremio/stremio-core](https://github.com/Stremio/stremio-core) | ⚛️ The Stremio Core: types, addon system, UI models, core logic | `Rust` ★ 1.8k | 2026-01-10 |
-| [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) | Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic. | `TypeScript` ★ 25.3k | 2026-01-10 |
-| [github/github-mcp-server](https://github.com/github/github-mcp-server) | Git Hub's official MCP Server | `Go` ★ 25.8k | 2026-01-10 |
-| [bluewave-labs/Checkmate](https://github.com/bluewave-labs/Checkmate) | Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join her... | `JavaScript` ★ 8.9k | 2026-01-09 |
-| [qbcore-framework/qb-housing](https://github.com/qbcore-framework/qb-housing) | The next iteration of QBC ore’s housing system | ★ 35 | 2022-08-23 |
-| [rustfs/rustfs](https://github.com/rustfs/rustfs) | 🚀 High-performance distributed object storage for Min IO alternative. | `Rust` ★ 19.5k | 2026-01-11 |
-| [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | Open Source realtime backend in 1 file | `Go` ★ 55.1k | 2026-01-10 |
-| [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | Explain complex systems using visuals and simple terms. Help you prepare for system design interviews. | ★ 78.9k | 2025-04-04 |
-| [radius-project/radius](https://github.com/radius-project/radius) | Radius is a cloud-native, portable application platform that makes app development easier for teams building cloud-native apps. | `Go` ★ 1.6k | 2026-01-10 |
-| [maartenvandiemen/AZD-AppConfiguration](https://github.com/maartenvandiemen/AZD-AppConfiguration) | No description provided | `Bicep` ★ 1 | 2025-10-17 |
-| [microsoftgraph/msgraph-bicep-types](https://github.com/microsoftgraph/msgraph-bicep-types) | Repo contains Microsoft Graph resource types to integrate with bicep templates. | `TypeScript` ★ 75 | 2025-12-10 |
-| [Azure-Samples/azd-starter-bicep](https://github.com/Azure-Samples/azd-starter-bicep) | Starter template with Bicep as infrastructure provider for Azure Developer CLI (azd). | `Bicep` ★ 34 | 2025-06-02 |
-| [Azure/PSRule.Rules.Azure](https://github.com/Azure/PSRule.Rules.Azure) | Rules to validate Azure resources and infrastructure as code (Ia C) using PSR ule. | `PowerShell` ★ 433 | 2026-01-10 |
-| [tensorzero/tensorzero](https://github.com/tensorzero/tensorzero) | Tensor Zero is an open-source stack for industrial-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluation, and experimentation. | `Rust` ★ 10.8k | 2026-01-10 |
-| [Azure/Azure-Verified-Modules](https://github.com/Azure/Azure-Verified-Modules) | Azure Verified Modules (AVM) is an initiative to consolidate and set the standards for what a good Infrastructure-as-Code module looks like. Modules will then align to these standards, across langu... | `PowerShell` ★ 514 | 2026-01-08 |
-| [Azure/AppConfiguration](https://github.com/Azure/AppConfiguration) | Questions, feedback and samples for Azure App Configuration service | ★ 258 | 2026-01-08 |
-| [Azure/azure-functions-host](https://github.com/Azure/azure-functions-host) | The host/runtime that powers Azure Functions | `C#` ★ 2k | 2026-01-09 |
-| [Azure/bicep-registry-modules](https://github.com/Azure/bicep-registry-modules) | Bicep registry modules | `Bicep` ★ 690 | 2026-01-10 |
-| [Azure/awesome-terraform](https://github.com/Azure/awesome-terraform) | An authoritative list of awesome Azure Terraform tools and samples with help from community experiments and contributions. | `HCL` ★ 175 | 2023-12-06 |
-| [JonasKruckenberg/k23](https://github.com/JonasKruckenberg/k23) | Experimental WASM Microkernel Operating System | `Rust` ★ 600 | 2026-01-11 |
-| [minio/minio](https://github.com/minio/minio) | Min IO is a high-performance, S3 compatible object store, open sourced under GNU AGPL v3 license. | `Go` ★ 59.7k | 2026-01-06 |
-| [winfsp/winfsp](https://github.com/winfsp/winfsp) | Windows File System Proxy - FUSE for Windows | `C` ★ 8.2k | 2025-12-24 |
-| [theohbrothers/ItemLinkManagement](https://github.com/theohbrothers/ItemLinkManagement) | A Power Shell module for managing hardlinks, junctions, symbolic links. | `PowerShell` ★ 3 | 2021-10-17 |
-| [bcpierce00/unison](https://github.com/bcpierce00/unison) | Unison file synchronizer | `OCaml` ★ 5k | 2025-12-01 |
-| [netbox-community/netbox](https://github.com/netbox-community/netbox) | The premier source of truth powering network automation. Open source under Apache 2. Try Net Box Cloud free: https://netboxlabs.com/products/free-netbox-cloud/ | `Python` ★ 19.5k | 2026-01-11 |
-| [gravitational/teleport](https://github.com/gravitational/teleport) | The easiest, and most secure way to access and protect all of your infrastructure. | `Go` ★ 19.6k | 2026-01-10 |
-| [microsoft/WSL](https://github.com/microsoft/WSL) | Windows Subsystem for Linux | `C++` ★ 30.8k | 2026-01-11 |
-| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 267.6k | 2026-01-11 |
-| [litespeedtech/openlitespeed](https://github.com/litespeedtech/openlitespeed) | Our high-performance, lightweight, open source HTTP server | `C++` ★ 1.4k | 2026-01-08 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

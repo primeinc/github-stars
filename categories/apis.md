@@ -1,6 +1,6 @@
 # Apis
 
-*153 repositories*
+*60 repositories*
 
 [← Back to Index](../README.md)
 
@@ -66,98 +66,5 @@
 | [fullstorydev/grpcui](https://github.com/fullstorydev/grpcui) | An interactive web UI for g RPC, along the lines of postman | `Go` ★ 5.8k | 2025-12-15 |
 | [RevenueCat/react-native-purchases](https://github.com/RevenueCat/react-native-purchases) | React Native in-app purchases and subscriptions made easy. Support for i OS and Android. | `TypeScript` ★ 1.1k | 2026-01-08 |
 | [microsoft/mcp](https://github.com/microsoft/mcp) | Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration | `C#` ★ 2.4k | 2026-01-10 |
-| [googleapis/gcloud-mcp](https://github.com/googleapis/gcloud-mcp) | gcloud MCP server | `TypeScript` ★ 602 | 2026-01-07 |
-| [Azure-Samples/AI-Gateway](https://github.com/Azure-Samples/AI-Gateway) | APIM ❤️ AI - This repo contains experiments on Azure API Management's AI capabilities, integrating with Azure Open AI, AI Foundry, and much more 🚀 . New workshop experience at https://aka.ms/ai-ga... | `Jupyter Notebook` ★ 836 | 2026-01-05 |
-| [rigwild/mcp-server-amazon](https://github.com/rigwild/mcp-server-amazon) | 🛍📦 Unofficial Amazon Model Context Protocol Server (MCP) - Search products and purchase directly from Claude AI! ✨ | `TypeScript` ★ 15 | 2025-07-25 |
-| [calcom/cal.com](https://github.com/calcom/cal.com) | Scheduling infrastructure for absolutely everyone. | `TypeScript` ★ 39.6k | 2026-01-11 |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data | `TypeScript` ★ 74.3k | 2026-01-09 |
-| [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | An open source payments switch written in Rust to make payments fast, reliable and affordable | `Rust` ★ 39.3k | 2026-01-11 |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | `Python` ★ 390.6k | 2025-11-04 |
-| [ronaldbosma/azure-integration-services-quickstart](https://github.com/ronaldbosma/azure-integration-services-quickstart) | An azd template (Bicep) for deploying Azure Integration Services, including Azure API Management, Function App, Logic App, Service Bus and Event Hubs namespace, along with supporting resources such... | `Bicep` ★ 4 | 2026-01-08 |
-| [Azure-Samples/APICenter-Reference](https://github.com/Azure-Samples/APICenter-Reference) | This provides some reference use cases while using Azure API Center | `Bicep` ★ 21 | 2025-05-06 |
-| [alvarcarto/url-to-pdf-api](https://github.com/alvarcarto/url-to-pdf-api) | Web page PDF/PNG rendering done right. Self-hosted service for rendering receipts, invoices, or any content. | `HTML` ★ 7.1k | 2024-01-18 |
-| [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first. | `TypeScript` ★ 70.9k | 2026-01-09 |
-| [github/github-mcp-server](https://github.com/github/github-mcp-server) | Git Hub's official MCP Server | `Go` ★ 25.8k | 2026-01-10 |
-| [borisnliscool/bnl-housing](https://github.com/borisnliscool/bnl-housing) | 🏠 An open-source Five M player property script with extensive API for ultimate customization | `Lua` ★ 99 | 2024-06-29 |
-| [Froren/realtorca](https://github.com/Froren/realtorca) | API wrapper for realtor.ca MLS website | `JavaScript` ★ 207 | 2022-06-11 |
-| [baizel36/property_search](https://github.com/baizel36/property_search) | Python scripts to search for real estate on realtor.com and zillow.com | `Python` ★ 14 | 2021-11-13 |
-| [rachitt96/pyRealtor](https://github.com/rachitt96/pyRealtor) | Python package to extract and analyse Canadian, United States and Indian real estate data from REALTOR.CA, REALTOR.COM and HOUSING.COM | `Python` ★ 14 | 2025-12-21 |
-| [moov-io/fincen](https://github.com/moov-io/fincen) | Fincen BSA E-Filing forms | `Go` ★ 29 | 2025-12-12 |
-| [nhost/nhost](https://github.com/nhost/nhost) | The Open Source Firebase Alternative with Graph QL. | `TypeScript` ★ 9k | 2026-01-10 |
-| [adrianhajdin/project_graphql_blog](https://github.com/adrianhajdin/project_graphql_blog) | With featured and recent posts, categories. full markdown articles, author information, comments, and much more, this fully responsive CMS Blog App is the best Blog Application that you can current... | `JavaScript` ★ 1.5k | 2023-10-15 |
-| [kriasoft/graphql-starter-kit](https://github.com/kriasoft/graphql-starter-kit) | 💥 Monorepo template (seed project) pre-configured with Graph QL API, Postgre SQL, React, and Joy UI. | `TypeScript` ★ 4k | 2024-11-10 |
-| [ChilliCream/graphql-platform](https://github.com/ChilliCream/graphql-platform) | Welcome to the home of the Hot Chocolate Graph QL server for .NET, the Strawberry Shake Graph QL client for .NET and Nitro the awesome Monaco based Graph QL IDE. | `C#` ★ 5.7k | 2026-01-11 |
-| [dotansimha/graphql-code-generator](https://github.com/dotansimha/graphql-code-generator) | A tool for generating code based on a Graph QL schema and Graph QL operations (query/mutation/subscription), with flexible support for custom plugins. | `TypeScript` ★ 11.2k | 2026-01-11 |
-| [MichalLytek/type-graphql](https://github.com/MichalLytek/type-graphql) | Create Graph QL schema and resolvers with Type Script, using classes and decorators! | `TypeScript` ★ 8.1k | 2026-01-06 |
-| [ipfs/helia](https://github.com/ipfs/helia) | An implementation of IPFS in Type Script | `TypeScript` ★ 1.3k | 2025-12-15 |
-| [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | Open Source realtime backend in 1 file | `Go` ★ 55.1k | 2026-01-10 |
-| [basementstudio/xmcp](https://github.com/basementstudio/xmcp) | The Type Script MCP framework | `TypeScript` ★ 1.2k | 2026-01-10 |
-| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Model Context Protocol Servers | `TypeScript` ★ 75.9k | 2026-01-11 |
-| [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | A community driven registry service for Model Context Protocol (MCP) servers. | `Go` ★ 6.2k | 2026-01-09 |
-| [Portkey-AI/gateway](https://github.com/Portkey-AI/gateway) | A blazing fast AI Gateway with integrated guardrails. Route to 200+ LLM s, 50+ AI Guardrails with 1 fast & friendly API. | `TypeScript` ★ 10.2k | 2026-01-07 |
-| [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge) | A Model Context Protocol (MCP) Gateway & Registry. Serves as a central management point for tools, resources, and prompts that can be accessed by MCP-compatible LLM applications. Converts REST API ... | `Python` ★ 3.1k | 2026-01-11 |
-| [microsoftgraph/msgraph-bicep-types](https://github.com/microsoftgraph/msgraph-bicep-types) | Repo contains Microsoft Graph resource types to integrate with bicep templates. | `TypeScript` ★ 75 | 2025-12-10 |
-| [panoramicdata/Meraki.Api](https://github.com/panoramicdata/Meraki.Api) | Meraki Api Nuget Package | `C#` ★ 18 | 2025-12-16 |
-| [meraki/dashboard-api-python](https://github.com/meraki/dashboard-api-python) | Official Dashboard API library (SDK) for Python | `Python` ★ 329 | 2026-01-08 |
-| [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | The official Python SDK for Model Context Protocol servers and clients | `Python` ★ 21k | 2026-01-08 |
-| [team-telnyx/telnyx-mcp-server](https://github.com/team-telnyx/telnyx-mcp-server) | Official Telnyx Local Model Context Protocol (MCP) Server that enables interaction with powerful telephony, messaging, and AI assistant API s. This server allows MCP clients like Claude Desktop, Cu... | `Python` ★ 22 | 2025-09-29 |
-| [mondora/ddp.js](https://github.com/mondora/ddp.js) | Isomorphic Java Script DDP client | `JavaScript` ★ 211 | 2018-03-17 |
-| [xming521/WeClone](https://github.com/xming521/WeClone) | 🚀 One-stop solution for creating your digital avatar from chat history 💡 Fine-tune LLM s with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to lif... | `Python` ★ 16.2k | 2026-01-05 |
-| [21st-dev/magic-mcp](https://github.com/21st-dev/magic-mcp) | It's like v0 but in your Cursor/Wind Surf/Cline. 21st dev Magic MCP server for working with your frontend like Magic | `TypeScript` ★ 4.1k | 2025-12-23 |
-| [milistu/anthropic-parallel-calling](https://github.com/milistu/anthropic-parallel-calling) | Faster and cheaper! parallel processing of Anthropic API requests, optimizing for speed, cost-efficiency, and rate limit compliance. | `Python` ★ 15 | 2024-10-01 |
-| [Klingefjord/ChatGPT-API-Python](https://github.com/Klingefjord/ChatGPT-API-Python) | Unofficial Chat GPT headless browser wrapper | `Python` ★ 21 | 2022-12-06 |
-| [aipotheosis-labs/aci](https://github.com/aipotheosis-labs/aci) | ACI.dev is the open source tool-calling platform that hooks up 600+ tools into any agentic IDE or custom AI agent through direct function calling or a unified MCP server. The birthplace of Vibe Ops. | `Python` ★ 4.7k | 2026-01-08 |
-| [novuhq/novu](https://github.com/novuhq/novu) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | `TypeScript` ★ 38.4k | 2026-01-11 |
-| [getmaxun/maxun](https://github.com/getmaxun/maxun) | 🔥 Open-source no code web data extraction platform. Instantly turn any website into API or spreadsheet 🔥 | `TypeScript` ★ 14.1k | 2026-01-09 |
-| [ramondeklein/nwebdav](https://github.com/ramondeklein/nwebdav) | .NET implementation of the Web DAV protocol | `C#` ★ 167 | 2024-06-11 |
-| [team-telnyx/demo-node-telnyx](https://github.com/team-telnyx/demo-node-telnyx) | Samples & Examples with Telnyx-Node | `JavaScript` ★ 17 | 2025-11-26 |
-| [microsoftgraph/msgraph-sdk-powershell](https://github.com/microsoftgraph/msgraph-sdk-powershell) | Powershell SDK for Microsoft Graph | `C#` ★ 817 | 2026-01-09 |
-| [microsoft/kiota-samples](https://github.com/microsoft/kiota-samples) | sample generation SDK s for Kiota | `Go` ★ 108 | 2026-01-08 |
-| [OfficeDev/office-js](https://github.com/OfficeDev/office-js) | A repository for issues related to the Office Java Script API s and Office Add-ins platform. Find the Office.js library in Office.js CDN: https://appsforoffice.microsoft.com/lib/1/hosted/office.js. | `JavaScript` ★ 779 | 2025-12-31 |
-| [spblog/outlook-spfx-ms-graph-api](https://github.com/spblog/outlook-spfx-ms-graph-api) | Building Outlook add-in with SPF x - save mail to One Drive with Azure Function, MSAL.NET and MS Graph .NET | `TypeScript` ★ 1 | 2021-03-09 |
-| [team-telnyx/demo-dotnet-telnyx](https://github.com/team-telnyx/demo-dotnet-telnyx) | Dotnet Core Examples & Learning | `C#` ★ 4 | 2024-10-28 |
-| [team-telnyx/openapi](https://github.com/team-telnyx/openapi) | Open API specification for the Telnyx API | ★ 13 | 2026-01-09 |
-| [Azure/azure-functions-openapi-extension](https://github.com/Azure/azure-functions-openapi-extension) | This extension provides an Azure Functions app with Open API capability for better discoverability to consuming parties | `C#` ★ 388 | 2025-10-03 |
-| [team-telnyx/demo-python-telnyx](https://github.com/team-telnyx/demo-python-telnyx) | Samples & Examples with Telnyx-Python | `Python` ★ 25 | 2025-12-17 |
-| [microsoftgraph/microsoft-graph-explorer-v4](https://github.com/microsoftgraph/microsoft-graph-explorer-v4) | React/Redux version of Graph Explorer used to learn the Microsoft Graph Api | `TypeScript` ★ 251 | 2026-01-08 |
-| [dafthack/GraphRunner](https://github.com/dafthack/GraphRunner) | A Post-exploitation Toolset for Interacting with the Microsoft Graph API | `PowerShell` ★ 1.2k | 2025-07-22 |
-| [vgrem/office365-rest-python-client](https://github.com/vgrem/office365-rest-python-client) | Microsoft 365 & Microsoft Graph Library for Python | `Python` ★ 1.6k | 2026-01-08 |
-| [microsoftgraph/microsoft-graph-toolkit](https://github.com/microsoftgraph/microsoft-graph-toolkit) | Authentication Providers and UI components for Microsoft Graph 🦒 | `TypeScript` ★ 1k | 2025-12-18 |
-| [team-telnyx/telnyx-node](https://github.com/team-telnyx/telnyx-node) | Node SDK for the Telnyx API | `TypeScript` ★ 63 | 2026-01-09 |
-| [obs-websocket-community-projects/obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) | Consumes https://github.com/obsproject/obs-websocket | `TypeScript` ★ 752 | 2025-11-09 |
-| [NexusPolytech/NexeFax](https://github.com/NexusPolytech/NexeFax) | A modern open source e Fax server solution written in Python that allows sending and receiving faxes with Asterisk. | `Python` ★ 10 | 2023-09-12 |
-| [aatikturk/obsws-python](https://github.com/aatikturk/obsws-python) | A Python SDK for OBS Studio Web Socket v5.0 | `Python` ★ 117 | 2025-07-01 |
-| [p2sr/discord2ip](https://github.com/p2sr/discord2ip) | A Java program that rebroadcasts a Discord Voice Channel over NDI. Used in the ttv/portal2speedruns setup. | `Java` ★ 5 | 2021-08-04 |
-| [buresu/ndi-python](https://github.com/buresu/ndi-python) | New Tek NDI Python wrapper | `C++` ★ 179 | 2024-05-31 |
-| [reorx/awesome-chatgpt-api](https://github.com/reorx/awesome-chatgpt-api) | Curated list of apps and tools that not only use the new Chat GPT API, but also allow users to configure their own API keys, enabling free and on-demand usage of their own quota. | `Python` ★ 6.3k | 2024-09-26 |
-| [kyutai-labs/moshi](https://github.com/kyutai-labs/moshi) | Moshi is a speech-text foundation model and full-duplex spoken dialogue framework. It uses Mimi, a state-of-the-art streaming neural audio codec. | `Python` ★ 9.3k | 2026-01-08 |
-| [n8n-io/n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. | `TypeScript` ★ 168.1k | 2026-01-11 |
-| [opethrocks/text-assist](https://github.com/opethrocks/text-assist) | AI Assistant that can communicate via SMS and MMS. Leverages Open AI and a Telnyx SIP phone number. | `JavaScript` ★ 2 | 2025-09-28 |
-| [tiniyo/neoms](https://github.com/tiniyo/neoms) | Open Source Twilio Alternative | `Go` ★ 35 | 2021-11-11 |
-| [0perationPrivacy/VoIP](https://github.com/0perationPrivacy/VoIP) | Web Base Telnyx/Twilio Vo IP Interface enabling SMS, MMS and Voice calls using the providers API Keys and self-hosting the application. | `JavaScript` ★ 285 | 2024-05-28 |
-| [msmhome/miniFaxServer](https://github.com/msmhome/miniFaxServer) | 📠 A tiny, ready to deploy, simple fax server with SMS recieve running on the Telynx Programmable Fax and SMS API s. | `Python` ★ 5 | 2025-09-09 |
-| [alufers/mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger) | Automagically reverse-engineer REST API s via capturing traffic | `HTML` ★ 9.2k | 2025-12-15 |
-| [NSFW-API/TripleX](https://github.com/NSFW-API/TripleX) | No description provided | `Python` ★ 229 | 2025-05-06 |
-| [mtorials/dial-phone](https://github.com/mtorials/dial-phone) | Matrix client-server SDK written in Kotlin. | `Kotlin` ★ 9 | 2022-05-24 |
-| [openai/chatgpt-retrieval-plugin](https://github.com/openai/chatgpt-retrieval-plugin) | The Chat GPT Retrieval Plugin lets you easily find personal or work documents by asking questions in natural language. | `Python` ★ 21.2k | 2024-07-04 |
-| [TheCactusVert/mpv-client](https://github.com/TheCactusVert/mpv-client) | Bindings for libmpv client API that allow you to create plugins for MPV in Rust | `Rust` ★ 15 | 2025-12-21 |
-| [Mikubill/pixivpy-async](https://github.com/Mikubill/pixivpy-async) | Pure Python 3 Async Pixiv API | `Python` ★ 159 | 2023-07-26 |
-| [upbit/pixivpy](https://github.com/upbit/pixivpy) | Pixiv API for Python | `Python` ★ 2k | 2025-07-31 |
-| [ruvnet/Swagger-ChatGPT-Plugin-Creator](https://github.com/ruvnet/Swagger-ChatGPT-Plugin-Creator) | Chat GPT Plugin Creator is an open-source project that helps you convert Swagger specifications into Chat GPT plugins | `HTML` ★ 40 | 2023-04-06 |
-| [microsoft/DirectStorage](https://github.com/microsoft/DirectStorage) | Direct Storage for Windows is an API that allows game developers to unlock the full potential of high speed NVM e drives for loading game assets. | `C++` ★ 807 | 2025-10-28 |
-| [srn/nvapi-node](https://github.com/srn/nvapi-node) | Native C++ module for interfacing with NVIDIA NVAPI | `C++` ★ 4 | 2020-12-23 |
-| [jNizM/NVIDIA_NvAPI](https://github.com/jNizM/NVIDIA_NvAPI) | Converted Nv API-Functions | `AutoHotkey` ★ 38 | 2023-08-18 |
-| [SoCo/SoCo](https://github.com/SoCo/SoCo) | So Co (Sonos Controller) is a Python project that allows you to programmatically control Sonos speakers. | `Python` ★ 1.6k | 2025-12-31 |
-| [Grabacr07/VirtualDesktop](https://github.com/Grabacr07/VirtualDesktop) | C# wrapper for the Virtual Desktop API on Windows 11. | `C#` ★ 686 | 2024-09-03 |
-| [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) | Reverse engineered Chat GPT API | `Python` ★ 28k | 2023-08-02 |
-| [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | Open Assistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | `Python` ★ 37.5k | 2024-08-17 |
-| [Ombi-app/Ombi](https://github.com/Ombi-app/Ombi) | Want a Movie or TV Show on Plex/Emby/Jellyfin? Use Ombi! | `C#` ★ 4k | 2026-01-10 |
-| [thephpleague/flysystem](https://github.com/thephpleague/flysystem) | Abstraction for local and remote filesystems | `PHP` ★ 13.5k | 2025-11-10 |
-| [bangordailynews/Public-FreePBX-hacks](https://github.com/bangordailynews/Public-FreePBX-hacks) | No description provided | `PHP` ★ 3 | 2015-08-14 |
-| [Herzult/php-ssh](https://github.com/Herzult/php-ssh) | An experimental object oriented SSH api in PHP | `PHP` ★ 360 | 2023-05-11 |
-| [plivo/plivoframework](https://github.com/plivo/plivoframework) | Open Source Telephony Application Prototyping Framework | `Python` ★ 427 | 2017-04-04 |
-| [jkoelker/python-nest](https://github.com/jkoelker/python-nest) | Python API and command line tool for talking to the Nest™ Thermostat | `Python` ★ 153 | 2022-02-08 |
-| [hipchat/hipchat-php](https://github.com/hipchat/hipchat-php) | A PHP library for interacting with the Hip Chat REST API. | `PHP` ★ 168 | 2015-05-15 |
-| [ruflin/Elastica](https://github.com/ruflin/Elastica) | Elastica is a PHP client for elasticsearch | `PHP` ★ 2.3k | 2025-12-30 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

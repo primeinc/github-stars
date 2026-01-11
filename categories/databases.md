@@ -1,6 +1,6 @@
 # Databases
 
-*47 repositories*
+*20 repositories*
 
 [← Back to Index](../README.md)
 
@@ -26,32 +26,5 @@
 | [supabase/realtime](https://github.com/supabase/realtime) | Broadcast, Presence, and Postgres Changes via Web Sockets | `Elixir` ★ 7.5k | 2026-01-08 |
 | [teableio/teable](https://github.com/teableio/teable) | ✨ The Next Gen Airtable Alternative: No-Code Postgres | `TypeScript` ★ 20.7k | 2026-01-11 |
 | [microsoft/garnet](https://github.com/microsoft/garnet) | Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication feat... | `C#` ★ 11.7k | 2026-01-10 |
-| [neondatabase/neon](https://github.com/neondatabase/neon) | Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero. | `Rust` ★ 20.7k | 2025-10-03 |
-| [voluntas/duckdb-wasm-parquet](https://github.com/voluntas/duckdb-wasm-parquet) | No description provided | `TypeScript` ★ 102 | 2025-10-30 |
-| [mattf96s/QuackDB](https://github.com/mattf96s/QuackDB) | Open-source in-browser Duck DB SQL editor | `TypeScript` ★ 200 | 2025-08-17 |
-| [ariga/atlas](https://github.com/ariga/atlas) | Declarative schema migrations with schema-as-code workflows | `Go` ★ 7.9k | 2026-01-11 |
-| [geldata/gel](https://github.com/geldata/gel) | Gel supercharges Postgres with a modern data model, graph queries, Auth & AI solutions, and much more. | `Python` ★ 14k | 2025-12-24 |
-| [qualialabs/mapped-collection](https://github.com/qualialabs/mapped-collection) | Memory-mapped Mongo collections in Meteor | `JavaScript` ★ 12 | 2018-04-13 |
-| [rustfs/rustfs](https://github.com/rustfs/rustfs) | 🚀 High-performance distributed object storage for Min IO alternative. | `Rust` ★ 19.5k | 2026-01-11 |
-| [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | Open Source realtime backend in 1 file | `Go` ★ 55.1k | 2026-01-10 |
-| [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) | MCP Toolbox for Databases is an open source MCP server for databases. | `Go` ★ 12.4k | 2026-01-10 |
-| [andrei-markeev/mongodb-livedata-server](https://github.com/andrei-markeev/mongodb-livedata-server) | Standalone live data server implementation extracted from Meteor, Fibers removed and converted to Type Script. | `TypeScript` ★ 4 | 2025-12-25 |
-| [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) | AI's query engine - Platform for building AI that can answer questions over large scale federated data. - The only MCP Server you'll ever need | `Python` ★ 38.2k | 2026-01-10 |
-| [dusty-nv/NanoDB](https://github.com/dusty-nv/NanoDB) | Zero-copy multimodal vector DB with CUDA and CLIP/Sig LIP | `Python` ★ 64 | 2025-05-06 |
-| [chartdb/chartdb](https://github.com/chartdb/chartdb) | Database diagrams editor that allows you to visualize and design your DB with a single query. | `TypeScript` ★ 20.8k | 2026-01-11 |
-| [milvus-io/milvus](https://github.com/milvus-io/milvus) | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search | `Go` ★ 42.2k | 2026-01-10 |
-| [takoyaro/db-storage1111](https://github.com/takoyaro/db-storage1111) | automatic1111's stable-diffusion-webui extension for storing images to a database | `Python` ★ 49 | 2023-10-02 |
-| [nilportugues/sql-repository](https://github.com/nilportugues/sql-repository) | [PHP 7] SQL Repository implementation | `PHP` ★ 36 | 2017-03-13 |
-| [smrchy/redis-tagging](https://github.com/smrchy/redis-tagging) | A Node JS library based helper to tag (sorted) items with Redis | `TypeScript` ★ 73 | 2023-03-03 |
-| [jdorn/sql-formatter](https://github.com/jdorn/sql-formatter) | A lightweight php class for formatting sql statements. Handles automatic indentation and syntax highlighting. | `HTML` ★ 3.9k | 2023-05-26 |
-| [dbcli/mycli](https://github.com/dbcli/mycli) | A Terminal Client for My SQL with Auto Completion and Syntax Highlighting. | `Python` ★ 11.9k | 2026-01-10 |
-| [ideawu/ssdb](https://github.com/ideawu/ssdb) | SSDB - A fast No SQL database, an alternative to Redis | `C++` ★ 8.6k | 2022-08-20 |
-| [erikdubbelboer/phpRedisAdmin](https://github.com/erikdubbelboer/phpRedisAdmin) | Simple web interface to manage Redis databases. | `PHP` ★ 3.2k | 2025-12-22 |
-| [phpredis/phpredis](https://github.com/phpredis/phpredis) | A PHP extension for Redis | `C` ★ 10.2k | 2026-01-09 |
-| [redis/redis](https://github.com/redis/redis) | For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine. | `C` ★ 72.5k | 2026-01-09 |
-| [ruflin/Elastica](https://github.com/ruflin/Elastica) | Elastica is a PHP client for elasticsearch | `PHP` ★ 2.3k | 2025-12-30 |
-| [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | Free and Open Source, Distributed, REST ful Search Engine | `Java` ★ 75.8k | 2026-01-11 |
-| [jprante/elasticsearch-jdbc](https://github.com/jprante/elasticsearch-jdbc) | JDBC importer for Elasticsearch | `Java` ★ 2.8k | 2021-11-05 |
-| [stefangabos/Zebra_Database](https://github.com/stefangabos/Zebra_Database) | PHP My SQL i wrapper that is lightweight and secure, featuring prepared statements, debugging tools, and caching support. | `PHP` ★ 119 | 2025-08-31 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
