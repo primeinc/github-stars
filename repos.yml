@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:55:14.638Z"
+  last_updated: "2026-01-11T02:55:30.917Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -46554,13 +46554,18 @@ repositories:
       mirror_url: null
   - repo: Azure/ALZ-Bicep
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - infrastructure
+      - devops
+    tags:
+      - azure
+      - landing-zones
+      - bicep
     summary: This repository contains the Azure Landing Zones (ALZ) Bicep modules that help deliver and deploy the Azure Landing Zone conceptual architecture in a modular approach. https://aka.ms/alz/docs
     last_synced_sha: 8c149806743bb1b9922ef78c2fea0dc597e76ba9
     starred_at: "2025-12-18T08:15:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -46584,15 +46589,25 @@ repositories:
         published_at: "2025-11-10T15:44:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.917Z"
+      prompt_version: v2
   - repo: facebookresearch/sam-audio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - audio
+      - sam-audio
+      - meta
+      - lang:python
     summary: The repository provides code for running inference with the Meta Segment Anything Audio Model (SAM-Audio), links for downloading the trained model checkpoints, and example notebooks that show how t...
     last_synced_sha: 68b48d48fff1ad776d3afefbe634eb5f5d60ba7b
     starred_at: "2025-12-18T08:15:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -46605,15 +46620,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.917Z"
+      prompt_version: v2
   - repo: Free-TV/IPTV
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - apis
+    tags:
+      - iptv
+      - streaming
+      - playlist
+      - lang:python
     summary: M3U Playlist for free TV channels
     last_synced_sha: d723cb8c74526fe1c091ff993974d8fa1fe572ab
     starred_at: "2025-12-18T03:03:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -46628,15 +46653,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.917Z"
+      prompt_version: v2
   - repo: C4illin/ConvertX
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - file-conversion
+      - self-hosted
+      - tailwindcss
+      - lang:ts
     summary: "\U0001F4BE Self-hosted online file converter. Supports 1000+ formats ⚙️"
     last_synced_sha: bbf6f6ba524b07f4589003ddeb4c077721054628
     starred_at: "2025-12-18T03:03:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46664,15 +46699,25 @@ repositories:
         published_at: "2025-12-14T13:21:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.917Z"
+      prompt_version: v2
   - repo: johnlindquist/mdflow
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - markdown
+      - ai
+      - cli
+      - lang:ts
     summary: Multi-backend CLI for executable markdown prompts. Run .md files against Claude, Codex, Gemini, or Copilot.
     last_synced_sha: 1185549564f1a17d9f11d23f72a66dfd1da1537d
     starred_at: "2025-12-17T17:50:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -46687,15 +46732,26 @@ repositories:
         published_at: "2025-12-19T19:33:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.917Z"
+      prompt_version: v2
   - repo: chubin/wttr.in
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cli-tools
+    tags:
+      - weather-api
+      - weather
+      - ascii-art
+      - terminal
+      - lang:python
     summary: ':partly_sunny: The right way to check the weather'
     last_synced_sha: f1eb35993f0a919bf8da147a59f8919cb21fcb89
     starred_at: "2025-12-13T18:17:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -46715,15 +46771,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.917Z"
+      prompt_version: v2
   - repo: KnifMelti/WAU-Settings-GUI
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - gui
+      - winget
+      - windows-sandbox
     summary: Provides a user-friendly portable standalone interface to modify every aspect of Winget-Auto Update (WAU)
     last_synced_sha: 3369bb69d6802a32e4d810e7fd6d140550c23f2d
     starred_at: "2025-12-13T17:32:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -46744,15 +46809,24 @@ repositories:
         published_at: "2025-12-30T02:19:01Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.917Z"
+      prompt_version: v2
   - repo: EternalEvan/Astra
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - world-model
+      - autoregressive
+      - lang:python
     summary: 'The official repository of "Astra : General Interactive World Model with Autoregressive Denoising"'
     last_synced_sha: 3948dce7f67f5ba938943d3e522f391b69873e0a
     starred_at: "2025-12-13T07:59:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -46765,15 +46839,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.917Z"
+      prompt_version: v2
   - repo: thedotmack/claude-mem
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-memory
+      - long-term-memory
+      - cli
+      - lang:ts
+      - claude
     summary: A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future ...
     last_synced_sha: 550183bab26d3868c4e4145f4320c2c1f43e60c8
     starred_at: "2025-12-11T19:22:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46808,15 +46893,26 @@ repositories:
         published_at: "2026-01-10T23:24:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.917Z"
+      prompt_version: v2
   - repo: HotCakeX/Harden-Windows-Security
     categories:
-      - unclassified
-    tags: []
+      - security
+      - devops
+    tags:
+      - firewall-configuration
+      - harden
+      - bitlocker
+      - enterprise-security
+      - lang:csharp
     summary: Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Pers...
     last_synced_sha: d6619779e648afdb0aea91818e22f0aeb820bfd5
     starred_at: "2025-12-11T19:22:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -46851,15 +46947,26 @@ repositories:
         published_at: "2025-12-30T20:04:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.917Z"
+      prompt_version: v2
   - repo: lux032/MusicAutoTagger
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - audio-fingerprinting
+      - music-tagger
+      - metadata
+      - docker
+      - lang:java
     summary: A smart music file organization tool based on audio fingerprinting technology. It automatically monitors the download directory, identifies songs using Acoust ID and Music Brainz, completes metadat...
     last_synced_sha: 6709a46feaa864814de672f2673e827f6de6ae5f
     starred_at: "2025-12-08T08:55:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -46879,15 +46986,26 @@ repositories:
         published_at: "2025-12-24T07:37:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.917Z"
+      prompt_version: v2
   - repo: stdlib-js/stdlib
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - data-science
+    tags:
+      - math
+      - scientific-computing
+      - stdlib
+      - statistics
+      - lang:js
     summary: ✨ The fundamental numerical library for Java Script and Type Script. ✨
     last_synced_sha: c77460647fe72de99efa50c75cff73ce3285a50f
     starred_at: "2025-12-08T02:52:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -46922,15 +47040,25 @@ repositories:
         published_at: "2024-12-22T19:27:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.917Z"
+      prompt_version: v2
   - repo: vectorize-io/hindsight
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - agents
+      - memory
+      - agentic-ai
+      - lang:python
     summary: 'Hindsight: Agent Memory That Works Like Human Memory'
     last_synced_sha: 6232e690fc9bc946af4b27f746e62cb5cccc2384
     starred_at: "2025-12-05T20:05:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -46948,15 +47076,27 @@ repositories:
         published_at: "2026-01-05T12:00:12Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.917Z"
+      prompt_version: v2
   - repo: pshenok/server-survival
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - learning
+      - devops
+    tags:
+      - tower-defense
+      - cloud
+      - aws
+      - threejs
+      - lang:js
     summary: Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling.
     last_synced_sha: f2cb49dd538e95fa7b304040ea4314f5d2c5729f
     starred_at: "2025-12-05T00:19:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -46980,15 +47120,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.917Z"
+      prompt_version: v2
   - repo: basecamp/fizzy
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - frameworks
+    tags:
+      - kanban
+      - hotwire
+      - lang:ruby
     summary: Kanban as it should be. Not as it has been.
     last_synced_sha: 9bb21f6e5f9130aea93561438e0b819db3a7a94e
     starred_at: "2025-12-04T11:10:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -47007,6 +47156,11 @@ repositories:
         published_at: "2026-01-09T18:03:17Z"
       is_mirror: false
       mirror_url: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:55:30.913Z"
+      prompt_version: v2
   - repo: kaifcodec/user-scanner
     categories:
       - networking
