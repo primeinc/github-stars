@@ -1,25 +1,42 @@
-// GitHub Stars Browser
+// Star Vault
 (function() {
     'use strict';
 
-    let allRepos = [];
-    let filteredRepos = [];
+    // State
+    const state = {
+        allRepos: [],
+        filteredRepos: [],
+        visibleRepos: [],
+        visibleCount: 50,
+        filters: {
+            search: '',
+            language: null,
+            topic: null,
+            archived: false,
+            template: false
+        },
+        sort: 'starred_at'
+    };
+
     let fuse = null;
-    let activeTags = new Set();
-    let currentView = 'grid';
+    let observer = null;
 
     // DOM Elements
-    const searchInput = document.getElementById('search');
-    const categoryFilter = document.getElementById('category-filter');
-    const languageFilter = document.getElementById('language-filter');
-    const sortBy = document.getElementById('sort-by');
-    const statsTotal = document.getElementById('stats-total');
-    const statsShowing = document.getElementById('stats-showing');
-    const tagCloud = document.getElementById('tag-cloud');
-    const reposContainer = document.getElementById('repos-container');
-    const viewGridBtn = document.getElementById('view-grid');
-    const viewListBtn = document.getElementById('view-list');
-    const clearFiltersBtn = document.getElementById('clear-filters');
+    const els = {
+        searchInput: document.getElementById('searchInput'),
+        filterArchived: document.getElementById('filter-archived'),
+        filterTemplate: document.getElementById('filter-template'),
+        facetLanguage: document.getElementById('facet-language'),
+        facetTopic: document.getElementById('facet-topic'),
+        clearLangBtn: document.getElementById('clear-lang'),
+        clearTopicBtn: document.getElementById('clear-topic'),
+        resetAllBtn: document.getElementById('reset-all'),
+        repoCount: document.getElementById('repo-count'),
+        activeFilters: document.getElementById('active-filters'),
+        sortSelect: document.getElementById('sortSelect'),
+        repoGrid: document.getElementById('repo-grid'),
+        loadingTrigger: document.getElementById('loading-trigger')
+    };
 
     // Initialize
     async function init() {
@@ -27,375 +44,327 @@
             const response = await fetch('data.json');
             if (!response.ok) throw new Error('Failed to load data');
             const data = await response.json();
-            allRepos = data.repositories || [];
             
+            // Normalize data
+            state.allRepos = (data.repositories || []).map(repo => ({
+                ...repo,
+                // Flatten critical metadata for easier access
+                stars: repo.github_metadata?.stargazers_count || 0,
+                forks: repo.github_metadata?.forks_count || 0,
+                language: repo.github_metadata?.language || 'Unknown',
+                topics: repo.github_metadata?.topics || [],
+                pushed_at: repo.github_metadata?.repo_pushed_at || null,
+                avatar: repo.github_metadata?.owner_avatar || null,
+                disk_usage: repo.github_metadata?.disk_usage || 0
+            }));
+
             initFuse();
-            populateFilters();
-            buildTagCloud();
+            setupEventListeners();
+            setupObserver();
+            
+            // Initial Render
             applyFilters();
             
-            statsTotal.textContent = `${allRepos.length} repositories`;
         } catch (error) {
-            console.error('Error loading data:', error);
-            reposContainer.innerHTML = '<div class="no-results">Failed to load repositories. Make sure data.json exists.</div>';
+            console.error('Initialization failed:', error);
+            els.repoGrid.innerHTML = '<div class="no-results">Failed to load Star Vault.</div>';
         }
     }
 
-    // Initialize Fuse.js
     function initFuse() {
         const options = {
             keys: [
                 { name: 'repo', weight: 1.0 },
-                { name: 'summary', weight: 0.7 },
-                { name: 'categories', weight: 0.5 },
-                { name: 'tags', weight: 0.5 },
-                { name: 'github_metadata.topics', weight: 0.3 }
+                { name: 'summary', weight: 0.6 },
+                { name: 'language', weight: 0.4 },
+                { name: 'topics', weight: 0.3 }
             ],
             threshold: 0.3,
             ignoreLocation: true
         };
-        fuse = new Fuse(allRepos, options);
+        fuse = new Fuse(state.allRepos, options);
     }
 
-    // Populate filter dropdowns
-    function populateFilters() {
-        const categories = new Set();
-        const languages = new Set();
+    function setupEventListeners() {
+        // Search
+        els.searchInput.addEventListener('input', debounce((e) => {
+            state.filters.search = e.target.value.trim();
+            applyFilters();
+        }, 200));
 
-        allRepos.forEach(repo => {
-            (repo.categories || []).forEach(cat => { categories.add(cat); });
-            if (repo.github_metadata?.language) {
-                languages.add(repo.github_metadata.language);
-            }
+        // Checkboxes
+        els.filterArchived.addEventListener('change', (e) => {
+            state.filters.archived = e.target.checked;
+            applyFilters();
         });
 
-        // Sort and add categories
-        [...categories].sort().forEach(cat => {
-            if (cat !== 'unclassified') {
-                const option = document.createElement('option');
-                option.value = cat;
-                option.textContent = formatCategory(cat);
-                categoryFilter.appendChild(option);
-            }
+        els.filterTemplate.addEventListener('change', (e) => {
+            state.filters.template = e.target.checked;
+            applyFilters();
         });
 
-        // Sort and add languages
-        [...languages].sort().forEach(lang => {
-            const option = document.createElement('option');
-            option.value = lang;
-            option.textContent = lang;
-            languageFilter.appendChild(option);
-        });
-    }
-
-    // Build tag cloud with top tags
-    function buildTagCloud() {
-        const tagCounts = {};
-        
-        allRepos.forEach(repo => {
-            (repo.tags || []).forEach(tag => {
-                if (!tag.startsWith('lang:')) {
-                    tagCounts[tag] = (tagCounts[tag] || 0) + 1;
-                }
-            });
+        // Clear Buttons
+        els.clearLangBtn.addEventListener('click', () => {
+            state.filters.language = null;
+            applyFilters();
         });
 
-        // Get top 20 tags
-        const topTags = Object.entries(tagCounts)
-            .sort((a, b) => b[1] - a[1])
-            .slice(0, 20);
+        els.clearTopicBtn.addEventListener('click', () => {
+            state.filters.topic = null;
+            applyFilters();
+        });
 
-        tagCloud.innerHTML = topTags.map(([tag, count]) => 
-            `<span class="tag" data-tag="${tag}">${tag}<span class="count">(${count})</span></span>`
-        ).join('');
+        els.resetAllBtn.addEventListener('click', resetFilters);
 
-        // Add click handlers
-        tagCloud.querySelectorAll('.tag').forEach(el => {
-            el.addEventListener('click', () => {
-                const tag = el.dataset.tag;
-                if (activeTags.has(tag)) {
-                    activeTags.delete(tag);
-                    el.classList.remove('active');
-                } else {
-                    activeTags.add(tag);
-                    el.classList.add('active');
-                }
-                applyFilters();
-            });
+        // Sort
+        els.sortSelect.addEventListener('change', (e) => {
+            state.sort = e.target.value;
+            applyFilters(); // Re-sorts filtered list
         });
     }
 
-    // Format category name
-    function formatCategory(cat) {
-        return cat.split('-').map(word => 
-            word.charAt(0).toUpperCase() + word.slice(1)
-        ).join(' ');
+    function setupObserver() {
+        observer = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting) {
+                loadMore();
+            }
+        }, { rootMargin: '200px' });
     }
 
-    // Apply all filters and render
-    function applyFilters() {
-        const searchTerm = searchInput.value.toLowerCase().trim();
-        const category = categoryFilter.value;
-        const language = languageFilter.value;
-        const sort = sortBy.value;
-
-        let baseList = allRepos;
-
-        // Use Fuse.js for search if searchTerm exists
-        if (searchTerm && fuse) {
-            baseList = fuse.search(searchTerm).map(result => result.item);
-        }
-
-        filteredRepos = baseList.filter(repo => {
-            // Category filter
-            if (category && !(repo.categories || []).includes(category)) {
-                return false;
-            }
-
-            // Language filter
-            if (language && repo.github_metadata?.language !== language) {
-                return false;
-            }
-
-            // Tag filter
-            if (activeTags.size > 0) {
-                const repoTags = repo.tags || [];
-                let allMatch = true;
-                for (const tag of activeTags) {
-                    if (!repoTags.includes(tag)) {
-                        allMatch = false;
-                        break;
-                    }
-                }
-                if (!allMatch) return false;
-            }
-
-            // Skip unclassified repos unless:
-            // - User is searching
-            // - User selected a category
-            // - User selected any tags
-            // - The repo was starred within the last 30 days (fresh)
-            if (!searchTerm && !category && activeTags.size === 0 && (repo.categories || []).includes('unclassified')) {
-                // Check if repo is fresh (starred within last 30 days)
-                const starredAt = new Date(repo.user_starred_at || 0);
-                const now = new Date();
-                const diffDays = Math.floor((now - starredAt) / (1000 * 60 * 60 * 24));
-                if (diffDays > 30) {
-                    return false;
-                }
-            }
-
-            return true;
-        });
-
-        // Sort only if not searching (Fuse already sorts by relevance)
-        if (!searchTerm) {
-            filteredRepos.sort((a, b) => {
-                switch (sort) {
-                    case 'stars-desc':
-                        return (b.github_metadata?.stargazers_count || 0) - (a.github_metadata?.stargazers_count || 0);
-                    case 'stars-asc':
-                        return (a.github_metadata?.stargazers_count || 0) - (b.github_metadata?.stargazers_count || 0);
-                    case 'name-asc':
-                        return a.repo.localeCompare(b.repo);
-                    case 'name-desc':
-                        return b.repo.localeCompare(a.repo);
-                    case 'recent-desc':
-                        return new Date(b.user_starred_at || 0) - new Date(a.user_starred_at || 0);
-                    case 'recent-asc':
-                        return new Date(a.user_starred_at || 0) - new Date(b.user_starred_at || 0);
-                    case 'updated-desc':
-                        return new Date(b.github_metadata?.repo_pushed_at || 0) - new Date(a.github_metadata?.repo_pushed_at || 0);
-                    default:
-                        return 0;
-                }
-            });
-        }
-
-        renderRepos();
-        updateStats();
-        updateClearButton();
-    }
-
-    // Update visibility of the clear filters button
-    function updateClearButton() {
-        const hasFilters = searchInput.value.trim() !== '' || 
-                          categoryFilter.value !== '' || 
-                          languageFilter.value !== '' || 
-                          activeTags.size > 0;
-        
-        clearFiltersBtn.style.display = hasFilters ? 'block' : 'none';
-    }
-
-    // Reset all filters
     function resetFilters() {
-        searchInput.value = '';
-        categoryFilter.value = '';
-        languageFilter.value = '';
-        activeTags.clear();
-        
-        // Update UI
-        tagCloud.querySelectorAll('.tag').forEach(el => {
-            el.classList.remove('active');
-        });
-        
+        state.filters = {
+            search: '',
+            language: null,
+            topic: null,
+            archived: false,
+            template: false
+        };
+        els.searchInput.value = '';
+        els.filterArchived.checked = false;
+        els.filterTemplate.checked = false;
         applyFilters();
     }
 
-    // Update stats display
-    function updateStats() {
-        const count = filteredRepos.length;
-        if (count === allRepos.length) {
-            statsShowing.textContent = `${count} total`;
-        } else {
-            statsShowing.textContent = `Showing ${count} of ${allRepos.length}`;
+    // --- Core Logic ---
+
+    function applyFilters() {
+        let result = state.allRepos;
+
+        // 1. Search
+        if (state.filters.search) {
+            result = fuse.search(state.filters.search).map(r => r.item);
         }
+
+        // 2. Facet Filtering
+        result = result.filter(repo => {
+            if (!state.filters.archived && repo.archived) return false;
+            // Template check (assuming we might add isTemplate later, for now relying on tags/desc)
+            if (state.filters.template && !repo.is_template) return false; 
+            
+            if (state.filters.language && repo.language !== state.filters.language) return false;
+            if (state.filters.topic && !repo.topics.includes(state.filters.topic)) return false;
+            
+            return true;
+        });
+
+        // 3. Sorting
+        result.sort((a, b) => {
+            switch (state.sort) {
+                case 'stars': return b.stars - a.stars;
+                case 'forks': return b.forks - a.forks;
+                case 'pushed_at': return new Date(b.pushed_at || 0) - new Date(a.pushed_at || 0);
+                case 'size': return b.disk_usage - a.disk_usage;
+                case 'starred_at': default: 
+                    return new Date(b.user_starred_at || 0) - new Date(a.user_starred_at || 0);
+            }
+        });
+
+        state.filteredRepos = result;
+        state.visibleCount = 50; // Reset pagination
+        
+        updateUI();
     }
 
-    // Render repository cards
-    function renderRepos() {
-        if (filteredRepos.length === 0) {
-            reposContainer.innerHTML = '<div class="no-results">No repositories found matching your criteria.</div>';
+    function updateUI() {
+        // Update Counts & Headers
+        els.repoCount.textContent = `${state.filteredRepos.length} repositories`;
+        
+        renderFacets();
+        renderGrid();
+        renderActiveFilters();
+    }
+
+    function renderFacets() {
+        // 1. Languages
+        const langCounts = {};
+        state.filteredRepos.forEach(r => {
+            if (r.language) langCounts[r.language] = (langCounts[r.language] || 0) + 1;
+        });
+
+        const sortedLangs = Object.entries(langCounts)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 10); // Top 10
+
+        renderFacetList(els.facetLanguage, sortedLangs, state.filters.language, (val) => {
+            state.filters.language = state.filters.language === val ? null : val;
+            applyFilters();
+        });
+
+        els.clearLangBtn.hidden = !state.filters.language;
+
+        // 2. Topics
+        const topicCounts = {};
+        state.filteredRepos.forEach(r => {
+            r.topics.forEach(t => {
+                topicCounts[t] = (topicCounts[t] || 0) + 1;
+            });
+        });
+
+        const sortedTopics = Object.entries(topicCounts)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 15); // Top 15
+
+        renderFacetList(els.facetTopic, sortedTopics, state.filters.topic, (val) => {
+            state.filters.topic = state.filters.topic === val ? null : val;
+            applyFilters();
+        });
+
+        els.clearTopicBtn.hidden = !state.filters.topic;
+    }
+
+    function renderFacetList(container, items, activeItem, callback) {
+        container.innerHTML = items.map(([name, count]) => `
+            <div class="facet-item ${name === activeItem ? 'selected' : ''}" data-val="${name}">
+                <span>${name}</span>
+                <span class="count">${count}</span>
+            </div>
+        `).join('');
+
+        // Attach click handlers
+        Array.from(container.children).forEach(el => {
+            el.addEventListener('click', () => callback(el.dataset.val));
+        });
+    }
+
+    function renderActiveFilters() {
+        const filters = [];
+        if (state.filters.search) filters.push(`"${state.filters.search}"`);
+        if (state.filters.language) filters.push(state.filters.language);
+        if (state.filters.topic) filters.push(`#${state.filters.topic}`);
+        if (state.filters.archived) filters.push('Archived');
+        
+        els.activeFilters.innerHTML = filters.length 
+            ? filters.map(f => `<span class="topic-tag">${f}</span>`).join('') 
+            : '';
+    }
+
+    function renderGrid() {
+        const slice = state.filteredRepos.slice(0, state.visibleCount);
+        
+        if (slice.length === 0) {
+            els.repoGrid.innerHTML = '<div class="no-results">No repositories found.</div>';
+            els.loadingTrigger.style.display = 'none';
             return;
         }
 
-        // Update container class based on view
-        reposContainer.className = `repos ${currentView}-view`;
-
-        if (currentView === 'list') {
-            renderListView();
-        } else {
-            renderGridView();
-        }
-    }
-
-    // Render grid view (cards)
-    function renderGridView() {
-        reposContainer.innerHTML = filteredRepos.map(repo => {
-            const meta = repo.github_metadata || {};
-            const stars = meta.stargazers_count || 0;
-            const language = meta.language || '';
-            const categories = (repo.categories || []).filter(c => c !== 'unclassified');
-            const tags = (repo.tags || []).filter(t => !t.startsWith('lang:')).slice(0, 5);
-            const recency = getRecency(meta.repo_pushed_at);
-
-            return `
-                <div class="repo-card ${recency.className}">
-                    <h3>
-                        <a href="https://github.com/${repo.repo}" target="_blank" rel="noopener">${repo.repo}</a>
-                    </h3>
-                    <p class="description">${escapeHtml(repo.summary || 'No description')}</p>
-                    <div class="meta">
-                        ${stars ? `<span class="stars">&#9733; ${formatNumber(stars)}</span>` : ''}
-                        ${language ? `<span class="language">&#9679; ${language}</span>` : ''}
-                        <span class="updated-badge" title="Last updated: ${new Date(meta.repo_pushed_at).toLocaleDateString()}">Updated ${recency.relativeTime}</span>
-                    </div>
-                    ${categories.length ? `
-                        <div class="categories">
-                            ${categories.map(c => `<span class="category">${formatCategory(c)}</span>`).join('')}
-                        </div>
-                    ` : ''}
-                    ${tags.length ? `
-                        <div class="tags">
-                            ${tags.map(t => `<span class="tag">${t}</span>`).join('')}
-                        </div>
-                    ` : ''}
-                </div>
-            `;
-        }).join('');
-    }
-
-    // Render list view (compact rows)
-    function renderListView() {
-        reposContainer.innerHTML = filteredRepos.map(repo => {
-            const meta = repo.github_metadata || {};
-            const stars = meta.stargazers_count || 0;
-            const language = meta.language || '';
-            const categories = (repo.categories || []).filter(c => c !== 'unclassified');
-            const recency = getRecency(meta.repo_pushed_at);
-
-            return `
-                <div class="repo-row ${recency.className}">
-                    <div class="repo-row-main">
-                        <a href="https://github.com/${repo.repo}" target="_blank" rel="noopener" class="repo-name">${repo.repo}</a>
-                        <span class="repo-summary">${escapeHtml(repo.summary || 'No description')}</span>
-                    </div>
-                    <div class="repo-row-meta">
-                        <span class="updated-badge" style="margin-right: 1rem;">${recency.relativeTime}</span>
-                        ${stars ? `<span class="stars">&#9733; ${formatNumber(stars)}</span>` : ''}
-                        ${language ? `<span class="language">${language}</span>` : ''}
-                        ${categories.length ? `<span class="category">${formatCategory(categories[0])}</span>` : ''}
-                    </div>
-                </div>
-            `;
-        }).join('');
-    }
-
-    // Set view mode
-    function setView(view) {
-        currentView = view;
-        viewGridBtn.classList.toggle('active', view === 'grid');
-        viewListBtn.classList.toggle('active', view === 'list');
-        renderRepos();
-    }
-
-    // Helper: Calculate relative time and recency class
-    function getRecency(dateString) {
-        if (!dateString) return { className: 'old', label: 'Unknown', relativeTime: 'Unknown' };
-
-        const date = new Date(dateString);
-        // Handle invalid dates
-        if (isNaN(date.getTime())) return { className: 'old', label: 'Unknown', relativeTime: 'Unknown' };
-
-        const now = new Date();
-        const diffTime = now - date; // Difference in milliseconds
-        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+        els.repoGrid.innerHTML = slice.map(repo => createCardHTML(repo)).join('');
         
-        let className = 'old';
-        if (diffDays <= 30) className = 'fresh';
-        else if (diffDays <= 180) className = 'recent';
-        else if (diffDays <= 365) className = 'stale';
-
-        let relativeTime;
-        if (diffDays < 0) relativeTime = 'In the future'; // Should not happen but good safety
-        else if (diffDays === 0) relativeTime = 'Today';
-        else if (diffDays === 1) relativeTime = 'Yesterday';
-        else if (diffDays < 30) relativeTime = `${diffDays} days ago`;
-        else if (diffDays < 365) {
-            const months = Math.floor(diffDays / 30);
-            relativeTime = `${months} month${months > 1 ? 's' : ''} ago`;
+        // Handle Loader
+        if (state.visibleCount < state.filteredRepos.length) {
+            els.loadingTrigger.style.display = 'block';
+            observer.observe(els.loadingTrigger);
         } else {
-            const years = Math.floor(diffDays / 365);
-            relativeTime = `${years} year${years > 1 ? 's' : ''} ago`;
+            els.loadingTrigger.style.display = 'none';
+            observer.unobserve(els.loadingTrigger);
         }
-
-        return { className, label: relativeTime, relativeTime };
     }
 
-    // Helper: Format large numbers
+    function loadMore() {
+        if (state.visibleCount >= state.filteredRepos.length) return;
+        
+        const nextBatch = state.filteredRepos.slice(state.visibleCount, state.visibleCount + 50);
+        state.visibleCount += 50;
+        
+        // Append instead of rewrite to prevent jank
+        const fragment = document.createRange().createContextualFragment(
+            nextBatch.map(repo => createCardHTML(repo)).join('')
+        );
+        els.repoGrid.appendChild(fragment);
+
+        if (state.visibleCount >= state.filteredRepos.length) {
+            els.loadingTrigger.style.display = 'none';
+        }
+    }
+
+    function createCardHTML(repo) {
+        // Fallback for avatar
+        const avatar = repo.avatar || `https://github.com/${repo.repo.split('/')[0]}.png`;
+        const timeAgo = getRelativeTime(repo.pushed_at);
+
+        return `
+            <div class="repo-card">
+                <div class="card-header">
+                    <img src="${avatar}" class="owner-avatar" alt="Avatar" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>'">
+                    <div class="repo-name">
+                        <a href="${repo.html_url}" target="_blank">${repo.repo}</a>
+                    </div>
+                </div>
+                <div class="repo-desc" title="${escapeHtml(repo.summary)}">
+                    ${escapeHtml(repo.summary || 'No description provided.')}
+                </div>
+                
+                <div class="topics">
+                    ${repo.topics.slice(0, 3).map(t => `<span class="topic-tag">${t}</span>`).join('')}
+                </div>
+
+                <div class="card-footer">
+                    <div class="stat-item star-count">
+                        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" width="16" fill="currentColor" style="display:inline-block;vertical-align:text-bottom"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"></path></svg>
+                        ${formatNumber(repo.stars)}
+                    </div>
+                    <div class="stat-item">
+                        <span class="lang-dot" style="background-color: ${getLangColor(repo.language)}"></span>
+                        ${repo.language}
+                    </div>
+                    <div class="stat-item" title="${new Date(repo.pushed_at).toLocaleDateString()}">
+                        ${timeAgo}
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // --- Helpers ---
+
+    function getRelativeTime(dateStr) {
+        if (!dateStr) return 'Unknown';
+        const date = new Date(dateStr);
+        const diff = (new Date() - date) / 1000;
+        
+        if (diff < 60) return 'Just now';
+        if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
+        if (diff < 86400) return Math.floor(diff / 3600) + 'h ago';
+        if (diff < 604800) return Math.floor(diff / 86400) + 'd ago';
+        if (diff < 31536000) return Math.floor(diff / 604800) + 'w ago';
+        return Math.floor(diff / 31536000) + 'y ago';
+    }
+
     function formatNumber(num) {
         if (num >= 1000000) return (num / 1000000).toFixed(1) + 'M';
-        if (num >= 1000) return (num / 1000).toFixed(1) + 'K';
-        return num.toString();
+        if (num >= 1000) return (num / 1000).toFixed(1) + 'k';
+        return num;
     }
 
-    // Helper: Escape HTML
     function escapeHtml(text) {
-        const div = document.createElement('div');
-        div.textContent = text;
-        return div.innerHTML;
+        if (!text) return '';
+        return text
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
     }
 
-    // Event Listeners
-    searchInput.addEventListener('input', debounce(applyFilters, 200));
-    categoryFilter.addEventListener('change', applyFilters);
-    languageFilter.addEventListener('change', applyFilters);
-    sortBy.addEventListener('change', applyFilters);
-    viewGridBtn.addEventListener('click', () => setView('grid'));
-    viewListBtn.addEventListener('click', () => setView('list'));
-    clearFiltersBtn.addEventListener('click', resetFilters);
-
-    // Debounce helper
     function debounce(func, wait) {
         let timeout;
         return function(...args) {
@@ -404,6 +373,18 @@
         };
     }
 
+    // GitHub Language Colors (simplified)
+    function getLangColor(lang) {
+        const colors = {
+            'JavaScript': '#f1e05a', 'TypeScript': '#3178c6', 'Python': '#3572A5',
+            'Java': '#b07219', 'Go': '#00ADD8', 'Rust': '#dea584', 'C++': '#f34b7d',
+            'C': '#555555', 'Shell': '#89e051', 'HTML': '#e34c26', 'CSS': '#563d7c',
+            'Vue': '#41b883', 'Ruby': '#701516'
+        };
+        return colors[lang] || '#ccc';
+    }
+
     // Start
     init();
+
 })();
