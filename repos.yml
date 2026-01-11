@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-11T17:20:50.664Z"
+  manifest_updated_at: "2026-01-11T17:21:10.406Z"
   total_repos: 1959
   generator_version: v1.0.0
   github_user: primeinc
@@ -56210,13 +56210,19 @@ repositories:
       mirror_url: null
   - repo: nyavramov/loopifi
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - media
+    tags:
+      - lang:python
+      - flask
+      - loops
+      - videos
+      - gifs
     summary: Source for loopifi.com. Find and make smooth loops from videos! Create and download smoothly looping gifs and webms from youtube and other video streaming sites, or upload your own!
     last_synced_sha: 987ade07cad5b97fa78e462b5ac78172dee28c98
     user_starred_at: "2024-04-24T18:32:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -56244,15 +56250,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: flask
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.406Z"
+      prompt_version: v2
   - repo: nylonee/watchlistarr
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - media
+    tags:
+      - lang:scala
+      - plex
+      - sonarr
+      - radarr
+      - sync
     summary: Customizable sync of Plex Watchlist to Sonarr/Radarr
     last_synced_sha: bce86ec684f995d9d17a4745c21675553dce1840
     user_starred_at: "2024-04-23T22:54:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Scala
       topics: []
@@ -56271,15 +56288,26 @@ repositories:
         published_at: "2024-10-17T07:44:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.406Z"
+      prompt_version: v2
   - repo: m-bain/whisperX
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - audio
+    tags:
+      - lang:python
+      - speech-recognition
+      - diarization
+      - timestamps
+      - whisper
     summary: 'Whisper X: Automatic Speech Recognition with Word-level Timestamps (& Diarization)'
     last_synced_sha: d32ec3e3012ec4c0934f4088424c32f3f038b249
     user_starred_at: "2024-04-09T17:40:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -56303,15 +56331,25 @@ repositories:
         published_at: "2025-10-16T07:42:47Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.406Z"
+      prompt_version: v2
   - repo: stitionai/devika
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - lang:python
+      - opcode
+      - productivity
+      - ai-tools
     summary: Devika is now Opcode
     last_synced_sha: 80bb343cbe4a4e5f5a0ba08d2524920139baceb6
     user_starred_at: "2024-03-28T02:17:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -56328,15 +56366,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.406Z"
+      prompt_version: v2
   - repo: Clad3815/adventure-game-ai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - game-dev
+    tags:
+      - lang:js
+      - gpt-3
+      - interactive
+      - game
+      - adventure
     summary: Adventure Game Generator is an interactive, text-based game creation tool powered by Open AI. Customize your game settings, generate dynamic player attributes, embark on quests, manage inventories,...
     last_synced_sha: 20d17a95b517097b494ab9d98080f5b604cf7583
     user_starred_at: "2024-03-26T23:52:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -56358,15 +56407,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.406Z"
+      prompt_version: v2
   - repo: Hazqeel09/ellzaf_ml
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - lang:python
+      - research
+      - pytorch
+      - machine-learning
     summary: Bridging Research and Practice with Py Torch
     last_synced_sha: 1fd06fb2b2e67b1b01783d4e58bb5d58b0de9b73
     user_starred_at: "2024-03-23T09:17:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -56385,15 +56444,26 @@ repositories:
         published_at: "2024-03-16T16:17:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.406Z"
+      prompt_version: v2
   - repo: GaParmar/img2img-turbo
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - lang:python
+      - image-to-image
+      - stable-diffusion
+      - deep-learning
+      - generative-art
     summary: 'One-step image-to-image with Stable Diffusion turbo: sketch2image, day2night, and more'
     last_synced_sha: 86f54146590ffb4543c8cf85b5a36657da670924
     user_starred_at: "2024-03-23T08:55:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -56415,15 +56485,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.406Z"
+      prompt_version: v2
   - repo: mhamilton723/FeatUp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:python
+      - framework
+      - model-agnostic
+      - features
+      - iclr
     summary: 'Official code for "Feat Up: A Model-Agnostic Frameworkfor Features at Any Resolution" ICLR 2024'
     last_synced_sha: 6b5a6c0e91f75e69194807128dcbc39c3084a30d
     user_starred_at: "2024-03-23T08:54:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -56442,15 +56523,26 @@ repositories:
         published_at: "2024-02-27T19:22:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.406Z"
+      prompt_version: v2
   - repo: phodal/auto-dev
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - lang:kotlin
+      - multi-agent
+      - sdlc
+      - ai-native
+      - intellij
     summary: "\U0001F9D9‍Auto Dev: the AI-native Multi-Agent development platform built on Kotlin Multiplatform, covering all 7 phases of SDLC."
     last_synced_sha: 76409524e5440f4bc9d440af99da899b0d3733ea
     user_starred_at: "2024-03-23T08:50:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics:
@@ -56474,15 +56566,25 @@ repositories:
         published_at: "2025-12-14T08:07:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.406Z"
+      prompt_version: v2
   - repo: openinterpreter/open-interpreter
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - lang:python
+      - natural-language
+      - gpt
+      - interpreter
     summary: A natural language interface for computers
     last_synced_sha: 0d19f3af83feff996ac862d74e3cc7afa17e64aa
     user_starred_at: "2024-03-23T08:48:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -56505,15 +56607,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.406Z"
+      prompt_version: v2
   - repo: ente-io/ente
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - security
+    tags:
+      - e2ee
+      - lang:dart
+      - privacy-tools
+      - photos
+      - encrypted
     summary: "\U0001F525 End-to-end encrypted cloud for everything."
     last_synced_sha: 56eac24c75e1f1fd5a7e7384cf32e42ffb556b2c
     user_starred_at: "2024-03-05T19:19:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -56549,15 +56662,25 @@ repositories:
         published_at: "2025-12-22T09:31:12Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.406Z"
+      prompt_version: v2
   - repo: Hillobar/Rope
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - gui
+      - lang:python
+      - interface
+      - ux
     summary: GUI-focused roop
     last_synced_sha: 3fb328e1fe24459f3d2471d793f3cbafd0a3f7bc
     user_starred_at: "2024-02-21T02:31:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -56576,15 +56699,25 @@ repositories:
         published_at: "2024-05-27T20:06:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.406Z"
+      prompt_version: v2
   - repo: MacHu-GWU/potplayer-project
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - playlist
+      - video
+      - lang:python
+      - potplayer
     summary: A tools to manipulate potplayer playlist
     last_synced_sha: 9526f3e319cf24d9fe060a3cc81a8399fe0e84a7
     user_starred_at: "2024-01-24T05:27:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -56603,15 +56736,26 @@ repositories:
         published_at: "2016-02-02T17:46:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.405Z"
+      prompt_version: v2
   - repo: sb-ocr/ocreeb-mk-2
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+      - hardware
+    tags:
+      - lang:python
+      - macro-keyboard
+      - automation
+      - modular
     summary: Modular Macro Keyboard System
     last_synced_sha: 66db78ca692211a3787ae111d386620157e28001
     user_starred_at: "2024-01-23T23:04:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -56628,15 +56772,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.405Z"
+      prompt_version: v2
   - repo: TheCactusVert/mpv-client
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - dev-tools
+    tags:
+      - bindings
+      - lang:rust
+      - mpv
+      - plugins
     summary: Bindings for libmpv client API that allow you to create plugins for MPV in Rust
     last_synced_sha: 65eed275113ffcee2f1bbf3d4f0782831e08e8c0
     user_starred_at: "2024-01-23T20:42:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -56653,6 +56807,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:21:10.405Z"
+      prompt_version: v2
   - repo: TheCactusVert/mpv-sponsorblock
     categories:
       - cli-tools
