@@ -72,14 +72,18 @@ jobs:
             
             console.log(`Found ${starsData.length} starred repositories`);
             
-            let yamlContent;
-            if (!fs.existsSync('repos.yml')) {
-              yamlContent = fs.readFileSync('.github-stars/repos-template.yml', 'utf8');
-            } else {
+            if (fs.existsSync('repos.yml')) {
               yamlContent = fs.readFileSync('repos.yml', 'utf8');
+            } else {
+              yamlContent = fs.readFileSync('.github-stars/repos-template.yml', 'utf8');
             }
             
-            const manifestJson = execSync('./yq eval -o=json -', { input: yamlContent, encoding: 'utf8' });
+            // Increase buffer to 50MB to handle large manifests
+            const manifestJson = execSync('./yq eval -o=json -', { 
+              input: yamlContent, 
+              encoding: 'utf8',
+              maxBuffer: 50 * 1024 * 1024 
+            });
             const manifestData = JSON.parse(manifestJson) || { repositories: [] };
             
             if (!manifestData.repositories) manifestData.repositories = [];
