@@ -1,6 +1,6 @@
 # Tag: open-source
 
-*7 repositories*
+*9 repositories*
 
 [← Back to Index](../README.md)
 
@@ -13,3 +13,5 @@
 | [openworkflowdev/openworkflow](https://github.com/openworkflowdev/openworkflow) | Open-source Type Script framework for building durable, resumable workflows. | `TypeScript` ★ 674 | 2026-01-08 |
 | [google/adk-docs](https://github.com/google/adk-docs) | An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. | `Shell` ★ 1.1k | 2026-01-10 |
 | [opencloud-eu/opencloud](https://github.com/opencloud-eu/opencloud) | 🌤️ Open Cloud is the open source platform for file management, sharing and collaboration. Simple and sovereign. | `Go` ★ 4.6k | 2026-01-09 |
+| [MycroftAI/mycroft-core](https://github.com/MycroftAI/mycroft-core) | Mycroft Core, the Mycroft Artificial Intelligence platform. | `Python` ★ 6.6k | 2024-09-08 |
+| [krea-ai/open-prompts](https://github.com/krea-ai/open-prompts) | No description provided | `Python` ★ 793 | 2022-09-22 |

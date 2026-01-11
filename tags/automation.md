@@ -1,6 +1,6 @@
 # Tag: automation
 
-*25 repositories*
+*29 repositories*
 
 [← Back to Index](../README.md)
 
@@ -31,3 +31,7 @@
 | [upptime/upptime](https://github.com/upptime/upptime) | ⬆️ Git Hub Actions uptime monitor & status page by @Anand Chowdhary | `JSON` ★ 16.8k | 2026-01-11 |
 | [bytebot-ai/bytebot](https://github.com/bytebot-ai/bytebot) | Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment. | `TypeScript` ★ 10.2k | 2025-09-12 |
 | [EpicenterHQ/epicenter](https://github.com/EpicenterHQ/epicenter) | Press shortcut → speak → get text. Free and open source. More local-first apps soon ❤️ | `TypeScript` ★ 3.9k | 2026-01-11 |
+| [marius-sucan/AHK-GDIp-Library-Compilation](https://github.com/marius-sucan/AHK-GDIp-Library-Compilation) | Gdip_All library mega-compilation of user contributions, compatible with AHK v1.1 and AHK v2 | `AutoHotkey` ★ 102 | 2025-03-09 |
+| [jimz011/homekit-infused](https://github.com/jimz011/homekit-infused) | Homekit Infused 5 2023 | ★ 898 | 2026-01-08 |
+| [morpheus65535/bazarr](https://github.com/morpheus65535/bazarr) | Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of every... | `Python` ★ 3.7k | 2026-01-11 |
+| [jpginc/windows10DesktopManager](https://github.com/jpginc/windows10DesktopManager) | An autohotkey desktop manager | `AutoHotkey` ★ 166 | 2021-07-10 |

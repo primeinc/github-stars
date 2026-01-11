@@ -1,6 +1,6 @@
 # Tag: browser
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,3 +8,4 @@
 |---|---|---|---|
 | [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser | `C++` ★ 57.6k | 2026-01-11 |
 | [Azure/azure-sdk-for-js](https://github.com/Azure/azure-sdk-for-js) | This repository is for active development of the Azure SDK for Java Script (Node JS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.co... | `TypeScript` ★ 2.3k | 2026-01-11 |
+| [cocktailpeanut/breadboard](https://github.com/cocktailpeanut/breadboard) | Stable Diffusion Browser for Windows, Mac, and Linux | `JavaScript` ★ 399 | 2024-03-17 |

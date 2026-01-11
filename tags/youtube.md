@@ -1,6 +1,6 @@
 # Tag: youtube
 
-*6 repositories*
+*7 repositories*
 
 [← Back to Index](../README.md)
 
@@ -12,3 +12,4 @@
 | [JoseDeFreitas/awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers) | An awesome list of awesome You Tubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more. | `Markdown` ★ 7.2k | 2025-11-30 |
 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader | `Python` ★ 141.4k | 2026-01-06 |
 | [Kakulukian/youtube-transcript](https://github.com/Kakulukian/youtube-transcript) | Fetch transcript from a youtube video | `TypeScript` ★ 511 | 2024-07-30 |
+| [coffeerhyder/YouTube-alternative-Clients-and-Frontends-overview](https://github.com/coffeerhyder/YouTube-alternative-Clients-and-Frontends-overview) | Overview of alternative You Tube Clients and Frontends | ★ 158 | 2025-06-11 |

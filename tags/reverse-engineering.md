@@ -1,6 +1,6 @@
 # Tag: reverse-engineering
 
-*4 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
@@ -10,3 +10,4 @@
 | [spipm/Depixelization_poc](https://github.com/spipm/Depixelization_poc) | Depix is a Po C for a technique to recover plaintext from pixelized screenshots. | `Python` ★ 3.8k | 2025-04-16 |
 | [retroplasma/earth-reverse-engineering](https://github.com/retroplasma/earth-reverse-engineering) | Reversing Google's 3D satellite mode | `C` ★ 2.3k | 2020-12-23 |
 | [mandiant/flare-vm](https://github.com/mandiant/flare-vm) | A collection of software installations scripts for Windows systems that allows you to easily setup and maintain a reverse engineering environment on a VM. | `PowerShell` ★ 8.2k | 2025-12-23 |
+| [Themis-0/unpyc37](https://github.com/Themis-0/unpyc37) | Decompiler for Python 3.7 (forked from https://github.com/figment/unpyc3) | `Python` ★ 4 | 2025-09-11 |

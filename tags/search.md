@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [YassKhazzan/openperplex_backend_os](https://github.com/YassKhazzan/openperplex_backend_os) | openperplex is an opensource AI search engine | `Python` ★ 887 | 2024-08-04 |
-| [openrecall/openrecall](https://github.com/openrecall/openrecall) | Open Recall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With Open Recall, you can easily access your digital history, enhancing your ... | `Python` ★ 2.6k | 2025-09-24 |
+| [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) | Everything integration for the Windows taskbar. | `C#` ★ 13.1k | 2026-01-05 |
+| [rhsimplex/image-match](https://github.com/rhsimplex/image-match) | 🎇 Quickly search over billions of images | `Python` ★ 3k | 2022-12-06 |

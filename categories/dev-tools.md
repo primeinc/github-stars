@@ -1,6 +1,6 @@
 # Dev-tools
 
-*96 repositories*
+*133 repositories*
 
 [← Back to Index](../README.md)
 
@@ -102,5 +102,42 @@
 | [unjs/pathe](https://github.com/unjs/pathe) | 🛣️ Drop-in replacement of the Node.js's path module module that ensures paths are normalized | `TypeScript` ★ 551 | 2026-01-10 |
 | [unjs/obuild](https://github.com/unjs/obuild) | 📦 😯 Zero-config ESM/TS package builder. powered by oxc, rolldown and rolldown-plugin-dts. | `TypeScript` ★ 368 | 2026-01-10 |
 | [fullstorydev/grpcui](https://github.com/fullstorydev/grpcui) | An interactive web UI for g RPC, along the lines of postman | `Go` ★ 5.8k | 2025-12-15 |
+| [Tsukisoft/direct-storage-rs](https://github.com/Tsukisoft/direct-storage-rs) | Rust bindings for Direct Storage | `Rust` ★ 12 | 2025-12-15 |
+| [pyenv/pyenv](https://github.com/pyenv/pyenv) | Simple Python version management | `Roff` ★ 44k | 2026-01-10 |
+| [jtydhr88/sd-3dmodel-loader](https://github.com/jtydhr88/sd-3dmodel-loader) | A custom extension for stable diffusion webui to load local 3D model/animation | `JavaScript` ★ 246 | 2023-09-12 |
+| [intel/intel-one-mono](https://github.com/intel/intel-one-mono) | Intel One Mono font repository | ★ 9.8k | 2025-09-08 |
+| [lencx/nofwl](https://github.com/lencx/nofwl) | No FWL Desktop Application | `Rust` ★ 4.2k | 2024-01-23 |
+| [Themis-0/unpyc37](https://github.com/Themis-0/unpyc37) | Decompiler for Python 3.7 (forked from https://github.com/figment/unpyc3) | `Python` ★ 4 | 2025-09-11 |
+| [XeroxDev/Loupedeck-plugin-Template](https://github.com/XeroxDev/Loupedeck-plugin-Template) | this is a Loupedeck .NET template and I've created this so it is easier and more productive for me, to create Loupedeck Windows Plugins and release them to my users. | `C#` ★ 15 | 2022-05-12 |
+| [junebug12851/Sims4ScriptingBPProj](https://github.com/junebug12851/Sims4ScriptingBPProj) | Sims 4 Scripting Boilerplate Project | `Python` ★ 57 | 2021-06-06 |
+| [microsoft/VFSForGit](https://github.com/microsoft/VFSForGit) | Virtual File System for Git: Enable Git at Enterprise Scale | `C#` ★ 6.1k | 2025-12-18 |
+| [mhammond/pywin32](https://github.com/mhammond/pywin32) | Python for Windows (pywin32) Extensions | `C++` ★ 5.5k | 2025-12-15 |
+| [FlagAI-Open/FlagAI](https://github.com/FlagAI-Open/FlagAI) | Flag AI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model. | `Python` ★ 3.9k | 2025-11-11 |
+| [jas3333/GPT-Helper](https://github.com/jas3333/GPT-Helper) | No description provided | `JavaScript` ★ 135 | 2023-03-16 |
+| [outline/outline](https://github.com/outline/outline) | The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible. | `TypeScript` ★ 36.6k | 2026-01-11 |
+| [hassio-addons/addon-vscode](https://github.com/hassio-addons/addon-vscode) | Studio Code Server - Home Assistant Community Add-ons | `Dockerfile` ★ 628 | 2026-01-09 |
+| [Jpja/FFmpeg-Detect-Copy-Motion](https://github.com/Jpja/FFmpeg-Detect-Copy-Motion) | Detects motion in video files, and copies to new, separate video clips. | `Python` ★ 61 | 2022-06-25 |
+| [smrchy/redis-tagging](https://github.com/smrchy/redis-tagging) | A Node JS library based helper to tag (sorted) items with Redis | `TypeScript` ★ 73 | 2023-03-03 |
+| [sstalle/php7cc](https://github.com/sstalle/php7cc) | PHP 7 Compatibility Checker | `PHP` ★ 1.5k | 2018-03-20 |
+| [thumbcacheviewer/thumbcacheviewer](https://github.com/thumbcacheviewer/thumbcacheviewer) | Thumbcache Viewer - Extract Windows Vista, Windows 7, Windows 8, Windows 8.1, and Windows 10 thumbcache database files. | `C++` ★ 150 | 2023-10-25 |
+| [easyphp/DEVSERVER](https://github.com/easyphp/DEVSERVER) | ⚙️ Development environment on Windows. PHP DEVSERVER is portable, modular, fully configurable, and easy to update and customize. Since 1999. | `PHP` ★ 64 | 2023-08-26 |
+| [michaeldyrynda/phpstorm-laravel-code-style](https://github.com/michaeldyrynda/phpstorm-laravel-code-style) | Php Storm code style to meet Laravel's contribution guidelines | ★ 293 | 2017-05-16 |
+| [thephpleague/flysystem](https://github.com/thephpleague/flysystem) | Abstraction for local and remote filesystems | `PHP` ★ 13.5k | 2025-11-10 |
+| [jdorn/sql-formatter](https://github.com/jdorn/sql-formatter) | A lightweight php class for formatting sql statements. Handles automatic indentation and syntax highlighting. | `HTML` ★ 3.9k | 2023-05-26 |
+| [php-school/learn-you-php](https://github.com/php-school/learn-you-php) | 🏆 Learn You PHP! - An introduction to PHP's core features: i/o, http, arrays, exceptions and so on. | `PHP` ★ 320 | 2024-11-06 |
+| [phpro/grumphp](https://github.com/phpro/grumphp) | A PHP code-quality tool | `PHP` ★ 4.3k | 2025-12-30 |
+| [hirak/prestissimo](https://github.com/hirak/prestissimo) | composer parallel install plugin | `PHP` ★ 6.1k | 2022-12-03 |
+| [tariqporter/Gdip](https://github.com/tariqporter/Gdip) | Official GDI+ library for Autohotkey | `AutoHotkey` ★ 155 | 2019-03-05 |
+| [suidroot/sublime-vyatta-syntax](https://github.com/suidroot/sublime-vyatta-syntax) | Sublime Text 2 Syntax for Vyatta | ★ 1 | 2014-04-24 |
+| [ptejada/uFlex](https://github.com/ptejada/uFlex) | All in one PHP user authentication classs | `PHP` ★ 115 | 2019-01-06 |
+| [tdenniston/bish](https://github.com/tdenniston/bish) | Bish is a language that compiles to Bash. It's designed to give shell scripting a more comfortable and modern feel. | `C++` ★ 1.5k | 2022-07-19 |
+| [psliwa/image-optimizer](https://github.com/psliwa/image-optimizer) | Image optimization / compression library. This library is able to optimize png, jpg and gif files in very easy and handy way. It uses optipng, pngquant, pngcrush, pngout, gifsicle, jpegoptim and jp... | `PHP` ★ 912 | 2023-11-20 |
+| [koomai/phpstorm-laravel-live-templates](https://github.com/koomai/phpstorm-laravel-live-templates) | Laravel Live Templates for Php Storm | ★ 1.2k | 2022-09-23 |
+| [filp/whoops](https://github.com/filp/whoops) | PHP errors for cool kids | `PHP` ★ 13.3k | 2025-11-28 |
+| [Seldaek/monolog](https://github.com/Seldaek/monolog) | Sends your logs to files, sockets, inboxes, databases and various web services | `PHP` ★ 21.4k | 2026-01-09 |
+| [katzgrau/KLogger](https://github.com/katzgrau/KLogger) | A Simple Logging Class For PHP | `PHP` ★ 973 | 2022-07-29 |
+| [sebastianbergmann/phploc](https://github.com/sebastianbergmann/phploc) | A tool for quickly measuring the size of a PHP project. | `PHP` ★ 2.4k | 2025-04-12 |
+| [defuse/php-encryption](https://github.com/defuse/php-encryption) | Simple Encryption in PHP. | `PHP` ★ 3.9k | 2024-01-02 |
+| [ruflin/Elastica](https://github.com/ruflin/Elastica) | Elastica is a PHP client for elasticsearch | `PHP` ★ 2.3k | 2025-12-30 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

@@ -1,6 +1,6 @@
 # Tag: self-hosted
 
-*20 repositories*
+*24 repositories*
 
 [← Back to Index](../README.md)
 
@@ -26,3 +26,7 @@
 | [coollabsio/coolify](https://github.com/coollabsio/coolify) | An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv... | `PHP` ★ 49.4k | 2026-01-11 |
 | [usekaneo/kaneo](https://github.com/usekaneo/kaneo) | 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you. | `TypeScript` ★ 3.1k | 2026-01-11 |
 | [Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy) | 🦄 A curated list of privacy & security-focused software and services | `Astro` ★ 8.7k | 2026-01-10 |
+| [immich-app/immich](https://github.com/immich-app/immich) | High performance self-hosted photo and video management solution. | `TypeScript` ★ 88.8k | 2026-01-11 |
+| [tubearchivist/tubearchivist](https://github.com/tubearchivist/tubearchivist) | Your self hosted You Tube media server | `Python` ★ 7.4k | 2026-01-06 |
+| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 267.6k | 2026-01-11 |
+| [sdelements/lets-chat](https://github.com/sdelements/lets-chat) | Self-hosted chat app for small teams | `JavaScript` ★ 9.8k | 2025-11-15 |

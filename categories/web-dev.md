@@ -1,6 +1,6 @@
 # Web-dev
 
-*98 repositories*
+*174 repositories*
 
 [← Back to Index](../README.md)
 
@@ -100,6 +100,82 @@
 | [beefproject/beef](https://github.com/beefproject/beef) | The Browser Exploitation Framework Project | `JavaScript` ★ 10.7k | 2026-01-09 |
 | [vercel/swr](https://github.com/vercel/swr) | React Hooks for Data Fetching | `TypeScript` ★ 32.2k | 2026-01-10 |
 | [vercel/platforms](https://github.com/vercel/platforms) | A full-stack Next.js app with multi-tenancy. | `TypeScript` ★ 6.6k | 2025-12-06 |
+| [coffeerhyder/YouTube-alternative-Clients-and-Frontends-overview](https://github.com/coffeerhyder/YouTube-alternative-Clients-and-Frontends-overview) | Overview of alternative You Tube Clients and Frontends | ★ 158 | 2025-06-11 |
+| [rabchev/web-terminal](https://github.com/rabchev/web-terminal) | Web-Terminal is a terminal server that provides remote CLI via standard web browser and HTTP protocol. | `JavaScript` ★ 474 | 2019-04-11 |
+| [butlerx/wetty](https://github.com/butlerx/wetty) | Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better) | `TypeScript` ★ 5.1k | 2025-10-30 |
+| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | Fullstack app framework for web, desktop, and mobile. | `Rust` ★ 33.2k | 2026-01-08 |
+| [papuSpartan/stable-diffusion-webui-auto-tls-https](https://github.com/papuSpartan/stable-diffusion-webui-auto-tls-https) | An extension for AUTOMATIC1111's Stable Diffusion Web-UI that enables easy or zero-conf TLS for HTTPS | `Python` ★ 61 | 2024-05-12 |
+| [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) | A source-available invoice, quote, project and time-tracking app built with Laravel | `PHP` ★ 9.5k | 2026-01-07 |
+| [immich-app/immich](https://github.com/immich-app/immich) | High performance self-hosted photo and video management solution. | `TypeScript` ★ 88.8k | 2026-01-11 |
+| [s0md3v/sd-webui-roop](https://github.com/s0md3v/sd-webui-roop) | roop extension for Stable Diffusion web-ui | `Python` ★ 3.5k | 2024-04-01 |
+| [pkuliyi2015/multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111) | Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0 | `Python` ★ 5k | 2024-08-07 |
+| [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | SD.Next: All-in-one Web UI for AI generative image and video creation | `Python` ★ 6.9k | 2026-01-11 |
+| [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) | The definitive Web UI for local AI, with powerful features and easy setup. | `Python` ★ 45.8k | 2026-01-08 |
+| [Zetaphor/PromptHub](https://github.com/Zetaphor/PromptHub) | Prompt history and management for the Stable Diffusion AUTOMATIC1111 Web UI | `JavaScript` ★ 35 | 2023-03-26 |
+| [civitai/sd_civitai_extension](https://github.com/civitai/sd_civitai_extension) | All of the Civitai models inside Automatic 1111 Stable Diffusion Web UI | `Python` ★ 2.4k | 2024-07-17 |
+| [agarbato/unicloud](https://github.com/agarbato/unicloud) | Unison file sync web interface | `Python` ★ 76 | 2024-08-12 |
+| [hnmr293/posex](https://github.com/hnmr293/posex) | Posex - Estimated Image Generator for Pose2Image | `JavaScript` ★ 594 | 2024-02-03 |
+| [hometlt/png-metadata](https://github.com/hometlt/png-metadata) | read and write png metadata | `JavaScript` ★ 35 | 2023-05-30 |
+| [zero01101/openOutpaint-webUI-extension](https://github.com/zero01101/openOutpaint-webUI-extension) | direct A1111 web UI extension for open Outpaint | `JavaScript` ★ 409 | 2024-08-31 |
+| [IrisRainbowNeko/DreamArtist-sd-webui-extension](https://github.com/IrisRainbowNeko/DreamArtist-sd-webui-extension) | Dream Artist for Stable-Diffusion-webui extension | `Python` ★ 691 | 2023-11-08 |
+| [d8ahazard/sd_dreambooth_extension](https://github.com/d8ahazard/sd_dreambooth_extension) | No description provided | `Python` ★ 1.9k | 2025-09-17 |
+| [Sanster/IOPaint](https://github.com/Sanster/IOPaint) | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures. | `Python` ★ 22.6k | 2025-04-29 |
+| [guaneec/custom-diffusion-webui](https://github.com/guaneec/custom-diffusion-webui) | An unofficial implementation of Custom Diffusion for Automatic1111's Web UI. | `Python` ★ 70 | 2023-07-17 |
+| [ThereforeGames/unprompted](https://github.com/ThereforeGames/unprompted) | Templating language written for Stable Diffusion workflows. Available as an extension for the Automatic1111 Web UI. | `Python` ★ 807 | 2024-07-29 |
+| [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Stable Diffusion web UI | `Python` ★ 159.8k | 2025-12-18 |
+| [cinqmarsmedia/Chameleon-Video-Player](https://github.com/cinqmarsmedia/Chameleon-Video-Player) | A Non-Profit Video Utility | `JavaScript` ★ 14 | 2023-01-05 |
+| [alex4108/scoreboard](https://github.com/alex4108/scoreboard) | A simple scoreboard webapp using Express, React, and Mongo | `JavaScript` ★ 5 | 2023-03-05 |
+| [tubearchivist/tubearchivist](https://github.com/tubearchivist/tubearchivist) | Your self hosted You Tube media server | `Python` ★ 7.4k | 2026-01-06 |
+| [pg07codes/fokus](https://github.com/pg07codes/fokus) | react web app to help you become more productive :fire: and efficient with time:star2: | `JavaScript` ★ 156 | 2023-07-01 |
+| [avi12/skillshare-player-control](https://github.com/avi12/skillshare-player-control) | Basic keyboard controls for Skillshare's player. | `TypeScript` ★ 11 | 2024-12-02 |
+| [OctoPrint/OctoPrint](https://github.com/OctoPrint/OctoPrint) | Octo Print is the snappy web interface for your 3D printer! | `Python` ★ 8.8k | 2026-01-08 |
+| [TheSpaghettiDetective/obico-server](https://github.com/TheSpaghettiDetective/obico-server) | Obico is a community-built, open-source smart 3D printing platform used by makers, enthusiasts, and tinkerers around the world. | `Vue` ★ 1.8k | 2026-01-11 |
+| [geekuillaume/soundsync](https://github.com/geekuillaume/soundsync) | Virtual cables between any audio source and any speaker in your home | `C` ★ 890 | 2023-03-04 |
+| [Ombi-app/Ombi](https://github.com/Ombi-app/Ombi) | Want a Movie or TV Show on Plex/Emby/Jellyfin? Use Ombi! | `C#` ★ 4k | 2026-01-11 |
+| [leemunroe/responsive-html-email-template](https://github.com/leemunroe/responsive-html-email-template) | A free simple responsive HTML email template | `HTML` ★ 13.7k | 2024-08-20 |
+| [danielperna84/hass-configurator](https://github.com/danielperna84/hass-configurator) | Configuration UI for Home Assistant | `Python` ★ 329 | 2024-01-13 |
+| [fightforthefuture/battleforthenet-widget](https://github.com/fightforthefuture/battleforthenet-widget) | Embed this widget on your site and help save net neutrality! | `JavaScript` ★ 704 | 2019-02-04 |
+| [causefx/iDashboard-PHP](https://github.com/causefx/iDashboard-PHP) | HTPC Dashboard to load website services, written in PHP | `JavaScript` ★ 125 | 2017-04-17 |
+| [mattermost/mattermost](https://github.com/mattermost/mattermost) | Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.. | `TypeScript` ★ 34.9k | 2026-01-10 |
+| [bastillion-io/Bastillion](https://github.com/bastillion-io/Bastillion) | A modern, web-based SSH console and key management tool. Bastillion gives you a clean, browser-based way to manage SSH access across all your systems. Think of it like a bastion host with a friendl... | `Java` ★ 3.4k | 2026-01-06 |
+| [allynbauer/statuspanic](https://github.com/allynbauer/statuspanic) | A PHP clone of Panic's status board | `PHP` ★ 469 | 2014-02-02 |
+| [flashtag/flashtag-php](https://github.com/flashtag/flashtag-php) | Flashtag content management platform | `PHP` ★ 30 | 2016-05-10 |
+| [easyphp/DEVSERVER](https://github.com/easyphp/DEVSERVER) | ⚙️ Development environment on Windows. PHP DEVSERVER is portable, modular, fully configurable, and easy to update and customize. Since 1999. | `PHP` ★ 64 | 2023-08-26 |
+| [jarves/jarves](https://github.com/jarves/jarves) | Jarves CMS/Application Framework based on Symfony - Alpha material | `JavaScript` ★ 330 | 2018-07-17 |
+| [Diyzzuf/grav-plugin-private](https://github.com/Diyzzuf/grav-plugin-private) | Private is a Grav Plugin. It provide an authentification form to keep private your Grav site or part of it | `PHP` ★ 34 | 2022-10-14 |
+| [select2/select2](https://github.com/select2/select2) | Select2 is a j Query based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results. | `JavaScript` ★ 26k | 2024-09-11 |
+| [CodeSleeve/laravel-stapler](https://github.com/CodeSleeve/laravel-stapler) | Stapler-based file upload package for the Laravel framework. | `PHP` ★ 558 | 2018-05-12 |
+| [callmecavs/bricks.js](https://github.com/callmecavs/bricks.js) | A blazing fast masonry layout generator for fixed width elements. | `JavaScript` ★ 4.7k | 2019-04-11 |
+| [rappasoft/laravel-boilerplate](https://github.com/rappasoft/laravel-boilerplate) | The Laravel Boilerplate Project - https://laravel-boilerplate.com | `PHP` ★ 5.7k | 2025-09-28 |
+| [leskhq/Laravel-Enterprise-Starter-Kit](https://github.com/leskhq/Laravel-Enterprise-Starter-Kit) | 👔 Enterprise Web application starter kit or template using Laravel | `JavaScript` ★ 359 | 2019-03-04 |
+| [unicodeveloper/laravel-hackathon-starter](https://github.com/unicodeveloper/laravel-hackathon-starter) | :computer: :octocat: A hackathon/MVP boilerplate for laravel web applications. Start your hackathons without hassle. | `PHP` ★ 1.7k | 2023-12-14 |
+| [discourse/discourse](https://github.com/discourse/discourse) | A platform for community discussion. Free, open, simple. | `Ruby` ★ 46k | 2026-01-11 |
+| [jgthms/bulma](https://github.com/jgthms/bulma) | Modern CSS framework based on Flexbox | `CSS` ★ 50k | 2025-12-03 |
+| [ivopetkov/responsively-lazy](https://github.com/ivopetkov/responsively-lazy) | Lazy load responsive images and HTML | `JavaScript` ★ 1.1k | 2025-09-09 |
+| [yudai/gotty](https://github.com/yudai/gotty) | Share your terminal as a web application | `Go` ★ 19.3k | 2024-08-01 |
+| [kriswallsmith/assetic](https://github.com/kriswallsmith/assetic) | Asset Management for PHP | `PHP` ★ 3.7k | 2022-02-03 |
+| [cockpit-project/cockpit](https://github.com/cockpit-project/cockpit) | Cockpit is a web-based graphical interface for servers. | `JavaScript` ★ 13k | 2026-01-11 |
+| [codex-project/codex](https://github.com/codex-project/codex) | Extendable Documentation Platform written in Laravel 5. Generate easy and awesome documentation! | `PHP` ★ 142 | 2016-07-04 |
+| [purifycss/purifycss](https://github.com/purifycss/purifycss) | Remove unused CSS. Also works with single-page apps. | `JavaScript` ★ 9.9k | 2020-10-17 |
+| [jwagner/smartcrop.js](https://github.com/jwagner/smartcrop.js) | Content aware image cropping | `JavaScript` ★ 13k | 2024-03-16 |
+| [flarum/flarum](https://github.com/flarum/flarum) | Simple forum software for building great communities. | `PHP` ★ 16.2k | 2025-12-22 |
+| [Netflix/vector](https://github.com/Netflix/vector) | Vector is an on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer’s browser. | `JavaScript` ★ 3.6k | 2021-08-10 |
+| [davidsonfellipe/awesome-wpo](https://github.com/davidsonfellipe/awesome-wpo) | :pencil: A curated list of Web Performance Optimization. Everyone can contribute here! | `JavaScript` ★ 8.8k | 2025-07-21 |
+| [sdelements/lets-chat](https://github.com/sdelements/lets-chat) | Self-hosted chat app for small teams | `JavaScript` ★ 9.8k | 2025-11-15 |
+| [moagrius/isOnScreen](https://github.com/moagrius/isOnScreen) | Simple j Query plugin to determine if an element is within the viewport | `JavaScript` ★ 120 | 2018-01-10 |
+| [dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe) | Java Script image gallery for mobile and desktop, modular, framework independent | `JavaScript` ★ 25k | 2025-12-04 |
+| [metafizzy/infinite-scroll](https://github.com/metafizzy/infinite-scroll) | 📜 Automatically add next page | `HTML` ★ 7.5k | 2025-03-08 |
+| [tzookb/tbmsg](https://github.com/tzookb/tbmsg) | No description provided | `PHP` ★ 107 | 2019-08-27 |
+| [chrisboulton/php-resque](https://github.com/chrisboulton/php-resque) | PHP port of resque (Workers and Queueing) | `PHP` ★ 3.4k | 2023-08-01 |
+| [mui/material-ui](https://github.com/mui/material-ui) | Material UI: Comprehensive React component library that implements Google's Material Design. Free forever. | `JavaScript` ★ 97.6k | 2026-01-11 |
+| [erikdubbelboer/phpRedisAdmin](https://github.com/erikdubbelboer/phpRedisAdmin) | Simple web interface to manage Redis databases. | `PHP` ★ 3.2k | 2025-12-22 |
+| [vladikoff/chromeos-apk](https://github.com/vladikoff/chromeos-apk) | ☢️ Run Android Apps in Chrome OS OR Chrome in OS X, Linux and Windows. | `JavaScript` ★ 7.8k | 2023-07-13 |
+| [t4t5/sweetalert](https://github.com/t4t5/sweetalert) | A beautiful replacement for Java Script's "alert" | `TypeScript` ★ 22.4k | 2023-04-15 |
+| [litespeedtech/openlitespeed](https://github.com/litespeedtech/openlitespeed) | Our high-performance, lightweight, open source HTTP server | `C++` ★ 1.4k | 2026-01-08 |
+| [google/WebFundamentals](https://github.com/google/WebFundamentals) | Former git repo for Web Fundamentals on developers.google.com | `JavaScript` ★ 13.9k | 2022-08-10 |
+| [twbs/bootstrap](https://github.com/twbs/bootstrap) | The most popular HTML, CSS, and Java Script framework for developing responsive, mobile first projects on the web. | `MDX` ★ 173.9k | 2026-01-10 |
+| [google/web-starter-kit](https://github.com/google/web-starter-kit) | Web Starter Kit - a workflow for multi-device websites | `HTML` ★ 18.4k | 2024-04-22 |
+| [chevereto/g-library](https://github.com/chevereto/g-library) | The library behind Chevereto V3.X. Replaced by chevere/chevere for Chevereto V4 onwards. | `PHP` ★ 64 | 2020-06-14 |
 | [syntaxhighlighter/syntaxhighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter) | Syntax Highlighter is a fully functional self-contained code syntax highlighter developed in Java Script. | `JavaScript` ★ 5.3k | 2020-04-18 |
 | [Kukunin/jquery-endless-scroll](https://github.com/Kukunin/jquery-endless-scroll) | Implementation for infinity scroll using j Query. It is unobtrusive, has module structure for easy extending and overriding | `JavaScript` ★ 2 | 2013-08-13 |
 | [fredwu/jquery-endless-scroll](https://github.com/fredwu/jquery-endless-scroll) | Endless/infinite scrolling/pagination. | `CoffeeScript` ★ 841 | 2017-07-29 |

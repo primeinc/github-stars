@@ -1,6 +1,6 @@
 # Tag: customization
 
-*7 repositories*
+*8 repositories*
 
 [← Back to Index](../README.md)
 
@@ -13,3 +13,4 @@
 | [aleks-apostle/claude-code-patches](https://github.com/aleks-apostle/claude-code-patches) | A simple patch that toggles claude-code thinking traces to be fully expanded by default without having to press ctrl + o | `JavaScript` ★ 39 | 2025-12-09 |
 | [Aprotonix/Rainbow-Music-Visualizer-Wallpaper](https://github.com/Aprotonix/Rainbow-Music-Visualizer-Wallpaper) | Customizable Live Wallpaper showing the music and date | `JavaScript` ★ 14 | 2025-06-15 |
 | [namazso/SecureUxTheme](https://github.com/namazso/SecureUxTheme) | 🎨 A secure boot compatible in-memory Ux Theme patcher | `C++` ★ 2.9k | 2025-06-30 |
+| [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) | Over 425 terminal color schemes/themes for i Term/i Term2. Includes ports to Terminal, Konsole, Pu TTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, Free BSD VT, Terminator, Kitty, Moba Xterm, ... | `Shell` ★ 26.3k | 2026-01-09 |

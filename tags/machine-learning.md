@@ -1,6 +1,6 @@
 # Tag: machine-learning
 
-*13 repositories*
+*17 repositories*
 
 [← Back to Index](../README.md)
 
@@ -19,3 +19,7 @@
 | [character-ai/Ovi](https://github.com/character-ai/Ovi) | No description provided | `Python` ★ 1.5k | 2025-11-15 |
 | [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) | Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, Postgre SQL, real-time data API... | `Jupyter Notebook` ★ 53.4k | 2026-01-07 |
 | [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica) | Perplexica is an AI-powered answering engine. It is an Open source alternative to Perplexity AI | `TypeScript` ★ 28.1k | 2026-01-10 |
+| [iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab) | Deep Face Lab is the leading software for creating deepfakes. | `Python` ★ 18.9k | 2024-11-13 |
+| [nhshin-mcl/MWR](https://github.com/nhshin-mcl/MWR) | No description provided | `Python` ★ 86 | 2023-05-05 |
+| [gradio-app/gradio](https://github.com/gradio-app/gradio) | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! | `Python` ★ 41.3k | 2026-01-11 |
+| [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | Open Assistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | `Python` ★ 37.5k | 2024-08-17 |

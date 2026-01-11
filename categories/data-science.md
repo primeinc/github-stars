@@ -1,6 +1,6 @@
 # Data-science
 
-*63 repositories*
+*92 repositories*
 
 [← Back to Index](../README.md)
 
@@ -69,5 +69,34 @@
 | [Phantom-video/HuMo](https://github.com/Phantom-video/HuMo) | Hu Mo: Human-Centric Video Generation via Collaborative Multi-Modal Conditioning | `Python` ★ 1.1k | 2025-12-23 |
 | [ByteDance-Seed/Bagel](https://github.com/ByteDance-Seed/Bagel) | Open-source unified multimodal model | `Python` ★ 5.6k | 2025-10-27 |
 | [NousResearch/Hermes-Function-Calling](https://github.com/NousResearch/Hermes-Function-Calling) | No description provided | `Jupyter Notebook` ★ 1.2k | 2025-12-22 |
+| [serengil/deepface](https://github.com/serengil/deepface) | A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python | `Python` ★ 21.5k | 2026-01-06 |
+| [ForeverPs/content-aware-rotation](https://github.com/ForeverPs/content-aware-rotation) | Implementation of Kaiming He's Paper Content-Aware Rotation on ICCV 2013 | `Python` ★ 36 | 2021-03-01 |
+| [ali-vilab/videocomposer](https://github.com/ali-vilab/videocomposer) | Official repo for Video Composer: Compositional Video Synthesis with Motion Controllability | `Python` ★ 949 | 2023-11-11 |
+| [Sxela/WarpFusion](https://github.com/Sxela/WarpFusion) | Warp Fusion | `Batchfile` ★ 1k | 2025-04-27 |
+| [xaviviro/refacer](https://github.com/xaviviro/refacer) | Refacer: One-Click Deepfake Multi-Face Swap Tool | `Python` ★ 575 | 2023-06-27 |
+| [iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab) | Deep Face Lab is the leading software for creating deepfakes. | `Python` ★ 18.9k | 2024-11-13 |
+| [deepinsight/insightface](https://github.com/deepinsight/insightface) | State-of-the-art 2D and 3D Face Analysis Project | `Python` ★ 27.5k | 2025-11-25 |
+| [SkalskiP/make-sense](https://github.com/SkalskiP/make-sense) | Free to use online tool for labelling photos. https://makesense.ai | `TypeScript` ★ 3.5k | 2024-08-15 |
+| [Cartucho/OpenLabeling](https://github.com/Cartucho/OpenLabeling) | Label images and video for Computer Vision applications | `Python` ★ 954 | 2022-07-06 |
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | Label Studio is a multi-type data labeling and annotation tool with standardized output format | `TypeScript` ★ 26.1k | 2026-01-11 |
+| [HumanSignal/labelImg](https://github.com/HumanSignal/labelImg) | Label Img is now part of the Label Studio community. The popular image annotation tool created by Tzutalin is no longer actively being developed, but you can check out Label Studio, the open source... | `Python` ★ 24.7k | 2024-06-07 |
+| [voxel51/voxelgpt](https://github.com/voxel51/voxelgpt) | AI assistant that can query visual datasets, search the Fifty One docs, and answer general computer vision questions | `Python` ★ 250 | 2024-12-06 |
+| [rohitrango/automatic-watermark-detection](https://github.com/rohitrango/automatic-watermark-detection) | Project for Digital Image Processing | `Jupyter Notebook` ★ 1.2k | 2022-05-22 |
+| [open-mmlab/Multimodal-GPT](https://github.com/open-mmlab/Multimodal-GPT) | Multimodal-GPT | `Python` ★ 1.5k | 2023-06-04 |
+| [NVlabs/prismer](https://github.com/NVlabs/prismer) | The implementation of "Prismer: A Vision-Language Model with Multi-Task Experts". | `Python` ★ 1.3k | 2024-01-17 |
+| [mattjaybe/sd-wildcards](https://github.com/mattjaybe/sd-wildcards) | A collection of wildcards for Stable Diffusion | ★ 315 | 2024-05-27 |
+| [Zyin055/Inspect-Embedding-Training](https://github.com/Zyin055/Inspect-Embedding-Training) | Python script to analyze textual inversion embedding files used with AI image generators | `Python` ★ 102 | 2023-12-18 |
+| [enhuiz/vall-e](https://github.com/enhuiz/vall-e) | An unofficial Py Torch implementation of the audio LM VALL-E | `Python` ★ 3k | 2023-05-10 |
+| [Breakthrough/PySceneDetect](https://github.com/Breakthrough/PySceneDetect) | :movie_camera: Python and Open CV-based scene cut/transition detection program & library. | `Python` ★ 4.5k | 2025-12-11 |
+| [bwsw/rt-motion-detection-opencv-python](https://github.com/bwsw/rt-motion-detection-opencv-python) | High-performance noise-tolerant motion detection algorithm implemented with Python3, Numba, Numpy | `C` ★ 122 | 2022-04-06 |
+| [ChristophSchranz/Octoprint-PrePrintService](https://github.com/ChristophSchranz/Octoprint-PrePrintService) | This service supports your 3D printing workflow by providing auto-rotation and slicing functionality. | `Python` ★ 11 | 2025-06-10 |
+| [TheSpaghettiDetective/OctoPrint-Obico](https://github.com/TheSpaghettiDetective/OctoPrint-Obico) | No description provided | `Python` ★ 141 | 2025-11-16 |
+| [scottlawsonbc/audio-reactive-led-strip](https://github.com/scottlawsonbc/audio-reactive-led-strip) | :musical_note: :rainbow: Real-time LED strip music visualization using Python and the ESP8266 or Raspberry Pi | `Python` ★ 2.8k | 2026-01-06 |
+| [ssimunic/Temp-Monitor](https://github.com/ssimunic/Temp-Monitor) | Internet of Things data platform for temperature and humidity sensors with maps | `PHP` ★ 90 | 2018-11-23 |
+| [rhsimplex/image-match](https://github.com/rhsimplex/image-match) | 🎇 Quickly search over billions of images | `Python` ★ 3k | 2022-12-06 |
+| [magwyz/pastec](https://github.com/magwyz/pastec) | Image recognition open source index and search engine | `C++` ★ 625 | 2023-01-09 |
+| [jwagner/smartcrop.js](https://github.com/jwagner/smartcrop.js) | Content aware image cropping | `JavaScript` ★ 13k | 2024-03-16 |
+| [jenssegers/imagehash](https://github.com/jenssegers/imagehash) | 🌄 Perceptual image hashing for PHP | `PHP` ★ 2k | 2025-09-17 |
+| [jeremyFreeAgent/Bitter](https://github.com/jeremyFreeAgent/Bitter) | Bitter is a simple but powerful analytics library | `PHP` ★ 128 | 2013-09-19 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

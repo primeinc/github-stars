@@ -1,6 +1,6 @@
 # Databases
 
-*23 repositories*
+*33 repositories*
 
 [← Back to Index](../README.md)
 
@@ -26,6 +26,16 @@
 | [supabase/realtime](https://github.com/supabase/realtime) | Broadcast, Presence, and Postgres Changes via Web Sockets | `Elixir` ★ 7.5k | 2026-01-08 |
 | [teableio/teable](https://github.com/teableio/teable) | ✨ The Next Gen Airtable Alternative: No-Code Postgres | `TypeScript` ★ 20.7k | 2026-01-11 |
 | [microsoft/garnet](https://github.com/microsoft/garnet) | Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication feat... | `C#` ★ 11.7k | 2026-01-10 |
+| [takoyaro/db-storage1111](https://github.com/takoyaro/db-storage1111) | automatic1111's stable-diffusion-webui extension for storing images to a database | `Python` ★ 49 | 2023-10-02 |
+| [nilportugues/sql-repository](https://github.com/nilportugues/sql-repository) | [PHP 7] SQL Repository implementation | `PHP` ★ 36 | 2017-03-13 |
+| [smrchy/redis-tagging](https://github.com/smrchy/redis-tagging) | A Node JS library based helper to tag (sorted) items with Redis | `TypeScript` ★ 73 | 2023-03-03 |
+| [jdorn/sql-formatter](https://github.com/jdorn/sql-formatter) | A lightweight php class for formatting sql statements. Handles automatic indentation and syntax highlighting. | `HTML` ★ 3.9k | 2023-05-26 |
+| [allegro/ralph](https://github.com/allegro/ralph) | Ralph is the CMDB / Asset Management system for data center and back office hardware. | `Python` ★ 2.4k | 2026-01-09 |
+| [dbcli/mycli](https://github.com/dbcli/mycli) | A Terminal Client for My SQL with Auto Completion and Syntax Highlighting. | `Python` ★ 11.9k | 2026-01-10 |
+| [ideawu/ssdb](https://github.com/ideawu/ssdb) | SSDB - A fast No SQL database, an alternative to Redis | `C++` ★ 8.6k | 2022-08-20 |
+| [erikdubbelboer/phpRedisAdmin](https://github.com/erikdubbelboer/phpRedisAdmin) | Simple web interface to manage Redis databases. | `PHP` ★ 3.2k | 2025-12-22 |
+| [phpredis/phpredis](https://github.com/phpredis/phpredis) | A PHP extension for Redis | `C` ★ 10.2k | 2026-01-09 |
+| [redis/redis](https://github.com/redis/redis) | For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine. | `C` ★ 72.5k | 2026-01-09 |
 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | Free and Open Source, Distributed, RESTful Search Engine | `Java` ★ 75.8k | 2026-01-11 |
 | [jprante/elasticsearch-jdbc](https://github.com/jprante/elasticsearch-jdbc) | JDBC importer for Elasticsearch | `Java` ★ 2.8k | 2021-11-05 |
 | [stefangabos/Zebra_Database](https://github.com/stefangabos/Zebra_Database) | PHP My SQLi wrapper that is lightweight and secure, featuring prepared statements, debugging tools, and caching support. | `PHP` ★ 119 | 2025-08-31 |

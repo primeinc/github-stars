@@ -1,6 +1,6 @@
 # Apis
 
-*63 repositories*
+*78 repositories*
 
 [← Back to Index](../README.md)
 
@@ -66,6 +66,21 @@
 | [fullstorydev/grpcui](https://github.com/fullstorydev/grpcui) | An interactive web UI for g RPC, along the lines of postman | `Go` ★ 5.8k | 2025-12-15 |
 | [RevenueCat/react-native-purchases](https://github.com/RevenueCat/react-native-purchases) | React Native in-app purchases and subscriptions made easy. Support for i OS and Android. | `TypeScript` ★ 1.1k | 2026-01-08 |
 | [microsoft/mcp](https://github.com/microsoft/mcp) | Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration | `C#` ★ 2.4k | 2026-01-10 |
+| [ruvnet/Swagger-ChatGPT-Plugin-Creator](https://github.com/ruvnet/Swagger-ChatGPT-Plugin-Creator) | Chat GPT Plugin Creator is an open-source project that helps you convert Swagger specifications into Chat GPT plugins | `HTML` ★ 40 | 2023-04-06 |
+| [microsoft/DirectStorage](https://github.com/microsoft/DirectStorage) | Direct Storage for Windows is an API that allows game developers to unlock the full potential of high speed NVMe drives for loading game assets. | `C++` ★ 807 | 2025-10-28 |
+| [Grabacr07/VirtualDesktop](https://github.com/Grabacr07/VirtualDesktop) | C# wrapper for the Virtual Desktop API on Windows 11. | `C#` ★ 686 | 2024-09-03 |
+| [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) | Reverse engineered Chat GPT API | `Python` ★ 28k | 2023-08-02 |
+| [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | Open Assistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | `Python` ★ 37.5k | 2024-08-17 |
+| [bangordailynews/Public-FreePBX-hacks](https://github.com/bangordailynews/Public-FreePBX-hacks) | No description provided | `PHP` ★ 3 | 2015-08-14 |
+| [Herzult/php-ssh](https://github.com/Herzult/php-ssh) | An experimental object oriented SSH api in PHP | `PHP` ★ 360 | 2023-05-11 |
+| [magwyz/pastec](https://github.com/magwyz/pastec) | Image recognition open source index and search engine | `C++` ★ 625 | 2023-01-09 |
+| [plivo/plivoframework](https://github.com/plivo/plivoframework) | Open Source Telephony Application Prototyping Framework | `Python` ★ 427 | 2017-04-04 |
+| [jkoelker/python-nest](https://github.com/jkoelker/python-nest) | Python API and command line tool for talking to the Nest™ Thermostat | `Python` ★ 153 | 2022-02-08 |
+| [phpredis/phpredis](https://github.com/phpredis/phpredis) | A PHP extension for Redis | `C` ★ 10.2k | 2026-01-09 |
+| [micjohnson/weed-php](https://github.com/micjohnson/weed-php) | PHP client for Weed-FS, a simple and highly scalable distributed file system | `PHP` ★ 20 | 2016-10-22 |
+| [hipchat/hipchat-php](https://github.com/hipchat/hipchat-php) | A PHP library for interacting with the Hip Chat REST API. | `PHP` ★ 168 | 2015-05-15 |
+| [ruflin/Elastica](https://github.com/ruflin/Elastica) | Elastica is a PHP client for elasticsearch | `PHP` ★ 2.3k | 2025-12-30 |
+| [FreePBX/framework](https://github.com/FreePBX/framework) | This module provides a facility to install bug fixes to the framework code that is not otherwise housed in a module | `PHP` ★ 69 | 2026-01-07 |
 | [POSSA/freepbx-Call-Statistics](https://github.com/POSSA/freepbx-Call-Statistics) | Free PBX module for reporting concurrent calls as well as breaking calls down by extension | `PHP` ★ 34 | 2019-02-16 |
 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | Free and Open Source, Distributed, RESTful Search Engine | `Java` ★ 75.8k | 2026-01-11 |
 | [jprante/elasticsearch-jdbc](https://github.com/jprante/elasticsearch-jdbc) | JDBC importer for Elasticsearch | `Java` ★ 2.8k | 2021-11-05 |

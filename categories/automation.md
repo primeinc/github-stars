@@ -1,6 +1,6 @@
 # Automation
 
-*54 repositories*
+*103 repositories*
 
 [← Back to Index](../README.md)
 
@@ -58,6 +58,55 @@
 | [langchain-ai/social-media-agent](https://github.com/langchain-ai/social-media-agent) | 📲 An agent for sourcing, curating, and scheduling social media posts with human-in-the-loop. | `TypeScript` ★ 1.8k | 2025-12-13 |
 | [AIDC-AI/ComfyUI-Copilot](https://github.com/AIDC-AI/ComfyUI-Copilot) | An AI-powered custom node for Comfy UI designed to enhance workflow automation and provide intelligent assistance | `TypeScript` ★ 4.3k | 2025-12-31 |
 | [bytebot-ai/bytebot](https://github.com/bytebot-ai/bytebot) | Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment. | `TypeScript` ★ 10.2k | 2025-09-12 |
+| [MycroftAI/mycroft-core](https://github.com/MycroftAI/mycroft-core) | Mycroft Core, the Mycroft Artificial Intelligence platform. | `Python` ★ 6.6k | 2024-09-08 |
+| [d8ahazard/sd_smartprocess](https://github.com/d8ahazard/sd_smartprocess) | Smart Pre-processing extension for Stable Diffusion | `Python` ★ 198 | 2024-07-19 |
+| [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | Primary and community-submitted packages for webinstall.dev | `Shell` ★ 2.7k | 2025-10-21 |
+| [SipherAGI/sd-webui-agent-scheduler](https://github.com/SipherAGI/sd-webui-agent-scheduler) | An open source Scheduling Agent for Generative AI | `Python` ★ 689 | 2025-01-13 |
+| [kpanchen/org.openhab.binding.icomforts30](https://github.com/kpanchen/org.openhab.binding.icomforts30) | Lennox i Comfort S30 binding for Open HAB 3 | `Java` ★ 3 | 2023-04-13 |
+| [thevoltagesource/LennoxiComfort](https://github.com/thevoltagesource/LennoxiComfort) | Home Assistant custom component for controlling Lennox i Comfort Wi Fi and Air Ease Comfort Sync thermostats. | `Python` ★ 40 | 2024-09-07 |
+| [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss) | No description provided | `Python` ★ 11.8k | 2026-01-01 |
+| [starik222/BooruDatasetTagManager](https://github.com/starik222/BooruDatasetTagManager) | No description provided | `C#` ★ 1.8k | 2025-12-11 |
+| [whatdaybob/sonarr_youtubedl](https://github.com/whatdaybob/sonarr_youtubedl) | A Sonarr companion script to allow the automatic downloading of web series normally not available for Sonarr to search for. Using Youtube-DL it allows you to download your webseries from the list o... | `Python` ★ 138 | 2023-11-27 |
+| [jpirko/cyberpdu](https://github.com/jpirko/cyberpdu) | Ultra dummy script to control Cyber Power PDUs | `Shell` ★ 7 | 2016-03-12 |
+| [b-morgan/OctoPrint-FanSpeedMirror](https://github.com/b-morgan/OctoPrint-FanSpeedMirror) | Mirror the parameter(s) of GCode commands M106, M107 to scripts on the Octo Print host | `Python` ★ 5 | 2025-06-21 |
+| [waltmoorhouse/OctoPrint-Filamentstorage](https://github.com/waltmoorhouse/OctoPrint-Filamentstorage) | Octo Print Plugin for an Open Source Filament Storage system. | `Python` ★ 23 | 2022-02-28 |
+| [waltmoorhouse/FilamentBox](https://github.com/waltmoorhouse/FilamentBox) | Open Source 3D printer filament dehydrator / weight sensor with Octo Print integration. | `C++` ★ 50 | 2019-12-12 |
+| [daniel-frenkel/Valar-Systems](https://github.com/daniel-frenkel/Valar-Systems) | Welcome to my tiny one-man shop, Valar Systems. I make devices that control your home's curtains, windows, doors, and more! | `C` ★ 40 | 2023-04-12 |
+| [ChristophSchranz/Octoprint-PrePrintService](https://github.com/ChristophSchranz/Octoprint-PrePrintService) | This service supports your 3D printing workflow by providing auto-rotation and slicing functionality. | `Python` ★ 11 | 2025-06-10 |
+| [Home-Is-Where-You-Hang-Your-Hack/sensor.goveetemp_bt_hci](https://github.com/Home-Is-Where-You-Hang-Your-Hack/sensor.goveetemp_bt_hci) | Govee Temperature/Humidity BLE Home Assistant Component | `Python` ★ 165 | 2023-01-07 |
+| [OctoPrint/OctoPrint](https://github.com/OctoPrint/OctoPrint) | Octo Print is the snappy web interface for your 3D printer! | `Python` ★ 8.8k | 2026-01-08 |
+| [TheSpaghettiDetective/OctoPrint-Obico](https://github.com/TheSpaghettiDetective/OctoPrint-Obico) | No description provided | `Python` ★ 141 | 2025-11-16 |
+| [TheSpaghettiDetective/obico-server](https://github.com/TheSpaghettiDetective/obico-server) | Obico is a community-built, open-source smart 3D printing platform used by makers, enthusiasts, and tinkerers around the world. | `Vue` ★ 1.8k | 2026-01-11 |
+| [thomasloven/lovelace-auto-entities](https://github.com/thomasloven/lovelace-auto-entities) | 🔹Automatically populate the entities-list of lovelace cards | `TypeScript` ★ 1.7k | 2025-08-21 |
+| [artem-sedykh/mini-climate-card](https://github.com/artem-sedykh/mini-climate-card) | Minimalistic climate card for Home Assistant Lovelace UI | `JavaScript` ★ 314 | 2025-02-10 |
+| [hassio-addons/addon-vscode](https://github.com/hassio-addons/addon-vscode) | Studio Code Server - Home Assistant Community Add-ons | `Dockerfile` ★ 628 | 2026-01-09 |
+| [dlarrick/hass-kumo](https://github.com/dlarrick/hass-kumo) | Home Assistant module interfacing with Mitsubishi mini-split units | `Python` ★ 130 | 2025-12-31 |
+| [eyalcha/read_your_meter](https://github.com/eyalcha/read_your_meter) | Home Assistant sensor to read water meter | `Python` ★ 40 | 2022-07-25 |
+| [claytonjn/hass-circadian_lighting](https://github.com/claytonjn/hass-circadian_lighting) | Circadian Lighting custom component for Home Assistant | `Python` ★ 862 | 2025-09-19 |
+| [moralmunky/Home-Assistant-Mail-And-Packages](https://github.com/moralmunky/Home-Assistant-Mail-And-Packages) | Home Assistant integration providing day of package counts and USPS informed delivery images. | `Python` ★ 796 | 2026-01-09 |
+| [custom-components/climate.programmable_thermostat](https://github.com/custom-components/climate.programmable_thermostat) | Programmable thermostat that let you have a smart thermostat on budget. | `Python` ★ 117 | 2025-09-08 |
+| [dwainscheeren/dwains-lovelace-dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) | An fully auto generating Home Assistant UI dashboard for desktop, tablet and mobile by Dwains for desktop, tablet, mobile | `JavaScript` ★ 2k | 2025-09-01 |
+| [fma965/ESP-MQTT-JSON-Digital-LEDs](https://github.com/fma965/ESP-MQTT-JSON-Digital-LEDs) | ESP MQTT Digital LEDs for Home Assistant's MQTT JSON Light Component. Supports flash, fade, transitions, effects, and OTA uploading! | `C++` ★ 18 | 2021-05-20 |
+| [custom-cards/monster-card](https://github.com/custom-cards/monster-card) | ⚠️ DEPRECATED - MOVE TO AUTO-ENTITIES | `JavaScript` ★ 35 | 2019-11-12 |
+| [home-assistant/core](https://github.com/home-assistant/core) | :house_with_garden: Open source home automation that puts local control and privacy first. | `Python` ★ 84.1k | 2026-01-11 |
+| [morpheus65535/bazarr](https://github.com/morpheus65535/bazarr) | Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of every... | `Python` ★ 3.7k | 2026-01-11 |
+| [Radarr/Radarr](https://github.com/Radarr/Radarr) | Movie organizer/manager for usenet and torrent users. | `C#` ★ 12.8k | 2026-01-07 |
+| [bmrf/tron](https://github.com/bmrf/tron) | Tron | `Batchfile` ★ 6.2k | 2025-08-30 |
+| [MikeShepard/VisioBot3000](https://github.com/MikeShepard/VisioBot3000) | Simple Visio Automation from Powershell | `PowerShell` ★ 51 | 2025-07-17 |
+| [danodemano/monitoring-scripts](https://github.com/danodemano/monitoring-scripts) | A dump of the scripts used to monitor my environment and write to Influx DB. Also includes my dashboard export. | `Shell` ★ 110 | 2016-08-30 |
+| [cluberti/VDI](https://github.com/cluberti/VDI) | Repository for VDI scripts | `Visual Basic` ★ 131 | 2018-08-29 |
+| [jobbyphp/jobby](https://github.com/jobbyphp/jobby) | Manage all your cron jobs without modifying crontab. Handles locking, logging, error emails, and more. | `PHP` ★ 1.1k | 2024-03-29 |
+| [srvrco/getssl](https://github.com/srvrco/getssl) | obtain free SSL certificates from letsencrypt ACME server Suitable for automating the process on remote servers. | `Shell` ★ 2.2k | 2025-11-26 |
+| [eschultze/URLextractor](https://github.com/eschultze/URLextractor) | Information gathering & website reconnaissance | https://phishstats.info/ | `Shell` ★ 455 | 2019-05-27 |
+| [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) | Smart PVR for newsgroup and bittorrent users. | `C#` ★ 13k | 2026-01-07 |
+| [resume/resume.github.com](https://github.com/resume/resume.github.com) | Resumes generated using the Git Hub informations | `JavaScript` ★ 62.7k | 2023-02-15 |
+| [resque/resque](https://github.com/resque/resque) | Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later. | `Ruby` ★ 9.5k | 2026-01-06 |
+| [xiaolu/mkbootimg_tools](https://github.com/xiaolu/mkbootimg_tools) | Unpack and repack boot.img,support dtb(dt.img). | `Shell` ★ 576 | 2020-01-01 |
+| [mccloudaero/goliath-quadcopter](https://github.com/mccloudaero/goliath-quadcopter) | Design files for the Goliath Quadcopter | `nesC` ★ 27 | 2020-08-03 |
+| [MilhouseVH/autoaway.py](https://github.com/MilhouseVH/autoaway.py) | Improved auto-away monitoring for Nest Thermostats | `Python` ★ 15 | 2014-10-12 |
+| [jkoelker/python-nest](https://github.com/jkoelker/python-nest) | Python API and command line tool for talking to the Nest™ Thermostat | `Python` ★ 153 | 2022-02-08 |
+| [chrisboulton/php-resque](https://github.com/chrisboulton/php-resque) | PHP port of resque (Workers and Queueing) | `PHP` ★ 3.4k | 2023-08-01 |
+| [markomarkovic/simple-php-git-deploy](https://github.com/markomarkovic/simple-php-git-deploy) | Automatically deploy the code using PHP and Git | `PHP` ★ 1k | 2021-04-11 |
 | [unifi-hackers/unifi-lab](https://github.com/unifi-hackers/unifi-lab) | (THIS project IS DORMANT: Please have a look at calmh/unifi-api instead, which is cleaner) Add some extra spice to your Ubiquiti Uni Fi wifi network! | `Python` ★ 106 | 2016-02-11 |
 | [midgetspy/Sick-Beard](https://github.com/midgetspy/Sick-Beard) | PVR & episode guide that downloads and manages all your TV shows | `Python` ★ 2.9k | 2024-10-27 |
 

@@ -1,6 +1,6 @@
 # Tag: osint
 
-*7 repositories*
+*8 repositories*
 
 [← Back to Index](../README.md)
 
@@ -13,3 +13,4 @@
 | [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) | A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more | `Shell` ★ 10k | 2026-01-08 |
 | [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) | Scan a username across multiple social, developer, gaming and creator platforms to see if it’s available. Perfect for finding a unique username for your personal profile or business across Git Hub,... | `Python` ★ 327 | 2026-01-10 |
 | [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer) | API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites | `JavaScript` ★ 20.3k | 2025-10-31 |
+| [eschultze/URLextractor](https://github.com/eschultze/URLextractor) | Information gathering & website reconnaissance | https://phishstats.info/ | `Shell` ★ 455 | 2019-05-27 |

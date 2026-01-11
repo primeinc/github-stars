@@ -1,6 +1,6 @@
 # Tag: encryption
 
-*6 repositories*
+*9 repositories*
 
 [← Back to Index](../README.md)
 
@@ -12,3 +12,6 @@
 | [getsops/sops](https://github.com/getsops/sops) | Simple and flexible tool for managing secrets | `Go` ★ 20.4k | 2025-12-29 |
 | [FiloSottile/age](https://github.com/FiloSottile/age) | A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability. | `Go` ★ 20.9k | 2025-12-31 |
 | [berty/berty](https://github.com/berty/berty) | Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network | `TypeScript` ★ 9k | 2026-01-09 |
+| [netheril96/securefs](https://github.com/netheril96/securefs) | Filesystem in userspace (FUSE) with transparent authenticated encryption | `C++` ★ 807 | 2026-01-09 |
+| [neurodroid/cryptonite](https://github.com/neurodroid/cryptonite) | Enc FS and True Crypt on Android | `C` ★ 207 | 2019-06-24 |
+| [FreeApophis/TrueCrypt](https://github.com/FreeApophis/TrueCrypt) | This repository applies all Versions of the Original True Crypt Source Files in order | `C` ★ 851 | 2015-08-31 |

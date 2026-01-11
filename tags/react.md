@@ -1,6 +1,6 @@
 # Tag: react
 
-*29 repositories*
+*34 repositories*
 
 [← Back to Index](../README.md)
 
@@ -35,3 +35,8 @@
 | [OvidijusParsiunas/deep-chat](https://github.com/OvidijusParsiunas/deep-chat) | Fully customizable AI chatbot component for your website | `TypeScript` ★ 3.5k | 2026-01-08 |
 | [puckeditor/puck](https://github.com/puckeditor/puck) | The visual editor for React | `TypeScript` ★ 10.3k | 2026-01-09 |
 | [usekaneo/kaneo](https://github.com/usekaneo/kaneo) | 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you. | `TypeScript` ★ 3.1k | 2026-01-11 |
+| [alex4108/scoreboard](https://github.com/alex4108/scoreboard) | A simple scoreboard webapp using Express, React, and Mongo | `JavaScript` ★ 5 | 2023-03-05 |
+| [outline/outline](https://github.com/outline/outline) | The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible. | `TypeScript` ★ 36.6k | 2026-01-11 |
+| [pg07codes/fokus](https://github.com/pg07codes/fokus) | react web app to help you become more productive :fire: and efficient with time:star2: | `JavaScript` ★ 156 | 2023-07-01 |
+| [mattermost/mattermost](https://github.com/mattermost/mattermost) | Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.. | `TypeScript` ★ 34.9k | 2026-01-10 |
+| [mui/material-ui](https://github.com/mui/material-ui) | Material UI: Comprehensive React component library that implements Google's Material Design. Free forever. | `JavaScript` ★ 97.6k | 2026-01-11 |

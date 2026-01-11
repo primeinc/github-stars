@@ -1,6 +1,6 @@
 # Tag: angular
 
-*5 repositories*
+*6 repositories*
 
 [← Back to Index](../README.md)
 
@@ -11,3 +11,4 @@
 | [Azure-Samples/contoso-real-estate](https://github.com/Azure-Samples/contoso-real-estate) | Intelligent enterprise-grade reference architecture for Java Script, featuring Open AI integration, Azure Developer CLI template and Playwright tests. | `JavaScript` ★ 966 | 2025-03-20 |
 | [webhooksite/webhook.site](https://github.com/webhooksite/webhook.site) | ⚓️ Easily test HTTP webhooks with this handy tool that displays requests instantly. | `JavaScript` ★ 6.3k | 2025-12-16 |
 | [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) | Clean Architecture Solution Template for ASP.NET Core | `Bicep` ★ 19.5k | 2026-01-09 |
+| [ajenti/ajenti](https://github.com/ajenti/ajenti) | Ajenti Core and stock plugins | `Python` ★ 7.9k | 2026-01-08 |

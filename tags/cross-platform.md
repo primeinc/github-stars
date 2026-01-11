@@ -1,6 +1,6 @@
 # Tag: cross-platform
 
-*14 repositories*
+*25 repositories*
 
 [← Back to Index](../README.md)
 
@@ -19,4 +19,15 @@
 | [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | A modern download manager that supports all platforms. Built with Golang and Flutter. | `Go` ★ 22.4k | 2026-01-11 |
 | [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) | A Foundation for Scalable Cross-Platform Apps | `TypeScript` ★ 24.2k | 2025-09-22 |
 | [KRTirtho/spotube](https://github.com/KRTirtho/spotube) | 🎧 Open source music streaming app! Available for both desktop & mobile! | `Dart` ★ 43.6k | 2026-01-09 |
+| [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | Primary and community-submitted packages for webinstall.dev | `Shell` ★ 2.7k | 2025-10-21 |
+| [lencx/nofwl](https://github.com/lencx/nofwl) | No FWL Desktop Application | `Rust` ★ 4.2k | 2024-01-23 |
+| [lencx/ChatGPT](https://github.com/lencx/ChatGPT) | 🔮 Chat GPT Desktop Application (Mac, Windows and Linux) | `Rust` ★ 54.4k | 2024-08-29 |
+| [bcpierce00/unison](https://github.com/bcpierce00/unison) | Unison file synchronizer | `OCaml` ★ 5k | 2025-12-01 |
+| [cocktailpeanut/breadboard](https://github.com/cocktailpeanut/breadboard) | Stable Diffusion Browser for Windows, Mac, and Linux | `JavaScript` ★ 399 | 2024-03-17 |
+| [starship/starship](https://github.com/starship/starship) | ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell! | `Rust` ★ 53.4k | 2026-01-11 |
+| [mikaelbr/node-notifier](https://github.com/mikaelbr/node-notifier) | A Node.js module for sending notifications on native Mac, Windows and Linux (or Growl as fallback) | `JavaScript` ★ 5.8k | 2024-06-24 |
+| [gabrielrcouto/php-gui](https://github.com/gabrielrcouto/php-gui) | Extensionless PHP Graphic User Interface library | `PHP` ★ 2.2k | 2022-05-29 |
+| [dthree/cash](https://github.com/dthree/cash) | Cross-platform Linux commands in ES6 | `JavaScript` ★ 7.8k | 2020-01-14 |
+| [MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-) | A beautiful cross platform Desktop Player for Google Play Music | `JavaScript` ★ 8.2k | 2023-01-04 |
+| [vladikoff/chromeos-apk](https://github.com/vladikoff/chromeos-apk) | ☢️ Run Android Apps in Chrome OS OR Chrome in OS X, Linux and Windows. | `JavaScript` ★ 7.8k | 2023-07-13 |
 | [xbmc/xbmc](https://github.com/xbmc/xbmc) | Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available f... | `C++` ★ 20.3k | 2026-01-11 |

@@ -1,6 +1,6 @@
 # Tag: generative-ai
 
-*4 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
@@ -10,3 +10,4 @@
 | [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 12 Lessons to Get Started Building AI Agents | `Jupyter Notebook` ★ 48.5k | 2026-01-01 |
 | [usestrix/strix](https://github.com/usestrix/strix) | Open-source AI agents for penetration testing | `Python` ★ 19k | 2026-01-10 |
 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popular chatbots like Chat GPT, Claude & Gemini | `Roff` ★ 25k | 2026-01-10 |
+| [SipherAGI/sd-webui-agent-scheduler](https://github.com/SipherAGI/sd-webui-agent-scheduler) | An open source Scheduling Agent for Generative AI | `Python` ★ 689 | 2025-01-13 |

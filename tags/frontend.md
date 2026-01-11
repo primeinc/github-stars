@@ -1,6 +1,6 @@
 # Tag: frontend
 
-*6 repositories*
+*8 repositories*
 
 [← Back to Index](../README.md)
 
@@ -12,3 +12,5 @@
 | [MCP-UI-Org/mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP. Create next-gen UI experiences with the protocol and SDK! | `TypeScript` ★ 4k | 2025-12-22 |
 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | LLM Frontend for Power Users. | `JavaScript` ★ 21.9k | 2026-01-11 |
 | [home-assistant/frontend](https://github.com/home-assistant/frontend) | :lollipop: Frontend for Home Assistant | `TypeScript` ★ 5.1k | 2026-01-10 |
+| [causefx/iDashboard-PHP](https://github.com/causefx/iDashboard-PHP) | HTPC Dashboard to load website services, written in PHP | `JavaScript` ★ 125 | 2017-04-17 |
+| [firstfloorsoftware/mui](https://github.com/firstfloorsoftware/mui) | Modern UI for WPF | `C#` ★ 2.6k | 2021-07-27 |

@@ -1,6 +1,6 @@
 # Security
 
-*75 repositories*
+*104 repositories*
 
 [← Back to Index](../README.md)
 
@@ -80,6 +80,35 @@
 | [Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy) | 🦄 A curated list of privacy & security-focused software and services | `Astro` ★ 8.7k | 2026-01-10 |
 | [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) | 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2024 | `TypeScript` ★ 20.5k | 2025-06-28 |
 | [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | A collection of various awesome lists for hackers, pentesters and security researchers | ★ 104.3k | 2025-01-18 |
+| [papuSpartan/stable-diffusion-webui-auto-tls-https](https://github.com/papuSpartan/stable-diffusion-webui-auto-tls-https) | An extension for AUTOMATIC1111's Stable Diffusion Web-UI that enables easy or zero-conf TLS for HTTPS | `Python` ★ 61 | 2024-05-12 |
+| [Themis-0/unpyc37](https://github.com/Themis-0/unpyc37) | Decompiler for Python 3.7 (forked from https://github.com/figment/unpyc3) | `Python` ★ 4 | 2025-09-11 |
+| [WADComs/WADComs.github.io](https://github.com/WADComs/WADComs.github.io) | WADComs is an interactive cheat sheet, containing a curated list of offensive security tools and their respective commands, to be used against Windows/AD environments. | `HTML` ★ 1.6k | 2025-08-29 |
+| [zonemaster/zonemaster](https://github.com/zonemaster/zonemaster) | The Zonemaster Project | `Perl` ★ 516 | 2025-12-20 |
+| [mxk/windows-secure-group-policy](https://github.com/mxk/windows-secure-group-policy) | Windows 11 secure group policy for standalone devices | `Batchfile` ★ 245 | 2025-12-14 |
+| [DigitalRuby/IPBan](https://github.com/DigitalRuby/IPBan) | Since 2011, IPBan is the worlds most trusted, free security software to block hackers and botnets. With both Windows and Linux support, IPBan has your dedicated or cloud server protected. Upgrade t... | `C#` ★ 2k | 2026-01-11 |
+| [square/sharkey](https://github.com/square/sharkey) | Sharkey is a service for managing certificates for use by Open SSH | `Go` ★ 411 | 2025-12-15 |
+| [dxa4481/WPA2-HalfHandshake-Crack](https://github.com/dxa4481/WPA2-HalfHandshake-Crack) | This is a POC to show it is possible to capture enough of a handshake with a user from a fake AP to crack a WPA2 network without knowing the passphrase of the actual AP. | `Python` ★ 593 | 2022-03-03 |
+| [ovr/phpsa](https://github.com/ovr/phpsa) | Smart/Static Analyzer(sis) for PHP :bowtie::neckbeard: | `PHP` ★ 637 | 2019-02-27 |
+| [bastillion-io/Bastillion](https://github.com/bastillion-io/Bastillion) | A modern, web-based SSH console and key management tool. Bastillion gives you a clean, browser-based way to manage SSH access across all your systems. Think of it like a bastion host with a friendl... | `Java` ★ 3.4k | 2026-01-06 |
+| [threat9/routersploit](https://github.com/threat9/routersploit) | Exploitation Framework for Embedded Devices | `Python` ★ 12.9k | 2025-06-10 |
+| [gravitational/teleport](https://github.com/gravitational/teleport) | The easiest, and most secure way to access and protect all of your infrastructure. | `Go` ★ 19.6k | 2026-01-10 |
+| [srvrco/getssl](https://github.com/srvrco/getssl) | obtain free SSL certificates from letsencrypt ACME server Suitable for automating the process on remote servers. | `Shell` ★ 2.2k | 2025-11-26 |
+| [Diyzzuf/grav-plugin-private](https://github.com/Diyzzuf/grav-plugin-private) | Private is a Grav Plugin. It provide an authentification form to keep private your Grav site or part of it | `PHP` ★ 34 | 2022-10-14 |
+| [eschultze/URLextractor](https://github.com/eschultze/URLextractor) | Information gathering & website reconnaissance | https://phishstats.info/ | `Shell` ★ 455 | 2019-05-27 |
+| [vgough/encfs](https://github.com/vgough/encfs) | Enc FS: an Encrypted Filesystem for FUSE. | `C++` ★ 2.1k | 2026-01-10 |
+| [AlphaDelta/Secure-Desktop](https://github.com/AlphaDelta/Secure-Desktop) | Anti-keylogger/anti-rat application for Windows | `C#` ★ 250 | 2021-09-08 |
+| [SpiderOak/Encryptr](https://github.com/SpiderOak/Encryptr) | Encryptr is a zero-knowledge cloud-based password manager / e-wallet powered by Crypton | `JavaScript` ★ 1.6k | 2017-11-29 |
+| [Herzult/php-ssh](https://github.com/Herzult/php-ssh) | An experimental object oriented SSH api in PHP | `PHP` ★ 360 | 2023-05-11 |
+| [netheril96/securefs](https://github.com/netheril96/securefs) | Filesystem in userspace (FUSE) with transparent authenticated encryption | `C++` ★ 807 | 2026-01-09 |
+| [hephaest0s/usbkill](https://github.com/hephaest0s/usbkill) | « usbkill » is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer. | `Python` ★ 4.6k | 2024-03-01 |
+| [robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan) | TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. | `C` ★ 25.2k | 2025-06-05 |
+| [ptejada/uFlex](https://github.com/ptejada/uFlex) | All in one PHP user authentication classs | `PHP` ★ 115 | 2019-01-06 |
+| [perusio/php-ini-cleanup](https://github.com/perusio/php-ini-cleanup) | A script that cleans up the php.ini file with security in mind | `Awk` ★ 103 | 2013-07-30 |
+| [brandonlw/Psychson](https://github.com/brandonlw/Psychson) | Phison 2251-03 (2303) Custom Firmware & Existing Firmware Patches (Bad USB) | `C#` ★ 4.2k | 2021-07-19 |
+| [neurodroid/cryptonite](https://github.com/neurodroid/cryptonite) | Enc FS and True Crypt on Android | `C` ★ 207 | 2019-06-24 |
+| [defuse/php-encryption](https://github.com/defuse/php-encryption) | Simple Encryption in PHP. | `PHP` ★ 3.9k | 2024-01-02 |
+| [FreeApophis/TrueCrypt](https://github.com/FreeApophis/TrueCrypt) | This repository applies all Versions of the Original True Crypt Source Files in order | `C` ★ 851 | 2015-08-31 |
+| [ossec/ossec-hids](https://github.com/ossec/ossec-hids) | OSSEC is an Open Source Host-based Intrusion Detection System that performs log analysis, file integrity checking, policy monitoring, rootkit detection, real-time alerting and active response. | `C` ★ 5k | 2025-01-22 |
 | [bitwiseshiftleft/sjcl](https://github.com/bitwiseshiftleft/sjcl) | [DEPRECATED] Stanford Javascript Crypto Library | `JavaScript` ★ 7.2k | 2026-01-08 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

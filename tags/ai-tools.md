@@ -1,6 +1,6 @@
 # Tag: ai-tools
 
-*8 repositories*
+*10 repositories*
 
 [← Back to Index](../README.md)
 
@@ -14,3 +14,5 @@
 | [mcmonkeyprojects/SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) | Swarm UI (formerly Stable Swarm UI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility. | `C#` ★ 3.6k | 2026-01-10 |
 | [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 37.6k | 2025-12-20 |
 | [LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) | Multi-Platform Package Manager for Stable Diffusion | `C#` ★ 7.2k | 2026-01-03 |
+| [krea-ai/open-prompts](https://github.com/krea-ai/open-prompts) | No description provided | `Python` ★ 793 | 2022-09-22 |
+| [Zyin055/Inspect-Embedding-Training](https://github.com/Zyin055/Inspect-Embedding-Training) | Python script to analyze textual inversion embedding files used with AI image generators | `Python` ★ 102 | 2023-12-18 |

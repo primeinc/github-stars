@@ -1,94 +1,8 @@
 # Awesome Starred Repositories
 
-> A curated list of **1959** repositories, automatically classified and organized.
+> A curated list of **1959** repositories across **50** categories, automatically classified and organized.
 
 Last updated: 2026-01-11
-
-## 📂 Categories
-
-
-### A
-- [ai-ml](categories/ai-ml.md) *(205)*
-- [apis](categories/apis.md) *(63)*
-- [audio](categories/audio.md) *(1)*
-- [automation](categories/automation.md) *(54)*
-
-### C
-- [cli-tools](categories/cli-tools.md) *(61)*
-- [cloud](categories/cloud.md) *(43)*
-- [collaboration](categories/collaboration.md) *(1)*
-- [containers](categories/containers.md) *(11)*
-
-### D
-- [data-science](categories/data-science.md) *(63)*
-- [databases](categories/databases.md) *(23)*
-- [deployment](categories/deployment.md) *(9)*
-- [design](categories/design.md) *(2)*
-- [desktop-dev](categories/desktop-dev.md) *(47)*
-- [dev-tools](categories/dev-tools.md) *(96)*
-- [devops](categories/devops.md) *(29)*
-- [document-processing](categories/document-processing.md) *(1)*
-- [documentation](categories/documentation.md) *(43)*
-
-### E
-- [embedded](categories/embedded.md) *(8)*
-- [embedding](categories/embedding.md) *(1)*
-
-### F
-- [frameworks](categories/frameworks.md) *(26)*
-
-### G
-- [game-dev](categories/game-dev.md) *(23)*
-- [gis](categories/gis.md) *(1)*
-
-### H
-- [hacking](categories/hacking.md) *(1)*
-- [home-automation](categories/home-automation.md) *(1)*
-
-### I
-- [image-processing](categories/image-processing.md) *(1)*
-- [infrastructure](categories/infrastructure.md) *(33)*
-
-### L
-- [learning](categories/learning.md) *(53)*
-
-### M
-- [media](categories/media.md) *(2)*
-- [media-server](categories/media-server.md) *(2)*
-- [mobile-dev](categories/mobile-dev.md) *(9)*
-- [monitoring](categories/monitoring.md) *(21)*
-- [multimedia](categories/multimedia.md) *(1)*
-
-### N
-- [networking](categories/networking.md) *(50)*
-
-### P
-- [privacy](categories/privacy.md) *(1)*
-- [productivity](categories/productivity.md) *(160)*
-- [programming](categories/programming.md) *(1)*
-
-### S
-- [security](categories/security.md) *(75)*
-- [system-admin](categories/system-admin.md) *(57)*
-
-### T
-- [testing](categories/testing.md) *(10)*
-- [tools](categories/tools.md) *(1)*
-
-### U
-- [ui-libraries](categories/ui-libraries.md) *(73)*
-- [unclassified](categories/unclassified.md) *(1244)*
-
-### V
-- [video-dev](categories/video-dev.md) *(1)*
-- [video-processing](categories/video-processing.md) *(3)*
-
-### W
-- [web-dev](categories/web-dev.md) *(98)*
-
-## 🏷️ Popular Tags
-
-[azure](tags/azure.md) (36) • [ai](tags/ai.md) (32) • [react](tags/react.md) (29) • [awesome-list](tags/awesome-list.md) (25) • [automation](tags/automation.md) (25) • [llm](tags/llm.md) (23) • [self-hosted](tags/self-hosted.md) (20) • [cli](tags/cli.md) (17) • [nextjs](tags/nextjs.md) (15) • [ai-agents](tags/ai-agents.md) (15) • [cross-platform](tags/cross-platform.md) (14) • [windows](tags/windows.md) (14) • [machine-learning](tags/machine-learning.md) (13) • [privacy](tags/privacy.md) (12) • [terminal](tags/terminal.md) (10) • [markdown](tags/markdown.md) (9) • [ai-tools](tags/ai-tools.md) (8) • [docker](tags/docker.md) (8) • [llms](tags/llms.md) (8) • [resources](tags/resources.md) (7) • [osint](tags/osint.md) (7) • [kubernetes](tags/kubernetes.md) (7) • [high-performance](tags/high-performance.md) (7) • [api-management](tags/api-management.md) (7) • [deep-learning](tags/deep-learning.md) (7) • [customization](tags/customization.md) (7) • [open-source](tags/open-source.md) (7) • [api](tags/api.md) (6) • [encryption](tags/encryption.md) (6) • [agents](tags/agents.md) (6)
 
 ## ⭐ Recently Starred
 
@@ -104,6 +18,35 @@ Last updated: 2026-01-11
 | [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) | OSINT Framework | `JavaScript` ★ 10.5k | 2025-06-16 |
 | [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `JavaScript` ★ 9.6k | 2026-01-11 |
 | [simulot/immich-go](https://github.com/simulot/immich-go) | An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives. | `Go` ★ 5.2k | 2025-12-29 |
+
+## 🏷️ Popular Tags
+
+[azure](tags/azure.md) (36) • [react](tags/react.md) (34) • [ai](tags/ai.md) (32) • [windows](tags/windows.md) (31) • [automation](tags/automation.md) (29) • [stable-diffusion](tags/stable-diffusion.md) (28) • [awesome-list](tags/awesome-list.md) (27) • [cross-platform](tags/cross-platform.md) (25) • [self-hosted](tags/self-hosted.md) (24) • [llm](tags/llm.md) (23) • [cli](tags/cli.md) (20) • [laravel](tags/laravel.md) (20) • [machine-learning](tags/machine-learning.md) (17) • [nextjs](tags/nextjs.md) (15) • [terminal](tags/terminal.md) (15) • [ai-agents](tags/ai-agents.md) (15) • [deep-learning](tags/deep-learning.md) (14) • [privacy](tags/privacy.md) (13) • [docker](tags/docker.md) (12) • [php](tags/php.md) (12) • [dashboard](tags/dashboard.md) (11) • [android](tags/android.md) (11) • [home-assistant](tags/home-assistant.md) (11) • [chatgpt](tags/chatgpt.md) (10) • [ai-tools](tags/ai-tools.md) (10) • [resources](tags/resources.md) (10) • [powershell](tags/powershell.md) (10) • [markdown](tags/markdown.md) (9) • [kubernetes](tags/kubernetes.md) (9) • [encryption](tags/encryption.md) (9)
+
+<details>
+<summary>📂 All Categories (50)</summary>
+
+| | | |
+|---|---|---|
+| [unclassified](categories/unclassified.md) (869) | [ai-ml](categories/ai-ml.md) (267) | [productivity](categories/productivity.md) (251) |
+| [web-dev](categories/web-dev.md) (174) | [dev-tools](categories/dev-tools.md) (133) | [ui-libraries](categories/ui-libraries.md) (120) |
+| [system-admin](categories/system-admin.md) (112) | [security](categories/security.md) (104) | [automation](categories/automation.md) (103) |
+| [data-science](categories/data-science.md) (92) | [desktop-dev](categories/desktop-dev.md) (89) | [cli-tools](categories/cli-tools.md) (80) |
+| [apis](categories/apis.md) (78) | [networking](categories/networking.md) (77) | [learning](categories/learning.md) (72) |
+| [documentation](categories/documentation.md) (56) | [frameworks](categories/frameworks.md) (51) | [cloud](categories/cloud.md) (50) |
+| [infrastructure](categories/infrastructure.md) (40) | [devops](categories/devops.md) (36) | [game-dev](categories/game-dev.md) (34) |
+| [databases](categories/databases.md) (33) | [embedded](categories/embedded.md) (33) | [monitoring](categories/monitoring.md) (31) |
+| [mobile-dev](categories/mobile-dev.md) (20) | [testing](categories/testing.md) (17) | [containers](categories/containers.md) (13) |
+| [deployment](categories/deployment.md) (10) | [media](categories/media.md) (8) | [home-automation](categories/home-automation.md) (6) |
+| [video-processing](categories/video-processing.md) (3) | [media-server](categories/media-server.md) (2) | [design](categories/design.md) (2) |
+| [hardware](categories/hardware.md) (2) | [logging](categories/logging.md) (2) | [video-dev](categories/video-dev.md) (1) |
+| [document-processing](categories/document-processing.md) (1) | [programming](categories/programming.md) (1) | [gis](categories/gis.md) (1) |
+| [audio](categories/audio.md) (1) | [tools](categories/tools.md) (1) | [privacy](categories/privacy.md) (1) |
+| [embedding](categories/embedding.md) (1) | [collaboration](categories/collaboration.md) (1) | [hacking](categories/hacking.md) (1) |
+| [file-management](categories/file-management.md) (1) | [iot](categories/iot.md) (1) | [visualization](categories/visualization.md) (1) |
+| [image-processing](categories/image-processing.md) (1) | [multimedia](categories/multimedia.md) (1) |  |
+
+</details>
 
 ---
 *Powered by [GitHub Stars Curation System](https://github.com/primeinc/github-stars)*

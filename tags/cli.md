@@ -1,6 +1,6 @@
 # Tag: cli
 
-*17 repositories*
+*20 repositories*
 
 [← Back to Index](../README.md)
 
@@ -23,3 +23,6 @@
 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader | `Python` ★ 141.4k | 2026-01-06 |
 | [sigoden/aichat](https://github.com/sigoden/aichat) | All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to Open AI, Claude, Gemini, Ollama, Groq, and more. | `Rust` ★ 9k | 2026-01-06 |
 | [betomoedano/snapai](https://github.com/betomoedano/snapai) | AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using Open AI's latest models. | `TypeScript` ★ 1.4k | 2025-09-15 |
+| [MScholtes/VirtualDesktop](https://github.com/MScholtes/VirtualDesktop) | C# command line tool to manage virtual desktops in Windows 10 | `C#` ★ 716 | 2025-08-12 |
+| [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) | Reverse engineered Chat GPT API | `Python` ★ 28k | 2023-08-02 |
+| [guiguiboy/PHP-CLI-Progress-Bar](https://github.com/guiguiboy/PHP-CLI-Progress-Bar) | A PHP5 CLI Progress bar | `PHP` ★ 158 | 2017-04-10 |

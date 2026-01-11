@@ -1,6 +1,6 @@
 # System-admin
 
-*57 repositories*
+*112 repositories*
 
 [← Back to Index](../README.md)
 
@@ -60,6 +60,61 @@
 | [XTXMarkets/ternfs](https://github.com/XTXMarkets/ternfs) | An exabyte-scale, multi-region distributed file system | `C++` ★ 1.3k | 2026-01-09 |
 | [namazso/SecureUxTheme](https://github.com/namazso/SecureUxTheme) | 🎨 A secure boot compatible in-memory Ux Theme patcher | `C++` ★ 2.9k | 2025-06-30 |
 | [unjs/pathe](https://github.com/unjs/pathe) | 🛣️ Drop-in replacement of the Node.js's path module module that ensures paths are normalized | `TypeScript` ★ 551 | 2026-01-10 |
+| [liquidctl/liquidctl](https://github.com/liquidctl/liquidctl) | Cross-platform CLI and Python drivers for AIO liquid coolers and other devices | `Python` ★ 2.5k | 2026-01-11 |
+| [Tsukisoft/direct-storage-rs](https://github.com/Tsukisoft/direct-storage-rs) | Rust bindings for Direct Storage | `Rust` ★ 12 | 2025-12-15 |
+| [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) | This project aims to enhance the working environment on Windows | `C` ★ 31.1k | 2025-11-03 |
+| [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | Primary and community-submitted packages for webinstall.dev | `Shell` ★ 2.7k | 2025-10-21 |
+| [theohbrothers/ItemLinkManagement](https://github.com/theohbrothers/ItemLinkManagement) | A Power Shell module for managing hardlinks, junctions, symbolic links. | `PowerShell` ★ 3 | 2021-10-17 |
+| [microsoft/VFSForGit](https://github.com/microsoft/VFSForGit) | Virtual File System for Git: Enable Git at Enterprise Scale | `C#` ★ 6.1k | 2025-12-18 |
+| [srn/nvapi-node](https://github.com/srn/nvapi-node) | Native C++ module for interfacing with NVIDIA NVAPI | `C++` ★ 4 | 2020-12-23 |
+| [jNizM/NVIDIA_NvAPI](https://github.com/jNizM/NVIDIA_NvAPI) | Converted Nv API-Functions | `AutoHotkey` ★ 38 | 2023-08-18 |
+| [KovaaK/NVidiaHotkeys](https://github.com/KovaaK/NVidiaHotkeys) | Script to change nvidia's Digital Vibrance and Hue settings by pressing hotkeys | `AutoHotkey` ★ 26 | 2019-06-30 |
+| [martymac/fpart](https://github.com/martymac/fpart) | Sort files and pack them into partitions | `C` ★ 283 | 2025-12-08 |
+| [bcpierce00/unison](https://github.com/bcpierce00/unison) | Unison file synchronizer | `OCaml` ★ 5k | 2025-12-01 |
+| [agarbato/unicloud](https://github.com/agarbato/unicloud) | Unison file sync web interface | `Python` ★ 76 | 2024-08-12 |
+| [jbd/msrsync](https://github.com/jbd/msrsync) | Multi-stream rsync wrapper | `Python` ★ 502 | 2022-10-19 |
+| [PoshCode/PowerShellPracticeAndStyle](https://github.com/PoshCode/PowerShellPracticeAndStyle) | The Unofficial Power Shell Best Practices and Style Guide | ★ 2.4k | 2023-05-19 |
+| [mhammond/pywin32](https://github.com/mhammond/pywin32) | Python for Windows (pywin32) Extensions | `C++` ★ 5.5k | 2025-12-15 |
+| [MScholtes/PSVirtualDesktop](https://github.com/MScholtes/PSVirtualDesktop) | Virtual Desktop is a Powershell module that provides commandlets to manage virtual desktops of Windows 10. | `PowerShell` ★ 367 | 2025-08-25 |
+| [nightroman/PowerShellTraps](https://github.com/nightroman/PowerShellTraps) | Collection of Power Shell traps and oddities | `PowerShell` ★ 458 | 2025-10-20 |
+| [mikeroyal/WSL-Guide](https://github.com/mikeroyal/WSL-Guide) | Windows Subsystem for Linux (WSL) Guide. Use WSL develop to with Kubernetes and in the Cloud (Microsoft Azure, AWS, and Google Cloud). | `Rust` ★ 379 | 2024-01-04 |
+| [nataliethenerd/picohatpad](https://github.com/nataliethenerd/picohatpad) | No description provided | `Python` ★ 75 | 2023-01-29 |
+| [lprichar/UwpMessageRelay](https://github.com/lprichar/UwpMessageRelay) | A sample UWP app demonstrating how to use App Service Connection to do interprocess communication | `C#` ★ 12 | 2017-01-03 |
+| [rcmaehl/MSEdgeRedirect](https://github.com/rcmaehl/MSEdgeRedirect) | A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Browser | `AutoIt` ★ 5.6k | 2025-12-23 |
+| [9072997/regwincontext](https://github.com/9072997/regwincontext) | Put a program in the windows context menu for a particular file type | `Go` ★ 19 | 2021-05-25 |
+| [jpirko/cyberpdu](https://github.com/jpirko/cyberpdu) | Ultra dummy script to control Cyber Power PDUs | `Shell` ★ 7 | 2016-03-12 |
+| [ahodges9/LedFx](https://github.com/ahodges9/LedFx) | Led Fx is a network based LED effect controller with support for advanced real-time audio effects! Led Fx can control multiple devices and works great with cheap ESP8266 nodes allowing for cost eff... | `Python` ★ 392 | 2023-07-20 |
+| [mxk/windows-secure-group-policy](https://github.com/mxk/windows-secure-group-policy) | Windows 11 secure group policy for standalone devices | `Batchfile` ★ 245 | 2025-12-14 |
+| [alsmith/multicast-relay](https://github.com/alsmith/multicast-relay) | Relay multicast and broadcast packets between interfaces. | `Python` ★ 351 | 2023-11-05 |
+| [Nordeus/ansible_iptables_raw](https://github.com/Nordeus/ansible_iptables_raw) | iptables module for Ansible which keeps state | `Python` ★ 128 | 2023-11-03 |
+| [dfinke/ImportExcel](https://github.com/dfinke/ImportExcel) | Power Shell module to import/export Excel spreadsheets, without Excel | `PowerShell` ★ 2.7k | 2025-12-26 |
+| [bmrf/tron](https://github.com/bmrf/tron) | Tron | `Batchfile` ★ 6.2k | 2025-08-30 |
+| [DigitalRuby/IPBan](https://github.com/DigitalRuby/IPBan) | Since 2011, IPBan is the worlds most trusted, free security software to block hackers and botnets. With both Windows and Linux support, IPBan has your dedicated or cloud server protected. Upgrade t... | `C#` ★ 2k | 2026-01-11 |
+| [Ulterius/server](https://github.com/Ulterius/server) | [WIP] Ulterius™ server where all the magic happens :rocket: :feelsgood: | `C#` ★ 594 | 2017-11-06 |
+| [cheat/cheat](https://github.com/cheat/cheat) | cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not ... | `Go` ★ 13.1k | 2024-07-29 |
+| [square/sharkey](https://github.com/square/sharkey) | Sharkey is a service for managing certificates for use by Open SSH | `Go` ★ 411 | 2025-12-15 |
+| [bastillion-io/Bastillion](https://github.com/bastillion-io/Bastillion) | A modern, web-based SSH console and key management tool. Bastillion gives you a clean, browser-based way to manage SSH access across all your systems. Think of it like a bastion host with a friendl... | `Java` ★ 3.4k | 2026-01-06 |
+| [thumbcacheviewer/thumbcacheviewer](https://github.com/thumbcacheviewer/thumbcacheviewer) | Thumbcache Viewer - Extract Windows Vista, Windows 7, Windows 8, Windows 8.1, and Windows 10 thumbcache database files. | `C++` ★ 150 | 2023-10-25 |
+| [liftoff/GateOne](https://github.com/liftoff/GateOne) | Gate One is an HTML5-powered terminal emulator and SSH client | `JavaScript` ★ 6.3k | 2023-03-17 |
+| [gravitational/teleport](https://github.com/gravitational/teleport) | The easiest, and most secure way to access and protect all of your infrastructure. | `Go` ★ 19.6k | 2026-01-10 |
+| [cluberti/VDI](https://github.com/cluberti/VDI) | Repository for VDI scripts | `Visual Basic` ★ 131 | 2018-08-29 |
+| [microsoft/WSL](https://github.com/microsoft/WSL) | Windows Subsystem for Linux | `C++` ★ 30.8k | 2026-01-11 |
+| [glyptodon/guacamole-server](https://github.com/glyptodon/guacamole-server) | The Guacamole project is now Apache Guacamole (http://guacamole.apache.org/). This repository has been repurposed as the base for the Apache Guacamole packages built for Glyptodon Enterprise. | `C` ★ 1k | 2023-07-17 |
+| [jobbyphp/jobby](https://github.com/jobbyphp/jobby) | Manage all your cron jobs without modifying crontab. Handles locking, logging, error emails, and more. | `PHP` ★ 1.1k | 2024-03-29 |
+| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 55.2k | 2026-01-10 |
+| [dthree/cash](https://github.com/dthree/cash) | Cross-platform Linux commands in ES6 | `JavaScript` ★ 7.8k | 2020-01-14 |
+| [chall32/WinCDP](https://github.com/chall32/WinCDP) | Cisco Discovery for Windows | ★ 62 | 2012-10-02 |
+| [vgough/encfs](https://github.com/vgough/encfs) | Enc FS: an Encrypted Filesystem for FUSE. | `C++` ★ 2.1k | 2026-01-10 |
+| [irontec/sngrep](https://github.com/irontec/sngrep) | Ncurses SIP Messages flow viewer | `C` ★ 1.1k | 2025-12-12 |
+| [cockpit-project/cockpit](https://github.com/cockpit-project/cockpit) | Cockpit is a web-based graphical interface for servers. | `JavaScript` ★ 13k | 2026-01-11 |
+| [netheril96/securefs](https://github.com/netheril96/securefs) | Filesystem in userspace (FUSE) with transparent authenticated encryption | `C++` ★ 807 | 2026-01-09 |
+| [hephaest0s/usbkill](https://github.com/hephaest0s/usbkill) | « usbkill » is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer. | `Python` ★ 4.6k | 2024-03-01 |
+| [babun/babun](https://github.com/babun/babun) | Babun - a Windows shell you will love! | `Shell` ★ 8.6k | 2019-06-11 |
+| [xiaolu/mkbootimg_tools](https://github.com/xiaolu/mkbootimg_tools) | Unpack and repack boot.img,support dtb(dt.img). | `Shell` ★ 576 | 2020-01-01 |
+| [phanan/htaccess](https://github.com/phanan/htaccess) | ✂A collection of useful .htaccess snippets. | ★ 13.3k | 2023-03-22 |
+| [noodle1983/putty-nd3.x](https://github.com/noodle1983/putty-nd3.x) | No description provided | `C++` ★ 65 | 2019-01-24 |
+| [perusio/php-ini-cleanup](https://github.com/perusio/php-ini-cleanup) | A script that cleans up the php.ini file with security in mind | `Awk` ★ 103 | 2013-07-30 |
+| [ajenti/ajenti](https://github.com/ajenti/ajenti) | Ajenti Core and stock plugins | `Python` ★ 7.9k | 2026-01-08 |
 | [akonkol/spur](https://github.com/akonkol/spur) | Spur is a web based network configuration manager. It allows you to ssh or telnet to any networked device (cisco routers, linux hosts,etc) and run commands through a web front-end. The results of t... | `Python` ★ 19 | 2012-08-07 |
 | [bashou/chevereto_simple_admin](https://github.com/bashou/chevereto_simple_admin) | Simple admin monitor for Chevereto 2.0+ | `PHP` ★ 1 | 2013-02-22 |
 | [noodle1983/putty-nd](https://github.com/noodle1983/putty-nd) | putty to my taste. Available via http://sourceforge.net/projects/putty-nd. | `C` ★ 71 | 2013-07-23 |

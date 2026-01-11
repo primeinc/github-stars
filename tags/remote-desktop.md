@@ -1,6 +1,6 @@
 # Tag: remote-desktop
 
-*2 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,3 +8,6 @@
 |---|---|---|---|
 | [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 7.6k | 2025-12-17 |
 | [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 33.5k | 2026-01-11 |
+| [games-on-whales/wolf](https://github.com/games-on-whales/wolf) | Stream virtual desktops and games running in Docker | `C++` ★ 1.5k | 2025-12-15 |
+| [Ulterius/server](https://github.com/Ulterius/server) | [WIP] Ulterius™ server where all the magic happens :rocket: :feelsgood: | `C#` ★ 594 | 2017-11-06 |
+| [glyptodon/guacamole-server](https://github.com/glyptodon/guacamole-server) | The Guacamole project is now Apache Guacamole (http://guacamole.apache.org/). This repository has been repurposed as the base for the Apache Guacamole packages built for Glyptodon Enterprise. | `C` ★ 1k | 2023-07-17 |

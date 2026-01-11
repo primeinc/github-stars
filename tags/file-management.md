@@ -1,6 +1,6 @@
 # Tag: file-management
 
-*5 repositories*
+*7 repositories*
 
 [← Back to Index](../README.md)
 
@@ -11,3 +11,5 @@
 | [gtsteffaniak/filebrowser](https://github.com/gtsteffaniak/filebrowser) | 📂 Web File Browser | `Go` ★ 5.9k | 2026-01-11 |
 | [opencloud-eu/opencloud](https://github.com/opencloud-eu/opencloud) | 🌤️ Open Cloud is the open source platform for file management, sharing and collaboration. Simple and sovereign. | `Go` ★ 4.6k | 2026-01-09 |
 | [iyaja/llama-fs](https://github.com/iyaja/llama-fs) | A self-organizing file system with llama 3 | `TypeScript` ★ 5.7k | 2025-08-08 |
+| [qarmin/czkawka](https://github.com/qarmin/czkawka) | Multi functional app to find duplicates, empty folders, similar images etc. | `Rust` ★ 28k | 2026-01-11 |
+| [ariccio/altWinDirStat](https://github.com/ariccio/altWinDirStat) | An unofficial modification of Win Dir Stat | `C++` ★ 628 | 2022-01-11 |

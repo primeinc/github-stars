@@ -1,6 +1,6 @@
 # Ui-libraries
 
-*73 repositories*
+*120 repositories*
 
 [← Back to Index](../README.md)
 
@@ -76,6 +76,53 @@
 | [puckeditor/puck](https://github.com/puckeditor/puck) | The visual editor for React | `TypeScript` ★ 10.3k | 2026-01-09 |
 | [usekaneo/kaneo](https://github.com/usekaneo/kaneo) | 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you. | `TypeScript` ★ 3.1k | 2026-01-11 |
 | [lepoco/wpfui](https://github.com/lepoco/wpfui) | WPF UI provides the Fluent experience in your known and loved WPF framework. Intuitive design, themes, navigation and new immersive controls. All natively and effortlessly. | `C#` ★ 9.1k | 2026-01-10 |
+| [GaspardCulis/slint-tetris](https://github.com/GaspardCulis/slint-tetris) | Tetris game made with Slint | `Rust` ★ 42 | 2023-05-26 |
+| [Surrealism-All/SurrealismUI](https://github.com/Surrealism-All/SurrealismUI) | A third-party UI library using Slint, I think it will give you an extraordinary experience | `Slint` ★ 352 | 2024-12-29 |
+| [LucasMali/sd-history-slider](https://github.com/LucasMali/sd-history-slider) | History Slider for Automatic 1111 SD to reverse the prompts. | `JavaScript` ★ 19 | 2023-07-18 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `Python` ★ 99.8k | 2026-01-11 |
+| [mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net) | 🎞 mpv.net is a media player for Windows with a modern GUI. | `C#` ★ 4.6k | 2026-01-09 |
+| [hometlt/png-metadata](https://github.com/hometlt/png-metadata) | read and write png metadata | `JavaScript` ★ 35 | 2023-05-30 |
+| [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) | Over 425 terminal color schemes/themes for i Term/i Term2. Includes ports to Terminal, Konsole, Pu TTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, Free BSD VT, Terminator, Kitty, Moba Xterm, ... | `Shell` ★ 26.3k | 2026-01-09 |
+| [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more | `CSS` ★ 61.2k | 2026-01-10 |
+| [gradio-app/gradio](https://github.com/gradio-app/gradio) | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! | `Python` ★ 41.3k | 2026-01-11 |
+| [marmelab/react-admin](https://github.com/marmelab/react-admin) | A frontend Framework for single-page applications on top of REST/Graph QL APIs, using Type Script, React and Material Design | `TypeScript` ★ 26.5k | 2026-01-09 |
+| [cinqmarsmedia/Chameleon-Video-Player](https://github.com/cinqmarsmedia/Chameleon-Video-Player) | A Non-Profit Video Utility | `JavaScript` ★ 14 | 2023-01-05 |
+| [Winand/breadcrumbsaddressbar](https://github.com/Winand/breadcrumbsaddressbar) | Py Qt6/Py Side6 breadcrumb navigation widget (WIP) | `Python` ★ 29 | 2025-03-26 |
+| [thomasloven/lovelace-auto-entities](https://github.com/thomasloven/lovelace-auto-entities) | 🔹Automatically populate the entities-list of lovelace cards | `TypeScript` ★ 1.7k | 2025-08-21 |
+| [artem-sedykh/mini-climate-card](https://github.com/artem-sedykh/mini-climate-card) | Minimalistic climate card for Home Assistant Lovelace UI | `JavaScript` ★ 314 | 2025-02-10 |
+| [dwainscheeren/dwains-lovelace-dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) | An fully auto generating Home Assistant UI dashboard for desktop, tablet and mobile by Dwains for desktop, tablet, mobile | `JavaScript` ★ 2k | 2025-09-01 |
+| [custom-cards/monster-card](https://github.com/custom-cards/monster-card) | ⚠️ DEPRECATED - MOVE TO AUTO-ENTITIES | `JavaScript` ★ 35 | 2019-11-12 |
+| [jimz011/homekit-infused](https://github.com/jimz011/homekit-infused) | Homekit Infused 5 2023 | ★ 898 | 2026-01-08 |
+| [PiotrMachowski/lovelace-xiaomi-vacuum-map-card](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card) | This card provides a user-friendly way to fully control map-based vacuums in Home Assistant. Supported brands include Xiaomi (Roborock/Viomi/Dreame/Roidmi/Valetudo/Valetudo RE), Neato, Wyze, Roomba... | `TypeScript` ★ 1.8k | 2025-11-17 |
+| [benct/lovelace-xiaomi-vacuum-card](https://github.com/benct/lovelace-xiaomi-vacuum-card) | Simple card for various robot vacuums in Home Assistant's Lovelace UI | `JavaScript` ★ 275 | 2023-01-18 |
+| [fabbr/MMM-Ecobee](https://github.com/fabbr/MMM-Ecobee) | Module for Magic Mirror that supports ecobee Thermostat | `JavaScript` ★ 5 | 2019-08-12 |
+| [fightforthefuture/battleforthenet-widget](https://github.com/fightforthefuture/battleforthenet-widget) | Embed this widget on your site and help save net neutrality! | `JavaScript` ★ 704 | 2019-02-04 |
+| [causefx/iDashboard-PHP](https://github.com/causefx/iDashboard-PHP) | HTPC Dashboard to load website services, written in PHP | `JavaScript` ★ 125 | 2017-04-17 |
+| [mikaelbr/node-notifier](https://github.com/mikaelbr/node-notifier) | A Node.js module for sending notifications on native Mac, Windows and Linux (or Growl as fallback) | `JavaScript` ★ 5.8k | 2024-06-24 |
+| [vincentbernat/dashkiosk](https://github.com/vincentbernat/dashkiosk) | Managing dashboards on various displays (especially those running on Android) | `JavaScript` ★ 371 | 2023-06-04 |
+| [gabrielrcouto/php-gui](https://github.com/gabrielrcouto/php-gui) | Extensionless PHP Graphic User Interface library | `PHP` ★ 2.2k | 2022-05-29 |
+| [teepluss/laravel-theme](https://github.com/teepluss/laravel-theme) | Theme and asset managing for laravel | `PHP` ★ 543 | 2021-08-26 |
+| [snowfire/Beautymail](https://github.com/snowfire/Beautymail) | Send beautiful HTML emails with Laravel | `Blade` ★ 1.3k | 2025-03-06 |
+| [select2/select2](https://github.com/select2/select2) | Select2 is a j Query based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results. | `JavaScript` ★ 26k | 2024-09-11 |
+| [500px/greedo-layout-for-android](https://github.com/500px/greedo-layout-for-android) | Full aspect ratio grid Layout Manager for Android's Recycler View | `Java` ★ 1.6k | 2022-06-21 |
+| [callmecavs/bricks.js](https://github.com/callmecavs/bricks.js) | A blazing fast masonry layout generator for fixed width elements. | `JavaScript` ★ 4.7k | 2019-04-11 |
+| [mdbootstrap/adminlte-laravel](https://github.com/mdbootstrap/adminlte-laravel) | A Laravel 5 package that switchs default Laravel scaffolding/boilerplate to Admin LTE template and Pratt Landing Page with Bootstrap 3.0 | `PHP` ★ 1.8k | 2025-10-23 |
+| [jgthms/bulma](https://github.com/jgthms/bulma) | Modern CSS framework based on Flexbox | `CSS` ★ 50k | 2025-12-03 |
+| [MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-) | A beautiful cross platform Desktop Player for Google Play Music | `JavaScript` ★ 8.2k | 2023-01-04 |
+| [firstfloorsoftware/mui](https://github.com/firstfloorsoftware/mui) | Modern UI for WPF | `C#` ★ 2.6k | 2021-07-27 |
+| [moezbhatti/qksms](https://github.com/moezbhatti/qksms) | The most beautiful SMS messenger for Android | `Kotlin` ★ 4.6k | 2023-06-02 |
+| [ppamorim/Cult](https://github.com/ppamorim/Cult) | Toolbar is so boring | `Java` ★ 482 | 2016-03-25 |
+| [MikeOrtiz/TouchImageView](https://github.com/MikeOrtiz/TouchImageView) | Adds touch functionality to Android Image View. | `Kotlin` ★ 2.8k | 2025-12-17 |
+| [moagrius/isOnScreen](https://github.com/moagrius/isOnScreen) | Simple j Query plugin to determine if an element is within the viewport | `JavaScript` ★ 120 | 2018-01-10 |
+| [dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe) | Java Script image gallery for mobile and desktop, modular, framework independent | `JavaScript` ★ 25k | 2025-12-04 |
+| [metafizzy/infinite-scroll](https://github.com/metafizzy/infinite-scroll) | 📜 Automatically add next page | `HTML` ★ 7.5k | 2025-03-08 |
+| [Dogfalo/materialize](https://github.com/Dogfalo/materialize) | Materialize, a CSS Framework based on Material Design | `JavaScript` ★ 39.2k | 2025-08-10 |
+| [mui/material-ui](https://github.com/mui/material-ui) | Material UI: Comprehensive React component library that implements Google's Material Design. Free forever. | `JavaScript` ★ 97.6k | 2026-01-11 |
+| [filp/whoops](https://github.com/filp/whoops) | PHP errors for cool kids | `PHP` ★ 13.3k | 2025-11-28 |
+| [t4t5/sweetalert](https://github.com/t4t5/sweetalert) | A beautiful replacement for Java Script's "alert" | `TypeScript` ★ 22.4k | 2023-04-15 |
+| [mackstann/binpack](https://github.com/mackstann/binpack) | 2D bin-packing using Java Script + canvas | ★ 82 | 2010-10-11 |
+| [twbs/bootstrap](https://github.com/twbs/bootstrap) | The most popular HTML, CSS, and Java Script framework for developing responsive, mobile first projects on the web. | `MDX` ★ 173.9k | 2026-01-10 |
+| [tariqbuilds/linux-dash](https://github.com/tariqbuilds/linux-dash) | A beautiful web dashboard for Linux | `JavaScript` ★ 10.6k | 2024-04-16 |
 | [syntaxhighlighter/syntaxhighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter) | Syntax Highlighter is a fully functional self-contained code syntax highlighter developed in Java Script. | `JavaScript` ★ 5.3k | 2020-04-18 |
 | [Kukunin/jquery-endless-scroll](https://github.com/Kukunin/jquery-endless-scroll) | Implementation for infinity scroll using j Query. It is unobtrusive, has module structure for easy extending and overriding | `JavaScript` ★ 2 | 2013-08-13 |
 | [fredwu/jquery-endless-scroll](https://github.com/fredwu/jquery-endless-scroll) | Endless/infinite scrolling/pagination. | `CoffeeScript` ★ 841 | 2017-07-29 |

@@ -1,6 +1,6 @@
 # Ai-ml
 
-*205 repositories*
+*267 repositories*
 
 [← Back to Index](../README.md)
 
@@ -210,6 +210,68 @@
 | [NousResearch/DisTrO](https://github.com/NousResearch/DisTrO) | Distributed Training Over-The-Internet | ★ 973 | 2025-10-14 |
 | [NousResearch/Hermes-Function-Calling](https://github.com/NousResearch/Hermes-Function-Calling) | No description provided | `Jupyter Notebook` ★ 1.2k | 2025-12-22 |
 | [microsoft/mcp](https://github.com/microsoft/mcp) | Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration | `C#` ★ 2.4k | 2026-01-10 |
+| [MycroftAI/mycroft-core](https://github.com/MycroftAI/mycroft-core) | Mycroft Core, the Mycroft Artificial Intelligence platform. | `Python` ★ 6.6k | 2024-09-08 |
+| [takoyaro/db-storage1111](https://github.com/takoyaro/db-storage1111) | automatic1111's stable-diffusion-webui extension for storing images to a database | `Python` ★ 49 | 2023-10-02 |
+| [papuSpartan/stable-diffusion-webui-distributed](https://github.com/papuSpartan/stable-diffusion-webui-distributed) | Chains stable-diffusion-webui instances together to facilitate faster image generation. | `Python` ★ 182 | 2025-02-24 |
+| [jtydhr88/sd-3dmodel-loader](https://github.com/jtydhr88/sd-3dmodel-loader) | A custom extension for stable diffusion webui to load local 3D model/animation | `JavaScript` ★ 246 | 2023-09-12 |
+| [serengil/deepface](https://github.com/serengil/deepface) | A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python | `Python` ★ 21.5k | 2026-01-06 |
+| [ForeverPs/content-aware-rotation](https://github.com/ForeverPs/content-aware-rotation) | Implementation of Kaiming He's Paper Content-Aware Rotation on ICCV 2013 | `Python` ★ 36 | 2021-03-01 |
+| [ali-vilab/videocomposer](https://github.com/ali-vilab/videocomposer) | Official repo for Video Composer: Compositional Video Synthesis with Motion Controllability | `Python` ★ 949 | 2023-11-11 |
+| [Sxela/WarpFusion](https://github.com/Sxela/WarpFusion) | Warp Fusion | `Batchfile` ★ 1k | 2025-04-27 |
+| [d8ahazard/sd_smartprocess](https://github.com/d8ahazard/sd_smartprocess) | Smart Pre-processing extension for Stable Diffusion | `Python` ★ 198 | 2024-07-19 |
+| [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) | Chat with your documents on your local device using GPT models. No data leaves your device and 100% private. | `Python` ★ 22k | 2025-10-02 |
+| [xaviviro/refacer](https://github.com/xaviviro/refacer) | Refacer: One-Click Deepfake Multi-Face Swap Tool | `Python` ★ 575 | 2023-06-27 |
+| [iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab) | Deep Face Lab is the leading software for creating deepfakes. | `Python` ★ 18.9k | 2024-11-13 |
+| [deepinsight/insightface](https://github.com/deepinsight/insightface) | State-of-the-art 2D and 3D Face Analysis Project | `Python` ★ 27.5k | 2025-11-25 |
+| [SkalskiP/make-sense](https://github.com/SkalskiP/make-sense) | Free to use online tool for labelling photos. https://makesense.ai | `TypeScript` ★ 3.5k | 2024-08-15 |
+| [Cartucho/OpenLabeling](https://github.com/Cartucho/OpenLabeling) | Label images and video for Computer Vision applications | `Python` ★ 954 | 2022-07-06 |
+| [LucasMali/sd-history-slider](https://github.com/LucasMali/sd-history-slider) | History Slider for Automatic 1111 SD to reverse the prompts. | `JavaScript` ★ 19 | 2023-07-18 |
+| [ruvnet/Swagger-ChatGPT-Plugin-Creator](https://github.com/ruvnet/Swagger-ChatGPT-Plugin-Creator) | Chat GPT Plugin Creator is an open-source project that helps you convert Swagger specifications into Chat GPT plugins | `HTML` ★ 40 | 2023-04-06 |
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | Label Studio is a multi-type data labeling and annotation tool with standardized output format | `TypeScript` ★ 26.1k | 2026-01-11 |
+| [HumanSignal/labelImg](https://github.com/HumanSignal/labelImg) | Label Img is now part of the Label Studio community. The popular image annotation tool created by Tzutalin is no longer actively being developed, but you can check out Label Studio, the open source... | `Python` ★ 24.7k | 2024-06-07 |
+| [SipherAGI/sd-webui-agent-scheduler](https://github.com/SipherAGI/sd-webui-agent-scheduler) | An open source Scheduling Agent for Generative AI | `Python` ★ 689 | 2025-01-13 |
+| [s0md3v/sd-webui-roop](https://github.com/s0md3v/sd-webui-roop) | roop extension for Stable Diffusion web-ui | `Python` ★ 3.5k | 2024-04-01 |
+| [voxel51/voxelgpt](https://github.com/voxel51/voxelgpt) | AI assistant that can query visual datasets, search the Fifty One docs, and answer general computer vision questions | `Python` ★ 250 | 2024-12-06 |
+| [pkuliyi2015/multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111) | Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0 | `Python` ★ 5k | 2024-08-07 |
+| [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | SD.Next: All-in-one Web UI for AI generative image and video creation | `Python` ★ 6.9k | 2026-01-11 |
+| [rohitrango/automatic-watermark-detection](https://github.com/rohitrango/automatic-watermark-detection) | Project for Digital Image Processing | `Jupyter Notebook` ★ 1.2k | 2022-05-22 |
+| [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) | The definitive Web UI for local AI, with powerful features and easy setup. | `Python` ★ 45.8k | 2026-01-08 |
+| [nhshin-mcl/MWR](https://github.com/nhshin-mcl/MWR) | No description provided | `Python` ★ 86 | 2023-05-05 |
+| [open-mmlab/Multimodal-GPT](https://github.com/open-mmlab/Multimodal-GPT) | Multimodal-GPT | `Python` ★ 1.5k | 2023-06-04 |
+| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Auto GPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. | `Python` ★ 181k | 2026-01-10 |
+| [Zetaphor/PromptHub](https://github.com/Zetaphor/PromptHub) | Prompt history and management for the Stable Diffusion AUTOMATIC1111 Web UI | `JavaScript` ★ 35 | 2023-03-26 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `Python` ★ 99.8k | 2026-01-11 |
+| [lencx/ChatGPT](https://github.com/lencx/ChatGPT) | 🔮 Chat GPT Desktop Application (Mac, Windows and Linux) | `Rust` ★ 54.4k | 2024-08-29 |
+| [NVlabs/prismer](https://github.com/NVlabs/prismer) | The implementation of "Prismer: A Vision-Language Model with Multi-Task Experts". | `Python` ★ 1.3k | 2024-01-17 |
+| [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss) | No description provided | `Python` ★ 11.8k | 2026-01-01 |
+| [mattjaybe/sd-wildcards](https://github.com/mattjaybe/sd-wildcards) | A collection of wildcards for Stable Diffusion | ★ 315 | 2024-05-27 |
+| [civitai/sd_civitai_extension](https://github.com/civitai/sd_civitai_extension) | All of the Civitai models inside Automatic 1111 Stable Diffusion Web UI | `Python` ★ 2.4k | 2024-07-17 |
+| [hnmr293/posex](https://github.com/hnmr293/posex) | Posex - Estimated Image Generator for Pose2Image | `JavaScript` ★ 594 | 2024-02-03 |
+| [cocktailpeanut/breadboard](https://github.com/cocktailpeanut/breadboard) | Stable Diffusion Browser for Windows, Mac, and Linux | `JavaScript` ★ 399 | 2024-03-17 |
+| [jflam/chat-gpt-jupyter-extension](https://github.com/jflam/chat-gpt-jupyter-extension) | A browser extension that lets you chat with Chat GPT from any local Jupyter notebook. | `Jupyter Notebook` ★ 273 | 2023-01-08 |
+| [zero01101/openOutpaint-webUI-extension](https://github.com/zero01101/openOutpaint-webUI-extension) | direct A1111 web UI extension for open Outpaint | `JavaScript` ★ 409 | 2024-08-31 |
+| [IrisRainbowNeko/DreamArtist-sd-webui-extension](https://github.com/IrisRainbowNeko/DreamArtist-sd-webui-extension) | Dream Artist for Stable-Diffusion-webui extension | `Python` ★ 691 | 2023-11-08 |
+| [d8ahazard/sd_dreambooth_extension](https://github.com/d8ahazard/sd_dreambooth_extension) | No description provided | `Python` ★ 1.9k | 2025-09-17 |
+| [devilismyfriend/StableTuner](https://github.com/devilismyfriend/StableTuner) | Finetuning SD in style. | `Python` ★ 681 | 2023-04-01 |
+| [FlagAI-Open/FlagAI](https://github.com/FlagAI-Open/FlagAI) | Flag AI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model. | `Python` ★ 3.9k | 2025-11-11 |
+| [Maks-s/sd-akashic](https://github.com/Maks-s/sd-akashic) | A compendium of informations regarding Stable Diffusion (SD) | ★ 1.6k | 2023-03-08 |
+| [krea-ai/open-prompts](https://github.com/krea-ai/open-prompts) | No description provided | `Python` ★ 793 | 2022-09-22 |
+| [Sanster/IOPaint](https://github.com/Sanster/IOPaint) | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures. | `Python` ★ 22.6k | 2025-04-29 |
+| [jas3333/GPT-Helper](https://github.com/jas3333/GPT-Helper) | No description provided | `JavaScript` ★ 135 | 2023-03-16 |
+| [guaneec/custom-diffusion-webui](https://github.com/guaneec/custom-diffusion-webui) | An unofficial implementation of Custom Diffusion for Automatic1111's Web UI. | `Python` ★ 70 | 2023-07-17 |
+| [Zyin055/Inspect-Embedding-Training](https://github.com/Zyin055/Inspect-Embedding-Training) | Python script to analyze textual inversion embedding files used with AI image generators | `Python` ★ 102 | 2023-12-18 |
+| [ThereforeGames/unprompted](https://github.com/ThereforeGames/unprompted) | Templating language written for Stable Diffusion workflows. Available as an extension for the Automatic1111 Web UI. | `Python` ★ 807 | 2024-07-29 |
+| [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Stable Diffusion web UI | `Python` ★ 159.8k | 2025-12-18 |
+| [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) | Reverse engineered Chat GPT API | `Python` ★ 28k | 2023-08-02 |
+| [gradio-app/gradio](https://github.com/gradio-app/gradio) | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! | `Python` ★ 41.3k | 2026-01-11 |
+| [enhuiz/vall-e](https://github.com/enhuiz/vall-e) | An unofficial Py Torch implementation of the audio LM VALL-E | `Python` ★ 3k | 2023-05-10 |
+| [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | Open Assistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | `Python` ★ 37.5k | 2024-08-17 |
+| [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | Clone a voice in 5 seconds to generate arbitrary speech in real-time | `Python` ★ 59.2k | 2025-12-15 |
+| [Breakthrough/PySceneDetect](https://github.com/Breakthrough/PySceneDetect) | :movie_camera: Python and Open CV-based scene cut/transition detection program & library. | `Python` ★ 4.5k | 2025-12-11 |
+| [bwsw/rt-motion-detection-opencv-python](https://github.com/bwsw/rt-motion-detection-opencv-python) | High-performance noise-tolerant motion detection algorithm implemented with Python3, Numba, Numpy | `C` ★ 122 | 2022-04-06 |
+| [netdata/netdata](https://github.com/netdata/netdata) | The fastest path to AI-powered full stack observability, even for lean teams. | `C` ★ 77.3k | 2026-01-11 |
+| [rhsimplex/image-match](https://github.com/rhsimplex/image-match) | 🎇 Quickly search over billions of images | `Python` ★ 3k | 2022-12-06 |
+| [jeremyFreeAgent/Bitter](https://github.com/jeremyFreeAgent/Bitter) | Bitter is a simple but powerful analytics library | `PHP` ★ 128 | 2013-09-19 |
 | [jedisct1/libpuzzle](https://github.com/jedisct1/libpuzzle) | A library to quickly find visually similar images | `C` ★ 267 | 2017-08-11 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

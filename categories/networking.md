@@ -1,6 +1,6 @@
 # Networking
 
-*50 repositories*
+*77 repositories*
 
 [← Back to Index](../README.md)
 
@@ -53,6 +53,33 @@
 | [Prowlarr/Prowlarr](https://github.com/Prowlarr/Prowlarr) | Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps, supporting management of both Torrent Trackers and Usenet Indexers. | `C#` ★ 5.8k | 2026-01-11 |
 | [XTXMarkets/ternfs](https://github.com/XTXMarkets/ternfs) | An exabyte-scale, multi-region distributed file system | `C++` ★ 1.3k | 2026-01-09 |
 | [Gregivy/simpleddp](https://github.com/Gregivy/simpleddp) | An easy to use DDP client library | `JavaScript` ★ 167 | 2022-12-07 |
+| [srn/nvapi-node](https://github.com/srn/nvapi-node) | Native C++ module for interfacing with NVIDIA NVAPI | `C++` ★ 4 | 2020-12-23 |
+| [SoCo/SoCo](https://github.com/SoCo/SoCo) | So Co (Sonos Controller) is a Python project that allows you to programmatically control Sonos speakers. | `Python` ★ 1.6k | 2025-12-31 |
+| [AdamLaurie/hdmi-sniff](https://github.com/AdamLaurie/hdmi-sniff) | sniff HDMI DDC (I2C) traffic | `Python` ★ 95 | 2014-08-27 |
+| [dtcooper/raspotify](https://github.com/dtcooper/raspotify) | A Spotify Connect client that mostly Just Works™ | `Shell` ★ 5.1k | 2025-12-02 |
+| [timmbogner/Farm-Data-Relay-System](https://github.com/timmbogner/Farm-Data-Relay-System) | A system that uses ESP-NOW, Lo Ra, and other protocols to transport sensor data in remote areas without relying on Wi Fi. | `C` ★ 584 | 2025-04-01 |
+| [KjetilSv/Win10As](https://github.com/KjetilSv/Win10As) | Make your windows 10 computer IOT friendly | `C#` ★ 233 | 2022-12-08 |
+| [zonemaster/zonemaster](https://github.com/zonemaster/zonemaster) | The Zonemaster Project | `Perl` ★ 516 | 2025-12-20 |
+| [geekuillaume/soundsync](https://github.com/geekuillaume/soundsync) | Virtual cables between any audio source and any speaker in your home | `C` ★ 890 | 2023-03-04 |
+| [home-assistant/core](https://github.com/home-assistant/core) | :house_with_garden: Open source home automation that puts local control and privacy first. | `Python` ★ 84.1k | 2026-01-11 |
+| [alsmith/multicast-relay](https://github.com/alsmith/multicast-relay) | Relay multicast and broadcast packets between interfaces. | `Python` ★ 351 | 2023-11-05 |
+| [netbox-community/netbox](https://github.com/netbox-community/netbox) | The premier source of truth powering network automation. Open source under Apache 2. Try Net Box Cloud free: https://netboxlabs.com/products/free-netbox-cloud/ | `Python` ★ 19.5k | 2026-01-11 |
+| [dxa4481/WPA2-HalfHandshake-Crack](https://github.com/dxa4481/WPA2-HalfHandshake-Crack) | This is a POC to show it is possible to capture enough of a handshake with a user from a fake AP to crack a WPA2 network without knowing the passphrase of the actual AP. | `Python` ★ 593 | 2022-03-03 |
+| [liftoff/GateOne](https://github.com/liftoff/GateOne) | Gate One is an HTML5-powered terminal emulator and SSH client | `JavaScript` ★ 6.3k | 2023-03-17 |
+| [glyptodon/guacamole-server](https://github.com/glyptodon/guacamole-server) | The Guacamole project is now Apache Guacamole (http://guacamole.apache.org/). This repository has been repurposed as the base for the Apache Guacamole packages built for Glyptodon Enterprise. | `C` ★ 1k | 2023-07-17 |
+| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 55.2k | 2026-01-10 |
+| [chall32/WinCDP](https://github.com/chall32/WinCDP) | Cisco Discovery for Windows | ★ 62 | 2012-10-02 |
+| [matbeedotcom/chromecast-audio-stream](https://github.com/matbeedotcom/chromecast-audio-stream) | Stream your Windows PC's audio to the Chromecast | `JavaScript` ★ 968 | 2020-03-26 |
+| [AmirAzodi/cloudflare_ddns](https://github.com/AmirAzodi/cloudflare_ddns) | Python-based Dynamic DNS client for Cloud Flare. | `Python` ★ 59 | 2017-09-21 |
+| [irontec/sngrep](https://github.com/irontec/sngrep) | Ncurses SIP Messages flow viewer | `C` ★ 1.1k | 2025-12-12 |
+| [bangordailynews/Public-FreePBX-hacks](https://github.com/bangordailynews/Public-FreePBX-hacks) | No description provided | `PHP` ★ 3 | 2015-08-14 |
+| [syncthing/syncthing](https://github.com/syncthing/syncthing) | Open Source Continuous File Synchronization | `Go` ★ 79k | 2026-01-06 |
+| [robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan) | TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. | `C` ★ 25.2k | 2025-06-05 |
+| [shazow/ssh-chat](https://github.com/shazow/ssh-chat) | Chat over SSH. | `Go` ★ 5.8k | 2026-01-10 |
+| [noodle1983/putty-nd3.x](https://github.com/noodle1983/putty-nd3.x) | No description provided | `C++` ★ 65 | 2019-01-24 |
+| [redis/redis](https://github.com/redis/redis) | For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine. | `C` ★ 72.5k | 2026-01-09 |
+| [slate/slate](https://github.com/slate/slate) | Slate IRC client | `JavaScript` ★ 1.9k | 2014-05-30 |
+| [64characters/Telephone](https://github.com/64characters/Telephone) | SIP softphone for Mac | `Swift` ★ 1.1k | 2024-11-29 |
 | [akonkol/spur](https://github.com/akonkol/spur) | Spur is a web based network configuration manager. It allows you to ssh or telnet to any networked device (cisco routers, linux hosts,etc) and run commands through a web front-end. The results of t... | `Python` ★ 19 | 2012-08-07 |
 | [unifi-hackers/unifi-lab](https://github.com/unifi-hackers/unifi-lab) | (THIS project IS DORMANT: Please have a look at calmh/unifi-api instead, which is cleaner) Add some extra spice to your Ubiquiti Uni Fi wifi network! | `Python` ★ 106 | 2016-02-11 |
 | [noodle1983/putty-nd](https://github.com/noodle1983/putty-nd) | putty to my taste. Available via http://sourceforge.net/projects/putty-nd. | `C` ★ 71 | 2013-07-23 |

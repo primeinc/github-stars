@@ -1,6 +1,6 @@
 # Tag: prompts
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,3 +8,4 @@
 |---|---|---|---|
 | [pnp/copilot-prompts](https://github.com/pnp/copilot-prompts) | Examples of prompts for Microsoft Copilot | ★ 493 | 2026-01-04 |
 | [kalivaraprasad-gonapa/react-mcp](https://github.com/kalivaraprasad-gonapa/react-mcp) | react-mcp integrates with Claude Desktop, enabling the creation and modification of React apps based on user prompts | `JavaScript` ★ 61 | 2025-10-31 |
+| [krea-ai/open-prompts](https://github.com/krea-ai/open-prompts) | No description provided | `Python` ★ 793 | 2022-09-22 |

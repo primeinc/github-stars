@@ -1,6 +1,6 @@
 # Productivity
 
-*160 repositories*
+*251 repositories*
 
 [← Back to Index](../README.md)
 
@@ -163,6 +163,97 @@
 | [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page_facing_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 26k | 2025-12-31 |
 | [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | 😎 A curated list of awesome Git Hub Profile which updates in real time | ★ 28.9k | 2024-08-19 |
 | [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: | ★ 80.1k | 2024-07-29 |
+| [PikeNote/taskbar-groups-pike-beta](https://github.com/PikeNote/taskbar-groups-pike-beta) | Lightweight application that lets users create and pin groups to the Windows taskbar och desktop | `C#` ★ 166 | 2023-02-13 |
+| [tjackenpacken/taskbar-groups](https://github.com/tjackenpacken/taskbar-groups) | Lightweight utility for organizing the taskbar through groups | `C#` ★ 2.7k | 2024-07-04 |
+| [pyenv/pyenv](https://github.com/pyenv/pyenv) | Simple Python version management | `Roff` ★ 44k | 2026-01-10 |
+| [Mortalitas/GShade](https://github.com/Mortalitas/GShade) | GShade is a highly modified Re Shade fork & utility package with numerous improvements and settings autodetection for over 300 games. | `HLSL` ★ 483 | 2025-10-15 |
+| [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) | Chat with your documents on your local device using GPT models. No data leaves your device and 100% private. | `Python` ★ 22k | 2025-10-02 |
+| [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) | A source-available invoice, quote, project and time-tracking app built with Laravel | `PHP` ★ 9.5k | 2026-01-07 |
+| [marius-sucan/AHK-GDIp-Library-Compilation](https://github.com/marius-sucan/AHK-GDIp-Library-Compilation) | Gdip_All library mega-compilation of user contributions, compatible with AHK v1.1 and AHK v2 | `AutoHotkey` ★ 102 | 2025-03-09 |
+| [intel/intel-one-mono](https://github.com/intel/intel-one-mono) | Intel One Mono font repository | ★ 9.8k | 2025-09-08 |
+| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Auto GPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. | `Python` ★ 181k | 2026-01-10 |
+| [XeroxDev/Loupedeck-plugin-Template](https://github.com/XeroxDev/Loupedeck-plugin-Template) | this is a Loupedeck .NET template and I've created this so it is easier and more productive for me, to create Loupedeck Windows Plugins and release them to my users. | `C#` ★ 15 | 2022-05-12 |
+| [Loupedeck/SpotifyPremiumPlugin](https://github.com/Loupedeck/SpotifyPremiumPlugin) | A sample plugin for the Loupedeck software, based on the Loupedeck Plugin SDK | `C#` ★ 6 | 2023-05-22 |
+| [jNizM/NVIDIA_NvAPI](https://github.com/jNizM/NVIDIA_NvAPI) | Converted Nv API-Functions | `AutoHotkey` ★ 38 | 2023-08-18 |
+| [KovaaK/NVidiaHotkeys](https://github.com/KovaaK/NVidiaHotkeys) | Script to change nvidia's Digital Vibrance and Hue settings by pressing hotkeys | `AutoHotkey` ★ 26 | 2019-06-30 |
+| [mpv-player/mpv](https://github.com/mpv-player/mpv) | 🎥 Command line media player | `C` ★ 33.4k | 2026-01-11 |
+| [SoCo/SoCo](https://github.com/SoCo/SoCo) | So Co (Sonos Controller) is a Python project that allows you to programmatically control Sonos speakers. | `Python` ★ 1.6k | 2025-12-31 |
+| [starik222/BooruDatasetTagManager](https://github.com/starik222/BooruDatasetTagManager) | No description provided | `C#` ★ 1.8k | 2025-12-11 |
+| [bcpierce00/unison](https://github.com/bcpierce00/unison) | Unison file synchronizer | `OCaml` ★ 5k | 2025-12-01 |
+| [devilismyfriend/StableTuner](https://github.com/devilismyfriend/StableTuner) | Finetuning SD in style. | `Python` ★ 681 | 2023-04-01 |
+| [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) | Bring mac OS “Quick Look” feature to Windows | `C#` ★ 21.9k | 2026-01-07 |
+| [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) | Everything integration for the Windows taskbar. | `C#` ★ 13.1k | 2026-01-05 |
+| [hwtnb/SylphyHornPlusWin11](https://github.com/hwtnb/SylphyHornPlusWin11) | Virtual Desktop Tools for Windows 11 and 10. | `C#` ★ 402 | 2024-12-24 |
+| [dankrusi/WindowsVirtualDesktopHelper](https://github.com/dankrusi/WindowsVirtualDesktopHelper) | App to help manage Virtual Desktops for Windows 10 and Windows 11 | `C#` ★ 776 | 2025-08-20 |
+| [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) | Over 425 terminal color schemes/themes for i Term/i Term2. Includes ports to Terminal, Konsole, Pu TTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, Free BSD VT, Terminator, Kitty, Moba Xterm, ... | `Shell` ★ 26.3k | 2026-01-09 |
+| [starship/starship](https://github.com/starship/starship) | ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell! | `Rust` ★ 53.4k | 2026-01-11 |
+| [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more | `CSS` ★ 61.2k | 2026-01-10 |
+| [MKme/XtoolD1](https://github.com/MKme/XtoolD1) | XTool D1 Laser Cutter/Engraver 10W | `G-code` ★ 6 | 2022-06-06 |
+| [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder) | Video Duplicate Finder - Crossplatform | `C#` ★ 2.8k | 2026-01-04 |
+| [qarmin/czkawka](https://github.com/qarmin/czkawka) | Multi functional app to find duplicates, empty folders, similar images etc. | `Rust` ★ 28k | 2026-01-11 |
+| [BigJk/snd](https://github.com/BigJk/snd) | Sales & Dungeons — Thermal Printer as D&D / TTRPG Utility | `TypeScript` ★ 589 | 2025-12-15 |
+| [files-community/Files](https://github.com/files-community/Files) | A modern file manager that helps users organize their files and folders. | `C#` ★ 41.1k | 2026-01-11 |
+| [mikemackintosh/stickers](https://github.com/mikemackintosh/stickers) | A Gmail labeling tool for your Google Workspaces org | `Go` ★ 5 | 2021-04-12 |
+| [ColonolNutty/s4cl-template-project](https://github.com/ColonolNutty/s4cl-template-project) | A template that can be used as a starting point for working with S4CL | `Python` ★ 38 | 2021-11-26 |
+| [outline/outline](https://github.com/outline/outline) | The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible. | `TypeScript` ★ 36.6k | 2026-01-11 |
+| [pg07codes/fokus](https://github.com/pg07codes/fokus) | react web app to help you become more productive :fire: and efficient with time:star2: | `JavaScript` ★ 156 | 2023-07-01 |
+| [rcmaehl/MSEdgeRedirect](https://github.com/rcmaehl/MSEdgeRedirect) | A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Browser | `AutoIt` ★ 5.6k | 2025-12-23 |
+| [unlimitedbacon/stl-thumb](https://github.com/unlimitedbacon/stl-thumb) | Thumbnail generator for STL files | `Rust` ★ 1.4k | 2025-03-11 |
+| [avi12/skillshare-player-control](https://github.com/avi12/skillshare-player-control) | Basic keyboard controls for Skillshare's player. | `TypeScript` ★ 11 | 2024-12-02 |
+| [waltmoorhouse/OctoPrint-Filamentstorage](https://github.com/waltmoorhouse/OctoPrint-Filamentstorage) | Octo Print Plugin for an Open Source Filament Storage system. | `Python` ★ 23 | 2022-02-28 |
+| [klassicstudios/Bonarr](https://github.com/klassicstudios/Bonarr) | A fork of Radarr to work with porn. | `C#` ★ 152 | 2017-09-27 |
+| [hydrusnetwork/hydrus](https://github.com/hydrusnetwork/hydrus) | A personal booru-style media tagger that can import files and tags from your hard drive and popular websites. Content can be shared with other users via user-run servers. | `Python` ★ 2.9k | 2026-01-10 |
+| [Jpja/FFmpeg-Detect-Copy-Motion](https://github.com/Jpja/FFmpeg-Detect-Copy-Motion) | Detects motion in video files, and copies to new, separate video clips. | `Python` ★ 61 | 2022-06-25 |
+| [leemunroe/responsive-html-email-template](https://github.com/leemunroe/responsive-html-email-template) | A free simple responsive HTML email template | `HTML` ★ 13.7k | 2024-08-20 |
+| [morpheus65535/bazarr](https://github.com/morpheus65535/bazarr) | Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of every... | `Python` ★ 3.7k | 2026-01-11 |
+| [jpginc/windows10DesktopManager](https://github.com/jpginc/windows10DesktopManager) | An autohotkey desktop manager | `AutoHotkey` ★ 166 | 2021-07-10 |
+| [Radarr/Radarr](https://github.com/Radarr/Radarr) | Movie organizer/manager for usenet and torrent users. | `C#` ★ 12.8k | 2026-01-07 |
+| [Tautulli/Tautulli](https://github.com/Tautulli/Tautulli) | A Python based monitoring and tracking tool for Plex Media Server. | `Python` ★ 6.3k | 2025-12-23 |
+| [mikaelbr/node-notifier](https://github.com/mikaelbr/node-notifier) | A Node.js module for sending notifications on native Mac, Windows and Linux (or Growl as fallback) | `JavaScript` ★ 5.8k | 2024-06-24 |
+| [dfinke/ImportExcel](https://github.com/dfinke/ImportExcel) | Power Shell module to import/export Excel spreadsheets, without Excel | `PowerShell` ★ 2.7k | 2025-12-26 |
+| [mattermost/mattermost](https://github.com/mattermost/mattermost) | Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.. | `TypeScript` ★ 34.9k | 2026-01-10 |
+| [nilportugues/sql-repository](https://github.com/nilportugues/sql-repository) | [PHP 7] SQL Repository implementation | `PHP` ★ 36 | 2017-03-13 |
+| [Unfundednut/AutoHotkeyNotify](https://github.com/Unfundednut/AutoHotkeyNotify) | Desktop program that pops up a notice. Used for quick mass communication. | `AutoHotkey` ★ 33 | 2016-08-02 |
+| [cheat/cheat](https://github.com/cheat/cheat) | cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not ... | `Go` ★ 13.1k | 2024-07-29 |
+| [tonsky/FiraCode](https://github.com/tonsky/FiraCode) | Free monospaced font with programming ligatures | `Clojure` ★ 80.9k | 2025-12-06 |
+| [allynbauer/statuspanic](https://github.com/allynbauer/statuspanic) | A PHP clone of Panic's status board | `PHP` ★ 469 | 2014-02-02 |
+| [vincentbernat/dashkiosk](https://github.com/vincentbernat/dashkiosk) | Managing dashboards on various displays (especially those running on Android) | `JavaScript` ★ 371 | 2023-06-04 |
+| [MikeShepard/VisioBot3000](https://github.com/MikeShepard/VisioBot3000) | Simple Visio Automation from Powershell | `PowerShell` ★ 51 | 2025-07-17 |
+| [flashtag/flashtag-php](https://github.com/flashtag/flashtag-php) | Flashtag content management platform | `PHP` ★ 30 | 2016-05-10 |
+| [themsaid/laravel-langman](https://github.com/themsaid/laravel-langman) | Language files manager in your artisan console. | `PHP` ★ 878 | 2024-03-30 |
+| [php-pm/php-pm](https://github.com/php-pm/php-pm) | PPM is a process manager, supercharger and load balancer for modern PHP applications. | `PHP` ★ 6.6k | 2023-12-08 |
+| [SpartnerNL/Laravel-Excel](https://github.com/SpartnerNL/Laravel-Excel) | 🚀 Supercharged Excel exports and imports in Laravel | `PHP` ★ 12.6k | 2025-12-04 |
+| [michaeldyrynda/phpstorm-laravel-code-style](https://github.com/michaeldyrynda/phpstorm-laravel-code-style) | Php Storm code style to meet Laravel's contribution guidelines | ★ 293 | 2017-05-16 |
+| [FrozenNode/Laravel-Administrator](https://github.com/FrozenNode/Laravel-Administrator) | An administrative interface package for Laravel | `PHP` ★ 1.9k | 2020-09-08 |
+| [thephpleague/flysystem](https://github.com/thephpleague/flysystem) | Abstraction for local and remote filesystems | `PHP` ★ 13.5k | 2025-11-10 |
+| [hirak/prestissimo](https://github.com/hirak/prestissimo) | composer parallel install plugin | `PHP` ★ 6.1k | 2022-12-03 |
+| [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) | Smart PVR for newsgroup and bittorrent users. | `C#` ★ 13k | 2026-01-07 |
+| [ShareX/ShareX](https://github.com/ShareX/ShareX) | Share X is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file typ... | `C#` ★ 35.1k | 2026-01-02 |
+| [ariccio/altWinDirStat](https://github.com/ariccio/altWinDirStat) | An unofficial modification of Win Dir Stat | `C++` ★ 628 | 2022-01-11 |
+| [hitherejoe/Android-Boilerplate](https://github.com/hitherejoe/Android-Boilerplate) | Android Boilerplate project using Rx Java, Dagger 2, Espresso, Mockito + more! | `Java` ★ 1.9k | 2020-10-24 |
+| [ivopetkov/responsively-lazy](https://github.com/ivopetkov/responsively-lazy) | Lazy load responsive images and HTML | `JavaScript` ★ 1.1k | 2025-09-09 |
+| [kriswallsmith/assetic](https://github.com/kriswallsmith/assetic) | Asset Management for PHP | `PHP` ★ 3.7k | 2022-02-03 |
+| [allegro/ralph](https://github.com/allegro/ralph) | Ralph is the CMDB / Asset Management system for data center and back office hardware. | `Python` ★ 2.4k | 2026-01-09 |
+| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 267.6k | 2026-01-11 |
+| [resume/resume.github.com](https://github.com/resume/resume.github.com) | Resumes generated using the Git Hub informations | `JavaScript` ★ 62.7k | 2023-02-15 |
+| [purifycss/purifycss](https://github.com/purifycss/purifycss) | Remove unused CSS. Also works with single-page apps. | `JavaScript` ★ 9.9k | 2020-10-17 |
+| [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) | Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically. | `PHP` ★ 13.5k | 2025-12-27 |
+| [jolicode/JoliNotif](https://github.com/jolicode/JoliNotif) | 🖥️ Send notifications to your desktop directly from your PHP script | `PHP` ★ 1.4k | 2025-12-04 |
+| [syncthing/syncthing](https://github.com/syncthing/syncthing) | Open Source Continuous File Synchronization | `Go` ★ 79k | 2026-01-06 |
+| [pawelantczak/crop-border-from-image](https://github.com/pawelantczak/crop-border-from-image) | This class can be used to crop images by removing common color borders. | `PHP` ★ 3 | 2014-01-11 |
+| [derceg/explorerplusplus](https://github.com/derceg/explorerplusplus) | Explorer++ is a lightweight and fast file manager for Windows | `C++` ★ 3.1k | 2026-01-08 |
+| [jenssegers/imagehash](https://github.com/jenssegers/imagehash) | 🌄 Perceptual image hashing for PHP | `PHP` ★ 2k | 2025-09-17 |
+| [sdelements/lets-chat](https://github.com/sdelements/lets-chat) | Self-hosted chat app for small teams | `JavaScript` ★ 9.8k | 2025-11-15 |
+| [psliwa/image-optimizer](https://github.com/psliwa/image-optimizer) | Image optimization / compression library. This library is able to optimize png, jpg and gif files in very easy and handy way. It uses optipng, pngquant, pngcrush, pngout, gifsicle, jpegoptim and jp... | `PHP` ★ 912 | 2023-11-20 |
+| [shazow/ssh-chat](https://github.com/shazow/ssh-chat) | Chat over SSH. | `Go` ★ 5.8k | 2026-01-10 |
+| [valbok/img.chk](https://github.com/valbok/img.chk) | No description provided | `Python` ★ 37 | 2016-12-14 |
+| [tzookb/tbmsg](https://github.com/tzookb/tbmsg) | No description provided | `PHP` ★ 107 | 2019-08-27 |
+| [Level-2/Dice](https://github.com/Level-2/Dice) | Dice - a lightweight Dependency Injection Container for PHP | `PHP` ★ 437 | 2023-01-17 |
+| [koomai/phpstorm-laravel-live-templates](https://github.com/koomai/phpstorm-laravel-live-templates) | Laravel Live Templates for Php Storm | ★ 1.2k | 2022-09-23 |
+| [sebastianbergmann/phploc](https://github.com/sebastianbergmann/phploc) | A tool for quickly measuring the size of a PHP project. | `PHP` ★ 2.4k | 2025-04-12 |
+| [guiguiboy/PHP-CLI-Progress-Bar](https://github.com/guiguiboy/PHP-CLI-Progress-Bar) | A PHP5 CLI Progress bar | `PHP` ★ 158 | 2017-04-10 |
+| [mackstann/binpack](https://github.com/mackstann/binpack) | 2D bin-packing using Java Script + canvas | ★ 82 | 2010-10-11 |
+| [google/web-starter-kit](https://github.com/google/web-starter-kit) | Web Starter Kit - a workflow for multi-device websites | `HTML` ★ 18.4k | 2024-04-22 |
 | [POSSA/freepbx-Call-Statistics](https://github.com/POSSA/freepbx-Call-Statistics) | Free PBX module for reporting concurrent calls as well as breaking calls down by extension | `PHP` ★ 34 | 2019-02-16 |
 | [midgetspy/Sick-Beard](https://github.com/midgetspy/Sick-Beard) | PVR & episode guide that downloads and manages all your TV shows | `Python` ★ 2.9k | 2024-10-27 |
 | [stefangabos/Zebra_Database](https://github.com/stefangabos/Zebra_Database) | PHP My SQLi wrapper that is lightweight and secure, featuring prepared statements, debugging tools, and caching support. | `PHP` ★ 119 | 2025-08-31 |

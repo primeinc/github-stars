@@ -1,13 +1,10 @@
 # Tag: video-player
 
-*5 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [stax76/awesome-mpv](https://github.com/stax76/awesome-mpv) | A curated list of awesome mpv resources. | ★ 1.9k | 2025-12-22 |
-| [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | An Open Source You Tube app for privacy | `Vue` ★ 19.9k | 2026-01-09 |
-| [leadedge/SpoutVideoPlayer](https://github.com/leadedge/SpoutVideoPlayer) | An Openframeworks video player for Spout and NDI output | `C++` ★ 21 | 2024-03-04 |
-| [0xced/XCDYouTubeKit](https://github.com/0xced/XCDYouTubeKit) | You Tube video player for i OS, tv OS and mac OS | `Objective-C` ★ 2.9k | 2024-04-08 |
 | [cinqmarsmedia/Chameleon-Video-Player](https://github.com/cinqmarsmedia/Chameleon-Video-Player) | A Non-Profit Video Utility | `JavaScript` ★ 14 | 2023-01-05 |
+| [avi12/skillshare-player-control](https://github.com/avi12/skillshare-player-control) | Basic keyboard controls for Skillshare's player. | `TypeScript` ★ 11 | 2024-12-02 |
