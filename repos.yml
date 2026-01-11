@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-11T17:27:52.290Z"
+  manifest_updated_at: "2026-01-11T17:28:14.828Z"
   total_repos: 1959
   generator_version: v1.0.0
   github_user: primeinc
@@ -46071,13 +46071,18 @@ repositories:
       mirror_url: null
   - repo: team-telnyx/demo-dotnet-telnyx
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - apis
+    tags:
+      - dotnet-core
+      - telnyx
+      - examples
+      - lang:csharp
     summary: Dotnet Core Examples & Learning
     last_synced_sha: 1104848df241523f5184efd2fa8e2185b2137f7d
     user_starred_at: "2025-02-26T20:46:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -46094,15 +46099,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.828Z"
+      prompt_version: v2
   - repo: team-telnyx/openapi
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+    tags:
+      - openapi
+      - telnyx
+      - api-specification
     summary: Open API specification for the Telnyx API
     last_synced_sha: fbbfc34cc64f482f4476055e2ed9433406c8b772
     user_starred_at: "2025-02-26T19:42:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -46119,15 +46133,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.828Z"
+      prompt_version: v2
   - repo: fastenhealth/fasten-onprem
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - productivity
+    tags:
+      - healthcare
+      - emr
+      - open-source
+      - lang:go
     summary: Fasten is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 100,000's of insurances/hospitals/clinics
     last_synced_sha: 503f2b7cccf8f7c6f98541f779be2393f8555340
     user_starred_at: "2025-02-26T17:22:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -46152,15 +46176,26 @@ repositories:
         published_at: "2024-10-01T01:41:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.828Z"
+      prompt_version: v2
   - repo: FreeTubeApp/FreeTube
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - privacy
+    tags:
+      - video
+      - youtube
+      - privacy
+      - lang:js
+      - vue
     summary: An Open Source You Tube app for privacy
     last_synced_sha: dcdea1d076cab913b7a9529bfb9570ac131c173e
     user_starred_at: "2025-02-26T09:04:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -46183,15 +46218,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.828Z"
+      prompt_version: v2
   - repo: Azure/azure-functions-openapi-extension
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cloud
+    tags:
+      - azure-functions
+      - openapi
+      - swagger-ui
+      - lang:csharp
     summary: This extension provides an Azure Functions app with Open API capability for better discoverability to consuming parties
     last_synced_sha: a6cfca48769717499b6594689a4fb2d93be97420
     user_starred_at: "2025-02-25T13:47:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -46216,15 +46261,25 @@ repositories:
         published_at: "2025-10-03T22:41:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.828Z"
+      prompt_version: v2
   - repo: ironmansoftware/powershell-pro-tools
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - powershell
+      - scripting
+      - lang:csharp
+      - tools
     summary: Scripting, automation, and development tools for professionals working with Power Shell.
     last_synced_sha: 5443c2bcebfbf2f2b31b0a48cd8d7e19af46362a
     user_starred_at: "2025-02-25T13:31:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -46243,15 +46298,25 @@ repositories:
         published_at: "2025-02-11T17:03:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.827Z"
+      prompt_version: v2
   - repo: Azure/awesome-terraform
     categories:
-      - unclassified
-    tags: []
+      - infrastructure
+      - devops
+    tags:
+      - terraform
+      - azure
+      - hcl
+      - tools
     summary: An authoritative list of awesome Azure Terraform tools and samples with help from community experiments and contributions.
     last_synced_sha: 34ac713c08870957661a07c6102c74672b3991ac
     user_starred_at: "2025-02-25T12:56:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HCL
       topics: []
@@ -46268,15 +46333,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.827Z"
+      prompt_version: v2
   - repo: dquiet-lab/sim-control-page
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - user-interface
+      - typescript
+      - control-panel
+      - lang:ts
     summary: No description provided
     last_synced_sha: c566d077681513af9764339f2205b78b845ac425
     user_starred_at: "2025-02-24T04:03:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -46295,15 +46370,25 @@ repositories:
         published_at: "2025-03-25T02:15:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.827Z"
+      prompt_version: v2
   - repo: EgorBlagov/sims-mod-assistant
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - desktop-dev
+    tags:
+      - mod-management
+      - electron
+      - sims4
+      - lang:ts
     summary: Simple Electron based Application to help Sims 4 players handle their thousands of mods
     last_synced_sha: d509fa25ce907b752fb0fa2392f40a3d5be93b09
     user_starred_at: "2025-02-23T20:25:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -46322,15 +46407,25 @@ repositories:
         published_at: "2020-09-20T16:35:45Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.827Z"
+      prompt_version: v2
   - repo: s4ptacle/Sims4Tools
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - dev-tools
+    tags:
+      - modding
+      - tools
+      - sims4
+      - lang:csharp
     summary: Sims 4 modding tools and library
     last_synced_sha: fff19365a12711879bad26481a393a6fbc62c465
     user_starred_at: "2025-02-23T20:08:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C#
@@ -46350,15 +46445,25 @@ repositories:
         published_at: "2021-04-24T14:28:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.827Z"
+      prompt_version: v2
   - repo: CmarNYC-Tools/TS4SimRipper
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - dev-tools
+    tags:
+      - sims4
+      - tools
+      - modding
+      - lang:csharp
     summary: No description provided
     last_synced_sha: d8425de7aabe504acd182e525aa350f68a8706f7
     user_starred_at: "2025-02-23T20:05:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -46377,15 +46482,25 @@ repositories:
         published_at: "2025-07-03T22:42:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.827Z"
+      prompt_version: v2
   - repo: mycroftjr/Sims4ScriptingTemplate
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - learning
+    tags:
+      - template
+      - scripting
+      - sims4
+      - lang:python
     summary: Sims 4 Scripting Template Project
     last_synced_sha: a856c3fffd160a11c849a2ae87b7db775e0e5b07
     user_starred_at: "2025-02-23T19:27:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -46403,15 +46518,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.827Z"
+      prompt_version: v2
   - repo: sims4toolkit/s4tk-vscode
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - vscode-extension
+      - typescript
+      - lang:ts
+      - sims4
     summary: S4TK extension for Visual Studio Code.
     last_synced_sha: 377bb39ca76b637d6d534a7532d7a0c68a4c9ff9
     user_starred_at: "2025-02-23T19:21:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46434,15 +46559,25 @@ repositories:
         published_at: "2024-02-07T04:36:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.827Z"
+      prompt_version: v2
   - repo: octotools/octotools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - agentic-framework
+      - llms
+      - complex-reasoning
+      - lang:python
     summary: 'Octo Tools: An agentic framework with extensible tools for complex reasoning'
     last_synced_sha: 7d78d05b80bea4df7c23dafb8da6c6917960af1c
     user_starred_at: "2025-02-23T08:56:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -46465,15 +46600,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.827Z"
+      prompt_version: v2
   - repo: openxc/uds-c
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - networking
+    tags:
+      - uds
+      - obd-ii
+      - vehicles
+      - lang:c
     summary: Unified Diagnostics Service (UDS) and OBD-II (On Board Diagnostics for Vehicles) C Library
     last_synced_sha: e56aeb9c884ccbdbe73e1630942f8c0d17e27498
     user_starred_at: "2025-02-21T20:10:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -46490,6 +46635,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:28:14.826Z"
+      prompt_version: v2
   - repo: andrewraharjo/CAN-Bus-Hack_Prius_Focus
     categories:
       - embedded
