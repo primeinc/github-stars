@@ -56,11 +56,11 @@ jobs:
 
             const unclassified = data.repositories.filter(r => 
               r.categories.includes('unclassified') && 
-              (r.needs_review || !r.ai_classification?.timestamp)
+              (r.needs_review || !r.ai_classification?.classified_at)
             );
 
             const limit = parseInt(process.env.BATCH_LIMIT) || 15;
-            const batch = unclassified.sort((a,b) => new Date(a.starred_at) - new Date(b.starred_at)).slice(0, Math.min(limit, 100));
+            const batch = unclassified.sort((a,b) => new Date(a.user_starred_at) - new Date(b.user_starred_at)).slice(0, Math.min(limit, 100));
             
             console.log(`Processing ${batch.length} of ${unclassified.length} unclassified repos`);
             
@@ -188,14 +188,14 @@ jobs:
                 data.repositories[idx].needs_review = false;
                 data.repositories[idx].ai_classification = {
                   model: "gpt-4o",
-                  timestamp: new Date().toISOString(),
+                  classified_at: new Date().toISOString(),
                   prompt_version: "v2"
                 };
                 count++;
               }
             }
 
-            data.manifest_metadata.last_updated = new Date().toISOString();
+            data.manifest_metadata.manifest_updated_at = new Date().toISOString();
             fs.writeFileSync('.github-stars/data/manifest.json', JSON.stringify(data, null, 2));
             core.setOutput('count', count);
 
@@ -236,7 +236,7 @@ jobs:
             const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
             const data = JSON.parse(json);
             const remaining = data.repositories.filter(r => 
-              r.categories.includes('unclassified') && (r.needs_review || !r.ai_classification?.timestamp)
+              r.categories.includes('unclassified') && (r.needs_review || !r.ai_classification?.classified_at)
             ).length;
             core.setOutput('count', remaining);
             core.setOutput('has_more', remaining > 0);

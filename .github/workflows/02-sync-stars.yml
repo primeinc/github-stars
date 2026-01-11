@@ -116,7 +116,7 @@ jobs:
                 tags: [],
                 summary: cleanDescription(repo.description),
                 last_synced_sha: repo.last_commit_sha || '0'.repeat(40),
-                starred_at: repo.starred_at || new Date().toISOString(),
+                user_starred_at: repo.user_starred_at || new Date().toISOString(),
                 readme_quality: "missing",
                 needs_review: true,
                 ...(repo.archived && { archived: true }),
@@ -127,7 +127,7 @@ jobs:
                   stargazers_count: repo.stargazers_count || 0,
                   homepage_url: repo.homepage_url || null,
                   license: repo.license || null,
-                  updated_at: repo.updated_at || null,
+                  repo_pushed_at: repo.updated_at || null,
                   html_url: repo.html_url || null,
                   default_branch: repo.default_branch || null,
                   latest_release: repo.latest_release || null,
@@ -137,7 +137,7 @@ jobs:
               }));
 
               manifestData.repositories.push(...newEntries);
-              manifestData.manifest_metadata.last_updated = new Date().toISOString();
+              manifestData.manifest_metadata.manifest_updated_at = new Date().toISOString();
               manifestData.manifest_metadata.total_repos = manifestData.repositories.length;
 
               fs.writeFileSync('.github-stars/data/manifest.json', JSON.stringify(manifestData, null, 2));
@@ -151,9 +151,9 @@ jobs:
               if (fresh) {
                 let changed = false;
                 
-                // Update starred_at if significantly different (e.g. real date vs import date)
-                if (fresh.starred_at && fresh.starred_at !== repo.starred_at) {
-                    repo.starred_at = fresh.starred_at;
+                // Update user_starred_at if significantly different
+                if (fresh.user_starred_at && fresh.user_starred_at !== repo.user_starred_at) {
+                    repo.user_starred_at = fresh.user_starred_at;
                     changed = true;
                 }
 
@@ -163,9 +163,9 @@ jobs:
                     changed = true;
                 }
                 
-                if (fresh.updated_at && (!repo.github_metadata || repo.github_metadata.updated_at !== fresh.updated_at)) {
+                if (fresh.updated_at && (!repo.github_metadata || repo.github_metadata.repo_pushed_at !== fresh.updated_at)) {
                     if (!repo.github_metadata) repo.github_metadata = {};
-                    repo.github_metadata.updated_at = fresh.updated_at;
+                    repo.github_metadata.repo_pushed_at = fresh.updated_at;
                     repo.github_metadata.stargazers_count = fresh.stargazers_count;
                     repo.github_metadata.language = fresh.language;
                     repo.github_metadata.topics = fresh.topics;

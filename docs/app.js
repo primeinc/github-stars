@@ -148,9 +148,18 @@
                 return false;
             }
 
-            // Skip unclassified repos unless specifically searching
+            // Skip unclassified repos unless:
+            // - User is searching
+            // - User selected a category
+            // - The repo was starred within the last 30 days (fresh)
             if (!searchTerm && !category && (repo.categories || []).includes('unclassified')) {
-                return false;
+                // Check if repo is fresh (starred within last 30 days)
+                const starredAt = new Date(repo.user_starred_at || 0);
+                const now = new Date();
+                const diffDays = Math.floor((now - starredAt) / (1000 * 60 * 60 * 24));
+                if (diffDays > 30) {
+                    return false;
+                }
             }
 
             return true;
@@ -168,11 +177,11 @@
                 case 'name-desc':
                     return b.repo.localeCompare(a.repo);
                 case 'recent-desc':
-                    return new Date(b.starred_at || 0) - new Date(a.starred_at || 0);
+                    return new Date(b.user_starred_at || 0) - new Date(a.user_starred_at || 0);
                 case 'recent-asc':
-                    return new Date(a.starred_at || 0) - new Date(b.starred_at || 0);
+                    return new Date(a.user_starred_at || 0) - new Date(b.user_starred_at || 0);
                 case 'updated-desc':
-                    return new Date(b.github_metadata?.pushed_at || 0) - new Date(a.github_metadata?.pushed_at || 0);
+                    return new Date(b.github_metadata?.repo_pushed_at || 0) - new Date(a.github_metadata?.repo_pushed_at || 0);
                 default:
                     return 0;
             }
@@ -216,7 +225,7 @@
             const language = meta.language || '';
             const categories = (repo.categories || []).filter(c => c !== 'unclassified');
             const tags = (repo.tags || []).filter(t => !t.startsWith('lang:')).slice(0, 5);
-            const recency = getRecency(meta.pushed_at);
+            const recency = getRecency(meta.repo_pushed_at);
 
             return `
                 <div class="repo-card ${recency.className}">
@@ -227,7 +236,7 @@
                     <div class="meta">
                         ${stars ? `<span class="stars">&#9733; ${formatNumber(stars)}</span>` : ''}
                         ${language ? `<span class="language">&#9679; ${language}</span>` : ''}
-                        <span class="updated-badge" title="Last updated: ${new Date(meta.pushed_at).toLocaleDateString()}">Updated ${recency.relativeTime}</span>
+                        <span class="updated-badge" title="Last updated: ${new Date(meta.repo_pushed_at).toLocaleDateString()}">Updated ${recency.relativeTime}</span>
                     </div>
                     ${categories.length ? `
                         <div class="categories">
@@ -251,7 +260,7 @@
             const stars = meta.stargazers_count || 0;
             const language = meta.language || '';
             const categories = (repo.categories || []).filter(c => c !== 'unclassified');
-            const recency = getRecency(meta.pushed_at);
+            const recency = getRecency(meta.repo_pushed_at);
 
             return `
                 <div class="repo-row ${recency.className}">

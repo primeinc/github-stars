@@ -1,0 +1,10 @@
+# Tag: quic
+
+*2 repositories*
+
+[← Back to Index](../README.md)
+
+| Repository | Description | Metadata | Last Pushed |
+|---|---|---|---|
+| [stan-smith/SlingShot](https://github.com/stan-smith/SlingShot) | Dead simple ultra-low bandwidth video over QUIC, written in Rust, dead simple to use, free forever, designed for use in any and all conditions | `Rust` ★ 1 | 2026-01-09 |
+| [litespeedtech/openlitespeed](https://github.com/litespeedtech/openlitespeed) | Our high-performance, lightweight, open source HTTP server | `C++` ★ 1.4k | 2026-01-09 |

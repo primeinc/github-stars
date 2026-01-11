@@ -72,7 +72,7 @@ jobs:
                   html_url: edge.node.url,
                   default_branch: edge.node.defaultBranchRef?.name || 'main',
                   last_commit_sha: edge.node.defaultBranchRef?.target?.oid || null,
-                  starred_at: edge.starredAt,
+                  user_starred_at: edge.starredAt,
                   homepage_url: edge.node.homepageUrl,
                   is_mirror: edge.node.isMirror,
                   mirror_url: edge.node.mirrorUrl,

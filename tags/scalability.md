@@ -1,0 +1,12 @@
+# Tag: scalability
+
+*4 repositories*
+
+[← Back to Index](../README.md)
+
+| Repository | Description | Metadata | Last Pushed |
+|---|---|---|---|
+| [XTXMarkets/ternfs](https://github.com/XTXMarkets/ternfs) | An exabyte-scale, multi-region distributed file system | `C++` ★ 1.3k | 2026-01-09 |
+| [NousResearch/DisTrO](https://github.com/NousResearch/DisTrO) | Distributed Training Over-The-Internet | ★ 973 | 2026-01-09 |
+| [microsoft/garnet](https://github.com/microsoft/garnet) | Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication feat... | `C#` ★ 11.7k | 2026-01-10 |
+| [microsoft/VFSForGit](https://github.com/microsoft/VFSForGit) | Virtual File System for Git: Enable Git at Enterprise Scale | `C#` ★ 6.1k | 2026-01-11 |

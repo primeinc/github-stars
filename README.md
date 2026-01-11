@@ -1,129 +1,188 @@
-# GitHub Stars Curation System
+# Awesome Starred Repositories
 
-An automated system for organizing starred GitHub repositories using GitHub Actions, AI classification, and schema-driven data management.
+> A curated list of **1954** repositories, automatically classified and organized.
 
-## Overview
+Last updated: 2026-01-11
 
-This project provides a 100% free, GitHub-native solution for managing starred repositories. All features run on GitHub's free tier (Actions, Pages, Models) with no external dependencies or costs.
-
-**Core Features:**
-- Automated repository fetching via GraphQL API
-- AI-powered classification using GitHub Models (GPT-4o)
-- Schema-validated YAML manifest as single source of truth
-- Comprehensive metadata tracking (topics, languages, licenses, releases)
-
-## Architecture
-
-### Workflows
-
-**01-fetch-stars.yml**
-- Fetches starred repositories using GitHub GraphQL API
-- Handles pagination and rate limiting
-- Currently tracking 1,079 repositories
-- Filters to public repositories only
-
-**02-sync-stars.yml**
-- Identifies new and removed repositories
-- Updates `repos.yml` manifest
-- Validates against JSON Schema
-- Auto-commits changes with proper attribution
-
-**03-curate-stars.yml**
-- Classifies repositories using GitHub Models (GPT-4o)
-- Batch processing (default: 10 repos per run)
-- Two-stage AI validation
-- Auto-loops until all repositories classified
-- Creates issues for validation failures
-
-### Data Schema
-
-The `schemas/repos-schema.json` file defines:
-- Repository metadata structure
-- Category and tag taxonomies
-- AI classification audit trail
-- GitHub metadata preservation
+## 📂 Categories
 
 
-## Quick Start
+### 3
+- [3d-printing](categories/3d-printing.md) *(1)*
 
-### Prerequisites
+### A
+- [ai-ml](categories/ai-ml.md) *(523)*
+- [algorithms](categories/algorithms.md) *(1)*
+- [analytics](categories/analytics.md) *(8)*
+- [android-apps](categories/android-apps.md) *(1)*
+- [apis](categories/apis.md) *(153)*
+- [apistools](categories/apistools.md) *(1)*
+- [assets](categories/assets.md) *(1)*
+- [audio](categories/audio.md) *(2)*
+- [automation](categories/automation.md) *(165)*
 
-- GitHub repository with Actions enabled
-- GitHub Personal Access Token with `repo` and `read:user` scopes (optional, for private repositories)
+### B
+- [backup](categories/backup.md) *(1)*
+- [blockchain](categories/blockchain.md) *(1)*
+- [browser](categories/browser.md) *(1)*
 
-### Setup
+### C
+- [cli-tools](categories/cli-tools.md) *(125)*
+- [cloud](categories/cloud.md) *(91)*
+- [cloud-computing](categories/cloud-computing.md) *(1)*
+- [cms](categories/cms.md) *(2)*
+- [code-analysis](categories/code-analysis.md) *(1)*
+- [collaboration](categories/collaboration.md) *(1)*
+- [communication](categories/communication.md) *(8)*
+- [configuration](categories/configuration.md) *(1)*
+- [containers](categories/containers.md) *(30)*
+- [crypto](categories/crypto.md) *(1)*
+- [cryptography](categories/cryptography.md) *(1)*
 
-1. Fork or clone this repository
-2. Configure secrets (optional): Add `STARS_TOKEN` for enhanced permissions
-3. Run workflows manually via Actions tab:
-   - `01-fetch-stars` to fetch your starred repositories
-   - `02-sync-stars` to update the manifest
-   - `03-curate-stars` to classify repositories
+### D
+- [data-management](categories/data-management.md) *(2)*
+- [data-protection](categories/data-protection.md) *(1)*
+- [data-science](categories/data-science.md) *(194)*
+- [databases](categories/databases.md) *(47)*
+- [debugging](categories/debugging.md) *(2)*
+- [deployment](categories/deployment.md) *(20)*
+- [design](categories/design.md) *(2)*
+- [desktop](categories/desktop.md) *(1)*
+- [desktop-dev](categories/desktop-dev.md) *(148)*
+- [desktop-development](categories/desktop-development.md) *(1)*
+- [dev-tools](categories/dev-tools.md) *(220)*
+- [developer-tools](categories/developer-tools.md) *(5)*
+- [development](categories/development.md) *(1)*
+- [development-tools](categories/development-tools.md) *(5)*
+- [devops](categories/devops.md) *(65)*
+- [document-processing](categories/document-processing.md) *(1)*
+- [documentation](categories/documentation.md) *(100)*
 
-### Workflow Sequence
+### E
+- [education](categories/education.md) *(6)*
+- [embedded](categories/embedded.md) *(78)*
+- [embedded-systems](categories/embedded-systems.md) *(2)*
+- [embedding](categories/embedding.md) *(1)*
+- [encryption](categories/encryption.md) *(1)*
+- [error-handling](categories/error-handling.md) *(1)*
+- [extensions](categories/extensions.md) *(1)*
 
-```
-GitHub API → Fetch Stars → repos.yml → Sync Stars → AI Classification → Updated repos.yml
-```
+### F
+- [file-management](categories/file-management.md) *(1)*
+- [file-sync](categories/file-sync.md) *(1)*
+- [finance](categories/finance.md) *(1)*
+- [fintech](categories/fintech.md) *(1)*
+- [frameworks](categories/frameworks.md) *(81)*
+- [frontend](categories/frontend.md) *(1)*
 
-## Configuration
+### G
+- [game-dev](categories/game-dev.md) *(81)*
+- [gis](categories/gis.md) *(1)*
+- [graphics](categories/graphics.md) *(6)*
 
-### Feature Flags (in repos.yml)
+### H
+- [hacking](categories/hacking.md) *(1)*
+- [hardware](categories/hardware.md) *(4)*
+- [hardware-modifications](categories/hardware-modifications.md) *(1)*
+- [home-automation](categories/home-automation.md) *(4)*
+- [humor](categories/humor.md) *(1)*
 
-```yaml
-feature_flags:
-  ai_sort: true                      # Use AI for classification
-  ai_summarize_nondescript: true     # Generate summaries for poor READMEs
-  batch_threshold: 10                # Repos per AI batch
-  auto_merge: false                  # Auto-merge PRs (not implemented)
-  archive_handling: separate-directory
-  enable_submodule_updates: false    # Submodule system (not implemented)
-```
+### I
+- [image-processing](categories/image-processing.md) *(2)*
+- [infra](categories/infra.md) *(1)*
+- [infrastructure](categories/infrastructure.md) *(65)*
+- [iot](categories/iot.md) *(7)*
 
-### Taxonomy
+### L
+- [learning](categories/learning.md) *(147)*
+- [libraries](categories/libraries.md) *(5)*
+- [logging](categories/logging.md) *(2)*
 
-Controlled vocabulary defined in `repos.yml`:
-- 43 categories: dev-tools, ui-libraries, frameworks, databases, etc.
-- Flexible tags: Language tags (lang:rust), descriptive tags (cli, terminal)
-- 13 frameworks: react, vue, angular, nextjs, etc.
+### M
+- [math](categories/math.md) *(1)*
+- [media](categories/media.md) *(41)*
+- [media-server](categories/media-server.md) *(2)*
+- [messaging](categories/messaging.md) *(1)*
+- [mobile-dev](categories/mobile-dev.md) *(32)*
+- [mobile-development](categories/mobile-development.md) *(1)*
+- [monitoring](categories/monitoring.md) *(47)*
+- [multimedia](categories/multimedia.md) *(2)*
 
-## AI Classification
+### N
+- [networking](categories/networking.md) *(149)*
+- [nosql](categories/nosql.md) *(1)*
 
-The system uses a two-stage process with GitHub Models (GPT-4o):
+### O
+- [open-source](categories/open-source.md) *(1)*
 
-1. **Classification**: Analyzes metadata, assigns 1-3 categories, adds 3-6 tags, identifies framework
-2. **Validation**: Validates classifications, fixes formatting issues, returns corrected JSON or rejection
+### P
+- [performance](categories/performance.md) *(1)*
+- [privacy](categories/privacy.md) *(2)*
+- [productivity](categories/productivity.md) *(441)*
+- [productivity-tools](categories/productivity-tools.md) *(1)*
+- [programming](categories/programming.md) *(1)*
+- [programming-languages](categories/programming-languages.md) *(2)*
 
-Example output:
-```json
-{
-  "repo": "microsoft/vscode",
-  "categories": ["dev-tools", "productivity", "editors"],
-  "tags": ["code-editor", "ide", "extensible", "electron", "lang:ts"],
-  "framework": null
-}
-```
+### Q
+- [queues](categories/queues.md) *(1)*
 
-## Design Principles
+### R
+- [react](categories/react.md) *(1)*
+- [resources](categories/resources.md) *(2)*
 
-This project demonstrates a feature-complete solution using only GitHub's free tier:
-- GitHub Actions for automation (unlimited minutes for public repos)
-- GitHub Pages for web hosting (planned)
-- GitHub Models for AI classification (free tier)
-- No external services or costs required
-- Universally accessible to anyone with a GitHub account
+### S
+- [search](categories/search.md) *(2)*
+- [security](categories/security.md) *(164)*
+- [self-hosted](categories/self-hosted.md) *(1)*
+- [social](categories/social.md) *(1)*
+- [storage](categories/storage.md) *(4)*
+- [svelte](categories/svelte.md) *(1)*
+- [sync](categories/sync.md) *(1)*
+- [system-admin](categories/system-admin.md) *(168)*
+- [system-administration](categories/system-administration.md) *(5)*
 
-## Documentation
+### T
+- [task-scheduling](categories/task-scheduling.md) *(1)*
+- [telecommunications](categories/telecommunications.md) *(2)*
+- [testing](categories/testing.md) *(29)*
+- [tools](categories/tools.md) *(10)*
+- [tv-dev](categories/tv-dev.md) *(1)*
 
-- [MVP Plan](docs/MVP_PLAN.md) - Roadmap to completion
-- [Current State](docs/CURRENT_STATE.md) - Technical assessment
-- [Copilot Setup](docs/COPILOT_SETUP.md) - Setup guide for contributors
-- [Implementation Plan](docs/IMPLEMENTATION_PLAN.md) - Original vision
+### U
+- [ui-libraries](categories/ui-libraries.md) *(208)*
+- [ui-performance](categories/ui-performance.md) *(1)*
+- [ui-tools](categories/ui-tools.md) *(1)*
+- [utilities](categories/utilities.md) *(2)*
 
-## Contributing
+### V
+- [video-dev](categories/video-dev.md) *(1)*
+- [video-generation](categories/video-generation.md) *(2)*
+- [video-processing](categories/video-processing.md) *(5)*
+- [visualization](categories/visualization.md) *(1)*
 
-This is designed as a personal repository organization system. Fork and adapt for your own use. The architecture and workflows are freely reusable.
+### W
+- [wearable-tech](categories/wearable-tech.md) *(1)*
+- [web-dev](categories/web-dev.md) *(244)*
+- [web-development](categories/web-development.md) *(15)*
 
-## Acknowledgments
+## 🏷️ Popular Tags
 
-Built with GitHub Actions, GitHub Models (GPT-4o), cardinalby/schema-validator-action, and mikefarah/yq.
+[awesome-list](tags/awesome-list.md) (75) • [react](tags/react.md) (68) • [ai](tags/ai.md) (64) • [azure](tags/azure.md) (64) • [automation](tags/automation.md) (61) • [llm](tags/llm.md) (59) • [windows](tags/windows.md) (47) • [self-hosted](tags/self-hosted.md) (40) • [cross-platform](tags/cross-platform.md) (34) • [machine-learning](tags/machine-learning.md) (32) • [deep-learning](tags/deep-learning.md) (32) • [stable-diffusion](tags/stable-diffusion.md) (31) • [docker](tags/docker.md) (29) • [nextjs](tags/nextjs.md) (28) • [ai-agents](tags/ai-agents.md) (26) • [cli](tags/cli.md) (26) • [ndi](tags/ndi.md) (24) • [resources](tags/resources.md) (22) • [terminal](tags/terminal.md) (22) • [powershell](tags/powershell.md) (22) • [privacy](tags/privacy.md) (21) • [llms](tags/llms.md) (20) • [mcp](tags/mcp.md) (20) • [open-source](tags/open-source.md) (20) • [tailwindcss](tags/tailwindcss.md) (19) • [chatgpt](tags/chatgpt.md) (18) • [home-automation](tags/home-automation.md) (18) • [gui](tags/gui.md) (17) • [frontend](tags/frontend.md) (17) • [electron](tags/electron.md) (17)
+
+## ⭐ Recently Starred
+
+| Repository | Description | Metadata | Last Pushed |
+|---|---|---|---|
+| [adriangalilea/namecheap-python](https://github.com/adriangalilea/namecheap-python) | A Python SDK for the Namecheap API & CLI/TUI tools using it | `Python` ★ 28 | 2026-01-10 |
+| [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) | A collaborative list of public APIs for developers | `JavaScript` ★ 7.5k | 2026-01-11 |
+| [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) | OSINT Framework | `JavaScript` ★ 10.5k | 2026-01-11 |
+| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `JavaScript` ★ 9.6k | 2026-01-11 |
+| [simulot/immich-go](https://github.com/simulot/immich-go) | An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives. | `Go` ★ 5.2k | 2026-01-10 |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `Go` ★ 11.2k | 2026-01-11 |
+| [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | Community managed domain list. Generate geosite.dat for V2Ray. | `Go` ★ 7.2k | 2026-01-10 |
+| [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.1k | 2026-01-10 |
+| [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another :crocodile: :package: | `Go` ★ 33.8k | 2026-01-10 |
+| [steveiliop56/tinyauth](https://github.com/steveiliop56/tinyauth) | The simplest way to protect your apps with a login screen. | `Go` ★ 6.7k | 2026-01-10 |
+
+---
+*Powered by [GitHub Stars Curation System](https://github.com/primeinc/github-stars)*

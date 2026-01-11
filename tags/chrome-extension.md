@@ -1,0 +1,14 @@
+# Tag: chrome-extension
+
+*6 repositories*
+
+[← Back to Index](../README.md)
+
+| Repository | Description | Metadata | Last Pushed |
+|---|---|---|---|
+| [ghostery/ghostery-extension](https://github.com/ghostery/ghostery-extension) | Ghostery Browser Extension for Firefox, Chrome, Opera, Edge and Safari | `JavaScript` ★ 1.6k | 2026-01-10 |
+| [lxieyang/chrome-extension-boilerplate-react](https://github.com/lxieyang/chrome-extension-boilerplate-react) | A Chrome Extensions boilerplate using React 18 and Webpack 5. | `JavaScript` ★ 4k | 2026-01-11 |
+| [nanobrowser/nanobrowser](https://github.com/nanobrowser/nanobrowser) | Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to Open AI Operator. | `TypeScript` ★ 11.9k | 2026-01-11 |
+| [rathi-yash/MindVault-AI-Bookmarker](https://github.com/rathi-yash/MindVault-AI-Bookmarker) | Mind Vault is an innovative Chrome extension that revolutionizes bookmark management using AI. Winner of the Best AI/ML Project at UBHacking, this tool automatically categorizes and organizes your ... | `JavaScript` ★ 6 | 2025-09-28 |
+| [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome) | Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, c... | `TypeScript` ★ 9.9k | 2026-01-11 |
+| [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense) | Open Source Alternative to Notebook LM / Perplexity / Glean, connected to external sources such as search engines (Tavily, Linkup), Slack, Linear, Notion, You Tube, Git Hub, Discord and more. | `Python` ★ 12.3k | 2026-01-11 |
