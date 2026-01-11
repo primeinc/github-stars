@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:40:16.804Z"
+  last_updated: "2026-01-11T02:42:26.267Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -65137,13 +65137,18 @@ repositories:
       mirror_url: null
   - repo: SuperClaude-Org/SuperClaude_Framework
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - lang:python
+      - claude-code
+      - ai-framework
+      - configuration
     summary: A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.
     last_synced_sha: 3294a0ad941f299e8c997bbe88a718694e173a8f
     starred_at: "2025-06-25T03:29:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -65158,15 +65163,26 @@ repositories:
         published_at: "2025-11-14T13:47:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.267Z"
+      prompt_version: v2
   - repo: Billionmail/BillionMail
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - email-server
+      - smtp
+      - lang:go
+      - newsletter
+      - self-hosted
     summary: 'Billion Mail gives you open-source Mail Server, News Letter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asf Xz BUh Zr'
     last_synced_sha: 8587445274af8a62508b55442852e2431657bab3
     starred_at: "2025-06-07T00:53:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -65192,15 +65208,26 @@ repositories:
         published_at: "2025-12-11T10:37:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.267Z"
+      prompt_version: v2
   - repo: datajuicer/data-juicer
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - data-processing
+      - lang:python
+      - llm
+      - foundation-models
+      - data-pipeline
     summary: "Data processing for and with foundation models! \U0001F34E \U0001F34B \U0001F33D ➡️ ➡️\U0001F378 \U0001F379 \U0001F377"
     last_synced_sha: 36663f56f920e5a978f9d55002816d706ab4cd50
     starred_at: "2025-05-20T19:30:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65229,15 +65256,26 @@ repositories:
         published_at: "2025-12-01T04:06:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.267Z"
+      prompt_version: v2
   - repo: nunchaku-tech/nunchaku
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - diffusion-models
+      - quantization
+      - lang:python
+      - low-rank-components
+      - genai
     summary: '[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models'
     last_synced_sha: 03b42062547d7c22678e2615ff11d6ea5175d578
     starred_at: "2025-04-15T12:37:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65261,15 +65299,25 @@ repositories:
         published_at: "2025-12-27T05:15:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.267Z"
+      prompt_version: v2
   - repo: NSFW-API/Prompt-based-Evolutionary-Neural-Iteration-System
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - neural
+      - lang:python
+      - prompt-optimization
+      - ml
     summary: Prompt-based Evolutionary Nudity Iteration System
     last_synced_sha: 50d522c96d5698d0a407ae86e848c827e1295fda
     starred_at: "2025-01-28T10:10:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -65282,15 +65330,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.267Z"
+      prompt_version: v2
   - repo: nikivdev/flow
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - workflow
+      - optimization
+      - lang:rust
+      - project-management
     summary: Everything you need to move your project faster
     last_synced_sha: ea850c682bb178997921e64ec6d667bd8011ca7c
     starred_at: "2025-01-28T09:04:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -65306,15 +65364,26 @@ repositories:
         published_at: "2026-01-07T20:39:47Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.267Z"
+      prompt_version: v2
   - repo: agent0ai/agent-zero
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-framework
+      - agent
+      - lang:python
+      - autonomous
+      - assistant
     summary: Agent Zero AI framework
     last_synced_sha: a54768cb2a7a4407b3907cae4c85344638af8efa
     starred_at: "2025-01-28T08:01:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65335,15 +65404,26 @@ repositories:
         published_at: "2025-11-19T11:41:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.267Z"
+      prompt_version: v2
   - repo: OpenHands/OpenHands
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-driven
+      - developer-tools
+      - lang:python
+      - chatgpt
+      - llm
     summary: "\U0001F64C Open Hands: AI-Driven Development"
     last_synced_sha: 7862e10f038d304ec79cdee46f7fb1e1842325bd
     starred_at: "2025-01-28T07:56:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65367,15 +65447,24 @@ repositories:
         published_at: "2025-12-30T16:35:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.267Z"
+      prompt_version: v2
   - repo: llamastack/llama-stack
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - llm-apps
+      - composable
+      - lang:python
     summary: Composable building blocks to build LLM Apps
     last_synced_sha: 08d01c8ce037106c7a978f8f3ef6cec2c651c3a6
     starred_at: "2025-01-28T07:54:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -65390,15 +65479,24 @@ repositories:
         published_at: "2026-01-06T21:23:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.267Z"
+      prompt_version: v2
   - repo: swipelux/zeroid-secrets-storing-widget
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ui-libraries
+    tags:
+      - widget
+      - secrets-management
+      - lang:ts
     summary: No description provided
     last_synced_sha: c757b8a2531b8b5a2e112191d79c65b3f2847d2a
     starred_at: "2025-01-27T10:40:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -65411,15 +65509,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.267Z"
+      prompt_version: v2
   - repo: BestAnHongjun/LMDeploy-Jetson
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - embedded
+    tags:
+      - nvidia
+      - jetson
+      - llm
+      - offline-deployment
     summary: Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access.
     last_synced_sha: 89ba96f07433a247dece3ededfeb137fd9ab3758
     starred_at: "2025-01-25T15:26:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -65434,15 +65542,26 @@ repositories:
         published_at: "2024-03-15T15:58:23Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.267Z"
+      prompt_version: v2
   - repo: KlingTeam/LivePortrait
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - face-animation
+      - lang:python
+      - video-editing
+      - image-animation
+      - video-generation
     summary: Bring portraits to life!
     last_synced_sha: 60d750181002351069b5288381c6f3d38a7b2ae4
     starred_at: "2024-07-08T21:58:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65459,15 +65578,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.267Z"
+      prompt_version: v2
   - repo: phodal/auto-dev
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-native
+      - ide
+      - lang:kotlin
+      - genai
+      - development
     summary: "\U0001F9D9‍Auto Dev: the AI-native Multi-Agent development platform built on Kotlin Multiplatform, covering all 7 phases of SDLC."
     last_synced_sha: 76409524e5440f4bc9d440af99da899b0d3733ea
     starred_at: "2024-03-23T08:50:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics:
@@ -65487,15 +65617,26 @@ repositories:
         published_at: "2025-12-14T08:07:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.266Z"
+      prompt_version: v2
   - repo: openinterpreter/open-interpreter
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cli-tools
+    tags:
+      - chatgpt
+      - natural-language
+      - lang:python
+      - gpt-4
+      - interpreter
     summary: A natural language interface for computers
     last_synced_sha: 0d19f3af83feff996ac862d74e3cc7afa17e64aa
     starred_at: "2024-03-23T08:48:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65514,15 +65655,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.266Z"
+      prompt_version: v2
   - repo: Comfy-Org/ComfyUI
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - stable-diffusion
+      - graph-interface
+      - lang:python
+      - pytorch
+      - comfyui
     summary: The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
     last_synced_sha: 2f642d5d9b48ad7cad13bbdd5f8adcf506f565a7
     starred_at: "2023-03-30T15:48:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65543,3 +65695,8 @@ repositories:
         published_at: "2026-01-08T06:00:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:26.266Z"
+      prompt_version: v2
