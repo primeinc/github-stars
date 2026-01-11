@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:55:51.735Z"
+  last_updated: "2026-01-11T02:56:10.884Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -45668,13 +45668,18 @@ repositories:
       mirror_url: null
   - repo: chrissimpkins/codeface
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - fonts
+      - typeface
+      - visual-design
+      - lang:python
     summary: Typefaces for source code beautification
     last_synced_sha: 40538ae5ffee793c98355b2c03c30130aed51932
     starred_at: "2025-12-18T09:55:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -45702,15 +45707,24 @@ repositories:
         published_at: "2016-01-20T21:01:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.884Z"
+      prompt_version: v2
   - repo: humhub/humhub
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - social-network
+      - lang:php
+      - enterprise-software
     summary: Hum Hub is an Open Source Enterprise Social Network. Easy to install, intuitive to use and extendable with countless freely available modules.
     last_synced_sha: 1710af5a7f6acf18306c2fca685cec646673caa1
     starred_at: "2025-12-18T09:55:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -45734,15 +45748,25 @@ repositories:
         published_at: "2025-12-11T10:38:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.884Z"
+      prompt_version: v2
   - repo: imfunniee/gitfolio
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - personal-website
+      - blog
+      - lang:js
+      - portfolio
     summary: ':octocat: personal website + blog for every github user'
     last_synced_sha: 2f8fd941db3848a4f1e2067004ea96f60ecd8608
     starred_at: "2025-12-18T09:55:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: JavaScript
@@ -45765,15 +45789,24 @@ repositories:
         published_at: "2019-08-13T10:04:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.884Z"
+      prompt_version: v2
   - repo: ChromeDevTools/awesome-chrome-devtools
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - chrome-devtools
+      - debugging-tools
+      - awesome-list
     summary: Awesome tooling and resources in the Chrome Dev Tools & Dev Tools Protocol ecosystem
     last_synced_sha: 810b8e2301af00bc187dc56a43f27d93dad4c280
     starred_at: "2025-12-18T09:54:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -45788,15 +45821,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.884Z"
+      prompt_version: v2
   - repo: JoseDeFreitas/awesome-youtubers
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - web-dev
+    tags:
+      - youtube
+      - youtubers
+      - programming-tutorials
+      - awesome-list
     summary: An awesome list of awesome You Tubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.
     last_synced_sha: ddffe18230ffd5253df0d7e38ad8b73d5f63e71b
     starred_at: "2025-12-18T09:54:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Markdown
       topics:
@@ -45814,15 +45857,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.884Z"
+      prompt_version: v2
   - repo: thangchung/clean-code-dotnet
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - productivity
+    tags:
+      - csharp
+      - clean-code
+      - solid
+      - lang:csharp
     summary: ':bathtub: Clean Code concepts and tools adapted for .NET'
     last_synced_sha: 293203db58eece40361b249f946819277b0d915e
     starred_at: "2025-12-18T09:54:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -45847,15 +45900,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.884Z"
+      prompt_version: v2
   - repo: kmaasrud/awesome-obsidian
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - obsidian
+      - customization
+      - awesome-list
+      - lang:css
     summary: "\U0001F576️ Awesome stuff for Obsidian"
     last_synced_sha: f5e4b78deb96353254b4e446434f44d6e6ab5c48
     starred_at: "2025-12-18T09:53:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics:
@@ -45871,15 +45934,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.884Z"
+      prompt_version: v2
   - repo: grpc-ecosystem/awesome-grpc
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - grpc
+      - protocol-buffers
+      - awesome-list
+      - networking-tools
     summary: A curated list of useful resources for g RPC
     last_synced_sha: eaa8bd9d9e3fdaa3328375a5fa9c5e72edf16e7d
     starred_at: "2025-12-18T09:53:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -45896,15 +45969,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.883Z"
+      prompt_version: v2
   - repo: mendel5/alternative-front-ends
     categories:
-      - unclassified
-    tags: []
+      - privacy
+      - web-dev
+    tags:
+      - frontend
+      - alternative
+      - privacy
+      - awesome-list
     summary: Overview of alternative open source front-ends for popular internet platforms (e.g. You Tube, Twitter, etc.)
     last_synced_sha: 9b2e0dab2c20632d05b15429d068722bd318a63c
     starred_at: "2025-12-18T09:53:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -45935,15 +46018,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.883Z"
+      prompt_version: v2
   - repo: meirwah/awesome-incident-response
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+    tags:
+      - incident-response
+      - cybersecurity
+      - security-tools
+      - dfir
     summary: A curated list of tools for incident response
     last_synced_sha: b1bf9b2546a5b8262b3323e1e90fbbb5b7dadbf3
     starred_at: "2025-12-18T09:53:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -45964,15 +46057,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.883Z"
+      prompt_version: v2
   - repo: NirantK/awesome-project-ideas
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - machine-learning
+      - deep-learning
+      - project-ideas
+      - awesome-list
     summary: Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas
     last_synced_sha: 31f6fb0dba79430f220ee9b77e773ed496193be6
     starred_at: "2025-12-18T09:53:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -45995,15 +46098,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.883Z"
+      prompt_version: v2
   - repo: rothgar/awesome-tmux
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - tmux
+      - terminal-tools
+      - awesome-list
     summary: A list of awesome resources for tmux
     last_synced_sha: 41e77fc9edad4281b6067a3439442f97ddffe53b
     starred_at: "2025-12-18T09:52:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -46019,15 +46131,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.883Z"
+      prompt_version: v2
   - repo: edoardottt/awesome-hacker-search-engines
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - hacking
+      - osint
+      - redteaming
+      - bugbounty
     summary: A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more
     last_synced_sha: a16883047cece3455c411ad4bcec52ffa49abce7
     starred_at: "2025-12-18T09:52:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -46060,15 +46182,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.883Z"
+      prompt_version: v2
   - repo: heynickc/awesome-ddd
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - productivity
+    tags:
+      - ddd
+      - cqrs
+      - event-sourcing
+      - awesome-list
     summary: A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources
     last_synced_sha: ff5ba393ab8e0a0387ec56df958de4d5d5022ccb
     starred_at: "2025-12-18T09:50:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -46084,15 +46216,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.883Z"
+      prompt_version: v2
   - repo: mfornos/awesome-microservices
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - devops
+    tags:
+      - microservices
+      - cloud-computing
+      - awesome-list
     summary: A curated list of Microservice Architecture related principles and technologies.
     last_synced_sha: 8125ef285131ccc916b4a264af32091eff91ea96
     starred_at: "2025-12-18T09:49:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -46110,6 +46251,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:56:10.883Z"
+      prompt_version: v2
   - repo: agarrharr/awesome-cli-apps
     categories:
       - cli-tools
