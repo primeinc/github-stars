@@ -127,19 +127,21 @@ jobs:
         shell: bash
         run: |
           url="https://primeinc.github.io/github-stars/"
-          echo "Waiting for $url to be ready..."
-          for i in {1..30}; do
+          echo "Waiting for $url to be ready (must contain '<title>web</title>')..."
+          for i in {1..60}; do
             # Use -H "Cache-Control: no-cache" to avoid CDN cache
-            # Check for the <title>web</title> in the output
+            # Check for the exact <title>web</title>
             content=$(curl -sL -H "Cache-Control: no-cache" "$url")
-            if [[ "$content" == *"web"* ]]; then
+            if [[ "$content" == *"<title>web</title>"* ]]; then
               echo "Attempt $i: Site is ready!"
+              # Extra safety: wait 10 more seconds for CDN to settle across all nodes
+              sleep 10
               exit 0
             fi
-            echo "Attempt $i: Site not ready yet or showing 404... (waiting 10s)"
+            echo "Attempt $i: Site not ready yet (status: $(curl -s -o /dev/null -w "%{http_code}" "$url")). Waiting 10s..."
             sleep 10
           done
-          echo "::error::Site did not respond correctly after 300s"
+          echo "::error::Site did not respond correctly after 600s"
           exit 1
 
       - name: Run Playwright tests
