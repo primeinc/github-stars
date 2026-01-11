@@ -5,6 +5,14 @@
       "type": "remote",
       "url": "https://learn.microsoft.com/api/mcp",
       "enabled": true
+    },
+    "playwright": {
+      "type": "local",
+      "command": [
+        "npx",
+        "@playwright/mcp@latest"
+      ],
+      "enabled": true
     }
   }
 }

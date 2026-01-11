@@ -11,6 +11,14 @@
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
 </head>
 <body>
+    <!-- Mobile: Hamburger Toggle -->
+    <button id="sidebar-toggle" class="sidebar-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+    
+    <!-- Mobile: Overlay (closes drawer on tap) -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
     <div id="app-layout">
         <!-- Sidebar: Facets & Filters -->
         <aside id="sidebar">
@@ -39,6 +47,16 @@
                             <input type="checkbox" id="filter-template">
                             <span>Templates Only</span>
                         </label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <h3>Category</h3>
+                        <button class="clear-btn" id="clear-category" hidden>Clear</button>
+                    </div>
+                    <div id="facet-category" class="facet-list">
+                        <!-- Populated by JS -->
                     </div>
                 </div>
 
