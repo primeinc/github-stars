@@ -109,7 +109,7 @@ jobs:
     needs: build-and-deploy
     timeout-minutes: 10
     container:
-      image: mcr.microsoft.com/playwright:v1.49.0-noble
+      image: mcr.microsoft.com/playwright:v1.57.0-noble
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
