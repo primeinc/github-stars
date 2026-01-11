@@ -15,7 +15,7 @@
 | [freelawproject/courtlistener](https://github.com/freelawproject/courtlistener) | A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial financial records, and federal filings. | `Python` ★ 815 | 2026-01-11 |
 | [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) | The first "code-first" agent framework for seamlessly planning and executing data analytics tasks. | `Python` ★ 6.1k | 2026-01-07 |
 | [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2) | Official Python inference and Lo RA trainer package for the LTX-2 audio–video generative model. | `Python` ★ 2k | 2026-01-08 |
-| [samuel-vitorino/sopro](https://github.com/samuel-vitorino/sopro) | A lightweight text-to-speech model with zero-shot voice cloning | `Python` ★ 655 | 2026-01-07 |
+| [samuel-vitorino/sopro](https://github.com/samuel-vitorino/sopro) | A lightweight text-to-speech model with zero-shot voice cloning | `Python` ★ 656 | 2026-01-07 |
 | [jamichss/Stream-DiffVSR](https://github.com/jamichss/Stream-DiffVSR) | The official repository of paper "Stream-Diff VSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion" | `Python` ★ 233 | 2026-01-08 |
 | [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11k | 2026-01-10 |
 | [mourad-ghafiri/youtube-mcp-server](https://github.com/mourad-ghafiri/youtube-mcp-server) | A powerful Model Context Protocol (MCP) server for You Tube video transcription and metadata extraction. | `Python` ★ 48 | 2026-01-03 |

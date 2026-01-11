@@ -1,6 +1,6 @@
 # Tag: cross-platform
 
-*13 repositories*
+*14 repositories*
 
 [← Back to Index](../README.md)
 
@@ -19,3 +19,4 @@
 | [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | A modern download manager that supports all platforms. Built with Golang and Flutter. | `Go` ★ 22.4k | 2026-01-11 |
 | [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) | A Foundation for Scalable Cross-Platform Apps | `TypeScript` ★ 24.2k | 2025-09-22 |
 | [KRTirtho/spotube](https://github.com/KRTirtho/spotube) | 🎧 Open source music streaming app! Available for both desktop & mobile! | `Dart` ★ 43.6k | 2026-01-09 |
+| [xbmc/xbmc](https://github.com/xbmc/xbmc) | Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available f... | `C++` ★ 20.3k | 2026-01-11 |

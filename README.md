@@ -1,6 +1,6 @@
 # Awesome Starred Repositories
 
-> A curated list of **700** repositories, automatically classified and organized.
+> A curated list of **1959** repositories, automatically classified and organized.
 
 Last updated: 2026-01-11
 
@@ -8,10 +8,10 @@ Last updated: 2026-01-11
 
 
 ### A
-- [ai-ml](categories/ai-ml.md) *(204)*
-- [apis](categories/apis.md) *(60)*
+- [ai-ml](categories/ai-ml.md) *(205)*
+- [apis](categories/apis.md) *(63)*
 - [audio](categories/audio.md) *(1)*
-- [automation](categories/automation.md) *(52)*
+- [automation](categories/automation.md) *(54)*
 
 ### C
 - [cli-tools](categories/cli-tools.md) *(61)*
@@ -21,10 +21,10 @@ Last updated: 2026-01-11
 
 ### D
 - [data-science](categories/data-science.md) *(63)*
-- [databases](categories/databases.md) *(20)*
+- [databases](categories/databases.md) *(23)*
 - [deployment](categories/deployment.md) *(9)*
 - [design](categories/design.md) *(2)*
-- [desktop-dev](categories/desktop-dev.md) *(46)*
+- [desktop-dev](categories/desktop-dev.md) *(47)*
 - [dev-tools](categories/dev-tools.md) *(96)*
 - [devops](categories/devops.md) *(29)*
 - [document-processing](categories/document-processing.md) *(1)*
@@ -46,6 +46,7 @@ Last updated: 2026-01-11
 - [home-automation](categories/home-automation.md) *(1)*
 
 ### I
+- [image-processing](categories/image-processing.md) *(1)*
 - [infrastructure](categories/infrastructure.md) *(33)*
 
 ### L
@@ -55,37 +56,39 @@ Last updated: 2026-01-11
 - [media](categories/media.md) *(2)*
 - [media-server](categories/media-server.md) *(2)*
 - [mobile-dev](categories/mobile-dev.md) *(9)*
-- [monitoring](categories/monitoring.md) *(20)*
+- [monitoring](categories/monitoring.md) *(21)*
+- [multimedia](categories/multimedia.md) *(1)*
 
 ### N
-- [networking](categories/networking.md) *(47)*
+- [networking](categories/networking.md) *(50)*
 
 ### P
 - [privacy](categories/privacy.md) *(1)*
-- [productivity](categories/productivity.md) *(157)*
+- [productivity](categories/productivity.md) *(160)*
 - [programming](categories/programming.md) *(1)*
 
 ### S
-- [security](categories/security.md) *(74)*
-- [system-admin](categories/system-admin.md) *(54)*
+- [security](categories/security.md) *(75)*
+- [system-admin](categories/system-admin.md) *(57)*
 
 ### T
 - [testing](categories/testing.md) *(10)*
 - [tools](categories/tools.md) *(1)*
 
 ### U
-- [ui-libraries](categories/ui-libraries.md) *(70)*
+- [ui-libraries](categories/ui-libraries.md) *(73)*
+- [unclassified](categories/unclassified.md) *(1244)*
 
 ### V
 - [video-dev](categories/video-dev.md) *(1)*
 - [video-processing](categories/video-processing.md) *(3)*
 
 ### W
-- [web-dev](categories/web-dev.md) *(94)*
+- [web-dev](categories/web-dev.md) *(98)*
 
 ## 🏷️ Popular Tags
 
-[azure](tags/azure.md) (36) • [ai](tags/ai.md) (32) • [react](tags/react.md) (29) • [awesome-list](tags/awesome-list.md) (25) • [automation](tags/automation.md) (25) • [llm](tags/llm.md) (23) • [self-hosted](tags/self-hosted.md) (20) • [cli](tags/cli.md) (17) • [nextjs](tags/nextjs.md) (15) • [ai-agents](tags/ai-agents.md) (15) • [windows](tags/windows.md) (14) • [cross-platform](tags/cross-platform.md) (13) • [machine-learning](tags/machine-learning.md) (13) • [privacy](tags/privacy.md) (12) • [terminal](tags/terminal.md) (10) • [markdown](tags/markdown.md) (9) • [ai-tools](tags/ai-tools.md) (8) • [docker](tags/docker.md) (8) • [llms](tags/llms.md) (8) • [resources](tags/resources.md) (7) • [osint](tags/osint.md) (7) • [kubernetes](tags/kubernetes.md) (7) • [high-performance](tags/high-performance.md) (7) • [api-management](tags/api-management.md) (7) • [deep-learning](tags/deep-learning.md) (7) • [customization](tags/customization.md) (7) • [open-source](tags/open-source.md) (7) • [api](tags/api.md) (6) • [encryption](tags/encryption.md) (6) • [agents](tags/agents.md) (6)
+[azure](tags/azure.md) (36) • [ai](tags/ai.md) (32) • [react](tags/react.md) (29) • [awesome-list](tags/awesome-list.md) (25) • [automation](tags/automation.md) (25) • [llm](tags/llm.md) (23) • [self-hosted](tags/self-hosted.md) (20) • [cli](tags/cli.md) (17) • [nextjs](tags/nextjs.md) (15) • [ai-agents](tags/ai-agents.md) (15) • [cross-platform](tags/cross-platform.md) (14) • [windows](tags/windows.md) (14) • [machine-learning](tags/machine-learning.md) (13) • [privacy](tags/privacy.md) (12) • [terminal](tags/terminal.md) (10) • [markdown](tags/markdown.md) (9) • [ai-tools](tags/ai-tools.md) (8) • [docker](tags/docker.md) (8) • [llms](tags/llms.md) (8) • [resources](tags/resources.md) (7) • [osint](tags/osint.md) (7) • [kubernetes](tags/kubernetes.md) (7) • [high-performance](tags/high-performance.md) (7) • [api-management](tags/api-management.md) (7) • [deep-learning](tags/deep-learning.md) (7) • [customization](tags/customization.md) (7) • [open-source](tags/open-source.md) (7) • [api](tags/api.md) (6) • [encryption](tags/encryption.md) (6) • [agents](tags/agents.md) (6)
 
 ## ⭐ Recently Starred
 

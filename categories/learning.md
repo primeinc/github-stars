@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) | A collaborative list of public APIs for developers | `JavaScript` ★ 7.6k | 2026-01-07 |
 | [3b1b/manim](https://github.com/3b1b/manim) | Animation engine for explanatory math videos | `Python` ★ 83.6k | 2025-10-20 |
-| [alexzhang13/rlm](https://github.com/alexzhang13/rlm) | General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes. | `Python` ★ 887 | 2026-01-11 |
+| [alexzhang13/rlm](https://github.com/alexzhang13/rlm) | General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes. | `Python` ★ 888 | 2026-01-11 |
 | [code-yeongyu/agent-engineering-guide](https://github.com/code-yeongyu/agent-engineering-guide) | Aren't you curious how i made Sisyphus? And what could be more? | ★ 9 | 2026-01-04 |
 | [lirang04/GroundingME](https://github.com/lirang04/GroundingME) | Evaluation Code for Grounding ME | `Python` ★ 7 | 2025-12-26 |
 | [NullandKale/NullSplats](https://github.com/NullandKale/NullSplats) | No description provided | `Python` ★ 112 | 2026-01-11 |
