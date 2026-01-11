@@ -7,6 +7,10 @@ on:
         description: 'Repos per batch'
         type: number
         default: 15
+  workflow_run:
+    workflows: ["Sync Starred Repos"]
+    types:
+      - completed
 
 permissions:
   contents: write
@@ -20,6 +24,7 @@ env:
 jobs:
   classify:
     runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     steps:
       - uses: actions/checkout@v6
         with:
