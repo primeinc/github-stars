@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:54:21.025Z"
+  last_updated: "2026-01-11T02:54:39.338Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -47903,13 +47903,19 @@ repositories:
       mirror_url: null
   - repo: CoplayDev/unity-mcp
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ai-ml
+    tags:
+      - unity
+      - ai-integration
+      - mcp
+      - game-development
+      - lang:csharp
     summary: Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage a...
     last_synced_sha: 4c9beaffdefadee03c07f00eb3e3b6c5294fc99d
     starred_at: "2025-11-29T01:44:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -47942,15 +47948,26 @@ repositories:
         published_at: "2026-01-08T16:01:54Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.338Z"
+      prompt_version: v2
   - repo: dembrandt/dembrandt
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - design-system
+      - automation
+      - front-end
+      - design-tokens
+      - lang:js
     summary: 'Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command.'
     last_synced_sha: 860906eb741d9fef9a37c25ddd80ae783e38525f
     starred_at: "2025-11-27T00:07:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -47981,15 +47998,25 @@ repositories:
         published_at: "2025-12-29T17:23:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.338Z"
+      prompt_version: v2
   - repo: ArcadeAI/blueprint-mcp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - system-admin
+    tags:
+      - diagram-generation
+      - architecture
+      - codebase-analysis
+      - lang:python
     summary: Diagram generation for understanding codebases and system architecture using Nano Banana Pro.
     last_synced_sha: e843005cf3e7fd8f823499ead9d603b5e78a3801
     starred_at: "2025-11-27T00:05:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -48002,15 +48029,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.338Z"
+      prompt_version: v2
   - repo: microsoft/vscode-mermAId
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - diagram-generation
+      - copilot
+      - vscode
+      - lang:ts
     summary: Exploration into Copilot Chat-powered Diagram Generation
     last_synced_sha: 42dab981c9372317de554e84b69800b6abc4bc7f
     starred_at: "2025-11-25T19:15:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -48025,15 +48062,24 @@ repositories:
         published_at: "2025-02-21T00:58:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.338Z"
+      prompt_version: v2
   - repo: Azure/apim-landing-zone-accelerator
     categories:
-      - unclassified
-    tags: []
+      - infrastructure
+      - apis
+    tags:
+      - landing-zone
+      - api-management
+      - azure
     summary: The Azure API Management landing zone accelerator provides an architectural approach and reference implementation to prepare landing zone subscriptions for a secure API Management infrastructure.
     last_synced_sha: 0180a563a0131224d4ae149508d5d45645a4928e
     starred_at: "2025-11-25T16:17:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HCL
       topics:
@@ -48048,15 +48094,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.338Z"
+      prompt_version: v2
   - repo: ealsur/serverlessnotifications
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - networking
+    tags:
+      - serverless
+      - azure-functions
+      - signalr
+      - azure
+      - lang:js
     summary: Serverless notifications with Azure Cosmos DB + Azure Functions + Azure Signal R
     last_synced_sha: 82bd7187925d034c4555d7a724cf82b48a22be38
     starred_at: "2025-11-25T15:27:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -48074,15 +48131,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.338Z"
+      prompt_version: v2
   - repo: microsoft/vscode-cosmosdb
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - databases
+    tags:
+      - vscode-extension
+      - cosmos-db
+      - nosql
+      - lang:ts
     summary: Azure Cosmos DB extension for VS Code
     last_synced_sha: 37add230f2e0447d186a65706c539225f38aca6a
     starred_at: "2025-11-25T15:26:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48102,15 +48169,26 @@ repositories:
         published_at: "2025-11-14T11:25:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.338Z"
+      prompt_version: v2
   - repo: satnaing/shadcn-admin
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - admin-dashboard
+      - dashboard
+      - shadcn
+      - vite
+      - lang:ts
     summary: Admin Dashboard UI built with Shadcn and Vite.
     last_synced_sha: d86ee05a0667ad5b72b8119affa2a0b11cc27fad
     starred_at: "2025-11-25T10:11:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48130,15 +48208,26 @@ repositories:
         published_at: "2025-11-06T13:48:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.338Z"
+      prompt_version: v2
   - repo: microsoft/vscode-copilot-chat
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - copilot
+      - chat
+      - vscode
+      - lang:ts
+      - code-extension
     summary: Copilot Chat extension for VS Code
     last_synced_sha: d193e5dbba9255e3c48d6ce334b4a1a76504b09d
     starred_at: "2025-11-25T09:28:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -48153,15 +48242,24 @@ repositories:
         published_at: "2026-01-09T09:09:23Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.338Z"
+      prompt_version: v2
   - repo: KHUSS92/RentcastBackend
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - backend
+      - api
+      - lang:csharp
     summary: No description provided
     last_synced_sha: 3d2507aff58387e83361b05aaf0cf432673b99e4
     starred_at: "2025-11-25T06:08:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -48174,15 +48272,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.338Z"
+      prompt_version: v2
   - repo: Azure/azure-api-management-policy-toolkit
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - testing
+    tags:
+      - api-management
+      - policy-testing
+      - lang:csharp
+      - azure
     summary: Azure API Management policy toolkit is a set of libraries and tools to help managing and testing policies.
     last_synced_sha: be47bdbc2fcb51656997833dc4ee6d0eda2785f1
     starred_at: "2025-11-25T05:42:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -48201,15 +48309,24 @@ repositories:
         published_at: "2025-04-04T11:42:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.338Z"
+      prompt_version: v2
   - repo: Azure/api-management-policy-snippets
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - learning
+    tags:
+      - api-management
+      - policy-snippets
+      - azure
     summary: Re-usable examples of Azure API Management policies
     last_synced_sha: 2a9382f03e4484a3836a6e07f89849ce1ebe4896
     starred_at: "2025-11-25T05:42:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -48222,15 +48339,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.338Z"
+      prompt_version: v2
   - repo: Azure-Samples/dab-swa-wonders
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - databases
+    tags:
+      - jamstack
+      - data-api
+      - cosmos-db
+      - graphql
+      - lang:ts
     summary: Boost your developer productivity by creating end-to-end apps quickly! Using Azure Data API Builder for Cosmos DB, this app shows how to build JAMstack apps fast with Cosmos DB as your backend.
     last_synced_sha: 5e074946db72972f983d5cc51d79772c4a120e0c
     starred_at: "2025-11-25T05:39:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48247,15 +48375,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.337Z"
+      prompt_version: v2
   - repo: AzureCosmosDB/banking-multi-agent-workshop
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - apis
+    tags:
+      - multi-agent
+      - banking
+      - semantic-kernel
+      - angular
+      - lang:python
     summary: A multi-agent sample and workshop for a retail banking scenario. Implemented in both C# using Semantic Kernel Agents and Python using Lang Graph and Angular as Frontend!
     last_synced_sha: 14815a27aaf558804688c6ac7573cc35c4fced13
     starred_at: "2025-11-25T05:35:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -48268,15 +48407,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.337Z"
+      prompt_version: v2
   - repo: microsoft/CosmosDB_Multi-Tenant
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - infrastructure
+    tags:
+      - multi-tenant
+      - cosmos-db
+      - azure
     summary: Cosmos DB for Multi-Tenant Applications
     last_synced_sha: f767aa958813ef2142381cc5126fb1828074a93d
     starred_at: "2025-11-25T05:34:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -48289,6 +48437,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:39.334Z"
+      prompt_version: v2
   - repo: tremorlabs/tremor-blocks
     categories:
       - ui-libraries
