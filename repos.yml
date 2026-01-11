@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:48:18.478Z"
+  last_updated: "2026-01-11T02:48:34.309Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -56323,13 +56323,19 @@ repositories:
       mirror_url: null
   - repo: StudentiUniMi/website
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - lang:ts
+      - nextjs
+      - react
+      - university
+      - ssr
     summary: Web application built with Next.js 15 and React 19 (TS), designed to provide students of the University of Milan with seamless access to academic groups and university services. The interface is de...
     last_synced_sha: f090514c5605390e270ec6d82552aead1315493d
     starred_at: "2025-09-24T08:18:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -56362,15 +56368,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.309Z"
+      prompt_version: v2
   - repo: d2phap/fluent-reveal-effect
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - lang:ts
+      - fluent-design
+      - ui-kit
+      - reveal-effect
+      - javascript-library
     summary: Fluent Reveal Effect Java Script library for web
     last_synced_sha: 4f477c7ea8af1acc2a6e8776083ffd806639b3f4
     starred_at: "2025-09-24T08:16:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -56395,15 +56412,26 @@ repositories:
         published_at: "2025-08-02T08:33:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.309Z"
+      prompt_version: v2
   - repo: gin-gonic/gin
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - lang:go
+      - http-framework
+      - high-performance
+      - router
+      - middleware
     summary: Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for ...
     last_synced_sha: 9914178584e42458ff7d23891463a880f58c9d86
     starred_at: "2025-09-24T07:03:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -56425,15 +56453,26 @@ repositories:
         published_at: "2025-09-20T11:42:48Z"
       is_mirror: false
       mirror_url: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.308Z"
+      prompt_version: v2
   - repo: rocksdanister/weather
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - lang:csharp
+      - directx-12
+      - weather-app
+      - fluent-ui
+      - customizable
     summary: Windows native weather app powered by Direct X12 animations
     last_synced_sha: 5ce4f44509cfd03bee5c4268bf30aa4391ef45c3
     starred_at: "2025-09-24T06:29:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -56468,15 +56507,24 @@ repositories:
         published_at: "2024-12-12T17:19:25Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.308Z"
+      prompt_version: v2
   - repo: thesephist/superstat
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - git-status
+      - git-diff
+      - cli-tool
     summary: Git status + diff across every repo in a directory
     last_synced_sha: 8adad71cd64a48d02e75978acf80ba6756a826e9
     starred_at: "2025-09-24T06:23:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Makefile
       topics:
@@ -56493,15 +56541,25 @@ repositories:
         published_at: "2022-07-27T21:08:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.308Z"
+      prompt_version: v2
   - repo: thesephist/burds
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - lang:js
+      - animation
+      - birds
+      - simulation
     summary: Just some burds, jumpin' around in their own little world.
     last_synced_sha: 5ada8b58d87efdd049c9210aedc0fd392a067c2a
     starred_at: "2025-09-24T06:21:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -56517,15 +56575,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.308Z"
+      prompt_version: v2
   - repo: slenered/MusicWallpaper
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - lang:js
+      - music-display
+      - wallpaper
     summary: A simple and sleek way to show your actively playing music.
     last_synced_sha: dfceff6f616e5a8f9bdeedefd9d92efe98c967c7
     starred_at: "2025-09-24T06:11:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -56540,15 +56607,25 @@ repositories:
         published_at: "2024-12-26T09:28:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.308Z"
+      prompt_version: v2
   - repo: Aprotonix/Rainbow-Music-Visualizer-Wallpaper
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - lang:js
+      - wallpaper
+      - music-visualizer
+      - customization
     summary: Customizable Live Wallpaper showing the music and date
     last_synced_sha: 395d7c64c702d6fdf9fdf322dad238fc45661848
     starred_at: "2025-09-24T06:10:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -56563,15 +56640,24 @@ repositories:
         published_at: "2025-04-14T16:18:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.308Z"
+      prompt_version: v2
   - repo: CatWaterCodes/ImageToParallaxWallpaper
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - lang:python
+      - parallax
+      - image-processing
     summary: A simple tool that allows you to create parallax wallpapers using html/css/js from a single image.
     last_synced_sha: f2273b0953986b21f3bddd452df17ba232382c42
     starred_at: "2025-09-24T06:09:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -56584,15 +56670,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.308Z"
+      prompt_version: v2
   - repo: cloudflare/capnweb
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - lang:ts
+      - rpc-system
+      - low-boilerplate
+      - decentralized
     summary: Java Script/Type Script-native, low-boilerplate, object-capability RPC system
     last_synced_sha: 34ce42c915737374e5d8c760fe157e4ec6fd18e8
     starred_at: "2025-09-24T05:22:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -56607,15 +56703,25 @@ repositories:
         published_at: "2025-12-24T14:59:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.308Z"
+      prompt_version: v2
   - repo: kalivaraprasad-gonapa/react-mcp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - lang:js
+      - react
+      - app-development
+      - prompts
     summary: react-mcp integrates with Claude Desktop, enabling the creation and modification of React apps based on user prompts
     last_synced_sha: 984adb923aa65dde7cb3b06c70860f1bd6fed2a7
     starred_at: "2025-09-24T05:09:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -56628,15 +56734,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.308Z"
+      prompt_version: v2
   - repo: yjs/yjs
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+    tags:
+      - lang:js
+      - crdt
+      - collaboration
+      - realtime
+      - offline-first
     summary: Shared data types for building collaborative software
     last_synced_sha: 8cc17fc5848ba3e2b660fd3612032475047b162d
     starred_at: "2025-09-24T04:45:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -56661,15 +56778,24 @@ repositories:
         published_at: "2026-01-03T13:04:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.308Z"
+      prompt_version: v2
   - repo: its-a-feature/Mythic
     categories:
-      - unclassified
-    tags: []
+      - security
+      - frameworks
+    tags:
+      - lang:js
+      - red-teaming
+      - multi-platform
     summary: A collaborative, multi-platform, red teaming framework
     last_synced_sha: 54e6cc5d32e40fda23db22d28873700affc483cf
     starred_at: "2025-09-24T04:44:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -56684,15 +56810,24 @@ repositories:
         published_at: "2025-10-10T01:31:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.308Z"
+      prompt_version: v2
   - repo: MythicAgents/Apollo
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - lang:csharp
+      - red-teaming
+      - net-framework
     summary: A .NET Framework 4.0 Windows Agent
     last_synced_sha: 64946d938bd7328e80807e264081407d6b7f9185
     starred_at: "2025-09-24T04:44:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -56707,15 +56842,24 @@ repositories:
         published_at: "2024-08-28T15:19:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.308Z"
+      prompt_version: v2
   - repo: hotnops/AzureScripts
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - system-admin
+    tags:
+      - powershell
+      - azure
+      - scripts
     summary: Random scripts for azure stuff
     last_synced_sha: 6bf7587f2a972e65c98db40c21890a2cdb18c596
     starred_at: "2025-09-24T04:41:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -56728,6 +56872,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:48:34.307Z"
+      prompt_version: v2
   - repo: SpecterOps/TierZeroTable
     categories:
       - documentation
