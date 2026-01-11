@@ -16,8 +16,8 @@ test('has title and loads repository data', async ({ page }) => {
   console.log('Title verified. Checking for application shell...');
 
   // Wait for the application shell to load (sidebar should contain categories)
-  await expect(page.getByText('Categories')).toBeVisible({ timeout: 15000 });
-  await expect(page.getByText('Star Vault')).toBeVisible({ timeout: 15000 });
+  await expect(page.getByText('Categories', { exact: true })).toBeVisible({ timeout: 15000 });
+  await expect(page.getByText('Star Vault', { exact: true })).toBeVisible({ timeout: 15000 });
 
   console.log('App shell loaded. Verifying repository list...');
 
