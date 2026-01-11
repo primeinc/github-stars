@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:57:28.933Z"
+  last_updated: "2026-01-11T02:57:44.796Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -43621,13 +43621,18 @@ repositories:
       mirror_url: null
   - repo: antvis/Infographic
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - infographics
+      - visualization
+      - llm
+      - lang:ts
     summary: "\U0001F98B An Infographic Generation and Rendering Framework, bring words to life with AI!"
     last_synced_sha: 0fd85695b75a76f539a4373b9b77016adebe51f0
     starred_at: "2025-12-28T08:27:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43647,15 +43652,24 @@ repositories:
         published_at: "2026-01-07T09:36:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.796Z"
+      prompt_version: v2
   - repo: MyOnee/R
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - infrastructure
+    tags:
+      - rdp
+      - free-rdp
+      - automation
     summary: Free RDP from Github Actions
     last_synced_sha: f353e72f3cc31678442c123a6bab6380941b902d
     starred_at: "2025-12-28T08:25:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -43671,15 +43685,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.796Z"
+      prompt_version: v2
   - repo: anuraghazra/github-readme-stats
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - github-readme
+      - readme-generator
+      - lang:js
+      - dynamic-stats
     summary: ':zap: Dynamically generated stats for your github readmes'
     last_synced_sha: 8108ba1417faaad7182399e01dd724777adc63e5
     starred_at: "2025-12-28T08:24:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -43697,15 +43721,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.796Z"
+      prompt_version: v2
   - repo: image-rs/fdeflate
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - dev-tools
+    tags:
+      - lang:rust
+      - compression
+      - png
+      - deflate
     summary: Fast deflate implementation specialized for PNG image data
     last_synced_sha: 78460f821df814921af0d861c0e089637316ba7c
     starred_at: "2025-12-28T07:35:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -43718,15 +43752,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.796Z"
+      prompt_version: v2
   - repo: siddharthvaddem/openscreen
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - screen-recording
+      - lang:ts
+      - electron
+      - media-tools
     summary: Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.
     last_synced_sha: 78cfb64f98aa76aa0b6f1e1f8b3c3b989aaccee6
     starred_at: "2025-12-28T07:34:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43746,15 +43790,25 @@ repositories:
         published_at: "2025-12-14T17:56:57Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.796Z"
+      prompt_version: v2
   - repo: hosenur/portal
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - ai
+      - lang:ts
+      - git-integration
+      - web-ui
     summary: Mobile first batteries included web ui for sst/opencode. Git integration, in browser terminal, isolated workspaces.
     last_synced_sha: 15ca42c7adab79f4fc54b610b037f12aa4e54d69
     starred_at: "2025-12-28T07:34:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43773,15 +43827,24 @@ repositories:
         published_at: "2026-01-06T12:29:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.796Z"
+      prompt_version: v2
   - repo: Azure-Samples/ai-hub-gateway-solution-accelerator
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+    tags:
+      - api-gateway
+      - azure
+      - reference-architecture
     summary: Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure ...
     last_synced_sha: e5a5aeeca88d61db8dd12dba69c1a271831bdbc0
     starred_at: "2025-12-28T07:34:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -43794,15 +43857,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.796Z"
+      prompt_version: v2
   - repo: pqoqubbw/icons
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - animated-icons
+      - design
+      - ui
+      - lang:ts
     summary: beautifully crafted animated icons
     last_synced_sha: dc15a9d6e044f1c9cd3b471816b676c0f40e2f15
     starred_at: "2025-12-28T07:33:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -43815,15 +43888,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.796Z"
+      prompt_version: v2
   - repo: eat-pray-ai/yutu
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - automation
+    tags:
+      - lang:go
+      - cli
+      - youtube
+      - automation
+      - bot
     summary: A fully functional MCP server and CLI for You Tube
     last_synced_sha: dd0bb65660fbbb93c9ce9ca1d81cbfa3fa2f1207
     starred_at: "2025-12-28T07:31:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -43854,15 +43938,24 @@ repositories:
         published_at: "2025-12-25T15:42:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.795Z"
+      prompt_version: v2
   - repo: lirang04/GroundingME
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - evaluation-tool
+      - lang:python
+      - academic-research
     summary: Evaluation Code for Grounding ME
     last_synced_sha: aeb824e0bdd526d944b3fbb7456f503e5391f575
     starred_at: "2025-12-28T07:23:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -43875,15 +43968,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.795Z"
+      prompt_version: v2
   - repo: microsoft/vscode-generator-code
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - code-generator
+      - lang:js
+      - vscode-extensions
     summary: Visual Studio Code extension generator
     last_synced_sha: 0aa8e163090f0708b1edea54e22c8e4cecbfc8bd
     starred_at: "2025-12-28T07:16:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -43898,15 +44000,26 @@ repositories:
         published_at: "2026-01-09T18:15:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.795Z"
+      prompt_version: v2
   - repo: Kong/insomnia
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - api-client
+      - rest-api
+      - graphql
+      - lang:ts
+      - websockets
     summary: The open-source, cross-platform API client for Graph QL, REST, Web Sockets, SSE and g RPC. With Cloud, Local and Git storage.
     last_synced_sha: 752146122cc819e5318f907f5c6341e3e8e213fd
     starred_at: "2025-12-28T06:37:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43931,15 +44044,25 @@ repositories:
         published_at: "2025-12-19T01:12:49Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.795Z"
+      prompt_version: v2
   - repo: nccgroup/wssip
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - websockets
+      - lang:js
+      - network-analysis
+      - websocket-proxy
     summary: Application for capturing, modifying and sending custom Web Socket data from client to server and vice versa.
     last_synced_sha: 56d0d2c15a7c0fd4c99be445ec8d6c16571e81a0
     starred_at: "2025-12-28T06:37:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -43959,15 +44082,24 @@ repositories:
         published_at: "2017-11-27T19:25:12Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.795Z"
+      prompt_version: v2
   - repo: trustedsec/social-engineer-toolkit
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - social-engineering
+      - exploitation-tools
+      - lang:python
     summary: The Social-Engineer Toolkit (SET) repository from Trusted Sec - All new versions of SET will be deployed here.
     last_synced_sha: 43a5702025877acf3482b52c4ba824ece87b02a2
     starred_at: "2025-12-28T04:27:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -43980,15 +44112,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.795Z"
+      prompt_version: v2
   - repo: memstechtips/Winhance
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - windows-optimization
+      - lang:csharp
+      - customization
+      - windows
     summary: Application designed to optimize, customize and enhance your Windows experience.
     last_synced_sha: 0084d973603379dc0afbbcc6db61bcc162679fef
     starred_at: "2025-12-28T04:23:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -44009,6 +44151,11 @@ repositories:
         published_at: "2025-12-12T14:10:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:44.792Z"
+      prompt_version: v2
   - repo: farion1231/cc-switch
     categories:
       - desktop-dev
