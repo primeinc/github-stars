@@ -15,14 +15,14 @@
 | [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 33.8k | 2026-01-09 |
 | [TwiN/gatus](https://github.com/TwiN/gatus) | Automated developer-oriented status page with alerting and incident support | `Go` ★ 9.6k | 2026-01-10 |
 | [MyOnee/R](https://github.com/MyOnee/R) | Free RDP from Github Actions | `Batchfile` ★ 46 | 2025-06-13 |
-| [nicotsx/zerobyte](https://github.com/nicotsx/zerobyte) | Backup automation for self-hosters. Built on top of restic | `TypeScript` ★ 4.8k | 2026-01-10 |
+| [nicotsx/zerobyte](https://github.com/nicotsx/zerobyte) | Backup automation for self-hosters. Built on top of restic | `TypeScript` ★ 4.8k | 2026-01-11 |
 | [Azure-Player/azure.datafactory.tools](https://github.com/Azure-Player/azure.datafactory.tools) | Tools for deploying Data Factory (v2) in Microsoft Azure | `PowerShell` ★ 259 | 2025-10-24 |
 | [Azure/ALZ-PowerShell-Module](https://github.com/Azure/ALZ-PowerShell-Module) | The Azure Landing Zones Accelerators Power Shell module | `PowerShell` ★ 107 | 2026-01-10 |
 | [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) | A curated list of Microservice Architecture related principles and technologies. | ★ 14.1k | 2025-01-20 |
 | [Azure/ALZ-Bicep](https://github.com/Azure/ALZ-Bicep) | This repository contains the Azure Landing Zones (ALZ) Bicep modules that help deliver and deploy the Azure Landing Zone conceptual architecture in a modular approach. https://aka.ms/alz/docs | `Bicep` ★ 864 | 2026-01-05 |
 | [HotCakeX/Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security) | Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Pers... | `C#` ★ 4k | 2025-12-30 |
-| [pshenok/server-survival](https://github.com/pshenok/server-survival) | Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. | `JavaScript` ★ 4k | 2026-01-10 |
-| [stan-smith/FossFLOW](https://github.com/stan-smith/FossFLOW) | Make beautiful isometric infrastructure diagrams | `TypeScript` ★ 16k | 2026-01-10 |
+| [pshenok/server-survival](https://github.com/pshenok/server-survival) | Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. | `JavaScript` ★ 4.1k | 2026-01-10 |
+| [stan-smith/FossFLOW](https://github.com/stan-smith/FossFLOW) | Make beautiful isometric infrastructure diagrams | `TypeScript` ★ 16k | 2026-01-11 |
 | [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (`azd`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 237 | 2026-01-07 |
 | [CompositionalIT/farmer](https://github.com/CompositionalIT/farmer) | Repeatable Azure deployments with ARM templates - made easy! | `F#` ★ 546 | 2025-12-10 |
 | [Azure/deployment-stacks](https://github.com/Azure/deployment-stacks) | Contains Deployment Stacks CLI scripts and releases | `Bicep` ★ 98 | 2024-10-24 |
@@ -33,7 +33,7 @@
 | [Azure/apiops](https://github.com/Azure/apiops) | APIOps applies the concepts of Git Ops and Dev Ops to API deployment. By using practices from these two methodologies, APIOps can enable everyone involved in the lifecycle of API design, developmen... | `C#` ★ 409 | 2026-01-07 |
 | [Azure-Samples/infra-support-copilot](https://github.com/Azure-Samples/infra-support-copilot) | No description provided | `Python` ★ 1 | 2025-12-17 |
 | [microsoft/Microsoft365DSC](https://github.com/microsoft/Microsoft365DSC) | Manages, configures, extracts and monitors Microsoft 365 tenant configurations | `PowerShell` ★ 2.1k | 2026-01-08 |
-| [ccfos/nightingale](https://github.com/ccfos/nightingale) | Nightingale is to monitoring and alerting what Grafana is to visualization. | `Go` ★ 12.8k | 2026-01-09 |
+| [ccfos/nightingale](https://github.com/ccfos/nightingale) | Nightingale is to monitoring and alerting what Grafana is to visualization. | `Go` ★ 12.8k | 2026-01-11 |
 | [piyushsachdeva/AzureDevOps-Zero-to-Hero](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero) | A central hub for artifacts, agendas, and resources related to the "Azure Dev Ops Zero to Hero" series on Tech Tutorials with Piyush You Tube channel. Access code snippets, agendas, notes, graphics... | `Shell` ★ 1.1k | 2025-09-18 |
 | [github/spec-kit](https://github.com/github/spec-kit) | 💫 Toolkit to help you get started with Spec-Driven Development | `Python` ★ 61.6k | 2025-12-04 |
 | [ariga/atlas](https://github.com/ariga/atlas) | Declarative schema migrations with schema-as-code workflows | `Go` ★ 7.9k | 2026-01-11 |
@@ -43,7 +43,7 @@
 | [dokku/dokku](https://github.com/dokku/dokku) | A docker-powered Paa S that helps you build and manage the lifecycle of applications | `Shell` ★ 31.7k | 2026-01-10 |
 | [dorny/test-reporter](https://github.com/dorny/test-reporter) | Displays test results from popular testing frameworks directly in Git Hub | `TypeScript` ★ 1.1k | 2026-01-03 |
 | [actions/labeler](https://github.com/actions/labeler) | An action for automatically labelling pull requests | `TypeScript` ★ 2.4k | 2025-11-17 |
-| [actions/ai-inference](https://github.com/actions/ai-inference) | An action for calling AI models with Git Hub Models | `TypeScript` ★ 412 | 2026-01-07 |
+| [actions/ai-inference](https://github.com/actions/ai-inference) | An action for calling AI models with Git Hub Models | `TypeScript` ★ 413 | 2026-01-07 |
 | [siwenwang0803/secure-pr-guard](https://github.com/siwenwang0803/secure-pr-guard) | No description provided | `Python` ★ 2 | 2025-07-02 |
 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | A list of Saa S, Paa S and Iaa S offerings that have free tiers of interest to devops and infradev | `HTML` ★ 117.2k | 2026-01-11 |
 | [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide) | Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLM s, Wire Guard, Auto... | `Dockerfile` ★ 18.3k | 2025-06-27 |

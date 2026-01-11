@@ -31,6 +31,6 @@
 | [vercel/ai-chatbot](https://github.com/vercel/ai-chatbot) | A full-featured, hackable Next.js AI chatbot built by Vercel | `TypeScript` ★ 19.2k | 2026-01-10 |
 | [BasedHardware/omi](https://github.com/BasedHardware/omi) | AI wearables. Put it on, speak, transcribe, automatically | `C` ★ 7.5k | 2026-01-11 |
 | [sonnylazuardi/chat-ai-desktop](https://github.com/sonnylazuardi/chat-ai-desktop) | Unofficial Chat GPT desktop app for Mac & Windows menubar using Tauri & Rust | `Rust` ★ 2k | 2023-12-23 |
-| [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate social media scheduling tool, with a bunch of AI 🤖 | `TypeScript` ★ 25.9k | 2026-01-11 |
+| [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate social media scheduling tool, with a bunch of AI 🤖 | `TypeScript` ★ 26k | 2026-01-11 |
 | [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today! | `TypeScript` ★ 34.4k | 2026-01-11 |
 | [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | Open Assistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | `Python` ★ 37.5k | 2024-08-17 |

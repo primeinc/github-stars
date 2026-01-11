@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) | A collaborative list of public APIs for developers | `JavaScript` ★ 7.5k | 2026-01-07 |
+| [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) | A collaborative list of public APIs for developers | `JavaScript` ★ 7.6k | 2026-01-07 |
 | [3b1b/manim](https://github.com/3b1b/manim) | Animation engine for explanatory math videos | `Python` ★ 83.6k | 2025-10-20 |
-| [alexzhang13/rlm](https://github.com/alexzhang13/rlm) | General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes. | `Python` ★ 874 | 2026-01-11 |
+| [alexzhang13/rlm](https://github.com/alexzhang13/rlm) | General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes. | `Python` ★ 880 | 2026-01-11 |
 | [code-yeongyu/agent-engineering-guide](https://github.com/code-yeongyu/agent-engineering-guide) | Aren't you curious how i made Sisyphus? And what could be more? | ★ 9 | 2026-01-04 |
 | [lirang04/GroundingME](https://github.com/lirang04/GroundingME) | Evaluation Code for Grounding ME | `Python` ★ 7 | 2025-12-26 |
 | [NullandKale/NullSplats](https://github.com/NullandKale/NullSplats) | No description provided | `Python` ★ 112 | 2026-01-11 |
@@ -19,11 +19,11 @@
 | [NirantK/awesome-project-ideas](https://github.com/NirantK/awesome-project-ideas) | Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas | ★ 8.9k | 2023-03-13 |
 | [heynickc/awesome-ddd](https://github.com/heynickc/awesome-ddd) | A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources | ★ 12k | 2025-07-04 |
 | [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) | A curated list of software and architecture related design patterns. | ★ 45.6k | 2024-10-25 |
-| [pshenok/server-survival](https://github.com/pshenok/server-survival) | Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. | `JavaScript` ★ 4k | 2026-01-10 |
+| [pshenok/server-survival](https://github.com/pshenok/server-survival) | Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. | `JavaScript` ★ 4.1k | 2026-01-10 |
 | [KalyanKS-NLP/Prompt-Engineering-Techniques-Hub](https://github.com/KalyanKS-NLP/Prompt-Engineering-Techniques-Hub) | This repo contains implementation of 25+ prompt engineering techniques. | ★ 402 | 2025-12-18 |
 | [ZeroLu/awesome-nanobanana-pro](https://github.com/ZeroLu/awesome-nanobanana-pro) | 🚀 An awesome list of curated Nano Banana pro prompts and examples. Your go-to resource for mastering prompt engineering and exploring the creative potential of the Nano banana pro(Nano banana 2) A... | ★ 8.1k | 2026-01-08 |
 | [thinking-machines-lab/tinker-cookbook](https://github.com/thinking-machines-lab/tinker-cookbook) | Post-training with Tinker | `Python` ★ 2.7k | 2026-01-08 |
-| [github/awesome-copilot](https://github.com/github/awesome-copilot) | Community-contributed instructions, prompts, and configurations to help you make the most of Git Hub Copilot. | `JavaScript` ★ 17k | 2026-01-09 |
+| [github/awesome-copilot](https://github.com/github/awesome-copilot) | Community-contributed instructions, prompts, and configurations to help you make the most of Git Hub Copilot. | `JavaScript` ★ 17.1k | 2026-01-09 |
 | [Azure/api-management-policy-snippets](https://github.com/Azure/api-management-policy-snippets) | Re-usable examples of Azure API Management policies | ★ 395 | 2026-01-06 |
 | [AzureCosmosDB/banking-multi-agent-workshop](https://github.com/AzureCosmosDB/banking-multi-agent-workshop) | A multi-agent sample and workshop for a retail banking scenario. Implemented in both C# using Semantic Kernel Agents and Python using Lang Graph and Angular as Frontend! | `Bicep` ★ 114 | 2025-12-03 |
 | [trungdq88/Awesome-Black-Friday-Cyber-Monday](https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday) | Awesome apps, software, and Saa S deals on Black Friday. | ★ 7.5k | 2025-11-30 |
@@ -31,7 +31,7 @@
 | [palashmon/awesome-vscode-settings](https://github.com/palashmon/awesome-vscode-settings) | 🎨 A curated list of simple and awesome VS Code settings | ★ 38 | 2024-05-20 |
 | [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (`azd`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 237 | 2026-01-07 |
 | [karpathy/reader3](https://github.com/karpathy/reader3) | Quick illustration of how one can easily read books together with LLMs. It's great and I highly recommend it. | `Python` ★ 2.8k | 2025-11-18 |
-| [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | Hundreds of Claude Code plugins with embedded AI skills. Learn via interactive Jupyter tutorials. | `Python` ★ 940 | 2026-01-11 |
+| [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | Hundreds of Claude Code plugins with embedded AI skills. Learn via interactive Jupyter tutorials. | `Python` ★ 941 | 2026-01-11 |
 | [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 12 Lessons to Get Started Building AI Agents | `Jupyter Notebook` ★ 48.5k | 2026-01-01 |
 | [FFmpeg/asm-lessons](https://github.com/FFmpeg/asm-lessons) | FFmpeg Assembly Language Lessons | ★ 11.3k | 2025-11-07 |
 | [raine/anki-llm](https://github.com/raine/anki-llm) | A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs. | `TypeScript` ★ 176 | 2025-11-10 |
@@ -69,7 +69,7 @@
 | [ChanChiChoi/awesome-Face_Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition) | papers about Face Detection; Face Alignment; Face Recognition && Face Identification && Face Verification && Face Representation; Face Reconstruction; Face Tracking; Face Super-Resolution && Face D... | ★ 4.7k | 2023-02-09 |
 | [OpenPipe/ART](https://github.com/OpenPipe/ART) | Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen2.5, Qwen3, Llama, and more! | `Python` ★ 8.1k | 2026-01-10 |
 | [davidkimai/Context-Engineering](https://github.com/davidkimai/Context-Engineering) | "Context engineering is the delicate art and science of filling the context window with just the right information for the next step." — Andrej Karpathy. A frontier, first-principles handbook inspi... | `Python` ★ 8.2k | 2025-11-15 |
-| [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | This repo includes Chat GPT prompt curation to use Chat GPT and other LLM tools better. | `TypeScript` ★ 142k | 2026-01-11 |
+| [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | This repo includes Chat GPT prompt curation to use Chat GPT and other LLM tools better. | `TypeScript` ★ 142.1k | 2026-01-11 |
 | [SandroMaglione/fpdart](https://github.com/SandroMaglione/fpdart) | Functional programming in Dart and Flutter. All the main functional programming types and patterns fully documented, tested, and with examples. | `Dart` ★ 607 | 2025-10-29 |
 | [moov-io/awesome-fintech](https://github.com/moov-io/awesome-fintech) | A curated collection of open source fintech libraries and resources. | ★ 247 | 2025-12-24 |
 | [7kfpun/awesome-fintech](https://github.com/7kfpun/awesome-fintech) | A curated list of amazingly awesome financial libraries, resources and shiny things. | ★ 342 | 2025-12-14 |

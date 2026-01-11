@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [dvdsgl/claude-canvas](https://github.com/dvdsgl/claude-canvas) | Give Claude Code an external monitor | `TypeScript` ★ 1k | 2026-01-08 |
+| [dvdsgl/claude-canvas](https://github.com/dvdsgl/claude-canvas) | Give Claude Code an external monitor | `TypeScript` ★ 1.1k | 2026-01-08 |
 | [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 29k | 2026-01-07 |
 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | A browser based code editor | `JavaScript` ★ 45.2k | 2026-01-09 |
 | [umbraco/Umbraco-CMS](https://github.com/umbraco/Umbraco-CMS) | Umbraco is a free and open source .NET content management system helping you deliver delightful digital experiences. | `C#` ★ 5.1k | 2026-01-10 |
@@ -26,11 +26,11 @@
 | [Vasia92LTU/dv-radialmenu](https://github.com/Vasia92LTU/dv-radialmenu) | Radial Menu css/ui edited and nopixel 4.0 inspired | `Lua` ★ 27 | 2024-09-28 |
 | [chrissimpkins/codeface](https://github.com/chrissimpkins/codeface) | Typefaces for source code beautification | `Python` ★ 6.4k | 2020-09-19 |
 | [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian) | 🕶️ Awesome stuff for Obsidian | `CSS` ★ 8.2k | 2024-04-06 |
-| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) | A curated list of awesome things related to shadcn/ui. | `TypeScript` ★ 18.5k | 2025-12-26 |
+| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) | A curated list of awesome things related to shadcn/ui. | `TypeScript` ★ 18.6k | 2025-12-26 |
 | [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) | The best design tools and plugins for everything 👉 | `JavaScript` ★ 38.8k | 2024-07-28 |
 | [huynhsontung/Screenbox](https://github.com/huynhsontung/Screenbox) | Lib VLC-based media player for the Universal Windows Platform | `C#` ★ 2.8k | 2026-01-10 |
 | [alibaba/hooks](https://github.com/alibaba/hooks) | A high-quality & reliable React Hooks library. https://alibaba.github.io/hooks/ | `TypeScript` ★ 14.9k | 2026-01-09 |
-| [Ali-Hussein-dev/formcn](https://github.com/Ali-Hussein-dev/formcn) | Build production-ready forms with a few clicks | `TypeScript` ★ 434 | 2026-01-05 |
+| [Ali-Hussein-dev/formcn](https://github.com/Ali-Hussein-dev/formcn) | Build production-ready forms with a few clicks | `TypeScript` ★ 435 | 2026-01-05 |
 | [Nic13Gamer/better-upload](https://github.com/Nic13Gamer/better-upload) | Simple and easy file uploads for React. Upload directly to any S3-compatible service with minimal setup. | `TypeScript` ★ 1.1k | 2026-01-02 |
 | [kane50613/takumi](https://github.com/kane50613/takumi) | JSX → Image. Faster next/og & satori alternative plus variable fonts, RTL, inline layout, WOFF2, Web P output support. | `Rust` ★ 1.2k | 2026-01-10 |
 | [ocornut/imgui](https://github.com/ocornut/imgui) | Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies | `C++` ★ 70.7k | 2026-01-08 |
@@ -53,7 +53,7 @@
 | [google/adk-web](https://github.com/google/adk-web) | Agent Development Kit Web (adk web) is the built-in developer UI that is integrated with Agent Development Kit for easier agent development and debugging. | `TypeScript` ★ 800 | 2026-01-09 |
 | [Stremio/stremio-web](https://github.com/Stremio/stremio-web) | Stremio - Freedom to Stream | `JavaScript` ★ 8.9k | 2026-01-11 |
 | [anomalyco/opentui](https://github.com/anomalyco/opentui) | Open TUI is a library for building terminal user interfaces (TUIs) | `TypeScript` ★ 7.3k | 2026-01-09 |
-| [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) | 👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro! | `TypeScript` ★ 37.8k | 2026-01-04 |
+| [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) | 👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro! | `TypeScript` ★ 37.9k | 2026-01-04 |
 | [MCP-UI-Org/mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP. Create next-gen UI experiences with the protocol and SDK! | `TypeScript` ★ 4k | 2025-12-22 |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation | `TypeScript` ★ 89k | 2026-01-10 |
 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | Win UI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications. | `C++` ★ 7.2k | 2026-01-07 |
@@ -78,19 +78,19 @@
 | [unchihugo/FluentFlyout](https://github.com/unchihugo/FluentFlyout) | The modern Flyout app for Windows 11, built with Fluent 2 Design principles. Media Flyouts, Taskbar Widgets and more. | `C#` ★ 808 | 2026-01-10 |
 | [Ripple-TS/ripple](https://github.com/Ripple-TS/ripple) | the elegant Type Script UI framework | `JavaScript` ★ 6.6k | 2026-01-09 |
 | [makeswift/makeswift](https://github.com/makeswift/makeswift) | No description provided | `TypeScript` ★ 238 | 2026-01-09 |
-| [reshaped-ui/reshaped](https://github.com/reshaped-ui/reshaped) | Professionally crafted React & Figma components for building beautiful products or starting your own design system | `TypeScript` ★ 2.1k | 2026-01-10 |
+| [reshaped-ui/reshaped](https://github.com/reshaped-ui/reshaped) | Professionally crafted React & Figma components for building beautiful products or starting your own design system | `TypeScript` ★ 2.1k | 2026-01-11 |
 | [joelshepherd/tabliss](https://github.com/joelshepherd/tabliss) | A beautiful, customisable New Tab page for Firefox, Chrome, and Edge. | `TypeScript` ★ 2.7k | 2024-08-19 |
 | [tremorlabs/tremor](https://github.com/tremorlabs/tremor) | Copy & Paste React components to build modern web applications. | `TypeScript` ★ 3.1k | 2025-10-10 |
 | [useflyyer/use-smartcrop](https://github.com/useflyyer/use-smartcrop) | React hook for smartcrop.js to content aware image cropping with points of interest and facial recognition. | `JavaScript` ★ 103 | 2023-01-07 |
-| [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | `TypeScript` ★ 22.5k | 2026-01-05 |
+| [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | `TypeScript` ★ 22.6k | 2026-01-05 |
 | [xyflow/xyflow](https://github.com/xyflow/xyflow) | React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely cust... | `TypeScript` ★ 34.7k | 2026-01-05 |
 | [megh-bari/pattern-craft](https://github.com/megh-bari/pattern-craft) | Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration. | `TypeScript` ★ 2.8k | 2026-01-08 |
 | [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 27.9k | 2026-01-10 |
-| [openreplay/openreplay](https://github.com/openreplay/openreplay) | Session replay, cobrowsing and product analytics you can self-host. Ideal for reproducing issues and iterating on your product. | `TypeScript` ★ 11.6k | 2026-01-09 |
+| [openreplay/openreplay](https://github.com/openreplay/openreplay) | Session replay, cobrowsing and product analytics you can self-host. Ideal for reproducing issues and iterating on your product. | `TypeScript` ★ 11.6k | 2026-01-11 |
 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | The open-source Cap Cut alternative | `TypeScript` ★ 44.9k | 2025-12-07 |
 | [microsoft/magentic-ui](https://github.com/microsoft/magentic-ui) | A research prototype of a human-centered web agent | `Python` ★ 9.6k | 2025-12-18 |
 | [emilk/egui](https://github.com/emilk/egui) | egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native | `Rust` ★ 27.7k | 2026-01-09 |
-| [scraed/LanPaint](https://github.com/scraed/LanPaint) | High quality training free inpaint for every stable diffusion model. Supports Comfy UI | `Python` ★ 874 | 2026-01-10 |
+| [scraed/LanPaint](https://github.com/scraed/LanPaint) | High quality training free inpaint for every stable diffusion model. Supports Comfy UI | `Python` ★ 875 | 2026-01-11 |
 | [nytimes/three-loader-3dtiles](https://github.com/nytimes/three-loader-3dtiles) | This is a Three.js loader module for handling OGC 3D Tiles, created by Cesium. It currently supports the two main formats, Batched 3D Model (b3dm) - based on gl TF Point cloud. | `TypeScript` ★ 527 | 2024-10-15 |
 | [harmonoid/harmonoid](https://github.com/harmonoid/harmonoid) | 🎵 Plays & manages your music library. Looks beautiful & juicy. Available for mac OS, Windows, GNU/Linux & Android. | `Dart` ★ 4.3k | 2026-01-10 |
 | [untitleduico/react](https://github.com/untitleduico/react) | Untitled UI React is the world’s largest collection of open-source React components built with Tailwind CSS and React Aria. Just copy, paste, and build. | `TypeScript` ★ 1.5k | 2026-01-06 |
@@ -126,9 +126,9 @@
 | [microsoftgraph/microsoft-graph-toolkit](https://github.com/microsoftgraph/microsoft-graph-toolkit) | Authentication Providers and UI components for Microsoft Graph 🦒 | `TypeScript` ★ 1k | 2025-12-18 |
 | [latelierco/vue-signalr](https://github.com/latelierco/vue-signalr) | No description provided | `JavaScript` ★ 48 | 2023-07-08 |
 | [heroui-inc/heroui](https://github.com/heroui-inc/heroui) | 🚀 Beautiful, fast and modern React UI library. (Previously Next UI) | `TypeScript` ★ 27.8k | 2026-01-10 |
-| [nuxt/ui](https://github.com/nuxt/ui) | The Intuitive Vue UI Library powered by Reka UI & Tailwind CSS. | `Vue` ★ 6.1k | 2026-01-10 |
+| [nuxt/ui](https://github.com/nuxt/ui) | The Intuitive Vue UI Library powered by Reka UI & Tailwind CSS. | `Vue` ★ 6.1k | 2026-01-11 |
 | [jaywcjlove/awesome-uikit](https://github.com/jaywcjlove/awesome-uikit) | Collect JS Frameworks, Web components library and Admin Template. | `Dockerfile` ★ 1.6k | 2026-01-07 |
-| [up-n-atom/8311](https://github.com/up-n-atom/8311) | Website for the 8311 discord channel | `HTML` ★ 133 | 2026-01-11 |
+| [up-n-atom/8311](https://github.com/up-n-atom/8311) | Website for the 8311 discord channel | `HTML` ★ 134 | 2026-01-11 |
 | [zilliztech/attu](https://github.com/zilliztech/attu) | Web UI for Milvus Vector Database | `Shell` ★ 2.5k | 2025-12-24 |
 | [exeldro/obs-move-transition](https://github.com/exeldro/obs-move-transition) | Move transition for OBS Studio | `C` ★ 827 | 2025-12-26 |
 | [exeldro/obs-source-clone](https://github.com/exeldro/obs-source-clone) | No description provided | `CMake` ★ 172 | 2025-12-06 |
@@ -146,7 +146,7 @@
 | [Alucard24/Rope](https://github.com/Alucard24/Rope) | GUI-focused roop | `Python` ★ 431 | 2024-09-23 |
 | [swipelux/zeroid-secrets-storing-widget](https://github.com/swipelux/zeroid-secrets-storing-widget) | No description provided | `TypeScript` ★ 17 | 2024-01-18 |
 | [Aayush9029/NativeYoutube](https://github.com/Aayush9029/NativeYoutube) | Personal App that turned into "alpha released app" v3 | `Swift` ★ 524 | 2025-05-23 |
-| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFF i NE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable ... | `TypeScript` ★ 61.6k | 2026-01-10 |
+| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFF i NE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable ... | `TypeScript` ★ 61.7k | 2026-01-11 |
 | [MkQtS/Carefree](https://github.com/MkQtS/Carefree) | An elegant Potplayer skin | ★ 38 | 2024-01-09 |
 | [Julusian/node-xencelabs-quick-keys](https://github.com/Julusian/node-xencelabs-quick-keys) | A Node.js library for interfacing with the Xencelabs Quick Keys https://julusian.github.io/node-xencelabs-quick-keys/ | `TypeScript` ★ 39 | 2025-11-24 |
 | [HW-Lab-Hardware-Design-Agency/WebScreen-Website](https://github.com/HW-Lab-Hardware-Design-Agency/WebScreen-Website) | Webscreen landing page | `HTML` ★ 4 | 2025-10-06 |

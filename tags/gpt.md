@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | The simplest, fastest repository for training/finetuning medium-sized GPTs. | `Python` ★ 51.9k | 2025-11-12 |
-| [langgenius/dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development. | `Python` ★ 125.4k | 2026-01-11 |
+| [langgenius/dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development. | `Python` ★ 125.5k | 2026-01-11 |
 | [FreedomIntelligence/ShareGPT-4o-Image](https://github.com/FreedomIntelligence/ShareGPT-4o-Image) | No description provided | `Python` ★ 280 | 2025-07-22 |
 | [llm-workflow-engine/llm-workflow-engine](https://github.com/llm-workflow-engine/llm-workflow-engine) | Power CLI and Workflow manager for LLM s (core package) | `Python` ★ 3.7k | 2025-12-29 |
 | [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | A list of AI autonomous agents | ★ 25.1k | 2025-02-26 |

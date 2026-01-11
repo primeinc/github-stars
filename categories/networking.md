@@ -18,26 +18,26 @@
 | [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 37.8k | 2026-01-11 |
 | [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | Wrap Gemini CLI, Antigravity, Chat GPT Codex, Claude Code, Qwen Code, i Flow as an Open AI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, ... | `Go` ★ 6.2k | 2026-01-11 |
 | [stan-smith/SlingShot](https://github.com/stan-smith/SlingShot) | Dead simple ultra-low bandwidth video over QUIC, written in Rust, dead simple to use, free forever, designed for use in any and all conditions | `Rust` ★ 1 | 2026-01-09 |
-| [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 803 | 2026-01-07 |
+| [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 831 | 2026-01-07 |
 | [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) | A platform for building proxies to bypass network restrictions. | `Go` ★ 46.8k | 2025-10-06 |
 | [grpc/grpc](https://github.com/grpc/grpc) | C++ based g RPC (C++, Python, Ruby, Objective-C, PHP, C#) | `C++` ★ 44.2k | 2026-01-11 |
 | [AlexandreRouma/SDRPlusPlus](https://github.com/AlexandreRouma/SDRPlusPlus) | Cross-Platform SDR Software | `C++` ★ 5.5k | 2025-12-12 |
 | [nccgroup/wssip](https://github.com/nccgroup/wssip) | Application for capturing, modifying and sending custom Web Socket data from client to server and vice versa. | `JavaScript` ★ 451 | 2022-12-08 |
-| [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫 | `Python` ★ 41.8k | 2026-01-09 |
+| [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫 | `Python` ★ 41.9k | 2026-01-09 |
 | [xxh/xxh](https://github.com/xxh/xxh) | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | `Python` ★ 5.9k | 2025-09-22 |
 | [grpc-ecosystem/awesome-grpc](https://github.com/grpc-ecosystem/awesome-grpc) | A curated list of useful resources for g RPC | ★ 8.2k | 2025-10-28 |
 | [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 7.6k | 2025-12-17 |
-| [Project-OSRM/osrm-backend](https://github.com/Project-OSRM/osrm-backend) | Open Source Routing Machine - C++ backend | `C++` ★ 7.4k | 2026-01-10 |
+| [Project-OSRM/osrm-backend](https://github.com/Project-OSRM/osrm-backend) | Open Source Routing Machine - C++ backend | `C++` ★ 7.4k | 2026-01-11 |
 | [BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager) | A powerful tool for managing networks and troubleshoot network problems! | `C#` ★ 8k | 2026-01-11 |
-| [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels | `Python` ★ 9.2k | 2026-01-04 |
+| [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels | `Python` ★ 9.3k | 2026-01-04 |
 | [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) | Scan a username across multiple social, developer, gaming and creator platforms to see if it’s available. Perfect for finding a unique username for your personal profile or business across Git Hub,... | `Python` ★ 327 | 2026-01-10 |
 | [TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer) | Technitium DNS Server | `C#` ★ 7.3k | 2025-12-20 |
 | [ealsur/serverlessnotifications](https://github.com/ealsur/serverlessnotifications) | Serverless notifications with Azure Cosmos DB + Azure Functions + Azure Signal R | `JavaScript` ★ 63 | 2018-05-25 |
 | [olhel/sub2tenant-aca](https://github.com/olhel/sub2tenant-aca) | Lookup Azure tenant information from a subscription ID. | `HTML` ★ 12 | 2025-12-04 |
-| [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels from all over the world | `TypeScript` ★ 109k | 2026-01-11 |
+| [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels from all over the world | `TypeScript` ★ 109.1k | 2026-01-11 |
 | [fonoster/routr](https://github.com/fonoster/routr) | ⚡ The future of programmable SIP servers. | `TypeScript` ★ 1.6k | 2025-12-24 |
 | [serverless-dns/serverless-dns](https://github.com/serverless-dns/serverless-dns) | The Rethink DNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io | `JavaScript` ★ 3.3k | 2025-11-24 |
-| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 33.4k | 2026-01-11 |
+| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 33.5k | 2026-01-11 |
 | [p0dalirius/ShareHound](https://github.com/p0dalirius/ShareHound) | A python tool to map the access rights of network shares into a Blood Hound Open Graphs easily | `Python` ★ 249 | 2025-12-18 |
 | [eclipse-iceoryx/iceoryx2](https://github.com/eclipse-iceoryx/iceoryx2) | Eclipse iceoryx2™ - true zero-copy inter-process-communication with a Rust core | `Rust` ★ 2k | 2026-01-09 |
 | [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile) | `C++` ★ 9.5k | 2025-12-31 |
@@ -62,11 +62,11 @@
 | [kamailio/kamailio](https://github.com/kamailio/kamailio) | Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms - | `C` ★ 2.7k | 2026-01-09 |
 | [dOpensource/dsiprouter](https://github.com/dOpensource/dsiprouter) | UI Interface for implementing Kamailio to provide PBX Hosting and SIP Trunking Services | `Shell` ★ 225 | 2026-01-03 |
 | [fusionpbx/fusionpbx](https://github.com/fusionpbx/fusionpbx) | Official Fusion PBX - A full-featured domain based multi-tenant PBX and voice switch for Free Switch. | `PHP` ★ 960 | 2026-01-11 |
-| [unionlabs/union](https://github.com/unionlabs/union) | The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance. | `Rust` ★ 74.4k | 2026-01-10 |
+| [unionlabs/union](https://github.com/unionlabs/union) | The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance. | `Rust` ★ 74.4k | 2026-01-11 |
 | [jasonxtn/Argus](https://github.com/jasonxtn/Argus) | The Ultimate Information Gathering Toolkit | `Python` ★ 2.6k | 2025-12-10 |
 | [boatbod/op25](https://github.com/boatbod/op25) | Fork of osmocom OP25 by boatbod | `C++` ★ 427 | 2025-12-11 |
 | [9001/copyparty](https://github.com/9001/copyparty) | Portable file server with accelerated resumable uploads, dedup, Web DAV, SFTP, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file | `Python` ★ 40.7k | 2026-01-10 |
-| [localsend/localsend](https://github.com/localsend/localsend) | An open-source cross-platform alternative to Air Drop | `Dart` ★ 73k | 2026-01-04 |
+| [localsend/localsend](https://github.com/localsend/localsend) | An open-source cross-platform alternative to Air Drop | `Dart` ★ 73.1k | 2026-01-04 |
 | [moov-io/fincen](https://github.com/moov-io/fincen) | Fincen BSA E-Filing forms | `Go` ★ 29 | 2025-12-12 |
 | [moov-io/awesome-fintech](https://github.com/moov-io/awesome-fintech) | A curated collection of open source fintech libraries and resources. | ★ 247 | 2025-12-24 |
 | [ipfs/helia](https://github.com/ipfs/helia) | An implementation of IPFS in Type Script | `TypeScript` ★ 1.3k | 2025-12-15 |
@@ -84,7 +84,7 @@
 | [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | The Network Execution Tool | `Python` ★ 5.1k | 2026-01-04 |
 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | An open-source remote desktop application designed for self-hosting, as an alternative to Team Viewer. | `Rust` ★ 105.5k | 2026-01-10 |
 | [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 🚀 The fast, Pythonic way to build MCP servers and clients | `Python` ★ 21.8k | 2026-01-11 |
-| [juanfont/headscale](https://github.com/juanfont/headscale) | An open source, self-hosted implementation of the Tailscale control server | `Go` ★ 34.1k | 2026-01-11 |
+| [juanfont/headscale](https://github.com/juanfont/headscale) | An open source, self-hosted implementation of the Tailscale control server | `Go` ★ 34.2k | 2026-01-11 |
 | [ramondeklein/nwebdav](https://github.com/ramondeklein/nwebdav) | .NET implementation of the Web DAV protocol | `C#` ★ 167 | 2024-06-11 |
 | [Jonathanpatta/E2E-Encryption-Chat-App](https://github.com/Jonathanpatta/E2E-Encryption-Chat-App) | End-to-End Encryption Chat Application using Diffie Hellman Key Exchange protocol | `JavaScript` ★ 1 | 2021-11-27 |
 | [team-telnyx/spandsp](https://github.com/team-telnyx/spandsp) | Span DSP is a low-level signal processing library that modulates and demodulates signals commonly used in telephony, such as the "noise" generated by a fax modem or DTMF touchpad. | `C` ★ 1 | 2025-03-31 |
@@ -93,7 +93,7 @@
 | [caojianyu/tauri-remote-desktop](https://github.com/caojianyu/tauri-remote-desktop) | This is a remote desktop control tool built using Tauri and implemented based on Web RTC. Build a simple server using Rust. Views built using Vue3+Type Script. | `Vue` ★ 116 | 2023-03-08 |
 | [MatsDK/TauRPC](https://github.com/MatsDK/TauRPC) | Typesafe IPC layer for Tauri applications | `Rust` ★ 292 | 2025-09-15 |
 | [team-telnyx/telnyx-node](https://github.com/team-telnyx/telnyx-node) | Node SDK for the Telnyx API | `TypeScript` ★ 63 | 2026-01-09 |
-| [leonboe1/GoogleFindMyTools](https://github.com/leonboe1/GoogleFindMyTools) | Framework for tracking and building your own Google Find My Device / Find Hub trackers 🧭 | `Python` ★ 961 | 2025-11-08 |
+| [leonboe1/GoogleFindMyTools](https://github.com/leonboe1/GoogleFindMyTools) | Framework for tracking and building your own Google Find My Device / Find Hub trackers 🧭 | `Python` ★ 962 | 2025-11-08 |
 | [NexusPolytech/NexeFax](https://github.com/NexusPolytech/NexeFax) | A modern open source e Fax server solution written in Python that allows sending and receiving faxes with Asterisk. | `Python` ★ 10 | 2023-09-12 |
 | [0x888e/certs](https://github.com/0x888e/certs) | Extracts certificates from BGW210 and BGW320 routers | `Python` ★ 108 | 2025-04-16 |
 | [unifi-utilities/unifios-utilities](https://github.com/unifi-utilities/unifios-utilities) | A collection of enhancements for Unifi OS based devices | `Shell` ★ 4.2k | 2025-12-23 |

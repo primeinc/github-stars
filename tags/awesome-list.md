@@ -19,7 +19,7 @@
 | [heynickc/awesome-ddd](https://github.com/heynickc/awesome-ddd) | A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources | ★ 12k | 2025-07-04 |
 | [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) | A curated list of Microservice Architecture related principles and technologies. | ★ 14.1k | 2025-01-20 |
 | [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | 🖥 📊 🕹 🛠 A curated list of command line apps | `Shell` ★ 18.4k | 2026-01-04 |
-| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) | A curated list of awesome things related to shadcn/ui. | `TypeScript` ★ 18.5k | 2025-12-26 |
+| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) | A curated list of awesome things related to shadcn/ui. | `TypeScript` ★ 18.6k | 2025-12-26 |
 | [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) | The best design tools and plugins for everything 👉 | `JavaScript` ★ 38.8k | 2024-07-28 |
 | [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) | A curated list of software and architecture related design patterns. | ★ 45.6k | 2024-10-25 |
 | [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | A list of open source games. | ★ 11.5k | 2026-01-06 |
@@ -73,11 +73,11 @@
 | [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | 🚀 Awesome list of open source applications for mac OS. https://t.me/s/opensourcemacosapps | ★ 46.9k | 2025-12-07 |
 | [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) | A list of cool features of Git and Git Hub. | ★ 54.5k | 2024-04-15 |
 | [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) | :books: List of awesome university courses for learning Computer Science! | ★ 65.7k | 2023-05-04 |
-| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. | ★ 201.8k | 2024-11-19 |
+| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. | ★ 201.9k | 2024-11-19 |
 | [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) |  Now we have become very big, Different from the original idea. Collect premium software in various categories. | `JavaScript` ★ 97.5k | 2025-12-27 |
 | [devisasari/awesome-gpt-store](https://github.com/devisasari/awesome-gpt-store) | A curated list of awesome GPT s in the GPT Store | ★ 2.1k | 2024-10-15 |
 | [phmullins/awesome-macos](https://github.com/phmullins/awesome-macos) | A curated list of awesome software for Apple's mac OS. | ★ 2.9k | 2025-01-22 |
 | [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) | A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem | ★ 13k | 2024-07-03 |
 | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 428.7k | 2026-01-06 |
-| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 267.6k | 2026-01-06 |
+| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 267.6k | 2026-01-11 |
 | [davidsonfellipe/awesome-wpo](https://github.com/davidsonfellipe/awesome-wpo) | :pencil: A curated list of Web Performance Optimization. Everyone can contribute here! | `JavaScript` ★ 8.8k | 2025-07-21 |

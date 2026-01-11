@@ -12,12 +12,12 @@
 | [steveiliop56/tinyauth](https://github.com/steveiliop56/tinyauth) | The simplest way to protect your apps with a login screen. | `Go` ★ 6.7k | 2026-01-11 |
 | [chaitin/SafeLine](https://github.com/chaitin/SafeLine) | Safe Line is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits. | `Go` ★ 20k | 2025-11-05 |
 | [matijazezelj/sib](https://github.com/matijazezelj/sib) | SIEM in a box | `Python` ★ 57 | 2026-01-09 |
-| [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 29.3k | 2025-11-14 |
+| [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 29.4k | 2025-11-14 |
 | [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs | `Rust` ★ 53.2k | 2026-01-09 |
 | [epi052/feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | `Rust` ★ 7.4k | 2025-12-24 |
 | [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static... | `JavaScript` ★ 20.2k | 2026-01-09 |
 | [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 33.8k | 2026-01-09 |
-| [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 803 | 2026-01-07 |
+| [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 831 | 2026-01-07 |
 | [kaifcodec/Telespot](https://github.com/kaifcodec/Telespot) | Tele Spot OSINT lookup from Telephone number using DDGR + BING + GOOGLE and pattern recognition correlations. | `Python` ★ 4 | 2026-01-09 |
 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | `Python` ★ 71.7k | 2026-01-11 |
 | [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | `C#` ★ 14k | 2026-01-08 |
@@ -29,7 +29,7 @@
 | [numman-ali/opencode-openai-codex-auth](https://github.com/numman-ali/opencode-openai-codex-auth) | OAuth authentication plugin for personal coding assistance with Chat GPT Plus/Pro subscriptions - uses Open AI's official authentication method | `TypeScript` ★ 1.4k | 2026-01-09 |
 | [lintsinghua/DeepAudit](https://github.com/lintsinghua/DeepAudit) | Deep Audit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 Po C 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。 | `Python` ★ 3.7k | 2026-01-06 |
 | [Semperis/EntraGoat](https://github.com/Semperis/EntraGoat) | A deliberately vulnerable Microsoft Entra ID environment. Learn identity security through hands-on, realistic attack challenges. | `PowerShell` ★ 864 | 2025-10-19 |
-| [NoeFabris/opencode-antigravity-auth](https://github.com/NoeFabris/opencode-antigravity-auth) | Enable Opencode to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking with your Google... | `TypeScript` ★ 1.8k | 2026-01-11 |
+| [NoeFabris/opencode-antigravity-auth](https://github.com/NoeFabris/opencode-antigravity-auth) | Enable Opencode to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking with your Google... | `TypeScript` ★ 1.9k | 2026-01-11 |
 | [suzuki-shunsuke/ghtkn](https://github.com/suzuki-shunsuke/ghtkn) | A CLI to create short-lived (8 hours) Git Hub App User Access Token for secure local development | `Go` ★ 75 | 2026-01-11 |
 | [0x4D31/awesome-threat-detection](https://github.com/0x4D31/awesome-threat-detection) | ✨ A curated list of awesome threat detection and hunting resources 🕵️‍♂️ | ★ 4.5k | 2026-01-05 |
 | [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response) | A curated list of tools for incident response | ★ 8.7k | 2024-07-18 |
@@ -38,7 +38,7 @@
 | [HotCakeX/Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security) | Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Pers... | `C#` ★ 4k | 2025-12-30 |
 | [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) | Scan a username across multiple social, developer, gaming and creator platforms to see if it’s available. Perfect for finding a unique username for your personal profile or business across Git Hub,... | `Python` ★ 327 | 2026-01-10 |
 | [repplus/rep-chrome](https://github.com/repplus/rep-chrome) | rep+ — Burp-style HTTP Repeater for Chrome Dev Tools with built‑in AI to explain requests and suggest attacks | `JavaScript` ★ 1.3k | 2026-01-06 |
-| [WerWolv/ImHex](https://github.com/WerWolv/ImHex) | 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. | `C++` ★ 52.2k | 2026-01-10 |
+| [WerWolv/ImHex](https://github.com/WerWolv/ImHex) | 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. | `C++` ★ 52.2k | 2026-01-11 |
 | [TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer) | Technitium DNS Server | `C#` ★ 7.3k | 2025-12-20 |
 | [copyleftdev/mailsentinel](https://github.com/copyleftdev/mailsentinel) | AI-powered Gmail classification system using local Ollama LLM inference. Privacy-first email triage with modular YAML profiles, cryptographic audit trails, and enterprise-grade security. | `Go` ★ 4 | 2025-08-17 |
 | [pascalvanderheiden/ais-apim-openai](https://github.com/pascalvanderheiden/ais-apim-openai) | Unleash the power of Azure Open AI to your application developers in a secure & manageable way with Azure API Management and Azure Developer CLI. | `Bicep` ★ 34 | 2023-12-28 |
@@ -69,7 +69,7 @@
 | [its-a-feature/Mythic](https://github.com/its-a-feature/Mythic) | A collaborative, multi-platform, red teaming framework | `JavaScript` ★ 4.2k | 2026-01-09 |
 | [MythicAgents/Apollo](https://github.com/MythicAgents/Apollo) | A .NET Framework 4.0 Windows Agent | `C#` ★ 521 | 2025-12-23 |
 | [SpecterOps/TierZeroTable](https://github.com/SpecterOps/TierZeroTable) | Table of AD and Azure assets and whether they belong to Tier Zero | `HTML` ★ 254 | 2025-12-04 |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | Azure Data Exporter for Blood Hound | `Go` ★ 844 | 2026-01-05 |
+| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | Azure Data Exporter for Blood Hound | `Go` ★ 845 | 2026-01-05 |
 | [SpecterOps/BloodHound](https://github.com/SpecterOps/BloodHound) | Six Degrees of Domain Admin | `Go` ★ 2.7k | 2026-01-11 |
 | [1r0BIT/TaskHound](https://github.com/1r0BIT/TaskHound) | Tool to enumerate privileged Scheduled Tasks on Remote Systems | `Python` ★ 263 | 2026-01-07 |
 | [berty/berty](https://github.com/berty/berty) | Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network | `TypeScript` ★ 9k | 2026-01-09 |
@@ -90,7 +90,7 @@
 | [Ido-Levi/claude-code-tamagotchi](https://github.com/Ido-Levi/claude-code-tamagotchi) | Real-time behavioral enforcement for Claude Code. Monitors AI actions, detects violations, and interrupts misbehavior. Also has a cute pet. | `TypeScript` ★ 240 | 2025-10-20 |
 | [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | A list of useful payloads and bypass for Web Application Security and Pentest/CTF | `Python` ★ 74.3k | 2026-01-03 |
 | [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) | Authentication for the Web. | `TypeScript` ★ 28k | 2025-12-12 |
-| [unionlabs/union](https://github.com/unionlabs/union) | The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance. | `Rust` ★ 74.4k | 2026-01-10 |
+| [unionlabs/union](https://github.com/unionlabs/union) | The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance. | `Rust` ★ 74.4k | 2026-01-11 |
 | [peass-ng/PEASS-ng](https://github.com/peass-ng/PEASS-ng) | PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) | `C#` ★ 19.1k | 2026-01-01 |
 | [jasonxtn/Argus](https://github.com/jasonxtn/Argus) | The Ultimate Information Gathering Toolkit | `Python` ★ 2.6k | 2025-12-10 |
 | [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) | A simple zero-config tool to make locally trusted development certificates with any names you'd like. | `Go` ★ 57.7k | 2024-08-13 |
@@ -116,7 +116,7 @@
 | [palakz-simform/MSAL-Nuxt3](https://github.com/palakz-simform/MSAL-Nuxt3) | No description provided | `JavaScript` ★ 2 | 2024-05-20 |
 | [Akash52/msal-with-nuxt3](https://github.com/Akash52/msal-with-nuxt3) | Microsoft Authentication Library (MSAL) with Nuxt 3 | `Vue` ★ 35 | 2023-11-17 |
 | [au2001/icloud-passwords-firefox](https://github.com/au2001/icloud-passwords-firefox) | Firefox extension which lets you use your passwords stored on i Cloud Keychain®. | `TypeScript` ★ 241 | 2025-04-21 |
-| [leonboe1/GoogleFindMyTools](https://github.com/leonboe1/GoogleFindMyTools) | Framework for tracking and building your own Google Find My Device / Find Hub trackers 🧭 | `Python` ★ 961 | 2025-11-08 |
+| [leonboe1/GoogleFindMyTools](https://github.com/leonboe1/GoogleFindMyTools) | Framework for tracking and building your own Google Find My Device / Find Hub trackers 🧭 | `Python` ★ 962 | 2025-11-08 |
 | [seemoo-lab/AirGuard-iOS](https://github.com/seemoo-lab/AirGuard-iOS) | Protect yourself from being tracked 📍by Air Tags, Smart Tags, Chipolo, Google, and Tile Trackers | `Swift` ★ 88 | 2025-01-01 |
 | [0x888e/certs](https://github.com/0x888e/certs) | Extracts certificates from BGW210 and BGW320 routers | `Python` ★ 108 | 2025-04-16 |
 | [cipher387/osint_stuff_tool_collection](https://github.com/cipher387/osint_stuff_tool_collection) | A collection of several hundred online tools for OSINT | `HTML` ★ 7.4k | 2025-07-16 |
@@ -129,7 +129,7 @@
 | [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) | 🐬 A collection of awesome resources for the Flipper Zero device. | ★ 22.6k | 2024-09-27 |
 | [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) | A collection of awesome penetration testing resources, tools and other shiny things | ★ 24.9k | 2025-12-17 |
 | [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username from thousands of sites | `Python` ★ 18.7k | 2026-01-09 |
-| [intuitem/ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community) | CISO Assistant is a one-stop-shop for GRC, covering Risk, App Sec, Compliance/Audit Management, Privacy and supporting +100 frameworks worldwide with auto-mapping: NIST CSF, ISO 27001, SOC2, CIS, P... | `Python` ★ 3.5k | 2026-01-10 |
+| [intuitem/ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community) | CISO Assistant is a one-stop-shop for GRC, covering Risk, App Sec, Compliance/Audit Management, Privacy and supporting +100 frameworks worldwide with auto-mapping: NIST CSF, ISO 27001, SOC2, CIS, P... | `Python` ★ 3.5k | 2026-01-11 |
 | [paulveillard/cybersecurity-cyberinsurance](https://github.com/paulveillard/cybersecurity-cyberinsurance) | An ongoing & curated collection of awesome software best practices and techniques, libraries and frameworks, E-books and videos, websites, blog posts, links to github Repositories, technical guidel... | ★ 3 | 2023-10-18 |
 | [openziti/ziti](https://github.com/openziti/ziti) | The parent project for Open Ziti. Here you will find the executables for a fully zero trust, application embedded, programmable network @Open Ziti | `Go` ★ 3.8k | 2026-01-09 |
 | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | The best IP Toolbox. Easy to check what's your IP s, IP geolocation, check for DNS leaks, examine Web RTC connections, speed test, ping test, MTR test, check website availability, whois search and ... | `Vue` ★ 9.6k | 2026-01-05 |

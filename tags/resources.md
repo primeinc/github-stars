@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) | A collaborative list of public APIs for developers | `JavaScript` ★ 7.5k | 2026-01-07 |
+| [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) | A collaborative list of public APIs for developers | `JavaScript` ★ 7.6k | 2026-01-07 |
 | [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | 🖥 📊 🕹 🛠 A curated list of command line apps | `Shell` ★ 18.4k | 2026-01-04 |
-| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) | A curated list of awesome things related to shadcn/ui. | `TypeScript` ★ 18.5k | 2025-12-26 |
+| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) | A curated list of awesome things related to shadcn/ui. | `TypeScript` ★ 18.6k | 2025-12-26 |
 | [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) | A curated list of software and architecture related design patterns. | ★ 45.6k | 2024-10-25 |
 | [trungdq88/Awesome-Black-Friday-Cyber-Monday](https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday) | Awesome apps, software, and Saa S deals on Black Friday. | ★ 7.5k | 2025-11-30 |
 | [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | A curated list of awesome READMEs | ★ 20.3k | 2026-01-08 |
@@ -25,6 +25,6 @@
 | [inputsh/awesome-linux](https://github.com/inputsh/awesome-linux) | :penguin: A list of awesome projects and resources that make Linux even more awesome. :penguin: | ★ 4.8k | 2023-02-04 |
 | [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) | A curated list of Awesome Threat Intelligence resources | ★ 9.6k | 2025-12-15 |
 | [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) | A curated list of amazingly awesome open-source sysadmin resources. | ★ 32.4k | 2025-10-26 |
-| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. | ★ 201.8k | 2024-11-19 |
+| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. | ★ 201.9k | 2024-11-19 |
 | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 428.7k | 2026-01-06 |
 | [bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) | A curated list of awesome awesomeness | `Ruby` ★ 33.1k | 2024-06-02 |

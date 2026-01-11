@@ -1,11 +1,12 @@
 # Unclassified
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [randomascii/UIforETW](https://github.com/randomascii/UIforETW) | User interface for recording and managing ETW traces | `C++` ★ 110 | 2026-01-05 |
 | [devicons/devicon](https://github.com/devicons/devicon) | Set of icons representing programming languages, designing & development tools | `CSS` ★ 11.4k | 2025-12-28 |
 | [nunchaku-ai/nunchaku](https://github.com/nunchaku-ai/nunchaku) | [ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models | `Python` ★ 3.6k | 2026-01-11 |
 

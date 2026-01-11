@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 267.6k | 2026-01-06 |
+| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 267.6k | 2026-01-11 |
 | [derekcsm/hubble_gallery](https://github.com/derekcsm/hubble_gallery) | This project is deprecated! Feel free to DM me or open an issue if you want to try and revive it | `Java` ★ 225 | 2019-10-07 |
 | [swissonid/android-design-support-lib-sample](https://github.com/swissonid/android-design-support-lib-sample) | Just Sample how to use the android design support lib | `Java` ★ 811 | 2015-10-01 |
 | [joho/7XX-rfc](https://github.com/joho/7XX-rfc) | An RFC for a new series of HTTP status codes covering developer fouls. | `Makefile` ★ 4.5k | 2024-04-03 |

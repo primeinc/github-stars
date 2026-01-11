@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 29.3k | 2025-11-14 |
+| [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 29.4k | 2025-11-14 |
 | [Or1un/MOSAIC](https://github.com/Or1un/MOSAIC) | Privacy-first behavioral intelligence framework for multi-platform analysis and sociodynamic research. | `Python` ★ 32 | 2025-12-30 |
 | [rybbit-io/rybbit](https://github.com/rybbit-io/rybbit) | 🐸 Rybbit - open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive. | `TypeScript` ★ 10.7k | 2026-01-11 |
 | [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) | Overview of alternative open source front-ends for popular internet platforms (e.g. You Tube, Twitter, etc.) | ★ 8.6k | 2024-08-18 |
@@ -26,4 +26,4 @@
 | [0perationPrivacy/VoIP](https://github.com/0perationPrivacy/VoIP) | Web Base Telnyx/Twilio Vo IP Interface enabling SMS, MMS and Voice calls using the providers API Keys and self-hosting the application. | `JavaScript` ★ 285 | 2024-05-28 |
 | [ljanyst/peroxide](https://github.com/ljanyst/peroxide) | A third-party Proton Mail bridge serving SMTP and IMAP | `Go` ★ 64 | 2023-01-27 |
 | [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | Cryptomator for Windows, mac OS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data. | `Java` ★ 14.3k | 2026-01-09 |
-| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 267.6k | 2026-01-06 |
+| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 267.6k | 2026-01-11 |

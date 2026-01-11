@@ -13,7 +13,7 @@
 | [google/grr](https://github.com/google/grr) | GRR Rapid Response: remote live forensics for incident response | `Python` ★ 5k | 2025-12-16 |
 | [Mail-0/Zero](https://github.com/Mail-0/Zero) | Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://discord.gg/mail0 | `TypeScript` ★ 10.3k | 2025-09-04 |
 | [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) | A collection of awesome penetration testing resources, tools and other shiny things | ★ 24.9k | 2025-12-17 |
-| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. | ★ 201.8k | 2024-11-19 |
+| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. | ★ 201.9k | 2024-11-19 |
 | [papuSpartan/stable-diffusion-webui-auto-tls-https](https://github.com/papuSpartan/stable-diffusion-webui-auto-tls-https) | An extension for AUTOMATIC1111's Stable Diffusion Web-UI that enables easy or zero-conf TLS for HTTPS | `Python` ★ 61 | 2024-05-12 |
 | [threat9/routersploit](https://github.com/threat9/routersploit) | Exploitation Framework for Embedded Devices | `Python` ★ 12.9k | 2025-06-10 |
 | [gravitational/teleport](https://github.com/gravitational/teleport) | The easiest, and most secure way to access and protect all of your infrastructure. | `Go` ★ 19.6k | 2026-01-10 |

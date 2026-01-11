@@ -39,9 +39,9 @@
 | [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) | These are commands I use with agents, mostly Claude | `JavaScript` ★ 581 | 2026-01-09 |
 | [nicholas-fedor/shoutrrr](https://github.com/nicholas-fedor/shoutrrr) | A notification library for gophers and their furry friends. | `Go` ★ 88 | 2026-01-10 |
 | [PaulJPhilp/effect-env](https://github.com/PaulJPhilp/effect-env) | No description provided | `TypeScript` ★ 39 | 2025-11-27 |
-| [steipete/oracle](https://github.com/steipete/oracle) | Ask the oracle when you're stuck. Invoke GPT-5 Pro with a custom context and files. | `TypeScript` ★ 983 | 2026-01-09 |
+| [steipete/oracle](https://github.com/steipete/oracle) | Ask the oracle when you're stuck. Invoke GPT-5 Pro with a custom context and files. | `TypeScript` ★ 985 | 2026-01-09 |
 | [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) | A rich terminal UI for Git Hub that doesn't break your flow. | `Go` ★ 9.9k | 2026-01-09 |
-| [charmbracelet/glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! 💅🏻 | `Go` ★ 22.1k | 2025-12-21 |
+| [charmbracelet/glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! 💅🏻 | `Go` ★ 22.2k | 2025-12-21 |
 | [raine/anki-llm](https://github.com/raine/anki-llm) | A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs. | `TypeScript` ★ 176 | 2025-11-10 |
 | [anomalyco/opentui](https://github.com/anomalyco/opentui) | Open TUI is a library for building terminal user interfaces (TUIs) | `TypeScript` ★ 7.3k | 2026-01-09 |
 | [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | `Go` ★ 70.4k | 2026-01-07 |
@@ -58,7 +58,7 @@
 | [dotenvx/dotenvx](https://github.com/dotenvx/dotenvx) | a secure dotenv–from the creator of `dotenv` | `JavaScript` ★ 4.8k | 2026-01-08 |
 | [getsops/sops](https://github.com/getsops/sops) | Simple and flexible tool for managing secrets | `Go` ★ 20.4k | 2025-12-29 |
 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI tool for configuring and monitoring Claude Code | `Python` ★ 15.4k | 2026-01-11 |
-| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader | `Python` ★ 141.3k | 2026-01-06 |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader | `Python` ★ 141.4k | 2026-01-06 |
 | [deechtejoao/stonkfetch](https://github.com/deechtejoao/stonkfetch) | A command-line tool that fetches and displays stock information with beautiful colored ASCII art logos, inspired by neofetch. | `Python` ★ 33 | 2025-11-09 |
 | [Azure/acr-cli](https://github.com/Azure/acr-cli) | Command Line Tool for interacting with Azure Container Registry Images | `Go` ★ 67 | 2026-01-09 |
 | [FiloSottile/age](https://github.com/FiloSottile/age) | A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability. | `Go` ★ 20.9k | 2025-12-31 |
@@ -72,7 +72,7 @@
 | [Aider-AI/aider](https://github.com/Aider-AI/aider) | aider is AI pair programming in your terminal | `Python` ★ 39.7k | 2026-01-04 |
 | [Y2Z/monolith](https://github.com/Y2Z/monolith) | ⬛️ CLI tool and library for saving complete web pages as a single HTML file | `Rust` ★ 14.6k | 2025-08-29 |
 | [cli/cli](https://github.com/cli/cli) | Git Hub’s official command line tool | `Go` ★ 42k | 2026-01-09 |
-| [satococoa/wtp](https://github.com/satococoa/wtp) | 🌳 A powerful Git worktree CLI tool with automated setup, branch tracking, and smart navigation | `Go` ★ 261 | 2025-12-25 |
+| [satococoa/wtp](https://github.com/satococoa/wtp) | 🌳 A powerful Git worktree CLI tool with automated setup, branch tracking, and smart navigation | `Go` ★ 263 | 2025-12-25 |
 | [wolfdenpublishing/pyccsl](https://github.com/wolfdenpublishing/pyccsl) | Python Claude Code Status Line (Py CCSL, pronounced "pixel") | `Python` ★ 81 | 2025-08-12 |
 | [bixat/nexsh](https://github.com/bixat/nexsh) | Next-generation AI-powered shell using Google Gemini - Translates your words into precise shell commands ⚙️ | `Rust` ★ 16 | 2026-01-10 |
 | [sebglazebrook/aliases](https://github.com/sebglazebrook/aliases) | Contextual, dynamic aliases for the bash shell | `Rust` ★ 611 | 2024-10-28 |
@@ -114,7 +114,7 @@
 | [XeroxDev/Loupedeck-plugin-Template](https://github.com/XeroxDev/Loupedeck-plugin-Template) | this is a Loupedeck .NET template and I've created this so it is easier and more productive for me, to create Loupedeck Windows Plugins and release them to my users. | `C#` ★ 15 | 2022-05-12 |
 | [Loupedeck/SpotifyPremiumPlugin](https://github.com/Loupedeck/SpotifyPremiumPlugin) | A sample plugin for the Loupedeck software, based on the Loupedeck Plugin SDK | `C#` ★ 6 | 2023-05-22 |
 | [jbd/msrsync](https://github.com/jbd/msrsync) | Multi-stream rsync wrapper | `Python` ★ 502 | 2022-10-19 |
-| [qarmin/czkawka](https://github.com/qarmin/czkawka) | Multi functional app to find duplicates, empty folders, similar images etc. | `Rust` ★ 28k | 2026-01-10 |
+| [qarmin/czkawka](https://github.com/qarmin/czkawka) | Multi functional app to find duplicates, empty folders, similar images etc. | `Rust` ★ 28k | 2026-01-11 |
 | [mikemackintosh/stickers](https://github.com/mikemackintosh/stickers) | A Gmail labeling tool for your Google Workspaces org | `Go` ★ 5 | 2021-04-12 |
 | [9072997/regwincontext](https://github.com/9072997/regwincontext) | Put a program in the windows context menu for a particular file type | `Go` ★ 19 | 2021-05-25 |
 | [avi12/skillshare-player-control](https://github.com/avi12/skillshare-player-control) | Basic keyboard controls for Skillshare's player. | `TypeScript` ★ 11 | 2024-12-02 |

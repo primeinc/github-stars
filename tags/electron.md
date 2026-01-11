@@ -21,5 +21,5 @@
 | [electron/electron](https://github.com/electron/electron) | :electron: Build cross-platform desktop apps with Java Script, HTML, and CSS | `C++` ★ 119.7k | 2026-01-10 |
 | [vcync/modV](https://github.com/vcync/modV) | modular audio visualisation powered by Java Script | `GLSL` ★ 480 | 2025-12-09 |
 | [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) | Useful resources for creating apps with Electron | ★ 26.9k | 2025-11-24 |
-| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFF i NE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable ... | `TypeScript` ★ 61.6k | 2026-01-10 |
+| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFF i NE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable ... | `TypeScript` ★ 61.7k | 2026-01-11 |
 | [MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-) | A beautiful cross platform Desktop Player for Google Play Music | `JavaScript` ★ 8.2k | 2023-01-04 |

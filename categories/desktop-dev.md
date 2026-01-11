@@ -10,7 +10,7 @@
 | [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | Play Station 4 emulator for Windows, Linux and mac OS written in C++ | `C++` ★ 27.8k | 2026-01-11 |
 | [cemu-project/Cemu](https://github.com/cemu-project/Cemu) | Cemu - Wii U emulator | `C++` ★ 8.9k | 2026-01-10 |
 | [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 29k | 2026-01-07 |
-| [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser | `C++` ★ 57.6k | 2026-01-10 |
+| [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser | `C++` ★ 57.6k | 2026-01-11 |
 | [AlexandreRouma/SDRPlusPlus](https://github.com/AlexandreRouma/SDRPlusPlus) | Cross-Platform SDR Software | `C++` ★ 5.5k | 2025-12-12 |
 | [jayfunc/BetterLyrics](https://github.com/jayfunc/BetterLyrics) | An elegant and deeply customizable lyrics visualizer & versatile music player, built with Win UI3/Win2D | 一款优雅且高度自定义的歌词可视化与全能音乐播放应用，基于 Win UI3/Win2D 构建 | `C#` ★ 1.3k | 2026-01-10 |
 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. | `TypeScript` ★ 5.3k | 2026-01-10 |
@@ -21,7 +21,7 @@
 | [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty) | 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration. | `Zig` ★ 41.1k | 2026-01-10 |
 | [zhiyiYo/PyQt-Frameless-Window](https://github.com/zhiyiYo/PyQt-Frameless-Window) | A cross-platform frameless window based on Py Qt/Py Side, support Win32, Linux and mac OS. | `Python` ★ 698 | 2026-01-01 |
 | [huynhsontung/Screenbox](https://github.com/huynhsontung/Screenbox) | Lib VLC-based media player for the Universal Windows Platform | `C#` ★ 2.8k | 2026-01-10 |
-| [WerWolv/ImHex](https://github.com/WerWolv/ImHex) | 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. | `C++` ★ 52.2k | 2026-01-10 |
+| [WerWolv/ImHex](https://github.com/WerWolv/ImHex) | 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. | `C++` ★ 52.2k | 2026-01-11 |
 | [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 33.2k | 2026-01-10 |
 | [DearVa/Everywhere](https://github.com/DearVa/Everywhere) | A context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools. | `C#` ★ 5k | 2026-01-11 |
 | [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop_computer: :camera_flash: | `C++` ★ 28.6k | 2025-12-24 |
@@ -44,7 +44,7 @@
 | [Aprotonix/Rainbow-Music-Visualizer-Wallpaper](https://github.com/Aprotonix/Rainbow-Music-Visualizer-Wallpaper) | Customizable Live Wallpaper showing the music and date | `JavaScript` ★ 14 | 2025-06-15 |
 | [CatWaterCodes/ImageToParallaxWallpaper](https://github.com/CatWaterCodes/ImageToParallaxWallpaper) | A simple tool that allows you to create parallax wallpapers using html/css/js from a single image. | `Python` ★ 20 | 2025-07-12 |
 | [KRTirtho/spotube](https://github.com/KRTirtho/spotube) | 🎧 Open source music streaming app! Available for both desktop & mobile! | `Dart` ★ 43.6k | 2026-01-09 |
-| [mulaRahul/keyviz](https://github.com/mulaRahul/keyviz) | Keyviz is a free and open-source tool to visualize your keystrokes ⌨️ and 🖱️ mouse actions in real-time. | `Dart` ★ 8.7k | 2026-01-09 |
+| [mulaRahul/keyviz](https://github.com/mulaRahul/keyviz) | Keyviz is a free and open-source tool to visualize your keystrokes ⌨️ and 🖱️ mouse actions in real-time. | `Dart` ★ 8.7k | 2026-01-11 |
 | [aseprite/aseprite](https://github.com/aseprite/aseprite) | Animated sprite editor & pixel art tool (Windows, mac OS, Linux) | `C++` ★ 35.2k | 2025-12-30 |
 | [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and Open GL. Runs on Windows, Linux, *BSD and Mac OS X. | `C#` ★ 16.3k | 2026-01-04 |
 | [microsoft/ai-dev-gallery](https://github.com/microsoft/ai-dev-gallery) | An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps. | `C#` ★ 1.4k | 2026-01-10 |
@@ -55,13 +55,13 @@
 | [unchihugo/FluentFlyout](https://github.com/unchihugo/FluentFlyout) | The modern Flyout app for Windows 11, built with Fluent 2 Design principles. Media Flyouts, Taskbar Widgets and more. | `C#` ★ 808 | 2026-01-10 |
 | [glzr-io/glazewm](https://github.com/glzr-io/glazewm) | Glaze WM is a tiling window manager for Windows inspired by i3wm. | `Rust` ★ 11.1k | 2026-01-01 |
 | [primeinc/Files](https://github.com/primeinc/Files) | Building the best File Manager for Windows | `C#` ★ 1 | 2025-09-08 |
-| [ashesbloom/LocalLens](https://github.com/ashesbloom/LocalLens) | Local Lens is a privacy-first, AI-powered photo organizer for your PC. Sort and group photos by faces, dates, and locations—all locally, with no cloud upload. Enjoy a modern, intuitive UI and keep ... | `CSS` ★ 40 | 2025-12-31 |
+| [ashesbloom/LocalLens](https://github.com/ashesbloom/LocalLens) | Local Lens is a privacy-first, AI-powered photo organizer for your PC. Sort and group photos by faces, dates, and locations—all locally, with no cloud upload. Enjoy a modern, intuitive UI and keep ... | `CSS` ★ 41 | 2025-12-31 |
 | [nativefier/nativefier](https://github.com/nativefier/nativefier) | Make any web page a desktop application | `TypeScript` ★ 35.3k | 2023-09-29 |
 | [mltframework/shotcut](https://github.com/mltframework/shotcut) | cross-platform (Qt), open-source (GPLv3) video editor | `C++` ★ 13.2k | 2026-01-09 |
 | [bitwarden/clients](https://github.com/bitwarden/clients) | Bitwarden client apps (web, browser extension, desktop, and cli). | `TypeScript` ★ 11.8k | 2026-01-11 |
 | [HeyPuter/puter](https://github.com/HeyPuter/puter) | 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable. | `JavaScript` ★ 38.6k | 2026-01-10 |
 | [PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor) | Pixi Editor is a Universal Editor for all your 2D needs | `C#` ★ 7k | 2026-01-09 |
-| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | AI Agent + Coding Agent + 300+ assistants: agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs. | `TypeScript` ★ 37.6k | 2026-01-10 |
+| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | AI Agent + Coding Agent + 300+ assistants: agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs. | `TypeScript` ★ 37.6k | 2026-01-11 |
 | [Tichau/FileConverter](https://github.com/Tichau/FileConverter) | File Converter is a very simple tool which allows you to convert and compress files using the context menu in windows explorer. | `C#` ★ 13.3k | 2025-11-30 |
 | [Stremio/stremio-core](https://github.com/Stremio/stremio-core) | ⚛️ The Stremio Core: types, addon system, UI models, core logic | `Rust` ★ 1.8k | 2026-01-10 |
 | [harmonoid/harmonoid](https://github.com/harmonoid/harmonoid) | 🎵 Plays & manages your music library. Looks beautiful & juicy. Available for mac OS, Windows, GNU/Linux & Android. | `Dart` ★ 4.3k | 2026-01-10 |
@@ -76,7 +76,7 @@
 | [indragiek/Context](https://github.com/indragiek/Context) | Native mac OS client for Model Context Protocol (MCP) | `Swift` ★ 761 | 2025-08-20 |
 | [hewigovens/app-detective](https://github.com/hewigovens/app-detective) | Detect mac OS apps' GUI tech stack | `Swift` ★ 84 | 2025-12-11 |
 | [OrkunKocyigit/vidlib](https://github.com/OrkunKocyigit/vidlib) | Explorer based video management tool | `Rust` ★ 1 | 2024-05-24 |
-| [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 1 Locally hosted web application that allows you to perform various operations on PDF files | `TypeScript` ★ 73k | 2026-01-10 |
+| [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 1 Locally hosted web application that allows you to perform various operations on PDF files | `TypeScript` ★ 73k | 2026-01-11 |
 | [eythaann/Seelen-UI](https://github.com/eythaann/Seelen-UI) | The Fully Customizable Desktop Environment for Windows 10/11. | `Rust` ★ 15.5k | 2026-01-08 |
 | [philips/supernote-obsidian-plugin](https://github.com/philips/supernote-obsidian-plugin) | Supernote A5, A5X, A6X, A6X2 (Nomad), and A5X2 (Manta) integration for Obsidian. Generate markdown, capture screen mirror, and more. | `TypeScript` ★ 274 | 2025-11-21 |
 | [d2phap/ImageGlass](https://github.com/d2phap/ImageGlass) | 🏞 A lightweight, versatile image viewer | `C#` ★ 12k | 2026-01-07 |
@@ -110,7 +110,7 @@
 | [VirtualDrivers/Virtual-Display-Driver](https://github.com/VirtualDrivers/Virtual-Display-Driver) | Add virtual monitors to your windows 10/11 device! Works with VR, OBS, Sunshine, and/or any desktop sharing software. | `C++` ★ 8k | 2026-01-09 |
 | [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) | Karabiner-Elements is a powerful tool for customizing keyboards on mac OS | `C++` ★ 21.3k | 2026-01-11 |
 | [Aayush9029/NativeYoutube](https://github.com/Aayush9029/NativeYoutube) | Personal App that turned into "alpha released app" v3 | `Swift` ★ 524 | 2025-05-23 |
-| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFF i NE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable ... | `TypeScript` ★ 61.6k | 2026-01-10 |
+| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFF i NE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable ... | `TypeScript` ★ 61.7k | 2026-01-11 |
 | [MkQtS/Carefree](https://github.com/MkQtS/Carefree) | An elegant Potplayer skin | ★ 38 | 2024-01-09 |
 | [flutter/flutter](https://github.com/flutter/flutter) | Flutter makes it easy and fast to build beautiful apps for mobile and beyond | `Dart` ★ 174.6k | 2026-01-10 |
 | [Anze/KeyCluCask](https://github.com/Anze/KeyCluCask) | Simple and handy overview of applications shortcuts | ★ 1.8k | 2025-07-06 |
@@ -119,7 +119,7 @@
 | [RupertAvery/DiffusionToolkit](https://github.com/RupertAvery/DiffusionToolkit) | Metadata-indexer and Viewer for AI-generated images | `C#` ★ 958 | 2026-01-06 |
 | [bsharper/atv-desktop-remote](https://github.com/bsharper/atv-desktop-remote) | A simple app to allow you to control an Apple TV from your desktop | `JavaScript` ★ 490 | 2025-10-06 |
 | [kimlimjustin/xplorer](https://github.com/kimlimjustin/xplorer) | Xplorer, a customizable, modern file manager | `TypeScript` ★ 5.4k | 2025-06-16 |
-| [sameerasw/folder-icons](https://github.com/sameerasw/folder-icons) | Folder icons I made in Windows 11 style. | `Python` ★ 727 | 2025-08-13 |
+| [sameerasw/folder-icons](https://github.com/sameerasw/folder-icons) | Folder icons I made in Windows 11 style. | `Python` ★ 728 | 2025-08-13 |
 | [PikeNote/taskbar-groups-pike-beta](https://github.com/PikeNote/taskbar-groups-pike-beta) | Lightweight application that lets users create and pin groups to the Windows taskbar och desktop | `C#` ★ 166 | 2023-02-13 |
 | [tjackenpacken/taskbar-groups](https://github.com/tjackenpacken/taskbar-groups) | Lightweight utility for organizing the taskbar through groups | `C#` ★ 2.7k | 2024-07-04 |
 | [GaspardCulis/slint-tetris](https://github.com/GaspardCulis/slint-tetris) | Tetris game made with Slint | `Rust` ★ 42 | 2023-05-26 |
@@ -133,7 +133,7 @@
 | [cocktailpeanut/breadboard](https://github.com/cocktailpeanut/breadboard) | Stable Diffusion Browser for Windows, Mac, and Linux | `JavaScript` ★ 399 | 2024-03-17 |
 | [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) | Bring mac OS “Quick Look” feature to Windows | `C#` ★ 21.9k | 2026-01-07 |
 | [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) | Everything integration for the Windows taskbar. | `C#` ★ 13.1k | 2026-01-05 |
-| [hwtnb/SylphyHornPlusWin11](https://github.com/hwtnb/SylphyHornPlusWin11) | Virtual Desktop Tools for Windows 11 and 10. | `C#` ★ 401 | 2024-12-24 |
+| [hwtnb/SylphyHornPlusWin11](https://github.com/hwtnb/SylphyHornPlusWin11) | Virtual Desktop Tools for Windows 11 and 10. | `C#` ★ 402 | 2024-12-24 |
 | [dankrusi/WindowsVirtualDesktopHelper](https://github.com/dankrusi/WindowsVirtualDesktopHelper) | App to help manage Virtual Desktops for Windows 10 and Windows 11 | `C#` ★ 776 | 2025-08-20 |
 | [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder) | Video Duplicate Finder - Crossplatform | `C#` ★ 2.8k | 2026-01-04 |
 | [lprichar/UwpMessageRelay](https://github.com/lprichar/UwpMessageRelay) | A sample UWP app demonstrating how to use App Service Connection to do interprocess communication | `C#` ★ 12 | 2017-01-03 |
@@ -153,6 +153,6 @@
 | [AlphaDelta/Secure-Desktop](https://github.com/AlphaDelta/Secure-Desktop) | Anti-keylogger/anti-rat application for Windows | `C#` ★ 250 | 2021-09-08 |
 | [jolicode/JoliNotif](https://github.com/jolicode/JoliNotif) | 🖥️ Send notifications to your desktop directly from your PHP script | `PHP` ★ 1.4k | 2025-12-04 |
 | [64characters/Telephone](https://github.com/64characters/Telephone) | SIP softphone for Mac | `Swift` ★ 1.1k | 2024-11-29 |
-| [xbmc/xbmc](https://github.com/xbmc/xbmc) | Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available f... | `C++` ★ 20.3k | 2026-01-10 |
+| [xbmc/xbmc](https://github.com/xbmc/xbmc) | Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available f... | `C++` ★ 20.3k | 2026-01-11 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

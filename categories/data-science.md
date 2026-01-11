@@ -6,24 +6,24 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `Python` ★ 58k | 2026-01-11 |
+| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `Python` ★ 58.1k | 2026-01-11 |
 | [microsoft/data-formulator](https://github.com/microsoft/data-formulator) | 🪄 Create rich visualizations with AI | `TypeScript` ★ 14.7k | 2026-01-05 |
 | [apache/superset](https://github.com/apache/superset) | Apache Superset is a Data Visualization and Data Exploration Platform | `TypeScript` ★ 70k | 2026-01-10 |
 | [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | [KDD'2026] "Video RAG: Chat with Your Videos" | `Python` ★ 2.3k | 2025-12-28 |
-| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications. | `Python` ★ 12.1k | 2026-01-10 |
-| [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory infrastructure for LLMs and AI agents | `Python` ★ 4.3k | 2026-01-10 |
-| [freelawproject/courtlistener](https://github.com/freelawproject/courtlistener) | A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial financial records, and federal filings. | `Python` ★ 813 | 2026-01-11 |
+| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications. | `Python` ★ 12.1k | 2026-01-11 |
+| [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory infrastructure for LLMs and AI agents | `Python` ★ 4.4k | 2026-01-11 |
+| [freelawproject/courtlistener](https://github.com/freelawproject/courtlistener) | A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial financial records, and federal filings. | `Python` ★ 814 | 2026-01-11 |
 | [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) | The first "code-first" agent framework for seamlessly planning and executing data analytics tasks. | `Python` ★ 6.1k | 2026-01-07 |
-| [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2) | Official Python inference and Lo RA trainer package for the LTX-2 audio–video generative model. | `Python` ★ 1.9k | 2026-01-08 |
-| [samuel-vitorino/sopro](https://github.com/samuel-vitorino/sopro) | A lightweight text-to-speech model with zero-shot voice cloning | `Python` ★ 644 | 2026-01-07 |
-| [jamichss/Stream-DiffVSR](https://github.com/jamichss/Stream-DiffVSR) | The official repository of paper "Stream-Diff VSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion" | `Python` ★ 231 | 2026-01-08 |
+| [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2) | Official Python inference and Lo RA trainer package for the LTX-2 audio–video generative model. | `Python` ★ 2k | 2026-01-08 |
+| [samuel-vitorino/sopro](https://github.com/samuel-vitorino/sopro) | A lightweight text-to-speech model with zero-shot voice cloning | `Python` ★ 650 | 2026-01-07 |
+| [jamichss/Stream-DiffVSR](https://github.com/jamichss/Stream-DiffVSR) | The official repository of paper "Stream-Diff VSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion" | `Python` ★ 233 | 2026-01-08 |
 | [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11k | 2026-01-10 |
-| [mourad-ghafiri/youtube-mcp-server](https://github.com/mourad-ghafiri/youtube-mcp-server) | A powerful Model Context Protocol (MCP) server for You Tube video transcription and metadata extraction. | `Python` ★ 47 | 2026-01-03 |
+| [mourad-ghafiri/youtube-mcp-server](https://github.com/mourad-ghafiri/youtube-mcp-server) | A powerful Model Context Protocol (MCP) server for You Tube video transcription and metadata extraction. | `Python` ★ 48 | 2026-01-03 |
 | [lcqysl/DiffThinker](https://github.com/lcqysl/DiffThinker) | Diff Thinker: Towards Generative Multimodal Reasoning with Diffusion Models | `Python` ★ 146 | 2026-01-04 |
 | [antvis/Infographic](https://github.com/antvis/Infographic) | 🦋 An Infographic Generation and Rendering Framework, bring words to life with AI! | `TypeScript` ★ 3.6k | 2026-01-09 |
 | [image-rs/fdeflate](https://github.com/image-rs/fdeflate) | Fast deflate implementation specialized for PNG image data | `Rust` ★ 28 | 2026-01-11 |
 | [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c... | `TypeScript` ★ 8.4k | 2026-01-10 |
-| [Francis-Rings/FlashPortrait](https://github.com/Francis-Rings/FlashPortrait) | We present Flash Portrait, an end-to-end video diffusion transformer capable of synthesizing ID-preserving, infinite-length videos while achieving up to 6$\times$ acceleration in inference speed. | `Python` ★ 410 | 2026-01-10 |
+| [Francis-Rings/FlashPortrait](https://github.com/Francis-Rings/FlashPortrait) | We present Flash Portrait, an end-to-end video diffusion transformer capable of synthesizing ID-preserving, infinite-length videos while achieving up to 6$\times$ acceleration in inference speed. | `Python` ★ 411 | 2026-01-10 |
 | [Zplusdragon/LowLevelBanana](https://github.com/Zplusdragon/LowLevelBanana) | [Technical Report] A Comprehensive Evaluation of Nano Banana Pro on 14 Low-Level Vision Tasks and 40 Datasets | `Python` ★ 67 | 2025-12-24 |
 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | Detectron2 is a platform for object detection, segmentation and other visual recognition tasks. | `Python` ★ 33.9k | 2025-11-17 |
 | [facebookresearch/SceneAcousticEstimation](https://github.com/facebookresearch/SceneAcousticEstimation) | Code, models, and dataset accompanying WASPAA 2025 paper, "Scene-wide Acoustic Parameter Estimation." | `Python` ★ 10 | 2025-11-24 |
@@ -82,7 +82,7 @@
 | [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | 1 min voice data can also be used to train a good TTS model! (few shot voice cloning) | `Python` ★ 54k | 2025-12-30 |
 | [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/j P8Kfh Dhy N | `Python` ★ 58.4k | 2026-01-04 |
 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data | `TypeScript` ★ 74.2k | 2026-01-09 |
-| [pola-rs/polars](https://github.com/pola-rs/polars) | Extremely fast Query Engine for Data Frames, written in Rust | `Rust` ★ 36.9k | 2026-01-10 |
+| [pola-rs/polars](https://github.com/pola-rs/polars) | Extremely fast Query Engine for Data Frames, written in Rust | `Rust` ★ 36.9k | 2026-01-11 |
 | [dask/dask](https://github.com/dask/dask) | Parallel computing with task scheduling | `Python` ★ 13.7k | 2026-01-08 |
 | [manycore-research/SpatialLM](https://github.com/manycore-research/SpatialLM) | [Neur IPS 2025] Spatial LM: Training Large Language Models for Structured Indoor Modeling | `Python` ★ 4.2k | 2025-09-26 |
 | [ArthurVerrez/personal-data-formatter-for-notebooklm](https://github.com/ArthurVerrez/personal-data-formatter-for-notebooklm) | A python utility codebase to format personal data to feed inside Notebook LM, like Whatsapp, Messenger & Instagram conversations, but also Chat GPT conversations, Google Keep & Google Tasks | `Python` ★ 1 | 2025-07-19 |
@@ -127,7 +127,7 @@
 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | A collection of MCP servers. | ★ 78.6k | 2026-01-10 |
 | [microsoft/qlib](https://github.com/microsoft/qlib) | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, i... | `Python` ★ 35.4k | 2025-12-30 |
 | [open-mmlab/Amphion](https://github.com/open-mmlab/Amphion) | Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audi... | `Python` ★ 9.6k | 2025-05-27 |
-| [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent) | Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are commi... | `Python` ★ 10.2k | 2026-01-09 |
+| [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent) | Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are commi... | `Python` ★ 10.2k | 2026-01-11 |
 | [denisa-ms/azure-data-and-ai-examples](https://github.com/denisa-ms/azure-data-and-ai-examples) | No description provided | `Jupyter Notebook` ★ 31 | 2023-11-15 |
 | [GitNirmal-u/Microsoft_Azure_E2E_Project](https://github.com/GitNirmal-u/Microsoft_Azure_E2E_Project) | No description provided | `Jupyter Notebook` ★ 1 | 2024-12-29 |
 | [andrewraharjo/CAN-Bus-Hack_Prius_Focus](https://github.com/andrewraharjo/CAN-Bus-Hack_Prius_Focus) | Leverage from ioactive blog for research purpose in Self Driving Car Development | `Python` ★ 60 | 2016-08-05 |

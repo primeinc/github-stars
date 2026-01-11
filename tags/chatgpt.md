@@ -10,7 +10,7 @@
 | [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 8.9k | 2026-01-11 |
 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best Chat GPT that $100 can buy. | `Python` ★ 40.1k | 2026-01-08 |
 | [vercel-labs/chatgpt-apps-sdk-nextjs-starter](https://github.com/vercel-labs/chatgpt-apps-sdk-nextjs-starter) | No description provided | `TypeScript` ★ 230 | 2025-12-12 |
-| [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | This repo includes Chat GPT prompt curation to use Chat GPT and other LLM tools better. | `TypeScript` ★ 142k | 2026-01-11 |
+| [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | This repo includes Chat GPT prompt curation to use Chat GPT and other LLM tools better. | `TypeScript` ★ 142.1k | 2026-01-11 |
 | [Klingefjord/ChatGPT-API-Python](https://github.com/Klingefjord/ChatGPT-API-Python) | Unofficial Chat GPT headless browser wrapper | `Python` ★ 21 | 2022-12-06 |
 | [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) | A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure Open AI large language models to power Chat GPT-style and Q&A experiences. | `Python` ★ 7.5k | 2026-01-10 |
 | [sonnylazuardi/chat-ai-desktop](https://github.com/sonnylazuardi/chat-ai-desktop) | Unofficial Chat GPT desktop app for Mac & Windows menubar using Tauri & Rust | `Rust` ★ 2k | 2023-12-23 |
