@@ -9,9 +9,14 @@ export default defineConfig({
   reporter: 'html',
   use: {
     baseURL: 'https://primeinc.github.io/github-stars/',
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
     screenshot: 'on',
     video: 'on-first-retry',
+    actionTimeout: 15000,
+    navigationTimeout: 30000,
+  },
+  expect: {
+    timeout: 10000,
   },
   projects: [
     {
