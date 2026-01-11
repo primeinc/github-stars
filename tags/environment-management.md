@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [alibaba/ROCK](https://github.com/alibaba/ROCK) | A construction kit for reinforcement learning environment management. | `Python` ★ 292 | 2026-01-09 |
-| [RenjiYuusei/CursorFocus](https://github.com/RenjiYuusei/CursorFocus) | A lightweight tool that maintains a focused view of your project structure and environment. Cursor Focus automatically tracks your project files, functions, and environment variables, updating ever... | `Python` ★ 172 | 2025-11-30 |
+| [alibaba/ROCK](https://github.com/alibaba/ROCK) | A construction kit for reinforcement learning environment management. | `Python` ★ 292 | 2026-01-11 |
+| [RenjiYuusei/CursorFocus](https://github.com/RenjiYuusei/CursorFocus) | A lightweight tool that maintains a focused view of your project structure and environment. Cursor Focus automatically tracks your project files, functions, and environment variables, updating ever... | `Python` ★ 172 | 2025-04-02 |

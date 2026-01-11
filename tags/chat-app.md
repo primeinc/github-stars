@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Jonathanpatta/E2E-Encryption-Chat-App](https://github.com/Jonathanpatta/E2E-Encryption-Chat-App) | End-to-End Encryption Chat Application using Diffie Hellman Key Exchange protocol | `JavaScript` ★ 1 | 2025-03-16 |
-| [sdelements/lets-chat](https://github.com/sdelements/lets-chat) | Self-hosted chat app for small teams | `JavaScript` ★ 9.8k | 2026-01-10 |
+| [Jonathanpatta/E2E-Encryption-Chat-App](https://github.com/Jonathanpatta/E2E-Encryption-Chat-App) | End-to-End Encryption Chat Application using Diffie Hellman Key Exchange protocol | `JavaScript` ★ 1 | 2021-11-27 |
+| [sdelements/lets-chat](https://github.com/sdelements/lets-chat) | Self-hosted chat app for small teams | `JavaScript` ★ 9.8k | 2025-11-15 |
 | [shazow/ssh-chat](https://github.com/shazow/ssh-chat) | Chat over SSH. | `Go` ★ 5.8k | 2026-01-10 |

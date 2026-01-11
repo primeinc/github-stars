@@ -6,83 +6,83 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.4k | 2026-01-11 |
-| [cppqtdev/QT-Home-Automation-Glass-UI](https://github.com/cppqtdev/QT-Home-Automation-Glass-UI) | Linkedin Page | `QML` ★ 25 | 2025-12-18 |
-| [edera-dev/sprout](https://github.com/edera-dev/sprout) | Sprout: UEFI Bootloader in Rust | `Rust` ★ 263 | 2026-01-08 |
-| [leukipp/touchkio](https://github.com/leukipp/touchkio) | Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display. | `JavaScript` ★ 1k | 2026-01-10 |
-| [facebookresearch/habitat-sim](https://github.com/facebookresearch/habitat-sim) | A flexible, high-performance 3D simulator for Embodied AI research. | `C++` ★ 3.4k | 2026-01-11 |
-| [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 238 | 2026-01-07 |
-| [tile-ai/tilelang](https://github.com/tile-ai/tilelang) | Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels | `Python` ★ 4.6k | 2026-01-11 |
-| [matiasmenares/Nissboard](https://github.com/matiasmenares/Nissboard) | 🚗 Nissan Consult/OBDII Realtime Dashboard | `JavaScript` ★ 53 | 2025-12-26 |
-| [ClemensElflein/OpenMower](https://github.com/ClemensElflein/OpenMower) | Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots! | `C++` ★ 6.4k | 2026-01-10 |
-| [Vector-Wangel/XLeRobot](https://github.com/Vector-Wangel/XLeRobot) | XLe Robot: Practical Dual-Arm Mobile Home Robot for $660 | `Python` ★ 4.5k | 2026-01-10 |
-| [cartesiancs/vessel](https://github.com/cartesiancs/vessel) | Home security / protection system 🦾 | `TypeScript` ★ 312 | 2026-01-11 |
-| [kamailio/kamailio](https://github.com/kamailio/kamailio) | Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms - | `C` ★ 2.7k | 2026-01-10 |
-| [boatbod/op25](https://github.com/boatbod/op25) | Fork of osmocom OP25 by boatbod | `C++` ★ 427 | 2026-01-07 |
-| [EmenstaNougat/ESP32-BlueJammer](https://github.com/EmenstaNougat/ESP32-BlueJammer) | The ESP32-Blue Jammer (Bluetooth jammer, BLE jammer, Wi Fi jammer, RC jammer) disrupts 2.4GHz communications. Using an ESP32 and n RF24 modules, it generates noise and unnecessary packets, causing ... | ★ 5.1k | 2026-01-11 |
-| [WhitewaterFoundry/Pengwin](https://github.com/WhitewaterFoundry/Pengwin) | A Linux distro optimized for WSL based on Debian. | `C++` ★ 1.5k | 2026-01-10 |
-| [microsoft/wslg](https://github.com/microsoft/wslg) | Enabling the Windows Subsystem for Linux to include support for Wayland and X server related scenarios | `C++` ★ 11.4k | 2026-01-10 |
+| [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.4k | 2026-01-10 |
+| [cppqtdev/QT-Home-Automation-Glass-UI](https://github.com/cppqtdev/QT-Home-Automation-Glass-UI) | Linkedin Page | `QML` ★ 25 | 2024-05-18 |
+| [edera-dev/sprout](https://github.com/edera-dev/sprout) | Sprout: UEFI Bootloader in Rust | `Rust` ★ 263 | 2025-12-29 |
+| [leukipp/touchkio](https://github.com/leukipp/touchkio) | Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display. | `JavaScript` ★ 1k | 2025-12-15 |
+| [facebookresearch/habitat-sim](https://github.com/facebookresearch/habitat-sim) | A flexible, high-performance 3D simulator for Embodied AI research. | `C++` ★ 3.4k | 2025-12-18 |
+| [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 238 | 2025-12-11 |
+| [tile-ai/tilelang](https://github.com/tile-ai/tilelang) | Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels | `Python` ★ 4.6k | 2026-01-10 |
+| [matiasmenares/Nissboard](https://github.com/matiasmenares/Nissboard) | 🚗 Nissan Consult/OBDII Realtime Dashboard | `JavaScript` ★ 53 | 2023-01-05 |
+| [ClemensElflein/OpenMower](https://github.com/ClemensElflein/OpenMower) | Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots! | `C++` ★ 6.4k | 2025-05-09 |
+| [Vector-Wangel/XLeRobot](https://github.com/Vector-Wangel/XLeRobot) | XLe Robot: Practical Dual-Arm Mobile Home Robot for $660 | `Python` ★ 4.5k | 2026-01-09 |
+| [cartesiancs/vessel](https://github.com/cartesiancs/vessel) | Home security / protection system 🦾 | `TypeScript` ★ 312 | 2025-09-27 |
+| [kamailio/kamailio](https://github.com/kamailio/kamailio) | Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms - | `C` ★ 2.7k | 2026-01-09 |
+| [boatbod/op25](https://github.com/boatbod/op25) | Fork of osmocom OP25 by boatbod | `C++` ★ 427 | 2025-12-11 |
+| [EmenstaNougat/ESP32-BlueJammer](https://github.com/EmenstaNougat/ESP32-BlueJammer) | The ESP32-Blue Jammer (Bluetooth jammer, BLE jammer, Wi Fi jammer, RC jammer) disrupts 2.4GHz communications. Using an ESP32 and n RF24 modules, it generates noise and unnecessary packets, causing ... | ★ 5.1k | 2025-11-15 |
+| [WhitewaterFoundry/Pengwin](https://github.com/WhitewaterFoundry/Pengwin) | A Linux distro optimized for WSL based on Debian. | `C++` ★ 1.5k | 2025-11-26 |
+| [microsoft/wslg](https://github.com/microsoft/wslg) | Enabling the Windows Subsystem for Linux to include support for Wayland and X server related scenarios | `C++` ★ 11.4k | 2026-01-09 |
 | [byrdsandbytes/beatnik-pi](https://github.com/byrdsandbytes/beatnik-pi) | No description provided | `Shell` ★ 444 | 2026-01-09 |
-| [TA1312/supernote-a5x](https://github.com/TA1312/supernote-a5x) | various security information on the supernote a5x | `Batchfile` ★ 130 | 2025-12-17 |
-| [ZitaoTech/HackberryPiCM5](https://github.com/ZitaoTech/HackberryPiCM5) | An ultra portable handheld Linux device using Raspberry CM5 unit as Core with 4" 720X720 TFT Touch display and the original blackberry keyboard | `HTML` ★ 808 | 2026-01-11 |
-| [versotile-org/tauri-runtime-verso](https://github.com/versotile-org/tauri-runtime-verso) | No description provided | `Rust` ★ 96 | 2026-01-09 |
-| [team-telnyx/spandsp](https://github.com/team-telnyx/spandsp) | Span DSP is a low-level signal processing library that modulates and demodulates signals commonly used in telephony, such as the "noise" generated by a fax modem or DTMF touchpad. | `C` ★ 1 | 2025-03-15 |
-| [openxc/uds-c](https://github.com/openxc/uds-c) | Unified Diagnostics Service (UDS) and OBD-II (On Board Diagnostics for Vehicles) C Library | `C` ★ 786 | 2026-01-06 |
-| [andrewraharjo/CAN-Bus-Hack_Prius_Focus](https://github.com/andrewraharjo/CAN-Bus-Hack_Prius_Focus) | Leverage from ioactive blog for research purpose in Self Driving Car Development | `Python` ★ 60 | 2025-12-16 |
-| [iDoka/awesome-automotive-can-id](https://github.com/iDoka/awesome-automotive-can-id) | :tractor: Collect of CAN ID s and its payloads for various car brands/models in one place. Might be useful for Cyber Security Researchers, Reverse Engineers, and Automotive Electronics Enthusiasts. | ★ 838 | 2026-01-10 |
-| [CANBus-Triple/CANBus-Triple](https://github.com/CANBus-Triple/CANBus-Triple) | CANB us Triple – The car hacking platform | `C` ★ 348 | 2026-01-10 |
-| [Brandawg93/homebridge-fordpass](https://github.com/Brandawg93/homebridge-fordpass) | Control your Ford vehicle in Home Kit using Homebridge. | `TypeScript` ★ 63 | 2025-12-07 |
-| [itchannel/fordpass-ha](https://github.com/itchannel/fordpass-ha) | Fordpass integration for Home Assistant | `Python` ★ 384 | 2026-01-05 |
-| [choushunn/awesome-RK3588](https://github.com/choushunn/awesome-RK3588) | Useful resources for developing with the RK3588. :rocket: | ★ 414 | 2026-01-11 |
-| [maedball/Homeassistant_Siemens_versicharge](https://github.com/maedball/Homeassistant_Siemens_versicharge) | No description provided | ★ 1 | 2025-02-11 |
-| [achgut/Modbus_Versicharge](https://github.com/achgut/Modbus_Versicharge) | No description provided | `Python` ★ 1 | 2025-02-11 |
+| [TA1312/supernote-a5x](https://github.com/TA1312/supernote-a5x) | various security information on the supernote a5x | `Batchfile` ★ 130 | 2022-12-07 |
+| [ZitaoTech/HackberryPiCM5](https://github.com/ZitaoTech/HackberryPiCM5) | An ultra portable handheld Linux device using Raspberry CM5 unit as Core with 4" 720X720 TFT Touch display and the original blackberry keyboard | `HTML` ★ 808 | 2025-07-09 |
+| [versotile-org/tauri-runtime-verso](https://github.com/versotile-org/tauri-runtime-verso) | No description provided | `Rust` ★ 96 | 2025-10-03 |
+| [team-telnyx/spandsp](https://github.com/team-telnyx/spandsp) | Span DSP is a low-level signal processing library that modulates and demodulates signals commonly used in telephony, such as the "noise" generated by a fax modem or DTMF touchpad. | `C` ★ 1 | 2025-03-31 |
+| [openxc/uds-c](https://github.com/openxc/uds-c) | Unified Diagnostics Service (UDS) and OBD-II (On Board Diagnostics for Vehicles) C Library | `C` ★ 786 | 2021-08-16 |
+| [andrewraharjo/CAN-Bus-Hack_Prius_Focus](https://github.com/andrewraharjo/CAN-Bus-Hack_Prius_Focus) | Leverage from ioactive blog for research purpose in Self Driving Car Development | `Python` ★ 60 | 2016-08-05 |
+| [iDoka/awesome-automotive-can-id](https://github.com/iDoka/awesome-automotive-can-id) | :tractor: Collect of CAN ID s and its payloads for various car brands/models in one place. Might be useful for Cyber Security Researchers, Reverse Engineers, and Automotive Electronics Enthusiasts. | ★ 838 | 2025-06-26 |
+| [CANBus-Triple/CANBus-Triple](https://github.com/CANBus-Triple/CANBus-Triple) | CANB us Triple – The car hacking platform | `C` ★ 348 | 2019-11-11 |
+| [Brandawg93/homebridge-fordpass](https://github.com/Brandawg93/homebridge-fordpass) | Control your Ford vehicle in Home Kit using Homebridge. | `TypeScript` ★ 63 | 2025-11-21 |
+| [itchannel/fordpass-ha](https://github.com/itchannel/fordpass-ha) | Fordpass integration for Home Assistant | `Python` ★ 384 | 2025-11-07 |
+| [choushunn/awesome-RK3588](https://github.com/choushunn/awesome-RK3588) | Useful resources for developing with the RK3588. :rocket: | ★ 414 | 2025-12-07 |
+| [maedball/Homeassistant_Siemens_versicharge](https://github.com/maedball/Homeassistant_Siemens_versicharge) | No description provided | ★ 1 | 2022-12-10 |
+| [achgut/Modbus_Versicharge](https://github.com/achgut/Modbus_Versicharge) | No description provided | `Python` ★ 1 | 2024-12-22 |
 | [v154c1/libyuri](https://github.com/v154c1/libyuri) | No description provided | `C++` ★ 9 | 2025-07-22 |
 | [moebiussurfing/ofxNDIHelper](https://github.com/moebiussurfing/ofxNDIHelper) | open Frameworks add-on to fast integrate an NDI Manager with 2x IN + 1x OUT + a Webcam device with a customizable canvas layout. | `C++` ★ 13 | 2025-06-03 |
-| [lplassman/V4L2-to-NDI](https://github.com/lplassman/V4L2-to-NDI) | A video input (V4L2) to NDI converter that works with Raspberry Pi (32-bit and 64-bit), and Intel/AMD CPU s | `C++` ★ 89 | 2025-09-03 |
-| [dusty-nv/jetson-utils](https://github.com/dusty-nv/jetson-utils) | C++/CUDA/Python multimedia utilities for NVIDIA Jetson | `C++` ★ 861 | 2026-01-10 |
-| [kitspace/awesome-electronics](https://github.com/kitspace/awesome-electronics) | A curated list of awesome resources for Electronic Engineers and hobbyists | ★ 7.1k | 2026-01-10 |
-| [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) | 🐬 A collection of awesome resources for the Flipper Zero device. | ★ 22.6k | 2026-01-11 |
-| [paloukari/jetson-detectors](https://github.com/paloukari/jetson-detectors) | Contains examples and documentation on how to setup your remote development environment from your Windows host to a Jetson device | `Python` ★ 13 | 2025-01-25 |
-| [Ryoyo-NV/People-Flow-Analysis-System](https://github.com/Ryoyo-NV/People-Flow-Analysis-System) | People flow analysis system for Jetson Nano, Xavier NX, and AGX Xavier. | `Python` ★ 50 | 2025-12-27 |
-| [BestAnHongjun/LMDeploy-Jetson](https://github.com/BestAnHongjun/LMDeploy-Jetson) | Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access. | ★ 105 | 2026-01-05 |
-| [Qengineering/realsr-ncnn-Jetson-Nano](https://github.com/Qengineering/realsr-ncnn-Jetson-Nano) | Award winning Real SR super resolution with ncnn on Jetson Nano | ★ 43 | 2025-07-20 |
-| [rockkingjy/OpenTracker](https://github.com/rockkingjy/OpenTracker) | Real-time C++ ECO tracker etc. speed-up by SSE/NEON, support Linux, Mac, Jetson TX1/2, raspberry pi | `C++` ★ 778 | 2025-12-15 |
-| [arasharchor/jetson-video](https://github.com/arasharchor/jetson-video) | Unified streaming drivers and utilities for codecs, cameras, and displays including gstreamer, V4L2, Gig E, CUDA, Open GL, and others. | `C++` ★ 11 | 2025-06-20 |
-| [NVIDIA-AI-IOT/jetson-copilot](https://github.com/NVIDIA-AI-IOT/jetson-copilot) | A reference application for a local AI assistant with LLM and RAG | `Python` ★ 117 | 2025-11-11 |
-| [Qengineering/Face-Recognition-Jetson-Nano](https://github.com/Qengineering/Face-Recognition-Jetson-Nano) | Recognize 2000+ faces on your Jetson Nano with database auto-fill and anti-spoofing | `C++` ★ 122 | 2025-10-16 |
-| [shahizat/JetsonGPT](https://github.com/shahizat/JetsonGPT) | Using Fast Chat-T5 Large Language Model, Vosk API for automatic speech recognition, and Piper for text-to-speech | `Python` ★ 128 | 2025-12-31 |
-| [dusty-nv/jetson-voice](https://github.com/dusty-nv/jetson-voice) | ASR/NLP/TTS deep learning inference library for NVIDIA Jetson using Py Torch and Tensor RT | `Python` ★ 219 | 2025-12-07 |
-| [pvvx/THB2](https://github.com/pvvx/THB2) | Custom firmware for Tuya devices on the PHY622x2 chipset | `C` ★ 535 | 2026-01-03 |
-| [HW-Lab-Hardware-Design-Agency/WebScreen-Software](https://github.com/HW-Lab-Hardware-Design-Agency/WebScreen-Software) | Web Screen Firmware | `C` ★ 34 | 2026-01-02 |
-| [caspii/dinkydash](https://github.com/caspii/dinkydash) | A family dashboard for kids | `HTML` ★ 89 | 2025-11-07 |
-| [acon96/home-llm](https://github.com/acon96/home-llm) | A Home Assistant integration & Model to control your smart home using a Local LLM | `Python` ★ 1.2k | 2026-01-10 |
+| [lplassman/V4L2-to-NDI](https://github.com/lplassman/V4L2-to-NDI) | A video input (V4L2) to NDI converter that works with Raspberry Pi (32-bit and 64-bit), and Intel/AMD CPU s | `C++` ★ 89 | 2025-02-25 |
+| [dusty-nv/jetson-utils](https://github.com/dusty-nv/jetson-utils) | C++/CUDA/Python multimedia utilities for NVIDIA Jetson | `C++` ★ 861 | 2025-10-16 |
+| [kitspace/awesome-electronics](https://github.com/kitspace/awesome-electronics) | A curated list of awesome resources for Electronic Engineers and hobbyists | ★ 7.1k | 2026-01-05 |
+| [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) | 🐬 A collection of awesome resources for the Flipper Zero device. | ★ 22.6k | 2024-09-27 |
+| [paloukari/jetson-detectors](https://github.com/paloukari/jetson-detectors) | Contains examples and documentation on how to setup your remote development environment from your Windows host to a Jetson device | `Python` ★ 13 | 2019-10-05 |
+| [Ryoyo-NV/People-Flow-Analysis-System](https://github.com/Ryoyo-NV/People-Flow-Analysis-System) | People flow analysis system for Jetson Nano, Xavier NX, and AGX Xavier. | `Python` ★ 50 | 2022-01-28 |
+| [BestAnHongjun/LMDeploy-Jetson](https://github.com/BestAnHongjun/LMDeploy-Jetson) | Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access. | ★ 105 | 2024-03-23 |
+| [Qengineering/realsr-ncnn-Jetson-Nano](https://github.com/Qengineering/realsr-ncnn-Jetson-Nano) | Award winning Real SR super resolution with ncnn on Jetson Nano | ★ 43 | 2023-11-24 |
+| [rockkingjy/OpenTracker](https://github.com/rockkingjy/OpenTracker) | Real-time C++ ECO tracker etc. speed-up by SSE/NEON, support Linux, Mac, Jetson TX1/2, raspberry pi | `C++` ★ 778 | 2019-06-01 |
+| [arasharchor/jetson-video](https://github.com/arasharchor/jetson-video) | Unified streaming drivers and utilities for codecs, cameras, and displays including gstreamer, V4L2, Gig E, CUDA, Open GL, and others. | `C++` ★ 11 | 2016-09-18 |
+| [NVIDIA-AI-IOT/jetson-copilot](https://github.com/NVIDIA-AI-IOT/jetson-copilot) | A reference application for a local AI assistant with LLM and RAG | `Python` ★ 117 | 2024-12-05 |
+| [Qengineering/Face-Recognition-Jetson-Nano](https://github.com/Qengineering/Face-Recognition-Jetson-Nano) | Recognize 2000+ faces on your Jetson Nano with database auto-fill and anti-spoofing | `C++` ★ 122 | 2023-06-09 |
+| [shahizat/JetsonGPT](https://github.com/shahizat/JetsonGPT) | Using Fast Chat-T5 Large Language Model, Vosk API for automatic speech recognition, and Piper for text-to-speech | `Python` ★ 128 | 2023-06-15 |
+| [dusty-nv/jetson-voice](https://github.com/dusty-nv/jetson-voice) | ASR/NLP/TTS deep learning inference library for NVIDIA Jetson using Py Torch and Tensor RT | `Python` ★ 219 | 2024-02-09 |
+| [pvvx/THB2](https://github.com/pvvx/THB2) | Custom firmware for Tuya devices on the PHY622x2 chipset | `C` ★ 535 | 2025-10-18 |
+| [HW-Lab-Hardware-Design-Agency/WebScreen-Software](https://github.com/HW-Lab-Hardware-Design-Agency/WebScreen-Software) | Web Screen Firmware | `C` ★ 34 | 2025-10-10 |
+| [caspii/dinkydash](https://github.com/caspii/dinkydash) | A family dashboard for kids | `HTML` ★ 89 | 2025-12-10 |
+| [acon96/home-llm](https://github.com/acon96/home-llm) | A Home Assistant integration & Model to control your smart home using a Local LLM | `Python` ★ 1.2k | 2026-01-04 |
 | [MagicMirrorOrg/MagicMirror](https://github.com/MagicMirrorOrg/MagicMirror) | Magic Mirror² is an open source modular smart mirror platform. With a growing list of installable modules, the Magic Mirror² allows you to convert your hallway or bathroom mirror into your personal... | `JavaScript` ★ 23.2k | 2026-01-11 |
-| [sb-ocr/ocreeb-mk-2](https://github.com/sb-ocr/ocreeb-mk-2) | Modular Macro Keyboard System | `Python` ★ 550 | 2026-01-06 |
-| [ballaswag/guppyscreen](https://github.com/ballaswag/guppyscreen) | A native Touch UI for 3D Printers running Klipper/Moonraker. | `C` ★ 318 | 2026-01-10 |
-| [stevenbennett/Open-Task-Light](https://github.com/stevenbennett/Open-Task-Light) | Components for making the DIY son lamp | `Python` ★ 620 | 2026-01-05 |
-| [MycroftAI/mycroft-core](https://github.com/MycroftAI/mycroft-core) | Mycroft Core, the Mycroft Artificial Intelligence platform. | `Python` ★ 6.6k | 2026-01-09 |
-| [kpanchen/org.openhab.binding.icomforts30](https://github.com/kpanchen/org.openhab.binding.icomforts30) | Lennox i Comfort S30 binding for Open HAB 3 | `Java` ★ 3 | 2023-06-21 |
-| [nataliethenerd/picohatpad](https://github.com/nataliethenerd/picohatpad) | No description provided | `Python` ★ 75 | 2025-12-10 |
-| [AdamLaurie/hdmi-sniff](https://github.com/AdamLaurie/hdmi-sniff) | sniff HDMI DDC (I2C) traffic | `Python` ★ 95 | 2025-12-09 |
-| [timmbogner/Farm-Data-Relay-System](https://github.com/timmbogner/Farm-Data-Relay-System) | A system that uses ESP-NOW, Lo Ra, and other protocols to transport sensor data in remote areas without relying on Wi Fi. | `C` ★ 584 | 2026-01-08 |
-| [daniel-frenkel/Valar-Systems](https://github.com/daniel-frenkel/Valar-Systems) | Welcome to my tiny one-man shop, Valar Systems. I make devices that control your home's curtains, windows, doors, and more! | `C` ★ 40 | 2023-04-24 |
-| [Home-Is-Where-You-Hang-Your-Hack/sensor.goveetemp_bt_hci](https://github.com/Home-Is-Where-You-Hang-Your-Hack/sensor.goveetemp_bt_hci) | Govee Temperature/Humidity BLE Home Assistant Component | `Python` ★ 165 | 2025-11-24 |
-| [TheSpaghettiDetective/OctoPrint-Obico](https://github.com/TheSpaghettiDetective/OctoPrint-Obico) | No description provided | `Python` ★ 141 | 2026-01-03 |
-| [DustinWatts/esp32-touchdown](https://github.com/DustinWatts/esp32-touchdown) | ESP32 Touch Down | ★ 348 | 2025-12-20 |
-| [thomasloven/lovelace-auto-entities](https://github.com/thomasloven/lovelace-auto-entities) | 🔹Automatically populate the entities-list of lovelace cards | `TypeScript` ★ 1.7k | 2026-01-10 |
-| [artem-sedykh/mini-climate-card](https://github.com/artem-sedykh/mini-climate-card) | Minimalistic climate card for Home Assistant Lovelace UI | `JavaScript` ★ 314 | 2026-01-10 |
-| [dlarrick/hass-kumo](https://github.com/dlarrick/hass-kumo) | Home Assistant module interfacing with Mitsubishi mini-split units | `Python` ★ 130 | 2026-01-07 |
-| [eyalcha/read_your_meter](https://github.com/eyalcha/read_your_meter) | Home Assistant sensor to read water meter | `Python` ★ 40 | 2025-04-21 |
-| [claytonjn/hass-circadian_lighting](https://github.com/claytonjn/hass-circadian_lighting) | Circadian Lighting custom component for Home Assistant | `Python` ★ 861 | 2026-01-07 |
-| [moralmunky/Home-Assistant-Mail-And-Packages](https://github.com/moralmunky/Home-Assistant-Mail-And-Packages) | Home Assistant integration providing day of package counts and USPS informed delivery images. | `Python` ★ 796 | 2026-01-10 |
-| [custom-components/climate.programmable_thermostat](https://github.com/custom-components/climate.programmable_thermostat) | Programmable thermostat that let you have a smart thermostat on budget. | `Python` ★ 117 | 2025-10-11 |
-| [geekuillaume/soundsync](https://github.com/geekuillaume/soundsync) | Virtual cables between any audio source and any speaker in your home | `C` ★ 890 | 2025-12-07 |
-| [scottlawsonbc/audio-reactive-led-strip](https://github.com/scottlawsonbc/audio-reactive-led-strip) | :musical_note: :rainbow: Real-time LED strip music visualization using Python and the ESP8266 or Raspberry Pi | `Python` ★ 2.8k | 2026-01-10 |
-| [ahodges9/LedFx](https://github.com/ahodges9/LedFx) | Led Fx is a network based LED effect controller with support for advanced real-time audio effects! Led Fx can control multiple devices and works great with cheap ESP8266 nodes allowing for cost eff... | `Python` ★ 392 | 2025-11-10 |
-| [zhujisheng/audio-reactive-led-strip](https://github.com/zhujisheng/audio-reactive-led-strip) | 🎵 🌈 Real-time LED strip music visualization running on ESP32 based on Arduino or ESPH ome platform | `C++` ★ 155 | 2025-12-02 |
-| [fma965/ESP-MQTT-JSON-Digital-LEDs](https://github.com/fma965/ESP-MQTT-JSON-Digital-LEDs) | ESP MQTT Digital LEDs for Home Assistant's MQTT JSON Light Component. Supports flash, fade, transitions, effects, and OTA uploading! | `C++` ★ 18 | 2025-02-22 |
+| [sb-ocr/ocreeb-mk-2](https://github.com/sb-ocr/ocreeb-mk-2) | Modular Macro Keyboard System | `Python` ★ 550 | 2024-02-04 |
+| [ballaswag/guppyscreen](https://github.com/ballaswag/guppyscreen) | A native Touch UI for 3D Printers running Klipper/Moonraker. | `C` ★ 318 | 2024-07-15 |
+| [stevenbennett/Open-Task-Light](https://github.com/stevenbennett/Open-Task-Light) | Components for making the DIY son lamp | `Python` ★ 621 | 2025-07-22 |
+| [MycroftAI/mycroft-core](https://github.com/MycroftAI/mycroft-core) | Mycroft Core, the Mycroft Artificial Intelligence platform. | `Python` ★ 6.6k | 2024-09-08 |
+| [kpanchen/org.openhab.binding.icomforts30](https://github.com/kpanchen/org.openhab.binding.icomforts30) | Lennox i Comfort S30 binding for Open HAB 3 | `Java` ★ 3 | 2023-04-13 |
+| [nataliethenerd/picohatpad](https://github.com/nataliethenerd/picohatpad) | No description provided | `Python` ★ 75 | 2023-01-29 |
+| [AdamLaurie/hdmi-sniff](https://github.com/AdamLaurie/hdmi-sniff) | sniff HDMI DDC (I2C) traffic | `Python` ★ 95 | 2014-08-27 |
+| [timmbogner/Farm-Data-Relay-System](https://github.com/timmbogner/Farm-Data-Relay-System) | A system that uses ESP-NOW, Lo Ra, and other protocols to transport sensor data in remote areas without relying on Wi Fi. | `C` ★ 584 | 2025-04-01 |
+| [daniel-frenkel/Valar-Systems](https://github.com/daniel-frenkel/Valar-Systems) | Welcome to my tiny one-man shop, Valar Systems. I make devices that control your home's curtains, windows, doors, and more! | `C` ★ 40 | 2023-04-12 |
+| [Home-Is-Where-You-Hang-Your-Hack/sensor.goveetemp_bt_hci](https://github.com/Home-Is-Where-You-Hang-Your-Hack/sensor.goveetemp_bt_hci) | Govee Temperature/Humidity BLE Home Assistant Component | `Python` ★ 165 | 2023-01-07 |
+| [TheSpaghettiDetective/OctoPrint-Obico](https://github.com/TheSpaghettiDetective/OctoPrint-Obico) | No description provided | `Python` ★ 141 | 2025-11-16 |
+| [DustinWatts/esp32-touchdown](https://github.com/DustinWatts/esp32-touchdown) | ESP32 Touch Down | ★ 348 | 2024-04-20 |
+| [thomasloven/lovelace-auto-entities](https://github.com/thomasloven/lovelace-auto-entities) | 🔹Automatically populate the entities-list of lovelace cards | `TypeScript` ★ 1.7k | 2025-08-21 |
+| [artem-sedykh/mini-climate-card](https://github.com/artem-sedykh/mini-climate-card) | Minimalistic climate card for Home Assistant Lovelace UI | `JavaScript` ★ 314 | 2025-02-10 |
+| [dlarrick/hass-kumo](https://github.com/dlarrick/hass-kumo) | Home Assistant module interfacing with Mitsubishi mini-split units | `Python` ★ 130 | 2025-12-31 |
+| [eyalcha/read_your_meter](https://github.com/eyalcha/read_your_meter) | Home Assistant sensor to read water meter | `Python` ★ 40 | 2022-07-25 |
+| [claytonjn/hass-circadian_lighting](https://github.com/claytonjn/hass-circadian_lighting) | Circadian Lighting custom component for Home Assistant | `Python` ★ 861 | 2025-09-19 |
+| [moralmunky/Home-Assistant-Mail-And-Packages](https://github.com/moralmunky/Home-Assistant-Mail-And-Packages) | Home Assistant integration providing day of package counts and USPS informed delivery images. | `Python` ★ 796 | 2026-01-09 |
+| [custom-components/climate.programmable_thermostat](https://github.com/custom-components/climate.programmable_thermostat) | Programmable thermostat that let you have a smart thermostat on budget. | `Python` ★ 117 | 2025-09-08 |
+| [geekuillaume/soundsync](https://github.com/geekuillaume/soundsync) | Virtual cables between any audio source and any speaker in your home | `C` ★ 890 | 2023-03-04 |
+| [scottlawsonbc/audio-reactive-led-strip](https://github.com/scottlawsonbc/audio-reactive-led-strip) | :musical_note: :rainbow: Real-time LED strip music visualization using Python and the ESP8266 or Raspberry Pi | `Python` ★ 2.8k | 2026-01-06 |
+| [ahodges9/LedFx](https://github.com/ahodges9/LedFx) | Led Fx is a network based LED effect controller with support for advanced real-time audio effects! Led Fx can control multiple devices and works great with cheap ESP8266 nodes allowing for cost eff... | `Python` ★ 392 | 2023-07-20 |
+| [zhujisheng/audio-reactive-led-strip](https://github.com/zhujisheng/audio-reactive-led-strip) | 🎵 🌈 Real-time LED strip music visualization running on ESP32 based on Arduino or ESPH ome platform | `C++` ★ 155 | 2022-03-02 |
+| [fma965/ESP-MQTT-JSON-Digital-LEDs](https://github.com/fma965/ESP-MQTT-JSON-Digital-LEDs) | ESP MQTT Digital LEDs for Home Assistant's MQTT JSON Light Component. Supports flash, fade, transitions, effects, and OTA uploading! | `C++` ★ 18 | 2021-05-20 |
 | [home-assistant/core](https://github.com/home-assistant/core) | :house_with_garden: Open source home automation that puts local control and privacy first. | `Python` ★ 84k | 2026-01-11 |
-| [ssimunic/Temp-Monitor](https://github.com/ssimunic/Temp-Monitor) | Internet of Things data platform for temperature and humidity sensors with maps | `PHP` ★ 90 | 2024-11-01 |
-| [threat9/routersploit](https://github.com/threat9/routersploit) | Exploitation Framework for Embedded Devices | `Python` ★ 12.9k | 2026-01-10 |
+| [ssimunic/Temp-Monitor](https://github.com/ssimunic/Temp-Monitor) | Internet of Things data platform for temperature and humidity sensors with maps | `PHP` ★ 90 | 2018-11-23 |
+| [threat9/routersploit](https://github.com/threat9/routersploit) | Exploitation Framework for Embedded Devices | `Python` ★ 12.9k | 2025-06-10 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

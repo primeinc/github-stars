@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [ppy/osu](https://github.com/ppy/osu) | rhythm is just a *click* away! | `C#` ★ 17.8k | 2026-01-11 |
-| [GaspardCulis/slint-tetris](https://github.com/GaspardCulis/slint-tetris) | Tetris game made with Slint | `Rust` ★ 42 | 2026-01-07 |
-| [veltman/clmystery](https://github.com/veltman/clmystery) | A command-line murder mystery | ★ 6k | 2026-01-09 |
+| [ppy/osu](https://github.com/ppy/osu) | rhythm is just a *click* away! | `C#` ★ 17.8k | 2026-01-10 |
+| [GaspardCulis/slint-tetris](https://github.com/GaspardCulis/slint-tetris) | Tetris game made with Slint | `Rust` ★ 42 | 2023-05-26 |
+| [veltman/clmystery](https://github.com/veltman/clmystery) | A command-line murder mystery | ★ 6k | 2023-09-21 |

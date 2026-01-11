@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Orange-Cyberdefense/GOAD](https://github.com/Orange-Cyberdefense/GOAD) | game of active directory | `PowerShell` ★ 7.3k | 2026-01-10 |
+| [Orange-Cyberdefense/GOAD](https://github.com/Orange-Cyberdefense/GOAD) | game of active directory | `PowerShell` ★ 7.3k | 2025-07-16 |
 | [SpecterOps/BloodHound](https://github.com/SpecterOps/BloodHound) | Six Degrees of Domain Admin | `Go` ★ 2.7k | 2026-01-11 |

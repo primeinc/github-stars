@@ -174,15 +174,15 @@ Last updated: 2026-01-11
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [adriangalilea/namecheap-python](https://github.com/adriangalilea/namecheap-python) | A Python SDK for the Namecheap API & CLI/TUI tools using it | `Python` ★ 28 | 2026-01-10 |
-| [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) | A collaborative list of public APIs for developers | `JavaScript` ★ 7.5k | 2026-01-11 |
-| [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) | OSINT Framework | `JavaScript` ★ 10.5k | 2026-01-11 |
+| [adriangalilea/namecheap-python](https://github.com/adriangalilea/namecheap-python) | A Python SDK for the Namecheap API & CLI/TUI tools using it | `Python` ★ 28 | 2025-11-04 |
+| [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) | A collaborative list of public APIs for developers | `JavaScript` ★ 7.5k | 2026-01-07 |
+| [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) | OSINT Framework | `JavaScript` ★ 10.5k | 2025-06-16 |
 | [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `JavaScript` ★ 9.6k | 2026-01-11 |
-| [simulot/immich-go](https://github.com/simulot/immich-go) | An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives. | `Go` ★ 5.2k | 2026-01-10 |
-| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `Go` ★ 11.3k | 2026-01-11 |
-| [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | Community managed domain list. Generate geosite.dat for V2Ray. | `Go` ★ 7.2k | 2026-01-11 |
+| [simulot/immich-go](https://github.com/simulot/immich-go) | An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives. | `Go` ★ 5.2k | 2025-12-29 |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `Go` ★ 11.3k | 2026-01-09 |
+| [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | Community managed domain list. Generate geosite.dat for V2Ray. | `Go` ★ 7.2k | 2026-01-10 |
 | [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.1k | 2026-01-10 |
-| [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another :crocodile: :package: | `Go` ★ 33.8k | 2026-01-10 |
+| [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another :crocodile: :package: | `Go` ★ 33.8k | 2026-01-09 |
 | [steveiliop56/tinyauth](https://github.com/steveiliop56/tinyauth) | The simplest way to protect your apps with a login screen. | `Go` ★ 6.7k | 2026-01-11 |
 
 ---
