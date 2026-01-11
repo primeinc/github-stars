@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:42:26.267Z"
+  last_updated: "2026-01-11T02:42:44.435Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -64714,13 +64714,19 @@ repositories:
       mirror_url: null
   - repo: facefusion/facefusion
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ai
+      - lang:python
+      - face-swap
+      - deepfake
+      - lipsync
     summary: Industry leading face manipulation platform
     last_synced_sha: a7f3de3dbc503bd3d6d3ca13d0b303db450e270a
     starred_at: "2025-07-21T11:09:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -64742,15 +64748,25 @@ repositories:
         published_at: "2025-12-13T07:59:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.435Z"
+      prompt_version: v2
   - repo: pdfforge/PDFCreator
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - pdf
+      - converter
+      - lang:csharp
+      - document-management
     summary: PDFCreator - The free PDF Converter
     last_synced_sha: 806c723b24124a78f603b3023c25981e4970c7af
     starred_at: "2025-07-20T17:07:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -64763,15 +64779,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.435Z"
+      prompt_version: v2
   - repo: musistudio/claude-code-router
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - infrastructure
+    tags:
+      - llm
+      - lang:ts
+      - claude
+      - infrastructure
     summary: Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.
     last_synced_sha: c73fe0d49d7cb0e8b8c7d0b1677c170b92d2a2ae
     starred_at: "2025-07-17T22:03:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -64784,15 +64810,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.435Z"
+      prompt_version: v2
   - repo: strapi/strapi
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - apis
+    tags:
+      - headless-cms
+      - lang:ts
+      - cms
+      - graphql
+      - rest
     summary: "\U0001F680 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first."
     last_synced_sha: 83f9ccf1fd746ed4fad4bebf04cf998ddaafb5bc
     starred_at: "2025-07-17T22:01:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -64827,15 +64864,26 @@ repositories:
         published_at: "2026-01-08T08:54:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.435Z"
+      prompt_version: v2
   - repo: untitleduico/react
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+    tags:
+      - react
+      - tailwindcss
+      - ui-library
+      - lang:ts
+      - components
     summary: Untitled UI React is the world’s largest collection of open-source React components built with Tailwind CSS and React Aria. Just copy, paste, and build.
     last_synced_sha: 67903629dd7a785fd0d0efa9df9fb9b7f92b0be4
     starred_at: "2025-07-17T21:55:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -64855,15 +64903,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.435Z"
+      prompt_version: v2
   - repo: JJarv04/ScreenConnect-IntuneWin32
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - intune
+      - lang:powershell
+      - screenconnect
+      - sysadmin
     summary: 'An fork of James Vincents: ''How to Deploy Screen Connect using Intune'' scripts.'
     last_synced_sha: d92a5c29663aba0fc75a87e7f8aedff32f89eb15
     starred_at: "2025-07-17T02:24:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -64876,15 +64934,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.435Z"
+      prompt_version: v2
   - repo: PavelDoGreat/WebGL-Fluid-Simulation
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - game-dev
+    tags:
+      - fluid-simulation
+      - webgl
+      - lang:js
+      - simulation
+      - gpu-compute
     summary: Play with fluids in your browser (works even on mobile)
     last_synced_sha: a2d292931f19d9b3b9f564e23e6c32729d2121c3
     starred_at: "2025-07-16T17:58:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -64902,15 +64971,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.435Z"
+      prompt_version: v2
   - repo: OpenPipe/ART
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - reinforcement-learning
+      - lang:python
+      - agents
+      - grpo
+      - rl
     summary: 'Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen2.5, Qwen3, Llama, and more!'
     last_synced_sha: fd939af5fe399df5219cd8a69f19641e782f70cb
     starred_at: "2025-07-16T17:53:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -64934,15 +65014,23 @@ repositories:
         published_at: "2026-01-08T00:38:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.435Z"
+      prompt_version: v2
   - repo: vibetunnel/vibetunnel
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+    tags:
+      - lang:ts
+      - frontend
+      - wip
     summary: WIP - we're transitioning to the org soon
     last_synced_sha: c7ddd4edde6000e56d1e6f79bd99522fbdd4f65a
     starred_at: "2025-07-16T17:50:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -64955,15 +65043,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.434Z"
+      prompt_version: v2
   - repo: davidkimai/Context-Engineering
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - handbook
+      - context-engineering
+      - lang:python
+      - ai
+      - research
     summary: '"Context engineering is the delicate art and science of filling the context window with just the right information for the next step." — Andrej Karpathy. A frontier, first-principles handbook inspi...'
     last_synced_sha: 27e929065c484d3899a625222a98291a95d592da
     starred_at: "2025-07-15T20:21:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -64976,15 +65075,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.434Z"
+      prompt_version: v2
   - repo: imskyleen/animate-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+    tags:
+      - react
+      - tailwindcss
+      - motion
+      - components
+      - lang:ts
     summary: Fully animated, open-source component distribution built with React, Type Script, Tailwind CSS, Motion, and Shadcn CLI. Browse a list of components you can install, modify, and use in your projects.
     last_synced_sha: efeb96ffd7a3b7a4868667e4ac3c346620fb3044
     starred_at: "2025-07-15T20:20:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -65006,15 +65116,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.434Z"
+      prompt_version: v2
   - repo: theimpactfulcompany/Rise-Media-Player
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - media-player
+      - lang:csharp
+      - winui
+      - fluent-design
+      - customization
     summary: One media player for everything you own or stream; whether it's music or videos, online or offline Rise Media Player does it all. And it's beautiful and native with the latest version of Win UI.
     last_synced_sha: bf3c979af2f0111b15ca0171bc7d4842d2766a8b
     starred_at: "2025-07-13T13:25:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -65045,15 +65166,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.434Z"
+      prompt_version: v2
   - repo: perspective-dev/perspective
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ui-libraries
+    tags:
+      - data-visualization
+      - analytics
+      - lang:cpp
+      - webassembly
+      - real-time
     summary: A data visualization and analytics component, especially well-suited for large and/or streaming datasets.
     last_synced_sha: 046a0ac1b81b8a97cfd44d796a478befddfc36c8
     starred_at: "2025-07-12T05:40:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -65076,15 +65208,26 @@ repositories:
         published_at: "2025-12-16T12:11:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.434Z"
+      prompt_version: v2
   - repo: anthropics/claude-cookbooks
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - tutorials
+      - notebooks
+      - claude
+      - llm
+      - examples
     summary: A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
     last_synced_sha: dd961e43ecb5947df115e8e17067b3b324e5d5e2
     starred_at: "2025-07-11T02:37:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -65097,15 +65240,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.431Z"
+      prompt_version: v2
   - repo: winfunc/opcode
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - llm
+      - agent-development
+      - lang:ts
+      - tauri
+      - gui
     summary: A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.
     last_synced_sha: 70c16d8a4910db48cd9684aeacdd431caefd7d71
     starred_at: "2025-07-01T01:38:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -65135,6 +65289,11 @@ repositories:
         published_at: "2025-08-31T15:13:14Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:42:44.430Z"
+      prompt_version: v2
   - repo: SuperClaude-Org/SuperClaude_Framework
     categories:
       - ai-ml
