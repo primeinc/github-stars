@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-11T17:11:24.204Z"
+  manifest_updated_at: "2026-01-11T17:11:44.429Z"
   total_repos: 1959
   generator_version: v1.0.0
   github_user: primeinc
@@ -69086,13 +69086,17 @@ repositories:
       mirror_url: null
   - repo: defuse/php-encryption
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - php-encryption
+      - data-security
+      - lang:php
     summary: Simple Encryption in PHP.
     last_synced_sha: 9b77beb6e1cd997aecfd2392849db5afab128b5e
     user_starred_at: "2014-08-15T08:04:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -69111,15 +69115,24 @@ repositories:
         published_at: "2023-06-19T06:21:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.429Z"
+      prompt_version: v2
   - repo: ziadoz/awesome-php
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - php-resources
+      - php-library
+      - awesome-list
     summary: A curated list of amazingly awesome PHP libraries, resources and shiny things.
     last_synced_sha: b27fc4798fc877b6a0b5cca9b15ee4894f49058a
     user_starred_at: "2014-08-06T08:04:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -69143,15 +69156,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.429Z"
+      prompt_version: v2
   - repo: bayandin/awesome-awesomeness
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - curated-list
+      - community-resources
+      - lang:ruby
     summary: A curated list of awesome awesomeness
     last_synced_sha: c35ea15c5db11409f2bd6467725bcec57d9689df
     user_starred_at: "2014-08-06T08:04:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics: []
@@ -69168,15 +69190,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.429Z"
+      prompt_version: v2
   - repo: mackstann/binpack
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - bin-packing
+      - 2d-canvas
     summary: 2D bin-packing using Java Script + canvas
     last_synced_sha: 7f21b8d63b20eebf8a22fd8173f7cda6df14933d
     user_starred_at: "2014-06-27T04:52:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -69193,15 +69223,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.429Z"
+      prompt_version: v2
   - repo: FreeApophis/TrueCrypt
     categories:
-      - unclassified
-    tags: []
+      - security
+      - infrastructure
+    tags:
+      - encryption
+      - data-security
+      - lang:c
     summary: This repository applies all Versions of the Original True Crypt Source Files in order
     last_synced_sha: bc57fd6ce0e7f8f0817f5eebbb79aea1809863e9
     user_starred_at: "2014-06-23T05:15:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -69218,15 +69257,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.429Z"
+      prompt_version: v2
   - repo: google/WebFundamentals
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - web-dev
+    tags:
+      - best-practices
+      - progressive-web-apps
+      - html
+      - css
+      - lang:js
     summary: Former git repo for Web Fundamentals on developers.google.com
     last_synced_sha: f457a26e610a6c17d0b1864c04c892f38c117e8e
     user_starred_at: "2014-06-20T11:11:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: JavaScript
@@ -69255,15 +69305,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.429Z"
+      prompt_version: v2
   - repo: twbs/bootstrap
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - responsive-design
+      - css-framework
+      - mobile-first
+      - sass
     summary: The most popular HTML, CSS, and Java Script framework for developing responsive, mobile first projects on the web.
     last_synced_sha: c82919e8970c7ebebb87ded191b815c76737cd04
     user_starred_at: "2014-06-20T11:10:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: MDX
       topics:
@@ -69289,15 +69349,24 @@ repositories:
         published_at: "2025-08-26T02:04:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.429Z"
+      prompt_version: v2
   - repo: google/web-starter-kit
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - web-workflow
+      - responsive-design
+      - mobile-web
     summary: Web Starter Kit - a workflow for multi-device websites
     last_synced_sha: e7e55e891ff6f00b223db5a5ef531e0ffaf84bbb
     user_starred_at: "2014-06-20T11:09:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: HTML
@@ -69317,15 +69386,24 @@ repositories:
         published_at: "2016-12-13T20:01:12Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.429Z"
+      prompt_version: v2
   - repo: chevereto/g-library
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - library-framework
+      - content-management
+      - lang:php
     summary: The library behind Chevereto V3.X. Replaced by chevere/chevere for Chevereto V4 onwards.
     last_synced_sha: 181a1d0eab7b3e19def013ed65d07314bc0545b5
     user_starred_at: "2014-06-14T11:29:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: PHP
@@ -69343,15 +69421,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.429Z"
+      prompt_version: v2
   - repo: ruflin/Elastica
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+    tags:
+      - php-client
+      - elasticsearch-tool
+      - search-api
+      - lang:php
     summary: Elastica is a PHP client for elasticsearch
     last_synced_sha: bc9eeafbe8960124d6d1a41b7be2913394593217
     user_starred_at: "2014-03-28T00:08:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -69373,15 +69461,24 @@ repositories:
         published_at: "2025-10-01T12:59:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.429Z"
+      prompt_version: v2
   - repo: slate/slate
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - desktop-dev
+    tags:
+      - irc-client
+      - chat-application
+      - lang:js
     summary: Slate IRC client
     last_synced_sha: ebe63e37a980cc0bfb3d99b4ac02cad74f4d532d
     user_starred_at: "2014-03-23T17:00:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -69398,15 +69495,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.429Z"
+      prompt_version: v2
   - repo: ossec/ossec-hids
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+    tags:
+      - intrusion-detection
+      - file-integrity
+      - policy-monitoring
+      - host-monitoring
+      - lang:c
     summary: OSSEC is an Open Source Host-based Intrusion Detection System that performs log analysis, file integrity checking, policy monitoring, rootkit detection, real-time alerting and active response.
     last_synced_sha: f6502012b7380208db81f82311ad4a1994d39905
     user_starred_at: "2014-03-22T18:15:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -69436,15 +69544,26 @@ repositories:
         published_at: "2025-01-05T21:26:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.429Z"
+      prompt_version: v2
   - repo: 64characters/Telephone
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - desktop-dev
+    tags:
+      - sip-client
+      - voip
+      - mac-app
+      - softphone
+      - lang:swift
     summary: SIP softphone for Mac
     last_synced_sha: 3f30dc142569eff0621ef59a9eb3f938db84fa60
     user_starred_at: "2014-03-22T18:08:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics:
@@ -69468,15 +69587,25 @@ repositories:
         published_at: "2022-06-29T18:06:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.429Z"
+      prompt_version: v2
   - repo: tariqbuilds/linux-dash
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - ui-libraries
+    tags:
+      - linux-dashboard
+      - server-monitoring
+      - web-ui
+      - lang:js
     summary: A beautiful web dashboard for Linux
     last_synced_sha: 186a802ea76e8bfcab7e8e7ebc533b74f80306fc
     user_starred_at: "2014-03-14T06:56:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -69502,15 +69631,24 @@ repositories:
         published_at: "2017-05-14T12:16:32Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.428Z"
+      prompt_version: v2
   - repo: FreePBX/framework
     categories:
-      - unclassified
-    tags: []
+      - infrastructure
+      - apis
+    tags:
+      - framework-module
+      - bug-fixes
+      - lang:php
     summary: This module provides a facility to install bug fixes to the framework code that is not otherwise housed in a module
     last_synced_sha: ec80591a8db1eda37656f8dec4ca3946ace2774f
     user_starred_at: "2014-03-13T16:21:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -69527,6 +69665,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:11:44.428Z"
+      prompt_version: v2
   - repo: POSSA/freepbx-Call-Statistics
     categories:
       - productivity
