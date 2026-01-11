@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [samuel-vitorino/sopro](https://github.com/samuel-vitorino/sopro) | A lightweight text-to-speech model with zero-shot voice cloning | `Python` ★ 650 | 2026-01-07 |
+| [samuel-vitorino/sopro](https://github.com/samuel-vitorino/sopro) | A lightweight text-to-speech model with zero-shot voice cloning | `Python` ★ 644 | 2026-01-07 |
 | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | Vox CPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning | `Python` ★ 3.3k | 2026-01-04 |
 | [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) | Instant voice cloning by MIT and My Shell. Audio foundation model. | `Python` ★ 35.8k | 2025-04-19 |
 | [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | 1 min voice data can also be used to train a good TTS model! (few shot voice cloning) | `Python` ★ 54k | 2025-12-30 |

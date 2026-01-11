@@ -15,12 +15,12 @@
 | [johnlindquist/mdflow](https://github.com/johnlindquist/mdflow) | Multi-backend CLI for executable markdown prompts. Run .md files against Claude, Codex, Gemini, or Copilot. | `TypeScript` ★ 509 | 2025-12-19 |
 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future ... | `TypeScript` ★ 13.1k | 2026-01-10 |
 | [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (`azd`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 237 | 2026-01-07 |
-| [charmbracelet/glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! 💅🏻 | `Go` ★ 22.2k | 2025-12-21 |
+| [charmbracelet/glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! 💅🏻 | `Go` ★ 22.1k | 2025-12-21 |
 | [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | `Go` ★ 70.4k | 2026-01-07 |
 | [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer) | API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites | `JavaScript` ★ 20.3k | 2025-10-31 |
 | [Infisical/infisical](https://github.com/Infisical/infisical) | Infisical is the open-source platform for secrets, certificates, and privileged access management. | `TypeScript` ★ 24.5k | 2026-01-11 |
 | [Azure/deployment-stacks](https://github.com/Azure/deployment-stacks) | Contains Deployment Stacks CLI scripts and releases | `Bicep` ★ 98 | 2024-10-24 |
-| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader | `Python` ★ 141.4k | 2026-01-06 |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader | `Python` ★ 141.3k | 2026-01-06 |
 | [sigoden/aichat](https://github.com/sigoden/aichat) | All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to Open AI, Claude, Gemini, Ollama, Groq, and more. | `Rust` ★ 9k | 2026-01-06 |
 | [betomoedano/snapai](https://github.com/betomoedano/snapai) | AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using Open AI's latest models. | `TypeScript` ★ 1.4k | 2025-09-15 |
 | [soimthe1/snmp-printer-utility](https://github.com/soimthe1/snmp-printer-utility) | A fast, Go-powered CLI tool to scan and monitor SNMP-enabled printers across networks. Discover printers, fetch real-time status, supply levels (toner/ink), tray capacities, and page counts using S... | `Go` ★ 2 | 2025-02-26 |
@@ -29,6 +29,6 @@
 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | Automate the process of making money online. | `Python` ★ 12.9k | 2025-07-08 |
 | [scaffdog/scaffdog](https://github.com/scaffdog/scaffdog) | :dog: scaffdog is Markdown driven scaffolding tool. | `TypeScript` ★ 758 | 2026-01-08 |
 | [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | A CLI tool for analyzing Claude Code usage from local JSONL files. | `TypeScript` ★ 9.7k | 2026-01-10 |
-| [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflo... | `Shell` ★ 55k | 2026-01-11 |
+| [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflo... | `Shell` ★ 54.8k | 2026-01-11 |
 | [antonmedv/walk](https://github.com/antonmedv/walk) | Terminal file manager | `Go` ★ 3.6k | 2026-01-06 |
 | [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) | Reverse engineered Chat GPT API | `Python` ★ 28k | 2023-08-02 |

@@ -241,37 +241,10 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add repos.yml
           git commit -m "AI classify ${{ steps.apply.outputs.count }} repos [skip ci]"
-
-          echo "--- Git status before trying to sync ---"
-          git status --porcelain || true
-
-          attempts=0
-          max_attempts=5
-          until [ $attempts -ge $max_attempts ]
-          do
-            echo "Attempt $((attempts+1)) to pull/rebase and push"
-            # Use autostash to handle transient unstaged files
-            if git pull --rebase --autostash origin main; then
-              if git push origin main; then
-                echo "Pushed successfully"
-                break
-              else
-                echo "Push failed; will retry"
-              fi
-            else
-              echo "Rebase failed; aborting and retrying (showing git status)"
-              git rebase --abort || true
-              git status --porcelain || true
-            fi
-            attempts=$((attempts+1))
-            sleep 10
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main
+            git push && break || sleep 10
           done
-
-          if [ $attempts -ge $max_attempts ]; then
-            echo "::error::Failed to push changes after $max_attempts attempts. Aborting."
-            git status --porcelain || true
-            exit 1
-          fi
 
       - name: Check remaining
         id: remaining

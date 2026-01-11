@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [bluesky-social/social-app](https://github.com/bluesky-social/social-app) | The Bluesky Social application for Web, i OS, and Android | `TypeScript` ★ 17.5k | 2026-01-11 |
+| [bluesky-social/social-app](https://github.com/bluesky-social/social-app) | The Bluesky Social application for Web, i OS, and Android | `TypeScript` ★ 17.5k | 2026-01-10 |
 | [KRTirtho/spotube](https://github.com/KRTirtho/spotube) | 🎧 Open source music streaming app! Available for both desktop & mobile! | `Dart` ★ 43.6k | 2026-01-09 |
 | [RevenueCat/react-native-purchases](https://github.com/RevenueCat/react-native-purchases) | React Native in-app purchases and subscriptions made easy. Support for i OS and Android. | `TypeScript` ★ 1.1k | 2026-01-08 |
 | [500px/greedo-layout-for-android](https://github.com/500px/greedo-layout-for-android) | Full aspect ratio grid Layout Manager for Android's Recycler View | `Java` ★ 1.6k | 2022-06-21 |

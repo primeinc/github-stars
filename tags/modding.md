@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [jynew/jynew](https://github.com/jynew/jynew) | Jin Yong Legend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game. | `C#` ★ 8.8k | 2025-04-19 |
-| [martymcmodding/iMMERSE](https://github.com/martymcmodding/iMMERSE) | Marty's Mods Epic Re Shade Effects | `HLSL` ★ 397 | 2025-09-11 |
+| [martymcmodding/iMMERSE](https://github.com/martymcmodding/iMMERSE) | Marty's Mods Epic Re Shade Effects | `HLSL` ★ 398 | 2025-09-11 |
 | [klyte45/CS2ModsRepository](https://github.com/klyte45/CS2ModsRepository) | Contains the current version of each mod I did for the Cities Skylines 2 | ★ 6 | 2023-12-16 |
 | [Cities2Modding/wiki](https://github.com/Cities2Modding/wiki) | No description provided | ★ 3 | 2023-12-17 |
 | [Captain-Of-Coit/cs2-city-monitor](https://github.com/Captain-Of-Coit/cs2-city-monitor) | "City Vitals" but for Cities: Skylines 2 | `C#` ★ 14 | 2023-11-30 |

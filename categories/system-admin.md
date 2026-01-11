@@ -1,21 +1,20 @@
 # System-admin
 
-*169 repositories*
+*168 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [randomascii/UIforETW](https://github.com/randomascii/UIforETW) | User interface for recording and managing ETW traces | `C++` ★ 110 | 2026-01-05 |
 | [sysadminsmedia/homebox](https://github.com/sysadminsmedia/homebox) | A continuation of Home Box the inventory and organization system built for the Home User | `Go` ★ 4.8k | 2026-01-11 |
 | [rayenghanmi/RyTuneX](https://github.com/rayenghanmi/RyTuneX) | Ry Tune X is a cutting-edge optimizer built with the Win UI 3 framework, designed to amplify the performance of Windows devices. Crafted for both Windows 10 and 11. | `C#` ★ 3.8k | 2026-01-10 |
-| [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 29.4k | 2025-11-14 |
+| [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 29.3k | 2025-11-14 |
 | [upx/upx](https://github.com/upx/upx) | UPX - the Ultimate Packer for e Xecutables | `C++` ★ 17k | 2026-01-10 |
-| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 2.6k | 2026-01-11 |
+| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 2.6k | 2026-01-10 |
 | [memstechtips/Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | `C#` ★ 4.3k | 2026-01-09 |
 | [SpriteOvO/AirPodsDesktop](https://github.com/SpriteOvO/AirPodsDesktop) | ☄️ Air Pods desktop user experience enhancement program, for Windows and Linux (WIP) | `C++` ★ 2.4k | 2024-07-12 |
 | [builtbybel/FlyOOBE](https://github.com/builtbybel/FlyOOBE) | Fly through your Windows 11 setup 🐝 | `C#` ★ 6.4k | 2026-01-04 |
-| [jgarzik/hk](https://github.com/jgarzik/hk) | A modern, Linux compatible OS kernel | `Rust` ★ 329 | 2025-12-30 |
+| [jgarzik/hk](https://github.com/jgarzik/hk) | A modern, Linux compatible OS kernel | `Rust` ★ 328 | 2025-12-30 |
 | [xxh/xxh](https://github.com/xxh/xxh) | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | `Python` ★ 5.9k | 2025-09-22 |
 | [rothgar/awesome-tmux](https://github.com/rothgar/awesome-tmux) | A list of awesome resources for tmux | ★ 9.3k | 2026-01-09 |
 | [Klocman/Bulk-Crap-Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller) | Remove large amounts of unwanted applications quickly. | `C#` ★ 17k | 2025-08-14 |
@@ -28,7 +27,7 @@
 | [nicholas-fedor/shoutrrr](https://github.com/nicholas-fedor/shoutrrr) | A notification library for gophers and their furry friends. | `Go` ★ 88 | 2026-01-10 |
 | [fonoster/routr](https://github.com/fonoster/routr) | ⚡ The future of programmable SIP servers. | `TypeScript` ★ 1.6k | 2025-12-24 |
 | [ken-yossy/nvmetool-win](https://github.com/ken-yossy/nvmetool-win) | Communicate with NVMe SSD using Windows' inbox device driver | `C` ★ 104 | 2025-03-27 |
-| [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | Docker container for managing Nginx proxy hosts with a simple, powerful interface | `TypeScript` ★ 31k | 2025-12-04 |
+| [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | Docker container for managing Nginx proxy hosts with a simple, powerful interface | `TypeScript` ★ 30.9k | 2025-12-04 |
 | [FFmpeg/asm-lessons](https://github.com/FFmpeg/asm-lessons) | FFmpeg Assembly Language Lessons | ★ 11.3k | 2025-11-07 |
 | [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | An evolving how-to guide for securing a Linux server. | ★ 24.2k | 2024-10-19 |
 | [kayasax/EasyPIM](https://github.com/kayasax/EasyPIM) | Easy PIM let you manage PIM Azure Resource, Entra Role and Groups settings and assignments with simplicity | `PowerShell` ★ 216 | 2025-12-28 |
@@ -80,7 +79,7 @@
 | [bcwilhite/PendingReboot](https://github.com/bcwilhite/PendingReboot) | Module to detect Windows OS pending reboots | `PowerShell` ★ 130 | 2024-07-18 |
 | [j0eyv/ConditionalAccessBaseline](https://github.com/j0eyv/ConditionalAccessBaseline) | No description provided | ★ 223 | 2025-11-05 |
 | [devinmcelheran/Printune](https://github.com/devinmcelheran/Printune) | A one-stop utility for creating Intune packages to deploy printers and printer drivers. | `C#` ★ 55 | 2025-09-18 |
-| [Azure/azqr](https://github.com/Azure/azqr) | Azure Quick Review | `Go` ★ 720 | 2026-01-11 |
+| [Azure/azqr](https://github.com/Azure/azqr) | Azure Quick Review | `Go` ★ 720 | 2026-01-07 |
 | [tabs-not-spaces/Intune-App-Deploy](https://github.com/tabs-not-spaces/Intune-App-Deploy) | A fast, reliable way to package your win32 applications and deploy them to Intune from any source - including SCCM! | `PowerShell` ★ 89 | 2022-09-21 |
 | [tabs-not-spaces/CodeDump](https://github.com/tabs-not-spaces/CodeDump) | things that help me. might help others. | `PowerShell` ★ 118 | 2025-03-25 |
 | [tabs-not-spaces/Intune.LogonScript.Helper](https://github.com/tabs-not-spaces/Intune.LogonScript.Helper) | Function App solution to help with getting on-prem file shares and printers into modern management. | `PowerShell` ★ 13 | 2023-02-03 |
@@ -96,7 +95,7 @@
 | [microsoft/Microsoft-Win32-Content-Prep-Tool](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool) | A tool to wrap Win32 App and then it can be uploaded to Intune | ★ 1.3k | 2025-08-13 |
 | [anderspitman/SirTunnel](https://github.com/anderspitman/SirTunnel) | Minimal, self-hosted, 0-config alternative to ngrok. Caddy+Open SSH+50 lines of Python. | `Python` ★ 1.5k | 2024-03-24 |
 | [KevinNitroG/dotfiles](https://github.com/KevinNitroG/dotfiles) | Linux, Windows dotfiles managed with Chezmoi | `JSON` ★ 80 | 2025-12-27 |
-| [juanfont/headscale](https://github.com/juanfont/headscale) | An open source, self-hosted implementation of the Tailscale control server | `Go` ★ 34.2k | 2026-01-11 |
+| [juanfont/headscale](https://github.com/juanfont/headscale) | An open source, self-hosted implementation of the Tailscale control server | `Go` ★ 34.1k | 2026-01-11 |
 | [microsoftgraph/msgraph-sdk-powershell](https://github.com/microsoftgraph/msgraph-sdk-powershell) | Powershell SDK for Microsoft Graph | `C#` ★ 817 | 2026-01-09 |
 | [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | Open-source Windows and Office activator featuring HWID, Ohook, TS forge, KMS38, and Online KMS activation methods, along with advanced troubleshooting. | `Batchfile` ★ 162.2k | 2025-12-12 |
 | [jhochwald/PowerShell-collection](https://github.com/jhochwald/PowerShell-collection) | Power Shell Scripts, Tools, and Modules | `PowerShell` ★ 301 | 2025-12-30 |
@@ -112,7 +111,7 @@
 | [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) | Awesome list dedicated to Windows Subsystem for Linux | ★ 6.2k | 2024-06-27 |
 | [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) | A curated list of amazingly awesome open-source sysadmin resources. | ★ 32.4k | 2025-10-26 |
 | [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) | Use your mac OS terminal shell to do awesome things. | ★ 30.1k | 2021-09-02 |
-| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. | ★ 201.9k | 2024-11-19 |
+| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. | ★ 201.8k | 2024-11-19 |
 | [timminator/ParsecVDA-Always-Connected](https://github.com/timminator/ParsecVDA-Always-Connected) | Connects a Virtual Display to your PC and allows for a headless operation - no need for Dummy Plugs anymore! Now as a Windows service! | `C++` ★ 131 | 2024-07-15 |
 | [VirtualDrivers/Virtual-Display-Driver](https://github.com/VirtualDrivers/Virtual-Display-Driver) | Add virtual monitors to your windows 10/11 device! Works with VR, OBS, Sunshine, and/or any desktop sharing software. | `C++` ★ 8k | 2026-01-09 |
 | [paolo-projects/auto-unlocker](https://github.com/paolo-projects/auto-unlocker) | Unlocker for VMW are mac OS | `C++` ★ 4.7k | 2025-09-17 |

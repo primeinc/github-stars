@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `JavaScript` ★ 9.6k | 2026-01-11 |
 | [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.1k | 2026-01-10 |
-| [rcourtman/Pulse](https://github.com/rcourtman/Pulse) | Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unified dashboard | `Go` ★ 3.8k | 2026-01-11 |
+| [rcourtman/Pulse](https://github.com/rcourtman/Pulse) | Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unified dashboard | `Go` ★ 3.8k | 2026-01-10 |
 | [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) | Flash Infer: Kernel Library for LLM Serving | `Python` ★ 4.6k | 2026-01-11 |
 | [coredns/coredns](https://github.com/coredns/coredns) | Core DNS is a DNS server that chains plugins | `Go` ★ 13.7k | 2026-01-08 |
 | [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 33.8k | 2026-01-09 |
@@ -17,12 +17,12 @@
 | [ishandutta2007/open-hr](https://github.com/ishandutta2007/open-hr) | 📖opensource equivalent of Deel payroll and HR solutions | ★ 1 | 2026-01-09 |
 | [henrygd/beszel](https://github.com/henrygd/beszel) | Lightweight server monitoring hub with historical data, docker stats, and alerts. | `Go` ★ 18.5k | 2026-01-10 |
 | [MyOnee/R](https://github.com/MyOnee/R) | Free RDP from Github Actions | `Batchfile` ★ 46 | 2025-06-13 |
-| [jgarzik/hk](https://github.com/jgarzik/hk) | A modern, Linux compatible OS kernel | `Rust` ★ 329 | 2025-12-30 |
+| [jgarzik/hk](https://github.com/jgarzik/hk) | A modern, Linux compatible OS kernel | `Rust` ★ 328 | 2025-12-30 |
 | [Azure/ALZ-Bicep](https://github.com/Azure/ALZ-Bicep) | This repository contains the Azure Landing Zones (ALZ) Bicep modules that help deliver and deploy the Azure Landing Zone conceptual architecture in a modular approach. https://aka.ms/alz/docs | `Bicep` ★ 864 | 2026-01-05 |
 | [Azure/apim-landing-zone-accelerator](https://github.com/Azure/apim-landing-zone-accelerator) | The Azure API Management landing zone accelerator provides an architectural approach and reference implementation to prepare landing zone subscriptions for a secure API Management infrastructure. | `HCL` ★ 196 | 2025-12-17 |
 | [microsoft/CosmosDB_Multi-Tenant](https://github.com/microsoft/CosmosDB_Multi-Tenant) | Cosmos DB for Multi-Tenant Applications | ★ 22 | 2022-12-15 |
-| [stan-smith/FossFLOW](https://github.com/stan-smith/FossFLOW) | Make beautiful isometric infrastructure diagrams | `TypeScript` ★ 16k | 2026-01-11 |
-| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 1.6k | 2026-01-11 |
+| [stan-smith/FossFLOW](https://github.com/stan-smith/FossFLOW) | Make beautiful isometric infrastructure diagrams | `TypeScript` ★ 16k | 2026-01-10 |
+| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 1.6k | 2026-01-10 |
 | [supabase/etl](https://github.com/supabase/etl) | Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines. | `Rust` ★ 2.2k | 2026-01-07 |
 | [Azure/Enterprise-Scale](https://github.com/Azure/Enterprise-Scale) | The Azure Landing Zones (Enterprise-Scale) architecture provides prescriptive guidance coupled with Azure best practices, and it follows design principles across the critical design areas for organ... | `PowerShell` ★ 1.9k | 2026-01-11 |
 | [CompositionalIT/farmer](https://github.com/CompositionalIT/farmer) | Repeatable Azure deployments with ARM templates - made easy! | `F#` ★ 546 | 2025-12-10 |
@@ -36,12 +36,12 @@
 | [leaningtech/webvm](https://github.com/leaningtech/webvm) | Virtual Machine for the Web | `JavaScript` ★ 16.2k | 2026-01-01 |
 | [iyaja/llama-fs](https://github.com/iyaja/llama-fs) | A self-organizing file system with llama 3 | `TypeScript` ★ 5.7k | 2025-08-08 |
 | [XTXMarkets/ternfs](https://github.com/XTXMarkets/ternfs) | An exabyte-scale, multi-region distributed file system | `C++` ★ 1.3k | 2026-01-09 |
-| [unjs/obuild](https://github.com/unjs/obuild) | 📦 😯 Zero-config ESM/TS package builder. powered by oxc, rolldown and rolldown-plugin-dts. | `TypeScript` ★ 368 | 2026-01-10 |
+| [unjs/obuild](https://github.com/unjs/obuild) | 📦 😯 Zero-config ESM/TS package builder. powered by oxc, rolldown and rolldown-plugin-dts. | `TypeScript` ★ 366 | 2026-01-10 |
 | [NousResearch/DisTrO](https://github.com/NousResearch/DisTrO) | Distributed Training Over-The-Internet | ★ 973 | 2025-10-14 |
 | [microsoft/garnet](https://github.com/microsoft/garnet) | Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication feat... | `C#` ★ 11.7k | 2026-01-10 |
 | [jamesmcroft/bicep-templates](https://github.com/jamesmcroft/bicep-templates) | A centralized resource for providing baseline templates for building and deploying infrastructure-as-code best practices using Azure Bicep | `Bicep` ★ 16 | 2025-06-18 |
 | [fusionpbx/fusionpbx](https://github.com/fusionpbx/fusionpbx) | Official Fusion PBX - A full-featured domain based multi-tenant PBX and voice switch for Free Switch. | `PHP` ★ 960 | 2026-01-11 |
-| [unionlabs/union](https://github.com/unionlabs/union) | The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance. | `Rust` ★ 74.4k | 2026-01-11 |
+| [unionlabs/union](https://github.com/unionlabs/union) | The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance. | `Rust` ★ 74.4k | 2026-01-10 |
 | [Stremio/stremio-core](https://github.com/Stremio/stremio-core) | ⚛️ The Stremio Core: types, addon system, UI models, core logic | `Rust` ★ 1.8k | 2026-01-10 |
 | [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) | Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic. | `TypeScript` ★ 25.3k | 2026-01-10 |
 | [github/github-mcp-server](https://github.com/github/github-mcp-server) | Git Hub's official MCP Server | `Go` ★ 25.8k | 2026-01-10 |
@@ -69,7 +69,7 @@
 | [netbox-community/netbox](https://github.com/netbox-community/netbox) | The premier source of truth powering network automation. Open source under Apache 2. Try Net Box Cloud free: https://netboxlabs.com/products/free-netbox-cloud/ | `Python` ★ 19.5k | 2026-01-09 |
 | [gravitational/teleport](https://github.com/gravitational/teleport) | The easiest, and most secure way to access and protect all of your infrastructure. | `Go` ★ 19.6k | 2026-01-10 |
 | [microsoft/WSL](https://github.com/microsoft/WSL) | Windows Subsystem for Linux | `C++` ★ 30.8k | 2026-01-11 |
-| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 267.6k | 2026-01-11 |
+| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 267.5k | 2026-01-06 |
 | [litespeedtech/openlitespeed](https://github.com/litespeedtech/openlitespeed) | Our high-performance, lightweight, open source HTTP server | `C++` ★ 1.4k | 2026-01-08 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

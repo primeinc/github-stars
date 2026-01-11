@@ -1,6 +1,6 @@
 # Awesome Starred Repositories
 
-> A curated list of **1956** repositories, automatically classified and organized.
+> A curated list of **1954** repositories, automatically classified and organized.
 
 Last updated: 2026-01-11
 
@@ -11,7 +11,7 @@ Last updated: 2026-01-11
 - [3d-printing](categories/3d-printing.md) *(1)*
 
 ### A
-- [ai-ml](categories/ai-ml.md) *(523)*
+- [ai-ml](categories/ai-ml.md) *(522)*
 - [algorithms](categories/algorithms.md) *(1)*
 - [analytics](categories/analytics.md) *(8)*
 - [android-apps](categories/android-apps.md) *(1)*
@@ -42,7 +42,7 @@ Last updated: 2026-01-11
 ### D
 - [data-management](categories/data-management.md) *(2)*
 - [data-protection](categories/data-protection.md) *(1)*
-- [data-science](categories/data-science.md) *(194)*
+- [data-science](categories/data-science.md) *(193)*
 - [databases](categories/databases.md) *(47)*
 - [debugging](categories/debugging.md) *(2)*
 - [deployment](categories/deployment.md) *(20)*
@@ -50,7 +50,7 @@ Last updated: 2026-01-11
 - [desktop](categories/desktop.md) *(1)*
 - [desktop-dev](categories/desktop-dev.md) *(148)*
 - [desktop-development](categories/desktop-development.md) *(1)*
-- [dev-tools](categories/dev-tools.md) *(221)*
+- [dev-tools](categories/dev-tools.md) *(220)*
 - [developer-tools](categories/developer-tools.md) *(5)*
 - [development](categories/development.md) *(1)*
 - [development-tools](categories/development-tools.md) *(5)*
@@ -118,7 +118,7 @@ Last updated: 2026-01-11
 ### P
 - [performance](categories/performance.md) *(1)*
 - [privacy](categories/privacy.md) *(2)*
-- [productivity](categories/productivity.md) *(442)*
+- [productivity](categories/productivity.md) *(441)*
 - [productivity-tools](categories/productivity-tools.md) *(1)*
 - [programming](categories/programming.md) *(1)*
 - [programming-languages](categories/programming-languages.md) *(2)*
@@ -138,7 +138,7 @@ Last updated: 2026-01-11
 - [storage](categories/storage.md) *(4)*
 - [svelte](categories/svelte.md) *(1)*
 - [sync](categories/sync.md) *(1)*
-- [system-admin](categories/system-admin.md) *(169)*
+- [system-admin](categories/system-admin.md) *(168)*
 - [system-administration](categories/system-administration.md) *(5)*
 
 ### T
@@ -149,9 +149,10 @@ Last updated: 2026-01-11
 - [tv-dev](categories/tv-dev.md) *(1)*
 
 ### U
-- [ui-libraries](categories/ui-libraries.md) *(209)*
+- [ui-libraries](categories/ui-libraries.md) *(208)*
 - [ui-performance](categories/ui-performance.md) *(1)*
 - [ui-tools](categories/ui-tools.md) *(1)*
+- [unclassified](categories/unclassified.md) *(1)*
 - [utilities](categories/utilities.md) *(2)*
 
 ### V
@@ -173,16 +174,16 @@ Last updated: 2026-01-11
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [randomascii/UIforETW](https://github.com/randomascii/UIforETW) | User interface for recording and managing ETW traces | `C++` ★ 110 | 2026-01-05 |
-| [devicons/devicon](https://github.com/devicons/devicon) | Set of icons representing programming languages, designing & development tools | `CSS` ★ 11.4k | 2025-12-28 |
 | [adriangalilea/namecheap-python](https://github.com/adriangalilea/namecheap-python) | A Python SDK for the Namecheap API & CLI/TUI tools using it | `Python` ★ 28 | 2025-11-04 |
-| [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) | A collaborative list of public APIs for developers | `JavaScript` ★ 7.6k | 2026-01-07 |
+| [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) | A collaborative list of public APIs for developers | `JavaScript` ★ 7.5k | 2026-01-07 |
 | [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) | OSINT Framework | `JavaScript` ★ 10.5k | 2025-06-16 |
 | [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `JavaScript` ★ 9.6k | 2026-01-11 |
 | [simulot/immich-go](https://github.com/simulot/immich-go) | An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives. | `Go` ★ 5.2k | 2025-12-29 |
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `Go` ★ 11.3k | 2026-01-09 |
 | [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | Community managed domain list. Generate geosite.dat for V2Ray. | `Go` ★ 7.2k | 2026-01-10 |
 | [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.1k | 2026-01-10 |
+| [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another :crocodile: :package: | `Go` ★ 33.8k | 2026-01-09 |
+| [steveiliop56/tinyauth](https://github.com/steveiliop56/tinyauth) | The simplest way to protect your apps with a login screen. | `Go` ★ 6.7k | 2026-01-11 |
 
 ---
 *Powered by [GitHub Stars Curation System](https://github.com/primeinc/github-stars)*

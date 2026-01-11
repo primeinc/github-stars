@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [kasperjunge/agent-resources](https://github.com/kasperjunge/agent-resources) | Install Claude Code skills from Git Hub with one command: uvx add-skill 🚀 Also works for slash commands and subagents 🤙 | `Python` ★ 283 | 2026-01-11 |
-| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 37.4k | 2025-12-20 |
+| [kasperjunge/agent-resources](https://github.com/kasperjunge/agent-resources) | Install Claude Code skills from Git Hub with one command: uvx add-skill 🚀 Also works for slash commands and subagents 🤙 | `Python` ★ 282 | 2026-01-10 |
+| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 37.2k | 2025-12-20 |

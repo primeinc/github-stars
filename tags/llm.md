@@ -10,15 +10,15 @@
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. | `Python` ★ 75.2k | 2026-01-11 |
 | [riccardoruspoli/reko](https://github.com/riccardoruspoli/reko) | Make You Tube videos readable. Local-first Markdown summaries with Ollama, with cloud providers support. | `Python` ★ 60 | 2025-12-28 |
 | [antvis/Infographic](https://github.com/antvis/Infographic) | 🦋 An Infographic Generation and Rendering Framework, bring words to life with AI! | `TypeScript` ★ 3.6k | 2026-01-09 |
-| [memodb-io/Acontext](https://github.com/memodb-io/Acontext) | Data platform for context engineering. Context data platform that stores, observes and learns. Join the community❤️: https://discord.acontext.io | `Go` ★ 2.4k | 2026-01-11 |
-| [DearVa/Everywhere](https://github.com/DearVa/Everywhere) | A context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools. | `C#` ★ 5k | 2026-01-11 |
+| [memodb-io/Acontext](https://github.com/memodb-io/Acontext) | Data platform for context engineering. Context data platform that stores, observes and learns. Join the community❤️: https://discord.acontext.io | `Go` ★ 2.4k | 2026-01-10 |
+| [DearVa/Everywhere](https://github.com/DearVa/Everywhere) | A context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools. | `C#` ★ 5k | 2026-01-10 |
 | [chitalian/openllmetry-js](https://github.com/chitalian/openllmetry-js) | Sister project to Open LLMetry, but in Typescript. Open-source observability for your LLM application, based on Open Telemetry | `TypeScript` ★ 5 | 2025-02-20 |
 | [MoonshotAI/kosong](https://github.com/MoonshotAI/kosong) | The LLM abstraction layer for modern AI agent applications. | ★ 498 | 2026-01-08 |
 | [MemoriLabs/Memori](https://github.com/MemoriLabs/Memori) | SQL Native Memory Layer for LLMs, AI Agents & Multi-Agent Systems | `Python` ★ 11.6k | 2026-01-07 |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 92.8k | 2026-01-11 |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 92.8k | 2026-01-10 |
 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 Page Index: Document Index for Reasoning-based RAG | `Python` ★ 5.1k | 2026-01-08 |
 | [Ido-Levi/Hephaestus](https://github.com/Ido-Levi/Hephaestus) | Semi-Structured Agentic Framework. Workflows build themselves as agents discover what needs to be done, not what you predicted upfront. | `Python` ★ 1.1k | 2025-12-01 |
-| [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) | Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc. | `TypeScript` ★ 2.9k | 2026-01-11 |
+| [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) | Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc. | `TypeScript` ★ 2.9k | 2026-01-08 |
 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | LLM Frontend for Power Users. | `JavaScript` ★ 21.9k | 2026-01-11 |
 | [datarootsio/knowledgebase_guardian](https://github.com/datarootsio/knowledgebase_guardian) | A minimal example to demonstrate how LLM's can assist in detecting contradictions in documents. | `Python` ★ 21 | 2023-07-14 |
 | [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) | The best way to get AI coding agents to solve hard problems in complex codebases. | `TypeScript` ★ 8.5k | 2026-01-11 |
@@ -54,7 +54,7 @@
 | [QiuYannnn/Local-File-Organizer](https://github.com/QiuYannnn/Local-File-Organizer) | An AI-powered file management tool that ensures privacy by organizing local texts, images. Using Llama3.2 3B and Llava v1.6 models with the Nexa SDK, it intuitively scans, restructures, and organiz... | `Python` ★ 3.1k | 2024-10-21 |
 | [llm-workflow-engine/llm-workflow-engine](https://github.com/llm-workflow-engine/llm-workflow-engine) | Power CLI and Workflow manager for LLM s (core package) | `Python` ★ 3.7k | 2025-12-29 |
 | [TabbyML/tabby](https://github.com/TabbyML/tabby) | Self-hosted AI coding assistant | `Rust` ★ 32.7k | 2026-01-06 |
-| [yamadashy/repomix](https://github.com/yamadashy/repomix) | 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLM s) or other AI tools l... | `TypeScript` ★ 21.1k | 2026-01-11 |
+| [yamadashy/repomix](https://github.com/yamadashy/repomix) | 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLM s) or other AI tools l... | `TypeScript` ★ 21.1k | 2026-01-10 |
 | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 🙌 Open Hands: AI-Driven Development | `Python` ★ 66.5k | 2026-01-11 |
 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous ... | `Python` ★ 32.1k | 2026-01-06 |
 | [deepseek-ai/DeepSeek-LLM](https://github.com/deepseek-ai/DeepSeek-LLM) | Deep Seek LLM: Let there be answers | `Makefile` ★ 6.7k | 2024-02-04 |
