@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:52:48.668Z"
+  last_updated: "2026-01-11T02:53:05.868Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -50006,13 +50006,18 @@ repositories:
       mirror_url: null
   - repo: nv-tlabs/ChronoEdit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-editing
+      - video-generation
+      - aigc
+      - lang:python
     summary: 'Chrono Edit: Towards Temporal Reasoning for Image Editing and World Simulation'
     last_synced_sha: 37b0da51d8a42928b23e84cc998bba200c246e57
     starred_at: "2025-11-16T14:29:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50029,15 +50034,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.868Z"
+      prompt_version: v2
   - repo: tursodatabase/agentfs
     categories:
-      - unclassified
-    tags: []
+      - infrastructure
+      - databases
+    tags:
+      - filesystem
+      - sqlite
+      - agents
+      - lang:rust
     summary: The filesystem for agents.
     last_synced_sha: a6b11a204f3fe1d96ad0bcb0f55cf7da2d519c79
     starred_at: "2025-11-16T14:27:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -50056,15 +50071,26 @@ repositories:
         published_at: "2026-01-10T07:22:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.868Z"
+      prompt_version: v2
   - repo: universal-tool-calling-protocol/code-mode
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - ai-agents
+      - toolchain
+      - mcp
+      - utcp
+      - lang:python
     summary: "\U0001F50C Plug-and-play library to enable agents to call MCP and UTCP tools via code execution."
     last_synced_sha: 1d2c5ab46875b751d3207e4fe008f8a8a7e190b9
     starred_at: "2025-11-16T14:22:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50085,15 +50111,23 @@ repositories:
         published_at: "2025-11-23T12:50:02Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.868Z"
+      prompt_version: v2
   - repo: Visual-Agent/DeepEyesV2
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ai-vision
+      - lang:python
     summary: No description provided
     last_synced_sha: 65e6834d9858bf4e23fd97a196a72d03354e0da5
     starred_at: "2025-11-14T13:50:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -50106,15 +50140,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.868Z"
+      prompt_version: v2
   - repo: severity1/claude-code-prompt-improver
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai
+      - prompt-optimization
+      - lang:python
     summary: Intelligent prompt improver hook for Claude Code. Type vibes, ship precision.
     last_synced_sha: 027a24542e167bb99313a5695a5eb9dcdc2b27a8
     starred_at: "2025-11-14T13:49:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -50129,15 +50172,25 @@ repositories:
         published_at: "2025-12-13T09:08:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.868Z"
+      prompt_version: v2
   - repo: jeremylongshore/claude-code-plugins-plus-skills
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - plugins
+      - interactive-tutorials
+      - ai-skills
+      - lang:python
     summary: Hundreds of Claude Code plugins with embedded AI skills. Learn via interactive Jupyter tutorials.
     last_synced_sha: ae6c20cac8a5727144a04341d536ecfebf9cb8f0
     starred_at: "2025-11-14T13:18:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50160,15 +50213,26 @@ repositories:
         published_at: "2026-01-09T03:53:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.868Z"
+      prompt_version: v2
   - repo: fonoster/routr
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - sip
+      - voip
+      - webrtc
+      - lang:ts
+      - kubernetes
     summary: ⚡ The future of programmable SIP servers.
     last_synced_sha: a0674f5ade2c8af48e289dbd79ec63bcd1622df5
     starred_at: "2025-11-13T17:46:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -50201,15 +50265,25 @@ repositories:
         published_at: "2025-12-24T16:13:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.868Z"
+      prompt_version: v2
   - repo: sarperavci/GoogleRecaptchaBypass
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - captcha-breaking
+      - recaptcha-solver
+      - automation
+      - lang:python
     summary: "Solve Google re CAPTCHA in less than 5 seconds! \U0001F680"
     last_synced_sha: 29a21329e5bf13d8ee1c560877ae79a7e4986523
     starred_at: "2025-11-13T17:45:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50232,15 +50306,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.868Z"
+      prompt_version: v2
   - repo: FoundationAgents/ReCode
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - llm-agent
+      - adaptive-ai
+      - decision-making
+      - lang:python
     summary: Next paradigm for LLM Agent. Unify plan and action through recursive code generation for adaptive, human-like decision-making.
     last_synced_sha: cc1cb1398b593982e0af9f78804252356f01c0c4
     starred_at: "2025-11-13T02:28:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -50253,15 +50337,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.868Z"
+      prompt_version: v2
   - repo: MoonshotAI/kosong
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - agent
+      - ai
+      - llm
+      - sdk
     summary: The LLM abstraction layer for modern AI agent applications.
     last_synced_sha: 1ddade6c941b539bc5f1a19b38302c9269cd3e6b
     starred_at: "2025-11-12T19:47:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -50280,15 +50374,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.868Z"
+      prompt_version: v2
   - repo: longbridge/gpui-component
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - uikit
+      - gui-components
+      - cross-platform
+      - lang:rust
     summary: Rust GUI components for building fantastic cross-platform desktop application by using GPUI.
     last_synced_sha: 779ee50742d3f2865d04c9d6b96a54168ab8d9d8
     starred_at: "2025-11-12T19:43:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -50307,15 +50411,25 @@ repositories:
         published_at: "2025-12-08T03:05:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.868Z"
+      prompt_version: v2
   - repo: microsoft/call-center-ai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - ai-agent
+      - telephony
+      - api
+      - lang:python
     summary: Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!
     last_synced_sha: 958b3192020ab8a49cabd328a873eaa70e8865bc
     starred_at: "2025-11-12T19:42:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -50330,15 +50444,25 @@ repositories:
         published_at: "2025-05-27T10:18:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.868Z"
+      prompt_version: v2
   - repo: MemoriLabs/Memori
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - memory
+      - state-management
+      - llm
+      - lang:python
     summary: SQL Native Memory Layer for LLMs, AI Agents & Multi-Agent Systems
     last_synced_sha: 5560179fcaa6de2ec1e2d43c707c2ad72f85e380
     starred_at: "2025-11-12T19:40:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50368,15 +50492,26 @@ repositories:
         published_at: "2026-01-05T17:44:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.867Z"
+      prompt_version: v2
   - repo: gamosoft/NoteDiscovery
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - knowledge-base
+      - self-hosted
+      - note-taking
+      - fastapi
+      - lang:js
     summary: Your Self-Hosted Knowledge Base
     last_synced_sha: e54f47f67756621a78117060a8eb19ec7a2366ca
     starred_at: "2025-11-11T21:23:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -50410,15 +50545,26 @@ repositories:
         published_at: "2026-01-05T11:55:09Z"
       is_mirror: false
       mirror_url: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.867Z"
+      prompt_version: v2
   - repo: Piebald-AI/tweakcc
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - customization
+      - themes
+      - styling
+      - command-line
+      - lang:ts
     summary: Customize Claude Code's system prompts, create custom toolsets, add custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art, fix bugs (frozen spinner), and ad...
     last_synced_sha: 92a23621d0ad5a4e89c2cb44eaa58e0f935137e1
     starred_at: "2025-11-11T20:58:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -50453,6 +50599,11 @@ repositories:
         published_at: "2026-01-10T02:10:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:53:05.867Z"
+      prompt_version: v2
   - repo: ken-yossy/nvmetool-win
     categories:
       - system-admin
