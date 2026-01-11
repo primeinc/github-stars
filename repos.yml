@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-11T17:17:14.939Z"
+  manifest_updated_at: "2026-01-11T17:17:33.720Z"
   total_repos: 1959
   generator_version: v1.0.0
   github_user: primeinc
@@ -61285,13 +61285,19 @@ repositories:
       mirror_url: null
   - repo: guaneec/custom-diffusion-webui
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - custom-diffusion
+      - stable-diffusion
+      - deep-learning
+      - ai-art
+      - lang:python
     summary: An unofficial implementation of Custom Diffusion for Automatic1111's Web UI.
     last_synced_sha: 006e46f6f19526cd84d3041664c6deed55036225
     user_starred_at: "2023-02-10T06:16:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -61309,15 +61315,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.720Z"
+      prompt_version: v2
   - repo: Zyin055/Inspect-Embedding-Training
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - embedding-analysis
+      - text-analysis
+      - ai-tools
+      - lang:python
     summary: Python script to analyze textual inversion embedding files used with AI image generators
     last_synced_sha: b53967fdd96b41ffb2526cb3ccf15b8697a8def0
     user_starred_at: "2023-02-09T23:09:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -61334,15 +61350,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.720Z"
+      prompt_version: v2
   - repo: ThereforeGames/unprompted
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - stable-diffusion
+      - template-engine
+      - deep-learning
+      - ai-art
+      - lang:python
     summary: Templating language written for Stable Diffusion workflows. Available as an extension for the Automatic1111 Web UI.
     last_synced_sha: 129424860d3ee299151fccb27cfb82b4991f51cb
     user_starred_at: "2023-02-09T04:58:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61372,15 +61399,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.720Z"
+      prompt_version: v2
   - repo: AUTOMATIC1111/stable-diffusion-webui
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - stable-diffusion
+      - image-generation
+      - gradio
+      - deep-learning
+      - lang:python
     summary: Stable Diffusion web UI
     last_synced_sha: 82a973c04367123ae98bd9abdf80d9eda9b910e2
     user_starred_at: "2023-02-08T06:06:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61415,15 +61453,25 @@ repositories:
         published_at: "2025-02-09T08:00:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.720Z"
+      prompt_version: v2
   - repo: acheong08/ChatGPT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - chatgpt
+      - cli
+      - language-model
+      - lang:python
     summary: Reverse engineered Chat GPT API
     last_synced_sha: 9167b325addc7d3520987face684e8230bd62b46
     user_starred_at: "2023-01-24T16:18:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -61450,15 +61498,26 @@ repositories:
         published_at: "2023-07-20T05:28:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.720Z"
+      prompt_version: v2
   - repo: mikeroyal/WSL-Guide
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - documentation
+    tags:
+      - wsl
+      - linux-containers
+      - kubernetes
+      - cloud
+      - lang:rust
     summary: Windows Subsystem for Linux (WSL) Guide. Use WSL develop to with Kubernetes and in the Cloud (Microsoft Azure, AWS, and Google Cloud).
     last_synced_sha: aaeec9ab1343dbb6c0d55deb4aaada74dd2d532f
     user_starred_at: "2023-01-24T14:32:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -61495,15 +61554,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.720Z"
+      prompt_version: v2
   - repo: gradio-app/gradio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - machine-learning
+      - ui-components
+      - data-visualization
+      - lang:python
+      - gradio
     summary: "Build and share delightful machine learning apps, all in Python. \U0001F31F Star to support our work!"
     last_synced_sha: 8b70fa81b5783adfe81075dee642386098317f1b
     user_starred_at: "2023-01-23T11:06:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61536,15 +61606,25 @@ repositories:
         published_at: "2026-01-09T23:58:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.720Z"
+      prompt_version: v2
   - repo: MKme/XtoolD1
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - embedded
+    tags:
+      - lasercutting
+      - hardware
+      - d1
+      - xtool
     summary: XTool D1 Laser Cutter/Engraver 10W
     last_synced_sha: 64ec921d0c8d0f1a33f0b32ed23cf834a13fe85a
     user_starred_at: "2023-01-22T00:49:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: G-code
       topics:
@@ -61565,15 +61645,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.720Z"
+      prompt_version: v2
   - repo: marmelab/react-admin
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ui-libraries
+    tags:
+      - admin-dashboard
+      - graphql
+      - material-ui
+      - single-page-app
+      - lang:ts
     summary: A frontend Framework for single-page applications on top of REST/Graph QL APIs, using Type Script, React and Material Design
     last_synced_sha: 1a170e0aa1782ccf54d9273974c452667de926a8
     user_starred_at: "2023-01-19T14:28:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -61604,15 +61695,26 @@ repositories:
         published_at: "2026-01-09T14:46:29Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.720Z"
+      prompt_version: v2
   - repo: enhuiz/vall-e
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - text-to-speech
+      - audio-lm
+      - pytorch
+      - deep-learning
+      - lang:python
     summary: An unofficial Py Torch implementation of the audio LM VALL-E
     last_synced_sha: 3476d393d2133fa9b50d5ad999ca13b95fc22060
     user_starred_at: "2023-01-17T00:46:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61635,15 +61737,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.720Z"
+      prompt_version: v2
   - repo: nataliethenerd/picohatpad
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - system-admin
+    tags:
+      - hardware-interface
+      - microcontrollers
+      - lang:python
     summary: No description provided
     last_synced_sha: 83d7e69e1b7516cb15f398a2dc22c474323d960b
     user_starred_at: "2023-01-01T12:15:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -61660,15 +61771,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.719Z"
+      prompt_version: v2
   - repo: LAION-AI/Open-Assistant
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - chatgpt
+      - assistant
+      - language-model
+      - machine-learning
+      - lang:python
     summary: Open Assistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
     last_synced_sha: f1e6ed9526f5817531f3ab85441a40b3671ddccb
     user_starred_at: "2023-01-01T08:41:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61696,15 +61818,26 @@ repositories:
         published_at: "2023-11-25T16:11:35Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.719Z"
+      prompt_version: v2
   - repo: 0x90d/videoduplicatefinder
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - video-management
+      - duplicates
+      - crossplatform
+      - file-cleaner
+      - lang:csharp
     summary: Video Duplicate Finder - Crossplatform
     last_synced_sha: 0e09cbb5bde09fb7241d038461909b40aa461bff
     user_starred_at: "2022-12-31T04:26:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -61721,15 +61854,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.719Z"
+      prompt_version: v2
   - repo: qarmin/czkawka
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - file-management
+      - duplicates
+      - cleaner
+      - multiplatform
+      - lang:rust
     summary: Multi functional app to find duplicates, empty folders, similar images etc.
     last_synced_sha: e39e1f3eceedfe0e3f6346ee268cafd6fe7fb657
     user_starred_at: "2022-12-31T04:15:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -61756,15 +61900,25 @@ repositories:
         published_at: "2025-08-18T15:03:32Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.719Z"
+      prompt_version: v2
   - repo: cinqmarsmedia/Chameleon-Video-Player
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - video-player
+      - utility
+      - media
+      - lang:js
     summary: A Non-Profit Video Utility
     last_synced_sha: fba1827f4bbd004f6b3b5e3e50a179648e865204
     user_starred_at: "2022-12-28T22:15:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -61783,6 +61937,11 @@ repositories:
         published_at: "2022-03-30T12:29:23Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:17:33.719Z"
+      prompt_version: v2
   - repo: CorentinJ/Real-Time-Voice-Cloning
     categories:
       - ai-ml
