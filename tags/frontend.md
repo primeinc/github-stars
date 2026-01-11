@@ -6,12 +6,12 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) | Overview of alternative open source front-ends for popular internet platforms (e.g. You Tube, Twitter, etc.) | ★ 8.6k | 2026-01-10 |
+| [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) | Overview of alternative open source front-ends for popular internet platforms (e.g. You Tube, Twitter, etc.) | ★ 8.6k | 2026-01-11 |
 | [alibaba/hooks](https://github.com/alibaba/hooks) | A high-quality & reliable React Hooks library. https://alibaba.github.io/hooks/ | `TypeScript` ★ 14.9k | 2026-01-10 |
 | [tremorlabs/tremor-blocks](https://github.com/tremorlabs/tremor-blocks) | Tremor Blocks Source Code | `TypeScript` ★ 471 | 2026-01-08 |
 | [MCP-UI-Org/mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP. Create next-gen UI experiences with the protocol and SDK! | `TypeScript` ★ 4k | 2026-01-10 |
 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | LLM Frontend for Power Users. | `JavaScript` ★ 21.9k | 2026-01-11 |
-| [home-assistant/frontend](https://github.com/home-assistant/frontend) | :lollipop: Frontend for Home Assistant | `TypeScript` ★ 5.1k | 2026-01-10 |
+| [home-assistant/frontend](https://github.com/home-assistant/frontend) | :lollipop: Frontend for Home Assistant | `TypeScript` ★ 5.1k | 2026-01-11 |
 | [vibetunnel/vibetunnel](https://github.com/vibetunnel/vibetunnel) | WIP - we're transitioning to the org soon | `TypeScript` ★ 15 | 2025-11-03 |
 | [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) | ⚡️ A curated list of awesome things related to Vite.js | `JavaScript` ★ 16.7k | 2026-01-11 |
 | [dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks) | Manually curated collection of resources for frontend web developers. | ★ 45.7k | 2026-01-10 |

@@ -8,4 +8,4 @@
 |---|---|---|---|
 | [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) | 📝 Algorithms and data structures implemented in Java Script with explanations and links to further readings | `JavaScript` ★ 195.3k | 2026-01-11 |
 | [TheAlgorithms/TypeScript](https://github.com/TheAlgorithms/TypeScript) | Algorithms and Data Structures implemented in Type Script for beginners, following best practices. | `TypeScript` ★ 2.6k | 2026-01-09 |
-| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | All Algorithms implemented in Python | `Python` ★ 216.7k | 2026-01-10 |
+| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | All Algorithms implemented in Python | `Python` ★ 216.7k | 2026-01-11 |

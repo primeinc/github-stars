@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) | A platform for building proxies to bypass network restrictions. | `Go` ★ 46.8k | 2026-01-11 |
-| [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile) | `C++` ★ 9.5k | 2026-01-10 |
+| [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile) | `C++` ★ 9.5k | 2026-01-11 |
 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | Connect your devices into a secure Wire Guard®-based overlay network with SSO, MFA and granular access controls. | `Go` ★ 20.9k | 2026-01-11 |
 | [juanfont/headscale](https://github.com/juanfont/headscale) | An open source, self-hosted implementation of the Tailscale control server | `Go` ★ 34.1k | 2026-01-11 |
 | [openziti/ziti](https://github.com/openziti/ziti) | The parent project for Open Ziti. Here you will find the executables for a fully zero trust, application embedded, programmable network @Open Ziti | `Go` ★ 3.8k | 2026-01-10 |

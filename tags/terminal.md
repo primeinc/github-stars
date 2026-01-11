@@ -11,7 +11,7 @@
 | [sharkdp/bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | `Rust` ★ 56.6k | 2026-01-11 |
 | [charmbracelet/crush](https://github.com/charmbracelet/crush) | The glamourous AI coding agent for your favourite terminal 💘 | `Go` ★ 17.4k | 2026-01-11 |
 | [rsalmei/alive-progress](https://github.com/rsalmei/alive-progress) | A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations! | `Python` ★ 6.2k | 2026-01-08 |
-| [chubin/wttr.in](https://github.com/chubin/wttr.in) | :partly\_sunny: The right way to check the weather | `Python` ★ 28.5k | 2026-01-10 |
+| [chubin/wttr.in](https://github.com/chubin/wttr.in) | :partly_sunny: The right way to check the weather | `Python` ★ 28.5k | 2026-01-11 |
 | [anomalyco/opentui](https://github.com/anomalyco/opentui) | Open TUI is a library for building terminal user interfaces (TUIs) | `TypeScript` ★ 7.3k | 2026-01-11 |
 | [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | `Go` ★ 70.4k | 2026-01-11 |
 | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | An open-source AI agent that lives in your terminal. | `TypeScript` ★ 17.2k | 2026-01-11 |
@@ -20,7 +20,7 @@
 | [unjs/consola](https://github.com/unjs/consola) | 🐨 Elegant Console Logger for Node.js and Browser | `TypeScript` ★ 7.1k | 2026-01-10 |
 | [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) | An open-source, cross-platform terminal for seamless workflows | `Go` ★ 16.1k | 2026-01-11 |
 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | An open-source AI agent that brings the power of Gemini directly into your terminal. | `TypeScript` ★ 90.4k | 2026-01-11 |
-| [microsoft/edit](https://github.com/microsoft/edit) | We all edit. | `Rust` ★ 13.3k | 2026-01-10 |
+| [microsoft/edit](https://github.com/microsoft/edit) | We all edit. | `Rust` ★ 13.3k | 2026-01-11 |
 | [amantus-ai/vibetunnel](https://github.com/amantus-ai/vibetunnel) | Turn any browser into your terminal & command your agents on the go. | `TypeScript` ★ 2.9k | 2026-01-10 |
 | [antonmedv/walk](https://github.com/antonmedv/walk) | Terminal file manager | `Go` ★ 3.6k | 2026-01-11 |
 | [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) | Use your mac OS terminal shell to do awesome things. | ★ 30.1k | 2026-01-10 |

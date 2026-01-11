@@ -20,7 +20,7 @@
 | [moralmunky/Home-Assistant-Mail-And-Packages](https://github.com/moralmunky/Home-Assistant-Mail-And-Packages) | Home Assistant integration providing day of package counts and USPS informed delivery images. | `Python` ★ 796 | 2026-01-10 |
 | [custom-components/climate.programmable_thermostat](https://github.com/custom-components/climate.programmable_thermostat) | Programmable thermostat that let you have a smart thermostat on budget. | `Python` ★ 117 | 2025-10-11 |
 | [ahodges9/LedFx](https://github.com/ahodges9/LedFx) | Led Fx is a network based LED effect controller with support for advanced real-time audio effects! Led Fx can control multiple devices and works great with cheap ESP8266 nodes allowing for cost eff... | `Python` ★ 392 | 2025-11-10 |
-| [home-assistant/core](https://github.com/home-assistant/core) | :house\_with\_garden: Open source home automation that puts local control and privacy first. | `Python` ★ 84k | 2026-01-11 |
+| [home-assistant/core](https://github.com/home-assistant/core) | :house_with_garden: Open source home automation that puts local control and privacy first. | `Python` ★ 84k | 2026-01-11 |
 | [fabbr/MMM-Ecobee](https://github.com/fabbr/MMM-Ecobee) | Module for Magic Mirror that supports ecobee Thermostat | `JavaScript` ★ 5 | 2022-09-03 |
 | [MilhouseVH/autoaway.py](https://github.com/MilhouseVH/autoaway.py) | Improved auto-away monitoring for Nest Thermostats | `Python` ★ 15 | 2025-10-27 |
 | [jkoelker/python-nest](https://github.com/jkoelker/python-nest) | Python API and command line tool for talking to the Nest™ Thermostat | `Python` ★ 153 | 2026-01-07 |

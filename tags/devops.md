@@ -12,4 +12,4 @@
 | [microsoft/Microsoft365DSC](https://github.com/microsoft/Microsoft365DSC) | Manages, configures, extracts and monitors Microsoft 365 tenant configurations | `PowerShell` ★ 2.1k | 2026-01-10 |
 | [dokku/dokku](https://github.com/dokku/dokku) | A docker-powered Paa S that helps you build and manage the lifecycle of applications | `Shell` ★ 31.7k | 2026-01-10 |
 | [siwenwang0803/secure-pr-guard](https://github.com/siwenwang0803/secure-pr-guard) | No description provided | `Python` ★ 2 | 2025-07-07 |
-| [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge) | A Model Context Protocol (MCP) Gateway & Registry. Serves as a central management point for tools, resources, and prompts that can be accessed by MCP-compatible LLM applications. Converts REST API ... | `Python` ★ 3.1k | 2026-01-10 |
+| [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge) | A Model Context Protocol (MCP) Gateway & Registry. Serves as a central management point for tools, resources, and prompts that can be accessed by MCP-compatible LLM applications. Converts REST API ... | `Python` ★ 3.1k | 2026-01-11 |

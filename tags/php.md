@@ -15,7 +15,7 @@
 | [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) | A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem | ★ 13k | 2026-01-10 |
 | [bangordailynews/Public-FreePBX-hacks](https://github.com/bangordailynews/Public-FreePBX-hacks) | No description provided | `PHP` ★ 3 | 2022-05-22 |
 | [kriswallsmith/assetic](https://github.com/kriswallsmith/assetic) | Asset Management for PHP | `PHP` ★ 3.7k | 2025-12-29 |
-| [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) | Loads environment variables from \`.env\` to \`getenv()\`, \`$\_ENV\` and \`$\_SERVER\` automagically. | `PHP` ★ 13.5k | 2026-01-10 |
+| [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) | Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically. | `PHP` ★ 13.5k | 2026-01-10 |
 | [jolicode/JoliNotif](https://github.com/jolicode/JoliNotif) | 🖥️ Send notifications to your desktop directly from your PHP script | `PHP` ★ 1.4k | 2025-12-27 |
 | [flarum/flarum](https://github.com/flarum/flarum) | Simple forum software for building great communities. | `PHP` ★ 16.2k | 2026-01-10 |
 | [filp/whoops](https://github.com/filp/whoops) | PHP errors for cool kids | `PHP` ★ 13.3k | 2026-01-07 |

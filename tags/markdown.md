@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [openprose/prose](https://github.com/openprose/prose) | No description provided | ★ 514 | 2026-01-11 |
+| [openprose/prose](https://github.com/openprose/prose) | No description provided | ★ 513 | 2026-01-11 |
 | [riccardoruspoli/reko](https://github.com/riccardoruspoli/reko) | Make You Tube videos readable. Local-first Markdown summaries with Ollama, with cloud providers support. | `Python` ★ 60 | 2026-01-07 |
 | [waynesutton/markdown-site](https://github.com/waynesutton/markdown-site) | An open-source publishing framework built for AI agents and developers to ship websites, docs, or blogs. Write markdown, sync from the terminal. Your content is instantly available to browsers, LLM... | `TypeScript` ★ 525 | 2026-01-10 |
 | [jgm/pandoc](https://github.com/jgm/pandoc) | Universal markup converter | `Haskell` ★ 41.3k | 2026-01-11 |

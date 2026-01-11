@@ -17,7 +17,7 @@
 | [Azure/api-management-policy-snippets](https://github.com/Azure/api-management-policy-snippets) | Re-usable examples of Azure API Management policies | ★ 395 | 2026-01-09 |
 | [microsoft/CosmosDB_Multi-Tenant](https://github.com/microsoft/CosmosDB_Multi-Tenant) | Cosmos DB for Multi-Tenant Applications | ★ 22 | 2025-11-25 |
 | [olhel/sub2tenant-aca](https://github.com/olhel/sub2tenant-aca) | Lookup Azure tenant information from a subscription ID. | `HTML` ★ 12 | 2026-01-09 |
-| [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (\`azd\`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 237 | 2026-01-09 |
+| [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (`azd`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 237 | 2026-01-09 |
 | [pascalvanderheiden/ais-apim-openai](https://github.com/pascalvanderheiden/ais-apim-openai) | Unleash the power of Azure Open AI to your application developers in a secure & manageable way with Azure API Management and Azure Developer CLI. | `Bicep` ★ 34 | 2025-11-22 |
 | [pamelafox/fastapi-azure-function-apim](https://github.com/pamelafox/fastapi-azure-function-apim) | A Fast API app that is designed for deployment to Azure Functions with an API Management Policy. | `Bicep` ★ 60 | 2025-12-17 |
 | [Azure/Enterprise-Scale](https://github.com/Azure/Enterprise-Scale) | The Azure Landing Zones (Enterprise-Scale) architecture provides prescriptive guidance coupled with Azure best practices, and it follows design principles across the critical design areas for organ... | `PowerShell` ★ 1.9k | 2026-01-10 |
@@ -35,7 +35,7 @@
 | [Azure-Samples/contoso-real-estate](https://github.com/Azure-Samples/contoso-real-estate) | Intelligent enterprise-grade reference architecture for Java Script, featuring Open AI integration, Azure Developer CLI template and Playwright tests. | `JavaScript` ★ 966 | 2026-01-04 |
 | [SeryioGonzalez/azure-pricer](https://github.com/SeryioGonzalez/azure-pricer) | No description provided | `Python` ★ 55 | 2025-09-26 |
 | [JulianHayward/AzAdvertizer](https://github.com/JulianHayward/AzAdvertizer) | Az Advertizer helps you to keep up with the pace by providing overview and insights on new releases and changes/updates for Azure Governance capabilities such as Azure Policy's policy definitions, ... | ★ 38 | 2025-12-07 |
-| [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An \`azd\` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 29 | 2025-09-25 |
+| [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An `azd` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 29 | 2025-09-25 |
 | [Azure-Samples/aoai-realtime-audio-sdk](https://github.com/Azure-Samples/aoai-realtime-audio-sdk) | Azure Open AI code resources for using gpt-4o-realtime capabilities. | `TypeScript` ★ 837 | 2026-01-01 |
 | [hotnops/AzureScripts](https://github.com/hotnops/AzureScripts) | Random scripts for azure stuff | `PowerShell` ★ 12 | 2025-09-24 |
 | [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | Azure Data Exporter for Blood Hound | `Go` ★ 844 | 2026-01-10 |
@@ -53,7 +53,7 @@
 | [Azure-Samples/getting-started-dotnet-aca](https://github.com/Azure-Samples/getting-started-dotnet-aca) | This provides sample .NET apps to be deployed to Azure Container Apps | `C#` ★ 19 | 2025-11-17 |
 | [Azure/azqr](https://github.com/Azure/azqr) | Azure Quick Review | `Go` ★ 720 | 2026-01-09 |
 | [maartenvandiemen/AZD-AppConfiguration](https://github.com/maartenvandiemen/AZD-AppConfiguration) | No description provided | `Bicep` ★ 1 | 2025-10-17 |
-| [Azure-Samples/remote-mcp-functions-dotnet](https://github.com/Azure-Samples/remote-mcp-functions-dotnet) | This is a quickstart template to easily build and deploy a custom remote MCP server to the cloud using Azure functions. You can clone/restore/run on your local machine with debugging, and \`azd up\` ... | `Bicep` ★ 116 | 2026-01-09 |
+| [Azure-Samples/remote-mcp-functions-dotnet](https://github.com/Azure-Samples/remote-mcp-functions-dotnet) | This is a quickstart template to easily build and deploy a custom remote MCP server to the cloud using Azure functions. You can clone/restore/run on your local machine with debugging, and `azd up` ... | `Bicep` ★ 116 | 2026-01-09 |
 | [microsoftgraph/msgraph-bicep-types](https://github.com/microsoftgraph/msgraph-bicep-types) | Repo contains Microsoft Graph resource types to integrate with bicep templates. | `TypeScript` ★ 75 | 2026-01-09 |
 | [Azure-Samples/azd-starter-bicep](https://github.com/Azure-Samples/azd-starter-bicep) | Starter template with Bicep as infrastructure provider for Azure Developer CLI (azd). | `Bicep` ★ 34 | 2025-10-05 |
 | [Azure/PSRule.Rules.Azure](https://github.com/Azure/PSRule.Rules.Azure) | Rules to validate Azure resources and infrastructure as code (Ia C) using PSR ule. | `PowerShell` ★ 433 | 2026-01-10 |

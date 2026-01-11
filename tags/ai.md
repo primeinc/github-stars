@@ -21,10 +21,10 @@
 | [severity1/claude-code-prompt-improver](https://github.com/severity1/claude-code-prompt-improver) | Intelligent prompt improver hook for Claude Code. Type vibes, ship precision. | `Python` ★ 1k | 2026-01-10 |
 | [MoonshotAI/kosong](https://github.com/MoonshotAI/kosong) | The LLM abstraction layer for modern AI agent applications. | ★ 498 | 2026-01-09 |
 | [krea-ai/realtime-video](https://github.com/krea-ai/realtime-video) | Krea Realtime 14B. An open-source realtime AI video model. | `Python` ★ 445 | 2026-01-10 |
-| [Zejun-Yang/AniPortrait](https://github.com/Zejun-Yang/AniPortrait) | Ani Portrait: Audio-Driven Synthesis of Photorealistic Portrait Animation | `Python` ★ 5k | 2026-01-10 |
+| [Zejun-Yang/AniPortrait](https://github.com/Zejun-Yang/AniPortrait) | Ani Portrait: Audio-Driven Synthesis of Photorealistic Portrait Animation | `Python` ★ 5k | 2026-01-11 |
 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 Page Index: Document Index for Reasoning-based RAG | `Python` ★ 5.1k | 2026-01-11 |
 | [MCP-UI-Org/mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP. Create next-gen UI experiences with the protocol and SDK! | `TypeScript` ★ 4k | 2026-01-10 |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` ★ 59.8k | 2026-01-11 |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` ★ 60k | 2026-01-11 |
 | [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | So TA open-source TTS | `Python` ★ 21.2k | 2026-01-11 |
 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best Chat GPT that $100 can buy. | `Python` ★ 40.1k | 2026-01-11 |
 | [character-ai/Ovi](https://github.com/character-ai/Ovi) | No description provided | `Python` ★ 1.5k | 2026-01-10 |
@@ -34,7 +34,7 @@
 | [rathi-yash/MindVault-AI-Bookmarker](https://github.com/rathi-yash/MindVault-AI-Bookmarker) | Mind Vault is an innovative Chrome extension that revolutionizes bookmark management using AI. Winner of the Best AI/ML Project at UBHacking, this tool automatically categorizes and organizes your ... | `JavaScript` ★ 6 | 2025-09-28 |
 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popular chatbots like Chat GPT, Claude & Gemini | `Roff` ★ 25k | 2026-01-11 |
 | [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) | Open source Claude Code web/Codex Cloud/Devin alternative | `TypeScript` ★ 743 | 2026-01-10 |
-| [betomoedano/snapai](https://github.com/betomoedano/snapai) | AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using Open AI's latest models. | `TypeScript` ★ 1.4k | 2026-01-10 |
+| [betomoedano/snapai](https://github.com/betomoedano/snapai) | AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using Open AI's latest models. | `TypeScript` ★ 1.4k | 2026-01-11 |
 | [NousResearch/DisTrO](https://github.com/NousResearch/DisTrO) | Distributed Training Over-The-Internet | ★ 973 | 2026-01-09 |
 | [NousResearch/Hermes-Function-Calling](https://github.com/NousResearch/Hermes-Function-Calling) | No description provided | `Jupyter Notebook` ★ 1.2k | 2026-01-10 |
 | [microsoft/mcp](https://github.com/microsoft/mcp) | Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration | `C#` ★ 2.4k | 2026-01-10 |
@@ -46,17 +46,17 @@
 | [MotiaDev/motia](https://github.com/MotiaDev/motia) | Multi-Language Backend Framework that unifies APIs, background jobs, queues, workflows, streams, and AI agents with a single core primitive with built-in observability and state management. | `TypeScript` ★ 14.1k | 2026-01-11 |
 | [photoprism/photoprism](https://github.com/photoprism/photoprism) | AI-Powered Photos App for the Decentralized Web 🌈💎✨ | `Go` ★ 39.1k | 2026-01-10 |
 | [mediar-ai/terminator](https://github.com/mediar-ai/terminator) | playwright for windows computer use | `Rust` ★ 1.2k | 2026-01-11 |
-| [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `Python` ★ 9.8k | 2026-01-10 |
-| [wshobson/commands](https://github.com/wshobson/commands) | A collection of production-ready slash commands for Claude Code | ★ 1.6k | 2026-01-10 |
-| [facefusion/facefusion](https://github.com/facefusion/facefusion) | Industry leading face manipulation platform | `Python` ★ 26.4k | 2026-01-10 |
+| [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `Python` ★ 9.8k | 2026-01-11 |
+| [wshobson/commands](https://github.com/wshobson/commands) | A collection of production-ready slash commands for Claude Code | ★ 1.6k | 2026-01-11 |
+| [facefusion/facefusion](https://github.com/facefusion/facefusion) | Industry leading face manipulation platform | `Python` ★ 26.4k | 2026-01-11 |
 | [davidkimai/Context-Engineering](https://github.com/davidkimai/Context-Engineering) | "Context engineering is the delicate art and science of filling the context window with just the right information for the next step." — Andrej Karpathy. A frontier, first-principles handbook inspi... | `Python` ★ 8.2k | 2026-01-10 |
 | [PanseBossuSmecheru/notes-mcp](https://github.com/PanseBossuSmecheru/notes-mcp) | Notes MCPA n MCP server that connects with your Apple Notes on mac OS. 📓 This tool allows you to manage your notes efficiently with simple commands. 🛠️ | `TypeScript` ★ 3 | 2026-01-11 |
-| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | Bring projects, wikis, and teams together with AI. App Flowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative. | `Dart` ★ 67.4k | 2026-01-10 |
+| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | Bring projects, wikis, and teams together with AI. App Flowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative. | `Dart` ★ 67.4k | 2026-01-11 |
 | [RSSNext/Folo](https://github.com/RSSNext/Folo) | 🧡 Follow everything in one place | `TypeScript` ★ 36.6k | 2026-01-11 |
-| [Mail-0/Zero](https://github.com/Mail-0/Zero) | Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://discord.gg/mail0 | `TypeScript` ★ 10.3k | 2026-01-10 |
+| [Mail-0/Zero](https://github.com/Mail-0/Zero) | Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://discord.gg/mail0 | `TypeScript` ★ 10.3k | 2026-01-11 |
 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | An open-source AI agent that brings the power of Gemini directly into your terminal. | `TypeScript` ★ 90.4k | 2026-01-11 |
-| [xming521/WeClone](https://github.com/xming521/WeClone) | 🚀 One-stop solution for creating your digital avatar from chat history 💡 Fine-tune LLM s with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to lif... | `Python` ★ 16.2k | 2026-01-10 |
-| [SaM-92/mcp_autogen_sse_stdio](https://github.com/SaM-92/mcp_autogen_sse_stdio) | This repository demonstrates how to use Auto Gen to integrate local and remote MCP (Model Context Protocol) servers. It showcases a local math tool (math\_server.py) using Stdio and a remote Apify t... | `Python` ★ 28 | 2025-12-05 |
+| [xming521/WeClone](https://github.com/xming521/WeClone) | 🚀 One-stop solution for creating your digital avatar from chat history 💡 Fine-tune LLM s with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to lif... | `Python` ★ 16.2k | 2026-01-11 |
+| [SaM-92/mcp_autogen_sse_stdio](https://github.com/SaM-92/mcp_autogen_sse_stdio) | This repository demonstrates how to use Auto Gen to integrate local and remote MCP (Model Context Protocol) servers. It showcases a local math tool (math_server.py) using Stdio and a remote Apify t... | `Python` ★ 28 | 2025-12-05 |
 | [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | No description provided | `TypeScript` ★ 5k | 2026-01-11 |
 | [BasedHardware/omi](https://github.com/BasedHardware/omi) | AI wearables. Put it on, speak, transcribe, automatically | `C` ★ 7.5k | 2026-01-11 |
 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | A collection of MCP servers. | ★ 78.6k | 2026-01-11 |

@@ -17,6 +17,6 @@
 | [inputsh/awesome-linux](https://github.com/inputsh/awesome-linux) | :penguin: A list of awesome projects and resources that make Linux even more awesome. :penguin: | ★ 4.8k | 2026-01-10 |
 | [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) | Awesome list dedicated to Windows Subsystem for Linux | ★ 6.2k | 2026-01-10 |
 | [abb128/LiveCaptions](https://github.com/abb128/LiveCaptions) | Linux Desktop application that provides live captioning | `C` ★ 1.7k | 2026-01-10 |
-| [lencx/nofwl](https://github.com/lencx/nofwl) | No FWL Desktop Application | `Rust` ★ 4.2k | 2026-01-10 |
+| [lencx/nofwl](https://github.com/lencx/nofwl) | No FWL Desktop Application | `Rust` ★ 4.2k | 2026-01-11 |
 | [ajenti/ajenti](https://github.com/ajenti/ajenti) | Ajenti Core and stock plugins | `Python` ★ 7.9k | 2026-01-10 |
 | [tariqbuilds/linux-dash](https://github.com/tariqbuilds/linux-dash) | A beautiful web dashboard for Linux | `JavaScript` ★ 10.6k | 2026-01-10 |

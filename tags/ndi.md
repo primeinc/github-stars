@@ -25,8 +25,8 @@
 | [paratustra/tvadblocker](https://github.com/paratustra/tvadblocker) | TV Ad blocker using OBS Studio and Open CV (simple logo detection using template matching) | `Python` ★ 63 | 2025-11-12 |
 | [lplassman/V4L2-to-NDI](https://github.com/lplassman/V4L2-to-NDI) | A video input (V4L2) to NDI converter that works with Raspberry Pi (32-bit and 64-bit), and Intel/AMD CPU s | `C++` ★ 89 | 2025-09-03 |
 | [lplassman/FFMPEG-NDI](https://github.com/lplassman/FFMPEG-NDI) | FFMPEG with NDI support | `C` ★ 79 | 2025-11-13 |
-| [florisporro/awesome-ndi](https://github.com/florisporro/awesome-ndi) | A curated list of awesome tools related to NDI | ★ 281 | 2026-01-01 |
+| [florisporro/awesome-ndi](https://github.com/florisporro/awesome-ndi) | A curated list of awesome tools related to NDI | ★ 282 | 2026-01-11 |
 | [satoshi0212/NDISenderExample](https://github.com/satoshi0212/NDISenderExample) | Minimum implementation of the NDI SDK that works on the i Phone using Swift. | `C` ★ 62 | 2025-12-23 |
 | [ykhwong/ppt-ndi](https://github.com/ykhwong/ppt-ndi) | A Power Point plugin for the New Tek NDI integration | `JavaScript` ★ 229 | 2026-01-10 |
-| [buresu/ndi-python](https://github.com/buresu/ndi-python) | New Tek NDI Python wrapper | `C++` ★ 178 | 2025-12-28 |
+| [buresu/ndi-python](https://github.com/buresu/ndi-python) | New Tek NDI Python wrapper | `C++` ★ 179 | 2026-01-11 |
 | [DistroAV/DistroAV](https://github.com/DistroAV/DistroAV) | Distro AV (formerly OBS-NDI): NDI integration for OBS Studio | `C++` ★ 4.1k | 2026-01-10 |

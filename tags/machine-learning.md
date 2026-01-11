@@ -27,7 +27,7 @@
 | [microsoft/qlib](https://github.com/microsoft/qlib) | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, i... | `Python` ★ 35.4k | 2026-01-11 |
 | [denisa-ms/azure-data-and-ai-examples](https://github.com/denisa-ms/azure-data-and-ai-examples) | No description provided | `Jupyter Notebook` ★ 31 | 2025-07-10 |
 | [faris771/Email_Spam_Filter](https://github.com/faris771/Email_Spam_Filter) | This project compares K-Nearest Neighbors (K-NN) and Multilayer Perceptron (MLP) models for email spam detection. The goal is to predict spam emails using these models and evaluate their performanc... | `Python` ★ 5 | 2025-02-11 |
-| [huggingface/open-r1](https://github.com/huggingface/open-r1) | Fully open reproduction of Deep Seek-R1 | `Python` ★ 25.8k | 2026-01-10 |
+| [huggingface/open-r1](https://github.com/huggingface/open-r1) | Fully open reproduction of Deep Seek-R1 | `Python` ★ 25.8k | 2026-01-11 |
 | [keon/awesome-nlp](https://github.com/keon/awesome-nlp) | :book: A curated list of resources dedicated to Natural Language Processing (NLP) | ★ 18.1k | 2026-01-10 |
 | [exo-explore/exo](https://github.com/exo-explore/exo) | Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚ | `Python` ★ 39.8k | 2026-01-11 |
 | [bytedance/monolith](https://github.com/bytedance/monolith) | A Lightweight Recommendation System | `Python` ★ 9k | 2026-01-10 |

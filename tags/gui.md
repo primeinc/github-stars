@@ -10,7 +10,7 @@
 | [builtbybel/FlyOOBE](https://github.com/builtbybel/FlyOOBE) | Fly through your Windows 11 setup 🐝 | `C#` ★ 6.4k | 2026-01-10 |
 | [KnifMelti/WAU-Settings-GUI](https://github.com/KnifMelti/WAU-Settings-GUI) | Provides a user-friendly portable standalone interface to modify every aspect of Winget-Auto Update (WAU) | `PowerShell` ★ 26 | 2026-01-10 |
 | [ocornut/imgui](https://github.com/ocornut/imgui) | Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies | `C++` ★ 70.7k | 2026-01-11 |
-| [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop\_computer: :camera\_flash: | `C++` ★ 28.6k | 2026-01-11 |
+| [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop_computer: :camera_flash: | `C++` ★ 28.6k | 2026-01-11 |
 | [emilk/egui](https://github.com/emilk/egui) | egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native | `Rust` ★ 27.7k | 2026-01-11 |
 | [zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) | A fluent design widgets library based on C++ Qt/Py Qt/Py Side. Make Qt Great Again. | `Python` ★ 7.6k | 2026-01-10 |
 | [winfunc/opcode](https://github.com/winfunc/opcode) | A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more. | `TypeScript` ★ 19.9k | 2026-01-11 |

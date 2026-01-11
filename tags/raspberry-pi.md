@@ -16,5 +16,5 @@
 | [nataliethenerd/picohatpad](https://github.com/nataliethenerd/picohatpad) | No description provided | `Python` ★ 75 | 2025-12-10 |
 | [dtcooper/raspotify](https://github.com/dtcooper/raspotify) | A Spotify Connect client that mostly Just Works™ | `Shell` ★ 5.1k | 2026-01-10 |
 | [OctoPrint/OctoPrint](https://github.com/OctoPrint/OctoPrint) | Octo Print is the snappy web interface for your 3D printer! | `Python` ★ 8.8k | 2026-01-11 |
-| [home-assistant/core](https://github.com/home-assistant/core) | :house\_with\_garden: Open source home automation that puts local control and privacy first. | `Python` ★ 84k | 2026-01-11 |
-| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 55.2k | 2026-01-10 |
+| [home-assistant/core](https://github.com/home-assistant/core) | :house_with_garden: Open source home automation that puts local control and privacy first. | `Python` ★ 84k | 2026-01-11 |
+| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 55.2k | 2026-01-11 |

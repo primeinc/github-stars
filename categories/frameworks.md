@@ -9,10 +9,10 @@
 | [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | A powerful little TUI framework 🏗 | `Go` ★ 38.1k | 2026-01-11 |
 | [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework" | `Python` ★ 12k | 2026-01-11 |
 | [AndurilCode/mcp-apps-kit](https://github.com/AndurilCode/mcp-apps-kit) | A Type Script framework for building interactive MCP applications that work seamlessly with both MCP Apps and Chat GPT (Open AI Apps SDK) from a single codebase. | `TypeScript` ★ 8 | 2026-01-11 |
-| [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | Miro Thinker is an open-source search agent model, built for tool-augmented reasoning and real-world information seeking, aiming to match the deep research experience of Open AI Deep Research and G... | `Python` ★ 4.2k | 2026-01-11 |
+| [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | Miro Thinker is an open-source search agent model, built for tool-augmented reasoning and real-world information seeking, aiming to match the deep research experience of Open AI Deep Research and G... | `Python` ★ 4.3k | 2026-01-11 |
 | [basecamp/fizzy](https://github.com/basecamp/fizzy) | Kanban as it should be. Not as it has been. | `Ruby` ★ 6.6k | 2026-01-11 |
-| [Cysharp/R3](https://github.com/Cysharp/R3) | The new future of dotnet/reactive and Uni Rx. | `C#` ★ 3.5k | 2026-01-10 |
-| [abpframework/abp](https://github.com/abpframework/abp) | Open-source web application framework for ASP.NET Core! Offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET. Provides the fundamental in... | `C#` ★ 14.1k | 2026-01-10 |
+| [Cysharp/R3](https://github.com/Cysharp/R3) | The new future of dotnet/reactive and Uni Rx. | `C#` ★ 3.5k | 2026-01-11 |
+| [abpframework/abp](https://github.com/abpframework/abp) | Open-source web application framework for ASP.NET Core! Offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET. Provides the fundamental in... | `C#` ★ 14.1k | 2026-01-11 |
 | [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material) | Documentation that simply works | `Python` ★ 25.7k | 2026-01-11 |
 | [withastro/astro](https://github.com/withastro/astro) | The web framework for content-driven websites. ⭐️ Star to support our work! | `TypeScript` ★ 55.5k | 2026-01-11 |
 | [primeinc/turborepo-nextjs](https://github.com/primeinc/turborepo-nextjs) | A production-ready Next.js 15 monorepo with React 19, Type Script, t RPC, and Prisma. | `TypeScript` ★ 1 | 2025-11-21 |
@@ -26,10 +26,10 @@
 | [opf/openproject](https://github.com/opf/openproject) | Open Project is the leading open source project management software. | `Ruby` ★ 13.7k | 2026-01-11 |
 | [microsoft/FluidFramework](https://github.com/microsoft/FluidFramework) | Library for building distributed, real-time collaborative web applications | `TypeScript` ★ 4.9k | 2026-01-10 |
 | [codebucks27/Next.js-Developer-Portfolio-Starter-Code](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code) | ⭐Build a stunning portfolio website with Next.js, Tailwind CSS and Framer-motion. If you want to learn to create this you can follow the tutorial link given in the Read me file. | `CSS` ★ 1.2k | 2026-01-10 |
-| [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An \`azd\` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 29 | 2025-09-25 |
+| [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An `azd` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 29 | 2025-09-25 |
 | [StudentiUniMi/website](https://github.com/StudentiUniMi/website) | Web application built with Next.js 15 and React 19 (TS), designed to provide students of the University of Milan with seamless access to academic groups and university services. The interface is de... | `TypeScript` ★ 60 | 2026-01-06 |
-| [gin-gonic/gin](https://github.com/gin-gonic/gin) | Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for ... | `Go` ★ 87.7k | 2026-01-10 |
-| [its-a-feature/Mythic](https://github.com/its-a-feature/Mythic) | A collaborative, multi-platform, red teaming framework | `JavaScript` ★ 4.2k | 2026-01-10 |
+| [gin-gonic/gin](https://github.com/gin-gonic/gin) | Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for ... | `Go` ★ 87.7k | 2026-01-11 |
+| [its-a-feature/Mythic](https://github.com/its-a-feature/Mythic) | A collaborative, multi-platform, red teaming framework | `JavaScript` ★ 4.2k | 2026-01-11 |
 | [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) | Clean Architecture Solution Template for ASP.NET Core | `Bicep` ★ 19.5k | 2026-01-10 |
 | [vercel/platforms](https://github.com/vercel/platforms) | A full-stack Next.js app with multi-tenancy. | `TypeScript` ★ 6.6k | 2026-01-10 |
 | [Ripple-TS/ripple](https://github.com/Ripple-TS/ripple) | the elegant Type Script UI framework | `JavaScript` ★ 6.6k | 2026-01-11 |
@@ -39,23 +39,23 @@
 | [MotiaDev/motia](https://github.com/MotiaDev/motia) | Multi-Language Backend Framework that unifies APIs, background jobs, queues, workflows, streams, and AI agents with a single core primitive with built-in observability and state management. | `TypeScript` ★ 14.1k | 2026-01-11 |
 | [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) | Authentication for the Web. | `TypeScript` ★ 28k | 2026-01-10 |
 | [elsa-workflows/elsa-core](https://github.com/elsa-workflows/elsa-core) | A .NET workflows library | `C#` ★ 7.6k | 2026-01-09 |
-| [pola-rs/polars](https://github.com/pola-rs/polars) | Extremely fast Query Engine for Data Frames, written in Rust | `Rust` ★ 36.9k | 2026-01-10 |
-| [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `Python` ★ 9.8k | 2026-01-10 |
+| [pola-rs/polars](https://github.com/pola-rs/polars) | Extremely fast Query Engine for Data Frames, written in Rust | `Rust` ★ 36.9k | 2026-01-11 |
+| [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `Python` ★ 9.8k | 2026-01-11 |
 | [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | Full stack, modern web application template. Using Fast API, React, SQLModel, Postgre SQL, Docker, Git Hub Actions, automatic HTTPS and more. | `TypeScript` ★ 40.6k | 2026-01-11 |
 | [rails/rails](https://github.com/rails/rails) | Ruby on Rails | `Ruby` ★ 58.1k | 2026-01-11 |
-| [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first. | `TypeScript` ★ 70.9k | 2026-01-10 |
+| [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first. | `TypeScript` ★ 70.9k | 2026-01-11 |
 | [gothinkster/realworld](https://github.com/gothinkster/realworld) | "The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more | `TypeScript` ★ 82.7k | 2026-01-11 |
 | [basementstudio/xmcp](https://github.com/basementstudio/xmcp) | The Type Script MCP framework | `TypeScript` ★ 1.2k | 2026-01-10 |
 | [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) | Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. | `TypeScript` ★ 13.6k | 2026-01-10 |
 | [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) | What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers? | `TypeScript` ★ 17.6k | 2026-01-11 |
 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Model Context Protocol Servers | `TypeScript` ★ 75.9k | 2026-01-11 |
-| [DioxusLabs/sdk](https://github.com/DioxusLabs/sdk) | A library to provide abstractions to access common utilities when developing Dioxus applications. | `Rust` ★ 248 | 2026-01-10 |
+| [DioxusLabs/sdk](https://github.com/DioxusLabs/sdk) | A library to provide abstractions to access common utilities when developing Dioxus applications. | `Rust` ★ 249 | 2026-01-11 |
 | [SuperClaude-Org/SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) | A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies. | `Python` ★ 20k | 2026-01-11 |
-| [scrapy/scrapy](https://github.com/scrapy/scrapy) | Scrapy, a fast high-level web crawling & scraping framework for Python. | `Python` ★ 59.4k | 2026-01-10 |
+| [scrapy/scrapy](https://github.com/scrapy/scrapy) | Scrapy, a fast high-level web crawling & scraping framework for Python. | `Python` ★ 59.4k | 2026-01-11 |
 | [camel-ai/camel](https://github.com/camel-ai/camel) | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org | `Python` ★ 15.3k | 2026-01-11 |
 | [nuejs/nue](https://github.com/nuejs/nue) | Standards first web framework taking HTML, CSS, JS, and WASM to their peak | `JavaScript` ★ 8.8k | 2026-01-10 |
 | [expo/expo](https://github.com/expo/expo) | An open-source framework for making universal native apps with React. Expo runs on Android, i OS, and the web. | `TypeScript` ★ 46.3k | 2026-01-11 |
-| [electron/electron](https://github.com/electron/electron) | :electron: Build cross-platform desktop apps with Java Script, HTML, and CSS | `C++` ★ 119.7k | 2026-01-10 |
+| [electron/electron](https://github.com/electron/electron) | :electron: Build cross-platform desktop apps with Java Script, HTML, and CSS | `C++` ★ 119.7k | 2026-01-11 |
 | [NicolaSpadari/nuxtor](https://github.com/NicolaSpadari/nuxtor) | Build tiny desktop apps with Tauri, Nuxt 3 and Nuxt UI | `Vue` ★ 712 | 2026-01-09 |
 | [Code-Pop/build-trello-clone-with-nuxt-3](https://github.com/Code-Pop/build-trello-clone-with-nuxt-3) | Source code for "Build a Trello Clone with Nuxt 3" by @bencodezen | `Vue` ★ 31 | 2025-09-21 |
 | [HugoRCD/canvas](https://github.com/HugoRCD/canvas) | Portfolio template made with Nuxt 3, Nuxt Content v3, Nuxt UI v3 and Tailwind CSS v4 | `Vue` ★ 344 | 2026-01-06 |
@@ -65,7 +65,7 @@
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, Crew AI empowers agents to work together seamlessly, tackling complex tasks. | `Python` ★ 42.5k | 2026-01-11 |
 | [maybe-finance/maybe](https://github.com/maybe-finance/maybe) | The personal finance app for everyone | `Ruby` ★ 53.9k | 2026-01-11 |
 | [loco-rs/loco](https://github.com/loco-rs/loco) | 🚂 🦀 The one-person framework for Rust for side-projects and startups | `Rust` ★ 8.5k | 2026-01-11 |
-| [flutter/flutter](https://github.com/flutter/flutter) | Flutter makes it easy and fast to build beautiful apps for mobile and beyond | `Dart` ★ 174.6k | 2026-01-10 |
+| [flutter/flutter](https://github.com/flutter/flutter) | Flutter makes it easy and fast to build beautiful apps for mobile and beyond | `Dart` ★ 174.6k | 2026-01-11 |
 | [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | Fullstack app framework for web, desktop, and mobile. | `Rust` ★ 33.1k | 2026-01-11 |
 | [marmelab/react-admin](https://github.com/marmelab/react-admin) | A frontend Framework for single-page applications on top of REST/Graph QL API s, using Type Script, React and Material Design | `TypeScript` ★ 26.5k | 2026-01-10 |
 | [flashtag/flashtag-php](https://github.com/flashtag/flashtag-php) | Flashtag content management platform | `PHP` ★ 30 | 2024-10-29 |

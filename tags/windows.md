@@ -9,7 +9,7 @@
 | [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 2.6k | 2026-01-11 |
 | [jayfunc/BetterLyrics](https://github.com/jayfunc/BetterLyrics) | An elegant and deeply customizable lyrics visualizer & versatile music player, built with Win UI3/Win2D | 一款优雅且高度自定义的歌词可视化与全能音乐播放应用，基于 Win UI3/Win2D 构建 | `C#` ★ 1.3k | 2026-01-11 |
 | [memstechtips/Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | `C#` ★ 4.3k | 2026-01-11 |
-| [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) | 🖱️ 纯粹的Windows右键菜单管理程序 | `C#` ★ 17.5k | 2026-01-10 |
+| [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) | 🖱️ 纯粹的Windows右键菜单管理程序 | `C#` ★ 17.5k | 2026-01-11 |
 | [FalconOpsLLC/goexec](https://github.com/FalconOpsLLC/goexec) | Windows remote execution multitool | `Go` ★ 761 | 2026-01-10 |
 | [felixrieseberg/windows-build-tools](https://github.com/felixrieseberg/windows-build-tools) | :package: Install C++ Build Tools for Windows using npm | `TypeScript` ★ 3.4k | 2026-01-09 |
 | [jade-tam/dotfiles](https://github.com/jade-tam/dotfiles) | Ricing dotfiles for windows 11 | `Shell` ★ 127 | 2026-01-10 |
@@ -23,7 +23,7 @@
 | [primeinc/Files](https://github.com/primeinc/Files) | Building the best File Manager for Windows | `C#` ★ 1 | 2025-09-09 |
 | [TibixDev/winboat](https://github.com/TibixDev/winboat) | Run Windows apps on 🐧 Linux with ✨ seamless integration | `TypeScript` ★ 17.8k | 2026-01-11 |
 | [Xanashi/Icaros](https://github.com/Xanashi/Icaros) | Official issue tracker and download location for Icaros Shell Extensions | ★ 1.3k | 2026-01-10 |
-| [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | Open-source Windows and Office activator featuring HWID, Ohook, TS forge, KMS38, and Online KMS activation methods, along with advanced troubleshooting. | `Batchfile` ★ 162.1k | 2026-01-11 |
+| [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | Open-source Windows and Office activator featuring HWID, Ohook, TS forge, KMS38, and Online KMS activation methods, along with advanced troubleshooting. | `Batchfile` ★ 162.2k | 2026-01-11 |
 | [DesktopECHO/xWSL](https://github.com/DesktopECHO/xWSL) | Installer script for Ubuntu 22.04 / 24.04 with XFCE 4.18 on WSL. Does not require hypervisor, container, or X11 server. | `Batchfile` ★ 346 | 2026-01-10 |
 | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, easy to use Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11... | `PowerShell` ★ 37.5k | 2026-01-11 |
 | [dorssel/usbipd-win](https://github.com/dorssel/usbipd-win) | Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2. | `C#` ★ 5.3k | 2026-01-10 |

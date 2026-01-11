@@ -7,9 +7,9 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `JavaScript` ★ 9.6k | 2026-01-11 |
-| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `Go` ★ 11.2k | 2026-01-11 |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `Go` ★ 11.3k | 2026-01-11 |
 | [labring/sealos](https://github.com/labring/sealos) | Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfec... | `TypeScript` ★ 16.8k | 2026-01-11 |
-| [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden\_rs | `Rust` ★ 53.2k | 2026-01-11 |
+| [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs | `Rust` ★ 53.2k | 2026-01-11 |
 | [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 37.8k | 2026-01-11 |
 | [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | `C#` ★ 14k | 2026-01-10 |
 | [Azure-Samples/ai-hub-gateway-solution-accelerator](https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator) | Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure ... | `Bicep` ★ 233 | 2026-01-07 |
@@ -40,7 +40,7 @@
 | [Azure-Samples/contoso-real-estate](https://github.com/Azure-Samples/contoso-real-estate) | Intelligent enterprise-grade reference architecture for Java Script, featuring Open AI integration, Azure Developer CLI template and Playwright tests. | `JavaScript` ★ 966 | 2026-01-04 |
 | [SeryioGonzalez/azure-pricer](https://github.com/SeryioGonzalez/azure-pricer) | No description provided | `Python` ★ 55 | 2025-09-26 |
 | [JulianHayward/AzAdvertizer](https://github.com/JulianHayward/AzAdvertizer) | Az Advertizer helps you to keep up with the pace by providing overview and insights on new releases and changes/updates for Azure Governance capabilities such as Azure Policy's policy definitions, ... | ★ 38 | 2025-12-07 |
-| [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An \`azd\` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 29 | 2025-09-25 |
+| [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An `azd` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 29 | 2025-09-25 |
 | [Azure-Samples/aoai-realtime-audio-sdk](https://github.com/Azure-Samples/aoai-realtime-audio-sdk) | Azure Open AI code resources for using gpt-4o-realtime capabilities. | `TypeScript` ★ 837 | 2026-01-01 |
 | [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | Azure Data Exporter for Blood Hound | `Go` ★ 844 | 2026-01-10 |
 | [midday-ai/zuno](https://github.com/midday-ai/zuno) | A unified API that provides a thin layer over multiple ERP systems. | `TypeScript` ★ 134 | 2025-12-28 |
@@ -49,7 +49,7 @@
 | [NileshGule/techtalks-azure-container-apps-demo](https://github.com/NileshGule/techtalks-azure-container-apps-demo) | A simple example to showcase Azure container apps capabilities using a Tech Talks demo with native integration for Dapr and KEDA | `PowerShell` ★ 4 | 2025-09-19 |
 | [piyushsachdeva/AzureDevOps-Zero-to-Hero](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero) | A central hub for artifacts, agendas, and resources related to the "Azure Dev Ops Zero to Hero" series on Tech Tutorials with Piyush You Tube channel. Access code snippets, agendas, notes, graphics... | `Shell` ★ 1.1k | 2026-01-09 |
 | [Azure-Samples/remote-mcp-webapp-node](https://github.com/Azure-Samples/remote-mcp-webapp-node) | No description provided | `JavaScript` ★ 5 | 2025-10-07 |
-| [googleapis/gcloud-mcp](https://github.com/googleapis/gcloud-mcp) | gcloud MCP server | `TypeScript` ★ 601 | 2026-01-10 |
+| [googleapis/gcloud-mcp](https://github.com/googleapis/gcloud-mcp) | gcloud MCP server | `TypeScript` ★ 602 | 2026-01-11 |
 | [neondatabase/neon](https://github.com/neondatabase/neon) | Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero. | `Rust` ★ 20.7k | 2026-01-11 |
 | [Azure/reliable-web-app-pattern-dotnet](https://github.com/Azure/reliable-web-app-pattern-dotnet) | The Reliable Web App Pattern is a set of objectives to help your web application converge on the cloud. This repo contains a reference implementation of a reliable web application for .NET. | `Bicep` ★ 450 | 2025-12-18 |
 | [Azure/CloudShell](https://github.com/Azure/CloudShell) | Container Image for Azure Cloud Shell (https://azure.microsoft.com/en-us/features/cloud-shell/) | `PowerShell` ★ 273 | 2026-01-08 |
@@ -62,13 +62,13 @@
 | [Azure-Samples/mcp-workshop-dotnet](https://github.com/Azure-Samples/mcp-workshop-dotnet) | This provides workshop materials using official MCP SDK | `JavaScript` ★ 36 | 2025-11-16 |
 | [Azure-Samples/getting-started-dotnet-aca](https://github.com/Azure-Samples/getting-started-dotnet-aca) | This provides sample .NET apps to be deployed to Azure Container Apps | `C#` ★ 19 | 2025-11-17 |
 | [Azure/azqr](https://github.com/Azure/azqr) | Azure Quick Review | `Go` ★ 720 | 2026-01-09 |
-| [openfaas/faas](https://github.com/openfaas/faas) | Open Faa S - Serverless Functions Made Simple | `Go` ★ 26k | 2026-01-10 |
+| [openfaas/faas](https://github.com/openfaas/faas) | Open Faa S - Serverless Functions Made Simple | `Go` ★ 26k | 2026-01-11 |
 | [nhost/nhost](https://github.com/nhost/nhost) | The Open Source Firebase Alternative with Graph QL. | `TypeScript` ★ 9k | 2026-01-10 |
 | [rustfs/rustfs](https://github.com/rustfs/rustfs) | 🚀 High-performance distributed object storage for Min IO alternative. | `Rust` ★ 19.5k | 2026-01-11 |
-| [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | Explain complex systems using visuals and simple terms. Help you prepare for system design interviews. | ★ 78.8k | 2026-01-11 |
+| [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | Explain complex systems using visuals and simple terms. Help you prepare for system design interviews. | ★ 78.9k | 2026-01-11 |
 | [radius-project/radius](https://github.com/radius-project/radius) | Radius is a cloud-native, portable application platform that makes app development easier for teams building cloud-native apps. | `Go` ★ 1.6k | 2026-01-10 |
 | [maartenvandiemen/AZD-AppConfiguration](https://github.com/maartenvandiemen/AZD-AppConfiguration) | No description provided | `Bicep` ★ 1 | 2025-10-17 |
-| [Azure-Samples/remote-mcp-functions-dotnet](https://github.com/Azure-Samples/remote-mcp-functions-dotnet) | This is a quickstart template to easily build and deploy a custom remote MCP server to the cloud using Azure functions. You can clone/restore/run on your local machine with debugging, and \`azd up\` ... | `Bicep` ★ 116 | 2026-01-09 |
+| [Azure-Samples/remote-mcp-functions-dotnet](https://github.com/Azure-Samples/remote-mcp-functions-dotnet) | This is a quickstart template to easily build and deploy a custom remote MCP server to the cloud using Azure functions. You can clone/restore/run on your local machine with debugging, and `azd up` ... | `Bicep` ★ 116 | 2026-01-09 |
 | [Azure-Samples/azd-starter-bicep](https://github.com/Azure-Samples/azd-starter-bicep) | Starter template with Bicep as infrastructure provider for Azure Developer CLI (azd). | `Bicep` ★ 34 | 2025-10-05 |
 | [Azure-Samples/mcp-container-ts](https://github.com/Azure-Samples/mcp-container-ts) | This is a quick start guide that provides the basic building blocks to set up a remote Model Context Protocol (MCP) server using Azure Container Apps. The MCP server is built using Node.js and Type... | `TypeScript` ★ 42 | 2025-12-30 |
 | [microsoft/content-processing-solution-accelerator](https://github.com/microsoft/content-processing-solution-accelerator) | Programmatically extract data and apply schemas to unstructured documents across text-based and multi-modal content using Azure AI Foundry, Azure Open AI, Azure AI Content Understanding, and Cosmos... | `Python` ★ 164 | 2026-01-09 |
@@ -90,7 +90,7 @@
 | [exo-explore/exo](https://github.com/exo-explore/exo) | Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚ | `Python` ★ 39.8k | 2026-01-11 |
 | [ai-dock/onetrainer](https://github.com/ai-dock/onetrainer) | One Trainer docker images for use in GPU cloud and local environments. Includes AI-Dock KDE Plasma desktop with GPU acceleration and audio for authentication and improved user experience. | `Shell` ★ 21 | 2025-10-22 |
 | [minio/minio](https://github.com/minio/minio) | Min IO is a high-performance, S3 compatible object store, open sourced under GNU AGPL v3 license. | `Go` ★ 59.7k | 2026-01-11 |
-| [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | Cryptomator for Windows, mac OS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data. | `Java` ★ 14.3k | 2026-01-10 |
+| [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | Cryptomator for Windows, mac OS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data. | `Java` ★ 14.3k | 2026-01-11 |
 | [ente-io/ente](https://github.com/ente-io/ente) | 🔒 End-to-end encrypted cloud for photos, videos and 2FA secrets. | `Dart` ★ 23.8k | 2026-01-11 |
 | [mingrammer/diagrams](https://github.com/mingrammer/diagrams) | :art: Diagram as Code for prototyping cloud system architectures | `Python` ★ 41.9k | 2026-01-10 |
 | [agarbato/unicloud](https://github.com/agarbato/unicloud) | Unison file sync web interface | `Python` ★ 76 | 2025-12-25 |

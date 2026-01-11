@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [ElliottLester/ComfyUI](https://github.com/ElliottLester/ComfyUI) | A powerful and modular stable diffusion GUI with a graph/nodes interface. | `Python` ★ 1 | 2026-01-07 |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `Python` ★ 99.7k | 2026-01-11 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `Python` ★ 99.8k | 2026-01-11 |

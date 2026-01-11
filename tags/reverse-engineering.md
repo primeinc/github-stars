@@ -13,4 +13,4 @@
 | [x64dbg/x64dbg](https://github.com/x64dbg/x64dbg) | An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis. | `C++` ★ 47.5k | 2026-01-11 |
 | [Yuyz0112/claude-code-reverse](https://github.com/Yuyz0112/claude-code-reverse) | Reverse Engineering Claude Code with LLM s: A Deep Dive into the Minified 4.6MB cli.mjs | `JavaScript` ★ 1.9k | 2026-01-11 |
 | [alufers/mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger) | Automagically reverse-engineer REST API s via capturing traffic | `HTML` ★ 9.2k | 2026-01-11 |
-| [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) | Reverse engineered Chat GPT API | `Python` ★ 28k | 2026-01-10 |
+| [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) | Reverse engineered Chat GPT API | `Python` ★ 28k | 2026-01-11 |

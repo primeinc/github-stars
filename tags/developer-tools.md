@@ -13,7 +13,7 @@
 | [DevToys-app/DevToys](https://github.com/DevToys-app/DevToys) | A Swiss Army knife for developers. | `C#` ★ 30.7k | 2026-01-11 |
 | [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) | An open-source, cross-platform terminal for seamless workflows | `Go` ★ 16.1k | 2026-01-11 |
 | [basementstudio/xmcp](https://github.com/basementstudio/xmcp) | The Type Script MCP framework | `TypeScript` ★ 1.2k | 2026-01-10 |
-| [qdhenry/Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite) | Professional slash commands for Claude Code that provide structured workflows for software development tasks including code review, feature creation, security auditing, and architectural analysis. | `Shell` ★ 903 | 2026-01-10 |
+| [qdhenry/Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite) | Professional slash commands for Claude Code that provide structured workflows for software development tasks including code review, feature creation, security auditing, and architectural analysis. | `Shell` ★ 904 | 2026-01-11 |
 | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | The official Python SDK for Model Context Protocol servers and clients | `Python` ★ 21k | 2026-01-10 |
 | [voideditor/void](https://github.com/voideditor/void) | No description provided | `TypeScript` ★ 28k | 2026-01-10 |
 | [aipotheosis-labs/aci](https://github.com/aipotheosis-labs/aci) | ACI.dev is the open source tool-calling platform that hooks up 600+ tools into any agentic IDE or custom AI agent through direct function calling or a unified MCP server. The birthplace of Vibe Ops. | `Python` ★ 4.7k | 2026-01-10 |

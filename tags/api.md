@@ -12,7 +12,7 @@
 | [microsoft/call-center-ai](https://github.com/microsoft/call-center-ai) | Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number! | `Python` ★ 6.1k | 2026-01-11 |
 | [mudler/LocalAI](https://github.com/mudler/LocalAI) | :robot: The free, Open Source alternative to Open AI, Claude and others. Self-hosted and local-first. Drop-in replacement for Open AI, running on consumer-grade hardware. No GPU required. Runs gguf... | `Go` ★ 41.3k | 2026-01-11 |
 | [Azure-Samples/universal-api-center](https://github.com/Azure-Samples/universal-api-center) | APIC ♥️ all APIs - this repo contains labs focused on importing APIs from a wide variety of gateways and sources | `Jupyter Notebook` ★ 20 | 2025-10-27 |
-| [googleapis/gcloud-mcp](https://github.com/googleapis/gcloud-mcp) | gcloud MCP server | `TypeScript` ★ 601 | 2026-01-10 |
+| [googleapis/gcloud-mcp](https://github.com/googleapis/gcloud-mcp) | gcloud MCP server | `TypeScript` ★ 602 | 2026-01-11 |
 | [rachitt96/pyRealtor](https://github.com/rachitt96/pyRealtor) | Python package to extract and analyse Canadian, United States and Indian real estate data from REALTOR.CA, REALTOR.COM and HOUSING.COM | `Python` ★ 14 | 2025-12-21 |
 | [team-telnyx/demo-node-telnyx](https://github.com/team-telnyx/demo-node-telnyx) | Samples & Examples with Telnyx-Node | `JavaScript` ★ 17 | 2025-12-12 |
 | [msmhome/miniFaxServer](https://github.com/msmhome/miniFaxServer) | 📠 A tiny, ready to deploy, simple fax server with SMS recieve running on the Telynx Programmable Fax and SMS API s. | `Python` ★ 5 | 2025-09-09 |

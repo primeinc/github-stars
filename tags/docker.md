@@ -9,8 +9,8 @@
 | [plexinc/pms-docker](https://github.com/plexinc/pms-docker) | Plex Media Server Docker repo, for all your PMS docker needs. | `Smarty` ★ 3.8k | 2026-01-10 |
 | [lux032/MusicAutoTagger](https://github.com/lux032/MusicAutoTagger) | A smart music file organization tool based on audio fingerprinting technology. It automatically monitors the download directory, identifies songs using Acoust ID and Music Brainz, completes metadat... | `Java` ★ 42 | 2026-01-10 |
 | [Dokploy/dokploy](https://github.com/Dokploy/dokploy) | Open Source Alternative to Vercel, Netlify and Heroku. | `TypeScript` ★ 28.9k | 2026-01-11 |
-| [generalaction/emdash](https://github.com/generalaction/emdash) | Emdash is the Open-Source Agentic Development Environment | `TypeScript` ★ 924 | 2026-01-11 |
-| [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | Docker container for managing Nginx proxy hosts with a simple, powerful interface | `TypeScript` ★ 30.9k | 2026-01-10 |
+| [generalaction/emdash](https://github.com/generalaction/emdash) | Emdash is the Open-Source Agentic Development Environment | `TypeScript` ★ 926 | 2026-01-11 |
+| [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | Docker container for managing Nginx proxy hosts with a simple, powerful interface | `TypeScript` ★ 30.9k | 2026-01-11 |
 | [coollabsio/coolify](https://github.com/coollabsio/coolify) | An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv... | `PHP` ★ 49.4k | 2026-01-11 |
 | [dockur/windows](https://github.com/dockur/windows) | Windows inside a Docker container. | `Shell` ★ 49.4k | 2026-01-11 |
 | [piyushsachdeva/AzureDevOps-Zero-to-Hero](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero) | A central hub for artifacts, agendas, and resources related to the "Azure Dev Ops Zero to Hero" series on Tech Tutorials with Piyush You Tube channel. Access code snippets, agendas, notes, graphics... | `Shell` ★ 1.1k | 2026-01-09 |
@@ -18,7 +18,7 @@
 | [bluxmit/alnoda-workspaces](https://github.com/bluxmit/alnoda-workspaces) | :fireworks: Flexible and extendable containerized workspaces. Now. with free offline chat GPT!!! 🚀🚀🚀 | `Dockerfile` ★ 1.4k | 2026-01-08 |
 | [TibixDev/winboat](https://github.com/TibixDev/winboat) | Run Windows apps on 🐧 Linux with ✨ seamless integration | `TypeScript` ★ 17.8k | 2026-01-11 |
 | [Azure-Samples/getting-started-dotnet-aca](https://github.com/Azure-Samples/getting-started-dotnet-aca) | This provides sample .NET apps to be deployed to Azure Container Apps | `C#` ★ 19 | 2025-11-17 |
-| [openfaas/faas](https://github.com/openfaas/faas) | Open Faa S - Serverless Functions Made Simple | `Go` ★ 26k | 2026-01-10 |
+| [openfaas/faas](https://github.com/openfaas/faas) | Open Faa S - Serverless Functions Made Simple | `Go` ★ 26k | 2026-01-11 |
 | [dokku/dokku](https://github.com/dokku/dokku) | A docker-powered Paa S that helps you build and manage the lifecycle of applications | `Shell` ★ 31.7k | 2026-01-10 |
 | [caprover/caprover](https://github.com/caprover/caprover) | Scalable Paa S (automated Docker+nginx) - aka Heroku on Steroids | `TypeScript` ★ 14.8k | 2026-01-11 |
 | [mountaintopsolutions/docker-obs-ndi-ng](https://github.com/mountaintopsolutions/docker-obs-ndi-ng) | Dockerized OBS + NDI plugin Next Generation | `Dockerfile` ★ 9 | 2025-08-10 |

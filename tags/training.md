@@ -8,4 +8,4 @@
 |---|---|---|---|
 | [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2) | Official Python inference and Lo RA trainer package for the LTX-2 audio–video generative model. | `Python` ★ 1.9k | 2026-01-11 |
 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | The simplest, fastest repository for training/finetuning medium-sized GPTs. | `Python` ★ 51.8k | 2026-01-11 |
-| [Nerogar/OneTrainer](https://github.com/Nerogar/OneTrainer) | One Trainer is a one-stop solution for all your stable diffusion training needs. | `Python` ★ 2.7k | 2026-01-10 |
+| [Nerogar/OneTrainer](https://github.com/Nerogar/OneTrainer) | One Trainer is a one-stop solution for all your stable diffusion training needs. | `Python` ★ 2.7k | 2026-01-11 |

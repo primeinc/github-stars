@@ -9,13 +9,13 @@
 | [camel-ai/owl](https://github.com/camel-ai/owl) | 🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation | `Python` ★ 18.7k | 2026-01-11 |
 | [frankbria/cli-ify-plugin](https://github.com/frankbria/cli-ify-plugin) | Convert Claude Code skills, commands, and agents into standalone CLI tools for Linux/Mac (Bash) and Windows (Power Shell). | `PowerShell` ★ 1 | 2026-01-09 |
 | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition. | `Shell` ★ 6.8k | 2026-01-11 |
-| [j178/prek](https://github.com/j178/prek) | ⚡ Better \`pre-commit\`, re-engineered in Rust | `Rust` ★ 3.2k | 2026-01-11 |
+| [j178/prek](https://github.com/j178/prek) | ⚡ Better `pre-commit`, re-engineered in Rust | `Rust` ★ 3.2k | 2026-01-11 |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. | `Python` ★ 75.2k | 2026-01-11 |
 | [AutoMaker-Org/automaker](https://github.com/AutoMaker-Org/automaker) | No description provided | `TypeScript` ★ 1.8k | 2026-01-11 |
 | [kdcokenny/opencode-worktree](https://github.com/kdcokenny/opencode-worktree) | Zero-friction git worktrees for Open Code. Auto-spawns terminals, syncs files, cleans up on exit. | `TypeScript` ★ 11 | 2026-01-10 |
-| [leonvanzyl/autocoder](https://github.com/leonvanzyl/autocoder) | No description provided | `Python` ★ 918 | 2026-01-11 |
+| [leonvanzyl/autocoder](https://github.com/leonvanzyl/autocoder) | No description provided | `Python` ★ 922 | 2026-01-11 |
 | [IIEleven11/ComfyUI-Dataset_Maker](https://github.com/IIEleven11/ComfyUI-Dataset_Maker) | No description provided | `Python` ★ 4 | 2026-01-09 |
-| [kasperjunge/agent-resources](https://github.com/kasperjunge/agent-resources) | Install Claude Code skills from Git Hub with one command: uvx add-skill 🚀 Also works for slash commands and subagents 🤙 | `Python` ★ 281 | 2026-01-10 |
+| [kasperjunge/agent-resources](https://github.com/kasperjunge/agent-resources) | Install Claude Code skills from Git Hub with one command: uvx add-skill 🚀 Also works for slash commands and subagents 🤙 | `Python` ★ 282 | 2026-01-11 |
 | [ArtemXTech/claude-code-obsidian-starter](https://github.com/ArtemXTech/claude-code-obsidian-starter) | Free starter kit: Claude Code + Obsidian. Pre-configured vault with skills for projects, tasks, clients, and daily routines. Just open and go. | `Typst` ★ 27 | 2026-01-11 |
 | [kaifcodec/Telespot](https://github.com/kaifcodec/Telespot) | Tele Spot OSINT lookup from Telephone number using DDGR + BING + GOOGLE and pattern recognition correlations. | `Python` ★ 4 | 2026-01-09 |
 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool | `JavaScript` ★ 81.1k | 2026-01-11 |
@@ -40,7 +40,7 @@
 | [blueraincoatli/ComfyUI-Model-Cleaner](https://github.com/blueraincoatli/ComfyUI-Model-Cleaner) | Try to locate the "orphan models" and clean them | `Python` ★ 3 | 2025-12-18 |
 | [HKUDS/DeepCode](https://github.com/HKUDS/DeepCode) | "Deep Code: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)" | `Python` ★ 13.8k | 2026-01-11 |
 | [github/codeql-action](https://github.com/github/codeql-action) | Actions for running Code QL analysis | `TypeScript` ★ 1.5k | 2026-01-09 |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` ★ 59.8k | 2026-01-11 |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` ★ 60k | 2026-01-11 |
 | [nanobrowser/nanobrowser](https://github.com/nanobrowser/nanobrowser) | Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to Open AI Operator. | `TypeScript` ★ 11.9k | 2026-01-11 |
 | [JustAnotherArchivist/snscrape](https://github.com/JustAnotherArchivist/snscrape) | A social networking service scraper in Python | `Python` ★ 5.2k | 2026-01-10 |
 | [eddie-jimenez/IntunePolicyChangeReport](https://github.com/eddie-jimenez/IntunePolicyChangeReport) | An Azure runbook that provides a reliable, human-readable record of what changed in Intune policies, who changed it, and when. | `PowerShell` ★ 20 | 2025-11-05 |
@@ -53,8 +53,8 @@
 | [hotnops/AzureScripts](https://github.com/hotnops/AzureScripts) | Random scripts for azure stuff | `PowerShell` ★ 12 | 2025-09-24 |
 | [intuit/auto](https://github.com/intuit/auto) | Generate releases based on semantic version labels on pull requests. | `TypeScript` ★ 2.4k | 2026-01-05 |
 | [upptime/upptime](https://github.com/upptime/upptime) | ⬆️ Git Hub Actions uptime monitor & status page by @Anand Chowdhary | `JSON` ★ 16.8k | 2026-01-11 |
-| [Prowlarr/Prowlarr](https://github.com/Prowlarr/Prowlarr) | Prowlarr is an indexer manager/proxy built on the popular \*arr .net/reactjs base stack to integrate with your various PVR apps, supporting management of both Torrent Trackers and Usenet Indexers. | `C#` ★ 5.8k | 2026-01-10 |
-| [langchain-ai/social-media-agent](https://github.com/langchain-ai/social-media-agent) | 📲 An agent for sourcing, curating, and scheduling social media posts with human-in-the-loop. | `TypeScript` ★ 1.8k | 2026-01-10 |
+| [Prowlarr/Prowlarr](https://github.com/Prowlarr/Prowlarr) | Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps, supporting management of both Torrent Trackers and Usenet Indexers. | `C#` ★ 5.8k | 2026-01-10 |
+| [langchain-ai/social-media-agent](https://github.com/langchain-ai/social-media-agent) | 📲 An agent for sourcing, curating, and scheduling social media posts with human-in-the-loop. | `TypeScript` ★ 1.8k | 2026-01-11 |
 | [AIDC-AI/ComfyUI-Copilot](https://github.com/AIDC-AI/ComfyUI-Copilot) | An AI-powered custom node for Comfy UI designed to enhance workflow automation and provide intelligent assistance | `TypeScript` ★ 4.3k | 2026-01-11 |
 | [bytebot-ai/bytebot](https://github.com/bytebot-ai/bytebot) | Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment. | `TypeScript` ★ 10.2k | 2026-01-11 |
 | [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows) | all of the workflows of n8n i could find (also from the site itself) | `Python` ★ 49.5k | 2026-01-11 |
@@ -68,7 +68,7 @@
 | [dobtco/openrfps-scrapers](https://github.com/dobtco/openrfps-scrapers) | Scraping government contracting opportunities. | `CoffeeScript` ★ 77 | 2025-12-30 |
 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | AI Agent + Coding Agent + 300+ assistants: agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs. | `TypeScript` ★ 37.6k | 2026-01-11 |
 | [mediar-ai/terminator](https://github.com/mediar-ai/terminator) | playwright for windows computer use | `Rust` ★ 1.2k | 2026-01-11 |
-| [haydenbleasel/ultracite](https://github.com/haydenbleasel/ultracite) | A highly opinionated, zero-configuration linter and formatter. | `TypeScript` ★ 2.5k | 2026-01-10 |
+| [haydenbleasel/ultracite](https://github.com/haydenbleasel/ultracite) | A highly opinionated, zero-configuration linter and formatter. | `TypeScript` ★ 2.5k | 2026-01-11 |
 | [Jedward23/Tmux-Orchestrator](https://github.com/Jedward23/Tmux-Orchestrator) | No description provided | `Python` ★ 1.5k | 2026-01-10 |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown. | `Python` ★ 85.1k | 2026-01-11 |
 | [Ylianst/MeshCommander](https://github.com/Ylianst/MeshCommander) | Mesh Commander is a Intel(R) Active Management Technology (Intel(R) AMT) remote management tool. It's feature rich and includes a built-in remote desktop viewer for Hardware-KVM, a Serial-over-LAN ... | `HTML` ★ 550 | 2026-01-10 |
@@ -92,13 +92,13 @@
 | [automatisch/automatisch](https://github.com/automatisch/automatisch) | The open source Zapier alternative. Build workflow automation without spending time and money. | `JavaScript` ★ 13.5k | 2026-01-10 |
 | [jahwag/ClaudeSync](https://github.com/jahwag/ClaudeSync) | Claude Sync is a Python tool that automates the synchronization of local files with Claude.ai Projects | `Python` ★ 657 | 2026-01-10 |
 | [github/branch-deploy](https://github.com/github/branch-deploy) | Enabling Branch Deployments through Issue Ops with Git Hub Actions - If you find this project useful, give it a star! ⭐️ | `JavaScript` ★ 515 | 2026-01-07 |
-| [qdhenry/Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite) | Professional slash commands for Claude Code that provide structured workflows for software development tasks including code review, feature creation, security auditing, and architectural analysis. | `Shell` ★ 903 | 2026-01-10 |
+| [qdhenry/Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite) | Professional slash commands for Claude Code that provide structured workflows for software development tasks including code review, feature creation, security auditing, and architectural analysis. | `Shell` ★ 904 | 2026-01-11 |
 | [meraki/dashboard-api-python](https://github.com/meraki/dashboard-api-python) | Official Dashboard API library (SDK) for Python | `Python` ★ 329 | 2026-01-08 |
 | [pnp/powerplatform-snippets](https://github.com/pnp/powerplatform-snippets) | Repository with snippets that can easily be used in some of the Power Platform products | `HLSL` ★ 199 | 2026-01-06 |
 | [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | No description provided | `TypeScript` ★ 5k | 2026-01-11 |
-| [Vinzent03/obsidian-git](https://github.com/Vinzent03/obsidian-git) | Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md | `TypeScript` ★ 9.5k | 2026-01-10 |
+| [Vinzent03/obsidian-git](https://github.com/Vinzent03/obsidian-git) | Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md | `TypeScript` ★ 9.5k | 2026-01-11 |
 | [ultrafunkamsterdam/undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) | Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / Cloud Flare IUAM) | `Python` ★ 12.2k | 2026-01-11 |
-| [getmaxun/maxun](https://github.com/getmaxun/maxun) | 🔥 Open-source no code web data extraction platform. Instantly turn any website into API or spreadsheet 🔥 | `TypeScript` ★ 14.1k | 2026-01-10 |
+| [getmaxun/maxun](https://github.com/getmaxun/maxun) | 🔥 Open-source no code web data extraction platform. Instantly turn any website into API or spreadsheet 🔥 | `TypeScript` ★ 14.1k | 2026-01-11 |
 | [RenjiYuusei/CursorFocus](https://github.com/RenjiYuusei/CursorFocus) | A lightweight tool that maintains a focused view of your project structure and environment. Cursor Focus automatically tracks your project files, functions, and environment variables, updating ever... | `Python` ★ 172 | 2025-11-30 |
 | [johnbenac/cursor-watchful-headers](https://github.com/johnbenac/cursor-watchful-headers) | Automated file header management and project structure visualization in cursorrules. Maintains consistent headers across multiple file types while providing real-time project tree updates. Perfect ... | `Python` ★ 51 | 2025-12-11 |
 | [jhochwald/PowerShell-collection](https://github.com/jhochwald/PowerShell-collection) | Power Shell Scripts, Tools, and Modules | `PowerShell` ★ 301 | 2026-01-10 |
@@ -114,7 +114,7 @@
 | [olzzon/ndi-controller](https://github.com/olzzon/ndi-controller) | Windows App - Controlling NDI routing in network | `C` ★ 57 | 2025-09-04 |
 | [frenck/awesome-home-assistant](https://github.com/frenck/awesome-home-assistant) | A curated list of amazingly awesome Home Assistant resources. | `Shell` ★ 7.3k | 2026-01-10 |
 | [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | A list of AI autonomous agents | ★ 25.1k | 2026-01-11 |
-| [nikivdev/flow](https://github.com/nikivdev/flow) | Everything you need to move your project faster | `Rust` ★ 21.2k | 2026-01-10 |
+| [nikivdev/flow](https://github.com/nikivdev/flow) | Everything you need to move your project faster | `Rust` ★ 21.2k | 2026-01-11 |
 | [sdras/awesome-actions](https://github.com/sdras/awesome-actions) | A curated list of awesome actions to use on Git Hub | ★ 27.3k | 2026-01-10 |
 | [Integuru-AI/Integuru](https://github.com/Integuru-AI/Integuru) | The first AI agent that builds permissionless integrations through reverse engineering platforms' internal API s. | `Python` ★ 4.5k | 2026-01-09 |
 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM. | `Python` ★ 48.8k | 2026-01-11 |
@@ -153,17 +153,17 @@
 | [dwainscheeren/dwains-lovelace-dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) | An fully auto generating Home Assistant UI dashboard for desktop, tablet and mobile by Dwains for desktop, tablet, mobile | `JavaScript` ★ 2k | 2026-01-10 |
 | [ahodges9/LedFx](https://github.com/ahodges9/LedFx) | Led Fx is a network based LED effect controller with support for advanced real-time audio effects! Led Fx can control multiple devices and works great with cheap ESP8266 nodes allowing for cost eff... | `Python` ★ 392 | 2025-11-10 |
 | [fma965/ESP-MQTT-JSON-Digital-LEDs](https://github.com/fma965/ESP-MQTT-JSON-Digital-LEDs) | ESP MQTT Digital LEDs for Home Assistant's MQTT JSON Light Component. Supports flash, fade, transitions, effects, and OTA uploading! | `C++` ★ 18 | 2025-02-22 |
-| [home-assistant/core](https://github.com/home-assistant/core) | :house\_with\_garden: Open source home automation that puts local control and privacy first. | `Python` ★ 84k | 2026-01-11 |
+| [home-assistant/core](https://github.com/home-assistant/core) | :house_with_garden: Open source home automation that puts local control and privacy first. | `Python` ★ 84k | 2026-01-11 |
 | [danielperna84/hass-configurator](https://github.com/danielperna84/hass-configurator) | Configuration UI for Home Assistant | `Python` ★ 329 | 2025-12-08 |
 | [morpheus65535/bazarr](https://github.com/morpheus65535/bazarr) | Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of every... | `Python` ★ 3.7k | 2026-01-11 |
 | [Nordeus/ansible_iptables_raw](https://github.com/Nordeus/ansible_iptables_raw) | iptables module for Ansible which keeps state | `Python` ★ 128 | 2025-11-11 |
-| [Radarr/Radarr](https://github.com/Radarr/Radarr) | Movie organizer/manager for usenet and torrent users. | `C#` ★ 12.8k | 2026-01-10 |
+| [Radarr/Radarr](https://github.com/Radarr/Radarr) | Movie organizer/manager for usenet and torrent users. | `C#` ★ 12.8k | 2026-01-11 |
 | [bmrf/tron](https://github.com/bmrf/tron) | Tron | `Batchfile` ★ 6.2k | 2026-01-11 |
 | [MikeShepard/VisioBot3000](https://github.com/MikeShepard/VisioBot3000) | Simple Visio Automation from Powershell | `PowerShell` ★ 51 | 2025-11-13 |
 | [cluberti/VDI](https://github.com/cluberti/VDI) | Repository for VDI scripts | `Visual Basic` ★ 131 | 2025-10-16 |
 | [jobbyphp/jobby](https://github.com/jobbyphp/jobby) | Manage all your cron jobs without modifying crontab. Handles locking, logging, error emails, and more. | `PHP` ★ 1.1k | 2025-12-24 |
 | [srvrco/getssl](https://github.com/srvrco/getssl) | obtain free SSL certificates from letsencrypt ACME server Suitable for automating the process on remote servers. | `Shell` ★ 2.2k | 2026-01-10 |
-| [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) | Smart PVR for newsgroup and bittorrent users. | `C#` ★ 13k | 2026-01-10 |
+| [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) | Smart PVR for newsgroup and bittorrent users. | `C#` ★ 13k | 2026-01-11 |
 | [resque/resque](https://github.com/resque/resque) | Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later. | `Ruby` ★ 9.5k | 2026-01-06 |
 | [MilhouseVH/autoaway.py](https://github.com/MilhouseVH/autoaway.py) | Improved auto-away monitoring for Nest Thermostats | `Python` ★ 15 | 2025-10-27 |
 | [chrisboulton/php-resque](https://github.com/chrisboulton/php-resque) | PHP port of resque (Workers and Queueing) | `PHP` ★ 3.4k | 2026-01-09 |

@@ -13,4 +13,4 @@
 | [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/j P8Kfh Dhy N | `Python` ★ 58.4k | 2026-01-11 |
 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data | `TypeScript` ★ 74.2k | 2026-01-11 |
 | [harry-s-grewal/mls-real-estate-scraper-for-realtor.ca](https://github.com/harry-s-grewal/mls-real-estate-scraper-for-realtor.ca) | Python MLS and Real-Estate Data Scraper for the Realtor.ca Website | `Python` ★ 73 | 2026-01-03 |
-| [getmaxun/maxun](https://github.com/getmaxun/maxun) | 🔥 Open-source no code web data extraction platform. Instantly turn any website into API or spreadsheet 🔥 | `TypeScript` ★ 14.1k | 2026-01-10 |
+| [getmaxun/maxun](https://github.com/getmaxun/maxun) | 🔥 Open-source no code web data extraction platform. Instantly turn any website into API or spreadsheet 🔥 | `TypeScript` ★ 14.1k | 2026-01-11 |

@@ -9,7 +9,7 @@
 | [keploy/keploy](https://github.com/keploy/keploy) | API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs! | `Go` ★ 15.1k | 2026-01-11 |
 | [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust | `Rust` ★ 12k | 2026-01-10 |
 | [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static... | `JavaScript` ★ 20.2k | 2026-01-11 |
-| [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 基于图像识别的自动化黑盒测试框架 | An automation black-box testing framework based on image recognition | `C++` ★ 3k | 2026-01-10 |
+| [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 基于图像识别的自动化黑盒测试框架 | An automation black-box testing framework based on image recognition | `C++` ★ 3k | 2026-01-11 |
 | [Azure/azure-api-management-policy-toolkit](https://github.com/Azure/azure-api-management-policy-toolkit) | Azure API Management policy toolkit is a set of libraries and tools to help managing and testing policies. | `C#` ★ 81 | 2026-01-09 |
 | [python/typeshed](https://github.com/python/typeshed) | Collection of library stubs for Python, with static types | `Python` ★ 5k | 2026-01-10 |
 | [timdeschryver/zod-fixture](https://github.com/timdeschryver/zod-fixture) | Creating fixtures based on zod schemas | `TypeScript` ★ 144 | 2026-01-07 |

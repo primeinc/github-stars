@@ -18,9 +18,9 @@
 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL Augment Code, Claude Code, Cluely, Code Buddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, Notion AI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer ... | ★ 107.2k | 2026-01-11 |
 | [voideditor/void](https://github.com/voideditor/void) | No description provided | `TypeScript` ★ 28k | 2026-01-10 |
 | [tauri-apps/plugins-workspace](https://github.com/tauri-apps/plugins-workspace) | All of the official Tauri plugins in one place! | `Rust` ★ 1.6k | 2026-01-10 |
-| [huggingface/open-r1](https://github.com/huggingface/open-r1) | Fully open reproduction of Deep Seek-R1 | `Python` ★ 25.8k | 2026-01-10 |
-| [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) | Awesome list of open-source startup alternatives to well-known Saa S products 🚀 | `Python` ★ 18.6k | 2026-01-10 |
-| [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | 🚀 Awesome list of open source applications for mac OS. https://t.me/s/opensourcemacosapps | ★ 46.9k | 2026-01-10 |
+| [huggingface/open-r1](https://github.com/huggingface/open-r1) | Fully open reproduction of Deep Seek-R1 | `Python` ★ 25.8k | 2026-01-11 |
+| [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) | Awesome list of open-source startup alternatives to well-known Saa S products 🚀 | `Python` ★ 18.6k | 2026-01-11 |
+| [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | 🚀 Awesome list of open source applications for mac OS. https://t.me/s/opensourcemacosapps | ★ 46.9k | 2026-01-11 |
 | [gavincyi/awesome-financial-open-source](https://github.com/gavincyi/awesome-financial-open-source) | Collection of financial institution open source groups | ★ 38 | 2025-02-18 |
 | [Nandaka/PixivUtil2](https://github.com/Nandaka/PixivUtil2) | Download images from Pixiv and more! | `Python` ★ 2.6k | 2026-01-10 |
 | [transloadit/uppy](https://github.com/transloadit/uppy) | The next open source file uploader for web browsers :dog: | `TypeScript` ★ 30.6k | 2026-01-10 |

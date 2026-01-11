@@ -6,20 +6,20 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.4k | 2026-01-10 |
+| [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.4k | 2026-01-11 |
 | [cppqtdev/QT-Home-Automation-Glass-UI](https://github.com/cppqtdev/QT-Home-Automation-Glass-UI) | Linkedin Page | `QML` ★ 25 | 2025-12-18 |
 | [edera-dev/sprout](https://github.com/edera-dev/sprout) | Sprout: UEFI Bootloader in Rust | `Rust` ★ 263 | 2026-01-08 |
 | [leukipp/touchkio](https://github.com/leukipp/touchkio) | Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display. | `JavaScript` ★ 1k | 2026-01-10 |
-| [facebookresearch/habitat-sim](https://github.com/facebookresearch/habitat-sim) | A flexible, high-performance 3D simulator for Embodied AI research. | `C++` ★ 3.4k | 2026-01-10 |
+| [facebookresearch/habitat-sim](https://github.com/facebookresearch/habitat-sim) | A flexible, high-performance 3D simulator for Embodied AI research. | `C++` ★ 3.4k | 2026-01-11 |
 | [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 238 | 2026-01-07 |
 | [tile-ai/tilelang](https://github.com/tile-ai/tilelang) | Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels | `Python` ★ 4.6k | 2026-01-11 |
 | [matiasmenares/Nissboard](https://github.com/matiasmenares/Nissboard) | 🚗 Nissan Consult/OBDII Realtime Dashboard | `JavaScript` ★ 53 | 2025-12-26 |
 | [ClemensElflein/OpenMower](https://github.com/ClemensElflein/OpenMower) | Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots! | `C++` ★ 6.4k | 2026-01-10 |
 | [Vector-Wangel/XLeRobot](https://github.com/Vector-Wangel/XLeRobot) | XLe Robot: Practical Dual-Arm Mobile Home Robot for $660 | `Python` ★ 4.5k | 2026-01-10 |
-| [cartesiancs/vessel](https://github.com/cartesiancs/vessel) | Home security / protection system 🦾 | `TypeScript` ★ 311 | 2026-01-04 |
+| [cartesiancs/vessel](https://github.com/cartesiancs/vessel) | Home security / protection system 🦾 | `TypeScript` ★ 312 | 2026-01-11 |
 | [kamailio/kamailio](https://github.com/kamailio/kamailio) | Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms - | `C` ★ 2.7k | 2026-01-10 |
 | [boatbod/op25](https://github.com/boatbod/op25) | Fork of osmocom OP25 by boatbod | `C++` ★ 427 | 2026-01-07 |
-| [EmenstaNougat/ESP32-BlueJammer](https://github.com/EmenstaNougat/ESP32-BlueJammer) | The ESP32-Blue Jammer (Bluetooth jammer, BLE jammer, Wi Fi jammer, RC jammer) disrupts 2.4GHz communications. Using an ESP32 and n RF24 modules, it generates noise and unnecessary packets, causing ... | ★ 5.1k | 2026-01-10 |
+| [EmenstaNougat/ESP32-BlueJammer](https://github.com/EmenstaNougat/ESP32-BlueJammer) | The ESP32-Blue Jammer (Bluetooth jammer, BLE jammer, Wi Fi jammer, RC jammer) disrupts 2.4GHz communications. Using an ESP32 and n RF24 modules, it generates noise and unnecessary packets, causing ... | ★ 5.1k | 2026-01-11 |
 | [WhitewaterFoundry/Pengwin](https://github.com/WhitewaterFoundry/Pengwin) | A Linux distro optimized for WSL based on Debian. | `C++` ★ 1.5k | 2026-01-10 |
 | [microsoft/wslg](https://github.com/microsoft/wslg) | Enabling the Windows Subsystem for Linux to include support for Wayland and X server related scenarios | `C++` ★ 11.4k | 2026-01-10 |
 | [byrdsandbytes/beatnik-pi](https://github.com/byrdsandbytes/beatnik-pi) | No description provided | `Shell` ★ 444 | 2026-01-09 |
@@ -41,7 +41,7 @@
 | [lplassman/V4L2-to-NDI](https://github.com/lplassman/V4L2-to-NDI) | A video input (V4L2) to NDI converter that works with Raspberry Pi (32-bit and 64-bit), and Intel/AMD CPU s | `C++` ★ 89 | 2025-09-03 |
 | [dusty-nv/jetson-utils](https://github.com/dusty-nv/jetson-utils) | C++/CUDA/Python multimedia utilities for NVIDIA Jetson | `C++` ★ 861 | 2026-01-10 |
 | [kitspace/awesome-electronics](https://github.com/kitspace/awesome-electronics) | A curated list of awesome resources for Electronic Engineers and hobbyists | ★ 7.1k | 2026-01-10 |
-| [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) | 🐬 A collection of awesome resources for the Flipper Zero device. | ★ 22.6k | 2026-01-10 |
+| [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) | 🐬 A collection of awesome resources for the Flipper Zero device. | ★ 22.6k | 2026-01-11 |
 | [paloukari/jetson-detectors](https://github.com/paloukari/jetson-detectors) | Contains examples and documentation on how to setup your remote development environment from your Windows host to a Jetson device | `Python` ★ 13 | 2025-01-25 |
 | [Ryoyo-NV/People-Flow-Analysis-System](https://github.com/Ryoyo-NV/People-Flow-Analysis-System) | People flow analysis system for Jetson Nano, Xavier NX, and AGX Xavier. | `Python` ★ 50 | 2025-12-27 |
 | [BestAnHongjun/LMDeploy-Jetson](https://github.com/BestAnHongjun/LMDeploy-Jetson) | Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access. | ★ 105 | 2026-01-05 |
@@ -77,11 +77,11 @@
 | [moralmunky/Home-Assistant-Mail-And-Packages](https://github.com/moralmunky/Home-Assistant-Mail-And-Packages) | Home Assistant integration providing day of package counts and USPS informed delivery images. | `Python` ★ 796 | 2026-01-10 |
 | [custom-components/climate.programmable_thermostat](https://github.com/custom-components/climate.programmable_thermostat) | Programmable thermostat that let you have a smart thermostat on budget. | `Python` ★ 117 | 2025-10-11 |
 | [geekuillaume/soundsync](https://github.com/geekuillaume/soundsync) | Virtual cables between any audio source and any speaker in your home | `C` ★ 890 | 2025-12-07 |
-| [scottlawsonbc/audio-reactive-led-strip](https://github.com/scottlawsonbc/audio-reactive-led-strip) | :musical\_note: :rainbow: Real-time LED strip music visualization using Python and the ESP8266 or Raspberry Pi | `Python` ★ 2.8k | 2026-01-10 |
+| [scottlawsonbc/audio-reactive-led-strip](https://github.com/scottlawsonbc/audio-reactive-led-strip) | :musical_note: :rainbow: Real-time LED strip music visualization using Python and the ESP8266 or Raspberry Pi | `Python` ★ 2.8k | 2026-01-10 |
 | [ahodges9/LedFx](https://github.com/ahodges9/LedFx) | Led Fx is a network based LED effect controller with support for advanced real-time audio effects! Led Fx can control multiple devices and works great with cheap ESP8266 nodes allowing for cost eff... | `Python` ★ 392 | 2025-11-10 |
 | [zhujisheng/audio-reactive-led-strip](https://github.com/zhujisheng/audio-reactive-led-strip) | 🎵 🌈 Real-time LED strip music visualization running on ESP32 based on Arduino or ESPH ome platform | `C++` ★ 155 | 2025-12-02 |
 | [fma965/ESP-MQTT-JSON-Digital-LEDs](https://github.com/fma965/ESP-MQTT-JSON-Digital-LEDs) | ESP MQTT Digital LEDs for Home Assistant's MQTT JSON Light Component. Supports flash, fade, transitions, effects, and OTA uploading! | `C++` ★ 18 | 2025-02-22 |
-| [home-assistant/core](https://github.com/home-assistant/core) | :house\_with\_garden: Open source home automation that puts local control and privacy first. | `Python` ★ 84k | 2026-01-11 |
+| [home-assistant/core](https://github.com/home-assistant/core) | :house_with_garden: Open source home automation that puts local control and privacy first. | `Python` ★ 84k | 2026-01-11 |
 | [ssimunic/Temp-Monitor](https://github.com/ssimunic/Temp-Monitor) | Internet of Things data platform for temperature and humidity sensors with maps | `PHP` ★ 90 | 2024-11-01 |
 | [threat9/routersploit](https://github.com/threat9/routersploit) | Exploitation Framework for Embedded Devices | `Python` ★ 12.9k | 2026-01-10 |
 

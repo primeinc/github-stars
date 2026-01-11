@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [grafana/grafana](https://github.com/grafana/grafana) | The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, Influx DB, Postgres and many m... | `TypeScript` ★ 71.6k | 2026-01-11 |
+| [grafana/grafana](https://github.com/grafana/grafana) | The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, Influx DB, Postgres and many m... | `TypeScript` ★ 71.7k | 2026-01-11 |
 | [Netflix/vector](https://github.com/Netflix/vector) | Vector is an on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer’s browser. | `JavaScript` ★ 3.6k | 2025-12-28 |
 | [tstack/lnav](https://github.com/tstack/lnav) | Log file navigator | `C++` ★ 9.5k | 2026-01-10 |
 | [davidsonfellipe/awesome-wpo](https://github.com/davidsonfellipe/awesome-wpo) | :pencil: A curated list of Web Performance Optimization. Everyone can contribute here! | `JavaScript` ★ 8.8k | 2026-01-10 |

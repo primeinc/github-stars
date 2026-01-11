@@ -14,5 +14,5 @@
 | [langfuse/langfuse](https://github.com/langfuse/langfuse) | 🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with Open Telemetry, Langchain, Open AI SDK, Lite LLM, and more. 🍊YC... | `TypeScript` ★ 20.4k | 2026-01-11 |
 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | This repo includes Chat GPT prompt curation to use Chat GPT and other LLM tools better. | `TypeScript` ★ 142k | 2026-01-11 |
 | [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) | What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers? | `TypeScript` ★ 17.6k | 2026-01-11 |
-| [Portkey-AI/gateway](https://github.com/Portkey-AI/gateway) | A blazing fast AI Gateway with integrated guardrails. Route to 200+ LLM s, 50+ AI Guardrails with 1 fast & friendly API. | `TypeScript` ★ 10.2k | 2026-01-10 |
+| [Portkey-AI/gateway](https://github.com/Portkey-AI/gateway) | A blazing fast AI Gateway with integrated guardrails. Route to 200+ LLM s, 50+ AI Guardrails with 1 fast & friendly API. | `TypeScript` ★ 10.2k | 2026-01-11 |
 | [krea-ai/open-prompts](https://github.com/krea-ai/open-prompts) | No description provided | `Python` ★ 793 | 2025-11-20 |

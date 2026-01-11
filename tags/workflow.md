@@ -16,7 +16,7 @@
 | [langgenius/dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development. | `Python` ★ 125.4k | 2026-01-11 |
 | [automatisch/automatisch](https://github.com/automatisch/automatisch) | The open source Zapier alternative. Build workflow automation without spending time and money. | `JavaScript` ★ 13.5k | 2026-01-10 |
 | [github/branch-deploy](https://github.com/github/branch-deploy) | Enabling Branch Deployments through Issue Ops with Git Hub Actions - If you find this project useful, give it a star! ⭐️ | `JavaScript` ★ 515 | 2026-01-07 |
-| [nikivdev/flow](https://github.com/nikivdev/flow) | Everything you need to move your project faster | `Rust` ★ 21.2k | 2026-01-10 |
+| [nikivdev/flow](https://github.com/nikivdev/flow) | Everything you need to move your project faster | `Rust` ★ 21.2k | 2026-01-11 |
 | [C0nsumption/Consume-ComfyUI-Workflows](https://github.com/C0nsumption/Consume-ComfyUI-Workflows) | A collection of some of my basic Comfy UI workflows. These are meant to act as building block to construct larger workflows of your own. | ★ 250 | 2025-12-17 |
 | [aegis72/aegisflow](https://github.com/aegis72/aegisflow) | Aegis Flow XL and Aegis Flow 1.5 are Comfy UI workflows designed by a professional for professionals | ★ 36 | 2025-11-19 |
 | [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) | This project aims to enhance the working environment on Windows | `C` ★ 31.1k | 2026-01-11 |

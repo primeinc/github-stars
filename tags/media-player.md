@@ -11,4 +11,4 @@
 | [stax76/awesome-mpv](https://github.com/stax76/awesome-mpv) | A curated list of awesome mpv resources. | ★ 1.9k | 2026-01-11 |
 | [mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net) | 🎞 mpv.net is a media player for Windows with a modern GUI. | `C#` ★ 4.6k | 2026-01-10 |
 | [mpv-player/mpv](https://github.com/mpv-player/mpv) | 🎥 Command line media player | `C` ★ 33.4k | 2026-01-11 |
-| [marcopixel/monstercat-visualizer](https://github.com/marcopixel/monstercat-visualizer) | A real time audio visualizer for Rainmeter similar to the ones used in the Monstercat videos. | `Lua` ★ 949 | 2026-01-02 |
+| [marcopixel/monstercat-visualizer](https://github.com/marcopixel/monstercat-visualizer) | A real time audio visualizer for Rainmeter similar to the ones used in the Monstercat videos. | `Lua` ★ 950 | 2026-01-11 |

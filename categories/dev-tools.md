@@ -8,30 +8,30 @@
 |---|---|---|---|
 | [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | A powerful little TUI framework 🏗 | `Go` ★ 38.1k | 2026-01-11 |
 | [spf13/cobra](https://github.com/spf13/cobra) | A Commander for modern Go CLI interactions | `Go` ★ 42.9k | 2026-01-11 |
-| [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | The Git Butler version control client, backed by Git, powered by Tauri/Rust/Svelte | `Rust` ★ 17.4k | 2026-01-10 |
+| [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | The Git Butler version control client, backed by Git, powered by Tauri/Rust/Svelte | `Rust` ★ 17.4k | 2026-01-11 |
 | [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust | `Rust` ★ 12k | 2026-01-10 |
 | [dvdsgl/claude-canvas](https://github.com/dvdsgl/claude-canvas) | Give Claude Code an external monitor | `TypeScript` ★ 1k | 2026-01-11 |
 | [danielmiessler/Daemon](https://github.com/danielmiessler/Daemon) | An open-source personal API framework. | `TypeScript` ★ 140 | 2026-01-10 |
 | [taskflow/taskflow](https://github.com/taskflow/taskflow) | A General-purpose Task-parallel Programming System using Modern C++ | `C++` ★ 11.6k | 2026-01-10 |
-| [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | Autonomous AI development loop for Claude Code with intelligent exit detection | `Shell` ★ 1.1k | 2026-01-11 |
-| [j178/prek](https://github.com/j178/prek) | ⚡ Better \`pre-commit\`, re-engineered in Rust | `Rust` ★ 3.2k | 2026-01-11 |
+| [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | Autonomous AI development loop for Claude Code with intelligent exit detection | `Shell` ★ 1.2k | 2026-01-11 |
+| [j178/prek](https://github.com/j178/prek) | ⚡ Better `pre-commit`, re-engineered in Rust | `Rust` ★ 3.2k | 2026-01-11 |
 | [jdx/mise](https://github.com/jdx/mise) | dev tools, env vars, task runner | `Rust` ★ 22.9k | 2026-01-11 |
 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | A browser based code editor | `JavaScript` ★ 45.2k | 2026-01-11 |
-| [upx/upx](https://github.com/upx/upx) | UPX - the Ultimate Packer for e Xecutables | `C++` ★ 17k | 2026-01-10 |
+| [upx/upx](https://github.com/upx/upx) | UPX - the Ultimate Packer for e Xecutables | `C++` ★ 17k | 2026-01-11 |
 | [google/flatbuffers](https://github.com/google/flatbuffers) | Flat Buffers: Memory Efficient Serialization Library | `C++` ★ 25.4k | 2026-01-10 |
 | [memvid/claude-brain](https://github.com/memvid/claude-brain) | Give Claude Code photographic memory in ONE portable file. No database, no SQLite, no Chroma DB - just a single .mv2 file you can git commit, scp, or share. Native Rust core with sub-ms operations. | `JavaScript` ★ 129 | 2026-01-11 |
 | [AutoMaker-Org/automaker](https://github.com/AutoMaker-Org/automaker) | No description provided | `TypeScript` ★ 1.8k | 2026-01-11 |
 | [kdcokenny/opencode-worktree](https://github.com/kdcokenny/opencode-worktree) | Zero-friction git worktrees for Open Code. Auto-spawns terminals, syncs files, cleans up on exit. | `TypeScript` ★ 11 | 2026-01-10 |
-| [kasperjunge/agent-resources](https://github.com/kasperjunge/agent-resources) | Install Claude Code skills from Git Hub with one command: uvx add-skill 🚀 Also works for slash commands and subagents 🤙 | `Python` ★ 281 | 2026-01-10 |
+| [kasperjunge/agent-resources](https://github.com/kasperjunge/agent-resources) | Install Claude Code skills from Git Hub with one command: uvx add-skill 🚀 Also works for slash commands and subagents 🤙 | `Python` ★ 282 | 2026-01-11 |
 | [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code | `TypeScript` ★ 1.1k | 2026-01-10 |
 | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) | :zap: Dynamically generated stats for your github readmes | `JavaScript` ★ 77.9k | 2026-01-11 |
-| [image-rs/fdeflate](https://github.com/image-rs/fdeflate) | Fast deflate implementation specialized for PNG image data | `Rust` ★ 28 | 2025-12-28 |
+| [image-rs/fdeflate](https://github.com/image-rs/fdeflate) | Fast deflate implementation specialized for PNG image data | `Rust` ★ 28 | 2026-01-11 |
 | [microsoft/vscode-generator-code](https://github.com/microsoft/vscode-generator-code) | Visual Studio Code extension generator | `JavaScript` ★ 1.5k | 2026-01-11 |
 | [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for Graph QL, REST, Web Sockets, SSE and g RPC. With Cloud, Local and Git storage. | `TypeScript` ★ 37.8k | 2026-01-11 |
 | [e18e/eslint-plugin](https://github.com/e18e/eslint-plugin) | The official e18e ESLint plugin for code modernization and performance best practices | `TypeScript` ★ 87 | 2026-01-05 |
 | [google/dotguides](https://github.com/google/dotguides) | No description provided | `TypeScript` ★ 52 | 2025-12-28 |
 | [chrissimpkins/codeface](https://github.com/chrissimpkins/codeface) | Typefaces for source code beautification | `Python` ★ 6.4k | 2026-01-10 |
-| [ChromeDevTools/awesome-chrome-devtools](https://github.com/ChromeDevTools/awesome-chrome-devtools) | Awesome tooling and resources in the Chrome Dev Tools & Dev Tools Protocol ecosystem | ★ 6.8k | 2026-01-10 |
+| [ChromeDevTools/awesome-chrome-devtools](https://github.com/ChromeDevTools/awesome-chrome-devtools) | Awesome tooling and resources in the Chrome Dev Tools & Dev Tools Protocol ecosystem | ★ 6.8k | 2026-01-11 |
 | [C4illin/ConvertX](https://github.com/C4illin/ConvertX) | 💾 Self-hosted online file converter. Supports 1000+ formats ⚙️ | `TypeScript` ★ 14.3k | 2026-01-11 |
 | [johnlindquist/mdflow](https://github.com/johnlindquist/mdflow) | Multi-backend CLI for executable markdown prompts. Run .md files against Claude, Codex, Gemini, or Copilot. | `TypeScript` ★ 509 | 2026-01-10 |
 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | ✨ The fundamental numerical library for Java Script and Type Script. ✨ | `JavaScript` ★ 5.7k | 2026-01-11 |
@@ -48,14 +48,14 @@
 | [luckgrid/lg-gnosys](https://github.com/luckgrid/lg-gnosys) | A monorepo architecture starter project for building framework agnostic applications with a feature rich development workspaces configuration... | `CSS` ★ 1 | 2025-11-21 |
 | [gmickel/turborepo-shadcn-nextjs](https://github.com/gmickel/turborepo-shadcn-nextjs) | A Turborepo starter template with Next.js, Nextra, Storybook, and a shared pre-configured shadcn/ui package, powered by Bun and Biome | `TypeScript` ★ 90 | 2026-01-09 |
 | [selfhst/icons](https://github.com/selfhst/icons) | Collection of icons and logos maintained by selfh.st | `Go` ★ 682 | 2026-01-10 |
-| [unnoq/orpc](https://github.com/unnoq/orpc) | Typesafe APIs Made Simple 🪄 | `TypeScript` ★ 4.6k | 2026-01-10 |
+| [unnoq/orpc](https://github.com/unnoq/orpc) | Typesafe APIs Made Simple 🪄 | `TypeScript` ★ 4.6k | 2026-01-11 |
 | [PaulJPhilp/effect-env](https://github.com/PaulJPhilp/effect-env) | No description provided | `TypeScript` ★ 39 | 2026-01-03 |
 | [Aetherinox/node-toasted-notifier](https://github.com/Aetherinox/node-toasted-notifier) | A revised fork of node-notifier; Node JS package for pushing notifications to Mac OS, Linux, and Windows. | `JavaScript` ★ 23 | 2026-01-07 |
 | [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) | A rich terminal UI for Git Hub that doesn't break your flow. | `Go` ★ 9.9k | 2026-01-11 |
-| [generalaction/emdash](https://github.com/generalaction/emdash) | Emdash is the Open-Source Agentic Development Environment | `TypeScript` ★ 924 | 2026-01-11 |
+| [generalaction/emdash](https://github.com/generalaction/emdash) | Emdash is the Open-Source Agentic Development Environment | `TypeScript` ★ 926 | 2026-01-11 |
 | [universal-tool-calling-protocol/code-mode](https://github.com/universal-tool-calling-protocol/code-mode) | 🔌 Plug-and-play library to enable agents to call MCP and UTCP tools via code execution. | `Python` ★ 1.3k | 2026-01-10 |
 | [MoonshotAI/kosong](https://github.com/MoonshotAI/kosong) | The LLM abstraction layer for modern AI agent applications. | ★ 498 | 2026-01-09 |
-| [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art, fix bugs (frozen spinner), and ad... | `TypeScript` ★ 806 | 2026-01-10 |
+| [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art, fix bugs (frozen spinner), and ad... | `TypeScript` ★ 808 | 2026-01-11 |
 | [ken-yossy/nvmetool-win](https://github.com/ken-yossy/nvmetool-win) | Communicate with NVMe SSD using Windows' inbox device driver | `C` ★ 104 | 2026-01-09 |
 | [blueraincoatli/ComfyUI-Model-Cleaner](https://github.com/blueraincoatli/ComfyUI-Model-Cleaner) | Try to locate the "orphan models" and clean them | `Python` ★ 3 | 2025-12-18 |
 | [timdeschryver/zod-fixture](https://github.com/timdeschryver/zod-fixture) | Creating fixtures based on zod schemas | `TypeScript` ★ 144 | 2026-01-07 |
@@ -71,7 +71,7 @@
 | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | An open-source AI agent that lives in your terminal. | `TypeScript` ★ 17.2k | 2026-01-11 |
 | [vercel/nft](https://github.com/vercel/nft) | Node.js dependency tracing utility | `JavaScript` ★ 1.6k | 2026-01-10 |
 | [cheeriojs/cheerio](https://github.com/cheeriojs/cheerio) | The fast, flexible, and elegant library for parsing and manipulating HTML and XML. | `TypeScript` ★ 30k | 2026-01-10 |
-| [fregante/browser-extension-template](https://github.com/fregante/browser-extension-template) | 📕 Barebones boilerplate with Parcel 2, options handler and auto-publishing | `JavaScript` ★ 838 | 2026-01-10 |
+| [fregante/browser-extension-template](https://github.com/fregante/browser-extension-template) | 📕 Barebones boilerplate with Parcel 2, options handler and auto-publishing | `JavaScript` ★ 839 | 2026-01-11 |
 | [webextension-toolbox/webextension-toolbox](https://github.com/webextension-toolbox/webextension-toolbox) | Small CLI toolbox for cross-browser Web Extension development | `TypeScript` ★ 781 | 2026-01-06 |
 | [microsoft/vscode-documentdb](https://github.com/microsoft/vscode-documentdb) | Document DB Extension for VS Code | `TypeScript` ★ 20 | 2026-01-09 |
 | [microsoftgraph/microsoft-graph-devx-content](https://github.com/microsoftgraph/microsoft-graph-devx-content) | Content used by the Dev X API to enhance clients and tooling. | `JavaScript` ★ 29 | 2026-01-07 |
@@ -106,16 +106,16 @@
 | [x64dbg/x64dbg](https://github.com/x64dbg/x64dbg) | An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis. | `C++` ★ 47.5k | 2026-01-11 |
 | [extension-js/extension.js](https://github.com/extension-js/extension.js) | 🧩 The cross-browser extension framework | `TypeScript` ★ 4.5k | 2026-01-08 |
 | [context-labs/uwu](https://github.com/context-labs/uwu) | No description provided | `TypeScript` ★ 937 | 2026-01-09 |
-| [xyflow/xyflow](https://github.com/xyflow/xyflow) | React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely cust... | `TypeScript` ★ 34.7k | 2026-01-10 |
+| [xyflow/xyflow](https://github.com/xyflow/xyflow) | React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely cust... | `TypeScript` ★ 34.7k | 2026-01-11 |
 | [megh-bari/pattern-craft](https://github.com/megh-bari/pattern-craft) | Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration. | `TypeScript` ★ 2.8k | 2026-01-10 |
 | [Aider-AI/aider](https://github.com/Aider-AI/aider) | aider is AI pair programming in your terminal | `Python` ★ 39.7k | 2026-01-11 |
-| [haydenbleasel/ultracite](https://github.com/haydenbleasel/ultracite) | A highly opinionated, zero-configuration linter and formatter. | `TypeScript` ★ 2.5k | 2026-01-10 |
+| [haydenbleasel/ultracite](https://github.com/haydenbleasel/ultracite) | A highly opinionated, zero-configuration linter and formatter. | `TypeScript` ★ 2.5k | 2026-01-11 |
 | [coderamp-labs/pad.ws](https://github.com/coderamp-labs/pad.ws) | Whiteboard as an IDE, draw and code in your browser | `TypeScript` ★ 3.7k | 2026-01-10 |
 | [cli/cli](https://github.com/cli/cli) | Git Hub’s official command line tool | `Go` ★ 42k | 2026-01-11 |
 | [Jedward23/Tmux-Orchestrator](https://github.com/Jedward23/Tmux-Orchestrator) | No description provided | `Python` ★ 1.5k | 2026-01-10 |
 | [microsoft/poml](https://github.com/microsoft/poml) | Prompt Orchestration Markup Language | `TypeScript` ★ 4.8k | 2026-01-10 |
 | [wolfdenpublishing/pyccsl](https://github.com/wolfdenpublishing/pyccsl) | Python Claude Code Status Line (Py CCSL, pronounced "pixel") | `Python` ★ 81 | 2025-12-21 |
-| [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) | A simple zero-config tool to make locally trusted development certificates with any names you'd like. | `Go` ★ 57.7k | 2026-01-10 |
+| [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) | A simple zero-config tool to make locally trusted development certificates with any names you'd like. | `Go` ★ 57.7k | 2026-01-11 |
 | [AgentDeskAI/browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp) | Monitor browser logs directly from Cursor and other MCP compatible IDEs. | `JavaScript` ★ 7k | 2026-01-10 |
 | [upstash/context7](https://github.com/upstash/context7) | Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors | `TypeScript` ★ 41.5k | 2026-01-11 |
 | [peterkrueck/Claude-Code-Development-Kit](https://github.com/peterkrueck/Claude-Code-Development-Kit) | Handle context at scale - my custom Claude Code workflow including hooks, mcp and sub agents | `Shell` ★ 1.3k | 2026-01-10 |
@@ -141,16 +141,16 @@
 | [matthewp/robot](https://github.com/matthewp/robot) | 🤖 A functional, immutable Finite State Machine library | `JavaScript` ★ 2.1k | 2026-01-11 |
 | [scaffdog/scaffdog](https://github.com/scaffdog/scaffdog) | :dog: scaffdog is Markdown driven scaffolding tool. | `TypeScript` ★ 758 | 2026-01-05 |
 | [winfunc/opcode](https://github.com/winfunc/opcode) | A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more. | `TypeScript` ★ 19.9k | 2026-01-11 |
-| [DioxusLabs/sdk](https://github.com/DioxusLabs/sdk) | A library to provide abstractions to access common utilities when developing Dioxus applications. | `Rust` ★ 248 | 2026-01-10 |
+| [DioxusLabs/sdk](https://github.com/DioxusLabs/sdk) | A library to provide abstractions to access common utilities when developing Dioxus applications. | `Rust` ★ 249 | 2026-01-11 |
 | [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) | ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs. | `TypeScript` ★ 42.8k | 2026-01-11 |
-| [microsoft/edit](https://github.com/microsoft/edit) | We all edit. | `Rust` ★ 13.3k | 2026-01-10 |
+| [microsoft/edit](https://github.com/microsoft/edit) | We all edit. | `Rust` ★ 13.3k | 2026-01-11 |
 | [amantus-ai/vibetunnel](https://github.com/amantus-ai/vibetunnel) | Turn any browser into your terminal & command your agents on the go. | `TypeScript` ★ 2.9k | 2026-01-10 |
 | [mondora/ddp.js](https://github.com/mondora/ddp.js) | Isomorphic Java Script DDP client | `JavaScript` ★ 211 | 2025-07-16 |
 | [arunoda/meteor-ddp-analyzer](https://github.com/arunoda/meteor-ddp-analyzer) | Simple DDP Proxy which logs DDP messages | `JavaScript` ★ 151 | 2025-06-13 |
 | [antwaremx/meteorman](https://github.com/antwaremx/meteorman) | A DDP client with GUI (The Postman for Meteor) | `Vue` ★ 53 | 2025-08-20 |
 | [Yuyz0112/claude-code-reverse](https://github.com/Yuyz0112/claude-code-reverse) | Reverse Engineering Claude Code with LLM s: A Deep Dive into the Minified 4.6MB cli.mjs | `JavaScript` ★ 1.9k | 2026-01-11 |
 | [ghuntley/claude-code-source-code-deobfuscation](https://github.com/ghuntley/claude-code-source-code-deobfuscation) | This is a cleanroom deobfuscation of the official Claude Code npm package. | `TypeScript` ★ 787 | 2026-01-10 |
-| [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your terminal | `Rust` ★ 55.7k | 2026-01-11 |
+| [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your terminal | `Rust` ★ 55.8k | 2026-01-11 |
 | [voideditor/void](https://github.com/voideditor/void) | No description provided | `TypeScript` ★ 28k | 2026-01-10 |
 | [novuhq/novu](https://github.com/novuhq/novu) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | `TypeScript` ★ 38.4k | 2026-01-11 |
 | [makeplane/plane](https://github.com/makeplane/plane) | 🔥 🔥 🔥 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and cycles the easiest way on the planet. | `TypeScript` ★ 43.2k | 2026-01-11 |
@@ -173,8 +173,8 @@
 | [dorssel/usbipd-win](https://github.com/dorssel/usbipd-win) | Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2. | `C#` ★ 5.3k | 2026-01-10 |
 | [CodeYan01/source-defaults](https://github.com/CodeYan01/source-defaults) | Apply custom source setting defaults on new sources, based on other sources. | `CMake` ★ 16 | 2025-10-19 |
 | [dechamps/FlexASIO](https://github.com/dechamps/FlexASIO) | A flexible universal ASIO driver that uses the Port Audio sound I/O library. Supports WASAPI (shared and exclusive), KS, Direct Sound and MME. | `C++` ★ 1.8k | 2026-01-09 |
-| [nikivdev/flow](https://github.com/nikivdev/flow) | Everything you need to move your project faster | `Rust` ★ 21.2k | 2026-01-10 |
-| [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) | 🎨 A curated list of delightful VS Code packages and resources. | `JavaScript` ★ 28.3k | 2026-01-10 |
+| [nikivdev/flow](https://github.com/nikivdev/flow) | Everything you need to move your project faster | `Rust` ★ 21.2k | 2026-01-11 |
+| [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) | 🎨 A curated list of delightful VS Code packages and resources. | `JavaScript` ★ 28.3k | 2026-01-11 |
 | [tubearchivist/browser-extension](https://github.com/tubearchivist/browser-extension) | Tube Archivist Companion for your Browser | `JavaScript` ★ 230 | 2026-01-06 |
 | [TabbyML/tabby](https://github.com/TabbyML/tabby) | Self-hosted AI coding assistant | `Rust` ★ 32.7k | 2026-01-11 |
 | [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust | `Rust` ★ 14.3k | 2026-01-11 |
@@ -186,10 +186,10 @@
 | [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) | Secure, cross-platform Git credential storage with authentication to Git Hub, Azure Repos, and other popular Git hosting services. | `C#` ★ 8.5k | 2026-01-11 |
 | [pypa/pipx](https://github.com/pypa/pipx) | Install and Run Python Applications in Isolated Environments | `Python` ★ 12.4k | 2026-01-11 |
 | [transloadit/uppy](https://github.com/transloadit/uppy) | The next open source file uploader for web browsers :dog: | `TypeScript` ★ 30.6k | 2026-01-10 |
-| [stitionai/devika](https://github.com/stitionai/devika) | Devika is an Agentic AI Software Engineer that can understand high-level human instructions, break them down into steps, research relevant information, and write code to achieve the given objective... | `Python` ★ 19.5k | 2026-01-10 |
+| [stitionai/devika](https://github.com/stitionai/devika) | Devika is an Agentic AI Software Engineer that can understand high-level human instructions, break them down into steps, research relevant information, and write code to achieve the given objective... | `Python` ★ 19.5k | 2026-01-11 |
 | [Tsukisoft/direct-storage-rs](https://github.com/Tsukisoft/direct-storage-rs) | Rust bindings for Direct Storage | `Rust` ★ 12 | 2025-12-04 |
 | [pyenv/pyenv](https://github.com/pyenv/pyenv) | Simple Python version management | `Roff` ★ 44k | 2026-01-10 |
-| [marius-sucan/AHK-GDIp-Library-Compilation](https://github.com/marius-sucan/AHK-GDIp-Library-Compilation) | Gdip\_All library mega-compilation of user contributions, compatible with AHK v1.1 and AHK v2 | `AutoHotkey` ★ 102 | 2025-12-24 |
+| [marius-sucan/AHK-GDIp-Library-Compilation](https://github.com/marius-sucan/AHK-GDIp-Library-Compilation) | Gdip_All library mega-compilation of user contributions, compatible with AHK v1.1 and AHK v2 | `AutoHotkey` ★ 102 | 2025-12-24 |
 | [Themis-0/unpyc37](https://github.com/Themis-0/unpyc37) | Decompiler for Python 3.7 (forked from https://github.com/figment/unpyc3) | `Python` ★ 4 | 2025-09-11 |
 | [junebug12851/Sims4ScriptingBPProj](https://github.com/junebug12851/Sims4ScriptingBPProj) | Sims 4 Scripting Boilerplate Project | `Python` ★ 57 | 2025-12-30 |
 | [microsoft/VFSForGit](https://github.com/microsoft/VFSForGit) | Virtual File System for Git: Enable Git at Enterprise Scale | `C#` ★ 6.1k | 2026-01-11 |
@@ -203,7 +203,7 @@
 | [unlimitedbacon/stl-thumb](https://github.com/unlimitedbacon/stl-thumb) | Thumbnail generator for STL files | `Rust` ★ 1.4k | 2026-01-10 |
 | [hassio-addons/addon-vscode](https://github.com/hassio-addons/addon-vscode) | Studio Code Server - Home Assistant Community Add-ons | `Dockerfile` ★ 628 | 2026-01-08 |
 | [mikaelbr/node-notifier](https://github.com/mikaelbr/node-notifier) | A Node.js module for sending notifications on native Mac, Windows and Linux (or Growl as fallback) | `JavaScript` ★ 5.8k | 2026-01-08 |
-| [nilportugues/sql-repository](https://github.com/nilportugues/sql-repository) | \[PHP 7\] SQL Repository implementation | `PHP` ★ 36 | 2025-07-28 |
+| [nilportugues/sql-repository](https://github.com/nilportugues/sql-repository) | [PHP 7] SQL Repository implementation | `PHP` ★ 36 | 2025-07-28 |
 | [smrchy/redis-tagging](https://github.com/smrchy/redis-tagging) | A Node JS library based helper to tag (sorted) items with Redis | `TypeScript` ★ 73 | 2025-02-03 |
 | [ovr/phpsa](https://github.com/ovr/phpsa) | Smart/Static Analyzer(sis) for PHP :bowtie::neckbeard: | `PHP` ★ 637 | 2025-08-23 |
 | [sstalle/php7cc](https://github.com/sstalle/php7cc) | PHP 7 Compatibility Checker | `PHP` ★ 1.5k | 2026-01-08 |
@@ -219,7 +219,7 @@
 | [kriswallsmith/assetic](https://github.com/kriswallsmith/assetic) | Asset Management for PHP | `PHP` ★ 3.7k | 2025-12-29 |
 | [allegro/ralph](https://github.com/allegro/ralph) | Ralph is the CMDB / Asset Management system for data center and back office hardware. | `Python` ★ 2.4k | 2026-01-10 |
 | [suidroot/sublime-vyatta-syntax](https://github.com/suidroot/sublime-vyatta-syntax) | Sublime Text 2 Syntax for Vyatta | ★ 1 | 2024-06-15 |
-| [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) | Loads environment variables from \`.env\` to \`getenv()\`, \`$\_ENV\` and \`$\_SERVER\` automagically. | `PHP` ★ 13.5k | 2026-01-10 |
+| [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) | Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically. | `PHP` ★ 13.5k | 2026-01-10 |
 | [phanan/htaccess](https://github.com/phanan/htaccess) | ✂A collection of useful .htaccess snippets. | ★ 13.3k | 2026-01-10 |
 | [guiguiboy/PHP-CLI-Progress-Bar](https://github.com/guiguiboy/PHP-CLI-Progress-Bar) | A PHP5 CLI Progress bar | `PHP` ★ 158 | 2023-11-23 |
 | [google/web-starter-kit](https://github.com/google/web-starter-kit) | Web Starter Kit - a workflow for multi-device websites | `HTML` ★ 18.4k | 2026-01-11 |

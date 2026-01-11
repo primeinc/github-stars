@@ -9,9 +9,9 @@
 | [m1k1o/neko](https://github.com/m1k1o/neko) | A self hosted virtual browser that runs in docker and uses Web RTC. | `Go` ★ 16.7k | 2026-01-11 |
 | [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | `Go` ★ 49k | 2026-01-11 |
 | [plexinc/pms-docker](https://github.com/plexinc/pms-docker) | Plex Media Server Docker repo, for all your PMS docker needs. | `Smarty` ★ 3.8k | 2026-01-10 |
-| [devcontainers/cli](https://github.com/devcontainers/cli) | A reference implementation for the specification that can create and configure a dev container from a devcontainer.json. | `TypeScript` ★ 2.3k | 2026-01-10 |
+| [devcontainers/cli](https://github.com/devcontainers/cli) | A reference implementation for the specification that can create and configure a dev container from a devcontainer.json. | `TypeScript` ★ 2.3k | 2026-01-11 |
 | [Dokploy/dokploy](https://github.com/Dokploy/dokploy) | Open Source Alternative to Vercel, Netlify and Heroku. | `TypeScript` ★ 28.9k | 2026-01-11 |
-| [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | Docker container for managing Nginx proxy hosts with a simple, powerful interface | `TypeScript` ★ 30.9k | 2026-01-10 |
+| [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | Docker container for managing Nginx proxy hosts with a simple, powerful interface | `TypeScript` ★ 30.9k | 2026-01-11 |
 | [Azure-Samples/aks-platform-engineering](https://github.com/Azure-Samples/aks-platform-engineering) | Opinionated AKS + OSS stack with Argo CD, CAPZ/ASO or Crossplane, Terraform, Backstage | `TypeScript` ★ 146 | 2025-12-24 |
 | [coollabsio/coolify](https://github.com/coollabsio/coolify) | An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv... | `PHP` ★ 49.4k | 2026-01-11 |
 | [dockur/windows](https://github.com/dockur/windows) | Windows inside a Docker container. | `Shell` ★ 49.4k | 2026-01-11 |

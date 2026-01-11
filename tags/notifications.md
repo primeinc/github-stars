@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) | Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monito... | `Python` ★ 29.8k | 2026-01-10 |
+| [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) | Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monito... | `Python` ★ 29.8k | 2026-01-11 |
 | [Aetherinox/node-toasted-notifier](https://github.com/Aetherinox/node-toasted-notifier) | A revised fork of node-notifier; Node JS package for pushing notifications to Mac OS, Linux, and Windows. | `JavaScript` ★ 23 | 2026-01-07 |
 | [huginn/huginn](https://github.com/huginn/huginn) | Create agents that monitor and act on your behalf. Your agents are standing by! | `Ruby` ★ 48.5k | 2026-01-11 |
 | [novuhq/novu](https://github.com/novuhq/novu) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | `TypeScript` ★ 38.4k | 2026-01-11 |

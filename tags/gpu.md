@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) | Flash Infer: Kernel Library for LLM Serving | `Python` ★ 4.6k | 2026-01-10 |
+| [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) | Flash Infer: Kernel Library for LLM Serving | `Python` ★ 4.6k | 2026-01-11 |
 | [tile-ai/tilelang](https://github.com/tile-ai/tilelang) | Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels | `Python` ★ 4.6k | 2026-01-11 |
 | [NVIDIA/nvImageCodec](https://github.com/NVIDIA/nvImageCodec) | A nv Image Codec library of GPU- and CPU- accelerated codecs featuring a unified interface | `Jupyter Notebook` ★ 135 | 2026-01-10 |
 | [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) | A cross-platform, safe, pure-Rust graphics API. | `Rust` ★ 16.1k | 2026-01-11 |

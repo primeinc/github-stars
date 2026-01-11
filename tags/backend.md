@@ -10,4 +10,4 @@
 | [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | Distributed server for social and realtime games and apps. | `Go` ★ 12.1k | 2026-01-10 |
 | [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | The Free Software Media System - Server Backend & API | `C#` ★ 47.5k | 2026-01-11 |
 | [MotiaDev/motia](https://github.com/MotiaDev/motia) | Multi-Language Backend Framework that unifies APIs, background jobs, queues, workflows, streams, and AI agents with a single core primitive with built-in observability and state management. | `TypeScript` ★ 14.1k | 2026-01-11 |
-| [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | Open Source realtime backend in 1 file | `Go` ★ 55.1k | 2026-01-10 |
+| [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | Open Source realtime backend in 1 file | `Go` ★ 55.1k | 2026-01-11 |

@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [openstates/openstates-scrapers](https://github.com/openstates/openstates-scrapers) | source for Open States scrapers | `Python` ★ 883 | 2026-01-09 |
-| [scrapy/scrapy](https://github.com/scrapy/scrapy) | Scrapy, a fast high-level web crawling & scraping framework for Python. | `Python` ★ 59.4k | 2026-01-10 |
+| [scrapy/scrapy](https://github.com/scrapy/scrapy) | Scrapy, a fast high-level web crawling & scraping framework for Python. | `Python` ★ 59.4k | 2026-01-11 |
 | [itchannel/fordpass-ha](https://github.com/itchannel/fordpass-ha) | Fordpass integration for Home Assistant | `Python` ★ 384 | 2026-01-05 |
 | [team-telnyx/demo-python-telnyx](https://github.com/team-telnyx/demo-python-telnyx) | Samples & Examples with Telnyx-Python | `Python` ★ 25 | 2025-12-17 |
 | [vgrem/office365-rest-python-client](https://github.com/vgrem/office365-rest-python-client) | Microsoft 365 & Microsoft Graph Library for Python | `Python` ★ 1.6k | 2026-01-09 |

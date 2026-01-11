@@ -9,9 +9,9 @@
 | [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `JavaScript` ★ 9.6k | 2026-01-11 |
 | [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.1k | 2026-01-10 |
 | [rcourtman/Pulse](https://github.com/rcourtman/Pulse) | Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unified dashboard | `Go` ★ 3.8k | 2026-01-11 |
-| [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) | Flash Infer: Kernel Library for LLM Serving | `Python` ★ 4.6k | 2026-01-10 |
+| [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) | Flash Infer: Kernel Library for LLM Serving | `Python` ★ 4.6k | 2026-01-11 |
 | [coredns/coredns](https://github.com/coredns/coredns) | Core DNS is a DNS server that chains plugins | `Go` ★ 13.7k | 2026-01-10 |
-| [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 33.8k | 2026-01-10 |
+| [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 33.8k | 2026-01-11 |
 | [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 37.8k | 2026-01-11 |
 | [google/flatbuffers](https://github.com/google/flatbuffers) | Flat Buffers: Memory Efficient Serialization Library | `C++` ★ 25.4k | 2026-01-10 |
 | [ishandutta2007/open-hr](https://github.com/ishandutta2007/open-hr) | 📖opensource equivalent of Deel payroll and HR solutions | ★ 1 | 2026-01-10 |
@@ -22,8 +22,8 @@
 | [Azure/apim-landing-zone-accelerator](https://github.com/Azure/apim-landing-zone-accelerator) | The Azure API Management landing zone accelerator provides an architectural approach and reference implementation to prepare landing zone subscriptions for a secure API Management infrastructure. | `HCL` ★ 196 | 2026-01-09 |
 | [microsoft/CosmosDB_Multi-Tenant](https://github.com/microsoft/CosmosDB_Multi-Tenant) | Cosmos DB for Multi-Tenant Applications | ★ 22 | 2025-11-25 |
 | [stan-smith/FossFLOW](https://github.com/stan-smith/FossFLOW) | Make beautiful isometric infrastructure diagrams | `TypeScript` ★ 16k | 2026-01-11 |
-| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 1.6k | 2026-01-10 |
-| [supabase/etl](https://github.com/supabase/etl) | Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines. | `Rust` ★ 2.2k | 2026-01-10 |
+| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 1.6k | 2026-01-11 |
+| [supabase/etl](https://github.com/supabase/etl) | Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines. | `Rust` ★ 2.2k | 2026-01-11 |
 | [Azure/Enterprise-Scale](https://github.com/Azure/Enterprise-Scale) | The Azure Landing Zones (Enterprise-Scale) architecture provides prescriptive guidance coupled with Azure best practices, and it follows design principles across the critical design areas for organ... | `PowerShell` ★ 1.9k | 2026-01-10 |
 | [CompositionalIT/farmer](https://github.com/CompositionalIT/farmer) | Repeatable Azure deployments with ARM templates - made easy! | `F#` ★ 546 | 2026-01-06 |
 | [daveRendon/azinsider](https://github.com/daveRendon/azinsider) | 🚀 The Az Insider Repo offers code samples to help you deploy various workloads in your Azure environment using Bicep language. It simplifies the deployment process and makes it easy to get your ap... | `Bicep` ★ 40 | 2025-11-22 |
@@ -48,8 +48,8 @@
 | [bluewave-labs/Checkmate](https://github.com/bluewave-labs/Checkmate) | Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join her... | `JavaScript` ★ 8.9k | 2026-01-11 |
 | [qbcore-framework/qb-housing](https://github.com/qbcore-framework/qb-housing) | The next iteration of QBC ore’s housing system | ★ 35 | 2025-12-19 |
 | [rustfs/rustfs](https://github.com/rustfs/rustfs) | 🚀 High-performance distributed object storage for Min IO alternative. | `Rust` ★ 19.5k | 2026-01-11 |
-| [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | Open Source realtime backend in 1 file | `Go` ★ 55.1k | 2026-01-10 |
-| [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | Explain complex systems using visuals and simple terms. Help you prepare for system design interviews. | ★ 78.8k | 2026-01-11 |
+| [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | Open Source realtime backend in 1 file | `Go` ★ 55.1k | 2026-01-11 |
+| [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | Explain complex systems using visuals and simple terms. Help you prepare for system design interviews. | ★ 78.9k | 2026-01-11 |
 | [radius-project/radius](https://github.com/radius-project/radius) | Radius is a cloud-native, portable application platform that makes app development easier for teams building cloud-native apps. | `Go` ★ 1.6k | 2026-01-10 |
 | [maartenvandiemen/AZD-AppConfiguration](https://github.com/maartenvandiemen/AZD-AppConfiguration) | No description provided | `Bicep` ★ 1 | 2025-10-17 |
 | [microsoftgraph/msgraph-bicep-types](https://github.com/microsoftgraph/msgraph-bicep-types) | Repo contains Microsoft Graph resource types to integrate with bicep templates. | `TypeScript` ★ 75 | 2026-01-09 |

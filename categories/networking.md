@@ -6,19 +6,19 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | Community managed domain list. Generate geosite.dat for V2Ray. | `Go` ★ 7.2k | 2026-01-10 |
+| [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | Community managed domain list. Generate geosite.dat for V2Ray. | `Go` ★ 7.2k | 2026-01-11 |
 | [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another :crocodile: :package: | `Go` ★ 33.8k | 2026-01-10 |
 | [m1k1o/neko](https://github.com/m1k1o/neko) | A self hosted virtual browser that runs in docker and uses Web RTC. | `Go` ★ 16.7k | 2026-01-11 |
 | [chaitin/SafeLine](https://github.com/chaitin/SafeLine) | Safe Line is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits. | `Go` ★ 20k | 2026-01-11 |
-| [dadlerj/tin](https://github.com/dadlerj/tin) | No description provided | `Go` ★ 59 | 2026-01-10 |
+| [dadlerj/tin](https://github.com/dadlerj/tin) | No description provided | `Go` ★ 60 | 2026-01-11 |
 | [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | Complete Open Source and Modular solution for MMO | `C++` ★ 7.9k | 2026-01-11 |
-| [epi052/feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | `Rust` ★ 7.4k | 2026-01-10 |
+| [epi052/feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | `Rust` ★ 7.4k | 2026-01-11 |
 | [coredns/coredns](https://github.com/coredns/coredns) | Core DNS is a DNS server that chains plugins | `Go` ★ 13.7k | 2026-01-10 |
 | [publicsuffix/list](https://github.com/publicsuffix/list) | The Public Suffix List | `Go` ★ 2.7k | 2026-01-10 |
 | [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 37.8k | 2026-01-11 |
 | [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | Wrap Gemini CLI, Antigravity, Chat GPT Codex, Claude Code, Qwen Code, i Flow as an Open AI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, ... | `Go` ★ 6.2k | 2026-01-11 |
 | [stan-smith/SlingShot](https://github.com/stan-smith/SlingShot) | Dead simple ultra-low bandwidth video over QUIC, written in Rust, dead simple to use, free forever, designed for use in any and all conditions | `Rust` ★ 1 | 2026-01-09 |
-| [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 758 | 2026-01-11 |
+| [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 780 | 2026-01-11 |
 | [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) | A platform for building proxies to bypass network restrictions. | `Go` ★ 46.8k | 2026-01-11 |
 | [grpc/grpc](https://github.com/grpc/grpc) | C++ based g RPC (C++, Python, Ruby, Objective-C, PHP, C#) | `C++` ★ 44.2k | 2026-01-11 |
 | [AlexandreRouma/SDRPlusPlus](https://github.com/AlexandreRouma/SDRPlusPlus) | Cross-Platform SDR Software | `C++` ★ 5.5k | 2026-01-11 |
@@ -26,7 +26,7 @@
 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫 | `Python` ★ 41.8k | 2026-01-11 |
 | [xxh/xxh](https://github.com/xxh/xxh) | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | `Python` ★ 5.9k | 2026-01-10 |
 | [grpc-ecosystem/awesome-grpc](https://github.com/grpc-ecosystem/awesome-grpc) | A curated list of useful resources for g RPC | ★ 8.2k | 2026-01-10 |
-| [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 7.6k | 2026-01-10 |
+| [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 7.6k | 2026-01-11 |
 | [Project-OSRM/osrm-backend](https://github.com/Project-OSRM/osrm-backend) | Open Source Routing Machine - C++ backend | `C++` ★ 7.4k | 2026-01-10 |
 | [BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager) | A powerful tool for managing networks and troubleshoot network problems! | `C#` ★ 8k | 2026-01-11 |
 | [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels | `Python` ★ 9.2k | 2026-01-11 |
@@ -37,10 +37,10 @@
 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels from all over the world | `TypeScript` ★ 109k | 2026-01-11 |
 | [fonoster/routr](https://github.com/fonoster/routr) | ⚡ The future of programmable SIP servers. | `TypeScript` ★ 1.6k | 2026-01-07 |
 | [serverless-dns/serverless-dns](https://github.com/serverless-dns/serverless-dns) | The Rethink DNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io | `JavaScript` ★ 3.3k | 2026-01-11 |
-| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 33.4k | 2026-01-10 |
+| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 33.4k | 2026-01-11 |
 | [p0dalirius/ShareHound](https://github.com/p0dalirius/ShareHound) | A python tool to map the access rights of network shares into a Blood Hound Open Graphs easily | `Python` ★ 249 | 2026-01-09 |
 | [eclipse-iceoryx/iceoryx2](https://github.com/eclipse-iceoryx/iceoryx2) | Eclipse iceoryx2™ - true zero-copy inter-process-communication with a Rust core | `Rust` ★ 2k | 2026-01-11 |
-| [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile) | `C++` ★ 9.5k | 2026-01-10 |
+| [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile) | `C++` ★ 9.5k | 2026-01-11 |
 | [JustAnotherArchivist/snscrape](https://github.com/JustAnotherArchivist/snscrape) | A social networking service scraper in Python | `Python` ★ 5.2k | 2026-01-10 |
 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | Cloud-native high-performance edge/middle/service proxy | `C++` ★ 27.3k | 2026-01-11 |
 | [bibigon812/xl710-unlocker](https://github.com/bibigon812/xl710-unlocker) | Unlock Intel XL710 / X710 cards for use with any SFP+ | `C` ★ 194 | 2026-01-05 |
@@ -50,7 +50,7 @@
 | [supabase/realtime](https://github.com/supabase/realtime) | Broadcast, Presence, and Postgres Changes via Web Sockets | `Elixir` ★ 7.5k | 2026-01-10 |
 | [SpecterOps/BloodHound](https://github.com/SpecterOps/BloodHound) | Six Degrees of Domain Admin | `Go` ★ 2.7k | 2026-01-11 |
 | [deskflow/deskflow](https://github.com/deskflow/deskflow) | Share a single keyboard and mouse between multiple computers. | `C++` ★ 23k | 2026-01-11 |
-| [Prowlarr/Prowlarr](https://github.com/Prowlarr/Prowlarr) | Prowlarr is an indexer manager/proxy built on the popular \*arr .net/reactjs base stack to integrate with your various PVR apps, supporting management of both Torrent Trackers and Usenet Indexers. | `C#` ★ 5.8k | 2026-01-10 |
+| [Prowlarr/Prowlarr](https://github.com/Prowlarr/Prowlarr) | Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps, supporting management of both Torrent Trackers and Usenet Indexers. | `C#` ★ 5.8k | 2026-01-10 |
 | [XTXMarkets/ternfs](https://github.com/XTXMarkets/ternfs) | An exabyte-scale, multi-region distributed file system | `C++` ★ 1.3k | 2026-01-09 |
 | [Gregivy/simpleddp](https://github.com/Gregivy/simpleddp) | An easy to use DDP client library | `JavaScript` ★ 167 | 2025-09-21 |
 | [mikecutalo/unifi-mcp-server](https://github.com/mikecutalo/unifi-mcp-server) | An MCP Server for interacting with Unifi networks. | `Python` ★ 3 | 2025-09-09 |
@@ -122,7 +122,7 @@
 | [mtorials/dial-phone](https://github.com/mtorials/dial-phone) | Matrix client-server SDK written in Kotlin. | `Kotlin` ★ 9 | 2025-08-23 |
 | [zeek/zeek](https://github.com/zeek/zeek) | Zeek is a powerful network analysis framework that is much different from the typical IDS you may know. | `C++` ★ 7.4k | 2026-01-10 |
 | [bsharper/atv-desktop-remote](https://github.com/bsharper/atv-desktop-remote) | A simple app to allow you to control an Apple TV from your desktop | `JavaScript` ★ 490 | 2026-01-07 |
-| [instaloader/instaloader](https://github.com/instaloader/instaloader) | Download pictures (or videos) along with their captions and other metadata from Instagram. | `Python` ★ 11.4k | 2026-01-10 |
+| [instaloader/instaloader](https://github.com/instaloader/instaloader) | Download pictures (or videos) along with their captions and other metadata from Instagram. | `Python` ★ 11.4k | 2026-01-11 |
 | [shellinabox/shellinabox](https://github.com/shellinabox/shellinabox) | Official-ish Fork of Shell In A Box | `C` ★ 3k | 2026-01-05 |
 | [rabchev/web-terminal](https://github.com/rabchev/web-terminal) | Web-Terminal is a terminal server that provides remote CLI via standard web browser and HTTP protocol. | `JavaScript` ★ 474 | 2025-12-26 |
 | [butlerx/wetty](https://github.com/butlerx/wetty) | Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better) | `TypeScript` ★ 5.1k | 2026-01-10 |
@@ -139,7 +139,7 @@
 | [liftoff/GateOne](https://github.com/liftoff/GateOne) | Gate One is an HTML5-powered terminal emulator and SSH client | `JavaScript` ★ 6.3k | 2026-01-07 |
 | [glyptodon/guacamole-server](https://github.com/glyptodon/guacamole-server) | The Guacamole project is now Apache Guacamole (http://guacamole.apache.org/). This repository has been repurposed as the base for the Apache Guacamole packages built for Glyptodon Enterprise. | `C` ★ 1k | 2025-12-27 |
 | [eschultze/URLextractor](https://github.com/eschultze/URLextractor) | Information gathering & website reconnaissance | https://phishstats.info/ | `Shell` ★ 455 | 2025-12-09 |
-| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 55.2k | 2026-01-10 |
+| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 55.2k | 2026-01-11 |
 | [chall32/WinCDP](https://github.com/chall32/WinCDP) | Cisco Discovery for Windows | ★ 62 | 2026-01-08 |
 | [matbeedotcom/chromecast-audio-stream](https://github.com/matbeedotcom/chromecast-audio-stream) | Stream your Windows PC's audio to the Chromecast | `JavaScript` ★ 968 | 2026-01-08 |
 | [AmirAzodi/cloudflare_ddns](https://github.com/AmirAzodi/cloudflare_ddns) | Python-based Dynamic DNS client for Cloud Flare. | `Python` ★ 59 | 2025-11-01 |

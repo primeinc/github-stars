@@ -19,5 +19,5 @@
 | [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more | `CSS` ★ 61.2k | 2026-01-11 |
 | [dtcooper/raspotify](https://github.com/dtcooper/raspotify) | A Spotify Connect client that mostly Just Works™ | `Shell` ★ 5.1k | 2026-01-10 |
 | [eschultze/URLextractor](https://github.com/eschultze/URLextractor) | Information gathering & website reconnaissance | https://phishstats.info/ | `Shell` ★ 455 | 2025-12-09 |
-| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 55.2k | 2026-01-10 |
+| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 55.2k | 2026-01-11 |
 | [babun/babun](https://github.com/babun/babun) | Babun - a Windows shell you will love! | `Shell` ★ 8.6k | 2025-12-18 |

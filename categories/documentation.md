@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) | OSINT Framework | `JavaScript` ★ 10.5k | 2026-01-11 |
-| [openprose/prose](https://github.com/openprose/prose) | No description provided | ★ 514 | 2026-01-11 |
+| [openprose/prose](https://github.com/openprose/prose) | No description provided | ★ 513 | 2026-01-11 |
 | [publicsuffix/list](https://github.com/publicsuffix/list) | The Public Suffix List | `Go` ★ 2.7k | 2026-01-10 |
 | [freelawproject/courtlistener](https://github.com/freelawproject/courtlistener) | A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial financial records, and federal filings. | `Python` ★ 813 | 2026-01-10 |
 | [frostybee/starlight-tags](https://github.com/frostybee/starlight-tags) | A plugin to add tags to your Starlight docs for content organization and discovery. | `Astro` ★ 7 | 2026-01-09 |
@@ -25,7 +25,7 @@
 | [awesome-jellyfin/awesome-jellyfin](https://github.com/awesome-jellyfin/awesome-jellyfin) | A Collection of Awesome Jellyfin Plugins, Themes, Guides and More! | `Shell` ★ 5.9k | 2026-01-10 |
 | [korfuri/awesome-monorepo](https://github.com/korfuri/awesome-monorepo) | A curated list of awesome Monorepo tools, software and architectures. | ★ 5.7k | 2026-01-10 |
 | [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | 🖥 📊 🕹 🛠 A curated list of command line apps | `Shell` ★ 18.4k | 2026-01-11 |
-| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) | A curated list of awesome things related to shadcn/ui. | `TypeScript` ★ 18.5k | 2026-01-10 |
+| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) | A curated list of awesome things related to shadcn/ui. | `TypeScript` ★ 18.5k | 2026-01-11 |
 | [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) | The best design tools and plugins for everything 👉 | `JavaScript` ★ 38.8k | 2026-01-11 |
 | [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) | A curated list of software and architecture related design patterns. | ★ 45.6k | 2026-01-11 |
 | [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material) | Documentation that simply works | `Python` ★ 25.7k | 2026-01-11 |
@@ -47,10 +47,10 @@
 | [RentCast/api-resources](https://github.com/RentCast/api-resources) | Resources to help you start working with the Rent Cast property data API. | ★ 2 | 2025-09-22 |
 | [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) | 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2024 | `TypeScript` ★ 20.5k | 2026-01-11 |
 | [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | A curated list of awesome READMEs | ★ 20.3k | 2026-01-11 |
-| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page\_facing\_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 26k | 2026-01-10 |
-| [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | 😎 A curated list of awesome Git Hub Profile which updates in real time | ★ 28.9k | 2026-01-10 |
+| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page_facing_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 26k | 2026-01-11 |
+| [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | 😎 A curated list of awesome Git Hub Profile which updates in real time | ★ 28.9k | 2026-01-11 |
 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | `Python` ★ 390.5k | 2026-01-11 |
-| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | Bring projects, wikis, and teams together with AI. App Flowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative. | `Dart` ★ 67.4k | 2026-01-10 |
+| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | Bring projects, wikis, and teams together with AI. App Flowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative. | `Dart` ★ 67.4k | 2026-01-11 |
 | [ratacat/slurp-ai](https://github.com/ratacat/slurp-ai) | Tool for scraping and consolidating documentation websites into a single MD file. | `JavaScript` ★ 244 | 2026-01-09 |
 | [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | Curated list of project-based tutorials | ★ 255.3k | 2026-01-11 |
 | [stax76/awesome-mpv](https://github.com/stax76/awesome-mpv) | A curated list of awesome mpv resources. | ★ 1.9k | 2026-01-11 |
@@ -72,14 +72,14 @@
 | [tauri-apps/awesome-tauri](https://github.com/tauri-apps/awesome-tauri) | 🚀 Awesome Tauri Apps, Plugins and Resources | ★ 6.9k | 2026-01-11 |
 | [JonasKruckenberg/tauri-docs-wip](https://github.com/JonasKruckenberg/tauri-docs-wip) | No description provided | `JavaScript` ★ 20 | 2025-11-26 |
 | [jaywcjlove/awesome-uikit](https://github.com/jaywcjlove/awesome-uikit) | Collect JS Frameworks, Web components library and Admin Template. | `Dockerfile` ★ 1.6k | 2026-01-10 |
-| [florisporro/awesome-ndi](https://github.com/florisporro/awesome-ndi) | A curated list of awesome tools related to NDI | ★ 281 | 2026-01-01 |
+| [florisporro/awesome-ndi](https://github.com/florisporro/awesome-ndi) | A curated list of awesome tools related to NDI | ★ 282 | 2026-01-11 |
 | [race2infinity/The-Documentation-Compendium](https://github.com/race2infinity/The-Documentation-Compendium) | 📢 Various README templates & tips on writing high-quality documentation that people want to read. | ★ 5.9k | 2026-01-09 |
 | [rShetty/awesome-podcasts](https://github.com/rShetty/awesome-podcasts) | Collection of awesome podcasts | ★ 12.8k | 2026-01-08 |
 | [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) | Useful resources for creating apps with Electron | ★ 26.9k | 2026-01-10 |
-| [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) | A curated list of free courses with certifications. Also available at https://free-certifications.com/ | ★ 49.3k | 2026-01-11 |
+| [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) | A curated list of free courses with certifications. Also available at https://free-certifications.com/ | ★ 49.4k | 2026-01-11 |
 | [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) | Use your mac OS terminal shell to do awesome things. | ★ 30.1k | 2026-01-10 |
 | [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) | A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php. | ★ 36.3k | 2026-01-11 |
-| [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | 🚀 Awesome list of open source applications for mac OS. https://t.me/s/opensourcemacosapps | ★ 46.9k | 2026-01-10 |
+| [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | 🚀 Awesome list of open source applications for mac OS. https://t.me/s/opensourcemacosapps | ★ 46.9k | 2026-01-11 |
 | [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) | A list of cool features of Git and Git Hub. | ★ 54.5k | 2026-01-11 |
 | [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) | :books: List of awesome university courses for learning Computer Science! | ★ 65.7k | 2026-01-11 |
 | [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. | ★ 201.8k | 2026-01-11 |
@@ -96,7 +96,7 @@
 | [coffeerhyder/YouTube-alternative-Clients-and-Frontends-overview](https://github.com/coffeerhyder/YouTube-alternative-Clients-and-Frontends-overview) | Overview of alternative You Tube Clients and Frontends | ★ 158 | 2026-01-03 |
 | [PoshCode/PowerShellPracticeAndStyle](https://github.com/PoshCode/PowerShellPracticeAndStyle) | The Unofficial Power Shell Best Practices and Style Guide | ★ 2.4k | 2026-01-09 |
 | [Maks-s/sd-akashic](https://github.com/Maks-s/sd-akashic) | A compendium of informations regarding Stable Diffusion (SD) | ★ 1.6k | 2026-01-02 |
-| [Servarr/Wiki](https://github.com/Servarr/Wiki) | No description provided | `Python` ★ 564 | 2026-01-11 |
+| [Servarr/Wiki](https://github.com/Servarr/Wiki) | No description provided | `Python` ★ 565 | 2026-01-11 |
 | [WADComs/WADComs.github.io](https://github.com/WADComs/WADComs.github.io) | WADC oms is an interactive cheat sheet, containing a curated list of offensive security tools and their respective commands, to be used against Windows/AD environments. | `HTML` ★ 1.6k | 2026-01-10 |
 | [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) | A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem | ★ 13k | 2026-01-10 |
 | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 428.6k | 2026-01-11 |

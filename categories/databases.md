@@ -8,15 +8,15 @@
 |---|---|---|---|
 | [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.1k | 2026-01-10 |
 | [typesense/typesense](https://github.com/typesense/typesense) | Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to Elastic Search ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences | `C++` ★ 25k | 2026-01-10 |
-| [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.4k | 2026-01-10 |
+| [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.4k | 2026-01-11 |
 | [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c... | `TypeScript` ★ 8.4k | 2026-01-11 |
 | [microsoft/vscode-cosmosdb](https://github.com/microsoft/vscode-cosmosdb) | Azure Cosmos DB extension for VS Code | `TypeScript` ★ 190 | 2026-01-05 |
 | [Azure-Samples/dab-swa-wonders](https://github.com/Azure-Samples/dab-swa-wonders) | Boost your developer productivity by creating end-to-end apps quickly! Using Azure Data API Builder for Cosmos DB, this app shows how to build JAMstack apps fast with Cosmos DB as your backend. | `TypeScript` ★ 10 | 2025-11-25 |
 | [microsoft/CosmosDB_Multi-Tenant](https://github.com/microsoft/CosmosDB_Multi-Tenant) | Cosmos DB for Multi-Tenant Applications | ★ 22 | 2025-11-25 |
-| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 1.6k | 2026-01-10 |
+| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 1.6k | 2026-01-11 |
 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | Memory for AI Agents in 6 lines of code | `Python` ★ 10.8k | 2026-01-11 |
-| [supabase/etl](https://github.com/supabase/etl) | Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines. | `Rust` ★ 2.2k | 2026-01-10 |
-| [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) | Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc. | `TypeScript` ★ 2.9k | 2026-01-10 |
+| [supabase/etl](https://github.com/supabase/etl) | Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines. | `Rust` ★ 2.2k | 2026-01-11 |
+| [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) | Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc. | `TypeScript` ★ 2.9k | 2026-01-11 |
 | [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | Free, simple, and intuitive online database diagram editor and SQL generator. | `JavaScript` ★ 35.4k | 2026-01-11 |
 | [duckdb/duckdb](https://github.com/duckdb/duckdb) | Duck DB is an analytical in-process SQL database management system | `C++` ★ 35.3k | 2026-01-11 |
 | [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) | Multiplayer at the speed of light | `Rust` ★ 18.8k | 2026-01-10 |
@@ -33,7 +33,7 @@
 | [geldata/gel](https://github.com/geldata/gel) | Gel supercharges Postgres with a modern data model, graph queries, Auth & AI solutions, and much more. | `Python` ★ 14k | 2026-01-10 |
 | [qualialabs/mapped-collection](https://github.com/qualialabs/mapped-collection) | Memory-mapped Mongo collections in Meteor | `JavaScript` ★ 12 | 2025-07-12 |
 | [rustfs/rustfs](https://github.com/rustfs/rustfs) | 🚀 High-performance distributed object storage for Min IO alternative. | `Rust` ★ 19.5k | 2026-01-11 |
-| [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | Open Source realtime backend in 1 file | `Go` ★ 55.1k | 2026-01-10 |
+| [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | Open Source realtime backend in 1 file | `Go` ★ 55.1k | 2026-01-11 |
 | [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) | MCP Toolbox for Databases is an open source MCP server for databases. | `Go` ★ 12.4k | 2026-01-11 |
 | [andrei-markeev/mongodb-livedata-server](https://github.com/andrei-markeev/mongodb-livedata-server) | Standalone live data server implementation extracted from Meteor, Fibers removed and converted to Type Script. | `TypeScript` ★ 4 | 2025-12-25 |
 | [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) | AI's query engine - Platform for building AI that can answer questions over large scale federated data. - The only MCP Server you'll ever need | `Python` ★ 38.2k | 2026-01-11 |
@@ -41,7 +41,7 @@
 | [chartdb/chartdb](https://github.com/chartdb/chartdb) | Database diagrams editor that allows you to visualize and design your DB with a single query. | `TypeScript` ★ 20.8k | 2026-01-11 |
 | [milvus-io/milvus](https://github.com/milvus-io/milvus) | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search | `Go` ★ 42.2k | 2026-01-11 |
 | [takoyaro/db-storage1111](https://github.com/takoyaro/db-storage1111) | automatic1111's stable-diffusion-webui extension for storing images to a database | `Python` ★ 49 | 2025-11-19 |
-| [nilportugues/sql-repository](https://github.com/nilportugues/sql-repository) | \[PHP 7\] SQL Repository implementation | `PHP` ★ 36 | 2025-07-28 |
+| [nilportugues/sql-repository](https://github.com/nilportugues/sql-repository) | [PHP 7] SQL Repository implementation | `PHP` ★ 36 | 2025-07-28 |
 | [smrchy/redis-tagging](https://github.com/smrchy/redis-tagging) | A Node JS library based helper to tag (sorted) items with Redis | `TypeScript` ★ 73 | 2025-02-03 |
 | [jdorn/sql-formatter](https://github.com/jdorn/sql-formatter) | A lightweight php class for formatting sql statements. Handles automatic indentation and syntax highlighting. | `HTML` ★ 3.9k | 2025-12-29 |
 | [dbcli/mycli](https://github.com/dbcli/mycli) | A Terminal Client for My SQL with Auto Completion and Syntax Highlighting. | `Python` ★ 11.9k | 2026-01-10 |

@@ -10,4 +10,4 @@
 | [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) | Desktop App for downloading Videos and Audios from hundreds of sites | `JavaScript` ★ 7.2k | 2026-01-11 |
 | [Tyrrrz/YoutubeDownloader](https://github.com/Tyrrrz/YoutubeDownloader) | Downloads videos and playlists from You Tube | `C#` ★ 13.9k | 2026-01-10 |
 | [download-directory/download-directory.github.io](https://github.com/download-directory/download-directory.github.io) | Web App: Download just a sub directory from a Git Hub repo. | `TypeScript` ★ 1.6k | 2026-01-10 |
-| [instaloader/instaloader](https://github.com/instaloader/instaloader) | Download pictures (or videos) along with their captions and other metadata from Instagram. | `Python` ★ 11.4k | 2026-01-10 |
+| [instaloader/instaloader](https://github.com/instaloader/instaloader) | Download pictures (or videos) along with their captions and other metadata from Instagram. | `Python` ★ 11.4k | 2026-01-11 |

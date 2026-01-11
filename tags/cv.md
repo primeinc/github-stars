@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 238 | 2026-01-07 |
-| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page\_facing\_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 26k | 2026-01-10 |
+| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page_facing_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 26k | 2026-01-11 |

@@ -6,29 +6,29 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | Play Station 4 emulator for Windows, Linux and mac OS written in C++ | `C++` ★ 27.7k | 2026-01-11 |
+| [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | Play Station 4 emulator for Windows, Linux and mac OS written in C++ | `C++` ★ 27.8k | 2026-01-11 |
 | [cemu-project/Cemu](https://github.com/cemu-project/Cemu) | Cemu - Wii U emulator | `C++` ★ 8.9k | 2026-01-11 |
 | [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | Complete Open Source and Modular solution for MMO | `C++` ★ 7.9k | 2026-01-11 |
 | [Babyhamsta/Aimmy](https://github.com/Babyhamsta/Aimmy) | Universal Second Eye for Gamers with Impairments (Universal AI Aim Aligner (AI Aimbot) - ONNX/YOLOv8 - C#) | `C#` ★ 1.3k | 2026-01-09 |
-| [cocos/cocos-cli](https://github.com/cocos/cocos-cli) | COCOS CLI | `TypeScript` ★ 168 | 2026-01-10 |
+| [cocos/cocos-cli](https://github.com/cocos/cocos-cli) | COCOS CLI | `TypeScript` ★ 169 | 2026-01-11 |
 | [tixl3d/tixl](https://github.com/tixl3d/tixl) | Ti XL is an open source software to create realtime motion graphics. | `C#` ★ 4.6k | 2026-01-11 |
 | [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) | The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement ... | `C#` ★ 19k | 2026-01-10 |
 | [Vasia92LTU/dv-radialmenu](https://github.com/Vasia92LTU/dv-radialmenu) | Radial Menu css/ui edited and nopixel 4.0 inspired | `Lua` ★ 27 | 2025-12-31 |
-| [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 7.6k | 2026-01-10 |
+| [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 7.6k | 2026-01-11 |
 | [pshenok/server-survival](https://github.com/pshenok/server-survival) | Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. | `JavaScript` ★ 4k | 2026-01-11 |
 | [ocornut/imgui](https://github.com/ocornut/imgui) | Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies | `C++` ★ 70.7k | 2026-01-11 |
 | [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage a... | `C#` ★ 4.7k | 2026-01-11 |
 | [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | A list of open source games. | ★ 11.5k | 2026-01-11 |
 | [RodericAguilar/Pr_Elevators](https://github.com/RodericAguilar/Pr_Elevators) | Free fivem elevator scripts, works without framework. | `Lua` ★ 24 | 2025-11-11 |
-| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 33.4k | 2026-01-10 |
+| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 33.4k | 2026-01-11 |
 | [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minecraft with a high level of detail. | `Rust` ★ 8.1k | 2026-01-11 |
-| [ppy/osu](https://github.com/ppy/osu) | rhythm is just a \*click\* away! | `C#` ★ 17.8k | 2026-01-11 |
+| [ppy/osu](https://github.com/ppy/osu) | rhythm is just a *click* away! | `C#` ★ 17.8k | 2026-01-11 |
 | [jynew/jynew](https://github.com/jynew/jynew) | Jin Yong Legend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game. | `C#` ★ 8.8k | 2026-01-09 |
 | [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) | Multiplayer at the speed of light | `Rust` ★ 18.8k | 2026-01-10 |
 | [microsoft/DirectXTK](https://github.com/microsoft/DirectXTK) | The Direct X Tool Kit (aka Direct XTK) is a collection of helper classes for writing Direct X 11.x code in C++ | `C++` ★ 2.8k | 2026-01-10 |
 | [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | Distributed server for social and realtime games and apps. | `Go` ★ 12.1k | 2026-01-10 |
 | [thesephist/burds](https://github.com/thesephist/burds) | Just some burds, jumpin' around in their own little world. | `JavaScript` ★ 85 | 2025-09-24 |
-| [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and Open GL. Runs on Windows, Linux, \*BSD and Mac OS X. | `C#` ★ 16.3k | 2026-01-10 |
+| [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and Open GL. Runs on Windows, Linux, *BSD and Mac OS X. | `C#` ★ 16.3k | 2026-01-11 |
 | [LAION-AI/worldsim](https://github.com/LAION-AI/worldsim) | No description provided | ★ 13 | 2025-12-21 |
 | [workadventure/workadventure](https://github.com/workadventure/workadventure) | A collaborative web application (virtual office) presented as a 16-bit RPG video game | `TypeScript` ★ 5.2k | 2026-01-10 |
 | [it-scripts/it-drugs](https://github.com/it-scripts/it-drugs) | Become a master herbalist with this drug script! Ready for every big Five M framework | `Lua` ★ 112 | 2026-01-06 |
@@ -38,7 +38,7 @@
 | [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) | Play with fluids in your browser (works even on mobile) | `JavaScript` ★ 16.1k | 2026-01-11 |
 | [qbcore-framework/qb-housing](https://github.com/qbcore-framework/qb-housing) | The next iteration of QBC ore’s housing system | ★ 35 | 2025-12-19 |
 | [borisnliscool/bnl-housing](https://github.com/borisnliscool/bnl-housing) | 🏠 An open-source Five M player property script with extensive API for ultimate customization | `Lua` ★ 99 | 2026-01-07 |
-| [ellisonleao/magictools](https://github.com/ellisonleao/magictools) | :video\_game: :pencil: A list of Game Development resources to make magic happen. | `Markdown` ★ 16k | 2026-01-10 |
+| [ellisonleao/magictools](https://github.com/ellisonleao/magictools) | :video_game: :pencil: A list of Game Development resources to make magic happen. | `Markdown` ★ 16k | 2026-01-11 |
 | [CeeJayDK/SweetFX](https://github.com/CeeJayDK/SweetFX) | No description provided | `HLSL` ★ 256 | 2026-01-10 |
 | [AvaLovelace1/BrickGPT](https://github.com/AvaLovelace1/BrickGPT) | Official repository for Brick GPT, the first approach for generating physically stable toy brick models from text prompts. | `Python` ★ 1.6k | 2026-01-10 |
 | [EgorBlagov/sims-mod-assistant](https://github.com/EgorBlagov/sims-mod-assistant) | Simple Electron based Application to help Sims 4 players handle their thousands of mods | `TypeScript` ★ 33 | 2025-11-03 |
@@ -58,7 +58,7 @@
 | [keijiro/Nsmp](https://github.com/keijiro/Nsmp) | Teleprompter via NDI | `C#` ★ 13 | 2025-01-28 |
 | [vcync/modV](https://github.com/vcync/modV) | modular audio visualisation powered by Java Script | `GLSL` ★ 480 | 2026-01-06 |
 | [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) | A cross-platform, safe, pure-Rust graphics API. | `Rust` ★ 16.1k | 2026-01-11 |
-| [Crayon-Shinchan/AnyDressing](https://github.com/Crayon-Shinchan/AnyDressing) | \[CVPR 2025\] Official implementation of "Any Dressing: Customizable Multi-Garment Virtual Dressing via Latent Diffusion Models" | `JavaScript` ★ 328 | 2025-12-31 |
+| [Crayon-Shinchan/AnyDressing](https://github.com/Crayon-Shinchan/AnyDressing) | [CVPR 2025] Official implementation of "Any Dressing: Customizable Multi-Garment Virtual Dressing via Latent Diffusion Models" | `JavaScript` ★ 328 | 2025-12-31 |
 | [martymcmodding/METEOR](https://github.com/martymcmodding/METEOR) | Marty's Extra Effects for Re Shade | `HLSL` ★ 47 | 2026-01-11 |
 | [martymcmodding/iMMERSE](https://github.com/martymcmodding/iMMERSE) | Marty's Mods Epic Re Shade Effects | `HLSL` ★ 398 | 2026-01-11 |
 | [Clad3815/adventure-game-ai](https://github.com/Clad3815/adventure-game-ai) | Adventure Game Generator is an interactive, text-based game creation tool powered by Open AI. Customize your game settings, generate dynamic player attributes, embark on quests, manage inventories,... | `JavaScript` ★ 18 | 2025-12-24 |

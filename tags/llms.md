@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | \[KDD'2026\] "Video RAG: Chat with Your Videos" | `Python` ★ 2.3k | 2026-01-11 |
+| [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | [KDD'2026] "Video RAG: Chat with Your Videos" | `Python` ★ 2.3k | 2026-01-11 |
 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory infrastructure for LLMs and AI agents | `Python` ★ 4.3k | 2026-01-11 |
 | [charmbracelet/crush](https://github.com/charmbracelet/crush) | The glamourous AI coding agent for your favourite terminal 💘 | `Go` ★ 17.4k | 2026-01-11 |
 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | An LLM agent that conducts deep research (local and web) on any given topic and generates a long report with citations. | `Python` ★ 24.8k | 2026-01-11 |

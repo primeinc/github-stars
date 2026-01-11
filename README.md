@@ -11,7 +11,7 @@ Last updated: 2026-01-11
 - [3d-printing](categories/3d-printing.md) *(1)*
 
 ### A
-- [ai-ml](categories/ai-ml.md) *(523)*
+- [ai-ml](categories/ai-ml.md) *(522)*
 - [algorithms](categories/algorithms.md) *(1)*
 - [analytics](categories/analytics.md) *(8)*
 - [android-apps](categories/android-apps.md) *(1)*
@@ -42,7 +42,7 @@ Last updated: 2026-01-11
 ### D
 - [data-management](categories/data-management.md) *(2)*
 - [data-protection](categories/data-protection.md) *(1)*
-- [data-science](categories/data-science.md) *(194)*
+- [data-science](categories/data-science.md) *(193)*
 - [databases](categories/databases.md) *(47)*
 - [debugging](categories/debugging.md) *(2)*
 - [deployment](categories/deployment.md) *(20)*
@@ -152,6 +152,7 @@ Last updated: 2026-01-11
 - [ui-libraries](categories/ui-libraries.md) *(208)*
 - [ui-performance](categories/ui-performance.md) *(1)*
 - [ui-tools](categories/ui-tools.md) *(1)*
+- [unclassified](categories/unclassified.md) *(1)*
 - [utilities](categories/utilities.md) *(2)*
 
 ### V
@@ -178,11 +179,11 @@ Last updated: 2026-01-11
 | [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) | OSINT Framework | `JavaScript` ★ 10.5k | 2026-01-11 |
 | [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `JavaScript` ★ 9.6k | 2026-01-11 |
 | [simulot/immich-go](https://github.com/simulot/immich-go) | An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives. | `Go` ★ 5.2k | 2026-01-10 |
-| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `Go` ★ 11.2k | 2026-01-11 |
-| [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | Community managed domain list. Generate geosite.dat for V2Ray. | `Go` ★ 7.2k | 2026-01-10 |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `Go` ★ 11.3k | 2026-01-11 |
+| [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | Community managed domain list. Generate geosite.dat for V2Ray. | `Go` ★ 7.2k | 2026-01-11 |
 | [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.1k | 2026-01-10 |
 | [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another :crocodile: :package: | `Go` ★ 33.8k | 2026-01-10 |
-| [steveiliop56/tinyauth](https://github.com/steveiliop56/tinyauth) | The simplest way to protect your apps with a login screen. | `Go` ★ 6.7k | 2026-01-10 |
+| [steveiliop56/tinyauth](https://github.com/steveiliop56/tinyauth) | The simplest way to protect your apps with a login screen. | `Go` ★ 6.7k | 2026-01-11 |
 
 ---
 *Powered by [GitHub Stars Curation System](https://github.com/primeinc/github-stars)*

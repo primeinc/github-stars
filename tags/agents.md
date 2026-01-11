@@ -11,7 +11,7 @@
 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | Hindsight: Agent Memory That Works Like Human Memory | `Python` ★ 1.1k | 2026-01-11 |
 | [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 8.9k | 2026-01-11 |
 | [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) | These are commands I use with agents, mostly Claude | `JavaScript` ★ 581 | 2026-01-10 |
-| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 1.6k | 2026-01-10 |
+| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 1.6k | 2026-01-11 |
 | [Agent-on-the-Fly/Memento](https://github.com/Agent-on-the-Fly/Memento) | Official Code of Memento: Fine-tuning LLM Agents without Fine-tuning LLMs | `Python` ★ 2.1k | 2026-01-10 |
 | [OpenPipe/ART](https://github.com/OpenPipe/ART) | Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen2.5, Qwen3, Llama, and more! | `Python` ★ 8.1k | 2026-01-10 |
 | [langchain-ai/agents-from-scratch](https://github.com/langchain-ai/agents-from-scratch) | Build an email assistant with human-in-the-loop and memory | `Jupyter Notebook` ★ 1.4k | 2026-01-10 |

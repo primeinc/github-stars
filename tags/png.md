@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [image-rs/fdeflate](https://github.com/image-rs/fdeflate) | Fast deflate implementation specialized for PNG image data | `Rust` ★ 28 | 2025-12-28 |
+| [image-rs/fdeflate](https://github.com/image-rs/fdeflate) | Fast deflate implementation specialized for PNG image data | `Rust` ★ 28 | 2026-01-11 |
 | [hometlt/png-metadata](https://github.com/hometlt/png-metadata) | read and write png metadata | `JavaScript` ★ 35 | 2025-04-13 |

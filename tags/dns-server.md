@@ -9,4 +9,4 @@
 | [coredns/coredns](https://github.com/coredns/coredns) | Core DNS is a DNS server that chains plugins | `Go` ★ 13.7k | 2026-01-10 |
 | [TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer) | Technitium DNS Server | `C#` ★ 7.3k | 2026-01-11 |
 | [olimpo88/PyDDNS](https://github.com/olimpo88/PyDDNS) | Complete system to create your own server ddns | `JavaScript` ★ 76 | 2025-11-15 |
-| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 55.2k | 2026-01-10 |
+| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 55.2k | 2026-01-11 |

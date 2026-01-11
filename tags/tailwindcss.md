@@ -14,7 +14,7 @@
 | [vercel/platforms](https://github.com/vercel/platforms) | A full-stack Next.js app with multi-tenancy. | `TypeScript` ★ 6.6k | 2026-01-10 |
 | [tremorlabs/tremor](https://github.com/tremorlabs/tremor) | Copy & Paste React components to build modern web applications. | `TypeScript` ★ 3.1k | 2026-01-10 |
 | [megh-bari/pattern-craft](https://github.com/megh-bari/pattern-craft) | Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration. | `TypeScript` ★ 2.8k | 2026-01-10 |
-| [calcom/cal.com](https://github.com/calcom/cal.com) | Scheduling infrastructure for absolutely everyone. | `TypeScript` ★ 39.6k | 2026-01-10 |
+| [calcom/cal.com](https://github.com/calcom/cal.com) | Scheduling infrastructure for absolutely everyone. | `TypeScript` ★ 39.6k | 2026-01-11 |
 | [untitleduico/react](https://github.com/untitleduico/react) | Untitled UI React is the world’s largest collection of open-source React components built with Tailwind CSS and React Aria. Just copy, paste, and build. | `TypeScript` ★ 1.5k | 2026-01-11 |
 | [imskyleen/animate-ui](https://github.com/imskyleen/animate-ui) | Fully animated, open-source component distribution built with React, Type Script, Tailwind CSS, Motion, and Shadcn CLI. Browse a list of components you can install, modify, and use in your projects. | `TypeScript` ★ 3.2k | 2026-01-11 |
 | [pablotanner/RealtorRocket](https://github.com/pablotanner/RealtorRocket) | Real Estate Management Software | `JavaScript` ★ 21 | 2025-10-31 |
@@ -24,4 +24,4 @@
 | [HugoRCD/canvas](https://github.com/HugoRCD/canvas) | Portfolio template made with Nuxt 3, Nuxt Content v3, Nuxt UI v3 and Tailwind CSS v4 | `Vue` ★ 344 | 2026-01-06 |
 | [nuxt/ui](https://github.com/nuxt/ui) | The Intuitive Vue UI Library powered by Reka UI & Tailwind CSS. | `Vue` ★ 6.1k | 2026-01-10 |
 | [wandb/openui](https://github.com/wandb/openui) | Open UI let's you describe UI using your imagination, then see it rendered live. | `TypeScript` ★ 22k | 2026-01-10 |
-| [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today! | `TypeScript` ★ 34.4k | 2026-01-10 |
+| [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today! | `TypeScript` ★ 34.4k | 2026-01-11 |

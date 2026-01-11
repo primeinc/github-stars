@@ -13,7 +13,7 @@
 | [engageintellect/spatz-2](https://github.com/engageintellect/spatz-2) | just like spatz... but for svelte5, with shadcn-svelte, svelte-animations, svelte-superforms, stripe payments, subscriptions, content-filtering, and more. | `Svelte` ★ 309 | 2026-01-09 |
 | [frostybee/starlight-tags](https://github.com/frostybee/starlight-tags) | A plugin to add tags to your Starlight docs for content organization and discovery. | `Astro` ★ 7 | 2026-01-09 |
 | [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo) | LTX-Video Support for Comfy UI | `Python` ★ 2.8k | 2026-01-11 |
-| [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | A beautiful web UI for browsing Claude Code conversation history. | `TypeScript` ★ 434 | 2026-01-10 |
+| [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | A beautiful web UI for browsing Claude Code conversation history. | `TypeScript` ★ 436 | 2026-01-11 |
 | [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) | Map Libre GL JS - Interactive vector tile maps in the browser | `TypeScript` ★ 9.6k | 2026-01-11 |
 | [Quaggles/SwarmUI-FaceTools](https://github.com/Quaggles/SwarmUI-FaceTools) | A Swarm UI extension that adds parameters for Re Actor to the the generate tab | `C#` ★ 27 | 2026-01-04 |
 | [jayfunc/BetterLyrics](https://github.com/jayfunc/BetterLyrics) | An elegant and deeply customizable lyrics visualizer & versatile music player, built with Win UI3/Win2D | 一款优雅且高度自定义的歌词可视化与全能音乐播放应用，基于 Win UI3/Win2D 构建 | `C#` ★ 1.3k | 2026-01-11 |
@@ -25,8 +25,8 @@
 | [cppqtdev/QT-Home-Automation-Glass-UI](https://github.com/cppqtdev/QT-Home-Automation-Glass-UI) | Linkedin Page | `QML` ★ 25 | 2025-12-18 |
 | [Vasia92LTU/dv-radialmenu](https://github.com/Vasia92LTU/dv-radialmenu) | Radial Menu css/ui edited and nopixel 4.0 inspired | `Lua` ★ 27 | 2025-12-31 |
 | [chrissimpkins/codeface](https://github.com/chrissimpkins/codeface) | Typefaces for source code beautification | `Python` ★ 6.4k | 2026-01-10 |
-| [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian) | 🕶️ Awesome stuff for Obsidian | `CSS` ★ 8.2k | 2026-01-10 |
-| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) | A curated list of awesome things related to shadcn/ui. | `TypeScript` ★ 18.5k | 2026-01-10 |
+| [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian) | 🕶️ Awesome stuff for Obsidian | `CSS` ★ 8.2k | 2026-01-11 |
+| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) | A curated list of awesome things related to shadcn/ui. | `TypeScript` ★ 18.5k | 2026-01-11 |
 | [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) | The best design tools and plugins for everything 👉 | `JavaScript` ★ 38.8k | 2026-01-11 |
 | [huynhsontung/Screenbox](https://github.com/huynhsontung/Screenbox) | Lib VLC-based media player for the Universal Windows Platform | `C#` ★ 2.8k | 2026-01-11 |
 | [alibaba/hooks](https://github.com/alibaba/hooks) | A high-quality & reliable React Hooks library. https://alibaba.github.io/hooks/ | `TypeScript` ★ 14.9k | 2026-01-10 |
@@ -42,14 +42,14 @@
 | [resend/react-email](https://github.com/resend/react-email) | 💌 Build and send emails using React | `TypeScript` ★ 17.7k | 2026-01-11 |
 | [shadcnblocks/mainline-nextjs-template](https://github.com/shadcnblocks/mainline-nextjs-template) | Mainline Next.js template built with shadcn/ui, Tailwind 4 & Next.js | `TypeScript` ★ 220 | 2026-01-10 |
 | [luckgrid/lg-turbo-ui](https://github.com/luckgrid/lg-turbo-ui) | A turborepo workspace with a ready to go Next v15, React v19, and Tailwind CSS v4 UI packages and configs. | `TypeScript` ★ 2 | 2025-11-21 |
-| [satnaing/astro-paper](https://github.com/satnaing/astro-paper) | A minimal, accessible and SEO-friendly Astro blog theme | `Astro` ★ 4k | 2026-01-10 |
+| [satnaing/astro-paper](https://github.com/satnaing/astro-paper) | A minimal, accessible and SEO-friendly Astro blog theme | `Astro` ★ 4k | 2026-01-11 |
 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. | `TypeScript` ★ 104.5k | 2026-01-11 |
 | [selfhst/icons](https://github.com/selfhst/icons) | Collection of icons and logos maintained by selfh.st | `Go` ★ 682 | 2026-01-10 |
 | [marmelab/shadcn-admin-kit](https://github.com/marmelab/shadcn-admin-kit) | Component kit to build your Admin app with shadcn/ui | `TypeScript` ★ 711 | 2026-01-10 |
 | [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) | The largest Open-Source UI Library! Community-made and free to use. Made with either CSS or Tailwind. | `HTML` ★ 9.2k | 2026-01-11 |
 | [aidenybai/react-grab](https://github.com/aidenybai/react-grab) | Select context for coding agents directly from your website | `TypeScript` ★ 4.2k | 2026-01-11 |
 | [longbridge/gpui-component](https://github.com/longbridge/gpui-component) | Rust GUI components for building fantastic cross-platform desktop application by using GPUI. | `Rust` ★ 9.7k | 2026-01-11 |
-| [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art, fix bugs (frozen spinner), and ad... | `TypeScript` ★ 806 | 2026-01-10 |
+| [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art, fix bugs (frozen spinner), and ad... | `TypeScript` ★ 808 | 2026-01-11 |
 | [google/adk-web](https://github.com/google/adk-web) | Agent Development Kit Web (adk web) is the built-in developer UI that is integrated with Agent Development Kit for easier agent development and debugging. | `TypeScript` ★ 800 | 2026-01-10 |
 | [Stremio/stremio-web](https://github.com/Stremio/stremio-web) | Stremio - Freedom to Stream | `JavaScript` ★ 8.9k | 2026-01-11 |
 | [anomalyco/opentui](https://github.com/anomalyco/opentui) | Open TUI is a library for building terminal user interfaces (TUIs) | `TypeScript` ★ 7.3k | 2026-01-11 |
@@ -68,7 +68,7 @@
 | [OvidijusParsiunas/deep-chat](https://github.com/OvidijusParsiunas/deep-chat) | Fully customizable AI chatbot component for your website | `TypeScript` ★ 3.5k | 2026-01-10 |
 | [aseprite/aseprite](https://github.com/aseprite/aseprite) | Animated sprite editor & pixel art tool (Windows, mac OS, Linux) | `C++` ★ 35.2k | 2026-01-11 |
 | [formatjs/formatjs](https://github.com/formatjs/formatjs) | The monorepo home to all of the Format JS related libraries, most notably react-intl. | `TypeScript` ★ 14.7k | 2026-01-10 |
-| [home-assistant/frontend](https://github.com/home-assistant/frontend) | :lollipop: Frontend for Home Assistant | `TypeScript` ★ 5.1k | 2026-01-10 |
+| [home-assistant/frontend](https://github.com/home-assistant/frontend) | :lollipop: Frontend for Home Assistant | `TypeScript` ★ 5.1k | 2026-01-11 |
 | [microsoft/react-native-windows-samples](https://github.com/microsoft/react-native-windows-samples) | A repository showcasing React Native samples and templates for Windows, mac OS, and Surface Duo. | `C#` ★ 533 | 2026-01-04 |
 | [rocksdanister/lively](https://github.com/rocksdanister/lively) | Free and open-source software that allows users to set animated desktop wallpapers and screensavers powered by Win UI 3. | `C#` ★ 17.9k | 2026-01-11 |
 | [EpicenterHQ/epicenter](https://github.com/EpicenterHQ/epicenter) | Press shortcut → speak → get text. Free and open source. More local-first apps soon ❤️ | `TypeScript` ★ 3.9k | 2026-01-10 |
@@ -83,9 +83,9 @@
 | [tremorlabs/tremor](https://github.com/tremorlabs/tremor) | Copy & Paste React components to build modern web applications. | `TypeScript` ★ 3.1k | 2026-01-10 |
 | [useflyyer/use-smartcrop](https://github.com/useflyyer/use-smartcrop) | React hook for smartcrop.js to content aware image cropping with points of interest and facial recognition. | `JavaScript` ★ 103 | 2025-11-05 |
 | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | `TypeScript` ★ 22.4k | 2026-01-11 |
-| [xyflow/xyflow](https://github.com/xyflow/xyflow) | React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely cust... | `TypeScript` ★ 34.7k | 2026-01-10 |
+| [xyflow/xyflow](https://github.com/xyflow/xyflow) | React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely cust... | `TypeScript` ★ 34.7k | 2026-01-11 |
 | [megh-bari/pattern-craft](https://github.com/megh-bari/pattern-craft) | Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration. | `TypeScript` ★ 2.8k | 2026-01-10 |
-| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 27.9k | 2026-01-10 |
+| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 27.9k | 2026-01-11 |
 | [openreplay/openreplay](https://github.com/openreplay/openreplay) | Session replay, cobrowsing and product analytics you can self-host. Ideal for reproducing issues and iterating on your product. | `TypeScript` ★ 11.6k | 2026-01-10 |
 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | The open-source Cap Cut alternative | `TypeScript` ★ 44.9k | 2026-01-11 |
 | [microsoft/magentic-ui](https://github.com/microsoft/magentic-ui) | A research prototype of a human-centered web agent | `Python` ★ 9.6k | 2026-01-10 |
@@ -101,7 +101,7 @@
 | [bkaankose/Wino-Mail](https://github.com/bkaankose/Wino-Mail) | Built-in Mail & Calendars app clone for Windows. | `C#` ★ 1.4k | 2026-01-10 |
 | [theimpactfulcompany/Rise-Media-Player](https://github.com/theimpactfulcompany/Rise-Media-Player) | One media player for everything you own or stream; whether it's music or videos, online or offline Rise Media Player does it all. And it's beautiful and native with the latest version of Win UI. | `C#` ★ 1.2k | 2026-01-10 |
 | [zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) | A fluent design widgets library based on C++ Qt/Py Qt/Py Side. Make Qt Great Again. | `Python` ★ 7.6k | 2026-01-10 |
-| [bdlukaa/fluent_ui](https://github.com/bdlukaa/fluent_ui) | Implements Microsoft's Win UI3 in Flutter. | `Dart` ★ 3.4k | 2026-01-09 |
+| [bdlukaa/fluent_ui](https://github.com/bdlukaa/fluent_ui) | Implements Microsoft's Win UI3 in Flutter. | `Dart` ★ 3.4k | 2026-01-11 |
 | [garethcheyne/PCF-FluentUi-AutoComplete-Boilerplate](https://github.com/garethcheyne/PCF-FluentUi-AutoComplete-Boilerplate) | No description provided | `TypeScript` ★ 12 | 2025-09-28 |
 | [meteor/blaze](https://github.com/meteor/blaze) | :fire: Meteor Blaze is a powerful library for creating live-updating user interfaces | `JavaScript` ★ 538 | 2026-01-09 |
 | [Exclusiveideas/Realtor](https://github.com/Exclusiveideas/Realtor) | A real-estate website with realtime data and information on houses for rent and for sale. | `JavaScript` ★ 36 | 2025-11-27 |
@@ -141,12 +141,12 @@
 | [vcync/modV](https://github.com/vcync/modV) | modular audio visualisation powered by Java Script | `GLSL` ★ 480 | 2026-01-06 |
 | [Lissy93/dashy](https://github.com/Lissy93/dashy) | 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more! | `Vue` ★ 23.7k | 2026-01-11 |
 | [dcordero/FocusTvButton](https://github.com/dcordero/FocusTvButton) | Light wrapper of UIB utton that allows extra customization for tv OS | `Swift` ★ 77 | 2025-08-31 |
-| [hakimel/reveal.js](https://github.com/hakimel/reveal.js) | The HTML Presentation Framework | `JavaScript` ★ 70.4k | 2026-01-10 |
+| [hakimel/reveal.js](https://github.com/hakimel/reveal.js) | The HTML Presentation Framework | `JavaScript` ★ 70.4k | 2026-01-11 |
 | [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) | A cross-platform, safe, pure-Rust graphics API. | `Rust` ★ 16.1k | 2026-01-11 |
 | [Alucard24/Rope](https://github.com/Alucard24/Rope) | GUI-focused roop | `Python` ★ 431 | 2026-01-10 |
 | [swipelux/zeroid-secrets-storing-widget](https://github.com/swipelux/zeroid-secrets-storing-widget) | No description provided | `TypeScript` ★ 17 | 2025-12-16 |
 | [Aayush9029/NativeYoutube](https://github.com/Aayush9029/NativeYoutube) | Personal App that turned into "alpha released app" v3 | `Swift` ★ 524 | 2026-01-10 |
-| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFF i NE(pronounced \[ə‘fain\]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable ... | `TypeScript` ★ 61.6k | 2026-01-11 |
+| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFF i NE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable ... | `TypeScript` ★ 61.6k | 2026-01-11 |
 | [MkQtS/Carefree](https://github.com/MkQtS/Carefree) | An elegant Potplayer skin | ★ 38 | 2025-12-24 |
 | [Julusian/node-xencelabs-quick-keys](https://github.com/Julusian/node-xencelabs-quick-keys) | A Node.js library for interfacing with the Xencelabs Quick Keys https://julusian.github.io/node-xencelabs-quick-keys/ | `TypeScript` ★ 39 | 2025-11-24 |
 | [HW-Lab-Hardware-Design-Agency/WebScreen-Website](https://github.com/HW-Lab-Hardware-Design-Agency/WebScreen-Website) | Webscreen landing page | `HTML` ★ 4 | 2025-10-06 |
@@ -169,7 +169,7 @@
 | [klyte45/EUIS-baseproj-fe](https://github.com/klyte45/EUIS-baseproj-fe) | Basic project to create EUIS micro-frontend applications. | `JavaScript` ★ 2 | 2023-11-27 |
 | [Surrealism-All/SurrealismUI](https://github.com/Surrealism-All/SurrealismUI) | A third-party UI library using Slint, I think it will give you an extraordinary experience | `Slint` ★ 352 | 2026-01-10 |
 | [intel/intel-one-mono](https://github.com/intel/intel-one-mono) | Intel One Mono font repository | ★ 9.8k | 2026-01-10 |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `Python` ★ 99.7k | 2026-01-11 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `Python` ★ 99.8k | 2026-01-11 |
 | [zero01101/openOutpaint-webUI-extension](https://github.com/zero01101/openOutpaint-webUI-extension) | direct A1111 web UI extension for open Outpaint | `JavaScript` ★ 409 | 2026-01-10 |
 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! | `Python` ★ 41.3k | 2026-01-11 |
 | [marmelab/react-admin](https://github.com/marmelab/react-admin) | A frontend Framework for single-page applications on top of REST/Graph QL API s, using Type Script, React and Material Design | `TypeScript` ★ 26.5k | 2026-01-10 |

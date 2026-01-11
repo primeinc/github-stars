@@ -9,4 +9,4 @@
 | [k4m4/movies-for-hackers](https://github.com/k4m4/movies-for-hackers) | 🎬 A curated list of movies every hacker & cyberpunk must watch. | `Shell` ★ 11.6k | 2026-01-09 |
 | [Ombi-app/Ombi](https://github.com/Ombi-app/Ombi) | Want a Movie or TV Show on Plex/Emby/Jellyfin? Use Ombi! | `C#` ★ 4k | 2026-01-10 |
 | [morpheus65535/bazarr](https://github.com/morpheus65535/bazarr) | Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of every... | `Python` ★ 3.7k | 2026-01-11 |
-| [Radarr/Radarr](https://github.com/Radarr/Radarr) | Movie organizer/manager for usenet and torrent users. | `C#` ★ 12.8k | 2026-01-10 |
+| [Radarr/Radarr](https://github.com/Radarr/Radarr) | Movie organizer/manager for usenet and torrent users. | `C#` ★ 12.8k | 2026-01-11 |

@@ -14,14 +14,14 @@
 | [charmbracelet/vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder 📼 | `Go` ★ 18.3k | 2026-01-10 |
 | [sxyazi/yazi](https://github.com/sxyazi/yazi) | 💥 Blazing fast terminal file manager written in Rust, based on async I/O. | `Rust` ★ 31.3k | 2026-01-11 |
 | [icloud-photos-downloader/icloud_photos_downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader) | A command-line tool to download photos from i Cloud | `Python` ★ 9.7k | 2026-01-11 |
-| [Lulzx/zpdf](https://github.com/Lulzx/zpdf) | Zero-copy PDF text extraction library written in Zig. High-performance, memory-mapped parsing with SIMD acceleration. | `Zig` ★ 789 | 2026-01-10 |
-| [dadlerj/tin](https://github.com/dadlerj/tin) | No description provided | `Go` ★ 59 | 2026-01-10 |
+| [Lulzx/zpdf](https://github.com/Lulzx/zpdf) | Zero-copy PDF text extraction library written in Zig. High-performance, memory-mapped parsing with SIMD acceleration. | `Zig` ★ 790 | 2026-01-11 |
+| [dadlerj/tin](https://github.com/dadlerj/tin) | No description provided | `Go` ★ 60 | 2026-01-11 |
 | [frankbria/cli-ify-plugin](https://github.com/frankbria/cli-ify-plugin) | Convert Claude Code skills, commands, and agents into standalone CLI tools for Linux/Mac (Bash) and Windows (Power Shell). | `PowerShell` ★ 1 | 2026-01-09 |
 | [sinelaw/fresh](https://github.com/sinelaw/fresh) | Text editor for your terminal: easy, powerful and fast | `Rust` ★ 5k | 2026-01-11 |
 | [sharkdp/bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | `Rust` ★ 56.6k | 2026-01-11 |
 | [charmbracelet/crush](https://github.com/charmbracelet/crush) | The glamourous AI coding agent for your favourite terminal 💘 | `Go` ★ 17.4k | 2026-01-11 |
 | [0xSero/Azul](https://github.com/0xSero/Azul) | Browse the world in the comfort of your terminal | `Rust` ★ 140 | 2026-01-09 |
-| [cocos/cocos-cli](https://github.com/cocos/cocos-cli) | COCOS CLI | `TypeScript` ★ 168 | 2026-01-10 |
+| [cocos/cocos-cli](https://github.com/cocos/cocos-cli) | COCOS CLI | `TypeScript` ★ 169 | 2026-01-11 |
 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | `Python` ★ 71.7k | 2026-01-11 |
 | [supreme-gg-gg/instagram-cli](https://github.com/supreme-gg-gg/instagram-cli) | Instagram's terminal UI app - The ultimate weapon against brainrot | `TypeScript` ★ 1.2k | 2026-01-11 |
 | [eat-pray-ai/yutu](https://github.com/eat-pray-ai/yutu) | A fully functional MCP server and CLI for You Tube | `Go` ★ 361 | 2026-01-10 |
@@ -30,7 +30,7 @@
 | [shadcn/license-generator](https://github.com/shadcn/license-generator) | Generates a license for your open source project. | `JavaScript` ★ 170 | 2026-01-02 |
 | [suzuki-shunsuke/ghtkn](https://github.com/suzuki-shunsuke/ghtkn) | A CLI to create short-lived (8 hours) Git Hub App User Access Token for secure local development | `Go` ★ 75 | 2026-01-11 |
 | [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | 🖥 📊 🕹 🛠 A curated list of command line apps | `Shell` ★ 18.4k | 2026-01-11 |
-| [chubin/wttr.in](https://github.com/chubin/wttr.in) | :partly\_sunny: The right way to check the weather | `Python` ★ 28.5k | 2026-01-10 |
+| [chubin/wttr.in](https://github.com/chubin/wttr.in) | :partly_sunny: The right way to check the weather | `Python` ★ 28.5k | 2026-01-11 |
 | [chr15m/runprompt](https://github.com/chr15m/runprompt) | Run LLM prompts from your shell | `Python` ★ 412 | 2026-01-09 |
 | [jasonkneen/askshell](https://github.com/jasonkneen/askshell) | Natural language to shell commands - AI-powered CLI using Ollama, Claude, Codex, Copilot, or Gemini | `Shell` ★ 6 | 2025-12-08 |
 | [aristocratos/btop](https://github.com/aristocratos/btop) | A monitor of resources | `C++` ★ 29.6k | 2026-01-11 |
@@ -55,7 +55,7 @@
 | [webextension-toolbox/webextension-toolbox](https://github.com/webextension-toolbox/webextension-toolbox) | Small CLI toolbox for cross-browser Web Extension development | `TypeScript` ★ 781 | 2026-01-06 |
 | [Mellanox/mstflint](https://github.com/Mellanox/mstflint) | Mstflint - an open source version of MFT (Mellanox Firmware Tools) | `C` ★ 240 | 2025-12-29 |
 | [vadimdemedes/ink](https://github.com/vadimdemedes/ink) | 🌈 React for interactive command-line apps | `TypeScript` ★ 33.9k | 2026-01-11 |
-| [dotenvx/dotenvx](https://github.com/dotenvx/dotenvx) | a secure dotenv–from the creator of \`dotenv\` | `JavaScript` ★ 4.8k | 2026-01-11 |
+| [dotenvx/dotenvx](https://github.com/dotenvx/dotenvx) | a secure dotenv–from the creator of `dotenv` | `JavaScript` ★ 4.8k | 2026-01-11 |
 | [getsops/sops](https://github.com/getsops/sops) | Simple and flexible tool for managing secrets | `Go` ★ 20.4k | 2026-01-11 |
 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI tool for configuring and monitoring Claude Code | `Python` ★ 15.4k | 2026-01-11 |
 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader | `Python` ★ 141.3k | 2026-01-11 |
@@ -66,7 +66,7 @@
 | [mmulet/term.everything](https://github.com/mmulet/term.everything) | Run any GUI app in the terminal❗ | `Go` ★ 7.6k | 2026-01-10 |
 | [sigoden/aichat](https://github.com/sigoden/aichat) | All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to Open AI, Claude, Gemini, Ollama, Groq, and more. | `Rust` ★ 9k | 2026-01-11 |
 | [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) | Command-line program to download videos from You Tube.com and other video sites | `Python` ★ 139.4k | 2026-01-11 |
-| [betomoedano/snapai](https://github.com/betomoedano/snapai) | AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using Open AI's latest models. | `TypeScript` ★ 1.4k | 2026-01-10 |
+| [betomoedano/snapai](https://github.com/betomoedano/snapai) | AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using Open AI's latest models. | `TypeScript` ★ 1.4k | 2026-01-11 |
 | [soimthe1/snmp-printer-utility](https://github.com/soimthe1/snmp-printer-utility) | A fast, Go-powered CLI tool to scan and monitor SNMP-enabled printers across networks. Discover printers, fetch real-time status, supply levels (toner/ink), tray capacities, and page counts using S... | `Go` ★ 2 | 2025-09-05 |
 | [nativefier/nativefier](https://github.com/nativefier/nativefier) | Make any web page a desktop application | `TypeScript` ★ 35.3k | 2026-01-11 |
 | [Aider-AI/aider](https://github.com/Aider-AI/aider) | aider is AI pair programming in your terminal | `Python` ★ 39.7k | 2026-01-11 |
@@ -86,11 +86,11 @@
 | [google/zx](https://github.com/google/zx) | A tool for writing better scripts | `JavaScript` ★ 45k | 2026-01-11 |
 | [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | A CLI tool for analyzing Claude Code usage from local JSONL files. | `TypeScript` ★ 9.7k | 2026-01-11 |
 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | An open-source AI agent that brings the power of Gemini directly into your terminal. | `TypeScript` ★ 90.4k | 2026-01-11 |
-| [microsoft/edit](https://github.com/microsoft/edit) | We all edit. | `Rust` ★ 13.3k | 2026-01-10 |
+| [microsoft/edit](https://github.com/microsoft/edit) | We all edit. | `Rust` ★ 13.3k | 2026-01-11 |
 | [amantus-ai/vibetunnel](https://github.com/amantus-ai/vibetunnel) | Turn any browser into your terminal & command your agents on the go. | `TypeScript` ★ 2.9k | 2026-01-10 |
 | [GeoAnima/Gemini-Conversation-Downloader](https://github.com/GeoAnima/Gemini-Conversation-Downloader) | About Download Gemini conversations in JSON and PDF format. | `JavaScript` ★ 12 | 2026-01-08 |
-| [qdhenry/Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite) | Professional slash commands for Claude Code that provide structured workflows for software development tasks including code review, feature creation, security auditing, and architectural analysis. | `Shell` ★ 903 | 2026-01-10 |
-| [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your terminal | `Rust` ★ 55.7k | 2026-01-11 |
+| [qdhenry/Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite) | Professional slash commands for Claude Code that provide structured workflows for software development tasks including code review, feature creation, security auditing, and architectural analysis. | `Shell` ★ 904 | 2026-01-11 |
+| [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your terminal | `Rust` ★ 55.8k | 2026-01-11 |
 | [microsoft/Microsoft-Win32-Content-Prep-Tool](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool) | A tool to wrap Win32 App and then it can be uploaded to Intune | ★ 1.3k | 2026-01-09 |
 | [llm-workflow-engine/llm-workflow-engine](https://github.com/llm-workflow-engine/llm-workflow-engine) | Power CLI and Workflow manager for LLM s (core package) | `Python` ★ 3.7k | 2026-01-10 |
 | [antonmedv/walk](https://github.com/antonmedv/walk) | Terminal file manager | `Go` ★ 3.6k | 2026-01-11 |
@@ -106,7 +106,7 @@
 | [microsoft/sudo](https://github.com/microsoft/sudo) | It's sudo, for Windows | `Rust` ★ 5.5k | 2026-01-10 |
 | [openinterpreter/open-interpreter](https://github.com/openinterpreter/open-interpreter) | A natural language interface for computers | `Python` ★ 61.6k | 2026-01-11 |
 | [ParadoxSpiral/libmpv-rs](https://github.com/ParadoxSpiral/libmpv-rs) | A libmpv abstraction written in rust that's easy to use and provides the ability to read next to all video and audio codecs. | `Rust` ★ 112 | 2025-12-17 |
-| [instaloader/instaloader](https://github.com/instaloader/instaloader) | Download pictures (or videos) along with their captions and other metadata from Instagram. | `Python` ★ 11.4k | 2026-01-10 |
+| [instaloader/instaloader](https://github.com/instaloader/instaloader) | Download pictures (or videos) along with their captions and other metadata from Instagram. | `Python` ★ 11.4k | 2026-01-11 |
 | [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | 📚 Collaborative cheatsheets for console commands | `Markdown` ★ 60.8k | 2026-01-11 |
 | [liquidctl/liquidctl](https://github.com/liquidctl/liquidctl) | Cross-platform CLI and Python drivers for AIO liquid coolers and other devices | `Python` ★ 2.5k | 2026-01-10 |
 | [butlerx/wetty](https://github.com/butlerx/wetty) | Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better) | `TypeScript` ★ 5.1k | 2026-01-10 |
@@ -119,7 +119,7 @@
 | [9072997/regwincontext](https://github.com/9072997/regwincontext) | Put a program in the windows context menu for a particular file type | `Go` ★ 19 | 2025-03-16 |
 | [avi12/skillshare-player-control](https://github.com/avi12/skillshare-player-control) | Basic keyboard controls for Skillshare's player. | `TypeScript` ★ 11 | 2025-09-17 |
 | [dfinke/ImportExcel](https://github.com/dfinke/ImportExcel) | Power Shell module to import/export Excel spreadsheets, without Excel | `PowerShell` ★ 2.7k | 2026-01-10 |
-| [cheat/cheat](https://github.com/cheat/cheat) | cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind \*nix system administrators of options for commands that they use frequently, but not ... | `Go` ★ 13.1k | 2026-01-11 |
+| [cheat/cheat](https://github.com/cheat/cheat) | cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not ... | `Go` ★ 13.1k | 2026-01-11 |
 | [bastillion-io/Bastillion](https://github.com/bastillion-io/Bastillion) | Bastillion is a web-based SSH console that centrally manages administrative access to systems. Web-based administration is combined with management and distribution of user's public SSH keys. | `Java` ★ 3.4k | 2026-01-10 |
 | [liftoff/GateOne](https://github.com/liftoff/GateOne) | Gate One is an HTML5-powered terminal emulator and SSH client | `JavaScript` ★ 6.3k | 2026-01-07 |
 | [dthree/cash](https://github.com/dthree/cash) | Cross-platform Linux commands in ES6 | `JavaScript` ★ 7.8k | 2026-01-06 |
