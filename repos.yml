@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-11T17:19:32.235Z"
+  manifest_updated_at: "2026-01-11T17:19:53.101Z"
   total_repos: 1959
   generator_version: v1.0.0
   github_user: primeinc
@@ -57983,13 +57983,17 @@ repositories:
       mirror_url: null
   - repo: PikeNote/taskbar-groups-pike-beta
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - taskbar-groups
+      - windows-utility
+      - lang:csharp
     summary: Lightweight application that lets users create and pin groups to the Windows taskbar och desktop
     last_synced_sha: ed3852beb5bbe8e1a40bbed61d3c74cbb4d193b0
     user_starred_at: "2023-10-26T00:38:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C#
@@ -58009,15 +58013,25 @@ repositories:
         published_at: "2023-01-10T19:08:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.101Z"
+      prompt_version: v2
   - repo: tjackenpacken/taskbar-groups
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - taskbar-groups
+      - desktop-shortcuts
+      - ui
+      - lang:csharp
     summary: Lightweight utility for organizing the taskbar through groups
     last_synced_sha: edbd4d9116f10597e9c16934df783be9728a98ab
     user_starred_at: "2023-10-26T00:36:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -58038,15 +58052,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.101Z"
+      prompt_version: v2
   - repo: MycroftAI/mycroft-core
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - voice-assistant
+      - nlp
+      - open-source
+      - lang:python
     summary: Mycroft Core, the Mycroft Artificial Intelligence platform.
     last_synced_sha: afc9106fcbd6a129abc0489f36770a69d7e34a2f
     user_starred_at: "2023-09-28T21:16:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -58083,15 +58107,24 @@ repositories:
         published_at: "2021-12-13T00:34:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.101Z"
+      prompt_version: v2
   - repo: coffeerhyder/YouTube-alternative-Clients-and-Frontends-overview
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - youtube
+      - alternative-frontends
+      - tools-overview
     summary: Overview of alternative You Tube Clients and Frontends
     last_synced_sha: c67c82c2d30e4693d63d7324cb9553ae49a3d92b
     user_starred_at: "2023-09-18T16:47:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: null
@@ -58109,15 +58142,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.101Z"
+      prompt_version: v2
   - repo: liquidctl/liquidctl
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - system-admin
+    tags:
+      - liquid-cooler
+      - fan-controller
+      - python-drivers
+      - lang:python
     summary: Cross-platform CLI and Python drivers for AIO liquid coolers and other devices
     last_synced_sha: 4a7f58b3d3776a3379faf06c21d7ce7270d3e974
     user_starred_at: "2023-09-18T14:55:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -58151,15 +58194,25 @@ repositories:
         published_at: "2025-04-13T06:36:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.101Z"
+      prompt_version: v2
   - repo: rabchev/web-terminal
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - web-dev
+    tags:
+      - web-terminal
+      - remote-cli
+      - http-cli
+      - lang:js
     summary: Web-Terminal is a terminal server that provides remote CLI via standard web browser and HTTP protocol.
     last_synced_sha: 96a63a11149e3e535752db45208e3c80a3c47b77
     user_starred_at: "2023-09-14T09:20:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -58178,15 +58231,25 @@ repositories:
         published_at: "2014-06-29T06:02:02Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.101Z"
+      prompt_version: v2
   - repo: butlerx/wetty
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - web-dev
+    tags:
+      - web-terminal
+      - xterm
+      - ajaxterm
+      - lang:ts
     summary: Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better)
     last_synced_sha: 6713d33d26d61fbfff03d2f5fc301695e2892a6a
     user_starred_at: "2023-09-14T09:20:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -58214,15 +58277,24 @@ repositories:
         published_at: "2023-09-16T11:27:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.101Z"
+      prompt_version: v2
   - repo: Tsukisoft/direct-storage-rs
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - dev-tools
+    tags:
+      - direct-storage
+      - performance
+      - lang:rust
     summary: Rust bindings for Direct Storage
     last_synced_sha: 064443e13a1ec49b41cf6bdafd371759bfe5a6b7
     user_starred_at: "2023-09-14T08:02:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -58239,15 +58311,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.101Z"
+      prompt_version: v2
   - repo: GaspardCulis/slint-tetris
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - tetris
+      - game-dev
+      - ui
+      - lang:rust
     summary: Tetris game made with Slint
     last_synced_sha: 4b8b60beaeb9a1d2bbc759a6b25dc52bed57c6cc
     user_starred_at: "2023-09-13T03:50:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -58270,15 +58352,25 @@ repositories:
         published_at: "2023-05-01T16:05:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.101Z"
+      prompt_version: v2
   - repo: Surrealism-All/SurrealismUI
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - widget-library
+      - gui
+      - ui-components
+      - lang:rust
     summary: A third-party UI library using Slint, I think it will give you an extraordinary experience
     last_synced_sha: 3e8761f47c65e6e7d335dd8f3d1a2dd7566379ed
     user_starred_at: "2023-09-13T03:49:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Slint
       topics:
@@ -58304,15 +58396,26 @@ repositories:
         published_at: "2024-12-22T08:47:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.101Z"
+      prompt_version: v2
   - repo: DioxusLabs/dioxus
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - virtualdom
+      - ui
+      - ssr
+      - lang:rust
+      - mobile-support
     summary: Fullstack app framework for web, desktop, and mobile.
     last_synced_sha: 15bf75b7b0df82384c98872eae80c12c299abf50
     user_starred_at: "2023-09-12T01:56:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -58344,15 +58447,25 @@ repositories:
         published_at: "2025-12-05T04:23:52Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.101Z"
+      prompt_version: v2
   - repo: pyenv/pyenv
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - python
+      - version-management
+      - cli-tools
+      - shell
     summary: Simple Python version management
     last_synced_sha: c62be31e8c5c5bf517f406440855683b977b3f02
     user_starred_at: "2023-09-09T20:36:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Roff
       topics:
@@ -58373,15 +58486,25 @@ repositories:
         published_at: "2026-01-10T03:16:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.101Z"
+      prompt_version: v2
   - repo: takoyaro/db-storage1111
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+    tags:
+      - stable-diffusion
+      - image-storage
+      - webui-extension
+      - lang:python
     summary: automatic1111's stable-diffusion-webui extension for storing images to a database
     last_synced_sha: 85fd218b39d034651d1ede0130e53f033f89a1e5
     user_starred_at: "2023-09-08T02:43:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -58398,15 +58521,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.101Z"
+      prompt_version: v2
   - repo: papuSpartan/stable-diffusion-webui-distributed
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - devops
+    tags:
+      - stable-diffusion
+      - multi-gpu
+      - distributed-computing
+      - lang:python
     summary: Chains stable-diffusion-webui instances together to facilitate faster image generation.
     last_synced_sha: 8fd65ebdc11d308035f151a90e1f167fd4d74b6d
     user_starred_at: "2023-09-08T02:35:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -58431,15 +58564,25 @@ repositories:
         published_at: "2024-10-27T02:50:25Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.101Z"
+      prompt_version: v2
   - repo: jtydhr88/sd-3dmodel-loader
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - stable-diffusion
+      - 3d-models
+      - webui-extension
+      - lang:js
     summary: A custom extension for stable diffusion webui to load local 3D model/animation
     last_synced_sha: 3605e2168f229b14ac86c65063c1959408cd9dda
     user_starred_at: "2023-09-02T13:17:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -58456,6 +58599,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:19:53.100Z"
+      prompt_version: v2
   - repo: serengil/deepface
     categories:
       - ai-ml
