@@ -128,41 +128,46 @@ jobs:
               tags: Object.keys(tags).length
             };
 
-            const sortedCats = Object.keys(categories).sort();
             const topTags = Object.entries(tags)
               .sort((a,b) => b[1].length - a[1].length)
               .slice(0, 30)
               .map(([t, i]) => `[${t}](tags/${t}.md) (${i.length})`);
 
             let indexContent = `# Awesome Starred Repositories\n\n` +
-              `> A curated list of **${stats.total}** repositories, automatically classified and organized.\n\n` +
-              `Last updated: ${new Date().toISOString().split('T')[0]}\n\n` +
-              `## 📂 Categories\n\n`;
+              `> A curated list of **${stats.total}** repositories across **${stats.categories}** categories, automatically classified and organized.\n\n` +
+              `Last updated: ${new Date().toISOString().split('T')[0]}\n\n`;
 
-            // Group categories by letter for better readability
-            let currentLetter = '';
-            sortedCats.forEach(cat => {
-              const letter = cat.charAt(0).toUpperCase();
-              if (letter !== currentLetter) {
-                indexContent += `\n### ${letter}\n`;
-                currentLetter = letter;
-              }
-              const count = categories[cat].length;
-              indexContent += `- [${cat}](categories/${cat}.md) *(${count})*\n`;
-            });
-
-            indexContent += `\n## 🏷️ Popular Tags\n\n` + topTags.join(' • ') + `\n\n`;
-            
-            // Add Recent Stars Section
+            // Recent Stars Section (top priority)
             const recent = repos
               .sort((a,b) => new Date(b.user_starred_at) - new Date(a.user_starred_at))
               .slice(0, 10);
             
             indexContent += `## ⭐ Recently Starred\n\n` +
               renderTableHeader() + '\n' +
-              recent.map(renderRepoRow).join('\n');
+              recent.map(renderRepoRow).join('\n') + '\n\n';
 
-            indexContent += `\n\n---\n*Powered by [GitHub Stars Curation System](https://github.com/primeinc/github-stars)*`;
+            // Popular Tags
+            indexContent += `## 🏷️ Popular Tags\n\n` + topTags.join(' • ') + `\n\n`;
+
+            // Categories in collapsible grid at bottom
+            const catsByCount = Object.entries(categories)
+              .sort((a,b) => b[1].length - a[1].length)
+              .map(([cat, items]) => `[${cat}](categories/${cat}.md) (${items.length})`);
+            
+            // Build 3-column table
+            const cols = 3;
+            let catTable = '| | | |\n|---|---|---|\n';
+            for (let i = 0; i < catsByCount.length; i += cols) {
+              const row = [];
+              for (let j = 0; j < cols; j++) {
+                row.push(catsByCount[i + j] || '');
+              }
+              catTable += `| ${row.join(' | ')} |\n`;
+            }
+
+            indexContent += `<details>\n<summary>📂 All Categories (${stats.categories})</summary>\n\n${catTable}\n</details>\n`;
+
+            indexContent += `\n---\n*Powered by [GitHub Stars Curation System](https://github.com/primeinc/github-stars)*`;
 
             fs.writeFileSync('README.md', indexContent);
             console.log('README generation complete.');
