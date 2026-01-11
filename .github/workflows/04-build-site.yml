@@ -17,9 +17,13 @@ on:
 permissions:
   contents: write
 
-jobs:
+concurrency:
+  group: build-and-deploy-${{ github.ref }}
+  cancel-in-progress: true
+
   build-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.workflow_run.conclusion == 'success'
 
     steps:
@@ -28,6 +32,21 @@ jobs:
         with:
           fetch-depth: 0
           ref: main
+
+      - name: Setup yq (generate data first)
+        run: |
+          wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          chmod +x ./yq
+
+      - name: Generate site data (write to docs and web/public)
+        run: |
+          mkdir -p docs
+          mkdir -p web/public
+          ./yq eval -o=json '.' repos.yml > docs/data.json
+          cp docs/data.json web/public/data.json || true
+          echo "Generated docs/data.json and copied to web/public/data.json"
+          echo "Size: $(ls -lh docs/data.json | awk '{print $5}')"
+          echo "Repos: $(./yq eval '.repositories | length' repos.yml)"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -44,35 +63,82 @@ jobs:
         working-directory: web
         run: npm run build
 
-      - name: Setup yq
-        run: |
-          wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
-          chmod +x ./yq
-
-      - name: Generate site data
-        run: |
-          mkdir -p docs
-          
-          # Convert repos.yml to JSON for the static site (overwriting any stale data from build)
-          ./yq eval -o=json '.' repos.yml > docs/data.json
-          
-          echo "Generated docs/data.json"
-          echo "Size: $(ls -lh docs/data.json | awk '{print $5}')"
-          echo "Repos: $(./yq eval '.repositories | length' repos.yml)"
-
-      - name: Commit site data
+      - name: Commit docs (built assets + data) atomically
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
+
           git add docs/
-          
+
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Deploy site and update data [skip ci]"
-            for i in 1 2 3 4 5; do
-              git pull --rebase origin main
-              git push && break || sleep 10
+
+            attempts=0
+            max_attempts=5
+            until [ $attempts -ge $max_attempts ]
+            do
+              echo "Attempt $((attempts+1)) to pull/rebase and push"
+              if git pull --rebase --autostash origin main; then
+                if git push origin main; then
+                  echo "Pushed successfully"
+                  break
+                else
+                  echo "Push failed; will retry"
+                fi
+              else
+                echo "Rebase failed; aborting and retrying"
+                git rebase --abort || true
+                git status --porcelain || true
+              fi
+              attempts=$((attempts+1))
+              sleep 10
             done
+
+            if [ $attempts -ge $max_attempts ]; then
+              echo "::error::Failed to push changes after $max_attempts attempts. Aborting."
+              git status --porcelain || true
+              exit 1
+            fi
           fi
+
+  verify-site:
+    runs-on: ubuntu-latest
+    needs: build-and-deploy
+    timeout-minutes: 10
+    steps:
+      - name: Wait for Pages to be available
+        run: |
+          url="https://primeinc.github.io/github-stars/"
+          ok=1
+          for i in {1..20}; do
+            status=$(curl -s -o /dev/null -w "%{http_code}" "$url" || echo 000)
+            echo "Attempt $i: HTTP $status"
+            if [ "$status" -eq 200 ]; then
+              ok=0
+              break
+            fi
+            sleep 3
+          done
+          if [ $ok -ne 0 ]; then
+            echo "::error::Site did not respond with 200 after retries"
+            exit 1
+          fi
+
+      - name: Install Node and Playwright
+        run: |
+          npm init -y
+          npm i -D playwright@1.37.0
+          npx playwright install --with-deps
+
+      - name: Screenshot home page (Playwright)
+        run: |
+          node -e "const { chromium } = require('playwright'); (async () => { const b = await chromium.launch(); const p = await b.newPage(); await p.goto('https://primeinc.github.io/github-stars/'); await p.screenshot({ path: 'page-verification.png', fullPage: true }); await b.close(); })()"
+
+      - name: Upload verification screenshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-verification-screenshot
+          path: page-verification.png
+
