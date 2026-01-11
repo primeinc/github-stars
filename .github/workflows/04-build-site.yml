@@ -79,46 +79,6 @@ jobs:
         with:
           path: docs/
 
-      - name: Commit docs to repo
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add docs/
-
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Build site assets [skip ci]"
-
-            attempts=0
-            max_attempts=5
-            until [ $attempts -ge $max_attempts ]
-            do
-              echo "Attempt $((attempts+1)) to pull/rebase and push"
-              if git pull --rebase --autostash origin main; then
-                if git push origin main; then
-                  echo "Pushed successfully"
-                  break
-                else
-                  echo "Push failed; will retry"
-                fi
-              else
-                echo "Rebase failed; aborting and retrying"
-                git rebase --abort || true
-                git status --porcelain || true
-              fi
-              attempts=$((attempts+1))
-              sleep 10
-            done
-
-            if [ $attempts -ge $max_attempts ]; then
-              echo "::error::Failed to push changes after $max_attempts attempts. Aborting."
-              git status --porcelain || true
-              exit 1
-            fi
-          fi
-
   deploy:
     runs-on: ubuntu-latest
     needs: build
