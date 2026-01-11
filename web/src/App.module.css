@@ -1,0 +1,113 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.filterHeader {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox:hover {
+  color: var(--text-primary);
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--color-primary-500);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
+}
+
+.facetList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.facetBtn {
+  text-align: left;
+  background: transparent;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.facetBtn:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+.facetBtn.active {
+  background: var(--color-primary-500);
+  color: white;
+}
+
+.count {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+.clearBtn {
+  background: none;
+  border: none;
+  color: var(--color-primary-600);
+  font-size: 0.75rem;
+  cursor: pointer;
+  padding: 0;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  color: var(--text-muted);
+}

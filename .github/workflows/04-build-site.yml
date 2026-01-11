@@ -1,11 +1,12 @@
 ---
-name: 'Generate Site Data'
+name: 'Build and Deploy Site'
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'repos.yml'
+      - 'web/**'
     branches:
       - main
   workflow_run:
@@ -17,22 +18,31 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  build-and-deploy:
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || github.event.workflow_run.conclusion == 'success'
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           ref: main
 
-      - name: Pull latest changes
-        run: |
-          for i in 1 2 3; do
-            git pull origin main && break || sleep 5
-          done
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install Dependencies
+        working-directory: web
+        run: npm ci
+
+      - name: Build React App
+        working-directory: web
+        run: npm run build
 
       - name: Setup yq
         run: |
@@ -43,7 +53,7 @@ jobs:
         run: |
           mkdir -p docs
           
-          # Convert repos.yml to JSON for the static site
+          # Convert repos.yml to JSON for the static site (overwriting any stale data from build)
           ./yq eval -o=json '.' repos.yml > docs/data.json
           
           echo "Generated docs/data.json"
@@ -60,7 +70,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update site data [skip ci]"
+            git commit -m "Deploy site and update data [skip ci]"
             for i in 1 2 3 4 5; do
               git pull --rebase origin main
               git push && break || sleep 10
