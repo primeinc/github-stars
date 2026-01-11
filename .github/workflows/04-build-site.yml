@@ -121,7 +121,7 @@ jobs:
 
       - name: Install Dependencies
         working-directory: web
-        run: npm install
+        run: npm ci
 
       - name: Wait for Pages to be available
         run: |
