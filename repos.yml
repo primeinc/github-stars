@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:54:02.763Z"
+  last_updated: "2026-01-11T02:54:21.025Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -48291,13 +48291,17 @@ repositories:
       mirror_url: null
   - repo: tremorlabs/tremor-blocks
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - ui-components
+      - frontend
+      - lang:ts
     summary: Tremor Blocks Source Code
     last_synced_sha: b319e8d3d3678a4f60f4802f7e85bc1abc52d598
     starred_at: "2025-11-25T05:20:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -48310,15 +48314,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.025Z"
+      prompt_version: v2
   - repo: Aldhanekaa/ShadcnVaults
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - ui-components
+      - tailwindcss
+      - shadcn
+      - react
+      - lang:ts
     summary: Collection of blocks for Internal Tools UI built on top of shadcn/ui
     last_synced_sha: b30d311344fe7a7e65892de5c6d5fc019beb98cc
     starred_at: "2025-11-25T05:01:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48346,15 +48361,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.025Z"
+      prompt_version: v2
   - repo: olhel/sub2tenant-aca
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - networking
+    tags:
+      - azure
+      - tenant-lookup
+      - subscription-id
+      - lang:html
     summary: Lookup Azure tenant information from a subscription ID.
     last_synced_sha: d80cc0a512b183193814d9b539099571c0fffe12
     starred_at: "2025-11-24T23:51:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -48367,15 +48392,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.024Z"
+      prompt_version: v2
   - repo: nvbn/thefuck
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cli-tools
+    tags:
+      - command-correction
+      - shell
+      - lang:python
     summary: Magnificent app which corrects your previous console command.
     last_synced_sha: c7e7e1d884d3bb241ea6448f72a989434c2a35ec
     starred_at: "2025-11-24T23:40:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -48392,15 +48426,24 @@ repositories:
         published_at: "2022-01-02T22:17:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.024Z"
+      prompt_version: v2
   - repo: shane-downes/styleglide
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - design-system
+      - tailwindcss
+      - lang:ts
     summary: Create your own shadcn/ui and Tailwind CSS design system
     last_synced_sha: 86e10dfc08e4f9d70e2c3afc5c30812a48450a76
     starred_at: "2025-11-22T10:29:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -48415,15 +48458,25 @@ repositories:
         published_at: "2025-07-14T20:36:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.024Z"
+      prompt_version: v2
   - repo: copyleftdev/mailsentinel
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+    tags:
+      - email-automation
+      - privacy
+      - machine-learning
+      - lang:go
     summary: AI-powered Gmail classification system using local Ollama LLM inference. Privacy-first email triage with modular YAML profiles, cryptographic audit trails, and enterprise-grade security.
     last_synced_sha: 4484cd91a2a53a2ce1f267bdf23816c70696b8a1
     starred_at: "2025-11-22T06:14:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -48456,15 +48509,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.024Z"
+      prompt_version: v2
   - repo: trungdq88/Awesome-Black-Friday-Cyber-Monday
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - deals
+      - resources
+      - software-deals
     summary: Awesome apps, software, and Saa S deals on Black Friday.
     last_synced_sha: 715b4e62259bebec6ae84b3a5b7e45b5b2d880b9
     starred_at: "2025-11-22T06:00:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -48477,15 +48539,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.024Z"
+      prompt_version: v2
   - repo: squidfunk/mkdocs-material
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - frameworks
+    tags:
+      - mkdocs
+      - documentation
+      - material-design
+      - lang:python
     summary: Documentation that simply works
     last_synced_sha: 8fc61b5cb00845825179d6fd3e331c789f83187b
     starred_at: "2025-11-22T05:59:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -48506,15 +48578,25 @@ repositories:
         published_at: "2025-12-18T09:54:49Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.024Z"
+      prompt_version: v2
   - repo: chitalian/openllmetry-js
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - ai-ml
+    tags:
+      - observability
+      - llm
+      - open-telemetry
+      - lang:ts
     summary: Sister project to Open LLMetry, but in Typescript. Open-source observability for your LLM application, based on Open Telemetry
     last_synced_sha: 64d69dfda5dba6f2620c01fc8f45cd7a5b597bd2
     starred_at: "2025-11-22T05:58:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: TypeScript
@@ -48528,15 +48610,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.024Z"
+      prompt_version: v2
   - repo: gtsteffaniak/filebrowser
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - file-management
+      - web-app
+      - lang:go
     summary: "\U0001F4C2 Web File Browser"
     last_synced_sha: 4f73b4cc6bc55a4c0ce2e90664c85af066616b0d
     starred_at: "2025-11-22T05:57:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -48551,15 +48642,26 @@ repositories:
         published_at: "2025-12-22T20:30:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.024Z"
+      prompt_version: v2
   - repo: dgtlmoon/changedetection.io
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - productivity
+    tags:
+      - change-detection
+      - website-monitoring
+      - notifications
+      - web-scraping
+      - lang:python
     summary: Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monito...
     last_synced_sha: 2f6978f2c7927905b10e271e23038eb69a6e80ec
     starred_at: "2025-11-22T05:55:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -48594,15 +48696,26 @@ repositories:
         published_at: "2025-11-28T12:26:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.024Z"
+      prompt_version: v2
   - repo: slidevjs/slidev
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - slides
+      - markdown
+      - vite
+      - lang:ts
+      - vue
     summary: Presentation Slides for Developers
     last_synced_sha: 6302fb7e958901b9c6d1039db8d286bfa9eed7a1
     starred_at: "2025-11-22T05:51:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48623,15 +48736,24 @@ repositories:
         published_at: "2026-01-08T07:40:58Z"
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.024Z"
+      prompt_version: v2
   - repo: resend/react-email
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - email
+      - react
+      - lang:ts
     summary: "\U0001F48C Build and send emails using React"
     last_synced_sha: 6c26925085398407cf6a9cc708b228b2936e3c9d
     starred_at: "2025-11-22T05:49:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48648,15 +48770,24 @@ repositories:
         published_at: "2026-01-07T18:17:54Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.024Z"
+      prompt_version: v2
   - repo: stan-smith/FossFLOW
     categories:
-      - unclassified
-    tags: []
+      - infrastructure
+      - devops
+    tags:
+      - infrastructure-diagrams
+      - visualization
+      - lang:ts
     summary: Make beautiful isometric infrastructure diagrams
     last_synced_sha: 75b967664003cb8272eb8f10a9f225363f717304
     starred_at: "2025-11-22T05:48:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48674,15 +48805,25 @@ repositories:
         published_at: "2025-11-18T06:21:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.024Z"
+      prompt_version: v2
   - repo: requestly/requestly
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+    tags:
+      - api-client
+      - http-interceptor
+      - mock-server
+      - lang:ts
     summary: Free and open-source API Client & Interceptor.
     last_synced_sha: 694a3441b0ceeda3eee23125e217198cf6aa13cc
     starred_at: "2025-11-22T05:48:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48717,6 +48858,11 @@ repositories:
         published_at: "2025-12-29T12:03:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:54:21.023Z"
+      prompt_version: v2
   - repo: Dokploy/dokploy
     categories:
       - deployment
