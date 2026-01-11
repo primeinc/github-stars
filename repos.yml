@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:57:09.927Z"
+  last_updated: "2026-01-11T02:57:28.933Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -44011,13 +44011,19 @@ repositories:
       mirror_url: null
   - repo: farion1231/cc-switch
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ai-ml
+    tags:
+      - ai-tools
+      - cross-platform
+      - tauri
+      - desktop-tools
+      - lang:rust
     summary: A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI.
     last_synced_sha: 6021274b8271d065de436051623959fbf396c1ae
     starred_at: "2025-12-28T04:22:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -44047,15 +44053,26 @@ repositories:
         published_at: "2026-01-09T14:11:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.933Z"
+      prompt_version: v2
   - repo: mediar-ai/screenpipe
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - ai
+      - machine-learning
+      - computer-vision
+      - multimodal
+      - lang:ts
     summary: AI app store powered by 24/7 desktop history. open source | 100% local | dev friendly | 24/7 screen, mic recording
     last_synced_sha: d622ff90fcb3527aeb64ec81515eb3dd548a8693
     starred_at: "2025-12-28T04:20:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44079,15 +44096,26 @@ repositories:
         published_at: "2025-03-28T17:12:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.933Z"
+      prompt_version: v2
   - repo: nicotsx/zerobyte
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - devops
+    tags:
+      - backup
+      - restic
+      - automation
+      - self-hosting
+      - lang:ts
     summary: Backup automation for self-hosters. Built on top of restic
     last_synced_sha: c9a6a11831c5386dc580d16c9b39332e4a564a36
     starred_at: "2025-12-28T04:19:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -44102,15 +44130,25 @@ repositories:
         published_at: "2026-01-02T23:35:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.933Z"
+      prompt_version: v2
   - repo: ant-design/ant-design
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react
+      - ui-kit
+      - design-systems
+      - lang:ts
     summary: An enterprise-class UI design language and React UI library
     last_synced_sha: 8def94703b1acd6b5cfd77bd1487f833ba7d30e6
     starred_at: "2025-12-28T04:17:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44132,15 +44170,26 @@ repositories:
         published_at: "2026-01-05T08:38:38Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.933Z"
+      prompt_version: v2
   - repo: NanmiCoder/MediaCrawler
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - networking
+    tags:
+      - web-scraping
+      - web-crawling
+      - automation
+      - data-extraction
+      - lang:python
     summary: 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫
     last_synced_sha: 4de2a325a9cd4f7de7dfb58204b154fc2bb86e40
     starred_at: "2025-12-28T04:15:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -44153,15 +44202,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.933Z"
+      prompt_version: v2
   - repo: SpriteOvO/AirPodsDesktop
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - system-admin
+    tags:
+      - airpods
+      - bluetooth
+      - monitor
+      - desktop-tools
+      - lang:cpp
     summary: ☄️ Air Pods desktop user experience enhancement program, for Windows and Linux (WIP)
     last_synced_sha: 254c07939fc37841685aa116635ea47bce1dba37
     starred_at: "2025-12-28T04:10:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -44186,15 +44246,26 @@ repositories:
         published_at: "2023-10-10T04:44:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.933Z"
+      prompt_version: v2
   - repo: stakira/OpenUtau
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ai-ml
+    tags:
+      - voice-synthesis
+      - music
+      - vocaloid
+      - speech-synthesis
+      - lang:csharp
     summary: Open singing synthesis platform / Open source UTAU successor
     last_synced_sha: 58c28398278510750f308f3ce0250f8834936147
     starred_at: "2025-12-28T04:04:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -44218,15 +44289,26 @@ repositories:
         published_at: "2025-09-14T03:17:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.933Z"
+      prompt_version: v2
   - repo: builtbybel/FlyOOBE
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - windows-setup
+      - tools
+      - gui
+      - os-setup
+      - lang:csharp
     summary: "Fly through your Windows 11 setup \U0001F41D"
     last_synced_sha: ed093a784df51b19e989395f2ed6443ca1f335dd
     starred_at: "2025-12-28T04:04:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -44246,15 +44328,23 @@ repositories:
         published_at: "2026-01-04T19:26:14Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.933Z"
+      prompt_version: v2
   - repo: NullandKale/NullSplats
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - productivity
+    tags:
+      - unknown-purpose
+      - lang:python
     summary: No description provided
     last_synced_sha: ee3c60e00d1a624dfdfcfa1158fbf511f7957346
     starred_at: "2025-12-27T04:55:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -44269,15 +44359,27 @@ repositories:
         published_at: "2025-12-26T06:12:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.933Z"
+      prompt_version: v2
   - repo: open-metadata/OpenMetadata
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - databases
+    tags:
+      - metadata
+      - data-discovery
+      - data-quality
+      - governance
+      - lineage
+      - lang:ts
     summary: Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c...
     last_synced_sha: b6e8207e2b70fcc61ef55de855afc28be5fe43b1
     starred_at: "2025-12-26T09:57:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44312,15 +44414,27 @@ repositories:
         published_at: "2025-12-24T11:45:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.933Z"
+      prompt_version: v2
   - repo: D4Vinci/Scrapling
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - web-scraping
+      - ai-scraping
+      - automation
+      - crawling
+      - data-extraction
+      - lang:python
     summary: "\U0001F577️ An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be!"
     last_synced_sha: de79fe80bb410651211dedf2c4793809afd60435
     starred_at: "2025-12-26T09:57:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -44355,15 +44469,27 @@ repositories:
         published_at: "2026-01-03T20:29:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.933Z"
+      prompt_version: v2
   - repo: assafelovic/gpt-researcher
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai
+      - automation
+      - llms
+      - webscraping
+      - deep-research
+      - lang:python
     summary: An LLM agent that conducts deep research (local and web) on any given topic and generates a long report with citations.
     last_synced_sha: 2a94c18fca60d30a2757e203eeaafd6dd24a94f4
     starred_at: "2025-12-26T09:55:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -44389,15 +44515,27 @@ repositories:
         published_at: "2025-12-14T08:08:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.933Z"
+      prompt_version: v2
   - repo: rsalmei/alive-progress
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - progress-bar
+      - animations
+      - terminal
+      - cli
+      - multi-threaded
+      - lang:python
     summary: A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations!
     last_synced_sha: 69d9bf0aba6276e2434a3a595cceca55040d64d7
     starred_at: "2025-12-26T04:35:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -44430,15 +44568,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.933Z"
+      prompt_version: v2
   - repo: jgarzik/hk
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - infrastructure
+    tags:
+      - kernel
+      - linux
+      - os-development
+      - lang:rust
     summary: A modern, Linux compatible OS kernel
     last_synced_sha: 3ddbdb3b3d7162978719767369164645674d6e82
     starred_at: "2025-12-23T20:35:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -44456,15 +44604,26 @@ repositories:
         published_at: "2025-12-30T01:55:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.933Z"
+      prompt_version: v2
   - repo: e18e/eslint-plugin
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - programming
+    tags:
+      - eslint
+      - code-moderation
+      - performance
+      - linting
+      - lang:ts
     summary: The official e18e ESLint plugin for code modernization and performance best practices
     last_synced_sha: 8cfe697f5392c460a0bad6cbe2cc4679440dae5e
     starred_at: "2025-12-22T16:55:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -44479,6 +44638,11 @@ repositories:
         published_at: "2025-12-21T15:16:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:57:28.932Z"
+      prompt_version: v2
   - repo: Azure-Player/azure.datafactory.tools
     categories:
       - devops
