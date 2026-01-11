@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:43:40.722Z"
+  last_updated: "2026-01-11T02:43:59.165Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -62996,13 +62996,18 @@ repositories:
       mirror_url: null
   - repo: satococoa/wtp
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - git
+      - worktree
+      - automation
+      - lang:go
     summary: "\U0001F333 A powerful Git worktree CLI tool with automated setup, branch tracking, and smart navigation"
     last_synced_sha: e9095d31e3fdaf0c8fb2e9b713c2c5fcbd9f9657
     starred_at: "2025-08-16T07:42:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -63024,15 +63029,24 @@ repositories:
         published_at: "2025-12-18T13:36:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.165Z"
+      prompt_version: v2
   - repo: wolfdenpublishing/pyccsl
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cli-tools
+    tags:
+      - status-line
+      - lang:python
+      - developer-tools
     summary: Python Claude Code Status Line (Py CCSL, pronounced "pixel")
     last_synced_sha: b0e0482bdeb0ba068d441d6dd97fce20beec383b
     starred_at: "2025-08-16T07:39:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -63045,15 +63059,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.165Z"
+      prompt_version: v2
   - repo: manycore-research/SpatialLM
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - spatial-intelligence
+      - scene-modeling
+      - lang:python
+      - point-clouds
     summary: '[Neur IPS 2025] Spatial LM: Training Large Language Models for Structured Indoor Modeling'
     last_synced_sha: 029808be90daef80cf2b850e254716ca7d64254f
     starred_at: "2025-08-16T07:38:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -63072,15 +63096,25 @@ repositories:
         published_at: "2025-06-10T17:34:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.165Z"
+      prompt_version: v2
   - repo: microsoft/magentic-ui
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - ai-ux
+      - web-agent
+      - lang:python
+      - user-interface
     summary: A research prototype of a human-centered web agent
     last_synced_sha: edaed9aeb37a0454a52a1614a26da58c5008c21e
     starred_at: "2025-08-16T07:37:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -63103,15 +63137,25 @@ repositories:
         published_at: "2025-11-29T01:31:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.165Z"
+      prompt_version: v2
   - repo: microsoft/markitdown
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - markdown
+      - file-conversion
+      - lang:python
+      - pdf
     summary: Python tool for converting files and office documents to Markdown.
     last_synced_sha: 7fdaefb724d08a999f8d30647e8ce8f2ad1c5795
     starred_at: "2025-08-16T07:35:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -63133,15 +63177,24 @@ repositories:
         published_at: "2025-12-01T18:20:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.164Z"
+      prompt_version: v2
   - repo: ArthurVerrez/personal-data-formatter-for-notebooklm
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - data-formatting
+      - personal-data
+      - lang:python
     summary: A python utility codebase to format personal data to feed inside Notebook LM, like Whatsapp, Messenger & Instagram conversations, but also Chat GPT conversations, Google Keep & Google Tasks
     last_synced_sha: ca40085332a664a02bfad8fd04523b3f1132db28
     starred_at: "2025-08-14T23:45:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -63154,15 +63207,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.164Z"
+      prompt_version: v2
   - repo: polarsource/polar
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - saas
+      - subscriptions
+      - digital-products
+      - lang:python
+      - fastapi
     summary: Turn your software into a business.
     last_synced_sha: 50430ad08be58c0a87d6c7f09430fdd83cd42763
     starred_at: "2025-08-13T21:30:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -63189,15 +63253,25 @@ repositories:
         published_at: "2025-10-24T13:10:21Z"
       is_mirror: false
       mirror_url: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.164Z"
+      prompt_version: v2
   - repo: x1xhlol/system-prompts-and-models-of-ai-tools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - ai-tools
+      - system-prompts
+      - copilot
+      - open-source
     summary: FULL Augment Code, Claude Code, Cluely, Code Buddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, Notion AI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer ...
     last_synced_sha: 6b2157ca3eaa6e562cd457a88770dc307c0933f1
     starred_at: "2025-08-13T21:29:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -63230,15 +63304,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.164Z"
+      prompt_version: v2
   - repo: emilk/egui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - game-dev
+    tags:
+      - gui
+      - immediate-mode
+      - wasm
+      - lang:rust
     summary: 'egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native'
     last_synced_sha: a9e92525c01e90417b431af9a4ea9db4d3dd6179
     starred_at: "2025-08-13T21:23:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -63260,15 +63344,25 @@ repositories:
         published_at: "2025-12-11T14:42:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.164Z"
+      prompt_version: v2
   - repo: FiloSottile/mkcert
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - certificates
+      - tls
+      - local-development
+      - lang:go
     summary: A simple zero-config tool to make locally trusted development certificates with any names you'd like.
     last_synced_sha: 1c1dc4ed27ed5936046b6398d39cab4d657a2d8e
     starred_at: "2025-08-12T22:13:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -63295,15 +63389,26 @@ repositories:
         published_at: "2022-04-26T17:51:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.164Z"
+      prompt_version: v2
   - repo: fastapi/full-stack-fastapi-template
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - full-stack
+      - boilerplate
+      - lang:ts
+      - fastapi
+      - react
     summary: Full stack, modern web application template. Using Fast API, React, SQLModel, Postgre SQL, Docker, Git Hub Actions, automatic HTTPS and more.
     last_synced_sha: 63f167d4625c71d49a0391c2532a2f30d426b3d7
     starred_at: "2025-08-12T22:11:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -63337,15 +63442,25 @@ repositories:
         published_at: "2025-12-08T19:14:18Z"
       is_mirror: false
       mirror_url: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.164Z"
+      prompt_version: v2
   - repo: umami-software/umami
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - web-dev
+    tags:
+      - analytics
+      - privacy-focused
+      - web-analytics
+      - lang:ts
     summary: Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel and Amplitude.
     last_synced_sha: 860e6390f14e7572b27d3ea1230258cff8c9bc96
     starred_at: "2025-08-12T22:11:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -63369,15 +63484,25 @@ repositories:
         published_at: "2025-12-12T02:39:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.164Z"
+      prompt_version: v2
   - repo: AgentDeskAI/browser-tools-mcp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-integration
+      - browser-logs
+      - monitoring
+      - lang:js
     summary: Monitor browser logs directly from Cursor and other MCP compatible IDEs.
     last_synced_sha: 0befce357f2421e928f2a19ee09ab502080a35a5
     starred_at: "2025-08-11T02:53:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -63397,15 +63522,25 @@ repositories:
         published_at: "2025-03-10T18:34:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.164Z"
+      prompt_version: v2
   - repo: scraed/LanPaint
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - inpaint
+      - stable-diffusion
+      - image-editing
+      - lang:python
     summary: High quality training free inpaint for every stable diffusion model. Supports Comfy UI
     last_synced_sha: 9479106c1dc2a60d6214832b273221400455c1b8
     starred_at: "2025-08-10T06:27:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -63420,15 +63555,25 @@ repositories:
         published_at: "2025-12-25T15:37:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.164Z"
+      prompt_version: v2
   - repo: upstash/context7
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - llm
+      - mcp
+      - documentation
+      - lang:ts
     summary: Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors
     last_synced_sha: 3553cb2023033377dc077bae1867bc9081371fe7
     starred_at: "2025-08-09T19:49:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -63447,6 +63592,11 @@ repositories:
         published_at: "2026-01-08T17:32:47Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:59.163Z"
+      prompt_version: v2
   - repo: peterkrueck/Claude-Code-Development-Kit
     categories:
       - dev-tools
