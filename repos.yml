@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:46:31.991Z"
+  last_updated: "2026-01-11T02:46:50.620Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -58943,13 +58943,19 @@ repositories:
       mirror_url: null
   - repo: RevenueCat/react-native-purchases
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - apis
+    tags:
+      - react-native
+      - ios
+      - android
+      - lang:ts
+      - subscriptions
     summary: React Native in-app purchases and subscriptions made easy. Support for i OS and Android.
     last_synced_sha: d4cb22b5fd7e13e4218552cecbff1b62271c2e1e
     starred_at: "2025-09-13T15:54:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -58970,15 +58976,24 @@ repositories:
         published_at: "2026-01-08T09:10:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.620Z"
+      prompt_version: v2
   - repo: NousResearch/DisTrO
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - infrastructure
+    tags:
+      - distributed-training
+      - ai
+      - scalability
     summary: Distributed Training Over-The-Internet
     last_synced_sha: 24f10628c28692c01e7d282823fd158140b4bcee
     starred_at: "2025-09-13T10:44:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -58991,15 +59006,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.620Z"
+      prompt_version: v2
   - repo: NousResearch/Hermes-Function-Calling
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - function-calling
+      - ai
+      - lang:python
+      - jupyter-notebooks
     summary: No description provided
     last_synced_sha: ea3c4723e4cefdac760d483ccac6c8a428c95ab8
     starred_at: "2025-09-13T07:57:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -59012,15 +59037,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.620Z"
+      prompt_version: v2
   - repo: microsoft/mcp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - ai
+      - model-context
+      - lang:csharp
     summary: Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration
     last_synced_sha: 49080f93b16ed7587165af8184fd20b4829b2d78
     starred_at: "2025-09-13T07:55:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -59035,15 +59069,25 @@ repositories:
         published_at: "2026-01-08T20:49:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.620Z"
+      prompt_version: v2
   - repo: microsoft/garnet
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - infrastructure
+    tags:
+      - cache
+      - key-value-store
+      - lang:csharp
+      - scalability
     summary: Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication feat...
     last_synced_sha: 72407cc65b95e3a6dc59c4060b0986403c6dc6de
     starred_at: "2025-09-13T07:55:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -59070,15 +59114,25 @@ repositories:
         published_at: "2025-12-09T01:32:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.619Z"
+      prompt_version: v2
   - repo: 0x7c13/Notepads
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - text-editor
+      - lang:csharp
+      - fluent-design
+      - windows
     summary: A modern, lightweight text editor with a minimalist design.
     last_synced_sha: 39a2159ca24d2c04889b651c41889c72a7a9db43
     starred_at: "2025-09-13T07:55:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -59101,15 +59155,26 @@ repositories:
         published_at: "2025-03-28T09:00:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.619Z"
+      prompt_version: v2
   - repo: lepoco/wpfui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - wpf
+      - lang:csharp
+      - fluent
+      - ui
+      - windows
     summary: WPF UI provides the Fluent experience in your known and loved WPF framework. Intuitive design, themes, navigation and new immersive controls. All natively and effortlessly.
     last_synced_sha: c4893bdd6702a7bd1ebbbfb9e4dfef257c0ba470
     starred_at: "2025-09-13T07:54:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -59136,15 +59201,24 @@ repositories:
         published_at: "2026-01-10T15:28:07Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.619Z"
+      prompt_version: v2
   - repo: matiassingers/awesome-readme
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - readme
+      - awesome-list
+      - resources
     summary: A curated list of awesome READMEs
     last_synced_sha: b3ab4b31c9da11cb97626ec52fa3e95fd8cec63f
     starred_at: "2025-09-13T07:50:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -59161,15 +59235,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.619Z"
+      prompt_version: v2
   - repo: posquit0/Awesome-CV
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - latex
+      - resume
+      - cv
+      - template
     summary: ':page_facing_up: Awesome CV is La Te X template for your outstanding job application'
     last_synced_sha: 12dd17c7738da65519587234103e9cd117d58649
     starred_at: "2025-09-13T07:49:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TeX
       topics:
@@ -59192,15 +59276,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.619Z"
+      prompt_version: v2
   - repo: DopplerHQ/awesome-interview-questions
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - productivity
+    tags:
+      - interview-questions
+      - awesome-list
+      - resources
+      - career
     summary: ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board:'
     last_synced_sha: bcb0c90a0ab3c495857ca9ea63f367e68848346c
     starred_at: "2025-09-13T07:47:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: null
@@ -59228,15 +59322,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.619Z"
+      prompt_version: v2
   - repo: Hack-with-Github/Awesome-Hacking
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - hacking
+      - security
+      - awesome-list
+      - pentesting
     summary: A collection of various awesome lists for hackers, pentesters and security researchers
     last_synced_sha: 5a02f846e8fc5cf0d64e175f52e06b72df950d28
     starred_at: "2025-09-13T07:47:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -59258,15 +59362,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.619Z"
+      prompt_version: v2
   - repo: unchihugo/FluentFlyout
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - windows-11
+      - fluent-design
+      - ui
+      - lang:csharp
     summary: The modern Flyout app for Windows 11, built with Fluent 2 Design principles. Media Flyouts, Taskbar Widgets and more.
     last_synced_sha: 1c81ab98cbeb965d3664b15d177f6e7072800d12
     starred_at: "2025-09-13T07:42:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -59296,15 +59410,25 @@ repositories:
         published_at: "2026-01-10T14:59:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.619Z"
+      prompt_version: v2
   - repo: winapps-org/winapps
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - docker
+      - linux-integration
+      - windows
+      - shell
     summary: Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration. Hard fork of https://github.com/Fmstr...
     last_synced_sha: 8b63321f3b14f0f61b1e45772fdafe6ef57d8f98
     starred_at: "2025-09-13T07:41:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -59337,15 +59461,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.619Z"
+      prompt_version: v2
   - repo: googleapis/gcloud-mcp
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - apis
+    tags:
+      - gcloud
+      - lang:ts
+      - sdk
+      - google-cloud
+      - api
     summary: gcloud MCP server
     last_synced_sha: 98ea53cb3a2b6bc0f2bb79f536961cd1b27a78e4
     starred_at: "2025-09-13T07:41:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -59360,15 +59495,24 @@ repositories:
         published_at: "2026-01-05T19:33:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.619Z"
+      prompt_version: v2
   - repo: LAION-AI/worldsim
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - game-dev
+    tags:
+      - simulation
+      - world-modeling
+      - ai
     summary: No description provided
     last_synced_sha: 7217b451c4b33df8913212f7306f139bf7fe8013
     starred_at: "2025-09-13T07:38:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -59381,6 +59525,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:46:50.618Z"
+      prompt_version: v2
   - repo: Zie619/n8n-workflows
     categories:
       - automation
