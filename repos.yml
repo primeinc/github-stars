@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:58:37.190Z"
+  last_updated: "2026-01-11T02:58:56.415Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -42293,13 +42293,18 @@ repositories:
       mirror_url: null
   - repo: x011/smtp-tunnel-proxy
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - lang:python
+      - tunnel
+      - encryption
+      - network-security
     summary: A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls.
     last_synced_sha: 7a038da61089d37d362afdf97bbace876961e13e
     starred_at: "2026-01-09T18:03:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42329,15 +42334,25 @@ repositories:
         published_at: "2026-01-07T08:24:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.415Z"
+      prompt_version: v2
   - repo: AndurilCode/mcp-apps-kit
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ai-ml
+    tags:
+      - lang:ts
+      - mcp-apps
+      - express
+      - chatgpt-apps
     summary: A Type Script framework for building interactive MCP applications that work seamlessly with both MCP Apps and Chat GPT (Open AI Apps SDK) from a single codebase.
     last_synced_sha: c48cc0e39a95d27518dbac18fe0464504c51a3e0
     starred_at: "2026-01-09T18:03:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42363,15 +42378,24 @@ repositories:
         published_at: "2026-01-09T18:41:04Z"
       is_mirror: false
       mirror_url: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.415Z"
+      prompt_version: v2
   - repo: frostybee/starlight-tags
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - documentation
+    tags:
+      - content-organization
+      - tags
+      - astro
     summary: A plugin to add tags to your Starlight docs for content organization and discovery.
     last_synced_sha: ac76b0977ffc5f005c9e7ac09e5f7c15fea7d13e
     starred_at: "2026-01-09T18:01:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Astro
       topics:
@@ -42390,15 +42414,24 @@ repositories:
         published_at: "2026-01-07T04:15:01Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.415Z"
+      prompt_version: v2
   - repo: samuel-vitorino/sopro
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:python
+      - text-to-speech
+      - voice-cloning
     summary: A lightweight text-to-speech model with zero-shot voice cloning
     last_synced_sha: 482c207a48fbbb4287036ea1166be295ec6edd34
     starred_at: "2026-01-09T17:59:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -42411,15 +42444,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.415Z"
+      prompt_version: v2
   - repo: kdcokenny/opencode-worktree
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - lang:ts
+      - git
+      - worktree
+      - ai
     summary: Zero-friction git worktrees for Open Code. Auto-spawns terminals, syncs files, cleans up on exit.
     last_synced_sha: 455e3a4c3407921d0fe36741ea80c2cf0708a85e
     starred_at: "2026-01-09T17:57:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42442,15 +42485,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.415Z"
+      prompt_version: v2
   - repo: MiroMindAI/MiroThinker
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - lang:python
+      - research-agent
+      - search-agent
     summary: Miro Thinker is an open-source search agent model, built for tool-augmented reasoning and real-world information seeking, aiming to match the deep research experience of Open AI Deep Research and G...
     last_synced_sha: 9e08a9372ea45c0ec683b1809512098b8b43fc30
     starred_at: "2026-01-09T17:56:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42473,15 +42525,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.415Z"
+      prompt_version: v2
   - repo: Lightricks/ComfyUI-LTXVideo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - lang:python
+      - diffusion-models
+      - video-processing
     summary: LTX-Video Support for Comfy UI
     last_synced_sha: 6790484426305443104ea47d7a2aab13badd8c49
     starred_at: "2026-01-09T17:56:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42501,15 +42562,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.415Z"
+      prompt_version: v2
   - repo: leonvanzyl/autocoder
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - autocoder
+      - lang:python
+      - automation
     summary: No description provided
     last_synced_sha: 334b6554723f8054497ca36248b234541f767c09
     starred_at: "2026-01-09T13:01:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -42522,15 +42592,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.415Z"
+      prompt_version: v2
   - repo: jamichss/Stream-DiffVSR
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-super-resolution
+      - diffusion
+      - lang:python
+      - streamable
     summary: 'The official repository of paper "Stream-Diff VSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion"'
     last_synced_sha: 23b4325b73673ce24de7e49aad166ca7b58fe57d
     starred_at: "2026-01-07T13:17:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -42543,15 +42623,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.415Z"
+      prompt_version: v2
   - repo: IIEleven11/ComfyUI-Dataset_Maker
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:python
+      - dataset-creation
     summary: No description provided
     last_synced_sha: f7fc133ed97fdcaea485382fe23946d8bef2cd37
     starred_at: "2026-01-05T22:08:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -42564,15 +42652,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.415Z"
+      prompt_version: v2
   - repo: kasperjunge/agent-resources
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - agent-skills
+      - lang:python
+      - agent-commands
     summary: "Install Claude Code skills from Git Hub with one command: uvx add-skill \U0001F680 Also works for slash commands and subagents \U0001F919"
     last_synced_sha: 1a0978e3cb2038c463b0da693d55971be55089a9
     starred_at: "2026-01-05T18:01:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42590,15 +42687,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.415Z"
+      prompt_version: v2
   - repo: davidfowl/tally
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - transactions
+      - classification
+      - lang:python
+      - agent
     summary: Let agents classify your bank transactions.
     last_synced_sha: 44c2c0920dca038c25e02fbd17c6a8f8b88ae413
     starred_at: "2026-01-05T17:59:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -42613,15 +42720,24 @@ repositories:
         published_at: "2026-01-10T04:30:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.415Z"
+      prompt_version: v2
   - repo: cocos/cocos-cli
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - game-dev
+    tags:
+      - game-development
+      - lang:ts
+      - cli
     summary: COCOS CLI
     last_synced_sha: 4ec1148d539501a1509093a1038c244380832650
     starred_at: "2026-01-05T17:58:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -42636,15 +42752,25 @@ repositories:
         published_at: "2025-12-30T12:01:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.415Z"
+      prompt_version: v2
   - repo: ArtemXTech/claude-code-obsidian-starter
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - ai
+      - obsidian
+      - productivity
+      - automation
     summary: 'Free starter kit: Claude Code + Obsidian. Pre-configured vault with skills for projects, tasks, clients, and daily routines. Just open and go.'
     last_synced_sha: ec683be128d5611f65b5f3f427c82f15af5e774a
     starred_at: "2026-01-05T17:56:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Typst
       topics:
@@ -42662,15 +42788,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.415Z"
+      prompt_version: v2
   - repo: code-yeongyu/agent-engineering-guide
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - agents
+      - engineering-guide
     summary: Aren't you curious how i made Sisyphus? And what could be more?
     last_synced_sha: "0000000000000000000000000000000000000000"
     starred_at: "2026-01-05T17:55:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -42683,6 +42817,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:56.414Z"
+      prompt_version: v2
   - repo: kamranahmedse/claude-run
     categories:
       - ui-libraries
