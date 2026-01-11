@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:42:44.435Z"
+  last_updated: "2026-01-11T02:43:03.630Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -64256,13 +64256,19 @@ repositories:
       mirror_url: null
   - repo: frappe/hrms
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - hrms
+      - hr
+      - payroll
+      - employee-management
+      - lang:python
     summary: Open Source HR and Payroll Software
     last_synced_sha: 19547b902bc592c88fc758e4cdec2fff63b8d181
     starred_at: "2025-07-31T21:58:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -64297,15 +64303,25 @@ repositories:
         published_at: "2026-01-06T07:32:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.630Z"
+      prompt_version: v2
   - repo: EmenstaNougat/ESP32-BlueJammer
     categories:
-      - unclassified
-    tags: []
+      - security
+      - embedded
+    tags:
+      - jammer
+      - esp32
+      - programming
+      - cybersecurity
     summary: The ESP32-Blue Jammer (Bluetooth jammer, BLE jammer, Wi Fi jammer, RC jammer) disrupts 2.4GHz communications. Using an ESP32 and n RF24 modules, it generates noise and unnecessary packets, causing ...
     last_synced_sha: 562d0b5c5451e97fbb75146f26d9d64faef7101b
     starred_at: "2025-07-31T21:57:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -64333,15 +64349,24 @@ repositories:
         published_at: "2025-09-22T19:30:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.629Z"
+      prompt_version: v2
   - repo: SkyworkAI/SkyReels-V2
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - film-generation
+      - infinite-length
+      - lang:python
     summary: 'Sky Reels-V2: Infinite-length Film Generative model'
     last_synced_sha: 574a138309b6dc1e176451edc8bbd6078f16e0b1
     starred_at: "2025-07-31T21:57:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -64354,15 +64379,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.629Z"
+      prompt_version: v2
   - repo: 9001/copyparty
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+      - cli-tools
+    tags:
+      - file-server
+      - file-sharing
+      - ftp-server
+      - webdav
+      - lang:python
     summary: Portable file server with accelerated resumable uploads, dedup, Web DAV, SFTP, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file
     last_synced_sha: 7357d46f43b4f3757eb8d40f53946556836644e7
     starred_at: "2025-07-31T21:56:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -64385,15 +64422,25 @@ repositories:
         published_at: "2026-01-09T01:30:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.629Z"
+      prompt_version: v2
   - repo: wshobson/commands
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - slash-commands
+      - ai
+      - automation
+      - workflows
     summary: A collection of production-ready slash commands for Claude Code
     last_synced_sha: 27d3e77b1a844223721f6c983ddf261ac4441b89
     starred_at: "2025-07-30T17:19:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -64421,15 +64468,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.629Z"
+      prompt_version: v2
   - repo: wshobson/agents
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - dev-tools
+    tags:
+      - ai-agents
+      - automation
+      - orchestration
+      - workflows
+      - lang:csharp
     summary: Intelligent automation and multi-agent orchestration for Claude Code
     last_synced_sha: 2d769d4f8466c823dadd7105d6537efdc4dfc804
     starred_at: "2025-07-30T17:15:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -64462,15 +64521,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.629Z"
+      prompt_version: v2
   - repo: isqld/intune-printer-deployment-script
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - printer-deployment
+      - intune
+      - lang:powershell
     summary: This repository contains a powershell scripts to deploy an TCP/IP local network printer using in Tune
     last_synced_sha: 07c14c565e3809162b5533d7128640bf91684f99
     starred_at: "2025-07-28T17:42:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -64483,15 +64551,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.629Z"
+      prompt_version: v2
   - repo: MSEndpointMgr/Intune
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - intune
+      - scripting
+      - lang:powershell
     summary: Microsoft Intune scripts
     last_synced_sha: c6e3527d608298ecf7763fdd5184cbd757cca398
     starred_at: "2025-07-28T17:41:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -64504,15 +64581,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.629Z"
+      prompt_version: v2
   - repo: Xanashi/Icaros
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - windows
+      - thumbnail-generator
+      - shell-extension
     summary: Official issue tracker and download location for Icaros Shell Extensions
     last_synced_sha: 87ff8d065e14f3e6dae856bc9b502df8aa556a91
     starred_at: "2025-07-27T20:56:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -64533,15 +64619,24 @@ repositories:
         published_at: "2025-03-02T12:05:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.629Z"
+      prompt_version: v2
   - repo: Stremio/stremio-core
     categories:
-      - unclassified
-    tags: []
+      - infrastructure
+      - desktop-dev
+    tags:
+      - addon-system
+      - core-logic
+      - lang:rust
     summary: '⚛️ The Stremio Core: types, addon system, UI models, core logic'
     last_synced_sha: 96de5ffc02ee92b9c4128bca4491aacefedbe400
     starred_at: "2025-07-27T20:50:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -64556,15 +64651,26 @@ repositories:
         published_at: "2025-11-28T13:35:45Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.629Z"
+      prompt_version: v2
   - repo: harmonoid/harmonoid
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - mobile-dev
+      - desktop-dev
+    tags:
+      - music-player
+      - flutter
+      - media
+      - lang:dart
     summary: "\U0001F3B5 Plays & manages your music library. Looks beautiful & juicy. Available for mac OS, Windows, GNU/Linux & Android."
     last_synced_sha: df068058553ecf4fa905fb2db063ef0f146c30d8
     starred_at: "2025-07-27T20:49:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -64596,15 +64702,25 @@ repositories:
         published_at: "2025-12-04T20:13:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.629Z"
+      prompt_version: v2
   - repo: TinosNitso/mpv-scripts
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - mpv
+      - media
+      - lua
+      - lang:lua
     summary: For mpv & SMPlayer. Windows, Linux, Mac OS & Android. You Tube, MP4, MP3, JPEG, etc. Multi-stereo speed randomization & tri-color clocks (aspeed.lua); cropping, start/end limits & aspect randomizat...
     last_synced_sha: a3f0ec6e388f5d9d81ee06129718e6cb69baa6dc
     starred_at: "2025-07-27T20:46:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics:
@@ -64626,15 +64742,24 @@ repositories:
         published_at: "2024-08-14T17:52:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.629Z"
+      prompt_version: v2
   - repo: microsoft/FaceSynthetics
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - face-datasets
+      - synthetics
+      - computer-vision
     summary: Face synthetics datasets
     last_synced_sha: 50797c97ea0784581a0ffe4007e9e1aa75629323
     starred_at: "2025-07-22T22:55:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -64647,15 +64772,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.629Z"
+      prompt_version: v2
   - repo: blakeblackshear/frigate
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - ai-ml
+    tags:
+      - realtime
+      - nvr
+      - object-detection
+      - home-automation
+      - lang:ts
     summary: NVR with realtime local object detection for IP cameras
     last_synced_sha: d952a97bdaaf7998ba22c22492250f9bc5bd4fb3
     starred_at: "2025-07-21T21:15:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -64682,15 +64818,25 @@ repositories:
         published_at: "2025-12-06T18:15:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.628Z"
+      prompt_version: v2
   - repo: ChanChiChoi/awesome-Face_Recognition
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - face-recognition
+      - face-detection
+      - face-alignment
+      - face-reconstruction
     summary: papers about Face Detection; Face Alignment; Face Recognition && Face Identification && Face Verification && Face Representation; Face Reconstruction; Face Tracking; Face Super-Resolution && Face D...
     last_synced_sha: f88f5982e1edcc7d7d3fb2045290a95f55a97b0d
     starred_at: "2025-07-21T11:12:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -64712,6 +64858,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:43:03.628Z"
+      prompt_version: v2
   - repo: facefusion/facefusion
     categories:
       - ai-ml
