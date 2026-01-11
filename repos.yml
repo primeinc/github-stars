@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-11T17:23:40.401Z"
+  manifest_updated_at: "2026-01-11T17:23:58.690Z"
   total_repos: 1959
   generator_version: v1.0.0
   github_user: primeinc
@@ -52306,13 +52306,18 @@ repositories:
       mirror_url: null
   - repo: jason5ng32/MyIP
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - ip
+      - dns
+      - speed-test
+      - lang:vue
     summary: The best IP Toolbox. Easy to check what's your IPs, IP geolocation, check for DNS leaks, examine Web RTC connections, speed test, ping test, MTR test, check website availability, whois search and m...
     last_synced_sha: d052471dec89f6c576ab25aebb5b3a4b99d2b01f
     user_starred_at: "2025-01-28T08:32:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -52351,15 +52356,24 @@ repositories:
         published_at: "2026-01-05T05:56:57Z"
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.690Z"
+      prompt_version: v2
   - repo: iv-org/invidious
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - security
+    tags:
+      - youtube-alternative
+      - privacy
+      - video-streaming
     summary: Invidious is an alternative front-end to You Tube
     last_synced_sha: 5f84a5b353132cec17bd14b0796dc11a3d0eb36d
     user_starred_at: "2025-01-28T08:14:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Crystal
       topics:
@@ -52386,15 +52400,24 @@ repositories:
         published_at: "2025-09-13T17:56:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.690Z"
+      prompt_version: v2
   - repo: AzuraCast/AzuraCast
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - deployment
+    tags:
+      - radio-management
+      - streaming
+      - lang:php
     summary: A self-hosted web radio management suite, including turnkey installer tools for the full radio software stack and a modern, easy-to-use web app to manage your stations.
     last_synced_sha: 4646be1c482ff57701e71a4fcebab8312fa0e3d2
     user_starred_at: "2025-01-28T08:13:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -52419,15 +52442,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.689Z"
+      prompt_version: v2
   - repo: tubearchivist/browser-extension
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - browser
+      - extension
+      - lang:js
     summary: Tube Archivist Companion for your Browser
     last_synced_sha: 91017204857a73c4372d493f2017dc0c7ac36af9
     user_starred_at: "2025-01-28T08:10:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -52446,15 +52478,25 @@ repositories:
         published_at: "2025-09-09T09:26:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.689Z"
+      prompt_version: v2
   - repo: TabbyML/tabby
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai
+      - coding-assistant
+      - llms
+      - lang:rust
     summary: Self-hosted AI coding assistant
     last_synced_sha: 702240a7b2356986f9a00ca6645a3af4ec66b9e1
     user_starred_at: "2025-01-28T08:08:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -52482,15 +52524,24 @@ repositories:
         published_at: "2025-09-25T16:26:54Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.689Z"
+      prompt_version: v2
   - repo: quickwit-oss/tantivy
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - frameworks
+    tags:
+      - search-engine
+      - full-text-search
+      - lang:rust
     summary: Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust
     last_synced_sha: d904630e6a03cb8269f68275392c179304b04d5a
     user_starred_at: "2025-01-28T08:07:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -52511,15 +52562,24 @@ repositories:
         published_at: "2025-08-20T11:01:45Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.689Z"
+      prompt_version: v2
   - repo: bee-san/RustScan
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - port-scanner
+      - networking-tools
+      - lang:rust
     summary: "\U0001F916 The Modern Port Scanner \U0001F916"
     last_synced_sha: 1b74455a35c50b52b5f3beecf8b4709326e4b5c5
     user_starred_at: "2025-01-28T08:06:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -52549,15 +52609,25 @@ repositories:
         published_at: "2025-02-23T15:03:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.689Z"
+      prompt_version: v2
   - repo: gfx-rs/wgpu
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - frameworks
+    tags:
+      - graphics
+      - webgpu
+      - gpu
+      - lang:rust
     summary: A cross-platform, safe, pure-Rust graphics API.
     last_synced_sha: 1d520a098d46f8298b7d6eb6c7066983dd29932a
     user_starred_at: "2025-01-28T08:05:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -52584,15 +52654,25 @@ repositories:
         published_at: "2025-12-18T03:36:49Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.689Z"
+      prompt_version: v2
   - repo: yamadashy/repomix
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - llm
+      - developer-tools
+      - typescript
+      - lang:ts
     summary: "\U0001F4E6 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools li..."
     last_synced_sha: b0d02a545d241133cd6309c3316efcd8be2ad3d1
     user_starred_at: "2025-01-28T08:01:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -52631,15 +52711,25 @@ repositories:
         published_at: "2025-12-23T14:53:07Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.689Z"
+      prompt_version: v2
   - repo: agent0ai/agent-zero
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - agent
+      - assistant
+      - ai
+      - lang:python
     summary: Agent Zero AI framework
     last_synced_sha: a54768cb2a7a4407b3907cae4c85344638af8efa
     user_starred_at: "2025-01-28T08:01:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -52664,15 +52754,24 @@ repositories:
         published_at: "2025-11-19T11:41:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.689Z"
+      prompt_version: v2
   - repo: exo-explore/exo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-cluster
+      - distributed-computing
+      - lang:python
     summary: "Run your own AI cluster at home with everyday devices \U0001F4F1\U0001F4BB \U0001F5A5️⌚"
     last_synced_sha: 18c4e49f913bc29665f1393c00a0fe200499e091
     user_starred_at: "2025-01-28T07:59:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -52691,15 +52790,24 @@ repositories:
         published_at: "2026-01-08T18:53:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.689Z"
+      prompt_version: v2
   - repo: yorukot/superfile
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - file-manager
+      - terminal
+      - lang:go
     summary: Pretty fancy and modern terminal file manager
     last_synced_sha: a4cc4f8f0ac683e2627482f4c3efad93eaa75de9
     user_starred_at: "2025-01-28T07:58:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -52729,15 +52837,25 @@ repositories:
         published_at: "2025-10-10T06:00:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.689Z"
+      prompt_version: v2
   - repo: DrewThomasson/ebook2audiobook
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - audiobook
+      - tts
+      - voice-cloning
+      - lang:python
     summary: Generate audiobooks from e-books, voice cloning & 1158+ languages!
     last_synced_sha: 7cf01507c724bbbd2457ef1574b2b3aaced69f3f
     user_starred_at: "2025-01-28T07:58:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -52772,15 +52890,25 @@ repositories:
         published_at: "2025-12-31T03:13:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.689Z"
+      prompt_version: v2
   - repo: jingyaogong/minimind
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - gpt
+      - language-model
+      - training
+      - lang:python
     summary: "\U0001F680\U0001F680 「大模型」2小时完全从0训练26M的小参数GPT！\U0001F30F Train a 26M-parameter GPT from scratch in just 2h!"
     last_synced_sha: 05d0b216f61e6fa278cdeec97cd6a93f7c529c34
     user_starred_at: "2025-01-28T07:57:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -52801,15 +52929,24 @@ repositories:
         published_at: "2025-10-21T14:37:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.689Z"
+      prompt_version: v2
   - repo: bytedance/monolith
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - recommendation-system
+      - lightweight
+      - lang:python
     summary: A Lightweight Recommendation System
     last_synced_sha: 135c491a52b151772b976af989d8bc938c44d210
     user_starred_at: "2025-01-28T07:56:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -52827,6 +52964,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:23:58.689Z"
+      prompt_version: v2
   - repo: browserbase/stagehand
     categories:
       - automation
