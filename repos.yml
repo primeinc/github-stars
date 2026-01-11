@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:58:56.415Z"
+  last_updated: "2026-01-11T02:59:16.014Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -41878,13 +41878,17 @@ repositories:
       mirror_url: null
   - repo: upx/upx
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - executable-packing
+      - lang:cpp
+      - compression
     summary: UPX - the Ultimate Packer for e Xecutables
     last_synced_sha: 8ab00b322fd975992132794bbbbc9a0cbc1d7fbb
     starred_at: "2026-01-09T20:15:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -41899,15 +41903,25 @@ repositories:
         published_at: "2026-01-07T13:40:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.014Z"
+      prompt_version: v2
   - repo: google/flatbuffers
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - infrastructure
+    tags:
+      - serialization
+      - cross-platform
+      - lang:cpp
+      - performance
     summary: 'Flat Buffers: Memory Efficient Serialization Library'
     last_synced_sha: 8914d06ab7123167424438cf293bb349833bcb7d
     starred_at: "2026-01-09T20:15:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -41942,15 +41956,24 @@ repositories:
         published_at: "2025-12-19T23:15:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.014Z"
+      prompt_version: v2
   - repo: umbraco/Umbraco-CMS
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - cms
+      - dotnet-core
+      - lang:csharp
     summary: Umbraco is a free and open source .NET content management system helping you deliver delightful digital experiences.
     last_synced_sha: 30aea87e2819cba6bee198cfb02de43848c431b6
     starred_at: "2026-01-09T20:12:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -41972,15 +41995,26 @@ repositories:
         published_at: "2026-01-08T05:33:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.014Z"
+      prompt_version: v2
   - repo: memvid/claude-brain
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - long-term-memory
+      - persistent-memory
+      - developer-tools
+      - nag
+      - lang:js
     summary: Give Claude Code photographic memory in ONE portable file. No database, no SQLite, no Chroma DB - just a single .mv2 file you can git commit, scp, or share. Native Rust core with sub-ms operations.
     last_synced_sha: 616b5f1b8877cf40c599a9bf4b1a3d8ded3da86d
     starred_at: "2026-01-09T20:09:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -42012,15 +42046,23 @@ repositories:
         published_at: "2026-01-05T22:41:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.014Z"
+      prompt_version: v2
   - repo: AutoMaker-Org/automaker
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - automation-tools
+      - lang:ts
     summary: No description provided
     last_synced_sha: 299b8384003a25a3fb1347f569642aa31d68c353
     starred_at: "2026-01-09T20:08:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -42035,15 +42077,24 @@ repositories:
         published_at: "2026-01-09T23:42:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.014Z"
+      prompt_version: v2
   - repo: kepano/obsidian-skills
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - obsidian
+      - claude
+      - ai-tools
     summary: Claude Skills for Obsidian
     last_synced_sha: 5a300fb6cb53450b91a0bc386ace3b1fc3729e02
     starred_at: "2026-01-09T20:08:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -42056,15 +42107,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.014Z"
+      prompt_version: v2
   - repo: router-for-me/CLIProxyAPI
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+      - networking
+    tags:
+      - gemini
+      - openai
+      - claude
+      - api-service
+      - lang:go
     summary: Wrap Gemini CLI, Antigravity, Chat GPT Codex, Claude Code, Qwen Code, i Flow as an Open AI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, ...
     last_synced_sha: 8cfe26f10cf4eb59076e437c96b0674848c52465
     starred_at: "2026-01-09T20:06:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -42086,15 +42149,25 @@ repositories:
         published_at: "2026-01-10T08:31:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.014Z"
+      prompt_version: v2
   - repo: freelawproject/courtlistener
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - data-science
+    tags:
+      - legaltech
+      - government-data
+      - searchable-archive
+      - lang:python
     summary: A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial financial records, and federal filings.
     last_synced_sha: be53cf0e178dc4f3c984122be199ce521aeb7eea
     starred_at: "2026-01-09T20:05:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42111,15 +42184,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.014Z"
+      prompt_version: v2
   - repo: 0xSero/Azul
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - terminal-tools
+      - web-browsing
+      - lang:rust
     summary: Browse the world in the comfort of your terminal
     last_synced_sha: 0f4df982389efddc86731108a83b9e3afbe14f5b
     starred_at: "2026-01-09T20:05:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -42132,15 +42214,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.014Z"
+      prompt_version: v2
   - repo: ishandutta2007/open-hr
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - infrastructure
+    tags:
+      - hr
+      - payroll
+      - opensource
     summary: "\U0001F4D6opensource equivalent of Deel payroll and HR solutions"
     last_synced_sha: 23456f98563a06c65a09d3a35e5c4901aabc4746
     starred_at: "2026-01-09T20:03:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -42153,15 +42244,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.014Z"
+      prompt_version: v2
   - repo: engageintellect/spatz-2
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+      - web-dev
+    tags:
+      - svelte
+      - stripe
+      - animations
+      - openai-api
+      - lang:svelte
     summary: just like spatz... but for svelte5, with shadcn-svelte, svelte-animations, svelte-superforms, stripe payments, subscriptions, content-filtering, and more.
     last_synced_sha: 8c0d7bfc9aede346e02488f4f5652e8d54d6554b
     starred_at: "2026-01-09T20:02:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Svelte
       topics:
@@ -42193,15 +42296,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: svelte
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.014Z"
+      prompt_version: v2
   - repo: stan-smith/SlingShot
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - video-dev
+    tags:
+      - video-streaming
+      - quic
+      - low-bandwidth
+      - lang:rust
     summary: Dead simple ultra-low bandwidth video over QUIC, written in Rust, dead simple to use, free forever, designed for use in any and all conditions
     last_synced_sha: 58a231e1ff9bc28282b934a3058126c83551728c
     starred_at: "2026-01-09T18:05:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -42216,15 +42329,26 @@ repositories:
         published_at: "2026-01-09T05:22:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.014Z"
+      prompt_version: v2
   - repo: microsoft/TaskWeaver
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - productivity
+    tags:
+      - ai-agents
+      - data-analysis
+      - code-first
+      - lang:python
     summary: The first "code-first" agent framework for seamlessly planning and executing data analytics tasks.
     last_synced_sha: 672b48dcda53160abf3c085502f82e404e9994fc
     starred_at: "2026-01-09T18:05:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42246,15 +42370,25 @@ repositories:
         published_at: "2024-04-11T08:20:14Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.014Z"
+      prompt_version: v2
   - repo: Lightricks/LTX-2
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - generative-ai
+      - audio-visual
+      - training
+      - lang:python
     summary: Official Python inference and Lo RA trainer package for the LTX-2 audio–video generative model.
     last_synced_sha: 628956009ca14446f01976ba4e861e6a9e210a93
     starred_at: "2026-01-09T18:04:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42270,15 +42404,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.014Z"
+      prompt_version: v2
   - repo: alexzhang13/rlm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - language-models
+      - inference
+      - lang:python
     summary: General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes.
     last_synced_sha: a8874d4ca0af9c6d5f2910d9ef486dd3657d68e4
     starred_at: "2026-01-09T18:04:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -42291,6 +42434,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:59:16.013Z"
+      prompt_version: v2
   - repo: x011/smtp-tunnel-proxy
     categories:
       - security
