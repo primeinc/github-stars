@@ -125,9 +125,13 @@ jobs:
                   language: repo.language || null,
                   topics: repo.topics || [],
                   stargazers_count: repo.stargazers_count || 0,
+                  forks_count: repo.forks_count || 0,
+                  disk_usage: repo.disk_usage || null,
+                  owner_avatar: repo.owner_avatar || null,
                   homepage_url: repo.homepage_url || null,
                   license: repo.license || null,
-                  repo_pushed_at: repo.updated_at || null,
+                  repo_pushed_at: repo.pushed_at || null,
+                  repo_updated_at: repo.updated_at || null,
                   html_url: repo.html_url || null,
                   default_branch: repo.default_branch || null,
                   latest_release: repo.latest_release || null,
@@ -163,10 +167,14 @@ jobs:
                     changed = true;
                 }
                 
-                if (fresh.updated_at && (!repo.github_metadata || repo.github_metadata.repo_pushed_at !== fresh.updated_at)) {
+                if (fresh.updated_at && (!repo.github_metadata || repo.github_metadata.repo_updated_at !== fresh.updated_at)) {
                     if (!repo.github_metadata) repo.github_metadata = {};
-                    repo.github_metadata.repo_pushed_at = fresh.updated_at;
+                    repo.github_metadata.repo_updated_at = fresh.updated_at;
+                    repo.github_metadata.repo_pushed_at = fresh.pushed_at;
                     repo.github_metadata.stargazers_count = fresh.stargazers_count;
+                    repo.github_metadata.forks_count = fresh.forks_count;
+                    repo.github_metadata.disk_usage = fresh.disk_usage;
+                    repo.github_metadata.owner_avatar = fresh.owner_avatar;
                     repo.github_metadata.language = fresh.language;
                     repo.github_metadata.topics = fresh.topics;
                     repo.github_metadata.license = fresh.license;

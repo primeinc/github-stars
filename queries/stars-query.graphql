@@ -25,7 +25,13 @@ query($cursor: String) {
           isFork
           isPrivate
           stargazerCount
+          forkCount
           updatedAt
+          pushedAt
+          diskUsage
+          owner {
+            avatarUrl
+          }
           url
           defaultBranchRef {
             name

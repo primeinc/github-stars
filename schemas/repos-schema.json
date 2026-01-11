@@ -352,6 +352,19 @@
                 "minimum": 0,
                 "description": "Number of stars"
               },
+              "forks_count": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "Number of forks"
+              },
+              "disk_usage": {
+                "type": ["integer", "null"],
+                "description": "Repository size in KB"
+              },
+              "owner_avatar": {
+                "type": ["string", "null"],
+                "description": "URL to the repository owner's avatar"
+              },
               "homepage_url": {
                 "type": ["string", "null"],
                 "description": "Project homepage URL"
@@ -364,6 +377,11 @@
                 "type": "string",
                 "format": "date-time",
                 "description": "Last repository push/update timestamp from GitHub"
+              },
+              "repo_updated_at": {
+                "type": "string",
+                "format": "date-time",
+                "description": "Last metadata update timestamp from GitHub"
               },
               "html_url": {
                 "type": "string",
