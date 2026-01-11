@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  last_updated: "2026-01-11T02:58:04.394Z"
+  last_updated: "2026-01-11T02:58:37.190Z"
   total_repos: 1954
   generator_version: v1.0.0
   github_user: primeinc
@@ -42685,13 +42685,18 @@ repositories:
       mirror_url: null
   - repo: kamranahmedse/claude-run
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - lang:ts
+      - web-ui
+      - conversation-history
+      - browsing-tool
     summary: A beautiful web UI for browsing Claude Code conversation history.
     last_synced_sha: dddb1335a12d6e96608f8f0bfd0b35eceda4969b
     starred_at: "2026-01-05T17:52:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -42704,15 +42709,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.190Z"
+      prompt_version: v2
   - repo: TRaSH-Guides/Guides
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - media-server
+    tags:
+      - guides
+      - media-management
+      - tutorials
+      - self-hosted
     summary: TRa SH-Guides is a comprehensive collection of guides for Radarr, Sonarr, and related media management applications.
     last_synced_sha: 781da0941fc700b3386fd7a101e3c9017058da50
     starred_at: "2026-01-05T17:52:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Markdown
       topics:
@@ -42741,15 +42756,26 @@ repositories:
         published_at: "2022-07-31T08:20:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.190Z"
+      prompt_version: v2
   - repo: kaifcodec/Telespot
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - osint
+      - telephone-lookup
+      - lang:python
+      - data-correlation
+      - recon
     summary: Tele Spot OSINT lookup from Telephone number using DDGR + BING + GOOGLE and pattern recognition correlations.
     last_synced_sha: 78457ec195dd71ff25837178e9eb14972ee86bcf
     starred_at: "2026-01-05T17:49:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -42763,15 +42789,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.190Z"
+      prompt_version: v2
   - repo: sherlock-project/sherlock
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cli-tools
+    tags:
+      - osint
+      - lang:python
+      - social-media
+      - reconnaissance
+      - information-gathering
     summary: Hunt down social media accounts by username across social networks
     last_synced_sha: 8f1308b90d2b79296ce78d666e53d9be919efe02
     starred_at: "2026-01-05T17:45:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42802,15 +42839,26 @@ repositories:
         published_at: "2025-09-16T02:37:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.190Z"
+      prompt_version: v2
   - repo: louislam/uptime-kuma
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - automation
+    tags:
+      - uptime-monitoring
+      - lang:js
+      - self-hosted
+      - docker-support
+      - webapp
     summary: A fancy self-hosted monitoring tool
     last_synced_sha: 0c9354d5f403c286d121b183659b8dc2af6a4f35
     starred_at: "2026-01-05T17:45:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -42837,15 +42885,26 @@ repositories:
         published_at: "2025-10-22T17:03:54Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.190Z"
+      prompt_version: v2
   - repo: OpenSignLabs/OpenSign
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - digital-signature
+      - lang:js
+      - react
+      - self-hosted
+      - document-signing
     summary: "\U0001F525 The free & Open Source Docu Sign alternative"
     last_synced_sha: cd2904b9f0baa3f75eac7b04f7b849c8fb93f7e3
     starred_at: "2026-01-05T17:44:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -42880,15 +42939,26 @@ repositories:
         published_at: "2026-01-07T09:45:52Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.190Z"
+      prompt_version: v2
   - repo: henrygd/beszel
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - infrastructure
+    tags:
+      - server-monitoring
+      - lang:go
+      - alerts
+      - docker-support
+      - self-hosted
     summary: Lightweight server monitoring hub with historical data, docker stats, and alerts.
     last_synced_sha: ba3d1c66f091ab25c9d2be9e4cebc070e1fd7076
     starred_at: "2026-01-05T17:43:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -42906,15 +42976,26 @@ repositories:
         published_at: "2025-12-03T00:15:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.190Z"
+      prompt_version: v2
   - repo: TwiN/gatus
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - devops
+    tags:
+      - monitoring
+      - alerting
+      - lang:go
+      - status-page
+      - uptime-monitoring
     summary: Automated developer-oriented status page with alerting and incident support
     last_synced_sha: c93a32107376c84f196bfd5979756a626b28c442
     starred_at: "2026-01-05T17:43:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -42949,15 +43030,26 @@ repositories:
         published_at: "2026-01-03T03:12:12Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.190Z"
+      prompt_version: v2
   - repo: duplicati/duplicati
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - backup
+      - lang:csharp
+      - cloud-storage
+      - encryption
+      - data-security
     summary: Store securely encrypted backups in the cloud!
     last_synced_sha: 201b5e11506d357ca241407750abce68a32266b5
     starred_at: "2026-01-05T17:41:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -42983,15 +43075,26 @@ repositories:
         published_at: "2026-01-06T12:05:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.190Z"
+      prompt_version: v2
   - repo: tixl3d/tixl
     categories:
-      - unclassified
-    tags: []
+      - design
+      - game-dev
+    tags:
+      - motion-graphics
+      - animation
+      - realtime-rendering
+      - directx
+      - lang:csharp
     summary: Ti XL is an open source software to create realtime motion graphics.
     last_synced_sha: e5b92d023bbc1c93656daf5b83f1d1d31ced62fc
     starred_at: "2026-01-05T17:40:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -43014,15 +43117,26 @@ repositories:
         published_at: "2025-08-30T19:29:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.190Z"
+      prompt_version: v2
   - repo: bytedance/Dolphin
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - document-processing
+    tags:
+      - ocr
+      - lang:python
+      - layout-analysis
+      - pdf-parser
+      - vlm-ocr
     summary: 'The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025.'
     last_synced_sha: fcbf0334a9eaea4265f9b8d5c952198fb6bdb915
     starred_at: "2026-01-05T17:37:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -43044,15 +43158,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.190Z"
+      prompt_version: v2
   - repo: kornia/kornia
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - computer-vision
+      - pytorch
+      - deep-learning
+      - lang:python
+      - spatial-ai
     summary: "\U0001F40D Geometric Computer Vision Library for Spatial AI"
     last_synced_sha: e912db63c32ab3cf4d61512243d30767d2aef2f7
     starred_at: "2026-01-05T17:36:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -43078,15 +43203,26 @@ repositories:
         published_at: "2025-11-08T12:07:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.190Z"
+      prompt_version: v2
   - repo: subframe7536/maple-font
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - design
+    tags:
+      - font-design
+      - monospace-font
+      - coding-font
+      - lang:python
+      - typography
     summary: 'Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项'
     last_synced_sha: eadf88e58fdfbd24eecb24d995d986c65279b1ff
     starred_at: "2026-01-05T17:35:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -43112,15 +43248,26 @@ repositories:
         published_at: "2025-12-05T12:40:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.190Z"
+      prompt_version: v2
   - repo: v2ray/v2ray-core
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - lang:go
+      - proxy
+      - vpn
+      - socks5
+      - networking
     summary: A platform for building proxies to bypass network restrictions.
     last_synced_sha: d80440f3d57b45c829dbf513306f7adf9a0f3f76
     starred_at: "2026-01-05T17:34:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -43143,15 +43290,26 @@ repositories:
         published_at: "2020-10-10T16:50:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.190Z"
+      prompt_version: v2
   - repo: 5rahim/seanime
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - media-server
+    tags:
+      - anime
+      - lang:go
+      - react-support
+      - self-hosted
+      - media-streaming
     summary: Open-source media server with a web interface and desktop app for anime and manga.
     last_synced_sha: f2d985703822ba473b823d7954b784150fbc0c0c
     starred_at: "2026-01-05T17:34:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -43181,6 +43339,11 @@ repositories:
         published_at: "2026-01-04T11:20:57Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      timestamp: "2026-01-11T02:58:37.186Z"
+      prompt_version: v2
   - repo: grpc/grpc
     categories:
       - apis
