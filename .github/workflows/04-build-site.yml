@@ -108,6 +108,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: build-and-deploy
     timeout-minutes: 10
+    container:
+      image: mcr.microsoft.com/playwright:v1.49.0-noble
     steps:
       - name: Wait for Pages to be available
         run: |
@@ -127,14 +129,10 @@ jobs:
             exit 1
           fi
 
-      - name: Install Node and Playwright
-        run: |
-          npm init -y
-          npm i -D playwright@1.37.0
-          npx playwright install --with-deps
-
       - name: Screenshot home page (Playwright)
         run: |
+          npm init -y
+          npm i -D playwright@1.49.0
           node -e "const { chromium } = require('playwright'); (async () => { const b = await chromium.launch(); const p = await b.newPage(); await p.goto('https://primeinc.github.io/github-stars/'); await p.screenshot({ path: 'page-verification.png', fullPage: true }); await b.close(); })()"
 
       - name: Upload verification screenshot
