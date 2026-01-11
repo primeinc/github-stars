@@ -1,11 +1,12 @@
 # Tag: multi-agent
 
-*3 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [joelhooks/swarm-tools](https://github.com/joelhooks/swarm-tools) | 🐝 Multi-agent swarm coordination for Open Code with learning capabilities, agent issue tracking, and management | `TypeScript` ★ 312 | 2026-01-11 |
 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | Chat Dev 2.0: Dev All through LLM-powered Multi-Agent Collaboration | `Python` ★ 28.2k | 2026-01-10 |
 | [camel-ai/owl](https://github.com/camel-ai/owl) | 🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation | `Python` ★ 18.7k | 2026-01-09 |
 | [AzureCosmosDB/banking-multi-agent-workshop](https://github.com/AzureCosmosDB/banking-multi-agent-workshop) | A multi-agent sample and workshop for a retail banking scenario. Implemented in both C# using Semantic Kernel Agents and Python using Lang Graph and Angular as Frontend! | `Bicep` ★ 114 | 2025-12-03 |

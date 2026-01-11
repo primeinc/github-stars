@@ -1,11 +1,12 @@
 # Tag: configuration
 
-*8 repositories*
+*9 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [prabirshrestha/dotfiles](https://github.com/prabirshrestha/dotfiles) | There is no place like ~ | `Lua` ★ 90 | 2025-12-28 |
 | [PaulJPhilp/effect-env](https://github.com/PaulJPhilp/effect-env) | No description provided | `TypeScript` ★ 39 | 2025-11-27 |
 | [SuperClaude-Org/SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) | A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies. | `Python` ★ 20k | 2026-01-10 |
 | [maartenvandiemen/AZD-AppConfiguration](https://github.com/maartenvandiemen/AZD-AppConfiguration) | No description provided | `Bicep` ★ 1 | 2025-10-17 |

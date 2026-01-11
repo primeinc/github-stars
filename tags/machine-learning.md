@@ -1,11 +1,12 @@
 # Tag: machine-learning
 
-*32 repositories*
+*33 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [joelhooks/swarm-tools](https://github.com/joelhooks/swarm-tools) | 🐝 Multi-agent swarm coordination for Open Code with learning capabilities, agent issue tracking, and management | `TypeScript` ★ 312 | 2026-01-11 |
 | [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `Python` ★ 58.1k | 2026-01-11 |
 | [Babyhamsta/Aimmy](https://github.com/Babyhamsta/Aimmy) | Universal Second Eye for Gamers with Impairments (Universal AI Aim Aligner (AI Aimbot) - ONNX/YOLOv8 - C#) | `C#` ★ 1.3k | 2025-11-06 |
 | [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe) | AI app store powered by 24/7 desktop history. open source | 100% local | dev friendly | 24/7 screen, mic recording | `TypeScript` ★ 16.4k | 2025-12-09 |

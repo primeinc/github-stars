@@ -1,11 +1,13 @@
 # Dev-tools
 
-*220 repositories*
+*222 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [Dicklesworthstone/coding_agent_session_search](https://github.com/Dicklesworthstone/coding_agent_session_search) | No description provided | `Rust` ★ 297 | 2026-01-10 |
+| [randomascii/UIforETW](https://github.com/randomascii/UIforETW) | User interface for recording and managing ETW traces | `C++` ★ 110 | 2026-01-05 |
 | [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | A powerful little TUI framework 🏗 | `Go` ★ 38.1k | 2025-12-17 |
 | [spf13/cobra](https://github.com/spf13/cobra) | A Commander for modern Go CLI interactions | `Go` ★ 42.9k | 2025-12-10 |
 | [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | The Git Butler version control client, backed by Git, powered by Tauri/Rust/Svelte | `Rust` ★ 17.4k | 2026-01-11 |

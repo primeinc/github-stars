@@ -11,7 +11,7 @@ Last updated: 2026-01-11
 - [3d-printing](categories/3d-printing.md) *(1)*
 
 ### A
-- [ai-ml](categories/ai-ml.md) *(522)*
+- [ai-ml](categories/ai-ml.md) *(525)*
 - [algorithms](categories/algorithms.md) *(1)*
 - [analytics](categories/analytics.md) *(8)*
 - [android-apps](categories/android-apps.md) *(1)*
@@ -19,7 +19,7 @@ Last updated: 2026-01-11
 - [apistools](categories/apistools.md) *(1)*
 - [assets](categories/assets.md) *(1)*
 - [audio](categories/audio.md) *(2)*
-- [automation](categories/automation.md) *(165)*
+- [automation](categories/automation.md) *(166)*
 
 ### B
 - [backup](categories/backup.md) *(1)*
@@ -42,7 +42,7 @@ Last updated: 2026-01-11
 ### D
 - [data-management](categories/data-management.md) *(2)*
 - [data-protection](categories/data-protection.md) *(1)*
-- [data-science](categories/data-science.md) *(193)*
+- [data-science](categories/data-science.md) *(194)*
 - [databases](categories/databases.md) *(47)*
 - [debugging](categories/debugging.md) *(2)*
 - [deployment](categories/deployment.md) *(20)*
@@ -50,7 +50,7 @@ Last updated: 2026-01-11
 - [desktop](categories/desktop.md) *(1)*
 - [desktop-dev](categories/desktop-dev.md) *(148)*
 - [desktop-development](categories/desktop-development.md) *(1)*
-- [dev-tools](categories/dev-tools.md) *(220)*
+- [dev-tools](categories/dev-tools.md) *(222)*
 - [developer-tools](categories/developer-tools.md) *(5)*
 - [development](categories/development.md) *(1)*
 - [development-tools](categories/development-tools.md) *(5)*
@@ -105,7 +105,7 @@ Last updated: 2026-01-11
 - [messaging](categories/messaging.md) *(1)*
 - [mobile-dev](categories/mobile-dev.md) *(32)*
 - [mobile-development](categories/mobile-development.md) *(1)*
-- [monitoring](categories/monitoring.md) *(47)*
+- [monitoring](categories/monitoring.md) *(48)*
 - [multimedia](categories/multimedia.md) *(2)*
 
 ### N
@@ -118,7 +118,7 @@ Last updated: 2026-01-11
 ### P
 - [performance](categories/performance.md) *(1)*
 - [privacy](categories/privacy.md) *(2)*
-- [productivity](categories/productivity.md) *(441)*
+- [productivity](categories/productivity.md) *(443)*
 - [productivity-tools](categories/productivity-tools.md) *(1)*
 - [programming](categories/programming.md) *(1)*
 - [programming-languages](categories/programming-languages.md) *(2)*
@@ -138,7 +138,7 @@ Last updated: 2026-01-11
 - [storage](categories/storage.md) *(4)*
 - [svelte](categories/svelte.md) *(1)*
 - [sync](categories/sync.md) *(1)*
-- [system-admin](categories/system-admin.md) *(168)*
+- [system-admin](categories/system-admin.md) *(169)*
 - [system-administration](categories/system-administration.md) *(5)*
 
 ### T
@@ -149,10 +149,9 @@ Last updated: 2026-01-11
 - [tv-dev](categories/tv-dev.md) *(1)*
 
 ### U
-- [ui-libraries](categories/ui-libraries.md) *(208)*
+- [ui-libraries](categories/ui-libraries.md) *(209)*
 - [ui-performance](categories/ui-performance.md) *(1)*
 - [ui-tools](categories/ui-tools.md) *(1)*
-- [unclassified](categories/unclassified.md) *(6)*
 - [utilities](categories/utilities.md) *(2)*
 
 ### V
@@ -168,7 +167,7 @@ Last updated: 2026-01-11
 
 ## 🏷️ Popular Tags
 
-[awesome-list](tags/awesome-list.md) (75) • [react](tags/react.md) (68) • [ai](tags/ai.md) (64) • [azure](tags/azure.md) (64) • [automation](tags/automation.md) (61) • [llm](tags/llm.md) (59) • [windows](tags/windows.md) (47) • [self-hosted](tags/self-hosted.md) (40) • [cross-platform](tags/cross-platform.md) (34) • [machine-learning](tags/machine-learning.md) (32) • [deep-learning](tags/deep-learning.md) (32) • [stable-diffusion](tags/stable-diffusion.md) (31) • [docker](tags/docker.md) (29) • [nextjs](tags/nextjs.md) (28) • [ai-agents](tags/ai-agents.md) (26) • [cli](tags/cli.md) (26) • [ndi](tags/ndi.md) (24) • [resources](tags/resources.md) (22) • [terminal](tags/terminal.md) (22) • [powershell](tags/powershell.md) (22) • [privacy](tags/privacy.md) (21) • [llms](tags/llms.md) (20) • [mcp](tags/mcp.md) (20) • [open-source](tags/open-source.md) (20) • [tailwindcss](tags/tailwindcss.md) (19) • [chatgpt](tags/chatgpt.md) (18) • [home-automation](tags/home-automation.md) (18) • [gui](tags/gui.md) (17) • [frontend](tags/frontend.md) (17) • [electron](tags/electron.md) (17)
+[awesome-list](tags/awesome-list.md) (75) • [react](tags/react.md) (68) • [ai](tags/ai.md) (64) • [azure](tags/azure.md) (64) • [automation](tags/automation.md) (61) • [llm](tags/llm.md) (59) • [windows](tags/windows.md) (48) • [self-hosted](tags/self-hosted.md) (40) • [cross-platform](tags/cross-platform.md) (34) • [machine-learning](tags/machine-learning.md) (33) • [deep-learning](tags/deep-learning.md) (32) • [stable-diffusion](tags/stable-diffusion.md) (31) • [docker](tags/docker.md) (29) • [nextjs](tags/nextjs.md) (28) • [ai-agents](tags/ai-agents.md) (26) • [cli](tags/cli.md) (26) • [ndi](tags/ndi.md) (24) • [resources](tags/resources.md) (22) • [terminal](tags/terminal.md) (22) • [powershell](tags/powershell.md) (22) • [privacy](tags/privacy.md) (21) • [llms](tags/llms.md) (20) • [mcp](tags/mcp.md) (20) • [open-source](tags/open-source.md) (20) • [tailwindcss](tags/tailwindcss.md) (19) • [chatgpt](tags/chatgpt.md) (18) • [home-automation](tags/home-automation.md) (18) • [gui](tags/gui.md) (17) • [frontend](tags/frontend.md) (17) • [electron](tags/electron.md) (17)
 
 ## ⭐ Recently Starred
 
