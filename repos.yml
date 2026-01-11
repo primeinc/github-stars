@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-11T17:14:56.350Z"
+  manifest_updated_at: "2026-01-11T17:15:18.523Z"
   total_repos: 1959
   generator_version: v1.0.0
   github_user: primeinc
@@ -64133,13 +64133,18 @@ repositories:
       mirror_url: null
   - repo: mikaelbr/node-notifier
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - notifications
+      - lang:js
+      - nodejs
+      - cross-platform
     summary: A Node.js module for sending notifications on native Mac, Windows and Linux (or Growl as fallback)
     last_synced_sha: b36c237f0d913f9df3a2bd45adc08b33ff717f6a
     user_starred_at: "2016-10-01T18:05:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -64164,15 +64169,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.523Z"
+      prompt_version: v2
   - repo: dfinke/ImportExcel
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - excel-import
+      - excel-export
+      - powershell-module
     summary: Power Shell module to import/export Excel spreadsheets, without Excel
     last_synced_sha: 5387c061461c811d106b125588f064c4739342cb
     user_starred_at: "2016-09-21T16:18:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -64193,15 +64207,23 @@ repositories:
         published_at: "2024-10-21T23:43:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.523Z"
+      prompt_version: v2
   - repo: bmrf/tron
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - batch-scripting
+      - automation-tool
     summary: Tron
     last_synced_sha: 91fc6f0e36ff481554a013dc47dcd2bc85fa720d
     user_starred_at: "2016-09-14T12:40:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics: []
@@ -64220,15 +64242,24 @@ repositories:
         published_at: "2023-10-17T21:18:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.523Z"
+      prompt_version: v2
   - repo: DigitalRuby/IPBan
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - ip-blocking
+      - firewall-protection
+      - lang:csharp
     summary: Since 2011, IPBan is the worlds most trusted, free security software to block hackers and botnets. With both Windows and Linux support, IPBan has your dedicated or cloud server protected. Upgrade t...
     last_synced_sha: e8afc088f9f51c9d1910e8ad6d6d9743dcd9ab5b
     user_starred_at: "2016-09-09T02:02:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -64267,15 +64298,25 @@ repositories:
         published_at: "2025-06-01T15:28:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.523Z"
+      prompt_version: v2
   - repo: mattermost/mattermost
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - collaboration
+      - lang:ts
+      - react
+      - secure-platform
     summary: Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..
     last_synced_sha: 07ba32e849e11238392934888640787f853b3fda
     user_starred_at: "2016-09-07T01:50:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -64301,15 +64342,24 @@ repositories:
         published_at: "2025-12-16T07:40:44Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.523Z"
+      prompt_version: v2
   - repo: Ulterius/server
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - desktop-dev
+    tags:
+      - remote-desktop
+      - screencasting
+      - lang:csharp
     summary: '[WIP] Ulterius™ server where all the magic happens :rocket: :feelsgood:'
     last_synced_sha: 770d1821de43cf1d0a93c79025995bdd812a76ee
     user_starred_at: "2016-08-19T15:47:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -64333,15 +64383,25 @@ repositories:
         published_at: "2017-11-06T16:58:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.523Z"
+      prompt_version: v2
   - repo: nilportugues/sql-repository
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - productivity
+    tags:
+      - sql
+      - repository-pattern
+      - lang:php
+      - crud
     summary: '[PHP 7] SQL Repository implementation'
     last_synced_sha: 145cddf63f45454dbb83dd9cb0f7191026c6c15d
     user_starred_at: "2016-08-07T15:12:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -64371,15 +64431,24 @@ repositories:
         published_at: "2017-03-13T18:56:01Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.523Z"
+      prompt_version: v2
   - repo: Unfundednut/AutoHotkeyNotify
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - notifications
+      - desktop-tool
+      - communication
     summary: Desktop program that pops up a notice. Used for quick mass communication.
     last_synced_sha: 70825c05000d4041f9ac46fb8203af148eb2f73e
     user_starred_at: "2016-08-02T14:21:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: AutoHotkey
       topics: []
@@ -64396,15 +64465,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.523Z"
+      prompt_version: v2
   - repo: ssimunic/Temp-Monitor
     categories:
-      - unclassified
-    tags: []
+      - iot
+      - data-science
+    tags:
+      - iot
+      - data-platform
+      - lang:php
+      - temperature-monitoring
     summary: Internet of Things data platform for temperature and humidity sensors with maps
     last_synced_sha: 3bbe713f05b5e84e646d1199a929f48621e8daa8
     user_starred_at: "2016-07-18T16:10:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -64427,15 +64506,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.522Z"
+      prompt_version: v2
   - repo: cheat/cheat
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - cheatsheets
+      - lang:go
+      - cli-tools
+      - command-line-docs
     summary: cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not ...
     last_synced_sha: 7908a678dfb1dd52baabeeff6f567d6d586293fb
     user_starred_at: "2016-07-17T20:43:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -64462,15 +64551,24 @@ repositories:
         published_at: "2023-12-15T17:55:49Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.522Z"
+      prompt_version: v2
   - repo: square/sharkey
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - ssh-certificates
+      - trust-on-first-use
+      - lang:go
     summary: Sharkey is a service for managing certificates for use by Open SSH
     last_synced_sha: 41c4d1f28043a6b21f0fca5637141423f04973cd
     user_starred_at: "2016-07-15T15:03:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -64496,15 +64594,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.522Z"
+      prompt_version: v2
   - repo: tonsky/FiraCode
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - programming-font
+      - ligatures
+      - monospaced
     summary: Free monospaced font with programming ligatures
     last_synced_sha: 4a42ee83ae5b6af1a2f1bad4e7fa8bb3cee1644a
     user_starred_at: "2016-07-13T14:49:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Clojure
       topics:
@@ -64526,15 +64633,24 @@ repositories:
         published_at: "2021-12-06T20:58:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.522Z"
+      prompt_version: v2
   - repo: smrchy/redis-tagging
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - dev-tools
+    tags:
+      - redis
+      - lang:ts
+      - nodejs-helper
     summary: A Node JS library based helper to tag (sorted) items with Redis
     last_synced_sha: 8b29fe7a8de083226042ace387fcb44bb0722545
     user_starred_at: "2016-07-10T23:06:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -64551,15 +64667,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.522Z"
+      prompt_version: v2
   - repo: dxa4481/WPA2-HalfHandshake-Crack
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - wpa2
+      - poc
+      - lang:python
     summary: This is a POC to show it is possible to capture enough of a handshake with a user from a fake AP to crack a WPA2 network without knowing the passphrase of the actual AP.
     last_synced_sha: 3f421248c9ac7b2839cf8d32bc8ee2c90f9a6e23
     user_starred_at: "2016-06-06T15:25:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -64576,15 +64701,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.522Z"
+      prompt_version: v2
   - repo: ovr/phpsa
     categories:
-      - unclassified
-    tags: []
+      - security
+      - testing
+    tags:
+      - static-analysis
+      - php-analyzer
+      - lang:php
     summary: 'Smart/Static Analyzer(sis) for PHP :bowtie::neckbeard:'
     last_synced_sha: 269912c66e44f4f413ee23198434b636d86bb828
     user_starred_at: "2016-05-23T14:56:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: PHP
@@ -64609,6 +64743,11 @@ repositories:
         published_at: "2016-12-10T02:42:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-11T17:15:18.519Z"
+      prompt_version: v2
   - repo: sstalle/php7cc
     categories:
       - dev-tools
