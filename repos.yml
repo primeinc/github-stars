@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-12T04:24:42.293Z"
+  manifest_updated_at: "2026-01-12T04:25:01.873Z"
   total_repos: 1959
   generator_version: v1.0.0
   github_user: primeinc
@@ -31246,13 +31246,17 @@ repositories:
       mirror_url: null
   - repo: x64dbg/x64dbg
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - debugger
+      - reverse-engineering
+      - lang:cpp
     summary: An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.
     last_synced_sha: 66860fef76bccc3a1c0949b5385ff3f8cbc5c3e9
     user_starred_at: "2025-09-05T00:01:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -31291,15 +31295,24 @@ repositories:
         published_at: "2025-08-19T23:58:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.873Z"
+      prompt_version: v2
   - repo: bluxmit/alnoda-workspaces
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - ai-ml
+    tags:
+      - docker
+      - workspace
+      - chatgpt
     summary: ":fireworks: Flexible and extendable containerized workspaces. Now. with free offline chat GPT!!! \U0001F680\U0001F680\U0001F680"
     last_synced_sha: a1448f5d2cd328983d88bf97c3bc1d49f8425567
     user_starred_at: "2025-09-04T23:55:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics:
@@ -31329,15 +31342,24 @@ repositories:
         published_at: "2022-07-24T09:56:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.873Z"
+      prompt_version: v2
   - repo: workadventure/workadventure
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - game-dev
+    tags:
+      - collaborative
+      - virtual-office
+      - lang:ts
     summary: A collaborative web application (virtual office) presented as a 16-bit RPG video game
     last_synced_sha: f3d3c77009d432f0aae59d900a61f75c757d413f
     user_starred_at: "2025-09-04T23:53:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31361,15 +31383,24 @@ repositories:
         published_at: "2026-01-06T17:02:45Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.873Z"
+      prompt_version: v2
   - repo: dudor/BookmarkHub
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - bookmarks
+      - sync
+      - lang:ts
     summary: Bookmark Hub , sync bookmarks across different browsers
     last_synced_sha: e59de69f876159e6c98dfefadf8b09d82610e535
     user_starred_at: "2025-09-04T23:48:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31393,15 +31424,24 @@ repositories:
         published_at: "2024-12-20T14:39:57Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.873Z"
+      prompt_version: v2
   - repo: extension-js/extension.js
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - browser-extension
+      - framework
+      - lang:ts
     summary: "\U0001F9E9 The cross-browser extension framework"
     last_synced_sha: 6b53685ab01655ae681b5dc0fab6ab43fe981905
     user_starred_at: "2025-09-04T22:46:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31440,15 +31480,24 @@ repositories:
         published_at: "2025-08-27T15:24:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.873Z"
+      prompt_version: v2
   - repo: joelshepherd/tabliss
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - browser-extension
+      - customization
+      - lang:ts
     summary: A beautiful, customisable New Tab page for Firefox, Chrome, and Edge.
     last_synced_sha: 765a3f0b10968ee6e3a9ddf5c5360960fb4bf0ee
     user_starred_at: "2025-09-04T22:17:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31470,15 +31519,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.873Z"
+      prompt_version: v2
   - repo: cartesiancs/vessel
     categories:
-      - unclassified
-    tags: []
+      - security
+      - iot
+    tags:
+      - home-security
+      - iot-platform
+      - lang:ts
     summary: "Home security / protection system \U0001F9BE"
     last_synced_sha: 75d59b5ae92ab5762543ff605cff7c4b1e120bba
     user_starred_at: "2025-09-04T14:48:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31501,15 +31559,24 @@ repositories:
         published_at: "2025-09-12T05:45:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.873Z"
+      prompt_version: v2
   - repo: datavzrd/datavzrd
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - csv
+      - reports
+      - lang:rust
     summary: A tool to create visual HTML reports from collections of CSV/TSV tables
     last_synced_sha: a822470573e08256f5e872cf78f6efdd1d00dd49
     user_starred_at: "2025-09-04T14:46:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -31528,15 +31595,24 @@ repositories:
         published_at: "2025-11-20T13:18:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.873Z"
+      prompt_version: v2
   - repo: olimpo88/PyDDNS
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - ddns
+      - dns-server
+      - lang:js
     summary: Complete system to create your own server ddns
     last_synced_sha: c4c8c7dfb913c4afb451b62c0b01d0a7a4bb6bc1
     user_starred_at: "2025-09-04T01:59:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -31564,15 +31640,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: django
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.873Z"
+      prompt_version: v2
   - repo: it-scripts/it-drugs
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - fivem
+      - lua
+      - esx
     summary: Become a master herbalist with this drug script! Ready for every big Five M framework
     last_synced_sha: 78df12b537159eb3552311c158d07b98ed9d6219
     user_starred_at: "2025-09-03T18:28:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics:
@@ -31597,15 +31681,24 @@ repositories:
         published_at: "2025-05-30T00:04:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.873Z"
+      prompt_version: v2
   - repo: TibixDev/winboat
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - virtualization
+    tags:
+      - linux
+      - windows
+      - lang:ts
     summary: "Run Windows apps on \U0001F427 Linux with ✨ seamless integration"
     last_synced_sha: c3173167c3ed89dc3e4e1712283d71549b6217bf
     user_starred_at: "2025-09-03T18:24:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31630,15 +31723,24 @@ repositories:
         published_at: "2025-11-23T23:23:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.873Z"
+      prompt_version: v2
   - repo: pgrok/pgrok
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - infrastructure
+    tags:
+      - reverse-tunnel
+      - ssh
+      - lang:go
     summary: Poor man's ngrok - a multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding
     last_synced_sha: 980291c68d182d335096f33c6f69081274d80815
     user_starred_at: "2025-09-03T07:47:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -31666,15 +31768,23 @@ repositories:
         published_at: "2026-01-08T19:48:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.873Z"
+      prompt_version: v2
   - repo: kiqu3z/printer-monitoring-dashboard
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+    tags:
+      - printer
+      - dashboard
+      - html
     summary: um programa que faz a monitoria via SMNP das impressoras de sem a necessidade de configurar um Zabbix ou Grafana.
     last_synced_sha: 0d6383a9ea764269b482abb1d2b090f2a51a509e
     user_starred_at: "2025-08-30T01:40:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -31691,15 +31801,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.873Z"
+      prompt_version: v2
   - repo: tremorlabs/tremor
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react
+      - components
+      - lang:ts
     summary: Copy & Paste React components to build modern web applications.
     last_synced_sha: ca4d588f47820ff3d514d37fa4ee08a4222dec11
     user_starred_at: "2025-08-28T22:48:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31723,15 +31842,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.873Z"
+      prompt_version: v2
   - repo: MorDavid/BruteForceAI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+    tags:
+      - bruteforce
+      - llm
+      - lang:python
     summary: Advanced LLM-powered brute-force tool combining AI intelligence with automated login attacks
     last_synced_sha: 0f64b278474a9b20d4a148ac89be49b3f87fd97c
     user_starred_at: "2025-08-28T22:48:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -31753,6 +31881,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:01.872Z"
+      prompt_version: v2
   - repo: rink-turksma/IntunePrepTool
     categories:
       - devops
