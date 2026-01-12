@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-12T04:25:21.447Z"
+  manifest_updated_at: "2026-01-12T04:25:50.339Z"
   total_repos: 1959
   generator_version: v1.0.0
   github_user: primeinc
@@ -30287,13 +30287,18 @@ repositories:
       mirror_url: null
   - repo: neondatabase/neon
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - cloud
+    tags:
+      - serverless
+      - postgresql
+      - autoscaling
+      - lang:rust
     summary: 'Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.'
     last_synced_sha: 015b1c7cb3259a6fcd5039bc2bd46a462e163ae8
     user_starred_at: "2025-09-13T04:52:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -30317,15 +30322,25 @@ repositories:
         published_at: "2025-07-29T11:01:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.339Z"
+      prompt_version: v2
   - repo: github/spec-kit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - learning
+    tags:
+      - spec-driven-development
+      - toolkit
+      - ai
+      - lang:python
     summary: "\U0001F4AB Toolkit to help you get started with Spec-Driven Development"
     last_synced_sha: 9111699cd27879e3e6301651a03e502ecb6dd65d
     user_starred_at: "2025-09-12T17:56:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30351,15 +30366,24 @@ repositories:
         published_at: "2025-12-04T19:58:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.339Z"
+      prompt_version: v2
   - repo: jamesmcroft/bicep-templates
     categories:
-      - unclassified
-    tags: []
+      - infrastructure
+      - cloud
+    tags:
+      - bicep-templates
+      - azure-infrastructure
+      - iac
     summary: A centralized resource for providing baseline templates for building and deploying infrastructure-as-code best practices using Azure Bicep
     last_synced_sha: 73f8d51931d66df62e7823f465a98326d29673f5
     user_starred_at: "2025-09-11T19:28:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -30380,15 +30404,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.339Z"
+      prompt_version: v2
   - repo: continuedev/continue
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - continuous-ai
+      - cli
+      - background-agents
+      - lang:ts
     summary: ⏩ Ship faster with Continuous AI. Open-source CLI that can be used in TUI mode as a coding agent or Headless mode to run background agents
     last_synced_sha: 5a94d6f6e94d10573877c483130c86c0efdba86c
     user_starred_at: "2025-09-11T19:21:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30422,15 +30456,24 @@ repositories:
         published_at: "2026-01-10T01:46:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.339Z"
+      prompt_version: v2
   - repo: Azure/industry-policy-portfolio
     categories:
-      - unclassified
-    tags: []
+      - security
+      - infrastructure
+    tags:
+      - compliance-frameworks
+      - azure-policies
+      - regulated-industries
     summary: The Industry Policy Portfolio's Policy Initiatives aid in customizing deployments to reduce the time needed to audit environments and meet established regulatory compliance frameworks in regulated ...
     last_synced_sha: 4f4bfa546b8719dfaed9b428dec87ceff0476017
     user_starred_at: "2025-09-11T10:56:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -30449,15 +30492,23 @@ repositories:
         published_at: "2025-02-13T18:35:02Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.339Z"
+      prompt_version: v2
   - repo: Azure/playwright-workspaces
     categories:
-      - unclassified
-    tags: []
+      - testing
+    tags:
+      - playwright
+      - testing
+      - workspaces
     summary: No description provided
     last_synced_sha: e738aaaf79dc82c7d7f4938eb5f0c8dc5bde3847
     user_starred_at: "2025-09-11T10:04:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -30474,15 +30525,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.339Z"
+      prompt_version: v2
   - repo: ErsatzTV/ErsatzTV
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - custom-tv-channels
+      - media-transformation
+      - lang:csharp
     summary: Open-source platform that transforms your personal media library into live, custom TV channels.
     last_synced_sha: b72d15077596ceab8313dab9123ace14f07f42d4
     user_starred_at: "2025-09-11T04:30:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -30501,15 +30561,25 @@ repositories:
         published_at: "2026-01-08T22:02:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.339Z"
+      prompt_version: v2
   - repo: reshaped-ui/reshaped
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react-components
+      - design-system
+      - figma
+      - lang:ts
     summary: Professionally crafted React & Figma components for building beautiful products or starting your own design system
     last_synced_sha: f2b61ed8365da5a9bc5c7fef034c980a9af91122
     user_starred_at: "2025-09-11T04:29:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30533,15 +30603,25 @@ repositories:
         published_at: "2025-12-21T13:22:16Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.339Z"
+      prompt_version: v2
   - repo: Azure-Samples/AI-Gateway
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - api-integration
+      - azure-ai
+      - openai
+      - genai
     summary: "APIM ❤️ AI - This repo contains experiments on Azure API Management's AI capabilities, integrating with Azure Open AI, AI Foundry, and much more \U0001F680 . New workshop experience at https://aka.ms/ai-ga..."
     last_synced_sha: 4a7229abac21261a8e210b5beb44a2fb6a2403e4
     user_starred_at: "2025-09-10T23:30:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -30568,15 +30648,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.339Z"
+      prompt_version: v2
   - repo: Azure-Samples/snippy
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - multi-agent
+      - azure-functions
+      - vector-search
+      - lang:python
     summary: "\U0001F9E9 Build AI-powered MCP Tools with Azure Functions, Durable Agents & Cosmos vector search. Features orchestrated multi-agent workflows using Open AI."
     last_synced_sha: fc7a17ac23e35adb0067f05b9283b38c5d6e3e97
     user_starred_at: "2025-09-10T23:28:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30605,15 +30695,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.339Z"
+      prompt_version: v2
   - repo: Azure/reliable-web-app-pattern-dotnet
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - cloud
+    tags:
+      - azure-integration
+      - cloud-apps
+      - dotnet
+      - reference-architecture
     summary: The Reliable Web App Pattern is a set of objectives to help your web application converge on the cloud. This repo contains a reference implementation of a reliable web application for .NET.
     last_synced_sha: d1618a47fc497327f6b2261b838e551f4de4adf0
     user_starred_at: "2025-09-10T23:23:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -30646,15 +30746,25 @@ repositories:
         published_at: "2024-04-10T19:41:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.339Z"
+      prompt_version: v2
   - repo: NVIDIA/NeMo-Agent-Toolkit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-agents
+      - optimization
+      - open-source
+      - lang:python
     summary: The NVIDIA Ne Mo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents.
     last_synced_sha: bc97aff9381650846839351529fc4b43f36877d8
     user_starred_at: "2025-09-10T05:37:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -30673,15 +30783,26 @@ repositories:
         published_at: "2025-11-07T20:21:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.339Z"
+      prompt_version: v2
   - repo: Eventual-Inc/Daft
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - data-engine
+      - multimodal
+      - distributed-computing
+      - big-data
+      - lang:rust
     summary: High-performance data engine for AI and multimodal workloads. Process images, audio, video, and structured data at any scale
     last_synced_sha: ae145405193ba94d71e8493307e892eaeb65521e
     user_starred_at: "2025-09-10T05:15:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -30719,15 +30840,26 @@ repositories:
         published_at: "2025-12-19T01:25:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.339Z"
+      prompt_version: v2
   - repo: Mentra-Community/MentraOS
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ai-ml
+    tags:
+      - smart-glasses
+      - wearable-tech
+      - conversational-ai
+      - sdk
+      - lang:ts
     summary: Mentra OS is the leading smart glasses platform + SDK. Stream your view, transcribe audio, talk to AI and capture photos hands-free on compatible glasses.
     last_synced_sha: 121320edad61e16b08ea79a0f365c88117872271
     user_starred_at: "2025-09-10T05:08:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30760,15 +30892,25 @@ repositories:
         published_at: "2025-12-04T02:28:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.339Z"
+      prompt_version: v2
   - repo: WeChatCV/Stand-In
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - video-generation
+      - identity-preserving
+      - ai-framework
+      - lang:python
     summary: Stand-In is a lightweight, plug-and-play framework for identity-preserving video generation.
     last_synced_sha: b18a736e5514cf2341ab1aa1221d246ced6d5467
     user_starred_at: "2025-09-10T05:05:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -30785,6 +30927,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:25:50.338Z"
+      prompt_version: v2
   - repo: Francis-Rings/StableAvatar
     categories:
       - ai-ml
