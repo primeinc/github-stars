@@ -1,17 +1,25 @@
 # Tag: markdown
 
-*9 repositories*
+*17 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [openprose/prose](https://github.com/openprose/prose) | No description provided | ★ 519 | 2026-01-11 |
+| [openprose/prose](https://github.com/openprose/prose) | No description provided | ★ 534 | 2026-01-11 |
 | [riccardoruspoli/reko](https://github.com/riccardoruspoli/reko) | Make You Tube videos readable. Local-first Markdown summaries with Ollama, with cloud providers support. | `Python` ★ 60 | 2025-12-28 |
 | [waynesutton/markdown-site](https://github.com/waynesutton/markdown-site) | An open-source publishing framework built for AI agents and developers to ship websites, docs, or blogs. Write markdown, sync from the terminal. Your content is instantly available to browsers, LLM... | `TypeScript` ★ 526 | 2026-01-11 |
 | [jgm/pandoc](https://github.com/jgm/pandoc) | Universal markup converter | `Haskell` ★ 41.4k | 2026-01-11 |
-| [johnlindquist/mdflow](https://github.com/johnlindquist/mdflow) | Multi-backend CLI for executable markdown prompts. Run .md files against Claude, Codex, Gemini, or Copilot. | `TypeScript` ★ 511 | 2025-12-19 |
+| [johnlindquist/mdflow](https://github.com/johnlindquist/mdflow) | Multi-backend CLI for executable markdown prompts. Run .md files against Claude, Codex, Gemini, or Copilot. | `TypeScript` ★ 512 | 2025-12-19 |
 | [pionxzh/chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) | Export and Share your Chat GPT conversation history | `TypeScript` ★ 2.1k | 2025-07-25 |
-| [slidevjs/slidev](https://github.com/slidevjs/slidev) | Presentation Slides for Developers | `TypeScript` ★ 43.6k | 2026-01-08 |
+| [slidevjs/slidev](https://github.com/slidevjs/slidev) | Presentation Slides for Developers | `TypeScript` ★ 43.6k | 2026-01-12 |
 | [charmbracelet/glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! 💅🏻 | `Go` ★ 22.2k | 2025-12-21 |
 | [hackmdio/codimd](https://github.com/hackmdio/codimd) | Codi MD - Realtime collaborative markdown notes on all platforms. | `JavaScript` ★ 9.9k | 2025-10-02 |
+| [amantus-ai/llm-codes](https://github.com/amantus-ai/llm-codes) | Transform developer documentation to clean Markdown | `TypeScript` ★ 193 | 2025-12-25 |
+| [scaffdog/scaffdog](https://github.com/scaffdog/scaffdog) | :dog: scaffdog is Markdown driven scaffolding tool. | `TypeScript` ★ 758 | 2026-01-08 |
+| [codexu/note-gen](https://github.com/codexu/note-gen) | A cross-platform Markdown AI note-taking software. | `TypeScript` ★ 10.5k | 2026-01-10 |
+| [iamgio/quarkdown](https://github.com/iamgio/quarkdown) | 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases. | `Kotlin` ★ 9.8k | 2026-01-12 |
+| [cristianvasquez/supernote-web-viewer](https://github.com/cristianvasquez/supernote-web-viewer) | Display a supernote .note file | `JavaScript` ★ 20 | 2025-07-29 |
+| [philips/supernote-obsidian-plugin](https://github.com/philips/supernote-obsidian-plugin) | Supernote A5, A5X, A6X, A6X2 (Nomad), and A5X2 (Manta) integration for Obsidian. Generate markdown, capture screen mirror, and more. | `TypeScript` ★ 274 | 2025-11-21 |
+| [datalab-to/marker](https://github.com/datalab-to/marker) | Convert PDF to markdown + JSON quickly with high accuracy | `Python` ★ 30.8k | 2026-01-07 |
+| [shinokada/markdown-docs-as-pdf](https://github.com/shinokada/markdown-docs-as-pdf) | A Bash Script to create PDF documents for React, Vue, Svelte, Svelte Kit, Nuxt, Vitest, pnpm, Slidev, and more. | `Shell` ★ 39 | 2024-10-15 |

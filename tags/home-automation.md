@@ -1,12 +1,14 @@
 # Tag: home-automation
 
-*8 repositories*
+*10 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [cppqtdev/QT-Home-Automation-Glass-UI](https://github.com/cppqtdev/QT-Home-Automation-Glass-UI) | Linkedin Page | `QML` ★ 25 | 2024-05-18 |
+| [Brandawg93/homebridge-fordpass](https://github.com/Brandawg93/homebridge-fordpass) | Control your Ford vehicle in Home Kit using Homebridge. | `TypeScript` ★ 63 | 2025-11-21 |
+| [acon96/home-llm](https://github.com/acon96/home-llm) | A Home Assistant integration & Model to control your smart home using a Local LLM | `Python` ★ 1.2k | 2026-01-04 |
 | [thevoltagesource/LennoxiComfort](https://github.com/thevoltagesource/LennoxiComfort) | Home Assistant custom component for controlling Lennox i Comfort Wi Fi and Air Ease Comfort Sync thermostats. | `Python` ★ 40 | 2024-09-07 |
 | [SoCo/SoCo](https://github.com/SoCo/SoCo) | So Co (Sonos Controller) is a Python project that allows you to programmatically control Sonos speakers. | `Python` ★ 1.6k | 2025-12-31 |
 | [daniel-frenkel/Valar-Systems](https://github.com/daniel-frenkel/Valar-Systems) | Welcome to my tiny one-man shop, Valar Systems. I make devices that control your home's curtains, windows, doors, and more! | `C` ★ 40 | 2023-04-12 |

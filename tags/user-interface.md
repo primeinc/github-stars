@@ -7,5 +7,5 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [mcmonkeyprojects/SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) | Swarm UI (formerly Stable Swarm UI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility. | `C#` ★ 3.6k | 2026-01-10 |
-| [microsoft/magentic-ui](https://github.com/microsoft/magentic-ui) | A research prototype of a human-centered web agent | `Python` ★ 9.6k | 2025-12-18 |
-| [MkQtS/Carefree](https://github.com/MkQtS/Carefree) | An elegant Potplayer skin | ★ 38 | 2024-01-09 |
+| [sim-codes/windows-phone-link-ui](https://github.com/sim-codes/windows-phone-link-ui) | No description provided | `TypeScript` ★ 2 | 2024-05-14 |
+| [dquiet-lab/sim-control-page](https://github.com/dquiet-lab/sim-control-page) | No description provided | `TypeScript` ★ 1 | 2025-03-25 |

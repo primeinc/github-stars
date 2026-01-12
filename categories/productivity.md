@@ -1,6 +1,6 @@
 # Productivity
 
-*251 repositories*
+*370 repositories*
 
 [← Back to Index](../README.md)
 
@@ -9,57 +9,57 @@
 | [prabirshrestha/dotfiles](https://github.com/prabirshrestha/dotfiles) | There is no place like ~ | `Lua` ★ 90 | 2025-12-28 |
 | [devicons/devicon](https://github.com/devicons/devicon) | Set of icons representing programming languages, designing & development tools | `CSS` ★ 11.4k | 2025-12-28 |
 | [simulot/immich-go](https://github.com/simulot/immich-go) | An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives. | `Go` ★ 5.2k | 2025-12-29 |
-| [sysadminsmedia/homebox](https://github.com/sysadminsmedia/homebox) | A continuation of Home Box the inventory and organization system built for the Home User | `Go` ★ 4.8k | 2026-01-11 |
+| [sysadminsmedia/homebox](https://github.com/sysadminsmedia/homebox) | A continuation of Home Box the inventory and organization system built for the Home User | `Go` ★ 4.8k | 2026-01-12 |
 | [spf13/cobra](https://github.com/spf13/cobra) | A Commander for modern Go CLI interactions | `Go` ★ 42.9k | 2025-12-10 |
 | [knadh/listmonk](https://github.com/knadh/listmonk) | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app. | `Go` ★ 18.7k | 2026-01-10 |
 | [charmbracelet/vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder 📼 | `Go` ★ 18.3k | 2025-12-21 |
 | [sxyazi/yazi](https://github.com/sxyazi/yazi) | 💥 Blazing fast terminal file manager written in Rust, based on async I/O. | `Rust` ★ 31.4k | 2026-01-11 |
 | [3b1b/manim](https://github.com/3b1b/manim) | Animation engine for explanatory math videos | `Python` ★ 83.6k | 2025-10-20 |
-| [icloud-photos-downloader/icloud_photos_downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader) | A command-line tool to download photos from i Cloud | `Python` ★ 9.7k | 2026-01-06 |
+| [icloud-photos-downloader/icloud_photos_downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader) | A command-line tool to download photos from i Cloud | `Python` ★ 10.1k | 2026-01-06 |
 | [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie) | Mealie is a self hosted recipe manager and meal planner with a Rest API backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add reci... | `Python` ★ 11.1k | 2026-01-11 |
-| [Lulzx/zpdf](https://github.com/Lulzx/zpdf) | Zero-copy PDF text extraction library written in Zig. High-performance, memory-mapped parsing with SIMD acceleration. | `Zig` ★ 790 | 2026-01-02 |
-| [snarktank/ralph](https://github.com/snarktank/ralph) | Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete. | `TypeScript` ★ 2.3k | 2026-01-07 |
-| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition. | `Shell` ★ 7.1k | 2026-01-10 |
-| [openprose/prose](https://github.com/openprose/prose) | No description provided | ★ 519 | 2026-01-11 |
+| [Lulzx/zpdf](https://github.com/Lulzx/zpdf) | Zero-copy PDF text extraction library written in Zig. High-performance, memory-mapped parsing with SIMD acceleration. | `Zig` ★ 791 | 2026-01-02 |
+| [snarktank/ralph](https://github.com/snarktank/ralph) | Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete. | `TypeScript` ★ 2.7k | 2026-01-07 |
+| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition. | `Shell` ★ 7.2k | 2026-01-11 |
+| [openprose/prose](https://github.com/openprose/prose) | No description provided | ★ 534 | 2026-01-11 |
 | [taskflow/taskflow](https://github.com/taskflow/taskflow) | A General-purpose Task-parallel Programming System using Modern C++ | `C++` ★ 11.6k | 2026-01-10 |
 | [rayenghanmi/RyTuneX](https://github.com/rayenghanmi/RyTuneX) | Ry Tune X is a cutting-edge optimizer built with the Win UI 3 framework, designed to amplify the performance of Windows devices. Crafted for both Windows 10 and 11. | `C#` ★ 3.8k | 2026-01-11 |
-| [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | Get 10X more out of Claude Code, Codex or any coding agent | `Rust` ★ 14.8k | 2026-01-11 |
-| [usememos/memos](https://github.com/usememos/memos) | An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees. | `Go` ★ 53k | 2026-01-11 |
+| [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | Get 10X more out of Claude Code, Codex or any coding agent | `Rust` ★ 15k | 2026-01-11 |
+| [usememos/memos](https://github.com/usememos/memos) | An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees. | `Go` ★ 53.1k | 2026-01-12 |
 | [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | Open Stock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever ... | `TypeScript` ★ 7.1k | 2025-12-12 |
 | [jdx/mise](https://github.com/jdx/mise) | dev tools, env vars, task runner | `Rust` ★ 22.9k | 2026-01-11 |
-| [sinelaw/fresh](https://github.com/sinelaw/fresh) | Text editor for your terminal: easy, powerful and fast | `Rust` ★ 5k | 2026-01-11 |
+| [sinelaw/fresh](https://github.com/sinelaw/fresh) | Text editor for your terminal: easy, powerful and fast | `Rust` ★ 5k | 2026-01-12 |
 | [sharkdp/bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | `Rust` ★ 56.6k | 2026-01-10 |
 | [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications. | `Python` ★ 12.1k | 2026-01-11 |
-| [charmbracelet/crush](https://github.com/charmbracelet/crush) | The glamourous AI coding agent for your favourite terminal 💘 | `Go` ★ 17.5k | 2026-01-10 |
-| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Claude Skills for Obsidian | ★ 5.2k | 2026-01-10 |
+| [charmbracelet/crush](https://github.com/charmbracelet/crush) | The glamourous AI coding agent for your favourite terminal 💘 | `Go` ★ 17.6k | 2026-01-11 |
+| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Claude Skills for Obsidian | ★ 5.5k | 2026-01-11 |
 | [0xSero/Azul](https://github.com/0xSero/Azul) | Browse the world in the comfort of your terminal | `Rust` ★ 141 | 2026-01-08 |
 | [ishandutta2007/open-hr](https://github.com/ishandutta2007/open-hr) | 📖opensource equivalent of Deel payroll and HR solutions | ★ 1 | 2026-01-09 |
 | [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) | The first "code-first" agent framework for seamlessly planning and executing data analytics tasks. | `Python` ★ 6.1k | 2026-01-07 |
-| [davidfowl/tally](https://github.com/davidfowl/tally) | Let agents classify your bank transactions. | `Python` ★ 946 | 2026-01-11 |
+| [davidfowl/tally](https://github.com/davidfowl/tally) | Let agents classify your bank transactions. | `Python` ★ 949 | 2026-01-11 |
 | [ArtemXTech/claude-code-obsidian-starter](https://github.com/ArtemXTech/claude-code-obsidian-starter) | Free starter kit: Claude Code + Obsidian. Pre-configured vault with skills for projects, tasks, clients, and daily routines. Just open and go. | `Typst` ★ 28 | 2026-01-08 |
-| [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | A beautiful web UI for browsing Claude Code conversation history. | `TypeScript` ★ 436 | 2026-01-10 |
-| [OpenSignLabs/OpenSign](https://github.com/OpenSignLabs/OpenSign) | 🔥 The free & Open Source Docu Sign alternative | `JavaScript` ★ 5.8k | 2026-01-09 |
-| [subframe7536/maple-font](https://github.com/subframe7536/maple-font) | Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项 | `Python` ★ 22.7k | 2026-01-11 |
+| [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | A beautiful web UI for browsing Claude Code conversation history. | `TypeScript` ★ 443 | 2026-01-10 |
+| [OpenSignLabs/OpenSign](https://github.com/OpenSignLabs/OpenSign) | 🔥 The free & Open Source Docu Sign alternative | `JavaScript` ★ 5.8k | 2026-01-12 |
+| [subframe7536/maple-font](https://github.com/subframe7536/maple-font) | Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项 | `Python` ★ 22.7k | 2026-01-12 |
 | [riccardoruspoli/reko](https://github.com/riccardoruspoli/reko) | Make You Tube videos readable. Local-first Markdown summaries with Ollama, with cloud providers support. | `Python` ★ 60 | 2025-12-28 |
-| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 2.6k | 2026-01-11 |
-| [supreme-gg-gg/instagram-cli](https://github.com/supreme-gg-gg/instagram-cli) | Instagram's terminal UI app - The ultimate weapon against brainrot | `TypeScript` ★ 1.2k | 2026-01-11 |
+| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 2.6k | 2026-01-12 |
+| [supreme-gg-gg/instagram-cli](https://github.com/supreme-gg-gg/instagram-cli) | Instagram's terminal UI app - The ultimate weapon against brainrot | `TypeScript` ★ 1.2k | 2026-01-12 |
 | [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code | `TypeScript` ★ 1.1k | 2026-01-11 |
-| [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. | `TypeScript` ★ 5.4k | 2026-01-10 |
-| [hosenur/portal](https://github.com/hosenur/portal) | Mobile first batteries included web ui for sst/opencode. Git integration, in browser terminal, isolated workspaces. | `TypeScript` ★ 211 | 2026-01-06 |
+| [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. | `TypeScript` ★ 5.4k | 2026-01-11 |
+| [hosenur/portal](https://github.com/hosenur/portal) | Mobile first batteries included web ui for sst/opencode. Git integration, in browser terminal, isolated workspaces. | `TypeScript` ★ 218 | 2026-01-06 |
 | [microsoft/vscode-generator-code](https://github.com/microsoft/vscode-generator-code) | Visual Studio Code extension generator | `JavaScript` ★ 1.5k | 2026-01-09 |
 | [memstechtips/Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | `C#` ★ 4.3k | 2026-01-09 |
 | [NullandKale/NullSplats](https://github.com/NullandKale/NullSplats) | No description provided | `Python` ★ 112 | 2026-01-11 |
 | [rsalmei/alive-progress](https://github.com/rsalmei/alive-progress) | A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations! | `Python` ★ 6.2k | 2025-10-10 |
-| [code-yeongyu/oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode) | The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you. | `TypeScript` ★ 14k | 2026-01-11 |
-| [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) | Personal AI Infrastructure for upgrading humans. | `TypeScript` ★ 4.3k | 2026-01-10 |
+| [code-yeongyu/oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode) | The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you. | `TypeScript` ★ 14.4k | 2026-01-12 |
+| [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) | Personal AI Infrastructure for upgrading humans. | `TypeScript` ★ 4.4k | 2026-01-11 |
 | [rendercv/rendercv](https://github.com/rendercv/rendercv) | CV/resume generator for academics and engineers, YAML to PDF | `Python` ★ 14.6k | 2026-01-05 |
 | [undox-rs/undox](https://github.com/undox-rs/undox) | :book: A batteries-included static site generator built for documentation, with first-class support for aggregating content from multiple repositories | `Rust` ★ 9 | 2025-12-16 |
 | [shadcn/license-generator](https://github.com/shadcn/license-generator) | Generates a license for your open source project. | `JavaScript` ★ 170 | 2024-06-10 |
 | [jgm/pandoc](https://github.com/jgm/pandoc) | Universal markup converter | `Haskell` ★ 41.4k | 2026-01-11 |
 | [sohzm/cheating-daddy](https://github.com/sohzm/cheating-daddy) | a free and opensource app that lets you gain an unfair advantage | `JavaScript` ★ 4.9k | 2025-12-12 |
 | [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs) | A list of semi to fully remote-friendly companies (jobs) in tech. | `JavaScript` ★ 39.9k | 2025-12-30 |
-| [refly-ai/refly](https://github.com/refly-ai/refly) | Vibe Workflow Platform for Non-technical Creators. | `TypeScript` ★ 5.9k | 2026-01-11 |
-| [rybbit-io/rybbit](https://github.com/rybbit-io/rybbit) | 🐸 Rybbit - open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive. | `TypeScript` ★ 10.7k | 2026-01-11 |
+| [refly-ai/refly](https://github.com/refly-ai/refly) | Vibe Workflow Platform for Non-technical Creators. | `TypeScript` ★ 5.9k | 2026-01-12 |
+| [rybbit-io/rybbit](https://github.com/rybbit-io/rybbit) | 🐸 Rybbit - open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive. | `TypeScript` ★ 10.7k | 2026-01-12 |
 | [korfuri/awesome-monorepo](https://github.com/korfuri/awesome-monorepo) | A curated list of awesome Monorepo tools, software and architectures. | ★ 5.7k | 2024-08-16 |
 | [humhub/humhub](https://github.com/humhub/humhub) | Hum Hub is an Open Source Enterprise Social Network. Easy to install, intuitive to use and extendable with countless freely available modules. | `PHP` ★ 6.6k | 2026-01-11 |
 | [imfunniee/gitfolio](https://github.com/imfunniee/gitfolio) | :octocat: personal website + blog for every github user | `JavaScript` ★ 6.7k | 2022-02-19 |
@@ -71,10 +71,10 @@
 | [Klocman/Bulk-Crap-Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller) | Remove large amounts of unwanted applications quickly. | `C#` ★ 17k | 2025-08-14 |
 | [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) | 🖱️ 纯粹的Windows右键菜单管理程序 | `C#` ★ 17.5k | 2024-08-17 |
 | [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visual... | `TypeScript` ★ 17.9k | 2026-01-11 |
-| [C4illin/ConvertX](https://github.com/C4illin/ConvertX) | 💾 Self-hosted online file converter. Supports 1000+ formats ⚙️ | `TypeScript` ★ 14.5k | 2026-01-11 |
+| [C4illin/ConvertX](https://github.com/C4illin/ConvertX) | 💾 Self-hosted online file converter. Supports 1000+ formats ⚙️ | `TypeScript` ★ 14.7k | 2026-01-12 |
 | [KnifMelti/WAU-Settings-GUI](https://github.com/KnifMelti/WAU-Settings-GUI) | Provides a user-friendly portable standalone interface to modify every aspect of Winget-Auto Update (WAU) | `PowerShell` ★ 26 | 2026-01-01 |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future ... | `TypeScript` ★ 13.2k | 2026-01-10 |
-| [lux032/MusicAutoTagger](https://github.com/lux032/MusicAutoTagger) | A smart music file organization tool based on audio fingerprinting technology. It automatically monitors the download directory, identifies songs using Acoust ID and Music Brainz, completes metadat... | `Java` ★ 44 | 2026-01-02 |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future ... | `TypeScript` ★ 13.3k | 2026-01-10 |
+| [lux032/MusicAutoTagger](https://github.com/lux032/MusicAutoTagger) | A smart music file organization tool based on audio fingerprinting technology. It automatically monitors the download directory, identifies songs using Acoust ID and Music Brainz, completes metadat... | `Java` ★ 44 | 2026-01-11 |
 | [basecamp/fizzy](https://github.com/basecamp/fizzy) | Kanban as it should be. Not as it has been. | `Ruby` ★ 6.6k | 2026-01-09 |
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | :octocat: Browser extension that simplifies the Git Hub interface and adds useful features | `TypeScript` ★ 30.1k | 2026-01-11 |
 | [thinking-machines-lab/tinker-cookbook](https://github.com/thinking-machines-lab/tinker-cookbook) | Post-training with Tinker | `Python` ★ 2.7k | 2026-01-08 |
@@ -82,34 +82,34 @@
 | [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | Lean Algorithmic Trading Engine by Quant Connect (Python, C#) | `C#` ★ 15.8k | 2026-01-09 |
 | [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) | Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command. | `JavaScript` ★ 1.2k | 2026-01-07 |
 | [pionxzh/chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) | Export and Share your Chat GPT conversation history | `TypeScript` ★ 2.1k | 2025-07-25 |
-| [nvbn/thefuck](https://github.com/nvbn/thefuck) | Magnificent app which corrects your previous console command. | `Python` ★ 95.1k | 2024-07-19 |
+| [nvbn/thefuck](https://github.com/nvbn/thefuck) | Magnificent app which corrects your previous console command. | `Python` ★ 95.2k | 2024-07-19 |
 | [trungdq88/Awesome-Black-Friday-Cyber-Monday](https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday) | Awesome apps, software, and Saa S deals on Black Friday. | ★ 7.5k | 2025-11-30 |
 | [gtsteffaniak/filebrowser](https://github.com/gtsteffaniak/filebrowser) | 📂 Web File Browser | `Go` ★ 5.9k | 2026-01-11 |
-| [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) | Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monito... | `Python` ★ 29.8k | 2026-01-07 |
-| [slidevjs/slidev](https://github.com/slidevjs/slidev) | Presentation Slides for Developers | `TypeScript` ★ 43.6k | 2026-01-08 |
+| [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) | Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monito... | `Python` ★ 29.8k | 2026-01-12 |
+| [slidevjs/slidev](https://github.com/slidevjs/slidev) | Presentation Slides for Developers | `TypeScript` ★ 43.6k | 2026-01-12 |
 | [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) | A collection of essential Type Script types | `TypeScript` ★ 16.7k | 2026-01-08 |
 | [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop_computer: :camera_flash: | `C++` ★ 28.6k | 2025-12-24 |
 | [luckgrid/lg-gnosys](https://github.com/luckgrid/lg-gnosys) | A monorepo architecture starter project for building framework agnostic applications with a feature rich development workspaces configuration... | `CSS` ★ 1 | 2025-09-13 |
 | [astrofox-io/astrofox](https://github.com/astrofox-io/astrofox) | Astrofox is a motion graphics program that lets you turn audio into amazing videos. | `JavaScript` ★ 1.9k | 2024-05-27 |
 | [pwa-builder/PWABuilder](https://github.com/pwa-builder/PWABuilder) | The simplest way to create progressive web apps across platforms and devices. Start here. This repo is home to several projects in the PWABuilder family of tools. | `TypeScript` ★ 3.4k | 2026-01-08 |
-| [marmelab/shadcn-admin-kit](https://github.com/marmelab/shadcn-admin-kit) | Component kit to build your Admin app with shadcn/ui | `TypeScript` ★ 712 | 2026-01-09 |
-| [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | Hundreds of Claude Code plugins with embedded AI skills. Learn via interactive Jupyter tutorials. | `Python` ★ 943 | 2026-01-11 |
+| [marmelab/shadcn-admin-kit](https://github.com/marmelab/shadcn-admin-kit) | Component kit to build your Admin app with shadcn/ui | `TypeScript` ★ 711 | 2026-01-11 |
+| [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | Hundreds of Claude Code plugins with embedded AI skills. Learn via interactive Jupyter tutorials. | `Python` ★ 945 | 2026-01-11 |
 | [gamosoft/NoteDiscovery](https://github.com/gamosoft/NoteDiscovery) | Your Self-Hosted Knowledge Base | `JavaScript` ★ 2.1k | 2026-01-05 |
 | [openworkflowdev/openworkflow](https://github.com/openworkflowdev/openworkflow) | Open-source Type Script framework for building durable, resumable workflows. | `TypeScript` ★ 674 | 2026-01-08 |
-| [opencloud-eu/opencloud](https://github.com/opencloud-eu/opencloud) | 🌤️ Open Cloud is the open source platform for file management, sharing and collaboration. Simple and sovereign. | `Go` ★ 4.6k | 2026-01-09 |
+| [opencloud-eu/opencloud](https://github.com/opencloud-eu/opencloud) | 🌤️ Open Cloud is the open source platform for file management, sharing and collaboration. Simple and sovereign. | `Go` ★ 4.6k | 2026-01-12 |
 | [charmbracelet/glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! 💅🏻 | `Go` ★ 22.2k | 2025-12-21 |
-| [ad-on-is/rachoon](https://github.com/ad-on-is/rachoon) | 🦝 Rachoon — A self-hostable way to handle invoices | `TypeScript` ★ 895 | 2025-12-02 |
-| [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | A modern download manager that supports all platforms. Built with Golang and Flutter. | `Go` ★ 22.4k | 2026-01-11 |
+| [ad-on-is/rachoon](https://github.com/ad-on-is/rachoon) | 🦝 Rachoon — A self-hostable way to handle invoices | `TypeScript` ★ 896 | 2025-12-02 |
+| [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | A modern download manager that supports all platforms. Built with Golang and Flutter. | `Go` ★ 22.4k | 2026-01-12 |
 | [JoshuaKGoldberg/TypeStat](https://github.com/JoshuaKGoldberg/TypeStat) | Converts Java Script to Type Script and Type Script to better Type Script. 🧫 | `TypeScript` ★ 2.2k | 2026-01-10 |
-| [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) | Desktop App for downloading Videos and Audios from hundreds of sites | `JavaScript` ★ 7.2k | 2025-12-11 |
+| [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) | Desktop App for downloading Videos and Audios from hundreds of sites | `JavaScript` ★ 7.3k | 2025-12-11 |
 | [Ido-Levi/Hephaestus](https://github.com/Ido-Levi/Hephaestus) | Semi-Structured Agentic Framework. Workflows build themselves as agents discover what needs to be done, not what you predicted upfront. | `Python` ★ 1.1k | 2025-12-01 |
-| [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | Free, simple, and intuitive online database diagram editor and SQL generator. | `JavaScript` ★ 35.4k | 2026-01-09 |
+| [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | Free, simple, and intuitive online database diagram editor and SQL generator. | `JavaScript` ★ 35.5k | 2026-01-09 |
 | [TheCloudTheory/arm-estimator](https://github.com/TheCloudTheory/arm-estimator) | ACE (Azure Cost Estimator) - automated cost estimations for ARM Templates, Bicep and Terraform | `C#` ★ 213 | 2025-12-17 |
 | [kayasax/EasyPIM](https://github.com/kayasax/EasyPIM) | Easy PIM let you manage PIM Azure Resource, Entra Role and Groups settings and assignments with simplicity | `PowerShell` ★ 216 | 2025-12-28 |
 | [microsoft/Intune-solutions](https://github.com/microsoft/Intune-solutions) | Git Hub Repository for Solution Intune Sample Scripts | `PowerShell` ★ 64 | 2023-07-02 |
 | [aleks-apostle/claude-code-patches](https://github.com/aleks-apostle/claude-code-patches) | A simple patch that toggles claude-code thinking traces to be fully expanded by default without having to press ctrl + o | `JavaScript` ★ 39 | 2025-12-09 |
 | [elie222/inbox-zero](https://github.com/elie222/inbox-zero) | The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast. | `TypeScript` ★ 9.8k | 2026-01-11 |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` ★ 61.2k | 2026-01-11 |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` ★ 62.7k | 2026-01-12 |
 | [github/docs](https://github.com/github/docs) | The open-source repo for docs.github.com | `TypeScript` ★ 18.7k | 2026-01-10 |
 | [ramensoftware/windhawk](https://github.com/ramensoftware/windhawk) | The customization marketplace for Windows programs: https://windhawk.net/ | `C++` ★ 6.6k | 2025-12-08 |
 | [Tyrrrz/YoutubeDownloader](https://github.com/Tyrrrz/YoutubeDownloader) | Downloads videos and playlists from You Tube | `C#` ★ 13.9k | 2026-01-01 |
@@ -118,10 +118,10 @@
 | [atuinsh/atuin](https://github.com/atuinsh/atuin) | ✨ Magical shell history | `Rust` ★ 27.9k | 2026-01-10 |
 | [atuinsh/desktop](https://github.com/atuinsh/desktop) | 📖 Runbooks that run | `TypeScript` ★ 2.2k | 2026-01-10 |
 | [Quantco/pnpm-licenses](https://github.com/Quantco/pnpm-licenses) | Generate third party license disclaimers in pnpm-based projects | `TypeScript` ★ 13 | 2026-01-02 |
-| [opf/openproject](https://github.com/opf/openproject) | Open Project is the leading open source project management software. | `Ruby` ★ 13.8k | 2026-01-11 |
-| [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) | The best way to get AI coding agents to solve hard problems in complex codebases. | `TypeScript` ★ 8.5k | 2026-01-11 |
-| [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) | An Open Source implementation of Notebook LM with more flexibility and features | `TypeScript` ★ 17.7k | 2026-01-10 |
-| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 37.6k | 2025-12-20 |
+| [opf/openproject](https://github.com/opf/openproject) | Open Project is the leading open source project management software. | `Ruby` ★ 13.8k | 2026-01-12 |
+| [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) | The best way to get AI coding agents to solve hard problems in complex codebases. | `TypeScript` ★ 8.6k | 2026-01-11 |
+| [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) | An Open Source implementation of Notebook LM with more flexibility and features | `TypeScript` ★ 17.8k | 2026-01-10 |
+| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 37.9k | 2025-12-20 |
 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader | `Python` ★ 141.4k | 2026-01-06 |
 | [deechtejoao/stonkfetch](https://github.com/deechtejoao/stonkfetch) | A command-line tool that fetches and displays stock information with beautiful colored ASCII art logos, inspired by neofetch. | `Python` ★ 33 | 2025-11-09 |
 | [sonnyp/Eloquent](https://github.com/sonnyp/Eloquent) | Your proofreading assistant | `JavaScript` ★ 194 | 2025-12-16 |
@@ -135,26 +135,26 @@
 | [SeryioGonzalez/azure-pricer](https://github.com/SeryioGonzalez/azure-pricer) | No description provided | `Python` ★ 55 | 2025-05-16 |
 | [Azure-Samples/template-doctor](https://github.com/Azure-Samples/template-doctor) | An app to fix templates | `TypeScript` ★ 4 | 2025-11-01 |
 | [SuperCuber/dotter](https://github.com/SuperCuber/dotter) | A dotfile manager and templater written in rust 🦀 | `Rust` ★ 1.8k | 2025-08-29 |
-| [jade-tam/dotfiles](https://github.com/jade-tam/dotfiles) | Ricing dotfiles for windows 11 | `Shell` ★ 127 | 2026-01-02 |
+| [jade-tam/dotfiles](https://github.com/jade-tam/dotfiles) | Ricing dotfiles for windows 11 | `Shell` ★ 128 | 2026-01-02 |
 | [hackmdio/codimd](https://github.com/hackmdio/codimd) | Codi MD - Realtime collaborative markdown notes on all platforms. | `JavaScript` ★ 9.9k | 2025-10-02 |
 | [novatorem/novatorem](https://github.com/novatorem/novatorem) | Dynamic realtime profile Read Me linked with spotify | `Jinja` ★ 728 | 2024-12-21 |
 | [matiasmenares/Nissboard](https://github.com/matiasmenares/Nissboard) | 🚗 Nissan Consult/OBDII Realtime Dashboard | `JavaScript` ★ 53 | 2023-01-05 |
 | [badsyntax/mailinabox-ui](https://github.com/badsyntax/mailinabox-ui) | Experimental Mail-in-a-Box User Interface built with React, Redux, Type Script & Fluent UI | `TypeScript` ★ 23 | 2023-10-23 |
-| [yjs/yjs](https://github.com/yjs/yjs) | Shared data types for building collaborative software | `JavaScript` ★ 21k | 2026-01-10 |
+| [yjs/yjs](https://github.com/yjs/yjs) | Shared data types for building collaborative software | `JavaScript` ★ 21k | 2026-01-12 |
 | [mmulet/term.everything](https://github.com/mmulet/term.everything) | Run any GUI app in the terminal❗ | `Go` ★ 7.6k | 2025-12-06 |
 | [leonardoventurini/meteor-devtools-evolved](https://github.com/leonardoventurini/meteor-devtools-evolved) | The Meteor framework development tool belt, evolved. | `TypeScript` ★ 176 | 2023-03-15 |
 | [midday-ai/v1](https://github.com/midday-ai/v1) | An open-source starter kit based on Midday. | `TypeScript` ★ 3.8k | 2025-08-02 |
 | [midday-ai/midday](https://github.com/midday-ai/midday) | Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers | `TypeScript` ★ 13.5k | 2026-01-11 |
 | [intuit/auto](https://github.com/intuit/auto) | Generate releases based on semantic version labels on pull requests. | `TypeScript` ★ 2.4k | 2025-11-14 |
-| [FR33THYFR33THY/Ultimate-Windows-Optimization-Guide](https://github.com/FR33THYFR33THY/Ultimate-Windows-Optimization-Guide) | No description provided | `PowerShell` ★ 464 | 2025-12-30 |
+| [FR33THYFR33THY/Ultimate-Windows-Optimization-Guide](https://github.com/FR33THYFR33THY/Ultimate-Windows-Optimization-Guide) | No description provided | `PowerShell` ★ 466 | 2025-12-30 |
 | [The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool](https://github.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool) | The script and configuration files in this repository provide an easy method to customize and apply performance related settings to virtual desktop environments. | `PowerShell` ★ 811 | 2025-11-19 |
 | [mulaRahul/keyviz](https://github.com/mulaRahul/keyviz) | Keyviz is a free and open-source tool to visualize your keystrokes ⌨️ and 🖱️ mouse actions in real-time. | `Dart` ★ 8.7k | 2026-01-11 |
 | [bigcapitalhq/bigcapital](https://github.com/bigcapitalhq/bigcapital) | 💵 Bigcapital is financial accounting with intelligent reporting for faster decision-making, an open-source alternative to Quickbooks, Xero, etc. | `TypeScript` ★ 3.5k | 2026-01-09 |
-| [deskflow/deskflow](https://github.com/deskflow/deskflow) | Share a single keyboard and mouse between multiple computers. | `C++` ★ 23k | 2026-01-10 |
+| [deskflow/deskflow](https://github.com/deskflow/deskflow) | Share a single keyboard and mouse between multiple computers. | `C++` ★ 23.1k | 2026-01-10 |
 | [LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) | Multi-Platform Package Manager for Stable Diffusion | `C#` ★ 7.2k | 2026-01-03 |
 | [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) | Command-line program to download videos from You Tube.com and other video sites | `Python` ★ 139.4k | 2025-11-26 |
 | [langchain-ai/social-media-agent](https://github.com/langchain-ai/social-media-agent) | 📲 An agent for sourcing, curating, and scheduling social media posts with human-in-the-loop. | `TypeScript` ★ 1.8k | 2025-12-13 |
-| [teableio/teable](https://github.com/teableio/teable) | ✨ The Next Gen Airtable Alternative: No-Code Postgres | `TypeScript` ★ 20.7k | 2026-01-11 |
+| [teableio/teable](https://github.com/teableio/teable) | ✨ The Next Gen Airtable Alternative: No-Code Postgres | `TypeScript` ★ 20.7k | 2026-01-12 |
 | [EpicenterHQ/epicenter](https://github.com/EpicenterHQ/epicenter) | Press shortcut → speak → get text. Free and open source. More local-first apps soon ❤️ | `TypeScript` ★ 3.9k | 2026-01-11 |
 | [usekaneo/kaneo](https://github.com/usekaneo/kaneo) | 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you. | `TypeScript` ★ 3.1k | 2026-01-11 |
 | [umijs/father](https://github.com/umijs/father) | NPM package development tool | `TypeScript` ★ 2.2k | 2025-12-29 |
@@ -163,39 +163,158 @@
 | [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page_facing_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 26k | 2025-12-31 |
 | [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | 😎 A curated list of awesome Git Hub Profile which updates in real time | ★ 28.9k | 2024-08-19 |
 | [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: | ★ 80.1k | 2024-07-29 |
+| [RSSNext/Folo](https://github.com/RSSNext/Folo) | 🧡 Folo is the AI Reader | `TypeScript` ★ 36.6k | 2026-01-02 |
+| [stravu/crystal](https://github.com/stravu/crystal) | Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app. | `TypeScript` ★ 2.7k | 2025-12-19 |
+| [OrkunKocyigit/vidlib](https://github.com/OrkunKocyigit/vidlib) | Explorer based video management tool | `Rust` ★ 1 | 2024-05-24 |
+| [scaffdog/scaffdog](https://github.com/scaffdog/scaffdog) | :dog: scaffdog is Markdown driven scaffolding tool. | `TypeScript` ★ 758 | 2026-01-08 |
+| [Mail-0/Zero](https://github.com/Mail-0/Zero) | Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://mail0.link/discord | `TypeScript` ★ 10.3k | 2025-09-04 |
+| [automatisch/automatisch](https://github.com/automatisch/automatisch) | The open source Zapier alternative. Build workflow automation without spending time and money. | `JavaScript` ★ 13.5k | 2026-01-07 |
+| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | A list of Saa S, Paa S and Iaa S offerings that have free tiers of interest to devops and infradev | `HTML` ★ 117.2k | 2026-01-11 |
+| [jahwag/ClaudeSync](https://github.com/jahwag/ClaudeSync) | Claude Sync is a Python tool that automates the synchronization of local files with Claude.ai Projects | `Python` ★ 657 | 2025-12-01 |
+| [amantus-ai/vibetunnel](https://github.com/amantus-ai/vibetunnel) | Turn any browser into your terminal & command your agents on the go. | `TypeScript` ★ 2.9k | 2026-01-01 |
+| [GeoAnima/Gemini-Conversation-Downloader](https://github.com/GeoAnima/Gemini-Conversation-Downloader) | About Download Gemini conversations in JSON and PDF format. | `JavaScript` ★ 12 | 2025-03-26 |
+| [qdhenry/Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite) | Professional slash commands for Claude Code that provide structured workflows for software development tasks including code review, feature creation, security auditing, and architectural analysis. | `Shell` ★ 906 | 2026-01-10 |
+| [steipete/agent-rules](https://github.com/steipete/agent-rules) | Rules and Knowledge to work better with agents such as Claude Code or Cursor | `Shell` ★ 5.5k | 2025-12-31 |
+| [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 1 PDF Application on Git Hub that lets you edit PDFs on any device anywhere | `TypeScript` ★ 73k | 2026-01-11 |
+| [pnp/powerplatform-snippets](https://github.com/pnp/powerplatform-snippets) | Repository with snippets that can easily be used in some of the Power Platform products | `HLSL` ★ 199 | 2025-11-30 |
+| [OfficeDev/Microsoft-Teams-Adaptive-Card-Samples](https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples) | Adaptive Card Samples for Teams | ★ 66 | 2025-06-13 |
+| [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) | Interactive roadmaps, guides and other educational content to help developers grow in their careers. | `TypeScript` ★ 347.1k | 2026-01-11 |
+| [codexu/note-gen](https://github.com/codexu/note-gen) | A cross-platform Markdown AI note-taking software. | `TypeScript` ★ 10.5k | 2026-01-10 |
+| [iamgio/quarkdown](https://github.com/iamgio/quarkdown) | 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases. | `Kotlin` ★ 9.8k | 2026-01-12 |
+| [nathanbuchar/audubon-bird-plates-for-supernote](https://github.com/nathanbuchar/audubon-bird-plates-for-supernote) | All 435 illustrations of John James Audubon's Birds of America adapted for use as screensavers on the Supernote and other similar e-ink tablets. | ★ 41 | 2022-01-09 |
+| [lnenad/newser](https://github.com/lnenad/newser) | Newser is a simple utility to generate a pdf with you favorite news articles | `Go` ★ 88 | 2024-08-23 |
+| [philips/supernote-obsidian-plugin](https://github.com/philips/supernote-obsidian-plugin) | Supernote A5, A5X, A6X, A6X2 (Nomad), and A5X2 (Manta) integration for Obsidian. Generate markdown, capture screen mirror, and more. | `TypeScript` ★ 274 | 2025-11-21 |
+| [ZitaoTech/HackberryPiCM5](https://github.com/ZitaoTech/HackberryPiCM5) | An ultra portable handheld Linux device using Raspberry CM5 unit as Core with 4" 720X720 TFT Touch display and the original blackberry keyboard | `HTML` ★ 810 | 2025-07-09 |
+| [microsoft/Microsoft-Win32-Content-Prep-Tool](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool) | A tool to wrap Win32 App and then it can be uploaded to Intune | ★ 1.3k | 2025-08-13 |
+| [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | No description provided | `TypeScript` ★ 5k | 2026-01-12 |
+| [d2phap/ImageGlass](https://github.com/d2phap/ImageGlass) | 🏞 A lightweight, versatile image viewer | `C#` ★ 12k | 2026-01-07 |
+| [Vinzent03/obsidian-git](https://github.com/Vinzent03/obsidian-git) | Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md | `TypeScript` ★ 9.5k | 2026-01-11 |
+| [vrtmrz/obsidian-livesync](https://github.com/vrtmrz/obsidian-livesync) | No description provided | `TypeScript` ★ 8.9k | 2026-01-10 |
+| [QiuYannnn/Local-File-Organizer](https://github.com/QiuYannnn/Local-File-Organizer) | An AI-powered file management tool that ensures privacy by organizing local texts, images. Using Llama3.2 3B and Llava v1.6 models with the Nexa SDK, it intuitively scans, restructures, and organiz... | `Python` ★ 3.1k | 2024-10-21 |
+| [novuhq/novu](https://github.com/novuhq/novu) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | `TypeScript` ★ 38.4k | 2026-01-11 |
+| [makeplane/plane](https://github.com/makeplane/plane) | 🔥🔥🔥 Open-source Jira, Linear, Monday, and Click Up alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | `TypeScript` ★ 43.6k | 2026-01-11 |
+| [RenjiYuusei/CursorFocus](https://github.com/RenjiYuusei/CursorFocus) | A lightweight tool that maintains a focused view of your project structure and environment. Cursor Focus automatically tracks your project files, functions, and environment variables, updating ever... | `Python` ★ 172 | 2025-04-02 |
+| [johnbenac/cursor-watchful-headers](https://github.com/johnbenac/cursor-watchful-headers) | Automated file header management and project structure visualization in cursorrules. Maintains consistent headers across multiple file types while providing real-time project tree updates. Perfect ... | `Python` ★ 51 | 2025-06-09 |
+| [glanceapp/glance](https://github.com/glanceapp/glance) | A self-hosted dashboard that puts all your feeds in one place | `Go` ★ 31.1k | 2025-12-10 |
+| [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | An open-source remote desktop application designed for self-hosting, as an alternative to Team Viewer. | `Rust` ★ 105.5k | 2026-01-12 |
+| [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | 📄 Configuration files that enhance Cursor AI editor experience with custom rules and behaviors | `MDX` ★ 36.9k | 2025-10-24 |
+| [catppuccin/windows-terminal](https://github.com/catppuccin/windows-terminal) | 🪟 Soothing pastel theme for Windows Terminal | ★ 784 | 2023-12-26 |
+| [KevinNitroG/dotfiles](https://github.com/KevinNitroG/dotfiles) | Linux, Windows dotfiles managed with Chezmoi | `JSON` ★ 80 | 2025-12-27 |
+| [microsoft/qlib](https://github.com/microsoft/qlib) | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, i... | `Python` ★ 35.5k | 2025-12-30 |
+| [langchain-ai/local-deep-researcher](https://github.com/langchain-ai/local-deep-researcher) | Fully local web research and report writing assistant | `Python` ★ 8.5k | 2025-08-08 |
+| [mspnp/AzureNamingTool](https://github.com/mspnp/AzureNamingTool) | The Azure Naming Tool is a .NET 10 Blazor application with a RESTful API for generating and validating Azure resource names. Features include SQLite database support, drag-and-drop configuration, A... | `C#` ★ 544 | 2025-12-17 |
+| [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting. | `Batchfile` ★ 162.2k | 2025-12-12 |
+| [OfficeDev/Microsoft-Teams-Samples](https://github.com/OfficeDev/Microsoft-Teams-Samples) | Welcome to the Microsoft Teams samples repository. Here you will find task-focused samples in C#, Java Script and Type Script to help you get started with the Microsoft Teams App! | `C#` ★ 1.3k | 2026-01-08 |
+| [OfficeDev/microsoft-teams-emergency-operations-center](https://github.com/OfficeDev/microsoft-teams-emergency-operations-center) | The Microsoft Teams Emergency Operations Center (TEOC) solution template leverages the power of the Microsoft 365 platform to centralize incident response, information sharing and field communicati... | `TypeScript` ★ 132 | 2025-06-24 |
+| [OfficeDev/microsoft-365-agents-toolkit-samples](https://github.com/OfficeDev/microsoft-365-agents-toolkit-samples) | Scenario-focused sample applications that help you get started with building Microsoft Teams App. | `TypeScript` ★ 452 | 2026-01-08 |
+| [OfficeDev/microsoft-365-agents-toolkit](https://github.com/OfficeDev/microsoft-365-agents-toolkit) | Developer tools for building Teams apps | `TypeScript` ★ 635 | 2026-01-12 |
+| [OfficeDev/Office-Addin-TaskPane](https://github.com/OfficeDev/Office-Addin-TaskPane) | Template to get started writing a Task Pane Office Add-in. | `TypeScript` ★ 88 | 2026-01-01 |
+| [GOVCERT-LU/GCNotify](https://github.com/GOVCERT-LU/GCNotify) | GCNotify is an Outlook addin for quickly forwarding mail as attachment to a pre-defined e-mail address. | `Visual Basic .NET` ★ 12 | 2023-01-17 |
+| [tonyfederer/OutlookFileDrag](https://github.com/tonyfederer/OutlookFileDrag) | Drag and drop Outlook items as files into any application | `C#` ★ 151 | 2023-09-28 |
+| [OfficeDev/office-js](https://github.com/OfficeDev/office-js) | A repository for issues related to the Office Java Script APIs and Office Add-ins platform. Find the Office.js library in Office.js CDN: https://appsforoffice.microsoft.com/lib/1/hosted/office.js. | `JavaScript` ★ 779 | 2025-12-31 |
+| [fastenhealth/fasten-onprem](https://github.com/fastenhealth/fasten-onprem) | Fasten is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 100,000's of insurances/hospitals/clinics | `Go` ★ 2.6k | 2025-11-20 |
+| [sims4toolkit/s4tk-vscode](https://github.com/sims4toolkit/s4tk-vscode) | S4TK extension for Visual Studio Code. | `TypeScript` ★ 12 | 2024-12-17 |
+| [fzf404/Monit](https://github.com/fzf404/Monit) | 🎯 Desktop Widget ( 桌面小组件 ) | `Vue` ★ 840 | 2024-04-05 |
+| [massCodeIO/massCode](https://github.com/massCodeIO/massCode) | A free and open source code snippet manager for developers | `Vue` ★ 6.6k | 2026-01-06 |
+| [conaticus/FileExplorer](https://github.com/conaticus/FileExplorer) | Fast file explorer written with Tauri and React. | `Rust` ★ 1k | 2025-09-17 |
+| [dev47apps/droidcam-obs-plugin](https://github.com/dev47apps/droidcam-obs-plugin) | Droid Cam OBS Source | `C++` ★ 643 | 2026-01-09 |
+| [Bennik2000/BetterProjectors](https://github.com/Bennik2000/BetterProjectors) | This plugin for OBS Studio provides dockable projectors for scenes and sources | `C++` ★ 7 | 2023-04-19 |
+| [au2001/icloud-passwords-firefox](https://github.com/au2001/icloud-passwords-firefox) | Firefox extension which lets you use your passwords stored on i Cloud Keychain®. | `TypeScript` ★ 241 | 2025-04-21 |
+| [NexusPolytech/NexeFax](https://github.com/NexusPolytech/NexeFax) | A modern open source e Fax server solution written in Python that allows sending and receiving faxes with Asterisk. | `Python` ★ 10 | 2023-09-12 |
+| [dorssel/usbipd-win](https://github.com/dorssel/usbipd-win) | Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2. | `C#` ★ 5.3k | 2025-12-26 |
+| [exeldro/obs-source-clone](https://github.com/exeldro/obs-source-clone) | No description provided | `CMake` ★ 172 | 2025-12-06 |
+| [CodeYan01/source-defaults](https://github.com/CodeYan01/source-defaults) | Apply custom source setting defaults on new sources, based on other sources. | `CMake` ★ 16 | 2025-10-15 |
+| [Aitum/obs-vertical-canvas](https://github.com/Aitum/obs-vertical-canvas) | No description provided | `C++` ★ 241 | 2025-10-15 |
+| [norihiro/obs-mute-filter](https://github.com/norihiro/obs-mute-filter) | OBS Studio plugin to mute audio of a source | `CMake` ★ 26 | 2025-11-01 |
+| [flipswitchingmonkey/FlexASIO_GUI](https://github.com/flipswitchingmonkey/FlexASIO_GUI) | Simple configuration GUI for Flex ASIO | `C#` ★ 447 | 2024-01-27 |
+| [ironmansoftware/gallery](https://github.com/ironmansoftware/gallery) | Public gallery of modules for Power Shell Universal | `PowerShell` ★ 81 | 2025-12-11 |
+| [exeldro/obs-media-controls](https://github.com/exeldro/obs-media-controls) | No description provided | `CMake` ★ 84 | 2025-12-27 |
+| [keijiro/Nsmp](https://github.com/keijiro/Nsmp) | Teleprompter via NDI | `C#` ★ 13 | 2022-11-27 |
+| [lplassman/NDI-Recorder](https://github.com/lplassman/NDI-Recorder) | A recorder for Full NDI streams | `C` ★ 24 | 2022-05-21 |
+| [ykhwong/ppt-ndi](https://github.com/ykhwong/ppt-ndi) | A Power Point plugin for the New Tek NDI integration | `JavaScript` ★ 229 | 2023-10-05 |
+| [swapagarwal/swag-for-dev](https://github.com/swapagarwal/swag-for-dev) | 😎 swag opportunities for developers | `JavaScript` ★ 4.4k | 2024-12-09 |
+| [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) | Awesome list dedicated to Windows Subsystem for Linux | ★ 6.2k | 2024-06-27 |
+| [cipher387/osint_stuff_tool_collection](https://github.com/cipher387/osint_stuff_tool_collection) | A collection of several hundred online tools for OSINT | `HTML` ★ 7.4k | 2025-07-16 |
+| [mezod/awesome-indie](https://github.com/mezod/awesome-indie) | Resources for independent developers to make money | ★ 10.7k | 2024-06-12 |
+| [rShetty/awesome-podcasts](https://github.com/rShetty/awesome-podcasts) | Collection of awesome podcasts | ★ 12.8k | 2024-03-02 |
+| [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) | Awesome list of open-source startup alternatives to well-known Saa S products 🚀 | `Python` ★ 18.6k | 2025-09-03 |
+| [Lissy93/dashy](https://github.com/Lissy93/dashy) | 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more! | `Vue` ★ 23.7k | 2025-12-28 |
+| [nikivdev/flow](https://github.com/nikivdev/flow) | Everything you need to move your project faster | `Rust` ★ 21.2k | 2026-01-11 |
+| [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) | A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups | ★ 32.2k | 2025-08-03 |
+| [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) | A curated list of free courses with certifications. Also available at https://free-certifications.com/ | ★ 49.5k | 2025-07-22 |
+| [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) | A list of cool features of Git and Git Hub. | ★ 54.5k | 2024-04-15 |
+| [datalab-to/marker](https://github.com/datalab-to/marker) | Convert PDF to markdown + JSON quickly with high accuracy | `Python` ★ 30.8k | 2026-01-07 |
+| [microsoft/PromptWizard](https://github.com/microsoft/PromptWizard) | Task-Aware Agent-driven Prompt Optimization Framework | `Python` ★ 3.7k | 2025-10-13 |
+| [sbondCo/Watcharr](https://github.com/sbondCo/Watcharr) | Open source, self-hostable watched list for all your content (movies, tv series, anime, games) with user authentication, modern and clean UI and a very simple setup. | `Svelte` ★ 1.2k | 2026-01-05 |
+| [hakimel/reveal.js](https://github.com/hakimel/reveal.js) | The HTML Presentation Framework | `JavaScript` ★ 70.4k | 2025-12-23 |
+| [tubearchivist/browser-extension](https://github.com/tubearchivist/browser-extension) | Tube Archivist Companion for your Browser | `JavaScript` ★ 230 | 2025-09-09 |
+| [yorukot/superfile](https://github.com/yorukot/superfile) | Pretty fancy and modern terminal file manager | `Go` ★ 16.3k | 2026-01-11 |
+| [DrewThomasson/ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook) | Generate audiobooks from e-books, voice cloning & 1158+ languages! | `Python` ★ 16.9k | 2026-01-11 |
+| [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous ... | `Python` ★ 32.2k | 2026-01-06 |
+| [llamastack/llama-stack](https://github.com/llamastack/llama-stack) | Composable building blocks to build LLM Apps | `Python` ★ 8.2k | 2026-01-10 |
+| [maybe-finance/maybe](https://github.com/maybe-finance/maybe) | The personal finance app for everyone | `Ruby` ★ 53.9k | 2025-07-24 |
+| [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) | Karabiner-Elements is a powerful tool for customizing keyboards on mac OS | `C++` ★ 21.3k | 2026-01-11 |
+| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFFi NE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable a... | `TypeScript` ★ 61.7k | 2026-01-11 |
+| [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) |  Now we have become very big, Different from the original idea. Collect premium software in various categories. | `JavaScript` ★ 97.5k | 2025-12-27 |
+| [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon) | An open-source RAG-based tool for chatting with your documents. | `Python` ★ 24.8k | 2025-07-04 |
+| [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate social media scheduling tool, with a bunch of AI 🤖 | `TypeScript` ★ 26k | 2026-01-11 |
+| [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | A community-supported supercharged document management system: scan, index and archive all your documents | `Python` ★ 35.5k | 2026-01-12 |
+| [Anze/KeyCluCask](https://github.com/Anze/KeyCluCask) | Simple and handy overview of applications shortcuts | ★ 1.8k | 2025-07-06 |
+| [Readarr/Readarr](https://github.com/Readarr/Readarr) | Book Manager and Automation (Sonarr for Ebooks) | `C#` ★ 3.4k | 2025-06-27 |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI Agents | `Python` ★ 45.3k | 2026-01-10 |
+| [abb128/LiveCaptions](https://github.com/abb128/LiveCaptions) | Linux Desktop application that provides live captioning | `C` ★ 1.7k | 2025-02-27 |
+| [shinokada/markdown-docs-as-pdf](https://github.com/shinokada/markdown-docs-as-pdf) | A Bash Script to create PDF documents for React, Vue, Svelte, Svelte Kit, Nuxt, Vitest, pnpm, Slidev, and more. | `Shell` ★ 39 | 2024-10-15 |
+| [pypa/pipx](https://github.com/pypa/pipx) | Install and Run Python Applications in Isolated Environments | `Python` ★ 12.4k | 2025-12-22 |
+| [Nandaka/PixivUtil2](https://github.com/Nandaka/PixivUtil2) | Download images from Pixiv and more! | `Python` ★ 2.6k | 2025-12-04 |
+| [openrecall/openrecall](https://github.com/openrecall/openrecall) | Open Recall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With Open Recall, you can easily access your digital history, enhancing your ... | `Python` ★ 2.6k | 2025-09-24 |
+| [ellite/Wallos](https://github.com/ellite/Wallos) | Wallos: Open-source, self-hostable personal subscription tracker. Visualize your recurring expenses, manage your budget, and save money. | `PHP` ★ 7.1k | 2025-12-20 |
+| [TagStudioDev/TagStudio](https://github.com/TagStudioDev/TagStudio) | A User-Focused Photo & File Management System | `Python` ★ 6.7k | 2025-12-31 |
+| [MacHu-GWU/potplayer-project](https://github.com/MacHu-GWU/potplayer-project) | A tools to manipulate potplayer playlist | `Python` ★ 42 | 2016-09-23 |
+| [sb-ocr/ocreeb-mk-2](https://github.com/sb-ocr/ocreeb-mk-2) | Modular Macro Keyboard System | `Python` ★ 550 | 2024-02-04 |
+| [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today! | `TypeScript` ★ 34.4k | 2026-01-12 |
+| [mingrammer/diagrams](https://github.com/mingrammer/diagrams) | :art: Diagram as Code for prototyping cloud system architectures | `Python` ★ 41.9k | 2026-01-11 |
+| [stevenbennett/Open-Task-Light](https://github.com/stevenbennett/Open-Task-Light) | Components for making the Open Task Light | `Python` ★ 623 | 2025-07-22 |
+| [phmullins/awesome-macos](https://github.com/phmullins/awesome-macos) | A curated list of awesome software for Apple's mac OS. | ★ 2.9k | 2025-01-22 |
+| [Guilouz/Creality-Helper-Script-Wiki](https://github.com/Guilouz/Creality-Helper-Script-Wiki) | Wiki for Creality Helper Script | ★ 1.1k | 2025-01-26 |
+| [kimlimjustin/xplorer](https://github.com/kimlimjustin/xplorer) | Xplorer, a customizable, modern file manager | `TypeScript` ★ 5.4k | 2025-06-16 |
+| [aegis72/aegisflow](https://github.com/aegis72/aegisflow) | Aegis Flow XL and Aegis Flow 1.5 are Comfy UI workflows designed by a professional for professionals | ★ 36 | 2024-01-18 |
+| [aidenlx/better-fn](https://github.com/aidenlx/better-fn) | Footnote hover preview for Obsidian.md | `TypeScript` ★ 115 | 2024-02-22 |
+| [klyte45/EUIS-baseproj-fe](https://github.com/klyte45/EUIS-baseproj-fe) | Basic project to create EUIS micro-frontend applications. | `JavaScript` ★ 2 | 2023-10-29 |
+| [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter Lab computational environment. | `TypeScript` ★ 15k | 2026-01-10 |
+| [sameerasw/folder-icons](https://github.com/sameerasw/folder-icons) | Folder icons I made in Windows 11 style. | `Python` ★ 728 | 2025-08-13 |
 | [PikeNote/taskbar-groups-pike-beta](https://github.com/PikeNote/taskbar-groups-pike-beta) | Lightweight application that lets users create and pin groups to the Windows taskbar och desktop | `C#` ★ 166 | 2023-02-13 |
 | [tjackenpacken/taskbar-groups](https://github.com/tjackenpacken/taskbar-groups) | Lightweight utility for organizing the taskbar through groups | `C#` ★ 2.7k | 2024-07-04 |
-| [pyenv/pyenv](https://github.com/pyenv/pyenv) | Simple Python version management | `Roff` ★ 44k | 2026-01-10 |
+| [pyenv/pyenv](https://github.com/pyenv/pyenv) | Simple Python version management | `Roff` ★ 44k | 2026-01-11 |
 | [Mortalitas/GShade](https://github.com/Mortalitas/GShade) | GShade is a highly modified Re Shade fork & utility package with numerous improvements and settings autodetection for over 300 games. | `HLSL` ★ 483 | 2025-10-15 |
 | [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) | Chat with your documents on your local device using GPT models. No data leaves your device and 100% private. | `Python` ★ 22k | 2025-10-02 |
 | [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) | A source-available invoice, quote, project and time-tracking app built with Laravel | `PHP` ★ 9.5k | 2026-01-07 |
 | [marius-sucan/AHK-GDIp-Library-Compilation](https://github.com/marius-sucan/AHK-GDIp-Library-Compilation) | Gdip_All library mega-compilation of user contributions, compatible with AHK v1.1 and AHK v2 | `AutoHotkey` ★ 102 | 2025-03-09 |
 | [intel/intel-one-mono](https://github.com/intel/intel-one-mono) | Intel One Mono font repository | ★ 9.8k | 2025-09-08 |
-| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Auto GPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. | `Python` ★ 181k | 2026-01-10 |
+| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Auto GPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. | `Python` ★ 181k | 2026-01-12 |
 | [XeroxDev/Loupedeck-plugin-Template](https://github.com/XeroxDev/Loupedeck-plugin-Template) | this is a Loupedeck .NET template and I've created this so it is easier and more productive for me, to create Loupedeck Windows Plugins and release them to my users. | `C#` ★ 15 | 2022-05-12 |
 | [Loupedeck/SpotifyPremiumPlugin](https://github.com/Loupedeck/SpotifyPremiumPlugin) | A sample plugin for the Loupedeck software, based on the Loupedeck Plugin SDK | `C#` ★ 6 | 2023-05-22 |
 | [jNizM/NVIDIA_NvAPI](https://github.com/jNizM/NVIDIA_NvAPI) | Converted Nv API-Functions | `AutoHotkey` ★ 38 | 2023-08-18 |
 | [KovaaK/NVidiaHotkeys](https://github.com/KovaaK/NVidiaHotkeys) | Script to change nvidia's Digital Vibrance and Hue settings by pressing hotkeys | `AutoHotkey` ★ 26 | 2019-06-30 |
-| [mpv-player/mpv](https://github.com/mpv-player/mpv) | 🎥 Command line media player | `C` ★ 33.4k | 2026-01-11 |
+| [mpv-player/mpv](https://github.com/mpv-player/mpv) | 🎥 Command line media player | `C` ★ 33.4k | 2026-01-12 |
 | [SoCo/SoCo](https://github.com/SoCo/SoCo) | So Co (Sonos Controller) is a Python project that allows you to programmatically control Sonos speakers. | `Python` ★ 1.6k | 2025-12-31 |
 | [starik222/BooruDatasetTagManager](https://github.com/starik222/BooruDatasetTagManager) | No description provided | `C#` ★ 1.8k | 2025-12-11 |
 | [bcpierce00/unison](https://github.com/bcpierce00/unison) | Unison file synchronizer | `OCaml` ★ 5k | 2025-12-01 |
 | [devilismyfriend/StableTuner](https://github.com/devilismyfriend/StableTuner) | Finetuning SD in style. | `Python` ★ 681 | 2023-04-01 |
-| [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) | Bring mac OS “Quick Look” feature to Windows | `C#` ★ 21.9k | 2026-01-07 |
+| [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) | Bring mac OS “Quick Look” feature to Windows | `C#` ★ 21.9k | 2026-01-12 |
 | [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) | Everything integration for the Windows taskbar. | `C#` ★ 13.1k | 2026-01-05 |
 | [hwtnb/SylphyHornPlusWin11](https://github.com/hwtnb/SylphyHornPlusWin11) | Virtual Desktop Tools for Windows 11 and 10. | `C#` ★ 402 | 2024-12-24 |
 | [dankrusi/WindowsVirtualDesktopHelper](https://github.com/dankrusi/WindowsVirtualDesktopHelper) | App to help manage Virtual Desktops for Windows 10 and Windows 11 | `C#` ★ 776 | 2025-08-20 |
 | [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) | Over 425 terminal color schemes/themes for i Term/i Term2. Includes ports to Terminal, Konsole, Pu TTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, Free BSD VT, Terminator, Kitty, Moba Xterm, ... | `Shell` ★ 26.3k | 2026-01-09 |
-| [starship/starship](https://github.com/starship/starship) | ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell! | `Rust` ★ 53.4k | 2026-01-11 |
+| [starship/starship](https://github.com/starship/starship) | ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell! | `Rust` ★ 53.4k | 2026-01-12 |
 | [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more | `CSS` ★ 61.2k | 2026-01-10 |
 | [MKme/XtoolD1](https://github.com/MKme/XtoolD1) | XTool D1 Laser Cutter/Engraver 10W | `G-code` ★ 6 | 2022-06-06 |
 | [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder) | Video Duplicate Finder - Crossplatform | `C#` ★ 2.8k | 2026-01-04 |
 | [qarmin/czkawka](https://github.com/qarmin/czkawka) | Multi functional app to find duplicates, empty folders, similar images etc. | `Rust` ★ 28k | 2026-01-11 |
-| [BigJk/snd](https://github.com/BigJk/snd) | Sales & Dungeons — Thermal Printer as D&D / TTRPG Utility | `TypeScript` ★ 589 | 2025-12-15 |
+| [BigJk/snd](https://github.com/BigJk/snd) | Sales & Dungeons — Thermal Printer as D&D / TTRPG Utility | `TypeScript` ★ 591 | 2025-12-15 |
 | [files-community/Files](https://github.com/files-community/Files) | A modern file manager that helps users organize their files and folders. | `C#` ★ 41.1k | 2026-01-11 |
 | [mikemackintosh/stickers](https://github.com/mikemackintosh/stickers) | A Gmail labeling tool for your Google Workspaces org | `Go` ★ 5 | 2021-04-12 |
 | [ColonolNutty/s4cl-template-project](https://github.com/ColonolNutty/s4cl-template-project) | A template that can be used as a starting point for working with S4CL | `Python` ★ 38 | 2021-11-26 |
-| [outline/outline](https://github.com/outline/outline) | The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible. | `TypeScript` ★ 36.6k | 2026-01-11 |
+| [outline/outline](https://github.com/outline/outline) | The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible. | `TypeScript` ★ 36.6k | 2026-01-12 |
 | [pg07codes/fokus](https://github.com/pg07codes/fokus) | react web app to help you become more productive :fire: and efficient with time:star2: | `JavaScript` ★ 156 | 2023-07-01 |
 | [rcmaehl/MSEdgeRedirect](https://github.com/rcmaehl/MSEdgeRedirect) | A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Browser | `AutoIt` ★ 5.6k | 2025-12-23 |
 | [unlimitedbacon/stl-thumb](https://github.com/unlimitedbacon/stl-thumb) | Thumbnail generator for STL files | `Rust` ★ 1.4k | 2025-03-11 |
@@ -211,7 +330,7 @@
 | [Tautulli/Tautulli](https://github.com/Tautulli/Tautulli) | A Python based monitoring and tracking tool for Plex Media Server. | `Python` ★ 6.3k | 2025-12-23 |
 | [mikaelbr/node-notifier](https://github.com/mikaelbr/node-notifier) | A Node.js module for sending notifications on native Mac, Windows and Linux (or Growl as fallback) | `JavaScript` ★ 5.8k | 2024-06-24 |
 | [dfinke/ImportExcel](https://github.com/dfinke/ImportExcel) | Power Shell module to import/export Excel spreadsheets, without Excel | `PowerShell` ★ 2.7k | 2025-12-26 |
-| [mattermost/mattermost](https://github.com/mattermost/mattermost) | Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.. | `TypeScript` ★ 34.9k | 2026-01-10 |
+| [mattermost/mattermost](https://github.com/mattermost/mattermost) | Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.. | `TypeScript` ★ 34.9k | 2026-01-12 |
 | [nilportugues/sql-repository](https://github.com/nilportugues/sql-repository) | [PHP 7] SQL Repository implementation | `PHP` ★ 36 | 2017-03-13 |
 | [Unfundednut/AutoHotkeyNotify](https://github.com/Unfundednut/AutoHotkeyNotify) | Desktop program that pops up a notice. Used for quick mass communication. | `AutoHotkey` ★ 33 | 2016-08-02 |
 | [cheat/cheat](https://github.com/cheat/cheat) | cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not ... | `Go` ★ 13.1k | 2024-07-29 |
@@ -227,19 +346,19 @@
 | [FrozenNode/Laravel-Administrator](https://github.com/FrozenNode/Laravel-Administrator) | An administrative interface package for Laravel | `PHP` ★ 1.9k | 2020-09-08 |
 | [thephpleague/flysystem](https://github.com/thephpleague/flysystem) | Abstraction for local and remote filesystems | `PHP` ★ 13.5k | 2025-11-10 |
 | [hirak/prestissimo](https://github.com/hirak/prestissimo) | composer parallel install plugin | `PHP` ★ 6.1k | 2022-12-03 |
-| [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) | Smart PVR for newsgroup and bittorrent users. | `C#` ★ 13k | 2026-01-07 |
-| [ShareX/ShareX](https://github.com/ShareX/ShareX) | Share X is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file typ... | `C#` ★ 35.1k | 2026-01-02 |
+| [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) | Smart PVR for newsgroup and bittorrent users. | `C#` ★ 13k | 2026-01-11 |
+| [ShareX/ShareX](https://github.com/ShareX/ShareX) | Share X is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file typ... | `C#` ★ 35.2k | 2026-01-02 |
 | [ariccio/altWinDirStat](https://github.com/ariccio/altWinDirStat) | An unofficial modification of Win Dir Stat | `C++` ★ 628 | 2022-01-11 |
 | [hitherejoe/Android-Boilerplate](https://github.com/hitherejoe/Android-Boilerplate) | Android Boilerplate project using Rx Java, Dagger 2, Espresso, Mockito + more! | `Java` ★ 1.9k | 2020-10-24 |
 | [ivopetkov/responsively-lazy](https://github.com/ivopetkov/responsively-lazy) | Lazy load responsive images and HTML | `JavaScript` ★ 1.1k | 2025-09-09 |
 | [kriswallsmith/assetic](https://github.com/kriswallsmith/assetic) | Asset Management for PHP | `PHP` ★ 3.7k | 2022-02-03 |
 | [allegro/ralph](https://github.com/allegro/ralph) | Ralph is the CMDB / Asset Management system for data center and back office hardware. | `Python` ★ 2.4k | 2026-01-09 |
-| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 267.6k | 2026-01-11 |
+| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 267.7k | 2026-01-11 |
 | [resume/resume.github.com](https://github.com/resume/resume.github.com) | Resumes generated using the Git Hub informations | `JavaScript` ★ 62.7k | 2023-02-15 |
 | [purifycss/purifycss](https://github.com/purifycss/purifycss) | Remove unused CSS. Also works with single-page apps. | `JavaScript` ★ 9.9k | 2020-10-17 |
 | [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) | Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically. | `PHP` ★ 13.5k | 2025-12-27 |
 | [jolicode/JoliNotif](https://github.com/jolicode/JoliNotif) | 🖥️ Send notifications to your desktop directly from your PHP script | `PHP` ★ 1.4k | 2025-12-04 |
-| [syncthing/syncthing](https://github.com/syncthing/syncthing) | Open Source Continuous File Synchronization | `Go` ★ 79k | 2026-01-06 |
+| [syncthing/syncthing](https://github.com/syncthing/syncthing) | Open Source Continuous File Synchronization | `Go` ★ 79k | 2026-01-12 |
 | [pawelantczak/crop-border-from-image](https://github.com/pawelantczak/crop-border-from-image) | This class can be used to crop images by removing common color borders. | `PHP` ★ 3 | 2014-01-11 |
 | [derceg/explorerplusplus](https://github.com/derceg/explorerplusplus) | Explorer++ is a lightweight and fast file manager for Windows | `C++` ★ 3.1k | 2026-01-08 |
 | [jenssegers/imagehash](https://github.com/jenssegers/imagehash) | 🌄 Perceptual image hashing for PHP | `PHP` ★ 2k | 2025-09-17 |

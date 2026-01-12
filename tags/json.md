@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [hgrsd/drivel](https://github.com/hgrsd/drivel) | Infer a JSON schema from example data, produce nonsense synthetic data (drivel) according to the schema | `Rust` ★ 46 | 2025-06-08 |
 | [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) | ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs. | `TypeScript` ★ 42.8k | 2026-01-10 |
 | [GeoAnima/Gemini-Conversation-Downloader](https://github.com/GeoAnima/Gemini-Conversation-Downloader) | About Download Gemini conversations in JSON and PDF format. | `JavaScript` ★ 12 | 2025-03-26 |
+| [datalab-to/marker](https://github.com/datalab-to/marker) | Convert PDF to markdown + JSON quickly with high accuracy | `Python` ★ 30.8k | 2026-01-07 |

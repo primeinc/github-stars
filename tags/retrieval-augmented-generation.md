@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework" | `Python` ★ 12k | 2026-01-06 |
-| [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | [KDD'2026] "Video RAG: Chat with Your Videos" | `Python` ★ 2.3k | 2026-01-11 |
+| [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | [KDD'2026] "Video RAG: Chat with Your Videos" | `Python` ★ 2.4k | 2026-01-11 |

@@ -1,11 +1,12 @@
 # Tag: 3d-printing
 
-*5 repositories*
+*6 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [Guilouz/Creality-Helper-Script-Wiki](https://github.com/Guilouz/Creality-Helper-Script-Wiki) | Wiki for Creality Helper Script | ★ 1.1k | 2025-01-26 |
 | [b-morgan/OctoPrint-FanSpeedMirror](https://github.com/b-morgan/OctoPrint-FanSpeedMirror) | Mirror the parameter(s) of GCode commands M106, M107 to scripts on the Octo Print host | `Python` ★ 5 | 2025-06-21 |
 | [waltmoorhouse/FilamentBox](https://github.com/waltmoorhouse/FilamentBox) | Open Source 3D printer filament dehydrator / weight sensor with Octo Print integration. | `C++` ★ 50 | 2019-12-12 |
 | [ChristophSchranz/Octoprint-PrePrintService](https://github.com/ChristophSchranz/Octoprint-PrePrintService) | This service supports your 3D printing workflow by providing auto-rotation and slicing functionality. | `Python` ★ 11 | 2025-06-10 |

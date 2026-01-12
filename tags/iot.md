@@ -1,11 +1,12 @@
 # Tag: iot
 
-*5 repositories*
+*6 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [frenck/awesome-home-assistant](https://github.com/frenck/awesome-home-assistant) | A curated list of amazingly awesome Home Assistant resources. | `Shell` ★ 7.3k | 2025-12-19 |
 | [daniel-frenkel/Valar-Systems](https://github.com/daniel-frenkel/Valar-Systems) | Welcome to my tiny one-man shop, Valar Systems. I make devices that control your home's curtains, windows, doors, and more! | `C` ★ 40 | 2023-04-12 |
 | [KjetilSv/Win10As](https://github.com/KjetilSv/Win10As) | Make your windows 10 computer IOT friendly | `C#` ★ 233 | 2022-12-08 |
 | [DustinWatts/esp32-touchdown](https://github.com/DustinWatts/esp32-touchdown) | ESP32 Touch Down | ★ 348 | 2024-04-20 |

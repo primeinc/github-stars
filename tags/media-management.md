@@ -10,4 +10,4 @@
 | [klassicstudios/Bonarr](https://github.com/klassicstudios/Bonarr) | A fork of Radarr to work with porn. | `C#` ★ 152 | 2017-09-27 |
 | [hydrusnetwork/hydrus](https://github.com/hydrusnetwork/hydrus) | A personal booru-style media tagger that can import files and tags from your hard drive and popular websites. Content can be shared with other users via user-run servers. | `Python` ★ 2.9k | 2026-01-10 |
 | [Radarr/Radarr](https://github.com/Radarr/Radarr) | Movie organizer/manager for usenet and torrent users. | `C#` ★ 12.8k | 2026-01-07 |
-| [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) | Smart PVR for newsgroup and bittorrent users. | `C#` ★ 13k | 2026-01-07 |
+| [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) | Smart PVR for newsgroup and bittorrent users. | `C#` ★ 13k | 2026-01-11 |

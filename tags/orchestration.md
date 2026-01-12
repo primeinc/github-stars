@@ -1,11 +1,10 @@
 # Tag: orchestration
 
-*3 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [generalaction/emdash](https://github.com/generalaction/emdash) | Emdash is the Open-Source Agentic Development Environment | `TypeScript` ★ 929 | 2026-01-11 |
-| [wshobson/agents](https://github.com/wshobson/agents) | Intelligent automation and multi-agent orchestration for Claude Code | `C#` ★ 25k | 2026-01-09 |
-| [langgenius/dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development. | `Python` ★ 125.5k | 2026-01-11 |
+| [generalaction/emdash](https://github.com/generalaction/emdash) | Emdash is the Open-Source Agentic Development Environment | `TypeScript` ★ 934 | 2026-01-12 |
+| [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) | What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers? | `TypeScript` ★ 17.7k | 2025-09-21 |

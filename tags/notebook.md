@@ -1,10 +1,11 @@
 # Tag: notebook
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) | An Open Source implementation of Notebook LM with more flexibility and features | `TypeScript` ★ 17.7k | 2026-01-10 |
-| [jflam/chat-gpt-jupyter-extension](https://github.com/jflam/chat-gpt-jupyter-extension) | A browser extension that lets you chat with Chat GPT from any local Jupyter notebook. | `Jupyter Notebook` ★ 273 | 2023-01-08 |
+| [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) | An Open Source implementation of Notebook LM with more flexibility and features | `TypeScript` ★ 17.8k | 2026-01-10 |
+| [denisa-ms/azure-data-and-ai-examples](https://github.com/denisa-ms/azure-data-and-ai-examples) | No description provided | `Jupyter Notebook` ★ 31 | 2023-11-15 |
+| [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter Lab computational environment. | `TypeScript` ★ 15k | 2026-01-10 |

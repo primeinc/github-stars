@@ -1,12 +1,10 @@
 # Tag: plugin
 
-*4 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [norihiro/obs-mute-filter](https://github.com/norihiro/obs-mute-filter) | OBS Studio plugin to mute audio of a source | `CMake` ★ 26 | 2025-11-01 |
-| [CodeYan01/media-playlist-source](https://github.com/CodeYan01/media-playlist-source) | An OBS Studio plugin that supports media playlists, based on the Media Source | `C` ★ 55 | 2025-04-13 |
-| [Zetaphor/PromptHub](https://github.com/Zetaphor/PromptHub) | Prompt history and management for the Stable Diffusion AUTOMATIC1111 Web UI | `JavaScript` ★ 35 | 2023-03-26 |
-| [Loupedeck/SpotifyPremiumPlugin](https://github.com/Loupedeck/SpotifyPremiumPlugin) | A sample plugin for the Loupedeck software, based on the Loupedeck Plugin SDK | `C#` ★ 6 | 2023-05-22 |
+| [philips/supernote-obsidian-plugin](https://github.com/philips/supernote-obsidian-plugin) | Supernote A5, A5X, A6X, A6X2 (Nomad), and A5X2 (Manta) integration for Obsidian. Generate markdown, capture screen mirror, and more. | `TypeScript` ★ 274 | 2025-11-21 |
+| [ruvnet/Swagger-ChatGPT-Plugin-Creator](https://github.com/ruvnet/Swagger-ChatGPT-Plugin-Creator) | Chat GPT Plugin Creator is an open-source project that helps you convert Swagger specifications into Chat GPT plugins | `HTML` ★ 40 | 2023-04-06 |

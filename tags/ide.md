@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [coderamp-labs/pad.ws](https://github.com/coderamp-labs/pad.ws) | Whiteboard as an IDE, draw and code in your browser | `TypeScript` ★ 3.7k | 2025-08-06 |
-| [phodal/auto-dev](https://github.com/phodal/auto-dev) | 🧙‍Auto Dev: the AI-native Multi-Agent development platform built on Kotlin Multiplatform, covering all 7 phases of SDLC. | `Kotlin` ★ 4.3k | 2026-01-10 |
+| [winfunc/opcode](https://github.com/winfunc/opcode) | A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more. | `TypeScript` ★ 19.9k | 2025-10-16 |
+| [4xmen/anubias](https://github.com/4xmen/anubias) | Developed mobile apps so easy and native with GUI 📱 | `Vue` ★ 2.3k | 2025-01-19 |
 | [hassio-addons/addon-vscode](https://github.com/hassio-addons/addon-vscode) | Studio Code Server - Home Assistant Community Add-ons | `Dockerfile` ★ 628 | 2026-01-09 |

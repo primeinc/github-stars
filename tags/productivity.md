@@ -1,11 +1,13 @@
 # Tag: productivity
 
-*3 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [ArtemXTech/claude-code-obsidian-starter](https://github.com/ArtemXTech/claude-code-obsidian-starter) | Free starter kit: Claude Code + Obsidian. Pre-configured vault with skills for projects, tasks, clients, and daily routines. Just open and go. | `Typst` ★ 28 | 2026-01-08 |
-| [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) | Personal AI Infrastructure for upgrading humans. | `TypeScript` ★ 4.3k | 2026-01-10 |
+| [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) | Personal AI Infrastructure for upgrading humans. | `TypeScript` ★ 4.4k | 2026-01-11 |
 | [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visual... | `TypeScript` ★ 17.9k | 2026-01-11 |
+| [nikivdev/flow](https://github.com/nikivdev/flow) | Everything you need to move your project faster | `Rust` ★ 21.2k | 2026-01-11 |
+| [stitionai/devika](https://github.com/stitionai/devika) | Devika is now Opcode | `Python` ★ 19.5k | 2025-09-25 |

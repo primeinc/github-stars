@@ -1,10 +1,13 @@
 # Tag: file-manager
 
-*2 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [antonmedv/walk](https://github.com/antonmedv/walk) | Terminal file manager | `Go` ★ 3.6k | 2026-01-06 |
+| [yorukot/superfile](https://github.com/yorukot/superfile) | Pretty fancy and modern terminal file manager | `Go` ★ 16.3k | 2026-01-11 |
+| [kimlimjustin/xplorer](https://github.com/kimlimjustin/xplorer) | Xplorer, a customizable, modern file manager | `TypeScript` ★ 5.4k | 2025-06-16 |
 | [files-community/Files](https://github.com/files-community/Files) | A modern file manager that helps users organize their files and folders. | `C#` ★ 41.1k | 2026-01-11 |
 | [derceg/explorerplusplus](https://github.com/derceg/explorerplusplus) | Explorer++ is a lightweight and fast file manager for Windows | `C++` ★ 3.1k | 2026-01-08 |

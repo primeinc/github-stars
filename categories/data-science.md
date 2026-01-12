@@ -1,28 +1,28 @@
 # Data-science
 
-*92 repositories*
+*146 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `Python` ★ 58.1k | 2026-01-11 |
+| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `Python` ★ 58.2k | 2026-01-11 |
 | [microsoft/data-formulator](https://github.com/microsoft/data-formulator) | 🪄 Create rich visualizations with AI | `TypeScript` ★ 14.7k | 2026-01-05 |
 | [apache/superset](https://github.com/apache/superset) | Apache Superset is a Data Visualization and Data Exploration Platform | `TypeScript` ★ 70k | 2026-01-10 |
-| [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | [KDD'2026] "Video RAG: Chat with Your Videos" | `Python` ★ 2.3k | 2026-01-11 |
+| [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | [KDD'2026] "Video RAG: Chat with Your Videos" | `Python` ★ 2.4k | 2026-01-11 |
 | [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications. | `Python` ★ 12.1k | 2026-01-11 |
-| [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory infrastructure for LLMs and AI agents | `Python` ★ 4.4k | 2026-01-11 |
-| [freelawproject/courtlistener](https://github.com/freelawproject/courtlistener) | A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial financial records, and federal filings. | `Python` ★ 815 | 2026-01-11 |
+| [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory infrastructure for LLMs and AI agents | `Python` ★ 4.4k | 2026-01-12 |
+| [freelawproject/courtlistener](https://github.com/freelawproject/courtlistener) | A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial financial records, and federal filings. | `Python` ★ 816 | 2026-01-11 |
 | [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) | The first "code-first" agent framework for seamlessly planning and executing data analytics tasks. | `Python` ★ 6.1k | 2026-01-07 |
-| [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2) | Official Python inference and Lo RA trainer package for the LTX-2 audio–video generative model. | `Python` ★ 2k | 2026-01-08 |
-| [samuel-vitorino/sopro](https://github.com/samuel-vitorino/sopro) | A lightweight text-to-speech model with zero-shot voice cloning | `Python` ★ 656 | 2026-01-07 |
+| [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2) | Official Python inference and Lo RA trainer package for the LTX-2 audio–video generative model. | `Python` ★ 2.1k | 2026-01-08 |
+| [samuel-vitorino/sopro](https://github.com/samuel-vitorino/sopro) | A lightweight text-to-speech model with zero-shot voice cloning | `Python` ★ 668 | 2026-01-07 |
 | [jamichss/Stream-DiffVSR](https://github.com/jamichss/Stream-DiffVSR) | The official repository of paper "Stream-Diff VSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion" | `Python` ★ 233 | 2026-01-08 |
 | [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11k | 2026-01-10 |
 | [mourad-ghafiri/youtube-mcp-server](https://github.com/mourad-ghafiri/youtube-mcp-server) | A powerful Model Context Protocol (MCP) server for You Tube video transcription and metadata extraction. | `Python` ★ 48 | 2026-01-03 |
 | [lcqysl/DiffThinker](https://github.com/lcqysl/DiffThinker) | Diff Thinker: Towards Generative Multimodal Reasoning with Diffusion Models | `Python` ★ 149 | 2026-01-04 |
-| [antvis/Infographic](https://github.com/antvis/Infographic) | 🦋 An Infographic Generation and Rendering Framework, bring words to life with AI! | `TypeScript` ★ 3.6k | 2026-01-09 |
+| [antvis/Infographic](https://github.com/antvis/Infographic) | 🦋 An Infographic Generation and Rendering Framework, bring words to life with AI! | `TypeScript` ★ 3.7k | 2026-01-12 |
 | [image-rs/fdeflate](https://github.com/image-rs/fdeflate) | Fast deflate implementation specialized for PNG image data | `Rust` ★ 28 | 2026-01-11 |
-| [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c... | `TypeScript` ★ 8.4k | 2026-01-11 |
+| [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c... | `TypeScript` ★ 8.4k | 2026-01-12 |
 | [Francis-Rings/FlashPortrait](https://github.com/Francis-Rings/FlashPortrait) | We present Flash Portrait, an end-to-end video diffusion transformer capable of synthesizing ID-preserving, infinite-length videos while achieving up to 6$\times$ acceleration in inference speed. | `Python` ★ 411 | 2026-01-10 |
 | [Zplusdragon/LowLevelBanana](https://github.com/Zplusdragon/LowLevelBanana) | [Technical Report] A Comprehensive Evaluation of Nano Banana Pro on 14 Low-Level Vision Tasks and 40 Datasets | `Python` ★ 67 | 2025-12-24 |
 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | Detectron2 is a platform for object detection, segmentation and other visual recognition tasks. | `Python` ★ 33.9k | 2025-11-17 |
@@ -31,19 +31,19 @@
 | [zhu-xlab/GlobalBuildingAtlas](https://github.com/zhu-xlab/GlobalBuildingAtlas) | Global Building Atlas: an open global and complete dataset of building polygons, heights and Lo D1 3D models | `Python` ★ 1.9k | 2026-01-07 |
 | [facebookresearch/sam-audio](https://github.com/facebookresearch/sam-audio) | The repository provides code for running inference with the Meta Segment Anything Audio Model (SAM-Audio), links for downloading the trained model checkpoints, and example notebooks that show how t... | `Python` ★ 3k | 2026-01-05 |
 | [EternalEvan/Astra](https://github.com/EternalEvan/Astra) | The official repository of "Astra : General Interactive World Model with Autoregressive Denoising" | `Python` ★ 183 | 2025-12-29 |
-| [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | ✨ The fundamental numerical library for Java Script and Type Script. ✨ | `JavaScript` ★ 5.7k | 2026-01-11 |
+| [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | ✨ The fundamental numerical library for Java Script and Type Script. ✨ | `JavaScript` ★ 5.7k | 2026-01-12 |
 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | Hindsight: Agent Memory That Works Like Human Memory | `Python` ★ 1.1k | 2026-01-09 |
 | [memodb-io/Acontext](https://github.com/memodb-io/Acontext) | Data platform for context engineering. Context data platform that stores, observes and learns. Join the community❤️: https://discord.acontext.io | `Go` ★ 2.4k | 2026-01-11 |
 | [coleam00/ottomator-agents](https://github.com/coleam00/ottomator-agents) | All the open source AI Agents hosted on the o TTomator Live Agent Studio platform! | `Python` ★ 5.2k | 2025-11-09 |
 | [MrNeRF/LichtFeld-Studio](https://github.com/MrNeRF/LichtFeld-Studio) | Licht Feld Studio: Where reality and the digital world blend. | `C++` ★ 2k | 2026-01-10 |
-| [facebookresearch/sam3](https://github.com/facebookresearch/sam3) | The repository provides code for running inference and finetuning with the Meta Segment Anything Model 3 (SAM 3), links for downloading the trained model checkpoints, and example notebooks that sho... | `Python` ★ 6.9k | 2026-01-07 |
+| [facebookresearch/sam3](https://github.com/facebookresearch/sam3) | The repository provides code for running inference and finetuning with the Meta Segment Anything Model 3 (SAM 3), links for downloading the trained model checkpoints, and example notebooks that sho... | `Python` ★ 7k | 2026-01-07 |
 | [resemble-ai/transformers](https://github.com/resemble-ai/transformers) | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. | `Python` ★ 3 | 2026-01-06 |
 | [maxandrews/Epstein-doc-explorer](https://github.com/maxandrews/Epstein-doc-explorer) | a graph explorer of the Epstein emails | `JavaScript` ★ 272 | 2025-11-20 |
-| [nv-tlabs/ChronoEdit](https://github.com/nv-tlabs/ChronoEdit) | Chrono Edit: Towards Temporal Reasoning for Image Editing and World Simulation | `Python` ★ 648 | 2025-11-20 |
+| [nv-tlabs/ChronoEdit](https://github.com/nv-tlabs/ChronoEdit) | Chrono Edit: Towards Temporal Reasoning for Image Editing and World Simulation | `Python` ★ 649 | 2025-11-20 |
 | [Visual-Agent/DeepEyesV2](https://github.com/Visual-Agent/DeepEyesV2) | No description provided | `Python` ★ 470 | 2025-12-22 |
 | [MemoriLabs/Memori](https://github.com/MemoriLabs/Memori) | SQL Native Memory Layer for LLMs, AI Agents & Multi-Agent Systems | `Python` ★ 11.6k | 2026-01-07 |
 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 92.8k | 2026-01-11 |
-| [lutzroeder/netron](https://github.com/lutzroeder/netron) | Visualizer for neural network, deep learning and machine learning models | `JavaScript` ★ 32.2k | 2026-01-11 |
+| [lutzroeder/netron](https://github.com/lutzroeder/netron) | Visualizer for neural network, deep learning and machine learning models | `JavaScript` ★ 32.2k | 2026-01-12 |
 | [SpeechifyInc/Resemblyzer](https://github.com/SpeechifyInc/Resemblyzer) | A python package to analyze and compare voices with deep learning | `Python` ★ 1 | 2025-11-03 |
 | [krea-ai/realtime-video](https://github.com/krea-ai/realtime-video) | Krea Realtime 14B. An open-source realtime AI video model. | `Python` ★ 445 | 2025-11-13 |
 | [Zejun-Yang/AniPortrait](https://github.com/Zejun-Yang/AniPortrait) | Ani Portrait: Audio-Driven Synthesis of Photorealistic Portrait Animation | `Python` ★ 5k | 2024-07-02 |
@@ -56,19 +56,73 @@
 | [duckdb/duckdb](https://github.com/duckdb/duckdb) | Duck DB is an analytical in-process SQL database management system | `C++` ★ 35.3k | 2026-01-09 |
 | [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) | Instant voice cloning by MIT and My Shell. Audio foundation model. | `Python` ★ 35.8k | 2025-04-19 |
 | [TheAlgorithms/TypeScript](https://github.com/TheAlgorithms/TypeScript) | Algorithms and Data Structures implemented in Type Script for beginners, following best practices. | `TypeScript` ★ 2.6k | 2024-10-16 |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 51k | 2026-01-11 |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 51k | 2026-01-12 |
 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | `Python` ★ 10k | 2026-01-02 |
-| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. | `Python` ★ 67.8k | 2026-01-05 |
+| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. | `Python` ★ 67.9k | 2026-01-05 |
 | [retroplasma/earth-reverse-engineering](https://github.com/retroplasma/earth-reverse-engineering) | Reversing Google's 3D satellite mode | `C` ★ 2.3k | 2020-12-23 |
 | [Phantom-video/Phantom](https://github.com/Phantom-video/Phantom) | Phantom: Subject-Consistent Video Generation via Cross-Modal Alignment | `Python` ★ 1.5k | 2025-09-11 |
-| [city96/ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF) | GGUF Quantization support for native Comfy UI models | `Python` ★ 3.1k | 2025-12-18 |
+| [city96/ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF) | GGUF Quantization support for native Comfy UI models | `Python` ★ 3.1k | 2026-01-11 |
 | [QwenLM/Qwen3-Omni](https://github.com/QwenLM/Qwen3-Omni) | Qwen3-omni is a natively end-to-end, omni-modal LLM developed by the Qwen team at Alibaba Cloud, capable of understanding text, audio, images, and video, as well as generating speech in real time. | `Jupyter Notebook` ★ 3.2k | 2026-01-08 |
-| [yjs/yjs](https://github.com/yjs/yjs) | Shared data types for building collaborative software | `JavaScript` ★ 21k | 2026-01-10 |
+| [yjs/yjs](https://github.com/yjs/yjs) | Shared data types for building collaborative software | `JavaScript` ★ 21k | 2026-01-12 |
 | [thi-ng/umbrella](https://github.com/thi-ng/umbrella) | ⛱ Broadly scoped ecosystem & mono-repository of 210 Type Script projects (and ~185 examples) for general purpose, functional, data driven development | `TypeScript` ★ 3.7k | 2026-01-09 |
 | [simdjson/simdjson](https://github.com/simdjson/simdjson) | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, Click House, Watermelon DB, Apache Doris, Milvus, Star Rocks | `C++` ★ 23.1k | 2026-01-09 |
 | [Phantom-video/HuMo](https://github.com/Phantom-video/HuMo) | Hu Mo: Human-Centric Video Generation via Collaborative Multi-Modal Conditioning | `Python` ★ 1.1k | 2025-12-23 |
 | [ByteDance-Seed/Bagel](https://github.com/ByteDance-Seed/Bagel) | Open-source unified multimodal model | `Python` ★ 5.6k | 2025-10-27 |
 | [NousResearch/Hermes-Function-Calling](https://github.com/NousResearch/Hermes-Function-Calling) | No description provided | `Jupyter Notebook` ★ 1.2k | 2025-12-22 |
+| [yukangcao/FreeMorph](https://github.com/yukangcao/FreeMorph) | [ICCV'25] Free Morph: Tuning-Free Generalized Image Morphing with Diffusion Model | `Python` ★ 81 | 2025-07-24 |
+| [hgrsd/drivel](https://github.com/hgrsd/drivel) | Infer a JSON schema from example data, produce nonsense synthetic data (drivel) according to the schema | `Rust` ★ 46 | 2025-06-08 |
+| [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook) | This is a repo with links to everything you'd ever want to learn about data engineering | `Jupyter Notebook` ★ 39.3k | 2025-12-15 |
+| [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files. | `TypeScript` ★ 9.7k | 2026-01-11 |
+| [Eric-Chung-0511/Learning-Record](https://github.com/Eric-Chung-0511/Learning-Record) | Empowering Data Driven insights through hands-on projects, SQL challenges and practical tools. | `Jupyter Notebook` ★ 23 | 2026-01-11 |
+| [GeeeekExplorer/nano-vllm](https://github.com/GeeeekExplorer/nano-vllm) | Nano v LLM | `Python` ★ 10.7k | 2025-11-03 |
+| [microsoft/Modernize-your-code-solution-accelerator](https://github.com/microsoft/Modernize-your-code-solution-accelerator) | Designed to help customers transition their SQL queries to new environments quickly and efficiently. This accelerator is particularly useful for organizations modernizing their data estates, as it ... | `Python` ★ 96 | 2026-01-09 |
+| [datajuicer/data-juicer](https://github.com/datajuicer/data-juicer) | Data processing for and with foundation models! 🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷 | `Python` ★ 5.7k | 2026-01-09 |
+| [Fanghua-Yu/SUPIR](https://github.com/Fanghua-Yu/SUPIR) | SUPIR aims at developing Practical Algorithms for Photo-Realistic Image Restoration In the Wild. Our new online demo is also released at suppixel.ai. | `Python` ★ 5.4k | 2025-05-12 |
+| [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) | Wan: Open and Advanced Large-Scale Video Generative Models | `Python` ★ 15.1k | 2025-12-15 |
+| [ksreyes/popes](https://github.com/ksreyes/popes) | Dataset of all official popes from Peter to Francis | `R` ★ 6 | 2023-02-06 |
+| [modelscope/FunASR](https://github.com/modelscope/FunASR) | A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc. | `Python` ★ 14.4k | 2026-01-07 |
+| [nunchaku-ai/nunchaku](https://github.com/nunchaku-ai/nunchaku) | [ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models | `Python` ★ 3.6k | 2026-01-11 |
+| [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | A high-performance algorithmic trading platform and event-driven backtester | `Rust` ★ 17.2k | 2026-01-12 |
+| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | A collection of MCP servers. | ★ 78.6k | 2026-01-10 |
+| [microsoft/qlib](https://github.com/microsoft/qlib) | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, i... | `Python` ★ 35.5k | 2025-12-30 |
+| [open-mmlab/Amphion](https://github.com/open-mmlab/Amphion) | Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audi... | `Python` ★ 9.6k | 2025-05-27 |
+| [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent) | Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are commi... | `Python` ★ 10.2k | 2026-01-12 |
+| [denisa-ms/azure-data-and-ai-examples](https://github.com/denisa-ms/azure-data-and-ai-examples) | No description provided | `Jupyter Notebook` ★ 31 | 2023-11-15 |
+| [andrewraharjo/CAN-Bus-Hack_Prius_Focus](https://github.com/andrewraharjo/CAN-Bus-Hack_Prius_Focus) | Leverage from ioactive blog for research purpose in Self Driving Car Development | `Python` ★ 60 | 2016-08-05 |
+| [huggingface/open-r1](https://github.com/huggingface/open-r1) | Fully open reproduction of Deep Seek-R1 | `Python` ★ 25.8k | 2025-11-24 |
+| [huggingface/pytorch-image-models](https://github.com/huggingface/pytorch-image-models) | The largest collection of Py Torch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- Res Net, Res Ne XT, Efficient Net, NFNet, Vision Transform... | `Python` ★ 36.2k | 2026-01-09 |
+| [KaiyangZhou/deep-person-reid](https://github.com/KaiyangZhou/deep-person-reid) | Torchreid: Deep learning person re-identification in Py Torch. | `Python` ★ 4.7k | 2026-01-09 |
+| [milvus-io/bootcamp](https://github.com/milvus-io/bootcamp) | Dealing with all unstructured data, such as reverse image search, audio search, molecular search, video analysis, question and answer systems, NLP, etc. | `Jupyter Notebook` ★ 2.4k | 2025-12-15 |
+| [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | A library for efficient similarity search and clustering of dense vectors. | `C++` ★ 38.7k | 2026-01-07 |
+| [burntcarrot/hashsearch](https://github.com/burntcarrot/hashsearch) | Reverse image search using perceptual hashes. 🔍 | `Go` ★ 21 | 2022-12-04 |
+| [dusty-nv/jetson-utils](https://github.com/dusty-nv/jetson-utils) | C++/CUDA/Python multimedia utilities for NVIDIA Jetson | `C++` ★ 861 | 2025-10-16 |
+| [keon/awesome-nlp](https://github.com/keon/awesome-nlp) | :book: A curated list of resources dedicated to Natural Language Processing (NLP) | ★ 18.1k | 2026-01-11 |
+| [aigc-apps/EasyAnimate](https://github.com/aigc-apps/EasyAnimate) | 📺 An End-to-End Solution for High-Resolution and Long Video Generation Based on Transformer Diffusion | `Python` ★ 2.2k | 2025-03-06 |
+| [KoljaB/RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) | A robust, efficient, low-latency speech-to-text library with advanced voice activity detection, wake word activation and instant transcription. | `Python` ★ 9.3k | 2025-07-11 |
+| [deepseek-ai/Janus](https://github.com/deepseek-ai/Janus) | Janus-Series: Unified Multimodal Understanding and Generation Models | `Python` ★ 17.7k | 2025-02-01 |
+| [datalab-to/surya](https://github.com/datalab-to/surya) | OCR, layout analysis, reading order, table recognition in 90+ languages | `Python` ★ 19.1k | 2025-10-21 |
+| [fixie-ai/ultravox](https://github.com/fixie-ai/ultravox) | A fast multimodal LLM for real-time voice | `Python` ★ 4.3k | 2025-12-12 |
+| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust | `Rust` ★ 14.3k | 2026-01-08 |
+| [bytedance/monolith](https://github.com/bytedance/monolith) | A Lightweight Recommendation System | `Python` ★ 9k | 2025-10-13 |
+| [dusty-nv/jetson-voice](https://github.com/dusty-nv/jetson-voice) | ASR/NLP/TTS deep learning inference library for NVIDIA Jetson using Py Torch and Tensor RT | `Python` ★ 219 | 2024-02-09 |
+| [neuralchen/SimSwap](https://github.com/neuralchen/SimSwap) | An arbitrary face-swapping framework on images and videos with one single trained model! | `Python` ★ 5.1k | 2024-08-06 |
+| [somanchiu/ReSwapper](https://github.com/somanchiu/ReSwapper) | Re Swapper aims to reproduce the implementation of inswapper. This repository provides code for training, inference, and includes pretrained weights. | `Python` ★ 217 | 2025-06-14 |
+| [Crayon-Shinchan/AnyDressing](https://github.com/Crayon-Shinchan/AnyDressing) | [CVPR 2025] Official implementation of "Any Dressing: Customizable Multi-Garment Virtual Dressing via Latent Diffusion Models" | `JavaScript` ★ 328 | 2025-04-09 |
+| [lucasnewman/f5-tts-mlx](https://github.com/lucasnewman/f5-tts-mlx) | Implementation of F5-TTS in MLX | `Python` ★ 603 | 2025-03-19 |
+| [SWivid/F5-TTS](https://github.com/SWivid/F5-TTS) | Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching" | `Python` ★ 13.9k | 2025-12-26 |
+| [nyrahealth/CrisperWhisper](https://github.com/nyrahealth/CrisperWhisper) | Verbatim Automatic Speech Recognition with improved word-level timestamps and filler detection | `Python` ★ 884 | 2025-06-03 |
+| [katanaml/sparrow](https://github.com/katanaml/sparrow) | Structured data extraction and instruction calling with ML, LLM and Vision LLM | `Python` ★ 5.1k | 2026-01-11 |
+| [aiola-lab/whisper-medusa](https://github.com/aiola-lab/whisper-medusa) | Whisper with Medusa heads | `Python` ★ 863 | 2025-08-06 |
+| [NVlabs/edm2](https://github.com/NVlabs/edm2) | EDM2 and Autoguidance -- Official Py Torch implementation | `Python` ★ 808 | 2024-12-09 |
+| [GaParmar/img2img-turbo](https://github.com/GaParmar/img2img-turbo) | One-step image-to-image with Stable Diffusion turbo: sketch2image, day2night, and more | `Python` ★ 2.4k | 2025-08-01 |
+| [mhamilton723/FeatUp](https://github.com/mhamilton723/FeatUp) | Official code for "Feat Up: A Model-Agnostic Frameworkfor Features at Any Resolution" ICLR 2024 | `Jupyter Notebook` ★ 1.6k | 2024-06-28 |
+| [TencentARC/PhotoMaker](https://github.com/TencentARC/PhotoMaker) | Photo Maker [CVPR 2024] | `Jupyter Notebook` ★ 10.1k | 2024-10-31 |
+| [tobecwb/stable-diffusion-regularization-images](https://github.com/tobecwb/stable-diffusion-regularization-images) | Stable Diffusion Regularization Images in 512px, 768px and 1024px on 1.5, 2.1 and SDXL 1.0 checkpoints | ★ 161 | 2023-12-19 |
+| [Mikubill/pixivpy-async](https://github.com/Mikubill/pixivpy-async) | Pure Python 3 Async Pixiv API | `Python` ★ 159 | 2023-07-26 |
+| [upbit/pixivpy](https://github.com/upbit/pixivpy) | Pixiv API for Python | `Python` ★ 2k | 2025-07-31 |
+| [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) | Generative Models by Stability AI | `Python` ★ 26.8k | 2025-12-16 |
+| [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter Lab computational environment. | `TypeScript` ★ 15k | 2026-01-10 |
+| [ai-forever/ghost](https://github.com/ai-forever/ghost) | A new one shot face swap approach for image and video domains | `Python` ★ 1.5k | 2025-02-25 |
 | [serengil/deepface](https://github.com/serengil/deepface) | A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python | `Python` ★ 21.5k | 2026-01-06 |
 | [ForeverPs/content-aware-rotation](https://github.com/ForeverPs/content-aware-rotation) | Implementation of Kaiming He's Paper Content-Aware Rotation on ICCV 2013 | `Python` ★ 36 | 2021-03-01 |
 | [ali-vilab/videocomposer](https://github.com/ali-vilab/videocomposer) | Official repo for Video Composer: Compositional Video Synthesis with Motion Controllability | `Python` ★ 949 | 2023-11-11 |
@@ -78,7 +132,7 @@
 | [deepinsight/insightface](https://github.com/deepinsight/insightface) | State-of-the-art 2D and 3D Face Analysis Project | `Python` ★ 27.5k | 2025-11-25 |
 | [SkalskiP/make-sense](https://github.com/SkalskiP/make-sense) | Free to use online tool for labelling photos. https://makesense.ai | `TypeScript` ★ 3.5k | 2024-08-15 |
 | [Cartucho/OpenLabeling](https://github.com/Cartucho/OpenLabeling) | Label images and video for Computer Vision applications | `Python` ★ 954 | 2022-07-06 |
-| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | Label Studio is a multi-type data labeling and annotation tool with standardized output format | `TypeScript` ★ 26.1k | 2026-01-11 |
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | Label Studio is a multi-type data labeling and annotation tool with standardized output format | `TypeScript` ★ 26.1k | 2026-01-12 |
 | [HumanSignal/labelImg](https://github.com/HumanSignal/labelImg) | Label Img is now part of the Label Studio community. The popular image annotation tool created by Tzutalin is no longer actively being developed, but you can check out Label Studio, the open source... | `Python` ★ 24.7k | 2024-06-07 |
 | [voxel51/voxelgpt](https://github.com/voxel51/voxelgpt) | AI assistant that can query visual datasets, search the Fifty One docs, and answer general computer vision questions | `Python` ★ 250 | 2024-12-06 |
 | [rohitrango/automatic-watermark-detection](https://github.com/rohitrango/automatic-watermark-detection) | Project for Digital Image Processing | `Jupyter Notebook` ★ 1.2k | 2022-05-22 |

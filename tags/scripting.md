@@ -1,12 +1,11 @@
 # Tag: scripting
 
-*4 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [MSEndpointMgr/Intune](https://github.com/MSEndpointMgr/Intune) | Microsoft Intune scripts | `PowerShell` ★ 798 | 2025-04-13 |
+| [ironmansoftware/powershell-pro-tools](https://github.com/ironmansoftware/powershell-pro-tools) | Scripting, automation, and development tools for professionals working with Power Shell. | `C#` ★ 184 | 2025-12-08 |
+| [mycroftjr/Sims4ScriptingTemplate](https://github.com/mycroftjr/Sims4ScriptingTemplate) | Sims 4 Scripting Template Project | `Python` ★ 16 | 2023-09-29 |
 | [MorseTheCode/OBS-Scripts](https://github.com/MorseTheCode/OBS-Scripts) | My OBS Scripts | `HTML` ★ 7 | 2025-11-27 |
-| [marius-sucan/AHK-GDIp-Library-Compilation](https://github.com/marius-sucan/AHK-GDIp-Library-Compilation) | Gdip_All library mega-compilation of user contributions, compatible with AHK v1.1 and AHK v2 | `AutoHotkey` ★ 102 | 2025-03-09 |
-| [junebug12851/Sims4ScriptingBPProj](https://github.com/junebug12851/Sims4ScriptingBPProj) | Sims 4 Scripting Boilerplate Project | `Python` ★ 57 | 2021-06-06 |

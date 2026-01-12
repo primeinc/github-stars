@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool | `JavaScript` ★ 81.1k | 2026-01-11 |
+| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool | `JavaScript` ★ 81.2k | 2026-01-12 |
 | [download-directory/download-directory.github.io](https://github.com/download-directory/download-directory.github.io) | Web App: Download just a sub directory from a Git Hub repo. | `TypeScript` ★ 1.6k | 2024-11-03 |
 | [Azure-Samples/remote-mcp-webapp-node](https://github.com/Azure-Samples/remote-mcp-webapp-node) | No description provided | `JavaScript` ★ 5 | 2026-01-01 |

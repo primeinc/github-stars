@@ -1,11 +1,10 @@
 # Tag: version-control
 
-*3 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | The Git Butler version control client, backed by Git, powered by Tauri/Rust/Svelte | `Rust` ★ 17.4k | 2026-01-11 |
-| [cli/cli](https://github.com/cli/cli) | Git Hub’s official command line tool | `Go` ★ 42k | 2026-01-09 |
-| [microsoft/VFSForGit](https://github.com/microsoft/VFSForGit) | Virtual File System for Git: Enable Git at Enterprise Scale | `C#` ★ 6.1k | 2025-12-18 |
+| [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | The Git Butler version control client, backed by Git, powered by Tauri/Rust/Svelte | `Rust` ★ 17.5k | 2026-01-12 |
+| [Vinzent03/obsidian-git](https://github.com/Vinzent03/obsidian-git) | Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md | `TypeScript` ★ 9.5k | 2026-01-11 |
