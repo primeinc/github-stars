@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-12T04:22:31.538Z"
+  manifest_updated_at: "2026-01-12T04:22:55.496Z"
   total_repos: 1959
   generator_version: v1.0.0
   github_user: primeinc
@@ -34386,13 +34386,19 @@ repositories:
       mirror_url: null
   - repo: polarsource/polar
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - saas
+      - subscriptions
+      - nextjs
+      - lang:python
+      - lang:ts
     summary: Turn your software into a business.
     last_synced_sha: 50430ad08be58c0a87d6c7f09430fdd83cd42763
     user_starred_at: "2025-08-13T21:30:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -34423,15 +34429,25 @@ repositories:
         published_at: "2025-10-24T13:10:21Z"
       is_mirror: false
       mirror_url: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.496Z"
+      prompt_version: v2
   - repo: x1xhlol/system-prompts-and-models-of-ai-tools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - system-prompts
+      - copilot
+      - ai-tools
+      - open-source
     summary: FULL Augment Code, Claude Code, Cluely, Code Buddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, Notion AI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer ...
     last_synced_sha: 6b2157ca3eaa6e562cd457a88770dc307c0933f1
     user_starred_at: "2025-08-13T21:29:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -34468,15 +34484,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.496Z"
+      prompt_version: v2
   - repo: emilk/egui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - game-dev
+    tags:
+      - immediate-mode-gui
+      - rust
+      - web-and-native
+      - lang:rust
     summary: 'egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native'
     last_synced_sha: 7fb4627dadd87d4f49419a5cace65cb10ce968ef
     user_starred_at: "2025-08-13T21:23:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -34502,15 +34528,25 @@ repositories:
         published_at: "2025-12-11T14:42:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.496Z"
+      prompt_version: v2
   - repo: FiloSottile/mkcert
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - https
+      - tls
+      - development-certificates
+      - lang:go
     summary: A simple zero-config tool to make locally trusted development certificates with any names you'd like.
     last_synced_sha: 1c1dc4ed27ed5936046b6398d39cab4d657a2d8e
     user_starred_at: "2025-08-12T22:13:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -34541,15 +34577,26 @@ repositories:
         published_at: "2022-04-26T17:51:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.496Z"
+      prompt_version: v2
   - repo: fastapi/full-stack-fastapi-template
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - fullstack-template
+      - react
+      - fastapi
+      - docker
+      - lang:ts
     summary: Full stack, modern web application template. Using Fast API, React, SQLModel, Postgre SQL, Docker, Git Hub Actions, automatic HTTPS and more.
     last_synced_sha: 63f167d4625c71d49a0391c2532a2f30d426b3d7
     user_starred_at: "2025-08-12T22:11:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34587,15 +34634,25 @@ repositories:
         published_at: "2025-12-08T19:14:18Z"
       is_mirror: false
       mirror_url: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.496Z"
+      prompt_version: v2
   - repo: umami-software/umami
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - monitoring
+    tags:
+      - web-analytics
+      - privacy-focused
+      - analytics-platform
+      - lang:ts
     summary: Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel and Amplitude.
     last_synced_sha: 860e6390f14e7572b27d3ea1230258cff8c9bc96
     user_starred_at: "2025-08-12T22:11:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34623,15 +34680,25 @@ repositories:
         published_at: "2025-12-12T02:39:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.495Z"
+      prompt_version: v2
   - repo: AgentDeskAI/browser-tools-mcp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - monitoring
+    tags:
+      - browser-tools
+      - mcp
+      - ai-integration
+      - lang:js
     summary: Monitor browser logs directly from Cursor and other MCP compatible IDEs.
     last_synced_sha: 0befce357f2421e928f2a19ee09ab502080a35a5
     user_starred_at: "2025-08-11T02:53:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -34655,15 +34722,25 @@ repositories:
         published_at: "2025-03-10T18:34:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.495Z"
+      prompt_version: v2
   - repo: scraed/LanPaint
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - inpainting
+      - stable-diffusion
+      - ai-tools
+      - lang:python
     summary: High quality training free inpaint for every stable diffusion model. Supports Comfy UI
     last_synced_sha: d4e8ee28fb3d76767754e63d7f10933407af7711
     user_starred_at: "2025-08-10T06:27:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -34682,15 +34759,25 @@ repositories:
         published_at: "2025-12-25T15:37:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.495Z"
+      prompt_version: v2
   - repo: upstash/context7
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - context-management
+      - llm
+      - mcp-server
+      - lang:ts
     summary: Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors
     last_synced_sha: 35611d5075e862a0bea15b7a9d032f3f30c23ac3
     user_starred_at: "2025-08-09T19:49:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34713,15 +34800,25 @@ repositories:
         published_at: "2026-01-08T17:32:47Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.495Z"
+      prompt_version: v2
   - repo: peterkrueck/Claude-Code-Development-Kit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - workflow
+      - hooks
+      - mcp
+      - code-tools
     summary: Handle context at scale - my custom Claude Code workflow including hooks, mcp and sub agents
     last_synced_sha: ccbaecef9c0f52db5b6f58aa095e8602d6fdfccf
     user_starred_at: "2025-08-09T19:48:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -34738,15 +34835,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.495Z"
+      prompt_version: v2
   - repo: nytimes/three-loader-3dtiles
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - webgl
+      - 3d-tiles
+      - threejs
+      - lang:ts
     summary: This is a Three.js loader module for handling OGC 3D Tiles, created by Cesium. It currently supports the two main formats, Batched 3D Model (b3dm) - based on gl TF Point cloud.
     last_synced_sha: 3e876c9d26309e45e6e11e0092d62bb613af2127
     user_starred_at: "2025-08-08T11:14:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34768,15 +34875,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.495Z"
+      prompt_version: v2
   - repo: storytellingmap/storymap
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - 3d-maps
+      - storytelling
+      - map-visualization
+      - lang:js
     summary: 3D maps with paths for drawing a story
     last_synced_sha: 29755b9a527ac50aa8e3f7ee73bc365a2e92da7d
     user_starred_at: "2025-08-08T11:04:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -34793,15 +34910,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.495Z"
+      prompt_version: v2
   - repo: boatbod/op25
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - radio-communication
+      - signal-processing
+      - lang:cpp
     summary: Fork of osmocom OP25 by boatbod
     last_synced_sha: 849405eb4ba978f4e5f001916226bc4d98660607
     user_starred_at: "2025-08-08T03:21:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -34818,15 +34944,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.495Z"
+      prompt_version: v2
   - repo: Ylianst/MeshCommander
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - monitoring
+    tags:
+      - remote-management
+      - intel-amt
+      - hardware-kvm
     summary: Mesh Commander is a Intel(R) Active Management Technology (Intel(R) AMT) remote management tool. It's feature rich and includes a built-in remote desktop viewer for Hardware-KVM, a Serial-over-LAN ...
     last_synced_sha: d943cefcf5802391471ecd6b2f91d655b9579eb4
     user_starred_at: "2025-08-07T23:51:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -34843,15 +34978,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.495Z"
+      prompt_version: v2
   - repo: bixat/nexsh
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cli-tools
+    tags:
+      - ai-powered-shell
+      - terminal
+      - shell-commands
+      - lang:rust
     summary: Next-generation AI-powered shell using Google Gemini - Translates your words into precise shell commands ⚙️
     last_synced_sha: 10f510807fd4335875abfd5c6227ef4d5336e535
     user_starred_at: "2025-08-07T00:52:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -34876,6 +35021,11 @@ repositories:
         published_at: "2025-12-30T20:43:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:55.495Z"
+      prompt_version: v2
   - repo: sebglazebrook/aliases
     categories:
       - cli-tools
