@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-12T04:22:09.197Z"
+  manifest_updated_at: "2026-01-12T04:22:31.538Z"
   total_repos: 1959
   generator_version: v1.0.0
   github_user: primeinc
@@ -34878,13 +34878,17 @@ repositories:
       mirror_url: null
   - repo: sebglazebrook/aliases
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - bash
+      - dynamic-aliases
+      - lang:rust
     summary: Contextual, dynamic aliases for the bash shell
     last_synced_sha: dcc317da9730ca81cb26917affc6fb9d6f511493
     user_starred_at: "2025-08-07T00:48:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -34901,15 +34905,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.538Z"
+      prompt_version: v2
   - repo: bcwilhite/PendingReboot
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cli-tools
+    tags:
+      - windows
+      - pending-reboots
+      - module
+      - lang:powershell
     summary: Module to detect Windows OS pending reboots
     last_synced_sha: 9b1053f7dc39b9fd9162684c6c680de99738d6ba
     user_starred_at: "2025-08-06T06:54:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -34926,15 +34940,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.538Z"
+      prompt_version: v2
   - repo: j0eyv/ConditionalAccessBaseline
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - conditional-access
+      - baselines
+      - azure-security
     summary: No description provided
     last_synced_sha: a2dc5345c5a86b9c012d791044b4fc106fc396ef
     user_starred_at: "2025-08-05T21:52:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -34951,15 +34974,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.538Z"
+      prompt_version: v2
   - repo: vivoCameraResearch/Magic-TryOn
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - virtual-tryon
+      - video-editing
+      - diffusion-transformer
+      - lang:python
     summary: Magic Try On is a video virtual try-on framework based on a large-scale video diffusion Transformer.
     last_synced_sha: 9e95dd950a7a10f3fcf73edee7e36087b05ed905
     user_starred_at: "2025-08-05T18:10:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -34984,15 +35017,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.538Z"
+      prompt_version: v2
   - repo: devinmcelheran/Printune
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - deployment
+    tags:
+      - intune
+      - printers
+      - package-deployment
+      - lang:csharp
     summary: A one-stop utility for creating Intune packages to deploy printers and printer drivers.
     last_synced_sha: b49a39f7e5459cd644599dfde8321e0f56b9c439
     user_starred_at: "2025-08-05T06:04:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -35009,15 +35052,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.538Z"
+      prompt_version: v2
   - repo: QwenLM/Qwen-Image
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-generation
+      - text-rendering
+      - image-editing
+      - lang:python
     summary: Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing.
     last_synced_sha: c2f139cbd135c4d923a9130f72369e958e3d545c
     user_starred_at: "2025-08-05T05:05:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35034,15 +35087,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.538Z"
+      prompt_version: v2
   - repo: fabio-marini/azd-aspire-basic
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - productivity
+    tags:
+      - azd
+      - starter-template
+      - lang:csharp
     summary: No description provided
     last_synced_sha: 2a6d8588f0a282e76175a3f6506e18ce75524f8a
     user_starred_at: "2025-08-03T05:11:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -35059,15 +35121,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.538Z"
+      prompt_version: v2
   - repo: ronaldbosma/azure-integration-services-quickstart
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - infrastructure
+    tags:
+      - azure-integration-services
+      - bicep
+      - api-management
+      - azure-functions
+      - lang:bicep
     summary: An azd template (Bicep) for deploying Azure Integration Services, including Azure API Management, Function App, Logic App, Service Bus and Event Hubs namespace, along with supporting resources such...
     last_synced_sha: 4304be5440c83cbecf82aa9703917358634de0bd
     user_starred_at: "2025-08-03T03:31:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -35094,15 +35167,25 @@ repositories:
         published_at: "2026-01-08T09:56:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.538Z"
+      prompt_version: v2
   - repo: Azure-Samples/APICenter-Reference
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cloud
+    tags:
+      - api-management
+      - azd
+      - azure-api-center
+      - lang:bicep
     summary: This provides some reference use cases while using Azure API Center
     last_synced_sha: 9109263a7c3daf8c2044fe3330f085bb510199ba
     user_starred_at: "2025-08-03T03:30:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -35129,15 +35212,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.538Z"
+      prompt_version: v2
   - repo: Azure-Samples/mcp-workshop-dotnet
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - cloud
+    tags:
+      - workshop
+      - mcp-sdk
+      - lang:js
     summary: This provides workshop materials using official MCP SDK
     last_synced_sha: a04ef8305cea51085ad614fefb85457e3bc510c0
     user_starred_at: "2025-08-03T03:07:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -35154,15 +35246,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.538Z"
+      prompt_version: v2
   - repo: Azure-Samples/getting-started-dotnet-aca
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+    tags:
+      - azure-container-apps
+      - aspnet
+      - cloud-native
+      - docker
+      - lang:csharp
     summary: This provides sample .NET apps to be deployed to Azure Container Apps
     last_synced_sha: 66ecb2d8f44a3eecc14da30d085932c3b8a5a709
     user_starred_at: "2025-08-03T03:00:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -35188,15 +35291,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.538Z"
+      prompt_version: v2
   - repo: Azure/azqr
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - monitoring
+    tags:
+      - azure
+      - assessment-tool
+      - best-practices
+      - lang:go
     summary: Azure Quick Review
     last_synced_sha: 539819f6a97f163f4953d2be5045364cab385ac6
     user_starred_at: "2025-08-03T02:50:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -35223,15 +35336,26 @@ repositories:
         published_at: "2025-12-29T13:51:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.537Z"
+      prompt_version: v2
   - repo: tabs-not-spaces/Intune-App-Deploy
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - devops
+    tags:
+      - intune
+      - app-packaging
+      - sccm
+      - deployment
+      - lang:powershell
     summary: A fast, reliable way to package your win32 applications and deploy them to Intune from any source - including SCCM!
     last_synced_sha: 372e018f6e129e3a299989dcb63ba52b3112751a
     user_starred_at: "2025-08-01T17:10:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -35248,15 +35372,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.537Z"
+      prompt_version: v2
   - repo: tabs-not-spaces/CodeDump
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - utilities
+      - tools
+      - lang:powershell
     summary: things that help me. might help others.
     last_synced_sha: e5ab88d997b1e4232f9e2483e5a046b9517eb0f6
     user_starred_at: "2025-08-01T17:08:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -35273,15 +35406,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.537Z"
+      prompt_version: v2
   - repo: tabs-not-spaces/Intune.LogonScript.Helper
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - devops
+    tags:
+      - function-app
+      - modern-management
+      - lang:powershell
     summary: Function App solution to help with getting on-prem file shares and printers into modern management.
     last_synced_sha: 1b98bc33a967b8db95a5ece7138b57285886878c
     user_starred_at: "2025-08-01T17:03:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -35298,6 +35440,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:22:31.537Z"
+      prompt_version: v2
   - repo: rails/rails
     categories:
       - frameworks
