@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-12T04:24:20.987Z"
+  manifest_updated_at: "2026-01-12T04:24:42.293Z"
   total_repos: 1959
   generator_version: v1.0.0
   github_user: primeinc
@@ -31755,13 +31755,17 @@ repositories:
       mirror_url: null
   - repo: rink-turksma/IntunePrepTool
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - system-admin
+    tags:
+      - intune
+      - packaging
+      - lang:powershell
     summary: Intune Prep Tool is a tool designed for creating Intune packages using the MS Win32 Content Prep Tool. The tool aims to simplify the process of packaging applications for deployment through Intune ...
     last_synced_sha: ba26ae635a24b6db4527983596f34861b3c5565f
     user_starred_at: "2025-08-28T05:42:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -31785,15 +31789,24 @@ repositories:
         published_at: "2025-11-01T13:18:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: mltframework/shotcut
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - video-editor
+      - cross-platform
+      - lang:cpp
     summary: cross-platform (Qt), open-source (GPLv3) video editor
     last_synced_sha: afb087cb91efd7fab0f3ae24c0904b268e507d9a
     user_starred_at: "2025-08-28T04:44:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -31817,15 +31830,24 @@ repositories:
         published_at: "2026-01-01T01:15:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: lainra/claude-code-telemetry
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - apis
+    tags:
+      - telemetry
+      - llm
+      - lang:js
     summary: Claude Code Telemetry is a lightweight bridge that captures telemetry data from Claude Code and forwards it to Langfuse for visualization, with a secure local turnkey installation under a minute.
     last_synced_sha: 5ae1fc3c5efe600f9e84380385813c34e3c86a21
     user_starred_at: "2025-08-26T14:04:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -31853,15 +31875,25 @@ repositories:
         published_at: "2025-08-03T03:48:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: langfuse/langfuse
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - monitoring
+    tags:
+      - llm-observability
+      - prompt-management
+      - metrics
+      - lang:ts
     summary: "\U0001FAA2 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with Open Telemetry, Langchain, Open AI SDK, Lite LLM, and more. \U0001F34AYC..."
     last_synced_sha: 5fae64e37794b16f8ae85c10db5c112546892a95
     user_starred_at: "2025-08-26T14:01:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31899,15 +31931,24 @@ repositories:
         published_at: "2026-01-08T19:51:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: Agent-on-the-Fly/Memento
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - llm-agents
+      - fine-tuning
+      - lang:python
     summary: 'Official Code of Memento: Fine-tuning LLM Agents without Fine-tuning LLMs'
     last_synced_sha: 42fbbcac63dd58ed6856c0761357345a58e4f032
     user_starred_at: "2025-08-26T13:42:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -31924,15 +31965,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: vfarcic/dot-ai
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - cloud
+    tags:
+      - kubernetes
+      - dynamic-discovery
+      - deployment
+      - lang:ts
     summary: Intelligent dual-mode agent for deploying applications to ANY Kubernetes cluster through dynamic discovery and plain English governance
     last_synced_sha: d3d702f53c8ad2c1e4c607ca6bb084f464c31b84
     user_starred_at: "2025-08-26T12:37:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -31951,15 +32002,25 @@ repositories:
         published_at: "2026-01-08T14:32:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: useflyyer/use-smartcrop
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - image-cropping
+      - content-aware
+      - react-hooks
+      - lang:js
     summary: React hook for smartcrop.js to content aware image cropping with points of interest and facial recognition.
     last_synced_sha: 9d03892c6bba0c17060925d05a9acb53d78fbf3e
     user_starred_at: "2025-08-25T09:40:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -31983,15 +32044,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: roboflow/supervision
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - computer-vision
+      - object-detection
+      - deeplearning
+      - image-processing
+      - lang:python
     summary: "We write your reusable computer vision tools. \U0001F49C"
     last_synced_sha: 95ef33a102991e3fdd181391229ea2dd875b107f
     user_starred_at: "2025-08-25T09:32:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -32029,15 +32101,25 @@ repositories:
         published_at: "2025-11-16T18:07:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: NVIDIA/nvImageCodec
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-processing
+      - gpu-acceleration
+      - lang:cpp
+      - cuda
     summary: A nv Image Codec library of GPU- and CPU- accelerated codecs featuring a unified interface
     last_synced_sha: 89500f364d55836feab40a49241fcd1351a51520
     user_starred_at: "2025-08-25T09:27:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -32069,15 +32151,24 @@ repositories:
         published_at: "2026-01-09T09:52:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: DuckersMcQuack/ComfyUI-Ram-Bypass
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - system-admin
+    tags:
+      - directstorage
+      - ram-bypass
+      - lang:python
     summary: An attempt to bypass ram entirely and load directstorage optimized models straight from storage than stored in ram.
     last_synced_sha: ed4d67e9fd8a459f9ac63b8fb929c8f33eaae0cb
     user_starred_at: "2025-08-25T07:01:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -32094,15 +32185,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: FreeRDP/FreeRDP
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - rdp
+      - remote-desktop
+      - lang:c
     summary: Free RDP is a free remote desktop protocol library and clients
     last_synced_sha: c9bdfa32786cb89d92901687951f01eeb22b3606
     user_starred_at: "2025-08-24T07:58:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -32132,15 +32232,25 @@ repositories:
         published_at: "2025-12-17T10:44:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: voluntas/duckdb-wasm-parquet
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - web-dev
+    tags:
+      - wasm
+      - parquet
+      - duckdb-wasm
+      - lang:ts
     summary: No description provided
     last_synced_sha: c7155bd97e01ecaa2cb18993300d72fefb71bb03
     user_starred_at: "2025-08-24T01:44:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -32162,15 +32272,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: mattf96s/QuackDB
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - web-dev
+    tags:
+      - duckdb
+      - sql-editor
+      - apache-arrow
+      - lang:ts
     summary: Open-source in-browser Duck DB SQL editor
     last_synced_sha: df374a0e53139f070c0b71cbca23dcc35bbe2b29
     user_starred_at: "2025-08-24T01:43:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -32197,15 +32317,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: ariga/atlas
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - devops
+    tags:
+      - schema-migrations
+      - schema-as-code
+      - lang:go
     summary: Declarative schema migrations with schema-as-code workflows
     last_synced_sha: 428c4cf84cd4790b08e35f383b4c2510c9e93f4a
     user_starred_at: "2025-08-21T13:45:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -32224,15 +32353,25 @@ repositories:
         published_at: "2025-12-24T20:12:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: nguyenjessev/liquor-locker
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ai-ml
+    tags:
+      - home-bar
+      - cocktail-recommendation
+      - self-hosted
+      - lang:ts
     summary: A home bar management app to track your bottles and ingredients, with support for AI-powered cocktail recommendations
     last_synced_sha: 7fe4e4fc41637877f80e31338d40bbb593a1841d
     user_starred_at: "2025-08-21T13:45:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -32255,6 +32394,11 @@ repositories:
         published_at: "2025-11-01T16:28:21Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-12T04:24:42.293Z"
+      prompt_version: v2
   - repo: geldata/gel
     categories:
       - databases
