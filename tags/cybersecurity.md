@@ -7,8 +7,8 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response) | A curated list of tools for incident response | ★ 8.7k | 2024-07-18 |
-| [usestrix/strix](https://github.com/usestrix/strix) | Open-source AI agents for penetration testing | `Python` ★ 19k | 2026-01-10 |
-| [SpecterOps/BloodHound](https://github.com/SpecterOps/BloodHound) | Six Degrees of Domain Admin | `Go` ★ 2.7k | 2026-01-11 |
+| [usestrix/strix](https://github.com/usestrix/strix) | Open-source AI agents for penetration testing | `Python` ★ 19.1k | 2026-01-12 |
+| [SpecterOps/BloodHound](https://github.com/SpecterOps/BloodHound) | Six Degrees of Domain Admin | `Go` ★ 2.7k | 2026-01-13 |
 | [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) | 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2024 | `TypeScript` ★ 20.5k | 2025-06-28 |
 | [CANBus-Triple/CANBus-Triple](https://github.com/CANBus-Triple/CANBus-Triple) | CANBus Triple – The car hacking platform | `C` ★ 348 | 2019-11-11 |
 | [cipher387/osint_stuff_tool_collection](https://github.com/cipher387/osint_stuff_tool_collection) | A collection of several hundred online tools for OSINT | `HTML` ★ 7.4k | 2025-07-16 |

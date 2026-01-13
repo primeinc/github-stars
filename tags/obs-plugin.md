@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [YorVeX/xObsAsyncImageSource](https://github.com/YorVeX/xObsAsyncImageSource) | OBS plugin providing an image source that loads images asynchronously (causing a lot less lag on load). | `C#` ★ 20 | 2024-02-07 |
-| [dev47apps/droidcam-obs-plugin](https://github.com/dev47apps/droidcam-obs-plugin) | Droid Cam OBS Source | `C++` ★ 643 | 2026-01-09 |
+| [dev47apps/droidcam-obs-plugin](https://github.com/dev47apps/droidcam-obs-plugin) | Droid Cam OBS Source | `C++` ★ 642 | 2026-01-09 |
 | [Bennik2000/BetterProjectors](https://github.com/Bennik2000/BetterProjectors) | This plugin for OBS Studio provides dockable projectors for scenes and sources | `C++` ★ 7 | 2023-04-19 |
 | [exeldro/obs-move-transition](https://github.com/exeldro/obs-move-transition) | Move transition for OBS Studio | `C` ★ 828 | 2025-12-26 |
 | [exeldro/obs-source-clone](https://github.com/exeldro/obs-source-clone) | No description provided | `CMake` ★ 172 | 2025-12-06 |

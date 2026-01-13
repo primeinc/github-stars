@@ -7,8 +7,8 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 7.6k | 2025-12-17 |
-| [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels | `Python` ★ 9.9k | 2026-01-04 |
-| [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels from all over the world | `TypeScript` ★ 109.2k | 2026-01-12 |
+| [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels | `Python` ★ 10.3k | 2026-01-04 |
+| [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels from all over the world | `TypeScript` ★ 109.4k | 2026-01-13 |
 | [Stremio/stremio-web](https://github.com/Stremio/stremio-web) | Stremio - Freedom to Stream | `JavaScript` ★ 8.9k | 2026-01-11 |
 | [leadedge/SpoutVideoPlayer](https://github.com/leadedge/SpoutVideoPlayer) | An Openframeworks video player for Spout and NDI output | `C++` ★ 21 | 2024-03-04 |
 | [featherbear/ndi-streamer](https://github.com/featherbear/ndi-streamer) | Cross-platform display capture over NDI. Barebones version of Scan Converter made as an alternative to obs-ndi on Linux | `C++` ★ 31 | 2024-07-08 |

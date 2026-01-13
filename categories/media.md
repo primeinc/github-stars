@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [awesome-jellyfin/awesome-jellyfin](https://github.com/awesome-jellyfin/awesome-jellyfin) | A Collection of Awesome Jellyfin Plugins, Themes, Guides and More! | `Shell` ★ 6k | 2026-01-03 |
+| [awesome-jellyfin/awesome-jellyfin](https://github.com/awesome-jellyfin/awesome-jellyfin) | A Collection of Awesome Jellyfin Plugins, Themes, Guides and More! | `Shell` ★ 6k | 2026-01-12 |
 | [astrofox-io/astrofox](https://github.com/astrofox-io/astrofox) | Astrofox is a motion graphics program that lets you turn audio into amazing videos. | `JavaScript` ★ 1.9k | 2024-05-27 |
 | [ykhwong/ppt-ndi](https://github.com/ykhwong/ppt-ndi) | A Power Point plugin for the New Tek NDI integration | `JavaScript` ★ 229 | 2023-10-05 |
 | [buresu/ndi-python](https://github.com/buresu/ndi-python) | New Tek NDI Python wrapper | `C++` ★ 179 | 2024-05-31 |
@@ -18,7 +18,7 @@
 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | Clone a voice in 5 seconds to generate arbitrary speech in real-time | `Python` ★ 59.2k | 2025-12-15 |
 | [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | The swiss army knife of lossless video/audio editing | `TypeScript` ★ 37.1k | 2026-01-10 |
 | [tubearchivist/tubearchivist](https://github.com/tubearchivist/tubearchivist) | Your self hosted You Tube media server | `Python` ★ 7.4k | 2026-01-06 |
-| [whatdaybob/sonarr_youtubedl](https://github.com/whatdaybob/sonarr_youtubedl) | A Sonarr companion script to allow the automatic downloading of web series normally not available for Sonarr to search for. Using Youtube-DL it allows you to download your webseries from the list o... | `Python` ★ 138 | 2023-11-27 |
+| [whatdaybob/sonarr_youtubedl](https://github.com/whatdaybob/sonarr_youtubedl) | A Sonarr companion script to allow the automatic downloading of web series normally not available for Sonarr to search for. Using Youtube-DL it allows you to download your webseries from the list o... | `Python` ★ 137 | 2023-11-27 |
 | [dtcooper/raspotify](https://github.com/dtcooper/raspotify) | A Spotify Connect client that mostly Just Works™ | `Shell` ★ 5.1k | 2025-12-02 |
 | [marcopixel/monstercat-visualizer](https://github.com/marcopixel/monstercat-visualizer) | A real time audio visualizer for Rainmeter similar to the ones used in the Monstercat videos. | `Lua` ★ 950 | 2023-06-17 |
 

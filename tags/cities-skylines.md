@@ -10,4 +10,4 @@
 | [Sci-fiBrain/CSUL](https://github.com/Sci-fiBrain/CSUL) | Cities: Skylines II Universal Launcher 天际线2万能启动器 | `C#` ★ 32 | 2024-04-24 |
 | [thardie/Cities2-Mods](https://github.com/thardie/Cities2-Mods) | No description provided | `C#` ★ 7 | 2023-11-28 |
 | [ST-Apps/CS2-ExtendedRoadUpgrades](https://github.com/ST-Apps/CS2-ExtendedRoadUpgrades) | A mod that enables multiple upgrade options for your roads. | `C#` ★ 37 | 2024-03-30 |
-| [slyh/Cities2-TrafficLightsEnhancement](https://github.com/slyh/Cities2-TrafficLightsEnhancement) | Advanced traffic lights for Cities: Skylines II | `C#` ★ 243 | 2025-11-10 |
+| [slyh/Cities2-TrafficLightsEnhancement](https://github.com/slyh/Cities2-TrafficLightsEnhancement) | Advanced traffic lights for Cities: Skylines II | `C#` ★ 244 | 2025-11-10 |

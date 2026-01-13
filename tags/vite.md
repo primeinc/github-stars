@@ -8,6 +8,6 @@
 |---|---|---|---|
 | [satnaing/shadcn-admin](https://github.com/satnaing/shadcn-admin) | Admin Dashboard UI built with Shadcn and Vite. | `TypeScript` ★ 10.8k | 2025-12-17 |
 | [slidevjs/slidev](https://github.com/slidevjs/slidev) | Presentation Slides for Developers | `TypeScript` ★ 43.6k | 2026-01-12 |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation | `TypeScript` ★ 89k | 2026-01-11 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation | `TypeScript` ★ 89k | 2026-01-12 |
 | [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) | ⚡️ A curated list of awesome things related to Vite.js | `JavaScript` ★ 16.7k | 2025-11-21 |
 | [claudio-silva/claude-artifact-runner](https://github.com/claudio-silva/claude-artifact-runner) | From Claude Artifact to deployable React app — in seconds! | `TypeScript` ★ 490 | 2026-01-08 |

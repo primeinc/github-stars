@@ -1,11 +1,10 @@
 # Tag: ai-framework
 
-*3 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [SuperClaude-Org/SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) | A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies. | `Python` ★ 20k | 2026-01-10 |
-| [agent0ai/agent-zero](https://github.com/agent0ai/agent-zero) | Agent Zero AI framework | `Python` ★ 13.1k | 2026-01-10 |
-| [FlagAI-Open/FlagAI](https://github.com/FlagAI-Open/FlagAI) | Flag AI (Fast LA rge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model. | `Python` ★ 3.9k | 2025-11-11 |
+| [WeChatCV/Stand-In](https://github.com/WeChatCV/Stand-In) | Stand-In is a lightweight, plug-and-play framework for identity-preserving video generation. | `Python` ★ 711 | 2025-12-21 |
+| [llamastack/llama-stack](https://github.com/llamastack/llama-stack) | Composable building blocks to build LLM Apps | `Python` ★ 8.2k | 2026-01-12 |
