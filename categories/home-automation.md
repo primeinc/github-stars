@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [home-assistant/frontend](https://github.com/home-assistant/frontend) | :lollipop: Frontend for Home Assistant | `TypeScript` ★ 5.1k | 2026-01-13 |
+| [home-assistant/frontend](https://github.com/home-assistant/frontend) | :lollipop: Frontend for Home Assistant | `TypeScript` ★ 5.2k | 2026-01-13 |
 | [danielperna84/hass-configurator](https://github.com/danielperna84/hass-configurator) | Configuration UI for Home Assistant | `Python` ★ 329 | 2024-01-13 |
 | [jimz011/homekit-infused](https://github.com/jimz011/homekit-infused) | Homekit Infused 5 2023 | ★ 898 | 2026-01-08 |
 | [PiotrMachowski/lovelace-xiaomi-vacuum-map-card](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card) | This card provides a user-friendly way to fully control map-based vacuums in Home Assistant. Supported brands include Xiaomi (Roborock/Viomi/Dreame/Roidmi/Valetudo/Valetudo RE), Neato, Wyze, Roomba... | `TypeScript` ★ 1.8k | 2025-11-17 |

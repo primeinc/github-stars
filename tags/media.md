@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) | Command-line program to download videos from You Tube.com and other video sites | `Python` ★ 139.4k | 2025-11-26 |
-| [Stremio/stremio-core](https://github.com/Stremio/stremio-core) | ⚛️ The Stremio Core: types, addon system, UI models, core logic | `Rust` ★ 1.8k | 2026-01-12 |
+| [Stremio/stremio-core](https://github.com/Stremio/stremio-core) | ⚛️ The Stremio Core: types, addon system, UI models, core logic | `Rust` ★ 1.8k | 2026-01-13 |
 | [WickyPlays/pip-player](https://github.com/WickyPlays/pip-player) | A simple application to play Pi P with any links that you like. | `TypeScript` ★ 5 | 2025-06-30 |
 | [YorVeX/xObsAsyncImageSource](https://github.com/YorVeX/xObsAsyncImageSource) | OBS plugin providing an image source that loads images asynchronously (causing a lot less lag on load). | `C#` ★ 20 | 2024-02-07 |
 | [Bennik2000/BetterProjectors](https://github.com/Bennik2000/BetterProjectors) | This plugin for OBS Studio provides dockable projectors for scenes and sources | `C++` ★ 7 | 2023-04-19 |

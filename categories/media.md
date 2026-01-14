@@ -11,7 +11,7 @@
 | [ykhwong/ppt-ndi](https://github.com/ykhwong/ppt-ndi) | A Power Point plugin for the New Tek NDI integration | `JavaScript` ★ 229 | 2023-10-05 |
 | [buresu/ndi-python](https://github.com/buresu/ndi-python) | New Tek NDI Python wrapper | `C++` ★ 179 | 2024-05-31 |
 | [DistroAV/DistroAV](https://github.com/DistroAV/DistroAV) | Distro AV (formerly OBS-NDI): NDI integration for OBS Studio | `C++` ★ 4.1k | 2026-01-01 |
-| [CESNET/UltraGrid](https://github.com/CESNET/UltraGrid) | Ultra Grid low-latency audio and video network transmission system | `C` ★ 583 | 2026-01-09 |
+| [CESNET/UltraGrid](https://github.com/CESNET/UltraGrid) | Ultra Grid low-latency audio and video network transmission system | `C` ★ 583 | 2026-01-13 |
 | [nyavramov/loopifi](https://github.com/nyavramov/loopifi) | Source for loopifi.com. Find and make smooth loops from videos! Create and download smoothly looping gifs and webms from youtube and other video streaming sites, or upload your own! | `Python` ★ 32 | 2022-12-08 |
 | [nylonee/watchlistarr](https://github.com/nylonee/watchlistarr) | Customizable sync of Plex Watchlist to Sonarr/Radarr | `Scala` ★ 348 | 2025-11-08 |
 | [TheCactusVert/mpv-sponsorblock](https://github.com/TheCactusVert/mpv-sponsorblock) | MPV plugin that allow you to skip sponsors while watching You Tube videos | `Rust` ★ 70 | 2024-08-26 |
