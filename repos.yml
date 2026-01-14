@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-14T04:17:05.714Z"
+  manifest_updated_at: "2026-01-14T04:17:23.382Z"
   total_repos: 1962
   generator_version: v1.0.0
   github_user: primeinc
@@ -82373,13 +82373,20 @@ repositories:
       prompt_version: v2
   - repo: Nano-Collective/nanocoder
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cli-tools
+      - dev-tools
+    tags:
+      - ai-agents
+      - coding-assistant
+      - local-first
+      - terminal
+      - lang:ts
     summary: A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒
     last_synced_sha: 77fbe60505f77568ed17e3f8343370866ac8e211
     user_starred_at: "2026-01-13T21:07:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -82407,15 +82414,25 @@ repositories:
         published_at: "2026-01-07T22:47:57Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-14T04:17:23.382Z"
+      prompt_version: v2
   - repo: 1rgs/nanocode
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - minimal
+      - lightweight
+      - single-file
+      - lang:python
     summary: Minimal Claude Code alternative. Single Python file, zero dependencies, ~250 lines.
     last_synced_sha: 8561efc79ac823b7021540a80c01f8834bccd223
     user_starred_at: "2026-01-13T14:11:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -82432,3 +82449,8 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-14T04:17:23.381Z"
+      prompt_version: v2
