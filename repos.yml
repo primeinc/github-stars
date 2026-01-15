@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-15T04:12:05.175Z"
+  manifest_updated_at: "2026-01-15T04:12:27.393Z"
   total_repos: 1983
   generator_version: v1.0.0
   github_user: primeinc
@@ -82665,13 +82665,17 @@ repositories:
       mirror_url: null
   - repo: parcadei/llm-tldr
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - token-savings
+      - dependency-analysis
+      - lang:python
     summary: 95% token savings. 155x faster queries. 16 languages. LLMs can't read your entire codebase. TLDR extracts structure, traces dependencies, and gives them exactly what they need.
     last_synced_sha: 8a9637050ecf47aa42e62dbf57819e6731b73b39
     user_starred_at: "2026-01-14T07:30:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -82688,15 +82692,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.393Z"
+      prompt_version: v2
   - repo: nibzard/awesome-agentic-patterns
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - awesome-list
+      - ai-patterns
+      - lang:python
     summary: A curated catalogue of awesome agentic AI patterns
     last_synced_sha: fa203f6039be428fa45d789c44ce71f2fdf682fb
     user_starred_at: "2026-01-14T07:29:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -82713,15 +82726,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.393Z"
+      prompt_version: v2
   - repo: memvid/awesome-memvid
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - awesome-list
+      - curated-resources
     summary: A curated list of awesome resources related to Memvid
     last_synced_sha: 8636c3aac72e6f9b7990a4860480f5642c691c1e
     user_starred_at: "2026-01-14T07:28:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -82742,15 +82763,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.392Z"
+      prompt_version: v2
   - repo: Azure-Samples/azure-files-samples
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - infrastructure
+    tags:
+      - azure-files
+      - active-directory
+      - powershell
     summary: This repository contains supporting code (Power Shell modules/scripts, ARM templates, etc.) for deploying, configuring, and using Azure Files.
     last_synced_sha: 2921d335964c881b8a7d89426f6566c3b049d30e
     user_starred_at: "2026-01-14T07:25:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -82773,15 +82803,23 @@ repositories:
         published_at: "2024-10-07T20:44:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.392Z"
+      prompt_version: v2
   - repo: MicrosoftDocs/azure-monitor-docs
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - monitoring
+    tags:
+      - azure
+      - cloud-docs
     summary: Open source documentation repository for Azure monitor-related services. All content in this repository is published to learn.microsoft.com.
     last_synced_sha: c63b4cc45499864e70c15a7f31896ed558870093
     user_starred_at: "2026-01-14T07:25:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -82798,15 +82836,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.392Z"
+      prompt_version: v2
   - repo: databasus/databasus
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - databases
+    tags:
+      - database-backup
+      - postgresql
+      - mongodb
+      - mysql
+      - lang:go
     summary: Databases backup tool (Postgre SQL, My SQL, Mongo DB)
     last_synced_sha: 4602dc3f88bc7a3c49261a424592aa8ffb2006b3
     user_starred_at: "2026-01-14T07:24:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -82844,15 +82893,24 @@ repositories:
         published_at: "2026-01-14T15:34:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.392Z"
+      prompt_version: v2
   - repo: steipete/mcporter
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - apis
+    tags:
+      - cli
+      - typescript-api
+      - lang:ts
     summary: Call MCPs via Type Script, masquerading as simple Type Script API. Or package them as cli.
     last_synced_sha: 8cc23a23881d982bf3fb6eb37b6a2f6633c3987d
     user_starred_at: "2026-01-14T07:23:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -82874,15 +82932,25 @@ repositories:
         published_at: "2025-12-29T22:40:52Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.392Z"
+      prompt_version: v2
   - repo: 19h/apeiron
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - desktop-dev
+    tags:
+      - binary-visualizer
+      - entropy
+      - gpu-accelerated
+      - lang:rust
     summary: A GPU- and SIMD-accelerated binary entropy visualizer written in Rust
     last_synced_sha: b11bbde82370bef56b496ec835630d65332b391d
     user_starred_at: "2026-01-14T07:21:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -82901,15 +82969,26 @@ repositories:
         published_at: "2026-01-14T17:11:57Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.392Z"
+      prompt_version: v2
   - repo: Lidarr/Lidarr
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cloud
+    tags:
+      - music
+      - torrent
+      - nzb
+      - automation
+      - lang:csharp
     summary: Looks and smells like Sonarr but made for music.
     last_synced_sha: 12d7d2df15fe2344996bf1ef7c733e21a9799d44
     user_starred_at: "2026-01-14T07:20:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -82932,15 +83011,25 @@ repositories:
         published_at: "2025-11-16T22:40:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.392Z"
+      prompt_version: v2
   - repo: cyanfish/naps2
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - scanner
+      - pdf
+      - ocr
+      - lang:csharp
     summary: Scan documents to PDF and more, as simply as possible.
     last_synced_sha: 3cd6800f936d425d3949589b9966804a039ebd54
     user_starred_at: "2026-01-14T07:19:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -82971,15 +83060,24 @@ repositories:
         published_at: "2025-08-31T05:00:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.392Z"
+      prompt_version: v2
   - repo: obra/superpowers
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - skills-library
+      - claude
+      - automation
     summary: 'Claude Code superpowers: core skills library'
     last_synced_sha: a08f088968d0789a44a4f5f5f7d8d6bbe46a0b44
     user_starred_at: "2026-01-14T07:17:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -82996,15 +83094,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.392Z"
+      prompt_version: v2
   - repo: twitter/the-algorithm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - recommendation-system
+      - algorithm
+      - lang:scala
     summary: Source code for the X Recommendation Algorithm
     last_synced_sha: c54bec0d4e029fe34926ef3258a86ccacc0d0182
     user_starred_at: "2026-01-14T07:16:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Scala
       topics: []
@@ -83021,15 +83128,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.392Z"
+      prompt_version: v2
   - repo: onlook-dev/onlook
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - ai
+      - design-to-code
+      - low-code
+      - react
+      - lang:ts
     summary: The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI
     last_synced_sha: 6962f87aadfeae72498151bdde799041301219cc
     user_starred_at: "2026-01-14T07:16:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -83067,15 +83185,26 @@ repositories:
         published_at: "2025-07-17T18:36:21Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.392Z"
+      prompt_version: v2
   - repo: ranaroussi/yfinance
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - apis
+    tags:
+      - financial-data
+      - market-data
+      - yahoo-finance-api
+      - pandas
+      - lang:python
     summary: Download market data from Yahoo! Finance's API
     last_synced_sha: b0e855e7eca8d50567325ebe33241a20c701b093
     user_starred_at: "2026-01-14T07:16:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -83102,15 +83231,25 @@ repositories:
         published_at: "2025-12-22T18:15:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.392Z"
+      prompt_version: v2
   - repo: suitenumerique/meet
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - video-conferencing
+      - webrtc
+      - react
+      - lang:ts
     summary: Open source video conferencing app powered by Live Kit.
     last_synced_sha: a50aabeaf83755d50b7dd8cf53f6559cc1e0294e
     user_starred_at: "2026-01-14T05:31:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -83137,3 +83276,8 @@ repositories:
         published_at: "2026-01-13T14:46:07Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:27.391Z"
+      prompt_version: v2
