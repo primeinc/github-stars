@@ -17,4 +17,4 @@
 | [Azure-Samples/remote-mcp-functions-dotnet](https://github.com/Azure-Samples/remote-mcp-functions-dotnet) | This is a quickstart template to easily build and deploy a custom remote MCP server to the cloud using Azure functions. You can clone/restore/run on your local machine with debugging, and `azd up` ... | `Bicep` ★ 116 | 2026-01-09 |
 | [microsoftgraph/msgraph-bicep-types](https://github.com/microsoftgraph/msgraph-bicep-types) | Repo contains Microsoft Graph resource types to integrate with bicep templates. | `TypeScript` ★ 75 | 2025-12-10 |
 | [Azure-Samples/azd-starter-bicep](https://github.com/Azure-Samples/azd-starter-bicep) | Starter template with Bicep as infrastructure provider for Azure Developer CLI (azd). | `Bicep` ★ 34 | 2025-06-02 |
-| [Azure/bicep-registry-modules](https://github.com/Azure/bicep-registry-modules) | Bicep registry modules | `Bicep` ★ 692 | 2026-01-13 |
+| [Azure/bicep-registry-modules](https://github.com/Azure/bicep-registry-modules) | Bicep registry modules | `Bicep` ★ 692 | 2026-01-14 |

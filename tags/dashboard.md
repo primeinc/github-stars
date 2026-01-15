@@ -19,5 +19,5 @@
 | [custom-cards/monster-card](https://github.com/custom-cards/monster-card) | ⚠️ DEPRECATED - MOVE TO AUTO-ENTITIES | `JavaScript` ★ 35 | 2019-11-12 |
 | [causefx/iDashboard-PHP](https://github.com/causefx/iDashboard-PHP) | HTPC Dashboard to load website services, written in PHP | `JavaScript` ★ 125 | 2017-04-17 |
 | [allynbauer/statuspanic](https://github.com/allynbauer/statuspanic) | A PHP clone of Panic's status board | `PHP` ★ 469 | 2014-02-02 |
-| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 55.2k | 2026-01-10 |
-| [grafana/grafana](https://github.com/grafana/grafana) | The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, Influx DB, Postgres and many m... | `TypeScript` ★ 71.7k | 2026-01-14 |
+| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 55.3k | 2026-01-10 |
+| [grafana/grafana](https://github.com/grafana/grafana) | The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, Influx DB, Postgres and many m... | `TypeScript` ★ 71.7k | 2026-01-15 |

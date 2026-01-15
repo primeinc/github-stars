@@ -16,6 +16,6 @@
 | [staniel359/muffon](https://github.com/staniel359/muffon) | Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads. | `Vue` ★ 2k | 2026-01-10 |
 | [sunzongzheng/music](https://github.com/sunzongzheng/music) | electron跨平台音乐播放器；可搜网易云、QQ音乐、虾米音乐；支持QQ、微博、Github登录，云歌单; 支持一键导入音乐平台歌单 | `Vue` ★ 2.6k | 2022-12-10 |
 | [massCodeIO/massCode](https://github.com/massCodeIO/massCode) | A free and open source code snippet manager for developers | `Vue` ★ 6.6k | 2026-01-06 |
-| [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) | A complete solution to package and build a ready for distribution Electron app with “auto update” support out of the box | `TypeScript` ★ 14.4k | 2026-01-13 |
-| [electron/electron](https://github.com/electron/electron) | :electron: Build cross-platform desktop apps with Java Script, HTML, and CSS | `C++` ★ 119.7k | 2026-01-14 |
-| [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) | Useful resources for creating apps with Electron | ★ 26.9k | 2025-11-24 |
+| [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) | A complete solution to package and build a ready for distribution Electron app with “auto update” support out of the box | `TypeScript` ★ 14.4k | 2026-01-14 |
+| [electron/electron](https://github.com/electron/electron) | :electron: Build cross-platform desktop apps with Java Script, HTML, and CSS | `C++` ★ 119.7k | 2026-01-15 |
+| [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) | Useful resources for creating apps with Electron | ★ 26.9k | 2026-01-14 |

@@ -8,5 +8,5 @@
 |---|---|---|---|
 | [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 238 | 2025-12-11 |
 | [Azure-Samples/AI-Gateway](https://github.com/Azure-Samples/AI-Gateway) | APIM ❤️ AI - This repo contains experiments on Azure API Management's AI capabilities, integrating with Azure Open AI, AI Foundry, and much more 🚀 . New workshop experience at https://aka.ms/ai-ga... | `Jupyter Notebook` ★ 839 | 2026-01-05 |
-| [langgenius/dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development. | `Python` ★ 125.8k | 2026-01-14 |
-| [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) | MCP Toolbox for Databases is an open source MCP server for databases. | `Go` ★ 12.4k | 2026-01-14 |
+| [langgenius/dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development. | `Python` ★ 126k | 2026-01-15 |
+| [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) | MCP Toolbox for Databases is an open source MCP server for databases. | `Go` ★ 12.4k | 2026-01-15 |

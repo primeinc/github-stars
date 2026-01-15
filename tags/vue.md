@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie) | Mealie is a self hosted recipe manager and meal planner with a Rest API backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add reci... | `Python` ★ 11.2k | 2026-01-13 |
+| [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie) | Mealie is a self hosted recipe manager and meal planner with a Rest API backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add reci... | `Python` ★ 11.2k | 2026-01-14 |
 | [slidevjs/slidev](https://github.com/slidevjs/slidev) | Presentation Slides for Developers | `TypeScript` ★ 43.6k | 2026-01-13 |
 | [alibaba/formily](https://github.com/alibaba/formily) | 📱🚀 🧩 Cross Device & High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3 | `TypeScript` ★ 12.5k | 2025-06-21 |
 | [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) | Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. | `TypeScript` ★ 13.7k | 2026-01-13 |
@@ -17,4 +17,4 @@
 | [sunzongzheng/music](https://github.com/sunzongzheng/music) | electron跨平台音乐播放器；可搜网易云、QQ音乐、虾米音乐；支持QQ、微博、Github登录，云歌单; 支持一键导入音乐平台歌单 | `Vue` ★ 2.6k | 2022-12-10 |
 | [massCodeIO/massCode](https://github.com/massCodeIO/massCode) | A free and open source code snippet manager for developers | `Vue` ★ 6.6k | 2026-01-06 |
 | [latelierco/vue-signalr](https://github.com/latelierco/vue-signalr) | No description provided | `JavaScript` ★ 48 | 2023-07-08 |
-| [vcync/modV](https://github.com/vcync/modV) | modular audio visualisation powered by Java Script | `GLSL` ★ 481 | 2025-12-09 |
+| [vcync/modV](https://github.com/vcync/modV) | modular audio visualisation powered by Java Script | `GLSL` ★ 482 | 2025-12-09 |

@@ -13,7 +13,7 @@
 | [teepluss/laravel-theme](https://github.com/teepluss/laravel-theme) | Theme and asset managing for laravel | `PHP` ★ 543 | 2021-08-26 |
 | [spatie/laravel-mail-preview](https://github.com/spatie/laravel-mail-preview) | A mail driver to quickly preview mail | `PHP` ★ 1.3k | 2025-09-08 |
 | [snowfire/Beautymail](https://github.com/snowfire/Beautymail) | Send beautiful HTML emails with Laravel | `Blade` ★ 1.3k | 2025-03-06 |
-| [SpartnerNL/Laravel-Excel](https://github.com/SpartnerNL/Laravel-Excel) | 🚀 Supercharged Excel exports and imports in Laravel | `PHP` ★ 12.6k | 2025-12-04 |
+| [SpartnerNL/Laravel-Excel](https://github.com/SpartnerNL/Laravel-Excel) | 🚀 Supercharged Excel exports and imports in Laravel | `PHP` ★ 12.6k | 2026-01-14 |
 | [michaeldyrynda/phpstorm-laravel-code-style](https://github.com/michaeldyrynda/phpstorm-laravel-code-style) | Php Storm code style to meet Laravel's contribution guidelines | ★ 293 | 2017-05-16 |
 | [CodeSleeve/laravel-stapler](https://github.com/CodeSleeve/laravel-stapler) | Stapler-based file upload package for the Laravel framework. | `PHP` ★ 558 | 2018-05-12 |
 | [davibennun/laravel-push-notification](https://github.com/davibennun/laravel-push-notification) | Laravel package to enable sending push notifications to devices | `PHP` ★ 1.2k | 2023-05-04 |

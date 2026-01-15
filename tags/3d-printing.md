@@ -11,4 +11,4 @@
 | [waltmoorhouse/FilamentBox](https://github.com/waltmoorhouse/FilamentBox) | Open Source 3D printer filament dehydrator / weight sensor with Octo Print integration. | `C++` ★ 50 | 2019-12-12 |
 | [ChristophSchranz/Octoprint-PrePrintService](https://github.com/ChristophSchranz/Octoprint-PrePrintService) | This service supports your 3D printing workflow by providing auto-rotation and slicing functionality. | `Python` ★ 11 | 2025-06-10 |
 | [TheSpaghettiDetective/OctoPrint-Obico](https://github.com/TheSpaghettiDetective/OctoPrint-Obico) | No description provided | `Python` ★ 141 | 2025-11-16 |
-| [TheSpaghettiDetective/obico-server](https://github.com/TheSpaghettiDetective/obico-server) | Obico is a community-built, open-source smart 3D printing platform used by makers, enthusiasts, and tinkerers around the world. | `Vue` ★ 1.8k | 2026-01-12 |
+| [TheSpaghettiDetective/obico-server](https://github.com/TheSpaghettiDetective/obico-server) | Obico is a community-built, open-source smart 3D printing platform used by makers, enthusiasts, and tinkerers around the world. | `Vue` ★ 1.8k | 2026-01-15 |

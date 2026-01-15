@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [langwatch/langwatch](https://github.com/langwatch/langwatch) | The open LLM Ops platform - Traces, Analytics, Evaluations, Datasets and Prompt Optimization ✨ | `TypeScript` ★ 2.7k | 2026-01-13 |
+| [langwatch/langwatch](https://github.com/langwatch/langwatch) | The open LLM Ops platform - Traces, Analytics, Evaluations, Datasets and Prompt Optimization ✨ | `TypeScript` ★ 2.7k | 2026-01-14 |
 | [starik222/BooruDatasetTagManager](https://github.com/starik222/BooruDatasetTagManager) | No description provided | `C#` ★ 1.8k | 2025-12-11 |

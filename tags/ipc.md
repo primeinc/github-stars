@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [eclipse-iceoryx/iceoryx2](https://github.com/eclipse-iceoryx/iceoryx2) | Eclipse iceoryx2™ - true zero-copy inter-process-communication with a Rust core | `Rust` ★ 2k | 2026-01-09 |
-| [MatsDK/TauRPC](https://github.com/MatsDK/TauRPC) | Typesafe IPC layer for Tauri applications | `Rust` ★ 292 | 2025-09-15 |
+| [eclipse-iceoryx/iceoryx2](https://github.com/eclipse-iceoryx/iceoryx2) | Eclipse iceoryx2™ - true zero-copy inter-process-communication with a Rust core | `Rust` ★ 2k | 2026-01-14 |
+| [MatsDK/TauRPC](https://github.com/MatsDK/TauRPC) | Typesafe IPC layer for Tauri applications | `Rust` ★ 293 | 2025-09-15 |

@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [nicholas-fedor/shoutrrr](https://github.com/nicholas-fedor/shoutrrr) | A notification library for gophers and their furry friends. | `Go` ★ 90 | 2026-01-13 |
+| [nicholas-fedor/shoutrrr](https://github.com/nicholas-fedor/shoutrrr) | A notification library for gophers and their furry friends. | `Go` ★ 90 | 2026-01-14 |
 | [v154c1/libyuri](https://github.com/v154c1/libyuri) | No description provided | `C++` ★ 9 | 2025-07-22 |
 | [marius-sucan/AHK-GDIp-Library-Compilation](https://github.com/marius-sucan/AHK-GDIp-Library-Compilation) | Gdip_All library mega-compilation of user contributions, compatible with AHK v1.1 and AHK v2 | `AutoHotkey` ★ 102 | 2025-03-09 |
 | [hipchat/hipchat-php](https://github.com/hipchat/hipchat-php) | A PHP library for interacting with the Hip Chat REST API. | `PHP` ★ 168 | 2015-05-15 |

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI. | `Rust` ★ 11.1k | 2026-01-14 |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI. | `Rust` ★ 11.3k | 2026-01-14 |
 | [SpriteOvO/AirPodsDesktop](https://github.com/SpriteOvO/AirPodsDesktop) | ☄️ Air Pods desktop user experience enhancement program, for Windows and Linux (WIP) | `C++` ★ 2.4k | 2024-07-12 |
