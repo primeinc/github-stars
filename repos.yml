@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-15T04:12:27.393Z"
+  manifest_updated_at: "2026-01-15T04:12:47.462Z"
   total_repos: 1983
   generator_version: v1.0.0
   github_user: primeinc
@@ -82456,13 +82456,17 @@ repositories:
       prompt_version: v2
   - repo: Kiduzk/google-takeout-viewer
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - google-takeout
+      - viewer
+      - lang:ts
     summary: No description provided
     last_synced_sha: 1ba843c710e313d2fdec54e5c12f5ee317db1504
     user_starred_at: "2026-01-14T20:22:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -82481,15 +82485,25 @@ repositories:
         published_at: "2026-01-11T05:52:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:47.462Z"
+      prompt_version: v2
   - repo: lancedb/lancedb
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - ai-ml
+    tags:
+      - vector-database
+      - semantic-search
+      - similarity-search
+      - lang:rust
     summary: Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
     last_synced_sha: 1840aa7edcdbf0c3f7d3a303000c8f75842a2f55
     user_starred_at: "2026-01-14T18:19:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -82516,15 +82530,25 @@ repositories:
         published_at: "2026-01-02T17:39:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:47.462Z"
+      prompt_version: v2
   - repo: purarue/google_takeout_parser
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - data-science
+    tags:
+      - google-takeout
+      - data-parser
+      - backup
+      - lang:python
     summary: A library/CLI tool to parse data out of your Google Takeout (History, Activity, Youtube, Locations, etc...)
     last_synced_sha: eb89c771e1c3c47250ebdd62c014a5ddded7432d
     user_starred_at: "2026-01-14T09:01:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -82549,15 +82573,27 @@ repositories:
         published_at: "2025-06-20T20:13:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:47.461Z"
+      prompt_version: v2
   - repo: xpipe-io/xpipe
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - networking
+      - system-admin
+    tags:
+      - server-infrastructure
+      - filemanager
+      - ssh
+      - kubernetes
+      - lang:java
     summary: Access your entire server infrastructure from your local desktop
     last_synced_sha: 68e5ea61cca2b5b6598b3acd9652032e75c50c01
     user_starred_at: "2026-01-14T07:34:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -82592,15 +82628,27 @@ repositories:
         published_at: "2026-01-11T10:31:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:47.461Z"
+      prompt_version: v2
   - repo: nextlevelbuilder/ui-ux-pro-max-skill
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+      - web-dev
+    tags:
+      - ai-skills
+      - design-intelligence
+      - ui-design
+      - mobile-ui
+      - lang:python
     summary: An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms
     last_synced_sha: 9149e5f2fa474325991958cff32ab9bea3394402
     user_starred_at: "2026-01-14T07:32:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -82638,15 +82686,25 @@ repositories:
         published_at: "2026-01-14T15:56:59Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:47.461Z"
+      prompt_version: v2
   - repo: aagentah/nw_wrld
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - audiovisual-compositions
+      - event-driven
+      - visuals
+      - lang:js
     summary: nw_wrld is an event-driven sequencer for triggering visuals using web technologies. It enables users to scale up audiovisual compositions for prototyping, demos, exhibitions, and live performances....
     last_synced_sha: 6bb34060e358445ec15832ee16406b74d63a3a5b
     user_starred_at: "2026-01-14T07:32:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -82663,6 +82721,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-15T04:12:47.461Z"
+      prompt_version: v2
   - repo: parcadei/llm-tldr
     categories:
       - ai-ml
