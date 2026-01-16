@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | Play Station 4 emulator for Windows, Linux and mac OS written in C++ | `C++` ★ 28k | 2026-01-14 |
-| [cemu-project/Cemu](https://github.com/cemu-project/Cemu) | Cemu - Wii U emulator | `C++` ★ 8.9k | 2026-01-12 |
-| [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | Complete Open Source and Modular solution for MMO | `C++` ★ 7.9k | 2026-01-14 |
+| [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | Play Station 4 emulator for Windows, Linux and mac OS written in C++ | `C++` ★ 28k | 2026-01-15 |
+| [cemu-project/Cemu](https://github.com/cemu-project/Cemu) | Cemu - Wii U emulator | `C++` ★ 8.9k | 2026-01-16 |
+| [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | Complete Open Source and Modular solution for MMO | `C++` ★ 7.9k | 2026-01-16 |

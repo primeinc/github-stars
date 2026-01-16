@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [github/awesome-copilot](https://github.com/github/awesome-copilot) | Community-contributed instructions, prompts, and configurations to help you make the most of Git Hub Copilot. | `JavaScript` ★ 17.6k | 2026-01-14 |
+| [github/awesome-copilot](https://github.com/github/awesome-copilot) | Community-contributed instructions, prompts, and configurations to help you make the most of Git Hub Copilot. | `JavaScript` ★ 17.7k | 2026-01-15 |
 | [microsoft/Mastering-GitHub-Copilot-for-Paired-Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming) | A multi-module course teaching everything you need to know about using Git Hub Copilot as an AI Peer Programming resource. | `Python` ★ 7.4k | 2025-10-24 |
-| [pnp/copilot-prompts](https://github.com/pnp/copilot-prompts) | Examples of prompts for Microsoft Copilot | ★ 498 | 2026-01-14 |
+| [pnp/copilot-prompts](https://github.com/pnp/copilot-prompts) | Examples of prompts for Microsoft Copilot | ★ 497 | 2026-01-14 |

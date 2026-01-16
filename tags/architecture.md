@@ -1,6 +1,6 @@
 # Tag: architecture
 
-*4 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,5 +8,4 @@
 |---|---|---|---|
 | [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code | `TypeScript` ★ 1.1k | 2026-01-15 |
 | [korfuri/awesome-monorepo](https://github.com/korfuri/awesome-monorepo) | A curated list of awesome Monorepo tools, software and architectures. | ★ 5.7k | 2024-08-16 |
-| [ArcadeAI/blueprint-mcp](https://github.com/ArcadeAI/blueprint-mcp) | Diagram generation for understanding codebases and system architecture using Nano Banana Pro. | `Python` ★ 573 | 2025-11-22 |
-| [mingrammer/diagrams](https://github.com/mingrammer/diagrams) | :art: Diagram as Code for prototyping cloud system architectures | `Python` ★ 41.9k | 2026-01-11 |
+| [ArcadeAI/blueprint-mcp](https://github.com/ArcadeAI/blueprint-mcp) | Diagram generation for understanding codebases and system architecture using Nano Banana Pro. | `Python` ★ 574 | 2025-11-22 |

@@ -1,11 +1,10 @@
 # Tag: state-management
 
-*3 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [MemoriLabs/Memori](https://github.com/MemoriLabs/Memori) | SQL Native Memory Layer for LLMs, AI Agents & Multi-Agent Systems | `Python` ★ 11.7k | 2026-01-12 |
+| [MemoriLabs/Memori](https://github.com/MemoriLabs/Memori) | SQL Native Memory Layer for LLMs, AI Agents & Multi-Agent Systems | `Python` ★ 11.7k | 2026-01-15 |
 | [MotiaDev/motia](https://github.com/MotiaDev/motia) | Multi-Language Backend Framework that unifies APIs, background jobs, queues, workflows, streams, and AI agents with a single core primitive with built-in observability and state management. | `TypeScript` ★ 14.3k | 2026-01-14 |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI Agents | `Python` ★ 45.5k | 2026-01-13 |
