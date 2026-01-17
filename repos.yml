@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-17T04:00:24.230Z"
+  manifest_updated_at: "2026-01-17T04:00:40.050Z"
   total_repos: 800
   generator_version: v1.0.0
   github_user: primeinc
@@ -34058,13 +34058,17 @@ repositories:
       prompt_version: v2
   - repo: zenobi-us/bun-module
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cli-tools
+    tags:
+      - shell-scripts
+      - automation
+      - lang:sh
     summary: No description provided
     last_synced_sha: 833774863ca31d45ebe50bd7059fbffc63787c52
     user_starred_at: "2026-01-16T04:20:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -34081,15 +34085,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-17T04:00:40.050Z"
+      prompt_version: v2
   - repo: saturn-abhishek/awesome-github-profile-readme
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - awesome-list
+      - github-readme
+      - profile-readme
     summary: "\U0001F60E A curated list of awesome Git Hub Profile which updates in real time"
     last_synced_sha: a883ae7c57b7811901a7bf31e72725eed41262a9
     user_starred_at: "2025-09-13T07:48:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -34113,3 +34126,8 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-17T04:00:40.050Z"
+      prompt_version: v2
