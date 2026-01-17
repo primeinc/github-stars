@@ -1,12 +1,10 @@
 # Tag: fluent-ui
 
-*4 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [badsyntax/mailinabox-ui](https://github.com/badsyntax/mailinabox-ui) | Experimental Mail-in-a-Box User Interface built with React, Redux, Type Script & Fluent UI | `TypeScript` ★ 23 | 2023-10-23 |
-| [rocksdanister/weather](https://github.com/rocksdanister/weather) | Windows native weather app powered by Direct X12 animations | `C#` ★ 672 | 2025-01-14 |
-| [zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) | A fluent design widgets library based on C++ Qt/Py Qt/Py Side. Make Qt Great Again. | `Python` ★ 7.6k | 2026-01-11 |
-| [garethcheyne/PCF-FluentUi-AutoComplete-Boilerplate](https://github.com/garethcheyne/PCF-FluentUi-AutoComplete-Boilerplate) | No description provided | `TypeScript` ★ 12 | 2025-07-26 |
+| [rocksdanister/weather](https://github.com/rocksdanister/weather) | Windows native weather app powered by Direct X12 animations | `C#` ★ 673 | 2025-01-14 |

@@ -1,6 +1,6 @@
 # Tag: typescript
 
-*10 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
@@ -9,10 +9,5 @@
 | [rohit-gohri/redocusaurus](https://github.com/rohit-gohri/redocusaurus) | Open API for Docusaurus with Redoc | `TypeScript` ★ 732 | 2026-01-13 |
 | [primeinc/turborepo-nextjs](https://github.com/primeinc/turborepo-nextjs) | A production-ready Next.js 15 monorepo with React 19, Type Script, t RPC, and Prisma. | `TypeScript` ★ 1 | 2025-11-21 |
 | [JoshuaKGoldberg/TypeStat](https://github.com/JoshuaKGoldberg/TypeStat) | Converts Java Script to Type Script and Type Script to better Type Script. 🧫 | `TypeScript` ★ 2.2k | 2026-01-15 |
-| [DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) | The repository for high quality Type Script type definitions. | `TypeScript` ★ 50.8k | 2026-01-15 |
+| [DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) | The repository for high quality Type Script type definitions. | `TypeScript` ★ 50.8k | 2026-01-16 |
 | [andredesousa/typescript-best-practices](https://github.com/andredesousa/typescript-best-practices) | This is a guideline of best practices that you can apply to your Type Script project. | ★ 177 | 2021-05-03 |
-| [context-labs/uwu](https://github.com/context-labs/uwu) | No description provided | `TypeScript` ★ 939 | 2025-08-23 |
-| [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first. | `TypeScript` ★ 71k | 2026-01-15 |
-| [vibetunnel/vibetunnel](https://github.com/vibetunnel/vibetunnel) | WIP - we're transitioning to the org soon | `TypeScript` ★ 16 | 2025-07-18 |
-| [Nachman-Libermensh/tanstack-form-playground](https://github.com/Nachman-Libermensh/tanstack-form-playground) | No description provided | `TypeScript` ★ 2 | 2025-06-18 |
-| [basementstudio/xmcp](https://github.com/basementstudio/xmcp) | The Type Script MCP framework | `TypeScript` ★ 1.2k | 2026-01-15 |

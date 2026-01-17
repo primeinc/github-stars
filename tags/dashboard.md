@@ -1,6 +1,6 @@
 # Tag: dashboard
 
-*7 repositories*
+*6 repositories*
 
 [← Back to Index](../README.md)
 
@@ -12,4 +12,3 @@
 | [Build5Nines/azd-react-bootstrap-dashboard](https://github.com/Build5Nines/azd-react-bootstrap-dashboard) | A multi-tier app with a dashboard front-end (React + Bootstrap) hosted in Azure Static Web Apps and back-end API (Node.js) hosted in Azure App Service | `Bicep` ★ 1 | 2025-01-02 |
 | [matiasmenares/Nissboard](https://github.com/matiasmenares/Nissboard) | 🚗 Nissan Consult/OBDII Realtime Dashboard | `JavaScript` ★ 53 | 2023-01-05 |
 | [kiqu3z/printer-monitoring-dashboard](https://github.com/kiqu3z/printer-monitoring-dashboard) | um programa que faz a monitoria via SMNP das impressoras de sem a necessidade de configurar um Zabbix ou Grafana. | `HTML` ★ 2 | 2024-06-03 |
-| [pablotanner/RealtorRocket](https://github.com/pablotanner/RealtorRocket) | Real Estate Management Software | `JavaScript` ★ 22 | 2024-09-04 |
