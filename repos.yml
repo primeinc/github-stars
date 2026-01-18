@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-18T04:33:03.858Z"
+  manifest_updated_at: "2026-01-18T04:33:22.762Z"
   total_repos: 1991
   generator_version: v1.0.0
   github_user: primeinc
@@ -44712,13 +44712,18 @@ repositories:
       mirror_url: null
   - repo: samanhappy/mcphub
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - apis
+    tags:
+      - mcp
+      - api-routing
+      - mcp-gateway
+      - lang:ts
     summary: A unified hub for centrally managing and dynamically orchestrating multiple MCP servers/APIs into separate endpoints with flexible routing strategies
     last_synced_sha: 1f6e26f210c9eca776bb0e97993c10a7ab767e20
     user_starred_at: "2025-05-25T17:03:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44742,15 +44747,25 @@ repositories:
         published_at: "2026-01-14T11:18:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.762Z"
+      prompt_version: v2
   - repo: athapong/aio-mcp
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - devops
+    tags:
+      - mcp-server
+      - ai-integration
+      - multi-service
+      - lang:go
     summary: "\U0001F680 All-in-one MCP server with AI search, RAG, and multi-service integrations (Git Lab/Jira/Confluence/You Tube) for AI-enhanced development workflows. Folk from https://github.com/nguyenvanduocit/a..."
     last_synced_sha: 9363f6adb7f4d2f9bcd033161a13b8c19d718781
     user_starred_at: "2025-05-25T17:03:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -44769,15 +44784,25 @@ repositories:
         published_at: "2025-05-20T08:26:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.762Z"
+      prompt_version: v2
   - repo: SaM-92/mcp_autogen_sse_stdio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - autogen
+      - model-context-protocol
+      - llm
+      - lang:python
     summary: This repository demonstrates how to use Auto Gen to integrate local and remote MCP (Model Context Protocol) servers. It showcases a local math tool (math_server.py) using Stdio and a remote Apify t...
     last_synced_sha: e5a3ff9902751410ac1c2a8b3570164b928eb29a
     user_starred_at: "2025-05-25T16:31:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -44802,15 +44827,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.762Z"
+      prompt_version: v2
   - repo: 21st-dev/magic-mcp
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - frontend-development
+      - mcp
+      - lang:ts
     summary: It's like v0 but in your Cursor/Wind Surf/Cline. 21st dev Magic MCP server for working with your frontend like Magic
     last_synced_sha: d233a903955e4efbc2750ce5a547df70e8b5edaf
     user_starred_at: "2025-05-25T16:26:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -44827,15 +44861,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.762Z"
+      prompt_version: v2
   - repo: claudio-silva/claude-artifact-runner
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - react
+      - tailwind
+      - vite
+      - lang:ts
+      - shadcn-ui
     summary: From Claude Artifact to deployable React app — in seconds!
     last_synced_sha: 024eca0f3f93484f1ca29d91f4d9ff89ee3f3569
     user_starred_at: "2025-05-25T08:21:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44862,15 +44907,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.762Z"
+      prompt_version: v2
   - repo: milistu/anthropic-parallel-calling
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - automation
+    tags:
+      - parallel-processing
+      - api
+      - lang:python
+      - cost-optimization
     summary: Faster and cheaper! parallel processing of Anthropic API requests, optimizing for speed, cost-efficiency, and rate limit compliance.
     last_synced_sha: 3f2d312076a276da0341a074b0f12f36b1e07cda
     user_starred_at: "2025-05-24T22:38:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -44893,15 +44948,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.762Z"
+      prompt_version: v2
   - repo: ZitaoTech/HackberryPiCM5
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - ui-libraries
+    tags:
+      - raspberry-pi
+      - linux
+      - tft-display
+      - custom-hardware
     summary: An ultra portable handheld Linux device using Raspberry CM5 unit as Core with 4" 720X720 TFT Touch display and the original blackberry keyboard
     last_synced_sha: 479b852055ee31c6611b50ff1d67851e9b29ee4a
     user_starred_at: "2025-05-23T20:13:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -44920,15 +44985,24 @@ repositories:
         published_at: "2025-07-05T15:58:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.762Z"
+      prompt_version: v2
   - repo: microsoft/Microsoft-Win32-Content-Prep-Tool
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - intune
+      - win32
+      - tooling
     summary: A tool to wrap Win32 App and then it can be uploaded to Intune
     last_synced_sha: 1d6cfcbdf8c28edc596337031f74df951f38f718
     user_starred_at: "2025-05-23T12:26:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -44947,15 +45021,24 @@ repositories:
         published_at: "2025-08-13T21:30:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.762Z"
+      prompt_version: v2
   - repo: anthropics/claude-code-action
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - claude
+      - ai-tooling
+      - lang:ts
     summary: No description provided
     last_synced_sha: f3c892ca8d9fbe8972d61bfe7eb85e349a2c645f
     user_starred_at: "2025-05-20T23:15:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -44974,15 +45057,26 @@ repositories:
         published_at: "2025-08-26T17:01:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.762Z"
+      prompt_version: v2
   - repo: Blaizzy/mlx-vlm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - vision-language-model
+      - apple-silicon
+      - llm
+      - vision-transformer
+      - lang:python
     summary: MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.
     last_synced_sha: 58122703b0bba7c574d23c9c751f01cf60485d4f
     user_starred_at: "2025-05-20T22:52:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -45014,15 +45108,25 @@ repositories:
         published_at: "2025-12-03T21:47:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.762Z"
+      prompt_version: v2
   - repo: datajuicer/data-juicer
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - data-processing
+      - large-language-models
+      - foundation-models
+      - lang:python
     summary: "Data processing for and with foundation models! \U0001F34E \U0001F34B \U0001F33D ➡️ ➡️\U0001F378 \U0001F379 \U0001F377"
     last_synced_sha: 6fcef06620d210cb182cc076012612b725feeeaa
     user_starred_at: "2025-05-20T19:30:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -45055,15 +45159,26 @@ repositories:
         published_at: "2026-01-13T06:36:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.762Z"
+      prompt_version: v2
   - repo: Fanghua-Yu/SUPIR
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-restoration
+      - deep-learning
+      - stable-diffusion
+      - super-resolution
+      - lang:python
     summary: SUPIR aims at developing Practical Algorithms for Photo-Realistic Image Restoration In the Wild. Our new online demo is also released at suppixel.ai.
     last_synced_sha: bda91af2000042f8bedfec8897d92917e67c1d88
     user_starred_at: "2025-05-20T19:29:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -45089,15 +45204,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.762Z"
+      prompt_version: v2
   - repo: Azure/arc_jumpstart_docs
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - documentation
+    tags:
+      - azure
+      - kubernetes
+      - adaptive-cloud
+      - lang:python
     summary: A public repo for hosting the Arc Jumpstart docs
     last_synced_sha: 71a945c619f78acb441c6470d76a9b58347169fe
     user_starred_at: "2025-05-19T05:05:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -45124,15 +45249,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.762Z"
+      prompt_version: v2
   - repo: d2phap/ImageGlass
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - image-viewer
+      - photo-viewer
+      - winforms
+      - lang:csharp
     summary: "\U0001F3DE A lightweight, versatile image viewer"
     last_synced_sha: 87f94ad4012b8698e3a8e6487838e0431d404cb4
     user_starred_at: "2025-05-16T16:45:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -45169,15 +45304,25 @@ repositories:
         published_at: "2026-01-02T11:22:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.762Z"
+      prompt_version: v2
   - repo: Wan-Video/Wan2.1
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-generative-models
+      - aigc
+      - videogeneration
+      - lang:python
     summary: 'Wan: Open and Advanced Large-Scale Video Generative Models'
     last_synced_sha: ae487cc653b4a1791fec8201af20d2102a2514f3
     user_starred_at: "2025-05-14T22:14:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -45196,6 +45341,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:33:22.761Z"
+      prompt_version: v2
   - repo: anderspitman/SirTunnel
     categories:
       - system-admin
