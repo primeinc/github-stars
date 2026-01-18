@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-18T04:23:11.755Z"
+  manifest_updated_at: "2026-01-18T04:23:32.233Z"
   total_repos: 1991
   generator_version: v1.0.0
   github_user: primeinc
@@ -59103,13 +59103,17 @@ repositories:
       mirror_url: null
   - repo: aegis72/aegisflow
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - comfyui
+      - workflow
+      - stable-diffusion
     summary: Aegis Flow XL and Aegis Flow 1.5 are Comfy UI workflows designed by a professional for professionals
     last_synced_sha: 559d7bacfef2de17a8fc9b7b808d611b51103748
     user_starred_at: "2023-12-16T19:44:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -59128,15 +59132,24 @@ repositories:
         published_at: "2023-11-16T03:36:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.233Z"
+      prompt_version: v2
   - repo: Bing-su/adetailer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - stable-diffusion
+      - deep-learning
+      - lang:python
     summary: Auto detecting, masking and inpainting with detection model.
     last_synced_sha: 36189cbea735b85fd01e98ac42002b8ce6f0e41d
     user_starred_at: "2023-12-12T07:19:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -59156,15 +59169,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.233Z"
+      prompt_version: v2
   - repo: tobecwb/stable-diffusion-regularization-images
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - stable-diffusion
+      - deep-learning
+      - model-training
     summary: Stable Diffusion Regularization Images in 512px, 768px and 1024px on 1.5, 2.1 and SDXL 1.0 checkpoints
     last_synced_sha: d45f1ea2dfaaff07176f6036dd5c9509ce621807
     user_starred_at: "2023-12-12T07:17:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -59188,15 +59210,24 @@ repositories:
         published_at: "2023-12-19T17:11:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.233Z"
+      prompt_version: v2
   - repo: Mikubill/pixivpy-async
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - data-science
+    tags:
+      - pixiv-api
+      - async
+      - lang:python
     summary: Pure Python 3 Async Pixiv API
     last_synced_sha: ef877db2bd849efe2ea8eac91422b136c181bb66
     user_starred_at: "2023-12-10T18:59:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -59215,15 +59246,24 @@ repositories:
         published_at: "2022-02-20T08:14:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.233Z"
+      prompt_version: v2
   - repo: upbit/pixivpy
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - data-science
+    tags:
+      - pixiv-api
+      - library
+      - lang:python
     summary: Pixiv API for Python
     last_synced_sha: 4f2e9ea7fff6247d9f5bfe5a862e92c5dfe3b6dd
     user_starred_at: "2023-12-10T18:57:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -59245,15 +59285,25 @@ repositories:
         published_at: "2024-03-03T11:04:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.232Z"
+      prompt_version: v2
   - repo: rvion/CushyStudio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - generative-ai
+      - generative-art
+      - live-coding
+      - lang:ts
     summary: "\U0001F6CB The AI and Generative Art platform for everyone"
     last_synced_sha: 142941557b471d65a1819014059798ed9f6535b3
     user_starred_at: "2023-12-09T22:11:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -59276,15 +59326,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.232Z"
+      prompt_version: v2
   - repo: ElliottLester/ComfyUI
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - stable-diffusion
+      - ui
+      - lang:python
     summary: A powerful and modular stable diffusion GUI with a graph/nodes interface.
     last_synced_sha: ac9974e215659115b90acc64313fafd9f6c96656
     user_starred_at: "2023-12-09T19:28:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -59302,15 +59361,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.232Z"
+      prompt_version: v2
   - repo: Stability-AI/generative-models
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - generative-ai
+      - deep-learning
+      - lang:python
     summary: Generative Models by Stability AI
     last_synced_sha: e8cd657656fa5d61688191730d0e03242bf4ed44
     user_starred_at: "2023-12-06T19:54:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -59329,15 +59397,22 @@ repositories:
         published_at: "2023-07-27T08:07:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.232Z"
+      prompt_version: v2
   - repo: Jimmyokok/RentControl
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - mod
+      - lang:csharp
     summary: 'Rent Control Mod for the game Cities: Skyline 2'
     last_synced_sha: e7142840c2d61e6ccc8af82e3ff9b86f7565c8d8
     user_starred_at: "2023-12-04T18:39:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -59356,15 +59431,23 @@ repositories:
         published_at: "2024-02-07T08:03:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.232Z"
+      prompt_version: v2
   - repo: algernon-A/LineToolLite
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - mod
+      - lang:csharp
     summary: 'A Cities: Skylines 2 mod.'
     last_synced_sha: 39b29401825fe8d52f62f9e25df3c128670f2bba
     user_starred_at: "2023-12-04T18:36:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -59384,15 +59467,24 @@ repositories:
         published_at: "2024-01-08T04:10:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.232Z"
+      prompt_version: v2
   - repo: klyte45/CS2ModsRepository
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - mods
+      - resources
+      - repository
     summary: Contains the current version of each mod I did for the Cities Skylines 2
     last_synced_sha: dcefdf9e4afcae8fd70c00c4334a18ee713aa9b2
     user_starred_at: "2023-11-28T01:17:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -59409,15 +59501,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.232Z"
+      prompt_version: v2
   - repo: Cities2Modding/wiki
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - game-dev
+    tags:
+      - modding
+      - wiki
     summary: No description provided
     last_synced_sha: 0120a36ed764c656786c5219b310ead0c91302be
     user_starred_at: "2023-11-28T01:11:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -59434,15 +59534,22 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.232Z"
+      prompt_version: v2
   - repo: Captain-Of-Coit/cs2-vehicle-counter
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - mod
+      - lang:csharp
     summary: No description provided
     last_synced_sha: 9b3679ed99f72de500ecb40483a3ef622eb8b4ba
     user_starred_at: "2023-11-28T01:10:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -59459,15 +59566,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.232Z"
+      prompt_version: v2
   - repo: Captain-Of-Coit/cs2-city-monitor
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - game-dev
+    tags:
+      - game-ui
+      - mod
+      - lang:csharp
     summary: '"City Vitals" but for Cities: Skylines 2'
     last_synced_sha: 4ff59b1edff402446d171bb9b6ff1ced204af784
     user_starred_at: "2023-11-28T01:10:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -59493,15 +59609,24 @@ repositories:
         published_at: "2023-11-14T14:28:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.232Z"
+      prompt_version: v2
   - repo: Captain-Of-Coit/hookui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - game-dev
+    tags:
+      - game-ui
+      - mod
+      - lang:csharp
     summary: 'Some sort of UI framework/loader for Cities: Skylines 2'
     last_synced_sha: d534495910a004d140aac43b669add92d9571b16
     user_starred_at: "2023-11-28T01:08:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -59527,6 +59652,11 @@ repositories:
         published_at: "2023-12-14T17:31:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:23:32.232Z"
+      prompt_version: v2
   - repo: aidenlx/better-fn
     categories:
       - productivity
