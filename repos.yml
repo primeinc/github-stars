@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-18T04:28:44.298Z"
+  manifest_updated_at: "2026-01-18T04:29:05.365Z"
   total_repos: 1991
   generator_version: v1.0.0
   github_user: primeinc
@@ -50912,13 +50912,18 @@ repositories:
       mirror_url: null
   - repo: dechamps/FlexASIO
     categories:
-      - unclassified
-    tags: []
+      - audio
+      - infrastructure
+    tags:
+      - audio-plugin
+      - asio-driver
+      - lang:cpp
+      - wasapi
     summary: A flexible universal ASIO driver that uses the Port Audio sound I/O library. Supports WASAPI (shared and exclusive), KS, Direct Sound and MME.
     last_synced_sha: e75cc72483a4f0a4cb906bda80463b0c4bd6e8d3
     user_starred_at: "2025-01-31T20:29:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -50947,15 +50952,24 @@ repositories:
         published_at: "2024-06-02T11:10:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.365Z"
+      prompt_version: v2
   - repo: v154c1/libyuri
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - embedded
+    tags:
+      - libraries
+      - c
+      - lang:cpp
     summary: No description provided
     last_synced_sha: a5cc7d9d13dcd9c106facac271b15f44c04aa646
     user_starred_at: "2025-01-31T20:12:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -50972,15 +50986,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.365Z"
+      prompt_version: v2
   - repo: ironmansoftware/gallery
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - powershell
+      - scripts
+      - windows
+      - powershell-universal
     summary: Public gallery of modules for Power Shell Universal
     last_synced_sha: 57f89bdd4bb88e48532472ca063cd26c0f15a54e
     user_starred_at: "2025-01-31T16:49:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -51005,15 +51029,25 @@ repositories:
         published_at: "2024-09-05T00:53:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.365Z"
+      prompt_version: v2
   - repo: CodeYan01/media-playlist-source
     categories:
-      - unclassified
-    tags: []
+      - media
+      - embedded
+    tags:
+      - obs
+      - media-playlist
+      - media-source
+      - lang:c
     summary: An OBS Studio plugin that supports media playlists, based on the Media Source
     last_synced_sha: f8d90bddf9b95b65d0ef3fd43a0db7eb5c44ab2b
     user_starred_at: "2025-01-30T07:33:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -51032,15 +51066,24 @@ repositories:
         published_at: "2025-04-13T14:17:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.365Z"
+      prompt_version: v2
   - repo: MorseTheCode/OBS-Scripts
     categories:
-      - unclassified
-    tags: []
+      - media
+      - automation
+    tags:
+      - obs
+      - html
+      - scripts
     summary: My OBS Scripts
     last_synced_sha: 693525d547962538580ba0db4240820843e77c6b
     user_starred_at: "2025-01-30T07:25:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -51057,15 +51100,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.365Z"
+      prompt_version: v2
   - repo: exeldro/obs-media-controls
     categories:
-      - unclassified
-    tags: []
+      - media
+      - productivity
+    tags:
+      - obs
+      - media
+      - cmake
     summary: No description provided
     last_synced_sha: 27b38cebbdfd19f0d7722fe36835e09c72949259
     user_starred_at: "2025-01-30T07:13:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CMake
       topics: []
@@ -51084,15 +51136,24 @@ repositories:
         published_at: "2025-09-23T20:21:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.364Z"
+      prompt_version: v2
   - repo: martymcmodding/qUINT
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - game-dev
+    tags:
+      - shaders
+      - visual-effects
+      - hlsl
     summary: Collection of general-purpose effects for the Re Shade shader injector.
     last_synced_sha: 98fed77b26669202027f575a6d8f590426c21ebd
     user_starred_at: "2025-01-30T00:39:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HLSL
       topics: []
@@ -51109,15 +51170,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.364Z"
+      prompt_version: v2
   - repo: Tomas1337/NDI_FaceTrack
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - media
+    tags:
+      - face-tracking
+      - ndi
+      - lang:python
     summary: No description provided
     last_synced_sha: 571678d0aea29f8e691eb9bbba246077579b62f1
     user_starred_at: "2025-01-28T12:50:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -51134,15 +51204,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.364Z"
+      prompt_version: v2
   - repo: p2sr/discord2ip
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - media
+    tags:
+      - discord
+      - rebroadcasting
+      - voice-channel
+      - lang:java
     summary: A Java program that rebroadcasts a Discord Voice Channel over NDI. Used in the ttv/portal2speedruns setup.
     last_synced_sha: e727a4e6acd83a32757b5e85aa67a44106e53436
     user_starred_at: "2025-01-28T12:50:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics: []
@@ -51159,15 +51239,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.364Z"
+      prompt_version: v2
   - repo: moebiussurfing/ofxNDIHelper
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - game-dev
+    tags:
+      - openframeworks
+      - ndi
+      - lang:cpp
     summary: open Frameworks add-on to fast integrate an NDI Manager with 2x IN + 1x OUT + a Webcam device with a customizable canvas layout.
     last_synced_sha: 2dc53524b047de08eec852357b023dff165a7139
     user_starred_at: "2025-01-28T12:49:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -51188,15 +51277,24 @@ repositories:
         published_at: "2024-02-04T23:33:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.364Z"
+      prompt_version: v2
   - repo: keijiro/Nsmp
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - media
+    tags:
+      - teleprompter
+      - ndi
+      - lang:csharp
     summary: Teleprompter via NDI
     last_synced_sha: e0f62f51d821b5470deaced13b29ac91f3d31c51
     user_starred_at: "2025-01-28T12:47:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -51213,15 +51311,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.364Z"
+      prompt_version: v2
   - repo: ualmarcus/Newtek-cURL
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - ndi
+      - windows
+      - curl
     summary: c URL Commands to control Newtek's NDI Studio Monitor on the Windows platform.
     last_synced_sha: 598568c711a27ab0e8e087fdfbc10c032f5fc0ad
     user_starred_at: "2025-01-28T12:47:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -51238,15 +51345,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.364Z"
+      prompt_version: v2
   - repo: vcync/modV
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - game-dev
+    tags:
+      - audio-visualizer
+      - web-audio
+      - canvas
+      - webgl
     summary: modular audio visualisation powered by Java Script
     last_synced_sha: c606793d54d00f5a56e1121f3593f9585b20623f
     user_starred_at: "2025-01-28T12:46:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: GLSL
       topics:
@@ -51279,15 +51396,24 @@ repositories:
         published_at: "2024-08-02T12:05:20Z"
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.364Z"
+      prompt_version: v2
   - repo: mountaintopsolutions/docker-obs-ndi-ng
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - media
+    tags:
+      - docker
+      - obs
+      - ndi
     summary: Dockerized OBS + NDI plugin Next Generation
     last_synced_sha: 53cadef70232a5c6f902169756e3577fd51b3517
     user_starred_at: "2025-01-28T12:45:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics: []
@@ -51306,15 +51432,25 @@ repositories:
         published_at: "2023-03-21T00:56:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.364Z"
+      prompt_version: v2
   - repo: moschopsuk/ndi-router
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - embedded
+    tags:
+      - video-routers
+      - ndi
+      - blackmagic-design
+      - lang:rust
     summary: NDI router that use the blackmagic videohub protocol
     last_synced_sha: acb981538bc4802a50ec5adaca311bb27110a172
     user_starred_at: "2025-01-28T12:45:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -51336,6 +51472,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:05.364Z"
+      prompt_version: v2
   - repo: leadedge/SpoutVideoPlayer
     categories:
       - desktop-dev
