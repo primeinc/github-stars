@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-18T04:29:24.626Z"
+  manifest_updated_at: "2026-01-18T04:29:43.334Z"
   total_repos: 1991
   generator_version: v1.0.0
   github_user: primeinc
@@ -49957,13 +49957,19 @@ repositories:
       mirror_url: null
   - repo: jaywcjlove/awesome-uikit
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - learning
+    tags:
+      - uikit
+      - frameworks-library
+      - frontend
+      - react
+      - vue
     summary: Collect JS Frameworks, Web components library and Admin Template.
     last_synced_sha: 55f64dae8103a2d95604182484ef11c4cbd60b09
     user_starred_at: "2025-02-13T20:19:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics:
@@ -50000,15 +50006,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.334Z"
+      prompt_version: v2
   - repo: NexusPolytech/NexeFax
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - productivity
+    tags:
+      - fax-server
+      - python
+      - communication
+      - lang:python
     summary: A modern open source e Fax server solution written in Python that allows sending and receiving faxes with Asterisk.
     last_synced_sha: 0e4ba807bdb56f2cf67f865ef027c1c58efd2743
     user_starred_at: "2025-02-13T14:52:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50035,15 +50051,25 @@ repositories:
         published_at: "2023-09-12T20:30:12Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.334Z"
+      prompt_version: v2
   - repo: choushunn/awesome-RK3588
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - learning
+    tags:
+      - rk3588
+      - embedded-system
+      - development
+      - resources
     summary: 'Useful resources for developing with the RK3588. :rocket:'
     last_synced_sha: 6c5741f67e11fd9c0b7cc4c0d125091f70ff5001
     user_starred_at: "2025-02-12T14:58:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -50064,15 +50090,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.334Z"
+      prompt_version: v2
   - repo: maedball/Homeassistant_Siemens_versicharge
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - embedded
+    tags:
+      - home-assistant
+      - iot
+      - automation
     summary: No description provided
     last_synced_sha: 8dd242e8475a158b1b64a6576a1bf4d73275b03f
     user_starred_at: "2025-02-11T22:14:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -50089,15 +50124,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.334Z"
+      prompt_version: v2
   - repo: achgut/Modbus_Versicharge
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - embedded
+    tags:
+      - modbus
+      - python
+      - iot
+      - lang:python
     summary: No description provided
     last_synced_sha: 33ec14906a7a314db7ee236bb237ebc278598bb2
     user_starred_at: "2025-02-11T22:14:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -50114,15 +50159,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.334Z"
+      prompt_version: v2
   - repo: shraddha-gawde/reachInbox-assignment
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - automation
+    tags:
+      - email-automation
+      - ai
+      - task-scheduler
+      - google-api
+      - lang:js
     summary: The assignment is to build a tool that will parse and check the emails in a Google and Outlook email ID, and respond to the e-mails based on the context using AI. Use Bull MQ as the tasks scheduler.
     last_synced_sha: 5721d67f3729689648fa5cd8b1e7784dcac4c470
     user_starred_at: "2025-02-11T14:50:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -50150,15 +50206,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.334Z"
+      prompt_version: v2
   - repo: faris771/Email_Spam_Filter
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+    tags:
+      - spam-detection
+      - mlp
+      - knn
+      - lang:python
     summary: This project compares K-Nearest Neighbors (K-NN) and Multilayer Perceptron (MLP) models for email spam detection. The goal is to predict spam emails using these models and evaluate their performanc...
     last_synced_sha: 05f8af6c428717223d081d72a22bc29328281932
     user_starred_at: "2025-02-11T14:47:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50177,15 +50243,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.334Z"
+      prompt_version: v2
   - repo: deskbtm/nitmgpt
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ai-ml
+    tags:
+      - flutter
+      - ai
+      - chatgpt
+      - mobile-app
+      - lang:dart
     summary: nitmgpt (Notification-in-the-middle GPT). Filter ads or spam notifications via Chat GPT.
     last_synced_sha: 26237fdd4c2940c45c7d16a8a09869ca8cf7a0f3
     user_starred_at: "2025-02-11T14:46:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Dart
@@ -50211,15 +50288,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.334Z"
+      prompt_version: v2
   - repo: huggingface/open-r1
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deep-learning
+      - open-reproduction
+      - lang:python
     summary: Fully open reproduction of Deep Seek-R1
     last_synced_sha: 0e06249d1caa3c1d27a93e590929531291c9c493
     user_starred_at: "2025-02-07T02:13:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -50236,15 +50322,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.334Z"
+      prompt_version: v2
   - repo: dorssel/usbipd-win
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - usb
+      - windows
+      - wsl2
+      - networking
+      - lang:csharp
     summary: Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2.
     last_synced_sha: d61801f679fd0e253f6652a27fb26e05296045b3
     user_starred_at: "2025-02-05T16:42:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -50271,15 +50368,25 @@ repositories:
         published_at: "2025-10-11T09:40:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.334Z"
+      prompt_version: v2
   - repo: 0x888e/certs
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - certificates
+      - routers
+      - security
+      - lang:python
     summary: Extracts certificates from BGW210 and BGW320 routers
     last_synced_sha: 8f6ed32e406ed7ed6c078331580b591682e93834
     user_starred_at: "2025-02-05T00:39:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -50296,15 +50403,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.333Z"
+      prompt_version: v2
   - repo: unifi-utilities/unifios-utilities
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - unifi
+      - utilities
+      - network-management
+      - lang:shell
     summary: A collection of enhancements for Unifi OS based devices
     last_synced_sha: ea3cdf9d13257aa46883ec2f510c4346bea28de6
     user_starred_at: "2025-02-05T00:12:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -50336,15 +50453,23 @@ repositories:
         published_at: "2023-01-30T23:49:54Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.333Z"
+      prompt_version: v2
   - repo: up-n-atom/8311
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+    tags:
+      - website
+      - html
+      - frontend
     summary: Website for the 8311 discord channel
     last_synced_sha: 009b151daca9df97b8cce152ca761507b1011dcd
     user_starred_at: "2025-02-05T00:03:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -50361,15 +50486,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.333Z"
+      prompt_version: v2
   - repo: zilliztech/attu
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - ui-libraries
+    tags:
+      - vector-database
+      - milvus
+      - gui
     summary: The Best GUI for Milvus
     last_synced_sha: efa23c30f97cc23040796300a5f5c324df4291d6
     user_starred_at: "2025-02-01T07:41:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -50391,15 +50525,26 @@ repositories:
         published_at: "2025-12-24T06:54:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.333Z"
+      prompt_version: v2
   - repo: huggingface/pytorch-image-models
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - pytorch
+      - image-classification
+      - pretrained-models
+      - vision
+      - lang:python
     summary: The largest collection of Py Torch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- Res Net, Res Ne XT, Efficient Net, NFNet, Vision Transform...
     last_synced_sha: 3c6f79df77be19846112b9a1025b0691877b5efa
     user_starred_at: "2025-02-01T07:08:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50438,6 +50583,11 @@ repositories:
         published_at: "2026-01-07T00:28:47Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:29:43.333Z"
+      prompt_version: v2
   - repo: KaiyangZhou/deep-person-reid
     categories:
       - ai-ml
