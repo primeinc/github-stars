@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-18T04:37:56.979Z"
+  manifest_updated_at: "2026-01-18T04:38:17.221Z"
   total_repos: 1991
   generator_version: v1.0.0
   github_user: primeinc
@@ -37916,13 +37916,18 @@ repositories:
       mirror_url: null
   - repo: isqld/intune-printer-deployment-script
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - intune
+      - printer-deployment
+      - network-printer
+      - lang:powershell
     summary: This repository contains a powershell scripts to deploy an TCP/IP local network printer using in Tune
     last_synced_sha: 07c14c565e3809162b5533d7128640bf91684f99
     user_starred_at: "2025-07-28T17:42:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -37939,15 +37944,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.221Z"
+      prompt_version: v2
   - repo: MSEndpointMgr/Intune
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - intune
+      - microsoft
+      - automation
+      - lang:powershell
     summary: Microsoft Intune scripts
     last_synced_sha: c6e3527d608298ecf7763fdd5184cbd757cca398
     user_starred_at: "2025-07-28T17:41:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -37964,15 +37979,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.221Z"
+      prompt_version: v2
   - repo: Xanashi/Icaros
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - system-admin
+    tags:
+      - shell-extension
+      - windows
+      - properties
+      - file-thumbnails
     summary: Official issue tracker and download location for Icaros Shell Extensions
     last_synced_sha: 87ff8d065e14f3e6dae856bc9b502df8aa556a91
     user_starred_at: "2025-07-27T20:56:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -37997,15 +38022,25 @@ repositories:
         published_at: "2025-03-02T12:05:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.221Z"
+      prompt_version: v2
   - repo: Stremio/stremio-core
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - desktop-dev
+    tags:
+      - multimedia
+      - addon-system
+      - framework
+      - lang:rust
     summary: '⚛️ The Stremio Core: types, addon system, UI models, core logic'
     last_synced_sha: 5e344d3036f3e1f89280c189d19a110c5a7404be
     user_starred_at: "2025-07-27T20:50:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -38024,15 +38059,26 @@ repositories:
         published_at: "2025-11-28T13:35:45Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.221Z"
+      prompt_version: v2
   - repo: harmonoid/harmonoid
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - mobile-dev
+    tags:
+      - music-player
+      - flutter
+      - media-player
+      - cross-platform
+      - lang:dart
     summary: "\U0001F3B5 Plays & manages your music library. Looks beautiful & juicy. Available for mac OS, Windows, GNU/Linux & Android."
     last_synced_sha: df068058553ecf4fa905fb2db063ef0f146c30d8
     user_starred_at: "2025-07-27T20:49:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -38068,15 +38114,26 @@ repositories:
         published_at: "2026-01-15T10:19:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.221Z"
+      prompt_version: v2
   - repo: TinosNitso/mpv-scripts
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - mpv
+      - lua
+      - media
+      - scripts
+      - lang:lua
     summary: For mpv & SMPlayer. Windows, Linux, Mac OS & Android. You Tube, MP4, MP3, JPEG, etc. Multi-stereo speed randomization & tri-color clocks (aspeed.lua); cropping, start/end limits & aspect randomizat...
     last_synced_sha: a3f0ec6e388f5d9d81ee06129718e6cb69baa6dc
     user_starred_at: "2025-07-27T20:46:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics:
@@ -38102,15 +38159,24 @@ repositories:
         published_at: "2024-08-14T17:52:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.220Z"
+      prompt_version: v2
   - repo: microsoft/FaceSynthetics
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - face-synthetics
+      - datasets
+      - machine-learning
     summary: Face synthetics datasets
     last_synced_sha: 50797c97ea0784581a0ffe4007e9e1aa75629323
     user_starred_at: "2025-07-22T22:55:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -38127,15 +38193,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.220Z"
+      prompt_version: v2
   - repo: blakeblackshear/frigate
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - ai-ml
+    tags:
+      - object-detection
+      - home-automation
+      - camera
+      - realtime
+      - lang:ts
     summary: NVR with realtime local object detection for IP cameras
     last_synced_sha: cfeb86646f9f18d55617de5e2527fb57c29a7f32
     user_starred_at: "2025-07-21T21:15:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38166,15 +38243,26 @@ repositories:
         published_at: "2025-12-06T18:15:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.220Z"
+      prompt_version: v2
   - repo: ChanChiChoi/awesome-Face_Recognition
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - face-recognition
+      - ai
+      - face-detection
+      - face-identification
+      - resources
     summary: papers about Face Detection; Face Alignment; Face Recognition && Face Identification && Face Verification && Face Representation; Face Reconstruction; Face Tracking; Face Super-Resolution && Face D...
     last_synced_sha: f88f5982e1edcc7d7d3fb2045290a95f55a97b0d
     user_starred_at: "2025-07-21T11:12:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -38200,15 +38288,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.220Z"
+      prompt_version: v2
   - repo: facefusion/facefusion
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - face-manipulation
+      - deepfake
+      - ai
+      - face-swap
+      - lang:python
     summary: Industry leading face manipulation platform
     last_synced_sha: a7f3de3dbc503bd3d6d3ca13d0b303db450e270a
     user_starred_at: "2025-07-21T11:09:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -38234,15 +38333,25 @@ repositories:
         published_at: "2025-12-13T07:59:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.220Z"
+      prompt_version: v2
   - repo: pdfforge/PDFCreator
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - pdf
+      - file-conversion
+      - document-management
+      - lang:csharp
     summary: PDFCreator - The free PDF Converter
     last_synced_sha: 806c723b24124a78f603b3023c25981e4970c7af
     user_starred_at: "2025-07-20T17:07:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -38259,15 +38368,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.220Z"
+      prompt_version: v2
   - repo: musistudio/claude-code-router
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - infrastructure
+    tags:
+      - ai
+      - coding-infrastructure
+      - development-tools
+      - lang:ts
     summary: Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.
     last_synced_sha: c73fe0d49d7cb0e8b8c7d0b1677c170b92d2a2ae
     user_starred_at: "2025-07-17T22:03:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -38284,15 +38403,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.220Z"
+      prompt_version: v2
   - repo: strapi/strapi
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - apis
+    tags:
+      - headless-cms
+      - api
+      - content-management
+      - lang:ts
+      - cms
     summary: "\U0001F680 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first."
     last_synced_sha: 2f59ed58b4a8aa48510bb243dd700591fae99973
     user_starred_at: "2025-07-17T22:01:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38331,15 +38461,26 @@ repositories:
         published_at: "2026-01-14T11:12:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.220Z"
+      prompt_version: v2
   - repo: untitleduico/react
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - frameworks
+    tags:
+      - design-system
+      - tailwindcss
+      - react-aria
+      - lang:ts
+      - components
     summary: Untitled UI React is the world’s largest collection of open-source React components built with Tailwind CSS and React Aria. Just copy, paste, and build.
     last_synced_sha: 67903629dd7a785fd0d0efa9df9fb9b7f92b0be4
     user_starred_at: "2025-07-17T21:55:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38363,15 +38504,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.220Z"
+      prompt_version: v2
   - repo: JJarv04/ScreenConnect-IntuneWin32
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - system-admin
+    tags:
+      - intune
+      - script
+      - deployment
+      - lang:powershell
     summary: 'An fork of James Vincents: ''How to Deploy Screen Connect using Intune'' scripts.'
     last_synced_sha: d92a5c29663aba0fc75a87e7f8aedff32f89eb15
     user_starred_at: "2025-07-17T02:24:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -38388,6 +38539,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:17.220Z"
+      prompt_version: v2
   - repo: PavelDoGreat/WebGL-Fluid-Simulation
     categories:
       - game-dev
