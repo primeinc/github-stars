@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-18T04:38:17.221Z"
+  manifest_updated_at: "2026-01-18T04:38:37.600Z"
   total_repos: 1991
   generator_version: v1.0.0
   github_user: primeinc
@@ -37342,13 +37342,19 @@ repositories:
       mirror_url: null
   - repo: rails/rails
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - lang:ruby
+      - mvc-framework
+      - web-framework
+      - rails-ecosystem
+      - open-source
     summary: Ruby on Rails
     last_synced_sha: 85734dfb9886259e642495e2673f7dee51c3bc8a
     user_starred_at: "2025-08-01T04:13:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -37374,15 +37380,26 @@ repositories:
         published_at: "2026-01-08T20:17:17Z"
       is_mirror: false
       mirror_url: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: openfaas/faas
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - cloud
+    tags:
+      - serverless
+      - lang:go
+      - functions-as-a-service
+      - prometheus-integration
+      - devops
     summary: Open Faa S - Serverless Functions Made Simple
     last_synced_sha: 1d211f9c00323a673fe3f9d6094741d4fb251bff
     user_starred_at: "2025-08-01T04:08:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -37415,15 +37432,26 @@ repositories:
         published_at: "2025-08-29T14:24:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: dokku/dokku
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - containers
+    tags:
+      - paas
+      - docker-integration
+      - self-hosted
+      - heroku-alternative
+      - deployment
     summary: A docker-powered Paa S that helps you build and manage the lifecycle of applications
     last_synced_sha: 9a34b4716f53f679991479e72ba5258cfe634bd8
     user_starred_at: "2025-08-01T04:08:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -37453,15 +37481,26 @@ repositories:
         published_at: "2026-01-10T15:13:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: alvarcarto/url-to-pdf-api
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - pdf-rendering
+      - puppeteer
+      - headless-chrome
+      - self-hosted
+      - html-to-pdf
     summary: Web page PDF/PNG rendering done right. Self-hosted service for rendering receipts, invoices, or any content.
     last_synced_sha: 2fa83fd9f88613b76ba452fe25830e98d844f3b0
     user_starred_at: "2025-08-01T04:07:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -37488,15 +37527,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: caprover/caprover
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - containers
+    tags:
+      - paas
+      - docker-integration
+      - lang:ts
+      - scalable-platforms
+      - node-js
     summary: Scalable Paa S (automated Docker+nginx) - aka Heroku on Steroids
     last_synced_sha: 45d09773f8bfda3d0301232a60a2a1162353b4cf
     user_starred_at: "2025-08-01T04:06:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -37534,15 +37584,26 @@ repositories:
         published_at: "2025-11-11T08:57:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: huginn/huginn
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - monitoring
+    tags:
+      - agent-building
+      - lang:ruby
+      - feed-monitoring
+      - rss-agent
+      - web-scraping
     summary: Create agents that monitor and act on your behalf. Your agents are standing by!
     last_synced_sha: 8edec55aab03d4e3f13b205db02d21dc36e34e4f
     user_starred_at: "2025-07-31T22:01:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -37573,15 +37634,26 @@ repositories:
         published_at: "2022-08-18T03:34:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: docusealco/docuseal
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - pdf-signature
+      - e-signature
+      - lang:ruby
+      - document-management
+      - open-source
     summary: Open source Docu Sign alternative. Create, fill, and sign digital documents ✍️
     last_synced_sha: 9011e3f4b4dc3aa7e705350ae22a1cb0bc7aa971
     user_starred_at: "2025-07-31T22:01:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -37616,15 +37688,25 @@ repositories:
         published_at: "2026-01-12T15:38:43Z"
       is_mirror: false
       mirror_url: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: QwenLM/Qwen3-Coder
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - large-language-model
+      - lang:python
+      - ai-coding
+      - model-training
     summary: Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team, Alibaba Cloud.
     last_synced_sha: df980b28c4f29ff2691e8c2a98d9c7464341a118
     user_starred_at: "2025-07-31T21:59:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -37641,15 +37723,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: srbhr/Resume-Matcher
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - resume-matching
+      - lang:ts
+      - nlp
+      - nextjs
+      - job-application-tools
     summary: Improve your resumes with Resume Matcher. Get insights, keyword suggestions and tune your resumes to job descriptions.
     last_synced_sha: 237b7e9e62675f8d670ddaf03b9194427645ec9c
     user_starred_at: "2025-07-31T21:59:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -37682,15 +37775,26 @@ repositories:
         published_at: "2026-01-06T17:19:08Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: frappe/hrms
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - business-tools
+    tags:
+      - hr-management
+      - lang:python
+      - payroll-system
+      - performance-management
+      - open-source
     summary: Open Source HR and Payroll Software
     last_synced_sha: 201ab7e56121068aa01841608ab93d2d3c51f9fb
     user_starred_at: "2025-07-31T21:58:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -37729,15 +37833,25 @@ repositories:
         published_at: "2026-01-16T06:38:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: EmenstaNougat/ESP32-BlueJammer
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - bluetooth-jamming
+      - esp32-project
+      - 2-4ghz-communication
+      - cyber-defense
     summary: The ESP32-Blue Jammer (Bluetooth jammer, BLE jammer, Wi Fi jammer, RC jammer) disrupts 2.4GHz communications. Using an ESP32 and n RF24 modules, it generates noise and unnecessary packets, causing ...
     last_synced_sha: 7fff9b591d2a9f68e3b3efae20fbd5093d15526c
     user_starred_at: "2025-07-31T21:57:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -37769,15 +37883,25 @@ repositories:
         published_at: "2025-09-22T19:30:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: SkyworkAI/SkyReels-V2
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - film-generation
+      - deep-learning
+      - lang:python
+      - creative-ai
     summary: 'Sky Reels-V2: Infinite-length Film Generative model'
     last_synced_sha: 574a138309b6dc1e176451edc8bbd6078f16e0b1
     user_starred_at: "2025-07-31T21:57:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -37794,15 +37918,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: 9001/copyparty
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - storage
+    tags:
+      - file-server
+      - webdav-support
+      - ftp-support
+      - lang:python
+      - file-sharing-solutions
     summary: Portable file server with accelerated resumable uploads, dedup, Web DAV, SFTP, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file
     last_synced_sha: d9255538100f5196a7e4ffdd78661f68d77cdb4f
     user_starred_at: "2025-07-31T21:56:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -37829,15 +37964,25 @@ repositories:
         published_at: "2026-01-09T01:30:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: wshobson/commands
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - slash-commands
+      - workflow-tools
+      - ai-integration
+      - productive-automation
     summary: A collection of production-ready slash commands for Claude Code
     last_synced_sha: 27d3e77b1a844223721f6c983ddf261ac4441b89
     user_starred_at: "2025-07-30T17:19:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -37869,15 +38014,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: wshobson/agents
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - multi-agent
+      - workflow-orchestration
+      - lang:csharp
+      - automation-tools
+      - ai-agents
     summary: Intelligent automation and multi-agent orchestration for Claude Code
     last_synced_sha: e827cc713a0bcb4d1033cf81768290e91c8761d2
     user_starred_at: "2025-07-30T17:15:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -37914,6 +38070,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:38:37.600Z"
+      prompt_version: v2
   - repo: isqld/intune-printer-deployment-script
     categories:
       - system-admin
