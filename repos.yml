@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-18T04:32:24.147Z"
+  manifest_updated_at: "2026-01-18T04:32:44.217Z"
   total_repos: 1991
   generator_version: v1.0.0
   github_user: primeinc
@@ -45675,13 +45675,19 @@ repositories:
       mirror_url: null
   - repo: novuhq/novu
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - notifications
+      - communication-tools
+      - lang:ts
+      - multi-channel
+      - react
     summary: The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations.
     last_synced_sha: fcd5feffa68e759f79ddd04fe9d4ff7ffb88eb8f
     user_starred_at: "2025-04-22T16:13:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -45716,15 +45722,25 @@ repositories:
         published_at: "2026-01-08T21:25:40Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.217Z"
+      prompt_version: v2
   - repo: ksreyes/popes
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - data-science
+    tags:
+      - historical-data
+      - dataset
+      - lang:r
+      - catholic-church
     summary: Dataset of all official popes from Peter to Francis
     last_synced_sha: 6d102c31bb1f96944e2768836c27b1ea8b39e492
     user_starred_at: "2025-04-22T08:48:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: R
       topics: []
@@ -45741,15 +45757,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.217Z"
+      prompt_version: v2
   - repo: makeplane/plane
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - project-management
+      - jira-alternative
+      - kanban
+      - lang:ts
+      - react
     summary: "\U0001F525\U0001F525\U0001F525 Open-source Jira, Linear, Monday, and Click Up alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage."
     last_synced_sha: fa1b4a102a94a5f84d2d2fe883af115aaa771c0a
     user_starred_at: "2025-04-15T12:42:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -45788,15 +45815,26 @@ repositories:
         published_at: "2025-12-12T11:13:02Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.217Z"
+      prompt_version: v2
   - repo: modelscope/FunASR
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - speech-recognition
+      - ai-toolkit
+      - pretrained-models
+      - lang:python
+      - voice-recognition
     summary: A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc.
     last_synced_sha: 36656aa8f7f30cece85ceda7e2c6ec5952a59925
     user_starred_at: "2025-04-15T12:40:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -45830,15 +45868,26 @@ repositories:
         published_at: "2023-03-16T08:15:02Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.217Z"
+      prompt_version: v2
   - repo: getmaxun/maxun
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+    tags:
+      - no-code
+      - web-scraping
+      - api
+      - lang:ts
+      - rpa
     summary: Turn websites into clean data pipelines & structured APIs in minutes!
     last_synced_sha: f3cb9273ec2c4778695ddb0e907f476408517878
     user_starred_at: "2025-04-15T12:37:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -45875,15 +45924,26 @@ repositories:
         published_at: "2026-01-04T21:43:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.216Z"
+      prompt_version: v2
   - repo: vercel/ai-chatbot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - chatbot
+      - ai
+      - nextjs
+      - lang:ts
+      - react
     summary: A full-featured, hackable Next.js AI chatbot built by Vercel
     last_synced_sha: 9d5d8a3ea7968522a37ab1cc145a6c0ef8a9dd2e
     user_starred_at: "2025-04-15T12:37:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -45907,15 +45967,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.216Z"
+      prompt_version: v2
   - repo: nunchaku-ai/nunchaku
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - quantization
+      - diffusion-models
+      - lang:python
+      - 4-bit-ai
+      - genai
     summary: '[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models'
     last_synced_sha: 7fa4f609dbc11ac39bff6b068288c2b9ed162b62
     user_starred_at: "2025-04-15T12:37:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -45943,15 +46014,26 @@ repositories:
         published_at: "2026-01-12T04:49:49Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.216Z"
+      prompt_version: v2
   - repo: juliangarnier/anime
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - animation
+      - javascript-library
+      - svg
+      - lang:js
+      - css
     summary: Java Script animation engine
     last_synced_sha: b82b2c7fb54b7fda1d487e3aee885f70d4c1d46d
     user_starred_at: "2025-04-15T12:37:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -45977,15 +46059,26 @@ repositories:
         published_at: "2025-10-07T07:30:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.216Z"
+      prompt_version: v2
   - repo: nautechsystems/nautilus_trader
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - trading-platform
+      - algorithmic-trading
+      - machine-learning
+      - lang:rust
+      - event-driven
     summary: A high-performance algorithmic trading platform and event-driven backtester
     last_synced_sha: 2f17c6c400f0b8c28e42caacfa50324b0d6b31ef
     user_starred_at: "2025-04-15T12:35:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -46017,15 +46110,26 @@ repositories:
         published_at: "2026-01-02T05:23:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.216Z"
+      prompt_version: v2
   - repo: Pennyw0rth/NetExec
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - pentesting
+      - network-tools
+      - infosec
+      - lang:python
+      - red-team
     summary: The Network Execution Tool
     last_synced_sha: 08b43bf089e71427406a1d0b3620119c76efca85
     user_starred_at: "2025-04-15T02:13:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -46059,15 +46163,26 @@ repositories:
         published_at: "2025-12-24T16:34:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.216Z"
+      prompt_version: v2
   - repo: BasedHardware/omi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - embedded
+    tags:
+      - ai-wearables
+      - speech-recognition
+      - transcription
+      - lang:c
+      - nextjs
     summary: AI wearables. Put it on, speak, transcribe, automatically
     last_synced_sha: 2eced53e51ee1d445dadeb5ffb68bd2a266e73bd
     user_starred_at: "2025-04-15T02:12:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -46102,15 +46217,26 @@ repositories:
         published_at: "2026-01-17T11:26:47Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.216Z"
+      prompt_version: v2
   - repo: risonsimon/claude-artifacts-react
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - deployment
+    tags:
+      - deployment-tool
+      - react
+      - lang:js
+      - ui
+      - cloud-integration
     summary: Quickly deploy React code from Claude Artifacts to the internet.
     last_synced_sha: 90fd1a848591717037ee30d3ea37d6924a13684c
     user_starred_at: "2025-04-13T23:48:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -46127,15 +46253,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.216Z"
+      prompt_version: v2
   - repo: neu-se/testpilot2
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - dev-tools
+    tags:
+      - test-automation
+      - lang:ts
+      - quality
+      - testing-tool
     summary: Test Pilot 2
     last_synced_sha: 79c3b626edb541ca9eaf31c6994f40d1c7d5d042
     user_starred_at: "2025-04-12T04:19:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -46152,15 +46288,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.216Z"
+      prompt_version: v2
   - repo: RenjiYuusei/CursorFocus
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - focus-tools
+      - project-tracking
+      - cursor
+      - lang:python
     summary: A lightweight tool that maintains a focused view of your project structure and environment. Cursor Focus automatically tracks your project files, functions, and environment variables, updating ever...
     last_synced_sha: 35daecf1ba8ff7a2fa609ab5b95da8b7bb6cf89a
     user_starred_at: "2025-04-08T19:43:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     fork: true
     github_metadata:
@@ -46183,15 +46329,25 @@ repositories:
         published_at: "2025-04-02T08:12:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.216Z"
+      prompt_version: v2
   - repo: johnbenac/cursor-watchful-headers
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - file-management
+      - project-automation
+      - real-time-updates
+      - lang:python
     summary: Automated file header management and project structure visualization in cursorrules. Maintains consistent headers across multiple file types while providing real-time project tree updates. Perfect ...
     last_synced_sha: 05b9bc9f732d9b2432c724bd5a1f9771932e1974
     user_starred_at: "2025-04-08T19:23:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -46208,6 +46364,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:32:44.216Z"
+      prompt_version: v2
   - repo: Azure/login
     categories:
       - cloud
