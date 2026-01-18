@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-18T04:19:20.719Z"
+  manifest_updated_at: "2026-01-18T04:19:38.357Z"
   total_repos: 1991
   generator_version: v1.0.0
   github_user: primeinc
@@ -64692,13 +64692,18 @@ repositories:
       mirror_url: null
   - repo: ChristophSchranz/Octoprint-PrePrintService
     categories:
-      - unclassified
-    tags: []
+      - home-automation
+      - productivity
+    tags:
+      - 3d-printing
+      - auto-rotation
+      - slicing
+      - lang:python
     summary: This service supports your 3D printing workflow by providing auto-rotation and slicing functionality.
     last_synced_sha: 7e69aa86e29440ee41be1ef41a249e2319310b4a
     user_starred_at: "2021-03-07T15:51:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -64715,15 +64720,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.357Z"
+      prompt_version: v2
   - repo: Home-Is-Where-You-Hang-Your-Hack/sensor.goveetemp_bt_hci
     categories:
-      - unclassified
-    tags: []
+      - home-automation
+      - embedded
+    tags:
+      - temperature-monitoring
+      - sensor
+      - home-assistant
+      - lang:python
     summary: Govee Temperature/Humidity BLE Home Assistant Component
     last_synced_sha: a72f65c1ad3d1175db2b40978f9d51ee57516049
     user_starred_at: "2021-03-07T15:28:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -64755,15 +64770,25 @@ repositories:
         published_at: "2023-01-07T20:49:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.357Z"
+      prompt_version: v2
   - repo: OctoPrint/OctoPrint
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - home-automation
+    tags:
+      - 3d-printer
+      - web-interface
+      - raspberry-pi
+      - lang:python
     summary: Octo Print is the snappy web interface for your 3D printer!
     last_synced_sha: 1f6993bdb5d459c717fff29e7ef8d86fe36327ba
     user_starred_at: "2021-03-05T19:04:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -64786,15 +64811,24 @@ repositories:
         published_at: "2025-12-01T12:58:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.357Z"
+      prompt_version: v2
   - repo: TheSpaghettiDetective/OctoPrint-Obico
     categories:
-      - unclassified
-    tags: []
+      - home-automation
+      - data-science
+    tags:
+      - 3d-printing
+      - smart-platform
+      - lang:python
     summary: No description provided
     last_synced_sha: c0d65873ec434f570db25a026e23094f8787276a
     user_starred_at: "2021-03-04T19:30:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -64813,15 +64847,25 @@ repositories:
         published_at: "2025-11-16T02:54:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.356Z"
+      prompt_version: v2
   - repo: TheSpaghettiDetective/obico-server
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - home-automation
+    tags:
+      - 3d-printing
+      - open-source
+      - smart-platform
+      - lang:vue
     summary: Obico is a community-built, open-source smart 3D printing platform used by makers, enthusiasts, and tinkerers around the world.
     last_synced_sha: 2315600d676415e4c3de07a4ee353f20f7b4f4ee
     user_starred_at: "2021-03-04T19:30:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics: []
@@ -64838,15 +64882,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.356Z"
+      prompt_version: v2
   - repo: DustinWatts/esp32-touchdown
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - hardware
+    tags:
+      - esp32
+      - tft
+      - ili9488
     summary: ESP32 Touch Down
     last_synced_sha: a7ba56cf3607a8628417bc593e9599291c3b2fdd
     user_starred_at: "2021-02-19T17:25:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -64866,15 +64919,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.356Z"
+      prompt_version: v2
   - repo: klassicstudios/Bonarr
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - media-management
+      - adult-content
+      - download-manager
+      - lang:csharp
     summary: A fork of Radarr to work with porn.
     last_synced_sha: f1986c8e90c667ecc7e41ca3cafd7e4490149f83
     user_starred_at: "2021-02-05T02:31:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C#
@@ -64894,15 +64957,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.356Z"
+      prompt_version: v2
   - repo: thomasloven/lovelace-auto-entities
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - home-automation
+    tags:
+      - auto-entities
+      - lovelace
+      - home-assistant
+      - lang:ts
     summary: "\U0001F539Automatically populate the entities-list of lovelace cards"
     last_synced_sha: f2ddbad8fdf062e71a194c69661b247b3d27575c
     user_starred_at: "2021-02-02T14:22:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -64921,15 +64994,25 @@ repositories:
         published_at: "2025-05-28T13:14:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.356Z"
+      prompt_version: v2
   - repo: artem-sedykh/mini-climate-card
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - home-automation
+    tags:
+      - climate-entity
+      - lovelace-ui
+      - home-assistant
+      - lang:js
     summary: Minimalistic climate card for Home Assistant Lovelace UI
     last_synced_sha: 7a7ff5ec87e531af21a42d2d335da56092295e18
     user_starred_at: "2021-01-27T03:03:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -64958,15 +65041,25 @@ repositories:
         published_at: "2025-02-10T22:04:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.356Z"
+      prompt_version: v2
   - repo: hassio-addons/addon-vscode
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - home-automation
+    tags:
+      - vscode-addon
+      - ide
+      - home-assistant
+      - code-server
     summary: Studio Code Server - Home Assistant Community Add-ons
     last_synced_sha: 776ef9119524ff489345a6a60e13333264e67b1c
     user_starred_at: "2021-01-21T17:17:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics:
@@ -64992,15 +65085,25 @@ repositories:
         published_at: "2025-11-23T13:00:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.356Z"
+      prompt_version: v2
   - repo: dlarrick/hass-kumo
     categories:
-      - unclassified
-    tags: []
+      - home-automation
+      - embedded
+    tags:
+      - home-assistant
+      - mini-split
+      - climate-control
+      - lang:python
     summary: Home Assistant module interfacing with Mitsubishi mini-split units
     last_synced_sha: 976af46f6c03aaabaad55c1aef2b1ad1fc5f55d6
     user_starred_at: "2021-01-21T01:00:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65028,15 +65131,25 @@ repositories:
         published_at: "2024-12-15T16:08:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.356Z"
+      prompt_version: v2
   - repo: eyalcha/read_your_meter
     categories:
-      - unclassified
-    tags: []
+      - home-automation
+      - embedded
+    tags:
+      - sensor
+      - home-assistant
+      - water-meter
+      - lang:python
     summary: Home Assistant sensor to read water meter
     last_synced_sha: 288371a53ecc8d0d5ffe1feb5140bcbab5f04197
     user_starred_at: "2021-01-21T00:57:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65059,15 +65172,25 @@ repositories:
         published_at: "2022-07-14T17:28:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.356Z"
+      prompt_version: v2
   - repo: claytonjn/hass-circadian_lighting
     categories:
-      - unclassified
-    tags: []
+      - home-automation
+      - embedded
+    tags:
+      - home-assistant
+      - circadian-rhythms
+      - lighting
+      - lang:python
     summary: Circadian Lighting custom component for Home Assistant
     last_synced_sha: ed03e159b9a1db8f08a94b7de8c3b6b73fa0eb92
     user_starred_at: "2021-01-21T00:44:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65093,15 +65216,26 @@ repositories:
         published_at: "2025-09-19T22:55:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.356Z"
+      prompt_version: v2
   - repo: moralmunky/Home-Assistant-Mail-And-Packages
     categories:
-      - unclassified
-    tags: []
+      - home-automation
+      - embedded
+    tags:
+      - home-assistant
+      - lovelace-card
+      - mail
+      - package-delivery
+      - lang:python
     summary: Home Assistant integration providing day of package counts and USPS informed delivery images.
     last_synced_sha: b868ed6e94bb154906cdd7be74eb3214e80ff43d
     user_starred_at: "2021-01-21T00:32:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65126,15 +65260,25 @@ repositories:
         published_at: "2026-01-09T19:32:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.356Z"
+      prompt_version: v2
   - repo: custom-components/climate.programmable_thermostat
     categories:
-      - unclassified
-    tags: []
+      - home-automation
+      - embedded
+    tags:
+      - smart-thermostat
+      - programmable-thermostat
+      - home-assistant
+      - lang:python
     summary: Programmable thermostat that let you have a smart thermostat on budget.
     last_synced_sha: 4f7d02a4a24f2235e3ccbf5b858e7e325dab8237
     user_starred_at: "2021-01-21T00:19:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65164,6 +65308,11 @@ repositories:
         published_at: "2025-04-09T20:29:47Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:19:38.355Z"
+      prompt_version: v2
   - repo: WADComs/WADComs.github.io
     categories:
       - security
