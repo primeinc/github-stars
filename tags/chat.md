@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/vscode-copilot-chat](https://github.com/microsoft/vscode-copilot-chat) | Copilot Chat extension for VS Code | `TypeScript` ★ 9.3k | 2026-01-17 |
+| [microsoft/vscode-copilot-chat](https://github.com/microsoft/vscode-copilot-chat) | Copilot Chat extension for VS Code | `TypeScript` ★ 9.3k | 2026-01-18 |
 | [OvidijusParsiunas/deep-chat](https://github.com/OvidijusParsiunas/deep-chat) | Fully customizable AI chatbot component for your website | `TypeScript` ★ 3.5k | 2026-01-17 |
