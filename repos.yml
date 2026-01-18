@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-18T04:36:16.850Z"
+  manifest_updated_at: "2026-01-18T04:36:37.213Z"
   total_repos: 1991
   generator_version: v1.0.0
   github_user: primeinc
@@ -40285,13 +40285,18 @@ repositories:
       mirror_url: null
   - repo: adrianhajdin/project_graphql_blog
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - graphql
+      - blog
+      - responsive
+      - lang:js
     summary: With featured and recent posts, categories. full markdown articles, author information, comments, and much more, this fully responsive CMS Blog App is the best Blog Application that you can current...
     last_synced_sha: 0d731ac97603fd2c725f0f2056036c9cfdc42385
     user_starred_at: "2025-07-12T04:43:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -40312,15 +40317,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.213Z"
+      prompt_version: v2
   - repo: kriasoft/graphql-starter-kit
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - apis
+    tags:
+      - graphql
+      - starter-kit
+      - lang:ts
     summary: "\U0001F4A5 Monorepo template (seed project) pre-configured with Graph QL API, Postgre SQL, React, and Joy UI."
     last_synced_sha: d35106349570002a771d70f7187c5030dd2bd7fe
     user_starred_at: "2025-07-12T04:40:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40357,15 +40371,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.213Z"
+      prompt_version: v2
   - repo: ChilliCream/graphql-platform
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - graphql
+      - hotchocolate
+      - graphql-server
+      - lang:csharp
     summary: Welcome to the home of the Hot Chocolate Graph QL server for .NET, the Strawberry Shake Graph QL client for .NET and Nitro the awesome Monaco based Graph QL IDE.
     last_synced_sha: 7f75c9cd3ac6be8b7d0070e54e29553352fcdb38
     user_starred_at: "2025-07-12T04:40:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -40404,15 +40428,25 @@ repositories:
         published_at: "2026-01-15T12:27:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.213Z"
+      prompt_version: v2
   - repo: dotansimha/graphql-code-generator
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - graphql
+      - codegen
+      - code-generator
+      - lang:ts
     summary: A tool for generating code based on a Graph QL schema and Graph QL operations (query/mutation/subscription), with flexible support for custom plugins.
     last_synced_sha: 62c76188d4e660efa50dcf486921804adc70e1b5
     user_starred_at: "2025-07-12T04:38:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40444,15 +40478,24 @@ repositories:
         published_at: "2026-01-11T11:11:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.213Z"
+      prompt_version: v2
   - repo: gicentre/litvis
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - learning
+    tags:
+      - visualization
+      - narrative
+      - lang:ts
     summary: 'Literate Visualization: Theory, software and examples'
     last_synced_sha: 669fa800b3706aba3488ce45ec913d84a687a30c
     user_starred_at: "2025-07-12T04:34:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40478,15 +40521,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.213Z"
+      prompt_version: v2
   - repo: gothinkster/realworld
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - demo-app
+      - fullstack
+      - lang:ts
     summary: '"The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more'
     last_synced_sha: 32a16a622b0c7138385d6584dfa14269f13d9932
     user_starred_at: "2025-07-12T04:28:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -40503,15 +40555,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.213Z"
+      prompt_version: v2
   - repo: anishkny/playwright-test-coverage
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - dev-tools
+    tags:
+      - playwright
+      - code-coverage
+      - lang:js
     summary: Extends Playwright test to measure code coverage
     last_synced_sha: e7752c3a3212dd48497406904f11f5930dcfcc91
     user_starred_at: "2025-07-12T04:27:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -40532,15 +40593,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.212Z"
+      prompt_version: v2
   - repo: larsbijl/trending_archive
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - documentation
+    tags:
+      - data-archive
+      - trending-data
+      - lang:python
     summary: An archive of the Git Hub daily trending information
     last_synced_sha: aec37d3e00f8dac323c017cf26557178623f582a
     user_starred_at: "2025-07-12T04:21:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -40557,15 +40627,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.212Z"
+      prompt_version: v2
   - repo: FujiwaraChoki/MoneyPrinterV2
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - cli-tools
+    tags:
+      - money
+      - python
+      - cli
+      - lang:python
     summary: Automate the process of making money online.
     last_synced_sha: a9e3f76c1dc442acd93b0f82d2c4e7cdde75c7b1
     user_starred_at: "2025-07-12T04:19:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -40590,15 +40670,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.212Z"
+      prompt_version: v2
   - repo: langgenius/dify
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - workflow
+      - gpt
+      - low-code
+      - lang:python
     summary: Production-ready platform for agentic workflow development.
     last_synced_sha: 7b66bbc35a6f3c29f0942c30ce583ae78dfcc6c2
     user_starred_at: "2025-07-12T04:10:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -40637,15 +40727,24 @@ repositories:
         published_at: "2026-01-15T07:15:40Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.212Z"
+      prompt_version: v2
   - repo: practical-tutorials/project-based-learning
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - tutorial
+      - project
+      - multiple-programming-languages
     summary: Curated list of project-based tutorials
     last_synced_sha: 243d33995fc5a616010fced6c9e131090e8e1a39
     user_starred_at: "2025-07-12T04:09:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -40670,15 +40769,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.212Z"
+      prompt_version: v2
   - repo: stax76/awesome-mpv
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - media-player
+      - mpv
+      - awesome-list
     summary: A curated list of awesome mpv resources.
     last_synced_sha: 468d152aa81006cf6d2a612927deb238f74e58dd
     user_starred_at: "2025-07-12T02:24:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -40705,15 +40813,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.212Z"
+      prompt_version: v2
   - repo: Huanshere/VideoLingo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-translation
+      - video-translation
+      - voice-cloning
+      - lang:python
     summary: Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组
     last_synced_sha: b94d8fcd0897626b6110f43683f6a9fff222e446
     user_starred_at: "2025-07-12T02:11:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -40737,15 +40855,25 @@ repositories:
         published_at: "2025-05-05T09:34:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.212Z"
+      prompt_version: v2
   - repo: sindresorhus/observable-to-promise
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cli-tools
+    tags:
+      - observable
+      - promise
+      - conversion
+      - lang:js
     summary: Convert an Observable to a Promise
     last_synced_sha: 8418990822686d2f2bff77a7d877641ad9b042eb
     user_starred_at: "2025-07-12T01:36:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -40764,15 +40892,25 @@ repositories:
         published_at: "2022-06-06T11:50:02Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.212Z"
+      prompt_version: v2
   - repo: MichalLytek/type-graphql
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - graphql
+      - schema
+      - resolvers
+      - lang:ts
     summary: Create Graph QL schema and resolvers with Type Script, using classes and decorators!
     last_synced_sha: 58d187ef14c6e871356b78d57ab0972c67e4cb70
     user_starred_at: "2025-07-12T01:34:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40802,6 +40940,11 @@ repositories:
         published_at: "2024-06-07T12:27:54Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:36:37.212Z"
+      prompt_version: v2
   - repo: unjs/consola
     categories:
       - dev-tools
