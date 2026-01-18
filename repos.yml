@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-18T04:24:47.405Z"
+  manifest_updated_at: "2026-01-18T04:25:08.156Z"
   total_repos: 1991
   generator_version: v1.0.0
   github_user: primeinc
@@ -56781,13 +56781,18 @@ repositories:
       mirror_url: null
   - repo: Anze/KeyCluCask
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - macos
+      - hotkeys
+      - shortcuts
+      - utilities
     summary: Simple and handy overview of applications shortcuts
     last_synced_sha: 5794d141d7be8b869a1f516e3d8154fbaa85e947
     user_starred_at: "2024-10-29T14:11:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -56815,15 +56820,25 @@ repositories:
         published_at: "2026-01-12T20:03:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.156Z"
+      prompt_version: v2
   - repo: lucasnewman/f5-tts-mlx
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - text-to-speech
+      - flow-matching
+      - speech-generation
+      - lang:python
     summary: Implementation of F5-TTS in MLX
     last_synced_sha: 85d015f62b7c6e37311a484c915effb7cf95ccaa
     user_starred_at: "2024-10-20T14:05:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -56847,15 +56862,26 @@ repositories:
         published_at: "2025-03-19T02:11:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.156Z"
+      prompt_version: v2
   - repo: SWivid/F5-TTS
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - text-to-speech
+      - tts
+      - speech
+      - nlp
+      - lang:python
     summary: 'Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching"'
     last_synced_sha: eca786ee0c078e6a3134b80ee58e411fab33bb31
     user_starred_at: "2024-10-20T13:57:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -56874,15 +56900,24 @@ repositories:
         published_at: "2025-12-21T07:15:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.155Z"
+      prompt_version: v2
   - repo: martymcmodding/METEOR
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - graphics
+      - reshade
+      - effects
     summary: Marty's Extra Effects for Re Shade
     last_synced_sha: 228e4aa521b34bdf3ad798220a1e59cc4a2a6a95
     user_starred_at: "2024-10-06T21:21:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HLSL
       topics: []
@@ -56899,15 +56934,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.155Z"
+      prompt_version: v2
   - repo: martymcmodding/iMMERSE
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - graphics
+      - reshade
+      - visual-effects
     summary: Marty's Mods Epic Re Shade Effects
     last_synced_sha: 8fa641ef7af561a52cfc15f43155abd54b095b1f
     user_starred_at: "2024-10-06T21:21:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HLSL
       topics: []
@@ -56924,15 +56968,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.155Z"
+      prompt_version: v2
   - repo: git-ecosystem/git-credential-manager
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - git
+      - authentication
+      - credentials
+      - cross-platform
+      - lang:csharp
     summary: Secure, cross-platform Git credential storage with authentication to Git Hub, Azure Repos, and other popular Git hosting services.
     last_synced_sha: 595b1208a6f1cfae21cb4c266e6af557a1074ee3
     user_starred_at: "2024-09-29T22:04:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -56961,15 +57016,24 @@ repositories:
         published_at: "2025-01-14T18:06:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.155Z"
+      prompt_version: v2
   - repo: replicate/setup-cog
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - ai-ml
+    tags:
+      - ci-cd
+      - git-action
+      - machine-learning
     summary: A Git Hub Action for installing and using Cog so you can run, test, and push machine learning models
     last_synced_sha: 8a5fea3c1818b6950dcf8027285f5a9b447c0c4a
     user_starred_at: "2024-09-29T21:47:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -56988,15 +57052,24 @@ repositories:
         published_at: "2024-06-17T23:39:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.155Z"
+      prompt_version: v2
   - repo: hkystar35/MDM
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - documentation
+    tags:
+      - mdm
+      - scripts
+      - system-management
     summary: MDM Related code, docs, scripts, snippets, thoughts, and musings.
     last_synced_sha: 26162db0b0210bb36a04540652f5d42bf683efdd
     user_starred_at: "2024-09-17T16:35:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -57013,15 +57086,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.155Z"
+      prompt_version: v2
   - repo: mihir-m-gandhi/Adaptive-Traffic-Signal-Timer
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - traffic-management
+      - yolo
+      - real-time
+      - lang:python
     summary: This Adaptive Traffic Signal Timer uses live images from the cameras at traffic junctions for real-time traffic density calculation using YOLO object detection and sets the signal timers accordingly.
     last_synced_sha: 46333cf95ada5e99957a7ed4228ef2dfadc7f827
     user_starred_at: "2024-09-11T22:16:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -57038,15 +57121,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.155Z"
+      prompt_version: v2
   - repo: replicate/cog
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - ai-ml
+    tags:
+      - containers
+      - docker
+      - deep-learning
+      - lang:go
     summary: Containers for machine learning
     last_synced_sha: 1eb813a59f3569e5e9d599a32a64588cc542f373
     user_starred_at: "2024-09-10T17:39:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -57073,15 +57166,26 @@ repositories:
         published_at: "2025-11-12T23:00:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.155Z"
+      prompt_version: v2
   - repo: nyrahealth/CrisperWhisper
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - speech-recognition
+      - audio
+      - speech-processing
+      - timestamps
+      - lang:python
     summary: Verbatim Automatic Speech Recognition with improved word-level timestamps and filler detection
     last_synced_sha: 8c8863cc752685ae9159a6bb96b91cf13cad3914
     user_starred_at: "2024-09-10T14:22:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -57110,15 +57214,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.155Z"
+      prompt_version: v2
   - repo: ostris/ai-toolkit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - finetuning
+      - toolkit
+      - diffusion-models
+      - lang:python
     summary: The ultimate training toolkit for finetuning diffusion models
     last_synced_sha: a6da9e37ac414658fce66646846648b6ee0407a8
     user_starred_at: "2024-08-24T07:02:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -57135,15 +57249,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.155Z"
+      prompt_version: v2
   - repo: YassKhazzan/openperplex_backend_os
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - ai
+      - search-engine
+      - llm
+      - lang:python
     summary: openperplex is an opensource AI search engine
     last_synced_sha: 5b916472abbb4dfb8e338ff8734dce5532f852c6
     user_starred_at: "2024-08-14T20:09:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -57160,15 +57284,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.155Z"
+      prompt_version: v2
   - repo: katanaml/sparrow
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - machinelearning
+      - nlp
+      - computer-vision
+      - llm
+      - lang:python
     summary: Structured data extraction and instruction calling with ML, LLM and Vision LLM
     last_synced_sha: ea27caf5dfba88a1e44f18dddc3a683377eb5283
     user_starred_at: "2024-08-14T20:07:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -57195,15 +57330,26 @@ repositories:
         published_at: "2025-09-27T15:20:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.155Z"
+      prompt_version: v2
   - repo: Readarr/Readarr
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - ebook-management
+      - audiobooks
+      - nzb
+      - torrent
+      - lang:csharp
     summary: Book Manager and Automation (Sonarr for Ebooks)
     last_synced_sha: 0b79d3000d4e5f8425f499970b0190e2c421fceb
     user_starred_at: "2024-08-12T21:47:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -57226,6 +57372,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:25:08.151Z"
+      prompt_version: v2
   - repo: aiola-lab/whisper-medusa
     categories:
       - ai-ml
