@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-18T04:37:20.251Z"
+  manifest_updated_at: "2026-01-18T04:37:38.649Z"
   total_repos: 1991
   generator_version: v1.0.0
   github_user: primeinc
@@ -38845,13 +38845,17 @@ repositories:
       mirror_url: null
   - repo: f/awesome-chatgpt-prompts
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - chatgpt
+      - prompts
+      - lang:ts
     summary: Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
     last_synced_sha: a3bc27dd2db4843641de9eb912dd4a215eb15b0f
     user_starred_at: "2025-07-13T16:12:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38873,15 +38877,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.649Z"
+      prompt_version: v2
   - repo: PanseBossuSmecheru/notes-mcp
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - note-taking
+      - ai
+      - lang:ts
     summary: "Notes MCPAn MCP server that connects with your Apple Notes on mac OS. \U0001F4D3 This tool allows you to manage your notes efficiently with simple commands. \U0001F6E0️"
     last_synced_sha: de1d59dcb410c167a47437d33c5a47881a5a7608
     user_starred_at: "2025-07-13T15:55:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38916,15 +38929,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.649Z"
+      prompt_version: v2
   - repo: mbrlabs/Lorien
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - whiteboarding
+      - drawing-app
+      - vector-graphics
     summary: Infinite canvas drawing/whiteboarding app for Windows, Linux and mac OS. Made with Godot.
     last_synced_sha: 17e32227dfce5477292d9f0a55d6cb07d37a2bb1
     user_starred_at: "2025-07-13T15:54:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: GDScript
       topics:
@@ -38950,15 +38972,24 @@ repositories:
         published_at: "2023-11-06T15:27:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.649Z"
+      prompt_version: v2
   - repo: reorproject/reor
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - knowledge-management
+      - personal-ai
+      - lang:js
     summary: Private & local AI personal knowledge management app for high entropy people.
     last_synced_sha: 9b47fcaf1158cedda1f0160392de25588efe4c31
     user_starred_at: "2025-07-13T15:53:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -38989,15 +39020,24 @@ repositories:
         published_at: "2025-04-05T18:33:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.648Z"
+      prompt_version: v2
   - repo: AppFlowy-IO/AppFlowy
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - team-collaboration
+      - project-management
+      - lang:dart
     summary: Bring projects, wikis, and teams together with AI. App Flowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.
     last_synced_sha: bbe886fcdd5295ff49aaeec883181c67ca89ec29
     user_starred_at: "2025-07-13T15:50:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -39028,15 +39068,24 @@ repositories:
         published_at: "2026-01-12T07:51:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.648Z"
+      prompt_version: v2
   - repo: ratacat/slurp-ai
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - cli-tools
+    tags:
+      - documentation-automation
+      - content
+      - lang:js
     summary: Tool for scraping and consolidating documentation websites into a single MD file.
     last_synced_sha: 43ee1d9fa75ab95b34c9d91a47dfcbc378a2d3d8
     user_starred_at: "2025-07-13T15:36:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -39055,15 +39104,24 @@ repositories:
         published_at: "2025-12-21T06:15:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.648Z"
+      prompt_version: v2
   - repo: DevToys-app/DevToys
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - desktop-dev
+    tags:
+      - developer-tools
+      - windows
+      - lang:csharp
     summary: A Swiss Army knife for developers.
     last_synced_sha: 290b0ae0c397b53875ed7ed874898a8da3b5646f
     user_starred_at: "2025-07-13T14:34:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -39101,15 +39159,24 @@ repositories:
         published_at: "2023-07-25T14:23:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.648Z"
+      prompt_version: v2
   - repo: Azure/communication-ui-library
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - apis
+    tags:
+      - react
+      - communication
+      - lang:ts
     summary: UI Library for Azure Communication Services helps developers build communication applications with ease. From turn-key composites to UI components that can be composited together.
     last_synced_sha: aa5eca6cad6f3c7b7bc17f08645e2b4d017525b5
     user_starred_at: "2025-07-13T13:30:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -39135,15 +39202,24 @@ repositories:
         published_at: "2025-10-20T22:10:27Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.648Z"
+      prompt_version: v2
   - repo: bkaankose/Wino-Mail
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - mail-app
+      - fluent-design
+      - lang:csharp
     summary: Built-in Mail & Calendars app clone for Windows.
     last_synced_sha: 7f8c6776fc1fd45cac821eb0eaac349efb9dfe30
     user_starred_at: "2025-07-13T13:26:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -39172,15 +39248,24 @@ repositories:
         published_at: "2025-02-25T20:50:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.648Z"
+      prompt_version: v2
   - repo: theimpactfulcompany/Rise-Media-Player
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - media-player
+      - fluent-design
+      - lang:csharp
     summary: One media player for everything you own or stream; whether it's music or videos, online or offline Rise Media Player does it all. And it's beautiful and native with the latest version of Win UI.
     last_synced_sha: bf3c979af2f0111b15ca0171bc7d4842d2766a8b
     user_starred_at: "2025-07-13T13:25:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -39215,15 +39300,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.648Z"
+      prompt_version: v2
   - repo: zhiyiYo/PyQt-Fluent-Widgets
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - fluent-design
+      - widgets
+      - lang:python
     summary: A fluent design widgets library based on C++ Qt/Py Qt/Py Side. Make Qt Great Again.
     last_synced_sha: 9ebbc1d201c5d60ccccd8e7e00723604fd85cd0c
     user_starred_at: "2025-07-13T13:24:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -39262,15 +39356,24 @@ repositories:
         published_at: "2024-10-20T06:09:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.648Z"
+      prompt_version: v2
   - repo: bdlukaa/fluent_ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - mobile-dev
+    tags:
+      - fluent-design
+      - flutter
+      - lang:dart
     summary: Microsoft's Win UI3 in Flutter.
     last_synced_sha: ad5cd9cc8bdfeb425b6c5fd621ad7e4367be5099
     user_starred_at: "2025-07-13T13:22:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -39298,15 +39401,24 @@ repositories:
         published_at: "2024-12-13T18:12:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.648Z"
+      prompt_version: v2
   - repo: SandroMaglione/fpdart
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - dev-tools
+    tags:
+      - functional-programming
+      - dart
+      - lang:dart
     summary: Functional programming in Dart and Flutter. All the main functional programming types and patterns fully documented, tested, and with examples.
     last_synced_sha: 27e0576669fc86197db02f042ef3455b2ec153ee
     user_starred_at: "2025-07-13T13:22:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -39341,15 +39453,24 @@ repositories:
         published_at: "2024-11-07T11:18:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.648Z"
+      prompt_version: v2
   - repo: sxzz/rolldown-browser
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - vue
+      - ui-development
+      - lang:vue
     summary: Rolldown on Browser
     last_synced_sha: 9cd244f1e4c023c9518cb488ace8565df6f52d50
     user_starred_at: "2025-07-13T13:03:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics: []
@@ -39366,15 +39487,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.645Z"
+      prompt_version: v2
   - repo: localsend/localsend
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - networking
+    tags:
+      - file-sharing
+      - flutter
+      - lang:dart
     summary: An open-source cross-platform alternative to Air Drop
     last_synced_sha: ef459592a1d1c0fd863a9e467cfc75f2420401e0
     user_starred_at: "2025-07-13T12:33:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -39397,6 +39527,11 @@ repositories:
         published_at: "2025-02-20T01:23:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-18T04:37:38.645Z"
+      prompt_version: v2
   - repo: bluewave-labs/Checkmate
     categories:
       - monitoring
