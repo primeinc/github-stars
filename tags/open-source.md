@@ -1,6 +1,6 @@
 # Tag: open-source
 
-*8 repositories*
+*15 repositories*
 
 [← Back to Index](../README.md)
 
@@ -14,3 +14,10 @@
 | [google/adk-docs](https://github.com/google/adk-docs) | An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. | `Shell` ★ 1.1k | 2026-01-16 |
 | [opencloud-eu/opencloud](https://github.com/opencloud-eu/opencloud) | 🌤️ Open Cloud is the open source platform for file management, sharing and collaboration. Simple and sovereign. | `Go` ★ 4.6k | 2026-01-16 |
 | [NVIDIA/NeMo-Agent-Toolkit](https://github.com/NVIDIA/NeMo-Agent-Toolkit) | The NVIDIA Ne Mo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents. | `Python` ★ 1.7k | 2026-01-17 |
+| [rails/rails](https://github.com/rails/rails) | Ruby on Rails | `Ruby` ★ 58.1k | 2026-01-18 |
+| [docusealco/docuseal](https://github.com/docusealco/docuseal) | Open source Docu Sign alternative. Create, fill, and sign digital documents ✍️ | `Ruby` ★ 11.2k | 2026-01-12 |
+| [frappe/hrms](https://github.com/frappe/hrms) | Open Source HR and Payroll Software | `Python` ★ 7.1k | 2026-01-16 |
+| [automatisch/automatisch](https://github.com/automatisch/automatisch) | The open source Zapier alternative. Build workflow automation without spending time and money. | `JavaScript` ★ 13.5k | 2026-01-15 |
+| [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) | Awesome list of open-source startup alternatives to well-known Saa S products 🚀 | `Python` ★ 18.6k | 2025-09-03 |
+| [gavincyi/awesome-financial-open-source](https://github.com/gavincyi/awesome-financial-open-source) | Collection of financial institution open source groups | ★ 38 | 2025-02-04 |
+| [TheSpaghettiDetective/obico-server](https://github.com/TheSpaghettiDetective/obico-server) | Obico is a community-built, open-source smart 3D printing platform used by makers, enthusiasts, and tinkerers around the world. | `Vue` ★ 1.8k | 2026-01-16 |

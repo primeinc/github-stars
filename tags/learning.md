@@ -1,10 +1,11 @@
 # Tag: learning
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Semperis/EntraGoat](https://github.com/Semperis/EntraGoat) | A deliberately vulnerable Microsoft Entra ID environment. Learn identity security through hands-on, realistic attack challenges. | `PowerShell` ★ 865 | 2026-01-15 |
-| [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook) | This is a repo with links to everything you'd ever want to learn about data engineering | `Jupyter Notebook` ★ 39.4k | 2025-12-15 |
+| [Semperis/EntraGoat](https://github.com/Semperis/EntraGoat) | A deliberately vulnerable Microsoft Entra ID environment. Learn identity security through hands-on, realistic attack challenges. | `PowerShell` ★ 868 | 2026-01-15 |
+| [siwenwang0803/RedForge](https://github.com/siwenwang0803/RedForge) | No description provided | `Python` ★ 2 | 2026-01-19 |
+| [team-telnyx/demo-dotnet-telnyx](https://github.com/team-telnyx/demo-dotnet-telnyx) | Dotnet Core Examples & Learning | `C#` ★ 4 | 2024-10-28 |

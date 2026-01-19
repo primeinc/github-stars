@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | `Python` ★ 10k | 2026-01-02 |
-| [kyutai-labs/moshi](https://github.com/kyutai-labs/moshi) | Moshi is a speech-text foundation model and full-duplex spoken dialogue framework. It uses Mimi, a state-of-the-art streaming neural audio codec. | `Python` ★ 9.3k | 2026-01-08 |
+| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | `Python` ★ 10.1k | 2026-01-02 |
+| [QwenLM/Qwen-Image](https://github.com/QwenLM/Qwen-Image) | Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing. | `Python` ★ 7.1k | 2025-12-31 |

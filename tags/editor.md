@@ -1,10 +1,11 @@
 # Tag: editor
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | Free, simple, and intuitive online database diagram editor and SQL generator. | `JavaScript` ★ 35.5k | 2026-01-09 |
-| [chartdb/chartdb](https://github.com/chartdb/chartdb) | Database diagrams editor that allows you to visualize and design your DB with a single query. | `TypeScript` ★ 20.9k | 2026-01-13 |
+| [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | Free, simple, and intuitive online database diagram editor and SQL generator. | `JavaScript` ★ 35.6k | 2026-01-18 |
+| [microsoft/edit](https://github.com/microsoft/edit) | We all edit. | `Rust` ★ 13.3k | 2026-01-18 |
+| [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | The swiss army knife of lossless video/audio editing | `TypeScript` ★ 37.3k | 2026-01-18 |

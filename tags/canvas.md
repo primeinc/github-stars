@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [juliangarnier/anime](https://github.com/juliangarnier/anime) | Java Script animation engine | `JavaScript` ★ 65.9k | 2026-01-13 |
-| [kkoomen/pointless](https://github.com/kkoomen/pointless) | An endless drawing canvas desktop app made with Tauri (Rust) and React 🎨 ✍️ | `JavaScript` ★ 1.6k | 2024-06-19 |
+| [vcync/modV](https://github.com/vcync/modV) | modular audio visualisation powered by Java Script | `GLSL` ★ 482 | 2025-12-09 |
+| [mackstann/binpack](https://github.com/mackstann/binpack) | 2D bin-packing using Java Script + canvas | ★ 82 | 2010-10-11 |

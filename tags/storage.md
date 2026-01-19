@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Azure/azure-storage-azcopy](https://github.com/Azure/azure-storage-azcopy) | The new Azure Storage data transfer utility - Az Copy v10 | `Go` ★ 672 | 2026-01-15 |
-| [minio/minio](https://github.com/minio/minio) | Min IO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license. | `Go` ★ 59.8k | 2026-01-06 |
+| [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | Open Source realtime backend in 1 file | `Go` ★ 55.4k | 2026-01-18 |
+| [microsoft/DirectStorage](https://github.com/microsoft/DirectStorage) | Direct Storage for Windows is an API that allows game developers to unlock the full potential of high speed NVMe drives for loading game assets. | `C++` ★ 810 | 2025-10-28 |

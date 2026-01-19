@@ -1,6 +1,6 @@
 # Tag: react-native
 
-*3 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
@@ -9,3 +9,5 @@
 | [berty/berty](https://github.com/berty/berty) | Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network | `TypeScript` ★ 9k | 2026-01-17 |
 | [microsoft/react-native-windows-samples](https://github.com/microsoft/react-native-windows-samples) | A repository showcasing React Native samples and templates for Windows, mac OS, and Surface Duo. | `C#` ★ 533 | 2026-01-02 |
 | [RevenueCat/react-native-purchases](https://github.com/RevenueCat/react-native-purchases) | React Native in-app purchases and subscriptions made easy. Support for i OS and Android. | `TypeScript` ★ 1.1k | 2026-01-18 |
+| [expo/expo](https://github.com/expo/expo) | An open-source framework for making universal native apps with React. Expo runs on Android, i OS, and the web. | `TypeScript` ★ 46.5k | 2026-01-19 |
+| [0perationPrivacy/VoIPSuite-Mobile](https://github.com/0perationPrivacy/VoIPSuite-Mobile) | Mobile App code for Android & i OS on React Native | `JavaScript` ★ 26 | 2023-12-07 |

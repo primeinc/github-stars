@@ -1,17 +1,19 @@
 # Tag: ai-tools
 
-*9 repositories*
+*11 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [frankbria/cli-ify-plugin](https://github.com/frankbria/cli-ify-plugin) | Convert Claude Code skills, commands, and agents into standalone CLI tools for Linux/Mac (Bash) and Windows (Power Shell). | `PowerShell` ★ 1 | 2026-01-09 |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. | `Python` ★ 75.6k | 2026-01-17 |
-| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Claude Skills for Obsidian | ★ 7k | 2026-01-11 |
-| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI. | `Rust` ★ 12k | 2026-01-17 |
-| [elie222/inbox-zero](https://github.com/elie222/inbox-zero) | The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast. | `TypeScript` ★ 9.8k | 2026-01-17 |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. | `Python` ★ 75.7k | 2026-01-19 |
+| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Claude Skills for Obsidian | ★ 7.2k | 2026-01-11 |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex & Gemini CLI. | `Rust` ★ 12.1k | 2026-01-17 |
+| [elie222/inbox-zero](https://github.com/elie222/inbox-zero) | The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast. | `TypeScript` ★ 9.8k | 2026-01-18 |
 | [mcmonkeyprojects/SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) | Swarm UI (formerly Stable Swarm UI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility. | `C#` ★ 3.6k | 2026-01-18 |
-| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 44k | 2025-12-20 |
-| [LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) | Multi-Platform Package Manager for Stable Diffusion | `C#` ★ 7.3k | 2026-01-16 |
-| [docling-project/docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI | `Python` ★ 50.4k | 2026-01-17 |
+| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 44.8k | 2025-12-20 |
+| [LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) | Multi-Platform Package Manager for Stable Diffusion | `C#` ★ 7.3k | 2026-01-19 |
+| [docling-project/docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI | `Python` ★ 50.5k | 2026-01-17 |
+| [qdhenry/Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite) | Professional slash commands for Claude Code that provide structured workflows for software development tasks including code review, feature creation, security auditing, and architectural analysis. | `Shell` ★ 917 | 2026-01-10 |
+| [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss) | No description provided | `Python` ★ 11.9k | 2026-01-01 |

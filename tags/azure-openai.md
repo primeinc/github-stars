@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/content-processing-solution-accelerator](https://github.com/microsoft/content-processing-solution-accelerator) | Programmatically extract data and apply schemas to unstructured documents across text-based and multi-modal content using Azure AI Foundry, Azure Open AI, Azure AI Content Understanding, and Cosmos... | `Python` ★ 167 | 2026-01-14 |
-| [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) | A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure Open AI large language models to power Chat GPT-style and Q&A experiences. | `Python` ★ 7.5k | 2026-01-13 |
+| [microsoft/Conversation-Knowledge-Mining-Solution-Accelerator](https://github.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator) | This solution accelerator leverages Microsoft Foundry, Azure Content Understanding, Azure Open AI Service, and Foundry IQ to enable organizations to derive insights from volumes of conversational d... | `Python` ★ 409 | 2026-01-16 |
+| [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) | A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure Open AI large language models to power Chat GPT-style and Q&A experiences. | `Python` ★ 7.5k | 2026-01-16 |

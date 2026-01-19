@@ -1,11 +1,12 @@
 # Tag: static-site-generator
 
-*3 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [undox-rs/undox](https://github.com/undox-rs/undox) | :book: A batteries-included static site generator built for documentation, with first-class support for aggregating content from multiple repositories | `Rust` ★ 9 | 2025-12-16 |
-| [withastro/astro](https://github.com/withastro/astro) | The web framework for content-driven websites. ⭐️ Star to support our work! | `TypeScript` ★ 55.8k | 2026-01-17 |
-| [withastro/starlight](https://github.com/withastro/starlight) | 🌟 Build beautiful, accessible, high-performance documentation websites with Astro | `TypeScript` ★ 7.7k | 2026-01-17 |
+| [withastro/astro](https://github.com/withastro/astro) | The web framework for content-driven websites. ⭐️ Star to support our work! | `TypeScript` ★ 55.9k | 2026-01-19 |
+| [withastro/starlight](https://github.com/withastro/starlight) | 🌟 Build beautiful, accessible, high-performance documentation websites with Astro | `TypeScript` ★ 7.8k | 2026-01-17 |
+| [iamgio/quarkdown](https://github.com/iamgio/quarkdown) | 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases. | `Kotlin` ★ 9.9k | 2026-01-19 |

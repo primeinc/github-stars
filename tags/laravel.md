@@ -7,13 +7,13 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [webhooksite/webhook.site](https://github.com/webhooksite/webhook.site) | ⚓️ Easily test HTTP webhooks with this handy tool that displays requests instantly. | `JavaScript` ★ 6.4k | 2025-12-16 |
+| [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) | A source-available invoice, quote, project and time-tracking app built with Laravel | `PHP` ★ 9.5k | 2026-01-15 |
 | [ericmakesstuff/laravel-server-monitor](https://github.com/ericmakesstuff/laravel-server-monitor) | Server Monitoring Command for Laravel Applications | `PHP` ★ 428 | 2019-08-15 |
 | [themsaid/laravel-langman](https://github.com/themsaid/laravel-langman) | Language files manager in your artisan console. | `PHP` ★ 878 | 2024-03-30 |
 | [mpociot/laravel-test-factory-helper](https://github.com/mpociot/laravel-test-factory-helper) | Generate Laravel test factories from your existing models | `PHP` ★ 935 | 2024-01-18 |
 | [teepluss/laravel-theme](https://github.com/teepluss/laravel-theme) | Theme and asset managing for laravel | `PHP` ★ 543 | 2021-08-26 |
 | [spatie/laravel-mail-preview](https://github.com/spatie/laravel-mail-preview) | A mail driver to quickly preview mail | `PHP` ★ 1.3k | 2025-09-08 |
 | [snowfire/Beautymail](https://github.com/snowfire/Beautymail) | Send beautiful HTML emails with Laravel | `Blade` ★ 1.3k | 2025-03-06 |
-| [SpartnerNL/Laravel-Excel](https://github.com/SpartnerNL/Laravel-Excel) | 🚀 Supercharged Excel exports and imports in Laravel | `PHP` ★ 12.6k | 2026-01-14 |
 | [michaeldyrynda/phpstorm-laravel-code-style](https://github.com/michaeldyrynda/phpstorm-laravel-code-style) | Php Storm code style to meet Laravel's contribution guidelines | ★ 293 | 2017-05-16 |
 | [CodeSleeve/laravel-stapler](https://github.com/CodeSleeve/laravel-stapler) | Stapler-based file upload package for the Laravel framework. | `PHP` ★ 558 | 2018-05-12 |
 | [davibennun/laravel-push-notification](https://github.com/davibennun/laravel-push-notification) | Laravel package to enable sending push notifications to devices | `PHP` ★ 1.2k | 2023-05-04 |

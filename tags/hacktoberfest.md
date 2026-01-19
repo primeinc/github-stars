@@ -1,11 +1,12 @@
 # Tag: hacktoberfest
 
-*3 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [scrapy/scrapy](https://github.com/scrapy/scrapy) | Scrapy, a fast high-level web crawling & scraping framework for Python. | `Python` ★ 59.4k | 2026-01-09 |
-| [filp/whoops](https://github.com/filp/whoops) | PHP errors for cool kids | `PHP` ★ 13.3k | 2025-11-28 |
-| [Seldaek/monolog](https://github.com/Seldaek/monolog) | Sends your logs to files, sockets, inboxes, databases and various web services | `PHP` ★ 21.4k | 2026-01-09 |
+| [maartenvandiemen/AZD-AppConfiguration](https://github.com/maartenvandiemen/AZD-AppConfiguration) | No description provided | `Bicep` ★ 1 | 2025-10-17 |
+| [swapagarwal/swag-for-dev](https://github.com/swapagarwal/swag-for-dev) | 😎 swag opportunities for developers | `JavaScript` ★ 4.4k | 2024-12-09 |
+| [mikaelbr/node-notifier](https://github.com/mikaelbr/node-notifier) | A Node.js module for sending notifications on native Mac, Windows and Linux (or Growl as fallback) | `JavaScript` ★ 5.8k | 2024-06-24 |
+| [mattermost/mattermost](https://github.com/mattermost/mattermost) | Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.. | `TypeScript` ★ 34.9k | 2026-01-19 |

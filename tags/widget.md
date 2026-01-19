@@ -1,11 +1,10 @@
 # Tag: widget
 
-*3 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [fzf404/Monit](https://github.com/fzf404/Monit) | 🎯 Desktop Widget ( 桌面小组件 ) | `Vue` ★ 839 | 2024-04-05 |
 | [swipelux/zeroid-secrets-storing-widget](https://github.com/swipelux/zeroid-secrets-storing-widget) | No description provided | `TypeScript` ★ 17 | 2024-01-18 |
-| [Winand/breadcrumbsaddressbar](https://github.com/Winand/breadcrumbsaddressbar) | Py Qt6/Py Side6 breadcrumb navigation widget (WIP) | `Python` ★ 29 | 2025-03-26 |
-| [fightforthefuture/battleforthenet-widget](https://github.com/fightforthefuture/battleforthenet-widget) | Embed this widget on your site and help save net neutrality! | `JavaScript` ★ 703 | 2019-02-04 |

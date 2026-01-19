@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) | Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc. | `TypeScript` ★ 2.9k | 2026-01-11 |
-| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h! | `Python` ★ 36.9k | 2026-01-07 |
+| [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) | Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc. | `TypeScript` ★ 3k | 2026-01-11 |
+| [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | A list of AI autonomous agents | ★ 25.3k | 2025-02-26 |

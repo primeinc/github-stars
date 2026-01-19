@@ -1,22 +1,39 @@
 # Testing
 
-*12 repositories*
+*29 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [keploy/keploy](https://github.com/keploy/keploy) | API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs! | `Go` ★ 15.4k | 2026-01-17 |
+| [keploy/keploy](https://github.com/keploy/keploy) | API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs! | `Go` ★ 15.5k | 2026-01-18 |
 | [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust | `Rust` ★ 12.1k | 2026-01-18 |
 | [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static... | `JavaScript` ★ 20.2k | 2026-01-16 |
-| [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 基于图像识别的自动化黑盒测试框架 | An automation black-box testing framework based on image recognition | `C++` ★ 3.1k | 2026-01-16 |
+| [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 基于图像识别的自动化黑盒测试框架 | An automation black-box testing framework based on image recognition | `C++` ★ 3.1k | 2026-01-18 |
 | [Azure/azure-api-management-policy-toolkit](https://github.com/Azure/azure-api-management-policy-toolkit) | Azure API Management policy toolkit is a set of libraries and tools to help managing and testing policies. | `C#` ★ 81 | 2025-12-22 |
-| [python/typeshed](https://github.com/python/typeshed) | Collection of library stubs for Python, with static types | `Python` ★ 5k | 2026-01-16 |
+| [python/typeshed](https://github.com/python/typeshed) | Collection of library stubs for Python, with static types | `Python` ★ 5k | 2026-01-18 |
 | [timdeschryver/zod-fixture](https://github.com/timdeschryver/zod-fixture) | Creating fixtures based on zod schemas | `TypeScript` ★ 143 | 2024-07-13 |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation | `TypeScript` ★ 89.1k | 2026-01-18 |
 | [pmpetit/pglinter](https://github.com/pmpetit/pglinter) | database linter rules | `Rust` ★ 156 | 2026-01-13 |
 | [webhooksite/webhook.site](https://github.com/webhooksite/webhook.site) | ⚓️ Easily test HTTP webhooks with this handy tool that displays requests instantly. | `JavaScript` ★ 6.4k | 2025-12-16 |
 | [Azure/playwright-workspaces](https://github.com/Azure/playwright-workspaces) | No description provided | ★ 8 | 2025-12-10 |
 | [microsoft/WinAppDriver](https://github.com/microsoft/WinAppDriver) | Windows Application Driver | `C#` ★ 4k | 2025-04-14 |
+| [dorny/test-reporter](https://github.com/dorny/test-reporter) | Displays test results from popular testing frameworks directly in Git Hub | `TypeScript` ★ 1.1k | 2026-01-03 |
+| [anishkny/playwright-test-coverage](https://github.com/anishkny/playwright-test-coverage) | Extends Playwright test to measure code coverage | `JavaScript` ★ 96 | 2025-12-12 |
+| [hgrsd/drivel](https://github.com/hgrsd/drivel) | Infer a JSON schema from example data, produce nonsense synthetic data (drivel) according to the schema | `Rust` ★ 46 | 2025-06-08 |
+| [arunoda/meteor-ddp-analyzer](https://github.com/arunoda/meteor-ddp-analyzer) | Simple DDP Proxy which logs DDP messages | `JavaScript` ★ 151 | 2014-08-15 |
+| [antwaremx/meteorman](https://github.com/antwaremx/meteorman) | A DDP client with GUI (The Postman for Meteor) | `Vue` ★ 53 | 2025-03-30 |
+| [github/codeql](https://github.com/github/codeql) | Code QL: the libraries and queries that power security researchers around the world, as well as code scanning in Git Hub Advanced Security | `CodeQL` ★ 9.1k | 2026-01-18 |
+| [ultrafunkamsterdam/undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) | Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / Cloud Flare IUAM) | `Python` ★ 12.2k | 2025-07-05 |
+| [neu-se/testpilot2](https://github.com/neu-se/testpilot2) | Test Pilot 2 | `TypeScript` ★ 30 | 2024-07-23 |
+| [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) | A collection of awesome penetration testing resources, tools and other shiny things | ★ 25k | 2025-12-17 |
+| [nightroman/PowerShellTraps](https://github.com/nightroman/PowerShellTraps) | Collection of Power Shell traps and oddities | `PowerShell` ★ 459 | 2025-10-20 |
+| [ovr/phpsa](https://github.com/ovr/phpsa) | Smart/Static Analyzer(sis) for PHP :bowtie::neckbeard: | `PHP` ★ 637 | 2019-02-27 |
+| [sstalle/php7cc](https://github.com/sstalle/php7cc) | PHP 7 Compatibility Checker | `PHP` ★ 1.5k | 2018-03-20 |
+| [mpociot/laravel-test-factory-helper](https://github.com/mpociot/laravel-test-factory-helper) | Generate Laravel test factories from your existing models | `PHP` ★ 935 | 2024-01-18 |
+| [spatie/laravel-mail-preview](https://github.com/spatie/laravel-mail-preview) | A mail driver to quickly preview mail | `PHP` ★ 1.3k | 2025-09-08 |
+| [phpro/grumphp](https://github.com/phpro/grumphp) | A PHP code-quality tool | `PHP` ★ 4.3k | 2025-12-30 |
+| [valbok/img.chk](https://github.com/valbok/img.chk) | No description provided | `Python` ★ 37 | 2016-12-14 |
+| [sebastianbergmann/phploc](https://github.com/sebastianbergmann/phploc) | A tool for quickly measuring the size of a PHP project. | `PHP` ★ 2.4k | 2025-04-12 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

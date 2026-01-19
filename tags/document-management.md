@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [pdfforge/PDFCreator](https://github.com/pdfforge/PDFCreator) | PDFCreator - The free PDF Converter | `C#` ★ 322 | 2025-07-22 |
-| [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | A community-supported supercharged document management system: scan, index and archive all your documents | `Python` ★ 35.5k | 2026-01-11 |
+| [docusealco/docuseal](https://github.com/docusealco/docuseal) | Open source Docu Sign alternative. Create, fill, and sign digital documents ✍️ | `Ruby` ★ 11.2k | 2026-01-12 |
+| [pdfforge/PDFCreator](https://github.com/pdfforge/PDFCreator) | PDFCreator - The free PDF Converter | `C#` ★ 323 | 2025-07-22 |

@@ -8,5 +8,5 @@
 |---|---|---|---|
 | [Aleafy/V-RGBX](https://github.com/Aleafy/V-RGBX) | V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties | `Python` ★ 92 | 2026-01-17 |
 | [showlab/Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion) | A curated list of recent diffusion models for video generation, editing, and various other applications. | ★ 5.4k | 2026-01-17 |
-| [EzioBy/Ditto](https://github.com/EzioBy/Ditto) | [Preprint 2025] Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset | `Python` ★ 555 | 2025-10-29 |
-| [TencentARC/GenCompositor](https://github.com/TencentARC/GenCompositor) | Official implementation of the paper "Gen Compositor: Generative Video Compositing with Diffusion Transformer" | `Python` ★ 132 | 2025-11-24 |
+| [EzioBy/Ditto](https://github.com/EzioBy/Ditto) | [Preprint 2025] Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset | `Python` ★ 556 | 2025-10-29 |
+| [TencentARC/GenCompositor](https://github.com/TencentARC/GenCompositor) | Official implementation of the paper "Gen Compositor: Generative Video Compositing with Diffusion Transformer" | `Python` ★ 133 | 2025-11-24 |

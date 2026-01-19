@@ -1,10 +1,12 @@
 # Tag: smart-home
 
-*2 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Brandawg93/homebridge-fordpass](https://github.com/Brandawg93/homebridge-fordpass) | Control your Ford vehicle in Home Kit using Homebridge. | `TypeScript` ★ 63 | 2025-11-21 |
-| [itchannel/fordpass-ha](https://github.com/itchannel/fordpass-ha) | Fordpass integration for Home Assistant | `Python` ★ 384 | 2025-11-07 |
+| [acon96/home-llm](https://github.com/acon96/home-llm) | A Home Assistant integration & Model to control your smart home using a Local LLM | `Python` ★ 1.2k | 2026-01-04 |
+| [kpanchen/org.openhab.binding.icomforts30](https://github.com/kpanchen/org.openhab.binding.icomforts30) | Lennox i Comfort S30 binding for Open HAB 3 | `Java` ★ 3 | 2023-04-13 |
+| [thevoltagesource/LennoxiComfort](https://github.com/thevoltagesource/LennoxiComfort) | Home Assistant custom component for controlling Lennox i Comfort Wi Fi and Air Ease Comfort Sync thermostats. | `Python` ★ 40 | 2024-09-07 |
+| [SoCo/SoCo](https://github.com/SoCo/SoCo) | So Co (Sonos Controller) is a Python project that allows you to programmatically control Sonos speakers. | `Python` ★ 1.6k | 2025-12-31 |

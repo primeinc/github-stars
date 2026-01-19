@@ -1,10 +1,12 @@
 # Tag: icons
 
-*2 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [devicons/devicon](https://github.com/devicons/devicon) | Set of icons representing programming languages, designing & development tools | `CSS` ★ 11.4k | 2026-01-15 |
-| [selfhst/icons](https://github.com/selfhst/icons) | Collection of icons and logos maintained by selfh.st | `Go` ★ 685 | 2026-01-16 |
+| [selfhst/icons](https://github.com/selfhst/icons) | Collection of icons and logos maintained by selfh.st | `Go` ★ 687 | 2026-01-16 |
+| [twbs/icons](https://github.com/twbs/icons) | Official open source SVG icon library for Bootstrap. | `TypeScript` ★ 7.9k | 2026-01-01 |
+| [sameerasw/folder-icons](https://github.com/sameerasw/folder-icons) | Folder icons I made in Windows 11 style. | `Python` ★ 731 | 2025-08-13 |

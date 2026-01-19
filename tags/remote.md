@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [amantus-ai/vibetunnel](https://github.com/amantus-ai/vibetunnel) | Turn any browser into your terminal & command your agents on the go. | `TypeScript` ★ 3k | 2026-01-01 |
-| [timminator/ParsecVDA-Always-Connected](https://github.com/timminator/ParsecVDA-Always-Connected) | Connects a Virtual Display to your PC and allows for a headless operation - no need for Dummy Plugs anymore! Now as a Windows service! | `C++` ★ 131 | 2024-07-15 |
+| [srvrco/getssl](https://github.com/srvrco/getssl) | obtain free SSL certificates from letsencrypt ACME server Suitable for automating the process on remote servers. | `Shell` ★ 2.2k | 2025-11-26 |
