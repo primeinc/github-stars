@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-19T04:21:14.106Z"
+  manifest_updated_at: "2026-01-19T04:21:37.840Z"
   total_repos: 1991
   generator_version: v1.0.0
   github_user: primeinc
@@ -34300,13 +34300,19 @@ repositories:
       mirror_url: null
   - repo: alvinunreal/oh-my-opencode-slim
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:ts
+      - orchestration
+      - optimization
+      - opencode
+      - agents
     summary: Slimmed and cleaned oh-my-opencode, consumes much less tokens; Help us grow, consider giving a ⭐;
     last_synced_sha: bbcba0095d7ea3b385ecb4d0f199f9fc04e866e3
     user_starred_at: "2026-01-17T15:52:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34329,15 +34335,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.840Z"
+      prompt_version: v2
   - repo: nextjs/saas-starter
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - lang:ts
+      - nextjs
+      - postgres
+      - stripe
+      - shadcn-ui
     summary: Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui.
     last_synced_sha: 6e33e58b1e553a41fe22e6b941a7229a002de361
     user_starred_at: "2025-08-21T13:44:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34358,15 +34375,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.840Z"
+      prompt_version: v2
   - repo: bitwarden/clients
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - security
+    tags:
+      - lang:ts
+      - browser-extension
+      - cli
+      - password-manager
+      - angular
     summary: Bitwarden client apps (web, browser extension, desktop, and cli).
     last_synced_sha: 16e67566436ae7becbea85f900656c437204824b
     user_starred_at: "2025-08-21T13:44:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34398,15 +34426,26 @@ repositories:
         published_at: "2026-01-13T19:40:15Z"
       is_mirror: false
       mirror_url: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.840Z"
+      prompt_version: v2
   - repo: HeyPuter/puter
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cloud
+    tags:
+      - lang:js
+      - os
+      - cloud-os
+      - web-desktop
+      - remote-desktop
     summary: "\U0001F310 The Internet Computer! Free, Open-Source, and Self-Hostable."
     last_synced_sha: e95aa81e00d2dac43ff6ad196279661e041cb3ec
     user_starred_at: "2025-08-21T13:41:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -34445,15 +34484,26 @@ repositories:
         published_at: "2025-02-14T02:58:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.840Z"
+      prompt_version: v2
   - repo: bytedance/UI-TARS-desktop
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - lang:ts
+      - multimodal
+      - gui-agent
+      - vlm
+      - mcp-server
     summary: 'The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra'
     last_synced_sha: 3f254968e627eaceba5f3e76de18ee9cf8b4d981
     user_starred_at: "2025-08-21T13:41:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34486,15 +34536,26 @@ repositories:
         published_at: "2025-11-04T16:10:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.840Z"
+      prompt_version: v2
   - repo: Shubhamsaboo/awesome-llm-apps
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - lang:python
+      - llms
+      - ai-agents
+      - rag
+      - openai
     summary: Collection of awesome LLM apps with AI Agents and RAG using Open AI, Anthropic, Gemini and opensource models.
     last_synced_sha: df0c377cddfe64e0f24750f5c2abccd9d6077748
     user_starred_at: "2025-08-21T13:41:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -34515,15 +34576,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.840Z"
+      prompt_version: v2
   - repo: moeru-ai/airi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:ts
+      - ai-vtuber
+      - digital-life
+      - chatbot
+      - realtime-voice
     summary: "\U0001F496\U0001F9F8 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Min..."
     last_synced_sha: 372f356964d15766bcad896935bb91f84f65a2d7
     user_starred_at: "2025-08-21T13:39:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34552,15 +34624,26 @@ repositories:
         published_at: "2026-01-14T21:09:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.840Z"
+      prompt_version: v2
   - repo: PixiEditor/PixiEditor
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - lang:csharp
+      - graphics-editor
+      - pixel-art
+      - raster-graphics
+      - game-dev
     summary: Pixi Editor is a Universal Editor for all your 2D needs
     last_synced_sha: 14d87e357f428bce320d76ab285d2277cc3f9021
     user_starred_at: "2025-08-21T13:38:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -34598,15 +34681,25 @@ repositories:
         published_at: "2026-01-06T09:54:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.840Z"
+      prompt_version: v2
   - repo: openstates/openstates-scrapers
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+    tags:
+      - lang:python
+      - government
+      - scrapers
+      - united-states
     summary: source for Open States scrapers
     last_synced_sha: 5ef970f482fc6f0ad1be8c1ed7d55d0e4bf53ac4
     user_starred_at: "2025-08-20T02:22:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -34629,15 +34722,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.840Z"
+      prompt_version: v2
   - repo: dobtco/openrfps-scrapers
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+    tags:
+      - scraping
+      - government
+      - data-collection
     summary: Scraping government contracting opportunities.
     last_synced_sha: f2d7f7eafbbf18eea5df15f0596840e1fbe27235
     user_starred_at: "2025-08-20T02:19:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CoffeeScript
       topics: []
@@ -34654,15 +34756,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.840Z"
+      prompt_version: v2
   - repo: rigwild/mcp-server-amazon
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - lang:ts
+      - mcp
+      - amazon
+      - ai
+      - server
     summary: "\U0001F6CD\U0001F4E6 Unofficial Amazon Model Context Protocol Server (MCP) - Search products and purchase directly from Claude AI! ✨"
     last_synced_sha: c2ad8d60bcde54c4444e98b6ec1201688650e403
     user_starred_at: "2025-08-18T18:58:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34685,15 +34798,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.840Z"
+      prompt_version: v2
   - repo: emcie-co/parlant
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:python
+      - llms
+      - genai
+      - ai-agents
+      - real-world-use
     summary: LLM agents built for control. Designed for real-world use. Deployed in minutes.
     last_synced_sha: 6a39cd415d849abf20abc74cb66674df6084cb21
     user_starred_at: "2025-08-18T02:39:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -34723,15 +34847,26 @@ repositories:
         published_at: "2026-01-05T13:28:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.840Z"
+      prompt_version: v2
   - repo: dtyq/magic
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - lang:php
+      - workflow
+      - low-code
+      - collaboration
+      - generalist-ai
     summary: Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)
     last_synced_sha: a74489ed10c2e550a79b90e0eedc38e4c4310db0
     user_starred_at: "2025-08-18T02:39:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -34759,15 +34894,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.840Z"
+      prompt_version: v2
   - repo: MotiaDev/motia
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - dev-tools
+    tags:
+      - lang:ts
+      - backend
+      - apis
+      - observability
+      - ai
     summary: Multi-Language Backend Framework that unifies APIs, background jobs, queues, workflows, streams, and AI agents with a single core primitive with built-in observability and state management.
     last_synced_sha: a08a6ec21a890f3a31453ef481ed6f62808598c3
     user_starred_at: "2025-08-18T02:17:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34796,15 +34942,26 @@ repositories:
         published_at: "2026-01-09T15:15:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.837Z"
+      prompt_version: v2
   - repo: photoprism/photoprism
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - photos
+      - lang:go
+      - tensorflow
+      - self-hosted
+      - private-cloud
     summary: "AI-Powered Photos App for the Decentralized Web \U0001F308\U0001F48E✨"
     last_synced_sha: b03bd90a05e3423bbfcb1332c20350434ded2e2e
     user_starred_at: "2025-08-17T22:14:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -34831,6 +34988,11 @@ repositories:
         published_at: "2025-12-01T05:07:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:37.837Z"
+      prompt_version: v2
   - repo: Ido-Levi/claude-code-tamagotchi
     categories:
       - ai-ml
