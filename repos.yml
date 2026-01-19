@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-19T04:21:37.840Z"
+  manifest_updated_at: "2026-01-19T04:21:56.844Z"
   total_repos: 1991
   generator_version: v1.0.0
   github_user: primeinc
@@ -34132,13 +34132,18 @@ repositories:
       prompt_version: v2
   - repo: different-ai/openwork
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - collaboration
+      - open-source-ai
+      - workflows
+      - lang:ts
     summary: An open-source alternative to Claude Cowork, powered by Open Code
     last_synced_sha: 5b6465d7081952ace954798f07280a1062f95206
     user_starred_at: "2026-01-18T04:02:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -34157,15 +34162,24 @@ repositories:
         published_at: "2026-01-18T01:36:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:56.844Z"
+      prompt_version: v2
   - repo: maaslalani/gambit
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - game-dev
+    tags:
+      - chess
+      - terminal-game
+      - lang:go
     summary: Play chess in your terminal
     last_synced_sha: 9c3cb904eec3cff1853e992b9aa638f307232969
     user_starred_at: "2026-01-18T04:01:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -34186,15 +34200,25 @@ repositories:
         published_at: "2022-02-23T18:58:07Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:56.844Z"
+      prompt_version: v2
   - repo: originalankur/maptoposter
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - maps
+      - visualdesign
+      - poster-creation
+      - lang:python
     summary: Transform your favorite cities into beautiful, minimalist designs. Map To Poster lets you create and export visually striking map posters with code.
     last_synced_sha: a215ca38d36a118828ce329dee75d31af1c904dd
     user_starred_at: "2026-01-18T04:01:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -34219,15 +34243,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:56.844Z"
+      prompt_version: v2
   - repo: Opencode-DCP/opencode-dynamic-context-pruning
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - context-pruning
+      - optimization
+      - lang:ts
     summary: Dynamic context pruning plugin for Open Code - intelligently manages conversation context to optimize token usage
     last_synced_sha: 7b0e2e882fc86fa5de5534b2006c037fffc3dee6
     user_starred_at: "2026-01-18T03:25:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -34246,15 +34279,24 @@ repositories:
         published_at: "2026-01-16T23:13:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:56.844Z"
+      prompt_version: v2
   - repo: activadee/opencode-auth-sync
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - authentication
+      - sync
+      - lang:ts
     summary: No description provided
     last_synced_sha: bb900fa079162ead9c187e435c0d99631f985f9d
     user_starred_at: "2026-01-18T03:22:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -34273,15 +34315,23 @@ repositories:
         published_at: "2026-01-04T13:59:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:56.841Z"
+      prompt_version: v2
   - repo: julianromli/opencode-template
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - infrastructure
+    tags:
+      - template
+      - lang:c
     summary: opencode-template
     last_synced_sha: c4555ccea98582af8fa18292c3ed6dd8083d85cf
     user_starred_at: "2026-01-18T03:05:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -34298,6 +34348,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-19T04:21:56.841Z"
+      prompt_version: v2
   - repo: alvinunreal/oh-my-opencode-slim
     categories:
       - ai-ml
