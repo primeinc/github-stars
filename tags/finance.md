@@ -6,10 +6,10 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `Python` ★ 59k | 2026-01-18 |
-| [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | Lean Algorithmic Trading Engine by Quant Connect (Python, C#) | `C#` ★ 15.9k | 2026-01-16 |
+| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `Python` ★ 59.1k | 2026-01-19 |
+| [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | Lean Algorithmic Trading Engine by Quant Connect (Python, C#) | `C#` ★ 15.9k | 2026-01-19 |
 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | `Python` ★ 10.1k | 2026-01-02 |
-| [midday-ai/midday](https://github.com/midday-ai/midday) | Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers | `TypeScript` ★ 13.6k | 2026-01-18 |
+| [midday-ai/midday](https://github.com/midday-ai/midday) | Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers | `TypeScript` ★ 13.6k | 2026-01-19 |
 | [coffeeAndCodeMSO/mort_comp](https://github.com/coffeeAndCodeMSO/mort_comp) | Compare two mortgages to see which is a better deal. Typically a 15 year versus a 30 year mortgage. | `JavaScript` ★ 6 | 2018-06-18 |
 | [cfpb/hmda-tools](https://github.com/cfpb/hmda-tools) | Tools to make importing and analyzing mortgage application data easier. This is a public domain work of the US Government. | `Python` ★ 48 | 2025-07-15 |
 | [jbmohler/mortgage](https://github.com/jbmohler/mortgage) | Python mortgage amortization calculations | `Python` ★ 85 | 2017-02-23 |

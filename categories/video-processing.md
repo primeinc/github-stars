@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [VisoMasterFusion/VisoMaster-Fusion](https://github.com/VisoMasterFusion/VisoMaster-Fusion) | Powerful & Easy-to-Use Video Face Swapping and Editing Software | `Python` ★ 36 | 2026-01-11 |
+| [VisoMasterFusion/VisoMaster-Fusion](https://github.com/VisoMasterFusion/VisoMaster-Fusion) | Powerful & Easy-to-Use Video Face Swapping and Editing Software | `Python` ★ 37 | 2026-01-11 |
 | [GVCLab/PersonaLive](https://github.com/GVCLab/PersonaLive) | Persona Live! : Expressive Portrait Image Animation for Live Streaming | `Python` ★ 1.4k | 2025-12-30 |
 | [Aleafy/V-RGBX](https://github.com/Aleafy/V-RGBX) | V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties | `Python` ★ 92 | 2026-01-17 |
 | [aigc-apps/EasyAnimate](https://github.com/aigc-apps/EasyAnimate) | 📺 An End-to-End Solution for High-Resolution and Long Video Generation Based on Transformer Diffusion | `Python` ★ 2.2k | 2025-03-06 |

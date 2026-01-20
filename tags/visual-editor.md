@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [puckeditor/puck](https://github.com/puckeditor/puck) | The visual editor for React | `TypeScript` ★ 11.6k | 2026-01-15 |
-| [makeswift/makeswift](https://github.com/makeswift/makeswift) | No description provided | `TypeScript` ★ 238 | 2026-01-12 |
+| [puckeditor/puck](https://github.com/puckeditor/puck) | The visual editor for React | `TypeScript` ★ 11.7k | 2026-01-15 |
+| [makeswift/makeswift](https://github.com/makeswift/makeswift) | No description provided | `TypeScript` ★ 239 | 2026-01-16 |

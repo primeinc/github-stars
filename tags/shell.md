@@ -1,6 +1,6 @@
 # Tag: shell
 
-*10 repositories*
+*11 repositories*
 
 [← Back to Index](../README.md)
 
@@ -9,6 +9,7 @@
 | [xxh/xxh](https://github.com/xxh/xxh) | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | `Python` ★ 5.9k | 2025-09-22 |
 | [nvbn/thefuck](https://github.com/nvbn/thefuck) | Magnificent app which corrects your previous console command. | `Python` ★ 95.2k | 2024-07-19 |
 | [atuinsh/atuin](https://github.com/atuinsh/atuin) | ✨ Magical shell history | `Rust` ★ 28k | 2026-01-16 |
+| [bixat/nexsh](https://github.com/bixat/nexsh) | Next-generation AI-powered shell using Google Gemini - Translates your words into precise shell commands ⚙️ | `Rust` ★ 16 | 2026-01-10 |
 | [byrdsandbytes/beatnik-pi](https://github.com/byrdsandbytes/beatnik-pi) | Open Source Multiroom Audio Streamer based on Raspberry Pi & Snapcast | `Shell` ★ 444 | 2026-01-09 |
 | [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) | A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php. | ★ 36.3k | 2025-08-28 |
 | [SierraSoftworks/tailscale-udm](https://github.com/SierraSoftworks/tailscale-udm) | Run Tailscale on your Unifi Dream Machine | `Shell` ★ 1.3k | 2026-01-05 |

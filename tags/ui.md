@@ -1,15 +1,16 @@
 # Tag: ui
 
-*10 repositories*
+*11 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [pqoqubbw/icons](https://github.com/pqoqubbw/icons) | beautifully crafted animated icons | `TypeScript` ★ 6.7k | 2026-01-17 |
-| [MCP-UI-Org/mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP. Create next-gen UI experiences with the protocol and SDK! | `TypeScript` ★ 4k | 2025-12-22 |
+| [pqoqubbw/icons](https://github.com/pqoqubbw/icons) | beautifully crafted animated icons | `TypeScript` ★ 6.8k | 2026-01-17 |
+| [MCP-UI-Org/mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP. Create next-gen UI experiences with the protocol and SDK! | `TypeScript` ★ 4.1k | 2025-12-22 |
 | [lepoco/wpfui](https://github.com/lepoco/wpfui) | WPF UI provides the Fluent experience in your known and loved WPF framework. Intuitive design, themes, navigation and new immersive controls. All natively and effortlessly. | `C#` ★ 9.1k | 2026-01-16 |
-| [Galaxies-dev/fintech-clone-react-native](https://github.com/Galaxies-dev/fintech-clone-react-native) | No description provided | `TypeScript` ★ 402 | 2024-11-08 |
+| [dOpensource/dsiprouter](https://github.com/dOpensource/dsiprouter) | UI Interface for implementing Kamailio to provide PBX Hosting and SIP Trunking Services | `Shell` ★ 225 | 2026-01-13 |
+| [Galaxies-dev/fintech-clone-react-native](https://github.com/Galaxies-dev/fintech-clone-react-native) | No description provided | `TypeScript` ★ 403 | 2024-11-08 |
 | [risonsimon/claude-artifacts-react](https://github.com/risonsimon/claude-artifacts-react) | Quickly deploy React code from Claude Artifacts to the internet. | `JavaScript` ★ 49 | 2024-07-02 |
 | [dquiet-lab/sim-control-page](https://github.com/dquiet-lab/sim-control-page) | No description provided | `TypeScript` ★ 1 | 2025-03-25 |
 | [wandb/openui](https://github.com/wandb/openui) | Open UI let's you describe UI using your imagination, then see it rendered live. | `TypeScript` ★ 22k | 2025-12-02 |

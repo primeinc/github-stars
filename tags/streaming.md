@@ -7,9 +7,9 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 7.7k | 2025-12-17 |
-| [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels | `Python` ★ 11k | 2026-01-14 |
-| [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels from all over the world | `TypeScript` ★ 109.8k | 2026-01-19 |
-| [Stremio/stremio-web](https://github.com/Stremio/stremio-web) | Stremio - Freedom to Stream | `JavaScript` ★ 8.9k | 2026-01-18 |
+| [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels | `Python` ★ 11.1k | 2026-01-14 |
+| [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels from all over the world | `TypeScript` ★ 109.9k | 2026-01-20 |
+| [Stremio/stremio-web](https://github.com/Stremio/stremio-web) | Stremio - Freedom to Stream | `JavaScript` ★ 8.9k | 2026-01-19 |
 | [patrickstigler/docker-obs-ndi](https://github.com/patrickstigler/docker-obs-ndi) | docker container to steam via OBS, NDI, NVENC support | `Dockerfile` ★ 23 | 2023-09-14 |
 | [gbraad-apps/NDI-Whiteboard](https://github.com/gbraad-apps/NDI-Whiteboard) | Easy to use Whiteboard application which outputs to NDI endpoint named Whiteboard. | `C#` ★ 46 | 2018-07-26 |
 | [olegchomp/StreamDiffusion-NDI](https://github.com/olegchomp/StreamDiffusion-NDI) | No description provided | `Python` ★ 84 | 2024-01-06 |
