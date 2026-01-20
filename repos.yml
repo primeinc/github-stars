@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-20T04:15:05.881Z"
+  manifest_updated_at: "2026-01-20T04:15:24.477Z"
   total_repos: 1992
   generator_version: v1.0.0
   github_user: primeinc
@@ -83677,13 +83677,18 @@ repositories:
       prompt_version: v2
   - repo: zhongguagua/ai-code-decompile
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - reverse-engineering
+      - js-deobfuscator
+      - code-analysis
+      - lang:ts
     summary: "\U0001F680 AI-powered Java Script Decompiler & Deobfuscator. 基于 AI 与 AST 的 JS 代码分析与混淆还原工具，把不可读的构建产物变成人能看懂的代码。"
     last_synced_sha: 5df97df4f2718e03a6f0bac2b57ce0aa629d7c63
     user_starred_at: "2026-01-19T23:55:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -83713,3 +83718,8 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-20T04:15:24.477Z"
+      prompt_version: v2
