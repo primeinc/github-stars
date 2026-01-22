@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-22T04:18:51.418Z"
+  manifest_updated_at: "2026-01-22T04:19:07.091Z"
   total_repos: 600
   generator_version: v1.0.0
   github_user: primeinc
@@ -21423,13 +21423,17 @@ repositories:
       prompt_version: v2
   - repo: puffinsoft/syntux
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - generative-ui
+      - reactjs
+      - lang:ts
     summary: Consistent, cacheable generative UIs for the web.
     last_synced_sha: 15337429d012134640e172cd8dc3efd3cf993f3b
     user_starred_at: "2026-01-21T18:44:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -21450,15 +21454,24 @@ repositories:
         published_at: "2026-01-21T06:49:53Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:19:07.091Z"
+      prompt_version: v2
   - repo: ramensoftware/windhawk
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - customization
+      - windows-apps
+      - lang:cpp
     summary: 'The customization marketplace for Windows programs: https://windhawk.net/'
     last_synced_sha: b59b38cd77daec98830c0e5e2ad14a35c44f02a7
     user_starred_at: "2025-10-19T19:41:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -21477,15 +21490,26 @@ repositories:
         published_at: "2025-12-08T20:30:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:19:07.091Z"
+      prompt_version: v2
   - repo: amnezia-vpn/amnezia-client
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - vpn-client
+      - vpn-server
+      - lang:cpp
+      - wireguard
+      - openvpn
     summary: Amnezia VPN Client (Desktop+Mobile)
     last_synced_sha: b591dd744558532bad8f4a8fa1f58221dcf2973a
     user_starred_at: "2025-10-19T19:38:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -21513,15 +21537,26 @@ repositories:
         published_at: "2025-11-17T16:23:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:19:07.091Z"
+      prompt_version: v2
   - repo: duckdb/duckdb
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - data-science
+    tags:
+      - sql
+      - olap
+      - analytics
+      - embedded-database
+      - lang:cpp
     summary: Duck DB is an analytical in-process SQL database management system
     last_synced_sha: 9612b5bea5a6df924daf5ce696d6992df2483bfe
     user_starred_at: "2025-10-19T19:38:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -21545,15 +21580,25 @@ repositories:
         published_at: "2025-12-09T10:20:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:19:07.091Z"
+      prompt_version: v2
   - repo: microsoft/microsoft-ui-xaml
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - fluent-design
+      - winui
+      - lang:cpp
+      - windows-10
     summary: 'Win UI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications.'
     last_synced_sha: 50177b54e88e923e24440df679bdf984b0048ab4
     user_starred_at: "2025-10-19T19:38:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -21582,15 +21627,25 @@ repositories:
         published_at: "2026-01-13T23:06:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:19:07.091Z"
+      prompt_version: v2
   - repo: Tyrrrz/YoutubeDownloader
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cli-tools
+    tags:
+      - youtube-downloader
+      - video-download
+      - reverse-engineering
+      - lang:csharp
     summary: Downloads videos and playlists from You Tube
     last_synced_sha: d23f54a03c9c6baa12d962269ce47b3c61bfa699
     user_starred_at: "2025-10-19T19:33:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -21619,15 +21674,25 @@ repositories:
         published_at: "2025-10-25T13:43:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:19:07.091Z"
+      prompt_version: v2
   - repo: ppy/osu
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - rhythm-game
+      - osu
+      - beatmap
+      - lang:csharp
     summary: rhythm is just a *click* away!
     last_synced_sha: 10dc1314f610842e9fb51dc1d00ba3c770b4e734
     user_starred_at: "2025-10-19T19:33:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -21653,15 +21718,25 @@ repositories:
         published_at: "2026-01-19T11:27:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:19:07.091Z"
+      prompt_version: v2
   - repo: LibreHardwareMonitor/LibreHardwareMonitor
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+    tags:
+      - system-monitoring
+      - hardware-monitoring
+      - lang:csharp
+      - temperature-sensors
     summary: Libre Hardware Monitor is free software that can monitor the temperature sensors, fan speeds, voltages, load and clock speeds of your computer.
     last_synced_sha: 24218b0703cd4a5e2e014880b3b5f7d919e2b90b
     user_starred_at: "2025-10-19T19:31:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -21692,15 +21767,26 @@ repositories:
         published_at: "2026-01-07T22:47:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:19:07.091Z"
+      prompt_version: v2
   - repo: mcmonkeyprojects/SwarmUI
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - image-generation
+      - stable-diffusion
+      - modular-ui
+      - lang:csharp
+      - ml
     summary: Swarm UI (formerly Stable Swarm UI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility.
     last_synced_sha: 2912a47a7582701d7e14471baeaf312c5ccc30d5
     user_starred_at: "2025-10-19T19:30:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -21728,15 +21814,25 @@ repositories:
         published_at: "2025-08-25T14:42:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:19:07.090Z"
+      prompt_version: v2
   - repo: jynew/jynew
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - frameworks
+    tags:
+      - jinyong
+      - game-development
+      - modding
+      - lang:csharp
     summary: Jin Yong Legend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game.
     last_synced_sha: 23dd9cb2dfd1afb61ed909c0c44a12ce8d7de891
     user_starred_at: "2025-10-19T19:29:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -21758,6 +21854,11 @@ repositories:
         published_at: "2023-05-11T13:08:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:19:07.090Z"
+      prompt_version: v2
   - repo: clockworklabs/SpacetimeDB
     categories:
       - databases
