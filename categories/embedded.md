@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.4k | 2026-01-21 |
+| [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.4k | 2026-01-22 |
 | [cppqtdev/QT-Home-Automation-Glass-UI](https://github.com/cppqtdev/QT-Home-Automation-Glass-UI) | Linkedin Page | `QML` ★ 25 | 2024-05-18 |
 | [edera-dev/sprout](https://github.com/edera-dev/sprout) | Sprout: UEFI Bootloader in Rust | `Rust` ★ 264 | 2025-12-29 |
 | [leukipp/touchkio](https://github.com/leukipp/touchkio) | Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display. | `JavaScript` ★ 1.1k | 2025-12-15 |

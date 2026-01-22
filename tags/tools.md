@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [builtbybel/FlyOOBE](https://github.com/builtbybel/FlyOOBE) | Fly through your Windows 11 setup 🐝 | `C#` ★ 6.5k | 2026-01-04 |
-| [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) | These are commands I use with agents, mostly Claude | `TypeScript` ★ 630 | 2026-01-18 |
+| [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) | These are commands I use with agents, mostly Claude | `TypeScript` ★ 639 | 2026-01-22 |

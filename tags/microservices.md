@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 37.8k | 2026-01-21 |
+| [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 37.8k | 2026-01-22 |
 | [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) | A curated list of Microservice Architecture related principles and technologies. | ★ 14.1k | 2026-01-17 |

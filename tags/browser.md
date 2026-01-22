@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser | `C++` ★ 57.7k | 2026-01-19 |
-| [Azure/azure-sdk-for-js](https://github.com/Azure/azure-sdk-for-js) | This repository is for active development of the Azure SDK for Java Script (Node JS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.co... | `TypeScript` ★ 2.3k | 2026-01-20 |
+| [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser | `C++` ★ 57.8k | 2026-01-22 |
+| [dolanmiu/docx](https://github.com/dolanmiu/docx) | Easily generate and modify .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser. | `TypeScript` ★ 5.4k | 2025-11-21 |

@@ -6,17 +6,17 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [lancedb/lancedb](https://github.com/lancedb/lancedb) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | `Rust` ★ 8.6k | 2026-01-20 |
+| [lancedb/lancedb](https://github.com/lancedb/lancedb) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | `Rust` ★ 8.6k | 2026-01-22 |
 | [databasus/databasus](https://github.com/databasus/databasus) | Databases backup tool (Postgre SQL, My SQL, Mongo DB) | `Go` ★ 5k | 2026-01-20 |
-| [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.4k | 2026-01-21 |
-| [typesense/typesense](https://github.com/typesense/typesense) | Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to Elastic Search ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences | `C++` ★ 25k | 2026-01-20 |
-| [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.4k | 2026-01-21 |
-| [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c... | `TypeScript` ★ 8.5k | 2026-01-21 |
-| [microsoft/vscode-cosmosdb](https://github.com/microsoft/vscode-cosmosdb) | Azure Cosmos DB extension for VS Code | `TypeScript` ★ 190 | 2026-01-20 |
+| [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.4k | 2026-01-22 |
+| [typesense/typesense](https://github.com/typesense/typesense) | Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to Elastic Search ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences | `C++` ★ 25.1k | 2026-01-21 |
+| [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.4k | 2026-01-22 |
+| [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c... | `TypeScript` ★ 8.5k | 2026-01-22 |
+| [microsoft/vscode-cosmosdb](https://github.com/microsoft/vscode-cosmosdb) | Azure Cosmos DB extension for VS Code | `TypeScript` ★ 190 | 2026-01-21 |
 | [Azure-Samples/dab-swa-wonders](https://github.com/Azure-Samples/dab-swa-wonders) | Boost your developer productivity by creating end-to-end apps quickly! Using Azure Data API Builder for Cosmos DB, this app shows how to build JAMstack apps fast with Cosmos DB as your backend. | `TypeScript` ★ 10 | 2025-01-16 |
 | [microsoft/CosmosDB_Multi-Tenant](https://github.com/microsoft/CosmosDB_Multi-Tenant) | Cosmos DB for Multi-Tenant Applications | ★ 22 | 2022-12-15 |
-| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 2k | 2026-01-20 |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | Memory for AI Agents in 6 lines of code | `Python` ★ 11k | 2026-01-20 |
+| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 2k | 2026-01-21 |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | Memory for AI Agents in 6 lines of code | `Python` ★ 11.1k | 2026-01-22 |
 | [supabase/etl](https://github.com/supabase/etl) | Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines. | `Rust` ★ 2.2k | 2026-01-16 |
 | [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) | Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc. | `TypeScript` ★ 3k | 2026-01-11 |
 | [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | Free, simple, and intuitive online database diagram editor and SQL generator. | `JavaScript` ★ 35.6k | 2026-01-18 |

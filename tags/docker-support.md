@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool | `JavaScript` ★ 81.7k | 2026-01-20 |
-| [henrygd/beszel](https://github.com/henrygd/beszel) | Lightweight server monitoring hub with historical data, docker stats, and alerts. | `Go` ★ 18.8k | 2026-01-20 |
+| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool | `JavaScript` ★ 81.8k | 2026-01-20 |
+| [henrygd/beszel](https://github.com/henrygd/beszel) | Lightweight server monitoring hub with historical data, docker stats, and alerts. | `Go` ★ 18.8k | 2026-01-22 |

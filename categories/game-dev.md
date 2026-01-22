@@ -1,27 +1,28 @@
 # Game-dev
 
-*17 repositories*
+*18 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [maaslalani/gambit](https://github.com/maaslalani/gambit) | Play chess in your terminal | `Go` ★ 884 | 2024-01-25 |
-| [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | Play Station 4 emulator for Windows, Linux and mac OS written in C++ | `C++` ★ 28.1k | 2026-01-19 |
+| [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | Play Station 4 emulator for Windows, Linux and mac OS written in C++ | `C++` ★ 28.1k | 2026-01-21 |
 | [cemu-project/Cemu](https://github.com/cemu-project/Cemu) | Cemu - Wii U emulator | `C++` ★ 8.9k | 2026-01-21 |
-| [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | Complete Open Source and Modular solution for MMO | `C++` ★ 7.9k | 2026-01-21 |
+| [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | Complete Open Source and Modular solution for MMO | `C++` ★ 7.9k | 2026-01-22 |
 | [Babyhamsta/Aimmy](https://github.com/Babyhamsta/Aimmy) | Universal Second Eye for Gamers with Impairments (Universal AI Aim Aligner (AI Aimbot) - ONNX/YOLOv8 - C#) | `C#` ★ 1.3k | 2026-01-20 |
-| [cocos/cocos-cli](https://github.com/cocos/cocos-cli) | COCOS CLI | `TypeScript` ★ 183 | 2026-01-20 |
-| [tixl3d/tixl](https://github.com/tixl3d/tixl) | Ti XL is an open source software to create realtime motion graphics. | `C#` ★ 4.7k | 2026-01-19 |
+| [cocos/cocos-cli](https://github.com/cocos/cocos-cli) | COCOS CLI | `TypeScript` ★ 184 | 2026-01-21 |
+| [tixl3d/tixl](https://github.com/tixl3d/tixl) | Ti XL is an open source software to create realtime motion graphics. | `C#` ★ 4.7k | 2026-01-22 |
 | [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) | The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement ... | `C#` ★ 19.1k | 2026-01-21 |
 | [Vasia92LTU/dv-radialmenu](https://github.com/Vasia92LTU/dv-radialmenu) | Radial Menu css/ui edited and nopixel 4.0 inspired | `Lua` ★ 28 | 2024-09-28 |
-| [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 7.7k | 2025-12-17 |
-| [pshenok/server-survival](https://github.com/pshenok/server-survival) | Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. | `JavaScript` ★ 4.3k | 2026-01-14 |
-| [ocornut/imgui](https://github.com/ocornut/imgui) | Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies | `C++` ★ 70.8k | 2026-01-20 |
-| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage a... | `C#` ★ 5.2k | 2026-01-21 |
-| [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | A list of open source games. | ★ 11.6k | 2026-01-06 |
+| [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 7.8k | 2025-12-17 |
+| [pshenok/server-survival](https://github.com/pshenok/server-survival) | Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. | `JavaScript` ★ 4.3k | 2026-01-21 |
+| [ocornut/imgui](https://github.com/ocornut/imgui) | Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies | `C++` ★ 70.9k | 2026-01-21 |
+| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage a... | `C#` ★ 5.2k | 2026-01-22 |
+| [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | A list of open source games. | ★ 11.7k | 2026-01-06 |
 | [RodericAguilar/Pr_Elevators](https://github.com/RodericAguilar/Pr_Elevators) | Free fivem elevator scripts, works without framework. | `Lua` ★ 24 | 2024-10-14 |
-| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 33.7k | 2026-01-21 |
+| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 33.8k | 2026-01-22 |
 | [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minecraft with a high level of detail. | `Rust` ★ 8.2k | 2026-01-20 |
+| [microsoft/DirectXTK](https://github.com/microsoft/DirectXTK) | The Direct X Tool Kit (aka Direct XTK) is a collection of helper classes for writing Direct X 11.x code in C++ | `C++` ★ 2.8k | 2026-01-09 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

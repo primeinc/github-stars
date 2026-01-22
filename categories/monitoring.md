@@ -6,17 +6,17 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [MicrosoftDocs/azure-monitor-docs](https://github.com/MicrosoftDocs/azure-monitor-docs) | Open source documentation repository for Azure monitor-related services. All content in this repository is published to learn.microsoft.com. | ★ 22 | 2026-01-20 |
+| [MicrosoftDocs/azure-monitor-docs](https://github.com/MicrosoftDocs/azure-monitor-docs) | Open source documentation repository for Azure monitor-related services. All content in this repository is published to learn.microsoft.com. | ★ 22 | 2026-01-21 |
 | [randomascii/UIforETW](https://github.com/randomascii/UIforETW) | User interface for recording and managing ETW traces | `C++` ★ 112 | 2026-01-05 |
-| [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.4k | 2026-01-21 |
-| [rcourtman/Pulse](https://github.com/rcourtman/Pulse) | Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unified dashboard | `Go` ★ 3.9k | 2026-01-20 |
+| [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.4k | 2026-01-22 |
+| [rcourtman/Pulse](https://github.com/rcourtman/Pulse) | Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unified dashboard | `Go` ★ 3.9k | 2026-01-22 |
 | [matijazezelj/sib](https://github.com/matijazezelj/sib) | SIEM in a box | `Python` ★ 63 | 2026-01-16 |
-| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool | `JavaScript` ★ 81.7k | 2026-01-20 |
-| [henrygd/beszel](https://github.com/henrygd/beszel) | Lightweight server monitoring hub with historical data, docker stats, and alerts. | `Go` ★ 18.8k | 2026-01-20 |
+| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool | `JavaScript` ★ 81.8k | 2026-01-20 |
+| [henrygd/beszel](https://github.com/henrygd/beszel) | Lightweight server monitoring hub with historical data, docker stats, and alerts. | `Go` ★ 18.8k | 2026-01-22 |
 | [TwiN/gatus](https://github.com/TwiN/gatus) | Automated developer-oriented status page with alerting and incident support | `Go` ★ 9.8k | 2026-01-20 |
-| [Azure/azure-monitor-baseline-alerts](https://github.com/Azure/azure-monitor-baseline-alerts) | Azure Monitor Baseline Alerts | `Bicep` ★ 293 | 2026-01-19 |
+| [Azure/azure-monitor-baseline-alerts](https://github.com/Azure/azure-monitor-baseline-alerts) | Azure Monitor Baseline Alerts | `Bicep` ★ 294 | 2026-01-21 |
 | [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response) | A curated list of tools for incident response | ★ 8.7k | 2024-07-18 |
-| [aristocratos/btop](https://github.com/aristocratos/btop) | A monitor of resources | `C++` ★ 29.8k | 2026-01-20 |
+| [aristocratos/btop](https://github.com/aristocratos/btop) | A monitor of resources | `C++` ★ 29.8k | 2026-01-21 |
 | [chitalian/openllmetry-js](https://github.com/chitalian/openllmetry-js) | Sister project to Open LLMetry, but in Typescript. Open-source observability for your LLM application, based on Open Telemetry | `TypeScript` ★ 5 | 2025-02-20 |
 | [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) | Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monito... | `Python` ★ 29.9k | 2026-01-20 |
 

@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [1rgs/nanocode](https://github.com/1rgs/nanocode) | Minimal Claude Code alternative. Single Python file, zero dependencies, ~250 lines. | `Python` ★ 1.6k | 2026-01-14 |
-| [dadlerj/tin](https://github.com/dadlerj/tin) | No description provided | `Go` ★ 62 | 2026-01-07 |
+| [dadlerj/tin](https://github.com/dadlerj/tin) | No description provided | `Go` ★ 63 | 2026-01-07 |

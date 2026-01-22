@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `Go` ★ 12.2k | 2026-01-20 |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `Go` ★ 12.2k | 2026-01-21 |
 | [gamosoft/NoteDiscovery](https://github.com/gamosoft/NoteDiscovery) | Your Self-Hosted Knowledge Base | `JavaScript` ★ 2.1k | 2026-01-19 |

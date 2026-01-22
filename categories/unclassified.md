@@ -1,91 +1,95 @@
 # Unclassified
 
-*81 repositories*
+*85 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [different-ai/openwork](https://github.com/different-ai/openwork) | An open-source alternative to Claude Cowork, powered by Open Code | `TypeScript` ★ 1.9k | 2026-01-19 |
-| [maaslalani/gambit](https://github.com/maaslalani/gambit) | Play chess in your terminal | `Go` ★ 881 | 2024-01-25 |
-| [originalankur/maptoposter](https://github.com/originalankur/maptoposter) | Transform your favorite cities into beautiful, minimalist designs. Map To Poster lets you create and export visually striking map posters with code. | `Python` ★ 4k | 2026-01-17 |
-| [Opencode-DCP/opencode-dynamic-context-pruning](https://github.com/Opencode-DCP/opencode-dynamic-context-pruning) | Dynamic context pruning plugin for Open Code - intelligently manages conversation context to optimize token usage | `TypeScript` ★ 454 | 2026-01-18 |
-| [activadee/opencode-auth-sync](https://github.com/activadee/opencode-auth-sync) | No description provided | `TypeScript` ★ 2 | 2026-01-06 |
-| [julianromli/opencode-template](https://github.com/julianromli/opencode-template) | opencode-template | `Shell` ★ 98 | 2026-01-17 |
-| [alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) | Slimmed and cleaned oh-my-opencode, consumes much less tokens; Help us grow, consider giving a ⭐; | `TypeScript` ★ 600 | 2026-01-18 |
-| [nextjs/saas-starter](https://github.com/nextjs/saas-starter) | Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui. | `TypeScript` ★ 15.3k | 2025-12-11 |
-| [bitwarden/clients](https://github.com/bitwarden/clients) | Bitwarden client apps (web, browser extension, desktop, and cli). | `TypeScript` ★ 11.9k | 2026-01-19 |
-| [HeyPuter/puter](https://github.com/HeyPuter/puter) | 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable. | `JavaScript` ★ 38.8k | 2026-01-18 |
-| [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | `TypeScript` ★ 24.3k | 2026-01-14 |
-| [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and RAG using Open AI, Anthropic, Gemini and opensource models. | `Python` ★ 88.2k | 2026-01-14 |
-| [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Min... | `TypeScript` ★ 16.9k | 2026-01-18 |
-| [PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor) | Pixi Editor is a Universal Editor for all your 2D needs | `C#` ★ 7k | 2026-01-16 |
-| [openstates/openstates-scrapers](https://github.com/openstates/openstates-scrapers) | source for Open States scrapers | `Python` ★ 884 | 2026-01-18 |
-| [dobtco/openrfps-scrapers](https://github.com/dobtco/openrfps-scrapers) | Scraping government contracting opportunities. | `CoffeeScript` ★ 77 | 2014-10-03 |
-| [rigwild/mcp-server-amazon](https://github.com/rigwild/mcp-server-amazon) | 🛍📦 Unofficial Amazon Model Context Protocol Server (MCP) - Search products and purchase directly from Claude AI! ✨ | `TypeScript` ★ 15 | 2025-07-25 |
-| [emcie-co/parlant](https://github.com/emcie-co/parlant) | LLM agents built for control. Designed for real-world use. Deployed in minutes. | `Python` ★ 17.5k | 2026-01-18 |
-| [dtyq/magic](https://github.com/dtyq/magic) | Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system) | `PHP` ★ 4.4k | 2025-12-02 |
-| [MotiaDev/motia](https://github.com/MotiaDev/motia) | Multi-Language Backend Framework that unifies APIs, background jobs, queues, workflows, streams, and AI agents with a single core primitive with built-in observability and state management. | `TypeScript` ★ 14.4k | 2026-01-14 |
-| [photoprism/photoprism](https://github.com/photoprism/photoprism) | AI-Powered Photos App for the Decentralized Web 🌈💎✨ | `Go` ★ 39.1k | 2026-01-16 |
-| [Ido-Levi/claude-code-tamagotchi](https://github.com/Ido-Levi/claude-code-tamagotchi) | Real-time behavioral enforcement for Claude Code. Monitors AI actions, detects violations, and interrupts misbehavior. Also has a cute pet. | `TypeScript` ★ 241 | 2025-10-20 |
-| [context-labs/uwu](https://github.com/context-labs/uwu) | No description provided | `TypeScript` ★ 940 | 2025-08-23 |
-| [kamailio/kamailio](https://github.com/kamailio/kamailio) | Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms - | `C` ★ 2.7k | 2026-01-15 |
-| [dOpensource/dsiprouter](https://github.com/dOpensource/dsiprouter) | UI Interface for implementing Kamailio to provide PBX Hosting and SIP Trunking Services | `Shell` ★ 225 | 2026-01-13 |
-| [fusionpbx/fusionpbx](https://github.com/fusionpbx/fusionpbx) | Official Fusion PBX - A full-featured domain based multi-tenant PBX and voice switch for Free Switch. | `PHP` ★ 963 | 2026-01-17 |
-| [xyflow/xyflow](https://github.com/xyflow/xyflow) | React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely cust... | `TypeScript` ★ 34.8k | 2026-01-15 |
-| [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | A list of useful payloads and bypass for Web Application Security and Pentest/CTF | `Python` ★ 74.5k | 2026-01-03 |
-| [megh-bari/pattern-craft](https://github.com/megh-bari/pattern-craft) | Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration. | `TypeScript` ★ 2.8k | 2026-01-11 |
-| [Aider-AI/aider](https://github.com/Aider-AI/aider) | aider is AI pair programming in your terminal | `Python` ★ 39.9k | 2026-01-04 |
-| [Canner/WrenAI](https://github.com/Canner/WrenAI) | ⚡️ Gen BI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds. | `TypeScript` ★ 13.5k | 2026-01-16 |
-| [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) | Authentication for the Web. | `TypeScript` ★ 28k | 2025-12-12 |
-| [calcom/cal.com](https://github.com/calcom/cal.com) | Scheduling infrastructure for absolutely everyone. | `TypeScript` ★ 39.8k | 2026-01-19 |
-| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 28k | 2026-01-17 |
-| [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | 1 min voice data can also be used to train a good TTS model! (few shot voice cloning) | `Python` ★ 54.2k | 2025-12-30 |
-| [unionlabs/union](https://github.com/unionlabs/union) | The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance. | `Rust` ★ 74.4k | 2026-01-17 |
-| [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/j P8Kfh Dhy N | `Python` ★ 58.7k | 2026-01-17 |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data | `TypeScript` ★ 75.8k | 2026-01-19 |
-| [openreplay/openreplay](https://github.com/openreplay/openreplay) | Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues and iterating on your product. | `TypeScript` ★ 11.7k | 2026-01-16 |
-| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | AI Agent + Coding Agent + 300+ assistants: agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs. | `TypeScript` ★ 38k | 2026-01-19 |
-| [Tichau/FileConverter](https://github.com/Tichau/FileConverter) | File Converter is a very simple tool which allows you to convert and compress files using the context menu in windows explorer. | `C#` ★ 13.4k | 2025-11-30 |
-| [builtbybel/CrapFixer](https://github.com/builtbybel/CrapFixer) | Cr*ap Fixer | `C#` ★ 2.1k | 2025-12-25 |
-| [peass-ng/PEASS-ng](https://github.com/peass-ng/PEASS-ng) | PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) | `C#` ★ 19.1k | 2026-01-19 |
-| [elsa-workflows/elsa-core](https://github.com/elsa-workflows/elsa-core) | A .NET workflows library | `C#` ★ 7.6k | 2026-01-17 |
-| [mediar-ai/terminator](https://github.com/mediar-ai/terminator) | playwright for windows computer use | `Rust` ★ 1.3k | 2026-01-17 |
-| [pola-rs/polars](https://github.com/pola-rs/polars) | Extremely fast Query Engine for Data Frames, written in Rust | `Rust` ★ 37k | 2026-01-19 |
-| [Y2Z/monolith](https://github.com/Y2Z/monolith) | ⬛️ CLI tool and library for saving complete web pages as a single HTML file | `Rust` ★ 14.7k | 2025-08-29 |
-| [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | An open source payments switch written in Rust to make payments fast, reliable and affordable | `Rust` ★ 39.7k | 2026-01-19 |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | `Python` ★ 391.7k | 2025-11-04 |
-| [haydenbleasel/ultracite](https://github.com/haydenbleasel/ultracite) | A highly opinionated, zero-configuration linter and formatter. | `TypeScript` ★ 2.6k | 2026-01-18 |
-| [jasonxtn/Argus](https://github.com/jasonxtn/Argus) | The Ultimate Information Gathering Toolkit | `Python` ★ 2.8k | 2025-12-10 |
-| [ghostfolio/ghostfolio](https://github.com/ghostfolio/ghostfolio) | Open Source Wealth Management Software. Angular + Nest JS + Prisma + Nx + Type Script 🤍 | `TypeScript` ★ 7.5k | 2026-01-18 |
-| [coderamp-labs/pad.ws](https://github.com/coderamp-labs/pad.ws) | Whiteboard as an IDE, draw and code in your browser | `TypeScript` ★ 4k | 2025-08-06 |
-| [documenso/documenso](https://github.com/documenso/documenso) | The Open Source Docu Sign Alternative. | `TypeScript` ★ 12.2k | 2026-01-19 |
-| [dask/dask](https://github.com/dask/dask) | Parallel computing with task scheduling | `Python` ★ 13.7k | 2026-01-16 |
-| [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | The open-source Cap Cut alternative | `TypeScript` ★ 45.1k | 2025-12-07 |
-| [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `Python` ★ 9.9k | 2026-01-19 |
-| [cli/cli](https://github.com/cli/cli) | Git Hub’s official command line tool | `Go` ★ 42.1k | 2026-01-16 |
-| [Jedward23/Tmux-Orchestrator](https://github.com/Jedward23/Tmux-Orchestrator) | No description provided | `Python` ★ 1.5k | 2025-07-14 |
-| [microsoft/poml](https://github.com/microsoft/poml) | Prompt Orchestration Markup Language | `TypeScript` ★ 4.8k | 2026-01-14 |
-| [satococoa/wtp](https://github.com/satococoa/wtp) | 🌳 A powerful Git worktree CLI tool with automated setup, branch tracking, and smart navigation | `Go` ★ 292 | 2026-01-16 |
-| [wolfdenpublishing/pyccsl](https://github.com/wolfdenpublishing/pyccsl) | Python Claude Code Status Line (Py CCSL, pronounced "pixel") | `Python` ★ 81 | 2025-08-12 |
-| [manycore-research/SpatialLM](https://github.com/manycore-research/SpatialLM) | [Neur IPS 2025] Spatial LM: Training Large Language Models for Structured Indoor Modeling | `Python` ★ 4.2k | 2025-09-26 |
-| [microsoft/magentic-ui](https://github.com/microsoft/magentic-ui) | A research prototype of a human-centered web agent | `Python` ★ 9.6k | 2025-12-18 |
-| [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown. | `Python` ★ 85.4k | 2026-01-08 |
-| [ArthurVerrez/personal-data-formatter-for-notebooklm](https://github.com/ArthurVerrez/personal-data-formatter-for-notebooklm) | A python utility codebase to format personal data to feed inside Notebook LM, like Whatsapp, Messenger & Instagram conversations, but also Chat GPT conversations, Google Keep & Google Tasks | `Python` ★ 1 | 2025-07-19 |
-| [polarsource/polar](https://github.com/polarsource/polar) | Turn your software into a business. | `Python` ★ 9.3k | 2026-01-18 |
-| [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL Augment Code, Claude Code, Cluely, Code Buddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, Notion AI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer ... | ★ 109.2k | 2026-01-17 |
-| [emilk/egui](https://github.com/emilk/egui) | egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native | `Rust` ★ 27.8k | 2026-01-18 |
-| [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) | A simple zero-config tool to make locally trusted development certificates with any names you'd like. | `Go` ★ 57.8k | 2024-08-13 |
-| [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | Full stack, modern web application template. Using Fast API, React, SQLModel, Postgre SQL, Docker, Git Hub Actions, automatic HTTPS and more. | `TypeScript` ★ 40.8k | 2026-01-16 |
-| [umami-software/umami](https://github.com/umami-software/umami) | Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel and Amplitude. | `TypeScript` ★ 34.8k | 2026-01-17 |
-| [AgentDeskAI/browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp) | Monitor browser logs directly from Cursor and other MCP compatible IDEs. | `JavaScript` ★ 7k | 2025-03-26 |
-| [scraed/LanPaint](https://github.com/scraed/LanPaint) | High quality training free inpaint for every stable diffusion model. Supports Comfy UI | `Python` ★ 903 | 2026-01-17 |
-| [upstash/context7](https://github.com/upstash/context7) | Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors | `TypeScript` ★ 42.5k | 2026-01-17 |
-| [peterkrueck/Claude-Code-Development-Kit](https://github.com/peterkrueck/Claude-Code-Development-Kit) | Handle context at scale - my custom Claude Code workflow including hooks, mcp and sub agents | `Shell` ★ 1.3k | 2025-09-01 |
-| [nytimes/three-loader-3dtiles](https://github.com/nytimes/three-loader-3dtiles) | This is a Three.js loader module for handling OGC 3D Tiles, created by Cesium. It currently supports the two main formats, Batched 3D Model (b3dm) - based on gl TF Point cloud. | `TypeScript` ★ 527 | 2024-10-15 |
-| [storytellingmap/storymap](https://github.com/storytellingmap/storymap) | 3D maps with paths for drawing a story | `JavaScript` ★ 36 | 2024-03-05 |
-| [boatbod/op25](https://github.com/boatbod/op25) | Fork of osmocom OP25 by boatbod | `C++` ★ 428 | 2025-12-11 |
-| [Ylianst/MeshCommander](https://github.com/Ylianst/MeshCommander) | Mesh Commander is a Intel(R) Active Management Technology (Intel(R) AMT) remote management tool. It's feature rich and includes a built-in remote desktop viewer for Hardware-KVM, a Serial-over-LAN ... | `HTML` ★ 549 | 2025-09-10 |
-| [bixat/nexsh](https://github.com/bixat/nexsh) | Next-generation AI-powered shell using Google Gemini - Translates your words into precise shell commands ⚙️ | `Rust` ★ 16 | 2026-01-10 |
+| [puffinsoft/syntux](https://github.com/puffinsoft/syntux) | Consistent, cacheable generative UIs for the web. | `TypeScript` ★ 129 | 2026-01-21 |
+| [ramensoftware/windhawk](https://github.com/ramensoftware/windhawk) | The customization marketplace for Windows programs: https://windhawk.net/ | `C++` ★ 6.7k | 2025-12-08 |
+| [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile) | `C++` ★ 9.7k | 2026-01-21 |
+| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Duck DB is an analytical in-process SQL database management system | `C++` ★ 35.6k | 2026-01-21 |
+| [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | Win UI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications. | `C++` ★ 7.2k | 2026-01-21 |
+| [Tyrrrz/YoutubeDownloader](https://github.com/Tyrrrz/YoutubeDownloader) | Downloads videos and playlists from You Tube | `C#` ★ 14k | 2026-01-01 |
+| [ppy/osu](https://github.com/ppy/osu) | rhythm is just a *click* away! | `C#` ★ 17.8k | 2026-01-21 |
+| [LibreHardwareMonitor/LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor) | Libre Hardware Monitor is free software that can monitor the temperature sensors, fan speeds, voltages, load and clock speeds of your computer. | `C#` ★ 7.8k | 2026-01-20 |
+| [mcmonkeyprojects/SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) | Swarm UI (formerly Stable Swarm UI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility. | `C#` ★ 3.6k | 2026-01-21 |
+| [jynew/jynew](https://github.com/jynew/jynew) | Jin Yong Legend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game. | `C#` ★ 8.8k | 2025-04-19 |
+| [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) | Multiplayer at the speed of light | `Rust` ★ 18.9k | 2026-01-22 |
+| [microsoft/vcpkg](https://github.com/microsoft/vcpkg) | C++ Library Manager for Windows, Linux, and Mac OS | `CMake` ★ 26.5k | 2026-01-21 |
+| [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) | Instant voice cloning by MIT and My Shell. Audio foundation model. | `Python` ★ 35.8k | 2025-04-19 |
+| [tile-ai/tilelang](https://github.com/tile-ai/tilelang) | Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels | `Python` ★ 4.8k | 2026-01-21 |
+| [coleam00/Archon](https://github.com/coleam00/Archon) | Beta release of Archon OS - the knowledge and task management backbone for AI coding assistants. | `Python` ★ 13.6k | 2026-01-20 |
+| [volcengine/MineContext](https://github.com/volcengine/MineContext) | Mine Context is your proactive context-aware AI partner（Context-Engineering+Chat GPT Pulse） | `Python` ★ 4.8k | 2026-01-05 |
+| [sapientinc/HRM](https://github.com/sapientinc/HRM) | Hierarchical Reasoning Model Official Release | `Python` ★ 12.3k | 2025-09-09 |
+| [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scalable. The Memory API for the AI era. | `TypeScript` ★ 14.2k | 2026-01-22 |
+| [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | The simplest, fastest repository for training/finetuning medium-sized GPTs. | `Python` ★ 52.2k | 2025-11-12 |
+| [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best Chat GPT that $100 can buy. | `Python` ★ 40.6k | 2026-01-20 |
+| [atuinsh/atuin](https://github.com/atuinsh/atuin) | ✨ Magical shell history | `Rust` ★ 28k | 2026-01-22 |
+| [atuinsh/desktop](https://github.com/atuinsh/desktop) | 📖 Runbooks that run | `TypeScript` ★ 2.3k | 2026-01-22 |
+| [mountain-loop/yaak](https://github.com/mountain-loop/yaak) | The most intuitive desktop API client. Organize and execute REST, Graph QL, Web Sockets, Server Sent Events, and g RPC 🦬 | `TypeScript` ★ 17.5k | 2026-01-19 |
+| [TheAlgorithms/TypeScript](https://github.com/TheAlgorithms/TypeScript) | Algorithms and Data Structures implemented in Type Script for beginners, following best practices. | `TypeScript` ★ 2.6k | 2024-10-16 |
+| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | All Algorithms implemented in Python | `Python` ★ 217k | 2026-01-21 |
+| [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 🐬Deep Chat - A smart assistant that connects powerful AI to your personal world | `TypeScript` ★ 5.4k | 2026-01-21 |
+| [nanobrowser/nanobrowser](https://github.com/nanobrowser/nanobrowser) | Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to Open AI Operator. | `TypeScript` ★ 12k | 2025-11-24 |
+| [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | Build smaller, faster, and more secure desktop and mobile applications with a web frontend. | `Rust` ★ 101.7k | 2026-01-21 |
+| [spipm/Depixelization_poc](https://github.com/spipm/Depixelization_poc) | Depix is a Po C for a technique to recover plaintext from pixelized screenshots. | `Python` ★ 3.8k | 2025-04-16 |
+| [Quantco/pnpm-licenses](https://github.com/Quantco/pnpm-licenses) | Generate third party license disclaimers in pnpm-based projects | `TypeScript` ★ 13 | 2026-01-02 |
+| [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | An open-source AI agent that lives in your terminal. | `TypeScript` ★ 17.6k | 2026-01-22 |
+| [TheEdoRan/next-safe-action](https://github.com/TheEdoRan/next-safe-action) | Type safe and validated Server Actions in your Next.js project. | `TypeScript` ★ 3k | 2025-09-01 |
+| [pmpetit/pglinter](https://github.com/pmpetit/pglinter) | database linter rules | `Rust` ★ 156 | 2026-01-18 |
+| [vercel-labs/chatgpt-apps-sdk-nextjs-starter](https://github.com/vercel-labs/chatgpt-apps-sdk-nextjs-starter) | No description provided | `TypeScript` ★ 237 | 2025-12-12 |
+| [vercel/nft](https://github.com/vercel/nft) | Node.js dependency tracing utility | `JavaScript` ★ 1.6k | 2026-01-21 |
+| [JustAnotherArchivist/snscrape](https://github.com/JustAnotherArchivist/snscrape) | A social networking service scraper in Python | `Python` ★ 5.3k | 2023-11-15 |
+| [opf/openproject](https://github.com/opf/openproject) | Open Project is the leading open source project management software. | `Ruby` ★ 14.2k | 2026-01-22 |
+| [FalconOpsLLC/goexec](https://github.com/FalconOpsLLC/goexec) | Windows remote execution multitool | `Go` ★ 772 | 2025-10-01 |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 52.2k | 2026-01-22 |
+| [coollabsio/coolify](https://github.com/coollabsio/coolify) | An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv... | `PHP` ★ 49.7k | 2026-01-20 |
+| [cheeriojs/cheerio](https://github.com/cheeriojs/cheerio) | The fast, flexible, and elegant library for parsing and manipulating HTML and XML. | `TypeScript` ★ 30k | 2026-01-22 |
+| [trpc/trpc](https://github.com/trpc/trpc) | 🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | `TypeScript` ★ 39.4k | 2026-01-21 |
+| [eddie-jimenez/IntunePolicyChangeReport](https://github.com/eddie-jimenez/IntunePolicyChangeReport) | An Azure runbook that provides a reliable, human-readable record of what changed in Intune policies, who changed it, and when. | `PowerShell` ★ 20 | 2025-10-22 |
+| [fregante/browser-extension-template](https://github.com/fregante/browser-extension-template) | 📕 Barebones boilerplate with Parcel 2, options handler and auto-publishing | `JavaScript` ★ 839 | 2025-02-03 |
+| [webextension-toolbox/webextension-toolbox](https://github.com/webextension-toolbox/webextension-toolbox) | Small CLI toolbox for cross-browser Web Extension development | `TypeScript` ★ 781 | 2026-01-14 |
+| [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | Cloud-native high-performance edge/middle/service proxy | `C++` ★ 27.4k | 2026-01-21 |
+| [datarootsio/knowledgebase_guardian](https://github.com/datarootsio/knowledgebase_guardian) | A minimal example to demonstrate how LLM's can assist in detecting contradictions in documents. | `Python` ★ 21 | 2023-07-14 |
+| [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) | Tongyi Deep Research, the Leading Open-source Deep Research Agent | `Python` ★ 18k | 2026-01-21 |
+| [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) | The best way to get AI coding agents to solve hard problems in complex codebases. | `TypeScript` ★ 8.8k | 2026-01-22 |
+| [nitrojs/nitro](https://github.com/nitrojs/nitro) | Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer. | `TypeScript` ★ 10.2k | 2026-01-21 |
+| [linexjlin/GPTs](https://github.com/linexjlin/GPTs) | leaked prompts of GPTs | ★ 31.9k | 2024-09-27 |
+| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | `Python` ★ 10.1k | 2026-01-02 |
+| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. | `Python` ★ 68.6k | 2026-01-20 |
+| [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) | An Open Source implementation of Notebook LM with more flexibility and features | `TypeScript` ★ 18.4k | 2026-01-22 |
+| [Orange-Cyberdefense/GOAD](https://github.com/Orange-Cyberdefense/GOAD) | game of active directory | `PowerShell` ★ 7.3k | 2025-07-16 |
+| [bibigon812/xl710-unlocker](https://github.com/bibigon812/xl710-unlocker) | Unlock Intel XL710 / X710 cards for use with any SFP+ | `C` ★ 199 | 2025-04-18 |
+| [Mellanox/mstflint](https://github.com/Mellanox/mstflint) | Mstflint - an open source version of MFT (Mellanox Firmware Tools) | `C` ★ 241 | 2026-01-21 |
+| [documentdb/documentdb](https://github.com/documentdb/documentdb) | Mongo DB-compatible database engine for cloud-native and open-source workloads. Built for scalability, performance, and developer productivity. | `C` ★ 3.1k | 2026-01-20 |
+| [microsoft/vscode-documentdb](https://github.com/microsoft/vscode-documentdb) | Document DB Extension for VS Code | `TypeScript` ★ 20 | 2026-01-20 |
+| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 48.3k | 2025-12-20 |
+| [pnp/provision-assist-m365](https://github.com/pnp/provision-assist-m365) | Provision Assist is a request and provisioning solution for Teams, Groups, SPO Sites and Viva Engage Communities in Microsoft 365. It can be used as part of a Copilot for Microsoft 365 deployment. | `PowerShell` ★ 102 | 2025-04-07 |
+| [microsoftgraph/microsoft-graph-devx-content](https://github.com/microsoftgraph/microsoft-graph-devx-content) | Content used by the Dev X API to enhance clients and tooling. | `JavaScript` ★ 29 | 2026-01-22 |
+| [vadimdemedes/ink](https://github.com/vadimdemedes/ink) | 🌈 React for interactive command-line apps | `TypeScript` ★ 34.2k | 2026-01-21 |
+| [tellerops/teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | `Rust` ★ 3.2k | 2024-07-30 |
+| [dotenvx/dotenvx](https://github.com/dotenvx/dotenvx) | a secure dotenv–from the creator of `dotenv` | `JavaScript` ★ 4.9k | 2026-01-08 |
+| [getsops/sops](https://github.com/getsops/sops) | Simple and flexible tool for managing secrets | `Go` ★ 20.6k | 2026-01-19 |
+| [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI tool for configuring and monitoring Claude Code | `Python` ★ 18k | 2026-01-22 |
+| [retroplasma/earth-reverse-engineering](https://github.com/retroplasma/earth-reverse-engineering) | Reversing Google's 3D satellite mode | `C` ★ 2.3k | 2020-12-23 |
+| [Phantom-video/Phantom](https://github.com/Phantom-video/Phantom) | Phantom: Subject-Consistent Video Generation via Cross-Modal Alignment | `Python` ★ 1.5k | 2025-09-11 |
+| [character-ai/Ovi](https://github.com/character-ai/Ovi) | No description provided | `Python` ★ 1.6k | 2025-11-15 |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader | `Python` ★ 143.3k | 2026-01-19 |
+| [trycompai/comp](https://github.com/trycompai/comp) | AI Native platform to get companies compliant - Vanta & Drata Alternative | `TypeScript` ★ 1.3k | 2026-01-22 |
+| [Azure/Medical-Claims-Transaction-Processing-at-scale](https://github.com/Azure/Medical-Claims-Transaction-Processing-at-scale) | No description provided | `CSS` ★ 43 | 2025-05-12 |
+| [debanjum/ai-wallpaper](https://github.com/debanjum/ai-wallpaper) | Get fresh, personal AI painted wallpapers on your phone or computer. Paints by using your current city, weather and even your recent experiences. Powered by Khoj AI | `Python` ★ 27 | 2024-12-18 |
+| [deechtejoao/stonkfetch](https://github.com/deechtejoao/stonkfetch) | A command-line tool that fetches and displays stock information with beautiful colored ASCII art logos, inspired by neofetch. | `Python` ★ 33 | 2025-11-09 |
+| [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) | Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, Postgre SQL, real-time data API... | `Jupyter Notebook` ★ 54.5k | 2026-01-07 |
+| [Kakulukian/youtube-transcript](https://github.com/Kakulukian/youtube-transcript) | Fetch transcript from a youtube video | `TypeScript` ★ 517 | 2024-07-30 |
+| [JayRHa/EndpointAnalyticsRemediationScripts](https://github.com/JayRHa/EndpointAnalyticsRemediationScripts) | No description provided | `PowerShell` ★ 561 | 2025-07-01 |
+| [PRichardsKSMTA/alvys-azure-function](https://github.com/PRichardsKSMTA/alvys-azure-function) | No description provided | `Python` ★ 1 | 2025-10-20 |
+| [dockur/windows](https://github.com/dockur/windows) | Windows inside a Docker container. | `Shell` ★ 49.6k | 2026-01-13 |
+| [sonnyp/Eloquent](https://github.com/sonnyp/Eloquent) | Your proofreading assistant | `JavaScript` ★ 199 | 2025-12-16 |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome Dev Tools for coding agents | `TypeScript` ★ 21.9k | 2026-01-21 |
+| [areibman/bottleneck](https://github.com/areibman/bottleneck) | Code review for AI native teams. Native Electron app for reviewing pull requests dramatically faster than Github web. Specialized for handling reviews for background agents working on multiple conc... | `TypeScript` ★ 140 | 2025-12-04 |
+| [Dictionarry-Hub/profilarr](https://github.com/Dictionarry-Hub/profilarr) | Configuration Management Platform for Radarr/Sonarr | `JavaScript` ★ 1.7k | 2026-01-22 |
+| [ServiceNow/BrowserGym](https://github.com/ServiceNow/BrowserGym) | 🌎💪 Browser Gym, a Gym environment for web task automation | `Python` ★ 1.1k | 2026-01-21 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
