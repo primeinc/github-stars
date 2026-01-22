@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-22T04:18:02.580Z"
+  manifest_updated_at: "2026-01-22T04:18:29.591Z"
   total_repos: 600
   generator_version: v1.0.0
   github_user: primeinc
@@ -22232,13 +22232,19 @@ repositories:
       mirror_url: null
   - repo: ThinkInAIXYZ/deepchat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - lang:ts
+      - ai-assistant
+      - chatbot
+      - cross-platform
+      - electron
     summary: "\U0001F42CDeep Chat - A smart assistant that connects powerful AI to your personal world"
     last_synced_sha: 63a8f82f20aeb68e0684bfd5aef35218a09a63e6
     user_starred_at: "2025-10-19T19:12:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -22276,15 +22282,26 @@ repositories:
         published_at: "2025-12-13T05:16:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: nanobrowser/nanobrowser
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - lang:ts
+      - chrome-extension
+      - browser-automation
+      - ai-tools
+      - web-automation
     summary: Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to Open AI Operator.
     last_synced_sha: 322384f8b4d48d8614343e51efca68c85e64f90b
     user_starred_at: "2025-10-19T19:07:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -22323,15 +22340,26 @@ repositories:
         published_at: "2025-11-22T13:52:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: tauri-apps/tauri
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - mobile-dev
+    tags:
+      - lang:rust
+      - webview
+      - native-app
+      - high-performance
+      - desktop-app
     summary: Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
     last_synced_sha: c862a0bd8c30a7b5454d3c54a1b7a81ddb1ef1a5
     user_starred_at: "2025-10-19T19:07:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -22357,15 +22385,25 @@ repositories:
         published_at: "2025-12-09T12:12:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: spipm/Depixelization_poc
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - lang:python
+      - depixelization
+      - reverse-engineering
+      - image-processing
     summary: Depix is a Po C for a technique to recover plaintext from pixelized screenshots.
     last_synced_sha: 26c7326b2f620cced2022e4c5a250679f5113012
     user_starred_at: "2025-10-19T19:07:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -22382,15 +22420,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: Quantco/pnpm-licenses
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cli-tools
+    tags:
+      - lang:ts
+      - pnpm
+      - license-checking
+      - dependency-management
     summary: Generate third party license disclaimers in pnpm-based projects
     last_synced_sha: 6b7f054bb42345e07a80b4d1b5bf3b81f1da1c75
     user_starred_at: "2025-10-19T19:06:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -22407,15 +22455,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: QwenLM/qwen-code
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - lang:ts
+      - ai-tools
+      - sdk
+      - automation
     summary: An open-source AI agent that lives in your terminal.
     last_synced_sha: 21b26a400a2125288cd64584422fb3f699b27748
     user_starred_at: "2025-10-19T19:05:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -22434,15 +22492,26 @@ repositories:
         published_at: "2026-01-22T00:16:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: TheEdoRan/next-safe-action
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - dev-tools
+    tags:
+      - lang:ts
+      - nextjs
+      - react
+      - server-actions
+      - typesafety
     summary: Type safe and validated Server Actions in your Next.js project.
     last_synced_sha: 497688fc2b9fb7e7d9aa8b84f975a2181fd9e006
     user_starred_at: "2025-10-19T19:05:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -22476,15 +22545,25 @@ repositories:
         published_at: "2025-09-01T11:12:56Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: pmpetit/pglinter
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - dev-tools
+    tags:
+      - lang:rust
+      - linter
+      - database-rules
+      - pg
     summary: database linter rules
     last_synced_sha: f70adae5d8f8e1cbd5a78814bb8d0e375d098ca4
     user_starred_at: "2025-10-19T19:04:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -22503,15 +22582,25 @@ repositories:
         published_at: "2025-11-22T16:30:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: vercel-labs/chatgpt-apps-sdk-nextjs-starter
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - lang:ts
+      - nextjs
+      - sdk
+      - react
     summary: No description provided
     last_synced_sha: b911c88f93c0a0a9b39d650743fb1085db39a147
     user_starred_at: "2025-10-19T19:03:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -22528,15 +22617,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: vercel/nft
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cli-tools
+    tags:
+      - static-analysis
+      - lang:js
+      - nodejs
     summary: Node.js dependency tracing utility
     last_synced_sha: 34f1ec7e81b59c97d12fb1152ad7aa50dad19d69
     user_starred_at: "2025-10-19T19:02:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -22556,15 +22654,25 @@ repositories:
         published_at: "2026-01-21T18:28:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: JustAnotherArchivist/snscrape
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - automation
+    tags:
+      - lang:python
+      - scraper
+      - social-media
+      - social-network
     summary: A social networking service scraper in Python
     last_synced_sha: 614d4c2029a62d348ca56598f87c425966aaec66
     user_starred_at: "2025-10-19T19:02:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -22585,15 +22693,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: opf/openproject
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - frameworks
+    tags:
+      - lang:ruby
+      - project-management
+      - issue-tracker
+      - angular
+      - gantt-chart
     summary: Open Project is the leading open source project management software.
     last_synced_sha: 4f16afb32cf6ec9cbbbc1f5d53323db1e2e88597
     user_starred_at: "2025-10-19T19:01:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -22629,15 +22748,26 @@ repositories:
         published_at: "2026-01-16T10:19:17Z"
       is_mirror: false
       mirror_url: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: FalconOpsLLC/goexec
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - lang:go
+      - remote-access
+      - windows
+      - hacking
+      - lateral-movement
     summary: Windows remote execution multitool
     last_synced_sha: 91a6da4d83d854bcdf65b03c2821b86719d13944
     user_starred_at: "2025-10-19T19:00:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -22663,15 +22793,27 @@ repositories:
         published_at: "2025-10-01T18:49:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: ultralytics/ultralytics
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - cli-tools
+    tags:
+      - deep-learning
+      - lang:python
+      - image-classification
+      - object-detection
+      - pytorch
     summary: "Ultralytics YOLO \U0001F680"
     last_synced_sha: b6cf97c651fb1468c97186428212f92a7e511ed4
     user_starred_at: "2025-10-19T19:00:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -22710,15 +22852,27 @@ repositories:
         published_at: "2026-01-21T20:29:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: coollabsio/coolify
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - containers
+      - databases
+    tags:
+      - self-hosting
+      - docker
+      - lang:php
+      - svelte
+      - nextjs
     summary: An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv...
     last_synced_sha: a2fa98deb79dde9787a8ae1739658961bf068b23
     user_starred_at: "2025-10-19T19:00:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -22757,6 +22911,11 @@ repositories:
         published_at: "2026-01-16T11:05:11Z"
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:18:29.591Z"
+      prompt_version: v2
   - repo: cheeriojs/cheerio
     categories:
       - web-dev
