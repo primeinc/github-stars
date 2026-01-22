@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-22T04:17:08.205Z"
+  manifest_updated_at: "2026-01-22T04:17:26.110Z"
   total_repos: 600
   generator_version: v1.0.0
   github_user: primeinc
@@ -23695,13 +23695,17 @@ repositories:
       mirror_url: null
   - repo: yt-dlp/yt-dlp
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - web-dev
+    tags:
+      - youtube-downloader
+      - media-downloader
+      - lang:python
     summary: A feature-rich command-line audio/video downloader
     last_synced_sha: c8680b65f79cfeb23b342b70ffe1e233902f7933
     user_starred_at: "2025-10-07T18:44:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -23727,15 +23731,25 @@ repositories:
         published_at: "2025-12-08T00:15:34Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.110Z"
+      prompt_version: v2
   - repo: trycompai/comp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+    tags:
+      - compliance
+      - soc2
+      - nextjs
+      - lang:ts
     summary: AI Native platform to get companies compliant - Vanta & Drata Alternative
     last_synced_sha: 340ff3636e007a844787130ec6a7b65b34dd49af
     user_starred_at: "2025-10-07T02:43:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -23772,15 +23786,23 @@ repositories:
         published_at: "2026-01-19T21:23:24Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.110Z"
+      prompt_version: v2
   - repo: Azure/Medical-Claims-Transaction-Processing-at-scale
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - productivity
+    tags:
+      - medical-claims
+      - css
     summary: No description provided
     last_synced_sha: 5ca64096faf33114d30b584fcfdfb2ed4c2a2556
     user_starred_at: "2025-10-04T21:37:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics: []
@@ -23797,15 +23819,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.110Z"
+      prompt_version: v2
   - repo: debanjum/ai-wallpaper
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - wallpaper-manager
+      - generative-ai
+      - lang:python
     summary: Get fresh, personal AI painted wallpapers on your phone or computer. Paints by using your current city, weather and even your recent experiences. Powered by Khoj AI
     last_synced_sha: 370cdfb19cb53106c560a57368e415fb2decf7db
     user_starred_at: "2025-10-04T01:37:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -23835,15 +23866,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.110Z"
+      prompt_version: v2
   - repo: deechtejoao/stonkfetch
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - stocks
+      - ascii-art
+      - neofetch
+      - lang:python
     summary: A command-line tool that fetches and displays stock information with beautiful colored ASCII art logos, inspired by neofetch.
     last_synced_sha: 140163738930e6ab3fadc8d52033af5152977a15
     user_starred_at: "2025-10-03T12:18:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -23860,15 +23901,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.110Z"
+      prompt_version: v2
   - repo: pathwaycom/llm-app
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+    tags:
+      - rag
+      - data-sync
+      - machine-learning
+      - real-time-data
     summary: "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. \U0001F433Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, Postgre SQL, real-time data API..."
     last_synced_sha: 5fa97b75a177f11fb68cb6ed2da3c0d16f14d9c0
     user_starred_at: "2025-10-03T12:15:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -23900,15 +23951,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.110Z"
+      prompt_version: v2
   - repo: Kakulukian/youtube-transcript
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cli-tools
+    tags:
+      - youtube-api
+      - transcript-fetching
+      - lang:ts
     summary: Fetch transcript from a youtube video
     last_synced_sha: ff08036a45f47005cf7278724e83baeffaae4e7d
     user_starred_at: "2025-10-03T12:15:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -23925,15 +23985,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.110Z"
+      prompt_version: v2
   - repo: JayRHa/EndpointAnalyticsRemediationScripts
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - analytics
+      - powershell-scripts
     summary: No description provided
     last_synced_sha: 9713b5d8f8380f21a8d111314317b8672d82e021
     user_starred_at: "2025-10-02T19:30:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -23950,15 +24018,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.110Z"
+      prompt_version: v2
   - repo: PRichardsKSMTA/alvys-azure-function
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - apis
+    tags:
+      - azure-function
+      - lang:python
     summary: No description provided
     last_synced_sha: fc4bef000694899625533a8580928565f867653c
     user_starred_at: "2025-10-01T02:49:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -23975,15 +24051,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.110Z"
+      prompt_version: v2
   - repo: dockur/windows
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - virtualization
+    tags:
+      - docker
+      - virtualization
+      - windows
     summary: Windows inside a Docker container.
     last_synced_sha: 588969ae5f7ca7d9c9cade09e47adbe057775e0e
     user_starred_at: "2025-09-29T13:02:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -24010,15 +24095,25 @@ repositories:
         published_at: "2025-11-22T04:09:01Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.110Z"
+      prompt_version: v2
   - repo: sonnyp/Eloquent
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - proofreading
+      - linux-app
+      - gtk
+      - lang:js
     summary: Your proofreading assistant
     last_synced_sha: cec258a1389e24e0d6756b5c3adf4440d076ac27
     user_starred_at: "2025-09-29T13:01:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -24043,15 +24138,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.110Z"
+      prompt_version: v2
   - repo: ChromeDevTools/chrome-devtools-mcp
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - chrome-devtools
+      - debugging
+      - browser
+      - lang:ts
     summary: Chrome Dev Tools for coding agents
     last_synced_sha: a5134c6fafb4c6458fb6030c4e1b011e0171344c
     user_starred_at: "2025-09-29T13:00:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -24078,15 +24183,25 @@ repositories:
         published_at: "2026-01-15T07:26:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.110Z"
+      prompt_version: v2
   - repo: areibman/bottleneck
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - desktop-dev
+    tags:
+      - code-review
+      - electron
+      - pull-requests
+      - lang:ts
     summary: Code review for AI native teams. Native Electron app for reviewing pull requests dramatically faster than Github web. Specialized for handling reviews for background agents working on multiple conc...
     last_synced_sha: 103afeda234db07dc0b89ab965ed04164da439e5
     user_starred_at: "2025-09-29T12:59:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -24105,15 +24220,24 @@ repositories:
         published_at: "2025-12-04T10:47:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.107Z"
+      prompt_version: v2
   - repo: Dictionarry-Hub/profilarr
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - media-management
+      - config-tool
+      - lang:js
     summary: Configuration Management Platform for Radarr/Sonarr
     last_synced_sha: 3a0deb16fa1c278e4b0f4020afe1e975327d5640
     user_starred_at: "2025-09-29T12:57:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -24132,15 +24256,24 @@ repositories:
         published_at: "2025-08-26T12:57:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.107Z"
+      prompt_version: v2
   - repo: ServiceNow/BrowserGym
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - llm
+      - web-automation
+      - lang:python
     summary: "\U0001F30E\U0001F4AA Browser Gym, a Gym environment for web task automation"
     last_synced_sha: 0a785fbed075224ae81ca9c1fe924f66050696fe
     user_starred_at: "2025-09-29T12:55:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -24162,6 +24295,11 @@ repositories:
         published_at: "2026-01-20T20:23:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-22T04:17:26.106Z"
+      prompt_version: v2
   - repo: HybridBrothers/Hybrid-Brothers-Blogs
     categories:
       - documentation
