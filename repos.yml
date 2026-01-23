@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-23T04:25:10.573Z"
+  manifest_updated_at: "2026-01-23T04:25:30.223Z"
   total_repos: 2004
   generator_version: v1.0.0
   github_user: primeinc
@@ -53276,13 +53276,18 @@ repositories:
       mirror_url: null
   - repo: browserbase/stagehand
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - ai-browser
+      - playwright
+      - llms
+      - lang:ts
     summary: The AI Browser Automation Framework
     last_synced_sha: ff0f9795f3b2c1cf4f2610a80ebcb3341a24f987
     user_starred_at: "2025-01-28T07:56:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -53307,15 +53312,25 @@ repositories:
         published_at: "2026-01-22T03:37:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.223Z"
+      prompt_version: v2
   - repo: OpenHands/OpenHands
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - llm
+      - developer-tools
+      - ai-agent
+      - lang:python
     summary: "\U0001F64C Open Hands: AI-Driven Development"
     last_synced_sha: d5ee7996701e65eff9eecaefec7a5975eab387e5
     user_starred_at: "2025-01-28T07:56:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -53343,15 +53358,25 @@ repositories:
         published_at: "2026-01-16T14:34:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.223Z"
+      prompt_version: v2
   - repo: khoj-ai/khoj
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - semantic-search
+      - research
+      - ai-assistant
+      - lang:python
     summary: Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous ...
     last_synced_sha: 9cbf620e45e4f2d589fa0d51121a902334edf1fa
     user_starred_at: "2025-01-28T07:55:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -53390,15 +53415,25 @@ repositories:
         published_at: "2026-01-02T04:01:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.223Z"
+      prompt_version: v2
   - repo: n8n-io/n8n
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+    tags:
+      - workflow
+      - low-code
+      - workflow-automation
+      - lang:ts
     summary: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
     last_synced_sha: ccac24b0dec9211ad88b44a60812f39859dc7ed0
     user_starred_at: "2025-01-28T07:55:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -53437,15 +53472,24 @@ repositories:
         published_at: "2026-01-22T14:32:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.223Z"
+      prompt_version: v2
   - repo: deepseek-ai/DeepSeek-LLM
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - llm
+      - ai-framework
+      - makefile
     summary: 'Deep Seek LLM: Let there be answers'
     last_synced_sha: 6712a86bfb7dd25c73383c5ad2eb7a8db540258b
     user_starred_at: "2025-01-28T07:54:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Makefile
       topics: []
@@ -53462,15 +53506,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.223Z"
+      prompt_version: v2
   - repo: llamastack/llama-stack
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - llm-apps
+      - ai-components
+      - lang:python
     summary: Composable building blocks to build LLM Apps
     last_synced_sha: 73beee0d7c1130c10caf7074afe3f44e6065ec40
     user_starred_at: "2025-01-28T07:54:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -53489,15 +53542,26 @@ repositories:
         published_at: "2026-01-16T14:44:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.223Z"
+      prompt_version: v2
   - repo: maybe-finance/maybe
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - personal-finance
+      - hotwire
+      - postgresql
+      - rails
+      - lang:ruby
     summary: The personal finance app for everyone
     last_synced_sha: 77b5469832758d1cbee1a940f3012a1ae1c74cd3
     user_starred_at: "2025-01-28T07:53:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Ruby
@@ -53525,15 +53589,25 @@ repositories:
         published_at: "2025-07-24T22:05:26Z"
       is_mirror: false
       mirror_url: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.223Z"
+      prompt_version: v2
   - repo: argenspin/Rope-Live
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - video-processing
+    tags:
+      - streaming
+      - deepfake
+      - faceswap
+      - lang:python
     summary: Customized fork of Rope Deepfake software featuring live streaming capabilities and support for Deepfacelive models
     last_synced_sha: 7f612054394a23e44ccacc6ca38b77049a79baa3
     user_starred_at: "2025-01-27T16:50:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -53562,15 +53636,24 @@ repositories:
         published_at: "2024-08-22T00:25:12Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.223Z"
+      prompt_version: v2
   - repo: Alucard24/Rope
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - gui
+      - deepfake
+      - lang:python
     summary: GUI-focused roop
     last_synced_sha: 5eb8436e7ff79a4d2528247fb07aaa8c9e71d3ad
     user_starred_at: "2025-01-27T11:59:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -53590,15 +53673,24 @@ repositories:
         published_at: "2024-09-23T18:56:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.223Z"
+      prompt_version: v2
   - repo: swipelux/zeroid-secrets-storing-widget
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ui-libraries
+    tags:
+      - secrets-management
+      - typescript
+      - lang:ts
     summary: No description provided
     last_synced_sha: c757b8a2531b8b5a2e112191d79c65b3f2847d2a
     user_starred_at: "2025-01-27T10:40:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -53615,15 +53707,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.222Z"
+      prompt_version: v2
   - repo: timminator/ParsecVDA-Always-Connected
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - headless
+      - virtual-display
+      - remote
+      - lang:cpp
     summary: Connects a Virtual Display to your PC and allows for a headless operation - no need for Dummy Plugs anymore! Now as a Windows service!
     last_synced_sha: a56e477bc50e8de4f151d6b53aaf46e58b27a205
     user_starred_at: "2025-01-26T20:14:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C++
@@ -53647,15 +53749,24 @@ repositories:
         published_at: "2024-07-15T00:13:45Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.222Z"
+      prompt_version: v2
   - repo: olm3ca/mirror
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - smart-mirror
+      - lululemon
+      - mirror-enhancements
     summary: Enhancements for the Lululemon Mirror
     last_synced_sha: 57d77ee0e3d9c3c5dc3657299e16799897b860bc
     user_starred_at: "2025-01-26T15:51:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -53673,15 +53784,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.222Z"
+      prompt_version: v2
   - repo: dusty-nv/NanoDB
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - ai-ml
+    tags:
+      - cuda
+      - vector-db
+      - lang:python
     summary: Zero-copy multimodal vector DB with CUDA and CLIP/Sig LIP
     last_synced_sha: f8df95db3ac29098d2957628c8ee1fdd9f12b125
     user_starred_at: "2025-01-25T15:38:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -53698,15 +53818,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.222Z"
+      prompt_version: v2
   - repo: paloukari/jetson-detectors
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - embedded
+    tags:
+      - jetson
+      - remote-development
+      - lang:python
     summary: Contains examples and documentation on how to setup your remote development environment from your Windows host to a Jetson device
     last_synced_sha: d9d9a0aa4e86acdbd1e099156c649536a7f36d2c
     user_starred_at: "2025-01-25T15:32:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -53723,15 +53852,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.222Z"
+      prompt_version: v2
   - repo: Ryoyo-NV/People-Flow-Analysis-System
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - embedded
+    tags:
+      - jetson
+      - deepstream
+      - people-detection
+      - lang:python
     summary: People flow analysis system for Jetson Nano, Xavier NX, and AGX Xavier.
     last_synced_sha: 5f6d1c2dc4be59950e56d6df6242631c78309bff
     user_starred_at: "2025-01-25T15:28:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -53751,6 +53890,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:25:30.222Z"
+      prompt_version: v2
   - repo: BestAnHongjun/LMDeploy-Jetson
     categories:
       - ai-ml
