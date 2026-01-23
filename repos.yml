@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-23T04:20:09.260Z"
+  manifest_updated_at: "2026-01-23T04:20:30.877Z"
   total_repos: 2004
   generator_version: v1.0.0
   github_user: primeinc
@@ -59929,13 +59929,16 @@ repositories:
       mirror_url: null
   - repo: intel/intel-one-mono
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - font-design
+      - typography
     summary: Intel One Mono font repository
     last_synced_sha: 12101f8a8b7a11d922ccf7d306043b4e730c0813
     user_starred_at: "2023-06-07T14:42:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -59954,15 +59957,24 @@ repositories:
         published_at: "2024-07-26T14:46:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.877Z"
+      prompt_version: v2
   - repo: oobabooga/text-generation-webui
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - webui
+      - ai-tools
+      - lang:python
     summary: The definitive Web UI for local AI, with powerful features and easy setup.
     last_synced_sha: 910456ba317ae99a313f00c593bd302281aa64ea
     user_starred_at: "2023-06-04T03:42:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -59981,15 +59993,24 @@ repositories:
         published_at: "2026-01-08T20:54:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.877Z"
+      prompt_version: v2
   - repo: nhshin-mcl/MWR
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - learning
+    tags:
+      - python
+      - learning-tool
+      - lang:python
     summary: No description provided
     last_synced_sha: 200843d4ed52753afdb71d447a0c738ecb71da2c
     user_starred_at: "2023-06-02T22:56:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -60006,15 +60027,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.877Z"
+      prompt_version: v2
   - repo: lencx/nofwl
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - desktop-app
+      - cross-platform
+      - lang:rust
     summary: No FWL Desktop Application
     last_synced_sha: f2dd0ddcdf10d7f1cd274e1de7a9b05f7879f9b8
     user_starred_at: "2023-05-17T14:07:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -60040,15 +60070,25 @@ repositories:
         published_at: "2023-03-30T16:56:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.877Z"
+      prompt_version: v2
   - repo: open-mmlab/Multimodal-GPT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - multimodal
+      - gpt-4
+      - vision-and-language
+      - lang:python
     summary: Multimodal-GPT
     last_synced_sha: 9c73e47ad6c339e828a44f164d1a2c5bff904747
     user_starred_at: "2023-05-15T16:53:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -60072,15 +60112,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.877Z"
+      prompt_version: v2
   - repo: kpanchen/org.openhab.binding.icomforts30
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - system-admin
+    tags:
+      - openhab
+      - thermostat-support
+      - lang:java
     summary: Lennox i Comfort S30 binding for Open HAB 3
     last_synced_sha: 48a94fbc453da07014b39c2a571dbdf0928f7513
     user_starred_at: "2023-05-13T02:00:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics: []
@@ -60099,15 +60148,24 @@ repositories:
         published_at: "2023-04-13T06:21:54Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.877Z"
+      prompt_version: v2
   - repo: thevoltagesource/LennoxiComfort
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - system-admin
+    tags:
+      - thermostat-controller
+      - home-automation
+      - lang:python
     summary: Home Assistant custom component for controlling Lennox i Comfort Wi Fi and Air Ease Comfort Sync thermostats.
     last_synced_sha: 84c15247f3d87d8866d55db7c483317f006fb0fc
     user_starred_at: "2023-05-13T01:53:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -60130,15 +60188,24 @@ repositories:
         published_at: "2024-01-21T16:02:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.877Z"
+      prompt_version: v2
   - repo: NVIDIAGameWorks/rtx-remix
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - graphics
+    tags:
+      - path-tracing
+      - nvidia
+      - rtx
     summary: Combined repo for the RTX-Remix runtime and toolkit
     last_synced_sha: 8f455200ea0ddc532b23a9a5281e9d2f4ff861d9
     user_starred_at: "2023-04-12T22:19:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -60161,15 +60228,25 @@ repositories:
         published_at: "2025-09-09T12:58:32Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.877Z"
+      prompt_version: v2
   - repo: microsoft/DirectStorage
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - apis
+    tags:
+      - game-assets
+      - directx
+      - nvme-support
+      - lang:cpp
     summary: Direct Storage for Windows is an API that allows game developers to unlock the full potential of high speed NVMe drives for loading game assets.
     last_synced_sha: 50bb42538525e63aedbbc28e3d8d5d7f5a5d196d
     user_starred_at: "2023-04-08T01:53:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -60190,15 +60267,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.877Z"
+      prompt_version: v2
   - repo: Themis-0/unpyc37
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - learning
+    tags:
+      - decompiler
+      - python-3-7
+      - lang:python
     summary: Decompiler for Python 3.7 (forked from https://github.com/figment/unpyc3)
     last_synced_sha: 8d64c1a9766b59d8b1962983f75f6aabf142b309
     user_starred_at: "2023-04-07T22:34:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -60216,15 +60302,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.877Z"
+      prompt_version: v2
   - repo: Significant-Gravitas/AutoGPT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai
+      - gpt-4
+      - autonomous-agents
+      - lang:python
     summary: Auto GPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
     last_synced_sha: 5d0cd88d9824edea08aead02f95802a4244a95a6
     user_starred_at: "2023-04-07T22:29:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -60250,15 +60346,25 @@ repositories:
         published_at: "2026-01-22T08:51:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.877Z"
+      prompt_version: v2
   - repo: Zerbu/Mod-Constructor-5
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - mod-creation
+      - sims-4
+      - desktop-app
+      - lang:csharp
     summary: The Sims 4 Mod Constructor is a downloadable program that allows users to create mods for The Sims 4 in a user-friendly environment. Version 5 is easier to use than ever!
     last_synced_sha: ab7df5b0aa89a9d2e74054653093ee33a04ab10f
     user_starred_at: "2023-04-07T18:27:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -60277,15 +60383,24 @@ repositories:
         published_at: "2025-08-21T12:32:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.877Z"
+      prompt_version: v2
   - repo: Zetaphor/PromptHub
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - stable-diffusion
+      - webui-plugin
+      - lang:js
     summary: Prompt history and management for the Stable Diffusion AUTOMATIC1111 Web UI
     last_synced_sha: 878f696bb5aed54aa83ae26d53520c6db6f06e68
     user_starred_at: "2023-03-31T02:31:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -60305,15 +60420,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.876Z"
+      prompt_version: v2
   - repo: Comfy-Org/ComfyUI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - stable-diffusion
+      - graph-interface
+      - lang:python
+      - ui-tool
     summary: The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
     last_synced_sha: f443b9f2ca3109f7e3ef6c5de3cdd22330fbf34c
     user_starred_at: "2023-03-30T15:48:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -60338,15 +60463,25 @@ repositories:
         published_at: "2026-01-21T19:22:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.876Z"
+      prompt_version: v2
   - repo: lencx/ChatGPT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - chatgpt
+      - gpt-3
+      - desktop-app
+      - lang:rust
     summary: "\U0001F52E Chat GPT Desktop Application (Mac, Windows and Linux)"
     last_synced_sha: a6de9a8b61077fa63ad5c3ecbe2bc12e0cb4b4b9
     user_starred_at: "2023-03-24T07:49:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -60380,6 +60515,11 @@ repositories:
         published_at: "2023-08-03T13:51:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:20:30.876Z"
+      prompt_version: v2
   - repo: XeroxDev/Loupedeck-plugin-Template
     categories:
       - productivity
