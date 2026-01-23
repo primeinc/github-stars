@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-23T04:13:51.423Z"
+  manifest_updated_at: "2026-01-23T04:14:13.998Z"
   total_repos: 2004
   generator_version: v1.0.0
   github_user: primeinc
@@ -68230,13 +68230,17 @@ repositories:
       mirror_url: null
   - repo: ptejada/uFlex
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - authentication
+      - php-class
+      - lang:php
     summary: All in one PHP user authentication classs
     last_synced_sha: 78a51f3768292f0089ea8f5c5c285af525aa92f6
     user_starred_at: "2015-03-19T04:38:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: PHP
@@ -68254,15 +68258,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.998Z"
+      prompt_version: v2
   - repo: derceg/explorerplusplus
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - file-manager
+      - windows
+      - lightweight
+      - lang:cpp
     summary: Explorer++ is a lightweight and fast file manager for Windows
     last_synced_sha: f74a94da088e19414f7f92a5c6c6022cf3d33abc
     user_starred_at: "2015-03-13T23:06:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -68285,15 +68299,25 @@ repositories:
         published_at: "2024-01-28T15:17:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.998Z"
+      prompt_version: v2
   - repo: xiaolu/mkbootimg_tools
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - infrastructure
+    tags:
+      - boot-image
+      - tools
+      - unpack-repack
+      - lang:shell
     summary: Unpack and repack boot.img,support dtb(dt.img).
     last_synced_sha: 2d8905eb65b3b88490325d2afacd458d859006f6
     user_starred_at: "2015-03-13T04:55:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -68310,15 +68334,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.998Z"
+      prompt_version: v2
   - repo: tdenniston/bish
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - bash
+      - scripting
+      - lang:cpp
     summary: Bish is a language that compiles to Bash. It's designed to give shell scripting a more comfortable and modern feel.
     last_synced_sha: 46bfa258a87b944118091135b5c8630053ad8930
     user_starred_at: "2015-03-12T05:49:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -68335,15 +68368,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.998Z"
+      prompt_version: v2
   - repo: mccloudaero/goliath-quadcopter
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - automation
+    tags:
+      - quadcopter
+      - drone
+      - rotors
+      - px4
     summary: Design files for the Goliath Quadcopter
     last_synced_sha: 65d174822537c3248120b6523f210c9ceff57472
     user_starred_at: "2015-03-11T00:29:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: nesC
       topics:
@@ -68365,15 +68408,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.998Z"
+      prompt_version: v2
   - repo: jenssegers/imagehash
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image
+      - hashing
+      - lang:php
     summary: "\U0001F304 Perceptual image hashing for PHP"
     last_synced_sha: 87ba7051d2fca2edc718091f052424474dedfeae
     user_starred_at: "2015-03-07T04:31:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -68396,15 +68448,25 @@ repositories:
         published_at: "2025-09-17T09:16:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.998Z"
+      prompt_version: v2
   - repo: sdelements/lets-chat
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - chat-app
+      - self-hosted
+      - collaboration
+      - lang:js
     summary: Self-hosted chat app for small teams
     last_synced_sha: 617207ff3c0c0bf8e3c7a915bd9ec03f1dd8390c
     user_starred_at: "2015-03-07T04:20:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: JavaScript
@@ -68424,15 +68486,25 @@ repositories:
         published_at: "2015-06-04T18:30:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.998Z"
+      prompt_version: v2
   - repo: MilhouseVH/autoaway.py
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - apis
+    tags:
+      - auto-away
+      - nest
+      - thermostat
+      - lang:python
     summary: Improved auto-away monitoring for Nest Thermostats
     last_synced_sha: 23447ce8631bcbbcb250d070552e1d2c95e64498
     user_starred_at: "2015-03-04T00:37:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -68449,15 +68521,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.998Z"
+      prompt_version: v2
   - repo: phanan/htaccess
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - documentation
+    tags:
+      - htaccess
+      - snippets
+      - server-config
     summary: ✂A collection of useful .htaccess snippets.
     last_synced_sha: e31a8aadb901a9055022215fd841bce81713637d
     user_starred_at: "2015-02-10T18:56:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -68482,15 +68563,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.998Z"
+      prompt_version: v2
   - repo: moagrius/isOnScreen
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - jquery-plugin
+      - visibility
+      - viewport
+      - lang:js
     summary: Simple j Query plugin to determine if an element is within the viewport
     last_synced_sha: 6c09637705698b1739cd96652caa7bf96ae9d062
     user_starred_at: "2014-12-28T09:01:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -68512,15 +68603,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.998Z"
+      prompt_version: v2
   - repo: psliwa/image-optimizer
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - image-optimization
+      - performance
+      - lang:php
     summary: Image optimization / compression library. This library is able to optimize png, jpg and gif files in very easy and handy way. It uses optipng, pngquant, pngcrush, pngout, gifsicle, jpegoptim and jp...
     last_synced_sha: 5cfbb17c5448f833c564aab42133988835dbce99
     user_starred_at: "2014-12-13T12:01:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -68547,15 +68647,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.998Z"
+      prompt_version: v2
   - repo: shazow/ssh-chat
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - cli-tools
+    tags:
+      - ssh
+      - chat
+      - server
+      - lang:go
     summary: Chat over SSH.
     last_synced_sha: 844e5d5b2675eb011a37ff36d02d0583a371fa29
     user_starred_at: "2014-12-13T11:36:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -68578,15 +68688,25 @@ repositories:
         published_at: "2020-08-03T20:27:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.998Z"
+      prompt_version: v2
   - repo: dimsemenov/PhotoSwipe
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - gallery
+      - lightbox
+      - image
+      - lang:js
     summary: Java Script image gallery for mobile and desktop, modular, framework independent
     last_synced_sha: cd41cb587a460634e4cae53134f3d01d06e284a6
     user_starred_at: "2014-12-13T02:34:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -68609,15 +68729,25 @@ repositories:
         published_at: "2024-05-24T15:18:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.998Z"
+      prompt_version: v2
   - repo: jkoelker/python-nest
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - apis
+    tags:
+      - nest
+      - thermostat
+      - api
+      - lang:python
     summary: Python API and command line tool for talking to the Nest™ Thermostat
     last_synced_sha: 96b3b9719fccfa3063325d7aea5dc1690cf1649e
     user_starred_at: "2014-12-07T01:11:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -68636,15 +68766,24 @@ repositories:
         published_at: "2022-02-08T15:50:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.998Z"
+      prompt_version: v2
   - repo: noodle1983/putty-nd3.x
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - putty
+      - remote-access
+      - lang:cpp
     summary: No description provided
     last_synced_sha: 63526d04229e5c0feb1a55d047b0b51d37cbfb44
     user_starred_at: "2014-12-06T17:34:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -68661,6 +68800,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:13.997Z"
+      prompt_version: v2
   - repo: metafizzy/infinite-scroll
     categories:
       - ui-libraries
