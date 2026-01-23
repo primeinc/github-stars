@@ -1,6 +1,6 @@
 # Devops
 
-*25 repositories*
+*26 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,28 +8,29 @@
 |---|---|---|---|
 | [julianromli/opencode-template](https://github.com/julianromli/opencode-template) | opencode-template | `Shell` ★ 99 | 2026-01-17 |
 | [databasus/databasus](https://github.com/databasus/databasus) | Databases backup tool (Postgre SQL, My SQL, Mongo DB) | `Go` ★ 5k | 2026-01-20 |
-| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `Go` ★ 9.7k | 2026-01-22 |
+| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `Go` ★ 9.7k | 2026-01-23 |
 | [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | `Go` ★ 49.3k | 2026-01-17 |
-| [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | Chat Dev 2.0: Dev All through LLM-powered Multi-Agent Collaboration | `Python` ★ 28.9k | 2026-01-20 |
-| [labring/sealos](https://github.com/labring/sealos) | Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfec... | `TypeScript` ★ 16.8k | 2026-01-22 |
+| [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | Chat Dev 2.0: Dev All through LLM-powered Multi-Agent Collaboration | `Python` ★ 29k | 2026-01-22 |
+| [labring/sealos](https://github.com/labring/sealos) | Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfec... | `TypeScript` ★ 16.8k | 2026-01-23 |
 | [devcontainers/cli](https://github.com/devcontainers/cli) | A reference implementation for the specification that can create and configure a dev container from a devcontainer.json. | `TypeScript` ★ 2.4k | 2026-01-21 |
-| [coredns/coredns](https://github.com/coredns/coredns) | Core DNS is a DNS server that chains plugins | `Go` ★ 13.7k | 2026-01-22 |
-| [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 33.9k | 2026-01-21 |
+| [coredns/coredns](https://github.com/coredns/coredns) | Core DNS is a DNS server that chains plugins | `Go` ★ 13.8k | 2026-01-22 |
+| [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 33.9k | 2026-01-23 |
 | [TwiN/gatus](https://github.com/TwiN/gatus) | Automated developer-oriented status page with alerting and incident support | `Go` ★ 9.8k | 2026-01-20 |
 | [MyOnee/R](https://github.com/MyOnee/R) | Free RDP from Github Actions | `Batchfile` ★ 52 | 2025-06-13 |
-| [nicotsx/zerobyte](https://github.com/nicotsx/zerobyte) | Backup automation for self-hosters. Built on top of restic | `TypeScript` ★ 5k | 2026-01-21 |
+| [nicotsx/zerobyte](https://github.com/nicotsx/zerobyte) | Backup automation for self-hosters. Built on top of restic | `TypeScript` ★ 5.1k | 2026-01-22 |
 | [Azure-Player/azure.datafactory.tools](https://github.com/Azure-Player/azure.datafactory.tools) | Tools for deploying Data Factory (v2) in Microsoft Azure | `PowerShell` ★ 259 | 2025-10-24 |
 | [Azure/ALZ-PowerShell-Module](https://github.com/Azure/ALZ-PowerShell-Module) | The Azure Landing Zones Accelerators Power Shell module | `PowerShell` ★ 107 | 2026-01-13 |
 | [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) | A curated list of Microservice Architecture related principles and technologies. | ★ 14.1k | 2026-01-17 |
-| [Azure/ALZ-Bicep](https://github.com/Azure/ALZ-Bicep) | This repository contains the Azure Landing Zones (ALZ) Bicep modules that help deliver and deploy the Azure Landing Zone conceptual architecture in a modular approach. https://aka.ms/alz/docs | `Bicep` ★ 867 | 2026-01-13 |
-| [HotCakeX/Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security) | Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Pers... | `C#` ★ 4k | 2026-01-21 |
+| [Azure/ALZ-Bicep](https://github.com/Azure/ALZ-Bicep) | This repository contains the Azure Landing Zones (ALZ) Bicep modules that help deliver and deploy the Azure Landing Zone conceptual architecture in a modular approach. https://aka.ms/alz/docs | `Bicep` ★ 868 | 2026-01-22 |
+| [HotCakeX/Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security) | Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Pers... | `C#` ★ 4k | 2026-01-22 |
 | [pshenok/server-survival](https://github.com/pshenok/server-survival) | Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. | `JavaScript` ★ 4.3k | 2026-01-21 |
-| [stan-smith/FossFLOW](https://github.com/stan-smith/FossFLOW) | Make beautiful isometric infrastructure diagrams | `TypeScript` ★ 16.7k | 2026-01-15 |
-| [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (`azd`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 238 | 2026-01-14 |
-| [CompositionalIT/farmer](https://github.com/CompositionalIT/farmer) | Repeatable Azure deployments with ARM templates - made easy! | `F#` ★ 547 | 2025-12-10 |
+| [stan-smith/FossFLOW](https://github.com/stan-smith/FossFLOW) | Make beautiful isometric infrastructure diagrams | `TypeScript` ★ 16.8k | 2026-01-22 |
+| [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (`azd`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 238 | 2026-01-22 |
+| [CompositionalIT/farmer](https://github.com/CompositionalIT/farmer) | Repeatable Azure deployments with ARM templates - made easy! | `F#` ★ 548 | 2025-12-10 |
 | [Azure/deployment-stacks](https://github.com/Azure/deployment-stacks) | Contains Deployment Stacks CLI scripts and releases | `Bicep` ★ 98 | 2024-10-24 |
 | [daveRendon/azinsider](https://github.com/daveRendon/azinsider) | 🚀 The Az Insider Repo offers code samples to help you deploy various workloads in your Azure environment using Bicep language. It simplifies the deployment process and makes it easy to get your ap... | `Bicep` ★ 40 | 2026-01-18 |
 | [TheCloudTheory/arm-estimator](https://github.com/TheCloudTheory/arm-estimator) | ACE (Azure Cost Estimator) - automated cost estimations for ARM Templates, Bicep and Terraform | `C#` ★ 213 | 2025-12-17 |
 | [github/codeql-action](https://github.com/github/codeql-action) | Actions for running Code QL analysis | `TypeScript` ★ 1.5k | 2026-01-22 |
+| [getsops/sops](https://github.com/getsops/sops) | Simple and flexible tool for managing secrets | `Go` ★ 20.6k | 2026-01-19 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

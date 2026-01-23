@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `Go` ★ 9.7k | 2026-01-20 |
-| [rizzui/rizzui](https://github.com/rizzui/rizzui) | 🎉 A Modern and Minimal React UI Library built with Tailwind CSS | `MDX` ★ 361 | 2025-11-16 |
+| [puffinsoft/syntux](https://github.com/puffinsoft/syntux) | Consistent, cacheable generative UIs for the web. | `TypeScript` ★ 138 | 2026-01-21 |
+| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `Go` ★ 9.7k | 2026-01-23 |

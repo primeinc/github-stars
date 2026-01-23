@@ -1,6 +1,6 @@
 # Databases
 
-*14 repositories*
+*23 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,17 +8,26 @@
 |---|---|---|---|
 | [lancedb/lancedb](https://github.com/lancedb/lancedb) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | `Rust` ★ 8.6k | 2026-01-22 |
 | [databasus/databasus](https://github.com/databasus/databasus) | Databases backup tool (Postgre SQL, My SQL, Mongo DB) | `Go` ★ 5k | 2026-01-20 |
-| [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.4k | 2026-01-22 |
+| [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.4k | 2026-01-23 |
 | [typesense/typesense](https://github.com/typesense/typesense) | Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to Elastic Search ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences | `C++` ★ 25.1k | 2026-01-21 |
 | [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.4k | 2026-01-22 |
-| [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c... | `TypeScript` ★ 8.5k | 2026-01-22 |
-| [microsoft/vscode-cosmosdb](https://github.com/microsoft/vscode-cosmosdb) | Azure Cosmos DB extension for VS Code | `TypeScript` ★ 190 | 2026-01-21 |
+| [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c... | `TypeScript` ★ 8.5k | 2026-01-23 |
+| [microsoft/vscode-cosmosdb](https://github.com/microsoft/vscode-cosmosdb) | Azure Cosmos DB extension for VS Code | `TypeScript` ★ 190 | 2026-01-22 |
 | [Azure-Samples/dab-swa-wonders](https://github.com/Azure-Samples/dab-swa-wonders) | Boost your developer productivity by creating end-to-end apps quickly! Using Azure Data API Builder for Cosmos DB, this app shows how to build JAMstack apps fast with Cosmos DB as your backend. | `TypeScript` ★ 10 | 2025-01-16 |
 | [microsoft/CosmosDB_Multi-Tenant](https://github.com/microsoft/CosmosDB_Multi-Tenant) | Cosmos DB for Multi-Tenant Applications | ★ 22 | 2022-12-15 |
-| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 2k | 2026-01-21 |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | Memory for AI Agents in 6 lines of code | `Python` ★ 11.1k | 2026-01-22 |
+| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 2k | 2026-01-22 |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | Memory for AI Agents in 6 lines of code | `Python` ★ 11.2k | 2026-01-22 |
 | [supabase/etl](https://github.com/supabase/etl) | Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines. | `Rust` ★ 2.2k | 2026-01-16 |
 | [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) | Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc. | `TypeScript` ★ 3k | 2026-01-11 |
-| [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | Free, simple, and intuitive online database diagram editor and SQL generator. | `JavaScript` ★ 35.6k | 2026-01-18 |
+| [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | Free, simple, and intuitive online database diagram editor and SQL generator. | `JavaScript` ★ 35.6k | 2026-01-22 |
+| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Duck DB is an analytical in-process SQL database management system | `C++` ★ 35.6k | 2026-01-22 |
+| [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) | Multiplayer at the speed of light | `Rust` ★ 18.9k | 2026-01-23 |
+| [pmpetit/pglinter](https://github.com/pmpetit/pglinter) | database linter rules | `Rust` ★ 156 | 2026-01-18 |
+| [coollabsio/coolify](https://github.com/coollabsio/coolify) | An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv... | `PHP` ★ 49.8k | 2026-01-22 |
+| [documentdb/documentdb](https://github.com/documentdb/documentdb) | Mongo DB-compatible database engine for cloud-native and open-source workloads. Built for scalability, performance, and developer productivity. | `C` ★ 3.1k | 2026-01-20 |
+| [microsoft/vscode-documentdb](https://github.com/microsoft/vscode-documentdb) | Document DB Extension for VS Code | `TypeScript` ★ 20 | 2026-01-22 |
+| [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | Free and Open Source, Distributed, RESTful Search Engine | `Java` ★ 75.9k | 2026-01-22 |
+| [jprante/elasticsearch-jdbc](https://github.com/jprante/elasticsearch-jdbc) | JDBC importer for Elasticsearch | `Java` ★ 2.8k | 2021-11-05 |
+| [stefangabos/Zebra_Database](https://github.com/stefangabos/Zebra_Database) | PHP My SQLi wrapper that is lightweight and secure, featuring prepared statements, debugging tools, and caching support. | `PHP` ★ 118 | 2025-08-31 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
