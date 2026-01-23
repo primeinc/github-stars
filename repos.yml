@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-23T04:14:36.350Z"
+  manifest_updated_at: "2026-01-23T04:14:57.795Z"
   total_repos: 2004
   generator_version: v1.0.0
   github_user: primeinc
@@ -67339,13 +67339,18 @@ repositories:
       mirror_url: null
   - repo: awesome-selfhosted/awesome-selfhosted
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cloud
+    tags:
+      - selfhosting
+      - awesome-list
+      - open-source
+      - network-services
     summary: A list of Free Software network services and web applications which can be hosted on your own servers
     last_synced_sha: a62e220faef20b1b3f4ac4ae22fc925e0f8fe8be
     user_starred_at: "2015-07-31T23:37:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -67372,15 +67377,25 @@ repositories:
         published_at: "2023-08-22T13:54:23Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.795Z"
+      prompt_version: v2
   - repo: codex-project/codex
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - documentation-generator
+      - laravel
+      - awesome-docs
+      - lang:php
     summary: Extendable Documentation Platform written in Laravel 5. Generate easy and awesome documentation!
     last_synced_sha: e7e339b82535cc51c0d130d29657ad3b5629ccce
     user_starred_at: "2015-07-31T23:34:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -67399,15 +67414,26 @@ repositories:
         published_at: "2014-11-16T05:44:52Z"
       is_mirror: false
       mirror_url: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.795Z"
+      prompt_version: v2
   - repo: SpiderOak/Encryptr
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - password-manager
+      - zero-knowledge
+      - e-wallet
+      - cloud-security
+      - lang:js
     summary: Encryptr is a zero-knowledge cloud-based password manager / e-wallet powered by Crypton
     last_synced_sha: e18624e203cb35d9561de26707c4808de308cec4
     user_starred_at: "2015-07-31T22:32:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -67426,15 +67452,26 @@ repositories:
         published_at: "2015-12-10T04:56:07Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.795Z"
+      prompt_version: v2
   - repo: dbcli/mycli
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - databases
+    tags:
+      - mysql
+      - database-client
+      - auto-completion
+      - syntax-highlighting
+      - lang:python
     summary: A Terminal Client for My SQL with Auto Completion and Syntax Highlighting.
     last_synced_sha: 85621747f3c989272e0b0b581b03ebe4f45145de
     user_starred_at: "2015-07-31T22:27:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -67459,15 +67496,25 @@ repositories:
         published_at: "2026-01-22T20:27:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.795Z"
+      prompt_version: v2
   - repo: resume/resume.github.com
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - resume
+      - portfolio
+      - github-data
+      - lang:js
     summary: Resumes generated using the Git Hub informations
     last_synced_sha: f5990756495bfd6d86495733bfb238c96771cbbf
     user_starred_at: "2015-07-24T19:49:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -67484,15 +67531,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.795Z"
+      prompt_version: v2
   - repo: Herzult/php-ssh
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - ssh
+      - api
+      - lang:php
     summary: An experimental object oriented SSH api in PHP
     last_synced_sha: c56875c7d6a6ef070dee8db2b5e77d6f36a02b55
     user_starred_at: "2015-06-17T16:49:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -67511,15 +67567,23 @@ repositories:
         published_at: "2015-03-17T22:04:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.795Z"
+      prompt_version: v2
   - repo: suidroot/sublime-vyatta-syntax
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+    tags:
+      - syntax-highlighting
+      - sublime-text
+      - vyatta
     summary: Sublime Text 2 Syntax for Vyatta
     last_synced_sha: 3608aafbc62ef50c8cda093030b0c1e1a1f8ceab
     user_starred_at: "2015-06-17T16:44:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -67536,15 +67600,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.794Z"
+      prompt_version: v2
   - repo: grafana/grafana
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - data-science
+    tags:
+      - data-visualization
+      - metrics
+      - monitoring
+      - grafana
+      - lang:ts
     summary: The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, Influx DB, Postgres and many m...
     last_synced_sha: 7a25a03dc282d3bc74c0d5e8b7e74414b0445a78
     user_starred_at: "2015-06-16T09:24:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -67578,15 +67653,25 @@ repositories:
         published_at: "2025-12-16T21:58:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.794Z"
+      prompt_version: v2
   - repo: purifycss/purifycss
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - css
+      - optimization
+      - unused-css-removal
+      - lang:js
     summary: Remove unused CSS. Also works with single-page apps.
     last_synced_sha: be52c1c6b1b6e287b6989428c57f05a79aa135dc
     user_starred_at: "2015-06-15T23:21:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -67605,15 +67690,25 @@ repositories:
         published_at: "2017-06-06T20:59:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.794Z"
+      prompt_version: v2
   - repo: derekcsm/hubble_gallery
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - learning
+    tags:
+      - hubble-images
+      - android
+      - gallery
+      - lang:java
     summary: This project is deprecated! Feel free to DM me or open an issue if you want to try and revive it
     last_synced_sha: 79b3891db4877f8f912603f911f93fb4e49c2da2
     user_starred_at: "2015-06-11T03:21:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Java
@@ -67633,15 +67728,25 @@ repositories:
         published_at: "2016-12-28T21:01:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.794Z"
+      prompt_version: v2
   - repo: swissonid/android-design-support-lib-sample
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - learning
+    tags:
+      - android
+      - ux-design
+      - design-library
+      - lang:java
     summary: Just Sample how to use the android design support lib
     last_synced_sha: 01917461597cbfa46e298108ef88408b7943f51e
     user_starred_at: "2015-06-10T23:10:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics: []
@@ -67658,15 +67763,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.794Z"
+      prompt_version: v2
   - repo: netheril96/securefs
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - fuse-filesystem
+      - encryption
+      - cryptography
+      - security-tool
+      - lang:cpp
     summary: Filesystem in userspace (FUSE) with transparent authenticated encryption
     last_synced_sha: de15b9ae54d7c9831c0357bbf5d52e7bc04cb343
     user_starred_at: "2015-06-10T01:07:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -67695,15 +67811,25 @@ repositories:
         published_at: "2025-10-01T14:47:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.794Z"
+      prompt_version: v2
   - repo: magwyz/pastec
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-recognition
+      - indexing
+      - search-engine
+      - lang:cpp
     summary: Image recognition open source index and search engine
     last_synced_sha: b84a2a7f86fd7d8d550b268fedc563128de21a75
     user_starred_at: "2015-06-04T04:15:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -67720,15 +67846,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.794Z"
+      prompt_version: v2
   - repo: jwagner/smartcrop.js
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - image-processing
+      - content-aware
+      - smartcrop
+      - lang:js
     summary: Content aware image cropping
     last_synced_sha: 0e207ed910625f91b07d35865c71a9621a63ebdb
     user_starred_at: "2015-06-04T03:21:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -67751,15 +67887,25 @@ repositories:
         published_at: "2021-09-01T18:04:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.794Z"
+      prompt_version: v2
   - repo: ppamorim/Cult
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - mobile-dev
+    tags:
+      - android-ui
+      - toolbar
+      - ux-design
+      - lang:java
     summary: Toolbar is so boring
     last_synced_sha: 698a7003640513f87a9045cd13ec8a9e4279fcd6
     user_starred_at: "2015-06-02T09:38:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics: []
@@ -67778,6 +67924,11 @@ repositories:
         published_at: "2015-05-31T21:08:23Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-23T04:14:57.794Z"
+      prompt_version: v2
   - repo: vlucas/phpdotenv
     categories:
       - dev-tools
