@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-24T04:17:28.622Z"
+  manifest_updated_at: "2026-01-24T04:17:48.719Z"
   total_repos: 2006
   generator_version: v1.0.0
   github_user: primeinc
@@ -29359,13 +29359,18 @@ repositories:
       mirror_url: null
   - repo: puckeditor/puck
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - visual-editor
+      - react
+      - ai-powered
+      - lang:ts
     summary: The visual editor for React with AI superpowers
     last_synced_sha: 31c70f1c551bf99d12f7504eed8f8733bc59a96d
     user_starred_at: "2025-09-17T09:00:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -29384,15 +29389,25 @@ repositories:
         published_at: "2026-01-14T10:58:05Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.719Z"
+      prompt_version: v2
   - repo: Phantom-video/HuMo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - human-centric
+      - multi-modal
+      - lang:python
+      - video-generation
     summary: 'Hu Mo: Human-Centric Video Generation via Collaborative Multi-Modal Conditioning'
     last_synced_sha: 17094e906f6ad64b91e7086ebb8dcf4de4f230fa
     user_starred_at: "2025-09-17T08:59:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -29409,15 +29424,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.719Z"
+      prompt_version: v2
   - repo: namazso/SecureUxTheme
     categories:
-      - unclassified
-    tags: []
+      - security
+      - desktop-dev
+    tags:
+      - windows
+      - theme
+      - customization
+      - lang:cpp
+      - uxstyle
     summary: "\U0001F3A8 A secure boot compatible in-memory Ux Theme patcher"
     last_synced_sha: 6aa8af8b6547ab629bfcf971d458f5fd3f193ad1
     user_starred_at: "2025-09-17T08:58:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -29448,15 +29474,25 @@ repositories:
         published_at: "2025-06-24T06:01:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.719Z"
+      prompt_version: v2
   - repo: ByteDance-Seed/Bagel
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - multimodal
+      - lang:python
+      - unified-model
+      - machine-learning
     summary: Open-source unified multimodal model
     last_synced_sha: 056b5fd51a88c1eb4547318609e25d40080fcf87
     user_starred_at: "2025-09-17T08:53:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -29473,15 +29509,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.719Z"
+      prompt_version: v2
   - repo: ccfos/nightingale
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - infrastructure
+    tags:
+      - metrics
+      - alerting
+      - observability
+      - lang:go
+      - time-series
     summary: Nightingale is to monitoring and alerting what Grafana is to visualization.
     last_synced_sha: f60771ad9c29278cccf0c9a09ba71cb4c7f952b6
     user_starred_at: "2025-09-17T08:53:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -29509,15 +29556,26 @@ repositories:
         published_at: "2026-01-16T09:36:14Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.719Z"
+      prompt_version: v2
   - repo: usekaneo/kaneo
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - project-management
+      - kanban
+      - react
+      - self-hosted
+      - lang:ts
     summary: "\U0001F3AF All you need. Nothing you don't. Open source project management that works for you, not against you."
     last_synced_sha: e88d2cfb1cbee235c7e297cf944e7e67d3db8050
     user_starred_at: "2025-09-15T07:08:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29547,15 +29605,26 @@ repositories:
         published_at: "2026-01-17T21:46:13Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.719Z"
+      prompt_version: v2
   - repo: vercel/platforms
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - nextjs
+      - multi-tenancy
+      - tailwindcss
+      - vercel
+      - lang:ts
     summary: A full-stack Next.js app with multi-tenancy.
     last_synced_sha: bd3cd5c26e5fe7d10f3d093243d3a31b018a6987
     user_starred_at: "2025-09-14T20:16:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29577,15 +29646,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.719Z"
+      prompt_version: v2
   - repo: CompliantSec/M365SAT
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - microsoft-365
+      - security
+      - assessment
+      - powershell
     summary: Microsoft 365 Security Assessment Tool - A Easy-To-Use Microsoft 365 Security Assessment Tool
     last_synced_sha: a1fdec4a95571989b26103a2079fc5f35bccfd75
     user_starred_at: "2025-09-14T20:04:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -29602,15 +29681,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.719Z"
+      prompt_version: v2
   - repo: betomoedano/snapai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cli-tools
+      - mobile-dev
+    tags:
+      - ai
+      - cli
+      - react-native
+      - expo
+      - lang:ts
     summary: AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using Open AI's latest models.
     last_synced_sha: 127c279be4d28d59badf280aecc1c25944664b59
     user_starred_at: "2025-09-14T07:03:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29636,15 +29727,27 @@ repositories:
         published_at: "2025-06-22T16:13:07Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.719Z"
+      prompt_version: v2
   - repo: piyushsachdeva/AzureDevOps-Zero-to-Hero
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - cloud
+      - productivity
+    tags:
+      - azure
+      - devops
+      - cicd
+      - docker
+      - kubernetes
     summary: A central hub for artifacts, agendas, and resources related to the "Azure Dev Ops Zero to Hero" series on Tech Tutorials with Piyush You Tube channel. Access code snippets, agendas, notes, graphics...
     last_synced_sha: 29f97f0de911a6cdb0993cddb3cf8efc9b282e82
     user_starred_at: "2025-09-13T22:07:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -29670,15 +29773,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.719Z"
+      prompt_version: v2
   - repo: Azure-Samples/remote-mcp-webapp-node
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - azure
+      - nodejs
+      - lang:js
+      - webapp
     summary: No description provided
     last_synced_sha: c5c398e5d8ee4e7aaae45e1bd32ff367b2de8857
     user_starred_at: "2025-09-13T19:56:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -29695,15 +29808,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.719Z"
+      prompt_version: v2
   - repo: Azure-Samples/communication-services-javascript-quickstarts
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - azure
+      - communication-services
+      - lang:js
+      - quickstart
     summary: Sample code for Azure Communication Services Java Script quickstarts
     last_synced_sha: d3805d2c77290bcee57bf0c216e4451dc6d3d6ee
     user_starred_at: "2025-09-13T19:35:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -29720,15 +29843,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.718Z"
+      prompt_version: v2
   - repo: umijs/father
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - npm
+      - package-tools
+      - lang:ts
+      - builder
     summary: NPM package development tool
     last_synced_sha: 1bf432847ba8a5051cf454e932ca5fd4a3044385
     user_starred_at: "2025-09-13T18:24:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -29747,15 +29880,25 @@ repositories:
         published_at: "2025-12-19T07:49:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.718Z"
+      prompt_version: v2
   - repo: unjs/pathe
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - nodejs
+      - path-module
+      - file-system
+      - lang:ts
     summary: "\U0001F6E3️ Drop-in replacement of the Node.js's path module module that ensures paths are normalized"
     last_synced_sha: 1b504b26e02dce104dca58a270e1e7648944573c
     user_starred_at: "2025-09-13T18:19:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -29774,15 +29917,25 @@ repositories:
         published_at: "2025-02-11T19:47:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.718Z"
+      prompt_version: v2
   - repo: unjs/obuild
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - esm
+      - typescript
+      - lang:ts
+      - builder
     summary: "\U0001F4E6 \U0001F62F Zero-config ESM/TS package builder."
     last_synced_sha: 6e37e4eddf9823dd55f0e377d586863cdc1b58bc
     user_starred_at: "2025-09-13T18:16:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -29801,6 +29954,11 @@ repositories:
         published_at: "2026-01-22T16:19:12Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:17:48.718Z"
+      prompt_version: v2
   - repo: RentCast/api-resources
     categories:
       - apis
