@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-24T04:07:48.648Z"
+  manifest_updated_at: "2026-01-24T04:08:07.904Z"
   total_repos: 2006
   generator_version: v1.0.0
   github_user: primeinc
@@ -41709,13 +41709,19 @@ repositories:
       mirror_url: null
   - repo: qdhenry/Claude-Command-Suite
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - ai-tools
+      - cli-tools
+      - claude-code
+      - security-audit
+      - workflow-automation
     summary: Professional slash commands for Claude Code that provide structured workflows for software development tasks including code review, feature creation, security auditing, and architectural analysis.
     last_synced_sha: 93a0726bb1e2305d68bddcd3b746fe609a330c2c
     user_starred_at: "2025-06-16T22:15:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -41745,15 +41751,24 @@ repositories:
         published_at: "2025-10-19T16:16:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.904Z"
+      prompt_version: v2
   - repo: panoramicdata/Meraki.Api
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - meraki
+      - api
+      - lang:cs
     summary: Meraki Api Nuget Package
     last_synced_sha: 9a3c5196fd8daef402fe2f0e28935dffe8385910
     user_starred_at: "2025-06-16T19:20:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -41770,15 +41785,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.904Z"
+      prompt_version: v2
   - repo: meraki/dashboard-api-python
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - networking
+    tags:
+      - meraki-api
+      - dashboard-api
+      - lang:python
+      - automation
     summary: Official Dashboard API library (SDK) for Python
     last_synced_sha: ed9af0622e0a6e3aa70b5a4af06c5fdfc6f77744
     user_starred_at: "2025-06-16T19:20:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -41802,15 +41827,25 @@ repositories:
         published_at: "2026-01-08T18:04:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.904Z"
+      prompt_version: v2
   - repo: Azure/PSRule.Rules.Azure
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - devops
+    tags:
+      - ps-rule
+      - azure
+      - infrastructure-as-code
+      - lang:ps
     summary: Rules to validate Azure resources and infrastructure as code (Ia C) using PSRule.
     last_synced_sha: 2b9ce96ab173a5feb245a02b08d91f87d572d46e
     user_starred_at: "2025-06-16T03:22:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -41841,15 +41876,24 @@ repositories:
         published_at: "2026-01-08T02:53:01Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.904Z"
+      prompt_version: v2
   - repo: modelcontextprotocol/python-sdk
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - mcp
+      - sdk
+      - lang:python
     summary: The official Python SDK for Model Context Protocol servers and clients
     last_synced_sha: a7ddfdae0721d5c78b35c7810fc4b1a6303538b9
     user_starred_at: "2025-06-15T17:42:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -41868,15 +41912,25 @@ repositories:
         published_at: "2025-12-18T17:15:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.904Z"
+      prompt_version: v2
   - repo: team-telnyx/telnyx-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - mcp
+      - ai-assistant
+      - telephony
+      - lang:python
     summary: Official Telnyx Local Model Context Protocol (MCP) Server that enables interaction with powerful telephony, messaging, and AI assistant APIs. This server allows MCP clients like Claude Desktop, Cur...
     last_synced_sha: 3f6a1173fec2b5bf3db4338384a9f7b00b8eaec8
     user_starred_at: "2025-06-15T14:43:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -41894,15 +41948,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.904Z"
+      prompt_version: v2
   - repo: andrei-markeev/mongodb-livedata-server
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - networking
+    tags:
+      - mongodb
+      - websocket
+      - lang:ts
     summary: Standalone live data server implementation extracted from Meteor, Fibers removed and converted to Type Script.
     last_synced_sha: 9451cc17d4519b1660b91d5d45cbaba1dc6d5e20
     user_starred_at: "2025-06-15T13:42:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -41921,15 +41984,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.904Z"
+      prompt_version: v2
   - repo: Azure-Samples/mcp-container-ts
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - containers
+    tags:
+      - azure-container-apps
+      - docker
+      - lang:ts
+      - mcp
+      - sse
     summary: This is a quick start guide that provides the basic building blocks to set up a remote Model Context Protocol (MCP) server using Azure Container Apps. The MCP server is built using Node.js and Type...
     last_synced_sha: 44ac4b2d1ad67497808ec270bf562d79fccaa6ed
     user_starred_at: "2025-06-15T11:47:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -41954,15 +42028,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.904Z"
+      prompt_version: v2
   - repo: steipete/agent-rules
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - llms
+      - rules
+      - agents
+      - claude-code
     summary: Rules and Knowledge to work better with agents such as Claude Code or Cursor
     last_synced_sha: d0070fac6c4b67dec418564d381adbe7c9f4ba73
     user_starred_at: "2025-06-15T08:02:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Shell
@@ -41985,15 +42069,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.904Z"
+      prompt_version: v2
   - repo: microsoft/Conversation-Knowledge-Mining-Solution-Accelerator
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+    tags:
+      - azure
+      - ai
+      - openai
+      - lang:python
     summary: This solution accelerator leverages Microsoft Foundry, Azure Content Understanding, Azure Open AI Service, and Foundry IQ to enable organizations to derive insights from volumes of conversational d...
     last_synced_sha: 48874c9d30592b7f6321f23c7c54f8905ce26f45
     user_starred_at: "2025-06-15T07:16:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42014,15 +42108,26 @@ repositories:
         published_at: "2026-01-19T09:29:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.904Z"
+      prompt_version: v2
   - repo: Stirling-Tools/Stirling-PDF
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - pdf-tools
+      - pdf-editor
+      - docker
+      - lang:ts
+      - pdf-converter
     summary: 1 PDF Application on Git Hub that lets you edit PDFs on any device anywhere
     last_synced_sha: c77cd73debe87ac469b1b05a5174d81d0deb8455
     user_starred_at: "2025-06-15T05:34:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42053,15 +42158,25 @@ repositories:
         published_at: "2026-01-21T22:50:25Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.904Z"
+      prompt_version: v2
   - repo: mondora/ddp.js
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - web-dev
+    tags:
+      - ddp
+      - isomorphic
+      - client
+      - lang:js
     summary: Isomorphic Java Script DDP client
     last_synced_sha: 70055210083f7a06f7c2606e698903c86619f82d
     user_starred_at: "2025-06-14T09:20:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -42078,15 +42193,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.904Z"
+      prompt_version: v2
   - repo: arunoda/meteor-ddp-analyzer
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - testing
+    tags:
+      - ddp
+      - meteor
+      - logging
+      - lang:js
     summary: Simple DDP Proxy which logs DDP messages
     last_synced_sha: a069b261ffd85c7da9fc5b88140d326ea3d8d4ae
     user_starred_at: "2025-06-13T16:09:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -42103,15 +42228,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.904Z"
+      prompt_version: v2
   - repo: antwaremx/meteorman
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - web-dev
+    tags:
+      - gui
+      - ddp-client
+      - meteorjs
+      - testing-tools
+      - lang:js
     summary: A DDP client with GUI (The Postman for Meteor)
     last_synced_sha: f03464bf3985571e93380251a32b8a47a3ca297d
     user_starred_at: "2025-06-13T12:59:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -42140,15 +42276,25 @@ repositories:
         published_at: "2021-06-29T21:28:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.904Z"
+      prompt_version: v2
   - repo: pnp/powerplatform-snippets
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - powerapps
+      - powerplatform
+      - automation
+      - hacktoberfest
     summary: Repository with snippets that can easily be used in some of the Power Platform products
     last_synced_sha: 5b5dac23e1ba746c3d3559428197c2f2f224b599
     user_starred_at: "2025-06-12T06:09:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HLSL
       topics:
@@ -42172,6 +42318,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:08:07.903Z"
+      prompt_version: v2
   - repo: microsoft/content-processing-solution-accelerator
     categories:
       - ai-ml
