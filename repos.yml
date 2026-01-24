@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-24T04:19:07.892Z"
+  manifest_updated_at: "2026-01-24T04:19:29.789Z"
   total_repos: 2006
   generator_version: v1.0.0
   github_user: primeinc
@@ -26817,13 +26817,19 @@ repositories:
       mirror_url: null
   - repo: badsyntax/mailinabox-ui
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - mail-ui
+      - lang:ts
+      - react
+      - fluentui
+      - redux
     summary: Experimental Mail-in-a-Box User Interface built with React, Redux, Type Script & Fluent UI
     last_synced_sha: b49a5241a0957bf4292374b921e35cc22ddd0e57
     user_starred_at: "2025-09-24T08:20:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26848,15 +26854,26 @@ repositories:
         published_at: "2021-05-22T21:26:15Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: StudentiUniMi/website
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - university
+      - academic-services
+      - lang:ts
+      - nextjs
+      - responsive
     summary: Web application built with Next.js 15 and React 19 (TS), designed to provide students of the University of Milan with seamless access to academic groups and university services. The interface is de...
     last_synced_sha: f090514c5605390e270ec6d82552aead1315493d
     user_starred_at: "2025-09-24T08:18:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26893,15 +26910,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: d2phap/fluent-reveal-effect
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - fluent-design
+      - ui-components
+      - lang:ts
+      - css-framework
     summary: Fluent Reveal Effect Java Script library for web
     last_synced_sha: 4f477c7ea8af1acc2a6e8776083ffd806639b3f4
     user_starred_at: "2025-09-24T08:16:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26930,15 +26957,25 @@ repositories:
         published_at: "2025-08-02T08:33:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: gin-gonic/gin
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - apis
+    tags:
+      - web-framework
+      - http
+      - performance
+      - lang:go
     summary: Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for ...
     last_synced_sha: b2b489dbf4826c2c630717a77fd5e42774625410
     user_starred_at: "2025-09-24T07:03:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -26964,15 +27001,26 @@ repositories:
         published_at: "2025-09-20T11:42:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: rocksdanister/weather
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - directx12
+      - weather-app
+      - lang:csharp
+      - windows-native
+      - animations
     summary: Windows native weather app powered by Direct X12 animations
     last_synced_sha: 5ce4f44509cfd03bee5c4268bf30aa4391ef45c3
     user_starred_at: "2025-09-24T06:29:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -27011,15 +27059,24 @@ repositories:
         published_at: "2024-12-12T17:19:25Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: thesephist/superstat
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - dev-tools
+    tags:
+      - git
+      - multi-repo
+      - simplification
     summary: Git status + diff across every repo in a directory
     last_synced_sha: 8adad71cd64a48d02e75978acf80ba6756a826e9
     user_starred_at: "2025-09-24T06:23:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Makefile
       topics:
@@ -27040,15 +27097,25 @@ repositories:
         published_at: "2022-07-27T21:08:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: thesephist/burds
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - game-dev
+    tags:
+      - animations
+      - birds
+      - lang:js
+      - interactive
     summary: Just some burds, jumpin' around in their own little world.
     last_synced_sha: 5ada8b58d87efdd049c9210aedc0fd392a067c2a
     user_starred_at: "2025-09-24T06:21:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -27068,15 +27135,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: slenered/MusicWallpaper
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - music-display
+      - wallpaper
+      - lang:js
+      - sleek-design
     summary: A simple and sleek way to show your actively playing music.
     last_synced_sha: dfceff6f616e5a8f9bdeedefd9d92efe98c967c7
     user_starred_at: "2025-09-24T06:11:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -27095,15 +27172,25 @@ repositories:
         published_at: "2024-12-26T09:28:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: Aprotonix/Rainbow-Music-Visualizer-Wallpaper
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - music-visualizer
+      - live-wallpaper
+      - lang:js
+      - customizable
     summary: Customizable Live Wallpaper showing the music and date
     last_synced_sha: 395d7c64c702d6fdf9fdf322dad238fc45661848
     user_starred_at: "2025-09-24T06:10:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -27122,15 +27209,25 @@ repositories:
         published_at: "2025-04-14T16:18:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: CatWaterCodes/ImageToParallaxWallpaper
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - parallax
+      - wallpaper
+      - lang:python
+      - html-css-js
     summary: A simple tool that allows you to create parallax wallpapers using html/css/js from a single image.
     last_synced_sha: f2273b0953986b21f3bddd452df17ba232382c42
     user_starred_at: "2025-09-24T06:09:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -27147,15 +27244,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: cloudflare/capnweb
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - rpc-system
+      - object-capabilities
+      - lang:ts
+      - low-boilerplate
     summary: Java Script/Type Script-native, low-boilerplate, object-capability RPC system
     last_synced_sha: 10abaf35dbf4de32ad1d91d4c3482dcba72f3e30
     user_starred_at: "2025-09-24T05:22:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -27174,15 +27281,25 @@ repositories:
         published_at: "2025-12-24T14:59:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: kalivaraprasad-gonapa/react-mcp
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - react-apps
+      - automation
+      - prompts
+      - lang:js
     summary: react-mcp integrates with Claude Desktop, enabling the creation and modification of React apps based on user prompts
     last_synced_sha: 984adb923aa65dde7cb3b06c70860f1bd6fed2a7
     user_starred_at: "2025-09-24T05:09:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -27199,15 +27316,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: yjs/yjs
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+    tags:
+      - crdt
+      - collaboration
+      - lang:js
+      - realtime
+      - offline-first
     summary: Shared data types for building collaborative software
     last_synced_sha: c1755c5b657de82bb674c83bc54f37e1ad0ce3a8
     user_starred_at: "2025-09-24T04:45:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -27236,15 +27364,25 @@ repositories:
         published_at: "2026-01-03T13:04:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: its-a-feature/Mythic
     categories:
-      - unclassified
-    tags: []
+      - security
+      - frameworks
+    tags:
+      - red-teaming
+      - multi-platform
+      - lang:js
+      - c2
     summary: A collaborative, multi-platform, red teaming framework
     last_synced_sha: 2391244baa89080eca0e1893f3dfdc2919c5da3f
     user_starred_at: "2025-09-24T04:44:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -27263,15 +27401,25 @@ repositories:
         published_at: "2025-10-10T01:31:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: MythicAgents/Apollo
     categories:
-      - unclassified
-    tags: []
+      - security
+      - embedded
+    tags:
+      - dotnet
+      - red-teaming
+      - c2
+      - lang:csharp
     summary: A .NET Framework 4.0 Windows Agent
     last_synced_sha: 64946d938bd7328e80807e264081407d6b7f9185
     user_starred_at: "2025-09-24T04:44:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -27290,6 +27438,11 @@ repositories:
         published_at: "2024-08-28T15:19:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:29.789Z"
+      prompt_version: v2
   - repo: hotnops/AzureScripts
     categories:
       - cloud
