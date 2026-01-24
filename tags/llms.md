@@ -1,6 +1,6 @@
 # Tag: llms
 
-*8 repositories*
+*14 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,9 +8,15 @@
 |---|---|---|---|
 | [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | [KDD'2026] "Video RAG: Chat with Your Videos" | `Python` ★ 2.5k | 2026-01-11 |
 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory infrastructure for LLMs and AI agents | `Python` ★ 4.9k | 2026-01-21 |
-| [charmbracelet/crush](https://github.com/charmbracelet/crush) | The glamourous AI coding agent for your favourite terminal 💘 | `Go` ★ 18.7k | 2026-01-23 |
-| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | An LLM agent that conducts deep research (local and web) on any given topic and generates a long report with citations. | `Python` ★ 25k | 2026-01-21 |
-| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 9k | 2026-01-22 |
+| [charmbracelet/crush](https://github.com/charmbracelet/crush) | The glamourous AI coding agent for your favourite terminal 💘 | `Go` ★ 18.8k | 2026-01-24 |
+| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | An LLM agent that conducts deep research (local and web) on any given topic and generates a long report with citations. | `Python` ★ 25k | 2026-01-23 |
+| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 9k | 2026-01-23 |
 | [karpathy/reader3](https://github.com/karpathy/reader3) | Quick illustration of how one can easily read books together with LLMs. It's great and I highly recommend it. | `Python` ★ 3.3k | 2025-11-18 |
-| [mudler/LocalAI](https://github.com/mudler/LocalAI) | :robot: The free, Open Source alternative to Open AI, Claude and others. Self-hosted and local-first. Drop-in replacement for Open AI, running on consumer-grade hardware. No GPU required. Runs gguf... | `Go` ★ 42.3k | 2026-01-22 |
+| [mudler/LocalAI](https://github.com/mudler/LocalAI) | :robot: The free, Open Source alternative to Open AI, Claude and others. Self-hosted and local-first. Drop-in replacement for Open AI, running on consumer-grade hardware. No GPU required. Runs gguf... | `Go` ★ 42.3k | 2026-01-23 |
 | [raine/anki-llm](https://github.com/raine/anki-llm) | A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs. | `TypeScript` ★ 181 | 2025-11-10 |
+| [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 🚀 The fast, Pythonic way to build MCP servers and clients | `Python` ★ 22.3k | 2026-01-23 |
+| [octotools/octotools](https://github.com/octotools/octotools) | Octo Tools: An agentic framework with extensible tools for complex reasoning | `Python` ★ 1.4k | 2025-10-11 |
+| [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) | A one stop repository for generative AI research updates, interview resources, notebooks and much more! | `HTML` ★ 24.2k | 2026-01-22 |
+| [TabbyML/tabby](https://github.com/TabbyML/tabby) | Self-hosted AI coding assistant | `Rust` ★ 32.8k | 2026-01-23 |
+| [browserbase/stagehand](https://github.com/browserbase/stagehand) | The AI Browser Automation Framework | `TypeScript` ★ 20.5k | 2026-01-24 |
+| [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon) | An open-source RAG-based tool for chatting with your documents. | `Python` ★ 24.9k | 2025-07-04 |

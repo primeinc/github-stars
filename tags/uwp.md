@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | Win UI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications. | `C++` ★ 7.2k | 2026-01-19 |
+| [ikas-mc/ContextMenuForWindows11](https://github.com/ikas-mc/ContextMenuForWindows11) | Add Custom Context Menu For Windows11 | `C#` ★ 2.6k | 2025-12-25 |
 | [lprichar/UwpMessageRelay](https://github.com/lprichar/UwpMessageRelay) | A sample UWP app demonstrating how to use App Service Connection to do interprocess communication | `C#` ★ 12 | 2017-01-03 |

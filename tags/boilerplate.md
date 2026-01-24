@@ -1,6 +1,6 @@
 # Tag: boilerplate
 
-*2 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,3 +8,5 @@
 |---|---|---|---|
 | [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) | A Foundation for Scalable Cross-Platform Apps | `TypeScript` ★ 24.2k | 2025-09-22 |
 | [lxieyang/chrome-extension-boilerplate-react](https://github.com/lxieyang/chrome-extension-boilerplate-react) | A Chrome Extensions boilerplate using React 18 and Webpack 5. | `JavaScript` ★ 4k | 2024-07-24 |
+| [junebug12851/Sims4ScriptingBPProj](https://github.com/junebug12851/Sims4ScriptingBPProj) | Sims 4 Scripting Boilerplate Project | `Python` ★ 57 | 2021-06-06 |
+| [rappasoft/laravel-boilerplate](https://github.com/rappasoft/laravel-boilerplate) | The Laravel Boilerplate Project - https://laravel-boilerplate.com | `PHP` ★ 5.7k | 2025-09-28 |

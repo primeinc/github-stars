@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [team-telnyx/messaging-spam-detector](https://github.com/team-telnyx/messaging-spam-detector) | No description provided | `Python` ★ 2 | 2023-03-06 |
-| [NSFW-API/Prompt-based-Evolutionary-Neural-Iteration-System](https://github.com/NSFW-API/Prompt-based-Evolutionary-Neural-Iteration-System) | Prompt-based Evolutionary Nudity Iteration System | `Python` ★ 139 | 2025-07-31 |
+| [mcmonkeyprojects/SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) | Swarm UI (formerly Stable Swarm UI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility. | `C#` ★ 3.6k | 2026-01-21 |
+| [NVlabs/edm2](https://github.com/NVlabs/edm2) | EDM2 and Autoguidance -- Official Py Torch implementation | `Python` ★ 810 | 2024-12-09 |

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [openrecall/openrecall](https://github.com/openrecall/openrecall) | Open Recall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With Open Recall, you can easily access your digital history, enhancing your ... | `Python` ★ 2.6k | 2025-09-24 |
-| [ruflin/Elastica](https://github.com/ruflin/Elastica) | Elastica is a PHP client for elasticsearch | `PHP` ★ 2.3k | 2025-12-30 |
+| [rhsimplex/image-match](https://github.com/rhsimplex/image-match) | 🎇 Quickly search over billions of images | `Python` ★ 3k | 2022-12-06 |
+| [select2/select2](https://github.com/select2/select2) | Select2 is a j Query based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results. | `JavaScript` ★ 26k | 2024-09-11 |

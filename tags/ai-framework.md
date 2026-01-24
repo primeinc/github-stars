@@ -1,10 +1,11 @@
 # Tag: ai-framework
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [WeChatCV/Stand-In](https://github.com/WeChatCV/Stand-In) | Stand-In is a lightweight, plug-and-play framework for identity-preserving video generation. | `Python` ★ 712 | 2025-12-21 |
-| [llamastack/llama-stack](https://github.com/llamastack/llama-stack) | Composable building blocks to build LLM Apps | `Python` ★ 8.2k | 2026-01-14 |
+| [TabbyML/tabby](https://github.com/TabbyML/tabby) | Self-hosted AI coding assistant | `Rust` ★ 32.8k | 2026-01-23 |
+| [agent0ai/agent-zero](https://github.com/agent0ai/agent-zero) | Agent Zero AI framework | `Python` ★ 13.8k | 2026-01-23 |
+| [deepseek-ai/DeepSeek-LLM](https://github.com/deepseek-ai/DeepSeek-LLM) | Deep Seek LLM: Let there be answers | `Makefile` ★ 6.7k | 2024-02-04 |
