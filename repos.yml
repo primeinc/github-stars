@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-24T04:07:26.296Z"
+  manifest_updated_at: "2026-01-24T04:07:48.648Z"
   total_repos: 2006
   generator_version: v1.0.0
   github_user: primeinc
@@ -42174,13 +42174,20 @@ repositories:
       mirror_url: null
   - repo: microsoft/content-processing-solution-accelerator
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - apis
+    tags:
+      - azure-ai
+      - content-processing
+      - lang:python
+      - cosmos-db
+      - ai-tools
     summary: Programmatically extract data and apply schemas to unstructured documents across text-based and multi-modal content using Azure AI Foundry, Azure Open AI, Azure AI Content Understanding, and Cosmos...
     last_synced_sha: 11ddbea62818e0d133e6712411320912ae757431
     user_starred_at: "2025-06-12T03:40:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42207,15 +42214,27 @@ repositories:
         published_at: "2026-01-05T13:05:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.648Z"
+      prompt_version: v2
   - repo: microsoft/Modernize-your-code-solution-accelerator
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - databases
+    tags:
+      - sql-modernization
+      - cosmos-db
+      - lang:python
+      - ai-tools
+      - legacy-systems
     summary: Designed to help customers transition their SQL queries to new environments quickly and efficiently. This accelerator is particularly useful for organizations modernizing their data estates, as it ...
     last_synced_sha: 31c71681d6a85d29820f4ff25ed8d33cd13054f5
     user_starred_at: "2025-06-12T03:39:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42238,15 +42257,25 @@ repositories:
         published_at: "2026-01-05T13:06:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.648Z"
+      prompt_version: v2
   - repo: OfficeDev/Microsoft-Teams-Adaptive-Card-Samples
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - adaptive-cards
+      - microsoft-teams
+      - samples
+      - collaboration
     summary: Adaptive Card Samples for Teams
     last_synced_sha: 086bc4adda736ed944178ac7f7a565d76dafdf9c
     user_starred_at: "2025-06-11T15:23:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -42263,15 +42292,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.648Z"
+      prompt_version: v2
   - repo: WhitewaterFoundry/Pengwin
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - infrastructure
+      - devops
+    tags:
+      - linux
+      - wsl
+      - lang:cpp
+      - debian
+      - subsystem
     summary: A Linux distro optimized for WSL based on Debian.
     last_synced_sha: fa1a5837fe1d3368ec33cc0042a4563301c21997
     user_starred_at: "2025-06-11T07:54:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C++
@@ -42297,15 +42338,27 @@ repositories:
         published_at: "2025-11-18T09:57:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.648Z"
+      prompt_version: v2
   - repo: microsoft/wslg
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - dev-tools
+      - ui-libraries
+    tags:
+      - windows-subsystem
+      - wayland
+      - x-server
+      - lang:cpp
+      - linux
     summary: Enabling the Windows Subsystem for Linux to include support for Wayland and X server related scenarios
     last_synced_sha: a7500159da70d0e38372cac126d960ee457e8f61
     user_starred_at: "2025-06-11T07:52:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -42324,15 +42377,27 @@ repositories:
         published_at: "2025-02-26T17:24:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.648Z"
+      prompt_version: v2
   - repo: Yuyz0112/claude-code-reverse
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - dev-tools
+    tags:
+      - llms
+      - lang:js
+      - reverse-engineering
+      - visualization
+      - ai-insights
     summary: A Tool to Visualize Claude Code's LLM Interactions
     last_synced_sha: c0d99ea1ab7168c12ba74838cfea355ce10f6c56
     user_starred_at: "2025-06-10T19:35:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -42349,15 +42414,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.648Z"
+      prompt_version: v2
   - repo: ghuntley/claude-code-source-code-deobfuscation
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - deobfuscation
+      - lang:ts
+      - claude-code
+      - open-source
+      - ai-tools
     summary: This is a cleanroom deobfuscation of the official Claude Code npm package.
     last_synced_sha: ced7586d06751d071490f91cab1de04490d969ba
     user_starred_at: "2025-06-10T19:30:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -42375,15 +42451,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.648Z"
+      prompt_version: v2
   - repo: byrdsandbytes/beatnik-pi
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - networking
+      - productivity
+    tags:
+      - multiroom-audio
+      - raspberry-pi
+      - audio
+      - shell
+      - streaming
     summary: Open Source Multiroom Audio Streamer based on Raspberry Pi & Snapcast
     last_synced_sha: 7790593a6a72213eb09f627255e323a92bd38994
     user_starred_at: "2025-06-10T15:49:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -42413,15 +42501,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.648Z"
+      prompt_version: v2
   - repo: eythaann/Seelen-UI
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+      - productivity
+    tags:
+      - customization
+      - tiling-window-manager
+      - lang:rust
+      - tauri
+      - windows
     summary: The Fully Customizable Desktop Environment for Windows 10/11.
     last_synced_sha: daf6525ff6f6d7406bf7a577e31c3d22eefb8905
     user_starred_at: "2025-06-10T11:44:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -42459,15 +42559,27 @@ repositories:
         published_at: "2025-12-17T04:17:07Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.648Z"
+      prompt_version: v2
   - repo: Fosowl/agenticSeek
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - productivity
+    tags:
+      - autonomous-agents
+      - voice-assistant
+      - llms
+      - lang:python
+      - local-ai
     summary: "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. \U0001F514 Official updates only via twitter @Martin..."
     last_synced_sha: 782a933971bfcc396690d390c896d2f189ba614f
     user_starred_at: "2025-06-10T11:41:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42492,15 +42604,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.648Z"
+      prompt_version: v2
   - repo: MODSetter/SurfSense
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+      - automation
+    tags:
+      - fastapi
+      - chrome-extension
+      - llms
+      - lang:python
+      - real-time-collaboration
     summary: 'Connect any LLM to your internal knowledge sources and chat with it in real time alongside your team. OSS alternative to Notebook LM, Perplexity, and Glean. Join our Discord: https://discord.gg/ej ...'
     last_synced_sha: df6943b248bef15d5ed119dc22a0d86abb10045d
     user_starred_at: "2025-06-10T11:41:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42537,15 +42661,27 @@ repositories:
         published_at: "2026-01-08T05:37:03Z"
       is_mirror: false
       mirror_url: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.648Z"
+      prompt_version: v2
   - repo: mindsdb/mindsdb
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+      - data-science
+    tags:
+      - ai
+      - federated-query-engine
+      - lang:python
+      - analytics
+      - llms
     summary: Federated Query Engine for AI - The only MCP Server you'll ever need
     last_synced_sha: 3de16cdd604fe1c43379f282133930e527ca9807
     user_starred_at: "2025-06-10T11:40:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42578,15 +42714,27 @@ repositories:
         published_at: "2026-01-21T10:35:34Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.648Z"
+      prompt_version: v2
   - repo: xming521/WeClone
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+      - apis
+    tags:
+      - digital-avatar
+      - llms
+      - chatbot
+      - lang:python
+      - fine-tuning
     summary: "\U0001F680 One-stop solution for creating your digital avatar from chat history \U0001F4A1 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life..."
     last_synced_sha: 1779b5d8af037830167abb01c05b7cefad90cbbc
     user_starred_at: "2025-06-10T11:37:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42610,15 +42758,27 @@ repositories:
         published_at: "2026-01-04T14:40:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.648Z"
+      prompt_version: v2
   - repo: kamranahmedse/developer-roadmap
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+      - productivity
+    tags:
+      - roadmap
+      - career
+      - lang:ts
+      - software-development
+      - interactive
     summary: Interactive roadmaps, guides and other educational content to help developers grow in their careers.
     last_synced_sha: eceb8d8e6cac66e2a55e4204c87bcc3ddf9323f7
     user_starred_at: "2025-06-10T11:36:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42655,15 +42815,27 @@ repositories:
         published_at: "2023-01-05T18:38:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.648Z"
+      prompt_version: v2
   - repo: tensorzero/tensorzero
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - automation
+    tags:
+      - llms
+      - machine-learning
+      - lang:rust
+      - mlops
+      - generative-ai
     summary: Tensor Zero is an open-source stack for industrial-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluation, and experimentation.
     last_synced_sha: 2f8d60997d292bb39765cb4e56b1590758ff6445
     user_starred_at: "2025-06-10T11:32:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -42702,6 +42874,11 @@ repositories:
         published_at: "2026-01-15T19:33:47Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:48.647Z"
+      prompt_version: v2
   - repo: block/goose
     categories:
       - ai-ml
