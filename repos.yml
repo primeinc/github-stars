@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-24T04:07:02.606Z"
+  manifest_updated_at: "2026-01-24T04:07:26.296Z"
   total_repos: 2006
   generator_version: v1.0.0
   github_user: primeinc
@@ -42704,13 +42704,18 @@ repositories:
       mirror_url: null
   - repo: block/goose
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-agent
+      - llm
+      - mcp
+      - lang:rust
     summary: an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
     last_synced_sha: 5971e2f187b031e47903045fae5d0550c442d208
     user_starred_at: "2025-06-10T11:31:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -42730,15 +42735,25 @@ repositories:
         published_at: "2026-01-22T19:45:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.296Z"
+      prompt_version: v2
   - repo: Billionmail/BillionMail
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - apis
+    tags:
+      - email-server
+      - mail
+      - newsletters
+      - lang:go
     summary: 'Billion Mail gives you open-source Mail Server, News Letter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asf Xz BUh Zr'
     last_synced_sha: 8587445274af8a62508b55442852e2431657bab3
     user_starred_at: "2025-06-07T00:53:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -42768,15 +42783,26 @@ repositories:
         published_at: "2025-12-11T10:37:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.296Z"
+      prompt_version: v2
   - repo: codexu/note-gen
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - nextjs
+      - note-taking
+      - llm
+      - ai
+      - lang:ts
     summary: A cross-platform Markdown AI note-taking software.
     last_synced_sha: 812840396417ea33e015ecb30bfc7a0f3c2b384d
     user_starred_at: "2025-06-07T00:51:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42806,15 +42832,25 @@ repositories:
         published_at: "2026-01-20T03:23:12Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.296Z"
+      prompt_version: v2
   - repo: netbirdio/netbird
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - wireguard
+      - vpn
+      - overlay-network
+      - lang:go
     summary: Connect your devices into a secure Wire Guard®-based overlay network with SSO, MFA and granular access controls.
     last_synced_sha: ded04b7627bd8d48d7e672a7b3b06b55a67b3058
     user_starred_at: "2025-06-06T09:13:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -42843,15 +42879,25 @@ repositories:
         published_at: "2026-01-20T18:05:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.296Z"
+      prompt_version: v2
   - repo: iamgio/quarkdown
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - markdown
+      - pdf
+      - typesetting
+      - lang:kotlin
     summary: "\U0001FA90 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases."
     last_synced_sha: fa36ff19a43af86095aa1da68355b69e6a586b59
     user_starred_at: "2025-06-06T09:13:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics:
@@ -42883,15 +42929,24 @@ repositories:
         published_at: "2025-12-16T07:44:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.295Z"
+      prompt_version: v2
   - repo: scrapy/scrapy
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - web-scraping
+      - crawler
+      - lang:python
     summary: Scrapy, a fast high-level web crawling & scraping framework for Python.
     last_synced_sha: 49930dfec505305aafcb6b7b7eded610ca1df178
     user_starred_at: "2025-06-06T09:13:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42918,15 +42973,24 @@ repositories:
         published_at: "2026-01-12T20:37:09Z"
       is_mirror: false
       mirror_url: null
+    framework: django
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.295Z"
+      prompt_version: v2
   - repo: nathanbuchar/audubon-bird-plates-for-supernote
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - audubon
+      - eink
+      - supernote
     summary: All 435 illustrations of John James Audubon's Birds of America adapted for use as screensavers on the Supernote and other similar e-ink tablets.
     last_synced_sha: 5f0f47d62d93b290cdfa64afb7f8d9764379a9ce
     user_starred_at: "2025-06-01T02:00:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -42948,15 +43012,24 @@ repositories:
         published_at: "2022-01-09T20:19:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.295Z"
+      prompt_version: v2
   - repo: lnenad/newser
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cli-tools
+    tags:
+      - pdf-generation
+      - news-scraping
+      - lang:go
     summary: Newser is a simple utility to generate a pdf with you favorite news articles
     last_synced_sha: 488ff92e4af22e10f0e2e18fd675fa9053a6a549
     user_starred_at: "2025-06-01T01:58:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -42977,15 +43050,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.295Z"
+      prompt_version: v2
   - repo: cristianvasquez/supernote-web-viewer
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - supernote
+      - file-viewer
+      - lang:js
     summary: Display a supernote .note file
     last_synced_sha: 20c349b7f4532d1ac306ef0297b63ce4dcf19584
     user_starred_at: "2025-06-01T01:58:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -43003,15 +43085,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.295Z"
+      prompt_version: v2
   - repo: philips/supernote-obsidian-plugin
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - obsidian-plugin
+      - supernote
+      - eink
+      - lang:ts
     summary: Supernote A5, A5X, A6X, A6X2 (Nomad), and A5X2 (Manta) integration for Obsidian. Generate markdown, capture screen mirror, and more.
     last_synced_sha: e4de9fcc0f25a0a84a8513551f09cdd4737ef826
     user_starred_at: "2025-06-01T01:57:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43034,15 +43126,24 @@ repositories:
         published_at: "2025-11-21T19:04:57Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.295Z"
+      prompt_version: v2
   - repo: TA1312/supernote-a5x
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - device-security
+      - supernote
+      - info
     summary: various security information on the supernote a5x
     last_synced_sha: b05245a21ded53a318346278282bc19d93a8dd8d
     user_starred_at: "2025-06-01T01:53:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics: []
@@ -43059,15 +43160,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.295Z"
+      prompt_version: v2
   - repo: github/codeql
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - code-analysis
+      - security-research
+      - github-security-lab
     summary: 'Code QL: the libraries and queries that power security researchers around the world, as well as code scanning in Git Hub Advanced Security'
     last_synced_sha: cabcb83b2fa5cb87277d3a3484e428a5318311c2
     user_starred_at: "2025-05-30T11:46:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CodeQL
       topics:
@@ -43089,15 +43199,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.295Z"
+      prompt_version: v2
   - repo: openai/codex
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - ai-ml
+    tags:
+      - coding-agent
+      - terminal
+      - automation
+      - lang:rust
     summary: Lightweight coding agent that runs in your terminal
     last_synced_sha: b3127e2eebcdc872cf43966649561b6d10aa8c56
     user_starred_at: "2025-05-30T06:48:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -43116,15 +43236,24 @@ repositories:
         published_at: "2026-01-22T21:35:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.295Z"
+      prompt_version: v2
   - repo: openai/codex-universal
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - deployment
+    tags:
+      - docker
+      - base-image
+      - codex
     summary: Base docker image used in Codex environments
     last_synced_sha: 4b213374574fd025282d7c7118704e6afdaf1864
     user_starred_at: "2025-05-30T06:47:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics: []
@@ -43141,15 +43270,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.295Z"
+      prompt_version: v2
   - repo: Azure/Azure-Verified-Modules
     categories:
-      - unclassified
-    tags: []
+      - infrastructure
+      - system-admin
+    tags:
+      - iac
+      - modules
+      - azure
+      - lang:powershell
     summary: Azure Verified Modules (AVM) is an initiative to consolidate and set the standards for what a good Infrastructure-as-Code module looks like. Modules will then align to these standards, across langu...
     last_synced_sha: 8cce61eba83fe865f8616641f43c9058adb8c896
     user_starred_at: "2025-05-25T21:53:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -43166,6 +43305,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:07:26.295Z"
+      prompt_version: v2
   - repo: samanhappy/mcphub
     categories:
       - apis
