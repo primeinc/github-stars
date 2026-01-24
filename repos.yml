@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-24T04:18:48.271Z"
+  manifest_updated_at: "2026-01-24T04:19:07.892Z"
   total_repos: 2006
   generator_version: v1.0.0
   github_user: primeinc
@@ -27292,13 +27292,17 @@ repositories:
       mirror_url: null
   - repo: hotnops/AzureScripts
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - system-admin
+    tags:
+      - azure
+      - powershell
+      - scripts
     summary: Random scripts for azure stuff
     last_synced_sha: 6bf7587f2a972e65c98db40c21890a2cdb18c596
     user_starred_at: "2025-09-24T04:41:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -27315,15 +27319,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.892Z"
+      prompt_version: v2
   - repo: SpecterOps/TierZeroTable
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - security
+    tags:
+      - tier-zero
+      - active-directory
+      - html
     summary: Table of AD and Azure assets and whether they belong to Tier Zero
     last_synced_sha: 116888ce740369a3925e5a575255c4eb9fb73d93
     user_starred_at: "2025-09-24T04:33:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -27340,15 +27353,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.892Z"
+      prompt_version: v2
   - repo: SpecterOps/AzureHound
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - azure
+      - active-directory
+      - lang:go
     summary: Azure Data Exporter for Blood Hound
     last_synced_sha: bcf6de5caf4c7c2430569bdb15975ee8da6aefb4
     user_starred_at: "2025-09-24T04:32:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -27369,15 +27391,24 @@ repositories:
         published_at: "2026-01-16T18:09:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.892Z"
+      prompt_version: v2
   - repo: SpecterOps/BloodHound
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - domain-admin
+      - active-directory
+      - lang:go
     summary: Six Degrees of Domain Admin
     last_synced_sha: 5834e5fe275313fdffeec33560b24a0848d93d01
     user_starred_at: "2025-09-24T04:31:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -27396,15 +27427,25 @@ repositories:
         published_at: "2026-01-22T17:43:32Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.892Z"
+      prompt_version: v2
   - repo: 1r0BIT/TaskHound
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - privileged-tasks
+      - windows
+      - schedtasks
+      - lang:python
     summary: Tool to enumerate privileged Scheduled Tasks on Remote Systems
     last_synced_sha: 770217da56ac5b4dc7f72a86bbaefe5c1b138e59
     user_starred_at: "2025-09-24T04:30:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -27427,15 +27468,24 @@ repositories:
         published_at: "2025-12-29T21:45:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.892Z"
+      prompt_version: v2
   - repo: QwenLM/Qwen3-ASR-Toolkit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - speech-recognition
+      - audio-transcription
+      - lang:python
     summary: Official Python toolkit for the Qwen3-ASR API. Parallel high‑throughput calls, robust long‑audio transcription, multi‑sample‑rate support.
     last_synced_sha: e36f2b36cdc74e97f6a7ffa54a2a8eccbac994f8
     user_starred_at: "2025-09-24T04:29:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -27454,15 +27504,24 @@ repositories:
         published_at: "2025-09-22T10:38:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.892Z"
+      prompt_version: v2
   - repo: cmkap/realtime-dashboard
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ui-libraries
+    tags:
+      - websocket
+      - real-time-visualization
+      - lang:ts
     summary: Web Socket + real-time data visualisation project
     last_synced_sha: 37efb078993bf346c01c81446932cbc9c01e7cce
     user_starred_at: "2025-09-24T01:46:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -27479,15 +27538,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.892Z"
+      prompt_version: v2
   - repo: mmulet/term.everything
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - desktop-dev
+    tags:
+      - terminal
+      - gui
+      - ssh
+      - lang:go
     summary: Run any GUI app in the terminal❗
     last_synced_sha: def8c93a3db25211be0a37ab8bb44567ac5b7218
     user_starred_at: "2025-09-23T01:27:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -27514,15 +27583,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.892Z"
+      prompt_version: v2
   - repo: leonardoventurini/meteor-devtools-evolved
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - frameworks
+    tags:
+      - meteor
+      - ddp
+      - lang:ts
     summary: The Meteor framework development tool belt, evolved.
     last_synced_sha: e5e4e801b315ee1f787606b0893611d8bd07006f
     user_starred_at: "2025-09-23T00:02:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27542,15 +27620,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.892Z"
+      prompt_version: v2
   - repo: webhooksite/webhook.site
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - apis
+    tags:
+      - webhook-testing
+      - push-notifications
+      - lang:js
     summary: ⚓️ Easily test HTTP webhooks with this handy tool that displays requests instantly.
     last_synced_sha: eb8e21d8a63c5e1971b33aaa80053c1278d97f0b
     user_starred_at: "2025-09-22T17:13:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -27576,15 +27663,24 @@ repositories:
         published_at: "2023-06-21T12:01:08Z"
       is_mirror: false
       mirror_url: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.892Z"
+      prompt_version: v2
   - repo: midday-ai/zuno
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - unified-api
+      - erp
+      - lang:ts
     summary: A unified API that provides a thin layer over multiple ERP systems.
     last_synced_sha: c809da96b0a8f76ad41a823cb0a968157595e5fb
     user_starred_at: "2025-09-22T17:10:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -27601,15 +27697,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.892Z"
+      prompt_version: v2
   - repo: berty/berty
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+      - mobile-dev
+    tags:
+      - p2p
+      - encryption
+      - privacy
+      - lang:ts
     summary: Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
     last_synced_sha: 279ba5bc4ec724410b7026e5d0e7a907adea90a9
     user_starred_at: "2025-09-22T17:09:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27647,15 +27754,26 @@ repositories:
         published_at: "2025-12-19T16:29:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.892Z"
+      prompt_version: v2
   - repo: thi-ng/umbrella
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ui-libraries
+      - dev-tools
+    tags:
+      - data-structures
+      - functional-programming
+      - visualization
+      - lang:ts
     summary: ⛱ Broadly scoped ecosystem & mono-repository of 210 Type Script projects (and ~185 examples) for general purpose, functional, data driven development
     last_synced_sha: 3abbddfbd279ece6291b6e917e7c58c4eaa4e40c
     user_starred_at: "2025-09-22T17:07:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27692,15 +27810,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.892Z"
+      prompt_version: v2
   - repo: midday-ai/v1
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - starter-kit
+      - monorepo
+      - shadcn
+      - lang:ts
     summary: An open-source starter kit based on Midday.
     last_synced_sha: 4582a4bb5ae6c953d382747204cf6c2ede49b006
     user_starred_at: "2025-09-22T16:53:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27722,15 +27850,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.892Z"
+      prompt_version: v2
   - repo: midday-ai/midday
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - freelancers
+      - invoicing
+      - financial-tools
+      - lang:ts
     summary: Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers
     last_synced_sha: d3de6cf913942e7b6b8cebce6b77a5a21a0c4289
     user_starred_at: "2025-09-22T16:53:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27754,6 +27892,11 @@ repositories:
         published_at: "2025-06-26T09:49:56Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:19:07.891Z"
+      prompt_version: v2
   - repo: intuit/auto
     categories:
       - automation
