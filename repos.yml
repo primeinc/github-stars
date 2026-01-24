@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-24T04:16:08.183Z"
+  manifest_updated_at: "2026-01-24T04:16:29.499Z"
   total_repos: 2006
   generator_version: v1.0.0
   github_user: primeinc
@@ -31271,13 +31271,17 @@ repositories:
       mirror_url: null
   - repo: Francis-Rings/StableAvatar
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - video-editing
+    tags:
+      - avatar-generator
+      - video-generation
+      - lang:python
     summary: We present Stable Avatar, the first end-to-end video diffusion transformer, which synthesizes infinite-length high-quality audio-driven avatar videos without any post-processing, conditioned on a r...
     last_synced_sha: e6478957d7f7e4425cbae245cac9f269221e4585
     user_starred_at: "2025-09-10T05:04:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -31297,15 +31301,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.499Z"
+      prompt_version: v2
   - repo: Azure/CloudShell
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+    tags:
+      - azure
+      - cloudshell
+      - container-management
     summary: Container Image for Azure Cloud Shell (https://azure.microsoft.com/en-us/features/cloud-shell/)
     last_synced_sha: d0a7e3f88c6809fc42925341f102c8b4d4a1decc
     user_starred_at: "2025-09-09T20:50:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -31327,15 +31340,24 @@ repositories:
         published_at: "2022-08-08T18:05:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.498Z"
+      prompt_version: v2
   - repo: lostindark/DriverStoreExplorer
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - driver-management
+      - windows
+      - lang:csharp
     summary: Driver Store Explorer
     last_synced_sha: 56985f0e06faaa2ab760f8bcdfa69c575ec01991
     user_starred_at: "2025-09-09T15:39:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -31357,15 +31379,24 @@ repositories:
         published_at: "2026-01-04T05:48:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.498Z"
+      prompt_version: v2
   - repo: glzr-io/glazewm
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - desktop-dev
+    tags:
+      - tiling-window-manager
+      - windows
+      - lang:rust
     summary: Glaze WM is a tiling window manager for Windows inspired by i3wm.
     last_synced_sha: 118d48c04e6a223702b63cc2fe5d2591b5f0ff9a
     user_starred_at: "2025-09-09T14:23:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -31389,15 +31420,24 @@ repositories:
         published_at: "2025-06-18T17:49:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.498Z"
+      prompt_version: v2
   - repo: primeinc/Files
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - file-manager
+      - windows
+      - lang:csharp
     summary: Building the best File Manager for Windows
     last_synced_sha: d233a0f7e95e08e7ce1b9d59c1b0b68c2ed79cdc
     user_starred_at: "2025-09-09T10:05:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C#
@@ -31415,15 +31455,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.498Z"
+      prompt_version: v2
   - repo: mikecutalo/unifi-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - unifi-networks
+      - self-hosted
+      - lang:python
     summary: An MCP Server for interacting with Unifi networks.
     last_synced_sha: ba3eab05493a55484d051aca330bed3b5bb23da1
     user_starred_at: "2025-09-09T05:45:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -31440,15 +31489,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.498Z"
+      prompt_version: v2
   - repo: ashesbloom/LocalLens
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ai-ml
+    tags:
+      - photo-management
+      - face-recognition
+      - lang:css
+      - fastapi
+      - react
     summary: Local Lens is a privacy-first, AI-powered photo organizer for your PC. Sort and group photos by faces, dates, and locations—all locally, with no cloud upload. Enjoy a modern, intuitive UI and keep ...
     last_synced_sha: 2fb67cac39e6c497cb1bb6ed253d694cb9cc71d7
     user_starred_at: "2025-09-09T03:26:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics:
@@ -31487,15 +31547,24 @@ repositories:
         published_at: "2025-12-31T12:14:22Z"
       is_mirror: false
       mirror_url: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.498Z"
+      prompt_version: v2
   - repo: layumi/Person-reID_GAN
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - gan
+      - image-retrieval
+      - person-reidentification
     summary: ICCV2017 Unlabeled Samples Generated by GAN Improve the Person Re-identification Baseline in vitro
     last_synced_sha: da4b90afd3b1e1eff284dafd36e205d661cad600
     user_starred_at: "2025-09-09T03:11:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Cuda
       topics:
@@ -31521,15 +31590,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.498Z"
+      prompt_version: v2
   - repo: NVlabs/DG-Net
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - person-reid
+      - image-retrieval
+      - lang:python
     summary: ':couple: Joint Discriminative and Generative Learning for Person Re-identification. CVPR''19 (Oral) :couple:'
     last_synced_sha: 9855f08711df1d7ebdf976885b0fddec8e7d4a37
     user_starred_at: "2025-09-09T03:11:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -31559,15 +31637,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.498Z"
+      prompt_version: v2
   - repo: bytedance/OneReward
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - research
+      - reinforcement-learning
+      - lang:python
     summary: No description provided
     last_synced_sha: 0d8d826d9e383c32ad97b39f01bd6872e3ea7aa4
     user_starred_at: "2025-09-09T02:35:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -31585,15 +31672,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.498Z"
+      prompt_version: v2
   - repo: soimthe1/snmp-printer-utility
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - monitoring
+    tags:
+      - snmp
+      - device-monitoring
+      - lang:go
     summary: A fast, Go-powered CLI tool to scan and monitor SNMP-enabled printers across networks. Discover printers, fetch real-time status, supply levels (toner/ink), tray capacities, and page counts using S...
     last_synced_sha: f4a1f92b1b8cb7fdcd788b7e2dacae74a11cfcff
     user_starred_at: "2025-09-05T06:18:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -31610,15 +31706,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.498Z"
+      prompt_version: v2
   - repo: SaintScraTchY/Print-Relay-Server
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - device-sharing
+      - self-hosted
+      - lang:csharp
     summary: Print Relay is an open-source, self-hosted platform for managing and sharing printers (and potentially other devices) across networks. Designed with modern technologies, it enables seamless device ...
     last_synced_sha: c071371da6b8b0c80c853cabe49dcbee28043c4b
     user_starred_at: "2025-09-05T06:17:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -31635,15 +31740,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.498Z"
+      prompt_version: v2
   - repo: TencentARC/GenCompositor
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - video-editing
+    tags:
+      - diffusion-models
+      - video-compositing
+      - lang:python
     summary: 'Official implementation of the paper "Gen Compositor: Generative Video Compositing with Diffusion Transformer"'
     last_synced_sha: fc2687f3b002a1d64fe32da43961046ca85ea684
     user_starred_at: "2025-09-05T05:21:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -31663,15 +31777,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.498Z"
+      prompt_version: v2
   - repo: microsoft/WinAppDriver
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - automation
+    tags:
+      - ui-testing
+      - test-automation
+      - lang:csharp
     summary: Windows Application Driver
     last_synced_sha: 09e3f7111eb2fae2b4eff0ab058cc7a5dbc14d02
     user_starred_at: "2025-09-05T03:54:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -31694,15 +31817,24 @@ repositories:
         published_at: "2020-11-05T23:16:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.498Z"
+      prompt_version: v2
   - repo: nativefier/nativefier
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - electron
+      - desktop-application
+      - lang:ts
     summary: Make any web page a desktop application
     last_synced_sha: 9078a3071a3c7fab977d4e0bb54d3579af8296f3
     user_starred_at: "2025-09-05T00:02:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -31728,6 +31860,11 @@ repositories:
         published_at: "2023-08-25T18:12:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:16:29.498Z"
+      prompt_version: v2
   - repo: x64dbg/x64dbg
     categories:
       - security
