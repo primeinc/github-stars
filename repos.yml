@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-24T04:18:26.905Z"
+  manifest_updated_at: "2026-01-24T04:18:48.271Z"
   total_repos: 2006
   generator_version: v1.0.0
   github_user: primeinc
@@ -27756,13 +27756,19 @@ repositories:
       mirror_url: null
   - repo: intuit/auto
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - devops
+    tags:
+      - auto-release
+      - lang:ts
+      - github-integration
+      - releases
+      - versioning
     summary: Generate releases based on semantic version labels on pull requests.
     last_synced_sha: e828cd1c30721565ccc07144c39bc7eb55ed0878
     user_starred_at: "2025-09-22T16:15:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27790,15 +27796,25 @@ repositories:
         published_at: "2025-11-14T21:51:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.271Z"
+      prompt_version: v2
   - repo: FR33THYFR33THY/Ultimate-Windows-Optimization-Guide
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - windows-optimization
+      - lang:powershell
+      - performance
+      - customization
     summary: No description provided
     last_synced_sha: e638185496e737f2f927bef3b07eee2b1f645fa9
     user_starred_at: "2025-09-22T16:06:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -27815,15 +27831,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.271Z"
+      prompt_version: v2
   - repo: mandiant/flare-vm
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - reverse-engineering
+      - malware-analysis
+      - lang:powershell
+      - windows-tools
     summary: A collection of software installations scripts for Windows systems that allows you to easily setup and maintain a reverse engineering environment on a VM.
     last_synced_sha: f1a6d233b70876c0d9dcc1645ef6283884495855
     user_starred_at: "2025-09-22T16:06:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -27845,15 +27871,25 @@ repositories:
         published_at: "2025-08-13T16:58:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.271Z"
+      prompt_version: v2
   - repo: The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - virtual-desktop
+      - optimization
+      - lang:powershell
+      - performance-tuning
     summary: The script and configuration files in this repository provide an easy method to customize and apply performance related settings to virtual desktop environments.
     last_synced_sha: c93dfb2db35a16584efebb27a626a2f51c503c54
     user_starred_at: "2025-09-22T16:06:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -27872,15 +27908,26 @@ repositories:
         published_at: "2024-06-11T22:19:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.271Z"
+      prompt_version: v2
   - repo: Micke-K/IntuneManagement
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - documentation
+    tags:
+      - intune-management
+      - lang:powershell
+      - graph-api
+      - documentation
+      - endpoint-manager
     summary: Copy, export, import, delete, document and compare policies and profiles in Intune and Azure with Power Shell script and WPF UI. Import ADMX files and registry settings with ADMX ingestion. View an...
     last_synced_sha: faffa95d8ae06c3ea6eb91e0af1706bb90ddc477
     user_starred_at: "2025-09-22T16:05:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -27910,15 +27957,27 @@ repositories:
         published_at: "2025-09-14T04:21:52Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.271Z"
+      prompt_version: v2
   - repo: microsoft/Microsoft365DSC
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - monitoring
+      - system-admin
+    tags:
+      - microsoft365
+      - configuration-as-code
+      - lang:powershell
+      - automation
+      - monitoring
     summary: Manages, configures, extracts and monitors Microsoft 365 tenant configurations
     last_synced_sha: c223a811b1f52609543413516c5b6ec231697128
     user_starred_at: "2025-09-22T16:04:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -27955,15 +28014,26 @@ repositories:
         published_at: "2026-01-22T13:02:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.271Z"
+      prompt_version: v2
   - repo: hak5/usbrubberducky-payloads
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - hacking-tools
+      - pentesting
+      - hid
+      - security-tools
+      - lang:powershell
     summary: The Official USB Rubber Ducky Payload Repository
     last_synced_sha: 62b6492b7f92cc59bbba6d7b7965b227bf53af7e
     user_starred_at: "2025-09-22T16:04:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -27994,15 +28064,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.271Z"
+      prompt_version: v2
   - repo: KRTirtho/spotube
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - desktop-dev
+    tags:
+      - music-streaming
+      - flutter
+      - cross-platform
+      - lang:dart
+      - open-source
     summary: "\U0001F3A7 Open source music streaming app! Available for both desktop & mobile!"
     last_synced_sha: 826c8e4dd6996781f1e737cafb5538e220618568
     user_starred_at: "2025-09-22T16:03:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -28034,15 +28115,26 @@ repositories:
         published_at: "2025-11-14T11:10:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.271Z"
+      prompt_version: v2
   - repo: mulaRahul/keyviz
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - keystroke
+      - tauri
+      - real-time
+      - lang:dart
+      - visualization
     summary: "Keyviz is a free and open-source tool to visualize your keystrokes ⌨️ and \U0001F5B1️ mouse actions in real-time."
     last_synced_sha: f0bb893efe037b41945d6cab135f2a44c90d9956
     user_starred_at: "2025-09-22T16:03:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -28064,15 +28156,26 @@ repositories:
         published_at: "2022-08-28T12:17:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.271Z"
+      prompt_version: v2
   - repo: upptime/upptime
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - automation
+    tags:
+      - uptime
+      - statuspage
+      - lang:json
+      - automation
+      - ci-cd
     summary: ⬆️ Git Hub Actions uptime monitor & status page by @Anand Chowdhary
     last_synced_sha: ab8d88728ad54bff14f6f562937cdf6d32a60e67
     user_starred_at: "2025-09-22T16:01:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JSON
       topics:
@@ -28097,15 +28200,27 @@ repositories:
         published_at: "2020-10-13T21:00:25Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.271Z"
+      prompt_version: v2
   - repo: Azure-Samples/contoso-chat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+      - deployment
+    tags:
+      - azure-ai
+      - rag
+      - llmops
+      - azure-openai-service
+      - deployment
     summary: This sample has the full End2End process of creating RAG application with Prompty and Azure AI Foundry. It includes GPT-4 LLM application code, evaluations, deployment automation with AZD CLI, Git ...
     last_synced_sha: 028921fe3209db3216075d34ced6c109de132533
     user_starred_at: "2025-09-22T16:00:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -28135,15 +28250,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.271Z"
+      prompt_version: v2
   - repo: jasontaylordev/CleanArchitecture
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - clean-architecture
+      - aspnetcore
+      - template
+      - angular
+      - react
     summary: Clean Architecture Solution Template for ASP.NET Core
     last_synced_sha: fae93da273cd1e39cd95357c775414f92c3d6441
     user_starred_at: "2025-09-22T15:59:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -28169,15 +28295,27 @@ repositories:
         published_at: "2025-11-11T17:22:55Z"
       is_mirror: false
       mirror_url: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.267Z"
+      prompt_version: v2
   - repo: sigoden/aichat
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - ai-ml
+      - automation
+    tags:
+      - llm
+      - chatbot
+      - lang:rust
+      - cli
+      - ai-tools
     summary: All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to Open AI, Claude, Gemini, Ollama, Groq, and more.
     last_synced_sha: 236097b18478fd0714f6f207988a32663ccea155
     user_starred_at: "2025-09-22T15:59:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -28210,15 +28348,26 @@ repositories:
         published_at: "2025-07-06T23:48:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.267Z"
+      prompt_version: v2
   - repo: bigcapitalhq/bigcapital
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - accounting
+      - financial-management
+      - lang:ts
+      - reporting
+      - open-source
     summary: "\U0001F4B5 Bigcapital is financial accounting with intelligent reporting for faster decision-making, an open-source alternative to Quickbooks, Xero, etc."
     last_synced_sha: e3cf6bf09993b5d1fbe488204b2e38df5cf3e6d7
     user_starred_at: "2025-09-22T15:55:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28245,15 +28394,27 @@ repositories:
         published_at: "2026-01-21T12:16:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.267Z"
+      prompt_version: v2
   - repo: OvidijusParsiunas/deep-chat
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+      - web-dev
+    tags:
+      - chatbot
+      - react-chatbot
+      - lang:ts
+      - customizable
+      - framework-support
     summary: Fully customizable AI chatbot component for your website
     last_synced_sha: 99f15d0ccbdab18ce8493f53b9f8bed9b5433e3d
     user_starred_at: "2025-09-22T15:54:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28292,6 +28453,11 @@ repositories:
         published_at: "2026-01-07T13:27:50Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-24T04:18:48.267Z"
+      prompt_version: v2
   - repo: HKUDS/AI-Researcher
     categories:
       - ai-ml
