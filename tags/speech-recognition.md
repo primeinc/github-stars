@@ -1,11 +1,12 @@
 # Tag: speech-recognition
 
-*6 repositories*
+*7 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [QwenLM/Qwen3-ASR-Toolkit](https://github.com/QwenLM/Qwen3-ASR-Toolkit) | Official Python toolkit for the Qwen3-ASR API. Parallel high‑throughput calls, robust long‑audio transcription, multi‑sample‑rate support. | `Python` ★ 744 | 2025-10-21 |
 | [modelscope/FunASR](https://github.com/modelscope/FunASR) | A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc. | `Python` ★ 14.6k | 2026-01-07 |
 | [kyutai-labs/moshi](https://github.com/kyutai-labs/moshi) | Moshi is a speech-text foundation model and full-duplex spoken dialogue framework. It uses Mimi, a state-of-the-art streaming neural audio codec. | `Python` ★ 9.4k | 2026-01-19 |
 | [shahizat/JetsonGPT](https://github.com/shahizat/JetsonGPT) | Using Fast Chat-T5 Large Language Model, Vosk API for automatic speech recognition, and Piper for text-to-speech | `Python` ★ 129 | 2023-06-15 |

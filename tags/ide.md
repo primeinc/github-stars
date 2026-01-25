@@ -1,6 +1,6 @@
 # Tag: ide
 
-*5 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,6 +8,4 @@
 |---|---|---|---|
 | [coderamp-labs/pad.ws](https://github.com/coderamp-labs/pad.ws) | Whiteboard as an IDE, draw and code in your browser | `TypeScript` ★ 4k | 2025-08-06 |
 | [stravu/crystal](https://github.com/stravu/crystal) | Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app. | `TypeScript` ★ 2.8k | 2025-12-19 |
-| [winfunc/opcode](https://github.com/winfunc/opcode) | A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more. | `TypeScript` ★ 20.1k | 2025-10-16 |
-| [4xmen/anubias](https://github.com/4xmen/anubias) | Developed mobile apps so easy and native with GUI 📱 | `Vue` ★ 2.3k | 2025-01-19 |
-| [hassio-addons/addon-vscode](https://github.com/hassio-addons/addon-vscode) | Studio Code Server - Home Assistant Community Add-ons | `Dockerfile` ★ 630 | 2026-01-17 |
+| [hassio-addons/addon-vscode](https://github.com/hassio-addons/addon-vscode) | Studio Code Server - Home Assistant Community Add-ons | `Dockerfile` ★ 629 | 2026-01-22 |

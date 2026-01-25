@@ -1,11 +1,12 @@
 # Tag: face-swap
 
-*5 repositories*
+*6 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [facefusion/facefusion](https://github.com/facefusion/facefusion) | Industry leading face manipulation platform | `Python` ★ 26.5k | 2026-01-23 |
 | [ArtBot2023/CharacterFaceSwap](https://github.com/ArtBot2023/CharacterFaceSwap) | No description provided | `Python` ★ 96 | 2024-05-22 |
 | [ai-forever/ghost](https://github.com/ai-forever/ghost) | A new one shot face swap approach for image and video domains | `Python` ★ 1.5k | 2025-02-25 |
 | [xaviviro/refacer](https://github.com/xaviviro/refacer) | Refacer: One-Click Deepfake Multi-Face Swap Tool | `Python` ★ 574 | 2023-06-27 |

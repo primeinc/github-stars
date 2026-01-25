@@ -1,10 +1,11 @@
 # Tag: ai-research
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [HKUDS/AI-Researcher](https://github.com/HKUDS/AI-Researcher) | [Neur IPS2025] "AI-Researcher: Autonomous Scientific Innovation" -- A production-ready version: https://novix.science/chat | `Python` ★ 3.9k | 2025-10-16 |
-| [Agent-on-the-Fly/Memento](https://github.com/Agent-on-the-Fly/Memento) | Official Code of Memento: Fine-tuning LLM Agents without Fine-tuning LLMs | `Python` ★ 2.1k | 2025-10-05 |
+| [yukangcao/FreeMorph](https://github.com/yukangcao/FreeMorph) | [ICCV'25] Free Morph: Tuning-Free Generalized Image Morphing with Diffusion Model | `Python` ★ 81 | 2025-07-24 |
+| [FreedomIntelligence/ShareGPT-4o-Image](https://github.com/FreedomIntelligence/ShareGPT-4o-Image) | No description provided | `Python` ★ 280 | 2025-07-22 |
+| [TencentARC/PhotoMaker](https://github.com/TencentARC/PhotoMaker) | Photo Maker [CVPR 2024] | `Jupyter Notebook` ★ 10.1k | 2024-10-31 |

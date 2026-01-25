@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) | A source-available invoice, quote, project and time-tracking app built with Laravel | `PHP` ★ 9.5k | 2026-01-22 |
+| [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) | A source-available invoice, quote, project and time-tracking app built with Laravel | `PHP` ★ 9.5k | 2026-01-25 |
 | [ericmakesstuff/laravel-server-monitor](https://github.com/ericmakesstuff/laravel-server-monitor) | Server Monitoring Command for Laravel Applications | `PHP` ★ 428 | 2019-08-15 |
 | [themsaid/laravel-langman](https://github.com/themsaid/laravel-langman) | Language files manager in your artisan console. | `PHP` ★ 878 | 2024-03-30 |
 | [mpociot/laravel-test-factory-helper](https://github.com/mpociot/laravel-test-factory-helper) | Generate Laravel test factories from your existing models | `PHP` ★ 935 | 2024-01-18 |

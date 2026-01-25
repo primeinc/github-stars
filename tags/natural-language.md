@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [droidrun/droidrun](https://github.com/droidrun/droidrun) | Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖 | `Python` ★ 7.4k | 2026-01-19 |
-| [openinterpreter/open-interpreter](https://github.com/openinterpreter/open-interpreter) | A natural language interface for computers | `Python` ★ 61.7k | 2025-12-05 |
+| [junaid-mahmood/nlsh](https://github.com/junaid-mahmood/nlsh) | Turn natural language to terminal commands | `TypeScript` ★ 338 | 2026-01-22 |
+| [droidrun/droidrun](https://github.com/droidrun/droidrun) | Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖 | `Python` ★ 7.5k | 2026-01-21 |

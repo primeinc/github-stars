@@ -1,10 +1,11 @@
 # Tag: comfy-ui
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [city96/ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF) | GGUF Quantization support for native Comfy UI models | `Python` ★ 3.1k | 2026-01-12 |
-| [C0nsumption/Consume-ComfyUI-Workflows](https://github.com/C0nsumption/Consume-ComfyUI-Workflows) | A collection of some of my basic Comfy UI workflows. These are meant to act as building block to construct larger workflows of your own. | ★ 251 | 2024-07-08 |
+| [city96/ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF) | GGUF Quantization support for native Comfy UI models | `Python` ★ 3.2k | 2026-01-12 |
+| [AIDC-AI/ComfyUI-Copilot](https://github.com/AIDC-AI/ComfyUI-Copilot) | An AI-powered custom node for Comfy UI designed to enhance workflow automation and provide intelligent assistance | `TypeScript` ★ 4.4k | 2026-01-12 |
+| [scraed/LanPaint](https://github.com/scraed/LanPaint) | High quality training free inpaint for every stable diffusion model. Supports Comfy UI | `Python` ★ 932 | 2026-01-22 |

@@ -1,12 +1,13 @@
 # Tag: hacktoberfest
 
-*4 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [Panquesito7/submodules-alternative](https://github.com/Panquesito7/submodules-alternative) | An easy-to-use Git modules alternative to make the cloning process easier. | `Lua` ★ 6 | 2023-11-08 |
+| [muesli/readme-scribe](https://github.com/muesli/readme-scribe) | A Git Hub Action that automatically generates & updates markdown content (like your README.md) | ★ 577 | 2021-06-22 |
 | [maartenvandiemen/AZD-AppConfiguration](https://github.com/maartenvandiemen/AZD-AppConfiguration) | No description provided | `Bicep` ★ 1 | 2025-10-17 |
-| [swapagarwal/swag-for-dev](https://github.com/swapagarwal/swag-for-dev) | 😎 swag opportunities for developers | `JavaScript` ★ 4.4k | 2024-12-09 |
-| [mikaelbr/node-notifier](https://github.com/mikaelbr/node-notifier) | A Node.js module for sending notifications on native Mac, Windows and Linux (or Growl as fallback) | `JavaScript` ★ 5.8k | 2024-06-24 |
-| [mattermost/mattermost](https://github.com/mattermost/mattermost) | Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.. | `TypeScript` ★ 35k | 2026-01-20 |
+| [pnp/powerplatform-snippets](https://github.com/pnp/powerplatform-snippets) | Repository with snippets that can easily be used in some of the Power Platform products | `HLSL` ★ 200 | 2025-11-30 |
+| [yorukot/superfile](https://github.com/yorukot/superfile) | Pretty fancy and modern terminal file manager | `Go` ★ 16.5k | 2026-01-23 |

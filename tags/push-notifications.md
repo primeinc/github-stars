@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [novuhq/novu](https://github.com/novuhq/novu) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | `TypeScript` ★ 38.4k | 2026-01-14 |
+| [webhooksite/webhook.site](https://github.com/webhooksite/webhook.site) | ⚓️ Easily test HTTP webhooks with this handy tool that displays requests instantly. | `JavaScript` ★ 6.4k | 2025-12-16 |
 | [davibennun/laravel-push-notification](https://github.com/davibennun/laravel-push-notification) | Laravel package to enable sending push notifications to devices | `PHP` ★ 1.2k | 2023-05-04 |

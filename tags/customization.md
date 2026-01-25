@@ -1,6 +1,6 @@
 # Tag: customization
 
-*9 repositories*
+*14 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,10 +8,15 @@
 |---|---|---|---|
 | [memstechtips/Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | `C#` ★ 4.8k | 2026-01-22 |
 | [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian) | 🕶️ Awesome stuff for Obsidian | `CSS` ★ 8.2k | 2024-04-06 |
-| [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 33.5k | 2026-01-23 |
-| [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art, fix bugs (frozen spinner), and ad... | `TypeScript` ★ 902 | 2026-01-24 |
+| [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 33.5k | 2026-01-24 |
+| [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art, fix bugs (frozen spinner), and ad... | `TypeScript` ★ 912 | 2026-01-24 |
 | [aleks-apostle/claude-code-patches](https://github.com/aleks-apostle/claude-code-patches) | A simple patch that toggles claude-code thinking traces to be fully expanded by default without having to press ctrl + o | `JavaScript` ★ 42 | 2025-12-09 |
 | [ramensoftware/windhawk](https://github.com/ramensoftware/windhawk) | The customization marketplace for Windows programs: https://windhawk.net/ | `C++` ★ 6.8k | 2025-12-08 |
-| [fzf404/Monit](https://github.com/fzf404/Monit) | 🎯 Desktop Widget ( 桌面小组件 ) | `Vue` ★ 840 | 2024-04-05 |
+| [FR33THYFR33THY/Ultimate-Windows-Optimization-Guide](https://github.com/FR33THYFR33THY/Ultimate-Windows-Optimization-Guide) | No description provided | `PowerShell` ★ 485 | 2025-12-30 |
+| [namazso/SecureUxTheme](https://github.com/namazso/SecureUxTheme) | 🎨 A secure boot compatible in-memory Ux Theme patcher | `C++` ★ 2.9k | 2025-06-30 |
+| [joelshepherd/tabliss](https://github.com/joelshepherd/tabliss) | A beautiful, customisable New Tab page for Firefox, Chrome, and Edge. | `TypeScript` ★ 2.7k | 2024-08-19 |
+| [borisnliscool/bnl-housing](https://github.com/borisnliscool/bnl-housing) | 🏠 An open-source Five M player property script with extensive API for ultimate customization | `Lua` ★ 98 | 2024-06-29 |
+| [eythaann/Seelen-UI](https://github.com/eythaann/Seelen-UI) | The Fully Customizable Desktop Environment for Windows 10/11. | `Rust` ★ 15.6k | 2026-01-24 |
+| [fzf404/Monit](https://github.com/fzf404/Monit) | 🎯 Desktop Widget ( 桌面小组件 ) | `Vue` ★ 841 | 2024-04-05 |
 | [MorseTheCode/OBS-Scripts](https://github.com/MorseTheCode/OBS-Scripts) | My OBS Scripts | `HTML` ★ 7 | 2025-11-27 |
 | [starship/starship](https://github.com/starship/starship) | ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell! | `Rust` ★ 53.7k | 2026-01-23 |

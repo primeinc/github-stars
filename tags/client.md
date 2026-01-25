@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [ruflin/Elastica](https://github.com/ruflin/Elastica) | Elastica is a PHP client for elasticsearch | `PHP` ★ 2.3k | 2025-12-30 |
+| [mondora/ddp.js](https://github.com/mondora/ddp.js) | Isomorphic Java Script DDP client | `JavaScript` ★ 211 | 2018-03-17 |
 | [slate/slate](https://github.com/slate/slate) | Slate IRC client | `JavaScript` ★ 1.9k | 2014-05-30 |

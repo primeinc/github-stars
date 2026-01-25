@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [jdx/mise](https://github.com/jdx/mise) | dev tools, env vars, task runner | `Rust` ★ 22.9k | 2026-01-11 |
-| [Jedward23/Tmux-Orchestrator](https://github.com/Jedward23/Tmux-Orchestrator) | No description provided | `Python` ★ 1.5k | 2025-07-14 |
+| [jdx/mise](https://github.com/jdx/mise) | dev tools, env vars, task runner | `Rust` ★ 23.5k | 2026-01-25 |
+| [google/zx](https://github.com/google/zx) | A tool for writing better scripts | `JavaScript` ★ 45.1k | 2026-01-08 |

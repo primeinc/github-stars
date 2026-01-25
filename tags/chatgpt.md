@@ -1,6 +1,6 @@
 # Tag: chatgpt
 
-*18 repositories*
+*19 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,7 +8,8 @@
 |---|---|---|---|
 | [pionxzh/chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) | Export and Share your Chat GPT conversation history | `TypeScript` ★ 2.1k | 2026-01-18 |
 | [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 9k | 2026-01-23 |
-| [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best Chat GPT that $100 can buy. | `Python` ★ 40.7k | 2026-01-20 |
+| [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best Chat GPT that $100 can buy. | `Python` ★ 40.8k | 2026-01-25 |
+| [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. | `TypeScript` ★ 143.5k | 2026-01-25 |
 | [Klingefjord/ChatGPT-API-Python](https://github.com/Klingefjord/ChatGPT-API-Python) | Unofficial Chat GPT headless browser wrapper | `Python` ★ 21 | 2022-12-06 |
 | [llm-workflow-engine/llm-workflow-engine](https://github.com/llm-workflow-engine/llm-workflow-engine) | Power CLI and Workflow manager for LLMs (core package) | `Python` ★ 3.7k | 2025-12-29 |
 | [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) | A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure Open AI large language models to power Chat GPT-style and Q&A experiences. | `Python` ★ 7.5k | 2026-01-23 |

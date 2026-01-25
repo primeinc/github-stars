@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [jasonkneen/workflow-builder-template](https://github.com/jasonkneen/workflow-builder-template) | Visual AI workflow automation platform | `TypeScript` ★ 1 | 2026-01-13 |
-| [HumanoidAgents/HumanoidAgents](https://github.com/HumanoidAgents/HumanoidAgents) | Humanoid Agents: Platform for Simulating Human-like Generative Agents | `Python` ★ 311 | 2024-10-14 |
+| [dtyq/magic](https://github.com/dtyq/magic) | Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system) | `PHP` ★ 4.4k | 2025-12-02 |

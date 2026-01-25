@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [dask/dask](https://github.com/dask/dask) | Parallel computing with task scheduling | `Python` ★ 13.7k | 2026-01-13 |
-| [datajuicer/data-juicer](https://github.com/datajuicer/data-juicer) | Data processing for and with foundation models! 🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷 | `Python` ★ 5.7k | 2026-01-14 |
-| [towhee-io/towhee](https://github.com/towhee-io/towhee) | Towhee is a framework that is dedicated to making neural data processing pipelines simple and fast. | `Python` ★ 3.4k | 2024-10-18 |
+| [NVIDIA/nvImageCodec](https://github.com/NVIDIA/nvImageCodec) | A nv Image Codec library of GPU- and CPU- accelerated codecs featuring a unified interface | `Jupyter Notebook` ★ 137 | 2026-01-09 |
+| [voluntas/duckdb-wasm-parquet](https://github.com/voluntas/duckdb-wasm-parquet) | No description provided | `TypeScript` ★ 102 | 2026-01-13 |
+| [datajuicer/data-juicer](https://github.com/datajuicer/data-juicer) | Data processing for and with foundation models! 🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷 | `Python` ★ 5.8k | 2026-01-23 |

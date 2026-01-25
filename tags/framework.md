@@ -1,19 +1,12 @@
 # Tag: framework
 
-*11 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [trpc/trpc](https://github.com/trpc/trpc) | 🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | `TypeScript` ★ 39.4k | 2026-01-19 |
-| [microsoft/FluidFramework](https://github.com/microsoft/FluidFramework) | Library for building distributed, real-time collaborative web applications | `TypeScript` ★ 4.9k | 2026-01-17 |
-| [beefproject/beef](https://github.com/beefproject/beef) | The Browser Exploitation Framework Project | `JavaScript` ★ 10.7k | 2026-01-19 |
-| [extension-js/extension.js](https://github.com/extension-js/extension.js) | 🧩 The cross-browser extension framework | `TypeScript` ★ 4.5k | 2026-01-19 |
-| [Stremio/stremio-core](https://github.com/Stremio/stremio-core) | ⚛️ The Stremio Core: types, addon system, UI models, core logic | `Rust` ★ 1.8k | 2026-01-13 |
-| [basementstudio/xmcp](https://github.com/basementstudio/xmcp) | The Type Script MCP framework | `TypeScript` ★ 1.2k | 2026-01-19 |
-| [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) | What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers? | `TypeScript` ★ 17.8k | 2025-09-21 |
-| [expo/expo](https://github.com/expo/expo) | An open-source framework for making universal native apps with React. Expo runs on Android, i OS, and the web. | `TypeScript` ★ 46.6k | 2026-01-20 |
-| [leonboe1/GoogleFindMyTools](https://github.com/leonboe1/GoogleFindMyTools) | Framework for tracking and building your own Google Find My Device / Find Hub trackers 🧭 | `Python` ★ 970 | 2025-11-08 |
-| [loco-rs/loco](https://github.com/loco-rs/loco) | 🚂 🦀 The one-person framework for Rust for side-projects and startups | `Rust` ★ 8.5k | 2026-01-04 |
-| [FreePBX/framework](https://github.com/FreePBX/framework) | This module provides a facility to install bug fixes to the framework code that is not otherwise housed in a module | `PHP` ★ 69 | 2026-01-07 |
+| [danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) | Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere. | `Go` ★ 38.5k | 2026-01-24 |
+| [MotiaDev/motia](https://github.com/MotiaDev/motia) | Multi-Language Backend Framework that unifies APIs, background jobs, queues, workflows, streams, and AI agents with a single core primitive with built-in observability and state management. | `TypeScript` ★ 14.4k | 2026-01-14 |
+| [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) | What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers? | `TypeScript` ★ 17.9k | 2025-09-21 |
+| [SuperClaude-Org/SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) | A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies. | `Python` ★ 20.4k | 2026-01-18 |

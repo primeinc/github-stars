@@ -1,19 +1,25 @@
 # Deployment
 
-*13 repositories*
+*19 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [knadh/listmonk](https://github.com/knadh/listmonk) | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app. | `Go` ★ 18.8k | 2026-01-21 |
+| [knadh/listmonk](https://github.com/knadh/listmonk) | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app. | `Go` ★ 18.8k | 2026-01-24 |
 | [plexinc/pms-docker](https://github.com/plexinc/pms-docker) | Plex Media Server Docker repo, for all your PMS docker needs. | `Smarty` ★ 3.9k | 2026-01-07 |
 | [Azure-Player/azure.datafactory.tools](https://github.com/Azure-Player/azure.datafactory.tools) | Tools for deploying Data Factory (v2) in Microsoft Azure | `PowerShell` ★ 259 | 2025-10-24 |
 | [Dokploy/dokploy](https://github.com/Dokploy/dokploy) | Open Source Alternative to Vercel, Netlify and Heroku. | `TypeScript` ★ 29.4k | 2026-01-21 |
 | [pamelafox/fastapi-azure-function-apim](https://github.com/pamelafox/fastapi-azure-function-apim) | A Fast API app that is designed for deployment to Azure Functions with an API Management Policy. | `Bicep` ★ 60 | 2025-12-29 |
-| [ad-on-is/rachoon](https://github.com/ad-on-is/rachoon) | 🦝 Rachoon — A self-hostable way to handle invoices | `TypeScript` ★ 908 | 2025-12-02 |
-| [coollabsio/coolify](https://github.com/coollabsio/coolify) | An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv... | `PHP` ★ 49.8k | 2026-01-22 |
-| [nitrojs/nitro](https://github.com/nitrojs/nitro) | Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer. | `TypeScript` ★ 10.3k | 2026-01-24 |
+| [ad-on-is/rachoon](https://github.com/ad-on-is/rachoon) | 🦝 Rachoon — A self-hostable way to handle invoices | `TypeScript` ★ 913 | 2025-12-02 |
+| [coollabsio/coolify](https://github.com/coollabsio/coolify) | An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv... | `PHP` ★ 49.9k | 2026-01-22 |
+| [nitrojs/nitro](https://github.com/nitrojs/nitro) | Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer. | `TypeScript` ★ 10.3k | 2026-01-25 |
+| [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An `azd` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 29 | 2024-06-26 |
+| [Azure-Samples/contoso-chat](https://github.com/Azure-Samples/contoso-chat) | This sample has the full End2End process of creating RAG application with Prompty and Azure AI Foundry. It includes GPT-4 LLM application code, evaluations, deployment automation with AZD CLI, Git ... | `Bicep` ★ 753 | 2025-10-03 |
+| [emcie-co/parlant](https://github.com/emcie-co/parlant) | LLM agents built for control. Designed for real-world use. Deployed in minutes. | `Python` ★ 17.6k | 2026-01-24 |
+| [dokku/dokku](https://github.com/dokku/dokku) | A docker-powered Paa S that helps you build and manage the lifecycle of applications | `Shell` ★ 31.8k | 2026-01-24 |
+| [caprover/caprover](https://github.com/caprover/caprover) | Scalable Paa S (automated Docker+nginx) - aka Heroku on Steroids | `TypeScript` ★ 14.8k | 2025-12-04 |
+| [github/branch-deploy](https://github.com/github/branch-deploy) | Enabling Branch Deployments through Issue Ops with Git Hub Actions - If you find this project useful, give it a star! ⭐️ | `JavaScript` ★ 518 | 2026-01-05 |
 | [openai/codex-universal](https://github.com/openai/codex-universal) | Base docker image used in Codex environments | `Dockerfile` ★ 767 | 2026-01-21 |
 | [risonsimon/claude-artifacts-react](https://github.com/risonsimon/claude-artifacts-react) | Quickly deploy React code from Claude Artifacts to the internet. | `JavaScript` ★ 49 | 2024-07-02 |
 | [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) | A complete solution to package and build a ready for distribution Electron app with “auto update” support out of the box | `TypeScript` ★ 14.4k | 2026-01-24 |

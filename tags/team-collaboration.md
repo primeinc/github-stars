@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | Bring projects, wikis, and teams together with AI. App Flowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative. | `Dart` ★ 67.6k | 2026-01-12 |
-| [sdelements/lets-chat](https://github.com/sdelements/lets-chat) | Self-hosted chat app for small teams | `JavaScript` ★ 9.8k | 2025-11-15 |
+| [colanode/colanode](https://github.com/colanode/colanode) | Open-source and local-first Slack and Notion alternative that puts you in control of your data | `TypeScript` ★ 4.5k | 2026-01-24 |
+| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | Bring projects, wikis, and teams together with AI. App Flowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative. | `Dart` ★ 67.7k | 2026-01-12 |

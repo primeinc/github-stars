@@ -1,13 +1,16 @@
 # Tag: cli-tool
 
-*5 repositories*
+*8 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | `Go` ★ 49.3k | 2026-01-17 |
-| [charmbracelet/vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder 📼 | `Go` ★ 18.4k | 2026-01-19 |
+| [charmbracelet/vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder 📼 | `Go` ★ 18.4k | 2026-01-25 |
 | [frankbria/cli-ify-plugin](https://github.com/frankbria/cli-ify-plugin) | Convert Claude Code skills, commands, and agents into standalone CLI tools for Linux/Mac (Bash) and Windows (Power Shell). | `PowerShell` ★ 1 | 2026-01-09 |
-| [generalaction/emdash](https://github.com/generalaction/emdash) | Emdash is the Open-Source Agentic Development Environment | `TypeScript` ★ 1.1k | 2026-01-24 |
-| [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI tool for configuring and monitoring Claude Code | `Python` ★ 18.2k | 2026-01-24 |
+| [generalaction/emdash](https://github.com/generalaction/emdash) | Emdash is the Open-Source Agentic Development Environment | `TypeScript` ★ 1.1k | 2026-01-25 |
+| [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI tool for configuring and monitoring Claude Code | `Python` ★ 18.3k | 2026-01-25 |
+| [copilot-extensions/gh-debug-cli](https://github.com/copilot-extensions/gh-debug-cli) | CLI tool that lets you chat with your agent locally for faster feedback and debugging | `Go` ★ 34 | 2024-11-21 |
+| [scaffdog/scaffdog](https://github.com/scaffdog/scaffdog) | :dog: scaffdog is Markdown driven scaffolding tool. | `TypeScript` ★ 760 | 2026-01-22 |
+| [google/zx](https://github.com/google/zx) | A tool for writing better scripts | `JavaScript` ★ 45.1k | 2026-01-08 |

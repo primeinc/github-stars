@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [ZitaoTech/HackberryPiCM5](https://github.com/ZitaoTech/HackberryPiCM5) | An ultra portable handheld Linux device using Raspberry CM5 unit as Core with 4" 720X720 TFT Touch display and the original blackberry keyboard | `HTML` ★ 827 | 2025-07-09 |
+| [ZitaoTech/HackberryPiCM5](https://github.com/ZitaoTech/HackberryPiCM5) | An ultra portable handheld Linux device using Raspberry CM5 unit as Core with 4" 720X720 TFT Touch display and the original blackberry keyboard | `HTML` ★ 828 | 2025-07-09 |
 | [MKme/XtoolD1](https://github.com/MKme/XtoolD1) | XTool D1 Laser Cutter/Engraver 10W | `G-code` ★ 6 | 2022-06-06 |
 | [DustinWatts/esp32-touchdown](https://github.com/DustinWatts/esp32-touchdown) | ESP32 Touch Down | ★ 346 | 2024-04-20 |
 

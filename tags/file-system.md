@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/VFSForGit](https://github.com/microsoft/VFSForGit) | Virtual File System for Git: Enable Git at Enterprise Scale | `C#` ★ 6.1k | 2026-01-15 |
-| [micjohnson/weed-php](https://github.com/micjohnson/weed-php) | PHP client for Weed-FS, a simple and highly scalable distributed file system | `PHP` ★ 20 | 2016-10-22 |
+| [iyaja/llama-fs](https://github.com/iyaja/llama-fs) | A self-organizing file system with llama 3 | `TypeScript` ★ 5.7k | 2025-08-08 |
+| [unjs/pathe](https://github.com/unjs/pathe) | 🛣️ Drop-in replacement of the Node.js's path module module that ensures paths are normalized | `TypeScript` ★ 556 | 2026-01-23 |

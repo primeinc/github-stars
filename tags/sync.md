@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [activadee/opencode-auth-sync](https://github.com/activadee/opencode-auth-sync) | No description provided | `TypeScript` ★ 2 | 2026-01-06 |
-| [vrtmrz/obsidian-livesync](https://github.com/vrtmrz/obsidian-livesync) | No description provided | `TypeScript` ★ 9.1k | 2026-01-23 |
+| [vrtmrz/obsidian-livesync](https://github.com/vrtmrz/obsidian-livesync) | No description provided | `TypeScript` ★ 9.1k | 2026-01-24 |
