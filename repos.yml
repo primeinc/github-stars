@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-25T04:21:01.494Z"
+  manifest_updated_at: "2026-01-25T04:21:25.017Z"
   total_repos: 2016
   generator_version: v1.0.0
   github_user: primeinc
@@ -84239,13 +84239,18 @@ repositories:
       prompt_version: v2
   - repo: qdrant/qdrant
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+    tags:
+      - vector-database
+      - neural-search
+      - high-performance
+      - lang:rust
     summary: Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/
     last_synced_sha: f937d0260ffd7705c6f34d9c25da1e27ebf5ddfd
     user_starred_at: "2026-01-24T09:14:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -84283,15 +84288,26 @@ repositories:
         published_at: "2025-12-19T17:45:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-25T04:21:25.017Z"
+      prompt_version: v2
   - repo: colanode/colanode
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - local-first
+      - team-collaboration
+      - slack-alternative
+      - notion-alternative
+      - lang:ts
     summary: Open-source and local-first Slack and Notion alternative that puts you in control of your data
     last_synced_sha: 3e1070f3a6e25ce8a3b6686caba8ddfa0aa480fb
     user_starred_at: "2026-01-24T09:14:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -84326,15 +84342,25 @@ repositories:
         published_at: "2026-01-16T09:14:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-25T04:21:25.017Z"
+      prompt_version: v2
   - repo: kubernetes-sigs/headlamp
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - cloud
+    tags:
+      - kubernetes-ui
+      - dashboard
+      - extensible-ui
+      - lang:ts
     summary: A Kubernetes web UI that is fully-featured, user-friendly and extensible
     last_synced_sha: d9a33262cf6bc233b2958318f03c9e2de70c76d1
     user_starred_at: "2026-01-24T09:10:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -84367,15 +84393,25 @@ repositories:
         published_at: "2025-12-17T13:45:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-25T04:21:25.017Z"
+      prompt_version: v2
   - repo: mickael-kerjean/filestash
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cloud
+    tags:
+      - file-management
+      - data-access
+      - self-hosted
+      - lang:js
     summary: ':file_folder: File Management Platform / Universal Data Access Gateway (without FUSE)'
     last_synced_sha: 9b9401330ffe0f57757a03fdffc2e2cd6b8ed663
     user_starred_at: "2026-01-24T09:10:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -84411,15 +84447,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-25T04:21:25.017Z"
+      prompt_version: v2
   - repo: lovell/sharp
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - image-processing
+      - libvips
+      - high-performance
+      - lang:js
     summary: High performance Node.js image processing, the fastest module to resize JPEG, PNG, Web P, AVIF and TIFF images. Uses the libvips library.
     last_synced_sha: 7b4c4762432b14c62676e860c8034b5cd326f464
     user_starred_at: "2026-01-24T09:09:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -84455,15 +84501,24 @@ repositories:
         published_at: "2025-11-06T14:18:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-25T04:21:25.017Z"
+      prompt_version: v2
   - repo: steveyegge/beads
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - coding-agents
+      - memory-augmentation
+      - lang:go
     summary: Beads - A memory upgrade for your coding agent
     last_synced_sha: bf0bf7b156eca84fb7319cf3db2d67bbe8180760
     user_starred_at: "2026-01-24T09:05:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -84485,15 +84540,25 @@ repositories:
         published_at: "2026-01-22T08:20:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-25T04:21:25.017Z"
+      prompt_version: v2
   - repo: permissionlesstech/bitchat
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - mobile-dev
+    tags:
+      - bluetooth-mesh
+      - chat
+      - irc
+      - lang:swift
     summary: bluetooth mesh chat, IRC vibes
     last_synced_sha: 1e5a52f39f88dc029a821f73b0aa0d7e53ae59e3
     user_starred_at: "2026-01-24T09:04:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics: []
@@ -84512,15 +84577,25 @@ repositories:
         published_at: "2026-01-14T22:12:34Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-25T04:21:25.017Z"
+      prompt_version: v2
   - repo: iOfficeAI/AionUi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - multi-agent-system
+      - ai-tools
+      - chatbot
+      - lang:ts
     summary: "Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | \U0001F31F Star if you like it!"
     last_synced_sha: 6f2a142f0c2220a06fd3b32f53793b95700f4351
     user_starred_at: "2026-01-24T09:04:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -84559,15 +84634,25 @@ repositories:
         published_at: "2026-01-25T02:04:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-25T04:21:25.017Z"
+      prompt_version: v2
   - repo: remotion-dev/remotion
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - video-creation
+      - react
+      - programmatic-ui
+      - lang:ts
     summary: "\U0001F3A5 Make videos programmatically with React"
     last_synced_sha: 1da34ca66e80a82a7fe0ee36c06d638c3f96ad07
     user_starred_at: "2026-01-24T09:04:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -84589,15 +84674,24 @@ repositories:
         published_at: "2026-01-22T13:18:05Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-25T04:21:25.017Z"
+      prompt_version: v2
   - repo: z-lab/dflash
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - speculative-decoding
+      - diffusion
+      - lang:python
     summary: Block Diffusion for Ultra-Fast Speculative Decoding
     last_synced_sha: e93912d1759734b6fb4a8efcec27466268c81baa
     user_starred_at: "2026-01-24T09:01:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -84614,3 +84708,8 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-25T04:21:25.016Z"
+      prompt_version: v2
