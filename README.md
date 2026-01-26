@@ -1,56 +1,42 @@
 # Awesome Starred Repositories
 
-> A curated list of **2016** repositories across **68** categories, automatically classified and organized.
+> A curated list of **100** repositories across **26** categories, automatically classified and organized.
 
-Last updated: 2026-01-25
+Last updated: 2026-01-26
 
 ## ⭐ Recently Starred
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [qdrant/qdrant](https://github.com/qdrant/qdrant) | Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/ | `Rust` ★ 28.4k | 2026-01-24 |
-| [colanode/colanode](https://github.com/colanode/colanode) | Open-source and local-first Slack and Notion alternative that puts you in control of your data | `TypeScript` ★ 4.5k | 2026-01-24 |
-| [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp) | A Kubernetes web UI that is fully-featured, user-friendly and extensible | `TypeScript` ★ 5.5k | 2026-01-24 |
-| [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) | :file_folder: File Management Platform / Universal Data Access Gateway (without FUSE) | `JavaScript` ★ 13.5k | 2026-01-23 |
-| [lovell/sharp](https://github.com/lovell/sharp) | High performance Node.js image processing, the fastest module to resize JPEG, PNG, Web P, AVIF and TIFF images. Uses the libvips library. | `JavaScript` ★ 31.8k | 2026-01-23 |
-| [steveyegge/beads](https://github.com/steveyegge/beads) | Beads - A memory upgrade for your coding agent | `Go` ★ 12.6k | 2026-01-25 |
-| [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) | bluetooth mesh chat, IRC vibes | `Swift` ★ 24.8k | 2026-01-24 |
-| [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it! | `TypeScript` ★ 10.3k | 2026-01-25 |
-| [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 🎥 Make videos programmatically with React | `TypeScript` ★ 29.7k | 2026-01-24 |
-| [z-lab/dflash](https://github.com/z-lab/dflash) | Block Diffusion for Ultra-Fast Speculative Decoding | `Python` ★ 409 | 2026-01-24 |
+| [pimalaya/himalaya](https://github.com/pimalaya/himalaya) | CLI to manage emails | `Rust` ★ 5.2k | 2026-01-23 |
+| [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | Open-source, secure environment with real-world tools for enterprise-grade agents. | `MDX` ★ 10.6k | 2026-01-24 |
+| [simpsoka/jules-companion](https://github.com/simpsoka/jules-companion) | No description provided | `Swift` ★ 60 | 2026-01-24 |
+| [sitespeedio/browsertime](https://github.com/sitespeedio/browsertime) | Measure and Optimize Web Performance | `JavaScript` ★ 644 | 2026-01-24 |
+| [doczjs/docz](https://github.com/doczjs/docz) | ✍ It has never been so easy to document your things! | `TypeScript` ★ 23.7k | 2025-11-21 |
+| [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5k | 2026-01-26 |
+| [gemini-cli-extensions/stitch](https://github.com/gemini-cli-extensions/stitch) | The Stitch extension for Gemini CLI enables you to interact with the Stitch MCP server using natural language commands. | ★ 192 | 2026-01-15 |
+| [galz10/pickle-rick-extension](https://github.com/galz10/pickle-rick-extension) | This extension transforms the Gemini CLI into "Pickle Rick," a hyper-intelligent, arrogant, yet extremely competent engineering persona. It enforces a rigid, iterative software development lifecycl... | `Python` ★ 265 | 2026-01-24 |
+| [portofcontext/pctx](https://github.com/portofcontext/pctx) | pctx is the execution layer for agentic tool calls. It exposes custom tools and MCP servers as code that runs in secure sandboxes for token-efficient calls. | `Rust` ★ 184 | 2026-01-21 |
+| [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | AI → JSON → UI | `TypeScript` ★ 9.1k | 2026-01-25 |
 
 ## 🏷️ Popular Tags
 
-[react](tags/react.md) (68) • [ai](tags/ai.md) (65) • [awesome-list](tags/awesome-list.md) (65) • [azure](tags/azure.md) (63) • [automation](tags/automation.md) (58) • [windows](tags/windows.md) (51) • [llm](tags/llm.md) (46) • [self-hosted](tags/self-hosted.md) (40) • [cross-platform](tags/cross-platform.md) (34) • [machine-learning](tags/machine-learning.md) (31) • [docker](tags/docker.md) (30) • [stable-diffusion](tags/stable-diffusion.md) (30) • [nextjs](tags/nextjs.md) (29) • [resources](tags/resources.md) (28) • [llms](tags/llms.md) (26) • [ai-agents](tags/ai-agents.md) (25) • [deep-learning](tags/deep-learning.md) (25) • [powershell](tags/powershell.md) (25) • [cli](tags/cli.md) (24) • [privacy](tags/privacy.md) (21) • [ai-tools](tags/ai-tools.md) (20) • [chatgpt](tags/chatgpt.md) (19) • [terminal](tags/terminal.md) (19) • [mcp](tags/mcp.md) (19) • [ndi](tags/ndi.md) (19) • [open-source](tags/open-source.md) (18) • [home-assistant](tags/home-assistant.md) (18) • [typescript](tags/typescript.md) (18) • [tauri](tags/tauri.md) (17) • [api](tags/api.md) (17)
+[self-hosted](tags/self-hosted.md) (6) • [react](tags/react.md) (5) • [cli](tags/cli.md) (4) • [high-performance](tags/high-performance.md) (4) • [automation](tags/automation.md) (4) • [kubernetes](tags/kubernetes.md) (3) • [google-takeout](tags/google-takeout.md) (3) • [file-management](tags/file-management.md) (3) • [authentication](tags/authentication.md) (3) • [multi-agent](tags/multi-agent.md) (3) • [awesome-list](tags/awesome-list.md) (3) • [ai](tags/ai.md) (3) • [optimization](tags/optimization.md) (3) • [reactjs](tags/reactjs.md) (2) • [llm](tags/llm.md) (2) • [semantic-search](tags/semantic-search.md) (2) • [selfhosted](tags/selfhosted.md) (2) • [webrtc](tags/webrtc.md) (2) • [dashboard](tags/dashboard.md) (2) • [cli-tool](tags/cli-tool.md) (2) • [terminal](tags/terminal.md) (2) • [terminal-tool](tags/terminal-tool.md) (2) • [music](tags/music.md) (2) • [ai-agents](tags/ai-agents.md) (2) • [local-first](tags/local-first.md) (2) • [vector-database](tags/vector-database.md) (2) • [pdf](tags/pdf.md) (2) • [claude](tags/claude.md) (2) • [no-lang](tags/no-lang.md) (2) • [natural-language](tags/natural-language.md) (2)
 
 <details>
-<summary>📂 All Categories (68)</summary>
+<summary>📂 All Categories (26)</summary>
 
 | | | |
 |---|---|---|
-| [ai-ml](categories/ai-ml.md) (554) | [productivity](categories/productivity.md) (456) | [web-dev](categories/web-dev.md) (273) |
-| [dev-tools](categories/dev-tools.md) (236) | [ui-libraries](categories/ui-libraries.md) (220) | [data-science](categories/data-science.md) (192) |
-| [automation](categories/automation.md) (184) | [system-admin](categories/system-admin.md) (180) | [desktop-dev](categories/desktop-dev.md) (169) |
-| [security](categories/security.md) (165) | [networking](categories/networking.md) (165) | [apis](categories/apis.md) (158) |
-| [learning](categories/learning.md) (149) | [cli-tools](categories/cli-tools.md) (132) | [documentation](categories/documentation.md) (122) |
-| [cloud](categories/cloud.md) (99) | [frameworks](categories/frameworks.md) (82) | [game-dev](categories/game-dev.md) (73) |
-| [embedded](categories/embedded.md) (69) | [infrastructure](categories/infrastructure.md) (67) | [devops](categories/devops.md) (64) |
-| [databases](categories/databases.md) (55) | [monitoring](categories/monitoring.md) (44) | [mobile-dev](categories/mobile-dev.md) (39) |
-| [containers](categories/containers.md) (32) | [testing](categories/testing.md) (27) | [deployment](categories/deployment.md) (19) |
-| [media](categories/media.md) (17) | [home-automation](categories/home-automation.md) (10) | [iot](categories/iot.md) (5) |
-| [video-processing](categories/video-processing.md) (4) | [modding](categories/modding.md) (4) | [design](categories/design.md) (3) |
-| [tools](categories/tools.md) (3) | [hardware](categories/hardware.md) (3) | [media-server](categories/media-server.md) (2) |
-| [robotics](categories/robotics.md) (2) | [video-editing](categories/video-editing.md) (2) | [authentication](categories/authentication.md) (2) |
-| [logging](categories/logging.md) (2) | [video-dev](categories/video-dev.md) (1) | [document-processing](categories/document-processing.md) (1) |
-| [programming](categories/programming.md) (1) | [gis](categories/gis.md) (1) | [audio](categories/audio.md) (1) |
-| [privacy](categories/privacy.md) (1) | [reverse-engineering](categories/reverse-engineering.md) (1) | [maps-gis](categories/maps-gis.md) (1) |
-| [virtualization](categories/virtualization.md) (1) | [sdk](categories/sdk.md) (1) | [blockchain](categories/blockchain.md) (1) |
-| [finance](categories/finance.md) (1) | [visualization](categories/visualization.md) (1) | [programming-languages](categories/programming-languages.md) (1) |
-| [performance](categories/performance.md) (1) | [streaming](categories/streaming.md) (1) | [multimedia](categories/multimedia.md) (1) |
-| [machine-learning](categories/machine-learning.md) (1) | [extensions](categories/extensions.md) (1) | [computer-vision](categories/computer-vision.md) (1) |
-| [simulation](categories/simulation.md) (1) | [graphics](categories/graphics.md) (1) | [wellness](categories/wellness.md) (1) |
-| [communication](categories/communication.md) (1) | [queueing](categories/queueing.md) (1) | [analytics](categories/analytics.md) (1) |
-| [libraries](categories/libraries.md) (1) | [image-processing](categories/image-processing.md) (1) |  |
+| [ai-ml](categories/ai-ml.md) (32) | [productivity](categories/productivity.md) (26) | [cli-tools](categories/cli-tools.md) (17) |
+| [dev-tools](categories/dev-tools.md) (15) | [ui-libraries](categories/ui-libraries.md) (13) | [web-dev](categories/web-dev.md) (11) |
+| [apis](categories/apis.md) (8) | [security](categories/security.md) (8) | [learning](categories/learning.md) (7) |
+| [devops](categories/devops.md) (7) | [networking](categories/networking.md) (7) | [automation](categories/automation.md) (7) |
+| [data-science](categories/data-science.md) (7) | [infrastructure](categories/infrastructure.md) (6) | [cloud](categories/cloud.md) (6) |
+| [documentation](categories/documentation.md) (5) | [desktop-dev](categories/desktop-dev.md) (5) | [databases](categories/databases.md) (4) |
+| [monitoring](categories/monitoring.md) (4) | [system-admin](categories/system-admin.md) (4) | [frameworks](categories/frameworks.md) (4) |
+| [testing](categories/testing.md) (3) | [mobile-dev](categories/mobile-dev.md) (3) | [containers](categories/containers.md) (2) |
+| [deployment](categories/deployment.md) (1) | [game-dev](categories/game-dev.md) (1) |  |
 
 </details>
 

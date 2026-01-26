@@ -1,33 +1,10 @@
 # Tag: ai-agents
 
-*25 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒ | `TypeScript` ★ 1.2k | 2026-01-24 |
-| [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | Autonomous AI development loop for Claude Code with intelligent exit detection | `Shell` ★ 5.5k | 2026-01-24 |
-| [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | Get 10X more out of Claude Code, Codex or any coding agent | `Rust` ★ 18.8k | 2026-01-24 |
-| [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) | The first "code-first" agent framework for seamlessly planning and executing data analytics tasks. | `Python` ★ 6.1k | 2026-01-14 |
-| [code-yeongyu/oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode) | The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you. | `TypeScript` ★ 23.3k | 2026-01-25 |
-| [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, v LLM pods | `TypeScript` ★ 2.2k | 2026-01-25 |
-| [coleam00/ottomator-agents](https://github.com/coleam00/ottomator-agents) | All the open source AI Agents hosted on the o TTomator Live Agent Studio platform! | `Python` ★ 5.3k | 2025-11-09 |
-| [droidrun/droidrun](https://github.com/droidrun/droidrun) | Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖 | `Python` ★ 7.5k | 2026-01-21 |
-| [universal-tool-calling-protocol/code-mode](https://github.com/universal-tool-calling-protocol/code-mode) | 🔌 Plug-and-play library to enable agents to call MCP and UTCP tools via code execution. | `Python` ★ 1.3k | 2026-01-16 |
-| [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 12 Lessons to Get Started Building AI Agents | `Jupyter Notebook` ★ 49.4k | 2026-01-18 |
-| [google/adk-web](https://github.com/google/adk-web) | Agent Development Kit Web (adk web) is the built-in developer UI that is integrated with Agent Development Kit for easier agent development and debugging. | `TypeScript` ★ 815 | 2026-01-22 |
-| [google/adk-docs](https://github.com/google/adk-docs) | An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. | `Shell` ★ 1.1k | 2026-01-23 |
-| [usestrix/strix](https://github.com/usestrix/strix) | Open-source AI agents for penetration testing | `Python` ★ 19.4k | 2026-01-23 |
-| [Ido-Levi/Hephaestus](https://github.com/Ido-Levi/Hephaestus) | Semi-Structured Agentic Framework. Workflows build themselves as agents discover what needs to be done, not what you predicted upfront. | `Python` ★ 1.1k | 2025-12-01 |
-| [bytebot-ai/bytebot](https://github.com/bytebot-ai/bytebot) | Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment. | `TypeScript` ★ 10.3k | 2025-09-12 |
-| [Azure-Samples/snippy](https://github.com/Azure-Samples/snippy) | 🧩 Build AI-powered MCP Tools with Azure Functions, Durable Agents & Cosmos vector search. Features orchestrated multi-agent workflows using Open AI. | `Python` ★ 92 | 2025-12-18 |
-| [NVIDIA/NeMo-Agent-Toolkit](https://github.com/NVIDIA/NeMo-Agent-Toolkit) | The NVIDIA Ne Mo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents. | `Python` ★ 1.8k | 2026-01-24 |
-| [emcie-co/parlant](https://github.com/emcie-co/parlant) | LLM agents built for control. Designed for real-world use. Deployed in minutes. | `Python` ★ 17.6k | 2026-01-24 |
-| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | AI Agent + Coding Agent + 300+ assistants: agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs. | `TypeScript` ★ 38.3k | 2026-01-25 |
-| [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) | What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers? | `TypeScript` ★ 17.9k | 2025-09-21 |
-| [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) | MCP Toolbox for Databases is an open source MCP server for databases. | `Go` ★ 12.6k | 2026-01-24 |
-| [winfunc/opcode](https://github.com/winfunc/opcode) | A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more. | `TypeScript` ★ 20.2k | 2025-10-16 |
-| [aipotheosis-labs/aci](https://github.com/aipotheosis-labs/aci) | ACI.dev is the open source tool-calling platform that hooks up 600+ tools into any agentic IDE or custom AI agent through direct function calling or a unified MCP server. The birthplace of Vibe Ops. | `Python` ★ 4.7k | 2026-01-08 |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, Crew AI empowers agents to work together seamlessly, tackling complex tasks. | `Python` ★ 43.1k | 2026-01-23 |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI Agents | `Python` ★ 45.9k | 2026-01-13 |
+| [portofcontext/pctx](https://github.com/portofcontext/pctx) | pctx is the execution layer for agentic tool calls. It exposes custom tools and MCP servers as code that runs in secure sandboxes for token-efficient calls. | `Rust` ★ 184 | 2026-01-21 |
+| [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒ | `TypeScript` ★ 1.2k | 2026-01-25 |
