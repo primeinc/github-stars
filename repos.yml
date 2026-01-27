@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:27:01.391Z"
+  manifest_updated_at: "2026-01-27T04:27:23.234Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -55088,13 +55088,17 @@ repositories:
       mirror_url: null
   - repo: aidenlx/better-fn
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - obsidian-plugin
+      - footnote-preview
+      - lang:ts
     summary: Footnote hover preview for Obsidian.md
     last_synced_sha: 5afbc2b22ba167d207117912f22ae8de6e095736
     user_starred_at: "2023-11-27T23:29:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -55115,15 +55119,24 @@ repositories:
         published_at: "2021-06-09T01:30:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.234Z"
+      prompt_version: v2
   - repo: Wayzware/EducationBalancer
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - education-capacity
+      - cities-skylines-2
+      - lang:csharp
     summary: Increases the student capacity of various educational buildings in Cities Skylines 2
     last_synced_sha: 3288ac60972eff0d5cc8e7dabc10db57e363cfd4
     user_starred_at: "2023-11-27T20:30:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -55142,15 +55155,24 @@ repositories:
         published_at: "2024-03-25T17:49:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.234Z"
+      prompt_version: v2
   - repo: klyte45/EUIS-baseproj-fe
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - frontend
+      - euis
+      - lang:js
     summary: Basic project to create EUIS micro-frontend applications.
     last_synced_sha: b144fcecae56cb22c4f36b119426766a2bd550b7
     user_starred_at: "2023-11-27T20:25:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -55167,15 +55189,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.234Z"
+      prompt_version: v2
   - repo: Sci-fiBrain/CSUL
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - universal-launcher
+      - cities-skylines-2
+      - lang:csharp
     summary: 'Cities: Skylines II Universal Launcher 天际线2万能启动器'
     last_synced_sha: 0334c489314b116fdefe91a213c16889270d988e
     user_starred_at: "2023-11-26T19:06:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -55195,15 +55226,23 @@ repositories:
         published_at: "2024-04-24T13:06:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.234Z"
+      prompt_version: v2
   - repo: thardie/Cities2-Mods
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - cities-skylines-2
+      - modding
+      - lang:csharp
     summary: No description provided
     last_synced_sha: b4d24e7689f5b940641886c13a8e97623e56503b
     user_starred_at: "2023-11-24T22:58:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -55222,15 +55261,24 @@ repositories:
         published_at: "2023-11-24T06:49:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.233Z"
+      prompt_version: v2
   - repo: ST-Apps/CS2-ExtendedRoadUpgrades
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - road-upgrades
+      - cities-skylines-2
+      - lang:csharp
     summary: A mod that enables multiple upgrade options for your roads.
     last_synced_sha: 758eede2669b08d14aa9aa8e9ac313588d702aac
     user_starred_at: "2023-11-24T22:56:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -55251,15 +55299,24 @@ repositories:
         published_at: "2023-12-03T13:03:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.233Z"
+      prompt_version: v2
   - repo: slyh/Cities2-TrafficLightsEnhancement
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - automation
+    tags:
+      - traffic-lights
+      - cities-skylines-2
+      - lang:csharp
     summary: 'Advanced traffic lights for Cities: Skylines II'
     last_synced_sha: 7dabdeedab984333b836c8a6fc022446b9e2bc8a
     user_starred_at: "2023-11-22T14:16:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -55279,15 +55336,25 @@ repositories:
         published_at: "2024-08-19T16:03:25Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.233Z"
+      prompt_version: v2
   - repo: jupyterlab/jupyterlab
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - dev-tools
+    tags:
+      - jupyterlab
+      - notebooks
+      - computational-environment
+      - lang:ts
     summary: Jupyter Lab computational environment.
     last_synced_sha: 148597d85ceb1aa5c9730f73ce6b6aceecf2ae2c
     user_starred_at: "2023-11-06T17:41:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -55308,15 +55375,25 @@ repositories:
         published_at: "2026-01-23T15:12:34Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.233Z"
+      prompt_version: v2
   - repo: tldr-pages/tldr
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - cheatsheets
+      - console-commands
+      - collaborative
+      - terminal
     summary: "\U0001F4DA Collaborative cheatsheets for console commands"
     last_synced_sha: 060987f492eeba4d857190ab1c2efc75e20bf609
     user_starred_at: "2023-11-06T17:38:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Markdown
       topics:
@@ -55355,15 +55432,24 @@ repositories:
         published_at: "2025-03-07T10:33:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.233Z"
+      prompt_version: v2
   - repo: shellinabox/shellinabox
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - networking
+    tags:
+      - web-terminal
+      - remote-access
+      - lang:c
     summary: Official-ish Fork of Shell In A Box
     last_synced_sha: 4f0ecc31ac6f985e0dd3f5a52cbfc0e9251f6361
     user_starred_at: "2023-11-06T17:34:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -55382,15 +55468,25 @@ repositories:
         published_at: "2025-09-06T12:47:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.233Z"
+      prompt_version: v2
   - repo: ai-forever/ghost
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - faceswap
+      - deep-learning
+      - pytorch
+      - lang:python
     summary: A new one shot face swap approach for image and video domains
     last_synced_sha: 44e58aad8600ee83ad4c8213aaa9698ccaf66c1c
     user_starred_at: "2023-11-02T21:38:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -55419,15 +55515,24 @@ repositories:
         published_at: "2022-01-11T10:14:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.233Z"
+      prompt_version: v2
   - repo: HumanoidAgents/HumanoidAgents
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - simulation
+    tags:
+      - humanoid-agents
+      - generative-ai
+      - lang:python
     summary: 'Humanoid Agents: Platform for Simulating Human-like Generative Agents'
     last_synced_sha: 9718c674ea47bad9e7697611b1d9d557d3c2d8b7
     user_starred_at: "2023-11-02T05:54:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -55444,15 +55549,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.233Z"
+      prompt_version: v2
   - repo: TURBODRIVER/WickedWhims
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - learning
+    tags:
+      - modding
+      - resources
+      - lang:python
     summary: Open resources of Wicked Whims for modders
     last_synced_sha: b45a0ee605cededca1b1d42ead9df461045d5ebe
     user_starred_at: "2023-10-31T05:46:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -55469,15 +55583,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.233Z"
+      prompt_version: v2
   - repo: Romanitho/Winget-AutoUpdate
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - winget
+      - powershell
+      - app-updater
     summary: WAU daily updates apps as system and notify connected users. (Allowlist and Blocklist support)
     last_synced_sha: a9c6ff89bbd728b90ebc17e0ed7d24cbd3b44e6d
     user_starred_at: "2023-10-26T03:03:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -55497,15 +55620,24 @@ repositories:
         published_at: "2026-01-20T11:23:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.233Z"
+      prompt_version: v2
   - repo: sameerasw/folder-icons
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - icons
+      - windows-11
+      - lang:python
     summary: Folder icons I made in Windows 11 style.
     last_synced_sha: b60ed5b4fc4e33ed39e4e93a2293842bcbba3174
     user_starred_at: "2023-10-26T00:42:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -55532,6 +55664,11 @@ repositories:
         published_at: "2023-09-10T08:57:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:27:23.233Z"
+      prompt_version: v2
   - repo: PikeNote/taskbar-groups-pike-beta
     categories:
       - productivity
