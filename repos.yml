@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:43:08.737Z"
+  manifest_updated_at: "2026-01-27T04:43:29.935Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -34589,13 +34589,17 @@ repositories:
       mirror_url: null
   - repo: ratacat/slurp-ai
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - automation
+    tags:
+      - web-scraping
+      - knowledge-consolidation
+      - lang:js
     summary: Tool for scraping and consolidating documentation websites into a single MD file.
     last_synced_sha: 43ee1d9fa75ab95b34c9d91a47dfcbc378a2d3d8
     user_starred_at: "2025-07-13T15:36:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -34614,15 +34618,24 @@ repositories:
         published_at: "2025-12-21T06:15:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.935Z"
+      prompt_version: v2
   - repo: DevToys-app/DevToys
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - desktop-dev
+    tags:
+      - developer-tools
+      - fluent-design
+      - lang:csharp
     summary: A Swiss Army knife for developers.
     last_synced_sha: 290b0ae0c397b53875ed7ed874898a8da3b5646f
     user_starred_at: "2025-07-13T14:34:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -34660,15 +34673,25 @@ repositories:
         published_at: "2023-07-25T14:23:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.935Z"
+      prompt_version: v2
   - repo: Azure/communication-ui-library
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - communication
+      - azure
+      - react
+      - lang:ts
     summary: UI Library for Azure Communication Services helps developers build communication applications with ease. From turn-key composites to UI components that can be composited together.
     last_synced_sha: aa5eca6cad6f3c7b7bc17f08645e2b4d017525b5
     user_starred_at: "2025-07-13T13:30:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34694,15 +34717,24 @@ repositories:
         published_at: "2025-10-20T22:10:27Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.935Z"
+      prompt_version: v2
   - repo: bkaankose/Wino-Mail
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - mail-client
+      - fluent-design
+      - lang:csharp
     summary: Built-in Mail & Calendars app clone for Windows.
     last_synced_sha: 7f8c6776fc1fd45cac821eb0eaac349efb9dfe30
     user_starred_at: "2025-07-13T13:26:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -34731,15 +34763,24 @@ repositories:
         published_at: "2025-02-25T20:50:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.934Z"
+      prompt_version: v2
   - repo: theimpactfulcompany/Rise-Media-Player
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - media-player
+      - fluent-ui
+      - lang:csharp
     summary: One media player for everything you own or stream; whether it's music or videos, online or offline Rise Media Player does it all. And it's beautiful and native with the latest version of Win UI.
     last_synced_sha: bf3c979af2f0111b15ca0171bc7d4842d2766a8b
     user_starred_at: "2025-07-13T13:25:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -34774,15 +34815,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.934Z"
+      prompt_version: v2
   - repo: zhiyiYo/PyQt-Fluent-Widgets
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - pyqt
+      - fluent-design
+      - gui-library
+      - lang:python
     summary: A fluent design widgets library based on C++ Qt/Py Qt/Py Side. Make Qt Great Again.
     last_synced_sha: 897a85ffaf05324cda4eee67815a171c2cdf58a0
     user_starred_at: "2025-07-13T13:24:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -34821,15 +34872,25 @@ repositories:
         published_at: "2024-10-20T06:09:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.934Z"
+      prompt_version: v2
   - repo: bdlukaa/fluent_ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - mobile-dev
+    tags:
+      - ui-framework
+      - fluent-ui
+      - lang:dart
+      - flutter
     summary: Microsoft's Win UI3 in Flutter.
     last_synced_sha: ad5cd9cc8bdfeb425b6c5fd621ad7e4367be5099
     user_starred_at: "2025-07-13T13:22:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -34857,15 +34918,25 @@ repositories:
         published_at: "2024-12-13T18:12:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.934Z"
+      prompt_version: v2
   - repo: SandroMaglione/fpdart
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - mobile-dev
+    tags:
+      - functional-programming
+      - dart-package
+      - lang:dart
+      - flutter
     summary: Functional programming in Dart and Flutter. All the main functional programming types and patterns fully documented, tested, and with examples.
     last_synced_sha: 27e0576669fc86197db02f042ef3455b2ec153ee
     user_starred_at: "2025-07-13T13:22:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -34900,15 +34971,24 @@ repositories:
         published_at: "2024-11-07T11:18:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.934Z"
+      prompt_version: v2
   - repo: sxzz/rolldown-browser
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - browser-tool
+      - library
+      - lang:js
     summary: Rolldown on Browser
     last_synced_sha: 9cd244f1e4c023c9518cb488ace8565df6f52d50
     user_starred_at: "2025-07-13T13:03:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics: []
@@ -34925,15 +35005,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.934Z"
+      prompt_version: v2
   - repo: localsend/localsend
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - networking
+    tags:
+      - file-sharing
+      - cross-platform
+      - lang:dart
     summary: An open-source cross-platform alternative to Air Drop
     last_synced_sha: 568b2f2d8d1af1125268d22618a94c46e13b29d2
     user_starred_at: "2025-07-13T12:33:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -34956,15 +35045,25 @@ repositories:
         published_at: "2025-02-20T01:23:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.934Z"
+      prompt_version: v2
   - repo: bluewave-labs/Checkmate
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - infrastructure
+    tags:
+      - server-monitoring
+      - uptime
+      - visualizations
+      - lang:js
     summary: Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join her...
     last_synced_sha: 5729b0a263aa7debffb800d2121f9e817e9424b8
     user_starred_at: "2025-07-13T12:30:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -35003,15 +35102,24 @@ repositories:
         published_at: "2025-09-18T20:43:45Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.934Z"
+      prompt_version: v2
   - repo: garethcheyne/PCF-FluentUi-AutoComplete-Boilerplate
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - autocomplete
+      - fluent-ui
+      - lang:ts
     summary: No description provided
     last_synced_sha: 539982e36d483b31096548bcee1428b11f464a73
     user_starred_at: "2025-07-13T12:23:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -35028,15 +35136,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.934Z"
+      prompt_version: v2
   - repo: tj/commander.js
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - dev-tools
+    tags:
+      - nodejs
+      - command-line
+      - lang:js
     summary: node.js command-line interfaces made easy
     last_synced_sha: 0692be58103e1ea8052d5d45ab11cc02e197eea5
     user_starred_at: "2025-07-12T08:14:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -35055,15 +35172,25 @@ repositories:
         published_at: "2025-10-25T12:09:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.934Z"
+      prompt_version: v2
   - repo: qualialabs/mapped-collection
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - web-dev
+    tags:
+      - memory-mapping
+      - mongo
+      - meteor
+      - lang:js
     summary: Memory-mapped Mongo collections in Meteor
     last_synced_sha: 4d2ee6355e0d9e36645707b21e5554dd7b0f5a09
     user_starred_at: "2025-07-12T08:05:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -35080,15 +35207,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.934Z"
+      prompt_version: v2
   - repo: meteor/blaze
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - reactive-templates
+      - live-updates
+      - lang:js
     summary: ':fire: Meteor Blaze is a powerful library for creating live-updating user interfaces'
     last_synced_sha: da16df143fc33a6f2903a6649b98c62a1d20b2e7
     user_starred_at: "2025-07-12T08:03:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -35112,6 +35248,11 @@ repositories:
         published_at: "2024-04-08T17:59:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:29.934Z"
+      prompt_version: v2
   - repo: pangaea-data-publisher/qualianon
     categories:
       - security
