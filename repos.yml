@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:46:29.288Z"
+  manifest_updated_at: "2026-01-27T04:46:52.056Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -30032,13 +30032,19 @@ repositories:
       mirror_url: null
   - repo: Shubhamsaboo/awesome-llm-apps
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - llms
+      - agents
+      - rag
+      - lang:python
+      - ai-resources
     summary: Collection of awesome LLM apps with AI Agents and RAG using Open AI, Anthropic, Gemini and opensource models.
     last_synced_sha: e46690f99c3f08be80a9877fab52acacf7ab8251
     user_starred_at: "2025-08-21T13:41:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30059,15 +30065,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.056Z"
+      prompt_version: v2
   - repo: moeru-ai/airi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - ai-companion
+      - vtuber
+      - digital-life
+      - lang:ts
+      - grok-companion
     summary: "\U0001F496\U0001F9F8 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Min..."
     last_synced_sha: c4a0a049455f107552758a0e70b23fc20e2bc65c
     user_starred_at: "2025-08-21T13:39:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30097,15 +30114,26 @@ repositories:
         published_at: "2026-01-20T18:03:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.055Z"
+      prompt_version: v2
   - repo: PixiEditor/PixiEditor
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - editor
+      - pixel-art
+      - graphics
+      - lang:csharp
+      - game-development
     summary: Pixi Editor is a Universal Editor for all your 2D needs
     last_synced_sha: 9aba8cf48b6dea510d6f349dfdf2452aded9fed3
     user_starred_at: "2025-08-21T13:38:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -30143,15 +30171,25 @@ repositories:
         published_at: "2026-01-06T09:54:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.055Z"
+      prompt_version: v2
   - repo: openstates/openstates-scrapers
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - documentation
+    tags:
+      - government
+      - lang:python
+      - scraping
+      - states
     summary: source for Open States scrapers
     last_synced_sha: b72274dadcbe17232873ebfceb8bff1ae69877f8
     user_starred_at: "2025-08-20T02:22:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30174,15 +30212,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.055Z"
+      prompt_version: v2
   - repo: dobtco/openrfps-scrapers
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - scraping
+      - government
+      - coffeescript
     summary: Scraping government contracting opportunities.
     last_synced_sha: f2d7f7eafbbf18eea5df15f0596840e1fbe27235
     user_starred_at: "2025-08-20T02:19:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CoffeeScript
       topics: []
@@ -30199,15 +30246,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.055Z"
+      prompt_version: v2
   - repo: rigwild/mcp-server-amazon
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - amazon
+      - ai
+      - model-context
+      - lang:ts
+      - claude-ai
     summary: "\U0001F6CD\U0001F4E6 Unofficial Amazon Model Context Protocol Server (MCP) - Search products and purchase directly from Claude AI! ✨"
     last_synced_sha: c2ad8d60bcde54c4444e98b6ec1201688650e403
     user_starred_at: "2025-08-18T18:58:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30230,15 +30288,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.055Z"
+      prompt_version: v2
   - repo: emcie-co/parlant
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - llms
+      - agents
+      - lang:python
+      - ai-alignment
+      - genai
     summary: LLM agents built for control. Designed for real-world use. Deployed in minutes.
     last_synced_sha: faeea1b815ef0942f1c3edf443c52a5a7bd71e21
     user_starred_at: "2025-08-18T02:39:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30268,15 +30337,26 @@ repositories:
         published_at: "2026-01-05T13:28:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.055Z"
+      prompt_version: v2
   - repo: dtyq/magic
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai
+      - no-code
+      - low-code
+      - lang:php
+      - workflow
     summary: Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)
     last_synced_sha: a74489ed10c2e550a79b90e0eedc38e4c4310db0
     user_starred_at: "2025-08-18T02:39:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -30304,15 +30384,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.055Z"
+      prompt_version: v2
   - repo: MotiaDev/motia
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ai-ml
+    tags:
+      - ai
+      - multi-language
+      - lang:ts
+      - state-management
+      - backend
     summary: Multi-Language Backend Framework that unifies APIs, background jobs, queues, workflows, streams, and AI agents with a single core primitive with built-in observability and state management.
     last_synced_sha: a08a6ec21a890f3a31453ef481ed6f62808598c3
     user_starred_at: "2025-08-18T02:17:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30341,15 +30432,25 @@ repositories:
         published_at: "2026-01-09T15:15:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.055Z"
+      prompt_version: v2
   - repo: photoprism/photoprism
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - tensorflow
+      - machine-learning
+      - self-hosted
+      - lang:go
     summary: "AI-Powered Photos App for the Decentralized Web \U0001F308\U0001F48E✨"
     last_synced_sha: de3f871e627c6bd4d3b8cb96d5a946c01d6970b6
     user_starred_at: "2025-08-17T22:14:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -30376,15 +30477,25 @@ repositories:
         published_at: "2025-12-01T05:07:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.055Z"
+      prompt_version: v2
   - repo: Ido-Levi/claude-code-tamagotchi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - monitoring
+    tags:
+      - llms
+      - agents
+      - lang:ts
+      - behavior-monitoring
     summary: Real-time behavioral enforcement for Claude Code. Monitors AI actions, detects violations, and interrupts misbehavior. Also has a cute pet.
     last_synced_sha: ccf9399f41571b2e025b8a8f5e782a5ef6f3e730
     user_starred_at: "2025-08-17T18:28:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30408,15 +30519,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.055Z"
+      prompt_version: v2
   - repo: context-labs/uwu
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - lang:ts
+      - automation
+      - tooling
     summary: No description provided
     last_synced_sha: fe1171ba7a8d8ec0b7964d294674847451fcd3f9
     user_starred_at: "2025-08-17T18:10:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -30433,15 +30553,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.055Z"
+      prompt_version: v2
   - repo: kamailio/kamailio
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - embedded
+    tags:
+      - sip
+      - voip
+      - lang:c
+      - webrtc
     summary: Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms -
     last_synced_sha: 4b93311ed9b960133dfd08806168d3bce6a9b4e8
     user_starred_at: "2025-08-17T11:45:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -30467,15 +30597,24 @@ repositories:
         published_at: "2026-01-08T15:51:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.055Z"
+      prompt_version: v2
   - repo: dOpensource/dsiprouter
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - sip
+      - pbx
+      - kamailio
     summary: UI Interface for implementing Kamailio to provide PBX Hosting and SIP Trunking Services
     last_synced_sha: 9fd2f01d679c34c08ecbd5abbc6d60e864caa1ac
     user_starred_at: "2025-08-17T11:15:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -30494,15 +30633,24 @@ repositories:
         published_at: "2025-07-18T16:52:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.055Z"
+      prompt_version: v2
   - repo: fusionpbx/fusionpbx
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - pbx
+      - telephony
+      - lang:php
     summary: Official Fusion PBX - A full-featured domain based multi-tenant PBX and voice switch for Free Switch.
     last_synced_sha: 048eb3a3ccc4d15a21981db61ad5120a93090aa3
     user_starred_at: "2025-08-17T11:13:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -30521,6 +30669,11 @@ repositories:
         published_at: "2025-07-15T07:56:45Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:52.055Z"
+      prompt_version: v2
   - repo: xyflow/xyflow
     categories:
       - ui-libraries
