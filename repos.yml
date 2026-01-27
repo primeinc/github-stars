@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:34:50.604Z"
+  manifest_updated_at: "2026-01-27T04:35:16.294Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -45193,13 +45193,19 @@ repositories:
       mirror_url: null
   - repo: nuxt/ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - frameworks
+    tags:
+      - nuxt
+      - lang:js
+      - vue
+      - tailwindcss
+      - ui-components
     summary: The Intuitive Vue UI Library powered by Reka UI & Tailwind CSS.
     last_synced_sha: 64d2e887f94f71b0d3db87c75dc04a082d551ff7
     user_starred_at: "2025-02-14T23:11:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -45225,15 +45231,26 @@ repositories:
         published_at: "2026-01-21T14:21:42Z"
       is_mirror: false
       mirror_url: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.294Z"
+      prompt_version: v2
   - repo: obs-websocket-community-projects/obs-websocket-js
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - apis
+    tags:
+      - obs-websocket
+      - lang:ts
+      - nodejs
+      - websocket-client
+      - obs-studio
     summary: Consumes https://github.com/obsproject/obs-websocket
     last_synced_sha: 6c77d661fe55d49bb56e9703798b20dd7251026f
     user_starred_at: "2025-02-14T23:09:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -45258,15 +45275,25 @@ repositories:
         published_at: "2025-11-09T14:15:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.294Z"
+      prompt_version: v2
   - repo: YorVeX/xObsAsyncImageSource
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - obs-studio
+      - image-loading
+      - lang:csharp
+      - media-tools
     summary: OBS plugin providing an image source that loads images asynchronously (causing a lot less lag on load).
     last_synced_sha: b6e714f49d76e776cfd7a6847a5bedde32dacbd9
     user_starred_at: "2025-02-14T23:07:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -45288,15 +45315,26 @@ repositories:
         published_at: "2023-05-15T22:10:57Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.294Z"
+      prompt_version: v2
   - repo: dev47apps/droidcam-obs-plugin
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - mobile-dev
+    tags:
+      - droidcam
+      - obs-studio
+      - webcam
+      - lang:cpp
+      - media-tools
     summary: Droid Cam OBS Source
     last_synced_sha: e873e48ec0b92b7da14d7b6d90f343ff41161a32
     user_starred_at: "2025-02-14T22:58:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -45321,15 +45359,25 @@ repositories:
         published_at: "2025-09-09T22:16:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.294Z"
+      prompt_version: v2
   - repo: Bennik2000/BetterProjectors
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - obs-studio
+      - dockable-projectors
+      - lang:cpp
+      - media-tools
     summary: This plugin for OBS Studio provides dockable projectors for scenes and sources
     last_synced_sha: 2bb31398764e7bd61b83e68ef9ed774f8a1f8897
     user_starred_at: "2025-02-14T22:54:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -45346,15 +45394,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.294Z"
+      prompt_version: v2
   - repo: DesktopECHO/xWSL
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - windows
+      - wsl
+      - ubuntu
+      - linux
+      - automation
     summary: Installer script for Ubuntu 22.04 / 24.04 with XFCE Desktop on WSL. Does not require hypervisor, container, or X11 server.
     last_synced_sha: d794ffe7088ed83010ba44417ff9c18c980dc51a
     user_starred_at: "2025-02-14T19:41:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -45380,15 +45439,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.294Z"
+      prompt_version: v2
   - repo: au2001/icloud-passwords-firefox
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - firefox-addon
+      - keychain
+      - lang:ts
+      - password-manager
+      - icloud
     summary: Firefox extension which lets you use your passwords stored on i Cloud Keychain®.
     last_synced_sha: 81829ebde610dfe81a17d974889e6e3342d84c2b
     user_starred_at: "2025-02-14T16:53:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -45417,15 +45487,26 @@ repositories:
         published_at: "2025-04-18T09:31:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.294Z"
+      prompt_version: v2
   - repo: leonboe1/GoogleFindMyTools
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - ap-is
+    tags:
+      - google
+      - lang:python
+      - tracking
+      - find-my-device
+      - apis
     summary: "Framework for tracking and building your own Google Find My Device / Find Hub trackers \U0001F9ED"
     last_synced_sha: 0003116eaa3e19886b5cc3c843641fe068e2ddc8
     user_starred_at: "2025-02-14T01:47:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -45442,15 +45523,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.294Z"
+      prompt_version: v2
   - repo: seemoo-lab/AirGuard-iOS
     categories:
-      - unclassified
-    tags: []
+      - security
+      - mobile-dev
+    tags:
+      - airtags
+      - tracking-protection
+      - lang:swift
+      - privacy
+      - anti-tracking
     summary: "Protect yourself from being tracked \U0001F4CDby Air Tags, Smart Tags, Chipolo, Google, and Tile Trackers"
     last_synced_sha: 0f297cbe0da8e75f281c3fb12bd6c9e4a9cd41d9
     user_starred_at: "2025-02-14T01:40:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics: []
@@ -45467,15 +45559,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.294Z"
+      prompt_version: v2
   - repo: Raphire/Win11Debloat
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - windows
+      - powershell
+      - debloat
+      - optimization
+      - cli
     summary: A simple, lightweight Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11...
     last_synced_sha: aa64f1a982cca08eb6dc0eff0b42847939b824b6
     user_starred_at: "2025-02-13T23:03:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -45514,15 +45617,26 @@ repositories:
         published_at: "2025-12-29T01:25:49Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.293Z"
+      prompt_version: v2
   - repo: jaywcjlove/awesome-uikit
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - documentation
+    tags:
+      - awesome-list
+      - ui-component
+      - react
+      - angular
+      - vue
     summary: Collect JS Frameworks, Web components library and Admin Template.
     last_synced_sha: 55f64dae8103a2d95604182484ef11c4cbd60b09
     user_starred_at: "2025-02-13T20:19:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics:
@@ -45559,15 +45673,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.293Z"
+      prompt_version: v2
   - repo: NexusPolytech/NexeFax
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - fax
+      - asterisk
+      - lang:python
+      - efax-server
+      - communication
     summary: A modern open source e Fax server solution written in Python that allows sending and receiving faxes with Asterisk.
     last_synced_sha: 0e4ba807bdb56f2cf67f865ef027c1c58efd2743
     user_starred_at: "2025-02-13T14:52:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -45594,15 +45719,26 @@ repositories:
         published_at: "2023-09-12T20:30:12Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.293Z"
+      prompt_version: v2
   - repo: choushunn/awesome-RK3588
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - learning
+    tags:
+      - ai
+      - rk3588
+      - rockchip
+      - development-resources
+      - awesome
     summary: 'Useful resources for developing with the RK3588. :rocket:'
     last_synced_sha: 6c5741f67e11fd9c0b7cc4c0d125091f70ff5001
     user_starred_at: "2025-02-12T14:58:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -45623,15 +45759,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.293Z"
+      prompt_version: v2
   - repo: maedball/Homeassistant_Siemens_versicharge
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - embedded
+    tags:
+      - smart-home
+      - electric-vehicles
+      - siemens
+      - homeassistant
     summary: No description provided
     last_synced_sha: 8dd242e8475a158b1b64a6576a1bf4d73275b03f
     user_starred_at: "2025-02-11T22:14:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -45648,15 +45794,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.293Z"
+      prompt_version: v2
   - repo: achgut/Modbus_Versicharge
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - embedded
+    tags:
+      - modbus
+      - smart-home
+      - lang:python
+      - energy-management
     summary: No description provided
     last_synced_sha: 33ec14906a7a314db7ee236bb237ebc278598bb2
     user_starred_at: "2025-02-11T22:14:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -45673,6 +45829,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:16.293Z"
+      prompt_version: v2
   - repo: shraddha-gawde/reachInbox-assignment
     categories:
       - automation
