@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:33:26.056Z"
+  manifest_updated_at: "2026-01-27T04:33:46.484Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -47038,13 +47038,19 @@ repositories:
       mirror_url: null
   - repo: gbraad-apps/NDI-Whiteboard
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - video
+    tags:
+      - whiteboard
+      - ndi
+      - streaming
+      - teaching
+      - lang:csharp
     summary: Easy to use Whiteboard application which outputs to NDI endpoint named Whiteboard.
     last_synced_sha: d3fa809d5ec6b1bcd2283c45628d3d30b22d7a77
     user_starred_at: "2025-01-28T12:39:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -47070,15 +47076,25 @@ repositories:
         published_at: "2018-07-26T05:25:47Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.484Z"
+      prompt_version: v2
   - repo: featherbear/NDI-Telestrator
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - video
+    tags:
+      - annotation
+      - ndi
+      - streaming
+      - lang:csharp
     summary: NDI Annotation tool
     last_synced_sha: bacdc997768f60bb66a9c1508495f09d9a30925b
     user_starred_at: "2025-01-28T12:39:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -47095,15 +47111,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.484Z"
+      prompt_version: v2
   - repo: ningxiaoxiao/comfyui-NDI
     categories:
-      - unclassified
-    tags: []
+      - video
+      - productivity
+    tags:
+      - comfyui
+      - ndi
+      - input-output
+      - lang:python
     summary: NDI input and output functionality to the Comfy UI.
     last_synced_sha: a8b367acf2052a34f871efdb38550caedd5a28e0
     user_starred_at: "2025-01-28T12:38:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -47120,15 +47146,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.484Z"
+      prompt_version: v2
   - repo: olegchomp/StreamDiffusion-NDI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - video
+    tags:
+      - streaming
+      - ndi
+      - diffusion
+      - lang:python
     summary: No description provided
     last_synced_sha: 858a9d9b48be3605c1afc04bde5383fa433f8e89
     user_starred_at: "2025-01-28T12:38:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -47145,15 +47181,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.484Z"
+      prompt_version: v2
   - repo: olzzon/ndi-controller
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - ndi
+      - routing
+      - windows-app
+      - lang:c
     summary: Windows App - Controlling NDI routing in network
     last_synced_sha: 91f6342822e31d5832342c83a3dc2e35176bfa4c
     user_starred_at: "2025-01-28T12:37:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -47172,15 +47218,25 @@ repositories:
         published_at: "2022-02-06T13:44:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.484Z"
+      prompt_version: v2
   - repo: paratustra/tvadblocker
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - video
+    tags:
+      - obs-studio
+      - ad-blocker
+      - template-matching
+      - lang:python
     summary: TV Ad blocker using OBS Studio and Open CV (simple logo detection using template matching)
     last_synced_sha: 3f7a9ea0b46681b577dd8e074efd55d8e2602b2a
     user_starred_at: "2025-01-28T12:36:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -47200,15 +47256,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.484Z"
+      prompt_version: v2
   - repo: lplassman/V4L2-to-NDI
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - video
+    tags:
+      - raspberrypi
+      - ndi
+      - streaming
+      - lang:cpp
     summary: A video input (V4L2) to NDI converter that works with Raspberry Pi (32-bit and 64-bit), and Intel/AMD CPUs
     last_synced_sha: c9a5f1b5b1a6847c8ad4647ce623b3e1db5864da
     user_starred_at: "2025-01-28T12:36:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -47238,15 +47304,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.484Z"
+      prompt_version: v2
   - repo: lplassman/FFMPEG-NDI
     categories:
-      - unclassified
-    tags: []
+      - video
+      - networking
+    tags:
+      - ffmpeg
+      - ndi
+      - linux
+      - lang:c
     summary: FFMPEG with NDI support
     last_synced_sha: f0930071b8adebe28c66e04171c71400f8ebeb4f
     user_starred_at: "2025-01-28T12:35:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -47266,15 +47342,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.484Z"
+      prompt_version: v2
   - repo: florisporro/awesome-ndi
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - curated-list
+      - awesome
+      - ndi
     summary: A curated list of awesome tools related to NDI
     last_synced_sha: b6126608f5386b9fdc0bba663fc6c970b4860ac6
     user_starred_at: "2025-01-28T12:33:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -47294,15 +47379,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.484Z"
+      prompt_version: v2
   - repo: satoshi0212/NDISenderExample
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - networking
+    tags:
+      - ndi
+      - sdk
+      - swift
+      - mobile
+      - lang:c
     summary: Minimum implementation of the NDI SDK that works on the i Phone using Swift.
     last_synced_sha: 1ac204b0a7ca0549f8159353af61dff52df7497c
     user_starred_at: "2025-01-28T12:32:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -47319,15 +47415,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.484Z"
+      prompt_version: v2
   - repo: ykhwong/ppt-ndi
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - networking
+    tags:
+      - powerpoint
+      - ndi
+      - plugin
+      - lang:js
     summary: A Power Point plugin for the New Tek NDI integration
     last_synced_sha: a7381d0c6affa61cf99ca8322fb71eadc322d578
     user_starred_at: "2025-01-28T12:32:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -47350,15 +47456,25 @@ repositories:
         published_at: "2022-06-12T08:28:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.484Z"
+      prompt_version: v2
   - repo: buresu/ndi-python
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - ndi
+      - wrapper
+      - streaming
+      - lang:cpp
     summary: New Tek NDI Python wrapper
     last_synced_sha: 8aad19db2bd4adde75ea5e1aef3ad83e11f08bd8
     user_starred_at: "2025-01-28T12:32:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -47375,15 +47491,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.484Z"
+      prompt_version: v2
   - repo: DistroAV/DistroAV
     categories:
-      - unclassified
-    tags: []
+      - video
+      - audio
+    tags:
+      - obs-studio
+      - av
+      - streaming
+      - ndi
+      - lang:cpp
     summary: 'Distro AV (formerly OBS-NDI): NDI integration for OBS Studio'
     last_synced_sha: c1e6894bba1d3eda3a6fab2db4aa1a7128037c40
     user_starred_at: "2025-01-28T12:30:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -47412,15 +47539,26 @@ repositories:
         published_at: "2025-06-12T13:46:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.483Z"
+      prompt_version: v2
   - repo: CESNET/UltraGrid
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - video
+    tags:
+      - low-latency
+      - audio
+      - video
+      - network-transmission
+      - lang:c
     summary: Ultra Grid low-latency audio and video network transmission system
     last_synced_sha: 30f61c5eba78637a07dc1f91aaac3c5dba120763
     user_starred_at: "2025-01-28T12:20:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -47439,15 +47577,25 @@ repositories:
         published_at: "2026-01-21T09:33:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.480Z"
+      prompt_version: v2
   - repo: NSFW-API/Prompt-based-Evolutionary-Neural-Iteration-System
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - evolutionary-algorithms
+      - neural-network
+      - prompt-based
+      - lang:python
     summary: Prompt-based Evolutionary Nudity Iteration System
     last_synced_sha: 50d522c96d5698d0a407ae86e848c827e1295fda
     user_starred_at: "2025-01-28T10:10:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -47464,6 +47612,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:33:46.480Z"
+      prompt_version: v2
   - repo: ArtBot2023/CharacterFaceSwap
     categories:
       - ai-ml
