@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:45:21.578Z"
+  manifest_updated_at: "2026-01-27T04:45:43.665Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -31672,13 +31672,18 @@ repositories:
       mirror_url: null
   - repo: pipecat-ai/pipecat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - lang:python
+      - chatbots
+      - voice-assistant
+      - real-time
     summary: Open Source framework for voice and multimodal conversational AI
     last_synced_sha: ecf2e69f3fd33302b2d33a84cd05dbbb9924392d
     user_starred_at: "2025-08-16T07:48:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -31703,15 +31708,25 @@ repositories:
         published_at: "2026-01-21T03:37:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.665Z"
+      prompt_version: v2
   - repo: cli/cli
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - dev-tools
+    tags:
+      - lang:go
+      - cli
+      - github
+      - developer-tools
     summary: Git Hub’s official command line tool
     last_synced_sha: 009cf6e167f4ce5ec224a2c311c815bf1bf78a46
     user_starred_at: "2025-08-16T07:47:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -31734,15 +31749,24 @@ repositories:
         published_at: "2026-01-21T18:07:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.665Z"
+      prompt_version: v2
   - repo: Jedward23/Tmux-Orchestrator
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - devops
+    tags:
+      - lang:python
+      - tmux
+      - orchestration
     summary: No description provided
     last_synced_sha: 7193530291e55b594f13196fd2ed97114f0153b8
     user_starred_at: "2025-08-16T07:47:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -31759,15 +31783,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.664Z"
+      prompt_version: v2
   - repo: microsoft/poml
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - lang:ts
+      - llm
+      - prompt
+      - markup-language
     summary: Prompt Orchestration Markup Language
     last_synced_sha: baad63aa25662c93e21c2bcee1f7d36e8931453b
     user_starred_at: "2025-08-16T07:46:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31788,15 +31822,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.664Z"
+      prompt_version: v2
   - repo: satococoa/wtp
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - lang:go
+      - cli
+      - git-worktree
+      - developer-tools
     summary: "\U0001F333 A powerful Git worktree CLI tool with automated setup, branch tracking, and smart navigation"
     last_synced_sha: 2586e1db0ffa5893033d551daa7dcfdda4032e6e
     user_starred_at: "2025-08-16T07:42:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -31822,15 +31866,23 @@ repositories:
         published_at: "2026-01-15T15:27:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.664Z"
+      prompt_version: v2
   - repo: wolfdenpublishing/pyccsl
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+    tags:
+      - lang:python
+      - status-line
+      - utilities
     summary: Python Claude Code Status Line (Py CCSL, pronounced "pixel")
     last_synced_sha: b0e0482bdeb0ba068d441d6dd97fce20beec383b
     user_starred_at: "2025-08-16T07:39:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -31847,15 +31899,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.664Z"
+      prompt_version: v2
   - repo: manycore-research/SpatialLM
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:python
+      - scene-understanding
+      - spatial-intelligence
+      - mllm
     summary: '[Neur IPS 2025] Spatial LM: Training Large Language Models for Structured Indoor Modeling'
     last_synced_sha: 029808be90daef80cf2b850e254716ca7d64254f
     user_starred_at: "2025-08-16T07:38:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -31878,15 +31940,25 @@ repositories:
         published_at: "2025-06-10T17:34:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.664Z"
+      prompt_version: v2
   - repo: microsoft/magentic-ui
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - ai
+      - lang:python
+      - agents
+      - ui
     summary: A research prototype of a human-centered web agent
     last_synced_sha: edaed9aeb37a0454a52a1614a26da58c5008c21e
     user_starred_at: "2025-08-16T07:37:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -31913,15 +31985,25 @@ repositories:
         published_at: "2025-11-29T01:31:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.664Z"
+      prompt_version: v2
   - repo: microsoft/markitdown
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - lang:python
+      - markdown
+      - document-conversion
+      - openai
     summary: Python tool for converting files and office documents to Markdown.
     last_synced_sha: 7fdaefb724d08a999f8d30647e8ce8f2ad1c5795
     user_starred_at: "2025-08-16T07:35:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -31947,15 +32029,24 @@ repositories:
         published_at: "2025-12-01T18:20:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.664Z"
+      prompt_version: v2
   - repo: ArthurVerrez/personal-data-formatter-for-notebooklm
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - dev-tools
+    tags:
+      - lang:python
+      - data-formatting
+      - personal-data
     summary: A python utility codebase to format personal data to feed inside Notebook LM, like Whatsapp, Messenger & Instagram conversations, but also Chat GPT conversations, Google Keep & Google Tasks
     last_synced_sha: ca40085332a664a02bfad8fd04523b3f1132db28
     user_starred_at: "2025-08-14T23:45:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -31972,15 +32063,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.664Z"
+      prompt_version: v2
   - repo: polarsource/polar
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - lang:python
+      - lang:ts
+      - saas
+      - fastapi
+      - nextjs
     summary: Turn your software into a business.
     last_synced_sha: c44ca84dcd7c9c2646afecbc5a401c4d23a4af91
     user_starred_at: "2025-08-13T21:30:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -32011,15 +32113,25 @@ repositories:
         published_at: "2026-01-22T14:29:18Z"
       is_mirror: false
       mirror_url: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.664Z"
+      prompt_version: v2
   - repo: x1xhlol/system-prompts-and-models-of-ai-tools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai
+      - copilot
+      - system-prompts
+      - open-source
     summary: FULL Augment Code, Claude Code, Cluely, Code Buddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, Notion AI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer ...
     last_synced_sha: 119b8ad7cedcd7737f696031a4e2f1efd3a8cb62
     user_starred_at: "2025-08-13T21:29:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -32056,15 +32168,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.664Z"
+      prompt_version: v2
   - repo: emilk/egui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - game-dev
+    tags:
+      - gui
+      - lang:rust
+      - immediate-mode
+      - wasm
     summary: 'egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native'
     last_synced_sha: fa78d25564a5dbcb546ff6db0a9e14cb603ba03b
     user_starred_at: "2025-08-13T21:23:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -32090,15 +32212,25 @@ repositories:
         published_at: "2025-12-11T14:42:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.664Z"
+      prompt_version: v2
   - repo: FiloSottile/mkcert
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - tls
+      - certificates
+      - lang:go
+      - local-development
     summary: A simple zero-config tool to make locally trusted development certificates with any names you'd like.
     last_synced_sha: 1c1dc4ed27ed5936046b6398d39cab4d657a2d8e
     user_starred_at: "2025-08-12T22:13:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -32129,15 +32261,26 @@ repositories:
         published_at: "2022-04-26T17:51:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.661Z"
+      prompt_version: v2
   - repo: fastapi/full-stack-fastapi-template
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - full-stack
+      - docker
+      - lang:ts
+      - fastapi
+      - react
     summary: Full stack, modern web application template. Using Fast API, React, SQLModel, Postgre SQL, Docker, Git Hub Actions, automatic HTTPS and more.
     last_synced_sha: fa8795141f8096748f9347d4258ed65c1ac3b400
     user_starred_at: "2025-08-12T22:11:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -32175,6 +32318,11 @@ repositories:
         published_at: "2026-01-23T16:47:58Z"
       is_mirror: false
       mirror_url: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:43.660Z"
+      prompt_version: v2
   - repo: umami-software/umami
     categories:
       - monitoring
