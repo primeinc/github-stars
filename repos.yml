@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:46:52.056Z"
+  manifest_updated_at: "2026-01-27T04:47:14.613Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -29510,13 +29510,17 @@ repositories:
       mirror_url: null
   - repo: vfarcic/dot-ai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - deployment
+    tags:
+      - kubernetes
+      - dynamic-discovery
+      - lang:ts
     summary: Intelligent dual-mode agent for deploying applications to ANY Kubernetes cluster through dynamic discovery and plain English governance
     last_synced_sha: 56920162c707189ef33b60fca13712f0ce840214
     user_starred_at: "2025-08-26T12:37:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -29535,15 +29539,25 @@ repositories:
         published_at: "2026-01-23T23:12:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: useflyyer/use-smartcrop
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - smartcrop
+      - react-hooks
+      - image-recognition
+      - lang:js
     summary: React hook for smartcrop.js to content aware image cropping with points of interest and facial recognition.
     last_synced_sha: 9d03892c6bba0c17060925d05a9acb53d78fbf3e
     user_starred_at: "2025-08-25T09:40:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -29567,15 +29581,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: roboflow/supervision
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - computer-vision
+      - deep-learning
+      - lang:python
+      - object-detection
     summary: "We write your reusable computer vision tools. \U0001F49C"
     last_synced_sha: 21482e9109bc8070b6172bfa02f7be0041237d3e
     user_starred_at: "2025-08-25T09:32:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -29613,15 +29637,25 @@ repositories:
         published_at: "2025-11-16T18:07:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: NVIDIA/nvImageCodec
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-processing
+      - gpu
+      - lang:python
+      - lang:cpp
     summary: A nv Image Codec library of GPU- and CPU- accelerated codecs featuring a unified interface
     last_synced_sha: 89500f364d55836feab40a49241fcd1351a51520
     user_starred_at: "2025-08-25T09:27:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -29653,15 +29687,24 @@ repositories:
         published_at: "2026-01-09T09:52:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: DuckersMcQuack/ComfyUI-Ram-Bypass
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - ai-ml
+    tags:
+      - directstorage
+      - lang:python
+      - memory-optimization
     summary: An attempt to bypass ram entirely and load directstorage optimized models straight from storage than stored in ram.
     last_synced_sha: ed4d67e9fd8a459f9ac63b8fb929c8f33eaae0cb
     user_starred_at: "2025-08-25T07:01:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -29678,15 +29721,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: FreeRDP/FreeRDP
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - desktop-dev
+    tags:
+      - rdp
+      - remote-desktop
+      - lang:c
     summary: Free RDP is a free remote desktop protocol library and clients
     last_synced_sha: 076a8386a6a9bd10b5155bb489555628a1242fca
     user_starred_at: "2025-08-24T07:58:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -29716,15 +29768,25 @@ repositories:
         published_at: "2026-01-19T15:57:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: voluntas/duckdb-wasm-parquet
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - testing
+    tags:
+      - duckdb-wasm
+      - parquet
+      - lang:ts
+      - vite
     summary: No description provided
     last_synced_sha: c7155bd97e01ecaa2cb18993300d72fefb71bb03
     user_starred_at: "2025-08-24T01:44:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29746,15 +29808,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: mattf96s/QuackDB
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - web-dev
+    tags:
+      - duckdb
+      - sql-editor
+      - lang:ts
+      - remix
     summary: Open-source in-browser Duck DB SQL editor
     last_synced_sha: df374a0e53139f070c0b71cbca23dcc35bbe2b29
     user_starred_at: "2025-08-24T01:43:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29781,15 +29853,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: ariga/atlas
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - infrastructure
+    tags:
+      - schema-migrations
+      - lang:go
+      - workflow
     summary: Declarative schema migrations with schema-as-code workflows
     last_synced_sha: 7af35996ed4fd61c415bdb46e19fd79a13ba4581
     user_starred_at: "2025-08-21T13:45:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -29808,15 +29889,25 @@ repositories:
         published_at: "2025-12-24T20:12:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: nguyenjessev/liquor-locker
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ai-ml
+    tags:
+      - home-bar
+      - cocktail-recommendations
+      - lang:ts
+      - react
     summary: A home bar management app to track your bottles and ingredients, with support for AI-powered cocktail recommendations
     last_synced_sha: 7fe4e4fc41637877f80e31338d40bbb593a1841d
     user_starred_at: "2025-08-21T13:45:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29839,15 +29930,25 @@ repositories:
         published_at: "2025-11-01T16:28:21Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: geldata/gel
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - ai-ml
+    tags:
+      - postgres
+      - graph-relational
+      - auth
+      - lang:python
     summary: Gel supercharges Postgres with a modern data model, graph queries, Auth & AI solutions, and much more.
     last_synced_sha: 85191063b4db8b87caf26499de40f8a9d90c8146
     user_starred_at: "2025-08-21T13:44:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -29873,15 +29974,25 @@ repositories:
         published_at: "2025-11-05T21:44:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: nextjs/saas-starter
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - saas
+      - postgres
+      - stripe
+      - lang:ts
     summary: Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui.
     last_synced_sha: 6e33e58b1e553a41fe22e6b941a7229a002de361
     user_starred_at: "2025-08-21T13:44:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29902,15 +30013,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: bitwarden/clients
     categories:
-      - unclassified
-    tags: []
+      - security
+      - desktop-dev
+    tags:
+      - browser-extension
+      - cli
+      - password-manager
+      - lang:ts
     summary: Bitwarden client apps (web, browser extension, desktop, and cli).
     last_synced_sha: 748c7c544624eb6154c5318c048c1e196b397dc1
     user_starred_at: "2025-08-21T13:44:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29942,15 +30063,25 @@ repositories:
         published_at: "2026-01-22T01:49:46Z"
       is_mirror: false
       mirror_url: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: HeyPuter/puter
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - desktop-dev
+    tags:
+      - web-desktop
+      - cloud-os
+      - gui
+      - lang:js
     summary: "\U0001F310 The Internet Computer! Free, Open-Source, and Self-Hostable."
     last_synced_sha: 404a5e9050a36e6c158044c32365b88eec3533c4
     user_starred_at: "2025-08-21T13:41:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -29989,15 +30120,24 @@ repositories:
         published_at: "2025-02-14T02:58:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: bytedance/UI-TARS-desktop
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - multimodal-ai
+      - gui-agent
+      - lang:ts
     summary: 'The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra'
     last_synced_sha: 3f254968e627eaceba5f3e76de18ee9cf8b4d981
     user_starred_at: "2025-08-21T13:41:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30030,6 +30170,11 @@ repositories:
         published_at: "2025-11-04T16:10:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:47:14.613Z"
+      prompt_version: v2
   - repo: Shubhamsaboo/awesome-llm-apps
     categories:
       - learning
