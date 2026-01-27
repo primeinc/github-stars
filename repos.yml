@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:37:31.940Z"
+  manifest_updated_at: "2026-01-27T04:37:50.307Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -41950,13 +41950,18 @@ repositories:
       mirror_url: null
   - repo: jlowin/fastmcp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - mcp-servers
+      - llms
+      - model-context-protocol
+      - lang:python
     summary: "\U0001F680 The fast, Pythonic way to build MCP servers and clients"
     last_synced_sha: fdc96f323a9fdf4a35165b2100734d0370216de6
     user_starred_at: "2025-04-04T14:19:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -41984,15 +41989,23 @@ repositories:
         published_at: "2026-01-22T17:29:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.307Z"
+      prompt_version: v2
   - repo: punkpeye/awesome-mcp-servers
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - mcp
+      - ai-integration
     summary: A collection of MCP servers.
     last_synced_sha: 36df9e5531ab0d78f06c222510d3cd13b9f4f369
     user_starred_at: "2025-04-04T14:18:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -42011,15 +42024,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.307Z"
+      prompt_version: v2
   - repo: chiphuyen/aie-book
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - ai-resources
+      - engineering
+      - lang:jupyter
     summary: '[WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025)'
     last_synced_sha: 664b5ac480e879727d23168515667927a44e9570
     user_starred_at: "2025-04-04T14:17:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -42036,15 +42058,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.307Z"
+      prompt_version: v2
   - repo: anthropics/claude-code
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - ai-coding
+      - automation
+      - lang:shell
     summary: Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflo...
     last_synced_sha: 3f9a645986a352f22f58b086fb8c136b04f9232a
     user_starred_at: "2025-04-04T04:01:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -42063,15 +42094,23 @@ repositories:
         published_at: "2026-01-27T01:35:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.307Z"
+      prompt_version: v2
   - repo: Qais-Hweidi/ai-assisted-development-guide
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - ai-assisted-development
+      - guide
     summary: Practical tips for effective AI-assisted software development
     last_synced_sha: df56247ad318506d95142a31706e1d9f6b6c6fd2
     user_starred_at: "2025-03-31T19:42:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -42088,15 +42127,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.307Z"
+      prompt_version: v2
   - repo: catppuccin/windows-terminal
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - theme
+      - windows-terminal
+      - customization
     summary: "\U0001FA9F Soothing pastel theme for Windows Terminal"
     last_synced_sha: 4d8bb2f00fb86927a98dd3502cdec74a76d25d7b
     user_starred_at: "2025-03-30T22:20:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -42120,15 +42168,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.307Z"
+      prompt_version: v2
   - repo: KevinNitroG/dotfiles
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - dotfiles
+      - archlinux
+      - chezmoi
     summary: Linux, Windows dotfiles managed with Chezmoi
     last_synced_sha: d7dac2bd7fecd2cd714ad703eb04f03d52add4b7
     user_starred_at: "2025-03-30T22:14:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JSON
       topics:
@@ -42160,15 +42217,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.307Z"
+      prompt_version: v2
   - repo: versotile-org/tauri-runtime-verso
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - frameworks
+    tags:
+      - tauri-runtime
+      - lang:rust
     summary: No description provided
     last_synced_sha: 56fa7c34ef531941e2784b421d56a9dff5ea343c
     user_starred_at: "2025-03-29T20:44:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -42185,15 +42250,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.307Z"
+      prompt_version: v2
   - repo: tauri-apps/tauri-docs
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - desktop-dev
+    tags:
+      - docs
+      - tauri
+      - mdx
     summary: The source for all Tauri project documentation.
     last_synced_sha: b3d11640de9d0c37cd9864896b05286f3a7dbe19
     user_starred_at: "2025-03-29T17:04:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: MDX
       topics:
@@ -42212,15 +42286,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.307Z"
+      prompt_version: v2
   - repo: someengineering/fixinventory
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - cloud-security
+      - policy-as-code
+      - security-auditing
+      - lang:python
     summary: Fix Inventory helps you identify and remove the most critical risks in AWS, GCP, Azure and Kubernetes.
     last_synced_sha: 211833381fdd07690bc789d30ffc2bd84a67744e
     user_starred_at: "2025-03-28T20:09:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42250,15 +42334,25 @@ repositories:
         published_at: "2024-12-05T20:56:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.307Z"
+      prompt_version: v2
   - repo: juanfont/headscale
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - self-hosted
+      - wireguard
+      - tailscale
+      - lang:go
     summary: An open source, self-hosted implementation of the Tailscale control server
     last_synced_sha: 46daa659e23278751063001a402f308f35693dc3
     user_starred_at: "2025-03-21T07:06:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -42281,15 +42375,25 @@ repositories:
         published_at: "2025-11-11T19:32:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.307Z"
+      prompt_version: v2
   - repo: microsoft/qlib
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - quantitative-finance
+      - investment-tools
+      - machine-learning
+      - lang:python
     summary: Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, i...
     last_synced_sha: 16acb76aba3e36e04d7aa89272bec3850dd77720
     user_starred_at: "2025-03-21T03:24:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42326,15 +42430,25 @@ repositories:
         published_at: "2025-08-15T09:49:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.307Z"
+      prompt_version: v2
   - repo: open-mmlab/Amphion
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - audio-generation
+      - speech-synthesis
+      - music-generation
+      - lang:python
     summary: Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audi...
     last_synced_sha: d3de90f02e7f1c7dbc24b04d52fe1b8ef438effe
     user_starred_at: "2025-03-21T03:23:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42370,15 +42484,24 @@ repositories:
         published_at: "2024-02-23T17:52:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.307Z"
+      prompt_version: v2
   - repo: ramondeklein/nwebdav
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - apis
+    tags:
+      - webdav
+      - network-implementation
+      - lang:csharp
     summary: .NET implementation of the Web DAV protocol
     last_synced_sha: 1bb066abb2bfc5b5d47abd713001cf607ca2b404
     user_starred_at: "2025-03-21T02:20:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -42397,15 +42520,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.307Z"
+      prompt_version: v2
   - repo: heroku/12factor
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - best-practices
+      - web-architecture
     summary: No description provided
     last_synced_sha: 468c7ac0336cf1ab76ed3dad612928e2ef2d8799
     user_starred_at: "2025-03-19T19:06:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: CSS
@@ -42424,6 +42555,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:37:50.306Z"
+      prompt_version: v2
   - repo: antonmedv/walk
     categories:
       - cli-tools
