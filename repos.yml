@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:54:34.357Z"
+  manifest_updated_at: "2026-01-27T04:54:57.904Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -19751,13 +19751,17 @@ repositories:
       mirror_url: null
   - repo: resemble-ai/chatterbox
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - text-to-speech
+      - ai-driven
+      - lang:python
     summary: So TA open-source TTS
     last_synced_sha: ed27b95ee46b95be201147bafe5ca85ac57ac4f2
     user_starred_at: "2025-10-19T19:51:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -19776,15 +19780,24 @@ repositories:
         published_at: "2025-06-13T14:42:01Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.904Z"
+      prompt_version: v2
   - repo: trekhleb/javascript-algorithms
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - algorithms
+      - data-structures
+      - lang:js
     summary: "\U0001F4DD Algorithms and data structures implemented in Java Script with explanations and links to further readings"
     last_synced_sha: 1503325329d63f7fead7f455fda5a4338b4e93bb
     user_starred_at: "2025-10-19T19:50:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -19809,15 +19822,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.904Z"
+      prompt_version: v2
   - repo: SillyTavern/SillyTavern
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - llm
+      - chat-interface
+      - lang:js
     summary: LLM Frontend for Power Users.
     last_synced_sha: 7a497421bb6c1388a2e6da1ab1e799f0bc98c974
     user_starred_at: "2025-10-19T19:49:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -19839,15 +19861,24 @@ repositories:
         published_at: "2025-12-28T16:29:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.904Z"
+      prompt_version: v2
   - repo: ramensoftware/windhawk
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - windows-customization
+      - modding
+      - lang:cpp
     summary: 'The customization marketplace for Windows programs: https://windhawk.net/'
     last_synced_sha: b59b38cd77daec98830c0e5e2ad14a35c44f02a7
     user_starred_at: "2025-10-19T19:41:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -19866,15 +19897,24 @@ repositories:
         published_at: "2025-12-08T20:30:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.904Z"
+      prompt_version: v2
   - repo: amnezia-vpn/amnezia-client
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - vpn-client
+      - wireguard
+      - lang:cpp
     summary: Amnezia VPN Client (Desktop+Mobile)
     last_synced_sha: f73792844ce5e5bd26b6ba2fe93481d3d39243a6
     user_starred_at: "2025-10-19T19:38:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -19902,15 +19942,24 @@ repositories:
         published_at: "2025-11-17T16:23:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.904Z"
+      prompt_version: v2
   - repo: duckdb/duckdb
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - data-science
+    tags:
+      - sql-database
+      - analytics
+      - lang:cpp
     summary: Duck DB is an analytical in-process SQL database management system
     last_synced_sha: 0b6682e003ee2a67b08f8365a2eb7a80885ce478
     user_starred_at: "2025-10-19T19:38:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -19934,15 +19983,24 @@ repositories:
         published_at: "2026-01-26T12:08:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.904Z"
+      prompt_version: v2
   - repo: microsoft/microsoft-ui-xaml
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - winui
+      - fluent-design
+      - lang:cpp
     summary: 'Win UI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications.'
     last_synced_sha: 50177b54e88e923e24440df679bdf984b0048ab4
     user_starred_at: "2025-10-19T19:38:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -19971,15 +20029,24 @@ repositories:
         published_at: "2026-01-13T23:06:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.904Z"
+      prompt_version: v2
   - repo: Tyrrrz/YoutubeDownloader
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cli-tools
+    tags:
+      - video-downloader
+      - ffmpeg
+      - lang:csharp
     summary: Downloads videos and playlists from You Tube
     last_synced_sha: d23f54a03c9c6baa12d962269ce47b3c61bfa699
     user_starred_at: "2025-10-19T19:33:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -20008,15 +20075,23 @@ repositories:
         published_at: "2025-10-25T13:43:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.904Z"
+      prompt_version: v2
   - repo: ppy/osu
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - rhythm-game
+      - beatmap
+      - lang:csharp
     summary: rhythm is just a *click* away!
     last_synced_sha: acdb4477f75f728da8c96606acaa57e792e287c1
     user_starred_at: "2025-10-19T19:33:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -20042,15 +20117,24 @@ repositories:
         published_at: "2026-01-19T11:27:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.904Z"
+      prompt_version: v2
   - repo: LibreHardwareMonitor/LibreHardwareMonitor
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+    tags:
+      - hardware-monitoring
+      - system-monitoring
+      - lang:csharp
     summary: Libre Hardware Monitor is free software that can monitor the temperature sensors, fan speeds, voltages, load and clock speeds of your computer.
     last_synced_sha: 6f9ac5aece0ecc5c50e8d7db4e2e11a7ab83be31
     user_starred_at: "2025-10-19T19:31:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -20081,15 +20165,24 @@ repositories:
         published_at: "2026-01-07T22:47:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.904Z"
+      prompt_version: v2
   - repo: mcmonkeyprojects/SwarmUI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - stable-diffusion
+      - image-generation
+      - lang:csharp
     summary: Swarm UI (formerly Stable Swarm UI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility.
     last_synced_sha: fcaff15d7b3e534909ea1936b748cf4406df00a6
     user_starred_at: "2025-10-19T19:30:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -20117,15 +20210,24 @@ repositories:
         published_at: "2025-08-25T14:42:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.904Z"
+      prompt_version: v2
   - repo: jynew/jynew
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - frameworks
+    tags:
+      - rpg-framework
+      - modding-support
+      - lang:csharp
     summary: Jin Yong Legend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game.
     last_synced_sha: 23dd9cb2dfd1afb61ed909c0c44a12ce8d7de891
     user_starred_at: "2025-10-19T19:29:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -20147,15 +20249,24 @@ repositories:
         published_at: "2023-05-11T13:08:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.900Z"
+      prompt_version: v2
   - repo: clockworklabs/SpacetimeDB
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - game-dev
+    tags:
+      - relational-database
+      - smart-contracts
+      - lang:rust
     summary: Multiplayer at the speed of light
     last_synced_sha: a6f2ba29b7d7229038fd88f98b8864d5e8d48bab
     user_starred_at: "2025-10-19T19:28:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -20180,15 +20291,25 @@ repositories:
         published_at: "2026-01-15T16:38:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.900Z"
+      prompt_version: v2
   - repo: microsoft/vcpkg
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - infrastructure
+    tags:
+      - package-manager
+      - libraries
+      - c
+      - cmake
     summary: C++ Library Manager for Windows, Linux, and Mac OS
     last_synced_sha: b033f9d7425dcb33b8a2ace643d9766870cc29b2
     user_starred_at: "2025-10-19T19:28:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CMake
       topics:
@@ -20217,15 +20338,24 @@ repositories:
         published_at: "2026-01-21T18:27:34Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.900Z"
+      prompt_version: v2
   - repo: myshell-ai/OpenVoice
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - voice-cloning
+      - text-to-speech
+      - lang:python
     summary: Instant voice cloning by MIT and My Shell. Audio foundation model.
     last_synced_sha: 74a1d147b17a8c3092dd5430504bd83ef6c7eb23
     user_starred_at: "2025-10-19T19:28:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -20246,6 +20376,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:54:57.900Z"
+      prompt_version: v2
   - repo: tile-ai/tilelang
     categories:
       - data-science
