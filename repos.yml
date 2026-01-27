@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:37:50.307Z"
+  manifest_updated_at: "2026-01-27T04:38:09.102Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -41436,13 +41436,17 @@ repositories:
       mirror_url: null
   - repo: vercel/ai-chatbot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - nextjs
+      - chatbot
+      - lang:ts
     summary: A full-featured, hackable Next.js AI chatbot built by Vercel
     last_synced_sha: 9d5d8a3ea7968522a37ab1cc145a6c0ef8a9dd2e
     user_starred_at: "2025-04-15T12:37:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -41466,15 +41470,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.102Z"
+      prompt_version: v2
   - repo: nunchaku-ai/nunchaku
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - diffusion-models
+      - quantization
+      - lang:python
     summary: '[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models'
     last_synced_sha: 591d16b2c738e2f9b621e54ca04758b4ebe52102
     user_starred_at: "2025-04-15T12:37:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -41502,15 +41515,24 @@ repositories:
         published_at: "2026-01-25T03:48:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.102Z"
+      prompt_version: v2
   - repo: juliangarnier/anime
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - animation
+      - javascript-library
+      - lang:js
     summary: Java Script animation engine
     last_synced_sha: d33098727cb28cc00ffd0116fd2751f1112eafdd
     user_starred_at: "2025-04-15T12:37:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -41536,15 +41558,24 @@ repositories:
         published_at: "2026-01-25T09:07:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.102Z"
+      prompt_version: v2
   - repo: nautechsystems/nautilus_trader
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - algorithmic-trading
+      - machine-learning
+      - lang:rust
     summary: A high-performance algorithmic trading platform and event-driven backtester
     last_synced_sha: 6fa750901a51e4d10ffcb2711513b5a1a7062dda
     user_starred_at: "2025-04-15T12:35:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -41576,15 +41607,24 @@ repositories:
         published_at: "2026-01-02T05:23:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.102Z"
+      prompt_version: v2
   - repo: Pennyw0rth/NetExec
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - pentesting
+      - infosec
+      - lang:python
     summary: The Network Execution Tool
     last_synced_sha: 08b43bf089e71427406a1d0b3620119c76efca85
     user_starred_at: "2025-04-15T02:13:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -41618,15 +41658,24 @@ repositories:
         published_at: "2025-12-24T16:34:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.102Z"
+      prompt_version: v2
   - repo: BasedHardware/omi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - mobile-dev
+    tags:
+      - wearables
+      - ai-transcription
+      - lang:dart
     summary: AI wearables. Put it on, speak, transcribe, automatically
     last_synced_sha: 8804f2ef8dbb1d10222ab2ed9b2eebda2a0518ef
     user_starred_at: "2025-04-15T02:12:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -41661,15 +41710,24 @@ repositories:
         published_at: "2026-01-27T02:11:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.102Z"
+      prompt_version: v2
   - repo: risonsimon/claude-artifacts-react
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - deployment
+    tags:
+      - react
+      - frontend
+      - lang:js
     summary: Quickly deploy React code from Claude Artifacts to the internet.
     last_synced_sha: 90fd1a848591717037ee30d3ea37d6924a13684c
     user_starred_at: "2025-04-13T23:48:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -41686,15 +41744,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.102Z"
+      prompt_version: v2
   - repo: neu-se/testpilot2
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - dev-tools
+    tags:
+      - test-tools
+      - automation
+      - lang:ts
     summary: Test Pilot 2
     last_synced_sha: 79c3b626edb541ca9eaf31c6994f40d1c7d5d042
     user_starred_at: "2025-04-12T04:19:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -41711,15 +41778,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.102Z"
+      prompt_version: v2
   - repo: RenjiYuusei/CursorFocus
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - cursorfocus
+      - project-tracking
+      - lang:python
     summary: A lightweight tool that maintains a focused view of your project structure and environment. Cursor Focus automatically tracks your project files, functions, and environment variables, updating ever...
     last_synced_sha: 35daecf1ba8ff7a2fa609ab5b95da8b7bb6cf89a
     user_starred_at: "2025-04-08T19:43:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     fork: true
     github_metadata:
@@ -41742,15 +41818,24 @@ repositories:
         published_at: "2025-04-02T08:12:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.102Z"
+      prompt_version: v2
   - repo: johnbenac/cursor-watchful-headers
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - file-management
+      - headers
+      - lang:python
     summary: Automated file header management and project structure visualization in cursorrules. Maintains consistent headers across multiple file types while providing real-time project tree updates. Perfect ...
     last_synced_sha: 05b9bc9f732d9b2432c724bd5a1f9771932e1974
     user_starred_at: "2025-04-08T19:23:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -41767,15 +41852,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.102Z"
+      prompt_version: v2
   - repo: Azure/login
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - devops
+    tags:
+      - azure
+      - github-actions
+      - lang:ts
     summary: Connect to Azure
     last_synced_sha: bbcc074a232a35d7283353c18aabf0de1d557775
     user_starred_at: "2025-04-06T04:39:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -41798,15 +41892,24 @@ repositories:
         published_at: "2025-04-02T02:15:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.101Z"
+      prompt_version: v2
   - repo: nuejs/nue
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - javascript-framework
+      - design-system
+      - lang:js
     summary: Fastest way to build modern websites
     last_synced_sha: eb1dead5322734c7bd5514ffb564a168af0645a8
     user_starred_at: "2025-04-04T14:27:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -41831,15 +41934,24 @@ repositories:
         published_at: "2025-10-10T10:31:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.101Z"
+      prompt_version: v2
   - repo: glanceapp/glance
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - productivity
+    tags:
+      - dashboard
+      - self-hosted
+      - lang:go
     summary: A self-hosted dashboard that puts all your feeds in one place
     last_synced_sha: 6c5b7a3f4cc409e31739b2914bb6636d08299126
     user_starred_at: "2025-04-04T14:25:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -41872,15 +41984,24 @@ repositories:
         published_at: "2025-06-10T07:57:14Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.101Z"
+      prompt_version: v2
   - repo: rustdesk/rustdesk
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - networking
+    tags:
+      - remote-desktop
+      - self-hosted
+      - lang:rust
     summary: An open-source remote desktop application designed for self-hosting, as an alternative to Team Viewer.
     last_synced_sha: f05f2178e59a8e5d74e4822d50beca54f7aec0bb
     user_starred_at: "2025-04-04T14:20:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -41918,15 +42039,24 @@ repositories:
         published_at: "2026-01-09T02:28:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.101Z"
+      prompt_version: v2
   - repo: PatrickJS/awesome-cursorrules
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - awesome-list
+      - cursor-ai
+      - cursorrules
     summary: "\U0001F4C4 Configuration files that enhance Cursor AI editor experience with custom rules and behaviors"
     last_synced_sha: fc2ce049c55b369b498eef396506a7a269a1b461
     user_starred_at: "2025-04-04T14:19:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: MDX
       topics:
@@ -41948,6 +42078,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:09.101Z"
+      prompt_version: v2
   - repo: jlowin/fastmcp
     categories:
       - ai-ml
