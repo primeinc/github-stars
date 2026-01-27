@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:56:45.566Z"
+  manifest_updated_at: "2026-01-27T04:57:08.040Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -16827,13 +16827,17 @@ repositories:
       mirror_url: null
   - repo: fonoster/routr
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - containers
+    tags:
+      - sip
+      - lang:ts
+      - voip
     summary: ⚡ The future of programmable SIP servers.
     last_synced_sha: a0674f5ade2c8af48e289dbd79ec63bcd1622df5
     user_starred_at: "2025-11-13T17:46:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16870,15 +16874,24 @@ repositories:
         published_at: "2025-12-24T16:13:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.040Z"
+      prompt_version: v2
   - repo: sarperavci/GoogleRecaptchaBypass
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - recaptcha
+      - lang:python
+      - captcha-breaking
     summary: "Solve Google re CAPTCHA in less than 5 seconds! \U0001F680"
     last_synced_sha: 29a21329e5bf13d8ee1c560877ae79a7e4986523
     user_starred_at: "2025-11-13T17:45:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -16905,15 +16918,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.040Z"
+      prompt_version: v2
   - repo: FoundationAgents/ReCode
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - code-generation
+      - lang:python
+      - recursion
     summary: Next paradigm for LLM Agent. Unify plan and action through recursive code generation for adaptive, human-like decision-making.
     last_synced_sha: cc1cb1398b593982e0af9f78804252356f01c0c4
     user_starred_at: "2025-11-13T02:28:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -16930,15 +16952,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.040Z"
+      prompt_version: v2
   - repo: MoonshotAI/kosong
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - llm
+      - sdk
+      - ai-agents
     summary: The LLM abstraction layer for modern AI agent applications.
     last_synced_sha: 1ddade6c941b539bc5f1a19b38302c9269cd3e6b
     user_starred_at: "2025-11-12T19:47:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -16961,15 +16992,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.040Z"
+      prompt_version: v2
   - repo: longbridge/gpui-component
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - gui
+      - cross-platform
+      - lang:rust
     summary: Rust GUI components for building fantastic cross-platform desktop application by using GPUI.
     last_synced_sha: fa110ebf040270ff3773b6a7c31f432db41c14ab
     user_starred_at: "2025-11-12T19:43:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -16992,15 +17032,24 @@ repositories:
         published_at: "2025-12-08T03:05:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.040Z"
+      prompt_version: v2
   - repo: microsoft/call-center-ai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - call-bots
+      - lang:python
+      - ai-agents
     summary: Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!
     last_synced_sha: 958b3192020ab8a49cabd328a873eaa70e8865bc
     user_starred_at: "2025-11-12T19:42:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -17019,15 +17068,24 @@ repositories:
         published_at: "2025-05-27T10:18:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.040Z"
+      prompt_version: v2
   - repo: MemoriLabs/Memori
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - llm
+      - lang:python
+      - memory-management
     summary: SQL Native Memory Layer for LLMs, AI Agents & Multi-Agent Systems
     last_synced_sha: 58e6a3005d7a084cb12375517ff63b66ddf6c1c2
     user_starred_at: "2025-11-12T19:40:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -17061,15 +17119,24 @@ repositories:
         published_at: "2026-01-21T21:56:52Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.040Z"
+      prompt_version: v2
   - repo: gamosoft/NoteDiscovery
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - knowledge-base
+      - lang:js
+      - self-hosted
     summary: Your Self-Hosted Knowledge Base
     last_synced_sha: db86e1da3e2a9251253066fc2187421d511c1df8
     user_starred_at: "2025-11-11T21:23:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -17107,15 +17174,24 @@ repositories:
         published_at: "2026-01-26T15:51:58Z"
       is_mirror: false
       mirror_url: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.040Z"
+      prompt_version: v2
   - repo: Piebald-AI/tweakcc
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - customization
+      - lang:ts
+      - styling
     summary: Customize Claude Code's system prompts, create custom toolsets, add custom input pattern highlighters, custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art...
     last_synced_sha: 675dacd2f761376734ce0a6ab096bc59bedaf6ee
     user_starred_at: "2025-11-11T20:58:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -17154,15 +17230,24 @@ repositories:
         published_at: "2026-01-19T04:52:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.040Z"
+      prompt_version: v2
   - repo: ken-yossy/nvmetool-win
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cli-tools
+    tags:
+      - nvme
+      - windows
+      - lang:c
     summary: Communicate with NVMe SSD using Windows' inbox device driver
     last_synced_sha: 9e6e91b1a1a9933c8448200e3ad77deaaaf5a6e3
     user_starred_at: "2025-11-11T17:49:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -17179,15 +17264,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.039Z"
+      prompt_version: v2
   - repo: openworkflowdev/openworkflow
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - dev-tools
+    tags:
+      - durable
+      - resumable
+      - lang:ts
     summary: Open-source Type Script framework for building durable, resumable workflows.
     last_synced_sha: c27481949e16ee33dd9c31e81d0837c41ad7510e
     user_starred_at: "2025-11-11T17:35:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -17204,15 +17298,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.039Z"
+      prompt_version: v2
   - repo: RodericAguilar/Pr_Elevators
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - fivem
+      - lang:lua
+      - scripts
     summary: Free fivem elevator scripts, works without framework.
     last_synced_sha: 06b33ae31f95c71dd2b92989d76941c578bef214
     user_starred_at: "2025-11-11T17:35:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics: []
@@ -17229,15 +17331,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.039Z"
+      prompt_version: v2
   - repo: TMElyralab/MuseTalk
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lip-sync
+      - lang:python
+      - virtualhumans
     summary: 'Muse Talk: Real-Time High Quality Lip Synchorization with Latent Space Inpainting'
     last_synced_sha: 0a89dec45a0192b824e3cf4daf96c239440c5ed8
     user_starred_at: "2025-11-11T17:35:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -17256,15 +17367,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.039Z"
+      prompt_version: v2
   - repo: serverless-dns/serverless-dns
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - cloud
+    tags:
+      - serverless
+      - dns-over-https
+      - lang:js
     summary: The Rethink DNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io
     last_synced_sha: 14f4e9668caf629b04a3214aab74138b85a9a9c3
     user_starred_at: "2025-11-11T17:34:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -17295,15 +17415,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.039Z"
+      prompt_version: v2
   - repo: microsoft/ai-agents-for-beginners
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - generative-ai
+      - lang:python
+      - ai-agents
     summary: 12 Lessons to Get Started Building AI Agents
     last_synced_sha: 2b6f760debea64e3f20a9a4bd880ea1d5046d30d
     user_starred_at: "2025-11-11T17:34:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -17328,6 +17457,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:57:08.039Z"
+      prompt_version: v2
   - repo: google/adk-web
     categories:
       - ui-libraries
