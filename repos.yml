@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:46:05.283Z"
+  manifest_updated_at: "2026-01-27T04:46:29.288Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -30523,13 +30523,18 @@ repositories:
       mirror_url: null
   - repo: xyflow/xyflow
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react
+      - workflow-ui
+      - lang:ts
+      - svelte
     summary: React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely cust...
     last_synced_sha: cf2d4be3f57047ae02d08eed49dc640e89a2ef14
     user_starred_at: "2025-08-17T11:08:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30559,15 +30564,25 @@ repositories:
         published_at: "2025-12-04T13:37:58Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.288Z"
+      prompt_version: v2
   - repo: swisskyrepo/PayloadsAllTheThings
     categories:
-      - unclassified
-    tags: []
+      - security
+      - testing
+    tags:
+      - penetration-testing
+      - payload
+      - lang:python
+      - redteam
     summary: A list of useful payloads and bypass for Web Application Security and Pentest/CTF
     last_synced_sha: 50b8eb957f3e3482e6042d68863ee086aad7da13
     user_starred_at: "2025-08-17T11:07:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30603,15 +30618,26 @@ repositories:
         published_at: "2025-07-26T20:28:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.288Z"
+      prompt_version: v2
   - repo: megh-bari/pattern-craft
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+      - dev-tools
+    tags:
+      - background-patterns
+      - design-tools
+      - tailwindcss
+      - lang:ts
     summary: Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration.
     last_synced_sha: 17a4d3c7b5c923e52dfd4d32420aa9ca3bdfa41e
     user_starred_at: "2025-08-17T11:06:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30646,15 +30672,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.288Z"
+      prompt_version: v2
   - repo: Aider-AI/aider
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - dev-tools
+      - ai-ml
+    tags:
+      - ai-pair-programming
+      - openai
+      - lang:python
     summary: aider is AI pair programming in your terminal
     last_synced_sha: 4bf56b77145b0be593ed48c3c90cdecead217496
     user_starred_at: "2025-08-17T11:05:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30686,15 +30722,26 @@ repositories:
         published_at: "2025-08-09T17:42:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.288Z"
+      prompt_version: v2
   - repo: Canner/WrenAI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - databases
+    tags:
+      - text-to-sql
+      - sql-generator
+      - lang:ts
+      - business-intelligence
     summary: ⚡️ Gen BI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds.
     last_synced_sha: 24df98e21582b2b68f84a1cfeaf54bc23b718f39
     user_starred_at: "2025-08-17T11:00:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30732,15 +30779,25 @@ repositories:
         published_at: "2025-11-28T11:00:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.288Z"
+      prompt_version: v2
   - repo: nextauthjs/next-auth
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - authentication
+      - oauth
+      - lang:ts
+      - nextjs
     summary: Authentication for the Web.
     last_synced_sha: c7c2cfa5780c72ee4adf6d93d830ef7ea8d252c5
     user_starred_at: "2025-08-17T04:49:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30777,15 +30834,25 @@ repositories:
         published_at: "2025-10-26T02:41:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.288Z"
+      prompt_version: v2
   - repo: calcom/cal.com
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - scheduling
+      - prisma
+      - lang:ts
+      - nextjs
     summary: Scheduling infrastructure for absolutely everyone.
     last_synced_sha: 46d54b36ce20d764fa5d0b02fc2702607aecead2
     user_starred_at: "2025-08-16T08:24:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30815,15 +30882,26 @@ repositories:
         published_at: "2026-01-26T14:02:59Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.288Z"
+      prompt_version: v2
   - repo: CopilotKit/CopilotKit
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+      - web-dev
+    tags:
+      - ai-agent
+      - react
+      - lang:ts
+      - frontend-ai
     summary: "React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend \U0001FA81"
     last_synced_sha: 9d6cc4873b8a5f775b6c423384231b6f00b6db0d
     user_starred_at: "2025-08-16T08:24:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30860,15 +30938,24 @@ repositories:
         published_at: "2026-01-15T17:10:51Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.288Z"
+      prompt_version: v2
   - repo: RVC-Boss/GPT-SoVITS
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - audio-processing
+    tags:
+      - voice-cloning
+      - tts
+      - lang:python
     summary: 1 min voice data can also be used to train a good TTS model! (few shot voice cloning)
     last_synced_sha: c767f0b83b998e996a4d230d86da575a03f54a3f
     user_starred_at: "2025-08-16T08:22:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30893,15 +30980,25 @@ repositories:
         published_at: "2025-06-06T03:04:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.288Z"
+      prompt_version: v2
   - repo: unionlabs/union
     categories:
-      - unclassified
-    tags: []
+      - security
+      - blockchain
+    tags:
+      - zero-knowledge
+      - blockchain
+      - lang:rust
+      - interoperability
     summary: The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.
     last_synced_sha: d9559e7efb51695d0f17bbb95e55db1e206ef682
     user_starred_at: "2025-08-16T08:20:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -30939,15 +31036,25 @@ repositories:
         published_at: "2026-01-26T21:57:02Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.288Z"
+      prompt_version: v2
   - repo: unclecode/crawl4ai
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - web-crawling
+      - data-extraction
+      - web-scraper
+      - lang:python
     summary: "\U0001F680\U0001F916 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/j P8Kfh Dhy N"
     last_synced_sha: 55de32d92594721e2ad4df59e74fe15769e0a978
     user_starred_at: "2025-08-16T08:19:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -30966,15 +31073,25 @@ repositories:
         published_at: "2026-01-16T10:40:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.288Z"
+      prompt_version: v2
   - repo: firecrawl/firecrawl
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - web-scraping
+      - data-extraction
+      - crawler
+      - lang:ts
     summary: "\U0001F525 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data"
     last_synced_sha: c88b51893cde6747c43eeddeaf8aa37a0f89a3ef
     user_starred_at: "2025-08-16T08:10:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31012,15 +31129,26 @@ repositories:
         published_at: "2025-12-05T17:40:32Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.288Z"
+      prompt_version: v2
   - repo: openreplay/openreplay
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - web-dev
+      - testing
+    tags:
+      - session-replay
+      - product-analytics
+      - lang:ts
+      - react
     summary: Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues and iterating on your product.
     last_synced_sha: 1d5b11bd512586bedc6c2b2747fad2926fb88770
     user_starred_at: "2025-08-16T08:09:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31055,15 +31183,25 @@ repositories:
         published_at: "2025-12-23T21:09:11Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.288Z"
+      prompt_version: v2
   - repo: CherryHQ/cherry-studio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - ai-agent
+      - automation
+      - llm
+      - lang:ts
     summary: 'AI Agent + Coding Agent + 300+ assistants: agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs.'
     last_synced_sha: 2a3e157ee7fd6121787ab4361b35907e359ca990
     user_starred_at: "2025-08-16T08:09:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31091,15 +31229,24 @@ repositories:
         published_at: "2026-01-25T13:50:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.288Z"
+      prompt_version: v2
   - repo: Tichau/FileConverter
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - file-conversion
+      - context-menu
+      - lang:csharp
     summary: File Converter is a very simple tool which allows you to convert and compress files using the context menu in windows explorer.
     last_synced_sha: 0557dfbf131df0328c2d89a747725ec3c5a3ac0e
     user_starred_at: "2025-08-16T08:06:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -31118,6 +31265,11 @@ repositories:
         published_at: "2025-02-24T18:00:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:46:29.287Z"
+      prompt_version: v2
   - repo: builtbybel/CrapFixer
     categories:
       - system-admin
