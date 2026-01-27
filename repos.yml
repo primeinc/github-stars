@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:53:21.364Z"
+  manifest_updated_at: "2026-01-27T04:53:42.971Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -21243,13 +21243,17 @@ repositories:
       mirror_url: null
   - repo: fregante/browser-extension-template
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - browser-extension
+      - template
+      - lang:js
     summary: "\U0001F4D5 Barebones boilerplate with Parcel 2, options handler and auto-publishing"
     last_synced_sha: 8c155dcac77b0d3272f32c0a695d4c03a09dbd6b
     user_starred_at: "2025-10-19T18:57:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -21272,15 +21276,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.971Z"
+      prompt_version: v2
   - repo: webextension-toolbox/webextension-toolbox
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cli-tools
+    tags:
+      - webextensions
+      - cross-browser
+      - lang:ts
     summary: Small CLI toolbox for cross-browser Web Extension development
     last_synced_sha: 29e1ac11298af0799685320b1f3cdd2bc72c8ce6
     user_starred_at: "2025-10-19T18:55:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -21311,15 +21324,24 @@ repositories:
         published_at: "2024-02-01T07:35:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.971Z"
+      prompt_version: v2
   - repo: envoyproxy/envoy
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - cloud
+    tags:
+      - service-proxy
+      - cloud-native
+      - lang:cpp
     summary: Cloud-native high-performance edge/middle/service proxy
     last_synced_sha: b040717002b3896c6f8c11c42537960a8a0828a3
     user_starred_at: "2025-10-19T18:55:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -21346,15 +21368,24 @@ repositories:
         published_at: "2026-01-13T16:54:01Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.971Z"
+      prompt_version: v2
   - repo: datarootsio/knowledgebase_guardian
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - llm-detection
+      - contradictions
+      - lang:python
     summary: A minimal example to demonstrate how LLM's can assist in detecting contradictions in documents.
     last_synced_sha: a356d8162e39a5bb1a56313f090bc0b07cd46d9c
     user_starred_at: "2025-10-19T16:44:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -21371,15 +21402,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.971Z"
+      prompt_version: v2
   - repo: Alibaba-NLP/DeepResearch
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - ai-agent
+      - deep-research
+      - lang:python
     summary: Tongyi Deep Research, the Leading Open-source Deep Research Agent
     last_synced_sha: 76bc781990d687e921b10043f79a7f9c2d81b5b2
     user_starred_at: "2025-10-17T18:35:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -21405,15 +21445,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.971Z"
+      prompt_version: v2
   - repo: humanlayer/humanlayer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-agents
+      - code-assistant
+      - lang:ts
     summary: The best way to get AI coding agents to solve hard problems in complex codebases.
     last_synced_sha: bdea199cec94a1605d2a0de42309d67a14dafdf2
     user_starred_at: "2025-10-17T18:32:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -21442,15 +21491,24 @@ repositories:
         published_at: "2025-12-23T05:08:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.971Z"
+      prompt_version: v2
   - repo: nitrojs/nitro
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - deployment
+    tags:
+      - server-toolkit
+      - web-servers
+      - lang:ts
     summary: Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.
     last_synced_sha: 8882bc9e1dbf2d342e73097f22a2156f70f50575
     user_starred_at: "2025-10-17T18:31:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -21469,15 +21527,23 @@ repositories:
         published_at: "2026-01-21T18:45:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.971Z"
+      prompt_version: v2
   - repo: linexjlin/GPTs
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - gpt-prompts
+      - llms
     summary: leaked prompts of GPTs
     last_synced_sha: 3adfb7b38423b64a995057483c1f9007ed5f4da5
     user_starred_at: "2025-10-17T18:30:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -21494,15 +21560,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.971Z"
+      prompt_version: v2
   - repo: shiyu-coder/Kronos
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - financial-model
+      - foundation-model
+      - lang:python
     summary: 'Kronos: A Foundation Model for the Language of Financial Markets'
     last_synced_sha: d5ffd46ab061af1146ea415e4ce86d24b5231b01
     user_starred_at: "2025-10-17T18:30:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -21519,15 +21594,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.971Z"
+      prompt_version: v2
   - repo: PaddlePaddle/PaddleOCR
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ocr
+      - pdf-parser
+      - lang:python
     summary: Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.
     last_synced_sha: f7b631c297903c634e5e59e965a152bb06685c02
     user_starred_at: "2025-10-17T18:30:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -21559,15 +21643,24 @@ repositories:
         published_at: "2026-01-20T07:27:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.971Z"
+      prompt_version: v2
   - repo: lfnovo/open-notebook
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - productivity
+    tags:
+      - note-taking
+      - self-learning
+      - lang:ts
     summary: An Open Source implementation of Notebook LM with more flexibility and features
     last_synced_sha: 2ec64c0440425a102290294fd2d45d9f51e86d74
     user_starred_at: "2025-10-17T18:29:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -21592,15 +21685,24 @@ repositories:
         published_at: "2026-01-24T12:41:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.971Z"
+      prompt_version: v2
   - repo: Orange-Cyberdefense/GOAD
     categories:
-      - unclassified
-    tags: []
+      - security
+      - infrastructure
+    tags:
+      - active-directory
+      - pentest
+      - infrastructure-as-code
     summary: game of active directory
     last_synced_sha: 9606647a47a0792ef9240edc568d9858e415a8f3
     user_starred_at: "2025-10-17T18:28:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -21623,15 +21725,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.971Z"
+      prompt_version: v2
   - repo: bibigon812/xl710-unlocker
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - intel-unlocker
+      - device-management
+      - lang:c
     summary: Unlock Intel XL710 / X710 cards for use with any SFP+
     last_synced_sha: 3d3a24b8cc5e693a12ef7ea01ba1644a27430cd1
     user_starred_at: "2025-10-17T06:51:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C
@@ -21649,15 +21760,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.971Z"
+      prompt_version: v2
   - repo: Mellanox/mstflint
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cli-tools
+    tags:
+      - firmware-tools
+      - device-management
+      - lang:c
     summary: Mstflint - an open source version of MFT (Mellanox Firmware Tools)
     last_synced_sha: 0990c40bd2b8f0c61f6642650778d99a79bc1804
     user_starred_at: "2025-10-17T06:32:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -21676,15 +21796,24 @@ repositories:
         published_at: "2025-12-21T14:17:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.970Z"
+      prompt_version: v2
   - repo: documentdb/documentdb
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - cloud
+    tags:
+      - mongo-compatible
+      - scalability
+      - lang:c
     summary: Mongo DB-compatible database engine for cloud-native and open-source workloads. Built for scalability, performance, and developer productivity.
     last_synced_sha: d2c029fced196b70627e4eec89a662df528f1fed
     user_starred_at: "2025-10-17T05:52:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -21701,6 +21830,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:53:42.970Z"
+      prompt_version: v2
   - repo: microsoft/vscode-documentdb
     categories:
       - documentation
