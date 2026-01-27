@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:59:01.510Z"
+  manifest_updated_at: "2026-01-27T04:59:25.182Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -13929,13 +13929,17 @@ repositories:
       mirror_url: null
   - repo: aristocratos/btop
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+    tags:
+      - resource-monitoring
+      - system-tools
+      - lang:cpp
     summary: A monitor of resources
     last_synced_sha: 0b9bd79f1b0afd3ed9daaf69422b5edb5c9bf387
     user_starred_at: "2025-11-29T01:48:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -13954,15 +13958,25 @@ repositories:
         published_at: "2025-12-26T15:53:34Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.182Z"
+      prompt_version: v2
   - repo: hyprwm/Hyprland
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - system-admin
+    tags:
+      - wayland
+      - customization
+      - tiling-window-manager
+      - lang:cpp
     summary: Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
     last_synced_sha: 50454c6d17b8406555252eb4f047324d0b0ff5c8
     user_starred_at: "2025-11-29T01:48:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -13985,15 +13999,24 @@ repositories:
         published_at: "2026-01-24T20:04:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.182Z"
+      prompt_version: v2
   - repo: facebookresearch/habitat-sim
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - game-dev
+    tags:
+      - 3d-simulation
+      - robotics
+      - lang:cpp
     summary: A flexible, high-performance 3D simulator for Embodied AI research.
     last_synced_sha: 6c26c4f9ae10ad7f534aa9e59a84dff00782741e
     user_starred_at: "2025-11-29T01:47:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -14018,15 +14041,24 @@ repositories:
         published_at: "2025-01-27T19:28:32Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.182Z"
+      prompt_version: v2
   - repo: TechnitiumSoftware/DnsServer
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - dns-server
+      - privacy-focused
+      - lang:csharp
     summary: Technitium DNS Server
     last_synced_sha: 7f7ce2685eadd6172f139f39e9e8d2e75f223a94
     user_starred_at: "2025-11-29T01:46:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -14055,15 +14087,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.182Z"
+      prompt_version: v2
   - repo: Cysharp/R3
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - productivity
+    tags:
+      - reactive-programming
+      - lang:csharp
     summary: The new future of dotnet/reactive and Uni Rx.
     last_synced_sha: 24d04125d68719816e24dfb79c60dd97ca396038
     user_starred_at: "2025-11-29T01:45:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -14082,15 +14122,24 @@ repositories:
         published_at: "2025-02-15T09:18:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.182Z"
+      prompt_version: v2
   - repo: DearVa/Everywhere
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - ai-assistant
+      - context-aware
+      - lang:csharp
     summary: Context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools.
     last_synced_sha: 60c333f3d4c1b9908b5b0dd84ab6c8bf41344197
     user_starred_at: "2025-11-29T01:45:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -14123,15 +14172,24 @@ repositories:
         published_at: "2026-01-21T16:00:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.182Z"
+      prompt_version: v2
   - repo: QuantConnect/Lean
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - algorithmic-trading
+      - quantitative-finance
+      - lang:csharp
     summary: Lean Algorithmic Trading Engine by Quant Connect (Python, C#)
     last_synced_sha: 552511ef581e7401be88c4858da7acdbd88f377f
     user_starred_at: "2025-11-29T01:45:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -14165,15 +14223,25 @@ repositories:
         published_at: "2017-08-08T20:57:57Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.182Z"
+      prompt_version: v2
   - repo: abpframework/abp
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - aspnet-core
+      - modular-monolith
+      - enterprise-software
+      - lang:csharp
     summary: Open-source web application framework for ASP.NET Core! Offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET. Provides the fundamental in...
     last_synced_sha: d619ff84e3432912a6008300abcd6addb5681489
     user_starred_at: "2025-11-29T01:44:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -14207,15 +14275,24 @@ repositories:
         published_at: "2026-01-05T10:35:28Z"
       is_mirror: false
       mirror_url: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.182Z"
+      prompt_version: v2
   - repo: CoplayDev/unity-mcp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - game-dev
+    tags:
+      - unity-integrations
+      - ai-tools
+      - lang:csharp
     summary: Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage a...
     last_synced_sha: 4991d71eab8a3d42738f8b9ab2da51190d47b779
     user_starred_at: "2025-11-29T01:44:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -14252,15 +14329,25 @@ repositories:
         published_at: "2026-01-23T05:36:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.182Z"
+      prompt_version: v2
   - repo: dembrandt/dembrandt
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - automation
+    tags:
+      - design-systems
+      - cli-tool
+      - web-scraping
+      - lang:js
     summary: 'Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command.'
     last_synced_sha: 7580fef9dc5e9e69e94f9fcfd0e38dafb547a8fd
     user_starred_at: "2025-11-27T00:07:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -14295,15 +14382,24 @@ repositories:
         published_at: "2026-01-23T10:15:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.182Z"
+      prompt_version: v2
   - repo: ArcadeAI/blueprint-mcp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - codebase-analysis
+      - diagramming
+      - lang:python
     summary: Diagram generation for understanding codebases and system architecture using Nano Banana Pro.
     last_synced_sha: e843005cf3e7fd8f823499ead9d603b5e78a3801
     user_starred_at: "2025-11-27T00:05:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -14320,15 +14416,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.182Z"
+      prompt_version: v2
   - repo: microsoft/vscode-mermAId
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - vscode-extension
+      - diagram-generation
+      - lang:ts
     summary: Exploration into Copilot Chat-powered Diagram Generation
     last_synced_sha: 59145a0629b201d8c185bd5db8c763d235122216
     user_starred_at: "2025-11-25T19:15:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -14347,15 +14452,24 @@ repositories:
         published_at: "2025-02-21T00:58:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.182Z"
+      prompt_version: v2
   - repo: Azure/apim-landing-zone-accelerator
     categories:
-      - unclassified
-    tags: []
+      - infrastructure
+      - cloud
+    tags:
+      - api-management
+      - landing-zones
+      - hcl
     summary: The Azure API Management landing zone accelerator provides an architectural approach and reference implementation to prepare landing zone subscriptions for a secure API Management infrastructure.
     last_synced_sha: 0180a563a0131224d4ae149508d5d45645a4928e
     user_starred_at: "2025-11-25T16:17:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HCL
       topics:
@@ -14374,15 +14488,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.182Z"
+      prompt_version: v2
   - repo: ealsur/serverlessnotifications
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+    tags:
+      - serverless
+      - azure-functions
+      - lang:js
     summary: Serverless notifications with Azure Cosmos DB + Azure Functions + Azure Signal R
     last_synced_sha: 82bd7187925d034c4555d7a724cf82b48a22be38
     user_starred_at: "2025-11-25T15:27:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -14404,15 +14527,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.182Z"
+      prompt_version: v2
   - repo: microsoft/vscode-cosmosdb
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - databases
+    tags:
+      - vscode-extension
+      - cosmos-db
+      - lang:ts
     summary: Azure Cosmos DB extension for VS Code
     last_synced_sha: ebb416d7317f5ed2964f054b23a61bf8251936a4
     user_starred_at: "2025-11-25T15:26:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14436,6 +14568,11 @@ repositories:
         published_at: "2025-11-14T11:25:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:59:25.181Z"
+      prompt_version: v2
   - repo: satnaing/shadcn-admin
     categories:
       - ui-libraries
