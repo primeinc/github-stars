@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:35:38.529Z"
+  manifest_updated_at: "2026-01-27T04:36:02.394Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -44195,13 +44195,18 @@ repositories:
       mirror_url: null
   - repo: team-telnyx/demo-python-telnyx
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - learning
+    tags:
+      - telnyx
+      - api-examples
+      - lang:python
+      - sdk
     summary: Samples & Examples with Telnyx-Python
     last_synced_sha: a025ace79e0e8eb7fbdb7d52005327f21adf89ad
     user_starred_at: "2025-02-21T17:09:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -44218,15 +44223,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.394Z"
+      prompt_version: v2
   - repo: microsoftgraph/microsoft-graph-explorer-v4
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - learning
+    tags:
+      - microsoft-graph
+      - api-explorer
+      - lang:ts
+      - react
     summary: React/Redux version of Graph Explorer used to learn the Microsoft Graph Api
     last_synced_sha: 7162d81c5e5312a02d43b57138843c0da085084c
     user_starred_at: "2025-02-21T12:02:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44251,15 +44266,25 @@ repositories:
         published_at: "2026-01-07T04:24:55Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.394Z"
+      prompt_version: v2
   - repo: dafthack/GraphRunner
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+    tags:
+      - post-exploitation
+      - microsoft-graph
+      - lang:powershell
+      - api-tool
     summary: A Post-exploitation Toolset for Interacting with the Microsoft Graph API
     last_synced_sha: b4830d301f82166cccd6b3d5a4a110ff7bb21457
     user_starred_at: "2025-02-21T12:02:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -44276,15 +44301,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.394Z"
+      prompt_version: v2
   - repo: vgrem/office365-rest-python-client
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - system-admin
+    tags:
+      - office365
+      - microsoft-graph
+      - onedrive
+      - lang:python
     summary: Microsoft 365 & Microsoft Graph Library for Python
     last_synced_sha: ad2050144df8c701eb7dc0780d898b3e976699b3
     user_starred_at: "2025-02-21T12:01:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -44316,15 +44351,25 @@ repositories:
         published_at: "2025-05-11T13:24:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.394Z"
+      prompt_version: v2
   - repo: WickyPlays/pip-player
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - media
+    tags:
+      - pip
+      - electron
+      - lang:ts
+      - video-player
     summary: A simple application to play Pi P with any links that you like.
     last_synced_sha: c1d5e63cdba9c624abff30d77bd134f02927770f
     user_starred_at: "2025-02-21T11:50:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44347,15 +44392,25 @@ repositories:
         published_at: "2025-06-30T15:39:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.394Z"
+      prompt_version: v2
   - repo: fzf404/Monit
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - desktop-widget
+      - vue
+      - electron
+      - lang:ts
     summary: "\U0001F3AF Desktop Widget ( 桌面小组件 )"
     last_synced_sha: 8ae99323b6a8a19535aced73becbb6c9bff9f1fd
     user_starred_at: "2025-02-21T11:48:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -44377,15 +44432,26 @@ repositories:
         published_at: "2023-07-01T16:38:58Z"
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.394Z"
+      prompt_version: v2
   - repo: staniel359/muffon
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - media
+    tags:
+      - music-streaming
+      - multi-source
+      - vue
+      - lang:js
+      - electron
     summary: Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads.
     last_synced_sha: 7e4622313d3a6b258e44cfbf782a4ad4c4d63fe2
     user_starred_at: "2025-02-21T11:47:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -44424,15 +44490,27 @@ repositories:
         published_at: "2025-08-19T08:36:53Z"
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.393Z"
+      prompt_version: v2
   - repo: 4xmen/anubias
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - desktop-dev
+    tags:
+      - native-apps
+      - vuejs
+      - ide
+      - lang:js
+      - cross-platform
+      - gui
     summary: "Developed mobile apps so easy and native with GUI \U0001F4F1"
     last_synced_sha: a325c8039b6a715690046e959ca46ec91310b686
     user_starred_at: "2025-02-21T11:46:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -44469,15 +44547,26 @@ repositories:
         published_at: "2022-02-22T21:47:40Z"
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.393Z"
+      prompt_version: v2
   - repo: sunzongzheng/music
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - media
+    tags:
+      - music-player
+      - vue
+      - electron
+      - cross-platform
+      - lang:js
     summary: electron跨平台音乐播放器；可搜网易云、QQ音乐、虾米音乐；支持QQ、微博、Github登录，云歌单; 支持一键导入音乐平台歌单
     last_synced_sha: e68d60ff4e011c283e00ebd5c32b6e101b9eab87
     user_starred_at: "2025-02-21T11:46:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -44501,15 +44590,25 @@ repositories:
         published_at: "2021-03-20T06:13:54Z"
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.393Z"
+      prompt_version: v2
   - repo: massCodeIO/massCode
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - code-snippets
+      - developer-tools
+      - lang:js
+      - vue
     summary: A free and open source code snippet manager for developers
     last_synced_sha: 0fb3e3304d7c99687b7eae11a47f21a2951ecf56
     user_starred_at: "2025-02-21T11:46:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -44539,15 +44638,26 @@ repositories:
         published_at: "2025-12-19T07:50:44Z"
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.393Z"
+      prompt_version: v2
   - repo: electron-userland/electron-builder
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - desktop-dev
+    tags:
+      - distribution
+      - packaging
+      - auto-update
+      - electron
+      - lang:ts
     summary: A complete solution to package and build a ready for distribution Electron app with “auto update” support out of the box
     last_synced_sha: 9b1dbb2f56662b2072662ed7432228e1c4437640
     user_starred_at: "2025-02-21T11:37:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44586,15 +44696,25 @@ repositories:
         published_at: "2026-01-19T21:07:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.393Z"
+      prompt_version: v2
   - repo: electron/electron
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - frameworks
+    tags:
+      - cross-platform
+      - desktop-apps
+      - nodejs
+      - lang:cpp
     summary: ':electron: Build cross-platform desktop apps with Java Script, HTML, and CSS'
     last_synced_sha: 0cc15a6386f192691f74a65dcee4a2304a375fc1
     user_starred_at: "2025-02-21T11:36:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -44622,15 +44742,26 @@ repositories:
         published_at: "2026-01-16T02:03:02Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.393Z"
+      prompt_version: v2
   - repo: kkoomen/pointless
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - drawing-canvas
+      - tauri
+      - lang:js
+      - react
+      - cross-platform
     summary: "An endless drawing canvas desktop app made with Tauri (Rust) and React \U0001F3A8 ✍️"
     last_synced_sha: ad0c7d11cd2de61292abc97d205c455a10eb52a3
     user_starred_at: "2025-02-21T11:34:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -44661,15 +44792,26 @@ repositories:
         published_at: "2024-02-11T18:45:10Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.393Z"
+      prompt_version: v2
   - repo: caojianyu/tauri-remote-desktop
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - desktop-dev
+    tags:
+      - remote-desktop
+      - tauri
+      - web-rtc
+      - lang:js
+      - vue
     summary: This is a remote desktop control tool built using Tauri and implemented based on Web RTC. Build a simple server using Rust. Views built using Vue3+Type Script.
     last_synced_sha: 2d939e0d70431cf1e90d0f2d2d6dda58c8342530
     user_starred_at: "2025-02-21T11:33:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics: []
@@ -44686,15 +44828,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.393Z"
+      prompt_version: v2
   - repo: conaticus/FileExplorer
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - file-explorer
+      - tauri
+      - lang:rust
+      - react
     summary: Fast file explorer written with Tauri and React.
     last_synced_sha: 22b69f5a677f23ec96f0578acdcf6ce76a2db60b
     user_starred_at: "2025-02-21T11:31:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -44713,6 +44865,11 @@ repositories:
         published_at: "2023-12-31T14:30:31Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:02.393Z"
+      prompt_version: v2
   - repo: sonnylazuardi/chat-ai-desktop
     categories:
       - desktop-dev
