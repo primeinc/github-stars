@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:51:25.208Z"
+  manifest_updated_at: "2026-01-27T04:51:47.052Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -23576,13 +23576,18 @@ repositories:
       mirror_url: null
   - repo: codebucks27/Next.js-Developer-Portfolio-Starter-Code
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - learning
+    tags:
+      - portfolio
+      - nextjs
+      - tailwind-css
+      - lang:css
     summary: ⭐Build a stunning portfolio website with Next.js, Tailwind CSS and Framer-motion. If you want to learn to create this you can follow the tutorial link given in the Read me file.
     last_synced_sha: eddbb169917377e692b218bdd4ddd9690bc4e2da
     user_starred_at: "2025-09-25T23:29:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics:
@@ -23616,15 +23621,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.052Z"
+      prompt_version: v2
   - repo: CMeeg/nextjs-aca
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - cloud
+    tags:
+      - azure
+      - nextjs
+      - bicep
     summary: An `azd` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights.
     last_synced_sha: 1b5a2cde5da5beab48978d4c14b226602f3818dc
     user_starred_at: "2025-09-25T23:27:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -23647,15 +23661,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.052Z"
+      prompt_version: v2
   - repo: praetorian-inc/noseyparker
     categories:
-      - unclassified
-    tags: []
+      - security
+      - devops
+    tags:
+      - secrets-detection
+      - scanner
+      - devsecops
+      - lang:rust
     summary: Nosey Parker is a command-line tool that finds secrets and sensitive information in textual data and Git history.
     last_synced_sha: ff086aefb7a7ddee8e9b15e579d9dd2d007899ef
     user_starred_at: "2025-09-25T21:30:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -23684,15 +23708,25 @@ repositories:
         published_at: "2025-05-08T21:06:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.052Z"
+      prompt_version: v2
   - repo: cisco/libsrtp
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - srtp
+      - rtp
+      - secure-protocol
+      - lang:c
     summary: Library for SRTP (Secure Realtime Transport Protocol)
     last_synced_sha: 579bee166bb22217b763b199cefa267b62cac2e8
     user_starred_at: "2025-09-24T09:11:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -23714,15 +23748,25 @@ repositories:
         published_at: "2025-03-16T21:58:49Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.052Z"
+      prompt_version: v2
   - repo: Azure-Samples/aoai-realtime-audio-sdk
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+    tags:
+      - azure
+      - gpt-4
+      - realtime
+      - lang:ts
     summary: Azure Open AI code resources for using gpt-4o-realtime capabilities.
     last_synced_sha: aa554aae35477c4dffe9916c56cfff24ea6e9382
     user_starred_at: "2025-09-24T09:11:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -23741,15 +23785,25 @@ repositories:
         published_at: "2025-08-26T19:55:25Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.052Z"
+      prompt_version: v2
   - repo: heroiclabs/nakama
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - web-dev
+    tags:
+      - game-server
+      - realtime-games
+      - backend
+      - lang:go
     summary: Distributed server for social and realtime games and apps.
     last_synced_sha: 61b08dc01b13104fbb421f0ba058e5d57372c5ff
     user_starred_at: "2025-09-24T09:09:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -23781,15 +23835,25 @@ repositories:
         published_at: "2026-01-13T16:08:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.052Z"
+      prompt_version: v2
   - repo: hackmdio/codimd
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - collaboration
+    tags:
+      - markdown
+      - realtime
+      - collaboration
+      - lang:js
     summary: Codi MD - Realtime collaborative markdown notes on all platforms.
     last_synced_sha: b1188a5648a23d970b9ad58612376e6602431f6f
     user_starred_at: "2025-09-24T09:08:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -23814,15 +23878,24 @@ repositories:
         published_at: "2025-10-01T06:57:17Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.052Z"
+      prompt_version: v2
   - repo: novatorem/novatorem
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - spotify
+      - readme
+      - dynamic
     summary: Dynamic realtime profile Read Me linked with spotify
     last_synced_sha: ba8aa92fc8981114442be3bd3e0abdbbd6a6ed0d
     user_starred_at: "2025-09-24T09:07:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jinja
       topics:
@@ -23841,15 +23914,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.052Z"
+      prompt_version: v2
   - repo: supabase/realtime
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - networking
+    tags:
+      - pubsub
+      - realtime
+      - postgres
+      - distributed-systems
     summary: Broadcast, Presence, and Postgres Changes via Web Sockets
     last_synced_sha: 60bfdbddad2230b201d900a28b7d76aad3914d87
     user_starred_at: "2025-09-24T08:49:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Elixir
       topics:
@@ -23879,15 +23962,25 @@ repositories:
         published_at: "2026-01-26T22:56:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.052Z"
+      prompt_version: v2
   - repo: matiasmenares/Nissboard
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - automation
+    tags:
+      - dashboard
+      - car
+      - obd2
+      - lang:js
     summary: "\U0001F697 Nissan Consult/OBDII Realtime Dashboard"
     last_synced_sha: a4ac4e9662f2769d988b919ea6db257a5c64d842
     user_starred_at: "2025-09-24T08:47:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -23915,15 +24008,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.052Z"
+      prompt_version: v2
   - repo: badsyntax/mailinabox-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react
+      - redux
+      - fluent-ui
+      - lang:ts
     summary: Experimental Mail-in-a-Box User Interface built with React, Redux, Type Script & Fluent UI
     last_synced_sha: b49a5241a0957bf4292374b921e35cc22ddd0e57
     user_starred_at: "2025-09-24T08:20:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -23948,15 +24051,25 @@ repositories:
         published_at: "2021-05-22T21:26:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.052Z"
+      prompt_version: v2
   - repo: StudentiUniMi/website
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - webapp
+      - nextjs
+      - react
+      - lang:ts
     summary: Web application built with Next.js 15 and React 19 (TS), designed to provide students of the University of Milan with seamless access to academic groups and university services. The interface is de...
     last_synced_sha: f090514c5605390e270ec6d82552aead1315493d
     user_starred_at: "2025-09-24T08:18:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -23993,15 +24106,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.052Z"
+      prompt_version: v2
   - repo: d2phap/fluent-reveal-effect
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - fluent-ui
+      - css-framework
+      - ui-components
+      - lang:ts
     summary: Fluent Reveal Effect Java Script library for web
     last_synced_sha: 4f477c7ea8af1acc2a6e8776083ffd806639b3f4
     user_starred_at: "2025-09-24T08:16:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -24030,15 +24153,25 @@ repositories:
         published_at: "2025-08-02T08:33:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.052Z"
+      prompt_version: v2
   - repo: gin-gonic/gin
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - http-server
+      - router
+      - performance
+      - lang:go
     summary: Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for ...
     last_synced_sha: d7776de7d444935ea4385999711bd6331a98fecb
     user_starred_at: "2025-09-24T07:03:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -24064,15 +24197,25 @@ repositories:
         published_at: "2025-09-20T11:42:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.052Z"
+      prompt_version: v2
   - repo: rocksdanister/weather
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - weather-app
+      - fluent-ui
+      - directx
+      - lang:csharp
     summary: Windows native weather app powered by Direct X12 animations
     last_synced_sha: 5ce4f44509cfd03bee5c4268bf30aa4391ef45c3
     user_starred_at: "2025-09-24T06:29:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -24111,6 +24254,11 @@ repositories:
         published_at: "2024-12-12T17:19:25Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:47.051Z"
+      prompt_version: v2
   - repo: thesephist/superstat
     categories:
       - productivity
