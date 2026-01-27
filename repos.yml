@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:33:46.484Z"
+  manifest_updated_at: "2026-01-27T04:34:06.771Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -46618,13 +46618,17 @@ repositories:
       mirror_url: null
   - repo: exeldro/obs-media-controls
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - streaming
+    tags:
+      - obs
+      - media-controls
+      - lang:cmake
     summary: No description provided
     last_synced_sha: 27b38cebbdfd19f0d7722fe36835e09c72949259
     user_starred_at: "2025-01-30T07:13:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CMake
       topics: []
@@ -46643,15 +46647,25 @@ repositories:
         published_at: "2025-09-23T20:21:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.771Z"
+      prompt_version: v2
   - repo: martymcmodding/qUINT
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - shader-effects
+      - reshade
+      - visual-effects
+      - lang:hlsl
     summary: Collection of general-purpose effects for the Re Shade shader injector.
     last_synced_sha: 98fed77b26669202027f575a6d8f590426c21ebd
     user_starred_at: "2025-01-30T00:39:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HLSL
       topics: []
@@ -46668,15 +46682,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.771Z"
+      prompt_version: v2
   - repo: Tomas1337/NDI_FaceTrack
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - streaming
+    tags:
+      - ndi
+      - facial-recognition
+      - lang:python
     summary: No description provided
     last_synced_sha: 571678d0aea29f8e691eb9bbba246077579b62f1
     user_starred_at: "2025-01-28T12:50:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -46693,15 +46716,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.771Z"
+      prompt_version: v2
   - repo: p2sr/discord2ip
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - streaming
+    tags:
+      - ndi
+      - discord
+      - voice-channel
+      - rebroadcasting
+      - lang:java
     summary: A Java program that rebroadcasts a Discord Voice Channel over NDI. Used in the ttv/portal2speedruns setup.
     last_synced_sha: e727a4e6acd83a32757b5e85aa67a44106e53436
     user_starred_at: "2025-01-28T12:50:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics: []
@@ -46718,15 +46752,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.771Z"
+      prompt_version: v2
   - repo: moebiussurfing/ofxNDIHelper
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - streaming
+    tags:
+      - openframeworks
+      - di-manager
+      - video-toolkit
+      - lang:cpp
     summary: open Frameworks add-on to fast integrate an NDI Manager with 2x IN + 1x OUT + a Webcam device with a customizable canvas layout.
     last_synced_sha: 2dc53524b047de08eec852357b023dff165a7139
     user_starred_at: "2025-01-28T12:49:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -46747,15 +46791,24 @@ repositories:
         published_at: "2024-02-04T23:33:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.771Z"
+      prompt_version: v2
   - repo: keijiro/Nsmp
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - streaming
+    tags:
+      - teleprompter
+      - ndi
+      - lang:csharp
     summary: Teleprompter via NDI
     last_synced_sha: e0f62f51d821b5470deaced13b29ac91f3d31c51
     user_starred_at: "2025-01-28T12:47:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -46772,15 +46825,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.771Z"
+      prompt_version: v2
   - repo: ualmarcus/Newtek-cURL
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - streaming
+    tags:
+      - ndi
+      - control
+      - curl
     summary: c URL Commands to control Newtek's NDI Studio Monitor on the Windows platform.
     last_synced_sha: 598568c711a27ab0e8e087fdfbc10c032f5fc0ad
     user_starred_at: "2025-01-28T12:47:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -46797,15 +46859,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.771Z"
+      prompt_version: v2
   - repo: vcync/modV
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - streaming
+    tags:
+      - audio-visualizer
+      - webgl
+      - vue
+      - ndi
+      - vjing
     summary: modular audio visualisation powered by Java Script
     last_synced_sha: c606793d54d00f5a56e1121f3593f9585b20623f
     user_starred_at: "2025-01-28T12:46:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: GLSL
       topics:
@@ -46838,15 +46911,25 @@ repositories:
         published_at: "2024-08-02T12:05:20Z"
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.771Z"
+      prompt_version: v2
   - repo: mountaintopsolutions/docker-obs-ndi-ng
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - streaming
+    tags:
+      - obs
+      - ndi
+      - docker
+      - streaming
     summary: Dockerized OBS + NDI plugin Next Generation
     last_synced_sha: 53cadef70232a5c6f902169756e3577fd51b3517
     user_starred_at: "2025-01-28T12:45:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics: []
@@ -46865,15 +46948,25 @@ repositories:
         published_at: "2023-03-21T00:56:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.771Z"
+      prompt_version: v2
   - repo: moschopsuk/ndi-router
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - streaming
+    tags:
+      - ndi
+      - video-routing
+      - blackmagic-design
+      - lang:rust
     summary: NDI router that use the blackmagic videohub protocol
     last_synced_sha: acb981538bc4802a50ec5adaca311bb27110a172
     user_starred_at: "2025-01-28T12:45:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -46895,15 +46988,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.771Z"
+      prompt_version: v2
   - repo: leadedge/SpoutVideoPlayer
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - streaming
+    tags:
+      - spout
+      - video-player
+      - video-output
+      - ndi
+      - lang:cpp
     summary: An Openframeworks video player for Spout and NDI output
     last_synced_sha: c75faea859d5e1b4a6b7252a098fc0105f860cba
     user_starred_at: "2025-01-28T12:43:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -46922,15 +47026,26 @@ repositories:
         published_at: "2024-03-04T03:02:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.771Z"
+      prompt_version: v2
   - repo: pixsper/jit.ndi
     categories:
-      - unclassified
-    tags: []
+      - streaming
+      - desktop-dev
+    tags:
+      - maxmsp
+      - video
+      - streaming-video
+      - streaming-audio
+      - lang:c
     summary: Implementation of New Tek NDI protocol for Cycling 74's Max
     last_synced_sha: 51af739ede6bf218f60360d1b2b5f84908b83aaa
     user_starred_at: "2025-01-28T12:42:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -46954,15 +47069,26 @@ repositories:
         published_at: "2026-01-16T11:16:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.771Z"
+      prompt_version: v2
   - repo: lplassman/NDI-Recorder
     categories:
-      - unclassified
-    tags: []
+      - streaming
+      - embedded
+    tags:
+      - ndi
+      - recording
+      - recorder
+      - raspberry-pi
+      - lang:c
     summary: A recorder for Full NDI streams
     last_synced_sha: 9467432d074cb2153810a9baed876621cdbed0a7
     user_starred_at: "2025-01-28T12:41:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -46986,15 +47112,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.771Z"
+      prompt_version: v2
   - repo: featherbear/ndi-streamer
     categories:
-      - unclassified
-    tags: []
+      - streaming
+      - desktop-dev
+    tags:
+      - ndi
+      - streaming
+      - capture-tool
+      - lang:cpp
     summary: Cross-platform display capture over NDI. Barebones version of Scan Converter made as an alternative to obs-ndi on Linux
     last_synced_sha: 06772678388b6403038759a39b9d3d10a15b3ad5
     user_starred_at: "2025-01-28T12:40:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -47011,15 +47147,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.771Z"
+      prompt_version: v2
   - repo: patrickstigler/docker-obs-ndi
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - streaming
+    tags:
+      - obs
+      - ndi
+      - docker
+      - streaming
     summary: docker container to steam via OBS, NDI, NVENC support
     last_synced_sha: 400fc92a0a6953feef3bee371f5e0c2cd23991e2
     user_starred_at: "2025-01-28T12:40:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics: []
@@ -47036,6 +47182,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:06.770Z"
+      prompt_version: v2
   - repo: gbraad-apps/NDI-Whiteboard
     categories:
       - productivity
