@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:43:29.935Z"
+  manifest_updated_at: "2026-01-27T04:43:51.863Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -34086,13 +34086,19 @@ repositories:
       mirror_url: null
   - repo: Panquesito7/submodules-alternative
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - git
+      - lang:lua
+      - submodules
+      - repositories
+      - action
     summary: An easy-to-use Git modules alternative to make the cloning process easier.
     last_synced_sha: 67d0bc8ffcf0f2f51a39f1acf0cafba2515899fd
     user_starred_at: "2025-07-15T01:31:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics:
@@ -34129,15 +34135,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.863Z"
+      prompt_version: v2
   - repo: muesli/readme-scribe
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - automation
+    tags:
+      - readme-generator
+      - markdown-automation
+      - github-action
+      - hacktoberfest
     summary: A Git Hub Action that automatically generates & updates markdown content (like your README.md)
     last_synced_sha: d2f6ab32d6b9f5b59941fe782d6c7e6499a37fe4
     user_starred_at: "2025-07-15T01:23:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -34157,15 +34173,26 @@ repositories:
         published_at: "2020-07-21T17:48:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.863Z"
+      prompt_version: v2
   - repo: dorny/test-reporter
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - devops
+    tags:
+      - lang:ts
+      - testing
+      - ci-cd
+      - reporting
+      - github-actions
     summary: Displays test results from popular testing frameworks directly in Git Hub
     last_synced_sha: a810f9bf83f2344124a920a7a0a85a6716e791f0
     user_starred_at: "2025-07-15T01:18:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34188,15 +34215,25 @@ repositories:
         published_at: "2026-01-03T13:44:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.863Z"
+      prompt_version: v2
   - repo: actions/labeler
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - lang:ts
+      - github-actions
+      - auto-labeling
+      - pull-requests
     summary: An action for automatically labelling pull requests
     last_synced_sha: 77a4082b841706ac431479b7e2bb11216ffef250
     user_starred_at: "2025-07-15T00:53:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -34215,15 +34252,25 @@ repositories:
         published_at: "2025-09-04T17:56:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.863Z"
+      prompt_version: v2
   - repo: actions/ai-inference
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:ts
+      - ai
+      - github-actions
+      - model-calling
     summary: An action for calling AI models with Git Hub Models
     last_synced_sha: a6101c89c6feaecc585efdd8d461f18bb7896f20
     user_starred_at: "2025-07-15T00:51:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -34242,15 +34289,25 @@ repositories:
         published_at: "2026-01-19T06:29:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.863Z"
+      prompt_version: v2
   - repo: copilot-extensions/gh-debug-cli
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - dev-tools
+    tags:
+      - debugging
+      - lang:go
+      - cli-tool
+      - faster-feedback
     summary: CLI tool that lets you chat with your agent locally for faster feedback and debugging
     last_synced_sha: 8a1d3c7ceadb53074762717cdb9df41776f3ef12
     user_starred_at: "2025-07-15T00:21:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -34273,15 +34330,26 @@ repositories:
         published_at: "2024-11-21T20:26:47Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.863Z"
+      prompt_version: v2
   - repo: astralapp/astral
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - github-stars
+      - organize
+      - tags
+      - lang:php
+      - star-management
     summary: Organize Your Git Hub Stars With Ease
     last_synced_sha: d8f24046235d479a8c2803e2ebdf49f0aba48e27
     user_starred_at: "2025-07-15T00:00:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -34302,15 +34370,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.863Z"
+      prompt_version: v2
   - repo: github/github-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - system-admin
+    tags:
+      - github
+      - lang:go
+      - mcp-server
+      - server-management
     summary: Git Hub's official MCP Server
     last_synced_sha: 51fc176c1bdf9ca40b1e43facda3f528e760de54
     user_starred_at: "2025-07-13T19:28:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -34332,15 +34410,25 @@ repositories:
         published_at: "2026-01-26T15:53:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.863Z"
+      prompt_version: v2
   - repo: Nachman-Libermensh/tanstack-form-playground
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - form-playground
+      - lang:ts
+      - typescript
+      - dev-sandbox
     summary: No description provided
     last_synced_sha: ec2207901c4fd5d90369ff440a03f59b173946c8
     user_starred_at: "2025-07-13T18:34:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -34357,15 +34445,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.863Z"
+      prompt_version: v2
   - repo: rizzui/rizzui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react-component-library
+      - lang:ts
+      - tailwindcss
+      - components
+      - modern-ui
     summary: "\U0001F389 A Modern and Minimal React UI Library built with Tailwind CSS"
     last_synced_sha: 129c5aa23ca30569430dccedef8776ca530a5f30
     user_starred_at: "2025-07-13T18:20:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: MDX
       topics:
@@ -34389,15 +34488,26 @@ repositories:
         published_at: "2026-01-21T03:46:04Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.863Z"
+      prompt_version: v2
   - repo: f/awesome-chatgpt-prompts
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - chatgpt
+      - lang:ts
+      - prompt-engineering
+      - gpt
+      - open-source
     summary: Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
     last_synced_sha: 217720e7844b9424a53fffbfc5f8cef71c2e32e8
     user_starred_at: "2025-07-13T16:12:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34432,15 +34542,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.863Z"
+      prompt_version: v2
   - repo: PanseBossuSmecheru/notes-mcp
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - apis
+    tags:
+      - note-taking
+      - workflow
+      - lang:ts
+      - apple-notes
+      - mcp
     summary: "Notes MCPAn MCP server that connects with your Apple Notes on mac OS. \U0001F4D3 This tool allows you to manage your notes efficiently with simple commands. \U0001F6E0️"
     last_synced_sha: 7c41f75a4d1a3fd010535cb4412fee95e90e5b76
     user_starred_at: "2025-07-13T15:55:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34475,15 +34596,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.863Z"
+      prompt_version: v2
   - repo: mbrlabs/Lorien
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - drawing-app
+      - godot-engine
+      - note-taking
+      - whiteboard
+      - infinite-canvas
     summary: Infinite canvas drawing/whiteboarding app for Windows, Linux and mac OS. Made with Godot.
     last_synced_sha: 17e32227dfce5477292d9f0a55d6cb07d37a2bb1
     user_starred_at: "2025-07-13T15:54:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: GDScript
       topics:
@@ -34509,15 +34641,26 @@ repositories:
         published_at: "2023-11-06T15:27:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.863Z"
+      prompt_version: v2
   - repo: reorproject/reor
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - ai
+      - note-taking
+      - vector-database
+      - lang:js
+      - local-first
     summary: Private & local AI personal knowledge management app for high entropy people.
     last_synced_sha: 9b47fcaf1158cedda1f0160392de25588efe4c31
     user_starred_at: "2025-07-13T15:53:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -34548,15 +34691,26 @@ repositories:
         published_at: "2025-04-05T18:33:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.863Z"
+      prompt_version: v2
   - repo: AppFlowy-IO/AppFlowy
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - wiki
+      - team-collaboration
+      - lang:dart
+      - open-source
+      - flutter
     summary: Bring projects, wikis, and teams together with AI. App Flowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.
     last_synced_sha: bbe886fcdd5295ff49aaeec883181c67ca89ec29
     user_starred_at: "2025-07-13T15:50:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -34587,6 +34741,11 @@ repositories:
         published_at: "2026-01-12T07:51:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:51.862Z"
+      prompt_version: v2
   - repo: ratacat/slurp-ai
     categories:
       - documentation
