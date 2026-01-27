@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:29:07.838Z"
+  manifest_updated_at: "2026-01-27T04:29:28.672Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -52485,13 +52485,19 @@ repositories:
       mirror_url: null
   - repo: git-ecosystem/git-credential-manager
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - git
+      - authentication
+      - lang:csharp
+      - cross-platform
+      - azure-repos
     summary: Secure, cross-platform Git credential storage with authentication to Git Hub, Azure Repos, and other popular Git hosting services.
     last_synced_sha: d31f62ce60c3c473b639b90f3bf3f8c35aad33ab
     user_starred_at: "2024-09-29T22:04:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -52520,15 +52526,24 @@ repositories:
         published_at: "2026-01-14T11:35:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.672Z"
+      prompt_version: v2
   - repo: replicate/setup-cog
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - dev-tools
+    tags:
+      - github-actions
+      - cog
+      - ml-deployment
     summary: A Git Hub Action for installing and using Cog so you can run, test, and push machine learning models
     last_synced_sha: 8a5fea3c1818b6950dcf8027285f5a9b447c0c4a
     user_starred_at: "2024-09-29T21:47:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -52547,15 +52562,24 @@ repositories:
         published_at: "2024-06-17T23:39:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.672Z"
+      prompt_version: v2
   - repo: hkystar35/MDM
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - documentation
+    tags:
+      - mdm
+      - device-management
+      - scripting
     summary: MDM Related code, docs, scripts, snippets, thoughts, and musings.
     last_synced_sha: 26162db0b0210bb36a04540652f5d42bf683efdd
     user_starred_at: "2024-09-17T16:35:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -52572,15 +52596,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.672Z"
+      prompt_version: v2
   - repo: mihir-m-gandhi/Adaptive-Traffic-Signal-Timer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - yolo
+      - object-detection
+      - traffic
+      - lang:python
+      - real-time
     summary: This Adaptive Traffic Signal Timer uses live images from the cameras at traffic junctions for real-time traffic density calculation using YOLO object detection and sets the signal timers accordingly.
     last_synced_sha: 46333cf95ada5e99957a7ed4228ef2dfadc7f827
     user_starred_at: "2024-09-11T22:16:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -52597,15 +52632,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.672Z"
+      prompt_version: v2
   - repo: replicate/cog
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - ai-ml
+    tags:
+      - containers
+      - lang:go
+      - machine-learning
+      - pytorch
+      - docker
     summary: Containers for machine learning
     last_synced_sha: 699b5aee618b949a819b5fecaa0ebd4d40549319
     user_starred_at: "2024-09-10T17:39:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -52632,15 +52678,26 @@ repositories:
         published_at: "2025-11-12T23:00:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.671Z"
+      prompt_version: v2
   - repo: nyrahealth/CrisperWhisper
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - asr
+      - speech-recognition
+      - lang:python
+      - audio-processing
+      - timestamps
     summary: Verbatim Automatic Speech Recognition with improved word-level timestamps and filler detection
     last_synced_sha: 8c8863cc752685ae9159a6bb96b91cf13cad3914
     user_starred_at: "2024-09-10T14:22:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -52669,15 +52726,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.671Z"
+      prompt_version: v2
   - repo: ostris/ai-toolkit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - finetuning
+      - diffusion-models
+      - training
+      - lang:python
     summary: The ultimate training toolkit for finetuning diffusion models
     last_synced_sha: 9ef6f1a82829b29b9978f98b86c1a74ee32cd472
     user_starred_at: "2024-08-24T07:02:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -52694,15 +52761,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.671Z"
+      prompt_version: v2
   - repo: YassKhazzan/openperplex_backend_os
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - ai
+      - lang:python
+      - search-engine
     summary: openperplex is an opensource AI search engine
     last_synced_sha: 5b916472abbb4dfb8e338ff8734dce5532f852c6
     user_starred_at: "2024-08-14T20:09:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -52719,15 +52795,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.671Z"
+      prompt_version: v2
   - repo: katanaml/sparrow
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - machinelearning
+      - llm
+      - computer-vision
+      - lang:python
+      - huggingface
     summary: Structured data extraction and instruction calling with ML, LLM and Vision LLM
     last_synced_sha: 392b112c3e0bb50ab94cafa0e9cd0bbe017aef21
     user_starred_at: "2024-08-14T20:07:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -52754,15 +52841,26 @@ repositories:
         published_at: "2025-09-27T15:20:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.671Z"
+      prompt_version: v2
   - repo: Readarr/Readarr
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - ebook
+      - audiobook
+      - lang:csharp
+      - torrent
+      - file-organization
     summary: Book Manager and Automation (Sonarr for Ebooks)
     last_synced_sha: 0b79d3000d4e5f8425f499970b0190e2c421fceb
     user_starred_at: "2024-08-12T21:47:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -52785,15 +52883,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.671Z"
+      prompt_version: v2
   - repo: aiola-lab/whisper-medusa
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - whisper
+      - lang:python
+      - speech
+      - audio-processing
     summary: Whisper with Medusa heads
     last_synced_sha: 19819c37ab15db6e68826e406614a2c86fbb946e
     user_starred_at: "2024-08-02T15:55:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -52810,15 +52918,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.671Z"
+      prompt_version: v2
   - repo: mem0ai/mem0
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agents
+      - llm
+      - state-management
+      - memory
+      - lang:python
     summary: Universal memory layer for AI Agents
     last_synced_sha: dba7f0458aeb50aa7078d36eaefa2405afbee620
     user_starred_at: "2024-07-31T18:20:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -52851,15 +52970,25 @@ repositories:
         published_at: "2026-01-13T07:39:14Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.671Z"
+      prompt_version: v2
   - repo: abb128/LiveCaptions
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - live-captions
+      - linux
+      - lang:c
+      - accessibility
     summary: Linux Desktop application that provides live captioning
     last_synced_sha: 93734270e69a9d5d8a349075604477681c308dfa
     user_starred_at: "2024-07-31T10:13:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -52878,15 +53007,26 @@ repositories:
         published_at: "2024-06-08T19:17:57Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.671Z"
+      prompt_version: v2
   - repo: mtorials/dial-phone
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - matrix
+      - sdk
+      - lang:kotlin
+      - api
+      - instant-messaging
     summary: Matrix client-server SDK written in Kotlin.
     last_synced_sha: 1f78fed1af1287069fa8c6c585f868cd75e372f9
     user_starred_at: "2024-07-31T10:01:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics:
@@ -52912,15 +53052,26 @@ repositories:
         published_at: "2021-02-08T11:09:57Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.671Z"
+      prompt_version: v2
   - repo: sveltestrap/sveltestrap
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - bootstrap
+      - components
+      - lang:ts
+      - ui
+      - framework:svelte
     summary: Bootstrap 5 components for Svelte 4+
     last_synced_sha: 262c7317f73831a84d238fe181764cc425852325
     user_starred_at: "2024-07-30T17:47:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Svelte
       topics:
@@ -52946,6 +53097,11 @@ repositories:
         published_at: "2025-02-04T15:38:19Z"
       is_mirror: false
       mirror_url: null
+    framework: svelte
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:28.670Z"
+      prompt_version: v2
   - repo: shinokada/markdown-docs-as-pdf
     categories:
       - documentation
