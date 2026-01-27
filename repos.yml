@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T05:04:50.572Z"
+  manifest_updated_at: "2026-01-27T05:05:15.106Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -6572,13 +6572,19 @@ repositories:
       mirror_url: null
   - repo: apache/superset
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - web-dev
+    tags:
+      - lang:ts
+      - data-visualization
+      - business-intelligence
+      - superset
+      - react
     summary: Apache Superset is a Data Visualization and Data Exploration Platform
     last_synced_sha: bd419d19af1d202acd4f576117a7d6d60058fec2
     user_starred_at: "2026-01-09T20:31:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6615,15 +6621,26 @@ repositories:
         published_at: "2025-12-18T18:18:13Z"
       is_mirror: false
       mirror_url: null
+    framework: flask
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: dani-garcia/vaultwarden
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - lang:rust
+      - bitwarden
+      - docker
+      - vaultwarden
+      - password-manager
     summary: Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
     last_synced_sha: cc80f689ed626ac9cfbbaa810601ed02225a9398
     user_starred_at: "2026-01-09T20:31:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -6648,15 +6665,25 @@ repositories:
         published_at: "2026-01-09T18:37:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: j178/prek
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - cli-tools
+    tags:
+      - lang:rust
+      - pre-commit
+      - git-hooks
+      - automation
     summary: ⚡ Better `pre-commit`, re-engineered in Rust
     last_synced_sha: 651a7f29fbb22ad9db83d343accd8609259bf1e4
     user_starred_at: "2026-01-09T20:30:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -6678,15 +6705,25 @@ repositories:
         published_at: "2026-01-22T04:01:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: jdx/mise
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - lang:rust
+      - task-runner
+      - env-vars
+      - tooling
     summary: dev tools, env vars, task runner
     last_synced_sha: 20fcdca4526b0458c319355fdf1dc2d5fd464135
     user_starred_at: "2026-01-09T20:30:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -6705,15 +6742,26 @@ repositories:
         published_at: "2026-01-27T03:57:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: iced-rs/iced
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - lang:rust
+      - gui
+      - widgets
+      - cross-platform
+      - renderer-agnostic
     summary: A cross-platform GUI library for Rust, inspired by Elm
     last_synced_sha: 90037336e80f02b817f2f68a5adf877bdb85639a
     user_starred_at: "2026-01-09T20:29:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -6742,15 +6790,25 @@ repositories:
         published_at: "2025-12-07T20:53:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: epi052/feroxbuster
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cli-tools
+    tags:
+      - lang:rust
+      - content-discovery
+      - pentest
+      - url-bruteforcer
     summary: A fast, simple, recursive content discovery tool written in Rust.
     last_synced_sha: c7ed9c989981f3d64d5c2692d1c52eeb9f88e48c
     user_starred_at: "2026-01-09T20:28:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -6777,15 +6835,25 @@ repositories:
         published_at: "2025-12-13T14:11:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: sinelaw/fresh
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - lang:rust
+      - terminal
+      - text-editor
+      - lightweight
     summary: 'Text editor for your terminal: easy, powerful and fast'
     last_synced_sha: cfac8226bd35e087b8bb067b3b0f2941b7c9f9f4
     user_starred_at: "2026-01-09T20:27:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -6804,15 +6872,25 @@ repositories:
         published_at: "2026-01-26T15:53:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: sharkdp/bat
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - dev-tools
+    tags:
+      - lang:rust
+      - syntax-highlighting
+      - terminal
+      - command-line
     summary: A cat(1) clone with wings.
     last_synced_sha: cd06fe46e001483115273e1a03f448720b945948
     user_starred_at: "2026-01-09T20:27:16Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -6839,15 +6917,26 @@ repositories:
         published_at: "2025-12-02T20:48:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: flashinfer-ai/flashinfer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - infrastructure
+    tags:
+      - lang:python
+      - llm-inference
+      - large-models
+      - pytorch
+      - cuda
     summary: 'Flash Infer: Kernel Library for LLM Serving'
     last_synced_sha: bd0b27b4cc68b2e5ba30178b4b3b781c5ed1ece6
     user_starred_at: "2026-01-09T20:26:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6876,15 +6965,25 @@ repositories:
         published_at: "2026-01-23T21:48:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: HKUDS/RAG-Anything
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:python
+      - multi-modal-rag
+      - retrieval-augmented-generation
+      - rag
     summary: '"RAG-Anything: All-in-One RAG Framework"'
     last_synced_sha: 4bec8f56869755181391ae028d2b6d4293951b07
     user_starred_at: "2026-01-09T20:26:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6905,15 +7004,25 @@ repositories:
         published_at: "2026-01-13T11:55:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: HKUDS/VideoRAG
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:python
+      - multi-modal-llms
+      - video-processing
+      - retrieval-augmented-generation
     summary: '[KDD''2026] "Video RAG: Chat with Your Videos"'
     last_synced_sha: d186992a33910ef06e3bddd4d18c6de8b3cb96db
     user_starred_at: "2026-01-09T20:25:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6936,15 +7045,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: browser-use/browser-use
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:python
+      - browser-automation
+      - ai-tools
+      - playwright
     summary: "\U0001F310 Make websites accessible for AI agents. Automate tasks online with ease."
     last_synced_sha: d17f5e9e713c7b82f5a85fae305842d7f50a6ebc
     user_starred_at: "2026-01-09T20:24:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6970,15 +7089,25 @@ repositories:
         published_at: "2026-01-22T08:38:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: dbt-labs/dbt-core
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - lang:python
+      - elt
+      - data-modeling
+      - business-intelligence
     summary: dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.
     last_synced_sha: a5ff83d7e40f63cc0b13554a258fcb2c2cb13ff2
     user_starred_at: "2026-01-09T20:24:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -7004,15 +7133,25 @@ repositories:
         published_at: "2026-01-20T20:37:09Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: NevaMind-AI/memU
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:python
+      - memory
+      - proactive-ai
+      - agent-memory
     summary: Memory for 24/7 proactive agents like clawdbot.
     last_synced_sha: 16ae534675a5e0711256a5e2147b9190fd8b2524
     user_starred_at: "2026-01-09T20:23:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -7043,15 +7182,25 @@ repositories:
         published_at: "2026-01-14T14:58:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: hotheadhacker/no-as-a-service
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - automation
+    tags:
+      - express
+      - lang:js
+      - json
+      - api
     summary: No-as-a-Service (Naa S) is a simple API that returns a random rejection reason. Use it when you need a realistic excuse, a fun “no,” or want to simulate being turned down in style.
     last_synced_sha: 07eff76a25f7f5e754478caf8653d075de2cb98c
     user_starred_at: "2026-01-09T20:23:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -7071,6 +7220,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:05:15.106Z"
+      prompt_version: v2
   - repo: microsoft/monaco-editor
     categories:
       - dev-tools
