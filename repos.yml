@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:50:41.044Z"
+  manifest_updated_at: "2026-01-27T04:51:00.539Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -24529,13 +24529,17 @@ repositories:
       mirror_url: null
   - repo: QwenLM/Qwen3-ASR-Toolkit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - asr
+      - transcription
+      - lang:python
     summary: Official Python toolkit for the Qwen3-ASR API. Parallel high‑throughput calls, robust long‑audio transcription, multi‑sample‑rate support.
     last_synced_sha: e36f2b36cdc74e97f6a7ffa54a2a8eccbac994f8
     user_starred_at: "2025-09-24T04:29:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -24554,15 +24558,25 @@ repositories:
         published_at: "2025-09-22T10:38:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.539Z"
+      prompt_version: v2
   - repo: cmkap/realtime-dashboard
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - web-dev
+    tags:
+      - real-time
+      - websocket
+      - dashboard
+      - lang:ts
     summary: Web Socket + real-time data visualisation project
     last_synced_sha: 37efb078993bf346c01c81446932cbc9c01e7cce
     user_starred_at: "2025-09-24T01:46:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -24579,15 +24593,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.539Z"
+      prompt_version: v2
   - repo: mmulet/term.everything
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - system-admin
+    tags:
+      - terminal
+      - ssh
+      - lang:go
     summary: Run any GUI app in the terminal❗
     last_synced_sha: def8c93a3db25211be0a37ab8bb44567ac5b7218
     user_starred_at: "2025-09-23T01:27:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -24614,15 +24637,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.539Z"
+      prompt_version: v2
   - repo: leonardoventurini/meteor-devtools-evolved
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - frameworks
+    tags:
+      - meteor
+      - ddp
+      - lang:ts
     summary: The Meteor framework development tool belt, evolved.
     last_synced_sha: e5e4e801b315ee1f787606b0893611d8bd07006f
     user_starred_at: "2025-09-23T00:02:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -24642,15 +24674,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.539Z"
+      prompt_version: v2
   - repo: webhooksite/webhook.site
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - apis
+    tags:
+      - webhooks
+      - http
+      - angular
+      - lang:js
     summary: ⚓️ Easily test HTTP webhooks with this handy tool that displays requests instantly.
     last_synced_sha: eb8e21d8a63c5e1971b33aaa80053c1278d97f0b
     user_starred_at: "2025-09-22T17:13:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -24676,15 +24718,24 @@ repositories:
         published_at: "2023-06-21T12:01:08Z"
       is_mirror: false
       mirror_url: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.539Z"
+      prompt_version: v2
   - repo: midday-ai/zuno
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - erp
+      - api
+      - lang:ts
     summary: A unified API that provides a thin layer over multiple ERP systems.
     last_synced_sha: c809da96b0a8f76ad41a823cb0a968157595e5fb
     user_starred_at: "2025-09-22T17:10:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -24701,15 +24752,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.539Z"
+      prompt_version: v2
   - repo: berty/berty
     categories:
-      - unclassified
-    tags: []
+      - security
+      - mobile-dev
+    tags:
+      - p2p
+      - privacy
+      - messaging
+      - lang:ts
     summary: Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
     last_synced_sha: 279ba5bc4ec724410b7026e5d0e7a907adea90a9
     user_starred_at: "2025-09-22T17:09:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -24747,15 +24808,25 @@ repositories:
         published_at: "2025-12-19T16:29:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.539Z"
+      prompt_version: v2
   - repo: thi-ng/umbrella
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - data-science
+    tags:
+      - functional-programming
+      - reactive-programming
+      - webgl
+      - lang:ts
     summary: ⛱ Broadly scoped ecosystem & mono-repository of 210 Type Script projects (and ~185 examples) for general purpose, functional, data driven development
     last_synced_sha: 0a3a03921dc1872e8a05a4a9f1c27e11e5b7e7e8
     user_starred_at: "2025-09-22T17:07:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -24792,15 +24863,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.539Z"
+      prompt_version: v2
   - repo: midday-ai/v1
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - dev-tools
+    tags:
+      - starter-kit
+      - monorepo
+      - tailwind
+      - turborepo
+      - lang:ts
     summary: An open-source starter kit based on Midday.
     last_synced_sha: 4582a4bb5ae6c953d382747204cf6c2ede49b006
     user_starred_at: "2025-09-22T16:53:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -24822,15 +24904,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.538Z"
+      prompt_version: v2
   - repo: midday-ai/midday
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - freelancers
+      - invoicing
+      - finance
+      - tailwind
+      - lang:ts
     summary: Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers
     last_synced_sha: d3de6cf913942e7b6b8cebce6b77a5a21a0c4289
     user_starred_at: "2025-09-22T16:53:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -24854,15 +24947,24 @@ repositories:
         published_at: "2025-06-26T09:49:56Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.538Z"
+      prompt_version: v2
   - repo: intuit/auto
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - auto-release
+      - releases
+      - lang:ts
     summary: Generate releases based on semantic version labels on pull requests.
     last_synced_sha: e828cd1c30721565ccc07144c39bc7eb55ed0878
     user_starred_at: "2025-09-22T16:15:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -24890,15 +24992,24 @@ repositories:
         published_at: "2025-11-14T21:51:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.538Z"
+      prompt_version: v2
   - repo: FR33THYFR33THY/Ultimate-Windows-Optimization-Guide
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - windows
+      - optimization
+      - powershell
     summary: No description provided
     last_synced_sha: e638185496e737f2f927bef3b07eee2b1f645fa9
     user_starred_at: "2025-09-22T16:06:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -24915,15 +25026,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.538Z"
+      prompt_version: v2
   - repo: mandiant/flare-vm
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - reverse-engineering
+      - malware-analysis
+      - powershell
     summary: A collection of software installations scripts for Windows systems that allows you to easily setup and maintain a reverse engineering environment on a VM.
     last_synced_sha: f1a6d233b70876c0d9dcc1645ef6283884495855
     user_starred_at: "2025-09-22T16:06:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -24945,15 +25065,24 @@ repositories:
         published_at: "2025-08-13T16:58:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.538Z"
+      prompt_version: v2
   - repo: The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - virtual-desktop
+      - performance
+      - powershell
     summary: The script and configuration files in this repository provide an easy method to customize and apply performance related settings to virtual desktop environments.
     last_synced_sha: c93dfb2db35a16584efebb27a626a2f51c503c54
     user_starred_at: "2025-09-22T16:06:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -24972,15 +25101,24 @@ repositories:
         published_at: "2024-06-11T22:19:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.538Z"
+      prompt_version: v2
   - repo: Micke-K/IntuneManagement
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - documentation
+    tags:
+      - intune
+      - powershell-script
+      - endpoint-manager
     summary: Copy, export, import, delete, document and compare policies and profiles in Intune and Azure with Power Shell script and WPF UI. Import ADMX files and registry settings with ADMX ingestion. View an...
     last_synced_sha: faffa95d8ae06c3ea6eb91e0af1706bb90ddc477
     user_starred_at: "2025-09-22T16:05:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -25010,6 +25148,11 @@ repositories:
         published_at: "2025-09-14T04:21:52Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:51:00.538Z"
+      prompt_version: v2
   - repo: microsoft/Microsoft365DSC
     categories:
       - devops
