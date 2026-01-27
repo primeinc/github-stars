@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T05:00:31.955Z"
+  manifest_updated_at: "2026-01-27T05:00:55.517Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -11913,13 +11913,18 @@ repositories:
       mirror_url: null
   - repo: grpc-ecosystem/awesome-grpc
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+    tags:
+      - grpc
+      - protocol-buffers
+      - awesome-list
+      - api-resources
     summary: A curated list of useful resources for g RPC
     last_synced_sha: eaa8bd9d9e3fdaa3328375a5fa9c5e72edf16e7d
     user_starred_at: "2025-12-18T09:53:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -11940,15 +11945,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: mendel5/alternative-front-ends
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - security
+    tags:
+      - alternative-frontends
+      - privacy
+      - awesome-list
+      - frontend
     summary: Overview of alternative open source front-ends for popular internet platforms (e.g. You Tube, Twitter, etc.)
     last_synced_sha: 9b2e0dab2c20632d05b15429d068722bd318a63c
     user_starred_at: "2025-12-18T09:53:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -11983,15 +11998,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: meirwah/awesome-incident-response
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - incident-response
+      - cybersecurity
+      - awesome-list
+      - security-tools
     summary: A curated list of tools for incident response
     last_synced_sha: b1bf9b2546a5b8262b3323e1e90fbbb5b7dadbf3
     user_starred_at: "2025-12-18T09:53:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12016,15 +12041,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: NirantK/awesome-project-ideas
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - machine-learning
+      - datasets
+      - project-ideas
+      - awesome-list
     summary: Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas
     last_synced_sha: 31f6fb0dba79430f220ee9b77e773ed496193be6
     user_starred_at: "2025-12-18T09:53:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12051,15 +12086,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: rothgar/awesome-tmux
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cli-tools
+    tags:
+      - tmux
+      - awesome-list
+      - resources
+      - terminal
     summary: A list of awesome resources for tmux
     last_synced_sha: 0c68b9209997cde386272a0c0d311eb00aa40a03
     user_starred_at: "2025-12-18T09:52:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12079,15 +12124,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: edoardottt/awesome-hacker-search-engines
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - osint
+      - hacking-tools
+      - vulnerabilities
+      - security-tools
+      - awesome-list
     summary: A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more
     last_synced_sha: 4e38f485d9713436250c7e61c5d046adecfe8825
     user_starred_at: "2025-12-18T09:52:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -12124,15 +12180,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: heynickc/awesome-ddd
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - domain-driven-design
+      - resources
+      - awesome-list
+      - architecture
     summary: A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources
     last_synced_sha: ff5ba393ab8e0a0387ec56df958de4d5d5022ccb
     user_starred_at: "2025-12-18T09:50:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12152,15 +12218,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: mfornos/awesome-microservices
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - infrastructure
+    tags:
+      - microservices
+      - architecture
+      - cloud-computing
+      - awesome-list
     summary: A curated list of Microservice Architecture related principles and technologies.
     last_synced_sha: e45b9b7ee4bb8b4e4857575f6f6be403724a1795
     user_starred_at: "2025-12-18T09:49:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12182,15 +12258,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: agarrharr/awesome-cli-apps
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - cli
+      - command-line
+      - awesome-list
+      - resources
     summary: "\U0001F5A5 \U0001F4CA \U0001F579 \U0001F6E0 A curated list of command line apps"
     last_synced_sha: a50370d6ffd9e9bec41d36f007d15fb8738a7b76
     user_starred_at: "2025-12-18T09:49:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -12212,15 +12298,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: birobirobiro/awesome-shadcn-ui
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ui-libraries
+    tags:
+      - shadcn-ui
+      - awesome-list
+      - open-source
+      - ui-resources
+      - lang:ts
     summary: A curated list of awesome things related to shadcn/ui.
     last_synced_sha: 66fe8e76154fc44e4e9a6cc54b8fcd457be84517
     user_starred_at: "2025-12-18T09:49:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -12245,15 +12342,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: goabstract/Awesome-Design-Tools
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - design
+      - design-tools
+      - ui-design
+      - awesome-list
+      - lang:js
     summary: "The best design tools and plugins for everything \U0001F449"
     last_synced_sha: dc60e63c248c44acb42f09fb0c985b77b5fe4bf5
     user_starred_at: "2025-12-18T09:47:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -12278,15 +12386,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: DovAmir/awesome-design-patterns
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - design-patterns
+      - awesome-list
+      - architecture
+      - resources
     summary: A curated list of software and architecture related design patterns.
     last_synced_sha: 9006287f27e720000cc8763ae4cd150789b8571d
     user_starred_at: "2025-12-18T09:47:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12312,15 +12430,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: ClassicOldSong/Apollo
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - networking
+    tags:
+      - gaming
+      - remote-control
+      - streaming
+      - remote-desktop
+      - lang:cpp
     summary: Sunshine fork - The easiest way to stream with the native resolution of your client device
     last_synced_sha: a40b179886856bba1dfe311f430a25b9f3c44390
     user_starred_at: "2025-12-18T09:46:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -12343,15 +12472,26 @@ repositories:
         published_at: "2025-07-13T20:12:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: imputnet/helium
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - security
+    tags:
+      - browser
+      - privacy
+      - web-browser
+      - chromium
+      - lang:cpp
     summary: Private, fast, and honest web browser
     last_synced_sha: 6a97b1949db3d87ccef6f6e567bf9e69b3a0435c
     user_starred_at: "2025-12-18T09:45:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -12374,15 +12514,25 @@ repositories:
         published_at: "2026-01-21T15:19:52Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: MaaXYZ/MaaFramework
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - testing
+    tags:
+      - computer-vision
+      - black-box-testing
+      - automation-framework
+      - lang:cpp
     summary: 基于图像识别的自动化黑盒测试框架 | An automation black-box testing framework based on image recognition
     last_synced_sha: 4311082b5ee727144bd529465e1039b26fcbb2ff
     user_starred_at: "2025-12-18T09:41:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -12403,6 +12553,11 @@ repositories:
         published_at: "2026-01-27T03:12:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:55.517Z"
+      prompt_version: v2
   - repo: Project-OSRM/osrm-backend
     categories:
       - networking
