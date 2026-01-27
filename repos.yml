@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:50:19.349Z"
+  manifest_updated_at: "2026-01-27T04:50:41.044Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -25012,13 +25012,17 @@ repositories:
       mirror_url: null
   - repo: microsoft/Microsoft365DSC
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - system-admin
+    tags:
+      - microsoft365
+      - configuration-as-code
+      - lang:powershell
     summary: Manages, configures, extracts and monitors Microsoft 365 tenant configurations
     last_synced_sha: c223a811b1f52609543413516c5b6ec231697128
     user_starred_at: "2025-09-22T16:04:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -25055,15 +25059,24 @@ repositories:
         published_at: "2026-01-22T13:02:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.044Z"
+      prompt_version: v2
   - repo: hak5/usbrubberducky-payloads
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - payloads
+      - pentesting
+      - usb
     summary: The Official USB Rubber Ducky Payload Repository
     last_synced_sha: 62b6492b7f92cc59bbba6d7b7965b227bf53af7e
     user_starred_at: "2025-09-22T16:04:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -25094,15 +25107,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.044Z"
+      prompt_version: v2
   - repo: KRTirtho/spotube
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - desktop-dev
+    tags:
+      - music-player
+      - flutter
+      - streaming
+      - lang:dart
     summary: "\U0001F3A7 Open source music streaming app! Available for both desktop & mobile!"
     last_synced_sha: 826c8e4dd6996781f1e737cafb5538e220618568
     user_starred_at: "2025-09-22T16:03:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -25134,15 +25157,24 @@ repositories:
         published_at: "2025-11-14T11:10:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.044Z"
+      prompt_version: v2
   - repo: mulaRahul/keyviz
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - visualizer
+      - keystroke
+      - lang:ts
     summary: "Keyviz is a free and open-source tool to visualize your keystrokes ⌨️ and \U0001F5B1️ mouse actions in real-time."
     last_synced_sha: ee7fda15550fd84bae32504ce85d66307bb30e12
     user_starred_at: "2025-09-22T16:03:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -25164,15 +25196,24 @@ repositories:
         published_at: "2026-01-26T08:38:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.044Z"
+      prompt_version: v2
   - repo: upptime/upptime
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - automation
+    tags:
+      - uptime
+      - status-page
+      - lang:json
     summary: ⬆️ Git Hub Actions uptime monitor & status page by @Anand Chowdhary
     last_synced_sha: 79a10a9110a2c143e450a4d9ffd8734987be1ac1
     user_starred_at: "2025-09-22T16:01:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JSON
       topics:
@@ -25197,15 +25238,25 @@ repositories:
         published_at: "2020-10-13T21:00:25Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.044Z"
+      prompt_version: v2
   - repo: Azure-Samples/contoso-chat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+    tags:
+      - azure-ai
+      - rag
+      - azure-services
+      - llmops
     summary: This sample has the full End2End process of creating RAG application with Prompty and Azure AI Foundry. It includes GPT-4 LLM application code, evaluations, deployment automation with AZD CLI, Git ...
     last_synced_sha: 028921fe3209db3216075d34ced6c109de132533
     user_starred_at: "2025-09-22T16:00:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -25235,15 +25286,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.044Z"
+      prompt_version: v2
   - repo: jasontaylordev/CleanArchitecture
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - template
+      - aspnetcore
+      - angular
+      - clean-architecture
     summary: Clean Architecture Solution Template for ASP.NET Core
     last_synced_sha: fae93da273cd1e39cd95357c775414f92c3d6441
     user_starred_at: "2025-09-22T15:59:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -25269,15 +25330,25 @@ repositories:
         published_at: "2025-11-11T17:22:55Z"
       is_mirror: false
       mirror_url: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.044Z"
+      prompt_version: v2
   - repo: sigoden/aichat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cli-tools
+    tags:
+      - llm
+      - ai-agent
+      - chatbot
+      - lang:rust
     summary: All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to Open AI, Claude, Gemini, Ollama, Groq, and more.
     last_synced_sha: 236097b18478fd0714f6f207988a32663ccea155
     user_starred_at: "2025-09-22T15:59:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -25310,15 +25381,24 @@ repositories:
         published_at: "2025-07-06T23:48:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.044Z"
+      prompt_version: v2
   - repo: bigcapitalhq/bigcapital
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - accounting
+      - financial-reporting
+      - lang:ts
     summary: "\U0001F4B5 Bigcapital is financial accounting with intelligent reporting for faster decision-making, an open-source alternative to Quickbooks, Xero, etc."
     last_synced_sha: 0fc5a66e9539315275502e90e2a033c75cdc3fbc
     user_starred_at: "2025-09-22T15:55:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -25345,15 +25425,26 @@ repositories:
         published_at: "2026-01-21T12:16:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.044Z"
+      prompt_version: v2
   - repo: OvidijusParsiunas/deep-chat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - chatbot
+      - ai-chatbot
+      - lang:ts
+      - react
+      - component
     summary: Fully customizable AI chatbot component for your website
     last_synced_sha: d68e9a9f0fe4af536689f30d943c9a23b9fe8044
     user_starred_at: "2025-09-22T15:54:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -25392,15 +25483,24 @@ repositories:
         published_at: "2026-01-07T13:27:50Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.044Z"
+      prompt_version: v2
   - repo: HKUDS/AI-Researcher
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - ai-researcher
+      - scientific-innovation
+      - lang:python
     summary: '[Neur IPS2025] "AI-Researcher: Autonomous Scientific Innovation" -- A production-ready version: https://novix.science/chat'
     last_synced_sha: f9a6f8480860c193afff600eeffe3defcee8a978
     user_starred_at: "2025-09-22T15:53:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -25418,15 +25518,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.044Z"
+      prompt_version: v2
   - repo: leaningtech/webvm
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - virtualization
+    tags:
+      - webassembly
+      - repl
+      - vm
+      - lang:js
     summary: Virtual Machine for the Web
     last_synced_sha: bd63fe7cd60f2ebb73f48f1a6a01ceecdcc2d78e
     user_starred_at: "2025-09-22T15:52:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -25456,15 +25566,24 @@ repositories:
         published_at: "2023-05-16T13:17:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.044Z"
+      prompt_version: v2
   - repo: deskflow/deskflow
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - cli-tools
+    tags:
+      - input-sharing
+      - keyboard
+      - lang:cpp
     summary: Share a single keyboard and mouse between multiple computers.
     last_synced_sha: dbed37e9ba80a6c85b769cbf787e25ab6eb379fb
     user_starred_at: "2025-09-22T15:51:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -25488,15 +25607,24 @@ repositories:
         published_at: "2025-11-21T15:33:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.041Z"
+      prompt_version: v2
   - repo: aseprite/aseprite
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - game-dev
+    tags:
+      - pixel-art
+      - sprite-editor
+      - lang:cpp
     summary: Animated sprite editor & pixel art tool (Windows, mac OS, Linux)
     last_synced_sha: da0d3228599580ec4bc447bab303751a51c09d9a
     user_starred_at: "2025-09-22T15:49:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -25530,15 +25658,24 @@ repositories:
         published_at: "2025-12-10T20:09:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.041Z"
+      prompt_version: v2
   - repo: jellyfin/jellyfin
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - media
+    tags:
+      - media-server
+      - backend
+      - lang:csharp
     summary: The Free Software Media System - Server Backend & API
     last_synced_sha: 360b6bcce1fc3f353ec23fa82ca415c3035b5710
     user_starred_at: "2025-09-22T15:48:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -25561,6 +25698,11 @@ repositories:
         published_at: "2026-01-19T01:03:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:41.040Z"
+      prompt_version: v2
   - repo: Prowlarr/Prowlarr
     categories:
       - devops
