@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:30:11.996Z"
+  manifest_updated_at: "2026-01-27T04:30:35.883Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -51000,13 +51000,19 @@ repositories:
       mirror_url: null
   - repo: Qengineering/Face-Recognition-Jetson-Nano
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - embedded
+    tags:
+      - face-recognition
+      - deep-learning
+      - jetson-nano
+      - lang:cpp
+      - anti-spoofing
     summary: Recognize 2000+ faces on your Jetson Nano with database auto-fill and anti-spoofing
     last_synced_sha: 9ac5b9e3f0980e3f551a2ab4041752b69de0e75c
     user_starred_at: "2025-01-25T15:18:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -51034,15 +51040,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.883Z"
+      prompt_version: v2
   - repo: shahizat/JetsonGPT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - embedded
+    tags:
+      - large-language-model
+      - asr
+      - tts
+      - lang:python
     summary: Using Fast Chat-T5 Large Language Model, Vosk API for automatic speech recognition, and Piper for text-to-speech
     last_synced_sha: 6954fd2b6f986f122514688893d2e8d3b3644b00
     user_starred_at: "2025-01-25T15:15:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -51059,15 +51075,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.883Z"
+      prompt_version: v2
   - repo: dusty-nv/jetson-voice
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - embedded
+    tags:
+      - speech-recognition
+      - nlp
+      - text-to-speech
+      - jetson
+      - lang:python
     summary: ASR/NLP/TTS deep learning inference library for NVIDIA Jetson using Py Torch and Tensor RT
     last_synced_sha: c6a8c9552c7011b31dddef8ed546b02e581f6af6
     user_starred_at: "2025-01-25T15:12:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -51092,15 +51119,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.882Z"
+      prompt_version: v2
   - repo: rbonghi/jetson_stats
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - embedded
+    tags:
+      - jetson
+      - gpu-monitoring
+      - nvidia
+      - lang:python
+      - cpu-monitoring
     summary: "\U0001F4CA Simple package for monitoring and control your NVIDIA Jetson [Orin, Xavier, Nano, TX] series"
     last_synced_sha: ba634f071c9c18965853fea7aaa5ab2293ebae72
     user_starred_at: "2025-01-25T15:10:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -51137,15 +51175,26 @@ repositories:
         published_at: "2024-01-04T15:29:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.882Z"
+      prompt_version: v2
   - repo: ai-dock/onetrainer
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - ai-ml
+    tags:
+      - docker
+      - gpu
+      - model-training
+      - lang:shell
+      - stable-diffusion
     summary: One Trainer docker images for use in GPU cloud and local environments. Includes AI-Dock KDE Plasma desktop with GPU acceleration and audio for authentication and improved user experience.
     last_synced_sha: 89d39c795323ad42a251e13c4ee36ee8adb4d732
     user_starred_at: "2025-01-25T14:56:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -51172,15 +51221,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.882Z"
+      prompt_version: v2
   - repo: Nerogar/OneTrainer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - model-training
+      - fine-tuning
+      - image-model-training
+      - lang:python
     summary: One Trainer is a one-stop solution for all your Diffusion training needs.
     last_synced_sha: 661872c4661df918bf95bf4491d3546c46b7f9e8
     user_starred_at: "2025-01-25T14:53:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -51201,15 +51260,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.882Z"
+      prompt_version: v2
   - repo: dusty-nv/jetson-containers
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - ai-ml
+    tags:
+      - jetson
+      - machine-learning
+      - docker
+      - pytorch
+      - tensorflow
     summary: Machine Learning Containers for NVIDIA Jetson and Jet Pack-L4T
     last_synced_sha: 7292afa8c0ebf2972cadcdf2ca6ffdc9e8485190
     user_starred_at: "2025-01-25T12:10:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -51239,15 +51309,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.882Z"
+      prompt_version: v2
   - repo: VirtualDrivers/Virtual-Display-Driver
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - virtual-displays
+      - windows
+      - display-driver
+      - lang:cpp
     summary: Add virtual monitors to your windows 10/11 device! Works with VR, OBS, Sunshine, and/or any desktop sharing software.
     last_synced_sha: 36b3485ac06b09c5e9089f15e6a719d9e11b7bad
     user_starred_at: "2025-01-19T15:42:05Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C++
@@ -51273,15 +51353,25 @@ repositories:
         published_at: "2025-07-23T15:50:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.882Z"
+      prompt_version: v2
   - repo: paolo-projects/auto-unlocker
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - security
+    tags:
+      - vmware
+      - macos
+      - unlocker
+      - lang:cpp
     summary: Unlocker for VMWare mac OS
     last_synced_sha: ddc03aa4a5609cc59922e760834496c76fe1a700
     user_starred_at: "2025-01-19T08:51:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -51300,15 +51390,25 @@ repositories:
         published_at: "2025-08-29T18:55:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.882Z"
+      prompt_version: v2
   - repo: pqrs-org/Karabiner-Elements
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - keyboard-customization
+      - macos
+      - keyboard
+      - lang:cpp
     summary: Karabiner-Elements is a powerful tool for customizing keyboards on mac OS
     last_synced_sha: a35a45692a8fdc811312050b404cb14602f55c74
     user_starred_at: "2025-01-17T23:26:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -51329,15 +51429,25 @@ repositories:
         published_at: "2026-01-19T00:55:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.882Z"
+      prompt_version: v2
   - repo: SierraSoftworks/tailscale-udm
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - tailscale
+      - unifi
+      - udm
+      - network-security
     summary: Run Tailscale on your Unifi Dream Machine
     last_synced_sha: 91f1c35496fedb2af91b88669934184c4203841e
     user_starred_at: "2025-01-16T11:35:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -51360,15 +51470,26 @@ repositories:
         published_at: "2025-10-25T19:51:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.882Z"
+      prompt_version: v2
   - repo: opethrocks/text-assist
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - openai
+      - sms
+      - mms
+      - telnyx
+      - lang:js
     summary: AI Assistant that can communicate via SMS and MMS. Leverages Open AI and a Telnyx SIP phone number.
     last_synced_sha: 5803b86205294b864260743c7c28a26cfb15354d
     user_starred_at: "2025-01-15T07:09:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -51392,15 +51513,26 @@ repositories:
         published_at: "2024-02-10T13:11:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.882Z"
+      prompt_version: v2
   - repo: 0perationPrivacy/VoIPSuite-Mobile
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - apis
+    tags:
+      - react-native
+      - voip
+      - sms
+      - privacy
+      - lang:js
     summary: Mobile App code for Android & i OS on React Native
     last_synced_sha: 2dce3f6e0fd4f48e0c7d546dabdecbec4e33ee9b
     user_starred_at: "2025-01-15T07:07:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -51426,15 +51558,26 @@ repositories:
         published_at: "2023-12-07T23:24:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.882Z"
+      prompt_version: v2
   - repo: tiniyo/neoms
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - twilio-alternative
+      - voice-api
+      - cpaas
+      - lang:go
+      - telnyx
     summary: Open Source Twilio Alternative
     last_synced_sha: d1b5710b41c17ff77d7d10f29912a3923e7ae6c9
     user_starred_at: "2025-01-15T07:07:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -51461,15 +51604,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.882Z"
+      prompt_version: v2
   - repo: 0perationPrivacy/VoIP
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - voip
+      - sms
+      - privacy
+      - telnyx
+      - lang:js
     summary: Web Base Telnyx/Twilio Vo IP Interface enabling SMS, MMS and Voice calls using the providers API Keys and self-hosting the application.
     last_synced_sha: 89dfb95cab0d8137b0e2e36752ef82ad9b91434e
     user_starred_at: "2025-01-15T07:07:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -51491,6 +51645,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:35.882Z"
+      prompt_version: v2
   - repo: msmhome/miniFaxServer
     categories:
       - infrastructure
