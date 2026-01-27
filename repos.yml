@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T05:01:46.071Z"
+  manifest_updated_at: "2026-01-27T05:02:07.321Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -10521,13 +10521,18 @@ repositories:
       mirror_url: null
   - repo: Zplusdragon/LowLevelBanana
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - low-level-vision
+      - datasets
+      - lang:python
+      - evaluation-report
     summary: '[Technical Report] A Comprehensive Evaluation of Nano Banana Pro on 14 Low-Level Vision Tasks and 40 Datasets'
     last_synced_sha: 21ea8baabb85da1b51927d1ee4553715a7bbe284
     user_starred_at: "2025-12-22T16:41:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -10544,15 +10549,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.321Z"
+      prompt_version: v2
   - repo: badlogic/pi-mono
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+      - cli-tools
+    tags:
+      - ai-agent
+      - cli-tools
+      - lang:ts
+      - llm-api
+      - web-ui
     summary: 'AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, v LLM pods'
     last_synced_sha: 2cc2544809bb860a5d93b3622cd63fdface23656
     user_starred_at: "2025-12-22T16:41:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -10571,15 +10588,26 @@ repositories:
         published_at: "2026-01-26T23:17:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.321Z"
+      prompt_version: v2
   - repo: Azure/ALZ-PowerShell-Module
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - infrastructure
+    tags:
+      - azure
+      - devops
+      - terraform
+      - powershell
+      - cloud-management
     summary: The Azure Landing Zones Accelerators Power Shell module
     last_synced_sha: 28370724abf4c0623099979b1302c566819f70d7
     user_starred_at: "2025-12-22T16:40:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -10606,15 +10634,26 @@ repositories:
         published_at: "2026-01-13T15:01:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.321Z"
+      prompt_version: v2
   - repo: danielmiessler/Personal_AI_Infrastructure
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai
+      - lang:ts
+      - augmentation
+      - human-centric
+      - productivity
     summary: Agentic AI Infrastructure for magnifying HUMAN capabilities.
     last_synced_sha: aca21b4a5db9839342e34927cfa4581640796343
     user_starred_at: "2025-12-22T16:39:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10637,15 +10676,27 @@ repositories:
         published_at: "2026-01-24T05:45:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.321Z"
+      prompt_version: v2
   - repo: lintsinghua/DeepAudit
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+      - dev-tools
+    tags:
+      - vulnerability-scanner
+      - code-auditing
+      - lang:python
+      - ai
+      - llm
     summary: Deep Audit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 Po C 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。
     last_synced_sha: 20799ff9eaf6fa102d791d30aae98349f0fb853e
     user_starred_at: "2025-12-22T16:38:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -10681,15 +10732,26 @@ repositories:
         published_at: "2026-01-24T09:42:49Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.321Z"
+      prompt_version: v2
   - repo: rendercv/rendercv
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - resume-generator
+      - cv-builder
+      - yaml
+      - pdf
+      - lang:python
     summary: CV/resume generator for academics and engineers, YAML to PDF
     last_synced_sha: 5afb8bf8cd2fa648edfb292d4dc4dd8fff6185c5
     user_starred_at: "2025-12-22T16:37:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -10718,15 +10780,26 @@ repositories:
         published_at: "2025-12-23T17:06:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.321Z"
+      prompt_version: v2
   - repo: Semperis/EntraGoat
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - identity-security
+      - microsoft-entra
+      - vulnerabilities
+      - hands-on
+      - powershell
     summary: A deliberately vulnerable Microsoft Entra ID environment. Learn identity security through hands-on, realistic attack challenges.
     last_synced_sha: 945a5d62de35782037579cef8305652f387f31e4
     user_starred_at: "2025-12-22T16:37:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -10743,15 +10816,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.317Z"
+      prompt_version: v2
   - repo: waynesutton/markdown-site
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - markdown
+      - cms
+      - lang:ts
+      - static-site
+      - docs-generation
     summary: An open-source publishing framework built for AI agents and developers to ship websites, docs, or blogs. Write markdown, sync from the terminal. Your content is instantly available to browsers, LLM...
     last_synced_sha: 9681227d1175336144fe9f53cdd429787877169f
     user_starred_at: "2025-12-22T07:27:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10773,15 +10857,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.317Z"
+      prompt_version: v2
   - repo: facebookresearch/detectron2
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - computer-vision
+    tags:
+      - object-detection
+      - segmentation
+      - lang:python
+      - visual-recognition
     summary: Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.
     last_synced_sha: fd27788985af0f4ca800bca563acdb700bb890e2
     user_starred_at: "2025-12-20T20:47:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -10800,15 +10894,25 @@ repositories:
         published_at: "2021-11-15T22:08:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.317Z"
+      prompt_version: v2
   - repo: facebookresearch/SceneAcousticEstimation
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - acoustics
+      - parameter-estimation
+      - lang:python
+      - scene-analysis
     summary: Code, models, and dataset accompanying WASPAA 2025 paper, "Scene-wide Acoustic Parameter Estimation."
     last_synced_sha: dd4230d264bd03be107918acbcb2d018c0b55a7c
     user_starred_at: "2025-12-20T20:42:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -10825,15 +10929,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.317Z"
+      prompt_version: v2
   - repo: facebookresearch/perception_models
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - multimodal
+      - video-processing
+      - language-models
+      - clip
     summary: State-of-the-art Image & Video CLIP, Multimodal Large Language Models, and More!
     last_synced_sha: 3e352cca660658d4b5c90f42a7808b11469e4c66
     user_starred_at: "2025-12-20T20:32:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -10850,15 +10964,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.317Z"
+      prompt_version: v2
   - repo: VisoMasterFusion/VisoMaster-Fusion
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - video-editing
+    tags:
+      - face-swapping
+      - computer-vision
+      - lang:python
+      - video-editor
+      - deepfake
     summary: Powerful & Easy-to-Use Video Face Swapping and Editing Software
     last_synced_sha: 9aa626bd86e4cbb004e5cd6a0379a2687ee1d186
     user_starred_at: "2025-12-20T04:15:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -10885,15 +11010,26 @@ repositories:
         published_at: "2025-11-04T20:55:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.317Z"
+      prompt_version: v2
   - repo: zhiyiYo/PyQt-Frameless-Window
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - pyqt
+      - frameless-window
+      - cross-platform
+      - lang:python
+      - qt
     summary: A cross-platform frameless window based on Py Qt/Py Side, support Win32, Linux and mac OS.
     last_synced_sha: 2dae507d777ac1bf2ef3bcd87d6a5e6ee5fa7f4c
     user_starred_at: "2025-12-18T11:39:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -10924,15 +11060,25 @@ repositories:
         published_at: "2025-05-10T10:20:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.317Z"
+      prompt_version: v2
   - repo: cppqtdev/QT-Home-Automation-Glass-UI
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - qt
+      - qml
+      - home-automation
+      - glass-ui
     summary: Linkedin Page
     last_synced_sha: 35a25b41df8811b2535ac47be4f1678da4f4b63e
     user_starred_at: "2025-12-18T11:35:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: QML
       topics:
@@ -10956,15 +11102,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.317Z"
+      prompt_version: v2
   - repo: NoeFabris/opencode-antigravity-auth
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+      - ai-ml
+    tags:
+      - oauth
+      - google-integration
+      - lang:ts
+      - gemini
+      - claude
     summary: Enable Opencode to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking with your Google...
     last_synced_sha: 0348742b0db21991a3822cea3c779c23a87b19a2
     user_starred_at: "2025-12-18T10:18:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10987,6 +11145,11 @@ repositories:
         published_at: "2026-01-22T20:56:12Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:07.317Z"
+      prompt_version: v2
   - repo: jasonkneen/workflow-builder-template
     categories:
       - automation
