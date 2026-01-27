@@ -6,11 +6,11 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp) | A Kubernetes web UI that is fully-featured, user-friendly and extensible | `TypeScript` ★ 5.5k | 2026-01-25 |
+| [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp) | A Kubernetes web UI that is fully-featured, user-friendly and extensible | `TypeScript` ★ 5.5k | 2026-01-27 |
 | [nrwl/nx-set-shas](https://github.com/nrwl/nx-set-shas) | :sparkles: A Github Action which sets the base and head SHAs required for `nx affected` commands in CI | `TypeScript` ★ 191 | 2025-11-13 |
 | [julianromli/opencode-template](https://github.com/julianromli/opencode-template) | opencode-template | `Shell` ★ 101 | 2026-01-17 |
-| [databasus/databasus](https://github.com/databasus/databasus) | Databases backup tool (Postgre SQL, My SQL, Mongo DB) | `Go` ★ 5.1k | 2026-01-24 |
-| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `Go` ★ 9.8k | 2026-01-26 |
+| [databasus/databasus](https://github.com/databasus/databasus) | Databases backup tool (Postgre SQL, My SQL, Mongo DB) | `Go` ★ 5.2k | 2026-01-24 |
+| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `Go` ★ 9.8k | 2026-01-27 |
 | [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | `Go` ★ 49.4k | 2026-01-17 |
 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | Chat Dev 2.0: Dev All through LLM-powered Multi-Agent Collaboration | `Python` ★ 29k | 2026-01-22 |
 
