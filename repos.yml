@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T05:01:23.792Z"
+  manifest_updated_at: "2026-01-27T05:01:46.071Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -10989,13 +10989,17 @@ repositories:
       mirror_url: null
   - repo: jasonkneen/workflow-builder-template
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - ai-automation
+      - visual-workflow
+      - lang:ts
     summary: Visual AI workflow automation platform
     last_synced_sha: 24fb0fd4524ee10491ea6b73f6df94137ecbf9e1
     user_starred_at: "2025-12-18T10:17:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: TypeScript
@@ -11013,15 +11017,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.071Z"
+      prompt_version: v2
   - repo: google/dotguides
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - guides
+      - lang:ts
+      - dotfiles
     summary: No description provided
     last_synced_sha: 3fafa6bc46f6f7988afa9ca9ae17259ab4e57548
     user_starred_at: "2025-12-18T10:17:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -11038,15 +11051,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.071Z"
+      prompt_version: v2
   - repo: Vasia92LTU/dv-radialmenu
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - css-ui
+      - radial-menu
+      - lua
     summary: Radial Menu css/ui edited and nopixel 4.0 inspired
     last_synced_sha: cb92ac60f1e8924b4cc568782414f41d74b0f266
     user_starred_at: "2025-12-18T10:17:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics: []
@@ -11063,15 +11085,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.071Z"
+      prompt_version: v2
   - repo: GVCLab/PersonaLive
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - image-animation
+      - live-streaming
+      - lang:python
+      - portrait-animation
     summary: 'Persona Live! : Expressive Portrait Image Animation for Live Streaming'
     last_synced_sha: 32f401d2053857b9d822b14cd63e861a16767bf4
     user_starred_at: "2025-12-18T10:15:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11088,15 +11120,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.071Z"
+      prompt_version: v2
   - repo: Aleafy/V-RGBX
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - video-editing
+      - intrinsic-controls
+      - lang:python
     summary: 'V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties'
     last_synced_sha: 4de559b89f3ea469fc4659fc0d4adf47d1b708d3
     user_starred_at: "2025-12-18T10:12:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11113,15 +11154,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.071Z"
+      prompt_version: v2
   - repo: undox-rs/undox
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - static-site-generator
+      - lang:rust
+      - documentation-tools
     summary: ':book: A batteries-included static site generator built for documentation, with first-class support for aggregating content from multiple repositories'
     last_synced_sha: ecc4567cd6cb39bb119e311d29b4a7f411de9fc4
     user_starred_at: "2025-12-18T10:11:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -11143,15 +11193,24 @@ repositories:
         published_at: "2025-12-16T01:45:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.071Z"
+      prompt_version: v2
   - repo: shadcn/license-generator
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - license-generation
+      - lang:js
+      - open-source
     summary: Generates a license for your open source project.
     last_synced_sha: 14bc8f0d3509693ca446c1880f9ab7c0b4fe5727
     user_starred_at: "2025-12-18T10:10:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -11168,15 +11227,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.071Z"
+      prompt_version: v2
   - repo: inclusionAI/TwinFlow
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - self-adversarial
+      - few-step-training
+      - lang:python
+      - flow-models
     summary: "[ICLR 2026] Taming large-scale few-step training with self-adversarial flows! \U0001F44F\U0001F3FB"
     last_synced_sha: 28f7f3eb717a533ff6369be350410312afdeb76b
     user_starred_at: "2025-12-18T10:10:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11193,15 +11262,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.071Z"
+      prompt_version: v2
   - repo: jgm/pandoc
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - markup-converter
+      - publishing
+      - markdown
+      - universal-converter
     summary: Universal markup converter
     last_synced_sha: 675e0c4506a8310f4deffdce41544f3aeadfee7a
     user_starred_at: "2025-12-18T10:09:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Haskell
       topics:
@@ -11229,15 +11308,25 @@ repositories:
         published_at: "2025-12-01T10:30:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.071Z"
+      prompt_version: v2
   - repo: suzuki-shunsuke/ghtkn
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - security
+    tags:
+      - github-tools
+      - lang:go
+      - cli
+      - access-token
     summary: A CLI to create short-lived (8 hours) Git Hub App User Access Token for secure local development
     last_synced_sha: b643840e70a4fcc1e18d57da7fb8ff1f86fdc633
     user_starred_at: "2025-12-18T10:08:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -11260,15 +11349,25 @@ repositories:
         published_at: "2025-12-09T01:23:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.068Z"
+      prompt_version: v2
   - repo: zhu-xlab/GlobalBuildingAtlas
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - building-dataset
+      - 3d-models
+      - lang:python
+      - geodata
     summary: 'Global Building Atlas: an open global and complete dataset of building polygons, heights and Lo D1 3D models'
     last_synced_sha: 13629cc2389b77f058eac5e3423dcbdf635f29fa
     user_starred_at: "2025-12-18T10:04:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11287,15 +11386,25 @@ repositories:
         published_at: "2025-11-06T14:10:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.068Z"
+      prompt_version: v2
   - repo: OpenBMB/VoxCPM
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - speech-synthesis
+      - voice-cloning
+      - lang:python
+      - audio
     summary: 'Vox CPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning'
     last_synced_sha: 7aadc6c94edccc4e951e3d352b3b8f1536d95fb3
     user_starred_at: "2025-12-18T10:03:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -11325,15 +11434,24 @@ repositories:
         published_at: "2025-12-05T14:48:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.068Z"
+      prompt_version: v2
   - repo: sohzm/cheating-daddy
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - dev-tools
+    tags:
+      - game-cheat
+      - tools
+      - lang:js
     summary: a free and opensource app that lets you gain an unfair advantage
     last_synced_sha: ae5ff68bae6b55995cf2e596404b554630c17de5
     user_starred_at: "2025-12-18T10:02:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -11352,15 +11470,25 @@ repositories:
         published_at: "2025-12-12T14:44:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.068Z"
+      prompt_version: v2
   - repo: remoteintech/remote-jobs
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - jobs-search
+      - remote-work
+      - jobseeker
+      - remote-friendly
     summary: A list of semi to fully remote-friendly companies (jobs) in tech.
     last_synced_sha: dfdb995b7212818932a47a45923cf79cf56f1ec5
     user_starred_at: "2025-12-18T10:01:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Nunjucks
       topics:
@@ -11386,15 +11514,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.068Z"
+      prompt_version: v2
   - repo: agentsmd/agents.md
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - open-format
+      - agents
+      - lang:ts
+      - code-tools
     summary: AGENTS.md — a simple, open format for guiding coding agents
     last_synced_sha: efab70c4420be0472c6795a02be0bcf4d5ea0b2b
     user_starred_at: "2025-12-18T10:00:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -11411,6 +11549,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:01:46.068Z"
+      prompt_version: v2
   - repo: bluesky-social/social-app
     categories:
       - web-dev
