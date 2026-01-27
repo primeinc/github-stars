@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T05:06:23.980Z"
+  manifest_updated_at: "2026-01-27T05:06:48.417Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -4537,13 +4537,18 @@ repositories:
       mirror_url: null
   - repo: elm1nst3r/GHOST-osint-crm
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - osint
+      - lang:js
+      - investigation
+      - tracking
     summary: 'GHOST - Global Human Operations & Surveillance Tracking: Open-source investigation management platform for tracking people, connections, and intelligence data. Because Excel spreadsheets are for ac...'
     last_synced_sha: 8914a7c7f70fdaa1e4e2efc43047d43f7835f304
     user_starred_at: "2026-01-27T01:10:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -4565,15 +4570,26 @@ repositories:
         published_at: "2026-01-26T21:16:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: PraaneshSelvaraj/coffee.tmux
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - dev-tools
+    tags:
+      - tmux
+      - lang:python
+      - terminal
+      - cli
+      - tmux-plugins
     summary: ☕ Coffee - Modern tmux Plugin Manager
     last_synced_sha: 62abf5ce04c67e137a24215623a85c76dcce35b9
     user_starred_at: "2026-01-27T01:08:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4597,15 +4613,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: steipete/summarize
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cli-tools
+    tags:
+      - ai
+      - lang:ts
+      - cli
+      - summarization
+      - chrome-extension
     summary: Point at any URL/You Tube/Podcast or file. Get the gist. CLI and Chrome Extension.
     last_synced_sha: a6636fff5dc8d15935993271e39d893482a7d680
     user_starred_at: "2026-01-27T01:03:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4628,15 +4655,26 @@ repositories:
         published_at: "2026-01-22T11:53:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: better-auth/better-auth
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+    tags:
+      - authentication
+      - oauth2
+      - lang:ts
+      - iam
+      - oidc
     summary: The most comprehensive authentication framework for Type Script
     last_synced_sha: 1f65d5bdc5430903988f53cc36bab1a899800871
     user_starred_at: "2026-01-27T00:56:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4663,15 +4701,26 @@ repositories:
         published_at: "2026-01-21T03:29:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: simple-icons/simple-icons
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - design
+    tags:
+      - icons
+      - svg
+      - branding
+      - lang:js
+      - design-assets
     summary: SVG icons for popular brands
     last_synced_sha: 1cf1da6a777940153fd05d3559b2f8cd455bf19d
     user_starred_at: "2026-01-27T00:56:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -4709,15 +4758,26 @@ repositories:
         published_at: "2026-01-25T00:47:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: trycua/cua
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - system-admin
+    tags:
+      - virtualization
+      - lang:python
+      - desktop-automation
+      - ai-agent
+      - containerization
     summary: Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (mac OS, Linux, Windows).
     last_synced_sha: ac0fc1c31797f1e84c19a55f37c7e30de26a5b39
     user_starred_at: "2026-01-27T00:56:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4754,15 +4814,25 @@ repositories:
         published_at: "2026-01-26T09:26:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: HKUDS/ViMax
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-generation
+      - lang:python
+      - ai
+      - aigc
     summary: '"Vi Max: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)"'
     last_synced_sha: c0e0694a397cb9903ead57d46372d377e23042bf
     user_starred_at: "2026-01-27T00:55:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4781,15 +4851,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: business-science/ai-data-science-team
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - generative-ai
+      - data-science
+      - lang:python
+      - machine-learning
+      - agents
     summary: An AI-powered data science team of agents to help you perform common data science tasks 10X faster.
     last_synced_sha: 830cc4d8d222d86170d87d2c796f35f5cc85bddf
     user_starred_at: "2026-01-27T00:55:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4821,15 +4902,26 @@ repositories:
         published_at: "2025-12-20T20:13:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: evolus/pencil
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - prototyping
+      - lang:js
+      - electron
+      - sketching
+      - mockup
     summary: The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use.
     last_synced_sha: b8bef24042e4ec2c1a2c30c20a12db3bf38668ca
     user_starred_at: "2026-01-27T00:54:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -4858,15 +4950,26 @@ repositories:
         published_at: "2023-01-01T03:03:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: clusterzx/paperless-ai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:js
+      - ai
+      - document-analysis
+      - automation
+      - openai
     summary: An automated document analyzer for Paperless-ngx using Open AI API, Ollama, Deepseek-r1, Azure and all Open AI API compatible Services to automatically analyze and tag your documents.
     last_synced_sha: 0eee0c69d5da3b2a4d2fb4e0fdcd71242567e3ba
     user_starred_at: "2026-01-27T00:52:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -4894,15 +4997,26 @@ repositories:
         published_at: "2025-11-04T07:28:45Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: go-vikunja/vikunja
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - task-management
+      - todo
+      - self-hosted
+      - lang:go
+      - vuejs
     summary: The to-do app to organize your life.
     last_synced_sha: 28593e6460e66b78c9bed4e401aa51b93bcfb8f9
     user_starred_at: "2026-01-27T00:50:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -4927,15 +5041,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: cometbft/cometbft
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - infrastructure
+    tags:
+      - consensus
+      - blockchain
+      - lang:go
+      - distributed-systems
+      - byzantine-fault-tolerant
     summary: 'Comet BFT: A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. A fork and successor to Tendermint Core.'
     last_synced_sha: 22a60cc73ccb58fa390d11b977ff04522c2ffa0e
     user_starred_at: "2026-01-27T00:49:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -4961,15 +5086,26 @@ repositories:
         published_at: "2026-01-23T15:06:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: navidrome/navidrome
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - streaming-api
+      - music-server
+      - self-hosted
+      - streaming
+      - lang:go
     summary: "\U0001F3A7☁️ Your Personal Streaming Service"
     last_synced_sha: 63517e904cc8816c2b3005fa213b5e2456d2c1a9
     user_starred_at: "2026-01-27T00:47:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5002,15 +5138,26 @@ repositories:
         published_at: "2025-12-06T18:08:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: File-New-Project/EarTrumpet
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - audio
+      - lang:csharp
+      - windows
+      - volume-control
+      - wpf
     summary: Ear Trumpet - Volume Control for Windows
     last_synced_sha: ae5c5fb9fc1ce3cc44782a786e641f988e974eec
     user_starred_at: "2026-01-27T00:45:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -5036,15 +5183,26 @@ repositories:
         published_at: "2016-06-23T08:22:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: TheJoeFin/Text-Grab
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - ocr
+      - windows
+      - lang:csharp
+      - dotnet
+      - wpf
     summary: Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications.
     last_synced_sha: a2b7bb02db26def0df7cbb76112494486602c696
     user_starred_at: "2026-01-27T00:44:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -5071,6 +5229,11 @@ repositories:
         published_at: "2025-12-19T05:45:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:06:48.417Z"
+      prompt_version: v2
   - repo: jely2002/youtube-dl-gui
     categories:
       - desktop-dev
