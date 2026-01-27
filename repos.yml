@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T05:03:41.154Z"
+  manifest_updated_at: "2026-01-27T05:04:01.860Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -8061,13 +8061,17 @@ repositories:
       mirror_url: null
   - repo: leonvanzyl/autocoder
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - auto-coding
+      - ai
+      - lang:python
     summary: No description provided
     last_synced_sha: 910ca34eacf6bbcba9c539628ce51af80ee8e3e5
     user_starred_at: "2026-01-09T13:01:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -8084,15 +8088,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: jamichss/Stream-DiffVSR
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-super-resolution
+      - diffusion
+      - low-latency
+      - lang:python
     summary: 'The official repository of paper "Stream-Diff VSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion"'
     last_synced_sha: 9d148ee97dfad0c26c4e5fa3368ab39b4feb9bc2
     user_starred_at: "2026-01-07T13:17:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -8109,15 +8123,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: IIEleven11/ComfyUI-Dataset_Maker
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - dataset-creation
+      - automation
+      - lang:python
     summary: No description provided
     last_synced_sha: f7fc133ed97fdcaea485382fe23946d8bef2cd37
     user_starred_at: "2026-01-05T22:08:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -8134,15 +8157,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: kasperjunge/agent-resources
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - agent-skills
+      - package-manager
+      - claude-code
+      - lang:python
     summary: A package and project manager for Claude Code. Install agent skills from Git Hub with a single command.
     last_synced_sha: 9994413c1acbe487d0e20f7a11e27d37eb73981f
     user_starred_at: "2026-01-05T18:01:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8164,15 +8197,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: davidfowl/tally
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - bank-transactions
+      - classification
+      - agents
+      - lang:python
     summary: Let agents classify your bank transactions.
     last_synced_sha: 76ebf0102dd235a219da77f9179bd6d0d69ad437
     user_starred_at: "2026-01-05T17:59:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -8191,15 +8234,24 @@ repositories:
         published_at: "2026-01-17T03:53:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: cocos/cocos-cli
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - game-dev
+    tags:
+      - cocos
+      - command-line
+      - lang:ts
     summary: COCOS CLI
     last_synced_sha: a85d44f893dba6ccb59c98ba4543b167c03beba6
     user_starred_at: "2026-01-05T17:58:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -8218,15 +8270,25 @@ repositories:
         published_at: "2025-12-30T12:01:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: ArtemXTech/claude-code-obsidian-starter
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - obsidian
+      - claude-code
+      - ai
+      - lang:typst
     summary: 'Free starter kit: Claude Code + Obsidian. Pre-configured vault with skills for projects, tasks, clients, and daily routines. Just open and go.'
     last_synced_sha: 0b32bb3b3738c1b6eafad8a2425d94791be99915
     user_starred_at: "2026-01-05T17:56:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Typst
       topics:
@@ -8248,15 +8310,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: code-yeongyu/agent-engineering-guide
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - agents
+      - project-guide
     summary: Aren't you curious how i made Sisyphus? And what could be more?
     last_synced_sha: "0000000000000000000000000000000000000000"
     user_starred_at: "2026-01-05T17:55:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -8273,15 +8343,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: kamranahmedse/claude-run
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - web-ui
+      - claude-code
+      - lang:ts
     summary: A beautiful web UI for browsing Claude Code conversation history.
     last_synced_sha: dddb1335a12d6e96608f8f0bfd0b35eceda4969b
     user_starred_at: "2026-01-05T17:52:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -8298,15 +8377,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: TRaSH-Guides/Guides
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - guides
+      - media-management
+      - plex
+      - radarr
     summary: TRa SH-Guides is a comprehensive collection of guides for Radarr, Sonarr, and related media management applications.
     last_synced_sha: 7414d1edbfece6fd60209c99bb9d254e505859e4
     user_starred_at: "2026-01-05T17:52:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Markdown
       topics:
@@ -8339,15 +8428,24 @@ repositories:
         published_at: "2022-07-31T08:20:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: kaifcodec/Telespot
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - osint
+      - telephone-lookup
+      - lang:python
     summary: Tele Spot OSINT lookup from Telephone number using DDGR + BING + GOOGLE and pattern recognition correlations.
     last_synced_sha: 78457ec195dd71ff25837178e9eb14972ee86bcf
     user_starred_at: "2026-01-05T17:49:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -8365,15 +8463,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: sherlock-project/sherlock
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cli-tools
+    tags:
+      - osint
+      - cybersecurity
+      - information-gathering
+      - lang:python
     summary: Hunt down social media accounts by username across social networks
     last_synced_sha: 725c68907a73af240a4c3a534389f7bf231f7736
     user_starred_at: "2026-01-05T17:45:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8408,15 +8516,25 @@ repositories:
         published_at: "2025-09-16T02:37:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: louislam/uptime-kuma
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - web-dev
+    tags:
+      - uptime-monitoring
+      - self-hosted
+      - single-page-app
+      - lang:js
     summary: A fancy self-hosted monitoring tool
     last_synced_sha: f5578da0276e82ef4aeea67b7affec75f8236045
     user_starred_at: "2026-01-05T17:45:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -8447,15 +8565,25 @@ repositories:
         published_at: "2025-10-22T17:03:54Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: OpenSignLabs/OpenSign
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - digital-signature
+      - document-signing
+      - react
+      - lang:js
     summary: "\U0001F525 The free & Open Source Docu Sign alternative"
     last_synced_sha: cd2904b9f0baa3f75eac7b04f7b849c8fb93f7e3
     user_starred_at: "2026-01-05T17:44:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -8494,15 +8622,24 @@ repositories:
         published_at: "2026-01-07T09:45:52Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: henrygd/beszel
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+    tags:
+      - server-monitoring
+      - docker-stats
+      - lang:go
     summary: Lightweight server monitoring hub with historical data, docker stats, and alerts.
     last_synced_sha: afcae025ae4eb8c2f60126b8011810c8f22da3fc
     user_starred_at: "2026-01-05T17:43:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -8524,6 +8661,11 @@ repositories:
         published_at: "2026-01-12T23:58:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:01.860Z"
+      prompt_version: v2
   - repo: TwiN/gatus
     categories:
       - monitoring
