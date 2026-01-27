@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:36:22.578Z"
+  manifest_updated_at: "2026-01-27T04:36:45.237Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -43333,13 +43333,18 @@ repositories:
       mirror_url: null
   - repo: GOVCERT-LU/GCNotify
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - outlook
+      - e-mail
+      - addin
+      - vba
     summary: GCNotify is an Outlook addin for quickly forwarding mail as attachment to a pre-defined e-mail address.
     last_synced_sha: a0d4dafee4b546bb6ccf57f681e288c5a91bbfa0
     user_starred_at: "2025-03-01T23:04:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Visual Basic .NET
       topics:
@@ -43362,15 +43367,25 @@ repositories:
         published_at: "2019-06-14T13:05:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.237Z"
+      prompt_version: v2
   - repo: tonyfederer/OutlookFileDrag
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - outlook
+      - drag-and-drop
+      - addin
+      - lang:csharp
     summary: Drag and drop Outlook items as files into any application
     last_synced_sha: b9197a6baa5be94da82dfacbd1412217f1d80aa5
     user_starred_at: "2025-03-01T23:04:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -43391,15 +43406,24 @@ repositories:
         published_at: "2020-01-29T01:29:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.237Z"
+      prompt_version: v2
   - repo: OfficeDev/office-js
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - office
+      - javascript-api
+      - lang:js
     summary: 'A repository for issues related to the Office Java Script APIs and Office Add-ins platform. Find the Office.js library in Office.js CDN: https://appsforoffice.microsoft.com/lib/1/hosted/office.js.'
     last_synced_sha: cafb12a20c8f27c82ccda7a794e1fefd2958d076
     user_starred_at: "2025-02-28T22:30:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -43418,15 +43442,25 @@ repositories:
         published_at: "2018-09-20T23:18:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.237Z"
+      prompt_version: v2
   - repo: Schniz/fnm
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cli-tools
+    tags:
+      - nodejs
+      - version-manager
+      - rust
+      - lang:rust
     summary: "\U0001F680 Fast and simple Node.js version manager, built in Rust"
     last_synced_sha: 1ebc90decf58c2176dcbd4f8ac00ecb3adb1de12
     user_starred_at: "2025-02-28T22:25:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -43451,15 +43485,27 @@ repositories:
         published_at: "2024-11-17T10:15:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.237Z"
+      prompt_version: v2
   - repo: OlivierCC/spfx-40-fantastics
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - spfx
+      - webparts
+      - sharepoint-framework
+      - charts
+      - carousels
+      - lang:ts
     summary: This package is a sample kit of Client Side Web Parts built on the Share Point Framework SPFx. You can find here different kind of high visual web parts as carousel, images galleries, animations, m...
     last_synced_sha: e16bbc4c222dbc1d800c62b4fad1d01edb3b034a
     user_starred_at: "2025-02-28T22:10:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43487,15 +43533,26 @@ repositories:
         published_at: "2017-06-16T12:09:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.237Z"
+      prompt_version: v2
   - repo: spblog/outlook-spfx-ms-graph-api
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+      - cloud
+    tags:
+      - spfx
+      - ms-graph-api
+      - sharepoint
+      - lang:ts
     summary: Building Outlook add-in with SPFx - save mail to One Drive with Azure Function, MSAL.NET and MS Graph .NET
     last_synced_sha: 30925ebb9457700be9c15c6d47338b4885cdaa5c
     user_starred_at: "2025-02-28T22:10:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43518,15 +43575,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.236Z"
+      prompt_version: v2
   - repo: Azure/azure-storage-azcopy
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - dev-tools
+      - automation
+    tags:
+      - azure
+      - storage
+      - data-transfer
+      - lang:go
     summary: The new Azure Storage data transfer utility - Az Copy v10
     last_synced_sha: 2c4e14a8e97c82b64088ee6d496b01f6a159a9b6
     user_starred_at: "2025-02-28T21:49:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -43545,15 +43613,25 @@ repositories:
         published_at: "2026-01-06T21:49:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.236Z"
+      prompt_version: v2
   - repo: PowerShell/AIShell
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - interactive-shell
+      - ai-powered
+      - assistants
+      - lang:csharp
     summary: An interactive shell to work with AI-powered assistance providers
     last_synced_sha: 06a481e93da070ce381c0ccc673b9416a9c45e6d
     user_starred_at: "2025-02-28T20:38:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -43570,15 +43648,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.236Z"
+      prompt_version: v2
   - repo: adbertram/Random-PowerShell-Work
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cli-tools
+    tags:
+      - powershell
+      - scripts
     summary: Random Power Shell Work
     last_synced_sha: 62f5fa64294e9bdbb937a5d0211bde3209df5528
     user_starred_at: "2025-02-28T17:45:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -43595,15 +43681,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.236Z"
+      prompt_version: v2
   - repo: samwit/llm-tutorials
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - llm
+      - tutorials
+      - lang:python
+      - jupyter
     summary: A set of LLM Tutorials from my youtube channel
     last_synced_sha: efc93116fe9519ed06383cd9311012b2b2fb7c7f
     user_starred_at: "2025-02-28T16:54:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -43620,15 +43716,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.236Z"
+      prompt_version: v2
   - repo: team-telnyx/demo-dotnet-telnyx
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - apis
+    tags:
+      - dotnet
+      - examples
+      - lang:csharp
     summary: Dotnet Core Examples & Learning
     last_synced_sha: 1104848df241523f5184efd2fa8e2185b2137f7d
     user_starred_at: "2025-02-26T20:46:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -43645,15 +43750,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.236Z"
+      prompt_version: v2
   - repo: team-telnyx/openapi
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+    tags:
+      - openapi
+      - telnyx
     summary: Open API specification for the Telnyx API
     last_synced_sha: 821130cba6d65e0d0dfa91aee9ac15fcfa7630c0
     user_starred_at: "2025-02-26T19:42:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -43670,15 +43783,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.236Z"
+      prompt_version: v2
   - repo: fastenhealth/fasten-onprem
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - infrastructure
+      - devops
+    tags:
+      - healthcare
+      - emr
+      - electronic-medical-record
+      - lang:go
     summary: Fasten is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 100,000's of insurances/hospitals/clinics
     last_synced_sha: 503f2b7cccf8f7c6f98541f779be2393f8555340
     user_starred_at: "2025-02-26T17:22:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -43703,15 +43827,27 @@ repositories:
         published_at: "2024-10-01T01:41:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.236Z"
+      prompt_version: v2
   - repo: FreeTubeApp/FreeTube
     categories:
-      - unclassified
-    tags: []
+      - privacy
+      - desktop-dev
+      - productivity
+    tags:
+      - video
+      - youtube
+      - privacy
+      - freetube
+      - lang:js
     summary: An Open Source You Tube app for privacy
     last_synced_sha: 16cf10cc7a4b24897102c188ccefc65a8f2f56b9
     user_starred_at: "2025-02-26T09:04:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -43734,15 +43870,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.236Z"
+      prompt_version: v2
   - repo: Azure/azure-functions-openapi-extension
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cloud
+      - dev-tools
+    tags:
+      - azure-functions
+      - openapi
+      - swagger-ui
+      - lang:csharp
     summary: This extension provides an Azure Functions app with Open API capability for better discoverability to consuming parties
     last_synced_sha: a6cfca48769717499b6594689a4fb2d93be97420
     user_starred_at: "2025-02-25T13:47:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -43767,6 +43914,11 @@ repositories:
         published_at: "2025-10-03T22:41:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:36:45.236Z"
+      prompt_version: v2
   - repo: ironmansoftware/powershell-pro-tools
     categories:
       - dev-tools
