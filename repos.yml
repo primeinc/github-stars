@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T05:03:18.662Z"
+  manifest_updated_at: "2026-01-27T05:03:41.154Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -8526,13 +8526,19 @@ repositories:
       mirror_url: null
   - repo: TwiN/gatus
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - devops
+    tags:
+      - status-page
+      - alerting
+      - uptime-monitoring
+      - self-hosted
+      - lang:go
     summary: Automated developer-oriented status page with alerting and incident support
     last_synced_sha: 786af2dee4a38dff815901c56b9e87eddc20aa7c
     user_starred_at: "2026-01-05T17:43:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -8571,15 +8577,25 @@ repositories:
         published_at: "2026-01-03T03:12:12Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: duplicati/duplicati
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - backup
+      - encryption
+      - cloud-backup
+      - lang:csharp
     summary: Store securely encrypted backups in the cloud!
     last_synced_sha: fa67050a9a99b14de8c259b325b23caeb31e24e9
     user_starred_at: "2026-01-05T17:41:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -8609,15 +8625,26 @@ repositories:
         published_at: "2026-01-06T12:05:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: tixl3d/tixl
     categories:
-      - unclassified
-    tags: []
+      - design
+      - desktop-dev
+    tags:
+      - motion-graphics
+      - animation
+      - realtime-rendering
+      - directx
+      - lang:csharp
     summary: Ti XL is an open source software to create realtime motion graphics.
     last_synced_sha: 371ccaea02f7fcc5da36d9e84febdd3df75689b1
     user_starred_at: "2026-01-05T17:40:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -8644,15 +8671,26 @@ repositories:
         published_at: "2025-08-30T19:29:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: bytedance/Dolphin
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - document-analysis
+      - ocr
+      - pdf-parser
+      - layout-analysis
+      - lang:python
     summary: 'The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025.'
     last_synced_sha: fcbf0334a9eaea4265f9b8d5c952198fb6bdb915
     user_starred_at: "2026-01-05T17:37:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8678,15 +8716,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: kornia/kornia
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - computer-vision
+      - deep-learning
+      - image-processing
+      - pytorch
+      - lang:python
     summary: "\U0001F40D Geometric Computer Vision Library for Spatial AI"
     last_synced_sha: d27a9b7ed5e28a33c4572cfd0c86d888303594fe
     user_starred_at: "2026-01-05T17:36:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8716,15 +8765,26 @@ repositories:
         published_at: "2025-11-08T12:07:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: subframe7536/maple-font
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - font
+      - coding-font
+      - monospace
+      - typography
+      - lang:python
     summary: 'Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项'
     last_synced_sha: 9b354e17b3246e53bfde3ab7443029466a48f13d
     user_starred_at: "2026-01-05T17:35:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8754,15 +8814,25 @@ repositories:
         published_at: "2025-12-05T12:40:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: v2ray/v2ray-core
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - proxy
+      - http-proxy
+      - vpn
+      - lang:go
     summary: A platform for building proxies to bypass network restrictions.
     last_synced_sha: d80440f3d57b45c829dbf513306f7adf9a0f3f76
     user_starred_at: "2026-01-05T17:34:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -8789,15 +8859,26 @@ repositories:
         published_at: "2020-10-10T16:50:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: 5rahim/seanime
     categories:
-      - unclassified
-    tags: []
+      - media
+      - web-dev
+    tags:
+      - media-server
+      - anime
+      - manga
+      - self-hosted
+      - lang:go
     summary: Open-source media server with a web interface and desktop app for anime and manga.
     last_synced_sha: 9b2879e604706c398327d8e70cc9d2bd1e0b190d
     user_starred_at: "2026-01-05T17:34:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -8831,15 +8912,25 @@ repositories:
         published_at: "2026-01-18T14:51:34Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: grpc/grpc
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - grpc
+      - rpc
+      - protocol
+      - lang:cpp
     summary: C++ based g RPC (C++, Python, Ruby, Objective-C, PHP, C#)
     last_synced_sha: f06c045d3d3e8e383e3988560340f0d07e6c877c
     user_starred_at: "2026-01-05T17:33:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -8858,15 +8949,25 @@ repositories:
         published_at: "2025-10-20T17:34:57Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: LadybirdBrowser/ladybird
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - desktop-dev
+    tags:
+      - browser
+      - independent-browser
+      - browser-engine
+      - lang:cpp
     summary: Truly independent web browser
     last_synced_sha: baf45654b4575977dfcb9ea822d1cf3d09ba5946
     user_starred_at: "2026-01-05T17:33:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -8885,15 +8986,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: AlexandreRouma/SDRPlusPlus
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - desktop-dev
+    tags:
+      - sdr
+      - cross-platform
+      - software-defined-radio
+      - lang:cpp
     summary: Cross-Platform SDR Software
     last_synced_sha: 65a0e11d3d0c2a6484988fe0a5855eee036f743a
     user_starred_at: "2026-01-05T17:32:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -8914,15 +9025,25 @@ repositories:
         published_at: "2022-11-22T07:27:11Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: maplibre/maplibre-gl-js
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - vector-maps
+      - webgl
+      - typescript
+      - lang:ts
     summary: Map Libre GL JS - Interactive vector tile maps in the browser
     last_synced_sha: 5a57f94d0d4faaf33947f0215182dc2272a78f10
     user_starred_at: "2026-01-05T17:32:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8947,15 +9068,25 @@ repositories:
         published_at: "2026-01-12T10:01:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: Unity-Technologies/ml-agents
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ai-ml
+    tags:
+      - unity
+      - machine-learning
+      - reinforcement-learning
+      - lang:csharp
     summary: The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement ...
     last_synced_sha: acb30786a728cbe7e6165e0f6bd81b0f30107340
     user_starred_at: "2026-01-05T17:31:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -8981,15 +9112,25 @@ repositories:
         published_at: "2025-09-02T16:19:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: mourad-ghafiri/youtube-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - transcription
+      - metadata
+      - youtube
+      - lang:python
     summary: A powerful Model Context Protocol (MCP) server for You Tube video transcription and metadata extraction.
     last_synced_sha: 0b1b40538faeeb8762e431f23f03eeb78a25c743
     user_starred_at: "2026-01-04T20:11:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -9006,15 +9147,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: lcqysl/DiffThinker
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - generative
+      - multimodal
+      - reasoning
+      - lang:python
     summary: 'Diff Thinker: Towards Generative Multimodal Reasoning with Diffusion Models'
     last_synced_sha: b585703f461881592683451e3f976afa8efce5a1
     user_starred_at: "2026-01-04T20:05:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -9034,6 +9185,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:03:41.154Z"
+      prompt_version: v2
   - repo: riccardoruspoli/reko
     categories:
       - ai-ml
