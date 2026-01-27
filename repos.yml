@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:35:16.294Z"
+  manifest_updated_at: "2026-01-27T04:35:38.529Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -44715,13 +44715,17 @@ repositories:
       mirror_url: null
   - repo: sonnylazuardi/chat-ai-desktop
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ai-ml
+    tags:
+      - chatgpt
+      - tauri
+      - lang:rust
     summary: Unofficial Chat GPT desktop app for Mac & Windows menubar using Tauri & Rust
     last_synced_sha: 4e800626c4e64d33bcf7031a8265b95cb4590905
     user_starred_at: "2025-02-21T11:31:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -44754,15 +44758,23 @@ repositories:
         published_at: "2023-03-20T02:13:27Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.529Z"
+      prompt_version: v2
   - repo: tauri-apps/awesome-tauri
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - desktop-dev
+    tags:
+      - awesome-list
+      - tauri
     summary: "\U0001F680 Awesome Tauri Apps, Plugins and Resources"
     last_synced_sha: 6abdb387d14bdd84241c5134982d60f3fab1b508
     user_starred_at: "2025-02-21T11:19:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -44782,15 +44794,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.529Z"
+      prompt_version: v2
   - repo: MatsDK/TauRPC
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - embedded
+    tags:
+      - ipc
+      - tauri
+      - lang:rust
     summary: Typesafe IPC layer for Tauri applications
     last_synced_sha: 09a54f913c7d516dedf43a536b743f6859298741
     user_starred_at: "2025-02-21T11:14:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -44811,15 +44832,24 @@ repositories:
         published_at: "2025-04-27T22:47:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.529Z"
+      prompt_version: v2
   - repo: microsoftgraph/microsoft-graph-toolkit
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - apis
+    tags:
+      - microsoft-graph
+      - mgt-react
+      - lang:ts
     summary: "Authentication Providers and UI components for Microsoft Graph \U0001F992"
     last_synced_sha: 6120d87a5e161a5f8dce32e4b64a8cff4520c820
     user_starred_at: "2025-02-21T10:48:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44854,15 +44884,24 @@ repositories:
         published_at: "2025-04-17T09:56:24Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.529Z"
+      prompt_version: v2
   - repo: palakz-simform/MSAL-Nuxt3
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - security
+    tags:
+      - msal
+      - nuxt
+      - lang:js
     summary: No description provided
     last_synced_sha: df15a188a2e30b150cbbe2ce746e448e8c668056
     user_starred_at: "2025-02-21T10:03:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -44879,15 +44918,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.529Z"
+      prompt_version: v2
   - repo: JonasKruckenberg/tauri-docs-wip
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - desktop-dev
+    tags:
+      - tauri
+      - lang:js
     summary: No description provided
     last_synced_sha: eaa6a97381199c3e8f25def40d4ba21d946a8e74
     user_starred_at: "2025-02-18T09:10:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -44904,15 +44951,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.529Z"
+      prompt_version: v2
   - repo: JonasKruckenberg/k23
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - infrastructure
+    tags:
+      - microkernel
+      - wasm
+      - lang:rust
     summary: Experimental WASM Microkernel Operating System
     last_synced_sha: bfdd952b92c3f9a9726b07b482392e6f6c509800
     user_starred_at: "2025-02-18T09:05:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -44935,15 +44991,24 @@ repositories:
         published_at: "2025-07-11T09:25:29Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.529Z"
+      prompt_version: v2
   - repo: tauri-apps/plugins-workspace
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - frameworks
+    tags:
+      - tauri
+      - plugins
+      - lang:rust
     summary: All of the official Tauri plugins in one place!
     last_synced_sha: d4613ff0029ea65f5c6895c3a6f8f5668dd1b55e
     user_starred_at: "2025-02-17T20:02:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -44965,15 +45030,24 @@ repositories:
         published_at: "2026-01-14T19:49:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.529Z"
+      prompt_version: v2
   - repo: latelierco/vue-signalr
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - web-dev
+    tags:
+      - signalr
+      - vue
+      - lang:js
     summary: No description provided
     last_synced_sha: acf3041bdc1ad0d9df46dfd9fa24a879aec11096
     user_starred_at: "2025-02-17T17:54:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -44992,15 +45066,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.528Z"
+      prompt_version: v2
   - repo: Akash52/msal-with-nuxt3
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - security
+    tags:
+      - msal
+      - nuxt
+      - authentication
+      - lang:vue
     summary: Microsoft Authentication Library (MSAL) with Nuxt 3
     last_synced_sha: c7b1c31537565996a190bab001fc101e82d3c252
     user_starred_at: "2025-02-17T17:54:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -45026,15 +45110,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.528Z"
+      prompt_version: v2
   - repo: NicolaSpadari/nuxtor
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - web-dev
+    tags:
+      - tauri
+      - nuxt
+      - lang:vue
     summary: Build tiny desktop apps with Tauri, Nuxt 4 and Nuxt UI 4
     last_synced_sha: 15e18c2bd867cbfee872cc9b79036ad5da9179fd
     user_starred_at: "2025-02-16T17:06:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -45061,15 +45154,24 @@ repositories:
         published_at: "2026-01-01T12:34:26Z"
       is_mirror: false
       mirror_url: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.528Z"
+      prompt_version: v2
   - repo: team-telnyx/telnyx-node
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cli-tools
+    tags:
+      - sdk
+      - telnyx
+      - lang:ts
     summary: Node SDK for the Telnyx API
     last_synced_sha: c0a9e1431ec1f3c5fee0cce8da0f4fd74a897fe6
     user_starred_at: "2025-02-16T16:13:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -45089,15 +45191,24 @@ repositories:
         published_at: "2026-01-23T12:40:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.528Z"
+      prompt_version: v2
   - repo: Code-Pop/build-trello-clone-with-nuxt-3
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - learning
+    tags:
+      - trello-clone
+      - nuxt
+      - lang:vue
     summary: Source code for "Build a Trello Clone with Nuxt 3" by @bencodezen
     last_synced_sha: e086cf1285f0a89d3ec7a94ed08d5dbac82d45a6
     user_starred_at: "2025-02-15T22:20:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -45124,15 +45235,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.528Z"
+      prompt_version: v2
   - repo: HugoRCD/canvas
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - nuxt
+      - portfolio-template
+      - lang:vue
     summary: Portfolio template made with Nuxt 3, Nuxt Content v3, Nuxt UI v3 and Tailwind CSS v4
     last_synced_sha: 89a019b873ef81f1db28f8c29db3c49757d3806e
     user_starred_at: "2025-02-15T21:59:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -45160,15 +45280,24 @@ repositories:
         published_at: "2025-02-10T12:29:56Z"
       is_mirror: false
       mirror_url: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.528Z"
+      prompt_version: v2
   - repo: heroui-inc/heroui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - reactjs
+      - component-library
+      - lang:ts
     summary: "\U0001F680 Beautiful, fast and modern React UI library. (Previously Next UI)"
     last_synced_sha: 4add7525a0f99d879083e1e6f1e93a3e97705c6b
     user_starred_at: "2025-02-15T19:37:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -45191,6 +45320,11 @@ repositories:
         published_at: "2025-12-20T14:23:47Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:35:38.528Z"
+      prompt_version: v2
   - repo: nuxt/ui
     categories:
       - ui-libraries
