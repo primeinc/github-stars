@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:17:28.594Z"
+  manifest_updated_at: "2026-01-27T04:17:51.757Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -67080,13 +67080,17 @@ repositories:
       mirror_url: null
   - repo: POSSA/freepbx-Call-Statistics
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - monitoring
+    tags:
+      - call-statistics
+      - freepbx
+      - lang:php
     summary: Free PBX module for reporting concurrent calls as well as breaking calls down by extension
     last_synced_sha: f3f0e8d81987f7383b027c42324a4a9487c219a6
     user_starred_at: "2014-03-13T08:55:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -67103,15 +67107,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.757Z"
+      prompt_version: v2
   - repo: jedisct1/libpuzzle
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-similarity
+      - image-search
+      - lang:c
     summary: A library to quickly find visually similar images
     last_synced_sha: a1023d7d5db3f4eb03e607b2a74de72d815071bc
     user_starred_at: "2014-03-06T02:13:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C
@@ -67129,15 +67142,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.757Z"
+      prompt_version: v2
   - repo: xbmc/xbmc
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - multimedia
+    tags:
+      - home-theater
+      - media-center
+      - cross-platform
+      - lang:cpp
     summary: Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available f...
     last_synced_sha: a2e9e8e090c1b5312e8a0cb440cc998663eefdba
     user_starred_at: "2013-11-16T12:44:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -67173,15 +67196,24 @@ repositories:
         published_at: "2025-10-31T17:21:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.757Z"
+      prompt_version: v2
   - repo: syntaxhighlighter/syntaxhighlighter
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - dev-tools
+    tags:
+      - syntax-highlighting
+      - code-display
+      - lang:js
     summary: Syntax Highlighter is a fully functional self-contained code syntax highlighter developed in Java Script.
     last_synced_sha: 37724fdb55a4635798993d2d69667e499b62db4b
     user_starred_at: "2013-11-14T23:35:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -67200,15 +67232,24 @@ repositories:
         published_at: "2016-02-12T17:14:47Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.757Z"
+      prompt_version: v2
   - repo: akonkol/spur
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - network-config
+      - ssh
+      - lang:python
     summary: Spur is a web based network configuration manager. It allows you to ssh or telnet to any networked device (cisco routers, linux hosts,etc) and run commands through a web front-end. The results of t...
     last_synced_sha: 3847696879c2a34b3c22982b008e6e63475f6c8f
     user_starred_at: "2013-11-14T23:21:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -67225,15 +67266,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.757Z"
+      prompt_version: v2
   - repo: unifi-hackers/unifi-lab
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - ubiquiti
+      - wifi-network
+      - lang:python
     summary: '(THIS project IS DORMANT: Please have a look at calmh/unifi-api instead, which is cleaner) Add some extra spice to your Ubiquiti Uni Fi wifi network!'
     last_synced_sha: 13395740087e23cc65aaf2e4e1fb8ced7549a630
     user_starred_at: "2013-11-14T07:41:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -67250,15 +67300,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.757Z"
+      prompt_version: v2
   - repo: Kukunin/jquery-endless-scroll
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - infinite-scroll
+      - jquery
+      - lang:js
     summary: Implementation for infinity scroll using j Query. It is unobtrusive, has module structure for easy extending and overriding
     last_synced_sha: 8b74ef6f97390f41cd213cb2b45ae7cb2839230c
     user_starred_at: "2013-11-13T09:46:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -67275,15 +67334,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.757Z"
+      prompt_version: v2
   - repo: fredwu/jquery-endless-scroll
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - infinite-scroll
+      - pagination
+      - lang:js
     summary: Endless/infinite scrolling/pagination.
     last_synced_sha: 1eb7635ecb63b17beaa44afd44f156008fa09666
     user_starred_at: "2013-11-13T09:31:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CoffeeScript
       topics: []
@@ -67300,15 +67368,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.757Z"
+      prompt_version: v2
   - repo: bashou/chevereto_simple_admin
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - productivity
+    tags:
+      - simple-admin
+      - chevereto
+      - lang:php
     summary: Simple admin monitor for Chevereto 2.0+
     last_synced_sha: 626663e4d14c8ce9f47db7ea4a20c7b003d5c3ac
     user_starred_at: "2013-11-13T04:06:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -67325,15 +67402,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.757Z"
+      prompt_version: v2
   - repo: bitwiseshiftleft/sjcl
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - javascript
+      - crypto-library
+      - deprecated
+      - lang:js
     summary: '[DEPRECATED] Stanford Javascript Crypto Library'
     last_synced_sha: 8e3125d0b98bbadb8d0f82a133ef4796ff275dcc
     user_starred_at: "2013-11-12T22:15:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -67352,15 +67439,24 @@ repositories:
         published_at: "2018-11-10T14:51:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.757Z"
+      prompt_version: v2
   - repo: noodle1983/putty-nd
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - putty
+      - ssh
+      - lang:c
     summary: putty to my taste. Available via http://sourceforge.net/projects/putty-nd.
     last_synced_sha: 563b05f09d7145e98e8325c6f773b0a802e077d2
     user_starred_at: "2013-11-10T17:08:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -67377,15 +67473,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.756Z"
+      prompt_version: v2
   - repo: elastic/elasticsearch
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - cloud
+    tags:
+      - search-engine
+      - elasticsearch
+      - lang:java
     summary: Free and Open Source, Distributed, RESTful Search Engine
     last_synced_sha: 21031d56fc41029dc090bf07c190d7b75e4f282c
     user_starred_at: "2013-11-04T05:57:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -67407,15 +67512,24 @@ repositories:
         published_at: "2026-01-13T17:18:30Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.756Z"
+      prompt_version: v2
   - repo: midgetspy/Sick-Beard
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - pvr
+      - tv-shows
+      - lang:python
     summary: PVR & episode guide that downloads and manages all your TV shows
     last_synced_sha: c36f21f80802eb75ba5e7c4be9fd9d9fff6c023c
     user_starred_at: "2013-11-04T01:16:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -67434,15 +67548,24 @@ repositories:
         published_at: "2014-11-17T05:15:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.756Z"
+      prompt_version: v2
   - repo: jprante/elasticsearch-jdbc
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - infrastructure
+    tags:
+      - jdbc
+      - elasticsearch
+      - lang:java
     summary: JDBC importer for Elasticsearch
     last_synced_sha: 10df51a707572ba40abc2009aa02b99b8d28cbf7
     user_starred_at: "2013-11-03T21:48:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics: []
@@ -67461,15 +67584,24 @@ repositories:
         published_at: "2015-10-29T08:33:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.756Z"
+      prompt_version: v2
   - repo: stefangabos/Zebra_Database
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - dev-tools
+    tags:
+      - php-wrapper
+      - prepared-statements
+      - lang:php
     summary: PHP My SQLi wrapper that is lightweight and secure, featuring prepared statements, debugging tools, and caching support.
     last_synced_sha: 3ffd75e40f39326af1563a02e894aa56450a8cb1
     user_starred_at: "2013-11-02T15:49:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -67494,3 +67626,8 @@ repositories:
         published_at: "2025-08-28T12:55:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:17:51.753Z"
+      prompt_version: v2
