@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:44:35.721Z"
+  manifest_updated_at: "2026-01-27T04:45:00.318Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -32599,13 +32599,19 @@ repositories:
       mirror_url: null
   - repo: QwenLM/Qwen-Image
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:python
+      - image-generation
+      - text-rendering
+      - image-editing
+      - foundation-model
     summary: Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing.
     last_synced_sha: c2f139cbd135c4d923a9130f72369e958e3d545c
     user_starred_at: "2025-08-05T05:05:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -32622,15 +32628,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.318Z"
+      prompt_version: v2
   - repo: fabio-marini/azd-aspire-basic
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - infrastructure
+    tags:
+      - lang:csharp
+      - azure-key-vault
+      - app-settings
+      - messaging
+      - azd-template
     summary: 'An azd (Azure Developer CLI) template that uses Aspire to orchestrate: Azure Key Vault for app secrets, Azure App Configuration for app settings, Azure Service Bus or Rabbit MQ for messaging.'
     last_synced_sha: 2a6d8588f0a282e76175a3f6506e18ce75524f8a
     user_starred_at: "2025-08-03T05:11:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -32647,15 +32664,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.318Z"
+      prompt_version: v2
   - repo: ronaldbosma/azure-integration-services-quickstart
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - infrastructure
+    tags:
+      - bicep
+      - azure
+      - azure-functions
+      - logic-apps
+      - api-management
     summary: An azd template (Bicep) for deploying Azure Integration Services, including Azure API Management, Function App, Logic App, Service Bus and Event Hubs namespace, along with supporting resources such...
     last_synced_sha: 4304be5440c83cbecf82aa9703917358634de0bd
     user_starred_at: "2025-08-03T03:31:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -32682,15 +32710,26 @@ repositories:
         published_at: "2026-01-08T09:56:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.318Z"
+      prompt_version: v2
   - repo: Azure-Samples/APICenter-Reference
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cloud
+    tags:
+      - bicep
+      - azure
+      - api-management
+      - reference
+      - azd
     summary: This provides some reference use cases while using Azure API Center
     last_synced_sha: 9109263a7c3daf8c2044fe3330f085bb510199ba
     user_starred_at: "2025-08-03T03:30:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -32717,15 +32756,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.318Z"
+      prompt_version: v2
   - repo: Azure-Samples/mcp-workshop-dotnet
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - cloud
+    tags:
+      - dotnet
+      - lang:js
+      - azure
+      - workshop
+      - training-materials
     summary: This provides workshop materials using official MCP SDK
     last_synced_sha: a04ef8305cea51085ad614fefb85457e3bc510c0
     user_starred_at: "2025-08-03T03:07:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -32742,15 +32792,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.318Z"
+      prompt_version: v2
   - repo: Azure-Samples/getting-started-dotnet-aca
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+    tags:
+      - lang:csharp
+      - azure-container-apps
+      - docker
+      - aspnet
+      - cloud-native
     summary: This provides sample .NET apps to be deployed to Azure Container Apps
     last_synced_sha: 66ecb2d8f44a3eecc14da30d085932c3b8a5a709
     user_starred_at: "2025-08-03T03:00:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -32776,15 +32837,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.318Z"
+      prompt_version: v2
   - repo: Azure/azqr
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - infrastructure
+    tags:
+      - lang:go
+      - azure
+      - assessment
+      - best-practices
+      - automation
     summary: Azure Quick Review
     last_synced_sha: d326491576f060e570a14ddac5a6fe14aa76097d
     user_starred_at: "2025-08-03T02:50:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -32811,15 +32883,26 @@ repositories:
         published_at: "2026-01-26T09:10:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.318Z"
+      prompt_version: v2
   - repo: tabs-not-spaces/Intune-App-Deploy
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - intune
+      - powershell
+      - application-deployment
+      - sccm
+      - win32-apps
     summary: A fast, reliable way to package your win32 applications and deploy them to Intune from any source - including SCCM!
     last_synced_sha: 372e018f6e129e3a299989dcb63ba52b3112751a
     user_starred_at: "2025-08-01T17:10:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -32836,15 +32919,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.318Z"
+      prompt_version: v2
   - repo: tabs-not-spaces/CodeDump
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - powershell
+      - scripts
+      - tools
+      - utilities
+      - code-snippets
     summary: things that help me. might help others.
     last_synced_sha: e5ab88d997b1e4232f9e2483e5a046b9517eb0f6
     user_starred_at: "2025-08-01T17:08:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -32861,15 +32955,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.318Z"
+      prompt_version: v2
   - repo: tabs-not-spaces/Intune.LogonScript.Helper
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - powershell
+      - intune
+      - file-shares
+      - printers
+      - modern-it
     summary: Function App solution to help with getting on-prem file shares and printers into modern management.
     last_synced_sha: 1b98bc33a967b8db95a5ece7138b57285886878c
     user_starred_at: "2025-08-01T17:03:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -32886,15 +32991,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.318Z"
+      prompt_version: v2
   - repo: rails/rails
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - mvc
+      - lang:ruby
+      - framework
+      - activerecord
+      - web-framework
     summary: Ruby on Rails
     last_synced_sha: 2b4feede1b6ead327b40c3415749de58af896e05
     user_starred_at: "2025-08-01T04:13:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -32920,15 +33036,26 @@ repositories:
         published_at: "2026-01-08T20:17:17Z"
       is_mirror: false
       mirror_url: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.318Z"
+      prompt_version: v2
   - repo: openfaas/faas
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - devops
+    tags:
+      - serverless
+      - functions-as-a-service
+      - lang:go
+      - docker
+      - kubernetes
     summary: Open Faa S - Serverless Functions Made Simple
     last_synced_sha: 1d211f9c00323a673fe3f9d6094741d4fb251bff
     user_starred_at: "2025-08-01T04:08:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -32961,15 +33088,26 @@ repositories:
         published_at: "2025-08-29T14:24:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.318Z"
+      prompt_version: v2
   - repo: dokku/dokku
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - devops
+    tags:
+      - paas
+      - docker
+      - self-hosting
+      - kubernetes
+      - deployment
     summary: A docker-powered Paa S that helps you build and manage the lifecycle of applications
     last_synced_sha: 3aaa54d5eb4b5386949beef3353878f32edd601c
     user_starred_at: "2025-08-01T04:08:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -32999,15 +33137,26 @@ repositories:
         published_at: "2026-01-10T15:13:38Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.318Z"
+      prompt_version: v2
   - repo: alvarcarto/url-to-pdf-api
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - pdf-generation
+      - puppeteer
+      - headless-browser
+      - lang:js
+      - self-hosted
     summary: Web page PDF/PNG rendering done right. Self-hosted service for rendering receipts, invoices, or any content.
     last_synced_sha: 2fa83fd9f88613b76ba452fe25830e98d844f3b0
     user_starred_at: "2025-08-01T04:07:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -33034,15 +33183,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.317Z"
+      prompt_version: v2
   - repo: caprover/caprover
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - containers
+    tags:
+      - paas
+      - docker
+      - lang:ts
+      - nginx
+      - automation
     summary: Scalable Paa S (automated Docker+nginx) - aka Heroku on Steroids
     last_synced_sha: 45d09773f8bfda3d0301232a60a2a1162353b4cf
     user_starred_at: "2025-08-01T04:06:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -33080,6 +33240,11 @@ repositories:
         published_at: "2025-11-11T08:57:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:45:00.317Z"
+      prompt_version: v2
   - repo: huginn/huginn
     categories:
       - automation
