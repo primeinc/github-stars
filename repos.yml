@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:31:00.019Z"
+  manifest_updated_at: "2026-01-27T04:31:22.024Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -50035,13 +50035,17 @@ repositories:
       mirror_url: null
   - repo: quickwit-oss/tantivy
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - search-engine
+      - full-text-search
+      - lang:rust
     summary: Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust
     last_synced_sha: b86caeefe26f889592746aef32e79adcb50c26ce
     user_starred_at: "2025-01-28T08:07:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -50062,15 +50066,24 @@ repositories:
         published_at: "2025-08-20T11:01:45Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.024Z"
+      prompt_version: v2
   - repo: bee-san/RustScan
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - port-scanner
+      - pentesting
+      - lang:rust
     summary: "\U0001F916 The Modern Port Scanner \U0001F916"
     last_synced_sha: 1b74455a35c50b52b5f3beecf8b4709326e4b5c5
     user_starred_at: "2025-01-28T08:06:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -50100,15 +50113,24 @@ repositories:
         published_at: "2025-02-23T15:03:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.024Z"
+      prompt_version: v2
   - repo: gfx-rs/wgpu
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - gpu
+      - webgpu
+      - lang:rust
     summary: A cross-platform, safe, pure-Rust graphics API.
     last_synced_sha: ff7fe29ab458742e4398068c7f7d807b6dcad6d7
     user_starred_at: "2025-01-28T08:05:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -50135,15 +50157,25 @@ repositories:
         published_at: "2025-12-18T03:36:49Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.024Z"
+      prompt_version: v2
   - repo: yamadashy/repomix
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - llm
+      - developer-tools
+      - generative-ai
+      - lang:ts
     summary: "\U0001F4E6 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools li..."
     last_synced_sha: 8b18c1b46dfb066c319aeef5408b0908d487ee44
     user_starred_at: "2025-01-28T08:01:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -50182,15 +50214,25 @@ repositories:
         published_at: "2026-01-18T15:40:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.024Z"
+      prompt_version: v2
   - repo: agent0ai/agent-zero
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - assistant
+      - ai
+      - autonomous
+      - lang:python
     summary: Agent Zero AI framework
     last_synced_sha: a54768cb2a7a4407b3907cae4c85344638af8efa
     user_starred_at: "2025-01-28T08:01:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50215,15 +50257,24 @@ repositories:
         published_at: "2025-11-19T11:41:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.024Z"
+      prompt_version: v2
   - repo: exo-explore/exo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - infrastructure
+    tags:
+      - ai-cluster
+      - self-hosted
+      - lang:python
     summary: "Run your own AI cluster at home with everyday devices \U0001F4F1\U0001F4BB \U0001F5A5️⌚"
     last_synced_sha: bd4f0bf04813fe01ef0bffbd81cc26625241e6e6
     user_starred_at: "2025-01-28T07:59:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -50242,15 +50293,25 @@ repositories:
         published_at: "2026-01-26T22:41:31Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.024Z"
+      prompt_version: v2
   - repo: yorukot/superfile
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - file-manager
+      - tui
+      - terminal-app
+      - lang:go
     summary: Pretty fancy and modern terminal file manager
     last_synced_sha: d7a17c3337b432f5fdfc56c859bd5161fbca13c9
     user_starred_at: "2025-01-28T07:58:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -50280,15 +50341,25 @@ repositories:
         published_at: "2026-01-13T11:28:57Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.023Z"
+      prompt_version: v2
   - repo: DrewThomasson/ebook2audiobook
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - tts
+      - audiobooks
+      - multilingual
+      - lang:python
     summary: Generate audiobooks from e-books, voice cloning & 1158+ languages!
     last_synced_sha: c9fd6e54b2c5b90138d7a3ce70e250f060cee621
     user_starred_at: "2025-01-28T07:58:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50323,15 +50394,25 @@ repositories:
         published_at: "2026-01-27T04:03:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.023Z"
+      prompt_version: v2
   - repo: jingyaogong/minimind
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - large-language-model
+      - training
+      - llm
+      - lang:python
     summary: "\U0001F680\U0001F680 「大模型」2小时完全从0训练26M的小参数GPT！\U0001F30F Train a 26M-parameter GPT from scratch in just 2h!"
     last_synced_sha: fea69cf338b8d12d0f062c151c4b75ef9328c0ae
     user_starred_at: "2025-01-28T07:57:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50352,15 +50433,24 @@ repositories:
         published_at: "2025-10-21T14:37:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.023Z"
+      prompt_version: v2
   - repo: bytedance/monolith
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - recommendation-system
+      - ai
+      - lang:python
     summary: A Lightweight Recommendation System
     last_synced_sha: 135c491a52b151772b976af989d8bc938c44d210
     user_starred_at: "2025-01-28T07:56:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -50378,15 +50468,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.023Z"
+      prompt_version: v2
   - repo: browserbase/stagehand
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - ai
+      - frameworks
+      - playwright
+      - lang:ts
     summary: The AI Browser Automation Framework
     last_synced_sha: 677bff5834c879a2d95f7dbff918b8e1510516b3
     user_starred_at: "2025-01-28T07:56:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -50411,15 +50511,25 @@ repositories:
         published_at: "2026-01-24T01:30:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.023Z"
+      prompt_version: v2
   - repo: OpenHands/OpenHands
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - llm
+      - ai
+      - developer-tools
+      - lang:python
     summary: "\U0001F64C Open Hands: AI-Driven Development"
     last_synced_sha: 353124e1712e7c85be8509d25bd02856622e4a8b
     user_starred_at: "2025-01-28T07:56:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50447,15 +50557,25 @@ repositories:
         published_at: "2026-01-16T14:34:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.023Z"
+      prompt_version: v2
   - repo: khoj-ai/khoj
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - research
+      - semantic-search
+      - assistant
+      - lang:python
     summary: Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous ...
     last_synced_sha: 9cbf620e45e4f2d589fa0d51121a902334edf1fa
     user_starred_at: "2025-01-28T07:55:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50494,15 +50614,25 @@ repositories:
         published_at: "2026-01-02T04:01:16Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.023Z"
+      prompt_version: v2
   - repo: n8n-io/n8n
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+    tags:
+      - workflow-automation
+      - self-hosted
+      - low-code
+      - lang:ts
     summary: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
     last_synced_sha: 993228addc24d5eaa2855ff5e0f04a95b461d402
     user_starred_at: "2025-01-28T07:55:23Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -50541,15 +50671,24 @@ repositories:
         published_at: "2026-01-23T15:32:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.023Z"
+      prompt_version: v2
   - repo: deepseek-ai/DeepSeek-LLM
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - llm
+      - ai
+      - lang:makefile
     summary: 'Deep Seek LLM: Let there be answers'
     last_synced_sha: 6712a86bfb7dd25c73383c5ad2eb7a8db540258b
     user_starred_at: "2025-01-28T07:54:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Makefile
       topics: []
@@ -50566,6 +50705,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:31:22.023Z"
+      prompt_version: v2
   - repo: llamastack/llama-stack
     categories:
       - ai-ml
