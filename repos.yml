@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:55:37.332Z"
+  manifest_updated_at: "2026-01-27T04:55:59.570Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -18244,13 +18244,19 @@ repositories:
       mirror_url: null
   - repo: imthenachoman/How-To-Secure-A-Linux-Server
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - linux
+      - server-security
+      - hardening
+      - guide
+      - documentation
     summary: An evolving how-to guide for securing a Linux server.
     last_synced_sha: 2f856eba856abab54b3c8ed7e23ab53cba132250
     user_starred_at: "2025-11-05T23:48:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -18275,15 +18281,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.570Z"
+      prompt_version: v2
   - repo: HKUDS/DeepCode
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - llm-agent
+      - agentic-coding
+      - lang:python
+      - generative-code
+      - ai
     summary: '"Deep Code: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)"'
     last_synced_sha: 6a8e5f9ad3c12d08484f4bf102c476d253857f44
     user_starred_at: "2025-11-05T23:48:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -18304,15 +18321,26 @@ repositories:
         published_at: "2025-11-19T15:51:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.570Z"
+      prompt_version: v2
   - repo: anomalyco/opentui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+    tags:
+      - tui
+      - terminal-ui
+      - lang:ts
+      - library
+      - interface
     summary: Open TUI is a library for building terminal user interfaces (TUIs)
     last_synced_sha: 5958ce8060af43c0d4300cfbddeaf32d67bfb94c
     user_starred_at: "2025-11-05T23:48:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -18331,15 +18359,26 @@ repositories:
         published_at: "2026-01-25T18:03:54Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.570Z"
+      prompt_version: v2
   - repo: VectifyAI/PageIndex
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - retrieval
+      - document-index
+      - llm
+      - reasoning-ai
+      - lang:python
     summary: "\U0001F4D1 Page Index: Document Index for Vectorless, Reasoning-based RAG"
     last_synced_sha: 884209e8fd05a54650d059b8ed10d4bea7cd479c
     user_starred_at: "2025-11-05T23:47:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -18364,15 +18403,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.570Z"
+      prompt_version: v2
   - repo: aandrew-me/ytDownloader
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - youtube-downloader
+      - electron
+      - video
+      - lang:js
+      - ffmpeg
     summary: Desktop App for downloading Videos and Audios from hundreds of sites
     last_synced_sha: ab6f52b8b3209d0a7323ccb9b4607e7decd89cb8
     user_starred_at: "2025-11-05T23:47:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -18411,15 +18461,26 @@ repositories:
         published_at: "2025-11-27T15:11:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.570Z"
+      prompt_version: v2
   - repo: Ido-Levi/Hephaestus
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - autonomous-agents
+      - workflow
+      - llm
+      - lang:python
+      - ai-framework
     summary: Semi-Structured Agentic Framework. Workflows build themselves as agents discover what needs to be done, not what you predicted upfront.
     last_synced_sha: 28a52ce5bb1b0ac0d55fa5f527226b405a174e7b
     user_starred_at: "2025-10-31T10:54:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -18440,15 +18501,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.570Z"
+      prompt_version: v2
   - repo: andredesousa/typescript-best-practices
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - typescript
+      - best-practices
+      - guidelines
+      - javascript
     summary: This is a guideline of best practices that you can apply to your Type Script project.
     last_synced_sha: aaedb9fadd42711e30a9eb984c2b10d4abaab71c
     user_starred_at: "2025-10-31T10:53:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -18468,15 +18539,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.570Z"
+      prompt_version: v2
   - repo: p0dalirius/ShareHound
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - network-shares
+      - bloodhound
+      - access-rights
+      - lang:python
+      - opengraph
     summary: A python tool to map the access rights of network shares into a Blood Hound Open Graphs easily
     last_synced_sha: c3f9dd62ff8ff22d58d61928b01d5716fea5072f
     user_starred_at: "2025-10-31T10:52:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -18500,15 +18582,26 @@ repositories:
         published_at: "2025-11-20T08:18:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.570Z"
+      prompt_version: v2
   - repo: Seeed-Projects/jetson-examples
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - deployment
+    tags:
+      - vision-ai
+      - generative-ai
+      - nvidia-jetson
+      - deployment
+      - shell
     summary: The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform.
     last_synced_sha: 3328ea66fed254003ec161dfea48fb5a398c112a
     user_starred_at: "2025-10-30T22:15:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -18530,15 +18623,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.570Z"
+      prompt_version: v2
   - repo: ghostery/ghostery-extension
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - privacy
+      - chrome-extension
+      - firefox-extension
+      - lang:js
+      - browser-extension
     summary: Ghostery Browser Extension for Firefox, Chrome, Opera, Edge and Safari
     last_synced_sha: a2eb32b27ccc25d9807ec2c87e20ee03db5898cb
     user_starred_at: "2025-10-30T13:28:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -18565,15 +18669,26 @@ repositories:
         published_at: "2026-01-20T11:04:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.570Z"
+      prompt_version: v2
   - repo: electron-react-boilerplate/electron-react-boilerplate
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - electron
+      - react
+      - boilerplate
+      - lang:ts
+      - cross-platform
     summary: A Foundation for Scalable Cross-Platform Apps
     last_synced_sha: f3465eae52f3683f1f1bcb2dd841b6a63da9e1cf
     user_starred_at: "2025-10-30T13:21:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -18600,15 +18715,26 @@ repositories:
         published_at: "2022-05-15T02:03:18Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.570Z"
+      prompt_version: v2
   - repo: ant-design/ant-design-pro
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - ant-design
+      - dashboard
+      - react
+      - lang:ts
+      - boilerplate
     summary: "\U0001F468\U0001F3FB‍\U0001F4BB\U0001F469\U0001F3FB‍\U0001F4BB Use Ant Design like a Pro!"
     last_synced_sha: e6a22907f92dfcff7b045102963634ffb4f8662c
     user_starred_at: "2025-10-30T13:19:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -18636,15 +18762,26 @@ repositories:
         published_at: "2022-06-27T04:38:23Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.569Z"
+      prompt_version: v2
   - repo: lxieyang/chrome-extension-boilerplate-react
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - chrome-extension
+      - boilerplate
+      - react
+      - webpack
+      - lang:js
     summary: A Chrome Extensions boilerplate using React 18 and Webpack 5.
     last_synced_sha: f7b0a5b89059ea943eaccd94aad3a429fb744644
     user_starred_at: "2025-10-30T13:18:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -18670,15 +18807,25 @@ repositories:
         published_at: "2021-10-27T01:17:08Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.569Z"
+      prompt_version: v2
   - repo: jesseduffield/lazygit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cli-tools
+    tags:
+      - git
+      - terminal-ui
+      - cli
+      - lang:go
     summary: simple terminal UI for git commands
     last_synced_sha: 4c731abedd519d9f93ea12a5e86b6d5136ab42c4
     user_starred_at: "2025-10-28T12:07:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -18700,15 +18847,26 @@ repositories:
         published_at: "2026-01-12T19:53:07Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.569Z"
+      prompt_version: v2
   - repo: CaviraOSS/OpenMemory
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+    tags:
+      - llm
+      - memory-store
+      - vector-database
+      - artificial-intelligence
+      - lang:ts
     summary: Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc.
     last_synced_sha: 0fbd7421212616f40cee481eb8cdbe1f12a62992
     user_starred_at: "2025-10-28T11:48:02Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -18747,6 +18905,11 @@ repositories:
         published_at: "2025-12-12T15:32:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:55:59.569Z"
+      prompt_version: v2
   - repo: codecrafters-io/build-your-own-x
     categories:
       - learning
