@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:25:12.312Z"
+  manifest_updated_at: "2026-01-27T04:25:33.468Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -57486,13 +57486,18 @@ repositories:
       mirror_url: null
   - repo: XeroxDev/Loupedeck-plugin-Template
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cli-tools
+    tags:
+      - loupedeck-plugin
+      - template
+      - dotnet
+      - lang:csharp
     summary: this is a Loupedeck .NET template and I've created this so it is easier and more productive for me, to create Loupedeck Windows Plugins and release them to my users.
     last_synced_sha: b19a2d64c15ce339873a2a4ec2717fe9a0be7f81
     user_starred_at: "2023-03-24T06:00:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -57516,15 +57521,24 @@ repositories:
         published_at: "2022-05-12T11:10:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.468Z"
+      prompt_version: v2
   - repo: Loupedeck/SpotifyPremiumPlugin
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - loupedeck-plugin
+      - spotify
+      - lang:csharp
     summary: A sample plugin for the Loupedeck software, based on the Loupedeck Plugin SDK
     last_synced_sha: 81d525f0871f614f4bcd8113848fb2f46b2e51ac
     user_starred_at: "2023-03-24T06:00:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -57542,15 +57556,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.468Z"
+      prompt_version: v2
   - repo: junebug12851/Sims4ScriptingBPProj
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - modding-tools
+      - boilerplate
+      - lang:python
     summary: Sims 4 Scripting Boilerplate Project
     last_synced_sha: b165602fb2a114419292943e2e5db77a4de16649
     user_starred_at: "2023-03-22T01:39:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -57579,15 +57602,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.468Z"
+      prompt_version: v2
   - repo: microsoft/VFSForGit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - git
+      - file-system
+      - lang:csharp
     summary: 'Virtual File System for Git: Enable Git at Enterprise Scale'
     last_synced_sha: 05d011880c34baa011c6a2d8981543d6fed588af
     user_starred_at: "2023-03-21T03:01:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -57606,15 +57638,25 @@ repositories:
         published_at: "2026-01-14T14:15:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.468Z"
+      prompt_version: v2
   - repo: NVlabs/prismer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - vision-language
+      - multi-task-learning
+      - deep-learning
+      - lang:python
     summary: 'The implementation of "Prismer: A Vision-Language Model with Multi-Task Experts".'
     last_synced_sha: 4f27ab37e8ff5436707c5badd0ec744980608edd
     user_starred_at: "2023-03-19T17:44:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -57638,15 +57680,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.468Z"
+      prompt_version: v2
   - repo: srn/nvapi-node
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - apis
+    tags:
+      - gpu-control
+      - nvidia
+      - nvapi
+      - lang:cpp
     summary: Native C++ module for interfacing with NVIDIA NVAPI
     last_synced_sha: 4ed87891ba8ec82539bf2e4dab0a1aafe3a7dd1a
     user_starred_at: "2023-03-19T07:32:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -57667,15 +57719,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.468Z"
+      prompt_version: v2
   - repo: jNizM/NVIDIA_NvAPI
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cli-tools
+    tags:
+      - nvidia
+      - api
+      - autohotkey
     summary: Converted Nv API-Functions
     last_synced_sha: b29bd4fb711c38982a07599c509b6945db69836d
     user_starred_at: "2023-03-19T05:13:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: AutoHotkey
       topics: []
@@ -57692,15 +57753,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.468Z"
+      prompt_version: v2
   - repo: KovaaK/NVidiaHotkeys
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - hotkeys
+      - nvidia
+      - autohotkey
     summary: Script to change nvidia's Digital Vibrance and Hue settings by pressing hotkeys
     last_synced_sha: 1662a926d23944ad1b7d682b24e0e4b50452553a
     user_starred_at: "2023-03-19T04:46:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: AutoHotkey
       topics: []
@@ -57719,15 +57789,25 @@ repositories:
         published_at: "2019-06-30T19:35:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.468Z"
+      prompt_version: v2
   - repo: mpvnet-player/mpv.net
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - media-player
+      - dotnet
+      - gui
+      - lang:csharp
     summary: "\U0001F39E mpv.net is a media player for Windows with a modern GUI."
     last_synced_sha: 724a9adab85a21cfd5763348f3fbaa06f1884a50
     user_starred_at: "2023-03-16T02:19:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -57765,15 +57845,25 @@ repositories:
         published_at: "2026-01-09T05:24:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.468Z"
+      prompt_version: v2
   - repo: mpv-player/mpv
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - media-player
+      - video
+      - audio
+      - lang:c
     summary: "\U0001F3A5 Command line media player"
     last_synced_sha: d1743b641b5b8a51115a9828124c7a9b527115e3
     user_starred_at: "2023-03-16T00:52:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -57799,15 +57889,24 @@ repositories:
         published_at: "2025-12-21T19:17:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.468Z"
+      prompt_version: v2
   - repo: SoCo/SoCo
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - sonos
+      - audio-control
+      - lang:python
     summary: So Co (Sonos Controller) is a Python project that allows you to programmatically control Sonos speakers.
     last_synced_sha: d189d9d7929e4e7a7563708164adfc0949bc8c49
     user_starred_at: "2023-03-15T02:27:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -57826,15 +57925,25 @@ repositories:
         published_at: "2025-12-31T11:09:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.468Z"
+      prompt_version: v2
   - repo: bmaltais/kohya_ss
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - training
+      - deep-learning
+      - stable-diffusion
+      - lang:python
     summary: No description provided
     last_synced_sha: 4161d1d80ad554f7801c584632665d6825994062
     user_starred_at: "2023-03-12T04:53:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -57853,15 +57962,24 @@ repositories:
         published_at: "2025-06-23T12:38:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.468Z"
+      prompt_version: v2
   - repo: mattjaybe/sd-wildcards
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - stable-diffusion
+      - wildcards
+      - tool
     summary: A collection of wildcards for Stable Diffusion
     last_synced_sha: e1902157613943e884c9cfa4f7fc97692898664d
     user_starred_at: "2023-03-12T03:46:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -57878,15 +57996,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.468Z"
+      prompt_version: v2
   - repo: civitai/sd_civitai_extension
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - stable-diffusion
+      - web-ui-extension
+      - lang:python
     summary: All of the Civitai models inside Automatic 1111 Stable Diffusion Web UI
     last_synced_sha: 115cd9c35b0774c90cb9c397ad60ef6a7dac60de
     user_starred_at: "2023-03-08T09:24:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -57903,15 +58030,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.467Z"
+      prompt_version: v2
   - repo: starik222/BooruDatasetTagManager
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - tag-management
+      - dataset
+      - lang:csharp
     summary: No description provided
     last_synced_sha: 6475a1ca0d983e34440abc8f22359aaae57a8c91
     user_starred_at: "2023-03-08T02:35:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -57930,6 +58066,11 @@ repositories:
         published_at: "2025-11-28T18:13:00Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:25:33.467Z"
+      prompt_version: v2
   - repo: martymac/fpart
     categories:
       - system-admin
