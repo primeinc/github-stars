@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:49:29.850Z"
+  manifest_updated_at: "2026-01-27T04:49:55.793Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -26068,13 +26068,18 @@ repositories:
       mirror_url: null
   - repo: Gregivy/simpleddp
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - ddp-client
+      - meteor
+      - reactive
+      - lang:js
     summary: An easy to use DDP client library
     last_synced_sha: 4bd415ee52e4023787e401111d9be5ca788a333b
     user_starred_at: "2025-09-21T14:56:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -26102,15 +26107,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.793Z"
+      prompt_version: v2
   - repo: microsoft/ai-dev-gallery
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - windows-ai
+      - developer-tools
+      - onnxruntime
+      - lang:csharp
     summary: An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps.
     last_synced_sha: 65274d297fc984d8379ab24addf02e623e2eadd1
     user_starred_at: "2025-09-21T03:09:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -26147,15 +26162,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.793Z"
+      prompt_version: v2
   - repo: microsoft/react-native-windows-samples
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - desktop-dev
+    tags:
+      - react-native
+      - windows
+      - lang:csharp
     summary: A repository showcasing React Native samples and templates for Windows, mac OS, and Surface Duo.
     last_synced_sha: f0859cc0cf4213c3359a034498a111165961635b
     user_starred_at: "2025-09-20T22:30:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -26175,15 +26199,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.793Z"
+      prompt_version: v2
   - repo: rocksdanister/lively
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - animated-wallpapers
+      - dynamic-desktop
+      - win-ui-3
+      - lang:csharp
     summary: Free and open-source software that allows users to set animated desktop wallpapers and screensavers powered by Win UI 3.
     last_synced_sha: 9d996c3c6e49c2502e2cb368cdc29ee286a63ce0
     user_starred_at: "2025-09-20T22:27:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -26222,15 +26256,25 @@ repositories:
         published_at: "2025-09-18T18:01:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.793Z"
+      prompt_version: v2
   - repo: NileshGule/techtalks-azure-container-apps-demo
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+    tags:
+      - azure-container-apps
+      - dapr
+      - keda
+      - lang:null
     summary: A simple example to showcase Azure container apps capabilities using a Tech Talks demo with native integration for Dapr and KEDA
     last_synced_sha: 1c12b3c8f5d2c32bd81b423bc974582da31260ab
     user_starred_at: "2025-09-19T23:43:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -26257,15 +26301,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.793Z"
+      prompt_version: v2
   - repo: simstudioai/sim
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agents
+      - low-code
+      - nextjs
+      - lang:ts
     summary: Open-source platform to build and deploy AI agent workflows.
     last_synced_sha: 1c58c35bd825430ee4f5f5228070e89fc18bda7d
     user_starred_at: "2025-09-17T09:02:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26302,15 +26356,25 @@ repositories:
         published_at: "2026-01-26T17:18:15Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.793Z"
+      prompt_version: v2
   - repo: AIDC-AI/ComfyUI-Copilot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - comfy-ui
+      - workflow-automation
+      - intelligent-assistance
+      - lang:ts
     summary: An AI-powered custom node for Comfy UI designed to enhance workflow automation and provide intelligent assistance
     last_synced_sha: 41b15d2d879ca92b0395df553d17b22b8cd6d9d3
     user_starred_at: "2025-09-17T09:02:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26342,15 +26406,25 @@ repositories:
         published_at: "2025-08-18T06:33:23Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.793Z"
+      prompt_version: v2
   - repo: bytebot-ai/bytebot
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - automation
+    tags:
+      - ai-agents
+      - automation
+      - docker
+      - lang:ts
     summary: Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.
     last_synced_sha: 3d37894ce07ef8d8b40adc7fd309ad96c2a71313
     user_starred_at: "2025-09-17T09:02:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26386,15 +26460,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.793Z"
+      prompt_version: v2
   - repo: EpicenterHQ/epicenter
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - svelte
+      - voice-to-text
+      - automation
+      - lang:ts
     summary: Press shortcut → speak → get text. Free and open source. More local-first apps soon ❤️
     last_synced_sha: 06f16a63bfd39df978f30e13a07cc5734b9a1202
     user_starred_at: "2025-09-17T09:01:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26417,15 +26501,25 @@ repositories:
         published_at: "2025-12-27T02:38:16Z"
       is_mirror: false
       mirror_url: null
+    framework: svelte
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.793Z"
+      prompt_version: v2
   - repo: ItzCrazyKns/Perplexica
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-search-engine
+      - machine-learning
+      - self-hosted-ai
+      - lang:ts
     summary: Perplexica is an AI-powered answering engine.
     last_synced_sha: d7b020e5bb6456e7510e54acf098aa1605818d90
     user_starred_at: "2025-09-17T09:00:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26457,15 +26551,25 @@ repositories:
         published_at: "2025-12-31T07:36:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.793Z"
+      prompt_version: v2
   - repo: puckeditor/puck
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - visual-editor
+      - react
+      - lang:ts
+      - ai-powered
     summary: The visual editor for React with AI superpowers
     last_synced_sha: 31c70f1c551bf99d12f7504eed8f8733bc59a96d
     user_starred_at: "2025-09-17T09:00:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -26484,15 +26588,24 @@ repositories:
         published_at: "2026-01-23T12:50:41Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.793Z"
+      prompt_version: v2
   - repo: Phantom-video/HuMo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-generation
+      - human-centric-ai
+      - lang:python
     summary: 'Hu Mo: Human-Centric Video Generation via Collaborative Multi-Modal Conditioning'
     last_synced_sha: 845f44736e21be93aa5d8cf406b6eb01af9bff67
     user_starred_at: "2025-09-17T08:59:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -26509,15 +26622,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.793Z"
+      prompt_version: v2
   - repo: namazso/SecureUxTheme
     categories:
-      - unclassified
-    tags: []
+      - security
+      - desktop-dev
+    tags:
+      - ux-theme
+      - windows-customization
+      - ricing
+      - lang:cpp
     summary: "\U0001F3A8 A secure boot compatible in-memory Ux Theme patcher"
     last_synced_sha: 6aa8af8b6547ab629bfcf971d458f5fd3f193ad1
     user_starred_at: "2025-09-17T08:58:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -26548,15 +26671,24 @@ repositories:
         published_at: "2025-06-24T06:01:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.793Z"
+      prompt_version: v2
   - repo: ByteDance-Seed/Bagel
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - multimodal-model
+      - machine-learning
+      - lang:python
     summary: Open-source unified multimodal model
     last_synced_sha: 056b5fd51a88c1eb4547318609e25d40080fcf87
     user_starred_at: "2025-09-17T08:53:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -26573,15 +26705,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.793Z"
+      prompt_version: v2
   - repo: ccfos/nightingale
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - infrastructure
+    tags:
+      - time-series
+      - alerting
+      - metrics
+      - lang:go
     summary: Nightingale is to monitoring and alerting what Grafana is to visualization.
     last_synced_sha: faa348a0866bccfe9aed29b7f5485d1780d27f6a
     user_starred_at: "2025-09-17T08:53:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -26609,6 +26751,11 @@ repositories:
         published_at: "2026-01-16T09:36:14Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:49:55.792Z"
+      prompt_version: v2
   - repo: usekaneo/kaneo
     categories:
       - productivity
