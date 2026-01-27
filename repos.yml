@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:34:06.771Z"
+  manifest_updated_at: "2026-01-27T04:34:26.626Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -46177,13 +46177,18 @@ repositories:
       mirror_url: null
   - repo: exeldro/obs-move-transition
     categories:
-      - unclassified
-    tags: []
+      - media
+      - ui-libraries
+    tags:
+      - obs-plugin
+      - lang:c
+      - move-transition
+      - effects
     summary: Move transition for OBS Studio
     last_synced_sha: 58c72b610f75816c3d7ea3350d7a07f205d42382
     user_starred_at: "2025-02-01T04:36:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -46202,15 +46207,25 @@ repositories:
         published_at: "2025-11-22T20:01:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.626Z"
+      prompt_version: v2
   - repo: exeldro/obs-source-clone
     categories:
-      - unclassified
-    tags: []
+      - media
+      - automation
+    tags:
+      - obs-studio
+      - obs-plugin
+      - lang:cmake
+      - source-duplication
     summary: No description provided
     last_synced_sha: c38284dcb487293b1ed9e581dfa3ee34a63d203c
     user_starred_at: "2025-02-01T03:33:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CMake
       topics: []
@@ -46229,15 +46244,25 @@ repositories:
         published_at: "2026-01-17T06:52:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.626Z"
+      prompt_version: v2
   - repo: CodeYan01/source-defaults
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - obs-studio
+      - obs-plugin
+      - lang:cmake
+      - source-management
     summary: Apply custom source setting defaults on new sources, based on other sources.
     last_synced_sha: 3ce48509258379a7cb49351ad57d81abdf8963e9
     user_starred_at: "2025-02-01T03:29:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CMake
       topics: []
@@ -46256,15 +46281,25 @@ repositories:
         published_at: "2025-10-16T03:53:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.626Z"
+      prompt_version: v2
   - repo: facebookresearch/faiss
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - similarity-search
+      - clustering
+      - lang:cpp
+      - vector-search
     summary: A library for efficient similarity search and clustering of dense vectors.
     last_synced_sha: c5ae3d0710dccdbabe76d5814d1c721f458d186a
     user_starred_at: "2025-02-01T01:53:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -46283,15 +46318,25 @@ repositories:
         published_at: "2025-12-19T23:41:59Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.626Z"
+      prompt_version: v2
   - repo: burntcarrot/hashsearch
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - reverse-image-search
+      - lang:go
+      - search-engine
+      - hashing
     summary: "Reverse image search using perceptual hashes. \U0001F50D"
     last_synced_sha: 3713e5824f2cf31d3ea412f4696dfc17591d73b3
     user_starred_at: "2025-02-01T01:38:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -46312,15 +46357,26 @@ repositories:
         published_at: "2022-12-04T19:16:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.626Z"
+      prompt_version: v2
   - repo: royshil/obs-detect
     categories:
-      - unclassified
-    tags: []
+      - media
+      - ai-ml
+    tags:
+      - object-detection
+      - computer-vision
+      - lang:cpp
+      - obs-plugin
+      - live-streaming
     summary: Object Detection in OBS, real-time, local, GPU optional
     last_synced_sha: a4f4928e26b915ceaf0fc2d545d284ca1ea4bbfa
     user_starred_at: "2025-01-31T21:20:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C++
@@ -46350,15 +46406,26 @@ repositories:
         published_at: "2024-06-01T03:37:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.626Z"
+      prompt_version: v2
   - repo: obsproject/obs-studio
     categories:
-      - unclassified
-    tags: []
+      - media
+      - desktop-dev
+    tags:
+      - live-streaming
+      - video-recording
+      - lang:c
+      - screen-capture
+      - open-source
     summary: OBS Studio - Free and open source software for live streaming and screen recording
     last_synced_sha: 3590b1d0d5460426578ee1bf21c5dc23d429fcdd
     user_starred_at: "2025-01-31T20:53:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -46388,15 +46455,24 @@ repositories:
         published_at: "2025-12-13T22:02:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.625Z"
+      prompt_version: v2
   - repo: Aitum/obs-vertical-canvas
     categories:
-      - unclassified
-    tags: []
+      - media
+      - ui-libraries
+    tags:
+      - obs-studio
+      - layout-control
+      - lang:cpp
     summary: No description provided
     last_synced_sha: 905911d321dc6bfbb40bb5011dd37b4a4c810c34
     user_starred_at: "2025-01-31T20:46:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -46415,15 +46491,24 @@ repositories:
         published_at: "2025-10-15T14:08:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.625Z"
+      prompt_version: v2
   - repo: norihiro/obs-mute-filter
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - media
+    tags:
+      - obs-plugin
+      - lang:cmake
+      - audio-control
     summary: OBS Studio plugin to mute audio of a source
     last_synced_sha: 0b03f8c1f120196de7da48c4ccfbdb8bd2c36170
     user_starred_at: "2025-01-31T20:44:54Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CMake
       topics: []
@@ -46442,15 +46527,25 @@ repositories:
         published_at: "2024-05-04T13:08:23Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.625Z"
+      prompt_version: v2
   - repo: flipswitchingmonkey/FlexASIO_GUI
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - audio
+    tags:
+      - configuration
+      - gui-tool
+      - lang:csharp
+      - flexasio
     summary: Simple configuration GUI for Flex ASIO
     last_synced_sha: 1964ef8dcca9f3aacb032c62664c87f83edc196c
     user_starred_at: "2025-01-31T20:39:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -46469,15 +46564,26 @@ repositories:
         published_at: "2022-10-28T21:48:21Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.625Z"
+      prompt_version: v2
   - repo: dechamps/FlexASIO
     categories:
-      - unclassified
-    tags: []
+      - audio
+      - libraries
+    tags:
+      - lang:cpp
+      - audio-library
+      - asio
+      - portaudio
+      - windows
     summary: A flexible universal ASIO driver that uses the Port Audio sound I/O library. Supports WASAPI (shared and exclusive), KS, Direct Sound and MME.
     last_synced_sha: e75cc72483a4f0a4cb906bda80463b0c4bd6e8d3
     user_starred_at: "2025-01-31T20:29:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -46506,15 +46612,23 @@ repositories:
         published_at: "2024-06-02T11:10:46Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.625Z"
+      prompt_version: v2
   - repo: v154c1/libyuri
     categories:
-      - unclassified
-    tags: []
+      - libraries
+      - development
+    tags:
+      - lang:cpp
+      - c-library
     summary: No description provided
     last_synced_sha: a5cc7d9d13dcd9c106facac271b15f44c04aa646
     user_starred_at: "2025-01-31T20:12:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -46531,15 +46645,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.625Z"
+      prompt_version: v2
   - repo: ironmansoftware/gallery
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - powershell
+      - modules
+      - script-library
+      - windows
     summary: Public gallery of modules for Power Shell Universal
     last_synced_sha: 57f89bdd4bb88e48532472ca063cd26c0f15a54e
     user_starred_at: "2025-01-31T16:49:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -46564,15 +46688,25 @@ repositories:
         published_at: "2024-09-05T00:53:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.625Z"
+      prompt_version: v2
   - repo: CodeYan01/media-playlist-source
     categories:
-      - unclassified
-    tags: []
+      - media
+      - automation
+    tags:
+      - obs-studio
+      - obs-plugin
+      - lang:c
+      - media-playlist
     summary: An OBS Studio plugin that supports media playlists, based on the Media Source
     last_synced_sha: f8d90bddf9b95b65d0ef3fd43a0db7eb5c44ab2b
     user_starred_at: "2025-01-30T07:33:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -46591,15 +46725,24 @@ repositories:
         published_at: "2025-04-13T14:17:03Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.625Z"
+      prompt_version: v2
   - repo: MorseTheCode/OBS-Scripts
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - obs-studio
+      - scripting
+      - lang:html
     summary: My OBS Scripts
     last_synced_sha: 693525d547962538580ba0db4240820843e77c6b
     user_starred_at: "2025-01-30T07:25:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -46616,6 +46759,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:34:26.625Z"
+      prompt_version: v2
   - repo: exeldro/obs-media-controls
     categories:
       - desktop-dev
