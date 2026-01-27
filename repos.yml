@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:40:29.531Z"
+  manifest_updated_at: "2026-01-27T04:40:51.066Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -38005,13 +38005,17 @@ repositories:
       mirror_url: null
   - repo: google-gemini/gemini-cli
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cli-tools
+    tags:
+      - gemini
+      - ai-agents
+      - lang:ts
     summary: An open-source AI agent that brings the power of Gemini directly into your terminal.
     last_synced_sha: 9fcdc0cdc18221c19636101b5f4ffdb1883cc531
     user_starred_at: "2025-06-27T00:57:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38037,15 +38041,24 @@ repositories:
         published_at: "2026-01-23T23:57:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.066Z"
+      prompt_version: v2
   - repo: DioxusLabs/sdk
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - dev-tools
+    tags:
+      - dioxus
+      - utilities
+      - lang:rust
     summary: A library to provide abstractions to access common utilities when developing Dioxus applications.
     last_synced_sha: 15525043cadc3c467afb15888ce804bdc9b6a46e
     user_starred_at: "2025-06-26T19:55:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -38064,15 +38077,24 @@ repositories:
         published_at: "2024-12-07T22:39:01Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.066Z"
+      prompt_version: v2
   - repo: jujumilk3/leaked-system-prompts
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - system-prompts
+      - llm
+      - ai
     summary: Collection of leaked system prompts
     last_synced_sha: ee65d5421c5b75de71c5fcd938d6cffde7b166f8
     user_starred_at: "2025-06-26T19:48:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -38093,15 +38115,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.066Z"
+      prompt_version: v2
   - repo: AykutSarac/jsoncrack.com
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - json-visualization
+      - nextjs
+      - lang:ts
     summary: ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.
     last_synced_sha: e93202cfb4ffd5df375ef0ee1b9d7d5863c67fa6
     user_starred_at: "2025-06-26T19:48:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38129,15 +38160,24 @@ repositories:
         published_at: "2025-04-29T17:19:33Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.066Z"
+      prompt_version: v2
   - repo: ripienaar/free-for-dev
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - devops
+    tags:
+      - free-resources
+      - awesome-list
+      - infradev
     summary: A list of Saa S, Paa S and Iaa S offerings that have free tiers of interest to devops and infradev
     last_synced_sha: 0b8f8b050e88e065b10c9f0805ff10cbec2cc4fc
     user_starred_at: "2025-06-26T19:48:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -38156,15 +38196,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.065Z"
+      prompt_version: v2
   - repo: microsoft/edit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cli-tools
+    tags:
+      - text-editor
+      - terminal
+      - lang:rust
     summary: We all edit.
     last_synced_sha: e5a92eb7d672b82387b4bb6e00f8d24f591a1cb9
     user_starred_at: "2025-06-26T19:48:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -38187,15 +38236,24 @@ repositories:
         published_at: "2025-10-15T14:26:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.065Z"
+      prompt_version: v2
   - repo: modelcontextprotocol/registry
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - mcp
+      - registry
+      - lang:go
     summary: A community driven registry service for Model Context Protocol (MCP) servers.
     last_synced_sha: 3f3383bb6199990c853ae8be3715e150af5e8bcb
     user_starred_at: "2025-06-26T19:48:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -38216,15 +38274,24 @@ repositories:
         published_at: "2025-12-16T10:47:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.065Z"
+      prompt_version: v2
   - repo: mikeroyal/Self-Hosting-Guide
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - system-admin
+    tags:
+      - self-hosting
+      - docker-compose
+      - decentralized
     summary: Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, Wire Guard, Autom...
     last_synced_sha: 3eaf827bf42ff047b2a0fdf7a6bfbb61b720d9bf
     user_starred_at: "2025-06-26T19:47:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics:
@@ -38261,15 +38328,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.065Z"
+      prompt_version: v2
   - repo: mui/base-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - design-system
+      - react-components
+      - lang:ts
     summary: Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI.
     last_synced_sha: 50e164e86fb6e78c1d82c710187922b28a792874
     user_starred_at: "2025-06-26T19:47:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38293,15 +38369,24 @@ repositories:
         published_at: "2026-01-15T16:11:50Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.065Z"
+      prompt_version: v2
   - repo: twentyhq/twenty
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - crm
+      - react
+      - lang:ts
     summary: Building a modern alternative to Salesforce, powered by the community.
     last_synced_sha: 41d470e68754ca33844d875cc2ed17d56b879400
     user_starred_at: "2025-06-26T19:47:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38337,15 +38422,24 @@ repositories:
         published_at: "2026-01-24T09:40:43Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.065Z"
+      prompt_version: v2
   - repo: Portkey-AI/gateway
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - ai-gateway
+      - llmops
+      - lang:ts
     summary: A blazing fast AI Gateway with integrated guardrails. Route to 200+ LLMs, 50+ AI Guardrails with 1 fast & friendly API.
     last_synced_sha: 7799507909db680e72b10292bc10e44150c67842
     user_starred_at: "2025-06-26T19:47:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38379,15 +38473,24 @@ repositories:
         published_at: "2026-01-12T08:46:07Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.065Z"
+      prompt_version: v2
   - repo: Eric-Chung-0511/Learning-Record
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - data-science
+    tags:
+      - machine-learning
+      - data-visualization
+      - lang:python
     summary: Empowering Data Driven insights through hands-on projects, SQL challenges and practical tools.
     last_synced_sha: c976b733bc843dda16a0228a97c192a6173deadd
     user_starred_at: "2025-06-26T04:50:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -38417,15 +38520,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.065Z"
+      prompt_version: v2
   - repo: dypsilon/frontend-dev-bookmarks
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - web-dev
+    tags:
+      - frontend
+      - resources
+      - awesome-list
     summary: Manually curated collection of resources for frontend web developers.
     last_synced_sha: 50ed051c96428af9d4f020305ca206587514e121
     user_starred_at: "2025-06-26T00:04:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -38448,15 +38560,24 @@ repositories:
         published_at: "2016-05-21T01:00:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.065Z"
+      prompt_version: v2
   - repo: SuperClaude-Org/SuperClaude_Framework
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ai-ml
+    tags:
+      - configuration-framework
+      - llm
+      - lang:python
     summary: A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.
     last_synced_sha: ad6b2e9982d978b02f301ce81ea3a89183cbb5c8
     user_starred_at: "2025-06-25T03:29:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -38475,15 +38596,24 @@ repositories:
         published_at: "2026-01-18T13:12:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.065Z"
+      prompt_version: v2
   - repo: jahwag/ClaudeSync
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - file-sync
+      - llm
+      - lang:python
     summary: Claude Sync is a Python tool that automates the synchronization of local files with Claude.ai Projects
     last_synced_sha: dbd8417dd47a64a6a633efd30e8318c3756a3c3f
     user_starred_at: "2025-06-25T03:28:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -38506,6 +38636,11 @@ repositories:
         published_at: "2025-12-01T17:31:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:40:51.065Z"
+      prompt_version: v2
   - repo: amantus-ai/vibetunnel
     categories:
       - dev-tools
