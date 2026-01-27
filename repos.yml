@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:29:28.672Z"
+  manifest_updated_at: "2026-01-27T04:29:50.251Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -52029,13 +52029,17 @@ repositories:
       mirror_url: null
   - repo: Julusian/node-xencelabs-quick-keys
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - library
+      - xencelabs
+      - lang:ts
     summary: A Node.js library for interfacing with the Xencelabs Quick Keys https://julusian.github.io/node-xencelabs-quick-keys/
     last_synced_sha: 828005fb7a0d9bd3d53b1876fe1a929b8abe5c83
     user_starred_at: "2025-01-04T09:56:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -52052,15 +52056,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.251Z"
+      prompt_version: v2
   - repo: pandres95/ndi.js
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - web-dev
+    tags:
+      - audio
+      - video
+      - streaming
+      - ndi
+      - lang:c
     summary: NDI® SDK for Node.js
     last_synced_sha: 93c76db546a35e0be138aa9b39bf147f5ffebc22
     user_starred_at: "2024-12-28T22:08:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -52086,15 +52101,22 @@ repositories:
         published_at: "2022-09-19T16:41:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.251Z"
+      prompt_version: v2
   - repo: NSFW-API/TripleX
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+    tags:
+      - lang:python
     summary: No description provided
     last_synced_sha: 592b5590064d528cedb1d6924196003e4a4fef4d
     user_starred_at: "2024-12-28T21:31:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -52111,15 +52133,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.251Z"
+      prompt_version: v2
   - repo: pvvx/THB2
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - security
+    tags:
+      - firmware
+      - iot
+      - lang:c
+      - tuya
     summary: Custom firmware for Tuya devices on the PHY622x2 chipset
     last_synced_sha: 48db5245d235aef57cfdf5fcc58ec74fa753d89c
     user_starred_at: "2024-12-22T16:54:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -52138,15 +52170,25 @@ repositories:
         published_at: "2025-06-29T22:24:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.251Z"
+      prompt_version: v2
   - repo: Crayon-Shinchan/AnyDressing
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - virtual-dressing
+      - latent-diffusion
+      - customizable-models
+      - lang:js
     summary: '[CVPR 2025] Official implementation of "Any Dressing: Customizable Multi-Garment Virtual Dressing via Latent Diffusion Models"'
     last_synced_sha: a75e295a5d8a5be5b746d20c528d6a4220e4bf04
     user_starred_at: "2024-12-07T22:49:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -52163,15 +52205,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.251Z"
+      prompt_version: v2
   - repo: HW-Lab-Hardware-Design-Agency/WebScreen-Software
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - networking
+    tags:
+      - firmware
+      - esp32
+      - arduino
+      - mqtt
+      - lang:c
     summary: Web Screen Firmware
     last_synced_sha: b65f51479daf0040e2ab42d3925ef19856dba9b5
     user_starred_at: "2024-12-02T08:01:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -52202,15 +52255,23 @@ repositories:
         published_at: "2026-01-24T23:24:14Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.251Z"
+      prompt_version: v2
   - repo: HW-Lab-Hardware-Design-Agency/WebScreen-Website
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - landing-page
+      - website
     summary: Webscreen landing page
     last_synced_sha: e3e7d253dcadcfd232b41df2095d3393be61b8bc
     user_starred_at: "2024-12-02T08:01:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -52228,15 +52289,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.250Z"
+      prompt_version: v2
   - repo: paperless-ngx/paperless-ngx
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - ocr
+      - document-management
+      - archiving
+      - lang:python
+      - django
     summary: 'A community-supported supercharged document management system: scan, index and archive all your documents'
     last_synced_sha: 6997a2ab8bc610807b3b139cf7cc7493d6d2158b
     user_starred_at: "2024-11-09T01:28:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -52266,15 +52338,25 @@ repositories:
         published_at: "2026-01-21T00:12:33Z"
       is_mirror: false
       mirror_url: null
+    framework: django
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.250Z"
+      prompt_version: v2
   - repo: chartdb/chartdb
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - ui-libraries
+    tags:
+      - database-design
+      - visualization
+      - lang:ts
+      - react
     summary: Database diagrams editor that allows you to visualize and design your DB with a single query.
     last_synced_sha: b21202e6c7ecc1807a1ef09853532f1282c6f88e
     user_starred_at: "2024-11-05T12:47:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -52310,15 +52392,25 @@ repositories:
         published_at: "2025-12-09T09:57:30Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.250Z"
+      prompt_version: v2
   - repo: ljanyst/peroxide
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - email
+      - encryption
+      - lang:go
+      - privacy
     summary: A third-party Proton Mail bridge serving SMTP and IMAP
     last_synced_sha: 31b8d0cbd92fd3f9896f9814628cfda4d71c356a
     user_starred_at: "2024-11-04T20:36:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -52338,15 +52430,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.250Z"
+      prompt_version: v2
   - repo: Anze/KeyCluCask
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - macos
+      - shortcuts
+      - utilities
+      - hotkeys
     summary: Simple and handy overview of applications shortcuts
     last_synced_sha: 5794d141d7be8b869a1f516e3d8154fbaa85e947
     user_starred_at: "2024-10-29T14:11:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -52374,15 +52476,25 @@ repositories:
         published_at: "2026-01-12T20:03:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.250Z"
+      prompt_version: v2
   - repo: lucasnewman/f5-tts-mlx
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - text-to-speech
+      - diffusion-transformer
+      - flow-matching
+      - lang:python
     summary: Implementation of F5-TTS in MLX
     last_synced_sha: 85d015f62b7c6e37311a484c915effb7cf95ccaa
     user_starred_at: "2024-10-20T14:05:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -52406,15 +52518,24 @@ repositories:
         published_at: "2025-03-19T02:11:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.250Z"
+      prompt_version: v2
   - repo: SWivid/F5-TTS
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - text-to-speech
+      - flow-matching
+      - lang:python
     summary: 'Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching"'
     last_synced_sha: a3c2ea978452151635f0735e9a48bf5c0439f8b0
     user_starred_at: "2024-10-20T13:57:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -52433,15 +52554,23 @@ repositories:
         published_at: "2025-12-21T07:15:39Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.250Z"
+      prompt_version: v2
   - repo: martymcmodding/METEOR
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - reshade
+      - hlsl
+      - graphics
     summary: Marty's Extra Effects for Re Shade
     last_synced_sha: 228e4aa521b34bdf3ad798220a1e59cc4a2a6a95
     user_starred_at: "2024-10-06T21:21:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HLSL
       topics: []
@@ -52458,15 +52587,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.247Z"
+      prompt_version: v2
   - repo: martymcmodding/iMMERSE
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - reshade
+      - hlsl
+      - graphics
     summary: Marty's Mods Epic Re Shade Effects
     last_synced_sha: 8fa641ef7af561a52cfc15f43155abd54b095b1f
     user_starred_at: "2024-10-06T21:21:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HLSL
       topics: []
@@ -52483,6 +52620,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:29:50.247Z"
+      prompt_version: v2
   - repo: git-ecosystem/git-credential-manager
     categories:
       - security
