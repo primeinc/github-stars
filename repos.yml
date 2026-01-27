@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:59:46.108Z"
+  manifest_updated_at: "2026-01-27T05:00:07.582Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -12906,13 +12906,17 @@ repositories:
       mirror_url: null
   - repo: EternalEvan/Astra
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - world-model
+      - autoregressive
+      - lang:python
     summary: 'The official repository of "Astra : General Interactive World Model with Autoregressive Denoising"'
     last_synced_sha: ad7d0534bd8ef659c91b01f0423666b86c16cd53
     user_starred_at: "2025-12-13T07:59:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -12929,15 +12933,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.582Z"
+      prompt_version: v2
   - repo: thedotmack/claude-mem
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-memory
+      - claude-plugin
+      - lang:ts
     summary: A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future ...
     last_synced_sha: d3331d1e22a0cac1cb5ebf0fdd29bf8b496b3ee4
     user_starred_at: "2025-12-11T19:22:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -12976,15 +12989,24 @@ repositories:
         published_at: "2026-01-26T20:52:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.582Z"
+      prompt_version: v2
   - repo: HotCakeX/Harden-Windows-Security
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - windows-security
+      - lang:csharp
+      - hardening
     summary: Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Pers...
     last_synced_sha: bab44ec7bf2e3db0c94085cdef312bade917905f
     user_starred_at: "2025-12-11T19:22:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -13023,15 +13045,24 @@ repositories:
         published_at: "2026-01-23T16:43:52Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.582Z"
+      prompt_version: v2
   - repo: lux032/MusicAutoTagger
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - music-tagger
+      - audio-fingerprinting
+      - lang:java
     summary: A smart music file organization tool based on audio fingerprinting technology. It automatically monitors the download directory, identifies songs using Acoust ID and Music Brainz, completes metadat...
     last_synced_sha: 5d4ed9b60e4a6b09be8dd49db877d93922409b85
     user_starred_at: "2025-12-08T08:55:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -13055,15 +13086,24 @@ repositories:
         published_at: "2026-01-14T14:50:07Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.582Z"
+      prompt_version: v2
   - repo: stdlib-js/stdlib
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - dev-tools
+    tags:
+      - stdlib
+      - mathematics
+      - lang:js
     summary: ✨ The fundamental numerical library for Java Script and Type Script. ✨
     last_synced_sha: 8f8998f02831c2db69698a26769916d68acfe54f
     user_starred_at: "2025-12-08T02:52:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -13102,15 +13142,24 @@ repositories:
         published_at: "2024-12-22T19:27:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.582Z"
+      prompt_version: v2
   - repo: vectorize-io/hindsight
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - memory
+      - agents
+      - lang:python
     summary: 'Hindsight: Agent Memory That Works Like Human Memory'
     last_synced_sha: f3c5a9c1c2058a2cead1aa187eafedfb6a6bb107
     user_starred_at: "2025-12-05T20:05:55Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -13132,15 +13181,24 @@ repositories:
         published_at: "2026-01-13T18:07:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.582Z"
+      prompt_version: v2
   - repo: pshenok/server-survival
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - learning
+    tags:
+      - tower-defense
+      - lang:js
+      - cloud
     summary: Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling.
     last_synced_sha: 7706d81cb1f018a8e88378432059e76844e70781
     user_starred_at: "2025-12-05T00:19:01Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -13168,15 +13226,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.582Z"
+      prompt_version: v2
   - repo: basecamp/fizzy
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - kanban
+      - lang:ruby
+      - rails
     summary: Kanban as it should be. Not as it has been.
     last_synced_sha: 02527349f9932e0e5936016260c9fdbe18be0de1
     user_starred_at: "2025-12-04T11:10:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -13199,15 +13266,24 @@ repositories:
         published_at: "2026-01-26T19:25:14Z"
       is_mirror: false
       mirror_url: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.582Z"
+      prompt_version: v2
   - repo: kaifcodec/user-scanner
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - osint
+      - username-scanner
+      - lang:python
     summary: Perform username and email OSINT across social, developer, gaming, and creator platforms to identify account existence and digital footprints. Useful for investigations, reconnaissance, brand analy...
     last_synced_sha: 161aa368bacdd5f0d1e8ce6d3433b23a7065f728
     user_starred_at: "2025-12-01T23:59:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -13238,15 +13314,24 @@ repositories:
         published_at: "2026-01-25T13:37:01Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.581Z"
+      prompt_version: v2
   - repo: Azure-Samples/Apim-Samples
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - apis
+    tags:
+      - azure-api-management
+      - lang:python
+      - containers
     summary: This repository provides a playground to safely experiment with and learn Azure API Management (APIM) policies in various architectures.
     last_synced_sha: ee33f72e53806fb374d43b465bc3e7f61e13e441
     user_starred_at: "2025-12-01T22:09:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -13283,15 +13368,24 @@ repositories:
         published_at: "2026-01-15T14:52:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.581Z"
+      prompt_version: v2
   - repo: alibaba/hooks
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - react-hooks
+      - lang:ts
+      - library
     summary: A high-quality & reliable React Hooks library. https://alibaba.github.io/hooks/
     last_synced_sha: 5f54d21de51a9b94545d2dcfb8a48bf946eed37f
     user_starred_at: "2025-11-29T23:20:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -13315,15 +13409,24 @@ repositories:
         published_at: "2025-10-27T05:00:33Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.581Z"
+      prompt_version: v2
   - repo: Ali-Hussein-dev/formcn
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - form-builder
+      - lang:ts
+      - react
     summary: Build production-ready forms with a few clicks
     last_synced_sha: 0cb5f89a40e01336e6742abdcedc051c0ae22ca2
     user_starred_at: "2025-11-29T23:17:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -13345,15 +13448,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.581Z"
+      prompt_version: v2
   - repo: Nic13Gamer/better-upload
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - file-upload
+      - s3
+      - lang:ts
     summary: Simple and easy file uploads for React. Upload directly to any S3-compatible service with minimal setup.
     last_synced_sha: acb3707d989baea0fc56bb3712591cf1f39b7ebc
     user_starred_at: "2025-11-29T22:57:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -13372,15 +13484,24 @@ repositories:
         published_at: "2026-01-01T23:14:32Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.581Z"
+      prompt_version: v2
   - repo: KalyanKS-NLP/Prompt-Engineering-Techniques-Hub
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - prompt-engineering
+      - ai
+      - techniques
     summary: This repo contains implementation of 25+ prompt engineering techniques.
     last_synced_sha: 496e9efd55ce7f130c2eccd2c9b3f53d20899d75
     user_starred_at: "2025-11-29T12:07:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -13397,15 +13518,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.581Z"
+      prompt_version: v2
   - repo: edera-dev/sprout
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - embedded
+    tags:
+      - bootloader
+      - uefi
+      - lang:rust
     summary: 'Sprout: UEFI Bootloader in Rust'
     last_synced_sha: 95e036072100a7e3e2955fffe6200320f0fb83b5
     user_starred_at: "2025-11-29T07:23:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -13429,6 +13559,11 @@ repositories:
         published_at: "2025-12-24T06:55:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:00:07.581Z"
+      prompt_version: v2
   - repo: ZeroLu/awesome-nanobanana-pro
     categories:
       - learning
