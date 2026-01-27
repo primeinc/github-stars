@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T05:02:32.111Z"
+  manifest_updated_at: "2026-01-27T05:02:52.698Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -9534,13 +9534,17 @@ repositories:
       mirror_url: null
   - repo: pqoqubbw/icons
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - animated-icons
+      - design
+      - lang:ts
     summary: beautifully crafted animated icons
     last_synced_sha: 681c22ac3ac65a7df8f018d1c851d1d8524eb5ed
     user_starred_at: "2025-12-28T07:33:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -9557,15 +9561,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.698Z"
+      prompt_version: v2
   - repo: eat-pray-ai/yutu
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - automation
+    tags:
+      - youtube
+      - bot
+      - lang:go
     summary: A fully functional MCP server and CLI for You Tube
     last_synced_sha: b27935abe229e0231c77d75b981ed834d7fc5716
     user_starred_at: "2025-12-28T07:31:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -9600,15 +9613,24 @@ repositories:
         published_at: "2025-12-25T15:42:56Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.698Z"
+      prompt_version: v2
   - repo: lirang04/GroundingME
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - testing
+    tags:
+      - evaluation
+      - grounding
+      - lang:python
     summary: Evaluation Code for Grounding ME
     last_synced_sha: aeb824e0bdd526d944b3fbb7456f503e5391f575
     user_starred_at: "2025-12-28T07:23:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -9625,15 +9647,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.698Z"
+      prompt_version: v2
   - repo: microsoft/vscode-generator-code
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - code-generator
+      - extensions
+      - lang:js
     summary: Visual Studio Code extension generator
     last_synced_sha: 72056989c83afedf204eb1ad43c42894937c5ba6
     user_starred_at: "2025-12-28T07:16:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -9652,15 +9683,24 @@ repositories:
         published_at: "2026-01-09T18:15:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.698Z"
+      prompt_version: v2
   - repo: Kong/insomnia
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - api-client
+      - http-client
+      - lang:ts
     summary: The open-source, cross-platform API client for Graph QL, REST, Web Sockets, SSE and g RPC. With Cloud, Local and Git storage.
     last_synced_sha: 7e2fedd9210426a538127583535c839ede37ca89
     user_starred_at: "2025-12-28T06:37:50Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9689,15 +9729,24 @@ repositories:
         published_at: "2026-01-15T01:39:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.698Z"
+      prompt_version: v2
   - repo: nccgroup/wssip
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - testing
+    tags:
+      - websocket
+      - mitm
+      - lang:js
     summary: Application for capturing, modifying and sending custom Web Socket data from client to server and vice versa.
     last_synced_sha: 56d0d2c15a7c0fd4c99be445ec8d6c16571e81a0
     user_starred_at: "2025-12-28T06:37:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -9721,15 +9770,24 @@ repositories:
         published_at: "2017-11-27T19:25:12Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.698Z"
+      prompt_version: v2
   - repo: trustedsec/social-engineer-toolkit
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - pentesting
+      - social-engineering
+      - lang:python
     summary: The Social-Engineer Toolkit (SET) repository from Trusted Sec - All new versions of SET will be deployed here.
     last_synced_sha: 43a5702025877acf3482b52c4ba824ece87b02a2
     user_starred_at: "2025-12-28T04:27:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -9746,15 +9804,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.694Z"
+      prompt_version: v2
   - repo: memstechtips/Winhance
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - windows-optimization
+      - customization
+      - lang:csharp
     summary: Application designed to optimize, customize and enhance your Windows experience.
     last_synced_sha: 7b639ea524f296404fe4067cf9af70c0b7d73ae3
     user_starred_at: "2025-12-28T04:23:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -9779,15 +9846,24 @@ repositories:
         published_at: "2026-01-26T15:40:02Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.694Z"
+      prompt_version: v2
   - repo: farion1231/cc-switch
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ai-ml
+    tags:
+      - assistant-tool
+      - provider-management
+      - lang:rust
     summary: A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, Open Code & Gemini CLI.
     last_synced_sha: c74f801d66a8ac5e3ae3c6bd7d923988d374d667
     user_starred_at: "2025-12-28T04:22:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -9822,15 +9898,24 @@ repositories:
         published_at: "2026-01-24T14:28:33Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.694Z"
+      prompt_version: v2
   - repo: mediar-ai/screenpipe
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - computer-vision
+      - machine-learning
+      - lang:ts
     summary: open source rewind | 100% local | dev friendly | 24/7 screen, mic recording
     last_synced_sha: 5afb728705b357f64853441679033136a7a808b0
     user_starred_at: "2025-12-28T04:20:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9858,15 +9943,24 @@ repositories:
         published_at: "2026-01-22T15:15:50Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.694Z"
+      prompt_version: v2
   - repo: nicotsx/zerobyte
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - backup
+    tags:
+      - self-hosting
+      - restic
+      - lang:ts
     summary: Backup automation for self-hosters. Built on top of restic
     last_synced_sha: c69615b3b645116c3e8cc4346741298d7b09545d
     user_starred_at: "2025-12-28T04:19:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -9885,15 +9979,24 @@ repositories:
         published_at: "2026-01-11T15:46:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.694Z"
+      prompt_version: v2
   - repo: ant-design/ant-design
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - ui-library
+      - design-systems
+      - lang:ts
     summary: An enterprise-class UI design language and React UI library
     last_synced_sha: dc8acf547d706e75d1368ab24ba77381295e9e35
     user_starred_at: "2025-12-28T04:17:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9919,15 +10022,24 @@ repositories:
         published_at: "2026-01-26T11:33:18Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.694Z"
+      prompt_version: v2
   - repo: NanmiCoder/MediaCrawler
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+    tags:
+      - crawler
+      - data-mining
+      - lang:python
     summary: 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫
     last_synced_sha: 94553fd8182d340913d564393f3e75aecc73fa55
     user_starred_at: "2025-12-28T04:15:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -9944,15 +10056,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.694Z"
+      prompt_version: v2
   - repo: SpriteOvO/AirPodsDesktop
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - bluetooth
+      - battery
+      - lang:cpp
     summary: ☄️ Air Pods desktop user experience enhancement program, for Windows and Linux (WIP)
     last_synced_sha: 254c07939fc37841685aa116635ea47bce1dba37
     user_starred_at: "2025-12-28T04:10:37Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -9981,15 +10102,24 @@ repositories:
         published_at: "2023-10-10T04:44:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.694Z"
+      prompt_version: v2
   - repo: stakira/OpenUtau
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ai-ml
+    tags:
+      - vocal-synthesis
+      - speech-synthesis
+      - lang:csharp
     summary: Open singing synthesis platform / Open source UTAU successor
     last_synced_sha: b955b0a16c99d95199c79468eb82a73fdbfad363
     user_starred_at: "2025-12-28T04:04:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -10017,6 +10147,11 @@ repositories:
         published_at: "2025-09-14T03:17:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:02:52.694Z"
+      prompt_version: v2
   - repo: builtbybel/FlyOOBE
     categories:
       - system-admin
