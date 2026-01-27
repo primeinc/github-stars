@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:49:55.793Z"
+  manifest_updated_at: "2026-01-27T04:50:19.349Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -25563,13 +25563,19 @@ repositories:
       mirror_url: null
   - repo: Prowlarr/Prowlarr
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - automation
+    tags:
+      - lang:csharp
+      - indexer
+      - torrent
+      - integration
+      - nzb
     summary: Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps, supporting management of both Torrent Trackers and Usenet Indexers.
     last_synced_sha: 688434ced9f51d8031f93b1988cf18ebe7069c0c
     user_starred_at: "2025-09-22T15:48:30Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -25594,15 +25600,25 @@ repositories:
         published_at: "2025-11-16T22:41:22Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.349Z"
+      prompt_version: v2
   - repo: LykosAI/StabilityMatrix
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - lang:csharp
+      - stable-diffusion
+      - package-manager
+      - multi-platform
     summary: Multi-Platform Package Manager for Stable Diffusion
     last_synced_sha: 6e3c40f1b6bb1446ccd1753ed56a385824274d66
     user_starred_at: "2025-09-22T15:48:07Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -25630,15 +25646,26 @@ repositories:
         published_at: "2025-12-29T03:05:20Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.349Z"
+      prompt_version: v2
   - repo: OpenRA/OpenRA
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - desktop-dev
+    tags:
+      - lang:csharp
+      - game-engine
+      - rts
+      - command-and-conquer
+      - cross-platform
     summary: 'Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and Open GL. Runs on Windows, Linux, *BSD and Mac OS X.'
     last_synced_sha: f827421b37032c17d20fe7b25d98b96580ed9be8
     user_starred_at: "2025-09-22T15:47:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -25672,15 +25699,26 @@ repositories:
         published_at: "2025-03-30T17:36:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.349Z"
+      prompt_version: v2
   - repo: asgeirtj/system_prompts_leaks
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - lang:js
+      - chatbots
+      - prompts
+      - llm
+      - openai
     summary: Collection of extracted System Prompts from popular chatbots like Chat GPT, Claude & Gemini
     last_synced_sha: 601a4e9d2464c885eec2275b1fa6b42bc2b71291
     user_starred_at: "2025-09-22T15:47:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -25711,15 +25749,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.349Z"
+      prompt_version: v2
   - repo: simdjson/simdjson
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - performance
+    tags:
+      - lang:cpp
+      - json
+      - simd
+      - parser
+      - avx2
     summary: 'Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, Click House, Watermelon DB, Apache Doris, Milvus, Star Rocks'
     last_synced_sha: e532d61e161972b9eeb55f5c8feedea66543aa44
     user_starred_at: "2025-09-22T15:46:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -25758,15 +25807,25 @@ repositories:
         published_at: "2025-12-18T01:34:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.349Z"
+      prompt_version: v2
   - repo: ytdl-org/youtube-dl
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - productivity
+    tags:
+      - lang:python
+      - video-download
+      - youtube
+      - offline-access
     summary: Command-line program to download videos from You Tube.com and other video sites
     last_synced_sha: 956b8c585591b401a543e409accb163eeaaa1193
     user_starred_at: "2025-09-22T15:45:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -25785,15 +25844,25 @@ repositories:
         published_at: "2021-12-16T19:01:08Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.349Z"
+      prompt_version: v2
   - repo: iyaja/llama-fs
     categories:
-      - unclassified
-    tags: []
+      - infrastructure
+      - ai-ml
+    tags:
+      - self-organizing
+      - lang:ts
+      - file-system
+      - ai-support
     summary: A self-organizing file system with llama 3
     last_synced_sha: 0a693717ca1845b3ae8c208b2929d987fcdabb81
     user_starred_at: "2025-09-22T15:41:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -25810,15 +25879,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.349Z"
+      prompt_version: v2
   - repo: formatjs/formatjs
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - lang:ts
+      - i18n
+      - react
+      - localization
+      - intl
     summary: The monorepo home to all of the Format JS related libraries, most notably react-intl.
     last_synced_sha: 05afc90f6f753f0075076725798cb50013a72233
     user_starred_at: "2025-09-22T15:39:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -25848,15 +25928,25 @@ repositories:
         published_at: "2026-01-19T16:29:41Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.349Z"
+      prompt_version: v2
   - repo: manaflow-ai/cmux
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - lang:ts
+      - alternative
+      - code-assistance
+      - cloud
     summary: Open source Claude Code web/Codex Cloud/Devin alternative
     last_synced_sha: 852aae305b17f73e70e6f132be4960f75d83ede4
     user_starred_at: "2025-09-22T15:37:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -25875,15 +25965,25 @@ repositories:
         published_at: "2026-01-27T00:48:05Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.349Z"
+      prompt_version: v2
   - repo: beefproject/beef
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - browser-exploitation
+      - lang:js
+      - framework
+      - penetration-testing
     summary: The Browser Exploitation Framework Project
     last_synced_sha: ddc27c8880da0d4ff1c1415d2031ee806f858eb1
     user_starred_at: "2025-09-22T15:36:48Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -25902,15 +26002,25 @@ repositories:
         published_at: "2025-10-24T07:09:07Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.349Z"
+      prompt_version: v2
   - repo: XTXMarkets/ternfs
     categories:
-      - unclassified
-    tags: []
+      - infrastructure
+      - system-admin
+    tags:
+      - file-system
+      - lang:cpp
+      - distributed
+      - multi-region
     summary: An exabyte-scale, multi-region distributed file system
     last_synced_sha: 660342764738e259aebf82482f216c293e3242d9
     user_starred_at: "2025-09-22T15:34:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -25927,15 +26037,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.349Z"
+      prompt_version: v2
   - repo: langchain-ai/social-media-agent
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - social-media
+      - curation
+      - lang:ts
+      - scheduling
     summary: "\U0001F4F2 An agent for sourcing, curating, and scheduling social media posts with human-in-the-loop."
     last_synced_sha: 3670f96fc2a968b96af482c0a758b7510b21752b
     user_starred_at: "2025-09-22T09:42:47Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -25952,15 +26072,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.348Z"
+      prompt_version: v2
   - repo: teableio/teable
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - productivity
+    tags:
+      - airtable-alternative
+      - lang:ts
+      - no-code
+      - postgres
+      - realtime
     summary: '✨ The Next Gen Airtable Alternative: No-Code Postgres'
     last_synced_sha: 465dda233f972405d394504396c1fc406df7da89
     user_starred_at: "2025-09-22T08:41:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -25992,15 +26123,26 @@ repositories:
         published_at: "2025-09-15T16:12:35Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.348Z"
+      prompt_version: v2
   - repo: home-assistant/frontend
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - home-automation
+    tags:
+      - frontend
+      - webcomponents
+      - lang:ts
+      - polymer
+      - lit-element
     summary: ':lollipop: Frontend for Home Assistant'
     last_synced_sha: 22742eec840918979b26ec93658a59a13ce1cdf6
     user_starred_at: "2025-09-22T08:41:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26026,15 +26168,26 @@ repositories:
         published_at: "2026-01-16T12:37:49Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.348Z"
+      prompt_version: v2
   - repo: vercel/swr
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - react
+      - data-fetching
+      - lang:ts
+      - hooks
+      - nextjs
     summary: React Hooks for Data Fetching
     last_synced_sha: b75456a8ceb7947f745ca79203c2f6577cb98ea2
     user_starred_at: "2025-09-22T08:40:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26066,6 +26219,11 @@ repositories:
         published_at: "2025-12-15T18:52:52Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:50:19.348Z"
+      prompt_version: v2
   - repo: Gregivy/simpleddp
     categories:
       - apis
