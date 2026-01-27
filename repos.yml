@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:38:31.475Z"
+  manifest_updated_at: "2026-01-27T04:38:53.462Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -40423,13 +40423,18 @@ repositories:
       mirror_url: null
   - repo: milistu/anthropic-parallel-calling
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+    tags:
+      - parallel-processing
+      - api
+      - rate-limit-optimization
+      - lang:python
     summary: Faster and cheaper! parallel processing of Anthropic API requests, optimizing for speed, cost-efficiency, and rate limit compliance.
     last_synced_sha: 3f2d312076a276da0341a074b0f12f36b1e07cda
     user_starred_at: "2025-05-24T22:38:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -40452,15 +40457,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.462Z"
+      prompt_version: v2
   - repo: ZitaoTech/HackberryPiCM5
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - productivity
+    tags:
+      - raspberry-pi
+      - linux-device
+      - handheld
     summary: An ultra portable handheld Linux device using Raspberry CM5 unit as Core with 4" 720X720 TFT Touch display and the original blackberry keyboard
     last_synced_sha: 479b852055ee31c6611b50ff1d67851e9b29ee4a
     user_starred_at: "2025-05-23T20:13:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -40479,15 +40493,24 @@ repositories:
         published_at: "2025-07-05T15:58:04Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.462Z"
+      prompt_version: v2
   - repo: microsoft/Microsoft-Win32-Content-Prep-Tool
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - intune
+      - win32
+      - deployment-tool
     summary: A tool to wrap Win32 App and then it can be uploaded to Intune
     last_synced_sha: 1d6cfcbdf8c28edc596337031f74df951f38f718
     user_starred_at: "2025-05-23T12:26:35Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -40506,15 +40529,25 @@ repositories:
         published_at: "2025-08-13T21:30:41Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.462Z"
+      prompt_version: v2
   - repo: anthropics/claude-code-action
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - llm
+      - chatgpt
+      - developer-tools
+      - lang:ts
     summary: No description provided
     last_synced_sha: 4126f9d9757c0875ff758aa45f3935bc9e3dd1e9
     user_starred_at: "2025-05-20T23:15:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -40533,15 +40566,25 @@ repositories:
         published_at: "2025-08-26T17:01:10Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.462Z"
+      prompt_version: v2
   - repo: Blaizzy/mlx-vlm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - vision-transformer
+      - vision-language-model
+      - apple-silicon
+      - lang:python
     summary: MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.
     last_synced_sha: e3944df7fdc3ca196887a1c67c57062efa3bdf24
     user_starred_at: "2025-05-20T22:52:39Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -40573,15 +40616,25 @@ repositories:
         published_at: "2025-12-03T21:47:51Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.462Z"
+      prompt_version: v2
   - repo: datajuicer/data-juicer
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - data-processing
+      - foundation-models
+      - synthetic-data
+      - lang:python
     summary: "Data processing for and with foundation models! \U0001F34E \U0001F34B \U0001F33D ➡️ ➡️\U0001F378 \U0001F379 \U0001F377"
     last_synced_sha: b9ea345dd7a5fba62536ddf7ba9fa09cda0c9256
     user_starred_at: "2025-05-20T19:30:21Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -40614,15 +40667,25 @@ repositories:
         published_at: "2026-01-13T06:36:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.462Z"
+      prompt_version: v2
   - repo: Fanghua-Yu/SUPIR
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - photo-restoration
+      - super-resolution
+      - stable-diffusion
+      - lang:python
     summary: SUPIR aims at developing Practical Algorithms for Photo-Realistic Image Restoration In the Wild. Our new online demo is also released at suppixel.ai.
     last_synced_sha: bda91af2000042f8bedfec8897d92917e67c1d88
     user_starred_at: "2025-05-20T19:29:46Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -40648,15 +40711,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.462Z"
+      prompt_version: v2
   - repo: Azure/arc_jumpstart_docs
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - cloud
+    tags:
+      - azure
+      - kubernetes
+      - cloud-native
+      - lang:python
     summary: A public repo for hosting the Arc Jumpstart docs
     last_synced_sha: 71a945c619f78acb441c6470d76a9b58347169fe
     user_starred_at: "2025-05-19T05:05:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -40683,15 +40756,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.462Z"
+      prompt_version: v2
   - repo: d2phap/ImageGlass
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - image-viewer
+      - dotnet
+      - photo-viewer
+      - lang:csharp
     summary: "\U0001F3DE A lightweight, versatile image viewer"
     last_synced_sha: 87f94ad4012b8698e3a8e6487838e0431d404cb4
     user_starred_at: "2025-05-16T16:45:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -40728,15 +40811,25 @@ repositories:
         published_at: "2026-01-02T11:22:53Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.462Z"
+      prompt_version: v2
   - repo: Wan-Video/Wan2.1
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-generation
+      - deep-learning
+      - aigc
+      - lang:python
     summary: 'Wan: Open and Advanced Large-Scale Video Generative Models'
     last_synced_sha: ae487cc653b4a1791fec8201af20d2102a2514f3
     user_starred_at: "2025-05-14T22:14:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -40755,15 +40848,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.462Z"
+      prompt_version: v2
   - repo: anderspitman/SirTunnel
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - ngrok-alternative
+      - ssh
+      - lang:python
     summary: Minimal, self-hosted, 0-config alternative to ngrok. Caddy+Open SSH+50 lines of Python.
     last_synced_sha: 82aaf92ddecaab4c62d3c9468ae38d59bafd1cba
     user_starred_at: "2025-05-12T21:53:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -40780,15 +40882,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.462Z"
+      prompt_version: v2
   - repo: Vinzent03/obsidian-git
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - git
+      - obsidian-plugin
+      - version-control
+      - lang:ts
     summary: Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md
     last_synced_sha: 9da8eebeb863571b61957131c9cb781c28f15e24
     user_starred_at: "2025-05-11T20:47:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40811,15 +40923,24 @@ repositories:
         published_at: "2026-01-11T19:16:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.462Z"
+      prompt_version: v2
   - repo: vrtmrz/obsidian-livesync
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cloud
+    tags:
+      - sync
+      - obsidian
+      - data
     summary: No description provided
     last_synced_sha: 3cd9b9e06d503b0e043814fd2b796d50f0027039
     user_starred_at: "2025-05-11T20:43:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -40838,15 +40959,25 @@ repositories:
         published_at: "2026-01-24T07:51:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.462Z"
+      prompt_version: v2
   - repo: voideditor/void
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - editor
+      - vscode-extension
+      - llm
+      - lang:ts
     summary: No description provided
     last_synced_sha: 17e7a5b1524345b19ab4ee38ec4f9b1b75a1bd00
     user_starred_at: "2025-05-11T20:02:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40875,15 +41006,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.458Z"
+      prompt_version: v2
   - repo: AvaLovelace1/BrickGPT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - game-dev
+    tags:
+      - generative-models
+      - toy-design
+      - ai
+      - lang:python
     summary: Official repository for Brick GPT, the first approach for generating physically stable toy brick models from text prompts.
     last_synced_sha: 2b0a9737b54da997c30420f8998d74f669650a8f
     user_starred_at: "2025-05-09T14:56:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -40900,6 +41041,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:38:53.458Z"
+      prompt_version: v2
   - repo: QiuYannnn/Local-File-Organizer
     categories:
       - productivity
