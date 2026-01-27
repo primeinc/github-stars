@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T05:04:25.393Z"
+  manifest_updated_at: "2026-01-27T05:04:50.572Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -7073,13 +7073,17 @@ repositories:
       mirror_url: null
   - repo: microsoft/monaco-editor
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - code-editor
+      - browser
+      - lang:js
     summary: A browser based code editor
     last_synced_sha: fe9dd23f49a64c1b2811d9eeec98f38876f93511
     user_starred_at: "2026-01-09T20:22:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -7103,15 +7107,25 @@ repositories:
         published_at: "2025-11-20T20:29:18Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.572Z"
+      prompt_version: v2
   - repo: MobSF/Mobile-Security-Framework-MobSF
     categories:
-      - unclassified
-    tags: []
+      - security
+      - mobile-dev
+    tags:
+      - static-analysis
+      - malware-analysis
+      - mobile-security
+      - lang:js
     summary: Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static...
     last_synced_sha: 2b08dd050e7685ee2a14fdbb454affab94129eae
     user_starred_at: "2026-01-09T20:21:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -7149,15 +7163,24 @@ repositories:
         published_at: "2026-01-26T07:01:34Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.572Z"
+      prompt_version: v2
   - repo: coredns/coredns
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - devops
+    tags:
+      - dns-server
+      - service-discovery
+      - lang:go
     summary: Core DNS is a DNS server that chains plugins
     last_synced_sha: b3d79f59e5b89dfd38bc41ca3780de2f0e6bce5d
     user_starred_at: "2026-01-09T20:20:44Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -7182,15 +7205,24 @@ repositories:
         published_at: "2026-01-16T05:35:34Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.572Z"
+      prompt_version: v2
   - repo: publicsuffix/list
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - dns
+      - lang:go
+      - public-suffix
     summary: The Public Suffix List
     last_synced_sha: 6c40921fc61160568b101aff506d548ba3300ba6
     user_starred_at: "2026-01-09T20:20:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -7207,15 +7239,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.572Z"
+      prompt_version: v2
   - repo: hashicorp/vault
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - secrets-management
+      - encryption
+      - lang:go
     summary: A tool for secrets management, encryption as a service, and privileged access management
     last_synced_sha: f0834d49cfe04beeb4139d62d149af1f744b7d25
     user_starred_at: "2026-01-09T20:19:27Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -7237,15 +7278,24 @@ repositories:
         published_at: "2026-01-07T18:09:58Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.572Z"
+      prompt_version: v2
   - repo: charmbracelet/crush
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - agentic-ai
+      - ai-tools
+      - lang:go
     summary: "Glamourous agentic coding for all \U0001F498"
     last_synced_sha: b94495230b21203935ad3b043fcaa789dd49d7d7
     user_starred_at: "2026-01-09T20:19:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -7268,15 +7318,25 @@ repositories:
         published_at: "2026-01-23T20:33:48Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.572Z"
+      prompt_version: v2
   - repo: istio/istio
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - networking
+    tags:
+      - service-mesh
+      - kubernetes
+      - lang:go
+      - microservices
     summary: Connect, secure, control, and observe services.
     last_synced_sha: 8a7ac6f6b06cd450a7338db8f88463d9adb1e75f
     user_starred_at: "2026-01-09T20:18:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -7311,15 +7371,24 @@ repositories:
         published_at: "2026-01-20T10:27:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.572Z"
+      prompt_version: v2
   - repo: facebook/rocksdb
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - embedded
+    tags:
+      - key-value-store
+      - storage-engine
+      - lang:cpp
     summary: A library that provides an embeddable, persistent key-value store for fast storage.
     last_synced_sha: cc691126e5ca7886f7face543ae8121878c59fb7
     user_starred_at: "2026-01-09T20:16:19Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -7340,15 +7409,25 @@ repositories:
         published_at: "2026-01-06T03:41:23Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.572Z"
+      prompt_version: v2
   - repo: upx/upx
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - packing-executables
+      - lang:cpp
+      - compression
+      - binary-tools
     summary: UPX - the Ultimate Packer for e Xecutables
     last_synced_sha: e166840857bbf1a3ad0e2418b35d27f6c37e3270
     user_starred_at: "2026-01-09T20:15:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -7367,15 +7446,26 @@ repositories:
         published_at: "2026-01-07T13:40:22Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.572Z"
+      prompt_version: v2
   - repo: google/flatbuffers
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - productivity
+    tags:
+      - serialization
+      - lang:cpp
+      - cross-platform
+      - efficient-storage
+      - data-marshalling
     summary: 'Flat Buffers: Memory Efficient Serialization Library'
     last_synced_sha: af8997b567a992b7644cbc8b2d7ba7d1858298e1
     user_starred_at: "2026-01-09T20:15:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -7414,15 +7504,24 @@ repositories:
         published_at: "2025-12-19T23:15:55Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.572Z"
+      prompt_version: v2
   - repo: umbraco/Umbraco-CMS
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - cms
+      - content-management
+      - lang:csharp
     summary: Umbraco is a free and open source .NET content management system helping you deliver delightful digital experiences.
     last_synced_sha: 2fb1221d68b903e4fe0612692e3abf96581a52d4
     user_starred_at: "2026-01-09T20:12:28Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -7448,15 +7547,24 @@ repositories:
         published_at: "2026-01-08T05:33:43Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.572Z"
+      prompt_version: v2
   - repo: memvid/claude-brain
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - llm-memory
+      - developer-tools
+      - lang:ts
     summary: Give Claude Code photographic memory in ONE portable file. No database, no SQLite, no Chroma DB - just a single .mv2 file you can git commit, scp, or share. Native Rust core with sub-ms operations.
     last_synced_sha: 5df71f77aafa4ec50e7fd4672997b6da7e2c3198
     user_starred_at: "2026-01-09T20:09:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7492,15 +7600,23 @@ repositories:
         published_at: "2026-01-05T22:41:15Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.572Z"
+      prompt_version: v2
   - repo: AutoMaker-Org/automaker
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - automation-tool
+      - lang:ts
     summary: No description provided
     last_synced_sha: a8ddd0744209a9ce09e34d55c39bc61f637d2888
     user_starred_at: "2026-01-09T20:08:59Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -7519,15 +7635,24 @@ repositories:
         published_at: "2026-01-20T23:56:36Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.572Z"
+      prompt_version: v2
   - repo: kepano/obsidian-skills
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - obsidian
+      - llms
+      - skills
     summary: Agent skills for Obsidian
     last_synced_sha: 4540df83fc68a68bef27e83ae79bc4f1b4d2ea7c
     user_starred_at: "2026-01-09T20:08:06Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -7548,15 +7673,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.572Z"
+      prompt_version: v2
   - repo: router-for-me/CLIProxyAPI
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - api-service
+      - llms
+      - lang:go
     summary: Wrap Gemini CLI, Antigravity, Chat GPT Codex, Claude Code, Qwen Code, i Flow as an Open AI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, ...
     last_synced_sha: 70897247b25b75658193445d1485276c0145af14
     user_starred_at: "2026-01-09T20:06:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -7582,6 +7716,11 @@ repositories:
         published_at: "2026-01-26T14:40:32Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T05:04:50.571Z"
+      prompt_version: v2
   - repo: freelawproject/courtlistener
     categories:
       - documentation
