@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:29:50.251Z"
+  manifest_updated_at: "2026-01-27T04:30:11.996Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -51493,13 +51493,19 @@ repositories:
       mirror_url: null
   - repo: msmhome/miniFaxServer
     categories:
-      - unclassified
-    tags: []
+      - infrastructure
+      - apis
+    tags:
+      - fax
+      - fax-server
+      - telnyx
+      - sms
+      - lang:python
     summary: "\U0001F4E0 A tiny, ready to deploy, simple fax server with SMS recieve running on the Telynx Programmable Fax and SMS APIs."
     last_synced_sha: 35a97fb843e9638792f336abfc4026cdc3973e35
     user_starred_at: "2025-01-15T07:05:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -51523,15 +51529,25 @@ repositories:
         published_at: "2025-04-05T06:04:42Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.996Z"
+      prompt_version: v2
   - repo: gridironsolutions/unifios-tailscale
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - tailscale
+      - vpn
+      - wireguard
+      - udm-pro
     summary: Run Tailscale natively on Unifi UDM-Pro Dream Machine
     last_synced_sha: c34cf5fc0963e3f33447e1b84e4665daccbaa7cd
     user_starred_at: "2025-01-15T01:43:56Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -51556,15 +51572,25 @@ repositories:
         published_at: "2023-03-01T19:42:34Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.996Z"
+      prompt_version: v2
   - repo: Aayush9029/NativeYoutube
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - youtube
+      - swiftui
+      - macos
+      - lang:swift
     summary: Personal App that turned into "alpha released app" v3
     last_synced_sha: 3c42cbbd5f8b06a90165b97ae6064d45940482bc
     user_starred_at: "2025-01-11T04:39:00Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics:
@@ -51588,15 +51614,26 @@ repositories:
         published_at: "2022-12-23T23:51:54Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.996Z"
+      prompt_version: v2
   - repo: mailcow/mailcow-dockerized
     categories:
-      - unclassified
-    tags: []
+      - devops
+      - containers
+    tags:
+      - mailserver
+      - docker
+      - mailcow
+      - docker-compose
+      - lang:js
     summary: "mailcow: dockerized - \U0001F42E + \U0001F40B = \U0001F495"
     last_synced_sha: e8d9315d4ad6ae886b8146f618df1813db546254
     user_starred_at: "2025-01-06T16:13:09Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -51632,15 +51669,26 @@ repositories:
         published_at: "2025-12-12T13:11:23Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.995Z"
+      prompt_version: v2
   - repo: toeverything/AFFiNE
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - knowledge-base
+      - whiteboard
+      - workspace
+      - next-gen-editor
+      - lang:ts
     summary: There can be more than Notion and Miro. AFFi NE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable a...
     last_synced_sha: b8f626513fb33f832a16ebc2260805e9914bd204
     user_starred_at: "2025-01-05T18:01:31Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -51677,15 +51725,26 @@ repositories:
         published_at: "2025-12-09T04:34:14Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.995Z"
+      prompt_version: v2
   - repo: jaywcjlove/awesome-mac
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - macos
+      - awesome-list
+      - software
+      - desktop-apps
+      - lang:js
     summary:  Now we have become very big, Different from the original idea. Collect premium software in various categories.
     last_synced_sha: 0919ed692ccf0924692ac4dbbfa11bcafa37ab2a
     user_starred_at: "2025-01-05T18:00:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -51723,15 +51782,24 @@ repositories:
         published_at: "2025-12-18T12:04:37Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.995Z"
+      prompt_version: v2
   - repo: MkQtS/Carefree
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - potplayer
+      - potplayer-skin
+      - aesthetic
     summary: An elegant Potplayer skin
     last_synced_sha: b42fc77388919d2cdcd6bdf1fd3808657c323e9d
     user_starred_at: "2025-01-05T17:02:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -51750,15 +51818,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.995Z"
+      prompt_version: v2
   - repo: alufers/mitmproxy2swagger
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+    tags:
+      - reverse-engineering
+      - swagger
+      - mitmproxy
+      - openapi
     summary: Automagically reverse-engineer REST APIs via capturing traffic
     last_synced_sha: 2b3b3d83abf1d90e3e2871994307d6a776981384
     user_starred_at: "2025-01-05T03:30:15Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -51781,15 +51859,25 @@ repositories:
         published_at: "2024-12-12T13:25:26Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.995Z"
+      prompt_version: v2
   - repo: Cinnamon/kotaemon
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - chatbot
+      - rag
+      - llms
+      - lang:python
     summary: An open-source RAG-based tool for chatting with your documents.
     last_synced_sha: 37cdc28ceb46e505d25221584daf1fe61e26b2cc
     user_starred_at: "2025-01-05T03:29:58Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -51812,15 +51900,25 @@ repositories:
         published_at: "2025-07-04T11:34:28Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.995Z"
+      prompt_version: v2
   - repo: loco-rs/loco
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - apis
+    tags:
+      - rust
+      - api
+      - lang:rust
+      - side-projects
     summary: "\U0001F682 \U0001F980 The one-person framework for Rust for side-projects and startups"
     last_synced_sha: 13984b401057515e321775ccbbed95a8d8463f5a
     user_starred_at: "2025-01-05T03:29:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -51843,15 +51941,25 @@ repositories:
         published_at: "2025-07-27T09:28:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.995Z"
+      prompt_version: v2
   - repo: stanford-oval/storm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - large-language-models
+      - knowledge-curation
+      - report-generation
+      - lang:python
     summary: An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.
     last_synced_sha: fb951af7744dab086e34962e9bc6fe878e145f83
     user_starred_at: "2025-01-05T03:29:18Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -51879,15 +51987,26 @@ repositories:
         published_at: "2025-01-23T07:21:44Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.995Z"
+      prompt_version: v2
   - repo: flutter/flutter
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - mobile-dev
+      - desktop-dev
+    tags:
+      - cross-platform
+      - dart
+      - mobile-development
+      - ui-framework
     summary: Flutter makes it easy and fast to build beautiful apps for mobile and beyond
     last_synced_sha: a4561432d000b086b7d1cb3dabd0b2ecea1fb9af
     user_starred_at: "2025-01-05T03:29:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -51925,15 +52044,25 @@ repositories:
         published_at: "2024-01-11T18:31:57Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.995Z"
+      prompt_version: v2
   - repo: gitroomhq/postiz-app
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - scheduling-tool
+      - social-media
+      - nextjs
+      - lang:ts
     summary: "\U0001F4E8 The ultimate social media scheduling tool, with a bunch of AI \U0001F916"
     last_synced_sha: 7e92a767e4a319a12402d0ffc3b683703d6383cd
     user_starred_at: "2025-01-05T03:29:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -51960,15 +52089,25 @@ repositories:
         published_at: "2026-01-17T10:07:08Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.995Z"
+      prompt_version: v2
   - repo: neuralchen/SimSwap
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deepfakes
+      - faceswap
+      - image-manipulation
+      - lang:python
     summary: An arbitrary face-swapping framework on images and videos with one single trained model!
     last_synced_sha: bd7b7686a17f41dd11cfcd5d82f7e4c5eb94b780
     user_starred_at: "2025-01-04T16:59:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -51996,15 +52135,25 @@ repositories:
         published_at: "2021-11-24T11:17:40Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.995Z"
+      prompt_version: v2
   - repo: somanchiu/ReSwapper
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deep-learning
+      - faceswap
+      - image-to-image
+      - lang:python
     summary: Re Swapper aims to reproduce the implementation of inswapper. This repository provides code for training, inference, and includes pretrained weights.
     last_synced_sha: 44474cb8d85d15274ae274e5e0f5f44f0814af51
     user_starred_at: "2025-01-04T16:57:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -52027,6 +52176,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:30:11.994Z"
+      prompt_version: v2
   - repo: Julusian/node-xencelabs-quick-keys
     categories:
       - cli-tools
