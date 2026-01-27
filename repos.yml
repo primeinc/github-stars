@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-27T04:42:45.353Z"
+  manifest_updated_at: "2026-01-27T04:43:08.737Z"
   total_repos: 2064
   generator_version: v1.0.0
   github_user: primeinc
@@ -35114,13 +35114,17 @@ repositories:
       mirror_url: null
   - repo: pangaea-data-publisher/qualianon
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - anonymization
+      - data-tools
+      - lang:java
     summary: Quali Anon is a tool to support the anonymization of text data. It is developed by the Qualiservice research data center for the anonymization of interviews in the qualitative social sciences for a...
     last_synced_sha: dfef926c1ce047f703a9abb14c9f99f3c90232e4
     user_starred_at: "2025-07-12T06:13:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -35141,15 +35145,24 @@ repositories:
         published_at: "2025-02-28T10:46:52Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.737Z"
+      prompt_version: v2
   - repo: coffeeAndCodeMSO/mort_comp
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - financial-tools
+      - mortgage-comparison
+      - lang:js
     summary: Compare two mortgages to see which is a better deal. Typically a 15 year versus a 30 year mortgage.
     last_synced_sha: 1a1c6ce1a09271910e74264533158cf872a31656
     user_starred_at: "2025-07-12T06:10:26Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -35166,15 +35179,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.737Z"
+      prompt_version: v2
   - repo: cfpb/hmda-tools
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+    tags:
+      - data-tools
+      - mortgage-analysis
+      - lang:python
     summary: Tools to make importing and analyzing mortgage application data easier. This is a public domain work of the US Government.
     last_synced_sha: 571f1ac67158d7e89c76346b646e741b3efe82b0
     user_starred_at: "2025-07-12T06:04:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35191,15 +35213,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.737Z"
+      prompt_version: v2
   - repo: jbmohler/mortgage
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+    tags:
+      - financial-tools
+      - mortgage-calculations
+      - lang:python
     summary: Python mortgage amortization calculations
     last_synced_sha: e4ecef1eeeceebfc51f3421f077727e5abefee17
     user_starred_at: "2025-07-12T06:01:33Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35216,15 +35247,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.737Z"
+      prompt_version: v2
   - repo: qbcore-framework/qb-housing
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - housing-system
+      - fivem
+      - real-estate
     summary: The next iteration of QBCore’s housing system
     last_synced_sha: 8599a518459c68729d05fea391578aa13a7b6b5f
     user_starred_at: "2025-07-12T05:58:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -35241,15 +35281,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.737Z"
+      prompt_version: v2
   - repo: bibek376/Housing_Price_Prediction
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - machine-learning
+      - price-prediction
+      - housing
+      - lang:python
     summary: No description provided
     last_synced_sha: 731b9875c0ba8b3f0459ee1455622f7a7f1cf6c4
     user_starred_at: "2025-07-12T05:57:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -35273,15 +35323,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.737Z"
+      prompt_version: v2
   - repo: Vidito/webscraping_housing
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+    tags:
+      - web-scraping
+      - csv-generation
+      - lang:python
     summary: Using Beautiful Soup to scrape a real estate agency website and generaate a CSV file based on the findings.
     last_synced_sha: 7b21382d500ae93ed4a0e467472b943980237783
     user_starred_at: "2025-07-12T05:57:14Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35298,15 +35357,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.737Z"
+      prompt_version: v2
   - repo: borisnliscool/bnl-housing
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - apis
+    tags:
+      - lua
+      - fivem
+      - property-management
+      - svelte
     summary: "\U0001F3E0 An open-source Five M player property script with extensive API for ultimate customization"
     last_synced_sha: eaf4568c150392681f604bf805ad17c21d55d0dd
     user_starred_at: "2025-07-12T05:56:53Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Lua
@@ -35328,15 +35397,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: svelte
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.737Z"
+      prompt_version: v2
   - repo: rodrigouroz/housing_scrapper
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+    tags:
+      - web-scraping
+      - real-estate
+      - lang:python
     summary: A script to scrap housing listings sites
     last_synced_sha: 99628c2dd5ea80ee8dc328fc36b8d0c4d3889b42
     user_starred_at: "2025-07-12T05:56:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35353,15 +35431,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.736Z"
+      prompt_version: v2
   - repo: laurenshareshian/home_price_estimator
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - real-estate
+      - nlp
+      - image-processing
+      - home-pricing
     summary: Uses Zillow metadata, NLP on realtor description, and VGG16 on home images to predict home sale prices in Portland from 6/16 - 7/17.
     last_synced_sha: 337dfc17005064b2d01a1416453cd70347a08a04
     user_starred_at: "2025-07-12T05:54:03Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -35378,15 +35466,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.736Z"
+      prompt_version: v2
   - repo: pangrr/realtor
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+    tags:
+      - web-scraping
+      - real-estate
+      - lang:python
     summary: crawl house data from realtor.com
     last_synced_sha: f01f171786a319c04419d3e4913dcec46478a31a
     user_starred_at: "2025-07-12T05:53:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35403,15 +35500,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.736Z"
+      prompt_version: v2
   - repo: pablotanner/RealtorRocket
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - real-estate
+      - dashboard
+      - express
+      - react
+      - lang:js
     summary: Real Estate Management Software
     last_synced_sha: 22effec5246ad332102d9ac89a571590bcd73752
     user_starred_at: "2025-07-12T05:53:36Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -35440,15 +35548,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.736Z"
+      prompt_version: v2
   - repo: harry-s-grewal/mls-real-estate-scraper-for-realtor.ca
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - automation
+    tags:
+      - real-estate
+      - data-scraping
+      - housing-prices
+      - lang:python
     summary: Python MLS and Real-Estate Data Scraper for the Realtor.ca Website
     last_synced_sha: 6383b63ab2c8ed102cc52eb2599f5614e467bdc0
     user_starred_at: "2025-07-12T05:52:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -35474,15 +35592,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.736Z"
+      prompt_version: v2
   - repo: Exclusiveideas/Realtor
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - real-estate
+      - react
+      - chakra-ui
+      - lang:js
     summary: A real-estate website with realtime data and information on houses for rent and for sale.
     last_synced_sha: 8cade6e3cc1237d68bf9f7c8d7e6519c28583780
     user_starred_at: "2025-07-12T05:52:25Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -35506,15 +35634,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.733Z"
+      prompt_version: v2
   - repo: Froren/realtorca
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - api-wrapper
+      - real-estate
+      - lang:js
     summary: API wrapper for realtor.ca MLS website
     last_synced_sha: 3419970f3edc1f8061074301bb4701e90b68fc76
     user_starred_at: "2025-07-12T05:52:17Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -35531,6 +35668,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-27T04:43:08.733Z"
+      prompt_version: v2
   - repo: baizel36/property_search
     categories:
       - automation
