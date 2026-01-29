@@ -30,7 +30,7 @@ jobs:
 
 
       - name: Generate Content
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const fs = require('fs');
@@ -166,8 +166,9 @@ jobs:
               const existingFiles = fs.readdirSync(dir).filter(f => f.endsWith('.md'));
               const orphans = existingFiles.filter(f => !validFiles.has(f));
               orphans.forEach(f => {
-                console.log(`Removing orphaned file: ${dir}/${f}`);
-                fs.unlinkSync(path.join(dir, f));
+                const filePath = path.join(dir, f);
+                console.log(`Removing orphaned file: ${filePath}`);
+                fs.unlinkSync(filePath);
               });
               if (orphans.length > 0) {
                 console.log(`Cleaned up ${orphans.length} orphaned files from ${dir}/`);
