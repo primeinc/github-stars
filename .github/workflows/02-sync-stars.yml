@@ -45,10 +45,7 @@ jobs:
           mode: 'lax'
 
       - name: Setup environment
-        run: |
-          mkdir -p .github-stars/data
-          wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
-          chmod +x ./yq
+        run: mkdir -p .github-stars/data
 
       - name: Update manifest
         id: diff
@@ -79,7 +76,8 @@ jobs:
             }
             
             // Increase buffer to 50MB to handle large manifests
-            const manifestJson = execSync('./yq eval -o=json -', { 
+            // yq (mikefarah) is pre-installed on ubuntu-latest runners since 2023
+            const manifestJson = execSync('yq eval -o=json -', { 
               input: yamlContent, 
               encoding: 'utf8',
               maxBuffer: 50 * 1024 * 1024 
@@ -196,7 +194,7 @@ jobs:
 
       - name: Convert to YAML
         if: steps.diff.outputs.changed == 'true'
-        run: ./yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
+        run: yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
 
       - name: Cleanup
         if: always()

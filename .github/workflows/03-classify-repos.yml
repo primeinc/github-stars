@@ -37,10 +37,7 @@ jobs:
           done
 
       - name: Setup
-        run: |
-          mkdir -p .github-stars/data
-          wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
-          chmod +x ./yq
+        run: mkdir -p .github-stars/data
 
       - name: Prepare repos
         id: prep
@@ -56,7 +53,8 @@ jobs:
             }
             
             const yaml = fs.readFileSync('repos.yml', 'utf8');
-            const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
+            // yq (mikefarah) pre-installed on ubuntu-latest since 2023
+            const json = execSync('yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
             const data = JSON.parse(json);
 
             const unclassified = data.repositories.filter(r => 
@@ -74,21 +72,68 @@ jobs:
               return;
             }
 
-            const repoData = batch.map(r => ({
-              repo: r.repo,
-              summary: r.summary,
-              language: r.github_metadata?.language || null,
-              topics: r.github_metadata?.topics || [],
-              stargazers_count: r.github_metadata?.stargazers_count || 0
-            }));
+            // SECURITY: Sanitize inputs to prevent prompt injection
+            const sanitizeText = (text) => {
+              if (!text || typeof text !== 'string') return '';
+              // Remove control characters, excessive whitespace, and potential injection patterns
+              return text
+                .replace(/[\x00-\x1F\x7F]/g, '') // Remove control chars
+                .replace(/\s+/g, ' ') // Normalize whitespace
+                .replace(/(['"`])\1+/g, '$1') // Remove only consecutive duplicate quotes
+                .trim()
+                .slice(0, 500); // Limit length
+            };
+            
+            const repoNamePattern = /^[a-zA-Z0-9._-]+\/[a-zA-Z0-9._-]+$/;
+            const repoData = batch.map(r => {
+              const sanitizedRepo = String(r.repo).replace(/[^a-zA-Z0-9/_.-]/g, '');
+              if (!repoNamePattern.test(sanitizedRepo)) {
+                console.log(`Warning: Skipping invalid repo name format: ${sanitizedRepo}`);
+                return null;
+              }
+              return {
+                repo: sanitizedRepo,
+                summary: sanitizeText(r.summary),
+                language: r.github_metadata?.language ? sanitizeText(r.github_metadata.language) : null,
+                topics: (r.github_metadata?.topics || [])
+                  .filter(t => typeof t === 'string')
+                  .map(t => sanitizeText(t))
+                  .filter(t => t.length > 0)
+                  .slice(0, 10),
+                stargazers_count: Math.max(0, parseInt(r.github_metadata?.stargazers_count, 10) || 0)
+              };
+            }).filter(Boolean);
 
+            // SECURITY: Load taxonomy dynamically to ensure consistency
+            const allowedCategories = data.taxonomy?.categories_allowed || [];
+            const allowedFrameworks = data.taxonomy?.frameworks_allowed || [];
+            
+            // Fail early if taxonomy is missing or empty
+            if (allowedCategories.length === 0) {
+              core.setFailed('Taxonomy categories_allowed is empty or missing - cannot classify');
+              return;
+            }
+            
+            // Generate language tags dynamically from batch, with fallback
+            const languageAliasMap = {
+              javascript: 'js', typescript: 'ts', 'c++': 'cpp', 'c#': 'csharp'
+            };
+            let languageTags = [...new Set(
+              repoData.map(r => r.language).filter(Boolean)
+                .map(l => l.toLowerCase())
+                .map(l => languageAliasMap[l] || l)
+            )];
+            if (languageTags.length === 0) {
+              languageTags = ['js', 'ts', 'python', 'rust', 'go', 'java', 'cpp', 'csharp'];
+            }
+            
             const systemPrompt = `Classify GitHub repos. Output ONLY a JSON array.
 
-            CATEGORIES: dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, cli-tools, devops, infrastructure
+            CATEGORIES (ONLY use from this list): ${allowedCategories.join(', ')}
 
-            FRAMEWORKS: react, vue, angular, svelte, nextjs, nuxtjs, express, fastapi, django, flask, rails, laravel, spring
+            FRAMEWORKS (ONLY use from this list OR null): ${allowedFrameworks.join(', ')}
 
-            LANGUAGE TAGS: lang:js, lang:ts, lang:python, lang:rust, lang:go, lang:java, lang:kotlin, lang:swift, lang:ruby, lang:cpp, lang:c, lang:csharp, lang:php
+            LANGUAGE TAGS: ${languageTags.map(l => `lang:${l}`).join(', ')}
 
             RULES:
             - 2-4 categories per repo
@@ -183,8 +228,14 @@ jobs:
             }
 
             const yaml = fs.readFileSync('repos.yml', 'utf8');
-            const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
+            const json = execSync('yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
             const data = JSON.parse(json);
+
+            // Extract taxonomy for validation
+            const allowedCategories = new Set(data.taxonomy?.categories_allowed || []);
+            const allowedFrameworks = new Set(data.taxonomy?.frameworks_allowed || []);
+            
+            console.log(`Loaded taxonomy: ${allowedCategories.size} categories, ${allowedFrameworks.size} frameworks`);
 
             let count = 0;
             const tagPattern = /^([a-z]+:)?[a-z0-9][a-z0-9-]*$/;
@@ -192,23 +243,41 @@ jobs:
             for (const c of classifications) {
               const idx = data.repositories.findIndex(r => r.repo === c.repo);
               if (idx !== -1) {
-                // Sanitize categories (basic check)
-                const safeCategories = (c.categories || []).filter(cat => /^[a-z][a-z0-9-]*$/.test(cat)).slice(0, 5);
+                // SECURITY: Validate categories against taxonomy
+                const safeCategories = (c.categories || [])
+                  .filter(cat => typeof cat === 'string' && /^[a-z][a-z0-9-]*$/.test(cat))
+                  .filter(cat => allowedCategories.has(cat))
+                  .slice(0, 5);
+                
+                if (safeCategories.length === 0 && (c.categories || []).length > 0) {
+                  console.log(`Warning: All categories rejected for ${c.repo}, invalid: ${(c.categories || []).join(', ')}`);
+                }
                 
                 // Sanitize tags: lowercase, replace space with dash, filter by pattern
                 const safeTags = (c.tags || [])
-                  .map(t => t.toLowerCase().replace(/[^a-z0-9-:]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, ''))
+                  .map(t => String(t).toLowerCase().replace(/[^a-z0-9-:]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, ''))
                   .filter(t => tagPattern.test(t))
                   .slice(0, 20);
+                
+                // SECURITY: Validate framework against taxonomy
+                let validFramework = null;
+                if (c.framework && typeof c.framework === 'string') {
+                  validFramework = allowedFrameworks.has(c.framework) ? c.framework : null;
+                  if (!validFramework && c.framework) {
+                    console.log(`Warning: Framework "${c.framework}" not in taxonomy for ${c.repo}`);
+                  }
+                }
 
+                const allCategoriesRejected = safeCategories.length === 0 && (c.categories || []).length > 0;
                 data.repositories[idx].categories = safeCategories.length > 0 ? safeCategories : ["unclassified"];
                 data.repositories[idx].tags = safeTags;
-                data.repositories[idx].framework = c.framework;
-                data.repositories[idx].needs_review = false;
+                data.repositories[idx].framework = validFramework;
+                // Keep needs_review=true if all AI categories were rejected, so it can be retried
+                data.repositories[idx].needs_review = allCategoriesRejected;
                 data.repositories[idx].ai_classification = {
                   model: "gpt-4o",
                   classified_at: new Date().toISOString(),
-                  prompt_version: "v2"
+                  prompt_version: "v3"
                 };
                 count++;
               }
@@ -220,7 +289,7 @@ jobs:
 
       - name: Convert to YAML
         if: steps.apply.outputs.count > 0
-        run: ./yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
+        run: yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
 
       - name: Cleanup
         if: always()
@@ -234,8 +303,63 @@ jobs:
           file: repos.yml
           mode: lax
 
-      - name: Commit
+      - name: Post-Classification Verification
         if: steps.apply.outputs.count > 0
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require('fs');
+            const { execSync } = require('child_process');
+            
+            const yaml = fs.readFileSync('repos.yml', 'utf8');
+            const json = execSync('yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
+            const data = JSON.parse(json);
+            
+            const allowedCategories = new Set(data.taxonomy?.categories_allowed || []);
+            const allowedFrameworks = new Set(data.taxonomy?.frameworks_allowed || []);
+            
+            let errors = [];
+            let warnings = [];
+            
+            data.repositories.forEach((r, idx) => {
+              // Verify all categories are valid (skip 'unclassified' - it's a fallback)
+              (r.categories || []).forEach(cat => {
+                if (cat !== 'unclassified' && !allowedCategories.has(cat)) {
+                  errors.push(`Repo ${r.repo}: Invalid category "${cat}" not in taxonomy`);
+                }
+              });
+              
+              // Verify framework if set
+              if (r.framework && !allowedFrameworks.has(r.framework)) {
+                errors.push(`Repo ${r.repo}: Invalid framework "${r.framework}" not in taxonomy`);
+              }
+              
+              // Verify tag format
+              const tagPattern = /^([a-z]+:)?[a-z0-9][a-z0-9-]*$/;
+              (r.tags || []).forEach(tag => {
+                if (!tagPattern.test(tag)) {
+                  warnings.push(`Repo ${r.repo}: Tag "${tag}" doesn't match expected pattern`);
+                }
+              });
+            });
+            
+            if (errors.length > 0) {
+              console.log('VALIDATION ERRORS:');
+              errors.forEach(e => console.log(`  ❌ ${e}`));
+              core.setFailed(`Found ${errors.length} validation errors`);
+            }
+            
+            if (warnings.length > 0) {
+              console.log('VALIDATION WARNINGS:');
+              warnings.forEach(w => console.log(`  ⚠️ ${w}`));
+            }
+            
+            if (errors.length === 0 && warnings.length === 0) {
+              console.log('✅ All classifications validated successfully');
+            }
+
+      - name: Commit
+        if: steps.apply.outputs.count > 0 && success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -255,7 +379,7 @@ jobs:
             const fs = require('fs');
             const { execSync } = require('child_process');
             const yaml = fs.readFileSync('repos.yml', 'utf8');
-            const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
+            const json = execSync('yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
             const data = JSON.parse(json);
             const remaining = data.repositories.filter(r => 
               r.categories.includes('unclassified') && (r.needs_review || !r.ai_classification?.classified_at)
