@@ -71,9 +71,9 @@
 | [Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy) | 🦄 A curated list of privacy & security-focused software and services | `Astro` ★ 8.8k | 2026-01-17 |
 | [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) | 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2024 | `TypeScript` ★ 20.6k | 2025-06-28 |
 | [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | A curated list of awesome READMEs | ★ 20.3k | 2026-01-24 |
-| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page_facing_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 26.1k | 2025-12-31 |
+| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page\_facing\_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 26.1k | 2025-12-31 |
 | [saturn-abhishek/awesome-github-profile-readme](https://github.com/saturn-abhishek/awesome-github-profile-readme) | 😎 A curated list of awesome Git Hub Profile which updates in real time | ★ 29k | 2024-08-19 |
-| [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: | ★ 80.5k | 2024-07-29 |
+| [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar\_board: | ★ 80.5k | 2024-07-29 |
 | [openstates/openstates-scrapers](https://github.com/openstates/openstates-scrapers) | source for Open States scrapers | `Python` ★ 886 | 2026-01-27 |
 | [microsoft/poml](https://github.com/microsoft/poml) | Prompt Orchestration Markup Language | `TypeScript` ★ 4.8k | 2026-01-14 |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown. | `Python` ★ 86k | 2026-01-08 |
@@ -100,7 +100,7 @@
 | [TA1312/supernote-a5x](https://github.com/TA1312/supernote-a5x) | various security information on the supernote a5x | `Batchfile` ★ 130 | 2022-12-07 |
 | [Azure/arc_jumpstart_docs](https://github.com/Azure/arc_jumpstart_docs) | A public repo for hosting the Arc Jumpstart docs | `Python` ★ 53 | 2025-12-17 |
 | [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | 📄 Configuration files that enhance Cursor AI editor experience with custom rules and behaviors | `MDX` ★ 37.5k | 2025-10-24 |
-| [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) | [WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025) | `Jupyter Notebook` ★ 13.3k | 2025-02-12 |
+| [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) | \[WIP\] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025) | `Jupyter Notebook` ★ 13.3k | 2025-02-12 |
 | [tauri-apps/tauri-docs](https://github.com/tauri-apps/tauri-docs) | The source for all Tauri project documentation. | `MDX` ★ 1k | 2026-01-28 |
 | [heroku/12factor](https://github.com/heroku/12factor) | No description provided | `CSS` ★ 3.8k | 2025-07-18 |
 | [twelve-factor/twelve-factor](https://github.com/twelve-factor/twelve-factor) | The Twelve-Factor Manifesto | ★ 2.1k | 2025-08-21 |
@@ -138,7 +138,7 @@
 | [Maks-s/sd-akashic](https://github.com/Maks-s/sd-akashic) | A compendium of informations regarding Stable Diffusion (SD) | ★ 1.6k | 2023-03-08 |
 | [Servarr/Wiki](https://github.com/Servarr/Wiki) | No description provided | `Python` ★ 576 | 2026-01-27 |
 | [WADComs/WADComs.github.io](https://github.com/WADComs/WADComs.github.io) | WADComs is an interactive cheat sheet, containing a curated list of offensive security tools and their respective commands, to be used against Windows/AD environments. | `HTML` ★ 1.6k | 2025-08-29 |
-| [cheat/cheat](https://github.com/cheat/cheat) | cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not ... | `Go` ★ 13.2k | 2024-07-29 |
+| [cheat/cheat](https://github.com/cheat/cheat) | cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind \*nix system administrators of options for commands that they use frequently, but not ... | `Go` ★ 13.2k | 2024-07-29 |
 | [rappasoft/laravel-boilerplate](https://github.com/rappasoft/laravel-boilerplate) | The Laravel Boilerplate Project - https://laravel-boilerplate.com | `PHP` ★ 5.7k | 2025-09-28 |
 | [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) | A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem | ★ 13k | 2024-07-03 |
 | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 432.9k | 2026-01-28 |

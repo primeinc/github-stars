@@ -23,7 +23,7 @@
 | [RodericAguilar/Pr_Elevators](https://github.com/RodericAguilar/Pr_Elevators) | Free fivem elevator scripts, works without framework. | `Lua` ★ 25 | 2024-10-14 |
 | [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 34k | 2026-01-29 |
 | [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minecraft with a high level of detail. | `Rust` ★ 8.2k | 2026-01-27 |
-| [ppy/osu](https://github.com/ppy/osu) | rhythm is just a *click* away! | `C#` ★ 17.9k | 2026-01-28 |
+| [ppy/osu](https://github.com/ppy/osu) | rhythm is just a \*click\* away! | `C#` ★ 17.9k | 2026-01-28 |
 | [jynew/jynew](https://github.com/jynew/jynew) | Jin Yong Legend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game. | `C#` ★ 8.8k | 2025-04-19 |
 | [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) | Multiplayer at the speed of light | `Rust` ★ 19k | 2026-01-29 |
 | [retroplasma/earth-reverse-engineering](https://github.com/retroplasma/earth-reverse-engineering) | Reversing Google's 3D satellite mode | `C` ★ 2.3k | 2020-12-23 |
@@ -31,14 +31,14 @@
 | [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | Distributed server for social and realtime games and apps. | `Go` ★ 12.2k | 2026-01-26 |
 | [thesephist/burds](https://github.com/thesephist/burds) | Just some burds, jumpin' around in their own little world. | `JavaScript` ★ 85 | 2024-07-20 |
 | [aseprite/aseprite](https://github.com/aseprite/aseprite) | Animated sprite editor & pixel art tool (Windows, mac OS, Linux) | `C++` ★ 35.5k | 2025-12-30 |
-| [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and Open GL. Runs on Windows, Linux, *BSD and Mac OS X. | `C#` ★ 16.4k | 2026-01-26 |
+| [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and Open GL. Runs on Windows, Linux, \*BSD and Mac OS X. | `C#` ★ 16.4k | 2026-01-26 |
 | [workadventure/workadventure](https://github.com/workadventure/workadventure) | A collaborative web application (virtual office) presented as a 16-bit RPG video game | `TypeScript` ★ 5.2k | 2026-01-28 |
 | [it-scripts/it-drugs](https://github.com/it-scripts/it-drugs) | Become a master herbalist with this drug script! Ready for every big Five M framework | `Lua` ★ 113 | 2025-09-27 |
 | [emilk/egui](https://github.com/emilk/egui) | egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native | `Rust` ★ 27.9k | 2026-01-25 |
 | [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) | Play with fluids in your browser (works even on mobile) | `JavaScript` ★ 16.1k | 2024-11-12 |
 | [qbcore-framework/qb-housing](https://github.com/qbcore-framework/qb-housing) | The next iteration of QBCore’s housing system | ★ 36 | 2022-08-23 |
 | [borisnliscool/bnl-housing](https://github.com/borisnliscool/bnl-housing) | 🏠 An open-source Five M player property script with extensive API for ultimate customization | `Lua` ★ 98 | 2024-06-29 |
-| [ellisonleao/magictools](https://github.com/ellisonleao/magictools) | :video_game: :pencil: A list of Game Development resources to make magic happen. | `Markdown` ★ 16.1k | 2026-01-15 |
+| [ellisonleao/magictools](https://github.com/ellisonleao/magictools) | :video\_game: :pencil: A list of Game Development resources to make magic happen. | `Markdown` ★ 16.1k | 2026-01-15 |
 | [CeeJayDK/SweetFX](https://github.com/CeeJayDK/SweetFX) | No description provided | `HLSL` ★ 258 | 2025-07-03 |
 | [AvaLovelace1/BrickGPT](https://github.com/AvaLovelace1/BrickGPT) | Official repository for Brick GPT, the first approach for generating physically stable toy brick models from text prompts. | `Python` ★ 1.6k | 2026-01-26 |
 | [dquiet-lab/sim-control-page](https://github.com/dquiet-lab/sim-control-page) | No description provided | `TypeScript` ★ 1 | 2025-03-25 |

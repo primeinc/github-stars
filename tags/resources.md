@@ -17,7 +17,7 @@
 | [ChanChiChoi/awesome-Face_Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition) | papers about Face Detection; Face Alignment; Face Recognition && Face Identification && Face Verification && Face Representation; Face Reconstruction; Face Tracking; Face Super-Resolution && Face D... | ★ 4.7k | 2023-02-09 |
 | [moov-io/awesome-fintech](https://github.com/moov-io/awesome-fintech) | A curated collection of open source fintech libraries and resources. | ★ 254 | 2025-12-24 |
 | [7kfpun/awesome-fintech](https://github.com/7kfpun/awesome-fintech) | A curated list of amazingly awesome financial libraries, resources and shiny things. | ★ 343 | 2025-12-14 |
-| [ellisonleao/magictools](https://github.com/ellisonleao/magictools) | :video_game: :pencil: A list of Game Development resources to make magic happen. | `Markdown` ★ 16.1k | 2026-01-15 |
+| [ellisonleao/magictools](https://github.com/ellisonleao/magictools) | :video\_game: :pencil: A list of Game Development resources to make magic happen. | `Markdown` ★ 16.1k | 2026-01-15 |
 | [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) | ⚡️ A curated list of awesome things related to Vite.js | `JavaScript` ★ 16.8k | 2025-11-21 |
 | [dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks) | Manually curated collection of resources for frontend web developers. | ★ 45.9k | 2024-05-21 |
 | [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) | 🐬 A collection of awesome resources for the Flipper Zero device. | ★ 22.7k | 2024-09-27 |

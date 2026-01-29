@@ -45,7 +45,7 @@
 | [Qengineering/Face-Recognition-Jetson-Nano](https://github.com/Qengineering/Face-Recognition-Jetson-Nano) | Recognize 2000+ faces on your Jetson Nano with database auto-fill and anti-spoofing | `C++` ★ 122 | 2023-06-09 |
 | [shahizat/JetsonGPT](https://github.com/shahizat/JetsonGPT) | Using Fast Chat-T5 Large Language Model, Vosk API for automatic speech recognition, and Piper for text-to-speech | `Python` ★ 129 | 2023-06-15 |
 | [dusty-nv/jetson-voice](https://github.com/dusty-nv/jetson-voice) | ASR/NLP/TTS deep learning inference library for NVIDIA Jetson using Py Torch and Tensor RT | `Python` ★ 220 | 2024-02-09 |
-| [rbonghi/jetson_stats](https://github.com/rbonghi/jetson_stats) | 📊 Simple package for monitoring and control your NVIDIA Jetson [Orin, Xavier, Nano, TX] series | `Python` ★ 2.5k | 2026-01-28 |
+| [rbonghi/jetson_stats](https://github.com/rbonghi/jetson_stats) | 📊 Simple package for monitoring and control your NVIDIA Jetson \[Orin, Xavier, Nano, TX\] series | `Python` ★ 2.5k | 2026-01-28 |
 | [pvvx/THB2](https://github.com/pvvx/THB2) | Custom firmware for Tuya devices on the PHY622x2 chipset | `C` ★ 547 | 2025-10-18 |
 | [HW-Lab-Hardware-Design-Agency/WebScreen-Software](https://github.com/HW-Lab-Hardware-Design-Agency/WebScreen-Software) | Web Screen Firmware | `C` ★ 35 | 2026-01-28 |
 | [caspii/dinkydash](https://github.com/caspii/dinkydash) | A family dashboard for kids | `HTML` ★ 89 | 2025-12-10 |
@@ -64,7 +64,7 @@
 | [eyalcha/read_your_meter](https://github.com/eyalcha/read_your_meter) | Home Assistant sensor to read water meter | `Python` ★ 40 | 2022-07-25 |
 | [claytonjn/hass-circadian_lighting](https://github.com/claytonjn/hass-circadian_lighting) | Circadian Lighting custom component for Home Assistant | `Python` ★ 868 | 2025-09-19 |
 | [custom-components/climate.programmable_thermostat](https://github.com/custom-components/climate.programmable_thermostat) | Programmable thermostat that let you have a smart thermostat on budget. | `Python` ★ 118 | 2025-09-08 |
-| [scottlawsonbc/audio-reactive-led-strip](https://github.com/scottlawsonbc/audio-reactive-led-strip) | :musical_note: :rainbow: Real-time LED strip music visualization using Python and the ESP8266 or Raspberry Pi | `Python` ★ 2.8k | 2026-01-06 |
+| [scottlawsonbc/audio-reactive-led-strip](https://github.com/scottlawsonbc/audio-reactive-led-strip) | :musical\_note: :rainbow: Real-time LED strip music visualization using Python and the ESP8266 or Raspberry Pi | `Python` ★ 2.8k | 2026-01-06 |
 | [zhujisheng/audio-reactive-led-strip](https://github.com/zhujisheng/audio-reactive-led-strip) | 🎵 🌈 Real-time LED strip music visualization running on ESP32 based on Arduino or ESPHome platform | `C++` ★ 155 | 2022-03-02 |
 | [fma965/ESP-MQTT-JSON-Digital-LEDs](https://github.com/fma965/ESP-MQTT-JSON-Digital-LEDs) | ESP MQTT Digital LEDs for Home Assistant's MQTT JSON Light Component. Supports flash, fade, transitions, effects, and OTA uploading! | `C++` ★ 18 | 2021-05-20 |
 | [threat9/routersploit](https://github.com/threat9/routersploit) | Exploitation Framework for Embedded Devices | `Python` ★ 12.9k | 2025-06-10 |

@@ -16,13 +16,13 @@
 | [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja) | The to-do app to organize your life. | `Go` ★ 3.2k | 2026-01-29 |
 | [File-New-Project/EarTrumpet](https://github.com/File-New-Project/EarTrumpet) | Ear Trumpet - Volume Control for Windows | `C#` ★ 10.5k | 2026-01-25 |
 | [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications. | `C#` ★ 4.6k | 2026-01-27 |
-| [gohoyer/Alfred-Rectangle-Shortcuts](https://github.com/gohoyer/Alfred-Rectangle-Shortcuts) | This is an Alfred workflow that allows you to list and access [Rectangle](https://rectangleapp.com) shortcuts. | `Python` ★ 35 | 2022-04-07 |
+| [gohoyer/Alfred-Rectangle-Shortcuts](https://github.com/gohoyer/Alfred-Rectangle-Shortcuts) | This is an Alfred workflow that allows you to list and access \[Rectangle\](https://rectangleapp.com) shortcuts. | `Python` ★ 35 | 2022-04-07 |
 | [curtosis-org/phub-cli](https://github.com/curtosis-org/phub-cli) | Terminal-based Porn Hub browser inspired by ani-cli. Browse categories, search videos, and stream instantly in mpv without opening a browser. | `Shell` ★ 80 | 2026-01-28 |
 | [amazingpaddy/ai-chat-exporter](https://github.com/amazingpaddy/ai-chat-exporter) | No description provided | `JavaScript` ★ 107 | 2026-01-23 |
 | [simpsoka/jules-companion](https://github.com/simpsoka/jules-companion) | No description provided | `Swift` ★ 72 | 2026-01-24 |
 | [galz10/pickle-rick-extension](https://github.com/galz10/pickle-rick-extension) | This extension transforms the Gemini CLI into "Pickle Rick," a hyper-intelligent, arrogant, yet extremely competent engineering persona. It enforces a rigid, iterative software development lifecycl... | `Python` ★ 304 | 2026-01-27 |
 | [colanode/colanode](https://github.com/colanode/colanode) | Open-source and local-first Slack and Notion alternative that puts you in control of your data | `TypeScript` ★ 4.5k | 2026-01-24 |
-| [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) | :file_folder: File Management Platform / Universal Data Access Gateway (without FUSE) | `JavaScript` ★ 13.5k | 2026-01-29 |
+| [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) | :file\_folder: File Management Platform / Universal Data Access Gateway (without FUSE) | `JavaScript` ★ 13.5k | 2026-01-29 |
 | [nibzard/FocusHighlighter](https://github.com/nibzard/FocusHighlighter) | No description provided | `TypeScript` ★ 2 | 2026-01-22 |
 | [nwg-piotr/nwg-displays](https://github.com/nwg-piotr/nwg-displays) | Output management utility for sway and Hyprland. | `Python` ★ 876 | 2026-01-26 |
 | [freedomofpress/dangerzone](https://github.com/freedomofpress/dangerzone) | Take potentially dangerous PDFs, office documents, or images and convert them to safe PDFs | `Python` ★ 4.9k | 2026-01-28 |
@@ -111,7 +111,7 @@
 | [gtsteffaniak/filebrowser](https://github.com/gtsteffaniak/filebrowser) | 📂 Web File Browser | `Go` ★ 6.2k | 2026-01-29 |
 | [slidevjs/slidev](https://github.com/slidevjs/slidev) | Presentation Slides for Developers | `TypeScript` ★ 44k | 2026-01-28 |
 | [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) | A collection of essential Type Script types | `TypeScript` ★ 16.8k | 2026-01-28 |
-| [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop_computer: :camera_flash: | `C++` ★ 28.7k | 2026-01-28 |
+| [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop\_computer: :camera\_flash: | `C++` ★ 28.7k | 2026-01-28 |
 | [palashmon/awesome-vscode-settings](https://github.com/palashmon/awesome-vscode-settings) | 🎨 A curated list of simple and awesome VS Code settings | ★ 38 | 2026-01-24 |
 | [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) | These are commands I use with agents, mostly Claude | `TypeScript` ★ 724 | 2026-01-28 |
 | [luckgrid/lg-gnosys](https://github.com/luckgrid/lg-gnosys) | A monorepo architecture starter project for building framework agnostic applications with a feature rich development workspaces configuration... | `CSS` ★ 1 | 2025-09-13 |
@@ -190,7 +190,7 @@
 | [unjs/pathe](https://github.com/unjs/pathe) | 🛣️ Drop-in replacement of the Node.js's path module module that ensures paths are normalized | `TypeScript` ★ 556 | 2026-01-26 |
 | [unjs/obuild](https://github.com/unjs/obuild) | 📦 😯 Zero-config ESM/TS package builder. | `TypeScript` ★ 375 | 2026-01-29 |
 | [0x7c13/Notepads](https://github.com/0x7c13/Notepads) | A modern, lightweight text editor with a minimalist design. | `C#` ★ 9.8k | 2025-10-27 |
-| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page_facing_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 26.1k | 2025-12-31 |
+| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page\_facing\_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 26.1k | 2025-12-31 |
 | [saturn-abhishek/awesome-github-profile-readme](https://github.com/saturn-abhishek/awesome-github-profile-readme) | 😎 A curated list of awesome Git Hub Profile which updates in real time | ★ 29k | 2024-08-19 |
 | [winapps-org/winapps](https://github.com/winapps-org/winapps) | Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration. Hard fork of https://github.com/Fmstr... | `Shell` ★ 14.1k | 2026-01-25 |
 | [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows) | all of the workflows of n8n i could find (also from the site itself) | `Python` ★ 50.6k | 2026-01-26 |
@@ -213,7 +213,7 @@
 | [context-labs/uwu](https://github.com/context-labs/uwu) | No description provided | `TypeScript` ★ 943 | 2025-08-23 |
 | [calcom/cal.com](https://github.com/calcom/cal.com) | Scheduling infrastructure for absolutely everyone. | `TypeScript` ★ 39.9k | 2026-01-29 |
 | [Tichau/FileConverter](https://github.com/Tichau/FileConverter) | File Converter is a very simple tool which allows you to convert and compress files using the context menu in windows explorer. | `C#` ★ 13.5k | 2025-11-30 |
-| [builtbybel/CrapFixer](https://github.com/builtbybel/CrapFixer) | Cr*ap Fixer | `C#` ★ 2.2k | 2025-12-25 |
+| [builtbybel/CrapFixer](https://github.com/builtbybel/CrapFixer) | Cr\*ap Fixer | `C#` ★ 2.2k | 2025-12-25 |
 | [pola-rs/polars](https://github.com/pola-rs/polars) | Extremely fast Query Engine for Data Frames, written in Rust | `Rust` ★ 37.2k | 2026-01-29 |
 | [haydenbleasel/ultracite](https://github.com/haydenbleasel/ultracite) | A highly opinionated, zero-configuration linter and formatter. | `TypeScript` ★ 2.6k | 2026-01-27 |
 | [ghostfolio/ghostfolio](https://github.com/ghostfolio/ghostfolio) | Open Source Wealth Management Software. Angular + Nest JS + Prisma + Nx + Type Script 🤍 | `TypeScript` ★ 7.5k | 2026-01-28 |
@@ -331,7 +331,7 @@
 | [paloukari/jetson-detectors](https://github.com/paloukari/jetson-detectors) | Contains examples and documentation on how to setup your remote development environment from your Windows host to a Jetson device | `Python` ★ 13 | 2019-10-05 |
 | [VirtualDrivers/Virtual-Display-Driver](https://github.com/VirtualDrivers/Virtual-Display-Driver) | Add virtual monitors to your windows 10/11 device! Works with VR, OBS, Sunshine, and/or any desktop sharing software. | `C++` ★ 8.2k | 2026-01-25 |
 | [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) | Karabiner-Elements is a powerful tool for customizing keyboards on mac OS | `C++` ★ 21.4k | 2026-01-27 |
-| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFFi NE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable a... | `TypeScript` ★ 62.3k | 2026-01-28 |
+| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFFi NE(pronounced \[ə‘fain\]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable a... | `TypeScript` ★ 62.3k | 2026-01-28 |
 | [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) |  Now we have become very big, Different from the original idea. Collect premium software in various categories. | `JavaScript` ★ 98.2k | 2026-01-28 |
 | [MkQtS/Carefree](https://github.com/MkQtS/Carefree) | An elegant Potplayer skin | ★ 39 | 2024-01-09 |
 | [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate social media scheduling tool, with a bunch of AI 🤖 | `TypeScript` ★ 26.3k | 2026-01-28 |
@@ -380,7 +380,7 @@
 | [Cartucho/OpenLabeling](https://github.com/Cartucho/OpenLabeling) | Label images and video for Computer Vision applications | `Python` ★ 957 | 2022-07-06 |
 | [LucasMali/sd-history-slider](https://github.com/LucasMali/sd-history-slider) | History Slider for Automatic 1111 SD to reverse the prompts. | `JavaScript` ★ 19 | 2023-07-18 |
 | [HumanSignal/labelImg](https://github.com/HumanSignal/labelImg) | Label Img is now part of the Label Studio community. The popular image annotation tool created by Tzutalin is no longer actively being developed, but you can check out Label Studio, the open source... | `Python` ★ 24.7k | 2024-06-07 |
-| [marius-sucan/AHK-GDIp-Library-Compilation](https://github.com/marius-sucan/AHK-GDIp-Library-Compilation) | Gdip_All library mega-compilation of user contributions, compatible with AHK v1.1 and AHK v2 | `AutoHotkey` ★ 102 | 2025-03-09 |
+| [marius-sucan/AHK-GDIp-Library-Compilation](https://github.com/marius-sucan/AHK-GDIp-Library-Compilation) | Gdip\_All library mega-compilation of user contributions, compatible with AHK v1.1 and AHK v2 | `AutoHotkey` ★ 102 | 2025-03-09 |
 | [intel/intel-one-mono](https://github.com/intel/intel-one-mono) | Intel One Mono font repository | ★ 9.9k | 2025-09-08 |
 | [lencx/nofwl](https://github.com/lencx/nofwl) | No FWL Desktop Application | `Rust` ★ 4.2k | 2024-01-23 |
 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Auto GPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. | `Python` ★ 181.5k | 2026-01-29 |

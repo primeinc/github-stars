@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [workflowr/workflowr](https://github.com/workflowr/workflowr) | Organize your project into a research website | `R` ★ 886 | 2025-08-19 |
-| [gohoyer/Alfred-Rectangle-Shortcuts](https://github.com/gohoyer/Alfred-Rectangle-Shortcuts) | This is an Alfred workflow that allows you to list and access [Rectangle](https://rectangleapp.com) shortcuts. | `Python` ★ 35 | 2022-04-07 |
+| [gohoyer/Alfred-Rectangle-Shortcuts](https://github.com/gohoyer/Alfred-Rectangle-Shortcuts) | This is an Alfred workflow that allows you to list and access \[Rectangle\](https://rectangleapp.com) shortcuts. | `Python` ★ 35 | 2022-04-07 |
 | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition. | `Python` ★ 11.7k | 2026-01-27 |
 | [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | Autonomous AI development loop for Claude Code with intelligent exit detection | `Shell` ★ 5.9k | 2026-01-29 |
 | [refly-ai/refly](https://github.com/refly-ai/refly) | Vibe Workflow Platform for Non-technical Creators. | `TypeScript` ★ 6k | 2026-01-29 |

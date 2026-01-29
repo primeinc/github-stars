@@ -19,7 +19,7 @@
 | [nibzard/FocusHighlighter](https://github.com/nibzard/FocusHighlighter) | No description provided | `TypeScript` ★ 2 | 2026-01-22 |
 | [puffinsoft/syntux](https://github.com/puffinsoft/syntux) | Consistent, cacheable generative UIs for the web. | `TypeScript` ★ 150 | 2026-01-27 |
 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms | `Python` ★ 24.6k | 2026-01-26 |
-| [aagentah/nw_wrld](https://github.com/aagentah/nw_wrld) | nw_wrld is an event-driven sequencer for triggering visuals using web technologies. It enables users to scale up audiovisual compositions for prototyping, demos, exhibitions, and live performances.... | `TypeScript` ★ 1.7k | 2026-01-28 |
+| [aagentah/nw_wrld](https://github.com/aagentah/nw_wrld) | nw\_wrld is an event-driven sequencer for triggering visuals using web technologies. It enables users to scale up audiovisual compositions for prototyping, demos, exhibitions, and live performances.... | `TypeScript` ★ 1.7k | 2026-01-28 |
 | [onlook-dev/onlook](https://github.com/onlook-dev/onlook) | The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI | `TypeScript` ★ 24.5k | 2026-01-21 |
 | [suitenumerique/meet](https://github.com/suitenumerique/meet) | Open source video conferencing app powered by Live Kit. | `TypeScript` ★ 1.3k | 2026-01-28 |
 | [devicons/devicon](https://github.com/devicons/devicon) | Set of icons representing programming languages, designing & development tools | `CSS` ★ 11.4k | 2026-01-21 |
@@ -178,7 +178,7 @@
 | [Captain-Of-Coit/cs2-city-monitor](https://github.com/Captain-Of-Coit/cs2-city-monitor) | "City Vitals" but for Cities: Skylines 2 | `C#` ★ 14 | 2023-11-30 |
 | [Captain-Of-Coit/hookui](https://github.com/Captain-Of-Coit/hookui) | Some sort of UI framework/loader for Cities: Skylines 2 | `C#` ★ 29 | 2024-08-26 |
 | [Surrealism-All/SurrealismUI](https://github.com/Surrealism-All/SurrealismUI) | A third-party UI library using Slint, I think it will give you an extraordinary experience | `Slint` ★ 355 | 2024-12-29 |
-| [marius-sucan/AHK-GDIp-Library-Compilation](https://github.com/marius-sucan/AHK-GDIp-Library-Compilation) | Gdip_All library mega-compilation of user contributions, compatible with AHK v1.1 and AHK v2 | `AutoHotkey` ★ 102 | 2025-03-09 |
+| [marius-sucan/AHK-GDIp-Library-Compilation](https://github.com/marius-sucan/AHK-GDIp-Library-Compilation) | Gdip\_All library mega-compilation of user contributions, compatible with AHK v1.1 and AHK v2 | `AutoHotkey` ★ 102 | 2025-03-09 |
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `Python` ★ 101.8k | 2026-01-29 |
 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! | `Python` ★ 41.5k | 2026-01-28 |
 | [marmelab/react-admin](https://github.com/marmelab/react-admin) | A frontend Framework for single-page applications on top of REST/Graph QL APIs, using Type Script, React and Material Design | `TypeScript` ★ 26.5k | 2026-01-28 |

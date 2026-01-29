@@ -73,7 +73,7 @@
 | [DuckersMcQuack/ComfyUI-Ram-Bypass](https://github.com/DuckersMcQuack/ComfyUI-Ram-Bypass) | An attempt to bypass ram entirely and load directstorage optimized models straight from storage than stored in ram. | `Python` ★ 1 | 2025-03-17 |
 | [dOpensource/dsiprouter](https://github.com/dOpensource/dsiprouter) | UI Interface for implementing Kamailio to provide PBX Hosting and SIP Trunking Services | `Shell` ★ 225 | 2026-01-26 |
 | [fusionpbx/fusionpbx](https://github.com/fusionpbx/fusionpbx) | Official Fusion PBX - A full-featured domain based multi-tenant PBX and voice switch for Free Switch. | `PHP` ★ 964 | 2026-01-28 |
-| [builtbybel/CrapFixer](https://github.com/builtbybel/CrapFixer) | Cr*ap Fixer | `C#` ★ 2.2k | 2025-12-25 |
+| [builtbybel/CrapFixer](https://github.com/builtbybel/CrapFixer) | Cr\*ap Fixer | `C#` ★ 2.2k | 2025-12-25 |
 | [peass-ng/PEASS-ng](https://github.com/peass-ng/PEASS-ng) | PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) | `C#` ★ 19.2k | 2026-01-29 |
 | [Jedward23/Tmux-Orchestrator](https://github.com/Jedward23/Tmux-Orchestrator) | No description provided | `Python` ★ 1.6k | 2025-07-14 |
 | [Ylianst/MeshCommander](https://github.com/Ylianst/MeshCommander) | Mesh Commander is a Intel(R) Active Management Technology (Intel(R) AMT) remote management tool. It's feature rich and includes a built-in remote desktop viewer for Hardware-KVM, a Serial-over-LAN ... | `HTML` ★ 554 | 2025-09-10 |
@@ -147,7 +147,7 @@
 | [Nordeus/ansible_iptables_raw](https://github.com/Nordeus/ansible_iptables_raw) | iptables module for Ansible which keeps state | `Python` ★ 128 | 2023-11-03 |
 | [bmrf/tron](https://github.com/bmrf/tron) | Tron | `Batchfile` ★ 6.2k | 2025-08-30 |
 | [DigitalRuby/IPBan](https://github.com/DigitalRuby/IPBan) | Since 2011, IPBan is the worlds most trusted, free security software to block hackers and botnets. With both Windows and Linux support, IPBan has your dedicated or cloud server protected. Upgrade t... | `C#` ★ 2.1k | 2026-01-11 |
-| [Ulterius/server](https://github.com/Ulterius/server) | [WIP] Ulterius™ server where all the magic happens :rocket: :feelsgood: | `C#` ★ 593 | 2017-11-06 |
+| [Ulterius/server](https://github.com/Ulterius/server) | \[WIP\] Ulterius™ server where all the magic happens :rocket: :feelsgood: | `C#` ★ 593 | 2017-11-06 |
 | [bastillion-io/Bastillion](https://github.com/bastillion-io/Bastillion) | A modern, web-based SSH console and key management tool. Bastillion gives you a clean, browser-based way to manage SSH access across all your systems. Think of it like a bastion host with a friendl... | `Java` ★ 3.4k | 2026-01-29 |
 | [thumbcacheviewer/thumbcacheviewer](https://github.com/thumbcacheviewer/thumbcacheviewer) | Thumbcache Viewer - Extract Windows Vista, Windows 7, Windows 8, Windows 8.1, and Windows 10 thumbcache database files. | `C++` ★ 151 | 2023-10-25 |
 | [liftoff/GateOne](https://github.com/liftoff/GateOne) | Gate One is an HTML5-powered terminal emulator and SSH client | `JavaScript` ★ 6.3k | 2023-03-17 |

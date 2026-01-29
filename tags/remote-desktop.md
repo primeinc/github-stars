@@ -12,4 +12,4 @@
 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | An open-source remote desktop application designed for self-hosting, as an alternative to Team Viewer. | `Rust` ★ 106.5k | 2026-01-28 |
 | [caojianyu/tauri-remote-desktop](https://github.com/caojianyu/tauri-remote-desktop) | This is a remote desktop control tool built using Tauri and implemented based on Web RTC. Build a simple server using Rust. Views built using Vue3+Type Script. | `Vue` ★ 117 | 2023-03-08 |
 | [games-on-whales/wolf](https://github.com/games-on-whales/wolf) | Stream virtual desktops and games running in Docker | `C++` ★ 1.6k | 2026-01-26 |
-| [Ulterius/server](https://github.com/Ulterius/server) | [WIP] Ulterius™ server where all the magic happens :rocket: :feelsgood: | `C#` ★ 593 | 2017-11-06 |
+| [Ulterius/server](https://github.com/Ulterius/server) | \[WIP\] Ulterius™ server where all the magic happens :rocket: :feelsgood: | `C#` ★ 593 | 2017-11-06 |
