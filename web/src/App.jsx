@@ -16,6 +16,7 @@ function AppContent() {
     archived: false,
     template: false
   });
+  const [sortBy, setSortBy] = useState('starred'); // starred, stars, pushed, name
 
   useEffect(() => {
     fetch('data.json')
@@ -66,7 +67,23 @@ function AppContent() {
     });
   }, [repos, filters, fuse]);
 
-  const filteredRepos = useMemo(() => getFilteredRepos(), [getFilteredRepos]);
+  const filteredRepos = useMemo(() => {
+    const filtered = getFilteredRepos();
+    return [...filtered].sort((a, b) => {
+      switch (sortBy) {
+        case 'starred':
+          return new Date(b.user_starred_at || 0) - new Date(a.user_starred_at || 0);
+        case 'stars':
+          return b.stars - a.stars;
+        case 'pushed':
+          return new Date(b.pushed_at || 0) - new Date(a.pushed_at || 0);
+        case 'name':
+          return a.repo.localeCompare(b.repo);
+        default:
+          return 0;
+      }
+    });
+  }, [getFilteredRepos, sortBy]);
 
   const facets = useMemo(() => {
     const getCounts = (items, key, isArray = false) => {
@@ -154,14 +171,26 @@ function AppContent() {
 
   return (
     <Layout sidebar={Sidebar}>
-      <div className={styles.filters} style={{ marginBottom: '1rem' }}>
+      <div className={styles.filters} style={{ marginBottom: '1rem', display: 'flex', gap: '1rem', alignItems: 'center' }}>
           <input 
             type="text" 
             placeholder="Search repositories..." 
             className={styles.searchInput}
             value={filters.search}
             onChange={e => setFilters(f => ({...f, search: e.target.value}))}
+            style={{ flex: 1 }}
           />
+          <select 
+            value={sortBy} 
+            onChange={e => setSortBy(e.target.value)}
+            className={styles.sortSelect}
+            style={{ padding: '0.5rem', borderRadius: '4px', background: 'var(--bg-secondary)', color: 'var(--text-primary)', border: '1px solid var(--border-color)' }}
+          >
+            <option value="starred">Recently Starred</option>
+            <option value="stars">Most Stars</option>
+            <option value="pushed">Recently Updated</option>
+            <option value="name">Name (A-Z)</option>
+          </select>
       </div>
       
       {loading ? (
