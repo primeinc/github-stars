@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-29T04:48:42.289Z"
+  manifest_updated_at: "2026-01-29T04:49:02.488Z"
   total_repos: 2085
   generator_version: v1.0.0
   github_user: primeinc
@@ -86553,13 +86553,18 @@ repositories:
       prompt_version: v2
   - repo: xinyu1205/recognize-anything
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-recognition
+      - tag2text
+      - lang:python
+      - jupyter
     summary: Open-source and strong foundation image recognition models.
     last_synced_sha: 7cb804a8609e9f4b1a50b7f31436d2df40bb9481
     user_starred_at: "2026-01-28T09:34:13Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -86578,15 +86583,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:49:02.488Z"
+      prompt_version: v2
   - repo: get-convex/twilio
     categories:
-      - unclassified
-    tags: []
+      - apis
+    tags:
+      - sms
+      - twilio
+      - lang:ts
+      - messaging
     summary: Convex component for sending/receiving SMS messages with Twilio
     last_synced_sha: 356cbd3110650c568b7b3333d3050d08373429dc
     user_starred_at: "2026-01-28T08:36:10Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -86603,15 +86617,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:49:02.488Z"
+      prompt_version: v2
   - repo: BandarLabs/gitpodcast
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:ts
+      - podcast
+      - tts
+      - openai
+      - developer-tools
     summary: Convert any git repository into an engaging podcast
     last_synced_sha: 3a5dbd1cc63c57f896d4c4a852988a2cb20b2019
     user_starred_at: "2026-01-28T08:23:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -86636,15 +86661,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:49:02.488Z"
+      prompt_version: v2
   - repo: gitpod-io/gitpod
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cloud
+    tags:
+      - lang:ts
+      - cloud-ide
+      - dev-environment
+      - remote-development
+      - developer-experience
     summary: The developer platform for on-demand cloud development environments to create software faster and more securely.
     last_synced_sha: dc872269a0ae15e79fe34127adaafc09ca4d34b9
     user_starred_at: "2026-01-28T08:18:24Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -86682,15 +86718,26 @@ repositories:
         published_at: "2023-06-05T12:24:19Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:49:02.487Z"
+      prompt_version: v2
   - repo: SamyRai/namecheap
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - apis
+    tags:
+      - lang:go
+      - dns
+      - domain-management
+      - cli
+      - api-client
     summary: A CLI tool for managing Namecheap domains and DNS records with multi-account support
     last_synced_sha: 047541d04c1db5f8927c1e9f997a758ba3a0c6fa
     user_starred_at: "2026-01-28T07:35:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -86717,15 +86764,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:49:02.487Z"
+      prompt_version: v2
   - repo: Lissy93/domain-locker
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - automation
+    tags:
+      - lang:ts
+      - dashboard
+      - web-security
+      - docker
+      - self-hosted
     summary: "\U0001F310 The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker!"
     last_synced_sha: f6af537948cc102f217212c0d352813195daa9b2
     user_starred_at: "2026-01-28T07:34:20Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -86756,15 +86814,25 @@ repositories:
         published_at: "2025-11-14T22:08:23Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:49:02.487Z"
+      prompt_version: v2
   - repo: workflowr/workflowr
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - lang:r
+      - rmarkdown
+      - website
+      - workflow
     summary: Organize your project into a research website
     last_synced_sha: 0438b405ec2b2100f0d6b36752c8b639eea8a9b1
     user_starred_at: "2026-01-28T07:31:04Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: R
       topics:
@@ -86790,15 +86858,25 @@ repositories:
         published_at: "2025-08-19T00:37:07Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:49:02.487Z"
+      prompt_version: v2
   - repo: engineering-management/awesome-engineering-management
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - productivity
+    tags:
+      - project-management
+      - engineering-management
+      - leadership
+      - awesome
     summary: Pointers and tools for learning and day-to-day practice of engineering management & leadership.
     last_synced_sha: 37ae9dfa49a716955e2f48ad386ec241b3a73be9
     user_starred_at: "2026-01-28T07:25:32Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -86821,15 +86899,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:49:02.487Z"
+      prompt_version: v2
   - repo: mark-when/markwhen
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - markdown
+      - timeline
+      - calendar
+      - gantt
+      - visualization
     summary: Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more.
     last_synced_sha: b0b2b9992ed6a2f834e205c1e35b5d46f450b27f
     user_starred_at: "2026-01-28T07:22:42Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -86861,15 +86950,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:49:02.487Z"
+      prompt_version: v2
   - repo: endoflife-date/endoflife.date
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - lang:ruby
+      - eol
+      - release-policy
+      - framework:rails
     summary: Informative site with Eo L dates of everything
     last_synced_sha: cda89e4b1bad44f4cb77204fa280bb39badb4087
     user_starred_at: "2026-01-28T07:08:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -86906,6 +87005,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:49:02.487Z"
+      prompt_version: v2
   - repo: joelparkerhenderson/architecture-decision-record
     categories:
       - documentation
