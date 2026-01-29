@@ -45,7 +45,7 @@
 | [langwatch/langwatch](https://github.com/langwatch/langwatch) | The open LLM Ops platform - Traces, Analytics, Evaluations, Datasets and Prompt Optimization ✨ | `TypeScript` ★ 2.7k | 2026-01-28 |
 | [glanceapp/glance](https://github.com/glanceapp/glance) | A self-hosted dashboard that puts all your feeds in one place | `Go` ★ 31.5k | 2025-12-10 |
 | [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre) | A curated list of Site Reliability and Production Engineering resources. | ★ 13k | 2025-08-28 |
-| [rbonghi/jetson_stats](https://github.com/rbonghi/jetson_stats) | 📊 Simple package for monitoring and control your NVIDIA Jetson \[Orin, Xavier, Nano, TX\] series | `Python` ★ 2.5k | 2026-01-28 |
+| [rbonghi/jetson_stats](https://github.com/rbonghi/jetson_stats) | 📊 Simple package for monitoring and control your NVIDIA Jetson [Orin, Xavier, Nano, TX] series | `Python` ★ 2.5k | 2026-01-28 |
 | [Tautulli/Tautulli](https://github.com/Tautulli/Tautulli) | A Python based monitoring and tracking tool for Plex Media Server. | `Python` ★ 6.3k | 2026-01-17 |
 | [danodemano/monitoring-scripts](https://github.com/danodemano/monitoring-scripts) | A dump of the scripts used to monitor my environment and write to Influx DB. Also includes my dashboard export. | `Shell` ★ 110 | 2016-08-30 |
 | [ericmakesstuff/laravel-server-monitor](https://github.com/ericmakesstuff/laravel-server-monitor) | Server Monitoring Command for Laravel Applications | `PHP` ★ 428 | 2019-08-15 |

@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [nrwl/nx-set-shas](https://github.com/nrwl/nx-set-shas) | :sparkles: A Github Action which sets the base and head SHAs required for \`nx affected\` commands in CI | `TypeScript` ★ 191 | 2025-11-13 |
+| [nrwl/nx-set-shas](https://github.com/nrwl/nx-set-shas) | :sparkles: A Github Action which sets the base and head SHAs required for `nx affected` commands in CI | `TypeScript` ★ 191 | 2025-11-13 |
 | [dorny/test-reporter](https://github.com/dorny/test-reporter) | Displays test results from popular testing frameworks directly in Git Hub | `TypeScript` ★ 1.1k | 2026-01-24 |
 | [actions/labeler](https://github.com/actions/labeler) | An action for automatically labelling pull requests | `TypeScript` ★ 2.4k | 2026-01-22 |
 | [actions/ai-inference](https://github.com/actions/ai-inference) | An action for calling AI models with Git Hub Models | `TypeScript` ★ 423 | 2026-01-27 |

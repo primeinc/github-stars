@@ -21,7 +21,7 @@
 | [puffinsoft/syntux](https://github.com/puffinsoft/syntux) | Consistent, cacheable generative UIs for the web. | `TypeScript` ★ 150 | 2026-01-27 |
 | [Kiduzk/google-takeout-viewer](https://github.com/Kiduzk/google-takeout-viewer) | No description provided | `TypeScript` ★ 1 | 2026-01-11 |
 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms | `Python` ★ 24.6k | 2026-01-26 |
-| [aagentah/nw_wrld](https://github.com/aagentah/nw_wrld) | nw\_wrld is an event-driven sequencer for triggering visuals using web technologies. It enables users to scale up audiovisual compositions for prototyping, demos, exhibitions, and live performances.... | `TypeScript` ★ 1.7k | 2026-01-28 |
+| [aagentah/nw_wrld](https://github.com/aagentah/nw_wrld) | nw_wrld is an event-driven sequencer for triggering visuals using web technologies. It enables users to scale up audiovisual compositions for prototyping, demos, exhibitions, and live performances.... | `TypeScript` ★ 1.7k | 2026-01-28 |
 | [suitenumerique/meet](https://github.com/suitenumerique/meet) | Open source video conferencing app powered by Live Kit. | `TypeScript` ★ 1.3k | 2026-01-28 |
 | [m1k1o/neko](https://github.com/m1k1o/neko) | A self hosted virtual browser that runs in docker and uses Web RTC. | `Go` ★ 16.9k | 2026-01-24 |
 | [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie) | Mealie is a self hosted recipe manager and meal planner with a Rest API backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add reci... | `Python` ★ 11.3k | 2026-01-28 |
@@ -96,7 +96,7 @@
 | [microsoft/FluidFramework](https://github.com/microsoft/FluidFramework) | Library for building distributed, real-time collaborative web applications | `TypeScript` ★ 4.9k | 2026-01-29 |
 | [Azure-Samples/contoso-real-estate](https://github.com/Azure-Samples/contoso-real-estate) | Intelligent enterprise-grade reference architecture for Java Script, featuring Open AI integration, Azure Developer CLI template and Playwright tests. | `JavaScript` ★ 967 | 2025-03-20 |
 | [codebucks27/Next.js-Developer-Portfolio-Starter-Code](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code) | ⭐Build a stunning portfolio website with Next.js, Tailwind CSS and Framer-motion. If you want to learn to create this you can follow the tutorial link given in the Read me file. | `CSS` ★ 1.2k | 2025-06-18 |
-| [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An \`azd\` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 29 | 2024-06-26 |
+| [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An `azd` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 29 | 2024-06-26 |
 | [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | Distributed server for social and realtime games and apps. | `Go` ★ 12.2k | 2026-01-26 |
 | [novatorem/novatorem](https://github.com/novatorem/novatorem) | Dynamic realtime profile Read Me linked with spotify | `Jinja` ★ 730 | 2024-12-21 |
 | [badsyntax/mailinabox-ui](https://github.com/badsyntax/mailinabox-ui) | Experimental Mail-in-a-Box User Interface built with React, Redux, Type Script & Fluent UI | `TypeScript` ★ 23 | 2023-10-23 |
@@ -215,7 +215,7 @@
 | [llamastack/llama-stack](https://github.com/llamastack/llama-stack) | Composable building blocks to build LLM Apps | `Python` ★ 8.2k | 2026-01-29 |
 | [argenspin/Rope-Live](https://github.com/argenspin/Rope-Live) | Customized fork of Rope Deepfake software featuring live streaming capabilities and support for Deepfacelive models | `Python` ★ 292 | 2024-12-06 |
 | [pandres95/ndi.js](https://github.com/pandres95/ndi.js) | NDI® SDK for Node.js | `C` ★ 57 | 2024-01-11 |
-| [Crayon-Shinchan/AnyDressing](https://github.com/Crayon-Shinchan/AnyDressing) | \[CVPR 2025\] Official implementation of "Any Dressing: Customizable Multi-Garment Virtual Dressing via Latent Diffusion Models" | `JavaScript` ★ 329 | 2025-04-09 |
+| [Crayon-Shinchan/AnyDressing](https://github.com/Crayon-Shinchan/AnyDressing) | [CVPR 2025] Official implementation of "Any Dressing: Customizable Multi-Garment Virtual Dressing via Latent Diffusion Models" | `JavaScript` ★ 329 | 2025-04-09 |
 | [HW-Lab-Hardware-Design-Agency/WebScreen-Website](https://github.com/HW-Lab-Hardware-Design-Agency/WebScreen-Website) | Webscreen landing page | `HTML` ★ 4 | 2026-01-11 |
 | [YassKhazzan/openperplex_backend_os](https://github.com/YassKhazzan/openperplex_backend_os) | openperplex is an opensource AI search engine | `Python` ★ 887 | 2024-08-04 |
 | [sveltestrap/sveltestrap](https://github.com/sveltestrap/sveltestrap) | Bootstrap 5 components for Svelte 4+ | `Svelte` ★ 205 | 2026-01-28 |
@@ -259,7 +259,7 @@
 | [fightforthefuture/battleforthenet-widget](https://github.com/fightforthefuture/battleforthenet-widget) | Embed this widget on your site and help save net neutrality! | `JavaScript` ★ 705 | 2019-02-04 |
 | [causefx/iDashboard-PHP](https://github.com/causefx/iDashboard-PHP) | HTPC Dashboard to load website services, written in PHP | `JavaScript` ★ 125 | 2017-04-17 |
 | [mattermost/mattermost](https://github.com/mattermost/mattermost) | Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.. | `TypeScript` ★ 35.1k | 2026-01-29 |
-| [Ulterius/server](https://github.com/Ulterius/server) | \[WIP\] Ulterius™ server where all the magic happens :rocket: :feelsgood: | `C#` ★ 593 | 2017-11-06 |
+| [Ulterius/server](https://github.com/Ulterius/server) | [WIP] Ulterius™ server where all the magic happens :rocket: :feelsgood: | `C#` ★ 593 | 2017-11-06 |
 | [allynbauer/statuspanic](https://github.com/allynbauer/statuspanic) | A PHP clone of Panic's status board | `PHP` ★ 469 | 2014-02-02 |
 | [flashtag/flashtag-php](https://github.com/flashtag/flashtag-php) | Flashtag content management platform | `PHP` ★ 30 | 2016-05-10 |
 | [jarves/jarves](https://github.com/jarves/jarves) | Jarves CMS/Application Framework based on Symfony - Alpha material | `JavaScript` ★ 330 | 2018-07-17 |

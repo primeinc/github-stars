@@ -31,7 +31,7 @@
 | [icloud-photos-downloader/icloud_photos_downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader) | A command-line tool to download photos from i Cloud | `Python` ★ 11.5k | 2026-01-06 |
 | [dadlerj/tin](https://github.com/dadlerj/tin) | No description provided | `Go` ★ 63 | 2026-01-07 |
 | [frankbria/cli-ify-plugin](https://github.com/frankbria/cli-ify-plugin) | Convert Claude Code skills, commands, and agents into standalone CLI tools for Linux/Mac (Bash) and Windows (Power Shell). | `PowerShell` ★ 1 | 2026-01-09 |
-| [j178/prek](https://github.com/j178/prek) | ⚡ Better \`pre-commit\`, re-engineered in Rust | `Rust` ★ 4k | 2026-01-29 |
+| [j178/prek](https://github.com/j178/prek) | ⚡ Better `pre-commit`, re-engineered in Rust | `Rust` ★ 4k | 2026-01-29 |
 | [epi052/feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | `Rust` ★ 7.5k | 2026-01-22 |
 | [sinelaw/fresh](https://github.com/sinelaw/fresh) | Text editor for your terminal: easy, powerful and fast | `Rust` ★ 5.5k | 2026-01-29 |
 | [sharkdp/bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | `Rust` ★ 56.9k | 2026-01-28 |
@@ -47,7 +47,7 @@
 | [xxh/xxh](https://github.com/xxh/xxh) | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | `Python` ★ 5.9k | 2025-09-22 |
 | [rothgar/awesome-tmux](https://github.com/rothgar/awesome-tmux) | A list of awesome resources for tmux | ★ 9.4k | 2026-01-23 |
 | [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | 🖥 📊 🕹 🛠 A curated list of command line apps | `Shell` ★ 18.5k | 2026-01-04 |
-| [chubin/wttr.in](https://github.com/chubin/wttr.in) | :partly\_sunny: The right way to check the weather | `Python` ★ 28.6k | 2025-10-13 |
+| [chubin/wttr.in](https://github.com/chubin/wttr.in) | :partly_sunny: The right way to check the weather | `Python` ★ 28.6k | 2025-10-13 |
 | [chr15m/runprompt](https://github.com/chr15m/runprompt) | Run LLM prompts from your shell | `Python` ★ 417 | 2026-01-07 |
 | [jasonkneen/askshell](https://github.com/jasonkneen/askshell) | Natural language to shell commands - AI-powered CLI using Ollama, Claude, Codex, Copilot, or Gemini | `Shell` ★ 6 | 2025-12-08 |
 | [nvbn/thefuck](https://github.com/nvbn/thefuck) | Magnificent app which corrects your previous console command. | `Python` ★ 95.3k | 2024-07-19 |
@@ -68,7 +68,7 @@
 | [webextension-toolbox/webextension-toolbox](https://github.com/webextension-toolbox/webextension-toolbox) | Small CLI toolbox for cross-browser Web Extension development | `TypeScript` ★ 781 | 2026-01-14 |
 | [Mellanox/mstflint](https://github.com/Mellanox/mstflint) | Mstflint - an open source version of MFT (Mellanox Firmware Tools) | `C` ★ 242 | 2026-01-26 |
 | [vadimdemedes/ink](https://github.com/vadimdemedes/ink) | 🌈 React for interactive command-line apps | `TypeScript` ★ 34.4k | 2026-01-27 |
-| [dotenvx/dotenvx](https://github.com/dotenvx/dotenvx) | a secure dotenv–from the creator of \`dotenv\` | `JavaScript` ★ 4.9k | 2026-01-22 |
+| [dotenvx/dotenvx](https://github.com/dotenvx/dotenvx) | a secure dotenv–from the creator of `dotenv` | `JavaScript` ★ 4.9k | 2026-01-22 |
 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader | `Python` ★ 144.6k | 2026-01-29 |
 | [deechtejoao/stonkfetch](https://github.com/deechtejoao/stonkfetch) | A command-line tool that fetches and displays stock information with beautiful colored ASCII art logos, inspired by neofetch. | `Python` ★ 33 | 2025-11-09 |
 | [Azure/acr-cli](https://github.com/Azure/acr-cli) | Command Line Tool for interacting with Azure Container Registry Images | `Go` ★ 67 | 2026-01-26 |
@@ -129,7 +129,7 @@
 | [MScholtes/VirtualDesktop](https://github.com/MScholtes/VirtualDesktop) | C# command line tool to manage virtual desktops in Windows 10 | `C#` ★ 726 | 2025-08-12 |
 | [starship/starship](https://github.com/starship/starship) | ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell! | `Rust` ★ 53.8k | 2026-01-28 |
 | [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) | Reverse engineered Chat GPT API | `Python` ★ 28k | 2023-08-02 |
-| [cheat/cheat](https://github.com/cheat/cheat) | cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind \*nix system administrators of options for commands that they use frequently, but not ... | `Go` ★ 13.2k | 2024-07-29 |
+| [cheat/cheat](https://github.com/cheat/cheat) | cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not ... | `Go` ★ 13.2k | 2024-07-29 |
 | [smrchy/redis-tagging](https://github.com/smrchy/redis-tagging) | A Node JS library based helper to tag (sorted) items with Redis | `TypeScript` ★ 73 | 2023-03-03 |
 | [dthree/cash](https://github.com/dthree/cash) | Cross-platform Linux commands in ES6 | `JavaScript` ★ 7.8k | 2020-01-14 |
 | [veltman/clmystery](https://github.com/veltman/clmystery) | A command-line murder mystery | ★ 6k | 2023-09-21 |

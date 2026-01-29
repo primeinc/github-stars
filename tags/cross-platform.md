@@ -14,12 +14,12 @@
 | [OneKeyHQ/app-monorepo](https://github.com/OneKeyHQ/app-monorepo) | Secure, open source and community driven crypto wallet runs on all platforms and trusted by millions. | `TypeScript` ★ 2.3k | 2026-01-29 |
 | [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty) | 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration. | `Zig` ★ 42.3k | 2026-01-28 |
 | [zhiyiYo/PyQt-Frameless-Window](https://github.com/zhiyiYo/PyQt-Frameless-Window) | A cross-platform frameless window based on Py Qt/Py Side, support Win32, Linux and mac OS. | `Python` ★ 707 | 2026-01-18 |
-| [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop\_computer: :camera\_flash: | `C++` ★ 28.7k | 2026-01-28 |
+| [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop_computer: :camera_flash: | `C++` ★ 28.7k | 2026-01-28 |
 | [longbridge/gpui-component](https://github.com/longbridge/gpui-component) | Rust GUI components for building fantastic cross-platform desktop application by using GPUI. | `Rust` ★ 9.9k | 2026-01-28 |
 | [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | A modern download manager that supports all platforms. Built with Golang and Flutter. | `Go` ★ 22.5k | 2026-01-29 |
 | [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) | A Foundation for Scalable Cross-Platform Apps | `TypeScript` ★ 24.2k | 2025-09-22 |
 | [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 🐬Deep Chat - A smart assistant that connects powerful AI to your personal world | `TypeScript` ★ 5.5k | 2026-01-28 |
-| [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and Open GL. Runs on Windows, Linux, \*BSD and Mac OS X. | `C#` ★ 16.4k | 2026-01-26 |
+| [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and Open GL. Runs on Windows, Linux, *BSD and Mac OS X. | `C#` ★ 16.4k | 2026-01-26 |
 | [nativefier/nativefier](https://github.com/nativefier/nativefier) | Make any web page a desktop application | `TypeScript` ★ 35.4k | 2023-09-29 |
 | [mltframework/shotcut](https://github.com/mltframework/shotcut) | cross-platform (Qt), open-source (GPLv3) video editor | `C++` ★ 13.3k | 2026-01-28 |
 | [localsend/localsend](https://github.com/localsend/localsend) | An open-source cross-platform alternative to Air Drop | `Dart` ★ 74k | 2026-01-21 |

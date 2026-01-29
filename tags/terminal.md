@@ -14,7 +14,7 @@
 | [rsalmei/alive-progress](https://github.com/rsalmei/alive-progress) | A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations! | `Python` ★ 6.2k | 2025-10-10 |
 | [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty) | 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration. | `Zig` ★ 42.3k | 2026-01-28 |
 | [rothgar/awesome-tmux](https://github.com/rothgar/awesome-tmux) | A list of awesome resources for tmux | ★ 9.4k | 2026-01-23 |
-| [chubin/wttr.in](https://github.com/chubin/wttr.in) | :partly\_sunny: The right way to check the weather | `Python` ★ 28.6k | 2025-10-13 |
+| [chubin/wttr.in](https://github.com/chubin/wttr.in) | :partly_sunny: The right way to check the weather | `Python` ★ 28.6k | 2025-10-13 |
 | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | An open-source AI agent that lives in your terminal. | `TypeScript` ★ 17.9k | 2026-01-29 |
 | [mmulet/term.everything](https://github.com/mmulet/term.everything) | Run any GUI app in the terminal❗ | `Go` ★ 7.7k | 2025-12-06 |
 | [bixat/nexsh](https://github.com/bixat/nexsh) | Next-generation AI-powered shell using Google Gemini - Translates your words into precise shell commands ⚙️ | `Rust` ★ 16 | 2026-01-24 |

@@ -25,7 +25,7 @@
 | [NullandKale/NullSplats](https://github.com/NullandKale/NullSplats) | No description provided | `Python` ★ 124 | 2026-01-12 |
 | [Semperis/EntraGoat](https://github.com/Semperis/EntraGoat) | A deliberately vulnerable Microsoft Entra ID environment. Learn identity security through hands-on, realistic attack challenges. | `PowerShell` ★ 875 | 2026-01-15 |
 | [google/dotguides](https://github.com/google/dotguides) | No description provided | `TypeScript` ★ 58 | 2025-11-18 |
-| [inclusionAI/TwinFlow](https://github.com/inclusionAI/TwinFlow) | \[ICLR 2026\] Taming large-scale few-step training with self-adversarial flows! 👏🏻 | `Python` ★ 466 | 2026-01-29 |
+| [inclusionAI/TwinFlow](https://github.com/inclusionAI/TwinFlow) | [ICLR 2026] Taming large-scale few-step training with self-adversarial flows! 👏🏻 | `Python` ★ 466 | 2026-01-29 |
 | [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs) | A list of semi to fully remote-friendly companies (jobs) in tech. | `Nunjucks` ★ 40k | 2026-01-23 |
 | [JoseDeFreitas/awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers) | An awesome list of awesome You Tubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more. | `Markdown` ★ 7.2k | 2025-11-30 |
 | [thangchung/clean-code-dotnet](https://github.com/thangchung/clean-code-dotnet) | :bathtub: Clean Code concepts and tools adapted for .NET | `C#` ★ 7.6k | 2024-08-10 |
@@ -67,11 +67,11 @@
 | [pnp/copilot-prompts](https://github.com/pnp/copilot-prompts) | Examples of prompts for Microsoft Copilot | ★ 500 | 2026-01-26 |
 | [Azure-Samples/dab-swa-library-demo](https://github.com/Azure-Samples/dab-swa-library-demo) | No description provided | `JavaScript` ★ 19 | 2024-06-18 |
 | [codebucks27/Next.js-Developer-Portfolio-Starter-Code](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code) | ⭐Build a stunning portfolio website with Next.js, Tailwind CSS and Framer-motion. If you want to learn to create this you can follow the tutorial link given in the Read me file. | `CSS` ★ 1.2k | 2025-06-18 |
-| [HKUDS/AI-Researcher](https://github.com/HKUDS/AI-Researcher) | \[Neur IPS2025\] "AI-Researcher: Autonomous Scientific Innovation" -- A production-ready version: https://novix.science/chat | `Python` ★ 4.3k | 2025-10-16 |
+| [HKUDS/AI-Researcher](https://github.com/HKUDS/AI-Researcher) | [Neur IPS2025] "AI-Researcher: Autonomous Scientific Innovation" -- A production-ready version: https://novix.science/chat | `Python` ★ 4.3k | 2025-10-16 |
 | [Azure-Samples/communication-services-javascript-quickstarts](https://github.com/Azure-Samples/communication-services-javascript-quickstarts) | Sample code for Azure Communication Services Java Script quickstarts | `JavaScript` ★ 105 | 2025-12-16 |
 | [NousResearch/Hermes-Function-Calling](https://github.com/NousResearch/Hermes-Function-Calling) | No description provided | `Jupyter Notebook` ★ 1.2k | 2025-12-22 |
 | [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | A curated list of awesome READMEs | ★ 20.3k | 2026-01-24 |
-| [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar\_board: | ★ 80.5k | 2024-07-29 |
+| [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: | ★ 80.5k | 2024-07-29 |
 | [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | A collection of various awesome lists for hackers, pentesters and security researchers | ★ 105.6k | 2025-01-18 |
 | [bytedance/OneReward](https://github.com/bytedance/OneReward) | No description provided | `Python` ★ 326 | 2025-09-15 |
 | [Agent-on-the-Fly/Memento](https://github.com/Agent-on-the-Fly/Memento) | Official Code of Memento: Fine-tuning LLM Agents without Fine-tuning LLMs | `Python` ★ 2.2k | 2025-10-05 |
@@ -89,7 +89,7 @@
 | [gicentre/litvis](https://github.com/gicentre/litvis) | Literate Visualization: Theory, software and examples | `TypeScript` ★ 403 | 2026-01-21 |
 | [gothinkster/realworld](https://github.com/gothinkster/realworld) | "The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more | `TypeScript` ★ 82.8k | 2026-01-28 |
 | [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | Curated list of project-based tutorials | ★ 256.9k | 2024-08-15 |
-| [ellisonleao/magictools](https://github.com/ellisonleao/magictools) | :video\_game: :pencil: A list of Game Development resources to make magic happen. | `Markdown` ★ 16.1k | 2026-01-15 |
+| [ellisonleao/magictools](https://github.com/ellisonleao/magictools) | :video_game: :pencil: A list of Game Development resources to make magic happen. | `Markdown` ★ 16.1k | 2026-01-15 |
 | [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood) | 😱 Falsehoods Programmers Believe in | ★ 27k | 2026-01-20 |
 | [poloclub/transformer-explainer](https://github.com/poloclub/transformer-explainer) | Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization | `JavaScript` ★ 6.5k | 2026-01-15 |
 | [langchain-ai/agents-from-scratch](https://github.com/langchain-ai/agents-from-scratch) | Build an email assistant with human-in-the-loop and memory | `Jupyter Notebook` ★ 1.5k | 2025-10-20 |
@@ -106,7 +106,7 @@
 | [nathanbuchar/audubon-bird-plates-for-supernote](https://github.com/nathanbuchar/audubon-bird-plates-for-supernote) | All 435 illustrations of John James Audubon's Birds of America adapted for use as screensavers on the Supernote and other similar e-ink tablets. | ★ 42 | 2022-01-09 |
 | [ksreyes/popes](https://github.com/ksreyes/popes) | Dataset of all official popes from Peter to Francis | `R` ★ 6 | 2023-02-06 |
 | [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | 📄 Configuration files that enhance Cursor AI editor experience with custom rules and behaviors | `MDX` ★ 37.5k | 2025-10-24 |
-| [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) | \[WIP\] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025) | `Jupyter Notebook` ★ 13.3k | 2025-02-12 |
+| [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) | [WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025) | `Jupyter Notebook` ★ 13.3k | 2025-02-12 |
 | [Qais-Hweidi/ai-assisted-development-guide](https://github.com/Qais-Hweidi/ai-assisted-development-guide) | Practical tips for effective AI-assisted software development | ★ 282 | 2025-04-03 |
 | [twelve-factor/twelve-factor](https://github.com/twelve-factor/twelve-factor) | The Twelve-Factor Manifesto | ★ 2.1k | 2025-08-21 |
 | [samwit/llm-tutorials](https://github.com/samwit/llm-tutorials) | A set of LLM Tutorials from my youtube channel | `Jupyter Notebook` ★ 1.1k | 2023-06-13 |

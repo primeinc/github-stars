@@ -20,7 +20,7 @@
 | [trpc/trpc](https://github.com/trpc/trpc) | 🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | `TypeScript` ★ 39.4k | 2026-01-28 |
 | [trycompai/comp](https://github.com/trycompai/comp) | AI Native platform to get companies compliant - Vanta & Drata Alternative | `TypeScript` ★ 1.3k | 2026-01-29 |
 | [codebucks27/Next.js-Developer-Portfolio-Starter-Code](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code) | ⭐Build a stunning portfolio website with Next.js, Tailwind CSS and Framer-motion. If you want to learn to create this you can follow the tutorial link given in the Read me file. | `CSS` ★ 1.2k | 2025-06-18 |
-| [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An \`azd\` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 29 | 2024-06-26 |
+| [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An `azd` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 29 | 2024-06-26 |
 | [StudentiUniMi/website](https://github.com/StudentiUniMi/website) | Web application built with Next.js 15 and React 19 (TS), designed to provide students of the University of Milan with seamless access to academic groups and university services. The interface is de... | `TypeScript` ★ 60 | 2026-01-06 |
 | [vercel/swr](https://github.com/vercel/swr) | React Hooks for Data Fetching | `TypeScript` ★ 32.3k | 2026-01-25 |
 | [simstudioai/sim](https://github.com/simstudioai/sim) | Open-source platform to build and deploy AI agent workflows. | `TypeScript` ★ 26.3k | 2026-01-29 |

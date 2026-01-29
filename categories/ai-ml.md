@@ -66,7 +66,7 @@
 | [microsoft/data-formulator](https://github.com/microsoft/data-formulator) | 🪄 Create rich visualizations with AI | `TypeScript` ★ 14.8k | 2026-01-27 |
 | [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) | Flash Infer: Kernel Library for LLM Serving | `Python` ★ 4.8k | 2026-01-28 |
 | [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework" | `Python` ★ 12.4k | 2026-01-26 |
-| [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | \[KDD'2026\] "Video RAG: Chat with Your Videos" | `Python` ★ 2.6k | 2026-01-11 |
+| [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | [KDD'2026] "Video RAG: Chat with Your Videos" | `Python` ★ 2.6k | 2026-01-11 |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. | `Python` ★ 77.3k | 2026-01-29 |
 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory for 24/7 proactive agents like clawdbot. | `Python` ★ 5.7k | 2026-01-28 |
 | [charmbracelet/crush](https://github.com/charmbracelet/crush) | Glamourous agentic coding for all 💘 | `Go` ★ 19.1k | 2026-01-28 |
@@ -100,7 +100,7 @@
 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | An autonomous agent that conducts deep research on any data using any LLM providers. | `Python` ★ 25.1k | 2026-01-28 |
 | [Francis-Rings/FlashPortrait](https://github.com/Francis-Rings/FlashPortrait) | We present Flash Portrait, an end-to-end video diffusion transformer capable of synthesizing ID-preserving, infinite-length videos while achieving up to 6$\times$ acceleration in inference speed. | `Python` ★ 432 | 2026-01-10 |
 | [code-yeongyu/oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode) | The Best Agent Harness. Meet Sisyphus: The Batteries-Included Agent that codes like you. | `TypeScript` ★ 25.6k | 2026-01-29 |
-| [Zplusdragon/LowLevelBanana](https://github.com/Zplusdragon/LowLevelBanana) | \[Technical Report\] A Comprehensive Evaluation of Nano Banana Pro on 14 Low-Level Vision Tasks and 40 Datasets | `Python` ★ 67 | 2025-12-24 |
+| [Zplusdragon/LowLevelBanana](https://github.com/Zplusdragon/LowLevelBanana) | [Technical Report] A Comprehensive Evaluation of Nano Banana Pro on 14 Low-Level Vision Tasks and 40 Datasets | `Python` ★ 67 | 2025-12-24 |
 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, v LLM pods | `TypeScript` ★ 3.2k | 2026-01-29 |
 | [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) | Agentic AI Infrastructure for magnifying HUMAN capabilities. | `TypeScript` ★ 6k | 2026-01-24 |
 | [lintsinghua/DeepAudit](https://github.com/lintsinghua/DeepAudit) | Deep Audit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 Po C 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。 | `Python` ★ 4.3k | 2026-01-26 |
@@ -112,7 +112,7 @@
 | [jasonkneen/workflow-builder-template](https://github.com/jasonkneen/workflow-builder-template) | Visual AI workflow automation platform | `TypeScript` ★ 1 | 2026-01-13 |
 | [GVCLab/PersonaLive](https://github.com/GVCLab/PersonaLive) | Persona Live! : Expressive Portrait Image Animation for Live Streaming | `Python` ★ 1.6k | 2025-12-30 |
 | [Aleafy/V-RGBX](https://github.com/Aleafy/V-RGBX) | V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties | `Python` ★ 100 | 2026-01-17 |
-| [inclusionAI/TwinFlow](https://github.com/inclusionAI/TwinFlow) | \[ICLR 2026\] Taming large-scale few-step training with self-adversarial flows! 👏🏻 | `Python` ★ 466 | 2026-01-29 |
+| [inclusionAI/TwinFlow](https://github.com/inclusionAI/TwinFlow) | [ICLR 2026] Taming large-scale few-step training with self-adversarial flows! 👏🏻 | `Python` ★ 466 | 2026-01-29 |
 | [zhu-xlab/GlobalBuildingAtlas](https://github.com/zhu-xlab/GlobalBuildingAtlas) | Global Building Atlas: an open global and complete dataset of building polygons, heights and Lo D1 3D models | `Python` ★ 1.9k | 2026-01-23 |
 | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | Vox CPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning | `Python` ★ 5.6k | 2026-01-24 |
 | [refly-ai/refly](https://github.com/refly-ai/refly) | Vibe Workflow Platform for Non-technical Creators. | `TypeScript` ★ 6k | 2026-01-29 |
@@ -156,7 +156,7 @@
 | [generalaction/emdash](https://github.com/generalaction/emdash) | Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider. | `TypeScript` ★ 1.1k | 2026-01-28 |
 | [passadis/ai-architect-webapp](https://github.com/passadis/ai-architect-webapp) | AI-powered Azure Architecture Generator that automatically creates AI agents for design documents and diagram generation | `Python` ★ 9 | 2025-09-15 |
 | [alibaba/ROCK](https://github.com/alibaba/ROCK) | A construction kit for reinforcement learning environment management. | `Python` ★ 323 | 2026-01-29 |
-| [nv-tlabs/ChronoEdit](https://github.com/nv-tlabs/ChronoEdit) | \[ICLR 2026\] Chrono Edit: Towards Temporal Reasoning for Image Editing and World Simulation | `Python` ★ 664 | 2025-11-20 |
+| [nv-tlabs/ChronoEdit](https://github.com/nv-tlabs/ChronoEdit) | [ICLR 2026] Chrono Edit: Towards Temporal Reasoning for Image Editing and World Simulation | `Python` ★ 664 | 2025-11-20 |
 | [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 2.1k | 2026-01-28 |
 | [universal-tool-calling-protocol/code-mode](https://github.com/universal-tool-calling-protocol/code-mode) | 🔌 Plug-and-play library to enable agents to call MCP and UTCP tools via code execution. | `Python` ★ 1.3k | 2026-01-16 |
 | [Visual-Agent/DeepEyesV2](https://github.com/Visual-Agent/DeepEyesV2) | No description provided | `Python` ★ 497 | 2026-01-28 |
@@ -188,7 +188,7 @@
 | [Ido-Levi/Hephaestus](https://github.com/Ido-Levi/Hephaestus) | Semi-Structured Agentic Framework. Workflows build themselves as agents discover what needs to be done, not what you predicted upfront. | `Python` ★ 1.1k | 2025-12-01 |
 | [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 239 | 2025-12-11 |
 | [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) | Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc. | `TypeScript` ★ 3.1k | 2026-01-27 |
-| [EzioBy/Ditto](https://github.com/EzioBy/Ditto) | \[Preprint 2025\] Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset | `Python` ★ 561 | 2025-10-29 |
+| [EzioBy/Ditto](https://github.com/EzioBy/Ditto) | [Preprint 2025] Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset | `Python` ★ 561 | 2025-10-29 |
 | [deepseek-ai/DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) | Contexts Optical Compression | `Python` ★ 22.3k | 2026-01-27 |
 | [elie222/inbox-zero](https://github.com/elie222/inbox-zero) | The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast. | `TypeScript` ★ 9.9k | 2026-01-28 |
 | [MCP-UI-Org/mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP. Create next-gen UI experiences with the protocol and SDK! | `TypeScript` ★ 4.2k | 2026-01-29 |
@@ -241,7 +241,7 @@
 | [Azure-Samples/contoso-chat](https://github.com/Azure-Samples/contoso-chat) | This sample has the full End2End process of creating RAG application with Prompty and Azure AI Foundry. It includes GPT-4 LLM application code, evaluations, deployment automation with AZD CLI, Git ... | `Bicep` ★ 754 | 2025-10-03 |
 | [sigoden/aichat](https://github.com/sigoden/aichat) | All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to Open AI, Claude, Gemini, Ollama, Groq, and more. | `Rust` ★ 9.2k | 2026-01-29 |
 | [OvidijusParsiunas/deep-chat](https://github.com/OvidijusParsiunas/deep-chat) | Fully customizable AI chatbot component for your website | `TypeScript` ★ 3.5k | 2026-01-27 |
-| [HKUDS/AI-Researcher](https://github.com/HKUDS/AI-Researcher) | \[Neur IPS2025\] "AI-Researcher: Autonomous Scientific Innovation" -- A production-ready version: https://novix.science/chat | `Python` ★ 4.3k | 2025-10-16 |
+| [HKUDS/AI-Researcher](https://github.com/HKUDS/AI-Researcher) | [Neur IPS2025] "AI-Researcher: Autonomous Scientific Innovation" -- A production-ready version: https://novix.science/chat | `Python` ★ 4.3k | 2025-10-16 |
 | [LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) | Multi-Platform Package Manager for Stable Diffusion | `C#` ★ 7.4k | 2026-01-24 |
 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popular chatbots like Chat GPT, Claude & Gemini | `JavaScript` ★ 26.8k | 2026-01-28 |
 | [iyaja/llama-fs](https://github.com/iyaja/llama-fs) | A self-organizing file system with llama 3 | `TypeScript` ★ 5.7k | 2025-08-08 |
@@ -275,7 +275,7 @@
 | [layumi/Person-reID_GAN](https://github.com/layumi/Person-reID_GAN) | ICCV2017 Unlabeled Samples Generated by GAN Improve the Person Re-identification Baseline in vitro | `Cuda` ★ 323 | 2021-06-29 |
 | [NVlabs/DG-Net](https://github.com/NVlabs/DG-Net) | :couple: Joint Discriminative and Generative Learning for Person Re-identification. CVPR'19 (Oral) :couple: | `Python` ★ 1.3k | 2023-07-09 |
 | [bytedance/OneReward](https://github.com/bytedance/OneReward) | No description provided | `Python` ★ 326 | 2025-09-15 |
-| [TencentARC/GenCompositor](https://github.com/TencentARC/GenCompositor) | \[ICLR 2026\] Gen Compositor: Generative Video Compositing with Diffusion Transformer | `Python` ★ 141 | 2026-01-28 |
+| [TencentARC/GenCompositor](https://github.com/TencentARC/GenCompositor) | [ICLR 2026] Gen Compositor: Generative Video Compositing with Diffusion Transformer | `Python` ★ 141 | 2026-01-28 |
 | [MorDavid/BruteForceAI](https://github.com/MorDavid/BruteForceAI) | Advanced LLM-powered brute-force tool combining AI intelligence with automated login attacks | `Python` ★ 1.4k | 2025-11-01 |
 | [langfuse/langfuse](https://github.com/langfuse/langfuse) | 🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with Open Telemetry, Langchain, Open AI SDK, Lite LLM, and more. 🍊YC... | `TypeScript` ★ 21.2k | 2026-01-28 |
 | [Agent-on-the-Fly/Memento](https://github.com/Agent-on-the-Fly/Memento) | Official Code of Memento: Fine-tuning LLM Agents without Fine-tuning LLMs | `Python` ★ 2.2k | 2025-10-05 |
@@ -305,7 +305,7 @@
 | [mediar-ai/terminator](https://github.com/mediar-ai/terminator) | playwright for windows computer use | `Rust` ★ 1.3k | 2026-01-28 |
 | [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `Python` ★ 10.1k | 2026-01-29 |
 | [microsoft/poml](https://github.com/microsoft/poml) | Prompt Orchestration Markup Language | `TypeScript` ★ 4.8k | 2026-01-14 |
-| [manycore-research/SpatialLM](https://github.com/manycore-research/SpatialLM) | \[Neur IPS 2025\] Spatial LM: Training Large Language Models for Structured Indoor Modeling | `Python` ★ 4.2k | 2025-09-26 |
+| [manycore-research/SpatialLM](https://github.com/manycore-research/SpatialLM) | [Neur IPS 2025] Spatial LM: Training Large Language Models for Structured Indoor Modeling | `Python` ★ 4.2k | 2025-09-26 |
 | [microsoft/magentic-ui](https://github.com/microsoft/magentic-ui) | A research prototype of a human-centered web agent | `Python` ★ 9.6k | 2026-01-23 |
 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL Augment Code, Claude Code, Cluely, Code Buddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, Notion AI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer ... | ★ 111.7k | 2026-01-21 |
 | [AgentDeskAI/browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp) | Monitor browser logs directly from Cursor and other MCP compatible IDEs. | `JavaScript` ★ 7k | 2025-03-26 |
@@ -342,7 +342,7 @@
 | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | A collection of notebooks/recipes showcasing some fun and effective ways of using Claude. | `Jupyter Notebook` ★ 32.1k | 2026-01-27 |
 | [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) | What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers? | `TypeScript` ★ 17.9k | 2025-09-21 |
 | [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) | MCP Toolbox for Databases is an open source MCP server for databases. | `Go` ★ 12.7k | 2026-01-29 |
-| [yukangcao/FreeMorph](https://github.com/yukangcao/FreeMorph) | \[ICCV'25\] Free Morph: Tuning-Free Generalized Image Morphing with Diffusion Model | `Python` ★ 82 | 2025-07-24 |
+| [yukangcao/FreeMorph](https://github.com/yukangcao/FreeMorph) | [ICCV'25] Free Morph: Tuning-Free Generalized Image Morphing with Diffusion Model | `Python` ★ 82 | 2025-07-24 |
 | [FreedomIntelligence/ShareGPT-4o-Image](https://github.com/FreedomIntelligence/ShareGPT-4o-Image) | No description provided | `Python` ★ 282 | 2025-07-22 |
 | [datamllab/awesome-deepfakes-materials](https://github.com/datamllab/awesome-deepfakes-materials) | A curated list of awesome Deepfakes materials | ★ 437 | 2023-02-07 |
 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | An open-source AI agent that brings the power of Gemini directly into your terminal. | `TypeScript` ★ 92.9k | 2026-01-29 |
@@ -370,7 +370,7 @@
 | [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your terminal | `Rust` ★ 58k | 2026-01-29 |
 | [openai/codex-universal](https://github.com/openai/codex-universal) | Base docker image used in Codex environments | `Dockerfile` ★ 772 | 2026-01-21 |
 | [athapong/aio-mcp](https://github.com/athapong/aio-mcp) | 🚀 All-in-one MCP server with AI search, RAG, and multi-service integrations (Git Lab/Jira/Confluence/You Tube) for AI-enhanced development workflows. Folk from https://github.com/nguyenvanduocit/a... | `Go` ★ 34 | 2025-06-12 |
-| [SaM-92/mcp_autogen_sse_stdio](https://github.com/SaM-92/mcp_autogen_sse_stdio) | This repository demonstrates how to use Auto Gen to integrate local and remote MCP (Model Context Protocol) servers. It showcases a local math tool (math\_server.py) using Stdio and a remote Apify t... | `Python` ★ 28 | 2025-04-13 |
+| [SaM-92/mcp_autogen_sse_stdio](https://github.com/SaM-92/mcp_autogen_sse_stdio) | This repository demonstrates how to use Auto Gen to integrate local and remote MCP (Model Context Protocol) servers. It showcases a local math tool (math_server.py) using Stdio and a remote Apify t... | `Python` ★ 28 | 2025-04-13 |
 | [21st-dev/magic-mcp](https://github.com/21st-dev/magic-mcp) | It's like v0 but in your Cursor/Wind Surf/Cline. 21st dev Magic MCP server for working with your frontend like Magic | `TypeScript` ★ 4.2k | 2025-12-23 |
 | [claudio-silva/claude-artifact-runner](https://github.com/claudio-silva/claude-artifact-runner) | From Claude Artifact to deployable React app — in seconds! | `TypeScript` ★ 498 | 2026-01-23 |
 | [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) | No description provided | `TypeScript` ★ 5.4k | 2026-01-29 |
@@ -387,7 +387,7 @@
 | [camel-ai/camel](https://github.com/camel-ai/camel) | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org | `Python` ★ 15.9k | 2026-01-27 |
 | [modelscope/FunASR](https://github.com/modelscope/FunASR) | A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc. | `Python` ★ 14.7k | 2026-01-28 |
 | [vercel/ai-chatbot](https://github.com/vercel/ai-chatbot) | A full-featured, hackable Next.js AI chatbot built by Vercel | `TypeScript` ★ 19.4k | 2026-01-28 |
-| [nunchaku-ai/nunchaku](https://github.com/nunchaku-ai/nunchaku) | \[ICLR2025 Spotlight\] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models | `Python` ★ 3.6k | 2026-01-25 |
+| [nunchaku-ai/nunchaku](https://github.com/nunchaku-ai/nunchaku) | [ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models | `Python` ★ 3.6k | 2026-01-25 |
 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | A high-performance algorithmic trading platform and event-driven backtester | `Rust` ★ 18.7k | 2026-01-29 |
 | [BasedHardware/omi](https://github.com/BasedHardware/omi) | AI wearables. Put it on, speak, transcribe, automatically | `Dart` ★ 7.6k | 2026-01-29 |
 | [jlowin/fastmcp](https://github.com/jlowin/fastmcp) | 🚀 The fast, Pythonic way to build MCP servers and clients | `Python` ★ 22.4k | 2026-01-29 |
@@ -472,7 +472,7 @@
 | [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate social media scheduling tool, with a bunch of AI 🤖 | `TypeScript` ★ 26.3k | 2026-01-28 |
 | [neuralchen/SimSwap](https://github.com/neuralchen/SimSwap) | An arbitrary face-swapping framework on images and videos with one single trained model! | `Python` ★ 5.1k | 2024-08-06 |
 | [somanchiu/ReSwapper](https://github.com/somanchiu/ReSwapper) | Re Swapper aims to reproduce the implementation of inswapper. This repository provides code for training, inference, and includes pretrained weights. | `Python` ★ 218 | 2025-06-14 |
-| [Crayon-Shinchan/AnyDressing](https://github.com/Crayon-Shinchan/AnyDressing) | \[CVPR 2025\] Official implementation of "Any Dressing: Customizable Multi-Garment Virtual Dressing via Latent Diffusion Models" | `JavaScript` ★ 329 | 2025-04-09 |
+| [Crayon-Shinchan/AnyDressing](https://github.com/Crayon-Shinchan/AnyDressing) | [CVPR 2025] Official implementation of "Any Dressing: Customizable Multi-Garment Virtual Dressing via Latent Diffusion Models" | `JavaScript` ★ 329 | 2025-04-09 |
 | [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | A community-supported supercharged document management system: scan, index and archive all your documents | `Python` ★ 36.1k | 2026-01-29 |
 | [lucasnewman/f5-tts-mlx](https://github.com/lucasnewman/f5-tts-mlx) | Implementation of F5-TTS in MLX | `Python` ★ 605 | 2025-03-19 |
 | [SWivid/F5-TTS](https://github.com/SWivid/F5-TTS) | Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching" | `Python` ★ 14k | 2026-01-28 |
@@ -501,7 +501,7 @@
 | [mhamilton723/FeatUp](https://github.com/mhamilton723/FeatUp) | Official code for "Feat Up: A Model-Agnostic Frameworkfor Features at Any Resolution" ICLR 2024 | `Jupyter Notebook` ★ 1.6k | 2024-06-28 |
 | [phodal/auto-dev](https://github.com/phodal/auto-dev) | 🧙‍Auto Dev: the AI-native Multi-Agent development platform built on Kotlin Multiplatform, covering all 7 phases of SDLC. | `Kotlin` ★ 4.3k | 2026-01-14 |
 | [openinterpreter/open-interpreter](https://github.com/openinterpreter/open-interpreter) | A natural language interface for computers | `Python` ★ 61.9k | 2025-12-05 |
-| [TencentARC/PhotoMaker](https://github.com/TencentARC/PhotoMaker) | Photo Maker \[CVPR 2024\] | `Jupyter Notebook` ★ 10.1k | 2024-10-31 |
+| [TencentARC/PhotoMaker](https://github.com/TencentARC/PhotoMaker) | Photo Maker [CVPR 2024] | `Jupyter Notebook` ★ 10.1k | 2024-10-31 |
 | [devisasari/awesome-gpt-store](https://github.com/devisasari/awesome-gpt-store) | A curated list of awesome GPTs in the GPT Store | ★ 2.1k | 2024-10-15 |
 | [RupertAvery/DiffusionToolkit](https://github.com/RupertAvery/DiffusionToolkit) | Metadata-indexer and Viewer for AI-generated images | `C#` ★ 967 | 2026-01-23 |
 | [aegis72/aegisflow](https://github.com/aegis72/aegisflow) | Aegis Flow XL and Aegis Flow 1.5 are Comfy UI workflows designed by a professional for professionals | ★ 36 | 2024-01-18 |
@@ -567,7 +567,7 @@
 | [enhuiz/vall-e](https://github.com/enhuiz/vall-e) | An unofficial Py Torch implementation of the audio LM VALL-E | `Python` ★ 3k | 2023-05-10 |
 | [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | Open Assistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | `Python` ★ 37.5k | 2024-08-17 |
 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | Clone a voice in 5 seconds to generate arbitrary speech in real-time | `Python` ★ 59.3k | 2025-12-15 |
-| [Breakthrough/PySceneDetect](https://github.com/Breakthrough/PySceneDetect) | :movie\_camera: Python and Open CV-based scene cut/transition detection program & library. | `Python` ★ 4.5k | 2026-01-25 |
+| [Breakthrough/PySceneDetect](https://github.com/Breakthrough/PySceneDetect) | :movie_camera: Python and Open CV-based scene cut/transition detection program & library. | `Python` ★ 4.5k | 2026-01-25 |
 | [bwsw/rt-motion-detection-opencv-python](https://github.com/bwsw/rt-motion-detection-opencv-python) | High-performance noise-tolerant motion detection algorithm implemented with Python3, Numba, Numpy | `C` ★ 122 | 2022-04-06 |
 | [TheSpaghettiDetective/OctoPrint-Obico](https://github.com/TheSpaghettiDetective/OctoPrint-Obico) | No description provided | `Python` ★ 141 | 2026-01-25 |
 | [TheSpaghettiDetective/obico-server](https://github.com/TheSpaghettiDetective/obico-server) | Obico is a community-built, open-source smart 3D printing platform used by makers, enthusiasts, and tinkerers around the world. | `Vue` ★ 1.8k | 2026-01-28 |

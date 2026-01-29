@@ -13,4 +13,4 @@
 | [metafizzy/infinite-scroll](https://github.com/metafizzy/infinite-scroll) | 📜 Automatically add next page | `HTML` ★ 7.5k | 2025-03-08 |
 | [t4t5/sweetalert](https://github.com/t4t5/sweetalert) | A beautiful replacement for Java Script's "alert" | `TypeScript` ★ 22.4k | 2023-04-15 |
 | [twbs/bootstrap](https://github.com/twbs/bootstrap) | The most popular HTML, CSS, and Java Script framework for developing responsive, mobile first projects on the web. | `MDX` ★ 174k | 2026-01-28 |
-| [bitwiseshiftleft/sjcl](https://github.com/bitwiseshiftleft/sjcl) | \[DEPRECATED\] Stanford Javascript Crypto Library | `JavaScript` ★ 7.2k | 2026-01-08 |
+| [bitwiseshiftleft/sjcl](https://github.com/bitwiseshiftleft/sjcl) | [DEPRECATED] Stanford Javascript Crypto Library | `JavaScript` ★ 7.2k | 2026-01-08 |

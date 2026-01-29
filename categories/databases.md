@@ -49,7 +49,7 @@
 | [chartdb/chartdb](https://github.com/chartdb/chartdb) | Database diagrams editor that allows you to visualize and design your DB with a single query. | `TypeScript` ★ 21k | 2026-01-13 |
 | [milvus-io/milvus](https://github.com/milvus-io/milvus) | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search | `Go` ★ 42.5k | 2026-01-29 |
 | [takoyaro/db-storage1111](https://github.com/takoyaro/db-storage1111) | automatic1111's stable-diffusion-webui extension for storing images to a database | `Python` ★ 50 | 2023-10-02 |
-| [nilportugues/sql-repository](https://github.com/nilportugues/sql-repository) | \[PHP 7\] SQL Repository implementation | `PHP` ★ 36 | 2017-03-13 |
+| [nilportugues/sql-repository](https://github.com/nilportugues/sql-repository) | [PHP 7] SQL Repository implementation | `PHP` ★ 36 | 2017-03-13 |
 | [ssimunic/Temp-Monitor](https://github.com/ssimunic/Temp-Monitor) | Internet of Things data platform for temperature and humidity sensors with maps | `PHP` ★ 90 | 2018-11-23 |
 | [smrchy/redis-tagging](https://github.com/smrchy/redis-tagging) | A Node JS library based helper to tag (sorted) items with Redis | `TypeScript` ★ 73 | 2023-03-03 |
 | [jdorn/sql-formatter](https://github.com/jdorn/sql-formatter) | A lightweight php class for formatting sql statements. Handles automatic indentation and syntax highlighting. | `HTML` ★ 3.9k | 2023-05-26 |

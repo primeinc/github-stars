@@ -37,7 +37,7 @@
 | [leukipp/touchkio](https://github.com/leukipp/touchkio) | Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display. | `JavaScript` ★ 1.1k | 2025-12-15 |
 | [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 33.6k | 2026-01-28 |
 | [DearVa/Everywhere](https://github.com/DearVa/Everywhere) | Context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools. | `C#` ★ 5.3k | 2026-01-28 |
-| [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop\_computer: :camera\_flash: | `C++` ★ 28.7k | 2026-01-28 |
+| [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop_computer: :camera_flash: | `C++` ★ 28.7k | 2026-01-28 |
 | [astrofox-io/astrofox](https://github.com/astrofox-io/astrofox) | Astrofox is a motion graphics program that lets you turn audio into amazing videos. | `JavaScript` ★ 1.9k | 2024-05-27 |
 | [longbridge/gpui-component](https://github.com/longbridge/gpui-component) | Rust GUI components for building fantastic cross-platform desktop application by using GPUI. | `Rust` ★ 9.9k | 2026-01-28 |
 | [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | A modern download manager that supports all platforms. Built with Golang and Flutter. | `Go` ★ 22.5k | 2026-01-29 |
@@ -57,7 +57,7 @@
 | [mulaRahul/keyviz](https://github.com/mulaRahul/keyviz) | Keyviz is a free and open-source tool to visualize your keystrokes ⌨️ and 🖱️ mouse actions in real-time. | `TypeScript` ★ 8.8k | 2026-01-28 |
 | [aseprite/aseprite](https://github.com/aseprite/aseprite) | Animated sprite editor & pixel art tool (Windows, mac OS, Linux) | `C++` ★ 35.5k | 2025-12-30 |
 | [LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) | Multi-Platform Package Manager for Stable Diffusion | `C#` ★ 7.4k | 2026-01-24 |
-| [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and Open GL. Runs on Windows, Linux, \*BSD and Mac OS X. | `C#` ★ 16.4k | 2026-01-26 |
+| [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and Open GL. Runs on Windows, Linux, *BSD and Mac OS X. | `C#` ★ 16.4k | 2026-01-26 |
 | [microsoft/ai-dev-gallery](https://github.com/microsoft/ai-dev-gallery) | An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps. | `C#` ★ 1.4k | 2026-01-28 |
 | [microsoft/react-native-windows-samples](https://github.com/microsoft/react-native-windows-samples) | A repository showcasing React Native samples and templates for Windows, mac OS, and Surface Duo. | `C#` ★ 533 | 2026-01-22 |
 | [rocksdanister/lively](https://github.com/rocksdanister/lively) | Free and open-source software that allows users to set animated desktop wallpapers and screensavers powered by Win UI 3. | `C#` ★ 18.1k | 2026-01-21 |
@@ -141,7 +141,7 @@
 | [paolo-projects/auto-unlocker](https://github.com/paolo-projects/auto-unlocker) | Unlocker for VMWare mac OS | `C++` ★ 4.8k | 2025-09-17 |
 | [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) | Karabiner-Elements is a powerful tool for customizing keyboards on mac OS | `C++` ★ 21.4k | 2026-01-27 |
 | [Aayush9029/NativeYoutube](https://github.com/Aayush9029/NativeYoutube) | Personal App that turned into "alpha released app" v3 | `Swift` ★ 524 | 2025-05-23 |
-| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFFi NE(pronounced \[ə‘fain\]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable a... | `TypeScript` ★ 62.3k | 2026-01-28 |
+| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFFi NE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable a... | `TypeScript` ★ 62.3k | 2026-01-28 |
 | [flutter/flutter](https://github.com/flutter/flutter) | Flutter makes it easy and fast to build beautiful apps for mobile and beyond | `Dart` ★ 174.9k | 2026-01-29 |
 | [Anze/KeyCluCask](https://github.com/Anze/KeyCluCask) | Simple and handy overview of applications shortcuts | ★ 1.9k | 2026-01-12 |
 | [abb128/LiveCaptions](https://github.com/abb128/LiveCaptions) | Linux Desktop application that provides live captioning | `C` ★ 1.7k | 2025-02-27 |

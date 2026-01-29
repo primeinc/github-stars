@@ -10,7 +10,7 @@
 | [charmbracelet/vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder 📼 | `Go` ★ 18.4k | 2026-01-25 |
 | [memvid/claude-brain](https://github.com/memvid/claude-brain) | Give Claude Code photographic memory in ONE portable file. No database, no SQLite, no Chroma DB - just a single .mv2 file you can git commit, scp, or share. Native Rust core with sub-ms operations. | `TypeScript` ★ 174 | 2026-01-19 |
 | [kdcokenny/opencode-worktree](https://github.com/kdcokenny/opencode-worktree) | Zero-friction git worktrees for Open Code. Auto-spawns terminals, syncs files, cleans up on exit. | `TypeScript` ★ 78 | 2026-01-23 |
-| [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (\`azd\`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 238 | 2026-01-23 |
+| [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (`azd`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 238 | 2026-01-23 |
 | [microsoft/ai-dev-gallery](https://github.com/microsoft/ai-dev-gallery) | An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps. | `C#` ★ 1.4k | 2026-01-28 |
 | [cli/cli](https://github.com/cli/cli) | Git Hub’s official command line tool | `Go` ★ 42.2k | 2026-01-28 |
 | [satococoa/wtp](https://github.com/satococoa/wtp) | 🌳 A powerful Git worktree CLI tool with automated setup, branch tracking, and smart navigation | `Go` ★ 316 | 2026-01-27 |

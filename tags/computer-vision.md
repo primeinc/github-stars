@@ -19,6 +19,6 @@
 | [aerophile/awesome-deepfakes](https://github.com/aerophile/awesome-deepfakes) | Everything Deepfakes | ★ 1.7k | 2023-01-14 |
 | [argenspin/Rope-Live](https://github.com/argenspin/Rope-Live) | Customized fork of Rope Deepfake software featuring live streaming capabilities and support for Deepfacelive models | `Python` ★ 292 | 2024-12-06 |
 | [katanaml/sparrow](https://github.com/katanaml/sparrow) | Structured data extraction and instruction calling with ML, LLM and Vision LLM | `Python` ★ 5.1k | 2026-01-27 |
-| [TencentARC/PhotoMaker](https://github.com/TencentARC/PhotoMaker) | Photo Maker \[CVPR 2024\] | `Jupyter Notebook` ★ 10.1k | 2024-10-31 |
+| [TencentARC/PhotoMaker](https://github.com/TencentARC/PhotoMaker) | Photo Maker [CVPR 2024] | `Jupyter Notebook` ★ 10.1k | 2024-10-31 |
 | [ForeverPs/content-aware-rotation](https://github.com/ForeverPs/content-aware-rotation) | Implementation of Kaiming He's Paper Content-Aware Rotation on ICCV 2013 | `Python` ★ 36 | 2021-03-01 |
 | [voxel51/voxelgpt](https://github.com/voxel51/voxelgpt) | AI assistant that can query visual datasets, search the Fifty One docs, and answer general computer vision questions | `Python` ★ 251 | 2024-12-06 |

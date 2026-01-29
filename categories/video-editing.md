@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [VisoMasterFusion/VisoMaster-Fusion](https://github.com/VisoMasterFusion/VisoMaster-Fusion) | Powerful & Easy-to-Use Video Face Swapping and Editing Software | `Python` ★ 197 | 2026-01-11 |
-| [EzioBy/Ditto](https://github.com/EzioBy/Ditto) | \[Preprint 2025\] Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset | `Python` ★ 561 | 2025-10-29 |
+| [EzioBy/Ditto](https://github.com/EzioBy/Ditto) | [Preprint 2025] Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset | `Python` ★ 561 | 2025-10-29 |
 | [fudan-generative-vision/hallo](https://github.com/fudan-generative-vision/hallo) | Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation | `Python` ★ 8.6k | 2024-09-14 |
 | [KlingTeam/LivePortrait](https://github.com/KlingTeam/LivePortrait) | Bring portraits to life! | `Python` ★ 17.7k | 2025-11-16 |
 
