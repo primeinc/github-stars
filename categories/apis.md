@@ -1,11 +1,13 @@
 # Apis
 
-*151 repositories*
+*153 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [get-convex/twilio](https://github.com/get-convex/twilio) | Convex component for sending/receiving SMS messages with Twilio | `TypeScript` ★ 10 | 2026-01-26 |
+| [SamyRai/namecheap](https://github.com/SamyRai/namecheap) | A CLI tool for managing Namecheap domains and DNS records with multi-account support | `Go` ★ 2 | 2026-01-22 |
 | [cyanheads/clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | A Model Context Protocol (MCP) Server providing LLM tools for the official Clinical Trials.gov REST API. Search and retrieve clinical trial data, including study details and more | `TypeScript` ★ 44 | 2025-10-21 |
 | [Klavis-AI/klavis](https://github.com/Klavis-AI/klavis) | Klavis AI (YC X25): MCP integration platforms that let AI agents use tools reliably at any scale | `Python` ★ 5.6k | 2026-01-29 |
 | [better-auth/better-auth](https://github.com/better-auth/better-auth) | The most comprehensive authentication framework for Type Script | `TypeScript` ★ 25.7k | 2026-01-29 |

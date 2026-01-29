@@ -1,11 +1,12 @@
 # Cli-tools
 
-*132 repositories*
+*133 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [SamyRai/namecheap](https://github.com/SamyRai/namecheap) | A CLI tool for managing Namecheap domains and DNS records with multi-account support | `Go` ★ 2 | 2026-01-22 |
 | [pimalaya/ortie](https://github.com/pimalaya/ortie) | CLI to manage OAuth 2.0 access tokens | `Rust` ★ 12 | 2025-10-24 |
 | [sashyo/keylessh](https://github.com/sashyo/keylessh) | No description provided | `TypeScript` ★ 5 | 2026-01-28 |
 | [PraaneshSelvaraj/coffee.tmux](https://github.com/PraaneshSelvaraj/coffee.tmux) | ☕ Coffee - Modern tmux Plugin Manager | `Python` ★ 44 | 2026-01-28 |

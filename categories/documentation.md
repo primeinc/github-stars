@@ -1,11 +1,13 @@
 # Documentation
 
-*142 repositories*
+*144 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [workflowr/workflowr](https://github.com/workflowr/workflowr) | Organize your project into a research website | `R` ★ 886 | 2025-08-19 |
+| [endoflife-date/endoflife.date](https://github.com/endoflife-date/endoflife.date) | Informative site with Eo L dates of everything | `Ruby` ★ 3.1k | 2026-01-29 |
 | [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) | Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation | ★ 14.9k | 2025-12-12 |
 | [Simon-He95/markdown-it-ts](https://github.com/Simon-He95/markdown-it-ts) | A modern, type-safe rewrite of markdown-it in Type Script: pluggable rules, split parse/render, Common Mark-compatible; fast one-shot parsing and even faster streaming/incremental updates. | `TypeScript` ★ 131 | 2025-12-20 |
 | [markdown-it/markdown-it](https://github.com/markdown-it/markdown-it) | Markdown parser, done right. 100% Common Mark support, extensions, syntax plugins & high speed | `JavaScript` ★ 21k | 2025-09-11 |

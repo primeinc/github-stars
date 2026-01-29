@@ -1,11 +1,12 @@
 # Tag: docker
 
-*28 repositories*
+*29 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [Lissy93/domain-locker](https://github.com/Lissy93/domain-locker) | 🌐 The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker! | `TypeScript` ★ 1.1k | 2026-01-16 |
 | [plexinc/pms-docker](https://github.com/plexinc/pms-docker) | Plex Media Server Docker repo, for all your PMS docker needs. | `Smarty` ★ 3.9k | 2026-01-07 |
 | [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs | `Rust` ★ 54.2k | 2026-01-22 |
 | [Dokploy/dokploy](https://github.com/Dokploy/dokploy) | Open Source Alternative to Vercel, Netlify and Heroku. | `TypeScript` ★ 29.6k | 2026-01-29 |

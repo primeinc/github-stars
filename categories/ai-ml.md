@@ -1,11 +1,13 @@
 # Ai-ml
 
-*568 repositories*
+*570 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [xinyu1205/recognize-anything](https://github.com/xinyu1205/recognize-anything) | Open-source and strong foundation image recognition models. | `Jupyter Notebook` ★ 3.6k | 2025-02-18 |
+| [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) | Convert any git repository into an engaging podcast | `TypeScript` ★ 801 | 2025-08-30 |
 | [Klavis-AI/klavis](https://github.com/Klavis-AI/klavis) | Klavis AI (YC X25): MCP integration platforms that let AI agents use tools reliably at any scale | `Python` ★ 5.6k | 2026-01-29 |
 | [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi) | No description provided | `Python` ★ 22.1k | 2024-11-06 |
 | [davis7dotsh/better-context](https://github.com/davis7dotsh/better-context) | A better way to get up to date context on libraries/technologies in your projects | `TypeScript` ★ 581 | 2026-01-29 |

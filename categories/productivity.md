@@ -1,11 +1,15 @@
 # Productivity
 
-*463 repositories*
+*467 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [workflowr/workflowr](https://github.com/workflowr/workflowr) | Organize your project into a research website | `R` ★ 886 | 2025-08-19 |
+| [engineering-management/awesome-engineering-management](https://github.com/engineering-management/awesome-engineering-management) | Pointers and tools for learning and day-to-day practice of engineering management & leadership. | ★ 2.6k | 2024-12-14 |
+| [mark-when/markwhen](https://github.com/mark-when/markwhen) | Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more. | `HTML` ★ 4.8k | 2023-12-11 |
+| [endoflife-date/endoflife.date](https://github.com/endoflife-date/endoflife.date) | Informative site with Eo L dates of everything | `Ruby` ★ 3.1k | 2026-01-29 |
 | [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) | Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation | ★ 14.9k | 2025-12-12 |
 | [moltbot/moltbot](https://github.com/moltbot/moltbot) | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 | `TypeScript` ★ 92.1k | 2026-01-29 |
 | [evolus/pencil](https://github.com/evolus/pencil) | The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use. | `JavaScript` ★ 9.5k | 2024-09-10 |
