@@ -83,24 +83,48 @@ jobs:
                 .slice(0, 500); // Limit length
             };
             
-            const repoData = batch.map(r => ({
-              repo: String(r.repo).replace(/[^a-zA-Z0-9/_.-]/g, ''), // Strict repo name
-              summary: sanitizeText(r.summary),
-              language: r.github_metadata?.language ? sanitizeText(r.github_metadata.language) : null,
-              topics: (r.github_metadata?.topics || [])
-                .filter(t => typeof t === 'string')
-                .map(t => sanitizeText(t))
-                .filter(t => t.length > 0)
-                .slice(0, 10),
-              stargazers_count: Math.max(0, parseInt(r.github_metadata?.stargazers_count, 10) || 0)
-            }));
+            const repoNamePattern = /^[a-zA-Z0-9._-]+\/[a-zA-Z0-9._-]+$/;
+            const repoData = batch.map(r => {
+              const sanitizedRepo = String(r.repo).replace(/[^a-zA-Z0-9/_.-]/g, '');
+              if (!repoNamePattern.test(sanitizedRepo)) {
+                console.log(`Warning: Skipping invalid repo name format: ${sanitizedRepo}`);
+                return null;
+              }
+              return {
+                repo: sanitizedRepo,
+                summary: sanitizeText(r.summary),
+                language: r.github_metadata?.language ? sanitizeText(r.github_metadata.language) : null,
+                topics: (r.github_metadata?.topics || [])
+                  .filter(t => typeof t === 'string')
+                  .map(t => sanitizeText(t))
+                  .filter(t => t.length > 0)
+                  .slice(0, 10),
+                stargazers_count: Math.max(0, parseInt(r.github_metadata?.stargazers_count, 10) || 0)
+              };
+            }).filter(Boolean);
 
             // SECURITY: Load taxonomy dynamically to ensure consistency
             const allowedCategories = data.taxonomy?.categories_allowed || [];
             const allowedFrameworks = data.taxonomy?.frameworks_allowed || [];
             
-            // Generate language tags from common languages
-            const languageTags = ['js', 'ts', 'python', 'rust', 'go', 'java', 'kotlin', 'swift', 'ruby', 'cpp', 'c', 'csharp', 'php'];
+            // Fail early if taxonomy is missing or empty
+            if (allowedCategories.length === 0) {
+              core.setFailed('Taxonomy categories_allowed is empty or missing - cannot classify');
+              return;
+            }
+            
+            // Generate language tags dynamically from batch, with fallback
+            const languageAliasMap = {
+              javascript: 'js', typescript: 'ts', 'c++': 'cpp', 'c#': 'csharp'
+            };
+            let languageTags = [...new Set(
+              repoData.map(r => r.language).filter(Boolean)
+                .map(l => l.toLowerCase())
+                .map(l => languageAliasMap[l] || l)
+            )];
+            if (languageTags.length === 0) {
+              languageTags = ['js', 'ts', 'python', 'rust', 'go', 'java', 'cpp', 'csharp'];
+            }
             
             const systemPrompt = `Classify GitHub repos. Output ONLY a JSON array.
 
@@ -243,10 +267,12 @@ jobs:
                   }
                 }
 
+                const allCategoriesRejected = safeCategories.length === 0 && (c.categories || []).length > 0;
                 data.repositories[idx].categories = safeCategories.length > 0 ? safeCategories : ["unclassified"];
                 data.repositories[idx].tags = safeTags;
                 data.repositories[idx].framework = validFramework;
-                data.repositories[idx].needs_review = false;
+                // Keep needs_review=true if all AI categories were rejected, so it can be retried
+                data.repositories[idx].needs_review = allCategoriesRejected;
                 data.repositories[idx].ai_classification = {
                   model: "gpt-4o",
                   classified_at: new Date().toISOString(),
@@ -295,9 +321,9 @@ jobs:
             let warnings = [];
             
             data.repositories.forEach((r, idx) => {
-              // Verify all categories are valid
+              // Verify all categories are valid (skip 'unclassified' - it's a fallback)
               (r.categories || []).forEach(cat => {
-                if (!allowedCategories.has(cat)) {
+                if (cat !== 'unclassified' && !allowedCategories.has(cat)) {
                   errors.push(`Repo ${r.repo}: Invalid category "${cat}" not in taxonomy`);
                 }
               });
@@ -332,7 +358,7 @@ jobs:
             }
 
       - name: Commit
-        if: steps.apply.outputs.count > 0
+        if: steps.apply.outputs.count > 0 && success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
