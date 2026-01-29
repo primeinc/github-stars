@@ -82,9 +82,10 @@ jobs:
               safe = safe.replace(/^-+|-+$/g, '');
               
               // Check for Windows reserved names (case-insensitive)
-              const nameUpper = safe.toUpperCase();
-              const baseNameUpper = nameUpper.split('.')[0]; // Check name before extension
-              if (windowsReservedNames.has(baseNameUpper)) {
+              // Extract base name without extension (handle multiple dots correctly)
+              const lastDotIndex = safe.lastIndexOf('.');
+              const baseName = lastDotIndex > 0 ? safe.substring(0, lastDotIndex) : safe;
+              if (windowsReservedNames.has(baseName.toUpperCase())) {
                 safe = '_' + safe; // Prefix with underscore to make it safe
               }
               

@@ -81,7 +81,7 @@ jobs:
               return text
                 .replace(/[\x00-\x1F\x7F]/g, '') // Remove control chars
                 .replace(/\s+/g, ' ') // Normalize whitespace
-                .replace(/[`'"]/g, '') // Remove quotes that could break JSON
+                .replace(/[`'"]+/g, '') // Remove consecutive quotes that could break JSON
                 .trim()
                 .slice(0, 500); // Limit length
             };
@@ -95,7 +95,7 @@ jobs:
                 .map(t => sanitizeText(t))
                 .filter(t => t.length > 0)
                 .slice(0, 10),
-              stargazers_count: Math.max(0, parseInt(r.github_metadata?.stargazers_count) || 0)
+              stargazers_count: Math.max(0, parseInt(r.github_metadata?.stargazers_count, 10) || 0)
             }));
 
             // SECURITY: Load taxonomy dynamically to ensure consistency
