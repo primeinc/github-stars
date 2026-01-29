@@ -53,6 +53,7 @@ jobs:
             }
             
             const yaml = fs.readFileSync('repos.yml', 'utf8');
+            // yq (mikefarah) pre-installed on ubuntu-latest since 2023
             const json = execSync('yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
             const data = JSON.parse(json);
 

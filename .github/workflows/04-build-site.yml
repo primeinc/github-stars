@@ -37,6 +37,7 @@ jobs:
         with:
           fetch-depth: 0
 
+      # yq (mikefarah) pre-installed on ubuntu-latest since 2023
       - name: Generate site data
         run: |
           mkdir -p web/public

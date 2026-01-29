@@ -76,6 +76,7 @@ jobs:
             }
             
             // Increase buffer to 50MB to handle large manifests
+            // yq (mikefarah) is pre-installed on ubuntu-latest runners since 2023
             const manifestJson = execSync('yq eval -o=json -', { 
               input: yamlContent, 
               encoding: 'utf8',

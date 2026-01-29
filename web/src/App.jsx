@@ -71,8 +71,11 @@ function AppContent() {
     const filtered = getFilteredRepos();
     return [...filtered].sort((a, b) => {
       switch (sortBy) {
-        case 'starred':
-          return new Date(b.user_starred_at || 0) - new Date(a.user_starred_at || 0);
+        case 'starred': {
+          const aTime = a.user_starred_at ? new Date(a.user_starred_at).getTime() : Number.NEGATIVE_INFINITY;
+          const bTime = b.user_starred_at ? new Date(b.user_starred_at).getTime() : Number.NEGATIVE_INFINITY;
+          return bTime - aTime;
+        }
         case 'stars':
           return b.stars - a.stars;
         case 'pushed':
