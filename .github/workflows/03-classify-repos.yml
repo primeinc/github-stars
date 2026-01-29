@@ -74,21 +74,44 @@ jobs:
               return;
             }
 
+            // SECURITY: Sanitize inputs to prevent prompt injection
+            const sanitizeText = (text) => {
+              if (!text || typeof text !== 'string') return '';
+              // Remove control characters, excessive whitespace, and potential injection patterns
+              return text
+                .replace(/[\x00-\x1F\x7F]/g, '') // Remove control chars
+                .replace(/\s+/g, ' ') // Normalize whitespace
+                .replace(/[`'"]/g, '') // Remove quotes that could break JSON
+                .trim()
+                .slice(0, 500); // Limit length
+            };
+            
             const repoData = batch.map(r => ({
-              repo: r.repo,
-              summary: r.summary,
-              language: r.github_metadata?.language || null,
-              topics: r.github_metadata?.topics || [],
-              stargazers_count: r.github_metadata?.stargazers_count || 0
+              repo: String(r.repo).replace(/[^a-zA-Z0-9/_.-]/g, ''), // Strict repo name
+              summary: sanitizeText(r.summary),
+              language: r.github_metadata?.language ? sanitizeText(r.github_metadata.language) : null,
+              topics: (r.github_metadata?.topics || [])
+                .filter(t => typeof t === 'string')
+                .map(t => sanitizeText(t))
+                .filter(t => t.length > 0)
+                .slice(0, 10),
+              stargazers_count: Math.max(0, parseInt(r.github_metadata?.stargazers_count) || 0)
             }));
 
+            // SECURITY: Load taxonomy dynamically to ensure consistency
+            const allowedCategories = data.taxonomy?.categories_allowed || [];
+            const allowedFrameworks = data.taxonomy?.frameworks_allowed || [];
+            
+            // Generate language tags from common languages
+            const languageTags = ['js', 'ts', 'python', 'rust', 'go', 'java', 'kotlin', 'swift', 'ruby', 'cpp', 'c', 'csharp', 'php'];
+            
             const systemPrompt = `Classify GitHub repos. Output ONLY a JSON array.
 
-            CATEGORIES: dev-tools, ui-libraries, frameworks, databases, productivity, learning, documentation, automation, testing, deployment, monitoring, security, ai-ml, data-science, web-dev, mobile-dev, desktop-dev, game-dev, embedded, networking, system-admin, cloud, containers, apis, cli-tools, devops, infrastructure
+            CATEGORIES (ONLY use from this list): ${allowedCategories.join(', ')}
 
-            FRAMEWORKS: react, vue, angular, svelte, nextjs, nuxtjs, express, fastapi, django, flask, rails, laravel, spring
+            FRAMEWORKS (ONLY use from this list OR null): ${allowedFrameworks.join(', ')}
 
-            LANGUAGE TAGS: lang:js, lang:ts, lang:python, lang:rust, lang:go, lang:java, lang:kotlin, lang:swift, lang:ruby, lang:cpp, lang:c, lang:csharp, lang:php
+            LANGUAGE TAGS: ${languageTags.map(l => `lang:${l}`).join(', ')}
 
             RULES:
             - 2-4 categories per repo
@@ -186,29 +209,51 @@ jobs:
             const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
             const data = JSON.parse(json);
 
+            // Extract taxonomy for validation
+            const allowedCategories = new Set(data.taxonomy?.categories_allowed || []);
+            const allowedFrameworks = new Set(data.taxonomy?.frameworks_allowed || []);
+            
+            console.log(`Loaded taxonomy: ${allowedCategories.size} categories, ${allowedFrameworks.size} frameworks`);
+
             let count = 0;
             const tagPattern = /^([a-z]+:)?[a-z0-9][a-z0-9-]*$/;
 
             for (const c of classifications) {
               const idx = data.repositories.findIndex(r => r.repo === c.repo);
               if (idx !== -1) {
-                // Sanitize categories (basic check)
-                const safeCategories = (c.categories || []).filter(cat => /^[a-z][a-z0-9-]*$/.test(cat)).slice(0, 5);
+                // SECURITY: Validate categories against taxonomy
+                const safeCategories = (c.categories || [])
+                  .filter(cat => typeof cat === 'string' && /^[a-z][a-z0-9-]*$/.test(cat))
+                  .filter(cat => allowedCategories.has(cat))
+                  .slice(0, 5);
+                
+                if (safeCategories.length === 0 && (c.categories || []).length > 0) {
+                  console.log(`Warning: All categories rejected for ${c.repo}, invalid: ${(c.categories || []).join(', ')}`);
+                }
                 
                 // Sanitize tags: lowercase, replace space with dash, filter by pattern
                 const safeTags = (c.tags || [])
-                  .map(t => t.toLowerCase().replace(/[^a-z0-9-:]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, ''))
+                  .map(t => String(t).toLowerCase().replace(/[^a-z0-9-:]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, ''))
                   .filter(t => tagPattern.test(t))
                   .slice(0, 20);
+                
+                // SECURITY: Validate framework against taxonomy
+                let validFramework = null;
+                if (c.framework && typeof c.framework === 'string') {
+                  validFramework = allowedFrameworks.has(c.framework) ? c.framework : null;
+                  if (!validFramework && c.framework) {
+                    console.log(`Warning: Framework "${c.framework}" not in taxonomy for ${c.repo}`);
+                  }
+                }
 
                 data.repositories[idx].categories = safeCategories.length > 0 ? safeCategories : ["unclassified"];
                 data.repositories[idx].tags = safeTags;
-                data.repositories[idx].framework = c.framework;
+                data.repositories[idx].framework = validFramework;
                 data.repositories[idx].needs_review = false;
                 data.repositories[idx].ai_classification = {
                   model: "gpt-4o",
                   classified_at: new Date().toISOString(),
-                  prompt_version: "v2"
+                  prompt_version: "v3"
                 };
                 count++;
               }
@@ -233,6 +278,61 @@ jobs:
           schema: schemas/repos-schema.json
           file: repos.yml
           mode: lax
+
+      - name: Post-Classification Verification
+        if: steps.apply.outputs.count > 0
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require('fs');
+            const { execSync } = require('child_process');
+            
+            const yaml = fs.readFileSync('repos.yml', 'utf8');
+            const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
+            const data = JSON.parse(json);
+            
+            const allowedCategories = new Set(data.taxonomy?.categories_allowed || []);
+            const allowedFrameworks = new Set(data.taxonomy?.frameworks_allowed || []);
+            
+            let errors = [];
+            let warnings = [];
+            
+            data.repositories.forEach((r, idx) => {
+              // Verify all categories are valid
+              (r.categories || []).forEach(cat => {
+                if (!allowedCategories.has(cat)) {
+                  errors.push(`Repo ${r.repo}: Invalid category "${cat}" not in taxonomy`);
+                }
+              });
+              
+              // Verify framework if set
+              if (r.framework && !allowedFrameworks.has(r.framework)) {
+                errors.push(`Repo ${r.repo}: Invalid framework "${r.framework}" not in taxonomy`);
+              }
+              
+              // Verify tag format
+              const tagPattern = /^([a-z]+:)?[a-z0-9][a-z0-9-]*$/;
+              (r.tags || []).forEach(tag => {
+                if (!tagPattern.test(tag)) {
+                  warnings.push(`Repo ${r.repo}: Tag "${tag}" doesn't match expected pattern`);
+                }
+              });
+            });
+            
+            if (errors.length > 0) {
+              console.log('VALIDATION ERRORS:');
+              errors.forEach(e => console.log(`  ❌ ${e}`));
+              core.setFailed(`Found ${errors.length} validation errors`);
+            }
+            
+            if (warnings.length > 0) {
+              console.log('VALIDATION WARNINGS:');
+              warnings.forEach(w => console.log(`  ⚠️ ${w}`));
+            }
+            
+            if (errors.length === 0 && warnings.length === 0) {
+              console.log('✅ All classifications validated successfully');
+            }
 
       - name: Commit
         if: steps.apply.outputs.count > 0
