@@ -111,3 +111,60 @@
   padding: 2rem;
   color: var(--text-muted);
 }
+
+/* Custom dropdown styling */
+.sortSelect {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 0.5rem 2rem 0.5rem 0.75rem;
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%239ca3af' d='M2 4l4 4 4-4'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  min-width: 150px;
+}
+
+.sortSelect:hover {
+  border-color: var(--color-primary-500);
+}
+
+.sortSelect:focus {
+  outline: none;
+  border-color: var(--color-primary-500);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
+}
+
+.sortSelect option {
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  padding: 0.5rem;
+}
+
+/* Custom scrollbar styling */
+.facetList {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-default) transparent;
+}
+
+.facetList::-webkit-scrollbar {
+  width: 6px;
+}
+
+.facetList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.facetList::-webkit-scrollbar-thumb {
+  background: var(--border-default);
+  border-radius: 3px;
+}
+
+.facetList::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
