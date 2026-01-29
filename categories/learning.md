@@ -1,11 +1,12 @@
 # Learning
 
-*151 repositories*
+*152 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [engineering-management/awesome-engineering-management](https://github.com/engineering-management/awesome-engineering-management) | Pointers and tools for learning and day-to-day practice of engineering management & leadership. | ★ 2.6k | 2024-12-14 |
 | [VoltAgent/awesome-moltbot-skills](https://github.com/VoltAgent/awesome-moltbot-skills) | The awesome collection of Moltbot Skills. (Clawdbot has officially been renamed to Moltbot) | ★ 2.9k | 2026-01-27 |
 | [daytonaio/ai-enablement-stack](https://github.com/daytonaio/ai-enablement-stack) | A Community-Driven Mapping of AI Development Tools | `HTML` ★ 593 | 2025-08-11 |
 | [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) | No description provided | ★ 1.1k | 2026-01-19 |

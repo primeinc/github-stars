@@ -1,11 +1,12 @@
 # Tag: awesome
 
-*10 repositories*
+*11 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [engineering-management/awesome-engineering-management](https://github.com/engineering-management/awesome-engineering-management) | Pointers and tools for learning and day-to-day practice of engineering management & leadership. | ★ 2.6k | 2024-12-14 |
 | [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook) | This is a repo with links to everything you'd ever want to learn about data engineering | `Jupyter Notebook` ★ 39.5k | 2025-12-15 |
 | [choushunn/awesome-RK3588](https://github.com/choushunn/awesome-RK3588) | Useful resources for developing with the RK3588. :rocket: | ★ 426 | 2025-12-07 |
 | [florisporro/awesome-ndi](https://github.com/florisporro/awesome-ndi) | A curated list of awesome tools related to NDI | ★ 286 | 2025-04-22 |

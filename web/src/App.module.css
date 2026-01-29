@@ -146,25 +146,32 @@
   padding: 0.5rem;
 }
 
-/* Custom scrollbar styling */
+/* Custom scrollbar styling - global */
+:global(*) {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-default) var(--bg-canvas);
+}
+
+:global(*::-webkit-scrollbar) {
+  width: 8px;
+  height: 8px;
+}
+
+:global(*::-webkit-scrollbar-track) {
+  background: var(--bg-canvas);
+}
+
+:global(*::-webkit-scrollbar-thumb) {
+  background: var(--border-default);
+  border-radius: 4px;
+}
+
+:global(*::-webkit-scrollbar-thumb:hover) {
+  background: var(--text-muted);
+}
+
+/* Facet list specific */
 .facetList {
   scrollbar-width: thin;
   scrollbar-color: var(--border-default) transparent;
-}
-
-.facetList::-webkit-scrollbar {
-  width: 6px;
-}
-
-.facetList::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.facetList::-webkit-scrollbar-thumb {
-  background: var(--border-default);
-  border-radius: 3px;
-}
-
-.facetList::-webkit-scrollbar-thumb:hover {
-  background: var(--text-muted);
 }
