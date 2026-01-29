@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-01-29T04:48:08.356Z"
+  manifest_updated_at: "2026-01-29T04:48:42.289Z"
   total_repos: 2085
   generator_version: v1.0.0
   github_user: primeinc
@@ -86908,13 +86908,17 @@ repositories:
       mirror_url: null
   - repo: joelparkerhenderson/architecture-decision-record
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - adr
+      - project-management
+      - teamwork
     summary: Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation
     last_synced_sha: 38ae60b13ed9725ee3e350431a7ad49228539bd9
     user_starred_at: "2026-01-28T03:15:38Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -86939,15 +86943,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.289Z"
+      prompt_version: v2
   - repo: tajo/ladle
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - testing
+    tags:
+      - storybook-alternative
+      - ui-testing
+      - lang:ts
+      - react
     summary: "\U0001F944 Develop, test and document your React story components faster."
     last_synced_sha: 8cf3226e78a70095d2d6e87d748ea5ef72c2b665
     user_starred_at: "2026-01-28T03:11:41Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -86978,15 +86992,25 @@ repositories:
         published_at: "2025-11-04T02:11:42Z"
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.289Z"
+      prompt_version: v2
   - repo: sdorra/content-collections
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - dev-tools
+    tags:
+      - content-management
+      - yaml
+      - lang:ts
+      - nextjs
     summary: Transform your content into type-safe data collections
     last_synced_sha: b739f9318f6406f7f8f0f587a1959abdd63952a5
     user_starred_at: "2026-01-28T03:06:49Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -87018,15 +87042,24 @@ repositories:
         published_at: "2026-01-05T07:20:24Z"
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.289Z"
+      prompt_version: v2
   - repo: Simon-He95/markdown-it-ts
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - markdown-parser
+      - typescript
+      - lang:ts
     summary: 'A modern, type-safe rewrite of markdown-it in Type Script: pluggable rules, split parse/render, Common Mark-compatible; fast one-shot parsing and even faster streaming/incremental updates.'
     last_synced_sha: a7648ef94d60ee238a8378fa55c847c79d2f0f24
     user_starred_at: "2026-01-28T02:42:57Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -87047,15 +87080,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.289Z"
+      prompt_version: v2
   - repo: markdown-it/markdown-it
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - markdown-parser
+      - commonmark
+      - lang:js
     summary: Markdown parser, done right. 100% Common Mark support, extensions, syntax plugins & high speed
     last_synced_sha: d2782d892a51201b25d3eeab172201ad5a53a24c
     user_starred_at: "2026-01-28T02:36:08Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -87075,15 +87117,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.289Z"
+      prompt_version: v2
   - repo: get-convex/convex-saas
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - databases
+    tags:
+      - saas
+      - starter-kit
+      - lang:ts
     summary: A production-ready Convex Stack for your next Saa S application with Convex Auth, Stripe, Tan Stack, Resend, Tailwindcss, and shadcn.
     last_synced_sha: 21cb165c7162b737a98b0f9ecf53b04ba191880b
     user_starred_at: "2026-01-28T02:03:51Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -87108,15 +87159,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.289Z"
+      prompt_version: v2
   - repo: cyanheads/clinicaltrialsgov-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - data-science
+    tags:
+      - clinical-data
+      - bioinformatics
+      - lang:ts
     summary: A Model Context Protocol (MCP) Server providing LLM tools for the official Clinical Trials.gov REST API. Search and retrieve clinical trial data, including study details and more
     last_synced_sha: a5b5acb555ca76fb9cdc903c2c602e03c6aa811f
     user_starred_at: "2026-01-28T01:18:29Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -87138,15 +87198,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.289Z"
+      prompt_version: v2
   - repo: Klavis-AI/klavis
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - ai-agents
+      - integration-platform
+      - lang:python
     summary: 'Klavis AI (YC X25): MCP integration platforms that let AI agents use tools reliably at any scale'
     last_synced_sha: d3bbfa1a612734f936875d7aea89b7c6d6e2848e
     user_starred_at: "2026-01-28T01:17:52Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -87179,15 +87248,24 @@ repositories:
         published_at: "2026-01-06T04:59:06Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.289Z"
+      prompt_version: v2
   - repo: yoheinakajima/babyagi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai
+      - automation
+      - lang:python
     summary: No description provided
     last_synced_sha: 4f4fd1f62c2b0726479d6bc7bbf87463369a663e
     user_starred_at: "2026-01-27T17:50:34Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -87204,15 +87282,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.289Z"
+      prompt_version: v2
   - repo: davis7dotsh/better-context
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - project-context
+      - ai
+      - lang:ts
     summary: A better way to get up to date context on libraries/technologies in your projects
     last_synced_sha: d8d37fc36d829d5b4780bba13451b833b9303db2
     user_starred_at: "2026-01-27T16:27:11Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -87232,15 +87319,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.289Z"
+      prompt_version: v2
   - repo: slopus/murmur
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - encrypted-messaging
+      - ai-agent
+      - lang:ts
     summary: Encrypted Messaging for Clawdbot
     last_synced_sha: f967687d996ad367312b7bfb9d46dfced3b402c9
     user_starred_at: "2026-01-27T14:04:12Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -87257,15 +87353,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.288Z"
+      prompt_version: v2
   - repo: pimalaya/ortie
     categories:
-      - unclassified
-    tags: []
+      - cli-tools
+      - security
+    tags:
+      - oauth2
+      - access-tokens
+      - lang:rust
     summary: CLI to manage OAuth 2.0 access tokens
     last_synced_sha: 4e2e01dbac15acea052ea98462e8a0a5e3586f89
     user_starred_at: "2026-01-27T14:00:43Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -87292,15 +87397,24 @@ repositories:
         published_at: "2025-10-24T16:33:24Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.288Z"
+      prompt_version: v2
   - repo: VoltAgent/awesome-moltbot-skills
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - awesome-list
+      - agent-skills
+      - moltbot
     summary: The awesome collection of Moltbot Skills. (Clawdbot has officially been renamed to Moltbot)
     last_synced_sha: dcb202dce95720a5804736205c570b8c1eeeec93
     user_starred_at: "2026-01-27T01:56:45Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -87325,15 +87439,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.288Z"
+      prompt_version: v2
   - repo: moltbot/moltbot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-assistant
+      - personal-assistant
+      - lang:ts
     summary: "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \U0001F99E"
     last_synced_sha: 4ac7aa4a481503508e8bd2c49d2e71e00fccfe36
     user_starred_at: "2026-01-27T01:49:22Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -87360,15 +87483,24 @@ repositories:
         published_at: "2026-01-25T14:29:07Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.288Z"
+      prompt_version: v2
   - repo: kozw/mui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - modern-ui
+      - wpf
+      - lang:csharp
     summary: Modern UI for WPF
     last_synced_sha: cbd78931b5ffd1a77c8a82a423100e11015203c2
     user_starred_at: "2015-10-16T23:35:40Z"
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -87388,3 +87520,8 @@ repositories:
         published_at: "2016-03-15T09:49:13Z"
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: "2026-01-29T04:48:42.288Z"
+      prompt_version: v2
