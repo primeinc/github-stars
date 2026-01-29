@@ -1,11 +1,10 @@
 # Tag: ai-framework
 
-*3 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [TabbyML/tabby](https://github.com/TabbyML/tabby) | Self-hosted AI coding assistant | `Rust` ★ 32.8k | 2026-01-23 |
-| [agent0ai/agent-zero](https://github.com/agent0ai/agent-zero) | Agent Zero AI framework | `Python` ★ 13.9k | 2026-01-23 |
-| [deepseek-ai/DeepSeek-LLM](https://github.com/deepseek-ai/DeepSeek-LLM) | Deep Seek LLM: Let there be answers | `Makefile` ★ 6.7k | 2024-02-04 |
+| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 9k | 2026-01-28 |
+| [Ido-Levi/Hephaestus](https://github.com/Ido-Levi/Hephaestus) | Semi-Structured Agentic Framework. Workflows build themselves as agents discover what needs to be done, not what you predicted upfront. | `Python` ★ 1.1k | 2025-12-01 |

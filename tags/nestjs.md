@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, powered by the community. | `TypeScript` ★ 39k | 2026-01-24 |
-| [immich-app/immich](https://github.com/immich-app/immich) | High performance self-hosted photo and video management solution. | `TypeScript` ★ 89.8k | 2026-01-25 |
+| [ghostfolio/ghostfolio](https://github.com/ghostfolio/ghostfolio) | Open Source Wealth Management Software. Angular + Nest JS + Prisma + Nx + Type Script 🤍 | `TypeScript` ★ 7.5k | 2026-01-28 |
+| [immich-app/immich](https://github.com/immich-app/immich) | High performance self-hosted photo and video management solution. | `TypeScript` ★ 90.8k | 2026-01-29 |

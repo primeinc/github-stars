@@ -1,10 +1,11 @@
 # Tag: enterprise
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [abpframework/abp](https://github.com/abpframework/abp) | Open-source web application framework for ASP.NET Core! Offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET. Provides the fundamental in... | `C#` ★ 14.1k | 2026-01-24 |
+| [humhub/humhub](https://github.com/humhub/humhub) | Hum Hub is an Open Source Enterprise Social Network. Easy to install, intuitive to use and extendable with countless freely available modules. | `PHP` ★ 6.6k | 2026-01-28 |
+| [Azure/industry-policy-portfolio](https://github.com/Azure/industry-policy-portfolio) | The Industry Policy Portfolio's Policy Initiatives aid in customizing deployments to reduce the time needed to audit environments and meet established regulatory compliance frameworks in regulated ... | ★ 21 | 2025-02-25 |
 | [leskhq/Laravel-Enterprise-Starter-Kit](https://github.com/leskhq/Laravel-Enterprise-Starter-Kit) | 👔 Enterprise Web application starter kit or template using Laravel | `JavaScript` ★ 359 | 2019-03-04 |

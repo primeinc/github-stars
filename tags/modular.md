@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [transloadit/uppy](https://github.com/transloadit/uppy) | The next open source file uploader for web browsers :dog: | `TypeScript` ★ 30.6k | 2026-01-19 |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `Python` ★ 100.8k | 2026-01-20 |
+| [MagicMirrorOrg/MagicMirror](https://github.com/MagicMirrorOrg/MagicMirror) | Magic Mirror² is an open source modular smart mirror platform. With a growing list of installable modules, the Magic Mirror² allows you to convert your hallway or bathroom mirror into your personal... | `JavaScript` ★ 23.2k | 2026-01-28 |
+| [dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe) | Java Script image gallery for mobile and desktop, modular, framework independent | `JavaScript` ★ 25k | 2025-12-04 |

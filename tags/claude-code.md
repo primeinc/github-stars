@@ -1,12 +1,14 @@
 # Tag: claude-code
 
-*4 repositories*
+*6 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [SuperClaude-Org/SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) | A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies. | `Python` ★ 20.4k | 2026-01-18 |
-| [qdhenry/Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite) | Professional slash commands for Claude Code that provide structured workflows for software development tasks including code review, feature creation, security auditing, and architectural analysis. | `Shell` ★ 920 | 2026-01-10 |
-| [steipete/agent-rules](https://github.com/steipete/agent-rules) | Rules and Knowledge to work better with agents such as Claude Code or Cursor | `Shell` ★ 5.5k | 2025-12-31 |
-| [ghuntley/claude-code-source-code-deobfuscation](https://github.com/ghuntley/claude-code-source-code-deobfuscation) | This is a cleanroom deobfuscation of the official Claude Code npm package. | `TypeScript` ★ 813 | 2025-03-01 |
+| [kasperjunge/agent-resources](https://github.com/kasperjunge/agent-resources) | A package and project manager for Claude Code. Install agent skills from Git Hub with a single command. | `Python` ★ 365 | 2026-01-28 |
+| [ArtemXTech/claude-code-obsidian-starter](https://github.com/ArtemXTech/claude-code-obsidian-starter) | Free starter kit: Claude Code + Obsidian. Pre-configured vault with skills for projects, tasks, clients, and daily routines. Just open and go. | `Typst` ★ 71 | 2026-01-23 |
+| [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | A beautiful web UI for browsing Claude Code conversation history. | `TypeScript` ★ 468 | 2026-01-10 |
+| [severity1/claude-code-prompt-improver](https://github.com/severity1/claude-code-prompt-improver) | Intelligent prompt improver hook for Claude Code. Type vibes, ship precision. | `Python` ★ 1.1k | 2025-12-13 |
+| [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | Hundreds of Claude Code plugins with embedded AI skills. Learn via interactive Jupyter tutorials. | `Python` ★ 1.2k | 2026-01-27 |
+| [aleks-apostle/claude-code-patches](https://github.com/aleks-apostle/claude-code-patches) | A simple patch that toggles claude-code thinking traces to be fully expanded by default without having to press ctrl + o | `JavaScript` ★ 42 | 2025-12-09 |

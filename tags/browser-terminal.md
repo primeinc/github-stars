@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [rabchev/web-terminal](https://github.com/rabchev/web-terminal) | Web-Terminal is a terminal server that provides remote CLI via standard web browser and HTTP protocol. | `JavaScript` ★ 474 | 2019-04-11 |
-| [butlerx/wetty](https://github.com/butlerx/wetty) | Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better) | `TypeScript` ★ 5.1k | 2025-10-30 |
+| [hosenur/portal](https://github.com/hosenur/portal) | Mobile first batteries included web ui for sst/opencode. Git integration, in browser terminal, isolated workspaces. | `TypeScript` ★ 333 | 2026-01-22 |
+| [amantus-ai/vibetunnel](https://github.com/amantus-ai/vibetunnel) | Turn any browser into your terminal & command your agents on the go. | `TypeScript` ★ 3.3k | 2026-01-01 |

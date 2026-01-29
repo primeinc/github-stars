@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [getsops/sops](https://github.com/getsops/sops) | Simple and flexible tool for managing secrets | `Go` ★ 20.6k | 2026-01-19 |
-| [SpiderOak/Encryptr](https://github.com/SpiderOak/Encryptr) | Encryptr is a zero-knowledge cloud-based password manager / e-wallet powered by Crypton | `JavaScript` ★ 1.6k | 2017-11-29 |
+| [Azure/Microsoft-Defender-for-Cloud](https://github.com/Azure/Microsoft-Defender-for-Cloud) | Welcome to the Microsoft Defender for Cloud community repository | `PowerShell` ★ 1.9k | 2026-01-21 |
+| [someengineering/fixinventory](https://github.com/someengineering/fixinventory) | Fix Inventory helps you identify and remove the most critical risks in AWS, GCP, Azure and Kubernetes. | `Python` ★ 2.1k | 2025-05-19 |

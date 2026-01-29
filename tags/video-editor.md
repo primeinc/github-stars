@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [mltframework/shotcut](https://github.com/mltframework/shotcut) | cross-platform (Qt), open-source (GPLv3) video editor | `C++` ★ 13.3k | 2026-01-24 |
-| [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | The swiss army knife of lossless video/audio editing | `TypeScript` ★ 37.5k | 2026-01-24 |
+| [VisoMasterFusion/VisoMaster-Fusion](https://github.com/VisoMasterFusion/VisoMaster-Fusion) | Powerful & Easy-to-Use Video Face Swapping and Editing Software | `Python` ★ 197 | 2026-01-11 |
+| [mltframework/shotcut](https://github.com/mltframework/shotcut) | cross-platform (Qt), open-source (GPLv3) video editor | `C++` ★ 13.3k | 2026-01-28 |

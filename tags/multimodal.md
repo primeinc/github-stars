@@ -1,16 +1,14 @@
 # Tag: multimodal
 
-*8 repositories*
+*6 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [lcqysl/DiffThinker](https://github.com/lcqysl/DiffThinker) | Diff Thinker: Towards Generative Multimodal Reasoning with Diffusion Models | `Python` ★ 165 | 2026-01-04 |
-| [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe) | AI app store powered by 24/7 desktop history. open source | 100% local | dev friendly | 24/7 screen, mic recording | `TypeScript` ★ 16.5k | 2026-01-25 |
-| [ByteDance-Seed/Bagel](https://github.com/ByteDance-Seed/Bagel) | Open-source unified multimodal model | `Python` ★ 5.6k | 2025-10-27 |
-| [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra | `TypeScript` ★ 24.7k | 2026-01-14 |
+| [facebookresearch/perception_models](https://github.com/facebookresearch/perception_models) | State-of-the-art Image & Video CLIP, Multimodal Large Language Models, and More! | `Jupyter Notebook` ★ 2.1k | 2026-01-22 |
+| [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | High-performance data engine for AI and multimodal workloads. Process images, audio, video, and structured data at any scale | `Rust` ★ 5.2k | 2026-01-28 |
+| [kyutai-labs/moshi](https://github.com/kyutai-labs/moshi) | Moshi is a speech-text foundation model and full-duplex spoken dialogue framework. It uses Mimi, a state-of-the-art streaming neural audio codec. | `Python` ★ 9.5k | 2026-01-19 |
 | [deepseek-ai/Janus](https://github.com/deepseek-ai/Janus) | Janus-Series: Unified Multimodal Understanding and Generation Models | `Python` ★ 17.7k | 2025-02-01 |
 | [fixie-ai/ultravox](https://github.com/fixie-ai/ultravox) | A fast multimodal LLM for real-time voice | `Python` ★ 4.3k | 2025-12-12 |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, Crew AI empowers agents to work together seamlessly, tackling complex tasks. | `Python` ★ 43.1k | 2026-01-23 |
-| [open-mmlab/Multimodal-GPT](https://github.com/open-mmlab/Multimodal-GPT) | Multimodal-GPT | `Python` ★ 1.5k | 2023-06-04 |

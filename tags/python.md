@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [openstates/openstates-scrapers](https://github.com/openstates/openstates-scrapers) | source for Open States scrapers | `Python` ★ 886 | 2026-01-24 |
-| [nhshin-mcl/MWR](https://github.com/nhshin-mcl/MWR) | No description provided | `Python` ★ 86 | 2023-05-05 |
+| [Klingefjord/ChatGPT-API-Python](https://github.com/Klingefjord/ChatGPT-API-Python) | Unofficial Chat GPT headless browser wrapper | `Python` ★ 21 | 2022-12-06 |
+| [valbok/img.chk](https://github.com/valbok/img.chk) | No description provided | `Python` ★ 37 | 2016-12-14 |

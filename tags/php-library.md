@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [katzgrau/KLogger](https://github.com/katzgrau/KLogger) | A Simple Logging Class For PHP | `PHP` ★ 973 | 2022-07-29 |
-| [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) | A curated list of amazingly awesome PHP libraries, resources and shiny things. | ★ 32.3k | 2026-01-17 |
+| [gabrielrcouto/php-gui](https://github.com/gabrielrcouto/php-gui) | Extensionless PHP Graphic User Interface library | `PHP` ★ 2.2k | 2022-05-29 |
+| [ptejada/uFlex](https://github.com/ptejada/uFlex) | All in one PHP user authentication classs | `PHP` ★ 115 | 2019-01-06 |

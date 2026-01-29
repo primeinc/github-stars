@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [steveyegge/beads](https://github.com/steveyegge/beads) | Beads - A memory upgrade for your coding agent | `Go` ★ 12.6k | 2026-01-25 |
-| [aidenybai/react-grab](https://github.com/aidenybai/react-grab) | Select context for coding agents directly from your website | `TypeScript` ★ 4.6k | 2026-01-25 |
-| [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) | The best way to get AI coding agents to solve hard problems in complex codebases. | `TypeScript` ★ 8.9k | 2026-01-24 |
+| [steveyegge/beads](https://github.com/steveyegge/beads) | Beads - A memory upgrade for your coding agent | `Go` ★ 13.5k | 2026-01-28 |
+| [aidenybai/react-grab](https://github.com/aidenybai/react-grab) | Select context for coding agents directly from your website | `TypeScript` ★ 4.6k | 2026-01-29 |
+| [generalaction/emdash](https://github.com/generalaction/emdash) | Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider. | `TypeScript` ★ 1.1k | 2026-01-28 |

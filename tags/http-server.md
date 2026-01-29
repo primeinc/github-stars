@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [easyphp/DEVSERVER](https://github.com/easyphp/DEVSERVER) | ⚙️ Development environment on Windows. PHP DEVSERVER is portable, modular, fully configurable, and easy to update and customize. Since 1999. | `PHP` ★ 64 | 2023-08-26 |
+| [gin-gonic/gin](https://github.com/gin-gonic/gin) | Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for ... | `Go` ★ 87.8k | 2026-01-27 |
 | [litespeedtech/openlitespeed](https://github.com/litespeedtech/openlitespeed) | Our high-performance, lightweight, open source HTTP server | `C++` ★ 1.4k | 2026-01-08 |

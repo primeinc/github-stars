@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/kiota-samples](https://github.com/microsoft/kiota-samples) | sample generation SDKs for Kiota | `Go` ★ 108 | 2026-01-15 |
-| [TabbyML/tabby](https://github.com/TabbyML/tabby) | Self-hosted AI coding assistant | `Rust` ★ 32.8k | 2026-01-12 |
+| [FoundationAgents/ReCode](https://github.com/FoundationAgents/ReCode) | Next paradigm for LLM Agent. Unify plan and action through recursive code generation for adaptive, human-like decision-making. | `Python` ★ 534 | 2025-12-01 |
+| [mpociot/laravel-test-factory-helper](https://github.com/mpociot/laravel-test-factory-helper) | Generate Laravel test factories from your existing models | `PHP` ★ 935 | 2024-01-18 |

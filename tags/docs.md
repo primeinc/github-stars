@@ -1,10 +1,11 @@
 # Tag: docs
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [github/docs](https://github.com/github/docs) | The open-source repo for docs.github.com | `TypeScript` ★ 18.8k | 2026-01-24 |
-| [JonasKruckenberg/tauri-docs-wip](https://github.com/JonasKruckenberg/tauri-docs-wip) | No description provided | `JavaScript` ★ 20 | 2022-07-15 |
+| [doczjs/docz](https://github.com/doczjs/docz) | ✍ It has never been so easy to document your things! | `TypeScript` ★ 23.7k | 2025-11-21 |
+| [github/docs](https://github.com/github/docs) | The open-source repo for docs.github.com | `TypeScript` ★ 18.8k | 2026-01-29 |
+| [tauri-apps/tauri-docs](https://github.com/tauri-apps/tauri-docs) | The source for all Tauri project documentation. | `MDX` ★ 1k | 2026-01-28 |

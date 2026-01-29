@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust | `Rust` ★ 12.2k | 2026-01-20 |
-| [e18e/eslint-plugin](https://github.com/e18e/eslint-plugin) | The official e18e ESLint plugin for code modernization and performance best practices | `TypeScript` ★ 91 | 2026-01-19 |
+| [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust | `Rust` ★ 12.2k | 2026-01-28 |
+| [pmpetit/pglinter](https://github.com/pmpetit/pglinter) | database linter rules | `Rust` ★ 156 | 2026-01-18 |

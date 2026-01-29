@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [midday-ai/midday](https://github.com/midday-ai/midday) | Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers | `TypeScript` ★ 13.6k | 2026-01-24 |
-| [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) | A source-available invoice, quote, project and time-tracking app built with Laravel | `PHP` ★ 9.5k | 2026-01-25 |
+| [ad-on-is/rachoon](https://github.com/ad-on-is/rachoon) | 🦝 Rachoon — A self-hostable way to handle invoices | `TypeScript` ★ 916 | 2025-12-02 |
+| [midday-ai/midday](https://github.com/midday-ai/midday) | Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers | `TypeScript` ★ 13.6k | 2026-01-28 |

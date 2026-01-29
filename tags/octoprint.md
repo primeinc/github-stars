@@ -8,4 +8,4 @@
 |---|---|---|---|
 | [b-morgan/OctoPrint-FanSpeedMirror](https://github.com/b-morgan/OctoPrint-FanSpeedMirror) | Mirror the parameter(s) of GCode commands M106, M107 to scripts on the Octo Print host | `Python` ★ 5 | 2025-06-21 |
 | [waltmoorhouse/OctoPrint-Filamentstorage](https://github.com/waltmoorhouse/OctoPrint-Filamentstorage) | Octo Print Plugin for an Open Source Filament Storage system. | `Python` ★ 23 | 2022-02-28 |
-| [OctoPrint/OctoPrint](https://github.com/OctoPrint/OctoPrint) | Octo Print is the snappy web interface for your 3D printer! | `Python` ★ 8.9k | 2026-01-22 |
+| [waltmoorhouse/FilamentBox](https://github.com/waltmoorhouse/FilamentBox) | Open Source 3D printer filament dehydrator / weight sensor with Octo Print integration. | `C++` ★ 50 | 2019-12-12 |

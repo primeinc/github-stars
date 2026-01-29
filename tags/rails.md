@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [maybe-finance/maybe](https://github.com/maybe-finance/maybe) | The personal finance app for everyone | `Ruby` ★ 54k | 2025-07-24 |
-| [discourse/discourse](https://github.com/discourse/discourse) | A platform for community discussion. Free, open, simple. | `Ruby` ★ 46.1k | 2026-01-24 |
+| [basecamp/fizzy](https://github.com/basecamp/fizzy) | Kanban as it should be. Not as it has been. | `Ruby` ★ 6.8k | 2026-01-28 |
+| [discourse/discourse](https://github.com/discourse/discourse) | A platform for community discussion. Free, open, simple. | `Ruby` ★ 46.2k | 2026-01-29 |

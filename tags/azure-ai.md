@@ -1,10 +1,11 @@
 # Tag: azure-ai
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Azure-Samples/contoso-chat](https://github.com/Azure-Samples/contoso-chat) | This sample has the full End2End process of creating RAG application with Prompty and Azure AI Foundry. It includes GPT-4 LLM application code, evaluations, deployment automation with AZD CLI, Git ... | `Bicep` ★ 753 | 2025-10-03 |
-| [microsoft/content-processing-solution-accelerator](https://github.com/microsoft/content-processing-solution-accelerator) | Programmatically extract data and apply schemas to unstructured documents across text-based and multi-modal content using Azure AI Foundry, Azure Open AI, Azure AI Content Understanding, and Cosmos... | `Python` ★ 170 | 2026-01-23 |
+| [Azure-Samples/contoso-chat](https://github.com/Azure-Samples/contoso-chat) | This sample has the full End2End process of creating RAG application with Prompty and Azure AI Foundry. It includes GPT-4 LLM application code, evaluations, deployment automation with AZD CLI, Git ... | `Bicep` ★ 754 | 2025-10-03 |
+| [microsoft/Conversation-Knowledge-Mining-Solution-Accelerator](https://github.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator) | This solution accelerator leverages Microsoft Foundry, Azure Content Understanding, Azure Open AI Service, and Foundry IQ to enable organizations to derive insights from volumes of conversational d... | `Python` ★ 410 | 2026-01-28 |
+| [microsoft/content-processing-solution-accelerator](https://github.com/microsoft/content-processing-solution-accelerator) | Programmatically extract data and apply schemas to unstructured documents across text-based and multi-modal content using Azure AI Foundry, Azure Open AI, Azure AI Content Understanding, and Cosmos... | `Python` ★ 175 | 2026-01-28 |

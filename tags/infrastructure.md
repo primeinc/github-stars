@@ -1,10 +1,11 @@
 # Tag: infrastructure
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Azure/deployment-stacks](https://github.com/Azure/deployment-stacks) | Contains Deployment Stacks CLI scripts and releases | `Bicep` ★ 98 | 2024-10-24 |
-| [jamesmcroft/bicep-templates](https://github.com/jamesmcroft/bicep-templates) | A centralized resource for providing baseline templates for building and deploying infrastructure-as-code best practices using Azure Bicep | `Bicep` ★ 16 | 2025-06-18 |
+| [portofcontext/pctx](https://github.com/portofcontext/pctx) | pctx is the execution layer for agentic tool calls. It exposes custom tools and MCP servers as code that runs in secure sandboxes for token-efficient calls. | `Rust` ★ 196 | 2026-01-28 |
+| [stan-smith/FossFLOW](https://github.com/stan-smith/FossFLOW) | Make beautiful isometric infrastructure diagrams | `TypeScript` ★ 17k | 2026-01-26 |
+| [Azure/bicep-registry-modules](https://github.com/Azure/bicep-registry-modules) | Bicep registry modules | `Bicep` ★ 693 | 2026-01-28 |

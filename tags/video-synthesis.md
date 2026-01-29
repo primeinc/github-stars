@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Francis-Rings/FlashPortrait](https://github.com/Francis-Rings/FlashPortrait) | We present Flash Portrait, an end-to-end video diffusion transformer capable of synthesizing ID-preserving, infinite-length videos while achieving up to 6$\times$ acceleration in inference speed. | `Python` ★ 429 | 2026-01-10 |
+| [Orange-3DV-Team/MoCha](https://github.com/Orange-3DV-Team/MoCha) | Mo Cha: End-to-End Video Character Replacement without Structural Guidance | `Python` ★ 612 | 2026-01-14 |
 | [ali-vilab/videocomposer](https://github.com/ali-vilab/videocomposer) | Official repo for Video Composer: Compositional Video Synthesis with Motion Controllability | `Python` ★ 950 | 2023-11-11 |

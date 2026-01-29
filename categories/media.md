@@ -1,27 +1,31 @@
 # Media
 
-*17 repositories*
+*21 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [awesome-jellyfin/awesome-jellyfin](https://github.com/awesome-jellyfin/awesome-jellyfin) | A Collection of Awesome Jellyfin Plugins, Themes, Guides and More! | `Shell` ★ 6.2k | 2026-01-23 |
-| [astrofox-io/astrofox](https://github.com/astrofox-io/astrofox) | Astrofox is a motion graphics program that lets you turn audio into amazing videos. | `JavaScript` ★ 1.9k | 2024-05-27 |
+| [5rahim/seanime](https://github.com/5rahim/seanime) | Open-source media server with a web interface and desktop app for anime and manga. | `Go` ★ 2.6k | 2026-01-28 |
+| [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | The Free Software Media System - Server Backend & API | `C#` ★ 48.1k | 2026-01-28 |
+| [ErsatzTV/ErsatzTV](https://github.com/ErsatzTV/ErsatzTV) | Open-source platform that transforms your personal media library into live, custom TV channels. | `C#` ★ 2.5k | 2026-01-28 |
+| [stax76/awesome-mpv](https://github.com/stax76/awesome-mpv) | A curated list of awesome mpv resources. | ★ 1.9k | 2025-12-22 |
 | [WickyPlays/pip-player](https://github.com/WickyPlays/pip-player) | A simple application to play Pi P with any links that you like. | `TypeScript` ★ 5 | 2025-06-30 |
-| [staniel359/muffon](https://github.com/staniel359/muffon) | Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads. | `Vue` ★ 2k | 2026-01-24 |
+| [staniel359/muffon](https://github.com/staniel359/muffon) | Advanced multi-source music streaming + discovery client for desktop. Free, clean, no login, no ads. | `Vue` ★ 2k | 2026-01-28 |
 | [sunzongzheng/music](https://github.com/sunzongzheng/music) | electron跨平台音乐播放器；可搜网易云、QQ音乐、虾米音乐；支持QQ、微博、Github登录，云歌单; 支持一键导入音乐平台歌单 | `Vue` ★ 2.6k | 2022-12-10 |
-| [exeldro/obs-move-transition](https://github.com/exeldro/obs-move-transition) | Move transition for OBS Studio | `C` ★ 833 | 2025-12-26 |
+| [exeldro/obs-move-transition](https://github.com/exeldro/obs-move-transition) | Move transition for OBS Studio | `C` ★ 834 | 2025-12-26 |
+| [exeldro/obs-source-clone](https://github.com/exeldro/obs-source-clone) | No description provided | `CMake` ★ 176 | 2026-01-17 |
 | [royshil/obs-detect](https://github.com/royshil/obs-detect) | Object Detection in OBS, real-time, local, GPU optional | `C++` ★ 158 | 2024-12-18 |
-| [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | OBS Studio - Free and open source software for live streaming and screen recording | `C` ★ 69.9k | 2026-01-25 |
-| [cinqmarsmedia/Chameleon-Video-Player](https://github.com/cinqmarsmedia/Chameleon-Video-Player) | A Non-Profit Video Utility | `JavaScript` ★ 14 | 2023-01-05 |
+| [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | OBS Studio - Free and open source software for live streaming and screen recording | `C` ★ 70k | 2026-01-29 |
+| [Aitum/obs-vertical-canvas](https://github.com/Aitum/obs-vertical-canvas) | No description provided | `C++` ★ 248 | 2025-10-15 |
+| [norihiro/obs-mute-filter](https://github.com/norihiro/obs-mute-filter) | OBS Studio plugin to mute audio of a source | `CMake` ★ 26 | 2026-01-15 |
+| [CodeYan01/media-playlist-source](https://github.com/CodeYan01/media-playlist-source) | An OBS Studio plugin that supports media playlists, based on the Media Source | `C` ★ 55 | 2025-04-13 |
+| [0xced/XCDYouTubeKit](https://github.com/0xced/XCDYouTubeKit) | You Tube video player for i OS, tv OS and mac OS | `Objective-C` ★ 2.9k | 2024-04-08 |
 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | Clone a voice in 5 seconds to generate arbitrary speech in real-time | `Python` ★ 59.3k | 2025-12-15 |
-| [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | The swiss army knife of lossless video/audio editing | `TypeScript` ★ 37.5k | 2026-01-24 |
-| [tubearchivist/tubearchivist](https://github.com/tubearchivist/tubearchivist) | Your self hosted You Tube media server | `Python` ★ 7.5k | 2026-01-24 |
+| [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | The swiss army knife of lossless video/audio editing | `TypeScript` ★ 37.7k | 2026-01-28 |
+| [tubearchivist/tubearchivist](https://github.com/tubearchivist/tubearchivist) | Your self hosted You Tube media server | `Python` ★ 7.5k | 2026-01-26 |
 | [whatdaybob/sonarr_youtubedl](https://github.com/whatdaybob/sonarr_youtubedl) | A Sonarr companion script to allow the automatic downloading of web series normally not available for Sonarr to search for. Using Youtube-DL it allows you to download your webseries from the list o... | `Python` ★ 139 | 2023-11-27 |
-| [dtcooper/raspotify](https://github.com/dtcooper/raspotify) | A Spotify Connect client that mostly Just Works™ | `Shell` ★ 5.1k | 2025-12-02 |
-| [marcopixel/monstercat-visualizer](https://github.com/marcopixel/monstercat-visualizer) | A real time audio visualizer for Rainmeter similar to the ones used in the Monstercat videos. | `Lua` ★ 950 | 2023-06-17 |
-| [Ombi-app/Ombi](https://github.com/Ombi-app/Ombi) | Want a Movie or TV Show on Plex/Emby/Jellyfin? Use Ombi! | `C#` ★ 4k | 2026-01-11 |
-| [xbmc/xbmc](https://github.com/xbmc/xbmc) | Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available f... | `C++` ★ 20.4k | 2026-01-25 |
+| [marcopixel/monstercat-visualizer](https://github.com/marcopixel/monstercat-visualizer) | A real time audio visualizer for Rainmeter similar to the ones used in the Monstercat videos. | `Lua` ★ 951 | 2023-06-17 |
+| [klassicstudios/Bonarr](https://github.com/klassicstudios/Bonarr) | A fork of Radarr to work with porn. | `C#` ★ 154 | 2017-09-27 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

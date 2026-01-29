@@ -1,19 +1,21 @@
 # Tag: workflow
 
-*11 repositories*
+*13 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition. | `Python` ★ 11.2k | 2026-01-22 |
-| [agentsmd/agents.md](https://github.com/agentsmd/agents.md) | AGENTS.md — a simple, open format for guiding coding agents | `TypeScript` ★ 16k | 2025-12-19 |
-| [refly-ai/refly](https://github.com/refly-ai/refly) | Vibe Workflow Platform for Non-technical Creators. | `TypeScript` ★ 6k | 2026-01-24 |
-| [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) | Automate browser based workflows with AI | `Python` ★ 20.2k | 2026-01-25 |
-| [dtyq/magic](https://github.com/dtyq/magic) | Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system) | `PHP` ★ 4.4k | 2025-12-02 |
-| [peterkrueck/Claude-Code-Development-Kit](https://github.com/peterkrueck/Claude-Code-Development-Kit) | Handle context at scale - my custom Claude Code workflow including hooks, mcp and sub agents | `Shell` ★ 1.3k | 2025-09-01 |
-| [automatisch/automatisch](https://github.com/automatisch/automatisch) | The open source Zapier alternative. Build workflow automation without spending time and money. | `JavaScript` ★ 13.5k | 2026-01-22 |
-| [n8n-io/n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. | `TypeScript` ★ 171.1k | 2026-01-24 |
-| [C0nsumption/Consume-ComfyUI-Workflows](https://github.com/C0nsumption/Consume-ComfyUI-Workflows) | A collection of some of my basic Comfy UI workflows. These are meant to act as building block to construct larger workflows of your own. | ★ 251 | 2024-07-08 |
-| [ThereforeGames/unprompted](https://github.com/ThereforeGames/unprompted) | Templating language written for Stable Diffusion workflows. Available as an extension for the Automatic1111 Web UI. | `Python` ★ 807 | 2024-07-29 |
+| [gohoyer/Alfred-Rectangle-Shortcuts](https://github.com/gohoyer/Alfred-Rectangle-Shortcuts) | This is an Alfred workflow that allows you to list and access [Rectangle](https://rectangleapp.com) shortcuts. | `Python` ★ 35 | 2022-04-07 |
+| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition. | `Python` ★ 11.7k | 2026-01-27 |
+| [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | Autonomous AI development loop for Claude Code with intelligent exit detection | `Shell` ★ 5.9k | 2026-01-29 |
+| [refly-ai/refly](https://github.com/refly-ai/refly) | Vibe Workflow Platform for Non-technical Creators. | `TypeScript` ★ 6k | 2026-01-29 |
+| [Ido-Levi/Hephaestus](https://github.com/Ido-Levi/Hephaestus) | Semi-Structured Agentic Framework. Workflows build themselves as agents discover what needs to be done, not what you predicted upfront. | `Python` ★ 1.1k | 2025-12-01 |
+| [ariga/atlas](https://github.com/ariga/atlas) | Declarative schema migrations with schema-as-code workflows | `Go` ★ 8k | 2026-01-27 |
+| [dtyq/magic](https://github.com/dtyq/magic) | Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system) | `PHP` ★ 4.5k | 2025-12-02 |
+| [PanseBossuSmecheru/notes-mcp](https://github.com/PanseBossuSmecheru/notes-mcp) | Notes MCPAn MCP server that connects with your Apple Notes on mac OS. 📓 This tool allows you to manage your notes efficiently with simple commands. 🛠️ | `TypeScript` ★ 3 | 2026-01-29 |
+| [langgenius/dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development. | `TypeScript` ★ 127.9k | 2026-01-29 |
+| [automatisch/automatisch](https://github.com/automatisch/automatisch) | The open source Zapier alternative. Build workflow automation without spending time and money. | `JavaScript` ★ 13.6k | 2026-01-22 |
+| [nikivdev/flow](https://github.com/nikivdev/flow) | Everything you need to move your project faster | `Rust` ★ 21.2k | 2026-01-28 |
+| [aegis72/aegisflow](https://github.com/aegis72/aegisflow) | Aegis Flow XL and Aegis Flow 1.5 are Comfy UI workflows designed by a professional for professionals | ★ 36 | 2024-01-18 |
 | [google/web-starter-kit](https://github.com/google/web-starter-kit) | Web Starter Kit - a workflow for multi-device websites | `HTML` ★ 18.4k | 2024-04-22 |

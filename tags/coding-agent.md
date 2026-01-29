@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Dicklesworthstone/coding_agent_session_search](https://github.com/Dicklesworthstone/coding_agent_session_search) | No description provided | `Rust` ★ 352 | 2026-01-25 |
-| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` ★ 86.6k | 2026-01-25 |
-| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | AI Agent + Coding Agent + 300+ assistants: agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs. | `TypeScript` ★ 38.3k | 2026-01-25 |
-| [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your terminal | `Rust` ★ 57.2k | 2026-01-25 |
+| [Dicklesworthstone/coding_agent_session_search](https://github.com/Dicklesworthstone/coding_agent_session_search) | No description provided | `Rust` ★ 375 | 2026-01-29 |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `TypeScript` ★ 91.5k | 2026-01-29 |
+| [oraios/serena](https://github.com/oraios/serena) | A powerful coding agent toolkit providing semantic retrieval and editing capabilities (MCP server & other integrations) | `Python` ★ 19.4k | 2026-01-28 |
+| [continuedev/continue](https://github.com/continuedev/continue) | ⏩ Ship faster with Continuous AI. Open-source CLI that can be used in Headless mode to run async cloud agents or TUI mode as an in sync coding agent | `TypeScript` ★ 31.1k | 2026-01-29 |

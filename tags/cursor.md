@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [AgentDeskAI/browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp) | Monitor browser logs directly from Cursor and other MCP compatible IDEs. | `JavaScript` ★ 7k | 2025-03-26 |
-| [RenjiYuusei/CursorFocus](https://github.com/RenjiYuusei/CursorFocus) | A lightweight tool that maintains a focused view of your project structure and environment. Cursor Focus automatically tracks your project files, functions, and environment variables, updating ever... | `Python` ★ 172 | 2025-04-02 |
+| [21st-dev/magic-mcp](https://github.com/21st-dev/magic-mcp) | It's like v0 but in your Cursor/Wind Surf/Cline. 21st dev Magic MCP server for working with your frontend like Magic | `TypeScript` ★ 4.2k | 2025-12-23 |

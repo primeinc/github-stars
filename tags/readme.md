@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | A curated list of awesome READMEs | ★ 20.3k | 2026-01-24 |
-| [muesli/readme-scribe](https://github.com/muesli/readme-scribe) | A Git Hub Action that automatically generates & updates markdown content (like your README.md) | ★ 577 | 2021-06-22 |
+| [novatorem/novatorem](https://github.com/novatorem/novatorem) | Dynamic realtime profile Read Me linked with spotify | `Jinja` ★ 730 | 2024-12-21 |
+| [race2infinity/The-Documentation-Compendium](https://github.com/race2infinity/The-Documentation-Compendium) | 📢 Various README templates & tips on writing high-quality documentation that people want to read. | ★ 5.9k | 2025-10-31 |

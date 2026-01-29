@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [midday-ai/midday](https://github.com/midday-ai/midday) | Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers | `TypeScript` ★ 13.6k | 2026-01-24 |
+| [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | Open Stock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever ... | `TypeScript` ★ 8k | 2025-12-12 |
 | [coffeeAndCodeMSO/mort_comp](https://github.com/coffeeAndCodeMSO/mort_comp) | Compare two mortgages to see which is a better deal. Typically a 15 year versus a 30 year mortgage. | `JavaScript` ★ 6 | 2018-06-18 |
-| [7kfpun/awesome-fintech](https://github.com/7kfpun/awesome-fintech) | A curated list of amazingly awesome financial libraries, resources and shiny things. | ★ 343 | 2025-12-14 |
+| [jbmohler/mortgage](https://github.com/jbmohler/mortgage) | Python mortgage amortization calculations | `Python` ★ 85 | 2017-02-23 |

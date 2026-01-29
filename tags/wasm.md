@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [leaningtech/webvm](https://github.com/leaningtech/webvm) | Virtual Machine for the Web | `JavaScript` ★ 16.3k | 2026-01-19 |
-| [voluntas/duckdb-wasm-parquet](https://github.com/voluntas/duckdb-wasm-parquet) | No description provided | `TypeScript` ★ 102 | 2025-10-30 |
-| [JonasKruckenberg/k23](https://github.com/JonasKruckenberg/k23) | Experimental WASM Microkernel Operating System | `Rust` ★ 602 | 2026-01-11 |
+| [emilk/egui](https://github.com/emilk/egui) | egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native | `Rust` ★ 27.9k | 2026-01-25 |
+| [JonasKruckenberg/k23](https://github.com/JonasKruckenberg/k23) | Experimental WASM Microkernel Operating System | `Rust` ★ 603 | 2026-01-26 |
+| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | Fullstack app framework for web, desktop, and mobile. | `Rust` ★ 34.4k | 2026-01-29 |

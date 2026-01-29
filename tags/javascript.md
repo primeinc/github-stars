@@ -1,13 +1,16 @@
 # Tag: javascript
 
-*5 repositories*
+*8 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [OfficeDev/office-js](https://github.com/OfficeDev/office-js) | A repository for issues related to the Office Java Script APIs and Office Add-ins platform. Find the Office.js library in Office.js CDN: https://appsforoffice.microsoft.com/lib/1/hosted/office.js. | `JavaScript` ★ 785 | 2025-12-31 |
-| [obs-websocket-community-projects/obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) | Consumes https://github.com/obsproject/obs-websocket | `TypeScript` ★ 753 | 2025-11-09 |
+| [nwjs/nw.js](https://github.com/nwjs/nw.js) | Call all Node.js modules directly from DOM/Web Worker and enable a new way of writing applications with all Web technologies. | `JavaScript` ★ 41.6k | 2026-01-11 |
+| [andredesousa/typescript-best-practices](https://github.com/andredesousa/typescript-best-practices) | This is a guideline of best practices that you can apply to your Type Script project. | ★ 177 | 2021-05-03 |
+| [andrew--r/channels](https://github.com/andrew--r/channels) | 📺 A collection of useful You Tube channels for javascript developers and web designers | ★ 4.4k | 2021-10-01 |
 | [dexteryy/spellbook-of-modern-webdev](https://github.com/dexteryy/spellbook-of-modern-webdev) | A Big Picture, Thesaurus, and Taxonomy of Modern Java Script Web Development | ★ 17.7k | 2023-12-18 |
-| [klyte45/EUIS-baseproj-fe](https://github.com/klyte45/EUIS-baseproj-fe) | Basic project to create EUIS micro-frontend applications. | `JavaScript` ★ 2 | 2023-10-29 |
+| [metafizzy/infinite-scroll](https://github.com/metafizzy/infinite-scroll) | 📜 Automatically add next page | `HTML` ★ 7.5k | 2025-03-08 |
+| [t4t5/sweetalert](https://github.com/t4t5/sweetalert) | A beautiful replacement for Java Script's "alert" | `TypeScript` ★ 22.4k | 2023-04-15 |
+| [twbs/bootstrap](https://github.com/twbs/bootstrap) | The most popular HTML, CSS, and Java Script framework for developing responsive, mobile first projects on the web. | `MDX` ★ 174k | 2026-01-28 |
 | [bitwiseshiftleft/sjcl](https://github.com/bitwiseshiftleft/sjcl) | [DEPRECATED] Stanford Javascript Crypto Library | `JavaScript` ★ 7.2k | 2026-01-08 |

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [BasedHardware/omi](https://github.com/BasedHardware/omi) | AI wearables. Put it on, speak, transcribe, automatically | `Dart` ★ 7.6k | 2026-01-25 |
-| [nyrahealth/CrisperWhisper](https://github.com/nyrahealth/CrisperWhisper) | Verbatim Automatic Speech Recognition with improved word-level timestamps and filler detection | `Python` ★ 888 | 2025-06-03 |
+| [mourad-ghafiri/youtube-mcp-server](https://github.com/mourad-ghafiri/youtube-mcp-server) | A powerful Model Context Protocol (MCP) server for You Tube video transcription and metadata extraction. | `Python` ★ 50 | 2026-01-03 |
+| [QwenLM/Qwen3-ASR-Toolkit](https://github.com/QwenLM/Qwen3-ASR-Toolkit) | Official Python toolkit for the Qwen3-ASR API. Parallel high‑throughput calls, robust long‑audio transcription, multi‑sample‑rate support. | `Python` ★ 751 | 2025-10-21 |

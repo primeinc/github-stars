@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) | Useful resources for creating apps with Electron | ★ 26.9k | 2025-11-24 |
-| [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) |  Now we have become very big, Different from the original idea. Collect premium software in various categories. | `JavaScript` ★ 97.5k | 2025-12-27 |
+| [electron/electron](https://github.com/electron/electron) | :electron: Build cross-platform desktop apps with Java Script, HTML, and CSS | `C++` ★ 119.9k | 2026-01-29 |
+| [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) |  Now we have become very big, Different from the original idea. Collect premium software in various categories. | `JavaScript` ★ 98.2k | 2026-01-28 |

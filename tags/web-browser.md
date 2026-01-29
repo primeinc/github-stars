@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [imputnet/helium](https://github.com/imputnet/helium) | Private, fast, and honest web browser | `C++` ★ 10.6k | 2026-01-24 |
-| [resemble-ai/transformers.js](https://github.com/resemble-ai/transformers.js) | State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server! | `JavaScript` ★ 1 | 2025-11-19 |
+| [imputnet/helium](https://github.com/imputnet/helium) | Private, fast, and honest web browser | `C++` ★ 10.7k | 2026-01-28 |
+| [transloadit/uppy](https://github.com/transloadit/uppy) | The next open source file uploader for web browsers :dog: | `TypeScript` ★ 30.6k | 2026-01-28 |

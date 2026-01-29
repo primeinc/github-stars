@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [NousResearch/Hermes-Function-Calling](https://github.com/NousResearch/Hermes-Function-Calling) | No description provided | `Jupyter Notebook` ★ 1.2k | 2025-12-22 |
-| [4GeeksAcademy/realestate-datacleanup-exercise](https://github.com/4GeeksAcademy/realestate-datacleanup-exercise) | No description provided | `Jupyter Notebook` ★ 11 | 2025-03-17 |
-| [jflam/chat-gpt-jupyter-extension](https://github.com/jflam/chat-gpt-jupyter-extension) | A browser extension that lets you chat with Chat GPT from any local Jupyter notebook. | `Jupyter Notebook` ★ 273 | 2023-01-08 |
+| [QwenLM/Qwen3-Omni](https://github.com/QwenLM/Qwen3-Omni) | Qwen3-omni is a natively end-to-end, omni-modal LLM developed by the Qwen team at Alibaba Cloud, capable of understanding text, audio, images, and video, as well as generating speech in real time. | `Jupyter Notebook` ★ 3.3k | 2026-01-08 |
+| [denisa-ms/azure-data-and-ai-examples](https://github.com/denisa-ms/azure-data-and-ai-examples) | No description provided | `Jupyter Notebook` ★ 31 | 2023-11-15 |
+| [GitNirmal-u/Microsoft_Azure_E2E_Project](https://github.com/GitNirmal-u/Microsoft_Azure_E2E_Project) | No description provided | `Jupyter Notebook` ★ 1 | 2024-12-29 |

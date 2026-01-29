@@ -1,10 +1,11 @@
 # Tag: headless
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [adrianhajdin/project_graphql_blog](https://github.com/adrianhajdin/project_graphql_blog) | With featured and recent posts, categories. full markdown articles, author information, comments, and much more, this fully responsive CMS Blog App is the best Blog Application that you can current... | `JavaScript` ★ 1.5k | 2023-10-15 |
-| [timminator/ParsecVDA-Always-Connected](https://github.com/timminator/ParsecVDA-Always-Connected) | Connects a Virtual Display to your PC and allows for a headless operation - no need for Dummy Plugs anymore! Now as a Windows service! | `C++` ★ 134 | 2024-07-15 |
+| [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5k | 2026-01-29 |
+| [asyafiqe/Rope-docker-headless-vnc-container](https://github.com/asyafiqe/Rope-docker-headless-vnc-container) | Docker for running Rope using headless VNC environments. Useful for running Rope on cloud GPU services like Runpod.io or Vast.ai. | `Python` ★ 7 | 2025-02-10 |
+| [timminator/ParsecVDA-Always-Connected](https://github.com/timminator/ParsecVDA-Always-Connected) | Connects a Virtual Display to your PC and allows for a headless operation - no need for Dummy Plugs anymore! Now as a Windows service! | `C++` ★ 136 | 2024-07-15 |

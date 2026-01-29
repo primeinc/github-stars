@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) | :whale: A curated list of Docker resources and projects | ★ 35.1k | 2025-12-22 |
-| [docker/awesome-compose](https://github.com/docker/awesome-compose) | Awesome Docker Compose samples | `HTML` ★ 43.4k | 2026-01-05 |
+| [trycua/cua](https://github.com/trycua/cua) | Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (mac OS, Linux, Windows). | `Python` ★ 12.1k | 2026-01-28 |
+| [generalaction/emdash](https://github.com/generalaction/emdash) | Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider. | `TypeScript` ★ 1.1k | 2026-01-28 |

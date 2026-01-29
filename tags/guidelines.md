@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [steipete/agent-rules](https://github.com/steipete/agent-rules) | Rules and Knowledge to work better with agents such as Claude Code or Cursor | `Shell` ★ 5.5k | 2025-12-31 |
-| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. | ★ 203k | 2024-11-19 |
+| [andredesousa/typescript-best-practices](https://github.com/andredesousa/typescript-best-practices) | This is a guideline of best practices that you can apply to your Type Script project. | ★ 177 | 2021-05-03 |
+| [race2infinity/The-Documentation-Compendium](https://github.com/race2infinity/The-Documentation-Compendium) | 📢 Various README templates & tips on writing high-quality documentation that people want to read. | ★ 5.9k | 2025-10-31 |

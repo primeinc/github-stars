@@ -6,14 +6,14 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [home-assistant/frontend](https://github.com/home-assistant/frontend) | :lollipop: Frontend for Home Assistant | `TypeScript` ★ 5.2k | 2026-01-28 |
+| [acon96/home-llm](https://github.com/acon96/home-llm) | A Home Assistant integration & Model to control your smart home using a Local LLM | `Python` ★ 1.2k | 2026-01-04 |
 | [Home-Is-Where-You-Hang-Your-Hack/sensor.goveetemp_bt_hci](https://github.com/Home-Is-Where-You-Hang-Your-Hack/sensor.goveetemp_bt_hci) | Govee Temperature/Humidity BLE Home Assistant Component | `Python` ★ 165 | 2023-01-07 |
-| [thomasloven/lovelace-auto-entities](https://github.com/thomasloven/lovelace-auto-entities) | 🔹Automatically populate the entities-list of lovelace cards | `TypeScript` ★ 1.7k | 2025-08-21 |
-| [artem-sedykh/mini-climate-card](https://github.com/artem-sedykh/mini-climate-card) | Minimalistic climate card for Home Assistant Lovelace UI | `JavaScript` ★ 318 | 2025-02-10 |
-| [hassio-addons/addon-vscode](https://github.com/hassio-addons/addon-vscode) | Studio Code Server - Home Assistant Community Add-ons | `Dockerfile` ★ 629 | 2026-01-22 |
+| [hassio-addons/addon-vscode](https://github.com/hassio-addons/addon-vscode) | Studio Code Server - Home Assistant Community Add-ons | `Dockerfile` ★ 629 | 2026-01-27 |
 | [dlarrick/hass-kumo](https://github.com/dlarrick/hass-kumo) | Home Assistant module interfacing with Mitsubishi mini-split units | `Python` ★ 131 | 2025-12-31 |
 | [eyalcha/read_your_meter](https://github.com/eyalcha/read_your_meter) | Home Assistant sensor to read water meter | `Python` ★ 40 | 2022-07-25 |
-| [claytonjn/hass-circadian_lighting](https://github.com/claytonjn/hass-circadian_lighting) | Circadian Lighting custom component for Home Assistant | `Python` ★ 865 | 2025-09-19 |
-| [moralmunky/Home-Assistant-Mail-And-Packages](https://github.com/moralmunky/Home-Assistant-Mail-And-Packages) | Home Assistant integration providing day of package counts and USPS informed delivery images. | `Python` ★ 801 | 2026-01-09 |
+| [claytonjn/hass-circadian_lighting](https://github.com/claytonjn/hass-circadian_lighting) | Circadian Lighting custom component for Home Assistant | `Python` ★ 868 | 2025-09-19 |
+| [moralmunky/Home-Assistant-Mail-And-Packages](https://github.com/moralmunky/Home-Assistant-Mail-And-Packages) | Home Assistant integration providing day of package counts and USPS informed delivery images. | `Python` ★ 803 | 2026-01-09 |
 | [custom-components/climate.programmable_thermostat](https://github.com/custom-components/climate.programmable_thermostat) | Programmable thermostat that let you have a smart thermostat on budget. | `Python` ★ 118 | 2025-09-08 |
 | [jimz011/homekit-infused](https://github.com/jimz011/homekit-infused) | Homekit Infused 5 2023 | ★ 897 | 2026-01-08 |
 

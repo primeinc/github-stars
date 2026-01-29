@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | The Network Execution Tool | `Python` ★ 5.2k | 2026-01-12 |
-| [unifi-hackers/unifi-lab](https://github.com/unifi-hackers/unifi-lab) | (THIS project IS DORMANT: Please have a look at calmh/unifi-api instead, which is cleaner) Add some extra spice to your Ubiquiti Uni Fi wifi network! | `Python` ★ 106 | 2016-02-11 |
+| [dadlerj/tin](https://github.com/dadlerj/tin) | No description provided | `Go` ★ 63 | 2026-01-07 |
+| [unifi-utilities/unifios-utilities](https://github.com/unifi-utilities/unifios-utilities) | A collection of enhancements for Unifi OS based devices | `Shell` ★ 4.3k | 2025-12-23 |

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [yjs/yjs](https://github.com/yjs/yjs) | Shared data types for building collaborative software | `JavaScript` ★ 21k | 2026-01-10 |
-| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFF i NE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable ... | `TypeScript` ★ 61.7k | 2026-01-11 |
+| [microsoft/FluidFramework](https://github.com/microsoft/FluidFramework) | Library for building distributed, real-time collaborative web applications | `TypeScript` ★ 4.9k | 2026-01-29 |
+| [yjs/yjs](https://github.com/yjs/yjs) | Shared data types for building collaborative software | `JavaScript` ★ 21.1k | 2026-01-19 |

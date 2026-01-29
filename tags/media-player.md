@@ -1,19 +1,13 @@
 # Tag: media-player
 
-*11 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [huynhsontung/Screenbox](https://github.com/huynhsontung/Screenbox) | Lib VLC-based media player for the Universal Windows Platform | `C#` ★ 2.9k | 2026-01-23 |
-| [harmonoid/harmonoid](https://github.com/harmonoid/harmonoid) | 🎵 Plays & manages your music library. Looks beautiful & juicy. Available for Windows, GNU/Linux, mac OS & Android. | `Dart` ★ 4.3k | 2026-01-24 |
+| [huynhsontung/Screenbox](https://github.com/huynhsontung/Screenbox) | Lib VLC-based media player for the Universal Windows Platform | `C#` ★ 2.9k | 2026-01-28 |
+| [TinosNitso/mpv-scripts](https://github.com/TinosNitso/mpv-scripts) | For mpv & SMPlayer. Windows, Linux, Mac OS & Android. You Tube, MP4, MP3, JPEG, etc. Multi-stereo speed randomization & tri-color clocks (aspeed.lua); cropping, start/end limits & aspect randomizat... | `Lua` ★ 15 | 2024-10-05 |
 | [theimpactfulcompany/Rise-Media-Player](https://github.com/theimpactfulcompany/Rise-Media-Player) | One media player for everything you own or stream; whether it's music or videos, online or offline Rise Media Player does it all. And it's beautiful and native with the latest version of Win UI. | `C#` ★ 1.2k | 2025-10-23 |
-| [stax76/awesome-mpv](https://github.com/stax76/awesome-mpv) | A curated list of awesome mpv resources. | ★ 1.9k | 2025-12-22 |
-| [WickyPlays/pip-player](https://github.com/WickyPlays/pip-player) | A simple application to play Pi P with any links that you like. | `TypeScript` ★ 5 | 2025-06-30 |
-| [Aayush9029/NativeYoutube](https://github.com/Aayush9029/NativeYoutube) | Personal App that turned into "alpha released app" v3 | `Swift` ★ 524 | 2025-05-23 |
-| [MkQtS/Carefree](https://github.com/MkQtS/Carefree) | An elegant Potplayer skin | ★ 39 | 2024-01-09 |
 | [mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net) | 🎞 mpv.net is a media player for Windows with a modern GUI. | `C#` ★ 4.7k | 2026-01-09 |
-| [mpv-player/mpv](https://github.com/mpv-player/mpv) | 🎥 Command line media player | `C` ★ 33.7k | 2026-01-24 |
-| [marcopixel/monstercat-visualizer](https://github.com/marcopixel/monstercat-visualizer) | A real time audio visualizer for Rainmeter similar to the ones used in the Monstercat videos. | `Lua` ★ 950 | 2023-06-17 |
-| [xbmc/xbmc](https://github.com/xbmc/xbmc) | Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available f... | `C++` ★ 20.4k | 2026-01-25 |
+| [mpv-player/mpv](https://github.com/mpv-player/mpv) | 🎥 Command line media player | `C` ★ 33.8k | 2026-01-28 |

@@ -1,10 +1,11 @@
 # Tag: zero-trust
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [fosrl/pangolin](https://github.com/fosrl/pangolin) | Identity-aware VPN and proxy for remote access to anything, anywhere. | `TypeScript` ★ 18.3k | 2026-01-24 |
-| [openziti/ziti](https://github.com/openziti/ziti) | The parent project for Open Ziti. Here you will find the executables for a fully zero trust, application embedded, programmable network @Open Ziti | `Go` ★ 3.8k | 2026-01-23 |
+| [fosrl/pangolin](https://github.com/fosrl/pangolin) | Identity-aware VPN and proxy for remote access to anything, anywhere. | `TypeScript` ★ 18.4k | 2026-01-29 |
+| [netbirdio/netbird](https://github.com/netbirdio/netbird) | Connect your devices into a secure Wire Guard®-based overlay network with SSO, MFA and granular access controls. | `Go` ★ 21.3k | 2026-01-28 |
+| [openziti/ziti](https://github.com/openziti/ziti) | The parent project for Open Ziti. Here you will find the executables for a fully zero trust, application embedded, programmable network @Open Ziti | `Go` ★ 3.8k | 2026-01-29 |

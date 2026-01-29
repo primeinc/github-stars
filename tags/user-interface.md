@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) | This project aims to enhance the working environment on Windows | `C` ★ 31.3k | 2025-11-03 |
-| [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) | Bring mac OS “Quick Look” feature to Windows | `C#` ★ 22.1k | 2026-01-23 |
-| [gabrielrcouto/php-gui](https://github.com/gabrielrcouto/php-gui) | Extensionless PHP Graphic User Interface library | `PHP` ★ 2.2k | 2022-05-29 |
+| [sim-codes/windows-phone-link-ui](https://github.com/sim-codes/windows-phone-link-ui) | No description provided | `TypeScript` ★ 2 | 2024-05-14 |
+| [jimz011/homekit-infused](https://github.com/jimz011/homekit-infused) | Homekit Infused 5 2023 | ★ 897 | 2026-01-08 |
+| [filp/whoops](https://github.com/filp/whoops) | PHP errors for cool kids | `PHP` ★ 13.3k | 2025-11-28 |

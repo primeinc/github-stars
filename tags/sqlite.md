@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 2k | 2026-01-23 |
-| [sbondCo/Watcharr](https://github.com/sbondCo/Watcharr) | Open source, self-hostable watched list for all your content (movies, tv series, anime, games) with user authentication, modern and clean UI and a very simple setup. | `Svelte` ★ 1.2k | 2026-01-05 |
+| [usememos/memos](https://github.com/usememos/memos) | An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees. | `Go` ★ 56.1k | 2026-01-28 |
+| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 2.1k | 2026-01-28 |

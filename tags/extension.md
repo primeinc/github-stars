@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [jflam/chat-gpt-jupyter-extension](https://github.com/jflam/chat-gpt-jupyter-extension) | A browser extension that lets you chat with Chat GPT from any local Jupyter notebook. | `Jupyter Notebook` ★ 273 | 2023-01-08 |
-| [d8ahazard/sd_dreambooth_extension](https://github.com/d8ahazard/sd_dreambooth_extension) | No description provided | `Python` ★ 1.9k | 2025-09-17 |
+| [Quaggles/SwarmUI-FaceTools](https://github.com/Quaggles/SwarmUI-FaceTools) | A Swarm UI extension that adds parameters for Re Actor to the the generate tab | `C#` ★ 27 | 2026-01-04 |
+| [IrisRainbowNeko/DreamArtist-sd-webui-extension](https://github.com/IrisRainbowNeko/DreamArtist-sd-webui-extension) | Dream Artist for Stable-Diffusion-webui extension | `Python` ★ 690 | 2023-11-08 |

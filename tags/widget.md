@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [fzf404/Monit](https://github.com/fzf404/Monit) | 🎯 Desktop Widget ( 桌面小组件 ) | `Vue` ★ 839 | 2024-04-05 |
 | [swipelux/zeroid-secrets-storing-widget](https://github.com/swipelux/zeroid-secrets-storing-widget) | No description provided | `TypeScript` ★ 17 | 2024-01-18 |
+| [fightforthefuture/battleforthenet-widget](https://github.com/fightforthefuture/battleforthenet-widget) | Embed this widget on your site and help save net neutrality! | `JavaScript` ★ 705 | 2019-02-04 |
