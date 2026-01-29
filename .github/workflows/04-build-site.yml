@@ -38,15 +38,10 @@ jobs:
           fetch-depth: 0
           ref: main
 
-      - name: Setup yq
-        run: |
-          wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
-          chmod +x ./yq
-
       - name: Generate site data
         run: |
           mkdir -p web/public
-          ./yq eval -o=json '.' repos.yml > web/public/data.json
+          yq eval -o=json '.' repos.yml > web/public/data.json
           echo "Generated web/public/data.json"
 
       - name: Setup Node.js
@@ -70,7 +65,7 @@ jobs:
 
       - name: Ensure data.json exists in build output
         run: |
-          ./yq eval -o=json '.' repos.yml > docs/data.json
+          yq eval -o=json '.' repos.yml > docs/data.json
           echo "Regenerated docs/data.json after build"
 
       - name: Upload Pages artifact

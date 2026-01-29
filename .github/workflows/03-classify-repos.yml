@@ -37,10 +37,7 @@ jobs:
           done
 
       - name: Setup
-        run: |
-          mkdir -p .github-stars/data
-          wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
-          chmod +x ./yq
+        run: mkdir -p .github-stars/data
 
       - name: Prepare repos
         id: prep
@@ -56,7 +53,7 @@ jobs:
             }
             
             const yaml = fs.readFileSync('repos.yml', 'utf8');
-            const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
+            const json = execSync('yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
             const data = JSON.parse(json);
 
             const unclassified = data.repositories.filter(r => 
@@ -81,7 +78,7 @@ jobs:
               return text
                 .replace(/[\x00-\x1F\x7F]/g, '') // Remove control chars
                 .replace(/\s+/g, ' ') // Normalize whitespace
-                .replace(/[`'"]+/g, '') // Remove consecutive quotes that could break JSON
+                .replace(/(['"`])\1+/g, '$1') // Remove only consecutive duplicate quotes
                 .trim()
                 .slice(0, 500); // Limit length
             };
@@ -206,7 +203,7 @@ jobs:
             }
 
             const yaml = fs.readFileSync('repos.yml', 'utf8');
-            const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
+            const json = execSync('yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
             const data = JSON.parse(json);
 
             // Extract taxonomy for validation
@@ -265,7 +262,7 @@ jobs:
 
       - name: Convert to YAML
         if: steps.apply.outputs.count > 0
-        run: ./yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
+        run: yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
 
       - name: Cleanup
         if: always()
@@ -288,7 +285,7 @@ jobs:
             const { execSync } = require('child_process');
             
             const yaml = fs.readFileSync('repos.yml', 'utf8');
-            const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
+            const json = execSync('yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
             const data = JSON.parse(json);
             
             const allowedCategories = new Set(data.taxonomy?.categories_allowed || []);
@@ -355,7 +352,7 @@ jobs:
             const fs = require('fs');
             const { execSync } = require('child_process');
             const yaml = fs.readFileSync('repos.yml', 'utf8');
-            const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
+            const json = execSync('yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
             const data = JSON.parse(json);
             const remaining = data.repositories.filter(r => 
               r.categories.includes('unclassified') && (r.needs_review || !r.ai_classification?.classified_at)

@@ -27,10 +27,7 @@ jobs:
           fetch-depth: 0
           ref: main
 
-      - name: Setup yq
-        run: |
-          wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
-          chmod +x ./yq
+
 
       - name: Generate Content
         uses: actions/github-script@v7
@@ -46,7 +43,7 @@ jobs:
               return;
             }
             const yaml = fs.readFileSync('repos.yml', 'utf8');
-            const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
+            const json = execSync('yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
             const data = JSON.parse(json);
             const repos = data.repositories || [];
             
