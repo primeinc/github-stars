@@ -27,13 +27,10 @@ jobs:
           fetch-depth: 0
           ref: main
 
-      - name: Setup yq
-        run: |
-          wget -qO ./yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
-          chmod +x ./yq
+
 
       - name: Generate Content
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const fs = require('fs');
@@ -46,7 +43,8 @@ jobs:
               return;
             }
             const yaml = fs.readFileSync('repos.yml', 'utf8');
-            const json = execSync('./yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
+            // yq (mikefarah) pre-installed on ubuntu-latest since 2023
+            const json = execSync('yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
             const data = JSON.parse(json);
             const repos = data.repositories || [];
             
@@ -169,8 +167,9 @@ jobs:
               const existingFiles = fs.readdirSync(dir).filter(f => f.endsWith('.md'));
               const orphans = existingFiles.filter(f => !validFiles.has(f));
               orphans.forEach(f => {
-                console.log(`Removing orphaned file: ${dir}/${f}`);
-                fs.unlinkSync(path.join(dir, f));
+                const filePath = path.join(dir, f);
+                console.log(`Removing orphaned file: ${filePath}`);
+                fs.unlinkSync(filePath);
               });
               if (orphans.length > 0) {
                 console.log(`Cleaned up ${orphans.length} orphaned files from ${dir}/`);
