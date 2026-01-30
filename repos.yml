@@ -8,38 +8,112 @@ manifest_metadata:
 feature_flags:
   ai_sort: true
   ai_summarize_nondescript: true
-  batch_threshold: 10
+  batch_threshold: 50
   auto_merge: false
   archive_handling: separate-directory
   submodule_update_default: latest
   enable_submodule_updates: false
 taxonomy:
   categories_allowed:
-    - dev-tools
-    - ui-libraries
-    - frameworks
-    - databases
-    - productivity
-    - learning
-    - documentation
-    - automation
-    - testing
-    - deployment
-    - monitoring
-    - security
     - ai-ml
-    - data-science
-    - web-dev
-    - mobile-dev
-    - desktop-dev
-    - game-dev
-    - embedded
-    - networking
-    - system-admin
-    - cloud
-    - containers
+    - analytics
+    - ap-is
+    - api
     - apis
+    - audio
+    - audio-processing
+    - audio-processing-tools
+    - authentication
+    - authorization
+    - automation
+    - backend
+    - backup
+    - blockchain
+    - cli-tools
+    - cloud
+    - collaboration
+    - communication
+    - compliance
+    - computer-graphics
+    - computer-vision
+    - configuration
+    - containers
+    - cryptography
+    - data-science
+    - databases
+    - deep-learning
+    - deployment
+    - design
+    - desktop-dev
+    - dev-tools
+    - development
+    - devops
+    - distributed-systems
+    - documentation
+    - drivers
+    - drones
+    - edge-computing
+    - embedded
+    - finance
+    - fintech
+    - firmware
+    - frameworks
+    - frontend
+    - fullstack
+    - game-dev
+    - geospatial
+    - gis
+    - governance
+    - graphics
+    - hardware
+    - home-automation
+    - identity
+    - image-processing
+    - infrastructure
+    - iot
+    - learning
+    - libraries
+    - logging
+    - machine-learning
+    - mapping
+    - media
+    - media-streaming
+    - media-tools
+    - messaging
+    - microservices
+    - mobile-dev
+    - monitoring
+    - multimedia
+    - networking
+    - nlp
+    - observability
+    - orchestration
+    - performance
+    - privacy
+    - productivity
+    - protocols
+    - real-time
+    - robotics
+    - security
+    - serverless
+    - simulation
+    - smarthome
+    - specifications
+    - standards
+    - streaming
+    - system-admin
+    - testing
+    - tooling
+    - tracing
+    - ui-libraries
     - unclassified
+    - utilities
+    - video
+    - video-editing
+    - video-processing
+    - virtualization
+    - web-dev
+    - workflow
   tags_allowed:
     - name: rust
       description: Rust programming language projects
@@ -77,6 +151,180 @@ taxonomy:
       description: 'Language namespace: Python'
     - name: lang:go
       description: 'Language namespace: Go'
+    - name: lang:csharp
+      description: 'Language namespace: C#'
+    - name: lang:cpp
+      description: 'Language namespace: C++'
+    - name: lang:c
+      description: 'Language namespace: C'
+    - name: lang:php
+      description: 'Language namespace: PHP'
+    - name: lang:java
+      description: 'Language namespace: Java'
+    - name: lang:ruby
+      description: 'Language namespace: Ruby'
+    - name: lang:powershell
+      description: 'Language namespace: PowerShell'
+    - name: awesome-list
+      description: Curated lists of awesome resources
+    - name: llm
+      description: Large Language Models
+    - name: ai
+      description: Artificial Intelligence
+    - name: ai-agents
+      description: AI agent frameworks and tools
+    - name: ai-agent
+      description: AI agent projects
+    - name: ai-tools
+      description: Tools for AI development
+    - name: azure
+      description: Microsoft Azure cloud platform
+    - name: automation
+      description: Automation tools and scripts
+    - name: windows
+      description: Windows platform tools
+    - name: self-hosted
+      description: Self-hosted applications
+    - name: stable-diffusion
+      description: Stable Diffusion AI model
+    - name: deep-learning
+      description: Deep learning frameworks and tools
+    - name: nextjs
+      description: Next.js React framework
+    - name: powershell
+      description: PowerShell scripting
+    - name: resources
+      description: Learning resources and references
+    - name: ndi
+      description: Network Device Interface
+    - name: machine-learning
+      description: Machine learning tools and frameworks
+    - name: privacy
+      description: Privacy-focused tools
+    - name: streaming
+      description: Streaming media tools
+    - name: developer-tools
+      description: Developer productivity tools
+    - name: chatgpt
+      description: ChatGPT related projects
+    - name: tailwindcss
+      description: Tailwind CSS framework
+    - name: mcp
+      description: Model Context Protocol
+    - name: llms
+      description: Multiple Large Language Models
+    - name: gui
+      description: Graphical User Interface
+    - name: dashboard
+      description: Dashboard and visualization tools
+    - name: computer-vision
+      description: Computer vision projects
+    - name: agents
+      description: Agent-based systems
+    - name: tauri
+      description: Tauri desktop framework
+    - name: open-source
+      description: Open source projects
+    - name: encryption
+      description: Encryption and cryptography
+    - name: workflow
+      description: Workflow automation
+    - name: ui
+      description: User Interface components
+    - name: osint
+      description: Open Source Intelligence
+    - name: openai
+      description: OpenAI API and tools
+    - name: markdown
+      description: Markdown tools and editors
+    - name: image-processing
+      description: Image processing tools
+    - name: generative-ai
+      description: Generative AI tools
+    - name: electron
+      description: Electron desktop framework
+    - name: authentication
+      description: Authentication and auth systems
+    - name: pytorch
+      description: PyTorch machine learning
+    - name: nodejs
+      description: Node.js runtime
+    - name: laravel
+      description: Laravel PHP framework
+    - name: bicep
+      description: Azure Bicep IaC
+    - name: api
+      description: API tools and libraries
+    - name: ssh
+      description: SSH tools and utilities
+    - name: scripts
+      description: Utility scripts
+    - name: real-estate
+      description: Real estate applications
+    - name: php
+      description: PHP programming
+    - name: linux
+      description: Linux platform tools
+    - name: shell
+      description: Shell scripting
+    - name: sdk
+      description: Software Development Kits
+    - name: obs-studio
+      description: OBS Studio plugins and tools
+    - name: macos
+      description: macOS platform tools
+    - name: intune
+      description: Microsoft Intune management
+    - name: high-performance
+      description: High performance computing
+    - name: customization
+      description: Customization tools
+    - name: awesome
+      description: Awesome lists
+    - name: visualization
+      description: Data visualization tools
+    - name: video-generation
+      description: Video generation AI
+    - name: realtime
+      description: Real-time applications
+    - name: gpt
+      description: GPT models and tools
+    - name: dotnet
+      description: .NET framework
+    - name: youtube
+      description: YouTube tools
+    - name: web-scraping
+      description: Web scraping tools
+    - name: video
+      description: Video tools
+    - name: ui-components
+      description: UI component libraries
+    - name: template
+      description: Templates and boilerplates
+    - name: prompt-engineering
+      description: Prompt engineering tools
+    - name: object-detection
+      description: Object detection AI
+    - name: home-assistant
+      description: Home Assistant integrations
+    - name: graphql
+      description: GraphQL APIs
+    - name: frontend
+      description: Frontend development
+    - name: fluent-design
+      description: Microsoft Fluent Design
+    - name: file-management
+      description: File management tools
+    - name: design-system
+      description: Design systems
+    - name: components
+      description: Component libraries
+    - name: browser-extension
+      description: Browser extensions
+    - name: best-practices
+      description: Best practices and patterns
+    - name: android
+      description: Android platform development
   frameworks_allowed:
     - react
     - vue
@@ -84,6 +332,7 @@ taxonomy:
     - svelte
     - nextjs
     - nuxtjs
+    - nestjs
     - express
     - fastapi
     - django
