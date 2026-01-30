@@ -6,7 +6,7 @@ on:
       batch_limit:
         description: 'Repos per batch'
         type: number
-        default: 15
+        default: 50
   workflow_run:
     workflows: ["02-Sync Starred Repos"]
     types:
@@ -19,7 +19,7 @@ permissions:
   actions: write
 
 env:
-  BATCH_LIMIT: ${{ inputs.batch_limit || 15 }}
+  BATCH_LIMIT: ${{ inputs.batch_limit || 50 }}
 
 jobs:
   classify:
