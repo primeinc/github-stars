@@ -118,7 +118,8 @@ has_shell_extension() {
 has_shell_shebang() {
   local content="$1"
   local first_line
-  first_line=$(echo "$content" | head -n 1)
+  # Use parameter expansion to get first line (avoids broken pipe with head)
+  first_line="${content%%$'\n'*}"
   
   # Match shell shebangs
   case "$first_line" in
