@@ -1,0 +1,27 @@
+# Code Owners for github-stars repository
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# IMPORTANT: This file defines code ownership for routing purposes only.
+# Branch protection rules must be configured separately in GitHub Settings.
+# Do NOT rely on "Require review from Code Owners" without explicit branch rules.
+
+# Global ownership (default)
+# Replace @REPLACE_ME_OWNER with actual GitHub username or team
+*       @REPLACE_ME_OWNER
+
+# GitHub Actions workflows and configuration
+.github/*       @REPLACE_ME_OWNER
+
+# Scripts (especially security-sensitive shell scripts)
+scripts/*       @REPLACE_ME_OWNER
+
+# Security policy
+SECURITY.md     @REPLACE_ME_SECURITY
+
+# Schema and core data files
+schemas/*       @REPLACE_ME_OWNER
+repos.yml       @REPLACE_ME_OWNER
+
+# Documentation
+docs/*          @REPLACE_ME_OWNER
+*.md            @REPLACE_ME_OWNER

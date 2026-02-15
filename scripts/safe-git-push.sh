@@ -35,7 +35,7 @@ for attempt in $(seq 1 $MAX_RETRIES); do
     echo "=========================================="
     exit 0
   else
-    if [ $attempt -lt $MAX_RETRIES ]; then
+    if [ "$attempt" -lt "$MAX_RETRIES" ]; then
       # Exponential backoff: 2^attempt seconds
       wait_time=$((2 ** attempt))
       echo "⚠️  Push failed, waiting ${wait_time}s before retry $((attempt + 1))..."

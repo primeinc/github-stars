@@ -5,6 +5,9 @@
 pre-commit:
   parallel: true
   commands:
+    shellcheck-staged:
+      run: scripts/lint/shellcheck_repo.sh --mode=staged
+      
     validate-repos-yaml:
       glob: "repos.yml"
       run: |
@@ -69,6 +72,9 @@ pre-commit:
 pre-push:
   parallel: true
   commands:
+    shellcheck-all:
+      run: scripts/lint/shellcheck_repo.sh --mode=all
+      
     final-validation:
       run: |
         echo "Running final validation before push..."

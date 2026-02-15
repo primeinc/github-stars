@@ -1,0 +1,8 @@
+# ShellCheck configuration for github-stars repository
+# This file enables external sources and sets source path for -x option
+
+# Enable following external sources (required for -x)
+external-sources=true
+
+# Set source path to script directory for source resolution
+source-path=SCRIPTDIR
