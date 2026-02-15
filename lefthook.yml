@@ -1,0 +1,106 @@
+# Lefthook configuration for GitHub Stars repository
+# Prevents invalid changes from being committed
+# Install: lefthook install
+
+pre-commit:
+  parallel: true
+  commands:
+    shellcheck-staged:
+      run: scripts/lint/shellcheck_repo.sh --mode=staged
+      
+    validate-repos-yaml:
+      glob: "repos.yml"
+      run: |
+        echo "Validating repos.yml against schema..."
+        if ! command -v ajv > /dev/null 2>&1; then
+          echo "❌ ERROR: ajv-cli is REQUIRED for schema validation"
+          echo "Install: npm install -g ajv-cli ajv-formats"
+          echo "See CONTRIBUTING.md for setup instructions"
+          exit 1
+        fi
+        echo "Running strict schema validation..."
+        if ajv validate -s schemas/repos-schema.json -d repos.yml -c ajv-formats; then
+          echo "✅ repos.yml is valid"
+        else
+          echo "❌ repos.yml validation failed"
+          exit 1
+        fi
+
+    validate-schema-json:
+      glob: "schemas/*.json"
+      run: |
+        echo "Validating JSON schemas..."
+        if ! command -v jq > /dev/null 2>&1; then
+          echo "❌ ERROR: jq is REQUIRED for JSON validation"
+          echo "Install: sudo apt-get install jq (Ubuntu) or brew install jq (macOS)"
+          echo "See CONTRIBUTING.md for setup instructions"
+          exit 1
+        fi
+        for file in schemas/*.json; do
+          echo "  Checking $file..."
+          if ! jq empty "$file" 2>/dev/null; then
+            echo "❌ Invalid JSON in $file"
+            exit 1
+          fi
+        done
+        echo "✅ All schemas are valid JSON"
+
+    check-workflow-syntax:
+      glob: ".github/workflows/*.{yml,yaml}"
+      run: |
+        echo "Checking workflow YAML syntax..."
+        if ! command -v yq > /dev/null 2>&1; then
+          echo "❌ ERROR: yq is REQUIRED for YAML validation"
+          echo "Install: sudo apt-get install yq (Ubuntu) or brew install yq (macOS)"
+          echo "See CONTRIBUTING.md for setup instructions"
+          exit 1
+        fi
+        for file in .github/workflows/*.yml .github/workflows/*.yaml; do
+          [ -f "$file" ] || continue
+          echo "  Checking $file..."
+          # Redirect stdout to reduce noise; show errors only on failure
+          if ! yq eval '.' "$file" > /dev/null 2>&1; then
+            echo "❌ Invalid YAML syntax in $file"
+            # Re-run without redirection to show the actual error
+            yq eval '.' "$file" 2>&1 || true
+            exit 1
+          fi
+        done
+        echo "✅ All workflow files have valid YAML syntax"
+
+    check-no-merge-conflicts:
+      run: |
+        echo "Checking for merge conflict markers..."
+        # Use NUL-delimited safe pipeline to handle filenames with spaces/newlines
+        if git diff --cached --name-only -z | xargs -0 -r grep -l "^<<<<<<< \|^=======\|^>>>>>>> " 2>/dev/null; then
+          echo "❌ Merge conflict markers found"
+          exit 1
+        fi
+        echo "✅ No merge conflict markers found"
+
+pre-push:
+  parallel: true
+  commands:
+    shellcheck-all:
+      run: scripts/lint/shellcheck_repo.sh --mode=all
+      
+    final-validation:
+      run: |
+        echo "Running final validation before push..."
+        if [ -f "repos.yml" ]; then
+          if ! command -v yq > /dev/null 2>&1; then
+            echo "❌ ERROR: yq is REQUIRED for YAML validation"
+            echo "Install: sudo apt-get install yq (Ubuntu) or brew install yq (macOS)"
+            echo "See CONTRIBUTING.md for setup instructions"
+            exit 1
+          fi
+          echo "  Validating repos.yml can be parsed..."
+          if yq eval '.' repos.yml > /dev/null 2>&1; then
+            echo "✅ repos.yml is valid"
+          else
+            echo "❌ repos.yml has syntax errors:"
+            yq eval '.' repos.yml 2>&1 || true
+            exit 1
+          fi
+        fi
+        echo "✅ Final validation passed"
