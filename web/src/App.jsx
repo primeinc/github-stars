@@ -187,7 +187,6 @@ function AppContent() {
             value={sortBy} 
             onChange={e => setSortBy(e.target.value)}
             className={styles.sortSelect}
-            style={{ padding: '0.5rem', borderRadius: '4px', background: 'var(--bg-secondary)', color: 'var(--text-primary)', border: '1px solid var(--border-color)' }}
           >
             <option value="starred">Recently Starred</option>
             <option value="stars">Most Stars</option>
