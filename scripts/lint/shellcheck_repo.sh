@@ -169,18 +169,8 @@ if [ "$MODE" = "all" ]; then
 
 elif [ "$MODE" = "staged" ]; then
   # Mode: staged - scan staged files from git index
-  while IFS= read -r -d '' line; do
-    # Parse diff output: status<TAB>path or status<TAB>oldpath<TAB>newpath
-    status="${line%%$'\t'*}"
-    rest="${line#*$'\t'}"
-    
-    # For renames/copies, use the new path (second path)
-    if [[ "$status" =~ ^[RC] ]]; then
-      path="${rest#*$'\t'}"
-    else
-      path="$rest"
-    fi
-    
+  # Use --name-only to get just the new paths (handles renames/copies correctly)
+  while IFS= read -r -d '' path; do
     # Skip junk paths
     if should_skip "$path"; then
       continue
@@ -199,7 +189,7 @@ elif [ "$MODE" = "staged" ]; then
         TARGET_FILES["$path"]=1
       fi
     fi
-  done < <(git diff --cached --name-status -z --diff-filter=ACMR)
+  done < <(git diff --cached --name-only -z --diff-filter=ACMR)
 fi
 
 # Get sorted list of target files (deterministic ordering)

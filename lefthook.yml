@@ -58,8 +58,11 @@ pre-commit:
         for file in .github/workflows/*.yml .github/workflows/*.yaml; do
           [ -f "$file" ] || continue
           echo "  Checking $file..."
-          if ! yq eval '.' "$file"; then
+          # Redirect stdout to reduce noise; show errors only on failure
+          if ! yq eval '.' "$file" > /dev/null 2>&1; then
             echo "❌ Invalid YAML syntax in $file"
+            # Re-run without redirection to show the actual error
+            yq eval '.' "$file" 2>&1 || true
             exit 1
           fi
         done

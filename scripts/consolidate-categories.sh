@@ -70,16 +70,19 @@ PYTHON_SCRIPT
 
 # Validate the result
 echo "🔍 Validating consolidated manifest..."
-# Capture both stdout and stderr for validation
-VALIDATION_OUTPUT=$(yq eval '.' repos.yml 2>&1)
+# Temporarily disable errexit to handle validation failure properly
+set +e
+yq eval '.' repos.yml > /dev/null 2>&1
 VALIDATION_EXIT=$?
+set -e
 
 if [ $VALIDATION_EXIT -eq 0 ]; then
   echo "✅ YAML syntax is valid"
 else
   echo "❌ YAML syntax error - restoring backup"
   echo "Error details:"
-  echo "$VALIDATION_OUTPUT"
+  # Show the actual error by running yq again
+  yq eval '.' repos.yml 2>&1 || true
   mv repos.yml.backup repos.yml
   exit 1
 fi

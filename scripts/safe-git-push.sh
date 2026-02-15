@@ -2,7 +2,7 @@
 # Safe git push with exponential backoff and conflict detection
 # Usage: ./safe-git-push.sh [branch_name]
 
-set -e
+set -eo pipefail
 
 BRANCH="${1:-main}"
 MAX_RETRIES=5
@@ -19,10 +19,12 @@ for attempt in $(seq 1 $MAX_RETRIES); do
   echo "Attempt $attempt/$MAX_RETRIES..."
   
   # Pull with rebase (no autostash to avoid silent data loss)
+  # pipefail ensures we detect git pull failures, not just tee failures
   if git pull --rebase origin "$BRANCH" 2>&1 | tee "$PULL_LOG"; then
     echo "✅ Pull successful"
   else
-    if grep -q "conflict" "$PULL_LOG"; then
+    # Case-insensitive conflict detection (git outputs "CONFLICT" in uppercase)
+    if grep -qi "conflict" "$PULL_LOG"; then
       echo "❌ CONFLICT detected during rebase"
       echo "This should not happen in automated workflows!"
       git rebase --abort || true
