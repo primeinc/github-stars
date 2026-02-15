@@ -6,20 +6,31 @@ Thank you for your interest in contributing to the GitHub Stars curation system!
 
 ### Prerequisites
 
-This repository uses GitHub Actions for automation. For local development and validation, you'll need:
+**⚠️ IMPORTANT:** The following tools are **REQUIRED** (not optional). Pre-commit hooks will **fail** if they are not installed.
 
-- **Git** (for version control)
-- **[yq](https://github.com/mikefarah/yq)** (v4+) - YAML processor
-- **[jq](https://stedolan.github.io/jq/)** - JSON processor
-- **[Lefthook](https://github.com/evilmartians/lefthook)** (optional but recommended) - Git hooks manager
-- **[ajv-cli](https://github.com/ajv-validator/ajv-cli)** (optional) - JSON Schema validator
+#### Required Tools
+
+This repository uses GitHub Actions for automation. For local development and validation, you **MUST** install:
+
+1. **Git** (for version control)
+2. **[yq](https://github.com/mikefarah/yq)** (v4+) - YAML processor (REQUIRED)
+3. **[jq](https://stedolan.github.io/jq/)** - JSON processor (REQUIRED)
+4. **[Lefthook](https://github.com/evilmartians/lefthook)** - Git hooks manager (REQUIRED)
+5. **[ajv-cli](https://github.com/ajv-validator/ajv-cli)** - JSON Schema validator (REQUIRED)
+6. **[ShellCheck](https://www.shellcheck.net/)** - Shell script linter (REQUIRED)
+
+**Why these tools are required:**
+- Pre-commit hooks validate your changes **before** they're committed
+- Catches issues early, before they reach CI
+- Enforces code quality and prevents broken commits
+- **Without these tools, your commits will be rejected locally**
 
 ### Installation
 
 #### macOS
 
 ```bash
-brew install yq jq lefthook
+brew install yq jq lefthook shellcheck
 npm install -g ajv-cli
 ```
 
@@ -30,14 +41,14 @@ npm install -g ajv-cli
 sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
 sudo chmod +x /usr/local/bin/yq
 
-# Install jq
-sudo apt-get install jq
+# Install jq and shellcheck
+sudo apt-get install -y jq shellcheck
 
 # Install lefthook
 curl -fsSL https://github.com/evilmartians/lefthook/releases/latest/download/lefthook_linux_amd64 -o /usr/local/bin/lefthook
 chmod +x /usr/local/bin/lefthook
 
-# Install ajv-cli
+# Install ajv-cli (requires Node.js)
 npm install -g ajv-cli
 ```
 
@@ -45,32 +56,35 @@ npm install -g ajv-cli
 
 ```powershell
 # Using Chocolatey
-choco install yq jq
+choco install yq jq shellcheck
 
 # Using Scoop
-scoop install yq jq
+scoop install yq jq shellcheck
 
 # Install lefthook
 scoop install lefthook
 
-# Install ajv-cli
+# Install ajv-cli (requires Node.js)
 npm install -g ajv-cli
 ```
 
 ### Setting Up Git Hooks
 
-After cloning the repository, install the Git hooks:
+After cloning the repository and installing the required tools, install the Git hooks:
 
 ```bash
 cd github-stars
 lefthook install
 ```
 
-This will set up pre-commit hooks that:
-- Validate `repos.yml` against the JSON schema
-- Check YAML and JSON syntax
+**This step is REQUIRED.** The pre-commit hooks will:
+- Validate `repos.yml` against the JSON schema (strict mode)
+- Validate shell scripts with ShellCheck
+- Check YAML and JSON syntax (shows all errors)
 - Prevent merge conflict markers from being committed
 - Validate workflow files
+
+**Note:** If any required tool is missing, the hooks will **fail with an error** and tell you how to install it. This is intentional - we enforce validation locally to catch issues before they reach CI.
 
 ## Repository Structure
 

@@ -133,6 +133,28 @@ jobs:
           fi
           echo "✅ All workflow files validated"
 
+      - name: Validate CODEOWNERS has no placeholders
+        run: |
+          echo "Checking CODEOWNERS for placeholders..."
+          if [ -f ".github/CODEOWNERS" ]; then
+            if grep -q "TODO_REPLACE_WITH\|REPLACE_ME" .github/CODEOWNERS; then
+              echo "❌ CODEOWNERS still contains placeholders"
+              echo ""
+              echo "Found placeholders:"
+              grep -n "TODO_REPLACE_WITH\|REPLACE_ME" .github/CODEOWNERS || true
+              echo ""
+              echo "Please replace:"
+              echo "  TODO_REPLACE_WITH_OWNER → actual GitHub username or team"
+              echo "  TODO_REPLACE_WITH_SECURITY → actual security contact"
+              echo ""
+              echo "See docs/SECURITY_TOOLING_IMPLEMENTATION.md for instructions"
+              exit 1
+            fi
+            echo "✅ CODEOWNERS validated"
+          else
+            echo "⚠️  CODEOWNERS not found (optional file)"
+          fi
+
       - name: Check taxonomy consistency
         uses: actions/github-script@v8
         with:

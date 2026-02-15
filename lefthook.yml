@@ -12,10 +12,11 @@ pre-commit:
       glob: "repos.yml"
       run: |
         echo "Validating repos.yml against schema..."
-        if ! command -v ajv &> /dev/null; then
-          echo "⚠️  Warning: ajv-cli not installed. Install with: npm install -g ajv-cli"
-          echo "Skipping schema validation..."
-          exit 0
+        if ! command -v ajv > /dev/null 2>&1; then
+          echo "❌ ERROR: ajv-cli is REQUIRED for schema validation"
+          echo "Install: npm install -g ajv-cli"
+          echo "See CONTRIBUTING.md for setup instructions"
+          exit 1
         fi
         echo "Running strict schema validation..."
         if ajv validate -s schemas/repos-schema.json -d repos.yml; then
@@ -29,11 +30,13 @@ pre-commit:
       glob: "schemas/*.json"
       run: |
         echo "Validating JSON schemas..."
+        if ! command -v jq > /dev/null 2>&1; then
+          echo "❌ ERROR: jq is REQUIRED for JSON validation"
+          echo "Install: sudo apt-get install jq (Ubuntu) or brew install jq (macOS)"
+          echo "See CONTRIBUTING.md for setup instructions"
+          exit 1
+        fi
         for file in schemas/*.json; do
-          if ! command -v jq &> /dev/null; then
-            echo "⚠️  Warning: jq not installed. Skipping JSON validation..."
-            exit 0
-          fi
           echo "  Checking $file..."
           if ! jq empty "$file" 2>/dev/null; then
             echo "❌ Invalid JSON in $file"
@@ -46,12 +49,14 @@ pre-commit:
       glob: ".github/workflows/*.{yml,yaml}"
       run: |
         echo "Checking workflow YAML syntax..."
+        if ! command -v yq > /dev/null 2>&1; then
+          echo "❌ ERROR: yq is REQUIRED for YAML validation"
+          echo "Install: sudo apt-get install yq (Ubuntu) or brew install yq (macOS)"
+          echo "See CONTRIBUTING.md for setup instructions"
+          exit 1
+        fi
         for file in .github/workflows/*.yml .github/workflows/*.yaml; do
           [ -f "$file" ] || continue
-          if ! command -v yq &> /dev/null; then
-            echo "⚠️  Warning: yq not installed. Skipping YAML validation..."
-            exit 0
-          fi
           echo "  Checking $file..."
           if ! yq eval '.' "$file"; then
             echo "❌ Invalid YAML syntax in $file"
@@ -79,14 +84,18 @@ pre-push:
       run: |
         echo "Running final validation before push..."
         if [ -f "repos.yml" ]; then
-          if command -v yq &> /dev/null; then
-            echo "  Validating repos.yml can be parsed..."
-            if yq eval '.' repos.yml; then
-              echo "✅ repos.yml is valid"
-            else
-              echo "❌ repos.yml has syntax errors"
-              exit 1
-            fi
+          if ! command -v yq > /dev/null 2>&1; then
+            echo "❌ ERROR: yq is REQUIRED for YAML validation"
+            echo "Install: sudo apt-get install yq (Ubuntu) or brew install yq (macOS)"
+            echo "See CONTRIBUTING.md for setup instructions"
+            exit 1
+          fi
+          echo "  Validating repos.yml can be parsed..."
+          if yq eval '.' repos.yml; then
+            echo "✅ repos.yml is valid"
+          else
+            echo "❌ repos.yml has syntax errors"
+            exit 1
           fi
         fi
         echo "✅ Final validation passed"
