@@ -207,8 +207,8 @@ TARGET_LIST=()
 for path in "${!TARGET_FILES[@]}"; do
   TARGET_LIST+=("$path")
 done
-IFS=$'\n' TARGET_LIST=($(sort <<<"${TARGET_LIST[*]}"))
-unset IFS
+# Sort and deduplicate using mapfile (avoids SC2207)
+mapfile -t TARGET_LIST < <(printf '%s\n' "${TARGET_LIST[@]}" | sort -u)
 
 FILE_COUNT=${#TARGET_LIST[@]}
 

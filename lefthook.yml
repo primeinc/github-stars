@@ -14,12 +14,12 @@ pre-commit:
         echo "Validating repos.yml against schema..."
         if ! command -v ajv > /dev/null 2>&1; then
           echo "❌ ERROR: ajv-cli is REQUIRED for schema validation"
-          echo "Install: npm install -g ajv-cli"
+          echo "Install: npm install -g ajv-cli ajv-formats"
           echo "See CONTRIBUTING.md for setup instructions"
           exit 1
         fi
         echo "Running strict schema validation..."
-        if ajv validate -s schemas/repos-schema.json -d repos.yml; then
+        if ajv validate -s schemas/repos-schema.json -d repos.yml -c ajv-formats; then
           echo "✅ repos.yml is valid"
         else
           echo "❌ repos.yml validation failed"
@@ -91,10 +91,11 @@ pre-push:
             exit 1
           fi
           echo "  Validating repos.yml can be parsed..."
-          if yq eval '.' repos.yml; then
+          if yq eval '.' repos.yml > /dev/null 2>&1; then
             echo "✅ repos.yml is valid"
           else
-            echo "❌ repos.yml has syntax errors"
+            echo "❌ repos.yml has syntax errors:"
+            yq eval '.' repos.yml 2>&1 || true
             exit 1
           fi
         fi

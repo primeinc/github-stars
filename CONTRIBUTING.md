@@ -31,7 +31,7 @@ This repository uses GitHub Actions for automation. For local development and va
 
 ```bash
 brew install yq jq lefthook shellcheck
-npm install -g ajv-cli
+npm install -g ajv-cli ajv-formats
 ```
 
 #### Linux (Ubuntu/Debian)
@@ -49,7 +49,7 @@ curl -fsSL https://github.com/evilmartians/lefthook/releases/latest/download/lef
 chmod +x /usr/local/bin/lefthook
 
 # Install ajv-cli (requires Node.js)
-npm install -g ajv-cli
+npm install -g ajv-cli ajv-formats
 ```
 
 #### Windows
@@ -65,7 +65,7 @@ scoop install yq jq shellcheck
 scoop install lefthook
 
 # Install ajv-cli (requires Node.js)
-npm install -g ajv-cli
+npm install -g ajv-cli ajv-formats
 ```
 
 ### Setting Up Git Hooks

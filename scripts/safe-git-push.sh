@@ -11,14 +11,18 @@ echo "=========================================="
 echo "Safe Git Push to $BRANCH"
 echo "=========================================="
 
+# Create unique temporary log file once (outside loop) with trap for cleanup
+PULL_LOG=$(mktemp)
+trap 'rm -f "$PULL_LOG"' EXIT
+
 for attempt in $(seq 1 $MAX_RETRIES); do
   echo "Attempt $attempt/$MAX_RETRIES..."
   
   # Pull with rebase (no autostash to avoid silent data loss)
-  if git pull --rebase origin "$BRANCH" 2>&1 | tee /tmp/git-pull.log; then
+  if git pull --rebase origin "$BRANCH" 2>&1 | tee "$PULL_LOG"; then
     echo "✅ Pull successful"
   else
-    if grep -q "conflict" /tmp/git-pull.log; then
+    if grep -q "conflict" "$PULL_LOG"; then
       echo "❌ CONFLICT detected during rebase"
       echo "This should not happen in automated workflows!"
       git rebase --abort || true

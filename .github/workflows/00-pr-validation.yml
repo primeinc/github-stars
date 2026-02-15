@@ -9,12 +9,15 @@ on:
       - 'repos.yml'
       - 'schemas/**'
       - '.github/workflows/**'
+      - '.github/CODEOWNERS'
   push:
     branches:
       - main
     paths:
       - 'repos.yml'
       - 'schemas/**'
+      - '.github/workflows/**'
+      - '.github/CODEOWNERS'
 
 permissions:
   contents: read
@@ -44,18 +47,22 @@ jobs:
       - name: Validate repos.yml syntax
         run: |
           echo "Validating repos.yml YAML syntax..."
-          if ! yq eval '.' repos.yml; then
+          if ! yq eval '.' repos.yml > /dev/null 2>&1; then
             echo "❌ repos.yml has invalid YAML syntax"
+            echo "Detailed error:"
+            yq eval '.' repos.yml 2>&1 || true
             exit 1
           fi
           echo "✅ repos.yml has valid YAML syntax"
 
+      - name: Install validation tools
+        run: npm install -g ajv-cli ajv-formats
+      
       - name: Validate repos.yml against schema
-        uses: cardinalby/schema-validator-action@v3
-        with:
-          schema: 'schemas/repos-schema.json'
-          file: 'repos.yml'
-          mode: 'lax'
+        run: |
+          echo "Validating repos.yml against schema..."
+          ajv validate -s schemas/repos-schema.json -d repos.yml -c ajv-formats
+          echo "✅ repos.yml conforms to schema"
 
       - name: Check for duplicate categories
         uses: actions/github-script@v8

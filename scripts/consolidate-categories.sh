@@ -55,8 +55,9 @@ for repo in data.get('repositories', []):
 
 # Update metadata
 if 'manifest_metadata' in data:
-    from datetime import datetime
-    data['manifest_metadata']['manifest_updated_at'] = datetime.utcnow().isoformat() + 'Z'
+    from datetime import datetime, timezone
+    # Use strftime for predictable ISO 8601 format
+    data['manifest_metadata']['manifest_updated_at'] = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
     # Note: generator_version bumped to v1.1.0 to indicate category consolidation
     data['manifest_metadata']['generator_version'] = 'v1.1.0'
 
@@ -69,10 +70,16 @@ PYTHON_SCRIPT
 
 # Validate the result
 echo "🔍 Validating consolidated manifest..."
-if yq eval '.' repos.yml; then
+# Capture both stdout and stderr for validation
+VALIDATION_OUTPUT=$(yq eval '.' repos.yml 2>&1)
+VALIDATION_EXIT=$?
+
+if [ $VALIDATION_EXIT -eq 0 ]; then
   echo "✅ YAML syntax is valid"
 else
   echo "❌ YAML syntax error - restoring backup"
+  echo "Error details:"
+  echo "$VALIDATION_OUTPUT"
   mv repos.yml.backup repos.yml
   exit 1
 fi
