@@ -89,11 +89,11 @@ fi
 
 # Check for remaining invalid categories
 api_count=$(yq eval '[.repositories[].categories[]] | map(select(. == "api")) | length' repos.yml 2>/dev/null || echo 0)
-apis_count=$(yq eval '[.repositories[].categories[]] | map(select(. == "ap-is")) | length' repos.yml 2>/dev/null || echo 0)
+ap_is_count=$(yq eval '[.repositories[].categories[]] | map(select(. == "ap-is")) | length' repos.yml 2>/dev/null || echo 0)
 
-if [ "$api_count" -gt 0 ] || [ "$apis_count" -gt 0 ]; then
+if [ "$api_count" -gt 0 ] || [ "$ap_is_count" -gt 0 ]; then
   echo "⚠️  Warning: Some 'api' or 'ap-is' categories still remain"
-  echo "   api: $api_count, ap-is: $apis_count"
+  echo "   api: $api_count, ap-is: $ap_is_count"
 fi
 
 # Count consolidated results

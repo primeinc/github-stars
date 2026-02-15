@@ -13,8 +13,9 @@
    - Enables external sources (`external-sources=true`)
    - Sets source path for -x option (`source-path=SCRIPTDIR`)
 
-2. **`shellcheckrc`** - Symlink to `.shellcheckrc`
-   - Snap compatibility (Snap cannot read hidden dotfiles)
+2. **`shellcheckrc`** - Symlink to `.shellcheckrc` for Snap compatibility
+   - Snap installations cannot read hidden dotfiles
+   - This symlink allows Snap-installed ShellCheck to find the config
 
 ### Shell Scripts (1 file)
 3. **`scripts/lint/shellcheck_repo.sh`** - ShellCheck driver script (executable)
@@ -62,7 +63,7 @@
    - Response timeline and disclosure policy
 
 10. **`.github/CODEOWNERS`** - Code ownership routing
-    - Placeholders: @REPLACE_ME_OWNER, @REPLACE_ME_SECURITY
+    - Current owner: @primeinc (update via future PRs if ownership changes)
     - Covers: root, .github, scripts, SECURITY.md, schemas, repos.yml
     - Note: Routing only, NOT enforcement (requires separate branch rules)
 

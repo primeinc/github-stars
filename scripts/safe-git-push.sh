@@ -30,11 +30,19 @@ for attempt in $(seq 1 $MAX_RETRIES); do
       git rebase --abort || true
       exit 1
     else
-      echo "⚠️  Pull failed, will retry"
+      echo "⚠️  Pull failed (non-conflict), will retry with backoff"
+      # Don't attempt to push after failed pull - continue to next retry attempt
+      if [ "$attempt" -lt "$MAX_RETRIES" ]; then
+        # Exponential backoff: 2^attempt seconds
+        wait_time=$((2 ** attempt))
+        echo "Waiting ${wait_time}s before retry ${attempt}/${MAX_RETRIES}..."
+        sleep "$wait_time"
+      fi
+      continue
     fi
   fi
   
-  # Try to push
+  # Try to push (only reached if pull succeeded)
   if git push origin "$BRANCH"; then
     echo "=========================================="
     echo "✅ Push successful on attempt $attempt"

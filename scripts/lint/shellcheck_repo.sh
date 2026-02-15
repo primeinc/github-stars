@@ -1,8 +1,18 @@
 #!/usr/bin/env bash
 # ShellCheck repository scanner
 # Deterministic, git-safe, mode-aware shell script linter
+# Requires: Bash 4+ (for associative arrays)
 
 set -euo pipefail
+
+# Check Bash version (need 4.0+ for associative arrays)
+if [ "${BASH_VERSINFO[0]}" -lt 4 ]; then
+  echo "❌ ERROR: This script requires Bash 4.0 or higher" >&2
+  echo "   Current version: $BASH_VERSION" >&2
+  echo "   On macOS, install with: brew install bash" >&2
+  echo "   Then use: /usr/local/bin/bash or /opt/homebrew/bin/bash" >&2
+  exit 1
+fi
 
 # Usage information
 usage() {

@@ -71,7 +71,8 @@ pre-commit:
     check-no-merge-conflicts:
       run: |
         echo "Checking for merge conflict markers..."
-        if git diff --cached --name-only | xargs grep -l "^<<<<<<< \|^=======\|^>>>>>>> " 2>/dev/null; then
+        # Use NUL-delimited safe pipeline to handle filenames with spaces/newlines
+        if git diff --cached --name-only -z | xargs -0 -r grep -l "^<<<<<<< \|^=======\|^>>>>>>> " 2>/dev/null; then
           echo "❌ Merge conflict markers found"
           exit 1
         fi
