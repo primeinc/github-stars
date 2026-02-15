@@ -12,13 +12,15 @@ permissions:
   contents: write
   issues: write
 
+# Ensure only one instance runs at a time
 concurrency:
-  group: sync-stars-${{ github.ref }}
+  group: sync-stars
   cancel-in-progress: false
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+    # Run on all branches for validation, but only commit from main
     if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
 
     steps:
@@ -211,6 +213,26 @@ jobs:
       - name: Commit changes
         if: steps.diff.outputs.changed == 'true'
         run: |
+          CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+          
+          if [ "$CURRENT_BRANCH" != "main" ]; then
+            echo "=========================================="
+            echo "⚠️  VALIDATION MODE (branch: $CURRENT_BRANCH)"
+            echo "=========================================="
+            echo "✅ Workflow executed successfully"
+            echo "✅ Changes validated (would add ${{ steps.diff.outputs.total_new }} repos)"
+            echo "❌ Skipping commit (not on main branch)"
+            echo ""
+            echo "This prevents data corruption while allowing PR validation."
+            echo "=========================================="
+            exit 0
+          fi
+          
+          echo "=========================================="
+          echo "✅ PRODUCTION MODE (branch: main)"
+          echo "=========================================="
+          echo "Committing ${{ steps.diff.outputs.total_new }} new repositories to main branch..."
+          
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add repos.yml
@@ -219,3 +241,5 @@ jobs:
             git pull --rebase --autostash origin main
             git push && break || sleep 10
           done
+          echo "✅ Changes committed and pushed"
+          echo "=========================================="

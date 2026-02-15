@@ -1,0 +1,85 @@
+# Lefthook configuration for GitHub Stars repository
+# Prevents invalid changes from being committed
+# Install: lefthook install
+
+pre-commit:
+  parallel: true
+  commands:
+    validate-repos-yaml:
+      glob: "repos.yml"
+      run: |
+        echo "Validating repos.yml against schema..."
+        if ! command -v ajv &> /dev/null; then
+          echo "⚠️  Warning: ajv-cli not installed. Install with: npm install -g ajv-cli"
+          echo "Skipping schema validation..."
+          exit 0
+        fi
+        ajv validate -s schemas/repos-schema.json -d repos.yml --strict=false
+        if [ $? -eq 0 ]; then
+          echo "✅ repos.yml is valid"
+        else
+          echo "❌ repos.yml validation failed"
+          exit 1
+        fi
+
+    validate-schema-json:
+      glob: "schemas/*.json"
+      run: |
+        echo "Validating JSON schemas..."
+        for file in schemas/*.json; do
+          if ! command -v jq &> /dev/null; then
+            echo "⚠️  Warning: jq not installed. Skipping JSON validation..."
+            exit 0
+          fi
+          echo "  Checking $file..."
+          if ! jq empty "$file" 2>/dev/null; then
+            echo "❌ Invalid JSON in $file"
+            exit 1
+          fi
+        done
+        echo "✅ All schemas are valid JSON"
+
+    check-workflow-syntax:
+      glob: ".github/workflows/*.{yml,yaml}"
+      run: |
+        echo "Checking workflow YAML syntax..."
+        for file in .github/workflows/*.yml .github/workflows/*.yaml; do
+          [ -f "$file" ] || continue
+          if ! command -v yq &> /dev/null; then
+            echo "⚠️  Warning: yq not installed. Skipping YAML validation..."
+            exit 0
+          fi
+          echo "  Checking $file..."
+          if ! yq eval '.' "$file" > /dev/null 2>&1; then
+            echo "❌ Invalid YAML syntax in $file"
+            exit 1
+          fi
+        done
+        echo "✅ All workflow files have valid YAML syntax"
+
+    check-no-merge-conflicts:
+      run: |
+        echo "Checking for merge conflict markers..."
+        if git diff --cached --name-only | xargs grep -l "^<<<<<<< \|^=======$\|^>>>>>>> " 2>/dev/null; then
+          echo "❌ Merge conflict markers found"
+          exit 1
+        fi
+        echo "✅ No merge conflict markers found"
+
+pre-push:
+  parallel: true
+  commands:
+    final-validation:
+      run: |
+        echo "Running final validation before push..."
+        if [ -f "repos.yml" ]; then
+          if command -v yq &> /dev/null; then
+            echo "  Validating repos.yml can be parsed..."
+            yq eval '.' repos.yml > /dev/null
+            if [ $? -ne 0 ]; then
+              echo "❌ repos.yml has syntax errors"
+              exit 1
+            fi
+          fi
+        fi
+        echo "✅ Final validation passed"

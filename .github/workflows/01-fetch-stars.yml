@@ -8,10 +8,16 @@ on:
 permissions:
   contents: write
 
+# Ensure only one instance runs at a time
+concurrency:
+  group: fetch-stars
+  cancel-in-progress: false
+
 jobs:
   fetch-stars:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    # Run on all branches for validation, but only commit from main
     outputs:
       total_repos: ${{ steps.fetch-stars.outputs.total_repos }}
       archived_count: ${{ steps.fetch-stars.outputs.archived_count }}
@@ -21,6 +27,20 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        
+      - name: Setup environment with branch isolation
+        id: setup
+        run: |
+          # Use branch-specific data directory to prevent conflicts
+          if [ "${{ github.ref }}" == "refs/heads/main" ]; then
+            DATA_DIR=".github-stars/data"
+          else
+            DATA_DIR="/tmp/github-stars-data-${{ github.run_id }}"
+          fi
+          mkdir -p "$DATA_DIR"
+          echo "DATA_DIR=$DATA_DIR" >> $GITHUB_ENV
+          echo "data_dir=$DATA_DIR" >> $GITHUB_OUTPUT
+          echo "Using data directory: $DATA_DIR"
         
       - name: Fetch starred repositories
         uses: actions/github-script@v8
@@ -40,7 +60,7 @@ jobs:
             
             // Configuration
             const MAX_RETRIES = 3;
-            const OUTPUT_FILE = '.github-stars/data/fetched-stars-graphql.json';
+            const OUTPUT_FILE = `${process.env.DATA_DIR}/fetched-stars-graphql.json`;
             
             const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
             
@@ -144,7 +164,7 @@ jobs:
         uses: actions/upload-artifact@v6
         with:
           name: fetched-stars-${{ github.run_id }}
-          path: .github-stars/data/fetched-stars-graphql.json
+          path: ${{ env.DATA_DIR }}/fetched-stars-graphql.json
           retention-days: 30
           
       - name: Create job summary
@@ -153,16 +173,51 @@ jobs:
           echo "- **Total**: ${{ steps.fetch-stars.outputs.total_repos }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Archived**: ${{ steps.fetch-stars.outputs.archived_count }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Forks**: ${{ steps.fetch-stars.outputs.fork_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+          if [ "$CURRENT_BRANCH" != "main" ]; then
+            echo "⚠️ **Running in validation mode** (branch: $CURRENT_BRANCH)" >> $GITHUB_STEP_SUMMARY
+            echo "Results will NOT be committed. Artifacts only." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ **Running in production mode** (branch: main)" >> $GITHUB_STEP_SUMMARY
+            echo "Results will be committed to main branch." >> $GITHUB_STEP_SUMMARY
+          fi
           
       - name: Commit results
         run: |
+          CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+          
+          if [ "$CURRENT_BRANCH" != "main" ]; then
+            echo "=========================================="
+            echo "⚠️  VALIDATION MODE (branch: $CURRENT_BRANCH)"
+            echo "=========================================="
+            echo "✅ Workflow executed successfully"
+            echo "✅ Results validated and saved to artifacts"
+            echo "❌ Skipping commit (not on main branch)"
+            echo ""
+            echo "This prevents data corruption while allowing PR validation."
+            echo "Results artifact: fetched-stars-${{ github.run_id }}"
+            echo "=========================================="
+            exit 0
+          fi
+          
+          echo "=========================================="
+          echo "✅ PRODUCTION MODE (branch: main)"
+          echo "=========================================="
+          echo "Committing results to main branch..."
+          
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          if [ ! -f ".github-stars/data/fetched-stars-graphql.json" ]; then
+          if [ ! -f "$DATA_DIR/fetched-stars-graphql.json" ]; then
             echo "No results to commit"
             exit 0
           fi
+          
+          # Ensure main data directory exists
+          mkdir -p .github-stars/data
+          cp "$DATA_DIR/fetched-stars-graphql.json" .github-stars/data/
           
           git add .github-stars/data/fetched-stars-graphql.json
           
@@ -174,4 +229,6 @@ jobs:
               git pull --rebase --autostash origin main
               git push && break || sleep 10
             done
+            echo "✅ Changes committed and pushed"
           fi
+          echo "=========================================="

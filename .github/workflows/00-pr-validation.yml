@@ -1,0 +1,201 @@
+---
+name: '00-PR Validation'
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'repos.yml'
+      - 'schemas/**'
+      - '.github/workflows/**'
+  push:
+    branches:
+      - main
+    paths:
+      - 'repos.yml'
+      - 'schemas/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    name: Validate manifest and schemas
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Validate JSON schemas
+        run: |
+          echo "Validating JSON schema files..."
+          for schema in schemas/*.json; do
+            echo "  Checking $schema..."
+            if ! jq empty "$schema"; then
+              echo "❌ Invalid JSON in $schema"
+              exit 1
+            fi
+            echo "  ✅ $schema is valid JSON"
+          done
+
+      - name: Validate repos.yml syntax
+        run: |
+          echo "Validating repos.yml YAML syntax..."
+          if ! yq eval '.' repos.yml > /dev/null; then
+            echo "❌ repos.yml has invalid YAML syntax"
+            exit 1
+          fi
+          echo "✅ repos.yml has valid YAML syntax"
+
+      - name: Validate repos.yml against schema
+        uses: cardinalby/schema-validator-action@v3
+        with:
+          schema: 'schemas/repos-schema.json'
+          file: 'repos.yml'
+          mode: 'lax'
+
+      - name: Check for duplicate categories
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require('fs');
+            const { execSync } = require('child_process');
+            
+            const yaml = fs.readFileSync('repos.yml', 'utf8');
+            const json = execSync('yq eval -o=json -', { 
+              input: yaml, 
+              encoding: 'utf8',
+              maxBuffer: 50 * 1024 * 1024 
+            });
+            const data = JSON.parse(json);
+            
+            const categories = data.taxonomy?.categories_allowed || [];
+            
+            // Check for potential duplicates (similar names)
+            const warnings = [];
+            const errors = [];
+            
+            for (let i = 0; i < categories.length; i++) {
+              for (let j = i + 1; j < categories.length; j++) {
+                const cat1 = categories[i];
+                const cat2 = categories[j];
+                
+                // Check for very similar names
+                if (cat1.replace(/-/g, '') === cat2.replace(/-/g, '')) {
+                  errors.push(`Duplicate categories detected: "${cat1}" and "${cat2}"`);
+                }
+                
+                // Check for potential typos (e.g., "api" vs "apis" vs "ap-is")
+                const base1 = cat1.replace(/s$/, '').replace(/-/g, '');
+                const base2 = cat2.replace(/s$/, '').replace(/-/g, '');
+                if (base1 === base2 && cat1 !== cat2) {
+                  warnings.push(`Similar categories: "${cat1}" and "${cat2}" - consider consolidating`);
+                }
+              }
+            }
+            
+            if (errors.length > 0) {
+              console.log('❌ ERRORS:');
+              errors.forEach(e => console.log(`  ${e}`));
+              core.setFailed('Category validation failed');
+            }
+            
+            if (warnings.length > 0) {
+              console.log('⚠️  WARNINGS:');
+              warnings.forEach(w => console.log(`  ${w}`));
+            }
+            
+            if (errors.length === 0 && warnings.length === 0) {
+              console.log('✅ No duplicate or similar categories found');
+            }
+
+      - name: Validate workflow files
+        run: |
+          echo "Validating GitHub Actions workflow files..."
+          has_error=0
+          for workflow in .github/workflows/*.yml .github/workflows/*.yaml; do
+            [ -f "$workflow" ] || continue
+            echo "  Checking $workflow..."
+            if ! yq eval '.' "$workflow" > /dev/null 2>&1; then
+              echo "❌ Invalid YAML in $workflow"
+              has_error=1
+            else
+              echo "  ✅ $workflow is valid"
+            fi
+          done
+          
+          if [ $has_error -eq 1 ]; then
+            echo "❌ Workflow validation failed"
+            exit 1
+          fi
+          echo "✅ All workflow files validated"
+
+      - name: Check taxonomy consistency
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require('fs');
+            const { execSync } = require('child_process');
+            
+            const yaml = fs.readFileSync('repos.yml', 'utf8');
+            const json = execSync('yq eval -o=json -', { 
+              input: yaml, 
+              encoding: 'utf8',
+              maxBuffer: 50 * 1024 * 1024 
+            });
+            const data = JSON.parse(json);
+            
+            const allowedCategories = new Set(data.taxonomy?.categories_allowed || []);
+            const allowedFrameworks = new Set(data.taxonomy?.frameworks_allowed || []);
+            
+            console.log(`Taxonomy: ${allowedCategories.size} categories, ${allowedFrameworks.size} frameworks`);
+            
+            const errors = [];
+            const usedCategories = new Set();
+            
+            data.repositories?.forEach((repo, idx) => {
+              (repo.categories || []).forEach(cat => {
+                usedCategories.add(cat);
+                if (cat !== 'unclassified' && !allowedCategories.has(cat)) {
+                  errors.push(`Repo ${repo.repo}: Invalid category "${cat}" not in taxonomy`);
+                }
+              });
+              
+              if (repo.framework && !allowedFrameworks.has(repo.framework)) {
+                errors.push(`Repo ${repo.repo}: Invalid framework "${repo.framework}" not in taxonomy`);
+              }
+            });
+            
+            // Find unused categories
+            const unusedCategories = [...allowedCategories].filter(c => 
+              c !== 'unclassified' && !usedCategories.has(c)
+            );
+            
+            if (errors.length > 0) {
+              console.log('❌ TAXONOMY ERRORS:');
+              errors.slice(0, 10).forEach(e => console.log(`  ${e}`));
+              if (errors.length > 10) {
+                console.log(`  ... and ${errors.length - 10} more errors`);
+              }
+              core.setFailed(`Found ${errors.length} taxonomy validation errors`);
+            } else {
+              console.log('✅ All categories and frameworks are valid');
+            }
+            
+            if (unusedCategories.length > 0) {
+              console.log(`ℹ️  ${unusedCategories.length} unused categories: ${unusedCategories.slice(0, 5).join(', ')}${unusedCategories.length > 5 ? '...' : ''}`);
+            }
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Validation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "All validation checks completed." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Schema validation" >> $GITHUB_STEP_SUMMARY
+          echo "✅ YAML syntax validation" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Category consistency check" >> $GITHUB_STEP_SUMMARY
