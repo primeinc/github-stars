@@ -239,11 +239,11 @@ lefthook run pre-commit
 ### Schema Validation Fails
 
 ```bash
-# Validate manually
-ajv validate -s schemas/repos-schema.json -d repos.yml --strict=false
+# Validate manually - shows all errors, no suppression
+ajv validate -s schemas/repos-schema.json -d repos.yml  # Strict validation
 
-# Check syntax first
-yq eval '.' repos.yml > /dev/null
+# Check YAML syntax - shows parse errors
+yq eval '.' repos.yml
 ```
 
 ### YAML Syntax Errors

@@ -44,7 +44,7 @@ jobs:
       - name: Validate repos.yml syntax
         run: |
           echo "Validating repos.yml YAML syntax..."
-          if ! yq eval '.' repos.yml > /dev/null; then
+          if ! yq eval '.' repos.yml; then
             echo "❌ repos.yml has invalid YAML syntax"
             exit 1
           fi
@@ -119,8 +119,8 @@ jobs:
           for workflow in .github/workflows/*.yml .github/workflows/*.yaml; do
             [ -f "$workflow" ] || continue
             echo "  Checking $workflow..."
-            if ! yq eval '.' "$workflow" > /dev/null 2>&1; then
-              echo "❌ Invalid YAML in $workflow"
+            if ! yq eval '.' "$workflow"; then
+              echo "❌ Invalid YAML syntax in $workflow"
               has_error=1
             else
               echo "  ✅ $workflow is valid"

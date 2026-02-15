@@ -69,7 +69,7 @@ PYTHON_SCRIPT
 
 # Validate the result
 echo "🔍 Validating consolidated manifest..."
-if yq eval '.' repos.yml > /dev/null 2>&1; then
+if yq eval '.' repos.yml; then
   echo "✅ YAML syntax is valid"
 else
   echo "❌ YAML syntax error - restoring backup"
