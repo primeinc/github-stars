@@ -57,11 +57,12 @@ for repo in data.get('repositories', []):
 if 'manifest_metadata' in data:
     from datetime import datetime
     data['manifest_metadata']['manifest_updated_at'] = datetime.utcnow().isoformat() + 'Z'
+    # Note: generator_version bumped to v1.1.0 to indicate category consolidation
     data['manifest_metadata']['generator_version'] = 'v1.1.0'
 
-# Save back to file
+# Save back to file using safe_dump for security
 with open('repos.yml', 'w') as f:
-    yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+    yaml.safe_dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
 
 print(f"Updated {updated_count} repositories")
 PYTHON_SCRIPT

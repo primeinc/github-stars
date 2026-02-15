@@ -89,6 +89,16 @@ concurrency:
 
 This ensures only **one instance** of each workflow runs at a time across all branches.
 
+**Trade-off:** While this prevents race conditions and data corruption, it means that a workflow running on a PR branch will block the same workflow from running on main until completion. This trades responsiveness for absolute safety. For most repositories, this is the correct choice as it:
+- Prevents concurrent modifications to shared data (repos.yml)
+- Ensures deterministic workflow execution
+- Avoids race conditions in git push operations
+
+**Note:** For high-velocity repositories where this blocking becomes problematic, consider alternative strategies like:
+- Using separate data files per branch
+- Implementing proper locking mechanisms
+- Using a database instead of file-based storage
+
 ### 4. PR Validation Workflow
 
 The `00-PR Validation` workflow runs on PRs to validate changes **before** they reach `main`:

@@ -17,8 +17,7 @@ pre-commit:
           echo "Skipping schema validation..."
           exit 0
         fi
-        ajv validate -s schemas/repos-schema.json -d repos.yml --strict=false
-        if [ $? -eq 0 ]; then
+        if ajv validate -s schemas/repos-schema.json -d repos.yml --strict=false; then
           echo "✅ repos.yml is valid"
         else
           echo "❌ repos.yml validation failed"
@@ -63,7 +62,7 @@ pre-commit:
     check-no-merge-conflicts:
       run: |
         echo "Checking for merge conflict markers..."
-        if git diff --cached --name-only | xargs grep -l "^<<<<<<< \|^=======$\|^>>>>>>> " 2>/dev/null; then
+        if git diff --cached --name-only | xargs grep -l "^<<<<<<< \|^=======\|^>>>>>>> " 2>/dev/null; then
           echo "❌ Merge conflict markers found"
           exit 1
         fi
@@ -81,8 +80,9 @@ pre-push:
         if [ -f "repos.yml" ]; then
           if command -v yq &> /dev/null; then
             echo "  Validating repos.yml can be parsed..."
-            yq eval '.' repos.yml > /dev/null
-            if [ $? -ne 0 ]; then
+            if yq eval '.' repos.yml > /dev/null; then
+              echo "✅ repos.yml is valid"
+            else
               echo "❌ repos.yml has syntax errors"
               exit 1
             fi

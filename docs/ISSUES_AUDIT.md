@@ -255,29 +255,35 @@ github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
 
 **Issues:**
 - Automatically triggers next batch
-- No limit on retries
-- If AI keeps failing, will retry forever
+- Current implementation uses `GITHUB_RUN_ATTEMPT` which only tracks manual re-runs
+- Auto-triggered runs can still loop indefinitely
 - Could exhaust GitHub Actions minutes
-- No circuit breaker
+- No circuit breaker for auto-triggers
 
 **Impact:** Quota exhaustion, runaway workflows
 
-**Fix Required:**
+**Fix Applied (Partial):**
 ```yaml
-# Add to repos.yml metadata
-classification_attempts: 0
-max_classification_attempts: 10
-
-# In workflow:
+# Add to workflow:
 - name: Check retry limit
   id: check_limit
   run: |
-    attempts=$(yq eval '.classification_attempts // 0' repos.yml)
+    # Current: Uses GITHUB_RUN_ATTEMPT (manual re-runs only)
+    attempts=$(($GITHUB_RUN_ATTEMPT))
     if [ $attempts -ge 10 ]; then
-      echo "❌ Max classification attempts reached"
+      echo "❌ Max manual retry attempts reached"
       exit 1
     fi
-    echo "attempts=$((attempts + 1))" >> $GITHUB_OUTPUT
+```
+
+**Remaining Work:**
+To fully prevent auto-trigger loops, track cumulative attempts in repos.yml:
+```yaml
+# In repos.yml metadata
+classification_run_count: 0
+max_classification_runs: 10
+
+# In workflow, check and increment
 ```
 
 ### 9. No Timeout on Long-Running Jobs

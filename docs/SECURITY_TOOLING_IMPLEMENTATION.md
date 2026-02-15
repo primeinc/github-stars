@@ -130,8 +130,12 @@ Branch name pattern: main
 **Commands:**
 ```bash
 # Replace placeholders (run from repo root)
-sed -i 's/@REPLACE_ME_OWNER/@primeinc/g' .github/CODEOWNERS
-sed -i 's/@REPLACE_ME_SECURITY/@primeinc\/security-team/g' .github/CODEOWNERS
+# Using perl for cross-platform compatibility (works on Linux and macOS)
+perl -i -pe 's/TODO_REPLACE_WITH_OWNER/@primeinc/g' .github/CODEOWNERS
+perl -i -pe 's{TODO_REPLACE_WITH_SECURITY}{@primeinc/security-team}g' .github/CODEOWNERS
+
+# Alternative: Manual editing
+# Open .github/CODEOWNERS in your editor and replace the placeholders
 ```
 
 ### 4. Verify Workflow Permissions

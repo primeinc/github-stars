@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   analyze:
-    name: Analyze code with CodeQL
+    name: Analyze code with CodeQL (${{ matrix.language }})
     runs-on: ubuntu-latest
     
     strategy:

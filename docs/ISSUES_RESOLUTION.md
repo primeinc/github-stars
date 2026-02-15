@@ -68,13 +68,17 @@
 - Added recommendations for validation step
 - No code changes needed (working as designed with caveats)
 
-### 8. ✅ AI Classification Retry Loop Can Exhaust Quota
-**Status:** FIXED  
+### 8. ⚠️ AI Classification Retry Loop (Partially Fixed)
+**Status:** PARTIALLY FIXED (TECHNICAL LIMITATION)  
 **Changes:**
-- Added MAX_RETRY_ATTEMPTS check (limit: 10)
-- Workflow stops auto-triggering after 10 attempts
-- Clear warning when limit reached
+- Added MAX_RETRY_ATTEMPTS guard in `03-classify-repos.yml` (limit: 10)
+- Current implementation uses `GITHUB_RUN_ATTEMPT` which only tracks manual re-runs of a single workflow
+- **Limitation**: Auto-triggered runs via "Trigger next" can still loop beyond 10 attempts
+- Quota exhaustion risk is reduced but not fully eliminated
+- **Future work**: Track cumulative attempts in repos.yml metadata
 - Files: `03-classify-repos.yml`
+
+**Impact:** Prevents infinite manual re-runs but doesn't fully prevent auto-trigger loops
 
 ### 9. ✅ No Timeout on Long-Running Jobs
 **Status:** FIXED  

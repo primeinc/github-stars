@@ -127,7 +127,7 @@ jobs:
             fi
           done
           
-          if [ $has_error -eq 1 ]; then
+          if [ "${has_error:-0}" -eq 1 ]; then
             echo "❌ Workflow validation failed"
             exit 1
           fi

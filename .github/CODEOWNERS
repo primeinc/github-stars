@@ -5,23 +5,26 @@
 # Branch protection rules must be configured separately in GitHub Settings.
 # Do NOT rely on "Require review from Code Owners" without explicit branch rules.
 
+# TODO: Replace placeholders before use
+# TODO_REPLACE_WITH_OWNER should be a GitHub username (e.g., @primeinc) or team (e.g., @primeinc/maintainers)
+# TODO_REPLACE_WITH_SECURITY should be a security contact (e.g., @primeinc/security-team)
+
 # Global ownership (default)
-# Replace @REPLACE_ME_OWNER with actual GitHub username or team
-*       @REPLACE_ME_OWNER
+*       TODO_REPLACE_WITH_OWNER
 
 # GitHub Actions workflows and configuration
-.github/*       @REPLACE_ME_OWNER
+.github/*       TODO_REPLACE_WITH_OWNER
 
 # Scripts (especially security-sensitive shell scripts)
-scripts/*       @REPLACE_ME_OWNER
+scripts/*       TODO_REPLACE_WITH_OWNER
 
 # Security policy
-SECURITY.md     @REPLACE_ME_SECURITY
+SECURITY.md     TODO_REPLACE_WITH_SECURITY
 
 # Schema and core data files
-schemas/*       @REPLACE_ME_OWNER
-repos.yml       @REPLACE_ME_OWNER
+schemas/*       TODO_REPLACE_WITH_OWNER
+repos.yml       TODO_REPLACE_WITH_OWNER
 
 # Documentation
-docs/*          @REPLACE_ME_OWNER
-*.md            @REPLACE_ME_OWNER
+docs/*          TODO_REPLACE_WITH_OWNER
+*.md            TODO_REPLACE_WITH_OWNER

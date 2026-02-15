@@ -70,12 +70,6 @@ jobs:
               process.exit(1);  // Actually exit
             }
             
-            // Check if upstream fetch was partial
-            if (context.payload.workflow_run?.outputs?.partial_fetch === 'true') {
-              core.warning('⚠️  Upstream fetch was partial due to rate limits');
-              core.warning('Sync may be incomplete - recommend re-running after rate limit reset');
-            }
-            
             console.log(`Found ${starsData.length} starred repositories`);
             
             if (fs.existsSync('repos.yml')) {
