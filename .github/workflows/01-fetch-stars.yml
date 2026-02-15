@@ -120,6 +120,8 @@ jobs:
               } catch (error) {
                 if (error.message?.includes('rate limit')) {
                   core.warning('Rate limit hit. Saving partial results.');
+                  core.setOutput('partial_fetch', 'true');
+                  core.setOutput('rate_limited', 'true');
                   break;
                 }
                 
@@ -158,6 +160,7 @@ jobs:
             core.setOutput('archived_count', archived);
             core.setOutput('fork_count', forks);
             core.setOutput('no_description_count', noDesc);
+            core.setOutput('partial_fetch', hasNextPage ? 'true' : 'false');
 
       - name: Upload results
         if: success() && steps.fetch-stars.outputs.total_repos != '0'
@@ -225,10 +228,7 @@ jobs:
             echo "No changes"
           else
             git commit -m "chore: update starred repositories [skip ci]"
-            for i in 1 2 3 4 5; do
-              git pull --rebase --autostash origin main
-              git push && break || sleep 10
-            done
+            bash scripts/safe-git-push.sh main
             echo "✅ Changes committed and pushed"
           fi
           echo "=========================================="

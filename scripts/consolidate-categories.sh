@@ -17,23 +17,54 @@ yq eval 'del(.taxonomy.categories_allowed[] | select(. == "api" or . == "ap-is")
 # Step 2: Replace "api" and "ap-is" with "apis" in all repository categories
 echo "📝 Consolidating repository categories..."
 
-# Create a temporary file with the updates
-yq eval '
-  .repositories = (.repositories | map(
-    .categories = (.categories | map(
-      if . == "api" or . == "ap-is" then "apis" 
-      else . 
-      end
-    ) | unique)
-  ))
-' repos.yml > repos.yml.tmp
+# Use Python for more reliable array manipulation
+python3 << 'PYTHON_SCRIPT'
+import yaml
+import sys
 
-# Replace the original with the updated version
-mv repos.yml.tmp repos.yml
+# Load the YAML file
+with open('repos.yml', 'r') as f:
+    data = yaml.safe_load(f)
 
-# Step 3: Update manifest metadata
-echo "📝 Updating manifest metadata..."
-yq eval '.manifest_metadata.manifest_updated_at = now | .manifest_metadata.generator_version = "v1.1.0"' -i repos.yml
+# Update repositories
+updated_count = 0
+for repo in data.get('repositories', []):
+    categories = repo.get('categories', [])
+    original_categories = categories.copy()
+    
+    # Replace api and ap-is with apis
+    new_categories = []
+    for cat in categories:
+        if cat in ['api', 'ap-is']:
+            new_categories.append('apis')
+        else:
+            new_categories.append(cat)
+    
+    # Remove duplicates while preserving order
+    seen = set()
+    deduped = []
+    for cat in new_categories:
+        if cat not in seen:
+            seen.add(cat)
+            deduped.append(cat)
+    
+    repo['categories'] = deduped
+    
+    if original_categories != deduped:
+        updated_count += 1
+
+# Update metadata
+if 'manifest_metadata' in data:
+    from datetime import datetime
+    data['manifest_metadata']['manifest_updated_at'] = datetime.utcnow().isoformat() + 'Z'
+    data['manifest_metadata']['generator_version'] = 'v1.1.0'
+
+# Save back to file
+with open('repos.yml', 'w') as f:
+    yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+
+print(f"Updated {updated_count} repositories")
+PYTHON_SCRIPT
 
 # Validate the result
 echo "🔍 Validating consolidated manifest..."
@@ -46,8 +77,8 @@ else
 fi
 
 # Check for remaining invalid categories
-api_count=$(yq eval '.repositories[] | select(.categories[] == "api") | .repo' repos.yml 2>/dev/null | wc -l || echo 0)
-apis_count=$(yq eval '.repositories[] | select(.categories[] == "ap-is") | .repo' repos.yml 2>/dev/null | wc -l || echo 0)
+api_count=$(yq eval '[.repositories[].categories[]] | map(select(. == "api")) | length' repos.yml 2>/dev/null || echo 0)
+apis_count=$(yq eval '[.repositories[].categories[]] | map(select(. == "ap-is")) | length' repos.yml 2>/dev/null || echo 0)
 
 if [ "$api_count" -gt 0 ] || [ "$apis_count" -gt 0 ]; then
   echo "⚠️  Warning: Some 'api' or 'ap-is' categories still remain"
@@ -55,8 +86,8 @@ if [ "$api_count" -gt 0 ] || [ "$apis_count" -gt 0 ]; then
 fi
 
 # Count consolidated results
-apis_final=$(yq eval '.repositories[] | select(.categories[] == "apis") | .repo' repos.yml | wc -l)
-echo "✅ Consolidated: 'apis' category now has $apis_final repositories"
+apis_final=$(yq eval '[.repositories[].categories[]] | map(select(. == "apis")) | length' repos.yml)
+echo "✅ Consolidated: 'apis' category now has $apis_final uses"
 
 echo ""
 echo "Category consolidation complete!"

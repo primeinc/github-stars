@@ -29,6 +29,7 @@ env:
 jobs:
   classify:
     runs-on: ubuntu-latest
+    timeout-minutes: 30  # AI classification can take time
     # Run on all branches for validation, but only commit from main
     if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     steps:
@@ -117,7 +118,7 @@ jobs:
             // Fail early if taxonomy is missing or empty
             if (allowedCategories.length === 0) {
               core.setFailed('Taxonomy categories_allowed is empty or missing - cannot classify');
-              return;
+              process.exit(1);  // Actually exit
             }
             
             // Generate language tags dynamically from batch, with fallback
@@ -391,10 +392,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add repos.yml
           git commit -m "AI classify ${{ steps.apply.outputs.count }} repos [skip ci]"
-          for i in 1 2 3 4 5; do
-            git pull --rebase --autostash origin main
-            git push && break || sleep 10
-          done
+          bash scripts/safe-git-push.sh main
           echo "✅ Changes committed and pushed"
           echo "=========================================="
 
@@ -412,6 +410,19 @@ jobs:
             const remaining = data.repositories.filter(r => 
               r.categories.includes('unclassified') && (r.needs_review || !r.ai_classification?.classified_at)
             ).length;
+            
+            // Check retry attempts to prevent runaway loops
+            const MAX_RETRY_ATTEMPTS = 10;
+            const currentAttempts = parseInt(process.env.GITHUB_RUN_ATTEMPT || '1');
+            
+            if (currentAttempts >= MAX_RETRY_ATTEMPTS) {
+              core.warning(`⚠️  Max retry attempts (${MAX_RETRY_ATTEMPTS}) reached`);
+              core.warning(`${remaining} repositories still unclassified - manual review needed`);
+              core.setOutput('has_more', 'false');
+              core.setOutput('count', remaining);
+              return;
+            }
+            
             core.setOutput('count', remaining);
             core.setOutput('has_more', remaining > 0);
 
