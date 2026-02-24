@@ -131,9 +131,6 @@ jobs:
                 // Retry on HTTP errors (502, 503, 504) and other transient errors
                 const isRetryableError = 
                   (typeof error.status === 'number' && error.status >= 500 && error.status < 600) || // HTTP 5xx errors
-                  error.message?.includes('502') ||
-                  error.message?.includes('503') ||
-                  error.message?.includes('504') ||
                   error.message?.includes('Bad Gateway') ||
                   error.message?.includes('Service Unavailable') ||
                   error.message?.includes('Gateway Timeout') ||
@@ -143,7 +140,13 @@ jobs:
                 if (retryCount < MAX_RETRIES && isRetryableError) {
                   retryCount++;
                   const waitTime = Math.pow(2, retryCount);
-                  const errorMsg = error.status || (typeof error.message === 'string' ? error.message.substring(0, MAX_ERROR_MSG_LENGTH) : 'unknown');
+                  // Format error message for logging
+                  let errorMsg = 'unknown';
+                  if (error.status) {
+                    errorMsg = error.status;
+                  } else if (typeof error.message === 'string') {
+                    errorMsg = error.message.substring(0, MAX_ERROR_MSG_LENGTH);
+                  }
                   core.warning(`Transient error (${errorMsg}): Retrying in ${waitTime}s (attempt ${retryCount}/${MAX_RETRIES})...`);
                   await sleep(waitTime * 1000);
                   pageCount--;
