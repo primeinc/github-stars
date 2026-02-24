@@ -77,7 +77,35 @@ The primary correctness check is JSON Schema validation for `repos.yml`.
 - `scripts/`: Helper scripts (if any).
 - `repos.yml`: The database (generated/updated by Actions).
 
-## 6. Critical Constraints
+## 6. Security & Dependency Auditing
+
+### Automated Vulnerability Scanning
+- **CI Workflow**: The `00-ci.yml` workflow runs `pnpm audit` on every push/PR to detect vulnerabilities.
+- **Audit Level**: Only **high** and **critical** vulnerabilities block CI (using `--audit-level=high`).
+- **Packages Scanned**: Both root package and `web/` package dependencies are audited.
+- **Workflow Summary**: Vulnerabilities are reported in GitHub Actions workflow summary with actionable instructions.
+
+### Local Development
+To audit dependencies locally:
+```bash
+# Audit root package
+pnpm audit --audit-level=high
+
+# Audit web package
+cd web && pnpm audit --audit-level=high
+
+# Fix vulnerabilities automatically (when possible)
+pnpm audit --fix
+```
+
+### Adding Dependencies
+When adding new dependencies:
+1. Install the dependency: `pnpm add <package>`
+2. Run audit locally: `pnpm audit --audit-level=high`
+3. If vulnerabilities are found, check for updates or alternatives
+4. Commit only if audit passes
+
+## 7. Critical Constraints
 - **Zero External Dependencies**: Logic must run in standard GitHub Actions runners.
 - **Free Tier**: Do not introduce paid dependencies or services.
 - **Idempotency**: Workflows should be safe to re-run.
