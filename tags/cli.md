@@ -1,11 +1,12 @@
 # Tag: cli
 
-*6 repositories*
+*7 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [sindresorhus/ora](https://github.com/sindresorhus/ora) | Elegant terminal spinner | `JavaScript` ★ 9.6k | 2026-02-22 |
 | [SamyRai/namecheap](https://github.com/SamyRai/namecheap) | A CLI tool for managing Namecheap domains and DNS records with multi-account support | `Go` ★ 2 | 2026-02-03 |
 | [PraaneshSelvaraj/coffee.tmux](https://github.com/PraaneshSelvaraj/coffee.tmux) | ☕ Coffee - Modern tmux Plugin Manager | `Python` ★ 49 | 2026-02-23 |
 | [steipete/summarize](https://github.com/steipete/summarize) | Point at any URL/You Tube/Podcast or file. Get the gist. CLI and Chrome Extension. | `TypeScript` ★ 4.3k | 2026-02-18 |

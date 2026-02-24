@@ -1,11 +1,15 @@
 # Ui-libraries
 
-*14 repositories*
+*18 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [wet-boew/wet-boew](https://github.com/wet-boew/wet-boew) | Web Experience Toolkit (WET): Open source code library for building innovative websites that are accessible, usable, interoperable, mobile-friendly and multilingual. This collaborative open source ... | `Handlebars` ★ 1.7k | 2026-02-16 |
+| [cytoscape/cytoscape.js](https://github.com/cytoscape/cytoscape.js) | Graph theory (network) library for visualisation and analysis | `JavaScript` ★ 10.9k | 2026-01-21 |
+| [eslint/config-inspector](https://github.com/eslint/config-inspector) | A visual tool for inspecting and understanding your ESLint flat configs. | `Vue` ★ 1.3k | 2026-02-19 |
+| [visgl/react-map-gl](https://github.com/visgl/react-map-gl) | React friendly API wrapper around Mapbox GL JS | `TypeScript` ★ 8.4k | 2026-02-03 |
 | [mark-when/markwhen](https://github.com/mark-when/markwhen) | Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more. | `HTML` ★ 4.8k | 2023-12-11 |
 | [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | SVG icons for popular brands | `JavaScript` ★ 24.5k | 2026-02-23 |
 | [evolus/pencil](https://github.com/evolus/pencil) | The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use. | `JavaScript` ★ 9.6k | 2024-09-10 |

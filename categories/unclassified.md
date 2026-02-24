@@ -1,6 +1,6 @@
 # Unclassified
 
-*272 repositories*
+*227 repositories*
 
 [← Back to Index](../README.md)
 
@@ -232,51 +232,6 @@
 | [Yamato-Security/EnableWindowsLogSettings](https://github.com/Yamato-Security/EnableWindowsLogSettings) | Documentation and scripts to properly enable Windows event logs. | `Batchfile` ★ 672 | 2025-10-03 |
 | [Yamato-Security/suzaku](https://github.com/Yamato-Security/suzaku) | Suzaku (朱雀) is a sigma-based threat hunting and fast forensics timeline generator for cloud logs. | `Rust` ★ 168 | 2025-12-07 |
 | [nicolonsky/ITDR](https://github.com/nicolonsky/ITDR) | Collection of Microsoft Identity Threat Detection and Response resources. | `PowerShell` ★ 52 | 2026-02-01 |
-| [merill/graph-permissions-explorer](https://github.com/merill/graph-permissions-explorer) | Repository for public site hosting graph permissions | `HTML` ★ 33 | 2026-02-24 |
-| [bbmumford/Intune-Toolkit](https://github.com/bbmumford/Intune-Toolkit) | my personal collection of scripts & guides to configuring a standard enterprise Intune enviroment. | `Opal` ★ 69 | 2026-01-09 |
-| [merill/awesome-entra](https://github.com/merill/awesome-entra) | 😎 Awesome list of all things related to Microsoft Entra | ★ 723 | 2025-09-01 |
-| [microsoft/EntraExporter](https://github.com/microsoft/EntraExporter) | Power Shell module to export a local copy of an Entra (Azure AD) tenant configuration. | `PowerShell` ★ 830 | 2025-11-16 |
-| [systommy/TenantReports](https://github.com/systommy/TenantReports) | A Power Shell module for generating Microsoft 365 and Azure security reports. | `PowerShell` ★ 18 | 2026-02-23 |
-| [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) | CLI to control i OS and Android devices for AI agents | `TypeScript` ★ 790 | 2026-02-23 |
-| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | `TypeScript` ★ 28.7k | 2026-02-24 |
-| [Songmu/tagpr](https://github.com/Songmu/tagpr) | automatically creates and updates a pull request for unreleased items, tag them when they are merged, and create releases. | `Go` ★ 280 | 2026-02-16 |
-| [mspnp/aks-baseline](https://github.com/mspnp/aks-baseline) | This is the Azure Kubernetes Service (AKS) Baseline Cluster reference implementation as produced by the Microsoft Azure Architecture Center. | `Bicep` ★ 744 | 2026-02-19 |
-| [hey-api/openapi-ts](https://github.com/hey-api/openapi-ts) | 🌀 Open API to Type Script codegen. Production-ready SDKs, Zod schemas, Tan Stack Query hooks, and 20+ plugins. Used by Vercel, Open Code, and Pay Pal. | `TypeScript` ★ 4.2k | 2026-02-23 |
-| [killnine/tanstack-msal-entra-troubleshooting](https://github.com/killnine/tanstack-msal-entra-troubleshooting) | Sample Application for Troubleshooting Authz Issues | `TypeScript` ★ 1 | 2026-02-04 |
-| [wet-boew/wet-boew](https://github.com/wet-boew/wet-boew) | Web Experience Toolkit (WET): Open source code library for building innovative websites that are accessible, usable, interoperable, mobile-friendly and multilingual. This collaborative open source ... | `Handlebars` ★ 1.7k | 2026-02-16 |
-| [project-open-data/project-open-data.github.io](https://github.com/project-open-data/project-open-data.github.io) | Open Data Policy — Managing Information as an Asset | `HTML` ★ 1.4k | 2024-08-19 |
-| [codeforamerica/adopt-a-hydrant](https://github.com/codeforamerica/adopt-a-hydrant) | A web application that allows citizens to "adopt" civic infrastructure, such as fire hydrants that need to be shoveled out after it snows. | `Ruby` ★ 770 | 2023-09-26 |
-| [nasa/openmct](https://github.com/nasa/openmct) | A web based mission control framework. | `JavaScript` ★ 12.8k | 2026-02-23 |
-| [cfpb/open-source-checklist](https://github.com/cfpb/open-source-checklist) | check internal repos against open source checklist requirements | `JavaScript` ★ 628 | 2019-01-18 |
-| [18F/development-guide](https://github.com/18F/development-guide) | A set of guidelines and best practices for an awesome software engineering team | `HTML` ★ 1.4k | 2024-03-19 |
-| [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) | Language-agnostic SLSA provenance generation for Github Actions | `Go` ★ 546 | 2026-02-21 |
-| [thinkwee/DDR_Bench](https://github.com/thinkwee/DDR_Bench) | Deep Data Research. Seek More, See Beyond. | `Python` ★ 14 | 2026-02-06 |
-| [gadievron/raptor](https://github.com/gadievron/raptor) | Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and orchestrating security tool usage, we confi... | `Python` ★ 1.1k | 2026-02-23 |
-| [vicinaehq/vicinae](https://github.com/vicinaehq/vicinae) | A focused launcher for your desktop — native, fast, extensible | `C++` ★ 6.5k | 2026-02-24 |
-| [dustinspecker/awesome-eslint](https://github.com/dustinspecker/awesome-eslint) | A list of awesome ESLint plugins, configs, etc. | ★ 4.7k | 2026-01-09 |
-| [jacob-j/vscode-folder-path-color](https://github.com/jacob-j/vscode-folder-path-color) | All subfolders within a specified path will be assigned a color for easy differentiation. | `TypeScript` ★ 33 | 2025-08-26 |
-| [webpro-nl/knip](https://github.com/webpro-nl/knip) | ✂️ Find unused files, dependencies and exports in your Java Script and Type Script projects. Knip it before you ship it! | `TypeScript` ★ 10.3k | 2026-02-23 |
-| [google/timesketch](https://github.com/google/timesketch) | Collaborative forensic timeline analysis | `Python` ★ 3.3k | 2026-02-23 |
-| [cytoscape/cytoscape.js](https://github.com/cytoscape/cytoscape.js) | Graph theory (network) library for visualisation and analysis | `JavaScript` ★ 10.9k | 2026-01-21 |
-| [patrickhulce/third-party-web](https://github.com/patrickhulce/third-party-web) | Data on third party entities and their impact on the web. | `JavaScript` ★ 1.1k | 2025-12-01 |
-| [sindresorhus/eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn) | More than 100 powerful ESLint rules | `JavaScript` ★ 4.9k | 2026-02-19 |
-| [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) | :sparkles: Monorepo for all the tooling which enables ESLint to support Type Script | `TypeScript` ★ 16.1k | 2026-02-23 |
-| [eslint/config-inspector](https://github.com/eslint/config-inspector) | A visual tool for inspecting and understanding your ESLint flat configs. | `Vue` ★ 1.3k | 2026-02-19 |
-| [Dicklesworthstone/agentic_coding_flywheel_setup](https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup) | System setup tool for beginners wanting agentic engineering capabilities - transforms a fresh VPS into a fully-armed agentic coding environment in under an hour. | `Shell` ★ 1.1k | 2026-02-24 |
-| [facebook/memlab](https://github.com/facebook/memlab) | A framework for finding Java Script memory leaks and analyzing heap snapshots | `JavaScript` ★ 4.9k | 2026-02-03 |
-| [cursor/agent-trace](https://github.com/cursor/agent-trace) | A standard format for tracing AI-generated code. | `TypeScript` ★ 600 | 2026-02-06 |
-| [sindresorhus/ora](https://github.com/sindresorhus/ora) | Elegant terminal spinner | `JavaScript` ★ 9.6k | 2026-02-22 |
-| [nrwl/nx-examples](https://github.com/nrwl/nx-examples) | Example repo for Nx workspace | `TypeScript` ★ 955 | 2026-02-23 |
-| [JamieMason/syncpack](https://github.com/JamieMason/syncpack) | Consistent dependency versions in large Java Script Monorepos. | `Rust` ★ 1.9k | 2026-02-19 |
-| [nrwl/nx](https://github.com/nrwl/nx) | Get to green PRs in half the time. Nx optimizes your builds, scales your CI, and fixes failed PRs. Built for developers and AI agents. | `TypeScript` ★ 28.2k | 2026-02-24 |
-| [loeffel-io/ls-lint](https://github.com/loeffel-io/ls-lint) | An extremely fast directory and filename linter - Bring some structure to your project filesystem | `Go` ★ 2.4k | 2026-02-19 |
-| [cloud-gov/caulking](https://github.com/cloud-gov/caulking) | A small utility that keeps your Git repositories from leaking secrets, skipping hooks, or quietly drifting out of compliance. It’s designed to be boring, fast, and hard to screw up. | `Shell` ★ 34 | 2026-02-23 |
-| [Turfjs/turf](https://github.com/Turfjs/turf) | A modular geospatial engine written in Java Script and Type Script | `TypeScript` ★ 10.3k | 2026-02-18 |
-| [visgl/react-map-gl](https://github.com/visgl/react-map-gl) | React friendly API wrapper around Mapbox GL JS | `TypeScript` ★ 8.4k | 2026-02-03 |
-| [vercel-labs/skills](https://github.com/vercel-labs/skills) | The open agent skills tool - npx skills | `TypeScript` ★ 6.7k | 2026-02-20 |
-| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | Find secrets with Gitleaks 🔑 | `Go` ★ 25.1k | 2026-02-21 |
-| [neonichu/githop](https://github.com/neonichu/githop) | Uses Big Query and Git Hub Archive to create something like Time Hop for Git Hub. | `Ruby` ★ 78 | 2024-02-02 |
-| [notclickable-jordan/starbase-80](https://github.com/notclickable-jordan/starbase-80) | A nice Docker homepage | `TypeScript` ★ 516 | 2025-10-18 |
 | [ITContractorsUnion/ITContractorsUnion](https://github.com/ITContractorsUnion/ITContractorsUnion) | Repo For All Downloadable Data | `HTML` ★ 119 | 2026-02-19 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

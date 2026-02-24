@@ -1,12 +1,19 @@
 # Automation
 
-*15 repositories*
+*22 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be! | `Python` ★ 11.4k | 2026-02-23 |
+| [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) | CLI to control i OS and Android devices for AI agents | `TypeScript` ★ 790 | 2026-02-23 |
+| [Songmu/tagpr](https://github.com/Songmu/tagpr) | automatically creates and updates a pull request for unreleased items, tag them when they are merged, and create releases. | `Go` ★ 280 | 2026-02-16 |
+| [cfpb/open-source-checklist](https://github.com/cfpb/open-source-checklist) | check internal repos against open source checklist requirements | `JavaScript` ★ 628 | 2019-01-18 |
+| [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) | Language-agnostic SLSA provenance generation for Github Actions | `Go` ★ 546 | 2026-02-21 |
+| [sindresorhus/eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn) | More than 100 powerful ESLint rules | `JavaScript` ★ 4.9k | 2026-02-19 |
+| [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) | :sparkles: Monorepo for all the tooling which enables ESLint to support Type Script | `TypeScript` ★ 16.1k | 2026-02-23 |
+| [sindresorhus/ora](https://github.com/sindresorhus/ora) | Elegant terminal spinner | `JavaScript` ★ 9.6k | 2026-02-22 |
 | [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 4.4k | 2026-02-22 |
 | [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) | Convert any git repository into an engaging podcast | `TypeScript` ★ 802 | 2025-08-30 |
 | [Lissy93/domain-locker](https://github.com/Lissy93/domain-locker) | 🌐 The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker! | `TypeScript` ★ 1.2k | 2026-02-22 |

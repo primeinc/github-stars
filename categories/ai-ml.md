@@ -1,12 +1,18 @@
 # Ai-ml
 
-*45 repositories*
+*51 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, Open Code & Gemini CLI. | `Rust` ★ 19.6k | 2026-02-24 |
+| [thinkwee/DDR_Bench](https://github.com/thinkwee/DDR_Bench) | Deep Data Research. Seek More, See Beyond. | `Python` ★ 14 | 2026-02-06 |
+| [gadievron/raptor](https://github.com/gadievron/raptor) | Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and orchestrating security tool usage, we confi... | `Python` ★ 1.1k | 2026-02-23 |
+| [Dicklesworthstone/agentic_coding_flywheel_setup](https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup) | System setup tool for beginners wanting agentic engineering capabilities - transforms a fresh VPS into a fully-armed agentic coding environment in under an hour. | `Shell` ★ 1.1k | 2026-02-24 |
+| [cursor/agent-trace](https://github.com/cursor/agent-trace) | A standard format for tracing AI-generated code. | `TypeScript` ★ 600 | 2026-02-06 |
+| [nrwl/nx](https://github.com/nrwl/nx) | Get to green PRs in half the time. Nx optimizes your builds, scales your CI, and fixes failed PRs. Built for developers and AI agents. | `TypeScript` ★ 28.2k | 2026-02-24 |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | The open agent skills tool - npx skills | `TypeScript` ★ 6.7k | 2026-02-20 |
 | [six2dez/burp-ai-agent](https://github.com/six2dez/burp-ai-agent) | Burp Suite extension that adds built-in MCP tooling, AI-assisted analysis, privacy controls, passive and active scanning and more | `Kotlin` ★ 657 | 2026-02-19 |
 | [ssmisya/AdaReasoner](https://github.com/ssmisya/AdaReasoner) | \[ICLR 2026\] The official repository for the paper "Ada Reasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning". | `Jupyter Notebook` ★ 68 | 2026-01-27 |
 | [pierceboggan/primer](https://github.com/pierceboggan/primer) | Get your repo ready for AI. | `TypeScript` ★ 621 | 2026-02-24 |

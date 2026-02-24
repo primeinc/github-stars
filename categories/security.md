@@ -1,11 +1,19 @@
 # Security
 
-*13 repositories*
+*21 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [systommy/TenantReports](https://github.com/systommy/TenantReports) | A Power Shell module for generating Microsoft 365 and Azure security reports. | `PowerShell` ★ 18 | 2026-02-23 |
+| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | `TypeScript` ★ 28.7k | 2026-02-24 |
+| [killnine/tanstack-msal-entra-troubleshooting](https://github.com/killnine/tanstack-msal-entra-troubleshooting) | Sample Application for Troubleshooting Authz Issues | `TypeScript` ★ 1 | 2026-02-04 |
+| [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) | Language-agnostic SLSA provenance generation for Github Actions | `Go` ★ 546 | 2026-02-21 |
+| [gadievron/raptor](https://github.com/gadievron/raptor) | Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and orchestrating security tool usage, we confi... | `Python` ★ 1.1k | 2026-02-23 |
+| [google/timesketch](https://github.com/google/timesketch) | Collaborative forensic timeline analysis | `Python` ★ 3.3k | 2026-02-23 |
+| [cloud-gov/caulking](https://github.com/cloud-gov/caulking) | A small utility that keeps your Git repositories from leaking secrets, skipping hooks, or quietly drifting out of compliance. It’s designed to be boring, fast, and hard to screw up. | `Shell` ★ 34 | 2026-02-23 |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | Find secrets with Gitleaks 🔑 | `Go` ★ 25.1k | 2026-02-21 |
 | [anonaddy/anonaddy](https://github.com/anonaddy/anonaddy) | Anonymous email forwarding | `PHP` ★ 4.5k | 2026-02-18 |
 | [six2dez/burp-ai-agent](https://github.com/six2dez/burp-ai-agent) | Burp Suite extension that adds built-in MCP tooling, AI-assisted analysis, privacy controls, passive and active scanning and more | `Kotlin` ★ 657 | 2026-02-19 |
 | [slopus/murmur](https://github.com/slopus/murmur) | Encrypted Messaging for Clawdbot | `TypeScript` ★ 61 | 2026-02-04 |

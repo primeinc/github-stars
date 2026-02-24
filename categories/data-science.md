@@ -1,12 +1,19 @@
 # Data-science
 
-*11 repositories*
+*18 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be! | `Python` ★ 11.4k | 2026-02-23 |
+| [thinkwee/DDR_Bench](https://github.com/thinkwee/DDR_Bench) | Deep Data Research. Seek More, See Beyond. | `Python` ★ 14 | 2026-02-06 |
+| [google/timesketch](https://github.com/google/timesketch) | Collaborative forensic timeline analysis | `Python` ★ 3.3k | 2026-02-23 |
+| [cytoscape/cytoscape.js](https://github.com/cytoscape/cytoscape.js) | Graph theory (network) library for visualisation and analysis | `JavaScript` ★ 10.9k | 2026-01-21 |
+| [patrickhulce/third-party-web](https://github.com/patrickhulce/third-party-web) | Data on third party entities and their impact on the web. | `JavaScript` ★ 1.1k | 2025-12-01 |
+| [Turfjs/turf](https://github.com/Turfjs/turf) | A modular geospatial engine written in Java Script and Type Script | `TypeScript` ★ 10.3k | 2026-02-18 |
+| [visgl/react-map-gl](https://github.com/visgl/react-map-gl) | React friendly API wrapper around Mapbox GL JS | `TypeScript` ★ 8.4k | 2026-02-03 |
+| [neonichu/githop](https://github.com/neonichu/githop) | Uses Big Query and Git Hub Archive to create something like Time Hop for Git Hub. | `Ruby` ★ 78 | 2024-02-02 |
 | [ssmisya/AdaReasoner](https://github.com/ssmisya/AdaReasoner) | \[ICLR 2026\] The official repository for the paper "Ada Reasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning". | `Jupyter Notebook` ★ 68 | 2026-01-27 |
 | [xinyu1205/recognize-anything](https://github.com/xinyu1205/recognize-anything) | Open-source and strong foundation image recognition models. | `Jupyter Notebook` ★ 3.6k | 2025-02-18 |
 | [cyanheads/clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | A Model Context Protocol (MCP) Server providing LLM tools for the official Clinical Trials.gov REST API. Search and retrieve clinical trial data, including study details and more | `TypeScript` ★ 48 | 2025-10-21 |

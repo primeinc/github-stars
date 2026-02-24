@@ -1,11 +1,16 @@
 # System-admin
 
-*6 repositories*
+*11 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [bbmumford/Intune-Toolkit](https://github.com/bbmumford/Intune-Toolkit) | my personal collection of scripts & guides to configuring a standard enterprise Intune enviroment. | `Opal` ★ 69 | 2026-01-09 |
+| [microsoft/EntraExporter](https://github.com/microsoft/EntraExporter) | Power Shell module to export a local copy of an Entra (Azure AD) tenant configuration. | `PowerShell` ★ 830 | 2025-11-16 |
+| [systommy/TenantReports](https://github.com/systommy/TenantReports) | A Power Shell module for generating Microsoft 365 and Azure security reports. | `PowerShell` ★ 18 | 2026-02-23 |
+| [Dicklesworthstone/agentic_coding_flywheel_setup](https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup) | System setup tool for beginners wanting agentic engineering capabilities - transforms a fresh VPS into a fully-armed agentic coding environment in under an hour. | `Shell` ★ 1.1k | 2026-02-24 |
+| [cloud-gov/caulking](https://github.com/cloud-gov/caulking) | A small utility that keeps your Git repositories from leaking secrets, skipping hooks, or quietly drifting out of compliance. It’s designed to be boring, fast, and hard to screw up. | `Shell` ★ 34 | 2026-02-23 |
 | [microsoft/bf-tree](https://github.com/microsoft/bf-tree) | Bf-Tree is a modern read-write-optimized concurrent larger-than-memory range index in Rust from MS Research. | `Rust` ★ 965 | 2026-02-10 |
 | [elm1nst3r/GHOST-osint-crm](https://github.com/elm1nst3r/GHOST-osint-crm) | GHOST - Global Human Operations & Surveillance Tracking: Open-source investigation management platform for tracking people, connections, and intelligence data. Because Excel spreadsheets are for ac... | `JavaScript` ★ 269 | 2026-01-29 |
 | [trycua/cua](https://github.com/trycua/cua) | Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (mac OS, Linux, Windows). | `Python` ★ 12.7k | 2026-02-24 |

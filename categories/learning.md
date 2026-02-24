@@ -1,11 +1,16 @@
 # Learning
 
-*9 repositories*
+*14 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [merill/awesome-entra](https://github.com/merill/awesome-entra) | 😎 Awesome list of all things related to Microsoft Entra | ★ 723 | 2025-09-01 |
+| [project-open-data/project-open-data.github.io](https://github.com/project-open-data/project-open-data.github.io) | Open Data Policy — Managing Information as an Asset | `HTML` ★ 1.4k | 2024-08-19 |
+| [18F/development-guide](https://github.com/18F/development-guide) | A set of guidelines and best practices for an awesome software engineering team | `HTML` ★ 1.4k | 2024-03-19 |
+| [dustinspecker/awesome-eslint](https://github.com/dustinspecker/awesome-eslint) | A list of awesome ESLint plugins, configs, etc. | ★ 4.7k | 2026-01-09 |
+| [nrwl/nx-examples](https://github.com/nrwl/nx-examples) | Example repo for Nx workspace | `TypeScript` ★ 955 | 2026-02-23 |
 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | No description provided | ★ 6.8k | 2026-02-16 |
 | [engineering-management/awesome-engineering-management](https://github.com/engineering-management/awesome-engineering-management) | Pointers and tools for learning and day-to-day practice of engineering management & leadership. | ★ 2.6k | 2024-12-14 |
 | [daytonaio/ai-enablement-stack](https://github.com/daytonaio/ai-enablement-stack) | A Community-Driven Mapping of AI Development Tools | `HTML` ★ 601 | 2025-08-11 |

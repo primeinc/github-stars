@@ -1,11 +1,18 @@
 # Documentation
 
-*14 repositories*
+*21 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [merill/graph-permissions-explorer](https://github.com/merill/graph-permissions-explorer) | Repository for public site hosting graph permissions | `HTML` ★ 33 | 2026-02-24 |
+| [merill/awesome-entra](https://github.com/merill/awesome-entra) | 😎 Awesome list of all things related to Microsoft Entra | ★ 723 | 2025-09-01 |
+| [project-open-data/project-open-data.github.io](https://github.com/project-open-data/project-open-data.github.io) | Open Data Policy — Managing Information as an Asset | `HTML` ★ 1.4k | 2024-08-19 |
+| [cfpb/open-source-checklist](https://github.com/cfpb/open-source-checklist) | check internal repos against open source checklist requirements | `JavaScript` ★ 628 | 2019-01-18 |
+| [18F/development-guide](https://github.com/18F/development-guide) | A set of guidelines and best practices for an awesome software engineering team | `HTML` ★ 1.4k | 2024-03-19 |
+| [dustinspecker/awesome-eslint](https://github.com/dustinspecker/awesome-eslint) | A list of awesome ESLint plugins, configs, etc. | ★ 4.7k | 2026-01-09 |
+| [cursor/agent-trace](https://github.com/cursor/agent-trace) | A standard format for tracing AI-generated code. | `TypeScript` ★ 600 | 2026-02-06 |
 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | No description provided | ★ 6.8k | 2026-02-16 |
 | [ITContractorsUnion/ITContractorsUnion](https://github.com/ITContractorsUnion/ITContractorsUnion) | Repo For All Downloadable Data | `HTML` ★ 119 | 2026-02-19 |
 | [workflowr/workflowr](https://github.com/workflowr/workflowr) | Organize your project into a research website | `R` ★ 888 | 2025-08-19 |

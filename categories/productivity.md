@@ -1,11 +1,22 @@
 # Productivity
 
-*28 repositories*
+*39 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [bbmumford/Intune-Toolkit](https://github.com/bbmumford/Intune-Toolkit) | my personal collection of scripts & guides to configuring a standard enterprise Intune enviroment. | `Opal` ★ 69 | 2026-01-09 |
+| [Songmu/tagpr](https://github.com/Songmu/tagpr) | automatically creates and updates a pull request for unreleased items, tag them when they are merged, and create releases. | `Go` ★ 280 | 2026-02-16 |
+| [hey-api/openapi-ts](https://github.com/hey-api/openapi-ts) | 🌀 Open API to Type Script codegen. Production-ready SDKs, Zod schemas, Tan Stack Query hooks, and 20+ plugins. Used by Vercel, Open Code, and Pay Pal. | `TypeScript` ★ 4.2k | 2026-02-23 |
+| [codeforamerica/adopt-a-hydrant](https://github.com/codeforamerica/adopt-a-hydrant) | A web application that allows citizens to "adopt" civic infrastructure, such as fire hydrants that need to be shoveled out after it snows. | `Ruby` ★ 770 | 2023-09-26 |
+| [vicinaehq/vicinae](https://github.com/vicinaehq/vicinae) | A focused launcher for your desktop — native, fast, extensible | `C++` ★ 6.5k | 2026-02-24 |
+| [jacob-j/vscode-folder-path-color](https://github.com/jacob-j/vscode-folder-path-color) | All subfolders within a specified path will be assigned a color for easy differentiation. | `TypeScript` ★ 33 | 2025-08-26 |
+| [webpro-nl/knip](https://github.com/webpro-nl/knip) | ✂️ Find unused files, dependencies and exports in your Java Script and Type Script projects. Knip it before you ship it! | `TypeScript` ★ 10.3k | 2026-02-23 |
+| [JamieMason/syncpack](https://github.com/JamieMason/syncpack) | Consistent dependency versions in large Java Script Monorepos. | `Rust` ★ 1.9k | 2026-02-19 |
+| [nrwl/nx](https://github.com/nrwl/nx) | Get to green PRs in half the time. Nx optimizes your builds, scales your CI, and fixes failed PRs. Built for developers and AI agents. | `TypeScript` ★ 28.2k | 2026-02-24 |
+| [loeffel-io/ls-lint](https://github.com/loeffel-io/ls-lint) | An extremely fast directory and filename linter - Bring some structure to your project filesystem | `Go` ★ 2.4k | 2026-02-19 |
+| [neonichu/githop](https://github.com/neonichu/githop) | Uses Big Query and Git Hub Archive to create something like Time Hop for Git Hub. | `Ruby` ★ 78 | 2024-02-02 |
 | [streetwriters/notesnook](https://github.com/streetwriters/notesnook) | A fully open source & end-to-end encrypted note taking alternative to Evernote. | `TypeScript` ★ 13.7k | 2026-02-24 |
 | [raphaelsty/knowledge](https://github.com/raphaelsty/knowledge) | Open-source personal bookmarks search engine | `Python` ★ 726 | 2026-02-24 |
 | [pierceboggan/primer](https://github.com/pierceboggan/primer) | Get your repo ready for AI. | `TypeScript` ★ 621 | 2026-02-24 |

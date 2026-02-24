@@ -1,11 +1,12 @@
 # Tag: ai
 
-*11 repositories*
+*12 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [cursor/agent-trace](https://github.com/cursor/agent-trace) | A standard format for tracing AI-generated code. | `TypeScript` ★ 600 | 2026-02-06 |
 | [six2dez/burp-ai-agent](https://github.com/six2dez/burp-ai-agent) | Burp Suite extension that adds built-in MCP tooling, AI-assisted analysis, privacy controls, passive and active scanning and more | `Kotlin` ★ 657 | 2026-02-19 |
 | [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 4.4k | 2026-02-22 |
 | [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi) | No description provided | `Python` ★ 22.1k | 2026-01-31 |

@@ -1,11 +1,13 @@
 # Cloud
 
-*4 repositories*
+*6 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [microsoft/EntraExporter](https://github.com/microsoft/EntraExporter) | Power Shell module to export a local copy of an Entra (Azure AD) tenant configuration. | `PowerShell` ★ 830 | 2025-11-16 |
+| [mspnp/aks-baseline](https://github.com/mspnp/aks-baseline) | This is the Azure Kubernetes Service (AKS) Baseline Cluster reference implementation as produced by the Microsoft Azure Architecture Center. | `Bicep` ★ 744 | 2026-02-19 |
 | [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) | The developer platform for on-demand cloud development environments to create software faster and more securely. | `TypeScript` ★ 13.6k | 2026-02-17 |
 | [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp) | A Kubernetes web UI that is fully-featured, user-friendly and extensible | `TypeScript` ★ 5.8k | 2026-02-23 |
 | [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) | :file\_folder: File Management Platform / Universal Data Access Gateway (without FUSE) | `JavaScript` ★ 13.7k | 2026-02-23 |

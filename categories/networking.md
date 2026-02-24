@@ -1,12 +1,13 @@
 # Networking
 
-*6 repositories*
+*7 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | A community driven registry service for Model Context Protocol (MCP) servers. | `Go` ★ 6.5k | 2026-02-24 |
+| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | `TypeScript` ★ 28.7k | 2026-02-24 |
 | [slopus/murmur](https://github.com/slopus/murmur) | Encrypted Messaging for Clawdbot | `TypeScript` ★ 61 | 2026-02-04 |
 | [amnezia-vpn/amneziawg-windows-client](https://github.com/amnezia-vpn/amneziawg-windows-client) | Amnezia WG client for Windows | `Go` ★ 611 | 2025-12-08 |
 | [pimalaya/himalaya](https://github.com/pimalaya/himalaya) | CLI to manage emails | `Rust` ★ 5.6k | 2026-02-21 |

@@ -1,12 +1,13 @@
 # Desktop-dev
 
-*10 repositories*
+*11 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, Open Code & Gemini CLI. | `Rust` ★ 19.6k | 2026-02-24 |
+| [vicinaehq/vicinae](https://github.com/vicinaehq/vicinae) | A focused launcher for your desktop — native, fast, extensible | `C++` ★ 6.5k | 2026-02-24 |
 | [streetwriters/notesnook](https://github.com/streetwriters/notesnook) | A fully open source & end-to-end encrypted note taking alternative to Evernote. | `TypeScript` ★ 13.7k | 2026-02-24 |
 | [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 4.4k | 2026-02-22 |
 | [File-New-Project/EarTrumpet](https://github.com/File-New-Project/EarTrumpet) | Ear Trumpet - Volume Control for Windows | `C#` ★ 10.7k | 2026-02-22 |

@@ -1,11 +1,12 @@
 # Mobile-dev
 
-*4 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) | CLI to control i OS and Android devices for AI agents | `TypeScript` ★ 790 | 2026-02-23 |
 | [slopus/happy](https://github.com/slopus/happy) | Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured | `TypeScript` ★ 13.2k | 2026-02-14 |
 | [simpsoka/jules-companion](https://github.com/simpsoka/jules-companion) | No description provided | `Swift` ★ 83 | 2026-01-24 |
 | [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) | bluetooth mesh chat, IRC vibes | `Swift` ★ 25.2k | 2026-02-22 |

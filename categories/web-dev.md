@@ -1,11 +1,17 @@
 # Web-dev
 
-*17 repositories*
+*23 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | `TypeScript` ★ 28.7k | 2026-02-24 |
+| [wet-boew/wet-boew](https://github.com/wet-boew/wet-boew) | Web Experience Toolkit (WET): Open source code library for building innovative websites that are accessible, usable, interoperable, mobile-friendly and multilingual. This collaborative open source ... | `Handlebars` ★ 1.7k | 2026-02-16 |
+| [codeforamerica/adopt-a-hydrant](https://github.com/codeforamerica/adopt-a-hydrant) | A web application that allows citizens to "adopt" civic infrastructure, such as fire hydrants that need to be shoveled out after it snows. | `Ruby` ★ 770 | 2023-09-26 |
+| [nasa/openmct](https://github.com/nasa/openmct) | A web based mission control framework. | `JavaScript` ★ 12.8k | 2026-02-23 |
+| [patrickhulce/third-party-web](https://github.com/patrickhulce/third-party-web) | Data on third party entities and their impact on the web. | `JavaScript` ★ 1.1k | 2025-12-01 |
+| [Turfjs/turf](https://github.com/Turfjs/turf) | A modular geospatial engine written in Java Script and Type Script | `TypeScript` ★ 10.3k | 2026-02-18 |
 | [raphaelsty/knowledge](https://github.com/raphaelsty/knowledge) | Open-source personal bookmarks search engine | `Python` ★ 726 | 2026-02-24 |
 | [sdorra/content-collections](https://github.com/sdorra/content-collections) | Transform your content into type-safe data collections | `TypeScript` ★ 1.1k | 2026-02-23 |
 | [get-convex/convex-saas](https://github.com/get-convex/convex-saas) | A production-ready Convex Stack for your next Saa S application with Convex Auth, Stripe, Tan Stack, Resend, Tailwindcss, and shadcn. | `TypeScript` ★ 338 | 2026-02-05 |

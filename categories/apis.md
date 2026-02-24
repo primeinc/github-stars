@@ -1,12 +1,15 @@
 # Apis
 
-*9 repositories*
+*12 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | A community driven registry service for Model Context Protocol (MCP) servers. | `Go` ★ 6.5k | 2026-02-24 |
+| [merill/graph-permissions-explorer](https://github.com/merill/graph-permissions-explorer) | Repository for public site hosting graph permissions | `HTML` ★ 33 | 2026-02-24 |
+| [hey-api/openapi-ts](https://github.com/hey-api/openapi-ts) | 🌀 Open API to Type Script codegen. Production-ready SDKs, Zod schemas, Tan Stack Query hooks, and 20+ plugins. Used by Vercel, Open Code, and Pay Pal. | `TypeScript` ★ 4.2k | 2026-02-23 |
+| [killnine/tanstack-msal-entra-troubleshooting](https://github.com/killnine/tanstack-msal-entra-troubleshooting) | Sample Application for Troubleshooting Authz Issues | `TypeScript` ★ 1 | 2026-02-04 |
 | [anonaddy/anonaddy](https://github.com/anonaddy/anonaddy) | Anonymous email forwarding | `PHP` ★ 4.5k | 2026-02-18 |
 | [get-convex/twilio](https://github.com/get-convex/twilio) | Convex component for sending/receiving SMS messages with Twilio | `TypeScript` ★ 12 | 2026-02-23 |
 | [SamyRai/namecheap](https://github.com/SamyRai/namecheap) | A CLI tool for managing Namecheap domains and DNS records with multi-account support | `Go` ★ 2 | 2026-02-03 |

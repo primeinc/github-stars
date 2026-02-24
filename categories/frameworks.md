@@ -1,11 +1,12 @@
 # Frameworks
 
-*4 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [nasa/openmct](https://github.com/nasa/openmct) | A web based mission control framework. | `JavaScript` ★ 12.8k | 2026-02-23 |
 | [Effect-TS/effect](https://github.com/Effect-TS/effect) | Build production-ready applications in Type Script | `TypeScript` ★ 13.3k | 2026-02-22 |
 | [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5k | 2026-02-23 |
 | [rkyv/rkyv](https://github.com/rkyv/rkyv) | Zero-copy deserialization framework for Rust | `Rust` ★ 4k | 2026-02-20 |
