@@ -1,0 +1,14 @@
+# CodeQL configuration for github-stars repository
+# https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning
+
+name: "CodeQL Config"
+
+# Paths to ignore during analysis
+paths-ignore:
+  - 'dist/**'
+  - 'build/**'
+  - '**/*.min.js'
+  - '**/*.min.css'
+  - 'node_modules/**'
+  - 'web/dist/**'
+  - 'web/build/**'

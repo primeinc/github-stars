@@ -1,0 +1,29 @@
+# Code Owners for github-stars repository
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# IMPORTANT: This file defines code ownership for routing purposes only.
+# Branch protection rules must be configured separately in GitHub Settings.
+# Do NOT rely on "Require review from Code Owners" without explicit branch rules.
+
+# Code ownership assignments
+# Primary maintainer: @primeinc
+
+# Global ownership (default)
+*       @primeinc
+
+# GitHub Actions workflows and configuration
+.github/*       @primeinc
+
+# Scripts (especially security-sensitive shell scripts)
+scripts/*       @primeinc
+
+# Security policy
+SECURITY.md     @primeinc
+
+# Schema and core data files
+schemas/*       @primeinc
+repos.yml       @primeinc
+
+# Documentation
+docs/*          @primeinc
+*.md            @primeinc

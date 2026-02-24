@@ -12,13 +12,16 @@ permissions:
   contents: write
   issues: write
 
+# Ensure only one instance runs at a time
 concurrency:
-  group: sync-stars-${{ github.ref }}
+  group: sync-stars
   cancel-in-progress: false
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 15  # Prevent hung workflows
+    # Run on all branches for validation, but only commit from main
     if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
 
     steps:
@@ -55,16 +58,28 @@ jobs:
             const fs = require('fs');
             const { execSync } = require('child_process');
             
-            const starsDataPath = '.github-stars/data/fetched-stars-graphql.json';
-            if (!fs.existsSync(starsDataPath)) {
-              core.setFailed('Run fetch-stars workflow first.');
-              return;
+            // In validation mode (non-main branches), artifact is not committed
+            // Download it from the triggering workflow run instead
+            const currentBranch = context.ref.replace('refs/heads/', '');
+            let starsDataPath = '.github-stars/data/fetched-stars-graphql.json';
+            
+            if (currentBranch !== 'main') {
+              console.log('⚠️  Non-main branch: checking for upstream artifact...');
+              // Artifact should be downloaded separately in validation mode
+              // For now, check if file exists, otherwise provide helpful error
+              if (!fs.existsSync(starsDataPath)) {
+                core.setFailed('Validation mode: fetched-stars artifact not found. Download artifact from triggering workflow run first.');
+                process.exit(1);
+              }
+            } else if (!fs.existsSync(starsDataPath)) {
+              core.setFailed('Run fetch-stars workflow first (file not found in committed workspace).');
+              process.exit(1);  // Actually exit
             }
 
             const starsData = JSON.parse(fs.readFileSync(starsDataPath, 'utf8'));
             if (!Array.isArray(starsData)) {
               core.setFailed('Invalid stars data format');
-              return;
+              process.exit(1);  // Actually exit
             }
             
             console.log(`Found ${starsData.length} starred repositories`);
@@ -211,11 +226,30 @@ jobs:
       - name: Commit changes
         if: steps.diff.outputs.changed == 'true'
         run: |
+          CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+          
+          if [ "$CURRENT_BRANCH" != "main" ]; then
+            echo "=========================================="
+            echo "⚠️  VALIDATION MODE (branch: $CURRENT_BRANCH)"
+            echo "=========================================="
+            echo "✅ Workflow executed successfully"
+            echo "✅ Changes validated (would add ${{ steps.diff.outputs.total_new }} repos)"
+            echo "❌ Skipping commit (not on main branch)"
+            echo ""
+            echo "This prevents data corruption while allowing PR validation."
+            echo "=========================================="
+            exit 0
+          fi
+          
+          echo "=========================================="
+          echo "✅ PRODUCTION MODE (branch: main)"
+          echo "=========================================="
+          echo "Committing ${{ steps.diff.outputs.total_new }} new repositories to main branch..."
+          
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add repos.yml
           git commit -m "Sync ${{ steps.diff.outputs.total_new }} new starred repositories [skip ci]"
-          for i in 1 2 3 4 5; do
-            git pull --rebase --autostash origin main
-            git push && break || sleep 10
-          done
+          bash scripts/safe-git-push.sh main
+          echo "✅ Changes committed and pushed"
+          echo "=========================================="

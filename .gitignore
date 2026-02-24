@@ -22,3 +22,12 @@ Thumbs.db
 *.temp
 .cache/
 yq
+
+# LLM Agent artifacts (planning, debugging, temp files)
+.sisyphus/
+.copilot/
+*.agent.md
+*-prompt.md
+*-plan.md
+planning/
+.anthropic/
