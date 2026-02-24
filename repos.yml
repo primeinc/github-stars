@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-24T07:52:56.720Z'
+  manifest_updated_at: '2026-02-24T07:53:18.135Z'
   total_repos: 399
   generator_version: v1.0.0
   github_user: primeinc
@@ -13528,13 +13528,18 @@ repositories:
     framework: null
   - repo: ImpulseAdventure/JPEGsnoop
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - jpeg-decoder
+      - image-analysis
+      - parser
+      - lang:cpp
     summary: 'JPEGsnoop: JPEG decoder and detailed analysis'
     last_synced_sha: 9732ee0961f100eb69bbff4a0c47438d5997abee
     user_starred_at: '2026-02-11T06:18:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -13566,15 +13571,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.237Z'
+      prompt_version: v3
   - repo: ics-py/ics-py
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+      - documentation
+    tags:
+      - ics
+      - python-calendar
+      - rfc5545
+      - event
+      - lang:python
     summary: Pythonic and easy i Calendar library (rfc5545)
     last_synced_sha: 3b7d07295f60a5d607ee0fa3a552c252f9e163f0
     user_starred_at: '2026-02-11T06:17:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -13602,15 +13618,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.237Z'
+      prompt_version: v3
   - repo: g-plane/typed-query-selector
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - query-selector
+      - typed-query
+      - typescript
+      - lang:ts
     summary: Better typed `query Selector` and `query Selector All`.
     last_synced_sha: ce26a49c077ce3f4d4337b92b3e597bbdcd77ade
     user_starred_at: '2026-02-11T06:16:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -13630,15 +13655,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.237Z'
+      prompt_version: v3
   - repo: 003random/getJS
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - security
+    tags:
+      - reconnaissance
+      - javascript-files
+      - pentesting
+      - bugbounty
+      - lang:go
     summary: A tool to fastly get all javascript sources/files
     last_synced_sha: 4346a2d46d63348f9509c796108f2768d0ee72c9
     user_starred_at: '2026-02-11T06:15:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -13672,15 +13707,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.237Z'
+      prompt_version: v3
   - repo: DFIRKuiper/Kuiper
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - digital-forensics
+      - incident-response
+      - dfir
+      - lang:js
     summary: Digital Forensics Investigation Platform
     last_synced_sha: 3798c381495dbf2c20f8ec71841923a8df6b4970
     user_starred_at: '2026-02-11T06:15:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -13706,15 +13750,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.237Z'
+      prompt_version: v3
   - repo: microsoft/tolerant-php-parser
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - php-parser
+      - ast
+      - error-tolerant
+      - lang:php
     summary: An early-stage PHP parser designed for IDE usage scenarios.
     last_synced_sha: 457738cbec8a6b337b00946df4228d830d6068b0
     user_starred_at: '2026-02-11T06:15:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -13739,15 +13792,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.237Z'
+      prompt_version: v3
   - repo: guessit-io/guessit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - data-science
+    tags:
+      - media-parser
+      - filename-parser
+      - lang:python
     summary: Guess It is a python library that extracts as much information as possible from a video filename.
     last_synced_sha: b145ae2791b9a77db68f20abf4ed4731a4dd8a0a
     user_starred_at: '2026-02-11T06:14:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -13773,15 +13834,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.237Z'
+      prompt_version: v3
   - repo: APIDevTools/json-schema-ref-parser
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+    tags:
+      - json-schema
+      - json-resolver
+      - parser
+      - lang:ts
     summary: Parse, Resolve, and Dereference JSON Schema $ref pointers in Node and browsers
     last_synced_sha: 78b33236ebc4faadf733c24e95cfa58b2c6774ff
     user_starred_at: '2026-02-11T06:13:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -13810,15 +13880,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.237Z'
+      prompt_version: v3
   - repo: collective/icalendar
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - icalendar
+      - event-parser
+      - calendar
+      - lang:python
     summary: icalendar parser library for Python
     last_synced_sha: 78bceddf3fa876e9dd38d92ac142b64c6d03325a
     user_starred_at: '2026-02-11T06:12:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -13848,15 +13927,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.237Z'
+      prompt_version: v3
   - repo: meriyah/meriyah
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - javascript-parser
+      - ecmascript
+      - ast
+      - lang:ts
     summary: A 100% compliant, self-hosted javascript parser - https://meriyah.github.io/meriyah
     last_synced_sha: c6904bce68ec824ca7dc9a42a7e5eb6352eddd47
     user_starred_at: '2026-02-11T06:12:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -13889,15 +13977,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.237Z'
+      prompt_version: v3
   - repo: APIDevTools/swagger-parser
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+    tags:
+      - swagger
+      - openapi
+      - api-validator
+      - json-schema
+      - lang:js
     summary: Swagger 2.0 and Open API 3.0 parser/validator
     last_synced_sha: 8dcd391feea7c7dd694bb20b8706fcb53f736ba5
     user_starred_at: '2026-02-11T06:12:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -13929,15 +14027,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.237Z'
+      prompt_version: v3
   - repo: webtoon/psd
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - psd-parser
+      - web
+      - photoshop
+      - lang:ts
     summary: Fast zero-dependency PSD parser for the web and Node.js
     last_synced_sha: d1a9a32ad38ff17c16f94562fc2dd47018338e78
     user_starred_at: '2026-02-11T06:11:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -13966,15 +14073,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.233Z'
+      prompt_version: v3
   - repo: daniele77/cli
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+      - productivity
+    tags:
+      - cli
+      - interactive-ui
+      - user-interface
+      - lang:cpp
     summary: A library for interactive command line interfaces in modern C++
     last_synced_sha: 769c5fa060b94b39e43e1d6554775af7e73928cc
     user_starred_at: '2026-02-11T06:10:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -13999,15 +14116,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.233Z'
+      prompt_version: v3
   - repo: ruimarinho/google-libphonenumber
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+    tags:
+      - phone-parser
+      - formatter
+      - libphonenumber
+      - lang:js
     summary: The up-to-date and reliable Google's libphonenumber package for node.js.
     last_synced_sha: 90a74672cb7c9308224f3a4b0953ea9be13dbb68
     user_starred_at: '2026-02-11T06:10:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -14029,15 +14155,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.233Z'
+      prompt_version: v3
   - repo: LibPDF-js/core
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+      - documentation
+    tags:
+      - pdf
+      - parser
+      - pdf-generator
+      - esign
+      - lang:ts
     summary: A modern PDF library for Type Script. Parse, modify, and generate PDFs with a clean, intuitive API.
     last_synced_sha: 035b482bb5516714d470b2138a487cf503c3c63b
     user_starred_at: '2026-02-11T06:10:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14070,6 +14207,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:53:17.233Z'
+      prompt_version: v3
   - repo: rsms/markdown-wasm
     categories:
       - dev-tools
