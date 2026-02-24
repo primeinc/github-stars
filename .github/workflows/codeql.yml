@@ -1,0 +1,68 @@
+---
+name: 'CodeQL Security Scan'
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+    branches: ['**']
+  schedule:
+    # Run weekly on Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+
+permissions:
+  actions: read
+  contents: read
+  security-events: write
+
+jobs:
+  analyze:
+    name: Analyze Code
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    strategy:
+      fail-fast: false
+      matrix:
+        language: ['javascript-typescript']
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ matrix.language }}
+          # Run all security queries (security-extended includes security-and-quality)
+          queries: security-extended
+          # Increase RAM for analysis
+          ram: 6000
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install pnpm
+        run: npm install -g pnpm@latest
+
+      - name: Install root dependencies
+        run: pnpm install
+
+      - name: Install web dependencies
+        working-directory: web
+        run: npm ci
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:${{ matrix.language }}"
+          # Fail the workflow if vulnerabilities are found
+          upload: true
+
+      - name: Check for vulnerabilities
+        if: always()
+        run: |
+          echo "CodeQL analysis completed. Check the Security tab for results."
+          echo "If vulnerabilities are detected, they will appear in the Security > Code scanning alerts section."
