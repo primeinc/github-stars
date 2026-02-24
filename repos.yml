@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-24T07:52:04.708Z'
+  manifest_updated_at: '2026-02-24T07:52:31.717Z'
   total_repos: 399
   generator_version: v1.0.0
   github_user: primeinc
@@ -14643,13 +14643,19 @@ repositories:
     framework: null
   - repo: vectordotdev/vector
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - networking
+    tags:
+      - observability
+      - metrics
+      - stream-processing
+      - data-pipeline
+      - lang:rust
     summary: A high-performance observability data pipeline.
     last_synced_sha: 724bb428767c185d949686be1f77cd98288cb412
     user_starred_at: '2026-02-11T05:52:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -14681,15 +14687,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: opendatalab/MinerU
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - extract-data
+      - pdf-parser
+      - ocr
+      - agentic-workflows
+      - lang:python
     summary: Transforms complex documents like PDFs into LLM-ready markdown/JSON for your Agentic workflows.
     last_synced_sha: a12610fb3e9e24488fe3e76cd233ba88ec64bbaf
     user_starred_at: '2026-02-11T05:51:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -14722,15 +14738,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: ohmjs/ohm
     categories:
-      - unclassified
-    tags: []
+      - learning
+    tags:
+      - parsing
+      - grammars
+      - compiler
+      - interpreters
+      - lang:js
     summary: A library and language for building parsers, interpreters, compilers, etc.
     last_synced_sha: 6e30cd2a685c3ace88b4269dceddc711e392df98
     user_starred_at: '2026-02-11T05:46:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -14757,15 +14782,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: prag-matt-ic/ps5-inspired-landing-page
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - ps5
+      - web-design
+      - landing-page
+      - lang:ts
     summary: PS5 loading screen inspired showcase
     last_synced_sha: afae826ce6a0fe3eb56645003587f487e0f97925
     user_starred_at: '2026-02-11T05:45:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -14783,15 +14817,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: moonrepo/moon
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - build-system
+      - monorepo
+      - ci-cd
+      - task-runner
+      - lang:rust
     summary: A build system and monorepo management tool for the web ecosystem, written in Rust.
     last_synced_sha: f7824890ae275f75c547fee9b78f55890131ae91
     user_starred_at: '2026-02-11T03:50:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -14827,15 +14871,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: stackblitz/webcontainer-core
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cloud
+    tags:
+      - dev-environments
+      - browser
+      - nodejs
+      - webcontainer
     summary: Dev environments. In your web app.
     last_synced_sha: 539de1335e893ebe8eaf2df69cd5f056babf1091
     user_starred_at: '2026-02-10T18:23:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -14857,15 +14910,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: stackblitz/bolt.new
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+      - deployment
+    tags:
+      - full-stack
+      - chatbot
+      - webcontainers
+      - ai-playground
+      - lang:ts
     summary: 'Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz'
     last_synced_sha: eda10b121221b30825a4c16eec5da1fd3eb1eb99
     user_starred_at: '2026-02-10T18:23:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14887,15 +14951,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: live-codes/livecodes
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - code-playground
+      - editor
+      - monaco-editor
+      - live-coding
+      - lang:ts
     summary: A Code Playground That Just Works!
     last_synced_sha: 2be91f3c43b093ccef59ea1d79103bf4248afc03
     user_starred_at: '2026-02-10T18:23:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14926,15 +15000,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: conradkoh/artifact-cli
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: c624a198bfce4c568bed44e7855c82172ce2af38
     user_starred_at: '2026-02-10T18:22:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -14952,15 +15031,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: nyeya/live-editor
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - code-editor
+      - frontend-development
+      - live-coding
+      - lang:ts
     summary: A realtime live code editor for your frontend projects
     last_synced_sha: 3db7f92261970608fa42d220a84ea375a428dc8d
     user_starred_at: '2026-02-10T18:22:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -14978,15 +15066,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: handlebauer/ts-preview
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: b9a81ee8b033324d75bb0f1c53ab692fce5d85cd
     user_starred_at: '2026-02-10T18:22:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -15004,15 +15097,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: Sunny-117/webcontainer-ide
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - browser-based
+      - ide
+      - nodejs
+      - vite
+      - lang:ts
     summary: Web Container IDE is a production-ready, browser-based development environment that brings the full power of Node.js to your browser. Built on Stack Blitz's Web Container technology, it enables dev...
     last_synced_sha: 70803050c8e9dfd42274c3e3ab30c66c2a2a9040
     user_starred_at: '2026-02-10T18:21:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -15040,15 +15143,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: MicrosoftRajan/CipherStudio
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: aa93d66c349c3e08f6cc0a9f9480197e98756c3b
     user_starred_at: '2026-02-10T18:20:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -15066,15 +15174,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: codesandbox/sandpack
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - reactjs
+      - live-coding
+      - sandbox
+      - code-editor
+      - lang:ts
     summary: A component toolkit for creating live-running code editing experiences, using the power of Code Sandbox.
     last_synced_sha: 7d60a4334980eef304d53b1c3df371ed6dbcf491
     user_starred_at: '2026-02-10T17:33:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -15100,16 +15218,24 @@ repositories:
         published_at: '2025-02-14T13:14:41Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: marshallrichards/ClawPhone
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - embedded
+    tags:
+      - android
+      - mobile-platform
+      - lang:python
     summary: Tweaks for running Open Claw on a Android smartphone
     last_synced_sha: f6aefb1eb658aaec43162f5aa913592f17c6661b
     user_starred_at: '2026-02-10T14:21:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -15127,6 +15253,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:30.764Z'
+      prompt_version: v3
   - repo: evinjohnn/natively-cluely-ai-assistant
     categories:
       - ai-ml
