@@ -28,6 +28,60 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Audit dependencies (root)
+        run: |
+          echo "::group::Auditing root package dependencies"
+          echo "## 🔒 Security Audit - Root Package" >> $GITHUB_STEP_SUMMARY
+          pnpm audit --audit-level=high --ignore-registry-errors > /tmp/audit-root.log 2>&1 || true
+          AUDIT_EXIT=$?
+          
+          if [ $AUDIT_EXIT -ne 0 ]; then
+            echo "::error::High or critical vulnerabilities found in root package dependencies"
+            echo "❌ **FAILED**: High or critical vulnerabilities detected" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Audit Output:" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            cat /tmp/audit-root.log >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Action Required**: Run \`pnpm audit\` locally to see details and \`pnpm audit --fix\` to attempt automatic fixes" >> $GITHUB_STEP_SUMMARY
+            cat /tmp/audit-root.log
+            exit 1
+          fi
+          
+          echo "✅ **PASSED**: No high or critical vulnerabilities found" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ No high or critical vulnerabilities found in root package"
+          echo "::endgroup::"
+
+      - name: Audit dependencies (web)
+        working-directory: ./web
+        run: |
+          echo "::group::Auditing web package dependencies"
+          echo "## 🔒 Security Audit - Web Package" >> $GITHUB_STEP_SUMMARY
+          pnpm install
+          pnpm audit --audit-level=high --ignore-registry-errors > /tmp/audit-web.log 2>&1 || true
+          AUDIT_EXIT=$?
+          
+          if [ $AUDIT_EXIT -ne 0 ]; then
+            echo "::error::High or critical vulnerabilities found in web package dependencies"
+            echo "❌ **FAILED**: High or critical vulnerabilities detected" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Audit Output:" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            cat /tmp/audit-web.log >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Action Required**: Run \`cd web && pnpm audit\` locally to see details and \`pnpm audit --fix\` to attempt automatic fixes" >> $GITHUB_STEP_SUMMARY
+            cat /tmp/audit-web.log
+            exit 1
+          fi
+          
+          echo "✅ **PASSED**: No high or critical vulnerabilities found" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ No high or critical vulnerabilities found in web package"
+          echo "::endgroup::"
+
       - name: Run tests
         run: pnpm test
 
