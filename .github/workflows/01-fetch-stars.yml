@@ -44,6 +44,22 @@ jobs:
             
             const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
             
+            // Validate token before starting fetch
+            try {
+              await github.graphql('{ viewer { login } }');
+            } catch (authError) {
+              if (authError.message?.includes('Bad credentials')) {
+                core.setFailed(
+                  'Authentication failed: Bad credentials. ' +
+                  'The STARS_TOKEN secret is expired or invalid. ' +
+                  'Please generate a new Personal Access Token with "read:user" scope ' +
+                  'and update the STARS_TOKEN repository secret.'
+                );
+                return;
+              }
+              throw authError;
+            }
+            
             let hasNextPage = true;
             let cursor = null;
             let allRepos = [];
@@ -98,6 +114,16 @@ jobs:
                 if (hasNextPage) await sleep(500);
                 
               } catch (error) {
+                if (error.message?.includes('Bad credentials')) {
+                  core.setFailed(
+                    'Authentication failed: Bad credentials. ' +
+                    'The STARS_TOKEN secret is expired or invalid. ' +
+                    'Please generate a new Personal Access Token with "read:user" scope ' +
+                    'and update the STARS_TOKEN repository secret.'
+                  );
+                  return;
+                }
+                
                 if (error.message?.includes('rate limit')) {
                   core.warning('Rate limit hit. Saving partial results.');
                   break;
