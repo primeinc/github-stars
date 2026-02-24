@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-24T07:52:31.717Z'
+  manifest_updated_at: '2026-02-24T07:52:56.720Z'
   total_repos: 399
   generator_version: v1.0.0
   github_user: primeinc
@@ -14072,13 +14072,19 @@ repositories:
     framework: null
   - repo: rsms/markdown-wasm
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - markdown
+      - webassembly
+      - lang:c
+      - parser
+      - wasm
     summary: Very fast Markdown parser and HTML generator implemented in Web Assembly, based on md4c
     last_synced_sha: 0d99d1151ff4d929a8ac8f3a191bfec54a10a869
     user_starred_at: '2026-02-11T06:09:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -14100,15 +14106,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: run-llama/semtools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - semantic-search
+      - embeddings
+      - lang:rust
+      - cli
+      - parser
     summary: Semantic search and document parsing tools for the command line
     last_synced_sha: 194a87c964bb317edd7b74bd6f5d94ceef5c3d26
     user_starred_at: '2026-02-11T06:09:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -14136,15 +14152,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: omgovich/colord
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - color
+      - converter
+      - lang:ts
+      - hex
+      - parser
     summary: 👑 A tiny yet powerful tool for high-performance color manipulations and conversions
     last_synced_sha: 3f859e03b0ca622eb15480f611371a0f15c9427f
     user_starred_at: '2026-02-11T06:08:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14181,15 +14207,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: afnanenayet/diffsitter
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - ast
+      - difftool
+      - lang:rust
+      - tree-sitter
+      - semantic-diff
     summary: A tree-sitter based AST difftool to get meaningful semantic diffs
     last_synced_sha: a466abfe0a698feabdf7d603310d2404d5d89bd9
     user_starred_at: '2026-02-11T06:07:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -14214,15 +14250,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: Hexagon/croner
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - cron
+      - scheduling
+      - lang:ts
+      - timer
+      - parser
     summary: Trigger functions or evaluate cron expressions in Java Script or Type Script. No dependencies. Most features. Node. Deno. Bun. Browser.
     last_synced_sha: 0a78e5818d29144d9b203c94b43c8e7f0d8c67e7
     user_starred_at: '2026-02-11T06:07:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14257,15 +14303,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: vue-styleguidist/vue-styleguidist
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ui-libraries
+    tags:
+      - style-guide
+      - vue-components
+      - lang:ts
+      - vue
+      - design-system
     summary: Created from react styleguidist for Vue Components with a living style guide
     last_synced_sha: 7b0ac99cd36489c6dbc1ffc8d11f26152339eabc
     user_starred_at: '2026-02-11T06:06:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14294,16 +14350,26 @@ repositories:
         published_at: '2024-08-01T08:06:07Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: decalage2/oletools
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - malware-analysis
+      - ms-office-documents
+      - lang:python
+      - forensics
+      - ole-files
     summary: oletools - python tools to analyze MS OLE2 files (Structured Storage, Compound File Binary Format) and MS Office documents, for malware analysis, forensics and debugging.
     last_synced_sha: ec10260989dbc48b9109e3d05d22beee19cf2333
     user_starred_at: '2026-02-11T06:01:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -14337,15 +14403,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: rtfpessoa/diff2html
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - diff
+      - git
+      - lang:ts
+      - html
+      - parser
     summary: Pretty diff to html javascript library (diff2html)
     last_synced_sha: 72331ff5d13a8d4d1f11256a7b554dd0d69d7014
     user_starred_at: '2026-02-11T06:01:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14377,15 +14453,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: ashvardanian/StringZilla
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+    tags:
+      - string-manipulation
+      - information-retrieval
+      - lang:c
+      - sorting-algorithms
+      - string-parsing
     summary: Up to 100x faster strings for C, C++, CUDA, Python, Rust, Swift, JS, & Go, leveraging NEON, AVX2, AVX-512, SVE, GPGPU, & SWAR to accelerate search, hashing, sorting, edit distances, sketches, and m...
     last_synced_sha: d126d12f4c7a52755744a320529de2a75e76a964
     user_starred_at: '2026-02-11T06:00:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -14423,15 +14509,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: dotnet/command-line-api
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - command-line
+      - dotnet
+      - lang:csharp
+      - parser
+      - terminal
     summary: Command line parsing, invocation, and rendering of terminal output.
     last_synced_sha: a3bae7d667e367376f4eb3edb579bf7e9c81cc10
     user_starred_at: '2026-02-11T05:59:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -14464,15 +14560,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: Tyrrrz/YoutubeExplode
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - system-admin
+    tags:
+      - youtube
+      - dotnet
+      - lang:csharp
+      - parser
+      - downloader
     summary: Abstraction layer over You Tube's internal API
     last_synced_sha: 89271eaa519ec28a6d1ecac1a2f4cfab36184e58
     user_starred_at: '2026-02-11T05:58:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -14500,15 +14606,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: mangiucugna/json_repair
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - deep-learning
+      - json
+      - lang:python
+      - parser
+      - machine-learning
     summary: A python module to repair invalid JSON from LLMs
     last_synced_sha: 529be35078ed8e5f0d30c745a003c1f294f01ba1
     user_starred_at: '2026-02-11T05:58:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -14538,15 +14654,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: microsoft/tsdoc
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - typescript
+      - comments
+      - lang:ts
+      - parser
+      - markdown
     summary: A doc comment standard for Type Script
     last_synced_sha: 9d498ab3eac615c41825b2aeb37d77181c51674a
     user_starred_at: '2026-02-11T05:57:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14574,15 +14700,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: fkling/astexplorer
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - ast-explorer
+      - parsing
+      - lang:js
+      - ast
+      - javascript
     summary: A web tool to explore the ASTs generated by various parsers.
     last_synced_sha: 8888701e97c2efebe6fb118484e67cfc0077d08c
     user_starred_at: '2026-02-11T05:55:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -14609,15 +14745,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: jquery/esprima
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - ecmascript
+      - parsing
+      - lang:ts
+      - ast
+      - parser
     summary: ECMAScript parsing infrastructure for multipurpose analysis
     last_synced_sha: 512cd66c6ffd6083144b0150f09670e426252776
     user_starred_at: '2026-02-11T05:55:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14641,6 +14787,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:52:55.793Z'
+      prompt_version: v3
   - repo: vectordotdev/vector
     categories:
       - monitoring
