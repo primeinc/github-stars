@@ -147,7 +147,7 @@ jobs:
                   } else if (typeof error.message === 'string') {
                     errorMsg = error.message.substring(0, MAX_ERROR_MSG_LENGTH);
                   }
-                  core.warning(`Transient error (${errorMsg}): Retrying in ${waitTime}s (attempt ${retryCount}/${MAX_RETRIES})...`);
+                  core.warning(`Transient error (${errorMsg}): Retrying in ${waitTime}s (retry ${retryCount}/${MAX_RETRIES})...`);
                   await sleep(waitTime * 1000);
                   pageCount--;
                   continue;
