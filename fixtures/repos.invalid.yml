@@ -1,0 +1,78 @@
+schema_version: 3.0.0
+manifest_metadata:
+  generated_at: "2025-07-15T00:00:00Z"
+  manifest_updated_at: "2026-02-24T00:00:00Z"
+  total_repos: 5
+  generator_version: v1.0.0
+  github_user: testuser
+feature_flags:
+  ai_sort: true
+  ai_summarize_nondescript: true
+  batch_threshold: 10
+  auto_merge: false
+  archive_handling: separate-directory
+  submodule_update_default: latest
+  enable_submodule_updates: false
+taxonomy:
+  categories_allowed:
+    - dev-tools
+    - ui-libraries
+    - frameworks
+    - databases
+    - productivity
+    - unclassified
+  frameworks_allowed:
+    - react
+    - vue
+    - angular
+repositories:
+  - repo: test/repo1
+    categories:
+      - infrastructure
+      - cli-tools
+    tags:
+      - test
+    framework: React
+    summary: Test repo with invalid categories
+    last_synced_sha: "0000000000000000000000000000000000000000"
+    user_starred_at: "2025-01-01T00:00:00Z"
+  - repo: test/repo2
+    categories:
+      - Dev-Tools
+      - UI-LIBRARIES
+    tags:
+      - test
+    framework: VUE
+    summary: Test repo with mixed case categories
+    last_synced_sha: "0000000000000000000000000000000000000000"
+    user_starred_at: "2025-01-01T00:00:00Z"
+  - repo: test/repo3
+    categories:
+      - invalid-category
+      - another-invalid
+    tags:
+      - test
+    framework: invalid-framework
+    summary: Test repo with all invalid categories and framework
+    last_synced_sha: "0000000000000000000000000000000000000000"
+    user_starred_at: "2025-01-01T00:00:00Z"
+  - repo: test/repo4
+    categories:
+      - dev-tools
+      - invalid-one
+      - frameworks
+    tags:
+      - test
+    framework: null
+    summary: Test repo with mixed valid and invalid categories
+    last_synced_sha: "0000000000000000000000000000000000000000"
+    user_starred_at: "2025-01-01T00:00:00Z"
+  - repo: test/repo5
+    categories:
+      - "  Productivity  "
+    tags:
+      - test
+    framework: "  Angular  "
+    summary: Test repo with whitespace in categories and framework
+    last_synced_sha: "0000000000000000000000000000000000000000"
+    user_starred_at: "2025-01-01T00:00:00Z"
