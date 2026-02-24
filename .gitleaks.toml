@@ -1,0 +1,58 @@
+# Gitleaks Configuration
+# https://github.com/gitleaks/gitleaks
+
+title = "GitHub Stars Curation - Gitleaks Config"
+
+# Allowlist configuration for false positives
+[allowlist]
+description = "Global allowlist for false positive secrets"
+
+# Paths to exclude from secret scanning
+paths = [
+    # Exclude test fixtures if they contain dummy secrets for testing
+    # '''fixtures/.*''',
+    # '''tests?/.*\.test\.(ts|js|yml)$''',
+]
+
+# Specific commits to ignore (useful for known safe historical commits)
+# commits = [
+#     "abc123def456",
+# ]
+
+# Regular expressions for patterns that should be ignored
+regexes = [
+    # Example: Ignore generic UUIDs that may look like secrets
+    # '''[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}''',
+]
+
+# Stop words - if these appear near a match, it's likely a false positive
+stopwords = [
+    # Common test/example indicators
+    "example",
+    "test",
+    "dummy",
+    "fake",
+    "sample",
+    "placeholder",
+    "REPLACEME",
+    "CHANGEME",
+    "YOUR_KEY_HERE",
+]
+
+# Extend Gitleaks' built-in rules
+# [[rules]]
+# id = "custom-rule"
+# description = "Custom secret detection pattern"
+# regex = '''your-pattern-here'''
+# tags = ["custom"]
+
+# Note: By default, Gitleaks comes with comprehensive built-in rules for:
+# - AWS Keys
+# - GitHub Tokens
+# - API Keys
+# - Private Keys
+# - OAuth Tokens
+# - And 100+ more patterns
+# 
+# Only add custom rules if you have specific organizational secrets to detect
+# that aren't covered by Gitleaks' defaults.
