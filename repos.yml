@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-24T07:56:57.915Z'
+  manifest_updated_at: '2026-02-24T07:57:20.231Z'
   total_repos: 399
   generator_version: v1.0.0
   github_user: primeinc
@@ -9477,7 +9477,7 @@ repositories:
     last_synced_sha: db3ce970f854d8c3b0ac1d5b98f360fe01604210
     user_starred_at: '2026-02-24T04:36:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -9495,6 +9495,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:57:19.291Z'
+      prompt_version: v3
   - repo: afairgiant/MediKeep
     categories:
       - web-dev
