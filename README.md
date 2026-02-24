@@ -1,54 +1,41 @@
 # Awesome Starred Repositories
 
-> A curated list of **2085** repositories across **62** categories, automatically classified and organized.
+> A curated list of **399** repositories across **22** categories, automatically classified and organized.
 
-Last updated: 2026-01-29
+Last updated: 2026-02-24
 
 ## ⭐ Recently Starred
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [xinyu1205/recognize-anything](https://github.com/xinyu1205/recognize-anything) | Open-source and strong foundation image recognition models. | `Jupyter Notebook` ★ 3.6k | 2025-02-18 |
-| [get-convex/twilio](https://github.com/get-convex/twilio) | Convex component for sending/receiving SMS messages with Twilio | `TypeScript` ★ 10 | 2026-01-26 |
-| [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) | Convert any git repository into an engaging podcast | `TypeScript` ★ 801 | 2025-08-30 |
-| [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) | The developer platform for on-demand cloud development environments to create software faster and more securely. | `TypeScript` ★ 13.6k | 2026-01-28 |
-| [SamyRai/namecheap](https://github.com/SamyRai/namecheap) | A CLI tool for managing Namecheap domains and DNS records with multi-account support | `Go` ★ 2 | 2026-01-22 |
-| [Lissy93/domain-locker](https://github.com/Lissy93/domain-locker) | 🌐 The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker! | `TypeScript` ★ 1.1k | 2026-01-16 |
-| [workflowr/workflowr](https://github.com/workflowr/workflowr) | Organize your project into a research website | `R` ★ 886 | 2025-08-19 |
-| [engineering-management/awesome-engineering-management](https://github.com/engineering-management/awesome-engineering-management) | Pointers and tools for learning and day-to-day practice of engineering management & leadership. | ★ 2.6k | 2024-12-14 |
-| [mark-when/markwhen](https://github.com/mark-when/markwhen) | Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more. | `HTML` ★ 4.8k | 2023-12-11 |
-| [endoflife-date/endoflife.date](https://github.com/endoflife-date/endoflife.date) | Informative site with Eo L dates of everything | `Ruby` ★ 3.1k | 2026-01-29 |
+| [OracleBrain/OracleBrain](https://github.com/OracleBrain/OracleBrain) | No description provided | ★ 101 | 2026-02-20 |
+| [afairgiant/MediKeep](https://github.com/afairgiant/MediKeep) | A lightweight, self-hosted application for managing your personal medical information. Keep your health records organized and accessible while maintaining complete control over your data privacy. | `JavaScript` ★ 272 | 2026-02-24 |
+| [shaka-project/shaka-packager](https://github.com/shaka-project/shaka-packager) | A media packaging and development framework for VOD and Live DASH and HLS applications, supporting Common Encryption for Widevine and other DRM Systems. | `C++` ★ 2.4k | 2025-11-22 |
+| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation... | ★ 24.6k | 2026-01-13 |
+| [megakode/wallrus](https://github.com/megakode/wallrus) | Gnome (GTK4) application to generate colorful wallpapers based on gradients and different effects. | `Rust` ★ 32 | 2026-02-23 |
+| [joelhawksley/timeframe](https://github.com/joelhawksley/timeframe) | An e-paper calendar, weather, and smart home family dashboard | `Ruby` ★ 496 | 2026-02-20 |
+| [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Svelte` ★ 284 | 2026-02-24 |
+| [puzpuzpuz/go-concurrent-map-bench](https://github.com/puzpuzpuz/go-concurrent-map-bench) | Benchmarks for concurrent hash map implementations in Go | `Go` ★ 48 | 2026-02-21 |
+| [longrackslabs/inbox-classifier](https://github.com/longrackslabs/inbox-classifier) | No description provided | `Python` ★ 2 | 2026-02-20 |
+| [jjordanbaird/EmailVectorDB](https://github.com/jjordanbaird/EmailVectorDB) | This project demonstrates how to parse emails, process them using Open AI's GPT-3.5, and load the data into a Weaviate vector database for enhanced search capabilities. Utilizing few-shot prompts a... | `Python` ★ 22 | 2023-05-03 |
 
 ## 🏷️ Popular Tags
 
-[awesome-list](tags/awesome-list.md) (76) • [react](tags/react.md) (71) • [llm](tags/llm.md) (54) • [ai](tags/ai.md) (53) • [azure](tags/azure.md) (52) • [automation](tags/automation.md) (52) • [windows](tags/windows.md) (47) • [self-hosted](tags/self-hosted.md) (38) • [stable-diffusion](tags/stable-diffusion.md) (34) • [cross-platform](tags/cross-platform.md) (31) • [deep-learning](tags/deep-learning.md) (31) • [nextjs](tags/nextjs.md) (30) • [powershell](tags/powershell.md) (29) • [docker](tags/docker.md) (29) • [cli](tags/cli.md) (28) • [resources](tags/resources.md) (25) • [ndi](tags/ndi.md) (24) • [ai-agents](tags/ai-agents.md) (23) • [terminal](tags/terminal.md) (22) • [machine-learning](tags/machine-learning.md) (21) • [privacy](tags/privacy.md) (20) • [developer-tools](tags/developer-tools.md) (18) • [streaming](tags/streaming.md) (18) • [chatgpt](tags/chatgpt.md) (18) • [tailwindcss](tags/tailwindcss.md) (17) • [gui](tags/gui.md) (17) • [llms](tags/llms.md) (17) • [mcp](tags/mcp.md) (17) • [dashboard](tags/dashboard.md) (16) • [vue](tags/vue.md) (16)
+[ai](tags/ai.md) (8) • [cli](tags/cli.md) (6) • [automation](tags/automation.md) (5) • [self-hosted](tags/self-hosted.md) (4) • [react](tags/react.md) (4) • [awesome-list](tags/awesome-list.md) (3) • [optimization](tags/optimization.md) (3) • [authentication](tags/authentication.md) (3) • [high-performance](tags/high-performance.md) (3) • [ai-agent](tags/ai-agent.md) (3) • [llm](tags/llm.md) (3) • [google-takeout](tags/google-takeout.md) (2) • [vector-database](tags/vector-database.md) (2) • [backup](tags/backup.md) (2) • [ssh](tags/ssh.md) (2) • [agents](tags/agents.md) (2) • [accessibility](tags/accessibility.md) (2) • [no-lang](tags/no-lang.md) (2) • [natural-language](tags/natural-language.md) (2) • [starter-kit](tags/starter-kit.md) (2) • [dashboard](tags/dashboard.md) (2) • [ai-tools](tags/ai-tools.md) (2) • [chrome](tags/chrome.md) (2) • [design-system](tags/design-system.md) (2) • [ui](tags/ui.md) (2) • [ai-agents](tags/ai-agents.md) (2) • [oauth2](tags/oauth2.md) (2) • [openai](tags/openai.md) (2) • [streaming](tags/streaming.md) (2) • [windows](tags/windows.md) (2)
 
 <details>
-<summary>📂 All Categories (62)</summary>
+<summary>📂 All Categories (22)</summary>
 
 | | | |
 |---|---|---|
-| [ai-ml](categories/ai-ml.md) (570) | [productivity](categories/productivity.md) (467) | [web-dev](categories/web-dev.md) (293) |
-| [dev-tools](categories/dev-tools.md) (229) | [ui-libraries](categories/ui-libraries.md) (213) | [automation](categories/automation.md) (205) |
-| [data-science](categories/data-science.md) (201) | [desktop-dev](categories/desktop-dev.md) (185) | [security](categories/security.md) (178) |
-| [system-admin](categories/system-admin.md) (171) | [apis](categories/apis.md) (153) | [learning](categories/learning.md) (152) |
-| [networking](categories/networking.md) (146) | [documentation](categories/documentation.md) (144) | [cli-tools](categories/cli-tools.md) (133) |
-| [cloud](categories/cloud.md) (101) | [frameworks](categories/frameworks.md) (77) | [game-dev](categories/game-dev.md) (70) |
-| [embedded](categories/embedded.md) (65) | [infrastructure](categories/infrastructure.md) (59) | [devops](categories/devops.md) (56) |
-| [databases](categories/databases.md) (56) | [monitoring](categories/monitoring.md) (54) | [mobile-dev](categories/mobile-dev.md) (42) |
-| [testing](categories/testing.md) (33) | [containers](categories/containers.md) (31) | [media](categories/media.md) (21) |
-| [deployment](categories/deployment.md) (18) | [streaming](categories/streaming.md) (15) | [video](categories/video.md) (10) |
-| [home-automation](categories/home-automation.md) (10) | [iot](categories/iot.md) (6) | [video-editing](categories/video-editing.md) (4) |
-| [design](categories/design.md) (3) | [audio](categories/audio.md) (3) | [libraries](categories/libraries.md) (3) |
-| [finance](categories/finance.md) (2) | [multimedia](categories/multimedia.md) (2) | [audio-processing](categories/audio-processing.md) (2) |
-| [development](categories/development.md) (2) | [performance](categories/performance.md) (2) | [fintech](categories/fintech.md) (2) |
-| [utilities](categories/utilities.md) (2) | [cryptography](categories/cryptography.md) (1) | [backup](categories/backup.md) (1) |
-| [computer-vision](categories/computer-vision.md) (1) | [media-streaming](categories/media-streaming.md) (1) | [tooling](categories/tooling.md) (1) |
-| [collaboration](categories/collaboration.md) (1) | [virtualization](categories/virtualization.md) (1) | [robotics](categories/robotics.md) (1) |
-| [blockchain](categories/blockchain.md) (1) | [api](categories/api.md) (1) | [privacy](categories/privacy.md) (1) |
-| [ap-is](categories/ap-is.md) (1) | [smarthome](categories/smarthome.md) (1) | [media-tools](categories/media-tools.md) (1) |
-| [simulation](categories/simulation.md) (1) | [graphics](categories/graphics.md) (1) | [drones](categories/drones.md) (1) |
-| [communication](categories/communication.md) (1) | [analytics](categories/analytics.md) (1) |  |
+| [unclassified](categories/unclassified.md) (286) | [ai-ml](categories/ai-ml.md) (38) | [productivity](categories/productivity.md) (23) |
+| [web-dev](categories/web-dev.md) (16) | [ui-libraries](categories/ui-libraries.md) (14) | [dev-tools](categories/dev-tools.md) (14) |
+| [automation](categories/automation.md) (13) | [documentation](categories/documentation.md) (11) | [security](categories/security.md) (11) |
+| [data-science](categories/data-science.md) (10) | [desktop-dev](categories/desktop-dev.md) (8) | [apis](categories/apis.md) (8) |
+| [learning](categories/learning.md) (7) | [networking](categories/networking.md) (6) | [system-admin](categories/system-admin.md) (5) |
+| [databases](categories/databases.md) (4) | [cloud](categories/cloud.md) (4) | [frameworks](categories/frameworks.md) (4) |
+| [mobile-dev](categories/mobile-dev.md) (4) | [testing](categories/testing.md) (3) | [monitoring](categories/monitoring.md) (3) |
+| [game-dev](categories/game-dev.md) (1) |  |  |
 
 </details>
 
