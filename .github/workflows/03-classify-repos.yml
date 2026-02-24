@@ -31,6 +31,17 @@ jobs:
           fetch-depth: 0
           ref: main
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install pnpm
+        run: npm install -g pnpm@latest
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile=false
+
       - run: |
           for i in 1 2 3; do
             git pull origin main && break || sleep 5
@@ -231,9 +242,9 @@ jobs:
             const json = execSync('yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
             const data = JSON.parse(json);
 
-            // Extract taxonomy for validation
-            const allowedCategories = new Set(data.taxonomy?.categories_allowed || []);
-            const allowedFrameworks = new Set(data.taxonomy?.frameworks_allowed || []);
+            // SECURITY: Extract taxonomy and create canonical sets for validation
+            const allowedCategories = new Set((data.taxonomy?.categories_allowed || []).map(c => c.trim().toLowerCase()));
+            const allowedFrameworks = new Set((data.taxonomy?.frameworks_allowed || []).map(f => f.trim().toLowerCase()));
             
             console.log(`Loaded taxonomy: ${allowedCategories.size} categories, ${allowedFrameworks.size} frameworks`);
 
@@ -243,9 +254,10 @@ jobs:
             for (const c of classifications) {
               const idx = data.repositories.findIndex(r => r.repo === c.repo);
               if (idx !== -1) {
-                // SECURITY: Validate categories against taxonomy
+                // SECURITY: Validate categories against taxonomy with canonicalization
                 const safeCategories = (c.categories || [])
                   .filter(cat => typeof cat === 'string' && /^[a-z][a-z0-9-]*$/.test(cat))
+                  .map(cat => cat.trim().toLowerCase())
                   .filter(cat => allowedCategories.has(cat))
                   .slice(0, 5);
                 
@@ -259,10 +271,11 @@ jobs:
                   .filter(t => tagPattern.test(t))
                   .slice(0, 20);
                 
-                // SECURITY: Validate framework against taxonomy
+                // SECURITY: Validate framework against taxonomy with canonicalization
                 let validFramework = null;
                 if (c.framework && typeof c.framework === 'string') {
-                  validFramework = allowedFrameworks.has(c.framework) ? c.framework : null;
+                  const canonicalFramework = c.framework.trim().toLowerCase();
+                  validFramework = allowedFrameworks.has(canonicalFramework) ? canonicalFramework : null;
                   if (!validFramework && c.framework) {
                     console.log(`Warning: Framework "${c.framework}" not in taxonomy for ${c.repo}`);
                   }
@@ -303,60 +316,19 @@ jobs:
           file: repos.yml
           mode: lax
 
+      - name: Normalize Manifest
+        if: steps.apply.outputs.count > 0
+        run: |
+          echo "Running taxonomy normalization..."
+          pnpm normalize
+          echo "Normalization complete"
+
       - name: Post-Classification Verification
         if: steps.apply.outputs.count > 0
-        uses: actions/github-script@v8
-        with:
-          script: |
-            const fs = require('fs');
-            const { execSync } = require('child_process');
-            
-            const yaml = fs.readFileSync('repos.yml', 'utf8');
-            const json = execSync('yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
-            const data = JSON.parse(json);
-            
-            const allowedCategories = new Set(data.taxonomy?.categories_allowed || []);
-            const allowedFrameworks = new Set(data.taxonomy?.frameworks_allowed || []);
-            
-            let errors = [];
-            let warnings = [];
-            
-            data.repositories.forEach((r, idx) => {
-              // Verify all categories are valid (skip 'unclassified' - it's a fallback)
-              (r.categories || []).forEach(cat => {
-                if (cat !== 'unclassified' && !allowedCategories.has(cat)) {
-                  errors.push(`Repo ${r.repo}: Invalid category "${cat}" not in taxonomy`);
-                }
-              });
-              
-              // Verify framework if set
-              if (r.framework && !allowedFrameworks.has(r.framework)) {
-                errors.push(`Repo ${r.repo}: Invalid framework "${r.framework}" not in taxonomy`);
-              }
-              
-              // Verify tag format
-              const tagPattern = /^([a-z]+:)?[a-z0-9][a-z0-9-]*$/;
-              (r.tags || []).forEach(tag => {
-                if (!tagPattern.test(tag)) {
-                  warnings.push(`Repo ${r.repo}: Tag "${tag}" doesn't match expected pattern`);
-                }
-              });
-            });
-            
-            if (errors.length > 0) {
-              console.log('VALIDATION ERRORS:');
-              errors.forEach(e => console.log(`  ❌ ${e}`));
-              core.setFailed(`Found ${errors.length} validation errors`);
-            }
-            
-            if (warnings.length > 0) {
-              console.log('VALIDATION WARNINGS:');
-              warnings.forEach(w => console.log(`  ⚠️ ${w}`));
-            }
-            
-            if (errors.length === 0 && warnings.length === 0) {
-              console.log('✅ All classifications validated successfully');
-            }
+        run: |
+          echo "Running strict taxonomy validation..."
+          pnpm validate
+          echo "Validation passed"
 
       - name: Commit
         if: steps.apply.outputs.count > 0 && success()
