@@ -115,29 +115,47 @@ jobs:
                 if (hasNextPage) await sleep(500);
                 
               } catch (error) {
+                // Fail fast on authentication errors - no retries
                 if (error.message?.includes('Bad credentials')) {
                   core.setFailed(BAD_CREDENTIALS_MSG);
                   return;
                 }
                 
+                // Stop on rate limit but save partial results
                 if (error.message?.includes('rate limit')) {
                   core.warning('Rate limit hit. Saving partial results.');
                   break;
                 }
                 
-                if (retryCount < MAX_RETRIES) {
+                // Retry on HTTP errors (502, 503, 504) and other transient errors
+                const isRetryableError = 
+                  error.status >= 500 || // HTTP 5xx errors
+                  error.message?.includes('502') ||
+                  error.message?.includes('503') ||
+                  error.message?.includes('504') ||
+                  error.message?.includes('Bad Gateway') ||
+                  error.message?.includes('Service Unavailable') ||
+                  error.message?.includes('Gateway Timeout') ||
+                  error.message?.includes('ECONNRESET') ||
+                  error.message?.includes('ETIMEDOUT');
+                
+                if (retryCount < MAX_RETRIES && isRetryableError) {
                   retryCount++;
                   const waitTime = Math.pow(2, retryCount);
-                  core.warning(`Retrying in ${waitTime}s (${retryCount}/${MAX_RETRIES})...`);
+                  core.warning(`Transient error (${error.status || error.message?.substring(0, 50)}): Retrying in ${waitTime}s (attempt ${retryCount}/${MAX_RETRIES})...`);
                   await sleep(waitTime * 1000);
                   pageCount--;
                   continue;
                 }
                 
+                // If we have partial results, save them
                 if (allRepos.length > 0) {
-                  core.warning('Error occurred, saving partial results...');
+                  core.warning(`Error after ${retryCount} retries: ${error.message}. Saving ${allRepos.length} partial results...`);
                   break;
                 }
+                
+                // Otherwise, fail the workflow
+                core.error(`Failed after ${retryCount} retry attempts: ${error.message}`);
                 throw error;
               }
             }
