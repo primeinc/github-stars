@@ -44,17 +44,18 @@ jobs:
             
             const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
             
+            const BAD_CREDENTIALS_MSG =
+              'Authentication failed: Bad credentials. ' +
+              'The STARS_TOKEN secret is expired or invalid. ' +
+              'Please generate a new Personal Access Token with "read:user" scope ' +
+              'and update the STARS_TOKEN repository secret.';
+            
             // Validate token before starting fetch
             try {
               await github.graphql('{ viewer { login } }');
             } catch (authError) {
               if (authError.message?.includes('Bad credentials')) {
-                core.setFailed(
-                  'Authentication failed: Bad credentials. ' +
-                  'The STARS_TOKEN secret is expired or invalid. ' +
-                  'Please generate a new Personal Access Token with "read:user" scope ' +
-                  'and update the STARS_TOKEN repository secret.'
-                );
+                core.setFailed(BAD_CREDENTIALS_MSG);
                 return;
               }
               throw authError;
@@ -115,12 +116,7 @@ jobs:
                 
               } catch (error) {
                 if (error.message?.includes('Bad credentials')) {
-                  core.setFailed(
-                    'Authentication failed: Bad credentials. ' +
-                    'The STARS_TOKEN secret is expired or invalid. ' +
-                    'Please generate a new Personal Access Token with "read:user" scope ' +
-                    'and update the STARS_TOKEN repository secret.'
-                  );
+                  core.setFailed(BAD_CREDENTIALS_MSG);
                   return;
                 }
                 
