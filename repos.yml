@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-24T07:56:35.689Z'
+  manifest_updated_at: '2026-02-24T07:56:57.915Z'
   total_repos: 399
   generator_version: v1.0.0
   github_user: primeinc
@@ -9497,13 +9497,18 @@ repositories:
     framework: null
   - repo: afairgiant/MediKeep
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - security
+    tags:
+      - self-hosted
+      - personal-data
+      - medical-records
+      - lang:js
     summary: A lightweight, self-hosted application for managing your personal medical information. Keep your health records organized and accessible while maintaining complete control over your data privacy.
     last_synced_sha: c944a1cc574a8b2e782c53c52a2fc0644e6ef594
     user_starred_at: '2026-02-24T04:31:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -9523,15 +9528,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: shaka-project/shaka-packager
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+    tags:
+      - vod
+      - media-packaging
+      - hls
+      - encryption
+      - lang:cpp
     summary: A media packaging and development framework for VOD and Live DASH and HLS applications, supporting Common Encryption for Widevine and other DRM Systems.
     last_synced_sha: 73b40484924108953f9e3318574d92af135f22ea
     user_starred_at: '2026-02-24T04:30:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -9551,15 +9565,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: ashishpatel26/500-AI-Agents-Projects
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - ai-agents
+      - genai
+      - curated-projects
     summary: The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation...
     last_synced_sha: 6a5769e9f3cc61dbd525e2419a1b779911bf8a97
     user_starred_at: '2026-02-24T04:26:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -9579,15 +9601,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: megakode/wallrus
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - wallpapers
+      - color-effects
+      - gradient-generation
+      - lang:rust
     summary: Gnome (GTK4) application to generate colorful wallpapers based on gradients and different effects.
     last_synced_sha: 6b962bfe94180244ac7f7adce87d314c160bfdbb
     user_starred_at: '2026-02-24T04:25:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -9605,15 +9636,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: joelhawksley/timeframe
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - productivity
+    tags:
+      - calendar
+      - weather
+      - smart-home
+      - lang:ruby
     summary: An e-paper calendar, weather, and smart home family dashboard
     last_synced_sha: 2566e4a8959060de04cb9c4e3c3f7c22f97ced61
     user_starred_at: '2026-02-24T04:25:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -9634,15 +9674,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: cvhariharan/flowctl
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - workflow-automation
+      - scheduler
+      - self-service
+      - lang:svelte
     summary: An open source self-service workflow execution platform
     last_synced_sha: a5575c4da5e6d23c16901f1492f6a80e90212b57
     user_starred_at: '2026-02-24T04:24:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Svelte
       topics:
@@ -9670,15 +9719,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: puzpuzpuz/go-concurrent-map-bench
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - productivity
+    tags:
+      - benchmarks
+      - concurrent-data-structures
+      - lang:go
     summary: Benchmarks for concurrent hash map implementations in Go
     last_synced_sha: 0ecb5de0789bfb82a018a5b5e4c8c7da52282606
     user_starred_at: '2026-02-24T04:23:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -9696,15 +9753,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: longrackslabs/inbox-classifier
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - email-classification
+      - lang:python
     summary: No description provided
     last_synced_sha: 7ee4299bf9ec6913b3b13e65e30fca79524c2dc2
     user_starred_at: '2026-02-24T02:13:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -9722,15 +9786,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: jjordanbaird/EmailVectorDB
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - email-processing
+      - openai
+      - vector-database
+      - lang:python
     summary: This project demonstrates how to parse emails, process them using Open AI's GPT-3.5, and load the data into a Weaviate vector database for enhanced search capabilities. Utilizing few-shot prompts a...
     last_synced_sha: 6e1b2248aa3059858b3d458f56e1c2e160b19ae5
     user_starred_at: '2026-02-23T19:59:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -9752,15 +9825,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: SpecterShell/Dumplings
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - remote-resources
+      - package-management
+      - lint
+      - lang:powershell
     summary: Dump remote resources and lint outdated packages
     last_synced_sha: 8527f6083aed4272ca61a8918598adef75a0f30a
     user_starred_at: '2026-02-23T11:32:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -9778,15 +9860,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: open-mercato/open-mercato
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - crm
+      - erp
+      - ai
+      - modular
+      - lang:ts
     summary: AI‑supportive CRM / ERP foundation framework — built to power R&D, new processes, operations, and growth. It’s modular, extensible, and designed for teams that want strong defaults with room to cus...
     last_synced_sha: a27613cba1a2bb37f48b2a50321c11f72878f313
     user_starred_at: '2026-02-22T10:18:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9810,15 +9902,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: clash-verge-rev/clash-verge-rev
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - ui-libraries
+    tags:
+      - proxy
+      - tauri
+      - cross-platform
+      - lang:ts
     summary: A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience
     last_synced_sha: 4dc515ba4d961a15df92d42c34dd47f93b32af0c
     user_starred_at: '2026-02-22T10:17:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9846,15 +9947,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: storytold/artcraft
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - game-dev
+    tags:
+      - 3d-graphics
+      - filmmaking
+      - ai
+      - image-generation
+      - lang:rust
     summary: Art Craft is an intentional crafting engine for artists, designers, and filmmakers
     last_synced_sha: 9545dba68418ad13bc00f354fca39ef910bd77e1
     user_starred_at: '2026-02-22T10:16:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -9879,15 +9990,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: zed-industries/zed
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - code-editor
+      - high-performance
+      - multiplayer
+      - lang:rust
     summary: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
     last_synced_sha: 564424b31f82bdc488bd839292816cbbd59e8df0
     user_starred_at: '2026-02-22T10:15:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -9911,15 +10031,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: firecracker-microvm/firecracker
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+    tags:
+      - virtual-machine
+      - sandbox
+      - serverless
+      - virtualization
+      - lang:rust
     summary: Secure and fast micro VMs for serverless computing.
     last_synced_sha: 82a2fb3b156036ed7da2cc057e43ff464d43e018
     user_starred_at: '2026-02-22T10:15:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -9948,6 +10078,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-24T07:56:56.972Z'
+      prompt_version: v3
   - repo: google-research/timesfm
     categories:
       - ai-ml
