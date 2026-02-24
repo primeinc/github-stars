@@ -1,16 +1,18 @@
 # Learning
 
-*7 repositories*
+*9 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | No description provided | ★ 6.8k | 2026-02-16 |
 | [engineering-management/awesome-engineering-management](https://github.com/engineering-management/awesome-engineering-management) | Pointers and tools for learning and day-to-day practice of engineering management & leadership. | ★ 2.6k | 2024-12-14 |
 | [daytonaio/ai-enablement-stack](https://github.com/daytonaio/ai-enablement-stack) | A Community-Driven Mapping of AI Development Tools | `HTML` ★ 601 | 2025-08-11 |
 | [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) | No description provided | ★ 1.7k | 2026-01-19 |
 | [microsoft/Agent365-Samples](https://github.com/microsoft/Agent365-Samples) | No description provided | `Python` ★ 39 | 2026-02-18 |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. | `JavaScript` ★ 9k | 2026-02-23 |
+| [julianromli/opencode-template](https://github.com/julianromli/opencode-template) | opencode-template | `Python` ★ 131 | 2026-02-03 |
 | [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | A curated catalogue of awesome agentic AI patterns | `Python` ★ 3.4k | 2026-02-06 |
 | [memvid/awesome-memvid](https://github.com/memvid/awesome-memvid) | A curated list of awesome resources related to Memvid | ★ 8 | 2026-01-13 |
 

@@ -1,17 +1,20 @@
 # Documentation
 
-*11 repositories*
+*14 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | No description provided | ★ 6.8k | 2026-02-16 |
+| [ITContractorsUnion/ITContractorsUnion](https://github.com/ITContractorsUnion/ITContractorsUnion) | Repo For All Downloadable Data | `HTML` ★ 119 | 2026-02-19 |
 | [workflowr/workflowr](https://github.com/workflowr/workflowr) | Organize your project into a research website | `R` ★ 888 | 2025-08-19 |
 | [endoflife-date/endoflife.date](https://github.com/endoflife-date/endoflife.date) | Informative site with Eo L dates of everything | `Ruby` ★ 3.2k | 2026-02-24 |
 | [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) | Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation | ★ 15.1k | 2026-02-05 |
 | [Simon-He95/markdown-it-ts](https://github.com/Simon-He95/markdown-it-ts) | A modern, type-safe rewrite of markdown-it in Type Script: pluggable rules, split parse/render, Common Mark-compatible; fast one-shot parsing and even faster streaming/incremental updates. | `TypeScript` ★ 132 | 2026-02-02 |
 | [markdown-it/markdown-it](https://github.com/markdown-it/markdown-it) | Markdown parser, done right. 100% Common Mark support, extensions, syntax plugins & high speed | `JavaScript` ★ 21.1k | 2026-02-11 |
 | [davis7dotsh/better-context](https://github.com/davis7dotsh/better-context) | A better way to get up to date context on libraries/technologies in your projects | `TypeScript` ★ 797 | 2026-02-23 |
+| [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | The awesome collection of Open Claw Skills. Formerly known as Moltbot, originally Clawdbot. | ★ 19k | 2026-02-23 |
 | [EssexRich/ThreatActors-TTPs](https://github.com/EssexRich/ThreatActors-TTPs) | Repository created to share information about tactics, techniques and procedures used by threat actors. Initially with ransomware groups and evolving to other types of threats. | `JavaScript` ★ 42 | 2026-02-24 |
 | [DoIT-Artificial-Intelligence/youtube-to-docs](https://github.com/DoIT-Artificial-Intelligence/youtube-to-docs) | Convert You Tube videos into structured docs, summaries, audio, and visual assets for easier discovery. | `Python` ★ 30 | 2026-02-22 |
 | [doczjs/docz](https://github.com/doczjs/docz) | ✍ It has never been so easy to document your things! | `TypeScript` ★ 23.6k | 2025-11-21 |

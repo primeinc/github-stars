@@ -1,11 +1,15 @@
 # Productivity
 
-*23 repositories*
+*28 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [streetwriters/notesnook](https://github.com/streetwriters/notesnook) | A fully open source & end-to-end encrypted note taking alternative to Evernote. | `TypeScript` ★ 13.7k | 2026-02-24 |
+| [raphaelsty/knowledge](https://github.com/raphaelsty/knowledge) | Open-source personal bookmarks search engine | `Python` ★ 726 | 2026-02-24 |
+| [pierceboggan/primer](https://github.com/pierceboggan/primer) | Get your repo ready for AI. | `TypeScript` ★ 621 | 2026-02-24 |
+| [mdabdulmazidkhan/convex-smart-tags](https://github.com/mdabdulmazidkhan/convex-smart-tags) | convex-smart-tags | `TypeScript` ★ 3 | 2026-01-24 |
 | [workflowr/workflowr](https://github.com/workflowr/workflowr) | Organize your project into a research website | `R` ★ 888 | 2025-08-19 |
 | [engineering-management/awesome-engineering-management](https://github.com/engineering-management/awesome-engineering-management) | Pointers and tools for learning and day-to-day practice of engineering management & leadership. | ★ 2.6k | 2024-12-14 |
 | [mark-when/markwhen](https://github.com/mark-when/markwhen) | Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more. | `HTML` ★ 4.8k | 2023-12-11 |
@@ -27,6 +31,7 @@
 | [freedomofpress/dangerzone](https://github.com/freedomofpress/dangerzone) | Take potentially dangerous PDFs, office documents, or images and convert them to safe PDFs | `Python` ★ 5.1k | 2026-02-19 |
 | [different-ai/openwork](https://github.com/different-ai/openwork) | An open-source alternative to Claude Cowork, powered by Open Code | `TypeScript` ★ 10.3k | 2026-02-24 |
 | [originalankur/maptoposter](https://github.com/originalankur/maptoposter) | Transform your favorite cities into beautiful, minimalist designs. Map To Poster lets you create and export visually striking map posters with code. | `Python` ★ 11.2k | 2026-01-30 |
+| [julianromli/opencode-template](https://github.com/julianromli/opencode-template) | opencode-template | `Python` ★ 131 | 2026-02-03 |
 | [Kiduzk/google-takeout-viewer](https://github.com/Kiduzk/google-takeout-viewer) | No description provided | `TypeScript` ★ 1 | 2026-01-11 |
 | [parcadei/llm-tldr](https://github.com/parcadei/llm-tldr) | 95% token savings. 155x faster queries. 16 languages. LLMs can't read your entire codebase. TLDR extracts structure, traces dependencies, and gives them exactly what they need. | `Python` ★ 838 | 2026-01-17 |
 

@@ -1,11 +1,12 @@
 # Databases
 
-*4 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [microsoft/bf-tree](https://github.com/microsoft/bf-tree) | Bf-Tree is a modern read-write-optimized concurrent larger-than-memory range index in Rust from MS Research. | `Rust` ★ 965 | 2026-02-10 |
 | [get-convex/convex-saas](https://github.com/get-convex/convex-saas) | A production-ready Convex Stack for your next Saa S application with Convex Auth, Stripe, Tan Stack, Resend, Tailwindcss, and shadcn. | `TypeScript` ★ 338 | 2026-02-05 |
 | [cometbft/cometbft](https://github.com/cometbft/cometbft) | Comet BFT: A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. A fork and successor to Tendermint Core. | `Go` ★ 860 | 2026-02-23 |
 | [qdrant/qdrant](https://github.com/qdrant/qdrant) | Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/ | `Rust` ★ 29k | 2026-02-23 |

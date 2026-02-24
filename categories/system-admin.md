@@ -1,11 +1,12 @@
 # System-admin
 
-*5 repositories*
+*6 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [microsoft/bf-tree](https://github.com/microsoft/bf-tree) | Bf-Tree is a modern read-write-optimized concurrent larger-than-memory range index in Rust from MS Research. | `Rust` ★ 965 | 2026-02-10 |
 | [elm1nst3r/GHOST-osint-crm](https://github.com/elm1nst3r/GHOST-osint-crm) | GHOST - Global Human Operations & Surveillance Tracking: Open-source investigation management platform for tracking people, connections, and intelligence data. Because Excel spreadsheets are for ac... | `JavaScript` ★ 269 | 2026-01-29 |
 | [trycua/cua](https://github.com/trycua/cua) | Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (mac OS, Linux, Windows). | `Python` ★ 12.7k | 2026-02-24 |
 | [rustic-rs/rustic](https://github.com/rustic-rs/rustic) | rustic - fast, encrypted, and deduplicated backups powered by Rust | `Rust` ★ 2.9k | 2026-02-21 |

@@ -1,11 +1,12 @@
 # Dev-tools
 
-*14 repositories*
+*15 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [HugoRCD/evlog](https://github.com/HugoRCD/evlog) | Logging that makes sense. Wide events, structured errors, zero chaos. | `TypeScript` ★ 521 | 2026-02-23 |
 | [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) | The developer platform for on-demand cloud development environments to create software faster and more securely. | `TypeScript` ★ 13.6k | 2026-02-17 |
 | [tajo/ladle](https://github.com/tajo/ladle) | 🥄 Develop, test and document your React story components faster. | `TypeScript` ★ 2.9k | 2025-12-20 |
 | [sdorra/content-collections](https://github.com/sdorra/content-collections) | Transform your content into type-safe data collections | `TypeScript` ★ 1.1k | 2026-02-23 |

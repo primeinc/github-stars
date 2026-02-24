@@ -1,11 +1,13 @@
 # Security
 
-*11 repositories*
+*13 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [anonaddy/anonaddy](https://github.com/anonaddy/anonaddy) | Anonymous email forwarding | `PHP` ★ 4.5k | 2026-02-18 |
+| [six2dez/burp-ai-agent](https://github.com/six2dez/burp-ai-agent) | Burp Suite extension that adds built-in MCP tooling, AI-assisted analysis, privacy controls, passive and active scanning and more | `Kotlin` ★ 657 | 2026-02-19 |
 | [slopus/murmur](https://github.com/slopus/murmur) | Encrypted Messaging for Clawdbot | `TypeScript` ★ 61 | 2026-02-04 |
 | [pimalaya/ortie](https://github.com/pimalaya/ortie) | CLI to manage OAuth 2.0 access tokens | `Rust` ★ 16 | 2026-02-16 |
 | [sashyo/keylessh](https://github.com/sashyo/keylessh) | No description provided | `TypeScript` ★ 5 | 2026-02-24 |
