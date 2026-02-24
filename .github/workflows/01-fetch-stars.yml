@@ -143,7 +143,7 @@ jobs:
                   // Format error message for logging
                   let errorMsg = 'unknown';
                   if (error.status) {
-                    errorMsg = error.status;
+                    errorMsg = String(error.status);
                   } else if (typeof error.message === 'string') {
                     errorMsg = error.message.substring(0, MAX_ERROR_MSG_LENGTH);
                   }
