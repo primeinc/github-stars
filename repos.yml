@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-25T04:00:36.281Z'
+  manifest_updated_at: '2026-02-25T04:01:06.908Z'
   total_repos: 599
   generator_version: v1.0.0
   github_user: primeinc
@@ -20013,13 +20013,18 @@ repositories:
     framework: null
   - repo: sinelaw/fresh
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - text-editor
+      - ide
+      - terminal-based
+      - lang:rust
     summary: 'Terminal based IDE & text editor: easy, powerful and fast'
     last_synced_sha: b14700f36c7a878b7dc3d0d6aced7f9c06795a09
     user_starred_at: '2026-01-09T20:27:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -20042,15 +20047,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.882Z'
+      prompt_version: v3
   - repo: sharkdp/bat
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - syntax-highlighting
+      - command-line
+      - cli
+      - terminal-tools
+      - lang:rust
     summary: A cat(1) clone with wings.
     last_synced_sha: 7d7e202bd56818ac81a7ed892f165b546993dd86
     user_starred_at: '2026-01-09T20:27:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -20078,15 +20093,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.882Z'
+      prompt_version: v3
   - repo: flashinfer-ai/flashinfer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - productivity
+    tags:
+      - llm-inference
+      - distributed-inference
+      - pytorch
+      - gpu
+      - lang:python
     summary: 'Flash Infer: Kernel Library for LLM Serving'
     last_synced_sha: dd417a50266bfda06c2ba977d01dafd2a85079ca
     user_starred_at: '2026-01-09T20:26:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -20116,15 +20142,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.882Z'
+      prompt_version: v3
   - repo: HKUDS/RAG-Anything
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - multi-modal-rag
+      - retrieval-augmented-generation
+      - ai-framework
+      - lang:python
     summary: '"RAG-Anything: All-in-One RAG Framework"'
     last_synced_sha: bc960ffc4e84fdd668b33c0b415cec6bdd5f3241
     user_starred_at: '2026-01-09T20:26:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -20146,15 +20181,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.882Z'
+      prompt_version: v3
   - repo: HKUDS/VideoRAG
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - long-video-analysis
+      - multi-modal-llms
+      - retrieval-augmented-generation
+      - ai
+      - lang:python
     summary: '[KDD''2026] "Video RAG: Chat with Your Videos"'
     last_synced_sha: d186992a33910ef06e3bddd4d18c6de8b3cb96db
     user_starred_at: '2026-01-09T20:25:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -20178,15 +20223,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.882Z'
+      prompt_version: v3
   - repo: browser-use/browser-use
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+      - web-dev
+    tags:
+      - browser-automation
+      - ai-agents
+      - python-tools
+      - playwright
+      - lang:python
     summary: 🌐 Make websites accessible for AI agents. Automate tasks online with ease.
     last_synced_sha: 32ae93b1fc9e3f20df9b451b6fe310a7e29864b5
     user_starred_at: '2026-01-09T20:24:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -20213,15 +20269,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.882Z'
+      prompt_version: v3
   - repo: dbt-labs/dbt-core
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - data-transformation
+      - business-intelligence
+      - analytics
+      - elt
+      - lang:python
     summary: dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.
     last_synced_sha: 9bb6ebeb8842d00643cd094f842a2e6e2a886c16
     user_starred_at: '2026-01-09T20:24:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -20248,15 +20314,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.882Z'
+      prompt_version: v3
   - repo: NevaMind-AI/memU
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - agent-memory
+      - llm-tools
+      - proactive-agents
+      - sandbox
+      - lang:python
     summary: Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).
     last_synced_sha: 8676a2721917f4e0baee6d01a9d6b95bd642be97
     user_starred_at: '2026-01-09T20:23:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -20288,15 +20364,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.882Z'
+      prompt_version: v3
   - repo: hotheadhacker/no-as-a-service
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - api
+      - express
+      - rejection-reason
+      - fun-tools
+      - lang:js
     summary: No-as-a-Service (Naa S) is a simple API that returns a random rejection reason. Use it when you need a realistic excuse, a fun “no,” or want to simulate being turned down in style.
     last_synced_sha: 07eff76a25f7f5e754478caf8653d075de2cb98c
     user_starred_at: '2026-01-09T20:23:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -20316,16 +20402,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.882Z'
+      prompt_version: v3
   - repo: microsoft/monaco-editor
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - code-editor
+      - browser-based
+      - typescript
+      - monaco-editor
+      - lang:js
     summary: A browser based code editor
     last_synced_sha: 613524bdf43891f71ce0bf1f99584b666d70c95a
     user_starred_at: '2026-01-09T20:22:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -20350,15 +20446,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.882Z'
+      prompt_version: v3
   - repo: MobSF/Mobile-Security-Framework-MobSF
     categories:
-      - unclassified
-    tags: []
+      - security
+      - mobile-dev
+      - testing
+    tags:
+      - mobile-security
+      - static-analysis
+      - dynamic-analysis
+      - malware-analysis
+      - lang:js
     summary: Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static...
     last_synced_sha: 2b08dd050e7685ee2a14fdbb454affab94129eae
     user_starred_at: '2026-01-09T20:21:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -20397,15 +20504,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.879Z'
+      prompt_version: v3
   - repo: coredns/coredns
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - dns-server
+      - cncf
+      - service-discovery
+      - plugins
+      - lang:go
     summary: Core DNS is a DNS server that chains plugins
     last_synced_sha: 3d31397fe65d44f407fa4a1529b1695f10a47c4d
     user_starred_at: '2026-01-09T20:20:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -20431,15 +20548,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.879Z'
+      prompt_version: v3
   - repo: publicsuffix/list
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - documentation
+    tags:
+      - public-suffix-list
+      - domains
+      - lang:go
     summary: The Public Suffix List
     last_synced_sha: 05f4a76fdee25bf064e7bfe317273afd3cc98f7f
     user_starred_at: '2026-01-09T20:20:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -20457,15 +20582,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.879Z'
+      prompt_version: v3
   - repo: hashicorp/vault
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - secrets-management
+      - encryption
+      - access-management
+      - lang:go
     summary: A tool for secrets management, encryption as a service, and privileged access management
     last_synced_sha: 8844e40a9ffbd4d3b4805e61b3b686b3aceef9f1
     user_starred_at: '2026-01-09T20:19:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -20488,15 +20622,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.879Z'
+      prompt_version: v3
   - repo: charmbracelet/crush
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - agentic-ai
+      - ai
+      - llms
+      - lang:go
     summary: Glamourous agentic coding for all 💘
     last_synced_sha: d159984ed22a0c4860be3415c5ae82d61c59d680
     user_starred_at: '2026-01-09T20:19:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -20520,6 +20663,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:01:05.878Z'
+      prompt_version: v3
   - repo: istio/istio
     categories:
       - networking
