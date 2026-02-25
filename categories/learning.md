@@ -1,24 +1,36 @@
 # Learning
 
-*14 repositories*
+*26 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation... | ★ 24.7k | 2026-01-13 |
+| [longrackslabs/inbox-classifier](https://github.com/longrackslabs/inbox-classifier) | No description provided | `Python` ★ 2 | 2026-02-20 |
+| [andrelandgraf/fullstackrecipes](https://github.com/andrelandgraf/fullstackrecipes) | A Shadcn registry and collection of production-ready patterns and step-by-step guides (recipes) for full stack web AI apps | `TypeScript` ★ 9 | 2026-02-21 |
+| [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. | `Python` ★ 336.6k | 2025-11-03 |
+| [jcubic/lips](https://github.com/jcubic/lips) | Scheme based powerful lisp interpreter in Java Script | `JavaScript` ★ 483 | 2026-02-22 |
+| [joweich/chat-miner](https://github.com/joweich/chat-miner) | Parsers and visualizations for chats | `Python` ★ 583 | 2026-01-30 |
+| [ohmjs/ohm](https://github.com/ohmjs/ohm) | A library and language for building parsers, interpreters, compilers, etc. | `JavaScript` ★ 5.5k | 2026-02-24 |
+| [haykgrigo3/TimeCapsuleLLM](https://github.com/haykgrigo3/TimeCapsuleLLM) | A LLM trained only on data from certain time periods to reduce modern bias | `Python` ★ 1.9k | 2026-02-24 |
+| [AgentAlphaAGI/Idea2Paper](https://github.com/AgentAlphaAGI/Idea2Paper) | Idea2Paper Offical Demo | `Python` ★ 1k | 2026-02-16 |
+| [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | :iphone: Collaborative List of Open-Source i OS Apps | ★ 49k | 2026-02-24 |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | practice made claude perfect | `HTML` ★ 4.7k | 2026-02-20 |
 | [merill/awesome-entra](https://github.com/merill/awesome-entra) | 😎 Awesome list of all things related to Microsoft Entra | ★ 723 | 2025-09-01 |
 | [project-open-data/project-open-data.github.io](https://github.com/project-open-data/project-open-data.github.io) | Open Data Policy — Managing Information as an Asset | `HTML` ★ 1.4k | 2024-08-19 |
 | [18F/development-guide](https://github.com/18F/development-guide) | A set of guidelines and best practices for an awesome software engineering team | `HTML` ★ 1.4k | 2024-03-19 |
 | [dustinspecker/awesome-eslint](https://github.com/dustinspecker/awesome-eslint) | A list of awesome ESLint plugins, configs, etc. | ★ 4.7k | 2026-01-09 |
 | [nrwl/nx-examples](https://github.com/nrwl/nx-examples) | Example repo for Nx workspace | `TypeScript` ★ 955 | 2026-02-23 |
-| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | No description provided | ★ 6.8k | 2026-02-16 |
+| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | No description provided | ★ 6.9k | 2026-02-16 |
 | [engineering-management/awesome-engineering-management](https://github.com/engineering-management/awesome-engineering-management) | Pointers and tools for learning and day-to-day practice of engineering management & leadership. | ★ 2.6k | 2024-12-14 |
-| [daytonaio/ai-enablement-stack](https://github.com/daytonaio/ai-enablement-stack) | A Community-Driven Mapping of AI Development Tools | `HTML` ★ 601 | 2025-08-11 |
+| [daytonaio/ai-enablement-stack](https://github.com/daytonaio/ai-enablement-stack) | A Community-Driven Mapping of AI Development Tools | `HTML` ★ 603 | 2025-08-11 |
 | [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) | No description provided | ★ 1.7k | 2026-01-19 |
-| [microsoft/Agent365-Samples](https://github.com/microsoft/Agent365-Samples) | No description provided | `Python` ★ 39 | 2026-02-18 |
-| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. | `JavaScript` ★ 9k | 2026-02-23 |
+| [microsoft/Agent365-Samples](https://github.com/microsoft/Agent365-Samples) | No description provided | `Python` ★ 40 | 2026-02-24 |
+| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. | `JavaScript` ★ 9.2k | 2026-02-23 |
 | [julianromli/opencode-template](https://github.com/julianromli/opencode-template) | opencode-template | `Python` ★ 131 | 2026-02-03 |
 | [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | A curated catalogue of awesome agentic AI patterns | `Python` ★ 3.4k | 2026-02-06 |
-| [memvid/awesome-memvid](https://github.com/memvid/awesome-memvid) | A curated list of awesome resources related to Memvid | ★ 8 | 2026-01-13 |
+| [memvid/awesome-memvid](https://github.com/memvid/awesome-memvid) | A curated list of awesome resources related to Memvid | ★ 9 | 2026-01-13 |
+| [Semperis/EntraGoat](https://github.com/Semperis/EntraGoat) | A deliberately vulnerable Microsoft Entra ID environment. Learn identity security through hands-on, realistic attack challenges. | `PowerShell` ★ 892 | 2026-01-15 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

@@ -1,14 +1,18 @@
 # Frameworks
 
-*5 repositories*
+*9 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [nasa/openmct](https://github.com/nasa/openmct) | A web based mission control framework. | `JavaScript` ★ 12.8k | 2026-02-23 |
-| [Effect-TS/effect](https://github.com/Effect-TS/effect) | Build production-ready applications in Type Script | `TypeScript` ★ 13.3k | 2026-02-22 |
-| [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5k | 2026-02-23 |
+| [shaka-project/shaka-packager](https://github.com/shaka-project/shaka-packager) | A media packaging and development framework for VOD and Live DASH and HLS applications, supporting Common Encryption for Widevine and other DRM Systems. | `C++` ★ 2.4k | 2025-11-22 |
+| [TrinityCore/TrinityCore](https://github.com/TrinityCore/TrinityCore) | Trinity Core Open Source MMO Framework (master = 12.0.1.66044, 3.3.5 = 3.3.5a.12340, cata classic = 4.4.2.60895) | `C++` ★ 10.4k | 2026-02-23 |
+| [adambajguz/Typin](https://github.com/adambajguz/Typin) | Declarative framework for interactive CLI applications | `C#` ★ 254 | 2025-06-18 |
+| [alibaba/nacos](https://github.com/alibaba/nacos) | an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications. | `Java` ★ 32.7k | 2026-02-25 |
+| [nasa/openmct](https://github.com/nasa/openmct) | A web based mission control framework. | `JavaScript` ★ 12.8k | 2026-02-25 |
+| [Effect-TS/effect](https://github.com/Effect-TS/effect) | Build production-ready applications in Type Script | `TypeScript` ★ 13.3k | 2026-02-24 |
+| [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5k | 2026-02-24 |
 | [rkyv/rkyv](https://github.com/rkyv/rkyv) | Zero-copy deserialization framework for Rust | `Rust` ★ 4k | 2026-02-20 |
 | [meteor-useraccounts/core](https://github.com/meteor-useraccounts/core) | Meteor sign up and sign in templates' core functionalities | `JavaScript` ★ 530 | 2021-07-09 |
 

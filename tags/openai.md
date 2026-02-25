@@ -1,10 +1,11 @@
 # Tag: openai
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) | Convert any git repository into an engaging podcast | `TypeScript` ★ 802 | 2025-08-30 |
+| [jjordanbaird/EmailVectorDB](https://github.com/jjordanbaird/EmailVectorDB) | This project demonstrates how to parse emails, process them using Open AI's GPT-3.5, and load the data into a Weaviate vector database for enhanced search capabilities. Utilizing few-shot prompts a... | `Python` ★ 22 | 2023-05-03 |
+| [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) | Convert any git repository into an engaging podcast | `TypeScript` ★ 803 | 2025-08-30 |
 | [clusterzx/paperless-ai](https://github.com/clusterzx/paperless-ai) | An automated document analyzer for Paperless-ngx using Open AI API, Ollama, Deepseek-r1, Azure and all Open AI API compatible Services to automatically analyze and tag your documents. | `JavaScript` ★ 5.3k | 2026-02-11 |

@@ -1,16 +1,29 @@
 # Networking
 
-*7 repositories*
+*20 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 98.6k | 2026-02-23 |
+| [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 305 | 2026-02-23 |
+| [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app) | Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | `Dart` ★ 26.7k | 2026-02-22 |
+| [Wh0am123/MCP-Kali-Server](https://github.com/Wh0am123/MCP-Kali-Server) | MCP configuration to connect AI agent to a Linux machine. | `Python` ★ 492 | 2026-01-20 |
 | [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | A community driven registry service for Model Context Protocol (MCP) servers. | `Go` ★ 6.5k | 2026-02-24 |
-| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | `TypeScript` ★ 28.7k | 2026-02-24 |
-| [slopus/murmur](https://github.com/slopus/murmur) | Encrypted Messaging for Clawdbot | `TypeScript` ★ 61 | 2026-02-04 |
-| [amnezia-vpn/amneziawg-windows-client](https://github.com/amnezia-vpn/amneziawg-windows-client) | Amnezia WG client for Windows | `Go` ★ 611 | 2025-12-08 |
-| [pimalaya/himalaya](https://github.com/pimalaya/himalaya) | CLI to manage emails | `Rust` ★ 5.6k | 2026-02-21 |
+| [dead10ck/nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns) | DNS utility for nushell | `Rust` ★ 50 | 2026-01-20 |
+| [ninenines/cowlib](https://github.com/ninenines/cowlib) | Support library for manipulating Web protocols. | `Erlang` ★ 290 | 2025-11-06 |
+| [likexian/whois-parser](https://github.com/likexian/whois-parser) | Whois parser for domain whois information parsing in Go(Golang). | `Go` ★ 325 | 2026-01-04 |
+| [kevinburke/ssh_config](https://github.com/kevinburke/ssh_config) | Go parser for ssh\_config files | `Go` ★ 466 | 2026-02-18 |
+| [vectordotdev/vector](https://github.com/vectordotdev/vector) | A high-performance observability data pipeline. | `Rust` ★ 21.4k | 2026-02-25 |
+| [sirkirby/unifi-network-mcp](https://github.com/sirkirby/unifi-network-mcp) | MCP server implementation for the Uni Fi network application | `Python` ★ 170 | 2026-02-24 |
+| [gbassaragh/Unifi-mcp](https://github.com/gbassaragh/Unifi-mcp) | MCP server for Uni Fi Network and Protect API integration - AI-powered network management | `Python` ★ 2 | 2026-01-10 |
+| [zabbix/zabbix](https://github.com/zabbix/zabbix) | Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud. | `Go Template` ★ 5.7k | 2026-02-23 |
+| [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses. | `Go` ★ 35.3k | 2026-02-24 |
+| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | `TypeScript` ★ 28.7k | 2026-02-25 |
+| [slopus/murmur](https://github.com/slopus/murmur) | Encrypted Messaging for Clawdbot | `TypeScript` ★ 62 | 2026-02-04 |
+| [amnezia-vpn/amneziawg-windows-client](https://github.com/amnezia-vpn/amneziawg-windows-client) | Amnezia WG client for Windows | `Go` ★ 612 | 2025-12-08 |
+| [pimalaya/himalaya](https://github.com/pimalaya/himalaya) | CLI to manage emails | `Rust` ★ 5.6k | 2026-02-24 |
 | [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) | bluetooth mesh chat, IRC vibes | `Swift` ★ 25.2k | 2026-02-22 |
 | [xpipe-io/xpipe](https://github.com/xpipe-io/xpipe) | Access your entire server infrastructure from your local desktop | `Java` ★ 13.8k | 2026-02-24 |
 

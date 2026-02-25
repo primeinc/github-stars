@@ -1,237 +1,203 @@
 # Unclassified
 
-*227 repositories*
+*193 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [icryo/remove-refusals-with-transformers](https://github.com/icryo/remove-refusals-with-transformers) | Implements harmful/harmless refusal removal using pure HF Transformers | `Python` ★ 21 | 2025-05-08 |
 | [OracleBrain/OracleBrain](https://github.com/OracleBrain/OracleBrain) | No description provided | ★ 101 | 2026-02-20 |
-| [afairgiant/MediKeep](https://github.com/afairgiant/MediKeep) | A lightweight, self-hosted application for managing your personal medical information. Keep your health records organized and accessible while maintaining complete control over your data privacy. | `JavaScript` ★ 272 | 2026-02-24 |
-| [shaka-project/shaka-packager](https://github.com/shaka-project/shaka-packager) | A media packaging and development framework for VOD and Live DASH and HLS applications, supporting Common Encryption for Widevine and other DRM Systems. | `C++` ★ 2.4k | 2025-11-22 |
-| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation... | ★ 24.6k | 2026-01-13 |
-| [megakode/wallrus](https://github.com/megakode/wallrus) | Gnome (GTK4) application to generate colorful wallpapers based on gradients and different effects. | `Rust` ★ 32 | 2026-02-23 |
-| [joelhawksley/timeframe](https://github.com/joelhawksley/timeframe) | An e-paper calendar, weather, and smart home family dashboard | `Ruby` ★ 496 | 2026-02-20 |
-| [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Svelte` ★ 284 | 2026-02-24 |
-| [puzpuzpuz/go-concurrent-map-bench](https://github.com/puzpuzpuz/go-concurrent-map-bench) | Benchmarks for concurrent hash map implementations in Go | `Go` ★ 48 | 2026-02-21 |
-| [longrackslabs/inbox-classifier](https://github.com/longrackslabs/inbox-classifier) | No description provided | `Python` ★ 2 | 2026-02-20 |
-| [jjordanbaird/EmailVectorDB](https://github.com/jjordanbaird/EmailVectorDB) | This project demonstrates how to parse emails, process them using Open AI's GPT-3.5, and load the data into a Weaviate vector database for enhanced search capabilities. Utilizing few-shot prompts a... | `Python` ★ 22 | 2023-05-03 |
-| [SpecterShell/Dumplings](https://github.com/SpecterShell/Dumplings) | Dump remote resources and lint outdated packages | `PowerShell` ★ 40 | 2026-02-24 |
-| [open-mercato/open-mercato](https://github.com/open-mercato/open-mercato) | AI‑supportive CRM / ERP foundation framework — built to power R&D, new processes, operations, and growth. It’s modular, extensible, and designed for teams that want strong defaults with room to cus... | `TypeScript` ★ 926 | 2026-02-23 |
-| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 98.4k | 2026-02-23 |
-| [storytold/artcraft](https://github.com/storytold/artcraft) | Art Craft is an intentional crafting engine for artists, designers, and filmmakers | `Rust` ★ 836 | 2026-02-23 |
-| [zed-industries/zed](https://github.com/zed-industries/zed) | Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. | `Rust` ★ 75.9k | 2026-02-24 |
-| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 32.6k | 2026-02-23 |
-| [google-research/timesfm](https://github.com/google-research/timesfm) | Times FM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | `Python` ★ 9.6k | 2026-02-19 |
-| [roboflow/trackers](https://github.com/roboflow/trackers) | Trackers gives you clean, modular re-implementations of leading multi-object tracking algorithms released under the permissive Apache 2.0 license. You combine them with any detection model you alre... | `Python` ★ 2.9k | 2026-02-23 |
-| [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 299 | 2026-02-23 |
-| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. | `JavaScript` ★ 12k | 2026-02-24 |
-| [rollup/rollup](https://github.com/rollup/rollup) | Next-generation ES module bundler | `JavaScript` ★ 26.2k | 2026-02-22 |
-| [Azgaar/Fantasy-Map-Generator](https://github.com/Azgaar/Fantasy-Map-Generator) | Web application generating interactive and highly customizable maps | `JavaScript` ★ 5.5k | 2026-02-19 |
-| [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | Tool Jet is the open-source foundation of Tool Jet AI - the AI-native platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀 | `JavaScript` ★ 37.5k | 2026-02-24 |
-| [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the ... | `Go` ★ 27.2k | 2026-02-23 |
-| [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | ROS 2 Navigation Framework and System | `C++` ★ 3.9k | 2026-02-20 |
-| [TrinityCore/TrinityCore](https://github.com/TrinityCore/TrinityCore) | Trinity Core Open Source MMO Framework (master = 12.0.1.66044, 3.3.5 = 3.3.5a.12340, cata classic = 4.4.2.60895) | `C++` ★ 10.4k | 2026-02-23 |
-| [HailToDodongo/pyrite64](https://github.com/HailToDodongo/pyrite64) | N64 Game-Engine and Editor using libdragon & tiny3d | `C++` ★ 2.4k | 2026-02-23 |
-| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | A modern replacement for Redis and Memcached | `C++` ★ 30k | 2026-02-24 |
-| [AzureAD/microsoft-identity-web](https://github.com/AzureAD/microsoft-identity-web) | Helps creating protected web apps and web APIs with Microsoft identity platform and Azure AD B2C | `C#` ★ 771 | 2026-02-24 |
-| [JosefNemec/Playnite](https://github.com/JosefNemec/Playnite) | Video game library manager with support for wide range of 3rd party libraries and game emulation support, providing one unified interface for your games. | `C#` ★ 12.5k | 2026-02-20 |
-| [unoplatform/uno](https://github.com/unoplatform/uno) | Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow... | `C#` ★ 9.8k | 2026-02-24 |
-| [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | Git Nexus: The Zero-Server Code Intelligence Engine - Git Nexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a Git Hub repo or ZIP file, and get an interacti... | `TypeScript` ★ 2k | 2026-02-24 |
-| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks | `Go` ★ 7.9k | 2026-02-24 |
-| [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app) | Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | `Dart` ★ 26.6k | 2026-02-22 |
-| [wxt-dev/wxt](https://github.com/wxt-dev/wxt) | ⚡ Next-gen Web Extension Framework | `TypeScript` ★ 9.2k | 2026-02-23 |
-| [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) | Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (mac OS, Windows, Linux). | `Go` ★ 13.5k | 2026-02-13 |
-| [memvid/design-memory](https://github.com/memvid/design-memory) | Extract and reproduce design systems from any website using deterministic analysis and LLM interpretation. | `TypeScript` ★ 109 | 2026-02-15 |
-| [nushell/nushell](https://github.com/nushell/nushell) | A new type of shell | `Rust` ★ 38.5k | 2026-02-23 |
-| [andrelandgraf/fullstackrecipes](https://github.com/andrelandgraf/fullstackrecipes) | A Shadcn registry and collection of production-ready patterns and step-by-step guides (recipes) for full stack web AI apps | `TypeScript` ★ 9 | 2026-02-21 |
-| [PV-Bhat/vibe-check-mcp-server](https://github.com/PV-Bhat/vibe-check-mcp-server) | Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-e... | `TypeScript` ★ 472 | 2026-02-11 |
-| [daobataotie/CAD-MCP](https://github.com/daobataotie/CAD-MCP) | CAD MCP Server | `Python` ★ 245 | 2025-07-21 |
-| [bytebase/dbhub](https://github.com/bytebase/dbhub) | Zero-dependency, token-efficient database MCP server for Postgres, My SQL, SQL Server, Maria DB, SQLite. | `TypeScript` ★ 2.2k | 2026-02-24 |
-| [stacklok/toolhive](https://github.com/stacklok/toolhive) | Tool Hive makes deploying MCP servers easy, secure and fun | `Go` ★ 1.6k | 2026-02-23 |
-| [reading-plus-ai/mcp-server-data-exploration](https://github.com/reading-plus-ai/mcp-server-data-exploration) | No description provided | `Python` ★ 524 | 2025-03-22 |
-| [cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian Knowledge-Management MCP (Model Context Protocol) server that enables AI agents and development tools to interact with an Obsidian vault. It provides a comprehensive suite of tools for rea... | `TypeScript` ★ 379 | 2025-10-24 |
-| [MxIris-Reverse-Engineering/ida-mcp-server](https://github.com/MxIris-Reverse-Engineering/ida-mcp-server) | A Model Context Protocol server for IDA | `Python` ★ 519 | 2025-05-29 |
-| [delorenj/mcp-server-trello](https://github.com/delorenj/mcp-server-trello) | A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards. | `TypeScript` ★ 239 | 2026-02-04 |
-| [juehang/vscode-mcp-server](https://github.com/juehang/vscode-mcp-server) | MCP server to expose VS Code editing features to an LLM for AI coding | `TypeScript` ★ 333 | 2026-01-07 |
-| [coleam00/remote-mcp-server-with-auth](https://github.com/coleam00/remote-mcp-server-with-auth) | Template for a remote MCP server with Git Hub OAuth - following best practices for building MCP servers so you can take this as a starting point for any MCP server you want to build! | `TypeScript` ★ 286 | 2025-07-11 |
-| [Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops) | An MCP server for Azure Dev Ops | `TypeScript` ★ 335 | 2026-02-05 |
-| [executeautomation/mcp-database-server](https://github.com/executeautomation/mcp-database-server) | MCP Database Server is a new MCP Server which helps connect with Sqlite, Sql Server and Posgresql Databases | `TypeScript` ★ 309 | 2025-08-27 |
-| [e2b-dev/mcp-server](https://github.com/e2b-dev/mcp-server) | Giving Claude ability to run code with E2B via MCP (Model Context Protocol) | `JavaScript` ★ 381 | 2026-02-11 |
-| [Wh0am123/MCP-Kali-Server](https://github.com/Wh0am123/MCP-Kali-Server) | MCP configuration to connect AI agent to a Linux machine. | `Python` ★ 488 | 2026-01-20 |
-| [Softeria/ms-365-mcp-server](https://github.com/Softeria/ms-365-mcp-server) | A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API | `TypeScript` ★ 479 | 2026-02-15 |
-| [mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server) | Go server implementing Model Context Protocol (MCP) for filesystem operations. | `Go` ★ 601 | 2025-11-24 |
-| [negokaz/excel-mcp-server](https://github.com/negokaz/excel-mcp-server) | A Model Context Protocol (MCP) server that reads and writes MS Excel data | `Go` ★ 851 | 2025-07-19 |
-| [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server) | Allow AI to wade through complex Open APIs using Simple Language | `TypeScript` ★ 877 | 2026-02-21 |
-| [echelon-ai-labs/servicenow-mcp](https://github.com/echelon-ai-labs/servicenow-mcp) | MCP Server for Service Now | `Python` ★ 207 | 2025-10-03 |
-| [MCPJam/inspector](https://github.com/MCPJam/inspector) | Test & Debug MCP servers, Chat GPT apps, and MCP Apps (ext-apps) | `TypeScript` ★ 1.8k | 2026-02-23 |
-| [GH05TCREW/MetasploitMCP](https://github.com/GH05TCREW/MetasploitMCP) | MCP Server for Metasploit | `Python` ★ 505 | 2026-02-05 |
-| [GongRzhe/Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) | A MCP (Model Context Protocol) server for Power Point manipulation using python-pptx. This server provides tools for creating, editing, and manipulating Power Point presentations through the MCP pr... | `Python` ★ 1.5k | 2025-12-31 |
-| [arabold/docs-mcp-server](https://github.com/arabold/docs-mcp-server) | Grounded Docs MCP Server: Open-Source Alternative to Context7, Nia, and Ref.Tools | `TypeScript` ★ 1.1k | 2026-02-23 |
-| [isaacphi/mcp-language-server](https://github.com/isaacphi/mcp-language-server) | mcp-language-server gives MCP enabled clients access semantic tools like get definition, references, rename, and diagnostics. | `Go` ★ 1.5k | 2026-02-01 |
-| [financial-datasets/mcp-server](https://github.com/financial-datasets/mcp-server) | An MCP server for interacting with the Financial Datasets stock market API. | `Python` ★ 758 | 2025-06-05 |
-| [GongRzhe/Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server) | A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interfac... | `Python` ★ 1.6k | 2025-12-31 |
-| [mcp-router/mcp-router](https://github.com/mcp-router/mcp-router) | A Unified MCP Server Management App (MCP Manager). | `TypeScript` ★ 1.8k | 2026-01-24 |
-| [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. | `Python` ★ 336.4k | 2025-11-03 |
-| [FlorianWilhelm/the-hatchlor](https://github.com/FlorianWilhelm/the-hatchlor) | 🌹 Cookiecutter template featuring the modern and extensible Python project manager hatch | `Python` ★ 82 | 2024-11-18 |
-| [anomalyco/opencode-sdk-python](https://github.com/anomalyco/opencode-sdk-python) | No description provided | `Python` ★ 124 | 2026-01-30 |
-| [HKUDS/MoChat](https://github.com/HKUDS/MoChat) | "Mo Chat: Reconnecting the World through AI Agents (Open Claw & nanobot & Claude Code) https://mochat.io" | `TypeScript` ★ 177 | 2026-02-12 |
-| [dead10ck/nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns) | DNS utility for nushell | `Rust` ★ 50 | 2026-01-20 |
-| [kinhunt/mcpdog](https://github.com/kinhunt/mcpdog) | 🐕 Universal MCP Server Manager - Configure once, manage multiple MCP servers through a single interface. Perfect for Claude Desktop, Claude Code, Cursor, Gemini CLI & AI assistants. Web dashboard,... | `TypeScript` ★ 14 | 2025-10-19 |
-| [maxritter/claude-pilot](https://github.com/maxritter/claude-pilot) | Claude Code is powerful. Pilot makes it reliable. Start a task, grab a coffee, come back to production-grade code. Tests enforced. Context preserved. Quality automated. | `TypeScript` ★ 1.4k | 2026-02-23 |
-| [microsoft/PSRule-pipelines](https://github.com/microsoft/PSRule-pipelines) | Validate infrastructure as code (Ia C) and Dev Ops repositories using Azure Pipelines. | `PowerShell` ★ 101 | 2025-11-18 |
-| [vectra-ai-research/MAAD-AF](https://github.com/vectra-ai-research/MAAD-AF) | MAAD Attack Framework - An attack tool for simple, fast & effective security testing of M365 & Entra ID (Azure AD). | `PowerShell` ★ 414 | 2026-01-13 |
-| [azurekid/blackcat](https://github.com/azurekid/blackcat) | Black Cat is a Power Shell module designed to validate the security of Microsoft Azure. It provides a set of functions to identify potential security holes. | `PowerShell` ★ 191 | 2026-02-17 |
-| [knom/AzureResourceOwnerTag](https://github.com/knom/AzureResourceOwnerTag) | Azure Automation Script that Tags Azure Resource Groups with the OWNER and EXPIRY DATE | `PowerShell` ★ 12 | 2018-05-27 |
-| [JWStarkie/PurviewAccelerator](https://github.com/JWStarkie/PurviewAccelerator) | A lightning fast tool to automatically deploy Purview in a super fast at the click of a button. Clone the repo, execute the scripts, wait 10 minutes and boom - your Purview environment is up and ru... | `PowerShell` ★ 12 | 2021-10-22 |
-| [SoyITPro/scripts](https://github.com/SoyITPro/scripts) | Scripts para administradores de servidores Windows, Azure, Docker, Linux y más | `PowerShell` ★ 49 | 2026-02-20 |
-| [michaelmsonne/ManagedIdentityPermissionManager](https://github.com/michaelmsonne/ManagedIdentityPermissionManager) | Azure Managed Identity Permissions Tool, a new Power Shell tool that simplifies and streamlines the management of Managed Identity permissions in Azure (Entra ID) | `PowerShell` ★ 128 | 2026-01-26 |
-| [zh54321/EntraTokenAid](https://github.com/zh54321/EntraTokenAid) | A pure Power Shell solution for Entra OAuth authentication, enabling easy retrieval of access and refresh tokens | `PowerShell` ★ 131 | 2026-01-27 |
-| [CompassSecurity/EntraFalcon](https://github.com/CompassSecurity/EntraFalcon) | A lightweight Power Shell tool for assessing the security posture of Microsoft Entra ID environments. It helps identify privileged objects, risky assignments, and potential misconfigurations. | `PowerShell` ★ 315 | 2026-02-08 |
-| [SteffMet/Azure-Office365-Security-Reporting](https://github.com/SteffMet/Azure-Office365-Security-Reporting) | Powershell Script to Check Security and Gather Information within Azure and Office 365 | `PowerShell` ★ 55 | 2025-07-15 |
-| [arcus-azure/arcus.scripting](https://github.com/arcus-azure/arcus.scripting) | Scripting with Microsoft Azure in a breeze. | `PowerShell` ★ 10 | 2025-12-31 |
-| [PalmEmanuel/AzAuth](https://github.com/PalmEmanuel/AzAuth) | A Power Shell module to handle authentication for Azure. | `PowerShell` ★ 41 | 2026-02-12 |
-| [LaresLLC/AzureTokenExtractor](https://github.com/LaresLLC/AzureTokenExtractor) | Extracts Azure authentication tokens from Power Shell process minidumps. | `Python` ★ 25 | 2023-05-20 |
-| [Donovand4/ConditionalAccessPolicyReport](https://github.com/Donovand4/ConditionalAccessPolicyReport) | Power Shell Script used to create a report for Azure AD Conditional Access Policies. | `PowerShell` ★ 37 | 2025-11-19 |
-| [Azure/PSDocs.Azure](https://github.com/Azure/PSDocs.Azure) | Generate documentation from Azure infrastructure as code (Ia C) artifacts. | `PowerShell` ★ 67 | 2026-02-03 |
-| [PSBicep/PSBicep](https://github.com/PSBicep/PSBicep) | This is the repo for the Bicep Power Shell Module. | `PowerShell` ★ 146 | 2025-07-19 |
-| [EvotecIT/O365Essentials](https://github.com/EvotecIT/O365Essentials) | A module that helps to manage some tasks on Office 365/Azure via undocumented API | `PowerShell` ★ 143 | 2026-02-14 |
-| [pnp/script-samples](https://github.com/pnp/script-samples) | A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more. | `PowerShell` ★ 299 | 2026-02-08 |
-| [invictus-ir/Microsoft-Extractor-Suite](https://github.com/invictus-ir/Microsoft-Extractor-Suite) | A Power Shell module for acquisition of data from Microsoft 365 and Azure for Incident Response and Cyber Security purposes. | `PowerShell` ★ 768 | 2026-01-15 |
-| [wesellis/Azure-PowerShell-Toolkit](https://github.com/wesellis/Azure-PowerShell-Toolkit) | Massive collection of 772+ Power Shell scripts for Azure management. CI/CD with PSScript Analyzer, security scanning, and Ia C validation. Enterprise-ready with comprehensive testing. | `PowerShell` ★ 38 | 2025-10-03 |
-| [darkquasar/AzureHunter](https://github.com/darkquasar/AzureHunter) | A Cloud Forensics Powershell module to run threat hunting playbooks on data from Azure and O365 | `PowerShell` ★ 789 | 2022-10-29 |
-| [Gerenios/AADInternals](https://github.com/Gerenios/AADInternals) | AADInternals Power Shell module for administering Azure AD and Office 365 | `PowerShell` ★ 1.6k | 2025-09-30 |
-| [hausec/PowerZure](https://github.com/hausec/PowerZure) | Power Shell framework to assess Azure security | `PowerShell` ★ 1.3k | 2025-10-18 |
-| [spddl/GoInterruptPolicy](https://github.com/spddl/GoInterruptPolicy) | I just tried to create a better version of the "Interrupt Affinity Policy" and "MSI Mode" Tool | `Go` ★ 405 | 2026-01-24 |
-| [adambajguz/Typin](https://github.com/adambajguz/Typin) | Declarative framework for interactive CLI applications | `C#` ★ 254 | 2025-06-18 |
-| [alphanome-ai/sec-parser](https://github.com/alphanome-ai/sec-parser) | Parse SEC EDGAR HTML documents into a tree of elements that correspond to the visual (semantic) structure of the document. | `Python` ★ 271 | 2025-03-25 |
-| [harshankur/officeParser](https://github.com/harshankur/officeParser) | A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met... | `Rich Text Format` ★ 286 | 2026-02-15 |
-| [ninenines/cowlib](https://github.com/ninenines/cowlib) | Support library for manipulating Web protocols. | `Erlang` ★ 290 | 2025-11-06 |
-| [AntonBergaker/InterpolatedParser](https://github.com/AntonBergaker/InterpolatedParser) | Interpolated Strings but in reverse! A very cursed C# parser library. | `C#` ★ 291 | 2025-02-24 |
-| [rasendubi/uniorg](https://github.com/rasendubi/uniorg) | An accurate Org-mode parser for Java Script/Type Script | `TypeScript` ★ 317 | 2025-04-11 |
-| [structuredllm/syncode](https://github.com/structuredllm/syncode) | Efficient and general syntactical decoding for Large Language Models | `Python` ★ 323 | 2026-01-19 |
-| [aykutkardas/svgps.app](https://github.com/aykutkardas/svgps.app) | SVGPS converts your icons into a single JSON file that is ready to use in your frontend or mobile projects. | `TypeScript` ★ 321 | 2026-02-17 |
-| [likexian/whois-parser](https://github.com/likexian/whois-parser) | Whois parser for domain whois information parsing in Go(Golang). | `Go` ★ 325 | 2026-01-04 |
-| [PoiScript/orgize](https://github.com/PoiScript/orgize) | A Rust library for parsing org-mode files. | `Rust` ★ 329 | 2025-01-27 |
-| [thoqbk/traprange](https://github.com/thoqbk/traprange) | (Java)A Method to Extract Tabular Content from PDF Files | `HTML` ★ 337 | 2023-04-22 |
-| [oguimbal/pgsql-ast-parser](https://github.com/oguimbal/pgsql-ast-parser) | Yet another simple Postgres SQL parser | `TypeScript` ★ 342 | 2026-01-27 |
-| [MaibornWolff/codecharta](https://github.com/MaibornWolff/codecharta) | Code Charta is a visualization tool that transforms complex software architecture and code metrics into interactive, customizable visual maps, empowering everyone to communicate and analyze your co... | `TypeScript` ★ 418 | 2026-02-23 |
-| [chipsalliance/Surelog](https://github.com/chipsalliance/Surelog) | System Verilog 2017 Pre-processor, Parser, Elaborator, UHDM Compiler. Provides IEEE Design/TB C/C++ VPI and Python AST & UHDM APIs. Compiles on Linux gcc, Windows msys2-gcc & msvc, Os X | `C++` ★ 448 | 2026-02-23 |
-| [kevinburke/ssh_config](https://github.com/kevinburke/ssh_config) | Go parser for ssh\_config files | `Go` ★ 466 | 2026-02-18 |
-| [postalsys/postal-mime](https://github.com/postalsys/postal-mime) | Email parser for browser and serverless environments | `JavaScript` ★ 485 | 2026-01-09 |
-| [jcubic/lips](https://github.com/jcubic/lips) | Scheme based powerful lisp interpreter in Java Script | `JavaScript` ★ 483 | 2026-02-22 |
-| [glayzzle/php-parser](https://github.com/glayzzle/php-parser) | :herb: Node JS PHP Parser - extract AST or tokens | `JavaScript` ★ 561 | 2026-02-24 |
-| [willdurand/EmailReplyParser](https://github.com/willdurand/EmailReplyParser) | PHP library for parsing plain text email content. | `PHP` ★ 649 | 2022-09-20 |
-| [kach/nearley](https://github.com/kach/nearley) | 📜🔜🌲 Simple, fast, powerful parser toolkit for Java Script. | `JavaScript` ★ 3.7k | 2024-11-14 |
-| [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) | Community maintained fork of pdfminer - we fathom PDF | `Python` ★ 6.9k | 2026-02-13 |
-| [i18next/i18next-cli](https://github.com/i18next/i18next-cli) | A unified, high-performance i18next CLI. | `TypeScript` ★ 155 | 2026-02-23 |
-| [joweich/chat-miner](https://github.com/joweich/chat-miner) | Parsers and visualizations for chats | `Python` ★ 583 | 2026-01-30 |
-| [thewhiteninja/ntfstool](https://github.com/thewhiteninja/ntfstool) | Forensics tool for NTFS (parser, mft, bitlocker, deleted files) | `C++` ★ 596 | 2023-07-23 |
-| [ImpulseAdventure/JPEGsnoop](https://github.com/ImpulseAdventure/JPEGsnoop) | JPEGsnoop: JPEG decoder and detailed analysis | `C++` ★ 601 | 2023-08-09 |
-| [ics-py/ics-py](https://github.com/ics-py/ics-py) | Pythonic and easy i Calendar library (rfc5545) | `Python` ★ 711 | 2024-12-06 |
-| [g-plane/typed-query-selector](https://github.com/g-plane/typed-query-selector) | Better typed \`query Selector\` and \`query Selector All\`. | `TypeScript` ★ 779 | 2025-12-31 |
-| [003random/getJS](https://github.com/003random/getJS) | A tool to fastly get all javascript sources/files | `Go` ★ 858 | 2025-07-04 |
-| [DFIRKuiper/Kuiper](https://github.com/DFIRKuiper/Kuiper) | Digital Forensics Investigation Platform | `JavaScript` ★ 872 | 2024-10-12 |
-| [microsoft/tolerant-php-parser](https://github.com/microsoft/tolerant-php-parser) | An early-stage PHP parser designed for IDE usage scenarios. | `PHP` ★ 895 | 2024-09-28 |
-| [guessit-io/guessit](https://github.com/guessit-io/guessit) | Guess It is a python library that extracts as much information as possible from a video filename. | `Python` ★ 896 | 2024-09-03 |
-| [APIDevTools/json-schema-ref-parser](https://github.com/APIDevTools/json-schema-ref-parser) | Parse, Resolve, and Dereference JSON Schema $ref pointers in Node and browsers | `TypeScript` ★ 1.1k | 2026-01-24 |
-| [collective/icalendar](https://github.com/collective/icalendar) | icalendar parser library for Python | `Python` ★ 1.1k | 2026-02-22 |
-| [meriyah/meriyah](https://github.com/meriyah/meriyah) | A 100% compliant, self-hosted javascript parser - https://meriyah.github.io/meriyah | `TypeScript` ★ 1.2k | 2026-02-13 |
-| [APIDevTools/swagger-parser](https://github.com/APIDevTools/swagger-parser) | Swagger 2.0 and Open API 3.0 parser/validator | `JavaScript` ★ 1.2k | 2025-11-14 |
-| [webtoon/psd](https://github.com/webtoon/psd) | Fast zero-dependency PSD parser for the web and Node.js | `TypeScript` ★ 1.3k | 2024-02-05 |
-| [daniele77/cli](https://github.com/daniele77/cli) | A library for interactive command line interfaces in modern C++ | `C++` ★ 1.3k | 2025-12-22 |
-| [ruimarinho/google-libphonenumber](https://github.com/ruimarinho/google-libphonenumber) | The up-to-date and reliable Google's libphonenumber package for node.js. | `JavaScript` ★ 1.5k | 2026-01-21 |
-| [LibPDF-js/core](https://github.com/LibPDF-js/core) | A modern PDF library for Type Script. Parse, modify, and generate PDFs with a clean, intuitive API. | `TypeScript` ★ 1.6k | 2026-02-23 |
-| [rsms/markdown-wasm](https://github.com/rsms/markdown-wasm) | Very fast Markdown parser and HTML generator implemented in Web Assembly, based on md4c | `C` ★ 1.7k | 2022-11-22 |
-| [run-llama/semtools](https://github.com/run-llama/semtools) | Semantic search and document parsing tools for the command line | `Rust` ★ 1.6k | 2026-02-16 |
-| [omgovich/colord](https://github.com/omgovich/colord) | 👑 A tiny yet powerful tool for high-performance color manipulations and conversions | `TypeScript` ★ 1.8k | 2023-10-02 |
-| [afnanenayet/diffsitter](https://github.com/afnanenayet/diffsitter) | A tree-sitter based AST difftool to get meaningful semantic diffs | `Rust` ★ 2.3k | 2026-02-24 |
-| [Hexagon/croner](https://github.com/Hexagon/croner) | Trigger functions or evaluate cron expressions in Java Script or Type Script. No dependencies. Most features. Node. Deno. Bun. Browser. | `TypeScript` ★ 2.5k | 2026-02-21 |
-| [vue-styleguidist/vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) | Created from react styleguidist for Vue Components with a living style guide | `TypeScript` ★ 2.5k | 2026-02-23 |
-| [decalage2/oletools](https://github.com/decalage2/oletools) | oletools - python tools to analyze MS OLE2 files (Structured Storage, Compound File Binary Format) and MS Office documents, for malware analysis, forensics and debugging. | `Python` ★ 3.3k | 2026-02-14 |
-| [rtfpessoa/diff2html](https://github.com/rtfpessoa/diff2html) | Pretty diff to html javascript library (diff2html) | `TypeScript` ★ 3.3k | 2026-02-14 |
-| [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | Up to 100x faster strings for C, C++, CUDA, Python, Rust, Swift, JS, & Go, leveraging NEON, AVX2, AVX-512, SVE, GPGPU, & SWAR to accelerate search, hashing, sorting, edit distances, sketches, and m... | `C` ★ 3.4k | 2025-12-26 |
-| [dotnet/command-line-api](https://github.com/dotnet/command-line-api) | Command line parsing, invocation, and rendering of terminal output. | `C#` ★ 3.6k | 2026-02-24 |
-| [Tyrrrz/YoutubeExplode](https://github.com/Tyrrrz/YoutubeExplode) | Abstraction layer over You Tube's internal API | `C#` ★ 3.6k | 2026-02-16 |
-| [mangiucugna/json_repair](https://github.com/mangiucugna/json_repair) | A python module to repair invalid JSON from LLMs | `Python` ★ 4.5k | 2026-02-17 |
-| [microsoft/tsdoc](https://github.com/microsoft/tsdoc) | A doc comment standard for Type Script | `TypeScript` ★ 4.9k | 2025-11-11 |
-| [fkling/astexplorer](https://github.com/fkling/astexplorer) | A web tool to explore the ASTs generated by various parsers. | `JavaScript` ★ 6.5k | 2024-04-26 |
-| [jquery/esprima](https://github.com/jquery/esprima) | ECMAScript parsing infrastructure for multipurpose analysis | `TypeScript` ★ 7.1k | 2023-04-16 |
-| [vectordotdev/vector](https://github.com/vectordotdev/vector) | A high-performance observability data pipeline. | `Rust` ★ 21.4k | 2026-02-24 |
-| [opendatalab/MinerU](https://github.com/opendatalab/MinerU) | Transforms complex documents like PDFs into LLM-ready markdown/JSON for your Agentic workflows. | `Python` ★ 54.9k | 2026-02-09 |
-| [ohmjs/ohm](https://github.com/ohmjs/ohm) | A library and language for building parsers, interpreters, compilers, etc. | `JavaScript` ★ 5.5k | 2026-02-23 |
-| [prag-matt-ic/ps5-inspired-landing-page](https://github.com/prag-matt-ic/ps5-inspired-landing-page) | PS5 loading screen inspired showcase | `TypeScript` ★ 13 | 2025-03-25 |
-| [moonrepo/moon](https://github.com/moonrepo/moon) | A build system and monorepo management tool for the web ecosystem, written in Rust. | `Rust` ★ 3.7k | 2026-02-23 |
-| [stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core) | Dev environments. In your web app. | ★ 4.5k | 2025-04-22 |
-| [stackblitz/bolt.new](https://github.com/stackblitz/bolt.new) | Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz | `TypeScript` ★ 16.2k | 2024-12-17 |
-| [live-codes/livecodes](https://github.com/live-codes/livecodes) | A Code Playground That Just Works! | `TypeScript` ★ 1.4k | 2026-02-23 |
+| [anomalyco/opencode-sdk-python](https://github.com/anomalyco/opencode-sdk-python) | No description provided | `Python` ★ 125 | 2026-01-30 |
+| [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell) | Claude Code is powerful. Pilot Shell makes it reliable. Start a task, grab a coffee, come back to production-grade code. Tests enforced. Context preserved. Quality automated. | `TypeScript` ★ 1.4k | 2026-02-24 |
 | [conradkoh/artifact-cli](https://github.com/conradkoh/artifact-cli) | No description provided | `TypeScript` ★ 1 | 2026-01-12 |
-| [nyeya/live-editor](https://github.com/nyeya/live-editor) | A realtime live code editor for your frontend projects | `TypeScript` ★ 2 | 2025-10-12 |
 | [handlebauer/ts-preview](https://github.com/handlebauer/ts-preview) | No description provided | `TypeScript` ★ 1 | 2025-03-15 |
-| [Sunny-117/webcontainer-ide](https://github.com/Sunny-117/webcontainer-ide) | Web Container IDE is a production-ready, browser-based development environment that brings the full power of Node.js to your browser. Built on Stack Blitz's Web Container technology, it enables dev... | `TypeScript` ★ 8 | 2026-01-15 |
 | [MicrosoftRajan/CipherStudio](https://github.com/MicrosoftRajan/CipherStudio) | No description provided | `TypeScript` ★ 1 | 2025-10-28 |
-| [codesandbox/sandpack](https://github.com/codesandbox/sandpack) | A component toolkit for creating live-running code editing experiences, using the power of Code Sandbox. | `TypeScript` ★ 6k | 2025-04-24 |
-| [marshallrichards/ClawPhone](https://github.com/marshallrichards/ClawPhone) | Tweaks for running Open Claw on a Android smartphone | `Python` ★ 368 | 2026-02-07 |
-| [evinjohnn/natively-cluely-ai-assistant](https://github.com/evinjohnn/natively-cluely-ai-assistant) | Natively is an open-source, privacy-first AI meeting assistant and the best alternative to Cluely. It supports both local models and cloud AI providers , delivering real-time assistance during meet... | `TypeScript` ★ 531 | 2026-02-23 |
-| [haykgrigo3/TimeCapsuleLLM](https://github.com/haykgrigo3/TimeCapsuleLLM) | A LLM trained only on data from certain time periods to reduce modern bias | `Python` ★ 1.9k | 2026-02-02 |
-| [snarktank/antfarm](https://github.com/snarktank/antfarm) | Build your agent team in Open Claw with one command. | `TypeScript` ★ 1.6k | 2026-02-15 |
-| [SeyZ/clawbands](https://github.com/SeyZ/clawbands) | Claw Bands is a security middleware for Open Claw AI agents. | `TypeScript` ★ 153 | 2026-02-09 |
-| [tlsnotary/tlsn-extension](https://github.com/tlsnotary/tlsn-extension) | Chrome Extension for TLSNotary | `TypeScript` ★ 29 | 2026-02-20 |
-| [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) | 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more... | `Python` ★ 26.9k | 2026-02-11 |
-| [deadc0de6/gocatcli](https://github.com/deadc0de6/gocatcli) | The command line catalog tool for your offline data | `Go` ★ 40 | 2025-12-30 |
-| [recyclarr/recyclarr](https://github.com/recyclarr/recyclarr) | Automatically sync TRa SH Guides to your Sonarr and Radarr instances | `C#` ★ 1.9k | 2026-02-24 |
-| [SigNoz/signoz](https://github.com/SigNoz/signoz) | Sig Noz is an open-source observability platform native to Open Telemetry with logs, traces and metrics in a single application. An open-source alternative to Data Dog, New Relic, etc. 🔥 🖥. 👉 Op... | `TypeScript` ★ 25.9k | 2026-02-24 |
-| [github/gh-aw](https://github.com/github/gh-aw) | Git Hub Agentic Workflows | `Go` ★ 3.5k | 2026-02-24 |
-| [dialpad/dialpad-python-sdk](https://github.com/dialpad/dialpad-python-sdk) | No description provided | `Python` ★ 14 | 2025-06-16 |
-| [dialpad/dialtone](https://github.com/dialpad/dialtone) | The main repository for all of Dialpad's design system resources. | `JavaScript` ★ 14 | 2026-02-24 |
-| [d3/d3](https://github.com/d3/d3) | Bring data to life with SVG, Canvas and HTML. :bar\_chart::chart\_with\_upwards\_trend::tada: | `Shell` ★ 112.4k | 2025-12-02 |
-| [k1LoW/tbls](https://github.com/k1LoW/tbls) | tbls is a CI-Friendly tool to document a database, written in Go. | `Go` ★ 4.1k | 2026-02-19 |
-| [sirkirby/unifi-network-mcp](https://github.com/sirkirby/unifi-network-mcp) | MCP server implementation for the Uni Fi network application | `Python` ★ 168 | 2026-02-23 |
-| [gbassaragh/Unifi-mcp](https://github.com/gbassaragh/Unifi-mcp) | MCP server for Uni Fi Network and Protect API integration - AI-powered network management | `Python` ★ 2 | 2026-01-10 |
-| [homarr-labs/homarr](https://github.com/homarr-labs/homarr) | A modern and easy to use dashboard. 30+ integrations. 10K+ icons built in. Authentication out of the box. No YAML, drag and drop configuration. | `TypeScript` ★ 3k | 2026-02-24 |
-| [AgentAlphaAGI/Idea2Paper](https://github.com/AgentAlphaAGI/Idea2Paper) | Idea2Paper Offical Demo | `Python` ★ 1k | 2026-02-16 |
-| [s1t5/mail-archiver](https://github.com/s1t5/mail-archiver) | Mail-Archiver is a web application for archiving, searching, and exporting emails from multiple accounts. Featuring folder sync, attachment support, mailbox migration and a dashboard. | `C#` ★ 1.6k | 2026-02-22 |
-| [LogicLabs-OU/OpenArchiver](https://github.com/LogicLabs-OU/OpenArchiver) | An open-source platform for legally compliant email archiving. | `TypeScript` ★ 1.7k | 2026-02-23 |
-| [jsuto/piler](https://github.com/jsuto/piler) | Email archiving application | `PHP` ★ 260 | 2026-02-20 |
-| [zabbix/zabbix](https://github.com/zabbix/zabbix) | Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud. | `Go Template` ★ 5.7k | 2026-02-23 |
-| [HoppouAI/OctoBrowser](https://github.com/HoppouAI/OctoBrowser) | Built for the Copilot SDK Weekend Contest as a fun project. | `JavaScript` ★ 35 | 2026-02-19 |
-| [smestern/treepilot](https://github.com/smestern/treepilot) | A hacky / vibecoded AI family tree researcher | `Python` ★ 57 | 2026-02-20 |
-| [SchwarziLukas/braindump-butler](https://github.com/SchwarziLukas/braindump-butler) | Turns brain dumps and meeting notes into tidy Markdown notes for your Obsidian Vault. | `Python` ★ 20 | 2026-02-05 |
-| [p-e-w/heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language models | `Python` ★ 9.4k | 2026-02-20 |
-| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark. | `TypeScript` ★ 24.7k | 2026-02-23 |
-| [bvaughn/react-resizable-panels](https://github.com/bvaughn/react-resizable-panels) | No description provided | `TypeScript` ★ 5.1k | 2026-02-22 |
-| [ExperienceLovelace/ha-floorplan](https://github.com/ExperienceLovelace/ha-floorplan) | Bring new life to Home Assistant. By mapping entities to a SVG-object, you're able to control devices, show states, calling services - and much more. Add custom styling on top, to visualize whateve... | `TypeScript` ★ 1.5k | 2026-02-14 |
-| [mathuo/dockview](https://github.com/mathuo/dockview) | Zero dependency Docking Layout Manager. Supports Vanilla Type Script, React and Vue. | `TypeScript` ★ 3k | 2026-02-21 |
-| [Safe3/openresty-manager](https://github.com/Safe3/openresty-manager) | Modern, secure, and elegant server control panel, alternative to Open Resty Edge and Nginx Proxy Manager. | `Go` ★ 1.3k | 2026-01-25 |
-| [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) | 🔥 1Panel offers an intuitive web interface for Linux server, making it easy to manage Open Claw agents, LLMs, websites, databases, containers, files, and scheduled tasks. | `Go` ★ 33.6k | 2026-02-24 |
-| [cathrynlavery/wispr-flow-recap](https://github.com/cathrynlavery/wispr-flow-recap) | Beautiful activity recaps for Wispr Flow voice dictation | `JavaScript` ★ 3 | 2026-02-07 |
-| [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | :iphone: Collaborative List of Open-Source i OS Apps | ★ 49k | 2026-02-23 |
-| [microsoft/rushstack](https://github.com/microsoft/rushstack) | Monorepo for tools developed by the Rush Stack community | `TypeScript` ★ 6.4k | 2026-02-24 |
-| [11happy/cpx](https://github.com/11happy/cpx) | cp reimagined | `Rust` ★ 364 | 2026-02-23 |
-| [zellij-org/zellij](https://github.com/zellij-org/zellij) | A terminal workspace with batteries included | `Rust` ★ 29.4k | 2026-02-23 |
-| [Azure-Samples/azure-typescript-e2e-apps](https://github.com/Azure-Samples/azure-typescript-e2e-apps) | Monorepo - Apps written in Type Script to be either 1) deployed to Azure hosting or 2) integrated with Azure services | `TypeScript` ★ 47 | 2026-02-02 |
-| [microsoft/zerotrustassessment](https://github.com/microsoft/zerotrustassessment) | Repository for the Zero Trust Assessment project | `HTML` ★ 279 | 2026-02-24 |
-| [openclaw/skills](https://github.com/openclaw/skills) | All versions of all skills that are on clawdhub.com archived | `Python` ★ 1.4k | 2026-02-24 |
-| [kodepandai/awesome-gh-cli-extensions](https://github.com/kodepandai/awesome-gh-cli-extensions) | Awesome list of github cli extensions. | `HTML` ★ 411 | 2025-04-09 |
-| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | practice made claude perfect | `HTML` ★ 4.5k | 2026-02-20 |
-| [microsoft/cascadia-code](https://github.com/microsoft/cascadia-code) | This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal. | `Python` ★ 27.5k | 2025-03-06 |
-| [Dimillian/CodexMonitor](https://github.com/Dimillian/CodexMonitor) | An app to monitor the (Codex) situation | `TypeScript` ★ 2.6k | 2026-02-23 |
-| [mdp/qrterminal](https://github.com/mdp/qrterminal) | QR Codes in your terminal | `Go` ★ 530 | 2025-03-19 |
-| [mdp/linkedin-extension-fingerprinting](https://github.com/mdp/linkedin-extension-fingerprinting) | No description provided | `JavaScript` ★ 159 | 2026-02-05 |
-| [cathrynlavery/codex-skill](https://github.com/cathrynlavery/codex-skill) | Give Claude Code a second opinion using Open AI Codex - automatic plan review via hooks | `Shell` ★ 9 | 2026-02-09 |
-| [crazystylus/otadump](https://github.com/crazystylus/otadump) | Extract partitions from Android OTA files. | `Rust` ★ 207 | 2025-11-02 |
-| [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | A smarter cd command. Supports all major shells. | `Rust` ★ 33.7k | 2026-02-18 |
-| [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) | Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend. | `Rust` ★ 8.4k | 2026-02-03 |
-| [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses. | `Go` ★ 35.3k | 2026-02-22 |
-| [keylase/nvidia-patch](https://github.com/keylase/nvidia-patch) | This patch removes restriction on maximum number of simultaneous NVENC video encoding sessions imposed by Nvidia to consumer-grade GPUs. | `Python` ★ 4.5k | 2026-02-15 |
-| [pompelmi/pompelmi](https://github.com/pompelmi/pompelmi) | free, open-source file scanner | `TypeScript` ★ 471 | 2026-02-23 |
-| [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | Hex Strike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug ... | `Python` ★ 7.1k | 2025-11-06 |
-| [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Convert documentation websites, Git Hub repositories, and PDFs into Claude AI skills with automatic conflict detection | `Python` ★ 9.8k | 2026-02-24 |
-| [udecode/plate](https://github.com/udecode/plate) | Rich-text editor with AI, MCP, and shadcn/ui | `TypeScript` ★ 16k | 2026-02-20 |
-| [alibaba/nacos](https://github.com/alibaba/nacos) | an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications. | `Java` ★ 32.6k | 2026-02-13 |
-| [Yamato-Security/EnableWindowsLogSettings](https://github.com/Yamato-Security/EnableWindowsLogSettings) | Documentation and scripts to properly enable Windows event logs. | `Batchfile` ★ 672 | 2025-10-03 |
-| [Yamato-Security/suzaku](https://github.com/Yamato-Security/suzaku) | Suzaku (朱雀) is a sigma-based threat hunting and fast forensics timeline generator for cloud logs. | `Rust` ★ 168 | 2025-12-07 |
-| [nicolonsky/ITDR](https://github.com/nicolonsky/ITDR) | Collection of Microsoft Identity Threat Detection and Response resources. | `PowerShell` ★ 52 | 2026-02-01 |
 | [ITContractorsUnion/ITContractorsUnion](https://github.com/ITContractorsUnion/ITContractorsUnion) | Repo For All Downloadable Data | `HTML` ★ 119 | 2026-02-19 |
+| [microsoft/agentrc](https://github.com/microsoft/agentrc) | Get your repo ready for AI. | `TypeScript` ★ 622 | 2026-02-25 |
+| [MicrosoftDocs/azure-monitor-docs](https://github.com/MicrosoftDocs/azure-monitor-docs) | Open source documentation repository for Azure monitor-related services. All content in this repository is published to learn.microsoft.com. | ★ 22 | 2026-02-24 |
+| [databasus/databasus](https://github.com/databasus/databasus) | Databases backup tool (Postgre SQL, My SQL, Mongo DB) | `Go` ★ 5.7k | 2026-02-22 |
+| [steipete/mcporter](https://github.com/steipete/mcporter) | Call MCPs via Type Script, masquerading as simple Type Script API. Or package them as cli. | `TypeScript` ★ 2.1k | 2026-01-07 |
+| [19h/apeiron](https://github.com/19h/apeiron) | A GPU- and SIMD-accelerated binary entropy visualizer written in Rust | `Rust` ★ 6 | 2026-01-22 |
+| [Lidarr/Lidarr](https://github.com/Lidarr/Lidarr) | Looks and smells like Sonarr but made for music. | `C#` ★ 5.1k | 2026-01-18 |
+| [cyanfish/naps2](https://github.com/cyanfish/naps2) | Scan documents to PDF and more, as simply as possible. | `C#` ★ 4k | 2025-10-18 |
+| [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development methodology that works. | `Shell` ★ 60.7k | 2026-02-21 |
+| [twitter/the-algorithm](https://github.com/twitter/the-algorithm) | Source code for the X Recommendation Algorithm | `Scala` ★ 72.8k | 2025-09-08 |
+| [onlook-dev/onlook](https://github.com/onlook-dev/onlook) | The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI | `TypeScript` ★ 24.7k | 2026-01-21 |
+| [ranaroussi/yfinance](https://github.com/ranaroussi/yfinance) | Download market data from Yahoo! Finance's API | `Python` ★ 21.8k | 2026-02-21 |
+| [suitenumerique/meet](https://github.com/suitenumerique/meet) | Open source video conferencing app powered by Live Kit. | `TypeScript` ★ 1.8k | 2026-02-24 |
+| [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒ | `TypeScript` ★ 1.4k | 2026-02-25 |
+| [1rgs/nanocode](https://github.com/1rgs/nanocode) | Minimal Claude Code alternative. Single Python file, zero dependencies, ~250 lines. | `Python` ★ 2k | 2026-01-14 |
+| [Anjok07/ultimatevocalremovergui](https://github.com/Anjok07/ultimatevocalremovergui) | GUI for a Vocal Remover that uses Deep Neural Networks. | `Python` ★ 23.7k | 2025-03-13 |
+| [joelhooks/swarm-tools](https://github.com/joelhooks/swarm-tools) | 🐝 Multi-agent swarm coordination for Open Code with learning capabilities, agent issue tracking, and management | `TypeScript` ★ 503 | 2026-02-23 |
+| [prabirshrestha/dotfiles](https://github.com/prabirshrestha/dotfiles) | There is no place like ~ | `Lua` ★ 93 | 2026-02-12 |
+| [Dicklesworthstone/coding_agent_session_search](https://github.com/Dicklesworthstone/coding_agent_session_search) | Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.) | `Rust` ★ 500 | 2026-02-24 |
+| [randomascii/UIforETW](https://github.com/randomascii/UIforETW) | User interface for recording and managing ETW traces | `C++` ★ 122 | 2026-01-05 |
+| [devicons/devicon](https://github.com/devicons/devicon) | Set of icons representing programming languages, designing & development tools | `CSS` ★ 11.5k | 2026-02-17 |
+| [adriangalilea/namecheap-python](https://github.com/adriangalilea/namecheap-python) | A Python SDK for the Namecheap API & CLI/TUI tools using it | `Python` ★ 31 | 2026-02-03 |
+| [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) | A collaborative list of public APIs for developers | `JavaScript` ★ 8.2k | 2026-02-23 |
+| [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) | OSINT Framework | `JavaScript` ★ 10.8k | 2025-06-16 |
+| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `HTML` ★ 10k | 2026-02-24 |
+| [simulot/immich-go](https://github.com/simulot/immich-go) | An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives. | `Go` ★ 5.6k | 2026-02-23 |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `Go` ★ 13.1k | 2026-02-25 |
+| [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | Community managed domain list. Generate geosite.dat for V2Ray. | `Go` ★ 7.8k | 2026-02-24 |
+| [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 1.6k | 2026-02-24 |
+| [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another :crocodile: :package: | `Go` ★ 34.2k | 2026-02-24 |
+| [steveiliop56/tinyauth](https://github.com/steveiliop56/tinyauth) | The simplest way to protect your apps with a login screen. | `Go` ★ 7k | 2026-02-25 |
+| [keploy/keploy](https://github.com/keploy/keploy) | API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs! | `Go` ★ 15.7k | 2026-02-25 |
+| [sysadminsmedia/homebox](https://github.com/sysadminsmedia/homebox) | A continuation of Home Box the inventory and organization system built for the Home User | `Go` ★ 5.3k | 2026-02-24 |
+| [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | A powerful little TUI framework 🏗 | `Go` ★ 39.8k | 2026-02-24 |
+| [spf13/cobra](https://github.com/spf13/cobra) | A Commander for modern Go CLI interactions | `Go` ★ 43.3k | 2025-12-10 |
+| [m1k1o/neko](https://github.com/m1k1o/neko) | A self hosted virtual browser that runs in docker and uses Web RTC. | `Go` ★ 17.2k | 2026-02-17 |
+| [knadh/listmonk](https://github.com/knadh/listmonk) | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app. | `Go` ★ 19.1k | 2026-02-24 |
+| [rcourtman/Pulse](https://github.com/rcourtman/Pulse) | Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unified dashboard | `Go` ★ 4.7k | 2026-02-25 |
+| [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | `Go` ★ 49.9k | 2026-01-17 |
+| [charmbracelet/vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder 📼 | `Go` ★ 18.7k | 2026-02-23 |
+| [chaitin/SafeLine](https://github.com/chaitin/SafeLine) | Safe Line is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits. | `Go` ★ 20.8k | 2025-11-05 |
+| [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | The Git Butler version control client, backed by Git, powered by Tauri/Rust/Svelte | `Rust` ★ 19.6k | 2026-02-25 |
+| [sxyazi/yazi](https://github.com/sxyazi/yazi) | 💥 Blazing fast terminal file manager written in Rust, based on async I/O. | `Rust` ★ 33.1k | 2026-02-25 |
+| [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust | `Rust` ★ 12.6k | 2026-02-25 |
+| [3b1b/manim](https://github.com/3b1b/manim) | Animation engine for explanatory math videos | `Python` ★ 84.8k | 2026-02-13 |
+| [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | Chat Dev 2.0: Dev All through LLM-powered Multi-Agent Collaboration | `Python` ★ 31.2k | 2026-02-23 |
+| [camel-ai/owl](https://github.com/camel-ai/owl) | 🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation | `Python` ★ 19.1k | 2026-02-24 |
+| [icloud-photos-downloader/icloud_photos_downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader) | A command-line tool to download photos from i Cloud | `Python` ★ 11.6k | 2026-01-06 |
+| [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie) | Mealie is a self hosted recipe manager and meal planner with a Rest API backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add reci... | `Python` ★ 11.5k | 2026-02-25 |
+| [Lulzx/zpdf](https://github.com/Lulzx/zpdf) | Zero-copy PDF text extraction library written in Zig. High-performance, memory-mapped parsing with SIMD acceleration. | `Zig` ★ 860 | 2026-02-07 |
+| [dadlerj/tin](https://github.com/dadlerj/tin) | No description provided | `Go` ★ 64 | 2026-01-07 |
+| [snarktank/ralph](https://github.com/snarktank/ralph) | Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete. | `TypeScript` ★ 11.2k | 2026-02-02 |
+| [frankbria/cli-ify-plugin](https://github.com/frankbria/cli-ify-plugin) | Convert Claude Code skills, commands, and agents into standalone CLI tools for Linux/Mac (Bash) and Windows (Power Shell). | `PowerShell` ★ 1 | 2026-01-09 |
+| [labring/sealos](https://github.com/labring/sealos) | Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfec... | `TypeScript` ★ 17k | 2026-02-24 |
+| [plexinc/pms-docker](https://github.com/plexinc/pms-docker) | Plex Media Server Docker repo, for all your PMS docker needs. | `Smarty` ★ 3.9k | 2026-02-19 |
+| [dvdsgl/claude-canvas](https://github.com/dvdsgl/claude-canvas) | Give Claude Code an external monitor | `TypeScript` ★ 1.4k | 2026-01-08 |
+| [matijazezelj/sib](https://github.com/matijazezelj/sib) | SIEM in a box | `Python` ★ 81 | 2026-02-24 |
+| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition. | `Python` ★ 14.5k | 2026-02-22 |
+| [openprose/prose](https://github.com/openprose/prose) | No description provided | ★ 814 | 2026-02-20 |
+| [danielmiessler/Daemon](https://github.com/danielmiessler/Daemon) | An open-source personal API framework. | `TypeScript` ★ 167 | 2025-12-16 |
+| [typesense/typesense](https://github.com/typesense/typesense) | Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to Elastic Search ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences | `C++` ★ 25.3k | 2026-02-24 |
+| [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | Play Station 4 emulator for Windows, Linux and mac OS written in C++ | `C++` ★ 28.4k | 2026-02-24 |
+| [taskflow/taskflow](https://github.com/taskflow/taskflow) | A General-purpose Task-parallel Programming System using Modern C++ | `C++` ★ 11.7k | 2026-02-23 |
+| [cemu-project/Cemu](https://github.com/cemu-project/Cemu) | Cemu - Wii U emulator | `C++` ★ 9k | 2026-02-23 |
+| [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | Complete Open Source and Modular solution for MMO | `C++` ★ 8k | 2026-02-25 |
+| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `Python` ★ 61.9k | 2026-02-24 |
+| [Babyhamsta/Aimmy](https://github.com/Babyhamsta/Aimmy) | Universal Second Eye for Gamers with Impairments (Universal AI Aim Aligner (AI Aimbot) - ONNX/YOLOv8 - C#) | `C#` ★ 1.4k | 2026-01-20 |
+| [rayenghanmi/RyTuneX](https://github.com/rayenghanmi/RyTuneX) | Ry Tune X is a cutting-edge optimizer built with the Win UI 3 framework, designed to amplify the performance of Windows devices. Crafted for both Windows 10 and 11. | `C#` ★ 4.1k | 2026-02-20 |
+| [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | Autonomous AI development loop for Claude Code with intelligent exit detection | `Shell` ★ 7.2k | 2026-02-20 |
+| [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | Get 10X more out of Claude Code, Codex or any coding agent | `Rust` ★ 21.8k | 2026-02-25 |
+| [usememos/memos](https://github.com/usememos/memos) | An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees. | `Go` ★ 57.2k | 2026-02-24 |
+| [devcontainers/cli](https://github.com/devcontainers/cli) | A reference implementation for the specification that can create and configure a dev container from a devcontainer.json. | `TypeScript` ★ 2.5k | 2026-02-23 |
+| [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | Open Stock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever ... | `TypeScript` ★ 9.1k | 2026-02-13 |
+| [microsoft/data-formulator](https://github.com/microsoft/data-formulator) | 🪄 Create rich visualizations with AI | `TypeScript` ★ 15.1k | 2026-02-24 |
+| [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 32.1k | 2026-01-31 |
+| [apache/superset](https://github.com/apache/superset) | Apache Superset is a Data Visualization and Data Exploration Platform | `TypeScript` ★ 70.7k | 2026-02-25 |
+| [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden\_rs | `Rust` ★ 55.5k | 2026-02-23 |
+| [j178/prek](https://github.com/j178/prek) | ⚡ Better \`pre-commit\`, re-engineered in Rust | `Rust` ★ 6.4k | 2026-02-24 |
+| [jdx/mise](https://github.com/jdx/mise) | dev tools, env vars, task runner | `Rust` ★ 25k | 2026-02-25 |
+| [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 29.6k | 2026-02-23 |
+| [epi052/feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | `Rust` ★ 7.5k | 2026-02-08 |
+| [sinelaw/fresh](https://github.com/sinelaw/fresh) | Terminal based IDE & text editor: easy, powerful and fast | `Rust` ★ 6k | 2026-02-24 |
+| [sharkdp/bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | `Rust` ★ 57.4k | 2026-02-20 |
+| [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) | Flash Infer: Kernel Library for LLM Serving | `Python` ★ 5k | 2026-02-25 |
+| [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework" | `Python` ★ 13.7k | 2026-02-24 |
+| [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | \[KDD'2026\] "Video RAG: Chat with Your Videos" | `Python` ★ 2.7k | 2026-01-11 |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. | `Python` ★ 78.9k | 2026-02-25 |
+| [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications. | `Python` ★ 12.3k | 2026-02-25 |
+| [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot). | `Python` ★ 10.5k | 2026-02-24 |
+| [hotheadhacker/no-as-a-service](https://github.com/hotheadhacker/no-as-a-service) | No-as-a-Service (Naa S) is a simple API that returns a random rejection reason. Use it when you need a realistic excuse, a fun “no,” or want to simulate being turned down in style. | `JavaScript` ★ 6.2k | 2026-01-23 |
+| [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | A browser based code editor | `JavaScript` ★ 45.6k | 2026-02-22 |
+| [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static... | `JavaScript` ★ 20.5k | 2026-02-03 |
+| [coredns/coredns](https://github.com/coredns/coredns) | Core DNS is a DNS server that chains plugins | `Go` ★ 13.9k | 2026-02-24 |
+| [publicsuffix/list](https://github.com/publicsuffix/list) | The Public Suffix List | `Go` ★ 2.7k | 2026-02-24 |
+| [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 35.1k | 2026-02-25 |
+| [charmbracelet/crush](https://github.com/charmbracelet/crush) | Glamourous agentic coding for all 💘 | `Go` ★ 20.4k | 2026-02-25 |
+| [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 38k | 2026-02-25 |
+| [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.6k | 2026-02-25 |
+| [upx/upx](https://github.com/upx/upx) | UPX - the Ultimate Packer for e Xecutables | `C++` ★ 17.2k | 2026-02-24 |
+| [google/flatbuffers](https://github.com/google/flatbuffers) | Flat Buffers: Memory Efficient Serialization Library | `C++` ★ 25.6k | 2026-02-23 |
+| [umbraco/Umbraco-CMS](https://github.com/umbraco/Umbraco-CMS) | Umbraco is a free and open source .NET content management system helping you deliver delightful digital experiences. | `C#` ★ 5.1k | 2026-02-25 |
+| [memvid/claude-brain](https://github.com/memvid/claude-brain) | Give Claude Code photographic memory in ONE portable file. No database, no SQLite, no Chroma DB - just a single .mv2 file you can git commit, scp, or share. Native Rust core with sub-ms operations. | `TypeScript` ★ 308 | 2026-01-19 |
+| [AutoMaker-Org/automaker](https://github.com/AutoMaker-Org/automaker) | No description provided | `TypeScript` ★ 3k | 2026-02-24 |
+| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI. | ★ 10.6k | 2026-02-10 |
+| [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | Wrap Gemini CLI, Antigravity, Chat GPT Codex, Claude Code, Qwen Code, i Flow as an Open AI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, ... | `Go` ★ 11.6k | 2026-02-24 |
+| [freelawproject/courtlistener](https://github.com/freelawproject/courtlistener) | A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial financial records, and federal filings. | `Python` ★ 855 | 2026-02-25 |
+| [0xSero/Azul](https://github.com/0xSero/Azul) | Browse the world in the comfort of your terminal | `Rust` ★ 154 | 2026-01-08 |
+| [ishandutta2007/open-hr](https://github.com/ishandutta2007/open-hr) | 📖opensource equivalent of Deel payroll and HR solutions | ★ 1 | 2026-02-11 |
+| [engageintellect/spatz-2](https://github.com/engageintellect/spatz-2) | just like spatz... but for svelte5, with shadcn-svelte, svelte-animations, svelte-superforms, stripe payments, subscriptions, content-filtering, and more. | `Svelte` ★ 321 | 2025-09-12 |
+| [stan-smith/SlingShot](https://github.com/stan-smith/SlingShot) | Dead simple ultra-low bandwidth video over QUIC, written in Rust, dead simple to use, free forever, designed for use in any and all conditions | `Rust` ★ 42 | 2026-01-30 |
+| [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) | The first "code-first" agent framework for seamlessly planning and executing data analytics tasks. | `Python` ★ 6.1k | 2026-02-03 |
+| [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2) | Official Python inference and Lo RA trainer package for the LTX-2 audio–video generative model. | `Python` ★ 4.1k | 2026-02-09 |
+| [alexzhang13/rlm](https://github.com/alexzhang13/rlm) | General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes. | `Python` ★ 2.7k | 2026-02-24 |
+| [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 1.5k | 2026-01-07 |
+| [AndurilCode/mcp-apps-kit](https://github.com/AndurilCode/mcp-apps-kit) | A Type Script framework for building interactive MCP applications that work seamlessly with both MCP Apps and Chat GPT (Open AI Apps SDK) from a single codebase. | `TypeScript` ★ 12 | 2026-02-24 |
+| [frostybee/starlight-tags](https://github.com/frostybee/starlight-tags) | A plugin to add tags to your Starlight docs for content organization and discovery. | `TypeScript` ★ 11 | 2026-02-10 |
+| [samuel-vitorino/sopro](https://github.com/samuel-vitorino/sopro) | A lightweight text-to-speech model with zero-shot voice cloning | `Python` ★ 795 | 2026-02-06 |
+| [kdcokenny/opencode-worktree](https://github.com/kdcokenny/opencode-worktree) | Zero-friction git worktrees for Open Code. Auto-spawns terminals, syncs files, cleans up on exit. | `TypeScript` ★ 214 | 2026-02-09 |
+| [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | Miro Thinker is an open source deep research agent optimized for research and prediction. It achieves a 80.8% Avg@8 score on the challenging GAIA benchmark. | `Python` ★ 6.4k | 2026-02-10 |
+| [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo) | LTX-Video Support for Comfy UI | `Python` ★ 3.2k | 2026-02-11 |
+| [AutoForgeAI/autoforge](https://github.com/AutoForgeAI/autoforge) | No description provided | `Python` ★ 1.7k | 2026-02-23 |
+| [jamichss/Stream-DiffVSR](https://github.com/jamichss/Stream-DiffVSR) | The official repository of paper "Stream-Diff VSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion" | `Python` ★ 284 | 2026-01-12 |
+| [IIEleven11/ComfyUI-Dataset_Maker](https://github.com/IIEleven11/ComfyUI-Dataset_Maker) | No description provided | `Python` ★ 4 | 2026-01-09 |
+| [kasperjunge/agent-resources](https://github.com/kasperjunge/agent-resources) | A package manager for AI agents. Install agent skills from Git Hub with a single command. | `Python` ★ 403 | 2026-02-07 |
+| [davidfowl/tally](https://github.com/davidfowl/tally) | Let agents classify your bank transactions. | `Python` ★ 1.1k | 2026-01-17 |
+| [cocos/cocos-cli](https://github.com/cocos/cocos-cli) | COCOS CLI | `TypeScript` ★ 200 | 2026-02-11 |
+| [ArtemXTech/claude-code-obsidian-starter](https://github.com/ArtemXTech/claude-code-obsidian-starter) | Free starter kit: Claude Code + Obsidian. Pre-configured vault with skills for projects, tasks, clients, and daily routines. Just open and go. | `Typst` ★ 100 | 2026-01-23 |
+| [code-yeongyu/agent-engineering-guide](https://github.com/code-yeongyu/agent-engineering-guide) | Aren't you curious how i made Sisyphus? And what could be more? | ★ 8 | 2026-01-04 |
+| [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | A beautiful web UI for browsing Claude Code conversation history. | `TypeScript` ★ 521 | 2026-02-23 |
+| [TRaSH-Guides/Guides](https://github.com/TRaSH-Guides/Guides) | TRa SH-Guides is a comprehensive collection of guides for Radarr, Sonarr, and related media management applications. | `Markdown` ★ 2.8k | 2026-02-24 |
+| [kaifcodec/Telespot](https://github.com/kaifcodec/Telespot) | Tele Spot OSINT lookup from Telephone number using DDGR + BING + GOOGLE and pattern recognition correlations. | `Python` ★ 4 | 2026-01-09 |
+| [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | `Python` ★ 73.1k | 2026-02-24 |
+| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool | `JavaScript` ★ 83.2k | 2026-02-25 |
+| [OpenSignLabs/OpenSign](https://github.com/OpenSignLabs/OpenSign) | 🔥 The free & Open Source Docu Sign alternative | `JavaScript` ★ 6k | 2026-02-24 |
+| [henrygd/beszel](https://github.com/henrygd/beszel) | Lightweight server monitoring hub with historical data, docker stats, and alerts. | `Go` ★ 19.6k | 2026-02-24 |
+| [TwiN/gatus](https://github.com/TwiN/gatus) | Automated developer-oriented status page with alerting and incident support | `Go` ★ 10.2k | 2026-02-20 |
+| [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | `C#` ★ 14.3k | 2026-02-23 |
+| [tixl3d/tixl](https://github.com/tixl3d/tixl) | Ti XL is an open source software to create realtime motion graphics. | `C#` ★ 4.8k | 2026-02-23 |
+| [bytedance/Dolphin](https://github.com/bytedance/Dolphin) | The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025. | `Python` ★ 8.8k | 2025-12-17 |
+| [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11.1k | 2026-02-23 |
+| [subframe7536/maple-font](https://github.com/subframe7536/maple-font) | Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项 | `Python` ★ 24.1k | 2026-02-24 |
+| [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) | A platform for building proxies to bypass network restrictions. | `Go` ★ 47k | 2025-10-06 |
+| [5rahim/seanime](https://github.com/5rahim/seanime) | Open-source media server with a web interface and desktop app for anime and manga. | `Go` ★ 2.9k | 2026-02-24 |
+| [grpc/grpc](https://github.com/grpc/grpc) | C++ based g RPC (C++, Python, Ruby, Objective-C, PHP, C#) | `C++` ★ 44.4k | 2026-02-25 |
+| [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser | `C++` ★ 59.2k | 2026-02-25 |
+| [AlexandreRouma/SDRPlusPlus](https://github.com/AlexandreRouma/SDRPlusPlus) | Cross-Platform SDR Software | `C++` ★ 5.7k | 2025-12-12 |
+| [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) | Map Libre GL JS - Interactive vector tile maps in the browser | `TypeScript` ★ 10k | 2026-02-24 |
+| [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) | The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement ... | `C#` ★ 19.2k | 2026-02-24 |
+| [mourad-ghafiri/youtube-mcp-server](https://github.com/mourad-ghafiri/youtube-mcp-server) | A powerful Model Context Protocol (MCP) server for You Tube video transcription and metadata extraction. | `Python` ★ 52 | 2026-01-03 |
+| [lcqysl/DiffThinker](https://github.com/lcqysl/DiffThinker) | Diff Thinker: Towards Generative Multimodal Reasoning with Diffusion Models | `Python` ★ 169 | 2026-01-04 |
+| [riccardoruspoli/reko](https://github.com/riccardoruspoli/reko) | Make You Tube videos readable. Local-first Markdown summaries with Ollama, with cloud providers support. | `Python` ★ 60 | 2025-12-28 |
+| [Quaggles/SwarmUI-FaceTools](https://github.com/Quaggles/SwarmUI-FaceTools) | A Swarm UI extension that adds parameters for Re Actor to the the generate tab | `C#` ★ 27 | 2026-01-04 |
+| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 2.8k | 2026-02-25 |
+| [Or1un/MOSAIC](https://github.com/Or1un/MOSAIC) | Privacy-first behavioral intelligence framework for multi-platform analysis and sociodynamic research. | `Python` ★ 39 | 2025-12-30 |
+| [jayfunc/BetterLyrics](https://github.com/jayfunc/BetterLyrics) | An elegant and deeply customizable lyrics visualizer & versatile music player, built with Win UI3/Win2D | 一款优雅且高度自定义的歌词可视化与全能音乐播放应用，基于 Win UI3/Win2D 构建 | `C#` ★ 1.6k | 2026-02-23 |
+| [supreme-gg-gg/instagram-cli](https://github.com/supreme-gg-gg/instagram-cli) | Instagram's terminal UI app - The ultimate weapon against brainrot | `TypeScript` ★ 1.6k | 2026-02-22 |
+| [OneKeyHQ/app-monorepo](https://github.com/OneKeyHQ/app-monorepo) | Secure, open source and community driven crypto wallet runs on all platforms and trusted by millions. | `TypeScript` ★ 2.3k | 2026-02-25 |
+| [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code | `TypeScript` ★ 2.8k | 2026-02-23 |
+| [antvis/Infographic](https://github.com/antvis/Infographic) | 🦋 An Infographic Generation and Rendering Framework, bring words to life with AI! | `TypeScript` ★ 4.5k | 2026-02-25 |
+| [MyOnee/R](https://github.com/MyOnee/R) | Free RDP from Github Actions | `Batchfile` ★ 54 | 2025-06-13 |
+| [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) | :zap: Dynamically generated stats for your github readmes | `JavaScript` ★ 78.5k | 2026-02-14 |
+| [image-rs/fdeflate](https://github.com/image-rs/fdeflate) | Fast deflate implementation specialized for PNG image data | `Rust` ★ 30 | 2026-02-20 |
+| [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. | `TypeScript` ★ 7.4k | 2026-02-23 |
+| [hosenur/portal](https://github.com/hosenur/portal) | Mobile first batteries included web ui for sst/opencode. Git integration, in browser terminal, isolated workspaces. | `TypeScript` ★ 415 | 2026-02-02 |
+| [Azure-Samples/ai-hub-gateway-solution-accelerator](https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator) | Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure ... | `Bicep` ★ 251 | 2026-02-20 |
+| [pqoqubbw/icons](https://github.com/pqoqubbw/icons) | beautifully crafted animated icons | `TypeScript` ★ 7.1k | 2026-02-23 |
+| [eat-pray-ai/yutu](https://github.com/eat-pray-ai/yutu) | A fully functional MCP server and CLI for You Tube | `Go` ★ 382 | 2026-02-24 |
+| [lirang04/GroundingME](https://github.com/lirang04/GroundingME) | Evaluation Code for Grounding ME | `Python` ★ 7 | 2025-12-26 |
+| [microsoft/vscode-generator-code](https://github.com/microsoft/vscode-generator-code) | Visual Studio Code extension generator | `JavaScript` ★ 1.6k | 2026-02-24 |
+| [Kong/insomnia](https://github.com/Kong/insomnia) | The open-source, cross-platform API client for Graph QL, REST, Web Sockets, SSE and g RPC. With Cloud, Local and Git storage. | `TypeScript` ★ 38k | 2026-02-23 |
+| [nccgroup/wssip](https://github.com/nccgroup/wssip) | Application for capturing, modifying and sending custom Web Socket data from client to server and vice versa. | `JavaScript` ★ 451 | 2022-12-08 |
+| [trustedsec/social-engineer-toolkit](https://github.com/trustedsec/social-engineer-toolkit) | The Social-Engineer Toolkit (SET) repository from Trusted Sec - All new versions of SET will be deployed here. | `Python` ★ 14.6k | 2024-10-21 |
+| [memstechtips/Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | `C#` ★ 6.2k | 2026-02-24 |
+| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | screenpipe turns your computer into a personal AI that knows everything you've done. record. search. automate. all local, all private, all yours. | `Rust` ★ 17k | 2026-02-25 |
+| [nicotsx/zerobyte](https://github.com/nicotsx/zerobyte) | Backup automation for self-hosters. Built on top of restic | `TypeScript` ★ 5.7k | 2026-02-24 |
+| [ant-design/ant-design](https://github.com/ant-design/ant-design) | An enterprise-class UI design language and React UI library | `TypeScript` ★ 97.7k | 2026-02-24 |
+| [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫 | `Python` ★ 44.3k | 2026-02-13 |
+| [SpriteOvO/AirPodsDesktop](https://github.com/SpriteOvO/AirPodsDesktop) | ☄️ Air Pods desktop user experience enhancement program, for Windows and Linux (WIP) | `C++` ★ 2.4k | 2024-07-12 |
+| [stakira/OpenUtau](https://github.com/stakira/OpenUtau) | Open singing synthesis platform / Open source UTAU successor | `C#` ★ 3.6k | 2026-02-01 |
+| [builtbybel/FlyOOBE](https://github.com/builtbybel/FlyOOBE) | Fly through your Windows 11 setup 🐝 | `C#` ★ 6.7k | 2026-01-04 |
+| [NullandKale/NullSplats](https://github.com/NullandKale/NullSplats) | No description provided | `Python` ★ 132 | 2026-01-12 |
+| [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c... | `TypeScript` ★ 8.8k | 2026-02-25 |
+| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | An autonomous agent that conducts deep research on any data using any LLM providers. | `Python` ★ 25.4k | 2026-02-21 |
+| [rsalmei/alive-progress](https://github.com/rsalmei/alive-progress) | A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations! | `Python` ★ 6.2k | 2025-10-10 |
+| [jgarzik/hk](https://github.com/jgarzik/hk) | A modern, Linux compatible OS kernel | `Rust` ★ 339 | 2025-12-30 |
+| [e18e/eslint-plugin](https://github.com/e18e/eslint-plugin) | The official e18e ESLint plugin for code modernization and performance best practices | `TypeScript` ★ 114 | 2026-02-23 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
