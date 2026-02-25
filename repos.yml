@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-25T04:03:57.861Z'
+  manifest_updated_at: '2026-02-25T04:04:28.523Z'
   total_repos: 599
   generator_version: v1.0.0
   github_user: primeinc
@@ -17350,13 +17350,18 @@ repositories:
     framework: null
   - repo: Lidarr/Lidarr
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - music
+      - torrent
+      - nzb
+      - lang:csharp
     summary: Looks and smells like Sonarr but made for music.
     last_synced_sha: f6a3e7370540cc25caf3aaf0f1c91e7c085585ac
     user_starred_at: '2026-01-14T07:20:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -17380,15 +17385,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.508Z'
+      prompt_version: v3
   - repo: cyanfish/naps2
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - scanner
+      - pdf
+      - lang:csharp
+      - simple-workflows
     summary: Scan documents to PDF and more, as simply as possible.
     last_synced_sha: 3cd6800f936d425d3949589b9966804a039ebd54
     user_starred_at: '2026-01-14T07:19:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -17420,15 +17434,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.508Z'
+      prompt_version: v3
   - repo: obra/superpowers
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - productivity
+    tags:
+      - frameworks
+      - software-development
+      - skills
+      - lang:shell
     summary: An agentic skills framework & software development methodology that works.
     last_synced_sha: e4a2375cb705ca5800f0833528ce36a3faf9017a
     user_starred_at: '2026-01-14T07:17:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -17448,15 +17471,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.508Z'
+      prompt_version: v3
   - repo: twitter/the-algorithm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - recommendation-engine
+      - social-media
+      - lang:scala
+      - algorithm
     summary: Source code for the X Recommendation Algorithm
     last_synced_sha: c54bec0d4e029fe34926ef3258a86ccacc0d0182
     user_starred_at: '2026-01-14T07:16:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Scala
       topics: []
@@ -17474,15 +17506,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.508Z'
+      prompt_version: v3
   - repo: onlook-dev/onlook
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react
+      - frontend
+      - low-code
+      - ai-design
+      - lang:ts
     summary: The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI
     last_synced_sha: ab9333d4fcfdb485383a228d157402a5efa6b4ea
     user_starred_at: '2026-01-14T07:16:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -17520,16 +17562,26 @@ repositories:
         published_at: '2025-07-17T18:36:21Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.508Z'
+      prompt_version: v3
   - repo: ranaroussi/yfinance
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - data-science
+    tags:
+      - yahoo-finance
+      - market-data
+      - financial-data
+      - lang:python
+      - pandas
     summary: Download market data from Yahoo! Finance's API
     last_synced_sha: 81631009a20bf682dc3d6799e954fb49af770580
     user_starred_at: '2026-01-14T07:16:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -17557,15 +17609,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.508Z'
+      prompt_version: v3
   - repo: suitenumerique/meet
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - video-conferencing
+      - react
+      - webrtc
+      - lang:ts
+      - livekit
     summary: Open source video conferencing app powered by Live Kit.
     last_synced_sha: d76b4c9b9f5473d2134db917b1048f5379815b2a
     user_starred_at: '2026-01-14T05:31:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -17592,16 +17654,26 @@ repositories:
         published_at: '2026-02-20T16:19:24Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.508Z'
+      prompt_version: v3
   - repo: Nano-Collective/nanocoder
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - ai-coding
+      - llms
+      - coding-agents
+      - local-first
+      - lang:ts
     summary: A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒
     last_synced_sha: 3687c0b6b46c4bee95f4e9698096298589fd1089
     user_starred_at: '2026-01-13T21:07:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -17630,15 +17702,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.508Z'
+      prompt_version: v3
   - repo: 1rgs/nanocode
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - lightweight
+      - coding-agent
+      - cli
+      - lang:python
     summary: Minimal Claude Code alternative. Single Python file, zero dependencies, ~250 lines.
     last_synced_sha: b009d3dbedf14795a5c10804a5455386563f4b5b
     user_starred_at: '2026-01-13T14:11:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -17656,15 +17737,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.508Z'
+      prompt_version: v3
   - repo: Anjok07/ultimatevocalremovergui
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - vocal-remover
+      - deep-learning
+      - gui
+      - lang:python
+      - pytorch
     summary: GUI for a Vocal Remover that uses Deep Neural Networks.
     last_synced_sha: 5517e0cf0d1acd16a1618eeedec596957523f9e1
     user_starred_at: '2026-01-12T20:45:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -17696,15 +17787,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.508Z'
+      prompt_version: v3
   - repo: joelhooks/swarm-tools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - multi-agent
+      - machine-learning
+      - swarm
+      - lang:ts
+      - ai-agents
     summary: 🐝 Multi-agent swarm coordination for Open Code with learning capabilities, agent issue tracking, and management
     last_synced_sha: c0225bebda1d7fa4c87363a68183026e5b765cb3
     user_starred_at: '2026-01-11T15:42:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -17729,15 +17830,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.507Z'
+      prompt_version: v3
   - repo: prabirshrestha/dotfiles
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - dotfiles
+      - configuration
+      - setup
+      - lang:lua
     summary: There is no place like ~
     last_synced_sha: f8c5d050aaef0c3eba73a77cf7c5d14847aae399
     user_starred_at: '2026-01-11T15:36:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics: []
@@ -17757,15 +17867,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.507Z'
+      prompt_version: v3
   - repo: Dicklesworthstone/coding_agent_session_search
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+      - ai-ml
+    tags:
+      - ai-agents
+      - tui
+      - search
+      - lang:rust
+      - developer-tools
     summary: Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.)
     last_synced_sha: e0dfc918f915f2991f474ed9fa00dfedae8a6151
     user_starred_at: '2026-01-11T15:26:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -17790,15 +17911,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.507Z'
+      prompt_version: v3
   - repo: randomascii/UIforETW
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - etw
+      - tracing
+      - windows
+      - lang:cpp
     summary: User interface for recording and managing ETW traces
     last_synced_sha: 0168036340a0df18ac03ca4638ced02a5d2a6024
     user_starred_at: '2026-01-11T07:58:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C++
@@ -17819,15 +17949,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.507Z'
+      prompt_version: v3
   - repo: devicons/devicon
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - icons
+      - font
+      - dev-tools
+      - lang:css
+      - svg
     summary: Set of icons representing programming languages, designing & development tools
     last_synced_sha: 670a611ad1c3e057ee385168d65c8ab27a7e1be5
     user_starred_at: '2026-01-11T06:21:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics:
@@ -17855,6 +17995,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:04:27.507Z'
+      prompt_version: v3
   - repo: adriangalilea/namecheap-python
     categories:
       - apis
