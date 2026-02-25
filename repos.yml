@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-25T04:02:57.127Z'
+  manifest_updated_at: '2026-02-25T04:03:24.629Z'
   total_repos: 599
   generator_version: v1.0.0
   github_user: primeinc
@@ -18414,13 +18414,19 @@ repositories:
     framework: null
   - repo: knadh/listmonk
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - apis
+    tags:
+      - lang:go
+      - email-marketing
+      - newsletters
+      - self-hosted
+      - campaigns
     summary: High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.
     last_synced_sha: fdd7dbbb00d0e45b710144fb5beb77f5a883c066
     user_starred_at: '2026-01-09T21:08:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -18453,15 +18459,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.612Z'
+      prompt_version: v3
   - repo: rcourtman/Pulse
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - automation
+      - cloud
+    tags:
+      - lang:go
+      - ai-insights
+      - kubernetes-monitoring
+      - docker-monitoring
+      - alerts
     summary: Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unified dashboard
     last_synced_sha: c213e0ce30688abd5370259001ea58b66f5a5ceb
     user_starred_at: '2026-01-09T21:08:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -18500,15 +18517,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.612Z'
+      prompt_version: v3
   - repo: jesseduffield/lazydocker
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - containers
+    tags:
+      - lang:go
+      - docker-management
+      - cli
+      - self-hosted
+      - lazy-use
     summary: The lazier way to manage everything docker
     last_synced_sha: 577797d9ed11463f220c0c5d0acb86b521c1d21d
     user_starred_at: '2026-01-09T21:08:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -18528,15 +18555,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.612Z'
+      prompt_version: v3
   - repo: charmbracelet/vhs
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - testing
+    tags:
+      - lang:go
+      - video-recording
+      - cli
+      - terminal
+      - ascii
     summary: Your CLI home video recorder 📼
     last_synced_sha: c6145bdbbbd385a11cc87470ca189f6fd4f0d657
     user_starred_at: '2026-01-09T21:07:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -18564,15 +18601,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.612Z'
+      prompt_version: v3
   - repo: chaitin/SafeLine
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+    tags:
+      - lang:go
+      - web-security
+      - waf
+      - reverse-proxy
+      - sql-injection
     summary: Safe Line is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.
     last_synced_sha: 6d871e638bf8750c3422413afae0fd7b2d311a55
     user_starred_at: '2026-01-09T21:06:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -18612,15 +18659,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.612Z'
+      prompt_version: v3
   - repo: gitbutlerapp/gitbutler
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - desktop-dev
+    tags:
+      - lang:rust
+      - git
+      - tauri
+      - svelte
+      - version-control-client
     summary: The Git Butler version control client, backed by Git, powered by Tauri/Rust/Svelte
     last_synced_sha: ae5508e95cfc3267a0ab80cf4c8c18704fa816f8
     user_starred_at: '2026-01-09T21:05:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -18642,16 +18699,26 @@ repositories:
         published_at: '2026-02-19T17:06:12Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: svelte
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.612Z'
+      prompt_version: v3
   - repo: sxyazi/yazi
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - desktop-dev
+    tags:
+      - lang:rust
+      - tui
+      - file-management
+      - terminal
+      - async-io
     summary: 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
     last_synced_sha: 8b773a62a546411b7c75cd5af60663ab09fbd278
     user_starred_at: '2026-01-09T21:04:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -18690,15 +18757,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.612Z'
+      prompt_version: v3
   - repo: ast-grep/ast-grep
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - testing
+    tags:
+      - lang:rust
+      - ast
+      - codemod
+      - code-linter
+      - cli-tool
     summary: ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust
     last_synced_sha: e5f9010ed5dfb52b7946ae330cf33466caaaafcb
     user_starred_at: '2026-01-09T21:04:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -18733,15 +18810,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.612Z'
+      prompt_version: v3
   - repo: 3b1b/manim
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - lang:python
+      - animation
+      - math-videos
+      - teaching-aid
+      - explanatory-content
     summary: Animation engine for explanatory math videos
     last_synced_sha: e7787d791006c43ece9b86c7939fc0146b89e2a9
     user_starred_at: '2026-01-09T21:03:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -18765,15 +18852,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.612Z'
+      prompt_version: v3
   - repo: OpenBMB/ChatDev
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:python
+      - multi-agent
+      - task-collaboration
+      - llm
     summary: 'Chat Dev 2.0: Dev All through LLM-powered Multi-Agent Collaboration'
     last_synced_sha: 410b8112b44dd421189c2535ea7c964454b2dd59
     user_starred_at: '2026-01-09T21:02:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -18793,15 +18889,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.612Z'
+      prompt_version: v3
   - repo: camel-ai/owl
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - productivity
+    tags:
+      - lang:python
+      - task-automation
+      - multi-agent
+      - web-interaction
+      - ai
     summary: '🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation'
     last_synced_sha: 338087f95c40960b42c12cbc811679a913784ea4
     user_starred_at: '2026-01-09T21:02:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -18824,15 +18931,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.611Z'
+      prompt_version: v3
   - repo: icloud-photos-downloader/icloud_photos_downloader
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - lang:python
+      - photos-management
+      - cli
+      - file-download
+      - icloud
     summary: A command-line tool to download photos from i Cloud
     last_synced_sha: 3a97872f9f44ac49bda54b66b5170575bd22ff18
     user_starred_at: '2026-01-09T21:01:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -18852,15 +18969,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.611Z'
+      prompt_version: v3
   - repo: mealie-recipes/mealie
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - apis
+      - ui-libraries
+    tags:
+      - lang:python
+      - vue
+      - meal-planning
+      - recipe-management
+      - self-hosted
     summary: Mealie is a self hosted recipe manager and meal planner with a Rest API backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add reci...
     last_synced_sha: 3ae455539cc78128fbeb1a50831ce1f89cf55125
     user_starred_at: '2026-01-09T21:01:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -18884,16 +19012,26 @@ repositories:
         published_at: '2026-02-17T04:13:35Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.611Z'
+      prompt_version: v3
   - repo: Lulzx/zpdf
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - data-science
+    tags:
+      - lang:zig
+      - pdf
+      - text-extraction
+      - parsing
+      - high-performance
     summary: Zero-copy PDF text extraction library written in Zig. High-performance, memory-mapped parsing with SIMD acceleration.
     last_synced_sha: b7a896558f1dd1b4d6a68787f899bbf4ed6fde35
     user_starred_at: '2026-01-09T21:00:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Zig
       topics:
@@ -18919,15 +19057,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.611Z'
+      prompt_version: v3
   - repo: dadlerj/tin
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - networking
+    tags:
+      - lang:go
+      - tcp-ip
+      - protocol
+      - network-analysis
     summary: No description provided
     last_synced_sha: ee3f98f4ac74942b75859173ab88d5e6a22ae7d1
     user_starred_at: '2026-01-09T20:59:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -18945,6 +19092,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-25T04:03:23.611Z'
+      prompt_version: v3
   - repo: snarktank/ralph
     categories:
       - ai-ml
