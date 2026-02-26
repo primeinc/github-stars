@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-26T04:33:12.742Z'
+  manifest_updated_at: '2026-02-26T04:33:43.597Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -53514,13 +53514,18 @@ repositories:
     framework: null
   - repo: humanlayer/12-factor-agents
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - llms
+      - prompt-engineering
+      - agents
+      - lang:ts
     summary: What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?
     last_synced_sha: d20c728368bf9c189d6d7aab704744decb6ec0cc
     user_starred_at: '2025-07-11T02:37:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -53549,15 +53554,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.001Z'
+      prompt_version: v3
   - repo: googleapis/genai-toolbox
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+    tags:
+      - database
+      - ai
+      - genai
+      - llm
+      - lang:go
     summary: MCP Toolbox for Databases is an open source MCP server for databases.
     last_synced_sha: 182d63c7a080de7f673ad4364ddfde863405c6cb
     user_starred_at: '2025-07-11T02:36:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -53597,15 +53612,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.001Z'
+      prompt_version: v3
   - repo: indragiek/Context
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - networking
+    tags:
+      - macos
+      - client
+      - mcp
+      - lang:swift
     summary: Native mac OS client for Model Context Protocol (MCP)
     last_synced_sha: 86ae05b2a374157194bb1ddbe1b8ebf613cf773b
     user_starred_at: '2025-07-11T01:13:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics: []
@@ -53625,15 +53649,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.001Z'
+      prompt_version: v3
   - repo: hewigovens/app-detective
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - macos
+      - gui-detection
+      - lang:swift
     summary: Detect mac OS apps' GUI tech stack
     last_synced_sha: 9c348a6f393b9eccb6e5462f89704ad5197c1dd7
     user_starred_at: '2025-07-10T01:17:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics: []
@@ -53653,15 +53685,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.001Z'
+      prompt_version: v3
   - repo: modelcontextprotocol/servers
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+      - apis
+    tags:
+      - mcp
+      - ai-framework
+      - lang:ts
     summary: Model Context Protocol Servers
     last_synced_sha: 04cce79b4c2bbaa313095e9c2a466381f5fd1e64
     user_starred_at: '2025-07-10T01:15:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -53681,15 +53722,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.001Z'
+      prompt_version: v3
   - repo: yukangcao/FreeMorph
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-morphing
+      - diffusion-model
+      - lang:python
     summary: '[ICCV''25] Free Morph: Tuning-Free Generalized Image Morphing with Diffusion Model'
     last_synced_sha: b7b7068291c6654232f8c8959e22214e311ede69
     user_starred_at: '2025-07-04T11:48:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -53707,15 +53756,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.001Z'
+      prompt_version: v3
   - repo: OrkunKocyigit/vidlib
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - video-management
+      - desktop-app
+      - lang:rust
     summary: Explorer based video management tool
     last_synced_sha: 0f7e005be96175b517874b9c9eb09ef803fec98b
     user_starred_at: '2025-07-04T10:30:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -53733,15 +53790,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.001Z'
+      prompt_version: v3
   - repo: hgrsd/drivel
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - dev-tools
+    tags:
+      - json-schema
+      - synthetic-data
+      - lang:rust
     summary: Infer a JSON schema from example data, produce nonsense synthetic data (drivel) according to the schema
     last_synced_sha: ae37111b3abd4c3ff700f22e107a7e4e87fa99b2
     user_starred_at: '2025-07-03T15:20:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -53767,15 +53832,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.001Z'
+      prompt_version: v3
   - repo: scaffdog/scaffdog
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - scaffolding
+      - cli
+      - template
+      - lang:ts
     summary: ':dog: scaffdog is Markdown driven scaffolding tool.'
     last_synced_sha: 90f24270712a31872c8e108e17513d79a1596955
     user_starred_at: '2025-07-02T22:25:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -53802,15 +53876,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.001Z'
+      prompt_version: v3
   - repo: siwenwang0803/secure-pr-guard
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - secure-pr
+      - code-tools
+      - lang:python
     summary: No description provided
     last_synced_sha: ab00ab2f7ab7861e1b680855abbb95b42c28f35b
     user_starred_at: '2025-07-02T22:18:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -53830,15 +53912,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.001Z'
+      prompt_version: v3
   - repo: google/grr
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - incident-response
+      - forensics
+      - lang:python
     summary: 'GRR Rapid Response: remote live forensics for incident response'
     last_synced_sha: 2d4cfd3c0b8fed46906222c87932d976dc0f4919
     user_starred_at: '2025-07-02T22:01:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -53858,15 +53948,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.001Z'
+      prompt_version: v3
   - repo: google/zx
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - cli
+      - nodejs
+      - shell-scripting
+      - lang:js
     summary: A tool for writing better scripts
     last_synced_sha: 2bbcaa5f95b61a5484353f9439e9c8ffae1bada0
     user_starred_at: '2025-07-02T21:59:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -53895,15 +53994,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.001Z'
+      prompt_version: v3
   - repo: vitejs/awesome-vite
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - vite
+      - awesome-list
+      - lang:js
     summary: ⚡️ A curated list of awesome things related to Vite.js
     last_synced_sha: ec6b41d8295ed4a18a58778a1219aa430bb55963
     user_starred_at: '2025-07-02T21:28:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -53925,15 +54032,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.000Z'
+      prompt_version: v3
   - repo: winfunc/opcode
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+      - dev-tools
+    tags:
+      - claude-ai
+      - ide
+      - lang:ts
+      - ai
+      - developer-tools
     summary: A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.
     last_synced_sha: 70c16d8a4910db48cd9684aeacdd431caefd7d71
     user_starred_at: '2025-07-01T01:38:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -53968,15 +54086,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.000Z'
+      prompt_version: v3
   - repo: FreedomIntelligence/ShareGPT-4o-Image
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ai
+      - image-processing
+      - lang:python
     summary: No description provided
     last_synced_sha: 19ac7d779d8b893b549c2640373c78947ee4b6d5
     user_starred_at: '2025-06-27T20:14:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -53994,6 +54120,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:33:42.000Z'
+      prompt_version: v3
   - repo: DataExpert-io/data-engineer-handbook
     categories:
       - documentation
