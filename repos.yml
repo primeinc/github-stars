@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-26T04:52:15.840Z'
+  manifest_updated_at: '2026-02-26T04:52:50.699Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -34903,13 +34903,19 @@ repositories:
     framework: null
   - repo: elie222/inbox-zero
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - ai
+      - email
+      - nextjs
+      - productivity
+      - lang:ts
     summary: The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.
     last_synced_sha: ddcadb801984d1733ff39cced192823eeff33e1d
     user_starred_at: '2025-10-19T19:59:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34945,16 +34951,27 @@ repositories:
         published_at: '2026-02-09T10:00:19Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.091Z'
+      prompt_version: v3
   - repo: MCP-UI-Org/mcp-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - ui
+      - frontend
+      - web
+      - ai
+      - mcp
+      - lang:ts
     summary: UI over MCP. Create next-gen UI experiences with the protocol and SDK!
     last_synced_sha: 26a4821a418b105c6280ea56534812fb6fbcfa07
     user_starred_at: '2025-10-19T19:58:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34980,15 +34997,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.090Z'
+      prompt_version: v3
   - repo: github/codeql-action
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - codeql
+      - actions
+      - code-scanning
+      - security
+      - lang:ts
     summary: Actions for running Code QL analysis
     last_synced_sha: c0fc915677567258ee3c194d03ffe7ae3dc8d741
     user_starred_at: '2025-10-19T19:57:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -35014,15 +35041,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.090Z'
+      prompt_version: v3
   - repo: anomalyco/opencode
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai
+      - coding-agent
+      - productivity
+      - automation
+      - lang:ts
     summary: The open source coding agent.
     last_synced_sha: b8337cddc4269ba6e72f74c1e1f39aae41f56af3
     user_starred_at: '2025-10-19T19:57:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -35042,15 +35079,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.090Z'
+      prompt_version: v3
   - repo: storybookjs/storybook
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - ui-libraries
+    tags:
+      - storybook
+      - testing
+      - components
+      - design-systems
+      - lang:ts
     summary: Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
     last_synced_sha: 1c3fef35c7f557acb59036eb4d61d72fffae79c3
     user_starred_at: '2025-10-19T19:57:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -35090,15 +35137,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.090Z'
+      prompt_version: v3
   - repo: payloadcms/payload
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - cms
+      - headless-cms
+      - graphql
+      - mongodb
+      - lang:ts
     summary: Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full Type Script backend and admin panel instantly. Use Payload as a headless CMS or for build...
     last_synced_sha: 4861fa10bc3b89dcff751af0add59706457f952c
     user_starred_at: '2025-10-19T19:56:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -35136,16 +35193,25 @@ repositories:
         published_at: '2026-02-18T19:39:44Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.090Z'
+      prompt_version: v3
   - repo: github/docs
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - docs
+      - codespaces
+      - open-source
+      - lang:ts
     summary: The open-source repo for docs.github.com
     last_synced_sha: 531d6dcb32f772530f9c40b71706127be18b040a
     user_starred_at: '2025-10-19T19:56:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -35167,15 +35233,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.090Z'
+      prompt_version: v3
   - repo: rolldown/rolldown
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - bundler
+      - build-tool
+      - rollup
+      - typescript
+      - lang:rust
     summary: Fast Rust bundler for Java Script/Type Script with Rollup-compatible API.
     last_synced_sha: 90ec159db98032f82d7fa7cf2cb087719a962ffa
     user_starred_at: '2025-10-19T19:55:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -35198,15 +35274,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.090Z'
+      prompt_version: v3
   - repo: eclipse-iceoryx/iceoryx2
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - ipc
+      - middleware
+      - pubsub
+      - rpc
+      - lang:rust
     summary: Eclipse iceoryx2™ - true zero-copy inter-process-communication with a Rust core
     last_synced_sha: 0671d2ff5664ca2cff5f4b5044c17c2adb68c279
     user_starred_at: '2025-10-19T19:54:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -35236,15 +35322,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.090Z'
+      prompt_version: v3
   - repo: louis-e/arnis
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - data-science
+    tags:
+      - minecraft
+      - openstreetmap
+      - maps
+      - location
+      - lang:rust
     summary: Generate any location from the real world in Minecraft with a high level of detail.
     last_synced_sha: ffbdd22fe9e860f1e66c329fbd1405da1513d7aa
     user_starred_at: '2025-10-19T19:54:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -35271,15 +35367,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.090Z'
+      prompt_version: v3
   - repo: fishaudio/fish-speech
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - tts
+      - transformer
+      - machine-learning
+      - vits
+      - lang:python
     summary: SOTA Open Source TTS
     last_synced_sha: d3df50503b36314a964f66cac1af1e19e95bcfa3
     user_starred_at: '2025-10-19T19:53:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -35306,15 +35412,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.090Z'
+      prompt_version: v3
   - repo: allenai/olmocr
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - pdf
+      - datasets
+      - ocr
+      - llm
+      - lang:python
     summary: Toolkit for linearizing PDFs for LLM datasets/training
     last_synced_sha: 302d37c0b98087acc40aa6345c6781804d6acd45
     user_starred_at: '2025-10-19T19:52:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35334,15 +35450,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.090Z'
+      prompt_version: v3
   - repo: resemble-ai/chatterbox
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - ai
+      - tts
+      - open-source
+      - lang:python
     summary: So TA open-source TTS
     last_synced_sha: 14df766196b38221c3005c79183af8a87151281d
     user_starred_at: '2025-10-19T19:51:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35362,15 +35487,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.090Z'
+      prompt_version: v3
   - repo: trekhleb/javascript-algorithms
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - data-science
+    tags:
+      - algorithms
+      - data-structures
+      - interview-preparation
+      - computer-science
+      - lang:js
     summary: 📝 Algorithms and data structures implemented in Java Script with explanations and links to further readings
     last_synced_sha: 115e42816808484f76de4e6703caa8280e03ed54
     user_starred_at: '2025-10-19T19:50:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -35396,15 +35531,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.090Z'
+      prompt_version: v3
   - repo: SillyTavern/SillyTavern
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - ai
+      - chat
+      - llm
+      - frontend
+      - lang:js
     summary: LLM Frontend for Power Users.
     last_synced_sha: b7f0040831a0a63e06c1c40fbf9fe9695f331952
     user_starred_at: '2025-10-19T19:49:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -35427,6 +35572,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:52:49.090Z'
+      prompt_version: v3
   - repo: ramensoftware/windhawk
     categories:
       - productivity
