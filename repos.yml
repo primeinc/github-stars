@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-26T04:46:54.894Z'
+  manifest_updated_at: '2026-02-26T04:47:23.129Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -40368,13 +40368,19 @@ repositories:
     framework: null
   - repo: webhooksite/webhook.site
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - webhook
+      - angular
+      - laravel
+      - frontend
+      - lang:js
     summary: ⚓️ Easily test HTTP webhooks with this handy tool that displays requests instantly.
     last_synced_sha: eb8e21d8a63c5e1971b33aaa80053c1278d97f0b
     user_starred_at: '2025-09-22T17:13:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -40400,16 +40406,24 @@ repositories:
         published_at: '2023-06-21T12:01:08Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.556Z'
+      prompt_version: v3
   - repo: midday-ai/zuno
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - erp-systems
+      - unified-api
+      - lang:ts
     summary: A unified API that provides a thin layer over multiple ERP systems.
     last_synced_sha: c809da96b0a8f76ad41a823cb0a968157595e5fb
     user_starred_at: '2025-09-22T17:10:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -40427,15 +40441,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.556Z'
+      prompt_version: v3
   - repo: berty/berty
     categories:
-      - unclassified
-    tags: []
+      - security
+      - mobile-dev
+      - networking
+    tags:
+      - p2p
+      - privacy
+      - cybersecurity
+      - mobile-app
+      - lang:ts
     summary: Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
     last_synced_sha: 1c1468466d20fb1d98d11f7bc45ed1104288557e
     user_starred_at: '2025-09-22T17:09:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40474,15 +40499,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.556Z'
+      prompt_version: v3
   - repo: thi-ng/umbrella
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - functional-programming
+      - reactive-programming
+      - data-structures
+      - streams
+      - lang:ts
     summary: ⛱ Broadly scoped ecosystem & mono-repository of 214 Type Script projects (and ~185 examples) for general purpose, functional, data driven development
     last_synced_sha: c048d3c6149769309feff3fa943dcd3767b5c6b2
     user_starred_at: '2025-09-22T17:07:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40520,15 +40555,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.556Z'
+      prompt_version: v3
   - repo: midday-ai/packrun
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - monorepo
+      - turborepo
+      - nextjs
+      - tailwind
+      - lang:ts
     summary: npm for agents and humans
     last_synced_sha: fe5a8c497bddbef22727b0852433a391725d2c3e
     user_starred_at: '2025-09-22T16:53:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40550,16 +40595,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.556Z'
+      prompt_version: v3
   - repo: midday-ai/midday
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+    tags:
+      - finance
+      - time-tracking
+      - nextjs
+      - tailwind
+      - lang:ts
     summary: Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers
     last_synced_sha: ecd6c7c05a8b7607c6d43f2368ae1153d50bce07
     user_starred_at: '2025-09-22T16:53:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40583,16 +40638,25 @@ repositories:
         published_at: '2026-02-15T18:46:38Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.556Z'
+      prompt_version: v3
   - repo: intuit/auto
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - release
+      - semantic-version
+      - publishing
+      - lang:ts
     summary: Generate releases based on semantic version labels on pull requests.
     last_synced_sha: e828cd1c30721565ccc07144c39bc7eb55ed0878
     user_starred_at: '2025-09-22T16:15:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40621,15 +40685,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.556Z'
+      prompt_version: v3
   - repo: FR33THYFR33THY/Ultimate-Windows-Optimization-Guide
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - windows-optimization
+      - lang:powershell
     summary: No description provided
     last_synced_sha: b3fac1856ed347fe9a882f8759f865e65722c568
     user_starred_at: '2025-09-22T16:06:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -40647,15 +40718,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.556Z'
+      prompt_version: v3
   - repo: mandiant/flare-vm
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - malware-analysis
+      - reverse-engineering
+      - vm
+      - lang:powershell
     summary: A collection of software installations scripts for Windows systems that allows you to easily setup and maintain a reverse engineering environment on a VM.
     last_synced_sha: f1a6d233b70876c0d9dcc1645ef6283884495855
     user_starred_at: '2025-09-22T16:06:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -40678,15 +40758,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.556Z'
+      prompt_version: v3
   - repo: The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - virtual-desktop
+      - optimization
+      - lang:powershell
     summary: The script and configuration files in this repository provide an easy method to customize and apply performance related settings to virtual desktop environments.
     last_synced_sha: c93dfb2db35a16584efebb27a626a2f51c503c54
     user_starred_at: '2025-09-22T16:06:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -40706,15 +40794,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.556Z'
+      prompt_version: v3
   - repo: Micke-K/IntuneManagement
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - automation
+      - system-admin
+    tags:
+      - intune
+      - powershell-script
+      - documentation
+      - lang:powershell
     summary: Copy, export, import, delete, document and compare policies and profiles in Intune and Azure with Power Shell script and WPF UI. Import ADMX files and registry settings with ADMX ingestion. View an...
     last_synced_sha: faffa95d8ae06c3ea6eb91e0af1706bb90ddc477
     user_starred_at: '2025-09-22T16:05:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -40745,15 +40843,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.556Z'
+      prompt_version: v3
   - repo: microsoft/Microsoft365DSC
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - monitoring
+    tags:
+      - microsoft365
+      - devops
+      - configuration
+      - lang:powershell
     summary: Manages, configures, extracts and monitors Microsoft 365 tenant configurations
     last_synced_sha: f704d9c010b891e64b6b2df117c104b6ae3c13fe
     user_starred_at: '2025-09-22T16:04:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -40791,15 +40898,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.556Z'
+      prompt_version: v3
   - repo: hak5/usbrubberducky-payloads
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - keystroke-injection
+      - hid
+      - usb
+      - security-tools
+      - lang:powershell
     summary: The Official USB Rubber Ducky Payload Repository
     last_synced_sha: 919f56b92bac72c023916a67407d1ac748a70162
     user_starred_at: '2025-09-22T16:04:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -40831,15 +40948,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.556Z'
+      prompt_version: v3
   - repo: KRTirtho/spotube
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - mobile-dev
+    tags:
+      - music-player
+      - flutter
+      - android
+      - ios
+      - lang:dart
     summary: 🎧 Open source music streaming app! Available for both desktop & mobile!
     last_synced_sha: 2cc8d2620d2d6ea9fa0ee9e3ff2fdc6fbd87f5e1
     user_starred_at: '2025-09-22T16:03:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -40872,15 +40999,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.556Z'
+      prompt_version: v3
   - repo: mulaRahul/keyviz
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - automation
+    tags:
+      - keystroke
+      - keypress
+      - visualization
+      - lang:ts
     summary: Keyviz is a free and open-source tool to visualize your keystrokes ⌨️ and 🖱️ mouse actions in real-time.
     last_synced_sha: 1cdb1a43b1cbcbe91386d7cf3934fbda0dfb97a0
     user_starred_at: '2025-09-22T16:03:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40903,6 +41039,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:47:21.555Z'
+      prompt_version: v3
   - repo: upptime/upptime
     categories:
       - monitoring
