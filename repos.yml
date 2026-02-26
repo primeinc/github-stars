@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-26T04:09:17.413Z'
+  manifest_updated_at: '2026-02-26T04:09:49.750Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -76136,13 +76136,18 @@ repositories:
     framework: null
   - repo: CorentinJ/Real-Time-Voice-Cloning
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - tts
+      - lang:python
+      - voice-cloning
+      - deep-learning
+      - real-time
     summary: Clone a voice in 5 seconds to generate arbitrary speech in real-time
     last_synced_sha: 865eba8826bb6d76721a9d828a546724779c23ab
     user_starred_at: '2022-12-28T21:45:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -76166,15 +76171,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.194Z'
+      prompt_version: v3
   - repo: BigJk/snd
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - lang:ts
+      - dnd-tools
+      - thermal-printer
+      - ttrpg
+      - tabletop-gaming
     summary: Sales & Dungeons — Thermal Printer as D&D / TTRPG Utility
     last_synced_sha: c2b370a6cecab406b2453f3d031b5cdff88757da
     user_starred_at: '2022-12-27T02:56:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -76204,15 +76219,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.194Z'
+      prompt_version: v3
   - repo: lprichar/UwpMessageRelay
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - system-admin
+    tags:
+      - uwp
+      - interprocess-communication
+      - lang:csharp
+      - app-service
+      - sample-code
     summary: A sample UWP app demonstrating how to use App Service Connection to do interprocess communication
     last_synced_sha: 1aefa2efff55eada8c6acdf7b8876dd658971d52
     user_starred_at: '2022-12-25T08:09:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -76230,15 +76255,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.194Z'
+      prompt_version: v3
   - repo: files-community/Files
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - file-manager
+      - lang:csharp
+      - windows
+      - fluent-design
+      - organization
     summary: A modern file manager that helps users organize their files and folders.
     last_synced_sha: de64397ea041493b05735a726a9d90538ea20a13
     user_starred_at: '2022-12-25T05:59:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -76278,15 +76313,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.194Z'
+      prompt_version: v3
   - repo: Winand/breadcrumbsaddressbar
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - pyqt
+      - lang:python
+      - qt6
+      - widget
+      - navigation
     summary: Py Qt6/Py Side6 breadcrumb navigation widget (WIP)
     last_synced_sha: f17f19177206db3e24fb75fd98b782e0990cda29
     user_starred_at: '2022-12-25T05:50:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -76309,15 +76354,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.194Z'
+      prompt_version: v3
   - repo: mikemackintosh/stickers
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cloud
+    tags:
+      - gmail
+      - lang:go
+      - labeling
+      - google-workspaces
+      - tool
     summary: A Gmail labeling tool for your Google Workspaces org
     last_synced_sha: d9d2cc54c2e1b5d0f18d188d4ab83b35bb80c2e6
     user_starred_at: '2022-12-07T18:50:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -76335,15 +76390,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.194Z'
+      prompt_version: v3
   - repo: mifi/lossless-cut
     categories:
-      - unclassified
-    tags: []
+      - productivity
+    tags:
+      - video-editor
+      - lang:ts
+      - ffmpeg
+      - lossless
+      - cut
     summary: The swiss army knife of lossless video/audio editing
     last_synced_sha: 3b0ef522e0ba7c8d612b55579782ea1231d6802c
     user_starred_at: '2022-11-28T07:43:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -76373,15 +76437,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.194Z'
+      prompt_version: v3
   - repo: alex4108/scoreboard
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - game-dev
+    tags:
+      - scoreboard
+      - lang:js
+      - mongo
+      - express
+      - react
     summary: A simple scoreboard webapp using Express, React, and Mongo
     last_synced_sha: 03d5720f93129e82979db116e3d6b97b2b2944b3
     user_starred_at: '2022-09-14T19:42:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -76403,16 +76477,26 @@ repositories:
         published_at: '2022-11-16T08:48:31Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.194Z'
+      prompt_version: v3
   - repo: AdamLaurie/hdmi-sniff
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - system-admin
+    tags:
+      - hdmi
+      - lang:python
+      - i2c
+      - traffic
+      - sniffing
     summary: sniff HDMI DDC (I2C) traffic
     last_synced_sha: f7fbc0e66f239afac37bb7a4cbd805273b1f6618
     user_starred_at: '2022-07-19T04:55:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -76430,15 +76514,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.194Z'
+      prompt_version: v3
   - repo: ColonolNutty/s4cl-template-project
     categories:
+      - learning
       - unclassified
-    tags: []
+    tags:
+      - template
+      - lang:python
+      - s4cl
     summary: A template that can be used as a starting point for working with S4CL
     last_synced_sha: d707367b3e45c53249d8e764a0f1d65a8354651c
     user_starred_at: '2022-07-11T20:38:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -76456,15 +76548,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.193Z'
+      prompt_version: v3
   - repo: tubearchivist/tubearchivist
     categories:
-      - unclassified
-    tags: []
+      - data-science
+    tags:
+      - media-server
+      - youtube-dl
+      - archive
+      - lang:python
+      - download-manager
     summary: Your self hosted You Tube media server
     last_synced_sha: c0d9db856ae14a5c6f076bd7beed225d7e392513
     user_starred_at: '2022-05-27T03:16:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -76491,15 +76592,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.193Z'
+      prompt_version: v3
   - repo: whatdaybob/sonarr_youtubedl
     categories:
-      - unclassified
-    tags: []
+      - automation
+    tags:
+      - sonarr
+      - youtube-dl
+      - lang:python
+      - downloading
+      - webseries
     summary: A Sonarr companion script to allow the automatic downloading of web series normally not available for Sonarr to search for. Using Youtube-DL it allows you to download your webseries from the list o...
     last_synced_sha: 531d56c4dbf977db27ba4d5f9efb576fde2e2f46
     user_starred_at: '2022-05-27T03:14:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -76519,15 +76629,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.193Z'
+      prompt_version: v3
   - repo: outline/outline
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - react
+      - wiki
+      - collaboration
+      - lang:ts
+      - markdown
     summary: The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.
     last_synced_sha: 4ebb0e179079e786b2003c51dacd476a47401024
     user_starred_at: '2022-05-19T16:43:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -76554,16 +76674,26 @@ repositories:
         published_at: '2026-02-15T18:04:16Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.193Z'
+      prompt_version: v3
   - repo: dtcooper/raspotify
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - spotify
+      - spotify-connect
+      - lang:shell
+      - raspberry-pi
+      - librespot
     summary: A Spotify Connect client that mostly Just Works™
     last_synced_sha: 71bc285430d7cf0c02a2fed0fdcad717435130a8
     user_starred_at: '2022-05-18T18:02:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -76588,15 +76718,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.193Z'
+      prompt_version: v3
   - repo: marcopixel/monstercat-visualizer
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+    tags:
+      - visualizer
+      - rainmeter
+      - spotify
+      - lang:lua
+      - audio
     summary: A real time audio visualizer for Rainmeter similar to the ones used in the Monstercat videos.
     last_synced_sha: 553aa755ef0cc394259fb1a55560f1b31864d2e0
     user_starred_at: '2022-04-30T18:43:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics:
@@ -76629,6 +76768,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:09:48.193Z'
+      prompt_version: v3
   - repo: pg07codes/fokus
     categories:
       - productivity
