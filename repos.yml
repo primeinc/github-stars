@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-26T04:44:12.348Z'
+  manifest_updated_at: '2026-02-26T04:44:50.200Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -42705,13 +42705,16 @@ repositories:
     framework: null
   - repo: RentCast/api-resources
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+    tags:
+      - resources
+      - property-data
     summary: Resources to help you start working with the Rent Cast property data API.
     last_synced_sha: b084f99d153f907eff1b032d202eb8264a290eb5
     user_starred_at: '2025-09-13T17:47:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -42729,15 +42732,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.439Z'
+      prompt_version: v3
   - repo: fullstorydev/grpcui
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - grpc
+      - postman
+      - lang:go
     summary: An interactive web UI for g RPC, along the lines of postman
     last_synced_sha: af863d3fa9a15dab8c0de1fa5bdb71822136b0e3
     user_starred_at: '2025-09-13T17:24:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -42760,15 +42771,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.439Z'
+      prompt_version: v3
   - repo: RevenueCat/react-native-purchases
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - apis
+    tags:
+      - react-native
+      - ios
+      - lang:ts
     summary: React Native in-app purchases and subscriptions made easy. Support for i OS, Android and web.
     last_synced_sha: 60823014a62c14fad7d73d0c8eb31e8be9df244f
     user_starred_at: '2025-09-13T15:54:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42794,15 +42813,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.439Z'
+      prompt_version: v3
   - repo: NousResearch/DisTrO
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - distributed-training
+      - scalability
     summary: Distributed Training Over-The-Internet
     last_synced_sha: 24f10628c28692c01e7d282823fd158140b4bcee
     user_starred_at: '2025-09-13T10:44:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -42820,15 +42846,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.439Z'
+      prompt_version: v3
   - repo: NousResearch/Hermes-Function-Calling
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - distributed
+      - lang:jupyter-notebook
     summary: No description provided
     last_synced_sha: ea3c4723e4cefdac760d483ccac6c8a428c95ab8
     user_starred_at: '2025-09-13T07:57:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -42846,15 +42879,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.439Z'
+      prompt_version: v3
   - repo: microsoft/mcp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - data-access
+      - tool-integration
+      - lang:csharp
     summary: Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration
     last_synced_sha: 644d4fdf385a85a71325b141a429292ed40ca132
     user_starred_at: '2025-09-13T07:55:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -42874,15 +42915,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.439Z'
+      prompt_version: v3
   - repo: microsoft/garnet
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - system-admin
+    tags:
+      - cache
+      - key-value
+      - lang:csharp
     summary: Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication feat...
     last_synced_sha: 6ef5c5c8362da5304cdeba6c4bb77ac25f74c0d2
     user_starred_at: '2025-09-13T07:55:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -42914,15 +42963,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.439Z'
+      prompt_version: v3
   - repo: 0x7c13/Notepads
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - text-editor
+      - fluent
+      - lang:csharp
     summary: A modern, lightweight text editor with a minimalist design.
     last_synced_sha: 39a2159ca24d2c04889b651c41889c72a7a9db43
     user_starred_at: '2025-09-13T07:55:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -42950,15 +43007,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.439Z'
+      prompt_version: v3
   - repo: lepoco/wpfui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - wpf
+      - ui
+      - lang:csharp
     summary: WPF UI provides the Fluent experience in your known and loved WPF framework. Intuitive design, themes, navigation and new immersive controls. All natively and effortlessly.
     last_synced_sha: e6e22e3389872f2aba90c079ee64a007116e01d3
     user_starred_at: '2025-09-13T07:54:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -42990,15 +43055,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.439Z'
+      prompt_version: v3
   - repo: Lissy93/awesome-privacy
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - privacy
+      - self-hosted
+      - awesome-list
+      - lang:astro
     summary: 🦄 A curated list of privacy & security-focused software and services
     last_synced_sha: 406644701b44a49333b845026ad24fe0b80c2c0c
     user_starred_at: '2025-09-13T07:52:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Astro
       topics:
@@ -43023,15 +43097,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.438Z'
+      prompt_version: v3
   - repo: Lissy93/personal-security-checklist
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - cybersecurity
+      - checklist
+      - lang:ts
     summary: 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2024
     last_synced_sha: 7314b770c0402de5cf9448e78112fed6935d730a
     user_starred_at: '2025-09-13T07:50:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43062,15 +43144,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.438Z'
+      prompt_version: v3
   - repo: matiassingers/awesome-readme
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - awesome-list
+      - readme
+      - templates
     summary: A curated list of awesome READMEs
     last_synced_sha: 86be127567c854ffbfbe74dea89d365678941d44
     user_starred_at: '2025-09-13T07:50:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -43092,15 +43182,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.438Z'
+      prompt_version: v3
   - repo: posquit0/Awesome-CV
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - resume
+      - cv
+      - lang:tex
     summary: ':page_facing_up: Awesome CV is La Te X template for your outstanding job application'
     last_synced_sha: 36075ed034f7dbb8d3d35ec0cfac725f743fc3e8
     user_starred_at: '2025-09-13T07:49:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TeX
       topics:
@@ -43128,15 +43226,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.438Z'
+      prompt_version: v3
   - repo: saturn-abhishek/awesome-github-profile-readme
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - github-readme
+      - awesome-list
+      - portfolio
     summary: 😎 A curated list of awesome Git Hub Profile which updates in real time
     last_synced_sha: a883ae7c57b7811901a7bf31e72725eed41262a9
     user_starred_at: '2025-09-13T07:48:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -43161,15 +43267,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.438Z'
+      prompt_version: v3
   - repo: DopplerHQ/awesome-interview-questions
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - interview-questions
+      - awesome-list
+      - interview-practice
     summary: ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board:'
     last_synced_sha: bcb0c90a0ab3c495857ca9ea63f367e68848346c
     user_starred_at: '2025-09-13T07:47:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: null
@@ -43202,6 +43316,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:44:48.438Z'
+      prompt_version: v3
   - repo: Hack-with-Github/Awesome-Hacking
     categories:
       - security
