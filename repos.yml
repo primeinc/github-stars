@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-26T04:54:22.743Z'
+  manifest_updated_at: '2026-02-26T04:54:51.507Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -32936,13 +32936,18 @@ repositories:
     framework: null
   - repo: google/adk-docs
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - ai-agents
+      - toolkit
+      - flexibility
+      - lang:shell
     summary: An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
     last_synced_sha: c528cc579f53309c62003f6693019f4baa3742f1
     user_starred_at: '2025-11-11T17:33:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -32960,15 +32965,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.940Z'
+      prompt_version: v3
   - repo: opencloud-eu/opencloud
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - productivity
+    tags:
+      - file-management
+      - collaboration-tool
+      - sovereign-cloud
+      - lang:go
     summary: 🌤️ Open Cloud is the open source platform for file management, sharing and collaboration. Simple and sovereign.
     last_synced_sha: b69b9cd5694defb283831e126f324ea4f8ecf72e
     user_starred_at: '2025-11-11T17:33:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -32988,15 +33002,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.939Z'
+      prompt_version: v3
   - repo: NginxProxyManager/nginx-proxy-manager
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - cloud
+    tags:
+      - reverse-proxy
+      - nginx
+      - docker
+      - lang:ts
     summary: Docker container for managing Nginx proxy hosts with a simple, powerful interface
     last_synced_sha: 67d40e186f830a939bfb8572faa436f177c94a34
     user_starred_at: '2025-11-11T17:32:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -33018,15 +33041,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.939Z'
+      prompt_version: v3
   - repo: topoteretes/cognee
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - knowledge-engine
+      - ai-memory
+      - vector-database
+      - graph-database
+      - lang:python
     summary: Knowledge Engine for AI Agent Memory in 6 lines of code
     last_synced_sha: 01810275317f20714cbdf82f11a8b6bfc19377be
     user_starred_at: '2025-11-11T17:32:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -33066,15 +33099,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.939Z'
+      prompt_version: v3
   - repo: ggml-org/llama.cpp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - embedded
+    tags:
+      - llm
+      - ggml
+      - lang:cpp
     summary: LLM inference in C/C++
     last_synced_sha: 2943210c1eaa3fc9cc4f0ac6f0ae5f2ce2350f98
     user_starred_at: '2025-11-11T17:32:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -33095,15 +33136,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.939Z'
+      prompt_version: v3
   - repo: lutzroeder/netron
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - visualization
+      - neural-network-viewer
+      - ai
+      - ml
+      - lang:js
     summary: Visualizer for neural network, deep learning and machine learning models
     last_synced_sha: a93ee3f75ce6ddaa48ddc9bfd1dda6590c37c322
     user_starred_at: '2025-11-09T10:03:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -33139,15 +33190,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.939Z'
+      prompt_version: v3
   - repo: ExoFi-Labs/Nexface
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:python
     summary: No description provided
     last_synced_sha: 695076c9d2532bb05a63051b1a78e07dae2c4e7b
     user_starred_at: '2025-11-08T02:36:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -33165,15 +33221,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.939Z'
+      prompt_version: v3
   - repo: Gourieff/ComfyUI-ReActor
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - face-swapping
+      - comfyui-extension
+      - lang:python
     summary: Fast and Simple Face Swap Extension Node for Comfy UI (SFW)
     last_synced_sha: a2a61fd5e7a6ba546eff848b0783b5fb8bada2c0
     user_starred_at: '2025-11-08T02:34:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -33196,15 +33260,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.939Z'
+      prompt_version: v3
   - repo: mudler/LocalAI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - local-ai
+      - open-source
+      - llm
+      - consumer-grade-hardware
+      - lang:go
     summary: ':robot: The free, Open Source alternative to Open AI, Claude and others. Self-hosted and local-first. Drop-in replacement, running on consumer-grade hardware. No GPU required. Runs gguf, transforme...'
     last_synced_sha: 657ba8cdade69233d9dfdcbd9f61da93367c6486
     user_starred_at: '2025-11-07T18:26:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -33244,15 +33318,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.939Z'
+      prompt_version: v3
   - repo: charmbracelet/glow
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - markdown-renderer
+      - cli
+      - lang:go
     summary: Render markdown on the CLI, with pizzazz! 💅🏻
     last_synced_sha: 752de97c5a331af0eed0c7b417462621bffa533e
     user_starred_at: '2025-11-07T17:44:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -33276,15 +33358,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.939Z'
+      prompt_version: v3
   - repo: ad-on-is/rachoon
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - self-hostable
+      - invoice-management
+      - lang:ts
     summary: 🦝 Rachoon — A self-hostable way to handle invoices
     last_synced_sha: a03beca06b01b28ce02164db2779d321b3bdf30e
     user_starred_at: '2025-11-07T17:42:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -33302,15 +33392,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.939Z'
+      prompt_version: v3
   - repo: usestrix/strix
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+    tags:
+      - cybersecurity
+      - penetration-testing
+      - llm
+      - ai
+      - lang:python
     summary: Open-source AI hackers to find and fix your app’s vulnerabilities.
     last_synced_sha: 5d91500564e4a3436df1be54a85eb250cc331df8
     user_starred_at: '2025-11-07T17:42:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -33336,15 +33436,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.939Z'
+      prompt_version: v3
   - repo: FFmpeg/asm-lessons
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - embedded
+    tags:
+      - assembly-language
+      - lessons
+      - ffmpeg
     summary: FFmpeg Assembly Language Lessons
     last_synced_sha: 171e7261abcdd69e702c4c9b4bbb6f67fe0ade83
     user_starred_at: '2025-11-07T17:42:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -33362,15 +33470,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.939Z'
+      prompt_version: v3
   - repo: GopeedLab/gopeed
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - embedded
+    tags:
+      - cross-platform
+      - download-manager
+      - flutter
+      - bittorrent
+      - lang:go
     summary: A modern download manager that supports all platforms. Built with Golang and Flutter.
     last_synced_sha: 3f388480511597377cb556a073edde5b45cf474c
     user_starred_at: '2025-11-07T17:41:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -33405,15 +33523,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.939Z'
+      prompt_version: v3
   - repo: blueraincoatli/ComfyUI-Model-Cleaner
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - comfyui
+      - cleaner
+      - orphan-models
+      - lang:python
     summary: Try to locate the "orphan models" and clean them
     last_synced_sha: 13e8ec89382f21cbf678e6aa9e3c8696e1726172
     user_starred_at: '2025-11-06T22:46:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -33437,6 +33564,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:54:49.938Z'
+      prompt_version: v3
   - repo: kijai/ComfyUI-WanVideoWrapper
     categories:
       - ai-ml
