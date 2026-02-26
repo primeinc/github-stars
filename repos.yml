@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-26T04:49:46.050Z'
+  manifest_updated_at: '2026-02-26T04:50:21.224Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -37444,13 +37444,17 @@ repositories:
     framework: null
   - repo: microsoftgraph/microsoft-graph-devx-content
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+    tags:
+      - devxeng
+      - lang:js
+      - api-content
     summary: Content used by the Dev X API to enhance clients and tooling.
     last_synced_sha: 8133ee2ad5bcd1e1418271cefb445215e4a8d760
     user_starred_at: '2025-10-10T07:02:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -37469,15 +37473,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.619Z'
+      prompt_version: v3
   - repo: vadimdemedes/ink
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+    tags:
+      - react
+      - cli
+      - interactive
+      - lang:ts
     summary: 🌈 React for interactive command-line apps
     last_synced_sha: 70477953d4c97bb2e1754aef9770317d4d05f043
     user_starred_at: '2025-10-09T22:46:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -37502,16 +37515,25 @@ repositories:
         published_at: '2026-02-19T07:03:48Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.619Z'
+      prompt_version: v3
   - repo: tellerops/teller
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - secret-management
+      - vault
+      - cloud-native
+      - lang:rust
     summary: Cloud native secrets management for developers - never leave your command line for secrets.
     last_synced_sha: bee4b3f0d0be572c62614a33f3d764064b52c5b4
     user_starred_at: '2025-10-08T11:44:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -37538,15 +37560,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.619Z'
+      prompt_version: v3
   - repo: dotenvx/dotenvx
     categories:
-      - unclassified
-    tags: []
+      - security
+    tags:
+      - dotenv
+      - environment-variables
+      - secret-management
+      - lang:js
     summary: a secure dotenv–from the creator of `dotenv`
     last_synced_sha: 52b8a539eccaabdfa4e55bcfe3cdc7294576cd5b
     user_starred_at: '2025-10-08T11:03:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -37581,15 +37611,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.619Z'
+      prompt_version: v3
   - repo: getsops/sops
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - secret-management
+      - devops
+      - encryption
+      - lang:go
     summary: Simple and flexible tool for managing secrets
     last_synced_sha: aca8fe9f8ac1dba1d3b369b6f4bfa1d4e39bccd6
     user_starred_at: '2025-10-08T11:01:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -37618,15 +37657,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.619Z'
+      prompt_version: v3
   - repo: davila7/claude-code-templates
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - claude
+      - ai-tools
+      - automated-coding
+      - lang:python
     summary: CLI tool for configuring and monitoring Claude Code
     last_synced_sha: 4f19032829017f657c64d2e1ea25695c5d56add1
     user_starred_at: '2025-10-08T08:59:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -37650,15 +37698,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.619Z'
+      prompt_version: v3
   - repo: retroplasma/earth-reverse-engineering
     categories:
-      - unclassified
-    tags: []
+      - networking
+    tags:
+      - google-earth
+      - gis
+      - reverse-engineering
+      - lang:c
     summary: Reversing Google's 3D satellite mode
     last_synced_sha: 35af10d0e1a133dc217d63c59545a917f4e5fc3f
     user_starred_at: '2025-10-08T07:20:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C
@@ -37685,15 +37741,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.619Z'
+      prompt_version: v3
   - repo: Phantom-video/Phantom
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - video-generation
+      - text-to-video
+      - aigc
+      - lang:python
     summary: 'Phantom: Subject-Consistent Video Generation via Cross-Modal Alignment'
     last_synced_sha: bd84b602dcc949e23c89cbbf266b6f5975f2f025
     user_starred_at: '2025-10-07T18:46:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -37715,15 +37779,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.619Z'
+      prompt_version: v3
   - repo: character-ai/Ovi
     categories:
+      - ai-ml
       - unclassified
-    tags: []
+    tags:
+      - lang:python
     summary: No description provided
     last_synced_sha: 5b69b25a4b3115216e9ea53a37a04410be6ad39a
     user_starred_at: '2025-10-07T18:44:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -37741,15 +37811,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.619Z'
+      prompt_version: v3
   - repo: yt-dlp/yt-dlp
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - youtube-downloader
+      - sponsorblock
+      - video
+      - command-line
+      - lang:python
     summary: A feature-rich command-line audio/video downloader
     last_synced_sha: e3118604aa99a5514342d6a002c9b4a3fe1235b4
     user_starred_at: '2025-10-07T18:44:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -37776,15 +37856,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.619Z'
+      prompt_version: v3
   - repo: trycompai/comp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+      - productivity
+    tags:
+      - compliance
+      - gdpr
+      - iso27001
+      - audit
+      - lang:ts
     summary: AI Native platform to get companies compliant - Vanta & Drata Alternative
     last_synced_sha: ca243221238888ef64b389fc549e3af05f2f1fc4
     user_starred_at: '2025-10-07T02:43:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -37821,16 +37912,21 @@ repositories:
         published_at: '2026-02-23T22:39:29Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.619Z'
+      prompt_version: v3
   - repo: Azure/Medical-Claims-Transaction-Processing-at-scale
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:css
     summary: No description provided
     last_synced_sha: 5ca64096faf33114d30b584fcfdfb2ed4c2a2556
     user_starred_at: '2025-10-04T21:37:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics: []
@@ -37848,15 +37944,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.619Z'
+      prompt_version: v3
   - repo: debanjum/ai-wallpaper
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+      - mobile-dev
+    tags:
+      - dynamic-wallpaper
+      - generative-ai
+      - ai-image-generation
+      - wallpaper
+      - lang:python
     summary: Get fresh, personal AI painted wallpapers on your phone or computer. Paints by using your current city, weather and even your recent experiences. Powered by Khoj AI
     last_synced_sha: 370cdfb19cb53106c560a57368e415fb2decf7db
     user_starred_at: '2025-10-04T01:37:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -37887,15 +37994,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.619Z'
+      prompt_version: v3
   - repo: deechtejoao/stonkfetch
     categories:
-      - unclassified
-    tags: []
+      - productivity
+    tags:
+      - stocks
+      - ascii-art
+      - command-line
+      - finance
+      - lang:python
     summary: A command-line tool that fetches and displays stock information with beautiful colored ASCII art logos, inspired by neofetch.
     last_synced_sha: 140163738930e6ab3fadc8d52033af5152977a15
     user_starred_at: '2025-10-03T12:18:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -37913,15 +38029,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.619Z'
+      prompt_version: v3
   - repo: pathwaycom/llm-app
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+      - automation
+    tags:
+      - real-time
+      - vector-index
+      - llm
+      - ai-pipeline
+      - lang:jupyter-notebook
     summary: Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, Postgre SQL, real-time data API...
     last_synced_sha: 5fa97b75a177f11fb68cb6ed2da3c0d16f14d9c0
     user_starred_at: '2025-10-03T12:15:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -37954,6 +38081,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:50:19.618Z'
+      prompt_version: v3
   - repo: Kakulukian/youtube-transcript
     categories:
       - apis
