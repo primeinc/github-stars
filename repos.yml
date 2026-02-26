@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-26T04:21:58.262Z'
+  manifest_updated_at: '2026-02-26T04:22:28.814Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -63743,13 +63743,18 @@ repositories:
     framework: null
   - repo: ykhwong/ppt-ndi
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - ndi
+      - powerpoint
+      - presentation-plugin
+      - lang:js
     summary: A Power Point plugin for the New Tek NDI integration
     last_synced_sha: a7381d0c6affa61cf99ca8322fb71eadc322d578
     user_starred_at: '2025-01-28T12:32:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -63773,15 +63778,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.319Z'
+      prompt_version: v3
   - repo: buresu/ndi-python
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - networking
+    tags:
+      - ndi
+      - python-wrapper
+      - lang:cpp
     summary: New Tek NDI Python wrapper
     last_synced_sha: 8aad19db2bd4adde75ea5e1aef3ad83e11f08bd8
     user_starred_at: '2025-01-28T12:32:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -63799,15 +63812,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.319Z'
+      prompt_version: v3
   - repo: DistroAV/DistroAV
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - obs-studio
+      - ndi
+      - audio-video
+      - lang:c
     summary: 'Distro AV (formerly OBS-NDI): NDI integration for OBS Studio'
     last_synced_sha: dc6ad9a3bf66e7075530bd118c84d85150398d39
     user_starred_at: '2025-01-28T12:30:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -63837,15 +63859,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.319Z'
+      prompt_version: v3
   - repo: CESNET/UltraGrid
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - monitoring
+    tags:
+      - low-latency
+      - audio
+      - video
+      - network-transmission
+      - lang:c
     summary: Ultra Grid low-latency audio and video network transmission system
     last_synced_sha: 7cd99c6a68c469a0c539dc6e0fbc88ce01c2f069
     user_starred_at: '2025-01-28T12:20:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -63865,15 +63897,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.319Z'
+      prompt_version: v3
   - repo: NSFW-API/Prompt-based-Evolutionary-Neural-Iteration-System
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - neural-networks
+      - prompt-engineering
+      - lang:python
     summary: Prompt-based Evolutionary Nudity Iteration System
     last_synced_sha: 50d522c96d5698d0a407ae86e848c827e1295fda
     user_starred_at: '2025-01-28T10:10:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -63891,15 +63930,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.319Z'
+      prompt_version: v3
   - repo: ArtBot2023/CharacterFaceSwap
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deepfakes
+      - character-faceswap
+      - image-processing
+      - lang:python
     summary: No description provided
     last_synced_sha: f395496e5bf50d88579934ec2f776cd81866e8e9
     user_starred_at: '2025-01-28T10:05:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -63917,15 +63965,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.319Z'
+      prompt_version: v3
   - repo: aerophile/awesome-deepfakes
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - deepfakes
+      - faceswap
+      - computer-vision
+      - awesome-list
     summary: Everything Deepfakes
     last_synced_sha: 06a95f4727ebe9a96afb59f75b63cf709da1a235
     user_starred_at: '2025-01-28T10:01:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -63947,15 +64004,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.319Z'
+      prompt_version: v3
   - repo: asyafiqe/Rope-docker-headless-vnc-container
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - automation
+    tags:
+      - docker
+      - vnc
+      - headless
+      - cloud
+      - lang:python
     summary: Docker for running Rope using headless VNC environments. Useful for running Rope on cloud GPU services like Runpod.io or Vast.ai.
     last_synced_sha: b40c92b3b8df48d86264e7859278fa46b3e09822
     user_starred_at: '2025-01-28T09:50:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -63980,15 +64047,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.318Z'
+      prompt_version: v3
   - repo: dusty-nv/jetson-utils
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - embedded
+    tags:
+      - jetson
+      - cuda
+      - multimedia
+      - utilities
+      - lang:cpp
     summary: C++/CUDA/Python multimedia utilities for NVIDIA Jetson
     last_synced_sha: fae4b4250f985ab92180b6ec955b79995b7a34ff
     user_starred_at: '2025-01-28T09:47:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -64006,15 +64083,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.318Z'
+      prompt_version: v3
   - repo: aimfordeb/Rope-experimental
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - gui
+      - rope
+      - lang:python
     summary: GUI-focused roop with Linux support
     last_synced_sha: b4b5b70f7d8c44cb222b57074b09f37f566f3d57
     user_starred_at: '2025-01-28T09:37:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -64033,15 +64118,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.318Z'
+      prompt_version: v3
   - repo: swapagarwal/swag-for-dev
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - swag
+      - developers
+      - stickers
+      - awesome-list
+      - hacktoberfest
+      - lang:js
     summary: 😎 swag opportunities for developers
     last_synced_sha: 5026d376bf0d6aca144fc66b7c0dac1d0d89d933
     user_starred_at: '2025-01-28T09:17:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -64064,15 +64160,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.318Z'
+      prompt_version: v3
   - repo: andrew--r/channels
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - web-dev
+    tags:
+      - javascript
+      - web
+      - video
+      - resources
+      - html
     summary: 📺 A collection of useful You Tube channels for javascript developers and web designers
     last_synced_sha: c46987228e5d97854683ac9ba840f43079435d8d
     user_starred_at: '2025-01-28T09:16:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -64097,15 +64203,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.318Z'
+      prompt_version: v3
   - repo: inputsh/awesome-linux
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - learning
+    tags:
+      - linux
+      - awesome-list
+      - x-window-manager
+      - linux-resources
     summary: ':penguin: A list of awesome projects and resources that make Linux even more awesome. :penguin:'
     last_synced_sha: 589dec2a8fec7a9b1dd78f5439b71ef1a8cd6800
     user_starred_at: '2025-01-28T09:16:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: null
@@ -64131,15 +64246,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.318Z'
+      prompt_version: v3
   - repo: ikaijua/Awesome-AITools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - ai
+      - llms
+      - machinelearning
+      - tools
+      - awesome-list
     summary: Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests
     last_synced_sha: 2c6e6c45579e5542a6b282a8441b477ccf31b727
     user_starred_at: '2025-01-28T09:16:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -64176,15 +64301,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.318Z'
+      prompt_version: v3
   - repo: race2infinity/The-Documentation-Compendium
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - readme-template
+      - documentation
+      - templates
+      - technical-writing
     summary: 📢 Various README templates & tips on writing high-quality documentation that people want to read.
     last_synced_sha: 9e693efef55f6c69d8cb58541f612f74ac8d2077
     user_starred_at: '2025-01-28T09:13:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -64219,6 +64353,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:22:27.318Z'
+      prompt_version: v3
   - repo: sirredbeard/awesome-wsl
     categories:
       - system-admin
