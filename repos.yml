@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-26T04:45:22.286Z'
+  manifest_updated_at: '2026-02-26T04:46:00.526Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -41664,13 +41664,19 @@ repositories:
     framework: null
   - repo: XTXMarkets/ternfs
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+      - databases
+    tags:
+      - distributed-file-system
+      - multi-region
+      - lang:cpp
+      - exabyte-scale
     summary: An exabyte-scale, multi-region distributed file system
     last_synced_sha: da3dc622b55b5b5780d8b0f6e5b197a26a54c657
     user_starred_at: '2025-09-22T15:34:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -41690,15 +41696,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.979Z'
+      prompt_version: v3
   - repo: langchain-ai/social-media-agent
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - productivity
+    tags:
+      - social-media
+      - agent
+      - human-in-the-loop
+      - lang:ts
     summary: 📲 An agent for sourcing, curating, and scheduling social media posts with human-in-the-loop.
     last_synced_sha: 193ff6a5e45d2cdd70841c1eba1acc56c5db546d
     user_starred_at: '2025-09-22T09:42:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -41716,15 +41732,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.979Z'
+      prompt_version: v3
   - repo: teableio/teable
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - productivity
+      - apis
+    tags:
+      - airtable-alternative
+      - postgresql
+      - no-code
+      - lang:ts
+      - realtime
     summary: '✨ The Next Gen Airtable Alternative: No-Code Postgres'
     last_synced_sha: 367739c6de348de5e94133ed4f4e1b6ac3195ce7
     user_starred_at: '2025-09-22T08:41:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -41757,15 +41784,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.979Z'
+      prompt_version: v3
   - repo: home-assistant/frontend
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - automation
+      - web-dev
+    tags:
+      - frontend
+      - home-automation
+      - lang:ts
+      - webcomponents
+      - lit-element
     summary: ':lollipop: Frontend for Home Assistant'
     last_synced_sha: b86142ae50a2ae8a04f543b6fa026df4721593ec
     user_starred_at: '2025-09-22T08:41:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -41792,15 +41830,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.978Z'
+      prompt_version: v3
   - repo: vercel/swr
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - react
+      - data-fetching
+      - swr
+      - lang:ts
+      - hooks
     summary: React Hooks for Data Fetching
     last_synced_sha: acd241eb66d2a4381afe1d51a977809079f4c67a
     user_starred_at: '2025-09-22T08:40:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -41832,16 +41880,26 @@ repositories:
         published_at: '2026-02-01T03:02:37Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.978Z'
+      prompt_version: v3
   - repo: Gregivy/simpleddp
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+    tags:
+      - ddp-client
+      - data-fetching
+      - meteor
+      - reactive
+      - lang:js
     summary: An easy to use DDP client library
     last_synced_sha: 4bd415ee52e4023787e401111d9be5ca788a333b
     user_starred_at: '2025-09-21T14:56:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -41870,15 +41928,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.978Z'
+      prompt_version: v3
   - repo: microsoft/ai-dev-gallery
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+      - learning
+    tags:
+      - dotnet
+      - windows
+      - ai-tools
+      - lang:csharp
+      - winui3
     summary: An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps.
     last_synced_sha: d7ac9231a5d948a2079b741fd7c721cd4998fdbd
     user_starred_at: '2025-09-21T03:09:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -41916,15 +41985,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.978Z'
+      prompt_version: v3
   - repo: microsoft/react-native-windows-samples
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - mobile-dev
+    tags:
+      - react-native
+      - windows
+      - react-native-macos
+      - lang:csharp
     summary: A repository showcasing React Native samples and templates for Windows, mac OS, and Surface Duo.
     last_synced_sha: 3f87945ca16b242bf76296c00810b7c601bb086f
     user_starred_at: '2025-09-20T22:30:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -41944,16 +42022,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.978Z'
+      prompt_version: v3
   - repo: rocksdanister/lively
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - desktop-wallpaper
+      - dynamic-wallpaper
+      - widgets
+      - win-ui-3
+      - lang:csharp
     summary: Free and open-source software that allows users to set animated desktop wallpapers and screensavers powered by Win UI 3.
     last_synced_sha: 9d996c3c6e49c2502e2cb368cdc29ee286a63ce0
     user_starred_at: '2025-09-20T22:27:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -41993,15 +42081,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.978Z'
+      prompt_version: v3
   - repo: NileshGule/techtalks-azure-container-apps-demo
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+      - system-admin
+    tags:
+      - azure
+      - dapr
+      - keda
+      - lang:powershell
+      - microservices
     summary: A simple example to showcase Azure container apps capabilities using a Tech Talks demo with native integration for Dapr and KEDA
     last_synced_sha: 1c12b3c8f5d2c32bd81b423bc974582da31260ab
     user_starred_at: '2025-09-19T23:43:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -42029,15 +42128,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.978Z'
+      prompt_version: v3
   - repo: simstudioai/sim
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - automation
+    tags:
+      - agent-workflow
+      - aiagents
+      - artificial-intelligence
+      - lang:ts
+      - nextjs
     summary: Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.
     last_synced_sha: 67f8a687f6c8f8d53ff7601e5ae4887b3a12cf90
     user_starred_at: '2025-09-17T09:02:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42074,16 +42184,27 @@ repositories:
         published_at: '2026-02-25T08:38:04Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.978Z'
+      prompt_version: v3
   - repo: AIDC-AI/ComfyUI-Copilot
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+      - ui-libraries
+    tags:
+      - ai
+      - workflow
+      - copilot
+      - lang:ts
+      - intelligent-assistance
     summary: An AI-powered custom node for Comfy UI designed to enhance workflow automation and provide intelligent assistance
     last_synced_sha: 41b15d2d879ca92b0395df553d17b22b8cd6d9d3
     user_starred_at: '2025-09-17T09:02:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42116,15 +42237,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.978Z'
+      prompt_version: v3
   - repo: bytebot-ai/bytebot
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+      - containers
+    tags:
+      - ai-agents
+      - agentic-ai
+      - lang:ts
+      - containerized-linux
+      - natural-language
     summary: Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.
     last_synced_sha: 3d37894ce07ef8d8b40adc7fd309ad96c2a71313
     user_starred_at: '2025-09-17T09:02:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42161,15 +42293,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.978Z'
+      prompt_version: v3
   - repo: EpicenterHQ/epicenter
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - svelte
+      - tailwindcss
+      - lang:ts
+      - local-first
+      - sqlite
     summary: Open-source, local-first apps that share a single folder of plain text and SQLite.
     last_synced_sha: 03cfaabfdbb964e7e73bb5284a6d53a1f4d7f16e
     user_starred_at: '2025-09-17T09:01:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42192,16 +42334,25 @@ repositories:
         published_at: '2025-12-27T02:38:16Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: svelte
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.978Z'
+      prompt_version: v3
   - repo: ItzCrazyKns/Perplexica
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ai-search-engine
+      - machine-learning
+      - answering-engine
+      - lang:ts
     summary: Perplexica is an AI-powered answering engine.
     last_synced_sha: 86274326e9900a701df64c1bb5cf463e50d2e523
     user_starred_at: '2025-09-17T09:00:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42234,6 +42385,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:45:58.978Z'
+      prompt_version: v3
   - repo: puckeditor/puck
     categories:
       - ai-ml
