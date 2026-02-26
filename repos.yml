@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-26T04:40:25.616Z'
+  manifest_updated_at: '2026-02-26T04:40:57.274Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -46286,13 +46286,19 @@ repositories:
     framework: null
   - repo: Ido-Levi/claude-code-tamagotchi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - monitoring
+      - productivity
+    tags:
+      - agentic-ai
+      - behavior-monitoring
+      - llms
+      - lang:ts
     summary: Real-time behavioral enforcement for Claude Code. Monitors AI actions, detects violations, and interrupts misbehavior. Also has a cute pet.
     last_synced_sha: ccf9399f41571b2e025b8a8f5e782a5ef6f3e730
     user_starred_at: '2025-08-17T18:28:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46317,15 +46323,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.729Z'
+      prompt_version: v3
   - repo: context-labs/uwu
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: fe1171ba7a8d8ec0b7964d294674847451fcd3f9
     user_starred_at: '2025-08-17T18:10:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -46343,15 +46354,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.729Z'
+      prompt_version: v3
   - repo: kamailio/kamailio
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - embedded
+      - system-admin
+    tags:
+      - sip
+      - webrtc
+      - telephony
+      - lang:c
     summary: Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms -
     last_synced_sha: 08a57f0414fea00d3c2fbd4096e81694c0a6f778
     user_starred_at: '2025-08-17T11:45:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -46378,15 +46399,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.729Z'
+      prompt_version: v3
   - repo: dOpensource/dsiprouter
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - productivity
+      - system-admin
+    tags:
+      - sip
+      - ui-interface
+      - pbx-hosting
+      - lang:shell
     summary: UI Interface for implementing Kamailio to provide PBX Hosting and SIP Trunking Services
     last_synced_sha: 9fd2f01d679c34c08ecbd5abbc6d60e864caa1ac
     user_starred_at: '2025-08-17T11:15:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -46406,15 +46437,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.729Z'
+      prompt_version: v3
   - repo: fusionpbx/fusionpbx
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - pbx
+      - voip
+      - telecommunication
+      - lang:php
     summary: Official Fusion PBX - A full-featured domain based multi-tenant PBX and voice switch for Free Switch.
     last_synced_sha: a77b7bb336ce8822ed556b2eaf013b777b5ae8a2
     user_starred_at: '2025-08-17T11:13:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -46434,15 +46474,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.729Z'
+      prompt_version: v3
   - repo: xyflow/xyflow
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+      - productivity
+    tags:
+      - flowcharts
+      - react
+      - node-based-uis
+      - lang:ts
     summary: React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely cust...
     last_synced_sha: 6ec8214cf3aab8da3092261d8bbedcfedef44746
     user_starred_at: '2025-08-17T11:08:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46472,16 +46522,26 @@ repositories:
         published_at: '2026-02-19T12:27:24Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.729Z'
+      prompt_version: v3
   - repo: swisskyrepo/PayloadsAllTheThings
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+      - learning
+    tags:
+      - payloads
+      - pentesting
+      - vulnerabilities
+      - lang:python
     summary: A list of useful payloads and bypass for Web Application Security and Pentest/CTF
     last_synced_sha: 10d41d2e7de0de20c424c90ceb118a5993110081
     user_starred_at: '2025-08-17T11:07:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -46518,15 +46578,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.729Z'
+      prompt_version: v3
   - repo: megh-bari/pattern-craft
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - background-patterns
+      - tailwind
+      - design-resources
+      - lang:ts
     summary: Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration.
     last_synced_sha: 17a4d3c7b5c923e52dfd4d32420aa9ca3bdfa41e
     user_starred_at: '2025-08-17T11:06:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46562,15 +46631,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.729Z'
+      prompt_version: v3
   - repo: Aider-AI/aider
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+      - productivity
+    tags:
+      - pair-programming
+      - cli
+      - gpt
+      - lang:python
     summary: aider is AI pair programming in your terminal
     last_synced_sha: b23516061e569857a527c0e03fb0c58c4523fb99
     user_starred_at: '2025-08-17T11:05:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -46603,15 +46682,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.729Z'
+      prompt_version: v3
   - repo: Canner/WrenAI
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+      - productivity
+    tags:
+      - text-to-sql
+      - business-intelligence
+      - llm
+      - lang:ts
     summary: ⚡️ Gen BI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds.
     last_synced_sha: 759aa71ca64f1fd16ce70ca1559157405b52dcd7
     user_starred_at: '2025-08-17T11:00:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46650,15 +46739,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.729Z'
+      prompt_version: v3
   - repo: nextauthjs/next-auth
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - security
+    tags:
+      - nextjs
+      - authentication
+      - oauth
+      - lang:ts
     summary: Authentication for the Web.
     last_synced_sha: f4570683676039dfa4e47e3fd69224d74dc7f6ca
     user_starred_at: '2025-08-17T04:49:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46695,16 +46793,27 @@ repositories:
         published_at: '2025-10-26T02:41:51Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.729Z'
+      prompt_version: v3
   - repo: calcom/cal.com
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+      - deployment
+    tags:
+      - scheduling
+      - nextjs
+      - typescript
+      - postgres
+      - lang:ts
     summary: Scheduling infrastructure for absolutely everyone.
     last_synced_sha: 5d65a0f09199abeab9729d2665e9bed399692f55
     user_starred_at: '2025-08-16T08:24:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46734,16 +46843,26 @@ repositories:
         published_at: '2026-02-12T23:28:22Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.729Z'
+      prompt_version: v3
   - repo: CopilotKit/CopilotKit
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+      - web-dev
+    tags:
+      - frontend
+      - agents
+      - react
+      - lang:ts
     summary: The Frontend for Agents & Generative UI. React + Angular
     last_synced_sha: 6833f0f7e370bb2667836d631dfc69e37a17b1b1
     user_starred_at: '2025-08-16T08:24:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46782,16 +46901,26 @@ repositories:
         published_at: '2026-02-17T01:07:06Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.729Z'
+      prompt_version: v3
   - repo: RVC-Boss/GPT-SoVITS
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - productivity
+    tags:
+      - text-to-speech
+      - voice-cloning
+      - few-shot-learning
+      - lang:python
     summary: 1 min voice data can also be used to train a good TTS model! (few shot voice cloning)
     last_synced_sha: 2d9193b0d3c0eae0c3a14d8c68a839f1bae157dc
     user_starred_at: '2025-08-16T08:22:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -46817,15 +46946,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.728Z'
+      prompt_version: v3
   - repo: unionlabs/union
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - zero-knowledge
+      - blockchain
+      - censorship-resistance
+      - lang:rust
     summary: The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.
     last_synced_sha: c103ae9c735d6c17108bbbe4c845e0af2f05691c
     user_starred_at: '2025-08-16T08:20:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -46864,6 +47002,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:55.728Z'
+      prompt_version: v3
   - repo: unclecode/crawl4ai
     categories:
       - ai-ml
