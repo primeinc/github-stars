@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-26T04:50:49.477Z'
+  manifest_updated_at: '2026-02-26T04:51:21.159Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -36445,13 +36445,20 @@ repositories:
     framework: null
   - repo: TheEdoRan/next-safe-action
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+      - apis
+    tags:
+      - server-actions
+      - typesafe
+      - react
+      - nextjs
+      - lang:ts
     summary: Type safe and validated Server Actions in your Next.js project.
     last_synced_sha: f9a3e9b4333313876c4028aab057dbbff173e057
     user_starred_at: '2025-10-19T19:05:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36485,16 +36492,24 @@ repositories:
         published_at: '2026-02-25T15:31:35Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.693Z'
+      prompt_version: v3
   - repo: pmpetit/pglinter
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - dev-tools
+    tags:
+      - linter
+      - database-rules
+      - lang:rust
     summary: database linter rules
     last_synced_sha: c5837d7bf3497375ae19c9066515846764ca596a
     user_starred_at: '2025-10-19T19:04:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -36514,15 +36529,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.692Z'
+      prompt_version: v3
   - repo: vercel-labs/chatgpt-apps-sdk-nextjs-starter
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - starter
+      - chatgpt
+      - nextjs
+      - lang:ts
     summary: No description provided
     last_synced_sha: b911c88f93c0a0a9b39d650743fb1085db39a147
     user_starred_at: '2025-10-19T19:03:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -36539,16 +36563,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.692Z'
+      prompt_version: v3
   - repo: vercel/nft
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - testing
+    tags:
+      - static-analysis
+      - dependency-tracing
+      - lang:js
     summary: Node.js dependency tracing utility
     last_synced_sha: 0ce8e2c06ec88e4291746446cf8657ab3697658e
     user_starred_at: '2025-10-19T19:02:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -36569,15 +36601,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.692Z'
+      prompt_version: v3
   - repo: JustAnotherArchivist/snscrape
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - automation
+    tags:
+      - scraper
+      - social-network
+      - social-media
+      - lang:python
     summary: A social networking service scraper in Python
     last_synced_sha: 614d4c2029a62d348ca56598f87c425966aaec66
     user_starred_at: '2025-10-19T19:02:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -36599,15 +36640,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.692Z'
+      prompt_version: v3
   - repo: opf/openproject
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+      - ui-libraries
+    tags:
+      - project-management
+      - scrum
+      - issue-tracker
+      - angular
+      - lang:ruby
     summary: Open Project is the leading open source project management software.
     last_synced_sha: f1070510fa38ac3dc4ac30e83dbf3717ba0af105
     user_starred_at: '2025-10-19T19:01:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -36643,16 +36695,25 @@ repositories:
         published_at: '2026-02-18T12:41:57Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.692Z'
+      prompt_version: v3
   - repo: FalconOpsLLC/goexec
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - remote-execution
+      - windows
+      - lateral-movement
+      - lang:go
     summary: Windows remote execution multitool
     last_synced_sha: 91a6da4d83d854bcdf65b03c2821b86719d13944
     user_starred_at: '2025-10-19T19:00:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -36679,15 +36740,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.692Z'
+      prompt_version: v3
   - repo: ultralytics/ultralytics
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - object-detection
+      - deep-learning
+      - yolo
+      - pytorch
+      - lang:python
     summary: Ultralytics YOLO 🚀
     last_synced_sha: c56255fa7fcb932a0f88a5711a2afec7ff1d957e
     user_starred_at: '2025-10-19T19:00:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -36727,15 +36798,28 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.692Z'
+      prompt_version: v3
   - repo: coollabsio/coolify
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - deployment
+      - containers
+      - databases
+    tags:
+      - self-hosting
+      - docker
+      - paas
+      - nextjs
+      - svelte
+      - lang:php
     summary: An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv...
     last_synced_sha: d29a9a2802c122c7fc02b3d640165a1fd04a54a8
     user_starred_at: '2025-10-19T19:00:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -36775,15 +36859,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.692Z'
+      prompt_version: v3
   - repo: cheeriojs/cheerio
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - data-science
+    tags:
+      - parser
+      - html-manipulation
+      - dom
+      - scraper
+      - lang:ts
     summary: The fast, flexible, and elegant library for parsing and manipulating HTML and XML.
     last_synced_sha: 8096700cb958607154e25e9240a28daa0b70d831
     user_starred_at: '2025-10-19T19:00:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36813,15 +36907,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.692Z'
+      prompt_version: v3
   - repo: trpc/trpc
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - end-to-end
+      - typesafe
+      - nextjs
+      - react
+      - lang:ts
     summary: 🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
     last_synced_sha: 6c03ce43f883726ce9ab4150461ae527989f8bd2
     user_starred_at: '2025-10-19T18:58:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36846,16 +36950,26 @@ repositories:
         published_at: '2026-02-09T22:13:22Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.692Z'
+      prompt_version: v3
   - repo: eddie-jimenez/IntunePolicyChangeReport
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - monitoring
+    tags:
+      - intune
+      - azure
+      - runbook
+      - policy-change
+      - lang:powershell
     summary: An Azure runbook that provides a reliable, human-readable record of what changed in Intune policies, who changed it, and when.
     last_synced_sha: 02d4e204d3c28fe2ccf5954d60e40d1bc6d45042
     user_starred_at: '2025-10-19T18:57:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -36873,15 +36987,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.692Z'
+      prompt_version: v3
   - repo: fregante/browser-extension-template
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - browser-extension
+      - boilerplate
+      - parcel
+      - lang:js
     summary: 📕 Barebones boilerplate with Parcel 2, options handler and auto-publishing
     last_synced_sha: 8c155dcac77b0d3272f32c0a695d4c03a09dbd6b
     user_starred_at: '2025-10-19T18:57:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -36905,15 +37028,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.692Z'
+      prompt_version: v3
   - repo: webextension-toolbox/webextension-toolbox
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - webextension
+      - cli-toolbox
+      - cross-browser
+      - lang:ts
     summary: Small CLI toolbox for cross-browser Web Extension development
     last_synced_sha: 29e1ac11298af0799685320b1f3cdd2bc72c8ce6
     user_starred_at: '2025-10-19T18:55:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36945,15 +37077,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.692Z'
+      prompt_version: v3
   - repo: envoyproxy/envoy
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - cloud
+      - apis
+    tags:
+      - proxy
+      - edge-service
+      - nanoservices
+      - lang:cpp
     summary: Cloud-native high-performance edge/middle/service proxy
     last_synced_sha: 6109e6ab5f2273005580448204099a4d3573f94e
     user_starred_at: '2025-10-19T18:55:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -36981,6 +37123,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:51:19.692Z'
+      prompt_version: v3
   - repo: datarootsio/knowledgebase_guardian
     categories:
       - ai-ml
