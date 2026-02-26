@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-26T04:39:57.935Z'
+  manifest_updated_at: '2026-02-26T04:40:25.616Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -46866,13 +46866,19 @@ repositories:
     framework: null
   - repo: unclecode/crawl4ai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - automation
+    tags:
+      - web-crawler
+      - scraping
+      - llm-friendly
+      - lang:python
     summary: '🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don''t be shy, join here: https://discord.gg/j P8Kfh Dhy N'
     last_synced_sha: aa7b05072d5b6deb9d1b85f9bb8b8561b936ac5e
     user_starred_at: '2025-08-16T08:19:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -46892,15 +46898,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.051Z'
+      prompt_version: v3
   - repo: firecrawl/firecrawl
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+      - data-science
+    tags:
+      - webscraping
+      - html-to-markdown
+      - ai-scraping
+      - lang:ts
     summary: 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data
     last_synced_sha: 4348afdfbad74eea7b9019a779f58a7047dd11c1
     user_starred_at: '2025-08-16T08:10:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46939,15 +46955,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.051Z'
+      prompt_version: v3
   - repo: openreplay/openreplay
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+      - monitoring
+    tags:
+      - session-replay
+      - analytics
+      - real-user-monitoring
+      - lang:ts
     summary: Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues and iterating on your product.
     last_synced_sha: 375f27ef52aee670434f01c28fd9beb67c18f9c0
     user_starred_at: '2025-08-16T08:09:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46982,16 +47008,25 @@ repositories:
         published_at: '2026-01-30T20:02:13Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.051Z'
+      prompt_version: v3
   - repo: CherryHQ/cherry-studio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - autonomous-agents
+      - smart-chat
+      - llm-tools
+      - lang:ts
     summary: AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
     last_synced_sha: 17849105b9a7c602ba62e210b5be88f5603d8777
     user_starred_at: '2025-08-16T08:09:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -47022,15 +47057,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.051Z'
+      prompt_version: v3
   - repo: Tichau/FileConverter
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - file-conversion
+      - context-menu
+      - windows
+      - lang:csharp
     summary: File Converter is a very simple tool which allows you to convert and compress files using the context menu in windows explorer.
     last_synced_sha: 6c157a411fb70fb7440d2e3b226042781fd55b15
     user_starred_at: '2025-08-16T08:06:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -47050,15 +47094,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.051Z'
+      prompt_version: v3
   - repo: builtbybel/CrapFixer
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - crap-removal
+      - system-cleaning
+      - lang:csharp
     summary: Cr*ap Fixer
     last_synced_sha: 252f1d1119447abe041c9be42d7baea89b6c8637
     user_starred_at: '2025-08-16T08:05:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -47081,15 +47133,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.051Z'
+      prompt_version: v3
   - repo: peass-ng/PEASS-ng
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - privilege-escalation
+      - enumeration
+      - linux-tools
+      - lang:csharp
     summary: PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)
     last_synced_sha: 1bb9b229587a9f9397ef4dfe1722ef9b97dcc21e
     user_starred_at: '2025-08-16T08:04:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -47128,15 +47189,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.051Z'
+      prompt_version: v3
   - repo: elsa-workflows/elsa-core
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - workflow-engine
+      - dotnet
+      - lang:csharp
     summary: The Workflow Engine for .NET
     last_synced_sha: a79d6a257e5fc1ef3a6ba804537e24a29afbbb9a
     user_starred_at: '2025-08-16T08:04:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -47160,15 +47229,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.051Z'
+      prompt_version: v3
   - repo: mediar-ai/terminator
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - productivity
+    tags:
+      - ai-agents
+      - llm-support
+      - lang:rust
     summary: playwright for windows computer use
     last_synced_sha: 7d2fba5f4abc898b4fa130f22407bccc29f2ebd5
     user_starred_at: '2025-08-16T08:00:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -47199,15 +47277,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.051Z'
+      prompt_version: v3
   - repo: pola-rs/polars
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - dataframe-library
+      - high-performance
+      - lang:rust
     summary: Extremely fast Query Engine for Data Frames, written in Rust
     last_synced_sha: 8bb02c700f5929c27d10ae1cfb0bb85a67813b47
     user_starred_at: '2025-08-16T08:00:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -47235,15 +47321,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.050Z'
+      prompt_version: v3
   - repo: Y2Z/monolith
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - cli-tool
+      - webpage-saver
+      - archiving
+      - lang:rust
     summary: ⬛️ CLI tool and library for saving complete web pages as a single HTML file
     last_synced_sha: 8702e66fed5bb1b377d6c733f8aff3cdfa9b8dc3
     user_starred_at: '2025-08-16T07:59:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -47271,15 +47366,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.050Z'
+      prompt_version: v3
   - repo: juspay/hyperswitch
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+      - productivity
+    tags:
+      - payments
+      - orchestration
+      - high-performance
+      - lang:rust
     summary: An open source payments switch written in Rust to make payments fast, reliable and affordable
     last_synced_sha: b51e3cee680cf050fdb317321fe007432ec4a0c5
     user_starred_at: '2025-08-16T07:59:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -47313,15 +47418,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.050Z'
+      prompt_version: v3
   - repo: public-apis/public-apis
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+      - productivity
+    tags:
+      - public-apis
+      - resources
+      - lang:python
     summary: A collective list of free APIs
     last_synced_sha: 932e6f25cc4765660e45cd93870f3bdc15a21ce0
     user_starred_at: '2025-08-16T07:57:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -47352,15 +47466,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.050Z'
+      prompt_version: v3
   - repo: haydenbleasel/ultracite
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - linter
+      - formatter
+      - vscode
+      - lang:ts
     summary: A highly opinionated, zero-configuration linter and formatter.
     last_synced_sha: ca24a2241aba554fb224d7c7d9eb48a1a8f782c0
     user_starred_at: '2025-08-16T07:56:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -47388,15 +47511,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.050Z'
+      prompt_version: v3
   - repo: jasonxtn/Argus
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - osint
+      - recon-tools
+      - ssl-analysis
+      - lang:python
     summary: The Ultimate Information Gathering Toolkit
     last_synced_sha: f51c0442802f1a557220943c72fb2584c7c99fa4
     user_starred_at: '2025-08-16T07:55:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -47429,6 +47561,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:40:24.050Z'
+      prompt_version: v3
   - repo: ghostfolio/ghostfolio
     categories:
       - web-dev
