@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-26T04:19:57.267Z'
+  manifest_updated_at: '2026-02-26T04:20:24.715Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -65819,13 +65819,19 @@ repositories:
     framework: null
   - repo: deepseek-ai/Janus
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - unified-model
+      - llm
+      - multimodal
+      - lang:python
+      - vision-language-model
     summary: 'Janus-Series: Unified Multimodal Understanding and Generation Models'
     last_synced_sha: 1daa72fa409002d40931bd7b36a9280362469ead
     user_starred_at: '2025-01-28T08:55:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65849,15 +65855,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.123Z'
+      prompt_version: v3
   - repo: soxoj/maigret
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - osint
+      - investigation
+      - username-tracking
+      - lang:python
+      - social-networks
     summary: 🕵️‍♂️ Collect a dossier on a person by username from thousands of sites
     last_synced_sha: 83a9dafe55cd8d03502998e71ab4b980af9c4060
     user_starred_at: '2025-01-28T08:55:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65897,15 +65913,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.123Z'
+      prompt_version: v3
   - repo: harry0703/MoneyPrinterTurbo
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - short-videos
+      - tiktok
+      - ai
+      - automation
+      - lang:python
     summary: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
     last_synced_sha: 951460b9f16f97937afaec8076018c7b291c9a5c
     user_starred_at: '2025-01-28T08:54:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65932,15 +65958,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.123Z'
+      prompt_version: v3
   - repo: datalab-to/surya
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - ocr
+      - table-recognition
+      - lang:python
+      - layout-analysis
+      - multilingual
     summary: OCR, layout analysis, reading order, table recognition in 90+ languages
     last_synced_sha: 2add5da0a84528f1d262729a88c53ccd387d651f
     user_starred_at: '2025-01-28T08:54:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -65960,15 +65996,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.123Z'
+      prompt_version: v3
   - repo: OpenSPG/KAG
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - knowledge-graph
+      - llms
+      - lang:python
+      - reasoning
+      - logical-form
     summary: KAG is a logical form-guided reasoning and retrieval framework based on Open SPG engine and LLMs. It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge b...
     last_synced_sha: fdab15b3929d2ee40dfcdd388f90233096a6afc9
     user_starred_at: '2025-01-28T08:54:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65993,15 +66039,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.122Z'
+      prompt_version: v3
   - repo: fixie-ai/ultravox
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - speech
+      - llm
+      - real-time
+      - multimodal
+      - lang:python
     summary: A fast multimodal LLM for real-time voice
     last_synced_sha: 69ddc63b2d72be5e9a86f818315da72cec55a876
     user_starred_at: '2025-01-28T08:54:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -66025,15 +66081,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.122Z'
+      prompt_version: v3
   - repo: microsoft/PromptWizard
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - prompt-optimization
+      - lang:python
+      - llms
+      - task-aware
     summary: Task-Aware Agent-driven Prompt Optimization Framework
     last_synced_sha: a1d43f876ef4468b0549a3ceff8bd691b80cd667
     user_starred_at: '2025-01-28T08:54:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -66051,15 +66116,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.122Z'
+      prompt_version: v3
   - repo: intuitem/ciso-assistant-community
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - grc
+      - compliance
+      - audit
+      - risk-management
+      - lang:python
     summary: CISO Assistant is a one-stop-shop GRC platform for Risk Management, App Sec, Compliance & Audit, TPRM, Privacy, and Reporting. It supports 100+ global frameworks with automatic control mapping, inc...
     last_synced_sha: a81580b4290c1af3f83b84fcd524a3377acf850c
     user_starred_at: '2025-01-28T08:53:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -66099,15 +66174,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.122Z'
+      prompt_version: v3
   - repo: crewAIInc/crewAI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - ai-agents
+      - llms
+      - lang:python
+      - autonomous-agents
+      - framework
     summary: Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, Crew AI empowers agents to work together seamlessly, tackling complex tasks.
     last_synced_sha: b371f97a2fa39e38c7613c1cb92348ae222f42fc
     user_starred_at: '2025-01-28T08:53:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -66132,15 +66217,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.122Z'
+      prompt_version: v3
   - repo: gavincyi/awesome-financial-open-source
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - financial
+      - open-source
+      - resources
+      - collection
     summary: Collection of financial institution open source groups
     last_synced_sha: e6cf0bc616dfa1e71419647c830979c82205576a
     user_starred_at: '2025-01-28T08:46:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -66158,15 +66252,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.122Z'
+      prompt_version: v3
   - repo: paulveillard/cybersecurity-cyberinsurance
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - security
+    tags:
+      - cybersecurity
+      - cyberinsurance
+      - best-practices
+      - resources
     summary: An ongoing & curated collection of awesome software best practices and techniques, libraries and frameworks, E-books and videos, websites, blog posts, links to github Repositories, technical guidel...
     last_synced_sha: 5ace21e22d30dc7d41f7cac063f4f8f33d156e9b
     user_starred_at: '2025-01-28T08:45:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -66194,15 +66297,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.122Z'
+      prompt_version: v3
   - repo: sbondCo/Watcharr
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - media-management
+      - sveltekit
+      - lang:svelte
+      - sqlite
+      - lang:go
     summary: Open source, self-hostable watched list for all your content (movies, tv series, anime, games) with user authentication, modern and clean UI and a very simple setup.
     last_synced_sha: a0ab7d8413db4ea8b2dc9b02bb5ccf14af684e97
     user_starred_at: '2025-01-28T08:38:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Svelte
       topics:
@@ -66242,15 +66355,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.122Z'
+      prompt_version: v3
   - repo: seriousm4x/UpSnap
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - web-dev
+    tags:
+      - wake-on-lan
+      - sveltekit
+      - pocketbase
+      - lang:svelte
+      - lang:go
     summary: A simple wake on lan web app written with Svelte Kit, Go and Pocket Base.
     last_synced_sha: ad36a40f17ed93f98d8a18a25526e98e29fed840
     user_starred_at: '2025-01-28T08:38:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Svelte
       topics:
@@ -66275,15 +66398,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.122Z'
+      prompt_version: v3
   - repo: hakimel/reveal.js
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - presentations
+      - slideshow
+      - slides
+      - lang:js
     summary: The HTML Presentation Framework
     last_synced_sha: 0753c057773ed3e3ec68a558e9af38d8fce728b8
     user_starred_at: '2025-01-28T08:37:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -66306,15 +66438,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.122Z'
+      prompt_version: v3
   - repo: openziti/ziti
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - zero-trust
+      - vpn
+      - lang:go
+      - networking
+      - appsec
     summary: The parent project for Open Ziti. Here you will find the executables for a fully zero trust, application embedded, programmable network @Open Ziti
     last_synced_sha: b5345c229f1ddfc03b424c24b7a0308bf8aabf07
     user_starred_at: '2025-01-28T08:35:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -66354,6 +66496,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:20:23.121Z'
+      prompt_version: v3
   - repo: jason5ng32/MyIP
     categories:
       - networking
