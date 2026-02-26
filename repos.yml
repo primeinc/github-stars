@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-26T04:27:03.165Z'
+  manifest_updated_at: '2026-02-26T04:27:30.818Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -59030,13 +59030,18 @@ repositories:
     framework: null
   - repo: Azure/AppConfiguration
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - system-admin
+      - apis
+    tags:
+      - app-settings
+      - configuration-management
+      - azure
     summary: Questions, feedback and samples for Azure App Configuration service
     last_synced_sha: 73490470b7fb3d132c255c8b3508ba732aff6e15
     user_starred_at: '2025-03-15T09:20:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -59062,15 +59067,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.223Z'
+      prompt_version: v3
   - repo: Azure/AppConfiguration-Announcements
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - system-admin
+      - documentation
+    tags:
+      - azure-app-configuration
+      - announcements
+      - configuration
     summary: News about Azure App Configuration
     last_synced_sha: 8bea2861107125a71ae36ffa6f20c2948bd6a185
     user_starred_at: '2025-03-15T09:20:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -59093,15 +59107,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.223Z'
+      prompt_version: v3
   - repo: twelve-factor/twelve-factor
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - 12-factor-manifesto
+      - best-practices
     summary: The Twelve-Factor Manifesto
     last_synced_sha: 3ad5a5f36312cc8ad876abae1bd691acd790d4d1
     user_starred_at: '2025-03-15T09:11:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -59119,15 +59140,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.223Z'
+      prompt_version: v3
   - repo: microsoftgraph/msgraph-sdk-powershell
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+      - system-admin
+    tags:
+      - microsoft-graph
+      - powershell-sdk
+      - lang:csharp
     summary: Powershell SDK for Microsoft Graph
     last_synced_sha: 480dc9700d3f99fe175ae9299bb0b72b59d3e170
     user_starred_at: '2025-03-15T05:29:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -59154,15 +59184,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.223Z'
+      prompt_version: v3
   - repo: microsoft/kiota-samples
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - sdk-generation
+      - kiota
+      - lang:go
     summary: sample generation SDKs for Kiota
     last_synced_sha: 915e08bff27e561ce9c3d40470ee03ee864da3be
     user_starred_at: '2025-03-15T05:27:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -59181,15 +59219,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.223Z'
+      prompt_version: v3
   - repo: Azure/azure-functions-host
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - deployment
+      - automation
+    tags:
+      - serverless
+      - azure-functions
+      - lang:csharp
     summary: The host/runtime that powers Azure Functions
     last_synced_sha: 702c2210e3e043cffde1e5d1898790abbe434ec3
     user_starred_at: '2025-03-14T15:16:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -59213,15 +59260,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.223Z'
+      prompt_version: v3
   - repo: Azure-Samples/azure-search-openai-demo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - cloud
+    tags:
+      - retrieval-augmented
+      - openai
+      - lang:python
     summary: A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure Open AI large language models to power Chat GPT-style and Q&A experiences.
     last_synced_sha: 41db465e9a16cc0a44e74e11522b089442ab2cb0
     user_starred_at: '2025-03-12T23:45:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -59249,15 +59305,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.223Z'
+      prompt_version: v3
   - repo: denisa-ms/azure-data-and-ai-examples
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - cloud
+    tags:
+      - examples
+      - data-and-ai
+      - lang:jupyter-notebook
     summary: No description provided
     last_synced_sha: 6bff443f0fd2c640c9f04bfc13194cb490ddbfa5
     user_starred_at: '2025-03-12T23:43:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -59275,15 +59340,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.222Z'
+      prompt_version: v3
   - repo: Azure/bicep-registry-modules
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - automation
+    tags:
+      - bicep
+      - modules
+      - lang:bicep
     summary: Bicep registry modules
     last_synced_sha: cdd61cab6141b34238e4043243768614d3b35ca8
     user_starred_at: '2025-03-12T22:56:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -59301,15 +59374,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.222Z'
+      prompt_version: v3
   - repo: mspnp/AzureNamingTool
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cloud
+      - productivity
+    tags:
+      - azure
+      - naming-standards
+      - lang:csharp
     summary: The Azure Naming Tool is a .NET 10 Blazor application with a RESTful API for generating and validating Azure resource names. Features include SQLite database support, drag-and-drop configuration, A...
     last_synced_sha: 3e6badcb31ed61002f8ade00dd2dc6aa2d93cc17
     user_starred_at: '2025-03-11T20:38:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -59332,15 +59414,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.222Z'
+      prompt_version: v3
   - repo: faressoft/terminalizer
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+      - ui-libraries
+    tags:
+      - terminal-recording
+      - gif-generator
+      - lang:js
     summary: 🦄 Record your terminal and generate animated gif images or share a web player
     last_synced_sha: 7b7da2913987f6d002b5c5555610788535a09979
     user_starred_at: '2025-03-08T03:15:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -59378,15 +59469,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.222Z'
+      prompt_version: v3
   - repo: massgravel/Microsoft-Activation-Scripts
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+      - security
+    tags:
+      - windows-activation
+      - kms
+      - lang:batchfile
     summary: Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.
     last_synced_sha: 97602941e5724316aa31b6ca1da5c70245d234d5
     user_starred_at: '2025-03-08T03:10:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -59422,15 +59522,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.222Z'
+      prompt_version: v3
   - repo: jhochwald/PowerShell-collection
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - system-admin
+      - learning
+    tags:
+      - powershell
+      - scripts
+      - lang:powershell
     summary: Power Shell Scripts, Tools, and Modules
     last_synced_sha: 6aedb71cea3cd71e5050b01863e635bb3280b002
     user_starred_at: '2025-03-08T03:08:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -59462,15 +59571,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.222Z'
+      prompt_version: v3
   - repo: OfficeDev/Microsoft-Teams-Samples
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - cloud
+      - apis
+    tags:
+      - microsoft-teams
+      - sample-code
+      - lang:csharp
     summary: Welcome to the Microsoft Teams samples repository. Here you will find task-focused samples in C#, Java Script and Type Script to help you get started with the Microsoft Teams App!
     last_synced_sha: 1b547710b1e3133b205fcde24bb45f01252aabda
     user_starred_at: '2025-03-06T01:38:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -59488,15 +59606,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.222Z'
+      prompt_version: v3
   - repo: OfficeDev/microsoft-teams-emergency-operations-center
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - productivity
+    tags:
+      - microsoft-teams
+      - centralized-response
+      - lang:ts
     summary: The Microsoft Teams Emergency Operations Center (TEOC) solution template leverages the power of the Microsoft 365 platform to centralize incident response, information sharing and field communicati...
     last_synced_sha: 27246ef9fa74338efd9445cba9a07bd24f5ddfe3
     user_starred_at: '2025-03-06T00:31:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -59516,6 +59642,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-26T04:27:29.221Z'
+      prompt_version: v3
   - repo: OfficeDev/microsoft-365-agents-toolkit-samples
     categories:
       - learning
