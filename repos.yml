@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:12:56.412Z'
+  manifest_updated_at: '2026-02-28T04:13:25.380Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -48656,13 +48656,20 @@ repositories:
     framework: null
   - repo: stravu/crystal
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+      - desktop-dev
+    tags:
+      - lang:ts
+      - ai-coding
+      - development-workflows
+      - ide-support
+      - parallel-testing
     summary: (Crystal is now Nimbalyst) Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.
     last_synced_sha: 1e18e0bc981225f75b5226f82a300fa741970c6f
     user_starred_at: '2025-07-11T20:15:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48695,15 +48702,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.900Z'
+      prompt_version: v3
   - repo: matthewp/robot
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - lang:js
+      - finite-state-machine
+      - functional-programming
+      - immutable
     summary: 🤖 A functional, immutable Finite State Machine library
     last_synced_sha: 4cd08d1cb3f08c7d59ef90439ab965d81c001176
     user_starred_at: '2025-07-11T20:14:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -48723,15 +48739,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.900Z'
+      prompt_version: v3
   - repo: hangwin/mcp-chrome
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+      - web-dev
+    tags:
+      - lang:ts
+      - mcp
+      - chrome-extension
+      - browser-automation
+      - ai-assistant
     summary: Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, c...
     last_synced_sha: f48e71751e00bc09725c7e173423cff4f2ccd12a
     user_starred_at: '2025-07-11T20:11:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -48751,15 +48778,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.900Z'
+      prompt_version: v3
   - repo: basementstudio/xmcp
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - automation
+    tags:
+      - lang:ts
+      - mcp
+      - typescript
+      - framework
     summary: The Type Script MCP framework
     last_synced_sha: 8474421fabc8b85954150cce947b54fb2a14024c
     user_starred_at: '2025-07-11T20:10:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48783,15 +48819,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.900Z'
+      prompt_version: v3
   - repo: CeeJayDK/SweetFX
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - lang:hlsl
+      - visual-enhancement
+      - post-processing
+      - shader
     summary: No description provided
     last_synced_sha: 16d1a42247cb5baaf660120ee35c9a33bb94649c
     user_starred_at: '2025-07-11T20:10:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HLSL
       topics: []
@@ -48809,15 +48854,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.900Z'
+      prompt_version: v3
   - repo: radius-project/radius
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - frameworks
+      - deployment
+    tags:
+      - lang:go
+      - cloud-native
+      - portable-platform
+      - app-development
     summary: Radius is a cloud-native, portable application platform that makes app development easier for teams building cloud-native apps.
     last_synced_sha: 231932bec10643da24347660a564ff2da76f91ac
     user_starred_at: '2025-07-11T18:35:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -48837,15 +48892,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.900Z'
+      prompt_version: v3
   - repo: BuilderIO/mitosis
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - frameworks
+    tags:
+      - lang:ts
+      - react
+      - vue
+      - angular
+      - component-compilation
     summary: Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more.
     last_synced_sha: e4255db77c3a202aef001963944d5e219c2d0c3f
     user_starred_at: '2025-07-11T16:35:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48881,15 +48946,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.900Z'
+      prompt_version: v3
   - repo: fosrl/pangolin
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+      - automation
+    tags:
+      - lang:ts
+      - vpn
+      - reverse-proxy
+      - identity-management
+      - wireguard
     summary: Identity-aware VPN and proxy for remote access to anything, anywhere.
     last_synced_sha: 72bf6f3c414a12a16c184a19f50ad08ed78f239f
     user_starred_at: '2025-07-11T16:17:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48926,15 +49002,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.900Z'
+      prompt_version: v3
   - repo: anthropics/claude-cookbooks
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - learning
+    tags:
+      - lang:jupyter-notebook
+      - claude
+      - recipes
+      - notebooks
+      - llms
     summary: A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
     last_synced_sha: 0e8a6bfd65cbaa8f8b02f151bbf54f6e385bc5a5
     user_starred_at: '2025-07-11T02:37:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -48952,15 +49039,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.900Z'
+      prompt_version: v3
   - repo: humanlayer/12-factor-agents
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+      - productivity
+    tags:
+      - lang:ts
+      - llms
+      - prompt-engineering
+      - 12-factor-principles
+      - orchestration
     summary: What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?
     last_synced_sha: d20c728368bf9c189d6d7aab704744decb6ec0cc
     user_starred_at: '2025-07-11T02:37:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48989,15 +49087,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.900Z'
+      prompt_version: v3
   - repo: googleapis/genai-toolbox
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+      - apis
+    tags:
+      - mcp
+      - lang:go
+      - genai
+      - database-support
+      - elasticsearch
     summary: MCP Toolbox for Databases is an open source MCP server for databases.
     last_synced_sha: fcaac9bb957226ee3db1baea24330f337ba88ab7
     user_starred_at: '2025-07-11T02:36:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -49037,15 +49146,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.900Z'
+      prompt_version: v3
   - repo: indragiek/Context
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - apis
+    tags:
+      - mcp
+      - mac-os-client
+      - lang:swift
+      - context-protocol
     summary: Native mac OS client for Model Context Protocol (MCP)
     last_synced_sha: 86ae05b2a374157194bb1ddbe1b8ebf613cf773b
     user_starred_at: '2025-07-11T01:13:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics: []
@@ -49065,15 +49183,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.900Z'
+      prompt_version: v3
   - repo: hewigovens/app-detective
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - mac-os
+      - gui-detection
+      - lang:swift
+      - tech-stack
     summary: Detect mac OS apps' GUI tech stack
     last_synced_sha: 9c348a6f393b9eccb6e5462f89704ad5197c1dd7
     user_starred_at: '2025-07-10T01:17:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics: []
@@ -49093,15 +49220,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.899Z'
+      prompt_version: v3
   - repo: modelcontextprotocol/servers
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+      - automation
+    tags:
+      - mcp
+      - context-protocol
+      - lang:ts
+      - server
+      - llm
     summary: Model Context Protocol Servers
     last_synced_sha: 04cce79b4c2bbaa313095e9c2a466381f5fd1e64
     user_starred_at: '2025-07-10T01:15:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -49121,15 +49259,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.899Z'
+      prompt_version: v3
   - repo: yukangcao/FreeMorph
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-morphing
+      - lang:python
+      - diffusion-model
+      - research
     summary: '[ICCV''25] Free Morph: Tuning-Free Generalized Image Morphing with Diffusion Model'
     last_synced_sha: b7b7068291c6654232f8c8959e22214e311ede69
     user_starred_at: '2025-07-04T11:48:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -49147,6 +49294,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:13:23.899Z'
+      prompt_version: v3
   - repo: OrkunKocyigit/vidlib
     categories:
       - desktop-dev
