@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:05:48.436Z'
+  manifest_updated_at: '2026-02-28T04:06:18.541Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -54655,13 +54655,19 @@ repositories:
     framework: null
   - repo: Azure-Samples/azure-search-openai-demo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+      - data-science
+    tags:
+      - azure
+      - chatgpt
+      - openai
+      - lang:python
     summary: A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure Open AI large language models to power Chat GPT-style and Q&A experiences.
     last_synced_sha: 14251b7f9ceba4b0719fca153fd059cc61fe4e14
     user_starred_at: '2025-03-12T23:45:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -54689,15 +54695,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.127Z'
+      prompt_version: v3
   - repo: denisa-ms/azure-data-and-ai-examples
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+      - data-science
+    tags:
+      - ai
+      - data-examples
+      - lang:jupyter-notebook
     summary: No description provided
     last_synced_sha: 6bff443f0fd2c640c9f04bfc13194cb490ddbfa5
     user_starred_at: '2025-03-12T23:43:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -54715,15 +54730,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.127Z'
+      prompt_version: v3
   - repo: Azure/bicep-registry-modules
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - dev-tools
+    tags:
+      - bicep
+      - azure
+      - lang:bicep
     summary: Bicep registry modules
     last_synced_sha: 4aa3ef87624a4ef0e6bfd306dca3e733bd58dc41
     user_starred_at: '2025-03-12T22:56:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -54741,15 +54764,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.127Z'
+      prompt_version: v3
   - repo: mspnp/AzureNamingTool
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+      - cloud
+    tags:
+      - azure
+      - naming-conventions
+      - lang:csharp
     summary: The Azure Naming Tool is a .NET 10 Blazor application with a RESTful API for generating and validating Azure resource names. Features include SQLite database support, drag-and-drop configuration, A...
     last_synced_sha: 3e6badcb31ed61002f8ade00dd2dc6aa2d93cc17
     user_starred_at: '2025-03-11T20:38:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -54772,15 +54804,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.127Z'
+      prompt_version: v3
   - repo: faressoft/terminalizer
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - terminal
+      - gif
+      - recording-tool
+      - lang:js
     summary: 🦄 Record your terminal and generate animated gif images or share a web player
     last_synced_sha: 7b7da2913987f6d002b5c5555610788535a09979
     user_starred_at: '2025-03-08T03:15:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -54818,15 +54859,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.127Z'
+      prompt_version: v3
   - repo: massgravel/Microsoft-Activation-Scripts
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+      - productivity
+    tags:
+      - windows-activation
+      - kms
+      - lang:batchfile
     summary: Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.
     last_synced_sha: 97602941e5724316aa31b6ca1da5c70245d234d5
     user_starred_at: '2025-03-08T03:10:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -54862,15 +54912,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.127Z'
+      prompt_version: v3
   - repo: jhochwald/PowerShell-collection
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - automation
+      - powershell
+      - lang:powershell
     summary: Power Shell Scripts, Tools, and Modules
     last_synced_sha: 6aedb71cea3cd71e5050b01863e635bb3280b002
     user_starred_at: '2025-03-08T03:08:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -54902,15 +54960,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.127Z'
+      prompt_version: v3
   - repo: OfficeDev/Microsoft-Teams-Samples
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - teams
+      - samples
+      - lang:csharp
     summary: Welcome to the Microsoft Teams samples repository. Here you will find task-focused samples in C#, Java Script and Type Script to help you get started with the Microsoft Teams App!
     last_synced_sha: a6cd3ae4f4c6dc87998d8e501d47062aaca028dd
     user_starred_at: '2025-03-06T01:38:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -54928,15 +54994,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.127Z'
+      prompt_version: v3
   - repo: OfficeDev/microsoft-teams-emergency-operations-center
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - teams
+      - incident-management
+      - lang:ts
     summary: The Microsoft Teams Emergency Operations Center (TEOC) solution template leverages the power of the Microsoft 365 platform to centralize incident response, information sharing and field communicati...
     last_synced_sha: 27246ef9fa74338efd9445cba9a07bd24f5ddfe3
     user_starred_at: '2025-03-06T00:31:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -54956,15 +55030,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.127Z'
+      prompt_version: v3
   - repo: OfficeDev/microsoft-365-agents-toolkit-samples
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - teams-apps
+      - samples
+      - lang:ts
     summary: Scenario-focused sample applications that help you get started with building Microsoft Teams App.
     last_synced_sha: e8961e82108002dbda5845bb61143f8b99bfbeb2
     user_starred_at: '2025-03-05T23:54:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -54982,15 +55064,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.127Z'
+      prompt_version: v3
   - repo: GitNirmal-u/Microsoft_Azure_E2E_Project
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+    tags:
+      - azure
+      - end-to-end
+      - lang:jupyter-notebook
     summary: No description provided
     last_synced_sha: 865eb0c73d1752a57c583e80378c2f40d1f2d737
     user_starred_at: '2025-03-03T13:18:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -55008,15 +55098,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.127Z'
+      prompt_version: v3
   - repo: OfficeDev/microsoft-365-agents-toolkit
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - teams-apps
+      - developer-tools
+      - lang:ts
     summary: Developer tools for building Teams apps
     last_synced_sha: c92a36531ae2c010a886f82addcabb1da02edef0
     user_starred_at: '2025-03-03T00:47:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -55036,15 +55134,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.127Z'
+      prompt_version: v3
   - repo: OfficeDev/Office-Addin-TaskPane
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - task-pane
+      - office-addin
+      - lang:ts
     summary: Template to get started writing a Task Pane Office Add-in.
     last_synced_sha: b159553a26bb2b034745e1ff216d1dbcb1d976bd
     user_starred_at: '2025-03-02T22:30:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -55062,15 +55168,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.127Z'
+      prompt_version: v3
   - repo: GOVCERT-LU/GCNotify
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - outlook-addin
+      - e-mail
+      - lang:visual-basic-net
     summary: GCNotify is an Outlook addin for quickly forwarding mail as attachment to a pre-defined e-mail address.
     last_synced_sha: a0d4dafee4b546bb6ccf57f681e288c5a91bbfa0
     user_starred_at: '2025-03-01T23:04:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Visual Basic .NET
       topics:
@@ -55094,15 +55208,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.127Z'
+      prompt_version: v3
   - repo: tonyfederer/OutlookFileDrag
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - outlook-addin
+      - drag-and-drop
+      - lang:csharp
     summary: Drag and drop Outlook items as files into any application
     last_synced_sha: b9197a6baa5be94da82dfacbd1412217f1d80aa5
     user_starred_at: '2025-03-01T23:04:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -55124,6 +55246,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:06:17.126Z'
+      prompt_version: v3
   - repo: OfficeDev/office-js
     categories:
       - apis
