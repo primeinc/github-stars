@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:26:44.120Z'
+  manifest_updated_at: '2026-02-28T04:27:17.888Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -35288,13 +35288,18 @@ repositories:
     framework: null
   - repo: thesephist/burds
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - animation
+      - birds
+      - graphics
+      - lang:js
     summary: Just some burds, jumpin' around in their own little world.
     last_synced_sha: 5ada8b58d87efdd049c9210aedc0fd392a067c2a
     user_starred_at: '2025-09-24T06:21:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -35315,15 +35320,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.407Z'
+      prompt_version: v3
   - repo: slenered/MusicWallpaper
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - live-wallpaper
+      - playing-music-ui
+      - minimal
+      - lang:js
     summary: A simple and sleek way to show your actively playing music.
     last_synced_sha: dfceff6f616e5a8f9bdeedefd9d92efe98c967c7
     user_starred_at: '2025-09-24T06:11:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -35343,15 +35357,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.407Z'
+      prompt_version: v3
   - repo: Aprotonix/Rainbow-Music-Visualizer-Wallpaper
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - live-wallpaper
+      - customizable-ui
+      - music-visualizer
+      - lang:js
     summary: Customizable Live Wallpaper showing the music and date
     last_synced_sha: 395d7c64c702d6fdf9fdf322dad238fc45661848
     user_starred_at: '2025-09-24T06:10:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -35371,15 +35394,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.407Z'
+      prompt_version: v3
   - repo: CatWaterCodes/ImageToParallaxWallpaper
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - parallax-wallpaper
+      - image-processing
+      - html-css-js
+      - lang:python
     summary: A simple tool that allows you to create parallax wallpapers using html/css/js from a single image.
     last_synced_sha: 03015177b9a90a92a99da2eb4f141fdd3c052ac1
     user_starred_at: '2025-09-24T06:09:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35397,15 +35429,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.407Z'
+      prompt_version: v3
   - repo: cloudflare/capnweb
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - rpc-system
+      - low-boilerplate
+      - object-capabilities
+      - lang:ts
     summary: Java Script/Type Script-native, low-boilerplate, object-capability RPC system
     last_synced_sha: 844e2ece215712e8e0f0537f3655eef2152fe331
     user_starred_at: '2025-09-24T05:22:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -35425,15 +35466,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.407Z'
+      prompt_version: v3
   - repo: kalivaraprasad-gonapa/react-mcp
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - react-integration
+      - app-creation
+      - ui
+      - lang:js
     summary: react-mcp integrates with Claude Desktop, enabling the creation and modification of React apps based on user prompts
     last_synced_sha: 984adb923aa65dde7cb3b06c70860f1bd6fed2a7
     user_starred_at: '2025-09-24T05:09:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -35450,16 +35500,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.407Z'
+      prompt_version: v3
   - repo: yjs/yjs
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - collaborative-editing
+      - crdt
+      - realtime
+      - p2p
+      - lang:js
     summary: Shared data types for building collaborative software
     last_synced_sha: 6f88d59e6e503e86d0bb1677f240c31f238aa4ab
     user_starred_at: '2025-09-24T04:45:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -35489,15 +35549,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.407Z'
+      prompt_version: v3
   - repo: its-a-feature/Mythic
     categories:
-      - unclassified
-    tags: []
+      - security
+      - frameworks
+    tags:
+      - red-teaming
+      - multi-platform
+      - collaborative
+      - cybersecurity
+      - lang:js
     summary: A collaborative, multi-platform, red teaming framework
     last_synced_sha: 51c0eeb5df2914c4e3fdfb7b93270a7dcfb3a971
     user_starred_at: '2025-09-24T04:44:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -35517,15 +35587,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.407Z'
+      prompt_version: v3
   - repo: MythicAgents/Apollo
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - net-agent
+      - red-teaming
+      - cybersecurity
+      - windows
+      - lang:csharp
     summary: A .NET Framework 4.0 Windows Agent
     last_synced_sha: b7c3e5ef76f462b3c11f104145c6ae47e5da824c
     user_starred_at: '2025-09-24T04:44:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -35545,15 +35625,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.407Z'
+      prompt_version: v3
   - repo: hotnops/AzureScripts
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cloud
+    tags:
+      - azure
+      - powershell-scripts
+      - system-administration
+      - lang:powershell
     summary: Random scripts for azure stuff
     last_synced_sha: 6bf7587f2a972e65c98db40c21890a2cdb18c596
     user_starred_at: '2025-09-24T04:41:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -35571,15 +35660,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.407Z'
+      prompt_version: v3
   - repo: SpecterOps/TierZeroTable
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - documentation
+    tags:
+      - active-directory
+      - tier-zero
+      - azure-assets
+      - lang:html
     summary: Table of AD and Azure assets and whether they belong to Tier Zero
     last_synced_sha: 116888ce740369a3925e5a575255c4eb9fb73d93
     user_starred_at: '2025-09-24T04:33:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -35597,15 +35695,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.407Z'
+      prompt_version: v3
   - repo: SpecterOps/AzureHound
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - azure
+      - data-exporter
+      - cloud-security
+      - lang:go
     summary: Azure Data Exporter for Blood Hound
     last_synced_sha: 58c240d27e53f57ddad7919aab45d3e0287b1464
     user_starred_at: '2025-09-24T04:32:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -35627,15 +35734,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.407Z'
+      prompt_version: v3
   - repo: SpecterOps/BloodHound
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - active-directory
+      - privilege-escalation
+      - system-mapping
+      - lang:go
     summary: Six Degrees of Domain Admin
     last_synced_sha: c699fa2e9fe1b084870b94cefc2d6c57ebd3ca4b
     user_starred_at: '2025-09-24T04:31:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -35655,15 +35771,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.407Z'
+      prompt_version: v3
   - repo: 1r0BIT/TaskHound
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - scheduled-tasks
+      - privileged-access
+      - windows
+      - enumeration-tool
+      - lang:python
     summary: Tool to enumerate privileged Scheduled Tasks on Remote Systems
     last_synced_sha: 770217da56ac5b4dc7f72a86bbaefe5c1b138e59
     user_starred_at: '2025-09-24T04:30:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -35687,15 +35813,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.407Z'
+      prompt_version: v3
   - repo: QwenLM/Qwen3-ASR-Toolkit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - asr
+      - audio-transcription
+      - api-tool
+      - high-throughput
+      - lang:python
     summary: Official Python toolkit for the Qwen3-ASR API. Parallel high‑throughput calls, robust long‑audio transcription, multi‑sample‑rate support.
     last_synced_sha: c1976f5f3402e6c4258eca88be6f5dbb1ee32433
     user_starred_at: '2025-09-24T04:29:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35715,6 +35851,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:27:16.406Z'
+      prompt_version: v3
   - repo: cmkap/realtime-dashboard
     categories:
       - web-dev
