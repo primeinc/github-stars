@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T03:47:45.999Z'
+  manifest_updated_at: '2026-02-28T03:48:16.767Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -70309,13 +70309,18 @@ repositories:
     framework: null
   - repo: cocktailpeanut/breadboard
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - stable-diffusion
+      - browser
+      - multi-platform
+      - lang:js
     summary: Stable Diffusion Browser for Windows, Mac, and Linux
     last_synced_sha: fcbef0910918a7c7b2cdb470eca63931289eafc7
     user_starred_at: '2023-03-03T18:37:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -70336,15 +70341,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.446Z'
+      prompt_version: v3
   - repo: jflam/chat-gpt-jupyter-extension
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - chat-gpt
+      - jupyter
+      - browser-extension
+      - lang:jupyter-notebook
     summary: A browser extension that lets you chat with Chat GPT from any local Jupyter notebook.
     last_synced_sha: 6da0d3c5fe0273950d3167cba7d3c4a69ff3778a
     user_starred_at: '2023-03-01T19:15:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -70362,15 +70376,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.446Z'
+      prompt_version: v3
   - repo: PoshCode/PowerShellPracticeAndStyle
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - style-guide
+      - powershell
+      - best-practices
+      - community
     summary: The Unofficial Power Shell Best Practices and Style Guide
     last_synced_sha: d1c6ae146b1060ec4844afc393161c6237bd85a7
     user_starred_at: '2023-02-25T22:53:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -70394,15 +70417,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.446Z'
+      prompt_version: v3
   - repo: mhammond/pywin32
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - dev-tools
+    tags:
+      - windows
+      - extensions
+      - lang:cpp
+      - python
     summary: Python for Windows (pywin32) Extensions
     last_synced_sha: 370d286a722f2a32574e4dcddf47f61b077977fc
     user_starred_at: '2023-02-24T04:59:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -70424,15 +70456,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.446Z'
+      prompt_version: v3
   - repo: zero01101/openOutpaint-webUI-extension
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - outpainting
+      - webui
+      - extension
+      - stable-diffusion
+      - lang:js
     summary: direct A1111 web UI extension for open Outpaint
     last_synced_sha: 3449ae8559c0f270d49ceb3ef7234f62feaac675
     user_starred_at: '2023-02-24T04:42:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -70450,15 +70492,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.446Z'
+      prompt_version: v3
   - repo: IrisRainbowNeko/DreamArtist-sd-webui-extension
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - stable-diffusion
+      - dream-artist
+      - webui
+      - extension
+      - lang:python
     summary: Dream Artist for Stable-Diffusion-webui extension
     last_synced_sha: 12f8077517b11199802f8d448d36ea573debae96
     user_starred_at: '2023-02-24T04:35:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -70476,15 +70528,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.446Z'
+      prompt_version: v3
   - repo: d8ahazard/sd_dreambooth_extension
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - stable-diffusion
+      - dreambooth
+      - lang:python
     summary: No description provided
     last_synced_sha: 4244f6b2cf810a0a4dd83a3534b27d92b82e4c21
     user_starred_at: '2023-02-23T14:36:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -70504,15 +70564,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.446Z'
+      prompt_version: v3
   - repo: devilismyfriend/StableTuner
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - stable-diffusion
+      - fine-tuning
+      - lang:python
     summary: Finetuning SD in style.
     last_synced_sha: 4c63853399590289ea88b6fcd6565f1a407c916c
     user_starred_at: '2023-02-22T19:27:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -70531,15 +70599,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.446Z'
+      prompt_version: v3
   - repo: FlagAI-Open/FlagAI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-toolkit
+      - large-models
+      - extensible
+      - lang:python
     summary: Flag AI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model.
     last_synced_sha: 645d6784032289e181283f74e5cbacf13b58c7c5
     user_starred_at: '2023-02-19T22:55:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -70559,15 +70636,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.446Z'
+      prompt_version: v3
   - repo: Maks-s/sd-akashic
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - stable-diffusion
+      - guide
+      - knowledge-base
+      - diffusion
     summary: A compendium of informations regarding Stable Diffusion (SD)
     last_synced_sha: 3947f2109cbc9f81f06ae7b0b0c7452fe79d78f1
     user_starred_at: '2023-02-13T05:51:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -70588,15 +70674,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.445Z'
+      prompt_version: v3
   - repo: krea-ai/open-prompts
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - prompts
+      - machine-learning
+      - lang:python
     summary: No description provided
     last_synced_sha: 84d1628e7b3d97a45d237311579faf39692f2a02
     user_starred_at: '2023-02-12T08:15:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -70615,15 +70709,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.445Z'
+      prompt_version: v3
   - repo: QL-Win/QuickLook
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - quicklook
+      - file-preview
+      - macos-like
+      - windows
+      - lang:csharp
     summary: Bring mac OS “Quick Look” feature to Windows
     last_synced_sha: e0d44ad35f55056a9f793b30227721c909c92a99
     user_starred_at: '2023-02-11T09:54:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -70644,15 +70748,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.445Z'
+      prompt_version: v3
   - repo: srwi/EverythingToolbar
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - system-admin
+      - productivity
+    tags:
+      - taskbar
+      - toolbar
+      - windows
+      - search-interface
+      - lang:csharp
     summary: Everything integration for the Windows taskbar.
     last_synced_sha: 2d2b720e996026952b373383036be417f68f03ce
     user_starred_at: '2023-02-11T09:49:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -70682,15 +70797,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.445Z'
+      prompt_version: v3
   - repo: hwtnb/SylphyHornPlusWin11
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - system-admin
+    tags:
+      - virtual-desktop
+      - tools
+      - hotkeys
+      - windows11
+      - lang:csharp
     summary: Virtual Desktop Tools for Windows 11 and 10.
     last_synced_sha: 9d4a6b396f040a22edccd765d60f7856f8bf41d2
     user_starred_at: '2023-02-11T07:41:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C#
@@ -70719,15 +70844,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.445Z'
+      prompt_version: v3
   - repo: Grabacr07/VirtualDesktop
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - system-admin
+    tags:
+      - virtual-desktop
+      - windows11
+      - windows10
+      - lang:csharp
     summary: C# wrapper for the Virtual Desktop API on Windows 11.
     last_synced_sha: a6c69e420307e0717f296501c1e7595977e27b6b
     user_starred_at: '2023-02-11T07:35:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -70750,6 +70884,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:15.445Z'
+      prompt_version: v3
   - repo: MScholtes/VirtualDesktop
     categories:
       - productivity
