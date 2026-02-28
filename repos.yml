@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:53:08.081Z'
+  manifest_updated_at: '2026-02-28T04:53:39.627Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -10530,13 +10530,20 @@ repositories:
     framework: null
   - repo: six2dez/burp-ai-agent
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+      - automation
+    tags:
+      - burp-suite
+      - ai-assisted-scanning
+      - lang:kotlin
+      - pentesting
+      - web-security
     summary: Burp Suite extension that adds built-in MCP tooling, AI-assisted analysis, privacy controls, passive and active scanning and more
     last_synced_sha: 252c8bb94c303f061937fe1b210ccc984f6c3012
     user_starred_at: '2026-01-29T15:52:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics:
@@ -10570,15 +10577,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.145Z'
+      prompt_version: v3
   - repo: raphaelsty/knowledge
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - bookmarks-search
+      - lang:python
+      - knowledge-management
+      - open-source-tools
     summary: Open-source personal bookmarks search engine
     last_synced_sha: 7b13c820189b5faa6b6247490bc38104b4c26d60
     user_starred_at: '2026-01-29T15:37:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -10605,15 +10621,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.145Z'
+      prompt_version: v3
   - repo: forrestchang/andrej-karpathy-skills
     categories:
-      - unclassified
-    tags: []
+      - learning
+    tags:
+      - skill-development
     summary: No description provided
     last_synced_sha: aa4467f0b33e1e80d11c7c043d4b27e7c79a73a3
     user_starred_at: '2026-01-29T15:32:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -10631,15 +10652,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.145Z'
+      prompt_version: v3
   - repo: ITContractorsUnion/ITContractorsUnion
     categories:
-      - unclassified
-    tags: []
+      - documentation
+    tags:
+      - lang:html
+      - data-repository
     summary: Repo For All Downloadable Data
     last_synced_sha: 03d1a33ca6f36b4693cefa1827b8df57bb4de328
     user_starred_at: '2026-01-29T15:30:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -10657,15 +10684,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.145Z'
+      prompt_version: v3
   - repo: HugoRCD/evlog
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - productivity
+    tags:
+      - logging
+      - observability
+      - lang:ts
+      - error-handling
+      - nuxtjs
     summary: Logging that makes sense. Wide events, structured errors, zero chaos.
     last_synced_sha: 07790b3981cdbf65c93c7517aa5d5d543b4abb2e
     user_starred_at: '2026-01-29T15:26:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10697,16 +10734,25 @@ repositories:
         published_at: '2026-02-26T17:41:09Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.145Z'
+      prompt_version: v3
   - repo: ssmisya/AdaReasoner
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - visual-reasoning
+      - dynamic-orchestration
+      - lang:jupyter-notebook
+      - deep-learning
     summary: '[ICLR 2026] The official repository for the paper "Ada Reasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning".'
     last_synced_sha: 19c799dac15223abbcbeb80f843368d045933ba0
     user_starred_at: '2026-01-29T15:17:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -10724,15 +10770,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.145Z'
+      prompt_version: v3
   - repo: microsoft/agentrc
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-repository
+      - lang:ts
+      - automation-tools
     summary: Get your repo ready for AI.
     last_synced_sha: df1e5fe538f18100ec5024affce29d549ddf94c7
     user_starred_at: '2026-01-29T15:13:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -10750,15 +10804,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.145Z'
+      prompt_version: v3
   - repo: microsoft/bf-tree
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - dev-tools
+    tags:
+      - range-index
+      - concurrent-data
+      - lang:rust
+      - large-memory
     summary: Bf-Tree is a modern read-write-optimized concurrent larger-than-memory range index in Rust from MS Research.
     last_synced_sha: db4018a9e6633b5dd0b95439cdd5ae9985c29381
     user_starred_at: '2026-01-29T10:40:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -10776,15 +10839,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.145Z'
+      prompt_version: v3
   - repo: CursorTouch/Windows-MCP
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - automation
+      - ai-ml
+    tags:
+      - windows-tools
+      - lang:python
+      - mcp-automation
+      - desktop-ai
     summary: MCP Server for Computer Use in Windows
     last_synced_sha: ee0f470670fd389d9407c342f9a8b8049e376830
     user_starred_at: '2026-01-29T09:30:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -10810,15 +10883,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.145Z'
+      prompt_version: v3
   - repo: mdabdulmazidkhan/convex-smart-tags
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
+      - smart-tags
     summary: convex-smart-tags
     last_synced_sha: d269ea21557866e6b9df76ebf06320dbff76e337
     user_starred_at: '2026-01-29T08:42:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -10836,15 +10915,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.145Z'
+      prompt_version: v3
   - repo: xinyu1205/recognize-anything
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - visual-recognition
+      - deep-learning
+      - lang:jupyter-notebook
+      - image-processing
     summary: Open-source and strong foundation image recognition models.
     last_synced_sha: 7cb804a8609e9f4b1a50b7f31436d2df40bb9481
     user_starred_at: '2026-01-28T09:34:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -10864,15 +10952,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.145Z'
+      prompt_version: v3
   - repo: get-convex/twilio
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+    tags:
+      - sms-messaging
+      - twilio
+      - lang:ts
+      - automation
     summary: Convex component for sending/receiving SMS messages with Twilio
     last_synced_sha: 57ade5c8aefe3bb0aa5db2c2c8124c31958d81ce
     user_starred_at: '2026-01-28T08:36:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -10890,15 +10987,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.145Z'
+      prompt_version: v3
   - repo: BandarLabs/gitpodcast
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - learning
+    tags:
+      - podcast
+      - openai
+      - lang:ts
+      - developer-tools
+      - tts
     summary: Convert any git repository into an engaging podcast
     last_synced_sha: 3a5dbd1cc63c57f896d4c4a852988a2cb20b2019
     user_starred_at: '2026-01-28T08:23:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10924,15 +11032,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.145Z'
+      prompt_version: v3
   - repo: gitpod-io/gitpod
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - dev-tools
+      - productivity
+    tags:
+      - cloud-ide
+      - remote-development
+      - lang:ts
+      - dev-environment
+      - code-editor
     summary: The developer platform for on-demand cloud development environments to create software faster and more securely.
     last_synced_sha: b0967dbafb058c02176e196dba0b7c97c4f4a0b8
     user_starred_at: '2026-01-28T08:18:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10971,15 +11090,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.144Z'
+      prompt_version: v3
   - repo: SamyRai/namecheap
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - networking
+    tags:
+      - cli-tool
+      - domain-management
+      - dns-management
+      - lang:go
     summary: A CLI tool for managing Namecheap domains and DNS records with multi-account support
     last_synced_sha: 075f0fe72b81649a7280c8435d2b0403c3d4e1fa
     user_starred_at: '2026-01-28T07:35:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -11007,6 +11135,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:53:38.144Z'
+      prompt_version: v3
   - repo: Lissy93/domain-locker
     categories:
       - monitoring
