@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:55:08.160Z'
+  manifest_updated_at: '2026-02-28T04:55:42.674Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -8464,13 +8464,20 @@ repositories:
     framework: null
   - repo: reacherhq/check-if-email-exists
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+      - productivity
+    tags:
+      - lang:rust
+      - email-validation
+      - email-verification
+      - api
+      - backend
     summary: Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.
     last_synced_sha: 044c92560f5ebf58da437459b62f1ae61e493a3b
     user_starred_at: '2026-02-05T07:14:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -8497,15 +8504,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.030Z'
+      prompt_version: v3
   - repo: XTLS/Xray-core
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+      - system-admin
+    tags:
+      - lang:go
+      - proxy
+      - tunneling
+      - anticensorship
+      - xtls
     summary: Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.
     last_synced_sha: e6207e3a970b86e6e209e2c883ff3c0081958b23
     user_starred_at: '2026-02-05T06:59:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -8545,15 +8563,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.030Z'
+      prompt_version: v3
   - repo: keylase/nvidia-patch
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+      - automation
+    tags:
+      - lang:python
+      - gpu
+      - video-encoding
+      - patch
+      - nvenc
     summary: This patch removes restriction on maximum number of simultaneous NVENC video encoding sessions imposed by Nvidia to consumer-grade GPUs.
     last_synced_sha: 0e3f16a6b60674fd801076dfdd304e6f8800e9f5
     user_starred_at: '2026-02-05T06:53:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -8571,15 +8600,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.030Z'
+      prompt_version: v3
   - repo: pompelmi/pompelmi
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+      - apis
+    tags:
+      - lang:ts
+      - file-scanner
+      - nextjs
+      - malware-detection
+      - cybersecurity
     summary: free, open-source file scanner
     last_synced_sha: 077d36d40300a08f8e6956e9a1484596e4a2ef15
     user_starred_at: '2026-02-05T06:28:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8615,16 +8655,27 @@ repositories:
         published_at: '2026-02-27T13:36:22Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.030Z'
+      prompt_version: v3
   - repo: 0x4m4/hexstrike-ai
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+      - automation
+    tags:
+      - lang:python
+      - ai-pentesting
+      - cybersecurity
+      - ai-tools
+      - vulnerability-discovery
     summary: Hex Strike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug ...
     last_synced_sha: 33267047667b9accfbf0fdac1c1c7ff12f3a5512
     user_starred_at: '2026-02-05T06:13:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8662,15 +8713,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.030Z'
+      prompt_version: v3
   - repo: D4Vinci/Scrapling
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - automation
+      - frameworks
+    tags:
+      - lang:python
+      - web-scraping
+      - data-gathering
+      - crawler
+      - adaptive-framework
     summary: 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!
     last_synced_sha: 2206d052fd545414f08e247df4728b9b113c7539
     user_starred_at: '2026-02-05T06:11:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8710,15 +8772,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.030Z'
+      prompt_version: v3
   - repo: yusufkaraaslan/Skill_Seekers
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - documentation
+    tags:
+      - lang:python
+      - ai-tools
+      - web-scraping
+      - automation
+      - claude-ai
     summary: Convert documentation websites, Git Hub repositories, and PDFs into Claude AI skills with automatic conflict detection
     last_synced_sha: 3bad7cf365d91233293b006b89454eb7d10ef30c
     user_starred_at: '2026-02-05T06:10:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8756,15 +8829,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.030Z'
+      prompt_version: v3
   - repo: udecode/plate
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+      - productivity
+    tags:
+      - lang:ts
+      - rich-text-editor
+      - react
+      - ai
+      - wysiwyg
     summary: Rich-text editor with AI, MCP, and shadcn/ui
     last_synced_sha: fdf6255af7a4333dd2a18db8cd0ff06ab8bfe06d
     user_starred_at: '2026-02-05T06:08:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8790,16 +8874,27 @@ repositories:
         published_at: '2026-02-26T09:26:34Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.030Z'
+      prompt_version: v3
   - repo: farion1231/cc-switch
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ai-ml
+      - productivity
+    tags:
+      - lang:rust
+      - cross-platform
+      - tauri
+      - desktop-app
+      - ai-tools
     summary: A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, Open Code & Gemini CLI.
     last_synced_sha: b2b20dadd76398e77ca2ec5a5c91e8d30df4d432
     user_starred_at: '2026-02-05T06:07:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -8835,15 +8930,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.030Z'
+      prompt_version: v3
   - repo: alibaba/nacos
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+      - apis
+    tags:
+      - lang:java
+      - microservices
+      - kubernetes
+      - service-discovery
+      - configuration-management
     summary: an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.
     last_synced_sha: da6dc341bc2ce42753ea8b45d13bdfc24186111c
     user_starred_at: '2026-02-05T06:06:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -8879,16 +8985,27 @@ repositories:
         published_at: '2025-11-26T07:11:44Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: spring
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.030Z'
+      prompt_version: v3
   - repo: Yamato-Security/EnableWindowsLogSettings
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - monitoring
+      - security
+    tags:
+      - lang:batchfile
+      - windows-logs
+      - event-monitoring
+      - forensics
+      - sysmon
     summary: Documentation and scripts to properly enable Windows event logs.
     last_synced_sha: 6d2c0a15351650309d9bb325d63c5ef051a2157d
     user_starred_at: '2026-02-05T05:26:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -8917,15 +9034,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.030Z'
+      prompt_version: v3
   - repo: Yamato-Security/suzaku
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+      - cloud
+    tags:
+      - lang:rust
+      - threat-hunting
+      - forensics
+      - sigma
+      - cloud-logs
     summary: Suzaku (朱雀) is a sigma-based threat hunting and fast forensics timeline generator for cloud logs.
     last_synced_sha: f3ecc42c6707fec6e97c321b4d95f19a6fe2bddd
     user_starred_at: '2026-02-05T05:25:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -8963,15 +9091,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.030Z'
+      prompt_version: v3
   - repo: nicolonsky/ITDR
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+      - monitoring
+    tags:
+      - lang:powershell
+      - identity-security
+      - threat-detection
+      - microsoft
+      - azure
     summary: Collection of Microsoft Identity Threat Detection and Response resources.
     last_synced_sha: c0a3df4e30d465e3d49e8a8a262d5852aa56ee92
     user_starred_at: '2026-02-05T05:24:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -8994,15 +9133,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.030Z'
+      prompt_version: v3
   - repo: merill/graph-permissions-explorer
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+      - apis
+    tags:
+      - lang:html
+      - graph
+      - permissions
+      - azure
+      - web-tool
     summary: Repository for public site hosting graph permissions
     last_synced_sha: 7a83524c39cd231d711697687d6c225e263b65b1
     user_starred_at: '2026-02-05T05:12:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -9023,15 +9173,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.030Z'
+      prompt_version: v3
   - repo: bbmumford/Intune-Toolkit
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - documentation
+      - automation
+    tags:
+      - lang:opal
+      - intune
+      - config-management
+      - enterprise
+      - azure
     summary: my personal collection of scripts & guides to configuring a standard enterprise Intune enviroment.
     last_synced_sha: 02c63f1a9bdcfb15591bdbb02322c2c37b6931f9
     user_starred_at: '2026-02-05T05:06:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Opal
       topics:
@@ -9057,6 +9218,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:55:41.029Z'
+      prompt_version: v3
   - repo: merill/awesome-entra
     categories:
       - documentation
