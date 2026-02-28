@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:18:05.942Z'
+  manifest_updated_at: '2026-02-28T04:18:59.130Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -43618,13 +43618,18 @@ repositories:
     framework: null
   - repo: AgentDeskAI/browser-tools-mcp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - monitoring
+    tags:
+      - browser-monitoring
+      - mcp
+      - ai-logging
+      - lang:js
     summary: Monitor browser logs directly from Cursor and other MCP compatible IDEs.
     last_synced_sha: 0befce357f2421e928f2a19ee09ab502080a35a5
     user_starred_at: '2025-08-11T02:53:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -43649,15 +43654,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.681Z'
+      prompt_version: v3
   - repo: scraed/LanPaint
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - inpainting
+      - generative-ai
+      - image-editing
+      - lang:python
     summary: High quality training free inpaint for every stable diffusion model. Supports Comfy UI
     last_synced_sha: 8bc20d5e00cbcbf67520436a62f665f984df0ab6
     user_starred_at: '2025-08-10T06:27:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -43685,15 +43699,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.681Z'
+      prompt_version: v3
   - repo: upstash/context7
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - llm
+      - ai-code-editing
+      - mcp-server
+      - lang:ts
     summary: Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors
     last_synced_sha: dfe9863f306b12e488196d6f90623979fba172bf
     user_starred_at: '2025-08-09T19:49:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43717,15 +43740,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.681Z'
+      prompt_version: v3
   - repo: peterkrueck/Claude-Code-Development-Kit
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - automation
+    tags:
+      - code-workflow
+      - mcp
+      - lang:shell
     summary: Handle context at scale - my custom Claude Code workflow including hooks, mcp and sub agents
     last_synced_sha: ccbaecef9c0f52db5b6f58aa095e8602d6fdfccf
     user_starred_at: '2025-08-09T19:48:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -43743,15 +43774,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.681Z'
+      prompt_version: v3
   - repo: nytimes/three-loader-3dtiles
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - 3d-tiles
+      - threejs
+      - 3d-data-handling
+      - lang:ts
     summary: This is a Three.js loader module for handling OGC 3D Tiles, created by Cesium. It currently supports the two main formats, Batched 3D Model (b3dm) - based on gl TF Point cloud.
     last_synced_sha: 3e876c9d26309e45e6e11e0092d62bb613af2127
     user_starred_at: '2025-08-08T11:14:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43774,15 +43814,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.681Z'
+      prompt_version: v3
   - repo: storytellingmap/storymap
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - 3d-maps
+      - story-telling
+      - map-paths
+      - lang:js
     summary: 3D maps with paths for drawing a story
     last_synced_sha: 29755b9a527ac50aa8e3f7ee73bc365a2e92da7d
     user_starred_at: '2025-08-08T11:04:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -43800,15 +43849,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.680Z'
+      prompt_version: v3
   - repo: boatbod/op25
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - embedded
+    tags:
+      - radio-communication
+      - osmo
+      - lang:cpp
     summary: Fork of osmocom OP25 by boatbod
     last_synced_sha: 3d94cf40f93d2509dc9cf01f5e557a15a58e15dd
     user_starred_at: '2025-08-08T03:21:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -43826,15 +43883,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.680Z'
+      prompt_version: v3
   - repo: Ylianst/MeshCommander
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - monitoring
+      - networking
+    tags:
+      - intel-amt
+      - remote-management
+      - hardware-kvm
+      - lang:html
     summary: Mesh Commander is a Intel(R) Active Management Technology (Intel(R) AMT) remote management tool. It's feature rich and includes a built-in remote desktop viewer for Hardware-KVM, a Serial-over-LAN ...
     last_synced_sha: d943cefcf5802391471ecd6b2f91d655b9579eb4
     user_starred_at: '2025-08-07T23:51:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -43852,15 +43919,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.680Z'
+      prompt_version: v3
   - repo: bixat/nexsh
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - system-admin
+    tags:
+      - ai-shell
+      - terminal
+      - gemini
+      - lang:rust
     summary: Next-generation AI-powered shell using Google Gemini - Translates your words into precise shell commands ⚙️
     last_synced_sha: 10f510807fd4335875abfd5c6227ef4d5336e535
     user_starred_at: '2025-08-07T00:52:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -43886,15 +43962,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.680Z'
+      prompt_version: v3
   - repo: sebglazebrook/aliases
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - bash-aliases
+      - dynamic-commands
+      - lang:rust
     summary: Contextual, dynamic aliases for the bash shell
     last_synced_sha: dcc317da9730ca81cb26917affc6fb9d6f511493
     user_starred_at: '2025-08-07T00:48:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -43912,15 +43996,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.680Z'
+      prompt_version: v3
   - repo: bcwilhite/PendingReboot
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - windows-management
+      - reboot-detection
+      - lang:powershell
     summary: Module to detect Windows OS pending reboots
     last_synced_sha: 9b1053f7dc39b9fd9162684c6c680de99738d6ba
     user_starred_at: '2025-08-06T06:54:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -43938,15 +44030,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.680Z'
+      prompt_version: v3
   - repo: j0eyv/ConditionalAccessBaseline
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - access-control
+      - conditional-access
     summary: No description provided
     last_synced_sha: bc49df689a7fd9c20c77db0132fa5ce324c3725c
     user_starred_at: '2025-08-05T21:52:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -43964,15 +44063,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.680Z'
+      prompt_version: v3
   - repo: vivoCameraResearch/Magic-TryOn
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-editing
+      - virtual-tryon
+      - diffusion-models
+      - lang:python
     summary: Magic Try On is a video virtual try-on framework based on a large-scale video diffusion Transformer.
     last_synced_sha: 709d37cc0eac7cbfbe29e46f0e8b68034708bf1e
     user_starred_at: '2025-08-05T18:10:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -43998,15 +44106,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.680Z'
+      prompt_version: v3
   - repo: devinmcelheran/Printune
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - intune-packages
+      - printer-management
+      - lang:csharp
     summary: A one-stop utility for creating Intune packages to deploy printers and printer drivers.
     last_synced_sha: b49a39f7e5459cd644599dfde8321e0f56b9c439
     user_starred_at: '2025-08-05T06:04:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -44024,15 +44140,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.680Z'
+      prompt_version: v3
   - repo: QwenLM/Qwen-Image
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-generation
+      - computer-vision
+      - lang:python
     summary: Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing.
     last_synced_sha: 6b5e1f5cec987d404be5ac6657db3b9aacb56a89
     user_starred_at: '2025-08-05T05:05:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -44050,6 +44174,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:18:57.680Z'
+      prompt_version: v3
   - repo: fabio-marini/azd-aspire-basic
     categories:
       - cloud
