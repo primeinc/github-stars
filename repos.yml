@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T03:55:01.434Z'
+  manifest_updated_at: '2026-02-28T03:55:27.555Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -65009,13 +65009,20 @@ repositories:
     framework: null
   - repo: TaxyAI/browser-extension
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - web-dev
+      - ai-ml
+    tags:
+      - browser-automation
+      - lang:ts
+      - chrome-extension
+      - ai-tools
+      - gpt-4
     summary: Automate your browser with GPT-4
     last_synced_sha: bc3b5497173648d8792d7909467b2764eeaaedea
     user_starred_at: '2024-07-27T15:14:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -65035,15 +65042,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.198Z'
+      prompt_version: v3
   - repo: milvus-io/milvus
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - ai-ml
+      - cloud
+    tags:
+      - vector-database
+      - vector-search
+      - lang:go
+      - image-search
+      - embedding-store
     summary: Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search
     last_synced_sha: 0748e46bed9a400f8e2ae82cf686e5aae03e12ec
     user_starred_at: '2024-07-23T21:25:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -65081,15 +65099,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.198Z'
+      prompt_version: v3
   - repo: openai/chatgpt-retrieval-plugin
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+      - productivity
+    tags:
+      - chatgpt
+      - natural-language-processing
+      - lang:python
+      - document-retrieval
+      - chatgpt-plugins
     summary: The Chat GPT Retrieval Plugin lets you easily find personal or work documents by asking questions in natural language.
     last_synced_sha: b28ddce58474441da332d4e15c6dd60ddaa953ab
     user_starred_at: '2024-07-23T21:01:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65109,15 +65138,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.198Z'
+      prompt_version: v3
   - repo: pypa/pipx
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+      - automation
+    tags:
+      - cli
+      - python-env
+      - lang:python
+      - venv
+      - python-tools
     summary: Install and Run Python Applications in Isolated Environments
     last_synced_sha: 1e558d81f6e488a0d0598b5808e1aa519330fa03
     user_starred_at: '2024-07-23T12:36:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65143,15 +65183,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.198Z'
+      prompt_version: v3
   - repo: caspii/dinkydash
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - embedded
+    tags:
+      - family-dashboard
+      - raspberry-pi
+      - lang:html
+      - flask
+      - kids-interface
     summary: A family dashboard for kids
     last_synced_sha: 2a15df2e318f98ab229f097f84b5319f5686d7ae
     user_starred_at: '2024-07-23T05:41:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -65171,16 +65221,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: flask
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.198Z'
+      prompt_version: v3
   - repo: Nandaka/PixivUtil2
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - automation
+      - data-science
+    tags:
+      - image-download
+      - pixiv
+      - lang:python
+      - automation
+      - media
     summary: Download images from Pixiv and more!
     last_synced_sha: f1b3f33634a318474187255bd54c8915581b0713
     user_starred_at: '2024-07-22T05:53:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -65200,15 +65261,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.198Z'
+      prompt_version: v3
   - repo: acon96/home-llm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - home-assistant
+      - local-llm
+      - smart-home
+      - lang:python
+      - home-automation
     summary: A Home Assistant integration & Model to control your smart home using a Local LLM
     last_synced_sha: d44152413d2b8ca7d2958e39f521bc0c3a4264b5
     user_starred_at: '2024-07-10T19:37:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65230,15 +65301,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.198Z'
+      prompt_version: v3
   - repo: fudan-generative-vision/hallo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - web-dev
+    tags:
+      - image-animation
+      - video-animation
+      - lang:python
+      - ai
+      - visual-synthesis
     summary: 'Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation'
     last_synced_sha: 8fd7c572a3d43c2a9c1a5473219ce4fc1b6e3ed2
     user_starred_at: '2024-07-08T22:57:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65261,15 +65343,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.198Z'
+      prompt_version: v3
   - repo: KlingAIResearch/LivePortrait
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - productivity
+    tags:
+      - image-animation
+      - video-generation
+      - lang:python
+      - face-animation
+      - ai
     summary: Bring portraits to life!
     last_synced_sha: 60d750181002351069b5288381c6f3d38a7b2ae4
     user_starred_at: '2024-07-08T21:58:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65291,15 +65384,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.197Z'
+      prompt_version: v3
   - repo: MagicMirrorOrg/MagicMirror
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - embedded
+    tags:
+      - smarthome
+      - modular
+      - raspberry-pi
+      - lang:js
+      - smart-mirror
     summary: Magic Mirror² is an open source modular smart mirror platform. With a growing list of installable modules, the Magic Mirror² allows you to convert your hallway or bathroom mirror into your personal...
     last_synced_sha: b742e839becf106c400c18d49480b61fcfc47a0d
     user_starred_at: '2024-06-26T15:11:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -65325,15 +65428,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.197Z'
+      prompt_version: v3
   - repo: zeek/zeek
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+      - monitoring
+    tags:
+      - network-monitoring
+      - security
+      - lang:cpp
+      - analysis
+      - nsm
     summary: Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.
     last_synced_sha: bb104747f13078649bc9a602ecc2095f633cf2ba
     user_starred_at: '2024-06-26T08:42:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -65361,15 +65475,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.197Z'
+      prompt_version: v3
   - repo: openrecall/openrecall
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - desktop-dev
+    tags:
+      - ai
+      - privacy
+      - information-retrieval
+      - lang:python
+      - search
     summary: Open Recall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With Open Recall, you can easily access your digital history, enhancing your ...
     last_synced_sha: 62303e09bfd2491907e788ac5cbbdc21e73bd323
     user_starred_at: '2024-06-19T20:13:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65400,15 +65525,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.197Z'
+      prompt_version: v3
   - repo: transloadit/uppy
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+      - dev-tools
+    tags:
+      - file-uploads
+      - file-uploader
+      - modular
+      - lang:ts
+      - web-browser
     summary: 'The next open source file uploader for web browsers :dog:'
     last_synced_sha: 23cbd4a05a03786858796ae03e0405d95f844a55
     user_starred_at: '2024-06-11T16:29:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -65445,15 +65581,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.197Z'
+      prompt_version: v3
   - repo: ellite/Wallos
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - deployment
+      - cloud
+    tags:
+      - budgeting
+      - self-hosted
+      - finance
+      - lang:php
+      - docker
     summary: 'Wallos: Open-source, self-hostable personal subscription tracker. Visualize your recurring expenses, manage your budget, and save money.'
     last_synced_sha: 44774d36737ce7c1086a5dcbd3e1032e4778f4ab
     user_starred_at: '2024-05-27T15:06:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -65479,15 +65626,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.197Z'
+      prompt_version: v3
   - repo: minio/minio
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - cloud
+      - system-admin
+    tags:
+      - object-storage
+      - cloud-native
+      - lang:go
+      - kubernetes
+      - s3
     summary: Min IO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.
     last_synced_sha: 7aac2a2c5b7c882e68c1ce017d8256be2feea27f
     user_starred_at: '2024-05-27T14:21:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Go
@@ -65520,6 +65678,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:55:26.197Z'
+      prompt_version: v3
   - repo: cryptomator/cryptomator
     categories:
       - security
