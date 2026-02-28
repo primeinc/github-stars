@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:11:25.082Z'
+  manifest_updated_at: '2026-02-28T04:11:50.204Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -50162,13 +50162,18 @@ repositories:
     framework: null
   - repo: GeoAnima/Gemini-Conversation-Downloader
     categories:
+      - automation
       - unclassified
-    tags: []
+    tags:
+      - conversation-downloader
+      - json-export
+      - pdf-export
+      - lang:js
     summary: About Download Gemini conversations in JSON and PDF format.
     last_synced_sha: 3b95dfd4cce1eac3104daffe7ad0c500e97bed76
     user_starred_at: '2025-06-23T05:40:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -50186,15 +50191,27 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.754Z'
+      prompt_version: v3
   - repo: IBM/mcp-context-forge
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+      - ai-ml
+    tags:
+      - api-gateway
+      - fastapi
+      - ai-tools
+      - devops
+      - docker
+      - lang:python
     summary: An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/g RPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management. Optimizes Agent & Tool ...
     last_synced_sha: 23847c4a227c16e4e9eeeb37a23b2c2b979e27cd
     user_starred_at: '2025-06-23T05:05:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50233,16 +50250,26 @@ repositories:
         published_at: '2026-02-18T14:25:50Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.754Z'
+      prompt_version: v3
   - repo: GeeeekExplorer/nano-vllm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - llm
+      - deep-learning
+      - transformers
+      - nlp
+      - lang:python
     summary: Nano v LLM
     last_synced_sha: 2f214426530e2841e7d24c73ee0dfa914d62df56
     user_starred_at: '2025-06-23T05:01:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50266,15 +50293,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.754Z'
+      prompt_version: v3
   - repo: openai/openai-support-agent-demo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+      - apis
+    tags:
+      - customer-support
+      - next-js
+      - openai-api
+      - lang:ts
     summary: Demo of a customer support agent interface using Next JS and the Open AI Responses API with File Search
     last_synced_sha: 7ad1a7e8941caf429b3661444359e62a25a33823
     user_starred_at: '2025-06-23T01:57:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -50291,16 +50328,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.754Z'
+      prompt_version: v3
   - repo: maartenvandiemen/AZD-AppConfiguration
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - dev-tools
+    tags:
+      - hacktoberfest
+      - azure
+      - lang:bicep
     summary: No description provided
     last_synced_sha: d260c32f926e39887b680af6695dcf2804923229
     user_starred_at: '2025-06-21T00:10:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -50319,15 +50364,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.754Z'
+      prompt_version: v3
   - repo: Azure-Samples/remote-mcp-functions-dotnet
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - deployment
+      - apis
+    tags:
+      - azure-functions
+      - templates
+      - lang:bicep
     summary: This is a quickstart template to easily build and deploy a custom remote MCP server to the cloud using Azure functions. You can clone/restore/run on your local machine with debugging, and `azd up` ...
     last_synced_sha: 0fff1a675dbf280ef08beabd5b151a8ecd259980
     user_starred_at: '2025-06-20T17:03:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -50345,15 +50399,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.754Z'
+      prompt_version: v3
   - repo: microsoftgraph/msgraph-bicep-types
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - documentation
+      - apis
+    tags:
+      - microsoft-graph
+      - bicep
+      - lang:ts
     summary: Repo contains Microsoft Graph resource types to integrate with bicep templates.
     last_synced_sha: 4997ebc35ecf10d54264880a8500cb82ef971b0d
     user_starred_at: '2025-06-18T11:15:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -50373,15 +50436,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.754Z'
+      prompt_version: v3
   - repo: Azure-Samples/azd-starter-bicep
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - deployment
+    tags:
+      - azure
+      - bicep-templates
+      - lang:bicep
     summary: Starter template with Bicep as infrastructure provider for Azure Developer CLI (azd).
     last_synced_sha: 6fe116807b0f22d763e4f56cba29d177dfb70ae2
     user_starred_at: '2025-06-18T11:03:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -50401,15 +50472,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.754Z'
+      prompt_version: v3
   - repo: qdhenry/Claude-Command-Suite
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - security
+      - ai-ml
+    tags:
+      - security-audit
+      - code-review
+      - ai-tools
+      - workflow-automation
+      - lang:shell
     summary: Professional slash commands for Claude Code that provide structured workflows for software development tasks including code review, feature creation, security auditing, and architectural analysis.
     last_synced_sha: 93a0726bb1e2305d68bddcd3b746fe609a330c2c
     user_starred_at: '2025-06-16T22:15:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -50440,15 +50522,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.754Z'
+      prompt_version: v3
   - repo: panoramicdata/Meraki.Api
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+      - productivity
+    tags:
+      - meraki
+      - api-library
+      - nuget-package
+      - lang:csharp
     summary: Meraki Api Nuget Package
     last_synced_sha: ef4088d212ca9a4827fee22a569a172ce3c0baa2
     user_starred_at: '2025-06-16T19:20:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -50466,15 +50558,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.754Z'
+      prompt_version: v3
   - repo: meraki/dashboard-api-python
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - automation
+      - networking
+    tags:
+      - meraki
+      - dashboard-api
+      - automation
+      - lang:python
     summary: Official Dashboard API library (SDK) for Python
     last_synced_sha: a7642567ee1c37ebc80f0dc644b5d262f165d5b1
     user_starred_at: '2025-06-16T19:20:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50499,15 +50601,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.753Z'
+      prompt_version: v3
   - repo: Azure/PSRule.Rules.Azure
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - dev-tools
+      - cloud
+    tags:
+      - azure
+      - infrastructure-as-code
+      - rules
+      - validation
+      - lang:powershell
     summary: Rules to validate Azure resources and infrastructure as code (Ia C) using PSRule.
     last_synced_sha: 20972352f4ec4d8535d0b7b42294240e2c948205
     user_starred_at: '2025-06-16T03:22:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -50539,15 +50652,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.753Z'
+      prompt_version: v3
   - repo: modelcontextprotocol/python-sdk
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - sdk
+      - model-context-protocol
+      - lang:python
     summary: The official Python SDK for Model Context Protocol servers and clients
     last_synced_sha: 62575edabd84bfa6e7f143e08468db44abd33fd6
     user_starred_at: '2025-06-15T17:42:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -50567,15 +50688,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.753Z'
+      prompt_version: v3
   - repo: team-telnyx/telnyx-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+      - networking
+    tags:
+      - telephony
+      - messaging
+      - ai-assistant
+      - lang:python
     summary: Official Telnyx Local Model Context Protocol (MCP) Server that enables interaction with powerful telephony, messaging, and AI assistant APIs. This server allows MCP clients like Claude Desktop, Cur...
     last_synced_sha: 3f6a1173fec2b5bf3db4338384a9f7b00b8eaec8
     user_starred_at: '2025-06-15T14:43:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -50594,15 +50725,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.753Z'
+      prompt_version: v3
   - repo: andrei-markeev/mongodb-livedata-server
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - databases
+      - web-dev
+    tags:
+      - mongodb
+      - websocket
+      - lang:ts
     summary: Standalone live data server implementation extracted from Meteor, Fibers removed and converted to Type Script.
     last_synced_sha: 9451cc17d4519b1660b91d5d45cbaba1dc6d5e20
     user_starred_at: '2025-06-15T13:42:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -50622,6 +50762,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:11:48.753Z'
+      prompt_version: v3
   - repo: Azure-Samples/mcp-container-ts
     categories:
       - ai-ml
