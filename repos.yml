@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:06:45.028Z'
+  manifest_updated_at: '2026-02-28T04:07:13.680Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -53701,13 +53701,17 @@ repositories:
     framework: null
   - repo: chiphuyen/aie-book
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - ai-engineering
+      - resources
+      - lang:jupyter-notebook
     summary: '[WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025)'
     last_synced_sha: 664b5ac480e879727d23168515667927a44e9570
     user_starred_at: '2025-04-04T14:17:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -53725,15 +53729,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.279Z'
+      prompt_version: v3
   - repo: anthropics/claude-code
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - coding-tool
+      - ai-coding-assistant
+      - terminal-integration
+      - lang:shell
     summary: Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflo...
     last_synced_sha: a772bd609167373ca328e0188ac6faf5af8dd1f4
     user_starred_at: '2025-04-04T04:01:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -53753,15 +53766,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.279Z'
+      prompt_version: v3
   - repo: Qais-Hweidi/ai-assisted-development-guide
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - ai-assisted-development
+      - guide
+      - software-development
     summary: Practical tips for effective AI-assisted software development
     last_synced_sha: b9fb7962954156cca696611cab7e676bc5a949d9
     user_starred_at: '2025-03-31T19:42:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -53779,15 +53800,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.279Z'
+      prompt_version: v3
   - repo: catppuccin/windows-terminal
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - theme
+      - windows-terminal
+      - pastel-colors
+      - customization
     summary: 🪟 Soothing pastel theme for Windows Terminal
     last_synced_sha: 4d8bb2f00fb86927a98dd3502cdec74a76d25d7b
     user_starred_at: '2025-03-30T22:20:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -53812,15 +53842,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.279Z'
+      prompt_version: v3
   - repo: KevinNitroG/dotfiles
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - dotfiles
+      - linux
+      - windows
+      - chezmoi
+      - lang:json
     summary: Linux, Windows dotfiles managed with Chezmoi
     last_synced_sha: 8c445d1f7df2737854610f3404b4346a22c8fa8b
     user_starred_at: '2025-03-30T22:14:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JSON
       topics:
@@ -53853,15 +53893,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.279Z'
+      prompt_version: v3
   - repo: versotile-org/tauri-runtime-verso
     categories:
+      - desktop-dev
       - unclassified
-    tags: []
+    tags:
+      - tauri
+      - runtime
+      - lang:rust
     summary: No description provided
     last_synced_sha: 56fa7c34ef531941e2784b421d56a9dff5ea343c
     user_starred_at: '2025-03-29T20:44:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -53879,15 +53927,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.279Z'
+      prompt_version: v3
   - repo: tauri-apps/tauri-docs
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - desktop-dev
+    tags:
+      - tauri
+      - docs
+      - lang:mdx
     summary: The source for all Tauri project documentation.
     last_synced_sha: 091e01c99d5736c954ea7df686dedf1e09736f9e
     user_starred_at: '2025-03-29T17:04:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: MDX
       topics:
@@ -53907,15 +53963,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.278Z'
+      prompt_version: v3
   - repo: someengineering/fixinventory
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - security-automation
+      - infrastructure-as-code
+      - cnapp
+      - cloud-security
+      - lang:python
     summary: Fix Inventory helps you identify and remove the most critical risks in AWS, GCP, Azure and Kubernetes.
     last_synced_sha: 211833381fdd07690bc789d30ffc2bd84a67744e
     user_starred_at: '2025-03-28T20:09:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -53946,15 +54012,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.278Z'
+      prompt_version: v3
   - repo: juanfont/headscale
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - tailscale
+      - wireguard
+      - self-hosted
+      - lang:go
     summary: An open source, self-hosted implementation of the Tailscale control server
     last_synced_sha: 414d3bbbd830dc4d73b9200b09930cc1d9caa9d7
     user_starred_at: '2025-03-21T07:06:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -53978,15 +54053,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.278Z'
+      prompt_version: v3
   - repo: microsoft/qlib
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - quantitative-finance
+      - machine-learning
+      - finance
+      - investment
+      - lang:python
     summary: Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, i...
     last_synced_sha: 2fb9380b342556ddb50a4b24e4fe8655d548b2b8
     user_starred_at: '2025-03-21T03:24:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -54024,15 +54109,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.278Z'
+      prompt_version: v3
   - repo: open-mmlab/Amphion
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - audio-generation
+      - music-generation
+      - speech-synthesis
+      - lang:python
     summary: Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audi...
     last_synced_sha: d3de90f02e7f1c7dbc24b04d52fe1b8ef438effe
     user_starred_at: '2025-03-21T03:23:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -54069,15 +54163,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.278Z'
+      prompt_version: v3
   - repo: ramondeklein/nwebdav
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - web-dev
+    tags:
+      - webdav-server
+      - protocol
+      - lang:csharp
     summary: .NET implementation of the Web DAV protocol
     last_synced_sha: 1bb066abb2bfc5b5d47abd713001cf607ca2b404
     user_starred_at: '2025-03-21T02:20:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -54097,15 +54199,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.278Z'
+      prompt_version: v3
   - repo: heroku/12factor
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - 12factor-app
+      - marketing-web-ops
+      - lang:css
     summary: No description provided
     last_synced_sha: 468c7ac0336cf1ab76ed3dad612928e2ef2d8799
     user_starred_at: '2025-03-19T19:06:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: CSS
@@ -54125,15 +54235,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.278Z'
+      prompt_version: v3
   - repo: antonmedv/walk
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - file-manager
+      - cli
+      - terminal
+      - lang:go
     summary: Terminal file manager
     last_synced_sha: bf802ef9ee4b7895f88316138372b8356ad7afdb
     user_starred_at: '2025-03-19T19:03:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -54156,15 +54275,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.275Z'
+      prompt_version: v3
   - repo: microsoft/fluentui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react-components
+      - ui-components
+      - microsoft
+      - lang:ts
     summary: Fluent UI web represents a collection of utilities, React components, and web components for building web applications.
     last_synced_sha: 9ff8261fe32e27783d236369dc510be312614b69
     user_starred_at: '2025-03-19T17:25:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -54189,7 +54317,11 @@ repositories:
         published_at: '2026-02-26T18:14:18Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:07:12.274Z'
+      prompt_version: v3
   - repo: langchain-ai/local-deep-researcher
     categories:
       - ai-ml
