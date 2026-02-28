@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:04:41.379Z'
+  manifest_updated_at: '2026-02-28T04:05:14.154Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -55570,13 +55570,17 @@ repositories:
     framework: null
   - repo: dquiet-lab/sim-control-page
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - control-page
+      - lang:ts
+      - simulation
     summary: No description provided
     last_synced_sha: c566d077681513af9764339f2205b78b845ac425
     user_starred_at: '2025-02-24T04:03:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -55596,15 +55600,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.730Z'
+      prompt_version: v3
   - repo: EgorBlagov/sims-mod-assistant
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+      - game-dev
+    tags:
+      - electron
+      - mod-manager
+      - lang:ts
+      - sims-4
     summary: Simple Electron based Application to help Sims 4 players handle their thousands of mods
     last_synced_sha: d509fa25ce907b752fb0fa2392f40a3d5be93b09
     user_starred_at: '2025-02-23T20:25:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -55624,15 +55638,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.730Z'
+      prompt_version: v3
   - repo: s4ptacle/Sims4Tools
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - desktop-dev
+    tags:
+      - modding-tools
+      - lang:csharp
+      - sims-4
+      - library
     summary: Sims 4 modding tools and library
     last_synced_sha: fff19365a12711879bad26481a393a6fbc62c465
     user_starred_at: '2025-02-23T20:08:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C#
@@ -55653,15 +55676,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.730Z'
+      prompt_version: v3
   - repo: CmarNYC-Tools/TS4SimRipper
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - desktop-dev
+    tags:
+      - modding-tools
+      - lang:csharp
+      - sims-4
     summary: No description provided
     last_synced_sha: 862a32949e5156b371e2d2f83de4e37e0bb1afcc
     user_starred_at: '2025-02-23T20:05:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -55681,15 +55712,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.730Z'
+      prompt_version: v3
   - repo: mycroftjr/Sims4ScriptingTemplate
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - scripting
+      - lang:python
+      - sims-4
+      - template
     summary: Sims 4 Scripting Template Project
     last_synced_sha: a856c3fffd160a11c849a2ae87b7db775e0e5b07
     user_starred_at: '2025-02-23T19:27:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -55708,15 +55748,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.730Z'
+      prompt_version: v3
   - repo: sims4toolkit/s4tk-vscode
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - game-dev
+    tags:
+      - vscode-extension
+      - sims-4
+      - lang:ts
+      - modding-tools
     summary: S4TK extension for Visual Studio Code.
     last_synced_sha: 377bb39ca76b637d6d534a7532d7a0c68a4c9ff9
     user_starred_at: '2025-02-23T19:21:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -55740,15 +55789,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.730Z'
+      prompt_version: v3
   - repo: octotools/octotools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - productivity
+    tags:
+      - agentic-framework
+      - lang:python
+      - llms
+      - tool-augmented
+      - complex-reasoning
     summary: 'Octo Tools: An agentic framework with extensible tools for complex reasoning'
     last_synced_sha: 7d78d05b80bea4df7c23dafb8da6c6917960af1c
     user_starred_at: '2025-02-23T08:56:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -55772,15 +55832,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.730Z'
+      prompt_version: v3
   - repo: openxc/uds-c
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - system-admin
+      - security
+    tags:
+      - lang:c
+      - obd-ii
+      - uds-library
+      - car-diagnostics
+      - automotive
     summary: Unified Diagnostics Service (UDS) and OBD-II (On Board Diagnostics for Vehicles) C Library
     last_synced_sha: e56aeb9c884ccbdbe73e1630942f8c0d17e27498
     user_starred_at: '2025-02-21T20:10:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -55798,15 +55869,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.729Z'
+      prompt_version: v3
   - repo: andrewraharjo/CAN-Bus-Hack_Prius_Focus
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - embedded
+      - learning
+    tags:
+      - self-driving-research
+      - lang:python
+      - automotive
+      - canbus-hacking
     summary: Leverage from ioactive blog for research purpose in Self Driving Car Development
     last_synced_sha: b2a73dfb4a3762d8439acd64d2e1b5d729988b2e
     user_starred_at: '2025-02-21T20:09:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -55824,15 +55905,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.729Z'
+      prompt_version: v3
   - repo: iDoka/awesome-automotive-can-id
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - security
+      - embedded
+    tags:
+      - canbus
+      - awesome-list
+      - car-hacking
+      - automotive
+      - cyber-security
     summary: ':tractor: Collect of CAN IDs and its payloads for various car brands/models in one place. Might be useful for Cyber Security Researchers, Reverse Engineers, and Automotive Electronics Enthusiasts.'
     last_synced_sha: 66386659dbeb79b4beb47c139508609a69e1183b
     user_starred_at: '2025-02-21T20:07:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -55869,15 +55961,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.729Z'
+      prompt_version: v3
   - repo: CANBus-Triple/CANBus-Triple
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - system-admin
+      - security
+    tags:
+      - lang:c
+      - car-hacking
+      - canbus
+      - automotive
     summary: CANBus Triple – The car hacking platform
     last_synced_sha: 06375512c6184c8c3bc5180c49cf7e08660ed7cc
     user_starred_at: '2025-02-21T20:05:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -55895,15 +55997,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.729Z'
+      prompt_version: v3
   - repo: Brandawg93/homebridge-fordpass
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - embedded
+    tags:
+      - homebridge
+      - lang:ts
+      - homekit
+      - fordpass
     summary: Control your Ford vehicle in Home Kit using Homebridge.
     last_synced_sha: 30b538b7ecec2f3926e9433ff75f96105a0ff8b0
     user_starred_at: '2025-02-21T19:35:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -55923,15 +56034,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.729Z'
+      prompt_version: v3
   - repo: itchannel/fordpass-ha
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - embedded
+    tags:
+      - home-automation
+      - lang:python
+      - home-assistant
+      - fordpass-integration
     summary: Fordpass integration for Home Assistant
     last_synced_sha: fb62c827b8264802047c0f58c6a00c7cc149a40d
     user_starred_at: '2025-02-21T19:31:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -55955,15 +56075,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.729Z'
+      prompt_version: v3
   - repo: team-telnyx/demo-python-telnyx
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - learning
+    tags:
+      - examples
+      - telnyx-api
+      - samples
+      - lang:python
     summary: Samples & Examples with Telnyx-Python
     last_synced_sha: a025ace79e0e8eb7fbdb7d52005327f21adf89ad
     user_starred_at: '2025-02-21T17:09:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -55981,15 +56110,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.729Z'
+      prompt_version: v3
   - repo: microsoftgraph/microsoft-graph-explorer-v4
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+      - productivity
+    tags:
+      - microsoft-graph-api
+      - office-365
+      - lang:ts
+      - react
+      - developer-tools
     summary: React/Redux version of Graph Explorer used to learn the Microsoft Graph Api
     last_synced_sha: 9eecac121b28c6ce2a3b892c088e0dbedc48900f
     user_starred_at: '2025-02-21T12:02:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -56014,7 +56154,11 @@ repositories:
         published_at: '2026-02-12T14:28:50Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:05:12.729Z'
+      prompt_version: v3
   - repo: dafthack/GraphRunner
     categories:
       - security
