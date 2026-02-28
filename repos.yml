@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T03:56:53.962Z'
+  manifest_updated_at: '2026-02-28T03:57:28.357Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -63011,13 +63011,18 @@ repositories:
     framework: null
   - repo: shahizat/JetsonGPT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - speech-recognition
+      - text-to-speech
+      - chatbot
+      - lang:python
     summary: Using Fast Chat-T5 Large Language Model, Vosk API for automatic speech recognition, and Piper for text-to-speech
     last_synced_sha: 6954fd2b6f986f122514688893d2e8d3b3644b00
     user_starred_at: '2025-01-25T15:15:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -63035,15 +63040,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.927Z'
+      prompt_version: v3
   - repo: dusty-nv/jetson-voice
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - speech-recognition
+      - nlp
+      - text-to-speech
+      - deep-learning
+      - lang:python
     summary: ASR/NLP/TTS deep learning inference library for NVIDIA Jetson using Py Torch and Tensor RT
     last_synced_sha: c6a8c9552c7011b31dddef8ed546b02e581f6af6
     user_starred_at: '2025-01-25T15:12:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -63069,15 +63084,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.927Z'
+      prompt_version: v3
   - repo: rbonghi/jetson_stats
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - automation
+    tags:
+      - gpu-monitoring
+      - jetson
+      - cpu-monitoring
+      - lang:python
     summary: 📊 Simple package for monitoring and control your NVIDIA Jetson [Orin, Xavier, Nano, TX] series
     last_synced_sha: 96723d6fa25241c8bc45d46cec9776525c54bc3d
     user_starred_at: '2025-01-25T15:10:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -63115,15 +63139,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.927Z'
+      prompt_version: v3
   - repo: ai-dock/onetrainer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - containers
+    tags:
+      - docker
+      - gpu
+      - cloud
+      - stable-diffusion
+      - lang:shell
     summary: One Trainer docker images for use in GPU cloud and local environments. Includes AI-Dock KDE Plasma desktop with GPU acceleration and audio for authentication and improved user experience.
     last_synced_sha: 89d39c795323ad42a251e13c4ee36ee8adb4d732
     user_starred_at: '2025-01-25T14:56:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -63151,15 +63185,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.927Z'
+      prompt_version: v3
   - repo: Nerogar/OneTrainer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - model-training
+      - image-model-training
+      - fine-tuning
+      - lora
+      - lang:python
     summary: One Trainer is a one-stop solution for all your Diffusion training needs.
     last_synced_sha: df09b5a22bd31c7998e007f62b0489d599de994c
     user_starred_at: '2025-01-25T14:53:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -63181,15 +63225,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.927Z'
+      prompt_version: v3
   - repo: dusty-nv/jetson-containers
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - containers
+    tags:
+      - jetson
+      - pytorch
+      - tensorflow
+      - dockerfiles
+      - lang:jupyter-notebook
     summary: Machine Learning Containers for NVIDIA Jetson and Jet Pack-L4T
     last_synced_sha: afe65e13b424ce3eaec5965a061b90664d9c186c
     user_starred_at: '2025-01-25T12:10:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -63220,15 +63274,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.927Z'
+      prompt_version: v3
   - repo: VirtualDrivers/Virtual-Display-Driver
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - system-admin
+    tags:
+      - virtual-displays
+      - windows
+      - drivers
+      - lang:cpp
     summary: Add virtual monitors to your windows 10/11 device! Works with VR, OBS, Sunshine, and/or any desktop sharing software.
     last_synced_sha: 22e3abfc8ee9abac746a22a8b7d111c64f345a34
     user_starred_at: '2025-01-19T15:42:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C++
@@ -63255,15 +63318,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.927Z'
+      prompt_version: v3
   - repo: paolo-projects/auto-unlocker
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - desktop-dev
+    tags:
+      - vmware
+      - macos-unlock
+      - lang:cpp
     summary: Unlocker for VMWare mac OS
     last_synced_sha: ddc03aa4a5609cc59922e760834496c76fe1a700
     user_starred_at: '2025-01-19T08:51:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -63283,15 +63354,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.927Z'
+      prompt_version: v3
   - repo: pqrs-org/Karabiner-Elements
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - keyboard-customization
+      - macos
+      - lang:cpp
     summary: Karabiner-Elements is a powerful tool for customizing keyboards on mac OS
     last_synced_sha: fbaaa0fce1fdf9f47a7cc0df3e0e1c8947921a48
     user_starred_at: '2025-01-17T23:26:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -63313,15 +63392,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.927Z'
+      prompt_version: v3
   - repo: SierraSoftworks/tailscale-udm
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - tailscale
+      - unifi
+      - lang:shell
     summary: Run Tailscale on your Unifi Dream Machine
     last_synced_sha: 8486575e5757f8e26d37b2191779c5fea2fda29e
     user_starred_at: '2025-01-16T11:35:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -63345,15 +63432,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.927Z'
+      prompt_version: v3
   - repo: opethrocks/text-assist
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - openai
+      - mms
+      - telnyx
+      - lang:js
     summary: AI Assistant that can communicate via SMS and MMS. Leverages Open AI and a Telnyx SIP phone number.
     last_synced_sha: 5803b86205294b864260743c7c28a26cfb15354d
     user_starred_at: '2025-01-15T07:09:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -63378,15 +63474,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.927Z'
+      prompt_version: v3
   - repo: 0perationPrivacy/VoIPSuite-Mobile
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - networking
+    tags:
+      - voip
+      - sms
+      - react-native
+      - lang:js
     summary: Mobile App code for Android & i OS on React Native
     last_synced_sha: 2dce3f6e0fd4f48e0c7d546dabdecbec4e33ee9b
     user_starred_at: '2025-01-15T07:07:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -63412,16 +63517,24 @@ repositories:
         published_at: '2023-12-07T23:24:41Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.927Z'
+      prompt_version: v3
   - repo: tiniyo/neoms
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - twilio-api
+      - cpaas
+      - lang:go
     summary: Open Source Twilio Alternative
     last_synced_sha: d1b5710b41c17ff77d7d10f29912a3923e7ae6c9
     user_starred_at: '2025-01-15T07:07:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -63449,15 +63562,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.927Z'
+      prompt_version: v3
   - repo: 0perationPrivacy/VoIP
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - telnyx
+      - twilio
+      - voip
+      - lang:js
     summary: Web Base Telnyx/Twilio Vo IP Interface enabling SMS, MMS and Voice calls using the providers API Keys and self-hosting the application.
     last_synced_sha: 89dfb95cab0d8137b0e2e36752ef82ad9b91434e
     user_starred_at: '2025-01-15T07:07:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -63480,15 +63602,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.927Z'
+      prompt_version: v3
   - repo: msmhome/miniFaxServer
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - automation
+    tags:
+      - fax-server
+      - telnyx
+      - lang:python
     summary: 📠 A tiny, ready to deploy, simple fax server with SMS recieve running on the Telynx Programmable Fax and SMS APIs.
     last_synced_sha: 35a97fb843e9638792f336abfc4026cdc3973e35
     user_starred_at: '2025-01-15T07:05:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -63513,6 +63643,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:57:26.926Z'
+      prompt_version: v3
   - repo: gridironsolutions/unifios-tailscale
     categories:
       - networking
