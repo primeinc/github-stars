@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:35:51.791Z'
+  manifest_updated_at: '2026-02-28T04:36:22.676Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -26753,13 +26753,19 @@ repositories:
     framework: null
   - repo: gmickel/turborepo-shadcn-nextjs
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - turborepo
+      - nextjs
+      - shadcn-ui
+      - lang:ts
+      - nextra
     summary: A Turborepo starter template with Next.js, Nextra, Storybook, and a shared pre-configured shadcn/ui package, powered by Bun and Biome
     last_synced_sha: db96a4b205e71c3816b9f157dd13c9a6a4a68c52
     user_starred_at: '2025-11-21T22:20:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26784,16 +26790,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.224Z'
+      prompt_version: v3
   - repo: withastro/starlight
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - docs-generator
+      - static-site
+      - astro
+      - lang:ts
     summary: 🌟 Build beautiful, accessible, high-performance documentation websites with Astro
     last_synced_sha: a73f104bd73d9101181af3347163b5935329e1ae
     user_starred_at: '2025-11-21T22:13:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26818,15 +26833,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.224Z'
+      prompt_version: v3
   - repo: nicholas-fedor/shoutrrr
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - notifications
+      - cli-tool
+      - lang:go
     summary: A notification library for gophers and their furry friends.
     last_synced_sha: 1bede73e20344e58528b9905659d1207aa3a4ca2
     user_starred_at: '2025-11-21T22:10:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Go
@@ -26853,15 +26876,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.224Z'
+      prompt_version: v3
   - repo: selfhst/icons
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - icon-library
+      - logos
+      - lang:go
     summary: Collection of icons and logos maintained by selfh.st
     last_synced_sha: 44082a128f617e5bdad35e03acbff1a9df1c6696
     user_starred_at: '2025-11-21T22:09:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -26879,15 +26910,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.224Z'
+      prompt_version: v3
   - repo: pwa-builder/PWABuilder
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - progressive-web-apps
+      - pwa-tools
+      - cross-platform
+      - lang:ts
     summary: The simplest way to create progressive web apps across platforms and devices. Start here. This repo is home to several projects in the PWABuilder family of tools.
     last_synced_sha: 0f85be00e26dd6bf580bd6871d883ca20d36e747
     user_starred_at: '2025-11-21T22:06:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26927,15 +26967,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.224Z'
+      prompt_version: v3
   - repo: middleapi/orpc
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - api-design
+      - typescript-apis
+      - typesafe
+      - lang:ts
+      - react
     summary: Typesafe APIs Made Simple 🪄
     last_synced_sha: 819ed2e0897b18a5d6a4ca85ba68568f055004a1
     user_starred_at: '2025-11-21T00:40:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26972,15 +27022,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.224Z'
+      prompt_version: v3
   - repo: resemble-ai/transformers
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - transformers-framework
+      - ml-models
+      - inference
+      - text-vision-audio
+      - lang:python
     summary: '🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.'
     last_synced_sha: 26dbe643d1599e9550e279498ea0a23753953723
     user_starred_at: '2025-11-21T00:38:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -26999,15 +27058,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.224Z'
+      prompt_version: v3
   - repo: marmelab/shadcn-admin-kit
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - admin-components
+      - shadcn
+      - component-kit
+      - lang:ts
     summary: Component kit to build your Admin app with shadcn/ui
     last_synced_sha: fa423a3410f5c7c88991396e8b804666d140655d
     user_starred_at: '2025-11-21T00:38:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -27027,15 +27095,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.224Z'
+      prompt_version: v3
   - repo: Skyvern-AI/skyvern
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - browser-workflows
+      - automation
+      - rpa
+      - llm
+      - lang:python
     summary: Automate browser based workflows with AI
     last_synced_sha: 5bf555077f5518267185a71270fa958ffaf3d1c5
     user_starred_at: '2025-11-21T00:37:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -27071,15 +27149,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.224Z'
+      prompt_version: v3
   - repo: PaulJPhilp/effect-env
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: 90f89a0d6890b37790ca35d434add2873525ec82
     user_starred_at: '2025-11-21T00:34:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -27097,15 +27180,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.224Z'
+      prompt_version: v3
   - repo: jonasstrehle/supercookie
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - browser-fingerprinting
+      - security
+      - tracking
+      - lang:html
+      - express
     summary: ⚠️ Browser fingerprinting via favicon!
     last_synced_sha: 0fad0559405e8b440cfc67120919b2e0a410f060
     user_starred_at: '2025-11-20T08:29:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -27144,16 +27237,25 @@ repositories:
         published_at: '2023-03-31T23:50:10Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.224Z'
+      prompt_version: v3
   - repo: Aetherinox/node-toasted-notifier
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - notifications
+      - cross-platform
+      - node
+      - lang:js
     summary: A revised fork of node-notifier; Node JS package for pushing notifications to Mac OS, Linux, and Windows.
     last_synced_sha: c6f7bc53756210ca7638ef8956209293d2fb03ce
     user_starred_at: '2025-11-20T08:28:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -27186,15 +27288,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.224Z'
+      prompt_version: v3
   - repo: karpathy/reader3
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - llms
+      - book-reading
+      - ai-assistance
+      - lang:python
     summary: Quick illustration of how one can easily read books together with LLMs. It's great and I highly recommend it.
     last_synced_sha: 64960f99d8d3c2eaaec56c6765b4c1aeae14c80b
     user_starred_at: '2025-11-20T08:28:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -27212,15 +27323,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.223Z'
+      prompt_version: v3
   - repo: uiverse-io/galaxy
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - ui-design
+      - css-framework
+      - tailwind
+      - lang:html
     summary: The largest Open-Source UI Library! Community-made and free to use. Made with either CSS or Tailwind.
     last_synced_sha: adbd2adde0a299a3956ea288fb444ec01891ca41
     user_starred_at: '2025-11-20T08:26:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -27242,15 +27362,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.223Z'
+      prompt_version: v3
   - repo: aidenybai/react-grab
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - context-selection
+      - coding-agents
+      - lang:ts
+      - react
     summary: Select context for coding agents directly from your website
     last_synced_sha: 98682a69b69f8b08bcb1654f815dc2336d4c6600
     user_starred_at: '2025-11-20T08:25:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27271,7 +27400,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:36:21.223Z'
+      prompt_version: v3
   - repo: steipete/oracle
     categories:
       - ai-ml
