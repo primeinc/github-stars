@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T03:48:16.767Z'
+  manifest_updated_at: '2026-02-28T03:48:52.124Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -69854,13 +69854,18 @@ repositories:
     framework: null
   - repo: jNizM/NVIDIA_NvAPI
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - lang:autohotkey
+      - nvidia-api
+      - hardware-control
+      - automation
     summary: Converted Nv API-Functions
     last_synced_sha: b29bd4fb711c38982a07599c509b6945db69836d
     user_starred_at: '2023-03-19T05:13:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: AutoHotkey
       topics: []
@@ -69878,15 +69883,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.674Z'
+      prompt_version: v3
   - repo: KovaaK/NVidiaHotkeys
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - lang:autohotkey
+      - nvidia
+      - hotkeys
+      - display-settings
     summary: Script to change nvidia's Digital Vibrance and Hue settings by pressing hotkeys
     last_synced_sha: 1662a926d23944ad1b7d682b24e0e4b50452553a
     user_starred_at: '2023-03-19T04:46:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: AutoHotkey
       topics: []
@@ -69906,15 +69920,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.674Z'
+      prompt_version: v3
   - repo: mpvnet-player/mpv.net
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - lang:csharp
+      - media-player
+      - video-player
+      - dotnet
+      - winforms
     summary: 🎞 mpv.net is a media player for Windows with a modern GUI.
     last_synced_sha: ef45baecbdd8e0a249eca9a621fe608143f75c4b
     user_starred_at: '2023-03-16T02:19:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -69953,15 +69977,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.674Z'
+      prompt_version: v3
   - repo: mpv-player/mpv
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - lang:c
+      - media-player
+      - audio
+      - video-playback
+      - ffmpeg
     summary: 🎥 Command line media player
     last_synced_sha: f28cea85c170e423a52d0188fc748bb6f66a6752
     user_starred_at: '2023-03-16T00:52:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -69988,15 +70022,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.674Z'
+      prompt_version: v3
   - repo: SoCo/SoCo
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - lang:python
+      - audio-control
+      - sonos
+      - api-integration
+      - home-automation
     summary: So Co (Sonos Controller) is a Python project that allows you to programmatically control Sonos speakers.
     last_synced_sha: d189d9d7929e4e7a7563708164adfc0949bc8c49
     user_starred_at: '2023-03-15T02:27:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -70016,15 +70060,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.674Z'
+      prompt_version: v3
   - repo: bmaltais/kohya_ss
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:python
+      - stable-diffusion
+      - ai-training
+      - automation-tools
     summary: No description provided
     last_synced_sha: 4161d1d80ad554f7801c584632665d6825994062
     user_starred_at: '2023-03-12T04:53:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -70044,15 +70097,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.673Z'
+      prompt_version: v3
   - repo: mattjaybe/sd-wildcards
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - stable-diffusion
+      - wildcards
+      - ai-tools
     summary: A collection of wildcards for Stable Diffusion
     last_synced_sha: e1902157613943e884c9cfa4f7fc97692898664d
     user_starred_at: '2023-03-12T03:46:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -70070,15 +70131,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.673Z'
+      prompt_version: v3
   - repo: civitai/sd_civitai_extension
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - lang:python
+      - stable-diffusion
+      - ai-models
+      - web-ui
     summary: All of the Civitai models inside Automatic 1111 Stable Diffusion Web UI
     last_synced_sha: 115cd9c35b0774c90cb9c397ad60ef6a7dac60de
     user_starred_at: '2023-03-08T09:24:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -70096,15 +70166,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.673Z'
+      prompt_version: v3
   - repo: starik222/BooruDatasetTagManager
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+    tags:
+      - lang:csharp
+      - data-tagging
+      - dataset-management
+      - file-organization
     summary: No description provided
     last_synced_sha: 953e1856caa846ae0b4a62a81a24219d8df4b50b
     user_starred_at: '2023-03-08T02:35:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -70124,15 +70203,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.673Z'
+      prompt_version: v3
   - repo: martymac/fpart
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+      - data-science
+    tags:
+      - lang:c
+      - file-packing
+      - data-migration
+      - bigdata
+      - parallel-processing
     summary: Sort files and pack them into partitions
     last_synced_sha: 2d85b0b244740194f5c848d3e7158b459f9bb69f
     user_starred_at: '2023-03-05T23:58:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -70158,15 +70248,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.673Z'
+      prompt_version: v3
   - repo: bcpierce00/unison
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - lang:ocaml
+      - file-synchronization
+      - file-management
+      - data-transfer
     summary: Unison file synchronizer
     last_synced_sha: 4fb20d9bbb674dd81134ccfba39a47323b716c16
     user_starred_at: '2023-03-05T23:48:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: OCaml
       topics: []
@@ -70186,15 +70285,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.673Z'
+      prompt_version: v3
   - repo: agarbato/unicloud
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+      - cloud
+    tags:
+      - lang:python
+      - file-sync
+      - flask
+      - docker
+      - api
     summary: Unison file sync web interface
     last_synced_sha: 8e767790ada4d5c8c04dce0e06ebb3fa4a3a82a8
     user_starred_at: '2023-03-05T23:43:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -70224,16 +70334,25 @@ repositories:
         published_at: '2024-04-26T16:54:06Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: flask
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.673Z'
+      prompt_version: v3
   - repo: jbd/msrsync
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - lang:python
+      - rsync
+      - multi-stream
+      - parallelization
     summary: Multi-stream rsync wrapper
     last_synced_sha: 6a47be055564ce0b4d5d6b86e6b888840c002067
     user_starred_at: '2023-03-05T23:01:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -70255,15 +70374,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.673Z'
+      prompt_version: v3
   - repo: hnmr293/posex
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - pose-estimation
+      - lang:js
+      - image-generation
+      - ai-data
     summary: Posex - Estimated Image Generator for Pose2Image
     last_synced_sha: 292f92d5068046f988fe002eb0a43b8841ad449e
     user_starred_at: '2023-03-04T20:32:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -70281,15 +70409,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.673Z'
+      prompt_version: v3
   - repo: hometlt/png-metadata
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - image-processing
+      - lang:js
+      - png
+      - metadata
     summary: read and write png metadata
     last_synced_sha: 3d9754c015ef29e76e3f3fbf864b1d3f4be5bd3a
     user_starred_at: '2023-03-03T18:39:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -70307,6 +70444,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:48:50.669Z'
+      prompt_version: v3
   - repo: cocktailpeanut/breadboard
     categories:
       - ai-ml
