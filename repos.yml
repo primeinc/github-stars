@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:10:27.391Z'
+  manifest_updated_at: '2026-02-28T04:10:58.607Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -51093,13 +51093,20 @@ repositories:
     framework: null
   - repo: byrdsandbytes/beatnik-pi
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - networking
+      - productivity
+    tags:
+      - multiroom-audio
+      - snapcast
+      - lang:shell
+      - raspberry-pi
+      - streaming
     summary: Open Source Multiroom Audio Streamer based on Raspberry Pi & Snapcast
     last_synced_sha: baa0dd3ac054ee8ca455ea6ec2411776ba0fa235
     user_starred_at: '2025-06-10T15:49:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -51130,15 +51137,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.123Z'
+      prompt_version: v3
   - repo: eythaann/Seelen-UI
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - customization
+      - tauri
+      - ui
+      - lang:rust
+      - desktop-environment
     summary: The Fully Customizable Desktop Environment for Windows 10/11.
     last_synced_sha: c7c176024c736e46e3b7794636f1802b73f7b764
     user_starred_at: '2025-06-10T11:44:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -51177,15 +51194,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.122Z'
+      prompt_version: v3
   - repo: Fosowl/agenticSeek
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - autonomous-agents
+      - llm
+      - voice-assistant
+      - lang:python
+      - deepseek
     summary: Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin...
     last_synced_sha: 782a933971bfcc396690d390c896d2f189ba614f
     user_starred_at: '2025-06-10T11:41:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -51211,15 +51238,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.122Z'
+      prompt_version: v3
   - repo: MODSetter/SurfSense
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - web-dev
+    tags:
+      - nextjs
+      - fastapi
+      - chrome-extension
+      - lang:python
+      - rag
     summary: 'Open source alternative to Notebook LM for teams. Join our Discord: https://discord.gg/ej RNvft Dp9'
     last_synced_sha: 0a280149d909146dc5db89b955805509cb03fba9
     user_starred_at: '2025-06-10T11:41:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -51256,16 +51294,27 @@ repositories:
         published_at: '2026-02-11T07:46:17Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.122Z'
+      prompt_version: v3
   - repo: mindsdb/mindsdb
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+      - data-science
+    tags:
+      - ai-analytics
+      - databases
+      - llm
+      - lang:python
+      - business-intelligence
     summary: 'Query Engine for AI Analytics: Build self-reasoning agents across all your live data'
     last_synced_sha: dcc4b82e8e06ddfaf019dc4d1bf16a8e7ed5d302
     user_starred_at: '2025-06-10T11:40:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -51299,15 +51348,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.122Z'
+      prompt_version: v3
   - repo: xming521/WeClone
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+      - productivity
+    tags:
+      - llm
+      - digital-avatar
+      - chatbot
+      - lang:python
+      - customization
     summary: 🚀 One-stop solution for creating your digital avatar from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life...
     last_synced_sha: 1779b5d8af037830167abb01c05b7cefad90cbbc
     user_starred_at: '2025-06-10T11:37:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -51332,15 +51392,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.122Z'
+      prompt_version: v3
   - repo: kamranahmedse/developer-roadmap
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - developer-roadmap
+      - guides
+      - lang:ts
+      - education
+      - growth
     summary: Interactive roadmaps, guides and other educational content to help developers grow in their careers.
     last_synced_sha: f886dbea4fa8c99fea659a598944a15df5205258
     user_starred_at: '2025-06-10T11:36:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -51378,15 +51448,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.122Z'
+      prompt_version: v3
   - repo: tensorzero/tensorzero
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - automation
+    tags:
+      - llm
+      - ml
+      - ai
+      - lang:rust
+      - llmops
     summary: Tensor Zero is an open-source stack for industrial-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluation, and experimentation.
     last_synced_sha: 78c1f7d80d51b67cc919049b4085f957219f0d11
     user_starred_at: '2025-06-10T11:32:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -51426,15 +51507,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.122Z'
+      prompt_version: v3
   - repo: block/goose
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-agent
+      - llm
+      - mcp
+      - lang:rust
     summary: an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
     last_synced_sha: 72bdc9598daad6842e9bed5e73b6cf1f6fda90d1
     user_starred_at: '2025-06-10T11:31:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -51455,15 +51545,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.122Z'
+      prompt_version: v3
   - repo: Billionmail/BillionMail
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+      - apis
+    tags:
+      - mail-server
+      - email
+      - lang:go
+      - self-hosted
+      - smtp
     summary: 'Billion Mail gives you open-source Mail Server, News Letter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asf Xz BUh Zr'
     last_synced_sha: 8587445274af8a62508b55442852e2431657bab3
     user_starred_at: '2025-06-07T00:53:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -51494,15 +51595,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.122Z'
+      prompt_version: v3
   - repo: codexu/note-gen
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - documentation
+    tags:
+      - markdown
+      - note-taking
+      - lang:ts
+      - tauri
+      - llm
     summary: A cross-platform Markdown AI note-taking software.
     last_synced_sha: 64ecfa2e1dd51ba8b78547d4f4cc0f7111d747bb
     user_starred_at: '2025-06-07T00:51:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -51532,16 +51644,25 @@ repositories:
         published_at: '2026-02-26T09:06:47Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.122Z'
+      prompt_version: v3
   - repo: netbirdio/netbird
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - vpn
+      - mesh-network
+      - lang:go
+      - zero-trust
     summary: Connect your devices into a secure Wire Guard®-based overlay network with SSO, MFA and granular access controls.
     last_synced_sha: 59c77d0658287fa376dd6da11943504b1e6479c0
     user_starred_at: '2025-06-06T09:13:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -51571,15 +51692,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.122Z'
+      prompt_version: v3
   - repo: iamgio/quarkdown
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - markdown
+      - typesetting
+      - presentations
+      - lang:kotlin
     summary: '🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.'
     last_synced_sha: eabe7dbc33d1d002d195b243b6e95e206e6aa7b0
     user_starred_at: '2025-06-06T09:13:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics:
@@ -51612,15 +51742,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.122Z'
+      prompt_version: v3
   - repo: scrapy/scrapy
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - web-scraping
+      - web-crawling
+      - lang:python
     summary: Scrapy, a fast high-level web crawling & scraping framework for Python.
     last_synced_sha: 7010985e4f37150834bd25f5c7820b40df3399b4
     user_starred_at: '2025-06-06T09:13:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -51648,15 +51786,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.122Z'
+      prompt_version: v3
   - repo: nathanbuchar/audubon-bird-plates-for-supernote
     categories:
       - unclassified
-    tags: []
+    tags:
+      - audubon
+      - supernote
+      - remarkable
     summary: All 435 illustrations of John James Audubon's Birds of America adapted for use as screensavers on the Supernote and other similar e-ink tablets.
     last_synced_sha: 5f0f47d62d93b290cdfa64afb7f8d9764379a9ce
     user_starred_at: '2025-06-01T02:00:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -51679,6 +51824,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:10:57.121Z'
+      prompt_version: v3
   - repo: lnenad/newser
     categories:
       - productivity
