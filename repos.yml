@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:25:43.294Z'
+  manifest_updated_at: '2026-02-28T04:26:13.894Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -36233,13 +36233,19 @@ repositories:
     framework: null
   - repo: hak5/usbrubberducky-payloads
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+      - automation
+    tags:
+      - usb-attacks
+      - security-tools
+      - lang:powershell
+      - keystroke-injection
     summary: The Official USB Rubber Ducky Payload Repository
     last_synced_sha: 919f56b92bac72c023916a67407d1ac748a70162
     user_starred_at: '2025-09-22T16:04:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -36271,15 +36277,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.387Z'
+      prompt_version: v3
   - repo: KRTirtho/spotube
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - desktop-dev
+      - web-dev
+    tags:
+      - music-player
+      - streaming
+      - lang:dart
+      - flutter
+      - cross-platform
     summary: 🎧 Open source music streaming app! Available for both desktop & mobile!
     last_synced_sha: 2cc8d2620d2d6ea9fa0ee9e3ff2fdc6fbd87f5e1
     user_starred_at: '2025-09-22T16:03:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -36312,15 +36329,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.387Z'
+      prompt_version: v3
   - repo: mulaRahul/keyviz
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - keystroke-tracking
+      - visualization
+      - lang:ts
+      - tauri
+      - user-input
     summary: Keyviz is a free and open-source tool to visualize your keystrokes ⌨️ and 🖱️ mouse actions in real-time.
     last_synced_sha: 1cdb1a43b1cbcbe91386d7cf3934fbda0dfb97a0
     user_starred_at: '2025-09-22T16:03:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36343,15 +36370,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.387Z'
+      prompt_version: v3
   - repo: upptime/upptime
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - automation
+      - dev-tools
+    tags:
+      - uptime-monitoring
+      - status-page
+      - lang:json
+      - incidents-reports
     summary: ⬆️ Git Hub Actions uptime monitor & status page by @Anand Chowdhary
     last_synced_sha: c283a188661e95210cf642045d401bea9164ef40
     user_starred_at: '2025-09-22T16:01:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JSON
       topics:
@@ -36377,15 +36414,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.386Z'
+      prompt_version: v3
   - repo: Azure-Samples/contoso-chat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+      - deployment
+    tags:
+      - azure-ai
+      - rag-system
+      - automation
+      - lang:bicep
+      - llmops
     summary: This sample has the full End2End process of creating RAG application with Prompty and Azure AI Foundry. It includes GPT-4 LLM application code, evaluations, deployment automation with AZD CLI, Git ...
     last_synced_sha: 028921fe3209db3216075d34ced6c109de132533
     user_starred_at: '2025-09-22T16:00:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -36416,15 +36464,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.386Z'
+      prompt_version: v3
   - repo: jasontaylordev/CleanArchitecture
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+      - productivity
+    tags:
+      - clean-architecture
+      - template
+      - lang:bicep
+      - webapi
+      - aspnetcore
     summary: Clean Architecture Solution Template for ASP.NET Core
     last_synced_sha: e731f20eae9c9751f30b216a0a4d6119c31ad980
     user_starred_at: '2025-09-22T15:59:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -36450,16 +36509,27 @@ repositories:
         published_at: '2025-11-11T17:22:55Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.386Z'
+      prompt_version: v3
   - repo: sigoden/aichat
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+      - productivity
+    tags:
+      - cli-tool
+      - ai-helper
+      - lang:rust
+      - llm
+      - automation
     summary: All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to Open AI, Claude, Gemini, Ollama, Groq, and more.
     last_synced_sha: 82976d349ad97ac9aae0655ad631dace5e2a6385
     user_starred_at: '2025-09-22T15:59:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -36493,15 +36563,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.386Z'
+      prompt_version: v3
   - repo: bigcapitalhq/bigcapital
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+    tags:
+      - financial-accounting
+      - reporting-tools
+      - lang:ts
+      - inventory
+      - accounting
     summary: 💵 Bigcapital is financial accounting with intelligent reporting for faster decision-making, an open-source alternative to Quickbooks, Xero, etc.
     last_synced_sha: a383c71424391dea07d011967e1ecf7b1c5f5a76
     user_starred_at: '2025-09-22T15:55:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36529,15 +36609,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.386Z'
+      prompt_version: v3
   - repo: OvidijusParsiunas/deep-chat
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ai-ml
+      - ui-libraries
+    tags:
+      - chatbot-ui
+      - ai-integration
+      - lang:ts
+      - react
+      - vue
     summary: Fully customizable AI chatbot component for your website
     last_synced_sha: 881f53ef002090809af18c8dac79537135160f96
     user_starred_at: '2025-09-22T15:54:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36576,16 +36667,26 @@ repositories:
         published_at: '2026-01-31T06:35:33Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.386Z'
+      prompt_version: v3
   - repo: HKUDS/AI-Researcher
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - learning
+    tags:
+      - autonomous-ai
+      - scientific-research
+      - ai-innovation
+      - lang:python
     summary: '[Neur IPS2025] "AI-Researcher: Autonomous Scientific Innovation" -- A production-ready version: https://novix.science/chat'
     last_synced_sha: f9a6f8480860c193afff600eeffe3defcee8a978
     user_starred_at: '2025-09-22T15:53:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -36604,15 +36705,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.386Z'
+      prompt_version: v3
   - repo: leaningtech/webvm
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - system-admin
+    tags:
+      - virtual-machine
+      - wasm
+      - vm
+      - lang:js
+      - webassembly
     summary: Virtual Machine for the Web
     last_synced_sha: 3292ad102a27c7115aa1e3d2e73c949b7b1ccedc
     user_starred_at: '2025-09-22T15:52:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -36643,15 +36754,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.386Z'
+      prompt_version: v3
   - repo: deskflow/deskflow
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - productivity
+      - system-admin
+    tags:
+      - device-sharing
+      - keyboard-mouse
+      - remote-access
+      - lang:cpp
     summary: Share a single keyboard and mouse between multiple computers.
     last_synced_sha: c80cd56f274114424e31e9ed6ed139f214dcd98a
     user_starred_at: '2025-09-22T15:51:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -36676,15 +36797,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.386Z'
+      prompt_version: v3
   - repo: aseprite/aseprite
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - desktop-dev
+    tags:
+      - sprite-editing
+      - pixel-art
+      - animation
+      - lang:cpp
+      - graphics
     summary: Animated sprite editor & pixel art tool (Windows, mac OS, Linux)
     last_synced_sha: d1624d9d039092c46a04016e68313ec1c9a3c65f
     user_starred_at: '2025-09-22T15:49:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -36719,15 +36850,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.386Z'
+      prompt_version: v3
   - repo: jellyfin/jellyfin
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - media-server
+      - streaming
+      - backend
+      - lang:csharp
     summary: The Free Software Media System - Server Backend & API
     last_synced_sha: e6d73ae367e9179779114c4e292dee1f5431a1d9
     user_starred_at: '2025-09-22T15:48:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -36751,15 +36891,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.386Z'
+      prompt_version: v3
   - repo: Prowlarr/Prowlarr
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+      - automation
+    tags:
+      - indexer-management
+      - nzb
+      - radarr
+      - sonarr
+      - lang:csharp
     summary: Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps, supporting management of both Torrent Trackers and Usenet Indexers.
     last_synced_sha: 407acb6844ba9d3db1143fc9b3af2d84ea1a06fb
     user_starred_at: '2025-09-22T15:48:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -36784,7 +36935,11 @@ repositories:
         published_at: '2025-11-16T22:41:22Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:26:12.386Z'
+      prompt_version: v3
   - repo: LykosAI/StabilityMatrix
     categories:
       - ai-ml
