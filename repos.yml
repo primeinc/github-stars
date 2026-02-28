@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:31:02.839Z'
+  manifest_updated_at: '2026-02-28T04:31:31.951Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -31290,13 +31290,18 @@ repositories:
     framework: null
   - repo: tile-ai/tilelang
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - embedded
+    tags:
+      - gpu-development
+      - accelerators
+      - lang:python
+      - high-performance
     summary: Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels
     last_synced_sha: 7fcd62b0babefcc63d063894942c892bd3b99861
     user_starred_at: '2025-10-19T19:27:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -31316,15 +31321,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.461Z'
+      prompt_version: v3
   - repo: coleam00/Archon
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - task-management
+      - knowledge-management
+      - lang:python
+      - ai-coding-assistant
     summary: Beta release of Archon OS - the knowledge and task management backbone for AI coding assistants.
     last_synced_sha: ecaece460c1924e9a81a409aebee692146f8a301
     user_starred_at: '2025-10-19T19:23:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -31344,15 +31358,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.460Z'
+      prompt_version: v3
   - repo: volcengine/MineContext
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - desktop-dev
+    tags:
+      - context-engineering
+      - proactive-ai
+      - memory
+      - lang:python
+      - embedding-models
     summary: Mine Context is your proactive context-aware AI partner（Context-Engineering+Chat GPT Pulse）
     last_synced_sha: 526e2cd2294a50b5764b69a48d26c024b248668c
     user_starred_at: '2025-10-19T19:23:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -31385,16 +31410,26 @@ repositories:
         published_at: '2026-01-28T09:51:23Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.460Z'
+      prompt_version: v3
   - repo: sapientinc/HRM
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - reasoning
+      - deep-learning
+      - lang:python
+      - large-language-models
+      - brain-inspired-ai
     summary: Hierarchical Reasoning Model Official Release
     last_synced_sha: 42410daaaf6ac8b266536d105a6e2362ffe40929
     user_starred_at: '2025-10-19T19:22:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -31416,15 +31451,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.460Z'
+      prompt_version: v3
   - repo: supermemoryai/supermemory
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+      - apis
+    tags:
+      - memory-engine
+      - lang:ts
+      - cloudflare-workers
+      - postgres
+      - tailwindcss
     summary: Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.
     last_synced_sha: bd69e2f0611ac3da4facf027a43dfaad08a4529d
     user_starred_at: '2025-10-19T19:22:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31451,15 +31497,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.460Z'
+      prompt_version: v3
   - repo: karpathy/nanoGPT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - gpt
+      - finetuning
+      - lang:python
+      - deep-learning
     summary: The simplest, fastest repository for training/finetuning medium-sized GPTs.
     last_synced_sha: 3adf61e154c3fe3fca428ad6bc3818b27a3b8291
     user_starred_at: '2025-10-19T19:20:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -31477,15 +31532,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.460Z'
+      prompt_version: v3
   - repo: karpathy/nanochat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - ai-chat
+      - chatgpt
+      - lang:python
     summary: The best Chat GPT that $100 can buy.
     last_synced_sha: c7ba25214276d165eeefca7cb2060587975db189
     user_starred_at: '2025-10-19T19:20:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -31503,15 +31566,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.460Z'
+      prompt_version: v3
   - repo: atuinsh/atuin
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - shell
+      - zsh
+      - history
+      - lang:rust
+      - bash
     summary: ✨ Magical shell history
     last_synced_sha: 3f775df1fbb1b50a30074945a3852fe71e19e512
     user_starred_at: '2025-10-19T19:17:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -31537,15 +31610,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.460Z'
+      prompt_version: v3
   - repo: atuinsh/desktop
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - runbooks
+      - lang:ts
     summary: 📖 Runbooks that run
     last_synced_sha: 06102dcd77f5564a08fbba2ac4a29c1b7deb27d0
     user_starred_at: '2025-10-19T19:17:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -31565,15 +31645,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.460Z'
+      prompt_version: v3
   - repo: mountain-loop/yaak
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+      - desktop-dev
+    tags:
+      - http-client
+      - graphql
+      - websocket
+      - lang:ts
+      - postman-alternative
     summary: The most intuitive desktop API client. Organize and execute REST, Graph QL, Web Sockets, Server Sent Events, and g RPC 🦬
     last_synced_sha: 49053cb4239e2b01cde9b8c1e3bfff4a1943ad83
     user_starred_at: '2025-10-19T19:16:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31603,15 +31694,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.460Z'
+      prompt_version: v3
   - repo: TheAlgorithms/TypeScript
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - data-science
+    tags:
+      - algorithms
+      - data-structures
+      - lang:ts
+      - typescript
+      - best-practices
     summary: Algorithms and Data Structures implemented in Type Script for beginners, following best practices.
     last_synced_sha: 19b4ced86c99815f142d4a46a028f55487b8038a
     user_starred_at: '2025-10-19T19:15:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31633,15 +31734,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.460Z'
+      prompt_version: v3
   - repo: TheAlgorithms/Python
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - data-science
+    tags:
+      - algorithms
+      - education
+      - sorting-algorithms
+      - lang:python
     summary: All Algorithms implemented in Python
     last_synced_sha: 678dedbbf94be54b3c9c258368e28bb8e7736d62
     user_starred_at: '2025-10-19T19:12:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -31673,15 +31783,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.460Z'
+      prompt_version: v3
   - repo: ThinkInAIXYZ/deepchat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+      - mobile-dev
+    tags:
+      - ai-assistant
+      - chatbot
+      - ai-chat
+      - lang:ts
+      - cross-platform
     summary: 🐬Deep Chat - A smart assistant that connects powerful AI to your personal world
     last_synced_sha: 1e0591edd78fae76eaf3595a022289d340f321aa
     user_starred_at: '2025-10-19T19:12:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31720,15 +31841,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.460Z'
+      prompt_version: v3
   - repo: nanobrowser/nanobrowser
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+      - web-dev
+    tags:
+      - chrome-extension
+      - ai-tools
+      - web-automation
+      - lang:ts
+      - multi-agent
     summary: Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to Open AI Operator.
     last_synced_sha: 322384f8b4d48d8614343e51efca68c85e64f90b
     user_starred_at: '2025-10-19T19:07:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31768,15 +31900,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.457Z'
+      prompt_version: v3
   - repo: tauri-apps/tauri
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - mobile-dev
+    tags:
+      - webview
+      - native-app
+      - web-frontend
+      - lang:rust
     summary: Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
     last_synced_sha: f20256bca542dfd6ba4b5e2741a6a9439cc57be8
     user_starred_at: '2025-10-19T19:07:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -31803,6 +31944,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:31:30.457Z'
+      prompt_version: v3
   - repo: spipm/Depixelization_poc
     categories:
       - security
