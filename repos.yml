@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:59:42.924Z'
+  manifest_updated_at: '2026-02-28T05:00:06.152Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -4262,13 +4262,19 @@ repositories:
       prompt_version: v3
   - repo: Gerenios/AADInternals
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - security
+    tags:
+      - azure-ad
+      - office365
+      - lang:powershell
+      - administration
+      - active-directory
     summary: AADInternals Power Shell module for administering Azure AD and Office 365
     last_synced_sha: 13f207d9ec08761ac85d9fb1311ecb719e25add4
     user_starred_at: '2026-02-14T12:03:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -4286,6 +4292,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T05:00:04.644Z'
+      prompt_version: v3
   - repo: hausec/PowerZure
     categories:
       - security
