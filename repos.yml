@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:46:03.451Z'
+  manifest_updated_at: '2026-02-28T04:46:34.342Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -17748,13 +17748,20 @@ repositories:
     framework: null
   - repo: hotheadhacker/no-as-a-service
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+      - productivity
+    tags:
+      - json-api
+      - express
+      - lang:js
+      - humor
+      - api-fun
     summary: No-as-a-Service (Naa S) is a simple API that returns a random rejection reason. Use it when you need a realistic excuse, a fun “no,” or want to simulate being turned down in style.
     last_synced_sha: 07eff76a25f7f5e754478caf8653d075de2cb98c
     user_starred_at: '2026-01-09T20:23:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -17774,16 +17781,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.826Z'
+      prompt_version: v3
   - repo: microsoft/monaco-editor
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+      - web-dev
+    tags:
+      - code-editor
+      - lang:js
+      - browser-based
+      - vscode
+      - editor
     summary: A browser based code editor
     last_synced_sha: 613524bdf43891f71ce0bf1f99584b666d70c95a
     user_starred_at: '2026-01-09T20:22:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -17808,15 +17826,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.826Z'
+      prompt_version: v3
   - repo: MobSF/Mobile-Security-Framework-MobSF
     categories:
-      - unclassified
-    tags: []
+      - security
+      - testing
+      - mobile-dev
+    tags:
+      - mobile-security
+      - lang:js
+      - malware-analysis
+      - api-testing
+      - static-analysis
     summary: Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static...
     last_synced_sha: 2b08dd050e7685ee2a14fdbb454affab94129eae
     user_starred_at: '2026-01-09T20:21:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -17855,15 +17884,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.826Z'
+      prompt_version: v3
   - repo: coredns/coredns
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - cloud
+      - containers
+    tags:
+      - dns-server
+      - service-discovery
+      - lang:go
+      - plugins
+      - cncf
     summary: Core DNS is a DNS server that chains plugins
     last_synced_sha: 5b7da1fbf76c746be72a7a1dc4de1d8a24252814
     user_starred_at: '2026-01-09T20:20:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17889,15 +17929,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.826Z'
+      prompt_version: v3
   - repo: publicsuffix/list
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - documentation
+    tags:
+      - public-suffix-list
+      - dns
+      - lang:go
+      - domain-management
     summary: The Public Suffix List
     last_synced_sha: ccc3b53a1f52c921fb89f0119389b21829f9a2d1
     user_starred_at: '2026-01-09T20:20:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -17915,15 +17964,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.826Z'
+      prompt_version: v3
   - repo: hashicorp/vault
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+      - cloud
+    tags:
+      - secrets-management
+      - encryption
+      - lang:go
+      - privileged-access
+      - vault
     summary: A tool for secrets management, encryption as a service, and privileged access management
     last_synced_sha: c3b849e4f4a68a3b7e59081422d07728d4222916
     user_starred_at: '2026-01-09T20:19:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17946,15 +18006,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.826Z'
+      prompt_version: v3
   - repo: charmbracelet/crush
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+      - automation
+    tags:
+      - ai
+      - coding-tool
+      - lang:go
+      - llms
+      - agentic-ai
     summary: Glamourous agentic coding for all 💘
     last_synced_sha: 61953d44287171d98780559d14c34e2c21d94c6d
     user_starred_at: '2026-01-09T20:19:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17978,15 +18049,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.826Z'
+      prompt_version: v3
   - repo: istio/istio
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - monitoring
+      - cloud
+    tags:
+      - microservices
+      - service-mesh
+      - kubernetes
+      - lang:go
+      - api-management
     summary: Connect, secure, control, and observe services.
     last_synced_sha: 6c76e33806da8172561dc39742a22c0ee0f221e8
     user_starred_at: '2026-01-09T20:18:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -18022,15 +18104,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.826Z'
+      prompt_version: v3
   - repo: facebook/rocksdb
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - automation
+      - data-science
+    tags:
+      - key-value-store
+      - db-engine
+      - lang:cpp
+      - persistence
+      - storage
     summary: A library that provides an embeddable, persistent key-value store for fast storage.
     last_synced_sha: ce0fff9f4106bc1d6523dc32abcc3dc27abb8b79
     user_starred_at: '2026-01-09T20:16:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -18052,15 +18145,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.826Z'
+      prompt_version: v3
   - repo: upx/upx
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - deployment
+    tags:
+      - executable-compression
+      - lang:cpp
+      - compression-tool
+      - optimization
     summary: UPX - the Ultimate Packer for e Xecutables
     last_synced_sha: 5730a64c5def9b111f3dcc664668197b85880667
     user_starred_at: '2026-01-09T20:15:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -18080,15 +18182,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.826Z'
+      prompt_version: v3
   - repo: google/flatbuffers
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - frameworks
+      - networking
+    tags:
+      - serialization
+      - json-parser
+      - lang:cpp
+      - cross-platform
+      - memory-efficient
     summary: 'Flat Buffers: Memory Efficient Serialization Library'
     last_synced_sha: 94d6b8086b46bdff7da308aa2d3aebf336d29f55
     user_starred_at: '2026-01-09T20:15:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -18128,15 +18241,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.826Z'
+      prompt_version: v3
   - repo: umbraco/Umbraco-CMS
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+      - frameworks
+    tags:
+      - cms
+      - asp-net-core
+      - digital-experience
+      - lang:csharp
+      - umbraco
     summary: Umbraco is a free and open source .NET content management system helping you deliver delightful digital experiences.
     last_synced_sha: eaed6cb0c9af40ae1aa106cd001eb0b0485f860a
     user_starred_at: '2026-01-09T20:12:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -18163,15 +18287,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.826Z'
+      prompt_version: v3
   - repo: memvid/claude-brain
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - dev-tools
+    tags:
+      - ai-tools
+      - llm-memory
+      - developer-tools
+      - lang:ts
+      - data-processing
     summary: Give Claude Code photographic memory in ONE portable file. No database, no SQLite, no Chroma DB - just a single .mv2 file you can git commit, scp, or share. Native Rust core with sub-ms operations.
     last_synced_sha: 5df71f77aafa4ec50e7fd4672997b6da7e2c3198
     user_starred_at: '2026-01-09T20:09:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -18208,15 +18343,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.822Z'
+      prompt_version: v3
   - repo: AutoMaker-Org/automaker
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+      - dev-tools
+    tags:
+      - workflow
+      - automation
+      - lang:ts
+      - productivity-tools
     summary: No description provided
     last_synced_sha: 6408f514a423a16fad720119a58336f746f885bb
     user_starred_at: '2026-01-09T20:08:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -18236,15 +18381,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.822Z'
+      prompt_version: v3
   - repo: kepano/obsidian-skills
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+      - learning
+    tags:
+      - obsidian
+      - markdown
+      - cli
+      - agent-skills
+      - plugins
     summary: Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.
     last_synced_sha: 28b98025f5db4d791264631904dd4aa2d6c88631
     user_starred_at: '2026-01-09T20:08:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -18271,6 +18427,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:46:32.822Z'
+      prompt_version: v3
   - repo: router-for-me/CLIProxyAPI
     categories:
       - apis
