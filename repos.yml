@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T03:50:56.530Z'
+  manifest_updated_at: '2026-02-28T03:51:32.447Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -67856,13 +67856,18 @@ repositories:
     framework: null
   - repo: butlerx/wetty
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - web-dev
+      - networking
+    tags:
+      - browser-terminal
+      - ajaxterm
+      - lang:ts
     summary: Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better)
     last_synced_sha: 0ec642a27302bb4c53244715e089e12a7fefe199
     user_starred_at: '2023-09-14T09:20:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -67891,15 +67896,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.030Z'
+      prompt_version: v3
   - repo: Tsukisoft/direct-storage-rs
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - direct-storage
+      - rust-bindings
+      - lang:rust
     summary: Rust bindings for Direct Storage
     last_synced_sha: 78dc601d15dbbdc55a79c77fefa9ab9d36a94347
     user_starred_at: '2023-09-14T08:02:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -67917,15 +67930,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.030Z'
+      prompt_version: v3
   - repo: GaspardCulis/slint-tetris
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - tetris
+      - slint-ui
+      - lang:rust
     summary: Tetris game made with Slint
     last_synced_sha: 4b8b60beaeb9a1d2bbc759a6b25dc52bed57c6cc
     user_starred_at: '2023-09-13T03:50:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -67949,15 +67970,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.030Z'
+      prompt_version: v3
   - repo: Surrealism-All/SurrealismUI
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - slint-ui
+      - gui
+      - widget-library
+      - lang:slint
     summary: A third-party UI library using Slint, I think it will give you an extraordinary experience
     last_synced_sha: 3e8761f47c65e6e7d335dd8f3d1a2dd7566379ed
     user_starred_at: '2023-09-13T03:49:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Slint
       topics:
@@ -67984,15 +68014,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.030Z'
+      prompt_version: v3
   - repo: DioxusLabs/dioxus
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+      - mobile-dev
+      - desktop-dev
+    tags:
+      - fullstack-framework
+      - virtualdom
+      - lang:rust
     summary: Fullstack app framework for web, desktop, and mobile.
     last_synced_sha: d312ef84d2cbca38d338a5562ecf5ff179be8ef0
     user_starred_at: '2023-09-12T01:56:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -68025,15 +68065,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.030Z'
+      prompt_version: v3
   - repo: pyenv/pyenv
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - python-environments
+      - version-management
+      - lang:shell
     summary: Simple Python version management
     last_synced_sha: 43e83b52a27340c31b018dca7dd38a18a0bffb17
     user_starred_at: '2023-09-09T20:36:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -68055,15 +68103,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.030Z'
+      prompt_version: v3
   - repo: takoyaro/db-storage1111
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+      - web-dev
+    tags:
+      - database-storage
+      - stable-diffusion
+      - lang:python
     summary: automatic1111's stable-diffusion-webui extension for storing images to a database
     last_synced_sha: 85fd218b39d034651d1ede0130e53f033f89a1e5
     user_starred_at: '2023-09-08T02:43:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -68081,15 +68138,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.030Z'
+      prompt_version: v3
   - repo: papuSpartan/stable-diffusion-webui-distributed
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - productivity
+    tags:
+      - distributed-computing
+      - multi-gpu
+      - stable-diffusion
+      - lang:python
     summary: Chains stable-diffusion-webui instances together to facilitate faster image generation.
     last_synced_sha: 8fd65ebdc11d308035f151a90e1f167fd4d74b6d
     user_starred_at: '2023-09-08T02:35:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -68115,15 +68182,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.030Z'
+      prompt_version: v3
   - repo: jtydhr88/sd-3dmodel-loader
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ai-ml
+      - productivity
+    tags:
+      - 3d-models
+      - stable-diffusion
+      - lang:js
     summary: A custom extension for stable diffusion webui to load local 3D model/animation
     last_synced_sha: 3605e2168f229b14ac86c65063c1959408cd9dda
     user_starred_at: '2023-09-02T13:17:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -68141,15 +68217,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.030Z'
+      prompt_version: v3
   - repo: serengil/deepface
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - face-recognition
+      - deep-learning
+      - emotion-recognition
+      - lang:python
     summary: A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python
     last_synced_sha: 3569f09ca689db1af1ec96d5f3b18817b26a31a5
     user_starred_at: '2023-08-30T15:02:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -68186,15 +68271,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.030Z'
+      prompt_version: v3
   - repo: ForeverPs/content-aware-rotation
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-rotation
+      - content-aware-processing
+      - tensorflow
+      - lang:python
     summary: Implementation of Kaiming He's Paper Content-Aware Rotation on ICCV 2013
     last_synced_sha: 6cf89b21ebef71247b78fe976d8294a00c819b0a
     user_starred_at: '2023-08-30T01:04:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -68218,15 +68312,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.029Z'
+      prompt_version: v3
   - repo: ali-vilab/videocomposer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-generation
+      - diffusion-models
+      - motion-control
+      - lang:python
     summary: 'Official repo for Video Composer: Compositional Video Synthesis with Motion Controllability'
     last_synced_sha: 490ed21b5c41ecbb12fd024de4308ce68b1e0f64
     user_starred_at: '2023-08-30T00:34:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -68247,15 +68350,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.029Z'
+      prompt_version: v3
   - repo: papuSpartan/stable-diffusion-webui-auto-tls-https
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+      - web-dev
+    tags:
+      - tls
+      - https
+      - stable-diffusion
+      - lang:python
     summary: An extension for AUTOMATIC1111's Stable Diffusion Web-UI that enables easy or zero-conf TLS for HTTPS
     last_synced_sha: b4510969164a88788d23340d70115b5f4f02e7b1
     user_starred_at: '2023-08-25T20:35:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -68281,15 +68394,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.029Z'
+      prompt_version: v3
   - repo: Sxela/WarpFusion
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - img2img
+      - text2video
+      - vid2vid
+      - lang:batchfile
     summary: Warp Fusion
     last_synced_sha: 98ddeba5e8def54f3619dc2795ac8c86aa83c495
     user_starred_at: '2023-08-23T18:15:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -68315,15 +68437,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.029Z'
+      prompt_version: v3
   - repo: valinet/ExplorerPatcher
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - windows
+      - enhancements
+      - lang:c
     summary: This project aims to enhance the working environment on Windows
     last_synced_sha: 738479020b4cca11b0dace83cdda344c4e95db3e
     user_starred_at: '2023-08-22T07:58:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -68343,6 +68473,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:51:31.026Z'
+      prompt_version: v3
   - repo: Mortalitas/GShade
     categories:
       - game-dev
