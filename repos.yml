@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T03:59:03.375Z'
+  manifest_updated_at: '2026-02-28T03:59:37.426Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -60950,13 +60950,18 @@ repositories:
     framework: null
   - repo: tiimgreen/github-cheat-sheet
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - git
+      - github
+      - cheatsheets
+      - awesome-list
     summary: A list of cool features of Git and Git Hub.
     last_synced_sha: 746af1b42356973f66627319bbaf4ac5157c5308
     user_starred_at: '2025-01-28T08:59:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -60979,15 +60984,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.032Z'
+      prompt_version: v3
   - repo: prakhar1989/awesome-courses
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - computer-science
+      - courses
+      - awesome-list
+      - resources
     summary: ':books: List of awesome university courses for learning Computer Science!'
     last_synced_sha: e0b02ce4084c3b426304ae03ffcb072f7c8057f3
     user_starred_at: '2025-01-28T08:58:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -61009,15 +61023,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.032Z'
+      prompt_version: v3
   - repo: trimstray/the-book-of-secret-knowledge
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - resources
+      - manuals
+      - cheatsheets
+      - howtos
     summary: A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
     last_synced_sha: 7d37069a361d3fd9f214480755f7969744e866fa
     user_starred_at: '2025-01-28T08:57:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -61054,15 +61077,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.032Z'
+      prompt_version: v3
   - repo: datalab-to/marker
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - documentation
+    tags:
+      - pdf-to-json
+      - pdf-to-markdown
+      - ocr
+      - lang:python
     summary: Convert PDF to markdown + JSON quickly with high accuracy
     last_synced_sha: b929a4e32f225715eb508bb97f45607fd0d5931d
     user_starred_at: '2025-01-28T08:56:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -61082,15 +61114,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.032Z'
+      prompt_version: v3
   - repo: aigc-apps/EasyAnimate
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - video-generation
+      - transformer-diffusion
+      - high-resolution-video
+      - lang:python
     summary: 📺 An End-to-End Solution for High-Resolution and Long Video Generation Based on Transformer Diffusion
     last_synced_sha: c2a70d17daa1549a22129d0cd0e02053ecccd75c
     user_starred_at: '2025-01-28T08:56:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -61110,15 +61151,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.032Z'
+      prompt_version: v3
   - repo: kyutai-labs/moshi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - spoken-dialogue
+      - streaming-codec
+      - speech-to-text
+      - lang:python
     summary: Moshi is a speech-text foundation model and full-duplex spoken dialogue framework. It uses Mimi, a state-of-the-art streaming neural audio codec.
     last_synced_sha: b349f4db591aa835cd71d5fa49ded8f12f0cd134
     user_starred_at: '2025-01-28T08:56:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -61138,15 +61188,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.032Z'
+      prompt_version: v3
   - repo: hacksider/Deep-Live-Cam
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deepfake
+      - face-swap
+      - video-deepfake
+      - realtime
+      - lang:python
     summary: real time face swap and one-click video deepfake with only a single image
     last_synced_sha: 0c7e871bfc566b22319b1135ffec87dd0064533d
     user_starred_at: '2025-01-28T08:56:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61184,15 +61244,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.031Z'
+      prompt_version: v3
   - repo: KoljaB/RealtimeSTT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - speech-to-text
+      - realtime
+      - voice-activation
+      - lang:python
     summary: A robust, efficient, low-latency speech-to-text library with advanced voice activity detection, wake word activation and instant transcription.
     last_synced_sha: e21151602c3d7df4fba39f9bb300a6679dbc9710
     user_starred_at: '2025-01-28T08:56:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61215,15 +61284,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.031Z'
+      prompt_version: v3
   - repo: Integuru-AI/Integuru
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agent
+      - integrations
+      - llm
+      - openapi
+      - lang:python
     summary: The first AI agent that builds permissionless integrations through reverse engineering platforms' internal APIs.
     last_synced_sha: e28aa48344f2c760bcd514bb6e27fddf74908cd1
     user_starred_at: '2025-01-28T08:55:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61257,15 +61336,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.031Z'
+      prompt_version: v3
   - repo: deepseek-ai/Janus
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - foundation-models
+      - multimodal
+      - vision-language-pretraining
+      - llm
+      - lang:python
     summary: 'Janus-Series: Unified Multimodal Understanding and Generation Models'
     last_synced_sha: 1daa72fa409002d40931bd7b36a9280362469ead
     user_starred_at: '2025-01-28T08:55:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61289,15 +61378,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.031Z'
+      prompt_version: v3
   - repo: soxoj/maigret
     categories:
-      - unclassified
-    tags: []
+      - security
+      - data-science
+    tags:
+      - osint
+      - social-network
+      - investigation
+      - namechecker
+      - lang:python
     summary: 🕵️‍♂️ Collect a dossier on a person by username from thousands of sites
     last_synced_sha: 83a9dafe55cd8d03502998e71ab4b980af9c4060
     user_starred_at: '2025-01-28T08:55:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61337,15 +61436,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.031Z'
+      prompt_version: v3
   - repo: harry0703/MoneyPrinterTurbo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - shortvideo
+      - tiktok
+      - automation
+      - chatgpt
+      - lang:python
     summary: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
     last_synced_sha: 951460b9f16f97937afaec8076018c7b291c9a5c
     user_starred_at: '2025-01-28T08:54:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61372,15 +61481,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.031Z'
+      prompt_version: v3
   - repo: datalab-to/surya
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ocr
+      - layout-analysis
+      - table-recognition
+      - lang:python
     summary: OCR, layout analysis, reading order, table recognition in 90+ languages
     last_synced_sha: 2add5da0a84528f1d262729a88c53ccd387d651f
     user_starred_at: '2025-01-28T08:54:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -61400,15 +61518,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.031Z'
+      prompt_version: v3
   - repo: OpenSPG/KAG
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - large-language-model
+      - logical-reasoning
+      - knowledge-graph
+      - q-and-a
+      - lang:python
     summary: KAG is a logical form-guided reasoning and retrieval framework based on Open SPG engine and LLMs. It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge b...
     last_synced_sha: fdab15b3929d2ee40dfcdd388f90233096a6afc9
     user_starred_at: '2025-01-28T08:54:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61433,15 +61561,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.031Z'
+      prompt_version: v3
   - repo: fixie-ai/ultravox
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - llm
+      - slm
+      - speech
+      - ai
+      - lang:python
     summary: A fast multimodal LLM for real-time voice
     last_synced_sha: 69ddc63b2d72be5e9a86f818315da72cec55a876
     user_starred_at: '2025-01-28T08:54:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61465,6 +61603,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:36.030Z'
+      prompt_version: v3
   - repo: microsoft/PromptWizard
     categories:
       - ai-ml
