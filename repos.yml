@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:16:40.065Z'
+  manifest_updated_at: '2026-02-28T04:17:04.870Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -45108,13 +45108,16 @@ repositories:
     framework: null
   - repo: microsoft/FaceSynthetics
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - face-synthetic
+      - datasets
     summary: Face synthetics datasets
     last_synced_sha: 50797c97ea0784581a0ffe4007e9e1aa75629323
     user_starred_at: '2025-07-22T22:55:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -45132,15 +45135,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.385Z'
+      prompt_version: v3
   - repo: blakeblackshear/frigate
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - monitoring
+    tags:
+      - object-detection
+      - tensorflow
+      - lang:ts
+      - real-time-camera
+      - ai
     summary: NVR with realtime local object detection for IP cameras
     last_synced_sha: fa1f9a1fa48b662efb080c297701befa9e4f6c1c
     user_starred_at: '2025-07-21T21:15:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -45172,15 +45185,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.385Z'
+      prompt_version: v3
   - repo: ChanChiChoi/awesome-Face_Recognition
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - face-detection
+      - face-recognition
+      - papers
+      - research
     summary: papers about Face Detection; Face Alignment; Face Recognition && Face Identification && Face Verification && Face Representation; Face Reconstruction; Face Tracking; Face Super-Resolution && Face D...
     last_synced_sha: f88f5982e1edcc7d7d3fb2045290a95f55a97b0d
     user_starred_at: '2025-07-21T11:12:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -45207,15 +45229,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.385Z'
+      prompt_version: v3
   - repo: facefusion/facefusion
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deepfake
+      - face-manipulation
+      - lang:python
+      - machine-learning
     summary: Industry leading face manipulation platform
     last_synced_sha: c7976ec9d4de0a6bc5b499fc8ba3df6b850349cb
     user_starred_at: '2025-07-21T11:09:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -45242,15 +45273,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.385Z'
+      prompt_version: v3
   - repo: pdfforge/PDFCreator
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - pdf-converter
+      - lang:csharp
+      - document-processing
     summary: PDFCreator - The free PDF Converter
     last_synced_sha: 806c723b24124a78f603b3023c25981e4970c7af
     user_starred_at: '2025-07-20T17:07:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -45268,15 +45307,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.385Z'
+      prompt_version: v3
   - repo: musistudio/claude-code-router
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - foundation-model
+      - lang:ts
+      - coding-ai
+      - infrastructure
     summary: Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.
     last_synced_sha: c73fe0d49d7cb0e8b8c7d0b1677c170b92d2a2ae
     user_starred_at: '2025-07-17T22:03:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -45294,15 +45342,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.385Z'
+      prompt_version: v3
   - repo: strapi/strapi
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - headless-cms
+      - lang:ts
+      - graphql
+      - nodejs
+      - customizable
     summary: 🚀 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first.
     last_synced_sha: 55f985dfaa95f605b6c638f8d503f725485560b4
     user_starred_at: '2025-07-17T22:01:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -45342,15 +45400,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.385Z'
+      prompt_version: v3
   - repo: untitleduico/react
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - design-system
+      - tailwindcss
+      - lang:ts
+      - react
+      - ui-library
     summary: Untitled UI React is the world’s largest collection of open-source React components built with Tailwind CSS and React Aria. Just copy, paste, and build.
     last_synced_sha: d341ca6676693be05e064ea12e20301bb1338e5e
     user_starred_at: '2025-07-17T21:55:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -45374,16 +45442,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.385Z'
+      prompt_version: v3
   - repo: JJarv04/ScreenConnect-IntuneWin32
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - deployment-scripts
+      - lang:powershell
+      - intune
     summary: 'An fork of James Vincents: ''How to Deploy Screen Connect using Intune'' scripts.'
     last_synced_sha: d92a5c29663aba0fc75a87e7f8aedff32f89eb15
     user_starred_at: '2025-07-17T02:24:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -45401,15 +45477,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.385Z'
+      prompt_version: v3
   - repo: PavelDoGreat/WebGL-Fluid-Simulation
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - simulation
+      - gpu
+      - lang:js
+      - webgl
+      - interactive
     summary: Play with fluids in your browser (works even on mobile)
     last_synced_sha: a2d292931f19d9b3b9f564e23e6c32729d2121c3
     user_starred_at: '2025-07-16T17:58:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -45432,15 +45518,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.385Z'
+      prompt_version: v3
   - repo: OpenPipe/ART
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - reinforcement-learning
+      - rl-agents
+      - qwen
+      - lang:python
+      - agent-training
     summary: 'Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen2.5, Qwen3, Llama, and more!'
     last_synced_sha: 65593676adc3290b44e48899596fa1265e0b2461
     user_starred_at: '2025-07-16T17:53:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -45469,15 +45565,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.385Z'
+      prompt_version: v3
   - repo: vibetunnel/vibetunnel
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
+      - wip
     summary: WIP - we're transitioning to the org soon
     last_synced_sha: c7ddd4edde6000e56d1e6f79bd99522fbdd4f65a
     user_starred_at: '2025-07-16T17:50:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -45495,15 +45597,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.384Z'
+      prompt_version: v3
   - repo: davidkimai/Context-Engineering
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - context-engineering
+      - first-principles
+      - lang:python
+      - handbook
     summary: '"Context engineering is the delicate art and science of filling the context window with just the right information for the next step." — Andrej Karpathy. A frontier, first-principles handbook inspi...'
     last_synced_sha: 6158def66a2d2174ed8356cf376e5f44e10d78ea
     user_starred_at: '2025-07-15T20:21:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -45521,15 +45632,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.384Z'
+      prompt_version: v3
   - repo: imskyleen/animate-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - animated-components
+      - tailwindcss
+      - lang:ts
+      - react
+      - motion
+      - design-ui
     summary: Fully animated, open-source component distribution built with React, Type Script, Tailwind CSS, Motion, and Shadcn CLI. Browse a list of components you can install, modify, and use in your projects.
     last_synced_sha: efeb96ffd7a3b7a4868667e4ac3c346620fb3044
     user_starred_at: '2025-07-15T20:20:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -45555,16 +45677,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.384Z'
+      prompt_version: v3
   - repo: Panquesito7/submodules-alternative
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - git
+      - cloning
+      - lang:lua
     summary: An easy-to-use Git modules alternative to make the cloning process easier.
     last_synced_sha: 67d0bc8ffcf0f2f51a39f1acf0cafba2515899fd
     user_starred_at: '2025-07-15T01:31:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics:
@@ -45602,6 +45732,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:17:03.384Z'
+      prompt_version: v3
   - repo: muesli/readme-scribe
     categories:
       - documentation
