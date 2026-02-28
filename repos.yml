@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:33:42.558Z'
+  manifest_updated_at: '2026-02-28T04:34:13.865Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -28778,13 +28778,16 @@ repositories:
     framework: null
   - repo: FFmpeg/asm-lessons
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - system-admin
+    tags:
+      - assembly-language
+      - ffmpeg
     summary: FFmpeg Assembly Language Lessons
     last_synced_sha: 171e7261abcdd69e702c4c9b4bbb6f67fe0ade83
     user_starred_at: '2025-11-07T17:42:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -28802,15 +28805,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.291Z'
+      prompt_version: v3
   - repo: GopeedLab/gopeed
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+      - networking
+    tags:
+      - download-manager
+      - cross-platform
+      - lang:go
     summary: A modern download manager that supports all platforms. Built with Golang and Flutter.
     last_synced_sha: 98bd3305b7fca20c9012a859670e5ba26b27b039
     user_starred_at: '2025-11-07T17:41:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -28845,15 +28857,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.291Z'
+      prompt_version: v3
   - repo: blueraincoatli/ComfyUI-Model-Cleaner
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - model-cleaning
+      - custom-nodes
+      - lang:python
     summary: Try to locate the "orphan models" and clean them
     last_synced_sha: 13e8ec89382f21cbf678e6aa9e3c8696e1726172
     user_starred_at: '2025-11-06T22:46:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -28877,15 +28897,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.291Z'
+      prompt_version: v3
   - repo: kijai/ComfyUI-WanVideoWrapper
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-processing
+      - ai-model
+      - lang:python
     summary: No description provided
     last_synced_sha: df8f3e49daaad117cf3090cc916c83f3d001494c
     user_starred_at: '2025-11-06T06:22:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -28903,15 +28931,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.291Z'
+      prompt_version: v3
   - repo: Orange-3DV-Team/MoCha
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-editing
+      - character-replacement
+      - lang:python
     summary: 'Mo Cha: End-to-End Video Character Replacement without Structural Guidance'
     last_synced_sha: da3e807bf5221f4acc4ea6d8eae425cf725fa8a8
     user_starred_at: '2025-11-06T06:22:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -28929,15 +28965,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.291Z'
+      prompt_version: v3
   - repo: timdeschryver/zod-fixture
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - dev-tools
+    tags:
+      - zod
+      - fixtures
+      - testing-tools
+      - lang:ts
     summary: Creating fixtures based on zod schemas
     last_synced_sha: d63d2373a78d76bf18d1c409f483f719b2126d45
     user_starred_at: '2025-11-06T00:06:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28960,15 +29005,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.291Z'
+      prompt_version: v3
   - repo: JoshuaKGoldberg/TypeStat
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - typescript-conversion
+      - static-analysis
+      - mutations
+      - lang:ts
     summary: Converts Java Script to Type Script and Type Script to better Type Script. 🧫
     last_synced_sha: 6d5cfba3298a11b29f81a1e8f85e45ceaec9a87d
     user_starred_at: '2025-11-06T00:04:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28993,15 +29047,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.291Z'
+      prompt_version: v3
   - repo: raine/anki-llm
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - anki
+      - llm
+      - flashcards
+      - lang:ts
     summary: A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs.
     last_synced_sha: 168b13a6bd47f786fd6ea05a925428c036ca6478
     user_starred_at: '2025-11-06T00:04:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -29019,15 +29082,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.291Z'
+      prompt_version: v3
   - repo: SpeechifyInc/Resemblyzer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - voice-analysis
+      - deep-learning
+      - lang:python
     summary: A python package to analyze and compare voices with deep learning
     last_synced_sha: af15d3fbff56d36ea55ef3528fd60a7bed678052
     user_starred_at: '2025-11-06T00:03:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -29046,15 +29117,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.291Z'
+      prompt_version: v3
   - repo: MaximeRivest/mcp2py
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - productivity
+    tags:
+      - mcp
+      - python-module
+      - lang:python
     summary: Turn any MCP server into a Python module
     last_synced_sha: ba5c477b4398119d431f9aa2aec1e84fe6ff044a
     user_starred_at: '2025-11-06T00:02:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -29072,15 +29151,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.291Z'
+      prompt_version: v3
   - repo: supabase/etl
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - databases
+    tags:
+      - postgres
+      - change-data-capture
+      - lang:rust
     summary: Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines.
     last_synced_sha: e880d4d5cb89a6ce6c494f69e4fc518a09366dbc
     user_starred_at: '2025-11-06T00:02:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -29104,15 +29191,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.291Z'
+      prompt_version: v3
   - repo: krea-ai/realtime-video
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - realtime
+      - ai-video
+      - lang:python
     summary: Krea Realtime 14B. An open-source realtime AI video model.
     last_synced_sha: acf4b7b4e1a3049a0e04782e751d12203334038d
     user_starred_at: '2025-11-06T00:00:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -29130,15 +29225,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.291Z'
+      prompt_version: v3
   - repo: Zejun-Yang/AniPortrait
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - audio-driven
+      - portrait-animation
+      - lang:python
     summary: 'Ani Portrait: Audio-Driven Synthesis of Photorealistic Portrait Animation'
     last_synced_sha: 7f6593fd971c95b65f603c15ef8ce2c3fc7f5404
     user_starred_at: '2025-11-06T00:00:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -29156,15 +29259,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.291Z'
+      prompt_version: v3
   - repo: DefinitelyTyped/DefinitelyTyped
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - typescript
+      - type-definitions
+      - dts
+      - lang:ts
     summary: The repository for high quality Type Script type definitions.
     last_synced_sha: 6d0fd0d6183bbde47f641c69ffe87c9cc0e422c7
     user_starred_at: '2025-11-05T23:59:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29191,15 +29303,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.287Z'
+      prompt_version: v3
   - repo: Stremio/stremio-web
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - streaming
+      - media
+      - lang:js
     summary: Stremio - Freedom to Stream
     last_synced_sha: 091f94e8fdb9cbe17b476c991aeacb2970c4feb1
     user_starred_at: '2025-11-05T23:56:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -29221,6 +29341,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:34:12.287Z'
+      prompt_version: v3
   - repo: imthenachoman/How-To-Secure-A-Linux-Server
     categories:
       - documentation
