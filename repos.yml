@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:52:12.763Z'
+  manifest_updated_at: '2026-02-28T04:52:38.519Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -11549,13 +11549,17 @@ repositories:
     framework: null
   - repo: slopus/murmur
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - encrypted-messaging
+      - lang:ts
+      - openclaw
     summary: Encrypted Messaging for Open Claw
     last_synced_sha: f967687d996ad367312b7bfb9d46dfced3b402c9
     user_starred_at: '2026-01-27T14:04:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -11573,15 +11577,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: pimalaya/ortie
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - oauth
+      - cli
+      - access-token
+      - refresh-token
+      - lang:rust
     summary: CLI to manage OAuth tokens
     last_synced_sha: de78e83440de17ce0af43c84d8cd8f4aa016a69c
     user_starred_at: '2026-01-27T14:00:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -11609,15 +11623,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: VoltAgent/awesome-openclaw-skills
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - awesome-list
+      - agent-skills
+      - openclaw
+      - moltbot
+      - clawdbot
     summary: The awesome collection of Open Claw Skills. Formerly known as Moltbot, originally Clawdbot.
     last_synced_sha: b14c4c0f6358e5402f5b67db50b9248a93fe40d7
     user_starred_at: '2026-01-27T01:56:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -11647,15 +11671,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: openclaw/openclaw
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-assistant
+      - ai
+      - personal
+      - lang:ts
+      - openclaw
     summary: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
     last_synced_sha: 0e4c24ebe24d1943412c7300fcb397308aa531d8
     user_starred_at: '2026-01-27T01:49:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11682,15 +11716,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: sashyo/keylessh
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: f6c881a415c556804d35763df1c20331914ea443
     user_starred_at: '2026-01-27T01:20:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -11708,15 +11747,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: EssexRich/ThreatActors-TTPs
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - threat-analysis
+      - lang:js
+      - ransomware
+      - cybersecurity
     summary: Repository created to share information about tactics, techniques and procedures used by threat actors. Initially with ransomware groups and evolving to other types of threats.
     last_synced_sha: da8d6d31b25c411f2ee6dcdbce3ff630fefcbcc5
     user_starred_at: '2026-01-27T01:14:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: JavaScript
@@ -11735,15 +11783,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: elm1nst3r/GHOST-osint-crm
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - osint
+      - osint-tool
+      - investigation
+      - lang:js
     summary: 'GHOST - Global Human Operations & Surveillance Tracking: Open-source investigation management platform for tracking people, connections, and intelligence data. Because Excel spreadsheets are for ac...'
     last_synced_sha: e3d06eae605d0840f5de557450ce943ab1bae14c
     user_starred_at: '2026-01-27T01:10:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -11766,15 +11823,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: PraaneshSelvaraj/coffee.tmux
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - tmux
+      - cli
+      - developer-tools
+      - lang:python
+      - terminal
     summary: ☕ Coffee - Modern tmux Plugin Manager
     last_synced_sha: 22747d806fedab203d309a9d7be6bcb33e3ff0fc
     user_starred_at: '2026-01-27T01:08:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -11799,15 +11866,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: steipete/summarize
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai
+      - cli
+      - summarize
+      - lang:ts
+      - browser-extension
     summary: Point at any URL/You Tube/Podcast or file. Get the gist. CLI and Chrome Extension.
     last_synced_sha: 3f34f195bf4922868c15998a0107026eb38d154d
     user_starred_at: '2026-01-27T01:03:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11831,15 +11908,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: better-auth/better-auth
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+    tags:
+      - authentication
+      - oauth
+      - iam
+      - lang:ts
+      - sso
     summary: The most comprehensive authentication framework for Type Script
     last_synced_sha: 00b543ac06b5464d4d2c87bfe5674f9ebc5963d2
     user_starred_at: '2026-01-27T00:56:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11867,15 +11954,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: simple-icons/simple-icons
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+    tags:
+      - icons
+      - design-assets
+      - svg-icons
+      - branding
+      - lang:js
     summary: SVG icons for popular brands
     last_synced_sha: 4d2f18791419498a52b305ac52b83652baa3cf94
     user_starred_at: '2026-01-27T00:56:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -11914,15 +12010,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: trycua/cua
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - system-admin
+    tags:
+      - virtualization
+      - ai-agent
+      - lang:python
+      - sdk
+      - virtualization-framework
     summary: Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (mac OS, Linux, Windows).
     last_synced_sha: 489302a0c186cd07c8bbb24e7dd6a7d7eca8b8e1
     user_starred_at: '2026-01-27T00:56:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -11960,15 +12066,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: HKUDS/ViMax
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - video-generation
+      - ai
+      - agentic-aigc
+      - lang:python
     summary: '"Vi Max: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)"'
     last_synced_sha: c0e0694a397cb9903ead57d46372d377e23042bf
     user_starred_at: '2026-01-27T00:55:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -11988,15 +12103,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: business-science/ai-data-science-team
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - data-science
+      - generative-ai
+      - machine-learning
+      - lang:python
+      - ai-engineering
     summary: An AI-powered data science team of agents to help you perform common data science tasks 10X faster.
     last_synced_sha: 4ffeb7f38178aa250917f29b01355f8b89ba809e
     user_starred_at: '2026-01-27T00:55:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -12029,15 +12154,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: evolus/pencil
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - mockup
+      - ui-design
+      - prototyping
+      - drawing
+      - lang:js
     summary: The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use.
     last_synced_sha: b8bef24042e4ec2c1a2c30c20a12db3bf38668ca
     user_starred_at: '2026-01-27T00:54:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -12067,6 +12202,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:52:37.030Z'
+      prompt_version: v3
   - repo: clusterzx/paperless-ai
     categories:
       - automation
