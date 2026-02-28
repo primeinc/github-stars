@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:43:50.031Z'
+  manifest_updated_at: '2026-02-28T04:44:21.012Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -19751,13 +19751,18 @@ repositories:
     framework: null
   - repo: mourad-ghafiri/youtube-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - mcp
+      - youtube
+      - metadata-extraction
+      - lang:python
     summary: A powerful Model Context Protocol (MCP) server for You Tube video transcription and metadata extraction.
     last_synced_sha: 0b1b40538faeeb8762e431f23f03eeb78a25c743
     user_starred_at: '2026-01-04T20:11:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -19775,15 +19780,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:44:19.488Z'
+      prompt_version: v3
   - repo: lcqysl/DiffThinker
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - generative
+      - multimodal
+      - reasoning
+      - diffusion-models
+      - lang:python
     summary: 'Diff Thinker: Towards Generative Multimodal Reasoning with Diffusion Models'
     last_synced_sha: b585703f461881592683451e3f976afa8efce5a1
     user_starred_at: '2026-01-04T20:05:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -19804,15 +19819,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:44:19.488Z'
+      prompt_version: v3
   - repo: riccardoruspoli/reko
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - llm
+      - markdown
+      - youtube
+      - lang:python
+      - ollama
     summary: Make You Tube videos readable. Local-first Markdown summaries with Ollama, with cloud providers support.
     last_synced_sha: 359aff27bf0f2b62abf45cd2d10751bedcd20844
     user_starred_at: '2026-01-02T05:44:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -19837,15 +19862,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:44:19.488Z'
+      prompt_version: v3
   - repo: Quaggles/SwarmUI-FaceTools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - stable-diffusion
+      - swarmui
+      - parameters-tool
+      - lang:csharp
     summary: A Swarm UI extension that adds parameters for Re Actor to the the generate tab
     last_synced_sha: ff43e98f979f7a62214c596b254edc6186d180e5
     user_starred_at: '2025-12-31T19:46:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -19865,15 +19899,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:44:19.488Z'
+      prompt_version: v3
   - repo: windirstat/windirstat
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - disk-usage-analyzer
+      - windows
+      - treemap
+      - cleanup
+      - lang:cpp
     summary: Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows
     last_synced_sha: dbc1e15e5d387630418c3e822163a4d2c52dda0b
     user_starred_at: '2025-12-31T19:42:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -19900,15 +19944,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:44:19.488Z'
+      prompt_version: v3
   - repo: Or1un/MOSAIC
     categories:
-      - unclassified
-    tags: []
+      - security
+      - data-science
+    tags:
+      - osint
+      - sociodynamics
+      - behavioral-analysis
+      - lang:python
+      - privacy
     summary: Privacy-first behavioral intelligence framework for multi-platform analysis and sociodynamic research.
     last_synced_sha: df6d5761f973548fbd5733945730bf50dba90c76
     user_starred_at: '2025-12-30T21:30:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -19934,15 +19988,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:44:19.488Z'
+      prompt_version: v3
   - repo: jayfunc/BetterLyrics
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - lyrics
+      - winui3
+      - music
+      - fluent-design
+      - lang:csharp
     summary: An elegant and deeply customizable lyrics visualizer & versatile music player, built with Win UI3/Win2D | 一款优雅且高度自定义的歌词可视化与全能音乐播放应用，基于 Win UI3/Win2D 构建
     last_synced_sha: e4697a122f65491fbeb93b2fa4c64fe282baa1e0
     user_starred_at: '2025-12-30T00:22:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -19981,15 +20045,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:44:19.488Z'
+      prompt_version: v3
   - repo: supreme-gg-gg/instagram-cli
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - instagram-api
+      - cli
+      - command-line-tool
+      - curses-ui
+      - lang:ts
     summary: Instagram's terminal UI app - The ultimate weapon against brainrot
     last_synced_sha: 6f1a23471934a6bb10203d29c715b5df286b5bd4
     user_starred_at: '2025-12-30T00:21:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -20028,15 +20102,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:44:19.488Z'
+      prompt_version: v3
   - repo: OneKeyHQ/app-monorepo
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - security
+    tags:
+      - crypto-wallet
+      - blockchain
+      - react-native
+      - ios
+      - android
+      - lang:ts
     summary: Secure, open source and community driven crypto wallet runs on all platforms and trusted by millions.
     last_synced_sha: 303ea2eac84fa7a07b45a472d7695486b224c064
     user_starred_at: '2025-12-30T00:21:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -20074,16 +20159,26 @@ repositories:
         published_at: '2026-02-14T10:35:05Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:44:19.488Z'
+      prompt_version: v3
   - repo: likec4/likec4
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - architecture
+      - diagrams
+      - c4
+      - architecture-as-code
+      - lang:ts
     summary: Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code
     last_synced_sha: 5993c843bbcb1adef29b2cc5c2ac14f2980f9285
     user_starred_at: '2025-12-30T00:20:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -20107,15 +20202,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:44:19.488Z'
+      prompt_version: v3
   - repo: antvis/Infographic
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - infographic
+      - visualization
+      - ai
+      - llm
+      - lang:ts
     summary: 🦋 An Infographic Generation and Rendering Framework, bring words to life with AI!
     last_synced_sha: 928a14613f2678d7f32a781063be8c8872e1591f
     user_starred_at: '2025-12-28T08:27:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -20140,6 +20245,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:44:19.488Z'
+      prompt_version: v3
   - repo: MyOnee/R
     categories:
       - unclassified
@@ -20171,13 +20280,19 @@ repositories:
     framework: null
   - repo: anuraghazra/github-readme-stats
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - readme-generator
+      - dynamic
+      - profile-readme
+      - serverless
+      - lang:js
     summary: ':zap: Dynamically generated stats for your github readmes'
     last_synced_sha: 5df91f9bfa89c356a55cbb3c2bbc164fdbf94a86
     user_starred_at: '2025-12-28T08:24:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -20200,15 +20315,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:44:19.485Z'
+      prompt_version: v3
   - repo: image-rs/fdeflate
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - dev-tools
+    tags:
+      - png
+      - compression
+      - image-data
+      - lang:rust
     summary: Fast deflate implementation specialized for PNG image data
     last_synced_sha: 647060f55886ec685b6e14db0bc0f6d0a3f36b78
     user_starred_at: '2025-12-28T07:35:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -20226,15 +20350,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:44:19.485Z'
+      prompt_version: v3
   - repo: siddharthvaddem/openscreen
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - screen-recorder
+      - electron
+      - screen-capture
+      - open-source
+      - lang:ts
     summary: Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.
     last_synced_sha: 87735c2716a11b69067653eec9a4357333d6fc9b
     user_starred_at: '2025-12-28T07:34:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -20259,6 +20393,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:44:19.484Z'
+      prompt_version: v3
   - repo: hosenur/portal
     categories:
       - web-dev
