@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T03:52:03.459Z'
+  manifest_updated_at: '2026-02-28T03:52:35.839Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -66932,13 +66932,18 @@ repositories:
     framework: null
   - repo: ElliottLester/ComfyUI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - stable-diffusion
+      - gui
+      - node-editor
+      - lang:python
     summary: A powerful and modular stable diffusion GUI with a graph/nodes interface.
     last_synced_sha: ac9974e215659115b90acc64313fafd9f6c96656
     user_starred_at: '2023-12-09T19:28:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -66957,15 +66962,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.476Z'
+      prompt_version: v3
   - repo: Stability-AI/generative-models
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - generative-models
+      - stability-ai
+      - lang:python
     summary: Generative Models by Stability AI
     last_synced_sha: e8cd657656fa5d61688191730d0e03242bf4ed44
     user_starred_at: '2023-12-06T19:54:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -66985,15 +66998,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.476Z'
+      prompt_version: v3
   - repo: Jimmyokok/RentControl
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - cities-skylines-2
+      - rent-control
+      - lang:csharp
     summary: 'Rent Control Mod for the game Cities: Skyline 2'
     last_synced_sha: e7142840c2d61e6ccc8af82e3ff9b86f7565c8d8
     user_starred_at: '2023-12-04T18:39:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -67013,15 +67033,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.476Z'
+      prompt_version: v3
   - repo: algernon-A/LineToolLite
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - cities-skylines-2
+      - line-tool
+      - lang:csharp
     summary: 'A Cities: Skylines 2 mod.'
     last_synced_sha: 39b29401825fe8d52f62f9e25df3c128670f2bba
     user_starred_at: '2023-12-04T18:36:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -67042,15 +67070,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.476Z'
+      prompt_version: v3
   - repo: klyte45/CS2ModsRepository
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - documentation
+    tags:
+      - cities-skylines-2
+      - mod-repository
     summary: Contains the current version of each mod I did for the Cities Skylines 2
     last_synced_sha: dcefdf9e4afcae8fd70c00c4334a18ee713aa9b2
     user_starred_at: '2023-11-28T01:17:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -67068,15 +67103,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.476Z'
+      prompt_version: v3
   - repo: Cities2Modding/wiki
     categories:
-      - unclassified
-    tags: []
+      - documentation
+    tags:
+      - cities-skylines-2
+      - wiki
     summary: No description provided
     last_synced_sha: 0120a36ed764c656786c5219b310ead0c91302be
     user_starred_at: '2023-11-28T01:11:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -67094,15 +67135,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.476Z'
+      prompt_version: v3
   - repo: Captain-Of-Coit/cs2-vehicle-counter
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - cities-skylines-2
+      - vehicle-counter
+      - lang:csharp
     summary: No description provided
     last_synced_sha: 9b3679ed99f72de500ecb40483a3ef622eb8b4ba
     user_starred_at: '2023-11-28T01:10:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -67120,15 +67168,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.476Z'
+      prompt_version: v3
   - repo: Captain-Of-Coit/cs2-city-monitor
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - cities-skylines-2
+      - city-monitoring
+      - lang:csharp
     summary: '"City Vitals" but for Cities: Skylines 2'
     last_synced_sha: 4ff59b1edff402446d171bb9b6ff1ced204af784
     user_starred_at: '2023-11-28T01:10:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -67155,15 +67211,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.476Z'
+      prompt_version: v3
   - repo: Captain-Of-Coit/hookui
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - cities-skylines-2
+      - ui-framework
+      - lang:csharp
     summary: 'Some sort of UI framework/loader for Cities: Skylines 2'
     last_synced_sha: d534495910a004d140aac43b669add92d9571b16
     user_starred_at: '2023-11-28T01:08:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -67190,15 +67254,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.475Z'
+      prompt_version: v3
   - repo: aidenlx/better-fn
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - obsidian
+      - footnotes
+      - preview
+      - lang:ts
     summary: Footnote hover preview for Obsidian.md
     last_synced_sha: 5afbc2b22ba167d207117912f22ae8de6e095736
     user_starred_at: '2023-11-27T23:29:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -67220,15 +67293,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.475Z'
+      prompt_version: v3
   - repo: Wayzware/EducationBalancer
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - cities-skylines-2
+      - education-balance
+      - lang:csharp
     summary: Increases the student capacity of various educational buildings in Cities Skylines 2
     last_synced_sha: 3288ac60972eff0d5cc8e7dabc10db57e363cfd4
     user_starred_at: '2023-11-27T20:30:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -67248,15 +67328,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.475Z'
+      prompt_version: v3
   - repo: klyte45/EUIS-baseproj-fe
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - frontend
+      - micro-frontend
+      - lang:js
     summary: Basic project to create EUIS micro-frontend applications.
     last_synced_sha: b144fcecae56cb22c4f36b119426766a2bd550b7
     user_starred_at: '2023-11-27T20:25:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -67274,15 +67362,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.475Z'
+      prompt_version: v3
   - repo: Sci-fiBrain/CSUL
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - cities-skylines-2
+      - universal-launcher
+      - lang:csharp
     summary: 'Cities: Skylines II Universal Launcher 天际线2万能启动器'
     last_synced_sha: 0334c489314b116fdefe91a213c16889270d988e
     user_starred_at: '2023-11-26T19:06:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -67303,15 +67399,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.475Z'
+      prompt_version: v3
   - repo: thardie/Cities2-Mods
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - cities-skylines-2
+      - modding
+      - lang:csharp
     summary: No description provided
     last_synced_sha: b4d24e7689f5b940641886c13a8e97623e56503b
     user_starred_at: '2023-11-24T22:58:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -67331,15 +67434,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.475Z'
+      prompt_version: v3
   - repo: ST-Apps/CS2-ExtendedRoadUpgrades
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - cities-skylines-2
+      - road-upgrades
+      - lang:csharp
     summary: A mod that enables multiple upgrade options for your roads.
     last_synced_sha: 758eede2669b08d14aa9aa8e9ac313588d702aac
     user_starred_at: '2023-11-24T22:56:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -67361,6 +67472,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:52:34.471Z'
+      prompt_version: v3
   - repo: slyh/Cities2-TrafficLightsEnhancement
     categories:
       - game-dev
