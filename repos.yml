@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:07:47.238Z'
+  manifest_updated_at: '2026-02-28T04:08:20.545Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -52618,13 +52618,18 @@ repositories:
     framework: null
   - repo: twbs/icons
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - icons
+      - svg
+      - bootstrap
+      - lang:ts
     summary: Official open source SVG icon library for Bootstrap.
     last_synced_sha: 0c46b39a6d38d05dd2f5f5367b7dd29579c232bf
     user_starred_at: '2025-05-04T19:14:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -52651,15 +52656,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.254Z'
+      prompt_version: v3
   - repo: Klingefjord/ChatGPT-API-Python
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - chatbot
+      - api
+      - lang:python
+      - chatgpt
     summary: Unofficial Chat GPT headless browser wrapper
     last_synced_sha: bb12f857a1acf1afc8c6c71c487fdd8f6abbd364
     user_starred_at: '2025-05-03T17:48:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -52677,15 +52691,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.254Z'
+      prompt_version: v3
   - repo: sim-codes/windows-phone-link-ui
     categories:
+      - ui-libraries
       - unclassified
-    tags: []
+    tags:
+      - ui
+      - lang:ts
     summary: No description provided
     last_synced_sha: a021a38526bc28baf5a63b4dba9fea6edf7d1196
     user_starred_at: '2025-05-02T23:31:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -52703,15 +52724,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.254Z'
+      prompt_version: v3
   - repo: aipotheosis-labs/aci
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - developer-tools
+      - llm
+      - function-calling
+      - integration
+      - lang:python
     summary: ACI.dev is the open source tool-calling platform that hooks up 600+ tools into any agentic IDE or custom AI agent through direct function calling or a unified MCP server. The birthplace of Vibe Ops.
     last_synced_sha: 6e1e651f9ae91292bc2ff2472227ec7f79496045
     user_starred_at: '2025-05-02T17:18:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -52743,15 +52774,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.254Z'
+      prompt_version: v3
   - repo: langwatch/langwatch
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - monitoring
+    tags:
+      - evaluation
+      - analytics
+      - llm
+      - lang:ts
+      - prompt-engineering
     summary: The platform for LLM evaluations and AI agent testing
     last_synced_sha: b75901283d238dbf32df4f80e3eda4f95c561232
     user_starred_at: '2025-05-02T14:36:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -52784,15 +52825,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.254Z'
+      prompt_version: v3
   - repo: ultrafunkamsterdam/undetected-chromedriver
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - security
+    tags:
+      - selenium
+      - anti-detection
+      - browser
+      - scraping
+      - lang:python
     summary: Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / Cloud Flare IUAM)
     last_synced_sha: 757ed6a22052f0674bb7c9f765ca884d15dcb780
     user_starred_at: '2025-04-22T22:07:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -52827,15 +52878,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.254Z'
+      prompt_version: v3
   - repo: llm-workflow-engine/llm-workflow-engine
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - automation
+      - chatgpt
+      - llm
+      - lang:python
+      - workflow
     summary: Power CLI and Workflow manager for LLMs (core package)
     last_synced_sha: 7842ab90cf2a10341c3e9d3b2a3dcc8ac936afec
     user_starred_at: '2025-04-22T21:42:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -52861,15 +52922,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.253Z'
+      prompt_version: v3
   - repo: camel-ai/camel
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - multi-agent-systems
+      - cooperative-ai
+      - deep-learning
+      - lang:python
+      - natural-language-processing
     summary: '🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org'
     last_synced_sha: f8e4042dae4331a67196090b6edb3ad87659e12f
     user_starred_at: '2025-04-22T20:56:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -52898,15 +52969,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.253Z'
+      prompt_version: v3
   - repo: novuhq/novu
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - notifications
+      - communication
+      - email
+      - lang:ts
+      - push-notifications
     summary: The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations.
     last_synced_sha: 05a978e35bcceb6c36f1ff67ab391612c32a6bec
     user_starred_at: '2025-04-22T16:13:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -52942,15 +53023,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.253Z'
+      prompt_version: v3
   - repo: ksreyes/popes
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - data-science
+    tags:
+      - history
+      - dataset
+      - lang:r
     summary: Dataset of all official popes from Peter to Francis
     last_synced_sha: 6d102c31bb1f96944e2768836c27b1ea8b39e492
     user_starred_at: '2025-04-22T08:48:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: R
       topics: []
@@ -52968,15 +53057,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.253Z'
+      prompt_version: v3
   - repo: makeplane/plane
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - project-management
+      - kanban
+      - docker
+      - lang:ts
+      - react
     summary: 🔥🔥🔥 Open-source Jira, Linear, Monday, and Click Up alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.
     last_synced_sha: 9425c66eb57f71507b89cd3c2e2e452949da6878
     user_starred_at: '2025-04-15T12:42:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -53016,15 +53115,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.253Z'
+      prompt_version: v3
   - repo: modelscope/FunASR
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - speech-recognition
+      - pytorch
+      - voice-activity-detection
+      - pretrained-model
+      - lang:python
     summary: A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc.
     last_synced_sha: 34360664e3aa7638700bad5636af32e64c0fbfbd
     user_starred_at: '2025-04-15T12:40:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -53059,15 +53168,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.253Z'
+      prompt_version: v3
   - repo: getmaxun/maxun
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+      - web-dev
+    tags:
+      - web-scraping
+      - automation
+      - api
+      - no-code
+      - lang:ts
     summary: 🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes 🔥
     last_synced_sha: 64f6270de0cb0e4e4bdcab84a2488129be2e330a
     user_starred_at: '2025-04-15T12:37:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -53105,15 +53225,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.253Z'
+      prompt_version: v3
   - repo: vercel/chatbot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+      - ui-libraries
+    tags:
+      - chatbot
+      - ai
+      - nextjs
+      - react
+      - lang:ts
     summary: A full-featured, hackable Next.js AI chatbot built by Vercel
     last_synced_sha: 866ba324b78b4dc5b57fc4157828d06e829ea2c0
     user_starred_at: '2025-04-15T12:37:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -53137,16 +53268,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.253Z'
+      prompt_version: v3
   - repo: nunchaku-ai/nunchaku
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - diffusion-models
+      - quantization
+      - lang:python
     summary: '[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models'
     last_synced_sha: 92e46957cdb8d345bfda0d0eb31f24fa6127d4e7
     user_starred_at: '2025-04-15T12:37:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -53175,6 +53314,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:08:19.253Z'
+      prompt_version: v3
   - repo: juliangarnier/anime
     categories:
       - ui-libraries
