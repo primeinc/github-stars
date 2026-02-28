@@ -1,4 +1,4 @@
-# Tag: security
+# Tag: kubernetes
 
 *2 repositories*
 
@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [stacklok/toolhive](https://github.com/stacklok/toolhive) | Tool Hive makes deploying MCP servers easy, secure and fun | `Go` ★ 1.6k | 2026-02-27 |
-| [Wh0am123/MCP-Kali-Server](https://github.com/Wh0am123/MCP-Kali-Server) | MCP configuration to connect AI agent to a Linux machine. | `Python` ★ 520 | 2026-02-26 |
+| [mikeroyal/WSL-Guide](https://github.com/mikeroyal/WSL-Guide) | Windows Subsystem for Linux (WSL) Guide. Use WSL develop to with Kubernetes and in the Cloud (Microsoft Azure, AWS, and Google Cloud). | `Rust` ★ 412 | 2024-01-04 |
