@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:19:29.241Z'
+  manifest_updated_at: '2026-02-28T04:19:56.967Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -42523,13 +42523,17 @@ repositories:
     framework: null
   - repo: peass-ng/PEASS-ng
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - privesc
+      - linux-enumeration
+      - lang:csharp
     summary: PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)
     last_synced_sha: 11a506f81ab6c3b9ecc2f79ec5591005be338802
     user_starred_at: '2025-08-16T08:04:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -42568,15 +42572,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.488Z'
+      prompt_version: v3
   - repo: elsa-workflows/elsa-core
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - automation
+    tags:
+      - workflow-engine
+      - dotnet
+      - lang:csharp
     summary: The Workflow Engine for .NET
     last_synced_sha: a79d6a257e5fc1ef3a6ba804537e24a29afbbb9a
     user_starred_at: '2025-08-16T08:04:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -42600,15 +42612,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.488Z'
+      prompt_version: v3
   - repo: mediar-ai/terminator
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - playwright
+      - agents
+      - ai
+      - lang:rust
     summary: playwright for windows computer use
     last_synced_sha: 7d2fba5f4abc898b4fa130f22407bccc29f2ebd5
     user_starred_at: '2025-08-16T08:00:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -42639,15 +42660,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.488Z'
+      prompt_version: v3
   - repo: pola-rs/polars
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - dataframe-library
+      - rust
+      - high-performance
+      - lang:rust
     summary: Extremely fast Query Engine for Data Frames, written in Rust
     last_synced_sha: 4023df49d4d3c198fe1ea407de4b03b26d030f41
     user_starred_at: '2025-08-16T08:00:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -42675,15 +42705,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.488Z'
+      prompt_version: v3
   - repo: Y2Z/monolith
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - cli-tool
+      - web-saver
+      - lang:rust
     summary: ⬛️ CLI tool and library for saving complete web pages as a single HTML file
     last_synced_sha: 8702e66fed5bb1b377d6c733f8aff3cdfa9b8dc3
     user_starred_at: '2025-08-16T07:59:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -42711,15 +42749,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.488Z'
+      prompt_version: v3
   - repo: juspay/hyperswitch
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cloud
+    tags:
+      - payments
+      - high-performance
+      - orchestration
+      - lang:rust
     summary: An open source payments switch written in Rust to make payments fast, reliable and affordable
     last_synced_sha: fc1421294cc9ca20c5edcf615dd7d9d88b0aed6f
     user_starred_at: '2025-08-16T07:59:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -42753,15 +42800,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.488Z'
+      prompt_version: v3
   - repo: public-apis/public-apis
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+    tags:
+      - public-apis
+      - resources
+      - free
+      - lang:python
     summary: A collective list of free APIs
     last_synced_sha: 932e6f25cc4765660e45cd93870f3bdc15a21ce0
     user_starred_at: '2025-08-16T07:57:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42792,15 +42848,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.488Z'
+      prompt_version: v3
   - repo: haydenbleasel/ultracite
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - linter
+      - formatter
+      - zero-config
+      - lang:ts
     summary: A highly opinionated, zero-configuration linter and formatter.
     last_synced_sha: 68f495e280a6c174e9b9463a5e9c10a5515b87a4
     user_starred_at: '2025-08-16T07:56:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42828,15 +42893,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.488Z'
+      prompt_version: v3
   - repo: jasonxtn/Argus
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - information-gathering
+      - osint
+      - recon-tools
+      - lang:python
     summary: The Ultimate Information Gathering Toolkit
     last_synced_sha: f51c0442802f1a557220943c72fb2584c7c99fa4
     user_starred_at: '2025-08-16T07:55:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42869,15 +42943,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.488Z'
+      prompt_version: v3
   - repo: ghostfolio/ghostfolio
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - wealth-management
+      - nestjs
+      - portfolio
+      - lang:ts
     summary: Open Source Wealth Management Software. Angular + Nest JS + Prisma + Nx + Type Script 🤍
     last_synced_sha: d4a0f48ca24ab925990853b59016b73fd2c1fa96
     user_starred_at: '2025-08-16T07:54:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42915,16 +42998,24 @@ repositories:
         published_at: '2026-02-23T19:31:36Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.488Z'
+      prompt_version: v3
   - repo: coderamp-labs/pad.ws
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cloud
+    tags:
+      - whiteboard
+      - integrated-development-environment
+      - lang:ts
     summary: Whiteboard as an IDE, draw and code in your browser
     last_synced_sha: eac61edab04e56567fd454e47f71ee0603e3e141
     user_starred_at: '2025-08-16T07:54:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42947,15 +43038,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.488Z'
+      prompt_version: v3
   - repo: documenso/documenso
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cloud
+      - web-dev
+    tags:
+      - document-signing
+      - self-hosted
+      - next-auth
+      - lang:ts
     summary: The Open Source Docu Sign Alternative.
     last_synced_sha: b92c53dbb23b89d3cfd89a6b38d2282cf273dfba
     user_starred_at: '2025-08-16T07:54:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42992,16 +43093,26 @@ repositories:
         published_at: '2026-01-29T07:46:00Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.488Z'
+      prompt_version: v3
   - repo: dask/dask
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+      - ai-ml
+    tags:
+      - parallel-computing
+      - task-scheduling
+      - pydata
+      - lang:python
     summary: Parallel computing with task scheduling
     last_synced_sha: 45610ac440797dd4f4a1eab6c58c1ae26c14daaa
     user_starred_at: '2025-08-16T07:54:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -43028,15 +43139,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.488Z'
+      prompt_version: v3
   - repo: OpenCut-app/OpenCut
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - video-editor
+      - oss
+      - lang:ts
     summary: The open-source Cap Cut alternative
     last_synced_sha: 9b94f89def4f96836c4f42a23a73e97fe647a43c
     user_starred_at: '2025-08-16T07:50:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43059,15 +43178,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.488Z'
+      prompt_version: v3
   - repo: pipecat-ai/pipecat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - voice-assistant
+      - chatbot-framework
+      - lang:python
     summary: Open Source framework for voice and multimodal conversational AI
     last_synced_sha: 17205c16473e768ccb3a3fb981cb3a53bfd94d0d
     user_starred_at: '2025-08-16T07:48:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -43093,6 +43220,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:19:55.484Z'
+      prompt_version: v3
   - repo: cli/cli
     categories:
       - dev-tools
