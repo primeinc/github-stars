@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:12:25.474Z'
+  manifest_updated_at: '2026-02-28T04:12:56.412Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -49149,13 +49149,17 @@ repositories:
     framework: null
   - repo: OrkunKocyigit/vidlib
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - video-management
+      - explorer-tool
+      - lang:rust
     summary: Explorer based video management tool
     last_synced_sha: 0f7e005be96175b517874b9c9eb09ef803fec98b
     user_starred_at: '2025-07-04T10:30:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -49173,15 +49177,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.117Z'
+      prompt_version: v3
   - repo: hgrsd/drivel
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - data-science
+    tags:
+      - synthetic-data
+      - schema-inference
+      - test-data-generator
+      - lang:rust
     summary: Infer a JSON schema from example data, produce nonsense synthetic data (drivel) according to the schema
     last_synced_sha: ae37111b3abd4c3ff700f22e107a7e4e87fa99b2
     user_starred_at: '2025-07-03T15:20:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -49207,15 +49220,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.117Z'
+      prompt_version: v3
   - repo: scaffdog/scaffdog
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - markdown-driven
+      - code-generator
+      - nodejs
+      - lang:ts
     summary: ':dog: scaffdog is Markdown driven scaffolding tool.'
     last_synced_sha: 90f24270712a31872c8e108e17513d79a1596955
     user_starred_at: '2025-07-02T22:25:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -49242,15 +49264,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.117Z'
+      prompt_version: v3
   - repo: siwenwang0803/secure-pr-guard
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - pull-request
+      - secure-workflows
+      - lang:python
     summary: No description provided
     last_synced_sha: ab00ab2f7ab7861e1b680855abbb95b42c28f35b
     user_starred_at: '2025-07-02T22:18:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -49270,15 +49300,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.117Z'
+      prompt_version: v3
   - repo: google/grr
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - forensics
+      - incident-response
+      - lang:python
     summary: 'GRR Rapid Response: remote live forensics for incident response'
     last_synced_sha: 2d4cfd3c0b8fed46906222c87932d976dc0f4919
     user_starred_at: '2025-07-02T22:01:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -49298,15 +49336,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.117Z'
+      prompt_version: v3
   - repo: google/zx
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - cli
+      - scripting
+      - shell
+      - lang:js
     summary: A tool for writing better scripts
     last_synced_sha: 2bbcaa5f95b61a5484353f9439e9c8ffae1bada0
     user_starred_at: '2025-07-02T21:59:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -49335,15 +49382,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.117Z'
+      prompt_version: v3
   - repo: vitejs/awesome-vite
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - awesome-list
+      - vitejs
+      - lang:js
     summary: ⚡️ A curated list of awesome things related to Vite.js
     last_synced_sha: ec6b41d8295ed4a18a58778a1219aa430bb55963
     user_starred_at: '2025-07-02T21:28:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -49365,15 +49420,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.117Z'
+      prompt_version: v3
   - repo: winfunc/opcode
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - gui-app
+      - claude-code
+      - interactive-sessions
+      - lang:ts
     summary: A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.
     last_synced_sha: 70c16d8a4910db48cd9684aeacdd431caefd7d71
     user_starred_at: '2025-07-01T01:38:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -49408,15 +49472,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.117Z'
+      prompt_version: v3
   - repo: FreedomIntelligence/ShareGPT-4o-Image
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - gpt
+      - image-processing
+      - lang:python
     summary: No description provided
     last_synced_sha: 19ac7d779d8b893b549c2640373c78947ee4b6d5
     user_starred_at: '2025-06-27T20:14:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -49434,15 +49506,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.117Z'
+      prompt_version: v3
   - repo: DataExpert-io/data-engineer-handbook
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - data-science
+    tags:
+      - dataengineering
+      - bigdata
+      - sql
+      - lang:jupyter-notebook
     summary: This is a repo with links to everything you'd ever want to learn about data engineering
     last_synced_sha: 76db4db308c4e556400247406dc5ee167e26123b
     user_starred_at: '2025-06-27T01:06:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -49466,15 +49547,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.117Z'
+      prompt_version: v3
   - repo: Mail-0/Zero
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - email
+      - privacy
+      - ai
+      - lang:ts
     summary: 'Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://mail0.link/discord'
     last_synced_sha: 64c5480c341750578da0746f2db9ad84da686334
     user_starred_at: '2025-06-27T01:05:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -49498,15 +49588,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.117Z'
+      prompt_version: v3
   - repo: automatisch/automatisch
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - workflow
+      - low-code
+      - self-hosted
+      - lang:js
     summary: The open source Zapier alternative. Build workflow automation without spending time and money.
     last_synced_sha: 41f3c56a163103cae761bb44f03638cb84e859ee
     user_starred_at: '2025-06-27T01:04:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -49533,15 +49632,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.117Z'
+      prompt_version: v3
   - repo: ryoppippi/ccusage
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - cli
+      - jsonl
+      - analyzer
+      - lang:ts
     summary: A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.
     last_synced_sha: c40ea6ef8d4db06b125c37f5b196e7d3b7cf450e
     user_starred_at: '2025-06-27T01:02:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -49561,15 +49669,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.117Z'
+      prompt_version: v3
   - repo: datamllab/awesome-deepfakes-materials
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deepfakes
+      - videos
+      - deepfake-detection
     summary: A curated list of awesome Deepfakes materials
     last_synced_sha: aae5e83f491b0c80bebaa72f62dd1ec0151e1102
     user_starred_at: '2025-06-27T00:59:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -49599,15 +49715,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.117Z'
+      prompt_version: v3
   - repo: google-gemini/gemini-cli
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agents
+      - cli
+      - gemini
+      - lang:ts
     summary: An open-source AI agent that brings the power of Gemini directly into your terminal.
     last_synced_sha: fb6ff847dd85053877db8b1ef7b1b79ade029655
     user_starred_at: '2025-06-27T00:57:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -49634,6 +49759,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:12:55.116Z'
+      prompt_version: v3
   - repo: DioxusLabs/sdk
     categories:
       - frameworks
