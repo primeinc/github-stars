@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T03:58:32.515Z'
+  manifest_updated_at: '2026-02-28T03:59:03.375Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -61467,13 +61467,19 @@ repositories:
     framework: null
   - repo: microsoft/PromptWizard
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - lang:python
+      - prompt-optimization
+      - task-aware
+      - automation
+      - ai
     summary: Task-Aware Agent-driven Prompt Optimization Framework
     last_synced_sha: a1d43f876ef4468b0549a3ceff8bd691b80cd667
     user_starred_at: '2025-01-28T08:54:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -61491,15 +61497,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.975Z'
+      prompt_version: v3
   - repo: intuitem/ciso-assistant-community
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - lang:python
+      - grc
+      - risk-management
+      - compliance
+      - audit
     summary: CISO Assistant is a one-stop-shop GRC platform for Risk Management, App Sec, Compliance & Audit, TPRM, Privacy, and Reporting. It supports 100+ global frameworks with automatic control mapping, inc...
     last_synced_sha: 7938c73122330aca6193abdb1e26c1b37229c92e
     user_starred_at: '2025-01-28T08:53:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61539,15 +61555,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.975Z'
+      prompt_version: v3
   - repo: crewAIInc/crewAI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - lang:python
+      - ai-agents
+      - llms
+      - collaboration
+      - automation
     summary: Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, Crew AI empowers agents to work together seamlessly, tackling complex tasks.
     last_synced_sha: 3899910aa911179784a6ebbe0810db0590640c86
     user_starred_at: '2025-01-28T08:53:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61572,15 +61598,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.975Z'
+      prompt_version: v3
   - repo: gavincyi/awesome-financial-open-source
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - financial
+      - open-source
+      - resources
+      - collection
     summary: Collection of financial institution open source groups
     last_synced_sha: e6cf0bc616dfa1e71419647c830979c82205576a
     user_starred_at: '2025-01-28T08:46:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -61598,15 +61633,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.975Z'
+      prompt_version: v3
   - repo: paulveillard/cybersecurity-cyberinsurance
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - cybersecurity
+      - cyber-insurance
+      - best-practices
+      - curation
+      - resources
     summary: An ongoing & curated collection of awesome software best practices and techniques, libraries and frameworks, E-books and videos, websites, blog posts, links to github Repositories, technical guidel...
     last_synced_sha: 5ace21e22d30dc7d41f7cac063f4f8f33d156e9b
     user_starred_at: '2025-01-28T08:45:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -61634,15 +61679,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.975Z'
+      prompt_version: v3
   - repo: sbondCo/Watcharr
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - lang:svelte
+      - sveltekit
+      - content-tracking
+      - self-hosted
+      - sqlite
     summary: Open source, self-hostable watched list for all your content (movies, tv series, anime, games) with user authentication, modern and clean UI and a very simple setup.
     last_synced_sha: a0ab7d8413db4ea8b2dc9b02bb5ccf14af684e97
     user_starred_at: '2025-01-28T08:38:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Svelte
       topics:
@@ -61682,15 +61737,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.975Z'
+      prompt_version: v3
   - repo: seriousm4x/UpSnap
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - system-admin
+    tags:
+      - lang:svelte
+      - sveltekit
+      - wake-on-lan
+      - golang
+      - pocketbase
     summary: A simple wake on lan web app written with Svelte Kit, Go and Pocket Base.
     last_synced_sha: ebd3e01af1dac19f8903f64d33c3d1d23df80d77
     user_starred_at: '2025-01-28T08:38:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Svelte
       topics:
@@ -61715,15 +61780,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.975Z'
+      prompt_version: v3
   - repo: hakimel/reveal.js
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - presentations
+      - slides
+      - lang:js
+      - framework
+      - slideshow
     summary: The HTML Presentation Framework
     last_synced_sha: 0753c057773ed3e3ec68a558e9af38d8fce728b8
     user_starred_at: '2025-01-28T08:37:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -61746,15 +61821,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.975Z'
+      prompt_version: v3
   - repo: openziti/ziti
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - lang:go
+      - zero-trust
+      - programmable-network
+      - vpn
+      - app-sec
     summary: The parent project for Open Ziti. Here you will find the executables for a fully zero trust, application embedded, programmable network @Open Ziti
     last_synced_sha: 4eef574988b737224c9cd4e963ff71afd7cf1822
     user_starred_at: '2025-01-28T08:35:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -61794,15 +61879,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.974Z'
+      prompt_version: v3
   - repo: jason5ng32/MyIP
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - lang:vue
+      - ip-info
+      - network-tools
+      - dns
+      - webrtc
     summary: The best IP Toolbox. Easy to check what's your IPs, IP geolocation, check for DNS leaks, examine Web RTC connections, speed test, ping test, MTR test, check website availability, whois search and m...
     last_synced_sha: 893154ea13b24db4253e9bd64ab47015e6e8b88a
     user_starred_at: '2025-01-28T08:32:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -61842,15 +61937,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.974Z'
+      prompt_version: v3
   - repo: iv-org/invidious
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - video-streaming
+      - lang:crystal
+      - alternative-interface
+      - youtube
+      - self-hosted
     summary: Invidious is an alternative front-end to You Tube
     last_synced_sha: 21d0d1041a749c7b8a4dec306371653a9a94e082
     user_starred_at: '2025-01-28T08:14:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Crystal
       topics:
@@ -61878,15 +61983,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.974Z'
+      prompt_version: v3
   - repo: AzuraCast/AzuraCast
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - web-radio
+      - management-suite
+      - lang:php
+      - self-hosted
+      - streaming
     summary: A self-hosted web radio management suite, including turnkey installer tools for the full radio software stack and a modern, easy-to-use web app to manage your stations.
     last_synced_sha: 70dbcea09026609e1ff4488994db89a5fa95e883
     user_starred_at: '2025-01-28T08:13:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -61912,15 +62027,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.974Z'
+      prompt_version: v3
   - repo: tubearchivist/browser-extension
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - browser-extension
+      - lang:js
+      - companion
     summary: Tube Archivist Companion for your Browser
     last_synced_sha: 91017204857a73c4372d493f2017dc0c7ac36af9
     user_starred_at: '2025-01-28T08:10:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -61940,15 +62063,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.974Z'
+      prompt_version: v3
   - repo: TabbyML/tabby
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-coding-assistant
+      - codegen
+      - lang:rust
+      - developer-tools
+      - llms
     summary: Self-hosted AI coding assistant
     last_synced_sha: 573110426ac97df61a1f17e90a8a2161c810606c
     user_starred_at: '2025-01-28T08:08:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -61977,15 +62110,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.974Z'
+      prompt_version: v3
   - repo: quickwit-oss/tantivy
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - dev-tools
+    tags:
+      - search-engine
+      - lang:rust
+      - full-text-search
+      - library
     summary: Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust
     last_synced_sha: d0c5ffb0aa6bf046553dde8775ca7b6d362aa388
     user_starred_at: '2025-01-28T08:07:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -62007,6 +62149,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T03:59:01.974Z'
+      prompt_version: v3
   - repo: bee-san/RustScan
     categories:
       - security
