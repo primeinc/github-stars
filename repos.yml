@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:13:58.359Z'
+  manifest_updated_at: '2026-02-28T04:14:30.943Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -47597,13 +47597,19 @@ repositories:
     framework: null
   - repo: anishkny/playwright-test-coverage
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - dev-tools
+    tags:
+      - testing
+      - playwright
+      - code-coverage
+      - lang:js
+      - automation
     summary: Extends Playwright test to measure code coverage
     last_synced_sha: e7752c3a3212dd48497406904f11f5930dcfcc91
     user_starred_at: '2025-07-12T04:27:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -47625,15 +47631,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.432Z'
+      prompt_version: v3
   - repo: larsbijl/trending_archive
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+    tags:
+      - github-data
+      - trending
+      - archive
+      - lang:python
+      - data-collection
     summary: An archive of the Git Hub daily trending information
     last_synced_sha: 27349c6b2de15459ec185e38ec2442cbdbba7170
     user_starred_at: '2025-07-12T04:21:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -47651,15 +47667,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.432Z'
+      prompt_version: v3
   - repo: FujiwaraChoki/MoneyPrinterV2
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - automation
+      - lang:python
+      - cli
+      - money
+      - outreach
+      - integration
     summary: Automate the process of making money online.
     last_synced_sha: 31bba003a936b30f4f0616c77f816497c844a921
     user_starred_at: '2025-07-12T04:19:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -47685,15 +47712,27 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.432Z'
+      prompt_version: v3
   - repo: langgenius/dify
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai
+      - agent
+      - workflow
+      - llm
+      - openai
+      - lang:ts
+      - nextjs
     summary: Production-ready platform for agentic workflow development.
     last_synced_sha: 33242697ce2225fcd91f4d1237581371947e43af
     user_starred_at: '2025-07-12T04:10:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -47732,16 +47771,26 @@ repositories:
         published_at: '2026-02-11T09:24:39Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.432Z'
+      prompt_version: v3
   - repo: practical-tutorials/project-based-learning
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - tutorial
+      - projects
+      - resources
+      - webdevelopment
+      - learning
     summary: Curated list of project-based tutorials
     last_synced_sha: 243d33995fc5a616010fced6c9e131090e8e1a39
     user_starred_at: '2025-07-12T04:09:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -47767,15 +47816,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.432Z'
+      prompt_version: v3
   - repo: stax76/awesome-mpv
     categories:
-      - unclassified
-    tags: []
+      - documentation
+    tags:
+      - mpv
+      - media-player
+      - awesome-list
+      - video-player
+      - resources
     summary: A curated list of awesome mpv resources.
     last_synced_sha: 53c6c186f55b380924ce4fc9f6035a12267f00c0
     user_starred_at: '2025-07-12T02:24:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -47803,15 +47861,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.431Z'
+      prompt_version: v3
   - repo: Huanshere/VideoLingo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-translation
+      - voice-cloning
+      - lang:python
+      - localization
+      - automation
     summary: Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组
     last_synced_sha: b94d8fcd0897626b6110f43683f6a9fff222e446
     user_starred_at: '2025-07-12T02:11:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -47836,15 +47904,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.431Z'
+      prompt_version: v3
   - repo: sindresorhus/observable-to-promise
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - observable
+      - promise
+      - lang:js
+      - conversion
+      - async
     summary: Convert an Observable to a Promise
     last_synced_sha: 8418990822686d2f2bff77a7d877641ad9b042eb
     user_starred_at: '2025-07-12T01:36:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -47864,15 +47942,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.431Z'
+      prompt_version: v3
   - repo: MichalLytek/type-graphql
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - graphql
+      - api
+      - schema
+      - lang:ts
+      - resolvers
+      - decorators
     summary: Create Graph QL schema and resolvers with Type Script, using classes and decorators!
     last_synced_sha: 899ad79ee8d304e6550f48883f61aef161fd8f01
     user_starred_at: '2025-07-12T01:34:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -47903,15 +47992,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.431Z'
+      prompt_version: v3
   - repo: unjs/consola
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - console-logging
+      - node
+      - lang:ts
+      - cli
+      - structured-logging
     summary: 🐨 Elegant Console Logger for Node.js and Browser
     last_synced_sha: 512d570b3f99a27b6766a885cae2730aa3dc0ed4
     user_starred_at: '2025-07-12T01:32:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -47937,15 +48036,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.431Z'
+      prompt_version: v3
   - repo: june07/nimv3
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - debugging
+      - inspector
+      - lang:js
+      - devtools
+      - workflow
     summary: Streamline Your Java Script V8 (Node.js/Deno) Debugging Workflow
     last_synced_sha: e39523f2aa37b0feecd5d3fa6875d592a5208adb
     user_starred_at: '2025-07-12T01:30:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -47981,15 +48090,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.431Z'
+      prompt_version: v3
   - repo: ipfs/helia
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - web-dev
+    tags:
+      - ipfs
+      - decentralization
+      - lang:ts
+      - network-protocols
     summary: An implementation of IPFS in Type Script
     last_synced_sha: 2c225e851888a2d7b99f53981120f3110d87baed
     user_starred_at: '2025-07-12T01:26:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48011,15 +48129,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.431Z'
+      prompt_version: v3
   - repo: wavetermdev/waveterm
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - terminal
+      - cross-platform
+      - developer-tools
+      - lang:go
+      - workflow
+      - cli
     summary: An open-source, cross-platform terminal for seamless workflows
     last_synced_sha: e8d6ff5b052a4b96b983cfbfd8e35c0c06360532
     user_starred_at: '2025-07-12T01:21:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -48047,15 +48176,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.431Z'
+      prompt_version: v3
   - repo: rescript-lang/rescript
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+    tags:
+      - compiler
+      - lang:rescript
+      - javascript
+      - altjs
+      - strong-typing
     summary: Re Script is a robustly typed language that compiles to efficient and human-readable Java Script.
     last_synced_sha: f0b3b3bef575066e0de267fd4e0cfad09a0ae32a
     user_starred_at: '2025-07-12T01:21:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: ReScript
       topics:
@@ -48079,15 +48217,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.431Z'
+      prompt_version: v3
   - repo: alibaba/formily
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - frameworks
+    tags:
+      - form-builder
+      - json-schema
+      - reactive
+      - lang:ts
+      - react
+      - vue
     summary: 📱🚀 🧩 Cross Device & High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3
     last_synced_sha: d9a46442a575aa5f0fc1bd945e34d9a85d191d0e
     user_starred_at: '2025-07-12T01:19:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48125,7 +48274,11 @@ repositories:
         published_at: '2025-05-15T09:53:46Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:14:29.431Z'
+      prompt_version: v3
   - repo: styleguidist/react-styleguidist
     categories:
       - ui-libraries
