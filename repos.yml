@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:14:30.943Z'
+  manifest_updated_at: '2026-02-28T04:15:06.875Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -47084,13 +47084,18 @@ repositories:
     framework: null
   - repo: rachitt96/pyRealtor
     categories:
-      - unclassified
-    tags: []
+      - data-science
+    tags:
+      - real-estate-data
+      - lang:python
+      - data-analysis
+      - realtor
+      - houses
     summary: Python package to extract and analyse Canadian, United States and Indian real estate data from REALTOR.CA, REALTOR.COM and HOUSING.COM
     last_synced_sha: ae66a078e3f4d43d3baf6a6aaaa23eefc2769c8d
     user_starred_at: '2025-07-12T05:49:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -47116,15 +47121,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.417Z'
+      prompt_version: v3
   - repo: tysonthomas9/realtor-agent
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-powered
+      - property-analysis
+      - lang:python
+      - real-estate
+      - contracts
     summary: 'Realtor Agent: AI-powered tool for property analysis, running comparables, and assisting with contract document finalization in real estate transactions.'
     last_synced_sha: 0b406de995a4c508ed453ba208a54d9f59a5308b
     user_starred_at: '2025-07-12T05:48:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -47147,15 +47162,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.417Z'
+      prompt_version: v3
   - repo: moov-io/fincen
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+      - productivity
+    tags:
+      - fincen
+      - lang:go
+      - bsa-forms
+      - finance
     summary: Fincen BSA E-Filing forms
     last_synced_sha: d302df03425b5c27720ae615b5efe0d3f38d53bd
     user_starred_at: '2025-07-12T05:41:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -47179,15 +47204,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.417Z'
+      prompt_version: v3
   - repo: perspective-dev/perspective
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ui-libraries
+      - ai-ml
+    tags:
+      - data-visualization
+      - real-time
+      - lang:cpp
+      - analytics
+      - streaming
     summary: A data visualization and analytics component, especially well-suited for large and/or streaming datasets.
     last_synced_sha: 93b36bb67fb65016e77727869bd255ad0d5415ff
     user_starred_at: '2025-07-12T05:40:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -47215,15 +47251,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.417Z'
+      prompt_version: v3
   - repo: moov-io/awesome-fintech
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - banking
+      - payment-gateway
+      - fintech
+      - resources
+      - awesome-list
     summary: A curated collection of open source fintech libraries and resources.
     last_synced_sha: 1b791e3ce02ca4aebde8407bd18093cc8be520a2
     user_starred_at: '2025-07-12T05:39:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -47244,15 +47290,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.417Z'
+      prompt_version: v3
   - repo: 7kfpun/awesome-fintech
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - fintech
+      - resources
+      - awesome-list
     summary: A curated list of amazingly awesome financial libraries, resources and shiny things.
     last_synced_sha: af8eb89ebfba8b8c4b3abcbca4af2468c4d497ec
     user_starred_at: '2025-07-12T05:38:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -47270,15 +47324,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.417Z'
+      prompt_version: v3
   - repo: Galaxies-dev/fintech-clone-react-native
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ui-libraries
+    tags:
+      - fintech
+      - lang:ts
+      - clone
+      - mobile-app
     summary: No description provided
     last_synced_sha: ff23a1f50bbdefcee5f85cc856a03e92b3a1d8df
     user_starred_at: '2025-07-12T05:38:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -47296,15 +47359,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.417Z'
+      prompt_version: v3
   - repo: 4GeeksAcademy/realestate-datacleanup-exercise
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - learning
+    tags:
+      - data-cleanup
+      - real-estate
+      - lang:jupyter-notebook
     summary: No description provided
     last_synced_sha: 8cec2d2101779e1d5acba466905fd1fdf2c4cf6c
     user_starred_at: '2025-07-12T05:33:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -47322,15 +47393,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.417Z'
+      prompt_version: v3
   - repo: nhost/nhost
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - databases
+      - apis
+    tags:
+      - firebase-alternative
+      - graphql
+      - lang:ts
+      - serverless
+      - authentication
     summary: The Open Source Firebase Alternative with Graph QL.
     last_synced_sha: f9f7446c4bb59d83e6280af3fa9cad28f0ee926a
     user_starred_at: '2025-07-12T04:44:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -47369,15 +47451,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.417Z'
+      prompt_version: v3
   - repo: adrianhajdin/project_graphql_blog
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - graphql
+      - headless
+      - lang:js
+      - blog
+      - fully-responsive
     summary: With featured and recent posts, categories. full markdown articles, author information, comments, and much more, this fully responsive CMS Blog App is the best Blog Application that you can current...
     last_synced_sha: 0d731ac97603fd2c725f0f2056036c9cfdc42385
     user_starred_at: '2025-07-12T04:43:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -47399,15 +47491,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.417Z'
+      prompt_version: v3
   - repo: kriasoft/graphql-starter-kit
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - frameworks
+      - web-dev
+    tags:
+      - graphql
+      - postgresql
+      - lang:ts
+      - monorepo
+      - template
     summary: 💥 Monorepo template (seed project) pre-configured with Graph QL API, Postgre SQL, React, and Joy UI.
     last_synced_sha: d35106349570002a771d70f7187c5030dd2bd7fe
     user_starred_at: '2025-07-12T04:40:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -47444,16 +47547,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.417Z'
+      prompt_version: v3
   - repo: ChilliCream/graphql-platform
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+      - frameworks
+    tags:
+      - graphql
+      - dotnet
+      - lang:csharp
+      - graphql-server
+      - asp-net-core
     summary: Welcome to the home of the Hot Chocolate Graph QL server for .NET, the Strawberry Shake Graph QL client for .NET and Nitro the awesome Monaco based Graph QL IDE.
     last_synced_sha: be05d1b2ad9a20f2129f493dcf46619009ab304f
     user_starred_at: '2025-07-12T04:40:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -47493,15 +47607,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.417Z'
+      prompt_version: v3
   - repo: dotansimha/graphql-code-generator
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+      - productivity
+    tags:
+      - graphql
+      - code-generation
+      - lang:ts
+      - resolvers
+      - plugins
     summary: A tool for generating code based on a Graph QL schema and Graph QL operations (query/mutation/subscription), with flexible support for custom plugins.
     last_synced_sha: 030100aa64917818bc14c44a582fc3a19f2d18c8
     user_starred_at: '2025-07-12T04:38:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -47534,15 +47659,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.417Z'
+      prompt_version: v3
   - repo: gicentre/litvis
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - learning
+      - ui-libraries
+    tags:
+      - visualization
+      - narrative
+      - literate-programming
+      - lang:ts
+      - vega
     summary: 'Literate Visualization: Theory, software and examples'
     last_synced_sha: 669fa800b3706aba3488ce45ec913d84a687a30c
     user_starred_at: '2025-07-12T04:34:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -47569,15 +47705,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.417Z'
+      prompt_version: v3
   - repo: realworld-apps/realworld
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+      - learning
+    tags:
+      - fullstack
+      - example-app
+      - lang:ts
+      - react
+      - angular
     summary: '"The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more'
     last_synced_sha: 263dd7c8c07dd2b3799ebcd2825512b46db0e9b7
     user_starred_at: '2025-07-12T04:28:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -47595,6 +47742,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:15:05.416Z'
+      prompt_version: v3
   - repo: anishkny/playwright-test-coverage
     categories:
       - testing
