@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:54:08.327Z'
+  manifest_updated_at: '2026-02-28T04:54:38.349Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -9529,13 +9529,20 @@ repositories:
     framework: null
   - repo: slsa-framework/slsa-github-generator
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+      - system-admin
+    tags:
+      - slsa
+      - github-actions
+      - lang:go
+      - security-tools
+      - hardening
     summary: Language-agnostic SLSA provenance generation for Github Actions
     last_synced_sha: a09dd8c05eda63cace134cb7dccd7e019f25e6f3
     user_starred_at: '2026-02-04T03:35:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -9560,15 +9567,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: thinkwee/DDR_Bench
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - learning
+    tags:
+      - deep-data-research
+      - lang:python
     summary: Deep Data Research. Seek More, See Beyond.
     last_synced_sha: cc0aafb01e3fb76f3522a69e8c1474d4490c439a
     user_starred_at: '2026-02-04T03:17:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -9586,15 +9600,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: gadievron/raptor
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+      - automation
+    tags:
+      - security-agent
+      - orchestration
+      - lang:python
     summary: Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and orchestrating security tool usage, we confi...
     last_synced_sha: f9dde5ea18a94ecee65ac040923e780f1edc2ef7
     user_starred_at: '2026-02-04T03:16:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -9612,15 +9635,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: vicinaehq/vicinae
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+      - ui-libraries
+    tags:
+      - app-launcher
+      - productivity-tool
+      - lang:cpp
+      - qt
+      - native-desktop-app
     summary: A focused launcher for your desktop — native, fast, extensible
     last_synced_sha: da7f5d5356eafce04e717ede00c8fecdbaa2c18a
     user_starred_at: '2026-02-03T13:47:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -9648,15 +9682,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: dustinspecker/awesome-eslint
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - eslint
+      - awesome-list
+      - linting
     summary: A list of awesome ESLint plugins, configs, etc.
     last_synced_sha: e4c32b7f5c877e43b4e95cc109a0d34be6bf15e1
     user_starred_at: '2026-02-02T16:10:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -9678,15 +9720,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: jacob-j/vscode-folder-path-color
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - vscode
+      - file-management
+      - lang:ts
+      - folder-organization
     summary: All subfolders within a specified path will be assigned a color for easy differentiation.
     last_synced_sha: 1f028e2a410695cdd05f4a875428496c8796a287
     user_starred_at: '2026-02-02T06:39:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -9704,15 +9755,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: webpro-nl/knip
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - dependency-management
+      - unused-code
+      - lang:ts
+      - linter
+      - typescript
     summary: ✂️ Find unused files, dependencies and exports in your Java Script and Type Script projects. Knip it before you ship it!
     last_synced_sha: de4c7d898f83a52ea80a374d9395bcb109f39c23
     user_starred_at: '2026-02-01T05:15:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9742,15 +9803,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: google/timesketch
     categories:
-      - unclassified
-    tags: []
+      - security
+      - data-science
+      - ai-ml
+    tags:
+      - forensics
+      - timeline-analysis
+      - lang:python
+      - security
+      - dfir
     summary: Collaborative forensic timeline analysis
     last_synced_sha: 7e7820637da12436bdbbd3edc0c4dc251f5f42ea
     user_starred_at: '2026-02-01T05:14:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -9775,15 +9847,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: cytoscape/cytoscape.js
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+      - data-science
+    tags:
+      - graph-theory
+      - network-visualisation
+      - lang:js
+      - visualization
+      - analysis
     summary: Graph theory (network) library for visualisation and analysis
     last_synced_sha: 57e681a052d79c02f6e9fa802ff0c9ce9a77ff3e
     user_starred_at: '2026-02-01T05:13:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -9810,15 +9893,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: patrickhulce/third-party-web
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - web-dev
+    tags:
+      - web-analysis
+      - third-party-data
+      - lang:js
+      - httparchive
+      - data-analysis
     summary: Data on third party entities and their impact on the web.
     last_synced_sha: 960c0dd5cd4f7ced8a701a38349a0cd907f94f22
     user_starred_at: '2026-02-01T05:05:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -9843,15 +9936,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: sindresorhus/eslint-plugin-unicorn
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - eslint
+      - eslint-plugin
+      - linting
+      - lang:js
+      - nodejs
+      - rules
     summary: More than 100 powerful ESLint rules
     last_synced_sha: 14d1200a2fb0ef42fab51e5861ccb7554a72a92c
     user_starred_at: '2026-02-01T02:29:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -9880,15 +9984,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: typescript-eslint/typescript-eslint
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - typescript
+      - eslint
+      - eslint-plugin
+      - lang:ts
     summary: ':sparkles: Monorepo for all the tooling which enables ESLint to support Type Script'
     last_synced_sha: a09921e2de2e8790e6a803016b825815ca9409d8
     user_starred_at: '2026-02-01T01:48:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9914,15 +10027,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: eslint/config-inspector
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - eslint
+      - visual-inspector
+      - devtools
+      - lang:vue
     summary: A visual tool for inspecting and understanding your ESLint flat configs.
     last_synced_sha: 13a44a7bf02bbf4ff9fd78a0bfb994ac92993430
     user_starred_at: '2026-02-01T01:29:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -9945,16 +10067,27 @@ repositories:
         published_at: '2025-11-23T00:45:28Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: Dicklesworthstone/agentic_coding_flywheel_setup
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - system-admin
+    tags:
+      - ai-workflow
+      - automation
+      - multi-agent
+      - lang:shell
+      - vps-setup
     summary: 'Bootstraps a fresh Ubuntu VPS into a complete multi-agent AI development environment in 30 minutes: coding agents, session management, safety tools, and coordination infrastructure'
     last_synced_sha: 332c4fc513e889ef5c476c0fd16f65961ec177fc
     user_starred_at: '2026-01-31T13:51:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -9979,15 +10112,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: facebook/memlab
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - dev-tools
+      - web-dev
+    tags:
+      - memory-leaks
+      - heap-snapshots
+      - lang:js
+      - nodejs
+      - analysis
     summary: A framework for finding Java Script memory leaks and analyzing heap snapshots
     last_synced_sha: 5e285cf2ca82727da0a3852d6f8b3035238a3c62
     user_starred_at: '2026-01-31T13:50:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -10018,6 +10162,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:54:36.819Z'
+      prompt_version: v3
   - repo: cursor/agent-trace
     categories:
       - ai-ml
