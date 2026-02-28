@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:25:08.507Z'
+  manifest_updated_at: '2026-02-28T04:25:43.294Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -36787,13 +36787,20 @@ repositories:
     framework: null
   - repo: LykosAI/StabilityMatrix
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+      - productivity
+    tags:
+      - stable-diffusion
+      - lang:csharp
+      - package-manager
+      - multi-platform
+      - text2image
     summary: Multi-Platform Package Manager for Stable Diffusion
     last_synced_sha: 73eac4d38de2dc1e557a48022fbb0e6f02ba8f55
     user_starred_at: '2025-09-22T15:48:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -36822,15 +36829,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.742Z'
+      prompt_version: v3
   - repo: OpenRA/OpenRA
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - desktop-dev
+    tags:
+      - game-engine
+      - lang:csharp
+      - strategy-game
+      - cross-platform
+      - open-source
     summary: 'Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and Open GL. Runs on Windows, Linux, *BSD and Mac OS X.'
     last_synced_sha: 0938a27ae937957c63e3275f00bf730aecdc04bb
     user_starred_at: '2025-09-22T15:47:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -36865,15 +36882,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.742Z'
+      prompt_version: v3
   - repo: asgeirtj/system_prompts_leaks
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+      - documentation
+    tags:
+      - ai
+      - chatgpt
+      - lang:html
+      - llm
+      - generative-ai
     summary: Collection of extracted System Prompts from popular chatbots like Chat GPT, Claude & Gemini
     last_synced_sha: 96d4be5983f8aa50218a6e7f25c3c288bd87b8df
     user_starred_at: '2025-09-22T15:47:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -36905,15 +36933,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.742Z'
+      prompt_version: v3
   - repo: simdjson/simdjson
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - dev-tools
+      - web-dev
+    tags:
+      - json-parser
+      - lang:cpp
+      - simd
+      - performance
+      - json
     summary: 'Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, Click House, Watermelon DB, Apache Doris, Milvus, Star Rocks'
     last_synced_sha: 7dcc196f66fd181e27998ce818ed0a1e4e11909c
     user_starred_at: '2025-09-22T15:46:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -36953,15 +36992,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.742Z'
+      prompt_version: v3
   - repo: ytdl-org/youtube-dl
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+      - networking
+    tags:
+      - video-downloader
+      - lang:python
+      - cli-tool
+      - youtube
+      - download
     summary: Command-line program to download videos from You Tube.com and other video sites
     last_synced_sha: 956b8c585591b401a543e409accb163eeaaa1193
     user_starred_at: '2025-09-22T15:45:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -36981,15 +37031,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.741Z'
+      prompt_version: v3
   - repo: iyaja/llama-fs
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - system-admin
+    tags:
+      - file-system
+      - lang:ts
+      - self-organizing
+      - llama3
     summary: A self-organizing file system with llama 3
     last_synced_sha: 0a693717ca1845b3ae8c208b2929d987fcdabb81
     user_starred_at: '2025-09-22T15:41:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -37007,15 +37067,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.741Z'
+      prompt_version: v3
   - repo: formatjs/formatjs
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+      - ui-libraries
+    tags:
+      - react
+      - internationalization
+      - lang:ts
+      - i18n
+      - localization
     summary: The monorepo home to all of the Format JS related libraries, most notably react-intl.
     last_synced_sha: 5a78cfb4a3ed73df1095d8ee9fd8596db91f0955
     user_starred_at: '2025-09-22T15:39:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -37045,16 +37116,27 @@ repositories:
         published_at: '2026-02-25T21:15:25Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.741Z'
+      prompt_version: v3
   - repo: manaflow-ai/manaflow
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+      - productivity
+    tags:
+      - alternative
+      - cloud
+      - lang:ts
+      - web-ai
+      - inspection
     summary: Open source Claude Code web/Codex Cloud/Devin/Ramp Inspect alternative
     last_synced_sha: 00ebb3e55977d8b35845455d6a3a18f1018552d4
     user_starred_at: '2025-09-22T15:37:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -37074,15 +37156,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.741Z'
+      prompt_version: v3
   - repo: beefproject/beef
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+      - automation
+    tags:
+      - browser-exploitation
+      - framework
+      - lang:js
+      - web-security
     summary: The Browser Exploitation Framework Project
     last_synced_sha: 56b32f5da6717b1a3163f3ac40d27928be28512a
     user_starred_at: '2025-09-22T15:36:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -37102,15 +37194,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.741Z'
+      prompt_version: v3
   - repo: XTXMarkets/ternfs
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+      - monitoring
+    tags:
+      - distributed-file-system
+      - storage
+      - lang:cpp
+      - multi-region
+      - scale
     summary: An exabyte-scale, multi-region distributed file system
     last_synced_sha: 811bf30f696376911414f206c917a545e16a25c7
     user_starred_at: '2025-09-22T15:34:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -37130,15 +37233,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.741Z'
+      prompt_version: v3
   - repo: langchain-ai/social-media-agent
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+      - ai-ml
+    tags:
+      - social-media
+      - human-in-the-loop
+      - agent
+      - lang:ts
+      - scheduling
     summary: 📲 An agent for sourcing, curating, and scheduling social media posts with human-in-the-loop.
     last_synced_sha: 39550bfb14aee2303c836011693c655eaf782e92
     user_starred_at: '2025-09-22T09:42:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -37156,15 +37270,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.741Z'
+      prompt_version: v3
   - repo: teableio/teable
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - productivity
+      - cloud
+    tags:
+      - sqlite
+      - postgresql
+      - airtable-alternative
+      - lang:ts
+      - realtime
     summary: '✨ The Next Gen Airtable Alternative: No-Code Postgres'
     last_synced_sha: 367739c6de348de5e94133ed4f4e1b6ac3195ce7
     user_starred_at: '2025-09-22T08:41:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -37197,15 +37322,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.741Z'
+      prompt_version: v3
   - repo: home-assistant/frontend
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - web-dev
+      - ui-libraries
+    tags:
+      - home-assistant
+      - home-automation
+      - frontend
+      - lang:ts
+      - webcomponents
     summary: ':lollipop: Frontend for Home Assistant'
     last_synced_sha: 82b28b547a24c7bdb35fcfd3d1b876a303ad8735
     user_starred_at: '2025-09-22T08:41:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -37232,15 +37368,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.741Z'
+      prompt_version: v3
   - repo: vercel/swr
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - frameworks
+      - productivity
+    tags:
+      - react
+      - data-fetching
+      - hooks
+      - lang:ts
+      - suspense
     summary: React Hooks for Data Fetching
     last_synced_sha: 5fa29522f196db2ad9d2083193c3b63214256c19
     user_starred_at: '2025-09-22T08:40:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -37272,16 +37419,26 @@ repositories:
         published_at: '2026-02-01T03:02:37Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.741Z'
+      prompt_version: v3
   - repo: Gregivy/simpleddp
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - ddp-client
+      - meteor
+      - lang:js
+      - reactive
+      - real-time
     summary: An easy to use DDP client library
     last_synced_sha: 4bd415ee52e4023787e401111d9be5ca788a333b
     user_starred_at: '2025-09-21T14:56:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -37310,6 +37467,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:25:41.741Z'
+      prompt_version: v3
   - repo: microsoft/ai-dev-gallery
     categories:
       - ai-ml
