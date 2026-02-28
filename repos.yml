@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:23:05.638Z'
+  manifest_updated_at: '2026-02-28T04:23:36.052Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -38850,13 +38850,19 @@ repositories:
     framework: null
   - repo: zama-ai/fhevm
     categories:
-      - unclassified
-    tags: []
+      - security
+      - frameworks
+    tags:
+      - privacy
+      - homomorphic-encryption
+      - lang:rust
+      - fhe
+      - blockchain-integration
     summary: FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications
     last_synced_sha: 0d289aedd66ee4c2a42ab2e6abc652ba5e40a15d
     user_starred_at: '2025-09-13T06:41:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -38879,15 +38885,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.570Z'
+      prompt_version: v3
   - repo: ClemensElflein/OpenMower
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - embedded
+    tags:
+      - lawn-mower
+      - gps-mapping
+      - robotics
+      - lang:cpp
+      - arduino
     summary: Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots!
     last_synced_sha: 4f11e685f3011ab97c067595259cb078baa500be
     user_starred_at: '2025-09-13T06:41:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -38918,15 +38934,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.570Z'
+      prompt_version: v3
   - repo: 11cafe/jaaz
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - creative-assistant
+      - ai-generator
+      - lang:ts
+      - multimodal-ai
+      - design-tools
     summary: The world's first open-source multimodal creative assistant This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.
     last_synced_sha: 48f4b6e94e1466149f8ca5aa626d7742b4316789
     user_starred_at: '2025-09-13T06:41:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38957,15 +38983,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.570Z'
+      prompt_version: v3
   - repo: Vector-Wangel/XLeRobot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - home-automation
+      - dual-arm-robot
+      - mobile-robot
+      - lang:python
     summary: 'XLe Robot: Practical Dual-Arm Mobile Home Robot for $660'
     last_synced_sha: 29e1ef5b41451577ccfb6bf64b0a87dbe47f75b6
     user_starred_at: '2025-09-13T06:38:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -38983,15 +39018,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.570Z'
+      prompt_version: v3
   - repo: sentient-agi/ROMA
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - multi-agent-systems
+      - meta-agent
+      - ai-framework
+      - lang:python
     summary: Recursive-Open-Meta-Agent v0.1 (Beta). A meta-agent framework to build high-performance multi-agent systems.
     last_synced_sha: a6e3bb4f9e0694375fa627fa4b8bf8cae50592a6
     user_starred_at: '2025-09-13T06:37:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -39011,15 +39055,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.570Z'
+      prompt_version: v3
   - repo: Ripple-TS/ripple
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - frameworks
+    tags:
+      - ui-framework
+      - elegant
+      - lang:js
+      - typescript
     summary: the elegant Type Script UI framework
     last_synced_sha: b9e45399f8ab9f15250a4665b1590413c2d0303e
     user_starred_at: '2025-09-13T06:35:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -39039,15 +39092,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.570Z'
+      prompt_version: v3
   - repo: danielmiessler/Fabric
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - human-augmentation
+      - modular-ai
+      - lang:go
+      - collaboration
+      - ai-enhancements
     summary: Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
     last_synced_sha: e1065e9e622a8dc32c14a5687e7b9ad3f1fe7731
     user_starred_at: '2025-09-13T06:33:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -39072,15 +39135,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.570Z'
+      prompt_version: v3
   - repo: docling-project/docling
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - documentation
+    tags:
+      - document-processing
+      - lang:python
+      - ai
+      - ocr
+      - parser
     summary: Get your documents ready for gen AI
     last_synced_sha: 1eb5c21dabfed02bfe71cb7fc502d124562f1ba8
     user_starred_at: '2025-09-13T06:31:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -39115,15 +39189,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.570Z'
+      prompt_version: v3
   - repo: makeswift/makeswift
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - ui
+      - builder
+      - drag-and-drop
+      - lang:ts
     summary: No description provided
     last_synced_sha: c7a5b1a43c817ca3b5c12f935a5ebb45dcf1241c
     user_starred_at: '2025-09-13T05:27:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -39143,15 +39226,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.569Z'
+      prompt_version: v3
   - repo: neondatabase/neon
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - cloud
+    tags:
+      - serverless
+      - postgresql
+      - lang:rust
+      - autoscaling
+      - cloud-databases
     summary: 'Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.'
     last_synced_sha: 39e4f234633fa480cebcdf09993628779d73c094
     user_starred_at: '2025-09-13T04:52:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -39176,15 +39269,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.569Z'
+      prompt_version: v3
   - repo: github/spec-kit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+      - ai-ml
+    tags:
+      - spec-driven-development
+      - tooling
+      - engineering
+      - lang:python
+      - ai
     summary: 💫 Toolkit to help you get started with Spec-Driven Development
     last_synced_sha: b55d00beedc1d4596a5170396e2683e7b31be3e7
     user_starred_at: '2025-09-12T17:56:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -39211,15 +39315,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.569Z'
+      prompt_version: v3
   - repo: jamesmcroft/bicep-templates
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - cloud
+    tags:
+      - infrastructure-as-code
+      - templates
+      - automation
+      - azure
+      - lang:bicep
     summary: A centralized resource for providing baseline templates for building and deploying infrastructure-as-code best practices using Azure Bicep
     last_synced_sha: 73f8d51931d66df62e7823f465a98326d29673f5
     user_starred_at: '2025-09-11T19:28:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -39241,15 +39355,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.569Z'
+      prompt_version: v3
   - repo: continuedev/continue
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+      - automation
+    tags:
+      - ci
+      - ai
+      - llm
+      - lang:ts
+      - cli
     summary: ⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI
     last_synced_sha: 9b88c2737306f7c8c15d4f009e430d7932db38fb
     user_starred_at: '2025-09-11T19:21:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -39281,15 +39406,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.569Z'
+      prompt_version: v3
   - repo: Azure/industry-policy-portfolio
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - security
+    tags:
+      - compliance
+      - regulations
+      - policy
     summary: The Industry Policy Portfolio's Policy Initiatives aid in customizing deployments to reduce the time needed to audit environments and meet established regulatory compliance frameworks in regulated ...
     last_synced_sha: 4f4bfa546b8719dfaed9b428dec87ceff0476017
     user_starred_at: '2025-09-11T10:56:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -39309,15 +39442,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.566Z'
+      prompt_version: v3
   - repo: Azure/playwright-workspaces
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - testing
+    tags:
+      - playwright
+      - automation
+      - end-to-end-testing
     summary: No description provided
     last_synced_sha: e738aaaf79dc82c7d7f4938eb5f0c8dc5bde3847
     user_starred_at: '2025-09-11T10:04:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -39335,6 +39476,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:23:34.566Z'
+      prompt_version: v3
   - repo: ErsatzTV/ErsatzTV
     categories:
       - desktop-dev
