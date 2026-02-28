@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:41:09.437Z'
+  manifest_updated_at: '2026-02-28T04:41:34.668Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -22173,13 +22173,17 @@ repositories:
     framework: null
   - repo: bluesky-social/social-app
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - web-dev
+    tags:
+      - social-app
+      - cross-platform
+      - lang:ts
     summary: The Bluesky Social application for Web, i OS, and Android
     last_synced_sha: 6cdc1fe2b51203ce83b0d375ecdcbb4dcf2ea568
     user_starred_at: '2025-12-18T09:59:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -22199,15 +22203,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.200Z'
+      prompt_version: v3
   - repo: refly-ai/refly
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+      - apis
+    tags:
+      - agent-skills
+      - bot-development
+      - lang:ts
     summary: The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are...
     last_synced_sha: 8379fd1a7c2dd023f4b1e8aa313f238a120c9d47
     user_starred_at: '2025-12-18T09:59:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -22244,15 +22257,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.200Z'
+      prompt_version: v3
   - repo: rybbit-io/rybbit
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - apis
+    tags:
+      - analytics
+      - web-analytics
+      - lang:ts
     summary: 🐸 Rybbit - open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive.
     last_synced_sha: 8d375adeceeaa7f596f09775b87c3d4d07d54042
     user_starred_at: '2025-12-18T09:59:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -22276,15 +22297,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.200Z'
+      prompt_version: v3
   - repo: 0x4D31/awesome-threat-detection
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - threat-hunting
+      - incident-response
     summary: ✨ A curated list of awesome threat detection and hunting resources 🕵️‍♂️
     last_synced_sha: f1e6a1528c2690d02fa87a97c860235eabc34639
     user_starred_at: '2025-12-18T09:58:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -22309,15 +22337,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.200Z'
+      prompt_version: v3
   - repo: showlab/Awesome-Video-Diffusion
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - video-generation
+      - diffusion-models
     summary: A curated list of recent diffusion models for video generation, editing, and various other applications.
     last_synced_sha: 8969e52b32b0bd8ae6c72aac61c876bf0918f3cf
     user_starred_at: '2025-12-18T09:57:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -22341,15 +22376,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.200Z'
+      prompt_version: v3
   - repo: awesome-jellyfin/awesome-jellyfin
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - jellyfin
+      - awesome-list
+      - lang:shell
     summary: A Collection of Awesome Jellyfin Plugins, Themes, Guides and More!
     last_synced_sha: 6604121125b48e6cf03f600591262ef50cc8323d
     user_starred_at: '2025-12-18T09:57:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -22370,15 +22413,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.200Z'
+      prompt_version: v3
   - repo: korfuri/awesome-monorepo
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - monorepo
+      - awesome-list
     summary: A curated list of awesome Monorepo tools, software and architectures.
     last_synced_sha: 2d1d1b96df9e845a035b351675de660c9fd752cf
     user_starred_at: '2025-12-18T09:57:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -22399,15 +22449,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.200Z'
+      prompt_version: v3
   - repo: xxh/xxh
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - ssh
+      - shell
+      - lang:python
     summary: 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on.
     last_synced_sha: 9e44c4cc180ebcf5ac997c5c3b5079da0ad7c65b
     user_starred_at: '2025-12-18T09:56:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -22447,15 +22505,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.200Z'
+      prompt_version: v3
   - repo: chrissimpkins/codeface
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - code-beautification
+      - fonts
+      - lang:python
     summary: Typefaces for source code beautification
     last_synced_sha: 40538ae5ffee793c98355b2c03c30130aed51932
     user_starred_at: '2025-12-18T09:55:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -22488,15 +22554,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.200Z'
+      prompt_version: v3
   - repo: humhub/humhub
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - documentation
+    tags:
+      - social-network
+      - enterprise-social-networks
+      - lang:php
     summary: Hum Hub is an Open Source Enterprise Social Network. Easy to install, intuitive to use and extendable with countless freely available modules.
     last_synced_sha: 3304fc0003be89a55cb30b44e741602e9b5b6fbf
     user_starred_at: '2025-12-18T09:55:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -22525,15 +22599,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.200Z'
+      prompt_version: v3
   - repo: imfunniee/gitfolio
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - personal-website
+      - blog
+      - lang:js
     summary: ':octocat: personal website + blog for every github user'
     last_synced_sha: 2f8fd941db3848a4f1e2067004ea96f60ecd8608
     user_starred_at: '2025-12-18T09:55:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: JavaScript
@@ -22561,15 +22643,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.200Z'
+      prompt_version: v3
   - repo: ChromeDevTools/awesome-chrome-devtools
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - chrome-devtools
+      - awesome-list
     summary: Awesome tooling and resources in the Chrome Dev Tools & Dev Tools Protocol ecosystem
     last_synced_sha: 9200689a794d495d4b902edea78f640939985eca
     user_starred_at: '2025-12-18T09:54:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -22589,15 +22678,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.197Z'
+      prompt_version: v3
   - repo: JoseDeFreitas/awesome-youtubers
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - web-dev
+    tags:
+      - tutorials
+      - awesome-list
+      - lang:markdown
     summary: An awesome list of awesome You Tubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.
     last_synced_sha: ddffe18230ffd5253df0d7e38ad8b73d5f63e71b
     user_starred_at: '2025-12-18T09:54:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Markdown
       topics:
@@ -22620,15 +22717,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.197Z'
+      prompt_version: v3
   - repo: thangchung/clean-code-dotnet
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - productivity
+    tags:
+      - clean-code
+      - best-practices
+      - lang:csharp
     summary: ':bathtub: Clean Code concepts and tools adapted for .NET'
     last_synced_sha: a604cf99e618de359cf34c5384a16fe72a5db2f4
     user_starred_at: '2025-12-18T09:54:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -22658,15 +22763,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.197Z'
+      prompt_version: v3
   - repo: kmaasrud/awesome-obsidian
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - obsidian
+      - awesome-list
+      - lang:css
     summary: 🕶️ Awesome stuff for Obsidian
     last_synced_sha: f5e4b78deb96353254b4e446434f44d6e6ab5c48
     user_starred_at: '2025-12-18T09:53:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics:
@@ -22687,6 +22800,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:41:33.196Z'
+      prompt_version: v3
   - repo: grpc-ecosystem/awesome-grpc
     categories:
       - apis
