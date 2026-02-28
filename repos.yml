@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:48:32.927Z'
+  manifest_updated_at: '2026-02-28T04:49:03.995Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -15090,13 +15090,19 @@ repositories:
     framework: null
   - repo: 1rgs/nanocode
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+      - learning
+    tags:
+      - code
+      - minimal
+      - python
+      - lang:python
     summary: Minimal Claude Code alternative. Single Python file, zero dependencies, ~250 lines.
     last_synced_sha: b009d3dbedf14795a5c10804a5455386563f4b5b
     user_starred_at: '2026-01-13T14:11:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -15114,15 +15120,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.510Z'
+      prompt_version: v3
   - repo: Anjok07/ultimatevocalremovergui
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - vocal-removal
+      - spectrogram
+      - karaoke
+      - lang:python
     summary: GUI for a Vocal Remover that uses Deep Neural Networks.
     last_synced_sha: 5517e0cf0d1acd16a1618eeedec596957523f9e1
     user_starred_at: '2026-01-12T20:45:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -15154,15 +15169,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.510Z'
+      prompt_version: v3
   - repo: joelhooks/swarm-tools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agents
+      - multi-agent
+      - collaboration
+      - lang:ts
     summary: 🐝 Multi-agent swarm coordination for Open Code with learning capabilities, agent issue tracking, and management
     last_synced_sha: c0225bebda1d7fa4c87363a68183026e5b765cb3
     user_starred_at: '2026-01-11T15:42:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -15187,15 +15211,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.510Z'
+      prompt_version: v3
   - repo: prabirshrestha/dotfiles
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+      - documentation
+    tags:
+      - dotfiles
+      - configuration
+      - lang:lua
     summary: There is no place like ~
     last_synced_sha: f8c5d050aaef0c3eba73a77cf7c5d14847aae399
     user_starred_at: '2026-01-11T15:36:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics: []
@@ -15215,15 +15248,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.510Z'
+      prompt_version: v3
   - repo: Dicklesworthstone/coding_agent_session_search
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+      - productivity
+    tags:
+      - developer-tools
+      - search
+      - ai-agents
+      - lang:rust
     summary: Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.)
     last_synced_sha: 801e73affd9a94a592144d41dbf8c5bf49c34b77
     user_starred_at: '2026-01-11T15:26:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -15248,15 +15291,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.510Z'
+      prompt_version: v3
   - repo: randomascii/UIforETW
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - monitoring
+      - dev-tools
+    tags:
+      - etw
+      - tracing
+      - lang:cpp
     summary: User interface for recording and managing ETW traces
     last_synced_sha: 0168036340a0df18ac03ca4638ced02a5d2a6024
     user_starred_at: '2026-01-11T07:58:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C++
@@ -15277,15 +15329,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.510Z'
+      prompt_version: v3
   - repo: devicons/devicon
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - documentation
+    tags:
+      - icons
+      - stylesheet
+      - svg
+      - logos
+      - lang:css
     summary: Set of icons representing programming languages, designing & development tools
     last_synced_sha: 670a611ad1c3e057ee385168d65c8ab27a7e1be5
     user_starred_at: '2026-01-11T06:21:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics:
@@ -15313,15 +15375,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.510Z'
+      prompt_version: v3
   - repo: adriangalilea/namecheap-python
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+      - dev-tools
+    tags:
+      - sdk
+      - namecheap
+      - lang:python
     summary: A Python SDK for the Namecheap API & CLI/TUI tools using it
     last_synced_sha: 041d3a96380af735c7be9d29be215c0c3e4c31ae
     user_starred_at: '2026-01-10T07:46:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -15341,15 +15412,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.510Z'
+      prompt_version: v3
   - repo: marcelscruz/public-apis
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+      - dev-tools
+    tags:
+      - api-list
+      - open-source
+      - awesome-list
+      - lang:js
     summary: A collaborative list of public APIs for developers
     last_synced_sha: e4e8239d6d1c428a5a6b1f7083951a800642dead
     user_starred_at: '2026-01-09T21:17:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -15376,15 +15457,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.510Z'
+      prompt_version: v3
   - repo: lockfale/OSINT-Framework
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+      - learning
+    tags:
+      - osint
+      - reconnaissance
+      - intelligence-gathering
+      - lang:js
     summary: OSINT Framework
     last_synced_sha: c9655017bb8c56dc43664618b0b58a224865fccb
     user_starred_at: '2026-01-09T21:15:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -15408,15 +15499,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.510Z'
+      prompt_version: v3
   - repo: meshery/meshery
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - system-admin
+      - containers
+    tags:
+      - kubernetes
+      - cloud-native
+      - docker
+      - lang:html
     summary: Meshery, the cloud native manager
     last_synced_sha: 3315e20856258d042112882dc756a1a5b8242a33
     user_starred_at: '2026-01-09T21:14:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -15456,15 +15557,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.510Z'
+      prompt_version: v3
   - repo: simulot/immich-go
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - photos
+      - google-takeout
+      - lang:go
+      - cli
     summary: An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives.
     last_synced_sha: cc928edbce49216584647e5f756a2af6478bb7ea
     user_starred_at: '2026-01-09T21:13:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -15490,15 +15600,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.510Z'
+      prompt_version: v3
   - repo: Tencent/WeKnora
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+      - data-science
+    tags:
+      - llm
+      - chatbot
+      - generative-ai
+      - semantic-search
+      - lang:go
     summary: LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.
     last_synced_sha: 48cf6aeaea6ca7b30096af7f38c112e956f0adaf
     user_starred_at: '2026-01-09T21:13:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -15538,15 +15659,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.510Z'
+      prompt_version: v3
   - repo: v2fly/domain-list-community
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - domain-management
+      - geosite
+      - v2ray
+      - lang:go
     summary: Community managed domain list. Generate geosite.dat for V2Ray.
     last_synced_sha: 71e31ba2218566a10741dcd86713158a7b962867
     user_starred_at: '2026-01-09T21:12:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -15568,15 +15698,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.509Z'
+      prompt_version: v3
   - repo: VictoriaMetrics/VictoriaLogs
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - monitoring
+    tags:
+      - logging
+      - observability
+      - siem
+      - lang:go
     summary: Fast and easy to use database for logs, which can efficiently handle terabytes of logs
     last_synced_sha: 1ba4822c39d4e47fbc2192f55638bdead18855b7
     user_starred_at: '2026-01-09T21:12:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -15604,6 +15743,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:49:02.509Z'
+      prompt_version: v3
   - repo: schollz/croc
     categories:
       - networking
