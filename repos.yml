@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-02-28T04:47:32.044Z'
+  manifest_updated_at: '2026-02-28T04:48:01.153Z'
   total_repos: 2094
   generator_version: v1.0.0
   github_user: primeinc
@@ -16193,13 +16193,17 @@ repositories:
     framework: null
   - repo: 3b1b/manim
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - productivity
+    tags:
+      - math-animation
+      - visualization-tool
+      - lang:python
     summary: Animation engine for explanatory math videos
     last_synced_sha: e7787d791006c43ece9b86c7939fc0146b89e2a9
     user_starred_at: '2026-01-09T21:03:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -16223,15 +16227,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: OpenBMB/ChatDev
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - multi-agent-collaboration
+      - llm-powered
+      - lang:python
     summary: 'Chat Dev 2.0: Dev All through LLM-powered Multi-Agent Collaboration'
     last_synced_sha: 6fe4fd1a0a27cbd690ba64431072c82c45495dce
     user_starred_at: '2026-01-09T21:02:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -16251,15 +16263,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: camel-ai/owl
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - multi-agent-systems
+      - task-automation
+      - workforce-optimization
+      - lang:python
     summary: '🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation'
     last_synced_sha: 5074e2a8e46be7a4345152585fdeced48acc8d9b
     user_starred_at: '2026-01-09T21:02:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -16282,15 +16303,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: icloud-photos-downloader/icloud_photos_downloader
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - command-line-tool
+      - icloud-downloads
+      - lang:python
     summary: A command-line tool to download photos from i Cloud
     last_synced_sha: 3a97872f9f44ac49bda54b66b5170575bd22ff18
     user_starred_at: '2026-01-09T21:01:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -16310,15 +16339,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: mealie-recipes/mealie
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+      - apis
+    tags:
+      - self-hosted
+      - recipe-manager
+      - lang:python
     summary: Mealie is a self hosted recipe manager and meal planner with a Rest API backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add reci...
     last_synced_sha: d4e7dc6e9d0f22a9bb101e694368fce6c755b536
     user_starred_at: '2026-01-09T21:01:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -16342,16 +16380,25 @@ repositories:
         published_at: '2026-02-17T04:13:35Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: Lulzx/zpdf
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - pdf-parsing
+      - text-extraction
+      - simd
+      - lang:zig
     summary: Zero-copy PDF text extraction library written in Zig. High-performance, memory-mapped parsing with SIMD acceleration.
     last_synced_sha: b7a896558f1dd1b4d6a68787f899bbf4ed6fde35
     user_starred_at: '2026-01-09T21:00:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Zig
       topics:
@@ -16377,15 +16424,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: dadlerj/tin
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:go
     summary: No description provided
     last_synced_sha: ee3f98f4ac74942b75859173ab88d5e6a22ae7d1
     user_starred_at: '2026-01-09T20:59:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -16403,15 +16455,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: snarktank/ralph
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - autonomous-ai
+      - prd-management
+      - task-loop
+      - lang:ts
     summary: Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.
     last_synced_sha: 6c53cb0b831ebe8739c6a003e22af14902d8b0b5
     user_starred_at: '2026-01-09T20:59:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -16429,15 +16490,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: frankbria/cli-ify-plugin
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - cli-tools
+      - ai-integration
+      - lang:powershell
     summary: Convert Claude Code skills, commands, and agents into standalone CLI tools for Linux/Mac (Bash) and Windows (Power Shell).
     last_synced_sha: bbf64c3ae0d6a2178051d9cb1effe5b86745cccb
     user_starred_at: '2026-01-09T20:57:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -16463,15 +16532,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: labring/sealos
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+      - automation
+    tags:
+      - kubernetes
+      - cloudos
+      - ai-native-os
+      - lang:ts
     summary: Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfec...
     last_synced_sha: e1b39e1d0dced07c652f1914a114762985901fb0
     user_starred_at: '2026-01-09T20:55:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16500,15 +16579,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: plexinc/pms-docker
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+    tags:
+      - docker
+      - plex-media-server
+      - lang:smarty
     summary: Plex Media Server Docker repo, for all your PMS docker needs.
     last_synced_sha: fde000d2d1cb7ce35365e872046b175ae4811a42
     user_starred_at: '2026-01-09T20:54:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Smarty
       topics: []
@@ -16528,15 +16615,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: dvdsgl/claude-canvas
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - external-monitor
+      - automations
+      - lang:ts
     summary: Give Claude Code an external monitor
     last_synced_sha: 2a88ac56bc38e5ab37c5619952686f757935ab80
     user_starred_at: '2026-01-09T20:54:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -16554,15 +16649,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: matijazezelj/sib
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+    tags:
+      - siem
+      - lang:python
     summary: SIEM in a box
     last_synced_sha: 6350571c77c25667e82910055ea51c42e8cf4625
     user_starred_at: '2026-01-09T20:53:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -16580,15 +16682,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: OthmanAdi/planning-with-files
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - agents
+      - persistent-planning
+      - lang:python
     summary: Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.
     last_synced_sha: e42a251cea84266db3d071b02023f88785e1a387
     user_starred_at: '2026-01-09T20:53:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -16628,6 +16738,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: openprose/prose
     categories:
       - unclassified
@@ -16636,7 +16750,7 @@ repositories:
     last_synced_sha: 35b3b606f4c2b93b513e3820ac716aada8bb003e
     user_starred_at: '2026-01-09T20:52:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -16656,6 +16770,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-02-28T04:47:59.650Z'
+      prompt_version: v3
   - repo: danielmiessler/Daemon
     categories:
       - apis
