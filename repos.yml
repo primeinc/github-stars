@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-01T04:13:22.732Z'
+  manifest_updated_at: '2026-03-01T04:13:55.229Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -89899,13 +89899,20 @@ repositories:
       prompt_version: v3
   - repo: gradio-app/gradio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+      - data-science
+    tags:
+      - machine-learning
+      - ui-components
+      - data-visualization
+      - deep-learning
+      - lang:python
     summary: Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!
     last_synced_sha: 4d97c68f8a5a55ba686ab5ce599b932b51754984
     user_starred_at: '2023-01-23T11:06:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -89939,15 +89946,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:13:53.574Z'
+      prompt_version: v3
   - repo: MKme/XtoolD1
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - automation
+    tags:
+      - xtool
+      - lasercutter
+      - lasercutting
+      - lang:g-code
     summary: XTool D1 Laser Cutter/Engraver 10W
     last_synced_sha: 64ec921d0c8d0f1a33f0b32ed23cf834a13fe85a
     user_starred_at: '2023-01-22T00:49:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: G-code
       topics:
@@ -89969,15 +89985,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:13:53.574Z'
+      prompt_version: v3
   - repo: marmelab/react-admin
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - react
+      - admin-dashboard
+      - material-ui
+      - single-page-app
+      - lang:ts
     summary: A frontend Framework for single-page applications on top of REST/Graph QL APIs, using Type Script, React and Material Design
     last_synced_sha: 873b7c81930af3168c5a64dc6dfcaf2e9810cf26
     user_starred_at: '2023-01-19T14:28:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -90008,16 +90034,26 @@ repositories:
         published_at: '2026-02-27T14:23:43Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:13:53.574Z'
+      prompt_version: v3
   - repo: enhuiz/vall-e
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - audio-lm
+      - pytorch
+      - tts
+      - vall-e
+      - lang:python
     summary: An unofficial Py Torch implementation of the audio LM VALL-E
     last_synced_sha: 3476d393d2133fa9b50d5ad999ca13b95fc22060
     user_starred_at: '2023-01-17T00:46:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -90041,15 +90077,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:13:53.574Z'
+      prompt_version: v3
   - repo: nataliethenerd/picohatpad
     categories:
+      - embedded
       - unclassified
-    tags: []
+    tags:
+      - embedded-system
+      - electronics
+      - lang:python
     summary: No description provided
     last_synced_sha: 83d7e69e1b7516cb15f398a2dc22c474323d960b
     user_starred_at: '2023-01-01T12:15:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -90067,15 +90111,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:13:53.574Z'
+      prompt_version: v3
   - repo: LAION-AI/Open-Assistant
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+      - apis
+    tags:
+      - chatgpt
+      - ai
+      - language-model
+      - rlhf
+      - lang:python
     summary: Open Assistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
     last_synced_sha: f1e6ed9526f5817531f3ab85441a40b3671ddccb
     user_starred_at: '2023-01-01T08:41:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -90103,16 +90158,25 @@ repositories:
         published_at: '2023-11-25T16:11:35Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:13:53.574Z'
+      prompt_version: v3
   - repo: 0x90d/videoduplicatefinder
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - video-processing
+      - video-duplicate
+      - crossplatform
+      - lang:csharp
     summary: Video Duplicate Finder - Crossplatform
     last_synced_sha: 47d78f681d555bd63ac5be684d75b4a2d64c5a86
     user_starred_at: '2022-12-31T04:26:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -90130,15 +90194,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:13:53.574Z'
+      prompt_version: v3
   - repo: qarmin/czkawka
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - duplicates
+      - cleaner
+      - optimizer
+      - rust
+      - lang:rust
     summary: Multi functional app to find duplicates, empty folders, similar images etc.
     last_synced_sha: ec9b6ac1eeb98b7c1a92cd4b6f6200eade7edc00
     user_starred_at: '2022-12-31T04:15:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -90167,15 +90241,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:13:53.574Z'
+      prompt_version: v3
   - repo: cinqmarsmedia/Chameleon-Video-Player
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+    tags:
+      - video-player
+      - utility
+      - non-profit
+      - lang:js
     summary: A Non-Profit Video Utility
     last_synced_sha: fba1827f4bbd004f6b3b5e3e50a179648e865204
     user_starred_at: '2022-12-28T22:15:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -90195,15 +90277,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:13:53.574Z'
+      prompt_version: v3
   - repo: CorentinJ/Real-Time-Voice-Cloning
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deep-learning
+      - pytorch
+      - voice-cloning
+      - lang:python
     summary: Clone a voice in 5 seconds to generate arbitrary speech in real-time
     last_synced_sha: 865eba8826bb6d76721a9d828a546724779c23ab
     user_starred_at: '2022-12-28T21:45:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -90227,15 +90318,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:13:53.574Z'
+      prompt_version: v3
   - repo: BigJk/snd
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+    tags:
+      - dnd-tools
+      - thermal-printer
+      - ttrpg
+      - tabletop-gaming
+      - lang:ts
     summary: Sales & Dungeons — Thermal Printer as D&D / TTRPG Utility
     last_synced_sha: c2b370a6cecab406b2453f3d031b5cdff88757da
     user_starred_at: '2022-12-27T02:56:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -90265,15 +90366,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:13:53.573Z'
+      prompt_version: v3
   - repo: lprichar/UwpMessageRelay
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - networking
+    tags:
+      - uwp
+      - ipc
+      - app-service
+      - interprocess-communication
+      - lang:csharp
     summary: A sample UWP app demonstrating how to use App Service Connection to do interprocess communication
     last_synced_sha: 1aefa2efff55eada8c6acdf7b8876dd658971d52
     user_starred_at: '2022-12-25T08:09:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -90291,15 +90402,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:13:53.573Z'
+      prompt_version: v3
   - repo: files-community/Files
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+      - ui-libraries
+    tags:
+      - file-manager
+      - fluent-design
+      - windows
+      - lang:csharp
     summary: A modern file manager that helps users organize their files and folders.
     last_synced_sha: 1424da102cf49177c4fdf0db4f21fa670cdac5b0
     user_starred_at: '2022-12-25T05:59:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -90339,15 +90460,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:13:53.573Z'
+      prompt_version: v3
   - repo: Winand/breadcrumbsaddressbar
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - qt
+      - pyqt
+      - widget
+      - address-bar
+      - lang:python
     summary: Py Qt6/Py Side6 breadcrumb navigation widget (WIP)
     last_synced_sha: f17f19177206db3e24fb75fd98b782e0990cda29
     user_starred_at: '2022-12-25T05:50:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -90370,6 +90501,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:13:53.573Z'
+      prompt_version: v3
   - repo: mikemackintosh/stickers
     categories:
       - system-admin
