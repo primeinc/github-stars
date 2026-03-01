@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-01T04:05:03.947Z'
+  manifest_updated_at: '2026-03-01T04:05:32.215Z'
   total_repos: 2373
   generator_version: v1.0.0
   github_user: primeinc
@@ -97298,13 +97298,16 @@ repositories:
     framework: null
   - repo: filp/whoops
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+    tags:
+      - error-handling
+      - php-errors
+      - lang:php
     summary: PHP errors for cool kids
     last_synced_sha: 67342bc807854844244f219fb74687fdf2f62e00
     user_starred_at: '2014-10-19T00:27:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -97328,15 +97331,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.629Z'
+      prompt_version: v3
   - repo: Seldaek/monolog
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+    tags:
+      - psr-3
+      - log-management
+      - lang:php
     summary: Sends your logs to files, sockets, inboxes, databases and various web services
     last_synced_sha: 6db20ca029219dd8de378cea8e32ee149399ef1b
     user_starred_at: '2014-10-19T00:13:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -97361,15 +97371,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.629Z'
+      prompt_version: v3
   - repo: katzgrau/KLogger
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - monitoring
+    tags:
+      - logging
+      - log-manager
+      - lang:php
     summary: A Simple Logging Class For PHP
     last_synced_sha: 36481c69db9305169a2ceadead25c2acaabd567c
     user_starred_at: '2014-10-19T00:11:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -97387,15 +97405,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.629Z'
+      prompt_version: v3
   - repo: sebastianbergmann/phploc
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - project-metrics
+      - code-analysis
+      - lang:php
     summary: A tool for quickly measuring the size of a PHP project.
     last_synced_sha: 5ef5995148aac195029dae2b12bb1608daa89fea
     user_starred_at: '2014-10-18T23:54:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: PHP
@@ -97414,15 +97440,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.629Z'
+      prompt_version: v3
   - repo: vladikoff/chromeos-apk
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - web-dev
+    tags:
+      - android-integration
+      - cross-platform
+      - apps
+      - lang:js
     summary: ☢️ Run Android Apps in Chrome OS OR Chrome in OS X, Linux and Windows.
     last_synced_sha: f13a94d2c08c68d3a1a298ec24e8fab031bbb3f6
     user_starred_at: '2014-10-18T10:09:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -97442,15 +97477,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.629Z'
+      prompt_version: v3
   - repo: t4t5/sweetalert
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - ui
+      - popup
+      - alert-replacement
+      - modal
+      - lang:ts
     summary: A beautiful replacement for Java Script's "alert"
     last_synced_sha: d927c9bbc66bd26380dc360a71e1876d284a7faf
     user_starred_at: '2014-10-18T10:06:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -97477,15 +97522,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.629Z'
+      prompt_version: v3
   - repo: micjohnson/weed-php
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - databases
+    tags:
+      - file-system
+      - distributed-systems
+      - lang:php
     summary: PHP client for Weed-FS, a simple and highly scalable distributed file system
     last_synced_sha: 341df564e7bc4982277ccf526ec0511b27df99f1
     user_starred_at: '2014-10-09T22:23:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -97503,15 +97556,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.629Z'
+      prompt_version: v3
   - repo: litespeedtech/openlitespeed
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - web-dev
+    tags:
+      - http-server
+      - web-server
+      - high-performance
+      - lang:cpp
     summary: Our high-performance, lightweight, open source HTTP server
     last_synced_sha: c6076315a598a79e3f8edc663390b458e27b1710
     user_starred_at: '2014-10-06T06:09:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -97538,15 +97600,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.629Z'
+      prompt_version: v3
   - repo: ajenti/ajenti
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - web-dev
+    tags:
+      - admin-panel
+      - linux-administration
+      - panel
+      - lang:python
+      - angular
     summary: Ajenti Core and stock plugins
     last_synced_sha: 9f2bc8272619565b29e7e099f574a39617ddee72
     user_starred_at: '2014-10-06T05:37:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -97572,16 +97644,24 @@ repositories:
         published_at: '2026-02-24T22:20:30Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.629Z'
+      prompt_version: v3
   - repo: guiguiboy/PHP-CLI-Progress-Bar
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - cli-tools
+      - progress-bar
+      - lang:php
     summary: A PHP5 CLI Progress bar
     last_synced_sha: 7d3eb61c1f0c164b9c3139af694b2d38171e4d04
     user_starred_at: '2014-10-05T00:38:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: PHP
@@ -97602,15 +97682,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.628Z'
+      prompt_version: v3
   - repo: brandonlw/Psychson
     categories:
-      - unclassified
-    tags: []
+      - security
+      - embedded
+    tags:
+      - firmware-patches
+      - usb-exploit
+      - custom-firmware
+      - lang:csharp
     summary: Phison 2251-03 (2303) Custom Firmware & Existing Firmware Patches (Bad USB)
     last_synced_sha: 4522989aac27aada5f522675b33a2bde63a13b30
     user_starred_at: '2014-10-03T01:51:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -97630,15 +97719,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.628Z'
+      prompt_version: v3
   - repo: joho/7XX-rfc
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - rfc
+      - http-status
+      - satire
+      - lang:makefile
     summary: An RFC for a new series of HTTP status codes covering developer fouls.
     last_synced_sha: 295c8ff1ad264fd517f758e21da16433aabc10ec
     user_starred_at: '2014-09-24T06:56:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Makefile
       topics:
@@ -97658,15 +97756,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.628Z'
+      prompt_version: v3
   - repo: neurodroid/cryptonite
     categories:
-      - unclassified
-    tags: []
+      - security
+      - mobile-dev
+    tags:
+      - android
+      - encryption
+      - encfs
+      - truecrypt
+      - lang:c
     summary: Enc FS and True Crypt on Android
     last_synced_sha: e086e1ab4a0022688d28086facead2276c74f9f7
     user_starred_at: '2014-09-23T07:02:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -97684,15 +97792,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.628Z'
+      prompt_version: v3
   - repo: markomarkovic/simple-php-git-deploy
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - automation
+    tags:
+      - git-deploy
+      - php-deployment
+      - lang:php
     summary: Automatically deploy the code using PHP and Git
     last_synced_sha: 4b390e94d334b1da175ce6f7d7f3a9c89d68794c
     user_starred_at: '2014-08-19T12:40:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -97710,15 +97826,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.628Z'
+      prompt_version: v3
   - repo: hipchat/hipchat-php
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - api-client
+      - hipchat
+      - lang:php
     summary: A PHP library for interacting with the Hip Chat REST API.
     last_synced_sha: 5936c0a48d2d514d94bfc1d774b04c42cd3bc39e
     user_starred_at: '2014-08-19T04:49:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -97736,6 +97860,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-01T04:05:30.625Z'
+      prompt_version: v3
   - repo: defuse/php-encryption
     categories:
       - security
