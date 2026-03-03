@@ -1,14 +1,32 @@
 # Testing
 
-*4 repositories*
+*22 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [puzpuzpuz/go-concurrent-map-bench](https://github.com/puzpuzpuz/go-concurrent-map-bench) | Benchmarks for concurrent hash map implementations in Go | `Go` ★ 60 | 2026-02-21 |
-| [MCPJam/inspector](https://github.com/MCPJam/inspector) | Test & Debug MCP servers, Chat GPT apps, and MCP Apps (ext-apps) | `TypeScript` ★ 1.8k | 2026-02-28 |
-| [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell) | Claude Code is powerful. Pilot Shell makes it reliable. Start a task, grab a coffee, come back to production-grade code. Tests enforced. Context preserved. Quality automated. | `TypeScript` ★ 1.4k | 2026-02-26 |
-| [nightroman/PowerShellTraps](https://github.com/nightroman/PowerShellTraps) | Collection of Power Shell traps and oddities | `PowerShell` ★ 462 | 2025-10-20 |
+| [MCPJam/inspector](https://github.com/MCPJam/inspector) | Test & Debug MCP servers, Chat GPT apps, and MCP Apps (ext-apps) | `TypeScript` ★ 1.8k | 2026-03-03 |
+| [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell) | Claude Code is powerful. Pilot Shell makes it reliable. Start a task, grab a coffee, come back to production-grade code. Tests enforced. Context preserved. Quality automated. | `TypeScript` ★ 1.5k | 2026-03-02 |
+| [MaibornWolff/codecharta](https://github.com/MaibornWolff/codecharta) | Code Charta is a visualization tool that transforms complex software architecture and code metrics into interactive, customizable visual maps, empowering everyone to communicate and analyze your co... | `TypeScript` ★ 422 | 2026-02-27 |
+| [killnine/tanstack-msal-entra-troubleshooting](https://github.com/killnine/tanstack-msal-entra-troubleshooting) | Sample Application for Troubleshooting Authz Issues | `TypeScript` ★ 1 | 2026-02-04 |
+| [facebook/memlab](https://github.com/facebook/memlab) | A framework for finding Java Script memory leaks and analyzing heap snapshots | `JavaScript` ★ 4.9k | 2026-02-03 |
+| [nrwl/nx](https://github.com/nrwl/nx) | The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time. | `TypeScript` ★ 28.2k | 2026-03-03 |
+| [tajo/ladle](https://github.com/tajo/ladle) | 🥄 Develop, test and document your React story components faster. | `TypeScript` ★ 2.9k | 2025-12-20 |
+| [cypress-io/cypress](https://github.com/cypress-io/cypress) | Fast, easy and reliable testing for anything that runs in a browser. | `TypeScript` ★ 49.6k | 2026-03-03 |
+| [sitespeedio/sitespeed.io](https://github.com/sitespeedio/sitespeed.io) | sitespeed.io is an open-source tool for comprehensive web performance analysis, enabling you to test, monitor, and optimize your website’s speed using real browsers in various environments. | `JavaScript` ★ 5k | 2026-03-02 |
+| [sitespeedio/browsertime](https://github.com/sitespeedio/browsertime) | Measure and Optimize Web Performance | `JavaScript` ★ 644 | 2026-01-24 |
+| [keploy/keploy](https://github.com/keploy/keploy) | API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs! | `Go` ★ 16.2k | 2026-03-02 |
+| [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static... | `JavaScript` ★ 20.5k | 2026-02-03 |
+| [lirang04/GroundingME](https://github.com/lirang04/GroundingME) | Evaluation Code for Grounding ME | `Python` ★ 8 | 2025-12-26 |
+| [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 基于图像识别的自动化黑盒测试框架 | An automation black-box testing framework based on image recognition | `C++` ★ 3.3k | 2026-03-03 |
+| [Azure/azure-api-management-policy-toolkit](https://github.com/Azure/azure-api-management-policy-toolkit) | Azure API Management policy toolkit is a set of libraries and tools to help managing and testing policies. | `C#` ★ 82 | 2026-02-27 |
+| [timdeschryver/zod-fixture](https://github.com/timdeschryver/zod-fixture) | Creating fixtures based on zod schemas | `TypeScript` ★ 145 | 2024-07-13 |
+| [github/codeql-action](https://github.com/github/codeql-action) | Actions for running Code QL analysis | `TypeScript` ★ 1.5k | 2026-03-02 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation | `TypeScript` ★ 89.3k | 2026-03-02 |
+| [Azure/playwright-workspaces](https://github.com/Azure/playwright-workspaces) | No description provided | ★ 11 | 2026-02-10 |
+| [microsoft/WinAppDriver](https://github.com/microsoft/WinAppDriver) | Windows Application Driver | `C#` ★ 4k | 2025-04-14 |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 36.6k | 2026-03-02 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

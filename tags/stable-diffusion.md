@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Sanster/IOPaint](https://github.com/Sanster/IOPaint) | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures. | `Python` ★ 22.7k | 2025-04-29 |
-| [ThereforeGames/unprompted](https://github.com/ThereforeGames/unprompted) | Templating language written for Stable Diffusion workflows. Available as an extension for the Automatic1111 Web UI. | `Python` ★ 808 | 2024-07-29 |
-| [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Stable Diffusion web UI | `Python` ★ 161.4k | 2026-02-28 |
+| [Quaggles/SwarmUI-FaceTools](https://github.com/Quaggles/SwarmUI-FaceTools) | A Swarm UI extension that adds parameters for Re Actor to the the generate tab | `C#` ★ 27 | 2026-02-25 |
+| [mcmonkeyprojects/SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) | Swarm UI (formerly Stable Swarm UI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility. | `C#` ★ 3.8k | 2026-03-02 |
+| [LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) | Multi-Platform Package Manager for Stable Diffusion | `C#` ★ 7.6k | 2026-03-01 |
