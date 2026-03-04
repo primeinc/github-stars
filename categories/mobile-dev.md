@@ -1,28 +1,27 @@
 # Mobile-dev
 
-*18 repositories*
+*17 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [unoplatform/uno](https://github.com/unoplatform/uno) | Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow... | `C#` ★ 9.8k | 2026-03-03 |
-| [marshallrichards/ClawPhone](https://github.com/marshallrichards/ClawPhone) | Tweaks for running Open Claw on a Android smartphone | `Python` ★ 391 | 2026-02-07 |
-| [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | :iphone: Collaborative List of Open-Source i OS Apps | ★ 49.1k | 2026-03-02 |
-| [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) | CLI to control i OS and Android devices for AI agents | `TypeScript` ★ 910 | 2026-03-02 |
-| [slopus/happy](https://github.com/slopus/happy) | Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured | `TypeScript` ★ 14k | 2026-02-26 |
-| [simpsoka/jules-companion](https://github.com/simpsoka/jules-companion) | No description provided | `Swift` ★ 82 | 2026-01-24 |
+| [unoplatform/uno](https://github.com/unoplatform/uno) | Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow... | `C#` ★ 9.8k | 2026-03-04 |
+| [marshallrichards/ClawPhone](https://github.com/marshallrichards/ClawPhone) | Tweaks for running Open Claw on a Android smartphone | `Python` ★ 393 | 2026-02-07 |
+| [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | :iphone: Collaborative List of Open-Source i OS Apps | ★ 49.1k | 2026-03-03 |
+| [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) | CLI to control i OS and Android devices for AI agents | `TypeScript` ★ 922 | 2026-03-03 |
+| [slopus/happy](https://github.com/slopus/happy) | Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured | `TypeScript` ★ 14.1k | 2026-03-03 |
+| [simpsoka/jules-companion](https://github.com/simpsoka/jules-companion) | No description provided | `Swift` ★ 84 | 2026-01-24 |
 | [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) | bluetooth mesh chat, IRC vibes | `Swift` ★ 25.3k | 2026-03-01 |
-| [callstackincubator/agent-skills](https://github.com/callstackincubator/agent-skills) | A collection of agent-optimized React Native skills for AI coding assistants. | ★ 957 | 2026-03-02 |
+| [callstackincubator/agent-skills](https://github.com/callstackincubator/agent-skills) | A collection of agent-optimized React Native skills for AI coding assistants. | ★ 958 | 2026-03-02 |
 | [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static... | `JavaScript` ★ 20.5k | 2026-02-03 |
-| [OneKeyHQ/app-monorepo](https://github.com/OneKeyHQ/app-monorepo) | Secure, open source and community driven crypto wallet runs on all platforms and trusted by millions. | `TypeScript` ★ 2.3k | 2026-03-03 |
-| [bluesky-social/social-app](https://github.com/bluesky-social/social-app) | The Bluesky Social application for Web, i OS, and Android | `TypeScript` ★ 17.7k | 2026-03-03 |
-| [droidrun/droidrun](https://github.com/droidrun/droidrun) | Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖 | `Python` ★ 7.8k | 2026-03-02 |
+| [OneKeyHQ/app-monorepo](https://github.com/OneKeyHQ/app-monorepo) | Secure, open source and community driven crypto wallet runs on all platforms and trusted by millions. | `TypeScript` ★ 2.3k | 2026-03-04 |
+| [bluesky-social/social-app](https://github.com/bluesky-social/social-app) | The Bluesky Social application for Web, i OS, and Android | `TypeScript` ★ 17.7k | 2026-03-04 |
+| [droidrun/droidrun](https://github.com/droidrun/droidrun) | Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖 | `Python` ★ 7.8k | 2026-03-03 |
 | [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile) | `C++` ★ 10.3k | 2026-03-03 |
-| [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 🐬Deep Chat - A smart assistant that connects powerful AI to your personal world | `TypeScript` ★ 5.5k | 2026-03-03 |
-| [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | Build smaller, faster, and more secure desktop and mobile applications with a web frontend. | `Rust` ★ 103.5k | 2026-03-01 |
+| [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 🐬Deep Chat - A smart assistant that connects powerful AI to your personal world | `TypeScript` ★ 5.5k | 2026-03-04 |
+| [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | Build smaller, faster, and more secure desktop and mobile applications with a web frontend. | `Rust` ★ 103.6k | 2026-03-03 |
 | [KRTirtho/spotube](https://github.com/KRTirtho/spotube) | 🎧 Open source music streaming app! Available for both desktop & mobile! | `Dart` ★ 44.7k | 2026-02-24 |
-| [microsoft/react-native-windows-samples](https://github.com/microsoft/react-native-windows-samples) | A repository showcasing React Native samples and templates for Windows, mac OS, and Surface Duo. | `C#` ★ 533 | 2026-02-27 |
-| [RevenueCat/react-native-purchases](https://github.com/RevenueCat/react-native-purchases) | React Native in-app purchases and subscriptions made easy. Support for i OS, Android and web. | `TypeScript` ★ 1.1k | 2026-03-02 |
+| [microsoft/react-native-windows-samples](https://github.com/microsoft/react-native-windows-samples) | A repository showcasing React Native samples and templates for Windows, mac OS, and Surface Duo. | `C#` ★ 533 | 2026-03-03 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [i18next/i18next-cli](https://github.com/i18next/i18next-cli) | A unified, high-performance i18next CLI. | `TypeScript` ★ 163 | 2026-03-02 |
-| [formatjs/formatjs](https://github.com/formatjs/formatjs) | The monorepo home to all of the Format JS related libraries, most notably react-intl. | `TypeScript` ★ 14.7k | 2026-03-01 |
+| [i18next/i18next-cli](https://github.com/i18next/i18next-cli) | A unified, high-performance i18next CLI. | `TypeScript` ★ 163 | 2026-03-03 |
+| [formatjs/formatjs](https://github.com/formatjs/formatjs) | The monorepo home to all of the Format JS related libraries, most notably react-intl. | `TypeScript` ★ 14.7k | 2026-03-03 |

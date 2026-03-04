@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [k1LoW/tbls](https://github.com/k1LoW/tbls) | tbls is a CI-Friendly tool to document a database, written in Go. | `Go` ★ 4.2k | 2026-03-01 |
-| [jgm/pandoc](https://github.com/jgm/pandoc) | Universal markup converter | `Haskell` ★ 42.3k | 2026-03-02 |
+| [k1LoW/tbls](https://github.com/k1LoW/tbls) | tbls is a CI-Friendly tool to document a database, written in Go. | `Go` ★ 4.2k | 2026-03-03 |
+| [jgm/pandoc](https://github.com/jgm/pandoc) | Universal markup converter | `Haskell` ★ 42.4k | 2026-03-03 |

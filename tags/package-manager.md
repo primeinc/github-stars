@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/vcpkg](https://github.com/microsoft/vcpkg) | C++ Library Manager for Windows, Linux, and Mac OS | `CMake` ★ 26.7k | 2026-03-02 |
+| [microsoft/vcpkg](https://github.com/microsoft/vcpkg) | C++ Library Manager for Windows, Linux, and Mac OS | `CMake` ★ 26.7k | 2026-03-04 |
 | [LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) | Multi-Platform Package Manager for Stable Diffusion | `C#` ★ 7.6k | 2026-03-01 |

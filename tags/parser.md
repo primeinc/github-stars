@@ -1,36 +1,35 @@
 # Tag: parser
 
-*28 repositories*
+*27 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [adambajguz/Typin](https://github.com/adambajguz/Typin) | Declarative framework for interactive CLI applications | `C#` ★ 254 | 2025-06-18 |
-| [harshankur/officeParser](https://github.com/harshankur/officeParser) | A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met... | `Rich Text Format` ★ 288 | 2026-02-15 |
+| [harshankur/officeParser](https://github.com/harshankur/officeParser) | A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met... | `Rich Text Format` ★ 290 | 2026-02-15 |
 | [ninenines/cowlib](https://github.com/ninenines/cowlib) | Support library for manipulating Web protocols. | `Erlang` ★ 290 | 2025-11-06 |
 | [AntonBergaker/InterpolatedParser](https://github.com/AntonBergaker/InterpolatedParser) | Interpolated Strings but in reverse! A very cursed C# parser library. | `C#` ★ 291 | 2025-02-24 |
 | [rasendubi/uniorg](https://github.com/rasendubi/uniorg) | An accurate Org-mode parser for Java Script/Type Script | `TypeScript` ★ 319 | 2025-04-11 |
 | [structuredllm/syncode](https://github.com/structuredllm/syncode) | Efficient and general syntactical decoding for Large Language Models | `Python` ★ 326 | 2026-01-19 |
-| [likexian/whois-parser](https://github.com/likexian/whois-parser) | Whois parser for domain whois information parsing in Go(Golang). | `Go` ★ 326 | 2026-01-04 |
+| [likexian/whois-parser](https://github.com/likexian/whois-parser) | Whois parser for domain whois information parsing in Go(Golang). | `Go` ★ 327 | 2026-01-04 |
 | [PoiScript/orgize](https://github.com/PoiScript/orgize) | A Rust library for parsing org-mode files. | `Rust` ★ 329 | 2025-01-27 |
 | [thoqbk/traprange](https://github.com/thoqbk/traprange) | (Java)A Method to Extract Tabular Content from PDF Files | `HTML` ★ 337 | 2023-04-22 |
 | [oguimbal/pgsql-ast-parser](https://github.com/oguimbal/pgsql-ast-parser) | Yet another simple Postgres SQL parser | `TypeScript` ★ 343 | 2026-01-27 |
 | [chipsalliance/Surelog](https://github.com/chipsalliance/Surelog) | System Verilog 2017 Pre-processor, Parser, Elaborator, UHDM Compiler. Provides IEEE Design/TB C/C++ VPI and Python AST & UHDM APIs. Compiles on Linux gcc, Windows msys2-gcc & msvc, Os X | `C++` ★ 449 | 2026-03-02 |
 | [kevinburke/ssh_config](https://github.com/kevinburke/ssh_config) | Go parser for ssh\_config files | `Go` ★ 466 | 2026-02-18 |
-| [postalsys/postal-mime](https://github.com/postalsys/postal-mime) | Email parser for browser and serverless environments | `JavaScript` ★ 490 | 2026-01-09 |
+| [postalsys/postal-mime](https://github.com/postalsys/postal-mime) | Email parser for browser and serverless environments | `JavaScript` ★ 491 | 2026-01-09 |
 | [glayzzle/php-parser](https://github.com/glayzzle/php-parser) | :herb: Node JS PHP Parser - extract AST or tokens | `JavaScript` ★ 561 | 2026-02-27 |
 | [willdurand/EmailReplyParser](https://github.com/willdurand/EmailReplyParser) | PHP library for parsing plain text email content. | `PHP` ★ 649 | 2022-09-20 |
 | [kach/nearley](https://github.com/kach/nearley) | 📜🔜🌲 Simple, fast, powerful parser toolkit for Java Script. | `JavaScript` ★ 3.7k | 2024-11-14 |
 | [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) | Community maintained fork of pdfminer - we fathom PDF | `Python` ★ 6.9k | 2026-02-24 |
-| [i18next/i18next-cli](https://github.com/i18next/i18next-cli) | A unified, high-performance i18next CLI. | `TypeScript` ★ 163 | 2026-03-02 |
+| [i18next/i18next-cli](https://github.com/i18next/i18next-cli) | A unified, high-performance i18next CLI. | `TypeScript` ★ 163 | 2026-03-03 |
 | [joweich/chat-miner](https://github.com/joweich/chat-miner) | Parsers and visualizations for chats | `Python` ★ 583 | 2026-01-30 |
-| [thewhiteninja/ntfstool](https://github.com/thewhiteninja/ntfstool) | Forensics tool for NTFS (parser, mft, bitlocker, deleted files) | `C++` ★ 595 | 2023-07-23 |
+| [thewhiteninja/ntfstool](https://github.com/thewhiteninja/ntfstool) | Forensics tool for NTFS (parser, mft, bitlocker, deleted files) | `C++` ★ 596 | 2023-07-23 |
 | [ImpulseAdventure/JPEGsnoop](https://github.com/ImpulseAdventure/JPEGsnoop) | JPEGsnoop: JPEG decoder and detailed analysis | `C++` ★ 602 | 2023-08-09 |
 | [ics-py/ics-py](https://github.com/ics-py/ics-py) | Pythonic and easy i Calendar library (rfc5545) | `Python` ★ 712 | 2024-12-06 |
 | [g-plane/typed-query-selector](https://github.com/g-plane/typed-query-selector) | Better typed \`query Selector\` and \`query Selector All\`. | `TypeScript` ★ 780 | 2026-02-26 |
-| [afnanenayet/diffsitter](https://github.com/afnanenayet/diffsitter) | A tree-sitter based AST difftool to get meaningful semantic diffs | `Rust` ★ 2.3k | 2026-03-01 |
+| [afnanenayet/diffsitter](https://github.com/afnanenayet/diffsitter) | A tree-sitter based AST difftool to get meaningful semantic diffs | `Rust` ★ 2.3k | 2026-03-03 |
 | [fkling/astexplorer](https://github.com/fkling/astexplorer) | A web tool to explore the ASTs generated by various parsers. | `JavaScript` ★ 6.5k | 2024-04-26 |
 | [jquery/esprima](https://github.com/jquery/esprima) | ECMAScript parsing infrastructure for multipurpose analysis | `TypeScript` ★ 7.1k | 2023-04-16 |
-| [ohmjs/ohm](https://github.com/ohmjs/ohm) | A library and language for building parsers, interpreters, compilers, etc. | `JavaScript` ★ 5.5k | 2026-03-02 |
-| [docling-project/docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI | `Python` ★ 54.6k | 2026-03-02 |
+| [ohmjs/ohm](https://github.com/ohmjs/ohm) | A library and language for building parsers, interpreters, compilers, etc. | `JavaScript` ★ 5.5k | 2026-03-03 |
