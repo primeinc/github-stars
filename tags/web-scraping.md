@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! | `Python` ★ 21.1k | 2026-03-03 |
-| [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Convert documentation websites, Git Hub repositories, and PDFs into Claude AI skills with automatic conflict detection | `Python` ★ 10.1k | 2026-03-02 |
+| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! | `Python` ★ 22.5k | 2026-03-05 |
+| [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Convert documentation websites, Git Hub repositories, and PDFs into Claude AI skills with automatic conflict detection | `Python` ★ 10.2k | 2026-03-02 |

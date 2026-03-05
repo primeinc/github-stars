@@ -1,6 +1,6 @@
 # Tag: azure
 
-*58 repositories*
+*25 repositories*
 
 [← Back to Index](../README.md)
 
@@ -21,46 +21,13 @@
 | [Azure/PSDocs.Azure](https://github.com/Azure/PSDocs.Azure) | Generate documentation from Azure infrastructure as code (Ia C) artifacts. | `PowerShell` ★ 66 | 2026-02-03 |
 | [PSBicep/PSBicep](https://github.com/PSBicep/PSBicep) | This is the repo for the Bicep Power Shell Module. | `PowerShell` ★ 146 | 2025-07-19 |
 | [EvotecIT/O365Essentials](https://github.com/EvotecIT/O365Essentials) | A module that helps to manage some tasks on Office 365/Azure via undocumented API | `PowerShell` ★ 144 | 2026-02-14 |
-| [pnp/script-samples](https://github.com/pnp/script-samples) | A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more. | `PowerShell` ★ 300 | 2026-02-08 |
+| [pnp/script-samples](https://github.com/pnp/script-samples) | A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more. | `PowerShell` ★ 303 | 2026-03-01 |
 | [wesellis/Azure-PowerShell-Toolkit](https://github.com/wesellis/Azure-PowerShell-Toolkit) | Massive collection of 772+ Power Shell scripts for Azure management. CI/CD with PSScript Analyzer, security scanning, and Ia C validation. Enterprise-ready with comprehensive testing. | `PowerShell` ★ 38 | 2025-10-03 |
 | [darkquasar/AzureHunter](https://github.com/darkquasar/AzureHunter) | A Cloud Forensics Powershell module to run threat hunting playbooks on data from Azure and O365 | `PowerShell` ★ 790 | 2022-10-29 |
 | [hausec/PowerZure](https://github.com/hausec/PowerZure) | Power Shell framework to assess Azure security | `PowerShell` ★ 1.3k | 2025-10-18 |
 | [Azure-Samples/azure-typescript-e2e-apps](https://github.com/Azure-Samples/azure-typescript-e2e-apps) | Monorepo - Apps written in Type Script to be either 1) deployed to Azure hosting or 2) integrated with Azure services | `TypeScript` ★ 48 | 2026-02-02 |
 | [nicolonsky/ITDR](https://github.com/nicolonsky/ITDR) | Collection of Microsoft Identity Threat Detection and Response resources. | `PowerShell` ★ 52 | 2026-03-01 |
-| [merill/graph-permissions-explorer](https://github.com/merill/graph-permissions-explorer) | Repository for public site hosting graph permissions | `HTML` ★ 34 | 2026-03-03 |
+| [merill/graph-permissions-explorer](https://github.com/merill/graph-permissions-explorer) | Repository for public site hosting graph permissions | `HTML` ★ 34 | 2026-03-04 |
 | [bbmumford/Intune-Toolkit](https://github.com/bbmumford/Intune-Toolkit) | my personal collection of scripts & guides to configuring a standard enterprise Intune enviroment. | `Opal` ★ 69 | 2026-01-09 |
 | [systommy/TenantReports](https://github.com/systommy/TenantReports) | A Power Shell module for generating Microsoft 365 and Azure security reports. | `PowerShell` ★ 19 | 2026-02-27 |
 | [mspnp/aks-baseline](https://github.com/mspnp/aks-baseline) | This is the Azure Kubernetes Service (AKS) Baseline Cluster reference implementation as produced by the Microsoft Azure Architecture Center. | `Bicep` ★ 744 | 2026-02-19 |
-| [MicrosoftDocs/azure-monitor-docs](https://github.com/MicrosoftDocs/azure-monitor-docs) | Open source documentation repository for Azure monitor-related services. All content in this repository is published to learn.microsoft.com. | ★ 22 | 2026-03-03 |
-| [Azure-Samples/ai-hub-gateway-solution-accelerator](https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator) | Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure ... | `Bicep` ★ 254 | 2026-03-03 |
-| [Azure/azure-monitor-baseline-alerts](https://github.com/Azure/azure-monitor-baseline-alerts) | Azure Monitor Baseline Alerts | `Bicep` ★ 301 | 2026-03-02 |
-| [Azure/ALZ-PowerShell-Module](https://github.com/Azure/ALZ-PowerShell-Module) | The Azure Landing Zones Accelerators Power Shell module | `PowerShell` ★ 108 | 2026-01-30 |
-| [Azure/ALZ-Bicep](https://github.com/Azure/ALZ-Bicep) | This repository contains the Azure Landing Zones (ALZ) Bicep (Classic) modules that help deliver and deploy the Azure Landing Zone conceptual architecture in a modular approach. https://aka.ms/alz/... | `Bicep` ★ 870 | 2026-02-26 |
-| [Azure/apim-landing-zone-accelerator](https://github.com/Azure/apim-landing-zone-accelerator) | The Azure API Management landing zone accelerator provides an architectural approach and reference implementation to prepare landing zone subscriptions for a secure API Management infrastructure. | `HCL` ★ 199 | 2025-12-17 |
-| [microsoft/vscode-cosmosdb](https://github.com/microsoft/vscode-cosmosdb) | Azure Cosmos DB extension for VS Code | `TypeScript` ★ 190 | 2026-03-03 |
-| [Azure/azure-api-management-policy-toolkit](https://github.com/Azure/azure-api-management-policy-toolkit) | Azure API Management policy toolkit is a set of libraries and tools to help managing and testing policies. | `C#` ★ 82 | 2026-02-27 |
-| [Azure/api-management-policy-snippets](https://github.com/Azure/api-management-policy-snippets) | Re-usable examples of Azure API Management policies | ★ 394 | 2026-02-25 |
-| [Azure-Samples/dab-swa-wonders](https://github.com/Azure-Samples/dab-swa-wonders) | Boost your developer productivity by creating end-to-end apps quickly! Using Azure Data API Builder for Cosmos DB, this app shows how to build JAMstack apps fast with Cosmos DB as your backend. | `TypeScript` ★ 10 | 2025-01-16 |
-| [microsoft/CosmosDB_Multi-Tenant](https://github.com/microsoft/CosmosDB_Multi-Tenant) | Cosmos DB for Multi-Tenant Applications | ★ 22 | 2022-12-15 |
-| [olhel/sub2tenant-aca](https://github.com/olhel/sub2tenant-aca) | Lookup Azure tenant information from a subscription ID. | `HTML` ★ 14 | 2025-12-04 |
-| [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (\`azd\`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 240 | 2026-03-03 |
-| [pascalvanderheiden/ais-apim-openai](https://github.com/pascalvanderheiden/ais-apim-openai) | Unleash the power of Azure Open AI to your application developers in a secure & manageable way with Azure API Management and Azure Developer CLI. | `Bicep` ★ 35 | 2023-12-28 |
-| [Azure/Enterprise-Scale](https://github.com/Azure/Enterprise-Scale) | The Azure Landing Zones (Enterprise-Scale) architecture provides prescriptive guidance coupled with Azure best practices, and it follows design principles across the critical design areas for organ... | `PowerShell` ★ 1.9k | 2026-02-27 |
-| [CompositionalIT/farmer](https://github.com/CompositionalIT/farmer) | Repeatable Azure deployments with ARM templates - made easy! | `F#` ★ 547 | 2025-12-10 |
-| [Azure/deployment-stacks](https://github.com/Azure/deployment-stacks) | Contains Deployment Stacks CLI scripts and releases | `Bicep` ★ 97 | 2024-10-24 |
-| [daveRendon/azinsider](https://github.com/daveRendon/azinsider) | 🚀 The Az Insider Repo offers code samples to help you deploy various workloads in your Azure environment using Bicep language. It simplifies the deployment process and makes it easy to get your ap... | `Bicep` ★ 41 | 2026-01-18 |
-| [TheCloudTheory/arm-estimator](https://github.com/TheCloudTheory/arm-estimator) | ACE (Azure Cost Estimator) - automated cost estimations for ARM Templates, Bicep and Terraform | `C#` ★ 217 | 2025-12-17 |
-| [eddie-jimenez/IntunePolicyChangeReport](https://github.com/eddie-jimenez/IntunePolicyChangeReport) | An Azure runbook that provides a reliable, human-readable record of what changed in Intune policies, who changed it, and when. | `PowerShell` ★ 20 | 2025-10-22 |
-| [Build5Nines/azd-react-bootstrap-dashboard](https://github.com/Build5Nines/azd-react-bootstrap-dashboard) | A multi-tier app with a dashboard front-end (React + Bootstrap) hosted in Azure Static Web Apps and back-end API (Node.js) hosted in Azure App Service | `Bicep` ★ 1 | 2025-01-02 |
-| [Azure-Samples/dab-swa-library-demo](https://github.com/Azure-Samples/dab-swa-library-demo) | No description provided | `JavaScript` ★ 19 | 2024-06-18 |
-| [Azure/apiops](https://github.com/Azure/apiops) | APIOps applies the concepts of Git Ops and Dev Ops to API deployment. By using practices from these two methodologies, APIOps can enable everyone involved in the lifecycle of API design, developmen... | `C#` ★ 416 | 2026-02-25 |
-| [Azure-Samples/contoso-real-estate](https://github.com/Azure-Samples/contoso-real-estate) | Intelligent enterprise-grade reference architecture for Java Script, featuring Open AI integration, Azure Developer CLI template and Playwright tests. | `JavaScript` ★ 969 | 2025-03-20 |
-| [JulianHayward/AzAdvertizer](https://github.com/JulianHayward/AzAdvertizer) | Az Advertizer helps you to keep up with the pace by providing overview and insights on new releases and changes/updates for Azure Governance capabilities such as Azure Policy's policy definitions, ... | ★ 40 | 2023-09-08 |
-| [Azure-Samples/template-doctor](https://github.com/Azure-Samples/template-doctor) | Template Doctor analyzes and validates samples and templates, with a focus on Azure Developer CLI (azd) templates. It provides a web UI to view analysis results, create Git Hub issues with AI-power... | `TypeScript` ★ 4 | 2025-11-01 |
-| [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An \`azd\` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 28 | 2024-06-26 |
-| [Azure-Samples/aoai-realtime-audio-sdk](https://github.com/Azure-Samples/aoai-realtime-audio-sdk) | Azure Open AI code resources for using gpt-4o-realtime capabilities. | `TypeScript` ★ 835 | 2025-09-30 |
-| [hotnops/AzureScripts](https://github.com/hotnops/AzureScripts) | Random scripts for azure stuff | `PowerShell` ★ 14 | 2022-10-12 |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | Azure Data Exporter for Blood Hound | `Go` ★ 871 | 2026-03-02 |
-| [NileshGule/techtalks-azure-container-apps-demo](https://github.com/NileshGule/techtalks-azure-container-apps-demo) | A simple example to showcase Azure container apps capabilities using a Tech Talks demo with native integration for Dapr and KEDA | `PowerShell` ★ 4 | 2024-09-23 |
-| [Azure-Samples/remote-mcp-webapp-node](https://github.com/Azure-Samples/remote-mcp-webapp-node) | No description provided | `JavaScript` ★ 5 | 2026-02-14 |
-| [Azure-Samples/communication-services-javascript-quickstarts](https://github.com/Azure-Samples/communication-services-javascript-quickstarts) | Sample code for Azure Communication Services Java Script quickstarts | `JavaScript` ★ 106 | 2025-12-16 |

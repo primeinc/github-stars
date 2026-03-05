@@ -1,79 +1,33 @@
 # Networking
 
-*69 repositories*
+*23 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [clusterzx/ts6-manager](https://github.com/clusterzx/ts6-manager) | Web-based management interface for Team Speak servers | `TypeScript` ★ 22 | 2026-02-25 |
-| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 100.2k | 2026-03-03 |
-| [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 326 | 2026-03-01 |
+| [clusterzx/ts6-manager](https://github.com/clusterzx/ts6-manager) | Web-based management interface for Team Speak servers | `TypeScript` ★ 25 | 2026-02-25 |
+| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 100.4k | 2026-03-04 |
+| [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 329 | 2026-03-04 |
 | [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app) | Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | `Dart` ★ 26.9k | 2026-02-27 |
-| [Wh0am123/MCP-Kali-Server](https://github.com/Wh0am123/MCP-Kali-Server) | MCP configuration to connect AI agent to a Linux machine. | `Python` ★ 536 | 2026-02-26 |
+| [Wh0am123/MCP-Kali-Server](https://github.com/Wh0am123/MCP-Kali-Server) | MCP configuration to connect AI agent to a Linux machine. | `Python` ★ 541 | 2026-02-26 |
 | [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | A community driven registry service for Model Context Protocol (MCP) servers. | `Go` ★ 6.5k | 2026-03-03 |
-| [dead10ck/nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns) | DNS utility for nushell | `Rust` ★ 51 | 2026-03-03 |
+| [dead10ck/nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns) | DNS utility for nushell | `Rust` ★ 52 | 2026-03-03 |
 | [ninenines/cowlib](https://github.com/ninenines/cowlib) | Support library for manipulating Web protocols. | `Erlang` ★ 290 | 2025-11-06 |
 | [likexian/whois-parser](https://github.com/likexian/whois-parser) | Whois parser for domain whois information parsing in Go(Golang). | `Go` ★ 327 | 2026-01-04 |
 | [kevinburke/ssh_config](https://github.com/kevinburke/ssh_config) | Go parser for ssh\_config files | `Go` ★ 466 | 2026-02-18 |
-| [sirkirby/unifi-network-mcp](https://github.com/sirkirby/unifi-network-mcp) | MCP server implementation for the Uni Fi network application | `Python` ★ 183 | 2026-02-24 |
+| [sirkirby/unifi-network-mcp](https://github.com/sirkirby/unifi-network-mcp) | MCP server implementation for the Uni Fi network application | `Python` ★ 184 | 2026-02-24 |
 | [gbassaragh/Unifi-mcp](https://github.com/gbassaragh/Unifi-mcp) | MCP server for Uni Fi Network and Protect API integration - AI-powered network management | `Python` ★ 2 | 2026-01-10 |
-| [s1t5/mail-archiver](https://github.com/s1t5/mail-archiver) | Mail-Archiver is a web application for archiving, searching, and exporting emails from multiple accounts. Featuring folder sync, attachment support, mailbox migration and a dashboard. | `C#` ★ 1.7k | 2026-03-03 |
-| [zabbix/zabbix](https://github.com/zabbix/zabbix) | Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud. | `Go Template` ★ 5.7k | 2026-03-03 |
-| [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses. | `Go` ★ 35.5k | 2026-03-03 |
-| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | `TypeScript` ★ 28.7k | 2026-03-03 |
+| [s1t5/mail-archiver](https://github.com/s1t5/mail-archiver) | Mail-Archiver is a web application for archiving, searching, and exporting emails from multiple accounts. Featuring folder sync, attachment support, mailbox migration and a dashboard. | `C#` ★ 1.7k | 2026-03-04 |
+| [zabbix/zabbix](https://github.com/zabbix/zabbix) | Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud. | `Go Template` ★ 5.7k | 2026-03-04 |
+| [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses. | `Go` ★ 35.6k | 2026-03-05 |
+| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | `TypeScript` ★ 28.7k | 2026-03-05 |
 | [anonaddy/anonaddy](https://github.com/anonaddy/anonaddy) | Anonymous email forwarding | `PHP` ★ 4.5k | 2026-02-18 |
 | [SamyRai/namecheap](https://github.com/SamyRai/namecheap) | A CLI tool for managing Namecheap domains and DNS records with multi-account support | `Go` ★ 2 | 2026-02-05 |
 | [slopus/murmur](https://github.com/slopus/murmur) | Encrypted Messaging for Open Claw | `TypeScript` ★ 65 | 2026-02-04 |
-| [cometbft/cometbft](https://github.com/cometbft/cometbft) | Comet BFT: A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. A fork and successor to Tendermint Core. | `Go` ★ 864 | 2026-03-03 |
-| [amnezia-vpn/amneziawg-windows-client](https://github.com/amnezia-vpn/amneziawg-windows-client) | Amnezia WG client for Windows | `Go` ★ 627 | 2026-02-27 |
-| [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) | :file\_folder: File Management Platform / Universal Data Access Layer (without FUSE) | `JavaScript` ★ 13.7k | 2026-03-04 |
+| [cometbft/cometbft](https://github.com/cometbft/cometbft) | Comet BFT: A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. A fork and successor to Tendermint Core. | `Go` ★ 864 | 2026-03-04 |
+| [amnezia-vpn/amneziawg-windows-client](https://github.com/amnezia-vpn/amneziawg-windows-client) | Amnezia WG client for Windows | `Go` ★ 628 | 2026-02-27 |
+| [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) | :file\_folder: File Management Platform / Universal Data Access Layer (without FUSE) | `JavaScript` ★ 13.7k | 2026-03-05 |
 | [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) | bluetooth mesh chat, IRC vibes | `Swift` ★ 25.3k | 2026-03-01 |
-| [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | Community managed domain list. Generate geosite.dat for V2Ray. | `Go` ★ 7.8k | 2026-03-03 |
-| [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another :crocodile: :package: | `Go` ★ 34.3k | 2026-02-27 |
-| [steveiliop56/tinyauth](https://github.com/steveiliop56/tinyauth) | The simplest way to protect your apps with a login screen. | `Go` ★ 7k | 2026-03-04 |
-| [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | Complete Open Source and Modular solution for MMO | `C++` ★ 8k | 2026-03-03 |
-| [epi052/feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | `Rust` ★ 7.6k | 2026-02-08 |
-| [coredns/coredns](https://github.com/coredns/coredns) | Core DNS is a DNS server that chains plugins | `Go` ★ 13.9k | 2026-03-02 |
-| [publicsuffix/list](https://github.com/publicsuffix/list) | The Public Suffix List | `Go` ★ 2.7k | 2026-03-02 |
-| [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 38k | 2026-03-04 |
-| [google/flatbuffers](https://github.com/google/flatbuffers) | Flat Buffers: Memory Efficient Serialization Library | `C++` ★ 25.6k | 2026-02-23 |
-| [0xSero/Azul](https://github.com/0xSero/Azul) | Browse the world in the comfort of your terminal | `Rust` ★ 156 | 2026-01-08 |
-| [stan-smith/SlingShot](https://github.com/stan-smith/SlingShot) | Dead simple ultra-low bandwidth video over QUIC, written in Rust, dead simple to use, free forever, designed for use in any and all conditions | `Rust` ★ 45 | 2026-02-27 |
-| [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 1.5k | 2026-01-07 |
-| [kaifcodec/Telespot](https://github.com/kaifcodec/Telespot) | Tele Spot OSINT lookup from Telephone number using DDGR + BING + GOOGLE and pattern recognition correlations. | `Python` ★ 4 | 2026-01-09 |
-| [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | `Python` ★ 73.3k | 2026-03-03 |
-| [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) | A platform for building proxies to bypass network restrictions. | `Go` ★ 46.9k | 2025-10-06 |
-| [grpc/grpc](https://github.com/grpc/grpc) | C++ based g RPC (C++, Python, Ruby, Objective-C, PHP, C#) | `C++` ★ 44.4k | 2026-03-04 |
-| [AlexandreRouma/SDRPlusPlus](https://github.com/AlexandreRouma/SDRPlusPlus) | Cross-Platform SDR Software | `C++` ★ 5.7k | 2025-12-12 |
-| [nccgroup/wssip](https://github.com/nccgroup/wssip) | Application for capturing, modifying and sending custom Web Socket data from client to server and vice versa. | `JavaScript` ★ 451 | 2022-12-08 |
-| [jgarzik/hk](https://github.com/jgarzik/hk) | A modern, Linux compatible OS kernel | `Rust` ★ 350 | 2025-12-30 |
-| [Project-OSRM/osrm-backend](https://github.com/Project-OSRM/osrm-backend) | Open Source Routing Machine - C++ backend | `C++` ★ 7.5k | 2026-03-03 |
-| [BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager) | A powerful tool for managing networks and troubleshoot network problems! | `C#` ★ 8.1k | 2026-03-03 |
-| [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels | `Python` ★ 14.3k | 2026-02-15 |
-| [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) | 🕵️🫆 (2-in-1) Emaill and Username OSINT tool that analyzes username and email presence across multiple platforms, intended for security research, investigations, legitimate analysis | `Python` ★ 1.2k | 2026-03-04 |
-| [TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer) | Technitium DNS Server | `C#` ★ 7.7k | 2026-02-28 |
-| [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels from all over the world | `TypeScript` ★ 112.4k | 2026-03-04 |
-| [fonoster/routr](https://github.com/fonoster/routr) | ⚡ The future of programmable SIP servers. | `TypeScript` ★ 1.7k | 2026-02-05 |
-| [serverless-dns/serverless-dns](https://github.com/serverless-dns/serverless-dns) | The Rethink DNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io | `JavaScript` ★ 3.4k | 2025-11-24 |
-| [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | A modern download manager that supports all platforms. Built with Golang and Flutter. | `Go` ★ 22.9k | 2026-03-01 |
-| [MaximeRivest/mcp2py](https://github.com/MaximeRivest/mcp2py) | Turn any MCP server into a Python module | `Python` ★ 240 | 2025-11-04 |
-| [p0dalirius/ShareHound](https://github.com/p0dalirius/ShareHound) | A python tool to map the access rights of network shares into a Blood Hound Open Graphs easily | `Python` ★ 270 | 2026-02-05 |
-| [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer) | API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites | `JavaScript` ★ 21.8k | 2026-01-12 |
-| [eclipse-iceoryx/iceoryx2](https://github.com/eclipse-iceoryx/iceoryx2) | Eclipse iceoryx2™ - true zero-copy inter-process-communication with a Rust core | `Rust` ★ 2.1k | 2026-03-02 |
-| [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile) | `C++` ★ 10.3k | 2026-03-03 |
-| [JustAnotherArchivist/snscrape](https://github.com/JustAnotherArchivist/snscrape) | A social networking service scraper in Python | `Python` ★ 5.3k | 2023-11-15 |
-| [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | Cloud-native high-performance edge/middle/service proxy | `C++` ★ 27.7k | 2026-03-03 |
-| [retroplasma/earth-reverse-engineering](https://github.com/retroplasma/earth-reverse-engineering) | Reversing Google's 3D satellite mode | `C` ★ 2.3k | 2020-12-23 |
-| [cisco/libsrtp](https://github.com/cisco/libsrtp) | Library for SRTP (Secure Realtime Transport Protocol) | `C` ★ 1.4k | 2026-02-19 |
-| [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | Distributed server for social and realtime games and apps. | `Go` ★ 12.3k | 2026-03-03 |
-| [supabase/realtime](https://github.com/supabase/realtime) | Broadcast, Presence, and Postgres Changes via Web Sockets | `Elixir` ★ 7.5k | 2026-03-04 |
-| [berty/berty](https://github.com/berty/berty) | Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network | `TypeScript` ★ 9.1k | 2026-03-02 |
-| [deskflow/deskflow](https://github.com/deskflow/deskflow) | Share a single keyboard and mouse between multiple computers. | `C++` ★ 24.1k | 2026-03-02 |
-| [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | The Free Software Media System - Server Backend & API | `C#` ★ 49k | 2026-03-03 |
-| [Prowlarr/Prowlarr](https://github.com/Prowlarr/Prowlarr) | Prowlarr is an indexer manager/proxy built on the popular \*arr .net/reactjs base stack to integrate with your various PVR apps, supporting management of both Torrent Trackers and Usenet Indexers. | `C#` ★ 6.2k | 2026-02-18 |
-| [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) | Command-line program to download videos from You Tube.com and other video sites | `Python` ★ 139.8k | 2026-02-19 |
-| [XTXMarkets/ternfs](https://github.com/XTXMarkets/ternfs) | An exabyte-scale, multi-region distributed file system | `C++` ★ 1.3k | 2026-03-03 |
-| [Gregivy/simpleddp](https://github.com/Gregivy/simpleddp) | An easy to use DDP client library | `JavaScript` ★ 167 | 2022-12-07 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

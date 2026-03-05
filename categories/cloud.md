@@ -1,13 +1,13 @@
 # Cloud
 
-*99 repositories*
+*31 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 32.8k | 2026-03-03 |
-| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | A modern replacement for Redis and Memcached | `C++` ★ 30.1k | 2026-03-03 |
+| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 32.8k | 2026-03-04 |
+| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | A modern replacement for Redis and Memcached | `C++` ★ 30.1k | 2026-03-05 |
 | [stacklok/toolhive](https://github.com/stacklok/toolhive) | Tool Hive makes deploying MCP servers easy, secure and fun | `Go` ★ 1.6k | 2026-03-04 |
 | [Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops) | An MCP server for Azure Dev Ops | `TypeScript` ★ 340 | 2026-02-05 |
 | [vectra-ai-research/MAAD-AF](https://github.com/vectra-ai-research/MAAD-AF) | MAAD Attack Framework - An attack tool for simple, fast & effective security testing of M365 & Entra ID (Azure AD). | `PowerShell` ★ 415 | 2026-01-13 |
@@ -28,82 +28,14 @@
 | [wesellis/Azure-PowerShell-Toolkit](https://github.com/wesellis/Azure-PowerShell-Toolkit) | Massive collection of 772+ Power Shell scripts for Azure management. CI/CD with PSScript Analyzer, security scanning, and Ia C validation. Enterprise-ready with comprehensive testing. | `PowerShell` ★ 38 | 2025-10-03 |
 | [darkquasar/AzureHunter](https://github.com/darkquasar/AzureHunter) | A Cloud Forensics Powershell module to run threat hunting playbooks on data from Azure and O365 | `PowerShell` ★ 790 | 2022-10-29 |
 | [hausec/PowerZure](https://github.com/hausec/PowerZure) | Power Shell framework to assess Azure security | `PowerShell` ★ 1.3k | 2025-10-18 |
-| [SigNoz/signoz](https://github.com/SigNoz/signoz) | Sig Noz is an open-source observability platform native to Open Telemetry with logs, traces and metrics in a single application. An open-source alternative to Data Dog, New Relic, etc. 🔥 🖥. 👉 Op... | `TypeScript` ★ 25.9k | 2026-03-03 |
+| [SigNoz/signoz](https://github.com/SigNoz/signoz) | Sig Noz is an open-source observability platform native to Open Telemetry with logs, traces and metrics in a single application. An open-source alternative to Data Dog, New Relic, etc. 🔥 🖥. 👉 Op... | `TypeScript` ★ 26k | 2026-03-05 |
 | [Azure-Samples/azure-typescript-e2e-apps](https://github.com/Azure-Samples/azure-typescript-e2e-apps) | Monorepo - Apps written in Type Script to be either 1) deployed to Azure hosting or 2) integrated with Azure services | `TypeScript` ★ 48 | 2026-02-02 |
-| [alibaba/nacos](https://github.com/alibaba/nacos) | an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications. | `Java` ★ 32.7k | 2026-03-03 |
+| [alibaba/nacos](https://github.com/alibaba/nacos) | an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications. | `Java` ★ 32.7k | 2026-03-05 |
 | [Yamato-Security/suzaku](https://github.com/Yamato-Security/suzaku) | Suzaku (朱雀) is a sigma-based threat hunting and fast forensics timeline generator for cloud logs. | `Rust` ★ 168 | 2025-12-07 |
-| [microsoft/EntraExporter](https://github.com/microsoft/EntraExporter) | Power Shell module to export a local copy of an Entra (Azure AD) tenant configuration. | `PowerShell` ★ 833 | 2025-11-16 |
+| [microsoft/EntraExporter](https://github.com/microsoft/EntraExporter) | Power Shell module to export a local copy of an Entra (Azure AD) tenant configuration. | `PowerShell` ★ 834 | 2025-11-16 |
 | [mspnp/aks-baseline](https://github.com/mspnp/aks-baseline) | This is the Azure Kubernetes Service (AKS) Baseline Cluster reference implementation as produced by the Microsoft Azure Architecture Center. | `Bicep` ★ 744 | 2026-02-19 |
-| [notclickable-jordan/starbase-80](https://github.com/notclickable-jordan/starbase-80) | A nice Docker homepage | `TypeScript` ★ 516 | 2025-10-18 |
-| [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) | The developer platform for on-demand cloud development environments to create software faster and more securely. | `TypeScript` ★ 13.6k | 2026-03-03 |
-| [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp) | A Kubernetes web UI that is fully-featured, user-friendly and extensible | `TypeScript` ★ 5.9k | 2026-03-03 |
-| [Azure-Samples/azure-files-samples](https://github.com/Azure-Samples/azure-files-samples) | This repository contains supporting code (Power Shell modules/scripts, ARM templates, etc.) for deploying, configuring, and using Azure Files. | `PowerShell` ★ 254 | 2026-03-03 |
-| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `HTML` ★ 10k | 2026-03-04 |
-| [rcourtman/Pulse](https://github.com/rcourtman/Pulse) | Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unified dashboard | `Go` ★ 4.8k | 2026-03-03 |
-| [labring/sealos](https://github.com/labring/sealos) | Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfec... | `TypeScript` ★ 17k | 2026-03-03 |
-| [plexinc/pms-docker](https://github.com/plexinc/pms-docker) | Plex Media Server Docker repo, for all your PMS docker needs. | `Smarty` ★ 3.9k | 2026-02-19 |
-| [coredns/coredns](https://github.com/coredns/coredns) | Core DNS is a DNS server that chains plugins | `Go` ★ 13.9k | 2026-03-02 |
-| [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 35.2k | 2026-03-03 |
-| [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 38k | 2026-03-04 |
-| [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | Wrap Gemini CLI, Antigravity, Chat GPT Codex, Claude Code, Qwen Code, i Flow as an Open AI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, ... | `Go` ★ 13k | 2026-03-03 |
-| [TRaSH-Guides/Guides](https://github.com/TRaSH-Guides/Guides) | TRa SH-Guides is a comprehensive collection of guides for Radarr, Sonarr, and related media management applications. | `Markdown` ★ 2.8k | 2026-03-04 |
-| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool | `JavaScript` ★ 83.5k | 2026-03-04 |
-| [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | `C#` ★ 14.3k | 2026-03-03 |
-| [Azure-Samples/ai-hub-gateway-solution-accelerator](https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator) | Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure ... | `Bicep` ★ 254 | 2026-03-03 |
-| [Azure-Player/azure.datafactory.tools](https://github.com/Azure-Player/azure.datafactory.tools) | Tools for deploying Data Factory (v2) in Microsoft Azure | `PowerShell` ★ 258 | 2025-10-24 |
-| [Azure/azure-monitor-baseline-alerts](https://github.com/Azure/azure-monitor-baseline-alerts) | Azure Monitor Baseline Alerts | `Bicep` ★ 301 | 2026-03-02 |
-| [Azure/ALZ-PowerShell-Module](https://github.com/Azure/ALZ-PowerShell-Module) | The Azure Landing Zones Accelerators Power Shell module | `PowerShell` ★ 108 | 2026-01-30 |
-| [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) | A curated list of Microservice Architecture related principles and technologies. | ★ 14.2k | 2026-01-17 |
-| [Azure/ALZ-Bicep](https://github.com/Azure/ALZ-Bicep) | This repository contains the Azure Landing Zones (ALZ) Bicep (Classic) modules that help deliver and deploy the Azure Landing Zone conceptual architecture in a modular approach. https://aka.ms/alz/... | `Bicep` ★ 870 | 2026-02-26 |
-| [pshenok/server-survival](https://github.com/pshenok/server-survival) | Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. | `JavaScript` ★ 5.4k | 2026-03-01 |
-| [Azure-Samples/Apim-Samples](https://github.com/Azure-Samples/Apim-Samples) | This repository provides a playground to safely experiment with and learn Azure API Management (APIM) policies in various architectures. | `Python` ★ 78 | 2026-03-02 |
-| [Nic13Gamer/better-upload](https://github.com/Nic13Gamer/better-upload) | Simple and easy file uploads for React. Upload directly to any S3-compatible service with minimal setup. | `TypeScript` ★ 1.2k | 2026-02-22 |
-| [Azure/apim-landing-zone-accelerator](https://github.com/Azure/apim-landing-zone-accelerator) | The Azure API Management landing zone accelerator provides an architectural approach and reference implementation to prepare landing zone subscriptions for a secure API Management infrastructure. | `HCL` ★ 199 | 2025-12-17 |
-| [ealsur/serverlessnotifications](https://github.com/ealsur/serverlessnotifications) | Serverless notifications with Azure Cosmos DB + Azure Functions + Azure Signal R | `JavaScript` ★ 62 | 2018-05-25 |
-| [microsoft/vscode-cosmosdb](https://github.com/microsoft/vscode-cosmosdb) | Azure Cosmos DB extension for VS Code | `TypeScript` ★ 190 | 2026-03-03 |
-| [Azure/api-management-policy-snippets](https://github.com/Azure/api-management-policy-snippets) | Re-usable examples of Azure API Management policies | ★ 394 | 2026-02-25 |
-| [Azure-Samples/dab-swa-wonders](https://github.com/Azure-Samples/dab-swa-wonders) | Boost your developer productivity by creating end-to-end apps quickly! Using Azure Data API Builder for Cosmos DB, this app shows how to build JAMstack apps fast with Cosmos DB as your backend. | `TypeScript` ★ 10 | 2025-01-16 |
-| [microsoft/CosmosDB_Multi-Tenant](https://github.com/microsoft/CosmosDB_Multi-Tenant) | Cosmos DB for Multi-Tenant Applications | ★ 22 | 2022-12-15 |
-| [olhel/sub2tenant-aca](https://github.com/olhel/sub2tenant-aca) | Lookup Azure tenant information from a subscription ID. | `HTML` ★ 14 | 2025-12-04 |
-| [Dokploy/dokploy](https://github.com/Dokploy/dokploy) | Open Source Alternative to Vercel, Netlify and Heroku. | `TypeScript` ★ 31.2k | 2026-03-03 |
-| [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (\`azd\`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 240 | 2026-03-03 |
-| [pascalvanderheiden/ais-apim-openai](https://github.com/pascalvanderheiden/ais-apim-openai) | Unleash the power of Azure Open AI to your application developers in a secure & manageable way with Azure API Management and Azure Developer CLI. | `Bicep` ★ 35 | 2023-12-28 |
-| [passadis/ai-architect-webapp](https://github.com/passadis/ai-architect-webapp) | AI-powered Azure Architecture Generator that automatically creates AI agents for design documents and diagram generation | `Python` ★ 11 | 2026-02-27 |
-| [pamelafox/fastapi-azure-function-apim](https://github.com/pamelafox/fastapi-azure-function-apim) | A Fast API app that is designed for deployment to Azure Functions with an API Management Policy. | `Bicep` ★ 60 | 2026-02-23 |
-| [opencloud-eu/opencloud](https://github.com/opencloud-eu/opencloud) | 🌤️ Open Cloud is the open source platform for file management, sharing and collaboration. Simple and sovereign. | `Go` ★ 4.9k | 2026-03-04 |
-| [Azure-Samples/aks-platform-engineering](https://github.com/Azure-Samples/aks-platform-engineering) | Opinionated AKS + OSS stack with Argo CD, CAPZ/ASO or Crossplane, Terraform, Backstage | `TypeScript` ★ 149 | 2025-11-27 |
-| [Azure/Enterprise-Scale](https://github.com/Azure/Enterprise-Scale) | The Azure Landing Zones (Enterprise-Scale) architecture provides prescriptive guidance coupled with Azure best practices, and it follows design principles across the critical design areas for organ... | `PowerShell` ★ 1.9k | 2026-02-27 |
-| [CompositionalIT/farmer](https://github.com/CompositionalIT/farmer) | Repeatable Azure deployments with ARM templates - made easy! | `F#` ★ 547 | 2025-12-10 |
-| [Azure/deployment-stacks](https://github.com/Azure/deployment-stacks) | Contains Deployment Stacks CLI scripts and releases | `Bicep` ★ 97 | 2024-10-24 |
-| [daveRendon/azinsider](https://github.com/daveRendon/azinsider) | 🚀 The Az Insider Repo offers code samples to help you deploy various workloads in your Azure environment using Bicep language. It simplifies the deployment process and makes it easy to get your ap... | `Bicep` ★ 41 | 2026-01-18 |
-| [TheCloudTheory/arm-estimator](https://github.com/TheCloudTheory/arm-estimator) | ACE (Azure Cost Estimator) - automated cost estimations for ARM Templates, Bicep and Terraform | `C#` ★ 217 | 2025-12-17 |
-| [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scalable. The Memory API for the AI era. | `TypeScript` ★ 16.7k | 2026-03-04 |
-| [coollabsio/coolify](https://github.com/coollabsio/coolify) | An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv... | `PHP` ★ 51.3k | 2026-03-03 |
-| [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | Cloud-native high-performance edge/middle/service proxy | `C++` ★ 27.7k | 2026-03-03 |
-| [documentdb/documentdb](https://github.com/documentdb/documentdb) | Mongo DB-compatible database engine for cloud-native and open-source workloads. Built for scalability, performance, and developer productivity. | `C` ★ 3.2k | 2026-03-03 |
-| [pnp/provision-assist-m365](https://github.com/pnp/provision-assist-m365) | Provision Assist is a request and provisioning solution for Teams, Groups, SPO Sites and Viva Engage Communities in Microsoft 365. It can be used as part of a Copilot for Microsoft 365 deployment. | `PowerShell` ★ 106 | 2025-04-07 |
-| [tellerops/teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | `Rust` ★ 3.2k | 2026-01-27 |
-| [getsops/sops](https://github.com/getsops/sops) | Simple and flexible tool for managing secrets | `Go` ★ 21k | 2026-03-02 |
-| [trycompai/comp](https://github.com/trycompai/comp) | AI Native platform to get companies compliant - Vanta & Drata Alternative | `TypeScript` ★ 1.4k | 2026-03-04 |
-| [Azure/Medical-Claims-Transaction-Processing-at-scale](https://github.com/Azure/Medical-Claims-Transaction-Processing-at-scale) | No description provided | `CSS` ★ 44 | 2025-05-12 |
-| [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app) | Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, Postgre SQL, real-time data API... | `Jupyter Notebook` ★ 56.2k | 2026-01-07 |
-| [HybridBrothers/Hybrid-Brothers-Blogs](https://github.com/HybridBrothers/Hybrid-Brothers-Blogs) | This repository contains code snippets used in blog posts of hybridbrothers.com. | `Bicep` ★ 5 | 2025-04-26 |
-| [Build5Nines/azd-react-bootstrap-dashboard](https://github.com/Build5Nines/azd-react-bootstrap-dashboard) | A multi-tier app with a dashboard front-end (React + Bootstrap) hosted in Azure Static Web Apps and back-end API (Node.js) hosted in Azure App Service | `Bicep` ★ 1 | 2025-01-02 |
-| [Azure/Microsoft-Defender-for-Cloud](https://github.com/Azure/Microsoft-Defender-for-Cloud) | Welcome to the Microsoft Defender for Cloud community repository | `PowerShell` ★ 1.9k | 2026-02-17 |
-| [Azure/azure-sdk-for-js](https://github.com/Azure/azure-sdk-for-js) | This repository is for active development of the Azure SDK for Java Script (Node JS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.co... | `TypeScript` ★ 2.3k | 2026-03-04 |
-| [Azure-Samples/contoso-real-estate](https://github.com/Azure-Samples/contoso-real-estate) | Intelligent enterprise-grade reference architecture for Java Script, featuring Open AI integration, Azure Developer CLI template and Playwright tests. | `JavaScript` ★ 969 | 2025-03-20 |
-| [SeryioGonzalez/azure-pricer](https://github.com/SeryioGonzalez/azure-pricer) | No description provided | `Python` ★ 55 | 2025-05-16 |
-| [JulianHayward/AzAdvertizer](https://github.com/JulianHayward/AzAdvertizer) | Az Advertizer helps you to keep up with the pace by providing overview and insights on new releases and changes/updates for Azure Governance capabilities such as Azure Policy's policy definitions, ... | ★ 40 | 2023-09-08 |
-| [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An \`azd\` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 28 | 2024-06-26 |
-| [hotnops/AzureScripts](https://github.com/hotnops/AzureScripts) | Random scripts for azure stuff | `PowerShell` ★ 14 | 2022-10-12 |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | Azure Data Exporter for Blood Hound | `Go` ★ 871 | 2026-03-02 |
-| [Azure-Samples/contoso-chat](https://github.com/Azure-Samples/contoso-chat) | This sample has the full End2End process of creating RAG application with Prompty and Azure AI Foundry. It includes GPT-4 LLM application code, evaluations, deployment automation with AZD CLI, Git ... | `Bicep` ★ 757 | 2025-10-03 |
-| [manaflow-ai/manaflow](https://github.com/manaflow-ai/manaflow) | Open source Claude Code web/Codex Cloud/Devin/Ramp Inspect alternative | `TypeScript` ★ 885 | 2026-03-03 |
-| [teableio/teable](https://github.com/teableio/teable) | ✨ The Next Gen Airtable Alternative: No-Code Postgres | `TypeScript` ★ 21k | 2026-03-04 |
-| [NileshGule/techtalks-azure-container-apps-demo](https://github.com/NileshGule/techtalks-azure-container-apps-demo) | A simple example to showcase Azure container apps capabilities using a Tech Talks demo with native integration for Dapr and KEDA | `PowerShell` ★ 4 | 2024-09-23 |
-| [CompliantSec/M365SAT](https://github.com/CompliantSec/M365SAT) | Microsoft 365 Security Assessment Tool - A Easy-To-Use Microsoft 365 Security Assessment Tool | `PowerShell` ★ 173 | 2025-04-25 |
-| [piyushsachdeva/AzureDevOps-Zero-to-Hero](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero) | A central hub for artifacts, agendas, and resources related to the "Azure Dev Ops Zero to Hero" series on Tech Tutorials with Piyush You Tube channel. Access code snippets, agendas, notes, graphics... | `Shell` ★ 1.2k | 2025-09-18 |
-| [Azure-Samples/remote-mcp-webapp-node](https://github.com/Azure-Samples/remote-mcp-webapp-node) | No description provided | `JavaScript` ★ 5 | 2026-02-14 |
-| [Azure-Samples/communication-services-javascript-quickstarts](https://github.com/Azure-Samples/communication-services-javascript-quickstarts) | Sample code for Azure Communication Services Java Script quickstarts | `JavaScript` ★ 106 | 2025-12-16 |
+| [notclickable-jordan/starbase-80](https://github.com/notclickable-jordan/starbase-80) | A nice Docker homepage | `TypeScript` ★ 517 | 2025-10-18 |
+| [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) | The developer platform for on-demand cloud development environments to create software faster and more securely. | `TypeScript` ★ 13.6k | 2026-03-04 |
+| [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp) | A Kubernetes web UI that is fully-featured, user-friendly and extensible | `TypeScript` ★ 5.9k | 2026-03-05 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

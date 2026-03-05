@@ -1,30 +1,16 @@
 # Containers
 
-*20 repositories*
+*6 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 32.8k | 2026-03-03 |
-| [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) | 🔥 Take full control of your VPS with 1Panel. Deploy Open Claw in one click. | `Go` ★ 33.9k | 2026-03-04 |
-| [alibaba/nacos](https://github.com/alibaba/nacos) | an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications. | `Java` ★ 32.7k | 2026-03-03 |
+| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 32.8k | 2026-03-04 |
+| [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) | 🔥 Take full control of your VPS with 1Panel. Deploy Open Claw in one click. | `Go` ★ 34k | 2026-03-05 |
+| [alibaba/nacos](https://github.com/alibaba/nacos) | an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications. | `Java` ★ 32.7k | 2026-03-05 |
 | [mspnp/aks-baseline](https://github.com/mspnp/aks-baseline) | This is the Azure Kubernetes Service (AKS) Baseline Cluster reference implementation as produced by the Microsoft Azure Architecture Center. | `Bicep` ★ 744 | 2026-02-19 |
-| [notclickable-jordan/starbase-80](https://github.com/notclickable-jordan/starbase-80) | A nice Docker homepage | `TypeScript` ★ 516 | 2025-10-18 |
-| [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp) | A Kubernetes web UI that is fully-featured, user-friendly and extensible | `TypeScript` ★ 5.9k | 2026-03-03 |
-| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `HTML` ★ 10k | 2026-03-04 |
-| [m1k1o/neko](https://github.com/m1k1o/neko) | A self hosted virtual browser that runs in docker and uses Web RTC. | `Go` ★ 17.3k | 2026-02-17 |
-| [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | `Go` ★ 50k | 2026-01-17 |
-| [labring/sealos](https://github.com/labring/sealos) | Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfec... | `TypeScript` ★ 17k | 2026-03-03 |
-| [plexinc/pms-docker](https://github.com/plexinc/pms-docker) | Plex Media Server Docker repo, for all your PMS docker needs. | `Smarty` ★ 3.9k | 2026-02-19 |
-| [devcontainers/cli](https://github.com/devcontainers/cli) | A reference implementation for the specification that can create and configure a dev container from a devcontainer.json. | `TypeScript` ★ 2.5k | 2026-03-02 |
-| [coredns/coredns](https://github.com/coredns/coredns) | Core DNS is a DNS server that chains plugins | `Go` ★ 13.9k | 2026-03-02 |
-| [Azure-Samples/Apim-Samples](https://github.com/Azure-Samples/Apim-Samples) | This repository provides a playground to safely experiment with and learn Azure API Management (APIM) policies in various architectures. | `Python` ★ 78 | 2026-03-02 |
-| [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | Docker container for managing Nginx proxy hosts with a simple, powerful interface | `TypeScript` ★ 31.9k | 2026-03-02 |
-| [Azure-Samples/aks-platform-engineering](https://github.com/Azure-Samples/aks-platform-engineering) | Opinionated AKS + OSS stack with Argo CD, CAPZ/ASO or Crossplane, Terraform, Backstage | `TypeScript` ★ 149 | 2025-11-27 |
-| [coollabsio/coolify](https://github.com/coollabsio/coolify) | An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv... | `PHP` ★ 51.3k | 2026-03-03 |
-| [dockur/windows](https://github.com/dockur/windows) | Windows inside a Docker container. | `Shell` ★ 50.2k | 2026-01-13 |
-| [Azure/acr-cli](https://github.com/Azure/acr-cli) | Command Line Tool for interacting with Azure Container Registry Images | `Go` ★ 67 | 2026-03-03 |
-| [NileshGule/techtalks-azure-container-apps-demo](https://github.com/NileshGule/techtalks-azure-container-apps-demo) | A simple example to showcase Azure container apps capabilities using a Tech Talks demo with native integration for Dapr and KEDA | `PowerShell` ★ 4 | 2024-09-23 |
+| [notclickable-jordan/starbase-80](https://github.com/notclickable-jordan/starbase-80) | A nice Docker homepage | `TypeScript` ★ 517 | 2025-10-18 |
+| [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp) | A Kubernetes web UI that is fully-featured, user-friendly and extensible | `TypeScript` ★ 5.9k | 2026-03-05 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
