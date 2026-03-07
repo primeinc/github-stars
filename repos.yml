@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-07T03:48:22.694Z'
+  manifest_updated_at: '2026-03-07T03:48:48.001Z'
   total_repos: 200
   generator_version: v1.0.0
   github_user: primeinc
@@ -5180,13 +5180,18 @@ repositories:
     framework: null
   - repo: aykutkardas/svgps.app
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - svg
+      - icons
+      - parser
+      - lang:ts
     summary: SVGPS converts your icons into a single JSON file that is ready to use in your frontend or mobile projects.
     last_synced_sha: d5f398d3beccc2c99e8b9fdfdec041571aefe921
     user_starred_at: '2026-02-11T06:34:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5215,15 +5220,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.104Z'
+      prompt_version: v3
   - repo: likexian/whois-parser
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - apis
+    tags:
+      - whois
+      - domain-lookup
+      - lang:go
     summary: Whois parser for domain whois information parsing in Go(Golang).
     last_synced_sha: 2426ff1e36f7540b2e0e7f69324cbe2091f5b278
     user_starred_at: '2026-02-11T06:34:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5246,15 +5259,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.104Z'
+      prompt_version: v3
   - repo: PoiScript/orgize
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - org-mode
+      - parser
+      - cli
+      - lang:rust
     summary: A Rust library for parsing org-mode files.
     last_synced_sha: 5f26c94dcec2a33b37b1c880ace053b29b5d021e
     user_starred_at: '2026-02-11T06:33:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -5276,15 +5298,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.104Z'
+      prompt_version: v3
   - repo: thoqbk/traprange
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - learning
+    tags:
+      - pdf
+      - java
+      - parser
+      - lang:html
     summary: (Java)A Method to Extract Tabular Content from PDF Files
     last_synced_sha: 4ae9347e61a2fb87808bbe73ffa3202718d43635
     user_starred_at: '2026-02-11T06:33:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -5309,15 +5340,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.104Z'
+      prompt_version: v3
   - repo: oguimbal/pgsql-ast-parser
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - dev-tools
+    tags:
+      - sql
+      - postgres
+      - parser
+      - lang:ts
     summary: Yet another simple Postgres SQL parser
     last_synced_sha: 69245d726b250e89a24fd801a29ad3bc2afdf0d3
     user_starred_at: '2026-02-11T06:33:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5349,15 +5389,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.104Z'
+      prompt_version: v3
   - repo: MaibornWolff/codecharta
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - code-visualization
+      - metrics
+      - 3d-map
+      - lang:ts
+      - angular
     summary: Code Charta is a visualization tool that transforms complex software architecture and code metrics into interactive, customizable visual maps, empowering everyone to communicate and analyze your co...
     last_synced_sha: 8ec53df92906d4dbdb0bcf44a99ddb72c8dd7526
     user_starred_at: '2026-02-11T06:30:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5392,16 +5442,25 @@ repositories:
         published_at: '2026-02-27T13:05:31Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.104Z'
+      prompt_version: v3
   - repo: chipsalliance/Surelog
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - automation
+    tags:
+      - systemverilog
+      - parser
+      - vpi
+      - lang:cpp
     summary: System Verilog 2017 Pre-processor, Parser, Elaborator, UHDM Compiler. Provides IEEE Design/TB C/C++ VPI and Python AST & UHDM APIs. Compiles on Linux gcc, Windows msys2-gcc & msvc, Os X
     last_synced_sha: abf50275f7a5f092d73f1359e933bbff898df077
     user_starred_at: '2026-02-11T06:29:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -5435,15 +5494,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.101Z'
+      prompt_version: v3
   - repo: kevinburke/ssh_config
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - ssh-config
+      - parser
+      - lang:go
     summary: Go parser for ssh_config files
     last_synced_sha: 9fcf72227fff42524dbc43daf02f5492525d0441
     user_starred_at: '2026-02-11T06:28:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5465,15 +5532,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.101Z'
+      prompt_version: v3
   - repo: postalsys/postal-mime
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - email
+      - parser
+      - serverless
+      - lang:js
     summary: Email parser for browser and serverless environments
     last_synced_sha: 24dc6c64dfb43d89a8c8837ec941c96ebfa2c1fa
     user_starred_at: '2026-02-11T06:27:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -5498,15 +5574,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.101Z'
+      prompt_version: v3
   - repo: jcubic/lips
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - dev-tools
+    tags:
+      - lisp
+      - interpreter
+      - language
+      - lang:js
     summary: Scheme based powerful lisp interpreter in Java Script
     last_synced_sha: 064e3a655b3de3b2878fc5307a07d212d351937c
     user_starred_at: '2026-02-11T06:27:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -5543,15 +5628,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.101Z'
+      prompt_version: v3
   - repo: glayzzle/php-parser
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - php-parser
+      - static-code-analysis
+      - lexer
+      - lang:js
     summary: ':herb: Node JS PHP Parser - extract AST or tokens'
     last_synced_sha: 36556ac79ae8bab0d7046fad76baee2c82ac0f09
     user_starred_at: '2026-02-11T06:25:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -5581,15 +5675,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.101Z'
+      prompt_version: v3
   - repo: willdurand/EmailReplyParser
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - php
+      - email
+      - lang:php
     summary: PHP library for parsing plain text email content.
     last_synced_sha: f25f8c6c3cb876112e3857eb3da15e38e44e4725
     user_starred_at: '2026-02-11T06:24:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -5612,15 +5714,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.101Z'
+      prompt_version: v3
   - repo: kach/nearley
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - parser
+      - nodejs
+      - parsing-library
+      - lang:js
     summary: 📜🔜🌲 Simple, fast, powerful parser toolkit for Java Script.
     last_synced_sha: 96f1da12acdb986e8279355d3d34cf5b139ab268
     user_starred_at: '2026-02-11T06:22:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -5649,15 +5760,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.101Z'
+      prompt_version: v3
   - repo: pdfminer/pdfminer.six
     categories:
-      - unclassified
-    tags: []
+      - data-science
+    tags:
+      - pdf
+      - parser
+      - lang:python
     summary: Community maintained fork of pdfminer - we fathom PDF
     last_synced_sha: dca0dd65cec132f374a4aa2f13ecbb86cf4a0948
     user_starred_at: '2026-02-11T06:21:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -5680,15 +5798,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.101Z'
+      prompt_version: v3
   - repo: i18next/i18next-cli
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - cli
+      - i18n
+      - i18next
+      - toolkit
+      - lang:ts
     summary: A unified, high-performance i18next CLI.
     last_synced_sha: a62967d7528966645f07182c4d57114e64982354
     user_starred_at: '2026-02-11T06:21:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5711,6 +5839,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-07T03:48:47.101Z'
+      prompt_version: v3
   - repo: joweich/chat-miner
     categories:
       - data-science
