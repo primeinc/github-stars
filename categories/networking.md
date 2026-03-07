@@ -6,11 +6,11 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [clusterzx/ts6-manager](https://github.com/clusterzx/ts6-manager) | Web-based management interface for Team Speak servers | `TypeScript` ★ 28 | 2026-02-25 |
-| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 100.7k | 2026-03-06 |
-| [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 330 | 2026-03-04 |
+| [clusterzx/ts6-manager](https://github.com/clusterzx/ts6-manager) | Web-based management interface for Team Speak servers | `TypeScript` ★ 35 | 2026-02-25 |
+| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 100.9k | 2026-03-07 |
+| [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 330 | 2026-03-06 |
 | [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app) | Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | `Dart` ★ 27k | 2026-03-05 |
-| [Wh0am123/MCP-Kali-Server](https://github.com/Wh0am123/MCP-Kali-Server) | MCP configuration to connect AI agent to a Linux machine. | `Python` ★ 548 | 2026-02-26 |
+| [Wh0am123/MCP-Kali-Server](https://github.com/Wh0am123/MCP-Kali-Server) | MCP configuration to connect AI agent to a Linux machine. | `Python` ★ 549 | 2026-02-26 |
 | [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | A community driven registry service for Model Context Protocol (MCP) servers. | `Go` ★ 6.5k | 2026-03-06 |
 | [dead10ck/nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns) | DNS utility for nushell | `Rust` ★ 52 | 2026-03-03 |
 

@@ -1,26 +1,30 @@
 # Productivity
 
-*16 repositories*
+*20 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [joelhawksley/timeframe](https://github.com/joelhawksley/timeframe) | An e-paper calendar, weather, and smart home family dashboard | `Ruby` ★ 619 | 2026-03-04 |
+| [joelhawksley/timeframe](https://github.com/joelhawksley/timeframe) | An e-paper calendar, weather, and smart home family dashboard | `Ruby` ★ 621 | 2026-03-06 |
 | [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Svelte` ★ 287 | 2026-02-28 |
 | [puzpuzpuz/go-concurrent-map-bench](https://github.com/puzpuzpuz/go-concurrent-map-bench) | Benchmarks for concurrent hash map implementations in Go | `Go` ★ 60 | 2026-02-21 |
-| [open-mercato/open-mercato](https://github.com/open-mercato/open-mercato) | AI‑supportive CRM / ERP foundation framework — built to power R&D, new processes, operations, and growth. It’s modular, extensible, and designed for teams that want strong defaults with room to cus... | `TypeScript` ★ 1k | 2026-03-05 |
-| [zed-industries/zed](https://github.com/zed-industries/zed) | Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. | `Rust` ★ 76.5k | 2026-03-06 |
-| [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | Tool Jet is the open-source foundation of Tool Jet AI - the AI-native platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀 | `JavaScript` ★ 37.5k | 2026-03-06 |
+| [open-mercato/open-mercato](https://github.com/open-mercato/open-mercato) | AI‑supportive CRM / ERP foundation framework — built to power R&D, new processes, operations, and growth. It’s modular, extensible, and designed for teams that want strong defaults with room to cus... | `TypeScript` ★ 1.1k | 2026-03-06 |
+| [zed-industries/zed](https://github.com/zed-industries/zed) | Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. | `Rust` ★ 76.5k | 2026-03-07 |
+| [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | Tool Jet is the open-source foundation of Tool Jet AI - the AI-native platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀 | `JavaScript` ★ 37.6k | 2026-03-06 |
 | [JosefNemec/Playnite](https://github.com/JosefNemec/Playnite) | Video game library manager with support for wide range of 3rd party libraries and game emulation support, providing one unified interface for your games. | `C#` ★ 12.6k | 2026-02-20 |
-| [PV-Bhat/vibe-check-mcp-server](https://github.com/PV-Bhat/vibe-check-mcp-server) | Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-e... | `TypeScript` ★ 478 | 2026-02-11 |
-| [cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian Knowledge-Management MCP (Model Context Protocol) server that enables AI agents and development tools to interact with an Obsidian vault. It provides a comprehensive suite of tools for rea... | `TypeScript` ★ 384 | 2025-10-24 |
-| [delorenj/mcp-server-trello](https://github.com/delorenj/mcp-server-trello) | A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards. | `TypeScript` ★ 248 | 2026-02-04 |
-| [Softeria/ms-365-mcp-server](https://github.com/Softeria/ms-365-mcp-server) | A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API | `TypeScript` ★ 507 | 2026-03-03 |
-| [negokaz/excel-mcp-server](https://github.com/negokaz/excel-mcp-server) | A Model Context Protocol (MCP) server that reads and writes MS Excel data | `Go` ★ 862 | 2025-07-19 |
+| [PV-Bhat/vibe-check-mcp-server](https://github.com/PV-Bhat/vibe-check-mcp-server) | Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-e... | `TypeScript` ★ 479 | 2026-02-11 |
+| [cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian Knowledge-Management MCP (Model Context Protocol) server that enables AI agents and development tools to interact with an Obsidian vault. It provides a comprehensive suite of tools for rea... | `TypeScript` ★ 385 | 2025-10-24 |
+| [delorenj/mcp-server-trello](https://github.com/delorenj/mcp-server-trello) | A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards. | `TypeScript` ★ 249 | 2026-02-04 |
+| [Softeria/ms-365-mcp-server](https://github.com/Softeria/ms-365-mcp-server) | A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API | `TypeScript` ★ 509 | 2026-03-03 |
+| [negokaz/excel-mcp-server](https://github.com/negokaz/excel-mcp-server) | A Model Context Protocol (MCP) server that reads and writes MS Excel data | `Go` ★ 864 | 2025-07-19 |
 | [GongRzhe/Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) | A MCP (Model Context Protocol) server for Power Point manipulation using python-pptx. This server provides tools for creating, editing, and manipulating Power Point presentations through the MCP pr... | `Python` ★ 1.6k | 2025-12-31 |
 | [GongRzhe/Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server) | A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interfac... | `Python` ★ 1.7k | 2025-12-31 |
 | [FlorianWilhelm/the-hatchlor](https://github.com/FlorianWilhelm/the-hatchlor) | 🌹 Cookiecutter template featuring the modern and extensible Python project manager hatch | `Python` ★ 82 | 2024-11-18 |
-| [HKUDS/MoChat](https://github.com/HKUDS/MoChat) | "Mo Chat: Reconnecting the World through AI Agents (Open Claw & nanobot & Claude Code) https://mochat.io" | `TypeScript` ★ 195 | 2026-02-12 |
+| [HKUDS/MoChat](https://github.com/HKUDS/MoChat) | "Mo Chat: Reconnecting the World through AI Agents (Open Claw & nanobot & Claude Code) https://mochat.io" | `TypeScript` ★ 196 | 2026-02-12 |
+| [evinjohnn/natively-cluely-ai-assistant](https://github.com/evinjohnn/natively-cluely-ai-assistant) | Natively is an open-source, privacy-first AI meeting assistant and the best alternative to Cluely. It supports both local models and cloud AI providers , delivering real-time assistance during meet... | `TypeScript` ★ 635 | 2026-03-06 |
+| [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) | 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more... | `Python` ★ 27k | 2026-02-26 |
+| [deadc0de6/gocatcli](https://github.com/deadc0de6/gocatcli) | The command line catalog tool for your offline data | `Go` ★ 40 | 2025-12-30 |
+| [dialpad/dialpad-python-sdk](https://github.com/dialpad/dialpad-python-sdk) | No description provided | `Python` ★ 14 | 2025-06-16 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
