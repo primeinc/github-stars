@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-08T04:03:40.978Z'
+  manifest_updated_at: '2026-03-08T04:04:13.958Z'
   total_repos: 2391
   generator_version: v1.0.0
   github_user: primeinc
@@ -74691,13 +74691,20 @@ repositories:
     framework: null
   - repo: WADComs/WADComs.github.io
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - security
+      - system-admin
+    tags:
+      - commands
+      - redteam
+      - blueteam
+      - windows
+      - lang:html
     summary: WADComs is an interactive cheat sheet, containing a curated list of offensive security tools and their respective commands, to be used against Windows/AD environments.
     last_synced_sha: 31283f1532ff1b1c9c8e524bacb0fbc6e251429b
     user_starred_at: '2020-12-11T21:40:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -74725,15 +74732,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.592Z'
+      prompt_version: v3
   - repo: zonemaster/zonemaster
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - dns
+      - dnssec
+      - lang:perl
     summary: The Zonemaster Project
     last_synced_sha: 23f017e11cb295e13e7faa5c201346689bd2f2f2
     user_starred_at: '2020-11-24T15:05:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Perl
       topics:
@@ -74755,15 +74770,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.592Z'
+      prompt_version: v3
   - repo: geekuillaume/soundsync
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - data-science
+    tags:
+      - audio-sync
+      - multi-room
+      - music
+      - lang:c
     summary: Virtual cables between any audio source and any speaker in your home
     last_synced_sha: fe89ef32163fb97a934247de3e001b045b6e6669
     user_starred_at: '2020-11-14T22:49:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -74790,15 +74814,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.592Z'
+      prompt_version: v3
   - repo: scottlawsonbc/audio-reactive-led-strip
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - automation
+      - data-science
+    tags:
+      - music-visualizer
+      - esp8266
+      - arduino
+      - signal-processing
+      - lang:python
     summary: ':musical_note: :rainbow: Real-time LED strip music visualization using Python and the ESP8266 or Raspberry Pi'
     last_synced_sha: 91dabce8fcea0392a040852f21d5bca80fb754fa
     user_starred_at: '2020-11-14T22:29:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -74823,15 +74858,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.592Z'
+      prompt_version: v3
   - repo: Ombi-app/Ombi
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+      - networking
+    tags:
+      - plex
+      - media-management
+      - docker
+      - lang:csharp
     summary: Want a Movie or TV Show on Plex/Emby/Jellyfin? Use Ombi!
     last_synced_sha: 6752a8a838ec81276a68e304be66922d7ecd3c74
     user_starred_at: '2020-10-24T02:25:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -74861,15 +74906,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.592Z'
+      prompt_version: v3
   - repo: hydrusnetwork/hydrus
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+      - web-dev
+    tags:
+      - media-tagger
+      - file-management
+      - data-sharing
+      - lang:python
     summary: A personal booru-style media tagger that can import files and tags from your hard drive and popular websites. Content can be shared with other users via user-run servers.
     last_synced_sha: 95e74d6a1db2d205f3fd621433039eefa32a01d8
     user_starred_at: '2020-08-29T15:13:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -74889,15 +74944,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.592Z'
+      prompt_version: v3
   - repo: Jpja/FFmpeg-Detect-Copy-Motion
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+    tags:
+      - video-processing
+      - motion-detection
+      - ffmpeg
+      - lang:python
     summary: Detects motion in video files, and copies to new, separate video clips.
     last_synced_sha: 648aaefc88ea94131449655d7a55d09db897648e
     user_starred_at: '2020-06-30T15:58:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -74915,15 +74979,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.592Z'
+      prompt_version: v3
   - repo: leemunroe/responsive-html-email-template
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - email-template
+      - responsive
+      - email-marketing
+      - lang:html
     summary: A free simple responsive HTML email template
     last_synced_sha: 60b5b6ddf9600e4b7d7e1ef60e5a3a8f1e56e186
     user_starred_at: '2020-04-07T21:21:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -74950,15 +75023,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.592Z'
+      prompt_version: v3
   - repo: dwainscheeren/dwains-lovelace-dashboard
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - automation
+      - web-dev
+    tags:
+      - dashboard
+      - home-assistant
+      - ui
+      - lang:js
     summary: An fully auto generating Home Assistant UI dashboard for desktop, tablet and mobile by Dwains for desktop, tablet, mobile
     last_synced_sha: a4363fbe3209b6f88a08ec0e0220ad83259ae8f3
     user_starred_at: '2020-04-05T22:59:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -74982,15 +75065,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.592Z'
+      prompt_version: v3
   - repo: ahodges9/LedFx
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - networking
+      - embedded
+    tags:
+      - led-controller
+      - real-time-audio
+      - fx
+      - lang:python
     summary: Led Fx is a network based LED effect controller with support for advanced real-time audio effects! Led Fx can control multiple devices and works great with cheap ESP8266 nodes allowing for cost eff...
     last_synced_sha: 2abeced175fbff5fd4d31f28e6c5a61ad1d042e2
     user_starred_at: '2019-12-07T15:36:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -75008,15 +75101,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.592Z'
+      prompt_version: v3
   - repo: zhujisheng/audio-reactive-led-strip
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - game-dev
+      - automation
+    tags:
+      - music
+      - diy
+      - esp32
+      - arduino
+      - lang:cpp
     summary: 🎵 🌈 Real-time LED strip music visualization running on ESP32 based on Arduino or ESPHome platform
     last_synced_sha: d66e9778806bd2bf5bbd916f260c4fe9072e687e
     user_starred_at: '2019-11-03T16:29:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -75040,15 +75144,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.592Z'
+      prompt_version: v3
   - repo: fma965/ESP-MQTT-JSON-Digital-LEDs
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - embedded
+      - networking
+    tags:
+      - mqtt
+      - led
+      - esp
+      - lang:cpp
     summary: ESP MQTT Digital LEDs for Home Assistant's MQTT JSON Light Component. Supports flash, fade, transitions, effects, and OTA uploading!
     last_synced_sha: ebf83a9371194a74ccb7840c5e5d906c18b5a006
     user_starred_at: '2019-10-31T18:49:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     fork: true
     github_metadata:
@@ -75068,15 +75182,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.592Z'
+      prompt_version: v3
   - repo: custom-cards/monster-card
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - automation
+    tags:
+      - deprecated
+      - ui
+      - lang:js
     summary: ⚠️ DEPRECATED - MOVE TO AUTO-ENTITIES
     last_synced_sha: 2e1b58db56ec344aa169a43a4535a448521da4c6
     user_starred_at: '2019-08-21T02:14:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: JavaScript
@@ -75097,15 +75219,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.592Z'
+      prompt_version: v3
   - repo: home-assistant/core
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - networking
+      - embedded
+    tags:
+      - home-automation
+      - iot
+      - raspberry-pi
+      - mqtt
+      - lang:python
     summary: ':house_with_garden: Open source home automation that puts local control and privacy first.'
     last_synced_sha: 802aa991a9676e1fa22078d3d4fcb575a164dfdc
     user_starred_at: '2019-08-20T15:50:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -75133,15 +75266,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.591Z'
+      prompt_version: v3
   - repo: mxk/windows-secure-group-policy
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - security
+    tags:
+      - windows
+      - group-policy
+      - gpo
+      - windows-security
+      - lang:batchfile
     summary: Windows 11 secure group policy for standalone devices
     last_synced_sha: 1baf2692fd67dec40be81b386c6362383a4b1308
     user_starred_at: '2019-08-19T19:24:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -75164,6 +75307,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:04:12.591Z'
+      prompt_version: v3
   - repo: danielperna84/hass-configurator
     categories:
       - productivity
