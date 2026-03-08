@@ -1,6 +1,6 @@
 # Tag: azure
 
-*18 repositories*
+*19 repositories*
 
 [← Back to Index](../README.md)
 
@@ -21,6 +21,7 @@
 | [Azure/PSDocs.Azure](https://github.com/Azure/PSDocs.Azure) | Generate documentation from Azure infrastructure as code (Ia C) artifacts. | `PowerShell` ★ 66 | 2026-02-03 |
 | [PSBicep/PSBicep](https://github.com/PSBicep/PSBicep) | This is the repo for the Bicep Power Shell Module. | `PowerShell` ★ 146 | 2025-07-19 |
 | [EvotecIT/O365Essentials](https://github.com/EvotecIT/O365Essentials) | A module that helps to manage some tasks on Office 365/Azure via undocumented API | `PowerShell` ★ 144 | 2026-02-14 |
-| [pnp/script-samples](https://github.com/pnp/script-samples) | A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more. | `PowerShell` ★ 303 | 2026-03-01 |
+| [pnp/script-samples](https://github.com/pnp/script-samples) | A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more. | `PowerShell` ★ 303 | 2026-03-07 |
 | [wesellis/Azure-PowerShell-Toolkit](https://github.com/wesellis/Azure-PowerShell-Toolkit) | Massive collection of 772+ Power Shell scripts for Azure management. CI/CD with PSScript Analyzer, security scanning, and Ia C validation. Enterprise-ready with comprehensive testing. | `PowerShell` ★ 38 | 2025-10-03 |
 | [darkquasar/AzureHunter](https://github.com/darkquasar/AzureHunter) | A Cloud Forensics Powershell module to run threat hunting playbooks on data from Azure and O365 | `PowerShell` ★ 790 | 2022-10-29 |
+| [hausec/PowerZure](https://github.com/hausec/PowerZure) | Power Shell framework to assess Azure security | `PowerShell` ★ 1.3k | 2025-10-18 |

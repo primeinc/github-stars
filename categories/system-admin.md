@@ -1,22 +1,34 @@
 # System-admin
 
-*12 repositories*
+*24 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [clusterzx/ts6-manager](https://github.com/clusterzx/ts6-manager) | Web-based management interface for Team Speak servers | `TypeScript` ★ 35 | 2026-02-25 |
-| [SpecterShell/Dumplings](https://github.com/SpecterShell/Dumplings) | Dump remote resources and lint outdated packages | `PowerShell` ★ 41 | 2026-03-07 |
-| [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 330 | 2026-03-06 |
+| [sindresorhus/open](https://github.com/sindresorhus/open) | Open stuff like URLs, files, executables. Cross-platform. | `JavaScript` ★ 3.5k | 2025-11-15 |
+| [clusterzx/ts6-manager](https://github.com/clusterzx/ts6-manager) | Web-based management interface for Team Speak servers | `TypeScript` ★ 37 | 2026-03-07 |
+| [SpecterShell/Dumplings](https://github.com/SpecterShell/Dumplings) | Dump remote resources and lint outdated packages | `PowerShell` ★ 41 | 2026-03-08 |
+| [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 331 | 2026-03-06 |
 | [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) | Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (mac OS, Windows, Linux). | `Go` ★ 13.6k | 2026-03-05 |
-| [nushell/nushell](https://github.com/nushell/nushell) | A new type of shell | `Rust` ★ 38.6k | 2026-03-07 |
+| [nushell/nushell](https://github.com/nushell/nushell) | A new type of shell | `Rust` ★ 38.7k | 2026-03-08 |
 | [mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server) | Go server implementing Model Context Protocol (MCP) for filesystem operations. | `Go` ★ 613 | 2025-11-24 |
 | [SoyITPro/scripts](https://github.com/SoyITPro/scripts) | Scripts para administradores de servidores Windows, Azure, Docker, Linux y más | `PowerShell` ★ 49 | 2026-02-25 |
 | [EvotecIT/O365Essentials](https://github.com/EvotecIT/O365Essentials) | A module that helps to manage some tasks on Office 365/Azure via undocumented API | `PowerShell` ★ 144 | 2026-02-14 |
-| [pnp/script-samples](https://github.com/pnp/script-samples) | A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more. | `PowerShell` ★ 303 | 2026-03-01 |
+| [pnp/script-samples](https://github.com/pnp/script-samples) | A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more. | `PowerShell` ★ 303 | 2026-03-07 |
 | [wesellis/Azure-PowerShell-Toolkit](https://github.com/wesellis/Azure-PowerShell-Toolkit) | Massive collection of 772+ Power Shell scripts for Azure management. CI/CD with PSScript Analyzer, security scanning, and Ia C validation. Enterprise-ready with comprehensive testing. | `PowerShell` ★ 38 | 2025-10-03 |
+| [Gerenios/AADInternals](https://github.com/Gerenios/AADInternals) | AADInternals Power Shell module for administering Azure AD and Office 365 | `PowerShell` ★ 1.6k | 2025-09-30 |
+| [hausec/PowerZure](https://github.com/hausec/PowerZure) | Power Shell framework to assess Azure security | `PowerShell` ★ 1.3k | 2025-10-18 |
+| [spddl/GoInterruptPolicy](https://github.com/spddl/GoInterruptPolicy) | I just tried to create a better version of the "Interrupt Affinity Policy" and "MSI Mode" Tool | `Go` ★ 415 | 2026-01-24 |
+| [kevinburke/ssh_config](https://github.com/kevinburke/ssh_config) | Go parser for ssh\_config files | `Go` ★ 467 | 2026-02-18 |
+| [thewhiteninja/ntfstool](https://github.com/thewhiteninja/ntfstool) | Forensics tool for NTFS (parser, mft, bitlocker, deleted files) | `C++` ★ 597 | 2023-07-23 |
+| [run-llama/semtools](https://github.com/run-llama/semtools) | Semantic search and document parsing tools for the command line | `Rust` ★ 1.6k | 2026-03-05 |
+| [decalage2/oletools](https://github.com/decalage2/oletools) | oletools - python tools to analyze MS OLE2 files (Structured Storage, Compound File Binary Format) and MS Office documents, for malware analysis, forensics and debugging. | `Python` ★ 3.3k | 2026-02-14 |
+| [dotnet/command-line-api](https://github.com/dotnet/command-line-api) | Command line parsing, invocation, and rendering of terminal output. | `C#` ★ 3.6k | 2026-03-08 |
 | [deadc0de6/gocatcli](https://github.com/deadc0de6/gocatcli) | The command line catalog tool for your offline data | `Go` ★ 40 | 2025-12-30 |
 | [recyclarr/recyclarr](https://github.com/recyclarr/recyclarr) | Automatically sync TRa SH Guides to your Sonarr and Radarr instances | `C#` ★ 1.9k | 2026-03-07 |
+| [POSSA/freepbx-Call-Statistics](https://github.com/POSSA/freepbx-Call-Statistics) | Free PBX module for reporting concurrent calls as well as breaking calls down by extension | `PHP` ★ 35 | 2019-02-16 |
+| [akonkol/spur](https://github.com/akonkol/spur) | Spur is a web based network configuration manager. It allows you to ssh or telnet to any networked device (cisco routers, linux hosts,etc) and run commands through a web front-end. The results of t... | `Python` ★ 19 | 2012-08-07 |
+| [noodle1983/putty-nd](https://github.com/noodle1983/putty-nd) | putty to my taste. Available via http://sourceforge.net/projects/putty-nd. | `C` ★ 72 | 2013-07-23 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
