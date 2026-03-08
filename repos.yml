@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-08T04:12:01.903Z'
+  manifest_updated_at: '2026-03-08T04:12:34.371Z'
   total_repos: 2391
   generator_version: v1.0.0
   github_user: primeinc
@@ -66974,13 +66974,19 @@ repositories:
     framework: null
   - repo: MagicMirrorOrg/MagicMirror
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - automation
+      - ui-libraries
+    tags:
+      - smart-home
+      - modular
+      - magic-mirror
+      - lang:js
     summary: Magic Mirror² is an open source modular smart mirror platform. With a growing list of installable modules, the Magic Mirror² allows you to convert your hallway or bathroom mirror into your personal...
     last_synced_sha: b742e839becf106c400c18d49480b61fcfc47a0d
     user_starred_at: '2024-06-26T15:11:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -67006,15 +67012,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.753Z'
+      prompt_version: v3
   - repo: zeek/zeek
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+      - monitoring
+    tags:
+      - network-analysis
+      - nsm
+      - pcap
+      - lang:cpp
     summary: Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.
     last_synced_sha: c8915860b05018b58499938ef38bb1ab9bcf9e60
     user_starred_at: '2024-06-26T08:42:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -67042,15 +67058,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.753Z'
+      prompt_version: v3
   - repo: openrecall/openrecall
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - security
+    tags:
+      - privacy-first
+      - ocr
+      - recall
+      - lang:python
     summary: Open Recall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With Open Recall, you can easily access your digital history, enhancing your ...
     last_synced_sha: 62303e09bfd2491907e788ac5cbbdc21e73bd323
     user_starred_at: '2024-06-19T20:13:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -67081,15 +67107,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.753Z'
+      prompt_version: v3
   - repo: transloadit/uppy
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+      - apis
+    tags:
+      - file-uploads
+      - modular
+      - file-uploader
+      - lang:ts
     summary: 'The next open source file uploader for web browsers :dog:'
     last_synced_sha: 47879609c730eedfbf37036ac68b18f0d1ebde39
     user_starred_at: '2024-06-11T16:29:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -67126,15 +67162,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.753Z'
+      prompt_version: v3
   - repo: ellite/Wallos
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+      - security
+    tags:
+      - budgeting
+      - subscription-tracker
+      - self-hosted
+      - lang:php
     summary: 'Wallos: Open-source, self-hostable personal subscription tracker. Visualize your recurring expenses, manage your budget, and save money.'
     last_synced_sha: 8f0b5d0a84159b01091e3d57dd539e97f900a935
     user_starred_at: '2024-05-27T15:06:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -67160,15 +67206,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.753Z'
+      prompt_version: v3
   - repo: minio/minio
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+      - apis
+    tags:
+      - object-storage
+      - s3
+      - cloud-native
+      - lang:go
     summary: Min IO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.
     last_synced_sha: 7aac2a2c5b7c882e68c1ce017d8256be2feea27f
     user_starred_at: '2024-05-27T14:21:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Go
@@ -67201,15 +67257,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.753Z'
+      prompt_version: v3
   - repo: cryptomator/cryptomator
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+      - productivity
+    tags:
+      - encryption
+      - cloud-storage
+      - privacy
+      - lang:java
     summary: 'Cryptomator for Windows, mac OS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data.'
     last_synced_sha: e583b7093171fd6507fcfc46ed2619deda6cd859
     user_starred_at: '2024-05-27T13:06:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -67237,15 +67303,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.753Z'
+      prompt_version: v3
   - repo: winfsp/winfsp
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - embedded
+      - networking
+    tags:
+      - fuse
+      - filesystem
+      - windows-kernel
+      - lang:c
     summary: Windows File System Proxy - FUSE for Windows
     last_synced_sha: 624f28545224c242087688359b4a4be878320510
     user_starred_at: '2024-05-27T12:03:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -67272,15 +67348,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.752Z'
+      prompt_version: v3
   - repo: TagStudioDev/TagStudio
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - file-management
+      - photo-organizer
+      - lang:python
     summary: A User-Focused Photo & File Management System
     last_synced_sha: c4c749650ffd67ce784406935663f893072b6d27
     user_starred_at: '2024-05-23T07:25:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -67309,15 +67393,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.752Z'
+      prompt_version: v3
   - repo: NVlabs/edm2
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - py-torch
+      - autoguidance
+      - deep-learning
+      - lang:python
     summary: EDM2 and Autoguidance -- Official Py Torch implementation
     last_synced_sha: 4bf8162f601bcc09472ce8a32dd0cbe8889dc8fc
     user_starred_at: '2024-05-22T22:46:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -67335,15 +67428,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.752Z'
+      prompt_version: v3
   - repo: lobehub/lobe-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+      - web-dev
+    tags:
+      - react
+      - ui-components
+      - aigc
+      - design-system
+      - lang:ts
     summary: 🍭 Lobe UI - an open-source UI component library for building AIGC web apps
     last_synced_sha: 9200a3d9a577d7d1e70d446db53e6afdd05c52c5
     user_starred_at: '2024-05-21T20:54:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -67373,16 +67477,24 @@ repositories:
         published_at: '2026-03-05T12:25:32Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.752Z'
+      prompt_version: v3
   - repo: McCloudS/subgen
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - openai-whisper
+      - subtitles
+      - lang:python
     summary: Autogenerate subtitles using Open AI Whisper Model via Jellyfin, Plex, Emby, Tautulli, or Bazarr
     last_synced_sha: da2e93ecd342c6e79dd2cabec389cc6b3e7d3c3f
     user_starred_at: '2024-05-17T04:41:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -67400,15 +67512,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.752Z'
+      prompt_version: v3
   - repo: wandb/openui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - generative-ai
+      - tailwindcss
+      - ui-design
+      - lang:ts
     summary: Open UI let's you describe UI using your imagination, then see it rendered live.
     last_synced_sha: f9d8f0e30e1efe2a21bbefffba33bcf6b4e12dc7
     user_starred_at: '2024-05-13T15:03:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -67430,15 +67551,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.752Z'
+      prompt_version: v3
   - repo: gerardog/gsudo
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - sudo-for-windows
+      - elevate
+      - lang:csharp
     summary: Sudo for Windows
     last_synced_sha: b7376285a6bb7b180f8a28b42797b0ab5c22dd34
     user_starred_at: '2024-04-24T19:25:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -67470,15 +67599,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.752Z'
+      prompt_version: v3
   - repo: microsoft/sudo
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - sudo
+      - windows
+      - lang:rust
     summary: It's sudo, for Windows
     last_synced_sha: 9f50d79704a9d4d468bc59f725993714762981ca
     user_starred_at: '2024-04-24T19:25:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -67499,6 +67636,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:12:32.752Z'
+      prompt_version: v3
   - repo: nyavramov/loopifi
     categories:
       - automation
