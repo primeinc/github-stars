@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-08T04:17:49.176Z'
+  manifest_updated_at: '2026-03-08T04:18:24.615Z'
   total_repos: 2391
   generator_version: v1.0.0
   github_user: primeinc
@@ -61342,13 +61342,19 @@ repositories:
     framework: null
   - repo: sirredbeard/awesome-wsl
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - learning
+    tags:
+      - wsl
+      - windows-subsystem-linux
+      - microsoft
+      - windows-10
+      - awesome-list
     summary: Awesome list dedicated to Windows Subsystem for Linux
     last_synced_sha: 0aa3a6c7ccd3731a168f03e34e22a940f5fcaf2b
     user_starred_at: '2025-01-28T09:13:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -61375,15 +61381,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.053Z'
+      prompt_version: v3
   - repo: cipher387/osint_stuff_tool_collection
     categories:
+      - security
+      - learning
       - unclassified
-    tags: []
+    tags:
+      - osint
+      - socmint
+      - tools
+      - cybersecurity
+      - lang:html
     summary: A collection of several hundred online tools for OSINT
     last_synced_sha: be6bb713d313e5715f3a2564577b9a01197ff886
     user_starred_at: '2025-01-28T09:13:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -61411,15 +61428,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.053Z'
+      prompt_version: v3
   - repo: sottlmarek/DevSecOps
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+      - dev-tools
+    tags:
+      - devsecops
+      - cloud
+      - k8s
+      - docker
+      - aws
     summary: Ultimate Dev Sec Ops library
     last_synced_sha: bacb008b8e697ca79ebed9be10c8aec029e6ed59
     user_starred_at: '2025-01-28T09:13:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -61456,15 +61484,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.053Z'
+      prompt_version: v3
   - repo: reorx/awesome-chatgpt-api
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+      - learning
+    tags:
+      - chatgpt
+      - chatgpt-api
+      - awesome-list
+      - lang:python
     summary: Curated list of apps and tools that not only use the new Chat GPT API, but also allow users to configure their own API keys, enabling free and on-demand usage of their own quota.
     last_synced_sha: 2f0c3834bb4832394bc72b7f143f01d80806a606
     user_starred_at: '2025-01-28T09:13:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61486,15 +61524,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.053Z'
+      prompt_version: v3
   - repo: kitspace/awesome-electronics
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - learning
+    tags:
+      - electronics
+      - hardware
+      - pcb
+      - awesome
+      - kicad
     summary: A curated list of awesome resources for Electronic Engineers and hobbyists
     last_synced_sha: fbecbedf01155d04f64ff686c4881bd1960d8467
     user_starred_at: '2025-01-28T09:13:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -61520,15 +61568,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.053Z'
+      prompt_version: v3
   - repo: frenck/awesome-home-assistant
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - learning
+    tags:
+      - home-assistant
+      - iot
+      - hassio-addons
+      - awesome
+      - lang:shell
     summary: A curated list of amazingly awesome Home Assistant resources.
     last_synced_sha: 1ee73897921ac610270ae615f4c92a5a87a10aa2
     user_starred_at: '2025-01-28T09:12:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -61563,15 +61621,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.053Z'
+      prompt_version: v3
   - repo: hslatman/awesome-threat-intelligence
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - threat-intelligence
+      - security
+      - awesome-list
+      - hacktoberfest
     summary: A curated list of Awesome Threat Intelligence resources
     last_synced_sha: d769f5a7abf5e2d54eea6f25b8651157e063a41a
     user_starred_at: '2025-01-28T09:11:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -61593,15 +61660,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.053Z'
+      prompt_version: v3
   - repo: paralax/awesome-honeypots
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - honeypot
+      - security
+      - honeyd
+      - awesome
+      - lang:python
     summary: an awesome list of honeypot resources
     last_synced_sha: 0c178ad33d12d406c176b4aec9b0f726a99a96e6
     user_starred_at: '2025-01-28T09:11:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -61624,15 +61701,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.053Z'
+      prompt_version: v3
   - repo: mezod/awesome-indie
     categories:
+      - productivity
+      - learning
       - unclassified
-    tags: []
+    tags:
+      - indiedev
+      - passive-income
+      - entrepreneurs
+      - sideproject
+      - awesome
     summary: Resources for independent developers to make money
     last_synced_sha: de8dab3f6668fab08a169d8904e3fca447c56f1d
     user_starred_at: '2025-01-28T09:10:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -61659,15 +61747,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.052Z'
+      prompt_version: v3
   - repo: aishwaryanr/awesome-generative-ai-guide
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+      - data-science
+    tags:
+      - generative-ai
+      - llms
+      - notebook-jupyter
+      - awesome-list
+      - lang:html
     summary: A one stop repository for generative AI research updates, interview resources, notebooks and much more!
     last_synced_sha: 25eb1886759d351894843998693f5793dbf7db9e
     user_starred_at: '2025-01-28T09:10:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -61693,15 +61792,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.052Z'
+      prompt_version: v3
   - repo: k4m4/movies-for-hackers
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - hacking
+      - curated-list
+      - movies
+      - awesome
+      - lang:shell
     summary: 🎬 A curated list of movies every hacker & cyberpunk must watch.
     last_synced_sha: 2a12188eb073efd419a67f4232ecb3a60a6b97ac
     user_starred_at: '2025-01-28T09:10:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -61727,15 +61836,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.052Z'
+      prompt_version: v3
   - repo: dastergon/awesome-sre
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+      - learning
+    tags:
+      - site-reliability-engineering
+      - monitoring
+      - reliability
+      - scalability
+      - capacity-planning
     summary: A curated list of Site Reliability and Production Engineering resources.
     last_synced_sha: e91ef69aa52129662164e54cc22272bc90e9b636
     user_starred_at: '2025-01-28T09:09:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -61773,15 +61893,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.052Z'
+      prompt_version: v3
   - repo: rshipp/awesome-malware-analysis
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - malware-analysis
+      - threat-intelligence
+      - dynamic-analysis
+      - static-analysis
+      - awesome
     summary: Defund the Police.
     last_synced_sha: 179887b9bfb04bb736348b2dc9d331bc860c6ef7
     user_starred_at: '2025-01-28T09:09:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -61818,15 +61948,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.052Z'
+      prompt_version: v3
   - repo: rShetty/awesome-podcasts
     categories:
+      - learning
       - unclassified
-    tags: []
+    tags:
+      - podcast
+      - awesome-list
+      - software
+      - awesome
     summary: Collection of awesome podcasts
     last_synced_sha: 8b904634b7a09001ba1b6b4fafe7f9d354935084
     user_starred_at: '2025-01-28T09:09:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -61849,15 +61988,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.052Z'
+      prompt_version: v3
   - repo: e2b-dev/awesome-ai-agents
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - learning
+    tags:
+      - ai
+      - autonomous-agents
+      - gpt-4
+      - awesome
+      - agent
     summary: A list of AI autonomous agents
     last_synced_sha: 6af02e9230dae8a155fe6e49526dd309c04120b7
     user_starred_at: '2025-01-28T09:08:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -61890,6 +62040,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:18:23.052Z'
+      prompt_version: v3
   - repo: pluja/awesome-privacy
     categories:
       - security
