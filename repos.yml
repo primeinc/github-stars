@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-08T04:14:12.458Z'
+  manifest_updated_at: '2026-03-08T04:14:47.202Z'
   total_repos: 2391
   generator_version: v1.0.0
   github_user: primeinc
@@ -64996,13 +64996,20 @@ repositories:
     framework: null
   - repo: SierraSoftworks/tailscale-udm
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+      - security
+    tags:
+      - lang:shell
+      - tailscale
+      - unifi
+      - vpn
+      - udm-pro
     summary: Run Tailscale on your Unifi Dream Machine
     last_synced_sha: 5f481a38e2adcdf25c7e4e3e82bb4c36da183626
     user_starred_at: '2025-01-16T11:35:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -65026,15 +65033,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.678Z'
+      prompt_version: v3
   - repo: opethrocks/text-assist
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+      - mobile-dev
+    tags:
+      - lang:js
+      - openai
+      - sms
+      - mms
+      - telnyx
     summary: AI Assistant that can communicate via SMS and MMS. Leverages Open AI and a Telnyx SIP phone number.
     last_synced_sha: 5803b86205294b864260743c7c28a26cfb15354d
     user_starred_at: '2025-01-15T07:09:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -65059,15 +65077,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.678Z'
+      prompt_version: v3
   - repo: 0perationPrivacy/VoIPSuite-Mobile
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - apis
+      - networking
+    tags:
+      - lang:js
+      - voip
+      - sms
+      - privacy
+      - react-native
     summary: Mobile App code for Android & i OS on React Native
     last_synced_sha: 2dce3f6e0fd4f48e0c7d546dabdecbec4e33ee9b
     user_starred_at: '2025-01-15T07:07:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -65093,16 +65122,27 @@ repositories:
         published_at: '2023-12-07T23:24:41Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.678Z'
+      prompt_version: v3
   - repo: tiniyo/neoms
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+      - cloud
+    tags:
+      - lang:go
+      - twilio-api
+      - voice-api
+      - cpaas
+      - telnyx
     summary: Open Source Twilio Alternative
     last_synced_sha: d1b5710b41c17ff77d7d10f29912a3923e7ae6c9
     user_starred_at: '2025-01-15T07:07:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -65130,15 +65170,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.678Z'
+      prompt_version: v3
   - repo: 0perationPrivacy/VoIP
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - apis
+      - security
+    tags:
+      - lang:js
+      - voip
+      - sms
+      - privacy
+      - twilio
     summary: Web Base Telnyx/Twilio Vo IP Interface enabling SMS, MMS and Voice calls using the providers API Keys and self-hosting the application.
     last_synced_sha: 89dfb95cab0d8137b0e2e36752ef82ad9b91434e
     user_starred_at: '2025-01-15T07:07:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -65161,15 +65212,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.678Z'
+      prompt_version: v3
   - repo: msmhome/miniFaxServer
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - system-admin
+      - deployment
+    tags:
+      - lang:python
+      - fax
+      - sms
+      - telnyx
+      - fax-server
     summary: 📠 A tiny, ready to deploy, simple fax server with SMS recieve running on the Telynx Programmable Fax and SMS APIs.
     last_synced_sha: 35a97fb843e9638792f336abfc4026cdc3973e35
     user_starred_at: '2025-01-15T07:05:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65194,15 +65256,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.678Z'
+      prompt_version: v3
   - repo: gridironsolutions/unifios-tailscale
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+      - security
+    tags:
+      - lang:shell
+      - tailscale
+      - vpn
+      - wireguard
+      - unifi
     summary: Run Tailscale natively on Unifi UDM-Pro Dream Machine
     last_synced_sha: c34cf5fc0963e3f33447e1b84e4665daccbaa7cd
     user_starred_at: '2025-01-15T01:43:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -65228,15 +65301,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.678Z'
+      prompt_version: v3
   - repo: Aayush9029/NativeYoutube
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+      - productivity
+    tags:
+      - lang:swift
+      - youtube
+      - swiftui
+      - macos
+      - media
     summary: Personal App that turned into "alpha released app" v3
     last_synced_sha: 1ee58e87484f24554dd1233321ec9871eb38ecb6
     user_starred_at: '2025-01-11T04:39:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics:
@@ -65261,15 +65345,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.678Z'
+      prompt_version: v3
   - repo: mailcow/mailcow-dockerized
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - containers
+      - networking
+    tags:
+      - lang:js
+      - mailserver
+      - docker
+      - postfix
+      - groupware
     summary: 'mailcow: dockerized - 🐮 + 🐋 = 💕'
     last_synced_sha: 4845928e7ada830de451a2e6125a03840b9fdb62
     user_starred_at: '2025-01-06T16:13:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -65306,15 +65401,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.678Z'
+      prompt_version: v3
   - repo: toeverything/AFFiNE
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - lang:ts
+      - knowledge-base
+      - markdown
+      - whiteboard
+      - editor
     summary: There can be more than Notion and Miro. AFFi NE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable a...
     last_synced_sha: 9c55edeb62c84a4f5bf03e42c663c11b3c317792
     user_starred_at: '2025-01-05T18:01:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -65352,15 +65458,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.678Z'
+      prompt_version: v3
   - repo: jaywcjlove/awesome-mac
     categories:
+      - productivity
+      - documentation
       - unclassified
-    tags: []
+    tags:
+      - lang:js
+      - macos
+      - awesome-list
+      - software
+      - utility
     summary:  Now we have become very big, Different from the original idea. Collect premium software in various categories.
     last_synced_sha: d98cebe076a585dcd93fd28c12fb4ee8fd980d82
     user_starred_at: '2025-01-05T18:00:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -65399,15 +65516,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.677Z'
+      prompt_version: v3
   - repo: MkQtS/Carefree
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - potplayer
+      - potplayer-skin
+      - customization
+      - media-player
     summary: An elegant Potplayer skin
     last_synced_sha: b42fc77388919d2cdcd6bdf1fd3808657c323e9d
     user_starred_at: '2025-01-05T17:02:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -65427,15 +65553,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.677Z'
+      prompt_version: v3
   - repo: alufers/mitmproxy2swagger
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - automation
+      - security
+    tags:
+      - lang:html
+      - reverse-engineering
+      - openapi
+      - swagger
+      - mitmproxy
     summary: Automagically reverse-engineer REST APIs via capturing traffic
     last_synced_sha: 2b3b3d83abf1d90e3e2871994307d6a776981384
     user_starred_at: '2025-01-05T03:30:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -65459,15 +65596,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.677Z'
+      prompt_version: v3
   - repo: Cinnamon/kotaemon
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - automation
+    tags:
+      - lang:python
+      - chatbot
+      - llms
+      - rag
+      - open-source
     summary: An open-source RAG-based tool for chatting with your documents.
     last_synced_sha: 155e590720f9ef920b33cd46148a31bf76b1fee4
     user_starred_at: '2025-01-05T03:29:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65491,15 +65639,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.677Z'
+      prompt_version: v3
   - repo: loco-rs/loco
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - lang:rust
+      - api
+      - rust-lang
+      - axum
     summary: 🚂 🦀 The one-person framework for Rust for side-projects and startups
     last_synced_sha: e9598a6822c581a06416bb668ad80e1920e54d09
     user_starred_at: '2025-01-05T03:29:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -65523,6 +65680,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:14:45.677Z'
+      prompt_version: v3
   - repo: stanford-oval/storm
     categories:
       - ai-ml
