@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-08T04:19:55.033Z'
+  manifest_updated_at: '2026-03-08T04:20:20.871Z'
   total_repos: 2391
   generator_version: v1.0.0
   github_user: primeinc
@@ -59497,13 +59497,18 @@ repositories:
     framework: null
   - repo: KaiyangZhou/deep-person-reid
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - person-reid
+      - deep-learning
+      - computer-vision
+      - lang:python
     summary: 'Torchreid: Deep learning person re-identification in Py Torch.'
     last_synced_sha: f8cd150fdf77e8d9e1ed143b7f308c2c609ded50
     user_starred_at: '2025-02-01T06:49:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -59534,15 +59539,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.372Z'
+      prompt_version: v3
   - repo: oele-isis-vanderbilt/HumanRecognition
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - security
+    tags:
+      - person-reidentification
+      - facial-recognition
+      - lang:python
     summary: Multimodal Person Re-identification via Facial and Body Features
     last_synced_sha: aaf4d09b6cec3aeb8e8a1c30a912fa9777388fca
     user_starred_at: '2025-02-01T06:46:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -59560,15 +59574,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.372Z'
+      prompt_version: v3
   - repo: towhee-io/towhee
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+      - data-science
+    tags:
+      - neural-pipelines
+      - image-processing
+      - video-processing
+      - lang:python
     summary: Towhee is a framework that is dedicated to making neural data processing pipelines simple and fast.
     last_synced_sha: fe856301680713032e9613cf2500932f0ae3ad13
     user_starred_at: '2025-02-01T06:44:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -59606,15 +59630,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.372Z'
+      prompt_version: v3
   - repo: milvus-io/bootcamp
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+      - learning
+    tags:
+      - unstructured-data
+      - image-search
+      - nlp
+      - lang:jupyter-notebook
     summary: Dealing with all unstructured data, such as reverse image search, audio search, molecular search, video analysis, question and answer systems, NLP, etc.
     last_synced_sha: 17d1bb31907de17fb6698f0dec4f45a504dfa3d8
     user_starred_at: '2025-02-01T06:37:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -59647,15 +59681,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.372Z'
+      prompt_version: v3
   - repo: aatikturk/obsws-python
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - desktop-dev
+    tags:
+      - obs
+      - websocket
+      - python-sdk
+      - lang:python
     summary: A Python SDK for OBS Studio Web Socket v5.0
     last_synced_sha: f70583d7ca250c1f3a0df768d3cfd41663a6023b
     user_starred_at: '2025-02-01T05:37:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -59678,15 +59721,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.372Z'
+      prompt_version: v3
   - repo: exeldro/obs-move-transition
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - obs
+      - move-transition
+      - video-effects
+      - lang:c
     summary: Move transition for OBS Studio
     last_synced_sha: 7062ab052b0b2ae0792585732fb96a31147bd520
     user_starred_at: '2025-02-01T04:36:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -59706,15 +59758,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.372Z'
+      prompt_version: v3
   - repo: exeldro/obs-source-clone
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - obs
+      - source-clone
+      - plugin
+      - lang:cmake
     summary: No description provided
     last_synced_sha: 0a828335ec7ebd971c8a4f9a2d6a7c5564d6e97b
     user_starred_at: '2025-02-01T03:33:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CMake
       topics: []
@@ -59734,15 +59795,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.372Z'
+      prompt_version: v3
   - repo: CodeYan01/source-defaults
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - obs
+      - default-settings
+      - config-automation
+      - lang:cmake
     summary: Apply custom source setting defaults on new sources, based on other sources.
     last_synced_sha: 3ce48509258379a7cb49351ad57d81abdf8963e9
     user_starred_at: '2025-02-01T03:29:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CMake
       topics: []
@@ -59762,15 +59832,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.371Z'
+      prompt_version: v3
   - repo: facebookresearch/faiss
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - dev-tools
+    tags:
+      - similarity-search
+      - clustering
+      - dense-vectors
+      - lang:cpp
     summary: A library for efficient similarity search and clustering of dense vectors.
     last_synced_sha: 3e4c103d77a7b2cd1759f359fe073385920571f5
     user_starred_at: '2025-02-01T01:53:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -59790,15 +59870,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.371Z'
+      prompt_version: v3
   - repo: burntcarrot/hashsearch
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - reverse-image-search
+      - hashing
+      - search-engine
+      - lang:go
     summary: Reverse image search using perceptual hashes. 🔍
     last_synced_sha: 3713e5824f2cf31d3ea412f4696dfc17591d73b3
     user_starred_at: '2025-02-01T01:38:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -59820,15 +59909,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.371Z'
+      prompt_version: v3
   - repo: royshil/obs-detect
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ai-ml
+    tags:
+      - object-detection
+      - obs-plugin
+      - computer-vision
+      - lang:cpp
     summary: Object Detection in OBS, real-time, local, GPU optional
     last_synced_sha: a4f4928e26b915ceaf0fc2d545d284ca1ea4bbfa
     user_starred_at: '2025-01-31T21:20:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C++
@@ -59859,15 +59957,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.371Z'
+      prompt_version: v3
   - repo: obsproject/obs-studio
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - live-streaming
+      - screen-capture
+      - video-recording
+      - lang:c
     summary: OBS Studio - Free and open source software for live streaming and screen recording
     last_synced_sha: b7bc979a659a40775904a489eeb0ed9e871e066b
     user_starred_at: '2025-01-31T20:53:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -59898,15 +60005,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.371Z'
+      prompt_version: v3
   - repo: Aitum/obs-vertical-canvas
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - obs
+      - canvas
+      - video
+      - lang:cpp
     summary: No description provided
     last_synced_sha: e59a7bfa8ba50af93ad8830bc90dc7da700c27b8
     user_starred_at: '2025-01-31T20:46:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -59926,15 +60042,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.371Z'
+      prompt_version: v3
   - repo: norihiro/obs-mute-filter
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - obs-plugin
+      - audio
+      - video
+      - lang:cmake
     summary: OBS Studio plugin to mute audio of a source
     last_synced_sha: fa8d254bc1da45a8705da32efbb25955a6af2c0c
     user_starred_at: '2025-01-31T20:44:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CMake
       topics: []
@@ -59954,15 +60079,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.371Z'
+      prompt_version: v3
   - repo: flipswitchingmonkey/FlexASIO_GUI
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - audio
+      - configuration
+      - tool
+      - lang:csharp
     summary: Simple configuration GUI for Flex ASIO
     last_synced_sha: 1964ef8dcca9f3aacb032c62664c87f83edc196c
     user_starred_at: '2025-01-31T20:39:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -59982,6 +60116,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:20:19.371Z'
+      prompt_version: v3
   - repo: dechamps/FlexASIO
     categories:
       - productivity
