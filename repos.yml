@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-08T03:57:56.624Z'
+  manifest_updated_at: '2026-03-08T03:58:26.718Z'
   total_repos: 2391
   generator_version: v1.0.0
   github_user: primeinc
@@ -79899,13 +79899,18 @@ repositories:
     framework: null
   - repo: metafizzy/infinite-scroll
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - pagination
+      - infinite-scroll
+      - ajax
+      - lang:html
     summary: 📜 Automatically add next page
     last_synced_sha: 38a464fbbbe445b79bce11054f42ffc41dbf0665
     user_starred_at: '2014-12-04T05:53:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -79929,15 +79934,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.186Z'
+      prompt_version: v3
   - repo: ef-gy/libefgy
     categories:
-      - unclassified
-    tags: []
+      - data-science
+    tags:
+      - template-library
+      - mathematics
+      - lang:cpp
     summary: ef.gy Template Libraries - With Lots and Lots of Maths
     last_synced_sha: 3cb046bc1042bbeaea37927c8d16528f2212e84e
     user_starred_at: '2014-11-27T08:39:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -79957,15 +79969,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.186Z'
+      prompt_version: v3
   - repo: valbok/img.chk
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:python
     summary: No description provided
     last_synced_sha: af45edbd7570ba562a6315a576cf55a128c49dcf
     user_starred_at: '2014-11-26T04:41:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -79983,15 +80000,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.186Z'
+      prompt_version: v3
   - repo: tzookb/tbmsg
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:php
     summary: No description provided
     last_synced_sha: 6aab1ac44f0e3faf5c369635018dd1e543b35e65
     user_starred_at: '2014-11-24T23:56:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -80011,15 +80033,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.186Z'
+      prompt_version: v3
   - repo: cobbzilla/s3s3mirror
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - system-admin
+    tags:
+      - s3-storage
+      - mirroring
+      - lang:java
     summary: Mirror one S3 bucket to another S3 bucket, or to/from the local filesystem.
     last_synced_sha: 17c94a28ae192045f297c8bfff1bdda3e3221fc8
     user_starred_at: '2014-11-15T16:55:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics: []
@@ -80039,15 +80069,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.186Z'
+      prompt_version: v3
   - repo: Dogfalo/materialize
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ui-libraries
+    tags:
+      - material-css
+      - material-design
+      - lang:js
     summary: Materialize, a CSS Framework based on Material Design
     last_synced_sha: 824e78248b3de81e383445e76ffb04cc3264fe7d
     user_starred_at: '2014-11-14T04:20:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -80074,15 +80112,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.186Z'
+      prompt_version: v3
   - repo: chrisboulton/php-resque
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - automation
+    tags:
+      - queueing
+      - workers
+      - lang:php
     summary: PHP port of resque (Workers and Queueing)
     last_synced_sha: 968b7e6a307a2079051dfc571d2fc2be0546209f
     user_starred_at: '2014-11-12T17:18:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -80100,15 +80146,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.186Z'
+      prompt_version: v3
   - repo: Level-2/Dice
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - dependency-injection
+      - lightweight
+      - lang:php
     summary: Dice - a lightweight Dependency Injection Container for PHP
     last_synced_sha: e04c98d96bcc932a917b2b7e7944887e4839056a
     user_starred_at: '2014-11-12T17:01:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -80128,15 +80182,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.186Z'
+      prompt_version: v3
   - repo: mui/material-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - design-system
+      - react-components
+      - material-design
+      - lang:js
     summary: 'Material UI: Comprehensive React component library that implements Google''s Material Design. Free forever.'
     last_synced_sha: fbde8a699f36c4793982199a9adaaeeb7bf8a2cb
     user_starred_at: '2014-11-12T15:56:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -80160,16 +80223,24 @@ repositories:
         published_at: '2026-03-05T08:16:55Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.186Z'
+      prompt_version: v3
   - repo: koomai/phpstorm-laravel-live-templates
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - frameworks
+    tags:
+      - laravel
+      - code-templates
+      - phpstorm
     summary: Laravel Live Templates for Php Storm
     last_synced_sha: 92aa540addc5788e4816ba8f7d9818437899fea6
     user_starred_at: '2014-10-27T15:25:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: null
@@ -80191,16 +80262,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: laravel
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.185Z'
+      prompt_version: v3
   - repo: erikdubbelboer/phpRedisAdmin
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - productivity
+    tags:
+      - redis-management
+      - admin-ui
+      - lang:php
     summary: Simple web interface to manage Redis databases.
     last_synced_sha: 91d0101e5e3a08f9aa22d27aab66c17eb36ce5e1
     user_starred_at: '2014-10-25T15:35:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -80222,15 +80301,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.185Z'
+      prompt_version: v3
   - repo: jeremyFreeAgent/Bitter
     categories:
-      - unclassified
-    tags: []
+      - productivity
+    tags:
+      - analytics-library
+      - lang:php
     summary: Bitter is a simple but powerful analytics library
     last_synced_sha: 018742b098c937039909997e005f47201161686f
     user_starred_at: '2014-10-24T04:42:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: PHP
@@ -80249,15 +80334,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.185Z'
+      prompt_version: v3
   - repo: phpredis/phpredis
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - apis
+    tags:
+      - redis
+      - extension
+      - cluster
+      - lang:c
     summary: A PHP extension for Redis
     last_synced_sha: d90cfdb6bdcab41da67df581786e291d985f601b
     user_starred_at: '2014-10-22T07:17:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -80283,15 +80377,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.185Z'
+      prompt_version: v3
   - repo: redis/redis
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - system-admin
+    tags:
+      - key-value
+      - caching
+      - distributed-systems
+      - lang:c
     summary: For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.
     last_synced_sha: b3ce4c28ca733529d4456b504616c1b408962a67
     user_starred_at: '2014-10-22T04:29:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -80331,15 +80434,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.185Z'
+      prompt_version: v3
   - repo: perusio/php-ini-cleanup
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - php-ini
+      - configuration
+      - lang:awk
     summary: A script that cleans up the php.ini file with security in mind
     last_synced_sha: a41ad16bc83e71d773394c94df401bb77e1150af
     user_starred_at: '2014-10-21T06:45:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Awk
       topics: []
@@ -80357,6 +80468,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T03:58:25.185Z'
+      prompt_version: v3
   - repo: filp/whoops
     categories:
       - ui-libraries
