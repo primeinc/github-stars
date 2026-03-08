@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-08T04:20:48.894Z'
+  manifest_updated_at: '2026-03-08T04:21:34.588Z'
   total_repos: 2391
   generator_version: v1.0.0
   github_user: primeinc
@@ -58496,13 +58496,17 @@ repositories:
     framework: null
   - repo: NicolaSpadari/nuxtor
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - tauri
+      - nuxt4
+      - lang:vue
     summary: Build tiny desktop apps with Tauri, Nuxt 4 and Nuxt UI 4
     last_synced_sha: b2797021350a948cb2682541b040f528d41e3a21
     user_starred_at: '2025-02-16T17:06:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -58529,16 +58533,24 @@ repositories:
         published_at: '2026-01-31T10:07:27Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.043Z'
+      prompt_version: v3
   - repo: team-telnyx/telnyx-node
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - nodejs
+      - sdk
+      - lang:ts
     summary: Node SDK for the Telnyx API
     last_synced_sha: 02788138b583b28b607bacf9ccb8fce0b621d25f
     user_starred_at: '2025-02-16T16:13:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -58559,15 +58571,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.043Z'
+      prompt_version: v3
   - repo: Code-Pop/build-trello-clone-with-nuxt-3
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - web-dev
+    tags:
+      - trello-clone
+      - nuxt3
+      - vue3
+      - lang:vue
     summary: Source code for "Build a Trello Clone with Nuxt 3" by @bencodezen
     last_synced_sha: e086cf1285f0a89d3ec7a94ed08d5dbac82d45a6
     user_starred_at: '2025-02-15T22:20:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -58594,16 +58615,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.043Z'
+      prompt_version: v3
   - repo: HugoRCD/canvas
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - portfolio
+      - nuxt-content
+      - tailwindcss
+      - lang:vue
     summary: Portfolio template made with Nuxt 3, Nuxt Content v3, Nuxt UI v3 and Tailwind CSS v4
     last_synced_sha: 4b41a407e9ed5bd8868a1c48a39baf88c8efd726
     user_starred_at: '2025-02-15T21:59:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -58631,16 +58661,24 @@ repositories:
         published_at: '2025-02-10T12:29:56Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.043Z'
+      prompt_version: v3
   - repo: heroui-inc/heroui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react
+      - component-library
+      - lang:ts
     summary: 🚀 Beautiful, fast and modern React UI library. (Previously Next UI)
     last_synced_sha: cea23aff41f1c8fa6ea83b26055266fc68eb55bc
     user_starred_at: '2025-02-15T19:37:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -58663,16 +58701,25 @@ repositories:
         published_at: '2026-03-07T15:59:36Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.043Z'
+      prompt_version: v3
   - repo: nuxt/ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - vue
+      - tailwindcss
+      - reka-ui
+      - lang:vue
     summary: The Intuitive Vue UI Library powered by Reka UI & Tailwind CSS.
     last_synced_sha: ee8a248d4293ec79bdf7db820879503dcec70547
     user_starred_at: '2025-02-14T23:11:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -58698,16 +58745,25 @@ repositories:
         published_at: '2026-03-02T16:31:55Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.043Z'
+      prompt_version: v3
   - repo: obs-websocket-community-projects/obs-websocket-js
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - apis
+    tags:
+      - obs-websocket
+      - websocket
+      - nodejs
+      - lang:ts
     summary: Consumes https://github.com/obsproject/obs-websocket
     last_synced_sha: 6c77d661fe55d49bb56e9703798b20dd7251026f
     user_starred_at: '2025-02-14T23:09:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -58733,15 +58789,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.043Z'
+      prompt_version: v3
   - repo: YorVeX/xObsAsyncImageSource
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - obs
+      - image-source
+      - plugin
+      - lang:csharp
     summary: OBS plugin providing an image source that loads images asynchronously (causing a lot less lag on load).
     last_synced_sha: b6e714f49d76e776cfd7a6847a5bedde32dacbd9
     user_starred_at: '2025-02-14T23:07:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -58764,15 +58829,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.043Z'
+      prompt_version: v3
   - repo: dev47apps/droidcam-obs-plugin
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - mobile-dev
+    tags:
+      - obs-studio
+      - droidcam
+      - webcam
+      - lang:cpp
     summary: Droid Cam OBS Source
     last_synced_sha: e873e48ec0b92b7da14d7b6d90f343ff41161a32
     user_starred_at: '2025-02-14T22:58:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -58798,15 +58872,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.043Z'
+      prompt_version: v3
   - repo: Bennik2000/BetterProjectors
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - obs
+      - plugin
+      - lang:cpp
     summary: This plugin for OBS Studio provides dockable projectors for scenes and sources
     last_synced_sha: 2bb31398764e7bd61b83e68ef9ed774f8a1f8897
     user_starred_at: '2025-02-14T22:54:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -58824,15 +58906,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.043Z'
+      prompt_version: v3
   - repo: DesktopECHO/xWSL
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - wsl
+      - ubuntu
+      - installer
+      - lang:batchfile
     summary: Installer script for Ubuntu 22.04 / 24.04 with XFCE Desktop on WSL. Does not require hypervisor, container, or X11 server.
     last_synced_sha: d794ffe7088ed83010ba44417ff9c18c980dc51a
     user_starred_at: '2025-02-14T19:41:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -58859,15 +58950,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.043Z'
+      prompt_version: v3
   - repo: au2001/icloud-passwords-firefox
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - security
+    tags:
+      - password-manager
+      - firefox-extension
+      - icloud
+      - lang:ts
     summary: Firefox extension which lets you use your passwords stored on i Cloud Keychain®.
     last_synced_sha: 81829ebde610dfe81a17d974889e6e3342d84c2b
     user_starred_at: '2025-02-14T16:53:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -58897,15 +58997,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.043Z'
+      prompt_version: v3
   - repo: leonboe1/GoogleFindMyTools
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+    tags:
+      - tracking
+      - find-my-device
+      - lang:python
     summary: Framework for tracking and building your own Google Find My Device / Find Hub trackers 🧭
     last_synced_sha: 0003116eaa3e19886b5cc3c843641fe068e2ddc8
     user_starred_at: '2025-02-14T01:47:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -58923,15 +59031,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.043Z'
+      prompt_version: v3
   - repo: seemoo-lab/AirGuard-iOS
     categories:
-      - unclassified
-    tags: []
+      - security
+      - mobile-dev
+    tags:
+      - tracking-protection
+      - airtags
+      - lang:swift
     summary: Protect yourself from being tracked 📍by Air Tags, Smart Tags, Chipolo, Google, and Tile Trackers
     last_synced_sha: 0f297cbe0da8e75f281c3fb12bd6c9e4a9cd41d9
     user_starred_at: '2025-02-14T01:40:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics: []
@@ -58949,15 +59065,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.043Z'
+      prompt_version: v3
   - repo: Raphire/Win11Debloat
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - windows
+      - debloat
+      - lang:powershell
     summary: A simple, lightweight Power Shell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize and improve your Windows experience. ...
     last_synced_sha: e8adac185240e8ce4ffca82dd484b8cc8b0d2784
     user_starred_at: '2025-02-13T23:03:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -58997,6 +59121,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-08T04:21:33.042Z'
+      prompt_version: v3
   - repo: jaywcjlove/awesome-uikit
     categories:
       - ui-libraries
