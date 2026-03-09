@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:46:53.844Z'
+  manifest_updated_at: '2026-03-09T04:47:27.353Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -11918,13 +11918,19 @@ repositories:
     framework: null
   - repo: Turfjs/turf
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - web-dev
+    tags:
+      - geospatial
+      - geojson
+      - gis
+      - computational-geometry
+      - lang:ts
     summary: A modular geospatial engine written in Java Script and Type Script
     last_synced_sha: 1fed227e9e170ffaa776a511f66dfc52a35a8ddf
     user_starred_at: '2026-01-29T19:32:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11953,15 +11959,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.805Z'
+      prompt_version: v3
   - repo: visgl/react-map-gl
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react
+      - map
+      - mapbox
+      - data-visualization
+      - lang:ts
     summary: React friendly API wrapper around Mapbox GL JS
     last_synced_sha: c41e00c2d815ea38b068c98922fc2d28511c3867
     user_starred_at: '2026-01-29T19:20:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11987,16 +12003,24 @@ repositories:
         published_at: '2025-10-03T19:07:05Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.805Z'
+      prompt_version: v3
   - repo: vercel-labs/skills
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - agent-management
+      - automation-tooling
+      - lang:ts
     summary: The open agent skills tool - npx skills
     last_synced_sha: 7022ad39948c10024e451a56baba6fee62477df5
     user_starred_at: '2026-01-29T16:31:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -12016,15 +12040,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.805Z'
+      prompt_version: v3
   - repo: gitleaks/gitleaks
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - git-security
+      - secret-detection
+      - devsecops
+      - lang:go
     summary: Find secrets with Gitleaks 🔑
     last_synced_sha: 8d1f98c7967eb1e79cb44ac6241a124e145d2165
     user_starred_at: '2026-01-29T16:21:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -12064,15 +12097,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.805Z'
+      prompt_version: v3
   - repo: neonichu/githop
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - data-science
+    tags:
+      - big-query
+      - data-analytics
+      - git-history
+      - lang:ruby
     summary: Uses Big Query and Git Hub Archive to create something like Time Hop for Git Hub.
     last_synced_sha: 0c23810ac714161e826901cd0018fad3771c1296
     user_starred_at: '2026-01-29T16:15:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics: []
@@ -12090,15 +12132,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.805Z'
+      prompt_version: v3
   - repo: notclickable-jordan/starbase-80
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - dev-tools
+    tags:
+      - docker
+      - docker-compose
+      - nodejs
+      - lang:ts
     summary: A nice Docker homepage
     last_synced_sha: 9a8b3868bf5127e926ff4f777d9e111e7a4542e4
     user_starred_at: '2026-01-29T16:11:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -12122,15 +12173,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.805Z'
+      prompt_version: v3
   - repo: anonaddy/anonaddy
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+    tags:
+      - email-forwarding
+      - privacy
+      - pgp
+      - lang:php
     summary: Anonymous email forwarding
     last_synced_sha: fd1290f65efbee785fc0a0fcb6279b55d45a35a1
     user_starred_at: '2026-01-29T16:06:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -12153,15 +12213,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.805Z'
+      prompt_version: v3
   - repo: streetwriters/notesnook
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - note-taking
+      - encrypted-notes
+      - productivity-tools
+      - react
+      - lang:ts
     summary: A fully open source & end-to-end encrypted note taking alternative to Evernote.
     last_synced_sha: d2e10ccaf61fb34587eb785c9cd6cf577816703e
     user_starred_at: '2026-01-29T15:54:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -12199,16 +12269,26 @@ repositories:
         published_at: '2026-01-28T05:18:39Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.804Z'
+      prompt_version: v3
   - repo: six2dez/burp-ai-agent
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - burp-suite
+      - ai-assisted-analysis
+      - pentesting
+      - privacy-security
+      - lang:kotlin
     summary: Burp Suite extension that adds built-in MCP tooling, AI-assisted analysis, privacy controls, passive and active scanning and more
     last_synced_sha: d017750ca9ea3bf0c3fc0496be21749b5424ecb1
     user_starred_at: '2026-01-29T15:52:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics:
@@ -12242,15 +12322,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.804Z'
+      prompt_version: v3
   - repo: raphaelsty/knowledge
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - search-engine
+      - knowledge-management
+      - personal-bookmarks
+      - lang:python
+      - data-organization
     summary: Open-source personal bookmarks search engine
     last_synced_sha: b15b2a0310ca12527d0bf0aa11a6d86167957b00
     user_starred_at: '2026-01-29T15:37:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -12277,15 +12367,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.804Z'
+      prompt_version: v3
   - repo: forrestchang/andrej-karpathy-skills
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - knowledge
+      - ai
+      - unknown-purpose
     summary: No description provided
     last_synced_sha: aa4467f0b33e1e80d11c7c043d4b27e7c79a73a3
     user_starred_at: '2026-01-29T15:32:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -12303,15 +12401,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.804Z'
+      prompt_version: v3
   - repo: ITContractorsUnion/ITContractorsUnion
     categories:
+      - documentation
       - unclassified
-    tags: []
+    tags:
+      - data
+      - reference-materials
+      - lang:html
     summary: Repo For All Downloadable Data
     last_synced_sha: 3500507104eaad7c9a1575be334caf9c5631b712
     user_starred_at: '2026-01-29T15:30:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -12329,15 +12435,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.804Z'
+      prompt_version: v3
   - repo: HugoRCD/evlog
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - dev-tools
+    tags:
+      - logging
+      - error-monitoring
+      - observability
+      - lang:ts
+      - nuxtjs
     summary: Logging that makes sense. Wide events, structured errors, zero chaos.
     last_synced_sha: 121d0a3c5da7fe6a23d7382e4af0efa53eeac144
     user_starred_at: '2026-01-29T15:26:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -12369,16 +12485,25 @@ repositories:
         published_at: '2026-03-07T17:44:19Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.804Z'
+      prompt_version: v3
   - repo: ssmisya/AdaReasoner
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - dynamic-tool-orchestration
+      - visual-reasoning
+      - research
+      - lang:jupyter-notebook
     summary: '[ICLR 2026] The official repository for the paper "Ada Reasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning".'
     last_synced_sha: 19c799dac15223abbcbeb80f843368d045933ba0
     user_starred_at: '2026-01-29T15:17:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -12396,15 +12521,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.804Z'
+      prompt_version: v3
   - repo: microsoft/agentrc
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai
+      - sdk
+      - code-preparation
+      - lang:ts
     summary: Get your repo ready for AI.
     last_synced_sha: 8d8ca9ce6ba0c49344eb58ffb4c4e33855afb19f
     user_starred_at: '2026-01-29T15:13:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -12422,6 +12556,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:47:25.804Z'
+      prompt_version: v3
   - repo: microsoft/bf-tree
     categories:
       - databases
