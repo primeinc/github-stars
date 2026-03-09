@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:21:20.193Z'
+  manifest_updated_at: '2026-03-09T04:21:52.178Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -34742,13 +34742,19 @@ repositories:
     framework: null
   - repo: davila7/claude-code-templates
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - system-admin
+      - monitoring
+    tags:
+      - claude
+      - cli
+      - monitoring
+      - lang:python
     summary: CLI tool for configuring and monitoring Claude Code
     last_synced_sha: afa212ebb96bc1326ffe6cecda035e288cf47136
     user_starred_at: '2025-10-08T08:59:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -34772,15 +34778,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.633Z'
+      prompt_version: v3
   - repo: retroplasma/earth-reverse-engineering
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - networking
+    tags:
+      - reverse-engineering
+      - gis
+      - 3d-models
+      - lang:c
     summary: Reversing Google's 3D satellite mode
     last_synced_sha: 35af10d0e1a133dc217d63c59545a917f4e5fc3f
     user_starred_at: '2025-10-08T07:20:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C
@@ -34807,15 +34822,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.633Z'
+      prompt_version: v3
   - repo: Phantom-video/Phantom
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - web-dev
+    tags:
+      - video-generation
+      - aigc
+      - text-to-video
+      - lang:python
     summary: 'Phantom: Subject-Consistent Video Generation via Cross-Modal Alignment'
     last_synced_sha: bd84b602dcc949e23c89cbbf266b6f5975f2f025
     user_starred_at: '2025-10-07T18:46:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -34837,15 +34862,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.633Z'
+      prompt_version: v3
   - repo: character-ai/Ovi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ai-tool
+      - lang:python
     summary: No description provided
     last_synced_sha: 5b69b25a4b3115216e9ea53a37a04410be6ad39a
     user_starred_at: '2025-10-07T18:44:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -34863,15 +34895,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.633Z'
+      prompt_version: v3
   - repo: yt-dlp/yt-dlp
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+      - data-science
+    tags:
+      - youtube-downloader
+      - cli
+      - downloader
+      - lang:python
     summary: A feature-rich command-line audio/video downloader
     last_synced_sha: b8058cdf378cbbf60669b665dea146fb7dc90117
     user_starred_at: '2025-10-07T18:44:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -34898,15 +34940,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.633Z'
+      prompt_version: v3
   - repo: trycompai/comp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+      - automation
+    tags:
+      - compliance
+      - gdpr
+      - iso27001
+      - lang:ts
     summary: AI Native platform to get companies compliant - Vanta & Drata Alternative
     last_synced_sha: 2fbb7cb2e9fa01ca5751c9fdf3e1f11239b6b724
     user_starred_at: '2025-10-07T02:43:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34943,16 +34995,23 @@ repositories:
         published_at: '2026-03-05T20:41:26Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.633Z'
+      prompt_version: v3
   - repo: Azure/Medical-Claims-Transaction-Processing-at-scale
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - data-science
+    tags:
+      - medical-processing
+      - lang:css
     summary: No description provided
     last_synced_sha: 5ca64096faf33114d30b584fcfdfb2ed4c2a2556
     user_starred_at: '2025-10-04T21:37:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics: []
@@ -34970,15 +35029,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.633Z'
+      prompt_version: v3
   - repo: debanjum/ai-wallpaper
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+      - mobile-dev
+    tags:
+      - dynamic-wallpaper
+      - generative-ai
+      - ai-image-generation
+      - lang:python
     summary: Get fresh, personal AI painted wallpapers on your phone or computer. Paints by using your current city, weather and even your recent experiences. Powered by Khoj AI
     last_synced_sha: 370cdfb19cb53106c560a57368e415fb2decf7db
     user_starred_at: '2025-10-04T01:37:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -35009,15 +35078,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.633Z'
+      prompt_version: v3
   - repo: deechtejoao/stonkfetch
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - stocks
+      - command-line-tool
+      - ascii-art
+      - lang:python
     summary: A command-line tool that fetches and displays stock information with beautiful colored ASCII art logos, inspired by neofetch.
     last_synced_sha: 140163738930e6ab3fadc8d52033af5152977a15
     user_starred_at: '2025-10-03T12:18:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35035,15 +35113,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.633Z'
+      prompt_version: v3
   - repo: pathwaycom/llm-app
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+      - data-science
+    tags:
+      - llm
+      - real-time
+      - enterprise-search
+      - lang:jupyter-notebook
     summary: Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, Postgre SQL, real-time data API...
     last_synced_sha: 5fa97b75a177f11fb68cb6ed2da3c0d16f14d9c0
     user_starred_at: '2025-10-03T12:15:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -35076,15 +35164,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.633Z'
+      prompt_version: v3
   - repo: Kakulukian/youtube-transcript
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+      - data-science
+    tags:
+      - youtube
+      - transcript
+      - lang:ts
     summary: Fetch transcript from a youtube video
     last_synced_sha: ff08036a45f47005cf7278724e83baeffaae4e7d
     user_starred_at: '2025-10-03T12:15:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -35102,15 +35199,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.633Z'
+      prompt_version: v3
   - repo: JayRHa/EndpointAnalyticsRemediationScripts
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - security
+      - monitoring
+    tags:
+      - endpoint-analytics
+      - proactive-remediations
+      - powershell
+      - lang:powershell
     summary: Collection of ready-to-use Intune Endpoint Analytics Proactive Remediation scripts for detection and remediation of common Windows endpoint issues including security, performance, networking, and a...
     last_synced_sha: 781d42df43670206b9926a4ad818a5e9d81c188f
     user_starred_at: '2025-10-02T19:30:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -35137,15 +35244,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.633Z'
+      prompt_version: v3
   - repo: dockur/windows
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - containers
+      - cloud
+    tags:
+      - windows-vm
+      - docker-container
+      - virtualization
+      - lang:shell
     summary: Windows inside a Docker container.
     last_synced_sha: 588969ae5f7ca7d9c9cade09e47adbe057775e0e
     user_starred_at: '2025-09-29T13:02:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -35173,15 +35290,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.633Z'
+      prompt_version: v3
   - repo: sonnyp/Eloquent
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - proofreading
+      - linux-app
+      - gtk
+      - desktop
+      - lang:js
     summary: Your proofreading assistant
     last_synced_sha: cec258a1389e24e0d6756b5c3adf4440d076ac27
     user_starred_at: '2025-09-29T13:01:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -35207,15 +35334,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.633Z'
+      prompt_version: v3
   - repo: ChromeDevTools/chrome-devtools-mcp
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+      - testing
+    tags:
+      - browser
+      - debugging
+      - chrome-devtools
+      - lang:ts
     summary: Chrome Dev Tools for coding agents
     last_synced_sha: 06c295278d26233fbf53105b58994b43bc3e27d0
     user_starred_at: '2025-09-29T13:00:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -35243,6 +35380,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:21:50.632Z'
+      prompt_version: v3
   - repo: areibman/bottleneck
     categories:
       - productivity
