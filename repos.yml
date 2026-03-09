@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:20:19.427Z'
+  manifest_updated_at: '2026-03-09T04:20:50.533Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -35730,13 +35730,18 @@ repositories:
     framework: null
   - repo: microsoft/Microsoft-Purview-Advanced-Rich-Reports-MPARR-Collector
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - productivity
+      - system-admin
+    tags:
+      - purview
+      - reporting
+      - lang:powershell
     summary: Repository with all the MPARR components solution
     last_synced_sha: 532f5a469c332bf44855f6053420ce25649aa024
     user_starred_at: '2025-09-27T14:57:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -35754,15 +35759,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.906Z'
+      prompt_version: v3
   - repo: pnp/vscode-viva
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+      - ui-libraries
+    tags:
+      - sharepoint-framework
+      - microsoft-viva
+      - lang:ts
+      - spfx
+      - viva-connections
     summary: With the Share Point Framework Toolkit extension, you can create and manage your Share Point Framework solutions on your tenant. All actions you need to perform during the development flow are at y...
     last_synced_sha: fef8979cfb4be36b0eadadf1bbd62c72a1c342ec
     user_starred_at: '2025-09-27T14:53:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -35791,15 +35807,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.906Z'
+      prompt_version: v3
   - repo: pnp/copilot-prompts
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - prompts
+      - copilot
+      - prompt-engineering
+      - tools
     summary: Examples of prompts for Microsoft Copilot
     last_synced_sha: a7046d3ea848658d2663750130a9a3eea9bcc108
     user_starred_at: '2025-09-27T14:53:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -35822,15 +35847,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.906Z'
+      prompt_version: v3
   - repo: SharePoint/sp-dev-provisioning-templates
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - sharepoint
+      - office365
+      - lang:html
     summary: Repository for open-source content packs with the provisioning tooling
     last_synced_sha: fdd2124a7e9db357fbcdb142fdcde64c38bc0557
     user_starred_at: '2025-09-27T14:45:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -35848,15 +35881,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.906Z'
+      prompt_version: v3
   - repo: Azure-Samples/dab-swa-library-demo
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - web-dev
+      - ui-libraries
+    tags:
+      - lang:js
+      - azure-static-web-apps
     summary: No description provided
     last_synced_sha: c54626f6f201dbfac04f15d92d3f391e00f83334
     user_starred_at: '2025-09-27T14:29:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -35874,15 +35915,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.906Z'
+      prompt_version: v3
   - repo: microsoft/FluidFramework
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - dev-tools
+      - productivity
+    tags:
+      - real-time
+      - collaboration
+      - realtime-data
+      - lang:ts
+      - distributed-systems
     summary: Library for building distributed, real-time collaborative web applications
     last_synced_sha: 71f76a0e4dfb1d0ff450526e1b180d1cef5959a1
     user_starred_at: '2025-09-27T11:13:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -35910,15 +35962,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.906Z'
+      prompt_version: v3
   - repo: Azure/apiops
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cloud
+      - automation
+    tags:
+      - api-management
+      - gitops
+      - devops
+      - lang:csharp
     summary: APIOps applies the concepts of Git Ops and Dev Ops to API deployment. By using practices from these two methodologies, APIOps can enable everyone involved in the lifecycle of API design, developmen...
     last_synced_sha: 35a0fdddbf4806b25bff10234403ef7c48a79a4a
     user_starred_at: '2025-09-26T20:29:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -35941,15 +36003,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.906Z'
+      prompt_version: v3
   - repo: Azure/Microsoft-Defender-for-Cloud
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+      - monitoring
+    tags:
+      - azure
+      - defender-for-cloud
+      - lang:powershell
     summary: Welcome to the Microsoft Defender for Cloud community repository
     last_synced_sha: e037ff5950de13d588f64e6abb43eec9587a0aca
     user_starred_at: '2025-09-26T17:17:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -35967,15 +36038,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.906Z'
+      prompt_version: v3
   - repo: microsoft/semantic-kernel
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - apis
+    tags:
+      - llm
+      - ai
+      - sdk
+      - lang:csharp
+      - openai
     summary: Integrate cutting-edge LLM technology quickly and easily into your apps
     last_synced_sha: 4d675929578f8a07dfdff5361533d362f628d571
     user_starred_at: '2025-09-26T15:57:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -36000,15 +36082,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.906Z'
+      prompt_version: v3
   - repo: Azure/azure-sdk-for-js
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cloud
+      - dev-tools
+    tags:
+      - azure-sdk
+      - lang:ts
+      - nodejs
+      - browser
+      - javascript
     summary: This repository is for active development of the Azure SDK for Java Script (Node JS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.co...
     last_synced_sha: 0028338142f5f9b10a85551bc1e51aff30b1004a
     user_starred_at: '2025-09-26T15:53:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36035,15 +36128,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.906Z'
+      prompt_version: v3
   - repo: Azure/acr-cli
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - cloud
+    tags:
+      - azure-container-registry
+      - docker
+      - cli
+      - lang:go
     summary: Command Line Tool for interacting with Azure Container Registry Images
     last_synced_sha: 7aefff21fb49821c22c006258ec3456b771f0924
     user_starred_at: '2025-09-26T11:52:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -36063,15 +36165,27 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.906Z'
+      prompt_version: v3
   - repo: Azure-Samples/contoso-real-estate
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - web-dev
+      - ai-ml
+      - ui-libraries
+    tags:
+      - serverless
+      - openai
+      - lang:js
+      - angular
+      - nextjs
     summary: Intelligent enterprise-grade reference architecture for Java Script, featuring Open AI integration, Azure Developer CLI template and Playwright tests.
     last_synced_sha: e4c3bd81aca873673fbf24352ed0ede6bc363443
     user_starred_at: '2025-09-26T11:40:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: JavaScript
@@ -36103,16 +36217,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.906Z'
+      prompt_version: v3
   - repo: SeryioGonzalez/azure-pricer
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - productivity
+    tags:
+      - azure
+      - pricing
+      - lang:python
     summary: No description provided
     last_synced_sha: b9fcf240461d2a059b8998b72bdb47eaa381605f
     user_starred_at: '2025-09-26T11:24:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -36130,15 +36252,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.906Z'
+      prompt_version: v3
   - repo: JulianHayward/AzAdvertizer
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - productivity
+    tags:
+      - azure-policy
+      - azure-governance
+      - monitoring
+      - updates
     summary: Az Advertizer helps you to keep up with the pace by providing overview and insights on new releases and changes/updates for Azure Governance capabilities such as Azure Policy's policy definitions, ...
     last_synced_sha: ea952a6e70811ee2d6568b92fee5db0e4e9aa02d
     user_starred_at: '2025-09-26T11:15:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -36160,15 +36291,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.906Z'
+      prompt_version: v3
   - repo: Azure-Samples/infra-support-copilot
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - system-admin
+    tags:
+      - azure
+      - lang:python
+      - cloud-infrastructure
     summary: No description provided
     last_synced_sha: 7e91589ace7f5ceb2499606178a02b2176cfd6be
     user_starred_at: '2025-09-26T10:52:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -36186,6 +36325,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:20:48.905Z'
+      prompt_version: v3
   - repo: Azure-Samples/template-doctor
     categories:
       - documentation
