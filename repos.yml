@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:48:33.734Z'
+  manifest_updated_at: '2026-03-09T04:49:04.696Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -10428,13 +10428,18 @@ repositories:
     framework: null
   - repo: udecode/plate
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+      - productivity
+    tags:
+      - rich-text-editor
+      - shadcn-ui
+      - lang:ts
     summary: Rich-text editor with AI, MCP, and shadcn/ui
     last_synced_sha: f1ed09f8487ee29e5078fa355b22a672227a3d31
     user_starred_at: '2026-02-05T06:08:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10460,16 +10465,25 @@ repositories:
         published_at: '2026-03-07T08:05:03Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.122Z'
+      prompt_version: v3
   - repo: farion1231/cc-switch
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ai-ml
+      - productivity
+    tags:
+      - ai-tools
+      - desktop-assistant
+      - lang:ts
     summary: A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, Open Code, openclaw & Gemini CLI.
     last_synced_sha: fb8996d19c8be352d6ce99573153b0f801c9d021
     user_starred_at: '2026-02-05T06:07:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10507,15 +10521,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.122Z'
+      prompt_version: v3
   - repo: alibaba/nacos
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+      - ai-ml
+    tags:
+      - microservices
+      - configuration-management
+      - lang:java
+      - spring
     summary: an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.
     last_synced_sha: 11240e8d94be14b7b73ab45e403df61c1ccaf384
     user_starred_at: '2026-02-05T06:06:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -10551,16 +10575,25 @@ repositories:
         published_at: '2025-11-26T07:11:44Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: spring
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.121Z'
+      prompt_version: v3
   - repo: Yamato-Security/EnableWindowsLogSettings
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+      - documentation
+    tags:
+      - event-logs
+      - forensics
+      - lang:batchfile
     summary: Documentation and scripts to properly enable Windows event logs.
     last_synced_sha: 6d2c0a15351650309d9bb325d63c5ef051a2157d
     user_starred_at: '2026-02-05T05:26:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -10589,15 +10622,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.121Z'
+      prompt_version: v3
   - repo: Yamato-Security/suzaku
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+      - cloud
+    tags:
+      - dfir
+      - log-analysis
+      - lang:rust
     summary: Suzaku (朱雀) is a sigma-based threat hunting and fast forensics timeline generator for cloud logs.
     last_synced_sha: f3ecc42c6707fec6e97c321b4d95f19a6fe2bddd
     user_starred_at: '2026-02-05T05:25:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -10635,15 +10677,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.121Z'
+      prompt_version: v3
   - repo: nicolonsky/ITDR
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+      - monitoring
+    tags:
+      - itdr
+      - threat-detection
+      - lang:powershell
     summary: Collection of Microsoft Identity Threat Detection and Response resources.
     last_synced_sha: a52025561cba8d154b812fbebb650cfec48a6432
     user_starred_at: '2026-02-05T05:24:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -10666,15 +10717,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.121Z'
+      prompt_version: v3
   - repo: merill/graph-permissions-explorer
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - documentation
+    tags:
+      - permissions
+      - entra
+      - lang:html
     summary: Repository for public site hosting graph permissions
     last_synced_sha: 06de70c4582db703dc573a91d68179a4319db34b
     user_starred_at: '2026-02-05T05:12:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -10695,15 +10754,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.121Z'
+      prompt_version: v3
   - repo: bbmumford/Intune-Toolkit
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - system-admin
+      - cloud
+    tags:
+      - intune
+      - config-management
+      - lang:opal
     summary: my personal collection of scripts & guides to configuring a standard enterprise Intune enviroment.
     last_synced_sha: 02c63f1a9bdcfb15591bdbb02322c2c37b6931f9
     user_starred_at: '2026-02-05T05:06:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Opal
       topics:
@@ -10729,15 +10797,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.121Z'
+      prompt_version: v3
   - repo: merill/awesome-entra
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - awesome-list
+      - microsoft
+      - entra
     summary: 😎 Awesome list of all things related to Microsoft Entra
     last_synced_sha: 8a205798cd48d35e47eae57e5a45d6e04b046f07
     user_starred_at: '2026-02-05T04:59:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -10759,15 +10835,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.121Z'
+      prompt_version: v3
   - repo: microsoft/EntraExporter
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+      - productivity
+    tags:
+      - backup
+      - azuread
+      - lang:powershell
     summary: Power Shell module to export a local copy of an Entra (Azure AD) tenant configuration.
     last_synced_sha: ce0d04cf096611183258d65a8e5aa487c55a1f5f
     user_starred_at: '2026-02-05T04:58:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -10791,15 +10876,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.121Z'
+      prompt_version: v3
   - repo: systommy/TenantReports
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+      - system-admin
+    tags:
+      - azure-reports
+      - microsoft365
+      - lang:powershell
     summary: A Power Shell module for generating Microsoft 365 and Azure security reports.
     last_synced_sha: a9a39796c43d299bdfcce44eb0ab87991bb49fe7
     user_starred_at: '2026-02-05T04:50:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -10817,15 +10911,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.121Z'
+      prompt_version: v3
   - repo: callstackincubator/agent-device
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - mobile-dev
+      - testing
+    tags:
+      - ai-agents
+      - device-control
+      - lang:ts
     summary: CLI to control i OS and Android devices for AI agents
     last_synced_sha: 21b6b617570f04ee1d69766921b3d3a3c17d8179
     user_starred_at: '2026-02-05T01:41:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10850,15 +10953,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.121Z'
+      prompt_version: v3
   - repo: jitsi/jitsi-meet
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - networking
+      - security
+    tags:
+      - webrtc
+      - video-conferencing
+      - lang:ts
     summary: Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
     last_synced_sha: 6f8414e67f064724f2c1d6282f76cd3f57670a63
     user_starred_at: '2026-02-04T19:56:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10887,16 +10999,25 @@ repositories:
         published_at: '2026-02-02T17:08:27Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.121Z'
+      prompt_version: v3
   - repo: Songmu/tagpr
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+      - dev-tools
+    tags:
+      - github-actions
+      - release-management
+      - lang:go
     summary: automatically creates and updates a pull request for unreleased items, tag them when they are merged, and create releases.
     last_synced_sha: b3fb89424646b06c8aa460f50307c60b6a541425
     user_starred_at: '2026-02-04T18:47:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -10918,15 +11039,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.121Z'
+      prompt_version: v3
   - repo: mspnp/aks-baseline
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - cloud
+      - documentation
+    tags:
+      - aks
+      - kubernetes
+      - architecture
+      - lang:bicep
     summary: This is the Azure Kubernetes Service (AKS) Baseline Cluster reference implementation as produced by the Microsoft Azure Architecture Center.
     last_synced_sha: d8f17d378837992eac077110a21d9d5991b287ae
     user_starred_at: '2026-02-04T18:47:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -10960,6 +11091,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:03.121Z'
+      prompt_version: v3
   - repo: hey-api/openapi-ts
     categories:
       - dev-tools
