@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:39:54.284Z'
+  manifest_updated_at: '2026-03-09T04:40:22.518Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -18079,13 +18079,18 @@ repositories:
     framework: null
   - repo: snarktank/ralph
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agent
+      - autonomous-loop
+      - prd-management
+      - lang:ts
     summary: Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.
     last_synced_sha: 6c53cb0b831ebe8739c6a003e22af14902d8b0b5
     user_starred_at: '2026-01-09T20:59:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -18103,15 +18108,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: frankbria/cli-ify-plugin
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - cli-tools
+      - ai-automation
+      - claude-code
+      - lang:powershell
     summary: Convert Claude Code skills, commands, and agents into standalone CLI tools for Linux/Mac (Bash) and Windows (Power Shell).
     last_synced_sha: bbf64c3ae0d6a2178051d9cb1effe5b86745cccb
     user_starred_at: '2026-01-09T20:57:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -18137,15 +18151,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: labring/sealos
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+      - ai-ml
+    tags:
+      - cloud-os
+      - kubernetes
+      - container-management
+      - lang:ts
     summary: Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfec...
     last_synced_sha: 147c0a8f263361c64951d17178c5a00f706862e9
     user_starred_at: '2026-01-09T20:55:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -18174,15 +18198,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: plexinc/pms-docker
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - system-admin
+    tags:
+      - docker
+      - media-server
+      - lang:smarty
     summary: Plex Media Server Docker repo, for all your PMS docker needs.
     last_synced_sha: fde000d2d1cb7ce35365e872046b175ae4811a42
     user_starred_at: '2026-01-09T20:54:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Smarty
       topics: []
@@ -18202,15 +18234,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: dvdsgl/claude-canvas
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - external-monitor
+      - claude
+      - ai-tools
+      - lang:ts
     summary: Give Claude Code an external monitor
     last_synced_sha: 2a88ac56bc38e5ab37c5619952686f757935ab80
     user_starred_at: '2026-01-09T20:54:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -18228,15 +18269,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: matijazezelj/sib
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - siem
+      - security-tools
+      - lang:python
     summary: SIEM in a box
     last_synced_sha: 6350571c77c25667e82910055ea51c42e8cf4625
     user_starred_at: '2026-01-09T20:53:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -18254,15 +18303,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: OthmanAdi/planning-with-files
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - planning
+      - claude
+      - ai
+      - manus
+      - lang:python
     summary: Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.
     last_synced_sha: 7b55095bce7624011ec118e6a6029e37ec8a1ea2
     user_starred_at: '2026-01-09T20:53:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -18302,15 +18361,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: openprose/prose
     categories:
       - unclassified
-    tags: []
+    tags:
+      - no-description
+      - empty-topics
     summary: No description provided
     last_synced_sha: 35b3b606f4c2b93b513e3820ac716aada8bb003e
     user_starred_at: '2026-01-09T20:52:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -18330,15 +18395,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: danielmiessler/Daemon
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - api-framework
+      - developer-tools
+      - lang:ts
     summary: An open-source personal API framework.
     last_synced_sha: d3d92298a683ce553f130a19b6dfcfbfb90ae821
     user_starred_at: '2026-01-09T20:49:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -18356,15 +18429,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: typesense/typesense
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - web-dev
+    tags:
+      - search-engine
+      - fuzzy-search
+      - full-text-search
+      - lang:cpp
     summary: Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to Elastic Search ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences
     last_synced_sha: a6491e47823243b4482379c02a8609389b56c6a6
     user_starred_at: '2026-01-09T20:47:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -18404,15 +18486,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: shadps4-emu/shadPS4
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - embedded
+    tags:
+      - ps4
+      - emulator
+      - vulkan
+      - lang:cpp
     summary: Play Station 4 emulator for Windows, Linux and mac OS written in C++
     last_synced_sha: cc6af03adf6208974b0afcd7684358dd83fcfc8b
     user_starred_at: '2026-01-09T20:47:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -18444,15 +18535,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: taskflow/taskflow
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - parallel-programming
+      - multithreading
+      - taskparallelism
+      - lang:cpp
     summary: A General-purpose Task-parallel Programming System using Modern C++
     last_synced_sha: b2e2c9daf2e85da5f4e16e7cc550495e3e9628cf
     user_starred_at: '2026-01-09T20:47:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -18487,15 +18587,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: cemu-project/Cemu
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - embedded
+    tags:
+      - wiiu
+      - emulator
+      - nintendo
+      - lang:cpp
     summary: Cemu - Wii U emulator
     last_synced_sha: 3ee166101a1459da47d0078a869ff6023ba0ff64
     user_starred_at: '2026-01-09T20:46:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -18522,15 +18631,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: azerothcore/azerothcore-wotlk
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - embedded
+    tags:
+      - mmo
+      - game-server
+      - emulator
+      - lang:cpp
     summary: Complete Open Source and Modular solution for MMO
     last_synced_sha: 7fc30494493045f806fd0f61241372992931f317
     user_starred_at: '2026-01-09T20:45:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -18567,15 +18685,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: OpenBB-finance/OpenBB
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - productivity
+    tags:
+      - finance
+      - machine-learning
+      - ai
+      - lang:python
     summary: Financial data platform for analysts, quants and AI agents.
     last_synced_sha: a6a82a6694d81926573178120ea9fda511b859eb
     user_starred_at: '2026-01-09T20:44:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -18608,6 +18736,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:40:20.939Z'
+      prompt_version: v3
   - repo: Babyhamsta/Aimmy
     categories:
       - ai-ml
