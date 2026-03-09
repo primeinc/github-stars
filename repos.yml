@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:29:02.352Z'
+  manifest_updated_at: '2026-03-09T04:29:35.973Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -27678,13 +27678,20 @@ repositories:
     framework: null
   - repo: requestly/requestly
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+      - testing
+    tags:
+      - api-client
+      - mock-server
+      - lang:ts
+      - open-source
+      - postman-alternative
     summary: Free and open-source API Client & Interceptor.
     last_synced_sha: 83afdaef31a14e9b47b0e446f0b633ad1b7b24d6
     user_starred_at: '2025-11-22T05:48:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27724,15 +27731,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.392Z'
+      prompt_version: v3
   - repo: Dokploy/dokploy
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - containers
+      - cloud
+    tags:
+      - self-hosted
+      - lang:ts
+      - vps
+      - vercel-alternative
+      - mariadb
     summary: Open Source Alternative to Vercel, Netlify and Heroku.
     last_synced_sha: 30f061e77401f5fef2c9d7915c83ceeb971a5196
     user_starred_at: '2025-11-22T05:47:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27766,15 +27784,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.392Z'
+      prompt_version: v3
   - repo: bobeff/open-source-games
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - learning
+    tags:
+      - awesome-list
+      - open-source-games
+      - lang:python
+      - game-development
     summary: A list of open source games.
     last_synced_sha: 3a9ab8fc892a2cdadf8989a72ba7624a11e39cec
     user_starred_at: '2025-11-22T05:46:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -27795,15 +27822,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.392Z'
+      prompt_version: v3
   - repo: iptv-org/iptv
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - productivity
+    tags:
+      - iptv
+      - lang:ts
+      - streaming
+      - global-channel
+      - playlist
     summary: Collection of publicly available IPTV channels from all over the world
     last_synced_sha: 1c1070a11202aa171ad9b0d57a1897326ceff6b4
     user_starred_at: '2025-11-22T05:45:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27826,15 +27863,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.391Z'
+      prompt_version: v3
   - repo: sindresorhus/type-fest
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - lang:ts
+      - typescript-utilities
+      - definitions
+      - npm-package
+      - types
     summary: A collection of essential Type Script types
     last_synced_sha: d3302ce03a9d42edcb79332421dad942a95c67c9
     user_starred_at: '2025-11-22T05:44:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27859,15 +27906,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.391Z'
+      prompt_version: v3
   - repo: vemetric/favicon-api
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - api
+      - favicon-fetch
+      - lang:ts
+      - hono
+      - self-hosted
     summary: Free and self-hostable API to fetch favicons from any website.
     last_synced_sha: e958d597d4d4927f0bbb7d7fc5b27878c8d6b9b8
     user_starred_at: '2025-11-22T05:38:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27891,15 +27948,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.391Z'
+      prompt_version: v3
   - repo: facebookresearch/sam3
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - inference
+      - model-training
+      - lang:python
+      - meta
+      - segment-anything
     summary: The repository provides code for running inference and finetuning with the Meta Segment Anything Model 3 (SAM 3), links for downloading the trained model checkpoints, and example notebooks that sho...
     last_synced_sha: f6e51f59500a87c576c2df2323ce56b9fd7a12de
     user_starred_at: '2025-11-22T05:32:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -27917,15 +27984,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.391Z'
+      prompt_version: v3
   - repo: flameshot-org/flameshot
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+      - ui-libraries
+    tags:
+      - screenshot-tool
+      - lang:cpp
+      - cross-platform
+      - image-editing
+      - free-software
     summary: 'Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:'
     last_synced_sha: 7a67146795935c945432b316c5ba41f8e7ab8b53
     user_starred_at: '2025-11-22T05:27:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -27954,15 +28032,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.391Z'
+      prompt_version: v3
   - repo: palashmon/awesome-vscode-settings
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - vscode
+      - settings
+      - awesome-list
+      - visualstudio
+      - configuration
     summary: 🎨 A curated list of simple and awesome VS Code settings
     last_synced_sha: 5e7eca1879380dc8b546007668cc1ff8933a624a
     user_starred_at: '2025-11-22T05:26:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -27990,15 +28078,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.391Z'
+      prompt_version: v3
   - repo: mcp-use/mcp-use
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ai-ml
+      - web-dev
+    tags:
+      - mcp-framework
+      - lang:ts
+      - agentic
+      - chatgpt
+      - ai-integrations
     summary: The fullstack MCP framework to develop MCP Apps for Chat GPT / Claude & MCP Servers for AI Agents.
     last_synced_sha: d3b60d7d094ef0ee92e4316de2a74376c50c87b4
     user_starred_at: '2025-11-22T05:24:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28038,15 +28137,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.390Z'
+      prompt_version: v3
   - repo: mitsuhiko/agent-stuff
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - agents
+      - tools
+      - openai
+      - automation
+      - lang:ts
     summary: These are commands I use with agents, mostly Claude
     last_synced_sha: b502ee5a393755e857a2a5c5e8c6a507b6ad652f
     user_starred_at: '2025-11-22T05:19:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -28064,15 +28173,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.390Z'
+      prompt_version: v3
   - repo: shadcnblocks/mainline-nextjs-template
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+      - frameworks
+    tags:
+      - nextjs-template
+      - lang:ts
+      - shadcn
+      - tailwindcss
+      - nextjs
     summary: Mainline Next.js template built with shadcn/ui, Tailwind 4 & Next.js
     last_synced_sha: 2329ed3524a6038d834b925187084a0e41fab2d9
     user_starred_at: '2025-11-22T01:29:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28099,16 +28219,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.390Z'
+      prompt_version: v3
   - repo: Azure/awesome-azd
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+      - cloud
+    tags:
+      - azure
+      - cli
+      - templates
+      - lang:ts
+      - awesome-list
     summary: An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (`azd`). Plus a hosted azd-templates Gallery to simplify search ...
     last_synced_sha: f274012c3bfcd63976bfbdbaaed915cb4f8c8702
     user_starred_at: '2025-11-22T00:31:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28134,15 +28265,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.390Z'
+      prompt_version: v3
   - repo: pascalvanderheiden/ais-apim-openai
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+      - cloud
+    tags:
+      - azure
+      - openai
+      - lang:bicep
+      - api-management
+      - secure-access
     summary: Unleash the power of Azure Open AI to your application developers in a secure & manageable way with Azure API Management and Azure Developer CLI.
     last_synced_sha: 66b1e07e135d1a24b7433491589623da1523e507
     user_starred_at: '2025-11-22T00:26:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -28160,15 +28302,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.390Z'
+      prompt_version: v3
   - repo: luckgrid/lg-turbo-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - frameworks
+    tags:
+      - tailwindcss
+      - lang:ts
+      - react
+      - nextjs
+      - monorepo
     summary: A turborepo workspace with a ready to go Next v15, React v19, and Tailwind CSS v4 UI packages and configs.
     last_synced_sha: e17afc3a66af303642ca122a2d5a32083133a936
     user_starred_at: '2025-11-21T23:44:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -28185,7 +28337,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:29:34.390Z'
+      prompt_version: v3
   - repo: luckgrid/lg-gnosys
     categories:
       - productivity
