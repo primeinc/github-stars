@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:32:37.107Z'
+  manifest_updated_at: '2026-03-09T04:33:07.978Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -24635,13 +24635,17 @@ repositories:
     framework: null
   - repo: agarrharr/awesome-cli-apps
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - cli
+      - awesome-list
+      - lang:shell
     summary: 🖥 📊 🕹 🛠 A curated list of command line apps
     last_synced_sha: 84a81d3dcb678d4e6e51848ca50ce56344260c02
     user_starred_at: '2025-12-18T09:49:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -24664,15 +24668,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: birobirobiro/awesome-shadcn-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - documentation
+    tags:
+      - shadcn-ui
+      - awesome-list
+      - resources
+      - lang:ts
     summary: A curated list of awesome things related to shadcn/ui.
     last_synced_sha: 0194ea149a0f8f2de42ba4e425e5cab0ae04e17c
     user_starred_at: '2025-12-18T09:49:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -24698,15 +24711,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: goabstract/Awesome-Design-Tools
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - learning
+    tags:
+      - design-tools
+      - awesome-list
+      - ui-design
+      - lang:js
     summary: The best design tools and plugins for everything 👉
     last_synced_sha: dc60e63c248c44acb42f09fb0c985b77b5fe4bf5
     user_starred_at: '2025-12-18T09:47:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -24732,15 +24754,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: DovAmir/awesome-design-patterns
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - design-patterns
+      - architecture
+      - resources
     summary: A curated list of software and architecture related design patterns.
     last_synced_sha: 9006287f27e720000cc8763ae4cd150789b8571d
     user_starred_at: '2025-12-18T09:47:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -24767,15 +24797,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: ClassicOldSong/Apollo
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - desktop-dev
+    tags:
+      - gaming
+      - remote-control
+      - streaming
+      - lang:cpp
     summary: Sunshine fork - The easiest way to stream with the native resolution of your client device
     last_synced_sha: a40b179886856bba1dfe311f430a25b9f3c44390
     user_starred_at: '2025-12-18T09:46:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -24799,15 +24838,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: imputnet/helium
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - security
+    tags:
+      - web-browser
+      - privacy
+      - lang:cpp
     summary: Private, fast, and honest web browser
     last_synced_sha: a78275ad90207b830fe2a8fd4df0468fc56c0dfd
     user_starred_at: '2025-12-18T09:45:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -24831,15 +24878,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: MaaXYZ/MaaFramework
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - ai-ml
+    tags:
+      - computer-vision
+      - black-box-testing
+      - lang:cpp
     summary: 基于图像识别的自动化黑盒测试框架 | An automation black-box testing framework based on image recognition
     last_synced_sha: b63eeff11347abf046a02402dfeea08287d4566b
     user_starred_at: '2025-12-18T09:41:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -24861,15 +24916,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: Project-OSRM/osrm-backend
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - web-dev
+    tags:
+      - routing
+      - map-matching
+      - openstreetmap
+      - lang:cpp
     summary: Open Source Routing Machine - C++ backend
     last_synced_sha: 314c566cd63da80b2a9ced6a71bbb36610113fb9
     user_starred_at: '2025-12-18T09:36:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -24900,15 +24964,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: Klocman/Bulk-Crap-Uninstaller
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - bulk-uninstall
+      - application-management
+      - lang:csharp
     summary: Remove large amounts of unwanted applications quickly.
     last_synced_sha: 4ecea11bfb08b0ccf32279293dd1fcd02c6ce767
     user_starred_at: '2025-12-18T09:35:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -24947,15 +25019,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: BluePointLilac/ContextMenuManager
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - windows
+      - context-menu
+      - lang:csharp
     summary: 🖱️ 纯粹的Windows右键菜单管理程序
     last_synced_sha: 55507155dd8e49c7ab4606da97f2af192d590dfe
     user_starred_at: '2025-12-18T09:31:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -24975,15 +25055,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: huynhsontung/Screenbox
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+    tags:
+      - media-player
+      - uwp
+      - vlc
+      - lang:csharp
     summary: Lib VLC-based media player for the Universal Windows Platform
     last_synced_sha: 9765d878b795f07e84754728363ad7b889fd4f77
     user_starred_at: '2025-12-18T09:30:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -25010,15 +25098,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: BornToBeRoot/NETworkManager
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - dev-tools
+    tags:
+      - network-management
+      - troubleshooting
+      - ip-scanner
+      - lang:csharp
     summary: A powerful open-source tool for managing networks and troubleshooting network problems!
     last_synced_sha: c30a3cfbc0e00cc735d3280170b16785381eab25
     user_starred_at: '2025-12-18T09:30:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -25058,15 +25155,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: DayuanJiang/next-ai-draw-io
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - web-dev
+    tags:
+      - diagrams
+      - ai
+      - lang:ts
+      - nextjs
     summary: A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visual...
     last_synced_sha: 8b0beb68c098bda1d144cc0ca1df7721d2b3ce1e
     user_starred_at: '2025-12-18T09:28:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -25088,16 +25195,23 @@ repositories:
         published_at: '2026-03-07T13:39:08Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: microsoft/VibeVoice
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - voice-ai
+      - lang:python
     summary: Open-Source Frontier Voice AI
     last_synced_sha: 4c419978c96877acee1f290921dbb5e40f577bbd
     user_starred_at: '2025-12-18T09:27:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -25115,15 +25229,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: inclusionAI/AEnvironment
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - agent
+      - reinforcement-learning
+      - lang:python
     summary: Standardized environment infrastructure for Agentic AI development.
     last_synced_sha: d4d5996fea2cf7e0c9194c90a9120745d6b7d282
     user_starred_at: '2025-12-18T09:25:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -25150,6 +25272,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:33:06.318Z'
+      prompt_version: v3
   - repo: Azure/ALZ-Bicep
     categories:
       - cloud
