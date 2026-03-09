@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:49:04.696Z'
+  manifest_updated_at: '2026-03-09T04:49:38.845Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -9883,13 +9883,18 @@ repositories:
     framework: null
   - repo: shanraisshan/claude-code-best-practice
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - lang:html
+      - claude-ai
+      - best-practices
+      - agentic-engineering
     summary: practice made claude perfect
     last_synced_sha: e85ec16a01443b771be61654113597b92dba9d95
     user_starred_at: '2026-02-07T04:08:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -9912,15 +9917,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: microsoft/cascadia-code
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - lang:python
+      - programming-font
+      - ligatures
+      - coding-tools
     summary: This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.
     last_synced_sha: 56bcca3f2c1e4cb19458954f0e2bb4635960df91
     user_starred_at: '2026-02-07T02:50:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -9940,15 +9954,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: Dimillian/CodexMonitor
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - monitoring
+      - desktop-dev
+    tags:
+      - lang:ts
+      - codex
+      - tauri
+      - monitoring-tools
     summary: An app to monitor the (Codex) situation
     last_synced_sha: a70b91a37bb6d6eff49f5021ca20ae06623ac52e
     user_starred_at: '2026-02-06T23:19:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9973,15 +9997,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: mdp/qrterminal
     categories:
-      - unclassified
-    tags: []
+      - productivity
+    tags:
+      - lang:go
+      - qr-code
+      - terminal-tools
     summary: QR Codes in your terminal
     last_synced_sha: 4e76afd10340aac2b71923d765da2ad506870bbb
     user_starred_at: '2026-02-06T01:14:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -10001,15 +10032,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: mdp/linkedin-extension-fingerprinting
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - lang:js
+      - fingerprinting
+      - linkedin-tools
     summary: No description provided
     last_synced_sha: c039bfbaa45e6dc8cda3195476621cc7f6ef398d
     user_starred_at: '2026-02-06T01:14:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -10027,15 +10066,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: cathrynlavery/codex-skill
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:shell
+      - ai-tools
+      - codex
+      - plan-review
     summary: Give Claude Code a second opinion using Open AI Codex - automatic plan review via hooks
     last_synced_sha: 783735731cb013be1971c4a00164b03de7515189
     user_starred_at: '2026-02-06T01:13:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -10053,15 +10101,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: crazystylus/otadump
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - mobile-dev
+    tags:
+      - lang:rust
+      - android
+      - ota-files
+      - partition-extraction
     summary: Extract partitions from Android OTA files.
     last_synced_sha: 9aeaa2af9b35d86d5c1fa8eb2a22bf97ed74c9d8
     user_starred_at: '2026-02-05T07:17:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -10084,15 +10141,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: ajeetdsouza/zoxide
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - lang:rust
+      - command-line
+      - shell-tools
+      - autojump
+      - zsh
     summary: A smarter cd command. Supports all major shells.
     last_synced_sha: 61f19a60d91b7181bfdc88470e72bcd1befc7c6a
     user_starred_at: '2026-02-05T07:14:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -10132,15 +10199,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: reacherhq/check-if-email-exists
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+    tags:
+      - lang:rust
+      - email-verification
+      - validation-api
+      - email-tools
+      - backend
     summary: Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.
     last_synced_sha: 673a343af8a31085adb5a7fed00d0a145255362c
     user_starred_at: '2026-02-05T07:14:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -10167,15 +10244,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: XTLS/Xray-core
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+      - system-admin
+    tags:
+      - lang:go
+      - proxy
+      - tunnel
+      - shadowsocks
+      - network-tools
     summary: Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.
     last_synced_sha: acb06e831bb7bf0e4b8346c933a14cdaab305a0d
     user_starred_at: '2026-02-05T06:59:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -10215,15 +10303,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: keylase/nvidia-patch
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - lang:python
+      - nvidia
+      - video-encoding
+      - patch
+      - gpu
     summary: This patch removes restriction on maximum number of simultaneous NVENC video encoding sessions imposed by Nvidia to consumer-grade GPUs.
     last_synced_sha: 47c2959260a330f919981cb407659f0e2790dc8a
     user_starred_at: '2026-02-05T06:53:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -10241,15 +10339,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: pompelmi/pompelmi
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - lang:ts
+      - malware
+      - file-scanner
+      - nextjs
+      - cybersecurity
     summary: free, open-source file scanner
     last_synced_sha: 0a99a5f618a5dfaaa555d12c9402a2517a6e2911
     user_starred_at: '2026-02-05T06:28:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10285,16 +10393,27 @@ repositories:
         published_at: '2026-02-27T13:36:22Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: 0x4m4/hexstrike-ai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+      - automation
+    tags:
+      - ai-agents
+      - lang:python
+      - cybersecurity
+      - pentesting
+      - vulnerability-discovery
     summary: Hex Strike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug ...
     last_synced_sha: 83337796dcfb8cfbf733bd24d0b2c7e4f0732790
     user_starred_at: '2026-02-05T06:13:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -10332,15 +10451,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: D4Vinci/Scrapling
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - web-dev
+    tags:
+      - crawler
+      - lang:python
+      - scraping
+      - playwright
+      - web-scraper
     summary: 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!
     last_synced_sha: 19c21c17eee7cac104ca116c77dc40c15219f294
     user_starred_at: '2026-02-05T06:11:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -10380,15 +10509,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: yusufkaraaslan/Skill_Seekers
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - documentation
+    tags:
+      - ai-tools
+      - lang:python
+      - claude-ai
+      - documentation-generator
+      - web-scraping
     summary: Convert documentation websites, Git Hub repositories, and PDFs into Claude AI skills with automatic conflict detection
     last_synced_sha: 0ca271cdcb5cc3f99da501c457eb4d9813b9cfc0
     user_starred_at: '2026-02-05T06:10:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -10426,6 +10566,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:49:37.327Z'
+      prompt_version: v3
   - repo: udecode/plate
     categories:
       - ui-libraries
