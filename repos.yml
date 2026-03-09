@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:16:55.733Z'
+  manifest_updated_at: '2026-03-09T04:17:28.883Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -38758,13 +38758,19 @@ repositories:
     framework: null
   - repo: beefproject/beef
     categories:
-      - unclassified
-    tags: []
+      - security
+      - testing
+      - web-dev
+    tags:
+      - exploitation
+      - browser-framework
+      - lang:js
+      - security-testing
     summary: The Browser Exploitation Framework Project
     last_synced_sha: 997a2e0a9ed92f2c16bfe75e62238bb00fdc0f54
     user_starred_at: '2025-09-22T15:36:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -38784,15 +38790,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.329Z'
+      prompt_version: v3
   - repo: XTXMarkets/ternfs
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+      - cloud
+    tags:
+      - distributed-file-system
+      - lang:cpp
+      - multi-region
+      - exabyte-scale
     summary: An exabyte-scale, multi-region distributed file system
     last_synced_sha: 811bf30f696376911414f206c917a545e16a25c7
     user_starred_at: '2025-09-22T15:34:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -38812,15 +38828,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.329Z'
+      prompt_version: v3
   - repo: langchain-ai/social-media-agent
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - productivity
+    tags:
+      - social-media
+      - ai
+      - lang:ts
+      - content-curation
+      - scheduling
     summary: 📲 An agent for sourcing, curating, and scheduling social media posts with human-in-the-loop.
     last_synced_sha: cd9b62e4b12637f0fff374620e5a7cf28c1233e2
     user_starred_at: '2025-09-22T09:42:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -38838,15 +38865,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.329Z'
+      prompt_version: v3
   - repo: teableio/teable
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - productivity
+      - web-dev
+    tags:
+      - no-code
+      - postgresql
+      - lang:ts
+      - airtable-alternative
+      - realtime
     summary: '✨ The Next Gen Airtable Alternative: No-Code Postgres'
     last_synced_sha: 947573cde68291ddf2908c2513e4cb6c93300345
     user_starred_at: '2025-09-22T08:41:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38879,15 +38917,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.329Z'
+      prompt_version: v3
   - repo: home-assistant/frontend
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - automation
+      - ui-libraries
+    tags:
+      - home-automation
+      - frontend
+      - lang:ts
+      - lit-element
+      - webcomponents
     summary: ':lollipop: Frontend for Home Assistant'
     last_synced_sha: 3d0c7b6aab74cd93e5a1902cfcace8a8bb8b850a
     user_starred_at: '2025-09-22T08:41:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38914,15 +38963,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.329Z'
+      prompt_version: v3
   - repo: vercel/swr
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+      - productivity
+    tags:
+      - react
+      - data-fetching
+      - lang:ts
+      - hooks
+      - swr
     summary: React Hooks for Data Fetching
     last_synced_sha: 5fa29522f196db2ad9d2083193c3b63214256c19
     user_starred_at: '2025-09-22T08:40:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38954,16 +39014,27 @@ repositories:
         published_at: '2026-02-01T03:02:37Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.329Z'
+      prompt_version: v3
   - repo: Gregivy/simpleddp
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+      - web-dev
+    tags:
+      - ddp
+      - lang:js
+      - meteor
+      - reactive
+      - ddp-client
     summary: An easy to use DDP client library
     last_synced_sha: 4bd415ee52e4023787e401111d9be5ca788a333b
     user_starred_at: '2025-09-21T14:56:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -38992,15 +39063,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.329Z'
+      prompt_version: v3
   - repo: microsoft/ai-dev-gallery
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+      - desktop-dev
+    tags:
+      - ai
+      - windows
+      - lang:csharp
+      - winui3
+      - onnx
     summary: An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps.
     last_synced_sha: 0c1a74dfd78a77e4e9c0b6f171dcd6a021f88c69
     user_starred_at: '2025-09-21T03:09:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -39038,15 +39120,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.329Z'
+      prompt_version: v3
   - repo: microsoft/react-native-windows-samples
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ui-libraries
+      - productivity
+    tags:
+      - react-native
+      - windows
+      - macos
+      - lang:csharp
     summary: A repository showcasing React Native samples and templates for Windows, mac OS, and Surface Duo.
     last_synced_sha: 6d54e103cdca0a81a5cbd1d92c3672ddb0fb6463
     user_starred_at: '2025-09-20T22:30:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -39066,16 +39158,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.329Z'
+      prompt_version: v3
   - repo: rocksdanister/lively
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+      - productivity
+    tags:
+      - dynamic-wallpaper
+      - widgets
+      - animated-desktop
+      - lang:csharp
+      - winui3
     summary: Free and open-source software that allows users to set animated desktop wallpapers and screensavers powered by Win UI 3.
     last_synced_sha: 9d996c3c6e49c2502e2cb368cdc29ee286a63ce0
     user_starred_at: '2025-09-20T22:27:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -39115,15 +39218,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.329Z'
+      prompt_version: v3
   - repo: NileshGule/techtalks-azure-container-apps-demo
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+      - system-admin
+    tags:
+      - azure
+      - dapr
+      - keda
+      - powershell
+      - lang:powershell
     summary: A simple example to showcase Azure container apps capabilities using a Tech Talks demo with native integration for Dapr and KEDA
     last_synced_sha: 1c12b3c8f5d2c32bd81b423bc974582da31260ab
     user_starred_at: '2025-09-19T23:43:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -39151,15 +39265,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.329Z'
+      prompt_version: v3
   - repo: simstudioai/sim
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - deployment
+    tags:
+      - ai-agents
+      - lang:ts
+      - orchestration
+      - workflows
+      - nextjs
     summary: Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.
     last_synced_sha: 8c0a2e04b16eb2a81c1b39baea78aa881762fc85
     user_starred_at: '2025-09-17T09:02:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -39196,16 +39321,27 @@ repositories:
         published_at: '2026-03-07T05:14:35Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.329Z'
+      prompt_version: v3
   - repo: AIDC-AI/ComfyUI-Copilot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - ui-libraries
+    tags:
+      - ai
+      - comfy-ui
+      - lang:ts
+      - workflow-automation
+      - llm-agent
     summary: An AI-powered custom node for Comfy UI designed to enhance workflow automation and provide intelligent assistance
     last_synced_sha: 41b15d2d879ca92b0395df553d17b22b8cd6d9d3
     user_starred_at: '2025-09-17T09:02:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -39238,15 +39374,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.329Z'
+      prompt_version: v3
   - repo: bytebot-ai/bytebot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - containers
+    tags:
+      - ai-agent
+      - docker
+      - lang:ts
+      - llm
+      - automation
     summary: Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.
     last_synced_sha: 3d37894ce07ef8d8b40adc7fd309ad96c2a71313
     user_starred_at: '2025-09-17T09:02:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -39284,15 +39431,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.328Z'
+      prompt_version: v3
   - repo: EpicenterHQ/epicenter
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - databases
+      - ui-libraries
+    tags:
+      - local-first
+      - sqlite
+      - lang:ts
+      - svelte
+      - tailwindcss
     summary: Open-source, local-first apps that share a single folder of plain text and SQLite.
     last_synced_sha: 6d8cfeb52e2f582333e7fdea03e8531225090567
     user_starred_at: '2025-09-17T09:01:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -39315,7 +39473,11 @@ repositories:
         published_at: '2025-12-27T02:38:16Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: svelte
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:17:27.328Z'
+      prompt_version: v3
   - repo: ItzCrazyKns/Perplexica
     categories:
       - ai-ml
