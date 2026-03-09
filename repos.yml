@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:00:40.544Z'
+  manifest_updated_at: '2026-03-09T04:01:07.756Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -54094,13 +54094,18 @@ repositories:
     framework: null
   - repo: anderspitman/SirTunnel
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - self-hosted
+      - lang:python
+      - ngrok-alternative
+      - open-ssh
     summary: Minimal, self-hosted, 0-config alternative to ngrok. Caddy+Open SSH+50 lines of Python.
     last_synced_sha: 82aaf92ddecaab4c62d3c9468ae38d59bafd1cba
     user_starred_at: '2025-05-12T21:53:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -54118,15 +54123,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.250Z'
+      prompt_version: v3
   - repo: Vinzent03/obsidian-git
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - obsidian
+      - git
+      - lang:ts
+      - obsidian-plugin
     summary: Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md
     last_synced_sha: 2b95ce7639846a06ab372a26e4c8744e9c12220a
     user_starred_at: '2025-05-11T20:47:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -54150,15 +54164,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.250Z'
+      prompt_version: v3
   - repo: vrtmrz/obsidian-livesync
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - obsidian
+      - lang:ts
     summary: No description provided
     last_synced_sha: 9cf630320c0a59b2f9dfccb98cefe496f260d9f9
     user_starred_at: '2025-05-11T20:43:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -54178,15 +54199,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.250Z'
+      prompt_version: v3
   - repo: voideditor/void
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - editor
+      - cursor
+      - lang:ts
+      - developer-tools
+      - visual-studio-code
     summary: No description provided
     last_synced_sha: 17e7a5b1524345b19ab4ee38ec4f9b1b75a1bd00
     user_starred_at: '2025-05-11T20:02:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -54216,15 +54247,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.250Z'
+      prompt_version: v3
   - repo: AvaLovelace1/BrickGPT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - physically-based-ai
+      - toy-construction
+      - lang:python
     summary: Official repository for Brick GPT, the first approach for generating physically stable toy brick models from text prompts.
     last_synced_sha: 83ca526bd5ffa0371201dfe636716a0b74b3ee66
     user_starred_at: '2025-05-09T14:56:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -54242,15 +54281,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.250Z'
+      prompt_version: v3
   - repo: QiuYannnn/Local-File-Organizer
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - file-organizer
+      - lang:python
+      - on-device-ai
+      - llm
+      - vlm
     summary: An AI-powered file management tool that ensures privacy by organizing local texts, images. Using Llama3.2 3B and Llava v1.6 models with the Nexa SDK, it intuitively scans, restructures, and organiz...
     last_synced_sha: a19559942a35d98e9d2168fa58f288d9ea294bc6
     user_starred_at: '2025-05-08T05:04:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -54275,15 +54324,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.250Z'
+      prompt_version: v3
   - repo: JaredTherriault/Rope
     categories:
+      - ui-libraries
       - unclassified
-    tags: []
+    tags:
+      - lang:python
     summary: GUI-focused roop
     last_synced_sha: 0cc31535aef54e5768a3740e4e65d7c85e19a2cb
     user_starred_at: '2025-05-05T08:11:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -54302,15 +54357,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.250Z'
+      prompt_version: v3
   - repo: twbs/icons
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - icons
+      - bootstrap
+      - lang:ts
+      - svg
+      - sprite
     summary: Official open source SVG icon library for Bootstrap.
     last_synced_sha: abd23b9f75261e306990d8df6ad6f93d0051ff71
     user_starred_at: '2025-05-04T19:14:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -54337,15 +54402,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.249Z'
+      prompt_version: v3
   - repo: Klingefjord/ChatGPT-API-Python
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - chatgpt
+      - lang:python
     summary: Unofficial Chat GPT headless browser wrapper
     last_synced_sha: bb12f857a1acf1afc8c6c71c487fdd8f6abbd364
     user_starred_at: '2025-05-03T17:48:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -54363,15 +54435,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.249Z'
+      prompt_version: v3
   - repo: sim-codes/windows-phone-link-ui
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: a021a38526bc28baf5a63b4dba9fea6edf7d1196
     user_starred_at: '2025-05-02T23:31:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -54389,15 +54466,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.249Z'
+      prompt_version: v3
   - repo: aipotheosis-labs/aci
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - function-calling
+      - lang:python
+      - tools
+      - developer-tools
+      - ai-agents
     summary: ACI.dev is the open source tool-calling platform that hooks up 600+ tools into any agentic IDE or custom AI agent through direct function calling or a unified MCP server. The birthplace of Vibe Ops.
     last_synced_sha: 6e1e651f9ae91292bc2ff2472227ec7f79496045
     user_starred_at: '2025-05-02T17:18:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -54429,15 +54516,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.249Z'
+      prompt_version: v3
   - repo: langwatch/langwatch
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - monitoring
+    tags:
+      - llm
+      - evaluation
+      - lang:ts
+      - observability
+      - openai
     summary: The platform for LLM evaluations and AI agent testing
     last_synced_sha: af267ff3f08e8f554495eca685d6f3edd0eff484
     user_starred_at: '2025-05-02T14:36:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -54470,15 +54567,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.249Z'
+      prompt_version: v3
   - repo: ultrafunkamsterdam/undetected-chromedriver
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - testing
+    tags:
+      - selenium
+      - chromedriver
+      - lang:python
+      - anti-bot
+      - webdriver
     summary: Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / Cloud Flare IUAM)
     last_synced_sha: 757ed6a22052f0674bb7c9f765ca884d15dcb780
     user_starred_at: '2025-04-22T22:07:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -54513,15 +54620,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.249Z'
+      prompt_version: v3
   - repo: llm-workflow-engine/llm-workflow-engine
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - llm
+      - chatgpt
+      - lang:python
+      - chatbot
+      - workflow
     summary: Power CLI and Workflow manager for LLMs (core package)
     last_synced_sha: f74c5b9620fd6ac3687f25e7564ad7d4e67c0c57
     user_starred_at: '2025-04-22T21:42:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -54547,15 +54664,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.249Z'
+      prompt_version: v3
   - repo: camel-ai/camel
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - multi-agent-systems
+      - deep-learning
+      - lang:python
+      - large-language-models
+      - natural-language-processing
     summary: '🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org'
     last_synced_sha: 3dc8d3745f43caf8c8f7a6ea0807192265e359e0
     user_starred_at: '2025-04-22T20:56:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -54584,6 +54711,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:01:06.246Z'
+      prompt_version: v3
   - repo: novuhq/novu
     categories:
       - apis
