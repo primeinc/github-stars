@@ -1,15 +1,36 @@
 # Mobile-dev
 
-*5 repositories*
+*26 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [isaiahbjork/expo-kokoro-onnx](https://github.com/isaiahbjork/expo-kokoro-onnx) | Run Kokoro TTS locally on device using Expo & ONNX Runtime | `TypeScript` ★ 71 | 2025-05-08 |
-| [readest/readest](https://github.com/readest/readest) | Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience. | `TypeScript` ★ 18.5k | 2026-03-07 |
+| [readest/readest](https://github.com/readest/readest) | Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience. | `TypeScript` ★ 18.6k | 2026-03-08 |
 | [unoplatform/uno](https://github.com/unoplatform/uno) | Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow... | `C#` ★ 9.8k | 2026-03-08 |
 | [ruimarinho/google-libphonenumber](https://github.com/ruimarinho/google-libphonenumber) | The up-to-date and reliable Google's libphonenumber package for node.js. | `JavaScript` ★ 1.5k | 2026-02-25 |
-| [marshallrichards/ClawPhone](https://github.com/marshallrichards/ClawPhone) | Tweaks for running Open Claw on a Android smartphone | `Python` ★ 405 | 2026-02-07 |
+| [marshallrichards/ClawPhone](https://github.com/marshallrichards/ClawPhone) | Tweaks for running Open Claw on a Android smartphone | `Python` ★ 406 | 2026-02-07 |
+| [4xmen/anubias](https://github.com/4xmen/anubias) | Developed mobile apps so easy and native with GUI 📱 | `Vue` ★ 2.3k | 2025-01-19 |
+| [dev47apps/droidcam-obs-plugin](https://github.com/dev47apps/droidcam-obs-plugin) | Droid Cam OBS Source | `C++` ★ 663 | 2026-01-30 |
+| [seemoo-lab/AirGuard-iOS](https://github.com/seemoo-lab/AirGuard-iOS) | Protect yourself from being tracked 📍by Air Tags, Smart Tags, Chipolo, Google, and Tile Trackers | `Swift` ★ 94 | 2025-01-01 |
+| [deskbtm/nitmgpt](https://github.com/deskbtm/nitmgpt) | nitmgpt (Notification-in-the-middle GPT). Filter ads or spam notifications via Chat GPT. | `Dart` ★ 96 | 2024-08-30 |
+| [0xced/XCDYouTubeKit](https://github.com/0xced/XCDYouTubeKit) | You Tube video player for i OS, tv OS and mac OS | `Objective-C` ★ 2.9k | 2024-04-08 |
+| [dcordero/FocusTvButton](https://github.com/dcordero/FocusTvButton) | Light wrapper of UIButton that allows extra customization for tv OS | `Swift` ★ 77 | 2025-09-17 |
+| [opethrocks/text-assist](https://github.com/opethrocks/text-assist) | AI Assistant that can communicate via SMS and MMS. Leverages Open AI and a Telnyx SIP phone number. | `JavaScript` ★ 3 | 2025-09-28 |
+| [0perationPrivacy/VoIPSuite-Mobile](https://github.com/0perationPrivacy/VoIPSuite-Mobile) | Mobile App code for Android & i OS on React Native | `JavaScript` ★ 27 | 2023-12-07 |
+| [flutter/flutter](https://github.com/flutter/flutter) | Flutter makes it easy and fast to build beautiful apps for mobile and beyond | `Dart` ★ 175.5k | 2026-03-09 |
+| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | Fullstack app framework for web, desktop, and mobile. | `Rust` ★ 35.2k | 2026-03-02 |
+| [immich-app/immich](https://github.com/immich-app/immich) | High performance self-hosted photo and video management solution. | `TypeScript` ★ 94.3k | 2026-03-09 |
+| [lprichar/UwpMessageRelay](https://github.com/lprichar/UwpMessageRelay) | A sample UWP app demonstrating how to use App Service Connection to do interprocess communication | `C#` ★ 12 | 2017-01-03 |
+| [vincentbernat/dashkiosk](https://github.com/vincentbernat/dashkiosk) | Managing dashboards on various displays (especially those running on Android) | `JavaScript` ★ 371 | 2023-06-04 |
+| [500px/greedo-layout-for-android](https://github.com/500px/greedo-layout-for-android) | Full aspect ratio grid Layout Manager for Android's Recycler View | `Java` ★ 1.6k | 2022-06-21 |
+| [hitherejoe/Android-Boilerplate](https://github.com/hitherejoe/Android-Boilerplate) | Android Boilerplate project using Rx Java, Dagger 2, Espresso, Mockito + more! | `Java` ★ 1.9k | 2020-10-24 |
+| [moezbhatti/qksms](https://github.com/moezbhatti/qksms) | The most beautiful SMS messenger for Android | `Kotlin` ★ 4.6k | 2023-06-02 |
+| [swissonid/android-design-support-lib-sample](https://github.com/swissonid/android-design-support-lib-sample) | Just Sample how to use the android design support lib | `Java` ★ 811 | 2015-10-01 |
+| [ppamorim/Cult](https://github.com/ppamorim/Cult) | Toolbar is so boring | `Java` ★ 482 | 2016-03-25 |
+| [MikeOrtiz/TouchImageView](https://github.com/MikeOrtiz/TouchImageView) | Adds touch functionality to Android Image View. | `Kotlin` ★ 2.8k | 2026-03-05 |
+| [vladikoff/chromeos-apk](https://github.com/vladikoff/chromeos-apk) | ☢️ Run Android Apps in Chrome OS OR Chrome in OS X, Linux and Windows. | `JavaScript` ★ 7.9k | 2023-07-13 |
+| [neurodroid/cryptonite](https://github.com/neurodroid/cryptonite) | Enc FS and True Crypt on Android | `C` ★ 207 | 2019-06-24 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

@@ -1,10 +1,16 @@
 # Tag: encryption
 
-*2 repositories*
+*8 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [shaka-project/shaka-packager](https://github.com/shaka-project/shaka-packager) | A media packaging and development framework for VOD and Live DASH and HLS applications, supporting Common Encryption for Widevine and other DRM Systems. | `C++` ★ 2.4k | 2026-03-07 |
+| [ljanyst/peroxide](https://github.com/ljanyst/peroxide) | A third-party Proton Mail bridge serving SMTP and IMAP | `Go` ★ 63 | 2023-01-27 |
+| [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | Cryptomator for Windows, mac OS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data. | `Java` ★ 14.7k | 2026-03-08 |
+| [netheril96/securefs](https://github.com/netheril96/securefs) | Filesystem in userspace (FUSE) with transparent authenticated encryption | `C++` ★ 811 | 2026-01-09 |
+| [neurodroid/cryptonite](https://github.com/neurodroid/cryptonite) | Enc FS and True Crypt on Android | `C` ★ 207 | 2019-06-24 |
+| [defuse/php-encryption](https://github.com/defuse/php-encryption) | Simple Encryption in PHP. | `PHP` ★ 3.9k | 2024-01-02 |
+| [FreeApophis/TrueCrypt](https://github.com/FreeApophis/TrueCrypt) | This repository applies all Versions of the Original True Crypt Source Files in order | `C` ★ 853 | 2015-08-31 |
 | [bitwiseshiftleft/sjcl](https://github.com/bitwiseshiftleft/sjcl) | \[DEPRECATED\] Stanford Javascript Crypto Library | `JavaScript` ★ 7.2k | 2026-01-08 |
