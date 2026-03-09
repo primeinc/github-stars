@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:21:52.178Z'
+  manifest_updated_at: '2026-03-09T04:22:26.279Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -34258,13 +34258,18 @@ repositories:
     framework: null
   - repo: shiyu-coder/Kronos
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - foundation-model
+      - financial-markets
+      - lang:python
+      - ml-development
     summary: 'Kronos: A Foundation Model for the Language of Financial Markets'
     last_synced_sha: d5ffd46ab061af1146ea415e4ce86d24b5231b01
     user_starred_at: '2025-10-17T18:30:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -34282,15 +34287,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.861Z'
+      prompt_version: v3
   - repo: PaddlePaddle/PaddleOCR
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ocr
+      - document-parsing
+      - lang:python
+      - document-translation
+      - ai4science
+      - pdf-extraction
     summary: Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.
     last_synced_sha: acfd89b12602ba9009eb6620a8a9353c6d71bef0
     user_starred_at: '2025-10-17T18:30:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -34323,15 +34339,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.861Z'
+      prompt_version: v3
   - repo: lfnovo/open-notebook
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - note-taking
+      - self-learning
+      - lang:ts
+      - assistant
+      - notes-app
+      - flexibility
     summary: An Open Source implementation of Notebook LM with more flexibility and features
     last_synced_sha: 7910f683f69a48c8ab44dcf027663550eb4e3b5a
     user_starred_at: '2025-10-17T18:29:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34357,15 +34384,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.860Z'
+      prompt_version: v3
   - repo: Orange-Cyberdefense/GOAD
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - active-directory
+      - pentest
+      - lang:powershell
+      - terraform
+      - ansible
+      - infrastructure
     summary: game of active directory
     last_synced_sha: 9606647a47a0792ef9240edc568d9858e415a8f3
     user_starred_at: '2025-10-17T18:28:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -34389,15 +34427,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.860Z'
+      prompt_version: v3
   - repo: bibigon812/xl710-unlocker
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - intel-xl710
+      - lang:c
+      - sfp-unlock
+      - hardware
     summary: Unlock Intel XL710 / X710 cards for use with any SFP+
     last_synced_sha: 3d3a24b8cc5e693a12ef7ea01ba1644a27430cd1
     user_starred_at: '2025-10-17T06:51:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C
@@ -34416,15 +34463,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.860Z'
+      prompt_version: v3
   - repo: Mellanox/mstflint
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - embedded
+    tags:
+      - firmware-tools
+      - mstflint
+      - lang:c
+      - device-management
     summary: Mstflint - an open source version of MFT (Mellanox Firmware Tools)
     last_synced_sha: e8212fff936378a4b56d85e88ad5e0b75bd57c7f
     user_starred_at: '2025-10-17T06:32:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -34444,15 +34500,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.860Z'
+      prompt_version: v3
   - repo: documentdb/documentdb
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - cloud
+    tags:
+      - mongo-compatible
+      - scalability
+      - lang:c
+      - developer-productivity
+      - cloud-native
     summary: Mongo DB-compatible database engine for cloud-native and open-source workloads. Built for scalability, performance, and developer productivity.
     last_synced_sha: feddfb37f449e95248b1edd000227dd9ffc73fa6
     user_starred_at: '2025-10-17T05:52:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -34470,15 +34536,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.860Z'
+      prompt_version: v3
   - repo: microsoft/vscode-documentdb
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - databases
+    tags:
+      - documentdb
+      - vscode-extension
+      - lang:ts
+      - database-tooling
+      - cloud-support
     summary: Document DB Extension for VS Code
     last_synced_sha: 6fbdc7cf330e7341a8fa9ee53124c3457a49bb7e
     user_starred_at: '2025-10-17T05:51:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -34498,15 +34574,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.860Z'
+      prompt_version: v3
   - repo: anthropics/skills
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - agent-skills
+      - lang:python
+      - skill-management
+      - ai
     summary: Public repository for Agent Skills
     last_synced_sha: b0cbd3df1533b396d281a6886d5132f623393a9c
     user_starred_at: '2025-10-17T03:01:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -34525,15 +34610,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.860Z'
+      prompt_version: v3
   - repo: pnp/provision-assist-m365
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - system-admin
+    tags:
+      - provisioning
+      - microsoft365
+      - lang:powershell
+      - azureautomation
+      - copilot
+      - logic-apps
     summary: Provision Assist is a request and provisioning solution for Teams, Groups, SPO Sites and Viva Engage Communities in Microsoft 365. It can be used as part of a Copilot for Microsoft 365 deployment.
     last_synced_sha: 1c49746a35be0b8a938c8abc0eb611d188367029
     user_starred_at: '2025-10-11T12:34:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -34564,15 +34660,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.860Z'
+      prompt_version: v3
   - repo: microsoftgraph/microsoft-graph-devx-content
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+    tags:
+      - devxeng
+      - lang:js
+      - content-enhancement
+      - tooling-support
     summary: Content used by the Dev X API to enhance clients and tooling.
     last_synced_sha: 31d739332fe6ec9ca1fd70542850c7e5f06a4533
     user_starred_at: '2025-10-10T07:02:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -34591,15 +34696,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.860Z'
+      prompt_version: v3
   - repo: vadimdemedes/ink
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - react
+      - cli
+      - interactive
+      - command-line
+      - flexbox
+      - lang:ts
     summary: 🌈 React for interactive command-line apps
     last_synced_sha: 77431f739ad7467489acde11b5396fe10200129b
     user_starred_at: '2025-10-09T22:46:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34624,16 +34740,27 @@ repositories:
         published_at: '2026-02-19T07:03:48Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.860Z'
+      prompt_version: v3
   - repo: tellerops/teller
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - secret-management
+      - vault
+      - lang:rust
+      - cloud
+      - automation
+      - cli
     summary: Cloud native secrets management for developers - never leave your command line for secrets.
     last_synced_sha: bee4b3f0d0be572c62614a33f3d764064b52c5b4
     user_starred_at: '2025-10-08T11:44:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -34660,15 +34787,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.860Z'
+      prompt_version: v3
   - repo: dotenvx/dotenvx
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - secret-management
+      - dotenv
+      - cli
+      - lang:js
+      - end-to-end-encryption
     summary: a secure dotenv–from the creator of `dotenv`
     last_synced_sha: ba8d8131af08703754cb4635f904e28070d51804
     user_starred_at: '2025-10-08T11:03:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -34703,15 +34840,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.860Z'
+      prompt_version: v3
   - repo: getsops/sops
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - secret-management
+      - lang:go
+      - cloud
+      - gcp
+      - aws
+      - azure
     summary: Simple and flexible tool for managing secrets
     last_synced_sha: ecb67d215c3a53488683b6d42343dfc101b30421
     user_starred_at: '2025-10-08T11:01:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -34740,6 +34888,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:22:24.860Z'
+      prompt_version: v3
   - repo: davila7/claude-code-templates
     categories:
       - ai-ml
