@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:06:59.476Z'
+  manifest_updated_at: '2026-03-09T04:07:27.320Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -48108,13 +48108,19 @@ repositories:
     framework: null
   - repo: localsend/localsend
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - networking
+      - productivity
+    tags:
+      - file-sharing
+      - cross-platform
+      - flutter
+      - lang:dart
     summary: An open-source cross-platform alternative to Air Drop
     last_synced_sha: 3ec2d77875fc31dab21548ae4966ca693e8b2733
     user_starred_at: '2025-07-13T12:33:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -48138,15 +48144,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.671Z'
+      prompt_version: v3
   - repo: bluewave-labs/Checkmate
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+    tags:
+      - uptime-monitoring
+      - incident-tracking
+      - lang:ts
     summary: Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join her...
     last_synced_sha: ff1d473b813372faeca59d6149821e07664d57eb
     user_starred_at: '2025-07-13T12:30:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48186,15 +48200,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.671Z'
+      prompt_version: v3
   - repo: garethcheyne/PCF-FluentUi-AutoComplete-Boilerplate
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - autocomplete
+      - pcf
+      - lang:ts
     summary: No description provided
     last_synced_sha: 539982e36d483b31096548bcee1428b11f464a73
     user_starred_at: '2025-07-13T12:23:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -48212,15 +48234,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.671Z'
+      prompt_version: v3
   - repo: tj/commander.js
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - cli-tools
+      - nodejs
+      - lang:js
     summary: node.js command-line interfaces made easy
     last_synced_sha: 8247364da749736570161e95682b07fc2d72497b
     user_starred_at: '2025-07-12T08:14:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -48240,15 +48270,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.671Z'
+      prompt_version: v3
   - repo: qualialabs/mapped-collection
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - memory-mapped-database
+      - mongo
+      - lang:js
     summary: Memory-mapped Mongo collections in Meteor
     last_synced_sha: 4d2ee6355e0d9e36645707b21e5554dd7b0f5a09
     user_starred_at: '2025-07-12T08:05:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -48266,15 +48304,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.671Z'
+      prompt_version: v3
   - repo: meteor/blaze
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - live-updating-ui
+      - meteor-framework
+      - lang:js
     summary: ':fire: Meteor Blaze is a powerful library for creating live-updating user interfaces'
     last_synced_sha: da16df143fc33a6f2903a6649b98c62a1d20b2e7
     user_starred_at: '2025-07-12T08:03:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -48299,15 +48345,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.670Z'
+      prompt_version: v3
   - repo: pangaea-data-publisher/qualianon
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - data-anonymization
+      - qualitative-research
+      - lang:java
     summary: Quali Anon is a tool to support the anonymization of text data. It is developed by the Qualiservice research data center for the anonymization of interviews in the qualitative social sciences for a...
     last_synced_sha: 492f562885f97358074a9a167dd793903564eb5c
     user_starred_at: '2025-07-12T06:13:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -48329,15 +48383,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.670Z'
+      prompt_version: v3
   - repo: coffeeAndCodeMSO/mort_comp
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - mortgage-comparison
+      - lang:js
     summary: Compare two mortgages to see which is a better deal. Typically a 15 year versus a 30 year mortgage.
     last_synced_sha: 1a1c6ce1a09271910e74264533158cf872a31656
     user_starred_at: '2025-07-12T06:10:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -48355,15 +48416,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.670Z'
+      prompt_version: v3
   - repo: cfpb/hmda-tools
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - data-analysis
+      - mortgage-application
+      - lang:python
     summary: Tools to make importing and analyzing mortgage application data easier. This is a public domain work of the US Government.
     last_synced_sha: 571f1ac67158d7e89c76346b646e741b3efe82b0
     user_starred_at: '2025-07-12T06:04:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -48381,15 +48450,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.670Z'
+      prompt_version: v3
   - repo: jbmohler/mortgage
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - mortgage-calculations
+      - financial-tools
+      - lang:python
     summary: Python mortgage amortization calculations
     last_synced_sha: e4ecef1eeeceebfc51f3421f077727e5abefee17
     user_starred_at: '2025-07-12T06:01:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -48407,15 +48484,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.670Z'
+      prompt_version: v3
   - repo: qbcore-framework/qb-housing
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - apis
+    tags:
+      - housing-system
+      - qbcore
+      - fivem
     summary: The next iteration of QBCore’s housing system
     last_synced_sha: 8599a518459c68729d05fea391578aa13a7b6b5f
     user_starred_at: '2025-07-12T05:58:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -48433,15 +48518,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.670Z'
+      prompt_version: v3
   - repo: bibek376/Housing_Price_Prediction
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - machine-learning
+      - housing-price-prediction
+      - lang:jupyter-notebook
     summary: No description provided
     last_synced_sha: 731b9875c0ba8b3f0459ee1455622f7a7f1cf6c4
     user_starred_at: '2025-07-12T05:57:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -48466,15 +48559,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.670Z'
+      prompt_version: v3
   - repo: Vidito/webscraping_housing
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+    tags:
+      - web-scraping
+      - csv-generation
+      - lang:python
     summary: Using Beautiful Soup to scrape a real estate agency website and generaate a CSV file based on the findings.
     last_synced_sha: 7b21382d500ae93ed4a0e467472b943980237783
     user_starred_at: '2025-07-12T05:57:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -48492,15 +48593,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.670Z'
+      prompt_version: v3
   - repo: borisnliscool/bnl-housing
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - apis
+    tags:
+      - fivem
+      - housing
+      - api
+      - lang:lua
     summary: 🏠 An open-source Five M player property script with extensive API for ultimate customization
     last_synced_sha: eaf4568c150392681f604bf805ad17c21d55d0dd
     user_starred_at: '2025-07-12T05:56:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Lua
@@ -48523,15 +48633,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.670Z'
+      prompt_version: v3
   - repo: rodrigouroz/housing_scrapper
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - web-dev
+    tags:
+      - web-scraping
+      - housing-data
+      - lang:python
     summary: A script to scrap housing listings sites
     last_synced_sha: 99628c2dd5ea80ee8dc328fc36b8d0c4d3889b42
     user_starred_at: '2025-07-12T05:56:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -48549,6 +48667,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:07:25.669Z'
+      prompt_version: v3
   - repo: laurenshareshian/home_price_estimator
     categories:
       - ai-ml
