@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:50:42.775Z'
+  manifest_updated_at: '2026-03-09T04:51:08.699Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -8825,13 +8825,19 @@ repositories:
       prompt_version: v3
   - repo: pyupio/safety
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+      - dev-tools
+    tags:
+      - vulnerability-scanners
+      - dependency-management
+      - devsecops
+      - lang:python
     summary: Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected.
     last_synced_sha: 29b0bb52b41e1212d4143c51ca76390593ce3f29
     user_starred_at: '2026-03-07T04:09:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8862,6 +8868,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:51:07.057Z'
+      prompt_version: v3
   - repo: postgres-ai/database-lab-engine
     categories:
       - databases
@@ -102036,13 +102046,17 @@ repositories:
       prompt_version: v3
   - repo: microsoft/vscode-extension-samples
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - extensions
+      - vscode
+      - lang:ts
     summary: Sample code illustrating the VS Code extension API.
     last_synced_sha: 61fda64ede073136f3716f69b067d212ef0893e1
     user_starred_at: '2026-03-08T16:28:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -102060,3 +102074,7 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:51:07.057Z'
+      prompt_version: v3
