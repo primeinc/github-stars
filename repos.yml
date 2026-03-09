@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:42:58.924Z'
+  manifest_updated_at: '2026-03-09T04:43:33.955Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -15045,13 +15045,19 @@ repositories:
     framework: null
   - repo: kubernetes-sigs/headlamp
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - ui-libraries
+    tags:
+      - k8s
+      - kubernetes-ui
+      - dashboard
+      - lang:ts
+      - cloud-native
     summary: A Kubernetes web UI that is fully-featured, user-friendly and extensible
     last_synced_sha: fd27e12b860f84ad31bd6bbb233fb4cf2ae8c938
     user_starred_at: '2026-01-24T09:10:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -15085,15 +15091,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.337Z'
+      prompt_version: v3
   - repo: mickael-kerjean/filestash
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - file-management
+      - sftp
+      - ftp
+      - archiving
+      - lang:js
     summary: ':file_folder: File Management Platform / Universal Data Access Layer (without FUSE)'
     last_synced_sha: c2ffbb65aaa2ec97a3654582672f53cf16f4ab59
     user_starred_at: '2026-01-24T09:10:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -15130,15 +15146,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.337Z'
+      prompt_version: v3
   - repo: lovell/sharp
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - image-processing
+      - nodejs
+      - high-performance
+      - lang:js
+      - resizing
     summary: High performance Node.js image processing, the fastest module to resize JPEG, PNG, Web P, AVIF and TIFF images. Uses the libvips library.
     last_synced_sha: 7b4c4762432b14c62676e860c8034b5cd326f464
     user_starred_at: '2026-01-24T09:09:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -15175,15 +15201,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.337Z'
+      prompt_version: v3
   - repo: steveyegge/beads
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - ai-ml
+    tags:
+      - agents
+      - memory-upgrade
+      - lang:go
+      - coding-enhancements
     summary: Beads - A memory upgrade for your coding agent
     last_synced_sha: 14df21b6296c0d7501376e79716d944d0d8995c9
     user_starred_at: '2026-01-24T09:05:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -15206,15 +15241,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.337Z'
+      prompt_version: v3
   - repo: permissionlesstech/bitchat
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - mobile-dev
+    tags:
+      - mesh-chat
+      - bluetooth
+      - lang:swift
+      - chat
     summary: bluetooth mesh chat, IRC vibes
     last_synced_sha: 02b2a006c5b10013332d6f19f80f118e55ed149b
     user_starred_at: '2026-01-24T09:04:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics: []
@@ -15234,15 +15278,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.337Z'
+      prompt_version: v3
   - repo: iOfficeAI/AionUi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai
+      - chatbot
+      - lang:ts
+      - llm
+      - gemini
     summary: Free, local, open-source 24/7 Cowork app and Open Claw for Gemini CLI, Claude Code, Codex, Open Code, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!
     last_synced_sha: 0d6e6dff8043b7898d0198ca3bd07eb2031ee675
     user_starred_at: '2026-01-24T09:04:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -15281,15 +15335,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.337Z'
+      prompt_version: v3
   - repo: remotion-dev/remotion
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+    tags:
+      - video
+      - react
+      - video-programming
+      - lang:ts
     summary: 🎥 Make videos programmatically with React
     last_synced_sha: 0e3925a2194100bde188711e48dd686a30b35466
     user_starred_at: '2026-01-24T09:04:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -15311,16 +15373,24 @@ repositories:
         published_at: '2026-03-05T15:09:32Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.337Z'
+      prompt_version: v3
   - repo: z-lab/dflash
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - speculative-decoding
+      - lang:python
+      - diffusion
     summary: 'DFlash: Block Diffusion for Flash Speculative Decoding'
     last_synced_sha: bf6f7c62ce0736147c5783ff7e44d2460e55e9ee
     user_starred_at: '2026-01-24T09:01:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -15338,15 +15408,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.337Z'
+      prompt_version: v3
   - repo: CloudAI-X/threejs-skills
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - threejs
+      - visualization
     summary: No description provided
     last_synced_sha: b1c623076c661fc9b03dac19292e825a5d106823
     user_starred_at: '2026-01-23T23:33:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -15364,15 +15441,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.337Z'
+      prompt_version: v3
   - repo: microsoft/Agent365-Samples
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - examples
+      - lang:python
+      - agent
     summary: No description provided
     last_synced_sha: 08338c4ad7ef76ceb5d32f8e4ab1610a09fafd52
     user_starred_at: '2026-01-23T08:23:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -15390,15 +15475,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.337Z'
+      prompt_version: v3
   - repo: nibzard/FocusHighlighter
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - focus-tool
+      - lang:ts
     summary: No description provided
     last_synced_sha: fb7d7dd97b6d4850a1b53199ada540361d17d58d
     user_starred_at: '2026-01-23T03:42:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -15416,15 +15508,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.337Z'
+      prompt_version: v3
   - repo: coreyhaines31/marketingskills
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - productivity
+    tags:
+      - marketing
+      - seo
+      - cro
+      - lang:js
+      - analytics
     summary: Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
     last_synced_sha: 2f5db8d95cff07fcc67d6f2be7fb0a677bf897e6
     user_starred_at: '2026-01-23T03:39:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -15447,15 +15549,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.337Z'
+      prompt_version: v3
   - repo: virattt/dexter
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - autonomous-agent
+      - financial-research
+      - lang:ts
+      - ai
+      - research
     summary: An autonomous agent for deep financial research
     last_synced_sha: 2f5ef63ee41281f7aa264e1f68abc6c2c81bf65a
     user_starred_at: '2026-01-23T03:38:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -15475,15 +15587,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.337Z'
+      prompt_version: v3
   - repo: rkyv/rkyv
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - frameworks
+    tags:
+      - zero-copy
+      - serialization
+      - lang:rust
+      - high-performance
     summary: Zero-copy deserialization framework for Rust
     last_synced_sha: 985b0230a0b9cb9fce4a4ee9facb6af148e27c8e
     user_starred_at: '2026-01-23T03:38:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -15506,15 +15627,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.337Z'
+      prompt_version: v3
   - repo: nwg-piotr/nwg-displays
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - output-management
+      - sway
+      - lang:python
+      - hyprland
+      - displays
     summary: Output management utility for sway and Hyprland.
     last_synced_sha: cf16e2da5b0bfba901b1155e5f3c531b13a2bdd1
     user_starred_at: '2026-01-23T03:38:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -15540,6 +15671,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:43:32.336Z'
+      prompt_version: v3
   - repo: junaid-mahmood/nlsh
     categories:
       - automation
