@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:49:38.845Z'
+  manifest_updated_at: '2026-03-09T04:50:10.208Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -9360,13 +9360,19 @@ repositories:
     framework: null
   - repo: KeygraphHQ/shannon
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - pentesting
+      - ai-pentester
+      - security-tools
+      - lang:ts
+      - api
     summary: Shannon Lite is a fully autonomous AI pentester for web apps and APIs. 96.15% (100/104 exploits) on a hint-free, source-aware variant of the XBOW benchmark.
     last_synced_sha: 17df89a48f342d371cfae9c231a097ddee601201
     user_starred_at: '2026-02-08T13:53:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9389,15 +9395,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.711Z'
+      prompt_version: v3
   - repo: bvaughn/react-resizable-panels
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react
+      - layout
+      - resizable-panels
+      - lang:ts
+      - panel
     summary: No description provided
     last_synced_sha: 55e538a8b800c3bd4a8609a5c23cbf99a3214c5d
     user_starred_at: '2026-02-08T13:51:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9421,16 +9437,26 @@ repositories:
         published_at: '2026-03-07T23:34:35Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.711Z'
+      prompt_version: v3
   - repo: ExperienceLovelace/ha-floorplan
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - automation
+    tags:
+      - homeassistant
+      - floorplan
+      - panels
+      - lang:ts
+      - lovelace
     summary: Bring new life to Home Assistant. By mapping entities to a SVG-object, you're able to control devices, show states, calling services - and much more. Add custom styling on top, to visualize whateve...
     last_synced_sha: 7f3d9d3a7dcec2a00b0448e213d8c2fd31b648c7
     user_starred_at: '2026-02-08T13:50:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9455,15 +9481,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.711Z'
+      prompt_version: v3
   - repo: mathuo/dockview
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - docking-layout
+      - lang:ts
+      - layout-manager
+      - drag-and-drop
+      - react
     summary: Zero dependency docking layout manager supporting tabs, groups, grids and splitviews. Supports React, Vue, Angular, and vanilla Type Script.
     last_synced_sha: ef6a232f5667e2954c6cf5766d3a27e57140d390
     user_starred_at: '2026-02-08T13:48:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9503,15 +9539,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.711Z'
+      prompt_version: v3
   - repo: Safe3/openresty-manager
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - security
+    tags:
+      - nginx
+      - openresty
+      - control-panel
+      - lang:go
+      - self-hosted
     summary: Modern, secure, and elegant server control panel, alternative to Open Resty Edge and Nginx Proxy Manager.
     last_synced_sha: ff3589849c41a5ee9d8ba13b8857d57602dcd8d8
     user_starred_at: '2026-02-08T13:46:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -9551,15 +9597,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.711Z'
+      prompt_version: v3
   - repo: 1Panel-dev/1Panel
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cloud
+    tags:
+      - docker
+      - linux-management
+      - vps-control
+      - lang:go
+      - 1panel
     summary: 🔥 Take full control of your VPS with 1Panel. Deploy Open Claw in one click.
     last_synced_sha: d4394616afa70629343d84fbf3cc53bb238f54ef
     user_starred_at: '2026-02-08T13:42:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -9591,15 +9647,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.711Z'
+      prompt_version: v3
   - repo: cathrynlavery/wispr-flow-recap
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - voice-dictation
+      - lang:js
+      - activity-recap
+      - user-interface
     summary: Beautiful activity recaps for Wispr Flow voice dictation
     last_synced_sha: 028119fc82aed7bfc2790aaa5951039b159ab491
     user_starred_at: '2026-02-08T13:37:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -9617,15 +9682,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.711Z'
+      prompt_version: v3
   - repo: dkhamsing/open-source-ios-apps
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - documentation
+    tags:
+      - ios
+      - swift
+      - objective-c
+      - react-native
+      - awesome-list
     summary: ':iphone: Collaborative List of Open-Source i OS Apps'
     last_synced_sha: 81c3dd3d222b92ba8262859d0f6f435751d103c2
     user_starred_at: '2026-02-08T13:16:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -9665,15 +9740,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.711Z'
+      prompt_version: v3
   - repo: microsoft/rushstack
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - monorepo
+      - build-tools
+      - toolchain
+      - lang:ts
+      - nodejs
     summary: Monorepo for tools developed by the Rush Stack community
     last_synced_sha: e35bece4e15a21bbf320b213fbb37866ae469a90
     user_starred_at: '2026-02-08T09:48:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9707,15 +9792,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.711Z'
+      prompt_version: v3
   - repo: 11happy/cpx
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - file-management
+      - cli-tools
+      - lang:rust
+      - utility
     summary: cp reimagined
     last_synced_sha: 6ddb32272bf63739663b111ae9ee6c558157724f
     user_starred_at: '2026-02-08T08:15:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -9735,15 +9829,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.711Z'
+      prompt_version: v3
   - repo: zellij-org/zellij
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - terminal
+      - workspace
+      - multiplexer
+      - lang:rust
     summary: A terminal workspace with batteries included
     last_synced_sha: a8d99b64a3fe73284b0954da7daabf04da1c432d
     user_starred_at: '2026-02-08T08:12:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -9766,15 +9869,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.711Z'
+      prompt_version: v3
   - repo: Azure-Samples/azure-typescript-e2e-apps
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - deployment
+    tags:
+      - azure
+      - cloud-services
+      - deployment
+      - e2e
+      - lang:ts
     summary: Monorepo - Apps written in Type Script to be either 1) deployed to Azure hosting or 2) integrated with Azure services
     last_synced_sha: e3b9c39fbb85c6cc3eeef8702ec9607163f88919
     user_starred_at: '2026-02-08T03:04:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -9792,15 +9905,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.711Z'
+      prompt_version: v3
   - repo: microsoft/zerotrustassessment
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - zero-trust
+      - security
+      - assessment
+      - lang:html
     summary: Repository for the Zero Trust Assessment project
     last_synced_sha: 8d3f87a841569c737fc238fc8b2c3d6e7f566130
     user_starred_at: '2026-02-08T03:01:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -9820,15 +9942,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.711Z'
+      prompt_version: v3
   - repo: openclaw/skills
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - backup
+      - archive
+      - skill
+      - lang:python
+      - clawhub
     summary: All versions of all skills that are on clawhub.com archived
     last_synced_sha: 347e83e0e119307c199b158724170582ca0f69f2
     user_starred_at: '2026-02-08T02:56:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -9851,15 +9983,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.711Z'
+      prompt_version: v3
   - repo: kodepandai/awesome-gh-cli-extensions
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - github-extension
+      - awesome-list
+      - lang:html
+      - cli
+      - hacktoberfest
     summary: Awesome list of github cli extensions.
     last_synced_sha: b822213c6845af178b689ca738a0e008f65c12a7
     user_starred_at: '2026-02-07T06:46:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -9881,6 +10023,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:50:08.710Z'
+      prompt_version: v3
   - repo: shanraisshan/claude-code-best-practice
     categories:
       - learning
