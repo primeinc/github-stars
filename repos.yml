@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:45:43.639Z'
+  manifest_updated_at: '2026-03-09T04:46:18.832Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -12949,13 +12949,19 @@ repositories:
     framework: null
   - repo: sdorra/content-collections
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - content-management
+      - json
+      - markdown
+      - lang:ts
+      - nextjs
     summary: Transform your content into type-safe data collections
     last_synced_sha: f620c8ef0edfc06e4dab274ac13c22a2aa076db1
     user_starred_at: '2026-01-28T03:06:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -12987,16 +12993,25 @@ repositories:
         published_at: '2026-03-02T20:40:05Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: Simon-He95/markdown-it-ts
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - markdown
+      - type-safe
+      - parser
+      - lang:ts
     summary: 'A modern, type-safe rewrite of markdown-it in Type Script: pluggable rules, split parse/render, Common Mark-compatible; fast one-shot parsing and even faster streaming/incremental updates.'
     last_synced_sha: 1a938c4b894152d9f83fee59fe20c14ea54309d8
     user_starred_at: '2026-01-28T02:42:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -13018,15 +13033,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: markdown-it/markdown-it
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - markdown
+      - parser
+      - commonmark
+      - lang:js
     summary: Markdown parser, done right. 100% Common Mark support, extensions, syntax plugins & high speed
     last_synced_sha: b4a9b659ef5734223731cfaa3ad5eacc6fc22918
     user_starred_at: '2026-01-28T02:36:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -13047,15 +13071,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: get-convex/convex-saas
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - databases
+    tags:
+      - saas
+      - backend
+      - starter-kit
+      - lang:ts
     summary: A production-ready Convex Stack for your next Saa S application with Convex Auth, Stripe, Tan Stack, Resend, Tailwindcss, and shadcn.
     last_synced_sha: 21cb165c7162b737a98b0f9ecf53b04ba191880b
     user_starred_at: '2026-01-28T02:03:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -13081,15 +13114,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: cyanheads/clinicaltrialsgov-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - clinical-trials
+      - ai-agent
+      - healthcare
+      - lang:ts
     summary: MCP server for the Clinical Trials.gov v2 API. Allow LLMs to search trials, retrieve study details, compare studies, analyze trends, and match patients to eligible trials.
     last_synced_sha: ad3f093dbd588e8886f0afff5a741daec5c31353
     user_starred_at: '2026-01-28T01:18:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -13122,15 +13164,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: Klavis-AI/klavis
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - ai-agents
+      - api-integration
+      - automation
+      - lang:python
     summary: 'Klavis AI (YC X25): MCP integration platforms that let AI agents use tools reliably at any scale'
     last_synced_sha: 9b86de743cc27e05dfa788d2521c8ca51bb1d5ef
     user_starred_at: '2026-01-28T01:17:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -13164,15 +13215,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: yoheinakajima/babyagi
     categories:
+      - ai-ml
       - unclassified
-    tags: []
+    tags:
+      - ai
+      - automation
+      - lang:python
     summary: No description provided
     last_synced_sha: fa8930ebe72a82e5ad57b356e7cbec96290e5bb2
     user_starred_at: '2026-01-27T17:50:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -13190,15 +13249,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: davis7dotsh/better-context
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - ai
+      - development-tools
+      - context-analysis
+      - lang:ts
     summary: A better way to get up to date context on libraries/technologies in your projects
     last_synced_sha: b8d9cce9d6d4edd05d0d43959f4bccf998894514
     user_starred_at: '2026-01-27T16:27:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -13219,15 +13287,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: slopus/murmur
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - encrypted-messaging
+      - lang:ts
+      - openclaw
     summary: Encrypted Messaging for Open Claw
     last_synced_sha: f967687d996ad367312b7bfb9d46dfced3b402c9
     user_starred_at: '2026-01-27T14:04:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -13245,15 +13321,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: pimalaya/ortie
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - security
+    tags:
+      - oauth
+      - token-management
+      - cli
+      - lang:rust
     summary: CLI to manage OAuth tokens
     last_synced_sha: de78e83440de17ce0af43c84d8cd8f4aa016a69c
     user_starred_at: '2026-01-27T14:00:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -13281,15 +13366,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: VoltAgent/awesome-openclaw-skills
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - openclaw-skills
+      - skills-library
+      - awesome-list
+      - openclaw
     summary: The awesome collection of Open Claw skills. 5,400+ skills filtered and categorized from the official Open Claw Skills Registry.🦞
     last_synced_sha: a35a69cd18f40cde561c398c6cce1fc5efe1719f
     user_starred_at: '2026-01-27T01:56:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -13319,15 +13413,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: openclaw/openclaw
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-assistant
+      - cross-platform
+      - lang:ts
+      - openclaw
     summary: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
     last_synced_sha: 8befd88119e2dd6a871e5478a3910d30cd5533f6
     user_starred_at: '2026-01-27T01:49:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -13354,15 +13457,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: sashyo/keylessh
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - keyless-auth
+      - encryption
+      - lang:ts
+      - cli
     summary: No description provided
     last_synced_sha: e2010a0802dff7aecfcf4548d9a0fd70fe63fdf5
     user_starred_at: '2026-01-27T01:20:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -13380,15 +13492,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: EssexRich/ThreatActors-TTPs
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - threat-actors
+      - ransomware
+      - lang:js
     summary: Repository created to share information about tactics, techniques and procedures used by threat actors. Initially with ransomware groups and evolving to other types of threats.
     last_synced_sha: 2b319f989d516eb828c3c3f3876140a391106417
     user_starred_at: '2026-01-27T01:14:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: JavaScript
@@ -13407,15 +13527,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: elm1nst3r/GHOST-osint-crm
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - osint
+      - investigation
+      - crm
+      - lang:js
     summary: 'GHOST - Global Human Operations & Surveillance Tracking: Open-source investigation management platform for tracking people, connections, and intelligence data. Because Excel spreadsheets are for ac...'
     last_synced_sha: e3d06eae605d0840f5de557450ce943ab1bae14c
     user_starred_at: '2026-01-27T01:10:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -13438,6 +13567,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:46:17.157Z'
+      prompt_version: v3
   - repo: PraaneshSelvaraj/coffee.tmux
     categories:
       - productivity
