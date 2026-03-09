@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:40:50.950Z'
+  manifest_updated_at: '2026-03-09T04:41:22.119Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -16989,13 +16989,19 @@ repositories:
     framework: null
   - repo: adriangalilea/namecheap-python
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - namecheap
+      - sdk
+      - cli
+      - lang:python
+      - tui-tools
     summary: A Python SDK for the Namecheap API & CLI/TUI tools using it
     last_synced_sha: 041d3a96380af735c7be9d29be215c0c3e4c31ae
     user_starred_at: '2026-01-10T07:46:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -17015,15 +17021,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.645Z'
+      prompt_version: v3
   - repo: marcelscruz/public-apis
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - learning
+      - documentation
+    tags:
+      - public-apis
+      - resources
+      - awesome-list
+      - lang:js
+      - lists
     summary: A collaborative list of public APIs for developers
     last_synced_sha: 8c522d58e29356463b87e2a072ef58396d7f36d4
     user_starred_at: '2026-01-09T21:17:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -17050,15 +17067,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.645Z'
+      prompt_version: v3
   - repo: lockfale/OSINT-Framework
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - osint
+      - intelligence-gathering
+      - reconnaissance
+      - lang:js
+      - resources
     summary: OSINT Framework
     last_synced_sha: c9655017bb8c56dc43664618b0b58a224865fccb
     user_starred_at: '2026-01-09T21:15:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -17082,15 +17109,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.645Z'
+      prompt_version: v3
   - repo: meshery/meshery
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+      - system-admin
+    tags:
+      - cloud-native
+      - kubernetes
+      - docker
+      - lang:html
+      - control-plane
     summary: Meshery, the cloud native manager
     last_synced_sha: 75a0553c5e76d91921cebd7da1cc913d28b34595
     user_starred_at: '2026-01-09T21:14:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -17130,15 +17168,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.645Z'
+      prompt_version: v3
   - repo: simulot/immich-go
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - photos
+      - immich
+      - google-takeout
+      - lang:go
+      - media
     summary: An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives.
     last_synced_sha: cc928edbce49216584647e5f756a2af6478bb7ea
     user_starred_at: '2026-01-09T21:13:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17164,15 +17212,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.645Z'
+      prompt_version: v3
   - repo: Tencent/WeKnora
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+      - apis
+    tags:
+      - llm
+      - semantic-retrieval
+      - rag
+      - lang:go
+      - ai
     summary: LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.
     last_synced_sha: dd39fbc018f34cefdc4dcf81d5565f84de422824
     user_starred_at: '2026-01-09T21:13:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17212,15 +17271,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.645Z'
+      prompt_version: v3
   - repo: v2fly/domain-list-community
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - v2ray
+      - geosite
+      - lang:go
+      - network
+      - domain-list
     summary: Community managed domain list. Generate geosite.dat for V2Ray.
     last_synced_sha: 8a08dcc7edc20056361efbc60cf168d8c0f5e6cd
     user_starred_at: '2026-01-09T21:12:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17242,15 +17311,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.645Z'
+      prompt_version: v3
   - repo: VictoriaMetrics/VictoriaLogs
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - monitoring
+      - cloud
+    tags:
+      - logs
+      - observability
+      - opentelemetry
+      - kubernetes
+      - lang:go
     summary: Fast and easy to use database for logs, which can efficiently handle terabytes of logs
     last_synced_sha: de3b7a88ce5b12c601335cf8ba6b6f291399e3e9
     user_starred_at: '2026-01-09T21:12:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17278,15 +17358,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.645Z'
+      prompt_version: v3
   - repo: schollz/croc
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - file-sharing
+      - data-transfer
+      - peer-to-peer
+      - tcp
+      - lang:go
     summary: 'Easily and securely send things from one computer to another :crocodile: :package:'
     last_synced_sha: b1a359553886fad389f2b58b1b4d52ed3a78b5f6
     user_starred_at: '2026-01-09T21:11:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17313,15 +17403,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.645Z'
+      prompt_version: v3
   - repo: steveiliop56/tinyauth
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+      - system-admin
+    tags:
+      - authentication
+      - 2fa
+      - sso
+      - lang:go
+      - self-hosted
     summary: The tiniest authentication and authorization server you have ever seen.
     last_synced_sha: b6eb902d47736923ce716a66bfe3a52bb59bb551
     user_starred_at: '2026-01-09T21:10:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17353,15 +17454,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.645Z'
+      prompt_version: v3
   - repo: keploy/keploy
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - automation
+      - apis
+    tags:
+      - api-testing
+      - test-automation
+      - mock-framework
+      - lang:go
+      - mock-data
     summary: API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs!
     last_synced_sha: 2ece717afa406cc9e8986375d8e35b26f7dc7976
     user_starred_at: '2026-01-09T21:10:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17395,15 +17507,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.645Z'
+      prompt_version: v3
   - repo: sysadminsmedia/homebox
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - inventory
+      - self-hosted
+      - lang:go
+      - organization
     summary: A continuation of Home Box the inventory and organization system built for the Home User
     last_synced_sha: 8807da39d880d4c184bea6ebb863b523a306aacd
     user_starred_at: '2026-01-09T21:10:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17427,15 +17548,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.645Z'
+      prompt_version: v3
   - repo: charmbracelet/bubbletea
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - tui
+      - functional
+      - lang:go
+      - framework
+      - cli
     summary: A powerful little TUI framework 🏗
     last_synced_sha: f25595a848eb11a87631a9e43ffe078d713c2236
     user_starred_at: '2026-01-09T21:09:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17463,15 +17594,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.645Z'
+      prompt_version: v3
   - repo: spf13/cobra
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - cli
+      - command-line
+      - lang:go
+      - framework
+      - posix-flags
     summary: A Commander for modern Go CLI interactions
     last_synced_sha: 61968e893eee2f27696c2fbc8e34fa5c4afaf7c4
     user_starred_at: '2026-01-09T21:09:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17507,15 +17648,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.645Z'
+      prompt_version: v3
   - repo: m1k1o/neko
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - networking
+      - web-dev
+    tags:
+      - self-hosted
+      - remote-desktop
+      - media-streaming
+      - lang:go
     summary: A self hosted virtual browser that runs in docker and uses Web RTC.
     last_synced_sha: f84740f6da0524cf480a0a0121b16905d9e70947
     user_starred_at: '2026-01-09T21:09:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17543,7 +17694,11 @@ repositories:
         published_at: '2025-04-01T22:15:23Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:41:20.644Z'
+      prompt_version: v3
   - repo: knadh/listmonk
     categories:
       - productivity
