@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-09T04:26:57.127Z'
+  manifest_updated_at: '2026-03-09T04:27:32.771Z'
   total_repos: 2392
   generator_version: v1.0.0
   github_user: primeinc
@@ -29726,13 +29726,18 @@ repositories:
     framework: null
   - repo: Piebald-AI/tweakcc
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - customization
+      - claude-code
+      - themes
+      - lang:ts
     summary: Customize Claude Code's system prompts, create custom toolsets, input pattern highlighters, themes/thinking verbs/spinners, customize input box & user message styling, support AGENTS.md, unlock pri...
     last_synced_sha: 702b16f4aada1b1d2b3a8ea7f259102be0dfc769
     user_starred_at: '2025-11-11T20:58:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29772,15 +29777,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: ken-yossy/nvmetool-win
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+    tags:
+      - nvme-ssd
+      - device-driver
+      - lang:c
     summary: Communicate with NVMe SSD using Windows' inbox device driver
     last_synced_sha: 9e6e91b1a1a9933c8448200e3ad77deaaaf5a6e3
     user_starred_at: '2025-11-11T17:49:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -29798,15 +29810,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: openworkflowdev/openworkflow
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - automation
+    tags:
+      - durable-workflows
+      - resumable-framework
+      - lang:ts
     summary: Open-source Type Script framework for building durable, resumable workflows. Supports Node.js and Bun.
     last_synced_sha: e6be1c572a8977d339bd960d587f754f05b4c793
     user_starred_at: '2025-11-11T17:35:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -29824,15 +29844,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: RodericAguilar/Pr_Elevators
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - fivem
+      - elevator-scripts
+      - lang:lua
     summary: Free fivem elevator scripts, works without framework.
     last_synced_sha: 06b33ae31f95c71dd2b92989d76941c578bef214
     user_starred_at: '2025-11-11T17:35:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics: []
@@ -29850,15 +29878,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: TMElyralab/MuseTalk
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lip-sync
+      - real-time-inpainting
+      - virtual-humans
+      - lang:python
     summary: 'Muse Talk: Real-Time High Quality Lip Synchorization with Latent Space Inpainting'
     last_synced_sha: 0a89dec45a0192b824e3cf4daf96c239440c5ed8
     user_starred_at: '2025-11-11T17:35:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -29878,15 +29915,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: serverless-dns/serverless-dns
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - cloud
+    tags:
+      - dns-over-https
+      - serverless
+      - cloudflare-workers
+      - lang:js
     summary: The Rethink DNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io
     last_synced_sha: 14f4e9668caf629b04a3214aab74138b85a9a9c3
     user_starred_at: '2025-11-11T17:34:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -29918,15 +29964,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: microsoft/ai-agents-for-beginners
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - generative-ai
+      - semantic-kernel
+      - ai-agents
+      - lang:jupyter-notebook
     summary: 12 Lessons to Get Started Building AI Agents
     last_synced_sha: 5596a4dbdf1f0be8c051b5cd6ba9b8ae78210b4d
     user_starred_at: '2025-11-11T17:34:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -29952,15 +30007,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: google/adk-web
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - developer-ui
+      - agent-development
+      - debugging
+      - lang:ts
     summary: Agent Development Kit Web (adk web) is the built-in developer UI that is integrated with Agent Development Kit for easier agent development and debugging.
     last_synced_sha: a2c0de31f7bd02f756599ac5c7ff0810ba2270b8
     user_starred_at: '2025-11-11T17:34:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -29978,15 +30042,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: WICG/email-verification-protocol
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - email-verification
+      - autofill
     summary: verified autofill
     last_synced_sha: d8413c8541a28605aa49d2d06656acefd3b77849
     user_starred_at: '2025-11-11T17:34:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -30004,15 +30075,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: LizardByte/Sunshine
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - networking
+    tags:
+      - game-streaming
+      - moonlight
+      - remote-desktop
+      - lang:cpp
     summary: Self-hosted game stream host for Moonlight.
     last_synced_sha: 4c7df2ddf85391ce9a0777d5b821ac6f2d79d6b4
     user_starred_at: '2025-11-11T17:33:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -30049,15 +30129,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: google/adk-docs
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - ai-agents
+      - toolkit
+      - deployment
+      - lang:shell
     summary: An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
     last_synced_sha: 0e4b91a90d79d080d24d527a158a09b81c044dd8
     user_starred_at: '2025-11-11T17:33:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -30075,15 +30164,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: opencloud-eu/opencloud
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - productivity
+    tags:
+      - file-management
+      - collaboration
+      - sovereign-platform
+      - lang:go
     summary: 🌤️ Open Cloud is the open source platform for file management, sharing and collaboration. Simple and sovereign.
     last_synced_sha: d163647b2233aec698bb40f46c7b55affd21b90b
     user_starred_at: '2025-11-11T17:33:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -30103,15 +30201,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: NginxProxyManager/nginx-proxy-manager
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - containers
+    tags:
+      - nginx
+      - proxy-management
+      - docker
+      - lang:ts
     summary: Docker container for managing Nginx proxy hosts with a simple, powerful interface
     last_synced_sha: 15896132ff4b98fdd11925c77f086b4eeaf00236
     user_starred_at: '2025-11-11T17:32:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30133,15 +30240,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: topoteretes/cognee
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+    tags:
+      - knowledge-engine
+      - vector-database
+      - graph-database
+      - ai-memory
+      - lang:python
     summary: Knowledge Engine for AI Agent Memory in 6 lines of code
     last_synced_sha: c9370a8b1f2ac9162eca400a32443dccac01225d
     user_starred_at: '2025-11-11T17:32:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30181,15 +30298,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: ggml-org/llama.cpp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - embedded
+    tags:
+      - llm-inference
+      - ggml
+      - lang:cpp
     summary: LLM inference in C/C++
     last_synced_sha: ae87863dc10f659a0094450655cccae96609dd33
     user_starred_at: '2025-11-11T17:32:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -30210,6 +30335,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-09T04:27:31.323Z'
+      prompt_version: v3
   - repo: lutzroeder/netron
     categories:
       - ai-ml
