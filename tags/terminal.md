@@ -7,9 +7,9 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [dotnet/command-line-api](https://github.com/dotnet/command-line-api) | Command line parsing, invocation, and rendering of terminal output. | `C#` ★ 3.6k | 2026-03-08 |
-| [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) | Use your mac OS terminal shell to do awesome things. | ★ 30.3k | 2026-03-04 |
-| [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | 📚 Collaborative cheatsheets for console commands | `Markdown` ★ 61.6k | 2026-03-09 |
-| [butlerx/wetty](https://github.com/butlerx/wetty) | Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better) | `TypeScript` ★ 5.2k | 2026-02-16 |
-| [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) | Over 450 terminal color schemes/themes for i Term/i Term2. Includes ports to Terminal, Konsole, Pu TTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, Free BSD VT, Terminator, Kitty, Moba Xterm, ... | `Shell` ★ 26.6k | 2026-02-16 |
-| [yudai/gotty](https://github.com/yudai/gotty) | Share your terminal as a web application | `Go` ★ 19.4k | 2024-08-01 |
-| [noodle1983/putty-nd3.x](https://github.com/noodle1983/putty-nd3.x) | No description provided | `C++` ★ 65 | 2019-01-24 |
+| [zellij-org/zellij](https://github.com/zellij-org/zellij) | A terminal workspace with batteries included | `Rust` ★ 29.9k | 2026-03-09 |
+| [curtosis-org/phub-cli](https://github.com/curtosis-org/phub-cli) | Terminal-based Porn Hub browser inspired by ani-cli. Browse categories, search videos, and stream instantly in mpv without opening a browser. | `Shell` ★ 101 | 2026-02-18 |
+| [maaslalani/gambit](https://github.com/maaslalani/gambit) | Play chess in your terminal | `Go` ★ 892 | 2024-01-25 |
+| [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | `Go` ★ 73.8k | 2026-03-09 |
+| [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | An open-source AI agent that lives in your terminal. | `TypeScript` ★ 20.3k | 2026-03-10 |
+| [mmulet/term.everything](https://github.com/mmulet/term.everything) | Run any GUI app in the terminal❗ | `Go` ★ 7.8k | 2026-02-01 |

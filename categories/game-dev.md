@@ -1,51 +1,41 @@
 # Game-dev
 
-*41 repositories*
+*31 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [storytold/artcraft](https://github.com/storytold/artcraft) | Art Craft is an intentional crafting engine for artists, designers, and filmmakers | `Rust` ★ 1.2k | 2026-03-09 |
-| [Azgaar/Fantasy-Map-Generator](https://github.com/Azgaar/Fantasy-Map-Generator) | Web application generating interactive and highly customizable maps | `JavaScript` ★ 5.5k | 2026-03-07 |
-| [TrinityCore/TrinityCore](https://github.com/TrinityCore/TrinityCore) | Trinity Core Open Source MMO Framework (master = 12.0.1.66044, 3.3.5 = 3.3.5a.12340, cata classic = 4.4.2.60895) | `C++` ★ 10.4k | 2026-03-08 |
-| [HailToDodongo/pyrite64](https://github.com/HailToDodongo/pyrite64) | N64 Game-Engine and Editor using libdragon & tiny3d | `C++` ★ 2.6k | 2026-03-08 |
+| [storytold/artcraft](https://github.com/storytold/artcraft) | Art Craft is an intentional crafting engine for artists, designers, and filmmakers | `Rust` ★ 1.2k | 2026-03-10 |
+| [Azgaar/Fantasy-Map-Generator](https://github.com/Azgaar/Fantasy-Map-Generator) | Web application generating interactive and highly customizable maps | `JavaScript` ★ 5.5k | 2026-03-09 |
+| [TrinityCore/TrinityCore](https://github.com/TrinityCore/TrinityCore) | Trinity Core Open Source MMO Framework (master = 12.0.1.66044, 3.3.5 = 3.3.5a.12340, cata classic = 4.4.2.60895) | `C++` ★ 10.4k | 2026-03-09 |
+| [HailToDodongo/pyrite64](https://github.com/HailToDodongo/pyrite64) | N64 Game-Engine and Editor using libdragon & tiny3d | `C++` ★ 2.6k | 2026-03-09 |
 | [JosefNemec/Playnite](https://github.com/JosefNemec/Playnite) | Video game library manager with support for wide range of 3rd party libraries and game emulation support, providing one unified interface for your games. | `C#` ★ 12.6k | 2026-02-20 |
-| [dquiet-lab/sim-control-page](https://github.com/dquiet-lab/sim-control-page) | No description provided | `TypeScript` ★ 1 | 2025-03-25 |
-| [s4ptacle/Sims4Tools](https://github.com/s4ptacle/Sims4Tools) | Sims 4 modding tools and library | `C#` ★ 240 | 2024-03-01 |
-| [CmarNYC-Tools/TS4SimRipper](https://github.com/CmarNYC-Tools/TS4SimRipper) | No description provided | `C#` ★ 66 | 2026-02-08 |
-| [mycroftjr/Sims4ScriptingTemplate](https://github.com/mycroftjr/Sims4ScriptingTemplate) | Sims 4 Scripting Template Project | `Python` ★ 17 | 2023-09-29 |
-| [sims4toolkit/s4tk-vscode](https://github.com/sims4toolkit/s4tk-vscode) | S4TK extension for Visual Studio Code. | `TypeScript` ★ 12 | 2024-12-17 |
-| [kkoomen/pointless](https://github.com/kkoomen/pointless) | An endless drawing canvas desktop app made with Tauri (Rust) and React 🎨 ✍️ | `JavaScript` ★ 1.8k | 2024-06-19 |
-| [martymcmodding/qUINT](https://github.com/martymcmodding/qUINT) | Collection of general-purpose effects for the Re Shade shader injector. | `HLSL` ★ 554 | 2023-07-22 |
-| [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) | A cross-platform, safe, pure-Rust graphics API. | `Rust` ★ 16.6k | 2026-03-09 |
-| [pandres95/ndi.js](https://github.com/pandres95/ndi.js) | NDI® SDK for Node.js | `C` ★ 57 | 2024-01-11 |
-| [martymcmodding/METEOR](https://github.com/martymcmodding/METEOR) | Marty's Extra Effects for Re Shade | `HLSL` ★ 47 | 2025-06-25 |
-| [martymcmodding/iMMERSE](https://github.com/martymcmodding/iMMERSE) | Marty's Mods Epic Re Shade Effects | `HLSL` ★ 407 | 2025-09-11 |
-| [Clad3815/adventure-game-ai](https://github.com/Clad3815/adventure-game-ai) | Adventure Game Generator is an interactive, text-based game creation tool powered by Open AI. Customize your game settings, generate dynamic player attributes, embark on quests, manage inventories,... | `JavaScript` ★ 18 | 2023-07-12 |
-| [Jimmyokok/RentControl](https://github.com/Jimmyokok/RentControl) | Rent Control Mod for the game Cities: Skyline 2 | `C#` ★ 4 | 2024-02-07 |
-| [algernon-A/LineToolLite](https://github.com/algernon-A/LineToolLite) | A Cities: Skylines 2 mod. | `C#` ★ 15 | 2024-03-27 |
-| [klyte45/CS2ModsRepository](https://github.com/klyte45/CS2ModsRepository) | Contains the current version of each mod I did for the Cities Skylines 2 | ★ 6 | 2023-12-16 |
-| [Captain-Of-Coit/cs2-vehicle-counter](https://github.com/Captain-Of-Coit/cs2-vehicle-counter) | No description provided | `C#` ★ 1 | 2023-11-27 |
-| [Captain-Of-Coit/cs2-city-monitor](https://github.com/Captain-Of-Coit/cs2-city-monitor) | "City Vitals" but for Cities: Skylines 2 | `C#` ★ 14 | 2023-11-30 |
-| [Captain-Of-Coit/hookui](https://github.com/Captain-Of-Coit/hookui) | Some sort of UI framework/loader for Cities: Skylines 2 | `C#` ★ 29 | 2024-08-26 |
-| [Wayzware/EducationBalancer](https://github.com/Wayzware/EducationBalancer) | Increases the student capacity of various educational buildings in Cities Skylines 2 | `C#` ★ 5 | 2025-10-16 |
-| [Sci-fiBrain/CSUL](https://github.com/Sci-fiBrain/CSUL) | Cities: Skylines II Universal Launcher 天际线2万能启动器 | `C#` ★ 32 | 2024-04-24 |
-| [thardie/Cities2-Mods](https://github.com/thardie/Cities2-Mods) | No description provided | `C#` ★ 7 | 2023-11-28 |
-| [ST-Apps/CS2-ExtendedRoadUpgrades](https://github.com/ST-Apps/CS2-ExtendedRoadUpgrades) | A mod that enables multiple upgrade options for your roads. | `C#` ★ 37 | 2024-03-30 |
-| [slyh/Cities2-TrafficLightsEnhancement](https://github.com/slyh/Cities2-TrafficLightsEnhancement) | Advanced traffic lights for Cities: Skylines II | `C#` ★ 244 | 2025-11-10 |
-| [TURBODRIVER/WickedWhims](https://github.com/TURBODRIVER/WickedWhims) | Open resources of Wicked Whims for modders | `Python` ★ 26 | 2026-02-24 |
-| [GaspardCulis/slint-tetris](https://github.com/GaspardCulis/slint-tetris) | Tetris game made with Slint | `Rust` ★ 42 | 2023-05-26 |
-| [Mortalitas/GShade](https://github.com/Mortalitas/GShade) | GShade is a highly modified Re Shade fork & utility package with numerous improvements and settings autodetection for over 300 games. | `HLSL` ★ 493 | 2026-03-02 |
-| [games-on-whales/wolf](https://github.com/games-on-whales/wolf) | Stream virtual desktops and games running in Docker | `C++` ★ 1.7k | 2026-02-07 |
-| [NVIDIAGameWorks/rtx-remix](https://github.com/NVIDIAGameWorks/rtx-remix) | Combined repo for the RTX-Remix runtime and toolkit | ★ 1.6k | 2026-02-27 |
-| [microsoft/DirectStorage](https://github.com/microsoft/DirectStorage) | Direct Storage for Windows is an API that allows game developers to unlock the full potential of high speed NVMe drives for loading game assets. | `C++` ★ 827 | 2026-03-03 |
-| [Zerbu/Mod-Constructor-5](https://github.com/Zerbu/Mod-Constructor-5) | The Sims 4 Mod Constructor is a downloadable program that allows users to create mods for The Sims 4 in a user-friendly environment. Version 5 is easier to use than ever! | `C#` ★ 140 | 2025-08-21 |
-| [junebug12851/Sims4ScriptingBPProj](https://github.com/junebug12851/Sims4ScriptingBPProj) | Sims 4 Scripting Boilerplate Project | `Python` ★ 58 | 2021-06-06 |
-| [BigJk/snd](https://github.com/BigJk/snd) | Sales & Dungeons — Thermal Printer as D&D / TTRPG Utility | `TypeScript` ★ 605 | 2026-02-21 |
-| [alex4108/scoreboard](https://github.com/alex4108/scoreboard) | A simple scoreboard webapp using Express, React, and Mongo | `JavaScript` ★ 5 | 2023-03-05 |
-| [zhujisheng/audio-reactive-led-strip](https://github.com/zhujisheng/audio-reactive-led-strip) | 🎵 🌈 Real-time LED strip music visualization running on ESP32 based on Arduino or ESPHome platform | `C++` ★ 155 | 2022-03-02 |
-| [pterodactyl/panel](https://github.com/pterodactyl/panel) | Pterodactyl® is a free, open-source game server management panel built with PHP, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while... | `PHP` ★ 8.7k | 2026-02-14 |
-| [veltman/clmystery](https://github.com/veltman/clmystery) | A command-line murder mystery | ★ 6.1k | 2023-09-21 |
+| [maaslalani/gambit](https://github.com/maaslalani/gambit) | Play chess in your terminal | `Go` ★ 892 | 2024-01-25 |
+| [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | Play Station 4 emulator for Windows, Linux and mac OS written in C++ | `C++` ★ 28.5k | 2026-03-09 |
+| [cemu-project/Cemu](https://github.com/cemu-project/Cemu) | Cemu - Wii U emulator | `C++` ★ 9.1k | 2026-02-23 |
+| [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | Complete Open Source and Modular solution for MMO | `C++` ★ 8.1k | 2026-03-09 |
+| [Babyhamsta/Aimmy](https://github.com/Babyhamsta/Aimmy) | Universal Second Eye for Gamers with Impairments (Universal AI Aim Aligner (AI Aimbot) - ONNX/YOLOv8 - C#) | `C#` ★ 1.4k | 2026-01-20 |
+| [tixl3d/tixl](https://github.com/tixl3d/tixl) | Ti XL is an open source software to create realtime motion graphics. | `C#` ★ 4.8k | 2026-03-09 |
+| [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) | The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement ... | `C#` ★ 19.2k | 2026-02-25 |
+| [Vasia92LTU/dv-radialmenu](https://github.com/Vasia92LTU/dv-radialmenu) | Radial Menu css/ui edited and nopixel 4.0 inspired | `Lua` ★ 28 | 2024-09-28 |
+| [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 8.5k | 2025-12-17 |
+| [pshenok/server-survival](https://github.com/pshenok/server-survival) | Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. | `JavaScript` ★ 5.4k | 2026-03-09 |
+| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage a... | `C#` ★ 6.8k | 2026-03-10 |
+| [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | A list of open source games. | `Python` ★ 12.2k | 2026-02-25 |
+| [nv-tlabs/ChronoEdit](https://github.com/nv-tlabs/ChronoEdit) | \[ICLR 2026\] Chrono Edit: Towards Temporal Reasoning for Image Editing and World Simulation | `Python` ★ 676 | 2025-11-20 |
+| [longbridge/gpui-component](https://github.com/longbridge/gpui-component) | Rust GUI components for building fantastic cross-platform desktop application by using GPUI. | `Rust` ★ 10.6k | 2026-03-10 |
+| [RodericAguilar/Pr_Elevators](https://github.com/RodericAguilar/Pr_Elevators) | Free fivem elevator scripts, works without framework. | `Lua` ★ 25 | 2024-10-14 |
+| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 35.1k | 2026-03-10 |
+| [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minecraft with a high level of detail. | `Rust` ★ 8.4k | 2026-03-03 |
+| [ppy/osu](https://github.com/ppy/osu) | rhythm is just a \*click\* away! | `C#` ★ 18k | 2026-03-10 |
+| [jynew/jynew](https://github.com/jynew/jynew) | Jin Yong Legend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game. | `C#` ★ 8.8k | 2025-04-19 |
+| [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) | Development at the speed of light | `Rust` ★ 23.1k | 2026-03-09 |
+| [microsoft/DirectXTK](https://github.com/microsoft/DirectXTK) | The Direct X Tool Kit (aka Direct XTK) is a collection of helper classes for writing Direct X 11.x code in C++ | `C++` ★ 2.8k | 2026-03-02 |
+| [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | Distributed server for social and realtime games and apps. | `Go` ★ 12.3k | 2026-03-09 |
+| [thesephist/burds](https://github.com/thesephist/burds) | Just some burds, jumpin' around in their own little world. | `JavaScript` ★ 85 | 2024-07-20 |
+| [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and Open GL. Runs on Windows, Linux, \*BSD and Mac OS X. | `C#` ★ 16.5k | 2026-02-26 |
+| [layumi/Person-reID_GAN](https://github.com/layumi/Person-reID_GAN) | ICCV2017 Unlabeled Samples Generated by GAN Improve the Person Re-identification Baseline in vitro | `Cuda` ★ 322 | 2021-06-29 |
+| [workadventure/workadventure](https://github.com/workadventure/workadventure) | A collaborative web application (virtual office) presented as a 16-bit RPG video game | `TypeScript` ★ 5.3k | 2026-03-09 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

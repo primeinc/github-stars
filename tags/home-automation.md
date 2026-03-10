@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [home-assistant/core](https://github.com/home-assistant/core) | :house\_with\_garden: Open source home automation that puts local control and privacy first. | `Python` ★ 85.2k | 2026-03-09 |
-| [fabbr/MMM-Ecobee](https://github.com/fabbr/MMM-Ecobee) | Module for Magic Mirror that supports ecobee Thermostat | `JavaScript` ★ 5 | 2019-08-12 |
-| [jkoelker/python-nest](https://github.com/jkoelker/python-nest) | Python API and command line tool for talking to the Nest™ Thermostat | `Python` ★ 153 | 2022-02-08 |
+| [sirkirby/unifi-network-mcp](https://github.com/sirkirby/unifi-network-mcp) | MCP server implementation for the Uni Fi network application | `Python` ★ 190 | 2026-03-09 |
+| [cppqtdev/QT-Home-Automation-Glass-UI](https://github.com/cppqtdev/QT-Home-Automation-Glass-UI) | Linkedin Page | `QML` ★ 26 | 2024-05-18 |
+| [home-assistant/frontend](https://github.com/home-assistant/frontend) | :lollipop: Frontend for Home Assistant | `TypeScript` ★ 5.3k | 2026-03-10 |

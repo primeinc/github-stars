@@ -1,6 +1,6 @@
 # Tag: powershell
 
-*6 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,7 +8,5 @@
 |---|---|---|---|
 | [Gerenios/AADInternals](https://github.com/Gerenios/AADInternals) | AADInternals Power Shell module for administering Azure AD and Office 365 | `PowerShell` ★ 1.6k | 2025-09-30 |
 | [hausec/PowerZure](https://github.com/hausec/PowerZure) | Power Shell framework to assess Azure security | `PowerShell` ★ 1.3k | 2025-10-18 |
-| [ironmansoftware/powershell-pro-tools](https://github.com/ironmansoftware/powershell-pro-tools) | Scripting, automation, and development tools for professionals working with Power Shell. | `C#` ★ 198 | 2025-12-08 |
-| [PoshCode/PowerShellPracticeAndStyle](https://github.com/PoshCode/PowerShellPracticeAndStyle) | The Unofficial Power Shell Best Practices and Style Guide | ★ 2.4k | 2023-05-19 |
-| [MScholtes/PSVirtualDesktop](https://github.com/MScholtes/PSVirtualDesktop) | Virtual Desktop is a Powershell module that provides commandlets to manage virtual desktops of Windows 10. | `PowerShell` ★ 373 | 2025-08-25 |
-| [nightroman/PowerShellTraps](https://github.com/nightroman/PowerShellTraps) | Collection of Power Shell traps and oddities | `PowerShell` ★ 461 | 2025-10-20 |
+| [JayRHa/EndpointAnalyticsRemediationScripts](https://github.com/JayRHa/EndpointAnalyticsRemediationScripts) | Collection of ready-to-use Intune Endpoint Analytics Proactive Remediation scripts for detection and remediation of common Windows endpoint issues including security, performance, networking, and a... | `PowerShell` ★ 585 | 2026-02-19 |
+| [NileshGule/techtalks-azure-container-apps-demo](https://github.com/NileshGule/techtalks-azure-container-apps-demo) | A simple example to showcase Azure container apps capabilities using a Tech Talks demo with native integration for Dapr and KEDA | `PowerShell` ★ 4 | 2024-09-23 |

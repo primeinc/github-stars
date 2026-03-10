@@ -1,12 +1,11 @@
 # Tag: video-processing
 
-*4 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [towhee-io/towhee](https://github.com/towhee-io/towhee) | Towhee is a framework that is dedicated to making neural data processing pipelines simple and fast. | `Python` ★ 3.5k | 2024-10-18 |
-| [Sxela/WarpFusion](https://github.com/Sxela/WarpFusion) | Warp Fusion | `Batchfile` ★ 1k | 2025-04-27 |
-| [Breakthrough/PySceneDetect](https://github.com/Breakthrough/PySceneDetect) | :movie\_camera: Python and Open CV-based scene cut/transition detection program & library. | `Python` ★ 4.6k | 2026-03-03 |
-| [Jpja/FFmpeg-Detect-Copy-Motion](https://github.com/Jpja/FFmpeg-Detect-Copy-Motion) | Detects motion in video files, and copies to new, separate video clips. | `Python` ★ 63 | 2022-06-25 |
+| [Visual-Agent/DeepEyesV2](https://github.com/Visual-Agent/DeepEyesV2) | No description provided | `Python` ★ 538 | 2026-02-26 |
+| [kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) | No description provided | `Python` ★ 6.2k | 2026-02-22 |
+| [Orange-3DV-Team/MoCha](https://github.com/Orange-3DV-Team/MoCha) | Mo Cha: End-to-End Video Character Replacement without Structural Guidance | `Python` ★ 651 | 2026-03-02 |

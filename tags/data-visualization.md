@@ -1,10 +1,13 @@
 # Tag: data-visualization
 
-*2 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [d3/d3](https://github.com/d3/d3) | Bring data to life with SVG, Canvas and HTML. :bar\_chart::chart\_with\_upwards\_trend::tada: | `Shell` ★ 112.5k | 2025-12-02 |
-| [gradio-app/gradio](https://github.com/gradio-app/gradio) | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! | `Python` ★ 42k | 2026-03-09 |
+| [nasa/openmct](https://github.com/nasa/openmct) | A web based mission control framework. | `JavaScript` ★ 12.8k | 2026-03-09 |
+| [visgl/react-map-gl](https://github.com/visgl/react-map-gl) | React friendly API wrapper around Mapbox GL JS | `TypeScript` ★ 8.4k | 2026-02-03 |
+| [apache/superset](https://github.com/apache/superset) | Apache Superset is a Data Visualization and Data Exploration Platform | `TypeScript` ★ 70.9k | 2026-03-10 |
+| [tremorlabs/tremor-blocks](https://github.com/tremorlabs/tremor-blocks) | Tremor Blocks Source Code | `TypeScript` ★ 487 | 2025-01-22 |

@@ -1,11 +1,10 @@
 # Tag: tutorials
 
-*3 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [samwit/llm-tutorials](https://github.com/samwit/llm-tutorials) | A set of LLM Tutorials from my youtube channel | `Jupyter Notebook` ★ 1.1k | 2023-06-13 |
-| [phmullins/awesome-macos](https://github.com/phmullins/awesome-macos) | A curated list of awesome software for Apple's mac OS. | ★ 3k | 2025-01-22 |
-| [Cities2Modding/wiki](https://github.com/Cities2Modding/wiki) | No description provided | ★ 3 | 2023-12-17 |
+| [TRaSH-Guides/Guides](https://github.com/TRaSH-Guides/Guides) | TRa SH-Guides is a comprehensive collection of guides for Radarr, Sonarr, and related media management applications. | `Markdown` ★ 2.8k | 2026-03-09 |
+| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Master programming by recreating your favorite technologies from scratch. | `Markdown` ★ 473.8k | 2026-02-21 |

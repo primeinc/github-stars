@@ -1,11 +1,14 @@
 # Tag: video-generation
 
-*3 repositories*
+*6 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [aigc-apps/EasyAnimate](https://github.com/aigc-apps/EasyAnimate) | 📺 An End-to-End Solution for High-Resolution and Long Video Generation Based on Transformer Diffusion | `Python` ★ 2.3k | 2025-03-06 |
-| [KlingAIResearch/LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | Bring portraits to life! | `Python` ★ 17.9k | 2026-03-02 |
-| [ali-vilab/videocomposer](https://github.com/ali-vilab/videocomposer) | Official repo for Video Composer: Compositional Video Synthesis with Motion Controllability | `Python` ★ 954 | 2023-11-11 |
+| [HKUDS/ViMax](https://github.com/HKUDS/ViMax) | "Vi Max: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)" | `Python` ★ 2.4k | 2026-02-28 |
+| [showlab/Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion) | A curated list of recent diffusion models for video generation, editing, and various other applications. | ★ 5.5k | 2026-03-09 |
+| [EternalEvan/Astra](https://github.com/EternalEvan/Astra) | \[ICLR 2026\] Astra : General Interactive World Model with Autoregressive Denoising" | `Python` ★ 224 | 2026-02-02 |
+| [Phantom-video/Phantom](https://github.com/Phantom-video/Phantom) | Phantom: Subject-Consistent Video Generation via Cross-Modal Alignment | `Python` ★ 1.5k | 2025-09-11 |
+| [Phantom-video/HuMo](https://github.com/Phantom-video/HuMo) | Hu Mo: Human-Centric Video Generation via Collaborative Multi-Modal Conditioning | `Python` ★ 1.2k | 2026-01-25 |
+| [WeChatCV/Stand-In](https://github.com/WeChatCV/Stand-In) | \[CVPR2026 🎉\] Stand-In is a lightweight, plug-and-play framework for identity-preserving video generation. | `Python` ★ 740 | 2026-02-21 |

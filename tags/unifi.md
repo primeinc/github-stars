@@ -1,11 +1,10 @@
 # Tag: unifi
 
-*3 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [unifi-utilities/unifios-utilities](https://github.com/unifi-utilities/unifios-utilities) | Enhancing Your Uni Fi Experience | `Shell` ★ 4.3k | 2026-03-07 |
-| [SierraSoftworks/tailscale-udm](https://github.com/SierraSoftworks/tailscale-udm) | Run Tailscale on your Unifi Dream Machine | `Shell` ★ 1.4k | 2026-03-02 |
-| [gridironsolutions/unifios-tailscale](https://github.com/gridironsolutions/unifios-tailscale) | Run Tailscale natively on Unifi UDM-Pro Dream Machine | `Shell` ★ 8 | 2023-03-01 |
+| [gbassaragh/Unifi-mcp](https://github.com/gbassaragh/Unifi-mcp) | MCP server for Uni Fi Network and Protect API integration - AI-powered network management | `Python` ★ 2 | 2026-01-10 |
+| [mikecutalo/unifi-mcp-server](https://github.com/mikecutalo/unifi-mcp-server) | An MCP Server for interacting with Unifi networks. | `Python` ★ 3 | 2025-07-14 |

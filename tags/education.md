@@ -1,12 +1,11 @@
 # Tag: education
 
-*4 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [samwit/llm-tutorials](https://github.com/samwit/llm-tutorials) | A set of LLM Tutorials from my youtube channel | `Jupyter Notebook` ★ 1.1k | 2023-06-13 |
-| [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) | :books: List of awesome university courses for learning Computer Science! | ★ 66.9k | 2023-05-04 |
-| [Wayzware/EducationBalancer](https://github.com/Wayzware/EducationBalancer) | Increases the student capacity of various educational buildings in Cities Skylines 2 | `C#` ★ 5 | 2025-10-16 |
-| [php-school/learn-you-php](https://github.com/php-school/learn-you-php) | 🏆 Learn You PHP! - An introduction to PHP's core features: i/o, http, arrays, exceptions and so on. | `PHP` ★ 319 | 2024-11-06 |
+| [FFmpeg/asm-lessons](https://github.com/FFmpeg/asm-lessons) | FFmpeg Assembly Language Lessons | ★ 11.5k | 2026-02-22 |
+| [TheAlgorithms/TypeScript](https://github.com/TheAlgorithms/TypeScript) | Algorithms and Data Structures implemented in Type Script for beginners, following best practices. | `TypeScript` ★ 2.7k | 2024-10-16 |
+| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | All Algorithms implemented in Python | `Python` ★ 218.5k | 2026-03-09 |

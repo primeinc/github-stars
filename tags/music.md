@@ -1,11 +1,12 @@
 # Tag: music
 
-*3 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [marcopixel/monstercat-visualizer](https://github.com/marcopixel/monstercat-visualizer) | A real time audio visualizer for Rainmeter similar to the ones used in the Monstercat videos. | `Lua` ★ 953 | 2023-06-17 |
-| [geekuillaume/soundsync](https://github.com/geekuillaume/soundsync) | Virtual cables between any audio source and any speaker in your home | `C` ★ 892 | 2023-03-04 |
-| [zhujisheng/audio-reactive-led-strip](https://github.com/zhujisheng/audio-reactive-led-strip) | 🎵 🌈 Real-time LED strip music visualization running on ESP32 based on Arduino or ESPHome platform | `C++` ★ 155 | 2022-03-02 |
+| [Lidarr/Lidarr](https://github.com/Lidarr/Lidarr) | Looks and smells like Sonarr but made for music. | `C#` ★ 5.1k | 2026-01-18 |
+| [jayfunc/BetterLyrics](https://github.com/jayfunc/BetterLyrics) | An elegant and deeply customizable lyrics visualizer & versatile music player, built with Win UI3/Win2D | 一款优雅且高度自定义的歌词可视化与全能音乐播放应用，基于 Win UI3/Win2D 构建 | `C#` ★ 1.7k | 2026-03-09 |
+| [stakira/OpenUtau](https://github.com/stakira/OpenUtau) | Open singing synthesis platform / Open source UTAU successor | `C#` ★ 3.6k | 2026-02-01 |
+| [ppy/osu](https://github.com/ppy/osu) | rhythm is just a \*click\* away! | `C#` ★ 18k | 2026-03-10 |

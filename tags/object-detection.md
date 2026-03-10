@@ -1,11 +1,10 @@
 # Tag: object-detection
 
-*3 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [royshil/obs-detect](https://github.com/royshil/obs-detect) | Object Detection in OBS, real-time, local, GPU optional | `C++` ★ 160 | 2024-12-18 |
-| [SkalskiP/make-sense](https://github.com/SkalskiP/make-sense) | Free to use online tool for labelling photos. https://makesense.ai | `TypeScript` ★ 3.5k | 2024-08-15 |
-| [Cartucho/OpenLabeling](https://github.com/Cartucho/OpenLabeling) | Label images and video for Computer Vision applications | `Python` ★ 957 | 2022-07-06 |
+| [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | Detectron2 is a platform for object detection, segmentation and other visual recognition tasks. | `Python` ★ 34.2k | 2025-11-17 |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 54.1k | 2026-03-10 |

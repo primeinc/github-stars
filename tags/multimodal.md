@@ -1,12 +1,10 @@
 # Tag: multimodal
 
-*4 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [deepseek-ai/Janus](https://github.com/deepseek-ai/Janus) | Janus-Series: Unified Multimodal Understanding and Generation Models | `Python` ★ 17.7k | 2025-02-01 |
-| [fixie-ai/ultravox](https://github.com/fixie-ai/ultravox) | A fast multimodal LLM for real-time voice | `Python` ★ 4.4k | 2025-12-12 |
-| [dusty-nv/NanoDB](https://github.com/dusty-nv/NanoDB) | Zero-copy multimodal vector DB with CUDA and CLIP/Sig LIP | `Python` ★ 65 | 2025-05-06 |
-| [open-mmlab/Multimodal-GPT](https://github.com/open-mmlab/Multimodal-GPT) | Multimodal-GPT | `Python` ★ 1.5k | 2023-06-04 |
+| [lcqysl/DiffThinker](https://github.com/lcqysl/DiffThinker) | Diff Thinker: Towards Generative Multimodal Reasoning with Diffusion Models | `Python` ★ 172 | 2026-01-04 |
+| [ByteDance-Seed/Bagel](https://github.com/ByteDance-Seed/Bagel) | Open-source unified multimodal model | `Python` ★ 5.7k | 2025-10-27 |

@@ -1,12 +1,11 @@
 # Tag: development
 
-*4 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. | `Python` ★ 338k | 2026-03-08 |
-| [electron/electron](https://github.com/electron/electron) | :electron: Build cross-platform desktop apps with Java Script, HTML, and CSS | `C++` ★ 120.4k | 2026-03-08 |
-| [JonasKruckenberg/tauri-docs-wip](https://github.com/JonasKruckenberg/tauri-docs-wip) | No description provided | `JavaScript` ★ 20 | 2022-07-15 |
-| [tauri-apps/plugins-workspace](https://github.com/tauri-apps/plugins-workspace) | All of the official Tauri plugins in one place! | `Rust` ★ 1.7k | 2026-03-08 |
+| [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. | `Python` ★ 338.2k | 2026-03-08 |
+| [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) | The developer platform for on-demand cloud development environments to create software faster and more securely. | `TypeScript` ★ 13.6k | 2026-03-09 |
+| [luckgrid/lg-gnosys](https://github.com/luckgrid/lg-gnosys) | A monorepo architecture starter project for building framework agnostic applications with a feature rich development workspaces configuration... | `CSS` ★ 1 | 2025-09-13 |

@@ -1,20 +1,21 @@
 # Tag: machine-learning
 
-*12 repositories*
+*13 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [denisa-ms/azure-data-and-ai-examples](https://github.com/denisa-ms/azure-data-and-ai-examples) | No description provided | `Jupyter Notebook` ★ 32 | 2023-11-15 |
-| [samwit/llm-tutorials](https://github.com/samwit/llm-tutorials) | A set of LLM Tutorials from my youtube channel | `Jupyter Notebook` ★ 1.1k | 2023-06-13 |
-| [faris771/Email_Spam_Filter](https://github.com/faris771/Email_Spam_Filter) | This project compares K-Nearest Neighbors (K-NN) and Multilayer Perceptron (MLP) models for email spam detection. The goal is to predict spam emails using these models and evaluate their performanc... | `Python` ★ 5 | 2023-08-01 |
-| [keon/awesome-nlp](https://github.com/keon/awesome-nlp) | :book: A curated list of resources dedicated to Natural Language Processing (NLP) | ★ 18.2k | 2026-02-07 |
-| [exo-explore/exo](https://github.com/exo-explore/exo) | Run frontier AI locally. | `Python` ★ 42.3k | 2026-03-09 |
-| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h! | `Python` ★ 40.7k | 2026-02-06 |
-| [bytedance/monolith](https://github.com/bytedance/monolith) | A Lightweight Recommendation System | `Python` ★ 9.3k | 2025-10-13 |
-| [dusty-nv/jetson-containers](https://github.com/dusty-nv/jetson-containers) | Machine Learning Containers for NVIDIA Jetson and Jet Pack-L4T | `Jupyter Notebook` ★ 4.5k | 2026-03-08 |
-| [Bing-su/adetailer](https://github.com/Bing-su/adetailer) | Auto detecting, masking and inpainting with detection model. | `Python` ★ 4.7k | 2026-03-02 |
-| [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) | Generative Models by Stability AI | `Python` ★ 27k | 2025-12-16 |
-| [gradio-app/gradio](https://github.com/gradio-app/gradio) | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! | `Python` ★ 42k | 2026-03-09 |
-| [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | Open Assistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | `Python` ★ 37.4k | 2024-08-17 |
+| [xinyu1205/recognize-anything](https://github.com/xinyu1205/recognize-anything) | Open-source and strong foundation image recognition models. | `Jupyter Notebook` ★ 3.6k | 2025-02-18 |
+| [business-science/ai-data-science-team](https://github.com/business-science/ai-data-science-team) | An AI-powered data science team of agents to help you perform common data science tasks 10X faster. | `Python` ★ 5k | 2026-01-28 |
+| [joelhooks/swarm-tools](https://github.com/joelhooks/swarm-tools) | 🐝 Multi-agent swarm coordination for Open Code with learning capabilities, agent issue tracking, and management | `TypeScript` ★ 549 | 2026-02-23 |
+| [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `Python` ★ 62.8k | 2026-03-09 |
+| [Babyhamsta/Aimmy](https://github.com/Babyhamsta/Aimmy) | Universal Second Eye for Gamers with Impairments (Universal AI Aim Aligner (AI Aimbot) - ONNX/YOLOv8 - C#) | `C#` ★ 1.4k | 2026-01-20 |
+| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | screenpipe turns your computer into a personal AI that knows everything you've done. record. search. automate. all local, all private, all yours. | `Rust` ★ 17.2k | 2026-03-10 |
+| [NirantK/awesome-project-ideas](https://github.com/NirantK/awesome-project-ideas) | Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas | ★ 9k | 2023-03-13 |
+| [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | Hindsight: Agent Memory That Learns | `Python` ★ 2.4k | 2026-03-09 |
+| [resemble-ai/transformers](https://github.com/resemble-ai/transformers) | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. | `Python` ★ 3 | 2026-01-06 |
+| [resemble-ai/transformers.js](https://github.com/resemble-ai/transformers.js) | State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server! | `JavaScript` ★ 1 | 2025-11-19 |
+| [deepseek-ai/DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) | Contexts Optical Compression | `Python` ★ 22.7k | 2026-01-27 |
+| [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | The simplest, fastest repository for training/finetuning medium-sized GPTs. | `Python` ★ 54.5k | 2025-11-12 |
+| [bytedance/OneReward](https://github.com/bytedance/OneReward) | No description provided | `Python` ★ 335 | 2025-09-15 |

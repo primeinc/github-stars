@@ -1,13 +1,12 @@
 # Tag: search-engine
 
-*5 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [burntcarrot/hashsearch](https://github.com/burntcarrot/hashsearch) | Reverse image search using perceptual hashes. 🔍 | `Go` ★ 21 | 2022-12-04 |
-| [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust | `Rust` ★ 14.7k | 2026-03-02 |
-| [magwyz/pastec](https://github.com/magwyz/pastec) | Image recognition open source index and search engine | `C++` ★ 625 | 2023-01-09 |
-| [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | Free and Open Source, Distributed, RESTful Search Engine | `Java` ★ 76.3k | 2026-03-09 |
-| [jprante/elasticsearch-jdbc](https://github.com/jprante/elasticsearch-jdbc) | JDBC importer for Elasticsearch | `Java` ★ 2.8k | 2021-11-05 |
+| [raphaelsty/knowledge](https://github.com/raphaelsty/knowledge) | Open-source personal bookmarks search engine | `Python` ★ 729 | 2026-03-10 |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant) | Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/ | `Rust` ★ 29.4k | 2026-03-10 |
+| [typesense/typesense](https://github.com/typesense/typesense) | Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to Elastic Search ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences | `C++` ★ 25.3k | 2026-03-09 |
+| [ItzCrazyKns/Vane](https://github.com/ItzCrazyKns/Vane) | Vane is an AI-powered answering engine. | `TypeScript` ★ 32.5k | 2026-03-09 |

@@ -1,13 +1,16 @@
 # Tag: visualization
 
-*5 repositories*
+*8 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [d3/d3](https://github.com/d3/d3) | Bring data to life with SVG, Canvas and HTML. :bar\_chart::chart\_with\_upwards\_trend::tada: | `Shell` ★ 112.5k | 2025-12-02 |
-| [OlivierCC/spfx-40-fantastics](https://github.com/OlivierCC/spfx-40-fantastics) | This package is a sample kit of Client Side Web Parts built on the Share Point Framework SPFx. You can find here different kind of high visual web parts as carousel, images galleries, animations, m... | `TypeScript` ★ 434 | 2021-05-28 |
-| [vcync/modV](https://github.com/vcync/modV) | modular audio visualisation powered by Java Script | `GLSL` ★ 487 | 2026-02-17 |
-| [chartdb/chartdb](https://github.com/chartdb/chartdb) | Database diagrams editor that allows you to visualize and design your DB with a single query. | `TypeScript` ★ 21.5k | 2026-03-04 |
-| [grafana/grafana](https://github.com/grafana/grafana) | The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, Influx DB, Postgres and many m... | `TypeScript` ★ 72.6k | 2026-03-09 |
+| [mark-when/markwhen](https://github.com/mark-when/markwhen) | Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more. | `HTML` ★ 4.8k | 2023-12-11 |
+| [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) | No description provided | ★ 1.8k | 2026-01-19 |
+| [originalankur/maptoposter](https://github.com/originalankur/maptoposter) | Transform your favorite cities into beautiful, minimalist designs. Map To Poster lets you create and export visually striking map posters with code. | `Python` ★ 11.8k | 2026-03-04 |
+| [3b1b/manim](https://github.com/3b1b/manim) | Animation engine for explanatory math videos | `Python` ★ 85.1k | 2026-02-13 |
+| [antvis/Infographic](https://github.com/antvis/Infographic) | 🦋 An Infographic Generation and Rendering Framework, bring words to life with AI! | `TypeScript` ★ 4.6k | 2026-03-05 |
+| [maxandrews/Epstein-doc-explorer](https://github.com/maxandrews/Epstein-doc-explorer) | a graph explorer of the Epstein emails | `JavaScript` ★ 562 | 2025-11-20 |
+| [datavzrd/datavzrd](https://github.com/datavzrd/datavzrd) | A tool to create visual HTML reports from collections of CSV/TSV tables | `Rust` ★ 672 | 2026-03-02 |

@@ -1,12 +1,11 @@
 # Tag: websocket
 
-*4 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [ninenines/cowlib](https://github.com/ninenines/cowlib) | Support library for manipulating Web protocols. | `Erlang` ★ 291 | 2025-11-06 |
-| [obs-websocket-community-projects/obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) | Consumes https://github.com/obsproject/obs-websocket | `TypeScript` ★ 757 | 2025-11-09 |
-| [aatikturk/obsws-python](https://github.com/aatikturk/obsws-python) | A Python SDK for OBS Studio Web Socket v5.0 | `Python` ★ 121 | 2025-07-01 |
-| [yudai/gotty](https://github.com/yudai/gotty) | Share your terminal as a web application | `Go` ★ 19.4k | 2024-08-01 |
+| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool | `JavaScript` ★ 83.9k | 2026-03-10 |
+| [nccgroup/wssip](https://github.com/nccgroup/wssip) | Application for capturing, modifying and sending custom Web Socket data from client to server and vice versa. | `JavaScript` ★ 451 | 2022-12-08 |

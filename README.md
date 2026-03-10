@@ -1,42 +1,42 @@
 # Awesome Starred Repositories
 
-> A curated list of **2392** repositories across **25** categories, automatically classified and organized.
+> A curated list of **1197** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-03-09
+Last updated: 2026-03-10
 
 ## ⭐ Recently Starred
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/vscode-extension-samples](https://github.com/microsoft/vscode-extension-samples) | Sample code illustrating the VS Code extension API. | `TypeScript` ★ 10k | 2026-02-12 |
-| [pyupio/safety](https://github.com/pyupio/safety) | Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected. | `Python` ★ 2k | 2026-03-04 |
-| [postgres-ai/database-lab-engine](https://github.com/postgres-ai/database-lab-engine) | DBLab enables 🖖 database branching and ⚡️ thin cloning for any Postgres database and empowers DB testing in CI/CD. This optimizes database-related costs while improving time-to-market and software... | `Go` ★ 2.4k | 2026-03-06 |
-| [go-gitea/gitea](https://github.com/go-gitea/gitea) | Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD | `Go` ★ 54.2k | 2026-03-09 |
-| [sindresorhus/open](https://github.com/sindresorhus/open) | Open stuff like URLs, files, executables. Cross-platform. | `JavaScript` ★ 3.5k | 2025-11-15 |
-| [QwenLM/Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) | Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice... | `Python` ★ 9.2k | 2026-02-06 |
-| [isaiahbjork/expo-kokoro-onnx](https://github.com/isaiahbjork/expo-kokoro-onnx) | Run Kokoro TTS locally on device using Expo & ONNX Runtime | `TypeScript` ★ 71 | 2025-05-08 |
-| [readest/readest](https://github.com/readest/readest) | Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience. | `TypeScript` ★ 18.6k | 2026-03-08 |
-| [babysor/MockingBird](https://github.com/babysor/MockingBird) | 🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time | `Python` ★ 36.9k | 2026-03-03 |
-| [gradiuscypher/infosec_getting_started](https://github.com/gradiuscypher/infosec_getting_started) | A collection of resources/documentation/links/etc to help people learn about Infosec and break into the field. | `HTML` ★ 612 | 2025-01-11 |
+| [cloudfoundry/cloud-service-broker](https://github.com/cloudfoundry/cloud-service-broker) | OSBAPI service broker that uses Terraform to provision and bind services. Derived from https://github.com/Google Cloud Platform/gcp-service-broker | `Go` ★ 84 | 2026-03-09 |
+| [FedRAMP/roadmap](https://github.com/FedRAMP/roadmap) | Fed RAMP's Public High Level Roadmap | `Shell` ★ 26 | 2026-02-02 |
+| [jdx/fnox](https://github.com/jdx/fnox) | encrypted/remote secret manager | `Rust` ★ 1.3k | 2026-03-09 |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | CLI-Anything: Making ALL Software Agent-Native | `Python` ★ 1.3k | 2026-03-09 |
+| [InsForge/InsForge](https://github.com/InsForge/InsForge) | Give agents everything they need to ship fullstack apps. The backend built for agentic development. | `TypeScript` ★ 2k | 2026-03-10 |
+| [viralcode/vib-OS](https://github.com/viralcode/vib-OS) | World's First Vibecoded AI Operating System | `C` ★ 369 | 2026-01-29 |
+| [FurkanGozukara/Stable-Diffusion](https://github.com/FurkanGozukara/Stable-Diffusion) | FLUX, Stable Diffusion, SDXL, SD3, Lo RA, Fine Tuning, Dream Booth, Training, Automatic1111, Forge Web UI, Swarm UI, Deep Fake, TTS, Animation, Text To Video, Tutorials, Guides, Lectures, Courses, ... | `JavaScript` ★ 2.6k | 2026-02-24 |
+| [kaito-tokyo/live-backgroundremoval-lite](https://github.com/kaito-tokyo/live-backgroundremoval-lite) | A high-performance, crash-resistant OBS plugin for real-time background removal. Optimized for minimal CPU/GPU usage without a green screen. | `C` ★ 40 | 2026-03-08 |
+| [shihan84/obs-profile-generator](https://github.com/shihan84/obs-profile-generator) | A comprehensive, self-hosted OBS Studio profile generator that works across Windows, Linux, and mac OS. Create custom OBS Studio profiles with an intuitive web interface, preset templates, and cros... | `TypeScript` ★ 4 | 2025-09-08 |
+| [areeba0/Image-Segmentation-with-Lazy-Snapping-and-K-Means-Clustering](https://github.com/areeba0/Image-Segmentation-with-Lazy-Snapping-and-K-Means-Clustering) | This Jupyter notebook demonstrates image segmentation using Lazy Snapping and K-Means Clustering. It showcases how these algorithms can partition an image into segments based on pixel intensity and... | `Jupyter Notebook` ★ 2 | 2024-06-17 |
 
 ## 🏷️ Popular Tags
 
-[awesome-list](tags/awesome-list.md) (35) • [parser](tags/parser.md) (34) • [windows](tags/windows.md) (30) • [stable-diffusion](tags/stable-diffusion.md) (30) • [ndi](tags/ndi.md) (24) • [azure](tags/azure.md) (23) • [deep-learning](tags/deep-learning.md) (21) • [automation](tags/automation.md) (18) • [home-assistant](tags/home-assistant.md) (18) • [llm](tags/llm.md) (17) • [react](tags/react.md) (16) • [ai](tags/ai.md) (15) • [cross-platform](tags/cross-platform.md) (15) • [docker](tags/docker.md) (14) • [php](tags/php.md) (13) • [laravel](tags/laravel.md) (13) • [cli](tags/cli.md) (12) • [machine-learning](tags/machine-learning.md) (12) • [cities-skylines-2](tags/cities-skylines-2.md) (12) • [tauri](tags/tauri.md) (11) • [text-to-speech](tags/text-to-speech.md) (11) • [resources](tags/resources.md) (11) • [self-hosted](tags/self-hosted.md) (10) • [open-source](tags/open-source.md) (10) • [nodejs](tags/nodejs.md) (10) • [chatgpt](tags/chatgpt.md) (10) • [awesome](tags/awesome.md) (10) • [typescript](tags/typescript.md) (9) • [image-processing](tags/image-processing.md) (9) • [privacy](tags/privacy.md) (9)
+[azure](tags/azure.md) (55) • [ai](tags/ai.md) (51) • [react](tags/react.md) (41) • [cli](tags/cli.md) (39) • [parser](tags/parser.md) (36) • [llm](tags/llm.md) (33) • [automation](tags/automation.md) (31) • [nextjs](tags/nextjs.md) (27) • [awesome-list](tags/awesome-list.md) (27) • [ai-agents](tags/ai-agents.md) (26) • [self-hosted](tags/self-hosted.md) (23) • [windows](tags/windows.md) (23) • [typescript](tags/typescript.md) (20) • [cross-platform](tags/cross-platform.md) (19) • [nodejs](tags/nodejs.md) (17) • [ai-tools](tags/ai-tools.md) (15) • [markdown](tags/markdown.md) (15) • [docker](tags/docker.md) (14) • [deep-learning](tags/deep-learning.md) (13) • [privacy](tags/privacy.md) (13) • [machine-learning](tags/machine-learning.md) (13) • [mcp](tags/mcp.md) (12) • [openai](tags/openai.md) (12) • [high-performance](tags/high-performance.md) (12) • [dashboard](tags/dashboard.md) (12) • [ai-agent](tags/ai-agent.md) (12) • [cli-tool](tags/cli-tool.md) (12) • [open-source](tags/open-source.md) (11) • [resources](tags/resources.md) (11) • [cybersecurity](tags/cybersecurity.md) (10)
 
 <details>
 <summary>📂 All Categories (25)</summary>
 
 | | | |
 |---|---|---|
-| [unclassified](categories/unclassified.md) (1423) | [productivity](categories/productivity.md) (262) | [ai-ml](categories/ai-ml.md) (230) |
-| [system-admin](categories/system-admin.md) (147) | [web-dev](categories/web-dev.md) (145) | [automation](categories/automation.md) (140) |
-| [ui-libraries](categories/ui-libraries.md) (113) | [dev-tools](categories/dev-tools.md) (107) | [data-science](categories/data-science.md) (105) |
-| [security](categories/security.md) (103) | [desktop-dev](categories/desktop-dev.md) (103) | [apis](categories/apis.md) (100) |
-| [networking](categories/networking.md) (89) | [learning](categories/learning.md) (80) | [documentation](categories/documentation.md) (68) |
-| [embedded](categories/embedded.md) (64) | [cloud](categories/cloud.md) (53) | [game-dev](categories/game-dev.md) (41) |
-| [frameworks](categories/frameworks.md) (37) | [mobile-dev](categories/mobile-dev.md) (26) | [databases](categories/databases.md) (23) |
-| [monitoring](categories/monitoring.md) (19) | [containers](categories/containers.md) (16) | [testing](categories/testing.md) (12) |
-| [deployment](categories/deployment.md) (8) |  |  |
+| [ai-ml](categories/ai-ml.md) (360) | [productivity](categories/productivity.md) (348) | [web-dev](categories/web-dev.md) (191) |
+| [dev-tools](categories/dev-tools.md) (180) | [automation](categories/automation.md) (174) | [security](categories/security.md) (145) |
+| [ui-libraries](categories/ui-libraries.md) (145) | [system-admin](categories/system-admin.md) (140) | [data-science](categories/data-science.md) (133) |
+| [documentation](categories/documentation.md) (123) | [apis](categories/apis.md) (117) | [cloud](categories/cloud.md) (110) |
+| [learning](categories/learning.md) (96) | [networking](categories/networking.md) (68) | [desktop-dev](categories/desktop-dev.md) (68) |
+| [databases](categories/databases.md) (34) | [monitoring](categories/monitoring.md) (34) | [testing](categories/testing.md) (32) |
+| [frameworks](categories/frameworks.md) (31) | [game-dev](categories/game-dev.md) (31) | [mobile-dev](categories/mobile-dev.md) (24) |
+| [embedded](categories/embedded.md) (22) | [unclassified](categories/unclassified.md) (21) | [containers](categories/containers.md) (21) |
+| [deployment](categories/deployment.md) (21) |  |  |
 
 </details>
 

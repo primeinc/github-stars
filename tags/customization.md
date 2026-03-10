@@ -1,14 +1,17 @@
 # Tag: customization
 
-*6 repositories*
+*9 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [dcordero/FocusTvButton](https://github.com/dcordero/FocusTvButton) | Light wrapper of UIButton that allows extra customization for tv OS | `Swift` ★ 77 | 2025-09-17 |
-| [MkQtS/Carefree](https://github.com/MkQtS/Carefree) | An elegant Potplayer skin | ★ 40 | 2024-01-09 |
-| [kimlimjustin/xplorer](https://github.com/kimlimjustin/xplorer) | Xplorer, a customizable, modern file manager | `TypeScript` ★ 5.4k | 2025-06-16 |
-| [tjackenpacken/taskbar-groups](https://github.com/tjackenpacken/taskbar-groups) | Lightweight utility for organizing the taskbar through groups | `C#` ★ 2.7k | 2024-07-04 |
-| [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) | This project aims to enhance the working environment on Windows | `C` ★ 31.8k | 2025-11-03 |
-| [starship/starship](https://github.com/starship/starship) | ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell! | `Rust` ★ 54.6k | 2026-03-09 |
+| [prabirshrestha/dotfiles](https://github.com/prabirshrestha/dotfiles) | There is no place like ~ | `Lua` ★ 94 | 2026-03-09 |
+| [memstechtips/Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | `C#` ★ 6.7k | 2026-03-09 |
+| [builtbybel/FlyOOBE](https://github.com/builtbybel/FlyOOBE) | Fly through your Windows 11 setup 🐝 | `C#` ★ 6.7k | 2026-01-04 |
+| [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 34.4k | 2026-03-09 |
+| [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, input pattern highlighters, themes/thinking verbs/spinners, customize input box & user message styling, support AGENTS.md, unlock pri... | `TypeScript` ★ 1.3k | 2026-03-10 |
+| [ramensoftware/windhawk](https://github.com/ramensoftware/windhawk) | The customization marketplace for Windows programs: https://windhawk.net/ | `C++` ★ 7.3k | 2025-12-08 |
+| [ikas-mc/ContextMenuForWindows11](https://github.com/ikas-mc/ContextMenuForWindows11) | Add Custom Context Menu For Windows11 | `C#` ★ 2.7k | 2026-03-05 |
+| [Aprotonix/Rainbow-Music-Visualizer-Wallpaper](https://github.com/Aprotonix/Rainbow-Music-Visualizer-Wallpaper) | Customizable Live Wallpaper showing the music and date | `JavaScript` ★ 16 | 2025-06-15 |
+| [joelshepherd/tabliss](https://github.com/joelshepherd/tabliss) | A beautiful, customisable New Tab page for Firefox, Chrome, and Edge. | `TypeScript` ★ 2.7k | 2024-08-19 |

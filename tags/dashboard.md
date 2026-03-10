@@ -1,14 +1,20 @@
 # Tag: dashboard
 
-*6 repositories*
+*12 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Lissy93/dashy](https://github.com/Lissy93/dashy) | 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more! | `Vue` ★ 24.2k | 2026-03-08 |
-| [caspii/dinkydash](https://github.com/caspii/dinkydash) | A family dashboard for kids | `HTML` ★ 91 | 2026-02-28 |
-| [dwainscheeren/dwains-lovelace-dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) | An fully auto generating Home Assistant UI dashboard for desktop, tablet and mobile by Dwains for desktop, tablet, mobile | `JavaScript` ★ 2k | 2025-09-01 |
-| [causefx/iDashboard-PHP](https://github.com/causefx/iDashboard-PHP) | HTPC Dashboard to load website services, written in PHP | `JavaScript` ★ 125 | 2017-04-17 |
-| [danodemano/monitoring-scripts](https://github.com/danodemano/monitoring-scripts) | A dump of the scripts used to monitor my environment and write to Influx DB. Also includes my dashboard export. | `Shell` ★ 110 | 2016-08-30 |
-| [tariqbuilds/linux-dash](https://github.com/tariqbuilds/linux-dash) | A beautiful web dashboard for Linux | `JavaScript` ★ 10.6k | 2024-04-16 |
+| [homarr-labs/homarr](https://github.com/homarr-labs/homarr) | A modern and easy to use dashboard. 30+ integrations. 10K+ icons built in. Authentication out of the box. No YAML, drag and drop configuration. | `TypeScript` ★ 3.1k | 2026-03-10 |
+| [s1t5/mail-archiver](https://github.com/s1t5/mail-archiver) | Mail-Archiver is a web application for archiving, searching, and exporting emails from multiple accounts. Featuring folder sync, attachment support, mailbox migration and a dashboard. | `C#` ★ 1.7k | 2026-03-06 |
+| [Lissy93/domain-locker](https://github.com/Lissy93/domain-locker) | 🌐 The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker! | `TypeScript` ★ 1.2k | 2026-03-05 |
+| [sitespeedio/sitespeed.io](https://github.com/sitespeedio/sitespeed.io) | sitespeed.io is an open-source tool for comprehensive web performance analysis, enabling you to test, monitor, and optimize your website’s speed using real browsers in various environments. | `JavaScript` ★ 5k | 2026-03-02 |
+| [kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp) | A Kubernetes web UI that is fully-featured, user-friendly and extensible | `TypeScript` ★ 5.9k | 2026-03-09 |
+| [knadh/listmonk](https://github.com/knadh/listmonk) | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app. | `Go` ★ 19.2k | 2026-03-09 |
+| [rcourtman/Pulse](https://github.com/rcourtman/Pulse) | Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unified dashboard | `Go` ★ 4.9k | 2026-03-09 |
+| [satnaing/shadcn-admin](https://github.com/satnaing/shadcn-admin) | Admin Dashboard UI built with Shadcn and Vite. | `TypeScript` ★ 11.4k | 2026-02-11 |
+| [tremorlabs/tremor-blocks](https://github.com/tremorlabs/tremor-blocks) | Tremor Blocks Source Code | `TypeScript` ★ 487 | 2025-01-22 |
+| [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) | 👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro! | `TypeScript` ★ 38k | 2026-03-07 |
+| [Build5Nines/azd-react-bootstrap-dashboard](https://github.com/Build5Nines/azd-react-bootstrap-dashboard) | A multi-tier app with a dashboard front-end (React + Bootstrap) hosted in Azure Static Web Apps and back-end API (Node.js) hosted in Azure App Service | `Bicep` ★ 1 | 2025-01-02 |
+| [matiasmenares/Nissboard](https://github.com/matiasmenares/Nissboard) | 🚗 Nissan Consult/OBDII Realtime Dashboard | `JavaScript` ★ 53 | 2023-01-05 |

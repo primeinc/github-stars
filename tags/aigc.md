@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [lobehub/lobe-ui](https://github.com/lobehub/lobe-ui) | 🍭 Lobe UI - an open-source UI component library for building AIGC web apps | `TypeScript` ★ 1.8k | 2026-03-08 |
-| [phodal/auto-dev](https://github.com/phodal/auto-dev) | 🧙‍Auto Dev: the AI-native Multi-Agent development platform built on Kotlin Multiplatform, covering all 7 phases of SDLC. | `Kotlin` ★ 4.4k | 2026-03-08 |
+| [HKUDS/ViMax](https://github.com/HKUDS/ViMax) | "Vi Max: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)" | `Python` ★ 2.4k | 2026-02-28 |
+| [Phantom-video/Phantom](https://github.com/Phantom-video/Phantom) | Phantom: Subject-Consistent Video Generation via Cross-Modal Alignment | `Python` ★ 1.5k | 2025-09-11 |
