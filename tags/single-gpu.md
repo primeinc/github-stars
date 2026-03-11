@@ -1,4 +1,4 @@
-# Tag: research
+# Tag: single-gpu
 
 *2 repositories*
 
