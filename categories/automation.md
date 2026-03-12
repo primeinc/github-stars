@@ -1,27 +1,30 @@
 # Automation
 
-*17 repositories*
+*20 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 87 | 2026-03-09 |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 23.4k | 2026-03-09 |
-| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | CLI-Anything: Making ALL Software Agent-Native | `Python` ★ 3k | 2026-03-10 |
-| [pyupio/safety](https://github.com/pyupio/safety) | Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected. | `Python` ★ 2k | 2026-03-10 |
-| [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Svelte` ★ 290 | 2026-03-10 |
-| [SpecterShell/Dumplings](https://github.com/SpecterShell/Dumplings) | Dump remote resources and lint outdated packages | `PowerShell` ★ 41 | 2026-03-11 |
-| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. | `JavaScript` ★ 12k | 2026-03-11 |
+| [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 120 | 2026-03-11 |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 26.5k | 2026-03-11 |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | CLI-Anything: Making ALL Software Agent-Native | `Python` ★ 5.9k | 2026-03-11 |
+| [pyupio/safety](https://github.com/pyupio/safety) | Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected. | `Python` ★ 2k | 2026-03-11 |
+| [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Svelte` ★ 291 | 2026-03-11 |
+| [SpecterShell/Dumplings](https://github.com/SpecterShell/Dumplings) | Dump remote resources and lint outdated packages | `PowerShell` ★ 41 | 2026-03-12 |
+| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. | `JavaScript` ★ 12k | 2026-03-12 |
 | [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the ... | `Go` ★ 27.4k | 2026-03-09 |
-| [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | ROS 2 Navigation Framework and System | `C++` ★ 4k | 2026-03-10 |
+| [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | ROS 2 Navigation Framework and System | `C++` ★ 4k | 2026-03-11 |
 | [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks | `Go` ★ 9.4k | 2026-03-11 |
 | [PV-Bhat/vibe-check-mcp-server](https://github.com/PV-Bhat/vibe-check-mcp-server) | Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-e... | `TypeScript` ★ 479 | 2026-02-11 |
-| [daobataotie/CAD-MCP](https://github.com/daobataotie/CAD-MCP) | CAD MCP Server | `Python` ★ 257 | 2025-07-21 |
-| [stacklok/toolhive](https://github.com/stacklok/toolhive) | Tool Hive makes deploying MCP servers easy, secure and fun | `Go` ★ 1.6k | 2026-03-11 |
+| [daobataotie/CAD-MCP](https://github.com/daobataotie/CAD-MCP) | CAD MCP Server | `Python` ★ 258 | 2025-07-21 |
+| [stacklok/toolhive](https://github.com/stacklok/toolhive) | Tool Hive makes deploying MCP servers easy, secure and fun | `Go` ★ 1.6k | 2026-03-12 |
 | [MxIris-Reverse-Engineering/ida-mcp-server](https://github.com/MxIris-Reverse-Engineering/ida-mcp-server) | A Model Context Protocol server for IDA | `Python` ★ 524 | 2025-05-29 |
 | [echelon-ai-labs/servicenow-mcp](https://github.com/echelon-ai-labs/servicenow-mcp) | MCP Server for Service Now | `Python` ★ 215 | 2025-10-03 |
-| [MCPJam/inspector](https://github.com/MCPJam/inspector) | Test & Debug MCP servers, Chat GPT apps, and MCP Apps (ext-apps) | `TypeScript` ★ 1.8k | 2026-03-10 |
-| [GH05TCREW/MetasploitMCP](https://github.com/GH05TCREW/MetasploitMCP) | MCP Server for Metasploit | `Python` ★ 519 | 2026-02-05 |
+| [MCPJam/inspector](https://github.com/MCPJam/inspector) | Test & Debug MCP servers, Chat GPT apps, and MCP Apps (ext-apps) | `TypeScript` ★ 1.8k | 2026-03-12 |
+| [GH05TCREW/MetasploitMCP](https://github.com/GH05TCREW/MetasploitMCP) | MCP Server for Metasploit | `Python` ★ 521 | 2026-02-05 |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader | `Python` ★ 150.7k | 2026-03-11 |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome Dev Tools for coding agents | `TypeScript` ★ 28.6k | 2026-03-11 |
+| [ServiceNow/BrowserGym](https://github.com/ServiceNow/BrowserGym) | 🌎💪 Browser Gym, a Gym environment for web task automation | `Python` ★ 1.1k | 2026-02-10 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
