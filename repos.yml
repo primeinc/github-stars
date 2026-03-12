@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-12T04:02:12.305Z'
+  manifest_updated_at: '2026-03-12T04:02:41.842Z'
   total_repos: 997
   generator_version: v1.0.0
   github_user: primeinc
@@ -29262,13 +29262,16 @@ repositories:
     framework: null
   - repo: RodericAguilar/Pr_Elevators
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - elevators
+      - fivem
+      - lang:lua
     summary: Free fivem elevator scripts, works without framework.
     last_synced_sha: 06b33ae31f95c71dd2b92989d76941c578bef214
     user_starred_at: '2025-11-11T17:35:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics: []
@@ -29286,15 +29289,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.640Z'
+      prompt_version: v3
   - repo: TMElyralab/MuseTalk
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - game-dev
+    tags:
+      - lip-sync
+      - latent-space
+      - real-time
+      - lang:python
     summary: 'Muse Talk: Real-Time High Quality Lip Synchorization with Latent Space Inpainting'
     last_synced_sha: 0a89dec45a0192b824e3cf4daf96c239440c5ed8
     user_starred_at: '2025-11-11T17:35:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -29314,15 +29326,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.640Z'
+      prompt_version: v3
   - repo: serverless-dns/serverless-dns
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - dev-tools
+      - cloud
+    tags:
+      - dns
+      - serverless
+      - lang:js
     summary: The Rethink DNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io
     last_synced_sha: 14f4e9668caf629b04a3214aab74138b85a9a9c3
     user_starred_at: '2025-11-11T17:34:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -29354,15 +29375,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.640Z'
+      prompt_version: v3
   - repo: microsoft/ai-agents-for-beginners
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - ai-agents
+      - generative-ai
+      - lang:jupyter-notebook
     summary: 12 Lessons to Get Started Building AI Agents
     last_synced_sha: 5596a4dbdf1f0be8c051b5cd6ba9b8ae78210b4d
     user_starred_at: '2025-11-11T17:34:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -29388,15 +29417,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.640Z'
+      prompt_version: v3
   - repo: google/adk-web
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+      - dev-tools
+    tags:
+      - developer-ui
+      - agent-development
+      - lang:ts
     summary: Agent Development Kit Web (adk web) is the built-in developer UI that is integrated with Agent Development Kit for easier agent development and debugging.
     last_synced_sha: cfa707735bb90eccf9a5c842aa13d06068cba8ad
     user_starred_at: '2025-11-11T17:34:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -29414,15 +29452,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.640Z'
+      prompt_version: v3
   - repo: WICG/email-verification-protocol
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+    tags:
+      - email-verification
+      - autofill
     summary: verified autofill
     last_synced_sha: d8413c8541a28605aa49d2d06656acefd3b77849
     user_starred_at: '2025-11-11T17:34:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -29440,15 +29485,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.640Z'
+      prompt_version: v3
   - repo: LizardByte/Sunshine
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - system-admin
+      - containers
+    tags:
+      - game-streaming
+      - remote-desktop
+      - lang:cpp
     summary: Self-hosted game stream host for Moonlight.
     last_synced_sha: b3f0e2370ce86caccbdfa5227c8ea224e552c4bc
     user_starred_at: '2025-11-11T17:33:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -29485,15 +29539,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.640Z'
+      prompt_version: v3
   - repo: google/adk-docs
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - ai-agents
+      - lang:python
+      - toolkit
     summary: An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
     last_synced_sha: 87019788e036fdf88bd2f682418c24a46b50c2cc
     user_starred_at: '2025-11-11T17:33:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -29511,15 +29573,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.640Z'
+      prompt_version: v3
   - repo: opencloud-eu/opencloud
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - productivity
+      - web-dev
+    tags:
+      - file-management
+      - sharing
+      - lang:go
     summary: 🌤️ Open Cloud is the open source platform for file management, sharing and collaboration. Simple and sovereign.
     last_synced_sha: fc532634b51ea17c39e3a35c280d2162bc39b8f1
     user_starred_at: '2025-11-11T17:33:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -29539,15 +29610,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.640Z'
+      prompt_version: v3
   - repo: NginxProxyManager/nginx-proxy-manager
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - containers
+      - web-dev
+    tags:
+      - nginx
+      - docker
+      - lang:ts
     summary: Docker container for managing Nginx proxy hosts with a simple, powerful interface
     last_synced_sha: 15896132ff4b98fdd11925c77f086b4eeaf00236
     user_starred_at: '2025-11-11T17:32:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29569,15 +29649,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.640Z'
+      prompt_version: v3
   - repo: topoteretes/cognee
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+      - learning
+    tags:
+      - vector-database
+      - cognitive-architecture
+      - lang:python
     summary: Knowledge Engine for AI Agent Memory in 6 lines of code
     last_synced_sha: af1b8dd6431aeebebfa5be168343d4d9aaff3caa
     user_starred_at: '2025-11-11T17:32:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -29617,15 +29706,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.640Z'
+      prompt_version: v3
   - repo: ggml-org/llama.cpp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - llm
+      - inference
+      - lang:cpp
     summary: LLM inference in C/C++
     last_synced_sha: d63aa398de455cf8243802c5099dc30a2e26edcc
     user_starred_at: '2025-11-11T17:32:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -29646,15 +29743,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.640Z'
+      prompt_version: v3
   - repo: lutzroeder/netron
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - ui-libraries
+    tags:
+      - visualizer
+      - neural-network
+      - deep-learning
+      - lang:js
     summary: Visualizer for neural network, deep learning and machine learning models
     last_synced_sha: dbda79824b2ca33b34de2537a475a7fc5c149c98
     user_starred_at: '2025-11-09T10:03:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -29690,15 +29797,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.636Z'
+      prompt_version: v3
   - repo: ExoFi-Labs/Nexface
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:python
     summary: No description provided
     last_synced_sha: 695076c9d2532bb05a63051b1a78e07dae2c4e7b
     user_starred_at: '2025-11-08T02:36:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -29716,15 +29828,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.636Z'
+      prompt_version: v3
   - repo: Gourieff/ComfyUI-ReActor
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - face-swapping
+      - comfyui
+      - lang:python
     summary: Fast and Simple Face Swap Extension Node for Comfy UI (SFW)
     last_synced_sha: a2a61fd5e7a6ba546eff848b0783b5fb8bada2c0
     user_starred_at: '2025-11-08T02:34:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -29747,6 +29867,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T04:02:40.636Z'
+      prompt_version: v3
   - repo: mudler/LocalAI
     categories:
       - ai-ml
