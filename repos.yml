@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-12T03:59:11.051Z'
+  manifest_updated_at: '2026-03-12T03:59:40.382Z'
   total_repos: 997
   generator_version: v1.0.0
   github_user: primeinc
@@ -32270,13 +32270,19 @@ repositories:
     framework: null
   - repo: jynew/jynew
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - frameworks
+    tags:
+      - rpg
+      - unity
+      - jin-yong
+      - modding
+      - lang:csharp
     summary: Jin Yong Legend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game.
     last_synced_sha: 23dd9cb2dfd1afb61ed909c0c44a12ce8d7de891
     user_starred_at: '2025-10-19T19:29:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -32299,15 +32305,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.272Z'
+      prompt_version: v3
   - repo: clockworklabs/SpacetimeDB
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - game-dev
+    tags:
+      - relational-database
+      - mmorpg-server
+      - data-oriented
+      - lang:rust
     summary: Development at the speed of light
     last_synced_sha: 18d4fbc32036b40b53985472be79b5dde8dcae26
     user_starred_at: '2025-10-19T19:28:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -32335,15 +32350,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.272Z'
+      prompt_version: v3
   - repo: microsoft/vcpkg
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - package-manager
+      - libraries
+      - cross-platform
+      - cpp
+      - lang:cmake
     summary: C++ Library Manager for Windows, Linux, and Mac OS
     last_synced_sha: dd306f32e07d87fdb16837af64f33b6b415c770a
     user_starred_at: '2025-10-19T19:28:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CMake
       topics:
@@ -32373,15 +32398,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.272Z'
+      prompt_version: v3
   - repo: myshell-ai/OpenVoice
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - voice-cloning
+      - tts
+      - audio-model
+      - zero-shot
+      - lang:python
     summary: Instant voice cloning by MIT and My Shell. Audio foundation model.
     last_synced_sha: 74a1d147b17a8c3092dd5430504bd83ef6c7eb23
     user_starred_at: '2025-10-19T19:28:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -32403,15 +32438,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.272Z'
+      prompt_version: v3
   - repo: tile-ai/tilelang
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - embedded
+    tags:
+      - dsl
+      - gpu-kernels
+      - accelerators
+      - lang:python
     summary: Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels
     last_synced_sha: 806cdd7c5d8bb9fb37b3e185f35ecc98fd0949b7
     user_starred_at: '2025-10-19T19:27:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -32431,15 +32475,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.272Z'
+      prompt_version: v3
   - repo: coleam00/Archon
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - task-management
+      - knowledge-management
+      - ai-coding
+      - lang:python
     summary: Beta release of Archon OS - the knowledge and task management backbone for AI coding assistants.
     last_synced_sha: ecaece460c1924e9a81a409aebee692146f8a301
     user_starred_at: '2025-10-19T19:23:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -32459,15 +32512,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.271Z'
+      prompt_version: v3
   - repo: volcengine/MineContext
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - context-engineering
+      - ai-agent
+      - proactive-ai
+      - embedding-models
+      - lang:python
     summary: Mine Context is your proactive context-aware AI partner（Context-Engineering+Chat GPT Pulse）
     last_synced_sha: 6df6ea48cb58be67b394dfdda50a99f8fef3422f
     user_starred_at: '2025-10-19T19:23:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -32500,16 +32563,26 @@ repositories:
         published_at: '2026-01-28T09:51:23Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.271Z'
+      prompt_version: v3
   - repo: sapientinc/HRM
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - deep-learning
+      - reasoning
+      - llm
+      - brain-inspired-ai
+      - lang:python
     summary: Hierarchical Reasoning Model Official Release
     last_synced_sha: 42410daaaf6ac8b266536d105a6e2362ffe40929
     user_starred_at: '2025-10-19T19:22:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -32531,15 +32604,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.271Z'
+      prompt_version: v3
   - repo: supermemoryai/supermemory
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+      - apis
+    tags:
+      - memory-engine
+      - cloudflare
+      - tailwindcss
+      - agent-memory
+      - lang:ts
     summary: Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.
     last_synced_sha: 2470d81486d0812317012ca75070e0eafd60e1ed
     user_starred_at: '2025-10-19T19:22:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -32569,15 +32653,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.271Z'
+      prompt_version: v3
   - repo: karpathy/nanoGPT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - gpt
+      - deep-learning
+      - finetuning
+      - lang:python
     summary: The simplest, fastest repository for training/finetuning medium-sized GPTs.
     last_synced_sha: 3adf61e154c3fe3fca428ad6bc3818b27a3b8291
     user_starred_at: '2025-10-19T19:20:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -32595,15 +32688,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.271Z'
+      prompt_version: v3
   - repo: karpathy/nanochat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - chatgpt
+      - ai
+      - chatbot
+      - lang:python
     summary: The best Chat GPT that $100 can buy.
     last_synced_sha: f06860494848db080c9a80a0ffa83203b042056b
     user_starred_at: '2025-10-19T19:20:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -32621,15 +32723,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.271Z'
+      prompt_version: v3
   - repo: atuinsh/atuin
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - shell-history
+      - zsh
+      - bash
+      - lang:rust
     summary: ✨ Magical shell history
     last_synced_sha: 4a113012427b80cb82f5aefd26d369a3d460b5ff
     user_starred_at: '2025-10-19T19:17:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -32655,15 +32766,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.271Z'
+      prompt_version: v3
   - repo: atuinsh/desktop
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - runbooks
+      - tasks
+      - automation
+      - lang:ts
     summary: 📖 Runbooks that run
     last_synced_sha: 06102dcd77f5564a08fbba2ac4a29c1b7deb27d0
     user_starred_at: '2025-10-19T19:17:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -32683,15 +32803,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.271Z'
+      prompt_version: v3
   - repo: mountain-loop/yaak
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+      - desktop-dev
+    tags:
+      - http-client
+      - grpc
+      - graphql
+      - websocket
+      - lang:ts
     summary: The most intuitive desktop API client. Organize and execute REST, Graph QL, Web Sockets, Server Sent Events, and g RPC 🦬
     last_synced_sha: c8ba35e268f17d633874bdffe135d9fc6d4c2216
     user_starred_at: '2025-10-19T19:16:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -32721,15 +32852,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.271Z'
+      prompt_version: v3
   - repo: TheAlgorithms/TypeScript
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - data-science
+    tags:
+      - algorithms
+      - data-structures
+      - hacktoberfest
+      - lang:ts
     summary: Algorithms and Data Structures implemented in Type Script for beginners, following best practices.
     last_synced_sha: 19b4ced86c99815f142d4a46a028f55487b8038a
     user_starred_at: '2025-10-19T19:15:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -32751,6 +32891,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:39.271Z'
+      prompt_version: v3
   - repo: TheAlgorithms/Python
     categories:
       - learning
