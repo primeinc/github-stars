@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-12T03:58:39.671Z'
+  manifest_updated_at: '2026-03-12T03:59:11.051Z'
   total_repos: 997
   generator_version: v1.0.0
   github_user: primeinc
@@ -32753,13 +32753,19 @@ repositories:
     framework: null
   - repo: TheAlgorithms/Python
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - lang:python
+      - algorithms
+      - education
+      - sorting-algorithms
+      - data-structures
     summary: All Algorithms implemented in Python
     last_synced_sha: 135c748e55a415f5c61af49024b688dd8708bf83
     user_starred_at: '2025-10-19T19:12:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -32791,15 +32797,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.075Z'
+      prompt_version: v3
   - repo: ThinkInAIXYZ/deepchat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+      - web-dev
+    tags:
+      - ai-assistant
+      - chatbot
+      - chatgpt
+      - lang:ts
+      - cross-platform
     summary: 🐬Deep Chat - A smart assistant that connects powerful AI to your personal world
     last_synced_sha: e1a089b27295d9f33dbeddeaa88fc82a224f6324
     user_starred_at: '2025-10-19T19:12:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -32838,15 +32855,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.075Z'
+      prompt_version: v3
   - repo: nanobrowser/nanobrowser
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+      - web-dev
+    tags:
+      - chrome-extension
+      - web-automation
+      - ai-agents
+      - lang:ts
+      - multi-agent
     summary: Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to Open AI Operator.
     last_synced_sha: 322384f8b4d48d8614343e51efca68c85e64f90b
     user_starred_at: '2025-10-19T19:07:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -32886,15 +32914,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.074Z'
+      prompt_version: v3
   - repo: tauri-apps/tauri
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - mobile-dev
+      - ui-libraries
+    tags:
+      - lang:rust
+      - webview
+      - native-apps
+      - desktop-app
+      - mobile-app
     summary: Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
     last_synced_sha: 3f77cc1ee6112238be68383db45df4d734b38da7
     user_starred_at: '2025-10-19T19:07:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -32921,15 +32960,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.074Z'
+      prompt_version: v3
   - repo: spipm/Depixelization_poc
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - lang:python
+      - image-processing
+      - depixelization
     summary: Depix is a Po C for a technique to recover plaintext from pixelized screenshots.
     last_synced_sha: 26c7326b2f620cced2022e4c5a250679f5113012
     user_starred_at: '2025-10-19T19:07:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -32947,15 +32994,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.074Z'
+      prompt_version: v3
   - repo: Quantco/pnpm-licenses
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - lang:ts
+      - license-generator
+      - pnpm-tooling
     summary: Generate third party license disclaimers in pnpm-based projects
     last_synced_sha: 8789336055a49da98b7fe5354b47e77ea25f040e
     user_starred_at: '2025-10-19T19:06:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -32973,15 +33028,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.074Z'
+      prompt_version: v3
   - repo: QwenLM/qwen-code
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-agent
+      - terminal-tools
+      - lang:ts
+      - automation
     summary: An open-source AI agent that lives in your terminal.
     last_synced_sha: 17581c1e8aff1ec51224b64abe47c924529906d7
     user_starred_at: '2025-10-19T19:05:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -33001,15 +33065,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.074Z'
+      prompt_version: v3
   - repo: next-safe-action/next-safe-action
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+      - productivity
+    tags:
+      - nextjs
+      - server-actions
+      - typesafe
+      - lang:ts
+      - mutations
     summary: Type safe and validated Server Actions in your Next.js project.
     last_synced_sha: 3d0c5648c3be089253d617fa0fc0c0cdbdc8d1ea
     user_starred_at: '2025-10-19T19:05:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -33043,16 +33118,25 @@ repositories:
         published_at: '2026-03-06T11:13:30Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.074Z'
+      prompt_version: v3
   - repo: pmpetit/pglinter
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - productivity
+    tags:
+      - database-linter
+      - database-rules
+      - lang:rust
+      - development
     summary: database linter rules
     last_synced_sha: c5837d7bf3497375ae19c9066515846764ca596a
     user_starred_at: '2025-10-19T19:04:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -33072,15 +33156,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.074Z'
+      prompt_version: v3
   - repo: vercel-labs/chatgpt-apps-sdk-nextjs-starter
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - lang:ts
+      - starter-kit
+      - nextjs
+      - ai-tools
     summary: No description provided
     last_synced_sha: b911c88f93c0a0a9b39d650743fb1085db39a147
     user_starred_at: '2025-10-19T19:03:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -33097,16 +33190,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.074Z'
+      prompt_version: v3
   - repo: vercel/nft
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cloud
+    tags:
+      - dependency-tracing
+      - lang:js
+      - static-analysis
+      - tooling
     summary: Node.js dependency tracing utility
     last_synced_sha: 0ce8e2c06ec88e4291746446cf8657ab3697658e
     user_starred_at: '2025-10-19T19:02:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -33127,15 +33229,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.074Z'
+      prompt_version: v3
   - repo: JustAnotherArchivist/snscrape
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+    tags:
+      - scraper
+      - lang:python
+      - social-media
+      - data-extraction
+      - social-network
     summary: A social networking service scraper in Python
     last_synced_sha: 614d4c2029a62d348ca56598f87c425966aaec66
     user_starred_at: '2025-10-19T19:02:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -33157,15 +33269,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.074Z'
+      prompt_version: v3
   - repo: opf/openproject
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - frameworks
+    tags:
+      - angular
+      - project-management
+      - scrum
+      - issue-tracker
+      - lang:ruby
     summary: Open Project is the leading open source project management software.
     last_synced_sha: 3a896072de93df8caa6f8a691aff92083091cdb7
     user_starred_at: '2025-10-19T19:01:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -33201,16 +33323,26 @@ repositories:
         published_at: '2026-03-11T10:20:34Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.074Z'
+      prompt_version: v3
   - repo: FalconOpsLLC/goexec
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - lang:go
+      - remote-access
+      - windows
+      - lateral-movement
+      - hacking
     summary: Windows remote execution multitool
     last_synced_sha: 6d0b50343a046365731cf67eb6bde04c7f4e072b
     user_starred_at: '2025-10-19T19:00:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -33237,15 +33369,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.074Z'
+      prompt_version: v3
   - repo: ultralytics/ultralytics
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deep-learning
+      - image-classification
+      - lang:python
+      - pytorch
+      - object-detection
     summary: Ultralytics YOLO 🚀
     last_synced_sha: 7710ef05dc56dfe61b20a7537f17078db2b7170b
     user_starred_at: '2025-10-19T19:00:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -33285,6 +33427,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-12T03:59:10.074Z'
+      prompt_version: v3
   - repo: coollabsio/coolify
     categories:
       - containers
