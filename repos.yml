@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T05:08:52.615Z'
+  manifest_updated_at: '2026-03-13T05:09:28.402Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -11179,13 +11179,17 @@ repositories:
     framework: null
   - repo: nrwl/nx-examples
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - learning
+    tags:
+      - nx-example
+      - monorepo
+      - lang:ts
     summary: Example repo for Nx workspace
     last_synced_sha: 1f69aa94f448011442ef7577bbf76421a421fef2
     user_starred_at: '2026-01-31T02:53:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11208,16 +11212,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: JamieMason/syncpack
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - semver
+      - monorepo
+      - version-management
+      - lang:rust
     summary: Consistent dependency versions in large Java Script Monorepos.
     last_synced_sha: 5d67392abae66196d2edc0a646a07cda1988a5fa
     user_starred_at: '2026-01-31T02:28:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -11247,15 +11260,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: nrwl/nx
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+      - frameworks
+    tags:
+      - monorepo
+      - nx-workspaces
+      - build-optimization
+      - lang:ts
     summary: The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time.
     last_synced_sha: 6b59e74586bf12451d8de75b3b2550bf793a47c4
     user_starred_at: '2026-01-30T21:47:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11291,16 +11314,24 @@ repositories:
         published_at: '2026-03-04T18:42:13Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: loeffel-io/ls-lint
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - filesystem-linter
+      - structured-projects
+      - lang:go
     summary: An extremely fast directory and filename linter - Bring some structure to your project filesystem
     last_synced_sha: 6d94ac05e648436d5e2eafcbea99357e963850ce
     user_starred_at: '2026-01-30T19:38:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -11323,15 +11354,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: cloud-gov/caulking
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - git-secrets
+      - compliance
+      - lang:shell
     summary: A small utility that keeps your Git repositories from leaking secrets, skipping hooks, or quietly drifting out of compliance. It’s designed to be boring, fast, and hard to screw up.
     last_synced_sha: 8b37a3be6eed30e96a6d9194a58d19a9624034e0
     user_starred_at: '2026-01-29T23:35:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -11349,15 +11388,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: Turfjs/turf
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - web-dev
+      - apis
+    tags:
+      - geospatial
+      - geojson
+      - gis-engine
+      - lang:ts
     summary: A modular geospatial engine written in Java Script and Type Script
     last_synced_sha: 9a3043e5503454fba5d762781db0803c063abeb1
     user_starred_at: '2026-01-29T19:32:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11386,15 +11435,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: visgl/react-map-gl
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+      - data-science
+    tags:
+      - react
+      - mapbox-gl
+      - data-visualization
+      - lang:ts
     summary: React friendly API wrapper around Mapbox GL JS
     last_synced_sha: c41e00c2d815ea38b068c98922fc2d28511c3867
     user_starred_at: '2026-01-29T19:20:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11420,16 +11479,25 @@ repositories:
         published_at: '2025-10-03T19:07:05Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: vercel-labs/skills
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+      - ai-ml
+    tags:
+      - agent-skills
+      - npx
+      - lang:ts
     summary: The open agent skills tool - npx skills
     last_synced_sha: 4f1d38eb26ce2865db4f6b0ed07a517095186c8e
     user_starred_at: '2026-01-29T16:31:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -11449,15 +11517,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: gitleaks/gitleaks
     categories:
-      - unclassified
-    tags: []
+      - security
+      - testing
+      - dev-tools
+    tags:
+      - git-secrets
+      - secret-detection
+      - devsecops
+      - lang:go
     summary: Find secrets with Gitleaks 🔑
     last_synced_sha: 8d1f98c7967eb1e79cb44ac6241a124e145d2165
     user_starred_at: '2026-01-29T16:21:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -11497,15 +11575,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: neonichu/githop
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - data-science
+    tags:
+      - bigquery
+      - github-archive
+      - analytics
+      - lang:ruby
     summary: Uses Big Query and Git Hub Archive to create something like Time Hop for Git Hub.
     last_synced_sha: 0c23810ac714161e826901cd0018fad3771c1296
     user_starred_at: '2026-01-29T16:15:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics: []
@@ -11523,15 +11610,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: notclickable-jordan/starbase-80
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - containers
+      - web-dev
+    tags:
+      - docker-homepage
+      - typescript
+      - docker
+      - lang:ts
     summary: A nice Docker homepage
     last_synced_sha: 9a8b3868bf5127e926ff4f777d9e111e7a4542e4
     user_starred_at: '2026-01-29T16:11:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11555,15 +11652,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: anonaddy/anonaddy
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+      - networking
+    tags:
+      - email-forwarding
+      - privacy
+      - pgp
+      - lang:php
     summary: Anonymous email forwarding
     last_synced_sha: fd1290f65efbee785fc0a0fcb6279b55d45a35a1
     user_starred_at: '2026-01-29T16:06:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -11586,15 +11693,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: streetwriters/notesnook
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+      - security
+    tags:
+      - note-taking
+      - encrypted
+      - react
+      - lang:ts
     summary: A fully open source & end-to-end encrypted note taking alternative to Evernote.
     last_synced_sha: b2bac3808bfa7ebecc6f1eb81956a2f9ec99e415
     user_starred_at: '2026-01-29T15:54:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11632,16 +11749,26 @@ repositories:
         published_at: '2026-03-10T04:28:06Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: six2dez/burp-ai-agent
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+      - automation
+    tags:
+      - bugbounty
+      - ai-assisted
+      - pentesting
+      - lang:kotlin
     summary: Burp Suite extension that adds built-in MCP tooling, AI-assisted analysis, privacy controls, passive and active scanning and more
     last_synced_sha: d017750ca9ea3bf0c3fc0496be21749b5424ecb1
     user_starred_at: '2026-01-29T15:52:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics:
@@ -11675,15 +11802,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: raphaelsty/knowledge
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - knowledge-base
+      - bookmarks
+      - search-engine
+      - lang:python
     summary: Open-source personal bookmarks search engine
     last_synced_sha: a430ac4fe3e1ef94a0613c898fc97a4d977fc3bb
     user_starred_at: '2026-01-29T15:37:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -11710,6 +11846,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:09:26.781Z'
+      prompt_version: v3
   - repo: forrestchang/andrej-karpathy-skills
     categories:
       - unclassified
