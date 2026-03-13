@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:49:43.689Z'
+  manifest_updated_at: '2026-03-13T04:50:12.076Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -28981,13 +28981,17 @@ repositories:
     framework: null
   - repo: MoonshotAI/kosong
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - llm-abstraction
+      - ai-agents
+      - sdk
     summary: The LLM abstraction layer for modern AI agent applications.
     last_synced_sha: 1ddade6c941b539bc5f1a19b38302c9269cd3e6b
     user_starred_at: '2025-11-12T19:47:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -29011,15 +29015,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.500Z'
+      prompt_version: v3
   - repo: longbridge/gpui-component
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - desktop-ui
+      - cross-platform
+      - ui-components
+      - rust
+      - lang:rust
     summary: Rust GUI components for building fantastic cross-platform desktop application by using GPUI.
     last_synced_sha: 10165079b9b52a6cb68ecc465db630c19e3d03c8
     user_starred_at: '2025-11-12T19:43:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -29043,15 +29057,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.500Z'
+      prompt_version: v3
   - repo: microsoft/call-center-ai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - ai-agent
+      - phone-call-api
+      - bot-calling
+      - lang:python
     summary: Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!
     last_synced_sha: 958b3192020ab8a49cabd328a873eaa70e8865bc
     user_starred_at: '2025-11-12T19:42:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -29071,15 +29094,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.500Z'
+      prompt_version: v3
   - repo: MemoriLabs/Memori
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+    tags:
+      - memory-layer
+      - llms
+      - state-management
+      - lang:python
     summary: SQL Native Memory Layer for LLMs, AI Agents & Multi-Agent Systems
     last_synced_sha: 71251530826e0807ac5f79e60b4919385dd3acc5
     user_starred_at: '2025-11-12T19:40:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -29114,15 +29146,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.500Z'
+      prompt_version: v3
   - repo: gamosoft/NoteDiscovery
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - knowledge-base
+      - self-hosted
+      - fastapi
+      - lang:js
     summary: Your Self-Hosted Knowledge Base
     last_synced_sha: a175246a1ee3147b77b685ae1464b5fa435c874b
     user_starred_at: '2025-11-11T21:23:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -29160,16 +29201,25 @@ repositories:
         published_at: '2026-03-11T15:34:51Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.500Z'
+      prompt_version: v3
   - repo: Piebald-AI/tweakcc
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - customization
+      - claude-code
+      - custom-toolset
+      - lang:ts
     summary: Customize Claude Code's system prompts, create custom toolsets, input pattern highlighters, themes/thinking verbs/spinners, customize input box & user message styling, support AGENTS.md, unlock pri...
     last_synced_sha: e1867d2a898794de07ce1b5bcb0adcdbdc539ee7
     user_starred_at: '2025-11-11T20:58:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29209,15 +29259,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.500Z'
+      prompt_version: v3
   - repo: ken-yossy/nvmetool-win
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - embedded
+    tags:
+      - nvme-ssd
+      - windows-driver
+      - lang:c
     summary: Communicate with NVMe SSD using Windows' inbox device driver
     last_synced_sha: 9e6e91b1a1a9933c8448200e3ad77deaaaf5a6e3
     user_starred_at: '2025-11-11T17:49:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -29235,15 +29293,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.500Z'
+      prompt_version: v3
   - repo: openworkflowdev/openworkflow
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - automation
+    tags:
+      - workflow-framework
+      - durable-workflows
+      - rezumable-processes
+      - lang:ts
     summary: Open-source Type Script framework for building durable, resumable workflows. Supports Node.js and Bun.
     last_synced_sha: 77c1ce72b732a4da5690c8a71f2282683f085f39
     user_starred_at: '2025-11-11T17:35:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -29261,6 +29328,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.500Z'
+      prompt_version: v3
   - repo: RodericAguilar/Pr_Elevators
     categories:
       - game-dev
@@ -36299,13 +36370,16 @@ repositories:
     framework: null
   - repo: HybridBrothers/Hybrid-Brothers-Blogs
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - cloud
+    tags:
+      - blog-snippets
+      - lang:bicep
     summary: This repository contains code snippets used in blog posts of hybridbrothers.com.
     last_synced_sha: cf0884e80c1a0bc2b980e2fa55e698a28710a4a9
     user_starred_at: '2025-09-29T12:47:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -36323,15 +36397,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.500Z'
+      prompt_version: v3
   - repo: Build5Nines/azd-react-bootstrap-dashboard
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - cloud
+    tags:
+      - dashboard
+      - azure
+      - react
+      - bootstrap
+      - lang:bicep
     summary: A multi-tier app with a dashboard front-end (React + Bootstrap) hosted in Azure Static Web Apps and back-end API (Node.js) hosted in Azure App Service
     last_synced_sha: e451945147a17e925601d66b7d00c1fbe12b90b7
     user_starred_at: '2025-09-29T09:09:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -36358,16 +36442,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.500Z'
+      prompt_version: v3
   - repo: Azure/APICenter-Portal-Starter
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - api-discovery
+      - web-based-portal
+      - lang:ts
     summary: Reference implementation of API Center portal for a web-based API discovery and consumption experience
     last_synced_sha: 425cfea1d7bbbfdb9fa75b7cee4105f4434047d7
     user_starred_at: '2025-09-29T08:56:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -36385,15 +36477,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.500Z'
+      prompt_version: v3
   - repo: city96/ComfyUI-GGUF
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - quantization
+      - comfy-ui
+      - lang:python
     summary: GGUF Quantization support for native Comfy UI models
     last_synced_sha: 6ea2651e7df66d7585f6ffee804b20e92fb38b8a
     user_starred_at: '2025-09-29T04:55:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -36411,15 +36511,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.499Z'
+      prompt_version: v3
   - repo: QwenLM/Qwen3-Omni
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - llm
+      - omni-modal
+      - multi-modal-ai
+      - lang:jupyter-notebook
     summary: Qwen3-omni is a natively end-to-end, omni-modal LLM developed by the Qwen team at Alibaba Cloud, capable of understanding text, audio, images, and video, as well as generating speech in real time.
     last_synced_sha: a294a1bfa5acccfe14fab20b7a83148ca250ed91
     user_starred_at: '2025-09-28T16:31:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -36437,15 +36546,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.499Z'
+      prompt_version: v3
   - repo: rathi-yash/MindVault-AI-Bookmarker
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - bookmark-management
+      - chrome-extension
+      - ai-powered
+      - lang:js
     summary: Mind Vault is an innovative Chrome extension that revolutionizes bookmark management using AI. Winner of the Best AI/ML Project at UBHacking, this tool automatically categorizes and organizes your ...
     last_synced_sha: 7ebd91b8d88b4e31513f67a003a8f652eb1f0648
     user_starred_at: '2025-09-28T12:05:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -36463,15 +36581,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.499Z'
+      prompt_version: v3
   - repo: download-directory/download-directory.github.io
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - github-tool
+      - downloader
+      - webapp
+      - lang:ts
     summary: 'Web App: Download just a sub directory from a Git Hub repo.'
     last_synced_sha: 9a9786dd6765f7b6e2de1eb27136f40451029578
     user_starred_at: '2025-09-27T15:28:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36495,6 +36622,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:10.499Z'
+      prompt_version: v3
   - repo: ikas-mc/ContextMenuForWindows11
     categories:
       - desktop-dev
