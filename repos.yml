@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:40:00.448Z'
+  manifest_updated_at: '2026-03-13T04:40:30.206Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -45295,13 +45295,18 @@ repositories:
     framework: null
   - repo: pola-rs/polars
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - databases
+    tags:
+      - dataframe
+      - high-performance
+      - arrow-format
+      - lang:rust
     summary: Extremely fast Query Engine for Data Frames, written in Rust
     last_synced_sha: c5230b5e0ede37473cf7f65cdb5ec104726be1c1
     user_starred_at: '2025-08-16T08:00:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -45329,15 +45334,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:40:28.618Z'
+      prompt_version: v3
   - repo: Y2Z/monolith
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - cli-tool
+      - save-html
+      - offline-access
+      - lang:rust
     summary: ⬛️ CLI tool and library for saving complete web pages as a single HTML file
     last_synced_sha: 8702e66fed5bb1b377d6c733f8aff3cdfa9b8dc3
     user_starred_at: '2025-08-16T07:59:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -45365,15 +45379,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:40:28.618Z'
+      prompt_version: v3
   - repo: juspay/hyperswitch
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+      - data-science
+    tags:
+      - payments
+      - high-performance
+      - rust-sdk
+      - orchestration
+      - lang:rust
     summary: An open source payments switch written in Rust to make payments fast, reliable and affordable
     last_synced_sha: 7c7c001cd37ba2471931d6cd7c69bd4a803b792a
     user_starred_at: '2025-08-16T07:59:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -45407,15 +45432,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:40:28.618Z'
+      prompt_version: v3
   - repo: public-apis/public-apis
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+      - learning
+    tags:
+      - public-apis
+      - free-resources
+      - development
+      - dataset
+      - lang:python
     summary: A collective list of free APIs
     last_synced_sha: 932e6f25cc4765660e45cd93870f3bdc15a21ce0
     user_starred_at: '2025-08-16T07:57:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -45446,15 +45482,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:40:28.617Z'
+      prompt_version: v3
   - repo: haydenbleasel/ultracite
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - linter
+      - formatter
+      - vscode
+      - lang:ts
     summary: A highly opinionated, zero-configuration linter and formatter.
     last_synced_sha: 078d7e24982e3b496cac2f46ed9b1892774d54fd
     user_starred_at: '2025-08-16T07:56:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -45482,6 +45527,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:40:28.617Z'
+      prompt_version: v3
   - repo: jasonxtn/Argus
     categories:
       - security
