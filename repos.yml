@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T05:14:16.002Z'
+  manifest_updated_at: '2026-03-13T05:14:51.970Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -5996,13 +5996,19 @@ repositories:
     framework: null
   - repo: postalsys/postal-mime
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+    tags:
+      - email
+      - mime
+      - serverless
+      - parser
+      - lang:js
     summary: Email parser for browser and serverless environments
     last_synced_sha: 24dc6c64dfb43d89a8c8837ec941c96ebfa2c1fa
     user_starred_at: '2026-02-11T06:27:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -6027,15 +6033,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.329Z'
+      prompt_version: v3
   - repo: jcubic/lips
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - dev-tools
+    tags:
+      - lisp
+      - language
+      - lang:js
+      - interpreter
+      - macros
     summary: Scheme based powerful lisp interpreter in Java Script
     last_synced_sha: 064e3a655b3de3b2878fc5307a07d212d351937c
     user_starred_at: '2026-02-11T06:27:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -6072,15 +6088,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.329Z'
+      prompt_version: v3
   - repo: glayzzle/php-parser
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - php-parser
+      - ast
+      - lang:js
+      - parser
+      - static-code-analysis
     summary: ':herb: Node JS PHP Parser - extract AST or tokens'
     last_synced_sha: c52f1c76d4c019a547574c945531c2c6668a7c23
     user_starred_at: '2026-02-11T06:25:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -6110,15 +6136,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.329Z'
+      prompt_version: v3
   - repo: willdurand/EmailReplyParser
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - apis
+    tags:
+      - email
+      - parser
+      - lang:php
+      - communication
+      - php
     summary: PHP library for parsing plain text email content.
     last_synced_sha: f25f8c6c3cb876112e3857eb3da15e38e44e4725
     user_starred_at: '2026-02-11T06:24:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -6141,15 +6177,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.329Z'
+      prompt_version: v3
   - repo: kach/nearley
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+    tags:
+      - javascript
+      - parsing-library
+      - lang:js
+      - earley-parser
+      - parser
     summary: 📜🔜🌲 Simple, fast, powerful parser toolkit for Java Script.
     last_synced_sha: 96f1da12acdb986e8279355d3d34cf5b139ab268
     user_starred_at: '2026-02-11T06:22:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -6178,15 +6223,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.329Z'
+      prompt_version: v3
   - repo: pdfminer/pdfminer.six
     categories:
-      - unclassified
-    tags: []
+      - data-science
+    tags:
+      - pdf
+      - parser
+      - lang:python
+      - python
+      - text-extraction
     summary: Community maintained fork of pdfminer - we fathom PDF
     last_synced_sha: a18de2a9c479b4c847538500017b449ddaec177e
     user_starred_at: '2026-02-11T06:21:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6209,15 +6263,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.329Z'
+      prompt_version: v3
   - repo: i18next/i18next-cli
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - i18n
+      - cli
+      - languages
+      - lang:ts
+      - parser
     summary: A unified, high-performance i18next CLI.
     last_synced_sha: 6d5688312ea41dbee00653d1ac05b47b481631ff
     user_starred_at: '2026-02-11T06:21:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6240,15 +6304,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.329Z'
+      prompt_version: v3
   - repo: joweich/chat-miner
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - python
+      - chat-analysis
+      - wordcloud
+      - lang:python
+      - messenger
     summary: Parsers and visualizations for chats
     last_synced_sha: 8270643201c841a5cce3ed71ff63aae72a74885a
     user_starred_at: '2026-02-11T06:20:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6278,15 +6352,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.329Z'
+      prompt_version: v3
   - repo: thewhiteninja/ntfstool
     categories:
-      - unclassified
-    tags: []
+      - security
+      - data-science
+    tags:
+      - ntfs
+      - forensics
+      - parser
+      - lang:cpp
+      - disk-recovery
     summary: Forensics tool for NTFS (parser, mft, bitlocker, deleted files)
     last_synced_sha: 5f2e34dd8704f02309e8f552fc06a2e5f895bb50
     user_starred_at: '2026-02-11T06:19:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -6326,15 +6410,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.326Z'
+      prompt_version: v3
   - repo: ImpulseAdventure/JPEGsnoop
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+    tags:
+      - jpeg
+      - decoder
+      - lang:cpp
+      - parser
+      - huffman
     summary: 'JPEGsnoop: JPEG decoder and detailed analysis'
     last_synced_sha: 9732ee0961f100eb69bbff4a0c47438d5997abee
     user_starred_at: '2026-02-11T06:18:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -6366,15 +6460,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.326Z'
+      prompt_version: v3
   - repo: ics-py/ics-py
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+    tags:
+      - ics
+      - calendar
+      - python
+      - lang:python
+      - rfc5545
     summary: Pythonic and easy i Calendar library (rfc5545)
     last_synced_sha: 3b7d07295f60a5d607ee0fa3a552c252f9e163f0
     user_starred_at: '2026-02-11T06:17:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6402,15 +6506,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.326Z'
+      prompt_version: v3
   - repo: g-plane/typed-query-selector
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - typescript
+      - typed-query
+      - web
+      - lang:ts
+      - parser
     summary: Better typed `query Selector` and `query Selector All`.
     last_synced_sha: 7081afb5551a0e263857a1054cd9b97079a821a9
     user_starred_at: '2026-02-11T06:16:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6430,15 +6544,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.326Z'
+      prompt_version: v3
   - repo: 003random/getJS
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - reconnaissance
+      - parser
+      - lang:go
+      - pentesting
+      - recon
     summary: A tool to fastly get all javascript sources/files
     last_synced_sha: 4346a2d46d63348f9509c796108f2768d0ee72c9
     user_starred_at: '2026-02-11T06:15:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -6472,15 +6596,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.326Z'
+      prompt_version: v3
   - repo: DFIRKuiper/Kuiper
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+    tags:
+      - dfir
+      - digital-forensics
+      - incident-response
+      - parser
+      - lang:js
     summary: Digital Forensics Investigation Platform
     last_synced_sha: 3798c381495dbf2c20f8ec71841923a8df6b4970
     user_starred_at: '2026-02-11T06:15:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -6506,15 +6640,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.326Z'
+      prompt_version: v3
   - repo: microsoft/tolerant-php-parser
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+    tags:
+      - php
+      - ast
+      - lang:php
+      - error-tolerant
+      - memory-efficient
     summary: An early-stage PHP parser designed for IDE usage scenarios.
     last_synced_sha: 457738cbec8a6b337b00946df4228d830d6068b0
     user_starred_at: '2026-02-11T06:15:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -6539,6 +6682,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:50.326Z'
+      prompt_version: v3
   - repo: guessit-io/guessit
     categories:
       - data-science
