@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:10:14.817Z'
+  manifest_updated_at: '2026-03-13T04:10:49.828Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -71319,13 +71319,19 @@ repositories:
     framework: null
   - repo: theohbrothers/ItemLinkManagement
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - symlinks
+      - hardlinks
+      - symboliclinks
+      - lang:powershell
+      - iac
     summary: A Power Shell module for managing hardlinks, junctions, symbolic links.
     last_synced_sha: f297f670a3db39b96ae600a0eeac89191683e440
     user_starred_at: '2023-08-09T09:24:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -71365,15 +71371,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.340Z'
+      prompt_version: v3
   - repo: SkalskiP/make-sense
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - productivity
+    tags:
+      - image-annotation
+      - labeling-tool
+      - object-detection
+      - lang:ts
+      - tagging
     summary: Free to use online tool for labelling photos. https://makesense.ai
     last_synced_sha: ee5ee68b439703dc5820f18f614d773580f7c464
     user_starred_at: '2023-08-09T07:03:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -71405,15 +71422,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.340Z'
+      prompt_version: v3
   - repo: Cartucho/OpenLabeling
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - labeling-tool
+      - object-detection
+      - bounding-boxes
+      - lang:python
+      - computer-vision
     summary: Label images and video for Computer Vision applications
     last_synced_sha: d46c62a319b5d2be7374a90b937840e011945739
     user_starred_at: '2023-08-09T07:02:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -71443,15 +71470,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.340Z'
+      prompt_version: v3
   - repo: LucasMali/sd-history-slider
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - history-slider
+      - sd-webui
+      - lang:js
+      - prompts-management
     summary: History Slider for Automatic 1111 SD to reverse the prompts.
     last_synced_sha: b020b6262926e23b7223fa9c651b5ab0432a338f
     user_starred_at: '2023-07-26T21:13:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -71469,15 +71505,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.340Z'
+      prompt_version: v3
   - repo: ruvnet/Swagger-ChatGPT-Plugin-Creator
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - swagger
+      - plugin-creator
+      - lang:html
+      - chatgpt
     summary: Chat GPT Plugin Creator is an open-source project that helps you convert Swagger specifications into Chat GPT plugins
     last_synced_sha: b2e39f1fd717d0db20346048fed972ed9d508ee1
     user_starred_at: '2023-07-26T17:12:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -71495,15 +71540,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.340Z'
+      prompt_version: v3
   - repo: HumanSignal/label-studio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - productivity
+    tags:
+      - image-annotation
+      - annotation-tool
+      - labeling
+      - lang:ts
+      - computer-vision
     summary: Label Studio is a multi-type data labeling and annotation tool with standardized output format
     last_synced_sha: ddd0243ef934d63885ff8be7f6f5ff37c48ea9cb
     user_starred_at: '2023-07-25T16:49:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -71543,15 +71599,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.340Z'
+      prompt_version: v3
   - repo: HumanSignal/labelImg
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - productivity
+    tags:
+      - image-annotation
+      - object-detection
+      - deep-learning
+      - lang:python
+      - labeling-tool
     summary: Label Img is now part of the Label Studio community. The popular image annotation tool created by Tzutalin is no longer actively being developed, but you can check out Label Studio, the open source...
     last_synced_sha: b33f965b6d14c14f1e46b247f1bf346e03f2e950
     user_starred_at: '2023-07-25T16:49:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -71581,15 +71648,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.340Z'
+      prompt_version: v3
   - repo: SipherAGI/sd-webui-agent-scheduler
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - agent-scheduler
+      - generative-ai
+      - automation-tool
+      - lang:python
     summary: An open source Scheduling Agent for Generative AI
     last_synced_sha: a33753321b914c6122df96d1dc0b5117d38af680
     user_starred_at: '2023-07-17T08:07:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -71607,15 +71683,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.340Z'
+      prompt_version: v3
   - repo: s0md3v/sd-webui-roop
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - face-swap
+      - roop
+      - stable-diffusion
+      - lang:python
     summary: roop extension for Stable Diffusion web-ui
     last_synced_sha: 868f7d1bdd0e1dd6656b06d650fd16a7d414892b
     user_starred_at: '2023-06-26T00:59:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -71639,15 +71724,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.339Z'
+      prompt_version: v3
   - repo: voxel51/voxelgpt
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - learning
+    tags:
+      - computer-vision
+      - llm
+      - lang:python
+      - deep-learning
+      - query-assistant
     summary: AI assistant that can query visual datasets, search the Fifty One docs, and answer general computer vision questions
     last_synced_sha: c813c0a1ac90ad4e0978573a65a729d5588127d6
     user_starred_at: '2023-06-24T17:51:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -71676,15 +71772,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.339Z'
+      prompt_version: v3
   - repo: marius-sucan/AHK-GDIp-Library-Compilation
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - ahk-library
+      - gdip
+      - gdi-plus
+      - lang:autohotkey
     summary: Gdip_All library mega-compilation of user contributions, compatible with AHK v1.1 and AHK v2
     last_synced_sha: 0b7ed523f364693984d9f7eea3317e4e59ceeb46
     user_starred_at: '2023-06-23T03:09:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: AutoHotkey
@@ -71707,15 +71812,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.339Z'
+      prompt_version: v3
   - repo: games-on-whales/wolf
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - containers
+      - networking
+    tags:
+      - remote-desktop
+      - streaming
+      - docker
+      - games
+      - lang:cpp
     summary: Stream virtual desktops and games running in Docker
     last_synced_sha: ea4a75d59deb9171dde3d21d6beb2785cb695854
     user_starred_at: '2023-06-19T18:46:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -71741,15 +71857,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.339Z'
+      prompt_version: v3
   - repo: pkuliyi2015/multidiffusion-upscaler-for-automatic1111
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - multidiffusion
+      - stable-diffusion
+      - image-generation
+      - lang:python
     summary: Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0
     last_synced_sha: 22798f6822bc9c8a905b51da8954ee313b973331
     user_starred_at: '2023-06-14T20:46:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -71774,15 +71899,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.339Z'
+      prompt_version: v3
   - repo: vladmandic/sdnext
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+      - ui-libraries
+    tags:
+      - stable-diffusion
+      - generative-art
+      - lang:python
+      - webui
+      - ai-art
     summary: 'SD.Next: All-in-one Web UI for AI generative image and video creation, captioning and processing'
     last_synced_sha: c9e21a51db77512832462bf8c051754b5527b443
     user_starred_at: '2023-06-14T19:24:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -71813,15 +71949,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.339Z'
+      prompt_version: v3
   - repo: rohitrango/automatic-watermark-detection
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-processing
+      - watermark-detection
+      - poisson-reconstruction
+      - lang:jupyter-notebook
     summary: Project for Digital Image Processing
     last_synced_sha: a11d4e01dbb02bcb2595703d45d9243281e38d37
     user_starred_at: '2023-06-14T19:22:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -71848,6 +71993,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:10:48.339Z'
+      prompt_version: v3
   - repo: intel/intel-one-mono
     categories:
       - dev-tools
