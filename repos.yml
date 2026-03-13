@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:50:12.076Z'
+  manifest_updated_at: '2026-03-13T04:50:47.189Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -28489,13 +28489,20 @@ repositories:
     framework: null
   - repo: generalaction/emdash
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+      - ai-ml
+    tags:
+      - ai-agents
+      - orchestration
+      - coding-agents
+      - containerization
+      - lang:ts
     summary: Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.
     last_synced_sha: 6c5d7cadc033c113c6838046d9e86de913c7ea42
     user_starred_at: '2025-11-20T08:21:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28532,15 +28539,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.596Z'
+      prompt_version: v3
   - repo: passadis/ai-architect-webapp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+      - automation
+    tags:
+      - ai-agents
+      - azure-ai
+      - design-generation
+      - lang:python
     summary: AI-powered Azure Architecture Generator that automatically creates AI agents for design documents and diagram generation
     last_synced_sha: 667e81cd21a4d221acb002445a5ba96346d3af1a
     user_starred_at: '2025-11-20T03:57:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -28563,15 +28580,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.596Z'
+      prompt_version: v3
   - repo: pamelafox/fastapi-azure-function-apim
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - cloud
+      - apis
+    tags:
+      - azure-functions
+      - fastapi
+      - bicep-scripts
+      - lang:bicep
     summary: A Fast API app that is designed for deployment to Azure Functions with an API Management Policy.
     last_synced_sha: f836489345844b55f23d435ed9245a8d389575c6
     user_starred_at: '2025-11-20T03:53:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -28592,16 +28619,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.596Z'
+      prompt_version: v3
   - repo: maxandrews/Epstein-doc-explorer
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - data-science
+    tags:
+      - graph-explorer
+      - visualization
+      - document-analysis
+      - lang:js
     summary: a graph explorer of the Epstein emails
     last_synced_sha: 641440f4459915ec46c5efb7aad3f5cb94af86b3
     user_starred_at: '2025-11-17T05:21:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -28619,15 +28655,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.596Z'
+      prompt_version: v3
   - repo: python/typeshed
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - static-types
+      - python-typing
+      - stub-files
+      - lang:python
     summary: Collection of library stubs for Python, with static types
     last_synced_sha: 25438e5f21be7f0ac15fe305c7183d74dc2e6923
     user_starred_at: '2025-11-17T02:08:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -28649,15 +28694,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.596Z'
+      prompt_version: v3
   - repo: alibaba/ROCK
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - reinforcement-learning
+      - training
+      - rl-environment
+      - lang:python
     summary: A construction kit for reinforcement learning environment management.
     last_synced_sha: 7c8ac1b360624fdd9e66dbbd2af253d9ddd04bf1
     user_starred_at: '2025-11-16T17:21:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -28677,15 +28731,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.596Z'
+      prompt_version: v3
   - repo: nv-tlabs/ChronoEdit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - learning
+    tags:
+      - image-editing
+      - image-generation
+      - video-generation
+      - aigc
+      - lang:python
     summary: '[ICLR 2026] Chrono Edit: Towards Temporal Reasoning for Image Editing and World Simulation'
     last_synced_sha: 37b0da51d8a42928b23e84cc998bba200c246e57
     user_starred_at: '2025-11-16T14:29:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -28707,15 +28772,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.596Z'
+      prompt_version: v3
   - repo: tursodatabase/agentfs
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - system-admin
+    tags:
+      - filesystem
+      - sqlite
+      - agents
+      - turso
+      - lang:rust
     summary: The filesystem for agents.
     last_synced_sha: a0bcdf9dd7c64ec11ef25adaed8ed7987f67eb52
     user_starred_at: '2025-11-16T14:27:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -28739,15 +28814,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.596Z'
+      prompt_version: v3
   - repo: universal-tool-calling-protocol/code-mode
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agents
+      - toolchain
+      - codemode
+      - lang:python
     summary: 🔌 Plug-and-play library to enable agents to call MCP and UTCP tools via code execution.
     last_synced_sha: ddec2b4ffc37f526ff945874999bd2a73280d434
     user_starred_at: '2025-11-16T14:22:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -28773,15 +28857,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.596Z'
+      prompt_version: v3
   - repo: Visual-Agent/DeepEyesV2
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - computer-vision
+      - object-detection
+      - deep-learning
+      - lang:python
     summary: No description provided
     last_synced_sha: 62575437c2fa1201230145470631b02a4584b673
     user_starred_at: '2025-11-14T13:50:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -28799,15 +28892,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.596Z'
+      prompt_version: v3
   - repo: severity1/claude-code-prompt-improver
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - prompt-engineering
+      - llm
+      - optimization
+      - lang:python
     summary: Intelligent prompt improver hook for Claude Code. Type vibes, ship precision.
     last_synced_sha: 51bcdebfabffbd03ed35dfda629246d23ea60067
     user_starred_at: '2025-11-14T13:49:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -28827,15 +28929,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.596Z'
+      prompt_version: v3
   - repo: jeremylongshore/claude-code-plugins-plus-skills
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+      - automation
+    tags:
+      - ai-agents
+      - llm
+      - automation
+      - plugins
+      - lang:python
     summary: 340 plugins + 1367 agent skills for Claude Code. Open-source marketplace with CCPI package manager, interactive tutorials, and production orchestration patterns.
     last_synced_sha: e19f89c23afdb7aee465b358610585a659ea2a26
     user_starred_at: '2025-11-14T13:18:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -28871,15 +28984,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.596Z'
+      prompt_version: v3
   - repo: fonoster/routr
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - apis
+      - system-admin
+    tags:
+      - sip
+      - webrtc
+      - voip
+      - instant-messaging
+      - lang:ts
     summary: ⚡ The future of programmable SIP servers.
     last_synced_sha: ec76c580084bc47f43935ae8293e60ff27abceee
     user_starred_at: '2025-11-13T17:46:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28917,15 +29041,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.596Z'
+      prompt_version: v3
   - repo: sarperavci/GoogleRecaptchaBypass
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - captcha-breaking
+      - recaptcha
+      - bypass
+      - solver
+      - lang:python
     summary: Solve Google re CAPTCHA in less than 5 seconds! 🚀
     last_synced_sha: c1277b5f70cffa6c769ba4ec8370f5bbb65428fb
     user_starred_at: '2025-11-13T17:45:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -28953,15 +29087,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.596Z'
+      prompt_version: v3
   - repo: FoundationAgents/ReCode
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - llm
+      - recursive-code
+      - decision-making
+      - lang:python
     summary: Next paradigm for LLM Agent. Unify plan and action through recursive code generation for adaptive, human-like decision-making.
     last_synced_sha: cc1cb1398b593982e0af9f78804252356f01c0c4
     user_starred_at: '2025-11-13T02:28:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -28979,6 +29122,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:50:45.595Z'
+      prompt_version: v3
   - repo: MoonshotAI/kosong
     categories:
       - ai-ml
