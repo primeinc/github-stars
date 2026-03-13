@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:42:42.803Z'
+  manifest_updated_at: '2026-03-13T04:43:10.209Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -42610,13 +42610,17 @@ repositories:
     framework: null
   - repo: bytedance/OneReward
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - research
+      - reward-modeling
+      - lang:python
     summary: No description provided
     last_synced_sha: 0d8d826d9e383c32ad97b39f01bd6872e3ea7aa4
     user_starred_at: '2025-09-09T02:35:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42635,15 +42639,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.657Z'
+      prompt_version: v3
   - repo: soimthe1/snmp-printer-utility
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - monitoring
+    tags:
+      - snmp
+      - network-devices
+      - printer-monitoring
+      - lang:go
     summary: A fast, Go-powered CLI tool to scan and monitor SNMP-enabled printers across networks. Discover printers, fetch real-time status, supply levels (toner/ink), tray capacities, and page counts using S...
     last_synced_sha: f4a1f92b1b8cb7fdcd788b7e2dacae74a11cfcff
     user_starred_at: '2025-09-05T06:18:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -42661,15 +42674,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.657Z'
+      prompt_version: v3
   - repo: SaintScraTchY/Print-Relay-Server
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - printer-management
+      - device-sharing
+      - lang:csharp
     summary: Print Relay is an open-source, self-hosted platform for managing and sharing printers (and potentially other devices) across networks. Designed with modern technologies, it enables seamless device ...
     last_synced_sha: 17b7a73d1f6e38c0a9adb82e6631d1a8e013c119
     user_starred_at: '2025-09-05T06:17:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -42687,15 +42708,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.657Z'
+      prompt_version: v3
   - repo: TencentARC/GenCompositor
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - diffusion-models
+      - video-editing
+      - transformer-models
+      - lang:python
     summary: '[ICLR 2026] Gen Compositor: Generative Video Compositing with Diffusion Transformer'
     last_synced_sha: 3b5883f9515fb429404f87259dbcc90396824462
     user_starred_at: '2025-09-05T05:21:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42716,15 +42746,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.657Z'
+      prompt_version: v3
   - repo: microsoft/WinAppDriver
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - automation
+      - dev-tools
+    tags:
+      - ui-testing
+      - windows
+      - test-automation
+      - lang:csharp
     summary: Windows Application Driver
     last_synced_sha: 09e3f7111eb2fae2b4eff0ab058cc7a5dbc14d02
     user_starred_at: '2025-09-05T03:54:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -42748,15 +42788,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.657Z'
+      prompt_version: v3
   - repo: nativefier/nativefier
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - electron
+      - web-to-desktop
+      - app-generator
+      - lang:ts
     summary: Make any web page a desktop application
     last_synced_sha: 9078a3071a3c7fab977d4e0bb54d3579af8296f3
     user_starred_at: '2025-09-05T00:02:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -42783,15 +42832,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.657Z'
+      prompt_version: v3
   - repo: x64dbg/x64dbg
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - debugger
+      - reverse-engineering
+      - malware-analysis
+      - lang:cpp
     summary: An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.
     last_synced_sha: 8fe1486f16c14ff251fea7f1f655adc3c6b134b8
     user_starred_at: '2025-09-05T00:01:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -42831,15 +42889,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.657Z'
+      prompt_version: v3
   - repo: bluxmit/alnoda-workspaces
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - dev-tools
+      - productivity
+    tags:
+      - containerized-workspaces
+      - docker
+      - workspace-tools
+      - lang:dockerfile
     summary: ':fireworks: Flexible and extendable containerized workspaces. Now. with free offline chat GPT!!! 🚀🚀🚀'
     last_synced_sha: a1448f5d2cd328983d88bf97c3bc1d49f8425567
     user_starred_at: '2025-09-04T23:55:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics:
@@ -42870,15 +42938,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.657Z'
+      prompt_version: v3
   - repo: workadventure/workadventure
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - game-dev
+      - web-dev
+    tags:
+      - virtual-office
+      - rpg-interface
+      - collaboration-platform
+      - lang:ts
     summary: A collaborative web application (virtual office) presented as a 16-bit RPG video game
     last_synced_sha: 03e2c04c0f6bfd35ef37a309e6e1aa38e8718844
     user_starred_at: '2025-09-04T23:53:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42903,15 +42981,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.657Z'
+      prompt_version: v3
   - repo: dudor/BookmarkHub
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - bookmarks
+      - browser-extension
+      - sync-tool
+      - lang:ts
     summary: Bookmark Hub , sync bookmarks across different browsers
     last_synced_sha: e59de69f876159e6c98dfefadf8b09d82610e535
     user_starred_at: '2025-09-04T23:48:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42936,15 +43023,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.657Z'
+      prompt_version: v3
   - repo: extension-js/extension.js
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - cross-browser
+      - webextension-framework
+      - lang:ts
     summary: 🧩 The cross-browser extension framework
     last_synced_sha: e85570cb1e3c4e907e2141efa75fc039695b275f
     user_starred_at: '2025-09-04T22:46:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42984,15 +43079,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.657Z'
+      prompt_version: v3
   - repo: joelshepherd/tabliss
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - browser-extension
+      - customizable-ui
+      - lang:ts
     summary: A beautiful, customisable New Tab page for Firefox, Chrome, and Edge.
     last_synced_sha: 765a3f0b10968ee6e3a9ddf5c5360960fb4bf0ee
     user_starred_at: '2025-09-04T22:17:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43015,15 +43118,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.657Z'
+      prompt_version: v3
   - repo: cartesiancs/vessel
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - networking
+    tags:
+      - physical-ai
+      - stream-processing
+      - event-detection
+      - lang:ts
     summary: 🦾 A personal C2 platform for Physical AI. Connect streams. Detect events. Control your world.
     last_synced_sha: 75d59b5ae92ab5762543ff605cff7c4b1e120bba
     user_starred_at: '2025-09-04T14:48:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43047,15 +43159,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.657Z'
+      prompt_version: v3
   - repo: datavzrd/datavzrd
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - data-visualization
+      - report-generation
+      - csv-parser
+      - lang:rust
     summary: A tool to create visual HTML reports from collections of CSV/TSV tables
     last_synced_sha: 6b73f57bfd78d7b16c2d7d85b0827a0ae1c1f89e
     user_starred_at: '2025-09-04T14:46:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -43075,15 +43196,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.657Z'
+      prompt_version: v3
   - repo: olimpo88/PyDDNS
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - ddns
+      - dns-server
+      - self-hosted
+      - lang:js
     summary: Complete system to create your own server ddns
     last_synced_sha: c4c8c7dfb913c4afb451b62c0b01d0a7a4bb6bc1
     user_starred_at: '2025-09-04T01:59:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -43111,7 +43241,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: django
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:08.656Z'
+      prompt_version: v3
   - repo: it-scripts/it-drugs
     categories:
       - game-dev
