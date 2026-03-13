@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T05:05:35.625Z'
+  manifest_updated_at: '2026-03-13T05:06:07.119Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -14294,13 +14294,18 @@ repositories:
     framework: null
   - repo: galz10/pickle-rick-extension
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - lang:ts
+      - gemini-cli
+      - ai-tools
+      - development
     summary: This extension transforms the Gemini CLI into "Pickle Rick," a hyper-intelligent, arrogant, yet extremely competent engineering persona. It enforces a rigid, iterative software development lifecycl...
     last_synced_sha: 964f6910d9ca04ef4aa56c1d75b864d1b35596e5
     user_starred_at: '2026-01-25T19:59:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14322,15 +14327,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.517Z'
+      prompt_version: v3
   - repo: portofcontext/pctx
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - security
+    tags:
+      - lang:rust
+      - agentic-tools
+      - sandbox
+      - infrastructure
     summary: pctx is the execution layer for agentic tool calls. It auto-converts agent tools and MCP servers into code that runs in secure sandboxes for token-efficient workflows.
     last_synced_sha: 1fba0e1946138ca59dd86e2b0f48f54ccd5b1d11
     user_starred_at: '2026-01-25T13:59:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -14357,15 +14371,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.517Z'
+      prompt_version: v3
   - repo: vercel-labs/json-render
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+      - ai-ml
+    tags:
+      - lang:ts
+      - generative-ui
+      - framework
     summary: The Generative UI framework
     last_synced_sha: 7758d4bbd5be2de718c6240ae6167eb815ff8921
     user_starred_at: '2026-01-25T13:42:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -14385,15 +14408,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.517Z'
+      prompt_version: v3
   - repo: qdrant/qdrant
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - ai-ml
+      - cloud
+    tags:
+      - lang:rust
+      - vector-search
+      - nearest-neighbor
+      - search-engine
+      - ai
     summary: Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/
     last_synced_sha: 09f87abbd8215031609988f3b0e220b739db2d9a
     user_starred_at: '2026-01-24T09:14:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -14433,15 +14467,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.517Z'
+      prompt_version: v3
   - repo: colanode/colanode
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - lang:ts
+      - realtime-collaboration
+      - chat
+      - knowledge-base
+      - notion-alternative
     summary: Open-source and local-first Slack and Notion alternative that puts you in control of your data
     last_synced_sha: ed5327a354fcc65ad6d0b66dd0453b61c6f1afd3
     user_starred_at: '2026-01-24T09:14:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14477,15 +14521,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.517Z'
+      prompt_version: v3
   - repo: kubernetes-sigs/headlamp
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+      - monitoring
+    tags:
+      - lang:ts
+      - kubernetes-ui
+      - dashboard
+      - k8s
     summary: A Kubernetes web UI that is fully-featured, user-friendly and extensible
     last_synced_sha: f92725b46a44bd8c3462bb89b8c49cf215e06fb1
     user_starred_at: '2026-01-24T09:10:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14519,15 +14573,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.517Z'
+      prompt_version: v3
   - repo: mickael-kerjean/filestash
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+      - cloud
+    tags:
+      - lang:go
+      - file-management
+      - webdav
+      - ftp
+      - cloud-storage
     summary: ':file_folder: File Management Platform / Universal Data Access Layer (without FUSE)'
     last_synced_sha: 8ed125de2d88361dee624c00fb3bb4d241e2579a
     user_starred_at: '2026-01-24T09:10:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -14564,15 +14629,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.517Z'
+      prompt_version: v3
   - repo: lovell/sharp
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - lang:js
+      - image-processing
+      - nodejs
+      - libvips
     summary: High performance Node.js image processing, the fastest module to resize JPEG, PNG, Web P, AVIF and TIFF images. Uses the libvips library.
     last_synced_sha: 7b4c4762432b14c62676e860c8034b5cd326f464
     user_starred_at: '2026-01-24T09:09:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -14609,15 +14683,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.517Z'
+      prompt_version: v3
   - repo: steveyegge/beads
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - lang:go
+      - agent
+      - memory-upgrade
+      - coding
     summary: Beads - A memory upgrade for your coding agent
     last_synced_sha: ad0417af95e6cd597720b09fb400098bc4d7fce8
     user_starred_at: '2026-01-24T09:05:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -14640,15 +14723,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.517Z'
+      prompt_version: v3
   - repo: permissionlesstech/bitchat
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - mobile-dev
+    tags:
+      - lang:swift
+      - bluetooth
+      - mesh-chat
+      - irc
     summary: bluetooth mesh chat, IRC vibes
     last_synced_sha: 8562a763676e42f849a2dc80913a1e90549a243c
     user_starred_at: '2026-01-24T09:04:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics: []
@@ -14668,15 +14760,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.517Z'
+      prompt_version: v3
   - repo: iOfficeAI/AionUi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - cloud
+    tags:
+      - lang:ts
+      - llm
+      - gemini-cli
+      - chatbot
     summary: Free, local, open-source 24/7 Cowork app and Open Claw for Gemini CLI, Claude Code, Codex, Open Code, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!
     last_synced_sha: 3f9829299bc36bdafcb82fd3becf2d461a52d4ea
     user_starred_at: '2026-01-24T09:04:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14715,15 +14817,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.517Z'
+      prompt_version: v3
   - repo: remotion-dev/remotion
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+      - web-dev
+    tags:
+      - video
+      - programmatic-videos
+      - lang:ts
+      - react
     summary: 🎥 Make videos programmatically with React
     last_synced_sha: 418640497a4bbab737e6a9615ee477e6c5a4826c
     user_starred_at: '2026-01-24T09:04:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14745,16 +14857,24 @@ repositories:
         published_at: '2026-03-05T15:09:32Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.517Z'
+      prompt_version: v3
   - repo: z-lab/dflash
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:python
+      - block-diffusion
+      - deep-learning
     summary: 'DFlash: Block Diffusion for Flash Speculative Decoding'
     last_synced_sha: 742d9d46748ae0793289107a82d0c80af16cb62e
     user_starred_at: '2026-01-24T09:01:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -14772,15 +14892,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.517Z'
+      prompt_version: v3
   - repo: CloudAI-X/threejs-skills
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - threejs
+      - 3d
+      - visualization
     summary: No description provided
     last_synced_sha: b1c623076c661fc9b03dac19292e825a5d106823
     user_starred_at: '2026-01-23T23:33:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -14798,15 +14926,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.517Z'
+      prompt_version: v3
   - repo: microsoft/Agent365-Samples
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:python
     summary: No description provided
     last_synced_sha: af515c072ea2d01d7b02f882f5852d5a55a11fa4
     user_starred_at: '2026-01-23T08:23:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -14824,6 +14957,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:06:05.516Z'
+      prompt_version: v3
   - repo: nibzard/FocusHighlighter
     categories:
       - ui-libraries
