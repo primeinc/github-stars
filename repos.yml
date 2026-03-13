@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T05:06:37.801Z'
+  manifest_updated_at: '2026-03-13T05:07:10.945Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -13247,13 +13247,19 @@ repositories:
     framework: null
   - repo: cometbft/cometbft
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - databases
+    tags:
+      - blockchain
+      - distributed-systems
+      - byzantine-fault-tolerance
+      - lang:go
+      - consensus
     summary: 'Comet BFT: A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. A fork and successor to Tendermint Core.'
     last_synced_sha: cd5c4370839e7d4bd728a2a73b3b5b0916ffe266
     user_starred_at: '2026-01-27T00:49:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -13280,15 +13286,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: navidrome/navidrome
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - music-streaming
+      - lang:go
+      - self-hosted
+      - audio-server
+      - subsonic
     summary: 🎧☁️ Your Personal Streaming Service
     last_synced_sha: 0790f66627cd56135874a567d2277da604d69970
     user_starred_at: '2026-01-27T00:47:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -13322,15 +13338,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: File-New-Project/EarTrumpet
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - audio-control
+      - volume-mixer
+      - lang:csharp
+      - windows
+      - microsoft-store
     summary: Ear Trumpet - Volume Control for Windows
     last_synced_sha: 17aa29160215934bdfaa5c7246d6186e0d061c13
     user_starred_at: '2026-01-27T00:45:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -13357,15 +13383,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: TheJoeFin/Text-Grab
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - ocr
+      - windows
+      - lang:csharp
+      - accessibility
+      - local-ai
     summary: Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications.
     last_synced_sha: a6fe84a980b4fd5e5514606556f8b43f938f2537
     user_starred_at: '2026-01-27T00:44:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -13393,15 +13429,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: jely2002/youtube-dl-gui
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - youtube-dl
+      - cross-platform
+      - video-downloader
+      - lang:rust
+      - vue
     summary: Open Video Downloader - A cross-platform GUI for youtube-dl made in Rust with Tauri and Vue + Typescript.
     last_synced_sha: 7957a77f56521e18126fd2ef9acee556c8034fea
     user_starred_at: '2026-01-27T00:43:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -13429,16 +13475,26 @@ repositories:
         published_at: '2026-02-24T06:59:15Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: Effect-TS/effect
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - typescript
+      - dependency-injection
+      - opentelemetry
+      - lang:ts
+      - schema-validation
     summary: Build production-ready applications in Type Script
     last_synced_sha: 7103e2473db805cc9f0024d4744c77c16d81e2f1
     user_starred_at: '2026-01-27T00:41:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -13471,15 +13527,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: rustic-rs/rustic
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - security
+    tags:
+      - backup
+      - deduplication
+      - encryption
+      - lang:rust
+      - data-protection
     summary: rustic - fast, encrypted, and deduplicated backups powered by Rust
     last_synced_sha: 7280a9a80045ab85b3660cf52aef652eb8e25bdc
     user_starred_at: '2026-01-27T00:40:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -13505,15 +13571,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: traceloop/openllmetry
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - ai-ml
+    tags:
+      - observability
+      - open-telemetry
+      - metrics
+      - lang:python
+      - model-monitoring
     summary: Open-source observability for your Gen AI or LLM application, based on Open Telemetry
     last_synced_sha: 93786d9502eb4d4f6a4da76325c2f43eab2124af
     user_starred_at: '2026-01-27T00:38:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -13551,15 +13627,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: cjpais/Handy
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ai-ml
+    tags:
+      - speech-to-text
+      - offline
+      - accessibility
+      - lang:rust
+      - cross-platform
     summary: A free, open source, and extensible speech-to-text application that works completely offline.
     last_synced_sha: 01b8b05bdc7b0f00c064a4b2b4a199a6aa66bfef
     user_starred_at: '2026-01-27T00:37:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -13583,15 +13669,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: cypress-io/cypress
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - web-dev
+    tags:
+      - cypress
+      - testing-framework
+      - end-to-end
+      - lang:ts
+      - component-testing
     summary: Fast, easy and reliable testing for anything that runs in a browser.
     last_synced_sha: dbb806af7cb2e657ad659675bc9b38a65a3d4a18
     user_starred_at: '2026-01-27T00:36:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -13624,15 +13720,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: daytonaio/ai-enablement-stack
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - ai-tools
+      - community-driven
+      - ai-development
+      - lang:html
     summary: A Community-Driven Mapping of AI Development Tools
     last_synced_sha: d3db9fa3194fd303ecb595591c59b041fd8963de
     user_starred_at: '2026-01-27T00:33:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -13650,15 +13755,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: sitespeedio/sitespeed.io
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - web-dev
+    tags:
+      - web-performance
+      - metrics
+      - performance-optimization
+      - lang:js
+      - monitoring
     summary: sitespeed.io is an open-source tool for comprehensive web performance analysis, enabling you to test, monitor, and optimize your website’s speed using real browsers in various environments.
     last_synced_sha: 6c294e2c8c15f04d02bcfad76c3d3e6b677d4a9f
     user_starred_at: '2026-01-27T00:31:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -13687,15 +13802,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: slopus/happy
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ai-ml
+    tags:
+      - realtime-voice
+      - claude-code
+      - codex
+      - lang:ts
+      - encryption
     summary: Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured
     last_synced_sha: d343330c86ab966969aecd82be4aecbad7ec4238
     user_starred_at: '2026-01-27T00:23:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -13719,15 +13844,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: nwjs/nw.js
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - web-dev
+    tags:
+      - nodejs
+      - web-application-framework
+      - lang:js
+      - javascript
+      - cross-platform
     summary: Call all Node.js modules directly from DOM/Web Worker and enable a new way of writing applications with all Web technologies.
     last_synced_sha: 7b8d73af3fb012e9756fa02e664bf8389bbc2b35
     user_starred_at: '2026-01-27T00:21:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -13751,15 +13886,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: ZhuLinsen/daily_stock_analysis
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - llm
+      - quantitative-trading
+      - stock-analysis
+      - lang:python
+      - aigc
     summary: LLM驱动的 A/H/美股智能分析器，多数据源行情 + 实时新闻 + Gemini 决策仪表盘 + 多渠道推送，零成本，纯白嫖，定时运行
     last_synced_sha: 1c475fd49b5b6cbc7dd2bd568da62899fcad8c05
     user_starred_at: '2026-01-27T00:21:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -13788,6 +13933,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:07:09.408Z'
+      prompt_version: v3
   - repo: RunanywhereAI/on-device-browser-agent
     categories:
       - automation
