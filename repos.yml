@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T05:04:29.492Z'
+  manifest_updated_at: '2026-03-13T05:05:02.112Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -15276,13 +15276,19 @@ repositories:
     framework: null
   - repo: originalankur/maptoposter
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - maps
+      - design
+      - lang:python
+      - matplotlib
+      - visualization
     summary: Transform your favorite cities into beautiful, minimalist designs. Map To Poster lets you create and export visually striking map posters with code.
     last_synced_sha: 6d03069f34558494ccc7fc2a7de87df7a7543fd5
     user_starred_at: '2026-01-18T04:01:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -15308,15 +15314,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.677Z'
+      prompt_version: v3
   - repo: Opencode-DCP/opencode-dynamic-context-pruning
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - dynamic-context
+      - token-optimization
+      - lang:ts
+      - pruning
+      - conversation
     summary: Dynamic context pruning plugin for Open Code - intelligently manages conversation context to optimize token usage
     last_synced_sha: 5b7ee5b772279afa4f7e88e16a36ba35647572fc
     user_starred_at: '2026-01-18T03:25:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -15336,15 +15352,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.677Z'
+      prompt_version: v3
   - repo: activadee/opencode-auth-sync
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - testing
+    tags:
+      - authentication
+      - lang:ts
+      - sync
+      - integration
+      - security
     summary: No description provided
     last_synced_sha: bb900fa079162ead9c187e435c0d99631f985f9d
     user_starred_at: '2026-01-18T03:22:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -15365,15 +15391,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.677Z'
+      prompt_version: v3
   - repo: julianromli/opencode-template
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - cli-template
+      - open-code
+      - lang:python
+      - workflow
+      - customization
     summary: Open Code CLI Template by @faizntfd
     last_synced_sha: 37ceab2d64a33708c9b54c3a002007082a49c3b6
     user_starred_at: '2026-01-18T03:05:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -15391,15 +15427,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.677Z'
+      prompt_version: v3
   - repo: alvinunreal/oh-my-opencode-slim
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - agentic-ai
+      - opencode
+      - lang:ts
+      - orchestration
+      - antigravity
     summary: Slimmed, cleaned and fine-tuned oh-my-opencode fork, consumes much less tokens
     last_synced_sha: a25e951bc10e48dac9afd4eddab5df8b1769e137
     user_starred_at: '2026-01-17T15:52:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -15425,15 +15471,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.677Z'
+      prompt_version: v3
   - repo: zenobi-us/bun-module
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - lang:shell
+      - kits
+      - module
+      - workflow
+      - bundler
     summary: No description provided
     last_synced_sha: 79fc9a49873b655956f132743b59a7170983b2fa
     user_starred_at: '2026-01-16T04:20:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -15451,15 +15507,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.677Z'
+      prompt_version: v3
   - repo: Kiduzk/google-takeout-viewer
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - web-dev
+    tags:
+      - google-takeout
+      - data-viewer
+      - analytics
+      - lang:ts
     summary: No description provided
     last_synced_sha: 1ba843c710e313d2fdec54e5c12f5ee317db1504
     user_starred_at: '2026-01-14T20:22:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -15479,15 +15544,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.677Z'
+      prompt_version: v3
   - repo: lancedb/lancedb
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - ai-ml
+    tags:
+      - vector-database
+      - semantic-search
+      - lang:html
+      - retrieval-library
+      - image-search
     summary: Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
     last_synced_sha: 216c1b5f7743b991dceca31d26579e8b80736153
     user_starred_at: '2026-01-14T18:19:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -15515,15 +15590,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.677Z'
+      prompt_version: v3
   - repo: purarue/google_takeout_parser
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - google-takeout
+      - data-export
+      - lang:python
+      - location-history
+      - backup
     summary: A library/CLI tool to parse data out of your Google Takeout (History, Activity, Youtube, Locations, etc...)
     last_synced_sha: aebb2dcade4b9156c59ea04a4ced6063dc209c82
     user_starred_at: '2026-01-14T09:01:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -15549,15 +15634,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.677Z'
+      prompt_version: v3
   - repo: xpipe-io/xpipe
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - desktop-dev
+    tags:
+      - server-management
+      - lang:java
+      - docker
+      - ssh
+      - filemanager
     summary: Access your entire server infrastructure from your local desktop
     last_synced_sha: 0194ed313d821211e9cfe27eca43a7503210caf1
     user_starred_at: '2026-01-14T07:34:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -15593,15 +15688,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.677Z'
+      prompt_version: v3
   - repo: nextlevelbuilder/ui-ux-pro-max-skill
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - ai-skills
+      - design-intelligence
+      - lang:python
+      - landing-page
+      - cursor-ai
     summary: An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms
     last_synced_sha: 07f4ef3ac2568c25a3b0c8ef5165a86abc3e56e4
     user_starred_at: '2026-01-14T07:32:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -15640,15 +15745,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.677Z'
+      prompt_version: v3
   - repo: aagentah/nw_wrld
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - visuals
+      - audiovisual
+      - event-driven
+      - lang:ts
+      - web-technologies
     summary: nw_wrld is an event-driven sequencer for triggering visuals using web technologies. It enables users to scale up audiovisual compositions for prototyping, demos, exhibitions, and live performances....
     last_synced_sha: 857e0fdbcf8732667d7369ce5a9522cd26a21d8c
     user_starred_at: '2026-01-14T07:32:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -15668,15 +15783,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.677Z'
+      prompt_version: v3
   - repo: parcadei/llm-tldr
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - llm
+      - code-optimization
+      - lang:python
+      - token-savings
+      - dependency-tracing
     summary: 95% token savings. 155x faster queries. 16 languages. LLMs can't read your entire codebase. TLDR extracts structure, traces dependencies, and gives them exactly what they need.
     last_synced_sha: c6494afdbe617b56c04ce562651117f9dd437d38
     user_starred_at: '2026-01-14T07:30:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -15694,15 +15819,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.677Z'
+      prompt_version: v3
   - repo: nibzard/awesome-agentic-patterns
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - awesome-list
+      - agentic-ai
+      - lang:html
     summary: A curated catalogue of awesome agentic AI patterns
     last_synced_sha: c2e4c84d368ee47982391a201a9e1a886dcc6bc8
     user_starred_at: '2026-01-14T07:29:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -15720,15 +15853,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.677Z'
+      prompt_version: v3
   - repo: memvid/awesome-memvid
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - awesome-list
+      - resources
+      - memvid
+      - mv2
     summary: A curated list of awesome resources related to Memvid
     last_synced_sha: 8636c3aac72e6f9b7990a4860480f5642c691c1e
     user_starred_at: '2026-01-14T07:28:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -15750,6 +15892,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:05:00.676Z'
+      prompt_version: v3
   - repo: Azure-Samples/azure-files-samples
     categories:
       - system-admin
