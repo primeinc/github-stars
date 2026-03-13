@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T05:13:42.481Z'
+  manifest_updated_at: '2026-03-13T05:14:16.002Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -6541,13 +6541,19 @@ repositories:
     framework: null
   - repo: guessit-io/guessit
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - media
+      - filename-parsing
+      - parser
+      - scene-release
+      - lang:python
     summary: Guess It is a python library that extracts as much information as possible from a video filename.
     last_synced_sha: b145ae2791b9a77db68f20abf4ed4731a4dd8a0a
     user_starred_at: '2026-02-11T06:14:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6573,15 +6579,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.424Z'
+      prompt_version: v3
   - repo: APIDevTools/json-schema-ref-parser
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+    tags:
+      - json-schema
+      - parser
+      - resolver
+      - openapi
+      - lang:ts
     summary: Parse, Resolve, and Dereference JSON Schema $ref pointers in Node and browsers
     last_synced_sha: cda446649fc815298897b3ba26c6db9025b7e841
     user_starred_at: '2026-02-11T06:13:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6610,15 +6626,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.424Z'
+      prompt_version: v3
   - repo: collective/icalendar
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - icalendar
+      - event
+      - todo
+      - parser
+      - lang:python
     summary: icalendar parser library for Python
     last_synced_sha: c80875774732df20e7c5c4ed1600e671286fb23f
     user_starred_at: '2026-02-11T06:12:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6648,15 +6674,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.424Z'
+      prompt_version: v3
   - repo: meriyah/meriyah
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - javascript-parser
+      - estree
+      - esnext
+      - jsx
+      - lang:ts
     summary: A 100% compliant, self-hosted javascript parser - https://meriyah.github.io/meriyah
     last_synced_sha: d38f6afe63d77f5c34d2100201c81c1523b55361
     user_starred_at: '2026-02-11T06:12:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6689,15 +6725,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.424Z'
+      prompt_version: v3
   - repo: APIDevTools/swagger-parser
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+    tags:
+      - swagger
+      - openapi
+      - validation
+      - json-schema
+      - parser
+      - lang:js
     summary: Swagger 2.0 and Open API 3.0 parser/validator
     last_synced_sha: 8dcd391feea7c7dd694bb20b8706fcb53f736ba5
     user_starred_at: '2026-02-11T06:12:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -6729,15 +6776,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.424Z'
+      prompt_version: v3
   - repo: webtoon/psd
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - psd
+      - photoshop
+      - image-parsing
+      - zero-dependency
+      - lang:ts
     summary: Fast zero-dependency PSD parser for the web and Node.js
     last_synced_sha: d1a9a32ad38ff17c16f94562fc2dd47018338e78
     user_starred_at: '2026-02-11T06:11:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6766,15 +6823,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.424Z'
+      prompt_version: v3
   - repo: daniele77/cli
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+    tags:
+      - cli
+      - interactive
+      - header-only
+      - parser
+      - lang:cpp
     summary: A library for interactive command line interfaces in modern C++
     last_synced_sha: 769c5fa060b94b39e43e1d6554775af7e73928cc
     user_starred_at: '2026-02-11T06:10:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -6799,15 +6866,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.424Z'
+      prompt_version: v3
   - repo: ruimarinho/google-libphonenumber
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - phone
+      - parser
+      - nodejs
+      - formatter
+      - lang:js
     summary: The up-to-date and reliable Google's libphonenumber package for node.js.
     last_synced_sha: 90a74672cb7c9308224f3a4b0953ea9be13dbb68
     user_starred_at: '2026-02-11T06:10:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -6829,15 +6906,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.424Z'
+      prompt_version: v3
   - repo: LibPDF-js/core
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - pdf
+      - generator
+      - document
+      - signing
+      - lang:ts
     summary: A modern PDF library for Type Script. Parse, modify, and generate PDFs with a clean, intuitive API.
     last_synced_sha: b9038f0dee00d9f25c87e6da3e13c9f363a8b683
     user_starred_at: '2026-02-11T06:10:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6870,15 +6957,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.421Z'
+      prompt_version: v3
   - repo: rsms/markdown-wasm
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - markdown
+      - webassembly
+      - html-generation
+      - parser
+      - lang:c
     summary: Very fast Markdown parser and HTML generator implemented in Web Assembly, based on md4c
     last_synced_sha: 0d99d1151ff4d929a8ac8f3a191bfec54a10a869
     user_starred_at: '2026-02-11T06:09:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -6900,15 +6997,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.421Z'
+      prompt_version: v3
   - repo: run-llama/semtools
     categories:
-      - unclassified
-    tags: []
+      - data-science
+    tags:
+      - semantic-search
+      - embeddings
+      - parser
+      - rust
+      - lang:rust
     summary: Semantic search and document parsing tools for the command line
     last_synced_sha: fe7f6d260fdc0128768fcfea0e8d624d6f304739
     user_starred_at: '2026-02-11T06:09:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -6936,15 +7042,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.421Z'
+      prompt_version: v3
   - repo: omgovich/colord
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - color
+      - conversion
+      - parser
+      - high-performance
+      - lang:ts
     summary: 👑 A tiny yet powerful tool for high-performance color manipulations and conversions
     last_synced_sha: 3f859e03b0ca622eb15480f611371a0f15c9427f
     user_starred_at: '2026-02-11T06:08:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6981,15 +7097,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.421Z'
+      prompt_version: v3
   - repo: afnanenayet/diffsitter
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - diff
+      - ast
+      - tree-sitter
+      - parser
+      - lang:rust
     summary: A tree-sitter based AST difftool to get meaningful semantic diffs
     last_synced_sha: 3386289741cf09132a01c34214613edb11d5afd0
     user_starred_at: '2026-02-11T06:07:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -7014,15 +7140,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.421Z'
+      prompt_version: v3
   - repo: Hexagon/croner
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - cron
+      - scheduler
+      - crontab-syntax
+      - timer
+      - lang:ts
     summary: Trigger functions or evaluate cron expressions in Java Script or Type Script. No dependencies. Most features. Node. Deno. Bun. Browser.
     last_synced_sha: 713ee7217e3bbb01857559199e312149d2695edb
     user_starred_at: '2026-02-11T06:07:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7057,15 +7193,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.421Z'
+      prompt_version: v3
   - repo: vue-styleguidist/vue-styleguidist
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - documentation
+    tags:
+      - vue-components
+      - style-guide
+      - design-system
+      - markdown
+      - lang:ts
     summary: Created from react styleguidist for Vue Components with a living style guide
     last_synced_sha: f68d026248ebac1519f212f397043a078bd87cf3
     user_starred_at: '2026-02-11T06:06:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7094,7 +7240,11 @@ repositories:
         published_at: '2024-08-01T08:06:07Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:14:14.421Z'
+      prompt_version: v3
   - repo: decalage2/oletools
     categories:
       - security
