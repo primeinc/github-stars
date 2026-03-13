@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:30:55.433Z'
+  manifest_updated_at: '2026-03-13T04:31:31.421Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -52066,13 +52066,17 @@ repositories:
     framework: null
   - repo: FreedomIntelligence/ShareGPT-4o-Image
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ai
+      - python
+      - lang:python
     summary: No description provided
     last_synced_sha: 19ac7d779d8b893b549c2640373c78947ee4b6d5
     user_starred_at: '2025-06-27T20:14:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -52090,15 +52094,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.834Z'
+      prompt_version: v3
   - repo: DataExpert-io/data-engineer-handbook
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - data-science
+      - documentation
+    tags:
+      - data-engineering
+      - learning-resources
+      - big-data
+      - lang:jupyter-notebook
     summary: This is a repo with links to everything you'd ever want to learn about data engineering
     last_synced_sha: 76db4db308c4e556400247406dc5ee167e26123b
     user_starred_at: '2025-06-27T01:06:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -52122,15 +52136,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.834Z'
+      prompt_version: v3
   - repo: Mail-0/Zero
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - security
+      - mobile-dev
+    tags:
+      - email
+      - privacy
+      - ai
+      - lang:ts
     summary: 'Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://mail0.link/discord'
     last_synced_sha: 64c5480c341750578da0746f2db9ad84da686334
     user_starred_at: '2025-06-27T01:05:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -52154,15 +52178,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.834Z'
+      prompt_version: v3
   - repo: automatisch/automatisch
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+      - web-dev
+    tags:
+      - workflow
+      - low-code
+      - no-code
+      - self-hosted
+      - lang:js
     summary: The open source Zapier alternative. Build workflow automation without spending time and money.
     last_synced_sha: 41f3c56a163103cae761bb44f03638cb84e859ee
     user_starred_at: '2025-06-27T01:04:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -52189,15 +52224,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.834Z'
+      prompt_version: v3
   - repo: ryoppippi/ccusage
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - data-science
+    tags:
+      - cli-tool
+      - analytics
+      - jsonl
+      - lang:ts
     summary: A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.
     last_synced_sha: cd88cb6e5d5801292609faf5e5e80d802e2789da
     user_starred_at: '2025-06-27T01:02:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -52217,15 +52261,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.834Z'
+      prompt_version: v3
   - repo: datamllab/awesome-deepfakes-materials
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - deepfakes
+      - videos
+      - materials
+      - detection
     summary: A curated list of awesome Deepfakes materials
     last_synced_sha: aae5e83f491b0c80bebaa72f62dd1ec0151e1102
     user_starred_at: '2025-06-27T00:59:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -52255,15 +52308,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.834Z'
+      prompt_version: v3
   - repo: google-gemini/gemini-cli
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agent
+      - cli
+      - gemini
+      - lang:ts
     summary: An open-source AI agent that brings the power of Gemini directly into your terminal.
     last_synced_sha: d44615ac2f8c6e1cef2ffec3c997354375df4a20
     user_starred_at: '2025-06-27T00:57:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -52290,15 +52352,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.833Z'
+      prompt_version: v3
   - repo: DioxusLabs/sdk
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - embedded
+    tags:
+      - library
+      - sdk
+      - lang:rust
     summary: A library to provide abstractions to access common utilities when developing Dioxus applications.
     last_synced_sha: 15525043cadc3c467afb15888ce804bdc9b6a46e
     user_starred_at: '2025-06-26T19:55:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -52318,15 +52388,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.833Z'
+      prompt_version: v3
   - repo: jujumilk3/leaked-system-prompts
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - prompts
+      - llm
+      - ai
+      - data-leaks
     summary: Collection of leaked system prompts
     last_synced_sha: c3129c6fb75e92ef04cf0d19e3f9d55332fc4b43
     user_starred_at: '2025-06-26T19:48:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -52348,15 +52427,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.833Z'
+      prompt_version: v3
   - repo: AykutSarac/jsoncrack.com
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - data-visualization
+      - json
+      - nextjs
+      - lang:ts
+      - react
     summary: ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML and CSV into interactive graphs.
     last_synced_sha: e99288b4eff060dcd53428f2a3a5c2f28eecffa6
     user_starred_at: '2025-06-26T19:48:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -52384,16 +52473,25 @@ repositories:
         published_at: '2026-03-11T11:14:55Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.833Z'
+      prompt_version: v3
   - repo: ripienaar/free-for-dev
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - free-resources
+      - developers
+      - awesome-list
+      - lang:html
     summary: A list of Saa S, Paa S and Iaa S offerings that have free tiers of interest to devops and infradev
     last_synced_sha: a62ba96d941b598fd8ba6ba4804e7037a70bbb03
     user_starred_at: '2025-06-26T19:48:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -52413,15 +52511,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.833Z'
+      prompt_version: v3
   - repo: microsoft/edit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - desktop-dev
+    tags:
+      - text-editor
+      - rust
+      - terminal
+      - lang:rust
     summary: We all edit.
     last_synced_sha: ff45b14d5e7200556e020db5a8b9bdb2434852a2
     user_starred_at: '2025-06-26T19:48:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -52445,15 +52552,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.833Z'
+      prompt_version: v3
   - repo: mikeroyal/Self-Hosting-Guide
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - system-admin
+      - cloud
+    tags:
+      - self-hosting
+      - privacy
+      - reverse-proxy
+      - lang:dockerfile
     summary: Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, Wire Guard, Autom...
     last_synced_sha: 3eaf827bf42ff047b2a0fdf7a6bfbb61b720d9bf
     user_starred_at: '2025-06-26T19:47:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics:
@@ -52491,15 +52608,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.833Z'
+      prompt_version: v3
   - repo: mui/base-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - accessibility
+      - design-system
+      - react
+      - unstyled-components
+      - lang:ts
     summary: Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI.
     last_synced_sha: a819c345da8e59029f044fe4c73b91cc992de467
     user_starred_at: '2025-06-26T19:47:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -52523,16 +52650,26 @@ repositories:
         published_at: '2026-03-12T13:47:47Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.833Z'
+      prompt_version: v3
   - repo: twentyhq/twenty
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+      - apis
+    tags:
+      - crm
+      - graphql
+      - sales
+      - lang:ts
     summary: Building a modern alternative to Salesforce, powered by the community.
     last_synced_sha: 1cb4c98cb3528597f20e1479952c00631f35c3a6
     user_starred_at: '2025-06-26T19:47:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -52568,7 +52705,11 @@ repositories:
         published_at: '2026-02-19T17:39:18Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:31:29.833Z'
+      prompt_version: v3
   - repo: Portkey-AI/gateway
     categories:
       - ai-ml
