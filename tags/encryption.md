@@ -1,10 +1,11 @@
 # Tag: encryption
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [jdx/fnox](https://github.com/jdx/fnox) | encrypted/remote secret manager | `Rust` ★ 1.3k | 2026-03-10 |
-| [shaka-project/shaka-packager](https://github.com/shaka-project/shaka-packager) | A media packaging and development framework for VOD and Live DASH and HLS applications, supporting Common Encryption for Widevine and other DRM Systems. | `C++` ★ 2.4k | 2026-03-12 |
+| [shaka-project/shaka-packager](https://github.com/shaka-project/shaka-packager) | A media packaging and development framework for VOD and Live DASH and HLS applications, supporting Common Encryption for Widevine and other DRM Systems. | `C++` ★ 2.4k | 2026-03-13 |
+| [bitwiseshiftleft/sjcl](https://github.com/bitwiseshiftleft/sjcl) | \[DEPRECATED\] Stanford Javascript Crypto Library | `JavaScript` ★ 7.2k | 2026-01-08 |

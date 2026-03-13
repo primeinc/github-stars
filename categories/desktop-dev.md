@@ -1,18 +1,28 @@
 # Desktop-dev
 
-*8 repositories*
+*18 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [readest/readest](https://github.com/readest/readest) | Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience. | `TypeScript` ★ 18.6k | 2026-03-11 |
-| [Wells-the-Doctor/leaxer](https://github.com/Wells-the-Doctor/leaxer) | 🌟 Build and deploy local AI models with Leaxer for real-time interaction, streamlined document generation, and versatile visual processing capabilities. | `Elixir` ★ 1 | 2026-03-12 |
-| [Ak-sys-sh/qwen3-tts-apple-silicon](https://github.com/Ak-sys-sh/qwen3-tts-apple-silicon) | 🎤 Run Qwen3-TTS locally on Apple Silicon for offline AI text-to-speech, offering voice cloning and customization features without cloud reliance. | `Python` ★ 1 | 2026-03-12 |
-| [lukinhas-programando/ace-step-studio](https://github.com/lukinhas-programando/ace-step-studio) | 🎵 Create and manage local-first AI-powered music with a fast, self-hosted studio featuring integrated generation, playback, and asset storage. | `TypeScript` ★ 2 | 2026-03-12 |
+| [readest/readest](https://github.com/readest/readest) | Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience. | `TypeScript` ★ 18.7k | 2026-03-12 |
+| [Wells-the-Doctor/leaxer](https://github.com/Wells-the-Doctor/leaxer) | 🌟 Build and deploy local AI models with Leaxer for real-time interaction, streamlined document generation, and versatile visual processing capabilities. | `Elixir` ★ 1 | 2026-03-13 |
+| [Ak-sys-sh/qwen3-tts-apple-silicon](https://github.com/Ak-sys-sh/qwen3-tts-apple-silicon) | 🎤 Run Qwen3-TTS locally on Apple Silicon for offline AI text-to-speech, offering voice cloning and customization features without cloud reliance. | `Python` ★ 1 | 2026-03-13 |
+| [lukinhas-programando/ace-step-studio](https://github.com/lukinhas-programando/ace-step-studio) | 🎵 Create and manage local-first AI-powered music with a fast, self-hosted studio featuring integrated generation, playback, and asset storage. | `TypeScript` ★ 2 | 2026-03-13 |
 | [megakode/wallrus](https://github.com/megakode/wallrus) | Gnome (GTK4) application to generate colorful wallpapers based on gradients and different effects. | `Rust` ★ 53 | 2026-03-10 |
-| [unoplatform/uno](https://github.com/unoplatform/uno) | Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow... | `C#` ★ 9.8k | 2026-03-12 |
+| [unoplatform/uno](https://github.com/unoplatform/uno) | Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow... | `C#` ★ 9.8k | 2026-03-13 |
+| [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) | Desktop App for downloading Videos and Audios from hundreds of sites | `JavaScript` ★ 8.8k | 2026-02-15 |
+| [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) | A Foundation for Scalable Cross-Platform Apps | `TypeScript` ★ 24.2k | 2025-09-22 |
+| [ramensoftware/windhawk](https://github.com/ramensoftware/windhawk) | The customization marketplace for Windows programs: https://windhawk.net/ | `C++` ★ 7.3k | 2025-12-08 |
+| [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | Win UI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications. | `C++` ★ 7.3k | 2026-03-11 |
+| [ppy/osu](https://github.com/ppy/osu) | rhythm is just a \*click\* away! | `C#` ★ 18k | 2026-03-12 |
+| [volcengine/MineContext](https://github.com/volcengine/MineContext) | Mine Context is your proactive context-aware AI partner（Context-Engineering+Chat GPT Pulse） | `Python` ★ 5k | 2026-03-12 |
+| [atuinsh/desktop](https://github.com/atuinsh/desktop) | 📖 Runbooks that run | `TypeScript` ★ 2.3k | 2026-02-09 |
+| [mountain-loop/yaak](https://github.com/mountain-loop/yaak) | The most intuitive desktop API client. Organize and execute REST, Graph QL, Web Sockets, Server Sent Events, and g RPC 🦬 | `TypeScript` ★ 18.1k | 2026-03-13 |
+| [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | Build smaller, faster, and more secure desktop and mobile applications with a web frontend. | `Rust` ★ 104k | 2026-03-13 |
 | [sonnyp/Eloquent](https://github.com/sonnyp/Eloquent) | Your proofreading assistant | `JavaScript` ★ 206 | 2025-12-16 |
 | [areibman/bottleneck](https://github.com/areibman/bottleneck) | Code review for AI native teams. Native Electron app for reviewing pull requests dramatically faster than Github web. Specialized for handling reviews for background agents working on multiple conc... | `TypeScript` ★ 152 | 2025-12-04 |
+| [xbmc/xbmc](https://github.com/xbmc/xbmc) | Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available f... | `C++` ★ 20.5k | 2026-03-12 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
