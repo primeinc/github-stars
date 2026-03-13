@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:38:00.687Z'
+  manifest_updated_at: '2026-03-13T04:38:32.090Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -46508,13 +46508,18 @@ repositories:
     framework: null
   - repo: bixat/nexsh
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - system-admin
+    tags:
+      - ai-shell
+      - google-gemini
+      - terminal
+      - lang:rust
     summary: Next-generation AI-powered shell using Google Gemini - Translates your words into precise shell commands ⚙️
     last_synced_sha: 10f510807fd4335875abfd5c6227ef4d5336e535
     user_starred_at: '2025-08-07T00:52:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -46540,15 +46545,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.513Z'
+      prompt_version: v3
   - repo: sebglazebrook/aliases
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - bash
+      - dynamic-aliases
+      - lang:rust
     summary: Contextual, dynamic aliases for the bash shell
     last_synced_sha: dcc317da9730ca81cb26917affc6fb9d6f511493
     user_starred_at: '2025-08-07T00:48:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -46566,15 +46579,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.513Z'
+      prompt_version: v3
   - repo: bcwilhite/PendingReboot
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - windows-os
+      - pending-reboots
+      - lang:powershell
     summary: Module to detect Windows OS pending reboots
     last_synced_sha: 9b1053f7dc39b9fd9162684c6c680de99738d6ba
     user_starred_at: '2025-08-06T06:54:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -46592,15 +46613,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.512Z'
+      prompt_version: v3
   - repo: j0eyv/ConditionalAccessBaseline
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - conditional-access
+      - baseline-templates
     summary: No description provided
     last_synced_sha: bc49df689a7fd9c20c77db0132fa5ce324c3725c
     user_starred_at: '2025-08-05T21:52:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -46618,15 +46646,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.512Z'
+      prompt_version: v3
   - repo: vivoCameraResearch/Magic-TryOn
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - try-on
+      - video-diffusion
+      - clothes-change
+      - lang:python
     summary: Magic Try On is a video virtual try-on framework based on a large-scale video diffusion Transformer.
     last_synced_sha: 709d37cc0eac7cbfbe29e46f0e8b68034708bf1e
     user_starred_at: '2025-08-05T18:10:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -46652,15 +46689,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.512Z'
+      prompt_version: v3
   - repo: devinmcelheran/Printune
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - deployment
+    tags:
+      - intune
+      - printers
+      - packages
+      - lang:csharp
     summary: A one-stop utility for creating Intune packages to deploy printers and printer drivers.
     last_synced_sha: b49a39f7e5459cd644599dfde8321e0f56b9c439
     user_starred_at: '2025-08-05T06:04:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -46678,15 +46724,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.512Z'
+      prompt_version: v3
   - repo: QwenLM/Qwen-Image
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-generation
+      - text-rendering
+      - image-editing
+      - lang:python
     summary: Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing.
     last_synced_sha: 6b5e1f5cec987d404be5ac6657db3b9aacb56a89
     user_starred_at: '2025-08-05T05:05:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -46704,15 +46759,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.512Z'
+      prompt_version: v3
   - repo: fabio-marini/azd-aspire-basic
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - system-admin
+      - productivity
+    tags:
+      - azure
+      - azure-developer-cli
+      - key-vault
+      - lang:csharp
     summary: 'An azd (Azure Developer CLI) template that uses Aspire to orchestrate: Azure Key Vault for app secrets, Azure App Configuration for app settings, Azure Service Bus or Rabbit MQ for messaging.'
     last_synced_sha: 8dc2d49a5a05a02e66a5b4260a19366bbf290300
     user_starred_at: '2025-08-03T05:11:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -46730,15 +46795,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.512Z'
+      prompt_version: v3
   - repo: ronaldbosma/azure-integration-services-quickstart
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - apis
+      - automation
+    tags:
+      - azd
+      - azure-integration-services
+      - api-management
+      - lang:bicep
     summary: An azd template (Bicep) for deploying Azure Integration Services, including Azure API Management, Function App, Logic App, Service Bus and Event Hubs namespace, along with supporting resources such...
     last_synced_sha: f17e559ad5141ae9ebd20d389ea4f5cbc88a3b6c
     user_starred_at: '2025-08-03T03:31:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -46766,15 +46841,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.512Z'
+      prompt_version: v3
   - repo: Azure-Samples/APICenter-Reference
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cloud
+    tags:
+      - azure-api-center
+      - api-management
+      - azd-templates
+      - lang:bicep
     summary: This provides some reference use cases while using Azure API Center
     last_synced_sha: 9109263a7c3daf8c2044fe3330f085bb510199ba
     user_starred_at: '2025-08-03T03:30:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -46802,15 +46886,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.512Z'
+      prompt_version: v3
   - repo: Azure-Samples/mcp-workshop-dotnet
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - cloud
+    tags:
+      - workshop-materials
+      - mcp-sdk
+      - azure
+      - lang:js
     summary: This provides workshop materials using official MCP SDK
     last_synced_sha: a04ef8305cea51085ad614fefb85457e3bc510c0
     user_starred_at: '2025-08-03T03:07:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -46828,15 +46921,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.512Z'
+      prompt_version: v3
   - repo: Azure-Samples/getting-started-dotnet-aca
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+      - deployment
+    tags:
+      - dotnet
+      - azure-container-apps
+      - blazor
+      - docker
+      - lang:csharp
     summary: This provides sample .NET apps to be deployed to Azure Container Apps
     last_synced_sha: 66ecb2d8f44a3eecc14da30d085932c3b8a5a709
     user_starred_at: '2025-08-03T03:00:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -46863,15 +46967,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.512Z'
+      prompt_version: v3
   - repo: Azure/azqr
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - productivity
+      - monitoring
+    tags:
+      - azure
+      - assessment
+      - best-practices
+      - lang:go
     summary: Azure Quick Review
     last_synced_sha: 77ce8c7828424a02a10777fbb27a2cdf619db069
     user_starred_at: '2025-08-03T02:50:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -46899,15 +47013,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.512Z'
+      prompt_version: v3
   - repo: tabs-not-spaces/Intune-App-Deploy
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - intune
+      - win32-apps
+      - packaging
+      - deployment
+      - lang:powershell
     summary: A fast, reliable way to package your win32 applications and deploy them to Intune from any source - including SCCM!
     last_synced_sha: 372e018f6e129e3a299989dcb63ba52b3112751a
     user_starred_at: '2025-08-01T17:10:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -46925,15 +47049,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.512Z'
+      prompt_version: v3
   - repo: tabs-not-spaces/CodeDump
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - utilities
+      - scripts
+      - lang:powershell
     summary: things that help me. might help others.
     last_synced_sha: e5ab88d997b1e4232f9e2483e5a046b9517eb0f6
     user_starred_at: '2025-08-01T17:08:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -46951,6 +47083,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:38:30.511Z'
+      prompt_version: v3
   - repo: tabs-not-spaces/Intune.LogonScript.Helper
     categories:
       - system-admin
