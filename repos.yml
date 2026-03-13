@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:43:10.209Z'
+  manifest_updated_at: '2026-03-13T04:43:37.815Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -42088,13 +42088,20 @@ repositories:
     framework: null
   - repo: Azure-Samples/snippy
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - cloud
+    tags:
+      - azure-functions
+      - ai-agents
+      - cosmosdb
+      - lang:python
+      - multi-agent
     summary: 🧩 Build AI-powered MCP Tools with Azure Functions, Durable Agents & Cosmos vector search. Features orchestrated multi-agent workflows using Open AI.
     last_synced_sha: fc7a17ac23e35adb0067f05b9283b38c5d6e3e97
     user_starred_at: '2025-09-10T23:28:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42124,15 +42131,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.266Z'
+      prompt_version: v3
   - repo: Azure/reliable-web-app-pattern-dotnet
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - cloud
+    tags:
+      - azure
+      - reliable-web-app
+      - bicep-templates
+      - lang:bicep
+      - azure-architecture
     summary: The Reliable Web App Pattern is a set of objectives to help your web application converge on the cloud. This repo contains a reference implementation of a reliable web application for .NET.
     last_synced_sha: d1618a47fc497327f6b2261b838e551f4de4adf0
     user_starred_at: '2025-09-10T23:23:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -42166,15 +42183,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.266Z'
+      prompt_version: v3
   - repo: NVIDIA/NeMo-Agent-Toolkit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-agents
+      - team-optimization
+      - lang:python
+      - nvidia
     summary: The NVIDIA Ne Mo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents.
     last_synced_sha: 5132d2dc69a5704e8d9b5ff37e37f4051d197195
     user_starred_at: '2025-09-10T05:37:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -42194,15 +42220,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.266Z'
+      prompt_version: v3
   - repo: Eventual-Inc/Daft
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - data-engineering
+      - distributed-computing
+      - big-data
+      - lang:rust
+      - artificial-intelligence
     summary: High-performance data engine for AI and multimodal workloads. Process images, audio, video, and structured data at any scale
     last_synced_sha: 7e23e364da123f0f3a04c7866ddb3df67c005d3a
     user_starred_at: '2025-09-10T05:15:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -42241,15 +42277,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.266Z'
+      prompt_version: v3
   - repo: Mentra-Community/MentraOS
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ai-ml
+    tags:
+      - smart-glasses
+      - wearables
+      - conversational-ai
+      - lang:ts
+      - vuzix
     summary: Mentra OS is the leading smart glasses platform + SDK. Stream your view, transcribe audio, talk to AI and capture photos hands-free on compatible glasses.
     last_synced_sha: 5e5d9316dc1deff0144aac0397968b3568342e20
     user_starred_at: '2025-09-10T05:08:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42283,15 +42329,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.266Z'
+      prompt_version: v3
   - repo: WeChatCV/Stand-In
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-generation
+      - identity-preserving
+      - ai-framework
+      - lang:python
     summary: '[CVPR2026 🎉] Stand-In is a lightweight, plug-and-play framework for identity-preserving video generation.'
     last_synced_sha: cceec58ec1c65a86995176afa6056da59de32918
     user_starred_at: '2025-09-10T05:05:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -42309,15 +42364,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.266Z'
+      prompt_version: v3
   - repo: Francis-Rings/StableAvatar
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - web-dev
+    tags:
+      - avatar-generator
+      - video-generation
+      - aigc
+      - lang:python
     summary: We present Stable Avatar, the first end-to-end video diffusion transformer, which synthesizes infinite-length high-quality audio-driven avatar videos without any post-processing, conditioned on a r...
     last_synced_sha: e6478957d7f7e4425cbae245cac9f269221e4585
     user_starred_at: '2025-09-10T05:04:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42338,15 +42403,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.266Z'
+      prompt_version: v3
   - repo: Azure/CloudShell
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - system-admin
+      - containers
+    tags:
+      - azure
+      - cloudshell
+      - containers
+      - lang:powershell
     summary: Container Image for Azure Cloud Shell (https://azure.microsoft.com/en-us/features/cloud-shell/)
     last_synced_sha: 4620a221c34b37e01eced5a6b69fff4f81c022bf
     user_starred_at: '2025-09-09T20:50:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -42369,15 +42444,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.266Z'
+      prompt_version: v3
   - repo: lostindark/DriverStoreExplorer
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - driver-management
+      - driver-store
+      - lang:csharp
     summary: Driver Store Explorer
     last_synced_sha: e3496958c75f3d56f77b03151d3dbeda27315623
     user_starred_at: '2025-09-09T15:39:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -42400,15 +42483,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.266Z'
+      prompt_version: v3
   - repo: glzr-io/glazewm
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - desktop-dev
+    tags:
+      - window-manager
+      - tiling-window-manager
+      - lang:rust
+      - i3wm
+      - windows
     summary: Glaze WM is a tiling window manager for Windows inspired by i3wm.
     last_synced_sha: f0928358d8b456ae79358b6e532764dea69729d2
     user_starred_at: '2025-09-09T14:23:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -42433,15 +42526,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.265Z'
+      prompt_version: v3
   - repo: primeinc/Files
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - file-manager
+      - windows
+      - lang:csharp
     summary: Building the best File Manager for Windows
     last_synced_sha: d233a0f7e95e08e7ce1b9d59c1b0b68c2ed79cdc
     user_starred_at: '2025-09-09T10:05:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C#
@@ -42460,15 +42561,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.265Z'
+      prompt_version: v3
   - repo: mikecutalo/unifi-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - mcp-server
+      - network-management
+      - lang:python
     summary: An MCP Server for interacting with Unifi networks.
     last_synced_sha: ba3eab05493a55484d051aca330bed3b5bb23da1
     user_starred_at: '2025-09-09T05:45:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -42486,15 +42595,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.265Z'
+      prompt_version: v3
   - repo: ashesbloom/LocalLens
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ai-ml
+      - productivity
+    tags:
+      - ai-tools
+      - face-recognition
+      - gui-application
+      - lang:css
+      - fastapi
     summary: Local Lens is a privacy-first, AI-powered photo organizer for your PC. Sort and group photos by faces, dates, and locations—all locally, with no cloud upload. Enjoy a modern, intuitive UI and keep ...
     last_synced_sha: 2fb67cac39e6c497cb1bb6ed253d694cb9cc71d7
     user_starred_at: '2025-09-09T03:26:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics:
@@ -42533,16 +42653,26 @@ repositories:
         published_at: '2025-12-31T12:14:22Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.265Z'
+      prompt_version: v3
   - repo: layumi/Person-reID_GAN
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - gan
+      - person-reid
+      - image-retrieval
+      - lang:cuda
+      - iccv2017
     summary: ICCV2017 Unlabeled Samples Generated by GAN Improve the Person Re-identification Baseline in vitro
     last_synced_sha: da4b90afd3b1e1eff284dafd36e205d661cad600
     user_starred_at: '2025-09-09T03:11:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Cuda
       topics:
@@ -42569,15 +42699,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.265Z'
+      prompt_version: v3
   - repo: NVlabs/DG-Net
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - re-identification
+      - person-reid
+      - image-retrieval
+      - lang:python
+      - pytorch
     summary: ':couple: Joint Discriminative and Generative Learning for Person Re-identification. CVPR''19 (Oral) :couple:'
     last_synced_sha: 9855f08711df1d7ebdf976885b0fddec8e7d4a37
     user_starred_at: '2025-09-09T03:11:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42608,6 +42748,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:43:36.265Z'
+      prompt_version: v3
   - repo: bytedance/OneReward
     categories:
       - ai-ml
