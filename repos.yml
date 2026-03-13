@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:45:14.191Z'
+  manifest_updated_at: '2026-03-13T04:45:47.883Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -40086,13 +40086,20 @@ repositories:
     framework: null
   - repo: NileshGule/techtalks-azure-container-apps-demo
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+      - system-admin
+    tags:
+      - azure
+      - dapr
+      - keda
+      - microservices
+      - lang:powershell
     summary: A simple example to showcase Azure container apps capabilities using a Tech Talks demo with native integration for Dapr and KEDA
     last_synced_sha: 1c12b3c8f5d2c32bd81b423bc974582da31260ab
     user_starred_at: '2025-09-19T23:43:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -40120,15 +40127,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.276Z'
+      prompt_version: v3
   - repo: simstudioai/sim
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - frameworks
+    tags:
+      - ai-agents
+      - agentic-workflow
+      - nextjs
+      - orchestration
+      - lang:ts
     summary: Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.
     last_synced_sha: e9bdc57616ccd53739330747716d1ea9683a66bc
     user_starred_at: '2025-09-17T09:02:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40165,16 +40183,26 @@ repositories:
         published_at: '2026-03-12T20:40:37Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.276Z'
+      prompt_version: v3
   - repo: AIDC-AI/ComfyUI-Copilot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - copilot
+      - ai
+      - workflow
+      - llm-agent
+      - lang:ts
     summary: An AI-powered custom node for Comfy UI designed to enhance workflow automation and provide intelligent assistance
     last_synced_sha: 41b15d2d879ca92b0395df553d17b22b8cd6d9d3
     user_starred_at: '2025-09-17T09:02:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40207,15 +40235,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.276Z'
+      prompt_version: v3
   - repo: bytebot-ai/bytebot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+      - automation
+    tags:
+      - ai-agents
+      - self-hosted
+      - automation
+      - docker
+      - lang:ts
     summary: Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.
     last_synced_sha: 3d37894ce07ef8d8b40adc7fd309ad96c2a71313
     user_starred_at: '2025-09-17T09:02:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -40253,15 +40292,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.276Z'
+      prompt_version: v3
   - repo: EpicenterHQ/epicenter
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+      - frameworks
+    tags:
+      - svelte
+      - local-first
+      - sqlite
+      - tauri
+      - lang:ts
     summary: Open-source, local-first apps that share a single folder of plain text and SQLite.
     last_synced_sha: b847f75a5acc80070dc8a7283cf2ee32cf4d2e3e
     user_starred_at: '2025-09-17T09:01:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40284,16 +40334,27 @@ repositories:
         published_at: '2025-12-27T02:38:16Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: svelte
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.276Z'
+      prompt_version: v3
   - repo: ItzCrazyKns/Vane
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - web-dev
+    tags:
+      - ai-search-engine
+      - answering-engine
+      - machine-learning
+      - artificial-intelligence
+      - lang:ts
     summary: Vane is an AI-powered answering engine.
     last_synced_sha: b02f5aa37fcb487c68e4f115ffea55c21526efd2
     user_starred_at: '2025-09-17T09:00:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40327,15 +40388,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.276Z'
+      prompt_version: v3
   - repo: puckeditor/puck
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+      - ai-ml
+    tags:
+      - page-builder
+      - visual-editor
+      - no-code
+      - react
+      - lang:ts
     summary: Create your own AI page builder
     last_synced_sha: edc819204441dbcdea96295305d0f579bb200bfc
     user_starred_at: '2025-09-17T09:00:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40364,16 +40436,25 @@ repositories:
         published_at: '2026-01-23T12:50:41Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.276Z'
+      prompt_version: v3
   - repo: Phantom-video/HuMo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-generation
+      - human-centric
+      - multi-modal
+      - lang:python
     summary: 'Hu Mo: Human-Centric Video Generation via Collaborative Multi-Modal Conditioning'
     last_synced_sha: 845f44736e21be93aa5d8cf406b6eb01af9bff67
     user_starred_at: '2025-09-17T08:59:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -40391,15 +40472,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.276Z'
+      prompt_version: v3
   - repo: namazso/SecureUxTheme
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - security
+      - ui-libraries
+    tags:
+      - customization
+      - uxtheme
+      - windows
+      - style
+      - lang:cpp
     summary: 🎨 A secure boot compatible in-memory Ux Theme patcher
     last_synced_sha: 6aa8af8b6547ab629bfcf971d458f5fd3f193ad1
     user_starred_at: '2025-09-17T08:58:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -40431,15 +40523,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.276Z'
+      prompt_version: v3
   - repo: ByteDance-Seed/Bagel
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - multimodal-model
+      - open-source
+      - lang:python
     summary: Open-source unified multimodal model
     last_synced_sha: 056b5fd51a88c1eb4547318609e25d40080fcf87
     user_starred_at: '2025-09-17T08:53:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -40457,15 +40557,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.276Z'
+      prompt_version: v3
   - repo: ccfos/nightingale
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - productivity
+    tags:
+      - time-series
+      - alerting
+      - metrics
+      - observability
+      - lang:go
     summary: Nightingale is to monitoring and alerting what Grafana is to visualization.
     last_synced_sha: 314e11a303c3ae0d1a206c1d824a1dd59c5f74e5
     user_starred_at: '2025-09-17T08:53:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -40494,15 +40604,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.276Z'
+      prompt_version: v3
   - repo: usekaneo/kaneo
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+      - web-dev
+    tags:
+      - kanban
+      - project-management
+      - react
+      - self-hosted
+      - lang:ts
     summary: 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.
     last_synced_sha: 43ab41caaccbe70caa7bf15b7ef6a7467f4f9578
     user_starred_at: '2025-09-15T07:08:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40532,16 +40653,26 @@ repositories:
         published_at: '2026-03-11T18:31:21Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.276Z'
+      prompt_version: v3
   - repo: vercel/platforms
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+      - deployment
+    tags:
+      - nextjs
+      - multi-tenancy
+      - tailwindcss
+      - lang:ts
     summary: A full-stack Next.js app with multi-tenancy.
     last_synced_sha: bd3cd5c26e5fe7d10f3d093243d3a31b018a6987
     user_starred_at: '2025-09-14T20:16:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40563,16 +40694,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.275Z'
+      prompt_version: v3
   - repo: CompliantSec/M365SAT
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - microsoft-365
+      - security-assessment
+      - lang:powershell
     summary: Microsoft 365 Security Assessment Tool - A Easy-To-Use Microsoft 365 Security Assessment Tool
     last_synced_sha: a1fdec4a95571989b26103a2079fc5f35bccfd75
     user_starred_at: '2025-09-14T20:04:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -40590,15 +40729,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.275Z'
+      prompt_version: v3
   - repo: betomoedano/snapai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - mobile-dev
+      - dev-tools
+    tags:
+      - ai
+      - cli
+      - icon-generator
+      - react-native
+      - lang:ts
     summary: AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using Open AI's latest models.
     last_synced_sha: 20affcd2c352d97d40b5851440d091355f416c27
     user_starred_at: '2025-09-14T07:03:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40625,6 +40775,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:45:46.275Z'
+      prompt_version: v3
   - repo: piyushsachdeva/AzureDevOps-Zero-to-Hero
     categories:
       - cloud
