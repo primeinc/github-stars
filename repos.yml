@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T05:03:23.858Z'
+  manifest_updated_at: '2026-03-13T05:03:54.545Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -16264,13 +16264,19 @@ repositories:
     framework: null
   - repo: joelhooks/swarm-tools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - multi-agent
+      - machine-learning
+      - lang:ts
+      - swarm-coordination
+      - open-code
     summary: 🐝 Multi-agent swarm coordination for Open Code with learning capabilities, agent issue tracking, and management
     last_synced_sha: c0225bebda1d7fa4c87363a68183026e5b765cb3
     user_starred_at: '2026-01-11T15:42:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16295,15 +16301,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.957Z'
+      prompt_version: v3
   - repo: prabirshrestha/dotfiles
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - dotfiles
+      - lang:lua
+      - configuration
+      - personalization
     summary: There is no place like ~
     last_synced_sha: b80dd9cb70238a4d5c897ae3ccfe75bd1039bb8b
     user_starred_at: '2026-01-11T15:36:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics: []
@@ -16323,15 +16338,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.957Z'
+      prompt_version: v3
   - repo: Dicklesworthstone/coding_agent_session_search
     categories:
-      - unclassified
-    tags: []
+      - productivity
+    tags:
+      - code-search
+      - lang:rust
+      - ai-agents
+      - cli-tools
+      - session-indexing
     summary: Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.)
     last_synced_sha: c0cf17a317a7dcb0de64ea8e82dcea3586dee66f
     user_starred_at: '2026-01-11T15:26:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -16356,15 +16380,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.957Z'
+      prompt_version: v3
   - repo: randomascii/UIforETW
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - desktop-dev
+    tags:
+      - etw
+      - lang:cpp
+      - trace-management
+      - user-interface
     summary: User interface for recording and managing ETW traces
     last_synced_sha: 0168036340a0df18ac03ca4638ced02a5d2a6024
     user_starred_at: '2026-01-11T07:58:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C++
@@ -16385,15 +16418,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.957Z'
+      prompt_version: v3
   - repo: devicons/devicon
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - documentation
+    tags:
+      - icons
+      - svg
+      - lang:css
+      - design-tools
+      - fonts
     summary: Set of icons representing programming languages, designing & development tools
     last_synced_sha: 670a611ad1c3e057ee385168d65c8ab27a7e1be5
     user_starred_at: '2026-01-11T06:21:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics:
@@ -16421,15 +16464,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.957Z'
+      prompt_version: v3
   - repo: adriangalilea/namecheap-python
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - api-sdk
+      - lang:python
+      - namecheap
+      - tools
+      - cli
     summary: A Python SDK for the Namecheap API & CLI/TUI tools using it
     last_synced_sha: 041d3a96380af735c7be9d29be215c0c3e4c31ae
     user_starred_at: '2026-01-10T07:46:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -16449,15 +16502,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.957Z'
+      prompt_version: v3
   - repo: marcelscruz/public-apis
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - apis
+    tags:
+      - public-apis
+      - resources
+      - lang:js
+      - awesome-list
+      - developer-tools
     summary: A collaborative list of public APIs for developers
     last_synced_sha: 0e0fb217656785395ee191cb4bb6103de47a912b
     user_starred_at: '2026-01-09T21:17:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -16484,15 +16547,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.957Z'
+      prompt_version: v3
   - repo: lockfale/OSINT-Framework
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - osint
+      - reconnaissance
+      - intelligence-gathering
+      - lang:js
+      - footprinting
     summary: OSINT Framework
     last_synced_sha: c9655017bb8c56dc43664618b0b58a224865fccb
     user_starred_at: '2026-01-09T21:15:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -16516,15 +16589,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.957Z'
+      prompt_version: v3
   - repo: meshery/meshery
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+      - system-admin
+    tags:
+      - cloud-native
+      - lang:go
+      - kubernetes
+      - docker
+      - management-plane
     summary: Meshery, the cloud native manager
     last_synced_sha: 8422373c2b980b82f9fe06d8f5dbae504da914b8
     user_starred_at: '2026-01-09T21:14:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -16564,15 +16648,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.957Z'
+      prompt_version: v3
   - repo: simulot/immich-go
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cloud
+    tags:
+      - lang:go
+      - photo-management
+      - takeout
+      - google-photos
+      - cli
     summary: An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives.
     last_synced_sha: cc928edbce49216584647e5f756a2af6478bb7ea
     user_starred_at: '2026-01-09T21:13:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -16598,15 +16692,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.957Z'
+      prompt_version: v3
   - repo: Tencent/WeKnora
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - apis
+    tags:
+      - semantic-retrieval
+      - lang:go
+      - llm
+      - context-aware
+      - generative-ai
     summary: LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.
     last_synced_sha: fb9e70fd1632b62194943b3055f0883501feecf0
     user_starred_at: '2026-01-09T21:13:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -16646,15 +16751,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.957Z'
+      prompt_version: v3
   - repo: v2fly/domain-list-community
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - domain-management
+      - lang:go
+      - v2ray
+      - geosite
     summary: Community managed domain list. Generate geosite.dat for V2Ray.
     last_synced_sha: 235988ffe4d6877a89d9289f581599782f89b3bb
     user_starred_at: '2026-01-09T21:12:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -16676,15 +16790,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.957Z'
+      prompt_version: v3
   - repo: VictoriaMetrics/VictoriaLogs
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - monitoring
+    tags:
+      - logging
+      - observability
+      - lang:go
+      - kubernetes
+      - opentelemetry
     summary: Fast and easy to use database for logs, which can efficiently handle terabytes of logs
     last_synced_sha: 99ed55c05412b7f418c6b6fd0a96af4ad56e5270
     user_starred_at: '2026-01-09T21:12:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -16712,15 +16836,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.957Z'
+      prompt_version: v3
   - repo: schollz/croc
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+      - productivity
+    tags:
+      - file-sharing
+      - data-transfer
+      - peer-to-peer
+      - lang:go
+      - tcp
     summary: 'Easily and securely send things from one computer to another :crocodile: :package:'
     last_synced_sha: 9a3d42ae7d4eecbf99266dafb79330e5774f81f3
     user_starred_at: '2026-01-09T21:11:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -16747,15 +16882,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.957Z'
+      prompt_version: v3
   - repo: steveiliop56/tinyauth
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+    tags:
+      - authentication
+      - authorization
+      - lang:go
+      - middleware
+      - sso
     summary: The tiniest authentication and authorization server you have ever seen.
     last_synced_sha: 03f13efc77554e5b7f52fa419912d24b0a5f2648
     user_starred_at: '2026-01-09T21:10:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -16787,6 +16932,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:03:52.956Z'
+      prompt_version: v3
   - repo: keploy/keploy
     categories:
       - testing
