@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:38:32.090Z'
+  manifest_updated_at: '2026-03-13T04:39:02.329Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -46001,13 +46001,18 @@ repositories:
     framework: null
   - repo: ArthurVerrez/personal-data-formatter-for-notebooklm
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - automation
+    tags:
+      - data-formatting
+      - notebooklm
+      - integration
+      - lang:python
     summary: A python utility codebase to format personal data to feed inside Notebook LM, like Whatsapp, Messenger & Instagram conversations, but also Chat GPT conversations, Google Keep & Google Tasks
     last_synced_sha: ca40085332a664a02bfad8fd04523b3f1132db28
     user_starred_at: '2025-08-14T23:45:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -46025,15 +46030,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.801Z'
+      prompt_version: v3
   - repo: polarsource/polar
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+      - cloud
+    tags:
+      - payments
+      - subscriptions
+      - digital-products
+      - lang:python
+      - lang:ts
     summary: Turn your software into a business.
     last_synced_sha: 99158f764e46b0c1d15e0dc95dee1235194aecd3
     user_starred_at: '2025-08-13T21:30:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -46064,16 +46080,26 @@ repositories:
         published_at: '2026-01-22T14:29:18Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.801Z'
+      prompt_version: v3
   - repo: x1xhlol/system-prompts-and-models-of-ai-tools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - automation
+    tags:
+      - system-prompts
+      - notebooks
+      - ai-tools
+      - ai-productivity
     summary: FULL Augment Code, Claude Code, Cluely, Code Buddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, Notion AI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer ...
     last_synced_sha: c727405a4eddc60907b6ca8bf78f17ba450675f8
     user_starred_at: '2025-08-13T21:29:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -46111,15 +46137,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.801Z'
+      prompt_version: v3
   - repo: emilk/egui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+      - game-dev
+    tags:
+      - immediate-mode-gui
+      - wasm
+      - gamedev
+      - lang:rust
     summary: 'egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native'
     last_synced_sha: 14afefa2521d1baaf4fd02105eec2d3727a7ac36
     user_starred_at: '2025-08-13T21:23:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -46146,15 +46182,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.801Z'
+      prompt_version: v3
   - repo: FiloSottile/mkcert
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - local-certificates
+      - https
+      - local-development
+      - lang:go
     summary: A simple zero-config tool to make locally trusted development certificates with any names you'd like.
     last_synced_sha: 1c1dc4ed27ed5936046b6398d39cab4d657a2d8e
     user_starred_at: '2025-08-12T22:13:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -46186,15 +46231,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.801Z'
+      prompt_version: v3
   - repo: fastapi/full-stack-fastapi-template
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+      - cloud
+      - containers
+    tags:
+      - modern-web-app
+      - docker
+      - postgresql
+      - lang:ts
     summary: Full stack, modern web application template. Using Fast API, React, SQLModel, Postgre SQL, Docker, Git Hub Actions, automatic HTTPS and more.
     last_synced_sha: fbaf2dbe9d35a53cc74a60d6538a3bf17adc4857
     user_starred_at: '2025-08-12T22:11:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46232,16 +46288,26 @@ repositories:
         published_at: '2026-01-23T16:47:58Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.801Z'
+      prompt_version: v3
   - repo: umami-software/umami
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - web-dev
+      - monitoring
+    tags:
+      - privacy-focused
+      - analytics
+      - web-tracking
+      - lang:ts
     summary: Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel and Amplitude.
     last_synced_sha: 0a838649b773122cc68cbd0c3df78d4251b981c5
     user_starred_at: '2025-08-12T22:11:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46270,15 +46336,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.801Z'
+      prompt_version: v3
   - repo: AgentDeskAI/browser-tools-mcp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - browser-logs
+      - mcp-integration
+      - ai-development
+      - lang:js
     summary: Monitor browser logs directly from Cursor and other MCP compatible IDEs.
     last_synced_sha: 0befce357f2421e928f2a19ee09ab502080a35a5
     user_starred_at: '2025-08-11T02:53:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -46303,15 +46378,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.801Z'
+      prompt_version: v3
   - repo: scraed/LanPaint
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - ui-libraries
+    tags:
+      - generative-ai
+      - image-editing
+      - video-editing
+      - lang:python
     summary: High quality training free inpaint for every stable diffusion model. Supports Comfy UI
     last_synced_sha: f53442c8d5e0ad5f08db475f426a7e64de6013f5
     user_starred_at: '2025-08-10T06:27:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -46339,15 +46424,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.801Z'
+      prompt_version: v3
   - repo: upstash/context7
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - llm
+      - context-management
+      - ai-code-editors
+      - lang:ts
     summary: Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
     last_synced_sha: e4be37a8804da05e7d386abf5761eb057d7de760
     user_starred_at: '2025-08-09T19:49:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46371,15 +46465,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.801Z'
+      prompt_version: v3
   - repo: peterkrueck/Claude-Code-Development-Kit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - workflow-management
+      - llm-integration
+      - ai-development
+      - lang:shell
     summary: Handle context at scale - my custom Claude Code workflow including hooks, mcp and sub agents
     last_synced_sha: ccbaecef9c0f52db5b6f58aa095e8602d6fdfccf
     user_starred_at: '2025-08-09T19:48:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -46397,15 +46500,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.801Z'
+      prompt_version: v3
   - repo: nytimes/three-loader-3dtiles
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ui-libraries
+    tags:
+      - 3d-tiles
+      - threejs
+      - webgl
+      - cesium
+      - lang:ts
     summary: This is a Three.js loader module for handling OGC 3D Tiles, created by Cesium. It currently supports the two main formats, Batched 3D Model (b3dm) - based on gl TF Point cloud.
     last_synced_sha: 3e876c9d26309e45e6e11e0092d62bb613af2127
     user_starred_at: '2025-08-08T11:14:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -46428,15 +46541,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.801Z'
+      prompt_version: v3
   - repo: storytellingmap/storymap
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - 3d-maps
+      - storytelling
+      - data-visualization
+      - lang:js
     summary: 3D maps with paths for drawing a story
     last_synced_sha: 29755b9a527ac50aa8e3f7ee73bc365a2e92da7d
     user_starred_at: '2025-08-08T11:04:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -46454,15 +46576,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.800Z'
+      prompt_version: v3
   - repo: boatbod/op25
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - radio-communication
+      - osmacom
+      - signal-processing
+      - lang:cpp
     summary: Fork of osmocom OP25 by boatbod
     last_synced_sha: 0f0116572f837fe8fc326c1f4f89e6c435b1823d
     user_starred_at: '2025-08-08T03:21:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -46480,15 +46611,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.800Z'
+      prompt_version: v3
   - repo: Ylianst/MeshCommander
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - ui-libraries
+    tags:
+      - remote-management
+      - intel-amt
+      - hardware-kvm
+      - lang:html
     summary: Mesh Commander is a Intel(R) Active Management Technology (Intel(R) AMT) remote management tool. It's feature rich and includes a built-in remote desktop viewer for Hardware-KVM, a Serial-over-LAN ...
     last_synced_sha: d943cefcf5802391471ecd6b2f91d655b9579eb4
     user_starred_at: '2025-08-07T23:51:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -46506,6 +46646,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:39:00.800Z'
+      prompt_version: v3
   - repo: bixat/nexsh
     categories:
       - ai-ml
