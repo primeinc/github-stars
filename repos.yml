@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:44:10.272Z'
+  manifest_updated_at: '2026-03-13T04:44:44.118Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -41085,13 +41085,20 @@ repositories:
     framework: null
   - repo: Lissy93/awesome-privacy
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+      - learning
+    tags:
+      - lang:astro
+      - awesome-lists
+      - privacy-focus
+      - self-hosted-tools
+      - security-resources
     summary: 🦄 A curated list of privacy & security-focused software and services
     last_synced_sha: 3fa1e7971bc0e94ab01dbebcc93637f6767b989e
     user_starred_at: '2025-09-13T07:52:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Astro
       topics:
@@ -41115,15 +41122,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.571Z'
+      prompt_version: v3
   - repo: Lissy93/personal-security-checklist
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+      - productivity
+    tags:
+      - lang:ts
+      - privacy-tools
+      - cybersecurity-checklist
+      - digital-safety
+      - personal-protection
     summary: 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026
     last_synced_sha: 6d4ea7245065ab3ec5a4cd6adb10118dff2b1c34
     user_starred_at: '2025-09-13T07:50:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -41154,15 +41172,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.571Z'
+      prompt_version: v3
   - repo: matiassingers/awesome-readme
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+      - productivity
+    tags:
+      - awesome-lists
+      - readme-examples
+      - open-source
+      - templates
     summary: A curated list of awesome READMEs
     last_synced_sha: 79f7e488c6bfa1f8f4b58e04786dffb84ff417f0
     user_starred_at: '2025-09-13T07:50:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -41184,15 +41212,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.571Z'
+      prompt_version: v3
   - repo: posquit0/Awesome-CV
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+      - learning
+    tags:
+      - lang:tex
+      - cv-builder
+      - resume-template
+      - job-applications
+      - awesome-lists
     summary: ':page_facing_up: Awesome CV is La Te X template for your outstanding job application'
     last_synced_sha: 36075ed034f7dbb8d3d35ec0cfac725f743fc3e8
     user_starred_at: '2025-09-13T07:49:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TeX
       topics:
@@ -41220,15 +41259,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.571Z'
+      prompt_version: v3
   - repo: saturn-abhishek/awesome-github-profile-readme
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+      - ui-libraries
+    tags:
+      - awesome-lists
+      - github-profiles
+      - portfolio
+      - readme-templates
     summary: 😎 A curated list of awesome Git Hub Profile which updates in real time
     last_synced_sha: 7cb2691619d0b8bb3017289c699f3a0d16dc9c70
     user_starred_at: '2025-09-13T07:48:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -41253,15 +41302,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.570Z'
+      prompt_version: v3
   - repo: DopplerHQ/awesome-interview-questions
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+      - productivity
+    tags:
+      - interview-prep
+      - awesome-lists
+      - job-practice
+      - multi-language
+      - career
     summary: ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board:'
     last_synced_sha: bcb0c90a0ab3c495857ca9ea63f367e68848346c
     user_starred_at: '2025-09-13T07:47:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: null
@@ -41294,15 +41354,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.570Z'
+      prompt_version: v3
   - repo: Hack-with-Github/Awesome-Hacking
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+      - documentation
+    tags:
+      - hacking-tools
+      - pentesting
+      - bug-bounty
+      - cybersecurity
+      - reverse-engineering
     summary: A collection of various awesome lists for hackers, pentesters and security researchers
     last_synced_sha: 5a02f846e8fc5cf0d64e175f52e06b72df950d28
     user_starred_at: '2025-09-13T07:47:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -41329,15 +41400,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.570Z'
+      prompt_version: v3
   - repo: unchihugo/FluentFlyout
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+      - productivity
+    tags:
+      - lang:csharp
+      - windows-11
+      - fluent-ui
+      - media-controls
+      - flyout-ui
     summary: The modern Flyout app for Windows 11, built with Fluent 2 Design principles. Media Flyouts, Taskbar Widgets and more.
     last_synced_sha: 6e0cf8c78707ba30d047e2e54573786d6a44d478
     user_starred_at: '2025-09-13T07:42:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -41372,15 +41454,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.570Z'
+      prompt_version: v3
   - repo: winapps-org/winapps
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+      - system-admin
+    tags:
+      - lang:shell
+      - linux-windows-integration
+      - docker
+      - gnome-kde
+      - virtualization
     summary: Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration. Hard fork of https://github.com/Fmstr...
     last_synced_sha: 07d7fa4ec139d00434cf03444b2c031540b9871d
     user_starred_at: '2025-09-13T07:41:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -41418,15 +41511,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.570Z'
+      prompt_version: v3
   - repo: googleapis/gcloud-mcp
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - apis
+      - deployment
+    tags:
+      - gcp
+      - lang:ts
+      - server-management
+      - cloud-services
+      - deployment-tools
     summary: gcloud MCP server
     last_synced_sha: 51e45770900b13f4105c0bee919863c56728c651
     user_starred_at: '2025-09-13T07:41:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -41446,15 +41550,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.570Z'
+      prompt_version: v3
   - repo: LAION-AI/worldsim
     categories:
+      - ai-ml
       - unclassified
-    tags: []
+    tags:
+      - simulation
+      - ai-tools
+      - research-oriented
+      - open-source
     summary: No description provided
     last_synced_sha: 7217b451c4b33df8913212f7306f139bf7fe8013
     user_starred_at: '2025-09-13T07:38:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -41472,15 +41585,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.570Z'
+      prompt_version: v3
   - repo: Zie619/n8n-workflows
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - documentation
+      - productivity
+    tags:
+      - lang:python
+      - workflow-automation
+      - process-management
+      - n8n-integration
+      - open-source
     summary: all of the workflows of n8n i could find (also from the site itself)
     last_synced_sha: ed8dd70c695978d0f919107dc7e2d30bc1febc9f
     user_starred_at: '2025-09-13T07:37:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -41500,15 +41624,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.570Z'
+      prompt_version: v3
   - repo: zama-ai/fhevm
     categories:
-      - unclassified
-    tags: []
+      - security
+      - frameworks
+    tags:
+      - lang:rust
+      - homomorphic-encryption
+      - privacy
+      - fhe
+      - blockchain-integration
     summary: FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications
     last_synced_sha: fd3ef74eb2c0a444bbbe85942257a5768e0f8a21
     user_starred_at: '2025-09-13T06:41:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -41531,15 +41665,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.570Z'
+      prompt_version: v3
   - repo: ClemensElflein/OpenMower
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - automation
+    tags:
+      - lang:cpp
+      - rtk-gps
+      - robotics
+      - smart-lawn-mower
+      - automation
     summary: Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots!
     last_synced_sha: 4f11e685f3011ab97c067595259cb078baa500be
     user_starred_at: '2025-09-13T06:41:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -41570,15 +41714,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.570Z'
+      prompt_version: v3
   - repo: 11cafe/jaaz
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+      - productivity
+    tags:
+      - multimodal-assistant
+      - lang:ts
+      - ai-tools
+      - flux
+      - privacy-focused
     summary: The world's first open-source multimodal creative assistant This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.
     last_synced_sha: 145dd85067be77e36d400637a595e19a7b07c77a
     user_starred_at: '2025-09-13T06:41:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -41609,6 +41764,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:44:42.570Z'
+      prompt_version: v3
   - repo: Vector-Wangel/XLeRobot
     categories:
       - ai-ml
