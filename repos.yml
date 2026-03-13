@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:01:10.759Z'
+  manifest_updated_at: '2026-03-13T04:01:45.870Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -78574,13 +78574,16 @@ repositories:
     framework: null
   - repo: chall32/WinCDP
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - cisco-discovery
+      - windows
     summary: Cisco Discovery for Windows
     last_synced_sha: 56b22652df86e02cd94c5026c819c552392b0ee3
     user_starred_at: '2016-02-19T02:20:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -78598,15 +78601,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.369Z'
+      prompt_version: v3
   - repo: discourse/discourse
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+      - apis
+    tags:
+      - community-platform
+      - forum
+      - rails
+      - ruby
+      - lang:ruby
     summary: A platform for community discussion. Free, open, simple.
     last_synced_sha: 5d603ece49a296da47197bc91ea8e1d178d5772c
     user_starred_at: '2016-02-17T20:17:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -78630,16 +78644,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.369Z'
+      prompt_version: v3
   - repo: jdorn/sql-formatter
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - databases
+      - documentation
+    tags:
+      - sql-formatting
+      - syntax-highlighting
+      - lang:html
     summary: A lightweight php class for formatting sql statements. Handles automatic indentation and syntax highlighting.
     last_synced_sha: 7ef9b85961956aa572413693e1194b60f50ab9ab
     user_starred_at: '2016-02-15T20:49:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -78659,15 +78682,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.369Z'
+      prompt_version: v3
   - repo: php-school/learn-you-php
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - dev-tools
+      - documentation
+    tags:
+      - learning-tool
+      - php-education
+      - lang:php
     summary: '🏆 Learn You PHP! - An introduction to PHP''s core features: i/o, http, arrays, exceptions and so on.'
     last_synced_sha: 20ffd00755e7c70c9f5179c0121f7e7c2f1a4318
     user_starred_at: '2016-02-05T14:12:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -78691,15 +78723,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.369Z'
+      prompt_version: v3
   - repo: phpro/grumphp
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+      - testing
+    tags:
+      - code-quality
+      - git-hooks
+      - composer-plugin
+      - lang:php
     summary: A PHP code-quality tool
     last_synced_sha: f3103f07d56b24d056a231328cb6293f638050ea
     user_starred_at: '2016-02-05T14:10:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -78724,15 +78766,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.369Z'
+      prompt_version: v3
   - repo: hirak/prestissimo
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - composer-plugin
+      - php-dependency
+      - lang:php
     summary: composer parallel install plugin
     last_synced_sha: 93abf7e1ace008f6fb69c28c26b483203c0662a7
     user_starred_at: '2016-02-05T14:07:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -78752,15 +78802,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.369Z'
+      prompt_version: v3
   - repo: Sonarr/Sonarr
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+      - data-science
+    tags:
+      - pvr
+      - newsgroup
+      - bittorrent
+      - lang:csharp
     summary: Smart PVR for newsgroup and bittorrent users.
     last_synced_sha: 01c7d06da4fc08f1e7fb7d990416a436c5109364
     user_starred_at: '2016-02-04T14:41:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -78780,15 +78840,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.369Z'
+      prompt_version: v3
   - repo: ShareX/ShareX
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - screen-capture
+      - file-upload
+      - gif
+      - lang:csharp
     summary: Share X is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file typ...
     last_synced_sha: 2dafcce1b8c74923af8e71d20cd5baee95b6e67a
     user_starred_at: '2016-02-04T14:34:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -78828,15 +78897,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.369Z'
+      prompt_version: v3
   - repo: veltman/clmystery
     categories:
+      - learning
+      - productivity
       - unclassified
-    tags: []
+    tags:
+      - command-line
+      - gamification
+      - puzzle
     summary: A command-line murder mystery
     last_synced_sha: a159819c33fd37b4b0b079dc265c8b137ca71be6
     user_starred_at: '2016-02-01T02:05:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -78854,15 +78932,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.368Z'
+      prompt_version: v3
   - repo: jgthms/bulma
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+      - learning
+    tags:
+      - css-framework
+      - flexbox
+      - design
+      - lang:css
     summary: Modern CSS framework based on Flexbox
     last_synced_sha: 741da22368cd548111224983a1c3ece8954fe8cc
     user_starred_at: '2016-01-31T22:33:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics:
@@ -78887,15 +78975,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.368Z'
+      prompt_version: v3
   - repo: MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+      - productivity
+    tags:
+      - music-player
+      - cross-platform
+      - electron
+      - lang:js
     summary: A beautiful cross platform Desktop Player for Google Play Music
     last_synced_sha: b5c6bd893b76fce4a20494b46934f15977d3b777
     user_starred_at: '2016-01-29T18:58:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -78920,15 +79018,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.368Z'
+      prompt_version: v3
   - repo: matbeedotcom/chromecast-audio-stream
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - desktop-dev
+      - productivity
+    tags:
+      - chromecast
+      - audio-stream
+      - lang:js
     summary: Stream your Windows PC's audio to the Chromecast
     last_synced_sha: cf808ba3cb19d247a17b543ead1536b30804bd0a
     user_starred_at: '2016-01-26T07:04:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -78948,15 +79055,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.368Z'
+      prompt_version: v3
   - repo: tariqporter/Gdip
     categories:
+      - productivity
+      - automation
       - unclassified
-    tags: []
+    tags:
+      - autohotkey-library
+      - gdi
+      - lang:autohotkey
     summary: Official GDI+ library for Autohotkey
     last_synced_sha: da22594ae7090366e29877ece158eee28f9fbdde
     user_starred_at: '2016-01-22T05:25:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: AutoHotkey
       topics: []
@@ -78974,15 +79090,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.368Z'
+      prompt_version: v3
   - repo: AmirAzodi/cloudflare_ddns
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+      - cloud
+    tags:
+      - dynamic-dns
+      - cloudflare
+      - lang:python
     summary: Python-based Dynamic DNS client for Cloud Flare.
     last_synced_sha: b17ffca9164c14d1f0ab7db4175006c93c5c37f3
     user_starred_at: '2016-01-19T19:48:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -79000,15 +79125,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.368Z'
+      prompt_version: v3
   - repo: vgough/encfs
     categories:
+      - security
+      - system-admin
       - unclassified
-    tags: []
+    tags:
+      - encrypted-filesystem
+      - fuse
+      - lang:rust
     summary: 'Enc FS: an Encrypted Filesystem for FUSE.'
     last_synced_sha: cbff883d912dacf7506d02b42b7f12aaa94f7960
     user_starred_at: '2016-01-04T23:29:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -79028,6 +79162,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:01:44.368Z'
+      prompt_version: v3
   - repo: irontec/sngrep
     categories:
       - networking
