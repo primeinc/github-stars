@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:36:22.823Z'
+  manifest_updated_at: '2026-03-13T04:36:56.725Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -48031,13 +48031,18 @@ repositories:
     framework: null
   - repo: JJarv04/ScreenConnect-IntuneWin32
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - security
+    tags:
+      - screenconnect
+      - intune
+      - deployment-scripts
+      - lang:powershell
     summary: 'An fork of James Vincents: ''How to Deploy Screen Connect using Intune'' scripts.'
     last_synced_sha: d92a5c29663aba0fc75a87e7f8aedff32f89eb15
     user_starred_at: '2025-07-17T02:24:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -48055,15 +48060,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.196Z'
+      prompt_version: v3
   - repo: PavelDoGreat/WebGL-Fluid-Simulation
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - game-dev
+    tags:
+      - fluid-dynamics
+      - webgl
+      - simulation
+      - lang:js
     summary: Play with fluids in your browser (works even on mobile)
     last_synced_sha: a2d292931f19d9b3b9f564e23e6c32729d2121c3
     user_starred_at: '2025-07-16T17:58:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -48086,15 +48100,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.196Z'
+      prompt_version: v3
   - repo: OpenPipe/ART
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - reinforcement-learning
+      - agent-training
+      - llms
+      - lang:python
     summary: 'Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.5, GPT-OSS, Llama, and more!'
     last_synced_sha: ca97bff8502cbf038d2897f73bafe6a9841259bb
     user_starred_at: '2025-07-16T17:53:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -48123,15 +48146,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.195Z'
+      prompt_version: v3
   - repo: vibetunnel/vibetunnel
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: WIP - we're transitioning to the org soon
     last_synced_sha: c7ddd4edde6000e56d1e6f79bd99522fbdd4f65a
     user_starred_at: '2025-07-16T17:50:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -48149,15 +48177,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.195Z'
+      prompt_version: v3
   - repo: davidkimai/Context-Engineering
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - context-window
+      - ai-handbook
+      - lang:python
     summary: '"Context engineering is the delicate art and science of filling the context window with just the right information for the next step." — Andrej Karpathy. A frontier, first-principles handbook inspi...'
     last_synced_sha: 6158def66a2d2174ed8356cf376e5f44e10d78ea
     user_starred_at: '2025-07-15T20:21:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -48175,15 +48211,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.195Z'
+      prompt_version: v3
   - repo: imskyleen/animate-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - animated-components
+      - react
+      - tailwindcss
+      - lang:ts
     summary: Fully animated, open-source component distribution built with React, Type Script, Tailwind CSS, Motion, and Shadcn CLI. Browse a list of components you can install, modify, and use in your projects.
     last_synced_sha: efeb96ffd7a3b7a4868667e4ac3c346620fb3044
     user_starred_at: '2025-07-15T20:20:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48209,16 +48254,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.195Z'
+      prompt_version: v3
   - repo: Panquesito7/submodules-alternative
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - git-modules
+      - cloning
+      - lang:lua
+      - git-alternatives
     summary: An easy-to-use Git modules alternative to make the cloning process easier.
     last_synced_sha: 67d0bc8ffcf0f2f51a39f1acf0cafba2515899fd
     user_starred_at: '2025-07-15T01:31:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics:
@@ -48256,15 +48310,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.195Z'
+      prompt_version: v3
   - repo: muesli/readme-scribe
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - automation
+    tags:
+      - markdown
+      - readme-generator
+      - github-actions
     summary: A Git Hub Action that automatically generates & updates markdown content (like your README.md)
     last_synced_sha: d2f6ab32d6b9f5b59941fe782d6c7e6499a37fe4
     user_starred_at: '2025-07-15T01:23:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -48285,15 +48347,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.195Z'
+      prompt_version: v3
   - repo: dorny/test-reporter
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - automation
+    tags:
+      - ci-cd
+      - test-reporting
+      - github-actions
+      - lang:ts
     summary: Displays test results from popular testing frameworks directly in Git Hub
     last_synced_sha: 3b635e8e7b844df7a28b859c64db3e064e2dfcdb
     user_starred_at: '2025-07-15T01:18:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48317,15 +48388,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.195Z'
+      prompt_version: v3
   - repo: actions/labeler
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - pull-requests
+      - labeling
+      - github-actions
+      - lang:ts
     summary: An action for automatically labelling pull requests
     last_synced_sha: e52e4fb63ed5cd0e07abaad9826b2a893ccb921f
     user_starred_at: '2025-07-15T00:53:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -48345,15 +48425,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.195Z'
+      prompt_version: v3
   - repo: actions/ai-inference
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - github-actions
+      - ai-models
+      - lang:ts
+      - inference
     summary: An action for calling AI models with Git Hub Models
     last_synced_sha: e09e65981758de8b2fdab13c2bfb7c7d5493b0b6
     user_starred_at: '2025-07-15T00:51:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -48373,15 +48462,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.195Z'
+      prompt_version: v3
   - repo: copilot-extensions/gh-debug-cli
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - testing
+    tags:
+      - debugging
+      - cli-tool
+      - lang:go
+      - error-validation
     summary: CLI tool that lets you chat with your agent locally for faster feedback and debugging
     last_synced_sha: 8a1d3c7ceadb53074762717cdb9df41776f3ef12
     user_starred_at: '2025-07-15T00:21:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -48405,15 +48503,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.195Z'
+      prompt_version: v3
   - repo: astralapp/astral
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - github-stars
+      - organizer
+      - lang:php
+      - tagging
     summary: Organize Your Git Hub Stars With Ease
     last_synced_sha: d8f24046235d479a8c2803e2ebdf49f0aba48e27
     user_starred_at: '2025-07-15T00:00:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -48435,15 +48542,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.195Z'
+      prompt_version: v3
   - repo: github/github-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+      - apis
+    tags:
+      - mcp-server
+      - github
+      - lang:go
+      - server-admin
     summary: Git Hub's official MCP Server
     last_synced_sha: 1da41fa6947f2412b41d104b4eab39336e48ee1a
     user_starred_at: '2025-07-13T19:28:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -48466,15 +48583,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.195Z'
+      prompt_version: v3
   - repo: Nachman-Libermensh/tanstack-form-playground
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - ui-libraries
+    tags:
+      - form-handling
+      - react
+      - playground
+      - lang:ts
     summary: No description provided
     last_synced_sha: ec2207901c4fd5d90369ff440a03f59b173946c8
     user_starred_at: '2025-07-13T18:34:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -48491,7 +48617,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:36:55.191Z'
+      prompt_version: v3
   - repo: rizzui/rizzui
     categories:
       - ui-libraries
