@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T05:16:31.676Z'
+  manifest_updated_at: '2026-03-13T05:17:00.055Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -4307,13 +4307,17 @@ repositories:
       prompt_version: v3
   - repo: financial-datasets/mcp-server
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - data-science
+    tags:
+      - stock-market
+      - financial-data
+      - lang:python
     summary: An MCP server for interacting with the Financial Datasets stock market API.
     last_synced_sha: 08e7a3dbb949d3d99bbd6d6f3a22e5f02973ec58
     user_starred_at: '2026-02-16T05:11:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -4331,15 +4335,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:16:58.413Z'
+      prompt_version: v3
   - repo: GongRzhe/Office-Word-MCP-Server
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+      - productivity
+    tags:
+      - document-processing
+      - mcp-server
+      - lang:python
     summary: A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interfac...
     last_synced_sha: a3bbbb6d6167e68cf855d73ef7dc6cd8cfbfedba
     user_starred_at: '2026-02-16T05:10:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -4360,15 +4373,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:16:58.413Z'
+      prompt_version: v3
   - repo: mcp-router/mcp-router
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+      - ai-ml
+    tags:
+      - management
+      - mcp-server
+      - lang:ts
     summary: A Unified MCP Server Management App (MCP Manager).
     last_synced_sha: a213cd330d1abef0144b19a84b64ddd9b7f974aa
     user_starred_at: '2026-02-16T05:10:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4397,15 +4419,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:16:58.413Z'
+      prompt_version: v3
   - repo: donnemartin/system-design-primer
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - system-design
+      - design-patterns
+      - lang:python
     summary: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
     last_synced_sha: 19a26e66e7d87c119fe149c092cab36952f21107
     user_starred_at: '2026-02-16T04:56:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4436,6 +4466,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:16:58.413Z'
+      prompt_version: v3
   - repo: FlorianWilhelm/the-hatchlor
     categories:
       - dev-tools
@@ -43103,13 +43137,17 @@ repositories:
       prompt_version: v3
   - repo: zotero/zotero
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - research-tool
+      - citation-management
+      - lang:js
     summary: Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.
     last_synced_sha: fb4ac78291c219169056b111eba7d3ac071f39eb
     user_starred_at: '2026-03-12T07:09:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -43127,6 +43165,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:16:58.413Z'
+      prompt_version: v3
   - repo: HybridBrothers/Hybrid-Brothers-Blogs
     categories:
       - documentation
