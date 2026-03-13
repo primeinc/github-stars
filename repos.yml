@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:04:22.865Z'
+  manifest_updated_at: '2026-03-13T04:04:53.572Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -76138,13 +76138,18 @@ repositories:
     framework: null
   - repo: danielperna84/hass-configurator
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - configuration
+      - home-assistant
+      - web-app
+      - lang:python
     summary: Configuration UI for Home Assistant
     last_synced_sha: 397bda2f9131d2c1c979bf01391745699852b049
     user_starred_at: '2019-08-19T16:09:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -76173,15 +76178,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.027Z'
+      prompt_version: v3
   - repo: jimz011/homekit-infused
     categories:
-      - unclassified
-    tags: []
+      - productivity
+    tags:
+      - homekit
+      - home-assistant
+      - custom-ui
     summary: Homekit Infused 5 2023
     last_synced_sha: a388c5ea9d124ae9b3f22f2d561ae5c55fbdb508
     user_starred_at: '2019-08-15T18:18:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: null
@@ -76205,15 +76217,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.027Z'
+      prompt_version: v3
   - repo: PiotrMachowski/lovelace-xiaomi-vacuum-map-card
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+    tags:
+      - vacuum
+      - map-control
+      - home-assistant
+      - lang:ts
     summary: This card provides a user-friendly way to fully control map-based vacuums in Home Assistant. Supported brands include Xiaomi (Roborock/Viomi/Dreame/Roidmi/Valetudo/Valetudo RE), Neato, Wyze, Roomba...
     last_synced_sha: d9ebe12eb6e090d44a0181f9f227b1693d27e068
     user_starred_at: '2019-07-29T00:43:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -76250,15 +76270,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.027Z'
+      prompt_version: v3
   - repo: benct/lovelace-xiaomi-vacuum-card
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+    tags:
+      - vacuum
+      - lovelace
+      - home-assistant
+      - lang:js
     summary: Simple card for various robot vacuums in Home Assistant's Lovelace UI
     last_synced_sha: 44d53f9758c65449389b6d2cb8709321aefc7290
     user_starred_at: '2019-07-28T18:52:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -76289,15 +76317,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.027Z'
+      prompt_version: v3
   - repo: fabbr/MMM-Ecobee
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - magic-mirror
+      - ecobee
+      - lang:js
     summary: Module for Magic Mirror that supports ecobee Thermostat
     last_synced_sha: b60b0e9453d99b46b7edfa3ee15faf0f7510d8ec
     user_starred_at: '2018-12-30T00:26:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -76315,15 +76351,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.027Z'
+      prompt_version: v3
   - repo: morpheus65535/bazarr
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - subtitles
+      - downloads
+      - media
+      - radarr
+      - lang:python
     summary: Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of every...
     last_synced_sha: a21300b3e1acf1e9e4f58b051ff9204e24459c45
     user_starred_at: '2018-11-21T19:21:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -76351,15 +76397,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.027Z'
+      prompt_version: v3
   - repo: alsmith/multicast-relay
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - multicast
+      - relay
+      - mdns
+      - lang:python
     summary: Relay multicast and broadcast packets between interfaces.
     last_synced_sha: 461d1c97f3aaf0ab9f8996e1a8f24c6b8204d6b4
     user_starred_at: '2018-10-27T20:21:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -76392,15 +76447,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.027Z'
+      prompt_version: v3
   - repo: fightforthefuture/battleforthenet-widget
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - net-neutrality
+      - widget
+      - embed
+      - lang:js
     summary: Embed this widget on your site and help save net neutrality!
     last_synced_sha: 352041e457d3aa9e926be06816583fa5a71f8b47
     user_starred_at: '2017-07-11T23:44:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: JavaScript
@@ -76419,15 +76483,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.027Z'
+      prompt_version: v3
   - repo: Nordeus/ansible_iptables_raw
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - ansible
+      - iptables
+      - lang:python
     summary: iptables module for Ansible which keeps state
     last_synced_sha: 3d657b525cd2d8997cccadcc64f50adbcef8ea39
     user_starred_at: '2017-07-06T16:19:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -76445,15 +76517,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.027Z'
+      prompt_version: v3
   - repo: netbox-community/netbox
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - automation
+      - system-admin
+    tags:
+      - network-automation
+      - dcim
+      - ipam
+      - lang:python
     summary: 'The premier source of truth powering network automation. Open source under Apache 2. Try Net Box Cloud free: https://netboxlabs.com/products/free-netbox-cloud/'
     last_synced_sha: 6f5fd2618342aca618826f8f09767e22dc12b130
     user_starred_at: '2017-06-07T16:18:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -76484,15 +76566,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.027Z'
+      prompt_version: v3
   - repo: pterodactyl/panel
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - security
+      - containers
+    tags:
+      - game-server
+      - laravel
+      - docker
+      - react
+      - lang:php
     summary: Pterodactyl® is a free, open-source game server management panel built with PHP, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while...
     last_synced_sha: 0f82c105201b192d229f6abd5827e2ee7e672a05
     user_starred_at: '2017-04-16T01:41:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -76524,15 +76617,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.027Z'
+      prompt_version: v3
   - repo: jpginc/windows10DesktopManager
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - desktop
+      - manager
+      - lang:autohotkey
     summary: An autohotkey desktop manager
     last_synced_sha: 72758ef6bc9e7e2a56af1a91d84240a8c714f0c1
     user_starred_at: '2017-01-13T20:26:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: AutoHotkey
       topics: []
@@ -76550,15 +76651,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.027Z'
+      prompt_version: v3
   - repo: Radarr/Radarr
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - movies
+      - torrent
+      - usenet
+      - organizer
+      - lang:csharp
     summary: Movie organizer/manager for usenet and torrent users.
     last_synced_sha: 89110c2cc8ec671d718cf34acc845f66d475a427
     user_starred_at: '2016-12-29T01:40:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -76586,15 +76697,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.027Z'
+      prompt_version: v3
   - repo: Tautulli/Tautulli
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - productivity
+    tags:
+      - plex
+      - analytics
+      - notifications
+      - lang:python
     summary: A Python based monitoring and tracking tool for Plex Media Server.
     last_synced_sha: 0a837049c1a62124087cca27f82d96603b75eede
     user_starred_at: '2016-12-28T03:54:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -76623,15 +76743,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.026Z'
+      prompt_version: v3
   - repo: causefx/iDashboard-PHP
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - dashboard
+      - htpc
+      - lang:js
     summary: HTPC Dashboard to load website services, written in PHP
     last_synced_sha: 48ce3abcadf613fb6ea8f587251101dfd667f320
     user_starred_at: '2016-12-28T03:53:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -76651,6 +76779,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:04:52.026Z'
+      prompt_version: v3
   - repo: mikaelbr/node-notifier
     categories:
       - desktop-dev
