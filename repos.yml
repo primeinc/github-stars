@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:45:47.883Z'
+  manifest_updated_at: '2026-03-13T04:46:18.099Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -39558,13 +39558,17 @@ repositories:
     framework: null
   - repo: simdjson/simdjson
     categories:
-      - unclassified
-    tags: []
+      - data-science
+    tags:
+      - json-parser
+      - simd
+      - avx2
+      - lang:cpp
     summary: 'Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, Click House, Watermelon DB, Apache Doris, Milvus, Star Rocks'
     last_synced_sha: be946942907791484aa5c2ce4579a3e7fd92f15c
     user_starred_at: '2025-09-22T15:46:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -39604,15 +39608,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.517Z'
+      prompt_version: v3
   - repo: ytdl-org/youtube-dl
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - video-downloader
+      - command-line
+      - youtube
+      - lang:python
     summary: Command-line program to download videos from You Tube.com and other video sites
     last_synced_sha: 956b8c585591b401a543e409accb163eeaaa1193
     user_starred_at: '2025-09-22T15:45:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -39632,15 +39645,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.517Z'
+      prompt_version: v3
   - repo: iyaja/llama-fs
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - system-admin
+    tags:
+      - file-system
+      - self-organizing
+      - llama-3
+      - lang:ts
     summary: A self-organizing file system with llama 3
     last_synced_sha: 0a693717ca1845b3ae8c208b2929d987fcdabb81
     user_starred_at: '2025-09-22T15:41:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -39658,15 +39680,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.517Z'
+      prompt_version: v3
   - repo: formatjs/formatjs
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - i18n
+      - localization
+      - react
+      - intl
+      - lang:ts
     summary: The monorepo home to all of the Format JS related libraries, most notably react-intl.
     last_synced_sha: 1922b194f42974188a9049cad0e322e8e19303c1
     user_starred_at: '2025-09-22T15:39:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -39696,16 +39728,25 @@ repositories:
         published_at: '2026-03-09T11:08:06Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.517Z'
+      prompt_version: v3
   - repo: manaflow-ai/manaflow
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - ai-tools
+      - cloud-computing
+      - code-alternative
+      - lang:ts
     summary: Open source Claude Code web/Codex Cloud/Devin/Ramp Inspect alternative
     last_synced_sha: 0227cacf532b6f679069c934d8d8ecef30bca9fd
     user_starred_at: '2025-09-22T15:37:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -39725,15 +39766,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.517Z'
+      prompt_version: v3
   - repo: beefproject/beef
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - browser-exploitation
+      - penetration-testing
+      - hacking
+      - lang:js
     summary: The Browser Exploitation Framework Project
     last_synced_sha: 5252c04fc8b1fc49fc85036e3c7e0a6d48840783
     user_starred_at: '2025-09-22T15:36:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -39753,15 +39803,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.517Z'
+      prompt_version: v3
   - repo: XTXMarkets/ternfs
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - databases
+    tags:
+      - distributed-file-system
+      - multi-region
+      - scalability
+      - lang:cpp
     summary: An exabyte-scale, multi-region distributed file system
     last_synced_sha: eabca715f2b95ee8b1a86b9c14cd8aacd48eaf72
     user_starred_at: '2025-09-22T15:34:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -39781,15 +39840,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.517Z'
+      prompt_version: v3
   - repo: langchain-ai/social-media-agent
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - social-media
+      - agent
+      - scheduling
+      - lang:ts
     summary: 📲 An agent for sourcing, curating, and scheduling social media posts with human-in-the-loop.
     last_synced_sha: cd9b62e4b12637f0fff374620e5a7cf28c1233e2
     user_starred_at: '2025-09-22T09:42:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -39807,15 +39875,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.517Z'
+      prompt_version: v3
   - repo: teableio/teable
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - productivity
+    tags:
+      - no-code
+      - airtable-alternative
+      - postgres
+      - low-code
+      - lang:ts
     summary: '✨ The Next Gen Airtable Alternative: No-Code Postgres'
     last_synced_sha: a3f79260e0b690f57279a71515fbef2da48270df
     user_starred_at: '2025-09-22T08:41:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -39848,15 +39926,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.517Z'
+      prompt_version: v3
   - repo: home-assistant/frontend
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - automation
+    tags:
+      - home-automation
+      - frontend
+      - lit-element
+      - lang:ts
     summary: ':lollipop: Frontend for Home Assistant'
     last_synced_sha: 29b3303f94021a35e67c32beb59a8b75c859922a
     user_starred_at: '2025-09-22T08:41:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -39883,15 +39970,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.517Z'
+      prompt_version: v3
   - repo: vercel/swr
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - react
+      - data-fetching
+      - react-hooks
+      - suspense
+      - lang:ts
     summary: React Hooks for Data Fetching
     last_synced_sha: 5fa29522f196db2ad9d2083193c3b63214256c19
     user_starred_at: '2025-09-22T08:40:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -39923,16 +40020,25 @@ repositories:
         published_at: '2026-02-01T03:02:37Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.517Z'
+      prompt_version: v3
   - repo: Gregivy/simpleddp
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - apis
+    tags:
+      - ddp-client
+      - meteorjs
+      - reactive
+      - lang:js
     summary: An easy to use DDP client library
     last_synced_sha: 4bd415ee52e4023787e401111d9be5ca788a333b
     user_starred_at: '2025-09-21T14:56:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -39961,15 +40067,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.517Z'
+      prompt_version: v3
   - repo: microsoft/ai-dev-gallery
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+      - learning
+    tags:
+      - ai-integration
+      - windows-apps
+      - onnx
+      - stable-diffusion
+      - lang:csharp
     summary: An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps.
     last_synced_sha: 306bd53eb35254c065f1ef4db04bde4cf5901353
     user_starred_at: '2025-09-21T03:09:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -40007,15 +40124,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.517Z'
+      prompt_version: v3
   - repo: microsoft/react-native-windows-samples
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ui-libraries
+    tags:
+      - react-native
+      - windows
+      - macos
+      - surface-duo
+      - lang:csharp
     summary: A repository showcasing React Native samples and templates for Windows, mac OS, and Surface Duo.
     last_synced_sha: 6d54e103cdca0a81a5cbd1d92c3672ddb0fb6463
     user_starred_at: '2025-09-20T22:30:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -40035,16 +40162,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.517Z'
+      prompt_version: v3
   - repo: rocksdanister/lively
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - live-wallpaper
+      - dynamic-desktop
+      - windows-app
+      - lang:csharp
     summary: Free and open-source software that allows users to set animated desktop wallpapers and screensavers powered by Win UI 3.
     last_synced_sha: 9d996c3c6e49c2502e2cb368cdc29ee286a63ce0
     user_starred_at: '2025-09-20T22:27:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -40084,6 +40220,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:46:16.516Z'
+      prompt_version: v3
   - repo: NileshGule/techtalks-azure-container-apps-demo
     categories:
       - cloud
