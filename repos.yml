@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T05:11:34.552Z'
+  manifest_updated_at: '2026-03-13T05:12:05.093Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -8651,13 +8651,18 @@ repositories:
     framework: null
   - repo: zabbix/zabbix
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+    tags:
+      - network-monitoring
+      - application-metrics
+      - alerting
+      - lang:go-template
     summary: Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.
     last_synced_sha: 7d8dfbbf9880c317836e95b5aa1d8a3083ecb544
     user_starred_at: '2026-02-08T14:01:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go Template
       topics:
@@ -8681,15 +8686,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: HoppouAI/OctoBrowser
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - copilot-sdk
+      - browser-project
+      - lang:js
     summary: Built for the Copilot SDK Weekend Contest as a fun project.
     last_synced_sha: 85ab4b1a830a4359fc727a3ad12f28ab1264803b
     user_starred_at: '2026-02-08T13:59:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -8709,15 +8722,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: smestern/treepilot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - family-tree
+      - experimental-ai
+      - lang:python
     summary: A hacky / vibecoded AI family tree researcher
     last_synced_sha: 745afac8699716704cbd19e076bef6343cc9f68a
     user_starred_at: '2026-02-08T13:58:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -8735,15 +8756,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: SchwarziLukas/braindump-butler
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - markdown-notes
+      - obsidian
+      - note-management
+      - lang:python
     summary: Turns brain dumps and meeting notes into tidy Markdown notes for your Obsidian Vault.
     last_synced_sha: 8ab8d0910bfc22d01467ae9b50fdda402bc7ea4b
     user_starred_at: '2026-02-08T13:58:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -8761,15 +8791,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: p-e-w/heretic
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+    tags:
+      - censorship-removal
+      - transformers
+      - llm-tools
+      - lang:python
     summary: Fully automatic censorship removal for language models
     last_synced_sha: e26da5e0e648bb285f896c9801849edfa8d20913
     user_starred_at: '2026-02-08T13:54:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8792,15 +8831,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: KeygraphHQ/shannon
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+    tags:
+      - pentesting
+      - security-tools
+      - automation
+      - lang:ts
     summary: Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities bef...
     last_synced_sha: 629c52ed3b1984f03483f43f2f8957abf26a0947
     user_starred_at: '2026-02-08T13:53:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8823,15 +8871,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: bvaughn/react-resizable-panels
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+    tags:
+      - layout
+      - react
+      - resizable-panels
+      - lang:ts
     summary: No description provided
     last_synced_sha: 552111976c74906fbcf96e63744bb8fc97a5aae6
     user_starred_at: '2026-02-08T13:51:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8855,16 +8911,25 @@ repositories:
         published_at: '2026-03-07T23:34:35Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: ExperienceLovelace/ha-floorplan
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ui-libraries
+    tags:
+      - home-assistant
+      - floorplan
+      - lang:ts
+      - interactive-ui
     summary: Bring new life to Home Assistant. By mapping entities to a SVG-object, you're able to control devices, show states, calling services - and much more. Add custom styling on top, to visualize whateve...
     last_synced_sha: 7f3d9d3a7dcec2a00b0448e213d8c2fd31b648c7
     user_starred_at: '2026-02-08T13:50:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8889,15 +8954,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: mathuo/dockview
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - layout-manager
+      - tabs
+      - drag-and-drop
+      - lang:ts
     summary: Zero dependency docking layout manager supporting tabs, groups, grids and splitviews. Supports React, Vue, Angular, and vanilla Type Script.
     last_synced_sha: ef6a232f5667e2954c6cf5766d3a27e57140d390
     user_starred_at: '2026-02-08T13:48:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8937,15 +9011,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: Safe3/openresty-manager
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - nginx-management
+      - docker-ui
+      - control-panel
+      - lang:go
     summary: Modern, secure, and elegant server control panel, alternative to Open Resty Edge and Nginx Proxy Manager.
     last_synced_sha: ff3589849c41a5ee9d8ba13b8857d57602dcd8d8
     user_starred_at: '2026-02-08T13:46:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -8985,15 +9068,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: 1Panel-dev/1Panel
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - deployment
+    tags:
+      - vps-management
+      - docker
+      - webmin
+      - lang:go
     summary: 🔥 Take full control of your VPS with 1Panel. Deploy Open Claw in one click.
     last_synced_sha: 7cb70f785acbda37423bcc6e15e402656c7f698f
     user_starred_at: '2026-02-08T13:42:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -9025,15 +9117,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: cathrynlavery/wispr-flow-recap
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - voice-dictation
+      - lang:js
+      - activity-recaps
     summary: Beautiful activity recaps for Wispr Flow voice dictation
     last_synced_sha: 028119fc82aed7bfc2790aaa5951039b159ab491
     user_starred_at: '2026-02-08T13:37:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -9051,15 +9151,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: dkhamsing/open-source-ios-apps
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - learning
+    tags:
+      - ios
+      - collaborative-list
+      - swift
+      - example
     summary: ':iphone: Collaborative List of Open-Source i OS Apps'
     last_synced_sha: c6962dfc2e112ee82cc54f58e3d029ac4ea3f255
     user_starred_at: '2026-02-08T13:16:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -9099,15 +9208,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: microsoft/rushstack
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - testing
+    tags:
+      - monorepo
+      - build-tools
+      - toolchain
+      - lang:ts
     summary: Monorepo for tools developed by the Rush Stack community
     last_synced_sha: c18c86d300745a3f321ce5ca842a58880059c897
     user_starred_at: '2026-02-08T09:48:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9141,15 +9259,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: 11happy/cpx
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - file-operations
+      - lang:rust
+      - command-line-tool
     summary: cp reimagined
     last_synced_sha: 6ddb32272bf63739663b111ae9ee6c558157724f
     user_starred_at: '2026-02-08T08:15:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -9169,6 +9295,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T05:12:03.637Z'
+      prompt_version: v3
   - repo: zellij-org/zellij
     categories:
       - productivity
