@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-13T04:16:40.853Z'
+  manifest_updated_at: '2026-03-13T04:17:08.490Z'
   total_repos: 2405
   generator_version: v1.0.0
   github_user: primeinc
@@ -65479,13 +65479,17 @@ repositories:
     framework: null
   - repo: BestAnHongjun/LMDeploy-Jetson
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+    tags:
+      - llm
+      - jetson
+      - offline-inference
     summary: Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access.
     last_synced_sha: 89ba96f07433a247dece3ededfeb137fd9ab3758
     user_starred_at: '2025-01-25T15:26:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -65505,15 +65509,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.987Z'
+      prompt_version: v3
   - repo: Qengineering/realsr-ncnn-Jetson-Nano
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - super-resolution
+      - ncnn
+      - deep-learning
+      - jetson-nano
     summary: Award winning Real SR super resolution with ncnn on Jetson Nano
     last_synced_sha: 8023e65550bcf274e2f8dbc0cf09852e1eed6ec3
     user_starred_at: '2025-01-25T15:25:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -65539,15 +65552,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.987Z'
+      prompt_version: v3
   - repo: rockkingjy/OpenTracker
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - embedded
+    tags:
+      - visual-tracking
+      - real-time
+      - cpp
+      - jetson
+      - lang:cpp
     summary: Real-time C++ ECO tracker etc. speed-up by SSE/NEON, support Linux, Mac, Jetson TX1/2, raspberry pi
     last_synced_sha: 21e664db156f278f7f3120cd48dcdce33eac3c5e
     user_starred_at: '2025-01-25T15:24:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -65573,15 +65596,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.987Z'
+      prompt_version: v3
   - repo: arasharchor/jetson-video
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - networking
+    tags:
+      - streaming
+      - drivers
+      - displays
+      - cameras
+      - lang:cpp
     summary: Unified streaming drivers and utilities for codecs, cameras, and displays including gstreamer, V4L2, Gig E, CUDA, Open GL, and others.
     last_synced_sha: 8048023043e1edb513db56259c9637ee6bad9d8a
     user_starred_at: '2025-01-25T15:22:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -65599,15 +65632,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.987Z'
+      prompt_version: v3
   - repo: NVIDIA-AI-IOT/jetson-copilot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - local-ai-assistant
+      - llm
+      - rag
+      - lang:python
     summary: A reference application for a local AI assistant with LLM and RAG
     last_synced_sha: 34309e2494ed109157b56f43bde65b3f0dadbef1
     user_starred_at: '2025-01-25T15:19:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -65625,15 +65667,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.987Z'
+      prompt_version: v3
   - repo: Qengineering/Face-Recognition-Jetson-Nano
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - face-recognition
+      - deep-learning
+      - anti-spoofing
+      - lang:cpp
     summary: Recognize 2000+ faces on your Jetson Nano with database auto-fill and anti-spoofing
     last_synced_sha: 9ac5b9e3f0980e3f551a2ab4041752b69de0e75c
     user_starred_at: '2025-01-25T15:18:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -65662,15 +65713,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.987Z'
+      prompt_version: v3
   - repo: shahizat/JetsonGPT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - language-model
+      - speech-recognition
+      - text-to-speech
+      - lang:python
     summary: Using Fast Chat-T5 Large Language Model, Vosk API for automatic speech recognition, and Piper for text-to-speech
     last_synced_sha: 6954fd2b6f986f122514688893d2e8d3b3644b00
     user_starred_at: '2025-01-25T15:15:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -65688,15 +65748,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.987Z'
+      prompt_version: v3
   - repo: dusty-nv/jetson-voice
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - speech-recognition
+      - text-to-speech
+      - deep-learning
+      - lang:python
     summary: ASR/NLP/TTS deep learning inference library for NVIDIA Jetson using Py Torch and Tensor RT
     last_synced_sha: c6a8c9552c7011b31dddef8ed546b02e581f6af6
     user_starred_at: '2025-01-25T15:12:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65722,15 +65791,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.987Z'
+      prompt_version: v3
   - repo: rbonghi/jetson_stats
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+    tags:
+      - jetson
+      - gpu-monitoring
+      - cpu-monitoring
+      - lang:python
     summary: 📊 Simple package for monitoring and control your NVIDIA Jetson [Orin, Xavier, Nano, TX] series
     last_synced_sha: 4a43d735dd45a1eab1b5ffd880cd40ee11f92e2b
     user_starred_at: '2025-01-25T15:10:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65768,15 +65846,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.987Z'
+      prompt_version: v3
   - repo: ai-dock/onetrainer
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+    tags:
+      - gpu
+      - docker
+      - model-training
+      - cloud
+      - lang:shell
     summary: One Trainer docker images for use in GPU cloud and local environments. Includes AI-Dock KDE Plasma desktop with GPU acceleration and audio for authentication and improved user experience.
     last_synced_sha: 89d39c795323ad42a251e13c4ee36ee8adb4d732
     user_starred_at: '2025-01-25T14:56:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -65804,15 +65892,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.987Z'
+      prompt_version: v3
   - repo: Nerogar/OneTrainer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - training
+      - image-models
+      - fine-tuning
+      - lang:python
     summary: One Trainer is a one-stop solution for all your Diffusion training needs.
     last_synced_sha: 9122cb6144b2b3b1b9ab331fac4dab727a828e6d
     user_starred_at: '2025-01-25T14:53:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65834,15 +65931,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.987Z'
+      prompt_version: v3
   - repo: dusty-nv/jetson-containers
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - ai-ml
+    tags:
+      - machine-learning
+      - docker
+      - jetson
+      - lang:jupyter-notebook
     summary: Machine Learning Containers for NVIDIA Jetson and Jet Pack-L4T
     last_synced_sha: 11b68597c67b523b2c8bda8499d76b023c549409
     user_starred_at: '2025-01-25T12:10:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -65873,15 +65979,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.987Z'
+      prompt_version: v3
   - repo: VirtualDrivers/Virtual-Display-Driver
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - desktop-dev
+    tags:
+      - virtual-monitor
+      - display-driver
+      - windows
+      - lang:cpp
     summary: Add virtual monitors to your windows 10/11 device! Works with VR, OBS, Sunshine, and/or any desktop sharing software.
     last_synced_sha: 22e3abfc8ee9abac746a22a8b7d111c64f345a34
     user_starred_at: '2025-01-19T15:42:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C++
@@ -65908,15 +66023,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.986Z'
+      prompt_version: v3
   - repo: paolo-projects/auto-unlocker
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - security
+    tags:
+      - vmware
+      - macos
+      - unlocker
+      - lang:cpp
     summary: Unlocker for VMWare mac OS
     last_synced_sha: ddc03aa4a5609cc59922e760834496c76fe1a700
     user_starred_at: '2025-01-19T08:51:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -65936,15 +66060,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.986Z'
+      prompt_version: v3
   - repo: pqrs-org/Karabiner-Elements
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - keyboard-customization
+      - macos
+      - lang:cpp
     summary: Karabiner-Elements is a powerful tool for customizing keyboards on mac OS
     last_synced_sha: fbaaa0fce1fdf9f47a7cc0df3e0e1c8947921a48
     user_starred_at: '2025-01-17T23:26:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -65966,6 +66098,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-13T04:17:06.986Z'
+      prompt_version: v3
   - repo: SierraSoftworks/tailscale-udm
     categories:
       - networking
