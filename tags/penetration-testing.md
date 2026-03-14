@@ -1,10 +1,14 @@
 # Tag: penetration-testing
 
-*2 repositories*
+*6 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks | `Go` ★ 9.5k | 2026-03-11 |
-| [usestrix/strix](https://github.com/usestrix/strix) | Open-source AI hackers to find and fix your app’s vulnerabilities. | `Python` ★ 20.9k | 2026-03-12 |
+| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks | `Go` ★ 9.5k | 2026-03-13 |
+| [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | Hex Strike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug ... | `Python` ★ 7.4k | 2026-03-06 |
+| [trustedsec/social-engineer-toolkit](https://github.com/trustedsec/social-engineer-toolkit) | The Social-Engineer Toolkit (SET) repository from Trusted Sec - All new versions of SET will be deployed here. | `Python` ★ 14.7k | 2024-10-21 |
+| [usestrix/strix](https://github.com/usestrix/strix) | Open-source AI hackers to find and fix your app’s vulnerabilities. | `Python` ★ 20.9k | 2026-03-14 |
+| [beefproject/beef](https://github.com/beefproject/beef) | The Browser Exploitation Framework Project | `JavaScript` ★ 10.8k | 2026-03-11 |
+| [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) | A collection of awesome penetration testing resources, tools and other shiny things | ★ 25.5k | 2026-01-25 |
