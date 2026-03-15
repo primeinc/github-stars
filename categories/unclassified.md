@@ -19,7 +19,7 @@
 | [simpsoka/jules-companion](https://github.com/simpsoka/jules-companion) | No description provided | `Swift` ★ 86 | 2026-01-24 |
 | [microsoft/Agent365-Samples](https://github.com/microsoft/Agent365-Samples) | No description provided | `Python` ★ 47 | 2026-03-11 |
 | [dadlerj/tin](https://github.com/dadlerj/tin) | No description provided | `Go` ★ 64 | 2026-01-07 |
-| [openprose/prose](https://github.com/openprose/prose) | No description provided | ★ 912 | 2026-02-20 |
+| [openprose/prose](https://github.com/openprose/prose) | No description provided | ★ 921 | 2026-02-20 |
 | [ishandutta2007/open-hr](https://github.com/ishandutta2007/open-hr) | 📖opensource equivalent of Deel payroll and HR solutions | ★ 1 | 2026-02-11 |
 | [NullandKale/NullSplats](https://github.com/NullandKale/NullSplats) | No description provided | `Python` ★ 136 | 2026-01-12 |
 | [sohzm/cheating-daddy](https://github.com/sohzm/cheating-daddy) | a free and opensource app that lets you gain an unfair advantage | `JavaScript` ★ 5.1k | 2026-02-09 |
@@ -27,22 +27,22 @@
 | [trungdq88/Awesome-Black-Friday-Cyber-Monday](https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday) | Awesome apps, software, and Saa S deals on Black Friday. | ★ 7.5k | 2025-11-30 |
 | [PaulJPhilp/effect-env](https://github.com/PaulJPhilp/effect-env) | No description provided | `TypeScript` ★ 41 | 2025-11-27 |
 | [ExoFi-Labs/Nexface](https://github.com/ExoFi-Labs/Nexface) | No description provided | `Python` ★ 52 | 2025-06-24 |
-| [aleks-apostle/claude-code-patches](https://github.com/aleks-apostle/claude-code-patches) | A simple patch that toggles claude-code thinking traces to be fully expanded by default without having to press ctrl + o | `JavaScript` ★ 47 | 2025-12-09 |
+| [aleks-apostle/claude-code-patches](https://github.com/aleks-apostle/claude-code-patches) | A simple patch that toggles claude-code thinking traces to be fully expanded by default without having to press ctrl + o | `JavaScript` ★ 49 | 2025-12-09 |
 | [character-ai/Ovi](https://github.com/character-ai/Ovi) | No description provided | `Python` ★ 1.7k | 2025-11-15 |
 | [Azure/Medical-Claims-Transaction-Processing-at-scale](https://github.com/Azure/Medical-Claims-Transaction-Processing-at-scale) | No description provided | `CSS` ★ 44 | 2025-05-12 |
 | [Azure-Samples/dab-swa-library-demo](https://github.com/Azure-Samples/dab-swa-library-demo) | No description provided | `JavaScript` ★ 19 | 2024-06-18 |
 | [LAION-AI/worldsim](https://github.com/LAION-AI/worldsim) | No description provided | ★ 13 | 2023-08-29 |
 | [Azure/playwright-workspaces](https://github.com/Azure/playwright-workspaces) | No description provided | ★ 11 | 2026-03-03 |
 | [kiqu3z/printer-monitoring-dashboard](https://github.com/kiqu3z/printer-monitoring-dashboard) | um programa que faz a monitoria via SMNP das impressoras de sem a necessidade de configurar um Zabbix ou Grafana. | `HTML` ★ 2 | 2024-06-03 |
-| [context-labs/uwu](https://github.com/context-labs/uwu) | No description provided | `TypeScript` ★ 939 | 2025-08-23 |
+| [context-labs/uwu](https://github.com/context-labs/uwu) | No description provided | `TypeScript` ★ 940 | 2025-08-23 |
 | [wolfdenpublishing/pyccsl](https://github.com/wolfdenpublishing/pyccsl) | Python Claude Code Status Line (Py CCSL, pronounced "pixel") | `Python` ★ 81 | 2025-08-12 |
-| [vibetunnel/vibetunnel](https://github.com/vibetunnel/vibetunnel) | WIP - we're transitioning to the org soon | `TypeScript` ★ 19 | 2025-07-18 |
-| [siwenwang0803/RedForge](https://github.com/siwenwang0803/RedForge) | No description provided | `Python` ★ 2 | 2026-03-14 |
+| [vibetunnel/vibetunnel](https://github.com/vibetunnel/vibetunnel) | WIP - we're transitioning to the org soon | `TypeScript` ★ 20 | 2025-07-18 |
+| [siwenwang0803/RedForge](https://github.com/siwenwang0803/RedForge) | No description provided | `Python` ★ 2 | 2026-03-15 |
 | [JaredTherriault/Rope](https://github.com/JaredTherriault/Rope) | GUI-focused roop | `Python` ★ 15 | 2025-03-06 |
 | [sim-codes/windows-phone-link-ui](https://github.com/sim-codes/windows-phone-link-ui) | No description provided | `TypeScript` ★ 2 | 2024-05-14 |
 | [versotile-org/tauri-runtime-verso](https://github.com/versotile-org/tauri-runtime-verso) | No description provided | `Rust` ★ 106 | 2025-10-03 |
 | [maedball/Homeassistant_Siemens_versicharge](https://github.com/maedball/Homeassistant_Siemens_versicharge) | No description provided | ★ 1 | 2022-12-10 |
-| [up-n-atom/8311](https://github.com/up-n-atom/8311) | Website for the 8311 discord channel | `HTML` ★ 146 | 2026-03-14 |
+| [up-n-atom/8311](https://github.com/up-n-atom/8311) | Website for the 8311 discord channel | `HTML` ★ 148 | 2026-03-14 |
 | [rShetty/awesome-podcasts](https://github.com/rShetty/awesome-podcasts) | Collection of awesome podcasts | ★ 12.9k | 2024-03-02 |
 | [gavincyi/awesome-financial-open-source](https://github.com/gavincyi/awesome-financial-open-source) | Collection of financial institution open source groups | ★ 39 | 2025-02-04 |
 | [Captain-Of-Coit/cs2-vehicle-counter](https://github.com/Captain-Of-Coit/cs2-vehicle-counter) | No description provided | `C#` ★ 1 | 2023-11-27 |

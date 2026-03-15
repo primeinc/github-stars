@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | The Generative UI framework | `TypeScript` ★ 12.4k | 2026-03-13 |
-| [puffinsoft/syntux](https://github.com/puffinsoft/syntux) | Generative UIs for the web. | `TypeScript` ★ 406 | 2026-03-14 |
+| [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | The Generative UI framework | `TypeScript` ★ 12.5k | 2026-03-13 |
+| [puffinsoft/syntux](https://github.com/puffinsoft/syntux) | Generative UIs for the web. | `TypeScript` ★ 408 | 2026-03-14 |
