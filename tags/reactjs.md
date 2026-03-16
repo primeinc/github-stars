@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [codesandbox/sandpack](https://github.com/codesandbox/sandpack) | A component toolkit for creating live-running code editing experiences, using the power of Code Sandbox. | `TypeScript` ★ 6.1k | 2025-04-24 |
-| [puffinsoft/syntux](https://github.com/puffinsoft/syntux) | Generative UIs for the web. | `TypeScript` ★ 408 | 2026-03-14 |
+| [puffinsoft/syntux](https://github.com/puffinsoft/syntux) | Generative UIs for the web. | `TypeScript` ★ 409 | 2026-03-15 |

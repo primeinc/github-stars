@@ -1,6 +1,6 @@
 # Tag: alerting
 
-*4 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
@@ -9,4 +9,3 @@
 | [zabbix/zabbix](https://github.com/zabbix/zabbix) | Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud. | `Go Template` ★ 5.7k | 2026-03-13 |
 | [TwiN/gatus](https://github.com/TwiN/gatus) | Automated developer-oriented status page with alerting and incident support | `Go` ★ 10.4k | 2026-03-06 |
 | [ccfos/nightingale](https://github.com/ccfos/nightingale) | Nightingale is to monitoring and alerting what Grafana is to visualization. | `Go` ★ 12.9k | 2026-03-13 |
-| [netdata/netdata](https://github.com/netdata/netdata) | The fastest path to AI-powered full stack observability, even for lean teams. | `C` ★ 78.1k | 2026-03-14 |

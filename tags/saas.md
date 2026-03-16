@@ -1,6 +1,6 @@
 # Tag: saas
 
-*3 repositories*
+*2 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,4 +8,3 @@
 |---|---|---|---|
 | [get-convex/convex-saas](https://github.com/get-convex/convex-saas) | A production-ready Convex Stack for your next Saa S application with Convex Auth, Stripe, Tan Stack, Resend, Tailwindcss, and shadcn. | `TypeScript` ★ 346 | 2026-02-05 |
 | [nextjs/saas-starter](https://github.com/nextjs/saas-starter) | Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui. | `TypeScript` ★ 15.5k | 2025-12-11 |
-| [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) | Awesome list of open-source startup alternatives to well-known Saa S products 🚀 | `Python` ★ 18.9k | 2025-09-03 |

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [joelhawksley/timeframe](https://github.com/joelhawksley/timeframe) | An e-paper calendar, weather, and smart home family dashboard | `Ruby` ★ 664 | 2026-03-12 |
-| [rocksdanister/weather](https://github.com/rocksdanister/weather) | Windows native weather app powered by Direct X12 animations | `C#` ★ 690 | 2025-01-14 |
+| [joelhawksley/timeframe](https://github.com/joelhawksley/timeframe) | An e-paper calendar, weather, and smart home family dashboard | `Ruby` ★ 667 | 2026-03-15 |
+| [rocksdanister/weather](https://github.com/rocksdanister/weather) | Windows native weather app powered by Direct X12 animations | `C#` ★ 691 | 2025-01-14 |

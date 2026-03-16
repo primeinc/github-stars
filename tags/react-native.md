@@ -10,4 +10,4 @@
 | [microsoft/react-native-windows-samples](https://github.com/microsoft/react-native-windows-samples) | A repository showcasing React Native samples and templates for Windows, mac OS, and Surface Duo. | `C#` ★ 534 | 2026-03-11 |
 | [betomoedano/snapai](https://github.com/betomoedano/snapai) | AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using Open AI's latest models. | `TypeScript` ★ 1.7k | 2026-03-03 |
 | [RevenueCat/react-native-purchases](https://github.com/RevenueCat/react-native-purchases) | React Native in-app purchases and subscriptions made easy. Support for i OS, Android and web. | `TypeScript` ★ 1.1k | 2026-03-13 |
-| [Galaxies-dev/fintech-clone-react-native](https://github.com/Galaxies-dev/fintech-clone-react-native) | No description provided | `TypeScript` ★ 406 | 2024-11-08 |
+| [Galaxies-dev/fintech-clone-react-native](https://github.com/Galaxies-dev/fintech-clone-react-native) | No description provided | `TypeScript` ★ 405 | 2024-11-08 |

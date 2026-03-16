@@ -1,6 +1,6 @@
 # Tag: data-analysis
 
-*6 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
@@ -11,4 +11,3 @@
 | [dask/dask](https://github.com/dask/dask) | Parallel computing with task scheduling | `Python` ★ 13.8k | 2026-03-12 |
 | [bibek376/Housing_Price_Prediction](https://github.com/bibek376/Housing_Price_Prediction) | No description provided | `Jupyter Notebook` ★ 52 | 2024-06-16 |
 | [rachitt96/pyRealtor](https://github.com/rachitt96/pyRealtor) | Python package to extract and analyse Canadian, United States and Indian real estate data from REALTOR.CA, REALTOR.COM and HOUSING.COM | `Python` ★ 16 | 2025-12-21 |
-| [datajuicer/data-juicer](https://github.com/datajuicer/data-juicer) | Data processing for and with foundation models! 🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷 | `Python` ★ 6.1k | 2026-03-13 |

@@ -1,6 +1,6 @@
 # Tag: hacktoberfest
 
-*7 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
@@ -11,5 +11,3 @@
 | [TheAlgorithms/TypeScript](https://github.com/TheAlgorithms/TypeScript) | Algorithms and Data Structures implemented in Type Script for beginners, following best practices. | `TypeScript` ★ 2.7k | 2024-10-16 |
 | [openstates/openstates-scrapers](https://github.com/openstates/openstates-scrapers) | source for Open States scrapers | `Python` ★ 892 | 2026-03-13 |
 | [maartenvandiemen/AZD-AppConfiguration](https://github.com/maartenvandiemen/AZD-AppConfiguration) | No description provided | `Bicep` ★ 1 | 2025-10-17 |
-| [catppuccin/windows-terminal](https://github.com/catppuccin/windows-terminal) | 🪟 Soothing pastel theme for Windows Terminal | ★ 822 | 2023-12-26 |
-| [swapagarwal/swag-for-dev](https://github.com/swapagarwal/swag-for-dev) | 😎 swag opportunities for developers | `JavaScript` ★ 4.4k | 2024-12-09 |

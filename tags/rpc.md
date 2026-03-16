@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [grpc/grpc](https://github.com/grpc/grpc) | C++ based g RPC (C++, Python, Ruby, Objective-C, PHP, C#) | `C++` ★ 44.5k | 2026-03-14 |
+| [grpc/grpc](https://github.com/grpc/grpc) | C++ based g RPC (C++, Python, Ruby, Objective-C, PHP, C#) | `C++` ★ 44.5k | 2026-03-16 |
 | [cloudflare/capnweb](https://github.com/cloudflare/capnweb) | Java Script/Type Script-native, low-boilerplate, object-capability RPC system | `TypeScript` ★ 3.7k | 2026-03-09 |

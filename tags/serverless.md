@@ -1,6 +1,6 @@
 # Tag: serverless
 
-*10 repositories*
+*9 repositories*
 
 [← Back to Index](../README.md)
 
@@ -15,4 +15,3 @@
 | [neondatabase/neon](https://github.com/neondatabase/neon) | Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero. | `Rust` ★ 21.2k | 2026-02-18 |
 | [openfaas/faas](https://github.com/openfaas/faas) | Open Faa S - Serverless Functions Made Simple | `Go` ★ 26.1k | 2026-03-09 |
 | [nhost/nhost](https://github.com/nhost/nhost) | The Open Source Firebase Alternative with Graph QL. | `TypeScript` ★ 9.1k | 2026-03-14 |
-| [Azure/azure-functions-host](https://github.com/Azure/azure-functions-host) | The host/runtime that powers Azure Functions | `C#` ★ 2k | 2026-03-12 |

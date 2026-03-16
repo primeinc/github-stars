@@ -1,6 +1,6 @@
 # Tag: infrastructure-as-code
 
-*7 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
@@ -11,5 +11,3 @@
 | [wesellis/Azure-PowerShell-Toolkit](https://github.com/wesellis/Azure-PowerShell-Toolkit) | Massive collection of 772+ Power Shell scripts for Azure management. CI/CD with PSScript Analyzer, security scanning, and Ia C validation. Enterprise-ready with comprehensive testing. | `PowerShell` ★ 38 | 2025-10-03 |
 | [Azure/ALZ-Bicep](https://github.com/Azure/ALZ-Bicep) | This repository contains the Azure Landing Zones (ALZ) Bicep (Classic) modules that help deliver and deploy the Azure Landing Zone conceptual architecture in a modular approach. https://aka.ms/alz/... | `Bicep` ★ 871 | 2026-03-09 |
 | [jamesmcroft/bicep-templates](https://github.com/jamesmcroft/bicep-templates) | A centralized resource for providing baseline templates for building and deploying infrastructure-as-code best practices using Azure Bicep | `Bicep` ★ 17 | 2025-06-18 |
-| [someengineering/fixinventory](https://github.com/someengineering/fixinventory) | Fix Inventory helps you identify and remove the most critical risks in AWS, GCP, Azure and Kubernetes. | `Python` ★ 2.1k | 2026-03-06 |
-| [Azure/bicep-registry-modules](https://github.com/Azure/bicep-registry-modules) | Bicep registry modules | `Bicep` ★ 702 | 2026-03-14 |
