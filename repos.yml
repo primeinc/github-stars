@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-17T04:11:36.499Z'
+  manifest_updated_at: '2026-03-17T04:12:15.489Z'
   total_repos: 2412
   generator_version: v1.0.0
   github_user: primeinc
@@ -84614,13 +84614,17 @@ repositories:
     framework: null
   - repo: martymac/fpart
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - file-packing
+      - bigdata
+      - lang:c
     summary: Sort files and pack them into partitions
     last_synced_sha: 00a405f14cf858796bc5ae44c56069f41c37a186
     user_starred_at: '2023-03-05T23:58:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -84646,15 +84650,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.882Z'
+      prompt_version: v3
   - repo: bcpierce00/unison
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - cloud
+    tags:
+      - file-synchronization
+      - lang:ocaml
     summary: Unison file synchronizer
     last_synced_sha: b22d115a7424fbd15a9003769f85e211542b9d72
     user_starred_at: '2023-03-05T23:48:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: OCaml
       topics: []
@@ -84674,15 +84685,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.882Z'
+      prompt_version: v3
   - repo: agarbato/unicloud
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - web-dev
+    tags:
+      - file-sync
+      - synchronization
+      - lang:python
+      - flask
     summary: Unison file sync web interface
     last_synced_sha: 8e767790ada4d5c8c04dce0e06ebb3fa4a3a82a8
     user_starred_at: '2023-03-05T23:43:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -84712,16 +84732,25 @@ repositories:
         published_at: '2024-04-26T16:54:06Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: flask
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.882Z'
+      prompt_version: v3
   - repo: jbd/msrsync
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - rsync
+      - parallel
+      - utility
+      - lang:python
     summary: Multi-stream rsync wrapper
     last_synced_sha: 6a47be055564ce0b4d5d6b86e6b888840c002067
     user_starred_at: '2023-03-05T23:01:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -84743,15 +84772,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.882Z'
+      prompt_version: v3
   - repo: hnmr293/posex
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - pose-estimation
+      - image-generator
+      - lang:js
     summary: Posex - Estimated Image Generator for Pose2Image
     last_synced_sha: 292f92d5068046f988fe002eb0a43b8841ad449e
     user_starred_at: '2023-03-04T20:32:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -84769,15 +84806,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.882Z'
+      prompt_version: v3
   - repo: hometlt/png-metadata
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - png
+      - metadata
+      - lang:js
     summary: read and write png metadata
     last_synced_sha: 3d9754c015ef29e76e3f3fbf864b1d3f4be5bd3a
     user_starred_at: '2023-03-03T18:39:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -84795,15 +84840,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.881Z'
+      prompt_version: v3
   - repo: cocktailpeanut/breadboard
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - stable-diffusion
+      - browser
+      - cross-platform
+      - lang:js
     summary: Stable Diffusion Browser for Windows, Mac, and Linux
     last_synced_sha: fcbef0910918a7c7b2cdb470eca63931289eafc7
     user_starred_at: '2023-03-03T18:37:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -84824,15 +84878,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.877Z'
+      prompt_version: v3
   - repo: jflam/chat-gpt-jupyter-extension
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - jupyter-notebook
+      - browser-extension
+      - chat-gpt
+      - lang:jupyter-notebook
     summary: A browser extension that lets you chat with Chat GPT from any local Jupyter notebook.
     last_synced_sha: 6da0d3c5fe0273950d3167cba7d3c4a69ff3778a
     user_starred_at: '2023-03-01T19:15:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -84850,15 +84913,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.877Z'
+      prompt_version: v3
   - repo: PoshCode/PowerShellPracticeAndStyle
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - system-admin
+    tags:
+      - best-practices
+      - style-guide
+      - powershell
     summary: The Unofficial Power Shell Best Practices and Style Guide
     last_synced_sha: d1c6ae146b1060ec4844afc393161c6237bd85a7
     user_starred_at: '2023-02-25T22:53:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -84882,15 +84953,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.877Z'
+      prompt_version: v3
   - repo: mhammond/pywin32
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - dev-tools
+    tags:
+      - windows
+      - extensions
+      - lang:cpp
     summary: Python for Windows (pywin32) Extensions
     last_synced_sha: 370d286a722f2a32574e4dcddf47f61b077977fc
     user_starred_at: '2023-02-24T04:59:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -84912,15 +84991,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.877Z'
+      prompt_version: v3
   - repo: zero01101/openOutpaint-webUI-extension
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - outpainting
+      - web-ui
+      - extension
+      - lang:js
     summary: direct A1111 web UI extension for open Outpaint
     last_synced_sha: 3449ae8559c0f270d49ceb3ef7234f62feaac675
     user_starred_at: '2023-02-24T04:42:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -84938,15 +85026,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.877Z'
+      prompt_version: v3
   - repo: IrisRainbowNeko/DreamArtist-sd-webui-extension
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - stable-diffusion
+      - web-ui-extension
+      - lang:python
     summary: Dream Artist for Stable-Diffusion-webui extension
     last_synced_sha: 12f8077517b11199802f8d448d36ea573debae96
     user_starred_at: '2023-02-24T04:35:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -84964,15 +85060,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.877Z'
+      prompt_version: v3
   - repo: d8ahazard/sd_dreambooth_extension
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - stable-diffusion
+      - extension
+      - lang:python
     summary: No description provided
     last_synced_sha: 4244f6b2cf810a0a4dd83a3534b27d92b82e4c21
     user_starred_at: '2023-02-23T14:36:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -84992,15 +85096,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.877Z'
+      prompt_version: v3
   - repo: devilismyfriend/StableTuner
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - finetuning
+      - stable-diffusion
+      - lang:python
     summary: Finetuning SD in style.
     last_synced_sha: 4c63853399590289ea88b6fcd6565f1a407c916c
     user_starred_at: '2023-02-22T19:27:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -85019,15 +85131,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.877Z'
+      prompt_version: v3
   - repo: FlagAI-Open/FlagAI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - large-scale-models
+      - toolkit
+      - lang:python
     summary: Flag AI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model.
     last_synced_sha: 645d6784032289e181283f74e5cbacf13b58c7c5
     user_starred_at: '2023-02-19T22:55:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -85047,6 +85167,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:12:13.876Z'
+      prompt_version: v3
   - repo: Maks-s/sd-akashic
     categories:
       - documentation
