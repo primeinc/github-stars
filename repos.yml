@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-17T04:03:49.277Z'
+  manifest_updated_at: '2026-03-17T04:04:23.702Z'
   total_repos: 2412
   generator_version: v1.0.0
   github_user: primeinc
@@ -90865,13 +90865,17 @@ repositories:
     framework: null
   - repo: irontec/sngrep
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - dev-tools
+    tags:
+      - sip-debugging
+      - ncurses
+      - lang:c
     summary: Ncurses SIP Messages flow viewer
     last_synced_sha: c77bd75a52d1aac96ae9d1603f2b7dfbe7e90ffd
     user_starred_at: '2015-11-10T19:19:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -90899,15 +90903,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.152Z'
+      prompt_version: v3
   - repo: chiraggude/awesome-laravel
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - awesome-laravel
+      - resources
+      - laravel
     summary: A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem
     last_synced_sha: 0374093f529ba54bfd201c4c52b40a88e45ab1ae
     user_starred_at: '2015-11-09T21:30:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -90928,15 +90940,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.152Z'
+      prompt_version: v3
   - repo: bangordailynews/Public-FreePBX-hacks
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:php
     summary: No description provided
     last_synced_sha: 41f7801b430cd9970c7b5fde8303f8dc36817657
     user_starred_at: '2015-11-05T18:03:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -90954,15 +90971,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.151Z'
+      prompt_version: v3
   - repo: Ventajou/WPInfo
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:csharp
     summary: No description provided
     last_synced_sha: 0c21bc9eeaabdeaa9f27059d9ac922d0c5812816
     user_starred_at: '2015-10-22T17:16:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -90980,15 +91002,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.151Z'
+      prompt_version: v3
   - repo: kozw/mui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - wpf-ui
+      - ui-components
+      - lang:csharp
     summary: Modern UI for WPF
     last_synced_sha: cbd78931b5ffd1a77c8a82a423100e11015203c2
     user_starred_at: '2015-10-16T23:35:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -91009,15 +91039,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.151Z'
+      prompt_version: v3
   - repo: ariccio/altWinDirStat
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - disk-usage-viewer
+      - lang:cpp
     summary: An unofficial modification of Win Dir Stat
     last_synced_sha: 41dd067ce29d15113625759836b20911479008cb
     user_starred_at: '2015-10-10T01:43:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -91035,15 +91072,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.151Z'
+      prompt_version: v3
   - repo: AlphaDelta/Secure-Desktop
     categories:
-      - unclassified
-    tags: []
+      - security
+      - desktop-dev
+    tags:
+      - anti-keylogger
+      - windows-security
+      - lang:csharp
     summary: Anti-keylogger/anti-rat application for Windows
     last_synced_sha: 905a05d25951abdf562ef9394415f750df8976ec
     user_starred_at: '2015-08-28T08:48:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -91069,15 +91114,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.151Z'
+      prompt_version: v3
   - repo: hitherejoe/Android-Boilerplate
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - testing
+    tags:
+      - android-app
+      - boilerplate
+      - lang:java
     summary: Android Boilerplate project using Rx Java, Dagger 2, Espresso, Mockito + more!
     last_synced_sha: 75382ad46c07c2bbc6094a93a581b6c4489986f3
     user_starred_at: '2015-08-24T04:45:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics: []
@@ -91095,15 +91148,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.151Z'
+      prompt_version: v3
   - repo: moezbhatti/qksms
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ui-libraries
+    tags:
+      - sms-messenger
+      - material-design
+      - lang:kotlin
     summary: The most beautiful SMS messenger for Android
     last_synced_sha: c86ea1082d2c0f3af846487fbe8198ce5cc01b44
     user_starred_at: '2015-08-24T04:38:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics:
@@ -91133,15 +91194,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.151Z'
+      prompt_version: v3
   - repo: ivopetkov/responsively-lazy
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - lazy-loading
+      - responsive-images
+      - lang:js
     summary: Lazy load responsive images and HTML
     last_synced_sha: b8b9aa3ad2238ad889088337e770771d64163506
     user_starred_at: '2015-08-24T04:37:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -91171,15 +91240,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.151Z'
+      prompt_version: v3
   - repo: yudai/gotty
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - terminal-sharing
+      - web-application
+      - lang:go
     summary: Share your terminal as a web application
     last_synced_sha: a080c85cbc59226c94c6941ad8c395232d72d517
     user_starred_at: '2015-08-24T04:32:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -91207,15 +91284,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.151Z'
+      prompt_version: v3
   - repo: kriswallsmith/assetic
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - asset-management
+      - lang:php
     summary: Asset Management for PHP
     last_synced_sha: d65c93d973947b94a054c03aef6ca780d0bfc0e6
     user_starred_at: '2015-08-17T00:20:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics: []
@@ -91235,15 +91319,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.150Z'
+      prompt_version: v3
   - repo: sindresorhus/awesome
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - awesome-list
+      - resources
     summary: 😎 Awesome lists about all kinds of interesting topics
     last_synced_sha: 3ac17312f3c2d68c211b5c9d1e1f92efebc5e3c3
     user_starred_at: '2015-08-04T05:38:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -91266,15 +91357,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.150Z'
+      prompt_version: v3
   - repo: cockpit-project/cockpit
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - web-dev
+    tags:
+      - web-interface
+      - linux-servers
+      - lang:js
     summary: Cockpit is a web-based graphical interface for servers.
     last_synced_sha: 23d432e44a844cce28ea35780bb21b0eb849ac38
     user_starred_at: '2015-08-01T02:14:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -91297,15 +91396,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.150Z'
+      prompt_version: v3
   - repo: allegro/ralph
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - system-admin
+    tags:
+      - cmdb
+      - assets-management
+      - lang:python
     summary: Ralph is the CMDB / Asset Management system for data center and back office hardware.
     last_synced_sha: 404210e9679357576d19200d9fbbf8ac1fb5b4e8
     user_starred_at: '2015-07-31T23:44:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -91334,7 +91441,11 @@ repositories:
         published_at: '2026-03-09T13:41:49Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: django
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:04:22.147Z'
+      prompt_version: v3
   - repo: awesome-selfhosted/awesome-selfhosted
     categories:
       - documentation
