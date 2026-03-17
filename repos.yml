@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-17T04:37:11.502Z'
+  manifest_updated_at: '2026-03-17T04:37:42.375Z'
   total_repos: 2412
   generator_version: v1.0.0
   github_user: primeinc
@@ -64872,13 +64872,17 @@ repositories:
       prompt_version: v3
   - repo: docker/docker-credential-helpers
     categories:
-      - unclassified
-    tags: []
+      - security
+      - containers
+    tags:
+      - docker
+      - credentials
+      - lang:go
     summary: Programs to keep Docker login credentials safe by storing in platform keystores
     last_synced_sha: 955f6c518d3f1901c7391a91af22550d36cd622d
     user_starred_at: '2026-03-17T02:33:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -64898,15 +64902,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:37:40.743Z'
+      prompt_version: v3
   - repo: microsoft/beachball
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - semver
+      - git
+      - lang:ts
     summary: The Sunniest Semantic Version Bumper
     last_synced_sha: 5f00fd45ce76652e74685e5cb738c07c4d946fb9
     user_starred_at: '2026-03-16T21:31:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -64929,15 +64941,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:37:40.743Z'
+      prompt_version: v3
   - repo: changesets/changesets
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - versioning
+      - changelogs
+      - lang:ts
     summary: 🦋 A way to manage your versioning and changelogs with a focus on monorepos
     last_synced_sha: 3ab4d8928ce3c4d4f4e3d1b09be91ec0a1315bc0
     user_starred_at: '2026-03-16T20:57:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -64957,15 +64977,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:37:40.743Z'
+      prompt_version: v3
   - repo: verdaccio/verdaccio
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - deployment
+    tags:
+      - private-npm
+      - docker
+      - lang:ts
     summary: A lightweight Node.js private proxy registry
     last_synced_sha: d5f805bc244bd1ad85a9839ab372686b6cec385b
     user_starred_at: '2026-03-16T20:40:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -64999,15 +65027,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:37:40.743Z'
+      prompt_version: v3
   - repo: sirkirby/unifi-mcp
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - automation
+    tags:
+      - mcp-server
+      - unifi
+      - lang:python
     summary: MCP server implementation for the Uni Fi network application
     last_synced_sha: 023e06a06534d1fee65ac6cf9a817289a819b819
     user_starred_at: '2026-02-08T15:18:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65031,15 +65067,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:37:40.743Z'
+      prompt_version: v3
   - repo: modelcontextprotocol/python-sdk
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+      - learning
+    tags:
+      - sdk
+      - lang:python
     summary: The official Python SDK for Model Context Protocol servers and clients
     last_synced_sha: 75a80b6f07f0dfbe0ceb8df50c920a4bda3266d0
     user_starred_at: '2025-06-15T17:42:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -65059,15 +65103,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:37:40.743Z'
+      prompt_version: v3
   - repo: team-telnyx/telnyx-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - telephony
+      - messaging
+      - lang:python
     summary: Official Telnyx Local Model Context Protocol (MCP) Server that enables interaction with powerful telephony, messaging, and AI assistant APIs. This server allows MCP clients like Claude Desktop, Cur...
     last_synced_sha: 3f6a1173fec2b5bf3db4338384a9f7b00b8eaec8
     user_starred_at: '2025-06-15T14:43:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -65086,15 +65138,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:37:40.743Z'
+      prompt_version: v3
   - repo: andrei-markeev/mongodb-livedata-server
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - web-dev
+    tags:
+      - mongodb
+      - websocket
+      - lang:ts
     summary: Standalone live data server implementation extracted from Meteor, Fibers removed and converted to Type Script.
     last_synced_sha: 9451cc17d4519b1660b91d5d45cbaba1dc6d5e20
     user_starred_at: '2025-06-15T13:42:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -65114,15 +65174,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:37:40.743Z'
+      prompt_version: v3
   - repo: Azure-Samples/mcp-container-ts
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - containers
+      - cloud
+    tags:
+      - azure
+      - docker
+      - lang:ts
     summary: This is a quick start guide that provides the basic building blocks to set up a remote Model Context Protocol (MCP) server using Azure Container Apps. The MCP server is built using Node.js and Type...
     last_synced_sha: 44ac4b2d1ad67497808ec270bf562d79fccaa6ed
     user_starred_at: '2025-06-15T11:47:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -65148,6 +65217,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:37:40.742Z'
+      prompt_version: v3
   - repo: steipete/agent-rules
     categories:
       - ai-ml
