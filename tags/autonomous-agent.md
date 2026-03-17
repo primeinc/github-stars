@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research | `TypeScript` ★ 17.9k | 2026-03-14 |
+| [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research | `TypeScript` ★ 18k | 2026-03-14 |
 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | An autonomous agent that conducts deep research on any data using any LLM providers | `Python` ★ 25.8k | 2026-03-14 |

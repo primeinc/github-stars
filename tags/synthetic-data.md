@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [EzioBy/Ditto](https://github.com/EzioBy/Ditto) | \[CVPR 2026\] Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset | `Python` ★ 582 | 2025-10-29 |
+| [EzioBy/Ditto](https://github.com/EzioBy/Ditto) | \[CVPR 2026\] Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset | `Python` ★ 583 | 2025-10-29 |
 | [microsoft/FaceSynthetics](https://github.com/microsoft/FaceSynthetics) | Face synthetics datasets | ★ 887 | 2025-07-08 |
 | [hgrsd/drivel](https://github.com/hgrsd/drivel) | Infer a JSON schema from example data, produce nonsense synthetic data (drivel) according to the schema | `Rust` ★ 48 | 2025-06-08 |

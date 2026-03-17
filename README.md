@@ -1,23 +1,23 @@
 # Awesome Starred Repositories
 
-> A curated list of **1497** repositories across **25** categories, automatically classified and organized.
+> A curated list of **2412** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-03-16
+Last updated: 2026-03-17
 
 ## ⭐ Recently Starred
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Brainicism/bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider) | Proof-of-origin token provider plugin for yt-dlp | `TypeScript` ★ 447 | 2026-03-14 |
-| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | `TypeScript` ★ 41.9k | 2026-03-16 |
+| [docker/docker-credential-helpers](https://github.com/docker/docker-credential-helpers) | Programs to keep Docker login credentials safe by storing in platform keystores | `Go` ★ 1.3k | 2026-03-16 |
+| [microsoft/beachball](https://github.com/microsoft/beachball) | The Sunniest Semantic Version Bumper | `TypeScript` ★ 806 | 2026-03-15 |
+| [changesets/changesets](https://github.com/changesets/changesets) | 🦋 A way to manage your versioning and changelogs with a focus on monorepos | `TypeScript` ★ 11.6k | 2026-03-16 |
+| [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio) | A lightweight Node.js private proxy registry | `TypeScript` ★ 17.5k | 2026-03-16 |
+| [Brainicism/bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider) | Proof-of-origin token provider plugin for yt-dlp | `TypeScript` ★ 450 | 2026-03-14 |
+| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | `TypeScript` ★ 41.9k | 2026-03-17 |
 | [PaddlePaddle/PaddleX](https://github.com/PaddlePaddle/PaddleX) | All-in-One Development Tool based on Paddle Paddle | `Python` ★ 6.1k | 2026-03-13 |
-| [zotero/zotero](https://github.com/zotero/zotero) | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources. | `JavaScript` ★ 13.7k | 2026-03-12 |
-| [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 229 | 2026-03-14 |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 36.8k | 2026-03-11 |
-| [cloudfoundry/cloud-service-broker](https://github.com/cloudfoundry/cloud-service-broker) | OSBAPI service broker that uses Terraform to provision and bind services. Derived from https://github.com/Google Cloud Platform/gcp-service-broker | `Go` ★ 84 | 2026-03-12 |
-| [FedRAMP/roadmap](https://github.com/FedRAMP/roadmap) | Fed RAMP's Public High Level Roadmap | `Shell` ★ 26 | 2026-02-02 |
-| [jdx/fnox](https://github.com/jdx/fnox) | encrypted/remote secret manager | `Rust` ★ 1.3k | 2026-03-13 |
-| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | CLI-Anything: Making ALL Software Agent-Native | `Python` ★ 15.5k | 2026-03-15 |
+| [zotero/zotero](https://github.com/zotero/zotero) | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources. | `JavaScript` ★ 13.7k | 2026-03-16 |
+| [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 248 | 2026-03-14 |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 38.8k | 2026-03-16 |
 
 ## 🏷️ Popular Tags
 
@@ -28,13 +28,13 @@ Last updated: 2026-03-16
 
 | | | |
 |---|---|---|
-| [ai-ml](categories/ai-ml.md) (438) | [productivity](categories/productivity.md) (425) | [dev-tools](categories/dev-tools.md) (243) |
-| [web-dev](categories/web-dev.md) (227) | [automation](categories/automation.md) (196) | [ui-libraries](categories/ui-libraries.md) (174) |
-| [system-admin](categories/system-admin.md) (168) | [security](categories/security.md) (164) | [data-science](categories/data-science.md) (160) |
-| [documentation](categories/documentation.md) (158) | [apis](categories/apis.md) (154) | [cloud](categories/cloud.md) (129) |
-| [learning](categories/learning.md) (106) | [desktop-dev](categories/desktop-dev.md) (101) | [networking](categories/networking.md) (83) |
-| [frameworks](categories/frameworks.md) (54) | [databases](categories/databases.md) (44) | [game-dev](categories/game-dev.md) (39) |
-| [monitoring](categories/monitoring.md) (39) | [testing](categories/testing.md) (36) | [unclassified](categories/unclassified.md) (33) |
+| [unclassified](categories/unclassified.md) (934) | [ai-ml](categories/ai-ml.md) (439) | [productivity](categories/productivity.md) (429) |
+| [dev-tools](categories/dev-tools.md) (246) | [web-dev](categories/web-dev.md) (230) | [automation](categories/automation.md) (196) |
+| [ui-libraries](categories/ui-libraries.md) (177) | [system-admin](categories/system-admin.md) (170) | [security](categories/security.md) (165) |
+| [data-science](categories/data-science.md) (160) | [documentation](categories/documentation.md) (158) | [apis](categories/apis.md) (155) |
+| [cloud](categories/cloud.md) (129) | [learning](categories/learning.md) (106) | [desktop-dev](categories/desktop-dev.md) (102) |
+| [networking](categories/networking.md) (85) | [frameworks](categories/frameworks.md) (54) | [databases](categories/databases.md) (47) |
+| [monitoring](categories/monitoring.md) (41) | [game-dev](categories/game-dev.md) (39) | [testing](categories/testing.md) (36) |
 | [mobile-dev](categories/mobile-dev.md) (30) | [embedded](categories/embedded.md) (28) | [containers](categories/containers.md) (28) |
 | [deployment](categories/deployment.md) (27) |  |  |
 

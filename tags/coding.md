@@ -7,5 +7,5 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [microsoft/cascadia-code](https://github.com/microsoft/cascadia-code) | This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal. | `Python` ★ 27.6k | 2025-03-06 |
-| [steveyegge/beads](https://github.com/steveyegge/beads) | Beads - A memory upgrade for your coding agent | `Go` ★ 19.1k | 2026-03-16 |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | Curated list of project-based tutorials | ★ 261k | 2024-08-15 |
+| [steveyegge/beads](https://github.com/steveyegge/beads) | Beads - A memory upgrade for your coding agent | `Go` ★ 19.2k | 2026-03-17 |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | Curated list of project-based tutorials | ★ 261.1k | 2024-08-15 |
