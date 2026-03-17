@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-17T04:17:57.496Z'
+  manifest_updated_at: '2026-03-17T04:18:29.166Z'
   total_repos: 2412
   generator_version: v1.0.0
   github_user: primeinc
@@ -79305,13 +79305,16 @@ repositories:
     framework: null
   - repo: aiola-lab/whisper-medusa
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - speech-to-text
+      - audio-ai
+      - lang:python
     summary: Whisper with Medusa heads
     last_synced_sha: 19819c37ab15db6e68826e406614a2c86fbb946e
     user_starred_at: '2024-08-02T15:55:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -79329,15 +79332,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.527Z'
+      prompt_version: v3
   - repo: mem0ai/mem0
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - long-term-memory
+      - ai
+      - memory-management
+      - lang:python
     summary: Universal memory layer for AI Agents
     last_synced_sha: 9eea060db99e6ecd8a9fc823136cce39611923e9
     user_starred_at: '2024-07-31T18:20:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -79371,15 +79383,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.527Z'
+      prompt_version: v3
   - repo: abb128/LiveCaptions
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - live-captioning
+      - linux
+      - lang:c
     summary: Linux Desktop application that provides live captioning
     last_synced_sha: 93734270e69a9d5d8a349075604477681c308dfa
     user_starred_at: '2024-07-31T10:13:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -79399,15 +79419,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.527Z'
+      prompt_version: v3
   - repo: mtorials/dial-phone
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - matrix
+      - sdk
+      - api
+      - instant-messaging
+      - lang:kotlin
     summary: Matrix client-server SDK written in Kotlin.
     last_synced_sha: 1f78fed1af1287069fa8c6c585f868cd75e372f9
     user_starred_at: '2024-07-31T10:01:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics:
@@ -79434,15 +79464,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.527Z'
+      prompt_version: v3
   - repo: sveltestrap/sveltestrap
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - bootstrap
+      - svelte
+      - ui
+      - lang:svelte
     summary: Bootstrap 5 components for Svelte 4+
     last_synced_sha: 559a8c04c6a1c1b80f30a6d074d776efdae3e785
     user_starred_at: '2024-07-30T17:47:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Svelte
       topics:
@@ -79468,16 +79507,24 @@ repositories:
         published_at: '2025-02-04T15:38:19Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: svelte
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.527Z'
+      prompt_version: v3
   - repo: shinokada/markdown-docs-as-pdf
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - bash-script
+      - pdf-generator
+      - lang:shell
     summary: A Bash Script to create PDF documents for React, Vue, Svelte, Svelte Kit, Nuxt, Vitest, pnpm, Slidev, and more.
     last_synced_sha: 7ec8514ac8b0b0078abbabacb274baebe2c13653
     user_starred_at: '2024-07-30T17:45:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -79497,15 +79544,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.527Z'
+      prompt_version: v3
   - repo: TaxyAI/browser-extension
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - browser-extension
+      - automation
+      - lang:ts
     summary: Automate your browser with GPT-4
     last_synced_sha: bc3b5497173648d8792d7909467b2764eeaaedea
     user_starred_at: '2024-07-27T15:14:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -79525,15 +79580,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.527Z'
+      prompt_version: v3
   - repo: milvus-io/milvus
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - ai-ml
+    tags:
+      - vector-search
+      - vector-database
+      - embedding-store
+      - lang:go
     summary: Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search
     last_synced_sha: 182b35c34707809284491acb3e8cb09117010bd7
     user_starred_at: '2024-07-23T21:25:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -79571,15 +79635,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.527Z'
+      prompt_version: v3
   - repo: openai/chatgpt-retrieval-plugin
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - chatgpt
+      - chatgpt-plugins
+      - lang:python
     summary: The Chat GPT Retrieval Plugin lets you easily find personal or work documents by asking questions in natural language.
     last_synced_sha: b28ddce58474441da332d4e15c6dd60ddaa953ab
     user_starred_at: '2024-07-23T21:01:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -79599,15 +79671,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.527Z'
+      prompt_version: v3
   - repo: pypa/pipx
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - pip
+      - cli
+      - venv
+      - lang:python
     summary: Install and Run Python Applications in Isolated Environments
     last_synced_sha: 83fa3e7b605a06e7af07e04469642ece2ec13e8e
     user_starred_at: '2024-07-23T12:36:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -79633,15 +79714,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.527Z'
+      prompt_version: v3
   - repo: caspii/dinkydash
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - flask
+      - raspberry-pi
+      - lang:html
     summary: A family dashboard for kids
     last_synced_sha: 2a15df2e318f98ab229f097f84b5319f5686d7ae
     user_starred_at: '2024-07-23T05:41:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -79661,16 +79750,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: flask
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.526Z'
+      prompt_version: v3
   - repo: Nandaka/PixivUtil2
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - image-downloader
+      - lang:python
     summary: Download images from Pixiv and more!
     last_synced_sha: 886a9f00e5bda35af08eb222ac6ee1333ded8be7
     user_starred_at: '2024-07-22T05:53:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -79690,15 +79786,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.526Z'
+      prompt_version: v3
   - repo: acon96/home-llm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - homeassistant-custom-component
+      - large-language-model
+      - lang:python
     summary: A Home Assistant integration & Model to control your smart home using a Local LLM
     last_synced_sha: d44152413d2b8ca7d2958e39f521bc0c3a4264b5
     user_starred_at: '2024-07-10T19:37:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -79720,15 +79824,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.526Z'
+      prompt_version: v3
   - repo: fudan-generative-vision/hallo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - face-animation
+      - image-animation
+      - video-animation
+      - lang:python
     summary: 'Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation'
     last_synced_sha: 8fd7c572a3d43c2a9c1a5473219ce4fc1b6e3ed2
     user_starred_at: '2024-07-08T22:57:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -79751,15 +79863,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.526Z'
+      prompt_version: v3
   - repo: KlingAIResearch/LivePortrait
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - image-animation
+      - video-generation
+      - face-animation
+      - lang:python
     summary: Bring portraits to life!
     last_synced_sha: 49784e879821538ecda5c8e4ca0472f4cb6236cf
     user_starred_at: '2024-07-08T21:58:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -79781,6 +79901,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:18:27.526Z'
+      prompt_version: v3
   - repo: MagicMirrorOrg/MagicMirror
     categories:
       - embedded
