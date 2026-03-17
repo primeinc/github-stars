@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-17T04:31:27.303Z'
+  manifest_updated_at: '2026-03-17T04:32:00.135Z'
   total_repos: 2412
   generator_version: v1.0.0
   github_user: primeinc
@@ -69644,13 +69644,17 @@ repositories:
     framework: null
   - repo: Schniz/fnm
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - nodejs
+      - version-manager
+      - lang:rust
     summary: 🚀 Fast and simple Node.js version manager, built in Rust
     last_synced_sha: bfb186034978b1ddaf87501eb1633bdc42a5c0a6
     user_starred_at: '2025-02-28T22:25:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -69676,15 +69680,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.535Z'
+      prompt_version: v3
   - repo: OlivierCC/spfx-40-fantastics
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - sharepoint-framework
+      - webparts
+      - lang:ts
     summary: This package is a sample kit of Client Side Web Parts built on the Share Point Framework SPFx. You can find here different kind of high visual web parts as carousel, images galleries, animations, m...
     last_synced_sha: e16bbc4c222dbc1d800c62b4fad1d01edb3b034a
     user_starred_at: '2025-02-28T22:10:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -69713,15 +69725,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.535Z'
+      prompt_version: v3
   - repo: spblog/outlook-spfx-ms-graph-api
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - sharepoint
+      - msal
+      - ms-graph-api
+      - lang:ts
     summary: Building Outlook add-in with SPFx - save mail to One Drive with Azure Function, MSAL.NET and MS Graph .NET
     last_synced_sha: 30925ebb9457700be9c15c6d47338b4885cdaa5c
     user_starred_at: '2025-02-28T22:10:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -69745,15 +69766,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.535Z'
+      prompt_version: v3
   - repo: Azure/azure-storage-azcopy
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - system-admin
+    tags:
+      - azure
+      - data-transfer
+      - lang:go
     summary: The new Azure Storage data transfer utility - Az Copy v10
     last_synced_sha: 2b8c7c48aca18361c7691554a311e3b69f8664d1
     user_starred_at: '2025-02-28T21:49:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -69773,15 +69802,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.534Z'
+      prompt_version: v3
   - repo: PowerShell/AIShell
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-assistance
+      - interactive-shell
+      - lang:csharp
     summary: An interactive shell to work with AI-powered assistance providers
     last_synced_sha: 40e540945a6d21eca93102f6adfd4e8b5a9bee67
     user_starred_at: '2025-02-28T20:38:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -69800,15 +69837,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.534Z'
+      prompt_version: v3
   - repo: adbertram/Random-PowerShell-Work
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - powershell
+      - scripting
+      - lang:powershell
     summary: Random Power Shell Work
     last_synced_sha: 62f5fa64294e9bdbb937a5d0211bde3209df5528
     user_starred_at: '2025-02-28T17:45:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -69826,15 +69871,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.534Z'
+      prompt_version: v3
   - repo: samwit/llm-tutorials
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - llm
+      - tutorials
+      - lang:jupyter-notebook
     summary: A set of LLM Tutorials from my youtube channel
     last_synced_sha: efc93116fe9519ed06383cd9311012b2b2fb7c7f
     user_starred_at: '2025-02-28T16:54:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -69852,15 +69905,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.534Z'
+      prompt_version: v3
   - repo: team-telnyx/demo-dotnet-telnyx
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - apis
+    tags:
+      - dotnet
+      - telnyx
+      - lang:csharp
     summary: Dotnet Core Examples & Learning
     last_synced_sha: 1104848df241523f5184efd2fa8e2185b2137f7d
     user_starred_at: '2025-02-26T20:46:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -69878,15 +69939,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.534Z'
+      prompt_version: v3
   - repo: team-telnyx/openapi
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+    tags:
+      - api-specification
+      - openapi
     summary: Open API specification for the Telnyx API
     last_synced_sha: c38ba99b8c0f29dd992bb4c35d48a45479a00bc6
     user_starred_at: '2025-02-26T19:42:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -69904,15 +69972,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.534Z'
+      prompt_version: v3
   - repo: fastenhealth/fasten-onprem
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+      - cloud
+    tags:
+      - healthcare
+      - emr
+      - lang:go
     summary: Fasten is an open-source, self-hosted, personal/family electronic medical record manager
     last_synced_sha: 36d92446884e9e20eda8d2b2a0a1115c9c57f7ef
     user_starred_at: '2025-02-26T17:22:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -69938,15 +70015,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.534Z'
+      prompt_version: v3
   - repo: FreeTubeApp/FreeTube
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - video
+      - youtube
+      - privacy
+      - lang:js
     summary: An Open Source You Tube app for privacy
     last_synced_sha: 11e9cc397d578e6b201780ad209799dcfac703a7
     user_starred_at: '2025-02-26T09:04:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -69970,15 +70056,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.534Z'
+      prompt_version: v3
   - repo: Azure/azure-functions-openapi-extension
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cloud
+    tags:
+      - azure-functions
+      - openapi
+      - swagger
+      - lang:csharp
     summary: This extension provides an Azure Functions app with Open API capability for better discoverability to consuming parties
     last_synced_sha: a6cfca48769717499b6594689a4fb2d93be97420
     user_starred_at: '2025-02-25T13:47:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -70004,15 +70099,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.534Z'
+      prompt_version: v3
   - repo: ironmansoftware/powershell-pro-tools
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - powershell
+      - automation-tools
+      - lang:csharp
     summary: Scripting, automation, and development tools for professionals working with Power Shell.
     last_synced_sha: 5443c2bcebfbf2f2b31b0a48cd8d7e19af46362a
     user_starred_at: '2025-02-25T13:31:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -70032,15 +70135,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.534Z'
+      prompt_version: v3
   - repo: Azure/awesome-terraform
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - cloud
+    tags:
+      - terraform
+      - azure
+      - lang:hcl
     summary: An authoritative list of awesome Azure Terraform tools and samples with help from community experiments and contributions.
     last_synced_sha: 34ac713c08870957661a07c6102c74672b3991ac
     user_starred_at: '2025-02-25T12:56:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HCL
       topics: []
@@ -70058,15 +70169,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.534Z'
+      prompt_version: v3
   - repo: dquiet-lab/sim-control-page
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - typescript
+      - lang:ts
     summary: No description provided
     last_synced_sha: c566d077681513af9764339f2205b78b845ac425
     user_starred_at: '2025-02-24T04:03:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -70086,6 +70204,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:31:58.533Z'
+      prompt_version: v3
   - repo: EgorBlagov/sims-mod-assistant
     categories:
       - desktop-dev
