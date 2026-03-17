@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-17T04:28:20.496Z'
+  manifest_updated_at: '2026-03-17T04:29:01.182Z'
   total_repos: 2412
   generator_version: v1.0.0
   github_user: primeinc
@@ -72072,13 +72072,17 @@ repositories:
     framework: null
   - repo: huggingface/open-r1
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deep-reproduction
+      - seek-r1
+      - lang:python
     summary: Fully open reproduction of Deep Seek-R1
     last_synced_sha: 0e06249d1caa3c1d27a93e590929531291c9c493
     user_starred_at: '2025-02-07T02:13:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -72096,15 +72100,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:28:59.602Z'
+      prompt_version: v3
   - repo: dorssel/usbipd-win
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - usb-sharing
+      - hyper-v
+      - wsl
+      - lang:csharp
     summary: Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2.
     last_synced_sha: 349af0222bfa5d8e7bc34f235b3e9d4a03b11116
     user_starred_at: '2025-02-05T16:42:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -72132,15 +72145,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:28:59.602Z'
+      prompt_version: v3
   - repo: 0x888e/certs
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - certificates
+      - routers
+      - bgw-series
+      - lang:python
     summary: Extracts certificates from BGW210 and BGW320 routers
     last_synced_sha: 8f6ed32e406ed7ed6c078331580b591682e93834
     user_starred_at: '2025-02-05T00:39:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -72158,15 +72180,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:28:59.601Z'
+      prompt_version: v3
   - repo: unifi-utilities/unifios-utilities
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - unifi
+      - udm
+      - wireguard
+      - lang:shell
     summary: Enhancing Your Uni Fi Experience
     last_synced_sha: c232ad436d561cf7918aa9826cfd54b1c7fe05b9
     user_starred_at: '2025-02-05T00:12:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -72199,15 +72230,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:28:59.601Z'
+      prompt_version: v3
   - repo: up-n-atom/8311
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - website
+      - discord-channel
+      - lang:html
     summary: Website for the 8311 discord channel
     last_synced_sha: 96ee7d1b92a6477acc7672c3e81a7359ef0ad663
     user_starred_at: '2025-02-05T00:03:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -72225,15 +72264,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:28:59.601Z'
+      prompt_version: v3
   - repo: zilliztech/attu
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - ui-libraries
+    tags:
+      - vector-database
+      - milvus
+      - lang:shell
     summary: The Best GUI for Milvus
     last_synced_sha: efa23c30f97cc23040796300a5f5c324df4291d6
     user_starred_at: '2025-02-01T07:41:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -72256,15 +72303,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:28:59.601Z'
+      prompt_version: v3
   - repo: huggingface/pytorch-image-models
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - pytorch
+      - pretrained-models
+      - image-encoders
+      - lang:python
     summary: The largest collection of Py Torch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- Res Net, Res Ne XT, Efficient Net, NFNet, Vision Transform...
     last_synced_sha: 52e6d19d9dde65d1860e3d4151fb75fff038412c
     user_starred_at: '2025-02-01T07:08:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -72304,15 +72360,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:28:59.601Z'
+      prompt_version: v3
   - repo: KaiyangZhou/deep-person-reid
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deep-learning
+      - person-reidentification
+      - pytorch
+      - lang:python
     summary: 'Torchreid: Deep learning person re-identification in Py Torch.'
     last_synced_sha: f8cd150fdf77e8d9e1ed143b7f308c2c609ded50
     user_starred_at: '2025-02-01T06:49:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -72343,6 +72408,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-17T04:28:59.601Z'
+      prompt_version: v3
   - repo: oele-isis-vanderbilt/HumanRecognition
     categories:
       - ai-ml
@@ -72519,16 +72588,17 @@ repositories:
       prompt_version: v3
   - repo: exeldro/obs-move-transition
     categories:
-      - unclassified
+      - ui-libraries
+      - dev-tools
     tags:
-      - custom-transitions
-      - live-streaming
+      - transition-effects
+      - obs-plugin
       - lang:c
     summary: Move transition for OBS Studio
     last_synced_sha: 7062ab052b0b2ae0792585732fb96a31147bd520
     user_starred_at: '2025-02-01T04:36:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -72550,20 +72620,21 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: '2026-03-17T04:28:18.924Z'
+      classified_at: '2026-03-17T04:28:59.601Z'
       prompt_version: v3
   - repo: exeldro/obs-source-clone
     categories:
-      - unclassified
+      - dev-tools
+      - automation
     tags:
-      - obs-customization
-      - source-clone
+      - source-cloning
+      - obs-plugin
       - lang:cmake
     summary: No description provided
     last_synced_sha: e5ca9dd25229fdf1f1b8c6fa83762c0581c18c92
     user_starred_at: '2025-02-01T03:33:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CMake
       topics: []
@@ -72585,20 +72656,21 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: '2026-03-17T04:28:18.924Z'
+      classified_at: '2026-03-17T04:28:59.601Z'
       prompt_version: v3
   - repo: CodeYan01/source-defaults
     categories:
-      - unclassified
+      - automation
+      - dev-tools
     tags:
-      - source-settings
-      - default-configuration
+      - custom-settings
+      - obs-plugin
       - lang:cmake
     summary: Apply custom source setting defaults on new sources, based on other sources.
     last_synced_sha: 3ce48509258379a7cb49351ad57d81abdf8963e9
     user_starred_at: '2025-02-01T03:29:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CMake
       topics: []
@@ -72620,7 +72692,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: '2026-03-17T04:28:18.924Z'
+      classified_at: '2026-03-17T04:28:59.601Z'
       prompt_version: v3
   - repo: facebookresearch/faiss
     categories:
@@ -72659,16 +72731,17 @@ repositories:
       prompt_version: v3
   - repo: burntcarrot/hashsearch
     categories:
-      - unclassified
+      - data-science
+      - ai-ml
     tags:
-      - image-search
+      - reverse-image-search
       - perceptual-hash
       - lang:go
     summary: Reverse image search using perceptual hashes. 🔍
     last_synced_sha: 3713e5824f2cf31d3ea412f4696dfc17591d73b3
     user_starred_at: '2025-02-01T01:38:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -72692,20 +72765,23 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: '2026-03-17T04:28:18.924Z'
+      classified_at: '2026-03-17T04:28:59.601Z'
       prompt_version: v3
   - repo: royshil/obs-detect
     categories:
-      - unclassified
+      - ai-ml
+      - dev-tools
     tags:
       - object-detection
-      - live-streaming
+      - computer-vision
+      - video-analysis
+      - obs-plugin
       - lang:cpp
     summary: Object Detection in OBS, real-time, local, GPU optional
     last_synced_sha: a4f4928e26b915ceaf0fc2d545d284ca1ea4bbfa
     user_starred_at: '2025-01-31T21:20:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C++
@@ -72738,20 +72814,22 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: '2026-03-17T04:28:18.924Z'
+      classified_at: '2026-03-17T04:28:59.601Z'
       prompt_version: v3
   - repo: obsproject/obs-studio
     categories:
-      - unclassified
+      - dev-tools
+      - ui-libraries
     tags:
+      - live-streaming
+      - video-recording
       - screen-capture
-      - ffmpeg
       - lang:c
     summary: OBS Studio - Free and open source software for live streaming and screen recording
     last_synced_sha: 5533a277e4400203b50114c993f89878d50a27b9
     user_starred_at: '2025-01-31T20:53:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -72784,7 +72862,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: '2026-03-17T04:28:18.923Z'
+      classified_at: '2026-03-17T04:28:59.601Z'
       prompt_version: v3
   - repo: Aitum/obs-vertical-canvas
     categories:
@@ -72823,16 +72901,17 @@ repositories:
       prompt_version: v3
   - repo: norihiro/obs-mute-filter
     categories:
-      - unclassified
+      - automation
+      - dev-tools
     tags:
-      - audio-mute
-      - obs-filter
+      - audio-processing
+      - obs-plugin
       - lang:cmake
     summary: OBS Studio plugin to mute audio of a source
     last_synced_sha: fa8d254bc1da45a8705da32efbb25955a6af2c0c
     user_starred_at: '2025-01-31T20:44:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CMake
       topics: []
@@ -72854,7 +72933,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: '2026-03-17T04:28:18.923Z'
+      classified_at: '2026-03-17T04:28:59.600Z'
       prompt_version: v3
   - repo: flipswitchingmonkey/FlexASIO_GUI
     categories:
