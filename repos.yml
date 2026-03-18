@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
-  generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-03-18T03:57:57.632Z"
+  generated_at: '2025-07-15T00:00:00Z'
+  manifest_updated_at: '2026-03-18T03:58:34.646Z'
   total_repos: 100
   generator_version: v1.0.0
   github_user: primeinc
@@ -98,7 +98,7 @@ repositories:
     tags: []
     summary: No description provided
     last_synced_sha: db3ce970f854d8c3b0ac1d5b98f360fe01604210
-    user_starred_at: "2026-02-24T04:36:50Z"
+    user_starred_at: '2026-02-24T04:36:50Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -110,8 +110,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/121432807?u=610dded427a8a4441030ad9e442dc4ed65fb823c&v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-02-20T16:46:13Z"
-      repo_updated_at: "2026-03-16T10:49:14Z"
+      repo_pushed_at: '2026-02-20T16:46:13Z'
+      repo_updated_at: '2026-03-16T10:49:14Z'
       html_url: https://github.com/OracleBrain/OracleBrain
       default_branch: main
       latest_release: null
@@ -120,7 +120,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:57:19.291Z"
+      classified_at: '2026-02-24T07:57:19.291Z'
       prompt_version: v3
   - repo: afairgiant/MediKeep
     categories:
@@ -133,7 +133,7 @@ repositories:
       - lang:js
     summary: A lightweight, self-hosted application for managing your personal medical information. Keep your health records organized and accessible while maintaining complete control over your data privacy.
     last_synced_sha: c8880223d4159e3ce327a8e92a3faf51535b07c3
-    user_starred_at: "2026-02-24T04:31:27Z"
+    user_starred_at: '2026-02-24T04:31:27Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -145,19 +145,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/20632147?u=ac4cd6258b81198f17ba30cde6c0d840dc130758&v=4
       homepage_url: null
       license: NOASSERTION
-      repo_pushed_at: "2026-03-18T00:52:36Z"
-      repo_updated_at: "2026-03-18T00:52:39Z"
+      repo_pushed_at: '2026-03-18T00:52:36Z'
+      repo_updated_at: '2026-03-18T00:52:39Z'
       html_url: https://github.com/afairgiant/MediKeep
       default_branch: main
       latest_release:
         tag: v0.54.0
-        published_at: "2026-02-22T17:47:21Z"
+        published_at: '2026-02-22T17:47:21Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: shaka-project/shaka-packager
     categories:
@@ -170,7 +170,7 @@ repositories:
       - lang:cpp
     summary: A media packaging and development framework for VOD and Live DASH and HLS applications, supporting Common Encryption for Widevine and other DRM Systems.
     last_synced_sha: 27a1d71e3d31bea4893bd365b3aabe1031326bad
-    user_starred_at: "2026-02-24T04:30:49Z"
+    user_starred_at: '2026-02-24T04:30:49Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -182,19 +182,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/99903801?v=4
       homepage_url: https://shaka-project.github.io/shaka-packager/
       license: NOASSERTION
-      repo_pushed_at: "2026-03-18T03:48:46Z"
-      repo_updated_at: "2026-03-18T03:48:20Z"
+      repo_pushed_at: '2026-03-18T03:48:46Z'
+      repo_updated_at: '2026-03-18T03:48:20Z'
       html_url: https://github.com/shaka-project/shaka-packager
       default_branch: main
       latest_release:
         tag: v3.4.2
-        published_at: "2025-01-17T22:19:55Z"
+        published_at: '2025-01-17T22:19:55Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: ashishpatel26/500-AI-Agents-Projects
     categories:
@@ -206,7 +206,7 @@ repositories:
       - curated-projects
     summary: The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation...
     last_synced_sha: 6a5769e9f3cc61dbd525e2419a1b779911bf8a97
-    user_starred_at: "2026-02-24T04:26:47Z"
+    user_starred_at: '2026-02-24T04:26:47Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -220,8 +220,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/3095771?u=522d8855c070c0af151b27becc02052e34849d4e&v=4
       homepage_url: https://github.com/ashishpatel26/500-AI-Agents-Projects
       license: MIT
-      repo_pushed_at: "2026-01-13T05:19:51Z"
-      repo_updated_at: "2026-03-18T03:31:17Z"
+      repo_pushed_at: '2026-01-13T05:19:51Z'
+      repo_updated_at: '2026-03-18T03:31:17Z'
       html_url: https://github.com/ashishpatel26/500-AI-Agents-Projects
       default_branch: main
       latest_release: null
@@ -230,7 +230,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: megakode/wallrus
     categories:
@@ -243,7 +243,7 @@ repositories:
       - lang:rust
     summary: Gnome (GTK4) application to generate colorful wallpapers based on gradients and different effects.
     last_synced_sha: 18e65463a2ab3d215d3dfe01c66a17c914b6c755
-    user_starred_at: "2026-02-24T04:25:27Z"
+    user_starred_at: '2026-02-24T04:25:27Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -255,8 +255,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/6302832?u=da841466be1f20dd15ca638f4a5b6034e969a4fc&v=4
       homepage_url: null
       license: GPL-3.0
-      repo_pushed_at: "2026-03-10T19:48:19Z"
-      repo_updated_at: "2026-03-10T19:44:12Z"
+      repo_pushed_at: '2026-03-10T19:48:19Z'
+      repo_updated_at: '2026-03-10T19:44:12Z'
       html_url: https://github.com/megakode/wallrus
       default_branch: main
       latest_release: null
@@ -265,7 +265,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: joelhawksley/timeframe
     categories:
@@ -278,7 +278,7 @@ repositories:
       - lang:ruby
     summary: An e-paper calendar, weather, and smart home family dashboard
     last_synced_sha: 79a46fcf69de5d3c88d53c599419e24dc752f205
-    user_starred_at: "2026-02-24T04:25:13Z"
+    user_starred_at: '2026-02-24T04:25:13Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -293,8 +293,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/1940294?u=19b1703466e006a734f0df66fc4e137c4c29961e&v=4
       homepage_url: null
       license: NOASSERTION
-      repo_pushed_at: "2026-03-17T20:57:46Z"
-      repo_updated_at: "2026-03-18T01:50:32Z"
+      repo_pushed_at: '2026-03-17T20:57:46Z'
+      repo_updated_at: '2026-03-18T01:50:32Z'
       html_url: https://github.com/joelhawksley/timeframe
       default_branch: main
       latest_release: null
@@ -303,7 +303,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: cvhariharan/flowctl
     categories:
@@ -316,7 +316,7 @@ repositories:
       - lang:svelte
     summary: An open source self-service workflow execution platform
     last_synced_sha: 9830f30fb62908b79ab2e9f872e804ada1504450
-    user_starred_at: "2026-02-24T04:24:16Z"
+    user_starred_at: '2026-02-24T04:24:16Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -336,19 +336,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/14965074?u=fd39fe6d7123f7a322077cb85315aeca1c6c2193&v=4
       homepage_url: https://flowctl.net
       license: Apache-2.0
-      repo_pushed_at: "2026-03-16T06:19:12Z"
-      repo_updated_at: "2026-03-17T12:08:54Z"
+      repo_pushed_at: '2026-03-16T06:19:12Z'
+      repo_updated_at: '2026-03-17T12:08:54Z'
       html_url: https://github.com/cvhariharan/flowctl
       default_branch: master
       latest_release:
         tag: v0.7.0
-        published_at: "2026-02-18T09:27:54Z"
+        published_at: '2026-02-18T09:27:54Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: puzpuzpuz/go-concurrent-map-bench
     categories:
@@ -360,7 +360,7 @@ repositories:
       - lang:go
     summary: Benchmarks for concurrent hash map implementations in Go
     last_synced_sha: 0ecb5de0789bfb82a018a5b5e4c8c7da52282606
-    user_starred_at: "2026-02-24T04:23:39Z"
+    user_starred_at: '2026-02-24T04:23:39Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -372,8 +372,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/37772591?u=1cb2bded183e7ed78f032272f162af0845d6feef&v=4
       homepage_url: null
       license: Apache-2.0
-      repo_pushed_at: "2026-02-21T16:55:06Z"
-      repo_updated_at: "2026-03-14T08:30:44Z"
+      repo_pushed_at: '2026-02-21T16:55:06Z'
+      repo_updated_at: '2026-03-14T08:30:44Z'
       html_url: https://github.com/puzpuzpuz/go-concurrent-map-bench
       default_branch: main
       latest_release: null
@@ -382,7 +382,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: longrackslabs/inbox-classifier
     categories:
@@ -393,7 +393,7 @@ repositories:
       - lang:python
     summary: No description provided
     last_synced_sha: 3c657a90b8c33a316114e25d2a1fe72b70a308e5
-    user_starred_at: "2026-02-24T02:13:23Z"
+    user_starred_at: '2026-02-24T02:13:23Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -405,8 +405,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/1175466?u=a16eb86f28353674b3dd0d6970df632560bf97a5&v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-09T04:25:20Z"
-      repo_updated_at: "2026-03-09T04:25:22Z"
+      repo_pushed_at: '2026-03-09T04:25:20Z'
+      repo_updated_at: '2026-03-09T04:25:22Z'
       html_url: https://github.com/longrackslabs/inbox-classifier
       default_branch: main
       latest_release: null
@@ -415,7 +415,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: jjordanbaird/EmailVectorDB
     categories:
@@ -428,7 +428,7 @@ repositories:
       - lang:python
     summary: This project demonstrates how to parse emails, process them using Open AI's GPT-3.5, and load the data into a Weaviate vector database for enhanced search capabilities. Utilizing few-shot prompts a...
     last_synced_sha: 6e1b2248aa3059858b3d458f56e1c2e160b19ae5
-    user_starred_at: "2026-02-23T19:59:11Z"
+    user_starred_at: '2026-02-23T19:59:11Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -444,8 +444,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/36901499?u=caf7644fc591112f2e517bc1bca33dbeae489211&v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2023-05-03T02:46:40Z"
-      repo_updated_at: "2026-02-23T19:59:11Z"
+      repo_pushed_at: '2023-05-03T02:46:40Z'
+      repo_updated_at: '2026-02-23T19:59:11Z'
       html_url: https://github.com/jjordanbaird/EmailVectorDB
       default_branch: main
       latest_release: null
@@ -454,7 +454,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: SpecterShell/Dumplings
     categories:
@@ -467,7 +467,7 @@ repositories:
       - lang:powershell
     summary: Dump remote resources and lint outdated packages
     last_synced_sha: d2eac319fc04f1b7ec16765fd7c9bdeed74ea587
-    user_starred_at: "2026-02-23T11:32:08Z"
+    user_starred_at: '2026-02-23T11:32:08Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -479,8 +479,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/56779163?u=7e583ab6b6bb31ea490eb18e8db1a2ec4971e9fa&v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-18T03:19:32Z"
-      repo_updated_at: "2026-03-18T03:19:35Z"
+      repo_pushed_at: '2026-03-18T03:19:32Z'
+      repo_updated_at: '2026-03-18T03:19:35Z'
       html_url: https://github.com/SpecterShell/Dumplings
       default_branch: main
       latest_release: null
@@ -489,7 +489,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: open-mercato/open-mercato
     categories:
@@ -503,7 +503,7 @@ repositories:
       - lang:ts
     summary: AI‑supportive CRM / ERP foundation framework — built to power R&D, new processes, operations, and growth. It’s modular, extensible, and designed for teams that want strong defaults with room to cus...
     last_synced_sha: 0f72cbf16c832cf526313c264ac868cfdc5701e5
-    user_starred_at: "2026-02-22T10:18:05Z"
+    user_starred_at: '2026-02-22T10:18:05Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -519,19 +519,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/87645530?v=4
       homepage_url: https://docs.openmercato.com
       license: MIT
-      repo_pushed_at: "2026-03-17T20:42:28Z"
-      repo_updated_at: "2026-03-18T01:21:01Z"
+      repo_pushed_at: '2026-03-17T20:42:28Z'
+      repo_updated_at: '2026-03-18T01:21:01Z'
       html_url: https://github.com/open-mercato/open-mercato
       default_branch: main
       latest_release:
         tag: v0.4.4
-        published_at: "2026-02-20T08:07:47Z"
+        published_at: '2026-02-20T08:07:47Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: clash-verge-rev/clash-verge-rev
     categories:
@@ -544,7 +544,7 @@ repositories:
       - lang:ts
     summary: A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience
     last_synced_sha: 8b99bb5150705320a4ba735eab79353de14ad308
-    user_starred_at: "2026-02-22T10:17:48Z"
+    user_starred_at: '2026-02-22T10:17:48Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -564,19 +564,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/152534467?v=4
       homepage_url: https://www.clashverge.dev
       license: GPL-3.0
-      repo_pushed_at: "2026-03-18T03:01:17Z"
-      repo_updated_at: "2026-03-18T03:42:31Z"
+      repo_pushed_at: '2026-03-18T03:01:17Z'
+      repo_updated_at: '2026-03-18T03:42:31Z'
       html_url: https://github.com/clash-verge-rev/clash-verge-rev
       default_branch: dev
       latest_release:
         tag: v2.4.6
-        published_at: "2026-02-19T20:16:41Z"
+        published_at: '2026-02-19T20:16:41Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: storytold/artcraft
     categories:
@@ -590,7 +590,7 @@ repositories:
       - lang:rust
     summary: Art Craft is an intentional crafting engine for artists, designers, and filmmakers
     last_synced_sha: b88f5c536bf59897b821c5382de2b07b20d82552
-    user_starred_at: "2026-02-22T10:16:16Z"
+    user_starred_at: '2026-02-22T10:16:16Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -607,19 +607,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/76897702?v=4
       homepage_url: https://getartcraft.com
       license: NOASSERTION
-      repo_pushed_at: "2026-03-18T01:52:02Z"
-      repo_updated_at: "2026-03-18T02:22:47Z"
+      repo_pushed_at: '2026-03-18T01:52:02Z'
+      repo_updated_at: '2026-03-18T02:22:47Z'
       html_url: https://github.com/storytold/artcraft
       default_branch: main
       latest_release:
         tag: artcraft-v0.7.0
-        published_at: "2026-02-22T06:22:46Z"
+        published_at: '2026-02-22T06:22:46Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: zed-industries/zed
     categories:
@@ -632,7 +632,7 @@ repositories:
       - lang:rust
     summary: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
     last_synced_sha: 81889c21c7585b9a1702a80d9a6d48538afb832b
-    user_starred_at: "2026-02-22T10:15:57Z"
+    user_starred_at: '2026-02-22T10:15:57Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -648,19 +648,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/79345384?v=4
       homepage_url: https://zed.dev
       license: NOASSERTION
-      repo_pushed_at: "2026-03-18T03:41:01Z"
-      repo_updated_at: "2026-03-18T03:47:42Z"
+      repo_pushed_at: '2026-03-18T03:41:01Z'
+      repo_updated_at: '2026-03-18T03:47:42Z'
       html_url: https://github.com/zed-industries/zed
       default_branch: main
       latest_release:
         tag: v0.224.11
-        published_at: "2026-02-21T07:37:45Z"
+        published_at: '2026-02-21T07:37:45Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: firecracker-microvm/firecracker
     categories:
@@ -674,7 +674,7 @@ repositories:
       - lang:rust
     summary: Secure and fast micro VMs for serverless computing.
     last_synced_sha: 4392a8d19ab0c8baf193b0a707b074f51758cc1a
-    user_starred_at: "2026-02-22T10:15:21Z"
+    user_starred_at: '2026-02-22T10:15:21Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -695,19 +695,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/44477506?v=4
       homepage_url: http://firecracker-microvm.io
       license: Apache-2.0
-      repo_pushed_at: "2026-03-17T15:04:24Z"
-      repo_updated_at: "2026-03-18T02:34:54Z"
+      repo_pushed_at: '2026-03-17T15:04:24Z'
+      repo_updated_at: '2026-03-18T02:34:54Z'
       html_url: https://github.com/firecracker-microvm/firecracker
       default_branch: main
       latest_release:
         tag: v1.14.1
-        published_at: "2026-01-20T10:54:34Z"
+        published_at: '2026-01-20T10:54:34Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:56.972Z"
+      classified_at: '2026-02-24T07:56:56.972Z'
       prompt_version: v3
   - repo: google-research/timesfm
     categories:
@@ -720,7 +720,7 @@ repositories:
       - lang:python
     summary: Times FM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
     last_synced_sha: a3beaa8421ebd68b8ff5a4f21b27f7585e0ac726
-    user_starred_at: "2026-02-22T10:14:40Z"
+    user_starred_at: '2026-02-22T10:14:40Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -732,19 +732,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/43830688?v=4
       homepage_url: https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/
       license: Apache-2.0
-      repo_pushed_at: "2026-03-17T20:03:45Z"
-      repo_updated_at: "2026-03-18T01:01:35Z"
+      repo_pushed_at: '2026-03-17T20:03:45Z'
+      repo_updated_at: '2026-03-18T01:01:35Z'
       html_url: https://github.com/google-research/timesfm
       default_branch: master
       latest_release:
         tag: v1.2.6
-        published_at: "2024-12-31T19:07:28Z"
+        published_at: '2024-12-31T19:07:28Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:34.779Z"
+      classified_at: '2026-02-24T07:56:34.779Z'
       prompt_version: v3
   - repo: roboflow/trackers
     categories:
@@ -757,7 +757,7 @@ repositories:
       - lang:python
     summary: Trackers gives you clean, modular re-implementations of leading multi-object tracking algorithms released under the permissive Apache 2.0 license. You combine them with any detection model you alre...
     last_synced_sha: 87a332f0bb4017a7838f1cfaa704fd48601f9e28
-    user_starred_at: "2026-02-22T10:14:14Z"
+    user_starred_at: '2026-02-22T10:14:14Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -779,19 +779,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/53104118?v=4
       homepage_url: https://trackers.roboflow.com/
       license: Apache-2.0
-      repo_pushed_at: "2026-03-17T10:11:14Z"
-      repo_updated_at: "2026-03-18T03:36:59Z"
+      repo_pushed_at: '2026-03-17T10:11:14Z'
+      repo_updated_at: '2026-03-18T03:36:59Z'
       html_url: https://github.com/roboflow/trackers
       default_branch: develop
       latest_release:
         tag: 2.2.0
-        published_at: "2026-02-18T18:17:11Z"
+        published_at: '2026-02-18T18:17:11Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:34.779Z"
+      classified_at: '2026-02-24T07:56:34.779Z'
       prompt_version: v3
   - repo: Crosstalk-Solutions/unifi-toolkit
     categories:
@@ -803,7 +803,7 @@ repositories:
       - lang:python
     summary: A suite of tools for Uni Fi network management
     last_synced_sha: eae49cd5f002f1a4c7b06f929baea125a5be6b91
-    user_starred_at: "2026-02-22T10:13:54Z"
+    user_starred_at: '2026-02-22T10:13:54Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -815,8 +815,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/105950641?v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-10T17:05:35Z"
-      repo_updated_at: "2026-03-18T01:54:56Z"
+      repo_pushed_at: '2026-03-10T17:05:35Z'
+      repo_updated_at: '2026-03-18T01:54:56Z'
       html_url: https://github.com/Crosstalk-Solutions/unifi-toolkit
       default_branch: main
       latest_release: null
@@ -825,7 +825,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:34.779Z"
+      classified_at: '2026-02-24T07:56:34.779Z'
       prompt_version: v3
   - repo: projectdiscovery/nuclei-templates
     categories:
@@ -838,7 +838,7 @@ repositories:
       - lang:js
     summary: Community curated list of templates for the nuclei engine to find security vulnerabilities.
     last_synced_sha: 0ed785db313182448afc6773d4df50d9fcad3e6b
-    user_starred_at: "2026-02-22T10:12:37Z"
+    user_starred_at: '2026-02-22T10:12:37Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -860,19 +860,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/50994705?v=4
       homepage_url: https://github.com/projectdiscovery/nuclei
       license: MIT
-      repo_pushed_at: "2026-03-18T02:59:42Z"
-      repo_updated_at: "2026-03-18T02:59:51Z"
+      repo_pushed_at: '2026-03-18T02:59:42Z'
+      repo_updated_at: '2026-03-18T02:59:51Z'
       html_url: https://github.com/projectdiscovery/nuclei-templates
       default_branch: main
       latest_release:
         tag: v10.3.9
-        published_at: "2026-02-16T09:25:33Z"
+        published_at: '2026-02-16T09:25:33Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:34.779Z"
+      classified_at: '2026-02-24T07:56:34.779Z'
       prompt_version: v3
   - repo: rollup/rollup
     categories:
@@ -885,7 +885,7 @@ repositories:
       - lang:js
     summary: Next-generation ES module bundler
     last_synced_sha: 170c9762bee307a32c4de06d6c5e73cc2d43c94c
-    user_starred_at: "2026-02-22T10:12:22Z"
+    user_starred_at: '2026-02-22T10:12:22Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -897,19 +897,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/12554859?v=4
       homepage_url: https://rollupjs.org
       license: NOASSERTION
-      repo_pushed_at: "2026-03-13T07:09:41Z"
-      repo_updated_at: "2026-03-18T03:15:32Z"
+      repo_pushed_at: '2026-03-13T07:09:41Z'
+      repo_updated_at: '2026-03-18T03:15:32Z'
       html_url: https://github.com/rollup/rollup
       default_branch: master
       latest_release:
         tag: v4.59.0
-        published_at: "2026-02-22T07:34:08Z"
+        published_at: '2026-02-22T07:34:08Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:34.779Z"
+      classified_at: '2026-02-24T07:56:34.779Z'
       prompt_version: v3
   - repo: Azgaar/Fantasy-Map-Generator
     categories:
@@ -922,7 +922,7 @@ repositories:
       - lang:js
     summary: Web application generating interactive and highly customizable maps
     last_synced_sha: 3f9a7702d4cd647128f43e32763c48314fe29321
-    user_starred_at: "2026-02-22T10:12:12Z"
+    user_starred_at: '2026-02-22T10:12:12Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -942,19 +942,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/26469650?u=9691bf34ce66f151e9900586c14fec80a7de55cf&v=4
       homepage_url: https://azgaar.github.io/Fantasy-Map-Generator
       license: NOASSERTION
-      repo_pushed_at: "2026-03-12T20:51:17Z"
-      repo_updated_at: "2026-03-17T16:21:37Z"
+      repo_pushed_at: '2026-03-12T20:51:17Z'
+      repo_updated_at: '2026-03-17T16:21:37Z'
       html_url: https://github.com/Azgaar/Fantasy-Map-Generator
       default_branch: master
       latest_release:
         tag: v1.110
-        published_at: "2026-01-22T12:16:29Z"
+        published_at: '2026-01-22T12:16:29Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:34.779Z"
+      classified_at: '2026-02-24T07:56:34.779Z'
       prompt_version: v3
   - repo: ToolJet/ToolJet
     categories:
@@ -965,9 +965,9 @@ repositories:
       - internal-tools
       - react
       - lang:js
-    summary: "Tool Jet is the open-source foundation of Tool Jet AI - the AI-native platform for building internal tools, dashboard, business applications, workflows and AI agents \U0001F680"
+    summary: Tool Jet is the open-source foundation of Tool Jet AI - the AI-native platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀
     last_synced_sha: 7354cbd604e11c665d349a1561c4612ca8b92cbf
-    user_starred_at: "2026-02-22T10:11:49Z"
+    user_starred_at: '2026-02-22T10:11:49Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -998,19 +998,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/82193554?v=4
       homepage_url: https://tooljet.com
       license: AGPL-3.0
-      repo_pushed_at: "2026-03-18T03:48:34Z"
-      repo_updated_at: "2026-03-18T03:39:58Z"
+      repo_pushed_at: '2026-03-18T03:48:34Z'
+      repo_updated_at: '2026-03-18T03:39:58Z'
       html_url: https://github.com/ToolJet/ToolJet
       default_branch: develop
       latest_release:
         tag: v3.20.102-lts
-        published_at: "2026-02-23T15:48:08Z"
+        published_at: '2026-02-23T15:48:08Z'
       is_mirror: false
       mirror_url: null
     framework: react
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:34.779Z"
+      classified_at: '2026-02-24T07:56:34.779Z'
       prompt_version: v3
   - repo: projectdiscovery/nuclei
     categories:
@@ -1023,7 +1023,7 @@ repositories:
       - lang:go
     summary: Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the ...
     last_synced_sha: 032fc8d9b241e3ae2c93592192634f767561863e
-    user_starred_at: "2026-02-22T10:11:12Z"
+    user_starred_at: '2026-02-22T10:11:12Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1046,19 +1046,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/50994705?v=4
       homepage_url: https://docs.projectdiscovery.io/tools/nuclei
       license: MIT
-      repo_pushed_at: "2026-03-17T21:29:21Z"
-      repo_updated_at: "2026-03-18T03:07:54Z"
+      repo_pushed_at: '2026-03-17T21:29:21Z'
+      repo_updated_at: '2026-03-18T03:07:54Z'
       html_url: https://github.com/projectdiscovery/nuclei
       default_branch: dev
       latest_release:
         tag: v3.7.0
-        published_at: "2026-01-28T09:52:51Z"
+        published_at: '2026-01-28T09:52:51Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:34.779Z"
+      classified_at: '2026-02-24T07:56:34.779Z'
       prompt_version: v3
   - repo: ros-navigation/navigation2
     categories:
@@ -1070,7 +1070,7 @@ repositories:
       - lang:cpp
     summary: ROS 2 Navigation Framework and System
     last_synced_sha: c965a7917691a7bc398f6e9f24868e513a152d58
-    user_starred_at: "2026-02-22T10:09:20Z"
+    user_starred_at: '2026-02-22T10:09:20Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1085,19 +1085,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/150733807?v=4
       homepage_url: https://nav2.org/
       license: NOASSERTION
-      repo_pushed_at: "2026-03-18T00:19:21Z"
-      repo_updated_at: "2026-03-18T00:19:27Z"
+      repo_pushed_at: '2026-03-18T00:19:21Z'
+      repo_updated_at: '2026-03-18T00:19:27Z'
       html_url: https://github.com/ros-navigation/navigation2
       default_branch: main
       latest_release:
         tag: 1.3.11
-        published_at: "2026-01-24T03:21:30Z"
+        published_at: '2026-01-24T03:21:30Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:34.779Z"
+      classified_at: '2026-02-24T07:56:34.779Z'
       prompt_version: v3
   - repo: TrinityCore/TrinityCore
     categories:
@@ -1110,7 +1110,7 @@ repositories:
       - lang:cpp
     summary: Trinity Core Open Source MMO Framework (master = 12.0.1.66044, 3.3.5 = 3.3.5a.12340, cata classic = 4.4.2.60895)
     last_synced_sha: 98b033c6a214fa6e2b829d0fc57f1072bb78ea04
-    user_starred_at: "2026-02-22T10:08:40Z"
+    user_starred_at: '2026-02-22T10:08:40Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1129,19 +1129,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/539602?v=4
       homepage_url: http://www.trinitycore.org
       license: GPL-2.0
-      repo_pushed_at: "2026-03-17T19:14:25Z"
-      repo_updated_at: "2026-03-17T19:14:30Z"
+      repo_pushed_at: '2026-03-17T19:14:25Z'
+      repo_updated_at: '2026-03-17T19:14:30Z'
       html_url: https://github.com/TrinityCore/TrinityCore
       default_branch: master
       latest_release:
         tag: TDB1200.26021
-        published_at: "2026-02-06T12:51:09Z"
+        published_at: '2026-02-06T12:51:09Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:34.779Z"
+      classified_at: '2026-02-24T07:56:34.779Z'
       prompt_version: v3
   - repo: HailToDodongo/pyrite64
     categories:
@@ -1154,7 +1154,7 @@ repositories:
       - lang:cpp
     summary: N64 Game-Engine and Editor using libdragon & tiny3d
     last_synced_sha: e3e92c37a03334224b5badfc7532e0beca05b322
-    user_starred_at: "2026-02-22T10:08:21Z"
+    user_starred_at: '2026-02-22T10:08:21Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1166,19 +1166,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/29900530?u=db80a5d79c4185e543cee6146c75c8dea260937c&v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-17T23:21:24Z"
-      repo_updated_at: "2026-03-18T03:50:12Z"
+      repo_pushed_at: '2026-03-17T23:21:24Z'
+      repo_updated_at: '2026-03-18T03:50:12Z'
       html_url: https://github.com/HailToDodongo/pyrite64
       default_branch: main
       latest_release:
         tag: v0.2.0
-        published_at: "2026-02-19T23:38:59Z"
+        published_at: '2026-02-19T23:38:59Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-24T07:56:34.779Z"
+      classified_at: '2026-02-24T07:56:34.779Z'
       prompt_version: v3
   - repo: icryo/remove-refusals-with-transformers
     categories:
@@ -1190,7 +1190,7 @@ repositories:
       - lang:python
     summary: Implements harmful/harmless refusal removal using pure HF Transformers
     last_synced_sha: abc1f91f06cda9d45dc2e8a3ae1f03d963d01c6b
-    user_starred_at: "2026-02-24T12:56:00Z"
+    user_starred_at: '2026-02-24T12:56:00Z'
     readme_quality: missing
     needs_review: false
     fork: true
@@ -1203,8 +1203,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/6702065?u=201dd87992fdb3c6806b4af891c68e08ec7ea383&v=4
       homepage_url: null
       license: Apache-2.0
-      repo_pushed_at: "2025-05-08T05:49:01Z"
-      repo_updated_at: "2026-03-10T12:26:57Z"
+      repo_pushed_at: '2025-05-08T05:49:01Z'
+      repo_updated_at: '2026-03-10T12:26:57Z'
       html_url: https://github.com/icryo/remove-refusals-with-transformers
       default_branch: master
       latest_release: null
@@ -1213,7 +1213,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-25T04:04:53.146Z"
+      classified_at: '2026-02-25T04:04:53.146Z'
       prompt_version: v3
   - repo: t3dotgg/stripe-recommendations
     categories:
@@ -1226,7 +1226,7 @@ repositories:
       - typescript
     summary: How to implement Stripe without going mad
     last_synced_sha: f525f5023d819512e51afdce67f5acbd04c61f22
-    user_starred_at: "2026-02-25T23:58:17Z"
+    user_starred_at: '2026-02-25T23:58:17Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1244,8 +1244,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/6751787?u=69a6486b20fc980615e51457f6a5b56103cea295&v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2025-02-07T23:38:13Z"
-      repo_updated_at: "2026-03-17T21:19:52Z"
+      repo_pushed_at: '2025-02-07T23:38:13Z'
+      repo_updated_at: '2026-03-17T21:19:52Z'
       html_url: https://github.com/t3dotgg/stripe-recommendations
       default_branch: main
       latest_release: null
@@ -1254,7 +1254,7 @@ repositories:
     framework: nextjs
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-26T05:02:22.664Z"
+      classified_at: '2026-02-26T05:02:22.664Z'
       prompt_version: v3
   - repo: pingdotgg/lawn
     categories:
@@ -1264,7 +1264,7 @@ repositories:
       - lang:ts
     summary: No description provided
     last_synced_sha: 046c2b27473674d27c6862c25a6768a27033891b
-    user_starred_at: "2026-02-25T23:54:15Z"
+    user_starred_at: '2026-02-25T23:54:15Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1276,8 +1276,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/89191727?v=4
       homepage_url: https://lawn.video
       license: MIT
-      repo_pushed_at: "2026-03-16T23:30:32Z"
-      repo_updated_at: "2026-03-17T10:06:28Z"
+      repo_pushed_at: '2026-03-16T23:30:32Z'
+      repo_updated_at: '2026-03-17T10:06:28Z'
       html_url: https://github.com/pingdotgg/lawn
       default_branch: main
       latest_release: null
@@ -1286,7 +1286,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-26T05:02:22.664Z"
+      classified_at: '2026-02-26T05:02:22.664Z'
       prompt_version: v3
   - repo: clusterzx/ts6-manager
     categories:
@@ -1298,7 +1298,7 @@ repositories:
       - lang:ts
     summary: Web-based management interface for Team Speak servers
     last_synced_sha: 00935dde1e84cbed8ce0c47ca7c1a2dcdc7d33df
-    user_starred_at: "2026-02-25T05:32:34Z"
+    user_starred_at: '2026-02-25T05:32:34Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1313,8 +1313,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/32274973?u=9ccd0c17612d8b9c4f1b318a8d5a6d9820e7988a&v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2026-03-12T15:41:50Z"
-      repo_updated_at: "2026-03-17T16:56:50Z"
+      repo_pushed_at: '2026-03-12T15:41:50Z'
+      repo_updated_at: '2026-03-17T16:56:50Z'
       html_url: https://github.com/clusterzx/ts6-manager
       default_branch: main
       latest_release: null
@@ -1323,7 +1323,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-26T05:02:22.664Z"
+      classified_at: '2026-02-26T05:02:22.664Z'
       prompt_version: v3
   - repo: vivienhenz24/fuzzy-canary
     categories:
@@ -1336,7 +1336,7 @@ repositories:
       - lang:ts
     summary: Poor-man's solution to stopping AI companies from scraping your blog
     last_synced_sha: c10f434b98c8bad2574ee23e33f1b8b6b1c433e0
-    user_starred_at: "2026-02-25T05:31:54Z"
+    user_starred_at: '2026-02-25T05:31:54Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1348,8 +1348,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/201211818?u=3464da003823c65db1fa48e5c18d8357f34022e2&v=4
       homepage_url: null
       license: NOASSERTION
-      repo_pushed_at: "2025-12-19T15:57:28Z"
-      repo_updated_at: "2026-03-17T20:04:23Z"
+      repo_pushed_at: '2025-12-19T15:57:28Z'
+      repo_updated_at: '2026-03-17T20:04:23Z'
       html_url: https://github.com/vivienhenz24/fuzzy-canary
       default_branch: main
       latest_release: null
@@ -1358,7 +1358,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-02-26T05:02:22.664Z"
+      classified_at: '2026-02-26T05:02:22.664Z'
       prompt_version: v3
   - repo: sindresorhus/open
     categories:
@@ -1370,7 +1370,7 @@ repositories:
       - lang:js
     summary: Open stuff like URLs, files, executables. Cross-platform.
     last_synced_sha: 88153308461c32974b146f29446837ee290f605b
-    user_starred_at: "2026-03-07T01:38:34Z"
+    user_starred_at: '2026-03-07T01:38:34Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1382,19 +1382,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/170270?u=34acd557a042ac478d273a4621570cadb6b0bd89&v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2025-11-15T08:22:56Z"
-      repo_updated_at: "2026-03-16T19:31:42Z"
+      repo_pushed_at: '2025-11-15T08:22:56Z'
+      repo_updated_at: '2026-03-16T19:31:42Z'
       html_url: https://github.com/sindresorhus/open
       default_branch: main
       latest_release:
         tag: v11.0.0
-        published_at: "2025-11-15T08:24:33Z"
+        published_at: '2025-11-15T08:24:33Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:56.318Z"
+      classified_at: '2026-03-07T03:49:56.318Z'
       prompt_version: v3
   - repo: QwenLM/Qwen3-TTS
     categories:
@@ -1407,7 +1407,7 @@ repositories:
       - lang:python
     summary: Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice...
     last_synced_sha: 022e286b98fbec7e1e916cb940cdf532cd9f488e
-    user_starred_at: "2026-03-06T18:35:40Z"
+    user_starred_at: '2026-03-06T18:35:40Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1419,8 +1419,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/141221163?v=4
       homepage_url: null
       license: Apache-2.0
-      repo_pushed_at: "2026-03-17T06:38:41Z"
-      repo_updated_at: "2026-03-18T03:21:02Z"
+      repo_pushed_at: '2026-03-17T06:38:41Z'
+      repo_updated_at: '2026-03-18T03:21:02Z'
       html_url: https://github.com/QwenLM/Qwen3-TTS
       default_branch: main
       latest_release: null
@@ -1429,7 +1429,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:56.318Z"
+      classified_at: '2026-03-07T03:49:56.318Z'
       prompt_version: v3
   - repo: isaiahbjork/expo-kokoro-onnx
     categories:
@@ -1442,7 +1442,7 @@ repositories:
       - lang:ts
     summary: Run Kokoro TTS locally on device using Expo & ONNX Runtime
     last_synced_sha: 8a9ecb17d063675460d9fbaa9afc9f67de53e37e
-    user_starred_at: "2026-03-06T18:32:25Z"
+    user_starred_at: '2026-03-06T18:32:25Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1462,8 +1462,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/95888118?u=7d63a6f0a180465761147737f3cee390dd730303&v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2025-05-08T01:04:44Z"
-      repo_updated_at: "2026-03-13T09:08:50Z"
+      repo_pushed_at: '2025-05-08T01:04:44Z'
+      repo_updated_at: '2026-03-13T09:08:50Z'
       html_url: https://github.com/isaiahbjork/expo-kokoro-onnx
       default_branch: main
       latest_release: null
@@ -1472,7 +1472,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:56.318Z"
+      classified_at: '2026-03-07T03:49:56.318Z'
       prompt_version: v3
   - repo: readest/readest
     categories:
@@ -1486,7 +1486,7 @@ repositories:
       - lang:ts
     summary: Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience.
     last_synced_sha: 8280585e70b86b56e1d8621775eb7ab7c8e36ba6
-    user_starred_at: "2026-03-06T18:30:46Z"
+    user_starred_at: '2026-03-06T18:30:46Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1513,19 +1513,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/190965649?v=4
       homepage_url: https://readest.com
       license: AGPL-3.0
-      repo_pushed_at: "2026-03-17T16:52:07Z"
-      repo_updated_at: "2026-03-18T03:33:35Z"
+      repo_pushed_at: '2026-03-17T16:52:07Z'
+      repo_updated_at: '2026-03-18T03:33:35Z'
       html_url: https://github.com/readest/readest
       default_branch: main
       latest_release:
         tag: v0.9.101
-        published_at: "2026-02-28T08:51:24Z"
+        published_at: '2026-02-28T08:51:24Z'
       is_mirror: false
       mirror_url: null
     framework: nextjs
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:56.318Z"
+      classified_at: '2026-03-07T03:49:56.318Z'
       prompt_version: v3
   - repo: babysor/MockingBird
     categories:
@@ -1536,9 +1536,9 @@ repositories:
       - real-time
       - deep-learning
       - lang:python
-    summary: "\U0001F680Clone a voice in 5 seconds to generate arbitrary speech in real-time"
+    summary: 🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time
     last_synced_sha: 28dc5e14f12d7c754612af2fde8e78a4b03f8616
-    user_starred_at: "2026-03-06T18:30:15Z"
+    user_starred_at: '2026-03-06T18:30:15Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1556,19 +1556,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/7423248?v=4
       homepage_url: null
       license: NOASSERTION
-      repo_pushed_at: "2026-03-03T14:59:58Z"
-      repo_updated_at: "2026-03-18T03:00:58Z"
+      repo_pushed_at: '2026-03-03T14:59:58Z'
+      repo_updated_at: '2026-03-18T03:00:58Z'
       html_url: https://github.com/babysor/MockingBird
       default_branch: main
       latest_release:
         tag: v0.0.1
-        published_at: "2021-11-07T13:53:53Z"
+        published_at: '2021-11-07T13:53:53Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:56.318Z"
+      classified_at: '2026-03-07T03:49:56.318Z'
       prompt_version: v3
   - repo: gradiuscypher/infosec_getting_started
     categories:
@@ -1582,7 +1582,7 @@ repositories:
       - lang:html
     summary: A collection of resources/documentation/links/etc to help people learn about Infosec and break into the field.
     last_synced_sha: 8dacaf2ff0ca392bd0ec829c1b4ca2887f183a13
-    user_starred_at: "2026-03-06T18:29:21Z"
+    user_starred_at: '2026-03-06T18:29:21Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1599,8 +1599,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/780781?v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2025-01-11T02:51:54Z"
-      repo_updated_at: "2026-03-06T18:29:22Z"
+      repo_pushed_at: '2025-01-11T02:51:54Z'
+      repo_updated_at: '2026-03-06T18:29:22Z'
       html_url: https://github.com/gradiuscypher/infosec_getting_started
       default_branch: main
       latest_release: null
@@ -1609,7 +1609,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:56.318Z"
+      classified_at: '2026-03-07T03:49:56.318Z'
       prompt_version: v3
   - repo: abus-aikorea/voice-pro
     categories:
@@ -1622,7 +1622,7 @@ repositories:
       - lang:python
     summary: Gradio Web UI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, Cosy Voice), with Whisper audio processing, You Tube download, Demucs vocal...
     last_synced_sha: b242c3ff9cedcff27a63401ad6ee522b51f789d7
-    user_starred_at: "2026-03-06T18:28:47Z"
+    user_starred_at: '2026-03-06T18:28:47Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1653,19 +1653,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/161691694?u=76dc12d2edde28c7ad5e7de0c95c60043061ad43&v=4
       homepage_url: https://www.wctokyoseoul.com
       license: GPL-3.0
-      repo_pushed_at: "2025-12-05T17:00:08Z"
-      repo_updated_at: "2026-03-17T14:48:58Z"
+      repo_pushed_at: '2025-12-05T17:00:08Z'
+      repo_updated_at: '2026-03-17T14:48:58Z'
       html_url: https://github.com/abus-aikorea/voice-pro
       default_branch: main
       latest_release:
         tag: v3.2.0
-        published_at: "2025-12-05T17:00:08Z"
+        published_at: '2025-12-05T17:00:08Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:56.318Z"
+      classified_at: '2026-03-07T03:49:56.318Z'
       prompt_version: v3
   - repo: rtk-ai/vox
     categories:
@@ -1678,7 +1678,7 @@ repositories:
       - lang:rust
     summary: A universal AI toolkit for high-performance Speech-to-Text (STT) and Text-to-Speech (TTS) processing, designed for low-latency and easy model integration.
     last_synced_sha: 043dd1cc6906dcf51df038acc11afde735fd10e4
-    user_starred_at: "2026-03-06T18:18:40Z"
+    user_starred_at: '2026-03-06T18:18:40Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1697,19 +1697,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/258253854?v=4
       homepage_url: null
       license: NOASSERTION
-      repo_pushed_at: "2026-03-16T07:36:27Z"
-      repo_updated_at: "2026-03-17T13:40:43Z"
+      repo_pushed_at: '2026-03-16T07:36:27Z'
+      repo_updated_at: '2026-03-17T13:40:43Z'
       html_url: https://github.com/rtk-ai/vox
       default_branch: main
       latest_release:
         tag: v0.6.0
-        published_at: "2026-03-05T21:02:49Z"
+        published_at: '2026-03-05T21:02:49Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:56.318Z"
+      classified_at: '2026-03-07T03:49:56.318Z'
       prompt_version: v3
   - repo: Wells-the-Doctor/leaxer
     categories:
@@ -1720,9 +1720,9 @@ repositories:
       - document-generation
       - image-processing
       - lang:elixir
-    summary: "\U0001F31F Build and deploy local AI models with Leaxer for real-time interaction, streamlined document generation, and versatile visual processing capabilities."
+    summary: 🌟 Build and deploy local AI models with Leaxer for real-time interaction, streamlined document generation, and versatile visual processing capabilities.
     last_synced_sha: 4fca4fc65b1bd78f398dd68df23cc72293f4ed50
-    user_starred_at: "2026-03-06T18:18:29Z"
+    user_starred_at: '2026-03-06T18:18:29Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1752,8 +1752,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/158799644?v=4
       homepage_url: https://wells-the-doctor.github.io
       license: Apache-2.0
-      repo_pushed_at: "2026-03-18T03:51:23Z"
-      repo_updated_at: "2026-03-18T03:51:26Z"
+      repo_pushed_at: '2026-03-18T03:51:23Z'
+      repo_updated_at: '2026-03-18T03:51:26Z'
       html_url: https://github.com/Wells-the-Doctor/leaxer
       default_branch: main
       latest_release: null
@@ -1762,7 +1762,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:56.318Z"
+      classified_at: '2026-03-07T03:49:56.318Z'
       prompt_version: v3
   - repo: Ak-sys-sh/qwen3-tts-apple-silicon
     categories:
@@ -1773,9 +1773,9 @@ repositories:
       - voice-cloning
       - apple-silicon
       - lang:python
-    summary: "\U0001F3A4 Run Qwen3-TTS locally on Apple Silicon for offline AI text-to-speech, offering voice cloning and customization features without cloud reliance."
+    summary: 🎤 Run Qwen3-TTS locally on Apple Silicon for offline AI text-to-speech, offering voice cloning and customization features without cloud reliance.
     last_synced_sha: 77ce7f14a8944b27d8246889de67e1aad68f19b7
-    user_starred_at: "2026-03-06T18:18:05Z"
+    user_starred_at: '2026-03-06T18:18:05Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1807,8 +1807,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/188616635?v=4
       homepage_url: https://ak-sys-sh.github.io
       license: null
-      repo_pushed_at: "2026-03-18T03:52:27Z"
-      repo_updated_at: "2026-03-18T03:52:31Z"
+      repo_pushed_at: '2026-03-18T03:52:27Z'
+      repo_updated_at: '2026-03-18T03:52:31Z'
       html_url: https://github.com/Ak-sys-sh/qwen3-tts-apple-silicon
       default_branch: main
       latest_release: null
@@ -1817,7 +1817,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:56.317Z"
+      classified_at: '2026-03-07T03:49:56.317Z'
       prompt_version: v3
   - repo: talin190/Qwen3-TTS-Daggr-UI
     categories:
@@ -1829,9 +1829,9 @@ repositories:
       - audio-processing
       - lang:python
       - huggingface-transformers
-    summary: "\U0001F3A4 Create dynamic voice experiences with Qwen3-TTS-Daggr-UI, a Gradio app for voice design, cloning, and speech recognition across multiple languages."
+    summary: 🎤 Create dynamic voice experiences with Qwen3-TTS-Daggr-UI, a Gradio app for voice design, cloning, and speech recognition across multiple languages.
     last_synced_sha: d32899194915273171067cb9cf92f1f459b86433
-    user_starred_at: "2026-03-06T18:17:51Z"
+    user_starred_at: '2026-03-06T18:17:51Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1859,8 +1859,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/77019525?v=4
       homepage_url: https://talin190.github.io
       license: Apache-2.0
-      repo_pushed_at: "2026-03-18T03:52:53Z"
-      repo_updated_at: "2026-03-18T03:52:57Z"
+      repo_pushed_at: '2026-03-18T03:52:53Z'
+      repo_updated_at: '2026-03-18T03:52:57Z'
       html_url: https://github.com/talin190/Qwen3-TTS-Daggr-UI
       default_branch: main
       latest_release: null
@@ -1869,7 +1869,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:25.643Z"
+      classified_at: '2026-03-07T03:49:25.643Z'
       prompt_version: v3
   - repo: leonekmisio-prog/typecast-sdk
     categories:
@@ -1881,9 +1881,9 @@ repositories:
       - csharp
       - cross-language
       - lang:csharp
-    summary: "\U0001F5E3️ Transform text into natural speech effortlessly with the official Typecast SDKs for the Text-to-Speech API across multiple programming languages."
+    summary: 🗣️ Transform text into natural speech effortlessly with the official Typecast SDKs for the Text-to-Speech API across multiple programming languages.
     last_synced_sha: f694c695df10f276086ed4d671c97c0d0b60c887
-    user_starred_at: "2026-03-06T18:17:04Z"
+    user_starred_at: '2026-03-06T18:17:04Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1914,8 +1914,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/250968664?v=4
       homepage_url: https://leonekmisio-prog.github.io
       license: null
-      repo_pushed_at: "2026-03-18T01:43:22Z"
-      repo_updated_at: "2026-03-18T01:43:26Z"
+      repo_pushed_at: '2026-03-18T01:43:22Z'
+      repo_updated_at: '2026-03-18T01:43:26Z'
       html_url: https://github.com/leonekmisio-prog/typecast-sdk
       default_branch: main
       latest_release: null
@@ -1924,7 +1924,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:25.643Z"
+      classified_at: '2026-03-07T03:49:25.643Z'
       prompt_version: v3
   - repo: lukinhas-programando/ace-step-studio
     categories:
@@ -1936,9 +1936,9 @@ repositories:
       - speech-synthesis
       - offline-ai
       - lang:ts
-    summary: "\U0001F3B5 Create and manage local-first AI-powered music with a fast, self-hosted studio featuring integrated generation, playback, and asset storage."
+    summary: 🎵 Create and manage local-first AI-powered music with a fast, self-hosted studio featuring integrated generation, playback, and asset storage.
     last_synced_sha: 6ee7c2e8256c10f3283ca7f104068950bdc75118
-    user_starred_at: "2026-03-06T18:16:46Z"
+    user_starred_at: '2026-03-06T18:16:46Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -1965,8 +1965,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/213319013?v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2026-03-18T01:44:38Z"
-      repo_updated_at: "2026-03-18T01:44:42Z"
+      repo_pushed_at: '2026-03-18T01:44:38Z'
+      repo_updated_at: '2026-03-18T01:44:42Z'
       html_url: https://github.com/lukinhas-programando/ace-step-studio
       default_branch: main
       latest_release: null
@@ -1975,7 +1975,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:25.643Z"
+      classified_at: '2026-03-07T03:49:25.643Z'
       prompt_version: v3
   - repo: natikxy/rick-voice
     categories:
@@ -1989,7 +1989,7 @@ repositories:
       - voice-conversion
     summary: Convert text into authentic Rick Sanchez voice for bots and apps with a simple Python API supporting streaming and multiple TTS providers.
     last_synced_sha: 3176feabd763e1055c8e4775e6ca0e199948ffaf
-    user_starred_at: "2026-03-06T18:15:24Z"
+    user_starred_at: '2026-03-06T18:15:24Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2016,8 +2016,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/130471701?v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2026-03-18T01:50:50Z"
-      repo_updated_at: "2026-03-18T01:50:53Z"
+      repo_pushed_at: '2026-03-18T01:50:50Z'
+      repo_updated_at: '2026-03-18T01:50:53Z'
       html_url: https://github.com/natikxy/rick-voice
       default_branch: main
       latest_release: null
@@ -2026,7 +2026,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:25.643Z"
+      classified_at: '2026-03-07T03:49:25.643Z'
       prompt_version: v3
   - repo: clowerweb/kitten-tts-web-demo
     categories:
@@ -2040,7 +2040,7 @@ repositories:
       - speech-synthesis
     summary: Kitten TTS web demo using tansformers.js
     last_synced_sha: c174b1f5499100197b74e240df9e143bf6132840
-    user_starred_at: "2026-03-06T18:13:36Z"
+    user_starred_at: '2026-03-06T18:13:36Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2052,8 +2052,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/885727?u=31d9f6db81c92d8ada3088df78666e09c3e90309&v=4
       homepage_url: null
       license: NOASSERTION
-      repo_pushed_at: "2025-08-13T05:32:57Z"
-      repo_updated_at: "2026-03-06T18:13:36Z"
+      repo_pushed_at: '2025-08-13T05:32:57Z'
+      repo_updated_at: '2026-03-06T18:13:36Z'
       html_url: https://github.com/clowerweb/kitten-tts-web-demo
       default_branch: main
       latest_release: null
@@ -2062,7 +2062,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-07T03:49:25.643Z"
+      classified_at: '2026-03-07T03:49:25.643Z'
       prompt_version: v3
   - repo: pyupio/safety
     categories:
@@ -2076,7 +2076,7 @@ repositories:
       - lang:python
     summary: Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected.
     last_synced_sha: a86ed3cceb5ce6912f945a8acb8970999c00d1ff
-    user_starred_at: "2026-03-07T04:09:39Z"
+    user_starred_at: '2026-03-07T04:09:39Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2099,19 +2099,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/16113910?v=4
       homepage_url: https://safetycli.com/product/safety-cli
       license: null
-      repo_pushed_at: "2026-03-16T14:34:03Z"
-      repo_updated_at: "2026-03-16T14:34:08Z"
+      repo_pushed_at: '2026-03-16T14:34:03Z'
+      repo_updated_at: '2026-03-16T14:34:08Z'
       html_url: https://github.com/pyupio/safety
       default_branch: main
       latest_release:
         tag: 3.7.0
-        published_at: "2025-11-06T20:09:46Z"
+        published_at: '2025-11-06T20:09:46Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-09T04:51:07.057Z"
+      classified_at: '2026-03-09T04:51:07.057Z'
       prompt_version: v3
   - repo: postgres-ai/database-lab-engine
     categories:
@@ -2124,9 +2124,9 @@ repositories:
       - ci-cd
       - thin-cloning
       - lang:go
-    summary: "DBLab enables \U0001F596 database branching and ⚡️ thin cloning for any Postgres database and empowers DB testing in CI/CD. This optimizes database-related costs while improving time-to-market and software..."
+    summary: DBLab enables 🖖 database branching and ⚡️ thin cloning for any Postgres database and empowers DB testing in CI/CD. This optimizes database-related costs while improving time-to-market and software...
     last_synced_sha: 8c3ef6fe62803f9749bd321eb0033e93f902290b
-    user_starred_at: "2026-03-07T04:08:45Z"
+    user_starred_at: '2026-03-07T04:08:45Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2154,19 +2154,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/41564857?v=4
       homepage_url: https://postgres.ai/products/how-it-works
       license: Apache-2.0
-      repo_pushed_at: "2026-03-17T22:32:30Z"
-      repo_updated_at: "2026-03-17T08:14:51Z"
+      repo_pushed_at: '2026-03-17T22:32:30Z'
+      repo_updated_at: '2026-03-17T08:14:51Z'
       html_url: https://github.com/postgres-ai/database-lab-engine
       default_branch: master
       latest_release:
         tag: v4.0.4
-        published_at: "2026-02-24T12:22:44Z"
+        published_at: '2026-02-24T12:22:44Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-09T04:50:41.159Z"
+      classified_at: '2026-03-09T04:50:41.159Z'
       prompt_version: v3
   - repo: go-gitea/gitea
     categories:
@@ -2181,7 +2181,7 @@ repositories:
       - lang:go
     summary: Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
     last_synced_sha: d6496c61561d90f56f0b5ec3f75d4de8e36a5c9f
-    user_starred_at: "2026-03-07T04:03:17Z"
+    user_starred_at: '2026-03-07T04:03:17Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2213,19 +2213,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/12724356?v=4
       homepage_url: https://gitea.com
       license: MIT
-      repo_pushed_at: "2026-03-18T00:50:35Z"
-      repo_updated_at: "2026-03-18T03:29:23Z"
+      repo_pushed_at: '2026-03-18T00:50:35Z'
+      repo_updated_at: '2026-03-18T03:29:23Z'
       html_url: https://github.com/go-gitea/gitea
       default_branch: main
       latest_release:
         tag: v1.25.4
-        published_at: "2026-01-22T01:43:42Z"
+        published_at: '2026-01-22T01:43:42Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-09T04:50:41.159Z"
+      classified_at: '2026-03-09T04:50:41.159Z'
       prompt_version: v3
   - repo: microsoft/vscode-extension-samples
     categories:
@@ -2237,7 +2237,7 @@ repositories:
       - lang:ts
     summary: Sample code illustrating the VS Code extension API.
     last_synced_sha: 61fda64ede073136f3716f69b067d212ef0893e1
-    user_starred_at: "2026-03-08T16:28:27Z"
+    user_starred_at: '2026-03-08T16:28:27Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2249,8 +2249,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/6154722?v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-02-12T11:54:46Z"
-      repo_updated_at: "2026-03-17T13:37:04Z"
+      repo_pushed_at: '2026-02-12T11:54:46Z'
+      repo_updated_at: '2026-03-17T13:37:04Z'
       html_url: https://github.com/microsoft/vscode-extension-samples
       default_branch: main
       latest_release: null
@@ -2259,7 +2259,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-09T04:51:07.057Z"
+      classified_at: '2026-03-09T04:51:07.057Z'
       prompt_version: v3
   - repo: cloudfoundry/cloud-service-broker
     categories:
@@ -2272,7 +2272,7 @@ repositories:
       - lang:go
     summary: OSBAPI service broker that uses Terraform to provision and bind services. Derived from https://github.com/Google Cloud Platform/gcp-service-broker
     last_synced_sha: 61b3af248da93bce37843be81f71dd710410e404
-    user_starred_at: "2026-03-10T00:21:42Z"
+    user_starred_at: '2026-03-10T00:21:42Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2293,19 +2293,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/621746?v=4
       homepage_url: null
       license: Apache-2.0
-      repo_pushed_at: "2026-03-17T22:09:55Z"
-      repo_updated_at: "2026-03-17T22:09:53Z"
+      repo_pushed_at: '2026-03-17T22:09:55Z'
+      repo_updated_at: '2026-03-17T22:09:53Z'
       html_url: https://github.com/cloudfoundry/cloud-service-broker
       default_branch: main
       latest_release:
         tag: v2.6.7
-        published_at: "2026-03-09T13:51:56Z"
+        published_at: '2026-03-09T13:51:56Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-10T03:56:39.645Z"
+      classified_at: '2026-03-10T03:56:39.645Z'
       prompt_version: v3
   - repo: FedRAMP/roadmap
     categories:
@@ -2317,7 +2317,7 @@ repositories:
       - lang:shell
     summary: Fed RAMP's Public High Level Roadmap
     last_synced_sha: 6a10f4be8e99b841538bd43a6a44ec43f742975e
-    user_starred_at: "2026-03-09T23:58:24Z"
+    user_starred_at: '2026-03-09T23:58:24Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2329,8 +2329,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/29738931?v=4
       homepage_url: https://github.com/orgs/FedRAMP/projects/25/views/1
       license: null
-      repo_pushed_at: "2026-02-02T19:12:38Z"
-      repo_updated_at: "2026-03-09T23:58:24Z"
+      repo_pushed_at: '2026-02-02T19:12:38Z'
+      repo_updated_at: '2026-03-09T23:58:24Z'
       html_url: https://github.com/FedRAMP/roadmap
       default_branch: main
       latest_release: null
@@ -2339,7 +2339,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-10T03:56:39.644Z"
+      classified_at: '2026-03-10T03:56:39.644Z'
       prompt_version: v3
   - repo: jdx/fnox
     categories:
@@ -2351,7 +2351,7 @@ repositories:
       - lang:rust
     summary: encrypted/remote secret manager
     last_synced_sha: d29f4cd3745c34080962ccb2b056a58ee70d6eef
-    user_starred_at: "2026-03-09T20:38:40Z"
+    user_starred_at: '2026-03-09T20:38:40Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2363,19 +2363,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/216188?u=e6ed73b780fca5bd9dea18dfea51ce138e8f6a13&v=4
       homepage_url: https://fnox.jdx.dev
       license: MIT
-      repo_pushed_at: "2026-03-16T09:15:25Z"
-      repo_updated_at: "2026-03-18T03:49:02Z"
+      repo_pushed_at: '2026-03-16T09:15:25Z'
+      repo_updated_at: '2026-03-18T03:49:02Z'
       html_url: https://github.com/jdx/fnox
       default_branch: main
       latest_release:
         tag: v1.17.0
-        published_at: "2026-03-09T05:26:53Z"
+        published_at: '2026-03-09T05:26:53Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-10T03:56:39.644Z"
+      classified_at: '2026-03-10T03:56:39.644Z'
       prompt_version: v3
   - repo: HKUDS/CLI-Anything
     categories:
@@ -2388,7 +2388,7 @@ repositories:
       - lang:python
     summary: 'CLI-Anything: Making ALL Software Agent-Native'
     last_synced_sha: bae4e0ffda724c4d68110332113a385c7a270b4f
-    user_starred_at: "2026-03-09T20:22:49Z"
+    user_starred_at: '2026-03-09T20:22:49Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2400,8 +2400,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/118165258?v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2026-03-17T17:12:48Z"
-      repo_updated_at: "2026-03-18T03:53:28Z"
+      repo_pushed_at: '2026-03-17T17:12:48Z'
+      repo_updated_at: '2026-03-18T03:53:28Z'
       html_url: https://github.com/HKUDS/CLI-Anything
       default_branch: main
       latest_release: null
@@ -2410,7 +2410,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-10T03:56:39.644Z"
+      classified_at: '2026-03-10T03:56:39.644Z'
       prompt_version: v3
   - repo: InsForge/InsForge
     categories:
@@ -2423,7 +2423,7 @@ repositories:
       - lang:ts
     summary: Give agents everything they need to ship fullstack apps. The backend built for agentic development.
     last_synced_sha: 467d0b941f0b95696307c18836217373a9e21ec9
-    user_starred_at: "2026-03-09T20:21:19Z"
+    user_starred_at: '2026-03-09T20:21:19Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2448,19 +2448,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/198419463?v=4
       homepage_url: https://insforge.dev
       license: Apache-2.0
-      repo_pushed_at: "2026-03-18T02:24:31Z"
-      repo_updated_at: "2026-03-18T03:55:02Z"
+      repo_pushed_at: '2026-03-18T02:24:31Z'
+      repo_updated_at: '2026-03-18T03:55:02Z'
       html_url: https://github.com/InsForge/InsForge
       default_branch: main
       latest_release:
         tag: v2.0.1
-        published_at: "2026-03-09T06:25:12Z"
+        published_at: '2026-03-09T06:25:12Z'
       is_mirror: false
       mirror_url: null
     framework: nextjs
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-10T03:56:39.644Z"
+      classified_at: '2026-03-10T03:56:39.644Z'
       prompt_version: v3
   - repo: viralcode/vib-OS
     categories:
@@ -2473,7 +2473,7 @@ repositories:
       - lang:c
     summary: World's First Vibecoded AI Operating System
     last_synced_sha: 73b64299bf6e591e738c58c9d1845f0babdd6f58
-    user_starred_at: "2026-03-09T20:19:00Z"
+    user_starred_at: '2026-03-09T20:19:00Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2485,19 +2485,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/11070871?u=be43f5eaae05f2bf96976f51670786304bd555f3&v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2026-03-10T11:43:35Z"
-      repo_updated_at: "2026-03-17T08:13:25Z"
+      repo_pushed_at: '2026-03-10T11:43:35Z'
+      repo_updated_at: '2026-03-17T08:13:25Z'
       html_url: https://github.com/viralcode/vib-OS
       default_branch: main
       latest_release:
         tag: 2.2.0
-        published_at: "2026-01-20T03:26:10Z"
+        published_at: '2026-01-20T03:26:10Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-10T03:56:39.644Z"
+      classified_at: '2026-03-10T03:56:39.644Z'
       prompt_version: v3
   - repo: FurkanGozukara/Stable-Diffusion
     categories:
@@ -2510,7 +2510,7 @@ repositories:
       - lang:js
     summary: FLUX, Stable Diffusion, SDXL, SD3, Lo RA, Fine Tuning, Dream Booth, Training, Automatic1111, Forge Web UI, Swarm UI, Deep Fake, TTS, Animation, Text To Video, Tutorials, Guides, Lectures, Courses, ...
     last_synced_sha: 1680cbac6d62372271730870501ec23cb11060b0
-    user_starred_at: "2026-03-09T11:14:11Z"
+    user_starred_at: '2026-03-09T11:14:11Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2542,8 +2542,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/19240467?u=d5494b4070d68e99b293da15b753a11b159ec5d8&v=4
       homepage_url: https://www.youtube.com/SECourses
       license: GPL-3.0
-      repo_pushed_at: "2026-03-18T03:20:44Z"
-      repo_updated_at: "2026-03-18T03:20:48Z"
+      repo_pushed_at: '2026-03-18T03:20:44Z'
+      repo_updated_at: '2026-03-18T03:20:48Z'
       html_url: https://github.com/FurkanGozukara/Stable-Diffusion
       default_branch: main
       latest_release: null
@@ -2552,7 +2552,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-10T03:56:39.644Z"
+      classified_at: '2026-03-10T03:56:39.644Z'
       prompt_version: v3
   - repo: kaito-tokyo/live-backgroundremoval-lite
     categories:
@@ -2564,7 +2564,7 @@ repositories:
       - lang:c
     summary: A high-performance, crash-resistant OBS plugin for real-time background removal. Optimized for minimal CPU/GPU usage without a green screen.
     last_synced_sha: 775c1696df06e92f678bacaf8f34743003977917
-    user_starred_at: "2026-03-09T06:39:19Z"
+    user_starred_at: '2026-03-09T06:39:19Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2590,19 +2590,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/160049919?v=4
       homepage_url: https://kaito-tokyo.github.io/live-backgroundremoval-lite/
       license: null
-      repo_pushed_at: "2026-03-18T01:17:38Z"
-      repo_updated_at: "2026-03-17T15:22:53Z"
+      repo_pushed_at: '2026-03-18T01:17:38Z'
+      repo_updated_at: '2026-03-17T15:22:53Z'
       html_url: https://github.com/kaito-tokyo/live-backgroundremoval-lite
       default_branch: main
       latest_release:
         tag: 3.9.3
-        published_at: "2026-02-26T13:01:00Z"
+        published_at: '2026-02-26T13:01:00Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-10T03:56:39.644Z"
+      classified_at: '2026-03-10T03:56:39.644Z'
       prompt_version: v3
   - repo: shihan84/obs-profile-generator
     categories:
@@ -2614,7 +2614,7 @@ repositories:
       - lang:ts
     summary: A comprehensive, self-hosted OBS Studio profile generator that works across Windows, Linux, and mac OS. Create custom OBS Studio profiles with an intuitive web interface, preset templates, and cros...
     last_synced_sha: c53116d5974304dd5cc7259113c233ae18024f06
-    user_starred_at: "2026-03-09T06:37:13Z"
+    user_starred_at: '2026-03-09T06:37:13Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2630,8 +2630,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/44726606?u=98af876581ce35708dde0cad60aece7b3d0c1d17&v=4
       homepage_url: https://obs-profile-generator.vercel.app
       license: null
-      repo_pushed_at: "2025-09-08T13:31:19Z"
-      repo_updated_at: "2026-03-09T06:37:14Z"
+      repo_pushed_at: '2025-09-08T13:31:19Z'
+      repo_updated_at: '2026-03-09T06:37:14Z'
       html_url: https://github.com/shihan84/obs-profile-generator
       default_branch: main
       latest_release: null
@@ -2640,7 +2640,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-10T03:56:39.644Z"
+      classified_at: '2026-03-10T03:56:39.644Z'
       prompt_version: v3
   - repo: areeba0/Image-Segmentation-with-Lazy-Snapping-and-K-Means-Clustering
     categories:
@@ -2652,7 +2652,7 @@ repositories:
       - lang:jupyter-notebook
     summary: This Jupyter notebook demonstrates image segmentation using Lazy Snapping and K-Means Clustering. It showcases how these algorithms can partition an image into segments based on pixel intensity and...
     last_synced_sha: f1b4fb3dab8dd259b8f571f6ee859d9401a21af0
-    user_starred_at: "2026-03-09T05:23:41Z"
+    user_starred_at: '2026-03-09T05:23:41Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2678,8 +2678,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/136759791?u=1e8005d0bcbb5e62c0bf3757da0680f56cb5103c&v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2024-06-17T21:23:41Z"
-      repo_updated_at: "2026-03-09T05:23:42Z"
+      repo_pushed_at: '2024-06-17T21:23:41Z'
+      repo_updated_at: '2026-03-09T05:23:42Z'
       html_url: https://github.com/areeba0/Image-Segmentation-with-Lazy-Snapping-and-K-Means-Clustering
       default_branch: main
       latest_release: null
@@ -2688,7 +2688,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-10T03:56:39.644Z"
+      classified_at: '2026-03-10T03:56:39.644Z'
       prompt_version: v3
   - repo: jsegov/autoresearch-win-rtx
     categories:
@@ -2701,7 +2701,7 @@ repositories:
       - lang:python
     summary: AI agents running research on single-GPU nanochat training automatically
     last_synced_sha: a4123c6e5c6287f90be04026642ba20b94e424df
-    user_starred_at: "2026-03-10T05:50:13Z"
+    user_starred_at: '2026-03-10T05:50:13Z'
     readme_quality: missing
     needs_review: false
     fork: true
@@ -2714,8 +2714,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/94094853?u=258915ecf82018545ece32be6918c7f1577881c2&v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2026-03-14T17:47:24Z"
-      repo_updated_at: "2026-03-18T02:02:28Z"
+      repo_pushed_at: '2026-03-14T17:47:24Z'
+      repo_updated_at: '2026-03-18T02:02:28Z'
       html_url: https://github.com/jsegov/autoresearch-win-rtx
       default_branch: master
       latest_release: null
@@ -2724,7 +2724,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-11T03:53:17.224Z"
+      classified_at: '2026-03-11T03:53:17.224Z'
       prompt_version: v3
   - repo: karpathy/autoresearch
     categories:
@@ -2737,7 +2737,7 @@ repositories:
       - lang:python
     summary: AI agents running research on single-GPU nanochat training automatically
     last_synced_sha: 32a1460f626e28479d427c033ee485bf5f86875a
-    user_starred_at: "2026-03-10T05:47:24Z"
+    user_starred_at: '2026-03-10T05:47:24Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2749,8 +2749,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/241138?u=05376db54475c3d23b3a409f4c47d14c4855dc28&v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2026-03-16T18:43:26Z"
-      repo_updated_at: "2026-03-18T03:55:30Z"
+      repo_pushed_at: '2026-03-16T18:43:26Z'
+      repo_updated_at: '2026-03-18T03:55:30Z'
       html_url: https://github.com/karpathy/autoresearch
       default_branch: master
       latest_release: null
@@ -2759,7 +2759,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-11T03:53:17.224Z"
+      classified_at: '2026-03-11T03:53:17.224Z'
       prompt_version: v3
   - repo: zotero/zotero
     categories:
@@ -2771,7 +2771,7 @@ repositories:
       - lang:js
     summary: Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.
     last_synced_sha: d20cac39c9f53ef01a9a9ea764744f23bffcef21
-    user_starred_at: "2026-03-12T07:09:49Z"
+    user_starred_at: '2026-03-12T07:09:49Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2783,8 +2783,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/891917?v=4
       homepage_url: https://www.zotero.org
       license: NOASSERTION
-      repo_pushed_at: "2026-03-17T18:28:58Z"
-      repo_updated_at: "2026-03-17T23:34:52Z"
+      repo_pushed_at: '2026-03-17T18:28:58Z'
+      repo_updated_at: '2026-03-17T23:34:52Z'
       html_url: https://github.com/zotero/zotero
       default_branch: main
       latest_release: null
@@ -2793,7 +2793,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-13T05:16:58.413Z"
+      classified_at: '2026-03-13T05:16:58.413Z'
       prompt_version: v3
   - repo: Brainicism/bgutil-ytdlp-pot-provider
     categories:
@@ -2807,7 +2807,7 @@ repositories:
       - lang:ts
     summary: Proof-of-origin token provider plugin for yt-dlp
     last_synced_sha: 6b497de5a6cbaf106bd94a934c5d2794c3fdf8bb
-    user_starred_at: "2026-03-15T20:57:43Z"
+    user_starred_at: '2026-03-15T20:57:43Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2822,19 +2822,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/13823855?u=5b8a5f43b48ff1296c245701a125c4d78dd533af&v=4
       homepage_url: null
       license: GPL-3.0
-      repo_pushed_at: "2026-03-14T19:20:48Z"
-      repo_updated_at: "2026-03-17T21:01:23Z"
+      repo_pushed_at: '2026-03-14T19:20:48Z'
+      repo_updated_at: '2026-03-17T21:01:23Z'
       html_url: https://github.com/Brainicism/bgutil-ytdlp-pot-provider
       default_branch: master
       latest_release:
         tag: 1.3.1
-        published_at: "2026-03-07T00:28:20Z"
+        published_at: '2026-03-07T00:28:20Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-16T04:13:52.984Z"
+      classified_at: '2026-03-16T04:13:52.984Z'
       prompt_version: v3
   - repo: siyuan-note/siyuan
     categories:
@@ -2849,7 +2849,7 @@ repositories:
       - lang:ts
     summary: A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.
     last_synced_sha: fe4523fff2c84d6b06856331e735cc2938c2c5b0
-    user_starred_at: "2026-03-15T18:43:42Z"
+    user_starred_at: '2026-03-15T18:43:42Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2880,19 +2880,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/70468694?v=4
       homepage_url: https://b3log.org/siyuan
       license: AGPL-3.0
-      repo_pushed_at: "2026-03-18T01:37:29Z"
-      repo_updated_at: "2026-03-18T03:39:34Z"
+      repo_pushed_at: '2026-03-18T01:37:29Z'
+      repo_updated_at: '2026-03-18T03:39:34Z'
       html_url: https://github.com/siyuan-note/siyuan
       default_branch: master
       latest_release:
         tag: v3.6.0
-        published_at: "2026-03-13T03:43:52Z"
+        published_at: '2026-03-13T03:43:52Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-16T04:13:52.981Z"
+      classified_at: '2026-03-16T04:13:52.981Z'
       prompt_version: v3
   - repo: PaddlePaddle/PaddleX
     categories:
@@ -2906,7 +2906,7 @@ repositories:
       - lang:python
     summary: All-in-One Development Tool based on Paddle Paddle
     last_synced_sha: 41b695b2effe897b7aaaad7cbaf869b5939aaa30
-    user_starred_at: "2026-03-15T18:43:19Z"
+    user_starred_at: '2026-03-15T18:43:19Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2930,19 +2930,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/23534030?v=4
       homepage_url: https://paddlepaddle.github.io/PaddleX/
       license: Apache-2.0
-      repo_pushed_at: "2026-03-13T15:30:19Z"
-      repo_updated_at: "2026-03-17T06:33:16Z"
+      repo_pushed_at: '2026-03-13T15:30:19Z'
+      repo_updated_at: '2026-03-17T06:33:16Z'
       html_url: https://github.com/PaddlePaddle/PaddleX
       default_branch: release/3.4
       latest_release:
         tag: v3.4.2
-        published_at: "2026-02-13T06:34:35Z"
+        published_at: '2026-02-13T06:34:35Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-16T04:13:52.981Z"
+      classified_at: '2026-03-16T04:13:52.981Z'
       prompt_version: v3
   - repo: docker/docker-credential-helpers
     categories:
@@ -2954,7 +2954,7 @@ repositories:
       - lang:go
     summary: Programs to keep Docker login credentials safe by storing in platform keystores
     last_synced_sha: 955f6c518d3f1901c7391a91af22550d36cd622d
-    user_starred_at: "2026-03-17T02:33:03Z"
+    user_starred_at: '2026-03-17T02:33:03Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -2966,19 +2966,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/5429470?v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-16T10:13:22Z"
-      repo_updated_at: "2026-03-17T02:33:04Z"
+      repo_pushed_at: '2026-03-16T10:13:22Z'
+      repo_updated_at: '2026-03-17T02:33:04Z'
       html_url: https://github.com/docker/docker-credential-helpers
       default_branch: main
       latest_release:
         tag: v0.9.5
-        published_at: "2026-01-08T17:01:31Z"
+        published_at: '2026-01-08T17:01:31Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-17T04:37:40.743Z"
+      classified_at: '2026-03-17T04:37:40.743Z'
       prompt_version: v3
   - repo: microsoft/beachball
     categories:
@@ -2990,7 +2990,7 @@ repositories:
       - lang:ts
     summary: The Sunniest Semantic Version Bumper
     last_synced_sha: 5f00fd45ce76652e74685e5cb738c07c4d946fb9
-    user_starred_at: "2026-03-16T21:31:33Z"
+    user_starred_at: '2026-03-16T21:31:33Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -3007,8 +3007,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/6154722?v=4
       homepage_url: https://microsoft.github.io/beachball
       license: MIT
-      repo_pushed_at: "2026-03-15T09:26:32Z"
-      repo_updated_at: "2026-03-16T21:31:34Z"
+      repo_pushed_at: '2026-03-15T09:26:32Z'
+      repo_updated_at: '2026-03-16T21:31:34Z'
       html_url: https://github.com/microsoft/beachball
       default_branch: main
       latest_release: null
@@ -3017,7 +3017,7 @@ repositories:
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-17T04:37:40.743Z"
+      classified_at: '2026-03-17T04:37:40.743Z'
       prompt_version: v3
   - repo: changesets/changesets
     categories:
@@ -3027,9 +3027,9 @@ repositories:
       - versioning
       - changelogs
       - lang:ts
-    summary: "\U0001F98B A way to manage your versioning and changelogs with a focus on monorepos"
+    summary: 🦋 A way to manage your versioning and changelogs with a focus on monorepos
     last_synced_sha: 3ab4d8928ce3c4d4f4e3d1b09be91ec0a1315bc0
-    user_starred_at: "2026-03-16T20:57:12Z"
+    user_starred_at: '2026-03-16T20:57:12Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -3041,19 +3041,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/51163350?v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-16T16:38:15Z"
-      repo_updated_at: "2026-03-18T00:13:31Z"
+      repo_pushed_at: '2026-03-16T16:38:15Z'
+      repo_updated_at: '2026-03-18T00:13:31Z'
       html_url: https://github.com/changesets/changesets
       default_branch: main
       latest_release:
         tag: '@changesets/cli@2.30.0'
-        published_at: "2026-03-03T10:21:37Z"
+        published_at: '2026-03-03T10:21:37Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-17T04:37:40.743Z"
+      classified_at: '2026-03-17T04:37:40.743Z'
       prompt_version: v3
   - repo: verdaccio/verdaccio
     categories:
@@ -3065,7 +3065,7 @@ repositories:
       - lang:ts
     summary: A lightweight Node.js private proxy registry
     last_synced_sha: d5f805bc244bd1ad85a9839ab372686b6cec385b
-    user_starred_at: "2026-03-16T20:40:17Z"
+    user_starred_at: '2026-03-16T20:40:17Z'
     readme_quality: missing
     needs_review: false
     github_metadata:
@@ -3091,19 +3091,19 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/18487506?v=4
       homepage_url: https://www.verdaccio.org/
       license: MIT
-      repo_pushed_at: "2026-03-16T21:58:23Z"
-      repo_updated_at: "2026-03-17T23:14:02Z"
+      repo_pushed_at: '2026-03-16T21:58:23Z'
+      repo_updated_at: '2026-03-17T23:14:02Z'
       html_url: https://github.com/verdaccio/verdaccio
       default_branch: master
       latest_release:
         tag: v6.3.2
-        published_at: "2026-03-14T17:06:10Z"
+        published_at: '2026-03-14T17:06:10Z'
       is_mirror: false
       mirror_url: null
     framework: null
     ai_classification:
       model: gpt-4o
-      classified_at: "2026-03-17T04:37:40.743Z"
+      classified_at: '2026-03-17T04:37:40.743Z'
       prompt_version: v3
   - repo: googleworkspace/cli
     categories:
@@ -3111,7 +3111,7 @@ repositories:
     tags: []
     summary: Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
     last_synced_sha: 6e4daaf4f9be25687485cdf63c41ea9db5466272
-    user_starred_at: "2026-03-18T03:11:29Z"
+    user_starred_at: '2026-03-18T03:11:29Z'
     readme_quality: missing
     needs_review: true
     github_metadata:
@@ -3139,22 +3139,23 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/3708359?v=4
       homepage_url: https://developers.google.com/workspace
       license: Apache-2.0
-      repo_pushed_at: "2026-03-17T23:18:33Z"
-      repo_updated_at: "2026-03-18T03:46:00Z"
+      repo_pushed_at: '2026-03-17T23:18:33Z'
+      repo_updated_at: '2026-03-18T03:46:00Z'
       html_url: https://github.com/googleworkspace/cli
       default_branch: main
       latest_release:
         tag: v0.17.0
-        published_at: "2026-03-17T20:33:43Z"
+        published_at: '2026-03-17T20:33:43Z'
       is_mirror: false
       mirror_url: null
+    framework: null
   - repo: sproutmaster/nyuprinters
     categories:
       - unclassified
     tags: []
     summary: An application to help students find working printers on the NYU campus
     last_synced_sha: 131744c220dac7ac11931c97d54118d3386b2456
-    user_starred_at: "2026-03-18T03:03:24Z"
+    user_starred_at: '2026-03-18T03:03:24Z'
     readme_quality: missing
     needs_review: true
     github_metadata:
@@ -3168,20 +3169,21 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/67924667?u=458af85d405c48eac4b996754157756fd535cc6b&v=4
       homepage_url: https://nyuprinters.com/
       license: MIT
-      repo_pushed_at: "2024-05-19T18:34:12Z"
-      repo_updated_at: "2026-03-18T03:03:25Z"
+      repo_pushed_at: '2024-05-19T18:34:12Z'
+      repo_updated_at: '2026-03-18T03:03:25Z'
       html_url: https://github.com/sproutmaster/nyuprinters
       default_branch: main
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
   - repo: xtieume/PrinterOne
     categories:
       - unclassified
     tags: []
     summary: A comprehensive TCP network print server with integrated GUI management and system tray support for Windows.
     last_synced_sha: 47934437b74810a92c91cbb815b416990554f42e
-    user_starred_at: "2026-03-18T03:00:12Z"
+    user_starred_at: '2026-03-18T03:00:12Z'
     readme_quality: missing
     needs_review: true
     github_metadata:
@@ -3198,22 +3200,23 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/107537167?u=8410d88c81e18dd72c5744ea46189590ea5a3437&v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2025-08-05T09:19:37Z"
-      repo_updated_at: "2026-03-18T03:00:13Z"
+      repo_pushed_at: '2025-08-05T09:19:37Z'
+      repo_updated_at: '2026-03-18T03:00:13Z'
       html_url: https://github.com/xtieume/PrinterOne
       default_branch: master
       latest_release:
         tag: v1.0.1
-        published_at: "2025-08-05T06:27:01Z"
+        published_at: '2025-08-05T06:27:01Z'
       is_mirror: false
       mirror_url: null
+    framework: null
   - repo: atefe-aa/silent-print
     categories:
       - unclassified
     tags: []
     summary: A lightweight Windows background service that exposes a local HTTP API so web apps can print HTML silently — no browser print dialog, no user interruption. Perfect for barcode label printing, recei...
     last_synced_sha: 85cc7ce91ee110507ada1eab7017ef19bc2e4d0e
-    user_starred_at: "2026-03-18T02:59:28Z"
+    user_starred_at: '2026-03-18T02:59:28Z'
     readme_quality: missing
     needs_review: true
     github_metadata:
@@ -3231,20 +3234,21 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/134273799?u=fa8c8fa0112330240a18a591a1ef7e43af57e1fb&v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2026-02-27T18:33:19Z"
-      repo_updated_at: "2026-03-18T02:59:29Z"
+      repo_pushed_at: '2026-02-27T18:33:19Z'
+      repo_updated_at: '2026-03-18T02:59:29Z'
       html_url: https://github.com/atefe-aa/silent-print
       default_branch: main
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
   - repo: 5a9awneh/printer-address-book-converter
     categories:
       - unclassified
     tags: []
     summary: Universal printer address book converter with intelligent format detection. Supports multifunction printers using Canon, Sharp, Xerox, and Develop/Konica CSV formats. Features fuzzy deduplication, ...
     last_synced_sha: 53bad6876d2d732660890c151fbad62b10346355
-    user_starred_at: "2026-03-18T02:59:20Z"
+    user_starred_at: '2026-03-18T02:59:20Z'
     readme_quality: missing
     needs_review: true
     github_metadata:
@@ -3273,20 +3277,21 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/105069363?u=a1ecbcd18d5ca1b7d5945e68ad794f13b342ffae&v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-01-29T15:16:35Z"
-      repo_updated_at: "2026-03-18T02:59:21Z"
+      repo_pushed_at: '2026-01-29T15:16:35Z'
+      repo_updated_at: '2026-03-18T02:59:21Z'
       html_url: https://github.com/5a9awneh/printer-address-book-converter
       default_branch: main
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
   - repo: lcromer97/PrinterManager
     categories:
       - unclassified
     tags: []
     summary: All in one tool to manage printers. Meant to be used with Screen Connect's backstage
     last_synced_sha: 2e74c0b4093458f88b2655f28eda8d72b085a980
-    user_starred_at: "2026-03-18T02:59:10Z"
+    user_starred_at: '2026-03-18T02:59:10Z'
     readme_quality: missing
     needs_review: true
     github_metadata:
@@ -3304,20 +3309,21 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/194954714?v=4
       homepage_url: null
       license: Apache-2.0
-      repo_pushed_at: "2026-02-20T13:26:45Z"
-      repo_updated_at: "2026-03-18T02:59:10Z"
+      repo_pushed_at: '2026-02-20T13:26:45Z'
+      repo_updated_at: '2026-03-18T02:59:10Z'
       html_url: https://github.com/lcromer97/PrinterManager
       default_branch: main
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
   - repo: doomspork/printergeist
     categories:
       - unclassified
     tags: []
     summary: No description provided
     last_synced_sha: 3e2b69fa8452148ab2dc0bd1a5ef764f1bd56be6
-    user_starred_at: "2026-03-18T02:58:56Z"
+    user_starred_at: '2026-03-18T02:58:56Z'
     readme_quality: missing
     needs_review: true
     github_metadata:
@@ -3332,20 +3338,21 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/73386?u=47c95dacadeb51809b0d8268b9309adefb7ff6be&v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2024-06-14T22:41:10Z"
-      repo_updated_at: "2026-03-18T02:58:57Z"
+      repo_pushed_at: '2024-06-14T22:41:10Z'
+      repo_updated_at: '2026-03-18T02:58:57Z'
       html_url: https://github.com/doomspork/printergeist
       default_branch: main
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
   - repo: basillal/TrackNPrint
     categories:
       - unclassified
     tags: []
     summary: Track NPrint is a full-stack application designed to manage and monitor bulk printing jobs with real-time tracking. It enables seamless coordination between a frontend dashboard and backend printin...
     last_synced_sha: eb6ba96aeedee6f4b4b88e51c474a4680d4824c0
-    user_starred_at: "2026-03-18T02:58:35Z"
+    user_starred_at: '2026-03-18T02:58:35Z'
     readme_quality: missing
     needs_review: true
     github_metadata:
@@ -3358,20 +3365,21 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/112262693?u=07dbf3fddad17c172a4588ac44443149dfda9bb8&v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2025-07-10T04:40:15Z"
-      repo_updated_at: "2026-03-18T02:58:35Z"
+      repo_pushed_at: '2025-07-10T04:40:15Z'
+      repo_updated_at: '2026-03-18T02:58:35Z'
       html_url: https://github.com/basillal/TrackNPrint
       default_branch: main
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
   - repo: YakirOren/Print-Center
     categories:
       - unclassified
     tags: []
     summary: Printer management dashboard and IPP proxy with print job rules and actions.
     last_synced_sha: f8991e0c28f2b63d9f82214e9a88811c1431668f
-    user_starred_at: "2026-03-18T02:58:17Z"
+    user_starred_at: '2026-03-18T02:58:17Z'
     readme_quality: missing
     needs_review: true
     github_metadata:
@@ -3387,20 +3395,21 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/39521848?u=d2c7c76db823ee5c649aef3d142927ef2d2f3f54&v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2025-12-25T14:24:51Z"
-      repo_updated_at: "2026-03-18T02:58:18Z"
+      repo_pushed_at: '2025-12-25T14:24:51Z'
+      repo_updated_at: '2026-03-18T02:58:18Z'
       html_url: https://github.com/YakirOren/Print-Center
       default_branch: main
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
   - repo: epixoul/Inkoray-GUI
     categories:
       - unclassified
     tags: []
     summary: A GUI/cmd base software to control any type of printer (laser, inkjet, thermal, POS, etc.) and create custom templates and patterns!
     last_synced_sha: 947439cbd41356f925fc0bc8e9ade8ecb79257c9
-    user_starred_at: "2026-03-18T02:57:32Z"
+    user_starred_at: '2026-03-18T02:57:32Z'
     readme_quality: missing
     needs_review: true
     github_metadata:
@@ -3413,20 +3422,21 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/164069199?u=30859825eb006e2a091f18d9cd3c9a03143fa633&v=4
       homepage_url: https://epixoul.art
       license: BSD-3-Clause
-      repo_pushed_at: "2025-01-24T13:03:37Z"
-      repo_updated_at: "2026-03-18T02:57:33Z"
+      repo_pushed_at: '2025-01-24T13:03:37Z'
+      repo_updated_at: '2026-03-18T02:57:33Z'
       html_url: https://github.com/epixoul/Inkoray-GUI
       default_branch: main-shank
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
   - repo: Foyerr/Update-PrinterPortConfig
     categories:
       - unclassified
     tags: []
     summary: This repository contains Power Shell functions focused on resolving mismatches between printer ports and their actual IP addresses in Windows Servers
     last_synced_sha: b24c9042cac6b960509308c152b6dd23403279c4
-    user_starred_at: "2026-03-18T02:57:12Z"
+    user_starred_at: '2026-03-18T02:57:12Z'
     readme_quality: missing
     needs_review: true
     github_metadata:
@@ -3441,20 +3451,21 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/43224440?u=80d99d1b5001a9033bbd36fbbaae12e6d7cdbb33&v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2023-10-30T00:05:26Z"
-      repo_updated_at: "2026-03-18T02:57:12Z"
+      repo_pushed_at: '2023-10-30T00:05:26Z'
+      repo_updated_at: '2026-03-18T02:57:12Z'
       html_url: https://github.com/Foyerr/Update-PrinterPortConfig
       default_branch: main
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
   - repo: ipat8/cmd-printer-management
     categories:
       - unclassified
     tags: []
     summary: Manage WSD Printers via CMD scripts
     last_synced_sha: 5be3755ae86bf60486a09994d7314acb93bf5ffb
-    user_starred_at: "2026-03-18T02:56:11Z"
+    user_starred_at: '2026-03-18T02:56:11Z'
     readme_quality: missing
     needs_review: true
     github_metadata:
@@ -3477,22 +3488,23 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/8889233?v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2017-09-06T16:34:08Z"
-      repo_updated_at: "2026-03-18T02:56:12Z"
+      repo_pushed_at: '2017-09-06T16:34:08Z'
+      repo_updated_at: '2026-03-18T02:56:12Z'
       html_url: https://github.com/ipat8/cmd-printer-management
       default_branch: master
       latest_release:
         tag: V1.0
-        published_at: "2017-09-06T16:34:08Z"
+        published_at: '2017-09-06T16:34:08Z'
       is_mirror: false
       mirror_url: null
+    framework: null
   - repo: cityssm/snmp-oid-collector
     categories:
       - unclassified
     tags: []
     summary: Collect OID values from a series of SNMP-enabled servers in a flash!
     last_synced_sha: 6fbbcf2ce4be54b28fd6cd0c8608f1ba68d7c338
-    user_starred_at: "2026-03-18T02:55:46Z"
+    user_starred_at: '2026-03-18T02:55:46Z'
     readme_quality: missing
     needs_review: true
     github_metadata:
@@ -3507,22 +3519,23 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/34131810?v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-02-02T17:03:56Z"
-      repo_updated_at: "2026-03-18T02:55:47Z"
+      repo_pushed_at: '2026-02-02T17:03:56Z'
+      repo_updated_at: '2026-03-18T02:55:47Z'
       html_url: https://github.com/cityssm/snmp-oid-collector
       default_branch: main
       latest_release:
         tag: v1.1.0
-        published_at: "2025-10-02T18:54:40Z"
+        published_at: '2025-10-02T18:54:40Z'
       is_mirror: false
       mirror_url: null
+    framework: null
   - repo: milliytech/printer-service
     categories:
       - unclassified
     tags: []
-    summary: "\U0001F535Python-based service to scan, copy, and print documents with configurable printer settings."
+    summary: 🔵Python-based service to scan, copy, and print documents with configurable printer settings.
     last_synced_sha: f2aafa4aac492de754a0b92e7de5c7c29a5984c1
-    user_starred_at: "2026-03-18T02:55:34Z"
+    user_starred_at: '2026-03-18T02:55:34Z'
     readme_quality: missing
     needs_review: true
     github_metadata:
@@ -3538,22 +3551,27 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/197270281?v=4
       homepage_url: https://jahongirhakimjonov.github.io/printer-service/
       license: MIT
-      repo_pushed_at: "2025-05-06T10:26:42Z"
-      repo_updated_at: "2026-03-18T02:55:34Z"
+      repo_pushed_at: '2025-05-06T10:26:42Z'
+      repo_updated_at: '2026-03-18T02:55:34Z'
       html_url: https://github.com/milliytech/printer-service
       default_branch: main
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
   - repo: Yayi-Dev/esc-pos-printer-manager
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - printer-management
+      - esc-pos
+      - lang:php
     summary: A plugin to manage ESC/POS printers via node.js (javascript / typescript) without using zadig (Win USBDriver)
     last_synced_sha: ace360a9f97a0824a6eacc8aa07cba3b53db3155
-    user_starred_at: "2026-03-18T02:54:17Z"
+    user_starred_at: '2026-03-18T02:54:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -3571,24 +3589,33 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/212777653?v=4
       homepage_url: https://escpos-printermanager.netlify.app/
       license: null
-      repo_pushed_at: "2024-07-29T17:35:28Z"
-      repo_updated_at: "2026-03-18T02:54:18Z"
+      repo_pushed_at: '2024-07-29T17:35:28Z'
+      repo_updated_at: '2026-03-18T02:54:18Z'
       html_url: https://github.com/Yayi-Dev/esc-pos-printer-manager
       default_branch: main
       latest_release:
         tag: v1.0.0
-        published_at: "2024-05-24T22:28:22Z"
+        published_at: '2024-05-24T22:28:22Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.776Z'
+      prompt_version: v3
   - repo: dot-billy/nodebyte
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - digital-inventory
+      - data-management
+      - lang:ts
     summary: Nodebyte - your digital inventory
     last_synced_sha: 51d27af3ed47536dca549e9889668e4e81f70f71
-    user_starred_at: "2026-03-18T02:09:28Z"
+    user_starred_at: '2026-03-18T02:09:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -3598,22 +3625,31 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/90583512?v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-02T02:36:28Z"
-      repo_updated_at: "2026-03-18T03:16:34Z"
+      repo_pushed_at: '2026-03-02T02:36:28Z'
+      repo_updated_at: '2026-03-18T03:16:34Z'
       html_url: https://github.com/dot-billy/nodebyte
       default_branch: master
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.776Z'
+      prompt_version: v3
   - repo: zhangxilong-43/SecurePdfViewerForReact
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - security
+    tags:
+      - secure-pdf-viewer
+      - xss-prevention
+      - lang:ts
     summary: A secure PDF viewer component for React. Uses canvas-only rendering to prevent XSS attacks from malicious PDF files.
     last_synced_sha: b8445594540969f24837a71a72758831ddc497cd
-    user_starred_at: "2026-03-18T02:08:36Z"
+    user_starred_at: '2026-03-18T02:08:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -3623,22 +3659,31 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/65009690?u=ae977611f94e93f010d4c38f0f7ca82d7b62932e&v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-17T05:02:48Z"
-      repo_updated_at: "2026-03-18T02:54:42Z"
+      repo_pushed_at: '2026-03-17T05:02:48Z'
+      repo_updated_at: '2026-03-18T02:54:42Z'
       html_url: https://github.com/zhangxilong-43/SecurePdfViewerForReact
       default_branch: main
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.776Z'
+      prompt_version: v3
   - repo: Lum1104/Understand-Anything
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - knowledge-graph
+      - interactive-exploration
+      - lang:ts
     summary: Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about.
     last_synced_sha: e1c3b901c928ae2c0a56362da3f8ccce2ec21c67
-    user_starred_at: "2026-03-18T02:07:48Z"
+    user_starred_at: '2026-03-18T02:07:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -3651,22 +3696,31 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/87774050?u=d7a90ea437e7388a89bd4130659aa4fe07eb67f6&v=4
       homepage_url: https://lum.is-a.dev/Understand-Anything/
       license: MIT
-      repo_pushed_at: "2026-03-17T06:54:59Z"
-      repo_updated_at: "2026-03-18T03:39:54Z"
+      repo_pushed_at: '2026-03-17T06:54:59Z'
+      repo_updated_at: '2026-03-18T03:39:54Z'
       html_url: https://github.com/Lum1104/Understand-Anything
       default_branch: main
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.776Z'
+      prompt_version: v3
   - repo: KnudsenMorten/SecurityInsight
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+    tags:
+      - risk-scoring
+      - secure-score
+      - lang:powershell
     summary: Rethink Secure Score into a new risk-based security risk score, based on consequence, probability and risk factors. Solution includes critical asset tagging, ready-to-use reports (based on Defender...
     last_synced_sha: c10e25184e7e944438ff1a5b5ed193565174f229
-    user_starred_at: "2026-03-18T02:07:36Z"
+    user_starred_at: '2026-03-18T02:07:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -3676,22 +3730,31 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/121301838?u=fe5cb13492a058866cd28a347d1c6a6bbbba7517&v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-17T08:43:11Z"
-      repo_updated_at: "2026-03-18T02:07:37Z"
+      repo_pushed_at: '2026-03-17T08:43:11Z'
+      repo_updated_at: '2026-03-18T02:07:37Z'
       html_url: https://github.com/KnudsenMorten/SecurityInsight
       default_branch: main
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.776Z'
+      prompt_version: v3
   - repo: BigBodyCobain/Shadowbroker
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+    tags:
+      - osint
+      - earthquake-visualization
+      - lang:ts
     summary: Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. The knowledge is av...
     last_synced_sha: 2812d43f4941b1f6ff07c32239845dfe9c5f9e52
-    user_starred_at: "2026-03-18T02:05:54Z"
+    user_starred_at: '2026-03-18T02:05:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -3714,24 +3777,33 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/43977454?u=f0e355a4ae6cc0cd369f2b5d0221cd9346395607&v=4
       homepage_url: null
       license: AGPL-3.0
-      repo_pushed_at: "2026-03-16T18:17:29Z"
-      repo_updated_at: "2026-03-18T03:41:54Z"
+      repo_pushed_at: '2026-03-16T18:17:29Z'
+      repo_updated_at: '2026-03-18T03:41:54Z'
       html_url: https://github.com/BigBodyCobain/Shadowbroker
       default_branch: main
       latest_release:
         tag: v0.9.5
-        published_at: "2026-03-14T19:51:39Z"
+        published_at: '2026-03-14T19:51:39Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.776Z'
+      prompt_version: v3
   - repo: aiming-lab/AutoResearchClaw
     categories:
-      - unclassified
-    tags: []
-    summary: "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. \U0001F99E"
+      - ai-ml
+      - productivity
+    tags:
+      - autonomous-research
+      - paper-generation
+      - lang:python
+    summary: Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞
     last_synced_sha: 334748182dad251c74e769a1ca008cea9fb4b78e
-    user_starred_at: "2026-03-18T02:05:42Z"
+    user_starred_at: '2026-03-18T02:05:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -3750,24 +3822,33 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/186755503?v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-18T00:32:35Z"
-      repo_updated_at: "2026-03-18T03:56:18Z"
+      repo_pushed_at: '2026-03-18T00:32:35Z'
+      repo_updated_at: '2026-03-18T03:56:18Z'
       html_url: https://github.com/aiming-lab/AutoResearchClaw
       default_branch: main
       latest_release:
         tag: v0.3.0
-        published_at: "2026-03-17T13:50:30Z"
+        published_at: '2026-03-17T13:50:30Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.776Z'
+      prompt_version: v3
   - repo: sergelib/sitemap-visualizer
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - learning
+    tags:
+      - visualization
+      - sitemaps
+      - lang:js
     summary: An interactive D3.js visualization tool to explore XML sitemaps as navigable tree and sunburst hierarchies
     last_synced_sha: 13f18a8637fa45eac6048df77def5502d7a6c812
-    user_starred_at: "2026-03-18T02:05:17Z"
+    user_starred_at: '2026-03-18T02:05:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -3777,22 +3858,31 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/192110816?v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-01-28T15:14:25Z"
-      repo_updated_at: "2026-03-18T02:05:18Z"
+      repo_pushed_at: '2026-01-28T15:14:25Z'
+      repo_updated_at: '2026-03-18T02:05:18Z'
       html_url: https://github.com/sergelib/sitemap-visualizer
       default_branch: main
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.776Z'
+      prompt_version: v3
   - repo: 0x6d69636b/windows_hardening
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - windows-hardening
+      - audit
+      - lang:powershell
     summary: Hardening Kitty and Windows Hardening Settings
     last_synced_sha: 96bbe96d67f380d90801c07ea7cf65d0891e99db
-    user_starred_at: "2026-03-18T01:25:02Z"
+    user_starred_at: '2026-03-18T01:25:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -3821,24 +3911,33 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/13913706?u=90fb7254092fe0027586c0e9fbedac73f6e5fd54&v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-16T10:17:16Z"
-      repo_updated_at: "2026-03-18T01:25:03Z"
+      repo_pushed_at: '2026-03-16T10:17:16Z'
+      repo_updated_at: '2026-03-18T01:25:03Z'
       html_url: https://github.com/0x6d69636b/windows_hardening
       default_branch: master
       latest_release:
         tag: v.0.9.3
-        published_at: "2024-12-23T10:18:26Z"
+        published_at: '2024-12-23T10:18:26Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.776Z'
+      prompt_version: v3
   - repo: dragonflyoss/dragonfly
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - networking
+    tags:
+      - p2p
+      - data-distribution
+      - lang:go
     summary: Delivers efficient, stable, and secure data distribution and acceleration powered by P2P technology, with an optional content‑addressable filesystem that accelerates OCI container launch.
     last_synced_sha: b20986881064644421656bbf8c8b449ef51ff8ab
-    user_starred_at: "2026-03-18T01:22:46Z"
+    user_starred_at: '2026-03-18T01:22:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -3855,24 +3954,33 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/44993420?v=4
       homepage_url: https://d7y.io
       license: Apache-2.0
-      repo_pushed_at: "2026-03-18T02:45:04Z"
-      repo_updated_at: "2026-03-18T01:22:47Z"
+      repo_pushed_at: '2026-03-18T02:45:04Z'
+      repo_updated_at: '2026-03-18T01:22:47Z'
       html_url: https://github.com/dragonflyoss/dragonfly
       default_branch: main
       latest_release:
         tag: v2.4.3
-        published_at: "2026-03-11T15:49:05Z"
+        published_at: '2026-03-11T15:49:05Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.775Z'
+      prompt_version: v3
   - repo: node-config/node-config
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - deployment
+    tags:
+      - configuration
+      - application-settings
+      - lang:js
     summary: Node.js Application Configuration
     last_synced_sha: 31e8afb9a65975a359d6930c346007032486096f
-    user_starred_at: "2026-03-18T01:21:07Z"
+    user_starred_at: '2026-03-18T01:21:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -3888,24 +3996,33 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/99444831?v=4
       homepage_url: null
       license: NOASSERTION
-      repo_pushed_at: "2026-03-17T21:23:17Z"
-      repo_updated_at: "2026-03-18T01:21:07Z"
+      repo_pushed_at: '2026-03-17T21:23:17Z'
+      repo_updated_at: '2026-03-18T01:21:07Z'
       html_url: https://github.com/node-config/node-config
       default_branch: master
       latest_release:
         tag: v4.4.1
-        published_at: "2026-02-25T23:22:32Z"
+        published_at: '2026-02-25T23:22:32Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.775Z'
+      prompt_version: v3
   - repo: ChristopherHX/github-act-runner
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - automation
+    tags:
+      - github-actions
+      - self-hosted
+      - lang:go
     summary: act as self-hosted runner
     last_synced_sha: 7aa5ae494616d12f5760f9ca3def78bf06058c91
-    user_starred_at: "2026-03-18T00:15:27Z"
+    user_starred_at: '2026-03-18T00:15:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -3926,24 +4043,34 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/44845461?v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-07T20:35:41Z"
-      repo_updated_at: "2026-03-18T00:15:27Z"
+      repo_pushed_at: '2026-03-07T20:35:41Z'
+      repo_updated_at: '2026-03-18T00:15:27Z'
       html_url: https://github.com/ChristopherHX/github-act-runner
       default_branch: main
       latest_release:
         tag: v0.13.0
-        published_at: "2026-01-23T21:20:28Z"
+        published_at: '2026-01-23T21:20:28Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.775Z'
+      prompt_version: v3
   - repo: ChristopherHX/runner.server
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - automation
+    tags:
+      - ci
+      - github-actions
+      - azure-devops
+      - lang:csharp
     summary: An unofficial Local Git Hub Actions and Azure Pipelines Emulator
     last_synced_sha: 372fc967687765119d84aaba66e84e3bd2ea40bd
-    user_starred_at: "2026-03-18T00:15:15Z"
+    user_starred_at: '2026-03-18T00:15:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C#
@@ -3964,24 +4091,33 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/44845461?v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-16T08:03:02Z"
-      repo_updated_at: "2026-03-18T00:15:15Z"
+      repo_pushed_at: '2026-03-16T08:03:02Z'
+      repo_updated_at: '2026-03-18T00:15:15Z'
       html_url: https://github.com/ChristopherHX/runner.server
       default_branch: main
       latest_release:
         tag: v3.14.0
-        published_at: "2026-01-24T16:01:12Z"
+        published_at: '2026-01-24T16:01:12Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.775Z'
+      prompt_version: v3
   - repo: zumwald/better-vsts-npm-auth
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - npm-auth
+      - token-management
+      - lang:ts
     summary: Platform agnostic library and acompanying oauth service enabling developers to easily obtain and use tokens for authorizing NPM feeds in VSTS
     last_synced_sha: 7a1dffc8c1cb20eb756e3d8bc33da011748d6ca0
-    user_starred_at: "2026-03-17T23:13:48Z"
+    user_starred_at: '2026-03-17T23:13:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -3991,22 +4127,31 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/2736712?u=d0510c94141423c52935aa762474fb2e0f8e53ef&v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2024-07-26T10:47:40Z"
-      repo_updated_at: "2026-03-17T23:13:48Z"
+      repo_pushed_at: '2024-07-26T10:47:40Z'
+      repo_updated_at: '2026-03-17T23:13:48Z'
       html_url: https://github.com/zumwald/better-vsts-npm-auth
       default_branch: main
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.775Z'
+      prompt_version: v3
   - repo: changesets/ghcommit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - file-editing
+      - github
+      - lang:ts
     summary: Type Script library for directly changing files on Git Hub
     last_synced_sha: 1723769e9c979d2ca750c8d239414ac560c61e30
-    user_starred_at: "2026-03-17T04:46:44Z"
+    user_starred_at: '2026-03-17T04:46:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -4016,12 +4161,17 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/51163350?v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-01-27T21:51:34Z"
-      repo_updated_at: "2026-03-17T04:46:44Z"
+      repo_pushed_at: '2026-01-27T21:51:34Z'
+      repo_updated_at: '2026-03-17T04:46:44Z'
       html_url: https://github.com/changesets/ghcommit
       default_branch: main
       latest_release:
         tag: v2.0.1
-        published_at: "2026-01-27T18:08:11Z"
+        published_at: '2026-01-27T18:08:11Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:58:33.775Z'
+      prompt_version: v3
