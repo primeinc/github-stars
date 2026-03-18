@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-18T03:58:34.646Z'
+  manifest_updated_at: '2026-03-18T03:59:03.063Z'
   total_repos: 100
   generator_version: v1.0.0
   github_user: primeinc
@@ -3107,13 +3107,18 @@ repositories:
       prompt_version: v3
   - repo: googleworkspace/cli
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+      - ai-ml
+    tags:
+      - google-workspace
+      - ai-agent
+      - lang:rust
     summary: Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
     last_synced_sha: 6e4daaf4f9be25687485cdf63c41ea9db5466272
     user_starred_at: '2026-03-18T03:11:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -3149,15 +3154,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:59:02.174Z'
+      prompt_version: v3
   - repo: sproutmaster/nyuprinters
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - printer-management
+      - lang:js
+      - campus-utilities
     summary: An application to help students find working printers on the NYU campus
     last_synced_sha: 131744c220dac7ac11931c97d54118d3386b2456
     user_starred_at: '2026-03-18T03:03:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -3177,15 +3190,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:59:02.174Z'
+      prompt_version: v3
   - repo: xtieume/PrinterOne
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - printer-monitor
+      - tcp-print-server
+      - lang:python
     summary: A comprehensive TCP network print server with integrated GUI management and system tray support for Windows.
     last_synced_sha: 47934437b74810a92c91cbb815b416990554f42e
     user_starred_at: '2026-03-18T03:00:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -3210,15 +3231,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:59:02.174Z'
+      prompt_version: v3
   - repo: atefe-aa/silent-print
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - api
+      - silent-printing
+      - lang:go
     summary: A lightweight Windows background service that exposes a local HTTP API so web apps can print HTML silently — no browser print dialog, no user interruption. Perfect for barcode label printing, recei...
     last_synced_sha: 85cc7ce91ee110507ada1eab7017ef19bc2e4d0e
     user_starred_at: '2026-03-18T02:59:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -3242,15 +3271,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:59:02.174Z'
+      prompt_version: v3
   - repo: 5a9awneh/printer-address-book-converter
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - format-converter
+      - deduplication
+      - lang:powershell
     summary: Universal printer address book converter with intelligent format detection. Supports multifunction printers using Canon, Sharp, Xerox, and Develop/Konica CSV formats. Features fuzzy deduplication, ...
     last_synced_sha: 53bad6876d2d732660890c151fbad62b10346355
     user_starred_at: '2026-03-18T02:59:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -3285,15 +3322,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:59:02.174Z'
+      prompt_version: v3
   - repo: lcromer97/PrinterManager
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - winforms
+      - dotnet
+      - lang:csharp
     summary: All in one tool to manage printers. Meant to be used with Screen Connect's backstage
     last_synced_sha: 2e74c0b4093458f88b2655f28eda8d72b085a980
     user_starred_at: '2026-03-18T02:59:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -3317,15 +3362,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:59:02.174Z'
+      prompt_version: v3
   - repo: doomspork/printergeist
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - web-dev
+    tags:
+      - printer-management
+      - websockets
+      - lang:rust
     summary: No description provided
     last_synced_sha: 3e2b69fa8452148ab2dc0bd1a5ef764f1bd56be6
     user_starred_at: '2026-03-18T02:58:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -3346,15 +3399,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:59:02.174Z'
+      prompt_version: v3
   - repo: basillal/TrackNPrint
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - monitoring
+    tags:
+      - printer-management
+      - real-time-tracking
+      - lang:ts
     summary: Track NPrint is a full-stack application designed to manage and monitor bulk printing jobs with real-time tracking. It enables seamless coordination between a frontend dashboard and backend printin...
     last_synced_sha: eb6ba96aeedee6f4b4b88e51c474a4680d4824c0
     user_starred_at: '2026-03-18T02:58:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -3373,15 +3434,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:59:02.174Z'
+      prompt_version: v3
   - repo: YakirOren/Print-Center
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - printer-management
+      - ipp
+      - lang:ts
     summary: Printer management dashboard and IPP proxy with print job rules and actions.
     last_synced_sha: f8991e0c28f2b63d9f82214e9a88811c1431668f
     user_starred_at: '2026-03-18T02:58:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -3403,15 +3472,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:59:02.174Z'
+      prompt_version: v3
   - repo: epixoul/Inkoray-GUI
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - printer-management
+      - gui
+      - templates
     summary: A GUI/cmd base software to control any type of printer (laser, inkjet, thermal, POS, etc.) and create custom templates and patterns!
     last_synced_sha: 947439cbd41356f925fc0bc8e9ade8ecb79257c9
     user_starred_at: '2026-03-18T02:57:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -3430,15 +3507,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:59:02.174Z'
+      prompt_version: v3
   - repo: Foyerr/Update-PrinterPortConfig
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - printer-management
+      - windows-server
+      - powershell-functions
     summary: This repository contains Power Shell functions focused on resolving mismatches between printer ports and their actual IP addresses in Windows Servers
     last_synced_sha: b24c9042cac6b960509308c152b6dd23403279c4
     user_starred_at: '2026-03-18T02:57:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -3459,15 +3544,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:59:02.174Z'
+      prompt_version: v3
   - repo: ipat8/cmd-printer-management
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - deployment
+    tags:
+      - printer-management
+      - batch-scripts
+      - deployment
+      - lang:batchfile
     summary: Manage WSD Printers via CMD scripts
     last_synced_sha: 5be3755ae86bf60486a09994d7314acb93bf5ffb
     user_starred_at: '2026-03-18T02:56:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -3498,15 +3592,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:59:02.174Z'
+      prompt_version: v3
   - repo: cityssm/snmp-oid-collector
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - snmp
+      - oid-collection
+      - lang:ts
     summary: Collect OID values from a series of SNMP-enabled servers in a flash!
     last_synced_sha: 6fbbcf2ce4be54b28fd6cd0c8608f1ba68d7c338
     user_starred_at: '2026-03-18T02:55:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -3529,15 +3631,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:59:02.174Z'
+      prompt_version: v3
   - repo: milliytech/printer-service
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - embedded
+    tags:
+      - printer-management
+      - lang:python
+      - document-handling
     summary: 🔵Python-based service to scan, copy, and print documents with configurable printer settings.
     last_synced_sha: f2aafa4aac492de754a0b92e7de5c7c29a5984c1
     user_starred_at: '2026-03-18T02:55:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -3559,6 +3669,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-18T03:59:02.174Z'
+      prompt_version: v3
   - repo: Yayi-Dev/esc-pos-printer-manager
     categories:
       - dev-tools
