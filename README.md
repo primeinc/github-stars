@@ -1,42 +1,42 @@
 # Awesome Starred Repositories
 
-> A curated list of **2412** repositories across **25** categories, automatically classified and organized.
+> A curated list of **100** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-03-17
+Last updated: 2026-03-18
 
 ## ⭐ Recently Starred
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [docker/docker-credential-helpers](https://github.com/docker/docker-credential-helpers) | Programs to keep Docker login credentials safe by storing in platform keystores | `Go` ★ 1.3k | 2026-03-16 |
-| [microsoft/beachball](https://github.com/microsoft/beachball) | The Sunniest Semantic Version Bumper | `TypeScript` ★ 806 | 2026-03-15 |
-| [changesets/changesets](https://github.com/changesets/changesets) | 🦋 A way to manage your versioning and changelogs with a focus on monorepos | `TypeScript` ★ 11.6k | 2026-03-16 |
-| [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio) | A lightweight Node.js private proxy registry | `TypeScript` ★ 17.5k | 2026-03-16 |
-| [Brainicism/bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider) | Proof-of-origin token provider plugin for yt-dlp | `TypeScript` ★ 450 | 2026-03-14 |
-| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | `TypeScript` ★ 41.9k | 2026-03-17 |
-| [PaddlePaddle/PaddleX](https://github.com/PaddlePaddle/PaddleX) | All-in-One Development Tool based on Paddle Paddle | `Python` ★ 6.1k | 2026-03-13 |
-| [zotero/zotero](https://github.com/zotero/zotero) | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources. | `JavaScript` ★ 13.7k | 2026-03-16 |
-| [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 248 | 2026-03-14 |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 38.8k | 2026-03-16 |
+| [googleworkspace/cli](https://github.com/googleworkspace/cli) | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | `Rust` ★ 21.2k | 2026-03-17 |
+| [sproutmaster/nyuprinters](https://github.com/sproutmaster/nyuprinters) | An application to help students find working printers on the NYU campus | `JavaScript` ★ 15 | 2024-05-19 |
+| [xtieume/PrinterOne](https://github.com/xtieume/PrinterOne) | A comprehensive TCP network print server with integrated GUI management and system tray support for Windows. | `Python` ★ 49 | 2025-08-05 |
+| [atefe-aa/silent-print](https://github.com/atefe-aa/silent-print) | A lightweight Windows background service that exposes a local HTTP API so web apps can print HTML silently — no browser print dialog, no user interruption. Perfect for barcode label printing, recei... | `Go` ★ 1 | 2026-02-27 |
+| [5a9awneh/printer-address-book-converter](https://github.com/5a9awneh/printer-address-book-converter) | Universal printer address book converter with intelligent format detection. Supports multifunction printers using Canon, Sharp, Xerox, and Develop/Konica CSV formats. Features fuzzy deduplication, ... | `PowerShell` ★ 1 | 2026-01-29 |
+| [lcromer97/PrinterManager](https://github.com/lcromer97/PrinterManager) | All in one tool to manage printers. Meant to be used with Screen Connect's backstage | `C#` ★ 1 | 2026-02-20 |
+| [doomspork/printergeist](https://github.com/doomspork/printergeist) | No description provided | `Rust` ★ 1 | 2024-06-14 |
+| [basillal/TrackNPrint](https://github.com/basillal/TrackNPrint) | Track NPrint is a full-stack application designed to manage and monitor bulk printing jobs with real-time tracking. It enables seamless coordination between a frontend dashboard and backend printin... | `TypeScript` ★ 2 | 2025-07-10 |
+| [YakirOren/Print-Center](https://github.com/YakirOren/Print-Center) | Printer management dashboard and IPP proxy with print job rules and actions. | `TypeScript` ★ 2 | 2025-12-25 |
+| [epixoul/Inkoray-GUI](https://github.com/epixoul/Inkoray-GUI) | A GUI/cmd base software to control any type of printer (laser, inkjet, thermal, POS, etc.) and create custom templates and patterns! | ★ 2 | 2025-01-24 |
 
 ## 🏷️ Popular Tags
 
-[react](tags/react.md) (52) • [ai](tags/ai.md) (50) • [azure](tags/azure.md) (49) • [llm](tags/llm.md) (45) • [automation](tags/automation.md) (44) • [cli](tags/cli.md) (41) • [ai-agents](tags/ai-agents.md) (40) • [parser](tags/parser.md) (37) • [typescript](tags/typescript.md) (29) • [nextjs](tags/nextjs.md) (27) • [windows](tags/windows.md) (26) • [cross-platform](tags/cross-platform.md) (25) • [awesome-list](tags/awesome-list.md) (25) • [self-hosted](tags/self-hosted.md) (24) • [open-source](tags/open-source.md) (21) • [markdown](tags/markdown.md) (19) • [machine-learning](tags/machine-learning.md) (19) • [docker](tags/docker.md) (19) • [ai-tools](tags/ai-tools.md) (18) • [terminal](tags/terminal.md) (18) • [mcp-server](tags/mcp-server.md) (16) • [tailwindcss](tags/tailwindcss.md) (15) • [deep-learning](tags/deep-learning.md) (15) • [resources](tags/resources.md) (14) • [cli-tool](tags/cli-tool.md) (13) • [framework](tags/framework.md) (12) • [developer-tools](tags/developer-tools.md) (12) • [visualization](tags/visualization.md) (12) • [privacy](tags/privacy.md) (12) • [agents](tags/agents.md) (12)
+[text-to-speech](tags/text-to-speech.md) (7) • [voice-cloning](tags/voice-cloning.md) (4) • [ai-agents](tags/ai-agents.md) (3) • [cross-platform](tags/cross-platform.md) (3) • [nextjs](tags/nextjs.md) (3) • [speech-synthesis](tags/speech-synthesis.md) (3) • [self-hosted](tags/self-hosted.md) (2) • [encryption](tags/encryption.md) (2) • [ai](tags/ai.md) (2) • [time-series](tags/time-series.md) (2) • [real-time](tags/real-time.md) (2) • [gradio](tags/gradio.md) (2) • [ci-cd](tags/ci-cd.md) (2) • [research](tags/research.md) (2) • [single-gpu](tags/single-gpu.md) (2) • [docker](tags/docker.md) (2) • [github-actions](tags/github-actions.md) (2) • [personal-data](tags/personal-data.md) (1) • [medical-records](tags/medical-records.md) (1) • [vod](tags/vod.md) (1) • [media-packaging](tags/media-packaging.md) (1) • [hls](tags/hls.md) (1) • [genai](tags/genai.md) (1) • [curated-projects](tags/curated-projects.md) (1) • [wallpapers](tags/wallpapers.md) (1) • [color-effects](tags/color-effects.md) (1) • [gradient-generation](tags/gradient-generation.md) (1) • [calendar](tags/calendar.md) (1) • [weather](tags/weather.md) (1) • [smart-home](tags/smart-home.md) (1)
 
 <details>
 <summary>📂 All Categories (25)</summary>
 
 | | | |
 |---|---|---|
-| [unclassified](categories/unclassified.md) (934) | [ai-ml](categories/ai-ml.md) (439) | [productivity](categories/productivity.md) (429) |
-| [dev-tools](categories/dev-tools.md) (246) | [web-dev](categories/web-dev.md) (230) | [automation](categories/automation.md) (196) |
-| [ui-libraries](categories/ui-libraries.md) (177) | [system-admin](categories/system-admin.md) (170) | [security](categories/security.md) (165) |
-| [data-science](categories/data-science.md) (160) | [documentation](categories/documentation.md) (158) | [apis](categories/apis.md) (155) |
-| [cloud](categories/cloud.md) (129) | [learning](categories/learning.md) (106) | [desktop-dev](categories/desktop-dev.md) (102) |
-| [networking](categories/networking.md) (85) | [frameworks](categories/frameworks.md) (54) | [databases](categories/databases.md) (47) |
-| [monitoring](categories/monitoring.md) (41) | [game-dev](categories/game-dev.md) (39) | [testing](categories/testing.md) (36) |
-| [mobile-dev](categories/mobile-dev.md) (30) | [embedded](categories/embedded.md) (28) | [containers](categories/containers.md) (28) |
-| [deployment](categories/deployment.md) (27) |  |  |
+| [ai-ml](categories/ai-ml.md) (30) | [productivity](categories/productivity.md) (19) | [unclassified](categories/unclassified.md) (17) |
+| [security](categories/security.md) (13) | [automation](categories/automation.md) (13) | [dev-tools](categories/dev-tools.md) (12) |
+| [web-dev](categories/web-dev.md) (10) | [system-admin](categories/system-admin.md) (9) | [data-science](categories/data-science.md) (8) |
+| [ui-libraries](categories/ui-libraries.md) (7) | [learning](categories/learning.md) (6) | [apis](categories/apis.md) (6) |
+| [documentation](categories/documentation.md) (6) | [desktop-dev](categories/desktop-dev.md) (5) | [embedded](categories/embedded.md) (4) |
+| [testing](categories/testing.md) (4) | [networking](categories/networking.md) (4) | [game-dev](categories/game-dev.md) (4) |
+| [cloud](categories/cloud.md) (4) | [deployment](categories/deployment.md) (4) | [containers](categories/containers.md) (3) |
+| [frameworks](categories/frameworks.md) (2) | [mobile-dev](categories/mobile-dev.md) (2) | [monitoring](categories/monitoring.md) (2) |
+| [databases](categories/databases.md) (1) |  |  |
 
 </details>
 
