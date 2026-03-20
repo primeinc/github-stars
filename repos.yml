@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-20T04:05:08.175Z'
+  manifest_updated_at: '2026-03-20T04:05:38.674Z'
   total_repos: 499
   generator_version: v1.0.0
   github_user: primeinc
@@ -7087,13 +7087,18 @@ repositories:
     framework: null
   - repo: hausec/PowerZure
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - azure
+      - powershell
+      - infosec
+      - lang:powershell
     summary: Power Shell framework to assess Azure security
     last_synced_sha: 5d55a7505a003d15c35fe4e6949b6ee7aa8bc7bd
     user_starred_at: '2026-02-14T12:03:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -7116,15 +7121,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.621Z'
+      prompt_version: v3
   - repo: spddl/GoInterruptPolicy
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - interrupt-affinity
+      - lang:go
     summary: I just tried to create a better version of the "Interrupt Affinity Policy" and "MSI Mode" Tool
     last_synced_sha: 90455bed807c5c631fb4a3878a07227337bded57
     user_starred_at: '2026-02-11T23:22:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -7146,15 +7158,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.621Z'
+      prompt_version: v3
   - repo: adambajguz/Typin
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - dev-tools
+    tags:
+      - cli
+      - commands
+      - terminal-based
+      - lang:csharp
     summary: Declarative framework for interactive CLI applications
     last_synced_sha: 44f238654deebfb619ad2e8f5353c1afe250ccec
     user_starred_at: '2026-02-11T06:40:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -7191,15 +7212,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.621Z'
+      prompt_version: v3
   - repo: alphanome-ai/sec-parser
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - financial-data
+      - html-parser
+      - lang:python
     summary: Parse SEC EDGAR HTML documents into a tree of elements that correspond to the visual (semantic) structure of the document.
     last_synced_sha: deb0413051cb327d858eda93f5979c17d126e400
     user_starred_at: '2026-02-11T06:39:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -7237,15 +7266,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.621Z'
+      prompt_version: v3
   - repo: harshankur/officeParser
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - documentation
+    tags:
+      - office
+      - ast
+      - parser
+      - lang:rich-text-format
     summary: A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met...
     last_synced_sha: 9c6d525bb1df07c88736a3a5842f8343f18f0ac3
     user_starred_at: '2026-02-11T06:38:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rich Text Format
       topics:
@@ -7281,15 +7319,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.621Z'
+      prompt_version: v3
   - repo: ninenines/cowlib
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - web-dev
+    tags:
+      - http
+      - websocket
+      - lang:erlang
     summary: Support library for manipulating Web protocols.
     last_synced_sha: f30cc9e2fbb14705751cbe2c32895f59d91e4906
     user_starred_at: '2026-02-11T06:37:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Erlang
       topics:
@@ -7314,15 +7360,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.621Z'
+      prompt_version: v3
   - repo: AntonBergaker/InterpolatedParser
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - source-generation
+      - parser
+      - lang:csharp
     summary: Interpolated Strings but in reverse! A very cursed C# parser library.
     last_synced_sha: d6b5e84892b7d009edd4d0c465dc8c5997cfd890
     user_starred_at: '2026-02-11T06:37:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -7345,15 +7399,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.621Z'
+      prompt_version: v3
   - repo: rasendubi/uniorg
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - org-mode
+      - parser
+      - typescript
+      - nextjs
+      - lang:ts
     summary: An accurate Org-mode parser for Java Script/Type Script
     last_synced_sha: fc4e3b1105f052709c14f86d9e08d32cb17409a5
     user_starred_at: '2026-02-11T06:35:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7380,16 +7444,25 @@ repositories:
         published_at: '2025-04-11T23:58:29Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.621Z'
+      prompt_version: v3
   - repo: structuredllm/syncode
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - large-language-models
+      - grammar
+      - llm
+      - lang:python
     summary: Efficient and general syntactical decoding for Large Language Models
     last_synced_sha: 4d6c110a028d3fb9cbb5f1a6ac6446b696f3eac4
     user_starred_at: '2026-02-11T06:34:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -7414,15 +7487,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.621Z'
+      prompt_version: v3
   - repo: aykutkardas/svgps.app
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - svg-parser
+      - icons
+      - lang:ts
+      - react
+      - vue
     summary: SVGPS converts your icons into a single JSON file that is ready to use in your frontend or mobile projects.
     last_synced_sha: d5f398d3beccc2c99e8b9fdfdec041571aefe921
     user_starred_at: '2026-02-11T06:34:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7451,15 +7534,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.621Z'
+      prompt_version: v3
   - repo: likexian/whois-parser
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - dev-tools
+    tags:
+      - whois
+      - domain
+      - parser
+      - lang:go
     summary: Whois parser for domain whois information parsing in Go(Golang).
     last_synced_sha: 2426ff1e36f7540b2e0e7f69324cbe2091f5b278
     user_starred_at: '2026-02-11T06:34:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -7482,15 +7574,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.621Z'
+      prompt_version: v3
   - repo: PoiScript/orgize
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - cli
+      - org-mode
+      - parser
+      - lang:rust
     summary: A Rust library for parsing org-mode files.
     last_synced_sha: 5f26c94dcec2a33b37b1c880ace053b29b5d021e
     user_starred_at: '2026-02-11T06:33:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -7512,15 +7613,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.620Z'
+      prompt_version: v3
   - repo: thoqbk/traprange
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - automation
+    tags:
+      - pdf-manipulation
+      - parser
+      - lang:html
     summary: (Java)A Method to Extract Tabular Content from PDF Files
     last_synced_sha: 4ae9347e61a2fb87808bbe73ffa3202718d43635
     user_starred_at: '2026-02-11T06:33:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -7545,15 +7654,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.620Z'
+      prompt_version: v3
   - repo: oguimbal/pgsql-ast-parser
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - dev-tools
+    tags:
+      - sql
+      - postgresql
+      - parser
+      - lang:ts
     summary: Yet another simple Postgres SQL parser
     last_synced_sha: 69245d726b250e89a24fd801a29ad3bc2afdf0d3
     user_starred_at: '2026-02-11T06:33:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7585,15 +7703,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.620Z'
+      prompt_version: v3
   - repo: MaibornWolff/codecharta
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+    tags:
+      - code-visualization
+      - metrics
+      - lang:ts
     summary: Code Charta is a visualization tool that transforms complex software architecture and code metrics into interactive, customizable visual maps, empowering everyone to communicate and analyze your co...
     last_synced_sha: 5218dc6b622e9fcdfaaa5add925d2da522adacfc
     user_starred_at: '2026-02-11T06:30:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7628,7 +7754,11 @@ repositories:
         published_at: '2026-03-16T14:00:51Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:37.620Z'
+      prompt_version: v3
   - repo: chipsalliance/Surelog
     categories:
       - embedded
