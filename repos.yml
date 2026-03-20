@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-20T04:08:15.777Z'
+  manifest_updated_at: '2026-03-20T04:08:49.340Z'
   total_repos: 499
   generator_version: v1.0.0
   github_user: primeinc
@@ -4293,13 +4293,19 @@ repositories:
       prompt_version: v3
   - repo: robcole/rentcast-proxy
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - databases
+    tags:
+      - api-wrapper
+      - proxy
+      - sqlite
+      - lang:crystal
+      - data-caching
     summary: Typed API wrapper and proxy for Rentcast API with SQLite caching
     last_synced_sha: 63be80537ca60209037e831914645b2fb474645f
     user_starred_at: '2026-03-19T16:16:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Crystal
       topics: []
@@ -4317,15 +4323,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:48.324Z'
+      prompt_version: v3
   - repo: streamlink/streamlink
     categories:
-      - unclassified
-    tags: []
+      - networking
+    tags:
+      - streaming
+      - cli-tool
+      - lang:python
+      - video-player
+      - livestream
     summary: Streamlink is a CLI utility which pipes video streams from various services into a video player
     last_synced_sha: b56cfa08d9e9b535ff65a2f77f99ba857714f11a
     user_starred_at: '2026-03-19T09:01:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4353,15 +4368,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:48.324Z'
+      prompt_version: v3
   - repo: crazyscot/casparcg-client
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - broadcast-graphics
+      - lang:js
+      - casparcg
+      - templates
+      - broadcast
     summary: Clients and templates for the Caspar CG broadcast graphics engine
     last_synced_sha: c20dd53ac1b45c9ebc2b836e9306ae4ba6ed2c71
     user_starred_at: '2026-03-19T08:50:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -4384,15 +4408,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:48.324Z'
+      prompt_version: v3
   - repo: TuomoKu/SPX-GC
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+    tags:
+      - graphics-control
+      - templates
+      - lang:js
+      - live-streaming
+      - media-production
     summary: SPX is a graphics control client for live video productions and live streams using Caspar CG, OBS, v Mix, or similar software.
     last_synced_sha: 12d05c2e1d4cc409f3881d0fdfefb2fa80173ab9
     user_starred_at: '2026-03-19T08:49:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -4425,15 +4458,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:48.324Z'
+      prompt_version: v3
   - repo: nodecg/nodecg
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - game-dev
+    tags:
+      - broadcast-graphics
+      - nodejs
+      - lang:ts
+      - graphics-tool
+      - browser-based
     summary: Create broadcast graphics using Node.js and a browser
     last_synced_sha: cd6e3b6acbcd21ecd407738dc8ce3a12eabbc139
     user_starred_at: '2026-03-19T08:05:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -4453,15 +4496,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:48.324Z'
+      prompt_version: v3
   - repo: openbao/openbao
     categories:
-      - unclassified
-    tags: []
+      - security
+      - databases
+    tags:
+      - secrets-management
+      - lang:go
+      - certificates
+      - data-protection
+      - key-storage
     summary: Open Bao exists to provide a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.
     last_synced_sha: c92585948a556e032d9972eede879e40bc459884
     user_starred_at: '2026-03-19T06:16:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -4484,15 +4537,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:48.324Z'
+      prompt_version: v3
   - repo: antonreshetov/mysigmail
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - email-signature
+      - email-templates
+      - lang:vue
+      - generator
+      - vuejs
     summary: A free and open-source email signature generator for Gmail, Outlook, Apple Mail, etc.
     last_synced_sha: 84b2a88cc92efe2bb87899d16ccc5bb99e0c8382
     user_starred_at: '2026-03-19T06:12:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -4516,16 +4579,27 @@ repositories:
         published_at: '2025-09-18T12:44:14Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:48.324Z'
+      prompt_version: v3
   - repo: jackwener/opencli
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-runtime
+      - cli
+      - lang:ts
+      - web-automation
+      - data-extraction
     summary: Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction.
     last_synced_sha: ee35ee723f3f1299e4beec01168f004350fa1590
     user_starred_at: '2026-03-19T06:11:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -4545,15 +4619,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:48.324Z'
+      prompt_version: v3
   - repo: usewaypoint/email-builder-js
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - email-builder
+      - email-templates
+      - lang:ts
+      - no-code
+      - email-marketing
     summary: A free and open-source block-based email template builder.
     last_synced_sha: ce3e610749fc80d7e999b20e28f6e775bfe09da7
     user_starred_at: '2026-03-19T06:11:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4588,6 +4672,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:48.323Z'
+      prompt_version: v3
   - repo: awesomized/crc-fast-rust
     categories:
       - dev-tools
