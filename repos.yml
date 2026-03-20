@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-20T04:03:15.288Z'
+  manifest_updated_at: '2026-03-20T04:03:45.687Z'
   total_repos: 499
   generator_version: v1.0.0
   github_user: primeinc
@@ -8723,13 +8723,18 @@ repositories:
     framework: null
   - repo: Hexagon/croner
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - scheduling
+      - lang:ts
+      - cron
+      - scheduler
     summary: Trigger functions or evaluate cron expressions in Java Script or Type Script. No dependencies. Most features. Node. Deno. Bun. Browser.
     last_synced_sha: 713ee7217e3bbb01857559199e312149d2695edb
     user_starred_at: '2026-02-11T06:07:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8764,15 +8769,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: vue-styleguidist/vue-styleguidist
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - documentation
+    tags:
+      - vue-components
+      - lang:ts
+      - style-guide
+      - vue
     summary: Created from react styleguidist for Vue Components with a living style guide
     last_synced_sha: f68d026248ebac1519f212f397043a078bd87cf3
     user_starred_at: '2026-02-11T06:06:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8801,16 +8815,25 @@ repositories:
         published_at: '2024-08-01T08:06:07Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: decalage2/oletools
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - malware-analysis
+      - lang:python
+      - ole-files
+      - forensics
     summary: oletools - python tools to analyze MS OLE2 files (Structured Storage, Compound File Binary Format) and MS Office documents, for malware analysis, forensics and debugging.
     last_synced_sha: ec10260989dbc48b9109e3d05d22beee19cf2333
     user_starred_at: '2026-02-11T06:01:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8844,15 +8867,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: rtfpessoa/diff2html
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - diff
+      - html
+      - lang:ts
+      - syntax-highlighting
     summary: Pretty diff to html javascript library (diff2html)
     last_synced_sha: 72331ff5d13a8d4d1f11256a7b554dd0d69d7014
     user_starred_at: '2026-02-11T06:01:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8884,15 +8916,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: ashvardanian/StringZilla
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - data-science
+    tags:
+      - lang:c
+      - string-manipulation
+      - performance
+      - simd
     summary: Up to 100x faster strings for C, C++, CUDA, Python, Rust, Swift, JS, & Go, leveraging NEON, AVX2, AVX-512, SVE, GPGPU, & SWAR to accelerate search, hashing, sorting, edit distances, sketches, and m...
     last_synced_sha: d126d12f4c7a52755744a320529de2a75e76a964
     user_starred_at: '2026-02-11T06:00:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -8930,15 +8971,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: dotnet/command-line-api
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+    tags:
+      - command-line
+      - lang:csharp
+      - parser
+      - terminal
     summary: Command line parsing, invocation, and rendering of terminal output.
     last_synced_sha: 0b720d0399197e9a8d9684f26bc6fd82d0da83b2
     user_starred_at: '2026-02-11T05:59:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -8971,15 +9021,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: Tyrrrz/YoutubeExplode
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - youtube
+      - lang:csharp
+      - downloader
+      - api
     summary: Abstraction layer over You Tube's internal API
     last_synced_sha: 444dcc3758ded98a75c0600a95ab12a0c7577473
     user_starred_at: '2026-02-11T05:58:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -9007,15 +9066,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: mangiucugna/json_repair
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - json
+      - lang:python
+      - repair
+      - llm
     summary: A python module to repair invalid JSON from LLMs
     last_synced_sha: 9f01b6a26abc83c900da92eda8e8e3f0e2a67c91
     user_starred_at: '2026-02-11T05:58:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -9045,15 +9113,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: microsoft/tsdoc
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - lang:ts
+      - doc-comments
+      - specification
+      - typescript
     summary: A doc comment standard for Type Script
     last_synced_sha: fab621701370f1488776d06161ffbd46173e9152
     user_starred_at: '2026-02-11T05:57:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9081,15 +9158,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: fkling/astexplorer
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - dev-tools
+    tags:
+      - ast
+      - lang:js
+      - parser
+      - exploration-tool
     summary: A web tool to explore the ASTs generated by various parsers.
     last_synced_sha: 8888701e97c2efebe6fb118484e67cfc0077d08c
     user_starred_at: '2026-02-11T05:55:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -9116,15 +9202,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: jquery/esprima
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - parser
+      - lang:ts
+      - ecmascript
+      - ast
     summary: ECMAScript parsing infrastructure for multipurpose analysis
     last_synced_sha: 512cd66c6ffd6083144b0150f09670e426252776
     user_starred_at: '2026-02-11T05:55:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9148,15 +9243,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: vectordotdev/vector
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - automation
+    tags:
+      - observability
+      - lang:rust
+      - data-pipeline
+      - logs
     summary: A high-performance observability data pipeline.
     last_synced_sha: 37a48ae53eb0e5930f4f4506903eb5b10c613789
     user_starred_at: '2026-02-11T05:52:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -9194,15 +9298,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: opendatalab/MinerU
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - pdf-parser
+      - lang:python
+      - document-analysis
+      - llm
     summary: Transforms complex documents like PDFs into LLM-ready markdown/JSON for your Agentic workflows.
     last_synced_sha: 077b3101b30ebe0104cc861c2868c806f5ea3d79
     user_starred_at: '2026-02-11T05:51:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -9235,15 +9348,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: ohmjs/ohm
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - parsing
+      - lang:js
+      - compiler
+      - grammars
     summary: A library and language for building parsers, interpreters, compilers, etc.
     last_synced_sha: 4177b05a4f946e0eb6066d02dd7bbd0fc2182cf3
     user_starred_at: '2026-02-11T05:46:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -9270,15 +9392,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: prag-matt-ic/ps5-inspired-landing-page
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - ps5
+      - lang:ts
+      - landing-page
+      - showcase
     summary: PS5 loading screen inspired showcase
     last_synced_sha: afae826ce6a0fe3eb56645003587f487e0f97925
     user_starred_at: '2026-02-11T05:45:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -9296,6 +9427,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:44.700Z'
+      prompt_version: v3
   - repo: moonrepo/moon
     categories:
       - productivity
