@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-20T03:55:26.789Z'
+  manifest_updated_at: '2026-03-20T03:56:00.210Z'
   total_repos: 499
   generator_version: v1.0.0
   github_user: primeinc
@@ -16487,12 +16487,15 @@ repositories:
   - repo: CloudAI-X/threejs-skills
     categories:
       - unclassified
-    tags: []
+    tags:
+      - threejs
+      - 3d-modeling
+      - skills
     summary: No description provided
     last_synced_sha: b1c623076c661fc9b03dac19292e825a5d106823
     user_starred_at: '2026-01-23T23:33:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -16510,15 +16513,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.235Z'
+      prompt_version: v3
   - repo: microsoft/Agent365-Samples
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - lang:python
+      - ai
+      - examples
     summary: No description provided
     last_synced_sha: dd6a12d8ea7eb2bf7ab30e48cd53be1645362202
     user_starred_at: '2026-01-23T08:23:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -16536,15 +16547,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.235Z'
+      prompt_version: v3
   - repo: nibzard/FocusHighlighter
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - lang:ts
+      - highlighting
+      - focus
     summary: No description provided
     last_synced_sha: fb7d7dd97b6d4850a1b53199ada540361d17d58d
     user_starred_at: '2026-01-23T03:42:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -16562,15 +16581,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.235Z'
+      prompt_version: v3
   - repo: coreyhaines31/marketingskills
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - marketing
+      - seo
+      - ai
+      - growth
     summary: Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
     last_synced_sha: 9d4d29a795113c492b22e01c9b48a8396e140b8d
     user_starred_at: '2026-01-23T03:39:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -16593,15 +16621,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.235Z'
+      prompt_version: v3
   - repo: virattt/dexter
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:ts
+      - finance
+      - autonomous-agent
+      - research
     summary: An autonomous agent for deep financial research
     last_synced_sha: 69920b0bafc29569437fd3451c1beb364dee9076
     user_starred_at: '2026-01-23T03:38:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -16621,15 +16658,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.235Z'
+      prompt_version: v3
   - repo: rkyv/rkyv
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - dev-tools
+    tags:
+      - lang:rust
+      - serialization
+      - rust
+      - performance
     summary: Zero-copy deserialization framework for Rust
     last_synced_sha: 985b0230a0b9cb9fce4a4ee9facb6af148e27c8e
     user_starred_at: '2026-01-23T03:38:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -16652,15 +16698,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.235Z'
+      prompt_version: v3
   - repo: nwg-piotr/nwg-displays
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - lang:python
+      - display-management
+      - monitors
+      - sway
     summary: Output management utility for sway and Hyprland.
     last_synced_sha: fe8e5516d35f9350532e5954d36e0d2879549d47
     user_starred_at: '2026-01-23T03:38:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -16686,15 +16741,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.235Z'
+      prompt_version: v3
   - repo: junaid-mahmood/nlsh
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - lang:ts
+      - natural-language
+      - terminal-automation
     summary: Turn natural language to terminal commands
     last_synced_sha: 5fbbfb14e5ef0cc246d864d7a302919e00b30b7f
     user_starred_at: '2026-01-23T03:35:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -16712,15 +16775,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.235Z'
+      prompt_version: v3
   - repo: freedomofpress/dangerzone
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - lang:python
+      - pdf-security
+      - document-safety
     summary: Take potentially dangerous PDFs, office documents, or images and convert them to safe PDFs
     last_synced_sha: 18a09fd0b47a27e7caf6b5a00c836afb2e07b5d9
     user_starred_at: '2026-01-23T03:34:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -16740,15 +16811,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.235Z'
+      prompt_version: v3
   - repo: shadawck/awesome-cli-frameworks
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - lang:html
+      - cli
+      - awesome-list
+      - documentation
     summary: Collection of tools to build beautiful command line interface in different languages
     last_synced_sha: 7a2bd4946029285ea1333cff56da836ad9e34b32
     user_starred_at: '2026-01-23T03:27:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -16774,15 +16854,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.235Z'
+      prompt_version: v3
   - repo: meteor-useraccounts/core
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - lang:js
+      - authentication
+      - user-management
     summary: Meteor sign up and sign in templates' core functionalities
     last_synced_sha: 2e8986813b51f321f908d2f6211f6f81f76cd627
     user_starred_at: '2026-01-23T01:13:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -16802,15 +16890,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.235Z'
+      prompt_version: v3
   - repo: nrwl/nx-set-shas
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - lang:ts
+      - ci
+      - github-actions
+      - nx
     summary: ':sparkles: A Github Action which sets the base and head SHAs required for `nx affected` commands in CI'
     last_synced_sha: 3e9ad7370203c1e93d109be57f3b72eb0eb511b1
     user_starred_at: '2026-01-22T08:47:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16833,15 +16930,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.235Z'
+      prompt_version: v3
   - repo: callstackincubator/agent-skills
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - mobile-dev
+    tags:
+      - react-native
+      - ai
+      - generative
+      - mobile-development
     summary: A collection of agent-optimized React Native skills for AI coding assistants.
     last_synced_sha: 06ae130045c7e70288ea6de0b8e073c8b13f3f21
     user_starred_at: '2026-01-22T04:22:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -16859,15 +16965,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.234Z'
+      prompt_version: v3
   - repo: puffinsoft/syntux
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - lang:ts
+      - generative-ui
+      - react
+      - ui-design
     summary: Generative UIs for the web.
     last_synced_sha: c569199697b3a3167617c248443e098106385003
     user_starred_at: '2026-01-21T18:44:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16888,16 +17003,26 @@ repositories:
         published_at: '2026-03-07T05:12:35Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.234Z'
+      prompt_version: v3
   - repo: zhongguagua/ai-code-decompile
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - lang:ts
+      - ai
+      - code-analysis
+      - decompiler
+      - reverse-engineering
     summary: 🚀 AI-powered Java Script Decompiler & Deobfuscator. 基于 AI 与 AST 的 JS 代码分析与混淆还原工具，把不可读的构建产物变成人能看懂的代码。
     last_synced_sha: 5df97df4f2718e03a6f0bac2b57ce0aa629d7c63
     user_starred_at: '2026-01-19T23:55:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16928,6 +17053,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T03:55:59.234Z'
+      prompt_version: v3
   - repo: different-ai/openwork
     categories:
       - productivity
