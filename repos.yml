@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-20T04:02:43.616Z'
+  manifest_updated_at: '2026-03-20T04:03:15.288Z'
   total_repos: 499
   generator_version: v1.0.0
   github_user: primeinc
@@ -9298,13 +9298,17 @@ repositories:
     framework: null
   - repo: moonrepo/moon
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - build-system
+      - monorepo-management
+      - lang:rust
     summary: A build system and monorepo management tool for the web ecosystem, written in Rust.
     last_synced_sha: 9954426f75035b1bcc427c299d1e96ac49972e24
     user_starred_at: '2026-02-11T03:50:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -9340,15 +9344,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.273Z'
+      prompt_version: v3
   - repo: stackblitz/webcontainer-core
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - web-environment
+      - nodejs
+      - browser
     summary: Dev environments. In your web app.
     last_synced_sha: 539de1335e893ebe8eaf2df69cd5f056babf1091
     user_starred_at: '2026-02-10T18:23:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -9370,15 +9382,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.273Z'
+      prompt_version: v3
   - repo: stackblitz/bolt.new
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - ai-playground
+      - full-stack-deployment
+      - lang:ts
     summary: 'Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz'
     last_synced_sha: eda10b121221b30825a4c16eec5da1fd3eb1eb99
     user_starred_at: '2026-02-10T18:23:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9400,15 +9420,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.273Z'
+      prompt_version: v3
   - repo: live-codes/livecodes
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - code-playground
+      - editor
+      - lang:ts
     summary: A Code Playground That Just Works!
     last_synced_sha: 0c8a93b0b1d7f644efc5e00890802e47c6e15d9c
     user_starred_at: '2026-02-10T18:23:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9439,15 +9467,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.273Z'
+      prompt_version: v3
   - repo: conradkoh/artifact-cli
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: c624a198bfce4c568bed44e7855c82172ce2af38
     user_starred_at: '2026-02-10T18:22:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -9465,15 +9498,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.273Z'
+      prompt_version: v3
   - repo: nyeya/live-editor
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - frontend-editor
+      - realtime-editing
+      - lang:ts
     summary: A realtime live code editor for your frontend projects
     last_synced_sha: 3db7f92261970608fa42d220a84ea375a428dc8d
     user_starred_at: '2026-02-10T18:22:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -9491,15 +9532,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.273Z'
+      prompt_version: v3
   - repo: handlebauer/ts-preview
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: b9a81ee8b033324d75bb0f1c53ab692fce5d85cd
     user_starred_at: '2026-02-10T18:22:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -9517,15 +9563,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.273Z'
+      prompt_version: v3
   - repo: Sunny-117/webcontainer-ide
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - webcontainer
+      - browser-ide
+      - lang:ts
     summary: Web Container IDE is a production-ready, browser-based development environment that brings the full power of Node.js to your browser. Built on Stack Blitz's Web Container technology, it enables dev...
     last_synced_sha: 70803050c8e9dfd42274c3e3ab30c66c2a2a9040
     user_starred_at: '2026-02-10T18:21:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9553,15 +9607,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.273Z'
+      prompt_version: v3
   - repo: MicrosoftRajan/CipherStudio
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: aa93d66c349c3e08f6cc0a9f9480197e98756c3b
     user_starred_at: '2026-02-10T18:20:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -9579,15 +9638,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.273Z'
+      prompt_version: v3
   - repo: codesandbox/sandpack
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - live-coding
+      - sandbox
+      - lang:ts
     summary: A component toolkit for creating live-running code editing experiences, using the power of Code Sandbox.
     last_synced_sha: 7d60a4334980eef304d53b1c3df371ed6dbcf491
     user_starred_at: '2026-02-10T17:33:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9613,16 +9680,24 @@ repositories:
         published_at: '2025-02-14T13:14:41Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.273Z'
+      prompt_version: v3
   - repo: marshallrichards/ClawPhone
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ai-ml
+    tags:
+      - android-tweaks
+      - open-claw
+      - lang:python
     summary: Tweaks for running Open Claw on a Android smartphone
     last_synced_sha: f6aefb1eb658aaec43162f5aa913592f17c6661b
     user_starred_at: '2026-02-10T14:21:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -9640,15 +9715,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.273Z'
+      prompt_version: v3
   - repo: evinjohnn/natively-cluely-ai-assistant
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai-assistant
+      - interview-helper
+      - lang:ts
     summary: Natively - Free open-source AI interview copilot & meeting assistant. The best Cluely alternative, Final Round AI alternative, and Interview Coder alternative. Real-time transcription, undetectable...
     last_synced_sha: b9c45af9162276eed256ad50f7ef2292962dd43d
     user_starred_at: '2026-02-10T10:01:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9688,15 +9771,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.273Z'
+      prompt_version: v3
   - repo: haykgrigo3/TimeCapsuleLLM
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - time-period-data
+      - llm
+      - lang:python
     summary: A LLM trained only on data from certain time periods to reduce modern bias
     last_synced_sha: 1c269d8badab23c4d2052d9d3fe48c82e9b7899c
     user_starred_at: '2026-02-10T08:50:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -9716,15 +9807,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.273Z'
+      prompt_version: v3
   - repo: snarktank/antfarm
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - ai-agent-team
+      - lang:ts
     summary: Build your agent team in Open Claw with one command.
     last_synced_sha: a442ad7dcb8cf8746175cc4a2e2dcafd501156cf
     user_starred_at: '2026-02-10T08:24:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -9744,15 +9842,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.273Z'
+      prompt_version: v3
   - repo: SeyZ/clawbands
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - ai-integration
+      - middleware
+      - lang:ts
     summary: Claw Bands is a security middleware for Open Claw AI agents.
     last_synced_sha: d3cb509521299280489ff565dcf1cea5cd2b9724
     user_starred_at: '2026-02-10T08:12:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9775,6 +9881,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:03:14.272Z'
+      prompt_version: v3
   - repo: tlsnotary/tlsn-extension
     categories:
       - security
