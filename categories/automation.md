@@ -1,23 +1,26 @@
 # Automation
 
-*13 repositories*
+*16 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [ChristopherHX/github-act-runner](https://github.com/ChristopherHX/github-act-runner) | act as self-hosted runner | `Go` ★ 372 | 2026-03-07 |
-| [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | An unofficial Local Git Hub Actions and Azure Pipelines Emulator | `C#` ★ 229 | 2026-03-16 |
+| [googleworkspace/cli](https://github.com/googleworkspace/cli) | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | `Rust` ★ 21.7k | 2026-03-18 |
+| [5a9awneh/printer-address-book-converter](https://github.com/5a9awneh/printer-address-book-converter) | Universal printer address book converter with intelligent format detection. Supports multifunction printers using Canon, Sharp, Xerox, and Develop/Konica CSV formats. Features fuzzy deduplication, ... | `PowerShell` ★ 1 | 2026-01-29 |
+| [ChristopherHX/github-act-runner](https://github.com/ChristopherHX/github-act-runner) | act as self-hosted runner | `Go` ★ 373 | 2026-03-19 |
+| [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | An unofficial Local Git Hub Actions and Azure Pipelines Emulator | `C#` ★ 230 | 2026-03-16 |
 | [changesets/ghcommit](https://github.com/changesets/ghcommit) | Type Script library for directly changing files on Git Hub | `TypeScript` ★ 18 | 2026-01-27 |
-| [Brainicism/bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider) | Proof-of-origin token provider plugin for yt-dlp | `TypeScript` ★ 450 | 2026-03-14 |
-| [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 266 | 2026-03-14 |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 40.7k | 2026-03-16 |
-| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | CLI-Anything: Making ALL Software Agent-Native | `Python` ★ 17.9k | 2026-03-17 |
+| [Brainicism/bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider) | Proof-of-origin token provider plugin for yt-dlp | `TypeScript` ★ 454 | 2026-03-14 |
+| [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 294 | 2026-03-14 |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 43.9k | 2026-03-16 |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | CLI-Anything: Making ALL Software Agent-Native | `Python` ★ 19.5k | 2026-03-19 |
 | [pyupio/safety](https://github.com/pyupio/safety) | Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected. | `Python` ★ 2k | 2026-03-16 |
-| [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Go` ★ 292 | 2026-03-16 |
-| [SpecterShell/Dumplings](https://github.com/SpecterShell/Dumplings) | Dump remote resources and lint outdated packages | `PowerShell` ★ 42 | 2026-03-18 |
-| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. | `JavaScript` ★ 12.1k | 2026-03-18 |
-| [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the ... | `Go` ★ 27.5k | 2026-03-17 |
-| [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | ROS 2 Navigation Framework and System | `C++` ★ 4k | 2026-03-18 |
+| [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Go` ★ 296 | 2026-03-19 |
+| [SpecterShell/Dumplings](https://github.com/SpecterShell/Dumplings) | Dump remote resources and lint outdated packages | `PowerShell` ★ 42 | 2026-03-20 |
+| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. | `JavaScript` ★ 12.1k | 2026-03-20 |
+| [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the ... | `Go` ★ 27.5k | 2026-03-20 |
+| [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | ROS 2 Navigation Framework and System | `C++` ★ 4k | 2026-03-19 |
+| [19h/apeiron](https://github.com/19h/apeiron) | A GPU- and SIMD-accelerated binary entropy visualizer written in Rust | `Rust` ★ 7 | 2026-01-22 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
