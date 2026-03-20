@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-20T04:04:41.401Z'
+  manifest_updated_at: '2026-03-20T04:05:08.175Z'
   total_repos: 499
   generator_version: v1.0.0
   github_user: primeinc
@@ -7631,13 +7631,19 @@ repositories:
     framework: null
   - repo: chipsalliance/Surelog
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - automation
+    tags:
+      - lang:cpp
+      - system-verilog
+      - python-api
+      - vpi-standard
+      - uhdm-compiler
     summary: System Verilog 2017 Pre-processor, Parser, Elaborator, UHDM Compiler. Provides IEEE Design/TB C/C++ VPI and Python AST & UHDM APIs. Compiles on Linux gcc, Windows msys2-gcc & msvc, Os X
     last_synced_sha: 35ec4b3fa6b98464fec12b5da3530e7bd7b5c4c7
     user_starred_at: '2026-02-11T06:29:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -7671,15 +7677,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.192Z'
+      prompt_version: v3
   - repo: kevinburke/ssh_config
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - security
+    tags:
+      - lang:go
+      - ssh-config-parsing
+      - golang
+      - server-management
+      - security-tool
     summary: Go parser for ssh_config files
     last_synced_sha: 9fcf72227fff42524dbc43daf02f5492525d0441
     user_starred_at: '2026-02-11T06:28:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -7701,15 +7717,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.192Z'
+      prompt_version: v3
   - repo: postalsys/postal-mime
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - lang:js
+      - email-parsing
+      - serverless-tool
+      - mime-processing
+      - attachments-handler
     summary: Email parser for browser and serverless environments
     last_synced_sha: 178f1ef0b1cd0047e1b8e690beabfec541b4daa7
     user_starred_at: '2026-02-11T06:27:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -7734,15 +7760,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.192Z'
+      prompt_version: v3
   - repo: jcubic/lips
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - dev-tools
+    tags:
+      - lang:js
+      - lisp-interpreter
+      - scheme-language
+      - macros-support
+      - functional-programming
     summary: Scheme based powerful lisp interpreter in Java Script
     last_synced_sha: 064e3a655b3de3b2878fc5307a07d212d351937c
     user_starred_at: '2026-02-11T06:27:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -7779,15 +7815,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.192Z'
+      prompt_version: v3
   - repo: glayzzle/php-parser
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - lang:js
+      - php-ast
+      - static-analysis
+      - ast-generation
+      - tokenizer
     summary: ':herb: Node JS PHP Parser - extract AST or tokens'
     last_synced_sha: ee242a56070b948fbc38dfb6b1704a1dcc1801c2
     user_starred_at: '2026-02-11T06:25:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -7817,15 +7863,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.192Z'
+      prompt_version: v3
   - repo: willdurand/EmailReplyParser
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - lang:php
+      - email-parsing
+      - php-library
+      - text-parsing
+      - communication-tool
     summary: PHP library for parsing plain text email content.
     last_synced_sha: f25f8c6c3cb876112e3857eb3da15e38e44e4725
     user_starred_at: '2026-02-11T06:24:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -7848,15 +7904,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.192Z'
+      prompt_version: v3
   - repo: kach/nearley
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - frameworks
+    tags:
+      - lang:js
+      - parser-library
+      - fast-parsing
+      - earley-algorithm
+      - nodejs
     summary: 📜🔜🌲 Simple, fast, powerful parser toolkit for Java Script.
     last_synced_sha: 96f1da12acdb986e8279355d3d34cf5b139ab268
     user_starred_at: '2026-02-11T06:22:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -7885,15 +7951,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.192Z'
+      prompt_version: v3
   - repo: pdfminer/pdfminer.six
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+    tags:
+      - lang:python
+      - pdf-parsing
+      - text-extraction
+      - data-mining
+      - document-analysis
     summary: Community maintained fork of pdfminer - we fathom PDF
     last_synced_sha: a18de2a9c479b4c847538500017b449ddaec177e
     user_starred_at: '2026-02-11T06:21:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -7916,15 +7992,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.192Z'
+      prompt_version: v3
   - repo: i18next/i18next-cli
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - lang:ts
+      - i18n
+      - cli-tool
+      - parsing
+      - localization
     summary: A unified, high-performance i18next CLI.
     last_synced_sha: 1770d8c7616e4d328adbe8a980e1862f5414a1ec
     user_starred_at: '2026-02-11T06:21:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7947,15 +8033,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.192Z'
+      prompt_version: v3
   - repo: joweich/chat-miner
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - automation
+    tags:
+      - lang:python
+      - chat-analysis
+      - data-visualization
+      - messenger-parsing
+      - whatsapp-statistics
     summary: Parsers and visualizations for chats
     last_synced_sha: 8270643201c841a5cce3ed71ff63aae72a74885a
     user_starred_at: '2026-02-11T06:20:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -7985,15 +8081,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.192Z'
+      prompt_version: v3
   - repo: thewhiteninja/ntfstool
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - lang:cpp
+      - ntfs-analysis
+      - bitlocker
+      - data-recovery
+      - disk-forensics
     summary: Forensics tool for NTFS (parser, mft, bitlocker, deleted files)
     last_synced_sha: 5f2e34dd8704f02309e8f552fc06a2e5f895bb50
     user_starred_at: '2026-02-11T06:19:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -8033,15 +8139,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.192Z'
+      prompt_version: v3
   - repo: ImpulseAdventure/JPEGsnoop
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - productivity
+    tags:
+      - lang:cpp
+      - jpeg-analysis
+      - image-repair
+      - decoder
+      - huffman-analysis
     summary: 'JPEGsnoop: JPEG decoder and detailed analysis'
     last_synced_sha: 9732ee0961f100eb69bbff4a0c47438d5997abee
     user_starred_at: '2026-02-11T06:18:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -8073,15 +8189,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.192Z'
+      prompt_version: v3
   - repo: ics-py/ics-py
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - lang:python
+      - calendar-library
+      - icalendar
+      - event-management
+      - rfc5545
     summary: Pythonic and easy i Calendar library (rfc5545)
     last_synced_sha: 3b7d07295f60a5d607ee0fa3a552c252f9e163f0
     user_starred_at: '2026-02-11T06:17:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8109,15 +8235,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.192Z'
+      prompt_version: v3
   - repo: g-plane/typed-query-selector
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - lang:ts
+      - query-selector
+      - typed-programming
+      - typescript
+      - frontend-tool
     summary: Better typed `query Selector` and `query Selector All`.
     last_synced_sha: 7081afb5551a0e263857a1054cd9b97079a821a9
     user_starred_at: '2026-02-11T06:16:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8137,15 +8273,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.192Z'
+      prompt_version: v3
   - repo: 003random/getJS
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - javascript-extraction
+      - bugbounty
+      - lang:go
+      - pentesting
+      - recon-tool
     summary: A tool to fastly get all javascript sources/files
     last_synced_sha: 4346a2d46d63348f9509c796108f2768d0ee72c9
     user_starred_at: '2026-02-11T06:15:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -8179,6 +8325,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:05:07.191Z'
+      prompt_version: v3
   - repo: DFIRKuiper/Kuiper
     categories:
       - security
