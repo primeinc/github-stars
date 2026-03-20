@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-20T04:07:42.214Z'
+  manifest_updated_at: '2026-03-20T04:08:15.777Z'
   total_repos: 499
   generator_version: v1.0.0
   github_user: primeinc
@@ -4590,13 +4590,19 @@ repositories:
     framework: null
   - repo: awesomized/crc-fast-rust
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - crc
+      - hardware-acceleration
+      - lang:rust
+      - simd
+      - checksum
     summary: World's fastest generic CRC calculator for all known CRC-16, CRC-32, and CRC-64 variants, as well as bring-your-own custom parameters, using SIMD intrinsics, which can exceed 100Gi B/s on modern sy...
     last_synced_sha: 3a853cc7daf2cd47cc4466f198680cabdfb0b5fa
     user_starred_at: '2026-03-19T04:51:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -4626,15 +4632,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.746Z'
+      prompt_version: v3
   - repo: squidowl/halloy
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - desktop-dev
+    tags:
+      - irc
+      - lang:rust
+      - chat
     summary: IRC application written in Rust
     last_synced_sha: ffb2697cecb2989cd6b1dc357ba4c78e4b9e3eb8
     user_starred_at: '2026-03-19T04:50:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -4657,15 +4671,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.746Z'
+      prompt_version: v3
   - repo: daggerhashimoto/openclaw-nerve
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+      - automation
+    tags:
+      - ai
+      - dashboard
+      - lang:ts
+      - openclaw
+      - react
     summary: 'Real-time web cockpit for Open Claw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility.'
     last_synced_sha: 860fc6b47c9ceb97948f481a73fef92feb4b3d43
     user_starred_at: '2026-03-18T12:44:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4698,16 +4723,26 @@ repositories:
         published_at: '2026-03-18T13:28:58Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.746Z'
+      prompt_version: v3
   - repo: swarmclawai/swarmclaw
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - frameworks
+    tags:
+      - orchestration
+      - autonomous-agents
+      - lang:ts
+      - openclaw
     summary: Build and run autonomous AI agents with Open Claw, multiple model providers, orchestration, delegation, memory, skills, schedules, and chat connectors.
     last_synced_sha: 7d3a1ae672f8e2821e4d4b906a0727a752db99d6
     user_starred_at: '2026-03-18T12:00:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4733,15 +4768,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.746Z'
+      prompt_version: v3
   - repo: openclaw/clawhub
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - openclaw
+      - directory
+      - skills
+      - lang:ts
     summary: Skill Directory for Open Claw
     last_synced_sha: deb592d4ce4f6458f3d7169615ae663361f37216
     user_starred_at: '2026-03-18T10:25:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4763,15 +4807,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.746Z'
+      prompt_version: v3
   - repo: bubbleran/telco-network-configuration
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - ai-ml
+    tags:
+      - ai-workflow
+      - lang:python
+      - telco
+      - optimization
     summary: The goal of this blueprint is to develop an agentic AI workflow that provides insight to the end user on close-to-optimal configuration values for specific RAN parameters at a cell-site.
     last_synced_sha: 300a06e7568d86c9838827d60e00edcdda40caa5
     user_starred_at: '2026-03-18T09:22:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -4789,15 +4842,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.746Z'
+      prompt_version: v3
   - repo: dragonflydb/dragonfly
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - system-admin
+    tags:
+      - key-value
+      - cache
+      - lang:cpp
+      - in-memory-database
+      - redis-alternative
     summary: A modern replacement for Redis and Memcached
     last_synced_sha: 9dc515b4c7fa82996276a62d6c25f1599f8e6287
     user_starred_at: '2026-02-22T10:07:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -4832,15 +4895,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.746Z'
+      prompt_version: v3
   - repo: AzureAD/microsoft-identity-web
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+    tags:
+      - authentication
+      - azure-ad
+      - lang:csharp
+      - microsoft-identity
     summary: Helps creating protected web apps and web APIs with Microsoft identity platform and Azure AD B2C
     last_synced_sha: 6e938175dbfdf6dcbeb8ac5cbffe0591cfacdfac
     user_starred_at: '2026-02-22T10:06:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -4864,15 +4936,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.746Z'
+      prompt_version: v3
   - repo: JosefNemec/Playnite
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - desktop-dev
+      - productivity
+    tags:
+      - game-library
+      - game-emulation
+      - lang:csharp
+      - wpf
     summary: Video game library manager with support for wide range of 3rd party libraries and game emulation support, providing one unified interface for your games.
     last_synced_sha: ab2eed4d09eab9e276d51056e2ed487aae1d32e9
     user_starred_at: '2026-02-22T10:06:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -4896,15 +4978,27 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.746Z'
+      prompt_version: v3
   - repo: unoplatform/uno
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - mobile-dev
+      - web-dev
+      - desktop-dev
+    tags:
+      - cross-platform
+      - lang:csharp
+      - hot-reload
+      - mvvm
+      - webassembly
     summary: Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow...
     last_synced_sha: 64cfe15e9f2fcc037777737331a9bb4b594ea2bf
     user_starred_at: '2026-02-22T10:05:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -4944,15 +5038,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.745Z'
+      prompt_version: v3
   - repo: abhigyanpatwari/GitNexus
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+      - ai-ml
+    tags:
+      - knowledge-graph
+      - code-intelligence
+      - lang:ts
+      - client-side
     summary: 'Git Nexus: The Zero-Server Code Intelligence Engine - Git Nexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a Git Hub repo or ZIP file, and get an interacti...'
     last_synced_sha: c14a78a3412c7fe94f878efba447de996d75dbab
     user_starred_at: '2026-02-22T10:04:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -4972,15 +5076,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.745Z'
+      prompt_version: v3
   - repo: vxcontrol/pentagi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+      - automation
+    tags:
+      - ai-agents
+      - penetration-testing
+      - lang:go
+      - multi-agent-system
+      - security-automation
     summary: ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks
     last_synced_sha: c9f4c0dfc8ad96e715b82ac2e6df8bb1340e6054
     user_starred_at: '2026-02-22T10:03:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5018,15 +5133,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.745Z'
+      prompt_version: v3
   - repo: hiddify/hiddify-app
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+      - productivity
+    tags:
+      - proxy
+      - auto-proxy
+      - lang:dart
+      - multi-platform
     summary: Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.
     last_synced_sha: 54bc7eebe871c6b266d6b17dd21261fe96f040a6
     user_starred_at: '2026-02-22T10:03:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -5064,15 +5189,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.745Z'
+      prompt_version: v3
   - repo: wxt-dev/wxt
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - frameworks
+    tags:
+      - web-extensions
+      - build-tool
+      - lang:ts
+      - dev-server
+      - hmr
     summary: ⚡ Next-gen Web Extension Framework
     last_synced_sha: c528361d0719be1655b4da83ca62ccaef438aae8
     user_starred_at: '2026-02-21T06:29:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5097,15 +5232,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.745Z'
+      prompt_version: v3
   - repo: moonD4rk/HackBrowserData
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - browser-data
+      - pentest-tool
+      - lang:go
+      - macos
+      - linux
     summary: Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (mac OS, Windows, Linux).
     last_synced_sha: 239501535a2eea9b8a9afc682dce7f1864eff550
     user_starred_at: '2026-02-21T04:24:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5135,6 +5280,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:08:14.745Z'
+      prompt_version: v3
   - repo: memvid/design-memory
     categories:
       - ai-ml
