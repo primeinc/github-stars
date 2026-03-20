@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-20T04:01:11.803Z'
+  manifest_updated_at: '2026-03-20T04:01:43.514Z'
   total_repos: 499
   generator_version: v1.0.0
   github_user: primeinc
@@ -10812,13 +10812,18 @@ repositories:
     framework: null
   - repo: microsoft/rushstack
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - typescript
+      - monorepo
+      - toolchain
+      - lang:ts
     summary: Monorepo for tools developed by the Rush Stack community
     last_synced_sha: ded40681dd9ba73ffdd64369460e514128e73ef7
     user_starred_at: '2026-02-08T09:48:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10852,15 +10857,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: 11happy/cpx
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - command-line-tools
+      - lang:rust
     summary: cp reimagined
     last_synced_sha: 6ddb32272bf63739663b111ae9ee6c558157724f
     user_starred_at: '2026-02-08T08:15:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -10880,15 +10892,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: zellij-org/zellij
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - terminal
+      - workspace
+      - multiplexer
+      - lang:rust
     summary: A terminal workspace with batteries included
     last_synced_sha: 9e00821c60d5afc2d14aeb3fa0e442e67f451243
     user_starred_at: '2026-02-08T08:12:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -10911,15 +10932,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: Azure-Samples/azure-typescript-e2e-apps
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - web-dev
+    tags:
+      - azure
+      - typescript
+      - lang:ts
     summary: Monorepo - Apps written in Type Script to be either 1) deployed to Azure hosting or 2) integrated with Azure services
     last_synced_sha: e3b9c39fbb85c6cc3eeef8702ec9607163f88919
     user_starred_at: '2026-02-08T03:04:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -10937,15 +10966,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: microsoft/zerotrustassessment
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - assessment
+      - zero-trust
+      - lang:html
     summary: Repository for the Zero Trust Assessment project
     last_synced_sha: f72ff004a9690c32e3e8894cdaba43dcbda671fe
     user_starred_at: '2026-02-08T03:01:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -10965,15 +11002,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: openclaw/skills
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - backup
+      - archive
+      - lang:python
     summary: All versions of all skills that are on clawhub.com archived
     last_synced_sha: 5bbabad00a07f7ffd662e42863ea97ab91f2eb29
     user_starred_at: '2026-02-08T02:56:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -10996,15 +11041,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: kodepandai/awesome-gh-cli-extensions
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - github
+      - awesome-list
+      - extensions
+      - lang:html
     summary: Awesome list of github cli extensions.
     last_synced_sha: b822213c6845af178b689ca738a0e008f65c12a7
     user_starred_at: '2026-02-07T06:46:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -11026,15 +11080,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: shanraisshan/claude-code-best-practice
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - best-practices
+      - claude-ai
+      - lang:html
     summary: practice made claude perfect
     last_synced_sha: da6cebacabbb8c7ab7b2e51f00dc6769c50a709f
     user_starred_at: '2026-02-07T04:08:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -11057,15 +11119,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: microsoft/cascadia-code
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - fonts
+      - programming-ligatures
+      - lang:python
     summary: This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.
     last_synced_sha: 56bcca3f2c1e4cb19458954f0e2bb4635960df91
     user_starred_at: '2026-02-07T02:50:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11085,15 +11155,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: Dimillian/CodexMonitor
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - ai-ml
+    tags:
+      - ai
+      - linux
+      - tauri
+      - lang:ts
     summary: An app to monitor the (Codex) situation
     last_synced_sha: 771a3c47caa3bd1762d03481201d874178e7bda7
     user_starred_at: '2026-02-06T23:19:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11118,15 +11197,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: mdp/qrterminal
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - qr-codes
+      - terminal
+      - lang:go
     summary: QR Codes in your terminal
     last_synced_sha: 4e76afd10340aac2b71923d765da2ad506870bbb
     user_starred_at: '2026-02-06T01:14:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -11146,15 +11233,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: mdp/linkedin-extension-fingerprinting
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - fingerprinting
+      - linkedin
+      - lang:js
     summary: No description provided
     last_synced_sha: c039bfbaa45e6dc8cda3195476621cc7f6ef398d
     user_starred_at: '2026-02-06T01:14:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -11172,15 +11267,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: cathrynlavery/codex-skill
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - hooks
+      - openai
+      - lang:shell
     summary: Give Claude Code a second opinion using Open AI Codex - automatic plan review via hooks
     last_synced_sha: 783735731cb013be1971c4a00164b03de7515189
     user_starred_at: '2026-02-06T01:13:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -11198,15 +11301,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: crazystylus/otadump
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - security
+    tags:
+      - android
+      - ota
+      - lang:rust
     summary: Extract partitions from Android OTA files.
     last_synced_sha: 9aeaa2af9b35d86d5c1fa8eb2a22bf97ed74c9d8
     user_starred_at: '2026-02-05T07:17:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -11229,15 +11340,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: ajeetdsouza/zoxide
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - command-line
+      - shell
+      - lang:rust
     summary: A smarter cd command. Supports all major shells.
     last_synced_sha: 108c41ac822c7dcfe7d8e3129913e64e0827c625
     user_starred_at: '2026-02-05T07:14:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -11277,6 +11396,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-20T04:01:42.485Z'
+      prompt_version: v3
   - repo: reacherhq/check-if-email-exists
     categories:
       - apis
