@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-21T03:56:16.058Z'
+  manifest_updated_at: '2026-03-21T03:56:46.441Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -40847,13 +40847,17 @@ repositories:
     framework: null
   - repo: CognitionAI/deepwiki
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - docs
+      - wiki
+      - llm
     summary: Devin-generated docs for any public repo
     last_synced_sha: 10f554ce266db71f3679a3c37eb140490384a81b
     user_starred_at: '2025-09-26T10:35:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -40878,15 +40882,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.353Z'
+      prompt_version: v3
   - repo: oraios/serena
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai
+      - coding-agent
+      - lang:python
     summary: A powerful coding agent toolkit providing semantic retrieval and editing capabilities (MCP server & other integrations)
     last_synced_sha: 0c915bd18d51e2225508b6dccc8ae3bd9c20be1e
     user_starred_at: '2025-09-26T10:30:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -40916,15 +40928,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.353Z'
+      prompt_version: v3
   - repo: SuperCuber/dotter
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - dotfiles
+      - templater
+      - lang:rust
     summary: A dotfile manager and templater written in rust 🦀
     last_synced_sha: 1077fe7a82b7d2ca4221aec805b49c7ed1411143
     user_starred_at: '2025-09-26T08:48:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -40956,15 +40976,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.353Z'
+      prompt_version: v3
   - repo: FiloSottile/age
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - encryption
+      - unix
+      - lang:go
     summary: A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
     last_synced_sha: 706dfc1e799a03443ae46023502bd88d4e9e324f
     user_starred_at: '2025-09-26T08:45:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -40986,15 +41014,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.353Z'
+      prompt_version: v3
   - repo: jade-tam/dotfiles
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - dotfiles
+      - windows
+      - lang:shell
     summary: Ricing dotfiles for windows 11
     last_synced_sha: 4aa0fe444166585d45bc96d1a2973a461fc4486f
     user_starred_at: '2025-09-26T08:39:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -41017,15 +41053,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.353Z'
+      prompt_version: v3
   - repo: codebucks27/Next.js-Developer-Portfolio-Starter-Code
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+      - learning
+    tags:
+      - portfolio
+      - nextjs
+      - lang:css
     summary: ⭐Build a stunning portfolio website with Next.js, Tailwind CSS and Framer-motion. If you want to learn to create this you can follow the tutorial link given in the Read me file.
     last_synced_sha: eddbb169917377e692b218bdd4ddd9690bc4e2da
     user_starred_at: '2025-09-25T23:29:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics:
@@ -41059,16 +41104,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.353Z'
+      prompt_version: v3
   - repo: CMeeg/nextjs-aca
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - cloud
+      - deployment
+    tags:
+      - azure
+      - nextjs
+      - lang:bicep
     summary: An `azd` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights.
     last_synced_sha: 1b5a2cde5da5beab48978d4c14b226602f3818dc
     user_starred_at: '2025-09-25T23:27:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -41091,16 +41145,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.353Z'
+      prompt_version: v3
   - repo: praetorian-inc/noseyparker
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+      - automation
+    tags:
+      - secrets-detection
+      - scanner
+      - lang:rust
     summary: Nosey Parker is a command-line tool that finds secrets and sensitive information in textual data and Git history.
     last_synced_sha: 2e6e7f36ce36619852532bbe698d8cb7a26d2da7
     user_starred_at: '2025-09-25T21:30:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -41130,15 +41193,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.353Z'
+      prompt_version: v3
   - repo: cisco/libsrtp
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+      - embedded
+    tags:
+      - srtp
+      - rtp
+      - lang:c
     summary: Library for SRTP (Secure Realtime Transport Protocol)
     last_synced_sha: 9073dfe9eea29ebd75ea747278e997924f3988bd
     user_starred_at: '2025-09-24T09:11:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -41161,15 +41233,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.353Z'
+      prompt_version: v3
   - repo: Azure-Samples/aoai-realtime-audio-sdk
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+    tags:
+      - azure
+      - gpt-4
+      - lang:ts
     summary: Azure Open AI code resources for using gpt-4o-realtime capabilities.
     last_synced_sha: aa554aae35477c4dffe9916c56cfff24ea6e9382
     user_starred_at: '2025-09-24T09:11:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -41189,15 +41269,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.353Z'
+      prompt_version: v3
   - repo: heroiclabs/nakama
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - networking
+      - databases
+    tags:
+      - multiplayer
+      - backend
+      - lang:go
     summary: 'Scalable open-source game backend server: multiplayer, matchmaking, leaderboards, chat, and social features for games.'
     last_synced_sha: 766476f85757b6c3ece251e845d959f6896dd731
     user_starred_at: '2025-09-24T09:09:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -41237,15 +41326,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.353Z'
+      prompt_version: v3
   - repo: hackmdio/codimd
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+      - ui-libraries
+    tags:
+      - markdown
+      - collaboration
+      - lang:js
     summary: Codi MD - Realtime collaborative markdown notes on all platforms.
     last_synced_sha: b1188a5648a23d970b9ad58612376e6602431f6f
     user_starred_at: '2025-09-24T09:08:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -41271,15 +41369,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.353Z'
+      prompt_version: v3
   - repo: novatorem/novatorem
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - readme
+      - spotify
+      - lang:python
     summary: Dynamic realtime profile Read Me linked with spotify
     last_synced_sha: 494eeb27a78dcc0be1975b2e5189d7af46be2f06
     user_starred_at: '2025-09-24T09:07:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -41299,15 +41405,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.352Z'
+      prompt_version: v3
   - repo: supabase/realtime
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - apis
+      - networking
+    tags:
+      - postgresql
+      - realtime
+      - lang:elixir
     summary: Broadcast, Presence, and Postgres Changes via Web Sockets
     last_synced_sha: 0916b0dceaf9b3b4ae6a1e1361f08221fe9e095d
     user_starred_at: '2025-09-24T08:49:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Elixir
       topics:
@@ -41338,15 +41453,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.352Z'
+      prompt_version: v3
   - repo: matiasmenares/Nissboard
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - ui-libraries
+    tags:
+      - dashboard
+      - car
+      - lang:js
     summary: 🚗 Nissan Consult/OBDII Realtime Dashboard
     last_synced_sha: a4ac4e9662f2769d988b919ea6db257a5c64d842
     user_starred_at: '2025-09-24T08:47:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -41375,6 +41498,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:56:45.352Z'
+      prompt_version: v3
   - repo: badsyntax/mailinabox-ui
     categories:
       - web-dev
