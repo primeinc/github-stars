@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-21T03:54:10.743Z'
+  manifest_updated_at: '2026-03-21T03:54:43.842Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -42901,13 +42901,16 @@ repositories:
     framework: null
   - repo: HKUDS/AI-Researcher
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - ai-research
+      - lang:python
     summary: '[Neur IPS2025] "AI-Researcher: Autonomous Scientific Innovation" -- A production-ready version: https://novix.science/chat'
     last_synced_sha: f9a6f8480860c193afff600eeffe3defcee8a978
     user_starred_at: '2025-09-22T15:53:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42926,15 +42929,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.710Z'
+      prompt_version: v3
   - repo: leaningtech/webvm
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - system-admin
+    tags:
+      - virtual-machine
+      - webassembly
+      - lang:js
     summary: Virtual Machine for the Web
     last_synced_sha: 3292ad102a27c7115aa1e3d2e73c949b7b1ccedc
     user_starred_at: '2025-09-22T15:52:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -42965,15 +42976,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.710Z'
+      prompt_version: v3
   - repo: deskflow/deskflow
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - networking
+    tags:
+      - keyboard-sharing
+      - mouse-sharing
+      - lang:cpp
     summary: Share a single keyboard and mouse between multiple computers.
     last_synced_sha: 868b421671149c69ae8d0ea1a6ce8d2ba6f63c10
     user_starred_at: '2025-09-22T15:51:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -42998,15 +43017,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.709Z'
+      prompt_version: v3
   - repo: aseprite/aseprite
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - desktop-dev
+    tags:
+      - sprite-editor
+      - pixel-art
+      - lang:cpp
     summary: Animated sprite editor & pixel art tool (Windows, mac OS, Linux)
     last_synced_sha: 61ccd144bc6d2d5bf11d87815b8f509bc7177d8a
     user_starred_at: '2025-09-22T15:49:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -43041,15 +43068,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.709Z'
+      prompt_version: v3
   - repo: jellyfin/jellyfin
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - media-server
+      - lang:csharp
     summary: The Free Software Media System - Server Backend & API
     last_synced_sha: f6211a03dd3561478b1a6c600b5d78aae7b3050e
     user_starred_at: '2025-09-22T15:48:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -43073,15 +43107,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.709Z'
+      prompt_version: v3
   - repo: Prowlarr/Prowlarr
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+    tags:
+      - indexer
+      - torrent
+      - lang:csharp
+      - reactjs
     summary: Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps, supporting management of both Torrent Trackers and Usenet Indexers.
     last_synced_sha: 8b3837cb6e6cc4bb3d232fa6d51ce42cee3a96b0
     user_starred_at: '2025-09-22T15:48:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -43107,15 +43150,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.709Z'
+      prompt_version: v3
   - repo: LykosAI/StabilityMatrix
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - package-manager
+      - stable-diffusion
+      - lang:csharp
     summary: Multi-Platform Package Manager for Stable Diffusion
     last_synced_sha: 5d8a68d825fdc1ad71f6d384e09331b2364de0df
     user_starred_at: '2025-09-22T15:48:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -43144,15 +43195,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.709Z'
+      prompt_version: v3
   - repo: OpenRA/OpenRA
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - desktop-dev
+    tags:
+      - game-engine
+      - strategy
+      - lang:csharp
     summary: 'Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and Open GL. Runs on Windows, Linux, *BSD and Mac OS X.'
     last_synced_sha: 7dadf136126933b229f683d5ea52bfd22104db79
     user_starred_at: '2025-09-22T15:47:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -43187,15 +43246,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.709Z'
+      prompt_version: v3
   - repo: asgeirtj/system_prompts_leaks
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - ai
+      - llm
+      - lang:html
     summary: Collection of extracted System Prompts from popular chatbots like Chat GPT, Claude & Gemini
     last_synced_sha: 059524e5e1da4264449d6a0ef457f69f1549c5fc
     user_starred_at: '2025-09-22T15:47:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -43227,15 +43294,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.709Z'
+      prompt_version: v3
   - repo: simdjson/simdjson
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - dev-tools
+    tags:
+      - json-parser
+      - simd
+      - lang:cpp
     summary: 'Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, Click House, Watermelon DB, Apache Doris, Milvus, Star Rocks'
     last_synced_sha: b4a0fd3ff4f00c4a5a9ab86046f06daa471a3b57
     user_starred_at: '2025-09-22T15:46:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -43275,15 +43350,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.709Z'
+      prompt_version: v3
   - repo: ytdl-org/youtube-dl
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - video-downloader
+      - command-line-tool
+      - lang:python
     summary: Command-line program to download videos from You Tube.com and other video sites
     last_synced_sha: 956b8c585591b401a543e409accb163eeaaa1193
     user_starred_at: '2025-09-22T15:45:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -43303,15 +43386,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.709Z'
+      prompt_version: v3
   - repo: iyaja/llama-fs
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - file-system
+      - lang:ts
+      - machine-learning
     summary: A self-organizing file system with llama 3
     last_synced_sha: 0a693717ca1845b3ae8c208b2929d987fcdabb81
     user_starred_at: '2025-09-22T15:41:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -43329,15 +43420,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.709Z'
+      prompt_version: v3
   - repo: formatjs/formatjs
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - frameworks
+    tags:
+      - i18n
+      - localization
+      - react
+      - lang:ts
     summary: The monorepo home to all of the Format JS related libraries, most notably react-intl.
     last_synced_sha: 3987ada49550325408c0f188923090f68fb4fac6
     user_starred_at: '2025-09-22T15:39:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43367,16 +43467,24 @@ repositories:
         published_at: '2026-03-20T23:15:11Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.709Z'
+      prompt_version: v3
   - repo: manaflow-ai/manaflow
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - openai-alternative
+      - cloud
+      - lang:ts
     summary: Open source Claude Code web/Codex Cloud/Devin/Ramp Inspect alternative
     last_synced_sha: b878bf240398cd31188f4f777b86289cb6bfff9a
     user_starred_at: '2025-09-22T15:37:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -43396,15 +43504,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.709Z'
+      prompt_version: v3
   - repo: beefproject/beef
     categories:
-      - unclassified
-    tags: []
+      - security
+      - frameworks
+    tags:
+      - browser-exploitation
+      - lang:js
     summary: The Browser Exploitation Framework Project
     last_synced_sha: 7f20d03429ff7f9c0d4418d2fc928a72b705121f
     user_starred_at: '2025-09-22T15:36:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -43424,6 +43539,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:54:42.709Z'
+      prompt_version: v3
   - repo: XTXMarkets/ternfs
     categories:
       - system-admin
