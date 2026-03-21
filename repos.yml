@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-21T04:00:22.863Z'
+  manifest_updated_at: '2026-03-21T04:00:53.431Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -36888,13 +36888,16 @@ repositories:
     framework: null
   - repo: github/docs
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - github-docs
+      - lang:ts
     summary: The open-source repo for docs.github.com
     last_synced_sha: 7cbca58400edbc80b22512947ec96563bc984bf1
     user_starred_at: '2025-10-19T19:56:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36916,15 +36919,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.191Z'
+      prompt_version: v3
   - repo: rolldown/rolldown
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - bundler
+      - rollup-compatible
+      - lang:rust
     summary: Fast Rust bundler for Java Script/Type Script with Rollup-compatible API.
     last_synced_sha: 9e7a9667a3b3c06808bddb04e49707849b52faa2
     user_starred_at: '2025-10-19T19:55:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -36947,15 +36958,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.191Z'
+      prompt_version: v3
   - repo: eclipse-iceoryx/iceoryx2
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - ipc
+      - middleware
+      - lang:rust
     summary: Eclipse iceoryx2™ - true zero-copy inter-process-communication with a Rust core
     last_synced_sha: de649db4e18df18d343ede4963f5383e5199cc49
     user_starred_at: '2025-10-19T19:54:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -36985,15 +37004,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.190Z'
+      prompt_version: v3
   - repo: louis-e/arnis
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - embedded
+    tags:
+      - location-generation
+      - minecraft
+      - lang:rust
     summary: Generate any location from the real world in Minecraft with a high level of detail.
     last_synced_sha: d605b7f3d5d366e872c5271ead9d12393d2a295e
     user_starred_at: '2025-10-19T19:54:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -37020,15 +37047,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.190Z'
+      prompt_version: v3
   - repo: fishaudio/fish-speech
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - tts
+      - state-of-the-art
+      - lang:python
     summary: SOTA Open Source TTS
     last_synced_sha: e85f49730b8cef232388d68ee9eddd2f4dcbe5d6
     user_starred_at: '2025-10-19T19:53:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -37055,15 +37090,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.190Z'
+      prompt_version: v3
   - repo: allenai/olmocr
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - pdf-processing
+      - llm-training
+      - lang:python
     summary: Toolkit for linearizing PDFs for LLM datasets/training
     last_synced_sha: 1e139a5ea61f1668164e6b63357d7284a8391615
     user_starred_at: '2025-10-19T19:52:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -37083,15 +37126,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.190Z'
+      prompt_version: v3
   - repo: resemble-ai/chatterbox
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - text-to-speech
+      - tts
+      - lang:python
     summary: So TA open-source TTS
     last_synced_sha: eaf93540a1dde06da2f7e93117bfa4a97908393a
     user_starred_at: '2025-10-19T19:51:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -37111,15 +37162,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.190Z'
+      prompt_version: v3
   - repo: trekhleb/javascript-algorithms
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - data-science
+    tags:
+      - algorithms
+      - data-structures
+      - lang:js
     summary: 📝 Algorithms and data structures implemented in Java Script with explanations and links to further readings
     last_synced_sha: 115e42816808484f76de4e6703caa8280e03ed54
     user_starred_at: '2025-10-19T19:50:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -37145,15 +37204,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.190Z'
+      prompt_version: v3
   - repo: SillyTavern/SillyTavern
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - chat-interface
+      - llm
+      - lang:js
     summary: LLM Frontend for Power Users.
     last_synced_sha: 30e66f0ea0a8af256bff328349f9f95fc947d018
     user_starred_at: '2025-10-19T19:49:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -37176,15 +37243,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.190Z'
+      prompt_version: v3
   - repo: ramensoftware/windhawk
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - customization
+      - windows-enhancements
+      - lang:cpp
     summary: 'The customization marketplace for Windows programs: https://windhawk.net/'
     last_synced_sha: b59b38cd77daec98830c0e5e2ad14a35c44f02a7
     user_starred_at: '2025-10-19T19:41:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -37204,15 +37279,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.190Z'
+      prompt_version: v3
   - repo: amnezia-vpn/amnezia-client
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - vpn-client
+      - privacy
+      - lang:cpp
     summary: Amnezia VPN Client (Desktop+Mobile)
     last_synced_sha: 40e39895c9c03bb923e0b796f1973c0cd29143c5
     user_starred_at: '2025-10-19T19:38:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -37241,15 +37324,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.190Z'
+      prompt_version: v3
   - repo: duckdb/duckdb
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - data-science
+    tags:
+      - sql-database
+      - analytics
+      - lang:cpp
     summary: Duck DB is an analytical in-process SQL database management system
     last_synced_sha: 34e4f91aa3d1adc8ec9f1c6ad1b64e97d2467ade
     user_starred_at: '2025-10-19T19:38:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -37274,15 +37365,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.190Z'
+      prompt_version: v3
   - repo: microsoft/microsoft-ui-xaml
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - ui-framework
+      - windows-development
+      - lang:cpp
     summary: 'Win UI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications.'
     last_synced_sha: 0d75f2098511d8827aa4c035698a5c4cdbc04831
     user_starred_at: '2025-10-19T19:38:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -37312,15 +37411,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.190Z'
+      prompt_version: v3
   - repo: Tyrrrz/YoutubeDownloader
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - networking
+    tags:
+      - video-downloader
+      - media
+      - lang:csharp
     summary: Downloads videos and playlists from You Tube
     last_synced_sha: 9dbf1219d3b073e0ab7532b12136cdd9a9089ccd
     user_starred_at: '2025-10-19T19:33:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -37350,15 +37457,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.190Z'
+      prompt_version: v3
   - repo: ppy/osu
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - rhythm-game
+      - music
+      - lang:csharp
     summary: rhythm is just a *click* away!
     last_synced_sha: 22b8a8e57db181f783e3eae78a55190f68a0c804
     user_starred_at: '2025-10-19T19:33:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -37385,6 +37499,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:00:52.189Z'
+      prompt_version: v3
   - repo: LibreHardwareMonitor/LibreHardwareMonitor
     categories:
       - monitoring
