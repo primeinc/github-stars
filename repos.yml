@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-21T03:53:05.979Z'
+  manifest_updated_at: '2026-03-21T03:53:37.883Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -44000,13 +44000,19 @@ repositories:
     framework: null
   - repo: puckeditor/puck
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - ai
+      - page-builder
+      - drag-and-drop
+      - no-code
+      - lang:ts
     summary: Create your own AI page builder
     last_synced_sha: edc819204441dbcdea96295305d0f579bb200bfc
     user_starred_at: '2025-09-17T09:00:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44035,16 +44041,25 @@ repositories:
         published_at: '2026-01-23T12:50:41Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.673Z'
+      prompt_version: v3
   - repo: Phantom-video/HuMo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-generation
+      - human-centric
+      - multi-modal
+      - lang:python
     summary: 'Hu Mo: Human-Centric Video Generation via Collaborative Multi-Modal Conditioning'
     last_synced_sha: 845f44736e21be93aa5d8cf406b6eb01af9bff67
     user_starred_at: '2025-09-17T08:59:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -44062,15 +44077,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.673Z'
+      prompt_version: v3
   - repo: namazso/SecureUxTheme
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - security
+    tags:
+      - ux-theme
+      - windows
+      - customization
+      - lang:cpp
     summary: 🎨 A secure boot compatible in-memory Ux Theme patcher
     last_synced_sha: 6aa8af8b6547ab629bfcf971d458f5fd3f193ad1
     user_starred_at: '2025-09-17T08:58:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -44102,15 +44126,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.673Z'
+      prompt_version: v3
   - repo: ByteDance-Seed/Bagel
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - multimodal
+      - unified-model
+      - lang:python
     summary: Open-source unified multimodal model
     last_synced_sha: 056b5fd51a88c1eb4547318609e25d40080fcf87
     user_starred_at: '2025-09-17T08:53:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -44128,15 +44160,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.673Z'
+      prompt_version: v3
   - repo: ccfos/nightingale
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - cloud
+    tags:
+      - monitoring
+      - alerting
+      - time-series
+      - metrics
+      - lang:go
     summary: Nightingale is to monitoring and alerting what Grafana is to visualization.
     last_synced_sha: ea9c52c808cda7f8716127aaa46c67827d150873
     user_starred_at: '2025-09-17T08:53:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -44165,15 +44207,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.673Z'
+      prompt_version: v3
   - repo: usekaneo/kaneo
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - project-management
+      - kanban
+      - react
+      - self-hosted
+      - lang:ts
     summary: 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.
     last_synced_sha: 3218979b378934ef2c16e41f4120ffc777921865
     user_starred_at: '2025-09-15T07:08:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44203,16 +44255,25 @@ repositories:
         published_at: '2026-03-14T14:07:29Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.673Z'
+      prompt_version: v3
   - repo: vercel/platforms
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - nextjs
+      - multi-tenancy
+      - vercel
+      - lang:ts
     summary: A full-stack Next.js app with multi-tenancy.
     last_synced_sha: bd3cd5c26e5fe7d10f3d093243d3a31b018a6987
     user_starred_at: '2025-09-14T20:16:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44234,16 +44295,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.673Z'
+      prompt_version: v3
   - repo: CompliantSec/M365SAT
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - microsoft-365
+      - security-assessment
+      - lang:powershell
     summary: Microsoft 365 Security Assessment Tool - A Easy-To-Use Microsoft 365 Security Assessment Tool
     last_synced_sha: a1fdec4a95571989b26103a2079fc5f35bccfd75
     user_starred_at: '2025-09-14T20:04:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -44261,15 +44330,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.673Z'
+      prompt_version: v3
   - repo: betomoedano/snapai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - mobile-dev
+    tags:
+      - ai
+      - react-native
+      - expo
+      - icon-generator
+      - lang:ts
     summary: AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using Open AI's latest models.
     last_synced_sha: 20affcd2c352d97d40b5851440d091355f416c27
     user_starred_at: '2025-09-14T07:03:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44296,15 +44375,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.673Z'
+      prompt_version: v3
   - repo: piyushsachdeva/AzureDevOps-Zero-to-Hero
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - automation
+      - dev-tools
+    tags:
+      - devops
+      - ci-cd
+      - azure
+      - lang:shell
     summary: A central hub for artifacts, agendas, and resources related to the "Azure Dev Ops Zero to Hero" series on Tech Tutorials with Piyush You Tube channel. Access code snippets, agendas, notes, graphics...
     last_synced_sha: 29f97f0de911a6cdb0993cddb3cf8efc9b282e82
     user_starred_at: '2025-09-13T22:07:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -44331,15 +44420,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.673Z'
+      prompt_version: v3
   - repo: Azure-Samples/remote-mcp-webapp-node
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - azure
+      - nodejs
+      - lang:js
     summary: No description provided
     last_synced_sha: c5c398e5d8ee4e7aaae45e1bd32ff367b2de8857
     user_starred_at: '2025-09-13T19:56:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -44357,15 +44454,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.673Z'
+      prompt_version: v3
   - repo: Azure-Samples/communication-services-javascript-quickstarts
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - azure
+      - communication-services
+      - quickstart
+      - lang:js
     summary: Sample code for Azure Communication Services Java Script quickstarts
     last_synced_sha: d3805d2c77290bcee57bf0c216e4451dc6d3d6ee
     user_starred_at: '2025-09-13T19:35:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -44383,15 +44489,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.672Z'
+      prompt_version: v3
   - repo: umijs/father
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - npm
+      - package-development
+      - lang:ts
     summary: NPM package development tool
     last_synced_sha: 64472a4d0ef612b990b5f3c88f731bc334ce9617
     user_starred_at: '2025-09-13T18:24:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -44411,15 +44525,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.672Z'
+      prompt_version: v3
   - repo: unjs/pathe
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - path-module
+      - nodejs
+      - normalization
+      - lang:ts
     summary: 🛣️ Drop-in replacement of the Node.js's path module module that ensures paths are normalized
     last_synced_sha: 1b504b26e02dce104dca58a270e1e7648944573c
     user_starred_at: '2025-09-13T18:19:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -44439,15 +44562,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.672Z'
+      prompt_version: v3
   - repo: unjs/obuild
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - esm
+      - typescript
+      - package-builder
+      - lang:ts
     summary: 📦 😯 Zero-config ESM/TS package builder.
     last_synced_sha: 2ccf3360a09f37959e0a57fc1b1b7b179922c59a
     user_starred_at: '2025-09-13T18:16:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -44467,6 +44599,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:53:36.672Z'
+      prompt_version: v3
   - repo: RentCast/api-resources
     categories:
       - apis
