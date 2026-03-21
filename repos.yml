@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-21T04:00:53.431Z'
+  manifest_updated_at: '2026-03-21T04:01:24.104Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -36376,13 +36376,20 @@ repositories:
     framework: null
   - repo: daveRendon/azinsider
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - deployment
+      - automation
+    tags:
+      - bicep
+      - azure
+      - lang:bicep
+      - devops
+      - bicep-templates
     summary: 🚀 The Az Insider Repo offers code samples to help you deploy various workloads in your Azure environment using Bicep language. It simplifies the deployment process and makes it easy to get your ap...
     last_synced_sha: 729820bcbba7169cea18cd3a7c2ab9b2a6e2c9cf
     user_starred_at: '2025-10-24T02:38:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -36420,15 +36427,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.844Z'
+      prompt_version: v3
   - repo: TheCloudTheory/arm-estimator
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - automation
+      - productivity
+    tags:
+      - cost-estimation
+      - arm-templates
+      - azure
+      - lang:csharp
     summary: ACE (Azure Cost Estimator) - automated cost estimations for ARM Templates, Bicep and Terraform
     last_synced_sha: 72d9fa904453de8acee8da36aa48d58cb90b9933
     user_starred_at: '2025-10-24T02:36:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -36454,15 +36471,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.844Z'
+      prompt_version: v3
   - repo: EzioBy/Ditto
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - video-editing
+      - diffusion-models
+      - synthetic-data
+      - lang:python
     summary: '[CVPR 2026] Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset'
     last_synced_sha: a43e46f7045cd99ed66e07c7d48ccabff2356f4a
     user_starred_at: '2025-10-24T00:11:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -36483,15 +36509,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.844Z'
+      prompt_version: v3
   - repo: deepseek-ai/DeepSeek-OCR
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ocr
+      - lang:python
+      - compression
     summary: Contexts Optical Compression
     last_synced_sha: 09eaf526153e7a01ed16c9dea8c96282aaea29c0
     user_starred_at: '2025-10-23T22:14:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -36509,15 +36543,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.844Z'
+      prompt_version: v3
   - repo: kayasax/EasyPIM
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - entra-id
+      - lang:powershell
+      - pim
+      - azure
     summary: Easy PIM let you manage PIM Azure Resource, Entra Role and Groups settings and assignments with simplicity
     last_synced_sha: c545af0d66f864a573996849c11cf50a67f7896e
     user_starred_at: '2025-10-22T14:44:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -36540,15 +36583,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.844Z'
+      prompt_version: v3
   - repo: microsoft/Intune-solutions
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - intune
+      - lang:powershell
+      - solutions
     summary: Git Hub Repository for Solution Intune Sample Scripts
     last_synced_sha: 029ec35f7e265b5af85083f2e492f0b6df8a604c
     user_starred_at: '2025-10-22T14:32:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -36566,15 +36617,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.844Z'
+      prompt_version: v3
   - repo: kennethvs/cabaseline202510
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - security
+    tags:
+      - conditional-access
+      - baseline
+      - policies
     summary: Conditional Access baseline for October 2025
     last_synced_sha: 17a0cd68ba1566cf6bdaf9811372b4a36a1791d1
     user_starred_at: '2025-10-22T14:31:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -36592,15 +36651,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.844Z'
+      prompt_version: v3
   - repo: SkipToTheEndpoint/OpenIntuneBaseline
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - security
+      - learning
+    tags:
+      - intune
+      - security
+      - device-config
+      - lang:powershell
     summary: Community-driven baseline to accelerate Intune adoption and learning.
     last_synced_sha: 75c4825cd59936c7a33bb249ca41a3764c3b3858
     user_starred_at: '2025-10-22T14:29:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -36624,15 +36693,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.844Z'
+      prompt_version: v3
   - repo: aleks-apostle/claude-code-patches
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - patch
+      - lang:js
+      - toggle-feature
     summary: A simple patch that toggles claude-code thinking traces to be fully expanded by default without having to press ctrl + o
     last_synced_sha: d286f71dc22b8748f3c0622fdaeedb7882e69773
     user_starred_at: '2025-10-22T09:27:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -36650,15 +36727,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.844Z'
+      prompt_version: v3
   - repo: elie222/inbox-zero
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - web-dev
+    tags:
+      - email
+      - lang:ts
+      - nextjs
+      - productivity
+      - openai
     summary: The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.
     last_synced_sha: 5151ed1920920a210c13bfc12429cb74fa15de3c
     user_starred_at: '2025-10-19T19:59:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36694,16 +36782,27 @@ repositories:
         published_at: '2026-03-08T14:29:31Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.844Z'
+      prompt_version: v3
   - repo: MCP-UI-Org/mcp-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+      - web-dev
+    tags:
+      - ui
+      - frontend
+      - lang:ts
+      - llm
+      - web
     summary: UI over MCP. Create next-gen UI experiences with the protocol and SDK!
     last_synced_sha: af881f9eff2cb0c394587cbf3bd00ffe5ee973a0
     user_starred_at: '2025-10-19T19:58:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36729,15 +36828,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.844Z'
+      prompt_version: v3
   - repo: github/codeql-action
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+      - testing
+    tags:
+      - code-scanning
+      - ci
+      - lang:ts
+      - code-ql
     summary: Actions for running Code QL analysis
     last_synced_sha: 05b1a5d28f8763fd11e77388fe57846f1ba8e766
     user_starred_at: '2025-10-19T19:57:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36763,15 +36872,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.844Z'
+      prompt_version: v3
   - repo: anomalyco/opencode
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - coding-agent
+      - lang:ts
+      - open-source
     summary: The open source coding agent.
     last_synced_sha: 40aeaa120d050a0f3395367cbc2acea052bd8fe6
     user_starred_at: '2025-10-19T19:57:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -36791,15 +36908,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.844Z'
+      prompt_version: v3
   - repo: storybookjs/storybook
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - testing
+      - documentation
+    tags:
+      - storybook
+      - design-systems
+      - lang:ts
+      - ui-components
     summary: Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation
     last_synced_sha: 87733f1a77f5a0cdb7889ec30eaeedbfb3acf491
     user_starred_at: '2025-10-19T19:57:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36839,15 +36966,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.844Z'
+      prompt_version: v3
   - repo: payloadcms/payload
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+      - databases
+    tags:
+      - headless-cms
+      - graphql
+      - lang:ts
+      - mongodb
     summary: Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full Type Script backend and admin panel instantly. Use Payload as a headless CMS or for build...
     last_synced_sha: 167a01eb0ca69894bfc44e2f8b605148ab646922
     user_starred_at: '2025-10-19T19:56:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36885,7 +37022,11 @@ repositories:
         published_at: '2026-03-20T18:09:51Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T04:01:22.843Z'
+      prompt_version: v3
   - repo: github/docs
     categories:
       - documentation
