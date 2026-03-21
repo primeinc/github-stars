@@ -1,0 +1,10 @@
+# Tag: audio-processing
+
+*2 repositories*
+
+[← Back to Index](../README.md)
+
+| Repository | Description | Metadata | Last Pushed |
+|---|---|---|---|
+| [talin190/Qwen3-TTS-Daggr-UI](https://github.com/talin190/Qwen3-TTS-Daggr-UI) | 🎤 Create dynamic voice experiences with Qwen3-TTS-Daggr-UI, a Gradio app for voice design, cloning, and speech recognition across multiple languages. | `Python` ★ 3 | 2026-03-21 |
+| [DoIT-Artificial-Intelligence/youtube-to-docs](https://github.com/DoIT-Artificial-Intelligence/youtube-to-docs) | Convert You Tube videos into structured docs, summaries, audio, and visual assets for easier discovery. | `Python` ★ 36 | 2026-03-20 |

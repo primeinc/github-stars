@@ -1,17 +1,34 @@
 # Networking
 
-*7 repositories*
+*24 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [streamlink/streamlink](https://github.com/streamlink/streamlink) | Streamlink is a CLI utility which pipes video streams from various services into a video player | `Python` ★ 11.4k | 2026-03-18 |
+| [squidowl/halloy](https://github.com/squidowl/halloy) | IRC application written in Rust | `Rust` ★ 3.9k | 2026-03-20 |
+| [bubbleran/telco-network-configuration](https://github.com/bubbleran/telco-network-configuration) | The goal of this blueprint is to develop an agentic AI workflow that provides insight to the end user on close-to-optimal configuration values for specific RAN parameters at a cell-site. | `Python` ★ 25 | 2025-06-11 |
 | [xtieume/PrinterOne](https://github.com/xtieume/PrinterOne) | A comprehensive TCP network print server with integrated GUI management and system tray support for Windows. | `Python` ★ 49 | 2025-08-05 |
 | [doomspork/printergeist](https://github.com/doomspork/printergeist) | No description provided | `Rust` ★ 1 | 2024-06-14 |
 | [cityssm/snmp-oid-collector](https://github.com/cityssm/snmp-oid-collector) | Collect OID values from a series of SNMP-enabled servers in a flash! | `TypeScript` ★ 3 | 2026-02-02 |
-| [dragonflyoss/dragonfly](https://github.com/dragonflyoss/dragonfly) | Delivers efficient, stable, and secure data distribution and acceleration powered by P2P technology, with an optional content‑addressable filesystem that accelerates OCI container launch. | `Go` ★ 3.1k | 2026-03-19 |
-| [clusterzx/ts6-manager](https://github.com/clusterzx/ts6-manager) | Web-based management interface for Team Speak servers | `TypeScript` ★ 69 | 2026-03-18 |
-| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 104k | 2026-03-19 |
-| [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 358 | 2026-03-18 |
+| [dragonflyoss/dragonfly](https://github.com/dragonflyoss/dragonfly) | Delivers efficient, stable, and secure data distribution and acceleration powered by P2P technology, with an optional content‑addressable filesystem that accelerates OCI container launch. | `Go` ★ 3.1k | 2026-03-20 |
+| [clusterzx/ts6-manager](https://github.com/clusterzx/ts6-manager) | Web-based management interface for Team Speak servers | `TypeScript` ★ 70 | 2026-03-18 |
+| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 104.2k | 2026-03-20 |
+| [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 362 | 2026-03-18 |
+| [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app) | Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | `Dart` ★ 27.7k | 2026-03-05 |
+| [dead10ck/nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns) | DNS utility for nushell | `Rust` ★ 52 | 2026-03-03 |
+| [ninenines/cowlib](https://github.com/ninenines/cowlib) | Support library for manipulating Web protocols. | `Erlang` ★ 291 | 2025-11-06 |
+| [likexian/whois-parser](https://github.com/likexian/whois-parser) | Whois parser for domain whois information parsing in Go(Golang). | `Go` ★ 328 | 2026-01-04 |
+| [sirkirby/unifi-mcp](https://github.com/sirkirby/unifi-mcp) | MCP servers for the Uni Fi suite of applications, Network, Protect, Access, and Drive | `Python` ★ 207 | 2026-03-19 |
+| [gbassaragh/Unifi-mcp](https://github.com/gbassaragh/Unifi-mcp) | MCP server for Uni Fi Network and Protect API integration - AI-powered network management | `Python` ★ 2 | 2026-01-10 |
+| [zabbix/zabbix](https://github.com/zabbix/zabbix) | Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud. | `Go Template` ★ 5.7k | 2026-03-20 |
+| [Safe3/openresty-manager](https://github.com/Safe3/openresty-manager) | Modern, secure, and elegant server control panel, alternative to Open Resty Edge and Nginx Proxy Manager. | `Go` ★ 1.3k | 2026-01-25 |
+| [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses. | `Go` ★ 36.1k | 2026-03-19 |
+| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | `TypeScript` ★ 28.8k | 2026-03-20 |
+| [cometbft/cometbft](https://github.com/cometbft/cometbft) | Comet BFT: A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. A fork and successor to Tendermint Core. | `Go` ★ 872 | 2026-03-20 |
+| [amnezia-vpn/amneziawg-windows-client](https://github.com/amnezia-vpn/amneziawg-windows-client) | Amnezia WG client for Windows | `Go` ★ 661 | 2026-02-27 |
+| [pimalaya/himalaya](https://github.com/pimalaya/himalaya) | CLI to manage emails | `Rust` ★ 5.8k | 2026-03-17 |
+| [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) | bluetooth mesh chat, IRC vibes | `Swift` ★ 25.5k | 2026-03-15 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
