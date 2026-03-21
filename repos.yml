@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-21T03:57:13.613Z'
+  manifest_updated_at: '2026-03-21T03:57:47.595Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -39904,13 +39904,18 @@ repositories:
     framework: null
   - repo: Dictionarry-Hub/profilarr
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - configuration-management
+      - radarr
+      - sonarr
+      - lang:ts
     summary: Configuration Management Platform for Radarr/Sonarr
     last_synced_sha: d73858fc2e4996c645c8342a3a61d11b9ea991a2
     user_starred_at: '2025-09-29T12:57:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -39930,15 +39935,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.505Z'
+      prompt_version: v3
   - repo: ServiceNow/BrowserGym
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - web-task-automation
+      - ai
+      - browser
+      - lang:python
+      - llm
     summary: 🌎💪 Browser Gym, a Gym environment for web task automation
     last_synced_sha: 9e779f087de9a65668b6974d11f9ce9816026e96
     user_starred_at: '2025-09-29T12:55:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -39961,15 +39976,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.505Z'
+      prompt_version: v3
   - repo: HybridBrothers/Hybrid-Brothers-Blogs
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - cloud
+    tags:
+      - code-snippets
+      - blog
+      - lang:bicep
+      - hybridbrothers
     summary: This repository contains code snippets used in blog posts of hybridbrothers.com.
     last_synced_sha: cf0884e80c1a0bc2b980e2fa55e698a28710a4a9
     user_starred_at: '2025-09-29T12:47:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -39987,15 +40011,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.505Z'
+      prompt_version: v3
   - repo: Build5Nines/azd-react-bootstrap-dashboard
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - cloud
+    tags:
+      - azure
+      - dashboard
+      - lang:bicep
+      - react
+      - azure-app-service
     summary: A multi-tier app with a dashboard front-end (React + Bootstrap) hosted in Azure Static Web Apps and back-end API (Node.js) hosted in Azure App Service
     last_synced_sha: e451945147a17e925601d66b7d00c1fbe12b90b7
     user_starred_at: '2025-09-29T09:09:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -40022,16 +40056,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.505Z'
+      prompt_version: v3
   - repo: Azure/APICenter-Portal-Starter
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - api-center
+      - api-discovery
+      - lang:ts
+      - portal
     summary: Reference implementation of API Center portal for a web-based API discovery and consumption experience
     last_synced_sha: 425cfea1d7bbbfdb9fa75b7cee4105f4434047d7
     user_starred_at: '2025-09-29T08:56:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -40049,15 +40092,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.505Z'
+      prompt_version: v3
   - repo: city96/ComfyUI-GGUF
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - gguf
+      - model-quantization
+      - lang:python
     summary: GGUF Quantization support for native Comfy UI models
     last_synced_sha: 6ea2651e7df66d7585f6ffee804b20e92fb38b8a
     user_starred_at: '2025-09-29T04:55:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -40075,15 +40126,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.505Z'
+      prompt_version: v3
   - repo: QwenLM/Qwen3-Omni
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - llm
+      - multi-modal
+      - lang:jupyter-notebook
+      - alibaba-cloud
     summary: Qwen3-omni is a natively end-to-end, omni-modal LLM developed by the Qwen team at Alibaba Cloud, capable of understanding text, audio, images, and video, as well as generating speech in real time.
     last_synced_sha: a294a1bfa5acccfe14fab20b7a83148ca250ed91
     user_starred_at: '2025-09-28T16:31:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -40101,15 +40161,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.505Z'
+      prompt_version: v3
   - repo: rathi-yash/MindVault-AI-Bookmarker
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - bookmark-management
+      - ai
+      - lang:js
+      - chrome-extension
     summary: Mind Vault is an innovative Chrome extension that revolutionizes bookmark management using AI. Winner of the Best AI/ML Project at UBHacking, this tool automatically categorizes and organizes your ...
     last_synced_sha: 7ebd91b8d88b4e31513f67a003a8f652eb1f0648
     user_starred_at: '2025-09-28T12:05:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -40127,15 +40196,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.505Z'
+      prompt_version: v3
   - repo: download-directory/download-directory.github.io
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - dev-tools
+    tags:
+      - downloader
+      - github
+      - lang:ts
+      - webapp
+      - tool
     summary: 'Web App: Download just a sub directory from a Git Hub repo.'
     last_synced_sha: 9a9786dd6765f7b6e2de1eb27136f40451029578
     user_starred_at: '2025-09-27T15:28:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40159,15 +40238,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.505Z'
+      prompt_version: v3
   - repo: ikas-mc/ContextMenuForWindows11
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - windows-11
+      - context-menu
+      - lang:csharp
+      - desktop
     summary: Add Custom Context Menu For Windows11
     last_synced_sha: 1a82b2517c931b7bae19f80d07c46df95805b32d
     user_starred_at: '2025-09-27T15:01:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -40192,15 +40280,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.505Z'
+      prompt_version: v3
   - repo: microsoft/DirectXTK
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - desktop-dev
+    tags:
+      - directx
+      - graphics
+      - lang:cpp
+      - desktop-tools
+      - game-development
     summary: The Direct X Tool Kit (aka Direct XTK) is a collection of helper classes for writing Direct X 11.x code in C++
     last_synced_sha: 82859c3f9f638c4f3c72e808398cd43365ced1ed
     user_starred_at: '2025-09-27T15:00:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -40229,15 +40327,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.505Z'
+      prompt_version: v3
   - repo: felixrieseberg/windows-build-tools
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - build-tools
+      - windows
+      - lang:ts
+      - npm
+      - automation
     summary: ':package: Install C++ Build Tools for Windows using npm'
     last_synced_sha: c6c8c6a1f2f970c3dbd7288a87330cd96042166a
     user_starred_at: '2025-09-27T15:00:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -40266,15 +40374,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.505Z'
+      prompt_version: v3
   - repo: dolanmiu/docx
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - docx
+      - document-generation
+      - lang:ts
+      - typescript
+      - office-tools
     summary: Easily generate and modify .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser.
     last_synced_sha: 25ccada417c6a59534ee8978df33eb579f9b6b66
     user_starred_at: '2025-09-27T14:59:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -40313,15 +40431,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.505Z'
+      prompt_version: v3
   - repo: microsoft/Mastering-GitHub-Copilot-for-Paired-Programming
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - copilot
+      - tutorial
+      - ai-peer-programming
+      - lang:python
     summary: A multi-module course teaching everything you need to know about using Git Hub Copilot as an AI Peer Programming resource.
     last_synced_sha: d393198f677f78162215778374bf156e665428e7
     user_starred_at: '2025-09-27T14:58:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -40359,15 +40486,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.505Z'
+      prompt_version: v3
   - repo: microsoft/Microsoft-Purview-Advanced-Rich-Reports-MPARR-Collector
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - mparr
+      - rich-reports
+      - lang:powershell
     summary: Repository with all the MPARR components solution
     last_synced_sha: 532f5a469c332bf44855f6053420ce25649aa024
     user_starred_at: '2025-09-27T14:57:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -40385,6 +40520,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-21T03:57:46.504Z'
+      prompt_version: v3
   - repo: pnp/vscode-viva
     categories:
       - dev-tools
