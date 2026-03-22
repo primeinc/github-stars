@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-22T04:55:17.706Z'
+  manifest_updated_at: '2026-03-22T04:55:50.797Z'
   total_repos: 2454
   generator_version: v1.0.0
   github_user: primeinc
@@ -27770,13 +27770,18 @@ repositories:
     framework: null
   - repo: waynesutton/markdown-site
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - markdown-based-sites
+      - lang:ts
+      - content-publishing
+      - open-source
     summary: An open-source publishing framework built for AI agents and developers to ship websites, docs, or blogs. Write markdown, sync from the terminal. Your content is instantly available to browsers, LLM...
     last_synced_sha: 73449f20ee36f278a5cd69e85e2e40b33bd3482e
     user_starred_at: '2025-12-22T07:27:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27799,15 +27804,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: facebookresearch/detectron2
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - visual-recognition
+      - lang:python
+      - object-detection
+      - segmentation
     summary: Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.
     last_synced_sha: 8a9d885b3d4dcf1bef015f0593b872ed8d32b4ab
     user_starred_at: '2025-12-20T20:47:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -27827,15 +27841,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: facebookresearch/SceneAcousticEstimation
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - acoustic-analysis
+      - lang:python
+      - scene-estimation
+      - waspaa
     summary: Code, models, and dataset accompanying WASPAA 2025 paper, "Scene-wide Acoustic Parameter Estimation."
     last_synced_sha: a77fe9cd119615c31d4bd8c2511ba6259b14a412
     user_starred_at: '2025-12-20T20:42:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -27853,15 +27876,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: facebookresearch/perception_models
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - multimodal-llm
+      - lang:jupyter-notebook
+      - clip-models
+      - vision-ai
     summary: State-of-the-art Image & Video CLIP, Multimodal Large Language Models, and More!
     last_synced_sha: 3e352cca660658d4b5c90f42a7808b11469e4c66
     user_starred_at: '2025-12-20T20:32:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -27879,15 +27911,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: VisoMasterFusion/VisoMaster-Fusion
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - face-swapping
+      - lang:python
+      - live-portrait
+      - deepfake
+      - vr
     summary: Powerful & Easy-to-Use Video Face Swapping and Editing Software
     last_synced_sha: 5b4995812936909f16e75e9e1ba8c4e671e8ced0
     user_starred_at: '2025-12-20T04:15:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -27915,15 +27956,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: zhiyiYo/PyQt-Frameless-Window
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - qt-pyside-support
+      - lang:python
+      - cross-platform
+      - frameless-ui
     summary: A cross-platform frameless window based on Py Qt/Py Side, support Win32, Linux and mac OS.
     last_synced_sha: 10c6568b775844cd0e8bf6dbe9c498417e028347
     user_starred_at: '2025-12-18T11:39:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -27955,15 +28005,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: cppqtdev/QT-Home-Automation-Glass-UI
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - ui-libraries
+    tags:
+      - lang:qml
+      - qt-controls
+      - home-automation
+      - qt-glass-ui
     summary: Linkedin Page
     last_synced_sha: 35a25b41df8811b2535ac47be4f1678da4f4b63e
     user_starred_at: '2025-12-18T11:35:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: QML
       topics:
@@ -27988,15 +28047,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: NoeFabris/opencode-antigravity-auth
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+    tags:
+      - oauth-integration
+      - lang:ts
+      - authentication
+      - rate-limits
+      - google-api-access
     summary: Enable Opencode to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking with your Google...
     last_synced_sha: 09ccf4bbfe1a1d8b4830dfac8e9b7048bd1c4668
     user_starred_at: '2025-12-18T10:18:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28020,15 +28089,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: jasonkneen/workflow-builder-template
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - workflow-platform
+      - lang:ts
+      - visual-automation
     summary: Visual AI workflow automation platform
     last_synced_sha: 24fb0fd4524ee10491ea6b73f6df94137ecbf9e1
     user_starred_at: '2025-12-18T10:17:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: TypeScript
@@ -28047,15 +28124,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: google/dotguides
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - guides
+      - lang:ts
     summary: No description provided
     last_synced_sha: 3ba5636f43870081a8b1486c838cea01a73684da
     user_starred_at: '2025-12-18T10:17:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -28073,15 +28157,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: GVCLab/PersonaLive
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - portrait-animation
+      - lang:python
+      - cvpr
+      - live-streaming
+      - talking-head
     summary: '[CVPR 2026] Persona Live! : Expressive Portrait Image Animation for Live Streaming'
     last_synced_sha: c2ae2f77d2078460b0ddb07b56f4dc52d2e72c32
     user_starred_at: '2025-12-18T10:15:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -28103,15 +28196,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: Aleafy/V-RGBX
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - intrinsic-controls
+      - lang:python
+      - video-processing
+      - cvpr
     summary: '[CVPR 2026] V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties'
     last_synced_sha: 4de559b89f3ea469fc4659fc0d4adf47d1b708d3
     user_starred_at: '2025-12-18T10:12:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -28129,15 +28230,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: undox-rs/undox
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - static-site-generator
+      - content-aggregation
+      - lang:rust
     summary: ':book: A batteries-included static site generator built for documentation, with first-class support for aggregating content from multiple repositories'
     last_synced_sha: ecc4567cd6cb39bb119e311d29b4a7f411de9fc4
     user_starred_at: '2025-12-18T10:11:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -28160,15 +28269,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: shadcn/license-generator
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - open-source
+      - license-generator
+      - lang:js
+      - automation
     summary: Generates a license for your open source project.
     last_synced_sha: 14bc8f0d3509693ca446c1880f9ab7c0b4fe5727
     user_starred_at: '2025-12-18T10:10:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -28186,15 +28304,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: inclusionAI/TwinFlow
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - flow-models
+      - lang:python
+      - self-adversarial
+      - few-shot-training
     summary: '[ICLR 2026] Taming large-scale few-step training with self-adversarial flows! 👏🏻'
     last_synced_sha: a109a71b19634d9c5d5c45c3587d36b19f014917
     user_starred_at: '2025-12-18T10:10:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -28212,6 +28339,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:55:49.178Z'
+      prompt_version: v3
   - repo: jgm/pandoc
     categories:
       - productivity
