@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-22T04:21:13.428Z'
+  manifest_updated_at: '2026-03-22T04:21:49.130Z'
   total_repos: 2454
   generator_version: v1.0.0
   github_user: primeinc
@@ -71001,13 +71001,19 @@ repositories:
     framework: null
   - repo: OpenHands/OpenHands
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+      - automation
+    tags:
+      - developer-tools
+      - cli
+      - agents
+      - lang:python
     summary: '🙌 Open Hands: AI-Driven Development'
     last_synced_sha: 94b45c6c367e232f53595e571b4c590680793049
     user_starred_at: '2025-01-28T07:56:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -71036,15 +71042,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.514Z'
+      prompt_version: v3
   - repo: khoj-ai/khoj
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - apis
+    tags:
+      - semantic-search
+      - self-hosted
+      - agent
+      - lang:python
     summary: Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous ...
     last_synced_sha: e8631261400e0a04c5063e91e498b549976ffc53
     user_starred_at: '2025-01-28T07:55:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -71084,15 +71100,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.514Z'
+      prompt_version: v3
   - repo: n8n-io/n8n
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+      - apis
+    tags:
+      - workflow-automation
+      - visual-programming
+      - self-hosted
+      - lang:ts
     summary: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
     last_synced_sha: 682aa4ac94b232b0b5338adef88c0278cfc8cc5c
     user_starred_at: '2025-01-28T07:55:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -71132,15 +71158,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.514Z'
+      prompt_version: v3
   - repo: deepseek-ai/DeepSeek-LLM
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - deep-seek
+      - answers
+      - llm
+      - lang:makefile
     summary: 'Deep Seek LLM: Let there be answers'
     last_synced_sha: 6712a86bfb7dd25c73383c5ad2eb7a8db540258b
     user_starred_at: '2025-01-28T07:54:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Makefile
       topics: []
@@ -71158,15 +71193,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.514Z'
+      prompt_version: v3
   - repo: llamastack/llama-stack
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - llm-applications
+      - models
+      - lang:python
     summary: Composable building blocks to build LLM Apps
     last_synced_sha: 700b202df7e520c1b19977e97657b3aebc055e56
     user_starred_at: '2025-01-28T07:54:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -71186,15 +71229,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.514Z'
+      prompt_version: v3
   - repo: maybe-finance/maybe
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - frameworks
+    tags:
+      - finance
+      - rails
+      - personal-finance
+      - turbo
+      - lang:ruby
     summary: The personal finance app for everyone
     last_synced_sha: 77b5469832758d1cbee1a940f3012a1ae1c74cd3
     user_starred_at: '2025-01-28T07:53:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Ruby
@@ -71222,16 +71275,26 @@ repositories:
         published_at: '2025-07-24T22:05:26Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.514Z'
+      prompt_version: v3
   - repo: argenspin/Rope-Live
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - deepfake
+      - face-editing
+      - streaming
+      - computer-vision
+      - lang:python
     summary: Customized fork of Rope Deepfake software featuring live streaming capabilities and support for Deepfacelive models
     last_synced_sha: 7f612054394a23e44ccacc6ca38b77049a79baa3
     user_starred_at: '2025-01-27T16:50:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -71261,15 +71324,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.514Z'
+      prompt_version: v3
   - repo: Alucard24/Rope
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - gui
+      - deepfake
+      - lang:python
     summary: GUI-focused roop
     last_synced_sha: 5eb8436e7ff79a4d2528247fb07aaa8c9e71d3ad
     user_starred_at: '2025-01-27T11:59:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -71290,15 +71361,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.514Z'
+      prompt_version: v3
   - repo: swipelux/zeroid-secrets-storing-widget
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - secrets-management
+      - widget
+      - lang:ts
     summary: No description provided
     last_synced_sha: c757b8a2531b8b5a2e112191d79c65b3f2847d2a
     user_starred_at: '2025-01-27T10:40:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -71316,15 +71395,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.513Z'
+      prompt_version: v3
   - repo: timminator/ParsecVDA-Always-Connected
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - parsec
+      - virtual-display
+      - remote
+      - headless
+      - lang:cpp
     summary: Connects a Virtual Display to your PC and allows for a headless operation - no need for Dummy Plugs anymore! Now as a Windows service!
     last_synced_sha: a56e477bc50e8de4f151d6b53aaf46e58b27a205
     user_starred_at: '2025-01-26T20:14:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C++
@@ -71349,15 +71438,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.513Z'
+      prompt_version: v3
   - repo: olm3ca/mirror
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - embedded
+    tags:
+      - smart-mirror
+      - lululemon-mirror
+      - enhancements
     summary: Enhancements for the Lululemon Mirror
     last_synced_sha: 57d77ee0e3d9c3c5dc3657299e16799897b860bc
     user_starred_at: '2025-01-26T15:51:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -71376,15 +71473,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.513Z'
+      prompt_version: v3
   - repo: dusty-nv/NanoDB
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - embedded
+      - ai-ml
+    tags:
+      - cuda
+      - vector-database
+      - clip
+      - lang:python
     summary: Zero-copy multimodal vector DB with CUDA and CLIP/Sig LIP
     last_synced_sha: f8df95db3ac29098d2957628c8ee1fdd9f12b125
     user_starred_at: '2025-01-25T15:38:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -71402,15 +71509,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.513Z'
+      prompt_version: v3
   - repo: paloukari/jetson-detectors
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - embedded
+    tags:
+      - remote-dev
+      - windows
+      - jetson
+      - lang:python
     summary: Contains examples and documentation on how to setup your remote development environment from your Windows host to a Jetson device
     last_synced_sha: d9d9a0aa4e86acdbd1e099156c649536a7f36d2c
     user_starred_at: '2025-01-25T15:32:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -71428,15 +71544,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.513Z'
+      prompt_version: v3
   - repo: Ryoyo-NV/People-Flow-Analysis-System
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - ai-ml
+    tags:
+      - jetson
+      - deepstream
+      - people-detection
+      - lang:python
     summary: People flow analysis system for Jetson Nano, Xavier NX, and AGX Xavier.
     last_synced_sha: 5f6d1c2dc4be59950e56d6df6242631c78309bff
     user_starred_at: '2025-01-25T15:28:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -71457,15 +71582,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.513Z'
+      prompt_version: v3
   - repo: BestAnHongjun/LMDeploy-Jetson
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - embedded
+    tags:
+      - llm
+      - nvidia
+      - jetson
+      - offline-computation
     summary: Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access.
     last_synced_sha: 89ba96f07433a247dece3ededfeb137fd9ab3758
     user_starred_at: '2025-01-25T15:26:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -71485,6 +71619,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:21:47.513Z'
+      prompt_version: v3
   - repo: Qengineering/realsr-ncnn-Jetson-Nano
     categories:
       - ai-ml
