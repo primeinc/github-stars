@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-22T04:36:52.859Z'
+  manifest_updated_at: '2026-03-22T04:37:27.631Z'
   total_repos: 2454
   generator_version: v1.0.0
   github_user: primeinc
@@ -56540,13 +56540,17 @@ repositories:
     framework: null
   - repo: unjs/consola
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - console
+      - log
+      - lang:ts
     summary: 🐨 Elegant Console Logger for Node.js and Browser
     last_synced_sha: c47faac1738b7383971c6c20b5a34ffa15e7cc3b
     user_starred_at: '2025-07-12T01:32:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -56572,15 +56576,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.044Z'
+      prompt_version: v3
   - repo: june07/nimv3
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - devtools
+      - debugging
+      - lang:js
     summary: Streamline Your Java Script V8 (Node.js/Deno) Debugging Workflow
     last_synced_sha: e39523f2aa37b0feecd5d3fa6875d592a5208adb
     user_starred_at: '2025-07-12T01:30:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -56616,15 +56628,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.044Z'
+      prompt_version: v3
   - repo: ipfs/helia
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - apis
+    tags:
+      - ipfs
+      - lang:ts
     summary: An implementation of IPFS in Type Script
     last_synced_sha: 9e59e72fc73f86e34a13d4ad4f5fd16d38511b64
     user_starred_at: '2025-07-12T01:26:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -56646,15 +56665,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.044Z'
+      prompt_version: v3
   - repo: wavetermdev/waveterm
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - terminal
+      - ai-integrated
+      - lang:go
     summary: An open-source, AI-integrated, cross-platform terminal for seamless workflows
     last_synced_sha: 8fc4dc39c493b5ae8d9ed512d088d6d532cd738c
     user_starred_at: '2025-07-12T01:21:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -56682,15 +56709,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.044Z'
+      prompt_version: v3
   - repo: rescript-lang/rescript
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+    tags:
+      - compiler
+      - lang:rescript
+      - altjs
     summary: Re Script is a robustly typed language that compiles to efficient and human-readable Java Script.
     last_synced_sha: 55a50a93a61c3a01a48867120b5e9a316e4da417
     user_starred_at: '2025-07-12T01:21:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: ReScript
       topics:
@@ -56714,15 +56748,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.044Z'
+      prompt_version: v3
   - repo: alibaba/formily
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - frameworks
+    tags:
+      - react
+      - json-schema
+      - lang:ts
     summary: 📱🚀 🧩 Cross Device & High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3
     last_synced_sha: d9a46442a575aa5f0fc1bd945e34d9a85d191d0e
     user_starred_at: '2025-07-12T01:19:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -56760,16 +56802,24 @@ repositories:
         published_at: '2025-05-15T09:53:46Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.044Z'
+      prompt_version: v3
   - repo: styleguidist/react-styleguidist
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - documentation
+    tags:
+      - react
+      - styleguide
+      - lang:ts
     summary: Isolated React component development environment with a living style guide
     last_synced_sha: c223f9a279f4e872cf6ff925fb21d2a7f6e27a77
     user_starred_at: '2025-07-12T01:13:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -56792,16 +56842,24 @@ repositories:
         published_at: '2025-01-07T10:44:42Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.044Z'
+      prompt_version: v3
   - repo: welldone-software/why-did-you-render
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - react
+      - performance
+      - lang:js
     summary: why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.)
     last_synced_sha: 3ec3512d750c49448fe2241e26d05db9e42f0c21
     user_starred_at: '2025-07-12T01:10:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -56830,16 +56888,24 @@ repositories:
         published_at: '2025-01-18T17:49:06Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.044Z'
+      prompt_version: v3
   - repo: ellisonleao/magictools
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - learning
+    tags:
+      - gamedev
+      - game-design
+      - lang:markdown
     summary: ':video_game: :pencil: A list of Game Development resources to make magic happen.'
     last_synced_sha: ca5c35f58559fda393cdbe087cc8c23393906b3e
     user_starred_at: '2025-07-11T22:47:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Markdown
       topics:
@@ -56873,15 +56939,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.044Z'
+      prompt_version: v3
   - repo: kdeldycke/awesome-falsehood
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - programming
+      - awesome-list
+      - falsehoods
     summary: 😱 Falsehoods Programmers Believe in
     last_synced_sha: e287d8c25560d3e8bd846567291e0f565aeb4858
     user_starred_at: '2025-07-11T22:26:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -56918,15 +56992,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.044Z'
+      prompt_version: v3
   - repo: TryGhost/Ghost
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - cms
+      - publishing
+      - lang:js
     summary: Independent technology for modern publishing, memberships, subscriptions and newsletters.
     last_synced_sha: 248fe427883fac0341f268b0a931b25657129dcd
     user_starred_at: '2025-07-11T22:24:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -56953,16 +57035,24 @@ repositories:
         published_at: '2026-03-20T15:25:05Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.042Z'
+      prompt_version: v3
   - repo: poloclub/transformer-explainer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - generative-ai
+      - llm
+      - lang:js
     summary: 'Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization'
     last_synced_sha: 6e2ec372b1d7c73d3cf82704ec0b878522fc4085
     user_starred_at: '2025-07-11T22:24:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -56988,15 +57078,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.042Z'
+      prompt_version: v3
   - repo: rustfs/rustfs
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - databases
+    tags:
+      - object-storage
+      - filesystem
+      - lang:rust
     summary: 🚀2.3x faster than Min IO for 4KB object payloads. Rust FS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible plat...
     last_synced_sha: a42320848ca70f6d7150247b5d94345744a8fe02
     user_starred_at: '2025-07-11T22:18:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -57026,15 +57124,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.042Z'
+      prompt_version: v3
   - repo: langchain-ai/agents-from-scratch
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - agents
+      - memory
+      - lang:jupyter-notebook
     summary: Build an email assistant with human-in-the-loop and memory
     last_synced_sha: 0d4fe0310e24f0f3ae38311504ec28f1676991f5
     user_starred_at: '2025-07-11T22:17:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -57054,15 +57160,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.042Z'
+      prompt_version: v3
   - repo: GyulyVGC/sniffnet
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - networking
+      - security
+    tags:
+      - network-analysis
+      - packet-sniffer
+      - lang:rust
     summary: Comfortably monitor your Internet traffic 🕵️‍♂️
     last_synced_sha: 5484515101dbe7cb647d922fa7dfb9a306b6a546
     user_starred_at: '2025-07-11T22:17:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -57101,6 +57216,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:37:26.042Z'
+      prompt_version: v3
   - repo: pocketbase/pocketbase
     categories:
       - databases
