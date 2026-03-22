@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-22T04:43:53.165Z'
+  manifest_updated_at: '2026-03-22T04:44:25.795Z'
   total_repos: 2454
   generator_version: v1.0.0
   github_user: primeinc
@@ -49825,13 +49825,20 @@ repositories:
     framework: null
   - repo: nguyenjessev/liquor-locker
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+      - ai-ml
+    tags:
+      - react
+      - lang:ts
+      - self-hosted
+      - cocktail-recommendations
+      - management-app
     summary: A home bar management app to track your bottles and ingredients, with support for AI-powered cocktail recommendations
     last_synced_sha: 7fe4e4fc41637877f80e31338d40bbb593a1841d
     user_starred_at: '2025-08-21T13:45:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -49854,16 +49861,27 @@ repositories:
         published_at: '2025-11-01T16:28:21Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.107Z'
+      prompt_version: v3
   - repo: geldata/gel
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - ai-ml
+      - data-science
+    tags:
+      - database
+      - lang:python
+      - graph-relational
+      - auth
+      - edgeql
     summary: Gel supercharges Postgres with a modern data model, graph queries, Auth & AI solutions, and much more.
     last_synced_sha: 85191063b4db8b87caf26499de40f8a9d90c8146
     user_starred_at: '2025-08-21T13:44:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -49890,15 +49908,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.107Z'
+      prompt_version: v3
   - repo: nextjs/saas-starter
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - dev-tools
+      - productivity
+    tags:
+      - nextjs
+      - lang:ts
+      - postgres
+      - shadcn-ui
+      - stripe
     summary: Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui.
     last_synced_sha: 6e33e58b1e553a41fe22e6b941a7229a002de361
     user_starred_at: '2025-08-21T13:44:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -49919,16 +49948,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.106Z'
+      prompt_version: v3
   - repo: bitwarden/clients
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+      - mobile-dev
+    tags:
+      - browser-extension
+      - lang:ts
+      - angular
+      - cli
+      - bitwarden
     summary: Bitwarden client apps (web, browser extension, desktop, and cli).
     last_synced_sha: a6852bdaecfae7d5b4feb9927f59462c35668b40
     user_starred_at: '2025-08-21T13:44:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -49960,16 +50000,27 @@ repositories:
         published_at: '2026-03-18T01:31:03Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.106Z'
+      prompt_version: v3
   - repo: HeyPuter/puter
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - cloud
+      - system-admin
+    tags:
+      - desktop-environment
+      - lang:js
+      - web-desktop
+      - web-os
+      - cloud
     summary: 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable.
     last_synced_sha: c99e23d7373829d8c274a5fdf512ef0dd814a9c1
     user_starred_at: '2025-08-21T13:41:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -50009,15 +50060,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.106Z'
+      prompt_version: v3
   - repo: bytedance/UI-TARS-desktop
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+      - automation
+    tags:
+      - multimodal
+      - lang:ts
+      - gui-operator
+      - vision
+      - agent
     summary: 'The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra'
     last_synced_sha: de904997f984be2d4bc3afe516dd917adacc156e
     user_starred_at: '2025-08-21T13:41:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -50051,15 +50113,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.106Z'
+      prompt_version: v3
   - repo: Shubhamsaboo/awesome-llm-apps
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+      - documentation
+    tags:
+      - llms
+      - lang:python
+      - agents
+      - rag
     summary: Collection of awesome LLM apps with AI Agents and RAG using Open AI, Anthropic, Gemini and opensource models.
     last_synced_sha: 18337ebe34241a79060855ed7d6e6e90fe66dd52
     user_starred_at: '2025-08-21T13:41:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50081,15 +50153,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.106Z'
+      prompt_version: v3
   - repo: moeru-ai/airi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+      - automation
+    tags:
+      - ai-companion
+      - lang:ts
+      - vtuber
+      - live2d
+      - digital-life
     summary: 💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Min...
     last_synced_sha: 4a29598037628b81d137d531dc81101c32db4382
     user_starred_at: '2025-08-21T13:39:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -50119,15 +50202,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.106Z'
+      prompt_version: v3
   - repo: PixiEditor/PixiEditor
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+      - productivity
+    tags:
+      - raster-graphics
+      - editor
+      - lang:csharp
+      - pixel-art
+      - graphics-editor
     summary: Pixi Editor is a Universal Editor for all your 2D needs
     last_synced_sha: a14776a376087ae5d131c8b5d86c3ab0b25d431a
     user_starred_at: '2025-08-21T13:38:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -50166,15 +50260,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.106Z'
+      prompt_version: v3
   - repo: openstates/openstates-scrapers
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - learning
+      - data-science
+    tags:
+      - scrapers
+      - lang:python
+      - government
+      - united-states
     summary: source for Open States scrapers
     last_synced_sha: ae528f348444a74e6bdf38d8270ffad28f12b13f
     user_starred_at: '2025-08-20T02:22:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50198,15 +50302,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.106Z'
+      prompt_version: v3
   - repo: dobtco/openrfps-scrapers
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+    tags:
+      - scrapers
+      - lang:coffeescript
+      - government
     summary: Scraping government contracting opportunities.
     last_synced_sha: f2d7f7eafbbf18eea5df15f0596840e1fbe27235
     user_starred_at: '2025-08-20T02:19:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CoffeeScript
       topics: []
@@ -50224,15 +50336,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.106Z'
+      prompt_version: v3
   - repo: rigwild/mcp-server-amazon
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+      - web-dev
+    tags:
+      - ai
+      - mcp
+      - lang:ts
+      - mcp-server
+      - amazon
     summary: 🛍📦 Unofficial Amazon Model Context Protocol Server (MCP) - Search products and purchase directly from Claude AI! ✨
     last_synced_sha: c2ad8d60bcde54c4444e98b6ec1201688650e403
     user_starred_at: '2025-08-18T18:58:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -50256,15 +50379,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.106Z'
+      prompt_version: v3
   - repo: emcie-co/parlant
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+      - productivity
+    tags:
+      - ai-agents
+      - customer-service
+      - lang:python
+      - genai
+      - llm
     summary: The conversational control layer for customer-facing AI agents - Parlant is a context-engineering framework optimized for controlling customer interactions.
     last_synced_sha: d1299ad3b7d5648d9ac066250569bcc88d56f821
     user_starred_at: '2025-08-18T02:39:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -50295,15 +50429,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.106Z'
+      prompt_version: v3
   - repo: dtyq/magic
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - automation
+    tags:
+      - ai
+      - workflow
+      - lang:ts
+      - low-code
+      - no-code
     summary: Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)
     last_synced_sha: 7e0d70f8dea963d8efc36ece4003483853091c33
     user_starred_at: '2025-08-18T02:39:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -50332,15 +50477,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.106Z'
+      prompt_version: v3
   - repo: iii-hq/iii
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ai-ml
+      - apis
+    tags:
+      - ai
+      - backend
+      - lang:rust
+      - api
+      - developer-tools
     summary: 'iii (pronounced “three eye”) unifies your existing backend stack with a single engine and three primitives: Function, Trigger, and Worker.'
     last_synced_sha: 8d4bae03bc2a54445bf0e56f06b19e13186a953c
     user_starred_at: '2025-08-18T02:17:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -50372,6 +50528,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:44:24.105Z'
+      prompt_version: v3
   - repo: photoprism/photoprism
     categories:
       - ai-ml
