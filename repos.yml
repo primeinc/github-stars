@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-22T04:23:26.304Z'
+  manifest_updated_at: '2026-03-22T04:23:58.776Z'
   total_repos: 2454
   generator_version: v1.0.0
   github_user: primeinc
@@ -68879,13 +68879,18 @@ repositories:
     framework: null
   - repo: keon/awesome-nlp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - nlp
+      - machine-learning
+      - language
+      - resources
     summary: ':book: A curated list of resources dedicated to Natural Language Processing (NLP)'
     last_synced_sha: a7bf3eb8495c849e0aa7d677e56672c9f4d4feaf
     user_starred_at: '2025-01-28T09:06:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -68911,15 +68916,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.189Z'
+      prompt_version: v3
   - repo: RunaCapital/awesome-oss-alternatives
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - open-source
+      - saas
+      - alternatives
+      - lang:python
     summary: Awesome list of open-source startup alternatives to well-known Saa S products 🚀
     last_synced_sha: e5a1bd6153c602404c6f25a97b178228b755aebb
     user_starred_at: '2025-01-28T09:06:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -68947,15 +68961,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.189Z'
+      prompt_version: v3
   - repo: dexteryy/spellbook-of-modern-webdev
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - learning
+    tags:
+      - javascript
+      - nodejs
+      - libraries
+      - resources
     summary: A Big Picture, Thesaurus, and Taxonomy of Modern Java Script Web Development
     last_synced_sha: e750d931f3ae1e3be3c96ae5b2c4dacc30399dd5
     user_starred_at: '2025-01-28T09:06:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -68984,15 +69007,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.189Z'
+      prompt_version: v3
   - repo: Lissy93/dashy
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - dashboard
+      - self-hosted
+      - vue
+      - startpage
+      - lang:vue
     summary: 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!
     last_synced_sha: 7d48a829042bc568d632900ef8dd3c46fd727dcb
     user_starred_at: '2025-01-28T09:05:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -69025,16 +69058,24 @@ repositories:
         published_at: '2024-05-30T17:20:53Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.189Z'
+      prompt_version: v3
   - repo: djsime1/awesome-flipperzero
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - security
+    tags:
+      - flipper-zero
+      - tools
+      - resources
     summary: 🐬 A collection of awesome resources for the Flipper Zero device.
     last_synced_sha: 135dc8f6d21c915551c386a0ebbe3a4e7ed2bc10
     user_starred_at: '2025-01-28T09:05:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -69056,15 +69097,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.189Z'
+      prompt_version: v3
   - repo: nikivdev/flow
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - rust
+      - workflow
+      - lang:rust
     summary: Everything you need to move your project faster
     last_synced_sha: 6a108e90229f8f270941be4cee1eea05bc771cb7
     user_starred_at: '2025-01-28T09:04:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -69085,15 +69134,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.189Z'
+      prompt_version: v3
   - repo: enaqx/awesome-pentest
     categories:
-      - unclassified
-    tags: []
+      - security
+      - testing
+    tags:
+      - penetration-testing
+      - resources
+      - tools
     summary: A collection of awesome penetration testing resources, tools and other shiny things
     last_synced_sha: ba2ae1506c49f61824abbea7b4564540a070974a
     user_starred_at: '2025-01-28T09:04:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -69113,15 +69170,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.189Z'
+      prompt_version: v3
   - repo: sdras/awesome-actions
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - github-actions
+      - actions
+      - resources
+      - workflow
     summary: A curated list of awesome actions to use on Git Hub
     last_synced_sha: 0edccf33480b95bf7547b90187c31e9ab2cb070d
     user_starred_at: '2025-01-28T09:04:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -69147,15 +69213,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.189Z'
+      prompt_version: v3
   - repo: viatsko/awesome-vscode
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - learning
+    tags:
+      - vscode
+      - extensions
+      - productivity
+      - lang:js
     summary: 🎨 A curated list of delightful VS Code packages and resources.
     last_synced_sha: 95e0d5c41f72cb76f1547901c89ebc9a78753a4f
     user_starred_at: '2025-01-28T09:04:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -69184,15 +69259,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.189Z'
+      prompt_version: v3
   - repo: sindresorhus/awesome-electron
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - dev-tools
+    tags:
+      - electron
+      - resources
+      - list
+      - ui
     summary: Useful resources for creating apps with Electron
     last_synced_sha: ad0762da26665d4f200fb0ecb8b5665d124d3121
     user_starred_at: '2025-01-28T09:04:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -69214,15 +69298,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.189Z'
+      prompt_version: v3
   - repo: kuchin/awesome-cto
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - cto
+      - management
+      - startups
+      - roadmap
+      - engineering
     summary: A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups
     last_synced_sha: 2e656660c9437d2908005ec185f177c1d6e05b7a
     user_starred_at: '2025-01-28T09:04:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -69254,15 +69348,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.189Z'
+      prompt_version: v3
   - repo: awesome-foss/awesome-sysadmin
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - dev-tools
+    tags:
+      - sysadmin
+      - devops
+      - self-hosted
+      - resources
     summary: A curated list of amazingly awesome open-source sysadmin resources.
     last_synced_sha: ad618ddb08bbdf8749d2d3b65d049ac700a0f3f4
     user_starred_at: '2025-01-28T09:04:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -69289,15 +69392,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.189Z'
+      prompt_version: v3
   - repo: cloudcommunity/Free-Certifications
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - certifications
+      - learning
+      - free
+      - training
     summary: A curated list of free courses with certifications. Also available at https://free-certifications.com/
     last_synced_sha: 4d318b3490948fbbb7abb13f43771170f8cb644c
     user_starred_at: '2025-01-28T09:04:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -69335,15 +69447,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.189Z'
+      prompt_version: v3
   - repo: herrbischoff/awesome-macos-command-line
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - dev-tools
+    tags:
+      - macos
+      - terminal
+      - shell
+      - tools
     summary: Use your mac OS terminal shell to do awesome things.
     last_synced_sha: 9909c738b239ef8797ce8a9fa09e5e20928162ee
     user_starred_at: '2025-01-28T09:03:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: null
@@ -69369,15 +69490,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.188Z'
+      prompt_version: v3
   - repo: veggiemonk/awesome-docker
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - dev-tools
+    tags:
+      - docker
+      - resources
+      - tools
+      - lang:makefile
     summary: ':whale: A curated list of Docker resources and projects'
     last_synced_sha: bba85d05492b34bd255d9c5b9947b063389f8b64
     user_starred_at: '2025-01-28T09:03:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Makefile
       topics:
@@ -69415,6 +69545,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:23:57.185Z'
+      prompt_version: v3
   - repo: alebcay/awesome-shell
     categories:
       - system-admin
