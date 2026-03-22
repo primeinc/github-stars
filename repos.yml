@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-22T04:58:47.471Z'
+  manifest_updated_at: '2026-03-22T04:59:17.596Z'
   total_repos: 2454
   generator_version: v1.0.0
   github_user: primeinc
@@ -24762,13 +24762,18 @@ repositories:
     framework: null
   - repo: microsoft/TaskWeaver
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - code-interpreter
+      - data-analytics
+      - ai-agents
+      - lang:python
     summary: The first "code-first" agent framework for seamlessly planning and executing data analytics tasks.
     last_synced_sha: 7c78cda72fa2dfaf63214be7b9bd5e6e296a9d0e
     user_starred_at: '2026-01-09T18:05:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -24796,15 +24801,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: Lightricks/LTX-2
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - generative-ai
+      - audio-video
+      - lang:python
     summary: Official Python inference and Lo RA trainer package for the LTX-2 audio–video generative model.
     last_synced_sha: ae855f8538843825f9015a419cf4ba5edaf5eec2
     user_starred_at: '2026-01-09T18:04:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -24825,15 +24838,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: alexzhang13/rlm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - language-models
+      - recursive-language-model
+      - inference-library
+      - lang:python
     summary: General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes.
     last_synced_sha: 4eba6ec7f2f0d5bec94d1f507ffcd79ad4ee7015
     user_starred_at: '2026-01-09T18:04:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -24853,15 +24875,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: x011/smtp-tunnel-proxy
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - censorship-circumvention
+      - deep-packet-inspection
+      - covert-tunnel
+      - lang:python
     summary: A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls.
     last_synced_sha: 7a038da61089d37d362afdf97bbace876961e13e
     user_starred_at: '2026-01-09T18:03:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -24896,15 +24927,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: AndurilCode/mcp-apps-kit
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ai-ml
+    tags:
+      - ai-agents
+      - chatgpt
+      - express-framework
+      - lang:ts
     summary: A Type Script framework for building interactive MCP applications that work seamlessly with both MCP Apps and Chat GPT (Open AI Apps SDK) from a single codebase.
     last_synced_sha: 45ec72108ec90eb893ab674f78ba16374e7bb6cf
     user_starred_at: '2026-01-09T18:03:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -24934,16 +24974,24 @@ repositories:
         published_at: '2026-01-14T14:18:11Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: frostybee/starlight-tags
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - content-organization
+      - documentation-tools
+      - lang:ts
     summary: A plugin to add tags to your Starlight docs for content organization and discovery.
     last_synced_sha: ada07e58314bcde3048a5cfcdf118376257e51ab
     user_starred_at: '2026-01-09T18:01:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -24967,15 +25015,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: samuel-vitorino/sopro
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - text-to-speech
+      - voice-cloning
+      - lang:python
     summary: A lightweight text-to-speech model with zero-shot voice cloning
     last_synced_sha: 5fe20d2fb5bc66e7855bed265397ee7131154326
     user_starred_at: '2026-01-09T17:59:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -24993,15 +25049,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: kdcokenny/opencode-worktree
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - git-worktree
+      - terminal-automation
+      - lang:ts
     summary: Zero-friction git worktrees for Open Code. Auto-spawns terminals, syncs files, cleans up on exit.
     last_synced_sha: 62482a011cfda505db152b5f22a2b3e1cafc7f32
     user_starred_at: '2026-01-09T17:57:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -25029,15 +25093,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: MiroMindAI/MiroThinker
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deep-research
+      - prediction-models
+      - research-agent
+      - lang:python
     summary: Miro Thinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, Miro Thinker-1.7 and Miro Thinker-H1, achieve 74.0 and 88.2 on the Browse Comp, respect...
     last_synced_sha: 40a9faef2efd6b4fc8f741f343265172a2ee2aec
     user_starred_at: '2026-01-09T17:56:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -25065,15 +25138,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: Lightricks/ComfyUI-LTXVideo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - ui-libraries
+    tags:
+      - text-to-image
+      - video-generation
+      - diffusion-models
+      - lang:python
     summary: LTX-Video Support for Comfy UI
     last_synced_sha: 531512f7286963dc7aff1fd8bf5556e95eae03af
     user_starred_at: '2026-01-09T17:56:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -25098,15 +25181,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: AutoForgeAI/autoforge
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - generative-ai
+      - lang:python
     summary: No description provided
     last_synced_sha: fca1f6a5e2b02076bd244464d2af6c2ca7fcb5bf
     user_starred_at: '2026-01-09T13:01:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -25124,15 +25214,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: jamichss/Stream-DiffVSR
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-processing
+      - super-resolution
+      - lang:python
     summary: 'The official repository of paper "Stream-Diff VSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion"'
     last_synced_sha: 9d148ee97dfad0c26c4e5fa3368ab39b4feb9bc2
     user_starred_at: '2026-01-07T13:17:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -25150,15 +25248,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: IIEleven11/ComfyUI-Dataset_Maker
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - dataset-creation
+      - automation
+      - lang:python
     summary: No description provided
     last_synced_sha: f7fc133ed97fdcaea485382fe23946d8bef2cd37
     user_starred_at: '2026-01-05T22:08:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -25176,15 +25282,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: kasperjunge/agent-resources
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - agent-skills
+      - package-manager
+      - lang:python
     summary: A package manager for AI agents. Install agent skills from Git Hub with a single command.
     last_synced_sha: 5d99c5aa52176dd0986e68061677e5ad4ddffaba
     user_starred_at: '2026-01-05T18:01:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -25207,15 +25321,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: davidfowl/tally
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - banking
+      - transaction-analysis
+      - lang:python
     summary: Let agents classify your bank transactions.
     last_synced_sha: 76ebf0102dd235a219da77f9179bd6d0d69ad437
     user_starred_at: '2026-01-05T17:59:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -25235,6 +25357,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:59:15.881Z'
+      prompt_version: v3
   - repo: cocos/cocos-cli
     categories:
       - dev-tools
