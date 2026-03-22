@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-22T04:22:22.308Z'
+  manifest_updated_at: '2026-03-22T04:22:52.972Z'
   total_repos: 2454
   generator_version: v1.0.0
   github_user: primeinc
@@ -69924,13 +69924,19 @@ repositories:
     framework: null
   - repo: soxoj/maigret
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - osint
+      - investigation-tools
+      - lang:python
+      - socmint
+      - username-tracing
     summary: 🕵️‍♂️ Collect a dossier on a person by username from thousands of sites
     last_synced_sha: 227a25bfa1228760491c3d615fd9452fbf8ef803
     user_starred_at: '2025-01-28T08:55:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -69970,15 +69976,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.370Z'
+      prompt_version: v3
   - repo: harry0703/MoneyPrinterTurbo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - video-generation
+      - short-videos
+      - lang:python
+      - ai-tools
+      - moviepy
     summary: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
     last_synced_sha: 951460b9f16f97937afaec8076018c7b291c9a5c
     user_starred_at: '2025-01-28T08:54:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -70005,15 +70021,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.370Z'
+      prompt_version: v3
   - repo: datalab-to/surya
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ocr
+      - table-recognition
+      - lang:python
+      - reading-order
+      - multi-language
     summary: OCR, layout analysis, reading order, table recognition in 90+ languages
     last_synced_sha: e735028979a29cd4e0d5d8a96b00965d977f9b4a
     user_starred_at: '2025-01-28T08:54:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -70033,15 +70059,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.370Z'
+      prompt_version: v3
   - repo: OpenSPG/KAG
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - knowledge-graph
+      - logical-reasoning
+      - lang:python
+      - llms
+      - domain-specific-qa
     summary: KAG is a logical form-guided reasoning and retrieval framework based on Open SPG engine and LLMs. It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge b...
     last_synced_sha: fdab15b3929d2ee40dfcdd388f90233096a6afc9
     user_starred_at: '2025-01-28T08:54:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -70066,15 +70102,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.370Z'
+      prompt_version: v3
   - repo: fixie-ai/ultravox
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - voice-ai
+      - multimodal-llm
+      - lang:python
+      - real-time-speech
     summary: A fast multimodal LLM for real-time voice
     last_synced_sha: 69ddc63b2d72be5e9a86f818315da72cec55a876
     user_starred_at: '2025-01-28T08:54:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -70098,15 +70143,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.370Z'
+      prompt_version: v3
   - repo: microsoft/PromptWizard
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - prompt-optimization
+      - lang:python
+      - ai-framework
+      - task-driven
     summary: Task-Aware Agent-driven Prompt Optimization Framework
     last_synced_sha: a1d43f876ef4468b0549a3ceff8bd691b80cd667
     user_starred_at: '2025-01-28T08:54:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -70124,15 +70178,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.370Z'
+      prompt_version: v3
   - repo: intuitem/ciso-assistant-community
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - grc
+      - compliance-automation
+      - lang:python
+      - risk-management
+      - audit-tools
     summary: CISO Assistant is a one-stop-shop GRC platform for Risk Management, App Sec, Compliance & Audit, TPRM, Privacy, and Reporting. It supports 100+ global frameworks with automatic control mapping, inc...
     last_synced_sha: e7a14832e8d01aef548eb262ab4dc129cb887c79
     user_starred_at: '2025-01-28T08:53:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -70172,15 +70236,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.370Z'
+      prompt_version: v3
   - repo: crewAIInc/crewAI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - autonomous-agents
+      - collaboration-ai
+      - lang:python
+      - agent-orchestration
+      - llms
     summary: Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, Crew AI empowers agents to work together seamlessly, tackling complex tasks.
     last_synced_sha: 09b84dd2b032cc2f2cdc6b6f4751ede436fc9005
     user_starred_at: '2025-01-28T08:53:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -70205,15 +70279,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.370Z'
+      prompt_version: v3
   - repo: gavincyi/awesome-financial-open-source
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - learning
+    tags:
+      - financial-resources
+      - open-source-groups
+      - curation
     summary: Collection of financial institution open source groups
     last_synced_sha: e6cf0bc616dfa1e71419647c830979c82205576a
     user_starred_at: '2025-01-28T08:46:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -70231,15 +70313,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.370Z'
+      prompt_version: v3
   - repo: paulveillard/cybersecurity-cyberinsurance
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - cybersecurity-resources
+      - documentation
+      - best-practices
+      - cyberinsurance
     summary: An ongoing & curated collection of awesome software best practices and techniques, libraries and frameworks, E-books and videos, websites, blog posts, links to github Repositories, technical guidel...
     last_synced_sha: 5ace21e22d30dc7d41f7cac063f4f8f33d156e9b
     user_starred_at: '2025-01-28T08:45:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -70267,15 +70358,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.370Z'
+      prompt_version: v3
   - repo: sbondCo/Watcharr
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - content-listing
+      - movies-and-shows
+      - lang:go
+      - sqlite
+      - svelte-kit
     summary: Open source, self-hostable watched list for all your content (movies, tv series, anime, games) with user authentication, modern and clean UI and a very simple setup.
     last_synced_sha: f73105e9c70d7170ca5ee81c334d3a0d90ef5fa6
     user_starred_at: '2025-01-28T08:38:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -70314,16 +70415,27 @@ repositories:
         published_at: '2026-03-09T11:33:44Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: svelte
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.370Z'
+      prompt_version: v3
   - repo: seriousm4x/UpSnap
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+      - web-dev
+    tags:
+      - wake-on-lan
+      - web-tool
+      - lang:go
+      - svelte-kit
+      - network-management
     summary: A simple wake on lan web app written with Svelte Kit, Go and Pocket Base.
     last_synced_sha: b00f3a1c72d1c4a77eebc3786afa6d510d4fcea3
     user_starred_at: '2025-01-28T08:38:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -70347,16 +70459,25 @@ repositories:
         published_at: '2026-03-21T00:42:32Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: svelte
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.370Z'
+      prompt_version: v3
   - repo: hakimel/reveal.js
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ui-libraries
+    tags:
+      - slides
+      - presentation-tool
+      - lang:js
+      - slideshow
     summary: The HTML Presentation Framework
     last_synced_sha: ea3d7aaff513690172367e3647b22d29b705d3fb
     user_starred_at: '2025-01-28T08:37:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -70379,15 +70500,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.370Z'
+      prompt_version: v3
   - repo: openziti/ziti
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+      - apis
+    tags:
+      - vpn
+      - zero-trust
+      - lang:go
+      - networking-tools
+      - appsec
     summary: The parent project for Open Ziti. Here you will find the executables for a fully zero-trust, programmable network @Open Ziti
     last_synced_sha: b6fad1f2f909245f1e334128cfbfe1114db17c51
     user_starred_at: '2025-01-28T08:35:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -70427,15 +70559,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.370Z'
+      prompt_version: v3
   - repo: jason5ng32/MyIP
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - dns-leak
+      - ip-geolocation
+      - lang:vue
+      - webrtc-tools
+      - proxy
     summary: The best IP Toolbox. Easy to check what's your IPs, IP geolocation, check for DNS leaks, examine Web RTC connections, speed test, ping test, MTR test, check website availability, whois search and m...
     last_synced_sha: b5fbf2d91f79645825d447f95b36a33a529faf31
     user_starred_at: '2025-01-28T08:32:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -70474,7 +70616,11 @@ repositories:
         published_at: '2026-03-20T13:09:28Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:22:51.369Z'
+      prompt_version: v3
   - repo: iv-org/invidious
     categories:
       - web-dev
