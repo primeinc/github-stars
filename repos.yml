@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-22T04:44:54.356Z'
+  manifest_updated_at: '2026-03-22T04:45:25.774Z'
   total_repos: 2454
   generator_version: v1.0.0
   github_user: primeinc
@@ -48781,13 +48781,18 @@ repositories:
     framework: null
   - repo: nativefier/nativefier
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - electron
+      - lang:ts
+      - desktop-application
+      - web-to-desktop
     summary: Make any web page a desktop application
     last_synced_sha: 9078a3071a3c7fab977d4e0bb54d3579af8296f3
     user_starred_at: '2025-09-05T00:02:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -48814,15 +48819,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.171Z'
+      prompt_version: v3
   - repo: x64dbg/x64dbg
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - debugger
+      - lang:cpp
+      - reverse-engineering
+      - malware-analysis
     summary: An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis.
     last_synced_sha: b0731c63277e69002649c0cb25eb66e190b293c8
     user_starred_at: '2025-09-05T00:01:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -48862,15 +48876,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.170Z'
+      prompt_version: v3
   - repo: bluxmit/alnoda-workspaces
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - dev-tools
+    tags:
+      - docker
+      - lang:dockerfile
+      - workspace
+      - web-based-ide
     summary: ':fireworks: Flexible and extendable containerized workspaces. Now. with free offline chat GPT!!! 🚀🚀🚀'
     last_synced_sha: a1448f5d2cd328983d88bf97c3bc1d49f8425567
     user_starred_at: '2025-09-04T23:55:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics:
@@ -48901,15 +48924,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.170Z'
+      prompt_version: v3
   - repo: workadventure/workadventure
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - game-dev
+    tags:
+      - workspace
+      - lang:ts
+      - remote-work
+      - collaboration
     summary: A collaborative web application (virtual office) presented as a 16-bit RPG video game
     last_synced_sha: db0d41832c29c8b65add4fb82673c4a5513516ad
     user_starred_at: '2025-09-04T23:53:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48934,15 +48966,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.170Z'
+      prompt_version: v3
   - repo: dudor/BookmarkHub
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - sync-bookmarks
+      - lang:ts
+      - browser-extension
+      - webextension
     summary: Bookmark Hub , sync bookmarks across different browsers
     last_synced_sha: e59de69f876159e6c98dfefadf8b09d82610e535
     user_starred_at: '2025-09-04T23:48:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -48967,15 +49008,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.170Z'
+      prompt_version: v3
   - repo: extension-js/extension.js
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - dev-tools
+    tags:
+      - browser-extension
+      - lang:ts
+      - multi-platform
+      - cross-browser
     summary: The cross-browser extension framework.
     last_synced_sha: bd4edcb0a4afb19f7aaac25fdfbba61b2642acb3
     user_starred_at: '2025-09-04T22:46:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -49014,16 +49064,25 @@ repositories:
         published_at: '2026-03-18T00:45:47Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.170Z'
+      prompt_version: v3
   - repo: joelshepherd/tabliss
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - browser-extension
+      - lang:ts
+      - customizable-ui
+      - webextension
     summary: A beautiful, customisable New Tab page for Firefox, Chrome, and Edge.
     last_synced_sha: 765a3f0b10968ee6e3a9ddf5c5360960fb4bf0ee
     user_starred_at: '2025-09-04T22:17:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -49046,15 +49105,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.170Z'
+      prompt_version: v3
   - repo: cartesiancs/vessel
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - embedded
+    tags:
+      - physical-ai
+      - lang:ts
+      - iot-platform
+      - automation
     summary: 🦾 A personal C2 platform for Physical AI. Connect streams. Detect events. Control your world.
     last_synced_sha: 75d59b5ae92ab5762543ff605cff7c4b1e120bba
     user_starred_at: '2025-09-04T14:48:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -49078,15 +49146,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.170Z'
+      prompt_version: v3
   - repo: datavzrd/datavzrd
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - productivity
+    tags:
+      - data-reporting
+      - visualization
+      - lang:rust
+      - csv
     summary: A tool to create visual HTML reports from collections of CSV/TSV tables
     last_synced_sha: 0e2b7136ebf78460ad6791c94bebc55046c78522
     user_starred_at: '2025-09-04T14:46:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -49106,15 +49183,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.170Z'
+      prompt_version: v3
   - repo: olimpo88/PyDDNS
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - dns-server
+      - lang:js
+      - ddns
+      - ddns-manager
     summary: Complete system to create your own server ddns
     last_synced_sha: c4c8c7dfb913c4afb451b62c0b01d0a7a4bb6bc1
     user_starred_at: '2025-09-04T01:59:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -49142,16 +49228,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: django
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.170Z'
+      prompt_version: v3
   - repo: it-scripts/it-drugs
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - lang:lua
+      - fivem
+      - esx-legacy
+      - gaming
     summary: Become a master herbalist with this drug script! Ready for every big Five M framework
     last_synced_sha: 78df12b537159eb3552311c158d07b98ed9d6219
     user_starred_at: '2025-09-03T18:28:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics:
@@ -49177,15 +49271,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.170Z'
+      prompt_version: v3
   - repo: TibixDev/winboat
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+    tags:
+      - docker
+      - lang:ts
+      - virtualization
+      - linux
+      - windows
     summary: Run Windows apps on 🐧 Linux with ✨ seamless integration
     last_synced_sha: 74a7fddaf95d87a9cad7fe27b9f9a0596b7d58ff
     user_starred_at: '2025-09-03T18:24:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -49211,15 +49314,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.170Z'
+      prompt_version: v3
   - repo: pgrok/pgrok
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - reverse-tunnel
+      - lang:go
+      - ssh-tunnel
+      - http
     summary: Poor man's ngrok - a multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding
     last_synced_sha: 4ca9464a9549cf73a9bc49b7a4b7d66883ddbb65
     user_starred_at: '2025-09-03T07:47:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -49248,15 +49360,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.170Z'
+      prompt_version: v3
   - repo: kiqu3z/printer-monitoring-dashboard
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+    tags:
+      - lang:html
+      - printers
+      - monitoring
+      - dashboard
     summary: um programa que faz a monitoria via SMNP das impressoras de sem a necessidade de configurar um Zabbix ou Grafana.
     last_synced_sha: 0d6383a9ea764269b482abb1d2b090f2a51a509e
     user_starred_at: '2025-08-30T01:40:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -49274,15 +49395,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.170Z'
+      prompt_version: v3
   - repo: tremorlabs/tremor
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - components
+      - lang:ts
+      - react
+      - dashboard
     summary: Copy & Paste React components to build modern web applications.
     last_synced_sha: ca4d588f47820ff3d514d37fa4ee08a4222dec11
     user_starred_at: '2025-08-28T22:48:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -49306,7 +49436,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:45:24.170Z'
+      prompt_version: v3
   - repo: MorDavid/BruteForceAI
     categories:
       - security
