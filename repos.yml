@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-22T04:34:33.230Z'
+  manifest_updated_at: '2026-03-22T04:35:11.146Z'
   total_repos: 2454
   generator_version: v1.0.0
   github_user: primeinc
@@ -58594,13 +58594,19 @@ repositories:
     framework: null
   - repo: Eric-Chung-0511/Learning-Record
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - data-science
+    tags:
+      - data-science
+      - machine-learning
+      - deep-learning
+      - sql
+      - lang:jupyter-notebook
     summary: Empowering Data Driven insights through hands-on projects, SQL challenges and practical tools.
     last_synced_sha: 7c6528f4b6d0d075d4cb8335acebba9c23263200
     user_starred_at: '2025-06-26T04:50:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -58631,15 +58637,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.480Z'
+      prompt_version: v3
   - repo: dypsilon/frontend-dev-bookmarks
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - web-dev
+    tags:
+      - frontend
+      - awesome-list
+      - learning-resources
     summary: Manually curated collection of resources for frontend web developers.
     last_synced_sha: 50ed051c96428af9d4f020305ca206587514e121
     user_starred_at: '2025-06-26T00:04:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -58663,15 +58677,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.480Z'
+      prompt_version: v3
   - repo: SuperClaude-Org/SuperClaude_Framework
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+      - dev-tools
+    tags:
+      - claude
+      - development-methodologies
+      - cognitive-personas
+      - lang:python
     summary: A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.
     last_synced_sha: fb29cf819169e8ab318167cb70141958e82815e1
     user_starred_at: '2025-06-25T03:29:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -58691,15 +58715,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.480Z'
+      prompt_version: v3
   - repo: jahwag/ClaudeSync
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - claude-ai
+      - llm
+      - python
+      - productivity-tool
+      - lang:python
     summary: Claude Sync is a Python tool that automates the synchronization of local files with Claude.ai Projects
     last_synced_sha: 4076ce95da8fc40a5a74f92c5f6fa9b5c8e90a12
     user_starred_at: '2025-06-25T03:28:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -58723,15 +58757,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.480Z'
+      prompt_version: v3
   - repo: amantus-ai/vibetunnel
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - remote
+      - terminal
+      - vibecoding
+      - lang:ts
     summary: Turn any browser into your terminal & command your agents on the go.
     last_synced_sha: 82c1ccb54281544cdfc8809dfe604031d7b31486
     user_starred_at: '2025-06-25T03:25:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -58752,15 +58795,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.480Z'
+      prompt_version: v3
   - repo: github/branch-deploy
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - deployment
+      - automation
+    tags:
+      - github-actions
+      - cicd
+      - automation
+      - workflows
+      - lang:js
     summary: Enabling Branch Deployments through Issue Ops with Git Hub Actions - If you find this project useful, give it a star! ⭐️
     last_synced_sha: 93031d35d121a598d4d644e30b2ee1a16ad357a6
     user_starred_at: '2025-06-23T07:18:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -58796,15 +58850,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.480Z'
+      prompt_version: v3
   - repo: GeoAnima/Gemini-Conversation-Downloader
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - conversation-downloader
+      - json
+      - pdf
+      - lang:js
     summary: About Download Gemini conversations in JSON and PDF format.
     last_synced_sha: 3b95dfd4cce1eac3104daffe7ad0c500e97bed76
     user_starred_at: '2025-06-23T05:40:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -58822,15 +58885,27 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.480Z'
+      prompt_version: v3
   - repo: IBM/mcp-context-forge
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+      - cloud
+    tags:
+      - api-gateway
+      - fastapi
+      - docker
+      - asyncio
+      - authentication-middleware
+      - lang:python
     summary: An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/g RPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management. Optimizes Agent & Tool ...
     last_synced_sha: 3e99e9cd4308bd72128d2f9a54294137767dfcce
     user_starred_at: '2025-06-23T05:05:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -58869,16 +58944,26 @@ repositories:
         published_at: '2026-03-09T04:13:11Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.479Z'
+      prompt_version: v3
   - repo: GeeeekExplorer/nano-vllm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - llm
+      - nlp
+      - deep-learning
+      - transformer
+      - lang:python
     summary: Nano v LLM
     last_synced_sha: 2f214426530e2841e7d24c73ee0dfa914d62df56
     user_starred_at: '2025-06-23T05:01:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -58902,15 +58987,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.479Z'
+      prompt_version: v3
   - repo: openai/openai-support-agent-demo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - customer-support
+      - openai
+      - api-integration
+      - lang:ts
     summary: Demo of a customer support agent interface using Next JS and the Open AI Responses API with File Search
     last_synced_sha: 7ad1a7e8941caf429b3661444359e62a25a33823
     user_starred_at: '2025-06-23T01:57:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -58927,16 +59021,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.479Z'
+      prompt_version: v3
   - repo: maartenvandiemen/AZD-AppConfiguration
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - deployment
+    tags:
+      - azd-templates
+      - azure
+      - infrastructure
+      - lang:bicep
     summary: No description provided
     last_synced_sha: d260c32f926e39887b680af6695dcf2804923229
     user_starred_at: '2025-06-21T00:10:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -58954,15 +59057,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.479Z'
+      prompt_version: v3
   - repo: Azure-Samples/remote-mcp-functions-dotnet
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - deployment
+    tags:
+      - azure-functions
+      - mcp
+      - cloud
+      - lang:bicep
     summary: This is a quickstart template to easily build and deploy a custom remote MCP server to the cloud using Azure functions. You can clone/restore/run on your local machine with debugging, and `azd up` ...
     last_synced_sha: 3d23904f31845b3d701fc18e9786d76b7b865797
     user_starred_at: '2025-06-20T17:03:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -58980,15 +59092,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.475Z'
+      prompt_version: v3
   - repo: microsoftgraph/msgraph-bicep-types
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cloud
+    tags:
+      - microsoft-graph
+      - bicep-templates
+      - azure
+      - lang:ts
     summary: Repo contains Microsoft Graph resource types to integrate with bicep templates.
     last_synced_sha: a8c2a2fe8244d45d47bdede6084276fd82d082f3
     user_starred_at: '2025-06-18T11:15:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -59008,15 +59129,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.475Z'
+      prompt_version: v3
   - repo: Azure-Samples/azd-starter-bicep
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - deployment
+    tags:
+      - azd-templates
+      - azure
+      - infrastructure
+      - lang:bicep
     summary: Starter template with Bicep as infrastructure provider for Azure Developer CLI (azd).
     last_synced_sha: 6fe116807b0f22d763e4f56cba29d177dfb70ae2
     user_starred_at: '2025-06-18T11:03:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -59036,15 +59166,27 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.475Z'
+      prompt_version: v3
   - repo: qdhenry/Claude-Command-Suite
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - dev-tools
+    tags:
+      - workflow-automation
+      - cli-tools
+      - code-review
+      - security-audit
+      - ai-tools
+      - lang:shell
     summary: Professional slash commands for Claude Code that provide structured workflows for software development tasks including code review, feature creation, security auditing, and architectural analysis.
     last_synced_sha: e89b2f0b54f536a695ed7ae2e6e75e760b7a849e
     user_starred_at: '2025-06-16T22:15:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -59075,6 +59217,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:35:09.474Z'
+      prompt_version: v3
   - repo: panoramicdata/Meraki.Api
     categories:
       - apis
