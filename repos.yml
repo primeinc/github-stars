@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-22T04:27:24.547Z'
+  manifest_updated_at: '2026-03-22T04:27:56.495Z'
   total_repos: 2454
   generator_version: v1.0.0
   github_user: primeinc
@@ -64994,13 +64994,18 @@ repositories:
     framework: null
   - repo: electron/electron
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - frameworks
+    tags:
+      - cross-platform
+      - javascript
+      - chrome
+      - lang:cpp
     summary: ':electron: Build cross-platform desktop apps with Java Script, HTML, and CSS'
     last_synced_sha: dee8f5a0ffa69116117fb00c4faaaacd30218e2f
     user_starred_at: '2025-02-21T11:36:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -65029,15 +65034,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.846Z'
+      prompt_version: v3
   - repo: kkoomen/pointless
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+      - game-dev
+    tags:
+      - drawing
+      - tauri
+      - react
+      - cross-platform
+      - lang:js
     summary: An endless drawing canvas desktop app made with Tauri (Rust) and React 🎨 ✍️
     last_synced_sha: ad0c7d11cd2de61292abc97d205c455a10eb52a3
     user_starred_at: '2025-02-21T11:34:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -65068,16 +65084,25 @@ repositories:
         published_at: '2024-02-11T18:45:10Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.846Z'
+      prompt_version: v3
   - repo: caojianyu/tauri-remote-desktop
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - networking
+    tags:
+      - remote-desktop
+      - tauri
+      - webrtc
+      - lang:vue
     summary: This is a remote desktop control tool built using Tauri and implemented based on Web RTC. Build a simple server using Rust. Views built using Vue3+Type Script.
     last_synced_sha: 2d939e0d70431cf1e90d0f2d2d6dda58c8342530
     user_starred_at: '2025-02-21T11:33:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics: []
@@ -65094,16 +65119,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.846Z'
+      prompt_version: v3
   - repo: conaticus/FileExplorer
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - file-explorer
+      - tauri
+      - lang:rust
     summary: Fast file explorer written with Tauri and React.
     last_synced_sha: 22b69f5a677f23ec96f0578acdcf6ce76a2db60b
     user_starred_at: '2025-02-21T11:31:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -65122,16 +65155,26 @@ repositories:
         published_at: '2023-12-31T14:30:31Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.846Z'
+      prompt_version: v3
   - repo: sonnylazuardi/chat-ai-desktop
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ai-ml
+    tags:
+      - gpt-3
+      - tauri
+      - openai
+      - lang:rust
+      - ai
     summary: Unofficial Chat GPT desktop app for Mac & Windows menubar using Tauri & Rust
     last_synced_sha: 4e800626c4e64d33bcf7031a8265b95cb4590905
     user_starred_at: '2025-02-21T11:31:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -65164,16 +65207,24 @@ repositories:
         published_at: '2023-03-20T02:13:27Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.846Z'
+      prompt_version: v3
   - repo: tauri-apps/awesome-tauri
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - awesome
+      - tauri
+      - resources
     summary: 🚀 Awesome Tauri Apps, Plugins and Resources
     last_synced_sha: 304f80a2e11cf7e60f4dc767da8aa2c3f418d641
     user_starred_at: '2025-02-21T11:19:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -65194,15 +65245,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.846Z'
+      prompt_version: v3
   - repo: MatsDK/TauRPC
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - automation
+    tags:
+      - tauri
+      - ipc
+      - lang:rust
     summary: Typesafe IPC layer for Tauri applications
     last_synced_sha: 1659d0490dbda15cdca60f83b3a2b09cee59838d
     user_starred_at: '2025-02-21T11:14:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -65224,15 +65283,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.846Z'
+      prompt_version: v3
   - repo: microsoftgraph/microsoft-graph-toolkit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+      - apis
+    tags:
+      - microsoft-graph
+      - web-components
+      - msal
+      - lang:ts
+      - react
     summary: Authentication Providers and UI components for Microsoft Graph 🦒
     last_synced_sha: 6120d87a5e161a5f8dce32e4b64a8cff4520c820
     user_starred_at: '2025-02-21T10:48:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -65267,16 +65337,25 @@ repositories:
         published_at: '2025-04-17T09:56:24Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.846Z'
+      prompt_version: v3
   - repo: palakz-simform/MSAL-Nuxt3
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - msal
+      - nuxt3
+      - auth
+      - lang:js
     summary: No description provided
     last_synced_sha: df15a188a2e30b150cbbe2ce746e448e8c668056
     user_starred_at: '2025-02-21T10:03:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -65293,16 +65372,22 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.846Z'
+      prompt_version: v3
   - repo: JonasKruckenberg/tauri-docs-wip
     categories:
-      - unclassified
-    tags: []
+      - documentation
+    tags:
+      - tauri
+      - lang:js
     summary: No description provided
     last_synced_sha: eaa6a97381199c3e8f25def40d4ba21d946a8e74
     user_starred_at: '2025-02-18T09:10:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -65320,15 +65405,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.846Z'
+      prompt_version: v3
   - repo: JonasKruckenberg/k23
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - embedded
+    tags:
+      - microkernel
+      - operating-system
+      - wasm
+      - lang:rust
     summary: Experimental WASM Microkernel Operating System
     last_synced_sha: 4763c1449ddb13290e19ed6987eb46b6b89e5804
     user_starred_at: '2025-02-18T09:05:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -65352,15 +65446,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.846Z'
+      prompt_version: v3
   - repo: tauri-apps/plugins-workspace
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - tauri
+      - tauri-plugin
+      - lang:rust
     summary: All of the official Tauri plugins in one place!
     last_synced_sha: 99c3e37b54c115e8712f67c2b53ed1f2f0b4aae6
     user_starred_at: '2025-02-17T20:02:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -65383,15 +65485,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.846Z'
+      prompt_version: v3
   - repo: latelierco/vue-signalr
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - web-dev
+    tags:
+      - signalr
+      - real-time
+      - lang:js
+      - vue
     summary: No description provided
     last_synced_sha: acf3041bdc1ad0d9df46dfd9fa24a879aec11096
     user_starred_at: '2025-02-17T17:54:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -65410,16 +65521,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.846Z'
+      prompt_version: v3
   - repo: Akash52/msal-with-nuxt3
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - authentication
+      - msal
+      - nuxt3
+      - lang:vue
     summary: Microsoft Authentication Library (MSAL) with Nuxt 3
     last_synced_sha: c7b1c31537565996a190bab001fc101e82d3c252
     user_starred_at: '2025-02-17T17:54:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -65445,16 +65565,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.845Z'
+      prompt_version: v3
   - repo: NicolaSpadari/nuxtor
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - tauri
+      - nuxt4
+      - tailwindcss
+      - lang:vue
     summary: Build tiny desktop apps with Tauri, Nuxt 4 and Nuxt UI 4
     last_synced_sha: b2797021350a948cb2682541b040f528d41e3a21
     user_starred_at: '2025-02-16T17:06:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -65481,7 +65610,11 @@ repositories:
         published_at: '2026-01-31T10:07:27Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:27:54.845Z'
+      prompt_version: v3
   - repo: team-telnyx/telnyx-node
     categories:
       - apis
