@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-22T04:51:55.930Z'
+  manifest_updated_at: '2026-03-22T04:52:28.859Z'
   total_repos: 2454
   generator_version: v1.0.0
   github_user: primeinc
@@ -30793,13 +30793,19 @@ repositories:
     framework: null
   - repo: droidrun/droidrun
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - mobile-dev
+    tags:
+      - lang:python
+      - ai-agents
+      - android
+      - mobile-automation
+      - llm
     summary: Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖
     last_synced_sha: 98b762d06a77e243fca66e830b7fa98d7c0124ee
     user_starred_at: '2025-11-29T01:51:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30824,15 +30830,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.179Z'
+      prompt_version: v3
   - repo: thinking-machines-lab/tinker-cookbook
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - lang:python
+      - post-training
+      - tinker
     summary: Post-training with Tinker
     last_synced_sha: b5feae00da3a1e4cbd26089d0bf8acc409f29108
     user_starred_at: '2025-11-29T01:51:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -30850,15 +30864,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.179Z'
+      prompt_version: v3
   - repo: leukipp/touchkio
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - embedded
+    tags:
+      - lang:js
+      - home-assistant
+      - raspberry-pi
+      - kiosk-touch-panel
     summary: Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display.
     last_synced_sha: b63f2aee3400ea4f37eaff2993765c15da85c550
     user_starred_at: '2025-11-29T01:50:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -30881,15 +30904,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.179Z'
+      prompt_version: v3
   - repo: github/awesome-copilot
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - lang:python
+      - github-copilot
+      - prompt-engineering
+      - custom-agents
+      - awesome
     summary: Community-contributed instructions, agents, skills, and configurations to help you make the most of Git Hub Copilot.
     last_synced_sha: c6a75d7e0923ec0a754e5554b1c52ef76f0d75f8
     user_starred_at: '2025-11-29T01:50:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30915,15 +30948,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.179Z'
+      prompt_version: v3
   - repo: MrNeRF/LichtFeld-Studio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:cpp
+      - 3d-rendering
+      - computer-vision
+      - optimization
+      - cuda
     summary: Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.
     last_synced_sha: 6dfad90aca43edef90e1179143bd28addf9f1b28
     user_starred_at: '2025-11-29T01:49:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -30948,15 +30991,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.179Z'
+      prompt_version: v3
   - repo: WerWolv/ImHex
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - security
+    tags:
+      - lang:cpp
+      - hex-editor
+      - reverse-engineering
+      - disassembler
+      - forensics
     summary: 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
     last_synced_sha: 854535fec614399f4fc9b7989b2694a151698b3a
     user_starred_at: '2025-11-29T01:48:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -30996,15 +31049,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.179Z'
+      prompt_version: v3
   - repo: ocornut/imgui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - game-dev
+    tags:
+      - lang:cpp
+      - gui
+      - ui-toolkit
+      - gamedev
+      - minimal-dependency
     summary: 'Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies'
     last_synced_sha: 8314fc3e5a10f7c6b670225065fce1dc8cfd396b
     user_starred_at: '2025-11-29T01:48:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -31039,15 +31102,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.179Z'
+      prompt_version: v3
   - repo: aristocratos/btop
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - desktop-dev
+    tags:
+      - lang:cpp
+      - resource-monitor
+      - system-monitor
     summary: A monitor of resources
     last_synced_sha: 83e309cbc3d3a94324c3376bfe9d601c79c04a9b
     user_starred_at: '2025-11-29T01:48:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -31067,15 +31138,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.179Z'
+      prompt_version: v3
   - repo: hyprwm/Hyprland
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - system-admin
+    tags:
+      - lang:cpp
+      - wayland
+      - compositor
+      - dynamic-tiling
     summary: Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
     last_synced_sha: bf31f642b08a8d8ca796a1b713285f2580805c2f
     user_starred_at: '2025-11-29T01:48:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -31099,15 +31179,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.179Z'
+      prompt_version: v3
   - repo: facebookresearch/habitat-sim
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - lang:cpp
+      - 3d-simulator
+      - robotics
+      - sim2real
+      - computer-vision
     summary: A flexible, high-performance 3D simulator for Embodied AI research.
     last_synced_sha: 3da90e2d08313dc24670ce85d8adefdeceda0b69
     user_starred_at: '2025-11-29T01:47:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -31133,15 +31222,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.179Z'
+      prompt_version: v3
   - repo: TechnitiumSoftware/DnsServer
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - lang:csharp
+      - dns-server
+      - privacy
+      - dns-over-tls
+      - dns
     summary: Technitium DNS Server
     last_synced_sha: 7f7ce2685eadd6172f139f39e9e8d2e75f223a94
     user_starred_at: '2025-11-29T01:46:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -31171,15 +31270,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.179Z'
+      prompt_version: v3
   - repo: Cysharp/R3
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - dev-tools
+    tags:
+      - lang:csharp
+      - reactive
+      - future-dotnet
+      - tools
     summary: The new future of dotnet/reactive and Uni Rx.
     last_synced_sha: dc69078430149db8cd93069f502cefe148745b4b
     user_starred_at: '2025-11-29T01:45:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -31199,15 +31307,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.179Z'
+      prompt_version: v3
   - repo: DearVa/Everywhere
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - lang:csharp
+      - ai-assistant
+      - desktop-integration
+      - llm
+      - openai
     summary: Context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools.
     last_synced_sha: c298d1a806ed545b4700a8a5aebbc11d9b9d56c7
     user_starred_at: '2025-11-29T01:45:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -31241,15 +31359,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.179Z'
+      prompt_version: v3
   - repo: QuantConnect/Lean
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:csharp
+      - algorithmic-trading
+      - finance
+      - trading-platform
     summary: Lean Algorithmic Trading Engine by Quant Connect (Python, C#)
     last_synced_sha: 541682fa4e63f70c45f8b40c268b8f9596f96cd3
     user_starred_at: '2025-11-29T01:45:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -31284,15 +31411,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.179Z'
+      prompt_version: v3
   - repo: abpframework/abp
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - lang:csharp
+      - aspnetcore
+      - multi-tenancy
+      - architecture
     summary: Open-source web application framework for ASP.NET Core! Offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET. Provides the fundamental in...
     last_synced_sha: 026537d38ac47f6c5b0180faa6f5c30e29dcc11e
     user_starred_at: '2025-11-29T01:44:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -31327,6 +31463,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:52:27.178Z'
+      prompt_version: v3
   - repo: CoplayDev/unity-mcp
     categories:
       - game-dev
