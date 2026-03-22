@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-22T04:37:57.761Z'
+  manifest_updated_at: '2026-03-22T04:38:25.847Z'
   total_repos: 2454
   generator_version: v1.0.0
   github_user: primeinc
@@ -55527,13 +55527,18 @@ repositories:
     framework: null
   - repo: pangrr/realtor
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - automation
+    tags:
+      - lang:python
+      - real-estate
+      - webscraping
+      - data-extraction
     summary: crawl house data from realtor.com
     last_synced_sha: f01f171786a319c04419d3e4913dcec46478a31a
     user_starred_at: '2025-07-12T05:53:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -55551,15 +55556,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.189Z'
+      prompt_version: v3
   - repo: pablotanner/RealtorRocket
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+    tags:
+      - lang:js
+      - react
+      - express
+      - prisma
+      - real-estate
     summary: Real Estate Management Software
     last_synced_sha: 22effec5246ad332102d9ac89a571590bcd73752
     user_starred_at: '2025-07-12T05:53:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -55588,16 +55602,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.189Z'
+      prompt_version: v3
   - repo: harry-s-grewal/mls-real-estate-scraper-for-realtor.ca
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+    tags:
+      - lang:python
+      - webscraping
+      - real-estate
+      - data-scraper
     summary: Python MLS and Real-Estate Data Scraper for the Realtor.ca Website
     last_synced_sha: 649b944652f9e9f95bf73412e23e9c769c129767
     user_starred_at: '2025-07-12T05:52:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -55624,15 +55647,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.189Z'
+      prompt_version: v3
   - repo: Exclusiveideas/Realtor
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - lang:js
+      - react
+      - chakra-ui
+      - real-estate
     summary: A real-estate website with realtime data and information on houses for rent and for sale.
     last_synced_sha: 8cade6e3cc1237d68bf9f7c8d7e6519c28583780
     user_starred_at: '2025-07-12T05:52:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -55656,16 +55688,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.189Z'
+      prompt_version: v3
   - repo: Froren/realtorca
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - automation
+    tags:
+      - lang:js
+      - api-wrapper
+      - realtor-ca
     summary: API wrapper for realtor.ca MLS website
     last_synced_sha: 3419970f3edc1f8061074301bb4701e90b68fc76
     user_starred_at: '2025-07-12T05:52:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -55683,15 +55723,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.189Z'
+      prompt_version: v3
   - repo: baizel36/property_search
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+    tags:
+      - lang:python
+      - real-estate
+      - webscraping
+      - automation
     summary: Python scripts to search for real estate on realtor.com and zillow.com
     last_synced_sha: 098f9eb689173506bdfc070e95c432904949f03b
     user_starred_at: '2025-07-12T05:51:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -55717,15 +55766,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.189Z'
+      prompt_version: v3
   - repo: rachitt96/pyRealtor
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - apis
+    tags:
+      - lang:python
+      - data-analysis
+      - real-estate
+      - api
     summary: Python package to extract and analyse Canadian, United States and Indian real estate data from REALTOR.CA, REALTOR.COM and HOUSING.COM
     last_synced_sha: ae66a078e3f4d43d3baf6a6aaaa23eefc2769c8d
     user_starred_at: '2025-07-12T05:49:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -55751,15 +55809,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.189Z'
+      prompt_version: v3
   - repo: tysonthomas9/realtor-agent
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:python
+      - real-estate
+      - ai-agents
+      - automation
     summary: 'Realtor Agent: AI-powered tool for property analysis, running comparables, and assisting with contract document finalization in real estate transactions.'
     last_synced_sha: 0b406de995a4c508ed453ba208a54d9f59a5308b
     user_starred_at: '2025-07-12T05:48:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -55782,15 +55849,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.189Z'
+      prompt_version: v3
   - repo: moov-io/fincen
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+    tags:
+      - lang:go
+      - fincen
+      - regulatory
+      - financial
     summary: Fincen BSA E-Filing forms
     last_synced_sha: d302df03425b5c27720ae615b5efe0d3f38d53bd
     user_starred_at: '2025-07-12T05:41:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -55814,15 +55890,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.189Z'
+      prompt_version: v3
   - repo: perspective-dev/perspective
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ui-libraries
+    tags:
+      - lang:cpp
+      - data-visualization
+      - webassembly
+      - analytics
     summary: A data visualization and analytics component, especially well-suited for large and/or streaming datasets.
     last_synced_sha: b0ee11672aa5f984c230e8889e409668e8c98e35
     user_starred_at: '2025-07-12T05:40:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -55850,15 +55935,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.189Z'
+      prompt_version: v3
   - repo: moov-io/awesome-fintech
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - curated-list
+      - fintech
+      - resources
     summary: A curated collection of open source fintech libraries and resources.
     last_synced_sha: 155ea980a35691eb31d5a258bbf7d683d0e72776
     user_starred_at: '2025-07-12T05:39:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -55879,15 +55972,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.189Z'
+      prompt_version: v3
   - repo: 7kfpun/awesome-fintech
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - resources
+      - curated-list
+      - fintech
     summary: A curated list of amazingly awesome financial libraries, resources and shiny things.
     last_synced_sha: af8eb89ebfba8b8c4b3abcbca4af2468c4d497ec
     user_starred_at: '2025-07-12T05:38:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -55905,15 +56006,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.189Z'
+      prompt_version: v3
   - repo: Galaxies-dev/fintech-clone-react-native
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - web-dev
+    tags:
+      - lang:ts
+      - react-native
+      - fintech
     summary: No description provided
     last_synced_sha: ff23a1f50bbdefcee5f85cc856a03e92b3a1d8df
     user_starred_at: '2025-07-12T05:38:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -55931,15 +56040,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.188Z'
+      prompt_version: v3
   - repo: 4GeeksAcademy/realestate-datacleanup-exercise
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - learning
+    tags:
+      - lang:jupyter-notebook
+      - data-cleanup
+      - real-estate
     summary: No description provided
     last_synced_sha: 8cec2d2101779e1d5acba466905fd1fdf2c4cf6c
     user_starred_at: '2025-07-12T05:33:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -55957,15 +56074,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.188Z'
+      prompt_version: v3
   - repo: nhost/nhost
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - databases
+      - apis
+    tags:
+      - graphql
+      - lang:ts
+      - backend
+      - authentication
     summary: The Open Source Firebase Alternative with Graph QL.
     last_synced_sha: 49f052581da2423f396e391247ea04a1765d0ca5
     user_starred_at: '2025-07-12T04:44:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -56004,6 +56131,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-22T04:38:24.188Z'
+      prompt_version: v3
   - repo: adrianhajdin/project_graphql_blog
     categories:
       - web-dev
