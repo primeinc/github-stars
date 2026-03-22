@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [rtk-ai/vox](https://github.com/rtk-ai/vox) | A universal AI toolkit for high-performance Speech-to-Text (STT) and Text-to-Speech (TTS) processing, designed for low-latency and easy model integration. | `Rust` ★ 44 | 2026-03-18 |
-| [cjpais/Handy](https://github.com/cjpais/Handy) | A free, open source, and extensible speech-to-text application that works completely offline. | `Rust` ★ 18.2k | 2026-03-21 |
+| [rtk-ai/vox](https://github.com/rtk-ai/vox) | A universal AI toolkit for high-performance Speech-to-Text (STT) and Text-to-Speech (TTS) processing, designed for low-latency and easy model integration. | `Rust` ★ 45 | 2026-03-18 |
+| [cjpais/Handy](https://github.com/cjpais/Handy) | A free, open source, and extensible speech-to-text application that works completely offline. | `Rust` ★ 18.3k | 2026-03-22 |

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [pimalaya/ortie](https://github.com/pimalaya/ortie) | CLI to manage OAuth tokens | `Rust` ★ 20 | 2026-02-16 |
-| [better-auth/better-auth](https://github.com/better-auth/better-auth) | The most comprehensive authentication framework for Type Script | `TypeScript` ★ 27.3k | 2026-03-21 |
+| [pimalaya/ortie](https://github.com/pimalaya/ortie) | CLI to manage OAuth tokens | `Rust` ★ 21 | 2026-02-16 |
+| [better-auth/better-auth](https://github.com/better-auth/better-auth) | The most comprehensive authentication framework for Type Script | `TypeScript` ★ 27.3k | 2026-03-22 |

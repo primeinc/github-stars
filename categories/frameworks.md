@@ -1,24 +1,35 @@
 # Frameworks
 
-*14 repositories*
+*25 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [swarmclawai/swarmclaw](https://github.com/swarmclawai/swarmclaw) | Build and run autonomous AI agents with Open Claw, multiple model providers, orchestration, delegation, memory, skills, schedules, and chat connectors. | `TypeScript` ★ 163 | 2026-03-19 |
+| [swarmclawai/swarmclaw](https://github.com/swarmclawai/swarmclaw) | Build and run autonomous AI agents with Open Claw, multiple model providers, orchestration, delegation, memory, skills, schedules, and chat connectors. | `TypeScript` ★ 164 | 2026-03-19 |
 | [shaka-project/shaka-packager](https://github.com/shaka-project/shaka-packager) | A media packaging and development framework for VOD and Live DASH and HLS applications, supporting Common Encryption for Widevine and other DRM Systems. | `C++` ★ 2.4k | 2026-03-20 |
 | [TrinityCore/TrinityCore](https://github.com/TrinityCore/TrinityCore) | Trinity Core Open Source MMO Framework (master = 12.0.1.66044, 3.3.5 = 3.3.5a.12340, cata classic = 4.4.2.60895) | `C++` ★ 10.5k | 2026-03-21 |
 | [wxt-dev/wxt](https://github.com/wxt-dev/wxt) | ⚡ Next-gen Web Extension Framework | `TypeScript` ★ 9.4k | 2026-03-19 |
 | [adambajguz/Typin](https://github.com/adambajguz/Typin) | Declarative framework for interactive CLI applications | `C#` ★ 254 | 2025-06-18 |
 | [kach/nearley](https://github.com/kach/nearley) | 📜🔜🌲 Simple, fast, powerful parser toolkit for Java Script. | `JavaScript` ★ 3.7k | 2024-11-14 |
-| [alibaba/nacos](https://github.com/alibaba/nacos) | an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications. | `Java` ★ 32.7k | 2026-03-21 |
+| [alibaba/nacos](https://github.com/alibaba/nacos) | an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications. | `Java` ★ 32.8k | 2026-03-22 |
 | [nasa/openmct](https://github.com/nasa/openmct) | A web based mission control framework. | `JavaScript` ★ 12.8k | 2026-03-20 |
 | [Effect-TS/effect](https://github.com/Effect-TS/effect) | Build production-ready applications in Type Script | `TypeScript` ★ 13.6k | 2026-03-20 |
 | [chakra-ui/ark](https://github.com/chakra-ui/ark) | Unstyled, accessible UI components for your design System. Works in React, Vue, Solid, and Svelte. | `TypeScript` ★ 5.1k | 2026-03-21 |
-| [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | The Generative UI framework | `TypeScript` ★ 12.8k | 2026-03-21 |
+| [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | The Generative UI framework | `TypeScript` ★ 12.9k | 2026-03-21 |
 | [rkyv/rkyv](https://github.com/rkyv/rkyv) | Zero-copy deserialization framework for Rust | `Rust` ★ 4.1k | 2026-02-28 |
 | [meteor-useraccounts/core](https://github.com/meteor-useraccounts/core) | Meteor sign up and sign in templates' core functionalities | `JavaScript` ★ 531 | 2021-07-09 |
 | [suitenumerique/meet](https://github.com/suitenumerique/meet) | Open source video conferencing app powered by Live Kit. | `Python` ★ 1.9k | 2026-03-20 |
+| [payloadcms/payload](https://github.com/payloadcms/payload) | Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full Type Script backend and admin panel instantly. Use Payload as a headless CMS or for build... | `TypeScript` ★ 41.4k | 2026-03-21 |
+| [jynew/jynew](https://github.com/jynew/jynew) | Jin Yong Legend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game. | `C#` ★ 8.8k | 2025-04-19 |
+| [next-safe-action/next-safe-action](https://github.com/next-safe-action/next-safe-action) | Type safe and validated Server Actions in your Next.js project. | `TypeScript` ★ 3k | 2026-03-18 |
+| [nitrojs/nitro](https://github.com/nitrojs/nitro) | Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer. | `TypeScript` ★ 10.6k | 2026-03-20 |
+| [microsoft/FluidFramework](https://github.com/microsoft/FluidFramework) | Library for building distributed, real-time collaborative web applications | `TypeScript` ★ 4.9k | 2026-03-20 |
+| [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | Integrate cutting-edge LLM technology quickly and easily into your apps | `C#` ★ 27.5k | 2026-03-21 |
+| [gin-gonic/gin](https://github.com/gin-gonic/gin) | Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for ... | `Go` ★ 88.3k | 2026-03-16 |
+| [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) | Clean Architecture Solution Template for ASP.NET Core | `C#` ★ 19.8k | 2026-03-21 |
+| [formatjs/formatjs](https://github.com/formatjs/formatjs) | The monorepo home to all of the Format JS related libraries, most notably react-intl. | `TypeScript` ★ 14.7k | 2026-03-21 |
+| [beefproject/beef](https://github.com/beefproject/beef) | The Browser Exploitation Framework Project | `JavaScript` ★ 10.8k | 2026-03-19 |
+| [vercel/platforms](https://github.com/vercel/platforms) | A full-stack Next.js app with multi-tenancy. | `TypeScript` ★ 6.6k | 2025-12-06 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
