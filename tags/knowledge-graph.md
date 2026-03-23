@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about. | `TypeScript` ★ 2.7k | 2026-03-21 |
-| [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | Git Nexus: The Zero-Server Code Intelligence Engine - Git Nexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a Git Hub repo or ZIP file, and get an interacti... | `TypeScript` ★ 18.6k | 2026-03-22 |
+| [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about. | `TypeScript` ★ 4.4k | 2026-03-23 |
+| [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | Git Nexus: The Zero-Server Code Intelligence Engine - Git Nexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a Git Hub repo or ZIP file, and get an interacti... | `TypeScript` ★ 18.9k | 2026-03-23 |
