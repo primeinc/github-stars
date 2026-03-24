@@ -1,8 +1,8 @@
 # Awesome Starred Repositories
 
-> A curated list of **200** repositories across **25** categories, automatically classified and organized.
+> A curated list of **300** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-03-23
+Last updated: 2026-03-24
 
 ## ⭐ Recently Starred
 
@@ -16,27 +16,27 @@ Last updated: 2026-03-23
 | [nodecg/nodecg](https://github.com/nodecg/nodecg) | Create broadcast graphics using Node.js and a browser | `TypeScript` ★ 1.1k | 2025-12-08 |
 | [openbao/openbao](https://github.com/openbao/openbao) | Open Bao exists to provide a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys. | `Go` ★ 5.7k | 2026-03-23 |
 | [antonreshetov/mysigmail](https://github.com/antonreshetov/mysigmail) | A free and open-source email signature generator for Gmail, Outlook, Apple Mail, etc. | `Vue` ★ 1.3k | 2026-01-08 |
-| [jackwener/opencli](https://github.com/jackwener/opencli) | Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. | `TypeScript` ★ 4.6k | 2026-03-23 |
+| [jackwener/opencli](https://github.com/jackwener/opencli) | Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. | `TypeScript` ★ 5.5k | 2026-03-24 |
 | [usewaypoint/email-builder-js](https://github.com/usewaypoint/email-builder-js) | A free and open-source block-based email template builder. | `TypeScript` ★ 1.6k | 2026-02-09 |
 
 ## 🏷️ Popular Tags
 
-[azure](tags/azure.md) (16) • [mcp](tags/mcp.md) (14) • [printer-management](tags/printer-management.md) (9) • [mcp-server](tags/mcp-server.md) (8) • [text-to-speech](tags/text-to-speech.md) (7) • [parser](tags/parser.md) (7) • [ai-agents](tags/ai-agents.md) (5) • [ai](tags/ai.md) (4) • [cross-platform](tags/cross-platform.md) (4) • [nextjs](tags/nextjs.md) (4) • [voice-cloning](tags/voice-cloning.md) (4) • [vscode](tags/vscode.md) (4) • [authentication](tags/authentication.md) (4) • [infrastructure-as-code](tags/infrastructure-as-code.md) (4) • [proxy](tags/proxy.md) (3) • [react](tags/react.md) (3) • [speech-synthesis](tags/speech-synthesis.md) (3) • [docker](tags/docker.md) (3) • [ai-agent](tags/ai-agent.md) (3) • [templates](tags/templates.md) (3) • [cli](tags/cli.md) (3) • [openclaw](tags/openclaw.md) (3) • [llm](tags/llm.md) (3) • [server-management](tags/server-management.md) (3) • [entra-id](tags/entra-id.md) (3) • [office365](tags/office365.md) (3) • [self-hosted](tags/self-hosted.md) (2) • [encryption](tags/encryption.md) (2) • [workflow-automation](tags/workflow-automation.md) (2) • [time-series](tags/time-series.md) (2)
+[azure](tags/azure.md) (17) • [mcp](tags/mcp.md) (14) • [printer-management](tags/printer-management.md) (9) • [mcp-server](tags/mcp-server.md) (8) • [text-to-speech](tags/text-to-speech.md) (7) • [parser](tags/parser.md) (7) • [ai-agents](tags/ai-agents.md) (5) • [ai](tags/ai.md) (5) • [cross-platform](tags/cross-platform.md) (4) • [react](tags/react.md) (4) • [nextjs](tags/nextjs.md) (4) • [voice-cloning](tags/voice-cloning.md) (4) • [vscode](tags/vscode.md) (4) • [authentication](tags/authentication.md) (4) • [infrastructure-as-code](tags/infrastructure-as-code.md) (4) • [self-hosted](tags/self-hosted.md) (3) • [proxy](tags/proxy.md) (3) • [typescript](tags/typescript.md) (3) • [speech-synthesis](tags/speech-synthesis.md) (3) • [docker](tags/docker.md) (3) • [ai-agent](tags/ai-agent.md) (3) • [templates](tags/templates.md) (3) • [cli](tags/cli.md) (3) • [openclaw](tags/openclaw.md) (3) • [llm](tags/llm.md) (3) • [server-management](tags/server-management.md) (3) • [entra-id](tags/entra-id.md) (3) • [office365](tags/office365.md) (3) • [encryption](tags/encryption.md) (2) • [workflow-automation](tags/workflow-automation.md) (2)
 
 <details>
 <summary>📂 All Categories (25)</summary>
 
 | | | |
 |---|---|---|
-| [ai-ml](categories/ai-ml.md) (54) | [productivity](categories/productivity.md) (48) | [automation](categories/automation.md) (43) |
-| [dev-tools](categories/dev-tools.md) (37) | [security](categories/security.md) (35) | [system-admin](categories/system-admin.md) (25) |
-| [web-dev](categories/web-dev.md) (22) | [apis](categories/apis.md) (20) | [ui-libraries](categories/ui-libraries.md) (15) |
-| [cloud](categories/cloud.md) (15) | [networking](categories/networking.md) (14) | [documentation](categories/documentation.md) (14) |
-| [desktop-dev](categories/desktop-dev.md) (9) | [data-science](categories/data-science.md) (9) | [learning](categories/learning.md) (8) |
-| [game-dev](categories/game-dev.md) (7) | [databases](categories/databases.md) (7) | [embedded](categories/embedded.md) (6) |
-| [frameworks](categories/frameworks.md) (5) | [testing](categories/testing.md) (5) | [containers](categories/containers.md) (5) |
-| [deployment](categories/deployment.md) (5) | [unclassified](categories/unclassified.md) (4) | [mobile-dev](categories/mobile-dev.md) (3) |
-| [monitoring](categories/monitoring.md) (3) |  |  |
+| [unclassified](categories/unclassified.md) (89) | [ai-ml](categories/ai-ml.md) (54) | [productivity](categories/productivity.md) (54) |
+| [automation](categories/automation.md) (45) | [dev-tools](categories/dev-tools.md) (42) | [security](categories/security.md) (37) |
+| [system-admin](categories/system-admin.md) (27) | [web-dev](categories/web-dev.md) (22) | [apis](categories/apis.md) (20) |
+| [ui-libraries](categories/ui-libraries.md) (18) | [documentation](categories/documentation.md) (18) | [cloud](categories/cloud.md) (16) |
+| [networking](categories/networking.md) (14) | [learning](categories/learning.md) (10) | [desktop-dev](categories/desktop-dev.md) (9) |
+| [data-science](categories/data-science.md) (9) | [game-dev](categories/game-dev.md) (7) | [databases](categories/databases.md) (7) |
+| [embedded](categories/embedded.md) (6) | [deployment](categories/deployment.md) (6) | [frameworks](categories/frameworks.md) (5) |
+| [testing](categories/testing.md) (5) | [containers](categories/containers.md) (5) | [mobile-dev](categories/mobile-dev.md) (4) |
+| [monitoring](categories/monitoring.md) (4) |  |  |
 
 </details>
 

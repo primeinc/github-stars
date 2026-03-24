@@ -7,22 +7,22 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [robcole/rentcast-proxy](https://github.com/robcole/rentcast-proxy) | Typed API wrapper and proxy for Rentcast API with SQLite caching | `Crystal` ★ 1 | 2025-06-02 |
-| [googleworkspace/cli](https://github.com/googleworkspace/cli) | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | `Rust` ★ 22.1k | 2026-03-21 |
+| [googleworkspace/cli](https://github.com/googleworkspace/cli) | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | `Rust` ★ 22.3k | 2026-03-23 |
 | [atefe-aa/silent-print](https://github.com/atefe-aa/silent-print) | A lightweight Windows background service that exposes a local HTTP API so web apps can print HTML silently — no browser print dialog, no user interruption. Perfect for barcode label printing, recei... | `Go` ★ 1 | 2026-02-27 |
-| [Brainicism/bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider) | Proof-of-origin token provider plugin for yt-dlp | `TypeScript` ★ 462 | 2026-03-21 |
+| [Brainicism/bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider) | Proof-of-origin token provider plugin for yt-dlp | `TypeScript` ★ 464 | 2026-03-21 |
 | [cloudfoundry/cloud-service-broker](https://github.com/cloudfoundry/cloud-service-broker) | OSBAPI service broker that uses Terraform to provision and bind services. Derived from https://github.com/Google Cloud Platform/gcp-service-broker | `Go` ★ 84 | 2026-03-19 |
-| [InsForge/InsForge](https://github.com/InsForge/InsForge) | Give agents everything they need to ship fullstack apps. The backend built for agentic development. | `TypeScript` ★ 5k | 2026-03-23 |
-| [leonekmisio-prog/typecast-sdk](https://github.com/leonekmisio-prog/typecast-sdk) | 🗣️ Transform text into natural speech effortlessly with the official Typecast SDKs for the Text-to-Speech API across multiple programming languages. | `C#` ★ 1 | 2026-03-23 |
-| [natikxy/rick-voice](https://github.com/natikxy/rick-voice) | Convert text into authentic Rick Sanchez voice for bots and apps with a simple Python API supporting streaming and multiple TTS providers. | ★ 1 | 2026-03-23 |
+| [InsForge/InsForge](https://github.com/InsForge/InsForge) | Give agents everything they need to ship fullstack apps. The backend built for agentic development. | `TypeScript` ★ 5k | 2026-03-24 |
+| [leonekmisio-prog/typecast-sdk](https://github.com/leonekmisio-prog/typecast-sdk) | 🗣️ Transform text into natural speech effortlessly with the official Typecast SDKs for the Text-to-Speech API across multiple programming languages. | `C#` ★ 1 | 2026-03-24 |
+| [natikxy/rick-voice](https://github.com/natikxy/rick-voice) | Convert text into authentic Rick Sanchez voice for bots and apps with a simple Python API supporting streaming and multiple TTS providers. | ★ 1 | 2026-03-24 |
 | [t3dotgg/stripe-recommendations](https://github.com/t3dotgg/stripe-recommendations) | How to implement Stripe without going mad | ★ 6.3k | 2025-02-07 |
-| [AzureAD/microsoft-identity-web](https://github.com/AzureAD/microsoft-identity-web) | Helps creating protected web apps and web APIs with Microsoft identity platform and Azure AD B2C | `C#` ★ 774 | 2026-03-20 |
-| [delorenj/mcp-server-trello](https://github.com/delorenj/mcp-server-trello) | A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards. | `TypeScript` ★ 272 | 2026-02-04 |
+| [AzureAD/microsoft-identity-web](https://github.com/AzureAD/microsoft-identity-web) | Helps creating protected web apps and web APIs with Microsoft identity platform and Azure AD B2C | `C#` ★ 774 | 2026-03-24 |
+| [delorenj/mcp-server-trello](https://github.com/delorenj/mcp-server-trello) | A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards. | `TypeScript` ★ 274 | 2026-02-04 |
 | [executeautomation/mcp-database-server](https://github.com/executeautomation/mcp-database-server) | MCP Database Server is a new MCP Server which helps connect with Sqlite, Sql Server and Posgresql Databases | `TypeScript` ★ 326 | 2025-08-27 |
-| [Softeria/ms-365-mcp-server](https://github.com/Softeria/ms-365-mcp-server) | A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API | `TypeScript` ★ 551 | 2026-03-22 |
-| [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server) | Allow AI to wade through complex Open APIs using Simple Language | `TypeScript` ★ 888 | 2026-02-21 |
+| [Softeria/ms-365-mcp-server](https://github.com/Softeria/ms-365-mcp-server) | A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API | `TypeScript` ★ 554 | 2026-03-23 |
+| [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server) | Allow AI to wade through complex Open APIs using Simple Language | `TypeScript` ★ 887 | 2026-02-21 |
 | [echelon-ai-labs/servicenow-mcp](https://github.com/echelon-ai-labs/servicenow-mcp) | MCP Server for Service Now | `Python` ★ 222 | 2025-10-03 |
 | [financial-datasets/mcp-server](https://github.com/financial-datasets/mcp-server) | An MCP server for interacting with the Financial Datasets stock market API. | `Python` ★ 1.7k | 2025-06-05 |
-| [anomalyco/opencode-sdk-python](https://github.com/anomalyco/opencode-sdk-python) | No description provided | `Python` ★ 167 | 2026-01-30 |
+| [anomalyco/opencode-sdk-python](https://github.com/anomalyco/opencode-sdk-python) | No description provided | `Python` ★ 168 | 2026-01-30 |
 | [vectra-ai-research/MAAD-AF](https://github.com/vectra-ai-research/MAAD-AF) | MAAD Attack Framework - An attack tool for simple, fast & effective security testing of M365 & Entra ID (Azure AD). | `PowerShell` ★ 417 | 2026-01-13 |
 | [zh54321/EntraTokenAid](https://github.com/zh54321/EntraTokenAid) | A pure Power Shell solution for Entra OAuth authentication, enabling easy retrieval of access and refresh tokens | `PowerShell` ★ 132 | 2026-01-27 |
 | [EvotecIT/O365Essentials](https://github.com/EvotecIT/O365Essentials) | A module that helps to manage some tasks on Office 365/Azure via undocumented API | `PowerShell` ★ 144 | 2026-02-14 |
