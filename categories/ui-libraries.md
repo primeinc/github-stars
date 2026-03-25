@@ -1,6 +1,6 @@
 # Ui-libraries
 
-*18 repositories*
+*10 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,21 +8,13 @@
 |---|---|---|---|
 | [antonreshetov/mysigmail](https://github.com/antonreshetov/mysigmail) | A free and open-source email signature generator for Gmail, Outlook, Apple Mail, etc. | `Vue` ★ 1.3k | 2026-01-08 |
 | [usewaypoint/email-builder-js](https://github.com/usewaypoint/email-builder-js) | A free and open-source block-based email template builder. | `TypeScript` ★ 1.6k | 2026-02-09 |
-| [daggerhashimoto/openclaw-nerve](https://github.com/daggerhashimoto/openclaw-nerve) | Real-time web cockpit for Open Claw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility. | `TypeScript` ★ 247 | 2026-03-23 |
+| [daggerhashimoto/openclaw-nerve](https://github.com/daggerhashimoto/openclaw-nerve) | Real-time web cockpit for Open Claw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility. | `TypeScript` ★ 297 | 2026-03-25 |
 | [epixoul/Inkoray-GUI](https://github.com/epixoul/Inkoray-GUI) | A GUI/cmd base software to control any type of printer (laser, inkjet, thermal, POS, etc.) and create custom templates and patterns! | ★ 2 | 2025-01-24 |
 | [zhangxilong-43/SecurePdfViewerForReact](https://github.com/zhangxilong-43/SecurePdfViewerForReact) | A secure PDF viewer component for React. Uses canvas-only rendering to prevent XSS attacks from malicious PDF files. | `TypeScript` ★ 2 | 2026-03-17 |
 | [sergelib/sitemap-visualizer](https://github.com/sergelib/sitemap-visualizer) | An interactive D3.js visualization tool to explore XML sitemaps as navigable tree and sunburst hierarchies | `JavaScript` ★ 2 | 2026-01-28 |
-| [FurkanGozukara/Stable-Diffusion](https://github.com/FurkanGozukara/Stable-Diffusion) | FLUX, Stable Diffusion, SDXL, SD3, Lo RA, Fine Tuning, Dream Booth, Training, Automatic1111, Forge Web UI, Swarm UI, Deep Fake, TTS, Animation, Text To Video, Tutorials, Guides, Lectures, Courses, ... | `JavaScript` ★ 2.7k | 2026-03-23 |
+| [FurkanGozukara/Stable-Diffusion](https://github.com/FurkanGozukara/Stable-Diffusion) | FLUX, Stable Diffusion, SDXL, SD3, Lo RA, Fine Tuning, Dream Booth, Training, Automatic1111, Forge Web UI, Swarm UI, Deep Fake, TTS, Animation, Text To Video, Tutorials, Guides, Lectures, Courses, ... | `JavaScript` ★ 2.7k | 2026-03-25 |
 | [kaito-tokyo/live-backgroundremoval-lite](https://github.com/kaito-tokyo/live-backgroundremoval-lite) | A high-performance, crash-resistant OBS plugin for real-time background removal. Optimized for minimal CPU/GPU usage without a green screen. | `C` ★ 43 | 2026-03-22 |
 | [shihan84/obs-profile-generator](https://github.com/shihan84/obs-profile-generator) | A comprehensive, self-hosted OBS Studio profile generator that works across Windows, Linux, and mac OS. Create custom OBS Studio profiles with an intuitive web interface, preset templates, and cros... | `TypeScript` ★ 4 | 2025-09-08 |
 | [megakode/wallrus](https://github.com/megakode/wallrus) | Gnome (GTK4) application to generate colorful wallpapers based on gradients and different effects. | `Rust` ★ 54 | 2026-03-10 |
-| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 104.9k | 2026-03-24 |
-| [unoplatform/uno](https://github.com/unoplatform/uno) | Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow... | `C#` ★ 9.9k | 2026-03-24 |
-| [memvid/design-memory](https://github.com/memvid/design-memory) | Extract and reproduce design systems from any website using deterministic analysis and LLM interpretation. | `TypeScript` ★ 117 | 2026-02-15 |
-| [aykutkardas/svgps.app](https://github.com/aykutkardas/svgps.app) | SVGPS converts your icons into a single JSON file that is ready to use in your frontend or mobile projects. | `TypeScript` ★ 322 | 2026-02-17 |
-| [MaibornWolff/codecharta](https://github.com/MaibornWolff/codecharta) | Code Charta is a visualization tool that transforms complex software architecture and code metrics into interactive, customizable visual maps, empowering everyone to communicate and analyze your co... | `TypeScript` ★ 426 | 2026-03-20 |
-| [mathuo/dockview](https://github.com/mathuo/dockview) | Zero dependency docking layout manager supporting tabs, groups, grids and splitviews. Supports React, Vue, Angular, and vanilla Type Script. | `TypeScript` ★ 3.1k | 2026-03-20 |
-| [cathrynlavery/wispr-flow-recap](https://github.com/cathrynlavery/wispr-flow-recap) | Beautiful activity recaps for Wispr Flow voice dictation | `JavaScript` ★ 4 | 2026-02-07 |
-| [Dimillian/CodexMonitor](https://github.com/Dimillian/CodexMonitor) | An app to monitor the (Codex) situation | `TypeScript` ★ 3.3k | 2026-03-23 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
