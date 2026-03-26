@@ -1,6 +1,6 @@
 # Productivity
 
-*30 repositories*
+*31 repositories*
 
 [← Back to Index](../README.md)
 
@@ -9,7 +9,7 @@
 | [mspnp/cloud-design-patterns](https://github.com/mspnp/cloud-design-patterns) | Sample implementations for cloud design patterns found in the Azure Architecture Center. | `C#` ★ 845 | 2026-03-23 |
 | [antfu/vscode-file-nesting-config](https://github.com/antfu/vscode-file-nesting-config) | Config of File Nesting for VS Code | `JavaScript` ★ 3.6k | 2026-01-30 |
 | [antonreshetov/mysigmail](https://github.com/antonreshetov/mysigmail) | A free and open-source email signature generator for Gmail, Outlook, Apple Mail, etc. | `Vue` ★ 1.3k | 2026-01-08 |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Skill Directory for Open Claw | `TypeScript` ★ 6.8k | 2026-03-24 |
+| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Skill Directory for Open Claw | `TypeScript` ★ 6.9k | 2026-03-25 |
 | [sproutmaster/nyuprinters](https://github.com/sproutmaster/nyuprinters) | An application to help students find working printers on the NYU campus | `JavaScript` ★ 15 | 2024-05-19 |
 | [atefe-aa/silent-print](https://github.com/atefe-aa/silent-print) | A lightweight Windows background service that exposes a local HTTP API so web apps can print HTML silently — no browser print dialog, no user interruption. Perfect for barcode label printing, recei... | `Go` ★ 1 | 2026-02-27 |
 | [5a9awneh/printer-address-book-converter](https://github.com/5a9awneh/printer-address-book-converter) | Universal printer address book converter with intelligent format detection. Supports multifunction printers using Canon, Sharp, Xerox, and Develop/Konica CSV formats. Features fuzzy deduplication, ... | `PowerShell` ★ 1 | 2026-01-29 |
@@ -21,20 +21,21 @@
 | [ipat8/cmd-printer-management](https://github.com/ipat8/cmd-printer-management) | Manage WSD Printers via CMD scripts | `Batchfile` ★ 2 | 2017-09-06 |
 | [milliytech/printer-service](https://github.com/milliytech/printer-service) | 🔵Python-based service to scan, copy, and print documents with configurable printer settings. | `Python` ★ 3 | 2025-05-06 |
 | [dot-billy/nodebyte](https://github.com/dot-billy/nodebyte) | Nodebyte - your digital inventory | `TypeScript` ★ 36 | 2026-03-21 |
-| [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about. | `TypeScript` ★ 6k | 2026-03-25 |
-| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 | `Python` ★ 8.5k | 2026-03-24 |
+| [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about. | `TypeScript` ★ 6.2k | 2026-03-25 |
+| [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 | `Python` ★ 8.8k | 2026-03-24 |
 | [zumwald/better-vsts-npm-auth](https://github.com/zumwald/better-vsts-npm-auth) | Platform agnostic library and acompanying oauth service enabling developers to easily obtain and use tokens for authorizing NPM feeds in VSTS | `TypeScript` ★ 60 | 2024-07-26 |
-| [microsoft/beachball](https://github.com/microsoft/beachball) | The Sunniest Semantic Version Bumper | `TypeScript` ★ 806 | 2026-03-15 |
-| [changesets/changesets](https://github.com/changesets/changesets) | 🦋 A way to manage your versioning and changelogs with a focus on monorepos | `TypeScript` ★ 11.6k | 2026-03-24 |
+| [microsoft/beachball](https://github.com/microsoft/beachball) | The Sunniest Semantic Version Bumper | `TypeScript` ★ 806 | 2026-03-26 |
+| [changesets/changesets](https://github.com/changesets/changesets) | 🦋 A way to manage your versioning and changelogs with a focus on monorepos | `TypeScript` ★ 11.6k | 2026-03-25 |
 | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | `TypeScript` ★ 42.1k | 2026-03-24 |
 | [zotero/zotero](https://github.com/zotero/zotero) | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources. | `JavaScript` ★ 13.7k | 2026-03-25 |
-| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | CLI-Anything: Making ALL Software Agent-Native | `Python` ★ 22.6k | 2026-03-25 |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | CLI-Anything: Making ALL Software Agent-Native | `Python` ★ 23.2k | 2026-03-26 |
 | [shihan84/obs-profile-generator](https://github.com/shihan84/obs-profile-generator) | A comprehensive, self-hosted OBS Studio profile generator that works across Windows, Linux, and mac OS. Create custom OBS Studio profiles with an intuitive web interface, preset templates, and cros... | `TypeScript` ★ 4 | 2025-09-08 |
-| [go-gitea/gitea](https://github.com/go-gitea/gitea) | Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD | `Go` ★ 54.5k | 2026-03-24 |
+| [go-gitea/gitea](https://github.com/go-gitea/gitea) | Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD | `Go` ★ 54.5k | 2026-03-26 |
 | [sindresorhus/open](https://github.com/sindresorhus/open) | Open stuff like URLs, files, executables. Cross-platform. | `JavaScript` ★ 3.5k | 2025-11-15 |
-| [readest/readest](https://github.com/readest/readest) | Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience. | `TypeScript` ★ 19k | 2026-03-23 |
-| [joelhawksley/timeframe](https://github.com/joelhawksley/timeframe) | An e-paper calendar, weather, and smart home family dashboard | `Ruby` ★ 708 | 2026-03-23 |
+| [readest/readest](https://github.com/readest/readest) | Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience. | `TypeScript` ★ 19k | 2026-03-26 |
+| [joelhawksley/timeframe](https://github.com/joelhawksley/timeframe) | An e-paper calendar, weather, and smart home family dashboard | `Ruby` ★ 709 | 2026-03-25 |
 | [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Go` ★ 296 | 2026-03-21 |
-| [puzpuzpuz/go-concurrent-map-bench](https://github.com/puzpuzpuz/go-concurrent-map-bench) | Benchmarks for concurrent hash map implementations in Go | `Go` ★ 62 | 2026-02-21 |
+| [puzpuzpuz/go-concurrent-map-bench](https://github.com/puzpuzpuz/go-concurrent-map-bench) | Benchmarks for concurrent hash map implementations in Go | `Go` ★ 63 | 2026-02-21 |
+| [harshankur/officeParser](https://github.com/harshankur/officeParser) | A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met... | `Rich Text Format` ★ 298 | 2026-03-24 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
