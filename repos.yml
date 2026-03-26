@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-26T04:07:43.695Z'
+  manifest_updated_at: '2026-03-26T04:08:12.828Z'
   total_repos: 200
   generator_version: v1.0.0
   github_user: primeinc
@@ -4308,13 +4308,17 @@ repositories:
       prompt_version: v3
   - repo: longrackslabs/inbox-classifier
     categories:
+      - ai-ml
       - unclassified
-    tags: []
+    tags:
+      - classification
+      - inbox
+      - lang:python
     summary: No description provided
     last_synced_sha: 3c657a90b8c33a316114e25d2a1fe72b70a308e5
     user_starred_at: '2026-02-24T02:13:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -4332,15 +4336,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-26T04:08:12.003Z'
+      prompt_version: v3
   - repo: jjordanbaird/EmailVectorDB
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+    tags:
+      - openai
+      - vectordb
+      - email-parser
+      - lang:python
     summary: This project demonstrates how to parse emails, process them using Open AI's GPT-3.5, and load the data into a Weaviate vector database for enhanced search capabilities. Utilizing few-shot prompts a...
     last_synced_sha: 6e1b2248aa3059858b3d458f56e1c2e160b19ae5
     user_starred_at: '2026-02-23T19:59:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4362,15 +4375,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-26T04:08:12.003Z'
+      prompt_version: v3
   - repo: SpecterShell/Dumplings
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - system-admin
+    tags:
+      - resource-dumping
+      - lint-tools
+      - lang:powershell
     summary: Dump remote resources and lint outdated packages
     last_synced_sha: 812a1c16b70ad7789bc574aba747703715b4f9de
     user_starred_at: '2026-02-23T11:32:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -4388,15 +4409,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-26T04:08:12.003Z'
+      prompt_version: v3
   - repo: open-mercato/open-mercato
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - crm
+      - erp
+      - modular
+      - lang:ts
     summary: AI‑supportive CRM / ERP foundation framework — built to power R&D, new processes, operations, and growth. It’s modular, extensible, and designed for teams that want strong defaults with room to cus...
     last_synced_sha: 55cdecd3f213fa9bcfd47d51fd5ca3eb73aacf1b
     user_starred_at: '2026-02-22T10:18:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4420,15 +4450,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-26T04:08:12.003Z'
+      prompt_version: v3
   - repo: clash-verge-rev/clash-verge-rev
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - proxy
+      - gui-tool
+      - cross-platform
+      - lang:ts
     summary: A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience
     last_synced_sha: 6d70d4cce28e1c55662d24b6aa8e7e4c6d28ca33
     user_starred_at: '2026-02-22T10:17:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4456,15 +4495,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-26T04:08:12.003Z'
+      prompt_version: v3
   - repo: storytold/artcraft
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - game-dev
+    tags:
+      - 3d-graphics
+      - artists
+      - ai-video
+      - lang:rust
     summary: Art Craft is an intentional crafting engine for artists, designers, and filmmakers
     last_synced_sha: 602d7d33a7e5d30d625602181172a4b93ecc1637
     user_starred_at: '2026-02-22T10:16:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -4489,15 +4537,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-26T04:08:12.003Z'
+      prompt_version: v3
   - repo: zed-industries/zed
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - high-performance
+      - text-editor
+      - multiplayer
+      - lang:rust
     summary: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
     last_synced_sha: 8eb86241f6727835bbd9837af1f169344a9aa29c
     user_starred_at: '2026-02-22T10:15:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -4521,15 +4578,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-26T04:08:12.003Z'
+      prompt_version: v3
   - repo: firecracker-microvm/firecracker
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+    tags:
+      - virtual-machine
+      - sandbox
+      - serverless
+      - lang:rust
     summary: Secure and fast micro VMs for serverless computing.
     last_synced_sha: 7d2faaed9767e1f8541868e6932e38a48a37d0bd
     user_starred_at: '2026-02-22T10:15:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -4558,15 +4624,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-26T04:08:12.003Z'
+      prompt_version: v3
   - repo: google-research/timesfm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - time-series
+      - forecasting
+      - foundation-models
+      - lang:python
     summary: Times FM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
     last_synced_sha: ed29ec5ef7e2d86c48b632859de3b63856ef9cad
     user_starred_at: '2026-02-22T10:14:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -4586,15 +4661,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-26T04:08:12.003Z'
+      prompt_version: v3
   - repo: roboflow/trackers
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - multi-object-tracking
+      - detection-models
+      - sportsmot
+      - lang:python
     summary: Trackers gives you clean, modular re-implementations of leading multi-object tracking algorithms released under the permissive Apache 2.0 license. You combine them with any detection model you alre...
     last_synced_sha: 9095cc46fb314839848747467cb3f941596af080
     user_starred_at: '2026-02-22T10:14:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4624,6 +4708,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-26T04:08:12.003Z'
+      prompt_version: v3
   - repo: Crosstalk-Solutions/unifi-toolkit
     categories:
       - networking
