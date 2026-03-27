@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-27T04:12:12.426Z'
+  manifest_updated_at: '2026-03-27T04:12:44.033Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -41750,13 +41750,17 @@ repositories:
     framework: null
   - repo: CompliantSec/M365SAT
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - microsoft-365
+      - security-assessment
+      - lang:powershell
     summary: Microsoft 365 Security Assessment Tool - A Easy-To-Use Microsoft 365 Security Assessment Tool
     last_synced_sha: a1fdec4a95571989b26103a2079fc5f35bccfd75
     user_starred_at: '2025-09-14T20:04:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -41774,15 +41778,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.838Z'
+      prompt_version: v3
   - repo: betomoedano/snapai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - icon-generator
+      - openai
+      - react-native
+      - cli
+      - lang:ts
     summary: AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using Open AI's latest models.
     last_synced_sha: 20affcd2c352d97d40b5851440d091355f416c27
     user_starred_at: '2025-09-14T07:03:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -41808,16 +41822,25 @@ repositories:
         published_at: '2026-02-11T16:07:21Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.838Z'
+      prompt_version: v3
   - repo: piyushsachdeva/AzureDevOps-Zero-to-Hero
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - automation
+      - learning
+    tags:
+      - azure-devops
+      - cicd
+      - lang:shell
     summary: A central hub for artifacts, agendas, and resources related to the "Azure Dev Ops Zero to Hero" series on Tech Tutorials with Piyush You Tube channel. Access code snippets, agendas, notes, graphics...
     last_synced_sha: 29f97f0de911a6cdb0993cddb3cf8efc9b282e82
     user_starred_at: '2025-09-13T22:07:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -41844,15 +41867,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.838Z'
+      prompt_version: v3
   - repo: Azure-Samples/remote-mcp-webapp-node
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - cloud
+    tags:
+      - azure
+      - mcp
+      - lang:js
     summary: No description provided
     last_synced_sha: c5c398e5d8ee4e7aaae45e1bd32ff367b2de8857
     user_starred_at: '2025-09-13T19:56:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -41870,15 +41901,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.838Z'
+      prompt_version: v3
   - repo: Azure-Samples/communication-services-javascript-quickstarts
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - cloud
+    tags:
+      - azure
+      - communication-services
+      - lang:js
     summary: Sample code for Azure Communication Services Java Script quickstarts
     last_synced_sha: d3805d2c77290bcee57bf0c216e4451dc6d3d6ee
     user_starred_at: '2025-09-13T19:35:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -41896,15 +41935,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.838Z'
+      prompt_version: v3
   - repo: umijs/father
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - npm
+      - package-development
+      - lang:ts
     summary: NPM package development tool
     last_synced_sha: 64472a4d0ef612b990b5f3c88f731bc334ce9617
     user_starred_at: '2025-09-13T18:24:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -41924,15 +41971,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.838Z'
+      prompt_version: v3
   - repo: unjs/pathe
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - path-utilities
+      - nodejs
+      - lang:ts
     summary: 🛣️ Drop-in replacement of the Node.js's path module module that ensures paths are normalized
     last_synced_sha: 1b504b26e02dce104dca58a270e1e7648944573c
     user_starred_at: '2025-09-13T18:19:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -41952,15 +42007,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.838Z'
+      prompt_version: v3
   - repo: unjs/obuild
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - esm
+      - package-builder
+      - lang:ts
     summary: 📦 😯 Zero-config ESM/TS package builder.
     last_synced_sha: 2ccf3360a09f37959e0a57fc1b1b7b179922c59a
     user_starred_at: '2025-09-13T18:16:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -41980,15 +42043,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.838Z'
+      prompt_version: v3
   - repo: RentCast/api-resources
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - property-data
     summary: Resources to help you start working with the Rent Cast property data API.
     last_synced_sha: b084f99d153f907eff1b032d202eb8264a290eb5
     user_starred_at: '2025-09-13T17:47:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -42006,15 +42075,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.838Z'
+      prompt_version: v3
   - repo: fullstorydev/grpcui
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+    tags:
+      - grpc
+      - web-ui
+      - lang:go
     summary: An interactive web UI for g RPC, along the lines of postman
     last_synced_sha: af863d3fa9a15dab8c0de1fa5bdb71822136b0e3
     user_starred_at: '2025-09-13T17:24:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -42037,15 +42114,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.838Z'
+      prompt_version: v3
   - repo: RevenueCat/react-native-purchases
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - apis
+    tags:
+      - in-app-purchases
+      - react-native
+      - lang:ts
     summary: React Native in-app purchases and subscriptions made easy. Support for i OS, Android and web.
     last_synced_sha: 00344b9b1ce2608467e25d429d074b0c88c75b11
     user_starred_at: '2025-09-13T15:54:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42070,16 +42155,23 @@ repositories:
         published_at: '2026-03-18T17:29:32Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.838Z'
+      prompt_version: v3
   - repo: NousResearch/DisTrO
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - distributed-training
+      - scalability
     summary: Distributed Training Over-The-Internet
     last_synced_sha: 24f10628c28692c01e7d282823fd158140b4bcee
     user_starred_at: '2025-09-13T10:44:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -42097,15 +42189,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.838Z'
+      prompt_version: v3
   - repo: NousResearch/Hermes-Function-Calling
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:jupyter-notebook
     summary: No description provided
     last_synced_sha: ea3c4723e4cefdac760d483ccac6c8a428c95ab8
     user_starred_at: '2025-09-13T07:57:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -42123,15 +42221,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.838Z'
+      prompt_version: v3
   - repo: microsoft/mcp
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - integration
+      - data-access
+      - lang:csharp
     summary: Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration
     last_synced_sha: 43c282f3937711ab39fc80b33e2c448ad56324d1
     user_starred_at: '2025-09-13T07:55:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -42151,15 +42257,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.837Z'
+      prompt_version: v3
   - repo: microsoft/garnet
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - system-admin
+    tags:
+      - cache
+      - key-value
+      - lang:csharp
     summary: Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication feat...
     last_synced_sha: 3610cd60a7152a0db468cec0deaa08110c5040b2
     user_starred_at: '2025-09-13T07:55:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -42191,6 +42305,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:12:42.837Z'
+      prompt_version: v3
   - repo: 0x7c13/Notepads
     categories:
       - desktop-dev
