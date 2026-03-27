@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-27T04:31:27.229Z'
+  manifest_updated_at: '2026-03-27T04:31:58.352Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -23086,13 +23086,18 @@ repositories:
     framework: null
   - repo: henrygd/beszel
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - containers
+    tags:
+      - server-monitoring
+      - docker-stats
+      - self-hosted
+      - lang:go
     summary: Lightweight server monitoring hub with historical data, docker stats, and alerts.
     last_synced_sha: ad21cab457ef963543f519636b44a3c978380ef5
     user_starred_at: '2026-01-05T17:43:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -23115,15 +23120,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.112Z'
+      prompt_version: v3
   - repo: TwiN/gatus
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+    tags:
+      - alerting
+      - status-page
+      - devops
+      - dashboard
+      - lang:go
     summary: Automated developer-oriented status page with alerting and incident support
     last_synced_sha: 322f278e8f0d6aa361040b60eae2729a313749bc
     user_starred_at: '2026-01-05T17:43:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -23163,15 +23178,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.112Z'
+      prompt_version: v3
   - repo: duplicati/duplicati
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - security
+    tags:
+      - backup
+      - encryption
+      - cloud-storage
+      - lang:csharp
     summary: Store securely encrypted backups in the cloud!
     last_synced_sha: ce37bb977454513250be12fcedacd869b1cfd642
     user_starred_at: '2026-01-05T17:41:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -23202,15 +23226,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.112Z'
+      prompt_version: v3
   - repo: tixl3d/tixl
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - game-dev
+    tags:
+      - animation
+      - realtime-rendering
+      - motion-design
+      - directx
+      - lang:csharp
     summary: Ti XL is an open source software to create realtime motion graphics.
     last_synced_sha: a1c2da0e4403f8dd10837b98f9a62827e4a9fcfc
     user_starred_at: '2026-01-05T17:40:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -23238,15 +23272,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.112Z'
+      prompt_version: v3
   - repo: bytedance/Dolphin
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - document-analysis
+      - layout-analysis
+      - ocr
+      - deep-learning
+      - lang:python
     summary: 'The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025.'
     last_synced_sha: befa5dad986f86396b73cbd8c37e557b5770c902
     user_starred_at: '2026-01-05T17:37:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -23273,15 +23317,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.112Z'
+      prompt_version: v3
   - repo: kornia/kornia
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - computer-vision
+      - image-processing
+      - machine-learning
+      - deep-learning
+      - lang:python
     summary: 🐍 Geometric Computer Vision Library for Spatial AI
     last_synced_sha: 915b6b47cdb8ea6076a459240316f01c5cb18028
     user_starred_at: '2026-01-05T17:36:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -23312,15 +23366,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.112Z'
+      prompt_version: v3
   - repo: subframe7536/maple-font
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - font
+      - typography
+      - programming-font
+      - monospace
+      - lang:python
     summary: 'Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项'
     last_synced_sha: 8d03aedbb11739fc73ba046501063e5a21f54c0d
     user_starred_at: '2026-01-05T17:35:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -23351,15 +23415,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.112Z'
+      prompt_version: v3
   - repo: v2ray/v2ray-core
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - proxy
+      - golang
+      - socks
+      - http-proxy
+      - lang:go
     summary: A platform for building proxies to bypass network restrictions.
     last_synced_sha: d80440f3d57b45c829dbf513306f7adf9a0f3f76
     user_starred_at: '2026-01-05T17:34:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -23387,15 +23461,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.112Z'
+      prompt_version: v3
   - repo: 5rahim/seanime
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - desktop-dev
+    tags:
+      - media-server
+      - self-hosted
+      - anime
+      - manga
+      - lang:go
     summary: Open-source media server with a web interface and desktop app for anime and manga.
     last_synced_sha: f10e50b02b07cca3481c761ba9d41d9b05b32f87
     user_starred_at: '2026-01-05T17:34:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -23430,15 +23514,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.112Z'
+      prompt_version: v3
   - repo: grpc/grpc
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - rpc
+      - framework
+      - lang:cpp
     summary: C++ based g RPC (C++, Python, Ruby, Objective-C, PHP, C#)
     last_synced_sha: b640724bd13f97cb62214d8050cce30ef607eb0e
     user_starred_at: '2026-01-05T17:33:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -23458,15 +23550,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.112Z'
+      prompt_version: v3
   - repo: LadybirdBrowser/ladybird
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - web-dev
+    tags:
+      - browser
+      - web
+      - cross-platform
+      - lang:cpp
     summary: Truly independent web browser
     last_synced_sha: ce81f165306ef9367dae0a461ad469e11c2f17be
     user_starred_at: '2026-01-05T17:33:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -23486,15 +23587,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.112Z'
+      prompt_version: v3
   - repo: AlexandreRouma/SDRPlusPlus
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - embedded
+    tags:
+      - sdr
+      - cross-platform
+      - radio
+      - signal-processing
+      - lang:cpp
     summary: Cross-Platform SDR Software
     last_synced_sha: a6df4d58e5f6b3045883a70aeb8fb41fd5dbf1d9
     user_starred_at: '2026-01-05T17:32:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -23516,15 +23627,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.111Z'
+      prompt_version: v3
   - repo: maplibre/maplibre-gl-js
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - maps
+      - vector-tiles
+      - typescript
+      - rendering
+      - lang:ts
     summary: Map Libre GL JS - Interactive vector tile maps in the browser
     last_synced_sha: 68741fcd47edad6df45f356b23f6cabb741ba404
     user_starred_at: '2026-01-05T17:32:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -23550,15 +23671,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.111Z'
+      prompt_version: v3
   - repo: Unity-Technologies/ml-agents
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - game-dev
+    tags:
+      - reinforcement-learning
+      - unity3d
+      - deep-learning
+      - neural-networks
+      - lang:csharp
     summary: The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement ...
     last_synced_sha: 462b8cf2891e29e8232c04dba510a9e44cd3920a
     user_starred_at: '2026-01-05T17:31:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -23585,6 +23716,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.111Z'
+      prompt_version: v3
   - repo: mourad-ghafiri/youtube-mcp-server
     categories:
       - ai-ml
@@ -24071,13 +24206,17 @@ repositories:
       prompt_version: v3
   - repo: MyOnee/R
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - system-admin
+    tags:
+      - rdp
+      - remote-access
+      - lang:batchfile
     summary: Free RDP from Github Actions
     last_synced_sha: 9ac6a8b70550c4cbfb9804d3bbb85cad386d645d
     user_starred_at: '2025-12-28T08:25:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -24098,6 +24237,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:31:57.111Z'
+      prompt_version: v3
   - repo: anuraghazra/github-readme-stats
     categories:
       - productivity
