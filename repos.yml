@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-27T04:26:12.951Z'
+  manifest_updated_at: '2026-03-27T04:26:39.671Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -28092,13 +28092,19 @@ repositories:
     framework: null
   - repo: chr15m/runprompt
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agents
+      - bash-script
+      - llm
+      - lang:python
+      - automation-tool
     summary: Run LLM prompts from your shell
     last_synced_sha: b9551fbd75ee34a1d914592b870ae0c5906b0875
     user_starred_at: '2025-11-29T07:21:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -28134,15 +28140,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.516Z'
+      prompt_version: v3
   - repo: repplus/rep-chrome
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - http-analysis
+      - browser-extension
+      - lang:js
+      - web-security
+      - ai-integration
     summary: rep+ — Burp-style HTTP Repeater for Chrome Dev Tools with built‑in AI to explain requests and suggest attacks
     last_synced_sha: fc0cea7e51f9f689ec12879b3b05e311795f3b9f
     user_starred_at: '2025-11-29T07:20:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -28166,15 +28182,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.516Z'
+      prompt_version: v3
   - repo: memodb-io/Acontext
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - agent
+      - self-learning
+      - memory-layer
+      - lang:ts
+      - llm-tools
     summary: Agent Skills as a Memory Layer
     last_synced_sha: d5973b01926805eb9115c4d5b4d401c2f0ea19c3
     user_starred_at: '2025-11-29T03:23:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28209,15 +28235,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.516Z'
+      prompt_version: v3
   - repo: refined-github/refined-github
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - browser-extension
+      - github-extension
+      - user-experience
+      - lang:ts
     summary: ':octocat: Browser extension that simplifies the Git Hub interface and adds useful features'
     last_synced_sha: 09b48fa00f2938b40cbc9b23d3c053103cefe3ba
     user_starred_at: '2025-11-29T01:59:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28244,15 +28279,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.516Z'
+      prompt_version: v3
   - repo: jasonkneen/askshell
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - natural-language-processing
+      - shell-tools
+      - llm-interaction
+      - lang:shell
     summary: Natural language to shell commands - AI-powered CLI using Ollama, Claude, Codex, Copilot, or Gemini
     last_synced_sha: 29752370d79d82b77bd831f94bc9570efb069c85
     user_starred_at: '2025-11-29T01:58:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -28270,15 +28314,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.516Z'
+      prompt_version: v3
   - repo: kane50613/takumi
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ai-ml
+    tags:
+      - react
+      - javascript-framework
+      - rendering
+      - lang:rust
     summary: Render image, GIF or video from JSX-like syntax.
     last_synced_sha: 30e06f97b28b3072c8b53e444543cccadf89145c
     user_starred_at: '2025-11-29T01:56:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -28300,16 +28353,25 @@ repositories:
         published_at: '2026-03-14T17:38:29Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.516Z'
+      prompt_version: v3
   - repo: coleam00/ottomator-agents
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agents
+      - automation
+      - lang:python
+      - open-source-agents
     summary: All the open source AI Agents hosted on the o TTomator Live Agent Studio platform!
     last_synced_sha: 2be20d5737fc49aa0f665a012f3ffde283d26d54
     user_starred_at: '2025-11-29T01:53:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -28327,15 +28389,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.516Z'
+      prompt_version: v3
   - repo: droidrun/droidrun
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ai-ml
+    tags:
+      - ai-agents
+      - mobile-automation
+      - lang:python
+      - android-automation
+      - natural-language
     summary: Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖
     last_synced_sha: e9d0305c782e4b0d0267aea85f113b2c927a012e
     user_starred_at: '2025-11-29T01:51:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -28360,15 +28432,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.516Z'
+      prompt_version: v3
   - repo: thinking-machines-lab/tinker-cookbook
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - ai-training
+      - lang:python
+      - post-training
     summary: Post-training with Tinker
     last_synced_sha: 125e52e40a9c41a993ed266088a75088127438a6
     user_starred_at: '2025-11-29T01:51:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -28388,15 +28468,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.516Z'
+      prompt_version: v3
   - repo: leukipp/touchkio
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - embedded
+    tags:
+      - home-assistant
+      - kiosk-touchscreen
+      - raspberry-pi
+      - lang:js
     summary: Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display.
     last_synced_sha: b63f2aee3400ea4f37eaff2993765c15da85c550
     user_starred_at: '2025-11-29T01:50:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -28419,15 +28508,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.516Z'
+      prompt_version: v3
   - repo: github/awesome-copilot
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - ai
+      - github-copilot
+      - prompt-engineering
+      - lang:python
+      - custom-agents
     summary: Community-contributed instructions, agents, skills, and configurations to help you make the most of Git Hub Copilot.
     last_synced_sha: c7895305baafe14cfc90f70175de54251de89847
     user_starred_at: '2025-11-29T01:50:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -28453,15 +28552,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.516Z'
+      prompt_version: v3
   - repo: MrNeRF/LichtFeld-Studio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - game-dev
+    tags:
+      - computer-graphics
+      - gaussian-splatting
+      - lang:cpp
+      - 3d-modeling
+      - computer-vision
     summary: Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.
     last_synced_sha: c1403ae1dd355ff0be361ba950f242a1860920c9
     user_starred_at: '2025-11-29T01:49:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -28486,15 +28595,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.516Z'
+      prompt_version: v3
   - repo: WerWolv/ImHex
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - hex-editor
+      - reverse-engineering
+      - forensics
+      - lang:cpp
+      - debugging
     summary: 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
     last_synced_sha: 854535fec614399f4fc9b7989b2694a151698b3a
     user_starred_at: '2025-11-29T01:48:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -28534,15 +28653,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.516Z'
+      prompt_version: v3
   - repo: ocornut/imgui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - game-dev
+    tags:
+      - gui
+      - toolkit
+      - lang:cpp
+      - gamedev
+      - ui-framework
     summary: 'Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies'
     last_synced_sha: b62cf3894bc971a1aa8a8bb4006bd502491a06a0
     user_starred_at: '2025-11-29T01:48:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -28577,15 +28706,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.515Z'
+      prompt_version: v3
   - repo: aristocratos/btop
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - dev-tools
+    tags:
+      - resource-monitor
+      - system-monitor
+      - lang:cpp
     summary: A monitor of resources
     last_synced_sha: 6164470cb8ed316accc2b5662dadee49036f9b49
     user_starred_at: '2025-11-29T01:48:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -28605,6 +28742,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:26:38.515Z'
+      prompt_version: v3
   - repo: hyprwm/Hyprland
     categories:
       - system-admin
