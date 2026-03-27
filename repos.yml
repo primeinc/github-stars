@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-27T04:18:36.082Z'
+  manifest_updated_at: '2026-03-27T04:19:08.474Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -35656,13 +35656,18 @@ repositories:
     framework: null
   - repo: Quantco/pnpm-licenses
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - licenses
+      - pnpm
+      - disclaimers
+      - lang:ts
     summary: Generate third party license disclaimers in pnpm-based projects
     last_synced_sha: 8789336055a49da98b7fe5354b47e77ea25f040e
     user_starred_at: '2025-10-19T19:06:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -35680,15 +35685,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.190Z'
+      prompt_version: v3
   - repo: QwenLM/qwen-code
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-agent
+      - terminal
+      - automation
+      - lang:ts
     summary: An open-source AI agent that lives in your terminal.
     last_synced_sha: 26e0128dc6347ff020d8ed6150dcf24feb918abc
     user_starred_at: '2025-10-19T19:05:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -35708,15 +35722,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.190Z'
+      prompt_version: v3
   - repo: next-safe-action/next-safe-action
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - validated-actions
+      - typesafe
+      - server-components
+      - nextjs
+      - lang:ts
     summary: Type safe and validated Server Actions in your Next.js project.
     last_synced_sha: 62a4563259a166f35d59af5eeb234a3fdbfc4636
     user_starred_at: '2025-10-19T19:05:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -35750,16 +35774,24 @@ repositories:
         published_at: '2026-03-18T09:25:03Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.190Z'
+      prompt_version: v3
   - repo: pmpetit/pglinter
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - testing
+    tags:
+      - linter
+      - database-rules
+      - lang:rust
     summary: database linter rules
     last_synced_sha: fbe5c441de522f351e22dc6686978fe206756a62
     user_starred_at: '2025-10-19T19:04:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -35779,15 +35811,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.189Z'
+      prompt_version: v3
   - repo: vercel-labs/chatgpt-apps-sdk-nextjs-starter
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - chatgpt
+      - sdk
+      - nextjs
+      - lang:ts
     summary: No description provided
     last_synced_sha: b911c88f93c0a0a9b39d650743fb1085db39a147
     user_starred_at: '2025-10-19T19:03:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -35804,16 +35845,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.189Z'
+      prompt_version: v3
   - repo: vercel/nft
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - dependency-tracing
+      - static-analysis
+      - lang:js
     summary: Node.js dependency tracing utility
     last_synced_sha: a044730a73a82b1421b9e9137bd397f2ba5a1b69
     user_starred_at: '2025-10-19T19:02:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -35834,15 +35883,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.189Z'
+      prompt_version: v3
   - repo: JustAnotherArchivist/snscrape
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - automation
+    tags:
+      - social-media
+      - scraping
+      - lang:python
     summary: A social networking service scraper in Python
     last_synced_sha: 614d4c2029a62d348ca56598f87c425966aaec66
     user_starred_at: '2025-10-19T19:02:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -35864,15 +35921,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.189Z'
+      prompt_version: v3
   - repo: opf/openproject
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - frameworks
+    tags:
+      - project-management
+      - scrum
+      - issue-tracker
+      - lang:ruby
     summary: Open Project is the leading open source project management software.
     last_synced_sha: c65ed4154c7a31f04fe128d363980b90d51b1d0b
     user_starred_at: '2025-10-19T19:01:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -35908,16 +35974,25 @@ repositories:
         published_at: '2026-03-17T15:02:13Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.189Z'
+      prompt_version: v3
   - repo: FalconOpsLLC/goexec
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - remote-access
+      - windows
+      - multitool
+      - lang:go
     summary: Windows remote execution multitool
     last_synced_sha: 21c8f9599140c39d6fb56951539f8e7e317be686
     user_starred_at: '2025-10-19T19:00:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -35944,15 +36019,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.189Z'
+      prompt_version: v3
   - repo: ultralytics/ultralytics
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - yolo
+      - deep-learning
+      - object-detection
+      - lang:python
     summary: Ultralytics YOLO 🚀
     last_synced_sha: 0db45800024cf899a5d005304de9f91bfd4c7482
     user_starred_at: '2025-10-19T19:00:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -35992,15 +36076,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.189Z'
+      prompt_version: v3
   - repo: coollabsio/coolify
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - containers
+      - cloud
+    tags:
+      - self-hosting
+      - docker
+      - nextjs
+      - svelte
+      - lang:php
     summary: An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv...
     last_synced_sha: 575b0766d12bad2a78febff72ab59c017772bcf7
     user_starred_at: '2025-10-19T19:00:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -36040,15 +36135,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.189Z'
+      prompt_version: v3
   - repo: cheeriojs/cheerio
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - data-science
+    tags:
+      - html-parsing
+      - scraping
+      - xml-manipulation
+      - lang:ts
     summary: The fast, flexible, and elegant library for parsing and manipulating HTML and XML.
     last_synced_sha: 1c9ae77acdc8e466527faec1f803123e95f1ac5b
     user_starred_at: '2025-10-19T19:00:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36078,15 +36182,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.189Z'
+      prompt_version: v3
   - repo: trpc/trpc
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - typescript
+      - end-to-end
+      - typesafe-apis
+      - nextjs
+      - lang:ts
     summary: 🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
     last_synced_sha: 88b02b81d16d4046a709508799a905ac7bf9ce8b
     user_starred_at: '2025-10-19T18:58:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36111,16 +36225,25 @@ repositories:
         published_at: '2026-03-26T20:04:12Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.189Z'
+      prompt_version: v3
   - repo: eddie-jimenez/IntunePolicyChangeReport
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - azure-runbook
+      - intune
+      - policy-change
+      - lang:powershell
     summary: An Azure runbook that provides a reliable, human-readable record of what changed in Intune policies, who changed it, and when.
     last_synced_sha: 02d4e204d3c28fe2ccf5954d60e40d1bc6d45042
     user_starred_at: '2025-10-19T18:57:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -36138,15 +36261,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.189Z'
+      prompt_version: v3
   - repo: fregante/browser-extension-template
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - browser-extension
+      - parcel
+      - github-template
+      - lang:js
     summary: 📕 Barebones boilerplate with Parcel 2, options handler and auto-publishing
     last_synced_sha: 8c155dcac77b0d3272f32c0a695d4c03a09dbd6b
     user_starred_at: '2025-10-19T18:57:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -36170,6 +36302,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:19:07.189Z'
+      prompt_version: v3
   - repo: webextension-toolbox/webextension-toolbox
     categories:
       - dev-tools
