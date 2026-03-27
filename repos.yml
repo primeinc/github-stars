@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-27T04:27:11.643Z'
+  manifest_updated_at: '2026-03-27T04:27:46.239Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -27039,13 +27039,17 @@ repositories:
     framework: null
   - repo: Klocman/Bulk-Crap-Uninstaller
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - uninstaller
+      - cleaner
+      - lang:csharp
     summary: Remove large amounts of unwanted applications quickly.
     last_synced_sha: 4ecea11bfb08b0ccf32279293dd1fcd02c6ce767
     user_starred_at: '2025-12-18T09:35:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -27084,15 +27088,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.063Z'
+      prompt_version: v3
   - repo: BluePointLilac/ContextMenuManager
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - windows
+      - context-menu
+      - lang:csharp
     summary: 🖱️ 纯粹的Windows右键菜单管理程序
     last_synced_sha: 55507155dd8e49c7ab4606da97f2af192d590dfe
     user_starred_at: '2025-12-18T09:31:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -27112,15 +27124,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.063Z'
+      prompt_version: v3
   - repo: huynhsontung/Screenbox
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+    tags:
+      - media-player
+      - vlc
+      - lang:csharp
     summary: Lib VLC-based media player for the Universal Windows Platform
     last_synced_sha: 158afe0e8ac1baa122e7be437317c503be6deca9
     user_starred_at: '2025-12-18T09:30:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -27147,15 +27166,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.063Z'
+      prompt_version: v3
   - repo: BornToBeRoot/NETworkManager
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - network-management
+      - troubleshooting
+      - lang:csharp
     summary: A powerful open-source tool for managing networks and troubleshooting network problems!
     last_synced_sha: 022ed19f02cc93ca0917239423b308b6da6a859a
     user_starred_at: '2025-12-18T09:30:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -27195,15 +27222,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.063Z'
+      prompt_version: v3
   - repo: DayuanJiang/next-ai-draw-io
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - diagrams
+      - ai
+      - lang:ts
     summary: A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visual...
     last_synced_sha: 67b0d77fa17436db088426cc60e99b1031045036
     user_starred_at: '2025-12-18T09:28:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27225,16 +27260,24 @@ repositories:
         published_at: '2026-03-07T13:39:08Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.063Z'
+      prompt_version: v3
   - repo: microsoft/VibeVoice
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+    tags:
+      - voice-ai
+      - meta-ai
+      - lang:python
     summary: Open-Source Frontier Voice AI
     last_synced_sha: 9634518ca42c9c417ec51e4f293e8416faf3843e
     user_starred_at: '2025-12-18T09:27:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -27252,15 +27295,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.063Z'
+      prompt_version: v3
   - repo: inclusionAI/AEnvironment
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - agent
+      - rl
+      - lang:python
     summary: Standardized environment infrastructure for Agentic AI development.
     last_synced_sha: a4680abf6365e3d97a27141ed6db7992e3d6d5cc
     user_starred_at: '2025-12-18T09:25:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -27287,15 +27338,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.063Z'
+      prompt_version: v3
   - repo: Azure/ALZ-Bicep
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - system-admin
+    tags:
+      - azure
+      - bicep
+      - lang:bicep
     summary: This repository contains the Azure Landing Zones (ALZ) Bicep (Classic) modules that help deliver and deploy the Azure Landing Zone conceptual architecture in a modular approach. https://aka.ms/alz/...
     last_synced_sha: 7a969132763c7812109483ea83d52f39a6fde81b
     user_starred_at: '2025-12-18T08:15:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -27324,15 +27383,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.063Z'
+      prompt_version: v3
   - repo: facebookresearch/sam-audio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - audio-processing
+      - meta-ai
+      - lang:python
     summary: The repository provides code for running inference with the Meta Segment Anything Audio Model (SAM-Audio), links for downloading the trained model checkpoints, and example notebooks that show how t...
     last_synced_sha: 68b48d48fff1ad776d3afefbe634eb5f5d60ba7b
     user_starred_at: '2025-12-18T08:15:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -27350,15 +27417,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.063Z'
+      prompt_version: v3
   - repo: Free-TV/IPTV
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - iptv
+      - m3u-playlist
+      - lang:python
     summary: M3U Playlist for free TV channels
     last_synced_sha: bce5e4ff6bb43293920aabfd4f79e2ec8d77ca53
     user_starred_at: '2025-12-18T03:03:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -27378,15 +27453,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.063Z'
+      prompt_version: v3
   - repo: C4illin/ConvertX
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - file-conversion
+      - self-hosted
+      - lang:ts
     summary: 💾 Self-hosted online file converter. Supports 1000+ formats ⚙️
     last_synced_sha: bee3f6302b644b03f37d9a07549782692c0e5676
     user_starred_at: '2025-12-18T03:03:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27419,15 +27502,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.063Z'
+      prompt_version: v3
   - repo: johnlindquist/mdflow
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - cli
+      - markdown
+      - lang:ts
     summary: Multi-backend CLI for executable markdown prompts. Run .md files against Claude, Codex, Gemini, or Copilot.
     last_synced_sha: 1185549564f1a17d9f11d23f72a66dfd1da1537d
     user_starred_at: '2025-12-17T17:50:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -27447,15 +27538,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.062Z'
+      prompt_version: v3
   - repo: chubin/wttr.in
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - weather-api
+      - terminal
+      - lang:python
     summary: ':partly_sunny: The right way to check the weather'
     last_synced_sha: ed3c00f684ab803b4e60004b3e748ec9d42656fa
     user_starred_at: '2025-12-13T18:17:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -27480,15 +27579,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.062Z'
+      prompt_version: v3
   - repo: KnifMelti/WAU-Settings-GUI
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - winget
+      - gui
+      - lang:powershell
     summary: Provides a user-friendly portable standalone interface to modify every aspect of Winget-Auto Update (WAU)
     last_synced_sha: 378577838e3189d8a073283948b02190c80d0aec
     user_starred_at: '2025-12-13T17:32:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -27514,15 +27621,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.062Z'
+      prompt_version: v3
   - repo: EternalEvan/Astra
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-generation
+      - world-model
+      - lang:python
     summary: '[ICLR 2026] Astra : General Interactive World Model with Autoregressive Denoising"'
     last_synced_sha: 3fb82e1939bfcf87d6e27a7da57d8b55ff9cb393
     user_starred_at: '2025-12-13T07:59:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -27542,6 +27657,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:27:45.062Z'
+      prompt_version: v3
   - repo: thedotmack/claude-mem
     categories:
       - ai-ml
