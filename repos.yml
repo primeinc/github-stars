@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-27T04:16:32.240Z'
+  manifest_updated_at: '2026-03-27T04:17:01.681Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -37616,13 +37616,17 @@ repositories:
     framework: null
   - repo: rathi-yash/MindVault-AI-Bookmarker
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - bookmark-management
+      - chrome-extension
+      - lang:js
     summary: Mind Vault is an innovative Chrome extension that revolutionizes bookmark management using AI. Winner of the Best AI/ML Project at UBHacking, this tool automatically categorizes and organizes your ...
     last_synced_sha: 7ebd91b8d88b4e31513f67a003a8f652eb1f0648
     user_starred_at: '2025-09-28T12:05:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -37640,15 +37644,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.519Z'
+      prompt_version: v3
   - repo: download-directory/download-directory.github.io
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - dev-tools
+    tags:
+      - downloader
+      - webapp
+      - lang:ts
     summary: 'Web App: Download just a sub directory from a Git Hub repo.'
     last_synced_sha: 9a9786dd6765f7b6e2de1eb27136f40451029578
     user_starred_at: '2025-09-27T15:28:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -37672,15 +37684,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.519Z'
+      prompt_version: v3
   - repo: ikas-mc/ContextMenuForWindows11
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - context-menu
+      - windows-11
+      - lang:csharp
     summary: Add Custom Context Menu For Windows11
     last_synced_sha: 1a82b2517c931b7bae19f80d07c46df95805b32d
     user_starred_at: '2025-09-27T15:01:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -37705,15 +37725,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.519Z'
+      prompt_version: v3
   - repo: microsoft/DirectXTK
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - desktop-dev
+    tags:
+      - directx
+      - graphics
+      - lang:cpp
     summary: The Direct X Tool Kit (aka Direct XTK) is a collection of helper classes for writing Direct X 11.x code in C++
     last_synced_sha: 7aa77713acb2c3548f2662949e65f61e6b866fd6
     user_starred_at: '2025-09-27T15:00:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -37742,15 +37770,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.519Z'
+      prompt_version: v3
   - repo: felixrieseberg/windows-build-tools
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - windows
+      - build-tools
+      - lang:ts
     summary: ':package: Install C++ Build Tools for Windows using npm'
     last_synced_sha: c6c8c6a1f2f970c3dbd7288a87330cd96042166a
     user_starred_at: '2025-09-27T15:00:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -37779,15 +37815,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.519Z'
+      prompt_version: v3
   - repo: dolanmiu/docx
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - docx
+      - file-generation
+      - lang:ts
     summary: Easily generate and modify .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser.
     last_synced_sha: 9439c73871e3ac9af5a5889978b7fbea9f3b6a2f
     user_starred_at: '2025-09-27T14:59:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -37826,15 +37870,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.519Z'
+      prompt_version: v3
   - repo: microsoft/Mastering-GitHub-Copilot-for-Paired-Programming
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - copilot
+      - peer-programming
+      - tutorial
+      - lang:python
     summary: A multi-module course teaching everything you need to know about using Git Hub Copilot as an AI Peer Programming resource.
     last_synced_sha: 4248841a3b49168510a1687bf838e73fc2cb1e44
     user_starred_at: '2025-09-27T14:58:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -37872,15 +37925,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.519Z'
+      prompt_version: v3
   - repo: microsoft/Microsoft-Purview-Advanced-Rich-Reports-MPARR-Collector
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - cloud
+    tags:
+      - microsoft-purview
+      - monitoring
+      - lang:powershell
     summary: Repository with all the MPARR components solution
     last_synced_sha: 532f5a469c332bf44855f6053420ce25649aa024
     user_starred_at: '2025-09-27T14:57:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -37898,15 +37959,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.519Z'
+      prompt_version: v3
   - repo: pnp/vscode-viva
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - sharepoint-framework
+      - spfx
+      - m365
+      - lang:ts
     summary: With the Share Point Framework Toolkit extension, you can create and manage your Share Point Framework solutions on your tenant. All actions you need to perform during the development flow are at y...
     last_synced_sha: 57fa35ec3c15019a50d76643ba20869688b8b4aa
     user_starred_at: '2025-09-27T14:53:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -37935,15 +38005,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.519Z'
+      prompt_version: v3
   - repo: pnp/copilot-prompts
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - prompt-engineering
+      - copilot
+      - prompts
     summary: Examples of prompts for Microsoft Copilot
     last_synced_sha: ec5d435662ca902ca15f78def38a2122bc56dec2
     user_starred_at: '2025-09-27T14:53:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -37966,15 +38044,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.519Z'
+      prompt_version: v3
   - repo: SharePoint/sp-dev-provisioning-templates
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - system-admin
+    tags:
+      - sharepoint
+      - provisioning
+      - lang:html
     summary: Repository for open-source content packs with the provisioning tooling
     last_synced_sha: fdd2124a7e9db357fbcdb142fdcde64c38bc0557
     user_starred_at: '2025-09-27T14:45:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -37992,15 +38078,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.519Z'
+      prompt_version: v3
   - repo: Azure-Samples/dab-swa-library-demo
     categories:
+      - web-dev
       - unclassified
-    tags: []
+    tags:
+      - demo
+      - azure
+      - lang:js
     summary: No description provided
     last_synced_sha: c54626f6f201dbfac04f15d92d3f391e00f83334
     user_starred_at: '2025-09-27T14:29:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -38018,15 +38112,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.519Z'
+      prompt_version: v3
   - repo: microsoft/FluidFramework
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - real-time
+      - collaboration
+      - distributed
+      - lang:ts
     summary: Library for building distributed, real-time collaborative web applications
     last_synced_sha: 81e3c2d8d0bc62b026d199ab633d02e7cfb21c9a
     user_starred_at: '2025-09-27T11:13:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -38054,15 +38157,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.519Z'
+      prompt_version: v3
   - repo: Azure/apiops
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cloud
+    tags:
+      - apimanagement
+      - azure
+      - devops
+      - lang:csharp
     summary: APIOps applies the concepts of Git Ops and Dev Ops to API deployment. By using practices from these two methodologies, APIOps can enable everyone involved in the lifecycle of API design, developmen...
     last_synced_sha: 35a0fdddbf4806b25bff10234403ef7c48a79a4a
     user_starred_at: '2025-09-26T20:29:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -38085,15 +38197,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.516Z'
+      prompt_version: v3
   - repo: Azure/Microsoft-Defender-for-Cloud
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - microsoft-defender
+      - security
+      - cloud
+      - lang:powershell
     summary: Welcome to the Microsoft Defender for Cloud community repository
     last_synced_sha: e71d31f7b9f770181ee5465230d61431a06a67bc
     user_starred_at: '2025-09-26T17:17:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -38111,6 +38232,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-27T04:17:00.515Z'
+      prompt_version: v3
   - repo: microsoft/semantic-kernel
     categories:
       - ai-ml
