@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-28T03:59:14.138Z'
+  manifest_updated_at: '2026-03-28T03:59:50.107Z'
   total_repos: 1695
   generator_version: v1.0.0
   github_user: primeinc
@@ -64231,13 +64231,17 @@ repositories:
     framework: null
   - repo: modelscope/FunASR
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - speech-recognition
+      - audio-visual-speech-recognition
+      - lang:python
     summary: A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc.
     last_synced_sha: b842ff8107e1da950947ada0d11ae3c008baeb54
     user_starred_at: '2025-04-15T12:40:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -64272,15 +64276,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.767Z'
+      prompt_version: v3
   - repo: getmaxun/maxun
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+    tags:
+      - web-scraping
+      - browser-automation
+      - no-code
+      - lang:ts
     summary: 🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes 🔥
     last_synced_sha: 496febc6ffc19664f7104b35e42670a31ed1fda8
     user_starred_at: '2025-04-15T12:37:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -64318,15 +64331,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.767Z'
+      prompt_version: v3
   - repo: vercel/chatbot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - chatgpt
+      - nextjs
+      - lang:ts
+      - react
     summary: A full-featured, hackable Next.js AI chatbot built by Vercel
     last_synced_sha: 691c3cb05fddf292e1f52788d383937740c57cb9
     user_starred_at: '2025-04-15T12:37:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -64350,16 +64372,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.767Z'
+      prompt_version: v3
   - repo: nunchaku-ai/nunchaku
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - diffusion-models
+      - quantization
+      - lang:python
     summary: '[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models'
     last_synced_sha: 8f41840596bd516d434a1f88ac16c86fdb64e74f
     user_starred_at: '2025-04-15T12:37:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -64388,15 +64418,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.767Z'
+      prompt_version: v3
   - repo: juliangarnier/anime
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - animation
+      - javascript-library
+      - lang:js
     summary: Java Script animation engine
     last_synced_sha: 3b369a4b1a98c90600502b1d94fad3c1bbfd7639
     user_starred_at: '2025-04-15T12:37:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -64423,15 +64461,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.767Z'
+      prompt_version: v3
   - repo: nautechsystems/nautilus_trader
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - trading
+      - machine-learning
+      - lang:rust
+      - algorithmic-trading
     summary: Production-grade Rust-native trading engine with deterministic event-driven architecture
     last_synced_sha: ebfc6f144123674415ddf31682d6a93ed75cbea9
     user_starred_at: '2025-04-15T12:35:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -64464,15 +64511,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.767Z'
+      prompt_version: v3
   - repo: Pennyw0rth/NetExec
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - pentest
+      - red-team
+      - lang:python
     summary: The Network Execution Tool
     last_synced_sha: d2342dbfad24e84149a1b3bf40ebd03f181fe4fc
     user_starred_at: '2025-04-15T02:13:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -64507,15 +64562,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.767Z'
+      prompt_version: v3
   - repo: BasedHardware/omi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - mobile-dev
+    tags:
+      - ai
+      - transcription
+      - lang:dart
+      - flutter
     summary: AI wearables. Put it on, speak, transcribe, automatically
     last_synced_sha: 3e2eb6857ad0cb32ad11048fa27cbbd682e40539
     user_starred_at: '2025-04-15T02:12:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -64551,15 +64615,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.766Z'
+      prompt_version: v3
   - repo: risonsimon/claude-artifacts-react
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - web-dev
+    tags:
+      - react
+      - deployment
+      - lang:js
     summary: Quickly deploy React code from Claude Artifacts to the internet.
     last_synced_sha: 90fd1a848591717037ee30d3ea37d6924a13684c
     user_starred_at: '2025-04-13T23:48:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -64576,16 +64648,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.766Z'
+      prompt_version: v3
   - repo: neu-se/testpilot2
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - automation
+    tags:
+      - test-management
+      - lang:ts
     summary: Test Pilot 2
     last_synced_sha: 79c3b626edb541ca9eaf31c6994f40d1c7d5d042
     user_starred_at: '2025-04-12T04:19:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -64603,15 +64682,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.766Z'
+      prompt_version: v3
   - repo: RenjiYuusei/CursorFocus
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - cursor
+      - project-management
+      - lang:python
     summary: A lightweight tool that maintains a focused view of your project structure and environment. Cursor Focus automatically tracks your project files, functions, and environment variables, updating ever...
     last_synced_sha: 35daecf1ba8ff7a2fa609ab5b95da8b7bb6cf89a
     user_starred_at: '2025-04-08T19:43:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     fork: true
     github_metadata:
@@ -64635,15 +64722,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.766Z'
+      prompt_version: v3
   - repo: johnbenac/cursor-watchful-headers
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - project-management
+      - file-management
+      - lang:python
     summary: Automated file header management and project structure visualization in cursorrules. Maintains consistent headers across multiple file types while providing real-time project tree updates. Perfect ...
     last_synced_sha: 05b9bc9f732d9b2432c724bd5a1f9771932e1974
     user_starred_at: '2025-04-08T19:23:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -64661,15 +64756,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.766Z'
+      prompt_version: v3
   - repo: Azure/login
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - automation
+    tags:
+      - azure
+      - github-actions
+      - lang:ts
     summary: Connect to Azure
     last_synced_sha: 9dfca5820a9055ed36abbd5b5710ace9f209ead5
     user_starred_at: '2025-04-06T04:39:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -64693,15 +64796,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.766Z'
+      prompt_version: v3
   - repo: nuejs/nue
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - javascript-framework
+      - design-system
+      - lang:js
     summary: Fastest way to build modern websites
     last_synced_sha: eb1dead5322734c7bd5514ffb564a168af0645a8
     user_starred_at: '2025-04-04T14:27:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -64727,15 +64838,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.766Z'
+      prompt_version: v3
   - repo: glanceapp/glance
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - dashboard
+      - self-hosted
+      - feed-reader
+      - lang:go
     summary: A self-hosted dashboard that puts all your feeds in one place
     last_synced_sha: 6c5b7a3f4cc409e31739b2914bb6636d08299126
     user_starred_at: '2025-04-04T14:25:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -64769,6 +64889,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:59:48.762Z'
+      prompt_version: v3
   - repo: rustdesk/rustdesk
     categories:
       - desktop-dev
