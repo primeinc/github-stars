@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-28T04:08:57.165Z'
+  manifest_updated_at: '2026-03-28T04:09:39.706Z'
   total_repos: 1695
   generator_version: v1.0.0
   github_user: primeinc
@@ -55609,13 +55609,17 @@ repositories:
     framework: null
   - repo: rails/rails
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - mvc
+      - activerecord
+      - lang:ruby
     summary: Ruby on Rails
     last_synced_sha: 36bf938103be3d7037b21ce2af0a6863b2341762
     user_starred_at: '2025-08-01T04:13:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -55641,16 +55645,24 @@ repositories:
         published_at: '2026-03-24T20:26:02Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.454Z'
+      prompt_version: v3
   - repo: openfaas/faas
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+    tags:
+      - serverless
+      - functions-as-a-service
+      - lang:go
     summary: Open Faa S - Serverless Functions Made Simple
     last_synced_sha: a47ee9138b0eed073d8d07ba68b6570bb7bed538
     user_starred_at: '2025-08-01T04:08:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -55684,15 +55696,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.454Z'
+      prompt_version: v3
   - repo: dokku/dokku
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - containers
+    tags:
+      - docker
+      - paas
+      - self-hosted
+      - lang:shell
     summary: A docker-powered Paa S that helps you build and manage the lifecycle of applications
     last_synced_sha: 7a943f46782aac8f2f226a70206c7630eeecda88
     user_starred_at: '2025-08-01T04:08:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -55723,15 +55744,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.454Z'
+      prompt_version: v3
   - repo: alvarcarto/url-to-pdf-api
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - pdf
+      - puppeteer
+      - lang:html
     summary: Web page PDF/PNG rendering done right. Self-hosted service for rendering receipts, invoices, or any content.
     last_synced_sha: 2fa83fd9f88613b76ba452fe25830e98d844f3b0
     user_starred_at: '2025-08-01T04:07:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -55759,15 +55788,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.454Z'
+      prompt_version: v3
   - repo: caprover/caprover
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - containers
+    tags:
+      - paas
+      - docker
+      - nginx
+      - lang:ts
     summary: Scalable Paa S (automated Docker+nginx) - aka Heroku on Steroids
     last_synced_sha: ca844fc4f071aac20e283ce28e8bb9f987dc6ad6
     user_starred_at: '2025-08-01T04:06:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -55806,15 +55844,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.454Z'
+      prompt_version: v3
   - repo: huginn/huginn
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - monitoring
+    tags:
+      - agents
+      - web-scraping
+      - lang:ruby
     summary: Create agents that monitor and act on your behalf. Your agents are standing by!
     last_synced_sha: d96050610ac0c9c5317376b46e668a262f833d1b
     user_starred_at: '2025-07-31T22:01:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -55846,15 +55892,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.454Z'
+      prompt_version: v3
   - repo: docusealco/docuseal
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - e-signature
+      - document-signing
+      - lang:ruby
     summary: Open source Docu Sign alternative. Create, fill, and sign digital documents ✍️
     last_synced_sha: 22d4c1bd10faa684a6ade1305dd4125b6fc7a65a
     user_starred_at: '2025-07-31T22:01:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -55886,16 +55940,24 @@ repositories:
         published_at: '2026-03-23T13:09:21Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.454Z'
+      prompt_version: v3
   - repo: QwenLM/Qwen3-Coder
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - large-language-model
+      - code-generation
+      - lang:python
     summary: Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team.
     last_synced_sha: 33bc6aabd7791ad7b32f7e92104f11f2359ba890
     user_starred_at: '2025-07-31T21:59:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -55913,15 +55975,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.454Z'
+      prompt_version: v3
   - repo: srbhr/Resume-Matcher
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - resume-matching
+      - machine-learning
+      - lang:ts
     summary: Improve your resumes with Resume Matcher. Get insights, keyword suggestions and tune your resumes to job descriptions.
     last_synced_sha: bbcc823cb937c379eed3c130348477e9347092d1
     user_starred_at: '2025-07-31T21:59:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -55955,15 +56025,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.454Z'
+      prompt_version: v3
   - repo: frappe/hrms
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - hrms
+      - payroll
+      - performance-management
+      - lang:python
     summary: Open Source HR and Payroll Software
     last_synced_sha: 7a63b5ecf5da3696b412e5a03f5153486a6670e3
     user_starred_at: '2025-07-31T21:58:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -56003,15 +56082,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.454Z'
+      prompt_version: v3
   - repo: EmenstaNougat/ESP32-BlueJammer
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - security
+    tags:
+      - esp32
+      - bluetooth-jamming
+      - cybersecurity
     summary: The ESP32-Blue Jammer (Bluetooth jammer, BLE jammer, Wi Fi jammer, RC jammer) disrupts 2.4GHz communications. Using an ESP32 and n RF24 modules, it generates noise and unnecessary packets, causing ...
     last_synced_sha: b2389a2adcec970d00bc744f4e1f116787be77b4
     user_starred_at: '2025-07-31T21:57:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -56044,15 +56131,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.454Z'
+      prompt_version: v3
   - repo: SkyworkAI/SkyReels-V2
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - film-generation
+      - infinite-length
+      - lang:python
     summary: 'Sky Reels-V2: Infinite-length Film Generative model'
     last_synced_sha: 9351d13152207cc04de780e055346b08ade0b851
     user_starred_at: '2025-07-31T21:57:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -56070,15 +56165,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.453Z'
+      prompt_version: v3
   - repo: 9001/copyparty
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - file-server
+      - webdav
+      - ftp-server
+      - lang:python
     summary: Portable file server with accelerated resumable uploads, dedup, Web DAV, SFTP, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file
     last_synced_sha: 26e663d111e39ca96c63702ad27a05b6736607cf
     user_starred_at: '2025-07-31T21:56:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -56106,15 +56210,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.453Z'
+      prompt_version: v3
   - repo: wshobson/commands
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - slash-commands
+      - claude-code
+      - ai
     summary: A collection of production-ready slash commands for Claude Code
     last_synced_sha: 27d3e77b1a844223721f6c983ddf261ac4441b89
     user_starred_at: '2025-07-30T17:19:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -56147,15 +56259,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.453Z'
+      prompt_version: v3
   - repo: wshobson/agents
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - intelligent-agents
+      - claude-code
+      - lang:python
     summary: Intelligent automation and multi-agent orchestration for Claude Code
     last_synced_sha: 91fe43e152e96a55a264fc1afdf44cd4db2a38d4
     user_starred_at: '2025-07-30T17:15:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -56193,6 +56313,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:09:38.453Z'
+      prompt_version: v3
   - repo: isqld/intune-printer-deployment-script
     categories:
       - automation
