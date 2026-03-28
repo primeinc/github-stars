@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-28T04:07:49.241Z'
+  manifest_updated_at: '2026-03-28T04:08:26.206Z'
   total_repos: 1695
   generator_version: v1.0.0
   github_user: primeinc
@@ -56684,13 +56684,19 @@ repositories:
     framework: null
   - repo: PavelDoGreat/WebGL-Fluid-Simulation
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - web-dev
+    tags:
+      - webgl
+      - simulation
+      - lang:js
+      - fluid
+      - gpu
     summary: Play with fluids in your browser (works even on mobile)
     last_synced_sha: a2d292931f19d9b3b9f564e23e6c32729d2121c3
     user_starred_at: '2025-07-16T17:58:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -56713,15 +56719,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.865Z'
+      prompt_version: v3
   - repo: OpenPipe/ART
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - reinforcement-learning
+      - ai-agents
+      - lang:python
+      - grpo
+      - llms
     summary: 'Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.5, GPT-OSS, Llama, and more!'
     last_synced_sha: 19056773c2c0e2adfd4c4381566ddc03114869c9
     user_starred_at: '2025-07-16T17:53:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -56750,15 +56766,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.865Z'
+      prompt_version: v3
   - repo: vibetunnel/vibetunnel
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
+      - wip
     summary: WIP - we're transitioning to the org soon
     last_synced_sha: c7ddd4edde6000e56d1e6f79bd99522fbdd4f65a
     user_starred_at: '2025-07-16T17:50:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -56776,15 +56798,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.865Z'
+      prompt_version: v3
   - repo: davidkimai/Context-Engineering
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - context-engineering
+      - artificial-intelligence
+      - lang:python
+      - handbook
     summary: '"Context engineering is the delicate art and science of filling the context window with just the right information for the next step." — Andrej Karpathy. A frontier, first-principles handbook inspi...'
     last_synced_sha: 6158def66a2d2174ed8356cf376e5f44e10d78ea
     user_starred_at: '2025-07-15T20:21:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -56802,15 +56833,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.865Z'
+      prompt_version: v3
   - repo: imskyleen/animate-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react
+      - motion
+      - lang:ts
+      - tailwindcss
+      - components
     summary: Fully animated, open-source component distribution built with React, Type Script, Tailwind CSS, Motion, and Shadcn CLI. Browse a list of components you can install, modify, and use in your projects.
     last_synced_sha: efeb96ffd7a3b7a4868667e4ac3c346620fb3044
     user_starred_at: '2025-07-15T20:20:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -56836,16 +56877,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.865Z'
+      prompt_version: v3
   - repo: muesli/readme-scribe
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - documentation
+    tags:
+      - readme
+      - auto-generation
+      - markdown
+      - hacktoberfest
     summary: A Git Hub Action that automatically generates & updates markdown content (like your README.md)
     last_synced_sha: d2f6ab32d6b9f5b59941fe782d6c7e6499a37fe4
     user_starred_at: '2025-07-15T01:23:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -56866,15 +56916,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.865Z'
+      prompt_version: v3
   - repo: dorny/test-reporter
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - automation
+    tags:
+      - test-reporting
+      - lang:ts
+      - ci-cd
+      - github-actions
     summary: Displays test results from popular testing frameworks directly in Git Hub
     last_synced_sha: ab50174d2cce6a041bb0a86aa99d11858f914df9
     user_starred_at: '2025-07-15T01:18:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -56898,15 +56957,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.864Z'
+      prompt_version: v3
   - repo: actions/labeler
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - github-actions
+      - auto-labeling
+      - lang:ts
+      - pull-requests
     summary: An action for automatically labelling pull requests
     last_synced_sha: c5dadc2a45784a4b6adfcd20fea3465da3a5f904
     user_starred_at: '2025-07-15T00:53:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -56926,15 +56994,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.864Z'
+      prompt_version: v3
   - repo: actions/ai-inference
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - github-actions
+      - ai-models
+      - lang:ts
     summary: An action for calling AI models with Git Hub Models
     last_synced_sha: af6ad2c4ac4edf01884054fc3a6caa6d2567c13a
     user_starred_at: '2025-07-15T00:51:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -56954,15 +57030,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.864Z'
+      prompt_version: v3
   - repo: copilot-extensions/gh-debug-cli
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - cli-tool
+      - debugging
+      - lang:go
+      - fast-feedback
     summary: CLI tool that lets you chat with your agent locally for faster feedback and debugging
     last_synced_sha: 8a1d3c7ceadb53074762717cdb9df41776f3ef12
     user_starred_at: '2025-07-15T00:21:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -56986,15 +57071,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.864Z'
+      prompt_version: v3
   - repo: astralapp/astral
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - github
+      - stars
+      - organization
+      - lang:php
     summary: Organize Your Git Hub Stars With Ease
     last_synced_sha: d8f24046235d479a8c2803e2ebdf49f0aba48e27
     user_starred_at: '2025-07-15T00:00:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -57016,15 +57110,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.864Z'
+      prompt_version: v3
   - repo: github/github-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - github
+      - mcp
+      - server
+      - lang:go
     summary: Git Hub's official MCP Server
     last_synced_sha: 2a1eaaca39daf7e6538cf21e0cb0f7dcd73bd88b
     user_starred_at: '2025-07-13T19:28:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -57047,15 +57150,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.864Z'
+      prompt_version: v3
   - repo: Nachman-Libermensh/tanstack-form-playground
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: ec2207901c4fd5d90369ff440a03f59b173946c8
     user_starred_at: '2025-07-13T18:34:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -57073,15 +57181,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.864Z'
+      prompt_version: v3
   - repo: rizzui/rizzui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react-component-library
+      - tailwindcss
+      - lang:mdx
+      - reactjs
+      - components
     summary: 🎉 A Modern and Minimal React UI Library built with Tailwind CSS
     last_synced_sha: 129c5aa23ca30569430dccedef8776ca530a5f30
     user_starred_at: '2025-07-13T18:20:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: MDX
       topics:
@@ -57105,16 +57223,27 @@ repositories:
         published_at: '2026-01-21T03:46:04Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.864Z'
+      prompt_version: v3
   - repo: f/prompts.chat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+      - web-dev
+    tags:
+      - chatgpt
+      - ai-prompts
+      - llm
+      - artificial-intelligence
+      - lang:html
     summary: f.k.a. Awesome Chat GPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
     last_synced_sha: 4e6928edd4973dab0efb48bd9d3c2aecc50a413c
     user_starred_at: '2025-07-13T16:12:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -57150,6 +57279,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:08:24.864Z'
+      prompt_version: v3
   - repo: PanseBossuSmecheru/notes-mcp
     categories:
       - ai-ml
