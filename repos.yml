@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-28T04:01:35.682Z'
+  manifest_updated_at: '2026-03-28T04:02:11.759Z'
   total_repos: 1695
   generator_version: v1.0.0
   github_user: primeinc
@@ -62190,13 +62190,19 @@ repositories:
     framework: null
   - repo: WhitewaterFoundry/Pengwin
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - embedded
+    tags:
+      - lang:cpp
+      - wsl
+      - debian
+      - linux-distribution
+      - windows
     summary: A Linux distro optimized for WSL based on Debian.
     last_synced_sha: 3047e181caf8c01bc378714ffe22b1034f5e0e1c
     user_starred_at: '2025-06-11T07:54:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C++
@@ -62223,15 +62229,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.405Z'
+      prompt_version: v3
   - repo: microsoft/wslg
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - desktop-dev
+    tags:
+      - lang:cpp
+      - wsl
+      - wayland
+      - x-server
     summary: Enabling the Windows Subsystem for Linux to include support for Wayland and X server related scenarios
     last_synced_sha: 1a8c3c64aa15f6555adcf4ed67007bb37c90170c
     user_starred_at: '2025-06-11T07:52:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -62251,15 +62266,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.405Z'
+      prompt_version: v3
   - repo: Yuyz0112/claude-code-reverse
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - lang:js
+      - llm
+      - source-code
+      - analysis
     summary: A Tool to Visualize Claude Code's LLM Interactions
     last_synced_sha: c0d99ea1ab7168c12ba74838cfea355ce10f6c56
     user_starred_at: '2025-06-10T19:35:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -62277,15 +62301,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.405Z'
+      prompt_version: v3
   - repo: ghuntley/claude-code-source-code-deobfuscation
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - lang:ts
+      - deobfuscation
+      - claude-code
     summary: This is a cleanroom deobfuscation of the official Claude Code npm package.
     last_synced_sha: ced7586d06751d071490f91cab1de04490d969ba
     user_starred_at: '2025-06-10T19:30:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -62304,15 +62336,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.405Z'
+      prompt_version: v3
   - repo: byrdsandbytes/beatnik-pi
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - system-admin
+    tags:
+      - lang:shell
+      - raspberry-pi
+      - audio
+      - multiroom-audio
+      - snapcast
     summary: Open Source Multiroom Audio Streamer based on Raspberry Pi & Snapcast
     last_synced_sha: 131d633ee112697ad928cef220ea3280317ca709
     user_starred_at: '2025-06-10T15:49:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -62345,15 +62387,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.405Z'
+      prompt_version: v3
   - repo: eythaann/Seelen-UI
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - lang:rust
+      - tiling-window-manager
+      - tauri
+      - windows
+      - customization
     summary: The Fully Customizable Desktop Environment for Windows 10/11.
     last_synced_sha: 15ff7d17c1b0c58cf1d67fabdd9490f36d99a1f7
     user_starred_at: '2025-06-10T11:44:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -62392,15 +62444,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.405Z'
+      prompt_version: v3
   - repo: Fosowl/agenticSeek
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:python
+      - autonomous-agents
+      - ai
+      - llm-agents
+      - voice-assistant
     summary: Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin...
     last_synced_sha: 1036c5fbc1fc989a7725ee5ea7ab8cee3b639f24
     user_starred_at: '2025-06-10T11:41:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -62426,15 +62488,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.404Z'
+      prompt_version: v3
   - repo: MODSetter/SurfSense
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - lang:python
+      - fastapi
+      - notebooklm
+      - chrome-extension
+      - llm
     summary: 'Open source alternative to Notebook LM for teams. Join our Discord: https://discord.gg/ej RNvft Dp9'
     last_synced_sha: dfe3e7b43f9bbf9a028b846ce763f7f80ee78e48
     user_starred_at: '2025-06-10T11:41:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -62468,16 +62539,27 @@ repositories:
         published_at: '2026-02-11T07:46:17Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.404Z'
+      prompt_version: v3
   - repo: mindsdb/mindsdb
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+    tags:
+      - lang:python
+      - ai-analytics
+      - databases
+      - llms
+      - rag
+      - agents
     summary: 'Query Engine for AI Analytics: Build self-reasoning agents across all your live data'
     last_synced_sha: 0dd0a4004d3e08774b51a2520468f76f59ff5788
     user_starred_at: '2025-06-10T11:40:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -62511,15 +62593,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.404Z'
+      prompt_version: v3
   - repo: xming521/WeClone
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - lang:python
+      - llm
+      - chat-history
+      - digital-avatar
+      - telegram
     summary: 🚀 One-stop solution for creating your AI twin from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life. 从聊天记录...
     last_synced_sha: 3d618a76ff5f988de076ac6c57f3a3fe201a7b08
     user_starred_at: '2025-06-10T11:37:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -62544,15 +62636,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.404Z'
+      prompt_version: v3
   - repo: kamranahmedse/developer-roadmap
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - lang:ts
+      - roadmap
+      - developer-guide
+      - education
     summary: Interactive roadmaps, guides and other educational content to help developers grow in their careers.
     last_synced_sha: c3d891ea7d582c1f50b5d62e7f6188e3f530f7e4
     user_starred_at: '2025-06-10T11:36:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -62590,15 +62691,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.404Z'
+      prompt_version: v3
   - repo: tensorzero/tensorzero
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - monitoring
+    tags:
+      - lang:rust
+      - llmops
+      - ai
+      - machine-learning
+      - observability
     summary: Tensor Zero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.
     last_synced_sha: 199ebb978993dc092d0e1135d65464e0c7d0b379
     user_starred_at: '2025-06-10T11:32:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -62638,15 +62749,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.404Z'
+      prompt_version: v3
   - repo: block/goose
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:rust
+      - llm
+      - mcp
+      - ai-agent
     summary: an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
     last_synced_sha: dfa93fe9482ec5f46d062671c0013339b595fb5d
     user_starred_at: '2025-06-10T11:31:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -62667,15 +62787,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.404Z'
+      prompt_version: v3
   - repo: Billionmail/BillionMail
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+      - apis
+    tags:
+      - lang:go
+      - email
+      - mailserver
+      - smtp
+      - newsletter
     summary: 'Billion Mail gives you open-source Mail Server, News Letter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asf Xz BUh Zr'
     last_synced_sha: 7916aea198d1be3a10b1683ab79ea922f429eafd
     user_starred_at: '2025-06-07T00:53:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -62706,15 +62837,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.404Z'
+      prompt_version: v3
   - repo: codexu/note-gen
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - lang:ts
+      - note-taking
+      - nextjs
+      - markdown
+      - tauri
     summary: A cross-platform Markdown AI note-taking software.
     last_synced_sha: 8d57693e98e1143739ce561cc320ab0dc64d9d0a
     user_starred_at: '2025-06-07T00:51:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -62744,7 +62885,11 @@ repositories:
         published_at: '2026-03-27T13:51:01Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:02:10.404Z'
+      prompt_version: v3
   - repo: netbirdio/netbird
     categories:
       - networking
