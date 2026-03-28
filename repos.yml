@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-28T04:04:27.545Z'
+  manifest_updated_at: '2026-03-28T04:04:56.104Z'
   total_repos: 1695
   generator_version: v1.0.0
   github_user: primeinc
@@ -59739,13 +59739,18 @@ repositories:
     framework: null
   - repo: RSSNext/Folo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - rss
+      - ai
+      - reader
+      - lang:ts
     summary: 🧡 Folo is the AI RSS Reader
     last_synced_sha: 032b66b8a05051d195e660dad05b58e77fedb896
     user_starred_at: '2025-07-11T22:16:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -59770,15 +59775,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.813Z'
+      prompt_version: v3
   - repo: ByteByteGoHq/system-design-101
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - system-admin
+    tags:
+      - system-design
+      - software-architecture
+      - interview-prep
     summary: Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.
     last_synced_sha: b28380a4710c5ec9638ec037d4168e288f334cba
     user_starred_at: '2025-07-11T22:15:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -59806,15 +59819,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.813Z'
+      prompt_version: v3
   - repo: siwenwang0803/RedForge
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:python
     summary: No description provided
     last_synced_sha: 75c04c351c29d491c02eb78b60181f2ceb988be7
     user_starred_at: '2025-07-11T22:12:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -59834,15 +59852,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.813Z'
+      prompt_version: v3
   - repo: amantus-ai/llm-codes
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - llms
+      - markdown
+      - lang:ts
     summary: Transform developer documentation to clean Markdown
     last_synced_sha: 7c3109015cfa8ed6212094ae696788ff4fb54fe7
     user_starred_at: '2025-07-11T20:42:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -59863,15 +59889,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.813Z'
+      prompt_version: v3
   - repo: bingal/FastDomainCheck-MCP-Server
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - automation
+    tags:
+      - domain-check
+      - mcp-server
+      - lang:go
     summary: A Model Context Protocol for checking domain name registration status in bulk.
     last_synced_sha: 5bdd08d22f8d3fc73b61a127c62008b8e20b3c83
     user_starred_at: '2025-07-11T20:41:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -59893,15 +59927,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.813Z'
+      prompt_version: v3
   - repo: stravu/crystal
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - ai-coding
+      - development-environment
+      - lang:ts
     summary: (Crystal is now Nimbalyst) Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.
     last_synced_sha: 1e18e0bc981225f75b5226f82a300fa741970c6f
     user_starred_at: '2025-07-11T20:15:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -59934,15 +59976,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.813Z'
+      prompt_version: v3
   - repo: matthewp/robot
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - finite-state-machine
+      - functional
+      - immutable
+      - lang:js
     summary: 🤖 A functional, immutable Finite State Machine library
     last_synced_sha: 4cd08d1cb3f08c7d59ef90439ab965d81c001176
     user_starred_at: '2025-07-11T20:14:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -59962,15 +60013,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.812Z'
+      prompt_version: v3
   - repo: hangwin/mcp-chrome
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - web-dev
+    tags:
+      - chrome-extension
+      - mcp
+      - lang:ts
     summary: Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, c...
     last_synced_sha: f48e71751e00bc09725c7e173423cff4f2ccd12a
     user_starred_at: '2025-07-11T20:11:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -59990,15 +60049,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.812Z'
+      prompt_version: v3
   - repo: basementstudio/xmcp
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - automation
+    tags:
+      - framework
+      - automation
+      - lang:ts
     summary: The Type Script MCP framework
     last_synced_sha: 079b90733f09d1624725f8b0a37761144166ea39
     user_starred_at: '2025-07-11T20:10:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -60022,15 +60089,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.812Z'
+      prompt_version: v3
   - repo: CeeJayDK/SweetFX
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - shader
+      - graphics
+      - lang:hlsl
     summary: No description provided
     last_synced_sha: 16d1a42247cb5baaf660120ee35c9a33bb94649c
     user_starred_at: '2025-07-11T20:10:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HLSL
       topics: []
@@ -60048,15 +60123,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.812Z'
+      prompt_version: v3
   - repo: radius-project/radius
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - dev-tools
+    tags:
+      - cloud-native
+      - app-platform
+      - lang:go
     summary: Radius is a cloud-native, portable application platform that makes app development easier for teams building cloud-native apps.
     last_synced_sha: de4ac2d6f712eb697fb19d29b4ea09e61176fa9c
     user_starred_at: '2025-07-11T18:35:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -60076,15 +60159,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.812Z'
+      prompt_version: v3
   - repo: BuilderIO/mitosis
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ui-libraries
+    tags:
+      - react
+      - vue
+      - ui
+      - declarative
+      - lang:ts
     summary: Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more.
     last_synced_sha: e4255db77c3a202aef001963944d5e219c2d0c3f
     user_starred_at: '2025-07-11T16:35:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -60120,15 +60213,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.812Z'
+      prompt_version: v3
   - repo: fosrl/pangolin
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - vpn
+      - proxy
+      - identity-management
+      - lang:ts
     summary: Identity-aware VPN and proxy for remote access to anything, anywhere.
     last_synced_sha: 6d7a19b0a0ecaa66641cce1203192160deca280a
     user_starred_at: '2025-07-11T16:17:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -60166,15 +60268,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.812Z'
+      prompt_version: v3
   - repo: anthropics/claude-cookbooks
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - recipes
+      - notebooks
+      - ai
+      - lang:jupyter-notebook
     summary: A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
     last_synced_sha: 44f96bff8aec6849e929e5a074e2dda97d1389ba
     user_starred_at: '2025-07-11T02:37:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -60192,15 +60303,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.812Z'
+      prompt_version: v3
   - repo: humanlayer/12-factor-agents
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - agents
+      - ai
+      - prompt-engineering
+      - framework
+      - lang:ts
     summary: What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?
     last_synced_sha: d20c728368bf9c189d6d7aab704744decb6ec0cc
     user_starred_at: '2025-07-11T02:37:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -60229,6 +60350,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:04:54.812Z'
+      prompt_version: v3
   - repo: googleapis/genai-toolbox
     categories:
       - databases
