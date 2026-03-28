@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-28T04:18:54.628Z'
+  manifest_updated_at: '2026-03-28T04:19:24.275Z'
   total_repos: 1695
   generator_version: v1.0.0
   github_user: primeinc
@@ -10561,12 +10561,13 @@ repositories:
   - repo: MicrosoftRajan/CipherStudio
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: aa93d66c349c3e08f6cc0a9f9480197e98756c3b
     user_starred_at: '2026-02-10T18:20:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -10584,15 +10585,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.918Z'
+      prompt_version: v3
   - repo: codesandbox/sandpack
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - live-coding
+      - sandbox
+      - lang:ts
     summary: A component toolkit for creating live-running code editing experiences, using the power of Code Sandbox.
     last_synced_sha: 7d60a4334980eef304d53b1c3df371ed6dbcf491
     user_starred_at: '2026-02-10T17:33:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10618,16 +10627,24 @@ repositories:
         published_at: '2025-02-14T13:14:41Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.918Z'
+      prompt_version: v3
   - repo: marshallrichards/ClawPhone
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - mobile-dev
+    tags:
+      - openclaw
+      - android
+      - lang:python
     summary: Tweaks for running Open Claw on a Android smartphone
     last_synced_sha: f6aefb1eb658aaec43162f5aa913592f17c6661b
     user_starred_at: '2026-02-10T14:21:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -10645,15 +10662,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.918Z'
+      prompt_version: v3
   - repo: evinjohnn/natively-cluely-ai-assistant
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-assistant
+      - interview
+      - developer-tools
+      - lang:ts
     summary: Natively - Free open-source AI interview copilot & meeting assistant. The best Cluely alternative, Final Round AI alternative, and Interview Coder alternative. Real-time transcription, undetectable...
     last_synced_sha: 36341ab2e0a8efd1d7446d20fef155d68e586e83
     user_starred_at: '2026-02-10T10:01:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10693,15 +10719,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.918Z'
+      prompt_version: v3
   - repo: haykgrigo3/TimeCapsuleLLM
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - llm
+      - time-period-analysis
+      - lang:python
     summary: A LLM trained only on data from certain time periods to reduce modern bias
     last_synced_sha: 933dec10d42a8fa1929359ac8fc6dd57ab8db87b
     user_starred_at: '2026-02-10T08:50:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -10721,15 +10755,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.918Z'
+      prompt_version: v3
   - repo: snarktank/antfarm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - openclaw
+      - agent-team
+      - lang:ts
     summary: Build your agent team in Open Claw with one command.
     last_synced_sha: a442ad7dcb8cf8746175cc4a2e2dcafd501156cf
     user_starred_at: '2026-02-10T08:24:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -10749,15 +10791,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.918Z'
+      prompt_version: v3
   - repo: SeyZ/clawbands
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - ai
+      - openclaw
+      - lang:ts
     summary: Claw Bands is a security middleware for Open Claw AI agents.
     last_synced_sha: d3cb509521299280489ff565dcf1cea5cd2b9724
     user_starred_at: '2026-02-10T08:12:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10780,15 +10830,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.918Z'
+      prompt_version: v3
   - repo: tlsnotary/tlsn-extension
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - security
+    tags:
+      - chrome-extension
+      - lang:ts
     summary: Chrome Extension for TLSNotary
     last_synced_sha: 42d345974a47d7c76e3d3c2e3ac15e427f8155e8
     user_starred_at: '2026-02-10T06:46:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -10808,15 +10865,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.918Z'
+      prompt_version: v3
   - repo: ArchiveBox/ArchiveBox
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - web-archiving
+      - browser-bookmarks
+      - lang:python
     summary: 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...
     last_synced_sha: f3622d8cd38ce208546cde84c99940fe4ff465db
     user_starred_at: '2026-02-10T06:36:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -10856,15 +10921,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.918Z'
+      prompt_version: v3
   - repo: deadc0de6/gocatcli
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - catalog
+      - command-line
+      - lang:go
     summary: The command line catalog tool for your offline data
     last_synced_sha: fadfe1f54d1b5305049980463bab52a177fe25a7
     user_starred_at: '2026-02-10T06:34:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -10887,15 +10960,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.918Z'
+      prompt_version: v3
   - repo: recyclarr/recyclarr
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - system-admin
+    tags:
+      - syncing
+      - lang:csharp
     summary: Automatically sync TRa SH Guides to your Sonarr and Radarr instances
     last_synced_sha: 978b472272e80d35c0bb3511dbe9cce8de61f8a1
     user_starred_at: '2026-02-10T06:27:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -10915,15 +10995,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.915Z'
+      prompt_version: v3
   - repo: SigNoz/signoz
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - productivity
+    tags:
+      - observability
+      - self-hosted
+      - application-monitoring
+      - lang:ts
     summary: Sig Noz is an open-source observability platform native to Open Telemetry with logs, traces and metrics in a single application. An open-source alternative to Data Dog, New Relic, etc. 🔥 🖥. 👉 Op...
     last_synced_sha: 754dbc7f387db81f15ee6c9b901ce17f348de75d
     user_starred_at: '2026-02-09T10:52:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10962,16 +11051,24 @@ repositories:
         published_at: '2026-03-26T10:14:57Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.915Z'
+      prompt_version: v3
   - repo: github/gh-aw
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - ci
+      - github-actions
+      - lang:go
     summary: Git Hub Agentic Workflows
     last_synced_sha: e0a91cc75235f6e3e19f41f7ce512de150a61511
     user_starred_at: '2026-02-09T09:46:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -10999,15 +11096,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.915Z'
+      prompt_version: v3
   - repo: dialpad/dialpad-python-sdk
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - sdk
+      - lang:python
     summary: No description provided
     last_synced_sha: bbad9e3abe66a8815d435d1c03df6fa2d2229cd3
     user_starred_at: '2026-02-09T09:19:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11025,15 +11129,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.915Z'
+      prompt_version: v3
   - repo: dialpad/dialtone
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+    tags:
+      - design-system
+      - design-tokens
+      - ui-library
+      - lang:js
     summary: The main repository for all of Dialpad's design system resources.
     last_synced_sha: 6bdef465e50017369a5d94bbcde8b3c077eb5777
     user_starred_at: '2026-02-09T09:15:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -11065,7 +11178,11 @@ repositories:
         published_at: '2026-03-24T19:17:10Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:19:22.915Z'
+      prompt_version: v3
   - repo: d3/d3
     categories:
       - data-science
