@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-28T04:01:03.632Z'
+  manifest_updated_at: '2026-03-28T04:01:35.682Z'
   total_repos: 1695
   generator_version: v1.0.0
   github_user: primeinc
@@ -62747,13 +62747,19 @@ repositories:
     framework: null
   - repo: netbirdio/netbird
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+      - cloud
+    tags:
+      - wireguard
+      - vpn
+      - overlay-network
+      - lang:go
     summary: Connect your devices into a secure Wire Guard®-based overlay network with SSO, MFA and granular access controls.
     last_synced_sha: 7abf730d77170513a031715a731ed2839ff792cb
     user_starred_at: '2025-06-06T09:13:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -62783,15 +62789,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.447Z'
+      prompt_version: v3
   - repo: iamgio/quarkdown
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ui-libraries
+      - productivity
+    tags:
+      - markdown
+      - presentations
+      - pdf
+      - lang:kotlin
     summary: '🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.'
     last_synced_sha: cc730fe1f7aee7c6bc3c611425068a1af1767500
     user_starred_at: '2025-06-06T09:13:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics:
@@ -62824,15 +62840,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.447Z'
+      prompt_version: v3
   - repo: scrapy/scrapy
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - automation
+      - data-science
+    tags:
+      - web-scraping
+      - framework
+      - crawler
+      - lang:python
     summary: Scrapy, a fast high-level web crawling & scraping framework for Python.
     last_synced_sha: 31bf7c3892df3eb0dfdf5223a0aff5e261f0a7c3
     user_starred_at: '2025-06-06T09:13:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -62860,15 +62886,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.447Z'
+      prompt_version: v3
   - repo: nathanbuchar/audubon-bird-plates-for-supernote
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - documentation
+    tags:
+      - audubon
+      - eink
+      - supernote
     summary: All 435 illustrations of John James Audubon's Birds of America adapted for use as screensavers on the Supernote and other similar e-ink tablets.
     last_synced_sha: 5f0f47d62d93b290cdfa64afb7f8d9764379a9ce
     user_starred_at: '2025-06-01T02:00:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -62891,15 +62925,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.447Z'
+      prompt_version: v3
   - repo: lnenad/newser
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - news
+      - scraping
+      - pdf-generation
+      - lang:go
     summary: Newser is a simple utility to generate a pdf with you favorite news articles
     last_synced_sha: 488ff92e4af22e10f0e2e18fd675fa9053a6a549
     user_starred_at: '2025-06-01T01:58:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -62921,15 +62964,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.447Z'
+      prompt_version: v3
   - repo: cristianvasquez/supernote-web-viewer
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - supernote
+      - viewer
+      - lang:js
     summary: Display a supernote .note file
     last_synced_sha: bf63181c57c2d987ed0eef4a7a539c70f46302fe
     user_starred_at: '2025-06-01T01:58:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -62948,15 +62999,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.447Z'
+      prompt_version: v3
   - repo: philips/supernote-obsidian-plugin
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - obsidian-plugin
+      - markdown
+      - eink
+      - lang:ts
     summary: Supernote A5, A5X, A6X, A6X2 (Nomad), and A5X2 (Manta) integration for Obsidian. Generate markdown, capture screen mirror, and more.
     last_synced_sha: e4de9fcc0f25a0a84a8513551f09cdd4737ef826
     user_starred_at: '2025-06-01T01:57:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -62980,15 +63040,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.447Z'
+      prompt_version: v3
   - repo: TA1312/supernote-a5x
     categories:
-      - unclassified
-    tags: []
+      - security
+      - embedded
+    tags:
+      - supernote
+      - lang:batchfile
     summary: various security information on the supernote a5x
     last_synced_sha: b05245a21ded53a318346278282bc19d93a8dd8d
     user_starred_at: '2025-06-01T01:53:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics: []
@@ -63006,15 +63073,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.447Z'
+      prompt_version: v3
   - repo: github/codeql
     categories:
-      - unclassified
-    tags: []
+      - security
+      - testing
+      - dev-tools
+    tags:
+      - code-analysis
+      - security-research
+      - lang:codeql
     summary: 'Code QL: the libraries and queries that power security researchers around the world, as well as code scanning in Git Hub Advanced Security'
     last_synced_sha: a8b52acaa9e00f1707f807c8a6dbe2605d193384
     user_starred_at: '2025-05-30T11:46:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CodeQL
       topics:
@@ -63037,15 +63113,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.447Z'
+      prompt_version: v3
   - repo: openai/codex
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - terminal-agent
+      - coding-tool
+      - lang:rust
     summary: Lightweight coding agent that runs in your terminal
     last_synced_sha: e02fd6e1d3d0ee7a47780ab3efc1c769cd373337
     user_starred_at: '2025-05-30T06:48:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -63065,15 +63149,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.447Z'
+      prompt_version: v3
   - repo: openai/codex-universal
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - containers
+    tags:
+      - base-image
+      - codex
+      - lang:dockerfile
     summary: Base docker image used in Codex environments
     last_synced_sha: 54b8f0434886aeff0817cc4d5a7d76bdb0d834d5
     user_starred_at: '2025-05-30T06:47:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics: []
@@ -63091,15 +63183,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.447Z'
+      prompt_version: v3
   - repo: Azure/Azure-Verified-Modules
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - documentation
+      - dev-tools
+    tags:
+      - infrastructure-as-code
+      - standards
+      - lang:powershell
     summary: Azure Verified Modules (AVM) is an initiative to consolidate and set the standards for what a good Infrastructure-as-Code module looks like. Modules will then align to these standards, across langu...
     last_synced_sha: 063260909f6e973ac75e12d84131fc5989c9e76f
     user_starred_at: '2025-05-25T21:53:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -63117,15 +63218,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.447Z'
+      prompt_version: v3
   - repo: samanhappy/mcphub
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - automation
+      - networking
+    tags:
+      - mcp-hub
+      - mcp-router
+      - flexible-routing
+      - lang:ts
     summary: A unified hub for centrally managing and dynamically orchestrating multiple MCP servers/APIs into separate endpoints with flexible routing strategies
     last_synced_sha: dcdbf8f5984efb70915250b4391f6e0602ed451a
     user_starred_at: '2025-05-25T17:03:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -63150,15 +63261,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.447Z'
+      prompt_version: v3
   - repo: athapong/aio-mcp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+      - automation
+    tags:
+      - mcp-server
+      - ai-search
+      - rag
+      - lang:go
     summary: 🚀 All-in-one MCP server with AI search, RAG, and multi-service integrations (Git Lab/Jira/Confluence/You Tube) for AI-enhanced development workflows. Folk from https://github.com/nguyenvanduocit/a...
     last_synced_sha: 9363f6adb7f4d2f9bcd033161a13b8c19d718781
     user_starred_at: '2025-05-25T17:03:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -63178,15 +63299,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.447Z'
+      prompt_version: v3
   - repo: SaM-92/mcp_autogen_sse_stdio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - automation
+    tags:
+      - autogen
+      - llm
+      - mcp-server
+      - lang:python
     summary: This repository demonstrates how to use Auto Gen to integrate local and remote MCP (Model Context Protocol) servers. It showcases a local math tool (math_server.py) using Stdio and a remote Apify t...
     last_synced_sha: e5a3ff9902751410ac1c2a8b3570164b928eb29a
     user_starred_at: '2025-05-25T16:31:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -63212,6 +63343,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:01:34.443Z'
+      prompt_version: v3
   - repo: 21st-dev/magic-mcp
     categories:
       - web-dev
