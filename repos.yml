@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-28T04:13:07.950Z'
+  manifest_updated_at: '2026-03-28T04:13:45.147Z'
   total_repos: 1695
   generator_version: v1.0.0
   github_user: primeinc
@@ -15635,13 +15635,20 @@ repositories:
     framework: null
   - repo: steipete/summarize
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+      - dev-tools
+    tags:
+      - lang:ts
+      - ai
+      - cli
+      - summarization
+      - chrome-extension
     summary: Point at any URL/You Tube/Podcast or file. Get the gist. CLI and Chrome Extension.
     last_synced_sha: 555d419e9191631c06c3b101afb940e7596390a8
     user_starred_at: '2026-01-27T01:03:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -15665,15 +15672,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.784Z'
+      prompt_version: v3
   - repo: better-auth/better-auth
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+      - frameworks
+    tags:
+      - lang:ts
+      - authentication
+      - oauth
+      - sso
+      - iam
     summary: The most comprehensive authentication framework for Type Script
     last_synced_sha: 221103bce7264570c9659200e91f15ad543c8e52
     user_starred_at: '2026-01-27T00:56:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -15701,15 +15719,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.784Z'
+      prompt_version: v3
   - repo: simple-icons/simple-icons
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - documentation
+    tags:
+      - lang:js
+      - icons
+      - branding
+      - svg
+      - design-assets
     summary: SVG icons for popular brands
     last_synced_sha: 2730aacdb5083edc64f8645da78a6751256a1721
     user_starred_at: '2026-01-27T00:56:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -15748,15 +15776,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.783Z'
+      prompt_version: v3
   - repo: trycua/cua
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - system-admin
+      - testing
+    tags:
+      - lang:python
+      - virtualization
+      - ai-agent
+      - sandboxing
     summary: Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (mac OS, Linux, Windows).
     last_synced_sha: 131565b95a980d51c7f05d71cd628209430fd842
     user_starred_at: '2026-01-27T00:56:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -15794,15 +15832,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.783Z'
+      prompt_version: v3
   - repo: HKUDS/ViMax
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:python
+      - video-generation
+      - ai
+      - agentic-aigc
     summary: '"Vi Max: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)"'
     last_synced_sha: af84ac5cf3fe58ed4c7ea667a6271351583c7aae
     user_starred_at: '2026-01-27T00:55:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -15822,15 +15869,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.783Z'
+      prompt_version: v3
   - repo: business-science/ai-data-science-team
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - productivity
+    tags:
+      - lang:python
+      - ai
+      - data-science
+      - machine-learning
+      - agents
     summary: An AI-powered data science team of agents to help you perform common data science tasks 10X faster.
     last_synced_sha: 4ffeb7f38178aa250917f29b01355f8b89ba809e
     user_starred_at: '2026-01-27T00:55:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -15863,15 +15921,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.783Z'
+      prompt_version: v3
   - repo: evolus/pencil
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+    tags:
+      - lang:js
+      - prototyping
+      - ui-design
+      - mockup
+      - sketching
     summary: The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use.
     last_synced_sha: b8bef24042e4ec2c1a2c30c20a12db3bf38668ca
     user_starred_at: '2026-01-27T00:54:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -15901,15 +15969,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.783Z'
+      prompt_version: v3
   - repo: clusterzx/paperless-ai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - productivity
+    tags:
+      - lang:js
+      - ai
+      - automation
+      - document-analysis
+      - paperless
     summary: An automated document analyzer for Paperless-ngx using Open AI API, Ollama, Deepseek-r1, Azure and all Open AI API compatible Services to automatically analyze and tag your documents.
     last_synced_sha: 0eee0c69d5da3b2a4d2fb4e0fdcd71242567e3ba
     user_starred_at: '2026-01-27T00:52:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -15938,15 +16017,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.783Z'
+      prompt_version: v3
   - repo: go-vikunja/vikunja
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+      - apis
+    tags:
+      - lang:go
+      - todo
+      - project-management
+      - self-hosted
     summary: The to-do app to organize your life.
     last_synced_sha: ffb291c966dee7308fd719c3e56237e79cfed14e
     user_starred_at: '2026-01-27T00:50:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -15973,16 +16062,25 @@ repositories:
         published_at: '2026-03-23T21:35:06Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.783Z'
+      prompt_version: v3
   - repo: cometbft/cometbft
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - networking
+    tags:
+      - lang:go
+      - bft
+      - blockchain
+      - distributed-systems
     summary: 'Comet BFT: A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. A fork and successor to Tendermint Core.'
     last_synced_sha: 50342ea6c21b6b4494378917f072338c335381d1
     user_starred_at: '2026-01-27T00:49:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -16009,15 +16107,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.783Z'
+      prompt_version: v3
   - repo: navidrome/navidrome
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+      - cloud
+      - productivity
+    tags:
+      - lang:go
+      - streaming
+      - music-server
+      - self-hosted
     summary: 🎧 Your Personal Streaming Service
     last_synced_sha: 2588558946a21690e2d54a5d3c089be839aa1f51
     user_starred_at: '2026-01-27T00:47:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -16051,15 +16160,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.783Z'
+      prompt_version: v3
   - repo: File-New-Project/EarTrumpet
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+      - ui-libraries
+    tags:
+      - lang:csharp
+      - audio
+      - windows
+      - mixer
     summary: Ear Trumpet - Volume Control for Windows
     last_synced_sha: 99b6260001d00c344f8067e6d0288bac9a4bbaab
     user_starred_at: '2026-01-27T00:45:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -16086,15 +16205,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.780Z'
+      prompt_version: v3
   - repo: TheJoeFin/Text-Grab
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ai-ml
+      - productivity
+    tags:
+      - lang:csharp
+      - ocr
+      - windows
+      - dotnet
     summary: Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications.
     last_synced_sha: 6fbb1d8a126bb725b42a4ef50885cc4b4b8a4e4a
     user_starred_at: '2026-01-27T00:44:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -16122,15 +16251,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.780Z'
+      prompt_version: v3
   - repo: jely2002/youtube-dl-gui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+      - desktop-dev
+    tags:
+      - lang:rust
+      - video-downloader
+      - vue
+      - cross-platform-gui
     summary: Open Video Downloader - A cross-platform GUI for youtube-dl made in Rust with Tauri and Vue + Typescript.
     last_synced_sha: ad041054882c852dff34087c2b93e358cd709979
     user_starred_at: '2026-01-27T00:43:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -16158,16 +16297,26 @@ repositories:
         published_at: '2026-02-24T06:59:15Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.780Z'
+      prompt_version: v3
   - repo: Effect-TS/effect
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - automation
+      - productivity
+    tags:
+      - lang:ts
+      - dependency-injection
+      - error-handling
+      - observability
     summary: Build production-ready applications in Type Script
     last_synced_sha: 6c39a34c6145811f5c41292f03bf7939cfa8e70d
     user_starred_at: '2026-01-27T00:41:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16200,6 +16349,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:43.780Z'
+      prompt_version: v3
   - repo: rustic-rs/rustic
     categories:
       - security
