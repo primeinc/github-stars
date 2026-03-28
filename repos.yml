@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-28T04:17:39.129Z'
+  manifest_updated_at: '2026-03-28T04:18:18.837Z'
   total_repos: 1695
   generator_version: v1.0.0
   github_user: primeinc
@@ -11543,13 +11543,19 @@ repositories:
     framework: null
   - repo: bvaughn/react-resizable-panels
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - panel
+      - resizable
+      - layout
+      - lang:ts
+      - react
     summary: No description provided
     last_synced_sha: bf4f8c629598928ee488583e23bbffd15de9d4cf
     user_starred_at: '2026-02-08T13:51:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11573,16 +11579,25 @@ repositories:
         published_at: '2026-03-24T22:23:04Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.544Z'
+      prompt_version: v3
   - repo: ExperienceLovelace/ha-floorplan
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - automation
+    tags:
+      - homeassistant
+      - floorplan
+      - control-panel
+      - lang:ts
     summary: Bring new life to Home Assistant. By mapping entities to a SVG-object, you're able to control devices, show states, calling services - and much more. Add custom styling on top, to visualize whateve...
     last_synced_sha: 7f3d9d3a7dcec2a00b0448e213d8c2fd31b648c7
     user_starred_at: '2026-02-08T13:50:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11607,15 +11622,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.544Z'
+      prompt_version: v3
   - repo: mathuo/dockview
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - layout-manager
+      - docking
+      - tabs
+      - lang:ts
+      - react
     summary: Zero dependency docking layout manager supporting tabs, groups, grids and splitviews. Supports React, Vue, Angular, and vanilla Type Script.
     last_synced_sha: fc30b40d0385f965867f00c4775b86a22e97244b
     user_starred_at: '2026-02-08T13:48:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11654,16 +11679,26 @@ repositories:
         published_at: '2026-03-26T21:09:07Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.544Z'
+      prompt_version: v3
   - repo: Safe3/openresty-manager
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - nginx
+      - api-gateway
+      - control-panel
+      - self-hosted
+      - lang:go
     summary: Modern, secure, and elegant server control panel, alternative to Open Resty Edge and Nginx Proxy Manager.
     last_synced_sha: ff3589849c41a5ee9d8ba13b8857d57602dcd8d8
     user_starred_at: '2026-02-08T13:46:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -11703,15 +11738,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.544Z'
+      prompt_version: v3
   - repo: 1Panel-dev/1Panel
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - containers
+    tags:
+      - vps
+      - docker
+      - linux
+      - control-panel
+      - lang:go
     summary: 🔥 Take full control of your VPS with 1Panel. Deploy Open Claw in one click.
     last_synced_sha: 62c50aafe17ba324915c5da406a8b21f775b7aa1
     user_starred_at: '2026-02-08T13:42:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -11743,15 +11788,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.544Z'
+      prompt_version: v3
   - repo: cathrynlavery/wispr-flow-recap
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - recap
+      - activity-tracking
+      - lang:js
     summary: Beautiful activity recaps for Wispr Flow voice dictation
     last_synced_sha: 028119fc82aed7bfc2790aaa5951039b159ab491
     user_starred_at: '2026-02-08T13:37:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -11769,15 +11822,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.544Z'
+      prompt_version: v3
   - repo: dkhamsing/open-source-ios-apps
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - learning
+    tags:
+      - ios
+      - swift
+      - objective-c
     summary: ':iphone: Collaborative List of Open-Source i OS Apps'
     last_synced_sha: bbb27db20c099ab4a0982b8b417ee0939e4d3be5
     user_starred_at: '2026-02-08T13:16:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -11817,15 +11878,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.544Z'
+      prompt_version: v3
   - repo: microsoft/rushstack
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - typescript
+      - monorepo
+      - toolchain
+      - lang:ts
     summary: Monorepo for tools developed by the Rush Stack community
     last_synced_sha: 4e87cfd81cb47b77b8ab214897e80ad0cfb5a50f
     user_starred_at: '2026-02-08T09:48:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11859,15 +11929,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.544Z'
+      prompt_version: v3
   - repo: 11happy/cpx
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - cli-tool
+      - file-management
+      - lang:rust
     summary: cp reimagined
     last_synced_sha: 6ddb32272bf63739663b111ae9ee6c558157724f
     user_starred_at: '2026-02-08T08:15:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -11887,15 +11965,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.544Z'
+      prompt_version: v3
   - repo: zellij-org/zellij
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - terminal
+      - multiplexer
+      - workspace
+      - lang:rust
     summary: A terminal workspace with batteries included
     last_synced_sha: 802c96f5fca9de479af7c249130a7928bc441349
     user_starred_at: '2026-02-08T08:12:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -11918,15 +12005,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.544Z'
+      prompt_version: v3
   - repo: Azure-Samples/azure-typescript-e2e-apps
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - cloud
+    tags:
+      - typescript
+      - azure-integration
+      - lang:ts
     summary: Monorepo - Apps written in Type Script to be either 1) deployed to Azure hosting or 2) integrated with Azure services
     last_synced_sha: e3b9c39fbb85c6cc3eeef8702ec9607163f88919
     user_starred_at: '2026-02-08T03:04:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -11944,15 +12039,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.544Z'
+      prompt_version: v3
   - repo: microsoft/zerotrustassessment
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - zero-trust
+      - assessment
+      - lang:html
     summary: Repository for the Zero Trust Assessment project
     last_synced_sha: 0a3e00b9bcfdd475832208cfb908980f4605c1e3
     user_starred_at: '2026-02-08T03:01:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -11972,15 +12075,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.544Z'
+      prompt_version: v3
   - repo: openclaw/skills
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - archive
+      - backup
+      - lang:python
     summary: All versions of all skills that are on clawhub.com archived
     last_synced_sha: 08730c67eb6e259aa0c3c9bcc9b111aabe8423cb
     user_starred_at: '2026-02-08T02:56:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -12003,15 +12114,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.544Z'
+      prompt_version: v3
   - repo: kodepandai/awesome-gh-cli-extensions
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - awesome-list
+      - github-extension
+      - lang:html
     summary: Awesome list of github cli extensions.
     last_synced_sha: b822213c6845af178b689ca738a0e008f65c12a7
     user_starred_at: '2026-02-07T06:46:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -12033,15 +12152,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.544Z'
+      prompt_version: v3
   - repo: shanraisshan/claude-code-best-practice
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - claude-ai
+      - best-practices
+      - lang:html
     summary: practice made claude perfect
     last_synced_sha: bd0fb773e5a2774fea0a372cd71db996d11d9163
     user_starred_at: '2026-02-07T04:08:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -12064,6 +12191,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:17.543Z'
+      prompt_version: v3
   - repo: microsoft/cascadia-code
     categories:
       - dev-tools
