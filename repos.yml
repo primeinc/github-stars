@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-28T03:58:10.674Z'
+  manifest_updated_at: '2026-03-28T03:58:44.475Z'
   total_repos: 1695
   generator_version: v1.0.0
   github_user: primeinc
@@ -65284,13 +65284,17 @@ repositories:
     framework: null
   - repo: heroku/12factor
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - best-practices
+      - marketing
+      - lang:css
     summary: No description provided
     last_synced_sha: 468c7ac0336cf1ab76ed3dad612928e2ef2d8799
     user_starred_at: '2025-03-19T19:06:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: CSS
@@ -65310,15 +65314,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.120Z'
+      prompt_version: v3
   - repo: antonmedv/walk
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - cli
+      - file-manager
+      - terminal
+      - lang:go
     summary: Terminal file manager
     last_synced_sha: bf802ef9ee4b7895f88316138372b8356ad7afdb
     user_starred_at: '2025-03-19T19:03:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -65341,15 +65354,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.120Z'
+      prompt_version: v3
   - repo: microsoft/fluentui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react-components
+      - ui-framework
+      - fluent
+      - lang:ts
     summary: Fluent UI web represents a collection of utilities, React components, and web components for building web applications.
     last_synced_sha: 93d6841b60d8585b69120ffea3372a8784c699c4
     user_starred_at: '2025-03-19T17:25:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -65374,16 +65396,25 @@ repositories:
         published_at: '2026-02-26T18:14:18Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.120Z'
+      prompt_version: v3
   - repo: langchain-ai/local-deep-researcher
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - local-research
+      - assistant
+      - report-writing
+      - lang:python
     summary: Fully local web research and report writing assistant
     last_synced_sha: 64b15bb42d5ebcf420bba712f4b5cc8bce8b8859
     user_starred_at: '2025-03-19T16:23:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -65401,15 +65432,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.120Z'
+      prompt_version: v3
   - repo: microsoft/RD-Agent
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - automation
+    tags:
+      - data-science
+      - ai
+      - automation
+      - research
+      - lang:python
     summary: Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are commi...
     last_synced_sha: 471eb30d1ec03f35631c532c58a52ce75d684037
     user_starred_at: '2025-03-19T16:23:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -65437,15 +65479,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.120Z'
+      prompt_version: v3
   - repo: Azure-Samples/microblog-ai-remix
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+      - cloud
+    tags:
+      - ai
+      - azure
+      - react
+      - gpt-4
+      - lang:ts
     summary: A full-stack AI-powered microblogging application leveraging Azure Static Web Apps, Azure Functions, and Remix SSR with Azure Open AI GPT-4o.
     last_synced_sha: f15d04759b486b8a8feda53e1647248d023bfc10
     user_starred_at: '2025-03-17T16:33:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -65479,16 +65532,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.119Z'
+      prompt_version: v3
   - repo: devkimchi/azure-easyauth-sample
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - cloud
+    tags:
+      - azure
+      - authentication
+      - lang:css
     summary: This provides a sample code for the Easy Auth feature on Azure App Service, Azure Static Web App and Azure Container Apps
     last_synced_sha: 56a3fc827ef3e9f459994ca028265b3a8d9c7b4d
     user_starred_at: '2025-03-16T01:43:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics: []
@@ -65506,15 +65567,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.119Z'
+      prompt_version: v3
   - repo: Jonathanpatta/E2E-Encryption-Chat-App
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - end-to-end-encryption
+      - chat-app
+      - lang:js
     summary: End-to-End Encryption Chat Application using Diffie Hellman Key Exchange protocol
     last_synced_sha: 6a0874dbc4bd78a1730bddd00177c06c97f1dd6e
     user_starred_at: '2025-03-16T01:33:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -65532,15 +65601,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.119Z'
+      prompt_version: v3
   - repo: expo/expo
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - mobile-dev
+      - web-dev
+    tags:
+      - mobile
+      - react
+      - native-apps
+      - lang:ts
     summary: An open-source framework for making universal native apps with React. Expo runs on Android, i OS, and the web.
     last_synced_sha: d4aa0f33a5755cf7d88142822db8a76e6aa3ffbd
     user_starred_at: '2025-03-16T01:19:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -65573,16 +65652,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.119Z'
+      prompt_version: v3
   - repo: team-telnyx/messaging-spam-detector
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+    tags:
+      - spam-detection
+      - messaging
+      - lang:python
     summary: No description provided
     last_synced_sha: d047849d2301ee943d99f2206780f2b07dfb3aea
     user_starred_at: '2025-03-15T23:47:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -65600,15 +65687,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.119Z'
+      prompt_version: v3
   - repo: team-telnyx/demo-node-telnyx
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - telnyx
+      - examples
+      - lang:js
     summary: Samples & Examples with Telnyx-Node
     last_synced_sha: 596a7b5a1c8e868f90f84092acf87513abc2a7b6
     user_starred_at: '2025-03-15T23:42:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -65626,15 +65721,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.119Z'
+      prompt_version: v3
   - repo: team-telnyx/spandsp
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - embedded
+    tags:
+      - signal-processing
+      - telephony
+      - lang:c
     summary: Span DSP is a low-level signal processing library that modulates and demodulates signals commonly used in telephony, such as the "noise" generated by a fax modem or DTMF touchpad.
     last_synced_sha: abd318c91da1575ca6701226e1ea63b852be98de
     user_starred_at: '2025-03-15T23:34:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C
@@ -65653,15 +65756,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.119Z'
+      prompt_version: v3
   - repo: Azure/AppConfiguration
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cloud
+      - system-admin
+    tags:
+      - azure
+      - configuration-management
+      - configuration
     summary: Questions, feedback and samples for Azure App Configuration service
     last_synced_sha: f2f93cda4e0495b32a9933cda3610b9ab1cbab3a
     user_starred_at: '2025-03-15T09:20:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -65687,15 +65799,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.119Z'
+      prompt_version: v3
   - repo: Azure/AppConfiguration-Announcements
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - cloud
+    tags:
+      - azure
+      - configuration
+      - updates
     summary: News about Azure App Configuration
     last_synced_sha: 8bea2861107125a71ae36ffa6f20c2948bd6a185
     user_starred_at: '2025-03-15T09:20:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -65718,15 +65838,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.119Z'
+      prompt_version: v3
   - repo: twelve-factor/twelve-factor
     categories:
-      - unclassified
-    tags: []
+      - documentation
+    tags:
+      - best-practices
+      - application-design
     summary: The Twelve-Factor Manifesto
     last_synced_sha: 3ad5a5f36312cc8ad876abae1bd691acd790d4d1
     user_starred_at: '2025-03-15T09:11:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -65744,6 +65870,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T03:58:43.118Z'
+      prompt_version: v3
   - repo: microsoftgraph/msgraph-sdk-powershell
     categories:
       - apis
