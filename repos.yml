@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-28T04:04:56.104Z'
+  manifest_updated_at: '2026-03-28T04:05:31.172Z'
   total_repos: 1695
   generator_version: v1.0.0
   github_user: primeinc
@@ -59178,13 +59178,18 @@ repositories:
     framework: null
   - repo: june07/nimv3
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - devtools
+      - inspect
+      - debugging
+      - lang:js
     summary: Streamline Your Java Script V8 (Node.js/Deno) Debugging Workflow
     last_synced_sha: e39523f2aa37b0feecd5d3fa6875d592a5208adb
     user_starred_at: '2025-07-12T01:30:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -59220,15 +59225,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.843Z'
+      prompt_version: v3
   - repo: ipfs/helia
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - web-dev
+    tags:
+      - ipfs
+      - ipfs-helia
+      - lang:ts
     summary: An implementation of IPFS in Type Script
     last_synced_sha: 5ee3283f6f414a9cff4fbe941481aec5f0e4143a
     user_starred_at: '2025-07-12T01:26:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -59250,15 +59263,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.843Z'
+      prompt_version: v3
   - repo: wavetermdev/waveterm
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - terminal
+      - command-line
+      - terminal-emulators
+      - lang:go
     summary: An open-source, AI-integrated, cross-platform terminal for seamless workflows
     last_synced_sha: 96c2526f2aed0cf80c81aec11269e35b8cb956c8
     user_starred_at: '2025-07-12T01:21:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -59286,15 +59308,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.843Z'
+      prompt_version: v3
   - repo: rescript-lang/rescript
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+    tags:
+      - altjs
+      - compiler
+      - lang:rescript
     summary: Re Script is a robustly typed language that compiles to efficient and human-readable Java Script.
     last_synced_sha: 55a50a93a61c3a01a48867120b5e9a316e4da417
     user_starred_at: '2025-07-12T01:21:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: ReScript
       topics:
@@ -59318,15 +59347,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.843Z'
+      prompt_version: v3
   - repo: alibaba/formily
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - frameworks
+    tags:
+      - react
+      - schema-form
+      - form
+      - lang:ts
     summary: 📱🚀 🧩 Cross Device & High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3
     last_synced_sha: d9a46442a575aa5f0fc1bd945e34d9a85d191d0e
     user_starred_at: '2025-07-12T01:19:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -59364,16 +59402,24 @@ repositories:
         published_at: '2025-05-15T09:53:46Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.843Z'
+      prompt_version: v3
   - repo: styleguidist/react-styleguidist
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - documentation
+    tags:
+      - react
+      - styleguide
+      - lang:ts
     summary: Isolated React component development environment with a living style guide
     last_synced_sha: c223f9a279f4e872cf6ff925fb21d2a7f6e27a77
     user_starred_at: '2025-07-12T01:13:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -59396,16 +59442,25 @@ repositories:
         published_at: '2025-01-07T10:44:42Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.843Z'
+      prompt_version: v3
   - repo: welldone-software/why-did-you-render
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - react
+      - performance
+      - component
+      - lang:js
     summary: why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.)
     last_synced_sha: 3ec3512d750c49448fe2241e26d05db9e42f0c21
     user_starred_at: '2025-07-12T01:10:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -59434,16 +59489,26 @@ repositories:
         published_at: '2025-01-18T17:49:06Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.843Z'
+      prompt_version: v3
   - repo: ellisonleao/magictools
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - learning
+    tags:
+      - game-development
+      - gamedev
+      - art
+      - design
+      - lang:markdown
     summary: ':video_game: :pencil: A list of Game Development resources to make magic happen.'
     last_synced_sha: 5b4edf7377e21c010020db39c2c7ba684fff719c
     user_starred_at: '2025-07-11T22:47:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Markdown
       topics:
@@ -59477,15 +59542,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.843Z'
+      prompt_version: v3
   - repo: kdeldycke/awesome-falsehood
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - awesome-list
+      - programming
+      - falsehoods
     summary: 😱 Falsehoods Programmers Believe in
     last_synced_sha: e287d8c25560d3e8bd846567291e0f565aeb4858
     user_starred_at: '2025-07-11T22:26:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -59522,15 +59595,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.843Z'
+      prompt_version: v3
   - repo: TryGhost/Ghost
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - cms
+      - publishing
+      - blogging
+      - lang:js
     summary: Independent technology for modern publishing, memberships, subscriptions and newsletters.
     last_synced_sha: d5fca1cd482bc163d56a4da7b24a38a583bcc7b5
     user_starred_at: '2025-07-11T22:24:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -59558,15 +59640,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.843Z'
+      prompt_version: v3
   - repo: poloclub/transformer-explainer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - generative-ai
+      - visualization
+      - deep-learning
+      - llm
+      - lang:js
     summary: 'Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization'
     last_synced_sha: 6e2ec372b1d7c73d3cf82704ec0b878522fc4085
     user_starred_at: '2025-07-11T22:24:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -59592,15 +59684,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.843Z'
+      prompt_version: v3
   - repo: rustfs/rustfs
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - databases
+    tags:
+      - object-storage
+      - bigdata
+      - s3
+      - lang:rust
     summary: 🚀2.3x faster than Min IO for 4KB object payloads. Rust FS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible plat...
     last_synced_sha: c20f2555eb0c93ff5e697f957b2e7da35451a927
     user_starred_at: '2025-07-11T22:18:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -59630,15 +59731,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.843Z'
+      prompt_version: v3
   - repo: langchain-ai/agents-from-scratch
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - agents
+      - memory
+      - lang:jupyter-notebook
     summary: Build an email assistant with human-in-the-loop and memory
     last_synced_sha: 0d4fe0310e24f0f3ae38311504ec28f1676991f5
     user_starred_at: '2025-07-11T22:17:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -59658,15 +59767,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.843Z'
+      prompt_version: v3
   - repo: GyulyVGC/sniffnet
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+      - monitoring
+    tags:
+      - network-analysis
+      - packet-sniffer
+      - packet-capture
+      - lang:rust
     summary: Comfortably monitor your Internet traffic 🕵️‍♂️
     last_synced_sha: 5484515101dbe7cb647d922fa7dfb9a306b6a546
     user_starred_at: '2025-07-11T22:17:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -59705,15 +59824,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.842Z'
+      prompt_version: v3
   - repo: pocketbase/pocketbase
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - web-dev
+    tags:
+      - authentication
+      - realtime
+      - backend
+      - lang:go
     summary: Open Source realtime backend in 1 file
     last_synced_sha: e3d2608d0392910f4113d3354a553dcd0b1b3e9b
     user_starred_at: '2025-07-11T22:16:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -59737,6 +59865,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:05:29.842Z'
+      prompt_version: v3
   - repo: RSSNext/Folo
     categories:
       - ai-ml
