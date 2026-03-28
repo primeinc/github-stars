@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-28T04:14:13.005Z'
+  manifest_updated_at: '2026-03-28T04:14:45.156Z'
   total_repos: 1695
   generator_version: v1.0.0
   github_user: primeinc
@@ -14605,13 +14605,20 @@ repositories:
     framework: null
   - repo: CursorTouch/Windows-MCP
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - desktop-dev
+      - ai-ml
+    tags:
+      - windows
+      - windows-automation
+      - tools
+      - desktop
+      - lang:python
     summary: MCP Server for Computer Use in Windows
     last_synced_sha: d4f97fa17d57477f062b31121719dc5c747ab29c
     user_starred_at: '2026-01-29T09:30:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -14637,15 +14644,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.775Z'
+      prompt_version: v3
   - repo: mdabdulmazidkhan/convex-smart-tags
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: convex-smart-tags
     last_synced_sha: d269ea21557866e6b9df76ebf06320dbff76e337
     user_starred_at: '2026-01-29T08:42:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -14663,15 +14675,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.775Z'
+      prompt_version: v3
   - repo: xinyu1205/recognize-anything
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-recognition
+      - recognition-models
+      - lang:jupyter-notebook
     summary: Open-source and strong foundation image recognition models.
     last_synced_sha: 7cb804a8609e9f4b1a50b7f31436d2df40bb9481
     user_starred_at: '2026-01-28T09:34:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -14691,15 +14711,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.775Z'
+      prompt_version: v3
   - repo: get-convex/twilio
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - automation
+    tags:
+      - sms
+      - communication
+      - twilio
+      - lang:ts
     summary: Convex component for sending/receiving SMS messages with Twilio
     last_synced_sha: f419dc7835da7f40640214fed5dab3bd3c0d1a7a
     user_starred_at: '2026-01-28T08:36:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -14717,15 +14746,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.775Z'
+      prompt_version: v3
   - repo: BandarLabs/gitpodcast
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+      - automation
+    tags:
+      - ai
+      - podcast
+      - developer-tools
+      - lang:ts
+      - tts
     summary: Convert any git repository into an engaging podcast
     last_synced_sha: 3a5dbd1cc63c57f896d4c4a852988a2cb20b2019
     user_starred_at: '2026-01-28T08:23:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14751,15 +14791,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.775Z'
+      prompt_version: v3
   - repo: gitpod-io/gitpod
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - dev-tools
+    tags:
+      - cloud-ide
+      - remote-development
+      - dev-environment
+      - lang:ts
     summary: The developer platform for on-demand cloud development environments to create software faster and more securely.
     last_synced_sha: 05492994230fe0b254243bb6dd98aad37320b121
     user_starred_at: '2026-01-28T08:18:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14798,15 +14847,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.775Z'
+      prompt_version: v3
   - repo: SamyRai/namecheap
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - apis
+    tags:
+      - cli
+      - dns-management
+      - namecheap
+      - lang:go
     summary: A CLI tool for managing Namecheap domains and DNS records with multi-account support
     last_synced_sha: 075f0fe72b81649a7280c8435d2b0403c3d4e1fa
     user_starred_at: '2026-01-28T07:35:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -14834,15 +14892,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.775Z'
+      prompt_version: v3
   - repo: Lissy93/domain-locker
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - automation
+      - security
+    tags:
+      - dashboard
+      - domain-management
+      - monitoring
+      - lang:ts
+      - automation
     summary: 🌐 The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker!
     last_synced_sha: 9c2962de33b6606fbf0706f83416ce5e3d45412f
     user_starred_at: '2026-01-28T07:34:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14874,15 +14943,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.775Z'
+      prompt_version: v3
   - repo: workflowr/workflowr
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - workflow
+      - project-management
+      - website
+      - rstats
+      - lang:r
     summary: Organize your project into a research website
     last_synced_sha: 0438b405ec2b2100f0d6b36752c8b639eea8a9b1
     user_starred_at: '2026-01-28T07:31:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: R
       topics:
@@ -14909,15 +14988,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.775Z'
+      prompt_version: v3
   - repo: engineering-management/awesome-engineering-management
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - productivity
+    tags:
+      - leadership
+      - project-management
+      - engineering-management
+      - awesome
     summary: Pointers and tools for learning and day-to-day practice of engineering management & leadership.
     last_synced_sha: 5d7aa11bb071241dc97570b690ce346028854591
     user_starred_at: '2026-01-28T07:25:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -14941,15 +15029,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.775Z'
+      prompt_version: v3
   - repo: mark-when/markwhen
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - timeline
+      - gantt-chart
+      - editor
+      - visualization
+      - lang:html
     summary: Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more.
     last_synced_sha: b0b2b9992ed6a2f834e205c1e35b5d46f450b27f
     user_starred_at: '2026-01-28T07:22:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -14982,15 +15080,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.775Z'
+      prompt_version: v3
   - repo: endoflife-date/endoflife.date
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - system-admin
+    tags:
+      - eol
+      - release-policy
+      - system-info
+      - lang:ruby
     summary: Informative site with Eo L dates of everything
     last_synced_sha: ede340c6edc8704c9cbcabc9055fed5d668c7622
     user_starred_at: '2026-01-28T07:08:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -15028,15 +15135,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.775Z'
+      prompt_version: v3
   - repo: joelparkerhenderson/architecture-decision-record
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - adr
+      - decision-making
+      - architecture
+      - teamwork
     summary: Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation
     last_synced_sha: a5c0ed4e8c54d0f1f009f601a73e6571cea84f6d
     user_starred_at: '2026-01-28T03:15:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -15062,15 +15178,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.775Z'
+      prompt_version: v3
   - repo: tajo/ladle
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - documentation
+      - ui-libraries
+    tags:
+      - testing
+      - components
+      - documentation
+      - styleguide
+      - lang:ts
     summary: 🥄 Develop, test and document your React story components faster.
     last_synced_sha: 8cf3226e78a70095d2d6e87d748ea5ef72c2b665
     user_starred_at: '2026-01-28T03:11:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -15101,16 +15228,26 @@ repositories:
         published_at: '2025-11-04T02:11:42Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.775Z'
+      prompt_version: v3
   - repo: sdorra/content-collections
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - data-science
+    tags:
+      - collections
+      - json
+      - markdown
+      - lang:ts
+      - nextjs
     summary: Transform your content into type-safe data collections
     last_synced_sha: ce32dd62675ccdfbc97a6d2b0fa8556f4bcbf047
     user_starred_at: '2026-01-28T03:06:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -15142,7 +15279,11 @@ repositories:
         published_at: '2026-03-23T07:10:48Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:14:43.774Z'
+      prompt_version: v3
   - repo: Simon-He95/markdown-it-ts
     categories:
       - web-dev
