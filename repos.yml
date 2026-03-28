@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-28T04:18:18.837Z'
+  manifest_updated_at: '2026-03-28T04:18:54.628Z'
   total_repos: 1695
   generator_version: v1.0.0
   github_user: primeinc
@@ -11068,13 +11068,18 @@ repositories:
     framework: null
   - repo: d3/d3
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - web-dev
+    tags:
+      - data-visualization
+      - svg
+      - charts
+      - lang:shell
     summary: 'Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:'
     last_synced_sha: 42ccb63d8f4a4262f78b48aa1431e1f645bcc844
     user_starred_at: '2026-02-09T01:13:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -11100,15 +11105,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.282Z'
+      prompt_version: v3
   - repo: k1LoW/tbls
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - databases
+    tags:
+      - database-documentation
+      - documentation-tool
+      - lang:go
     summary: tbls is a CI-Friendly tool to document a database, written in Go.
     last_synced_sha: ac8744904ff45b772c9bc9a4c7d51d345efe3188
     user_starred_at: '2026-02-09T00:19:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -11148,15 +11161,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.282Z'
+      prompt_version: v3
   - repo: sirkirby/unifi-mcp
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - unifi-network
+      - home-automation
+      - agentic-ai
+      - lang:python
     summary: MCP servers for the Uni Fi suite of applications, Network, Protect, Access, and Drive
     last_synced_sha: 06313a2a5dcb35657fa9fa8f785a0c4b67ae02bd
     user_starred_at: '2026-02-08T15:18:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -11184,15 +11206,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.282Z'
+      prompt_version: v3
   - repo: gbassaragh/Unifi-mcp
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - ai-powered-network-management
+      - unifi
+      - lang:python
     summary: MCP server for Uni Fi Network and Protect API integration - AI-powered network management
     last_synced_sha: b1ca066a989c971c194fab0048e5fd67961c58df
     user_starred_at: '2026-02-08T15:06:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11210,15 +11240,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.282Z'
+      prompt_version: v3
   - repo: homarr-labs/homarr
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - dashboard
+      - self-hosting
+      - organization
+      - lang:ts
     summary: A modern and easy to use dashboard. 40+ integrations. 10K+ icons built in. Authentication out of the box. No YAML, drag and drop configuration.
     last_synced_sha: 505a6b3a8970dff14c9c3c5326d200b68c8cb91d
     user_starred_at: '2026-02-08T15:03:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11244,15 +11283,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.282Z'
+      prompt_version: v3
   - repo: AgentAlphaAGI/Idea2Paper
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - ai-assisted-writing
+      - lang:python
     summary: Idea2Paper Offical Demo
     last_synced_sha: 64170d4d9ca9068b26bd561648ce5c576bf1a2fb
     user_starred_at: '2026-02-08T15:02:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11272,15 +11318,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.282Z'
+      prompt_version: v3
   - repo: s1t5/mail-archiver
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - cloud
+      - documentation
+    tags:
+      - email-archiving
+      - backup
+      - migration
+      - lang:csharp
     summary: Mail-Archiver is a web application for archiving, searching, and exporting emails from multiple accounts. Featuring folder sync, attachment support, mailbox migration and a dashboard.
     last_synced_sha: 8cd09646218a460bd3cb7e44127ab568c1f997be
     user_starred_at: '2026-02-08T14:44:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -11307,15 +11363,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.282Z'
+      prompt_version: v3
   - repo: LogicLabs-OU/OpenArchiver
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - email-archiving
+      - compliance
+      - lang:ts
     summary: An open-source platform for legally compliant email archiving.
     last_synced_sha: e5e119528fe3cd29562e81967b3c71a2bed6b817
     user_starred_at: '2026-02-08T14:40:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -11335,15 +11399,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.282Z'
+      prompt_version: v3
   - repo: jsuto/piler
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - email-archiving
+      - lang:php
+      - archiving
     summary: Email archiving application
     last_synced_sha: b85b252a67996fb49f9ff8089bfae5d69bb1e576
     user_starred_at: '2026-02-08T14:31:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -11365,15 +11437,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.282Z'
+      prompt_version: v3
   - repo: zabbix/zabbix
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+    tags:
+      - network-monitoring
+      - application-monitoring
+      - metrics
+      - lang:go-template
     summary: Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.
     last_synced_sha: 594c92a2afa76deb0d314a851b1fc2136adfbbc2
     user_starred_at: '2026-02-08T14:01:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go Template
       topics:
@@ -11397,15 +11478,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.282Z'
+      prompt_version: v3
   - repo: HoppouAI/OctoBrowser
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - game-dev
+    tags:
+      - copilot-sdk
+      - fun-project
+      - lang:js
     summary: Built for the Copilot SDK Weekend Contest as a fun project.
     last_synced_sha: f90ba6510e64d43e6a6bdbe51cd70b385b04ee2b
     user_starred_at: '2026-02-08T13:59:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -11425,15 +11514,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.279Z'
+      prompt_version: v3
   - repo: smestern/treepilot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - family-tree
+      - ai
+      - lang:python
+      - vibecoded
     summary: A hacky / vibecoded AI family tree researcher
     last_synced_sha: 745afac8699716704cbd19e076bef6343cc9f68a
     user_starred_at: '2026-02-08T13:58:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11451,15 +11549,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.279Z'
+      prompt_version: v3
   - repo: SchwarziLukas/braindump-butler
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - markdown
+      - meeting-notes
+      - brain-dumps
+      - lang:python
     summary: Turns brain dumps and meeting notes into tidy Markdown notes for your Obsidian Vault.
     last_synced_sha: 8ab8d0910bfc22d01467ae9b50fdda402bc7ea4b
     user_starred_at: '2026-02-08T13:58:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11477,15 +11584,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.279Z'
+      prompt_version: v3
   - repo: p-e-w/heretic
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - language-models
+      - censorship-removal
+      - llm
+      - lang:python
     summary: Fully automatic censorship removal for language models
     last_synced_sha: 1126332281c70d67be3747d24d0aa4595a02fb2e
     user_starred_at: '2026-02-08T13:54:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -11508,15 +11624,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.279Z'
+      prompt_version: v3
   - repo: KeygraphHQ/shannon
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - penetration-testing
+      - security-tools
+      - security-audit
+      - lang:ts
     summary: Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities bef...
     last_synced_sha: bc8fd203edb0af18b18bdc4bc4efe122262cc743
     user_starred_at: '2026-02-08T13:53:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11541,6 +11666,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:18:53.278Z'
+      prompt_version: v3
   - repo: bvaughn/react-resizable-panels
     categories:
       - ui-libraries
