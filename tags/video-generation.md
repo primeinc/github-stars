@@ -1,0 +1,16 @@
+# Tag: video-generation
+
+*8 repositories*
+
+[← Back to Index](../README.md)
+
+| Repository | Description | Metadata | Last Pushed |
+|---|---|---|---|
+| [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo) | LTX-Video Support for Comfy UI | `Python` ★ 3.4k | 2026-03-06 |
+| [showlab/Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion) | A curated list of recent diffusion models for video generation, editing, and various other applications. | ★ 5.5k | 2026-03-14 |
+| [EternalEvan/Astra](https://github.com/EternalEvan/Astra) | \[ICLR 2026\] Astra : General Interactive World Model with Autoregressive Denoising" | `Python` ★ 233 | 2026-03-13 |
+| [nv-tlabs/ChronoEdit](https://github.com/nv-tlabs/ChronoEdit) | \[ICLR 2026\] Chrono Edit: Towards Temporal Reasoning for Image Editing and World Simulation | `Python` ★ 678 | 2025-11-20 |
+| [Phantom-video/Phantom](https://github.com/Phantom-video/Phantom) | Phantom: Subject-Consistent Video Generation via Cross-Modal Alignment | `Python` ★ 1.5k | 2025-09-11 |
+| [Phantom-video/HuMo](https://github.com/Phantom-video/HuMo) | Hu Mo: Human-Centric Video Generation via Collaborative Multi-Modal Conditioning | `Python` ★ 1.2k | 2026-01-25 |
+| [WeChatCV/Stand-In](https://github.com/WeChatCV/Stand-In) | \[CVPR2026 🎉\] Stand-In is a lightweight, plug-and-play framework for identity-preserving video generation. | `Python` ★ 750 | 2026-02-21 |
+| [Francis-Rings/StableAvatar](https://github.com/Francis-Rings/StableAvatar) | We present Stable Avatar, the first end-to-end video diffusion transformer, which synthesizes infinite-length high-quality audio-driven avatar videos without any post-processing, conditioned on a r... | `Python` ★ 1.2k | 2026-01-20 |
