@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-28T04:12:32.028Z'
+  manifest_updated_at: '2026-03-28T04:13:07.950Z'
   total_repos: 1695
   generator_version: v1.0.0
   github_user: primeinc
@@ -16202,13 +16202,18 @@ repositories:
     framework: null
   - repo: rustic-rs/rustic
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - backup
+      - encryption
+      - deduplication
+      - lang:rust
     summary: rustic - fast, encrypted, and deduplicated backups powered by Rust
     last_synced_sha: 7280a9a80045ab85b3660cf52aef652eb8e25bdc
     user_starred_at: '2026-01-27T00:40:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -16234,15 +16239,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.582Z'
+      prompt_version: v3
   - repo: traceloop/openllmetry
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - monitoring
+    tags:
+      - observability
+      - metrics
+      - lang:python
     summary: Open-source observability for your Gen AI or LLM application, based on Open Telemetry
     last_synced_sha: ddcff1c205bf041f262a823a08ac8915cc8d156b
     user_starred_at: '2026-01-27T00:38:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -16280,15 +16293,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.582Z'
+      prompt_version: v3
   - repo: cjpais/Handy
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - speech-to-text
+      - offline-tools
+      - lang:rust
     summary: A free, open source, and extensible speech-to-text application that works completely offline.
     last_synced_sha: 2cb0e78bde34d768ddbd42a514b8b651aab2b90d
     user_starred_at: '2026-01-27T00:37:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -16312,15 +16333,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.582Z'
+      prompt_version: v3
   - repo: cypress-io/cypress
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - web-dev
+    tags:
+      - end-to-end-testing
+      - component-testing
+      - lang:ts
     summary: Fast, easy and reliable testing for anything that runs in a browser.
     last_synced_sha: ead3b08904826505bd917545225a3c60b9e9a0f2
     user_starred_at: '2026-01-27T00:36:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16353,15 +16382,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.582Z'
+      prompt_version: v3
   - repo: daytonaio/ai-enablement-stack
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - ai-tools
+      - community-driven
+      - lang:html
     summary: A Community-Driven Mapping of AI Development Tools
     last_synced_sha: d3db9fa3194fd303ecb595591c59b041fd8963de
     user_starred_at: '2026-01-27T00:33:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -16379,15 +16416,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.582Z'
+      prompt_version: v3
   - repo: sitespeedio/sitespeed.io
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - web-dev
+    tags:
+      - performance-testing
+      - web-performance
+      - lang:js
     summary: sitespeed.io is an open-source tool for comprehensive web performance analysis, enabling you to test, monitor, and optimize your website’s speed using real browsers in various environments.
     last_synced_sha: 809dee3bae1d4651322139fabbc790f8d4530259
     user_starred_at: '2026-01-27T00:31:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -16416,15 +16461,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.582Z'
+      prompt_version: v3
   - repo: slopus/happy
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - web-dev
+      - ai-ml
+    tags:
+      - realtime-voice
+      - cross-platform
+      - encryption
+      - lang:ts
     summary: Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured
     last_synced_sha: 94a6bdc7b41e96b878a5ca0f8a2becdfe5a7f219
     user_starred_at: '2026-01-27T00:23:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16448,15 +16503,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.582Z'
+      prompt_version: v3
   - repo: nwjs/nw.js
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - desktop-dev
+    tags:
+      - hybrid-apps
+      - web-tech
+      - lang:js
     summary: Call all Node.js modules directly from DOM/Web Worker and enable a new way of writing applications with all Web technologies.
     last_synced_sha: 322af613ae73d4bf7bb82bb44655a3a9d7c56cb9
     user_starred_at: '2026-01-27T00:21:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -16480,15 +16543,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.582Z'
+      prompt_version: v3
   - repo: ZhuLinsen/daily_stock_analysis
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - financial-analysis
+      - stock-market
+      - decision-support
+      - lang:python
     summary: LLM驱动的 A/H/美股智能分析器：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.
     last_synced_sha: 28915e43d77074748bd2ddd20b5c10ee4c1f0088
     user_starred_at: '2026-01-27T00:21:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -16517,15 +16589,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.582Z'
+      prompt_version: v3
   - repo: RunanywhereAI/on-device-browser-agent
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - browser-automation
+      - privacy-focus
+      - lang:ts
     summary: On-device AI browser automation using Web LLM. No cloud, no API keys, fully private.
     last_synced_sha: aae7a368339b240cf179b21c1c8a8ffb13fbba60
     user_starred_at: '2026-01-27T00:18:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -16543,15 +16623,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.582Z'
+      prompt_version: v3
   - repo: gohoyer/Alfred-Rectangle-Shortcuts
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - alfred-workflow
+      - shortcut-automation
+      - lang:python
     summary: This is an Alfred workflow that allows you to list and access [Rectangle](https://rectangleapp.com) shortcuts.
     last_synced_sha: 5b4a229597c658a11123063515466636ff40f176
     user_starred_at: '2026-01-26T21:05:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -16574,15 +16662,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.582Z'
+      prompt_version: v3
   - repo: ChromeDevTools/devtools-protocol
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - browser-debugging
+      - chrome
+      - lang:ts
     summary: Chrome Dev Tools Protocol
     last_synced_sha: 1abe750809500eef029206b69ad3b44beca1a7ba
     user_starred_at: '2026-01-26T16:40:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -16600,15 +16696,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.579Z'
+      prompt_version: v3
   - repo: curtosis-org/phub-cli
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - cli
+      - scraper
+      - terminal
+      - lang:shell
     summary: Terminal-based Porn Hub browser inspired by ani-cli. Browse categories, search videos, and stream instantly in mpv without opening a browser.
     last_synced_sha: c9b6e379ecdf169fa01833b54e435f7d9227441d
     user_starred_at: '2026-01-26T16:39:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -16646,15 +16751,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.579Z'
+      prompt_version: v3
   - repo: amnezia-vpn/amneziawg-windows-client
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - vpn
+      - windows-client
+      - lang:go
     summary: Amnezia WG client for Windows
     last_synced_sha: 54fa022e2c40ed6d51f757e0871158372fb14977
     user_starred_at: '2026-01-26T16:38:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Go
@@ -16675,15 +16788,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.579Z'
+      prompt_version: v3
   - repo: DoIT-Artificial-Intelligence/youtube-to-docs
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - video-processing
+      - documentation
+      - accessibility
+      - lang:python
     summary: Convert You Tube videos into structured docs, summaries, audio, and visual assets for easier discovery.
     last_synced_sha: 45a5a5ec7e82f497dae0948069d7e83b269c7000
     user_starred_at: '2026-01-26T10:48:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -16704,6 +16826,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-28T04:13:06.578Z'
+      prompt_version: v3
   - repo: amazingpaddy/ai-chat-exporter
     categories:
       - ai-ml
