@@ -1,8 +1,8 @@
 # Awesome Starred Repositories
 
-> A curated list of **1695** repositories across **25** categories, automatically classified and organized.
+> A curated list of **499** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-03-28
+Last updated: 2026-03-29
 
 ## ⭐ Recently Starred
 
@@ -21,22 +21,22 @@ Last updated: 2026-03-28
 
 ## 🏷️ Popular Tags
 
-[azure](tags/azure.md) (53) • [ai](tags/ai.md) (32) • [ai-agents](tags/ai-agents.md) (29) • [cli](tags/cli.md) (29) • [react](tags/react.md) (29) • [llm](tags/llm.md) (28) • [awesome-list](tags/awesome-list.md) (27) • [docker](tags/docker.md) (22) • [nextjs](tags/nextjs.md) (19) • [windows](tags/windows.md) (19) • [automation](tags/automation.md) (19) • [self-hosted](tags/self-hosted.md) (16) • [cross-platform](tags/cross-platform.md) (15) • [terminal](tags/terminal.md) (12) • [machine-learning](tags/machine-learning.md) (11) • [privacy](tags/privacy.md) (11) • [typescript](tags/typescript.md) (9) • [text-to-speech](tags/text-to-speech.md) (9) • [deep-learning](tags/deep-learning.md) (9) • [markdown](tags/markdown.md) (9) • [printer-management](tags/printer-management.md) (9) • [osint](tags/osint.md) (9) • [nodejs](tags/nodejs.md) (9) • [openai](tags/openai.md) (9) • [agents](tags/agents.md) (9) • [dashboard](tags/dashboard.md) (8) • [authentication](tags/authentication.md) (8) • [mcp-server](tags/mcp-server.md) (8) • [reverse-engineering](tags/reverse-engineering.md) (8) • [security](tags/security.md) (8)
+[parser](tags/parser.md) (38) • [cli](tags/cli.md) (14) • [ai](tags/ai.md) (14) • [azure](tags/azure.md) (14) • [printer-management](tags/printer-management.md) (9) • [react](tags/react.md) (9) • [llm](tags/llm.md) (8) • [automation](tags/automation.md) (8) • [self-hosted](tags/self-hosted.md) (7) • [nextjs](tags/nextjs.md) (7) • [text-to-speech](tags/text-to-speech.md) (7) • [terminal](tags/terminal.md) (7) • [awesome-list](tags/awesome-list.md) (7) • [ai-agents](tags/ai-agents.md) (6) • [typescript](tags/typescript.md) (6) • [github-actions](tags/github-actions.md) (6) • [openclaw](tags/openclaw.md) (6) • [authentication](tags/authentication.md) (6) • [cross-platform](tags/cross-platform.md) (5) • [voice-cloning](tags/voice-cloning.md) (5) • [docker](tags/docker.md) (5) • [windows](tags/windows.md) (5) • [design-system](tags/design-system.md) (5) • [mcp-server](tags/mcp-server.md) (5) • [observability](tags/observability.md) (5) • [monorepo](tags/monorepo.md) (5) • [backup](tags/backup.md) (5) • [encryption](tags/encryption.md) (4) • [postgresql](tags/postgresql.md) (4) • [markdown](tags/markdown.md) (4)
 
 <details>
 <summary>📂 All Categories (25)</summary>
 
 | | | |
 |---|---|---|
-| [unclassified](categories/unclassified.md) (650) | [ai-ml](categories/ai-ml.md) (327) | [productivity](categories/productivity.md) (250) |
-| [web-dev](categories/web-dev.md) (175) | [dev-tools](categories/dev-tools.md) (160) | [automation](categories/automation.md) (157) |
-| [security](categories/security.md) (125) | [ui-libraries](categories/ui-libraries.md) (111) | [system-admin](categories/system-admin.md) (109) |
-| [data-science](categories/data-science.md) (99) | [apis](categories/apis.md) (96) | [cloud](categories/cloud.md) (92) |
-| [desktop-dev](categories/desktop-dev.md) (84) | [learning](categories/learning.md) (78) | [documentation](categories/documentation.md) (66) |
-| [networking](categories/networking.md) (57) | [frameworks](categories/frameworks.md) (45) | [databases](categories/databases.md) (37) |
-| [game-dev](categories/game-dev.md) (34) | [deployment](categories/deployment.md) (28) | [monitoring](categories/monitoring.md) (27) |
-| [containers](categories/containers.md) (22) | [embedded](categories/embedded.md) (21) | [testing](categories/testing.md) (19) |
-| [mobile-dev](categories/mobile-dev.md) (15) |  |  |
+| [ai-ml](categories/ai-ml.md) (119) | [productivity](categories/productivity.md) (114) | [dev-tools](categories/dev-tools.md) (112) |
+| [automation](categories/automation.md) (84) | [security](categories/security.md) (78) | [web-dev](categories/web-dev.md) (72) |
+| [ui-libraries](categories/ui-libraries.md) (51) | [system-admin](categories/system-admin.md) (50) | [documentation](categories/documentation.md) (46) |
+| [apis](categories/apis.md) (42) | [data-science](categories/data-science.md) (41) | [learning](categories/learning.md) (40) |
+| [cloud](categories/cloud.md) (32) | [networking](categories/networking.md) (26) | [desktop-dev](categories/desktop-dev.md) (23) |
+| [unclassified](categories/unclassified.md) (19) | [testing](categories/testing.md) (18) | [databases](categories/databases.md) (15) |
+| [frameworks](categories/frameworks.md) (14) | [monitoring](categories/monitoring.md) (13) | [mobile-dev](categories/mobile-dev.md) (11) |
+| [game-dev](categories/game-dev.md) (9) | [containers](categories/containers.md) (8) | [embedded](categories/embedded.md) (6) |
+| [deployment](categories/deployment.md) (6) |  |  |
 
 </details>
 

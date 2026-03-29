@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [apache/superset](https://github.com/apache/superset) | Apache Superset is a Data Visualization and Data Exploration Platform | `TypeScript` ★ 71.2k | 2026-03-27 |
-| [cmkap/realtime-dashboard](https://github.com/cmkap/realtime-dashboard) | Web Socket + real-time data visualisation project | `TypeScript` ★ 1 | 2025-08-13 |
+| [d3/d3](https://github.com/d3/d3) | Bring data to life with SVG, Canvas and HTML. :bar\_chart::chart\_with\_upwards\_trend::tada: | `Shell` ★ 112.6k | 2025-12-02 |
+| [visgl/react-map-gl](https://github.com/visgl/react-map-gl) | React friendly API wrapper around Mapbox GL JS | `TypeScript` ★ 8.4k | 2026-02-03 |

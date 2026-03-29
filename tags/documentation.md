@@ -1,13 +1,12 @@
 # Tag: documentation
 
-*5 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [google/dotguides](https://github.com/google/dotguides) | No description provided | `TypeScript` ★ 68 | 2026-03-19 |
-| [undox-rs/undox](https://github.com/undox-rs/undox) | :book: A batteries-included static site generator built for documentation, with first-class support for aggregating content from multiple repositories | `Rust` ★ 9 | 2025-12-16 |
-| [rohit-gohri/redocusaurus](https://github.com/rohit-gohri/redocusaurus) | Open API for Docusaurus with Redoc | `TypeScript` ★ 737 | 2026-02-07 |
-| [CognitionAI/deepwiki](https://github.com/CognitionAI/deepwiki) | Devin-generated docs for any public repo | ★ 62 | 2025-05-22 |
-| [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | A curated list of awesome READMEs | ★ 20.6k | 2026-03-10 |
+| [vue-styleguidist/vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) | Created from react styleguidist for Vue Components with a living style guide | `TypeScript` ★ 2.5k | 2026-03-26 |
+| [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Convert documentation websites, Git Hub repositories, and PDFs into Claude AI skills with automatic conflict detection | `Python` ★ 11.4k | 2026-03-28 |
+| [tajo/ladle](https://github.com/tajo/ladle) | 🥄 Develop, test and document your React story components faster. | `TypeScript` ★ 2.9k | 2025-12-20 |
+| [DoIT-Artificial-Intelligence/youtube-to-docs](https://github.com/DoIT-Artificial-Intelligence/youtube-to-docs) | Convert You Tube videos into structured docs, summaries, audio, and visual assets for easier discovery. | `Python` ★ 37 | 2026-03-22 |
