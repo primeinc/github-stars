@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-30T04:28:09.911Z'
+  manifest_updated_at: '2026-03-30T04:28:42.928Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -30356,13 +30356,17 @@ repositories:
     framework: null
   - repo: basecamp/fizzy
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - kanban
+      - organization-tool
+      - lang:ruby
     summary: Kanban as it should be. Not as it has been.
     last_synced_sha: 08faa17584fd05225c34b1d0a004192d521bc4ff
     user_starred_at: '2025-12-04T11:10:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -30385,16 +30389,25 @@ repositories:
         published_at: '2026-03-30T03:17:27Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.782Z'
+      prompt_version: v3
   - repo: kaifcodec/user-scanner
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - osint-tools
+      - cybersecurity
+      - email-username-analysis
+      - lang:python
     summary: 🕵️🫆 (2-in-1) Emaill and Username OSINT tool that analyzes username and email presence across multiple platforms, intended for security research, investigations, legitimate analysis
     last_synced_sha: b9d7a773ecbc83135669e5e14d95494bf7927569
     user_starred_at: '2025-12-01T23:59:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30426,15 +30439,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.782Z'
+      prompt_version: v3
   - repo: Azure-Samples/Apim-Samples
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - cloud
+    tags:
+      - azure-apim
+      - experiment
+      - apimanagement
+      - lang:python
     summary: This repository provides a playground to safely experiment with and learn Azure API Management (APIM) policies in various architectures.
     last_synced_sha: 4c79f3d2330d8f6d78d245b0c49ed3b908c2ca6a
     user_starred_at: '2025-12-01T22:09:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30472,15 +30494,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.782Z'
+      prompt_version: v3
   - repo: alibaba/hooks
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+    tags:
+      - react-hooks
+      - reliable-library
+      - lang:ts
     summary: A high-quality & reliable React Hooks library. https://alibaba.github.io/hooks/
     last_synced_sha: 7e6087f51ec1b09c5f5db87ac90735e4adaa2fd3
     user_starred_at: '2025-11-29T23:20:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30504,16 +30534,24 @@ repositories:
         published_at: '2026-03-23T15:49:51Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.782Z'
+      prompt_version: v3
   - repo: Ali-Hussein-dev/formcn
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - form-builder
+      - minimal-setup
+      - lang:ts
     summary: Build production-ready forms with a few clicks
     last_synced_sha: b9493a79b8f7fd44092985d695d27ee7884c33c8
     user_starred_at: '2025-11-29T23:17:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30535,16 +30573,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.782Z'
+      prompt_version: v3
   - repo: Nic13Gamer/better-upload
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - file-upload
+      - s3-integration
+      - lang:ts
     summary: Simple and easy file uploads for React. Upload directly to any S3-compatible service with minimal setup.
     last_synced_sha: b5746d41d9d5f90da237e85d726c72b34a6457fd
     user_starred_at: '2025-11-29T22:57:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -30563,16 +30609,23 @@ repositories:
         published_at: '2026-02-10T23:55:52Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.782Z'
+      prompt_version: v3
   - repo: KalyanKS-NLP/Prompt-Engineering-Techniques-Hub
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - prompt-engineering
+      - techniques-library
     summary: This repo contains implementation of 25+ prompt engineering techniques.
     last_synced_sha: 496e9efd55ce7f130c2eccd2c9b3f53d20899d75
     user_starred_at: '2025-11-29T12:07:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -30590,15 +30643,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.782Z'
+      prompt_version: v3
   - repo: edera-dev/sprout
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - embedded
+    tags:
+      - uefi
+      - bootloader-development
+      - lang:rust
     summary: 'Sprout: UEFI Bootloader in Rust'
     last_synced_sha: c70d1e4d807ef3f3d1a5c5d59e6c1fc6ffe18d84
     user_starred_at: '2025-11-29T07:23:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -30623,15 +30684,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.782Z'
+      prompt_version: v3
   - repo: ZeroLu/awesome-nanobanana-pro
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - prompt-engineering
+      - curated-prompts
+      - nanobanana
     summary: 🚀 An awesome list of curated Nano Banana pro prompts and examples. Your go-to resource for mastering prompt engineering and exploring the creative potential of the Nano banana pro(Nano banana 2) A...
     last_synced_sha: 62cba26b375ef441ccf824cd476729b5e8e12c4b
     user_starred_at: '2025-11-29T07:22:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -30657,15 +30726,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.782Z'
+      prompt_version: v3
   - repo: chr15m/runprompt
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - llm-prompts
+      - shell-scripting
+      - openai
+      - lang:python
     summary: Run LLM prompts from your shell
     last_synced_sha: b9551fbd75ee34a1d914592b870ae0c5906b0875
     user_starred_at: '2025-11-29T07:21:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30701,15 +30779,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.782Z'
+      prompt_version: v3
   - repo: repplus/rep-chrome
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - http-repeater
+      - chrome-devtools
+      - ai-assisted
+      - lang:js
     summary: rep+ — Burp-style HTTP Repeater for Chrome Dev Tools with built‑in AI to explain requests and suggest attacks
     last_synced_sha: fc0cea7e51f9f689ec12879b3b05e311795f3b9f
     user_starred_at: '2025-11-29T07:20:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -30733,15 +30820,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.782Z'
+      prompt_version: v3
   - repo: memodb-io/Acontext
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - agent-development
+      - memory-layer
+      - self-learning
+      - lang:ts
     summary: Agent Skills as a Memory Layer
     last_synced_sha: 2f4d3d9f20c112a9cca892d612557f9f8a3f0027
     user_starred_at: '2025-11-29T03:23:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30776,15 +30872,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.779Z'
+      prompt_version: v3
   - repo: refined-github/refined-github
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - browser-extension
+      - github-integration
+      - lang:ts
     summary: ':octocat: Browser extension that simplifies the Git Hub interface and adds useful features'
     last_synced_sha: 9ad9bc41f3028a41423c7026b6709e66d72c9260
     user_starred_at: '2025-11-29T01:59:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30811,15 +30915,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.779Z'
+      prompt_version: v3
   - repo: jasonkneen/askshell
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - natural-language
+      - cli
+      - lang:shell
     summary: Natural language to shell commands - AI-powered CLI using Ollama, Claude, Codex, Copilot, or Gemini
     last_synced_sha: 29752370d79d82b77bd831f94bc9570efb069c85
     user_starred_at: '2025-11-29T01:58:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -30837,15 +30949,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.779Z'
+      prompt_version: v3
   - repo: kane50613/takumi
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ai-ml
+    tags:
+      - image-rendering
+      - jsx
+      - next-og
+      - lang:rust
     summary: Rust-powered image renderer for JSX. Drop-in replacement for next/og.
     last_synced_sha: 6278870f37b4b879cd503e7dbdf239a5bedf5153
     user_starred_at: '2025-11-29T01:56:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -30867,7 +30988,11 @@ repositories:
         published_at: '2026-03-14T17:38:29Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:28:41.778Z'
+      prompt_version: v3
   - repo: coleam00/ottomator-agents
     categories:
       - ai-ml
