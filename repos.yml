@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-30T04:33:02.706Z'
+  manifest_updated_at: '2026-03-30T04:33:32.632Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -25842,13 +25842,18 @@ repositories:
     framework: null
   - repo: kornia/kornia
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - computer-vision
+      - image-processing
+      - pytorch
+      - lang:python
     summary: 🐍 Geometric Computer Vision Library for Spatial AI
     last_synced_sha: 915b6b47cdb8ea6076a459240316f01c5cb18028
     user_starred_at: '2026-01-05T17:36:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -25879,15 +25884,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.463Z'
+      prompt_version: v3
   - repo: subframe7536/maple-font
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+    tags:
+      - programming-font
+      - monospace-font
+      - typography
+      - lang:python
     summary: 'Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项'
     last_synced_sha: 8d03aedbb11739fc73ba046501063e5a21f54c0d
     user_starred_at: '2026-01-05T17:35:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -25918,15 +25931,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.463Z'
+      prompt_version: v3
   - repo: v2ray/v2ray-core
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - proxy
+      - http-proxy
+      - socks5
+      - lang:go
     summary: A platform for building proxies to bypass network restrictions.
     last_synced_sha: d80440f3d57b45c829dbf513306f7adf9a0f3f76
     user_starred_at: '2026-01-05T17:34:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -25954,15 +25976,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.463Z'
+      prompt_version: v3
   - repo: 5rahim/seanime
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - anime-library
+      - manga-downloader
+      - media-server
+      - lang:go
     summary: Open-source media server with a web interface and desktop app for anime and manga.
     last_synced_sha: f10e50b02b07cca3481c761ba9d41d9b05b32f87
     user_starred_at: '2026-01-05T17:34:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -25997,15 +26028,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.462Z'
+      prompt_version: v3
   - repo: grpc/grpc
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - rpc-framework
+      - distributed-systems
+      - lang:cpp
     summary: C++ based g RPC (C++, Python, Ruby, Objective-C, PHP, C#)
     last_synced_sha: 892af433eed19bc42d514db05448d8e5b381f810
     user_starred_at: '2026-01-05T17:33:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -26025,15 +26064,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.462Z'
+      prompt_version: v3
   - repo: LadybirdBrowser/ladybird
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - web-dev
+    tags:
+      - browser
+      - browser-engine
+      - lang:cpp
     summary: Truly independent web browser
     last_synced_sha: fd3a09a8ce948afe8c06001acd9aac62475a6054
     user_starred_at: '2026-01-05T17:33:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -26053,15 +26100,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.462Z'
+      prompt_version: v3
   - repo: AlexandreRouma/SDRPlusPlus
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - desktop-dev
+    tags:
+      - sdr
+      - cross-platform
+      - lang:cpp
     summary: Cross-Platform SDR Software
     last_synced_sha: a6df4d58e5f6b3045883a70aeb8fb41fd5dbf1d9
     user_starred_at: '2026-01-05T17:32:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -26083,15 +26138,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.462Z'
+      prompt_version: v3
   - repo: maplibre/maplibre-gl-js
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - webgl2
+      - typescript
+      - interactive-maps
+      - lang:ts
     summary: Map Libre GL JS - Interactive vector tile maps in the browser
     last_synced_sha: 6cc3fd97bbb1946ab4e6e0dea6af28ed254ea946
     user_starred_at: '2026-01-05T17:32:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26117,15 +26181,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.462Z'
+      prompt_version: v3
   - repo: Unity-Technologies/ml-agents
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ai-ml
+    tags:
+      - reinforcement-learning
+      - deep-learning
+      - unity
+      - lang:csharp
     summary: The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement ...
     last_synced_sha: 462b8cf2891e29e8232c04dba510a9e44cd3920a
     user_starred_at: '2026-01-05T17:31:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -26152,15 +26225,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.462Z'
+      prompt_version: v3
   - repo: mourad-ghafiri/youtube-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - metadata-extraction
+      - transcription
+      - lang:python
     summary: A powerful Model Context Protocol (MCP) server for You Tube video transcription and metadata extraction.
     last_synced_sha: 0b1b40538faeeb8762e431f23f03eeb78a25c743
     user_starred_at: '2026-01-04T20:11:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -26178,15 +26259,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.462Z'
+      prompt_version: v3
   - repo: lcqysl/DiffThinker
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - generative
+      - multimodal
+      - reasoning
+      - lang:python
     summary: 'Diff Thinker: Towards Generative Multimodal Reasoning with Diffusion Models'
     last_synced_sha: b585703f461881592683451e3f976afa8efce5a1
     user_starred_at: '2026-01-04T20:05:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -26207,15 +26297,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.462Z'
+      prompt_version: v3
   - repo: riccardoruspoli/reko
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - llm
+      - markdown
+      - youtube
+      - lang:python
     summary: Make You Tube videos readable. Local-first Markdown summaries with Ollama, with cloud providers support.
     last_synced_sha: 359aff27bf0f2b62abf45cd2d10751bedcd20844
     user_starred_at: '2026-01-02T05:44:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -26240,15 +26339,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.462Z'
+      prompt_version: v3
   - repo: Quaggles/SwarmUI-FaceTools
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - stable-diffusion
+      - swarmui
+      - lang:csharp
     summary: A Swarm UI extension that adds parameters for Re Actor to the the generate tab
     last_synced_sha: ff43e98f979f7a62214c596b254edc6186d180e5
     user_starred_at: '2025-12-31T19:46:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -26268,15 +26375,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.462Z'
+      prompt_version: v3
   - repo: windirstat/windirstat
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - disk-space-analyzer
+      - cleanup
+      - lang:cpp
     summary: Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows
     last_synced_sha: 9efa9b679c376cda60812ce8e13793be8c674e85
     user_starred_at: '2025-12-31T19:42:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -26303,15 +26418,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.462Z'
+      prompt_version: v3
   - repo: Or1un/MOSAIC
     categories:
-      - unclassified
-    tags: []
+      - security
+      - data-science
+    tags:
+      - behavioral-analysis
+      - privacy
+      - security-analysis
+      - lang:python
     summary: Privacy-first behavioral intelligence framework for multi-platform analysis and sociodynamic research.
     last_synced_sha: df6d5761f973548fbd5733945730bf50dba90c76
     user_starred_at: '2025-12-30T21:30:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -26337,6 +26461,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:31.462Z'
+      prompt_version: v3
   - repo: jayfunc/BetterLyrics
     categories:
       - desktop-dev
