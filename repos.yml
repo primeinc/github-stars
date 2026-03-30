@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-30T04:22:22.508Z'
+  manifest_updated_at: '2026-03-30T04:23:00.381Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -35380,13 +35380,18 @@ repositories:
     framework: null
   - repo: raine/anki-llm
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - anki
+      - cli-toolkit
+      - flashcards
+      - lang:ts
     summary: A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs.
     last_synced_sha: 7e2056b30475fd38e819cd7daff44493ce3408d5
     user_starred_at: '2025-11-06T00:04:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -35404,15 +35409,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.159Z'
+      prompt_version: v3
   - repo: SpeechifyInc/Resemblyzer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - voice-analysis
+      - deep-learning
+      - lang:python
     summary: A python package to analyze and compare voices with deep learning
     last_synced_sha: af15d3fbff56d36ea55ef3528fd60a7bed678052
     user_starred_at: '2025-11-06T00:03:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -35431,15 +35444,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.159Z'
+      prompt_version: v3
   - repo: MaximeRivest/mcp2py
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - mcp-server
+      - python-module
+      - lang:python
     summary: Turn any MCP server into a Python module
     last_synced_sha: ba5c477b4398119d431f9aa2aec1e84fe6ff044a
     user_starred_at: '2025-11-06T00:02:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35457,15 +35478,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.159Z'
+      prompt_version: v3
   - repo: supabase/etl
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - databases
+    tags:
+      - cdc
+      - postgres
+      - replication
+      - lang:rust
     summary: Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines.
     last_synced_sha: f82dbdb37bdc4cbbd6a4990cd9bac4c2b97952b5
     user_starred_at: '2025-11-06T00:02:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -35489,15 +35519,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.159Z'
+      prompt_version: v3
   - repo: krea-ai/realtime-video
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - realtime
+      - video
+      - lang:python
     summary: Krea Realtime 14B. An open-source realtime AI video model.
     last_synced_sha: acf4b7b4e1a3049a0e04782e751d12203334038d
     user_starred_at: '2025-11-06T00:00:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35515,15 +35552,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.158Z'
+      prompt_version: v3
   - repo: Zejun-Yang/AniPortrait
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - animation
+      - portrait
+      - lang:python
     summary: 'Ani Portrait: Audio-Driven Synthesis of Photorealistic Portrait Animation'
     last_synced_sha: 7f6593fd971c95b65f603c15ef8ce2c3fc7f5404
     user_starred_at: '2025-11-06T00:00:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35541,15 +35585,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.158Z'
+      prompt_version: v3
   - repo: DefinitelyTyped/DefinitelyTyped
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - typescript
+      - type-definitions
+      - lang:ts
+      - typings
+      - dts
     summary: The repository for high quality Type Script type definitions.
     last_synced_sha: ca15ea885412258e8776487a7e999000624a4453
     user_starred_at: '2025-11-05T23:59:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -35576,15 +35630,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.158Z'
+      prompt_version: v3
   - repo: Stremio/stremio-web
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+    tags:
+      - stremio
+      - streaming
+      - lang:js
     summary: Stremio - Freedom to Stream
     last_synced_sha: 9dd44a7ef10a6f1508346e4815409480346f7016
     user_starred_at: '2025-11-05T23:56:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -35606,15 +35667,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.158Z'
+      prompt_version: v3
   - repo: imthenachoman/How-To-Secure-A-Linux-Server
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - linux
+      - server
+      - security
+      - hardening
+      - documentation
     summary: An evolving how-to guide for securing a Linux server.
     last_synced_sha: 5abb8c77cf0bded508ca3a31a3de579563db891f
     user_starred_at: '2025-11-05T23:48:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -35640,15 +35711,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.158Z'
+      prompt_version: v3
   - repo: HKUDS/DeepCode
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - agentic-coding
+      - llm-agent
+      - lang:python
     summary: '"Deep Code: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)"'
     last_synced_sha: b5c741ab572ab53814dc40d2d84f0da8f015e66d
     user_starred_at: '2025-11-05T23:48:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -35670,15 +35749,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.158Z'
+      prompt_version: v3
   - repo: anomalyco/opentui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+    tags:
+      - tui
+      - lang:ts
+      - terminal-user-interface
     summary: Open TUI is a library for building terminal user interfaces (TUIs)
     last_synced_sha: d030397901ee6ef950ef6625c47b7c59501f0fbf
     user_starred_at: '2025-11-05T23:48:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -35698,15 +35785,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.158Z'
+      prompt_version: v3
   - repo: VectifyAI/PageIndex
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ai
+      - information-retrieval
+      - lang:python
+      - llm
+      - context-engineering
     summary: '📑 Page Index: Document Index for Vectorless, Reasoning-based RAG'
     last_synced_sha: 8f1ed7783b9e1252ef8c44891ed68f7c22a0ab7d
     user_starred_at: '2025-11-05T23:47:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -35736,15 +35833,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.158Z'
+      prompt_version: v3
   - repo: aandrew-me/ytDownloader
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - downloader
+      - electron
+      - youtube
+      - lang:js
+      - video
     summary: Desktop App for downloading Videos and Audios from hundreds of sites
     last_synced_sha: e47396622f402b407993f4f7d2d47aa8f8530572
     user_starred_at: '2025-11-05T23:47:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -35784,15 +35891,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.158Z'
+      prompt_version: v3
   - repo: Ido-Levi/Hephaestus
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agents
+      - autonomous-agents
+      - lang:python
+      - llm
     summary: Semi-Structured Agentic Framework. Workflows build themselves as agents discover what needs to be done, not what you predicted upfront.
     last_synced_sha: 28a52ce5bb1b0ac0d55fa5f527226b405a174e7b
     user_starred_at: '2025-10-31T10:54:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -35814,15 +35930,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.158Z'
+      prompt_version: v3
   - repo: andredesousa/typescript-best-practices
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - typescript
+      - best-practices
+      - javascript
     summary: This is a guideline of best practices that you can apply to your Type Script project.
     last_synced_sha: aaedb9fadd42711e30a9eb984c2b10d4abaab71c
     user_starred_at: '2025-10-31T10:53:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -35843,6 +35967,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:22:59.158Z'
+      prompt_version: v3
   - repo: p0dalirius/ShareHound
     categories:
       - security
