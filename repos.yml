@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-30T04:24:38.474Z'
+  manifest_updated_at: '2026-03-30T04:25:12.545Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -33386,13 +33386,17 @@ repositories:
     framework: null
   - repo: marmelab/shadcn-admin-kit
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - ui
+      - admin
+      - lang:ts
     summary: Component kit to build your Admin app with shadcn/ui
     last_synced_sha: aea806c67568d12adff33da722f2ed600e64892f
     user_starred_at: '2025-11-21T00:38:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -33412,15 +33416,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.231Z'
+      prompt_version: v3
   - repo: Skyvern-AI/skyvern
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - rpa
+      - automation
+      - llm
+      - lang:python
     summary: Automate browser based workflows with AI
     last_synced_sha: d03549502c8bf59bd35a7e9de9aec5c1bb335f9c
     user_starred_at: '2025-11-21T00:37:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -33456,15 +33469,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.231Z'
+      prompt_version: v3
   - repo: PaulJPhilp/effect-env
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: 90f89a0d6890b37790ca35d434add2873525ec82
     user_starred_at: '2025-11-21T00:34:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -33482,15 +33500,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.231Z'
+      prompt_version: v3
   - repo: jonasstrehle/supercookie
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - security
+      - fingerprint
+      - lang:html
+      - tracking
     summary: ⚠️ Browser fingerprinting via favicon!
     last_synced_sha: 0fad0559405e8b440cfc67120919b2e0a410f060
     user_starred_at: '2025-11-20T08:29:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -33529,16 +33556,24 @@ repositories:
         published_at: '2023-03-31T23:50:10Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.231Z'
+      prompt_version: v3
   - repo: Aetherinox/node-toasted-notifier
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - notifications
+      - nodejs
+      - lang:js
     summary: A revised fork of node-notifier; Node JS package for pushing notifications to Mac OS, Linux, and Windows.
     last_synced_sha: c6f7bc53756210ca7638ef8956209293d2fb03ce
     user_starred_at: '2025-11-20T08:28:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -33570,16 +33605,25 @@ repositories:
         published_at: '2025-06-07T23:43:45Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.231Z'
+      prompt_version: v3
   - repo: karpathy/reader3
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - language-models
+      - llms
+      - lang:python
+      - book-reading
     summary: Quick illustration of how one can easily read books together with LLMs. It's great and I highly recommend it.
     last_synced_sha: 64960f99d8d3c2eaaec56c6765b4c1aeae14c80b
     user_starred_at: '2025-11-20T08:28:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -33597,15 +33641,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.231Z'
+      prompt_version: v3
   - repo: uiverse-io/galaxy
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - ui
+      - tailwind
+      - css
+      - lang:html
     summary: The largest Open-Source UI Library! Community-made and free to use. Made with either CSS or Tailwind.
     last_synced_sha: adbd2adde0a299a3956ea288fb444ec01891ca41
     user_starred_at: '2025-11-20T08:26:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -33627,15 +33680,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.231Z'
+      prompt_version: v3
   - repo: aidenybai/react-grab
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - ai
+      - react
+      - lang:ts
+      - coding-agents
     summary: Select context for coding agents directly from your website
     last_synced_sha: 2595cebf3fa69edba4aae13d232347f5c22b8d98
     user_starred_at: '2025-11-20T08:25:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -33656,16 +33718,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.231Z'
+      prompt_version: v3
   - repo: steipete/oracle
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - ai
+      - agents
+      - gpt-5-pro
+      - lang:ts
     summary: Ask the oracle when you're stuck. Invoke GPT-5 Pro with a custom context and files.
     last_synced_sha: 2e1f9def301ff9a1546b36e02fab1e2fdd4b501d
     user_starred_at: '2025-11-20T08:25:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -33693,15 +33764,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.231Z'
+      prompt_version: v3
   - repo: dlvhdr/gh-dash
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - cli
+      - terminal
+      - gh-extension
+      - lang:go
     summary: A rich terminal UI for Git Hub that doesn't break your flow.
     last_synced_sha: 22b0ce36dd06c221b034d4f542fd3df04b5d536c
     user_starred_at: '2025-11-20T08:24:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -33733,15 +33813,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.231Z'
+      prompt_version: v3
   - repo: resemble-ai/transformers.js
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - machine-learning
+      - transformers
+      - lang:js
+      - browser
     summary: State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!
     last_synced_sha: a6b8659aa1df20c89c4510d0a292be2c970e4bc5
     user_starred_at: '2025-11-20T08:23:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: JavaScript
@@ -33760,15 +33849,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.231Z'
+      prompt_version: v3
   - repo: generalaction/emdash
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - ai
+      - orchestration
+      - lang:ts
+      - cli
+      - containers
     summary: Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.
     last_synced_sha: 726bc06d65291da7070071cefbd223b642fa7773
     user_starred_at: '2025-11-20T08:21:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -33805,15 +33904,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.231Z'
+      prompt_version: v3
   - repo: passadis/ai-architect-webapp
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+    tags:
+      - azureai
+      - lang:python
+      - ai-agents
+      - architecture
+      - containerapps
     summary: AI-powered Azure Architecture Generator that automatically creates AI agents for design documents and diagram generation
     last_synced_sha: 667e81cd21a4d221acb002445a5ba96346d3af1a
     user_starred_at: '2025-11-20T03:57:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -33836,15 +33945,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.231Z'
+      prompt_version: v3
   - repo: pamelafox/fastapi-azure-function-apim
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - deployment
+    tags:
+      - azure
+      - azure-functions
+      - lang:bicep
+      - api
     summary: A Fast API app that is designed for deployment to Azure Functions with an API Management Policy.
     last_synced_sha: f836489345844b55f23d435ed9245a8d389575c6
     user_starred_at: '2025-11-20T03:53:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -33865,16 +33983,22 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.231Z'
+      prompt_version: v3
   - repo: maxandrews/Epstein-doc-explorer
     categories:
-      - unclassified
-    tags: []
+      - data-science
+    tags:
+      - graph-explorer
+      - lang:js
     summary: a graph explorer of the Epstein emails
     last_synced_sha: 641440f4459915ec46c5efb7aad3f5cb94af86b3
     user_starred_at: '2025-11-17T05:21:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -33892,6 +34016,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:25:11.230Z'
+      prompt_version: v3
   - repo: python/typeshed
     categories:
       - documentation
