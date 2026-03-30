@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-30T04:32:24.585Z'
+  manifest_updated_at: '2026-03-30T04:33:02.706Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -26339,13 +26339,18 @@ repositories:
     framework: null
   - repo: jayfunc/BetterLyrics
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - lyrics-visualizer
+      - music-player
+      - winui3
+      - lang:csharp
     summary: An elegant and deeply customizable lyrics visualizer & versatile music player, built with Win UI3/Win2D | 一款优雅且高度自定义的歌词可视化与全能音乐播放应用，基于 Win UI3/Win2D 构建
     last_synced_sha: a9261ade972bcb857246de15daff0f2145643f4a
     user_starred_at: '2025-12-30T00:22:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -26384,15 +26389,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: supreme-gg-gg/instagram-cli
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - apis
+    tags:
+      - instagram
+      - cli
+      - command-line-app
+      - lang:ts
     summary: Instagram's terminal UI app - The ultimate weapon against brainrot
     last_synced_sha: c224fddbf9fb74e48e71b718dd41da845d0813c4
     user_starred_at: '2025-12-30T00:21:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26423,16 +26437,26 @@ repositories:
         published_at: '2026-03-10T05:02:21Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: OneKeyHQ/app-monorepo
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - security
+    tags:
+      - crypto-wallet
+      - react-native
+      - blockchain
+      - wallet
+      - lang:ts
     summary: Secure, open source and community driven crypto wallet runs on all platforms and trusted by millions.
     last_synced_sha: 15b07a348778f076bf9c458a9c2db674512d749a
     user_starred_at: '2025-12-30T00:21:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26470,16 +26494,25 @@ repositories:
         published_at: '2026-03-21T01:46:31Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: likec4/likec4
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - architecture
+      - diagrams
+      - c4
+      - lang:ts
     summary: Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code
     last_synced_sha: 1a032861d570b81dae23c0492f73d79e66b6a028
     user_starred_at: '2025-12-30T00:20:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26503,15 +26536,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: antvis/Infographic
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - infographics
+      - visualization
+      - llm
+      - ai
+      - lang:ts
     summary: 🦋 An Infographic Generation and Rendering Framework, bring words to life with AI!
     last_synced_sha: ea238f5caebbeaf96d29bedfccdc3754cca996b0
     user_starred_at: '2025-12-28T08:27:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26536,15 +26579,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: MyOnee/R
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - deployment
+    tags:
+      - rdp
+      - github-actions
+      - free-rdp
+      - lang:batchfile
     summary: Free RDP from Github Actions
     last_synced_sha: 9ac6a8b70550c4cbfb9804d3bbb85cad386d645d
     user_starred_at: '2025-12-28T08:25:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -26565,15 +26617,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: anuraghazra/github-readme-stats
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - apis
+    tags:
+      - readme-stats
+      - dynamic
+      - readme-generator
+      - lang:js
     summary: ':zap: Dynamically generated stats for your github readmes'
     last_synced_sha: 5df91f9bfa89c356a55cbb3c2bbc164fdbf94a86
     user_starred_at: '2025-12-28T08:24:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -26596,15 +26657,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: image-rs/fdeflate
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - dev-tools
+    tags:
+      - png-compression
+      - data-compression
+      - fast-deflate
+      - lang:rust
     summary: Fast deflate implementation specialized for PNG image data
     last_synced_sha: 0554737242b840de9d48bdcc585c33da2ac80ab7
     user_starred_at: '2025-12-28T07:35:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -26622,15 +26692,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: siddharthvaddem/openscreen
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - screen-recorder
+      - screen-capture
+      - open-source
+      - lang:ts
     summary: Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.
     last_synced_sha: e35780bd85fef9a8a628f2c2693522d0c5c218ba
     user_starred_at: '2025-12-28T07:34:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26655,15 +26734,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: hosenur/portal
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ai-ml
+    tags:
+      - web-ui
+      - git-integration
+      - isolation
+      - lang:ts
     summary: Mobile first batteries included web ui for sst/opencode. Git integration, in browser terminal, isolated workspaces.
     last_synced_sha: 563785456b336179c4459fe85136453d3df1ad91
     user_starred_at: '2025-12-28T07:34:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26687,15 +26775,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: Azure-Samples/ai-hub-gateway-solution-accelerator
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - ai-ml
+    tags:
+      - azure
+      - api-gateway
+      - reference-architecture
+      - lang:bicep
     summary: Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure ...
     last_synced_sha: e5a5aeeca88d61db8dd12dba69c1a271831bdbc0
     user_starred_at: '2025-12-28T07:34:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -26713,15 +26810,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: pqoqubbw/icons
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - animated-icons
+      - frontend
+      - ui
+      - lang:ts
     summary: beautifully crafted animated icons
     last_synced_sha: a2ab07f2dc54f849c599afad25b23be7ec2246b2
     user_starred_at: '2025-12-28T07:33:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -26739,15 +26845,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: eat-pray-ai/yutu
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - youtube
+      - cli
+      - bot
+      - lang:go
     summary: The AI-powered toolkit that grows your You Tube channel on autopilot.
     last_synced_sha: 7445c4562f24a670a6c291962f9288048a3935ad
     user_starred_at: '2025-12-28T07:31:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -26786,15 +26901,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: lirang04/GroundingME
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - evaluation
+      - nlp
+      - lang:python
     summary: Evaluation Code for Grounding ME
     last_synced_sha: aeb824e0bdd526d944b3fbb7456f503e5391f575
     user_starred_at: '2025-12-28T07:23:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -26812,15 +26935,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: microsoft/vscode-generator-code
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - extension-generator
+      - visual-studio-code
+      - lang:js
     summary: Visual Studio Code extension generator
     last_synced_sha: d7fead1658b0d65e176bf53fbcfc367ba691b0d2
     user_starred_at: '2025-12-28T07:16:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -26840,6 +26971,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:33:01.565Z'
+      prompt_version: v3
   - repo: Kong/insomnia
     categories:
       - apis
