@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-30T04:14:25.269Z'
+  manifest_updated_at: '2026-03-30T04:15:27.194Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -41891,13 +41891,17 @@ repositories:
     framework: null
   - repo: its-a-feature/Mythic
     categories:
-      - unclassified
-    tags: []
+      - security
+      - frameworks
+    tags:
+      - red-teaming
+      - multi-platform
+      - lang:js
     summary: A collaborative, multi-platform, red teaming framework
     last_synced_sha: 9f7a1ce77053181d110ca46ea8f323aba349ed62
     user_starred_at: '2025-09-24T04:44:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -41917,15 +41921,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.017Z'
+      prompt_version: v3
   - repo: MythicAgents/Apollo
     categories:
-      - unclassified
-    tags: []
+      - security
+      - desktop-dev
+    tags:
+      - dotnet
+      - windows
+      - lang:csharp
     summary: A .NET Framework 4.0 Windows Agent
     last_synced_sha: d8ea7cea328eb737da369ca50cbb684d3327375a
     user_starred_at: '2025-09-24T04:44:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -41945,15 +41957,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.017Z'
+      prompt_version: v3
   - repo: hotnops/AzureScripts
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - automation
+    tags:
+      - azure
+      - scripting
+      - lang:powershell
     summary: Random scripts for azure stuff
     last_synced_sha: 6bf7587f2a972e65c98db40c21890a2cdb18c596
     user_starred_at: '2025-09-24T04:41:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -41971,15 +41991,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.016Z'
+      prompt_version: v3
   - repo: SpecterOps/TierZeroTable
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - ad-assets
+      - azure-assets
+      - lang:html
     summary: Table of AD and Azure assets and whether they belong to Tier Zero
     last_synced_sha: a6f8eec05568f6550b48c3388cfdfef65cd6a759
     user_starred_at: '2025-09-24T04:33:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -41997,15 +42025,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.016Z'
+      prompt_version: v3
   - repo: SpecterOps/AzureHound
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - azure
+      - data-export
+      - lang:go
     summary: Azure Data Exporter for Blood Hound
     last_synced_sha: a73e503cb61fb209329a9a0a8e57a1281661081c
     user_starred_at: '2025-09-24T04:32:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -42027,15 +42063,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.016Z'
+      prompt_version: v3
   - repo: SpecterOps/BloodHound
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+    tags:
+      - domain-admin
+      - network-analysis
+      - lang:go
     summary: Six Degrees of Domain Admin
     last_synced_sha: e77bce3c9b9e048f232b1d4c6e648eef3525c8db
     user_starred_at: '2025-09-24T04:31:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -42055,15 +42099,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.016Z'
+      prompt_version: v3
   - repo: 1r0BIT/TaskHound
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - windows
+      - privileged-tasks
+      - lang:python
     summary: Tool to enumerate privileged Scheduled Tasks on Remote Systems
     last_synced_sha: 6c67a72dbb472a97a8e346c816029ff73d3d45ed
     user_starred_at: '2025-09-24T04:30:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -42087,15 +42139,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.016Z'
+      prompt_version: v3
   - repo: QwenLM/Qwen3-ASR-Toolkit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - audio-processing
+      - speech-recognition
+      - lang:python
     summary: Official Python toolkit for the Qwen3-ASR API. Parallel high‑throughput calls, robust long‑audio transcription, multi‑sample‑rate support.
     last_synced_sha: c1976f5f3402e6c4258eca88be6f5dbb1ee32433
     user_starred_at: '2025-09-24T04:29:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -42115,15 +42175,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.016Z'
+      prompt_version: v3
   - repo: cmkap/realtime-dashboard
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - data-science
+    tags:
+      - web-socket
+      - real-time
+      - lang:ts
     summary: Web Socket + real-time data visualisation project
     last_synced_sha: 37efb078993bf346c01c81446932cbc9c01e7cce
     user_starred_at: '2025-09-24T01:46:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -42141,15 +42209,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.016Z'
+      prompt_version: v3
   - repo: mmulet/term.everything
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - desktop-dev
+    tags:
+      - terminal
+      - cli
+      - linux
+      - lang:go
     summary: Run any GUI app in the terminal❗
     last_synced_sha: c8e04be0ae9a05b43f17065fe6b7d2687152f7c4
     user_starred_at: '2025-09-23T01:27:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -42177,15 +42254,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.016Z'
+      prompt_version: v3
   - repo: leonardoventurini/meteor-devtools-evolved
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - meteor
+      - ddp
+      - lang:ts
     summary: The Meteor framework development tool belt, evolved.
     last_synced_sha: fda491248b5635df923020f4b079683a9180801e
     user_starred_at: '2025-09-23T00:02:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42206,15 +42291,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.016Z'
+      prompt_version: v3
   - repo: webhooksite/webhook.site
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - web-dev
+    tags:
+      - webhook
+      - frontend
+      - lang:js
+      - angular
+      - laravel
     summary: ⚓️ Easily test HTTP webhooks with this handy tool that displays requests instantly.
     last_synced_sha: eb8e21d8a63c5e1971b33aaa80053c1278d97f0b
     user_starred_at: '2025-09-22T17:13:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -42240,16 +42335,24 @@ repositories:
         published_at: '2023-06-21T12:01:08Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.016Z'
+      prompt_version: v3
   - repo: midday-ai/zuno
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - erp
+      - api-layer
+      - lang:ts
     summary: A unified API that provides a thin layer over multiple ERP systems.
     last_synced_sha: c809da96b0a8f76ad41a823cb0a968157595e5fb
     user_starred_at: '2025-09-22T17:10:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -42267,15 +42370,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.016Z'
+      prompt_version: v3
   - repo: berty/berty
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+      - mobile-dev
+    tags:
+      - p2p
+      - privacy
+      - cybersecurity
+      - lang:ts
     summary: Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
     last_synced_sha: 2eda852ed76695c389a76454586b8293a3e6f74e
     user_starred_at: '2025-09-22T17:09:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42314,15 +42427,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.013Z'
+      prompt_version: v3
   - repo: thi-ng/umbrella
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - data-science
+    tags:
+      - functional-programming
+      - data-structures
+      - lang:ts
     summary: ⛱ Broadly scoped ecosystem & mono-repository of 214 Type Script projects (and ~185 examples) for general purpose, functional, data driven development
     last_synced_sha: bb58c882b83afc93bcd57dd52071b99482ff844a
     user_starred_at: '2025-09-22T17:07:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42360,6 +42481,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:15:26.012Z'
+      prompt_version: v3
   - repo: midday-ai/packrun
     categories:
       - dev-tools
