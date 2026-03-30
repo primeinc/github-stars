@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-30T04:13:54.634Z'
+  manifest_updated_at: '2026-03-30T04:14:25.269Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -42362,13 +42362,17 @@ repositories:
     framework: null
   - repo: midday-ai/packrun
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - monorepo
+      - nextjs
+      - lang:ts
     summary: npm for agents and humans
     last_synced_sha: fe5a8c497bddbef22727b0852433a391725d2c3e
     user_starred_at: '2025-09-22T16:53:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42390,16 +42394,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.090Z'
+      prompt_version: v3
   - repo: midday-ai/midday
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - finance
+      - nextjs
+      - lang:ts
     summary: Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers
     last_synced_sha: 9fc13a84f9d5ab94d3a28daa8bac141e8206c72d
     user_starred_at: '2025-09-22T16:53:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42423,16 +42435,24 @@ repositories:
         published_at: '2026-02-15T18:46:38Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.090Z'
+      prompt_version: v3
   - repo: intuit/auto
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - release
+      - auto-release
+      - lang:ts
     summary: Generate releases based on semantic version labels on pull requests.
     last_synced_sha: e828cd1c30721565ccc07144c39bc7eb55ed0878
     user_starred_at: '2025-09-22T16:15:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42461,15 +42481,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.090Z'
+      prompt_version: v3
   - repo: FR33THYFR33THY/Ultimate
     categories:
+      - system-admin
       - unclassified
-    tags: []
+    tags:
+      - lang:powershell
     summary: No description provided
     last_synced_sha: d1054a58128899d54f2204961ac83689b6f61365
     user_starred_at: '2025-09-22T16:06:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -42487,15 +42513,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.090Z'
+      prompt_version: v3
   - repo: mandiant/flare-vm
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - malware-analysis
+      - reverse-engineering
+      - lang:powershell
     summary: A collection of software installations scripts for Windows systems that allows you to easily setup and maintain a reverse engineering environment on a VM.
     last_synced_sha: d7fcee7563d40f36fd8097cd4e93f4ed6a3c11d2
     user_starred_at: '2025-09-22T16:06:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -42518,15 +42552,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.090Z'
+      prompt_version: v3
   - repo: The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - performance
+      - lang:powershell
     summary: The script and configuration files in this repository provide an easy method to customize and apply performance related settings to virtual desktop environments.
     last_synced_sha: c93dfb2db35a16584efebb27a626a2f51c503c54
     user_starred_at: '2025-09-22T16:06:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -42546,15 +42587,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.090Z'
+      prompt_version: v3
   - repo: Micke-K/IntuneManagement
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - documentation
+    tags:
+      - intune
+      - ms-graph
+      - lang:powershell
     summary: Copy, export, import, delete, document and compare policies and profiles in Intune and Azure with Power Shell script and WPF UI. Import ADMX files and registry settings with ADMX ingestion. View an...
     last_synced_sha: faffa95d8ae06c3ea6eb91e0af1706bb90ddc477
     user_starred_at: '2025-09-22T16:05:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -42585,15 +42634,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.090Z'
+      prompt_version: v3
   - repo: microsoft/Microsoft365DSC
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - monitoring
+      - automation
+    tags:
+      - microsoft365
+      - configuration-as-code
+      - lang:powershell
     summary: Manages, configures, extracts and monitors Microsoft 365 tenant configurations
     last_synced_sha: 9187c127c765c163a2dfc796b6cd5c2b24e53e8e
     user_starred_at: '2025-09-22T16:04:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -42631,15 +42689,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.090Z'
+      prompt_version: v3
   - repo: hak5/usbrubberducky-payloads
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - security-tools
+      - usb-rubber-ducky
+      - lang:powershell
     summary: The Official USB Rubber Ducky Payload Repository
     last_synced_sha: 0eaff6c4838d801a751f213641ebcce3f78f6f55
     user_starred_at: '2025-09-22T16:04:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -42671,15 +42737,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.090Z'
+      prompt_version: v3
   - repo: KRTirtho/spotube
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - desktop-dev
+    tags:
+      - music
+      - flutter
+      - lang:dart
     summary: 🎧 Open source music streaming app! Available for both desktop & mobile!
     last_synced_sha: 2cc8d2620d2d6ea9fa0ee9e3ff2fdc6fbd87f5e1
     user_starred_at: '2025-09-22T16:03:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -42712,15 +42786,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.090Z'
+      prompt_version: v3
   - repo: mulaRahul/keyviz
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - keystroke
+      - real-time
+      - lang:ts
     summary: Keyviz is a free and open-source tool to visualize your keystrokes ⌨️ and 🖱️ mouse actions in real-time.
     last_synced_sha: 8225e4157ed170a56d37366be24573f614b9ce06
     user_starred_at: '2025-09-22T16:03:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42743,15 +42825,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.090Z'
+      prompt_version: v3
   - repo: upptime/upptime
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - automation
+    tags:
+      - uptime-monitor
+      - statuspage
+      - lang:json
     summary: ⬆️ Git Hub Actions uptime monitor & status page by @Anand Chowdhary
     last_synced_sha: 462263b178b1ac9cc0757c44ca191d32596a2a0b
     user_starred_at: '2025-09-22T16:01:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JSON
       topics:
@@ -42777,15 +42867,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.090Z'
+      prompt_version: v3
   - repo: Azure-Samples/contoso-chat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+      - deployment
+    tags:
+      - azure-ai
+      - deployment
+      - llm
+      - lang:bicep
     summary: This sample has the full End2End process of creating RAG application with Prompty and Azure AI Foundry. It includes GPT-4 LLM application code, evaluations, deployment automation with AZD CLI, Git ...
     last_synced_sha: 028921fe3209db3216075d34ced6c109de132533
     user_starred_at: '2025-09-22T16:00:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -42816,15 +42916,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.090Z'
+      prompt_version: v3
   - repo: jasontaylordev/CleanArchitecture
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+      - dev-tools
+    tags:
+      - clean-architecture
+      - template
+      - lang:csharp
     summary: Clean Architecture Solution Template for ASP.NET Core
     last_synced_sha: a5e4c73aaea3c3c3e27bd6675a809cbf5b69ca29
     user_starred_at: '2025-09-22T15:59:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -42852,16 +42961,24 @@ repositories:
         published_at: '2026-03-23T22:10:22Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.089Z'
+      prompt_version: v3
   - repo: sigoden/aichat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - cli
+      - llm
+      - lang:rust
     summary: All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to Open AI, Claude, Gemini, Ollama, Groq, and more.
     last_synced_sha: 82976d349ad97ac9aae0655ad631dace5e2a6385
     user_starred_at: '2025-09-22T15:59:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -42895,6 +43012,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:14:24.089Z'
+      prompt_version: v3
   - repo: bigcapitalhq/bigcapital
     categories:
       - productivity
