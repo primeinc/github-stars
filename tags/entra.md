@@ -7,6 +7,6 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [nicolonsky/ITDR](https://github.com/nicolonsky/ITDR) | Collection of Microsoft Identity Threat Detection and Response resources. | `PowerShell` ★ 52 | 2026-03-24 |
-| [merill/graph-permissions-explorer](https://github.com/merill/graph-permissions-explorer) | Repository for public site hosting graph permissions | `HTML` ★ 34 | 2026-03-28 |
+| [merill/graph-permissions-explorer](https://github.com/merill/graph-permissions-explorer) | Repository for public site hosting graph permissions | `HTML` ★ 34 | 2026-03-29 |
 | [merill/awesome-entra](https://github.com/merill/awesome-entra) | 😎 Awesome list of all things related to Microsoft Entra | ★ 732 | 2025-09-01 |
 | [microsoft/EntraExporter](https://github.com/microsoft/EntraExporter) | Power Shell module to export a local copy of an Entra (Azure AD) tenant configuration. | `PowerShell` ★ 839 | 2025-11-16 |

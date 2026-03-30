@@ -1,6 +1,6 @@
 # Tag: nodejs
 
-*4 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
@@ -10,3 +10,4 @@
 | [APIDevTools/json-schema-ref-parser](https://github.com/APIDevTools/json-schema-ref-parser) | Parse, Resolve, and Dereference JSON Schema $ref pointers in Node and browsers | `TypeScript` ★ 1.1k | 2026-03-27 |
 | [stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core) | Dev environments. In your web app. | ★ 4.6k | 2025-04-22 |
 | [lovell/sharp](https://github.com/lovell/sharp) | High performance Node.js image processing, the fastest module to resize JPEG, PNG, Web P, AVIF and TIFF images. Uses the libvips library. | `JavaScript` ★ 32.1k | 2026-03-24 |
+| [unjs/pathe](https://github.com/unjs/pathe) | 🛣️ Drop-in replacement of the Node.js's path module module that ensures paths are normalized | `TypeScript` ★ 573 | 2026-03-26 |

@@ -10,19 +10,19 @@
 | [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | An unofficial Local Git Hub Actions and Azure Pipelines Emulator | `C#` ★ 233 | 2026-03-23 |
 | [postgres-ai/database-lab-engine](https://github.com/postgres-ai/database-lab-engine) | DBLab enables 🖖 database branching and ⚡️ thin cloning for any Postgres database and empowers DB testing in CI/CD. This optimizes database-related costs while improving time-to-market and software... | `Go` ★ 2.4k | 2026-03-25 |
 | [puzpuzpuz/go-concurrent-map-bench](https://github.com/puzpuzpuz/go-concurrent-map-bench) | Benchmarks for concurrent hash map implementations in Go | `Go` ★ 63 | 2026-02-21 |
-| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. | `JavaScript` ★ 12.1k | 2026-03-29 |
-| [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the ... | `Go` ★ 27.7k | 2026-03-28 |
-| [MCPJam/inspector](https://github.com/MCPJam/inspector) | Test & Debug MCP servers, Chat GPT apps, and MCP Apps (ext-apps) | `TypeScript` ★ 1.8k | 2026-03-29 |
+| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. | `JavaScript` ★ 12.1k | 2026-03-30 |
+| [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the ... | `Go` ★ 27.7k | 2026-03-29 |
+| [MCPJam/inspector](https://github.com/MCPJam/inspector) | Test & Debug MCP servers, Chat GPT apps, and MCP Apps (ext-apps) | `TypeScript` ★ 1.8k | 2026-03-30 |
 | [microsoft/PSRule-pipelines](https://github.com/microsoft/PSRule-pipelines) | Validate infrastructure as code (Ia C) and Dev Ops repositories using Azure Pipelines. | `PowerShell` ★ 102 | 2026-03-25 |
 | [APIDevTools/swagger-parser](https://github.com/APIDevTools/swagger-parser) | Swagger 2.0 and Open API 3.0 parser/validator | `JavaScript` ★ 1.2k | 2025-11-14 |
 | [jquery/esprima](https://github.com/jquery/esprima) | ECMAScript parsing infrastructure for multipurpose analysis | `TypeScript` ★ 7.1k | 2023-04-16 |
-| [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) | CLI to control i OS and Android devices for AI agents | `TypeScript` ★ 1.3k | 2026-03-28 |
+| [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) | CLI to control i OS and Android devices for AI agents | `TypeScript` ★ 1.3k | 2026-03-29 |
 | [sindresorhus/eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn) | More than 100 powerful ESLint rules | `JavaScript` ★ 5k | 2026-03-28 |
-| [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) | :sparkles: Monorepo for all the tooling which enables ESLint to support Type Script | `TypeScript` ★ 16.2k | 2026-03-27 |
+| [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) | :sparkles: Monorepo for all the tooling which enables ESLint to support Type Script | `TypeScript` ★ 16.2k | 2026-03-29 |
 | [facebook/memlab](https://github.com/facebook/memlab) | A framework for finding Java Script memory leaks and analyzing heap snapshots | `JavaScript` ★ 4.9k | 2026-03-26 |
 | [tajo/ladle](https://github.com/tajo/ladle) | 🥄 Develop, test and document your React story components faster. | `TypeScript` ★ 2.9k | 2025-12-20 |
-| [trycua/cua](https://github.com/trycua/cua) | Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (mac OS, Linux, Windows). | `Python` ★ 13.3k | 2026-03-28 |
-| [cypress-io/cypress](https://github.com/cypress-io/cypress) | Fast, easy and reliable testing for anything that runs in a browser. | `TypeScript` ★ 49.6k | 2026-03-28 |
-| [sitespeedio/browsertime](https://github.com/sitespeedio/browsertime) | Measure and Optimize Web Performance | `JavaScript` ★ 648 | 2026-03-28 |
+| [trycua/cua](https://github.com/trycua/cua) | Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (mac OS, Linux, Windows). | `Python` ★ 13.3k | 2026-03-30 |
+| [cypress-io/cypress](https://github.com/cypress-io/cypress) | Fast, easy and reliable testing for anything that runs in a browser. | `TypeScript` ★ 49.6k | 2026-03-29 |
+| [sitespeedio/browsertime](https://github.com/sitespeedio/browsertime) | Measure and Optimize Web Performance | `JavaScript` ★ 649 | 2026-03-29 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

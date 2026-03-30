@@ -9,9 +9,9 @@
 | [garronej/vite-envs](https://github.com/garronej/vite-envs) | ⚙️ Env var in Vite at container startup | `TypeScript` ★ 80 | 2025-07-03 |
 | [dragonflyoss/dragonfly](https://github.com/dragonflyoss/dragonfly) | Delivers efficient, stable, and secure data distribution and acceleration powered by P2P technology, with an optional content‑addressable filesystem that accelerates OCI container launch. | `Go` ★ 3.1k | 2026-03-24 |
 | [docker/docker-credential-helpers](https://github.com/docker/docker-credential-helpers) | Programs to keep Docker login credentials safe by storing in platform keystores | `Go` ★ 1.3k | 2026-03-27 |
-| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 33.3k | 2026-03-27 |
-| [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) | 🔥 Take full control of your VPS with 1Panel. Deploy Open Claw in one click. | `Go` ★ 34.6k | 2026-03-27 |
-| [alibaba/nacos](https://github.com/alibaba/nacos) | an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications. | `Java` ★ 32.8k | 2026-03-27 |
+| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 33.4k | 2026-03-27 |
+| [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) | 🔥 Take full control of your VPS with 1Panel. Deploy Open Claw in one click. | `Go` ★ 34.6k | 2026-03-30 |
+| [alibaba/nacos](https://github.com/alibaba/nacos) | an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications. | `Java` ★ 32.8k | 2026-03-30 |
 | [mspnp/aks-baseline](https://github.com/mspnp/aks-baseline) | This is the Azure Kubernetes Service (AKS) Baseline Cluster reference implementation as produced by the Microsoft Azure Architecture Center. | `Bicep` ★ 745 | 2026-03-26 |
 | [notclickable-jordan/starbase-80](https://github.com/notclickable-jordan/starbase-80) | A nice Docker homepage | `TypeScript` ★ 521 | 2025-10-18 |
 
