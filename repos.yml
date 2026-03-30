@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-30T04:31:53.128Z'
+  manifest_updated_at: '2026-03-30T04:32:24.585Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -26842,13 +26842,17 @@ repositories:
     framework: null
   - repo: Kong/insomnia
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - api-client
+      - rest-api
+      - lang:ts
     summary: The open-source, cross-platform API client for Graph QL, REST, Web Sockets, SSE and g RPC. With Cloud, Local and Git storage.
     last_synced_sha: ab9d5da5c17977f8072ee8864dc6a2c69a5a66b3
     user_starred_at: '2025-12-28T06:37:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -26878,15 +26882,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.415Z'
+      prompt_version: v3
   - repo: nccgroup/wssip
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - websockets
+      - mitm
+      - lang:js
     summary: Application for capturing, modifying and sending custom Web Socket data from client to server and vice versa.
     last_synced_sha: 56d0d2c15a7c0fd4c99be445ec8d6c16571e81a0
     user_starred_at: '2025-12-28T06:37:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -26911,15 +26923,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.415Z'
+      prompt_version: v3
   - repo: trustedsec/social-engineer-toolkit
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - social-engineering
+      - pentesting
+      - lang:python
     summary: The Social-Engineer Toolkit (SET) repository from Trusted Sec - All new versions of SET will be deployed here.
     last_synced_sha: 43a5702025877acf3482b52c4ba824ece87b02a2
     user_starred_at: '2025-12-28T04:27:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -26937,15 +26957,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.415Z'
+      prompt_version: v3
   - repo: memstechtips/Winhance
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - windows-optimization
+      - windows-11
+      - lang:csharp
     summary: Application designed to optimize, customize and enhance your Windows experience.
     last_synced_sha: 9b62ea532d5833278ad4317b9984006ffdd4f357
     user_starred_at: '2025-12-28T04:23:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -26971,15 +26999,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.415Z'
+      prompt_version: v3
   - repo: screenpipe/screenpipe
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ml
+      - agents
+      - lang:rust
     summary: run agents that work for you in the background based on what you do
     last_synced_sha: 2a0f03e3047b91ea7ca7f4ccc12f969ac2cc568f
     user_starred_at: '2025-12-28T04:20:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -27008,15 +27044,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.415Z'
+      prompt_version: v3
   - repo: nicotsx/zerobyte
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - backup
+      - restic
+      - lang:ts
     summary: Backup automation for self-hosters. Built on top of restic
     last_synced_sha: f89b8c3b52e8854b94fe4e8c6222f90401816243
     user_starred_at: '2025-12-28T04:19:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -27036,15 +27080,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.415Z'
+      prompt_version: v3
   - repo: ant-design/ant-design
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react
+      - ui-library
+      - lang:ts
     summary: An enterprise-class UI design language and React UI library
     last_synced_sha: b89363f1652d07677d6c792fdccd82ae7f295611
     user_starred_at: '2025-12-28T04:17:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27070,16 +27122,24 @@ repositories:
         published_at: '2026-03-24T12:04:39Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.415Z'
+      prompt_version: v3
   - repo: NanmiCoder/MediaCrawler
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - data-science
+    tags:
+      - webscraping
+      - crawler
+      - lang:python
     summary: 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫
     last_synced_sha: e8b18683a014a143a6bc8a59f4282e2e6c6128e9
     user_starred_at: '2025-12-28T04:15:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -27097,15 +27157,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.414Z'
+      prompt_version: v3
   - repo: SpriteOvO/AirPodsDesktop
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - bluetooth
+      - windows
+      - lang:cpp
     summary: ☄️ Air Pods desktop user experience enhancement program, for Windows and Linux (WIP)
     last_synced_sha: 751291eb5461f52603925dbc7fc280e6bca4ebba
     user_starred_at: '2025-12-28T04:10:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -27135,15 +27203,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.414Z'
+      prompt_version: v3
   - repo: stakira/OpenUtau
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - music
+      - speech-synthesis
+      - lang:csharp
     summary: Open singing synthesis platform / Open source UTAU successor
     last_synced_sha: f3d80c14632cdbcd779fc1ba251ca653ecfc04c2
     user_starred_at: '2025-12-28T04:04:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -27172,15 +27248,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.414Z'
+      prompt_version: v3
   - repo: builtbybel/FlyOOBE
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - windows-11
+      - setup
+      - lang:csharp
     summary: Fly through your Windows 11 setup 🐝
     last_synced_sha: ed093a784df51b19e989395f2ed6443ca1f335dd
     user_starred_at: '2025-12-28T04:04:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -27205,15 +27289,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.414Z'
+      prompt_version: v3
   - repo: NullandKale/NullSplats
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:python
     summary: No description provided
     last_synced_sha: 2dadd5d4d31d6e73291ff052e5bd3c870a0b8812
     user_starred_at: '2025-12-27T04:55:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -27233,15 +27322,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.414Z'
+      prompt_version: v3
   - repo: open-metadata/OpenMetadata
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - monitoring
+    tags:
+      - data-discovery
+      - data-governance
+      - lang:ts
     summary: Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c...
     last_synced_sha: be6f9fc345e2080a9b1bfd82bc0e98bd94d8c2f3
     user_starred_at: '2025-12-26T09:57:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27281,15 +27378,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.414Z'
+      prompt_version: v3
   - repo: assafelovic/gpt-researcher
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - llm
+      - webscraping
+      - lang:python
     summary: An autonomous agent that conducts deep research on any data using any LLM providers
     last_synced_sha: 7c321744ce336949949b1e95b4652e2d455a33f9
     user_starred_at: '2025-12-26T09:55:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -27320,15 +27425,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.414Z'
+      prompt_version: v3
   - repo: rsalmei/alive-progress
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - productivity
+    tags:
+      - progress-bar
+      - terminal
+      - lang:python
     summary: A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations!
     last_synced_sha: 69d9bf0aba6276e2434a3a595cceca55040d64d7
     user_starred_at: '2025-12-26T04:35:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -27366,6 +27479,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:32:23.414Z'
+      prompt_version: v3
   - repo: jgarzik/hk
     categories:
       - system-admin
