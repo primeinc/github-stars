@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-30T04:30:17.770Z'
+  manifest_updated_at: '2026-03-30T04:30:51.290Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -28291,13 +28291,16 @@ repositories:
     framework: null
   - repo: inclusionAI/TwinFlow
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - self-adversarial-flows
+      - lang:python
     summary: '[ICLR 2026] Taming large-scale few-step training with self-adversarial flows! 👏🏻'
     last_synced_sha: a109a71b19634d9c5d5c45c3587d36b19f014917
     user_starred_at: '2025-12-18T10:10:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -28315,15 +28318,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.106Z'
+      prompt_version: v3
   - repo: jgm/pandoc
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - markup-converter
+      - lang:haskell
     summary: Universal markup converter
     last_synced_sha: 7777de6adb166d92b4c9ee4b24054637ab8477b7
     user_starred_at: '2025-12-18T10:09:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Haskell
       topics:
@@ -28352,15 +28362,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.106Z'
+      prompt_version: v3
   - repo: suzuki-shunsuke/ghtkn
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - github
+      - cli
+      - lang:go
     summary: A CLI to create short-lived (8 hours) Git Hub App User Access Token for secure local development
     last_synced_sha: 4c502337c84091bf6e65c4abc6823d84e4ab1b27
     user_starred_at: '2025-12-18T10:08:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -28384,15 +28402,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.106Z'
+      prompt_version: v3
   - repo: zhu-xlab/GlobalBuildingAtlas
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - documentation
+    tags:
+      - building-models
+      - geospatial-data
+      - lang:python
     summary: 'Global Building Atlas: an open global and complete dataset of building polygons, heights and Lo D1 3D models'
     last_synced_sha: a1ad8e85fe038e4a25aa1ea9fc978e34869320fd
     user_starred_at: '2025-12-18T10:04:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -28412,15 +28438,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.106Z'
+      prompt_version: v3
   - repo: OpenBMB/VoxCPM
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - text-to-speech
+      - speech-synthesis
+      - lang:python
     summary: 'Vox CPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning'
     last_synced_sha: 23ed7ffeeeeed6843b6f39b42ecc98357e455f7a
     user_starred_at: '2025-12-18T10:03:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -28451,15 +28485,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.106Z'
+      prompt_version: v3
   - repo: sohzm/cheating-daddy
     categories:
       - unclassified
-    tags: []
+      - productivity
+    tags:
+      - unfair-advantage
+      - lang:js
     summary: a free and opensource app that lets you gain an unfair advantage
     last_synced_sha: 5dfdc129e7f65e140fb98acb42252b360e29e78d
     user_starred_at: '2025-12-18T10:02:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -28479,15 +28520,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.106Z'
+      prompt_version: v3
   - repo: remoteintech/remote-jobs
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - remote-work
+      - jobsearch
+      - lang:nunjucks
     summary: Source for remoteintech.company — a community-maintained directory of remote-friendly tech companies
     last_synced_sha: 69a4645ff4b7fa5304ff8382309e68e2f9b1b5a0
     user_starred_at: '2025-12-18T10:01:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Nunjucks
       topics:
@@ -28514,15 +28563,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.106Z'
+      prompt_version: v3
   - repo: agentsmd/agents.md
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - coding-agents
+      - lang:ts
     summary: AGENTS.md — a simple, open format for guiding coding agents
     last_synced_sha: d1ac7f063d20e70015ed6732664049ae4ba9d74e
     user_starred_at: '2025-12-18T10:00:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -28540,15 +28596,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.106Z'
+      prompt_version: v3
   - repo: bluesky-social/social-app
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - mobile-dev
+    tags:
+      - social-media
+      - cross-platform
+      - lang:ts
     summary: The Bluesky Social application for Web, i OS, and Android
     last_synced_sha: 0419066f45fccf0a9bc69f36edf9d7b061ab06e4
     user_starred_at: '2025-12-18T09:59:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -28568,15 +28632,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.106Z'
+      prompt_version: v3
   - repo: refly-ai/refly
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - agent-skills
+      - automation
+      - lang:ts
     summary: The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are...
     last_synced_sha: 330c01b123b85c8245d2e093eca4bb71585bbc6f
     user_starred_at: '2025-12-18T09:59:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28613,15 +28685,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.106Z'
+      prompt_version: v3
   - repo: rybbit-io/rybbit
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - analytics
+      - privacy-focused
+      - lang:ts
     summary: 🐸 Rybbit - open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive.
     last_synced_sha: 2845210089b322af1f66e8ae7126e8200bb39f0b
     user_starred_at: '2025-12-18T09:59:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28645,15 +28725,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.106Z'
+      prompt_version: v3
   - repo: 0x4D31/awesome-threat-detection
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - threat-detection
+      - awesome-list
+      - incident-response
     summary: ✨ A curated list of awesome threat detection and hunting resources 🕵️‍♂️
     last_synced_sha: f1e6a1528c2690d02fa87a97c860235eabc34639
     user_starred_at: '2025-12-18T09:58:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -28678,15 +28766,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.103Z'
+      prompt_version: v3
   - repo: showlab/Awesome-Video-Diffusion
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - diffusion-models
+      - video-generation
+      - video-editing
     summary: A curated list of recent diffusion models for video generation, editing, and various other applications.
     last_synced_sha: 70acbd8a61c7cb569d6fa91b53cfed681f378625
     user_starred_at: '2025-12-18T09:57:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -28710,15 +28806,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.103Z'
+      prompt_version: v3
   - repo: awesome-jellyfin/awesome-jellyfin
     categories:
+      - documentation
       - unclassified
-    tags: []
+    tags:
+      - awesome-list
+      - media-server
+      - lang:shell
     summary: A Collection of Awesome Jellyfin Plugins, Themes, Guides and More!
     last_synced_sha: 0d018ecadb1cb4cdab07098c92487dc78a1db2b6
     user_starred_at: '2025-12-18T09:57:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -28741,15 +28845,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.103Z'
+      prompt_version: v3
   - repo: korfuri/awesome-monorepo
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - monorepo
+      - awesome-list
     summary: A curated list of awesome Monorepo tools, software and architectures.
     last_synced_sha: 2d1d1b96df9e845a035b351675de660c9fd752cf
     user_starred_at: '2025-12-18T09:57:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -28770,6 +28881,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:30:50.103Z'
+      prompt_version: v3
   - repo: xxh/xxh
     categories:
       - system-admin
