@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-03-30T04:38:17.714Z'
+  manifest_updated_at: '2026-03-30T04:39:00.259Z'
   total_repos: 1197
   generator_version: v1.0.0
   github_user: primeinc
@@ -21382,13 +21382,18 @@ repositories:
       prompt_version: v3
   - repo: ranaroussi/yfinance
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - data-science
+    tags:
+      - yahoo-finance
+      - financial-data
+      - market-data
+      - lang:python
     summary: Download market data from Yahoo! Finance's API
     last_synced_sha: 4013a4fd745f6f3f324565eae685e7765b2a2714
     user_starred_at: '2026-01-14T07:16:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -21416,15 +21421,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:38:59.081Z'
+      prompt_version: v3
   - repo: suitenumerique/meet
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+    tags:
+      - video-conferencing
+      - webrtc
+      - livekit
+      - react
+      - lang:python
     summary: Open source video conferencing app powered by Live Kit.
     last_synced_sha: d915b93caa518b84050f445b7c542e69824ce328
     user_starred_at: '2026-01-14T05:31:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -21451,16 +21465,26 @@ repositories:
         published_at: '2026-03-25T10:50:49Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: django
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:38:59.081Z'
+      prompt_version: v3
   - repo: Nano-Collective/nanocoder
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-coding
+      - ai-agents
+      - llm
+      - local-first
+      - lang:ts
     summary: A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒
     last_synced_sha: ebad1e04e7a8ff333c356e362fa06a7a0f0459c0
     user_starred_at: '2026-01-13T21:07:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -21489,15 +21513,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:38:59.081Z'
+      prompt_version: v3
   - repo: 1rgs/nanocode
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai
+      - minimal
+      - coding-agent
+      - lang:python
     summary: Minimal Claude Code alternative. Single Python file, zero dependencies, ~250 lines.
     last_synced_sha: b009d3dbedf14795a5c10804a5455386563f4b5b
     user_starred_at: '2026-01-13T14:11:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -21515,15 +21548,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:38:59.081Z'
+      prompt_version: v3
   - repo: Anjok07/ultimatevocalremovergui
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - vocal-removal
+      - deep-learning
+      - pytorch
+      - gui
+      - lang:python
     summary: GUI for a Vocal Remover that uses Deep Neural Networks.
     last_synced_sha: 5517e0cf0d1acd16a1618eeedec596957523f9e1
     user_starred_at: '2026-01-12T20:45:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -21555,15 +21598,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:38:59.081Z'
+      prompt_version: v3
   - repo: joelhooks/swarm-tools
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - ai-agents
+      - swarm
+      - machine-learning
+      - lang:ts
     summary: 🐝 Multi-agent swarm coordination for Open Code with learning capabilities, agent issue tracking, and management
     last_synced_sha: c0225bebda1d7fa4c87363a68183026e5b765cb3
     user_starred_at: '2026-01-11T15:42:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -21588,15 +21640,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:38:59.081Z'
+      prompt_version: v3
   - repo: prabirshrestha/dotfiles
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - dotfiles
+      - configuration
+      - lang:lua
     summary: There is no place like ~
     last_synced_sha: c8911f54493ea6967662b5dcaae77146b4f546fe
     user_starred_at: '2026-01-11T15:36:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics: []
@@ -21616,15 +21676,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:38:59.081Z'
+      prompt_version: v3
   - repo: Dicklesworthstone/coding_agent_session_search
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-agents
+      - search
+      - tui
+      - lang:rust
     summary: Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.)
     last_synced_sha: 62b2870994bf30c5184d27c08cae4a2d19687060
     user_starred_at: '2026-01-11T15:26:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -21649,6 +21718,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-03-30T04:38:59.081Z'
+      prompt_version: v3
   - repo: randomascii/UIforETW
     categories:
       - ui-libraries
