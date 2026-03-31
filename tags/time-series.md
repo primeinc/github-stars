@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [PaddlePaddle/PaddleX](https://github.com/PaddlePaddle/PaddleX) | All-in-One Development Tool based on Paddle Paddle | `Python` ★ 6.1k | 2026-03-26 |
-| [google-research/timesfm](https://github.com/google-research/timesfm) | Times FM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | `Python` ★ 10.7k | 2026-03-26 |
+| [PaddlePaddle/PaddleX](https://github.com/PaddlePaddle/PaddleX) | All-in-One Development Tool based on Paddle Paddle | `Python` ★ 6.1k | 2026-03-30 |
+| [google-research/timesfm](https://github.com/google-research/timesfm) | Times FM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | `Python` ★ 11k | 2026-03-30 |
