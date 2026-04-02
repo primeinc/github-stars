@@ -1,8 +1,8 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: "2025-07-15T00:00:00Z"
-  manifest_updated_at: "2026-03-31T04:04:10.599Z"
-  total_repos: 200
+  manifest_updated_at: "2026-04-02T04:01:00.682Z"
+  total_repos: 100
   generator_version: v1.0.0
   github_user: primeinc
 feature_flags:
@@ -132,21 +132,21 @@ repositories:
       - medical-records
       - lang:js
     summary: A lightweight, self-hosted application for managing your personal medical information. Keep your health records organized and accessible while maintaining complete control over your data privacy.
-    last_synced_sha: 0e247acdb3f2d4e7530afc541a099e0d067c2a42
+    last_synced_sha: 497007f6048d2dd05f92760038c9bf7d1e5cce11
     user_starred_at: "2026-02-24T04:31:27Z"
     readme_quality: missing
     needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
-      stargazers_count: 385
+      stargazers_count: 388
       forks_count: 21
-      disk_usage: 11779
+      disk_usage: 11760
       owner_avatar: https://avatars.githubusercontent.com/u/20632147?u=ac4cd6258b81198f17ba30cde6c0d840dc130758&v=4
       homepage_url: null
       license: NOASSERTION
-      repo_pushed_at: "2026-03-30T22:18:45Z"
-      repo_updated_at: "2026-03-30T22:18:47Z"
+      repo_pushed_at: "2026-04-02T00:42:04Z"
+      repo_updated_at: "2026-04-02T00:42:07Z"
       html_url: https://github.com/afairgiant/MediKeep
       default_branch: main
       latest_release:
@@ -169,21 +169,21 @@ repositories:
       - encryption
       - lang:cpp
     summary: A media packaging and development framework for VOD and Live DASH and HLS applications, supporting Common Encryption for Widevine and other DRM Systems.
-    last_synced_sha: 90a392ed8a30bc30697a3bec3115f4d2dff3a580
+    last_synced_sha: 35649549404a3ff5586cb7367cc2a24f868d7225
     user_starred_at: "2026-02-24T04:30:49Z"
     readme_quality: missing
     needs_review: false
     github_metadata:
       language: C++
       topics: []
-      stargazers_count: 2449
+      stargazers_count: 2454
       forks_count: 559
-      disk_usage: 588210
+      disk_usage: 588222
       owner_avatar: https://avatars.githubusercontent.com/u/99903801?v=4
       homepage_url: https://shaka-project.github.io/shaka-packager/
       license: NOASSERTION
-      repo_pushed_at: "2026-03-22T19:19:55Z"
-      repo_updated_at: "2026-03-30T11:20:11Z"
+      repo_pushed_at: "2026-04-01T00:31:20Z"
+      repo_updated_at: "2026-04-01T12:31:11Z"
       html_url: https://github.com/shaka-project/shaka-packager
       default_branch: main
       latest_release:
@@ -214,14 +214,14 @@ repositories:
       topics:
         - ai-agents
         - genai
-      stargazers_count: 27532
-      forks_count: 4795
+      stargazers_count: 27631
+      forks_count: 4807
       disk_usage: 1697
       owner_avatar: https://avatars.githubusercontent.com/u/3095771?u=522d8855c070c0af151b27becc02052e34849d4e&v=4
       homepage_url: https://github.com/ashishpatel26/500-AI-Agents-Projects
       license: MIT
       repo_pushed_at: "2026-01-13T05:19:51Z"
-      repo_updated_at: "2026-03-31T03:53:42Z"
+      repo_updated_at: "2026-04-02T03:29:47Z"
       html_url: https://github.com/ashishpatel26/500-AI-Agents-Projects
       default_branch: main
       latest_release: null
@@ -287,14 +287,14 @@ repositories:
         - epaper
         - epaper-displays
         - visionect
-      stargazers_count: 719
-      forks_count: 15
+      stargazers_count: 723
+      forks_count: 16
       disk_usage: 2454
       owner_avatar: https://avatars.githubusercontent.com/u/1940294?u=19b1703466e006a734f0df66fc4e137c4c29961e&v=4
       homepage_url: null
       license: NOASSERTION
       repo_pushed_at: "2026-03-29T21:08:01Z"
-      repo_updated_at: "2026-03-31T03:48:56Z"
+      repo_updated_at: "2026-04-01T21:20:30Z"
       html_url: https://github.com/joelhawksley/timeframe
       default_branch: main
       latest_release: null
@@ -366,14 +366,14 @@ repositories:
     github_metadata:
       language: Go
       topics: []
-      stargazers_count: 63
+      stargazers_count: 64
       forks_count: 0
       disk_usage: 2246
       owner_avatar: https://avatars.githubusercontent.com/u/37772591?u=1cb2bded183e7ed78f032272f162af0845d6feef&v=4
       homepage_url: null
       license: Apache-2.0
       repo_pushed_at: "2026-02-21T16:55:06Z"
-      repo_updated_at: "2026-03-26T02:02:53Z"
+      repo_updated_at: "2026-03-31T13:26:01Z"
       html_url: https://github.com/puzpuzpuz/go-concurrent-map-bench
       default_branch: main
       latest_release: null
@@ -449,7 +449,7 @@ repositories:
       homepage_url: null
       license: MIT
       repo_pushed_at: "2025-02-07T23:38:13Z"
-      repo_updated_at: "2026-03-31T00:23:26Z"
+      repo_updated_at: "2026-04-02T00:31:17Z"
       html_url: https://github.com/t3dotgg/stripe-recommendations
       default_branch: main
       latest_release: null
@@ -481,7 +481,7 @@ repositories:
       homepage_url: https://lawn.video
       license: MIT
       repo_pushed_at: "2026-03-16T23:30:32Z"
-      repo_updated_at: "2026-03-30T09:09:32Z"
+      repo_updated_at: "2026-04-02T03:55:57Z"
       html_url: https://github.com/pingdotgg/lawn
       default_branch: main
       latest_release: null
@@ -511,14 +511,14 @@ repositories:
         - teamspeak-bot
         - teamspeak6
         - teamspeak
-      stargazers_count: 80
-      forks_count: 13
+      stargazers_count: 81
+      forks_count: 14
       disk_usage: 25748
       owner_avatar: https://avatars.githubusercontent.com/u/32274973?u=9ccd0c17612d8b9c4f1b318a8d5a6d9820e7988a&v=4
       homepage_url: null
       license: null
       repo_pushed_at: "2026-03-28T18:12:59Z"
-      repo_updated_at: "2026-03-30T13:20:13Z"
+      repo_updated_at: "2026-03-31T06:58:32Z"
       html_url: https://github.com/clusterzx/ts6-manager
       default_branch: main
       latest_release: null
@@ -580,14 +580,14 @@ repositories:
     github_metadata:
       language: JavaScript
       topics: []
-      stargazers_count: 3462
+      stargazers_count: 3463
       forks_count: 248
       disk_usage: 232
       owner_avatar: https://avatars.githubusercontent.com/u/170270?u=34acd557a042ac478d273a4621570cadb6b0bd89&v=4
       homepage_url: null
       license: MIT
       repo_pushed_at: "2025-11-15T08:22:56Z"
-      repo_updated_at: "2026-03-30T20:24:21Z"
+      repo_updated_at: "2026-03-31T10:03:03Z"
       html_url: https://github.com/sindresorhus/open
       default_branch: main
       latest_release:
@@ -617,14 +617,14 @@ repositories:
     github_metadata:
       language: Python
       topics: []
-      stargazers_count: 10144
-      forks_count: 1285
+      stargazers_count: 10231
+      forks_count: 1297
       disk_usage: 7042
       owner_avatar: https://avatars.githubusercontent.com/u/141221163?v=4
       homepage_url: null
       license: Apache-2.0
       repo_pushed_at: "2026-03-17T06:38:41Z"
-      repo_updated_at: "2026-03-31T03:26:49Z"
+      repo_updated_at: "2026-04-02T03:25:17Z"
       html_url: https://github.com/QwenLM/Qwen3-TTS
       default_branch: main
       latest_release: null
@@ -660,14 +660,14 @@ repositories:
         - onnxruntime
         - tts
         - typescript
-      stargazers_count: 75
+      stargazers_count: 74
       forks_count: 13
       disk_usage: 1562
       owner_avatar: https://avatars.githubusercontent.com/u/95888118?u=7d63a6f0a180465761147737f3cee390dd730303&v=4
       homepage_url: null
       license: MIT
       repo_pushed_at: "2025-05-08T01:04:44Z"
-      repo_updated_at: "2026-03-25T22:32:06Z"
+      repo_updated_at: "2026-03-31T12:15:44Z"
       html_url: https://github.com/isaiahbjork/expo-kokoro-onnx
       default_branch: main
       latest_release: null
@@ -689,7 +689,7 @@ repositories:
       - nextjs
       - lang:ts
     summary: Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience.
-    last_synced_sha: d22b8bec1ec79224801f134df064ca5faff2371b
+    last_synced_sha: c9647276b13d56e182217323e7b4a9703cfebdad
     user_starred_at: "2026-03-06T18:30:46Z"
     readme_quality: missing
     needs_review: false
@@ -711,14 +711,14 @@ repositories:
         - koreader
         - pdf
         - opds
-      stargazers_count: 19122
-      forks_count: 1051
-      disk_usage: 78286
+      stargazers_count: 19181
+      forks_count: 1061
+      disk_usage: 79961
       owner_avatar: https://avatars.githubusercontent.com/u/190965649?v=4
       homepage_url: https://readest.com
       license: AGPL-3.0
-      repo_pushed_at: "2026-03-30T17:10:31Z"
-      repo_updated_at: "2026-03-31T03:01:47Z"
+      repo_pushed_at: "2026-04-02T01:31:58Z"
+      repo_updated_at: "2026-04-02T02:40:46Z"
       html_url: https://github.com/readest/readest
       default_branch: main
       latest_release:
@@ -754,14 +754,14 @@ repositories:
         - deep-learning
         - text-to-speech
         - tts
-      stargazers_count: 36893
-      forks_count: 5232
+      stargazers_count: 36898
+      forks_count: 5233
       disk_usage: 130787
       owner_avatar: https://avatars.githubusercontent.com/u/7423248?v=4
       homepage_url: null
       license: NOASSERTION
       repo_pushed_at: "2026-03-03T14:59:58Z"
-      repo_updated_at: "2026-03-31T00:22:54Z"
+      repo_updated_at: "2026-04-02T03:06:25Z"
       html_url: https://github.com/babysor/MockingBird
       default_branch: main
       latest_release:
@@ -797,14 +797,14 @@ repositories:
         - certifications
         - gettingstarted
         - podcasts
-      stargazers_count: 611
+      stargazers_count: 610
       forks_count: 102
       disk_usage: 694
       owner_avatar: https://avatars.githubusercontent.com/u/780781?v=4
       homepage_url: null
       license: null
       repo_pushed_at: "2025-01-11T02:51:54Z"
-      repo_updated_at: "2026-03-30T10:38:24Z"
+      repo_updated_at: "2026-04-01T06:50:07Z"
       html_url: https://github.com/gradiuscypher/infosec_getting_started
       default_branch: main
       latest_release: null
@@ -852,13 +852,13 @@ repositories:
         - karaoke
         - whisperx
       stargazers_count: 6578
-      forks_count: 717
+      forks_count: 716
       disk_usage: 89415
       owner_avatar: https://avatars.githubusercontent.com/u/161691694?u=76dc12d2edde28c7ad5e7de0c95c60043061ad43&v=4
       homepage_url: https://www.wctokyoseoul.com
       license: GPL-3.0
       repo_pushed_at: "2025-12-05T17:00:08Z"
-      repo_updated_at: "2026-03-30T16:23:30Z"
+      repo_updated_at: "2026-04-01T17:20:22Z"
       html_url: https://github.com/abus-aikorea/voice-pro
       default_branch: main
       latest_release:
@@ -925,7 +925,7 @@ repositories:
       - image-processing
       - lang:elixir
     summary: "\U0001F31F Build and deploy local AI models with Leaxer for real-time interaction, streamlined document generation, and versatile visual processing capabilities."
-    last_synced_sha: 99af59a15b0cb140577daafc2b1105a518de5d83
+    last_synced_sha: fc8600a1b362e9c2f9253920ed418c5d15acc3cc
     user_starred_at: "2026-03-06T18:18:29Z"
     readme_quality: missing
     needs_review: false
@@ -956,8 +956,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/158799644?v=4
       homepage_url: https://wells-the-doctor.github.io
       license: Apache-2.0
-      repo_pushed_at: "2026-03-31T03:33:13Z"
-      repo_updated_at: "2026-03-31T03:33:16Z"
+      repo_pushed_at: "2026-04-02T03:32:33Z"
+      repo_updated_at: "2026-04-02T03:32:37Z"
       html_url: https://github.com/Wells-the-Doctor/leaxer
       default_branch: main
       latest_release: null
@@ -978,7 +978,7 @@ repositories:
       - apple-silicon
       - lang:python
     summary: "\U0001F3A4 Run Qwen3-TTS locally on Apple Silicon for offline AI text-to-speech, offering voice cloning and customization features without cloud reliance."
-    last_synced_sha: f59ac273ca94ba7f7c6443eb77ec22fac7f1e3d8
+    last_synced_sha: 92b9a6a361c1c41c2281d1de09a3014aa4f86ada
     user_starred_at: "2026-03-06T18:18:05Z"
     readme_quality: missing
     needs_review: false
@@ -1011,8 +1011,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/188616635?v=4
       homepage_url: https://ak-sys-sh.github.io
       license: null
-      repo_pushed_at: "2026-03-31T03:34:21Z"
-      repo_updated_at: "2026-03-31T03:34:24Z"
+      repo_pushed_at: "2026-04-02T03:33:39Z"
+      repo_updated_at: "2026-04-02T03:33:42Z"
       html_url: https://github.com/Ak-sys-sh/qwen3-tts-apple-silicon
       default_branch: main
       latest_release: null
@@ -1034,7 +1034,7 @@ repositories:
       - lang:python
       - huggingface-transformers
     summary: "\U0001F3A4 Create dynamic voice experiences with Qwen3-TTS-Daggr-UI, a Gradio app for voice design, cloning, and speech recognition across multiple languages."
-    last_synced_sha: 6ed259aa417409fe64d44680b914499e5a743281
+    last_synced_sha: ff08028f5b0cf78ebe5026ee94bdc551b5989ab9
     user_starred_at: "2026-03-06T18:17:51Z"
     readme_quality: missing
     needs_review: false
@@ -1063,8 +1063,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/77019525?v=4
       homepage_url: https://talin190.github.io
       license: Apache-2.0
-      repo_pushed_at: "2026-03-31T03:34:48Z"
-      repo_updated_at: "2026-03-31T03:34:52Z"
+      repo_pushed_at: "2026-04-02T03:34:06Z"
+      repo_updated_at: "2026-04-02T03:34:10Z"
       html_url: https://github.com/talin190/Qwen3-TTS-Daggr-UI
       default_branch: main
       latest_release: null
@@ -1086,7 +1086,7 @@ repositories:
       - cross-language
       - lang:csharp
     summary: "\U0001F5E3️ Transform text into natural speech effortlessly with the official Typecast SDKs for the Text-to-Speech API across multiple programming languages."
-    last_synced_sha: 2d5d20e5ee103b3649454793a8fcc42ab8081cdd
+    last_synced_sha: 8d1453a70affdd7179f24813aba8b2a5d619e646
     user_starred_at: "2026-03-06T18:17:04Z"
     readme_quality: missing
     needs_review: false
@@ -1118,8 +1118,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/250968664?v=4
       homepage_url: https://leonekmisio-prog.github.io
       license: null
-      repo_pushed_at: "2026-03-31T03:39:06Z"
-      repo_updated_at: "2026-03-31T03:39:09Z"
+      repo_pushed_at: "2026-04-02T03:38:06Z"
+      repo_updated_at: "2026-04-02T03:38:10Z"
       html_url: https://github.com/leonekmisio-prog/typecast-sdk
       default_branch: main
       latest_release: null
@@ -1141,7 +1141,7 @@ repositories:
       - offline-ai
       - lang:ts
     summary: "\U0001F3B5 Create and manage local-first AI-powered music with a fast, self-hosted studio featuring integrated generation, playback, and asset storage."
-    last_synced_sha: 9289428d3ca40e1ca756e4e495b8bed200c26e3a
+    last_synced_sha: 28b50f0eeba02ec47f0fc3d66fd7e6d6432c44f4
     user_starred_at: "2026-03-06T18:16:46Z"
     readme_quality: missing
     needs_review: false
@@ -1169,8 +1169,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/213319013?v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2026-03-31T03:40:24Z"
-      repo_updated_at: "2026-03-31T03:40:27Z"
+      repo_pushed_at: "2026-04-02T03:39:09Z"
+      repo_updated_at: "2026-04-02T03:39:13Z"
       html_url: https://github.com/lukinhas-programando/ace-step-studio
       default_branch: main
       latest_release: null
@@ -1192,7 +1192,7 @@ repositories:
       - tts
       - voice-conversion
     summary: Convert text into authentic Rick Sanchez voice for bots and apps with a simple Python API supporting streaming and multiple TTS providers.
-    last_synced_sha: f15b60fe5f136ab1f5562c7b60c13c86cc7f54f4
+    last_synced_sha: 2dd5208ebe33de788c9b8e45478eb0c22c59aa26
     user_starred_at: "2026-03-06T18:15:24Z"
     readme_quality: missing
     needs_review: false
@@ -1220,8 +1220,8 @@ repositories:
       owner_avatar: https://avatars.githubusercontent.com/u/130471701?v=4
       homepage_url: null
       license: null
-      repo_pushed_at: "2026-03-31T03:45:46Z"
-      repo_updated_at: "2026-03-31T03:45:49Z"
+      repo_pushed_at: "2026-04-02T03:44:21Z"
+      repo_updated_at: "2026-04-02T03:44:25Z"
       html_url: https://github.com/natikxy/rick-voice
       default_branch: main
       latest_release: null
@@ -1304,7 +1304,7 @@ repositories:
       homepage_url: https://safetycli.com/product/safety-cli
       license: null
       repo_pushed_at: "2026-03-23T20:38:29Z"
-      repo_updated_at: "2026-03-29T23:21:58Z"
+      repo_updated_at: "2026-04-01T11:51:39Z"
       html_url: https://github.com/pyupio/safety
       default_branch: main
       latest_release:
@@ -1329,7 +1329,7 @@ repositories:
       - thin-cloning
       - lang:go
     summary: "DBLab enables \U0001F596 database branching and ⚡️ thin cloning for any Postgres database and empowers DB testing in CI/CD. This optimizes database-related costs while improving time-to-market and software..."
-    last_synced_sha: 16c9fa320210adf8312dcf6ed5f6eb40320232bc
+    last_synced_sha: 21abcb514dadb02bdbd1ebeae33cfaff6eb44733
     user_starred_at: "2026-03-07T04:08:45Z"
     readme_quality: missing
     needs_review: false
@@ -1354,12 +1354,12 @@ repositories:
         - branching
       stargazers_count: 2438
       forks_count: 74
-      disk_usage: 21887
+      disk_usage: 21480
       owner_avatar: https://avatars.githubusercontent.com/u/41564857?v=4
       homepage_url: https://postgres.ai/products/how-it-works
       license: Apache-2.0
-      repo_pushed_at: "2026-03-25T13:17:09Z"
-      repo_updated_at: "2026-03-30T18:42:11Z"
+      repo_pushed_at: "2026-04-02T02:42:03Z"
+      repo_updated_at: "2026-04-01T23:29:01Z"
       html_url: https://github.com/postgres-ai/database-lab-engine
       default_branch: master
       latest_release:
@@ -1384,7 +1384,7 @@ repositories:
       - self-hosting
       - lang:go
     summary: Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
-    last_synced_sha: 6ca557371882871ab994b51df204942b45b5cf3b
+    last_synced_sha: 2158cf6e125540d972bb78b84901f45905fb82c6
     user_starred_at: "2026-03-07T04:03:17Z"
     readme_quality: missing
     needs_review: false
@@ -1411,14 +1411,14 @@ repositories:
         - typescript
         - self-hosted
         - git-lfs
-      stargazers_count: 54607
-      forks_count: 6514
-      disk_usage: 327941
+      stargazers_count: 54671
+      forks_count: 6523
+      disk_usage: 328325
       owner_avatar: https://avatars.githubusercontent.com/u/12724356?v=4
       homepage_url: https://gitea.com
       license: MIT
-      repo_pushed_at: "2026-03-31T02:04:52Z"
-      repo_updated_at: "2026-03-31T02:50:20Z"
+      repo_pushed_at: "2026-04-01T23:55:07Z"
+      repo_updated_at: "2026-04-02T02:07:14Z"
       html_url: https://github.com/go-gitea/gitea
       default_branch: main
       latest_release:
@@ -1447,14 +1447,14 @@ repositories:
     github_metadata:
       language: TypeScript
       topics: []
-      stargazers_count: 10009
-      forks_count: 3859
+      stargazers_count: 10010
+      forks_count: 3861
       disk_usage: 107578
       owner_avatar: https://avatars.githubusercontent.com/u/6154722?v=4
       homepage_url: null
       license: MIT
       repo_pushed_at: "2026-02-12T11:54:46Z"
-      repo_updated_at: "2026-03-30T16:13:30Z"
+      repo_updated_at: "2026-04-01T22:55:27Z"
       html_url: https://github.com/microsoft/vscode-extension-samples
       default_branch: main
       latest_release: null
@@ -1561,14 +1561,14 @@ repositories:
     github_metadata:
       language: Rust
       topics: []
-      stargazers_count: 1364
-      forks_count: 56
-      disk_usage: 2209
+      stargazers_count: 1366
+      forks_count: 57
+      disk_usage: 2103
       owner_avatar: https://avatars.githubusercontent.com/u/216188?u=e6ed73b780fca5bd9dea18dfea51ce138e8f6a13&v=4
       homepage_url: https://fnox.jdx.dev
       license: MIT
-      repo_pushed_at: "2026-03-30T08:31:37Z"
-      repo_updated_at: "2026-03-30T16:51:13Z"
+      repo_pushed_at: "2026-04-01T18:40:00Z"
+      repo_updated_at: "2026-04-01T23:33:39Z"
       html_url: https://github.com/jdx/fnox
       default_branch: main
       latest_release:
@@ -1591,21 +1591,21 @@ repositories:
       - cli-tools
       - lang:python
     summary: 'CLI-Anything: Making ALL Software Agent-Native'
-    last_synced_sha: 7dd6c2e5c078b0c0798c5f9b8851a435b68c567e
+    last_synced_sha: 176ea7826c85a80966adb651b7dfdd709c430baf
     user_starred_at: "2026-03-09T20:22:49Z"
     readme_quality: missing
     needs_review: false
     github_metadata:
       language: Python
       topics: []
-      stargazers_count: 25274
-      forks_count: 2266
-      disk_usage: 17378
+      stargazers_count: 26476
+      forks_count: 2414
+      disk_usage: 17196
       owner_avatar: https://avatars.githubusercontent.com/u/118165258?v=4
       homepage_url: null
       license: Apache-2.0
-      repo_pushed_at: "2026-03-30T15:56:36Z"
-      repo_updated_at: "2026-03-31T03:58:49Z"
+      repo_pushed_at: "2026-04-01T08:18:28Z"
+      repo_updated_at: "2026-04-02T03:59:19Z"
       html_url: https://github.com/HKUDS/CLI-Anything
       default_branch: main
       latest_release: null
@@ -1626,7 +1626,7 @@ repositories:
       - nextjs
       - lang:ts
     summary: Give agents everything they need to ship fullstack apps. The backend built for agentic development.
-    last_synced_sha: 4730f26366343a3e2b65e89da2e261b845f3e4f9
+    last_synced_sha: de288c0ed75c4a7fa31a7dfb88da25249a8e51f8
     user_starred_at: "2026-03-09T20:21:19Z"
     readme_quality: missing
     needs_review: false
@@ -1646,14 +1646,14 @@ repositories:
         - realtime
         - vectors
         - websockets
-      stargazers_count: 6656
+      stargazers_count: 6862
       forks_count: 558
-      disk_usage: 96368
+      disk_usage: 96577
       owner_avatar: https://avatars.githubusercontent.com/u/198419463?v=4
       homepage_url: https://insforge.dev
       license: Apache-2.0
-      repo_pushed_at: "2026-03-31T04:02:02Z"
-      repo_updated_at: "2026-03-31T04:01:49Z"
+      repo_pushed_at: "2026-04-01T21:05:43Z"
+      repo_updated_at: "2026-04-02T03:57:39Z"
       html_url: https://github.com/InsForge/InsForge
       default_branch: main
       latest_release:
@@ -1683,14 +1683,14 @@ repositories:
     github_metadata:
       language: C
       topics: []
-      stargazers_count: 419
+      stargazers_count: 422
       forks_count: 45
       disk_usage: 25882
       owner_avatar: https://avatars.githubusercontent.com/u/11070871?u=be43f5eaae05f2bf96976f51670786304bd555f3&v=4
       homepage_url: null
       license: null
       repo_pushed_at: "2026-03-10T11:43:35Z"
-      repo_updated_at: "2026-03-30T22:33:30Z"
+      repo_updated_at: "2026-04-01T17:00:33Z"
       html_url: https://github.com/viralcode/vib-OS
       default_branch: main
       latest_release:
@@ -1740,14 +1740,14 @@ repositories:
         - kohya-webui
         - flux-dev
         - flux-lora
-      stargazers_count: 2664
-      forks_count: 362
+      stargazers_count: 2663
+      forks_count: 364
       disk_usage: 8425
       owner_avatar: https://avatars.githubusercontent.com/u/19240467?u=d5494b4070d68e99b293da15b753a11b159ec5d8&v=4
       homepage_url: https://www.youtube.com/SECourses
       license: GPL-3.0
       repo_pushed_at: "2026-03-30T18:21:34Z"
-      repo_updated_at: "2026-03-30T18:21:38Z"
+      repo_updated_at: "2026-04-01T19:51:33Z"
       html_url: https://github.com/FurkanGozukara/Stable-Diffusion
       default_branch: main
       latest_release: null
@@ -1912,14 +1912,14 @@ repositories:
     github_metadata:
       language: Python
       topics: []
-      stargazers_count: 438
-      forks_count: 98
+      stargazers_count: 458
+      forks_count: 102
       disk_usage: 454
       owner_avatar: https://avatars.githubusercontent.com/u/94094853?u=258915ecf82018545ece32be6918c7f1577881c2&v=4
       homepage_url: null
       license: null
       repo_pushed_at: "2026-03-14T17:47:24Z"
-      repo_updated_at: "2026-03-31T02:20:44Z"
+      repo_updated_at: "2026-04-02T02:38:25Z"
       html_url: https://github.com/jsegov/autoresearch-win-rtx
       default_branch: master
       latest_release: null
@@ -1947,14 +1947,14 @@ repositories:
     github_metadata:
       language: Python
       topics: []
-      stargazers_count: 61916
-      forks_count: 8642
+      stargazers_count: 63597
+      forks_count: 8967
       disk_usage: 530
       owner_avatar: https://avatars.githubusercontent.com/u/241138?u=05376db54475c3d23b3a409f4c47d14c4855dc28&v=4
       homepage_url: null
       license: null
       repo_pushed_at: "2026-03-26T00:07:37Z"
-      repo_updated_at: "2026-03-31T04:00:56Z"
+      repo_updated_at: "2026-04-02T03:59:19Z"
       html_url: https://github.com/karpathy/autoresearch
       default_branch: master
       latest_release: null
@@ -1974,21 +1974,21 @@ repositories:
       - citation-management
       - lang:js
     summary: Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.
-    last_synced_sha: f3ecf285b3413d45023fa3494a849c3346bf888f
+    last_synced_sha: 8effdacf6593ce08510399d1799eaa68ed64e6c6
     user_starred_at: "2026-03-12T07:09:49Z"
     readme_quality: missing
     needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
-      stargazers_count: 13773
-      forks_count: 990
-      disk_usage: 232297
+      stargazers_count: 13786
+      forks_count: 993
+      disk_usage: 232285
       owner_avatar: https://avatars.githubusercontent.com/u/891917?v=4
       homepage_url: https://www.zotero.org
       license: NOASSERTION
-      repo_pushed_at: "2026-03-30T23:55:22Z"
-      repo_updated_at: "2026-03-31T03:15:39Z"
+      repo_pushed_at: "2026-04-01T18:58:00Z"
+      repo_updated_at: "2026-04-02T02:15:56Z"
       html_url: https://github.com/zotero/zotero
       default_branch: main
       latest_release: null
@@ -2020,14 +2020,14 @@ repositories:
         - yt-dlp
         - yt-dlp-plugins
         - yt-dlp-pot-provider
-      stargazers_count: 470
-      forks_count: 49
+      stargazers_count: 472
+      forks_count: 48
       disk_usage: 3336
       owner_avatar: https://avatars.githubusercontent.com/u/13823855?u=5b8a5f43b48ff1296c245701a125c4d78dd533af&v=4
       homepage_url: null
       license: GPL-3.0
       repo_pushed_at: "2026-03-21T11:14:57Z"
-      repo_updated_at: "2026-03-27T07:03:38Z"
+      repo_updated_at: "2026-04-02T02:36:16Z"
       html_url: https://github.com/Brainicism/bgutil-ytdlp-pot-provider
       default_branch: master
       latest_release:
@@ -2078,14 +2078,14 @@ repositories:
         - deepseek
         - ollama
         - openclaw
-      stargazers_count: 42218
-      forks_count: 2625
-      disk_usage: 493989
+      stargazers_count: 42251
+      forks_count: 2624
+      disk_usage: 494250
       owner_avatar: https://avatars.githubusercontent.com/u/70468694?v=4
       homepage_url: https://b3log.org/siyuan
       license: AGPL-3.0
-      repo_pushed_at: "2026-03-31T03:18:25Z"
-      repo_updated_at: "2026-03-31T03:37:43Z"
+      repo_pushed_at: "2026-04-02T03:57:51Z"
+      repo_updated_at: "2026-04-02T03:54:59Z"
       html_url: https://github.com/siyuan-note/siyuan
       default_branch: master
       latest_release:
@@ -2128,14 +2128,14 @@ repositories:
         - layout-detection
         - pdf2markdown
         - speech-recognition
-      stargazers_count: 6085
-      forks_count: 1176
-      disk_usage: 940641
+      stargazers_count: 6088
+      forks_count: 1177
+      disk_usage: 940651
       owner_avatar: https://avatars.githubusercontent.com/u/23534030?v=4
       homepage_url: https://paddlepaddle.github.io/PaddleX/
       license: Apache-2.0
-      repo_pushed_at: "2026-03-30T01:59:30Z"
-      repo_updated_at: "2026-03-30T15:10:05Z"
+      repo_pushed_at: "2026-04-01T07:32:31Z"
+      repo_updated_at: "2026-04-02T03:21:09Z"
       html_url: https://github.com/PaddlePaddle/PaddleX
       default_branch: release/3.4
       latest_release:
@@ -2232,21 +2232,21 @@ repositories:
       - changelogs
       - lang:ts
     summary: "\U0001F98B A way to manage your versioning and changelogs with a focus on monorepos"
-    last_synced_sha: 5c4731fea82ce880500ac5e1c55ff372f7a4efe2
+    last_synced_sha: 036fdd451367226d0f2cd8af1e0a7f37a65e3464
     user_starred_at: "2026-03-16T20:57:12Z"
     readme_quality: missing
     needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
-      stargazers_count: 11610
-      forks_count: 773
-      disk_usage: 6156
+      stargazers_count: 11620
+      forks_count: 771
+      disk_usage: 5609
       owner_avatar: https://avatars.githubusercontent.com/u/51163350?v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-30T17:24:48Z"
-      repo_updated_at: "2026-03-30T23:21:11Z"
+      repo_pushed_at: "2026-04-01T09:57:51Z"
+      repo_updated_at: "2026-04-02T00:52:22Z"
       html_url: https://github.com/changesets/changesets
       default_branch: main
       latest_release:
@@ -2289,14 +2289,14 @@ repositories:
         - kubernetes
         - helm
         - helm-charts
-      stargazers_count: 17570
+      stargazers_count: 17576
       forks_count: 1456
-      disk_usage: 685523
+      disk_usage: 685629
       owner_avatar: https://avatars.githubusercontent.com/u/18487506?v=4
       homepage_url: https://www.verdaccio.org/
       license: MIT
-      repo_pushed_at: "2026-03-29T20:53:36Z"
-      repo_updated_at: "2026-03-30T19:36:55Z"
+      repo_pushed_at: "2026-04-01T14:03:50Z"
+      repo_updated_at: "2026-04-02T03:00:42Z"
       html_url: https://github.com/verdaccio/verdaccio
       default_branch: master
       latest_release:
@@ -2319,7 +2319,7 @@ repositories:
       - ai-agent
       - lang:rust
     summary: Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
-    last_synced_sha: c7c6646d7a3ab1851e535afc8fdbcc311ab4d440
+    last_synced_sha: a3768d0e82ad83cca2da97724e46bea4ff0e6dbd
     user_starred_at: "2026-03-18T03:11:29Z"
     readme_quality: missing
     needs_review: false
@@ -2342,14 +2342,14 @@ repositories:
         - oauth2
         - rust
         - gemini-cli-extension
-      stargazers_count: 23230
-      forks_count: 1138
-      disk_usage: 10440
+      stargazers_count: 23494
+      forks_count: 1154
+      disk_usage: 10448
       owner_avatar: https://avatars.githubusercontent.com/u/3708359?v=4
       homepage_url: https://developers.google.com/workspace
       license: Apache-2.0
-      repo_pushed_at: "2026-03-26T18:47:42Z"
-      repo_updated_at: "2026-03-31T03:47:07Z"
+      repo_pushed_at: "2026-03-31T20:21:54Z"
+      repo_updated_at: "2026-04-02T03:54:18Z"
       html_url: https://github.com/googleworkspace/cli
       default_branch: main
       latest_release:
@@ -2937,14 +2937,14 @@ repositories:
     github_metadata:
       language: TypeScript
       topics: []
-      stargazers_count: 37
-      forks_count: 2
+      stargazers_count: 38
+      forks_count: 4
       disk_usage: 1054
       owner_avatar: https://avatars.githubusercontent.com/u/90583512?v=4
       homepage_url: null
       license: MIT
       repo_pushed_at: "2026-03-21T01:31:17Z"
-      repo_updated_at: "2026-03-27T10:35:10Z"
+      repo_updated_at: "2026-04-01T23:49:13Z"
       html_url: https://github.com/dot-billy/nodebyte
       default_branch: master
       latest_release: null
@@ -2998,7 +2998,7 @@ repositories:
       - interactive-exploration
       - lang:ts
     summary: Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about.
-    last_synced_sha: a7eea056944afb4c4310f4e54cc921eb5ae74a09
+    last_synced_sha: ae00f58824819a21d56f1f1686d7b3dfa28069a9
     user_starred_at: "2026-03-18T02:07:48Z"
     readme_quality: missing
     needs_review: false
@@ -3015,14 +3015,14 @@ repositories:
         - antigravity-skills
         - gemini-cli-skills
         - pi-agent
-      stargazers_count: 7214
-      forks_count: 568
-      disk_usage: 2701
+      stargazers_count: 7530
+      forks_count: 588
+      disk_usage: 2765
       owner_avatar: https://avatars.githubusercontent.com/u/87774050?u=d7a90ea437e7388a89bd4130659aa4fe07eb67f6&v=4
       homepage_url: https://lum.is-a.dev/Understand-Anything/
       license: MIT
-      repo_pushed_at: "2026-03-30T03:17:01Z"
-      repo_updated_at: "2026-03-31T04:02:20Z"
+      repo_pushed_at: "2026-04-01T13:54:36Z"
+      repo_updated_at: "2026-04-02T03:51:34Z"
       html_url: https://github.com/Lum1104/Understand-Anything
       default_branch: main
       latest_release: null
@@ -3076,7 +3076,7 @@ repositories:
       - paper-generation
       - lang:python
     summary: "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. \U0001F99E"
-    last_synced_sha: 2984bb62323eb1abfe481e4b950e3a4c4cdbefa6
+    last_synced_sha: 42dae520ff0656c70dbc9da2f22c0713bbaf8d0c
     user_starred_at: "2026-03-18T02:05:42Z"
     readme_quality: missing
     needs_review: false
@@ -3092,14 +3092,14 @@ repositories:
         - scientific-discovery
         - self-evolving
         - metaclaw
-      stargazers_count: 9660
-      forks_count: 1057
-      disk_usage: 41923
+      stargazers_count: 9954
+      forks_count: 1090
+      disk_usage: 42195
       owner_avatar: https://avatars.githubusercontent.com/u/186755503?v=4
       homepage_url: null
       license: MIT
-      repo_pushed_at: "2026-03-31T02:11:36Z"
-      repo_updated_at: "2026-03-31T03:52:12Z"
+      repo_pushed_at: "2026-04-01T18:38:18Z"
+      repo_updated_at: "2026-04-02T03:56:26Z"
       html_url: https://github.com/aiming-lab/AutoResearchClaw
       default_branch: main
       latest_release:
@@ -3181,14 +3181,14 @@ repositories:
         - stig
         - windows-11
         - windows-server
-      stargazers_count: 2605
+      stargazers_count: 2606
       forks_count: 330
       disk_usage: 2545
       owner_avatar: https://avatars.githubusercontent.com/u/13913706?u=90fb7254092fe0027586c0e9fbedac73f6e5fd54&v=4
       homepage_url: null
       license: MIT
       repo_pushed_at: "2026-03-16T10:17:16Z"
-      repo_updated_at: "2026-03-30T23:13:31Z"
+      repo_updated_at: "2026-04-01T15:51:36Z"
       html_url: https://github.com/0x6d69636b/windows_hardening
       default_branch: master
       latest_release:
@@ -3224,14 +3224,14 @@ repositories:
         - cloud-native
         - docker-image
         - containers
-      stargazers_count: 3108
-      forks_count: 383
-      disk_usage: 20593
+      stargazers_count: 3111
+      forks_count: 385
+      disk_usage: 20717
       owner_avatar: https://avatars.githubusercontent.com/u/44993420?v=4
       homepage_url: https://d7y.io
       license: Apache-2.0
-      repo_pushed_at: "2026-03-31T03:09:51Z"
-      repo_updated_at: "2026-03-31T03:09:36Z"
+      repo_pushed_at: "2026-04-01T14:06:55Z"
+      repo_updated_at: "2026-04-02T03:40:25Z"
       html_url: https://github.com/dragonflyoss/dragonfly
       default_branch: main
       latest_release:
@@ -3266,14 +3266,14 @@ repositories:
         - settings
         - properties
         - registry
-      stargazers_count: 6423
-      forks_count: 508
+      stargazers_count: 6424
+      forks_count: 507
       disk_usage: 2704
       owner_avatar: https://avatars.githubusercontent.com/u/99444831?v=4
       homepage_url: null
       license: NOASSERTION
       repo_pushed_at: "2026-03-29T20:40:51Z"
-      repo_updated_at: "2026-03-30T09:34:09Z"
+      repo_updated_at: "2026-03-31T04:04:08Z"
       html_url: https://github.com/node-config/node-config
       default_branch: master
       latest_release:
@@ -3497,7 +3497,7 @@ repositories:
       - video-player
       - livestream
     summary: Streamlink is a CLI utility which pipes video streams from various services into a video player
-    last_synced_sha: 473b3ab8caf857357e424ee4c69e9e033ed9f0e0
+    last_synced_sha: 10f21d0f11ab1c8fd046e920f7391e42379849f2
     user_starred_at: "2026-03-19T09:01:53Z"
     readme_quality: missing
     needs_review: false
@@ -3512,14 +3512,14 @@ repositories:
         - streaming
         - vlc
         - streaming-services
-      stargazers_count: 11374
+      stargazers_count: 11381
       forks_count: 1178
-      disk_usage: 41591
+      disk_usage: 41596
       owner_avatar: https://avatars.githubusercontent.com/u/22243823?v=4
       homepage_url: https://streamlink.github.io/
       license: BSD-2-Clause
-      repo_pushed_at: "2026-03-27T12:26:36Z"
-      repo_updated_at: "2026-03-30T23:42:54Z"
+      repo_pushed_at: "2026-04-01T21:56:20Z"
+      repo_updated_at: "2026-04-02T01:45:25Z"
       html_url: https://github.com/streamlink/streamlink
       default_branch: master
       latest_release:
@@ -3602,14 +3602,14 @@ repositories:
         - graphic-templates
         - playout
         - html-templates
-      stargazers_count: 403
+      stargazers_count: 404
       forks_count: 84
       disk_usage: 95854
       owner_avatar: https://avatars.githubusercontent.com/u/29172317?u=d583bdd937c8f8187f172a2fd81f3a04f642d2e2&v=4
       homepage_url: https://spx.graphics
       license: MIT
       repo_pushed_at: "2026-03-09T19:14:00Z"
-      repo_updated_at: "2026-03-29T21:44:34Z"
+      repo_updated_at: "2026-04-01T00:44:16Z"
       html_url: https://github.com/TuomoKu/SPX-GC
       default_branch: master
       latest_release:
@@ -3671,7 +3671,7 @@ repositories:
       - data-protection
       - key-storage
     summary: Open Bao exists to provide a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.
-    last_synced_sha: 25a9f853b4ab08cc42aefb6033d349bcfd26e31a
+    last_synced_sha: d64f764625080136c0dd129fd08b7f0431d8c15a
     user_starred_at: "2026-03-19T06:16:45Z"
     readme_quality: missing
     needs_review: false
@@ -3681,14 +3681,14 @@ repositories:
         - go
         - secret-management
         - security
-      stargazers_count: 5725
-      forks_count: 375
-      disk_usage: 300055
+      stargazers_count: 5731
+      forks_count: 378
+      disk_usage: 300637
       owner_avatar: https://avatars.githubusercontent.com/u/152585220?v=4
       homepage_url: https://openbao.org/
       license: MPL-2.0
-      repo_pushed_at: "2026-03-30T21:22:28Z"
-      repo_updated_at: "2026-03-31T03:54:47Z"
+      repo_pushed_at: "2026-04-01T23:12:01Z"
+      repo_updated_at: "2026-04-01T23:12:07Z"
       html_url: https://github.com/openbao/openbao
       default_branch: main
       latest_release:
@@ -3724,14 +3724,14 @@ repositories:
         - email-template
         - vue
         - vuejs
-      stargazers_count: 1332
+      stargazers_count: 1333
       forks_count: 210
       disk_usage: 8022
       owner_avatar: https://avatars.githubusercontent.com/u/17480987?u=92265ae9ae5cf7c57e37eae7692b2df3356796ab&v=4
       homepage_url: https://mysigmail.com
       license: AGPL-3.0
       repo_pushed_at: "2026-01-08T00:39:42Z"
-      repo_updated_at: "2026-03-31T01:04:51Z"
+      repo_updated_at: "2026-04-02T03:49:03Z"
       html_url: https://github.com/antonreshetov/mysigmail
       default_branch: master
       latest_release:
@@ -3756,7 +3756,7 @@ repositories:
       - web-automation
       - data-extraction
     summary: Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction.
-    last_synced_sha: ca2165cbc79038224f5fa9813d5872f5003c5412
+    last_synced_sha: 341bb87e09bcab9513d3600a5f37adab413aa053
     user_starred_at: "2026-03-19T06:11:37Z"
     readme_quality: missing
     needs_review: false
@@ -3767,14 +3767,14 @@ repositories:
         - ai-agents
         - ai-tools
         - cli
-      stargazers_count: 9340
-      forks_count: 783
-      disk_usage: 3857
+      stargazers_count: 10769
+      forks_count: 920
+      disk_usage: 3765
       owner_avatar: https://avatars.githubusercontent.com/u/30525741?u=16fc1212ffb8a00d02b9303638fc9ad9b602d157&v=4
       homepage_url: null
       license: Apache-2.0
-      repo_pushed_at: "2026-03-30T19:14:50Z"
-      repo_updated_at: "2026-03-31T04:02:16Z"
+      repo_pushed_at: "2026-04-01T17:37:20Z"
+      repo_updated_at: "2026-04-02T03:57:52Z"
       html_url: https://github.com/jackwener/opencli
       default_branch: main
       latest_release:
@@ -3823,13 +3823,13 @@ repositories:
         - open-source-email-builder
         - wysiwyg-email-editor
       stargazers_count: 1616
-      forks_count: 706
+      forks_count: 707
       disk_usage: 4056
       owner_avatar: https://avatars.githubusercontent.com/u/160265500?v=4
       homepage_url: https://emailbuilderjs.com
       license: MIT
       repo_pushed_at: "2026-02-09T19:17:18Z"
-      repo_updated_at: "2026-03-30T15:39:06Z"
+      repo_updated_at: "2026-03-31T20:36:49Z"
       html_url: https://github.com/usewaypoint/email-builder-js
       default_branch: main
       latest_release: null
@@ -3897,7 +3897,7 @@ repositories:
       - lang:rust
       - chat
     summary: IRC application written in Rust
-    last_synced_sha: 0a33c74d65ff77a0e13220338811082b73e526b3
+    last_synced_sha: 514760a6cb3efa6c18c82d39294cb28c5e358816
     user_starred_at: "2026-03-19T04:50:38Z"
     readme_quality: missing
     needs_review: false
@@ -3907,14 +3907,14 @@ repositories:
         - irc
         - rust
         - iced
-      stargazers_count: 3966
+      stargazers_count: 3969
       forks_count: 171
-      disk_usage: 84348
+      disk_usage: 83775
       owner_avatar: https://avatars.githubusercontent.com/u/117346077?v=4
       homepage_url: https://halloy.chat/
       license: GPL-3.0
-      repo_pushed_at: "2026-03-30T18:57:23Z"
-      repo_updated_at: "2026-03-31T03:47:09Z"
+      repo_pushed_at: "2026-04-02T03:32:15Z"
+      repo_updated_at: "2026-04-02T00:00:58Z"
       html_url: https://github.com/squidowl/halloy
       default_branch: main
       latest_release:
@@ -3939,7 +3939,7 @@ repositories:
       - openclaw
       - react
     summary: 'Real-time web cockpit for Open Claw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility.'
-    last_synced_sha: c9ad1bd745b34e6ceead6d167d2c8da6dc45d0d0
+    last_synced_sha: 6260878394c6facc6402dc903bbc23d2e0d669e9
     user_starred_at: "2026-03-18T12:44:28Z"
     readme_quality: missing
     needs_review: false
@@ -3959,14 +3959,14 @@ repositories:
         - openclaw-dashboard
         - openclaw-ui
         - mission-control
-      stargazers_count: 590
-      forks_count: 88
-      disk_usage: 10850
+      stargazers_count: 619
+      forks_count: 94
+      disk_usage: 11051
       owner_avatar: https://avatars.githubusercontent.com/u/212682?u=51b5817121821942d39a2be7434051fae846207e&v=4
       homepage_url: https://nerve.zone
       license: MIT
-      repo_pushed_at: "2026-03-31T02:07:09Z"
-      repo_updated_at: "2026-03-31T03:48:53Z"
+      repo_pushed_at: "2026-04-01T15:14:18Z"
+      repo_updated_at: "2026-04-02T00:06:35Z"
       html_url: https://github.com/daggerhashimoto/openclaw-nerve
       default_branch: master
       latest_release:
@@ -3990,7 +3990,7 @@ repositories:
       - lang:ts
       - openclaw
     summary: Build and run autonomous AI agents with Open Claw, multiple model providers, orchestration, delegation, memory, skills, schedules, and chat connectors.
-    last_synced_sha: faf1113f86a01509ebd197ab6f27ba6d78e53f5e
+    last_synced_sha: f825e65cf00f81e90bcbdf6a2b15a2eb1aa8fc2e
     user_starred_at: "2026-03-18T12:00:33Z"
     readme_quality: missing
     needs_review: false
@@ -4003,14 +4003,14 @@ repositories:
         - ai
         - orchestration
         - orchestration-platform
-      stargazers_count: 200
-      forks_count: 31
-      disk_usage: 15075
+      stargazers_count: 205
+      forks_count: 32
+      disk_usage: 11596
       owner_avatar: https://avatars.githubusercontent.com/u/262453007?v=4
       homepage_url: https://www.swarmclaw.ai
       license: MIT
-      repo_pushed_at: "2026-03-30T20:21:27Z"
-      repo_updated_at: "2026-03-31T02:48:26Z"
+      repo_pushed_at: "2026-04-01T18:49:45Z"
+      repo_updated_at: "2026-04-01T21:22:50Z"
       html_url: https://github.com/swarmclawai/swarmclaw
       default_branch: main
       latest_release:
@@ -4033,7 +4033,7 @@ repositories:
       - skills
       - lang:ts
     summary: Skill Directory for Open Claw
-    last_synced_sha: eeb0ecd932ba0cb57fedaa055948f538983f67ca
+    last_synced_sha: 13caea7cfd2763eb797d18b9c9179ee76f08ba33
     user_starred_at: "2026-03-18T10:25:30Z"
     readme_quality: missing
     needs_review: false
@@ -4042,14 +4042,14 @@ repositories:
       topics:
         - directory
         - skill
-      stargazers_count: 7207
-      forks_count: 1139
-      disk_usage: 4755
+      stargazers_count: 7308
+      forks_count: 1145
+      disk_usage: 4601
       owner_avatar: https://avatars.githubusercontent.com/u/252820863?v=4
       homepage_url: https://clawhub.ai
       license: MIT
-      repo_pushed_at: "2026-03-29T17:38:27Z"
-      repo_updated_at: "2026-03-31T03:58:01Z"
+      repo_pushed_at: "2026-04-02T00:32:29Z"
+      repo_updated_at: "2026-04-02T03:53:01Z"
       html_url: https://github.com/openclaw/clawhub
       default_branch: main
       latest_release:
@@ -4165,14 +4165,14 @@ repositories:
         - reliability
         - security
         - performance-efficiency
-      stargazers_count: 845
+      stargazers_count: 844
       forks_count: 304
       disk_usage: 13252
       owner_avatar: https://avatars.githubusercontent.com/u/1373420?v=4
       homepage_url: https://aka.ms/cloud-design-patterns
       license: NOASSERTION
       repo_pushed_at: "2026-03-30T15:52:14Z"
-      repo_updated_at: "2026-03-30T15:52:17Z"
+      repo_updated_at: "2026-04-01T08:43:48Z"
       html_url: https://github.com/mspnp/cloud-design-patterns
       default_branch: main
       latest_release: null
@@ -4236,14 +4236,14 @@ repositories:
       topics:
         - vscode
         - config
-      stargazers_count: 3618
-      forks_count: 204
+      stargazers_count: 3620
+      forks_count: 205
       disk_usage: 713
       owner_avatar: https://avatars.githubusercontent.com/u/11247099?u=5c092d3773a443e480a294f2b67aa39395982f46&v=4
       homepage_url: null
       license: MIT
       repo_pushed_at: "2026-01-30T23:35:28Z"
-      repo_updated_at: "2026-03-30T21:34:23Z"
+      repo_updated_at: "2026-03-31T15:47:27Z"
       html_url: https://github.com/antfu/vscode-file-nesting-config
       default_branch: main
       latest_release:
@@ -4289,4222 +4289,4 @@ repositories:
     ai_classification:
       model: gpt-4o
       classified_at: "2026-03-26T04:08:12.003Z"
-      prompt_version: v3
-  - repo: jjordanbaird/EmailVectorDB
-    categories:
-      - ai-ml
-      - databases
-    tags:
-      - openai
-      - vectordb
-      - email-parser
-      - lang:python
-    summary: This project demonstrates how to parse emails, process them using Open AI's GPT-3.5, and load the data into a Weaviate vector database for enhanced search capabilities. Utilizing few-shot prompts a...
-    last_synced_sha: 6e1b2248aa3059858b3d458f56e1c2e160b19ae5
-    user_starred_at: "2026-02-23T19:59:11Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics:
-        - llm
-        - openai
-        - vectordb
-        - weaviate
-      stargazers_count: 22
-      forks_count: 4
-      disk_usage: 23
-      owner_avatar: https://avatars.githubusercontent.com/u/36901499?u=caf7644fc591112f2e517bc1bca33dbeae489211&v=4
-      homepage_url: null
-      license: null
-      repo_pushed_at: "2023-05-03T02:46:40Z"
-      repo_updated_at: "2026-02-23T19:59:11Z"
-      html_url: https://github.com/jjordanbaird/EmailVectorDB
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:08:12.003Z"
-      prompt_version: v3
-  - repo: SpecterShell/Dumplings
-    categories:
-      - automation
-      - system-admin
-    tags:
-      - resource-dumping
-      - lint-tools
-      - lang:powershell
-    summary: Dump remote resources and lint outdated packages
-    last_synced_sha: eae602f6106e9dba63949f45639f7aab0e5e9a9b
-    user_starred_at: "2026-02-23T11:32:08Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics: []
-      stargazers_count: 43
-      forks_count: 26
-      disk_usage: 56783
-      owner_avatar: https://avatars.githubusercontent.com/u/56779163?u=7e583ab6b6bb31ea490eb18e8db1a2ec4971e9fa&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-03-31T03:19:08Z"
-      repo_updated_at: "2026-03-31T03:19:12Z"
-      html_url: https://github.com/SpecterShell/Dumplings
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:08:12.003Z"
-      prompt_version: v3
-  - repo: open-mercato/open-mercato
-    categories:
-      - dev-tools
-      - productivity
-    tags:
-      - crm
-      - erp
-      - modular
-      - lang:ts
-    summary: AI‑supportive CRM / ERP foundation framework — built to power R&D, new processes, operations, and growth. It’s modular, extensible, and designed for teams that want strong defaults with room to cus...
-    last_synced_sha: 58e7eb5e8813fe70f1773b1a69cd95aece69620d
-    user_starred_at: "2026-02-22T10:18:05Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - crm
-        - crm-platform
-        - erp
-        - typescript
-      stargazers_count: 1143
-      forks_count: 193
-      disk_usage: 101505
-      owner_avatar: https://avatars.githubusercontent.com/u/87645530?v=4
-      homepage_url: https://www.openmercato.com/
-      license: MIT
-      repo_pushed_at: "2026-03-30T22:51:39Z"
-      repo_updated_at: "2026-03-30T12:58:41Z"
-      html_url: https://github.com/open-mercato/open-mercato
-      default_branch: main
-      latest_release:
-        tag: v0.4.8
-        published_at: "2026-03-17T09:54:50Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:08:12.003Z"
-      prompt_version: v3
-  - repo: clash-verge-rev/clash-verge-rev
-    categories:
-      - system-admin
-      - networking
-    tags:
-      - proxy
-      - gui-tool
-      - cross-platform
-      - lang:ts
-    summary: A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience
-    last_synced_sha: b62d89e163d8679213d6bd070900c6f538c3718f
-    user_starred_at: "2026-02-22T10:17:48Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - clash
-        - clash-meta
-        - clash-verge
-        - linux
-        - mac
-        - tauri-app
-        - windows
-        - mihomo
-      stargazers_count: 106500
-      forks_count: 7726
-      disk_usage: 74255
-      owner_avatar: https://avatars.githubusercontent.com/u/152534467?v=4
-      homepage_url: https://www.clashverge.dev
-      license: GPL-3.0
-      repo_pushed_at: "2026-03-30T21:11:34Z"
-      repo_updated_at: "2026-03-31T03:59:11Z"
-      html_url: https://github.com/clash-verge-rev/clash-verge-rev
-      default_branch: dev
-      latest_release:
-        tag: v2.4.7
-        published_at: "2026-03-21T16:16:55Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:08:12.003Z"
-      prompt_version: v3
-  - repo: storytold/artcraft
-    categories:
-      - ai-ml
-      - game-dev
-    tags:
-      - 3d-graphics
-      - artists
-      - ai-video
-      - lang:rust
-    summary: Art Craft is an intentional crafting engine for artists, designers, and filmmakers
-    last_synced_sha: a2a9b3b7dee50f385ab6ef883e93ba3155c93f16
-    user_starred_at: "2026-02-22T10:16:16Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Rust
-      topics:
-        - 3d-graphics
-        - ai
-        - aivideo
-        - filmmaking
-        - imagegeneration
-      stargazers_count: 1426
-      forks_count: 126
-      disk_usage: 1337340
-      owner_avatar: https://avatars.githubusercontent.com/u/76897702?v=4
-      homepage_url: https://getartcraft.com
-      license: NOASSERTION
-      repo_pushed_at: "2026-03-31T02:36:22Z"
-      repo_updated_at: "2026-03-31T02:36:27Z"
-      html_url: https://github.com/storytold/artcraft
-      default_branch: main
-      latest_release:
-        tag: artcraft-v0.20.0
-        published_at: "2026-03-25T03:44:26Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:08:12.003Z"
-      prompt_version: v3
-  - repo: zed-industries/zed
-    categories:
-      - dev-tools
-      - productivity
-    tags:
-      - high-performance
-      - text-editor
-      - multiplayer
-      - lang:rust
-    summary: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
-    last_synced_sha: f3e672c09a5928c1b51bed7fccbfcc690f1a0e78
-    user_starred_at: "2026-02-22T10:15:57Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Rust
-      topics:
-        - text-editor
-        - zed
-        - gpui
-        - rust-lang
-      stargazers_count: 78194
-      forks_count: 7622
-      disk_usage: 427338
-      owner_avatar: https://avatars.githubusercontent.com/u/79345384?v=4
-      homepage_url: https://zed.dev
-      license: NOASSERTION
-      repo_pushed_at: "2026-03-31T03:52:19Z"
-      repo_updated_at: "2026-03-31T03:50:46Z"
-      html_url: https://github.com/zed-industries/zed
-      default_branch: main
-      latest_release:
-        tag: v0.229.0
-        published_at: "2026-03-25T15:58:57Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:08:12.003Z"
-      prompt_version: v3
-  - repo: firecracker-microvm/firecracker
-    categories:
-      - cloud
-      - containers
-    tags:
-      - virtual-machine
-      - sandbox
-      - serverless
-      - lang:rust
-    summary: Secure and fast micro VMs for serverless computing.
-    last_synced_sha: 88d9c1254a11267cc9d08726bc11ab22b3074baf
-    user_starred_at: "2026-02-22T10:15:21Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Rust
-      topics:
-        - virtual-machine
-        - sandbox
-        - virtualization
-        - rust
-        - containers
-        - minimalist
-        - open-source
-        - serverless
-        - oversubscription
-      stargazers_count: 33375
-      forks_count: 2323
-      disk_usage: 39177
-      owner_avatar: https://avatars.githubusercontent.com/u/44477506?v=4
-      homepage_url: http://firecracker-microvm.io
-      license: Apache-2.0
-      repo_pushed_at: "2026-03-30T19:20:01Z"
-      repo_updated_at: "2026-03-31T03:25:57Z"
-      html_url: https://github.com/firecracker-microvm/firecracker
-      default_branch: main
-      latest_release:
-        tag: v1.15.0
-        published_at: "2026-03-09T17:40:13Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:08:12.003Z"
-      prompt_version: v3
-  - repo: google-research/timesfm
-    categories:
-      - ai-ml
-      - data-science
-    tags:
-      - time-series
-      - forecasting
-      - foundation-models
-      - lang:python
-    summary: Times FM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
-    last_synced_sha: ed29ec5ef7e2d86c48b632859de3b63856ef9cad
-    user_starred_at: "2026-02-22T10:14:40Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics: []
-      stargazers_count: 10985
-      forks_count: 929
-      disk_usage: 4310
-      owner_avatar: https://avatars.githubusercontent.com/u/43830688?v=4
-      homepage_url: https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/
-      license: Apache-2.0
-      repo_pushed_at: "2026-03-30T18:24:02Z"
-      repo_updated_at: "2026-03-31T04:02:43Z"
-      html_url: https://github.com/google-research/timesfm
-      default_branch: master
-      latest_release:
-        tag: v1.2.6
-        published_at: "2024-12-31T19:07:28Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:08:12.003Z"
-      prompt_version: v3
-  - repo: roboflow/trackers
-    categories:
-      - ai-ml
-      - data-science
-    tags:
-      - multi-object-tracking
-      - detection-models
-      - sportsmot
-      - lang:python
-    summary: Trackers gives you clean, modular re-implementations of leading multi-object tracking algorithms released under the permissive Apache 2.0 license. You combine them with any detection model you alre...
-    last_synced_sha: be3b1d985a117eed1a39232169a3a5b641744bb4
-    user_starred_at: "2026-02-22T10:14:14Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics:
-        - multi-object-tracking
-        - sort
-        - bytetrack
-        - oc-sort
-        - bot-sort
-        - dancetrack
-        - mot17
-        - soccernet
-        - sportsmot
-        - trackeval
-      stargazers_count: 3211
-      forks_count: 321
-      disk_usage: 18900
-      owner_avatar: https://avatars.githubusercontent.com/u/53104118?v=4
-      homepage_url: https://trackers.roboflow.com/
-      license: Apache-2.0
-      repo_pushed_at: "2026-03-30T17:35:59Z"
-      repo_updated_at: "2026-03-30T14:54:06Z"
-      html_url: https://github.com/roboflow/trackers
-      default_branch: develop
-      latest_release:
-        tag: 2.3.0
-        published_at: "2026-03-16T14:18:27Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:08:12.003Z"
-      prompt_version: v3
-  - repo: Crosstalk-Solutions/unifi-toolkit
-    categories:
-      - networking
-      - dev-tools
-    tags:
-      - network-management
-      - lang:python
-    summary: A suite of tools for Uni Fi network management
-    last_synced_sha: 55375b365adfaebf0d779a187c05e299a27ab0e0
-    user_starred_at: "2026-02-22T10:13:54Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics: []
-      stargazers_count: 424
-      forks_count: 38
-      disk_usage: 1107
-      owner_avatar: https://avatars.githubusercontent.com/u/105950641?v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-03-18T20:37:23Z"
-      repo_updated_at: "2026-03-31T03:35:54Z"
-      html_url: https://github.com/Crosstalk-Solutions/unifi-toolkit
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.803Z"
-      prompt_version: v3
-  - repo: projectdiscovery/nuclei-templates
-    categories:
-      - security
-      - testing
-    tags:
-      - nuclei-templates
-      - exploits
-      - lang:js
-      - vulnerability-detection
-    summary: Community curated list of templates for the nuclei engine to find security vulnerabilities.
-    last_synced_sha: 7394129289ef49eb9fa651d80a7de475c99e94a4
-    user_starred_at: "2026-02-22T10:12:37Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: JavaScript
-      topics:
-        - nuclei-templates
-        - nuclei
-        - bugbounty
-        - security
-        - nuclei-checks
-        - exploits
-        - exploit-development
-        - vulnerability-detection
-        - fingerprint
-        - hacktoberfest
-      stargazers_count: 12104
-      forks_count: 3410
-      disk_usage: 539416
-      owner_avatar: https://avatars.githubusercontent.com/u/50994705?v=4
-      homepage_url: https://github.com/projectdiscovery/nuclei
-      license: MIT
-      repo_pushed_at: "2026-03-31T03:59:29Z"
-      repo_updated_at: "2026-03-31T03:59:33Z"
-      html_url: https://github.com/projectdiscovery/nuclei-templates
-      default_branch: main
-      latest_release:
-        tag: v10.4.0
-        published_at: "2026-03-16T07:17:16Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.803Z"
-      prompt_version: v3
-  - repo: rollup/rollup
-    categories:
-      - dev-tools
-      - web-dev
-    tags:
-      - module-bundler
-      - lang:js
-      - es-modules
-    summary: Next-generation ES module bundler
-    last_synced_sha: ae871d762f6bbeb4320d28fe179211168f27a434
-    user_starred_at: "2026-02-22T10:12:22Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: JavaScript
-      topics: []
-      stargazers_count: 26264
-      forks_count: 1693
-      disk_usage: 34462
-      owner_avatar: https://avatars.githubusercontent.com/u/12554859?v=4
-      homepage_url: https://rollupjs.org
-      license: NOASSERTION
-      repo_pushed_at: "2026-03-31T03:54:01Z"
-      repo_updated_at: "2026-03-30T23:56:45Z"
-      html_url: https://github.com/rollup/rollup
-      default_branch: master
-      latest_release:
-        tag: v4.60.0
-        published_at: "2026-03-22T06:59:25Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.803Z"
-      prompt_version: v3
-  - repo: Azgaar/Fantasy-Map-Generator
-    categories:
-      - game-dev
-      - web-dev
-    tags:
-      - map-generation
-      - procedural-generation
-      - lang:js
-      - cartography
-    summary: Web application generating interactive and highly customizable maps
-    last_synced_sha: 23871b3311ed2da0315c994c38d4a25477ca496f
-    user_starred_at: "2026-02-22T10:12:12Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: JavaScript
-      topics:
-        - procedural-generation
-        - map-generation
-        - javascript
-        - mapmaker
-        - cartography
-        - dungeons-and-dragons
-        - fantasy-maps
-        - generator
-      stargazers_count: 5560
-      forks_count: 875
-      disk_usage: 39870
-      owner_avatar: https://avatars.githubusercontent.com/u/26469650?u=9691bf34ce66f151e9900586c14fec80a7de55cf&v=4
-      homepage_url: https://azgaar.github.io/Fantasy-Map-Generator
-      license: NOASSERTION
-      repo_pushed_at: "2026-03-26T22:28:26Z"
-      repo_updated_at: "2026-03-30T17:47:16Z"
-      html_url: https://github.com/Azgaar/Fantasy-Map-Generator
-      default_branch: master
-      latest_release:
-        tag: v1.110
-        published_at: "2026-01-22T12:16:29Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.803Z"
-      prompt_version: v3
-  - repo: ToolJet/ToolJet
-    categories:
-      - frameworks
-      - web-dev
-      - productivity
-    tags:
-      - low-code
-      - internal-tools
-      - lang:js
-      - no-code
-      - framework:react
-    summary: "Tool Jet is the open-source foundation of Tool Jet AI - the AI-native platform for building internal tools, dashboard, business applications, workflows and AI agents \U0001F680"
-    last_synced_sha: 91db41c758f799504877a69d0b9029dff3fec644
-    user_starred_at: "2026-02-22T10:11:49Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: JavaScript
-      topics:
-        - javascript
-        - internal-tools
-        - self-hosted
-        - reactjs
-        - no-code
-        - typescript
-        - low-code
-        - low-code-framework
-        - internal-project
-        - internal-tool
-        - docker
-        - web-development-tools
-        - hacktoberfest
-        - nodejs
-        - low-code-development-platform
-        - kubernetes
-        - internal-applications
-        - ai-app-builder
-        - workflow-automation
-      stargazers_count: 37692
-      forks_count: 4986
-      disk_usage: 1611248
-      owner_avatar: https://avatars.githubusercontent.com/u/82193554?v=4
-      homepage_url: https://tooljet.com
-      license: AGPL-3.0
-      repo_pushed_at: "2026-03-31T03:54:39Z"
-      repo_updated_at: "2026-03-31T03:02:13Z"
-      html_url: https://github.com/ToolJet/ToolJet
-      default_branch: develop
-      latest_release:
-        tag: v3.20.130-lts
-        published_at: "2026-03-25T15:32:27Z"
-      is_mirror: false
-      mirror_url: null
-    framework: react
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.803Z"
-      prompt_version: v3
-  - repo: projectdiscovery/nuclei
-    categories:
-      - security
-      - testing
-      - automation
-    tags:
-      - vulnerability-scanner
-      - lang:go
-      - cve-scanner
-      - security-scanner
-    summary: Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the ...
-    last_synced_sha: 4ae87beeddc09b49ebc52662fb1b8b795979b23f
-    user_starred_at: "2026-02-22T10:11:12Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Go
-      topics:
-        - cve-scanner
-        - subdomain-takeover
-        - nuclei-engine
-        - vulnerability-detection
-        - vulnerability-assessment
-        - vulnerability-scanner
-        - security
-        - attack-surface
-        - security-scanner
-        - hacktoberfest
-        - dast
-      stargazers_count: 27689
-      forks_count: 3330
-      disk_usage: 42615
-      owner_avatar: https://avatars.githubusercontent.com/u/50994705?v=4
-      homepage_url: https://docs.projectdiscovery.io/tools/nuclei
-      license: MIT
-      repo_pushed_at: "2026-03-30T17:40:40Z"
-      repo_updated_at: "2026-03-31T03:57:40Z"
-      html_url: https://github.com/projectdiscovery/nuclei
-      default_branch: dev
-      latest_release:
-        tag: v3.7.1
-        published_at: "2026-03-05T11:00:12Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.803Z"
-      prompt_version: v3
-  - repo: ros-navigation/navigation2
-    categories:
-      - frameworks
-      - automation
-    tags:
-      - robotics
-      - navigation
-      - lang:cpp
-      - ros2
-    summary: ROS 2 Navigation Framework and System
-    last_synced_sha: 881e87b30eca34aa74269a7b35b49c636a2d352b
-    user_starred_at: "2026-02-22T10:09:20Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: C++
-      topics:
-        - ros2
-        - navigation
-        - robotics
-      stargazers_count: 4081
-      forks_count: 1771
-      disk_usage: 117087
-      owner_avatar: https://avatars.githubusercontent.com/u/150733807?v=4
-      homepage_url: https://nav2.org/
-      license: NOASSERTION
-      repo_pushed_at: "2026-03-30T21:01:47Z"
-      repo_updated_at: "2026-03-31T03:56:45Z"
-      html_url: https://github.com/ros-navigation/navigation2
-      default_branch: main
-      latest_release:
-        tag: 1.3.11
-        published_at: "2026-01-24T03:21:30Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.803Z"
-      prompt_version: v3
-  - repo: TrinityCore/TrinityCore
-    categories:
-      - game-dev
-      - frameworks
-      - networking
-    tags:
-      - mmorpg
-      - multi-platform
-      - lang:cpp
-      - multiplayer
-    summary: Trinity Core Open Source MMO Framework (master = 12.0.1.66562, 3.3.5 = 3.3.5a.12340, cata classic = 4.4.2.60895)
-    last_synced_sha: 28a73b6e0f3c5df0eecd72b440664429a7f4ce56
-    user_starred_at: "2026-02-22T10:08:40Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: C++
-      topics:
-        - trinitycore
-        - wow
-        - linux
-        - multi-platform
-        - multiplayer
-        - mmorpg
-        - hacktoberfest
-      stargazers_count: 10484
-      forks_count: 6292
-      disk_usage: 1405163
-      owner_avatar: https://avatars.githubusercontent.com/u/539602?v=4
-      homepage_url: http://www.trinitycore.org
-      license: GPL-2.0
-      repo_pushed_at: "2026-03-30T19:46:57Z"
-      repo_updated_at: "2026-03-30T23:40:19Z"
-      html_url: https://github.com/TrinityCore/TrinityCore
-      default_branch: master
-      latest_release:
-        tag: TDB1200.26021
-        published_at: "2026-02-06T12:51:09Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.803Z"
-      prompt_version: v3
-  - repo: HailToDodongo/pyrite64
-    categories:
-      - game-dev
-      - embedded
-    tags:
-      - n64
-      - game-engine
-      - libdragon
-      - lang:cpp
-    summary: N64 Game-Engine and Editor using libdragon & tiny3d
-    last_synced_sha: fec54da15ffd11390ee438c6e39f8aac6542580b
-    user_starred_at: "2026-02-22T10:08:21Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: C++
-      topics: []
-      stargazers_count: 2828
-      forks_count: 111
-      disk_usage: 11615
-      owner_avatar: https://avatars.githubusercontent.com/u/29900530?u=db80a5d79c4185e543cee6146c75c8dea260937c&v=4
-      homepage_url: https://hailtododongo.github.io/pyrite64/
-      license: MIT
-      repo_pushed_at: "2026-03-30T21:07:24Z"
-      repo_updated_at: "2026-03-31T03:40:44Z"
-      html_url: https://github.com/HailToDodongo/pyrite64
-      default_branch: main
-      latest_release:
-        tag: v0.5.0
-        published_at: "2026-03-06T20:28:13Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.803Z"
-      prompt_version: v3
-  - repo: dragonflydb/dragonfly
-    categories:
-      - databases
-      - dev-tools
-    tags:
-      - redis-replacement
-      - in-memory
-      - key-value
-      - lang:cpp
-      - multi-threading
-    summary: A modern replacement for Redis and Memcached
-    last_synced_sha: 9767b31e6672ab78753547d1d83b9d74dc6a0853
-    user_starred_at: "2026-02-22T10:07:42Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: C++
-      topics:
-        - memcached
-        - multi-threading
-        - redis
-        - cpp
-        - fibers
-        - cache
-        - database
-        - in-memory
-        - in-memory-database
-        - key-value
-        - keydb
-        - message-broker
-        - nosql
-        - valkey
-        - vector-search
-      stargazers_count: 30270
-      forks_count: 1164
-      disk_usage: 23215
-      owner_avatar: https://avatars.githubusercontent.com/u/104819355?v=4
-      homepage_url: https://www.dragonflydb.io/
-      license: NOASSERTION
-      repo_pushed_at: "2026-03-30T18:48:44Z"
-      repo_updated_at: "2026-03-30T22:16:13Z"
-      html_url: https://github.com/dragonflydb/dragonfly
-      default_branch: main
-      latest_release:
-        tag: v1.37.0
-        published_at: "2026-02-23T10:50:51Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.803Z"
-      prompt_version: v3
-  - repo: AzureAD/microsoft-identity-web
-    categories:
-      - security
-      - apis
-      - web-dev
-    tags:
-      - authentication
-      - microsoft-identity-platform
-      - lang:csharp
-      - azure-ad
-    summary: Helps creating protected web apps and web APIs with Microsoft identity platform and Azure AD B2C
-    last_synced_sha: 39cd121365460c21e968f5ec43ee989e7c0f661a
-    user_starred_at: "2026-02-22T10:06:28Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: C#
-      topics:
-        - asp-net-core
-        - microsoft-identity-platform
-        - aadv2
-        - authentication
-      stargazers_count: 774
-      forks_count: 253
-      disk_usage: 12116
-      owner_avatar: https://avatars.githubusercontent.com/u/2966316?v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-03-30T22:10:19Z"
-      repo_updated_at: "2026-03-30T15:16:32Z"
-      html_url: https://github.com/AzureAD/microsoft-identity-web
-      default_branch: master
-      latest_release:
-        tag: 4.6.0
-        published_at: "2026-03-23T11:58:00Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.800Z"
-      prompt_version: v3
-  - repo: JosefNemec/Playnite
-    categories:
-      - game-dev
-      - desktop-dev
-    tags:
-      - game-library
-      - game-emulation
-      - lang:csharp
-      - wpf
-    summary: Video game library manager with support for wide range of 3rd party libraries and game emulation support, providing one unified interface for your games.
-    last_synced_sha: ab2eed4d09eab9e276d51056e2ed487aae1d32e9
-    user_starred_at: "2026-02-22T10:06:17Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: C#
-      topics:
-        - launcher
-        - gaming
-        - wpf
-        - csharp
-      stargazers_count: 12721
-      forks_count: 605
-      disk_usage: 73142
-      owner_avatar: https://avatars.githubusercontent.com/u/3874087?u=ead016f71737461726270bf86472ca7aec70b473&v=4
-      homepage_url: https://playnite.link
-      license: MIT
-      repo_pushed_at: "2026-02-20T12:52:01Z"
-      repo_updated_at: "2026-03-31T02:39:07Z"
-      html_url: https://github.com/JosefNemec/Playnite
-      default_branch: master
-      latest_release:
-        tag: "10.51"
-        published_at: "2026-02-20T14:24:22Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.800Z"
-      prompt_version: v3
-  - repo: unoplatform/uno
-    categories:
-      - ui-libraries
-      - mobile-dev
-      - web-dev
-      - desktop-dev
-    tags:
-      - cross-platform
-      - mvvm
-      - lang:csharp
-      - single-codebase
-    summary: Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow...
-    last_synced_sha: 5e8e7690b6eeb9f828998d25dd1af0f20a5fc052
-    user_starred_at: "2026-02-22T10:05:06Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: C#
-      topics:
-        - uno
-        - uwp
-        - android
-        - uno-platform
-        - roslyn
-        - xamarin
-        - webassembly
-        - windows
-        - mvvm
-        - wasm
-        - mono
-        - xaml
-        - cross-platform
-        - csharp
-        - macos
-        - c-sharp
-        - winui
-        - linux
-        - dotnet
-        - hacktoberfest
-      stargazers_count: 9882
-      forks_count: 850
-      disk_usage: 323295
-      owner_avatar: https://avatars.githubusercontent.com/u/52228309?v=4
-      homepage_url: https://platform.uno
-      license: Apache-2.0
-      repo_pushed_at: "2026-03-31T00:43:33Z"
-      repo_updated_at: "2026-03-30T19:59:02Z"
-      html_url: https://github.com/unoplatform/uno
-      default_branch: master
-      latest_release:
-        tag: 6.5.64
-        published_at: "2026-02-11T18:55:31Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.800Z"
-      prompt_version: v3
-  - repo: abhigyanpatwari/GitNexus
-    categories:
-      - productivity
-      - learning
-      - web-dev
-    tags:
-      - knowledge-graph
-      - zero-server
-      - lang:ts
-      - client-side
-    summary: 'Git Nexus: The Zero-Server Code Intelligence Engine - Git Nexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a Git Hub repo or ZIP file, and get an interacti...'
-    last_synced_sha: c72890d59d41f928c91f4d7b5c94fc2981f80ebe
-    user_starred_at: "2026-02-22T10:04:40Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics: []
-      stargazers_count: 20860
-      forks_count: 2384
-      disk_usage: 19691
-      owner_avatar: https://avatars.githubusercontent.com/u/126312502?v=4
-      homepage_url: https://gitnexus.vercel.app
-      license: NOASSERTION
-      repo_pushed_at: "2026-03-30T09:36:09Z"
-      repo_updated_at: "2026-03-31T03:57:29Z"
-      html_url: https://github.com/abhigyanpatwari/GitNexus
-      default_branch: main
-      latest_release:
-        tag: v1.4.8
-        published_at: "2026-03-23T10:02:09Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.800Z"
-      prompt_version: v3
-  - repo: vxcontrol/pentagi
-    categories:
-      - ai-ml
-      - security
-      - automation
-    tags:
-      - ai-agents
-      - penetration-testing
-      - security-automation
-      - lang:go
-      - framework:react
-    summary: Fully autonomous AI Agents system capable of performing complex penetration testing tasks
-    last_synced_sha: e8d49de9af223439dd53e17e5cf888c0c9dc5fbf
-    user_starred_at: "2026-02-22T10:03:49Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Go
-      topics:
-        - ai-agents
-        - ai-security-tool
-        - autonomous-agents
-        - golang
-        - graphql
-        - multi-agent-system
-        - penetration-testing-tools
-        - react
-        - security-automation
-        - security-testing
-        - security-tools
-        - anthropic
-        - gpt
-        - offensive-security
-        - open-source
-        - openai
-        - penetration-testing
-        - self-hosted
-      stargazers_count: 13942
-      forks_count: 1741
-      disk_usage: 29700
-      owner_avatar: https://avatars.githubusercontent.com/u/39194251?v=4
-      homepage_url: https://pentagi.com
-      license: MIT
-      repo_pushed_at: "2026-03-29T18:02:59Z"
-      repo_updated_at: "2026-03-31T03:41:52Z"
-      html_url: https://github.com/vxcontrol/pentagi
-      default_branch: main
-      latest_release:
-        tag: v1.2.0
-        published_at: "2026-02-25T16:26:25Z"
-      is_mirror: false
-      mirror_url: null
-    framework: react
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:42.800Z"
-      prompt_version: v3
-  - repo: hiddify/hiddify-app
-    categories:
-      - networking
-      - security
-    tags:
-      - proxy
-      - auto-proxy
-      - lang:dart
-      - multi-platform
-    summary: Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.
-    last_synced_sha: cddd8f440b7ad53327ca1a26250684ce7807b78b
-    user_starred_at: "2026-02-22T10:03:34Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Dart
-      topics:
-        - proxy
-        - singbox
-        - v2ray
-        - xray
-        - clash
-        - clashmeta
-        - ech
-        - hysteria
-        - hysteria2
-        - reality
-        - shadowtls
-        - sing-box
-        - ssh
-        - tuic
-        - vless
-        - vmess
-        - shadowsocks
-        - wireguard
-      stargazers_count: 28000
-      forks_count: 2462
-      disk_usage: 63588
-      owner_avatar: https://avatars.githubusercontent.com/u/126981719?v=4
-      homepage_url: https://hiddify.com
-      license: NOASSERTION
-      repo_pushed_at: "2026-03-29T18:30:50Z"
-      repo_updated_at: "2026-03-31T03:02:19Z"
-      html_url: https://github.com/hiddify/hiddify-app
-      default_branch: main
-      latest_release:
-        tag: v4.1.1
-        published_at: "2026-03-05T17:22:57Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: wxt-dev/wxt
-    categories:
-      - dev-tools
-      - frameworks
-    tags:
-      - web-extension
-      - build-tool
-      - lang:ts
-      - dev-server
-    summary: ⚡ Next-gen Web Extension Framework
-    last_synced_sha: ffdd15e2753bc147e4db07c90dbe383099885d59
-    user_starred_at: "2026-02-21T06:29:37Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - build-tool
-        - dev-server
-        - hmr
-        - wxt
-        - chrome-extensions
-      stargazers_count: 9483
-      forks_count: 486
-      disk_usage: 10261
-      owner_avatar: https://avatars.githubusercontent.com/u/144182268?v=4
-      homepage_url: https://wxt.dev
-      license: MIT
-      repo_pushed_at: "2026-03-28T16:49:43Z"
-      repo_updated_at: "2026-03-31T02:55:52Z"
-      html_url: https://github.com/wxt-dev/wxt
-      default_branch: main
-      latest_release:
-        tag: wxt-v0.20.20
-        published_at: "2026-03-17T13:22:03Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: moonD4rk/HackBrowserData
-    categories:
-      - security
-    tags:
-      - browser-data
-      - pentest-tool
-      - lang:go
-      - macos
-      - windows
-    summary: Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (mac OS, Windows, Linux).
-    last_synced_sha: d0971ca0986dcb2a8de25289a1b8f6982cab5496
-    user_starred_at: "2026-02-21T04:24:05Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Go
-      topics:
-        - chrome
-        - macos
-        - windows
-        - pentest-tool
-        - hacking
-        - edge
-        - firefox
-        - golang
-        - browser
-        - browser-extension
-      stargazers_count: 13635
-      forks_count: 1747
-      disk_usage: 16173
-      owner_avatar: https://avatars.githubusercontent.com/u/24284231?u=9f095f72efa33857739af052beb9c528ba8bba20&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-03-30T18:33:44Z"
-      repo_updated_at: "2026-03-31T01:25:00Z"
-      html_url: https://github.com/moonD4rk/HackBrowserData
-      default_branch: main
-      latest_release:
-        tag: v0.4.6
-        published_at: "2024-07-16T04:10:40Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: memvid/design-memory
-    categories:
-      - ai-ml
-      - ui-libraries
-    tags:
-      - ai-ui-builder
-      - design-system
-      - lang:ts
-      - ui-design
-      - tailwindcss
-    summary: Extract and reproduce design systems from any website using deterministic analysis and LLM interpretation.
-    last_synced_sha: 46ce7ac63062e7937b7e13c8fc1a2d3388535f72
-    user_starred_at: "2026-02-17T19:19:14Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - ai
-        - ai-ui-builder
-        - design-system
-        - design-tokens
-        - figma
-        - frontend
-        - llm
-        - tailwindcss
-        - ui
-        - ui-design
-      stargazers_count: 117
-      forks_count: 10
-      disk_usage: 714
-      owner_avatar: https://avatars.githubusercontent.com/u/241489775?v=4
-      homepage_url: https://memvid.com
-      license: null
-      repo_pushed_at: "2026-02-15T18:24:12Z"
-      repo_updated_at: "2026-03-20T15:21:17Z"
-      html_url: https://github.com/memvid/design-memory
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: nushell/nushell
-    categories:
-      - system-admin
-      - dev-tools
-    tags:
-      - shell
-      - cli-tool
-      - lang:rust
-    summary: A new type of shell
-    last_synced_sha: 8de6254d8bfe56884932a59edfb60316153cf82d
-    user_starred_at: "2026-02-16T14:22:33Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Rust
-      topics:
-        - shell
-        - rust
-        - nushell
-      stargazers_count: 38861
-      forks_count: 2087
-      disk_usage: 62773
-      owner_avatar: https://avatars.githubusercontent.com/u/50749515?v=4
-      homepage_url: https://www.nushell.sh/
-      license: MIT
-      repo_pushed_at: "2026-03-30T23:51:27Z"
-      repo_updated_at: "2026-03-31T02:21:17Z"
-      html_url: https://github.com/nushell/nushell
-      default_branch: main
-      latest_release:
-        tag: 0.111.0
-        published_at: "2026-03-01T00:32:15Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: andrelandgraf/fullstackrecipes
-    categories:
-      - learning
-      - web-dev
-    tags:
-      - fullstack-recipes
-      - web-ai
-      - lang:ts
-    summary: A Shadcn registry and collection of production-ready patterns and step-by-step guides (recipes) for full stack web AI apps
-    last_synced_sha: f4acc5dc1df1c286e4c17f500312600b09cd42c1
-    user_starred_at: "2026-02-16T05:29:18Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics: []
-      stargazers_count: 9
-      forks_count: 1
-      disk_usage: 2808
-      owner_avatar: https://avatars.githubusercontent.com/u/15163028?u=69b7d5741188aea002b7300db2007d22a93cfef4&v=4
-      homepage_url: https://fullstackrecipes.com
-      license: null
-      repo_pushed_at: "2026-03-30T01:29:29Z"
-      repo_updated_at: "2026-03-30T01:29:34Z"
-      html_url: https://github.com/andrelandgraf/fullstackrecipes
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: PV-Bhat/vibe-check-mcp-server
-    categories:
-      - ai-ml
-      - automation
-    tags:
-      - ai-agents
-      - workflow-automation
-      - lang:ts
-      - mcp-server
-    summary: Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-e...
-    last_synced_sha: e8b3045e58eb4d673e30cb591d07a5ccad57a58b
-    user_starred_at: "2026-02-16T05:20:23Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - agentic-ai
-        - agentic-workflow
-        - ai-agents
-        - error-handling
-        - mcp
-        - mcp-server
-        - model-context-protocol
-        - vibe-coding
-        - workflow-automation
-        - cpi
-        - rli
-        - chain-of-thought
-      stargazers_count: 480
-      forks_count: 64
-      disk_usage: 3526
-      owner_avatar: https://avatars.githubusercontent.com/u/186011573?u=7f89c9a8690c34778c95aa697049e66f64a03e35&v=4
-      homepage_url: https://pruthvibhat.com/
-      license: MIT
-      repo_pushed_at: "2026-03-30T17:06:12Z"
-      repo_updated_at: "2026-03-30T17:06:17Z"
-      html_url: https://github.com/PV-Bhat/vibe-check-mcp-server
-      default_branch: main
-      latest_release:
-        tag: v2.7.6
-        published_at: "2025-11-06T16:59:40Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: daobataotie/CAD-MCP
-    categories:
-      - ai-ml
-      - productivity
-    tags:
-      - cad
-      - model-context-protocol
-      - lang:python
-    summary: CAD MCP Server
-    last_synced_sha: 352541820a56823568a90993dd773e7014205f44
-    user_starred_at: "2026-02-16T05:20:07Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics:
-        - cad
-        - mcp
-        - model-context-protocol
-        - cadmcp
-        - ai
-      stargazers_count: 287
-      forks_count: 45
-      disk_usage: 5659
-      owner_avatar: https://avatars.githubusercontent.com/u/17694622?u=93ca9a40c28fe22588bc7735f67eaeb3a3fc4818&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2025-07-21T01:36:15Z"
-      repo_updated_at: "2026-03-30T02:05:32Z"
-      html_url: https://github.com/daobataotie/CAD-MCP
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: bytebase/dbhub
-    categories:
-      - databases
-      - ai-ml
-    tags:
-      - database
-      - mcp-server
-      - postgres
-      - lang:ts
-      - mysql
-    summary: Zero-dependency, token-efficient database MCP server for Postgres, My SQL, SQL Server, Maria DB, SQLite.
-    last_synced_sha: 4236ba4923bcf9ec0c01942cb49bd70a50ca4766
-    user_starred_at: "2026-02-16T05:20:03Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - ai
-        - anthropic
-        - claude
-        - database
-        - mcp
-        - mcp-server
-        - claude-ai
-        - mysql
-        - postgres
-        - sqlserver
-        - cursor
-        - mariadb
-        - dify
-        - sqlite
-        - codex
-        - llm
-        - mssql
-        - sql
-        - postgresql
-        - agents
-      stargazers_count: 2455
-      forks_count: 200
-      disk_usage: 2789
-      owner_avatar: https://avatars.githubusercontent.com/u/74386897?v=4
-      homepage_url: https://dbhub.ai
-      license: MIT
-      repo_pushed_at: "2026-03-28T14:35:26Z"
-      repo_updated_at: "2026-03-30T23:36:47Z"
-      html_url: https://github.com/bytebase/dbhub
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: stacklok/toolhive
-    categories:
-      - ai-ml
-      - security
-    tags:
-      - ai-security
-      - mcp-management
-      - kubernetes
-      - lang:go
-    summary: Tool Hive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers.
-    last_synced_sha: 11cd2669340fcaf1a8916a66db4c565d6f545616
-    user_starred_at: "2026-02-16T05:19:47Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Go
-      topics:
-        - ai
-        - aicodeassistant
-        - mcp
-        - ai-security
-        - mcp-security
-        - mcp-servers
-        - mcp-tools
-        - security
-        - golang
-        - kubernetes
-        - model-context-protocol
-      stargazers_count: 1690
-      forks_count: 197
-      disk_usage: 97204
-      owner_avatar: https://avatars.githubusercontent.com/u/110237746?v=4
-      homepage_url: https://stacklok.com/download/
-      license: Apache-2.0
-      repo_pushed_at: "2026-03-30T19:51:47Z"
-      repo_updated_at: "2026-03-30T19:51:50Z"
-      html_url: https://github.com/stacklok/toolhive
-      default_branch: main
-      latest_release:
-        tag: v0.12.5
-        published_at: "2026-03-24T09:26:55Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: reading-plus-ai/mcp-server-data-exploration
-    categories:
-      - data-science
-      - ai-ml
-    tags:
-      - data-analysis
-      - ml-integration
-      - lang:python
-    summary: No description provided
-    last_synced_sha: 0cd67660c2591f05fe8dfe5bf93c9d5b66c5b95d
-    user_starred_at: "2026-02-16T05:19:38Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics: []
-      stargazers_count: 529
-      forks_count: 64
-      disk_usage: 45
-      owner_avatar: https://avatars.githubusercontent.com/u/190877960?v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2025-03-22T17:26:01Z"
-      repo_updated_at: "2026-03-25T15:02:47Z"
-      html_url: https://github.com/reading-plus-ai/mcp-server-data-exploration
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: cyanheads/obsidian-mcp-server
-    categories:
-      - productivity
-      - ai-ml
-    tags:
-      - knowledge-management
-      - obsidian
-      - lang:ts
-      - llm
-      - note-taking
-    summary: Obsidian Knowledge-Management MCP (Model Context Protocol) server that enables AI agents and development tools to interact with an Obsidian vault. It provides a comprehensive suite of tools for rea...
-    last_synced_sha: 57cce8836261b6014e8f82c9b100896cf87e48b3
-    user_starred_at: "2026-02-16T05:18:58Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - ai-tools
-        - knowledge-base
-        - llm
-        - llm-agent
-        - mcp
-        - model-context-protocol
-        - note-taking
-        - obsidian
-        - typescript
-      stargazers_count: 423
-      forks_count: 64
-      disk_usage: 2273
-      owner_avatar: https://avatars.githubusercontent.com/u/10339515?u=30733ea7a02a50b0a8d2f5f4588d37e41f3ba308&v=4
-      homepage_url: https://www.npmjs.com/package/obsidian-mcp-server
-      license: Apache-2.0
-      repo_pushed_at: "2025-10-24T18:05:31Z"
-      repo_updated_at: "2026-03-30T20:02:03Z"
-      html_url: https://github.com/cyanheads/obsidian-mcp-server
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: MxIris-Reverse-Engineering/ida-mcp-server
-    categories:
-      - security
-      - automation
-    tags:
-      - ida
-      - reverse-engineering
-      - lang:python
-    summary: A Model Context Protocol server for IDA
-    last_synced_sha: 74e2eb8082e4329b11a27ec420f46fbec16c8d9f
-    user_starred_at: "2026-02-16T05:18:09Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics: []
-      stargazers_count: 531
-      forks_count: 57
-      disk_usage: 2495
-      owner_avatar: https://avatars.githubusercontent.com/u/156676395?v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2025-05-29T09:58:03Z"
-      repo_updated_at: "2026-03-30T03:11:01Z"
-      html_url: https://github.com/MxIris-Reverse-Engineering/ida-mcp-server
-      default_branch: main
-      latest_release:
-        tag: v0.3.4
-        published_at: "2025-03-28T03:25:20Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: delorenj/mcp-server-trello
-    categories:
-      - productivity
-      - apis
-    tags:
-      - task-management
-      - trello
-      - lang:ts
-    summary: A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards.
-    last_synced_sha: 8afd4377b3e0d0d091d174533add14fac92690e2
-    user_starred_at: "2026-02-16T05:18:03Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics: []
-      stargazers_count: 289
-      forks_count: 100
-      disk_usage: 637
-      owner_avatar: https://avatars.githubusercontent.com/u/242611?u=8acd22770fa15cd575bd23c57d8c2a0e4647e02b&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-02-04T06:23:54Z"
-      repo_updated_at: "2026-03-31T01:13:28Z"
-      html_url: https://github.com/delorenj/mcp-server-trello
-      default_branch: main
-      latest_release:
-        tag: v1.6.1
-        published_at: "2025-10-16T21:06:09Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: juehang/vscode-mcp-server
-    categories:
-      - dev-tools
-      - ai-ml
-    tags:
-      - code-editor
-      - ai-coding
-      - lang:ts
-    summary: MCP server to expose VS Code editing features to an LLM for AI coding
-    last_synced_sha: 4f5162f4881ec02d03c65cd1ff029ae70fc468dc
-    user_starred_at: "2026-02-16T05:17:58Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics: []
-      stargazers_count: 343
-      forks_count: 70
-      disk_usage: 226
-      owner_avatar: https://avatars.githubusercontent.com/u/39200111?u=9e71fb5515db9619c60cb1b1face11bea6566b0b&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-01-07T15:40:49Z"
-      repo_updated_at: "2026-03-28T06:49:21Z"
-      html_url: https://github.com/juehang/vscode-mcp-server
-      default_branch: master
-      latest_release:
-        tag: 0.4.0
-        published_at: "2026-01-07T15:40:49Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:07:05.085Z"
-      prompt_version: v3
-  - repo: coleam00/remote-mcp-server-with-auth
-    categories:
-      - security
-      - automation
-    tags:
-      - github-oauth
-      - authentication
-      - lang:ts
-    summary: Template for a remote MCP server with Git Hub OAuth - following best practices for building MCP servers so you can take this as a starting point for any MCP server you want to build!
-    last_synced_sha: 2da7bb83099b59900bf0564a3896d025f6f9baf9
-    user_starred_at: "2026-02-16T05:17:47Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics: []
-      stargazers_count: 290
-      forks_count: 141
-      disk_usage: 300
-      owner_avatar: https://avatars.githubusercontent.com/u/47287758?u=aaa9d575d4624a8d7952e455fc752755b012086c&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2025-07-11T19:07:26Z"
-      repo_updated_at: "2026-03-29T13:29:28Z"
-      html_url: https://github.com/coleam00/remote-mcp-server-with-auth
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.248Z"
-      prompt_version: v3
-  - repo: Tiberriver256/mcp-server-azure-devops
-    categories:
-      - productivity
-      - automation
-    tags:
-      - azure-devops
-      - ai-tools
-      - lang:ts
-    summary: An MCP server for Azure Dev Ops
-    last_synced_sha: 7ad868b9a01f94929e5563dbee5d09d2d121c6ae
-    user_starred_at: "2026-02-16T05:17:22Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - azure-devops
-        - mcp-server
-        - ai
-        - claude
-        - copilot
-        - cursor
-        - mcp
-        - vscode
-      stargazers_count: 356
-      forks_count: 120
-      disk_usage: 1220
-      owner_avatar: https://avatars.githubusercontent.com/u/6989492?u=b9a5cb65c9abca67e1314c667ccf70e9472119b3&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-02-05T17:34:28Z"
-      repo_updated_at: "2026-03-30T17:58:46Z"
-      html_url: https://github.com/Tiberriver256/mcp-server-azure-devops
-      default_branch: main
-      latest_release:
-        tag: mcp-server-azure-devops-v0.1.45
-        published_at: "2026-02-05T17:34:28Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.248Z"
-      prompt_version: v3
-  - repo: executeautomation/mcp-database-server
-    categories:
-      - databases
-      - automation
-    tags:
-      - sqlite
-      - postgresql
-      - lang:ts
-    summary: MCP Database Server is a new MCP Server which helps connect with Sqlite, Sql Server and Posgresql Databases
-    last_synced_sha: d6afa4be08eb05343195635fa9462746a6be3a59
-    user_starred_at: "2026-02-16T05:17:14Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - mcp-server
-        - posgresql
-        - sqlite
-        - sqlserver
-      stargazers_count: 332
-      forks_count: 90
-      disk_usage: 10266
-      owner_avatar: https://avatars.githubusercontent.com/u/10337030?u=6740875d1824b23341727b361678a6dee9452c8a&v=4
-      homepage_url: https://executeautomation.github.io/mcp-database-server/
-      license: MIT
-      repo_pushed_at: "2025-08-27T01:22:21Z"
-      repo_updated_at: "2026-03-30T21:21:21Z"
-      html_url: https://github.com/executeautomation/mcp-database-server
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.248Z"
-      prompt_version: v3
-  - repo: e2b-dev/mcp-server
-    categories:
-      - ai-ml
-      - apis
-    tags:
-      - claude-ai
-      - code-execution
-      - lang:js
-    summary: Giving Claude ability to run code with E2B via MCP (Model Context Protocol)
-    last_synced_sha: e1e425d5ee32f6bbbb066bacd2998218964c32e3
-    user_starred_at: "2026-02-16T05:14:44Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: JavaScript
-      topics:
-        - anthropic
-        - claude
-        - claude-3-5-sonnet
-        - claude-ai
-        - model-context-protocol
-      stargazers_count: 385
-      forks_count: 68
-      disk_usage: 420
-      owner_avatar: https://avatars.githubusercontent.com/u/129434473?v=4
-      homepage_url: null
-      license: Apache-2.0
-      repo_pushed_at: "2026-03-30T18:13:52Z"
-      repo_updated_at: "2026-03-30T18:13:56Z"
-      html_url: https://github.com/e2b-dev/mcp-server
-      default_branch: main
-      latest_release:
-        tag: '@e2b/python-mcp-server@0.1.1'
-        published_at: "2025-12-31T18:23:52Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.248Z"
-      prompt_version: v3
-  - repo: Wh0am123/MCP-Kali-Server
-    categories:
-      - security
-      - system-admin
-    tags:
-      - kali-tools
-      - penetration-testing
-      - lang:python
-    summary: MCP configuration to connect AI agent to a Linux machine.
-    last_synced_sha: 00154c053845b2ec4c3eef49ad09dd9bb2d3b7aa
-    user_starred_at: "2026-02-16T05:13:58Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics:
-        - kali-tools
-        - mcp
-        - mcp-server
-        - penetration-testing
-        - pentesting
-        - security
-      stargazers_count: 606
-      forks_count: 135
-      disk_usage: 6830
-      owner_avatar: https://avatars.githubusercontent.com/u/126021652?u=ba440363017de7f0f9e63d94855cf96399fe6b4f&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-03-17T21:13:13Z"
-      repo_updated_at: "2026-03-31T02:54:49Z"
-      html_url: https://github.com/Wh0am123/MCP-Kali-Server
-      default_branch: main
-      latest_release:
-        tag: security
-        published_at: "2025-04-08T23:54:29Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.248Z"
-      prompt_version: v3
-  - repo: modelcontextprotocol/registry
-    categories:
-      - automation
-      - productivity
-    tags:
-      - registry-service
-      - mcp-integration
-      - lang:go
-    summary: A community driven registry service for Model Context Protocol (MCP) servers.
-    last_synced_sha: c5c4b9e8890dd5754bee889b2f1417f4fe3b5ce5
-    user_starred_at: "2026-02-16T05:13:50Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Go
-      topics:
-        - mcp
-        - mcp-servers
-      stargazers_count: 6606
-      forks_count: 694
-      disk_usage: 77138
-      owner_avatar: https://avatars.githubusercontent.com/u/182288589?v=4
-      homepage_url: https://github.com/modelcontextprotocol/registry/tree/main/docs
-      license: NOASSERTION
-      repo_pushed_at: "2026-03-30T23:39:28Z"
-      repo_updated_at: "2026-03-31T04:01:25Z"
-      html_url: https://github.com/modelcontextprotocol/registry
-      default_branch: main
-      latest_release:
-        tag: v1.5.0
-        published_at: "2026-03-06T23:21:20Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.248Z"
-      prompt_version: v3
-  - repo: Softeria/ms-365-mcp-server
-    categories:
-      - apis
-      - productivity
-    tags:
-      - graph-api
-      - office-integration
-      - lang:ts
-    summary: A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API
-    last_synced_sha: 70c04ad7dbec9d7bd0ac3c00247fc35d1c2f9030
-    user_starred_at: "2026-02-16T05:13:47Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics: []
-      stargazers_count: 576
-      forks_count: 217
-      disk_usage: 1188
-      owner_avatar: https://avatars.githubusercontent.com/u/33659169?v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-03-28T20:48:42Z"
-      repo_updated_at: "2026-03-30T23:43:47Z"
-      html_url: https://github.com/Softeria/ms-365-mcp-server
-      default_branch: main
-      latest_release:
-        tag: v0.47.2
-        published_at: "2026-03-25T16:38:58Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.248Z"
-      prompt_version: v3
-  - repo: mark3labs/mcp-filesystem-server
-    categories:
-      - system-admin
-      - automation
-    tags:
-      - filesystem-tools
-      - lang:go
-    summary: Go server implementing Model Context Protocol (MCP) for filesystem operations.
-    last_synced_sha: ba3f07f22c309d932fa9b1cebe1eb7c55fcbb83b
-    user_starred_at: "2026-02-16T05:13:39Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Go
-      topics: []
-      stargazers_count: 622
-      forks_count: 104
-      disk_usage: 90
-      owner_avatar: https://avatars.githubusercontent.com/u/17607124?v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2025-11-24T15:46:55Z"
-      repo_updated_at: "2026-03-29T12:33:40Z"
-      html_url: https://github.com/mark3labs/mcp-filesystem-server
-      default_branch: main
-      latest_release:
-        tag: v0.11.1
-        published_at: "2025-06-22T20:23:14Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.248Z"
-      prompt_version: v3
-  - repo: negokaz/excel-mcp-server
-    categories:
-      - productivity
-      - automation
-    tags:
-      - excel-integration
-      - data-manipulation
-      - lang:go
-    summary: A Model Context Protocol (MCP) server that reads and writes MS Excel data
-    last_synced_sha: 1ff4340573c3e421920282da1602afd89f3bb282
-    user_starred_at: "2026-02-16T05:13:28Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Go
-      topics: []
-      stargazers_count: 904
-      forks_count: 103
-      disk_usage: 856
-      owner_avatar: https://avatars.githubusercontent.com/u/1239141?u=f6dd7c5cde65e867b6a4ceed9857f715f0df5124&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2025-07-19T13:09:21Z"
-      repo_updated_at: "2026-03-27T17:47:44Z"
-      html_url: https://github.com/negokaz/excel-mcp-server
-      default_branch: main
-      latest_release:
-        tag: v0.12.0
-        published_at: "2025-07-19T13:12:20Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.248Z"
-      prompt_version: v3
-  - repo: janwilmake/openapi-mcp-server
-    categories:
-      - apis
-      - ai-ml
-    tags:
-      - openapi
-      - ai-integration
-      - lang:ts
-    summary: Allow AI to wade through complex Open APIs using Simple Language
-    last_synced_sha: 23c6986f8f2c1d44b718f914787209cb7e377d6f
-    user_starred_at: "2026-02-16T05:13:25Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics: []
-      stargazers_count: 888
-      forks_count: 94
-      disk_usage: 1203
-      owner_avatar: https://avatars.githubusercontent.com/u/97664551?u=baa6b5ea77a6f0a9cb71659f031839eb83e1e54f&v=4
-      homepage_url: https://openapisearch.com
-      license: MIT
-      repo_pushed_at: "2026-02-21T12:49:21Z"
-      repo_updated_at: "2026-03-30T06:56:04Z"
-      html_url: https://github.com/janwilmake/openapi-mcp-server
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.248Z"
-      prompt_version: v3
-  - repo: echelon-ai-labs/servicenow-mcp
-    categories:
-      - automation
-      - productivity
-    tags:
-      - servicenow-integration
-      - workflow-tools
-      - lang:python
-    summary: MCP Server for Service Now
-    last_synced_sha: 06250607bdfc814f9bb56551bba16c3a7fb5a8c9
-    user_starred_at: "2026-02-16T05:13:10Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics: []
-      stargazers_count: 230
-      forks_count: 193
-      disk_usage: 178
-      owner_avatar: https://avatars.githubusercontent.com/u/144877882?v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2025-10-03T19:58:17Z"
-      repo_updated_at: "2026-03-30T14:51:21Z"
-      html_url: https://github.com/echelon-ai-labs/servicenow-mcp
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.247Z"
-      prompt_version: v3
-  - repo: MCPJam/inspector
-    categories:
-      - testing
-      - automation
-    tags:
-      - debugging-tools
-      - chatgpt
-      - lang:ts
-    summary: Test & Debug MCP servers, Chat GPT apps, and MCP Apps (ext-apps)
-    last_synced_sha: e02e6ba0f532337db66e08fa1618595a0a767c33
-    user_starred_at: "2026-02-16T05:12:11Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - mcp
-        - modelcontextprotocol
-        - mcp-clients
-        - mcp-tools
-        - opensource
-        - chatgpt
-        - mcp-apps
-      stargazers_count: 1828
-      forks_count: 204
-      disk_usage: 127550
-      owner_avatar: https://avatars.githubusercontent.com/u/205991612?v=4
-      homepage_url: https://www.mcpjam.com/
-      license: NOASSERTION
-      repo_pushed_at: "2026-03-31T02:25:17Z"
-      repo_updated_at: "2026-03-31T01:50:15Z"
-      html_url: https://github.com/MCPJam/inspector
-      default_branch: main
-      latest_release:
-        tag: v2.0.18
-        published_at: "2026-03-24T19:55:15Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.247Z"
-      prompt_version: v3
-  - repo: GH05TCREW/MetasploitMCP
-    categories:
-      - security
-      - automation
-    tags:
-      - pentesting
-      - metasploit
-      - lang:python
-    summary: MCP Server for Metasploit
-    last_synced_sha: afc792d9ee17540f8a94349b20a3b203e6961a92
-    user_starred_at: "2026-02-16T05:12:00Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics: []
-      stargazers_count: 556
-      forks_count: 161
-      disk_usage: 68
-      owner_avatar: https://avatars.githubusercontent.com/u/183985551?u=1f411ca0d18c4dab8b01fa79c69f7e15475ab471&v=4
-      homepage_url: null
-      license: Apache-2.0
-      repo_pushed_at: "2026-02-05T16:43:49Z"
-      repo_updated_at: "2026-03-30T19:13:39Z"
-      html_url: https://github.com/GH05TCREW/MetasploitMCP
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.247Z"
-      prompt_version: v3
-  - repo: GongRzhe/Office-PowerPoint-MCP-Server
-    categories:
-      - productivity
-      - automation
-    tags:
-      - powerpoint-manipulation
-      - presentation-tools
-      - lang:python
-    summary: A MCP (Model Context Protocol) server for Power Point manipulation using python-pptx. This server provides tools for creating, editing, and manipulating Power Point presentations through the MCP pr...
-    last_synced_sha: 3631ba2ec0c24504476f78bf74d329c9be11caaa
-    user_starred_at: "2026-02-16T05:11:55Z"
-    readme_quality: missing
-    needs_review: false
-    archived: true
-    github_metadata:
-      language: Python
-      topics: []
-      stargazers_count: 1610
-      forks_count: 213
-      disk_usage: 69663
-      owner_avatar: https://avatars.githubusercontent.com/u/38748229?u=70ede2fa4c19500d4cb610ab05d946ca841f5191&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2025-12-31T13:23:39Z"
-      repo_updated_at: "2026-03-30T07:38:11Z"
-      html_url: https://github.com/GongRzhe/Office-PowerPoint-MCP-Server
-      default_branch: main
-      latest_release:
-        tag: v2.0.7
-        published_at: "2025-12-31T13:23:39Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.247Z"
-      prompt_version: v3
-  - repo: arabold/docs-mcp-server
-    categories:
-      - ai-ml
-      - documentation
-    tags:
-      - llm
-      - agent-assisted
-      - lang:ts
-    summary: 'Grounded Docs MCP Server: Open-Source Alternative to Context7, Nia, and Ref.Tools'
-    last_synced_sha: e870708c67fd2c6d870a17636971642ae0876683
-    user_starred_at: "2026-02-16T05:11:37Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - agentic-ai
-        - copilot
-        - cursor
-        - llm
-        - mcp
-        - vscode
-        - windsurf
-      stargazers_count: 1179
-      forks_count: 141
-      disk_usage: 9925
-      owner_avatar: https://avatars.githubusercontent.com/u/1548229?v=4
-      homepage_url: https://grounded.tools
-      license: MIT
-      repo_pushed_at: "2026-03-30T13:05:34Z"
-      repo_updated_at: "2026-03-31T01:00:35Z"
-      html_url: https://github.com/arabold/docs-mcp-server
-      default_branch: main
-      latest_release:
-        tag: v2.1.1
-        published_at: "2026-03-16T19:08:25Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:33.247Z"
-      prompt_version: v3
-  - repo: isaacphi/mcp-language-server
-    categories:
-      - ai-ml
-      - apis
-      - networking
-    tags:
-      - language-server
-      - mcp
-      - lang:go
-    summary: mcp-language-server gives MCP enabled clients access semantic tools like get definition, references, rename, and diagnostics.
-    last_synced_sha: e4395849a52e18555361abab60a060802c06bf50
-    user_starred_at: "2026-02-16T05:11:32Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Go
-      topics:
-        - ai
-        - language-server-protocol
-        - mcp
-        - mcp-server
-        - model-context-protocol
-      stargazers_count: 1504
-      forks_count: 122
-      disk_usage: 2604
-      owner_avatar: https://avatars.githubusercontent.com/u/3385849?u=65fac478fc8a9827cf3447d383dd63a5452b316d&v=4
-      homepage_url: null
-      license: BSD-3-Clause
-      repo_pushed_at: "2026-03-01T23:27:09Z"
-      repo_updated_at: "2026-03-31T01:45:19Z"
-      html_url: https://github.com/isaacphi/mcp-language-server
-      default_branch: main
-      latest_release:
-        tag: v0.1.1
-        published_at: "2025-05-16T17:41:09Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: financial-datasets/mcp-server
-    categories:
-      - apis
-      - data-science
-    tags:
-      - financial-data
-      - stock-market
-      - lang:python
-    summary: An MCP server for interacting with the Financial Datasets stock market API.
-    last_synced_sha: 08e7a3dbb949d3d99bbd6d6f3a22e5f02973ec58
-    user_starred_at: "2026-02-16T05:11:21Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics: []
-      stargazers_count: 1729
-      forks_count: 271
-      disk_usage: 23
-      owner_avatar: https://avatars.githubusercontent.com/u/202291166?v=4
-      homepage_url: https://www.financialdatasets.ai/
-      license: MIT
-      repo_pushed_at: "2025-06-05T19:50:38Z"
-      repo_updated_at: "2026-03-30T08:05:15Z"
-      html_url: https://github.com/financial-datasets/mcp-server
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: GongRzhe/Office-Word-MCP-Server
-    categories:
-      - apis
-      - productivity
-    tags:
-      - mcp-server
-      - microsoft-word
-      - lang:python
-    summary: A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interfac...
-    last_synced_sha: a3bbbb6d6167e68cf855d73ef7dc6cd8cfbfedba
-    user_starred_at: "2026-02-16T05:10:47Z"
-    readme_quality: missing
-    needs_review: false
-    archived: true
-    github_metadata:
-      language: Python
-      topics: []
-      stargazers_count: 1792
-      forks_count: 238
-      disk_usage: 144
-      owner_avatar: https://avatars.githubusercontent.com/u/38748229?u=70ede2fa4c19500d4cb610ab05d946ca841f5191&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2025-12-31T13:23:05Z"
-      repo_updated_at: "2026-03-31T01:57:12Z"
-      html_url: https://github.com/GongRzhe/Office-Word-MCP-Server
-      default_branch: main
-      latest_release:
-        tag: v1.1.11
-        published_at: "2025-12-31T13:23:05Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: mcp-router/mcp-router
-    categories:
-      - system-admin
-      - networking
-    tags:
-      - mcp-server
-      - server-management
-      - lang:ts
-    summary: A Unified MCP Server Management App (MCP Manager).
-    last_synced_sha: a213cd330d1abef0144b19a84b64ddd9b7f974aa
-    user_starred_at: "2026-02-16T05:10:25Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - mcp
-        - mcp-server
-        - mcp-servers
-        - llm
-        - llmops
-        - mcp-client
-        - mcp-tools
-        - mcp-manager
-        - mcp-router
-      stargazers_count: 1917
-      forks_count: 158
-      disk_usage: 27324
-      owner_avatar: https://avatars.githubusercontent.com/u/205488841?v=4
-      homepage_url: https://mcp-router.net
-      license: NOASSERTION
-      repo_pushed_at: "2026-01-24T06:22:47Z"
-      repo_updated_at: "2026-03-31T02:08:28Z"
-      html_url: https://github.com/mcp-router/mcp-router
-      default_branch: main
-      latest_release:
-        tag: v0.6.2
-        published_at: "2026-01-19T15:21:46Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: donnemartin/system-design-primer
-    categories:
-      - learning
-      - web-dev
-    tags:
-      - system-design
-      - web-development
-      - lang:python
-    summary: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
-    last_synced_sha: ae9bbd7b02d90b9866215de185217d33f39ab733
-    user_starred_at: "2026-02-16T04:56:01Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics:
-        - programming
-        - development
-        - design
-        - design-system
-        - system
-        - design-patterns
-        - web
-        - web-application
-        - webapp
-        - python
-        - interview
-        - interview-questions
-        - interview-practice
-      stargazers_count: 340742
-      forks_count: 55124
-      disk_usage: 11277
-      owner_avatar: https://avatars.githubusercontent.com/u/5458997?u=f1007b583e55e7ccfb6ccf0e200051156112dd9b&v=4
-      homepage_url: null
-      license: NOASSERTION
-      repo_pushed_at: "2026-03-20T01:52:19Z"
-      repo_updated_at: "2026-03-31T04:01:33Z"
-      html_url: https://github.com/donnemartin/system-design-primer
-      default_branch: master
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: FlorianWilhelm/the-hatchlor
-    categories:
-      - dev-tools
-      - productivity
-    tags:
-      - cookiecutter
-      - project-template
-      - lang:python
-    summary: "\U0001F339 Cookiecutter template featuring the modern and extensible Python project manager hatch"
-    last_synced_sha: 302e0ec16e95096d539ac6330f984cab086c5558
-    user_starred_at: "2026-02-16T04:55:26Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics:
-        - cookiecutter
-        - python
-        - distribution
-        - git
-        - package
-        - package-creation
-        - package-management
-        - project-template
-        - release-automation
-        - template-project
-      stargazers_count: 82
-      forks_count: 8
-      disk_usage: 474
-      owner_avatar: https://avatars.githubusercontent.com/u/3184072?u=155f3d3bada0365a359c210b7fb377f1438b6afe&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2024-11-18T12:48:01Z"
-      repo_updated_at: "2026-02-16T04:55:26Z"
-      html_url: https://github.com/FlorianWilhelm/the-hatchlor
-      default_branch: main
-      latest_release:
-        tag: v0.7
-        published_at: "2024-09-18T19:19:42Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: anomalyco/opencode-sdk-python
-    categories:
-      - apis
-      - unclassified
-    tags:
-      - lang:python
-    summary: No description provided
-    last_synced_sha: 817f1a08163452fd7fcfbb1268b262cc78a9d629
-    user_starred_at: "2026-02-16T04:46:12Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics: []
-      stargazers_count: 171
-      forks_count: 18
-      disk_usage: 399
-      owner_avatar: https://avatars.githubusercontent.com/u/66570915?v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-01-30T03:58:42Z"
-      repo_updated_at: "2026-03-27T05:01:27Z"
-      html_url: https://github.com/anomalyco/opencode-sdk-python
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: HKUDS/MoChat
-    categories:
-      - web-dev
-      - ai-ml
-    tags:
-      - ai-assistant
-      - social-agent
-      - lang:ts
-    summary: '"Mo Chat: Open Claw as Your Social Agent https://mochat.io"'
-    last_synced_sha: 382a23e83e895dfec18a8503268292c7874d0577
-    user_starred_at: "2026-02-15T21:40:06Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics: []
-      stargazers_count: 217
-      forks_count: 41
-      disk_usage: 73949
-      owner_avatar: https://avatars.githubusercontent.com/u/118165258?v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-02-12T11:57:48Z"
-      repo_updated_at: "2026-03-30T22:35:17Z"
-      html_url: https://github.com/HKUDS/MoChat
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: dead10ck/nu_plugin_dns
-    categories:
-      - networking
-      - dev-tools
-    tags:
-      - dns
-      - nushell-plugin
-      - lang:rust
-    summary: DNS utility for nushell
-    last_synced_sha: 9129ca265755a47bb710ff513f2f006f5d815efe
-    user_starred_at: "2026-02-15T17:06:06Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Rust
-      topics: []
-      stargazers_count: 53
-      forks_count: 2
-      disk_usage: 749
-      owner_avatar: https://avatars.githubusercontent.com/u/846275?v=4
-      homepage_url: null
-      license: MPL-2.0
-      repo_pushed_at: "2026-03-03T20:59:33Z"
-      repo_updated_at: "2026-03-23T20:52:52Z"
-      html_url: https://github.com/dead10ck/nu_plugin_dns
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: kinhunt/mcpdog
-    categories:
-      - automation
-      - system-admin
-      - ai-ml
-    tags:
-      - server-management
-      - ai-assistant
-      - lang:ts
-    summary: "\U0001F415 Universal MCP Server Manager - Configure once, manage multiple MCP servers through a single interface. Perfect for Claude Desktop, Claude Code, Cursor, Gemini CLI & AI assistants. Web dashboard,..."
-    last_synced_sha: a008041fbaff1c03a5c653044144a2b15fc75233
-    user_starred_at: "2026-02-15T08:12:00Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - ai-assistant
-        - claude
-        - cursor
-        - mcp
-        - model-context-protocol
-        - nodejs
-        - proxy
-        - server-management
-        - typescript
-        - web-dashboard
-      stargazers_count: 17
-      forks_count: 3
-      disk_usage: 614
-      owner_avatar: https://avatars.githubusercontent.com/u/1231514?v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2025-10-19T03:14:39Z"
-      repo_updated_at: "2026-03-29T04:12:51Z"
-      html_url: https://github.com/kinhunt/mcpdog
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: maxritter/pilot-shell
-    categories:
-      - ai-ml
-      - productivity
-    tags:
-      - ai-assistant
-      - ai-engineering
-      - lang:ts
-    summary: 'The professional development environment for Claude Code: From requirement to production-grade code. Planned, tested, verified.'
-    last_synced_sha: 333505c2450b78db730b5a5bdef408d52cd87507
-    user_starred_at: "2026-02-14T17:36:45Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - ai-agents
-        - ai-tools
-        - anthropic
-        - claude
-        - claude-ai
-        - claude-code
-        - spec-driven-development
-        - ai-assistant
-        - ai-coding
-        - ai-engineering
-        - claudecode
-        - model-context-protocol
-        - ai-coding-tools
-        - anthropic-claude
-        - claude-context
-        - claude-skills
-        - claude-mem
-      stargazers_count: 1603
-      forks_count: 135
-      disk_usage: 99141
-      owner_avatar: https://avatars.githubusercontent.com/u/12452009?u=25fab139f99d21302587856e8c477d6e3654e3eb&v=4
-      homepage_url: https://pilot-shell.com
-      license: NOASSERTION
-      repo_pushed_at: "2026-03-30T14:41:45Z"
-      repo_updated_at: "2026-03-30T18:10:55Z"
-      html_url: https://github.com/maxritter/pilot-shell
-      default_branch: main
-      latest_release:
-        tag: v7.7.6
-        published_at: "2026-03-25T15:36:39Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: microsoft/PSRule-pipelines
-    categories:
-      - testing
-      - automation
-      - dev-tools
-    tags:
-      - iac
-      - infrastructure-validation
-      - lang:powershell
-    summary: Validate infrastructure as code (Ia C) and Dev Ops repositories using Azure Pipelines.
-    last_synced_sha: 6b3d9a21dfa94ad4f313f19de7e1d9d5266407f8
-    user_starred_at: "2026-02-14T12:18:20Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - devops
-        - azure-pipelines
-        - azure-devops
-        - powershell
-        - rule
-        - psrule
-        - devops-tools
-        - iac
-        - infrastructure-as-code
-        - yaml-pipelines
-        - cicd
-        - hacktoberfest
-      stargazers_count: 102
-      forks_count: 22
-      disk_usage: 2278
-      owner_avatar: https://avatars.githubusercontent.com/u/6154722?v=4
-      homepage_url: https://marketplace.visualstudio.com/items?itemName=bewhite.ps-rule
-      license: MIT
-      repo_pushed_at: "2026-03-25T23:59:49Z"
-      repo_updated_at: "2026-03-24T23:40:04Z"
-      html_url: https://github.com/microsoft/PSRule-pipelines
-      default_branch: main
-      latest_release:
-        tag: v2.9.0
-        published_at: "2023-06-18T13:31:12Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: vectra-ai-research/MAAD-AF
-    categories:
-      - security
-      - cloud
-      - automation
-    tags:
-      - adversary-emulation
-      - security-testing
-      - lang:powershell
-    summary: MAAD Attack Framework - An attack tool for simple, fast & effective security testing of M365 & Entra ID (Azure AD).
-    last_synced_sha: b89412b51b85b07efc77f2fa6e2b39d138269daf
-    user_starred_at: "2026-02-14T12:18:04Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - adversary-emulation
-        - microsoft
-        - microsoft-azure-security
-        - powershell
-        - security
-        - cloud-security
-        - mitre
-        - red-team
-        - security-testing
-        - azuread
-        - cloud-administration
-        - microsoft365
-        - identity-access-management
-        - microsoft-graph
-        - ttp
-        - entra-id
-      stargazers_count: 420
-      forks_count: 63
-      disk_usage: 540
-      owner_avatar: https://avatars.githubusercontent.com/u/73718416?v=4
-      homepage_url: https://maad-af.com
-      license: GPL-3.0
-      repo_pushed_at: "2026-01-13T23:59:47Z"
-      repo_updated_at: "2026-03-29T14:55:37Z"
-      html_url: https://github.com/vectra-ai-research/MAAD-AF
-      default_branch: main
-      latest_release:
-        tag: v3.0
-        published_at: "2024-01-15T19:52:27Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: azurekid/blackcat
-    categories:
-      - security
-      - cloud
-    tags:
-      - azure
-      - security
-      - lang:powershell
-    summary: Black Cat is a Power Shell module designed to validate the security of Microsoft Azure. It provides a set of functions to identify potential security holes.
-    last_synced_sha: 7baf7bbbbd449aadbeba557640036eeabb2fa7fb
-    user_starred_at: "2026-02-14T12:17:55Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics: []
-      stargazers_count: 200
-      forks_count: 27
-      disk_usage: 2949
-      owner_avatar: https://avatars.githubusercontent.com/u/40334679?u=ac680f4d010939ffc0497c5646f51259f78eb30e&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-03-18T18:56:55Z"
-      repo_updated_at: "2026-03-24T07:09:52Z"
-      html_url: https://github.com/azurekid/blackcat
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: knom/AzureResourceOwnerTag
-    categories:
-      - automation
-      - cloud
-    tags:
-      - azure
-      - auto-tagging
-      - lang:powershell
-    summary: Azure Automation Script that Tags Azure Resource Groups with the OWNER and EXPIRY DATE
-    last_synced_sha: f2a2c66d8061a6979a9ea0df3142a15f969a2462
-    user_starred_at: "2026-02-14T12:17:48Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - azure
-        - azure-automation
-        - powershell
-        - tagging
-        - auto-tagging
-        - tags
-        - e-mail
-      stargazers_count: 12
-      forks_count: 7
-      disk_usage: 50
-      owner_avatar: https://avatars.githubusercontent.com/u/3861846?u=db3da5a08bc5cdb750015f1991e2e8c856590425&v=4
-      homepage_url: http://blog.knor.net/2016/12/automatically-tagging-azure-resource-groups-with-the-owner/
-      license: MIT
-      repo_pushed_at: "2018-05-27T07:55:30Z"
-      repo_updated_at: "2026-02-14T12:17:48Z"
-      html_url: https://github.com/knom/AzureResourceOwnerTag
-      default_branch: master
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:06:02.610Z"
-      prompt_version: v3
-  - repo: JWStarkie/PurviewAccelerator
-    categories:
-      - cloud
-      - automation
-    tags:
-      - purview
-      - azure-deployment
-      - lang:powershell
-    summary: A lightning fast tool to automatically deploy Purview in a super fast at the click of a button. Clone the repo, execute the scripts, wait 10 minutes and boom - your Purview environment is up and ru...
-    last_synced_sha: 23bd8bf1d6981d53b6dbe8f1b5dc8301ae6bb4e9
-    user_starred_at: "2026-02-14T12:17:24Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - azure
-        - powershell
-        - purview
-      stargazers_count: 13
-      forks_count: 10
-      disk_usage: 32323
-      owner_avatar: https://avatars.githubusercontent.com/u/42718960?u=674d4716226636c372c02cf72ecb1362a2bf0f2a&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2021-10-22T15:15:19Z"
-      repo_updated_at: "2026-03-02T12:33:47Z"
-      html_url: https://github.com/JWStarkie/PurviewAccelerator
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: SoyITPro/scripts
-    categories:
-      - system-admin
-      - automation
-    tags:
-      - windows
-      - server-management
-      - lang:powershell
-    summary: Scripts para administradores de servidores Windows, Azure, Docker, Linux y más
-    last_synced_sha: de98469fbeca0a7d605ad4d3116aab455d7e325a
-    user_starred_at: "2026-02-14T12:17:15Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - powershell
-        - server
-        - windows
-      stargazers_count: 51
-      forks_count: 6
-      disk_usage: 51
-      owner_avatar: https://avatars.githubusercontent.com/u/21012566?u=fade2a2cd687b018277ffe4394da864b07cec8fc&v=4
-      homepage_url: https://SoyITPro.com
-      license: null
-      repo_pushed_at: "2026-03-25T14:51:57Z"
-      repo_updated_at: "2026-03-25T14:52:08Z"
-      html_url: https://github.com/SoyITPro/scripts
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: michaelmsonne/ManagedIdentityPermissionManager
-    categories:
-      - security
-      - automation
-    tags:
-      - managed-identity
-      - identity-management
-      - lang:powershell
-      - entra-id
-    summary: Azure Managed Identity Permissions Tool, a new Power Shell tool that simplifies and streamlines the management of Managed Identity permissions in Azure (Entra ID)
-    last_synced_sha: 480d56323b2e78cbe6b20a77d3ea9d3365abe753
-    user_starred_at: "2026-02-14T12:17:05Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - automation
-        - azure
-        - entra-id
-        - entraid
-        - identity
-        - managedidentity
-        - service-account
-        - audit
-        - azuread
-        - entraid-security-assessments
-        - gui
-        - logging
-        - microsoftgraph
-        - opensource
-        - permissions
-        - powershell
-        - tooling
-      stargazers_count: 128
-      forks_count: 9
-      disk_usage: 16223
-      owner_avatar: https://avatars.githubusercontent.com/u/49366751?u=c5efbda0d6337c0bb2f02af806f4a8c47ab60b82&v=4
-      homepage_url: https://blog.sonnes.cloud
-      license: MIT
-      repo_pushed_at: "2026-01-26T10:30:33Z"
-      repo_updated_at: "2026-02-15T01:09:18Z"
-      html_url: https://github.com/michaelmsonne/ManagedIdentityPermissionManager
-      default_branch: main
-      latest_release:
-        tag: 1.1.0.4
-        published_at: "2026-01-26T10:30:33Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: zh54321/EntraTokenAid
-    categories:
-      - security
-      - automation
-    tags:
-      - oauth2
-      - entra-id
-      - token-management
-      - lang:powershell
-    summary: A pure Power Shell solution for Entra OAuth authentication, enabling easy retrieval of access and refresh tokens
-    last_synced_sha: b14afe8e3b605e8827f87ff88e4b9a210b2c3cda
-    user_starred_at: "2026-02-14T12:16:26Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - azure
-        - entra
-        - entra-id
-        - oauth2-client
-        - pentesting
-        - pentesting-tools
-      stargazers_count: 134
-      forks_count: 15
-      disk_usage: 993
-      owner_avatar: https://avatars.githubusercontent.com/u/75389161?u=d41d14f2634e009dbcb0638763f4ad87fe6d3705&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-01-27T11:56:51Z"
-      repo_updated_at: "2026-03-30T15:06:24Z"
-      html_url: https://github.com/zh54321/EntraTokenAid
-      default_branch: main
-      latest_release:
-        tag: V20260127
-        published_at: "2026-01-27T11:56:53Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: CompassSecurity/EntraFalcon
-    categories:
-      - security
-      - cloud
-    tags:
-      - entra-id
-      - azuread
-      - security-assessment
-      - lang:powershell
-    summary: A lightweight Power Shell tool for assessing the security posture of Microsoft Entra ID environments. It helps identify privileged objects, risky assignments, and potential misconfigurations.
-    last_synced_sha: 2415a3511df12b0514b8caf6538dff1b4441e6d8
-    user_starred_at: "2026-02-14T12:16:14Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - azure
-        - azuread
-        - cloud
-        - entra
-        - entra-id
-        - enumeration-tool
-        - pentest-tool
-      stargazers_count: 360
-      forks_count: 32
-      disk_usage: 2734
-      owner_avatar: https://avatars.githubusercontent.com/u/6852371?v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-03-27T21:09:12Z"
-      repo_updated_at: "2026-03-30T12:48:47Z"
-      html_url: https://github.com/CompassSecurity/EntraFalcon
-      default_branch: main
-      latest_release:
-        tag: V20260321
-        published_at: "2026-03-21T09:37:04Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: SteffMet/Azure-Office365-Security-Reporting
-    categories:
-      - security
-      - cloud
-    tags:
-      - azure
-      - office365
-      - lang:powershell
-      - security-reporting
-    summary: Powershell Script to Check Security and Gather Information within Azure and Office 365
-    last_synced_sha: 5f1917790a5ee517a8a8fcb06b5524118d84021a
-    user_starred_at: "2026-02-14T12:15:28Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics: []
-      stargazers_count: 54
-      forks_count: 6
-      disk_usage: 2908
-      owner_avatar: https://avatars.githubusercontent.com/u/4765130?u=4a6d5fa6f3d4651777338d04a4bec7edffb9679b&v=4
-      homepage_url: null
-      license: null
-      repo_pushed_at: "2025-07-15T09:00:38Z"
-      repo_updated_at: "2026-03-20T07:26:05Z"
-      html_url: https://github.com/SteffMet/Azure-Office365-Security-Reporting
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: arcus-azure/arcus.scripting
-    categories:
-      - dev-tools
-      - automation
-    tags:
-      - azure
-      - lang:powershell
-      - scripting
-      - admin-tools
-    summary: Scripting with Microsoft Azure in a breeze.
-    last_synced_sha: 05c84bd0a16bdff4300bf3f602fc3927612b06e2
-    user_starred_at: "2026-02-14T12:15:04Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - azure
-        - powershell
-        - hacktoberfest
-      stargazers_count: 10
-      forks_count: 14
-      disk_usage: 2885
-      owner_avatar: https://avatars.githubusercontent.com/u/38918889?v=4
-      homepage_url: https://scripting.arcus-azure.net/
-      license: MIT
-      repo_pushed_at: "2026-03-25T23:58:10Z"
-      repo_updated_at: "2026-03-19T06:56:01Z"
-      html_url: https://github.com/arcus-azure/arcus.scripting
-      default_branch: main
-      latest_release:
-        tag: v1.6.0
-        published_at: "2025-12-31T09:16:18Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: PalmEmanuel/AzAuth
-    categories:
-      - security
-      - cloud
-    tags:
-      - authentication
-      - azure
-      - lang:powershell
-      - identity-management
-    summary: A Power Shell module to handle authentication for Azure.
-    last_synced_sha: d49ddd8f303369c74e34f2f7d2fbc5366567d018
-    user_starred_at: "2026-02-14T12:14:57Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - azure
-        - csharp
-        - powershell
-      stargazers_count: 41
-      forks_count: 6
-      disk_usage: 311
-      owner_avatar: https://avatars.githubusercontent.com/u/3384251?u=23280b9a2fc78b47d4e58ab2c5bf4eb45e875f2a&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-03-30T20:41:14Z"
-      repo_updated_at: "2026-03-30T23:59:27Z"
-      html_url: https://github.com/PalmEmanuel/AzAuth
-      default_branch: main
-      latest_release:
-        tag: v2.8.0
-        published_at: "2026-03-05T21:50:32Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: LaresLLC/AzureTokenExtractor
-    categories:
-      - security
-      - cloud
-    tags:
-      - azure
-      - token-extraction
-      - lang:python
-      - lang:powershell
-    summary: Extracts Azure authentication tokens from Power Shell process minidumps.
-    last_synced_sha: ec71855f94fc04791eb50f2586e6f52cad1dbf3a
-    user_starred_at: "2026-02-14T12:14:44Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics:
-        - azure
-        - powershell
-        - python3
-      stargazers_count: 25
-      forks_count: 4
-      disk_usage: 19
-      owner_avatar: https://avatars.githubusercontent.com/u/63059624?v=4
-      homepage_url: https://labs.lares.com/hunting-azure-admins-for-vertical-escalation-part-2/
-      license: GPL-3.0
-      repo_pushed_at: "2023-05-20T01:26:58Z"
-      repo_updated_at: "2026-02-14T12:14:45Z"
-      html_url: https://github.com/LaresLLC/AzureTokenExtractor
-      default_branch: master
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: Donovand4/ConditionalAccessPolicyReport
-    categories:
-      - security
-      - cloud
-    tags:
-      - azure-ad
-      - reporting
-      - lang:powershell
-      - policy-analysis
-    summary: Power Shell Script used to create a report for Azure AD Conditional Access Policies.
-    last_synced_sha: 5ae09c85d93dee1cff73bf2dd5f8d112fc331285
-    user_starred_at: "2026-02-14T12:14:40Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics: []
-      stargazers_count: 37
-      forks_count: 19
-      disk_usage: 174
-      owner_avatar: https://avatars.githubusercontent.com/u/49915971?v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2025-11-19T20:42:25Z"
-      repo_updated_at: "2026-02-14T12:14:41Z"
-      html_url: https://github.com/Donovand4/ConditionalAccessPolicyReport
-      default_branch: master
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: Azure/PSDocs.Azure
-    categories:
-      - documentation
-      - cloud
-    tags:
-      - azure
-      - documentation-generator
-      - lang:powershell
-      - devops
-    summary: Generate documentation from Azure infrastructure as code (Ia C) artifacts.
-    last_synced_sha: b6a9e63ad0810257a57e02e42b9fcbd8ad0a744b
-    user_starred_at: "2026-02-14T12:12:15Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - azure
-        - powershell
-        - infrastructure-as-code
-        - devops
-        - devops-tools
-        - documentation-generator
-        - markdown
-        - psdocs
-      stargazers_count: 66
-      forks_count: 24
-      disk_usage: 4127
-      owner_avatar: https://avatars.githubusercontent.com/u/6844498?v=4
-      homepage_url: https://azure.github.io/PSDocs.Azure/
-      license: MIT
-      repo_pushed_at: "2026-02-03T01:42:37Z"
-      repo_updated_at: "2026-02-26T11:33:45Z"
-      html_url: https://github.com/Azure/PSDocs.Azure
-      default_branch: main
-      latest_release:
-        tag: v0.3.0
-        published_at: "2021-05-20T04:55:24Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: PSBicep/PSBicep
-    categories:
-      - cloud
-      - automation
-    tags:
-      - bicep
-      - azure-infrastructure
-      - lang:powershell
-      - arm-templates
-    summary: This is the repo for the Bicep Power Shell Module.
-    last_synced_sha: 7b36a16606a42b21cd64e9640a6627385eba23ee
-    user_starred_at: "2026-02-14T12:11:38Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - bicep-cli
-        - bicep-powershell
-        - azure
-        - arm
-        - arm-templates
-        - powershell
-        - powershell-module
-        - bicep
-        - bicep-azure
-        - bicep-lang
-      stargazers_count: 148
-      forks_count: 36
-      disk_usage: 927
-      owner_avatar: https://avatars.githubusercontent.com/u/86575134?v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-03-25T19:59:59Z"
-      repo_updated_at: "2026-03-25T15:50:28Z"
-      html_url: https://github.com/PSBicep/PSBicep
-      default_branch: main
-      latest_release:
-        tag: v2.9.2
-        published_at: "2025-07-09T10:55:32Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: EvotecIT/O365Essentials
-    categories:
-      - apis
-      - automation
-    tags:
-      - office365
-      - management
-      - lang:powershell
-      - undocumented-api
-    summary: A module that helps to manage some tasks on Office 365/Azure via undocumented API
-    last_synced_sha: 2de8c392ac106e113ccf968734f476a501c0d948
-    user_starred_at: "2026-02-14T12:11:27Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - powershell
-        - office365
-        - api
-      stargazers_count: 144
-      forks_count: 22
-      disk_usage: 1070
-      owner_avatar: https://avatars.githubusercontent.com/u/15376314?v=4
-      homepage_url: null
-      license: null
-      repo_pushed_at: "2026-02-14T21:44:41Z"
-      repo_updated_at: "2026-02-25T11:23:21Z"
-      html_url: https://github.com/EvotecIT/O365Essentials
-      default_branch: master
-      latest_release:
-        tag: v1.0.2
-        published_at: "2025-08-07T10:51:01Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: pnp/script-samples
-    categories:
-      - dev-tools
-      - productivity
-      - automation
-    tags:
-      - microsoft365
-      - lang:powershell
-      - cli
-      - integration
-      - admin-tools
-    summary: A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more.
-    last_synced_sha: 7e23cab0c1b94a476f73abe45cf36d0cff3b19ff
-    user_starred_at: "2026-02-14T12:10:41Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - pnp
-        - microsoft
-        - azure
-        - sharepoint
-        - azure-active-directory
-        - microsoft-graph-sdk
-        - teams
-        - powershell
-        - hacktoberfest
-        - microsoftgraph
-        - microsoft-teams
-        - microsoft-office
-        - microsoft-graph
-        - microsoft-graph-api
-        - microsoft365
-        - pnp-powershell
-        - cliformicrosoft365
-      stargazers_count: 307
-      forks_count: 178
-      disk_usage: 108540
-      owner_avatar: https://avatars.githubusercontent.com/u/31443929?v=4
-      homepage_url: https://pnp.github.io/script-samples/
-      license: MIT
-      repo_pushed_at: "2026-03-27T06:44:43Z"
-      repo_updated_at: "2026-03-28T06:44:54Z"
-      html_url: https://github.com/pnp/script-samples
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: invictus-ir/Microsoft-Extractor-Suite
-    categories:
-      - security
-      - automation
-    tags:
-      - incident-response
-      - cybersecurity
-      - lang:powershell
-    summary: A Power Shell module for acquisition of data from Microsoft 365 and Azure for Incident Response and Cyber Security purposes.
-    last_synced_sha: 192481b3ec5fdce1de4b097c48ac91e53f0bb7a9
-    user_starred_at: "2026-02-14T12:09:48Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - microsoft
-        - microsoft365
-      stargazers_count: 784
-      forks_count: 114
-      disk_usage: 6293
-      owner_avatar: https://avatars.githubusercontent.com/u/85489828?v=4
-      homepage_url: https://microsoft-365-extractor-suite.readthedocs.io/en/latest/
-      license: GPL-2.0
-      repo_pushed_at: "2026-03-25T07:56:34Z"
-      repo_updated_at: "2026-03-30T20:39:41Z"
-      html_url: https://github.com/invictus-ir/Microsoft-Extractor-Suite
-      default_branch: main
-      latest_release:
-        tag: V4.0.2
-        published_at: "2026-01-12T12:32:40Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:31.536Z"
-      prompt_version: v3
-  - repo: wesellis/Azure-PowerShell-Toolkit
-    categories:
-      - automation
-      - cloud
-    tags:
-      - automation
-      - azure
-      - powershell
-      - lang:powershell
-    summary: Massive collection of 772+ Power Shell scripts for Azure management. CI/CD with PSScript Analyzer, security scanning, and Ia C validation. Enterprise-ready with comprehensive testing.
-    last_synced_sha: d3f041b5457e942823c018722bdb4a5e59768195
-    user_starred_at: "2026-02-14T12:09:36Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - automation
-        - azure
-        - devops
-        - enterprise
-        - powershell
-        - infrastructure-as-code
-        - azure-cli
-        - azure-management
-        - cloud
-        - infrastructure
-        - azure-automation
-        - azure-scripts
-        - best-practices
-        - enterprise-tools
-        - powershell-modules
-        - modern-powershell
-      stargazers_count: 39
-      forks_count: 14
-      disk_usage: 5739
-      owner_avatar: https://avatars.githubusercontent.com/u/8042164?v=4
-      homepage_url: https://wesellis.com
-      license: MIT
-      repo_pushed_at: "2025-10-03T00:54:08Z"
-      repo_updated_at: "2026-03-18T19:36:16Z"
-      html_url: https://github.com/wesellis/Azure-PowerShell-Toolkit
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.706Z"
-      prompt_version: v3
-  - repo: darkquasar/AzureHunter
-    categories:
-      - security
-      - cloud
-    tags:
-      - azure
-      - cloud-forensics
-      - powershell
-      - threat-hunting
-      - lang:powershell
-    summary: A Cloud Forensics Powershell module to run threat hunting playbooks on data from Azure and O365
-    last_synced_sha: 7260f6389064410161c066379f4af06a8c6ca45a
-    user_starred_at: "2026-02-14T12:03:59Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - azure
-        - digital-forensics
-        - cloud-forensics
-        - cybersecurity
-        - azuresearcher
-        - azforensics
-        - threat-hunting
-        - threathunting
-        - incident-response
-        - unifiedauditlog
-        - dfir
-        - powershellv5
-        - azure-forensics
-      stargazers_count: 791
-      forks_count: 84
-      disk_usage: 5290
-      owner_avatar: https://avatars.githubusercontent.com/u/28435534?u=b9cadb386817f47fe36ed6a8842beca9c054ed5b&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2022-10-29T10:57:13Z"
-      repo_updated_at: "2026-03-28T20:54:35Z"
-      html_url: https://github.com/darkquasar/AzureHunter
-      default_branch: main
-      latest_release:
-        tag: 1.6.0
-        published_at: "2021-12-08T07:54:07Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.706Z"
-      prompt_version: v3
-  - repo: Gerenios/AADInternals
-    categories:
-      - security
-      - cloud
-    tags:
-      - azure
-      - powershell
-      - lang:powershell
-    summary: AADInternals Power Shell module for administering Azure AD and Office 365
-    last_synced_sha: 13f207d9ec08761ac85d9fb1311ecb719e25add4
-    user_starred_at: "2026-02-14T12:03:54Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics: []
-      stargazers_count: 1617
-      forks_count: 251
-      disk_usage: 53931
-      owner_avatar: https://avatars.githubusercontent.com/u/31915208?v=4
-      homepage_url: http://aadinternals.com/aadinternals
-      license: MIT
-      repo_pushed_at: "2025-09-30T18:30:24Z"
-      repo_updated_at: "2026-03-30T14:25:10Z"
-      html_url: https://github.com/Gerenios/AADInternals
-      default_branch: master
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.706Z"
-      prompt_version: v3
-  - repo: hausec/PowerZure
-    categories:
-      - security
-      - cloud
-    tags:
-      - azure
-      - powershell
-      - security
-      - lang:powershell
-    summary: Power Shell framework to assess Azure security
-    last_synced_sha: 5d55a7505a003d15c35fe4e6949b6ee7aa8bc7bd
-    user_starred_at: "2026-02-14T12:03:26Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: PowerShell
-      topics:
-        - security
-        - infosec
-        - powershell
-        - azure
-        - windows
-      stargazers_count: 1264
-      forks_count: 179
-      disk_usage: 51165
-      owner_avatar: https://avatars.githubusercontent.com/u/33264718?u=9b6e667d10559e88c6540a71f9388891e26fd2a0&v=4
-      homepage_url: null
-      license: BSD-3-Clause
-      repo_pushed_at: "2025-10-18T01:37:00Z"
-      repo_updated_at: "2026-03-28T02:37:28Z"
-      html_url: https://github.com/hausec/PowerZure
-      default_branch: master
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.706Z"
-      prompt_version: v3
-  - repo: spddl/GoInterruptPolicy
-    categories:
-      - system-admin
-      - dev-tools
-    tags:
-      - msi-mode
-      - interrupt-affinity-policy
-      - lang:go
-    summary: I just tried to create a better version of the "Interrupt Affinity Policy" and "MSI Mode" Tool
-    last_synced_sha: f41fd1e325e1d3a386816c3586474e5f7bb63a25
-    user_starred_at: "2026-02-11T23:22:13Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Go
-      topics:
-        - msi-mode
-        - interrupt-affinity-policy
-      stargazers_count: 436
-      forks_count: 30
-      disk_usage: 181
-      owner_avatar: https://avatars.githubusercontent.com/u/3605378?u=a127050b6e915b6b73372fae86f865474455ebe1&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2026-03-27T14:54:31Z"
-      repo_updated_at: "2026-03-30T18:04:40Z"
-      html_url: https://github.com/spddl/GoInterruptPolicy
-      default_branch: main
-      latest_release:
-        tag: v1.8.0
-        published_at: "2026-01-24T20:05:10Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.706Z"
-      prompt_version: v3
-  - repo: adambajguz/Typin
-    categories:
-      - frameworks
-      - dev-tools
-    tags:
-      - cli
-      - parser
-      - terminal
-      - lang:csharp
-    summary: Declarative framework for interactive CLI applications
-    last_synced_sha: 44f238654deebfb619ad2e8f5353c1afe250ccec
-    user_starred_at: "2026-02-11T06:40:06Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: C#
-      topics:
-        - terminal
-        - command-line-interface
-        - library
-        - framework
-        - csharp-library
-        - cli
-        - parser
-        - commands
-        - tooling
-        - terminal-based
-        - command-line
-        - command-line-tool
-        - command-line-parser
-        - command-pattern
-        - directives
-        - middleware-pipeline
-        - command
-        - csharp
-        - middleware
-      stargazers_count: 254
-      forks_count: 13
-      disk_usage: 58262
-      owner_avatar: https://avatars.githubusercontent.com/u/23001378?u=999ac78673c202d3be0619f7829a46bc44b032c1&v=4
-      homepage_url: https://www.nuget.org/packages/Typin/
-      license: NOASSERTION
-      repo_pushed_at: "2025-06-18T13:29:14Z"
-      repo_updated_at: "2026-02-11T06:40:06Z"
-      html_url: https://github.com/adambajguz/Typin
-      default_branch: master
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.706Z"
-      prompt_version: v3
-  - repo: alphanome-ai/sec-parser
-    categories:
-      - ai-ml
-      - data-science
-    tags:
-      - nlp
-      - sec-edgar
-      - parser
-      - lang:python
-    summary: Parse SEC EDGAR HTML documents into a tree of elements that correspond to the visual (semantic) structure of the document.
-    last_synced_sha: deb0413051cb327d858eda93f5979c17d126e400
-    user_starred_at: "2026-02-11T06:39:18Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics:
-        - 10-k
-        - 10-q
-        - edgar-scraper
-        - filings
-        - finance
-        - financial-data
-        - financial-filings
-        - html-parser
-        - sec-edgar
-        - nlp
-        - investing
-        - company-data
-        - parser
-        - sec
-        - ai
-        - artificial-intelligence
-        - fintech
-        - sec-edgar-api
-        - edgar-parser
-        - edgar-api
-      stargazers_count: 278
-      forks_count: 78
-      disk_usage: 2626
-      owner_avatar: https://avatars.githubusercontent.com/u/127743907?v=4
-      homepage_url: https://parser.alphanome.app
-      license: MIT
-      repo_pushed_at: "2025-03-25T05:03:49Z"
-      repo_updated_at: "2026-03-20T12:25:04Z"
-      html_url: https://github.com/alphanome-ai/sec-parser
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.706Z"
-      prompt_version: v3
-  - repo: harshankur/officeParser
-    categories:
-      - learning
-      - productivity
-    tags:
-      - office
-      - parser
-      - lang:rich-text-format
-    summary: A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met...
-    last_synced_sha: b96f300c6cfd035fc6f3db24ecee72fee88ae8ae
-    user_starred_at: "2026-02-11T06:38:13Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Rich Text Format
-      topics:
-        - ast
-        - browser
-        - docx
-        - metadata
-        - nodejs
-        - odf
-        - odp
-        - ods
-        - odt
-        - office
-        - parser
-        - pptx
-        - rtf
-        - tesseract
-        - typescript
-        - xlsx
-      stargazers_count: 301
-      forks_count: 42
-      disk_usage: 12860
-      owner_avatar: https://avatars.githubusercontent.com/u/1695832?u=3952a8dc7b6365190205a88b4a8443960b23a505&v=4
-      homepage_url: http://officeparser.harshankur.com/
-      license: MIT
-      repo_pushed_at: "2026-03-24T12:45:18Z"
-      repo_updated_at: "2026-03-30T05:48:25Z"
-      html_url: https://github.com/harshankur/officeParser
-      default_branch: master
-      latest_release:
-        tag: v6.0.7
-        published_at: "2026-03-24T11:27:18Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.706Z"
-      prompt_version: v3
-  - repo: ninenines/cowlib
-    categories:
-      - networking
-      - web-dev
-    tags:
-      - parser
-      - http
-      - lang:erlang
-    summary: Support library for manipulating Web protocols.
-    last_synced_sha: f30cc9e2fbb14705751cbe2c32895f59d91e4906
-    user_starred_at: "2026-02-11T06:37:42Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Erlang
-      topics:
-        - erlang
-        - http
-        - parser
-        - websocket
-        - http2
-        - http3
-        - webtransport
-      stargazers_count: 292
-      forks_count: 176
-      disk_usage: 1338
-      owner_avatar: https://avatars.githubusercontent.com/u/1166740?v=4
-      homepage_url: null
-      license: ISC
-      repo_pushed_at: "2025-11-06T15:37:12Z"
-      repo_updated_at: "2026-03-27T07:17:48Z"
-      html_url: https://github.com/ninenines/cowlib
-      default_branch: master
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.705Z"
-      prompt_version: v3
-  - repo: AntonBergaker/InterpolatedParser
-    categories:
-      - dev-tools
-      - learning
-    tags:
-      - parser
-      - csharp
-      - lang:csharp
-    summary: Interpolated Strings but in reverse! A very cursed C# parser library.
-    last_synced_sha: d6b5e84892b7d009edd4d0c465dc8c5997cfd890
-    user_starred_at: "2026-02-11T06:37:22Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: C#
-      topics:
-        - csharp
-        - cursed
-        - parser
-        - source-generation
-        - source-generator
-      stargazers_count: 293
-      forks_count: 2
-      disk_usage: 80
-      owner_avatar: https://avatars.githubusercontent.com/u/12459883?u=ab1ee147c3a61fc2b9d0de5f9a42ff954f2ed545&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2025-02-24T08:02:42Z"
-      repo_updated_at: "2026-03-28T02:03:56Z"
-      html_url: https://github.com/AntonBergaker/InterpolatedParser
-      default_branch: main
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.705Z"
-      prompt_version: v3
-  - repo: rasendubi/uniorg
-    categories:
-      - learning
-      - web-dev
-    tags:
-      - org-mode
-      - parser
-      - lang:ts
-    summary: An accurate Org-mode parser for Java Script/Type Script
-    last_synced_sha: fc4e3b1105f052709c14f86d9e08d32cb17409a5
-    user_starred_at: "2026-02-11T06:35:30Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - org-mode
-        - parser
-        - unified
-        - js
-        - typescript
-        - nextjs
-        - parsers
-        - parse
-      stargazers_count: 320
-      forks_count: 27
-      disk_usage: 7004
-      owner_avatar: https://avatars.githubusercontent.com/u/1366419?v=4
-      homepage_url: https://oleksii.shmalko.com/uniorg
-      license: GPL-3.0
-      repo_pushed_at: "2025-04-11T23:58:29Z"
-      repo_updated_at: "2026-03-06T01:13:35Z"
-      html_url: https://github.com/rasendubi/uniorg
-      default_branch: main
-      latest_release:
-        tag: '@uniorgjs/orgx@2.0.1'
-        published_at: "2025-04-11T23:58:29Z"
-      is_mirror: false
-      mirror_url: null
-    framework: nextjs
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.705Z"
-      prompt_version: v3
-  - repo: structuredllm/syncode
-    categories:
-      - ai-ml
-      - data-science
-    tags:
-      - large-language-models
-      - llm-inference
-      - lang:python
-    summary: Efficient and general syntactical decoding for Large Language Models
-    last_synced_sha: 4d6c110a028d3fb9cbb5f1a6ac6446b696f3eac4
-    user_starred_at: "2026-02-11T06:34:55Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Python
-      topics:
-        - large-language-models
-        - llm-inference
-        - parser
-        - llm
-        - grammar
-      stargazers_count: 330
-      forks_count: 37
-      disk_usage: 58098
-      owner_avatar: https://avatars.githubusercontent.com/u/204232273?v=4
-      homepage_url: https://structuredllm.com
-      license: MIT
-      repo_pushed_at: "2026-01-19T11:04:53Z"
-      repo_updated_at: "2026-03-22T10:58:00Z"
-      html_url: https://github.com/structuredllm/syncode
-      default_branch: main
-      latest_release:
-        tag: v0.4.16
-        published_at: "2025-07-16T15:47:01Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.705Z"
-      prompt_version: v3
-  - repo: aykutkardas/svgps.app
-    categories:
-      - ui-libraries
-      - web-dev
-    tags:
-      - svg
-      - icons
-      - lang:ts
-    summary: SVGPS converts your icons into a single JSON file that is ready to use in your frontend or mobile projects.
-    last_synced_sha: d5f398d3beccc2c99e8b9fdfdec041571aefe921
-    user_starred_at: "2026-02-11T06:34:32Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: TypeScript
-      topics:
-        - svg
-        - svg-icons
-        - parser
-        - svg-parser
-        - icomoon
-        - icons
-        - react
-        - vue
-        - svelte
-      stargazers_count: 322
-      forks_count: 26
-      disk_usage: 9792
-      owner_avatar: https://avatars.githubusercontent.com/u/7966133?u=bc745f0b580c457c9e1410551a83b583c7be1dbc&v=4
-      homepage_url: https://svgps.app
-      license: MIT
-      repo_pushed_at: "2026-02-17T19:44:13Z"
-      repo_updated_at: "2026-03-12T21:49:49Z"
-      html_url: https://github.com/aykutkardas/svgps.app
-      default_branch: main
-      latest_release:
-        tag: v1.52.0
-        published_at: "2023-07-07T15:55:55Z"
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.705Z"
-      prompt_version: v3
-  - repo: likexian/whois-parser
-    categories:
-      - networking
-      - automation
-    tags:
-      - whois
-      - domain
-      - lang:go
-    summary: Whois parser for domain whois information parsing in Go(Golang).
-    last_synced_sha: 2426ff1e36f7540b2e0e7f69324cbe2091f5b278
-    user_starred_at: "2026-02-11T06:34:02Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Go
-      topics:
-        - domain
-        - parser
-        - golang
-        - parsing
-        - whois
-      stargazers_count: 328
-      forks_count: 101
-      disk_usage: 925
-      owner_avatar: https://avatars.githubusercontent.com/u/1175571?v=4
-      homepage_url: null
-      license: Apache-2.0
-      repo_pushed_at: "2026-01-04T12:19:20Z"
-      repo_updated_at: "2026-03-10T21:16:28Z"
-      html_url: https://github.com/likexian/whois-parser
-      default_branch: master
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.705Z"
-      prompt_version: v3
-  - repo: PoiScript/orgize
-    categories:
-      - learning
-    tags:
-      - org-mode
-      - parser
-      - lang:rust
-    summary: A Rust library for parsing org-mode files.
-    last_synced_sha: 5f26c94dcec2a33b37b1c880ace053b29b5d021e
-    user_starred_at: "2026-02-11T06:33:53Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: Rust
-      topics:
-        - org-mode
-        - parser
-        - cli
-        - lsp
-      stargazers_count: 331
-      forks_count: 42
-      disk_usage: 928
-      owner_avatar: https://avatars.githubusercontent.com/u/17513314?u=1e9551182ed949f19c05c28913394ecfa4eefd48&v=4
-      homepage_url: https://poiscript.github.io/orgize/
-      license: MIT
-      repo_pushed_at: "2025-01-27T09:42:50Z"
-      repo_updated_at: "2026-03-23T09:00:48Z"
-      html_url: https://github.com/PoiScript/orgize
-      default_branch: v0.10
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-26T04:05:04.705Z"
-      prompt_version: v3
-  - repo: thoqbk/traprange
-    categories:
-      - data-science
-      - documentation
-    tags:
-      - pdf
-      - parser
-      - lang:html
-    summary: (Java)A Method to Extract Tabular Content from PDF Files
-    last_synced_sha: 4ae9347e61a2fb87808bbe73ffa3202718d43635
-    user_starred_at: "2026-02-11T06:33:30Z"
-    readme_quality: missing
-    needs_review: false
-    github_metadata:
-      language: HTML
-      topics:
-        - java
-        - pdf
-        - pdfbox
-        - parser
-        - pdf-parsing
-        - pdf-manipulation
-        - pdf-files
-      stargazers_count: 337
-      forks_count: 133
-      disk_usage: 11633
-      owner_avatar: https://avatars.githubusercontent.com/u/1491103?u=a5901148124b76f7dd02d63dcd473ee0e1720cb7&v=4
-      homepage_url: null
-      license: MIT
-      repo_pushed_at: "2023-04-22T09:21:54Z"
-      repo_updated_at: "2026-02-12T08:12:43Z"
-      html_url: https://github.com/thoqbk/traprange
-      default_branch: master
-      latest_release: null
-      is_mirror: false
-      mirror_url: null
-    framework: null
-    ai_classification:
-      model: gpt-4o
-      classified_at: "2026-03-28T04:21:37.618Z"
       prompt_version: v3
