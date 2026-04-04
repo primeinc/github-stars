@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-04T04:02:29.197Z'
+  manifest_updated_at: '2026-04-04T04:03:04.836Z'
   total_repos: 997
   generator_version: v1.0.0
   github_user: primeinc
@@ -27246,13 +27246,17 @@ repositories:
     framework: null
   - repo: repplus/rep-chrome
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - http-repeater
+      - ai-analysis
+      - lang:js
     summary: rep+ — Burp-style HTTP Repeater for Chrome Dev Tools with built‑in AI to explain requests and suggest attacks
     last_synced_sha: fc0cea7e51f9f689ec12879b3b05e311795f3b9f
     user_starred_at: '2025-11-29T07:20:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -27276,15 +27280,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.689Z'
+      prompt_version: v3
   - repo: memodb-io/Acontext
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - context-engineering
+      - memory-layer
+      - lang:ts
     summary: Agent Skills as a Memory Layer
     last_synced_sha: ccb9af4aa34524895a5e03fdcdc4badced81f02f
     user_starred_at: '2025-11-29T03:23:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27319,15 +27331,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.689Z'
+      prompt_version: v3
   - repo: refined-github/refined-github
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - browser-extension
+      - github-enhancement
+      - lang:ts
     summary: ':octocat: Browser extension that simplifies the Git Hub interface and adds useful features'
     last_synced_sha: 7455659316304023ea3734c71739e2e7b8dd77bf
     user_starred_at: '2025-11-29T01:59:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -27354,15 +27374,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.689Z'
+      prompt_version: v3
   - repo: jasonkneen/askshell
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - shell-commands
+      - ai-powered-cli
+      - lang:shell
     summary: Natural language to shell commands - AI-powered CLI using Ollama, Claude, Codex, Copilot, or Gemini
     last_synced_sha: 29752370d79d82b77bd831f94bc9570efb069c85
     user_starred_at: '2025-11-29T01:58:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -27380,15 +27408,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.689Z'
+      prompt_version: v3
   - repo: kane50613/takumi
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ai-ml
+    tags:
+      - image-renderer
+      - next-og
+      - lang:rust
+      - react
     summary: Rust-powered image renderer for JSX. Drop-in replacement for next/og.
     last_synced_sha: eb34addc82b22b3c89dff66b5a8f2ad954d9cc9e
     user_starred_at: '2025-11-29T01:56:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -27410,16 +27447,24 @@ repositories:
         published_at: '2026-03-14T17:38:29Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.689Z'
+      prompt_version: v3
   - repo: coleam00/ottomator-agents
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agents
+      - open-source-agents
+      - lang:python
     summary: All the open source AI Agents hosted on the o TTomator Live Agent Studio platform!
     last_synced_sha: 2be20d5737fc49aa0f665a012f3ffde283d26d54
     user_starred_at: '2025-11-29T01:53:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -27437,15 +27482,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.689Z'
+      prompt_version: v3
   - repo: droidrun/droidrun
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - mobile-dev
+    tags:
+      - mobile-automation
+      - ai-agents
+      - lang:python
     summary: Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖
     last_synced_sha: a2570c4d5041928378e573aed0eb397f0293a473
     user_starred_at: '2025-11-29T01:51:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -27470,15 +27523,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.689Z'
+      prompt_version: v3
   - repo: thinking-machines-lab/tinker-cookbook
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - post-training
+      - lang:python
     summary: Post-training with Tinker
     last_synced_sha: aae0cc3fc7b7f564e3790810df72e638ee533978
     user_starred_at: '2025-11-29T01:51:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -27498,15 +27558,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.689Z'
+      prompt_version: v3
   - repo: leukipp/touchkio
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - automation
+    tags:
+      - home-assistant
+      - kiosk-touchscreen
+      - lang:js
     summary: Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display.
     last_synced_sha: b63f2aee3400ea4f37eaff2993765c15da85c550
     user_starred_at: '2025-11-29T01:50:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -27529,15 +27597,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.689Z'
+      prompt_version: v3
   - repo: github/awesome-copilot
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - github-copilot
+      - prompt-engineering
+      - lang:python
     summary: Community-contributed instructions, agents, skills, and configurations to help you make the most of Git Hub Copilot.
     last_synced_sha: 0c3c5bbbfb2a7d57d36473a83fdbef1becc5053f
     user_starred_at: '2025-11-29T01:50:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -27563,15 +27639,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.689Z'
+      prompt_version: v3
   - repo: MrNeRF/LichtFeld-Studio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - gaussian-splatting
+      - computer-graphics
+      - lang:cpp
     summary: Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.
     last_synced_sha: 38b20f5a25763b087e6cb28db8425dd555e9d3eb
     user_starred_at: '2025-11-29T01:49:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -27596,15 +27680,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.689Z'
+      prompt_version: v3
   - repo: WerWolv/ImHex
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - security
+    tags:
+      - hex-editor
+      - reverse-engineering
+      - forensics
+      - lang:cpp
     summary: 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
     last_synced_sha: 3a8f19cc90b60176b6d35fb26c7d50451555b6b3
     user_starred_at: '2025-11-29T01:48:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -27644,15 +27737,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.689Z'
+      prompt_version: v3
   - repo: ocornut/imgui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - game-dev
+    tags:
+      - gui
+      - toolkit
+      - lang:cpp
     summary: 'Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies'
     last_synced_sha: 49df3116bc5884f58031fd4bb8653e27e4044c96
     user_starred_at: '2025-11-29T01:48:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -27687,15 +27788,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.689Z'
+      prompt_version: v3
   - repo: aristocratos/btop
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - productivity
+    tags:
+      - resource-monitor
+      - system-usage
+      - lang:cpp
     summary: A monitor of resources
     last_synced_sha: 6164470cb8ed316accc2b5662dadee49036f9b49
     user_starred_at: '2025-11-29T01:48:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -27715,15 +27824,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.689Z'
+      prompt_version: v3
   - repo: hyprwm/Hyprland
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - ui-libraries
+    tags:
+      - wayland-compositor
+      - customization
+      - dynamic-tiling
+      - lang:cpp
     summary: Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
     last_synced_sha: f25473b21b45ab8ded4a0dbba69eb6b6660d568e
     user_starred_at: '2025-11-29T01:48:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -27747,6 +27865,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:03:03.688Z'
+      prompt_version: v3
   - repo: facebookresearch/habitat-sim
     categories:
       - ai-ml
