@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-04T04:00:53.168Z'
+  manifest_updated_at: '2026-04-04T04:01:23.796Z'
   total_repos: 997
   generator_version: v1.0.0
   github_user: primeinc
@@ -28732,13 +28732,18 @@ repositories:
     framework: null
   - repo: chitalian/openllmetry-js
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - ai-ml
+    tags:
+      - observability
+      - llm
+      - open-telemetry
+      - lang:ts
     summary: Sister project to Open LLMetry, but in Typescript. Open-source observability for your LLM application, based on Open Telemetry
     last_synced_sha: 64d69dfda5dba6f2620c01fc8f45cd7a5b597bd2
     user_starred_at: '2025-11-22T05:58:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: TypeScript
@@ -28757,15 +28762,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.677Z'
+      prompt_version: v3
   - repo: gtsteffaniak/filebrowser
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - web-dev
+    tags:
+      - file-browser
+      - self-hosted
+      - lang:go
     summary: 📂 Web File Browser
     last_synced_sha: 3bfd9d9be0059f83ca9a2d9d522208337fa6603b
     user_starred_at: '2025-11-22T05:57:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -28785,15 +28798,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.677Z'
+      prompt_version: v3
   - repo: dgtlmoon/changedetection.io
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - productivity
+    tags:
+      - change-detection
+      - website-monitoring
+      - self-hosted
+      - change-alert
+      - lang:python
     summary: Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monito...
     last_synced_sha: 43bba5a1b688cafa4ba591d0fb749d96f668067f
     user_starred_at: '2025-11-22T05:55:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -28833,15 +28856,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.677Z'
+      prompt_version: v3
   - repo: slidevjs/slidev
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - slides
+      - presentation
+      - markdown
+      - vue
+      - lang:ts
     summary: Presentation Slides for Developers
     last_synced_sha: 5c4a15d2db8be2c67ba32ec50a8d767dbc8f647a
     user_starred_at: '2025-11-22T05:51:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28866,16 +28899,25 @@ repositories:
         published_at: '2026-03-03T06:46:39Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.677Z'
+      prompt_version: v3
   - repo: resend/react-email
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - email
+      - react
+      - hacktoberfest
+      - lang:ts
     summary: 💌 Build and send emails using React
     last_synced_sha: b0f1245b1e10048fd14b4d84d4e49bce1b973b6e
     user_starred_at: '2025-11-22T05:49:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28896,16 +28938,25 @@ repositories:
         published_at: '2026-03-31T23:56:34Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.677Z'
+      prompt_version: v3
   - repo: stan-smith/FossFLOW
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - infrastructure
+      - diagrams
+      - devops
+      - lang:ts
     summary: Make beautiful isometric infrastructure diagrams
     last_synced_sha: 5472c9b9bcb0eaa9f1c2b1996c3575518e4ebef3
     user_starred_at: '2025-11-22T05:48:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28928,15 +28979,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.677Z'
+      prompt_version: v3
   - repo: requestly/requestly
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - api-client
+      - interceptor
+      - postman
+      - mock-server
+      - lang:ts
     summary: Free and open-source API Client & Interceptor.
     last_synced_sha: 6a329b0d29a7f94460ceb8d6c7bccb3d473ef16e
     user_starred_at: '2025-11-22T05:48:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -28976,15 +29037,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.677Z'
+      prompt_version: v3
   - repo: Dokploy/dokploy
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - cloud
+    tags:
+      - self-hosted
+      - docker
+      - devops
+      - backend
+      - lang:ts
     summary: Open Source Alternative to Vercel, Netlify and Heroku.
     last_synced_sha: 964d79d552bd8a062b8b9995ef5ed44fa47e0b66
     user_starred_at: '2025-11-22T05:47:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29018,15 +29089,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.677Z'
+      prompt_version: v3
   - repo: bobeff/open-source-games
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - learning
+    tags:
+      - games
+      - open-source
+      - awesome-list
+      - lang:python
     summary: A list of open source games.
     last_synced_sha: 3a9ab8fc892a2cdadf8989a72ba7624a11e39cec
     user_starred_at: '2025-11-22T05:46:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -29047,15 +29127,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.677Z'
+      prompt_version: v3
   - repo: iptv-org/iptv
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - networking
+    tags:
+      - iptv
+      - streams
+      - tv
+      - playlist
+      - lang:ts
     summary: Collection of publicly available IPTV channels from all over the world
     last_synced_sha: 1fcefe05cab8c47287abad135cdb415dae0eb380
     user_starred_at: '2025-11-22T05:45:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29078,15 +29168,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.677Z'
+      prompt_version: v3
   - repo: sindresorhus/type-fest
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - typescript-definitions
+      - utilities
+      - lang:ts
     summary: A collection of essential Type Script types
     last_synced_sha: b390869422d9207e008863a8784914177e55fb4a
     user_starred_at: '2025-11-22T05:44:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29111,15 +29209,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.677Z'
+      prompt_version: v3
   - repo: vemetric/favicon-api
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - api
+      - favicon
+      - lang:ts
     summary: Free and self-hostable API to fetch favicons from any website.
     last_synced_sha: 82a97edde19f2dfd67cc132fa9a48304f5921d5d
     user_starred_at: '2025-11-22T05:38:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29143,15 +29249,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.677Z'
+      prompt_version: v3
   - repo: facebookresearch/sam3
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - inference
+      - finetuning
+      - lang:python
     summary: The repository provides code for running inference and finetuning with the Meta Segment Anything Model 3 (SAM 3), links for downloading the trained model checkpoints, and example notebooks that sho...
     last_synced_sha: bfbed072a07a6a52c8d5fdc75a7a186251a835b1
     user_starred_at: '2025-11-22T05:32:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -29169,15 +29283,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.677Z'
+      prompt_version: v3
   - repo: flameshot-org/flameshot
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - screenshot
+      - image-editing
+      - gui
+      - cross-platform
+      - lang:cpp
     summary: 'Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:'
     last_synced_sha: b89ebc3629eda86f73ec43bc1c8add23388c44df
     user_starred_at: '2025-11-22T05:27:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -29206,15 +29330,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.674Z'
+      prompt_version: v3
   - repo: palashmon/awesome-vscode-settings
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - settings
+      - visual-studio-code
+      - awesome-list
     summary: 🎨 A curated list of simple and awesome VS Code settings
     last_synced_sha: 5e7eca1879380dc8b546007668cc1ff8933a624a
     user_starred_at: '2025-11-22T05:26:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -29242,6 +29374,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:01:22.673Z'
+      prompt_version: v3
   - repo: mcp-use/mcp-use
     categories:
       - ai-ml
