@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-04T03:56:39.387Z'
+  manifest_updated_at: '2026-04-04T03:57:12.939Z'
   total_repos: 997
   generator_version: v1.0.0
   github_user: primeinc
@@ -32757,13 +32757,18 @@ repositories:
     framework: null
   - repo: Infisical/infisical
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - secret-management
+      - secrets
+      - typescript
+      - lang:ts
     summary: Infisical is the open-source platform for secrets, certificates, and privileged access management.
     last_synced_sha: c0fba63b45eff1ab3c531db5e5c417075d271300
     user_starred_at: '2025-10-28T11:44:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -32803,15 +32808,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.824Z'
+      prompt_version: v3
   - repo: drawdb-io/drawdb
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - dev-tools
+    tags:
+      - database-schema
+      - sql
+      - editor
+      - react
+      - lang:js
     summary: Free, simple, and intuitive online database diagram editor and SQL generator.
     last_synced_sha: 0c6423cb042733d8172388165b5e702dd5a2542c
     user_starred_at: '2025-10-28T11:41:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -32845,16 +32860,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.824Z'
+      prompt_version: v3
   - repo: Azure-Samples/universal-api-center
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - learning
+    tags:
+      - api-import
+      - lang:jupyter-notebook
     summary: APIC ♥️ all APIs - this repo contains labs focused on importing APIs from a wide variety of gateways and sources
     last_synced_sha: 21e4e9280a4d3dc5c6558717aa69abe6bfbb4671
     user_starred_at: '2025-10-27T04:30:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -32872,15 +32894,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.824Z'
+      prompt_version: v3
   - repo: Azure-Samples/aks-platform-engineering
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+    tags:
+      - aks
+      - argocd
+      - terraform
+      - kubernetes
+      - lang:ts
     summary: Opinionated AKS + OSS stack with Argo CD, CAPZ/ASO or Crossplane, Terraform, Backstage
     last_synced_sha: b67c1b6dca09663eade0493f37b04caffaf81443
     user_starred_at: '2025-10-27T04:30:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -32905,15 +32937,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.824Z'
+      prompt_version: v3
   - repo: Azure/Enterprise-Scale
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - security
+    tags:
+      - enterprise-scale
+      - azure
+      - lang:powershell
     summary: The Azure Landing Zones (Enterprise-Scale) architecture provides prescriptive guidance coupled with Azure best practices, and it follows design principles across the critical design areas for organ...
     last_synced_sha: 7a89056573572a1d11a7f7226cb6b8e9a38ff43c
     user_starred_at: '2025-10-24T05:03:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -32944,15 +32984,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.824Z'
+      prompt_version: v3
   - repo: CompositionalIT/farmer
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - cloud
+    tags:
+      - arm-templates
+      - azure
+      - lang:f
     summary: Repeatable Azure deployments with ARM templates - made easy!
     last_synced_sha: 1df037941bf30e1a20bc58ada939d32f2a34c982
     user_starred_at: '2025-10-24T03:24:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: F#
       topics:
@@ -32975,15 +33023,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.824Z'
+      prompt_version: v3
   - repo: Azure/deployment-stacks
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - cloud
+    tags:
+      - deployment-stacks
+      - lang:bicep
     summary: Contains Deployment Stacks CLI scripts and releases
     last_synced_sha: ea836515107cee8256fe8fafa389b035326fde42
     user_starred_at: '2025-10-24T02:39:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -33001,15 +33056,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.824Z'
+      prompt_version: v3
   - repo: daveRendon/azinsider
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - deployment
+    tags:
+      - bicep
+      - azure
+      - devops
+      - lang:bicep
     summary: 🚀 The Az Insider Repo offers code samples to help you deploy various workloads in your Azure environment using Bicep language. It simplifies the deployment process and makes it easy to get your ap...
     last_synced_sha: b7f68f556c2934abaa05aa47a5c93a02e59c9421
     user_starred_at: '2025-10-24T02:38:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -33047,15 +33111,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.824Z'
+      prompt_version: v3
   - repo: TheCloudTheory/arm-estimator
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - productivity
+    tags:
+      - cost-estimation
+      - arm-templates
+      - bicep
+      - terraform
+      - lang:csharp
     summary: ACE (Azure Cost Estimator) - automated cost estimations for ARM Templates, Bicep and Terraform
     last_synced_sha: 72d9fa904453de8acee8da36aa48d58cb90b9933
     user_starred_at: '2025-10-24T02:36:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -33081,15 +33155,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.824Z'
+      prompt_version: v3
   - repo: EzioBy/Ditto
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - diffusion-models
+      - video-editing
+      - synthetic-data
+      - lang:python
     summary: '[CVPR 2026] Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset'
     last_synced_sha: a43e46f7045cd99ed66e07c7d48ccabff2356f4a
     user_starred_at: '2025-10-24T00:11:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -33110,15 +33193,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.824Z'
+      prompt_version: v3
   - repo: deepseek-ai/DeepSeek-OCR
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ocr
+      - lang:python
     summary: Contexts Optical Compression
     last_synced_sha: 09eaf526153e7a01ed16c9dea8c96282aaea29c0
     user_starred_at: '2025-10-23T22:14:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -33136,15 +33226,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.824Z'
+      prompt_version: v3
   - repo: kayasax/EasyPIM
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - pim
+      - entra-id
+      - lang:powershell
     summary: Easy PIM let you manage PIM Azure Resource, Entra Role and Groups settings and assignments with simplicity
     last_synced_sha: c545af0d66f864a573996849c11cf50a67f7896e
     user_starred_at: '2025-10-22T14:44:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -33167,15 +33265,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.824Z'
+      prompt_version: v3
   - repo: microsoft/Intune-solutions
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - intune
+      - sample-scripts
+      - lang:powershell
     summary: Git Hub Repository for Solution Intune Sample Scripts
     last_synced_sha: 029ec35f7e265b5af85083f2e492f0b6df8a604c
     user_starred_at: '2025-10-22T14:32:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -33193,15 +33299,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.823Z'
+      prompt_version: v3
   - repo: kennethvs/cabaseline202510
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - conditional-access
+      - baseline
     summary: Conditional Access baseline for October 2025
     last_synced_sha: 17a0cd68ba1566cf6bdaf9811372b4a36a1791d1
     user_starred_at: '2025-10-22T14:31:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -33219,15 +33332,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.820Z'
+      prompt_version: v3
   - repo: SkipToTheEndpoint/OpenIntuneBaseline
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - device-config
+      - intune
+      - lang:powershell
     summary: Community-driven baseline to accelerate Intune adoption and learning.
     last_synced_sha: 75c4825cd59936c7a33bb249ca41a3764c3b3858
     user_starred_at: '2025-10-22T14:29:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -33251,6 +33372,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:57:11.820Z'
+      prompt_version: v3
   - repo: aleks-apostle/claude-code-patches
     categories:
       - dev-tools
