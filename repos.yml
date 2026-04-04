@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-04T04:05:05.565Z'
+  manifest_updated_at: '2026-04-04T04:05:37.599Z'
   total_repos: 997
   generator_version: v1.0.0
   github_user: primeinc
@@ -24694,13 +24694,15 @@ repositories:
     framework: null
   - repo: google/dotguides
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: 3ba5636f43870081a8b1486c838cea01a73684da
     user_starred_at: '2025-12-18T10:17:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -24718,15 +24720,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.420Z'
+      prompt_version: v3
   - repo: GVCLab/PersonaLive
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - video-generation
+      - talking-head
+      - lang:python
     summary: '[CVPR 2026] Persona Live! : Expressive Portrait Image Animation for Live Streaming'
     last_synced_sha: c2ae2f77d2078460b0ddb07b56f4dc52d2e72c32
     user_starred_at: '2025-12-18T10:15:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -24748,15 +24758,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.420Z'
+      prompt_version: v3
   - repo: Aleafy/V-RGBX
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - video-editing
+      - lang:python
     summary: '[CVPR 2026] V-RGBX: Video Editing with Accurate Controls over Intrinsic Properties'
     last_synced_sha: 4de559b89f3ea469fc4659fc0d4adf47d1b708d3
     user_starred_at: '2025-12-18T10:12:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -24774,15 +24791,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.420Z'
+      prompt_version: v3
   - repo: undox-rs/undox
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - static-site-generator
+      - lang:rust
     summary: ':book: A batteries-included static site generator built for documentation, with first-class support for aggregating content from multiple repositories'
     last_synced_sha: ecc4567cd6cb39bb119e311d29b4a7f411de9fc4
     user_starred_at: '2025-12-18T10:11:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -24805,15 +24829,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.419Z'
+      prompt_version: v3
   - repo: shadcn/license-generator
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - license-generator
+      - lang:js
     summary: Generates a license for your open source project.
     last_synced_sha: 14bc8f0d3509693ca446c1880f9ab7c0b4fe5727
     user_starred_at: '2025-12-18T10:10:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -24831,15 +24862,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.419Z'
+      prompt_version: v3
   - repo: inclusionAI/TwinFlow
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - few-step-training
+      - lang:python
     summary: '[ICLR 2026] Taming large-scale few-step training with self-adversarial flows! 👏🏻'
     last_synced_sha: a109a71b19634d9c5d5c45c3587d36b19f014917
     user_starred_at: '2025-12-18T10:10:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -24857,15 +24895,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.419Z'
+      prompt_version: v3
   - repo: jgm/pandoc
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - markup
+      - converter
+      - lang:haskell
     summary: Universal markup converter
     last_synced_sha: 1a8d44b0c320927a3c3961ef4308dba6f1076723
     user_starred_at: '2025-12-18T10:09:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Haskell
       topics:
@@ -24894,15 +24940,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.419Z'
+      prompt_version: v3
   - repo: suzuki-shunsuke/ghtkn
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - cli
+      - github
+      - lang:go
     summary: A CLI to create short-lived (8 hours) Git Hub App User Access Token for secure local development
     last_synced_sha: 3766dd8dc01f5949ed824321a83823af8c7d9cdf
     user_starred_at: '2025-12-18T10:08:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -24926,15 +24980,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.419Z'
+      prompt_version: v3
   - repo: zhu-xlab/GlobalBuildingAtlas
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - ai-ml
+    tags:
+      - building-dataset
+      - global-data
+      - lang:python
     summary: 'Global Building Atlas: an open global and complete dataset of building polygons, heights and Lo D1 3D models'
     last_synced_sha: a1ad8e85fe038e4a25aa1ea9fc978e34869320fd
     user_starred_at: '2025-12-18T10:04:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -24954,15 +25016,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.419Z'
+      prompt_version: v3
   - repo: OpenBMB/VoxCPM
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - tts
+      - speech-synthesis
+      - audio
+      - lang:python
     summary: 'Vox CPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning'
     last_synced_sha: e2381a193e74d5120ebdbfa6a0726b62b2c0c474
     user_starred_at: '2025-12-18T10:03:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -24993,15 +25064,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.419Z'
+      prompt_version: v3
   - repo: sohzm/cheating-daddy
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:js
     summary: a free and opensource app that lets you gain an unfair advantage
     last_synced_sha: 5dfdc129e7f65e140fb98acb42252b360e29e78d
     user_starred_at: '2025-12-18T10:02:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -25021,15 +25097,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.419Z'
+      prompt_version: v3
   - repo: remoteintech/remote-jobs
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - remote-work
+      - jobsearch
+      - lang:nunjucks
     summary: Source for remoteintech.company — a community-maintained directory of remote-friendly tech companies
     last_synced_sha: 69a4645ff4b7fa5304ff8382309e68e2f9b1b5a0
     user_starred_at: '2025-12-18T10:01:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Nunjucks
       topics:
@@ -25056,15 +25140,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.419Z'
+      prompt_version: v3
   - repo: agentsmd/agents.md
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - guides
+      - coding-agents
+      - lang:ts
     summary: AGENTS.md — a simple, open format for guiding coding agents
     last_synced_sha: d1ac7f063d20e70015ed6732664049ae4ba9d74e
     user_starred_at: '2025-12-18T10:00:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -25082,15 +25174,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.419Z'
+      prompt_version: v3
   - repo: bluesky-social/social-app
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - mobile-dev
+    tags:
+      - social-app
+      - lang:ts
     summary: The Bluesky Social application for Web, i OS, and Android
     last_synced_sha: 84b026efb77d582044341b6edba809a7681fd52d
     user_starred_at: '2025-12-18T09:59:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -25110,15 +25209,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.419Z'
+      prompt_version: v3
   - repo: refly-ai/refly
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - agent-skills
+      - automation
+      - n8n-alternative
+      - lang:ts
     summary: The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are...
     last_synced_sha: 330c01b123b85c8245d2e093eca4bb71585bbc6f
     user_starred_at: '2025-12-18T09:59:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -25155,6 +25263,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T04:05:36.419Z'
+      prompt_version: v3
   - repo: rybbit-io/rybbit
     categories:
       - monitoring
