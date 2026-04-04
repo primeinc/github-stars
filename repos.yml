@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-04T03:58:40.354Z'
+  manifest_updated_at: '2026-04-04T03:59:16.765Z'
   total_repos: 997
   generator_version: v1.0.0
   github_user: primeinc
@@ -30773,13 +30773,17 @@ repositories:
     framework: null
   - repo: FoundationAgents/ReCode
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - recursive-code-generation
+      - decision-making
+      - lang:python
     summary: Next paradigm for LLM Agent. Unify plan and action through recursive code generation for adaptive, human-like decision-making.
     last_synced_sha: cc1cb1398b593982e0af9f78804252356f01c0c4
     user_starred_at: '2025-11-13T02:28:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -30797,15 +30801,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.587Z'
+      prompt_version: v3
   - repo: MoonshotAI/kosong
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - agent
+      - llm
+      - ai
+      - sdk
     summary: The LLM abstraction layer for modern AI agent applications.
     last_synced_sha: 1ddade6c941b539bc5f1a19b38302c9269cd3e6b
     user_starred_at: '2025-11-12T19:47:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -30829,15 +30842,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.587Z'
+      prompt_version: v3
   - repo: longbridge/gpui-component
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - rust-gui
+      - cross-platform
+      - uikit
+      - lang:rust
     summary: Rust GUI components for building fantastic cross-platform desktop application by using GPUI.
     last_synced_sha: 8e1dbb6ccb6ce80eb70a3a61214e0d5f0f94c0d3
     user_starred_at: '2025-11-12T19:43:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -30861,15 +30883,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.586Z'
+      prompt_version: v3
   - repo: microsoft/call-center-ai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - ai-agents
+      - call-automation
+      - lang:python
     summary: Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!
     last_synced_sha: 958b3192020ab8a49cabd328a873eaa70e8865bc
     user_starred_at: '2025-11-12T19:42:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -30889,15 +30919,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.586Z'
+      prompt_version: v3
   - repo: MemoriLabs/Memori
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+    tags:
+      - agent
+      - memory-management
+      - lang:python
+      - long-short-term-memory
     summary: Memori is agent-native memory infrastructure. A SQL-native, LLM-agnostic layer that turns agent execution and interactions into structured, persistent state for production systems.
     last_synced_sha: 082999a037a16efab96d4c49dff7ee63137b6ec8
     user_starred_at: '2025-11-12T19:40:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30936,15 +30975,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.586Z'
+      prompt_version: v3
   - repo: gamosoft/NoteDiscovery
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - knowledge-base
+      - self-hosted
+      - markdown
+      - lang:js
+      - fastapi
     summary: Your Self-Hosted Knowledge Base
     last_synced_sha: 6af7310aad2e30fccfe6f26089e5716397a9f028
     user_starred_at: '2025-11-11T21:23:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -30982,16 +31031,25 @@ repositories:
         published_at: '2026-03-27T16:24:26Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: fastapi
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.586Z'
+      prompt_version: v3
   - repo: Piebald-AI/tweakcc
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - customization
+      - styling
+      - claude-code
+      - lang:ts
     summary: Customize Claude Code's system prompts, create custom toolsets, input pattern highlighters, themes/thinking verbs/spinners, customize input box & user message styling, support AGENTS.md, unlock pri...
     last_synced_sha: 0cf8b150336f3afae52a84b8f28cd17eb92eafc0
     user_starred_at: '2025-11-11T20:58:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31031,15 +31089,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.586Z'
+      prompt_version: v3
   - repo: ken-yossy/nvmetool-win
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - dev-tools
+    tags:
+      - nvme
+      - windows
+      - device-driver
+      - lang:c
     summary: Communicate with NVMe SSD using Windows' inbox device driver
     last_synced_sha: 9e6e91b1a1a9933c8448200e3ad77deaaaf5a6e3
     user_starred_at: '2025-11-11T17:49:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -31057,15 +31124,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.586Z'
+      prompt_version: v3
   - repo: openworkflowdev/openworkflow
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - automation
+    tags:
+      - workflow-framework
+      - durable-workflows
+      - lang:ts
     summary: Open-source Type Script framework for building durable, resumable workflows. Supports Node.js and Bun.
     last_synced_sha: 3d5f604c7574388d604a15f409c99da37c121464
     user_starred_at: '2025-11-11T17:35:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -31083,15 +31158,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.586Z'
+      prompt_version: v3
   - repo: RodericAguilar/Pr_Elevators
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - automation
+    tags:
+      - lua-scripts
+      - elevator-scripts
+      - fivem
+      - lang:lua
     summary: Free fivem elevator scripts, works without framework.
     last_synced_sha: 06b33ae31f95c71dd2b92989d76941c578bef214
     user_starred_at: '2025-11-11T17:35:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Lua
       topics: []
@@ -31109,15 +31193,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.586Z'
+      prompt_version: v3
   - repo: TMElyralab/MuseTalk
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lip-sync
+      - virtualhumans
+      - lang:python
     summary: 'Muse Talk: Real-Time High Quality Lip Synchorization with Latent Space Inpainting'
     last_synced_sha: 0a89dec45a0192b824e3cf4daf96c239440c5ed8
     user_starred_at: '2025-11-11T17:35:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -31137,15 +31229,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.586Z'
+      prompt_version: v3
   - repo: serverless-dns/serverless-dns
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - cloud
+    tags:
+      - dns-over-https
+      - serverless
+      - cloudflare-workers
+      - lang:js
     summary: The Rethink DNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io
     last_synced_sha: 14f4e9668caf629b04a3214aab74138b85a9a9c3
     user_starred_at: '2025-11-11T17:34:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -31177,15 +31278,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.586Z'
+      prompt_version: v3
   - repo: microsoft/ai-agents-for-beginners
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - ai-agents
+      - agentic-ai
+      - semantic-kernel
+      - generative-ai
+      - lang:jupyter-notebook
     summary: 12 Lessons to Get Started Building AI Agents
     last_synced_sha: 4d697b4e85e346982ff56efcac0d1c6e979a76f1
     user_starred_at: '2025-11-11T17:34:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -31211,15 +31322,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.586Z'
+      prompt_version: v3
   - repo: google/adk-web
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - developer-tools
+      - debugging
+      - agent-development
+      - lang:ts
     summary: Agent Development Kit Web (adk web) is the built-in developer UI that is integrated with Agent Development Kit for easier agent development and debugging.
     last_synced_sha: b55e80994418f4f069df342db0cc86f3c5219d49
     user_starred_at: '2025-11-11T17:34:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -31237,15 +31357,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.583Z'
+      prompt_version: v3
   - repo: WICG/email-verification-protocol
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - email-verification
+      - autofill
+      - internet-standards
     summary: verified autofill
     last_synced_sha: d8413c8541a28605aa49d2d06656acefd3b77849
     user_starred_at: '2025-11-11T17:34:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -31263,6 +31391,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-04T03:59:15.583Z'
+      prompt_version: v3
   - repo: LizardByte/Sunshine
     categories:
       - game-dev
