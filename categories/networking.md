@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [streamlink/streamlink](https://github.com/streamlink/streamlink) | Streamlink is a CLI utility which pipes video streams from various services into a video player | `Python` ★ 11.4k | 2026-04-01 |
-| [squidowl/halloy](https://github.com/squidowl/halloy) | IRC application written in Rust | `Rust` ★ 4k | 2026-04-02 |
+| [streamlink/streamlink](https://github.com/streamlink/streamlink) | Streamlink is a CLI utility which pipes video streams from various services into a video player | `Python` ★ 11.4k | 2026-04-03 |
+| [squidowl/halloy](https://github.com/squidowl/halloy) | IRC application written in Rust | `Rust` ★ 4k | 2026-04-03 |
 | [bubbleran/telco-network-configuration](https://github.com/bubbleran/telco-network-configuration) | The goal of this blueprint is to develop an agentic AI workflow that provides insight to the end user on close-to-optimal configuration values for specific RAN parameters at a cell-site. | `Python` ★ 26 | 2025-06-11 |
 | [xtieume/PrinterOne](https://github.com/xtieume/PrinterOne) | A comprehensive TCP network print server with integrated GUI management and system tray support for Windows. | `Python` ★ 51 | 2025-08-05 |
 | [doomspork/printergeist](https://github.com/doomspork/printergeist) | No description provided | `Rust` ★ 1 | 2024-06-14 |

@@ -7,8 +7,8 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [dot-billy/nodebyte](https://github.com/dot-billy/nodebyte) | Nodebyte - your digital inventory | `TypeScript` ★ 38 | 2026-03-21 |
-| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | `TypeScript` ★ 42.3k | 2026-04-02 |
-| [zotero/zotero](https://github.com/zotero/zotero) | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources. | `JavaScript` ★ 13.8k | 2026-04-01 |
+| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | `TypeScript` ★ 42.3k | 2026-04-04 |
+| [zotero/zotero](https://github.com/zotero/zotero) | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources. | `JavaScript` ★ 13.8k | 2026-04-03 |
 | [FedRAMP/roadmap](https://github.com/FedRAMP/roadmap) | Fed RAMP's Public High Level Roadmap | `Shell` ★ 26 | 2026-02-02 |
 | [microsoft/vscode-extension-samples](https://github.com/microsoft/vscode-extension-samples) | Sample code illustrating the VS Code extension API. | `TypeScript` ★ 10k | 2026-02-12 |
 | [gradiuscypher/infosec_getting_started](https://github.com/gradiuscypher/infosec_getting_started) | A collection of resources/documentation/links/etc to help people learn about Infosec and break into the field. | `HTML` ★ 610 | 2025-01-11 |

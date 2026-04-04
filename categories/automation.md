@@ -1,24 +1,26 @@
 # Automation
 
-*14 repositories*
+*16 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [jackwener/opencli](https://github.com/jackwener/opencli) | Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. | `TypeScript` ★ 10.8k | 2026-04-01 |
-| [daggerhashimoto/openclaw-nerve](https://github.com/daggerhashimoto/openclaw-nerve) | Real-time web cockpit for Open Claw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility. | `TypeScript` ★ 619 | 2026-04-01 |
-| [swarmclawai/swarmclaw](https://github.com/swarmclawai/swarmclaw) | Build and run autonomous AI agents with Open Claw, multiple model providers, orchestration, delegation, memory, skills, schedules, and chat connectors. | `TypeScript` ★ 205 | 2026-04-01 |
-| [googleworkspace/cli](https://github.com/googleworkspace/cli) | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | `Rust` ★ 23.5k | 2026-03-31 |
+| [jackwener/opencli](https://github.com/jackwener/opencli) | Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. | `TypeScript` ★ 12.6k | 2026-04-03 |
+| [daggerhashimoto/openclaw-nerve](https://github.com/daggerhashimoto/openclaw-nerve) | Real-time web cockpit for Open Claw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility. | `TypeScript` ★ 634 | 2026-04-03 |
+| [swarmclawai/swarmclaw](https://github.com/swarmclawai/swarmclaw) | Build and run autonomous AI agents with Open Claw, multiple model providers, orchestration, delegation, memory, skills, schedules, and chat connectors. | `TypeScript` ★ 210 | 2026-04-03 |
+| [googleworkspace/cli](https://github.com/googleworkspace/cli) | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | `Rust` ★ 23.7k | 2026-03-31 |
 | [5a9awneh/printer-address-book-converter](https://github.com/5a9awneh/printer-address-book-converter) | Universal printer address book converter with intelligent format detection. Supports multifunction printers using Canon, Sharp, Xerox, and Develop/Konica CSV formats. Features fuzzy deduplication, ... | `PowerShell` ★ 1 | 2026-01-29 |
-| [ChristopherHX/github-act-runner](https://github.com/ChristopherHX/github-act-runner) | act as self-hosted runner | `Go` ★ 375 | 2026-03-21 |
+| [ChristopherHX/github-act-runner](https://github.com/ChristopherHX/github-act-runner) | act as self-hosted runner | `Go` ★ 376 | 2026-03-21 |
 | [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | An unofficial Local Git Hub Actions and Azure Pipelines Emulator | `C#` ★ 233 | 2026-03-23 |
 | [changesets/ghcommit](https://github.com/changesets/ghcommit) | Type Script library for directly changing files on Git Hub | `TypeScript` ★ 18 | 2026-01-27 |
-| [Brainicism/bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider) | Proof-of-origin token provider plugin for yt-dlp | `TypeScript` ★ 472 | 2026-03-21 |
-| [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 458 | 2026-03-14 |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 63.6k | 2026-03-26 |
-| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | CLI-Anything: Making ALL Software Agent-Native | `Python` ★ 26.5k | 2026-04-01 |
+| [Brainicism/bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider) | Proof-of-origin token provider plugin for yt-dlp | `TypeScript` ★ 477 | 2026-03-21 |
+| [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 464 | 2026-03-14 |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 65.1k | 2026-03-26 |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | CLI-Anything: Making ALL Software Agent-Native | `Python` ★ 27.7k | 2026-04-03 |
 | [pyupio/safety](https://github.com/pyupio/safety) | Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected. | `Python` ★ 2k | 2026-03-23 |
-| [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Go` ★ 298 | 2026-03-29 |
+| [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Go` ★ 299 | 2026-04-03 |
+| [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scalable. The Memory API for the AI era. | `TypeScript` ★ 21k | 2026-04-03 |
+| [nanobrowser/nanobrowser](https://github.com/nanobrowser/nanobrowser) | Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to Open AI Operator. | `TypeScript` ★ 12.6k | 2025-11-24 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

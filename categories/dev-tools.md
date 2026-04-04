@@ -1,25 +1,29 @@
 # Dev-tools
 
-*15 repositories*
+*19 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [antfu/vscode-file-nesting-config](https://github.com/antfu/vscode-file-nesting-config) | Config of File Nesting for VS Code | `JavaScript` ★ 3.6k | 2026-01-30 |
-| [garronej/vite-envs](https://github.com/garronej/vite-envs) | ⚙️ Env var in Vite at container startup | `TypeScript` ★ 80 | 2025-07-03 |
-| [jackwener/opencli](https://github.com/jackwener/opencli) | Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. | `TypeScript` ★ 10.8k | 2026-04-01 |
+| [garronej/vite-envs](https://github.com/garronej/vite-envs) | ⚙️ Env var in Vite at container startup | `TypeScript` ★ 81 | 2025-07-03 |
+| [jackwener/opencli](https://github.com/jackwener/opencli) | Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction. | `TypeScript` ★ 12.6k | 2026-04-03 |
 | [usewaypoint/email-builder-js](https://github.com/usewaypoint/email-builder-js) | A free and open-source block-based email template builder. | `TypeScript` ★ 1.6k | 2026-02-09 |
-| [awesomized/crc-fast-rust](https://github.com/awesomized/crc-fast-rust) | World's fastest generic CRC calculator for all known CRC-16, CRC-32, and CRC-64 variants, as well as bring-your-own custom parameters, using SIMD intrinsics, which can exceed 100Gi B/s on modern sy... | `Rust` ★ 73 | 2025-12-29 |
+| [awesomized/crc-fast-rust](https://github.com/awesomized/crc-fast-rust) | World's fastest generic CRC calculator for all known CRC-16, CRC-32, and CRC-64 variants, as well as bring-your-own custom parameters, using SIMD intrinsics, which can exceed 100Gi B/s on modern sy... | `Rust` ★ 74 | 2025-12-29 |
 | [Yayi-Dev/esc-pos-printer-manager](https://github.com/Yayi-Dev/esc-pos-printer-manager) | A plugin to manage ESC/POS printers via node.js (javascript / typescript) without using zadig (Win USBDriver) | `PHP` ★ 9 | 2024-07-29 |
-| [node-config/node-config](https://github.com/node-config/node-config) | Node.js Application Configuration | `JavaScript` ★ 6.4k | 2026-03-29 |
+| [node-config/node-config](https://github.com/node-config/node-config) | Node.js Application Configuration | `JavaScript` ★ 6.4k | 2026-04-03 |
 | [zumwald/better-vsts-npm-auth](https://github.com/zumwald/better-vsts-npm-auth) | Platform agnostic library and acompanying oauth service enabling developers to easily obtain and use tokens for authorizing NPM feeds in VSTS | `TypeScript` ★ 59 | 2024-07-26 |
 | [changesets/ghcommit](https://github.com/changesets/ghcommit) | Type Script library for directly changing files on Git Hub | `TypeScript` ★ 18 | 2026-01-27 |
-| [microsoft/beachball](https://github.com/microsoft/beachball) | The Sunniest Semantic Version Bumper | `TypeScript` ★ 806 | 2026-03-28 |
+| [microsoft/beachball](https://github.com/microsoft/beachball) | The Sunniest Semantic Version Bumper | `TypeScript` ★ 807 | 2026-04-02 |
 | [changesets/changesets](https://github.com/changesets/changesets) | 🦋 A way to manage your versioning and changelogs with a focus on monorepos | `TypeScript` ★ 11.6k | 2026-04-01 |
-| [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio) | A lightweight Node.js private proxy registry | `TypeScript` ★ 17.6k | 2026-04-01 |
+| [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio) | A lightweight Node.js private proxy registry | `TypeScript` ★ 17.6k | 2026-04-04 |
 | [microsoft/vscode-extension-samples](https://github.com/microsoft/vscode-extension-samples) | Sample code illustrating the VS Code extension API. | `TypeScript` ★ 10k | 2026-02-12 |
 | [pyupio/safety](https://github.com/pyupio/safety) | Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected. | `Python` ★ 2k | 2026-03-23 |
-| [go-gitea/gitea](https://github.com/go-gitea/gitea) | Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD | `Go` ★ 54.7k | 2026-04-01 |
+| [go-gitea/gitea](https://github.com/go-gitea/gitea) | Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD | `Go` ★ 54.7k | 2026-04-03 |
+| [atuinsh/atuin](https://github.com/atuinsh/atuin) | ✨ Making your shell magical | `Rust` ★ 29k | 2026-04-04 |
+| [atuinsh/desktop](https://github.com/atuinsh/desktop) | 📖 Runbooks that run | `TypeScript` ★ 2.4k | 2026-02-09 |
+| [mountain-loop/yaak](https://github.com/mountain-loop/yaak) | The most intuitive desktop API client. Organize and execute REST, Graph QL, Web Sockets, Server Sent Events, and g RPC 🦬 | `TypeScript` ★ 18.3k | 2026-04-01 |
+| [Quantco/pnpm-licenses](https://github.com/Quantco/pnpm-licenses) | Generate third party license disclaimers in pnpm-based projects | `TypeScript` ★ 16 | 2026-03-05 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
