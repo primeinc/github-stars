@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-05T04:06:59.864Z'
+  manifest_updated_at: '2026-04-05T04:07:30.280Z'
   total_repos: 200
   generator_version: v1.0.0
   github_user: primeinc
@@ -6116,13 +6116,17 @@ repositories:
     framework: null
   - repo: financial-datasets/mcp-server
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - data-science
+    tags:
+      - stock-market-api
+      - financial-data
+      - lang:python
     summary: An MCP server for interacting with the Financial Datasets stock market API.
     last_synced_sha: 08e7a3dbb949d3d99bbd6d6f3a22e5f02973ec58
     user_starred_at: '2026-02-16T05:11:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -6140,15 +6144,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: GongRzhe/Office-Word-MCP-Server
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - word-documents
+      - mcp-server
+      - lang:python
     summary: A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interfac...
     last_synced_sha: a3bbbb6d6167e68cf855d73ef7dc6cd8cfbfedba
     user_starred_at: '2026-02-16T05:10:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -6169,15 +6181,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: mcp-router/mcp-router
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - dev-tools
+    tags:
+      - server-management
+      - mcp-manager
+      - lang:ts
     summary: A Unified MCP Server Management App (MCP Manager).
     last_synced_sha: a213cd330d1abef0144b19a84b64ddd9b7f974aa
     user_starred_at: '2026-02-16T05:10:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6206,15 +6226,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: donnemartin/system-design-primer
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - web-dev
+    tags:
+      - system-design
+      - design-patterns
+      - lang:python
     summary: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
     last_synced_sha: ae9bbd7b02d90b9866215de185217d33f39ab733
     user_starred_at: '2026-02-16T04:56:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6245,15 +6273,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: FlorianWilhelm/the-hatchlor
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - cookiecutter
+      - project-template
+      - lang:python
     summary: 🌹 Cookiecutter template featuring the modern and extensible Python project manager hatch
     last_synced_sha: 302e0ec16e95096d539ac6330f984cab086c5558
     user_starred_at: '2026-02-16T04:55:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6283,15 +6319,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: anomalyco/opencode-sdk-python
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - sdk
+      - lang:python
     summary: No description provided
     last_synced_sha: 817f1a08163452fd7fcfbb1268b262cc78a9d629
     user_starred_at: '2026-02-16T04:46:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -6309,15 +6352,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: HKUDS/MoChat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - ai-chat
+      - messaging
+      - lang:ts
     summary: '"Mo Chat: Open Claw as Your Social Agent https://mochat.io"'
     last_synced_sha: 382a23e83e895dfec18a8503268292c7874d0577
     user_starred_at: '2026-02-15T21:40:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -6335,15 +6386,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: dead10ck/nu_plugin_dns
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - dev-tools
+    tags:
+      - dns
+      - nushell
+      - lang:rust
     summary: DNS utility for nushell
     last_synced_sha: 9129ca265755a47bb710ff513f2f006f5d815efe
     user_starred_at: '2026-02-15T17:06:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -6361,15 +6420,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: kinhunt/mcpdog
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - dev-tools
+    tags:
+      - server-management
+      - web-dashboard
+      - lang:ts
     summary: 🐕 Universal MCP Server Manager - Configure once, manage multiple MCP servers through a single interface. Perfect for Claude Desktop, Claude Code, Cursor, Gemini CLI & AI assistants. Web dashboard,...
     last_synced_sha: a008041fbaff1c03a5c653044144a2b15fc75233
     user_starred_at: '2026-02-15T08:12:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6397,15 +6464,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: maxritter/pilot-shell
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-assistant
+      - ai-coding
+      - lang:ts
     summary: The professional development environment for Claude Code
     last_synced_sha: 0e21b27eda56d76969871366936a5a32946f0196
     user_starred_at: '2026-02-14T17:36:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6442,15 +6517,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: microsoft/PSRule-pipelines
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - deployment
+    tags:
+      - iac
+      - azure-pipelines
+      - lang:powershell
     summary: Validate infrastructure as code (Ia C) and Dev Ops repositories using Azure Pipelines.
     last_synced_sha: 6b3d9a21dfa94ad4f313f19de7e1d9d5266407f8
     user_starred_at: '2026-02-14T12:18:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -6482,15 +6565,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: vectra-ai-research/MAAD-AF
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - microsoft-azure-security
+      - attack-framework
+      - lang:powershell
     summary: MAAD Attack Framework - An attack tool for simple, fast & effective security testing of M365 & Entra ID (Azure AD).
     last_synced_sha: b89412b51b85b07efc77f2fa6e2b39d138269daf
     user_starred_at: '2026-02-14T12:18:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -6526,15 +6617,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: azurekid/blackcat
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - azure
+      - security-check
+      - lang:powershell
     summary: Black Cat is a Power Shell module designed to validate the security of Microsoft Azure. It provides a set of functions to identify potential security holes.
     last_synced_sha: 7baf7bbbbd449aadbeba557640036eeabb2fa7fb
     user_starred_at: '2026-02-14T12:17:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -6552,15 +6651,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: knom/AzureResourceOwnerTag
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - cloud
+    tags:
+      - azure
+      - auto-tagging
+      - lang:powershell
     summary: Azure Automation Script that Tags Azure Resource Groups with the OWNER and EXPIRY DATE
     last_synced_sha: f2a2c66d8061a6979a9ea0df3142a15f969a2462
     user_starred_at: '2026-02-14T12:17:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -6585,15 +6692,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: JWStarkie/PurviewAccelerator
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - cloud
+    tags:
+      - azure
+      - purview
+      - lang:powershell
     summary: A lightning fast tool to automatically deploy Purview in a super fast at the click of a button. Clone the repo, execute the scripts, wait 10 minutes and boom - your Purview environment is up and ru...
     last_synced_sha: 23bd8bf1d6981d53b6dbe8f1b5dc8301ae6bb4e9
     user_starred_at: '2026-02-14T12:17:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -6614,6 +6729,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:07:29.395Z'
+      prompt_version: v3
   - repo: SoyITPro/scripts
     categories:
       - system-admin
