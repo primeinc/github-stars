@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-05T04:08:32.724Z'
+  manifest_updated_at: '2026-04-05T04:09:09.426Z'
   total_repos: 200
   generator_version: v1.0.0
   github_user: primeinc
@@ -4611,13 +4611,19 @@ repositories:
     framework: null
   - repo: projectdiscovery/nuclei-templates
     categories:
-      - unclassified
-    tags: []
+      - security
+      - testing
+      - documentation
+    tags:
+      - security-templates
+      - vulnerability-detection
+      - exploit-development
+      - lang:js
     summary: Community curated list of templates for the nuclei engine to find security vulnerabilities.
     last_synced_sha: 371c2cc6a6879ea37dfe3b9b16908cd0a9c75238
     user_starred_at: '2026-02-22T10:12:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -4647,15 +4653,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.635Z'
+      prompt_version: v3
   - repo: rollup/rollup
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - module-bundler
+      - es-modules
+      - next-gen
+      - lang:js
     summary: Next-generation ES module bundler
     last_synced_sha: 186b352f3b028c5733c47dadacd565e303567e9d
     user_starred_at: '2026-02-22T10:12:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -4675,15 +4690,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.635Z'
+      prompt_version: v3
   - repo: Azgaar/Fantasy-Map-Generator
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - web-dev
+    tags:
+      - map-generation
+      - cartography
+      - fantasy-maps
+      - lang:js
     summary: Web application generating interactive and highly customizable maps
     last_synced_sha: 23871b3311ed2da0315c994c38d4a25477ca496f
     user_starred_at: '2026-02-22T10:12:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -4711,15 +4735,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.635Z'
+      prompt_version: v3
   - repo: ToolJet/ToolJet
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+      - ai-ml
+    tags:
+      - no-code
+      - low-code
+      - internal-tools
+      - lang:js
     summary: Tool Jet is the open-source foundation of Tool Jet AI - the AI-native platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀
     last_synced_sha: 861115284fb84182be7551496d6f61f66ad56ea1
     user_starred_at: '2026-02-22T10:11:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -4757,16 +4791,26 @@ repositories:
         published_at: '2026-04-02T17:03:48Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.635Z'
+      prompt_version: v3
   - repo: projectdiscovery/nuclei
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+      - testing
+    tags:
+      - vulnerability-scanner
+      - security-scanner
+      - customizable
+      - lang:go
     summary: Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the ...
     last_synced_sha: c6fb1ae486185320199e9020897dc5846c1a8fef
     user_starred_at: '2026-02-22T10:11:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -4797,15 +4841,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.635Z'
+      prompt_version: v3
   - repo: ros-navigation/navigation2
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - embedded
+      - system-admin
+    tags:
+      - robotics
+      - ros2
+      - navigation
+      - lang:cpp
     summary: ROS 2 Navigation Framework and System
     last_synced_sha: f88cd02fb2d64598203e7a0edb16f701e8437d3f
     user_starred_at: '2026-02-22T10:09:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -4828,15 +4882,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.635Z'
+      prompt_version: v3
   - repo: TrinityCore/TrinityCore
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - networking
+    tags:
+      - mmorpg
+      - multiplayer
+      - wow
+      - lang:cpp
     summary: Trinity Core Open Source MMO Framework (master = 12.0.1.66709, 3.3.5 = 3.3.5a.12340, cata classic = 4.4.2.60895)
     last_synced_sha: 7eb491a2e58dcded1a433f99ef70882c8872b464
     user_starred_at: '2026-02-22T10:08:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -4863,15 +4926,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.635Z'
+      prompt_version: v3
   - repo: HailToDodongo/pyrite64
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - embedded
+    tags:
+      - n64
+      - game-engine
+      - libdragon
+      - lang:cpp
     summary: N64 Game-Engine and Editor using libdragon & tiny3d
     last_synced_sha: 160ecec1c513f59f621f79726f165fcfab42bf2e
     user_starred_at: '2026-02-22T10:08:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -4891,15 +4963,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.634Z'
+      prompt_version: v3
   - repo: dragonflydb/dragonfly
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - productivity
+    tags:
+      - cache
+      - in-memory-database
+      - redis
+      - lang:cpp
     summary: A modern replacement for Redis and Memcached
     last_synced_sha: 5db9666cd74357c964737afb0aa54e02017b40b3
     user_starred_at: '2026-02-22T10:07:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -4934,15 +5015,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.634Z'
+      prompt_version: v3
   - repo: AzureAD/microsoft-identity-web
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+      - web-dev
+    tags:
+      - authentication
+      - identity-platform
+      - asp-net-core
+      - lang:csharp
     summary: Helps creating protected web apps and web APIs with Microsoft identity platform and Azure AD B2C
     last_synced_sha: 65ba87e4ba186360f30c7fa94ecf5a4df819ccfb
     user_starred_at: '2026-02-22T10:06:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -4966,15 +5057,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.634Z'
+      prompt_version: v3
   - repo: JosefNemec/Playnite
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - desktop-dev
+      - productivity
+    tags:
+      - game-library
+      - gaming
+      - launcher
+      - lang:csharp
     summary: Video game library manager with support for wide range of 3rd party libraries and game emulation support, providing one unified interface for your games.
     last_synced_sha: ab2eed4d09eab9e276d51056e2ed487aae1d32e9
     user_starred_at: '2026-02-22T10:06:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -4998,15 +5099,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.634Z'
+      prompt_version: v3
   - repo: unoplatform/uno
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - web-dev
+      - desktop-dev
+    tags:
+      - cross-platform
+      - native-apps
+      - hot-reload
+      - lang:csharp
     summary: Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow...
     last_synced_sha: 6324b6dffb3face6e35a2ade2bad0080fe8deff8
     user_starred_at: '2026-02-22T10:05:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -5046,15 +5157,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.634Z'
+      prompt_version: v3
   - repo: abhigyanpatwari/GitNexus
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+      - productivity
+    tags:
+      - code-intelligence
+      - knowledge-graph
+      - web-based
+      - zero-server
+      - lang:ts
     summary: 'Git Nexus: The Zero-Server Code Intelligence Engine - Git Nexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a Git Hub repo or ZIP file, and get an interacti...'
     last_synced_sha: 0561d24efde7a6ab3b4b680bddf87fdb320f03c3
     user_starred_at: '2026-02-22T10:04:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -5074,15 +5196,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.634Z'
+      prompt_version: v3
   - repo: vxcontrol/pentagi
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+      - automation
+    tags:
+      - penetration-testing
+      - security-automation
+      - ai-agents
+      - lang:go
     summary: Fully autonomous AI Agents system capable of performing complex penetration testing tasks
     last_synced_sha: d56952653f7854a14b44a13f1a5396d70103fe09
     user_starred_at: '2026-02-22T10:03:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5119,16 +5251,27 @@ repositories:
         published_at: '2026-02-25T16:26:25Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.634Z'
+      prompt_version: v3
   - repo: hiddify/hiddify-app
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+      - mobile-dev
+    tags:
+      - proxy
+      - vpn
+      - ad-free
+      - multi-platform
+      - lang:dart
     summary: Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.
     last_synced_sha: fbc6cbd4ed6a978e5923c8203a93080019a7777b
     user_starred_at: '2026-02-22T10:03:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -5166,6 +5309,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-05T04:09:08.634Z'
+      prompt_version: v3
   - repo: wxt-dev/wxt
     categories:
       - dev-tools
