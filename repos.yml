@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:24:48.060Z'
+  manifest_updated_at: '2026-04-11T04:25:19.554Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -19911,13 +19911,19 @@ repositories:
     framework: null
   - repo: keploy/keploy
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - apis
+    tags:
+      - api-testing
+      - lang:go
+      - test-automation
+      - mocking
+      - e2e-testing
     summary: Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.
     last_synced_sha: 1ff9347f1c6666410f38f916c9907d8999906ce5
     user_starred_at: '2026-01-09T21:10:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -19951,15 +19957,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: sysadminsmedia/homebox
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - inventory-system
+      - lang:go
+      - self-hosted
+      - home-organization
+      - hacktoberfest
     summary: A continuation of Home Box the inventory and organization system built for the Home User
     last_synced_sha: f6ccaf93eda274a5fd11d8628043b3320948b539
     user_starred_at: '2026-01-09T21:10:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -19983,15 +19999,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: charmbracelet/bubbletea
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - frameworks
+    tags:
+      - tui-framework
+      - lang:go
+      - elm-architecture
+      - cli
+      - functional
     summary: A powerful little TUI framework 🏗
     last_synced_sha: 05df5aecf81f67ba8dd312367246bc1c9465adfa
     user_starred_at: '2026-01-09T21:09:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -20019,15 +20045,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: spf13/cobra
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+    tags:
+      - cli-library
+      - lang:go
+      - automation
+      - command-line-framework
+      - posix-compliant
     summary: A Commander for modern Go CLI interactions
     last_synced_sha: 61968e893eee2f27696c2fbc8e34fa5c4afaf7c4
     user_starred_at: '2026-01-09T21:09:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -20063,15 +20099,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: m1k1o/neko
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - ui-libraries
+    tags:
+      - virtual-browser
+      - lang:go
+      - webrtc
+      - self-hosted
+      - media-streaming
     summary: A self hosted virtual browser that runs in docker and uses Web RTC.
     last_synced_sha: 2e28ec5c5a1bd7409db01e84b0e49dd3e9d28043
     user_starred_at: '2026-01-09T21:09:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -20099,16 +20145,26 @@ repositories:
         published_at: '2026-04-02T13:19:45Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: knadh/listmonk
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - apis
+    tags:
+      - newsletter-management
+      - lang:go
+      - email-marketing
+      - campaign
+      - self-hosted
     summary: High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.
     last_synced_sha: bb1d87e5eba8343d9fb272f19c7314b1bc427eee
     user_starred_at: '2026-01-09T21:08:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -20141,15 +20197,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: rcourtman/Pulse
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - ai-ml
+    tags:
+      - real-time-monitoring
+      - lang:go
+      - proxmox
+      - docker
+      - smart-alerts
     summary: Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unified dashboard
     last_synced_sha: 22f38c84d92639b0c4d1715b405d3a651200ed5f
     user_starred_at: '2026-01-09T21:08:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -20188,15 +20254,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: jesseduffield/lazydocker
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - containers
+    tags:
+      - docker-management
+      - lang:go
+      - cli-tool
+      - container-administration
+      - productivity
     summary: The lazier way to manage everything docker
     last_synced_sha: 2ebe3848d67720f641c1f2ff2a7fe0a7bcaf9422
     user_starred_at: '2026-01-09T21:08:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -20216,15 +20292,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: charmbracelet/vhs
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - cli
+      - lang:go
+      - terminal-video-recording
+      - ascii
+      - visualization
     summary: Your CLI home video recorder 📼
     last_synced_sha: 6ec73298e7d3cd39eaa2a6dc8fe08fcc80f97d66
     user_starred_at: '2026-01-09T21:07:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -20252,15 +20338,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: chaitin/SafeLine
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+    tags:
+      - waf
+      - web-security
+      - lang:go
+      - reverse-proxy
+      - attack-protection
     summary: Safe Line is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.
     last_synced_sha: 6d871e638bf8750c3422413afae0fd7b2d311a55
     user_starred_at: '2026-01-09T21:06:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -20300,15 +20396,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: gitbutlerapp/gitbutler
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - desktop-dev
+    tags:
+      - git-client
+      - lang:rust
+      - version-control
+      - svelte
+      - tauri
     summary: The Git Butler version control client, backed by Git, powered by Tauri/Rust/Svelte
     last_synced_sha: 390e6bdf81d8c0f176c31e9cc017031690c071cf
     user_starred_at: '2026-01-09T21:05:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -20330,16 +20436,26 @@ repositories:
         published_at: '2026-04-02T22:36:46Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: svelte
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: sxyazi/yazi
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - file-manager
+      - lang:rust
+      - terminal-tool
+      - async-io
+      - cross-platform
     summary: 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
     last_synced_sha: 80a54c3dd555ed3957c3dec53c79174351e85731
     user_starred_at: '2026-01-09T21:04:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -20378,15 +20494,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: ast-grep/ast-grep
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - codemod
+      - lang:rust
+      - search-and-replace
+      - linter
+      - command-line-tool
     summary: ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust
     last_synced_sha: 8555752d2a353556f2b23ce9b556023ba7682819
     user_starred_at: '2026-01-09T21:04:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -20421,15 +20547,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: 3b1b/manim
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ui-libraries
+    tags:
+      - animation-engine
+      - explanatory-math-videos
+      - lang:python
+      - visualization
+      - education
     summary: Animation engine for explanatory math videos
     last_synced_sha: c5e23d93659d604ff495ffe300bf7d4ef890e538
     user_starred_at: '2026-01-09T21:03:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -20453,15 +20589,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: OpenBMB/ChatDev
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - multi-agent
+      - collaboration
+      - lang:python
+      - llm-powered
+      - development
     summary: 'Chat Dev 2.0: Dev All through LLM-powered Multi-Agent Collaboration'
     last_synced_sha: 68fdac8a0558c9241124f0935c15eaf149736acf
     user_starred_at: '2026-01-09T21:02:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -20481,6 +20627,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:25:18.313Z'
+      prompt_version: v3
   - repo: camel-ai/owl
     categories:
       - ai-ml
