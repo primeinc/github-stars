@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:36:56.870Z'
+  manifest_updated_at: '2026-04-11T04:37:25.198Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -8435,13 +8435,18 @@ repositories:
       prompt_version: v3
   - repo: shanraisshan/claude-code-best-practice
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - lang:html
+      - claude-ai
+      - best-practices
+      - agentic-engineering
     summary: practice made claude perfect
     last_synced_sha: defaf330ed0d69f432d9c030d314dc96c1a19ede
     user_starred_at: '2026-04-09T14:15:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -8472,15 +8477,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:37:23.988Z'
+      prompt_version: v3
   - repo: garrytan/gstack
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+      - productivity
+    tags:
+      - lang:ts
+      - toolchain
+      - opinionated-setup
+      - multi-role-tools
     summary: 'Use Garry Tan''s exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA'
     last_synced_sha: c6e6a21d1a9a58e771403260ff6a134898f2dd02
     user_starred_at: '2026-04-09T13:42:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -8498,15 +8513,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:37:23.984Z'
+      prompt_version: v3
   - repo: albanobattistella/EinVault
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - lang:ts
+      - self-hosted
+      - animal-care
+      - svelte
+      - sqlite
     summary: Self-hosted animal companion health and care tracker for homelabs. Built with Svelte Kit and SQLite.
     last_synced_sha: 54241d46e6f36eb284a598b3074bf32d59b8d64d
     user_starred_at: '2026-04-09T13:41:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: TypeScript
@@ -8524,16 +8549,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: svelte
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:37:23.984Z'
+      prompt_version: v3
   - repo: Yeachan-Heo/clawhip
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - lang:rust
+      - event-routing
+      - notifications
+      - context-isolation
     summary: 'claw + whip: Event-to-channel notification router — bypasses gateway sessions to avoid context pollution'
     last_synced_sha: f983e1163f52c976fdfb022dbaefca02019b5237
     user_starred_at: '2026-04-09T13:40:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -8553,15 +8587,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:37:23.984Z'
+      prompt_version: v3
   - repo: ultraworkers/claw-code
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - lang:rust
+      - high-performance
+      - oh-my-codex
+      - popular
     summary: 'The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKq FWd Built in Rust using oh-my-codex.'
     last_synced_sha: 8aa1fa2cc931007f537854b1b0f0b61fdc986a50
     user_starred_at: '2026-04-09T13:39:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -8579,6 +8622,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:37:23.984Z'
+      prompt_version: v3
   - repo: unixshells/latch
     categories:
       - system-admin
