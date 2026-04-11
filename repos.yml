@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:14:51.041Z'
+  manifest_updated_at: '2026-04-11T04:15:21.526Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -29622,13 +29622,16 @@ repositories:
     framework: null
   - repo: Azure/api-management-policy-snippets
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - documentation
+    tags:
+      - api-management
+      - policy-snippets
     summary: Re-usable examples of Azure API Management policies
     last_synced_sha: 87225c2090e45add095919e8767c37d9ece42e0c
     user_starred_at: '2025-11-25T05:42:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -29646,15 +29649,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: Azure-Samples/dab-swa-wonders
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - databases
+    tags:
+      - jamstack
+      - database
+      - graphql
+      - lang:ts
     summary: Boost your developer productivity by creating end-to-end apps quickly! Using Azure Data API Builder for Cosmos DB, this app shows how to build JAMstack apps fast with Cosmos DB as your backend.
     last_synced_sha: 5e074946db72972f983d5cc51d79772c4a120e0c
     user_starred_at: '2025-11-25T05:39:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29676,15 +29688,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: AzureCosmosDB/banking-multi-agent-workshop
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - frameworks
+    tags:
+      - multi-agent
+      - banking
+      - angular
     summary: A multi-agent sample and workshop for a retail banking scenario. Implemented in both C# and Python, using Angular as Frontend!
     last_synced_sha: 2de00a276b74711d2e8e72a3ca9e78e332653f76
     user_starred_at: '2025-11-25T05:35:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -29701,16 +29721,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: microsoft/CosmosDB_Multi-Tenant
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - cloud
+    tags:
+      - cosmosdb
+      - multi-tenant
+      - cloud-database
     summary: Cosmos DB for Multi-Tenant Applications
     last_synced_sha: f767aa958813ef2142381cc5126fb1828074a93d
     user_starred_at: '2025-11-25T05:34:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -29728,15 +29756,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: tremorlabs/tremor-blocks
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - tremor
+      - blocks
+      - lang:ts
     summary: Tremor Blocks Source Code
     last_synced_sha: b319e8d3d3678a4f60f4802f7e85bc1abc52d598
     user_starred_at: '2025-11-25T05:20:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -29754,15 +29790,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: Aldhanekaa/ShadcnVaults
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - components-library
+      - shadcn-ui
+      - tailwindcss
+      - lang:ts
     summary: Collection of blocks for Internal Tools UI built on top of shadcn/ui
     last_synced_sha: b30d311344fe7a7e65892de5c6d5fc019beb98cc
     user_starred_at: '2025-11-25T05:01:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -29794,16 +29839,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: olhel/sub2tenant-aca
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - azure
+      - tenant-lookup
+      - lang:html
     summary: Lookup Azure tenant information from a subscription ID.
     last_synced_sha: d80cc0a512b183193814d9b539099571c0fffe12
     user_starred_at: '2025-11-24T23:51:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -29821,15 +29874,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: nvbn/thefuck
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - shell-commands
+      - auto-correction
+      - lang:python
     summary: Magnificent app which corrects your previous console command.
     last_synced_sha: c7e7e1d884d3bb241ea6448f72a989434c2a35ec
     user_starred_at: '2025-11-24T23:40:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -29851,15 +29912,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: shane-downes/styleglide
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - design-system
+      - tailwindcss
+      - lang:ts
     summary: Create your own shadcn/ui and Tailwind CSS design system
     last_synced_sha: 86e10dfc08e4f9d70e2c3afc5c30812a48450a76
     user_starred_at: '2025-11-22T10:29:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -29879,15 +29948,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: copyleftdev/mailsentinel
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - security
+    tags:
+      - email-automation
+      - email-classification
+      - audit-logging
+      - lang:go
     summary: AI-powered Gmail classification system using local Ollama LLM inference. Privacy-first email triage with modular YAML profiles, cryptographic audit trails, and enterprise-grade security.
     last_synced_sha: 4484cd91a2a53a2ce1f267bdf23816c70696b8a1
     user_starred_at: '2025-11-22T06:14:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -29925,15 +30004,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: trungdq88/Awesome-Black-Friday-Cyber-Monday
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - software-deals
+      - resources
+      - sales
     summary: Awesome apps, software, and Saa S deals on Black Friday.
     last_synced_sha: 715b4e62259bebec6ae84b3a5b7e45b5b2d880b9
     user_starred_at: '2025-11-22T06:00:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -29951,15 +30038,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: squidfunk/mkdocs-material
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - documentation
+      - mkdocs
+      - theme
+      - lang:python
     summary: Documentation that simply works
     last_synced_sha: b1bf131a3b1da7748460bf8552829da0acd5eece
     user_starred_at: '2025-11-22T05:59:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -29985,15 +30081,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: chitalian/openllmetry-js
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - ai-ml
+    tags:
+      - telemetry
+      - observability
+      - llm
+      - lang:ts
     summary: Sister project to Open LLMetry, but in Typescript. Open-source observability for your LLM application, based on Open Telemetry
     last_synced_sha: 64d69dfda5dba6f2620c01fc8f45cd7a5b597bd2
     user_starred_at: '2025-11-22T05:58:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: TypeScript
@@ -30012,15 +30117,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: gtsteffaniak/filebrowser
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - file-management
+      - web-interface
+      - lang:go
     summary: 📂 Web File Browser
     last_synced_sha: aa8f9e29238915d967a41f41b306b783bef90b19
     user_starred_at: '2025-11-22T05:57:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -30040,15 +30153,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: dgtlmoon/changedetection.io
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - automation
+    tags:
+      - website-monitoring
+      - change-detection
+      - self-hosted
+      - lang:python
     summary: Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monito...
     last_synced_sha: 0dbfb02e1759d76054123e6ff5feb93a1978b206
     user_starred_at: '2025-11-22T05:55:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -30088,6 +30210,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:15:20.281Z'
+      prompt_version: v3
   - repo: slidevjs/slidev
     categories:
       - productivity
