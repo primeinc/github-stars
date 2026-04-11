@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:08:31.433Z'
+  manifest_updated_at: '2026-04-11T04:09:01.547Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -35659,13 +35659,18 @@ repositories:
     framework: null
   - repo: karpathy/nanoGPT
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - gpt
+      - lang:python
+      - finetuning
+      - training
     summary: The simplest, fastest repository for training/finetuning medium-sized GPTs.
     last_synced_sha: 3adf61e154c3fe3fca428ad6bc3818b27a3b8291
     user_starred_at: '2025-10-19T19:20:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35683,15 +35688,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.335Z'
+      prompt_version: v3
   - repo: karpathy/nanochat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - chatgpt
+      - lang:python
+      - ai-agent
+      - assistant
     summary: The best Chat GPT that $100 can buy.
     last_synced_sha: a445144d3905c6845fda2d3cab8e63248a70cd32
     user_starred_at: '2025-10-19T19:20:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -35709,15 +35723,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.335Z'
+      prompt_version: v3
   - repo: atuinsh/atuin
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - dev-tools
+    tags:
+      - shell
+      - lang:rust
+      - zsh
+      - history
+      - bash
     summary: ✨ Making your shell magical
     last_synced_sha: 0b346fc07f16e3b933a821092fb744c6e5d2855e
     user_starred_at: '2025-10-19T19:17:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -35743,15 +35767,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.335Z'
+      prompt_version: v3
   - repo: atuinsh/desktop
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - runbooks
+      - lang:ts
+      - desktop
     summary: 📖 Runbooks that run
     last_synced_sha: 06102dcd77f5564a08fbba2ac4a29c1b7deb27d0
     user_starred_at: '2025-10-19T19:17:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -35771,15 +35803,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.335Z'
+      prompt_version: v3
   - repo: mountain-loop/yaak
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - desktop-dev
+    tags:
+      - http-client
+      - graphql
+      - grpc
+      - lang:ts
+      - postman-alternative
     summary: The most intuitive desktop API client. Organize and execute REST, Graph QL, Web Sockets, Server Sent Events, and g RPC 🦬
     last_synced_sha: eb9b5b6bb6402faf0f4253ce59e9c10fc40846ae
     user_starred_at: '2025-10-19T19:16:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -35809,15 +35851,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.335Z'
+      prompt_version: v3
   - repo: TheAlgorithms/TypeScript
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - data-science
+    tags:
+      - algorithms
+      - data-structures
+      - lang:ts
+      - typescript
+      - education
     summary: Algorithms and Data Structures implemented in Type Script for beginners, following best practices.
     last_synced_sha: 19b4ced86c99815f142d4a46a028f55487b8038a
     user_starred_at: '2025-10-19T19:15:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -35839,15 +35891,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.335Z'
+      prompt_version: v3
   - repo: TheAlgorithms/Python
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - data-science
+    tags:
+      - algorithms
+      - lang:python
+      - education
+      - sorting
+      - search
     summary: All Algorithms implemented in Python
     last_synced_sha: fc2f947e0fabb84862737aa7fed05e6322389f0b
     user_starred_at: '2025-10-19T19:12:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -35879,15 +35941,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.335Z'
+      prompt_version: v3
   - repo: ThinkInAIXYZ/deepchat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - mobile-dev
+    tags:
+      - ai-assistant
+      - chatbot
+      - llm-client
+      - lang:ts
+      - cross-platform
     summary: 🐬Deep Chat - A smart assistant that connects powerful AI to your personal world
     last_synced_sha: 3add4093b46f15072d5ec3a65c8097e23b4907c4
     user_starred_at: '2025-10-19T19:12:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -35926,15 +35998,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.335Z'
+      prompt_version: v3
   - repo: nanobrowser/nanobrowser
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - ai-tools
+      - browser-automation
+      - lang:ts
+      - multi-agent
+      - web-automation
     summary: Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to Open AI Operator.
     last_synced_sha: 322384f8b4d48d8614343e51efca68c85e64f90b
     user_starred_at: '2025-10-19T19:07:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -35974,15 +36056,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.335Z'
+      prompt_version: v3
   - repo: tauri-apps/tauri
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - mobile-dev
+    tags:
+      - native-app
+      - lang:rust
+      - web-frontend
+      - high-performance
     summary: Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
     last_synced_sha: 926a57bb0851e45d47ad1ee68fc96a9c25754c7c
     user_starred_at: '2025-10-19T19:07:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -36009,15 +36100,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.335Z'
+      prompt_version: v3
   - repo: spipm/Depixelization_poc
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - depixelation
+      - lang:python
+      - screenshots
+      - poc
     summary: Depix is a Po C for a technique to recover plaintext from pixelized screenshots.
     last_synced_sha: 26c7326b2f620cced2022e4c5a250679f5113012
     user_starred_at: '2025-10-19T19:07:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -36035,15 +36135,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.335Z'
+      prompt_version: v3
   - repo: Quantco/pnpm-licenses
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - pnpm
+      - licenses
+      - lang:ts
+      - project-organization
     summary: Generate third party license disclaimers in pnpm-based projects
     last_synced_sha: 8789336055a49da98b7fe5354b47e77ea25f040e
     user_starred_at: '2025-10-19T19:06:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -36061,15 +36170,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.334Z'
+      prompt_version: v3
   - repo: QwenLM/qwen-code
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agent
+      - cli
+      - lang:ts
+      - automation
     summary: An open-source AI agent that lives in your terminal.
     last_synced_sha: 2ac099caafa25f7cdd388c0cd812031fff951ab4
     user_starred_at: '2025-10-19T19:05:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -36089,15 +36207,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.334Z'
+      prompt_version: v3
   - repo: next-safe-action/next-safe-action
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - server-actions
+      - nextjs
+      - lang:ts
+      - react
+      - type-safe
     summary: Type safe and validated Server Actions in your Next.js project.
     last_synced_sha: 216dcecf5fa22fa3a787bae48a706fa7006f7b7d
     user_starred_at: '2025-10-19T19:05:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36131,16 +36259,23 @@ repositories:
         published_at: '2026-04-08T09:26:31Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.334Z'
+      prompt_version: v3
   - repo: pmpetit/pglinter
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - productivity
+    tags:
+      - linter
+      - lang:rust
     summary: database linter rules
     last_synced_sha: fbe5c441de522f351e22dc6686978fe206756a62
     user_starred_at: '2025-10-19T19:04:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -36160,6 +36295,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:09:00.331Z'
+      prompt_version: v3
   - repo: vercel-labs/chatgpt-apps-sdk-nextjs-starter
     categories:
       - ai-ml
