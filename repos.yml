@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:19:35.973Z'
+  manifest_updated_at: '2026-04-11T04:20:03.277Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -25063,13 +25063,16 @@ repositories:
     framework: null
   - repo: open-metadata/OpenMetadata
     categories:
-      - unclassified
-    tags: []
+      - data-science
+    tags:
+      - metadata
+      - data-discovery
+      - lang:ts
     summary: Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c...
     last_synced_sha: a995a29ea04fe9ffb6b890aa9e8085c470af554e
     user_starred_at: '2025-12-26T09:57:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -25109,15 +25112,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.108Z'
+      prompt_version: v3
   - repo: assafelovic/gpt-researcher
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agent
+      - research
+      - lang:python
     summary: An autonomous agent that conducts deep research on any data using any LLM providers
     last_synced_sha: 7c321744ce336949949b1e95b4652e2d455a33f9
     user_starred_at: '2025-12-26T09:55:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -25148,15 +25159,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.108Z'
+      prompt_version: v3
   - repo: rsalmei/alive-progress
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - monitoring
+    tags:
+      - progress-bar
+      - animations
+      - lang:python
     summary: A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations!
     last_synced_sha: 69d9bf0aba6276e2434a3a595cceca55040d64d7
     user_starred_at: '2025-12-26T04:35:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -25194,15 +25213,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.108Z'
+      prompt_version: v3
   - repo: jgarzik/hk
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - frameworks
+    tags:
+      - os-kernel
+      - linux-compatible
+      - lang:rust
     summary: A modern, Linux compatible OS kernel
     last_synced_sha: 3ddbdb3b3d7162978719767369164645674d6e82
     user_starred_at: '2025-12-23T20:35:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -25225,15 +25252,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.108Z'
+      prompt_version: v3
   - repo: e18e/eslint-plugin
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - eslint
+      - code-modernization
+      - lang:ts
     summary: The official e18e ESLint plugin for code modernization and performance best practices
     last_synced_sha: c4b1e5ff4f1d66e5ed011c8fdd8820a2616bb999
     user_starred_at: '2025-12-22T16:55:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -25253,15 +25288,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.108Z'
+      prompt_version: v3
   - repo: Azure-Player/azure.datafactory.tools
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - automation
+    tags:
+      - ci-cd
+      - azure-data-factory
+      - lang:powershell
     summary: Tools for deploying Data Factory (v2) in Microsoft Azure
     last_synced_sha: 997deafd7b26ffe7bb211fbf0cb54ebf3cc071ef
     user_starred_at: '2025-12-22T16:50:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -25291,15 +25334,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.108Z'
+      prompt_version: v3
   - repo: ghostty-org/ghostty
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - desktop-dev
+    tags:
+      - terminal-emulator
+      - cross-platform
+      - lang:zig
     summary: 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
     last_synced_sha: 7421b4b13f87e101d4bbcedd4da84886ceae4e7b
     user_starred_at: '2025-12-22T16:47:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Zig
       topics: []
@@ -25317,15 +25368,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.108Z'
+      prompt_version: v3
   - repo: wigggle-ui/ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+    tags:
+      - widgets
+      - design
+      - lang:ts
     summary: A beautiful collection of copy-and-paste widgets for your next project.
     last_synced_sha: b0936d8779a3a121dcd4ccbe2ac8f549486c45c6
     user_starred_at: '2025-12-22T16:47:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -25343,15 +25402,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.108Z'
+      prompt_version: v3
   - repo: Francis-Rings/FlashPortrait
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - video-diffusion
+      - id-preserving
+      - lang:python
     summary: '[CVPR2026]We present Flash Portrait, an end-to-end video diffusion transformer capable of synthesizing ID-preserving, infinite-length videos while achieving up to 6$\times$ acceleration in inferenc...'
     last_synced_sha: 32f01e74d031f9e616a594369931d3712f7de6d9
     user_starred_at: '2025-12-22T16:46:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -25369,15 +25436,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.108Z'
+      prompt_version: v3
   - repo: numman-ali/opencode-openai-codex-auth
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+    tags:
+      - oauth
+      - authentication
+      - lang:ts
     summary: OAuth authentication plugin for personal coding assistance with Chat GPT Plus/Pro subscriptions - uses Open AI's official authentication method
     last_synced_sha: bec2ad69b252ef4ad7dd33b9532ff8b4fdb6d016
     user_starred_at: '2025-12-22T16:46:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -25397,15 +25472,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.108Z'
+      prompt_version: v3
   - repo: Azure/azure-monitor-baseline-alerts
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - cloud
+    tags:
+      - azure-monitor
+      - baseline-alerts
+      - lang:bicep
     summary: Azure Monitor Baseline Alerts
     last_synced_sha: bf8fddfa67ee8b6bf92e0331e0948b839e1c7de7
     user_starred_at: '2025-12-22T16:42:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -25425,15 +25508,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.108Z'
+      prompt_version: v3
   - repo: code-yeongyu/oh-my-openagent
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - agent-harness
+      - ai
+      - lang:ts
     summary: omo; the best agent harness - previously oh-my-opencode
     last_synced_sha: 29c27ad408b2304dcfe775ed35c67b908e450dbd
     user_starred_at: '2025-12-22T16:42:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -25469,15 +25560,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.107Z'
+      prompt_version: v3
   - repo: Zplusdragon/LowLevelBanana
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - low-level-vision
+      - evaluation
+      - lang:python
     summary: '[Technical Report] A Comprehensive Evaluation of Nano Banana Pro on 14 Low-Level Vision Tasks and 40 Datasets'
     last_synced_sha: 21ea8baabb85da1b51927d1ee4553715a7bbe284
     user_starred_at: '2025-12-22T16:41:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -25495,15 +25594,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.107Z'
+      prompt_version: v3
   - repo: badlogic/pi-mono
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-agent
+      - llm
+      - lang:ts
     summary: 'AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, v LLM pods'
     last_synced_sha: 3b7448d156aab5af1e21fd9ab45d19e4f10865a8
     user_starred_at: '2025-12-22T16:41:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -25523,15 +25630,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.107Z'
+      prompt_version: v3
   - repo: Azure/ALZ-PowerShell-Module
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - system-admin
+    tags:
+      - azure
+      - landing-zone
+      - lang:powershell
     summary: The Azure Landing Zones Accelerators Power Shell module
     last_synced_sha: 78324408a1841ddf0d714b1357ece2b19a602dc2
     user_starred_at: '2025-12-22T16:40:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -25559,6 +25674,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:20:02.107Z'
+      prompt_version: v3
   - repo: danielmiessler/Personal_AI_Infrastructure
     categories:
       - ai-ml
