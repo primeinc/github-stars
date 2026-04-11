@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:32:40.967Z'
+  manifest_updated_at: '2026-04-11T04:33:14.104Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -12284,13 +12284,17 @@ repositories:
     framework: null
   - repo: 11happy/cpx
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - file-management
+      - copy
+      - lang:rust
     summary: cp reimagined
     last_synced_sha: 6ddb32272bf63739663b111ae9ee6c558157724f
     user_starred_at: '2026-02-08T08:15:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -12310,15 +12314,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.871Z'
+      prompt_version: v3
   - repo: zellij-org/zellij
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - terminal
+      - workspace
+      - lang:rust
     summary: A terminal workspace with batteries included
     last_synced_sha: a8372a09cd7ac14af0016b38fd9561f975ec17f3
     user_starred_at: '2026-02-08T08:12:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -12341,15 +12353,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.871Z'
+      prompt_version: v3
   - repo: Azure-Samples/azure-typescript-e2e-apps
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - cloud
+    tags:
+      - azure
+      - lang:ts
     summary: Monorepo - Apps written in Type Script to be either 1) deployed to Azure hosting or 2) integrated with Azure services
     last_synced_sha: e3b9c39fbb85c6cc3eeef8702ec9607163f88919
     user_starred_at: '2026-02-08T03:04:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -12367,15 +12386,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.871Z'
+      prompt_version: v3
   - repo: microsoft/zerotrustassessment
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - zero-trust
+      - lang:html
     summary: Repository for the Zero Trust Assessment project
     last_synced_sha: 4cb63545d019301109757934fc1e729e57d7b722
     user_starred_at: '2026-02-08T03:01:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -12395,15 +12421,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.871Z'
+      prompt_version: v3
   - repo: openclaw/skills
     categories:
-      - unclassified
-    tags: []
+      - documentation
+    tags:
+      - archive
+      - backup
+      - lang:python
     summary: All versions of all skills that are on clawhub.com archived
     last_synced_sha: 5cdab616d2e9af6026aa2d362e2aeb7e8351e4be
     user_starred_at: '2026-02-08T02:56:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -12426,15 +12459,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.871Z'
+      prompt_version: v3
   - repo: kodepandai/awesome-gh-cli-extensions
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - awesome-list
+      - github-cli
+      - lang:html
     summary: Awesome list of github cli extensions.
     last_synced_sha: b822213c6845af178b689ca738a0e008f65c12a7
     user_starred_at: '2026-02-07T06:46:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -12456,15 +12497,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.871Z'
+      prompt_version: v3
   - repo: microsoft/cascadia-code
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - programming-font
+      - lang:python
     summary: This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.
     last_synced_sha: 56bcca3f2c1e4cb19458954f0e2bb4635960df91
     user_starred_at: '2026-02-07T02:50:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -12484,15 +12532,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.871Z'
+      prompt_version: v3
   - repo: Dimillian/CodexMonitor
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - ai-ml
+    tags:
+      - tauri-app
+      - linux
+      - macos
+      - lang:ts
     summary: An app to monitor the (Codex) situation
     last_synced_sha: dd61b9abd37de5ded86e82b9fe8a83fd49d46fa5
     user_starred_at: '2026-02-06T23:19:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -12517,15 +12574,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.871Z'
+      prompt_version: v3
   - repo: mdp/qrterminal
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - qr-codes
+      - terminal
+      - lang:go
     summary: QR Codes in your terminal
     last_synced_sha: 4e76afd10340aac2b71923d765da2ad506870bbb
     user_starred_at: '2026-02-06T01:14:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -12545,15 +12610,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.871Z'
+      prompt_version: v3
   - repo: mdp/linkedin-extension-fingerprinting
     categories:
-      - unclassified
-    tags: []
+      - security
+    tags:
+      - lang:js
+      - fingerprinting
     summary: No description provided
     last_synced_sha: c039bfbaa45e6dc8cda3195476621cc7f6ef398d
     user_starred_at: '2026-02-06T01:14:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -12571,15 +12642,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.868Z'
+      prompt_version: v3
   - repo: cathrynlavery/codex-skill
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - hooks
+      - lang:shell
     summary: Give Claude Code a second opinion using Open AI Codex - automatic plan review via hooks
     last_synced_sha: 783735731cb013be1971c4a00164b03de7515189
     user_starred_at: '2026-02-06T01:13:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -12597,15 +12675,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.868Z'
+      prompt_version: v3
   - repo: crazystylus/otadump
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - productivity
+    tags:
+      - android
+      - ota-files
+      - lang:rust
     summary: Extract partitions from Android OTA files.
     last_synced_sha: 9aeaa2af9b35d86d5c1fa8eb2a22bf97ed74c9d8
     user_starred_at: '2026-02-05T07:17:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -12628,15 +12714,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.868Z'
+      prompt_version: v3
   - repo: ajeetdsouza/zoxide
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - command-line
+      - shell
+      - lang:rust
     summary: A smarter cd command. Supports all major shells.
     last_synced_sha: 67ca1bc9592854dd4957b8b02f16292638475659
     user_starred_at: '2026-02-05T07:14:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -12676,15 +12770,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.867Z'
+      prompt_version: v3
   - repo: reacherhq/check-if-email-exists
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+    tags:
+      - email-verification
+      - email-validation-api
+      - lang:rust
     summary: Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.
     last_synced_sha: 81da93e8a419f601c05e1bcf4a197d25eb0e349d
     user_starred_at: '2026-02-05T07:14:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -12711,15 +12813,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.867Z'
+      prompt_version: v3
   - repo: XTLS/Xray-core
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - proxy
+      - tunnel
+      - lang:go
     summary: Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.
     last_synced_sha: e5a9fb752e0dcc127dd1740316c853571c16052f
     user_starred_at: '2026-02-05T06:59:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -12759,6 +12869,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:12.867Z'
+      prompt_version: v3
   - repo: keylase/nvidia-patch
     categories:
       - productivity
