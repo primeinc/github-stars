@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:07:57.847Z'
+  manifest_updated_at: '2026-04-11T04:08:31.433Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -36162,13 +36162,18 @@ repositories:
     framework: null
   - repo: vercel-labs/chatgpt-apps-sdk-nextjs-starter
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - chatgpt
+      - starter-kit
+      - lang:ts
+      - nextjs
     summary: No description provided
     last_synced_sha: b911c88f93c0a0a9b39d650743fb1085db39a147
     user_starred_at: '2025-10-19T19:03:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -36185,16 +36190,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.175Z'
+      prompt_version: v3
   - repo: vercel/nft
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - static-analysis
+      - dependency-tracing
+      - lang:js
     summary: Node.js dependency tracing utility
     last_synced_sha: a044730a73a82b1421b9e9137bd397f2ba5a1b69
     user_starred_at: '2025-10-19T19:02:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -36215,15 +36228,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.175Z'
+      prompt_version: v3
   - repo: JustAnotherArchivist/snscrape
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - data-science
+    tags:
+      - social-media
+      - scraper
+      - lang:python
+      - data-extraction
     summary: A social networking service scraper in Python
     last_synced_sha: 614d4c2029a62d348ca56598f87c425966aaec66
     user_starred_at: '2025-10-19T19:02:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -36245,15 +36267,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.175Z'
+      prompt_version: v3
   - repo: opf/openproject
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - frameworks
+    tags:
+      - project-management
+      - issue-tracker
+      - lang:ruby
+      - angular
     summary: Open Project is the leading open source project management software.
     last_synced_sha: e8e46408b4f6432537d8e23f0267d9c93d2779bb
     user_starred_at: '2025-10-19T19:01:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -36289,16 +36320,24 @@ repositories:
         published_at: '2026-03-31T06:52:52Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.175Z'
+      prompt_version: v3
   - repo: FalconOpsLLC/goexec
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - remote-execution
+      - lateral-movement
+      - lang:go
     summary: Windows remote execution multitool
     last_synced_sha: 21c8f9599140c39d6fb56951539f8e7e317be686
     user_starred_at: '2025-10-19T19:00:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -36325,15 +36364,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.175Z'
+      prompt_version: v3
   - repo: ultralytics/ultralytics
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - deep-learning
+      - object-detection
+      - lang:python
+      - pytorch
     summary: Ultralytics YOLO 🚀
     last_synced_sha: 616c032b8bcfb3738e3ee6f0c22d2cb526dd4bff
     user_starred_at: '2025-10-19T19:00:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -36373,15 +36421,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.175Z'
+      prompt_version: v3
   - repo: coollabsio/coolify
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - cloud
+      - productivity
+    tags:
+      - self-hosting
+      - paas
+      - docker
+      - lang:php
+      - nextjs
     summary: An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv...
     last_synced_sha: ec0668ce850b8db83032aaadc7802515f9320bb6
     user_starred_at: '2025-10-19T19:00:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -36421,15 +36480,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.175Z'
+      prompt_version: v3
   - repo: cheeriojs/cheerio
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - dev-tools
+    tags:
+      - html-parser
+      - dom-manipulation
+      - scraper
+      - lang:ts
     summary: The fast, flexible, and elegant library for parsing and manipulating HTML and XML.
     last_synced_sha: a4133a3bfabdf581e39e53836c200c29da7690b0
     user_starred_at: '2025-10-19T19:00:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36459,15 +36527,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.175Z'
+      prompt_version: v3
   - repo: trpc/trpc
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - end-to-end
+      - typesafe
+      - api
+      - lang:ts
+      - nextjs
+      - react
     summary: 🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
     last_synced_sha: cb17317f15654ee7bce1d34f737fee64a8babb43
     user_starred_at: '2025-10-19T18:58:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36492,16 +36571,25 @@ repositories:
         published_at: '2026-03-28T10:24:00Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.175Z'
+      prompt_version: v3
   - repo: eddie-jimenez/IntunePolicyChangeReport
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - intune
+      - policy
+      - lang:powershell
+      - azure
     summary: An Azure runbook that provides a reliable, human-readable record of what changed in Intune policies, who changed it, and when.
     last_synced_sha: 02d4e204d3c28fe2ccf5954d60e40d1bc6d45042
     user_starred_at: '2025-10-19T18:57:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -36519,15 +36607,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.175Z'
+      prompt_version: v3
   - repo: fregante/browser-extension-template
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - browser-extension
+      - template
+      - lang:js
+      - parcel
     summary: 📕 Barebones boilerplate with Parcel 2, options handler and auto-publishing
     last_synced_sha: 8c155dcac77b0d3272f32c0a695d4c03a09dbd6b
     user_starred_at: '2025-10-19T18:57:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -36551,15 +36648,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.175Z'
+      prompt_version: v3
   - repo: webextension-toolbox/webextension-toolbox
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - webextension
+      - cli-tool
+      - cross-browser
+      - lang:ts
     summary: Small CLI toolbox for cross-browser Web Extension development
     last_synced_sha: 35c3bae5abfe77a59ba36952bd2199fc8b897057
     user_starred_at: '2025-10-19T18:55:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -36591,15 +36697,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.175Z'
+      prompt_version: v3
   - repo: envoyproxy/envoy
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - cloud
+    tags:
+      - proxy
+      - cloud-native
+      - nanoservices
+      - lang:cpp
     summary: Cloud-native high-performance edge/middle/service proxy
     last_synced_sha: 35c73c3c512f83fbaf5a5e36fc112135f2c918f8
     user_starred_at: '2025-10-19T18:55:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -36627,15 +36742,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.175Z'
+      prompt_version: v3
   - repo: datarootsio/knowledgebase_guardian
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - document-analysis
+      - lang:python
+      - contradiction-detection
     summary: A minimal example to demonstrate how LLM's can assist in detecting contradictions in documents.
     last_synced_sha: a356d8162e39a5bb1a56313f090bc0b07cd46d9c
     user_starred_at: '2025-10-19T16:44:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -36653,15 +36776,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.174Z'
+      prompt_version: v3
   - repo: Alibaba-NLP/DeepResearch
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - agent
+      - llm
+      - information-seeking
+      - lang:python
     summary: Tongyi Deep Research, the Leading Open-source Deep Research Agent
     last_synced_sha: f72f75d8c3eb842f2bbbab096a12206ff66e270f
     user_starred_at: '2025-10-17T18:35:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -36688,6 +36820,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:08:30.174Z'
+      prompt_version: v3
   - repo: humanlayer/humanlayer
     categories:
       - ai-ml
