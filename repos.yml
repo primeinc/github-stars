@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:36:24.863Z'
+  manifest_updated_at: '2026-04-11T04:36:56.870Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -8581,13 +8581,19 @@ repositories:
     framework: null
   - repo: unixshells/latch
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - terminal-multiplexer
+      - remote-access
+      - lang:go
+      - ssh
+      - browser-connectivity
     summary: Terminal multiplexer with built-in remote access. tmux you can SSH into, open in a browser, or connect to with mosh.
     last_synced_sha: c6fd518fbafd4955ad44f686014edc426de311ad
     user_starred_at: '2026-04-09T13:38:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -8607,15 +8613,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.637Z'
+      prompt_version: v3
   - repo: milla-jovovich/mempalace
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - memory-system
+      - lang:python
+      - llm
+      - benchmarking
+      - chromadb
     summary: The highest-scoring AI memory system ever benchmarked. And it's free.
     last_synced_sha: b57c1603e3cf0c2d9442ca862d308012eab858ba
     user_starred_at: '2026-04-09T13:38:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8641,15 +8657,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.637Z'
+      prompt_version: v3
   - repo: safishamsi/graphify
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - knowledge-graph
+      - lang:python
+      - codex
+      - queryable
+      - skills
     summary: AI coding assistant skill (Claude Code, Codex, Open Code, Cursor, Gemini CLI, Open Claw, Factory Droid, Trae). Turn any folder of code, docs, papers, images, videos, or You Tube links into a querya...
     last_synced_sha: 625ca0e2f38bb0804f7818bdbe00cd5450983d7a
     user_starred_at: '2026-04-09T13:38:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8675,15 +8701,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.636Z'
+      prompt_version: v3
   - repo: spool-lab/spool
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-agents
+      - search
+      - lang:ts
+      - electron
+      - local-first
     summary: Search your Claude Code sessions, Codex history, Git Hub stars, and 50+ sources — locally, instantly. Your AI agents can search too.
     last_synced_sha: 5b0cdbc71c7d47dbc84e29c7b1c853029195bd2a
     user_starred_at: '2026-04-09T13:37:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8717,15 +8753,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.636Z'
+      prompt_version: v3
   - repo: farzaa/clicky
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - ui-libraries
+    tags:
+      - lang:swift
+      - clicky-app
+      - ios
+      - ui
     summary: No description provided
     last_synced_sha: d86c32fe2e6f6b6a5a45e2312f607eb876ea9602
     user_starred_at: '2026-04-09T13:37:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics: []
@@ -8745,15 +8790,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.636Z'
+      prompt_version: v3
   - repo: LG-AI-EXAONE/EXAONE-4.5
     categories:
       - unclassified
-    tags: []
+    tags:
+      - no-description
     summary: No description provided
     last_synced_sha: b9b853734b63140c6a91a4b80ac40629b751dbcf
     user_starred_at: '2026-04-09T13:35:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -8771,15 +8821,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.636Z'
+      prompt_version: v3
   - repo: TheCraigHewitt/seomachine
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - seo
+      - content-generation
+      - lang:python
+      - optimization
+      - blog-tool
     summary: A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and ser...
     last_synced_sha: 70231da177abe92ec26375c051561ff9acd8423a
     user_starred_at: '2026-04-09T13:35:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -8797,15 +8857,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.636Z'
+      prompt_version: v3
   - repo: loryanstrant/MicrosoftCloudLogos
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - cloud
+    tags:
+      - microsoft
+      - logos
+      - lang:python
+      - azure
+      - dynamics-365
     summary: A collection of Microsoft cloud product logos
     last_synced_sha: 4e59b37f28febd9a61f77d24af4e54617f2e22af
     user_starred_at: '2026-04-09T13:34:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8842,15 +8912,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.636Z'
+      prompt_version: v3
   - repo: cheapmanga/Skin-pack-Template
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - minecraft
+      - skin-pack
+      - template
     summary: Minecraft LCE Skin-pack Template
     last_synced_sha: c92a7d8d3de07050926cd46440b7dc2ec9edc0c5
     user_starred_at: '2026-04-09T13:34:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -8870,15 +8947,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.636Z'
+      prompt_version: v3
   - repo: jackwener/OpenCLI
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - ai-tools
+      - cli
+      - standardized-interface
+      - lang:js
+      - ai-agent
     summary: Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ...
     last_synced_sha: 4a0b8054b2101d63d419bcdaf3e5ad97f5cf031a
     user_starred_at: '2026-03-19T06:11:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -8902,15 +8989,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.636Z'
+      prompt_version: v3
   - repo: BigBodyCobain/Shadowbroker
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+      - apis
+    tags:
+      - osint
+      - surveillance
+      - earthquake-visualization
+      - lang:ts
+      - global-tracking
     summary: Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. The knowledge is av...
     last_synced_sha: ea457f27dab4b71ce26f663e0acb9283a4ba3557
     user_starred_at: '2026-03-18T02:05:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8944,15 +9042,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.636Z'
+      prompt_version: v3
   - repo: timeframe/ha-addon
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - epaper
+      - lang:ruby
+      - dashboard
+      - home-assistant
+      - weather
     summary: An e-paper calendar, weather, and smart home family dashboard for Home Assistant
     last_synced_sha: 5b6139895e7ce6114def1baad0c7c257c1cd36a5
     user_starred_at: '2026-02-24T04:25:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -8973,15 +9081,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.636Z'
+      prompt_version: v3
   - repo: oguimbal/pgsql-ast-parser
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - dev-tools
+    tags:
+      - postgresql
+      - ast
+      - sql
+      - lang:ts
+      - parser
     summary: Yet another simple Postgres SQL parser
     last_synced_sha: 69245d726b250e89a24fd801a29ad3bc2afdf0d3
     user_starred_at: '2026-02-11T06:33:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9013,15 +9131,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.636Z'
+      prompt_version: v3
   - repo: MaibornWolff/codecharta
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - testing
+    tags:
+      - code-visualization
+      - metrics
+      - lang:ts
+      - 3d-map
+      - static-code-analysis
     summary: Code Charta is a visualization tool that transforms complex software architecture and code metrics into interactive, customizable visual maps, empowering everyone to communicate and analyze your co...
     last_synced_sha: 8697cd81a91d1d36200330d998ec409c8afecfd4
     user_starred_at: '2026-02-11T06:30:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9056,16 +9184,26 @@ repositories:
         published_at: '2026-03-16T14:00:51Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: angular
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.636Z'
+      prompt_version: v3
   - repo: chipsalliance/Surelog
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - apis
+    tags:
+      - verilog
+      - parser
+      - lang:cpp
+      - uhdm
+      - python-api
     summary: System Verilog 2017 Pre-processor, Parser, Elaborator, UHDM Compiler. Provides IEEE Design/TB C/C++ VPI and Python AST & UHDM APIs. Compiles on Linux gcc, Windows msys2-gcc & msvc, Os X
     last_synced_sha: 814b76cad450759a43094f0a0645da955aebfebd
     user_starred_at: '2026-02-11T06:29:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -9099,6 +9237,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:36:55.636Z'
+      prompt_version: v3
   - repo: kevinburke/ssh_config
     categories:
       - system-admin
