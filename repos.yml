@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:01:17.724Z'
+  manifest_updated_at: '2026-04-11T04:01:49.221Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -42258,13 +42258,17 @@ repositories:
     framework: null
   - repo: umijs/father
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - npm
+      - package-development
+      - lang:ts
     summary: NPM package development tool
     last_synced_sha: 7c38c881df371b32deeacb50eac667c6a03c8b86
     user_starred_at: '2025-09-13T18:24:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -42284,15 +42288,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.059Z'
+      prompt_version: v3
   - repo: unjs/pathe
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - path-module
+      - nodejs
+      - lang:ts
     summary: 🛣️ Drop-in replacement of the Node.js's path module module that ensures paths are normalized
     last_synced_sha: 1b504b26e02dce104dca58a270e1e7648944573c
     user_starred_at: '2025-09-13T18:19:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -42312,15 +42324,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.058Z'
+      prompt_version: v3
   - repo: unjs/obuild
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - package-builder
+      - esm
+      - lang:ts
     summary: 📦 😯 Zero-config ESM/TS package builder.
     last_synced_sha: 4bd56bd9d05a8f5eb2e60cd8bb99502e17f537aa
     user_starred_at: '2025-09-13T18:16:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -42340,15 +42360,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.058Z'
+      prompt_version: v3
   - repo: RentCast/api-resources
     categories:
-      - unclassified
+      - apis
+      - documentation
     tags: []
     summary: Resources to help you start working with the Rent Cast property data API.
     last_synced_sha: b084f99d153f907eff1b032d202eb8264a290eb5
     user_starred_at: '2025-09-13T17:47:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -42366,15 +42391,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.058Z'
+      prompt_version: v3
   - repo: fullstorydev/grpcui
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - grpc
+      - postman
+      - lang:go
     summary: An interactive web UI for g RPC, along the lines of postman
     last_synced_sha: af863d3fa9a15dab8c0de1fa5bdb71822136b0e3
     user_starred_at: '2025-09-13T17:24:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -42397,15 +42430,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.058Z'
+      prompt_version: v3
   - repo: RevenueCat/react-native-purchases
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - apis
+    tags:
+      - in-app-purchases
+      - react-native
+      - ios
+      - android
+      - lang:ts
     summary: React Native in-app purchases and subscriptions made easy. Support for i OS, Android and web.
     last_synced_sha: f1abd3e14ecfb082985d3619ee5870cbbe3dcebd
     user_starred_at: '2025-09-13T15:54:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42430,16 +42473,21 @@ repositories:
         published_at: '2026-04-07T16:09:06Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.058Z'
+      prompt_version: v3
   - repo: NousResearch/DisTrO
     categories:
+      - ai-ml
       - unclassified
     tags: []
     summary: Distributed Training Over-The-Internet
     last_synced_sha: 24f10628c28692c01e7d282823fd158140b4bcee
     user_starred_at: '2025-09-13T10:44:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -42457,15 +42505,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.058Z'
+      prompt_version: v3
   - repo: NousResearch/Hermes-Function-Calling
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - lang:jupyter-notebook
     summary: No description provided
     last_synced_sha: ea3c4723e4cefdac760d483ccac6c8a428c95ab8
     user_starred_at: '2025-09-13T07:57:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -42483,15 +42537,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.058Z'
+      prompt_version: v3
   - repo: microsoft/mcp
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - lang:csharp
     summary: Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration
     last_synced_sha: 3cb2123b376335d510b37d14b04ac4870fa15b1d
     user_starred_at: '2025-09-13T07:55:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -42511,15 +42571,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.058Z'
+      prompt_version: v3
   - repo: microsoft/garnet
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - system-admin
+    tags:
+      - cache
+      - key-value
+      - low-latency
+      - lang:csharp
     summary: Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication feat...
     last_synced_sha: 6819af9a3e8c39786c1d795fab6e9118a15f8553
     user_starred_at: '2025-09-13T07:55:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -42551,15 +42620,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.058Z'
+      prompt_version: v3
   - repo: 0x7c13/Notepads
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - texteditor
+      - markdown
+      - windows
+      - lang:csharp
     summary: A modern, lightweight text editor with a minimalist design.
     last_synced_sha: 6ec270c134b115d6bff38bc3966784e8893a419c
     user_starred_at: '2025-09-13T07:55:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -42587,15 +42665,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.058Z'
+      prompt_version: v3
   - repo: lepoco/wpfui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - wpf
+      - fluent
+      - ui
+      - lang:csharp
     summary: WPF UI provides the Fluent experience in your known and loved WPF framework. Intuitive design, themes, navigation and new immersive controls. All natively and effortlessly.
     last_synced_sha: e6e22e3389872f2aba90c079ee64a007116e01d3
     user_starred_at: '2025-09-13T07:54:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -42627,15 +42714,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.058Z'
+      prompt_version: v3
   - repo: Lissy93/awesome-privacy
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - awesome
+      - privacy
+      - lang:astro
     summary: 🦄 A curated list of privacy & security-focused software and services
     last_synced_sha: 23857484a991eb705539eda72c042999a82b01dc
     user_starred_at: '2025-09-13T07:52:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Astro
       topics:
@@ -42659,15 +42754,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.058Z'
+      prompt_version: v3
   - repo: Lissy93/personal-security-checklist
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - privacy
+      - cybersecurity
+      - checklist
+      - defense
+      - lang:ts
     summary: 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026
     last_synced_sha: 6d4ea7245065ab3ec5a4cd6adb10118dff2b1c34
     user_starred_at: '2025-09-13T07:50:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -42698,15 +42803,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.058Z'
+      prompt_version: v3
   - repo: matiassingers/awesome-readme
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - awesome-list
+      - readme
     summary: A curated list of awesome READMEs
     last_synced_sha: 0af21c64bdaa34723ad1cb91d44d7be40d6cdcba
     user_starred_at: '2025-09-13T07:50:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -42728,6 +42840,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:48.057Z'
+      prompt_version: v3
   - repo: posquit0/Awesome-CV
     categories:
       - documentation
