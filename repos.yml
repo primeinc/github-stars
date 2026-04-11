@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:33:14.104Z'
+  manifest_updated_at: '2026-04-11T04:33:46.800Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -11760,13 +11760,16 @@ repositories:
     framework: null
   - repo: jsuto/piler
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - security
+    tags:
+      - email-archiving
+      - lang:php
     summary: Email archiving application
     last_synced_sha: a77ef35581de5dd682e853a927ac07ebbe9258e2
     user_starred_at: '2026-02-08T14:31:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -11788,15 +11791,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: zabbix/zabbix
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+    tags:
+      - network-monitoring
+      - metrics
+      - lang:go-template
     summary: Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.
     last_synced_sha: 6fb2699eb200f7c7a481432fc9485499e555e599
     user_starred_at: '2026-02-08T14:01:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go Template
       topics:
@@ -11820,15 +11831,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: HoppouAI/OctoBrowser
     categories:
       - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - copilot-sdk
+      - fun-project
+      - lang:js
     summary: Built for the Copilot SDK Weekend Contest as a fun project.
     last_synced_sha: f90ba6510e64d43e6a6bdbe51cd70b385b04ee2b
     user_starred_at: '2026-02-08T13:59:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -11848,15 +11867,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: smestern/treepilot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - family-tree
+      - ai-research
+      - lang:python
     summary: A hacky / vibecoded AI family tree researcher
     last_synced_sha: 745afac8699716704cbd19e076bef6343cc9f68a
     user_starred_at: '2026-02-08T13:58:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11874,15 +11901,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: SchwarziLukas/braindump-butler
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - markdown
+      - obsidian
+      - lang:python
     summary: Turns brain dumps and meeting notes into tidy Markdown notes for your Obsidian Vault.
     last_synced_sha: 8ab8d0910bfc22d01467ae9b50fdda402bc7ea4b
     user_starred_at: '2026-02-08T13:58:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11900,15 +11935,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: p-e-w/heretic
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - llm
+      - censorship-removal
+      - lang:python
     summary: Fully automatic censorship removal for language models
     last_synced_sha: a1a1c30c585c39a92877d97627d30ecbe03c5b93
     user_starred_at: '2026-02-08T13:54:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -11931,15 +11974,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: KeygraphHQ/shannon
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - pentesting
+      - security-audit
+      - lang:ts
     summary: Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities bef...
     last_synced_sha: 1f6dfd7e176c26a90f7e9ab3fef773155bcf940f
     user_starred_at: '2026-02-08T13:53:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11964,15 +12015,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: bvaughn/react-resizable-panels
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - resizable-layout
+      - react
+      - lang:ts
     summary: No description provided
     last_synced_sha: 5cf89ea5014df069bf7e65146bdf5df432e33e28
     user_starred_at: '2026-02-08T13:51:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11996,16 +12055,24 @@ repositories:
         published_at: '2026-04-03T12:32:27Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: ExperienceLovelace/ha-floorplan
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - automation
+    tags:
+      - home-assistant
+      - floorplan
+      - lang:ts
     summary: Bring new life to Home Assistant. By mapping entities to a SVG-object, you're able to control devices, show states, calling services - and much more. Add custom styling on top, to visualize whateve...
     last_synced_sha: 7f3d9d3a7dcec2a00b0448e213d8c2fd31b648c7
     user_starred_at: '2026-02-08T13:50:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -12030,15 +12097,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: mathuo/dockview
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - docking-layout
+      - layout-manager
+      - lang:ts
     summary: Zero dependency docking layout manager supporting tabs, groups, grids and splitviews. Supports React, Vue, Angular, and vanilla Type Script.
     last_synced_sha: 98d68bf5ea70683bcd4442c707248adc622dac1e
     user_starred_at: '2026-02-08T13:48:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -12078,15 +12153,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: Safe3/openresty-manager
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - deployment
+      - security
+    tags:
+      - nginx
+      - control-panel
+      - lang:go
     summary: Modern, secure, and elegant server control panel, alternative to Open Resty Edge and Nginx Proxy Manager.
     last_synced_sha: ff3589849c41a5ee9d8ba13b8857d57602dcd8d8
     user_starred_at: '2026-02-08T13:46:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -12126,15 +12210,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: 1Panel-dev/1Panel
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - ai-ml
+      - cloud
+    tags:
+      - vps-control-panel
+      - docker
+      - lang:go
     summary: 🔥 1Panel is a modern, open-source VPS control panel — and the only one with native AI agent support. Run Ollama models, deploy Open Claw agents, and manage your entire server stack from one clean ...
     last_synced_sha: 6ea07421acf1e396606a892f44d76af9d5e8a7b2
     user_starred_at: '2026-02-08T13:42:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -12166,15 +12259,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: cathrynlavery/wispr-flow-recap
     categories:
+      - ui-libraries
       - unclassified
-    tags: []
+    tags:
+      - voice-dictation
+      - recaps
+      - lang:js
     summary: Beautiful activity recaps for Wispr Flow voice dictation
     last_synced_sha: 028119fc82aed7bfc2790aaa5951039b159ab491
     user_starred_at: '2026-02-08T13:37:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -12192,15 +12293,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: dkhamsing/open-source-ios-apps
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - mobile-dev
+    tags:
+      - ios
+      - swift
+      - reference
     summary: ':iphone: Collaborative List of Open-Source i OS Apps'
     last_synced_sha: c3dd636283ff38a911ae9eac4d506e84d127d1e0
     user_starred_at: '2026-02-08T13:16:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -12240,15 +12349,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: microsoft/rushstack
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - monorepo
+      - build-system
+      - lang:ts
     summary: Monorepo for tools developed by the Rush Stack community
     last_synced_sha: 932b557c65e2cf61653997ef409e0ff8da6b0664
     user_starred_at: '2026-02-08T09:48:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -12282,6 +12399,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:33:45.531Z'
+      prompt_version: v3
   - repo: 11happy/cpx
     categories:
       - productivity
