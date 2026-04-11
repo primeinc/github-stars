@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:00:07.931Z'
+  manifest_updated_at: '2026-04-11T04:00:44.726Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -43236,13 +43236,18 @@ repositories:
     framework: null
   - repo: danielmiessler/Fabric
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - augmentation
+      - modular-system
+      - crowdsourced-ai
+      - lang:go
     summary: Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
     last_synced_sha: 42311fe04b552f63503667b35f26b9b2ad537f95
     user_starred_at: '2025-09-13T06:33:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -43267,15 +43272,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.553Z'
+      prompt_version: v3
   - repo: docling-project/docling
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - document-parsing
+      - ai
+      - lang:python
     summary: Get your documents ready for gen AI
     last_synced_sha: 45daa001a8ea3b3ffdd91136d6a1f70d99d334bb
     user_starred_at: '2025-09-13T06:31:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -43310,15 +43323,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.553Z'
+      prompt_version: v3
   - repo: makeswift/makeswift
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - makeswift
+      - react
+      - lang:ts
     summary: No description provided
     last_synced_sha: d2f821f67d1a261d906aa80b38adfb511f652382
     user_starred_at: '2025-09-13T05:27:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -43337,16 +43358,25 @@ repositories:
         published_at: '2026-03-25T17:03:32Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.553Z'
+      prompt_version: v3
   - repo: neondatabase/neon
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - cloud
+    tags:
+      - postgres
+      - serverless
+      - autoscaling
+      - lang:rust
     summary: 'Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.'
     last_synced_sha: 6a35a3e9f149798df1b1761ee64099d8d75fbe90
     user_starred_at: '2025-09-13T04:52:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -43371,15 +43401,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.553Z'
+      prompt_version: v3
   - repo: github/spec-kit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+      - productivity
+    tags:
+      - spec-driven-development
+      - copilot
+      - engineering
+      - lang:python
     summary: 💫 Toolkit to help you get started with Spec-Driven Development
     last_synced_sha: cdbea09e1a00b0899148e82a4c366bed7482065f
     user_starred_at: '2025-09-12T17:56:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -43406,15 +43446,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.553Z'
+      prompt_version: v3
   - repo: jamesmcroft/bicep-templates
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - deployment
+    tags:
+      - bicep
+      - azure
+      - lang:bicep
     summary: A centralized resource for providing baseline templates for building and deploying infrastructure-as-code best practices using Azure Bicep
     last_synced_sha: 73f8d51931d66df62e7823f465a98326d29673f5
     user_starred_at: '2025-09-11T19:28:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -43436,15 +43484,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.553Z'
+      prompt_version: v3
   - repo: continuedev/continue
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - ai-checks
+      - developer-tools
+      - cli
+      - lang:ts
     summary: ⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI
     last_synced_sha: 9f9ded770a540540bb143aeb41e5ec6b0c78c79c
     user_starred_at: '2025-09-11T19:21:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43472,15 +43529,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.553Z'
+      prompt_version: v3
   - repo: Azure/industry-policy-portfolio
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+      - deployment
+    tags:
+      - policy-initiatives
+      - regulatory-compliance
+      - customization
     summary: The Industry Policy Portfolio's Policy Initiatives aid in customizing deployments to reduce the time needed to audit environments and meet established regulatory compliance frameworks in regulated ...
     last_synced_sha: 4f4bfa546b8719dfaed9b428dec87ceff0476017
     user_starred_at: '2025-09-11T10:56:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -43500,15 +43566,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.553Z'
+      prompt_version: v3
   - repo: Azure/playwright-workspaces
     categories:
+      - testing
       - unclassified
-    tags: []
+    tags:
+      - playwright
+      - testing-framework
     summary: No description provided
     last_synced_sha: bc239cd4b92adde4ce3cb97c412fde98d386297a
     user_starred_at: '2025-09-11T10:04:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -43526,15 +43599,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.553Z'
+      prompt_version: v3
   - repo: ErsatzTV/ErsatzTV-legacy
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - personal-media
+      - tv-channels
+      - custom-playlists
+      - lang:csharp
     summary: Open-source platform that transforms your personal media library into live, custom TV channels.
     last_synced_sha: 0d301df5e8512fdfccf3a611188d27ab1690ee31
     user_starred_at: '2025-09-11T04:30:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: C#
@@ -43555,15 +43637,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.553Z'
+      prompt_version: v3
   - repo: reshaped-ui/reshaped
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - design-system
+      - react-components
+      - figma
+      - lang:ts
     summary: Professionally crafted React & Figma components for building beautiful products or starting your own design system
     last_synced_sha: e72b68423a6c030c216d128725c4429196479b68
     user_starred_at: '2025-09-11T04:29:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43587,16 +43678,26 @@ repositories:
         published_at: '2026-03-05T20:07:35Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.553Z'
+      prompt_version: v3
   - repo: Azure-Samples/AI-Gateway
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+      - cloud
+    tags:
+      - openai
+      - apimanagement
+      - ai-gateway
+      - lang:jupyter-notebook
     summary: Labs to explore AI Models, MCP servers, and Agents with the AI Gateway powered by Azure API Management and Microsoft Foundry 🚀
     last_synced_sha: b9814daf9ad7562e535a835253358001f9cf1624
     user_starred_at: '2025-09-10T23:30:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -43625,15 +43726,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.553Z'
+      prompt_version: v3
   - repo: Azure-Samples/snippy
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - data-science
+    tags:
+      - ai-agents
+      - durable-functions
+      - azure-functions
+      - lang:python
     summary: 🧩 Build AI-powered MCP Tools with Azure Functions, Durable Agents & Cosmos vector search. Features orchestrated multi-agent workflows using Open AI.
     last_synced_sha: fc7a17ac23e35adb0067f05b9283b38c5d6e3e97
     user_starred_at: '2025-09-10T23:28:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -43663,15 +43774,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.553Z'
+      prompt_version: v3
   - repo: Azure/reliable-web-app-pattern-dotnet
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - cloud
+      - deployment
+    tags:
+      - azure
+      - cloud-pattern
+      - bicep-templates
+      - lang:bicep
     summary: The Reliable Web App Pattern is a set of objectives to help your web application converge on the cloud. This repo contains a reference implementation of a reliable web application for .NET.
     last_synced_sha: d1618a47fc497327f6b2261b838e551f4de4adf0
     user_starred_at: '2025-09-10T23:23:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -43705,15 +43826,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.553Z'
+      prompt_version: v3
   - repo: NVIDIA/NeMo-Agent-Toolkit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agents
+      - optimization
+      - multi-agent
+      - lang:python
     summary: The NVIDIA Ne Mo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents.
     last_synced_sha: ee7ab31e11b6a25f9a308d2b0b82ce4d5ff1fcbd
     user_starred_at: '2025-09-10T05:37:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -43733,6 +43863,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:00:43.552Z'
+      prompt_version: v3
   - repo: Eventual-Inc/Daft
     categories:
       - data-science
