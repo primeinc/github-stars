@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:30:02.534Z'
+  manifest_updated_at: '2026-04-11T04:30:33.579Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -14826,13 +14826,16 @@ repositories:
     framework: null
   - repo: forrestchang/andrej-karpathy-skills
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+    tags:
+      - llm-coding
+      - best-practices
     summary: A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
     last_synced_sha: aa4467f0b33e1e80d11c7c043d4b27e7c79a73a3
     user_starred_at: '2026-01-29T15:32:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -14850,15 +14853,21 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: ITContractorsUnion/ITContractorsUnion
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - lang:html
     summary: Repo For All Downloadable Data
     last_synced_sha: 3500507104eaad7c9a1575be334caf9c5631b712
     user_starred_at: '2026-01-29T15:30:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -14876,15 +14885,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: HugoRCD/evlog
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - dev-tools
+    tags:
+      - logging
+      - observability
+      - lang:ts
+      - nuxt
     summary: Logging that makes sense. Wide events, structured errors, zero chaos.
     last_synced_sha: 0e7f54391e00d32b2ec9e94fbaa698efc8df8555
     user_starred_at: '2026-01-29T15:26:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -14916,16 +14934,23 @@ repositories:
         published_at: '2026-04-04T16:18:56Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: ssmisya/AdaReasoner
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - visual-reasoning
+      - lang:jupyter-notebook
     summary: '[ICLR 2026] The official repository for the paper "Ada Reasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning".'
     last_synced_sha: 19c799dac15223abbcbeb80f843368d045933ba0
     user_starred_at: '2026-01-29T15:17:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -14943,15 +14968,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: microsoft/agentrc
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - automation
+      - lang:ts
     summary: Get your repo ready for AI.
     last_synced_sha: d64bfc386245a0c1607e1e0eaac6a9b3f18758d4
     user_starred_at: '2026-01-29T15:13:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -14969,15 +15001,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: microsoft/bf-tree
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - system-admin
+    tags:
+      - concurrent
+      - lang:rust
     summary: Bf-Tree is a modern read-write-optimized concurrent larger-than-memory range index in Rust from MS Research.
     last_synced_sha: 404db61382e35efb60c243403aa0fe5a83748046
     user_starred_at: '2026-01-29T10:40:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -14995,15 +15034,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: CursorTouch/Windows-MCP
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - automation
+      - ai-ml
+    tags:
+      - windows
+      - automation
+      - lang:python
     summary: MCP Server for Computer Use in Windows
     last_synced_sha: cb6cba3079a1834976ff7acec2fbbc935951352d
     user_starred_at: '2026-01-29T09:30:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -15029,15 +15077,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: mdabdulmazidkhan/convex-smart-tags
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: convex-smart-tags
     last_synced_sha: d269ea21557866e6b9df76ebf06320dbff76e337
     user_starred_at: '2026-01-29T08:42:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -15055,15 +15108,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: xinyu1205/recognize-anything
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - image-recognition
+      - lang:jupyter-notebook
     summary: Open-source and strong foundation image recognition models.
     last_synced_sha: 7cb804a8609e9f4b1a50b7f31436d2df40bb9481
     user_starred_at: '2026-01-28T09:34:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -15083,15 +15143,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: get-convex/twilio
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - web-dev
+    tags:
+      - sms
+      - twilio
+      - lang:ts
     summary: Convex component for sending/receiving SMS messages with Twilio
     last_synced_sha: 6fde2516d8625870d86b15dc4cdd0c9274afa624
     user_starred_at: '2026-01-28T08:36:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -15109,15 +15177,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: BandarLabs/gitpodcast
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - dev-tools
+    tags:
+      - podcast
+      - openai
+      - lang:ts
     summary: Convert any git repository into an engaging podcast
     last_synced_sha: 3a5dbd1cc63c57f896d4c4a852988a2cb20b2019
     user_starred_at: '2026-01-28T08:23:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -15143,15 +15220,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: gitpod-io/gitpod
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cloud
+      - productivity
+    tags:
+      - cloud-ide
+      - remote-development
+      - lang:ts
     summary: The developer platform for on-demand cloud development environments to create software faster and more securely.
     last_synced_sha: 41f409ce2ae75dab836c7f9dba69a3083d08b3b7
     user_starred_at: '2026-01-28T08:18:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -15190,15 +15276,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: SamyRai/namecheap
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - networking
+      - apis
+    tags:
+      - cli
+      - dns-management
+      - lang:go
     summary: A CLI tool for managing Namecheap domains and DNS records with multi-account support
     last_synced_sha: 075f0fe72b81649a7280c8435d2b0403c3d4e1fa
     user_starred_at: '2026-01-28T07:35:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -15226,15 +15321,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: Lissy93/domain-locker
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - security
+      - automation
+    tags:
+      - dashboard
+      - domain-management
+      - lang:ts
     summary: 🌐 The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker!
     last_synced_sha: 9c2962de33b6606fbf0706f83416ce5e3d45412f
     user_starred_at: '2026-01-28T07:34:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -15266,15 +15370,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: workflowr/workflowr
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+      - web-dev
+    tags:
+      - rmarkdown
+      - workflow
+      - lang:r
     summary: Organize your project into a research website
     last_synced_sha: 0438b405ec2b2100f0d6b36752c8b639eea8a9b1
     user_starred_at: '2026-01-28T07:31:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: R
       topics:
@@ -15301,6 +15414,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:30:32.248Z'
+      prompt_version: v3
   - repo: engineering-management/awesome-engineering-management
     categories:
       - learning
