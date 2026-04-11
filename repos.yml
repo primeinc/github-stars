@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:33:46.800Z'
+  manifest_updated_at: '2026-04-11T04:34:20.397Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -11233,13 +11233,17 @@ repositories:
     framework: null
   - repo: ArchiveBox/ArchiveBox
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+    tags:
+      - web-archiving
+      - backups
+      - lang:python
     summary: 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...
     last_synced_sha: 2cc5a116626883b264c129100b8f2cd3b848816d
     user_starred_at: '2026-02-10T06:36:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -11279,15 +11283,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.156Z'
+      prompt_version: v3
   - repo: deadc0de6/gocatcli
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - commandline
+      - offline-data
+      - lang:go
     summary: The command line catalog tool for your offline data
     last_synced_sha: fadfe1f54d1b5305049980463bab52a177fe25a7
     user_starred_at: '2026-02-10T06:34:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -11310,15 +11322,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.156Z'
+      prompt_version: v3
   - repo: recyclarr/recyclarr
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - sync
+      - sonarr
+      - radarr
+      - lang:csharp
     summary: Automatically sync TRa SH Guides to your Sonarr and Radarr instances
     last_synced_sha: ea33ea347d27896c275121241f58060d0234df26
     user_starred_at: '2026-02-10T06:27:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -11338,15 +11359,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.156Z'
+      prompt_version: v3
   - repo: SigNoz/signoz
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - dev-tools
+    tags:
+      - observability
+      - application-monitoring
+      - apm
+      - react
+      - lang:ts
     summary: Sig Noz is an open-source observability platform native to Open Telemetry with logs, traces and metrics in a single application. An open-source alternative to Data Dog, New Relic, etc. 🔥 🖥. 👉 Op...
     last_synced_sha: 7279c5f770131074d3ea7a2bbe85e88130a8be86
     user_starred_at: '2026-02-09T10:52:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11385,16 +11416,24 @@ repositories:
         published_at: '2026-04-08T10:31:29Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.156Z'
+      prompt_version: v3
   - repo: github/gh-aw
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - ci
+      - github-actions
+      - lang:go
     summary: Git Hub Agentic Workflows
     last_synced_sha: acb65b1436ab45a0aeec9d0bc06f5ad09420a7cf
     user_starred_at: '2026-02-09T09:46:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -11422,15 +11461,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.156Z'
+      prompt_version: v3
   - repo: dialpad/dialpad-python-sdk
     categories:
+      - apis
       - unclassified
-    tags: []
+    tags:
+      - sdk
+      - python-api
+      - lang:python
     summary: No description provided
     last_synced_sha: 4beb560f520a519e8e840118075dd5b2c22eaa5e
     user_starred_at: '2026-02-09T09:19:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11448,15 +11495,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.156Z'
+      prompt_version: v3
   - repo: dialpad/dialtone
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - design-system
+      - ui
+      - lang:js
+      - vue
     summary: The main repository for all of Dialpad's design system resources.
     last_synced_sha: 0d186356542966ba09e6c2470a64b019a6fe5786
     user_starred_at: '2026-02-09T09:15:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -11488,16 +11544,25 @@ repositories:
         published_at: '2026-04-07T10:25:48Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.156Z'
+      prompt_version: v3
   - repo: d3/d3
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - data-science
+    tags:
+      - data-visualization
+      - charts
+      - svg
+      - lang:shell
     summary: 'Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:'
     last_synced_sha: 42ccb63d8f4a4262f78b48aa1431e1f645bcc844
     user_starred_at: '2026-02-09T01:13:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -11523,15 +11588,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.156Z'
+      prompt_version: v3
   - repo: k1LoW/tbls
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - database-schema
+      - documentation-tool
+      - lang:go
     summary: tbls is a CI-Friendly tool to document a database, written in Go.
     last_synced_sha: 1c138ac4ccfbb9950741a2e52e5157bcf09b5fa3
     user_starred_at: '2026-02-09T00:19:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -11571,15 +11644,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.156Z'
+      prompt_version: v3
   - repo: sirkirby/unifi-mcp
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - automation
+    tags:
+      - mcp-server
+      - unifi-protect
+      - home-automation
+      - lang:python
     summary: MCP servers for the Uni Fi suite of applications, Network, Protect, Access, and Drive
     last_synced_sha: 7975eb357e4d5ac45808906ba83815d00687ccf0
     user_starred_at: '2026-02-08T15:18:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -11607,15 +11689,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.156Z'
+      prompt_version: v3
   - repo: gbassaragh/Unifi-mcp
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - automation
+    tags:
+      - unifi-network
+      - ai-powered
+      - lang:python
     summary: MCP server for Uni Fi Network and Protect API integration - AI-powered network management
     last_synced_sha: b1ca066a989c971c194fab0048e5fd67961c58df
     user_starred_at: '2026-02-08T15:06:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11633,15 +11723,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.152Z'
+      prompt_version: v3
   - repo: homarr-labs/homarr
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - dashboard
+      - self-hosting
+      - organization
+      - config-free
+      - lang:ts
     summary: A modern and easy to use dashboard. 40+ integrations. 10K+ icons built in. Authentication out of the box. No YAML, drag and drop configuration.
     last_synced_sha: 813f2fa5efb999d3364882578fdf456537dba3a6
     user_starred_at: '2026-02-08T15:03:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11667,15 +11767,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.152Z'
+      prompt_version: v3
   - repo: AgentAlphaAGI/Idea2Paper
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - demo
+      - concept-to-paper
+      - lang:python
     summary: Idea2Paper Offical Demo
     last_synced_sha: 64170d4d9ca9068b26bd561648ce5c576bf1a2fb
     user_starred_at: '2026-02-08T15:02:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11695,15 +11803,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.152Z'
+      prompt_version: v3
   - repo: s1t5/mail-archiver
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - archive
+      - backup
+      - email
+      - dashboard
+      - lang:csharp
     summary: Mail-Archiver is a web application for archiving, searching, and exporting emails from multiple accounts. Featuring folder sync, attachment support, mailbox migration and a dashboard.
     last_synced_sha: ce5c3ee0b891d5368fdae015a12e30c6297220cd
     user_starred_at: '2026-02-08T14:44:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -11730,15 +11848,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.152Z'
+      prompt_version: v3
   - repo: LogicLabs-OU/OpenArchiver
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - security
+    tags:
+      - email-archiving
+      - compliance
+      - lang:ts
     summary: An open-source platform for legally compliant email archiving.
     last_synced_sha: 0c42b30c9e30964ca1d10c831fafa43ac5564185
     user_starred_at: '2026-02-08T14:40:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -11758,6 +11884,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:34:19.152Z'
+      prompt_version: v3
   - repo: jsuto/piler
     categories:
       - productivity
