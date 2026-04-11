@@ -1,19 +1,30 @@
 # Apis
 
-*9 repositories*
+*20 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [robcole/rentcast-proxy](https://github.com/robcole/rentcast-proxy) | Typed API wrapper and proxy for Rentcast API with SQLite caching | `Crystal` ★ 1 | 2025-06-02 |
-| [googleworkspace/cli](https://github.com/googleworkspace/cli) | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | `Rust` ★ 23.8k | 2026-03-31 |
+| [googleworkspace/cli](https://github.com/googleworkspace/cli) | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | `Rust` ★ 24.3k | 2026-04-08 |
 | [atefe-aa/silent-print](https://github.com/atefe-aa/silent-print) | A lightweight Windows background service that exposes a local HTTP API so web apps can print HTML silently — no browser print dialog, no user interruption. Perfect for barcode label printing, recei... | `Go` ★ 1 | 2026-02-27 |
-| [Brainicism/bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider) | Proof-of-origin token provider plugin for yt-dlp | `TypeScript` ★ 479 | 2026-03-21 |
-| [cloudfoundry/cloud-service-broker](https://github.com/cloudfoundry/cloud-service-broker) | OSBAPI service broker that uses Terraform to provision and bind services. Derived from https://github.com/Google Cloud Platform/gcp-service-broker | `Go` ★ 84 | 2026-04-03 |
-| [InsForge/InsForge](https://github.com/InsForge/InsForge) | Give agents everything they need to ship fullstack apps. The backend built for agentic development. | `TypeScript` ★ 7.2k | 2026-04-05 |
-| [leonekmisio-prog/typecast-sdk](https://github.com/leonekmisio-prog/typecast-sdk) | 🗣️ Transform text into natural speech effortlessly with the official Typecast SDKs for the Text-to-Speech API across multiple programming languages. | `C#` ★ 1 | 2026-04-05 |
-| [natikxy/rick-voice](https://github.com/natikxy/rick-voice) | Convert text into authentic Rick Sanchez voice for bots and apps with a simple Python API supporting streaming and multiple TTS providers. | ★ 1 | 2026-04-05 |
+| [Brainicism/bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider) | Proof-of-origin token provider plugin for yt-dlp | `TypeScript` ★ 484 | 2026-04-10 |
+| [cloudfoundry/cloud-service-broker](https://github.com/cloudfoundry/cloud-service-broker) | OSBAPI service broker that uses Terraform to provision and bind services. Derived from https://github.com/Google Cloud Platform/gcp-service-broker | `Go` ★ 84 | 2026-04-10 |
+| [InsForge/InsForge](https://github.com/InsForge/InsForge) | Give agents everything they need to ship fullstack apps. The backend built for agentic development. | `TypeScript` ★ 7.4k | 2026-04-11 |
+| [natikxy/rick-voice](https://github.com/natikxy/rick-voice) | Convert text into authentic Rick Sanchez voice for bots and apps with a simple Python API supporting streaming and multiple TTS providers. | ★ 1 | 2026-04-11 |
 | [t3dotgg/stripe-recommendations](https://github.com/t3dotgg/stripe-recommendations) | How to implement Stripe without going mad | ★ 6.3k | 2025-02-07 |
+| [AzureAD/microsoft-identity-web](https://github.com/AzureAD/microsoft-identity-web) | Helps creating protected web apps and web APIs with Microsoft identity platform and Azure AD B2C | `C#` ★ 772 | 2026-04-10 |
+| [bytebase/dbhub](https://github.com/bytebase/dbhub) | Zero-dependency, token-efficient database MCP server for Postgres, My SQL, SQL Server, Maria DB, SQLite. | `TypeScript` ★ 2.5k | 2026-04-07 |
+| [delorenj/mcp-server-trello](https://github.com/delorenj/mcp-server-trello) | A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards. | `TypeScript` ★ 296 | 2026-02-04 |
+| [coleam00/remote-mcp-server-with-auth](https://github.com/coleam00/remote-mcp-server-with-auth) | Template for a remote MCP server with Git Hub OAuth - following best practices for building MCP servers so you can take this as a starting point for any MCP server you want to build! | `TypeScript` ★ 292 | 2025-07-11 |
+| [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server) | Allow AI to wade through complex Open APIs using Simple Language | `TypeScript` ★ 885 | 2026-02-21 |
+| [financial-datasets/mcp-server](https://github.com/financial-datasets/mcp-server) | An MCP server for interacting with the Financial Datasets stock market API. | `Python` ★ 1.9k | 2025-06-05 |
+| [GongRzhe/Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server) | A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interfac... | `Python` ★ 1.8k | 2025-12-31 |
+| [anomalyco/opencode-sdk-python](https://github.com/anomalyco/opencode-sdk-python) | No description provided | `Python` ★ 185 | 2026-01-30 |
+| [zh54321/EntraTokenAid](https://github.com/zh54321/EntraTokenAid) | A pure Power Shell solution for Entra OAuth authentication, enabling easy retrieval of access and refresh tokens | `PowerShell` ★ 135 | 2026-04-09 |
+| [EvotecIT/O365Essentials](https://github.com/EvotecIT/O365Essentials) | A module that helps to manage some tasks on Office 365/Azure via undocumented API | `PowerShell` ★ 144 | 2026-04-02 |
+| [rigwild/mcp-server-amazon](https://github.com/rigwild/mcp-server-amazon) | 🛍📦 Unofficial Amazon Model Context Protocol Server (MCP) - Search products and purchase directly from Claude AI! ✨ | `TypeScript` ★ 21 | 2025-07-25 |
+| [emcie-co/parlant](https://github.com/emcie-co/parlant) | The conversational control layer for customer-facing AI agents - Parlant is an agentic harness optimized for controlling customer interactions. | `Python` ★ 17.9k | 2026-04-10 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
