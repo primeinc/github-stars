@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:10:40.686Z'
+  manifest_updated_at: '2026-04-11T04:11:15.101Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -33590,13 +33590,17 @@ repositories:
     framework: null
   - repo: Ido-Levi/Hephaestus
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agents
+      - llm
+      - lang:python
     summary: Semi-Structured Agentic Framework. Workflows build themselves as agents discover what needs to be done, not what you predicted upfront.
     last_synced_sha: 28a52ce5bb1b0ac0d55fa5f527226b405a174e7b
     user_starred_at: '2025-10-31T10:54:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -33618,15 +33622,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.846Z'
+      prompt_version: v3
   - repo: andredesousa/typescript-best-practices
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - best-practices
+      - typescript
     summary: This is a guideline of best practices that you can apply to your Type Script project.
     last_synced_sha: aaedb9fadd42711e30a9eb984c2b10d4abaab71c
     user_starred_at: '2025-10-31T10:53:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -33647,15 +33658,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.846Z'
+      prompt_version: v3
   - repo: p0dalirius/ShareHound
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - network-shares
+      - bloodhound
+      - lang:python
     summary: A python tool to map the access rights of network shares into a Blood Hound Open Graphs easily
     last_synced_sha: 277a82f5a41a929c00fce4653b698bee002b0ac7
     user_starred_at: '2025-10-31T10:52:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -33680,15 +33699,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.846Z'
+      prompt_version: v3
   - repo: Seeed-Projects/jetson-examples
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - deployment
+    tags:
+      - jetson
+      - genai
+      - cv
+      - lang:shell
     summary: The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform.
     last_synced_sha: 3328ea66fed254003ec161dfea48fb5a398c112a
     user_starred_at: '2025-10-30T22:15:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -33711,15 +33739,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.846Z'
+      prompt_version: v3
   - repo: ghostery/ghostery-extension
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - privacy
+      - browser-extension
+      - lang:js
     summary: Ghostery Browser Extension for Firefox, Chrome, Opera, Edge and Safari
     last_synced_sha: bffb51aab24fa935e3cb136510d07ba6cb6e80c0
     user_starred_at: '2025-10-30T13:28:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -33747,15 +33783,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.845Z'
+      prompt_version: v3
   - repo: electron-react-boilerplate/electron-react-boilerplate
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - dev-tools
+    tags:
+      - electron
+      - boilerplate
+      - lang:ts
+      - react
     summary: A Foundation for Scalable Cross-Platform Apps
     last_synced_sha: f3465eae52f3683f1f1bcb2dd841b6a63da9e1cf
     user_starred_at: '2025-10-30T13:21:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -33782,16 +33827,25 @@ repositories:
         published_at: '2022-05-15T02:03:18Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.845Z'
+      prompt_version: v3
   - repo: ant-design/ant-design-pro
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - ant-design
+      - dashboard
+      - lang:ts
+      - react
     summary: 👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro!
     last_synced_sha: 3c1e93e8d16b3d8c7614c700e8f5e2ae70b6255f
     user_starred_at: '2025-10-30T13:19:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -33819,16 +33873,25 @@ repositories:
         published_at: '2026-04-08T03:44:30Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.845Z'
+      prompt_version: v3
   - repo: lxieyang/chrome-extension-boilerplate-react
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - dev-tools
+    tags:
+      - chrome-extension
+      - boilerplate
+      - lang:js
+      - react
     summary: A Chrome Extensions boilerplate using React 18 and Webpack 5.
     last_synced_sha: f7b0a5b89059ea943eaccd94aad3a429fb744644
     user_starred_at: '2025-10-30T13:18:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: JavaScript
@@ -33855,16 +33918,24 @@ repositories:
         published_at: '2021-10-27T01:17:08Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.845Z'
+      prompt_version: v3
   - repo: jesseduffield/lazygit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - git
+      - cli
+      - lang:go
     summary: simple terminal UI for git commands
     last_synced_sha: 38dd035e289dd71ad16fb0caa34525ad03460d21
     user_starred_at: '2025-10-28T12:07:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -33887,15 +33958,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.845Z'
+      prompt_version: v3
   - repo: CaviraOSS/OpenMemory
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-memory
+      - long-term-memory
+      - lang:ts
     summary: Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc.
     last_synced_sha: 8ec4c1d303bee4f498dca27d04e237873e731a01
     user_starred_at: '2025-10-28T11:48:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -33935,15 +34014,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.845Z'
+      prompt_version: v3
   - repo: codecrafters-io/build-your-own-x
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - tutorials
+      - awesome-list
+      - lang:markdown
     summary: Master programming by recreating your favorite technologies from scratch.
     last_synced_sha: 294aef8fde538d169089b1c7dc70b0ddc3b0ef6f
     user_starred_at: '2025-10-28T11:46:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Markdown
       topics:
@@ -33967,15 +34054,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.845Z'
+      prompt_version: v3
   - repo: qeeqbox/social-analyzer
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+    tags:
+      - osint
+      - social-media
+      - lang:js
     summary: API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites
     last_synced_sha: 1ba0905e00d054aab833eb3693739c354db09e0f
     user_starred_at: '2025-10-28T11:45:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -34012,15 +34107,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.845Z'
+      prompt_version: v3
   - repo: Infisical/infisical
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - secret-management
+      - cli
+      - lang:ts
     summary: Infisical is the open-source platform for secrets, certificates, and privileged access management.
     last_synced_sha: 4794e6e5001eafe47b379db2fe4e730489595452
     user_starred_at: '2025-10-28T11:44:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -34060,15 +34163,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.845Z'
+      prompt_version: v3
   - repo: drawdb-io/drawdb
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - databases
+    tags:
+      - database-schema
+      - editor
+      - lang:js
+      - react
     summary: Free, simple, and intuitive online database diagram editor and SQL generator.
     last_synced_sha: d03800582f75c63253d2d263f9a18653d068195a
     user_starred_at: '2025-10-28T11:41:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -34102,16 +34214,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.845Z'
+      prompt_version: v3
   - repo: Azure-Samples/universal-api-center
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - learning
+    tags:
+      - api-integration
+      - lang:jupyter-notebook
     summary: APIC ♥️ all APIs - this repo contains labs focused on importing APIs from a wide variety of gateways and sources
     last_synced_sha: 21e4e9280a4d3dc5c6558717aa69abe6bfbb4671
     user_starred_at: '2025-10-27T04:30:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -34129,6 +34248,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:11:13.845Z'
+      prompt_version: v3
   - repo: Azure-Samples/aks-platform-engineering
     categories:
       - cloud
