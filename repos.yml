@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:28:04.047Z'
+  manifest_updated_at: '2026-04-11T04:28:30.725Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -16911,13 +16911,18 @@ repositories:
     framework: null
   - repo: RunanywhereAI/on-device-browser-agent
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - lang:ts
+      - web-automation
+      - privacy
+      - llm-based
     summary: On-device AI browser automation using Web LLM. No cloud, no API keys, fully private.
     last_synced_sha: aae7a368339b240cf179b21c1c8a8ffb13fbba60
     user_starred_at: '2026-01-27T00:18:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -16935,15 +16940,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: gohoyer/Alfred-Rectangle-Shortcuts
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - lang:python
+      - workflow
+      - mac
+      - shortcut-access
     summary: This is an Alfred workflow that allows you to list and access [Rectangle](https://rectangleapp.com) shortcuts.
     last_synced_sha: 5b4a229597c658a11123063515466636ff40f176
     user_starred_at: '2026-01-26T21:05:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -16966,15 +16980,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: ChromeDevTools/devtools-protocol
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+    tags:
+      - lang:ts
+      - chrome
+      - protocol
+      - web-dev
     summary: Chrome Dev Tools Protocol
     last_synced_sha: 5bebca922c951b39110afac6c6819329946a9a02
     user_starred_at: '2026-01-26T16:40:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -16992,15 +17015,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: curtosis-org/phub-cli
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - cli-tool
+      - terminal
+      - lang:shell
+      - scraper
+      - search
     summary: Terminal-based Porn Hub browser inspired by ani-cli. Browse categories, search videos, and stream instantly in mpv without opening a browser.
     last_synced_sha: c9b6e379ecdf169fa01833b54e435f7d9227441d
     user_starred_at: '2026-01-26T16:39:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -17038,15 +17071,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: amnezia-vpn/amneziawg-windows-client
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - lang:go
+      - vpn-client
+      - privacy
+      - windows
     summary: Amnezia WG client for Windows
     last_synced_sha: 54fa022e2c40ed6d51f757e0871158372fb14977
     user_starred_at: '2026-01-26T16:38:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Go
@@ -17067,15 +17109,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: DoIT-Artificial-Intelligence/youtube-to-docs
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - lang:python
+      - youtube
+      - accessibility
+      - content-conversion
     summary: Convert You Tube videos into structured docs, summaries, audio, and visual assets for easier discovery.
     last_synced_sha: 7ca98d874fe28ebef14b4810d656dde888b3ef82
     user_starred_at: '2026-01-26T10:48:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -17096,15 +17147,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: amazingpaddy/ai-chat-exporter
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - lang:js
+      - chat-export
+      - data-management
+      - automation
     summary: No description provided
     last_synced_sha: db2c432c9dcfff52b8cf400443c822af52f62033
     user_starred_at: '2026-01-26T10:34:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -17124,15 +17184,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: ysharma3501/LuxTTS
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - tts
+      - voice-cloning
+      - lang:python
+      - speech-processing
     summary: A high-quality rapid TTS voice cloning model that reaches speeds of 150x realtime.
     last_synced_sha: 381b1609cb1d1afbf756b87809c623464cfd8ac5
     user_starred_at: '2026-01-26T04:54:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -17150,15 +17219,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: pimalaya/himalaya
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - lang:rust
+      - email-client
+      - cli
+      - imap
+      - gpg
     summary: CLI to manage emails
     last_synced_sha: f9bc426b8f157e4c10d8be4b8d8ff30be476e2e4
     user_starred_at: '2026-01-26T03:01:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -17191,15 +17270,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: e2b-dev/E2B
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - enterprise-agents
+      - secure-environment
+      - lang:python
+      - react
+      - nextjs
     summary: Open-source, secure environment with real-world tools for enterprise-grade agents.
     last_synced_sha: fcb95c34e2f3e0d7bb3062f0152fcfaeced16905
     user_starred_at: '2026-01-26T03:00:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -17236,16 +17325,25 @@ repositories:
         published_at: '2026-04-02T19:20:41Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: simpsoka/jules-companion
     categories:
+      - mobile-dev
       - unclassified
-    tags: []
+    tags:
+      - lang:swift
+      - companion-app
+      - ios
+      - productivity
     summary: No description provided
     last_synced_sha: 4162f648dea182442d236a72de681cab70bc7603
     user_starred_at: '2026-01-26T03:00:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Swift
       topics: []
@@ -17265,15 +17363,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: sitespeedio/browsertime
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - monitoring
+    tags:
+      - lang:js
+      - web-performance
+      - har
+      - video
     summary: Measure and Optimize Web Performance
     last_synced_sha: 79b33a7c7e5d995bc13fe60dcc3aea670f299c91
     user_starred_at: '2026-01-26T02:59:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -17300,15 +17407,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: doczjs/docz
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - docs
+      - zero-configuration
+      - lang:ts
+      - react
+      - mdx
     summary: ✍ It has never been so easy to document your things!
     last_synced_sha: e0a53cb64fa8bb7a9e02f4f39eada7f74566dd3c
     user_starred_at: '2026-01-25T22:10:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -17339,16 +17456,26 @@ repositories:
         published_at: '2022-06-23T18:23:34Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: chakra-ui/ark
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - frameworks
+    tags:
+      - accessible-ui
+      - design-system
+      - lang:ts
+      - headless-components
+      - unstyled
     summary: Unstyled, accessible UI components for your design System. Works in React, Vue, Solid, and Svelte.
     last_synced_sha: ea15c1306c316c4df74b8e81206ce45f9e25de16
     user_starred_at: '2026-01-25T22:09:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -17378,15 +17505,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: gemini-cli-extensions/stitch
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - natural-language-processing
+      - cli
+      - genai
+      - mcp
     summary: The Stitch extension for Gemini CLI enables you to interact with the Stitch MCP server using natural language commands.
     last_synced_sha: e22b3aac9a43bce2d740c5172844e9a2eebba37f
     user_starred_at: '2026-01-25T20:01:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -17413,6 +17549,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:28:29.564Z'
+      prompt_version: v3
   - repo: galz10/pickle-rick-extension
     categories:
       - ai-ml
