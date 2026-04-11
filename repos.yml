@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:13:50.089Z'
+  manifest_updated_at: '2026-04-11T04:14:23.268Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -30609,13 +30609,18 @@ repositories:
     framework: null
   - repo: Azure/awesome-azd
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - azure
+      - cli
+      - bicep-templates
+      - lang:ts
     summary: An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (`azd`). Plus a hosted azd-templates Gallery to simplify search ...
     last_synced_sha: 0aae32f4ae6c2ed91f487527bf67e21667081aff
     user_starred_at: '2025-11-22T00:31:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30641,15 +30646,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:22.001Z'
+      prompt_version: v3
   - repo: pascalvanderheiden/ais-apim-openai
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - ai-ml
+    tags:
+      - azure
+      - openai
+      - lang:bicep
     summary: Unleash the power of Azure Open AI to your application developers in a secure & manageable way with Azure API Management and Azure Developer CLI.
     last_synced_sha: 66b1e07e135d1a24b7433491589623da1523e507
     user_starred_at: '2025-11-22T00:26:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -30667,15 +30680,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:22.000Z'
+      prompt_version: v3
   - repo: luckgrid/lg-turbo-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - nextjs
+      - tailwindcss
+      - turborepo
+      - lang:ts
     summary: A turborepo workspace with a ready to go Next v15, React v19, and Tailwind CSS v4 UI packages and configs.
     last_synced_sha: e17afc3a66af303642ca122a2d5a32083133a936
     user_starred_at: '2025-11-21T23:44:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -30692,16 +30714,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:22.000Z'
+      prompt_version: v3
   - repo: luckgrid/lg-gnosys
     categories:
+      - web-dev
       - unclassified
-    tags: []
+    tags:
+      - monorepo
+      - workspace
+      - lang:css
     summary: A monorepo architecture starter project for building framework agnostic applications with a feature rich development workspaces configuration...
     last_synced_sha: 362584a20f8fe685e56a2ea363c36518b5cb3f3f
     user_starred_at: '2025-11-21T23:44:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: CSS
       topics: []
@@ -30719,15 +30749,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:22.000Z'
+      prompt_version: v3
   - repo: astrofox-io/astrofox
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - audio
+      - video
+      - motion-graphics
+      - lang:ts
     summary: Astrofox is a motion graphics program that lets you turn audio into amazing videos.
     last_synced_sha: 6197d7e9a756fa8ce93dad98e9bcc68360912cfa
     user_starred_at: '2025-11-21T23:16:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30752,15 +30791,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:22.000Z'
+      prompt_version: v3
   - repo: satnaing/astro-paper
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - astro
+      - blog
+      - tailwindcss
+      - static-site
+      - lang:astro
     summary: A minimal, accessible and SEO-friendly Astro blog theme
     last_synced_sha: f3005328e548805226aba54414122c7174645e83
     user_starred_at: '2025-11-21T23:12:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Astro
       topics:
@@ -30795,15 +30844,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:22.000Z'
+      prompt_version: v3
   - repo: withastro/astro
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - static-site-generator
+      - islands
+      - astro
+      - lang:ts
     summary: The web framework for content-driven websites. ⭐️ Star to support our work!
     last_synced_sha: 7fe40bc7381d981dedad16625d89c00e31cd8fd0
     user_starred_at: '2025-11-21T23:09:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30834,15 +30892,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:22.000Z'
+      prompt_version: v3
   - repo: shadcn-ui/ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - react
+      - tailwindcss
+      - components
+      - lang:ts
+      - shadcn-ui
     summary: A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.
     last_synced_sha: fc62d5781d2927242fc5ed6c1011fca7290fbde1
     user_starred_at: '2025-11-21T23:04:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30872,16 +30940,25 @@ repositories:
         published_at: '2026-04-07T18:14:45Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:22.000Z'
+      prompt_version: v3
   - repo: rohit-gohri/redocusaurus
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - apis
+    tags:
+      - openapi
+      - redoc
+      - docusaurus
+      - lang:ts
     summary: Open API for Docusaurus with Redoc
     last_synced_sha: 4804a2531d67f5844f0a3a423055802680708a8f
     user_starred_at: '2025-11-21T22:26:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30909,15 +30986,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:22.000Z'
+      prompt_version: v3
   - repo: primeinc/turborepo-nextjs
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - monorepo
+      - lang:ts
+      - trpc
+      - nextjs
+      - prisma
     summary: A production-ready Next.js 15 monorepo with React 19, Type Script, t RPC, and Prisma.
     last_synced_sha: 276bc117de6c31fd145be56bde5f4e4e1d1527bd
     user_starred_at: '2025-11-21T22:26:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: TypeScript
@@ -30935,16 +31022,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:22.000Z'
+      prompt_version: v3
   - repo: gmickel/turborepo-shadcn-nextjs
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - nextjs-template
+      - storybook
+      - lang:ts
+      - nextjs
+      - shadcn-ui
     summary: A Turborepo starter template with Next.js, Nextra, Storybook, and a shared pre-configured shadcn/ui package, powered by Bun and Biome
     last_synced_sha: db96a4b205e71c3816b9f157dd13c9a6a4a68c52
     user_starred_at: '2025-11-21T22:20:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -30969,16 +31066,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:22.000Z'
+      prompt_version: v3
   - repo: withastro/starlight
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - docs-generator
+      - static-site
+      - lang:ts
+      - astro
     summary: 🌟 Build beautiful, accessible, high-performance documentation websites with Astro
     last_synced_sha: db10448ef5faa8c00a5474d5d572c9e00f667708
     user_starred_at: '2025-11-21T22:13:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31003,15 +31109,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:22.000Z'
+      prompt_version: v3
   - repo: nicholas-fedor/shoutrrr
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - automation
+    tags:
+      - notification
+      - cli
+      - lang:go
     summary: A notification library for gophers and their furry friends.
     last_synced_sha: 8ed5888dec6502eeba45e912ad80b215d0dacd12
     user_starred_at: '2025-11-21T22:10:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Go
@@ -31038,15 +31152,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:22.000Z'
+      prompt_version: v3
   - repo: selfhst/icons
     categories:
+      - productivity
       - unclassified
-    tags: []
+    tags:
+      - icons
+      - visual-assets
+      - lang:go
     summary: Collection of icons and logos maintained by selfh.st
     last_synced_sha: 13c1973db751a7bf4c5d07723521ad878322eaec
     user_starred_at: '2025-11-21T22:09:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -31064,15 +31186,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:21.997Z'
+      prompt_version: v3
   - repo: pwa-builder/PWABuilder
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - pwa
+      - web-application
+      - app-store
+      - lang:ts
     summary: The simplest way to create progressive web apps across platforms and devices. Start here. This repo is home to several projects in the PWABuilder family of tools.
     last_synced_sha: 1358160c0619eada97af75d971c34cff381cfbb8
     user_starred_at: '2025-11-21T22:06:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -31112,6 +31243,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:14:21.997Z'
+      prompt_version: v3
   - repo: middleapi/orpc
     categories:
       - apis
