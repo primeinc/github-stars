@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:00:44.726Z'
+  manifest_updated_at: '2026-04-11T04:01:17.724Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -42730,13 +42730,19 @@ repositories:
     framework: null
   - repo: posquit0/Awesome-CV
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - latex
+      - resume
+      - cv
+      - lang:tex
+      - latex-template
     summary: ':page_facing_up: Awesome CV is La Te X template for your outstanding job application'
     last_synced_sha: 36075ed034f7dbb8d3d35ec0cfac725f743fc3e8
     user_starred_at: '2025-09-13T07:49:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TeX
       topics:
@@ -42764,15 +42770,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.544Z'
+      prompt_version: v3
   - repo: abhisheknaiidu/awesome-github-profile-readme
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - github-readme
+      - profile-readme
+      - awesome
+      - portfolio
     summary: 😎 A curated list of awesome Git Hub Profile which updates in real time
     last_synced_sha: 7cb2691619d0b8bb3017289c699f3a0d16dc9c70
     user_starred_at: '2025-09-13T07:48:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -42797,15 +42812,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.544Z'
+      prompt_version: v3
   - repo: DopplerHQ/awesome-interview-questions
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - interview-questions
+      - awesome-list
+      - interview-practice
+      - interviewing
+      - career
     summary: ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board:'
     last_synced_sha: bcb0c90a0ab3c495857ca9ea63f367e68848346c
     user_starred_at: '2025-09-13T07:47:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: null
@@ -42838,15 +42863,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.544Z'
+      prompt_version: v3
   - repo: Hack-with-Github/Awesome-Hacking
     categories:
-      - unclassified
-    tags: []
+      - security
+      - learning
+    tags:
+      - hacking
+      - penetration-testing
+      - awesome
+      - bug-bounty
+      - reverse-engineering
     summary: A collection of various awesome lists for hackers, pentesters and security researchers
     last_synced_sha: 5a02f846e8fc5cf0d64e175f52e06b72df950d28
     user_starred_at: '2025-09-13T07:47:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -42873,15 +42908,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.544Z'
+      prompt_version: v3
   - repo: unchihugo/FluentFlyout
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - windows-11
+      - fluent-design
+      - lang:csharp
+      - flyouts
+      - taskbar-widgets
     summary: The modern Flyout app for Windows 11, built with Fluent 2 Design principles. Media Flyouts, Taskbar Widgets and more.
     last_synced_sha: bef57e38e31f1dd3cdd4cdf81f31c46aa356b8e6
     user_starred_at: '2025-09-13T07:42:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -42915,15 +42960,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.544Z'
+      prompt_version: v3
   - repo: winapps-org/winapps
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - system-admin
+    tags:
+      - windows-apps
+      - linux-integration
+      - lang:shell
+      - docker
+      - freerdp
     summary: Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration. Hard fork of https://github.com/Fmstr...
     last_synced_sha: d5ea5d5a0b8ef28decb1f21e10b8290757e00693
     user_starred_at: '2025-09-13T07:41:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -42961,15 +43016,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.544Z'
+      prompt_version: v3
   - repo: googleapis/gcloud-mcp
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - apis
+    tags:
+      - gcloud
+      - mcp
+      - lang:ts
     summary: gcloud MCP server
     last_synced_sha: 8b31bc33b0ffb766ae892d3fe0432755018cb9d2
     user_starred_at: '2025-09-13T07:41:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -42989,15 +43052,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.544Z'
+      prompt_version: v3
   - repo: LAION-AI/worldsim
     categories:
       - unclassified
-    tags: []
+    tags:
+      - no-description
     summary: No description provided
     last_synced_sha: 7217b451c4b33df8913212f7306f139bf7fe8013
     user_starred_at: '2025-09-13T07:38:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -43015,15 +43083,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.544Z'
+      prompt_version: v3
   - repo: Zie619/n8n-workflows
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - workflows
+      - n8n
+      - lang:python
     summary: all of the workflows of n8n i could find (also from the site itself)
     last_synced_sha: ed8dd70c695978d0f919107dc7e2d30bc1febc9f
     user_starred_at: '2025-09-13T07:37:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -43043,15 +43119,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.543Z'
+      prompt_version: v3
   - repo: zama-ai/fhevm
     categories:
-      - unclassified
-    tags: []
+      - security
+    tags:
+      - privacy
+      - fhe
+      - lang:rust
     summary: FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications
     last_synced_sha: b6c8c2b863e5cff0d4c40d23451e457a86be0188
     user_starred_at: '2025-09-13T06:41:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -43074,15 +43157,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.543Z'
+      prompt_version: v3
   - repo: ClemensElflein/OpenMower
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - automation
+    tags:
+      - robotics
+      - gps
+      - lang:cpp
+      - lawn-mower
+      - arduino
     summary: Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots!
     last_synced_sha: 4f11e685f3011ab97c067595259cb078baa500be
     user_starred_at: '2025-09-13T06:41:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -43113,15 +43206,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.543Z'
+      prompt_version: v3
   - repo: 11cafe/jaaz
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - creative-assistant
+      - design-tool
+      - lang:ts
+      - ai-image-generator
+      - stable-diffusion
     summary: The world's first open-source multimodal creative assistant This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.
     last_synced_sha: 145dd85067be77e36d400637a595e19a7b07c77a
     user_starred_at: '2025-09-13T06:41:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -43152,15 +43255,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.543Z'
+      prompt_version: v3
   - repo: Vector-Wangel/XLeRobot
     categories:
-      - unclassified
-    tags: []
+      - embedded
+    tags:
+      - dual-arm-robot
+      - mobile-robot
+      - lang:python
     summary: 'XLe Robot: Practical Dual-Arm Mobile Home Robot for $660'
     last_synced_sha: 137865981ca9e828d0923804cf77ededd22c7816
     user_starred_at: '2025-09-13T06:38:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -43178,15 +43288,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.543Z'
+      prompt_version: v3
   - repo: sentient-agi/ROMA
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - meta-agent
+      - multi-agent-systems
+      - lang:python
     summary: Recursive-Open-Meta-Agent v0.1 (Beta). A meta-agent framework to build high-performance multi-agent systems.
     last_synced_sha: a6e3bb4f9e0694375fa627fa4b8bf8cae50592a6
     user_starred_at: '2025-09-13T06:37:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -43206,15 +43324,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.543Z'
+      prompt_version: v3
   - repo: Ripple-TS/ripple
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - ui-framework
+      - elegant
+      - lang:js
     summary: the elegant Type Script UI framework
     last_synced_sha: fdac64969e7957c1bae35d186f70a2e1f0b5bb9d
     user_starred_at: '2025-09-13T06:35:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -43234,6 +43360,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:01:16.540Z'
+      prompt_version: v3
   - repo: danielmiessler/Fabric
     categories:
       - ai-ml
