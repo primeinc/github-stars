@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-11T04:04:40.668Z'
+  manifest_updated_at: '2026-04-11T04:05:15.042Z'
   total_repos: 1297
   generator_version: v1.0.0
   github_user: primeinc
@@ -39142,13 +39142,18 @@ repositories:
     framework: null
   - repo: novatorem/novatorem
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - lang:python
+      - spotify
+      - profile-readme
+      - dynamic-content
     summary: Dynamic realtime profile Read Me linked with spotify
     last_synced_sha: 494eeb27a78dcc0be1975b2e5189d7af46be2f06
     user_starred_at: '2025-09-24T09:07:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -39168,15 +39173,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.827Z'
+      prompt_version: v3
   - repo: supabase/realtime
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - apis
+    tags:
+      - lang:elixir
+      - realtime-updates
+      - postgres
+      - web-sockets
     summary: Broadcast, Presence, and Postgres Changes via Web Sockets
     last_synced_sha: 675ddf685457d3984bcace1fb0e349ccb82b8244
     user_starred_at: '2025-09-24T08:49:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Elixir
       topics:
@@ -39207,15 +39221,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.827Z'
+      prompt_version: v3
   - repo: matiasmenares/Nissboard
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - lang:js
+      - car-dashboard
+      - obdii
+      - realtime-monitoring
     summary: 🚗 Nissan Consult/OBDII Realtime Dashboard
     last_synced_sha: a4ac4e9662f2769d988b919ea6db257a5c64d842
     user_starred_at: '2025-09-24T08:47:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -39244,15 +39267,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.827Z'
+      prompt_version: v3
   - repo: badsyntax/mailinabox-ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - lang:ts
+      - react
+      - redux
+      - mail-ui
+      - fluent-ui
     summary: Experimental Mail-in-a-Box User Interface built with React, Redux, Type Script & Fluent UI
     last_synced_sha: b49a5241a0957bf4292374b921e35cc22ddd0e57
     user_starred_at: '2025-09-24T08:20:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -39277,16 +39310,25 @@ repositories:
         published_at: '2021-05-22T21:26:15Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.827Z'
+      prompt_version: v3
   - repo: StudentiUniMi/website
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - lang:ts
+      - nextjs
+      - fluent-ui
+      - university-services
     summary: Web application built with Next.js 15 and React 19 (TS), designed to provide students of the University of Milan with seamless access to academic groups and university services. The interface is de...
     last_synced_sha: a90f873a54857472b1d0fe0f52dbfd8cedfbe3d7
     user_starred_at: '2025-09-24T08:18:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -39323,16 +39365,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.827Z'
+      prompt_version: v3
   - repo: d2phap/fluent-reveal-effect
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - lang:ts
+      - fluent-ui
+      - javascript-plugin
+      - reveal-effect
     summary: Fluent Reveal Effect Java Script library for web
     last_synced_sha: 4f477c7ea8af1acc2a6e8776083ffd806639b3f4
     user_starred_at: '2025-09-24T08:16:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -39362,15 +39413,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.827Z'
+      prompt_version: v3
   - repo: gin-gonic/gin
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+      - apis
+    tags:
+      - lang:go
+      - http-framework
+      - high-performance
+      - gin
     summary: Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for ...
     last_synced_sha: d3ffc9985281dcf4d3bef604cce4e662b1a327a6
     user_starred_at: '2025-09-24T07:03:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -39397,15 +39458,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.827Z'
+      prompt_version: v3
   - repo: rocksdanister/weather
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - weather-app
+      - lang:csharp
+      - windows
+      - directx12
     summary: Windows native weather app powered by Direct X12 animations
     last_synced_sha: 96aa1d45c17e6da855d4a910d5cf35ff22a2e9ba
     user_starred_at: '2025-09-24T06:29:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -39445,15 +39515,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.827Z'
+      prompt_version: v3
   - repo: thesephist/superstat
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - git-status
+      - lang:makefile
+      - repository-management
     summary: Git status + diff across every repo in a directory
     last_synced_sha: e5bac7c2eca217ec3d129ab7e5d87be04c4dc2b1
     user_starred_at: '2025-09-24T06:23:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Makefile
       topics:
@@ -39475,15 +39553,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.827Z'
+      prompt_version: v3
   - repo: thesephist/burds
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - ui-libraries
+    tags:
+      - animation
+      - lang:js
+      - birds
+      - visual-effects
     summary: Just some burds, jumpin' around in their own little world.
     last_synced_sha: 5ada8b58d87efdd049c9210aedc0fd392a067c2a
     user_starred_at: '2025-09-24T06:21:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -39504,15 +39591,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.827Z'
+      prompt_version: v3
   - repo: slenered/MusicWallpaper
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+    tags:
+      - music-display
+      - lang:js
+      - wallpaper
     summary: A simple and sleek way to show your actively playing music.
     last_synced_sha: dfceff6f616e5a8f9bdeedefd9d92efe98c967c7
     user_starred_at: '2025-09-24T06:11:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -39532,15 +39627,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.827Z'
+      prompt_version: v3
   - repo: Aprotonix/Rainbow-Music-Visualizer-Wallpaper
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - game-dev
+    tags:
+      - music-visualizer
+      - lang:js
+      - customizable-wallpaper
     summary: Customizable Live Wallpaper showing the music and date
     last_synced_sha: 395d7c64c702d6fdf9fdf322dad238fc45661848
     user_starred_at: '2025-09-24T06:10:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -39560,15 +39663,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.826Z'
+      prompt_version: v3
   - repo: CatWaterCodes/ImageToParallaxWallpaper
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ui-libraries
+    tags:
+      - parallax-wallpaper
+      - lang:python
+      - html-css-js
     summary: A simple tool that allows you to create parallax wallpapers using html/css/js from a single image.
     last_synced_sha: 03015177b9a90a92a99da2eb4f141fdd3c052ac1
     user_starred_at: '2025-09-24T06:09:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -39586,15 +39697,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.826Z'
+      prompt_version: v3
   - repo: cloudflare/capnweb
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+    tags:
+      - rpc-system
+      - lang:ts
+      - low-boilerplate
+      - object-capability
     summary: Java Script/Type Script-native, low-boilerplate, object-capability RPC system
     last_synced_sha: cfa1b959ebf4cf24c3ea8277f424118306ffff2e
     user_starred_at: '2025-09-24T05:22:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -39614,15 +39734,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.823Z'
+      prompt_version: v3
   - repo: kalivaraprasad-gonapa/react-mcp
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - react-integration
+      - lang:js
+      - react
+      - ui-development
     summary: react-mcp integrates with Claude Desktop, enabling the creation and modification of React apps based on user prompts
     last_synced_sha: 984adb923aa65dde7cb3b06c70860f1bd6fed2a7
     user_starred_at: '2025-09-24T05:09:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -39639,7 +39768,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-11T04:05:13.823Z'
+      prompt_version: v3
   - repo: yjs/yjs
     categories:
       - web-dev
