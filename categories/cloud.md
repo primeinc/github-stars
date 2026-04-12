@@ -6,14 +6,15 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos) | A collection of Microsoft cloud product logos | `Python` ★ 218 | 2026-04-12 |
 | [mspnp/cloud-design-patterns](https://github.com/mspnp/cloud-design-patterns) | Sample implementations for cloud design patterns found in the Azure Architecture Center. | `C#` ★ 844 | 2026-04-06 |
 | [mikedzikowski/ZTAImage](https://github.com/mikedzikowski/ZTAImage) | Zero Trust Azure Image Solution | `Bicep` ★ 6 | 2024-04-12 |
 | [cloudfoundry/cloud-service-broker](https://github.com/cloudfoundry/cloud-service-broker) | OSBAPI service broker that uses Terraform to provision and bind services. Derived from https://github.com/Google Cloud Platform/gcp-service-broker | `Go` ★ 84 | 2026-04-10 |
 | [postgres-ai/database-lab-engine](https://github.com/postgres-ai/database-lab-engine) | DBLab enables 🖖 database branching and ⚡️ thin cloning for any Postgres database and empowers DB testing in CI/CD. This optimizes database-related costs while improving time-to-market and software... | `Go` ★ 2.4k | 2026-04-10 |
-| [go-gitea/gitea](https://github.com/go-gitea/gitea) | Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD | `Go` ★ 54.8k | 2026-04-10 |
+| [go-gitea/gitea](https://github.com/go-gitea/gitea) | Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD | `Go` ★ 54.9k | 2026-04-12 |
 | [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 33.6k | 2026-04-09 |
-| [Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops) | An MCP server for Azure Dev Ops | `TypeScript` ★ 357 | 2026-02-05 |
-| [Softeria/ms-365-mcp-server](https://github.com/Softeria/ms-365-mcp-server) | A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API | `TypeScript` ★ 607 | 2026-04-10 |
+| [Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops) | An MCP server for Azure Dev Ops | `TypeScript` ★ 358 | 2026-02-05 |
+| [Softeria/ms-365-mcp-server](https://github.com/Softeria/ms-365-mcp-server) | A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API | `TypeScript` ★ 609 | 2026-04-10 |
 | [echelon-ai-labs/servicenow-mcp](https://github.com/echelon-ai-labs/servicenow-mcp) | MCP Server for Service Now | `Python` ★ 238 | 2025-10-03 |
 | [mcp-router/mcp-router](https://github.com/mcp-router/mcp-router) | A Unified MCP Server Management App (MCP Manager). | `TypeScript` ★ 1.9k | 2026-01-24 |
 | [kinhunt/mcpdog](https://github.com/kinhunt/mcpdog) | 🐕 Universal MCP Server Manager - Configure once, manage multiple MCP servers through a single interface. Perfect for Claude Desktop, Claude Code, Cursor, Gemini CLI & AI assistants. Web dashboard,... | `TypeScript` ★ 18 | 2025-10-19 |
@@ -33,12 +34,11 @@
 | [Azure/PSDocs.Azure](https://github.com/Azure/PSDocs.Azure) | Generate documentation from Azure infrastructure as code (Ia C) artifacts. | `PowerShell` ★ 66 | 2026-02-03 |
 | [PSBicep/PSBicep](https://github.com/PSBicep/PSBicep) | This is the repo for the Bicep Power Shell Module. | `PowerShell` ★ 149 | 2026-04-09 |
 | [EvotecIT/O365Essentials](https://github.com/EvotecIT/O365Essentials) | A module that helps to manage some tasks on Office 365/Azure via undocumented API | `PowerShell` ★ 144 | 2026-04-02 |
-| [pnp/script-samples](https://github.com/pnp/script-samples) | A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more. | `PowerShell` ★ 309 | 2026-04-06 |
-| [invictus-ir/Microsoft-Extractor-Suite](https://github.com/invictus-ir/Microsoft-Extractor-Suite) | A Power Shell module for acquisition of data from Microsoft 365 and Azure for Incident Response and Cyber Security purposes. | `PowerShell` ★ 788 | 2026-03-25 |
+| [pnp/script-samples](https://github.com/pnp/script-samples) | A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more. | `PowerShell` ★ 310 | 2026-04-06 |
+| [invictus-ir/Microsoft-Extractor-Suite](https://github.com/invictus-ir/Microsoft-Extractor-Suite) | A Power Shell module for acquisition of data from Microsoft 365 and Azure for Incident Response and Cyber Security purposes. | `PowerShell` ★ 789 | 2026-03-25 |
 | [wesellis/Azure-PowerShell-Toolkit](https://github.com/wesellis/Azure-PowerShell-Toolkit) | Massive collection of 772+ Power Shell scripts for Azure management. CI/CD with PSScript Analyzer, security scanning, and Ia C validation. Enterprise-ready with comprehensive testing. | `PowerShell` ★ 39 | 2025-10-03 |
 | [darkquasar/AzureHunter](https://github.com/darkquasar/AzureHunter) | A Cloud Forensics Powershell module to run threat hunting playbooks on data from Azure and O365 | `PowerShell` ★ 788 | 2022-10-29 |
 | [Gerenios/AADInternals](https://github.com/Gerenios/AADInternals) | AADInternals Power Shell module for administering Azure AD and Office 365 | `PowerShell` ★ 1.6k | 2025-09-30 |
 | [hausec/PowerZure](https://github.com/hausec/PowerZure) | Power Shell framework to assess Azure security | `PowerShell` ★ 1.3k | 2025-10-18 |
-| [HeyPuter/puter](https://github.com/HeyPuter/puter) | 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable. | `JavaScript` ★ 40.2k | 2026-04-10 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

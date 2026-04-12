@@ -1,11 +1,12 @@
 # Tag: azure
 
-*9 repositories*
+*10 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos) | A collection of Microsoft cloud product logos | `Python` ★ 218 | 2026-04-12 |
 | [mspnp/cloud-design-patterns](https://github.com/mspnp/cloud-design-patterns) | Sample implementations for cloud design patterns found in the Azure Architecture Center. | `C#` ★ 844 | 2026-04-06 |
 | [mikedzikowski/ZTAImage](https://github.com/mikedzikowski/ZTAImage) | Zero Trust Azure Image Solution | `Bicep` ★ 6 | 2024-04-12 |
 | [azurekid/blackcat](https://github.com/azurekid/blackcat) | Black Cat is a Power Shell module designed to validate the security of Microsoft Azure. It provides a set of functions to identify potential security holes. | `PowerShell` ★ 200 | 2026-03-18 |
