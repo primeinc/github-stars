@@ -1,35 +1,29 @@
 # System-admin
 
-*25 repositories*
+*19 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Yeachan-Heo/clawhip](https://github.com/Yeachan-Heo/clawhip) | claw + whip: Event-to-channel notification router — bypasses gateway sessions to avoid context pollution | `Rust` ★ 728 | 2026-04-12 |
-| [unixshells/latch](https://github.com/unixshells/latch) | Terminal multiplexer with built-in remote access. tmux you can SSH into, open in a browser, or connect to with mosh. | `Go` ★ 12 | 2026-04-05 |
+| [Yeachan-Heo/clawhip](https://github.com/Yeachan-Heo/clawhip) | claw + whip: Event-to-channel notification router — bypasses gateway sessions to avoid context pollution | `Rust` ★ 775 | 2026-04-12 |
+| [unixshells/latch](https://github.com/unixshells/latch) | Terminal multiplexer with built-in remote access. tmux you can SSH into, open in a browser, or connect to with mosh. | `Go` ★ 18 | 2026-04-14 |
 | [awesomized/crc-fast-rust](https://github.com/awesomized/crc-fast-rust) | World's fastest generic CRC calculator for all known CRC-16, CRC-32, and CRC-64 variants, as well as bring-your-own custom parameters, using SIMD intrinsics, which can exceed 100Gi B/s on modern sy... | `Rust` ★ 76 | 2025-12-29 |
-| [xtieume/PrinterOne](https://github.com/xtieume/PrinterOne) | A comprehensive TCP network print server with integrated GUI management and system tray support for Windows. | `Python` ★ 52 | 2025-08-05 |
+| [xtieume/PrinterOne](https://github.com/xtieume/PrinterOne) | A comprehensive TCP network print server with integrated GUI management and system tray support for Windows. | `Python` ★ 53 | 2025-08-05 |
 | [Foyerr/Update-PrinterPortConfig](https://github.com/Foyerr/Update-PrinterPortConfig) | This repository contains Power Shell functions focused on resolving mismatches between printer ports and their actual IP addresses in Windows Servers | ★ 2 | 2023-10-30 |
 | [cityssm/snmp-oid-collector](https://github.com/cityssm/snmp-oid-collector) | Collect OID values from a series of SNMP-enabled servers in a flash! | `TypeScript` ★ 3 | 2026-02-02 |
 | [Yayi-Dev/esc-pos-printer-manager](https://github.com/Yayi-Dev/esc-pos-printer-manager) | A plugin to manage ESC/POS printers via node.js (javascript / typescript) without using zadig (Win USBDriver) | `PHP` ★ 9 | 2024-07-29 |
 | [0x6d69636b/windows_hardening](https://github.com/0x6d69636b/windows_hardening) | Hardening Kitty and Windows Hardening Settings | `PowerShell` ★ 2.6k | 2026-04-10 |
 | [FedRAMP/roadmap](https://github.com/FedRAMP/roadmap) | Fed RAMP's Public High Level Roadmap | `Shell` ★ 26 | 2026-02-02 |
-| [jdx/fnox](https://github.com/jdx/fnox) | encrypted/remote secret manager | `Rust` ★ 1.4k | 2026-04-10 |
-| [viralcode/vib-OS](https://github.com/viralcode/vib-OS) | World's First Vibecoded AI Operating System | `C` ★ 430 | 2026-03-10 |
+| [jdx/fnox](https://github.com/jdx/fnox) | encrypted/remote secret manager | `Rust` ★ 1.5k | 2026-04-18 |
+| [viralcode/vib-OS](https://github.com/viralcode/vib-OS) | World's First Vibecoded AI Operating System | `C` ★ 433 | 2026-03-10 |
 | [sindresorhus/open](https://github.com/sindresorhus/open) | Open stuff like URLs, files, executables. Cross-platform. | `JavaScript` ★ 3.5k | 2025-11-15 |
-| [clusterzx/ts6-manager](https://github.com/clusterzx/ts6-manager) | Web-based management interface for Team Speak servers | `TypeScript` ★ 88 | 2026-03-28 |
-| [SpecterShell/Dumplings](https://github.com/SpecterShell/Dumplings) | Dump remote resources and lint outdated packages | `PowerShell` ★ 44 | 2026-04-12 |
-| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 33.6k | 2026-04-09 |
-| [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | ROS 2 Navigation Framework and System | `C++` ★ 4.1k | 2026-04-09 |
-| [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) | Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (mac OS, Windows, Linux). | `Go` ★ 13.7k | 2026-04-11 |
-| [nushell/nushell](https://github.com/nushell/nushell) | A new type of shell | `Rust` ★ 39k | 2026-04-11 |
-| [mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server) | Go server implementing Model Context Protocol (MCP) for filesystem operations. | `Go` ★ 627 | 2025-11-24 |
-| [SoyITPro/scripts](https://github.com/SoyITPro/scripts) | Scripts para administradores de servidores Windows, Azure, Docker, Linux y más | `PowerShell` ★ 51 | 2026-04-05 |
-| [Gerenios/AADInternals](https://github.com/Gerenios/AADInternals) | AADInternals Power Shell module for administering Azure AD and Office 365 | `PowerShell` ★ 1.6k | 2025-09-30 |
-| [spddl/GoInterruptPolicy](https://github.com/spddl/GoInterruptPolicy) | I just tried to create a better version of the "Interrupt Affinity Policy" and "MSI Mode" Tool | `Go` ★ 449 | 2026-03-27 |
-| [kevinburke/ssh_config](https://github.com/kevinburke/ssh_config) | Go parser for ssh\_config files | `Go` ★ 467 | 2026-04-03 |
-| [dotnet/command-line-api](https://github.com/dotnet/command-line-api) | Command line parsing, invocation, and rendering of terminal output. | `C#` ★ 3.6k | 2026-04-09 |
-| [zabbix/zabbix](https://github.com/zabbix/zabbix) | Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud. | `Go Template` ★ 5.8k | 2026-04-10 |
+| [clusterzx/ts6-manager](https://github.com/clusterzx/ts6-manager) | Web-based management interface for Team Speak servers | `TypeScript` ★ 91 | 2026-03-28 |
+| [SpecterShell/Dumplings](https://github.com/SpecterShell/Dumplings) | Dump remote resources and lint outdated packages | `PowerShell` ★ 44 | 2026-04-18 |
+| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 33.8k | 2026-04-17 |
+| [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | ROS 2 Navigation Framework and System | `C++` ★ 4.2k | 2026-04-16 |
+| [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) | Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (mac OS, Windows, Linux). | `Go` ★ 13.7k | 2026-04-13 |
+| [nushell/nushell](https://github.com/nushell/nushell) | A new type of shell | `Rust` ★ 39.1k | 2026-04-17 |
+| [mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server) | Go server implementing Model Context Protocol (MCP) for filesystem operations. | `Go` ★ 631 | 2025-11-24 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

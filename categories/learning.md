@@ -1,27 +1,21 @@
 # Learning
 
-*17 repositories*
+*11 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | practice made claude perfect | `HTML` ★ 37.2k | 2026-04-11 |
-| [safishamsi/graphify](https://github.com/safishamsi/graphify) | AI coding assistant skill (Claude Code, Codex, Open Code, Cursor, Gemini CLI, Open Claw, Factory Droid, Trae). Turn any folder of code, docs, papers, images, videos, or You Tube links into a querya... | `Python` ★ 22.3k | 2026-04-11 |
+| [hexiecs/talk-normal](https://github.com/hexiecs/talk-normal) | Make any LLM talk like a normal person. A system prompt that removes AI slop. | `Shell` ★ 1.2k | 2026-04-15 |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | practice made claude perfect | `HTML` ★ 46k | 2026-04-17 |
+| [safishamsi/graphify](https://github.com/safishamsi/graphify) | AI coding assistant skill (Claude Code, Codex, Open Code, Cursor, Gemini CLI, Open Claw, Factory Droid, Trae). Turn any folder of code, docs, papers, images, videos, or You Tube links into a querya... | `Python` ★ 29.2k | 2026-04-17 |
 | [sergelib/sitemap-visualizer](https://github.com/sergelib/sitemap-visualizer) | An interactive D3.js visualization tool to explore XML sitemaps as navigable tree and sunburst hierarchies | `JavaScript` ★ 2 | 2026-01-28 |
 | [FurkanGozukara/Stable-Diffusion](https://github.com/FurkanGozukara/Stable-Diffusion) | FLUX, Stable Diffusion, SDXL, SD3, Lo RA, Fine Tuning, Dream Booth, Training, Automatic1111, Forge Web UI, Swarm UI, Deep Fake, TTS, Animation, Text To Video, Tutorials, Guides, Lectures, Courses, ... | `JavaScript` ★ 2.7k | 2026-04-09 |
 | [gradiuscypher/infosec_getting_started](https://github.com/gradiuscypher/infosec_getting_started) | A collection of resources/documentation/links/etc to help people learn about Infosec and break into the field. | `HTML` ★ 611 | 2025-01-11 |
 | [icryo/remove-refusals-with-transformers](https://github.com/icryo/remove-refusals-with-transformers) | Implements harmful/harmless refusal removal using pure HF Transformers | `Python` ★ 22 | 2025-05-08 |
-| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation... | ★ 28.3k | 2026-01-13 |
-| [google-research/timesfm](https://github.com/google-research/timesfm) | Times FM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | `Python` ★ 16.4k | 2026-04-03 |
-| [andrelandgraf/fullstackrecipes](https://github.com/andrelandgraf/fullstackrecipes) | A Shadcn registry and collection of production-ready patterns and step-by-step guides (recipes) for full stack web AI apps | `TypeScript` ★ 11 | 2026-03-30 |
-| [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. | `Python` ★ 342.3k | 2026-03-20 |
-| [jcubic/lips](https://github.com/jcubic/lips) | Scheme based powerful lisp interpreter in Java Script | `JavaScript` ★ 488 | 2026-04-10 |
-| [joweich/chat-miner](https://github.com/joweich/chat-miner) | Parsers and visualizations for chats | `Python` ★ 582 | 2026-03-30 |
-| [ohmjs/ohm](https://github.com/ohmjs/ohm) | A library and language for building parsers, interpreters, compilers, etc. | `JavaScript` ★ 5.5k | 2026-04-06 |
-| [haykgrigo3/TimeCapsuleLLM](https://github.com/haykgrigo3/TimeCapsuleLLM) | A LLM trained only on data from certain time periods to reduce modern bias | `Python` ★ 1.9k | 2026-04-08 |
-| [AgentAlphaAGI/Idea2Paper](https://github.com/AgentAlphaAGI/Idea2Paper) | Idea2Paper Offical Demo | `Python` ★ 1.3k | 2026-03-24 |
-| [smestern/treepilot](https://github.com/smestern/treepilot) | A hacky / vibecoded AI family tree researcher | `Python` ★ 80 | 2026-02-20 |
-| [p-e-w/heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language models | `Python` ★ 19k | 2026-04-11 |
+| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation... | ★ 28.6k | 2026-01-13 |
+| [google-research/timesfm](https://github.com/google-research/timesfm) | Times FM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | `Python` ★ 18k | 2026-04-15 |
+| [andrelandgraf/fullstackrecipes](https://github.com/andrelandgraf/fullstackrecipes) | A Shadcn registry and collection of production-ready patterns and step-by-step guides (recipes) for full stack web AI apps | `TypeScript` ★ 14 | 2026-03-30 |
+| [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. | `Python` ★ 343.2k | 2026-03-20 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
