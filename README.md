@@ -2,22 +2,22 @@
 
 > A curated list of **197** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-04-18
+Last updated: 2026-04-19
 
 ## ⭐ Recently Starred
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere. | `TypeScript` ★ 24.2k | 2026-04-17 |
-| [alibaba/page-agent](https://github.com/alibaba/page-agent) | Java Script in-page GUI agent. Control web interfaces with natural language. | `TypeScript` ★ 17.1k | 2026-04-17 |
-| [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio | `TypeScript` ★ 19.9k | 2026-04-18 |
+| [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere. | `TypeScript` ★ 24.3k | 2026-04-18 |
+| [alibaba/page-agent](https://github.com/alibaba/page-agent) | Java Script in-page GUI agent. Control web interfaces with natural language. | `TypeScript` ★ 17.2k | 2026-04-17 |
+| [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio | `TypeScript` ★ 20.6k | 2026-04-19 |
 | [tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts) | Performant financial charts built with HTML5 canvas | `TypeScript` ★ 15.2k | 2026-04-17 |
-| [Ataraxy-Labs/sem](https://github.com/Ataraxy-Labs/sem) | Semantic version control CLI. Entity-level diff, blame, graph, and impact analysis for code. 26 languages via tree-sitter. | `Rust` ★ 1.8k | 2026-04-17 |
+| [Ataraxy-Labs/sem](https://github.com/Ataraxy-Labs/sem) | Semantic version control CLI. Entity-level diff, blame, graph, and impact analysis for code. 26 languages via tree-sitter. | `Rust` ★ 1.8k | 2026-04-18 |
 | [hexiecs/talk-normal](https://github.com/hexiecs/talk-normal) | Make any LLM talk like a normal person. A system prompt that removes AI slop. | `Shell` ★ 1.2k | 2026-04-15 |
-| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness better at design. | `JavaScript` ★ 20.3k | 2026-04-18 |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness better at design. | `JavaScript` ★ 20.5k | 2026-04-18 |
 | [apireno/DOMShell](https://github.com/apireno/DOMShell) | Agentic Shell | `TypeScript` ★ 31 | 2026-04-14 |
 | [zackham/narrate](https://github.com/zackham/narrate) | Multi-speaker script to audio using local TTS. Excellent quality, zero cost, one command. | `Python` ★ 14 | 2026-04-13 |
-| [facebookresearch/ai4animationpy](https://github.com/facebookresearch/ai4animationpy) | A Python framework for AI-driven character animation using neural networks. | `Python` ★ 896 | 2026-04-17 |
+| [facebookresearch/ai4animationpy](https://github.com/facebookresearch/ai4animationpy) | A Python framework for AI-driven character animation using neural networks. | `Python` ★ 925 | 2026-04-17 |
 
 ## 🏷️ Popular Tags
 

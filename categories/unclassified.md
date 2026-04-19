@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [LG-AI-EXAONE/EXAONE-4.5](https://github.com/LG-AI-EXAONE/EXAONE-4.5) | No description provided | ★ 34 | 2026-04-15 |
-| [Brainicism/bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider) | Proof-of-origin token provider plugin for yt-dlp | `TypeScript` ★ 495 | 2026-04-10 |
-| [pingdotgg/lawn](https://github.com/pingdotgg/lawn) | No description provided | `TypeScript` ★ 567 | 2026-04-07 |
+| [LG-AI-EXAONE/EXAONE-4.5](https://github.com/LG-AI-EXAONE/EXAONE-4.5) | No description provided | ★ 35 | 2026-04-15 |
+| [Brainicism/bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider) | Proof-of-origin token provider plugin for yt-dlp | `TypeScript` ★ 496 | 2026-04-10 |
+| [pingdotgg/lawn](https://github.com/pingdotgg/lawn) | No description provided | `TypeScript` ★ 570 | 2026-04-07 |
 | [OracleBrain/OracleBrain](https://github.com/OracleBrain/OracleBrain) | No description provided | ★ 105 | 2026-02-20 |
 | [longrackslabs/inbox-classifier](https://github.com/longrackslabs/inbox-classifier) | No description provided | `Python` ★ 2 | 2026-03-09 |
 | [daobataotie/CAD-MCP](https://github.com/daobataotie/CAD-MCP) | CAD MCP Server | `Python` ★ 306 | 2025-07-21 |

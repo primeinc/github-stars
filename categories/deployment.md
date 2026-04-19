@@ -9,7 +9,7 @@
 | [cli/gh-extension-precompile](https://github.com/cli/gh-extension-precompile) | Action for publishing binary Git Hub CLI extensions | `Shell` ★ 120 | 2025-10-24 |
 | [ipat8/cmd-printer-management](https://github.com/ipat8/cmd-printer-management) | Manage WSD Printers via CMD scripts | `Batchfile` ★ 2 | 2017-09-06 |
 | [node-config/node-config](https://github.com/node-config/node-config) | Node.js Application Configuration | `JavaScript` ★ 6.4k | 2026-04-03 |
-| [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio) | A lightweight Node.js private proxy registry | `TypeScript` ★ 17.6k | 2026-04-17 |
+| [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio) | A lightweight Node.js private proxy registry | `TypeScript` ★ 17.6k | 2026-04-18 |
 | [PaddlePaddle/PaddleX](https://github.com/PaddlePaddle/PaddleX) | All-in-One Development Tool based on Paddle Paddle | `Python` ★ 6.1k | 2026-04-17 |
 | [cloudfoundry/cloud-service-broker](https://github.com/cloudfoundry/cloud-service-broker) | OSBAPI service broker that uses Terraform to provision and bind services. Derived from https://github.com/Google Cloud Platform/gcp-service-broker | `Go` ★ 84 | 2026-04-17 |
 | [microsoft/PSRule-pipelines](https://github.com/microsoft/PSRule-pipelines) | Validate infrastructure as code (Ia C) and Dev Ops repositories using Azure Pipelines. | `PowerShell` ★ 102 | 2026-04-09 |
