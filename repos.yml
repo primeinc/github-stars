@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-20T04:14:04.573Z'
+  manifest_updated_at: '2026-04-20T04:14:41.100Z'
   total_repos: 97
   generator_version: v1.0.0
   github_user: primeinc
@@ -3359,13 +3359,17 @@ repositories:
       prompt_version: v3
   - repo: aaguiarz/openfga-modeling-mcp
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - authorization
+      - fga
+      - lang:js
     summary: MCP to assist on Open FGA Modeling
     last_synced_sha: 1da040e3657ca6f13ba1286665c987a467f57a3d
     user_starred_at: '2026-04-20T02:51:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -3383,15 +3387,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-20T04:14:40.205Z'
+      prompt_version: v3
   - repo: rajsinghtech/tsflow
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - monitoring
+    tags:
+      - network-visualizer
+      - tailscale
+      - lang:go
     summary: Network flow visualizer for Tailscale - Requires Premium TS plans
     last_synced_sha: a802e612acc58dc85047f96f5c700856ce61fd00
     user_starred_at: '2026-04-19T22:21:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -3412,15 +3424,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-20T04:14:40.205Z'
+      prompt_version: v3
   - repo: tailscale/tailscale
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+      - system-admin
+    tags:
+      - wireguard
+      - vpn
+      - sso
+      - lang:go
     summary: The easiest, most secure way to use Wire Guard and 2FA.
     last_synced_sha: cf76202aa3c4a07423642b8510766d5712ada195
     user_starred_at: '2026-04-19T22:14:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -3446,6 +3468,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-20T04:14:40.205Z'
+      prompt_version: v3
   - repo: auth0/auth0.js
     categories:
       - security
