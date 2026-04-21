@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-21T04:09:22.834Z'
+  manifest_updated_at: '2026-04-21T04:09:52.561Z'
   total_repos: 98
   generator_version: v1.0.0
   github_user: primeinc
@@ -3197,13 +3197,19 @@ repositories:
       prompt_version: v3
   - repo: hunvreus/devpush
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - dev-tools
+    tags:
+      - lang:python
+      - continuous-deployment
+      - open-source
+      - multi-framework
+      - cloud-hosting
     summary: Like Vercel, but open source and for all languages.
     last_synced_sha: d67a99b62b3e2b044f1e0e9b06a3296fe1939fe3
     user_starred_at: '2026-04-21T02:30:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -3234,15 +3240,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-21T04:09:51.733Z'
+      prompt_version: v3
   - repo: ruvnet/RuView
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - embedded
+    tags:
+      - lang:rust
+      - wifi-densepose
+      - monitoring
+      - human-pose-estimation
+      - esp32
     summary: 'π Ru View: Wi Fi Dense Pose turns commodity Wi Fi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.'
     last_synced_sha: 79477c17a9dae35e4ce1570232befecc6eba58d6
     user_starred_at: '2026-04-20T14:38:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -3276,15 +3292,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-21T04:09:51.733Z'
+      prompt_version: v3
   - repo: koodo-reader/koodo-reader
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - lang:js
+      - ebook-manager
+      - sync
+      - epub-reader
+      - cross-platform
     summary: A modern ebook manager and reader with sync and backup capacities for Windows, mac OS, Linux, Android, i OS and Web
     last_synced_sha: 3f00d7e1292f7f93f326731c62d0b616be987141
     user_starred_at: '2026-04-20T14:37:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -3322,15 +3348,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-21T04:09:51.733Z'
+      prompt_version: v3
   - repo: is-a-dev/register
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - cloud
+    tags:
+      - lang:js
+      - subdomain
+      - developer-tools
+      - cloudflare
+      - free-for-dev
     summary: Grab your own sweet-looking '.is-a.dev' subdomain.
     last_synced_sha: 1889d8c543d73f557de49949a513c1ee59157fe7
     user_starred_at: '2026-04-20T14:37:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -3362,15 +3398,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-21T04:09:51.733Z'
+      prompt_version: v3
   - repo: Tyrrrz/DiscordChatExporter
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - apis
+    tags:
+      - lang:csharp
+      - discord
+      - chat-log
+      - archival
+      - export
     summary: Saves Discord chat logs to a file
     last_synced_sha: da4f5ea74ac5ea961d5acea96d4e91e14b8db964
     user_starred_at: '2026-04-20T14:34:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -3397,15 +3443,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-21T04:09:51.733Z'
+      prompt_version: v3
   - repo: koala73/worldmonitor
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - ai-ml
+    tags:
+      - lang:ts
+      - news-aggregation
+      - ai-dashboard
+      - geopolitical-intelligence
+      - osint
     summary: Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
     last_synced_sha: ee93fb475f515212869cda9cd472fb8ab49a07eb
     user_starred_at: '2026-04-20T14:15:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -3434,15 +3490,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-21T04:09:51.733Z'
+      prompt_version: v3
   - repo: EKKOLearnAI/hermes-web-ui
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - lang:ts
+      - dashboard
+      - chatbot-ui
+      - multi-platform
+      - cron-jobs
     summary: Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channel configuration (Telegram, Discord, Slack, Whats App)
     last_synced_sha: 21296a416ba2ca126c13f59cbc64f7fabf1b667a
     user_starred_at: '2026-04-20T14:15:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -3479,15 +3545,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-21T04:09:51.732Z'
+      prompt_version: v3
   - repo: trufflesecurity/trufflehog
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - secret-scanning
+      - lang:go
+      - security-tools
+      - credentials
+      - dynamic-analysis
     summary: Find, verify, and analyze leaked credentials
     last_synced_sha: 4d2a8ef686341ee81a283d1d0fbcb97a5017ef35
     user_starred_at: '2026-04-20T14:15:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -3519,6 +3595,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-21T04:09:51.732Z'
+      prompt_version: v3
   - repo: microsoft/openclaw
     categories:
       - ai-ml
