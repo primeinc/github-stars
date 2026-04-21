@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [facebookresearch/ai4animationpy](https://github.com/facebookresearch/ai4animationpy) | A Python framework for AI-driven character animation using neural networks. | `Python` ★ 975 | 2026-04-19 |
+| [facebookresearch/ai4animationpy](https://github.com/facebookresearch/ai4animationpy) | A Python framework for AI-driven character animation using neural networks. | `Python` ★ 1.1k | 2026-04-19 |
 | [cheapmanga/Skin-pack-Template](https://github.com/cheapmanga/Skin-pack-Template) | Minecraft LCE Skin-pack Template | ★ 7 | 2026-04-13 |
 | [crazyscot/casparcg-client](https://github.com/crazyscot/casparcg-client) | Clients and templates for the Caspar CG broadcast graphics engine | `JavaScript` ★ 17 | 2022-08-18 |
 | [nodecg/nodecg](https://github.com/nodecg/nodecg) | Create broadcast graphics using Node.js and a browser | `TypeScript` ★ 1.1k | 2025-12-08 |

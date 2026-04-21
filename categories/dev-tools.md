@@ -1,27 +1,21 @@
 # Dev-tools
 
-*17 repositories*
+*11 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [alacritty/alacritty](https://github.com/alacritty/alacritty) | A cross-platform, Open GL terminal emulator. | `Rust` ★ 63.5k | 2026-04-14 |
-| [Ataraxy-Labs/sem](https://github.com/Ataraxy-Labs/sem) | Semantic version control CLI. Entity-level diff, blame, graph, and impact analysis for code. 26 languages via tree-sitter. | `Rust` ★ 1.8k | 2026-04-18 |
-| [garrytan/gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA | `TypeScript` ★ 77.7k | 2026-04-20 |
-| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKq FWd Built in Rust using oh-my-codex. | `Rust` ★ 186.4k | 2026-04-17 |
-| [spool-lab/spool](https://github.com/spool-lab/spool) | Search your Claude Code sessions, Codex history, Git Hub stars, and 50+ sources — locally, instantly. Your AI agents can search too. | `TypeScript` ★ 292 | 2026-04-20 |
+| [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) | Self-hosted AI agent orchestration platform: dispatch tasks, run multi-agent workflows, monitor spend, and govern operations from one mission control dashboard. | `TypeScript` ★ 4.2k | 2026-04-20 |
+| [alacritty/alacritty](https://github.com/alacritty/alacritty) | A cross-platform, Open GL terminal emulator. | `Rust` ★ 63.6k | 2026-04-14 |
+| [Ataraxy-Labs/sem](https://github.com/Ataraxy-Labs/sem) | Semantic version control CLI. Entity-level diff, blame, graph, and impact analysis for code. 26 languages via tree-sitter. | `Rust` ★ 1.8k | 2026-04-20 |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA | `TypeScript` ★ 78.8k | 2026-04-21 |
+| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKq FWd Built in Rust using oh-my-codex. | `Rust` ★ 186.8k | 2026-04-21 |
+| [spool-lab/spool](https://github.com/spool-lab/spool) | Search your Claude Code sessions, Codex history, Git Hub stars, and 50+ sources — locally, instantly. Your AI agents can search too. | `TypeScript` ★ 294 | 2026-04-20 |
 | [antfu/vscode-file-nesting-config](https://github.com/antfu/vscode-file-nesting-config) | Config of File Nesting for VS Code | `JavaScript` ★ 3.6k | 2026-04-20 |
 | [garronej/vite-envs](https://github.com/garronej/vite-envs) | ⚙️ Env var in Vite at container startup | `TypeScript` ★ 82 | 2026-04-16 |
-| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ... | `JavaScript` ★ 16.5k | 2026-04-19 |
+| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ... | `JavaScript` ★ 16.6k | 2026-04-20 |
 | [usewaypoint/email-builder-js](https://github.com/usewaypoint/email-builder-js) | A free and open-source block-based email template builder. | `TypeScript` ★ 1.6k | 2026-02-09 |
 | [awesomized/crc-fast-rust](https://github.com/awesomized/crc-fast-rust) | World's fastest generic CRC calculator for all known CRC-16, CRC-32, and CRC-64 variants, as well as bring-your-own custom parameters, using SIMD intrinsics, which can exceed 100Gi B/s on modern sy... | `Rust` ★ 77 | 2025-12-29 |
-| [Yayi-Dev/esc-pos-printer-manager](https://github.com/Yayi-Dev/esc-pos-printer-manager) | A plugin to manage ESC/POS printers via node.js (javascript / typescript) without using zadig (Win USBDriver) | `PHP` ★ 9 | 2024-07-29 |
-| [node-config/node-config](https://github.com/node-config/node-config) | Node.js Application Configuration | `JavaScript` ★ 6.4k | 2026-04-03 |
-| [zumwald/better-vsts-npm-auth](https://github.com/zumwald/better-vsts-npm-auth) | Platform agnostic library and acompanying oauth service enabling developers to easily obtain and use tokens for authorizing NPM feeds in VSTS | `TypeScript` ★ 59 | 2024-07-26 |
-| [changesets/ghcommit](https://github.com/changesets/ghcommit) | Type Script library for directly changing files on Git Hub | `TypeScript` ★ 17 | 2026-01-27 |
-| [microsoft/beachball](https://github.com/microsoft/beachball) | The Sunniest Semantic Version Bumper | `TypeScript` ★ 810 | 2026-04-18 |
-| [changesets/changesets](https://github.com/changesets/changesets) | 🦋 A way to manage your versioning and changelogs with a focus on monorepos | `TypeScript` ★ 11.7k | 2026-04-17 |
-| [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio) | A lightweight Node.js private proxy registry | `TypeScript` ★ 17.6k | 2026-04-19 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

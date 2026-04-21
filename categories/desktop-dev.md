@@ -1,12 +1,14 @@
 # Desktop-dev
 
-*3 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [alacritty/alacritty](https://github.com/alacritty/alacritty) | A cross-platform, Open GL terminal emulator. | `Rust` ★ 63.5k | 2026-04-14 |
+| [microsoft/openclaw](https://github.com/microsoft/openclaw) | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 | `TypeScript` ★ 4 | 2026-04-17 |
+| [AtomicBot-ai/atomic-hermes](https://github.com/AtomicBot-ai/atomic-hermes) | The agent that grows with you | `Python` ★ 6 | 2026-04-18 |
+| [alacritty/alacritty](https://github.com/alacritty/alacritty) | A cross-platform, Open GL terminal emulator. | `Rust` ★ 63.6k | 2026-04-14 |
 | [squidowl/halloy](https://github.com/squidowl/halloy) | IRC application written in Rust | `Rust` ★ 4.1k | 2026-04-19 |
 | [lcromer97/PrinterManager](https://github.com/lcromer97/PrinterManager) | All in one tool to manage printers. Meant to be used with Screen Connect's backstage | `C#` ★ 1 | 2026-03-23 |
 

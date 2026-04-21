@@ -1,11 +1,12 @@
 # Mobile-dev
 
-*2 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [raulvidis/hermes-android](https://github.com/raulvidis/hermes-android) | Android device control for hermes-agent — bridge app + Python toolset | `Python` ★ 61 | 2026-04-11 |
 | [sunshineLixun/ShipFullStack](https://github.com/sunshineLixun/ShipFullStack) | A modern Type Script stack that combines React, Tan Stack Start, Hono, ORPC, Expo, and more. | `TypeScript` ★ 104 | 2025-11-03 |
 | [farzaa/clicky](https://github.com/farzaa/clicky) | No description provided | `Swift` ★ 4.5k | 2026-04-10 |
 

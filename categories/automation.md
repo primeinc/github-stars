@@ -1,24 +1,23 @@
 # Automation
 
-*14 repositories*
+*13 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) | ⚒ Evolutionary self-improvement for Hermes Agent — optimize skills, prompts, and code using DSPy + GEPA | `Python` ★ 2k | 2026-03-29 |
+| [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) | Self-hosted AI agent orchestration platform: dispatch tasks, run multi-agent workflows, monitor spend, and govern operations from one mission control dashboard. | `TypeScript` ★ 4.2k | 2026-04-20 |
 | [daveRendon/azd-deepseek-r1-on-azure-container-apps](https://github.com/daveRendon/azd-deepseek-r1-on-azure-container-apps) | Use Infrastructure-As-Code to deploy Deep Seek-R1 on Azure Container Apps with Serverless GPUs. | `Bicep` ★ 2 | 2025-11-09 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `Python` ★ 102.8k | 2026-04-20 |
-| [alibaba/page-agent](https://github.com/alibaba/page-agent) | Java Script in-page GUI agent. Control web interfaces with natural language. | `TypeScript` ★ 17.2k | 2026-04-17 |
-| [apireno/DOMShell](https://github.com/apireno/DOMShell) | Agentic Shell | `TypeScript` ★ 32 | 2026-04-14 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `Python` ★ 105.9k | 2026-04-21 |
+| [alibaba/page-agent](https://github.com/alibaba/page-agent) | Java Script in-page GUI agent. Control web interfaces with natural language. | `TypeScript` ★ 17.2k | 2026-04-20 |
+| [apireno/DOMShell](https://github.com/apireno/DOMShell) | Agentic Shell | `TypeScript` ★ 32 | 2026-04-20 |
 | [cli/gh-extension-precompile](https://github.com/cli/gh-extension-precompile) | Action for publishing binary Git Hub CLI extensions | `Shell` ★ 120 | 2025-10-24 |
-| [garrytan/gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA | `TypeScript` ★ 77.7k | 2026-04-20 |
-| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKq FWd Built in Rust using oh-my-codex. | `Rust` ★ 186.4k | 2026-04-17 |
-| [daggerhashimoto/openclaw-nerve](https://github.com/daggerhashimoto/openclaw-nerve) | Real-time web cockpit for Open Claw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility. | `TypeScript` ★ 742 | 2026-04-18 |
-| [swarmclawai/swarmclaw](https://github.com/swarmclawai/swarmclaw) | Build and run autonomous AI agents with Open Claw, multiple model providers, orchestration, delegation, memory, skills, schedules, and chat connectors. | `TypeScript` ★ 373 | 2026-04-17 |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA | `TypeScript` ★ 78.8k | 2026-04-21 |
+| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKq FWd Built in Rust using oh-my-codex. | `Rust` ★ 186.8k | 2026-04-21 |
+| [daggerhashimoto/openclaw-nerve](https://github.com/daggerhashimoto/openclaw-nerve) | Real-time web cockpit for Open Claw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility. | `TypeScript` ★ 745 | 2026-04-20 |
+| [swarmclawai/swarmclaw](https://github.com/swarmclawai/swarmclaw) | Build and run autonomous AI agents with Open Claw, multiple model providers, orchestration, delegation, memory, skills, schedules, and chat connectors. | `TypeScript` ★ 375 | 2026-04-20 |
 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | `Rust` ★ 25.1k | 2026-04-20 |
 | [5a9awneh/printer-address-book-converter](https://github.com/5a9awneh/printer-address-book-converter) | Universal printer address book converter with intelligent format detection. Supports multifunction printers using Canon, Sharp, Xerox, and Develop/Konica CSV formats. Features fuzzy deduplication, ... | `PowerShell` ★ 1 | 2026-01-29 |
-| [ChristopherHX/github-act-runner](https://github.com/ChristopherHX/github-act-runner) | act as self-hosted runner | `Go` ★ 376 | 2026-03-21 |
-| [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | An unofficial Local Git Hub Actions and Azure Pipelines Emulator | `C#` ★ 233 | 2026-03-23 |
-| [changesets/ghcommit](https://github.com/changesets/ghcommit) | Type Script library for directly changing files on Git Hub | `TypeScript` ★ 17 | 2026-01-27 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

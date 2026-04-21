@@ -1,11 +1,12 @@
 # Tag: azure
 
-*11 repositories*
+*12 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [adamfowlerit/msportals.io](https://github.com/adamfowlerit/msportals.io) | MSPortals.io - Microsoft Administrator Sites, Training, and Licensing Resources | `HTML` ★ 322 | 2026-04-17 |
 | [Azure-Samples/dotNET-Frontend-AB-Testing-on-Azure-Container-Apps](https://github.com/Azure-Samples/dotNET-Frontend-AB-Testing-on-Azure-Container-Apps) | Demonstration of how ASP.NET Core developers can use Azure App Configuration's Feature Flags capabilities with Azure Container App revisions to A/B test front end apps. | `Bicep` ★ 25 | 2023-07-06 |
 | [Azure-Samples/dream-team](https://github.com/Azure-Samples/dream-team) | This repo helps you to build a team of AI agents with Autogen | `TypeScript` ★ 234 | 2026-04-15 |
 | [Azure-Samples/apptemplate-wordpress-on-aca](https://github.com/Azure-Samples/apptemplate-wordpress-on-aca) | Template to deploy Wordpress on Azure Container apps | `Bicep` ★ 35 | 2025-01-11 |

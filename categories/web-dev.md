@@ -1,17 +1,19 @@
 # Web-dev
 
-*13 repositories*
+*15 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Thirteen editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop. | `HTML` ★ 998 | 2026-04-19 |
+| [shadowoff09/pathfinder](https://github.com/shadowoff09/pathfinder) | A modern, interactive mapping application built with Next.js 15, Mapbox GL, and Type Script. | `TypeScript` ★ 147 | 2026-02-12 |
 | [auth0/auth0.js](https://github.com/auth0/auth0.js) | Auth0 headless browser sdk | `JavaScript` ★ 1k | 2026-04-15 |
 | [Azure-Samples/apptemplate-wordpress-on-aca](https://github.com/Azure-Samples/apptemplate-wordpress-on-aca) | Template to deploy Wordpress on Azure Container apps | `Bicep` ★ 35 | 2025-01-11 |
 | [sunshineLixun/ShipFullStack](https://github.com/sunshineLixun/ShipFullStack) | A modern Type Script stack that combines React, Tan Stack Start, Hono, ORPC, Expo, and more. | `TypeScript` ★ 104 | 2025-11-03 |
-| [alibaba/page-agent](https://github.com/alibaba/page-agent) | Java Script in-page GUI agent. Control web interfaces with natural language. | `TypeScript` ★ 17.2k | 2026-04-17 |
-| [tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts) | Performant financial charts built with HTML5 canvas | `TypeScript` ★ 15.3k | 2026-04-17 |
-| [apireno/DOMShell](https://github.com/apireno/DOMShell) | Agentic Shell | `TypeScript` ★ 32 | 2026-04-14 |
+| [alibaba/page-agent](https://github.com/alibaba/page-agent) | Java Script in-page GUI agent. Control web interfaces with natural language. | `TypeScript` ★ 17.2k | 2026-04-20 |
+| [tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts) | Performant financial charts built with HTML5 canvas | `TypeScript` ★ 15.3k | 2026-04-20 |
+| [apireno/DOMShell](https://github.com/apireno/DOMShell) | Agentic Shell | `TypeScript` ★ 32 | 2026-04-20 |
 | [honojs/hono](https://github.com/honojs/hono) | Web framework built on Web Standards | `TypeScript` ★ 30k | 2026-04-15 |
 | [albanobattistella/EinVault](https://github.com/albanobattistella/EinVault) | Self-hosted animal companion health and care tracker for homelabs. Built with Svelte Kit and SQLite. | `TypeScript` ★ 1 | 2026-04-07 |
 | [TuomoKu/SPX-GC](https://github.com/TuomoKu/SPX-GC) | SPX is a graphics control client for live video productions and live streams using Caspar CG, OBS, v Mix, or similar software. | `JavaScript` ★ 409 | 2026-03-09 |
