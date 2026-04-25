@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-25T04:07:07.206Z'
+  manifest_updated_at: '2026-04-25T04:07:39.134Z'
   total_repos: 298
   generator_version: v1.0.0
   github_user: primeinc
@@ -8376,13 +8376,17 @@ repositories:
     framework: null
   - repo: jjordanbaird/EmailVectorDB
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - llm
+      - vectordb
+      - lang:python
     summary: This project demonstrates how to parse emails, process them using Open AI's GPT-3.5, and load the data into a Weaviate vector database for enhanced search capabilities. Utilizing few-shot prompts a...
     last_synced_sha: 6e1b2248aa3059858b3d458f56e1c2e160b19ae5
     user_starred_at: '2026-02-23T19:59:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8404,15 +8408,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.251Z'
+      prompt_version: v3
   - repo: SpecterShell/Dumplings
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - resource-management
+      - lang:powershell
     summary: Dump remote resources and lint outdated packages
     last_synced_sha: 3fffd5a86385e5b96d48ae77c2b1b65960aed523
     user_starred_at: '2026-02-23T11:32:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -8430,15 +8441,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.251Z'
+      prompt_version: v3
   - repo: open-mercato/open-mercato
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - productivity
+    tags:
+      - crm
+      - erp
+      - lang:ts
     summary: AI‑supportive CRM / ERP / Business application framework — built to power R&D, operations, and growth. It’s modular, extensible, and designed for teams that want strong defaults with room to custom...
     last_synced_sha: bc43dcc05a222a645026a12030491ecaa1838955
     user_starred_at: '2026-02-22T10:18:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8462,15 +8481,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.251Z'
+      prompt_version: v3
   - repo: clash-verge-rev/clash-verge-rev
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - networking
+    tags:
+      - proxy-client
+      - tauri
+      - lang:ts
     summary: A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience
     last_synced_sha: 58827220312712c689a52063c1a8940db6847f85
     user_starred_at: '2026-02-22T10:17:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8498,15 +8525,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.251Z'
+      prompt_version: v3
   - repo: storytold/artcraft
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - game-dev
+    tags:
+      - 3d-graphics
+      - ai-video
+      - lang:rust
     summary: Art Craft is an intentional crafting engine for artists, designers, and filmmakers
     last_synced_sha: d37a732d6000a1bb89fc2a869461053c31734756
     user_starred_at: '2026-02-22T10:16:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -8531,15 +8566,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.251Z'
+      prompt_version: v3
   - repo: zed-industries/zed
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - desktop-dev
+    tags:
+      - code-editor
+      - multiplayer
+      - lang:rust
     summary: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
     last_synced_sha: e3d1876c06b0e244230b4b5883e65e83ca1370e2
     user_starred_at: '2026-02-22T10:15:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -8563,15 +8606,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.251Z'
+      prompt_version: v3
   - repo: firecracker-microvm/firecracker
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+    tags:
+      - microvm
+      - virtualization
+      - lang:rust
     summary: Secure and fast micro VMs for serverless computing.
     last_synced_sha: 37d2b74b76a2fbba102cf02e46a082641200671a
     user_starred_at: '2026-02-22T10:15:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -8600,15 +8651,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.251Z'
+      prompt_version: v3
   - repo: google-research/timesfm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - time-series
+      - foundation-model
+      - lang:python
     summary: Times FM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
     last_synced_sha: d720daa6786539c2566a44464fbda1019c0a82c0
     user_starred_at: '2026-02-22T10:14:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -8628,15 +8687,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.251Z'
+      prompt_version: v3
   - repo: roboflow/trackers
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - multi-object-tracking
+      - mot17
+      - lang:python
     summary: Trackers gives you clean, modular re-implementations of leading multi-object tracking algorithms released under the permissive Apache 2.0 license. You combine them with any detection model you alre...
     last_synced_sha: a086310edc3f2dc36fa4d3e15e06060fb24dd77a
     user_starred_at: '2026-02-22T10:14:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8666,15 +8733,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.250Z'
+      prompt_version: v3
   - repo: Crosstalk-Solutions/unifi-toolkit
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - network-management
+      - tools
+      - lang:python
     summary: A suite of tools for Uni Fi network management
     last_synced_sha: 55375b365adfaebf0d779a187c05e299a27ab0e0
     user_starred_at: '2026-02-22T10:13:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -8692,15 +8767,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.250Z'
+      prompt_version: v3
   - repo: projectdiscovery/nuclei-templates
     categories:
-      - unclassified
-    tags: []
+      - security
+      - testing
+    tags:
+      - vulnerability-detection
+      - nuclei-templates
+      - lang:js
     summary: Community curated list of templates for the nuclei engine to find security vulnerabilities.
     last_synced_sha: 088841a094720014cebe1161e2578c6a7d9128da
     user_starred_at: '2026-02-22T10:12:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -8730,15 +8813,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.250Z'
+      prompt_version: v3
   - repo: rollup/rollup
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - module-bundler
+      - lang:js
     summary: Next-generation ES module bundler
     last_synced_sha: a6be82b8abd747458afdc7484319f7b5deb92535
     user_starred_at: '2026-02-22T10:12:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -8758,15 +8848,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.250Z'
+      prompt_version: v3
   - repo: Azgaar/Fantasy-Map-Generator
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - game-dev
+    tags:
+      - map-generation
+      - cartography
+      - fantasy-maps
+      - lang:js
     summary: Web application generating interactive and highly customizable maps
     last_synced_sha: faf19e98f77e81687f66bc40edfd8a69112a627e
     user_starred_at: '2026-02-22T10:12:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -8794,15 +8893,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.250Z'
+      prompt_version: v3
   - repo: ToolJet/ToolJet
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - frameworks
+    tags:
+      - internal-tools
+      - low-code
+      - lang:js
+      - react
     summary: Tool Jet is the open-source foundation of Tool Jet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀
     last_synced_sha: 8ce1dcca884601405c26f4e049cda27e68dfb5d0
     user_starred_at: '2026-02-22T10:11:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -8840,16 +8948,24 @@ repositories:
         published_at: '2026-04-24T06:22:19Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.250Z'
+      prompt_version: v3
   - repo: projectdiscovery/nuclei
     categories:
-      - unclassified
-    tags: []
+      - security
+      - testing
+    tags:
+      - vulnerability-scanner
+      - nuclei-engine
+      - lang:go
     summary: Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the ...
     last_synced_sha: 5450b03a99a998232d3cf3ed311615860db26950
     user_starred_at: '2026-02-22T10:11:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -8880,6 +8996,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:07:38.250Z'
+      prompt_version: v3
   - repo: ros-navigation/navigation2
     categories:
       - automation
