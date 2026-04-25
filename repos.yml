@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-25T04:11:52.531Z'
+  manifest_updated_at: '2026-04-25T04:12:18.721Z'
   total_repos: 298
   generator_version: v1.0.0
   github_user: primeinc
@@ -4225,13 +4225,17 @@ repositories:
       prompt_version: v3
   - repo: Azure/aaz-dev-tools
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cloud
+    tags:
+      - cli-tools
+      - azure
+      - lang:python
     summary: Atomic Azure CLI Dev Tools
     last_synced_sha: 0d6ed23269f38f89aa381e58797f895a47fe543c
     user_starred_at: '2026-04-24T15:59:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -4251,15 +4255,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:12:17.866Z'
+      prompt_version: v3
   - repo: agentskills/agentskills
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - specification
+      - agent-skills
+      - lang:python
     summary: Specification and documentation for Agent Skills
     last_synced_sha: 2d3e01f590f68bee2cb76a3200823e93b2cc9eaa
     user_starred_at: '2026-04-24T09:54:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4278,15 +4290,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:12:17.866Z'
+      prompt_version: v3
   - repo: zammad/zammad
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+      - frameworks
+    tags:
+      - helpdesk
+      - customer-support
+      - ticketing-system
+      - lang:ruby
     summary: Zammad is a web based open source helpdesk/customer support system.
     last_synced_sha: 2aa2ce682ec6fda2cb5b38540672438904613c13
     user_starred_at: '2026-04-24T09:05:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -4317,16 +4339,22 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:12:17.866Z'
+      prompt_version: v3
   - repo: KGSpin/kgspin-demo-config
     categories:
+      - documentation
       - unclassified
-    tags: []
+    tags:
+      - reference-config
     summary: KGSpin — reference customer instance config (Layer 2 per ADR-003)
     last_synced_sha: 7a2ed0179de748708b67f2ef013a09e716546c21
     user_starred_at: '2026-04-24T09:02:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -4344,15 +4372,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:12:17.866Z'
+      prompt_version: v3
   - repo: KGSpin/kgspin-demo-app
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+    tags:
+      - reference-app
+      - lang:python
     summary: KGSpin — reference customer application (Layer 3 per ADR-003)
     last_synced_sha: 12f5e20b0e1a56cc4c88656eed0dc15aee3c94ca
     user_starred_at: '2026-04-24T09:01:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -4370,6 +4405,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:12:17.866Z'
+      prompt_version: v3
   - repo: r0adkll/upload-google-play
     categories:
       - automation
