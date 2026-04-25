@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-25T04:10:50.788Z'
+  manifest_updated_at: '2026-04-25T04:11:23.406Z'
   total_repos: 298
   generator_version: v1.0.0
   github_user: primeinc
@@ -4842,13 +4842,18 @@ repositories:
     framework: null
   - repo: microsoft/Docker-Provider
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - containers
+    tags:
+      - kubernetes
+      - azure
+      - metrics
+      - lang:ruby
     summary: Azure Monitor for Containers
     last_synced_sha: 59a3b42786f5d9140e82baa09ef643acdd458ed4
     user_starred_at: '2026-04-23T03:20:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -4878,15 +4883,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.567Z'
+      prompt_version: v3
   - repo: microsoft/clarity
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - web-dev
+    tags:
+      - analytics
+      - heatmap
+      - dom-mutations
+      - lang:ts
     summary: A behavioral analytics library that uses dom mutations and user interactions to generate aggregated insights.
     last_synced_sha: bd015baf2f82f1668d2dd7cda980af6b71867996
     user_starred_at: '2026-04-23T03:20:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4907,15 +4921,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.567Z'
+      prompt_version: v3
   - repo: microsoft/rnx-kit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - mobile-dev
+    tags:
+      - react-native
+      - monorepo
+      - cli
+      - lang:ts
     summary: Modern, scalable tools. Exceptional developer experience.
     last_synced_sha: ced7139248b301edc3f710e0d943fb3873e9fca6
     user_starred_at: '2026-04-23T03:19:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4953,15 +4976,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.567Z'
+      prompt_version: v3
   - repo: microsoft/TypeAgent
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - personal-agent
+      - language-models
+      - lang:ts
     summary: Sample code that explores an architecture for using language models to build a personal agent that can work with application agents.
     last_synced_sha: b47cf414c7ae9fbc81858788daddad010f09f710
     user_starred_at: '2026-04-23T03:19:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -4979,15 +5010,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.567Z'
+      prompt_version: v3
   - repo: microsoft/tyger
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - system-admin
+    tags:
+      - cloud
+      - signal-processing
+      - lang:go
     summary: Remote signal processing.
     last_synced_sha: b16c494a5698251e12250a5c99e12c3290555c30
     user_starred_at: '2026-04-23T03:16:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5009,15 +5048,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.567Z'
+      prompt_version: v3
   - repo: microsoft/Sandi
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - reputation-system
+      - privacy
+      - lang:rust
     summary: This is a Rust implementation of the Sandi privacy-preserving reputation system described in https://arxiv.org/abs/2401.16759
     last_synced_sha: 863fca331daf3725b5bfea374124b87cc72816f0
     user_starred_at: '2026-04-23T03:14:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -5035,15 +5082,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.567Z'
+      prompt_version: v3
   - repo: microsoft/regorus
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - opa
+      - policy-as-code
+      - lang:rust
     summary: Regorus - A fast, lightweight Rego (OPA policy language) interpreter written in Rust.
     last_synced_sha: ad82227ddb440d38f10b429cefb6bf0f1e5fc3a9
     user_starred_at: '2026-04-23T03:12:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -5078,15 +5133,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.567Z'
+      prompt_version: v3
   - repo: microsoft/tgrep
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - grep
+      - regex
+      - lang:rust
     summary: Trigram-indexed grep with a client/server architecture for fast regex search in large codebases locally
     last_synced_sha: 0f9b3f4cfba782823120f69310ac074cf5b07596
     user_starred_at: '2026-04-23T03:09:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -5106,15 +5169,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.567Z'
+      prompt_version: v3
   - repo: microsoft/sql-server-samples
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - learning
+    tags:
+      - sql
+      - data
+      - microsoft
     summary: Azure Data SQL Samples - Official Microsoft Git Hub Repository containing code samples for SQL Server, Azure SQL, Azure Synapse, and Azure SQL Edge
     last_synced_sha: b1ff6e697b670a1a840145c19484e4e5299adc7a
     user_starred_at: '2026-04-23T03:07:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -5134,15 +5205,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.567Z'
+      prompt_version: v3
   - repo: fluent/fluent-bit
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+    tags:
+      - logging
+      - data-collector
+      - stream-processing
+      - lang:c
     summary: Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows
     last_synced_sha: 29deec9e72a5e1ccc9996a58481bc7ba4d60353d
     user_starred_at: '2026-04-23T02:45:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -5176,15 +5256,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.564Z'
+      prompt_version: v3
   - repo: ymtdzzz/otel-tui
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+    tags:
+      - opentelemetry
+      - tui
+      - lang:go
     summary: A terminal Open Telemetry viewer inspired by otel-desktop-viewer
     last_synced_sha: 4a09691a6ffd3b005065d6d4ece01fb4a2a807d1
     user_starred_at: '2026-04-23T02:44:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5206,15 +5294,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.564Z'
+      prompt_version: v3
   - repo: dash0hq/otelbin
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - productivity
+    tags:
+      - opentelemetry
+      - observability
+      - metrics
+      - lang:ts
     summary: Web-based tool to facilitate Open Telemetry collector configuration editing and verification
     last_synced_sha: 9190360f878554706a91b50605834719e833fdfc
     user_starred_at: '2026-04-23T02:38:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5241,15 +5338,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.564Z'
+      prompt_version: v3
   - repo: open-telemetry/opentelemetry-js
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - apis
+    tags:
+      - telemetry
+      - distributed-tracing
+      - metrics
+      - lang:ts
     summary: Open Telemetry Java Script Client
     last_synced_sha: 4c0f3f1b911c4740a085b6c66d267bb74826b475
     user_starred_at: '2026-04-23T01:56:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5274,15 +5380,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.564Z'
+      prompt_version: v3
   - repo: opral/paraglide-js
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+    tags:
+      - i18n
+      - react
+      - svelte
+      - lang:ts
     summary: Compiler-based i18n library that emits tree-shakable translations, leading to up to 70% smaller bundle sizes.
     last_synced_sha: ce536a06e0613157ac1c3d89c047c761e6aa1401
     user_starred_at: '2026-04-23T00:17:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5307,15 +5422,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.564Z'
+      prompt_version: v3
   - repo: opral/inlang
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - i18n
+      - localization
+      - globalization
+      - lang:ts
     summary: open file format for localizing software (i18n)
     last_synced_sha: 6e92cb4ad16560eeaf1c36e387d7c9d98993ff69
     user_starred_at: '2026-04-23T00:17:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5338,6 +5462,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:22.564Z'
+      prompt_version: v3
   - repo: OWASP/wstg
     categories:
       - documentation
