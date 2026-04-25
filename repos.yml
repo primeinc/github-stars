@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-25T04:08:44.941Z'
+  manifest_updated_at: '2026-04-25T04:09:16.406Z'
   total_repos: 298
   generator_version: v1.0.0
   github_user: primeinc
@@ -6888,13 +6888,18 @@ repositories:
     framework: null
   - repo: zotero/zotero
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - research-tools
+      - citation-management
+      - organizing
+      - lang:js
     summary: Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.
     last_synced_sha: 6b42f9f9c0f2bbfd87653d3c4632f3344e81434a
     user_starred_at: '2026-03-12T07:09:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -6912,15 +6917,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.467Z'
+      prompt_version: v3
   - repo: jsegov/autoresearch-win-rtx
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - research
+      - gpu-training
+      - nanochat
+      - lang:python
     summary: AI agents running research on single-GPU nanochat training automatically
     last_synced_sha: a4123c6e5c6287f90be04026642ba20b94e424df
     user_starred_at: '2026-03-10T05:50:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -6939,15 +6953,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.467Z'
+      prompt_version: v3
   - repo: karpathy/autoresearch
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - research
+      - gpu-training
+      - nanochat
+      - lang:python
     summary: AI agents running research on single-GPU nanochat training automatically
     last_synced_sha: 228791fb499afffb54b46200aca536f79142f117
     user_starred_at: '2026-03-10T05:47:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -6965,15 +6988,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.467Z'
+      prompt_version: v3
   - repo: cloudfoundry/cloud-service-broker
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - system-admin
+    tags:
+      - osbapi
+      - terraform
+      - service-broker
+      - cloud-foundry
+      - lang:go
     summary: OSBAPI service broker that uses Terraform to provision and bind services. Derived from https://github.com/Google Cloud Platform/gcp-service-broker
     last_synced_sha: e9949b31fc02f751b762f5b909ea05b98c3f0ce5
     user_starred_at: '2026-03-10T00:21:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -7002,15 +7035,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.467Z'
+      prompt_version: v3
   - repo: FedRAMP/roadmap
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - system-admin
+    tags:
+      - roadmap
+      - federal-compliance
+      - lang:shell
     summary: Fed RAMP's Public High Level Roadmap
     last_synced_sha: 6a10f4be8e99b841538bd43a6a44ec43f742975e
     user_starred_at: '2026-03-09T23:58:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -7028,15 +7069,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.467Z'
+      prompt_version: v3
   - repo: jdx/fnox
     categories:
-      - unclassified
-    tags: []
+      - security
+      - embedded
+    tags:
+      - secret-management
+      - encryption
+      - lang:rust
     summary: encrypted/remote secret manager
     last_synced_sha: a473d04aa0b3d583ed87cd1aba0f537669daf5dd
     user_starred_at: '2026-03-09T20:38:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -7056,15 +7105,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.467Z'
+      prompt_version: v3
   - repo: HKUDS/CLI-Anything
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - cli-tools
+      - software-agents
+      - lang:python
     summary: '"CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/'
     last_synced_sha: 47540664f834027f336ebe0d56b28d3ca1c6711b
     user_starred_at: '2026-03-09T20:22:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -7084,15 +7141,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.467Z'
+      prompt_version: v3
   - repo: InsForge/InsForge
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - ai-agents
+      - fullstack-development
+      - nextjs
+      - lang:ts
     summary: Give agents everything they need to ship fullstack apps. The backend built for agentic development.
     last_synced_sha: 56bec8807b55ffe75c682ed08a5e5fa09ef48ea1
     user_starred_at: '2026-03-09T20:21:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7124,16 +7190,24 @@ repositories:
         published_at: '2026-04-21T04:52:35Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.467Z'
+      prompt_version: v3
   - repo: viralcode/vib-OS
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - system-admin
+    tags:
+      - ai-os
+      - operating-system
+      - lang:c
     summary: World's First Vibecoded AI Operating System
     last_synced_sha: 73b64299bf6e591e738c58c9d1845f0babdd6f58
     user_starred_at: '2026-03-09T20:19:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -7153,15 +7227,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.467Z'
+      prompt_version: v3
   - repo: FurkanGozukara/Stable-Diffusion
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - stable-diffusion
+      - text-to-video
+      - dreambooth
+      - lang:js
     summary: FLUX, Stable Diffusion, SDXL, SD3, Lo RA, Fine Tuning, Dream Booth, Training, Automatic1111, Forge Web UI, Swarm UI, Deep Fake, TTS, Animation, Text To Video, Tutorials, Guides, Lectures, Courses, ...
     last_synced_sha: f11f5feea31cba1f65c0d946cf10f3e0fb428e21
     user_starred_at: '2026-03-09T11:14:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -7199,15 +7282,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.467Z'
+      prompt_version: v3
   - repo: kaito-tokyo/live-backgroundremoval-lite
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - automation
+    tags:
+      - background-removal
+      - low-latency
+      - obs-studio
+      - lang:c
     summary: A gaming-first, high-performance, and crash-resilient background removal for OBS Studio
     last_synced_sha: a748da98f7bf5be0d6c26b8a7d22d097be3af767
     user_starred_at: '2026-03-09T06:39:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -7236,15 +7328,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.464Z'
+      prompt_version: v3
   - repo: shihan84/obs-profile-generator
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - obs-studio
+      - profile-generator
+      - lang:ts
     summary: A comprehensive, self-hosted OBS Studio profile generator that works across Windows, Linux, and mac OS. Create custom OBS Studio profiles with an intuitive web interface, preset templates, and cros...
     last_synced_sha: c53116d5974304dd5cc7259113c233ae18024f06
     user_starred_at: '2026-03-09T06:37:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7266,15 +7366,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.464Z'
+      prompt_version: v3
   - repo: areeba0/Image-Segmentation-with-Lazy-Snapping-and-K-Means-Clustering
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - learning
+    tags:
+      - image-segmentation
+      - k-means-clustering
+      - matplotlib
+      - lang:jupyter-notebook
     summary: This Jupyter notebook demonstrates image segmentation using Lazy Snapping and K-Means Clustering. It showcases how these algorithms can partition an image into segments based on pixel intensity and...
     last_synced_sha: f1b4fb3dab8dd259b8f571f6ee859d9401a21af0
     user_starred_at: '2026-03-09T05:23:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -7306,15 +7415,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.464Z'
+      prompt_version: v3
   - repo: microsoft/vscode-extension-samples
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - learning
+    tags:
+      - vscode
+      - lang:ts
     summary: Sample code illustrating the VS Code extension API.
     last_synced_sha: 61fda64ede073136f3716f69b067d212ef0893e1
     user_starred_at: '2026-03-08T16:28:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -7332,15 +7448,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.464Z'
+      prompt_version: v3
   - repo: pyupio/safety
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - security-vulnerability
+      - vulnerability-scanners
+      - dependency-management
+      - lang:python
     summary: Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected.
     last_synced_sha: 5049dbf325e5de0c43f731b1670e3815029aac6a
     user_starred_at: '2026-03-07T04:09:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -7371,6 +7496,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:09:15.463Z'
+      prompt_version: v3
   - repo: postgres-ai/database-lab-engine
     categories:
       - databases
