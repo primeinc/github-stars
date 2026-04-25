@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-25T04:08:14.209Z'
+  manifest_updated_at: '2026-04-25T04:08:44.941Z'
   total_repos: 298
   generator_version: v1.0.0
   github_user: primeinc
@@ -7373,13 +7373,19 @@ repositories:
     framework: null
   - repo: postgres-ai/database-lab-engine
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - testing
+    tags:
+      - lang:go
+      - database-branching
+      - postgresql
+      - ci-cd
+      - testing-tools
     summary: DBLab enables 🖖 database branching and ⚡️ thin cloning for any Postgres database and empowers DB testing in CI/CD. This optimizes database-related costs while improving time-to-market and software...
     last_synced_sha: bd64b06c200c10b17f9e75f1f109918f7a39b206
     user_starred_at: '2026-03-07T04:08:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -7415,15 +7421,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: go-gitea/gitea
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - deployment
+    tags:
+      - lang:go
+      - git-management
+      - ci-cd
+      - team-collaboration
+      - self-hosted
     summary: Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
     last_synced_sha: 683f8c0014f03c7fe94c0d3b36d77b7fc3c2eac9
     user_starred_at: '2026-03-07T04:03:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -7463,15 +7479,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: sindresorhus/open
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - lang:js
+      - cross-platform
+      - url-management
+      - file-execution
+      - open-utility
     summary: Open stuff like URLs, files, executables. Cross-platform.
     last_synced_sha: 88153308461c32974b146f29446837ee290f605b
     user_starred_at: '2026-03-07T01:38:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -7491,15 +7517,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: QwenLM/Qwen3-TTS
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - lang:python
+      - speech-synthesis
+      - streaming
+      - voice-design
+      - ai
     summary: Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice...
     last_synced_sha: 022e286b98fbec7e1e916cb940cdf532cd9f488e
     user_starred_at: '2026-03-06T18:35:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -7517,15 +7553,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: isaiahbjork/expo-kokoro-onnx
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - mobile-dev
+    tags:
+      - expo
+      - kokoro-tts
+      - lang:ts
+      - onnx-runtime
+      - ai
     summary: Run Kokoro TTS locally on device using Expo & ONNX Runtime
     last_synced_sha: 8a9ecb17d063675460d9fbaa9afc9f67de53e37e
     user_starred_at: '2026-03-06T18:32:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7551,15 +7597,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: readest/readest
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - mobile-dev
+    tags:
+      - ebook-reader
+      - nextjs
+      - lang:ts
+      - cross-platform
+      - ui-design
     summary: Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience.
     last_synced_sha: 528a13e36aaba55b03ccf4b1039c5d8e91060f11
     user_starred_at: '2026-03-06T18:30:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7593,16 +7649,26 @@ repositories:
         published_at: '2026-04-13T10:56:07Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: babysor/MockingBird
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:python
+      - voice-cloning
+      - deep-learning
+      - speech-synthesis
+      - real-time
     summary: 🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time
     last_synced_sha: 28dc5e14f12d7c754612af2fde8e78a4b03f8616
     user_starred_at: '2026-03-06T18:30:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -7628,15 +7694,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: gradiuscypher/infosec_getting_started
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - infosec
+      - lang:html
+      - learning
+      - resources
+      - certifications
     summary: A collection of resources/documentation/links/etc to help people learn about Infosec and break into the field.
     last_synced_sha: 8dacaf2ff0ca392bd0ec829c1b4ca2887f183a13
     user_starred_at: '2026-03-06T18:29:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -7659,15 +7735,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: abus-aikorea/voice-pro
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - gradio
+      - lang:python
+      - speech-recognition
+      - text-to-speech
+      - transcription
     summary: Gradio Web UI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, Cosy Voice), with Whisper audio processing, You Tube download, Demucs vocal...
     last_synced_sha: b242c3ff9cedcff27a63401ad6ee522b51f789d7
     user_starred_at: '2026-03-06T18:28:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -7706,15 +7792,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: rtk-ai/vox
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - lang:rust
+      - speech-synthesis
+      - speech-to-text
+      - audio-processing
+      - real-time
     summary: A universal AI toolkit for high-performance Speech-to-Text (STT) and Text-to-Speech (TTS) processing, designed for low-latency and easy model integration.
     last_synced_sha: 28b040da3a99770c671fa856a4681a21d6c6bdde
     user_starred_at: '2026-03-06T18:18:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -7741,15 +7837,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: Wells-the-Doctor/leaxer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - image-processing
+      - phoenix
+      - lang:elixir
+      - machine-learning
+      - desktop-app
     summary: 🌟 Build and deploy local AI models with Leaxer for real-time interaction, streamlined document generation, and versatile visual processing capabilities.
     last_synced_sha: f02b96a218252f7b1ae16be16f9beddfeb697e25
     user_starred_at: '2026-03-06T18:18:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Elixir
       topics:
@@ -7785,15 +7891,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: Ak-sys-sh/qwen3-tts-apple-silicon
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - cloud
+    tags:
+      - local-ai
+      - lang:python
+      - apple-silicon
+      - voice-cloning
+      - offline-ai
     summary: 🎤 Run Qwen3-TTS locally on Apple Silicon for offline AI text-to-speech, offering voice cloning and customization features without cloud reliance.
     last_synced_sha: 1ba089cec52c19d8b2624f151bb61f58d692e2e7
     user_starred_at: '2026-03-06T18:18:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -7831,15 +7947,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: talin190/Qwen3-TTS-Daggr-UI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - gradio
+      - lang:python
+      - speech-synthesis
+      - audio-processing
+      - voice-cloning
     summary: 🎤 Create dynamic voice experiences with Qwen3-TTS-Daggr-UI, a Gradio app for voice design, cloning, and speech recognition across multiple languages.
     last_synced_sha: a0790f483147d943d845de04c0e8dcc62e3f7973
     user_starred_at: '2026-03-06T18:17:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -7873,15 +7999,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: lukinhas-programando/ace-step-studio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - local-ai
+      - lang:ts
+      - text-to-music
+      - speech-synthesis
+      - offline-ai
     summary: 🎵 Create and manage local-first AI-powered music with a fast, self-hosted studio featuring integrated generation, playback, and asset storage.
     last_synced_sha: 081476e9730409279e7f6d09c2015c9eba804b9d
     user_starred_at: '2026-03-06T18:16:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7914,15 +8050,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: natikxy/rick-voice
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+    tags:
+      - ai-voice
+      - python
+      - speech-synthesis
+      - text-processing
+      - raspberry-pi
     summary: Convert text into authentic Rick Sanchez voice for bots and apps with a simple Python API supporting streaming and multiple TTS providers.
     last_synced_sha: 1b75757b9c878bc0b3c85348bc0eefa74e44a13c
     user_starred_at: '2026-03-06T18:15:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -7955,6 +8101,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:44.083Z'
+      prompt_version: v3
   - repo: clowerweb/kitten-tts-web-demo
     categories:
       - ai-ml
