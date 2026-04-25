@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-25T04:07:39.134Z'
+  manifest_updated_at: '2026-04-25T04:08:14.209Z'
   total_repos: 298
   generator_version: v1.0.0
   github_user: primeinc
@@ -7957,13 +7957,17 @@ repositories:
     framework: null
   - repo: clowerweb/kitten-tts-web-demo
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - text-to-speech
+      - transformers
+      - lang:js
     summary: Kitten TTS web demo using tansformers.js
     last_synced_sha: c174b1f5499100197b74e240df9e143bf6132840
     user_starred_at: '2026-03-06T18:13:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -7981,15 +7985,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: t3dotgg/stripe-recommendations
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - stripe
+      - nextjs
+      - fullstack
+      - payments
+      - typescript
     summary: How to implement Stripe without going mad
     last_synced_sha: f525f5023d819512e51afdce67f5acbd04c61f22
     user_starred_at: '2026-02-25T23:58:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -8012,16 +8026,21 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: pingdotgg/lawn
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: 45792addd7ac3c32c8b0d7989211b1cd18fa4090
     user_starred_at: '2026-02-25T23:54:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -8039,15 +8058,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: clusterzx/ts6-manager
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - teamspeak-management
+      - lang:ts
     summary: Web-based management interface for Team Speak servers
     last_synced_sha: dd26e57954feca794fcceac0fb982243897d9114
     user_starred_at: '2026-02-25T05:32:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8068,15 +8094,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: vivienhenz24/fuzzy-canary
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - anti-scraping
+      - lang:ts
     summary: Poor-man's solution to stopping AI companies from scraping your blog
     last_synced_sha: c10f434b98c8bad2574ee23e33f1b8b6b1c433e0
     user_starred_at: '2026-02-25T05:31:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -8094,15 +8127,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: icryo/remove-refusals-with-transformers
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - transformers
+      - harmful-content
+      - lang:python
     summary: Implements harmful/harmless refusal removal using pure HF Transformers
     last_synced_sha: abc1f91f06cda9d45dc2e8a3ae1f03d963d01c6b
     user_starred_at: '2026-02-24T12:56:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -8121,6 +8162,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: OracleBrain/OracleBrain
     categories:
       - unclassified
@@ -8129,7 +8174,7 @@ repositories:
     last_synced_sha: db3ce970f854d8c3b0ac1d5b98f360fe01604210
     user_starred_at: '2026-02-24T04:36:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -8147,15 +8192,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: afairgiant/MediKeep
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - self-hosted
+      - health-records
+      - privacy
+      - lang:js
     summary: A lightweight, self-hosted application for managing your personal medical information. Keep your health records organized and accessible while maintaining complete control over your data privacy.
     last_synced_sha: ab5e9797d7e5ff73a1f0953b996aff234cdfebeb
     user_starred_at: '2026-02-24T04:31:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -8175,15 +8229,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: shaka-project/shaka-packager
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+    tags:
+      - vod
+      - media-packaging
+      - drm
+      - lang:cpp
     summary: A media packaging and development framework for VOD and Live DASH and HLS applications, supporting Common Encryption for Widevine and other DRM Systems.
     last_synced_sha: 1fcc0ba35b86379675c742c3ced18ce64e9e3393
     user_starred_at: '2026-02-24T04:30:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -8203,15 +8265,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: ashishpatel26/500-AI-Agents-Projects
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - ai-agents
+      - curated-resources
+      - genai
     summary: The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation...
     last_synced_sha: 6a5769e9f3cc61dbd525e2419a1b779911bf8a97
     user_starred_at: '2026-02-24T04:26:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -8231,15 +8301,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: megakode/wallrus
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - wallpaper
+      - gnome
+      - gtk4
+      - lang:rust
     summary: Gnome (GTK4) application to generate colorful wallpapers based on gradients and different effects.
     last_synced_sha: 18e65463a2ab3d215d3dfe01c66a17c914b6c755
     user_starred_at: '2026-02-24T04:25:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -8257,15 +8336,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: timeframe/ha-addon
     categories:
-      - unclassified
-    tags: []
+      - embedded
+    tags:
+      - dashboard
+      - ruby-on-rails
+      - epaper
+      - lang:ruby
     summary: An e-paper calendar, weather, and smart home family dashboard for Home Assistant
     last_synced_sha: 1ad20d62f1fa65ad0dd375b76da692fa6ec79adc
     user_starred_at: '2026-02-24T04:25:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -8285,16 +8372,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: rails
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: cvhariharan/flowctl
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - workflow
+      - automation
+      - lang:go
     summary: An open source self-service workflow execution platform
     last_synced_sha: a6d427a879e6645d1b6356654d393452820404f7
     user_starred_at: '2026-02-24T04:24:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -8322,15 +8417,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: puzpuzpuz/go-concurrent-map-bench
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - dev-tools
+    tags:
+      - benchmark
+      - concurrency
+      - lang:go
     summary: Benchmarks for concurrent hash map implementations in Go
     last_synced_sha: 0ecb5de0789bfb82a018a5b5e4c8c7da52282606
     user_starred_at: '2026-02-24T04:23:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -8348,15 +8451,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: longrackslabs/inbox-classifier
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - classification
+      - machine-learning
+      - lang:python
     summary: No description provided
     last_synced_sha: 3c657a90b8c33a316114e25d2a1fe72b70a308e5
     user_starred_at: '2026-02-24T02:13:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -8374,6 +8485,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:08:13.303Z'
+      prompt_version: v3
   - repo: jjordanbaird/EmailVectorDB
     categories:
       - ai-ml
