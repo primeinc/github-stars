@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-25T04:09:48.236Z'
+  manifest_updated_at: '2026-04-25T04:10:18.961Z'
   total_repos: 298
   generator_version: v1.0.0
   github_user: primeinc
@@ -5880,13 +5880,17 @@ repositories:
     framework: null
   - repo: dail8859/NotepadNext
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - desktop-dev
+    tags:
+      - code-editor
+      - cross-platform
+      - lang:cpp
     summary: A cross-platform, reimplementation of Notepad++
     last_synced_sha: 08c0f1a7d5bfce4930a3352eca705f6e3bd632a9
     user_starred_at: '2026-04-22T03:01:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -5914,15 +5918,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: Justsenger/ExHyperV
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - hyper-v
+      - virtualization
+      - lang:csharp
     summary: The Excalibur of Hyper-V / Hyper-V 神器
     last_synced_sha: fca473862db6d627f445c379b2fd8dae2b5c7e22
     user_starred_at: '2026-04-22T03:00:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -5942,15 +5954,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: thunderbird/thunderbolt
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+    tags:
+      - ai-on-device
+      - llms
+      - custom-ai
+      - lang:ts
     summary: 'AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.'
     last_synced_sha: b90ca83f5e3a29f4e6a6a7333a5d49306ac9d098
     user_starred_at: '2026-04-22T02:57:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5974,15 +5995,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: feremabraz/bloomberg-terminal
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - financial-data
+      - ai-integration
+      - lang:ts
     summary: Bloomberg-like terminal with AI. It uses Redis with Alpha Vantage data and local simulations to avoid hitting the API too much.
     last_synced_sha: d53714efca546ed90bf4396383d1459cc962de69
     user_starred_at: '2026-04-22T02:56:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -6000,15 +6029,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: pingdotgg/t3code
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: No description provided
     last_synced_sha: ada410bccff144ce4cfed0e2c6e18974b045f968
     user_starred_at: '2026-04-22T02:55:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -6028,15 +6062,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: ipat8/cmd-printer-management
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - system-admin
+    tags:
+      - cmd-scripts
+      - printer-management
+      - deployment-automation
+      - lang:batchfile
     summary: Manage WSD Printers via CMD scripts
     last_synced_sha: 5be3755ae86bf60486a09994d7314acb93bf5ffb
     user_starred_at: '2026-03-18T02:56:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -6067,15 +6110,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: cityssm/snmp-oid-collector
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - snmp
+      - server-management
+      - lang:ts
     summary: Collect OID values from a series of SNMP-enabled servers in a flash!
     last_synced_sha: 6fbbcf2ce4be54b28fd6cd0c8608f1ba68d7c338
     user_starred_at: '2026-03-18T02:55:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6098,15 +6149,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: milliytech/printer-service
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - printer-management
+      - document-processing
+      - lang:python
     summary: 🔵Python-based service to scan, copy, and print documents with configurable printer settings.
     last_synced_sha: f2aafa4aac492de754a0b92e7de5c7c29a5984c1
     user_starred_at: '2026-03-18T02:55:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6128,15 +6187,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: Yayi-Dev/esc-pos-printer-manager
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - apis
+    tags:
+      - printer-management
+      - esc-pos
+      - lang:php
     summary: A plugin to manage ESC/POS printers via node.js (javascript / typescript) without using zadig (Win USBDriver)
     last_synced_sha: ace360a9f97a0824a6eacc8aa07cba3b53db3155
     user_starred_at: '2026-03-18T02:54:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -6164,15 +6231,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: dot-billy/nodebyte
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - apis
+    tags:
+      - inventory-management
+      - digital-tools
+      - lang:ts
     summary: Nodebyte - your digital inventory
     last_synced_sha: 1ca424157b4fbfb237d054ae1760f75bd9790e39
     user_starred_at: '2026-03-18T02:09:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -6190,15 +6265,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: zhangxilong-43/SecurePdfViewerForReact
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - security
+    tags:
+      - pdf-viewer
+      - react-component
+      - xss-protection
+      - lang:ts
     summary: A secure PDF viewer component for React. Uses canvas-only rendering to prevent XSS attacks from malicious PDF files.
     last_synced_sha: b8445594540969f24837a71a72758831ddc497cd
     user_starred_at: '2026-03-18T02:08:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -6215,16 +6299,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: Lum1104/Understand-Anything
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+      - ui-libraries
+    tags:
+      - knowledge-graph
+      - interactive-learning
+      - data-visualization
+      - lang:ts
     summary: Graphs that teach > graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claud...
     last_synced_sha: f6dbaabbd205ece995916aea1dba1cee90c4b90e
     user_starred_at: '2026-03-18T02:07:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6258,15 +6352,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: KnudsenMorten/SecurityInsight
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+    tags:
+      - secure-score
+      - risk-analysis
+      - lang:powershell
     summary: Rethink Secure Score into a new risk-based security risk score, based on consequence, probability and risk factors. Solution includes critical asset tagging, ready-to-use reports (based on Defender...
     last_synced_sha: dd8a382532797c4e5a38766c1281cf32d90ed96f
     user_starred_at: '2026-03-18T02:07:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -6286,15 +6388,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: BigBodyCobain/Shadowbroker
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+      - productivity
+    tags:
+      - osint
+      - osint-tool
+      - earthquake-visualization
+      - lang:ts
     summary: Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. The knowledge is av...
     last_synced_sha: ea457f27dab4b71ce26f663e0acb9283a4ba3557
     user_starred_at: '2026-03-18T02:05:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6328,15 +6440,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: aiming-lab/AutoResearchClaw
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - autonomous-research
+      - paper-generation
+      - scientific-discovery
+      - lang:python
     summary: Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞
     last_synced_sha: 84dad0a401404739cfcc47851cd1d282b671bb2f
     user_starred_at: '2026-03-18T02:05:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6365,6 +6486,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:17.989Z'
+      prompt_version: v3
   - repo: sergelib/sitemap-visualizer
     categories:
       - data-science
