@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-25T04:11:23.406Z'
+  manifest_updated_at: '2026-04-25T04:11:52.531Z'
   total_repos: 298
   generator_version: v1.0.0
   github_user: primeinc
@@ -4372,13 +4372,18 @@ repositories:
     framework: null
   - repo: r0adkll/upload-google-play
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - deployment
+    tags:
+      - lang:ts
+      - github-action
+      - android
+      - google-play-upload
     summary: A Git Hub action to upload an Android .apk or .aab file to the Google Play Console
     last_synced_sha: e07881de656d53d766c02a9065129848af694c29
     user_starred_at: '2026-04-24T09:01:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -4398,15 +4403,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.675Z'
+      prompt_version: v3
   - repo: garrytan/gbrain
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - lang:ts
+      - agent-framework
+      - artificial-intelligence
+      - opinionated-design
     summary: Garry's Opinionated Open Claw/Hermes Agent Brain
     last_synced_sha: 11abb24ddd2209f8622870c2e48dc9ef050ad749
     user_starred_at: '2026-04-24T09:00:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -4424,15 +4438,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.675Z'
+      prompt_version: v3
   - repo: AlexsJones/llmfit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - lang:rust
+      - llm-compatibility
+      - model-provider
+      - hardware-optimization
     summary: Hundreds of models & providers. One command to find what runs on your hardware.
     last_synced_sha: ae7d41d6396bca30c9ef933c8b665dbb1f35de8a
     user_starred_at: '2026-04-24T08:59:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -4458,15 +4481,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.675Z'
+      prompt_version: v3
   - repo: AlexsJones/llmserve
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - lang:rust
+      - llm-deployment
+      - local-llm
+      - tui
     summary: A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it
     last_synced_sha: 2a60e67ad1d8cf62177018df1973be86518a842c
     user_starred_at: '2026-04-24T08:59:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -4486,15 +4518,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.675Z'
+      prompt_version: v3
   - repo: Torrekie/Battman
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - system-admin
+    tags:
+      - lang:objective-c
+      - battery-management
+      - macos
     summary: Battman the Battery Manager
     last_synced_sha: b5aee4716af67d23308921d7517d3de6a849d655
     user_starred_at: '2026-04-24T08:57:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Objective-C
       topics: []
@@ -4514,15 +4554,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.675Z'
+      prompt_version: v3
   - repo: OpenCoworkAI/open-codesign
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - lang:ts
+      - multi-model
+      - ai-design
+      - electron
+      - cross-platform
     summary: Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first,...
     last_synced_sha: b93e0dc208434a19aff2483f996310a3c2559ab5
     user_starred_at: '2026-04-24T08:56:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4562,15 +4612,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.675Z'
+      prompt_version: v3
   - repo: earthtojake/text-to-cad
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - lang:js
+      - cad
+      - ai-agents
+      - wasm
+      - generative-design
     summary: An open source harness for generating CAD models
     last_synced_sha: e790a1b26b5a30208371f90a89217fd4d18468ce
     user_starred_at: '2026-04-24T08:56:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -4594,15 +4654,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.675Z'
+      prompt_version: v3
   - repo: frappe/lms
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - web-dev
+    tags:
+      - lang:vue
+      - vuejs
+      - online-learning
+      - lms
+      - open-source
     summary: Easy to Use, 100% Open Source Learning Management System
     last_synced_sha: bb5e277e9e958f1a8ff788194130746f861d40a0
     user_starred_at: '2026-04-24T08:56:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -4634,15 +4704,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.675Z'
+      prompt_version: v3
   - repo: stylessh/diffkit
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - lang:ts
+      - git-dashboard
+      - pull-requests
+      - code-reviews
     summary: A fast, design-first Git Hub dashboard for developers who want to stay on top of their pull requests, issues, and code reviews — without the noise.
     last_synced_sha: ab164025aff95b9e81cf9e986363c11d444784f4
     user_starred_at: '2026-04-24T08:54:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -4660,15 +4739,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.672Z'
+      prompt_version: v3
   - repo: chamanbravo/upstat
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - web-dev
+    tags:
+      - lang:ts
+      - uptime-monitor
+      - self-hosted
+      - nextjs
+      - react
     summary: 🟢 a simple open-source, self-hosted status monitoring tool
     last_synced_sha: a615f366661acfd0ad3d472926c60f11fa45ee1b
     user_starred_at: '2026-04-24T08:54:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4695,16 +4784,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.672Z'
+      prompt_version: v3
   - repo: huggingface/ml-intern
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - lang:python
+      - ml-engineering
+      - model-training
+      - machine-learning
     summary: '🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models'
     last_synced_sha: 2a2e1700bf0fa0cdeca2d9921cbe18b22b9db62f
     user_starred_at: '2026-04-24T08:53:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -4722,15 +4820,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.672Z'
+      prompt_version: v3
   - repo: browser-use/browser-harness
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - lang:python
+      - self-healing
+      - llms
+      - task-automation
     summary: Browser Harness | Self-healing harness that enables LLMs to complete any task.
     last_synced_sha: f8adad28e02dafd2172bbd702f6fcd4631ec5677
     user_starred_at: '2026-04-24T08:53:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -4748,15 +4855,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.672Z'
+      prompt_version: v3
   - repo: microsoft/adme-samples
     categories:
+      - learning
       - unclassified
-    tags: []
+    tags:
+      - lang:python
+      - samples
     summary: No description provided
     last_synced_sha: 8fc5648a76942e5a7c67f1ec4065d9edb72366cc
     user_starred_at: '2026-04-23T03:24:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -4774,15 +4888,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.672Z'
+      prompt_version: v3
   - repo: microsoft/copilot-brag-sheet
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - lang:js
+      - developer-productivity
+      - work-tracker
+      - github-copilot
     summary: Auto-track every Copilot CLI coding session into a structured work impact log. Zero deps, local-first, cross-platform.
     last_synced_sha: d386d42958d677c6f4f34164701d64a32496c3f7
     user_starred_at: '2026-04-23T03:22:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -4812,15 +4935,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.672Z'
+      prompt_version: v3
   - repo: microsoft/webui
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - lang:rust
+      - web-components
+      - server-side-rendering
+      - binary-protocol
     summary: Web UI is a language-agnostic server-side rendering framework that compiles HTML templates into a binary protocol at build time and uses Web Components Islands Architecture for client-side interact...
     last_synced_sha: c6a9106dfd2850ad08a2dd897143c085c5c6a37c
     user_starred_at: '2026-04-23T03:21:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -4840,6 +4972,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:11:51.672Z'
+      prompt_version: v3
   - repo: microsoft/Docker-Provider
     categories:
       - monitoring
