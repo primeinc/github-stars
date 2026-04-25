@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-25T04:10:18.961Z'
+  manifest_updated_at: '2026-04-25T04:10:50.788Z'
   total_repos: 298
   generator_version: v1.0.0
   github_user: primeinc
@@ -5340,13 +5340,17 @@ repositories:
     framework: null
   - repo: OWASP/wstg
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - security
+    tags:
+      - guide
+      - penetration-testing
+      - application-security
     summary: The Web Security Testing Guide is a comprehensive Open Source guide to testing the security of web applications and web services.
     last_synced_sha: b4a1f5901fa25ba551053bd5815365dee34f4315
     user_starred_at: '2026-04-22T15:10:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -5377,15 +5381,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.754Z'
+      prompt_version: v3
   - repo: beancount/beancount
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - data-science
+    tags:
+      - accounting
+      - text-files
+      - lang:python
     summary: 'Beancount: Double-Entry Accounting from Text Files.'
     last_synced_sha: 3e88681bdb37d73371fb2d13495cf4efa1413844
     user_starred_at: '2026-04-22T15:09:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -5404,15 +5416,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.754Z'
+      prompt_version: v3
   - repo: Ademking/MD-This-Page
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - markdown
+      - browser-extension
+      - lang:ts
     summary: Convert any web page to clean, readable Markdown with just one click.
     last_synced_sha: 63bd810a25cdb1dceb13af4fd237b53f371d1f03
     user_starred_at: '2026-04-22T15:09:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5435,15 +5455,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.754Z'
+      prompt_version: v3
   - repo: sn4k3/NetSonar
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - network-tools
+      - ping-utilities
+      - lang:csharp
     summary: Network pings and other utilities
     last_synced_sha: 977d0301b4b232442249484124d07c4e57179aea
     user_starred_at: '2026-04-22T15:06:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -5463,15 +5491,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.754Z'
+      prompt_version: v3
   - repo: google-gemma/cookbook
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - google
+      - gemma
+      - code-examples
+      - lang:jupyter-notebook
     summary: A collection of guides and examples for the Gemma open models from Google.
     last_synced_sha: 52d0b6ea51e7dff6cb823f67fbec2943e17f7cc7
     user_starred_at: '2026-04-22T15:05:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -5493,15 +5530,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.754Z'
+      prompt_version: v3
   - repo: goldbergyoni/nodebestpractices
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - best-practices
+      - nodejs
+      - express
+      - lang:dockerfile
     summary: ':white_check_mark: The Node.js best practices list (July 2024)'
     last_synced_sha: c0b71ccf3a134443635da6886423b44e31e65a73
     user_starred_at: '2026-04-22T15:04:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics:
@@ -5536,16 +5582,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.754Z'
+      prompt_version: v3
   - repo: gronxb/hot-updater
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - deployment
+    tags:
+      - react-native
+      - ota-update
+      - self-hosted
+      - lang:ts
     summary: A self-hostable OTA update solution for React Native (Alternative to Code Push)
     last_synced_sha: 10131fe58e84092633abd6726b968420eab07b24
     user_starred_at: '2026-04-22T15:03:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5571,16 +5626,24 @@ repositories:
         published_at: '2026-04-23T15:03:54Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.754Z'
+      prompt_version: v3
   - repo: raycast/extensions
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - raycast
+      - extensions
+      - lang:ts
     summary: Everything you need to extend Raycast.
     last_synced_sha: ab80bc7241aac5874747dabd8bccc8f93c0f35ce
     user_starred_at: '2026-04-22T03:05:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -5598,15 +5661,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.754Z'
+      prompt_version: v3
   - repo: Anil-matcha/Open-Generative-AI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - ai-image-generation
+      - generative-ai
+      - video-generation
+      - lang:js
     summary: Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). ...
     last_synced_sha: 8c509108635d26fdfb35a66578f76b18a3943d07
     user_starred_at: '2026-04-22T03:04:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -5646,15 +5717,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.754Z'
+      prompt_version: v3
   - repo: nagix/mini-tokyo-3d
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - ui-libraries
+    tags:
+      - real-time-map
+      - 3d-visualization
+      - lang:js
     summary: A real-time 3D digital map of Tokyo's public transport system
     last_synced_sha: f5f13839e62ce1022aa7e9e7b145af4a5fe98553
     user_starred_at: '2026-04-22T03:04:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -5674,15 +5753,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.754Z'
+      prompt_version: v3
   - repo: Diniboy1123/usque
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - proxy
+      - vpn-client
+      - masque
+      - lang:go
     summary: Open-source reimplementation of the Cloudflare WARP client's MASQUE protocol.
     last_synced_sha: 47c1b1bf2c8675d906bc8026515585ced27beef7
     user_starred_at: '2026-04-22T03:03:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5710,15 +5798,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.754Z'
+      prompt_version: v3
   - repo: Ed1s0nZ/CyberStrikeAI
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - ai-cybersecurity
+      - pentesting-tools
+      - orchestration
+      - lang:go
     summary: Cyber Strike AI is an AI-native security testing platform built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a s...
     last_synced_sha: c788b59f256ae71e0769c9bfd52db295089c1e1a
     user_starred_at: '2026-04-22T03:03:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5747,15 +5844,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.754Z'
+      prompt_version: v3
   - repo: maximhq/bifrost
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - networking
+      - automation
+    tags:
+      - ai-gateway
+      - load-balancer
+      - generative-ai
+      - lang:go
     summary: Fastest enterprise AI gateway (50x faster than Lite LLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.
     last_synced_sha: fb9f95657cff38d6b2d859139a21a54687edb89c
     user_starred_at: '2026-04-22T03:03:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5791,15 +5898,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.754Z'
+      prompt_version: v3
   - repo: qax-os/excelize
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - excel
+      - spreadsheet
+      - analytics
+      - lang:go
     summary: Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets
     last_synced_sha: 6c1f7eaea56ae24eae242a67abee6e0beb7ad2b1
     user_starred_at: '2026-04-22T03:02:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5839,15 +5955,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.754Z'
+      prompt_version: v3
   - repo: project-chip/connectedhomeip
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - embedded
+    tags:
+      - standard
+      - iot
+      - connected-devices
+      - lang:cpp
     summary: Matter (formerly Project CHIP) creates more connections between more objects, simplifying development for manufacturers and increasing compatibility for consumers, guided by the Connectivity Standa...
     last_synced_sha: 9017c80d2c5880a3481785f9d3b89f0b293f4ca9
     user_starred_at: '2026-04-22T03:02:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -5878,6 +6003,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-25T04:10:49.753Z'
+      prompt_version: v3
   - repo: dail8859/NotepadNext
     categories:
       - dev-tools
