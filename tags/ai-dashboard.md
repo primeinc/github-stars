@@ -1,4 +1,4 @@
-# Tag: nextjs
+# Tag: ai-dashboard
 
 *2 repositories*
 
@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [shadowoff09/pathfinder](https://github.com/shadowoff09/pathfinder) | A modern, interactive mapping application built with Next.js 15, Mapbox GL, and Type Script. | `TypeScript` ★ 147 | 2026-02-12 |
+| [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface | `TypeScript` ★ 52.5k | 2026-04-24 |
 | [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) | Self-hosted AI agent orchestration platform: dispatch tasks, run multi-agent workflows, monitor spend, and govern operations from one mission control dashboard. | `TypeScript` ★ 4.3k | 2026-04-21 |

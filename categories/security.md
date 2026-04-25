@@ -1,20 +1,27 @@
 # Security
 
-*10 repositories*
+*17 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Ridwannurudeen/hermes-council](https://github.com/Ridwannurudeen/hermes-council) | Adversarial multi-perspective council MCP server for hermes-agent | `Python` ★ 14 | 2026-03-18 |
+| [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | Find, verify, and analyze leaked credentials | `Go` ★ 25.9k | 2026-04-24 |
+| [Ridwannurudeen/hermes-council](https://github.com/Ridwannurudeen/hermes-council) | Adversarial multi-perspective council MCP server for hermes-agent | `Python` ★ 15 | 2026-03-18 |
 | [aaguiarz/openfga-modeling-mcp](https://github.com/aaguiarz/openfga-modeling-mcp) | MCP to assist on Open FGA Modeling | `JavaScript` ★ 8 | 2025-09-10 |
-| [tailscale/tailscale](https://github.com/tailscale/tailscale) | The easiest, most secure way to use Wire Guard and 2FA. | `Go` ★ 30.8k | 2026-04-21 |
+| [tailscale/tailscale](https://github.com/tailscale/tailscale) | The easiest, most secure way to use Wire Guard and 2FA. | `Go` ★ 30.9k | 2026-04-25 |
 | [auth0/auth0.js](https://github.com/auth0/auth0.js) | Auth0 headless browser sdk | `JavaScript` ★ 1k | 2026-04-15 |
-| [auth0/node-auth0](https://github.com/auth0/node-auth0) | Node.js client library for the Auth0 platform. | `TypeScript` ★ 679 | 2026-04-17 |
-| [openfga/openfga](https://github.com/openfga/openfga) | A high performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar | `Go` ★ 5k | 2026-04-21 |
-| [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere. | `TypeScript` ★ 24.6k | 2026-04-21 |
-| [mspnp/cloud-design-patterns](https://github.com/mspnp/cloud-design-patterns) | Sample implementations for cloud design patterns found in the Azure Architecture Center. | `C#` ★ 843 | 2026-04-13 |
+| [auth0/node-auth0](https://github.com/auth0/node-auth0) | Node.js client library for the Auth0 platform. | `TypeScript` ★ 679 | 2026-04-24 |
+| [openfga/openfga](https://github.com/openfga/openfga) | A high performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar | `Go` ★ 5.1k | 2026-04-24 |
+| [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere. | `TypeScript` ★ 24.9k | 2026-04-24 |
+| [mspnp/cloud-design-patterns](https://github.com/mspnp/cloud-design-patterns) | Sample implementations for cloud design patterns found in the Azure Architecture Center. | `C#` ★ 844 | 2026-04-22 |
 | [mikedzikowski/ZTAImage](https://github.com/mikedzikowski/ZTAImage) | Zero Trust Azure Image Solution | `Bicep` ★ 6 | 2024-04-12 |
-| [openbao/openbao](https://github.com/openbao/openbao) | Open Bao exists to provide a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys. | `Go` ★ 5.9k | 2026-04-20 |
+| [openbao/openbao](https://github.com/openbao/openbao) | Open Bao exists to provide a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys. | `Go` ★ 5.9k | 2026-04-24 |
+| [vectra-ai-research/MAAD-AF](https://github.com/vectra-ai-research/MAAD-AF) | MAAD Attack Framework - An attack tool for simple, fast & effective security testing of M365 & Entra ID (Azure AD). | `PowerShell` ★ 423 | 2026-01-13 |
+| [azurekid/blackcat](https://github.com/azurekid/blackcat) | Black Cat is a Power Shell module designed to validate the security of Microsoft Azure. It provides a set of functions to identify potential security holes. | `PowerShell` ★ 203 | 2026-04-10 |
+| [michaelmsonne/ManagedIdentityPermissionManager](https://github.com/michaelmsonne/ManagedIdentityPermissionManager) | Azure Managed Identity Permissions Tool, a new Power Shell tool that simplifies and streamlines the management of Managed Identity permissions in Azure (Entra ID) | `PowerShell` ★ 130 | 2026-01-26 |
+| [zh54321/EntraTokenAid](https://github.com/zh54321/EntraTokenAid) | A pure Power Shell solution for Entra OAuth authentication, enabling easy retrieval of access and refresh tokens | `PowerShell` ★ 138 | 2026-04-09 |
+| [CompassSecurity/EntraFalcon](https://github.com/CompassSecurity/EntraFalcon) | A lightweight Power Shell tool for assessing the security posture of Microsoft Entra ID environments. It helps identify privileged objects, risky assignments, and potential misconfigurations. | `PowerShell` ★ 415 | 2026-04-24 |
+| [SteffMet/Azure-Office365-Security-Reporting](https://github.com/SteffMet/Azure-Office365-Security-Reporting) | Powershell Script to Check Security and Gather Information within Azure and Office 365 | `PowerShell` ★ 54 | 2025-07-15 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
