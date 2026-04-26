@@ -1,25 +1,27 @@
 # Dev-tools
 
-*15 repositories*
+*17 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [Azure/aaz-dev-tools](https://github.com/Azure/aaz-dev-tools) | Atomic Azure CLI Dev Tools | `Python` ★ 27 | 2025-12-02 |
+| [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) | Hundreds of models & providers. One command to find what runs on your hardware. | `Rust` ★ 24.7k | 2026-04-25 |
+| [AlexsJones/llmserve](https://github.com/AlexsJones/llmserve) | A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it | `Rust` ★ 216 | 2026-04-22 |
+| [stylessh/diffkit](https://github.com/stylessh/diffkit) | A fast, design-first Git Hub dashboard for developers who want to stay on top of their pull requests, issues, and code reviews — without the noise. | `TypeScript` ★ 111 | 2026-04-26 |
+| [microsoft/copilot-brag-sheet](https://github.com/microsoft/copilot-brag-sheet) | Auto-track every Copilot CLI coding session into a structured work impact log. Zero deps, local-first, cross-platform. | `JavaScript` ★ 3 | 2026-04-23 |
+| [microsoft/rnx-kit](https://github.com/microsoft/rnx-kit) | Modern, scalable tools. Exceptional developer experience. | `TypeScript` ★ 1.7k | 2026-04-25 |
+| [microsoft/regorus](https://github.com/microsoft/regorus) | Regorus - A fast, lightweight Rego (OPA policy language) interpreter written in Rust. | `Rust` ★ 299 | 2026-04-23 |
+| [microsoft/tgrep](https://github.com/microsoft/tgrep) | Trigram-indexed grep with a client/server architecture for fast regex search in large codebases locally | `Rust` ★ 10 | 2026-04-23 |
+| [opral/paraglide-js](https://github.com/opral/paraglide-js) | Compiler-based i18n library that emits tree-shakable translations, leading to up to 70% smaller bundle sizes. | `TypeScript` ★ 377 | 2026-04-24 |
+| [opral/inlang](https://github.com/opral/inlang) | open file format for localizing software (i18n) | `TypeScript` ★ 1.9k | 2026-04-24 |
+| [raycast/extensions](https://github.com/raycast/extensions) | Everything you need to extend Raycast. | `TypeScript` ★ 7.4k | 2026-04-25 |
+| [qax-os/excelize](https://github.com/qax-os/excelize) | Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets | `Go` ★ 20.5k | 2026-04-22 |
+| [dail8859/NotepadNext](https://github.com/dail8859/NotepadNext) | A cross-platform, reimplementation of Notepad++ | `C++` ★ 14k | 2026-04-26 |
 | [hunvreus/devpush](https://github.com/hunvreus/devpush) | Like Vercel, but open source and for all languages. | `Python` ★ 4.6k | 2026-03-03 |
-| [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | Find, verify, and analyze leaked credentials | `Go` ★ 25.9k | 2026-04-24 |
-| [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) | Self-hosted AI agent orchestration platform: dispatch tasks, run multi-agent workflows, monitor spend, and govern operations from one mission control dashboard. | `TypeScript` ★ 4.3k | 2026-04-21 |
+| [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | Find, verify, and analyze leaked credentials | `Go` ★ 25.9k | 2026-04-25 |
+| [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) | Self-hosted AI agent orchestration platform: dispatch tasks, run multi-agent workflows, monitor spend, and govern operations from one mission control dashboard. | `TypeScript` ★ 4.4k | 2026-04-21 |
 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | A cross-platform, Open GL terminal emulator. | `Rust` ★ 63.7k | 2026-04-14 |
-| [Ataraxy-Labs/sem](https://github.com/Ataraxy-Labs/sem) | Semantic version control CLI. Entity-level diff, blame, graph, and impact analysis for code. 26 languages via tree-sitter. | `Rust` ★ 1.9k | 2026-04-24 |
-| [garrytan/gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA | `TypeScript` ★ 82.7k | 2026-04-24 |
-| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKq FWd Built in Rust using oh-my-codex. | `Rust` ★ 188.2k | 2026-04-25 |
-| [spool-lab/spool](https://github.com/spool-lab/spool) | Search your Claude Code sessions, Codex history, Git Hub stars, and 50+ sources — locally, instantly. Your AI agents can search too. | `TypeScript` ★ 406 | 2026-04-24 |
-| [antfu/vscode-file-nesting-config](https://github.com/antfu/vscode-file-nesting-config) | Config of File Nesting for VS Code | `JavaScript` ★ 3.6k | 2026-04-20 |
-| [garronej/vite-envs](https://github.com/garronej/vite-envs) | ⚙️ Env var in Vite at container startup | `TypeScript` ★ 82 | 2026-04-16 |
-| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ... | `JavaScript` ★ 17.2k | 2026-04-24 |
-| [usewaypoint/email-builder-js](https://github.com/usewaypoint/email-builder-js) | A free and open-source block-based email template builder. | `TypeScript` ★ 1.6k | 2026-02-09 |
-| [awesomized/crc-fast-rust](https://github.com/awesomized/crc-fast-rust) | World's fastest generic CRC calculator for all known CRC-16, CRC-32, and CRC-64 variants, as well as bring-your-own custom parameters, using SIMD intrinsics, which can exceed 100Gi B/s on modern sy... | `Rust` ★ 77 | 2025-12-29 |
-| [dead10ck/nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns) | DNS utility for nushell | `Rust` ★ 53 | 2026-04-22 |
-| [kinhunt/mcpdog](https://github.com/kinhunt/mcpdog) | 🐕 Universal MCP Server Manager - Configure once, manage multiple MCP servers through a single interface. Perfect for Claude Desktop, Claude Code, Cursor, Gemini CLI & AI assistants. Web dashboard,... | `TypeScript` ★ 18 | 2025-10-19 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

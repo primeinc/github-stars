@@ -1,12 +1,21 @@
 # Web-dev
 
-*18 repositories*
+*17 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [is-a-dev/register](https://github.com/is-a-dev/register) | Grab your own sweet-looking '.is-a.dev' subdomain. | `JavaScript` ★ 10.2k | 2026-04-24 |
+| [zammad/zammad](https://github.com/zammad/zammad) | Zammad is a web based open source helpdesk/customer support system. | `Ruby` ★ 5.6k | 2026-04-24 |
+| [KGSpin/kgspin-demo-app](https://github.com/KGSpin/kgspin-demo-app) | KGSpin — reference customer application (Layer 3 per ADR-003) | `Python` ★ 1 | 2026-04-24 |
+| [frappe/lms](https://github.com/frappe/lms) | Easy to Use, 100% Open Source Learning Management System | `Vue` ★ 2.9k | 2026-04-24 |
+| [chamanbravo/upstat](https://github.com/chamanbravo/upstat) | 🟢 a simple open-source, self-hosted status monitoring tool | `TypeScript` ★ 199 | 2026-02-26 |
+| [microsoft/webui](https://github.com/microsoft/webui) | Web UI is a language-agnostic server-side rendering framework that compiles HTML templates into a binary protocol at build time and uses Web Components Islands Architecture for client-side interact... | `Rust` ★ 27 | 2026-04-24 |
+| [microsoft/clarity](https://github.com/microsoft/clarity) | A behavioral analytics library that uses dom mutations and user interactions to generate aggregated insights. | `TypeScript` ★ 2.6k | 2026-04-23 |
+| [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) | Convert any web page to clean, readable Markdown with just one click. | `TypeScript` ★ 541 | 2026-04-20 |
+| [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) | :white\_check\_mark: The Node.js best practices list (July 2024) | `Dockerfile` ★ 105.2k | 2025-04-15 |
+| [nagix/mini-tokyo-3d](https://github.com/nagix/mini-tokyo-3d) | A real-time 3D digital map of Tokyo's public transport system | `JavaScript` ★ 4k | 2026-04-04 |
+| [is-a-dev/register](https://github.com/is-a-dev/register) | Grab your own sweet-looking '.is-a.dev' subdomain. | `JavaScript` ★ 10.2k | 2026-04-25 |
 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Thirteen editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop. | `HTML` ★ 1.9k | 2026-04-22 |
 | [shadowoff09/pathfinder](https://github.com/shadowoff09/pathfinder) | A modern, interactive mapping application built with Next.js 15, Mapbox GL, and Type Script. | `TypeScript` ★ 147 | 2026-02-12 |
 | [auth0/auth0.js](https://github.com/auth0/auth0.js) | Auth0 headless browser sdk | `JavaScript` ★ 1k | 2026-04-15 |
@@ -14,15 +23,5 @@
 | [sunshineLixun/ShipFullStack](https://github.com/sunshineLixun/ShipFullStack) | A modern Type Script stack that combines React, Tan Stack Start, Hono, ORPC, Expo, and more. | `TypeScript` ★ 105 | 2025-11-03 |
 | [alibaba/page-agent](https://github.com/alibaba/page-agent) | Java Script in-page GUI agent. Control web interfaces with natural language. | `TypeScript` ★ 17.4k | 2026-04-21 |
 | [tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts) | Performant financial charts built with HTML5 canvas | `TypeScript` ★ 15.3k | 2026-04-24 |
-| [apireno/DOMShell](https://github.com/apireno/DOMShell) | Agentic Shell | `TypeScript` ★ 33 | 2026-04-20 |
-| [honojs/hono](https://github.com/honojs/hono) | Web framework built on Web Standards | `TypeScript` ★ 30.1k | 2026-04-24 |
-| [albanobattistella/EinVault](https://github.com/albanobattistella/EinVault) | Self-hosted animal companion health and care tracker for homelabs. Built with Svelte Kit and SQLite. | `TypeScript` ★ 1 | 2026-04-07 |
-| [TuomoKu/SPX-GC](https://github.com/TuomoKu/SPX-GC) | SPX is a graphics control client for live video productions and live streams using Caspar CG, OBS, v Mix, or similar software. | `JavaScript` ★ 409 | 2026-03-09 |
-| [nodecg/nodecg](https://github.com/nodecg/nodecg) | Create broadcast graphics using Node.js and a browser | `TypeScript` ★ 1.1k | 2025-12-08 |
-| [sproutmaster/nyuprinters](https://github.com/sproutmaster/nyuprinters) | An application to help students find working printers on the NYU campus | `JavaScript` ★ 15 | 2024-05-19 |
-| [doomspork/printergeist](https://github.com/doomspork/printergeist) | No description provided | `Rust` ★ 1 | 2024-06-14 |
-| [YakirOren/Print-Center](https://github.com/YakirOren/Print-Center) | Printer management dashboard and IPP proxy with print job rules and actions. | `TypeScript` ★ 2 | 2025-12-25 |
-| [HKUDS/MoChat](https://github.com/HKUDS/MoChat) | "Mo Chat: Open Claw as Your Social Agent https://mochat.io" | `TypeScript` ★ 220 | 2026-02-12 |
-| [kinhunt/mcpdog](https://github.com/kinhunt/mcpdog) | 🐕 Universal MCP Server Manager - Configure once, manage multiple MCP servers through a single interface. Perfect for Claude Desktop, Claude Code, Cursor, Gemini CLI & AI assistants. Web dashboard,... | `TypeScript` ★ 18 | 2025-10-19 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
