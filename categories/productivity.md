@@ -1,27 +1,29 @@
 # Productivity
 
-*17 repositories*
+*19 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [zammad/zammad](https://github.com/zammad/zammad) | Zammad is a web based open source helpdesk/customer support system. | `Ruby` ★ 5.6k | 2026-04-24 |
-| [stylessh/diffkit](https://github.com/stylessh/diffkit) | A fast, design-first Git Hub dashboard for developers who want to stay on top of their pull requests, issues, and code reviews — without the noise. | `TypeScript` ★ 111 | 2026-04-26 |
+| [stylessh/diffkit](https://github.com/stylessh/diffkit) | A fast, design-first Git Hub dashboard for developers who want to stay on top of their pull requests, issues, and code reviews — without the noise. | `TypeScript` ★ 113 | 2026-04-26 |
 | [microsoft/copilot-brag-sheet](https://github.com/microsoft/copilot-brag-sheet) | Auto-track every Copilot CLI coding session into a structured work impact log. Zero deps, local-first, cross-platform. | `JavaScript` ★ 3 | 2026-04-23 |
-| [microsoft/TypeAgent](https://github.com/microsoft/TypeAgent) | Sample code that explores an architecture for using language models to build a personal agent that can work with application agents. | `TypeScript` ★ 686 | 2026-04-26 |
+| [microsoft/TypeAgent](https://github.com/microsoft/TypeAgent) | Sample code that explores an architecture for using language models to build a personal agent that can work with application agents. | `TypeScript` ★ 687 | 2026-04-26 |
 | [microsoft/tgrep](https://github.com/microsoft/tgrep) | Trigram-indexed grep with a client/server architecture for fast regex search in large codebases locally | `Rust` ★ 10 | 2026-04-23 |
 | [dash0hq/otelbin](https://github.com/dash0hq/otelbin) | Web-based tool to facilitate Open Telemetry collector configuration editing and verification | `TypeScript` ★ 531 | 2026-04-25 |
 | [opral/inlang](https://github.com/opral/inlang) | open file format for localizing software (i18n) | `TypeScript` ★ 1.9k | 2026-04-24 |
 | [beancount/beancount](https://github.com/beancount/beancount) | Beancount: Double-Entry Accounting from Text Files. | `Python` ★ 5.5k | 2026-04-18 |
-| [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) | Convert any web page to clean, readable Markdown with just one click. | `TypeScript` ★ 541 | 2026-04-20 |
-| [raycast/extensions](https://github.com/raycast/extensions) | Everything you need to extend Raycast. | `TypeScript` ★ 7.4k | 2026-04-25 |
+| [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) | Convert any web page to clean, readable Markdown with just one click. | `TypeScript` ★ 566 | 2026-04-20 |
+| [raycast/extensions](https://github.com/raycast/extensions) | Everything you need to extend Raycast. | `TypeScript` ★ 7.4k | 2026-04-27 |
 | [qax-os/excelize](https://github.com/qax-os/excelize) | Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets | `Go` ★ 20.5k | 2026-04-22 |
-| [koodo-reader/koodo-reader](https://github.com/koodo-reader/koodo-reader) | A modern ebook manager and reader with sync and backup capacities for Windows, mac OS, Linux, Android, i OS and Web | `JavaScript` ★ 26.7k | 2026-04-25 |
+| [koodo-reader/koodo-reader](https://github.com/koodo-reader/koodo-reader) | A modern ebook manager and reader with sync and backup capacities for Windows, mac OS, Linux, Android, i OS and Web | `JavaScript` ★ 26.7k | 2026-04-27 |
 | [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) | Saves Discord chat logs to a file | `C#` ★ 11k | 2026-04-22 |
 | [dlkakbs/hermes-startup-architect](https://github.com/dlkakbs/hermes-startup-architect) | A permanent Hermes Agent skill that transforms any startup idea into an investor-ready kit. Chains web\_search, terminal & write\_file to generate 8 assets: market analysis, competitor map, pitch dec... | ★ 8 | 2026-03-13 |
 | [aaguiarz/openfga-modeling-mcp](https://github.com/aaguiarz/openfga-modeling-mcp) | MCP to assist on Open FGA Modeling | `JavaScript` ★ 8 | 2025-09-10 |
-| [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere. | `TypeScript` ★ 24.9k | 2026-04-24 |
-| [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio | `TypeScript` ★ 23.4k | 2026-04-26 |
+| [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere. | `TypeScript` ★ 25k | 2026-04-24 |
+| [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio | `TypeScript` ★ 23.6k | 2026-04-26 |
+| [kinhunt/mcpdog](https://github.com/kinhunt/mcpdog) | 🐕 Universal MCP Server Manager - Configure once, manage multiple MCP servers through a single interface. Perfect for Claude Desktop, Claude Code, Cursor, Gemini CLI & AI assistants. Web dashboard,... | `TypeScript` ★ 18 | 2025-10-19 |
+| [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell) | Make Claude Code production-ready — spec-driven plans, enforced quality gates, persistent knowledge | `TypeScript` ★ 1.7k | 2026-04-24 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

@@ -9,12 +9,12 @@
 | [chamanbravo/upstat](https://github.com/chamanbravo/upstat) | 🟢 a simple open-source, self-hosted status monitoring tool | `TypeScript` ★ 199 | 2026-02-26 |
 | [microsoft/Docker-Provider](https://github.com/microsoft/Docker-Provider) | Azure Monitor for Containers | `Ruby` ★ 171 | 2026-04-24 |
 | [microsoft/clarity](https://github.com/microsoft/clarity) | A behavioral analytics library that uses dom mutations and user interactions to generate aggregated insights. | `TypeScript` ★ 2.6k | 2026-04-23 |
-| [fluent/fluent-bit](https://github.com/fluent/fluent-bit) | Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows | `C` ★ 7.8k | 2026-04-25 |
-| [ymtdzzz/otel-tui](https://github.com/ymtdzzz/otel-tui) | A terminal Open Telemetry viewer inspired by otel-desktop-viewer | `Go` ★ 978 | 2026-04-20 |
+| [fluent/fluent-bit](https://github.com/fluent/fluent-bit) | Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows | `C` ★ 7.8k | 2026-04-27 |
+| [ymtdzzz/otel-tui](https://github.com/ymtdzzz/otel-tui) | A terminal Open Telemetry viewer inspired by otel-desktop-viewer | `Go` ★ 980 | 2026-04-27 |
 | [dash0hq/otelbin](https://github.com/dash0hq/otelbin) | Web-based tool to facilitate Open Telemetry collector configuration editing and verification | `TypeScript` ★ 531 | 2026-04-25 |
 | [open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js) | Open Telemetry Java Script Client | `TypeScript` ★ 3.4k | 2026-04-24 |
-| [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface | `TypeScript` ★ 52.6k | 2026-04-25 |
-| [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) | Contrib repository for the Open Telemetry Collector | `Go` ★ 4.6k | 2026-04-26 |
+| [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface | `TypeScript` ★ 52.8k | 2026-04-26 |
+| [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) | Contrib repository for the Open Telemetry Collector | `Go` ★ 4.6k | 2026-04-27 |
 | [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) | Self-hosted AI agent orchestration platform: dispatch tasks, run multi-agent workflows, monitor spend, and govern operations from one mission control dashboard. | `TypeScript` ★ 4.4k | 2026-04-21 |
 | [rajsinghtech/tsflow](https://github.com/rajsinghtech/tsflow) | Network flow visualizer for Tailscale - Requires Premium TS plans | `Go` ★ 179 | 2026-04-25 |
 

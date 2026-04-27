@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [agentskills/agentskills](https://github.com/agentskills/agentskills) | Specification and documentation for Agent Skills | `Python` ★ 17.2k | 2026-04-22 |
+| [agentskills/agentskills](https://github.com/agentskills/agentskills) | Specification and documentation for Agent Skills | `Python` ★ 17.3k | 2026-04-22 |
 | [KGSpin/kgspin-demo-config](https://github.com/KGSpin/kgspin-demo-config) | KGSpin — reference customer instance config (Layer 2 per ADR-003) | ★ 1 | 2026-04-22 |
 | [OWASP/wstg](https://github.com/OWASP/wstg) | The Web Security Testing Guide is a comprehensive Open Source guide to testing the security of web applications and web services. | ★ 9.1k | 2026-04-24 |
 | [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) | :white\_check\_mark: The Node.js best practices list (July 2024) | `Dockerfile` ★ 105.2k | 2025-04-15 |
