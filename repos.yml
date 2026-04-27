@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-27T04:24:03.068Z'
+  manifest_updated_at: '2026-04-27T04:24:34.031Z'
   total_repos: 298
   generator_version: v1.0.0
   github_user: primeinc
@@ -8884,13 +8884,17 @@ repositories:
     framework: null
   - repo: ros-navigation/navigation2
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - automation
+    tags:
+      - ros2
+      - navigation
+      - lang:cpp
     summary: ROS 2 Navigation Framework and System
     last_synced_sha: cd75eae6c9fd3b7629e2b5f53ed6ffcf80547dcb
     user_starred_at: '2026-02-22T10:09:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -8913,15 +8917,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.044Z'
+      prompt_version: v3
   - repo: TrinityCore/TrinityCore
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - frameworks
+    tags:
+      - mmorpg
+      - multiplayer
+      - lang:cpp
     summary: Trinity Core Open Source MMO Framework (master = 12.0.5.67186, 3.3.5 = 3.3.5a.12340, cata classic = 4.4.2.60895)
     last_synced_sha: f4c0cc8254876890f8f3f3b765f57e6586ea58e6
     user_starred_at: '2026-02-22T10:08:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -8948,15 +8960,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.044Z'
+      prompt_version: v3
   - repo: HailToDodongo/pyrite64
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - desktop-dev
+    tags:
+      - n64
+      - game-engine
+      - lang:cpp
     summary: N64 Game-Engine and Editor using libdragon & tiny3d
     last_synced_sha: b5d568058c666c6bb2323834e67211d4c104fc37
     user_starred_at: '2026-02-22T10:08:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -8976,15 +8996,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.044Z'
+      prompt_version: v3
   - repo: dragonflydb/dragonfly
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - system-admin
+    tags:
+      - in-memory-db
+      - key-value
+      - lang:cpp
     summary: A modern replacement for Redis and Memcached
     last_synced_sha: 6a9ac29208aa53811e6d2911c43670e58c0b5e13
     user_starred_at: '2026-02-22T10:07:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -9019,15 +9047,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.044Z'
+      prompt_version: v3
   - repo: AzureAD/microsoft-identity-web
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+      - apis
+    tags:
+      - authentication
+      - identity-platform
+      - lang:csharp
     summary: Helps creating protected web apps and web APIs with Microsoft identity platform and Azure AD B2C
     last_synced_sha: 35935e97da1a4540614041b09bd1b19ebf4ae74a
     user_starred_at: '2026-02-22T10:06:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -9051,15 +9088,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.044Z'
+      prompt_version: v3
   - repo: JosefNemec/Playnite
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - productivity
+      - desktop-dev
+    tags:
+      - game-library
+      - wpf
+      - lang:csharp
     summary: Video game library manager with support for wide range of 3rd party libraries and game emulation support, providing one unified interface for your games.
     last_synced_sha: 7437f11ef502efd7d3740d191fb257f2d4f2d675
     user_starred_at: '2026-02-22T10:06:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -9083,15 +9129,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.044Z'
+      prompt_version: v3
   - repo: unoplatform/uno
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - web-dev
+      - desktop-dev
+      - embedded
+    tags:
+      - cross-platform
+      - xaml
+      - lang:csharp
     summary: Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow...
     last_synced_sha: aa8eb9b240a52eca4b5f9f49dd320b08c192401b
     user_starred_at: '2026-02-22T10:05:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -9131,15 +9187,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.044Z'
+      prompt_version: v3
   - repo: abhigyanpatwari/GitNexus
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+      - productivity
+    tags:
+      - code-intelligence
+      - client-side
+      - lang:ts
     summary: 'Git Nexus: The Zero-Server Code Intelligence Engine - Git Nexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a Git Hub repo or ZIP file, and get an interacti...'
     last_synced_sha: 98ee665889919b77db0b424fe680c5342096cf80
     user_starred_at: '2026-02-22T10:04:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -9159,15 +9224,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.041Z'
+      prompt_version: v3
   - repo: vxcontrol/pentagi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+      - automation
+    tags:
+      - ai-agents
+      - penetration-testing
+      - lang:go
     summary: Fully autonomous AI Agents system capable of performing complex penetration testing tasks
     last_synced_sha: 2ec8ef3d9b075eabee65389fd0966de974e3acc9
     user_starred_at: '2026-02-22T10:03:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -9205,15 +9279,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.041Z'
+      prompt_version: v3
   - repo: hiddify/hiddify-app
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+      - mobile-dev
+    tags:
+      - proxy
+      - multi-platform
+      - lang:dart
     summary: Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.
     last_synced_sha: fbc6cbd4ed6a978e5923c8203a93080019a7777b
     user_starred_at: '2026-02-22T10:03:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -9251,15 +9334,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.041Z'
+      prompt_version: v3
   - repo: wxt-dev/wxt
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - dev-tools
+      - web-dev
+    tags:
+      - web-extensions
+      - build-tool
+      - lang:ts
     summary: ⚡ Next-gen Web Extension Framework
     last_synced_sha: e75e534882963a6a145bac37b38df90a68e155c1
     user_starred_at: '2026-02-21T06:29:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9284,15 +9376,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.041Z'
+      prompt_version: v3
   - repo: moonD4rk/HackBrowserData
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+      - productivity
+    tags:
+      - browser-data
+      - pentest-tool
+      - lang:go
     summary: Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (mac OS, Windows, Linux).
     last_synced_sha: 5c0b1ad5cf2c483af6c9ec74431b55af82e98b49
     user_starred_at: '2026-02-21T04:24:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -9322,15 +9423,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.041Z'
+      prompt_version: v3
   - repo: memvid/design-memory
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+      - web-dev
+    tags:
+      - design-system
+      - llm
+      - lang:ts
     summary: Extract and reproduce design systems from any website using deterministic analysis and LLM interpretation.
     last_synced_sha: 46ce7ac63062e7937b7e13c8fc1a2d3388535f72
     user_starred_at: '2026-02-17T19:19:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9358,15 +9468,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.041Z'
+      prompt_version: v3
   - repo: nushell/nushell
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+      - dev-tools
+    tags:
+      - shell
+      - rust-shell
+      - lang:rust
     summary: A new type of shell
     last_synced_sha: 164b0d13947546d173fb8e0452971df1ed5cabcb
     user_starred_at: '2026-02-16T14:22:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -9389,15 +9508,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.041Z'
+      prompt_version: v3
   - repo: andrelandgraf/fullstackrecipes
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - ai-ml
+      - web-dev
+    tags:
+      - web-ai
+      - fullstack
+      - lang:ts
     summary: A Shadcn registry and collection of production-ready patterns and step-by-step guides (recipes) for full stack web AI apps
     last_synced_sha: f4acc5dc1df1c286e4c17f500312600b09cd42c1
     user_starred_at: '2026-02-16T05:29:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -9415,6 +9543,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:24:33.040Z'
+      prompt_version: v3
   - repo: PV-Bhat/vibe-check-mcp-server
     categories:
       - automation
