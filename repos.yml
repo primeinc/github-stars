@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-27T04:27:43.328Z'
+  manifest_updated_at: '2026-04-27T04:28:14.089Z'
   total_repos: 298
   generator_version: v1.0.0
   github_user: primeinc
@@ -5356,13 +5356,17 @@ repositories:
     framework: null
   - repo: antonreshetov/mysigmail
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - email-signature
+      - email-template
+      - lang:vue
     summary: A free and open-source email signature generator for Gmail, Outlook, Apple Mail, etc.
     last_synced_sha: 84b2a88cc92efe2bb87899d16ccc5bb99e0c8382
     user_starred_at: '2026-03-19T06:12:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -5386,16 +5390,26 @@ repositories:
         published_at: '2025-09-18T12:44:14Z'
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.215Z'
+      prompt_version: v3
   - repo: jackwener/OpenCLI
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai-tools
+      - cli
+      - ai-agents
+      - lang:js
     summary: Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ...
     last_synced_sha: 54ffc882837e01acddb710b8dee69825cc442a64
     user_starred_at: '2026-03-19T06:11:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -5419,15 +5433,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.215Z'
+      prompt_version: v3
   - repo: usewaypoint/email-builder-js
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - email-template
+      - email-marketing
+      - no-code
+      - lang:ts
     summary: A free and open-source block-based email template builder.
     last_synced_sha: ce3e610749fc80d7e999b20e28f6e775bfe09da7
     user_starred_at: '2026-03-19T06:11:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5462,15 +5485,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.215Z'
+      prompt_version: v3
   - repo: awesomized/crc-fast-rust
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - crc
+      - hardware-acceleration
+      - simd
+      - lang:rust
     summary: World's fastest generic CRC calculator for all known CRC-16, CRC-32, and CRC-64 variants, as well as bring-your-own custom parameters, using SIMD intrinsics, which can exceed 100Gi B/s on modern sy...
     last_synced_sha: 3a853cc7daf2cd47cc4466f198680cabdfb0b5fa
     user_starred_at: '2026-03-19T04:51:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -5500,15 +5532,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.215Z'
+      prompt_version: v3
   - repo: squidowl/halloy
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - desktop-dev
+    tags:
+      - irc
+      - chat
+      - lang:rust
     summary: IRC application written in Rust
     last_synced_sha: 21aab6dfd4553660f453a6d28725386bd999fd47
     user_starred_at: '2026-03-19T04:50:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -5531,15 +5571,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.215Z'
+      prompt_version: v3
   - repo: daggerhashimoto/openclaw-nerve
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - dashboard
+      - web-ui
+      - ai-agent
+      - lang:ts
     summary: 'Real-time web cockpit for Open Claw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility.'
     last_synced_sha: 0619c803eb484eaa18c83c3e0cfeb0b85588a58f
     user_starred_at: '2026-03-18T12:44:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5572,15 +5621,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.215Z'
+      prompt_version: v3
   - repo: swarmclawai/swarmclaw
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - productivity
+    tags:
+      - ai
+      - orchestration
+      - agent-framework
+      - lang:ts
     summary: Self-hosted multi-agent AI runtime with MCP server support. Build, orchestrate, and run autonomous agents with memory, skills, schedules, and 23+ LLM providers (Claude, GPT, Gemini, Open Router, Ol...
     last_synced_sha: 22ff576a7180e2c913ce5045117a2b2f6115727c
     user_starred_at: '2026-03-18T12:00:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5620,15 +5679,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.215Z'
+      prompt_version: v3
   - repo: openclaw/clawhub
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - skill-directory
+      - ai-tools
+      - lang:ts
     summary: Skill Directory for Open Claw
     last_synced_sha: 743fa3abba42ceab24e2818846e8fe0eebc775a1
     user_starred_at: '2026-03-18T10:25:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5650,15 +5717,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.215Z'
+      prompt_version: v3
   - repo: bubbleran/telco-network-configuration
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - networking
+    tags:
+      - ai-workflow
+      - optimization
+      - network-configuration
+      - lang:python
     summary: The goal of this blueprint is to develop an agentic AI workflow that provides insight to the end user on close-to-optimal configuration values for specific RAN parameters at a cell-site.
     last_synced_sha: 300a06e7568d86c9838827d60e00edcdda40caa5
     user_starred_at: '2026-03-18T09:22:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -5676,15 +5752,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.215Z'
+      prompt_version: v3
   - repo: googleworkspace/cli
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+      - ai-ml
+      - cloud
+    tags:
+      - cli
+      - google-workspace
+      - ai-agent
+      - lang:rust
     summary: Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
     last_synced_sha: a3768d0e82ad83cca2da97724e46bea4ff0e6dbd
     user_starred_at: '2026-03-18T03:11:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -5720,15 +5807,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.215Z'
+      prompt_version: v3
   - repo: sproutmaster/nyuprinters
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - printer-management
+      - student-tool
+      - lang:js
     summary: An application to help students find working printers on the NYU campus
     last_synced_sha: 131744c220dac7ac11931c97d54118d3386b2456
     user_starred_at: '2026-03-18T03:03:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -5748,15 +5843,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.212Z'
+      prompt_version: v3
   - repo: xtieume/PrinterOne
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+      - productivity
+    tags:
+      - printer-management
+      - tcp-server
+      - networking
+      - lang:python
     summary: A comprehensive TCP network print server with integrated GUI management and system tray support for Windows.
     last_synced_sha: 47934437b74810a92c91cbb815b416990554f42e
     user_starred_at: '2026-03-18T03:00:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -5781,15 +5886,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.212Z'
+      prompt_version: v3
   - repo: atefe-aa/silent-print
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - system-admin
+    tags:
+      - silent-printing
+      - windows-service
+      - http-api
+      - lang:go
     summary: A lightweight Windows background service that exposes a local HTTP API so web apps can print HTML silently — no browser print dialog, no user interruption. Perfect for barcode label printing, recei...
     last_synced_sha: 85cc7ce91ee110507ada1eab7017ef19bc2e4d0e
     user_starred_at: '2026-03-18T02:59:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -5813,15 +5927,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.212Z'
+      prompt_version: v3
   - repo: 5a9awneh/printer-address-book-converter
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - address-book
+      - format-converter
+      - cli-tool
+      - lang:powershell
     summary: Universal printer address book converter with intelligent format detection. Supports multifunction printers using Canon, Sharp, Xerox, and Develop/Konica CSV formats. Features fuzzy deduplication, ...
     last_synced_sha: 53bad6876d2d732660890c151fbad62b10346355
     user_starred_at: '2026-03-18T02:59:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -5856,15 +5979,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.212Z'
+      prompt_version: v3
   - repo: lcromer97/PrinterManager
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - printer-management
+      - windows
+      - lang:csharp
     summary: All in one tool to manage printers. Built to be used for Screen Connect's backstage
     last_synced_sha: 862af6b48e52248fc31595c94fbdd36fb1ef76cc
     user_starred_at: '2026-03-18T02:59:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -5888,6 +6019,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:28:13.212Z'
+      prompt_version: v3
   - repo: doomspork/printergeist
     categories:
       - desktop-dev
