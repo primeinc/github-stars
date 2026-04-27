@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-27T04:26:44.665Z'
+  manifest_updated_at: '2026-04-27T04:27:13.177Z'
   total_repos: 298
   generator_version: v1.0.0
   github_user: primeinc
@@ -6369,13 +6369,19 @@ repositories:
     framework: null
   - repo: sergelib/sitemap-visualizer
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - lang:js
+      - visualization
+      - sitemaps
+      - d3js
+      - treeview
     summary: An interactive D3.js visualization tool to explore XML sitemaps as navigable tree and sunburst hierarchies
     last_synced_sha: 13f18a8637fa45eac6048df77def5502d7a6c812
     user_starred_at: '2026-03-18T02:05:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -6393,15 +6399,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.300Z'
+      prompt_version: v3
   - repo: 0x6d69636b/windows_hardening
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - lang:powershell
+      - windows
+      - hardening
+      - audit
+      - defense
     summary: Hardening Kitty and Windows Hardening Settings
     last_synced_sha: 9fee16041e3af0b1d7da5d630705561518c3f012
     user_starred_at: '2026-03-18T01:25:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -6440,15 +6456,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.300Z'
+      prompt_version: v3
   - repo: dragonflyoss/dragonfly
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - networking
+    tags:
+      - lang:go
+      - p2p
+      - cloud-native
+      - data-distribution
+      - docker
     summary: Delivers efficient, stable, and secure data distribution and acceleration powered by P2P technology, with an optional content‑addressable filesystem that accelerates OCI container launch.
     last_synced_sha: 6064b18ae486096e86852344b8f1270cb6e96026
     user_starred_at: '2026-03-18T01:22:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -6475,15 +6501,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.300Z'
+      prompt_version: v3
   - repo: node-config/node-config
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - web-dev
+    tags:
+      - lang:js
+      - configuration
+      - nodejs
+      - deployment
+      - settings
     summary: Node.js Application Configuration
     last_synced_sha: 067970ff282d6b82a194a53e468da517c02cc4c4
     user_starred_at: '2026-03-18T01:21:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -6509,15 +6545,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.300Z'
+      prompt_version: v3
   - repo: ChristopherHX/github-act-runner
     categories:
-      - unclassified
-    tags: []
+      - automation
+    tags:
+      - lang:go
+      - github-actions
+      - docker
+      - ci
+      - self-hosted
     summary: act as self-hosted runner
     last_synced_sha: 25b9930ac6e8c65185dcbba863ce2ee221ce7273
     user_starred_at: '2026-03-18T00:15:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -6548,15 +6593,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.300Z'
+      prompt_version: v3
   - repo: ChristopherHX/runner.server
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - deployment
+    tags:
+      - lang:csharp
+      - github-actions
+      - azure-pipelines
+      - ci
+      - self-hosted
     summary: An unofficial Local Git Hub Actions and Azure Pipelines Emulator
     last_synced_sha: 372fc967687765119d84aaba66e84e3bd2ea40bd
     user_starred_at: '2026-03-18T00:15:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: C#
@@ -6587,15 +6642,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.299Z'
+      prompt_version: v3
   - repo: zumwald/better-vsts-npm-auth
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - lang:ts
+      - oauth
+      - npm
+      - auth
     summary: Platform agnostic library and acompanying oauth service enabling developers to easily obtain and use tokens for authorizing NPM feeds in VSTS
     last_synced_sha: 7a1dffc8c1cb20eb756e3d8bc33da011748d6ca0
     user_starred_at: '2026-03-17T23:13:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -6613,15 +6677,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.299Z'
+      prompt_version: v3
   - repo: changesets/ghcommit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - lang:ts
+      - github-integration
+      - file-management
     summary: Type Script library for directly changing files on Git Hub
     last_synced_sha: 1723769e9c979d2ca750c8d239414ac560c61e30
     user_starred_at: '2026-03-17T04:46:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -6641,15 +6713,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.299Z'
+      prompt_version: v3
   - repo: docker/docker-credential-helpers
     categories:
-      - unclassified
-    tags: []
+      - security
+      - containers
+    tags:
+      - lang:go
+      - docker
+      - credential-management
     summary: Programs to keep Docker login credentials safe by storing in platform keystores
     last_synced_sha: ca5e83c83af469c2991f0f41509c27f6cbe7cc42
     user_starred_at: '2026-03-17T02:33:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -6669,15 +6749,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.299Z'
+      prompt_version: v3
   - repo: microsoft/beachball
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - lang:ts
+      - semver
+      - versioning
+      - git
+      - npm
     summary: The Sunniest Semantic Version Bumper
     last_synced_sha: 5a9519b35f934087c4aa605584ba1e8facd08fca
     user_starred_at: '2026-03-16T21:31:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6700,15 +6790,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.299Z'
+      prompt_version: v3
   - repo: changesets/changesets
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - lang:ts
+      - versioning
+      - changelogs
+      - monorepos
     summary: 🦋 A way to manage your versioning and changelogs with a focus on monorepos
     last_synced_sha: 9cce6db18ddecbf7f9cded45254b9905b19a7516
     user_starred_at: '2026-03-16T20:57:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -6728,15 +6827,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.296Z'
+      prompt_version: v3
   - repo: verdaccio/verdaccio
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - containers
+    tags:
+      - lang:ts
+      - npm
+      - registry
+      - private-npm
+      - nodejs
     summary: A lightweight Node.js private proxy registry
     last_synced_sha: 5e64d64df21a01aa90bc907a7a6b1f3c0e7fe99c
     user_starred_at: '2026-03-16T20:40:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6770,15 +6879,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.296Z'
+      prompt_version: v3
   - repo: Brainicism/bgutil-ytdlp-pot-provider
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - apis
+    tags:
+      - lang:ts
+      - yt-dlp
+      - plugins
+      - token-provider
     summary: Proof-of-origin token provider plugin for yt-dlp
     last_synced_sha: 6b497de5a6cbaf106bd94a934c5d2794c3fdf8bb
     user_starred_at: '2026-03-15T20:57:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6801,15 +6919,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.296Z'
+      prompt_version: v3
   - repo: siyuan-note/siyuan
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - lang:ts
+      - knowledge-management
+      - markdown
+      - ocr
+      - note-taking
     summary: A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.
     last_synced_sha: 96dfe0bea4742d6664e941f105a17f35fade4a26
     user_starred_at: '2026-03-15T18:43:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6848,15 +6976,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.296Z'
+      prompt_version: v3
   - repo: PaddlePaddle/PaddleX
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - deployment
+    tags:
+      - lang:python
+      - classification
+      - segmentation
+      - object-detection
+      - ocr
     summary: All-in-One Development Tool based on Paddle Paddle
     last_synced_sha: 0acbb30720b71566717d12540381187b1fff0948
     user_starred_at: '2026-03-15T18:43:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6888,6 +7026,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:12.296Z'
+      prompt_version: v3
   - repo: zotero/zotero
     categories:
       - productivity
