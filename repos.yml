@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-27T04:28:43.672Z'
+  manifest_updated_at: '2026-04-27T04:29:14.898Z'
   total_repos: 298
   generator_version: v1.0.0
   github_user: primeinc
@@ -4410,13 +4410,17 @@ repositories:
     framework: null
   - repo: apireno/DOMShell
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - shell
+      - automation
+      - lang:ts
     summary: Agentic Shell
     last_synced_sha: 22bb79b28c0becf378aad1a66359d4308bfc60ce
     user_starred_at: '2026-04-15T16:45:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -4436,15 +4440,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: zackham/narrate
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+    tags:
+      - tts
+      - audio-generation
+      - lang:python
+      - local-audio
     summary: Multi-speaker script to audio using local TTS. Excellent quality, zero cost, one command.
     last_synced_sha: eaf9ed48914ee6570e881fab6f4034029d8c1dac
     user_starred_at: '2026-04-15T16:35:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -4462,15 +4474,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: facebookresearch/ai4animationpy
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - game-dev
+    tags:
+      - character-animation
+      - neural-networks
+      - lang:python
+      - ai-driven
     summary: A Python framework for AI-driven character animation using neural networks.
     last_synced_sha: 1cb1677110ce97ce78fba9135a1111afc9112a04
     user_starred_at: '2026-04-15T16:34:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -4488,15 +4509,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: JuliusBrussee/caveman
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - token-optimization
+      - prompt-engineering
+      - claude-code
+      - lang:python
+      - ai
     summary: 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
     last_synced_sha: 84cc3c14fa1e10182adaced856e003406ccd250d
     user_starred_at: '2026-04-15T16:28:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4526,15 +4557,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: honojs/hono
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - web-framework
+      - router
+      - lang:ts
+      - typescript
     summary: Web framework built on Web Standards
     last_synced_sha: 027e3dfca9d58bbd6b2e11adef724d26bb4f4123
     user_starred_at: '2026-04-15T06:44:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4563,15 +4603,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: cli/gh-extension-precompile
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - github-cli
+      - actions
+      - lang:shell
+      - binary-publishing
     summary: Action for publishing binary Git Hub CLI extensions
     last_synced_sha: 1b1621f9b94cee507da6f9f97d88901b47985373
     user_starred_at: '2026-04-15T02:19:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -4591,15 +4640,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: shanraisshan/claude-code-best-practice
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - best-practices
+      - agentic-engineering
+      - claude-code
+      - lang:html
     summary: from vibe coding to agentic engineering - practice makes claude perfect
     last_synced_sha: f734255f60cd2102b8401eaf3c9b41f379de2b8c
     user_starred_at: '2026-04-09T14:15:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -4637,15 +4695,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: garrytan/gstack
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+    tags:
+      - workflow
+      - tools-automation
+      - claude-code
+      - lang:ts
     summary: 'Use Garry Tan''s exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA'
     last_synced_sha: dde55103fcc42bd446d804ddc15567ced8455ac1
     user_starred_at: '2026-04-09T13:42:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -4663,15 +4730,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: albanobattistella/EinVault
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - animal-tracking
+      - sqlite
+      - lang:ts
+      - svelte
     summary: Self-hosted animal companion health and care tracker for homelabs. Built with Svelte Kit and SQLite.
     last_synced_sha: 54241d46e6f36eb284a598b3074bf32d59b8d64d
     user_starred_at: '2026-04-09T13:41:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: TypeScript
@@ -4689,16 +4765,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: svelte
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: Yeachan-Heo/clawhip
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - notification-router
+      - bypass-gateway
+      - event-routing
+      - lang:rust
     summary: 'claw + whip: Event-to-channel notification router — bypasses gateway sessions to avoid context pollution'
     last_synced_sha: ff3ba32dc22a143d53bec40870d3b52b2fa11a2b
     user_starred_at: '2026-04-09T13:40:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -4718,15 +4803,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: ultraworkers/claw-code
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - fast
+      - high-performance
+      - lang:rust
+      - open-source
     summary: 'The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKq FWd Built in Rust using oh-my-codex.'
     last_synced_sha: a389f8dff1d591d2eafc2f48747313cd556412ee
     user_starred_at: '2026-04-09T13:39:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -4744,15 +4838,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: unixshells/latch
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - networking
+    tags:
+      - terminal
+      - remote-access
+      - tmux
+      - lang:go
     summary: Terminal multiplexer with built-in remote access. tmux you can SSH into, open in a browser, or connect to with mosh.
     last_synced_sha: a66df05a501992fab3d96673c151e1de0d7e2b73
     user_starred_at: '2026-04-09T13:38:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -4772,15 +4875,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: MemPalace/mempalace
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ai
+      - memory
+      - lang:python
+      - llm
+      - model-performance
     summary: The best-benchmarked open-source AI memory system. And it's free.
     last_synced_sha: 9dbb4ced8359e7105682de123b8daa58bc37ba96
     user_starred_at: '2026-04-09T13:38:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4806,15 +4919,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: safishamsi/graphify
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - knowledge-graph
+      - codex
+      - skills
+      - lang:python
+      - ai-assistant
     summary: AI coding assistant skill (Claude Code, Codex, Open Code, Cursor, Gemini CLI, Git Hub Copilot CLI, Open Claw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images...
     last_synced_sha: 770d7f54c40d7301a0166a6b7782cb03827897e5
     user_starred_at: '2026-04-09T13:38:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -4842,15 +4965,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: spool-lab/spool
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - ai-agents
+      - full-text-search
+      - local-first
+      - electron
+      - lang:ts
     summary: Search your Claude Code sessions, Codex history, Git Hub stars, and 50+ sources — locally, instantly. Your AI agents can search too.
     last_synced_sha: 94e063bca07676c6e5f6bf458d90b00471f099bd
     user_starred_at: '2026-04-09T13:37:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -4884,6 +5017,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:29:13.997Z'
+      prompt_version: v3
   - repo: farzaa/clicky
     categories:
       - mobile-dev
