@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-04-27T04:27:13.177Z'
+  manifest_updated_at: '2026-04-27T04:27:43.328Z'
   total_repos: 298
   generator_version: v1.0.0
   github_user: primeinc
@@ -5890,13 +5890,17 @@ repositories:
     framework: null
   - repo: doomspork/printergeist
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - networking
+    tags:
+      - printer-management
+      - websockets
+      - lang:rust
     summary: No description provided
     last_synced_sha: 3e2b69fa8452148ab2dc0bd1a5ef764f1bd56be6
     user_starred_at: '2026-03-18T02:58:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -5917,15 +5921,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: basillal/TrackNPrint
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - monitoring
+    tags:
+      - printer-management
+      - real-time-tracking
+      - lang:ts
     summary: Track NPrint is a full-stack application designed to manage and monitor bulk printing jobs with real-time tracking. It enables seamless coordination between a frontend dashboard and backend printin...
     last_synced_sha: eb6ba96aeedee6f4b4b88e51c474a4680d4824c0
     user_starred_at: '2026-03-18T02:58:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5944,15 +5956,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: YakirOren/Print-Center
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - system-admin
+    tags:
+      - printer-manager
+      - ipp-proxy
+      - lang:ts
     summary: Printer management dashboard and IPP proxy with print job rules and actions.
     last_synced_sha: f8991e0c28f2b63d9f82214e9a88811c1431668f
     user_starred_at: '2026-03-18T02:58:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -5974,15 +5994,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: epixoul/Inkoray-GUI
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - ui-libraries
+    tags:
+      - printer-management
+      - gui-interface
     summary: A GUI/cmd base software to control any type of printer (laser, inkjet, thermal, POS, etc.) and create custom templates and patterns!
     last_synced_sha: 947439cbd41356f925fc0bc8e9ade8ecb79257c9
     user_starred_at: '2026-03-18T02:57:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -6001,15 +6028,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: Foyerr/Update-PrinterPortConfig
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - printer-management
+      - windows-server
+      - powershell
     summary: This repository contains Power Shell functions focused on resolving mismatches between printer ports and their actual IP addresses in Windows Servers
     last_synced_sha: b24c9042cac6b960509308c152b6dd23403279c4
     user_starred_at: '2026-03-18T02:57:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -6030,15 +6065,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: ipat8/cmd-printer-management
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - cmd-scripts
+      - printer-management
+      - gpo
+      - lang:batchfile
     summary: Manage WSD Printers via CMD scripts
     last_synced_sha: 5be3755ae86bf60486a09994d7314acb93bf5ffb
     user_starred_at: '2026-03-18T02:56:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -6069,15 +6113,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: cityssm/snmp-oid-collector
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - system-admin
+    tags:
+      - snmp
+      - oid-collection
+      - lang:ts
     summary: Collect OID values from a series of SNMP-enabled servers in a flash!
     last_synced_sha: 6fbbcf2ce4be54b28fd6cd0c8608f1ba68d7c338
     user_starred_at: '2026-03-18T02:55:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6100,15 +6152,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: milliytech/printer-service
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - apis
+    tags:
+      - printer-management
+      - document-service
+      - lang:python
     summary: 🔵Python-based service to scan, copy, and print documents with configurable printer settings.
     last_synced_sha: f2aafa4aac492de754a0b92e7de5c7c29a5984c1
     user_starred_at: '2026-03-18T02:55:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6130,15 +6190,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: Yayi-Dev/esc-pos-printer-manager
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - apis
+    tags:
+      - esc-pos
+      - printer-management
+      - nodejs
+      - lang:php
     summary: A plugin to manage ESC/POS printers via node.js (javascript / typescript) without using zadig (Win USBDriver)
     last_synced_sha: ace360a9f97a0824a6eacc8aa07cba3b53db3155
     user_starred_at: '2026-03-18T02:54:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -6166,15 +6235,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: dot-billy/nodebyte
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - digital-inventory
+      - tool
+      - lang:ts
     summary: Nodebyte - your digital inventory
     last_synced_sha: 341d3c1e5aa5576dca5990729a5e18ab627121b7
     user_starred_at: '2026-03-18T02:09:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -6192,15 +6269,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: zhangxilong-43/SecurePdfViewerForReact
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - security
+    tags:
+      - pdf-viewer
+      - xss-prevention
+      - secure-rendering
+      - lang:ts
     summary: A secure PDF viewer component for React. Uses canvas-only rendering to prevent XSS attacks from malicious PDF files.
     last_synced_sha: b8445594540969f24837a71a72758831ddc497cd
     user_starred_at: '2026-03-18T02:08:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -6217,16 +6303,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: Lum1104/Understand-Anything
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+      - data-science
+    tags:
+      - knowledge-graph
+      - interactive-learning
+      - search-tools
+      - lang:ts
     summary: Graphs that teach > graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claud...
     last_synced_sha: d3c2c65b86097ccf7451a22b516eef1184724eee
     user_starred_at: '2026-03-18T02:07:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6260,15 +6356,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: KnudsenMorten/SecurityInsight
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+    tags:
+      - risk-management
+      - secure-score
+      - windows
+      - lang:powershell
     summary: Rethink Secure Score into a new risk-based security risk score, based on consequence, probability and risk factors. Solution includes critical asset tagging, ready-to-use reports (based on Defender...
     last_synced_sha: dd8a382532797c4e5a38766c1281cf32d90ed96f
     user_starred_at: '2026-03-18T02:07:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -6288,15 +6393,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: BigBodyCobain/Shadowbroker
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - security
+      - networking
+    tags:
+      - osint
+      - earthquake-visualization
+      - cctv-surveillance
+      - spy-satellites
+      - lang:ts
     summary: Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. The knowledge is av...
     last_synced_sha: ea457f27dab4b71ce26f663e0acb9283a4ba3557
     user_starred_at: '2026-03-18T02:05:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -6330,15 +6446,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: aiming-lab/AutoResearchClaw
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - learning
+    tags:
+      - autonomous-research
+      - paper-generation
+      - scientific-discovery
+      - llm-agents
+      - lang:python
     summary: Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞
     last_synced_sha: 84dad0a401404739cfcc47851cd1d282b671bb2f
     user_starred_at: '2026-03-18T02:05:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -6367,6 +6494,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-04-27T04:27:42.429Z'
+      prompt_version: v3
   - repo: sergelib/sitemap-visualizer
     categories:
       - ui-libraries
