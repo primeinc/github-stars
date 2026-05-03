@@ -1,17 +1,29 @@
 # Ui-libraries
 
-*7 repositories*
+*19 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [opral/paraglide-js](https://github.com/opral/paraglide-js) | Compiler-based i18n library that emits tree-shakable translations, leading to up to 70% smaller bundle sizes. | `TypeScript` ★ 379 | 2026-04-24 |
-| [nagix/mini-tokyo-3d](https://github.com/nagix/mini-tokyo-3d) | A real-time 3D digital map of Tokyo's public transport system | `JavaScript` ★ 4k | 2026-04-04 |
-| [EKKOLearnAI/hermes-web-ui](https://github.com/EKKOLearnAI/hermes-web-ui) | Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channel configuration (Telegram, Discord, Slack, Whats App) | `TypeScript` ★ 2.3k | 2026-04-26 |
-| [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Thirteen editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop. | `HTML` ★ 2k | 2026-04-22 |
+| [penpot/penpot](https://github.com/penpot/penpot) | Penpot: The open-source design tool for design and code collaboration | `Clojure` ★ 47.2k | 2026-04-30 |
+| [opral/paraglide-js](https://github.com/opral/paraglide-js) | Compiler-based i18n library that emits tree-shakable translations, leading to up to 70% smaller bundle sizes. | `TypeScript` ★ 384 | 2026-04-29 |
+| [nagix/mini-tokyo-3d](https://github.com/nagix/mini-tokyo-3d) | A real-time 3D digital map of Tokyo's public transport system | `JavaScript` ★ 4.1k | 2026-04-04 |
+| [EKKOLearnAI/hermes-web-ui](https://github.com/EKKOLearnAI/hermes-web-ui) | Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channel configuration (Telegram, Discord, Slack, Whats App) | `TypeScript` ★ 3.3k | 2026-05-03 |
+| [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Thirteen editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop. | `HTML` ★ 2.2k | 2026-04-22 |
 | [shadowoff09/pathfinder](https://github.com/shadowoff09/pathfinder) | A modern, interactive mapping application built with Next.js 15, Mapbox GL, and Type Script. | `TypeScript` ★ 147 | 2026-02-12 |
-| [outsourc-e/hermes-workspace](https://github.com/outsourc-e/hermes-workspace) | Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector. | `TypeScript` ★ 2.4k | 2026-04-25 |
-| [tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts) | Performant financial charts built with HTML5 canvas | `TypeScript` ★ 15.4k | 2026-04-24 |
+| [outsourc-e/hermes-workspace](https://github.com/outsourc-e/hermes-workspace) | Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector. | `JavaScript` ★ 3k | 2026-05-03 |
+| [tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts) | Performant financial charts built with HTML5 canvas | `TypeScript` ★ 15.5k | 2026-04-30 |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness better at design. | `JavaScript` ★ 24.4k | 2026-05-02 |
+| [farzaa/clicky](https://github.com/farzaa/clicky) | No description provided | `Swift` ★ 5.3k | 2026-04-28 |
+| [crazyscot/casparcg-client](https://github.com/crazyscot/casparcg-client) | Clients and templates for the Caspar CG broadcast graphics engine | `JavaScript` ★ 17 | 2022-08-18 |
+| [TuomoKu/SPX-GC](https://github.com/TuomoKu/SPX-GC) | SPX is a graphics control client for live video productions and live streams using Caspar CG, OBS, v Mix, or similar software. | `JavaScript` ★ 409 | 2026-03-09 |
+| [nodecg/nodecg](https://github.com/nodecg/nodecg) | Create broadcast graphics using Node.js and a browser | `TypeScript` ★ 1.1k | 2025-12-08 |
+| [antonreshetov/mysigmail](https://github.com/antonreshetov/mysigmail) | A free and open-source email signature generator for Gmail, Outlook, Apple Mail, etc. | `Vue` ★ 1.3k | 2026-01-08 |
+| [usewaypoint/email-builder-js](https://github.com/usewaypoint/email-builder-js) | A free and open-source block-based email template builder. | `TypeScript` ★ 1.6k | 2026-02-09 |
+| [daggerhashimoto/openclaw-nerve](https://github.com/daggerhashimoto/openclaw-nerve) | Real-time web cockpit for Open Claw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility. | `TypeScript` ★ 781 | 2026-04-27 |
+| [epixoul/Inkoray-GUI](https://github.com/epixoul/Inkoray-GUI) | A GUI/cmd base software to control any type of printer (laser, inkjet, thermal, POS, etc.) and create custom templates and patterns! | ★ 2 | 2025-01-24 |
+| [zhangxilong-43/SecurePdfViewerForReact](https://github.com/zhangxilong-43/SecurePdfViewerForReact) | A secure PDF viewer component for React. Uses canvas-only rendering to prevent XSS attacks from malicious PDF files. | `TypeScript` ★ 2 | 2026-03-17 |
+| [sergelib/sitemap-visualizer](https://github.com/sergelib/sitemap-visualizer) | An interactive D3.js visualization tool to explore XML sitemaps as navigable tree and sunburst hierarchies | `JavaScript` ★ 2 | 2026-01-28 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
