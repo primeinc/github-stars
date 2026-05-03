@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-03T04:26:04.417Z'
+  manifest_updated_at: '2026-05-03T04:26:37.090Z'
   total_repos: 197
   generator_version: v1.0.0
   github_user: primeinc
@@ -7204,13 +7204,19 @@ repositories:
       prompt_version: v3
   - repo: omachala/heroshot
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - documentation
+    tags:
+      - lang:ts
+      - screenshot
+      - playwright
+      - multi-viewport
+      - ci-ready
     summary: Screenshot automation framework. Define once, regenerate forever. Visual picker, multi-viewport, light/dark mode, CI-ready.
     last_synced_sha: 58d634c03120156b7839e2bdb56707530675e98a
     user_starred_at: '2026-04-30T12:57:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7241,15 +7247,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-03T04:26:36.181Z'
+      prompt_version: v3
   - repo: HunxByts/GhostTrack
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+    tags:
+      - lang:python
+      - osint
+      - location-tracking
+      - ip-geolocation
+      - information-gathering
     summary: Useful tool to track location or mobile number
     last_synced_sha: a5cb8ad4c08acd803f166fb067b7dac724d6cb3d
     user_starred_at: '2026-04-30T06:26:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -7286,15 +7302,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-03T04:26:36.181Z'
+      prompt_version: v3
   - repo: joernio/joern
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - security
+    tags:
+      - lang:scala
+      - code-analysis
+      - syntax-tree
+      - dataflow
+      - controlflow
     summary: Open-source code analysis platform for C/C++/Java/Binary/Javascript/Python/Kotlin based on code property graphs. Discord https://discord.gg/vv4MH284Hc
     last_synced_sha: 9e46e300f7cbb529bedff3862f16476b194e9f2c
     user_starred_at: '2026-04-30T04:33:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Scala
       topics:
@@ -7333,15 +7359,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-03T04:26:36.180Z'
+      prompt_version: v3
   - repo: cisagov/kev-data
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - security
+    tags:
+      - cisa-data
+      - security-information
+      - kev-data
     summary: Mirror of cisa.gov/kev data files
     last_synced_sha: a1a651f24e56c6ff8886d6235056936a9cfda6f2
     user_starred_at: '2026-04-30T03:51:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -7359,15 +7393,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-03T04:26:36.180Z'
+      prompt_version: v3
   - repo: actions/runner-images
     categories:
-      - unclassified
-    tags: []
+      - deployment
+      - automation
+    tags:
+      - lang:powershell
+      - ci-cd
+      - runner-images
+      - github-actions
     summary: Git Hub Actions runner images
     last_synced_sha: 7b31e3614e2a77f6896b8664640ffe5c827f7943
     user_starred_at: '2026-04-29T23:06:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -7387,15 +7430,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-03T04:26:36.180Z'
+      prompt_version: v3
   - repo: mdx-js/mdx
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - web-dev
+    tags:
+      - lang:js
+      - mdx
+      - markdown
+      - react
+      - vue
     summary: Markdown for the component era
     last_synced_sha: 1b31316e2a60005fec14b2dec2219b59cd81f449
     user_starred_at: '2026-04-29T22:42:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -7422,15 +7475,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-03T04:26:36.180Z'
+      prompt_version: v3
   - repo: listr2/listr2
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - lang:ts
+      - cli
+      - task-management
+      - nodejs
+      - terminal
     summary: Node JS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive.
     last_synced_sha: 061b739d4ca0049d52f52b08f9337ce88defc1fe
     user_starred_at: '2026-04-29T20:58:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7463,15 +7526,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-03T04:26:36.180Z'
+      prompt_version: v3
   - repo: owu/wsl-dashboard
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - system-admin
+    tags:
+      - lang:rust
+      - dashboard
+      - wsl
+      - management
+      - port-forwarding
     summary: A GUI manager for WSL featuring a modern UI — a lightweight, low‑memory, high‑performance dashboard to manage WSL instances.
     last_synced_sha: 6ec2794fc71a8c63bed9d1b2d0929b0046545e2a
     user_starred_at: '2026-04-29T16:12:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -7503,15 +7576,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-03T04:26:36.180Z'
+      prompt_version: v3
   - repo: zuice/hono-tailwind
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - lang:ts
+      - tailwind
+      - hono
+      - frontend
+      - css-framework
     summary: A Hono 🔥 middleware for getting started with Tailwind right away!
     last_synced_sha: 9e6bfc534e21073eb303aaf2b81fe8c9b7ac3750
     user_starred_at: '2026-04-29T12:54:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -7529,15 +7612,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-03T04:26:36.180Z'
+      prompt_version: v3
   - repo: renovatebot/renovate
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - lang:ts
+      - dependency-manager
+      - ci-cd
+      - npm
+      - github
     summary: 'Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io'
     last_synced_sha: 1475300a66291189168f38e2465ea95ec8c2f67e
     user_starred_at: '2026-04-29T12:38:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -7566,15 +7659,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-03T04:26:36.180Z'
+      prompt_version: v3
   - repo: microsoft/agent-governance-toolkit
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - lang:python
+      - governance
+      - ai-safety
+      - policy-engine
+      - owasp
     summary: AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.
     last_synced_sha: 2505b60568822334d28960b6103da06e173152cf
     user_starred_at: '2026-04-29T11:11:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -7606,15 +7709,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-03T04:26:36.180Z'
+      prompt_version: v3
   - repo: microsoft/apm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - lang:python
+      - package-manager
+      - ai-agents
+      - prompt-engineering
     summary: Agent Package Manager
     last_synced_sha: f88a11fd8c9bf68534f3878c2e73d65cea51824c
     user_starred_at: '2026-04-29T11:09:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -7641,15 +7753,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-03T04:26:36.180Z'
+      prompt_version: v3
   - repo: microsoft/work-iq
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - cli
+      - lang:powershell
+      - server-management
     summary: MCP Server and CLI for accessing Work IQ
     last_synced_sha: c5e6e58d9794100c2480e8753bf5b490b389ab7d
     user_starred_at: '2026-04-29T11:04:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -7667,6 +7787,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-03T04:26:36.180Z'
+      prompt_version: v3
   - repo: microsoft/hve-core
     categories:
       - automation
