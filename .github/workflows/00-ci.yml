@@ -89,13 +89,22 @@ jobs:
           ACTIONLINT_VERSION: '1.7.12'
         run: |
           set -euo pipefail
-          # download-actionlint.bash takes [VERSION] [DIR] positionally; pin the
-          # version explicitly so a future actionlint release cannot silently
-          # change the gate.
+          # download-actionlint.bash takes [VERSION] [DIR] positionally; pin
+          # the version explicitly so a future actionlint release cannot
+          # silently change the gate.
           curl -fsSL "https://raw.githubusercontent.com/rhysd/actionlint/v${ACTIONLINT_VERSION}/scripts/download-actionlint.bash" \
             | bash -s -- "${ACTIONLINT_VERSION}" .
           ./actionlint -version
-          ./actionlint -color .github/workflows/
+          # v1.7.12 errors with "is a directory" if given a bare dir; pass
+          # explicit yaml files so behavior is independent of the version's
+          # default expansion.
+          shopt -s nullglob
+          files=( .github/workflows/*.yml .github/workflows/*.yaml )
+          if [ "${#files[@]}" -eq 0 ]; then
+            echo "::error::No workflow files found under .github/workflows/." >&2
+            exit 1
+          fi
+          ./actionlint -color "${files[@]}"
 
       # Specific guard against the cardinalby/schema-validator-action mode
       # footgun. The action accepts default | lax | strong | spec only.
@@ -103,23 +112,42 @@ jobs:
       # production chain (see 02M-mode-correction.md Bug A). actionlint
       # cannot catch this because cardinalby's action.yml does not enum
       # the mode field.
+      #
+      # The regex is anchored to the start of a YAML key so it cannot
+      # match `mode: 'strict'` substrings inside echo lines or comments
+      # (which is how the v1 of this guard self-tripped on its own
+      # diagnostic strings).
       - name: Reject invalid cardinalby/schema-validator-action mode values
         run: |
           set -euo pipefail
-          # Look for `mode:` lines in workflows that use this specific action.
-          # Allowed values per upstream action.yml + README:
-          #   default, lax, strong, spec
-          bad=$(grep -rE "mode:\s*['\"]?strict['\"]?" .github/workflows/ || true)
+          shopt -s nullglob
+          files=( .github/workflows/*.yml .github/workflows/*.yaml )
+          bad=""
+          for f in "${files[@]}"; do
+            # Only inspect files that actually use the action.
+            if ! grep -q 'cardinalby/schema-validator-action' "$f"; then
+              continue
+            fi
+            # Anchored to ^\s*mode: so we only match real YAML keys.
+            hit=$(grep -nE "^[[:space:]]+mode:[[:space:]]*['\"]?strict['\"]?[[:space:]]*$" "$f" || true)
+            if [ -n "$hit" ]; then
+              bad="${bad}${f}:\n${hit}\n"
+            fi
+          done
           if [ -n "$bad" ]; then
-            echo "::error::cardinalby/schema-validator-action does not accept mode: 'strict'." >&2
-            echo "::error::Allowed: default | lax | strong | spec. See .sisyphus/proofs/02M-mode-correction.md." >&2
-            echo "$bad" >&2
+            {
+              echo "::error::cardinalby/schema-validator-action does not accept the value reserved for an invalid mode."
+              echo "::error::Allowed: default | lax | strong | spec. See .sisyphus/proofs/02M-mode-correction.md."
+              printf '%b' "$bad"
+            } >&2
             exit 1
           fi
-          echo "No invalid 'strict' mode values found in workflow YAML."
+          echo "No invalid mode values found in cardinalby/schema-validator-action steps."
 
       - name: workflow-lint summary
         if: always()
+        env:
+          ACTIONLINT_VERSION: '1.7.12'
         run: |
           {
             echo "# CI (workflow-lint)"
@@ -128,8 +156,8 @@ jobs:
             echo "- Run ID: \`${{ github.run_id }}\`"
             echo ""
             echo "## Gates"
-            echo "- \`actionlint v1.7.7\`"
-            echo "- cardinalby/schema-validator-action mode-value guard (rejects \`mode: 'strict'\`)"
+            echo "- \`actionlint v${ACTIONLINT_VERSION}\`"
+            echo "- cardinalby/schema-validator-action mode-value guard (rejects unsupported values)"
             echo ""
             echo "Tracking issue for richer dry-run gates: #62"
           } >> "$GITHUB_STEP_SUMMARY"
