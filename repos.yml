@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-10T07:33:36.804Z'
+  manifest_updated_at: '2026-05-10T07:34:19.094Z'
   total_repos: 2612
   generator_version: v1.0.0
   github_user: primeinc
@@ -11617,13 +11617,18 @@ repositories:
     framework: null
   - repo: juehang/vscode-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - vscode
+      - mcp
+      - ai-coding
+      - lang:ts
     summary: MCP server to expose VS Code editing features to an LLM for AI coding
     last_synced_sha: 4f5162f4881ec02d03c65cd1ff029ae70fc468dc
     user_starred_at: '2026-02-16T05:17:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -11641,15 +11646,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: coleam00/remote-mcp-server-with-auth
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - security
+    tags:
+      - oauth
+      - authentication
+      - mcp
+      - lang:ts
     summary: Template for a remote MCP server with Git Hub OAuth - following best practices for building MCP servers so you can take this as a starting point for any MCP server you want to build!
     last_synced_sha: 2da7bb83099b59900bf0564a3896d025f6f9baf9
     user_starred_at: '2026-02-16T05:17:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -11667,15 +11681,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: Tiberriver256/mcp-server-azure-devops
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - automation
+    tags:
+      - azure-devops
+      - mcp
+      - ai
+      - lang:ts
     summary: An MCP server for Azure Dev Ops
     last_synced_sha: 7ad868b9a01f94929e5563dbee5d09d2d121c6ae
     user_starred_at: '2026-02-16T05:17:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11701,15 +11724,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: executeautomation/mcp-database-server
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - automation
+    tags:
+      - sqlite
+      - posgresql
+      - sqlserver
+      - mcp
+      - lang:ts
     summary: MCP Database Server is a new MCP Server which helps connect with Sqlite, Sql Server and Posgresql Databases
     last_synced_sha: d6afa4be08eb05343195635fa9462746a6be3a59
     user_starred_at: '2026-02-16T05:17:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11731,15 +11764,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: e2b-dev/mcp-server
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - claude
+      - mcp
+      - script-execution
+      - lang:js
     summary: Giving Claude ability to run code with E2B via MCP (Model Context Protocol)
     last_synced_sha: dba87432cacaa7a5af1326d72e37e2d770628a0b
     user_starred_at: '2026-02-16T05:14:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: JavaScript
@@ -11763,15 +11805,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: Wh0am123/MCP-Kali-Server
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - penetration-testing
+      - pentesting
+      - mcp
+      - lang:python
     summary: MCP configuration to connect AI agent to a Linux machine.
     last_synced_sha: 00154c053845b2ec4c3eef49ad09dd9bb2d3b7aa
     user_starred_at: '2026-02-16T05:13:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -11795,6 +11846,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: modelcontextprotocol/registry
     categories:
       - apis
@@ -11833,13 +11888,18 @@ repositories:
     framework: null
   - repo: Softeria/ms-365-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - microsoft-365
+      - graph-api
+      - mcp
+      - lang:ts
     summary: A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API
     last_synced_sha: fc532afb2de17dbb070ff58777478b7b7168c059
     user_starred_at: '2026-02-16T05:13:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -11857,15 +11917,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: mark3labs/mcp-filesystem-server
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - filesystem
+      - mcp
+      - lang:go
     summary: Go server implementing Model Context Protocol (MCP) for filesystem operations.
     last_synced_sha: ba3f07f22c309d932fa9b1cebe1eb7c55fcbb83b
     user_starred_at: '2026-02-16T05:13:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -11883,15 +11951,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: negokaz/excel-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - automation
+    tags:
+      - excel
+      - data-processing
+      - lang:go
     summary: A Model Context Protocol (MCP) server that reads and writes MS Excel data
     last_synced_sha: 1ff4340573c3e421920282da1602afd89f3bb282
     user_starred_at: '2026-02-16T05:13:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -11909,15 +11985,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: janwilmake/openapi-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - openapi
+      - mcp
+      - lang:ts
     summary: Allow AI to wade through complex Open APIs using Simple Language
     last_synced_sha: 23c6986f8f2c1d44b718f914787209cb7e377d6f
     user_starred_at: '2026-02-16T05:13:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -11935,15 +12019,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: echelon-ai-labs/servicenow-mcp
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - servicenow
+      - mcp
+      - lang:python
     summary: MCP Server for Service Now
     last_synced_sha: 06250607bdfc814f9bb56551bba16c3a7fb5a8c9
     user_starred_at: '2026-02-16T05:13:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11961,15 +12053,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: MCPJam/inspector
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - debugger
+      - chatgpt
+      - mcp
+      - lang:ts
     summary: Development platform to debug, chat, inspect, and evaluate MCP servers, MCP apps, and Chat GPT apps.
     last_synced_sha: 9531ef3805c4e4dbb76f62b9fe45f89574a63530
     user_starred_at: '2026-02-16T05:12:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -12007,15 +12108,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: GH05TCREW/MetasploitMCP
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - metasploit
+      - mcp
+      - lang:python
     summary: MCP Server for Metasploit
     last_synced_sha: afc792d9ee17540f8a94349b20a3b203e6961a92
     user_starred_at: '2026-02-16T05:12:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -12033,15 +12142,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: GongRzhe/Office-PowerPoint-MCP-Server
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+    tags:
+      - powerpoint
+      - document-processing
+      - lang:python
     summary: A MCP (Model Context Protocol) server for Power Point manipulation using python-pptx. This server provides tools for creating, editing, and manipulating Power Point presentations through the MCP pr...
     last_synced_sha: 3631ba2ec0c24504476f78bf74d329c9be11caaa
     user_starred_at: '2026-02-16T05:11:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: Python
@@ -12060,15 +12177,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: arabold/docs-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - agentic-ai
+      - llm
+      - copilot
+      - lang:ts
     summary: 'Grounded Docs MCP Server: Open-Source Alternative to Context7, Nia, and Ref.Tools'
     last_synced_sha: ff9e37e48da54dd2aa043cec7ce3197225c70137
     user_starred_at: '2026-02-16T05:11:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -12093,6 +12219,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:17.924Z'
+      prompt_version: v3
   - repo: isaacphi/mcp-language-server
     categories:
       - ai-ml
