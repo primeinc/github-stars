@@ -15,7 +15,7 @@
 | Topology | n/a | `.sisyphus/proofs/02C-topology.md` ✓ |
 | Auth | `01-fetch-stars.yml` | run URL, viewer-login probe success, fetched-stars artifact ID |
 | Handoff | `02-sync-stars.yml` | run URL, `mode=artifact`, `source=artifact`, input bytes, manifest delta |
-| Schema gate | `02-sync-stars.yml` + `03-classify-repos.yml` | both strict checks pass; commit SHAs |
+| Schema gate | `02-sync-stars.yml` + `03-classify-repos.yml` | both `cardinalby/schema-validator-action@v3` `mode: default` checks pass; commit SHAs |
 | Web build | `04-build-site.yml` | run URL, `npm run lint` + `npm run build` exit 0, `docs/` artifact ID |
 | Generated outputs | `05-generate-readmes.yml` | run URL, `categories/`/`tags/`/`README.md` regenerated, commit SHA |
 | Web CI gate | `00b-web-ci.yml` | run URL on the merge PR (#TBD), exit 0 |

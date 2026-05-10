@@ -15,7 +15,7 @@ This is a **GitHub Actions-based automation system** for curating starred reposi
 
 | Gate | Implementation | Validates | Local command | Workflows that enforce it |
 |---|---|---|---|---|
-| **JSON Schema** (structural) | `cardinalby/schema-validator-action@v3` against `schemas/repos-schema.json` | Field presence, types, `additionalProperties: false`, enum membership for fixed-shape fields | `ajv validate -s schemas/repos-schema.json -d repos.yml` (if `ajv-cli` installed) | `02-sync-stars.yml` (strict, twice — pre and post update), `03-classify-repos.yml` (strict, post-classify) |
+| **JSON Schema** (structural) | `cardinalby/schema-validator-action@v3` (`mode: default`, schemasafe under the hood) against `schemas/repos-schema.json` | Field presence, types, `additionalProperties: false`, enum membership, patterns. Note: the action's mode values are `default`/`lax`/`strong`/`spec` — there is no `strict`. `default` already enforces the schema's `additionalProperties: false`. `strong` would also require coherence checks like `maxLength` next to every `pattern`, which our schema does not satisfy (see `.sisyphus/proofs/02M-mode-correction.md`). | `ajv validate -s schemas/repos-schema.json -d repos.yml` (if `ajv-cli` installed) | `02-sync-stars.yml` (twice — pre and post update), `03-classify-repos.yml` (post-normalize) |
 | **Taxonomy** (semantic) | `src/manifest/validator.ts`, invoked by `src/cli-validate.ts` | Each repo's `categories[]`/`tags[]` are members of the canonical taxonomy in `src/manifest/taxonomy.ts`; no orphan or misspelled labels | `pnpm validate` | `00-ci.yml` (every PR/push to `main`), `03-classify-repos.yml` (post-classify, after `pnpm normalize`) |
 
 **`pnpm validate` is the taxonomy gate, not the schema gate.** It will pass on a manifest that fails JSON Schema and vice versa. To get full coverage locally:
@@ -124,7 +124,7 @@ GitHub stars (per user)
    ▼  workflow_run "02-Sync Starred Repos" completed
 03-classify-repos.yml
    ├── AI-classifies unclassified/needs_review repos in batches
-   ├── pnpm normalize → cardinalby strict (HARD GATE) → pnpm validate (HARD GATE)
+   ├── pnpm normalize → cardinalby (mode: default) HARD GATE → pnpm validate (taxonomy strict) HARD GATE
    └── commits repos.yml; self-dispatches if more remain
    │
    ▼  workflow_run "03-Classify Repos" completed (fans out)

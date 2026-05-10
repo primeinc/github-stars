@@ -13,8 +13,8 @@
 | `00-ci.yml` | `CI` | `pull_request` to `main`, `push` to `main` | vitest, taxonomy repro, `pnpm validate` |
 | `00b-web-ci.yml` | `Web CI` | `pull_request` / `push` to `main` (paths-filtered to `web/**`, `repos.yml`) | `npm ci`, lint, build, output verification |
 | `01-fetch-stars.yml` | `01-Fetch GitHub Stars` | cron `0 3 * * *` + `workflow_dispatch` | Pull stars via GraphQL, write `.github-stars/data/fetched-stars-graphql.json`, upload artifact, commit |
-| `02-sync-stars.yml` | `02-Sync Starred Repos` | `workflow_run` of `01-Fetch GitHub Stars` + `workflow_dispatch` | Reconcile `repos.yml`, strict-validate (twice), commit |
-| `03-classify-repos.yml` | `03-Classify Repos` | `workflow_run` of `02-Sync Starred Repos` + `workflow_dispatch` | AI-classify, normalize, schema strict, taxonomy strict, commit, self-dispatch if more remain |
+| `02-sync-stars.yml` | `02-Sync Starred Repos` | `workflow_run` of `01-Fetch GitHub Stars` + `workflow_dispatch` | Reconcile `repos.yml`, schema-validate twice (`mode: default`), commit |
+| `03-classify-repos.yml` | `03-Classify Repos` | `workflow_run` of `02-Sync Starred Repos` + `workflow_dispatch` | AI-classify, normalize, schema-validate (`mode: default`), taxonomy-validate (strict), commit, self-dispatch if more remain |
 | `04-build-site.yml` | `04-Build and Deploy Site` | `workflow_run` of `03-Classify Repos` + `workflow_dispatch` + `push` (paths `repos.yml`/`web/**`) | Build site, deploy GitHub Pages, Playwright smoke |
 | `05-generate-readmes.yml` | `05-Generate READMEs` | `workflow_run` of `03-Classify Repos` + `workflow_dispatch` + `push` (path `repos.yml`) | Regenerate `categories/*.md`, `tags/*.md`, `README.md` |
 

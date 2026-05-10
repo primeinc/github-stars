@@ -12,7 +12,7 @@
 | **#45 02C** | Reconcile workflow topology | `.sisyphus/proofs/02C-topology.md` (6 workflows; `03-curate-stars` → `03-classify-repos`) | ✓ |
 | **#46 02D** | Make star-fetch auth explicit and fail-fast | `01-fetch-stars.yml` L29 (`secrets.STARS_TOKEN || secrets.GITHUB_TOKEN`), L48-63 (Bad credentials handler), L120-122 (in-loop bad-creds short-circuit), `AGENTS.md` §8 | ✓ |
 | **#47 02E** | Replace implicit handoff with explicit artifact | `01-fetch-stars.yml` artifact upload + `02-sync-stars.yml` L73-89 (artifact mode resolution) + L101-122 (hard-fail on missing artifact in workflow_run mode, commit `d40c4995`) | ✓ |
-| **#48 02F** | Schema validation as hard gate everywhere | `02-sync-stars.yml` L55-59 (pre-update strict), L290-294 (post-update strict); `03-classify-repos.yml` (post-normalize, **strict** as of this branch — was lax) | ✓ |
+| **#48 02F** | Schema validation as hard gate everywhere | `02-sync-stars.yml` (pre-update + post-update, `mode: default`), `03-classify-repos.yml` (post-normalize, `mode: default`). The cardinalby action does NOT accept `mode: 'strict'`; see `.sisyphus/proofs/02M-mode-correction.md`. | ✓ |
 | **#49 02G** | Web build + lint as CI gate | `00b-web-ci.yml` (new on this branch): `npm ci`, `npm run lint`, `npm run build`, output verification | ✓ |
 | **#50 02H** | Canonicalize generated data flow | `AGENTS.md` §6 (ASCII pipeline + producer/consumer/committed table) | ✓ |
 | **#51 02I** | Repair stale agent instructions | `.sisyphus/proofs/02I-docs-repair.md` (AGENTS.md changes, archived plans, missing-doc reference removed) | ✓ |
@@ -80,9 +80,9 @@ download fail-hard.
 
 | Location | Mode | Gate? |
 |---|---|---|
-| `02-sync-stars.yml` pre-update | strict | yes |
-| `02-sync-stars.yml` post-update | strict | yes (blocks commit) |
-| `03-classify-repos.yml` post-normalize | **strict** (was lax) | yes (blocks commit) |
+| `02-sync-stars.yml` pre-update | `default` | yes |
+| `02-sync-stars.yml` post-update | `default` | yes (blocks commit) |
+| `03-classify-repos.yml` post-normalize | `default` (was `lax`) | yes (blocks commit) |
 | `00-ci.yml` | (taxonomy only via `pnpm validate`) | yes |
 | `00b-web-ci.yml` | (regenerates `web/public/data.json` from `repos.yml`; broken yaml fails the gate) | yes |
 

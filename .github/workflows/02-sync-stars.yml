@@ -50,13 +50,23 @@ jobs:
             echo "exists=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Validate existing manifest (strict gate)
+      - name: Validate existing manifest (schema gate)
+        # cardinalby/schema-validator-action@v3 mode values are
+        # `default | lax | strong | spec` (per action.yml; uses schemasafe
+        # under the hood). There is NO `strict`; passing it errors at
+        # action input validation time with `"mode" has unknown value
+        # "strict"`. `default` is what we want here: it enforces the
+        # schema's `additionalProperties: false`, required fields, types,
+        # enums, and patterns. `strong` would also require coherence
+        # checks like `maxLength` next to every `pattern`, which our
+        # schema does not satisfy (verified locally with @exodus/schemasafe).
+        # See `.sisyphus/proofs/02M-mode-correction.md`.
         if: steps.check_repos.outputs.exists == 'true'
         uses: cardinalby/schema-validator-action@v3
         with:
           schema: 'schemas/repos-schema.json'
           file: 'repos.yml'
-          mode: 'strict'
+          mode: 'default'
 
       - name: Setup environment
         run: mkdir -p .github-stars/data
@@ -285,13 +295,14 @@ jobs:
         if: always()
         run: rm -f .github-stars/data/manifest.json
 
-      - name: Validate manifest (strict gate, blocks commit)
+      - name: Validate manifest (schema gate, blocks commit)
+        # See L53 step for mode-value rationale.
         if: steps.diff.outputs.changed == 'true'
         uses: cardinalby/schema-validator-action@v3
         with:
           schema: 'schemas/repos-schema.json'
           file: 'repos.yml'
-          mode: 'strict'
+          mode: 'default'
 
       - name: Commit changes
         if: steps.diff.outputs.changed == 'true'
