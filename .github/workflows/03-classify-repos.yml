@@ -167,8 +167,21 @@ jobs:
             EXAMPLE: [{"repo":"microsoft/vscode","categories":["dev-tools"],"tags":["code-editor","lang:ts"],"framework":null}]`;
 
             fs.writeFileSync('.github-stars/data/system-prompt.txt', systemPrompt);
-            fs.writeFileSync('.github-stars/data/user-prompt.txt', 
+            fs.writeFileSync('.github-stars/data/user-prompt.txt',
               'Classify these repositories:\n\n' + JSON.stringify(repoData, null, 2));
+
+            // Write batch-meta for the typed validator (#71). The TS
+            // gate consumes this + the AI response to produce a typed
+            // ClassifierValidationResult before any manifest mutation.
+            const batchMeta = {
+              batchRepos: repoData.map(r => r.repo),
+              taxonomy: {
+                categories_allowed: allowedCategories,
+                frameworks_allowed: allowedFrameworks,
+              },
+              evidence: repoData.map(r => ({ repo: r.repo, language: r.language })),
+            };
+            fs.writeFileSync('.github-stars/data/batch-meta.json', JSON.stringify(batchMeta));
 
             core.setOutput('has_repos', 'true');
             core.setOutput('repo_count', batch.length);
@@ -183,133 +196,87 @@ jobs:
           system-prompt-file: .github-stars/data/system-prompt.txt
           prompt-file: .github-stars/data/user-prompt.txt
 
+      # Typed validation gate per #71. The AI response file is parsed
+      # and validated against the canonical taxonomy + per-repo
+      # evidence BEFORE the apply step touches the manifest. Rows that
+      # fail validation never reach reconciliation; rows whose
+      # `lang:X` tags contradict gathered metadata are downgraded to
+      # `needs_review` and surface for human eyes. See
+      # `src/classifier/validator.ts` for the validation pipeline and
+      # `src/classifier/validator.test.ts` for the 9 failure-mode
+      # fixtures.
+      - name: Validate AI output (typed gate)
+        id: validate-ai
+        if: steps.prep.outputs.has_repos == 'true'
+        env:
+          AI_RESPONSE_FILE: ${{ steps.ai.outputs.response-file }}
+        run: |
+          set -euo pipefail
+          bun run classify:apply \
+            "$AI_RESPONSE_FILE" \
+            .github-stars/data/batch-meta.json \
+            .github-stars/data/classifier-result.json
+
+      # Apply step now consumes the TYPED validation result from the
+      # validate-ai step (#71 / src/classifier/cli.ts). Raw model
+      # output never reaches manifest mutation — every row that
+      # mutates `data.repositories[idx]` is a `decision: "accept"` or
+      # `decision: "needs_review"` row from
+      # `ClassifierValidationResult`. Rejected rows are dropped with
+      # their structured reason surfaced in the workflow summary.
       - name: Apply
         id: apply
         if: steps.prep.outputs.has_repos == 'true'
         uses: actions/github-script@v8
-        env:
-          AI_RESPONSE_FILE: ${{ steps.ai.outputs.response-file }}
         with:
           script: |
             const fs = require('fs');
             const { execSync } = require('child_process');
-            
-            // Read from file to avoid template literal escaping issues
-            const responseFile = process.env.AI_RESPONSE_FILE;
-            let result = fs.readFileSync(responseFile, 'utf8').trim()
-              .replace(/^```json\s*/i, '').replace(/\s*```$/i, '');
-            
-            // Try to fix common JSON issues
-            // Remove trailing commas before ] or }
-            result = result.replace(/,(\s*[\]}])/g, '$1');
-            // Fix unescaped newlines in strings
-            result = result.replace(/:\s*"([^"]*)\n([^"]*)"/g, (m, a, b) => `: "${a}\\n${b}"`);
-            
-            let classifications;
-            try {
-              // Basic cleaning of common AI artifacts
-              let cleanedResult = result;
-              if (cleanedResult.includes('```')) {
-                const jsonMatch = cleanedResult.match(/```(?:json)?\s*([\s\S]*?)\s*```/);
-                if (jsonMatch) cleanedResult = jsonMatch[1];
-              }
-              
-              // Handle potential truncated JSON
-              if (cleanedResult.endsWith('...')) {
-                cleanedResult = cleanedResult.substring(0, cleanedResult.lastIndexOf('}') + 1);
-                if (!cleanedResult.endsWith(']')) cleanedResult += ']';
-              }
 
-              classifications = JSON.parse(cleanedResult);
-            } catch (e) {
-              console.log('JSON parse failed, attempting fallback extraction:', e.message);
-              // Try to extract valid JSON array if wrapped in other content
-              const match = result.match(/\[[\s\S]*\]/);
-              if (match) {
-                try {
-                  classifications = JSON.parse(match[0]);
-                } catch (e2) {
-                  console.log('Fallback extraction failed, will retry workflow');
-                  core.setOutput('retry', 'true');
-                  core.setOutput('count', 0);
-                  return;
-                }
-              } else {
-                console.log('No JSON array found, will retry workflow');
-                core.setOutput('retry', 'true');
-                core.setOutput('count', 0);
-                return;
-              }
-            }
-            
-            if (!Array.isArray(classifications)) {
-              console.log('Not an array, will retry workflow');
-              core.setOutput('retry', 'true');
-              core.setOutput('count', 0);
-              return;
-            }
-
+            const validation = JSON.parse(fs.readFileSync('.github-stars/data/classifier-result.json', 'utf8'));
             const yaml = fs.readFileSync('repos.yml', 'utf8');
             const json = execSync('yq eval -o=json -', { input: yaml, encoding: 'utf8', maxBuffer: 50*1024*1024 });
             const data = JSON.parse(json);
 
-            // SECURITY: Extract taxonomy and create canonical sets for validation
-            const allowedCategories = new Set((data.taxonomy?.categories_allowed || []).map(c => c.trim().toLowerCase()));
-            const allowedFrameworks = new Set((data.taxonomy?.frameworks_allowed || []).map(f => f.trim().toLowerCase()));
-            
-            console.log(`Loaded taxonomy: ${allowedCategories.size} categories, ${allowedFrameworks.size} frameworks`);
+            // Every row in `accepted` and `needs_review` already passed the
+            // TS validator (taxonomy + framework + tag-pattern + lang
+            // cross-check). Rejected rows are not visible here at all.
+            const apply = (row, needsReview) => {
+              const idx = data.repositories.findIndex(r => r.repo === row.repo);
+              if (idx === -1) return false;
+              data.repositories[idx].categories = row.categories.length > 0 ? row.categories : ["unclassified"];
+              data.repositories[idx].tags = row.tags;
+              data.repositories[idx].framework = row.framework;
+              data.repositories[idx].needs_review = needsReview;
+              data.repositories[idx].ai_classification = {
+                model: "gpt-4o",
+                classified_at: new Date().toISOString(),
+                prompt_version: "v4-typed",
+              };
+              return true;
+            };
 
             let count = 0;
-            const tagPattern = /^([a-z]+:)?[a-z0-9][a-z0-9-]*$/;
+            for (const row of validation.accepted) {
+              if (apply(row, false)) count++;
+            }
+            for (const row of validation.needsReview) {
+              if (apply(row, true)) count++;
+            }
 
-            for (const c of classifications) {
-              const idx = data.repositories.findIndex(r => r.repo === c.repo);
-              if (idx !== -1) {
-                // SECURITY: Validate categories against taxonomy with canonicalization
-                const safeCategories = (c.categories || [])
-                  .filter(cat => typeof cat === 'string' && /^[a-z][a-z0-9-]*$/.test(cat))
-                  .map(cat => cat.trim().toLowerCase())
-                  .filter(cat => allowedCategories.has(cat))
-                  .slice(0, 5);
-                
-                if (safeCategories.length === 0 && (c.categories || []).length > 0) {
-                  console.log(`Warning: All categories rejected for ${c.repo}, invalid: ${(c.categories || []).join(', ')}`);
-                }
-                
-                // Sanitize tags: lowercase, replace space with dash, filter by pattern
-                const safeTags = (c.tags || [])
-                  .map(t => String(t).toLowerCase().replace(/[^a-z0-9-:]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, ''))
-                  .filter(t => tagPattern.test(t))
-                  .slice(0, 20);
-                
-                // SECURITY: Validate framework against taxonomy with canonicalization
-                let validFramework = null;
-                if (c.framework && typeof c.framework === 'string') {
-                  const canonicalFramework = c.framework.trim().toLowerCase();
-                  validFramework = allowedFrameworks.has(canonicalFramework) ? canonicalFramework : null;
-                  if (!validFramework && c.framework) {
-                    console.log(`Warning: Framework "${c.framework}" not in taxonomy for ${c.repo}`);
-                  }
-                }
-
-                const allCategoriesRejected = safeCategories.length === 0 && (c.categories || []).length > 0;
-                data.repositories[idx].categories = safeCategories.length > 0 ? safeCategories : ["unclassified"];
-                data.repositories[idx].tags = safeTags;
-                data.repositories[idx].framework = validFramework;
-                // Keep needs_review=true if all AI categories were rejected, so it can be retried
-                data.repositories[idx].needs_review = allCategoriesRejected;
-                data.repositories[idx].ai_classification = {
-                  model: "gpt-4o",
-                  classified_at: new Date().toISOString(),
-                  prompt_version: "v3"
-                };
-                count++;
-              }
+            // Surface rejected reasons in workflow log (sample first 5).
+            for (const row of validation.rejected.slice(0, 5)) {
+              console.log(`::warning::classifier rejected ${row.repo}: ${row.reason}`);
             }
 
             data.manifest_metadata.manifest_updated_at = new Date().toISOString();
             fs.writeFileSync('.github-stars/data/manifest.json', JSON.stringify(data, null, 2));
             core.setOutput('count', count);
+            core.setOutput('accepted', validation.summary.acceptedCount);
+            core.setOutput('needs_review', validation.summary.needsReviewCount);
+            core.setOutput('rejected', validation.summary.rejectedCount);
+            core.setOutput('missing', validation.summary.missingFromResponse.length);
+            core.setOutput('extra', validation.summary.extraInResponse.length);
 
       - name: Convert to YAML
         if: steps.apply.outputs.count > 0
@@ -385,7 +352,11 @@ jobs:
             core.setOutput('has_more', remaining > 0);
 
       - name: Trigger next
-        if: steps.remaining.outputs.has_more == 'true' || steps.apply.outputs.retry == 'true'
+        # Self-dispatch when there are still unclassified repos. The
+        # legacy `apply.outputs.retry` signal is gone — model output
+        # parse failures now fail the validate-ai step (#71), which
+        # fails the workflow. The operator re-dispatches.
+        if: steps.remaining.outputs.has_more == 'true'
         uses: actions/github-script@v8
         with:
           script: |
@@ -403,7 +374,11 @@ jobs:
           HAS_REPOS: ${{ steps.prep.outputs.has_repos }}
           PREP_COUNT: ${{ steps.prep.outputs.repo_count }}
           APPLY_COUNT: ${{ steps.apply.outputs.count }}
-          APPLY_RETRY: ${{ steps.apply.outputs.retry }}
+          APPLY_ACCEPTED: ${{ steps.apply.outputs.accepted }}
+          APPLY_NEEDS_REVIEW: ${{ steps.apply.outputs.needs_review }}
+          APPLY_REJECTED: ${{ steps.apply.outputs.rejected }}
+          APPLY_MISSING: ${{ steps.apply.outputs.missing }}
+          APPLY_EXTRA: ${{ steps.apply.outputs.extra }}
           REMAINING: ${{ steps.remaining.outputs.count }}
           HAS_MORE: ${{ steps.remaining.outputs.has_more }}
         run: |
@@ -420,16 +395,21 @@ jobs:
             echo "- Has unclassified repos: \`${HAS_REPOS:-unknown}\`"
             echo "- Batch size submitted: \`${PREP_COUNT:-0}\`"
             echo ""
+            echo "## Typed validation (#71 — bun run classify:apply)"
+            echo "- Accepted: \`${APPLY_ACCEPTED:-0}\`"
+            echo "- Needs review: \`${APPLY_NEEDS_REVIEW:-0}\` _(lang tag contradicted by metadata)_"
+            echo "- Rejected: \`${APPLY_REJECTED:-0}\` _(unknown categories, extra rows, malformed)_"
+            echo "- Missing from response: \`${APPLY_MISSING:-0}\` _(model dropped a row)_"
+            echo "- Extra in response: \`${APPLY_EXTRA:-0}\` _(model returned a repo not in batch)_"
+            echo ""
             echo "## Outputs"
-            echo "- Classified this run: \`${APPLY_COUNT:-0}\`"
-            echo "- AI parse retry needed: \`${APPLY_RETRY:-false}\`"
+            echo "- Classified this run: \`${APPLY_COUNT:-0}\` _(accepted + needs_review)_"
             echo "- Remaining unclassified: \`${REMAINING:-n/a}\`"
             echo "- Self-dispatched next batch: \`${HAS_MORE:-false}\`"
             echo ""
             echo "## Gates (in order)"
-            echo "- AI categories filtered against \`taxonomy.categories_allowed\`"
-            echo "- AI framework filtered against \`taxonomy.frameworks_allowed\`"
-            echo "- \`bun run normalize\` (in-place canonicalization of AI output)"
+            echo "- \`bun run classify:apply\` (typed schema + taxonomy + framework + lang-tag evidence; \`src/classifier/validator.ts\`)"
+            echo "- \`bun run normalize\` (in-place canonicalization of accepted rows)"
             echo "- \`cardinalby/schema-validator-action@v3\` (mode: default) against \`schemas/repos-schema.json\` — blocks commit"
             echo "- \`bun run validate\` (taxonomy strict via \`src/cli-validate.ts\`) — blocks commit"
             echo ""

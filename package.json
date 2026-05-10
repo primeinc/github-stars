@@ -25,6 +25,7 @@
     "auth:doctor": "bun run src/auth/setup-doctor.ts",
     "fetch:stars": "bun run src/fetch/cli.ts",
     "sync:stars": "bun run src/sync/cli.ts",
+    "classify:apply": "bun run src/classifier/cli.ts",
     "normalize": "bun run src/cli-normalize.ts",
     "validate": "bun run src/cli-validate.ts",
     "lefthook:install": "lefthook install",
