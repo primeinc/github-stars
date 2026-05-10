@@ -34,16 +34,19 @@ export async function fetchStars(opts: FetchStarsOptions): Promise<FetchOutcome>
       pageCount: stage1.pageCount,
       batchCount: 0,
       lastEndCursor: stage1.lastEndCursor,
-      inaccessibleOrgs: [...stage1.inaccessibleOrgs].sort(),
+      blockedOrgsCount: stage1.inaccessibleOrgs.size,
       partialFailureReason: stage1.partialFailureReason,
     };
   }
 
   log(`Stage 1 done: ${stage1.list.length} public stars across ${stage1.pageCount} pages.`);
   if (stage1.inaccessibleOrgs.size > 0) {
+    // Per session-oracle verdict rule 8: do NOT print blocked org NAMES
+    // in public workflow logs. Names are private/internal source identifiers
+    // for the user's stars and may be sensitive. Count is fine.
     warn(
-      `Skipped ${stage1.inaccessibleOrgs.size} orgs that block classic-PAT access: ` +
-        `${[...stage1.inaccessibleOrgs].sort().join(', ')}. ` +
+      `Skipped ${stage1.inaccessibleOrgs.size} org(s) that block classic-PAT access ` +
+        `(names redacted from public log). ` +
         `To include them, switch to a fine-grained PAT or GitHub App.`
     );
   }
@@ -81,7 +84,7 @@ export async function fetchStars(opts: FetchStarsOptions): Promise<FetchOutcome>
     pageCount: stage1.pageCount,
     batchCount: stage2.batchCount,
     lastEndCursor: stage1.lastEndCursor,
-    inaccessibleOrgs: [...blocked].sort(),
+    blockedOrgsCount: blocked.size,
     partialFailureReason,
   };
 }

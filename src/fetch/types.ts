@@ -33,8 +33,14 @@ export type FetchOutcome = {
   pageCount: number;
   batchCount: number;
   lastEndCursor: string | null;
-  /** Orgs that block classic-PAT access. Repos in those orgs are skipped. */
-  inaccessibleOrgs: string[];
+  /**
+   * Count of orgs that block classic-PAT access. Repos in those orgs are
+   * skipped. Per session-oracle verdict rule 8: org NAMES are NEVER part
+   * of the public outcome surface (they may identify private/internal
+   * orgs the user has starred). Operator can re-run the fetcher with a
+   * verbose flag against a private artifact if names are needed.
+   */
+  blockedOrgsCount: number;
   /** Non-empty when the fetch could not complete; workflow must hard-fail. */
   partialFailureReason: string;
 };

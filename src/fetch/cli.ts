@@ -94,7 +94,8 @@ async function main(): Promise<void> {
   setOutput(`pages_fetched=${result.pageCount}`);
   setOutput(`batches_fetched=${result.batchCount}`);
   setOutput(`resume_cursor=${result.lastEndCursor ?? ''}`);
-  setOutput(`blocked_orgs=${result.inaccessibleOrgs.join(',')}`);
+  // Per session-oracle verdict rule 8: count only, not names.
+  setOutput(`blocked_orgs_count=${result.blockedOrgsCount}`);
 
   if (result.partialFailureReason) {
     console.error(
