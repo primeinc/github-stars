@@ -36,7 +36,18 @@
 import { type Config, defineConfig } from "eslint/config";
 import jsdoc from "eslint-plugin-jsdoc";
 import nodePlugin from "eslint-plugin-n";
-import securityPlugin from "eslint-plugin-security";
+// eslint-plugin-security ships JS only; no .d.ts. The TS compiler
+// would emit TS7016 ("Could not find a declaration file"); we silence
+// it once at the import site and cast the runtime value to a minimal
+// shape so flat-config consumers can spread `configs.recommended`
+// without `any`-leaking through the rest of the file.
+// @ts-expect-error TS7016: eslint-plugin-security has no .d.ts shipped.
+import securityPluginUntyped from "eslint-plugin-security";
+
+const securityPlugin = securityPluginUntyped as unknown as {
+	configs: { recommended: Config };
+};
+
 import tsdocPlugin from "eslint-plugin-tsdoc";
 import zodPlugin from "eslint-plugin-zod";
 import tseslint from "typescript-eslint";
@@ -247,18 +258,28 @@ const REPO_WIDE_RESTRICTED_IMPORTS = [
 	},
 ];
 
-const RESTRICTED_IMPORTS_OPTIONS = [
+// Tuple shape ESLint's no-restricted-imports rule expects:
+// `[severity, optionsObject]`. Without `as const` the literal arrays
+// inside REPO_WIDE_RESTRICTED_IMPORTS widen to mutable string[], which
+// the rule's option types accept.
+const RESTRICTED_IMPORTS_OPTIONS: [
+	"error",
+	{ paths: typeof REPO_WIDE_RESTRICTED_IMPORTS },
+] = [
 	"error",
 	{
 		paths: REPO_WIDE_RESTRICTED_IMPORTS,
 	},
-] as const;
+];
 
 /**
  * Sync-API ban with allowlist for the host-io sync wrapper names. Per
  * `eslint-plugin-n` `no-sync` rule docs.
  */
-const NO_SYNC_OPTIONS = [
+const NO_SYNC_OPTIONS: [
+	"error",
+	{ allowAtRootLevel: boolean; ignores: string[] },
+] = [
 	"error",
 	{
 		allowAtRootLevel: false,
@@ -300,7 +321,7 @@ const NO_SYNC_OPTIONS = [
 			"scanSync",
 		],
 	},
-] as const;
+];
 
 // TSDoc Standard tag inventory — sourced 1:1 from
 // `refs/microsoft/tsdoc/tsdoc/src/details/StandardTags.ts` L557-587
@@ -352,7 +373,7 @@ const TSDOC_STANDARD_TAGS = [
  *
  * @public
  */
-const config: Config = defineConfig(
+const config: Config[] = defineConfig(
 	{
 		// Files biome already owns OR generated artifacts that lint
 		// shouldn't touch.
@@ -396,7 +417,7 @@ const config: Config = defineConfig(
 	// characters (Trojan Source), etc. detect-object-injection + detect-non-
 	// literal-fs-filename are off below (high false-positive in typed-record
 	// + host-io's whole job IS dynamic filenames).
-	securityPlugin.configs.recommended as Config[number],
+	securityPlugin.configs.recommended,
 	{
 		rules: {
 			"security/detect-object-injection": "off",
@@ -431,7 +452,7 @@ const config: Config = defineConfig(
 	},
 	// eslint-plugin-zod recommended — applies the zod best-practice rules
 	// to every .ts file that imports from "zod".
-	zodPlugin.configs.recommended as Config[number],
+	zodPlugin.configs.recommended as Config,
 	// TSDoc spec-conformance gate + clone-friendly require-jsdoc.
 	//
 	// Canonical surface per `refs/microsoft/tsdoc/eslint-plugin/README.md`

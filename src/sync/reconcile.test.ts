@@ -115,11 +115,11 @@ describe("reconcile — additions and metadata sync", () => {
 		if (r.kind !== "ok") return;
 		expect(r.manifest.repositories).toHaveLength(1);
 		const entry = r.manifest.repositories[0];
-		expect(entry.repo).toBe("a/b");
-		expect(entry.categories).toEqual(["unclassified"]);
-		expect(entry.archived).toBe(true);
-		expect(entry.summary).toBe("Hello");
-		expect(entry.github_metadata).toMatchObject({
+		expect(entry?.repo).toBe("a/b");
+		expect(entry?.categories).toEqual(["unclassified"]);
+		expect(entry?.archived).toBe(true);
+		expect(entry?.summary).toBe("Hello");
+		expect(entry?.github_metadata).toMatchObject({
 			language: "TypeScript",
 			stargazers_count: 5,
 		});
@@ -149,7 +149,7 @@ describe("reconcile — additions and metadata sync", () => {
 		});
 		expect(r.kind).toBe("ok");
 		if (r.kind !== "ok") return;
-		expect(r.manifest.repositories[0].last_synced_sha).toBe("b".repeat(40));
+		expect(r.manifest.repositories[0]?.last_synced_sha).toBe("b".repeat(40));
 		expect(r.stats.total_updated).toBe(1);
 	});
 
@@ -163,7 +163,7 @@ describe("reconcile — additions and metadata sync", () => {
 			now,
 		});
 		expect(r.kind).toBe("ok");
-		expect(manifest.repositories[0].last_synced_sha).toBe("0".repeat(40)); // original unchanged
+		expect(manifest.repositories[0]?.last_synced_sha).toBe("0".repeat(40)); // original unchanged
 	});
 
 	it("removes repos no longer starred (under threshold)", () => {

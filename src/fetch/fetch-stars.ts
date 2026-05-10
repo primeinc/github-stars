@@ -178,7 +178,10 @@ export async function fetchStars(
 		octokit: opts.octokit,
 		fragment: opts.metadataFragment,
 		list: stage1List,
-		batchSize: opts.batchSize,
+		// Conditional spread keeps exactOptionalPropertyTypes happy —
+		// passing `undefined` to a `batchSize?: number` field is rejected
+		// under that strict flag.
+		...(opts.batchSize !== undefined ? { batchSize: opts.batchSize } : {}),
 		log,
 		warn,
 	});

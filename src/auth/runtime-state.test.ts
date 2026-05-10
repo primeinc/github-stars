@@ -72,9 +72,10 @@ describe("applyRuntimeFailure — pat", () => {
 		expect(next.repo_write_auth).toBe("github_token");
 		expect(next.degraded).toBe(true);
 		expect(next.selected_mode).toBe("pat"); // selected unchanged; effective is what changed
-		expect(warn).toHaveBeenCalledOnce();
-		expect(warn.mock.calls[0][0]).toContain("pat-mode runtime failure");
-		expect(warn.mock.calls[0][0]).toContain(
+		expect(warn).toHaveBeenCalledTimes(1);
+		const firstCall = warn.mock.calls[0];
+		expect(firstCall?.[0]).toContain("pat-mode runtime failure");
+		expect(firstCall?.[0]).toContain(
 			"transitioning effective_mode to github_token",
 		);
 	});

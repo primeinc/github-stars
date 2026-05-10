@@ -207,16 +207,20 @@ describe("normalizer", () => {
 			expect(result.summary.modifiedRepos).toBe(2); // repo1 and repo2
 			expect(result.summary.needsReviewCount).toBe(1); // repo1
 
-			expect(result.manifest.repositories[0].categories).toEqual([
+			expect(result.manifest.repositories[0]?.categories).toEqual([
 				"unclassified",
 			]);
-			expect(result.manifest.repositories[0].needs_review).toBe(true);
+			expect(result.manifest.repositories[0]?.needs_review).toBe(true);
 
-			expect(result.manifest.repositories[1].categories).toEqual(["dev-tools"]);
-			expect(result.manifest.repositories[1].framework).toBe("react");
+			expect(result.manifest.repositories[1]?.categories).toEqual([
+				"dev-tools",
+			]);
+			expect(result.manifest.repositories[1]?.framework).toBe("react");
 
-			expect(result.manifest.repositories[2].categories).toEqual(["dev-tools"]);
-			expect(result.manifest.repositories[2].framework).toBe("react");
+			expect(result.manifest.repositories[2]?.categories).toEqual([
+				"dev-tools",
+			]);
+			expect(result.manifest.repositories[2]?.framework).toBe("react");
 
 			expect(result.changedRepos.length).toBe(2);
 		});

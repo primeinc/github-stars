@@ -154,12 +154,16 @@ export function reconcile(opts: ReconcileOptions): ReconcileOutcome {
 				: opts.manifest.repositories.length,
 		...(opts.githubUser !== undefined ? { github_user: opts.githubUser } : {}),
 	};
+	// Conditional spread (instead of `: undefined`) so
+	// exactOptionalPropertyTypes accepts the absence of github_metadata.
 	const manifest: Manifest = {
 		...opts.manifest,
 		manifest_metadata: manifestMetadata,
 		repositories: opts.manifest.repositories.map((r) => ({
 			...r,
-			github_metadata: r.github_metadata ? { ...r.github_metadata } : undefined,
+			...(r.github_metadata !== undefined
+				? { github_metadata: { ...r.github_metadata } }
+				: {}),
 		})),
 	};
 

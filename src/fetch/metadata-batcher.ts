@@ -103,10 +103,17 @@ export async function fetchMetadataInBatches(
 	let partialFailureReason = "";
 
 	for (let i = 0; i < opts.list.length; i += batchSize) {
-		const batch = opts.list.slice(i, i + batchSize).map((s) => {
-			const [owner, name] = s.repo.split("/");
-			return { owner, name, full: s.repo };
-		});
+		// `s.repo` is `<owner>/<name>` per StarListEntry contract; under
+		// noUncheckedIndexedAccess the destructured slots are typed
+		// `string | undefined`. Skip malformed entries instead of letting
+		// undefined leak into the GraphQL variables map.
+		const batch = opts.list
+			.flatMap((s) => {
+				const [owner, name] = s.repo.split("/");
+				if (!owner || !name) return [];
+				return [{ owner, name, full: s.repo }];
+			})
+			.slice(i, i + batchSize);
 		batchCount++;
 		const query = buildBatchQuery(batch, opts.fragment);
 		const vars: Record<string, string> = {};
@@ -144,8 +151,10 @@ export async function fetchMetadataInBatches(
 		if (resp) {
 			for (let j = 0; j < batch.length; j++) {
 				const node = resp[`r${j}`];
-				if (node)
-					repos.push(transformNode(batch[j].full, node, starredAtByRepo));
+				const entry = batch[j];
+				if (node && entry) {
+					repos.push(transformNode(entry.full, node, starredAtByRepo));
+				}
 			}
 			if (batchCount % 10 === 0) {
 				log(

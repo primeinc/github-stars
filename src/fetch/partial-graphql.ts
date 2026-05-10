@@ -54,7 +54,10 @@ export function classifyPartial(error: unknown): PartialClassification | null {
 	for (const item of e.errors ?? []) {
 		const msg = (item?.message ?? "").toString();
 		const m = msg.match(ORG_BLOCKED_REGEX);
-		if (m) blockedOrgs.push(m[1]);
+		// match[1] is the captured org name; under noUncheckedIndexedAccess
+		// it's typed `string | undefined`. The regex always captures when
+		// it matches, so the runtime guard is defensive only.
+		if (m?.[1]) blockedOrgs.push(m[1]);
 		else otherErrors.push(msg.substring(0, MAX_ERROR_MSG_LENGTH));
 	}
 	return { data: e.data ?? null, blockedOrgs, otherErrors };

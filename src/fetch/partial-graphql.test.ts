@@ -52,7 +52,7 @@ describe("classifyPartial", () => {
 	it("truncates long error messages", () => {
 		const longMsg = "X".repeat(500);
 		const r = classifyPartial({ data: null, errors: [{ message: longMsg }] });
-		expect(r?.otherErrors[0].length).toBeLessThanOrEqual(200);
+		expect(r?.otherErrors[0]?.length).toBeLessThanOrEqual(200);
 	});
 });
 
