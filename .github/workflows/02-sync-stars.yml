@@ -14,13 +14,25 @@ permissions:
   actions: read
 
 concurrency:
-  group: sync-stars-${{ github.ref }}
+  # All runs ultimately mutate `main` (Checkout + push below is hardcoded
+  # to `ref: main`), so use a constant group instead of `github.ref` so
+  # workflow_dispatch from a non-main ref still serializes against
+  # workflow_run-triggered sync runs.
+  group: sync-stars-main
   cancel-in-progress: false
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    # Only sync on success from a main-branch fetch run; for
+    # workflow_dispatch only allow triggering from main. Both rules
+    # protect against cross-branch writes since this job hardcodes
+    # `ref: main` for checkout and push.
+    if: |
+      (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main')
+      || (github.event_name == 'workflow_run'
+          && github.event.workflow_run.conclusion == 'success'
+          && github.event.workflow_run.head_branch == 'main')
 
     steps:
       - name: Checkout repository

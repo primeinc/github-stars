@@ -19,7 +19,10 @@ permissions:
   actions: write
 
 concurrency:
-  group: classify-repos-${{ github.ref }}
+  # Hardcoded `ref: main` checkout + push, so use a constant group so
+  # workflow_dispatch from any ref still serializes with workflow_run
+  # runs and with self-dispatched continuation batches.
+  group: classify-repos-main
   cancel-in-progress: false
 
 env:
@@ -28,7 +31,11 @@ env:
 jobs:
   classify:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: |
+      (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main')
+      || (github.event_name == 'workflow_run'
+          && github.event.workflow_run.conclusion == 'success'
+          && github.event.workflow_run.head_branch == 'main')
     steps:
       - uses: actions/checkout@v6
         with:

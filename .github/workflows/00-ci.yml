@@ -29,8 +29,8 @@ jobs:
         run: npm install -g pnpm@10.13.1
 
       - name: Install dependencies
-        # Retry once on transient registry/network failures; the previous
-        # run failed in ~3s with no useful log.
+        # Retry up to 3 attempts on transient registry/network failures;
+        # the previous run failed in ~3s with no useful log.
         run: |
           set -euo pipefail
           for attempt in 1 2 3; do
