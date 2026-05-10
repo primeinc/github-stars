@@ -4,11 +4,27 @@
  */
 
 import { getGhStarsPath } from "./contracts/paths.js";
+import { onSignal } from "./host-io/index.js";
 import { loadManifest } from "./manifest/loader.js";
 import {
 	formatValidationErrors,
 	validateManifest,
 } from "./manifest/validator.js";
+import {
+	createLogger,
+	registerTelemetry,
+	shutdownTelemetry,
+} from "./telemetry/index.js";
+
+registerTelemetry({ serviceName: "github-stars-validate" });
+onSignal("SIGTERM", () => {
+	void shutdownTelemetry();
+});
+onSignal("SIGINT", () => {
+	void shutdownTelemetry();
+});
+const tlog = createLogger("validate");
+tlog.info("validate cli starting");
 
 const args = process.argv.slice(2);
 const inputFile = args[0] || getGhStarsPath("reposManifest");

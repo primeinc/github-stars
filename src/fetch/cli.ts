@@ -12,11 +12,17 @@ import {
 	fileSizeBytesSync,
 	getEnv,
 	makeDirSync,
+	onSignal,
 	pathExistsSync,
 	readTextFileSync,
 	writeStderrLine,
 	writeTextFileAtomicSync,
 } from "../host-io/index.js";
+import {
+	createLogger,
+	registerTelemetry,
+	shutdownTelemetry,
+} from "../telemetry/index.js";
 import { fetchStars } from "./fetch-stars.js";
 import { DEFAULT_METADATA_BATCH_SIZE } from "./metadata-batcher.js";
 import { createOctokit } from "./octokit-client.js";
@@ -33,6 +39,16 @@ function setOutput(line: string): void {
 }
 
 async function main(): Promise<void> {
+	registerTelemetry({ serviceName: "github-stars-fetch" });
+	onSignal("SIGTERM", () => {
+		void shutdownTelemetry();
+	});
+	onSignal("SIGINT", () => {
+		void shutdownTelemetry();
+	});
+	const tlog = createLogger("fetch");
+	tlog.info("fetch cli starting");
+
 	// GH_TOKEN is the workflow-issued token (App installation, PAT, or
 	// GITHUB_TOKEN — the doctor decided which). Not in our catalog by
 	// name because it's a per-step secret reference scoped to the

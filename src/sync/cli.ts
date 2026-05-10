@@ -7,9 +7,15 @@ import {
 	appendFileTextSync,
 	exit,
 	getEnv,
+	onSignal,
 	readTextFileSync,
 	writeStderrLine,
 } from "../host-io/index.js";
+import {
+	createLogger,
+	registerTelemetry,
+	shutdownTelemetry,
+} from "../telemetry/index.js";
 import { loadManifest, writeManifest } from "./manifest-io.js";
 import { reconcile } from "./reconcile.js";
 
@@ -25,6 +31,16 @@ function setOutput(line: string): void {
 }
 
 function main(): void {
+	registerTelemetry({ serviceName: "github-stars-sync" });
+	onSignal("SIGTERM", () => {
+		void shutdownTelemetry();
+	});
+	onSignal("SIGINT", () => {
+		void shutdownTelemetry();
+	});
+	const tlog = createLogger("sync");
+	tlog.info("sync cli starting");
+
 	const FETCHED_STARS_PATH = envOrDefault(
 		"FETCHED_STARS_PATH",
 		getGhStarsPath("fetchedStarsGraphql"),

@@ -4,6 +4,7 @@
  */
 
 import { getGhStarsPath } from "./contracts/paths.js";
+import { onSignal } from "./host-io/index.js";
 import { loadManifest } from "./manifest/loader.js";
 import { normalizeManifest } from "./manifest/normalizer.js";
 import {
@@ -11,6 +12,21 @@ import {
 	validateManifest,
 } from "./manifest/validator.js";
 import { writeManifest } from "./manifest/writer.js";
+import {
+	createLogger,
+	registerTelemetry,
+	shutdownTelemetry,
+} from "./telemetry/index.js";
+
+registerTelemetry({ serviceName: "github-stars-normalize" });
+onSignal("SIGTERM", () => {
+	void shutdownTelemetry();
+});
+onSignal("SIGINT", () => {
+	void shutdownTelemetry();
+});
+const tlog = createLogger("normalize");
+tlog.info("normalize cli starting");
 
 const args = process.argv.slice(2);
 const inputFile = args[0] || getGhStarsPath("reposManifest");
