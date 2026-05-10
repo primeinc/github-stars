@@ -17,7 +17,7 @@
     "test": "bun test --reporter=dots --no-color --timeout=5000",
     "test:check": "bun test --reporter=dots --no-color --coverage --coverage-threshold=0.95 --timeout=5000",
     "gate": "bun run src/gate/cli.ts",
-    "depcruise": "dependency-cruiser --validate src",
+    "depcruise": "dependency-cruiser --validate true src",
     "knip": "knip",
     "gate:no-loose-zod": "bun run src/gate/no-loose-zod-cli.ts",
     "paths:generate": "bun run src/contracts/paths-codegen.ts",
