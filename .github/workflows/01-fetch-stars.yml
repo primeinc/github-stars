@@ -3,8 +3,12 @@ name: '01-Fetch GitHub Stars'
 on:
   workflow_dispatch:
     inputs:
+      auth_mode:
+        description: 'auto | github_app | pat | public | github_token | disabled'
+        required: false
+        default: 'auto'
       resume_cursor:
-        description: 'GraphQL endCursor to resume from (paste from prior failed-run summary). Leave blank to start from page 1.'
+        description: 'GraphQL endCursor to resume from. Leave blank to start from page 1.'
         required: false
         default: ''
   schedule:
@@ -22,354 +26,85 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     outputs:
-      total_repos: ${{ steps.fetch-stars.outputs.total_repos }}
-      archived_count: ${{ steps.fetch-stars.outputs.archived_count }}
-      fork_count: ${{ steps.fetch-stars.outputs.fork_count }}
-      no_description_count: ${{ steps.fetch-stars.outputs.no_description_count }}
-      token_source: ${{ steps.token.outputs.source }}
-      output_file: ${{ steps.fetch-stars.outputs.output_file }}
-      output_bytes: ${{ steps.fetch-stars.outputs.output_bytes }}
-      partial_failure_reason: ${{ steps.fetch-stars.outputs.partial_failure_reason }}
-      resume_cursor: ${{ steps.fetch-stars.outputs.resume_cursor }}
-      pages_fetched: ${{ steps.fetch-stars.outputs.pages_fetched }}
+      auth_mode: ${{ steps.doctor.outputs.auth_mode }}
+      star_source_user: ${{ steps.doctor.outputs.star_source_user }}
+      star_fetch_auth: ${{ steps.doctor.outputs.star_fetch_auth }}
+      repo_write_auth: ${{ steps.doctor.outputs.repo_write_auth }}
+      degraded: ${{ steps.doctor.outputs.degraded }}
+      total_repos: ${{ steps.fetch.outputs.total_repos }}
+      archived_count: ${{ steps.fetch.outputs.archived_count }}
+      fork_count: ${{ steps.fetch.outputs.fork_count }}
+      no_description_count: ${{ steps.fetch.outputs.no_description_count }}
+      output_file: ${{ steps.fetch.outputs.output_file }}
+      output_bytes: ${{ steps.fetch.outputs.output_bytes }}
+      partial_failure_reason: ${{ steps.fetch.outputs.partial_failure_reason }}
+      resume_cursor: ${{ steps.fetch.outputs.resume_cursor }}
+      pages_fetched: ${{ steps.fetch.outputs.pages_fetched }}
+      batches_fetched: ${{ steps.fetch.outputs.batches_fetched }}
+      blocked_orgs: ${{ steps.fetch.outputs.blocked_orgs }}
       artifact_name: fetched-stars-${{ github.run_id }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Resolve token source
-        id: token
-        env:
-          STARS_TOKEN_VALUE: ${{ secrets.STARS_TOKEN }}
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install pnpm
+        run: npm install -g pnpm@10.13.1
+
+      - name: Install dependencies
         run: |
           set -euo pipefail
-          if [ -n "${STARS_TOKEN_VALUE:-}" ]; then
-            echo "source=STARS_TOKEN" >> "$GITHUB_OUTPUT"
-            echo "Using STARS_TOKEN (PAT)."
-          else
-            echo "source=GITHUB_TOKEN" >> "$GITHUB_OUTPUT"
-            echo "::warning::STARS_TOKEN secret is not set. Falling back to GITHUB_TOKEN, which fetches stars for the workflow's identity (often the wrong account). Set a STARS_TOKEN PAT with read:user scope to make this deterministic. See AGENTS.md §8."
-          fi
+          for attempt in 1 2 3; do
+            if pnpm install --prefer-offline; then exit 0; fi
+            echo "::warning::pnpm install attempt $attempt failed; retrying in 5s..."
+            sleep 5
+          done
+          echo "::error::pnpm install failed after 3 attempts"
+          exit 1
+
+      # Mint a GitHub App installation token when configured. The App
+      # cannot enumerate viewer.starredRepositories (installation tokens
+      # have no user context), so we mint it for repo-write operations
+      # only; star fetch still uses STARS_TOKEN or public mode per the
+      # auth resolver.
+      - name: Mint GitHub App token (when configured)
+        id: app-token
+        if: vars.GH_APP_CLIENT_ID != ''
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ vars.GH_APP_CLIENT_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
+
+      - name: Resolve auth mode (setup-doctor)
+        id: doctor
+        env:
+          AUTH_MODE_REQUEST: ${{ inputs.auth_mode || 'auto' }}
+          STAR_SOURCE_USER: ${{ vars.STAR_SOURCE_USER || 'primeinc' }}
+          GH_APP_CLIENT_ID: ${{ vars.GH_APP_CLIENT_ID }}
+          GH_APP_PRIVATE_KEY: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          STARS_TOKEN: ${{ secrets.STARS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: pnpm auth:doctor
 
       - name: Fetch starred repositories
-        uses: actions/github-script@v8
-        id: fetch-stars
-        with:
-          github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
-          # Enable @octokit/plugin-retry (refs/actions/github-script/src/main.ts
-          # L60: getOctokit(token, opts, retry, requestLog)). Default is "0"
-          # (disabled). 5 retries cover real 5xx (502/503/504) + the GraphQL
-          # "Something went wrong" timeout envelope (refs/octokit/
-          # plugin-retry.js/src/wrap-request.ts L37-62). Honors Retry-After.
-          retries: 5
-          # Default retry-exempt is 400,401,403,404,422; we keep that and add
-          # nothing extra. 5xx + 408 + 429 are retried by default.
-          script: |
-            // Two-stage fetch per GitHub's own published guidance for heavy
-            // queries: refs/github/docs/content/graphql/overview/
-            // rate-limits-and-query-limits-for-the-graphql-api.md L286-294
-            // (10s server-side timeout) + L308-316 ("Split large queries",
-            // "Request only required fields") + the pagination guide L49
-            // ("request fewer than 100 items if your query touches a lot of
-            // data"). Local repro confirmed the prior single-query approach
-            // (first:100 with latestRelease + licenseInfo + repositoryTopics
-            // + defaultBranchRef.target.oid) takes 20s/page and 502s on
-            // page 2 under load. Cheap-only paginates 2,623 stars in 47s
-            // (every page <3.5s); 25-repo aliased metadata batch returns in
-            // ~3.4s. Total ~7min worst case, well under timeout-minutes: 30.
-            //
-            // plugin-retry IS active (github-script@v8 main.ts L60 passes it
-            // to getOctokit) and handles 5xx + GraphQL "Something went wrong"
-            // envelope per refs/octokit/plugin-retry.js/src/wrap-request.ts
-            // L37-62. retries: 5 below.
-            const fs = require('fs');
-            const path = require('path');
-
-            const LIST_QUERY_PATH = 'queries/stars-list-query.graphql';
-            const FRAGMENT_PATH = 'queries/stars-metadata-fragment.graphql';
-            for (const p of [LIST_QUERY_PATH, FRAGMENT_PATH]) {
-              if (!fs.existsSync(p)) throw new Error(`Required query file not found: ${p}`);
-            }
-            const LIST_QUERY = fs.readFileSync(LIST_QUERY_PATH, 'utf8');
-            const METADATA_FRAGMENT = fs.readFileSync(FRAGMENT_PATH, 'utf8');
-
-            const OUTPUT_FILE = '.github-stars/data/fetched-stars-graphql.json';
-            const MAX_ERROR_MSG_LENGTH = 200;
-            const METADATA_BATCH_SIZE = 25;
-
-            // Resume support. workflow_dispatch input wins; otherwise start fresh.
-            const resumeCursor = (process.env.RESUME_CURSOR || '').trim() || null;
-            if (resumeCursor) {
-              core.info(`Resuming pagination from cursor: ${resumeCursor.substring(0, 40)}…`);
-            }
-
-            const BAD_CREDENTIALS_MSG =
-              'Authentication failed: Bad credentials. ' +
-              'The STARS_TOKEN secret is expired or invalid. ' +
-              'Please generate a new Personal Access Token with "read:user" scope ' +
-              'and update the STARS_TOKEN repository secret.';
-
-            try {
-              await github.graphql('{ viewer { login } }');
-            } catch (authError) {
-              if (authError.message?.includes('Bad credentials')) {
-                core.setFailed(BAD_CREDENTIALS_MSG);
-                return;
-              }
-              throw authError;
-            }
-
-            // ──────── Stage 1: cheap pagination ────────
-            // Returns minimal fields per page. Each page <3.5s in local repro.
-            const starredList = [];
-            let pageCount = 0;
-            let cursor = resumeCursor;
-            let lastEndCursor = resumeCursor;
-            let hasNextPage = true;
-            let partialFailureReason = '';
-
-            // Org-blocked-PAT collector: orgs that return
-            // "forbids access via a personal access token (classic)"
-            // mean classic-PAT tokens can't see repos in those orgs. The
-            // GraphQL endpoint returns the partial-data shape per
-            // refs/octokit/.../@octokit/graphql/dist-src/graphql.js L49-62
-            // (response.data.errors triggers GraphqlResponseError, but the
-            // error object retains .data so downstream still gets what
-            // succeeded — error.js L11-12 sets this.data = response.data).
-            const inaccessibleOrgs = new Set();
-            const otherErrors = [];
-
-            const extractPartialList = (graphqlError) => {
-              // Returns viewer.starredRepositories from the partial response
-              // when GraphqlResponseError carries data; null otherwise.
-              return graphqlError?.data?.viewer?.starredRepositories || null;
-            };
-
-            core.info('Stage 1: paginating star list (cheap query)...');
-            while (hasNextPage) {
-              pageCount++;
-              let repos = null;
-              try {
-                const response = await github.graphql(LIST_QUERY, { cursor });
-                repos = response.viewer.starredRepositories;
-              } catch (error) {
-                if (error.message?.includes('Bad credentials')) {
-                  core.setFailed(BAD_CREDENTIALS_MSG);
-                  return;
-                }
-                // Octokit throws GraphqlResponseError when response.data.errors
-                // is present, but preserves response.data on the error object
-                // (see refs/octokit/.../@octokit/graphql/dist-src/error.js L11).
-                // For org-blocked-PAT errors specifically, GitHub returns the
-                // pageful that succeeded plus an error per blocked repo.
-                const partialList = extractPartialList(error);
-                if (partialList) {
-                  repos = partialList;
-                  for (const e of error.errors || []) {
-                    const m = (e.message || '').match(/^`([^`]+)` forbids access via a personal access token \(classic\)/);
-                    if (m) {
-                      inaccessibleOrgs.add(m[1]);
-                    } else {
-                      otherErrors.push((e.message || '').substring(0, MAX_ERROR_MSG_LENGTH));
-                    }
-                  }
-                  core.warning(`page ${pageCount}: partial response (${error.errors?.length || 0} graphql errors, continuing). Sample: ${(error.errors?.[0]?.message || '').substring(0, 120)}`);
-                } else {
-                  const errStatus = error.status || 'n/a';
-                  const errMsg = (typeof error.message === 'string' ? error.message : String(error)).substring(0, MAX_ERROR_MSG_LENGTH);
-                  partialFailureReason =
-                    `list_error_at_page_${pageCount}_after_${starredList.length}_repos_status=${errStatus}_msg=${errMsg}`;
-                  core.warning(`Stage 1 list query failed at page ${pageCount}: ${error.message}. ` +
-                    `Cursor for resume: ${lastEndCursor || 'null'}.`);
-                  break;
-                }
-              }
-              if (!repos) break;
-              for (const edge of repos.edges) {
-                if (edge?.node && !edge.node.isPrivate) {
-                  starredList.push({ repo: edge.node.nameWithOwner, user_starred_at: edge.starredAt });
-                }
-              }
-              lastEndCursor = repos.pageInfo.endCursor;
-              hasNextPage = repos.pageInfo.hasNextPage;
-              cursor = lastEndCursor;
-              if (pageCount % 5 === 0) {
-                core.info(`  list page ${pageCount}: total=${starredList.length}/${repos.totalCount}`);
-              }
-            }
-
-            if (inaccessibleOrgs.size > 0) {
-              core.warning(`Skipped ${inaccessibleOrgs.size} orgs that block classic-PAT access: ${[...inaccessibleOrgs].sort().join(', ')}. To include them, regenerate STARS_TOKEN as a fine-grained PAT with read access.`);
-            }
-            if (otherErrors.length > 0) {
-              core.warning(`Stage 1 collected ${otherErrors.length} non-org-blocked GraphQL errors. First 3: ${otherErrors.slice(0, 3).join(' | ')}`);
-            }
-
-            if (partialFailureReason) {
-              // Stage 1 failed; write what we have and bail.
-              fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
-              fs.writeFileSync(OUTPUT_FILE, JSON.stringify([], null, 2));
-              core.setOutput('total_repos', 0);
-              core.setOutput('archived_count', 0);
-              core.setOutput('fork_count', 0);
-              core.setOutput('no_description_count', 0);
-              core.setOutput('output_file', OUTPUT_FILE);
-              core.setOutput('output_bytes', fs.statSync(OUTPUT_FILE).size);
-              core.setOutput('partial_failure_reason', partialFailureReason);
-              core.setOutput('pages_fetched', pageCount);
-              core.setOutput('resume_cursor', lastEndCursor || '');
-              core.setFailed(`Star fetch incomplete (stage 1): ${partialFailureReason}. ` +
-                `To resume, dispatch this workflow with input resume_cursor='${lastEndCursor || ''}'.`);
-              return;
-            }
-
-            core.info(`Stage 1 done: ${starredList.length} public stars across ${pageCount} pages.`);
-
-            // ──────── Stage 2: aliased per-repo metadata batches ────────
-            // 25 repos per query. Each batch ~3.4s in local repro.
-            core.info(`Stage 2: fetching metadata in batches of ${METADATA_BATCH_SIZE}...`);
-            const starredAtByRepo = new Map(starredList.map(s => [s.repo, s.user_starred_at]));
-            const allRepos = [];
-            let batchCount = 0;
-            let stage2Failure = '';
-
-            const buildBatchQuery = (batch) => {
-              const varDecls = batch.map((_, i) => `$o${i}: String!, $n${i}: String!`).join(', ');
-              const aliases = batch.map((_, i) =>
-                `r${i}: repository(owner: $o${i}, name: $n${i}) { ...RepoMetadata }`
-              ).join('\n  ');
-              return `${METADATA_FRAGMENT}\nquery(${varDecls}) {\n  ${aliases}\n}`;
-            };
-
-            const transformNode = (repoFullName, node) => {
-              const [owner, name] = repoFullName.split('/');
-              return {
-                repo: repoFullName,
-                description: node.description || '',
-                language: node.primaryLanguage?.name || null,
-                topics: node.repositoryTopics.nodes.map(n => n.topic.name),
-                archived: node.isArchived,
-                fork: node.isFork,
-                private: node.isPrivate,
-                stargazers_count: node.stargazerCount,
-                forks_count: node.forkCount,
-                updated_at: node.updatedAt,
-                pushed_at: node.pushedAt,
-                disk_usage: node.diskUsage,
-                owner_avatar: node.owner.avatarUrl,
-                html_url: node.url,
-                default_branch: node.defaultBranchRef?.name || 'main',
-                last_commit_sha: node.defaultBranchRef?.target?.oid || null,
-                user_starred_at: starredAtByRepo.get(repoFullName) || null,
-                homepage_url: node.homepageUrl,
-                is_mirror: node.isMirror,
-                mirror_url: node.mirrorUrl,
-                license: node.licenseInfo?.spdxId || null,
-                latest_release: node.latestRelease ? {
-                  tag: node.latestRelease.tagName,
-                  published_at: node.latestRelease.publishedAt
-                } : null
-              };
-            };
-
-            for (let i = 0; i < starredList.length; i += METADATA_BATCH_SIZE) {
-              const batch = starredList.slice(i, i + METADATA_BATCH_SIZE).map(s => {
-                const [owner, name] = s.repo.split('/');
-                return [owner, name, s.repo];
-              });
-              batchCount++;
-              const query = buildBatchQuery(batch);
-              const vars = {};
-              batch.forEach((b, j) => { vars[`o${j}`] = b[0]; vars[`n${j}`] = b[1]; });
-              let resp = null;
-              try {
-                resp = await github.graphql(query, vars);
-              } catch (error) {
-                // Same partial-data handling as stage 1: GraphqlResponseError
-                // preserves response.data on the error object. Aliases that
-                // succeeded are present; failed ones are null.
-                if (error.data && typeof error.data === 'object') {
-                  resp = error.data;
-                  for (const e of error.errors || []) {
-                    const m = (e.message || '').match(/^`([^`]+)` forbids access via a personal access token \(classic\)/);
-                    if (m) inaccessibleOrgs.add(m[1]);
-                  }
-                } else {
-                  const errStatus = error.status || 'n/a';
-                  const errMsg = (typeof error.message === 'string' ? error.message : String(error)).substring(0, MAX_ERROR_MSG_LENGTH);
-                  stage2Failure = `metadata_batch_${batchCount}_failed_after_${allRepos.length}_repos_status=${errStatus}_msg=${errMsg}`;
-                  core.warning(`Stage 2 batch ${batchCount} failed (after plugin-retry exhausted): ${error.message}. ` +
-                    `Will write ${allRepos.length} partial results and fail.`);
-                  break;
-                }
-              }
-              if (resp) {
-                for (let j = 0; j < batch.length; j++) {
-                  const node = resp[`r${j}`];
-                  if (node) allRepos.push(transformNode(batch[j][2], node));
-                }
-                if (batchCount % 10 === 0) {
-                  core.info(`  batch ${batchCount}: ${allRepos.length}/${starredList.length} fetched`);
-                }
-              }
-            }
-
-            // A gap of (starredList.length - allRepos.length) is fine when
-            // it matches the count of org-blocked-PAT skips (we already
-            // logged those orgs). Treat as failure only if the gap exceeds
-            // a small tolerance OR no inaccessibleOrgs explain it.
-            const gap = starredList.length - allRepos.length;
-            if (!stage2Failure && gap > 0) {
-              if (inaccessibleOrgs.size > 0 && gap < starredList.length * 0.10) {
-                core.info(`Stage 2 expected gap: ${gap} repos in classic-PAT-blocked orgs (${inaccessibleOrgs.size} orgs).`);
-              } else {
-                stage2Failure = `metadata_incomplete_${allRepos.length}_of_${starredList.length}_gap=${gap}`;
-                core.warning(`Stage 2 left ${gap} repos unfetched, more than the ${inaccessibleOrgs.size} blocked orgs explain.`);
-              }
-            }
-            partialFailureReason = stage2Failure || partialFailureReason;
-
-            core.info(`\nTotal: ${allRepos.length} repositories — list pages=${pageCount} metadata batches=${batchCount}`);
-
-            const outputDir = path.dirname(OUTPUT_FILE);
-            if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
-            fs.writeFileSync(OUTPUT_FILE, JSON.stringify(allRepos, null, 2));
-            const outputBytes = fs.statSync(OUTPUT_FILE).size;
-
-            const archived = allRepos.filter(r => r.archived).length;
-            const forks = allRepos.filter(r => r.fork).length;
-            const noDesc = allRepos.filter(r => !r.description).length;
-
-            core.info(`Archived: ${archived}, Forks: ${forks}, No description: ${noDesc}`);
-
-            core.setOutput('total_repos', allRepos.length);
-            core.setOutput('archived_count', archived);
-            core.setOutput('fork_count', forks);
-            core.setOutput('no_description_count', noDesc);
-            core.setOutput('output_file', OUTPUT_FILE);
-            core.setOutput('output_bytes', outputBytes);
-            core.setOutput('partial_failure_reason', partialFailureReason);
-            core.setOutput('pages_fetched', pageCount);
-            // Always emit the LAST seen cursor so a partial run can be resumed
-            // by a workflow_dispatch with this string pasted into resume_cursor.
-            // Empty when fetch never advanced past the initial state.
-            core.setOutput('resume_cursor', lastEndCursor || '');
-
-            if (partialFailureReason) {
-              core.setFailed(
-                `Star fetch incomplete: ${partialFailureReason}. ` +
-                `Wrote ${allRepos.length} partial repos to ${OUTPUT_FILE} (${outputBytes} bytes) for forensic analysis. ` +
-                `To resume, dispatch this workflow with input resume_cursor='${lastEndCursor || ''}'. ` +
-                `Refusing to declare success on a partial fetch — downstream sync would reconcile against a sliver of the real star set.`
-              );
-            }
+        id: fetch
         env:
+          # Star-fetch token: PAT preferred (App can't paginate user.starred);
+          # falls back to GITHUB_TOKEN identity (degraded — fetches the bot's stars).
+          GH_TOKEN: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
           RESUME_CURSOR: ${{ inputs.resume_cursor }}
+        run: pnpm fetch:stars
 
       - name: Upload results
         # Upload on success and on partial-failure so the forensic JSON is preserved.
-        if: always() && steps.fetch-stars.outputs.output_bytes != ''
+        if: always() && steps.fetch.outputs.output_bytes != ''
         id: upload
         uses: actions/upload-artifact@v6
         with:
@@ -382,6 +117,10 @@ jobs:
         # Only commit on a clean fetch. Partial-failure JSON is artifact-only.
         if: success()
         id: commit
+        env:
+          # Prefer GitHub App token for commits; fall back to STARS_TOKEN/GITHUB_TOKEN
+          # so existing setups continue to work while the App is being installed.
+          GIT_TOKEN: ${{ steps.app-token.outputs.token || secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -402,9 +141,11 @@ jobs:
           fi
 
           git commit -m "chore: update starred repositories [skip ci]"
+          # Use the resolved token for push so we can use the GitHub App token when present.
+          remote_url="https://x-access-token:${GIT_TOKEN}@github.com/${{ github.repository }}.git"
           pushed=false
           for attempt in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin main && git push; then
+            if git pull --rebase --autostash "$remote_url" main && git push "$remote_url" HEAD:main; then
               pushed=true
               break
             fi
@@ -412,7 +153,7 @@ jobs:
             sleep 10
           done
           if [ "$pushed" != "true" ]; then
-            echo "::error::Failed to push fetched-stars JSON after 5 attempts. The artifact (fetched-stars-${{ github.run_id }}) is still available for the downstream sync step."
+            echo "::error::Failed to push fetched-stars JSON after 5 attempts. The artifact is still available for the downstream sync step."
             echo "pushed=false" >> "$GITHUB_OUTPUT"
             exit 1
           fi
@@ -422,16 +163,22 @@ jobs:
       - name: Fetch summary
         if: always()
         env:
-          TOKEN_SOURCE: ${{ steps.token.outputs.source }}
-          TOTAL: ${{ steps.fetch-stars.outputs.total_repos }}
-          ARCHIVED: ${{ steps.fetch-stars.outputs.archived_count }}
-          FORKS: ${{ steps.fetch-stars.outputs.fork_count }}
-          NO_DESC: ${{ steps.fetch-stars.outputs.no_description_count }}
-          OUTPUT_FILE: ${{ steps.fetch-stars.outputs.output_file }}
-          OUTPUT_BYTES: ${{ steps.fetch-stars.outputs.output_bytes }}
-          PARTIAL_REASON: ${{ steps.fetch-stars.outputs.partial_failure_reason }}
-          PAGES_FETCHED: ${{ steps.fetch-stars.outputs.pages_fetched }}
-          RESUME_CURSOR: ${{ steps.fetch-stars.outputs.resume_cursor }}
+          AUTH_MODE: ${{ steps.doctor.outputs.auth_mode }}
+          STAR_SOURCE_USER: ${{ steps.doctor.outputs.star_source_user }}
+          STAR_FETCH_AUTH: ${{ steps.doctor.outputs.star_fetch_auth }}
+          REPO_WRITE_AUTH: ${{ steps.doctor.outputs.repo_write_auth }}
+          DEGRADED: ${{ steps.doctor.outputs.degraded }}
+          TOTAL: ${{ steps.fetch.outputs.total_repos }}
+          ARCHIVED: ${{ steps.fetch.outputs.archived_count }}
+          FORKS: ${{ steps.fetch.outputs.fork_count }}
+          NO_DESC: ${{ steps.fetch.outputs.no_description_count }}
+          OUTPUT_FILE: ${{ steps.fetch.outputs.output_file }}
+          OUTPUT_BYTES: ${{ steps.fetch.outputs.output_bytes }}
+          PARTIAL_REASON: ${{ steps.fetch.outputs.partial_failure_reason }}
+          PAGES_FETCHED: ${{ steps.fetch.outputs.pages_fetched }}
+          BATCHES_FETCHED: ${{ steps.fetch.outputs.batches_fetched }}
+          RESUME_CURSOR: ${{ steps.fetch.outputs.resume_cursor }}
+          BLOCKED_ORGS: ${{ steps.fetch.outputs.blocked_orgs }}
           INPUT_RESUME_CURSOR: ${{ inputs.resume_cursor }}
           ARTIFACT_ID: ${{ steps.upload.outputs.artifact-id }}
           ARTIFACT_URL: ${{ steps.upload.outputs.artifact-url }}
@@ -446,16 +193,24 @@ jobs:
             echo "- Run ID: \`${{ github.run_id }}\`"
             echo "- Trigger: \`${{ github.event_name }}\`"
             echo "- Commit: \`${{ github.sha }}\`"
-            echo "- Token source: \`${TOKEN_SOURCE:-unresolved}\`"
+            echo ""
+            echo "## Auth"
+            echo "- auth_mode: \`${AUTH_MODE:-unresolved}\`${DEGRADED:+ (degraded=$DEGRADED)}"
+            echo "- star_source_user: \`${STAR_SOURCE_USER:-unset}\`"
+            echo "- star_fetch_auth: \`${STAR_FETCH_AUTH:-?}\`"
+            echo "- repo_write_auth: \`${REPO_WRITE_AUTH:-?}\`"
             if [ -n "${INPUT_RESUME_CURSOR:-}" ]; then
               echo "- Resumed from cursor: \`${INPUT_RESUME_CURSOR:0:24}…\`"
             fi
             echo ""
             echo "## Counts"
-            echo "- Total repos: \`${TOTAL:-?}\` across \`${PAGES_FETCHED:-?}\` pages"
+            echo "- Total repos: \`${TOTAL:-?}\` across \`${PAGES_FETCHED:-?}\` list pages and \`${BATCHES_FETCHED:-?}\` metadata batches"
             echo "- Archived: \`${ARCHIVED:-?}\`"
             echo "- Forks: \`${FORKS:-?}\`"
             echo "- No description: \`${NO_DESC:-?}\`"
+            if [ -n "${BLOCKED_ORGS:-}" ]; then
+              echo "- Skipped orgs (classic-PAT blocked): \`${BLOCKED_ORGS}\`"
+            fi
             echo ""
             echo "## Outputs"
             echo "- File: \`${OUTPUT_FILE:-n/a}\` (${OUTPUT_BYTES:-0} bytes)"
@@ -473,7 +228,7 @@ jobs:
               if [ -n "${RESUME_CURSOR:-}" ]; then
                 echo "### Resume from where this run stopped"
                 echo ""
-                echo "Re-dispatch this workflow with the following input to continue from page $((${PAGES_FETCHED:-0} + 1)):"
+                echo "Re-dispatch this workflow with the following input to continue:"
                 echo ""
                 echo "\`\`\`"
                 echo "resume_cursor: ${RESUME_CURSOR}"

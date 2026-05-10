@@ -12,7 +12,10 @@ permissions:
   contents: read
 
 jobs:
-  test:
+  gate:
+    # `pnpm gate` is the single readiness command per issue #69 lesson 1.
+    # Sub-stages: typecheck, test, validate (taxonomy + schema), generated
+    # artifact registry presence, actionlint workflow lint.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -43,68 +46,47 @@ jobs:
           echo "::error::pnpm install failed after 3 attempts"
           exit 1
 
-      - name: Run tests
-        run: pnpm test
+      - name: Install actionlint (used by gate)
+        env:
+          ACTIONLINT_VERSION: '1.7.12'
+        run: |
+          set -euo pipefail
+          curl -fsSL "https://raw.githubusercontent.com/rhysd/actionlint/v${ACTIONLINT_VERSION}/scripts/download-actionlint.bash" \
+            | bash -s -- "${ACTIONLINT_VERSION}" "$RUNNER_TEMP/actionlint-bin"
+          echo "$RUNNER_TEMP/actionlint-bin" >> "$GITHUB_PATH"
+          "$RUNNER_TEMP/actionlint-bin/actionlint" -version
 
-      - name: Run repro script
-        run: pnpm repro:taxonomy
-
-      - name: Validate repos.yml (strict)
-        run: pnpm validate
+      - name: pnpm gate
+        run: pnpm gate
 
       - name: CI summary
         if: always()
         run: |
           {
-            echo "# CI (taxonomy + tests)"
+            echo "# CI — pnpm gate"
             echo ""
             echo "- Workflow: \`${{ github.workflow }}\`"
             echo "- Run ID: \`${{ github.run_id }}\`"
             echo "- Trigger: \`${{ github.event_name }}\`"
             echo "- Commit: \`${{ github.sha }}\`"
             echo ""
-            echo "## Gates"
-            echo "- vitest: \`pnpm test\`"
-            echo "- taxonomy repro: \`pnpm repro:taxonomy\`"
-            echo "- strict taxonomy validation: \`pnpm validate\` (NOT JSON Schema; that runs in 02/03)"
+            echo "## Gate stages (\`pnpm gate\`)"
+            echo "- \`typecheck\` (tsc --noEmit)"
+            echo "- \`test\` (vitest)"
+            echo "- \`validate\` (taxonomy + schema)"
+            echo "- generated-artifacts registry presence"
+            echo "- \`actionlint\` workflow lint"
             echo ""
             echo "Web build/lint runs in the separate \`Web CI\` workflow (\`.github/workflows/00b-web-ci.yml\`)."
-            echo "Workflow YAML lint runs in the \`workflow-lint\` job below."
+            echo "Workflow-lint extra footgun guards run in the \`workflow-lint\` job below."
           } >> "$GITHUB_STEP_SUMMARY"
 
   workflow-lint:
-    # Cheap structural and known-footgun checks for .github/workflows/*.yml.
-    # See `.sisyphus/proofs/02M-mode-correction.md` for the bugs this catches.
-    # Issue #62 tracks expanding this to a full nektos/act dry-run if needed.
+    # Cheap structural guards that pnpm gate's actionlint stage cannot
+    # express. See `.sisyphus/proofs/02M-mode-correction.md`.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-
-      # actionlint catches workflow YAML structural issues, expression
-      # errors, missing job dependencies, and a curated set of known-action
-      # input/output mismatches. Pinned to a tag so a bad upstream release
-      # cannot silently change the gate.
-      - name: actionlint
-        env:
-          ACTIONLINT_VERSION: '1.7.12'
-        run: |
-          set -euo pipefail
-          # download-actionlint.bash takes [VERSION] [DIR] positionally; pin
-          # the version explicitly so a future actionlint release cannot
-          # silently change the gate.
-          curl -fsSL "https://raw.githubusercontent.com/rhysd/actionlint/v${ACTIONLINT_VERSION}/scripts/download-actionlint.bash" \
-            | bash -s -- "${ACTIONLINT_VERSION}" .
-          ./actionlint -version
-          # v1.7.12 errors with "is a directory" if given a bare dir; pass
-          # explicit yaml files so behavior is independent of the version's
-          # default expansion.
-          shopt -s nullglob
-          files=( .github/workflows/*.yml .github/workflows/*.yaml )
-          if [ "${#files[@]}" -eq 0 ]; then
-            echo "::error::No workflow files found under .github/workflows/." >&2
-            exit 1
-          fi
-          ./actionlint -color "${files[@]}"
 
       # Specific guard against the cardinalby/schema-validator-action mode
       # footgun. The action accepts default | lax | strong | spec only.
@@ -146,18 +128,16 @@ jobs:
 
       - name: workflow-lint summary
         if: always()
-        env:
-          ACTIONLINT_VERSION: '1.7.12'
         run: |
           {
-            echo "# CI (workflow-lint)"
+            echo "# CI (workflow-lint footgun guards)"
             echo ""
             echo "- Workflow: \`${{ github.workflow }}\`"
             echo "- Run ID: \`${{ github.run_id }}\`"
             echo ""
             echo "## Gates"
-            echo "- \`actionlint v${ACTIONLINT_VERSION}\`"
             echo "- cardinalby/schema-validator-action mode-value guard (rejects unsupported values)"
             echo ""
+            echo "actionlint runs inside \`pnpm gate\` (CI / gate job)."
             echo "Tracking issue for richer dry-run gates: #62"
           } >> "$GITHUB_STEP_SUMMARY"
