@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [bytebase/dbhub](https://github.com/bytebase/dbhub) | Zero-dependency, token-efficient database MCP server for Postgres, My SQL, SQL Server, Maria DB, SQLite. | `TypeScript` ★ 2.4k | 2026-03-12 |
-| [k1LoW/tbls](https://github.com/k1LoW/tbls) | tbls is a CI-Friendly tool to document a database, written in Go. | `Go` ★ 4.2k | 2026-03-20 |
+| [databasus/databasus](https://github.com/databasus/databasus) | Databases backup tool (Postgre SQL, My SQL, Mongo DB) | `Go` ★ 6.8k | 2026-05-07 |
+| [dbcli/mycli](https://github.com/dbcli/mycli) | A Terminal Client for My SQL with Auto Completion and Syntax Highlighting. | `Python` ★ 11.9k | 2026-05-08 |

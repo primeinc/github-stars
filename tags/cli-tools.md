@@ -1,10 +1,13 @@
 # Tag: cli-tools
 
-*2 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | CLI-Anything: Making ALL Software Agent-Native | `Python` ★ 20k | 2026-03-20 |
-| [run-llama/semtools](https://github.com/run-llama/semtools) | Semantic search and document parsing tools for the command line | `Rust` ★ 1.8k | 2026-03-11 |
+| [idank/explainshell-manpages](https://github.com/idank/explainshell-manpages) | source man pages for explainshell.com | ★ 18 | 2026-04-12 |
+| [Azure/aaz-dev-tools](https://github.com/Azure/aaz-dev-tools) | Atomic Azure CLI Dev Tools | `Python` ★ 27 | 2025-12-02 |
+| [devcontainers/cli](https://github.com/devcontainers/cli) | A reference implementation for the specification that can create and configure a dev container from a devcontainer.json. | `TypeScript` ★ 2.7k | 2026-05-07 |
+| [johnlindquist/mdflow](https://github.com/johnlindquist/mdflow) | Multi-backend CLI for executable markdown prompts. Run .md files against Claude, Codex, Gemini, or Copilot. | `TypeScript` ★ 582 | 2025-12-19 |
+| [qdhenry/Claude-Command-Suite](https://github.com/qdhenry/Claude-Command-Suite) | Professional slash commands for Claude Code that provide structured workflows for software development tasks including code review, feature creation, security auditing, and architectural analysis. | `Shell` ★ 1.2k | 2026-03-01 |

@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Go` ★ 296 | 2026-03-20 |
-| [PV-Bhat/vibe-check-mcp-server](https://github.com/PV-Bhat/vibe-check-mcp-server) | Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-e... | `TypeScript` ★ 481 | 2026-02-11 |
-| [github/gh-aw](https://github.com/github/gh-aw) | Git Hub Agentic Workflows | `Go` ★ 4.1k | 2026-03-21 |
+| [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Go` ★ 307 | 2026-05-07 |
+| [AIDC-AI/ComfyUI-Copilot](https://github.com/AIDC-AI/ComfyUI-Copilot) | An AI-powered custom node for Comfy UI designed to enhance workflow automation and provide intelligent assistance | `TypeScript` ★ 5.1k | 2026-04-07 |
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. | `TypeScript` ★ 187.3k | 2026-05-10 |

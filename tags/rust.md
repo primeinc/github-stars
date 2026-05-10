@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [nushell/nushell](https://github.com/nushell/nushell) | A new type of shell | `Rust` ★ 38.8k | 2026-03-20 |
-| [rkyv/rkyv](https://github.com/rkyv/rkyv) | Zero-copy deserialization framework for Rust | `Rust` ★ 4.1k | 2026-02-28 |
+| [Schniz/fnm](https://github.com/Schniz/fnm) | 🚀 Fast and simple Node.js version manager, built in Rust | `Rust` ★ 25.5k | 2026-04-19 |
+| [loco-rs/loco](https://github.com/loco-rs/loco) | 🚂 🦀 The one-person framework for Rust for side-projects and startups | `Rust` ★ 8.9k | 2026-04-23 |

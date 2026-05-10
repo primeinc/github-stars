@@ -1,70 +1,197 @@
 # Documentation
 
-*60 repositories*
+*187 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [dot-billy/nodebyte](https://github.com/dot-billy/nodebyte) | Nodebyte - your digital inventory | `TypeScript` ★ 35 | 2026-03-21 |
-| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | `TypeScript` ★ 42k | 2026-03-21 |
-| [zotero/zotero](https://github.com/zotero/zotero) | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources. | `JavaScript` ★ 13.7k | 2026-03-20 |
+| [rdmgator12/awesome-claude-connectors](https://github.com/rdmgator12/awesome-claude-connectors) | A comprehensive directory of every connector in Anthropic's official Claude Connectors Directory — 343 verified MCP integrations, organized by category with descriptions and use cases. | ★ 8 | 2026-05-09 |
+| [docs/custom-agents-template](https://github.com/docs/custom-agents-template) | A template repository for enterprise and organization-level Copilot custom agents. | ★ 40 | 2025-10-31 |
+| [sverweij/dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | Validate and visualize dependencies. Your rules. Java Script, Type Script, Coffee Script. ES6, Common JS, AMD. | `JavaScript` ★ 6.6k | 2026-05-02 |
+| [omachala/heroshot](https://github.com/omachala/heroshot) | Screenshot automation framework. Define once, regenerate forever. Visual picker, multi-viewport, light/dark mode, CI-ready. | `TypeScript` ★ 45 | 2026-04-12 |
+| [cisagov/kev-data](https://github.com/cisagov/kev-data) | Mirror of cisa.gov/kev data files | ★ 87 | 2026-05-08 |
+| [mdx-js/mdx](https://github.com/mdx-js/mdx) | Markdown for the component era | `JavaScript` ★ 19.5k | 2026-05-07 |
+| [idank/explainshell-manpages](https://github.com/idank/explainshell-manpages) | source man pages for explainshell.com | ★ 18 | 2026-04-12 |
+| [agentskills/agentskills](https://github.com/agentskills/agentskills) | Specification and documentation for Agent Skills | `Python` ★ 18.3k | 2026-04-22 |
+| [KGSpin/kgspin-demo-config](https://github.com/KGSpin/kgspin-demo-config) | KGSpin — reference customer instance config (Layer 2 per ADR-003) | ★ 1 | 2026-04-22 |
+| [OWASP/wstg](https://github.com/OWASP/wstg) | The Web Security Testing Guide is a comprehensive Open Source guide to testing the security of web applications and web services. | ★ 9.2k | 2026-04-24 |
+| [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) | :white\_check\_mark: The Node.js best practices list (July 2024) | `Dockerfile` ★ 105.3k | 2025-04-15 |
+| [adamfowlerit/msportals.io](https://github.com/adamfowlerit/msportals.io) | MSPortals.io - Microsoft Administrator Sites, Training, and Licensing Resources | `HTML` ★ 325 | 2026-05-02 |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | from vibe coding to agentic engineering - practice makes claude perfect | `HTML` ★ 52.1k | 2026-05-09 |
+| [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos) | A collection of Microsoft cloud product logos | `Python` ★ 241 | 2026-04-28 |
+| [antfu/vscode-file-nesting-config](https://github.com/antfu/vscode-file-nesting-config) | Config of File Nesting for VS Code | `JavaScript` ★ 3.6k | 2026-04-20 |
 | [FedRAMP/roadmap](https://github.com/FedRAMP/roadmap) | Fed RAMP's Public High Level Roadmap | `Shell` ★ 26 | 2026-02-02 |
-| [microsoft/vscode-extension-samples](https://github.com/microsoft/vscode-extension-samples) | Sample code illustrating the VS Code extension API. | `TypeScript` ★ 10k | 2026-02-12 |
-| [gradiuscypher/infosec_getting_started](https://github.com/gradiuscypher/infosec_getting_started) | A collection of resources/documentation/links/etc to help people learn about Infosec and break into the field. | `HTML` ★ 611 | 2025-01-11 |
-| [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | A community driven registry service for Model Context Protocol (MCP) servers. | `Go` ★ 6.6k | 2026-03-20 |
-| [arabold/docs-mcp-server](https://github.com/arabold/docs-mcp-server) | Grounded Docs MCP Server: Open-Source Alternative to Context7, Nia, and Ref.Tools | `TypeScript` ★ 1.2k | 2026-03-17 |
-| [Azure/PSDocs.Azure](https://github.com/Azure/PSDocs.Azure) | Generate documentation from Azure infrastructure as code (Ia C) artifacts. | `PowerShell` ★ 66 | 2026-02-03 |
-| [alphanome-ai/sec-parser](https://github.com/alphanome-ai/sec-parser) | Parse SEC EDGAR HTML documents into a tree of elements that correspond to the visual (semantic) structure of the document. | `Python` ★ 278 | 2025-03-25 |
-| [harshankur/officeParser](https://github.com/harshankur/officeParser) | A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met... | `Rich Text Format` ★ 296 | 2026-03-14 |
-| [rasendubi/uniorg](https://github.com/rasendubi/uniorg) | An accurate Org-mode parser for Java Script/Type Script | `TypeScript` ★ 320 | 2025-04-11 |
-| [PoiScript/orgize](https://github.com/PoiScript/orgize) | A Rust library for parsing org-mode files. | `Rust` ★ 330 | 2025-01-27 |
-| [thoqbk/traprange](https://github.com/thoqbk/traprange) | (Java)A Method to Extract Tabular Content from PDF Files | `HTML` ★ 337 | 2023-04-22 |
-| [ics-py/ics-py](https://github.com/ics-py/ics-py) | Pythonic and easy i Calendar library (rfc5545) | `Python` ★ 714 | 2024-12-06 |
-| [microsoft/tolerant-php-parser](https://github.com/microsoft/tolerant-php-parser) | An early-stage PHP parser designed for IDE usage scenarios. | `PHP` ★ 896 | 2024-09-28 |
-| [APIDevTools/json-schema-ref-parser](https://github.com/APIDevTools/json-schema-ref-parser) | Parse, Resolve, and Dereference JSON Schema $ref pointers in Node and browsers | `TypeScript` ★ 1.1k | 2026-03-08 |
-| [collective/icalendar](https://github.com/collective/icalendar) | icalendar parser library for Python | `Python` ★ 1.1k | 2026-03-20 |
-| [APIDevTools/swagger-parser](https://github.com/APIDevTools/swagger-parser) | Swagger 2.0 and Open API 3.0 parser/validator | `JavaScript` ★ 1.2k | 2025-11-14 |
-| [LibPDF-js/core](https://github.com/LibPDF-js/core) | A modern PDF library for Type Script. Parse, modify, and generate PDFs with a clean, intuitive API. | `TypeScript` ★ 1.6k | 2026-03-21 |
-| [vue-styleguidist/vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) | Created from react styleguidist for Vue Components with a living style guide | `TypeScript` ★ 2.5k | 2026-03-17 |
-| [rtfpessoa/diff2html](https://github.com/rtfpessoa/diff2html) | Pretty diff to html javascript library (diff2html) | `TypeScript` ★ 3.3k | 2026-03-05 |
-| [microsoft/tsdoc](https://github.com/microsoft/tsdoc) | A doc comment standard for Type Script | `TypeScript` ★ 4.9k | 2026-02-25 |
-| [codesandbox/sandpack](https://github.com/codesandbox/sandpack) | A component toolkit for creating live-running code editing experiences, using the power of Code Sandbox. | `TypeScript` ★ 6.1k | 2025-04-24 |
-| [k1LoW/tbls](https://github.com/k1LoW/tbls) | tbls is a CI-Friendly tool to document a database, written in Go. | `Go` ★ 4.2k | 2026-03-20 |
-| [microsoft/zerotrustassessment](https://github.com/microsoft/zerotrustassessment) | Repository for the Zero Trust Assessment project | `HTML` ★ 301 | 2026-03-20 |
-| [openclaw/skills](https://github.com/openclaw/skills) | All versions of all skills that are on clawhub.com archived | `Python` ★ 3.2k | 2026-03-21 |
-| [kodepandai/awesome-gh-cli-extensions](https://github.com/kodepandai/awesome-gh-cli-extensions) | Awesome list of github cli extensions. | `HTML` ★ 414 | 2025-04-09 |
-| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | practice made claude perfect | `HTML` ★ 19.5k | 2026-03-20 |
-| [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Convert documentation websites, Git Hub repositories, and PDFs into Claude AI skills with automatic conflict detection | `Python` ★ 11.1k | 2026-03-20 |
-| [merill/graph-permissions-explorer](https://github.com/merill/graph-permissions-explorer) | Repository for public site hosting graph permissions | `HTML` ★ 34 | 2026-03-20 |
-| [merill/awesome-entra](https://github.com/merill/awesome-entra) | 😎 Awesome list of all things related to Microsoft Entra | ★ 730 | 2025-09-01 |
+| [cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vaults MCP server - read, write, search, and surgically edit notes, tags, and frontmatter via the Local REST API plugin. | `TypeScript` ★ 500 | 2026-05-09 |
+| [arabold/docs-mcp-server](https://github.com/arabold/docs-mcp-server) | Grounded Docs MCP Server: Open-Source Alternative to Context7, Nia, and Ref.Tools | `TypeScript` ★ 1.3k | 2026-04-26 |
+| [Azure/PSDocs.Azure](https://github.com/Azure/PSDocs.Azure) | Generate documentation from Azure infrastructure as code (Ia C) artifacts. | `C#` ★ 66 | 2026-05-02 |
+| [rasendubi/uniorg](https://github.com/rasendubi/uniorg) | An accurate Org-mode parser for Java Script/Type Script | `TypeScript` ★ 325 | 2026-04-25 |
+| [PoiScript/orgize](https://github.com/PoiScript/orgize) | A Rust library for parsing org-mode files. | `Rust` ★ 335 | 2025-01-27 |
+| [thoqbk/traprange](https://github.com/thoqbk/traprange) | (Java)A Method to Extract Tabular Content from PDF Files | `HTML` ★ 339 | 2023-04-22 |
+| [glayzzle/php-parser](https://github.com/glayzzle/php-parser) | :herb: Node JS PHP Parser - extract AST or tokens | `JavaScript` ★ 562 | 2026-05-09 |
+| [rsms/markdown-wasm](https://github.com/rsms/markdown-wasm) | Very fast Markdown parser and HTML generator implemented in Web Assembly, based on md4c | `C` ★ 1.7k | 2022-11-22 |
+| [vue-styleguidist/vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) | Created from react styleguidist for Vue Components with a living style guide | `TypeScript` ★ 2.5k | 2026-05-06 |
+| [microsoft/tsdoc](https://github.com/microsoft/tsdoc) | A doc comment standard for Type Script | `TypeScript` ★ 5k | 2026-03-31 |
+| [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) | 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more... | `Python` ★ 27.4k | 2026-04-24 |
+| [k1LoW/tbls](https://github.com/k1LoW/tbls) | tbls is a CI-Friendly tool to document a database, written in Go. | `Go` ★ 4.2k | 2026-05-08 |
+| [AgentAlphaAGI/Idea2Paper](https://github.com/AgentAlphaAGI/Idea2Paper) | Idea2Paper Offical Demo | `Python` ★ 1.3k | 2026-03-24 |
+| [s1t5/mail-archiver](https://github.com/s1t5/mail-archiver) | Mail-Archiver is a web application for archiving, searching, and exporting emails from multiple accounts. Featuring folder sync, attachment support, mailbox migration and a dashboard. | `C#` ★ 1.9k | 2026-05-08 |
+| [LogicLabs-OU/OpenArchiver](https://github.com/LogicLabs-OU/OpenArchiver) | An open-source platform for legally compliant email archiving. | `TypeScript` ★ 2k | 2026-04-16 |
+| [jsuto/piler](https://github.com/jsuto/piler) | Email archiving application | `PHP` ★ 309 | 2026-04-25 |
+| [SchwarziLukas/braindump-butler](https://github.com/SchwarziLukas/braindump-butler) | Turns brain dumps and meeting notes into tidy Markdown notes for your Obsidian Vault. | `Python` ★ 54 | 2026-02-05 |
+| [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | :iphone: Collaborative List of Open-Source i OS Apps | ★ 50.2k | 2026-05-09 |
+| [microsoft/zerotrustassessment](https://github.com/microsoft/zerotrustassessment) | Repository for the Zero Trust Assessment project | `HTML` ★ 336 | 2026-05-09 |
+| [kodepandai/awesome-gh-cli-extensions](https://github.com/kodepandai/awesome-gh-cli-extensions) | Awesome list of github cli extensions. | `HTML` ★ 421 | 2026-05-07 |
+| [bbmumford/Intune-Toolkit](https://github.com/bbmumford/Intune-Toolkit) | my personal collection of scripts & guides to configuring a standard enterprise Intune enviroment. | `Opal` ★ 74 | 2026-01-09 |
+| [merill/awesome-entra](https://github.com/merill/awesome-entra) | 😎 Awesome list of all things related to Microsoft Entra | ★ 746 | 2025-09-01 |
 | [project-open-data/project-open-data.github.io](https://github.com/project-open-data/project-open-data.github.io) | Open Data Policy — Managing Information as an Asset | `HTML` ★ 1.5k | 2024-08-19 |
 | [18F/development-guide](https://github.com/18F/development-guide) | A set of guidelines and best practices for an awesome software engineering team | `HTML` ★ 1.4k | 2024-03-19 |
-| [dustinspecker/awesome-eslint](https://github.com/dustinspecker/awesome-eslint) | A list of awesome ESLint plugins, configs, etc. | ★ 4.7k | 2026-02-28 |
-| [cursor/agent-trace](https://github.com/cursor/agent-trace) | A standard format for tracing AI-generated code. | `TypeScript` ★ 644 | 2026-02-06 |
-| [ITContractorsUnion/ITContractorsUnion](https://github.com/ITContractorsUnion/ITContractorsUnion) | Repo For All Downloadable Data | `HTML` ★ 121 | 2026-03-07 |
-| [endoflife-date/endoflife.date](https://github.com/endoflife-date/endoflife.date) | Informative site with Eo L dates of everything | `Ruby` ★ 3.2k | 2026-03-21 |
-| [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) | Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation | ★ 15.4k | 2026-03-05 |
-| [tajo/ladle](https://github.com/tajo/ladle) | 🥄 Develop, test and document your React story components faster. | `TypeScript` ★ 2.9k | 2025-12-20 |
-| [Simon-He95/markdown-it-ts](https://github.com/Simon-He95/markdown-it-ts) | A modern, type-safe rewrite of markdown-it in Type Script: pluggable rules, split parse/render, Common Mark-compatible; fast one-shot parsing and even faster streaming/incremental updates. | `TypeScript` ★ 139 | 2026-03-20 |
-| [markdown-it/markdown-it](https://github.com/markdown-it/markdown-it) | Markdown parser, done right. 100% Common Mark support, extensions, syntax plugins & high speed | `JavaScript` ★ 21.2k | 2026-02-11 |
-| [davis7dotsh/better-context](https://github.com/davis7dotsh/better-context) | A better way to get up to date context on libraries/technologies in your projects | `TypeScript` ★ 871 | 2026-03-08 |
-| [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | The awesome collection of Open Claw skills. 5,400+ skills filtered and categorized from the official Open Claw Skills Registry.🦞 | ★ 40.1k | 2026-03-20 |
-| [EssexRich/ThreatActors-TTPs](https://github.com/EssexRich/ThreatActors-TTPs) | Repository created to share information about tactics, techniques and procedures used by threat actors. Initially with ransomware groups and evolving to other types of threats. | `JavaScript` ★ 45 | 2026-03-21 |
-| [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | SVG icons for popular brands | `JavaScript` ★ 24.7k | 2026-03-20 |
-| [DoIT-Artificial-Intelligence/youtube-to-docs](https://github.com/DoIT-Artificial-Intelligence/youtube-to-docs) | Convert You Tube videos into structured docs, summaries, audio, and visual assets for easier discovery. | `Python` ★ 36 | 2026-03-20 |
-| [doczjs/docz](https://github.com/doczjs/docz) | ✍ It has never been so easy to document your things! | `TypeScript` ★ 23.6k | 2025-11-21 |
-| [shadawck/awesome-cli-frameworks](https://github.com/shadawck/awesome-cli-frameworks) | Collection of tools to build beautiful command line interface in different languages | `HTML` ★ 1.1k | 2024-09-27 |
-| [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | A curated catalogue of awesome agentic AI patterns | `HTML` ★ 4k | 2026-03-20 |
+| [dustinspecker/awesome-eslint](https://github.com/dustinspecker/awesome-eslint) | A list of awesome ESLint plugins, configs, etc. | ★ 4.7k | 2026-04-26 |
+| [cursor/agent-trace](https://github.com/cursor/agent-trace) | A standard format for tracing AI-generated code. | `TypeScript` ★ 712 | 2026-02-06 |
+| [ITContractorsUnion/ITContractorsUnion](https://github.com/ITContractorsUnion/ITContractorsUnion) | Repo For All Downloadable Data | `HTML` ★ 125 | 2026-03-07 |
+| [workflowr/workflowr](https://github.com/workflowr/workflowr) | Organize your project into a research website | `R` ★ 893 | 2025-08-19 |
+| [endoflife-date/endoflife.date](https://github.com/endoflife-date/endoflife.date) | Informative site with Eo L dates of everything | `Ruby` ★ 3.3k | 2026-05-10 |
+| [architecture-decision-record/architecture-decision-record](https://github.com/architecture-decision-record/architecture-decision-record) | Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation | ★ 15.8k | 2026-05-08 |
+| [Simon-He95/markdown-it-ts](https://github.com/Simon-He95/markdown-it-ts) | A modern, type-safe rewrite of markdown-it in Type Script: pluggable rules, split parse/render, Common Mark-compatible; fast one-shot parsing and even faster streaming/incremental updates. | `TypeScript` ★ 141 | 2026-03-20 |
+| [markdown-it/markdown-it](https://github.com/markdown-it/markdown-it) | Markdown parser, done right. 100% Common Mark support, extensions, syntax plugins & high speed | `JavaScript` ★ 21.4k | 2026-03-26 |
+| [davis7dotsh/better-context](https://github.com/davis7dotsh/better-context) | A better way to get up to date context on libraries/technologies in your projects | `TypeScript` ★ 1.1k | 2026-04-12 |
+| [EssexRich/ThreatActors-TTPs](https://github.com/EssexRich/ThreatActors-TTPs) | Repository created to share information about tactics, techniques and procedures used by threat actors. Initially with ransomware groups and evolving to other types of threats. | `JavaScript` ★ 47 | 2026-05-10 |
+| [DoIT-Artificial-Intelligence/youtube-to-docs](https://github.com/DoIT-Artificial-Intelligence/youtube-to-docs) | Convert You Tube videos into structured docs, summaries, audio, and visual assets for easier discovery. | `Python` ★ 45 | 2026-05-03 |
+| [pedronauck/docz](https://github.com/pedronauck/docz) | ✍ It has never been so easy to document your things! | `TypeScript` ★ 23.6k | 2025-11-21 |
+| [shadawck/awesome-cli-frameworks](https://github.com/shadawck/awesome-cli-frameworks) | Collection of tools to build beautiful command line interface in different languages | `HTML` ★ 1.2k | 2024-09-27 |
 | [memvid/awesome-memvid](https://github.com/memvid/awesome-memvid) | A curated list of awesome resources related to Memvid | ★ 10 | 2026-01-13 |
-| [MicrosoftDocs/azure-monitor-docs](https://github.com/MicrosoftDocs/azure-monitor-docs) | Open source documentation repository for Azure monitor-related services. All content in this repository is published to learn.microsoft.com. | ★ 22 | 2026-03-20 |
-| [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development methodology that works. | `Shell` ★ 101.8k | 2026-03-19 |
+| [MicrosoftDocs/azure-monitor-docs](https://github.com/MicrosoftDocs/azure-monitor-docs) | Open source documentation repository for Azure monitor-related services. All content in this repository is published to learn.microsoft.com. | ★ 23 | 2026-05-09 |
+| [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) | OSINT Framework | `JavaScript` ★ 11.3k | 2026-04-03 |
+| [openprose/prose](https://github.com/openprose/prose) | No description provided | `TypeScript` ★ 1.2k | 2026-05-07 |
+| [freelawproject/courtlistener](https://github.com/freelawproject/courtlistener) | A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial financial records, and federal filings. | `Python` ★ 911 | 2026-05-09 |
+| [frostybee/starlight-tags](https://github.com/frostybee/starlight-tags) | A plugin to add tags to your Starlight docs for content organization and discovery. | `TypeScript` ★ 13 | 2026-04-09 |
+| [code-yeongyu/agent-engineering-guide](https://github.com/code-yeongyu/agent-engineering-guide) | Aren't you curious how i made Sisyphus? And what could be more? | ★ 11 | 2026-01-04 |
+| [TRaSH-Guides/Guides](https://github.com/TRaSH-Guides/Guides) | TRa SH-Guides is a comprehensive collection of guides for Radarr, Sonarr, and related media management applications. | `Markdown` ★ 3k | 2026-05-10 |
+| [subframe7536/maple-font](https://github.com/subframe7536/maple-font) | Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项 | `Python` ★ 25.7k | 2026-04-05 |
+| [riccardoruspoli/reko](https://github.com/riccardoruspoli/reko) | Make You Tube videos readable. Local-first Markdown summaries with Ollama, with cloud providers support. | `Python` ★ 63 | 2025-12-28 |
+| [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code | `TypeScript` ★ 3.1k | 2026-05-09 |
+| [waynesutton/markdown-site](https://github.com/waynesutton/markdown-site) | An open-source publishing framework built for AI agents and developers to ship websites, docs, or blogs. Write markdown, sync from the terminal. Your content is instantly available to browsers, LLM... | `TypeScript` ★ 615 | 2026-04-27 |
+| [google/dotguides](https://github.com/google/dotguides) | No description provided | `TypeScript` ★ 70 | 2026-03-19 |
+| [undox-rs/undox](https://github.com/undox-rs/undox) | :book: A batteries-included static site generator built for documentation, with first-class support for aggregating content from multiple repositories | `Rust` ★ 9 | 2025-12-16 |
+| [jgm/pandoc](https://github.com/jgm/pandoc) | Universal markup converter | `Haskell` ★ 44k | 2026-05-07 |
+| [agentsmd/agents.md](https://github.com/agentsmd/agents.md) | AGENTS.md — a simple, open format for guiding coding agents | `TypeScript` ★ 21.2k | 2026-03-12 |
+| [0x4D31/awesome-threat-detection](https://github.com/0x4D31/awesome-threat-detection) | ✨ A curated list of awesome threat detection and hunting resources 🕵️‍♂️ | ★ 4.6k | 2026-01-05 |
+| [showlab/Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion) | A curated list of recent diffusion models for video generation, editing, and various other applications. | ★ 5.6k | 2026-05-08 |
+| [awesome-jellyfin/awesome-jellyfin](https://github.com/awesome-jellyfin/awesome-jellyfin) | A Collection of Awesome Jellyfin Plugins, Themes, Guides and More! | `Shell` ★ 7.7k | 2026-05-01 |
+| [korfuri/awesome-monorepo](https://github.com/korfuri/awesome-monorepo) | A curated list of awesome Monorepo tools, software and architectures. | ★ 5.8k | 2024-08-16 |
+| [ChromeDevTools/awesome-chrome-devtools](https://github.com/ChromeDevTools/awesome-chrome-devtools) | Awesome tooling and resources in the Chrome Dev Tools & Dev Tools Protocol ecosystem | ★ 7k | 2026-03-27 |
+| [JoseDeFreitas/awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers) | An awesome list of awesome You Tubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more. | `Markdown` ★ 7.4k | 2026-03-26 |
+| [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian) | 🕶️ Awesome stuff for Obsidian | `CSS` ★ 8.8k | 2024-04-06 |
+| [grpc-ecosystem/awesome-grpc](https://github.com/grpc-ecosystem/awesome-grpc) | A curated list of useful resources for g RPC | ★ 8.3k | 2025-10-28 |
+| [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response) | A curated list of tools for incident response | ★ 9k | 2026-05-06 |
+| [heynickc/awesome-ddd](https://github.com/heynickc/awesome-ddd) | A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources | ★ 12.2k | 2025-07-04 |
+| [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) | A curated list of awesome things related to shadcn/ui. | `TypeScript` ★ 19.5k | 2026-05-09 |
+| [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) | A curated list of software and architecture related design patterns. | ★ 47.3k | 2024-10-25 |
+| [ArcadeAI/blueprint-mcp](https://github.com/ArcadeAI/blueprint-mcp) | Diagram generation for understanding codebases and system architecture using Nano Banana Pro. | `Python` ★ 609 | 2026-04-08 |
+| [Azure/api-management-policy-snippets](https://github.com/Azure/api-management-policy-snippets) | Re-usable examples of Azure API Management policies | ★ 399 | 2026-02-25 |
+| [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material) | Documentation that simply works | `Python` ★ 26.7k | 2026-05-09 |
+| [rohit-gohri/redocusaurus](https://github.com/rohit-gohri/redocusaurus) | Open API for Docusaurus with Redoc | `TypeScript` ★ 739 | 2026-03-30 |
+| [withastro/starlight](https://github.com/withastro/starlight) | 🌟 Build beautiful, accessible, high-performance documentation websites with Astro | `TypeScript` ★ 8.4k | 2026-05-09 |
+| [python/typeshed](https://github.com/python/typeshed) | Collection of library stubs for Python, with static types | `Python` ★ 5.1k | 2026-05-10 |
+| [gamosoft/NoteDiscovery](https://github.com/gamosoft/NoteDiscovery) | Your Self-Hosted Knowledge Base | `JavaScript` ★ 2.5k | 2026-05-07 |
+| [google/adk-docs](https://github.com/google/adk-docs) | An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. | `Shell` ★ 1.3k | 2026-05-08 |
+| [ExoFi-Labs/Nexface](https://github.com/ExoFi-Labs/Nexface) | No description provided | `Python` ★ 54 | 2025-06-24 |
+| [charmbracelet/glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! 💅🏻 | `Go` ★ 25k | 2026-04-26 |
+| [DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) | The repository for high quality Type Script type definitions. | `TypeScript` ★ 51.2k | 2026-05-09 |
+| [andredesousa/typescript-best-practices](https://github.com/andredesousa/typescript-best-practices) | This is a guideline of best practices that you can apply to your Type Script project. | ★ 191 | 2021-05-03 |
+| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Master programming by recreating your favorite technologies from scratch. | `Markdown` ★ 500.2k | 2026-02-21 |
+| [github/docs](https://github.com/github/docs) | The open-source repo for docs.github.com | `TypeScript` ★ 19.4k | 2026-05-08 |
+| [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) | 📝 Algorithms and data structures implemented in Java Script with explanations and links to further readings | `JavaScript` ★ 195.9k | 2026-02-18 |
+| [datarootsio/knowledgebase_guardian](https://github.com/datarootsio/knowledgebase_guardian) | A minimal example to demonstrate how LLM's can assist in detecting contradictions in documents. | `Python` ★ 22 | 2023-07-14 |
+| [microsoft/vscode-documentdb](https://github.com/microsoft/vscode-documentdb) | Document DB Extension for VS Code | `TypeScript` ★ 24 | 2026-05-09 |
+| [HybridBrothers/Hybrid-Brothers-Blogs](https://github.com/HybridBrothers/Hybrid-Brothers-Blogs) | This repository contains code snippets used in blog posts of hybridbrothers.com. | `Bicep` ★ 5 | 2025-04-26 |
+| [CognitionAI/deepwiki](https://github.com/CognitionAI/deepwiki) | Devin-generated docs for any public repo | ★ 73 | 2025-05-22 |
+| [SpecterOps/TierZeroTable](https://github.com/SpecterOps/TierZeroTable) | Table of AD and Azure assets and whether they belong to Tier Zero | `HTML` ★ 263 | 2026-03-02 |
+| [Micke-K/IntuneManagement](https://github.com/Micke-K/IntuneManagement) | Copy, export, import, delete, document and compare policies and profiles in Intune and Azure with Power Shell script and WPF UI. Import ADMX files and registry settings with ADMX ingestion. View an... | `PowerShell` ★ 1.9k | 2026-04-11 |
+| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popular chatbots like Chat GPT, Claude & Gemini | ★ 40k | 2026-05-09 |
 | [RentCast/api-resources](https://github.com/RentCast/api-resources) | Resources to help you start working with the Rent Cast property data API. | ★ 2 | 2025-09-22 |
-| [Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy) | 🦄 A curated list of privacy & security-focused software and services | `Astro` ★ 9.1k | 2026-03-20 |
-| [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) | 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026 | `TypeScript` ★ 21k | 2026-02-28 |
-| [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | A curated list of awesome READMEs | ★ 20.6k | 2026-03-10 |
-| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page\_facing\_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 27.1k | 2026-03-13 |
-| [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | 😎 A curated list of awesome Git Hub Profile which updates in real time | ★ 29.4k | 2026-03-03 |
-| [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar\_board: | ★ 81.5k | 2024-07-29 |
+| [Lissy93/awesome-privacy](https://github.com/Lissy93/awesome-privacy) | 🦄 A curated list of privacy & security-focused software and services | `Astro` ★ 9.3k | 2026-05-02 |
+| [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) | 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2024 | `TypeScript` ★ 21.4k | 2026-02-28 |
+| [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | A curated list of awesome READMEs | ★ 20.9k | 2026-04-26 |
+| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page\_facing\_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 27.5k | 2026-03-13 |
+| [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | 😎 A curated list of awesome Git Hub Profile which updates in real time | ★ 29.9k | 2026-03-03 |
+| [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar\_board: | ★ 82.5k | 2024-07-29 |
+| [openstates/openstates-scrapers](https://github.com/openstates/openstates-scrapers) | source for Open States scrapers | `Python` ★ 898 | 2026-05-09 |
+| [microsoft/poml](https://github.com/microsoft/poml) | Prompt Orchestration Markup Language | `TypeScript` ★ 4.9k | 2026-01-14 |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown. | `Python` ★ 122.3k | 2026-04-20 |
+| [upstash/context7](https://github.com/upstash/context7) | Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors | `TypeScript` ★ 54.9k | 2026-05-09 |
+| [muesli/readme-scribe](https://github.com/muesli/readme-scribe) | A Git Hub Action that automatically generates & updates markdown content (like your README.md) | ★ 581 | 2021-06-22 |
+| [reorproject/reor](https://github.com/reorproject/reor) | Private & local AI personal knowledge management app for high entropy people. | `JavaScript` ★ 8.6k | 2025-05-13 |
+| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | Bring projects, wikis, and teams together with AI. App Flowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative. | `Dart` ★ 70.3k | 2026-04-24 |
+| [ratacat/slurp-ai](https://github.com/ratacat/slurp-ai) | Tool for scraping and consolidating documentation websites into a single MD file. | `JavaScript` ★ 261 | 2026-01-06 |
+| [moov-io/awesome-fintech](https://github.com/moov-io/awesome-fintech) | A curated collection of open source fintech libraries and resources. | ★ 297 | 2026-05-08 |
+| [7kfpun/awesome-fintech](https://github.com/7kfpun/awesome-fintech) | A curated list of amazingly awesome financial libraries, resources and shiny things. | ★ 350 | 2026-02-25 |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | Curated list of project-based tutorials | ★ 265.2k | 2024-08-15 |
+| [stax76/awesome-mpv](https://github.com/stax76/awesome-mpv) | A curated list of awesome mpv resources. | ★ 2.1k | 2026-02-04 |
+| [styleguidist/react-styleguidist](https://github.com/styleguidist/react-styleguidist) | Isolated React component development environment with a living style guide | `TypeScript` ★ 11.1k | 2025-01-07 |
+| [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood) | 😱 Falsehoods Programmers Believe in | ★ 27.3k | 2026-04-27 |
+| [amantus-ai/llm-codes](https://github.com/amantus-ai/llm-codes) | Transform developer documentation to clean Markdown | `TypeScript` ★ 323 | 2026-05-08 |
+| [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) | ⚡️ A curated list of awesome things related to Vite.js | `JavaScript` ★ 17.1k | 2026-02-04 |
+| [jujumilk3/leaked-system-prompts](https://github.com/jujumilk3/leaked-system-prompts) | Collection of leaked system prompts | ★ 14.6k | 2026-03-30 |
+| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | A list of Saa S, Paa S and Iaa S offerings that have free tiers of interest to devops and infradev | `HTML` ★ 121.9k | 2026-05-09 |
+| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | Interactive roadmaps, guides and other educational content to help developers grow in their careers. | `TypeScript` ★ 354.5k | 2026-05-09 |
+| [iamgio/quarkdown](https://github.com/iamgio/quarkdown) | 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases. | `Kotlin` ★ 13.9k | 2026-05-06 |
+| [nathanbuchar/audubon-bird-plates-for-supernote](https://github.com/nathanbuchar/audubon-bird-plates-for-supernote) | All 435 illustrations of John James Audubon's Birds of America adapted for use as screensavers on the Supernote and other similar e-ink tablets. | ★ 42 | 2022-01-09 |
+| [lnenad/newser](https://github.com/lnenad/newser) | Newser is a simple utility to generate a pdf with you favorite news articles | `Go` ★ 92 | 2024-08-23 |
+| [philips/supernote-obsidian-plugin](https://github.com/philips/supernote-obsidian-plugin) | Supernote A5, A5X, A6X, A6X2 (Nomad), and A5X2 (Manta) integration for Obsidian. Generate markdown, capture screen mirror, and more. | `TypeScript` ★ 295 | 2025-11-21 |
+| [TA1312/supernote-a5x](https://github.com/TA1312/supernote-a5x) | various security information on the supernote a5x | `Batchfile` ★ 133 | 2022-12-07 |
+| [Azure/arc_jumpstart_docs](https://github.com/Azure/arc_jumpstart_docs) | A public repo for hosting the Arc Jumpstart docs | `Python` ★ 53 | 2026-03-12 |
+| [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | 📄 Configuration files that enhance Cursor AI editor experience with custom rules and behaviors | `MDX` ★ 39.5k | 2026-05-05 |
+| [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) | \[WIP\] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025) | `Jupyter Notebook` ★ 15.6k | 2025-02-12 |
+| [tauri-apps/tauri-docs](https://github.com/tauri-apps/tauri-docs) | The source for all Tauri project documentation. | `MDX` ★ 1.1k | 2026-05-10 |
+| [heroku/12factor](https://github.com/heroku/12factor) | No description provided | `CSS` ★ 3.8k | 2026-04-26 |
+| [twelve-factor/twelve-factor](https://github.com/twelve-factor/twelve-factor) | The Twelve-Factor Manifesto | ★ 2.4k | 2025-08-21 |
+| [team-telnyx/openapi](https://github.com/team-telnyx/openapi) | Open API specification for the Telnyx API | ★ 13 | 2026-05-08 |
+| [tauri-apps/awesome-tauri](https://github.com/tauri-apps/awesome-tauri) | 🚀 Awesome Tauri Apps, Plugins and Resources | ★ 7.6k | 2026-03-11 |
+| [JonasKruckenberg/tauri-docs-wip](https://github.com/JonasKruckenberg/tauri-docs-wip) | No description provided | `JavaScript` ★ 19 | 2022-07-15 |
+| [jaywcjlove/awesome-uikit](https://github.com/jaywcjlove/awesome-uikit) | Collect JS Frameworks, Web components library and Admin Template. | `Dockerfile` ★ 1.6k | 2026-04-21 |
+| [up-n-atom/PONwiki](https://github.com/up-n-atom/PONwiki) | Passive Optical Network WIKI | `HTML` ★ 196 | 2026-05-07 |
+| [florisporro/awesome-ndi](https://github.com/florisporro/awesome-ndi) | A curated list of awesome tools related to NDI | ★ 297 | 2025-04-22 |
+| [race2infinity/The-Documentation-Compendium](https://github.com/race2infinity/The-Documentation-Compendium) | 📢 Various README templates & tips on writing high-quality documentation that people want to read. | ★ 6k | 2025-10-31 |
+| [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) | A curated list of Awesome Threat Intelligence resources | ★ 10.2k | 2026-01-19 |
+| [paralax/awesome-honeypots](https://github.com/paralax/awesome-honeypots) | an awesome list of honeypot resources | `Python` ★ 10.3k | 2025-04-01 |
+| [mezod/awesome-indie](https://github.com/mezod/awesome-indie) | Resources for independent developers to make money | ★ 11.3k | 2024-06-12 |
+| [rshipp/awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) | Defund the Police. | ★ 13.7k | 2024-06-07 |
+| [rShetty/awesome-podcasts](https://github.com/rShetty/awesome-podcasts) | Collection of awesome podcasts | ★ 13k | 2024-03-02 |
+| [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy) | Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS. | ★ 18.7k | 2026-03-21 |
+| [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) | Awesome list of open-source startup alternatives to well-known Saa S products 🚀 | `Python` ★ 19.1k | 2025-09-03 |
+| [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) | 🐬 A collection of awesome resources for the Flipper Zero device. | ★ 23.4k | 2024-09-27 |
+| [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) | Useful resources for creating apps with Electron | ★ 27.1k | 2026-05-03 |
+| [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) | A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php. | ★ 36.9k | 2025-08-28 |
+| [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) | A list of cool features of Git and Git Hub. | ★ 56.8k | 2024-04-15 |
+| [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) | :books: List of awesome university courses for learning Computer Science! | ★ 68.3k | 2023-05-04 |
+| [gavincyi/awesome-financial-open-source](https://github.com/gavincyi/awesome-financial-open-source) | Collection of financial institution open source groups | ★ 39 | 2025-02-04 |
+| [paulveillard/cybersecurity-cyberinsurance](https://github.com/paulveillard/cybersecurity-cyberinsurance) | An ongoing & curated collection of awesome software best practices and techniques, libraries and frameworks, E-books and videos, websites, blog posts, links to github Repositories, technical guidel... | ★ 3 | 2023-10-18 |
+| [paloukari/jetson-detectors](https://github.com/paloukari/jetson-detectors) | Contains examples and documentation on how to setup your remote development environment from your Windows host to a Jetson device | `Python` ★ 14 | 2019-10-05 |
+| [stanford-oval/storm](https://github.com/stanford-oval/storm) | An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations. | `Python` ★ 28.2k | 2025-09-30 |
+| [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | A community-supported supercharged document management system: scan, index and archive all your documents | `Python` ★ 40.4k | 2026-05-10 |
+| [hkystar35/MDM](https://github.com/hkystar35/MDM) | MDM Related code, docs, scripts, snippets, thoughts, and musings. | `Shell` ★ 141 | 2025-10-21 |
+| [shinokada/markdown-docs-as-pdf](https://github.com/shinokada/markdown-docs-as-pdf) | A Bash Script to create PDF documents for React, Vue, Svelte, Svelte Kit, Nuxt, Vitest, pnpm, Slidev, and more. | `Shell` ★ 39 | 2024-10-15 |
+| [phmullins/awesome-macos](https://github.com/phmullins/awesome-macos) | A curated list of awesome software for Apple's mac OS. | ★ 3.1k | 2025-01-22 |
+| [Guilouz/Creality-Helper-Script-Wiki](https://github.com/Guilouz/Creality-Helper-Script-Wiki) | Wiki for Creality Helper Script | ★ 1.2k | 2026-04-13 |
+| [Cities2Modding/wiki](https://github.com/Cities2Modding/wiki) | No description provided | ★ 4 | 2023-12-17 |
+| [tldr-pages/tldr](https://github.com/tldr-pages/tldr) | 📚 Collaborative cheatsheets for console commands | `Markdown` ★ 62.4k | 2026-05-10 |
+| [coffeerhyder/YouTube-alternative-Clients-and-Frontends-overview](https://github.com/coffeerhyder/YouTube-alternative-Clients-and-Frontends-overview) | Overview of alternative You Tube Clients and Frontends | ★ 163 | 2025-06-11 |
+| [PoshCode/PowerShellPracticeAndStyle](https://github.com/PoshCode/PowerShellPracticeAndStyle) | The Unofficial Power Shell Best Practices and Style Guide | ★ 2.4k | 2023-05-19 |
+| [Maks-s/sd-akashic](https://github.com/Maks-s/sd-akashic) | A compendium of informations regarding Stable Diffusion (SD) | ★ 1.6k | 2023-03-08 |
+| [Servarr/Wiki](https://github.com/Servarr/Wiki) | No description provided | `Python` ★ 608 | 2026-05-09 |
+| [WADComs/WADComs.github.io](https://github.com/WADComs/WADComs.github.io) | WADComs is an interactive cheat sheet, containing a curated list of offensive security tools and their respective commands, to be used against Windows/AD environments. | `HTML` ★ 1.7k | 2025-08-29 |
+| [cheat/cheat](https://github.com/cheat/cheat) | cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind \*nix system administrators of options for commands that they use frequently, but not ... | `Go` ★ 13.3k | 2026-04-30 |
+| [rappasoft/laravel-boilerplate](https://github.com/rappasoft/laravel-boilerplate) | The Laravel Boilerplate Project - https://laravel-boilerplate.com | `PHP` ★ 5.6k | 2025-09-28 |
+| [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) | A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem | ★ 13.1k | 2024-07-03 |
+| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 464.7k | 2026-05-05 |
+| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 291.2k | 2026-05-09 |
+| [codex-project/codex](https://github.com/codex-project/codex) | Extendable Documentation Platform written in Laravel 5. Generate easy and awesome documentation! | `PHP` ★ 143 | 2016-07-04 |
+| [phanan/htaccess](https://github.com/phanan/htaccess) | ✂A collection of useful .htaccess snippets. | ★ 13.2k | 2026-03-06 |
+| [joho/7XX-rfc](https://github.com/joho/7XX-rfc) | An RFC for a new series of HTTP status codes covering developer fouls. | `Makefile` ★ 4.5k | 2024-04-03 |
+| [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) | A curated list of amazingly awesome PHP libraries, resources and shiny things. | ★ 32.5k | 2026-04-23 |
+| [bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) | A curated list of awesome awesomeness | `Ruby` ★ 33.4k | 2024-06-02 |
+| [google/WebFundamentals](https://github.com/google/WebFundamentals) | Former git repo for Web Fundamentals on developers.google.com | `JavaScript` ★ 13.9k | 2022-08-10 |
+| [chevereto/g-library](https://github.com/chevereto/g-library) | The library behind Chevereto V3.X. Replaced by chevere/chevere for Chevereto V4 onwards. | `PHP` ★ 63 | 2020-06-14 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

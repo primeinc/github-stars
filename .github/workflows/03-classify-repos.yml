@@ -18,13 +18,24 @@ permissions:
   models: read
   actions: write
 
+concurrency:
+  # Hardcoded `ref: main` checkout + push, so use a constant group so
+  # workflow_dispatch from any ref still serializes with workflow_run
+  # runs and with self-dispatched continuation batches.
+  group: classify-repos-main
+  cancel-in-progress: false
+
 env:
   BATCH_LIMIT: ${{ inputs.batch_limit || 15 }}
 
 jobs:
   classify:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: |
+      (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main')
+      || (github.event_name == 'workflow_run'
+          && github.event.workflow_run.conclusion == 'success'
+          && github.event.workflow_run.head_branch == 'main')
     steps:
       - uses: actions/checkout@v6
         with:
@@ -37,7 +48,10 @@ jobs:
           node-version: '22'
 
       - name: Install pnpm
-        run: npm install -g pnpm@latest
+        # Pinned to match 00-ci.yml. `pnpm@latest` (v11+) is stricter on
+        # ignored build scripts and exits 1 even when the script is allowed
+        # via onlyBuiltDependencies (esbuild has multiple versions in lock).
+        run: npm install -g pnpm@10.13.1
 
       - name: Install dependencies
         run: pnpm install
@@ -308,14 +322,10 @@ jobs:
         if: always()
         run: rm -f .github-stars/data/*.json .github-stars/data/*.txt
 
-      - name: Validate
-        if: steps.apply.outputs.count > 0
-        uses: cardinalby/schema-validator-action@v3
-        with:
-          schema: schemas/repos-schema.json
-          file: repos.yml
-          mode: lax
-
+      # Normalize FIRST so taxonomy aliases / casing drift from the AI batch
+      # are canonicalized before any hard gate runs. Without this order, the
+      # schema gate would reject AI output that the normalizer would
+      # otherwise repair (e.g. `AI` → `ai`, plural/singular tag drift).
       - name: Normalize Manifest
         if: steps.apply.outputs.count > 0
         run: |
@@ -323,7 +333,25 @@ jobs:
           pnpm normalize
           echo "Normalization complete"
 
-      - name: Post-Classification Verification
+      # HARD GATE: structural JSON Schema check on the normalized manifest.
+      # cardinalby/schema-validator-action@v3 mode values:
+      # `default | lax | strong | spec`. `default` enforces
+      # `additionalProperties: false`, required fields, types, enums,
+      # patterns. `strong` would also require maxLength next to every
+      # pattern (which our schema does not satisfy). See
+      # `.sisyphus/proofs/02M-mode-correction.md`.
+      - name: Validate (schema)
+        if: steps.apply.outputs.count > 0
+        uses: cardinalby/schema-validator-action@v3
+        with:
+          schema: schemas/repos-schema.json
+          file: repos.yml
+          mode: default
+
+      # HARD GATE: semantic taxonomy check. Each repo's categories/tags must
+      # come from the closed set in `src/manifest/taxonomy.ts`. Schema gate
+      # cannot catch this on its own.
+      - name: Validate (taxonomy)
         if: steps.apply.outputs.count > 0
         run: |
           echo "Running strict taxonomy validation..."
@@ -372,7 +400,46 @@ jobs:
               inputs: { batch_limit: String(process.env.BATCH_LIMIT) }
             });
 
-      - run: |
-          echo "## Summary" >> $GITHUB_STEP_SUMMARY
-          echo "Classified: ${{ steps.apply.outputs.count || 0 }}" >> $GITHUB_STEP_SUMMARY
-          echo "Remaining: ${{ steps.remaining.outputs.count || 'N/A' }}" >> $GITHUB_STEP_SUMMARY
+      - name: Classify summary
+        if: always()
+        env:
+          HAS_REPOS: ${{ steps.prep.outputs.has_repos }}
+          PREP_COUNT: ${{ steps.prep.outputs.repo_count }}
+          APPLY_COUNT: ${{ steps.apply.outputs.count }}
+          APPLY_RETRY: ${{ steps.apply.outputs.retry }}
+          REMAINING: ${{ steps.remaining.outputs.count }}
+          HAS_MORE: ${{ steps.remaining.outputs.has_more }}
+        run: |
+          {
+            echo "# 03 — Classify Repos"
+            echo ""
+            echo "- Workflow: \`${{ github.workflow }}\`"
+            echo "- Run ID: \`${{ github.run_id }}\`"
+            echo "- Trigger: \`${{ github.event_name }}\`"
+            echo "- Commit: \`${{ github.sha }}\`"
+            echo "- Batch limit: \`${BATCH_LIMIT}\`"
+            echo ""
+            echo "## Inputs"
+            echo "- Has unclassified repos: \`${HAS_REPOS:-unknown}\`"
+            echo "- Batch size submitted: \`${PREP_COUNT:-0}\`"
+            echo ""
+            echo "## Outputs"
+            echo "- Classified this run: \`${APPLY_COUNT:-0}\`"
+            echo "- AI parse retry needed: \`${APPLY_RETRY:-false}\`"
+            echo "- Remaining unclassified: \`${REMAINING:-n/a}\`"
+            echo "- Self-dispatched next batch: \`${HAS_MORE:-false}\`"
+            echo ""
+            echo "## Gates (in order)"
+            echo "- AI categories filtered against \`taxonomy.categories_allowed\`"
+            echo "- AI framework filtered against \`taxonomy.frameworks_allowed\`"
+            echo "- \`pnpm normalize\` (in-place canonicalization of AI output)"
+            echo "- \`cardinalby/schema-validator-action@v3\` (mode: default) against \`schemas/repos-schema.json\` — blocks commit"
+            echo "- \`pnpm validate\` (taxonomy strict via \`src/cli-validate.ts\`) — blocks commit"
+            echo ""
+            echo "## Next stage"
+            if [ "${HAS_MORE:-false}" = "true" ]; then
+              echo "- This workflow self-dispatches another batch."
+            else
+              echo "- \`04-Build and Deploy Site\` and \`05-Generate READMEs\` (workflow_run on success)."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"

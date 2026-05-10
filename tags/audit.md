@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [0x6d69636b/windows_hardening](https://github.com/0x6d69636b/windows_hardening) | Hardening Kitty and Windows Hardening Settings | `PowerShell` ★ 2.6k | 2026-03-16 |
-| [azurekid/blackcat](https://github.com/azurekid/blackcat) | Black Cat is a Power Shell module designed to validate the security of Microsoft Azure. It provides a set of functions to identify potential security holes. | `PowerShell` ★ 199 | 2026-03-18 |
+| [0x6d69636b/windows_hardening](https://github.com/0x6d69636b/windows_hardening) | Hardening Kitty and Windows Hardening Settings | `PowerShell` ★ 2.6k | 2026-04-10 |
+| [intuitem/ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community) | CISO Assistant is a one-stop-shop GRC platform for Risk Management, App Sec, Compliance & Audit, TPRM, Privacy, and Reporting. It supports 100+ global frameworks with automatic control mapping, inc... | `Python` ★ 4k | 2026-05-09 |

@@ -1,15 +1,19 @@
 # Tag: text-to-speech
 
-*7 repositories*
+*11 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [QwenLM/Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) | Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice... | `Python` ★ 9.8k | 2026-03-17 |
-| [isaiahbjork/expo-kokoro-onnx](https://github.com/isaiahbjork/expo-kokoro-onnx) | Run Kokoro TTS locally on device using Expo & ONNX Runtime | `TypeScript` ★ 74 | 2025-05-08 |
-| [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro) | Gradio Web UI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, Cosy Voice), with Whisper audio processing, You Tube download, Demucs vocal... | `Python` ★ 6.4k | 2025-12-05 |
-| [rtk-ai/vox](https://github.com/rtk-ai/vox) | A universal AI toolkit for high-performance Speech-to-Text (STT) and Text-to-Speech (TTS) processing, designed for low-latency and easy model integration. | `Rust` ★ 44 | 2026-03-18 |
-| [Ak-sys-sh/qwen3-tts-apple-silicon](https://github.com/Ak-sys-sh/qwen3-tts-apple-silicon) | 🎤 Run Qwen3-TTS locally on Apple Silicon for offline AI text-to-speech, offering voice cloning and customization features without cloud reliance. | `Python` ★ 1 | 2026-03-21 |
-| [leonekmisio-prog/typecast-sdk](https://github.com/leonekmisio-prog/typecast-sdk) | 🗣️ Transform text into natural speech effortlessly with the official Typecast SDKs for the Text-to-Speech API across multiple programming languages. | `C#` ★ 1 | 2026-03-21 |
-| [clowerweb/kitten-tts-web-demo](https://github.com/clowerweb/kitten-tts-web-demo) | Kitten TTS web demo using tansformers.js | `JavaScript` ★ 87 | 2025-08-13 |
+| [babysor/MockingBird](https://github.com/babysor/MockingBird) | 🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time | `Python` ★ 36.9k | 2026-03-03 |
+| [natikxy/rick-voice](https://github.com/natikxy/rick-voice) | Convert text into authentic Rick Sanchez voice for bots and apps with a simple Python API supporting streaming and multiple TTS providers. | ★ 1 | 2026-05-10 |
+| [clowerweb/kitten-tts-web-demo](https://github.com/clowerweb/kitten-tts-web-demo) | Kitten TTS web demo using tansformers.js | `JavaScript` ★ 93 | 2025-08-13 |
+| [ysharma3501/LuxTTS](https://github.com/ysharma3501/LuxTTS) | A high-quality rapid TTS voice cloning model that reaches speeds of 150x realtime. | `Python` ★ 3.9k | 2026-03-12 |
+| [samuel-vitorino/sopro](https://github.com/samuel-vitorino/sopro) | A lightweight text-to-speech model with zero-shot voice cloning | `Python` ★ 821 | 2026-02-06 |
+| [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | So TA open-source TTS | `Python` ★ 24.6k | 2026-05-01 |
+| [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) | Instant voice cloning by MIT and My Shell. Audio foundation model. | `Python` ★ 36.5k | 2025-04-19 |
+| [dusty-nv/jetson-voice](https://github.com/dusty-nv/jetson-voice) | ASR/NLP/TTS deep learning inference library for NVIDIA Jetson using Py Torch and Tensor RT | `Python` ★ 227 | 2024-02-09 |
+| [lucasnewman/f5-tts-mlx](https://github.com/lucasnewman/f5-tts-mlx) | Implementation of F5-TTS in MLX | `Python` ★ 628 | 2025-03-19 |
+| [SWivid/F5-TTS](https://github.com/SWivid/F5-TTS) | Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching" | `Python` ★ 14.5k | 2026-04-20 |
+| [enhuiz/vall-e](https://github.com/enhuiz/vall-e) | An unofficial Py Torch implementation of the audio LM VALL-E | `Python` ★ 3k | 2023-05-10 |

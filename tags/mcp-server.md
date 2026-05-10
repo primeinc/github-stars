@@ -1,17 +1,19 @@
 # Tag: mcp-server
 
-*9 repositories*
+*11 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [PV-Bhat/vibe-check-mcp-server](https://github.com/PV-Bhat/vibe-check-mcp-server) | Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-e... | `TypeScript` ★ 481 | 2026-02-11 |
-| [bytebase/dbhub](https://github.com/bytebase/dbhub) | Zero-dependency, token-efficient database MCP server for Postgres, My SQL, SQL Server, Maria DB, SQLite. | `TypeScript` ★ 2.4k | 2026-03-12 |
-| [reading-plus-ai/mcp-server-data-exploration](https://github.com/reading-plus-ai/mcp-server-data-exploration) | No description provided | `Python` ★ 528 | 2025-03-22 |
-| [MxIris-Reverse-Engineering/ida-mcp-server](https://github.com/MxIris-Reverse-Engineering/ida-mcp-server) | A Model Context Protocol server for IDA | `Python` ★ 533 | 2025-05-29 |
-| [delorenj/mcp-server-trello](https://github.com/delorenj/mcp-server-trello) | A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards. | `TypeScript` ★ 270 | 2026-02-04 |
-| [juehang/vscode-mcp-server](https://github.com/juehang/vscode-mcp-server) | MCP server to expose VS Code editing features to an LLM for AI coding | `TypeScript` ★ 340 | 2026-01-07 |
-| [coleam00/remote-mcp-server-with-auth](https://github.com/coleam00/remote-mcp-server-with-auth) | Template for a remote MCP server with Git Hub OAuth - following best practices for building MCP servers so you can take this as a starting point for any MCP server you want to build! | `TypeScript` ★ 290 | 2025-07-11 |
-| [Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops) | An MCP server for Azure Dev Ops | `TypeScript` ★ 350 | 2026-02-05 |
-| [portofcontext/pctx](https://github.com/portofcontext/pctx) | pctx is the execution layer for agentic tool calls. It auto-converts agent tools and MCP servers into code that runs in secure sandboxes for token-efficient workflows. | `Rust` ★ 229 | 2026-03-18 |
+| [PV-Bhat/vibe-check-mcp-server](https://github.com/PV-Bhat/vibe-check-mcp-server) | Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-e... | `TypeScript` ★ 486 | 2026-03-30 |
+| [bytebase/dbhub](https://github.com/bytebase/dbhub) | Zero-dependency, token-efficient database MCP server for Postgres, My SQL, SQL Server, Maria DB, SQLite. | `TypeScript` ★ 2.7k | 2026-04-21 |
+| [MxIris-Reverse-Engineering/ida-mcp-server](https://github.com/MxIris-Reverse-Engineering/ida-mcp-server) | A Model Context Protocol server for IDA | `Python` ★ 543 | 2025-05-29 |
+| [delorenj/mcp-server-trello](https://github.com/delorenj/mcp-server-trello) | A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards. | `TypeScript` ★ 336 | 2026-05-09 |
+| [financial-datasets/mcp-server](https://github.com/financial-datasets/mcp-server) | An MCP server for interacting with the Financial Datasets stock market API. | `Python` ★ 2.1k | 2025-06-05 |
+| [GongRzhe/Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server) | A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interfac... | `Python` ★ 1.9k | 2025-12-31 |
+| [sirkirby/unifi-mcp](https://github.com/sirkirby/unifi-mcp) | MCP servers for the Uni Fi suite of applications, Network, Protect, Access, and Drive | `Python` ★ 327 | 2026-05-10 |
+| [github/github-mcp-server](https://github.com/github/github-mcp-server) | Git Hub's official MCP Server | `Go` ★ 29.7k | 2026-05-08 |
+| [bingal/FastDomainCheck-MCP-Server](https://github.com/bingal/FastDomainCheck-MCP-Server) | A Model Context Protocol for checking domain name registration status in bulk. | `Go` ★ 37 | 2025-10-24 |
+| [athapong/aio-mcp](https://github.com/athapong/aio-mcp) | 🚀 All-in-one MCP server with AI search, RAG, and multi-service integrations (Git Lab/Jira/Confluence/You Tube) for AI-enhanced development workflows. Folk from https://github.com/nguyenvanduocit/a... | `Go` ★ 36 | 2025-06-12 |
+| [SaM-92/mcp_autogen_sse_stdio](https://github.com/SaM-92/mcp_autogen_sse_stdio) | This repository demonstrates how to use Auto Gen to integrate local and remote MCP (Model Context Protocol) servers. It showcases a local math tool (math\_server.py) using Stdio and a remote Apify t... | `Python` ★ 29 | 2025-04-13 |

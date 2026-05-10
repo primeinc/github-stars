@@ -1,0 +1,18 @@
+query($cursor: String) {
+  viewer {
+    starredRepositories(first: 100, after: $cursor, orderBy: {field: STARRED_AT, direction: DESC}) {
+      totalCount
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+      edges {
+        starredAt
+        node {
+          nameWithOwner
+          isPrivate
+        }
+      }
+    }
+  }
+}

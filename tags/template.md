@@ -1,10 +1,18 @@
 # Tag: template
 
-*2 repositories*
+*10 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) | Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation | ★ 15.4k | 2026-03-05 |
-| [julianromli/opencode-template](https://github.com/julianromli/opencode-template) | Open Code CLI Template by @faizntfd | `Python` ★ 131 | 2026-02-03 |
+| [docs/custom-agents-template](https://github.com/docs/custom-agents-template) | A template repository for enterprise and organization-level Copilot custom agents. | ★ 40 | 2025-10-31 |
+| [julianromli/opencode-template](https://github.com/julianromli/opencode-template) | opencode-template | `Python` ★ 140 | 2026-02-03 |
+| [fregante/browser-extension-template](https://github.com/fregante/browser-extension-template) | 📕 Barebones boilerplate with Parcel 2, options handler and auto-publishing | `JavaScript` ★ 845 | 2025-02-03 |
+| [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) | Clean Architecture Solution Template for ASP.NET Core | `C#` ★ 20k | 2026-05-08 |
+| [scaffdog/scaffdog](https://github.com/scaffdog/scaffdog) | :dog: scaffdog is Markdown driven scaffolding tool. | `TypeScript` ★ 766 | 2026-05-10 |
+| [OfficeDev/Office-Addin-TaskPane](https://github.com/OfficeDev/Office-Addin-TaskPane) | Template to get started writing a Task Pane Office Add-in. | `TypeScript` ★ 95 | 2026-05-09 |
+| [mycroftjr/Sims4ScriptingTemplate](https://github.com/mycroftjr/Sims4ScriptingTemplate) | Sims 4 Scripting Template Project | `Python` ★ 16 | 2023-09-29 |
+| [XeroxDev/Loupedeck-plugin-Template](https://github.com/XeroxDev/Loupedeck-plugin-Template) | this is a Loupedeck .NET template and I've created this so it is easier and more productive for me, to create Loupedeck Windows Plugins and release them to my users. | `C#` ★ 15 | 2022-05-12 |
+| [ColonolNutty/s4cl-template-project](https://github.com/ColonolNutty/s4cl-template-project) | A template that can be used as a starting point for working with S4CL | `Python` ★ 41 | 2021-11-26 |
+| [leskhq/Laravel-Enterprise-Starter-Kit](https://github.com/leskhq/Laravel-Enterprise-Starter-Kit) | 👔 Enterprise Web application starter kit or template using Laravel | `JavaScript` ★ 358 | 2019-03-04 |

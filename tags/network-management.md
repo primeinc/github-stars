@@ -1,10 +1,12 @@
 # Tag: network-management
 
-*2 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [sirkirby/unifi-mcp](https://github.com/sirkirby/unifi-mcp) | MCP servers for the Uni Fi suite of applications, Network, Protect, Access, and Drive | `Python` ★ 207 | 2026-03-19 |
+| [AlexRosbach/LanLens](https://github.com/AlexRosbach/LanLens) | Lan Lens continuously scans your local network, identifies every device by MAC address, and gives you a clean dark-themed web UI to manage, document, and connect to them — all in a single Docker co... | `TypeScript` ★ 81 | 2026-05-09 |
+| [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 467 | 2026-04-27 |
 | [gbassaragh/Unifi-mcp](https://github.com/gbassaragh/Unifi-mcp) | MCP server for Uni Fi Network and Protect API integration - AI-powered network management | `Python` ★ 2 | 2026-01-10 |
+| [mikecutalo/unifi-mcp-server](https://github.com/mikecutalo/unifi-mcp-server) | An MCP Server for interacting with Unifi networks. | `Python` ★ 3 | 2025-07-14 |

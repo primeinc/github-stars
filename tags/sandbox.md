@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 33.2k | 2026-03-20 |
-| [codesandbox/sandpack](https://github.com/codesandbox/sandpack) | A component toolkit for creating live-running code editing experiences, using the power of Code Sandbox. | `TypeScript` ★ 6.1k | 2025-04-24 |
+| [portofcontext/pctx](https://github.com/portofcontext/pctx) | pctx is the execution layer for agentic tool calls. It exposes custom tools and MCP servers as code that runs in secure sandboxes for token-efficient calls. | `Rust` ★ 251 | 2026-05-08 |
+| [inclusionAI/AEnvironment](https://github.com/inclusionAI/AEnvironment) | Standardized environment infrastructure for Agentic AI development. | `Python` ★ 298 | 2026-05-08 |

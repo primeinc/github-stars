@@ -1,11 +1,18 @@
 # Tag: tts
 
-*3 repositories*
+*10 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [natikxy/rick-voice](https://github.com/natikxy/rick-voice) | Convert text into authentic Rick Sanchez voice for bots and apps with a simple Python API supporting streaming and multiple TTS providers. | ★ 1 | 2026-03-21 |
-| [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) | Convert any git repository into an engaging podcast | `TypeScript` ★ 804 | 2025-08-30 |
-| [ysharma3501/LuxTTS](https://github.com/ysharma3501/LuxTTS) | A high-quality rapid TTS voice cloning model that reaches speeds of 150x realtime. | `Python` ★ 2.9k | 2026-03-12 |
+| [zackham/narrate](https://github.com/zackham/narrate) | Multi-speaker script to audio using local TTS. Excellent quality, zero cost, one command. | `Python` ★ 14 | 2026-04-22 |
+| [QwenLM/Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) | Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice... | `Python` ★ 11.3k | 2026-03-17 |
+| [isaiahbjork/expo-kokoro-onnx](https://github.com/isaiahbjork/expo-kokoro-onnx) | Run Kokoro TTS locally on device using Expo & ONNX Runtime | `TypeScript` ★ 79 | 2025-05-08 |
+| [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro) | Gradio Web UI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, Cosy Voice), with Whisper audio processing, You Tube download, Demucs vocal... | `Python` ★ 9.4k | 2025-12-05 |
+| [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) | Convert any git repository into an engaging podcast | `TypeScript` ★ 807 | 2025-08-30 |
+| [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) | SOTA Open Source TTS | `Python` ★ 30.2k | 2026-05-04 |
+| [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | 1 min voice data can also be used to train a good TTS model! (few shot voice cloning) | `Python` ★ 57.3k | 2026-04-30 |
+| [DrewThomasson/ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook) | Generate audiobooks from e-books, voice cloning & 1158+ languages! | `Python` ★ 18.8k | 2026-05-07 |
+| [shahizat/JetsonGPT](https://github.com/shahizat/JetsonGPT) | Using Fast Chat-T5 Large Language Model, Vosk API for automatic speech recognition, and Piper for text-to-speech | `Python` ★ 132 | 2023-06-15 |
+| [enhuiz/vall-e](https://github.com/enhuiz/vall-e) | An unofficial Py Torch implementation of the audio LM VALL-E | `Python` ★ 3k | 2023-05-10 |

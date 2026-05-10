@@ -1,0 +1,112 @@
+---
+name: 'Web CI'
+
+on:
+  # Run on EVERY PR to main (no paths filter) so this can be a required
+  # status check without leaving non-web PRs stuck on "pending". The
+  # build is ~15s; the cost is negligible. See `.sisyphus/proofs/02-AUDIT-on-main.md` G2.
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+    paths:
+      - 'web/**'
+      - 'repos.yml'
+      - '.github/workflows/00b-web-ci.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: web-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+
+      # yq (mikefarah) is preinstalled on ubuntu-latest. Regenerate
+      # web/public/data.json from repos.yml on every run so a malformed
+      # manifest fails this gate instead of leaking into the deploy job.
+      - name: Generate web/public/data.json from repos.yml
+        run: |
+          set -euo pipefail
+          mkdir -p web/public
+          yq eval -o=json '.' repos.yml > web/public/data.json
+          bytes=$(wc -c < web/public/data.json | tr -d ' ')
+          echo "Generated web/public/data.json ($bytes bytes)"
+
+      - name: Install dependencies
+        working-directory: web
+        run: npm ci
+
+      - name: Lint
+        id: lint
+        working-directory: web
+        run: npm run lint
+
+      - name: Build
+        id: build
+        working-directory: web
+        run: npm run build
+
+      - name: Verify build output
+        id: verify
+        run: |
+          set -euo pipefail
+          missing=0
+          for f in docs/index.html docs/data.json; do
+            if [ ! -f "$f" ]; then
+              echo "::error::Build output missing: $f"
+              missing=1
+            fi
+          done
+          if [ "$missing" = "1" ]; then exit 1; fi
+          file_count=$(find docs -type f | wc -l | tr -d ' ')
+          echo "docs_files=$file_count" >> "$GITHUB_OUTPUT"
+          echo "docs/ contains $file_count files"
+
+      - name: Web CI summary
+        if: always()
+        env:
+          LINT_OUTCOME: ${{ steps.lint.outcome }}
+          BUILD_OUTCOME: ${{ steps.build.outcome }}
+          VERIFY_OUTCOME: ${{ steps.verify.outcome }}
+          DOCS_FILES: ${{ steps.verify.outputs.docs_files }}
+        run: |
+          set -euo pipefail
+          {
+            echo "# 00b — Web CI"
+            echo ""
+            echo "- Workflow: \`${{ github.workflow }}\`"
+            echo "- Run ID: \`${{ github.run_id }}\`"
+            echo "- Trigger: \`${{ github.event_name }}\`"
+            echo "- Commit: \`${{ github.sha }}\`"
+            echo ""
+            echo "## Gates"
+            echo "- \`npm ci\` (web)"
+            echo "- \`npm run lint\` (web): \`${LINT_OUTCOME:-skipped}\`"
+            echo "- \`npm run build\` (web): \`${BUILD_OUTCOME:-skipped}\`"
+            echo "- Build output verification: \`${VERIFY_OUTCOME:-skipped}\`"
+            echo ""
+            echo "## Outputs"
+            echo "- \`docs/\` files: \`${DOCS_FILES:-?}\`"
+            echo ""
+            echo "## Notes"
+            echo "- This workflow is a PR/push gate. Actual deploy to GitHub Pages still happens in \`04-Build and Deploy Site\`."
+            echo "- \`web/public/data.json\` is regenerated from \`repos.yml\` on every run; a malformed manifest fails this gate."
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -1,12 +1,11 @@
 # Tag: openclaw
 
-*4 repositories*
+*3 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [daggerhashimoto/openclaw-nerve](https://github.com/daggerhashimoto/openclaw-nerve) | Real-time web cockpit for Open Claw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility. | `TypeScript` ★ 207 | 2026-03-20 |
-| [swarmclawai/swarmclaw](https://github.com/swarmclawai/swarmclaw) | Build and run autonomous AI agents with Open Claw, multiple model providers, orchestration, delegation, memory, skills, schedules, and chat connectors. | `TypeScript` ★ 163 | 2026-03-19 |
-| [openclaw/clawhub](https://github.com/openclaw/clawhub) | Skill Directory for Open Claw | `TypeScript` ★ 6.5k | 2026-03-20 |
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 | `TypeScript` ★ 327.3k | 2026-03-21 |
+| [snarktank/antfarm](https://github.com/snarktank/antfarm) | Build your agent team in Open Claw with one command. | `TypeScript` ★ 2.4k | 2026-02-26 |
+| [SeyZ/clawbands](https://github.com/SeyZ/clawbands) | Claw Bands is a security middleware for Open Claw AI agents. | `TypeScript` ★ 196 | 2026-02-09 |
+| [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | The awesome collection of Open Claw skills. 5,400+ skills filtered and categorized from the official Open Claw Skills Registry.🦞 | ★ 48.3k | 2026-04-20 |

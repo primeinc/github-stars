@@ -1,10 +1,12 @@
 # Tag: audio-processing
 
-*2 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [talin190/Qwen3-TTS-Daggr-UI](https://github.com/talin190/Qwen3-TTS-Daggr-UI) | 🎤 Create dynamic voice experiences with Qwen3-TTS-Daggr-UI, a Gradio app for voice design, cloning, and speech recognition across multiple languages. | `Python` ★ 3 | 2026-03-21 |
-| [DoIT-Artificial-Intelligence/youtube-to-docs](https://github.com/DoIT-Artificial-Intelligence/youtube-to-docs) | Convert You Tube videos into structured docs, summaries, audio, and visual assets for easier discovery. | `Python` ★ 36 | 2026-03-20 |
+| [Anjok07/ultimatevocalremovergui](https://github.com/Anjok07/ultimatevocalremovergui) | GUI for a Vocal Remover that uses Deep Neural Networks. | `Python` ★ 24.6k | 2025-03-13 |
+| [facebookresearch/sam-audio](https://github.com/facebookresearch/sam-audio) | The repository provides code for running inference with the Meta Segment Anything Audio Model (SAM-Audio), links for downloading the trained model checkpoints, and example notebooks that show how t... | `Python` ★ 3.5k | 2026-01-05 |
+| [nyrahealth/CrisperWhisper](https://github.com/nyrahealth/CrisperWhisper) | Verbatim Automatic Speech Recognition with improved word-level timestamps and filler detection | `Python` ★ 945 | 2025-06-03 |
+| [aiola-lab/whisper-medusa](https://github.com/aiola-lab/whisper-medusa) | Whisper with Medusa heads | `Python` ★ 862 | 2025-08-06 |

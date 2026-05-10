@@ -3,6 +3,29 @@ name: '02-Sync Starred Repos'
 
 on:
   workflow_dispatch:
+    inputs:
+      auth_mode:
+        description: 'auto | github_app | pat | github_token'
+        required: false
+        default: 'auto'
+        type: choice
+        options:
+          - auto
+          - github_app
+          - pat
+          - github_token
+      pat_fallback_to_github_token:
+        description: 'When pat-mode is selected and PAT fails at runtime, fall back to GITHUB_TOKEN identity (loud, degraded). Set false to hard-fail instead.'
+        required: false
+        default: 'true'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+      removal_override:
+        description: 'Set true to bypass the 5% destructive-deletion guard'
+        required: false
+        default: 'false'
   workflow_run:
     workflows: ["01-Fetch GitHub Stars"]
     types:
@@ -11,211 +34,264 @@ on:
 permissions:
   contents: write
   issues: write
+  actions: read
 
 concurrency:
-  group: sync-stars-${{ github.ref }}
+  # All runs ultimately mutate `main` (Checkout + push below is hardcoded
+  # to `ref: main`), so use a constant group instead of `github.ref`.
+  group: sync-stars-main
   cancel-in-progress: false
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: |
+      (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main')
+      || (github.event_name == 'workflow_run'
+          && github.event.workflow_run.conclusion == 'success'
+          && github.event.workflow_run.head_branch == 'main')
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
+          ref: main
 
-      - name: Check if repos.yml exists
-        id: check_repos
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install pnpm
+        run: npm install -g pnpm@10.13.1
+
+      - name: Install dependencies
         run: |
-          if [ -f "repos.yml" ]; then
-            echo "exists=true" >> $GITHUB_OUTPUT
-          else
-            echo "exists=false" >> $GITHUB_OUTPUT
-          fi
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            if pnpm install --prefer-offline; then exit 0; fi
+            echo "::warning::pnpm install attempt $attempt failed; retrying in 5s..."
+            sleep 5
+          done
+          echo "::error::pnpm install failed after 3 attempts"
+          exit 1
 
-      - name: Validate existing manifest
-        if: steps.check_repos.outputs.exists == 'true'
+      - name: Resolve auth mode (setup-doctor)
+        id: doctor
+        env:
+          AUTH_MODE_REQUEST: ${{ inputs.auth_mode || 'auto' }}
+          STAR_SOURCE_USER: ${{ vars.STAR_SOURCE_USER || 'primeinc' }}
+          GH_APP_CLIENT_ID: ${{ vars.GH_APP_CLIENT_ID }}
+          GH_APP_PRIVATE_KEY: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          STARS_TOKEN: ${{ secrets.STARS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT_FALLBACK_TO_GITHUB_TOKEN: ${{ inputs.pat_fallback_to_github_token || 'true' }}
+        run: pnpm auth:doctor
+
+      - name: Mint GitHub App token (selected_mode=github_app only)
+        id: app-token
+        if: steps.doctor.outputs.selected_mode == 'github_app'
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ vars.GH_APP_CLIENT_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
+
+      - name: Validate existing manifest (schema gate)
+        if: hashFiles('repos.yml') != ''
         uses: cardinalby/schema-validator-action@v3
         with:
           schema: 'schemas/repos-schema.json'
           file: 'repos.yml'
-          mode: 'lax'
+          mode: 'default'
 
       - name: Setup environment
         run: mkdir -p .github-stars/data
 
-      - name: Update manifest
-        id: diff
-        uses: actions/github-script@v8
+      - name: Resolve fetched-stars source
+        id: source
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          TRIGGER_RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT_NAME" = "workflow_run" ] && [ -n "${TRIGGER_RUN_ID:-}" ]; then
+            echo "mode=artifact" >> "$GITHUB_OUTPUT"
+            echo "artifact_name=fetched-stars-${TRIGGER_RUN_ID}" >> "$GITHUB_OUTPUT"
+            echo "Will pull artifact 'fetched-stars-${TRIGGER_RUN_ID}' from triggering run."
+          else
+            echo "mode=committed" >> "$GITHUB_OUTPUT"
+            echo "artifact_name=" >> "$GITHUB_OUTPUT"
+            echo "workflow_dispatch: using committed .github-stars/data/fetched-stars-graphql.json"
+          fi
+
+      - name: Download fetched-stars artifact (canonical handoff)
+        if: steps.source.outputs.mode == 'artifact'
+        id: download
+        continue-on-error: true
+        uses: actions/download-artifact@v4
         with:
-          script: |
-            const fs = require('fs');
-            const { execSync } = require('child_process');
-            
-            const starsDataPath = '.github-stars/data/fetched-stars-graphql.json';
-            if (!fs.existsSync(starsDataPath)) {
-              core.setFailed('Run fetch-stars workflow first.');
-              return;
-            }
+          name: ${{ steps.source.outputs.artifact_name }}
+          path: .github-stars/data
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
 
-            const starsData = JSON.parse(fs.readFileSync(starsDataPath, 'utf8'));
-            if (!Array.isArray(starsData)) {
-              core.setFailed('Invalid stars data format');
-              return;
-            }
-            
-            console.log(`Found ${starsData.length} starred repositories`);
-            
-            if (fs.existsSync('repos.yml')) {
-              yamlContent = fs.readFileSync('repos.yml', 'utf8');
-            } else {
-              yamlContent = fs.readFileSync('.github-stars/repos-template.yml', 'utf8');
-            }
-            
-            // Increase buffer to 50MB to handle large manifests
-            // yq (mikefarah) is pre-installed on ubuntu-latest runners since 2023
-            const manifestJson = execSync('yq eval -o=json -', { 
-              input: yamlContent, 
-              encoding: 'utf8',
-              maxBuffer: 50 * 1024 * 1024 
-            });
-            const manifestData = JSON.parse(manifestJson) || { repositories: [] };
-            
-            if (!manifestData.repositories) manifestData.repositories = [];
-            if (!manifestData.manifest_metadata) manifestData.manifest_metadata = {};
-            manifestData.manifest_metadata.github_user = context.repo.owner;
+      - name: Confirm input data
+        id: input
+        env:
+          MODE: ${{ steps.source.outputs.mode }}
+          DOWNLOAD_OUTCOME: ${{ steps.download.outcome }}
+          ARTIFACT_NAME: ${{ steps.source.outputs.artifact_name }}
+          TRIGGER_RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          set -euo pipefail
+          if [ "$MODE" = "artifact" ] && [ "$DOWNLOAD_OUTCOME" != "success" ]; then
+            {
+              echo "::error::Artifact download failed for triggering run $TRIGGER_RUN_ID (artifact=$ARTIFACT_NAME, outcome=$DOWNLOAD_OUTCOME)."
+              echo "::error::Refusing to fall back to the committed fetched-stars JSON in workflow_run mode."
+              echo "::error::Investigate the triggering 01-Fetch GitHub Stars run, then rerun this workflow via workflow_dispatch if you intend to use the committed JSON."
+            } >&2
+            exit 1
+          fi
 
-            const existingRepos = new Set(manifestData.repositories.filter(r => r?.repo).map(r => r.repo));
-            const newRepos = starsData.filter(s => s?.repo && !existingRepos.has(s.repo));
-            const currentStarRepos = new Set(starsData.filter(s => s?.repo).map(s => s.repo));
-            const removedRepos = manifestData.repositories.filter(r => r?.repo && !currentStarRepos.has(r.repo));
+          if [ "$MODE" = "artifact" ]; then
+            src="artifact"
+          else
+            src="committed"
+          fi
 
-            console.log(`New: ${newRepos.length}, Removed: ${removedRepos.length}`);
+          if [ ! -s ".github-stars/data/fetched-stars-graphql.json" ]; then
+            {
+              echo "::error::No fetched-stars input found."
+              echo "::error::source=$src artifact=$ARTIFACT_NAME triggering_run=$TRIGGER_RUN_ID"
+              echo "::error::Run '01-Fetch GitHub Stars' first or trigger this workflow with workflow_dispatch on a checkout that already contains the committed JSON."
+            } >&2
+            exit 1
+          fi
+          echo "source=$src" >> "$GITHUB_OUTPUT"
+          bytes=$(wc -c < ".github-stars/data/fetched-stars-graphql.json" | tr -d ' ')
+          echo "input_bytes=$bytes" >> "$GITHUB_OUTPUT"
+          echo "Resolved fetched-stars source: $src ($bytes bytes)"
 
-            if (newRepos.length > 0 || removedRepos.length > 0) {
-              manifestData.repositories = manifestData.repositories.filter(r => r?.repo && currentStarRepos.has(r.repo));
+      - name: Sync manifest
+        id: diff
+        env:
+          GITHUB_USER: ${{ github.repository_owner }}
+          MANIFEST_REMOVAL_OVERRIDE: ${{ inputs.removal_override }}
+        run: pnpm sync:stars
 
-              const cleanDescription = (desc) => {
-                if (!desc?.trim()) return 'No description provided';
-                let cleaned = desc
-                  .replace(/^#+\s*/, '')
-                  .replace(/([a-z])([A-Z])/g, '$1 $2')
-                  .replace(/\s+/g, ' ')
-                  .trim();
-                return cleaned.length > 200 ? cleaned.substring(0, 197) + '...' : cleaned;
-              };
-              
-              const newEntries = newRepos.map(repo => ({
-                repo: repo.repo,
-                categories: ["unclassified"],
-                tags: [],
-                summary: cleanDescription(repo.description),
-                last_synced_sha: repo.last_commit_sha || '0'.repeat(40),
-                user_starred_at: repo.user_starred_at || new Date().toISOString(),
-                readme_quality: "missing",
-                needs_review: true,
-                ...(repo.archived && { archived: true }),
-                ...(repo.fork && { fork: true }),
-                github_metadata: {
-                  language: repo.language || null,
-                  topics: repo.topics || [],
-                  stargazers_count: repo.stargazers_count || 0,
-                  forks_count: repo.forks_count || 0,
-                  disk_usage: repo.disk_usage || null,
-                  owner_avatar: repo.owner_avatar || null,
-                  homepage_url: repo.homepage_url || null,
-                  license: repo.license || null,
-                  repo_pushed_at: repo.pushed_at || null,
-                  repo_updated_at: repo.updated_at || null,
-                  html_url: repo.html_url || null,
-                  default_branch: repo.default_branch || null,
-                  latest_release: repo.latest_release || null,
-                  is_mirror: repo.is_mirror || false,
-                  mirror_url: repo.mirror_url || null
-                }
-              }));
-
-              manifestData.repositories.push(...newEntries);
-              manifestData.manifest_metadata.manifest_updated_at = new Date().toISOString();
-              manifestData.manifest_metadata.total_repos = manifestData.repositories.length;
-
-              fs.writeFileSync('.github-stars/data/manifest.json', JSON.stringify(manifestData, null, 2));
-            }
-            
-            // Sync metadata for existing repos
-            let updatedCount = 0;
-            const repoMap = new Map(starsData.map(s => [s.repo, s]));
-            for (const repo of manifestData.repositories) {
-              const fresh = repoMap.get(repo.repo);
-              if (fresh) {
-                let changed = false;
-                
-                // Update user_starred_at if significantly different
-                if (fresh.user_starred_at && fresh.user_starred_at !== repo.user_starred_at) {
-                    repo.user_starred_at = fresh.user_starred_at;
-                    changed = true;
-                }
-
-                // Update GitHub metadata
-                if (repo.last_synced_sha !== fresh.last_commit_sha && fresh.last_commit_sha) {
-                    repo.last_synced_sha = fresh.last_commit_sha;
-                    changed = true;
-                }
-                
-                if (fresh.updated_at && (!repo.github_metadata || repo.github_metadata.repo_updated_at !== fresh.updated_at)) {
-                    if (!repo.github_metadata) repo.github_metadata = {};
-                    repo.github_metadata.repo_updated_at = fresh.updated_at;
-                    repo.github_metadata.repo_pushed_at = fresh.pushed_at;
-                    repo.github_metadata.stargazers_count = fresh.stargazers_count;
-                    repo.github_metadata.forks_count = fresh.forks_count;
-                    repo.github_metadata.disk_usage = fresh.disk_usage;
-                    repo.github_metadata.owner_avatar = fresh.owner_avatar;
-                    repo.github_metadata.language = fresh.language;
-                    repo.github_metadata.topics = fresh.topics;
-                    repo.github_metadata.license = fresh.license;
-                    changed = true;
-                }
-                
-                if (changed) updatedCount++;
-              }
-            }
-            
-            if (updatedCount > 0) {
-               console.log(`Updated metadata for ${updatedCount} existing repositories`);
-               fs.writeFileSync('.github-stars/data/manifest.json', JSON.stringify(manifestData, null, 2));
-               core.setOutput('changed', 'true');
-            }
-
-            core.setOutput('changed', newRepos.length > 0 || removedRepos.length > 0 || updatedCount > 0);
-            core.setOutput('total_new', newRepos.length);
-
-      - name: Convert to YAML
-        if: steps.diff.outputs.changed == 'true'
-        run: yq eval '.' .github-stars/data/manifest.json -o=yaml > repos.yml
-
-      - name: Cleanup
-        if: always()
-        run: rm -f .github-stars/data/manifest.json
-
-      - name: Validate manifest
+      - name: Validate manifest (schema gate, blocks commit)
         if: steps.diff.outputs.changed == 'true'
         uses: cardinalby/schema-validator-action@v3
         with:
           schema: 'schemas/repos-schema.json'
           file: 'repos.yml'
-          mode: 'lax'
+          mode: 'default'
 
       - name: Commit changes
         if: steps.diff.outputs.changed == 'true'
+        id: commit
+        env:
+          # Per session-oracle verdict: commit token MUST equal selected_mode's
+          # credential. No `||` ad-hoc chain — that was the laundering.
+          GIT_TOKEN: ${{ (steps.doctor.outputs.selected_mode == 'github_app' && steps.app-token.outputs.token) || (steps.doctor.outputs.selected_mode == 'pat' && secrets.STARS_TOKEN) || (steps.doctor.outputs.selected_mode == 'github_token' && secrets.GITHUB_TOKEN) || '' }}
         run: |
+          set -euo pipefail
+          if [ -z "${GIT_TOKEN}" ]; then
+            echo "::error::GIT_TOKEN empty after auth resolution. selected_mode=${{ steps.doctor.outputs.selected_mode }}. Inconsistency between resolver and credential availability — fail loud."
+            exit 1
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add repos.yml
+          if git diff --staged --quiet; then
+            echo "No staged changes after YAML round-trip; skipping commit."
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           git commit -m "Sync ${{ steps.diff.outputs.total_new }} new starred repositories [skip ci]"
-          for i in 1 2 3 4 5; do
-            git pull --rebase --autostash origin main
-            git push && break || sleep 10
+          remote_url="https://x-access-token:${GIT_TOKEN}@github.com/${{ github.repository }}.git"
+          pushed=false
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase --autostash "$remote_url" main && git push "$remote_url" HEAD:main; then
+              pushed=true
+              break
+            fi
+            echo "Push attempt $attempt failed; retrying in 10s..."
+            sleep 10
           done
+          if [ "$pushed" != "true" ]; then
+            echo "::error::Failed to push manifest update after 5 attempts."
+            exit 1
+          fi
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+          echo "commit_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Sync summary
+        if: always()
+        env:
+          SELECTED_MODE: ${{ steps.doctor.outputs.selected_mode }}
+          STAR_FETCH_AUTH: ${{ steps.doctor.outputs.star_fetch_auth }}
+          REPO_WRITE_AUTH: ${{ steps.doctor.outputs.repo_write_auth }}
+          DEGRADED: ${{ steps.doctor.outputs.degraded }}
+          INPUT_SOURCE: ${{ steps.input.outputs.source }}
+          INPUT_BYTES: ${{ steps.input.outputs.input_bytes }}
+          ARTIFACT_NAME: ${{ steps.source.outputs.artifact_name }}
+          TRIGGER_RUN_ID: ${{ github.event.workflow_run.id }}
+          DIFF_CHANGED: ${{ steps.diff.outputs.changed }}
+          DESTRUCTIVE_REFUSED: ${{ steps.diff.outputs.destructive_refused }}
+          REMOVAL_RATIO: ${{ steps.diff.outputs.removal_ratio }}
+          TOTAL_NEW: ${{ steps.diff.outputs.total_new }}
+          TOTAL_REMOVED: ${{ steps.diff.outputs.total_removed }}
+          TOTAL_UPDATED: ${{ steps.diff.outputs.total_updated }}
+          TOTAL_REPOS: ${{ steps.diff.outputs.total_repos }}
+          COMMIT_PUSHED: ${{ steps.commit.outputs.pushed }}
+          COMMIT_SHA: ${{ steps.commit.outputs.commit_sha }}
+        run: |
+          {
+            echo "# 02 — Sync"
+            echo ""
+            echo "- Workflow: \`${{ github.workflow }}\`"
+            echo "- Run ID: \`${{ github.run_id }}\`"
+            echo "- Trigger: \`${{ github.event_name }}\`"
+            echo "- Triggering run: \`${TRIGGER_RUN_ID:-n/a}\`"
+            echo "- Commit: \`${{ github.sha }}\`"
+            echo ""
+            echo "## Auth (strict single-credential mode)"
+            echo "- selected_mode: \`${SELECTED_MODE:-unresolved}\`${DEGRADED:+ (degraded=$DEGRADED)}"
+            echo "- star_fetch_auth: \`${STAR_FETCH_AUTH:-?}\` _(must equal selected_mode)_"
+            echo "- repo_write_auth: \`${REPO_WRITE_AUTH:-?}\` _(must equal selected_mode)_"
+            echo ""
+            echo "## Inputs"
+            echo "- Source: \`${INPUT_SOURCE:-unresolved}\`"
+            echo "- Bytes: \`${INPUT_BYTES:-0}\`"
+            echo "- Artifact: \`${ARTIFACT_NAME:-n/a}\`"
+            echo ""
+            echo "## Diff"
+            echo "- Changed: \`${DIFF_CHANGED:-false}\`"
+            echo "- New: \`${TOTAL_NEW:-0}\`"
+            echo "- Removed: \`${TOTAL_REMOVED:-0}\`"
+            echo "- Updated: \`${TOTAL_UPDATED:-0}\`"
+            echo "- Total repos: \`${TOTAL_REPOS:-?}\`"
+            if [ -n "${REMOVAL_RATIO:-}" ]; then
+              echo "- Removal ratio: \`${REMOVAL_RATIO}\` (threshold 0.05)"
+            fi
+            if [ "${DESTRUCTIVE_REFUSED:-false}" = "true" ]; then
+              echo ""
+              echo "## ⚠ Destructive sync refused"
+              echo "Re-dispatch with input \`removal_override=true\` to bypass the 5% guard if the unstar event is genuine."
+            fi
+            echo ""
+            echo "## Gates"
+            echo "- \`cardinalby/schema-validator-action@v3\` (mode: default) against \`schemas/repos-schema.json\` (existing + post-update; both block commit)"
+            echo "- \`src/sync/reconcile.ts\` 5% destructive-deletion guard (\`MANIFEST_REMOVAL_OVERRIDE=true\` to bypass)"
+            echo ""
+            echo "## Commit"
+            echo "- Pushed: \`${COMMIT_PUSHED:-false}\`"
+            echo "- Sync commit: \`${COMMIT_SHA:-n/a}\`"
+            echo ""
+            echo "## Next stage"
+            echo "- \`03-Classify Repos\` (workflow_run on success)"
+          } >> "$GITHUB_STEP_SUMMARY"

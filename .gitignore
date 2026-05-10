@@ -27,3 +27,7 @@ Thumbs.db
 *.temp
 .cache/
 yq
+
+# Local one-shot reproduction sandboxes (never committed).
+.tmp-repro/
+.tmp-*.log

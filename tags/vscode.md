@@ -1,13 +1,15 @@
 # Tag: vscode
 
-*5 repositories*
+*7 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/vscode-extension-samples](https://github.com/microsoft/vscode-extension-samples) | Sample code illustrating the VS Code extension API. | `TypeScript` ★ 10k | 2026-02-12 |
-| [juehang/vscode-mcp-server](https://github.com/juehang/vscode-mcp-server) | MCP server to expose VS Code editing features to an LLM for AI coding | `TypeScript` ★ 340 | 2026-01-07 |
-| [Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops) | An MCP server for Azure Dev Ops | `TypeScript` ★ 350 | 2026-02-05 |
-| [arabold/docs-mcp-server](https://github.com/arabold/docs-mcp-server) | Grounded Docs MCP Server: Open-Source Alternative to Context7, Nia, and Ref.Tools | `TypeScript` ★ 1.2k | 2026-03-17 |
-| [jacob-j/vscode-folder-path-color](https://github.com/jacob-j/vscode-folder-path-color) | All subfolders within a specified path will be assigned a color for easy differentiation. | `TypeScript` ★ 34 | 2025-08-26 |
+| [antfu/vscode-file-nesting-config](https://github.com/antfu/vscode-file-nesting-config) | Config of File Nesting for VS Code | `JavaScript` ★ 3.6k | 2026-04-20 |
+| [microsoft/vscode-extension-samples](https://github.com/microsoft/vscode-extension-samples) | Sample code illustrating the VS Code extension API. | `TypeScript` ★ 10.1k | 2026-02-12 |
+| [juehang/vscode-mcp-server](https://github.com/juehang/vscode-mcp-server) | MCP server to expose VS Code editing features to an LLM for AI coding | `TypeScript` ★ 359 | 2026-01-07 |
+| [microsoft/vscode-copilot-chat](https://github.com/microsoft/vscode-copilot-chat) | Copilot Chat extension for VS Code | `TypeScript` ★ 9.9k | 2026-05-08 |
+| [palashmon/awesome-vscode-settings](https://github.com/palashmon/awesome-vscode-settings) | 🎨 A curated list of simple and awesome VS Code settings | ★ 53 | 2026-04-08 |
+| [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) | 🎨 A curated list of delightful VS Code packages and resources. | `JavaScript` ★ 28.6k | 2024-06-21 |
+| [hassio-addons/addon-vscode](https://github.com/hassio-addons/addon-vscode) | Studio Code Server - Home Assistant Community Add-ons | `Dockerfile` ★ 652 | 2026-05-06 |

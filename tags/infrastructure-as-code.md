@@ -1,12 +1,13 @@
 # Tag: infrastructure-as-code
 
-*4 repositories*
+*5 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/PSRule-pipelines](https://github.com/microsoft/PSRule-pipelines) | Validate infrastructure as code (Ia C) and Dev Ops repositories using Azure Pipelines. | `PowerShell` ★ 101 | 2025-11-18 |
-| [Azure/PSDocs.Azure](https://github.com/Azure/PSDocs.Azure) | Generate documentation from Azure infrastructure as code (Ia C) artifacts. | `PowerShell` ★ 66 | 2026-02-03 |
-| [PSBicep/PSBicep](https://github.com/PSBicep/PSBicep) | This is the repo for the Bicep Power Shell Module. | `PowerShell` ★ 146 | 2025-07-19 |
-| [wesellis/Azure-PowerShell-Toolkit](https://github.com/wesellis/Azure-PowerShell-Toolkit) | Massive collection of 772+ Power Shell scripts for Azure management. CI/CD with PSScript Analyzer, security scanning, and Ia C validation. Enterprise-ready with comprehensive testing. | `PowerShell` ★ 39 | 2025-10-03 |
+| [microsoft/PSRule-pipelines](https://github.com/microsoft/PSRule-pipelines) | Validate infrastructure as code (Ia C) and Dev Ops repositories using Azure Pipelines. | `PowerShell` ★ 102 | 2026-05-08 |
+| [Azure/PSDocs.Azure](https://github.com/Azure/PSDocs.Azure) | Generate documentation from Azure infrastructure as code (Ia C) artifacts. | `C#` ★ 66 | 2026-05-02 |
+| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `Go` ★ 10.2k | 2026-05-10 |
+| [Orange-Cyberdefense/GOAD](https://github.com/Orange-Cyberdefense/GOAD) | game of active directory | `PowerShell` ★ 7.8k | 2026-03-12 |
+| [Azure/PSRule.Rules.Azure](https://github.com/Azure/PSRule.Rules.Azure) | Rules to validate Azure resources and infrastructure as code (Ia C) using PSRule. | `PowerShell` ★ 440 | 2026-05-08 |

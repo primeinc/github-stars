@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [financial-datasets/mcp-server](https://github.com/financial-datasets/mcp-server) | An MCP server for interacting with the Financial Datasets stock market API. | `Python` ★ 1.7k | 2025-06-05 |
-| [alphanome-ai/sec-parser](https://github.com/alphanome-ai/sec-parser) | Parse SEC EDGAR HTML documents into a tree of elements that correspond to the visual (semantic) structure of the document. | `Python` ★ 278 | 2025-03-25 |
-| [ranaroussi/yfinance](https://github.com/ranaroussi/yfinance) | Download market data from Yahoo! Finance's API | `Python` ★ 22.2k | 2026-03-19 |
+| [feremabraz/bloomberg-terminal](https://github.com/feremabraz/bloomberg-terminal) | Bloomberg-like terminal with AI. It uses Redis with Alpha Vantage data and local simulations to avoid hitting the API too much. | `TypeScript` ★ 1.2k | 2026-03-05 |
+| [financial-datasets/mcp-server](https://github.com/financial-datasets/mcp-server) | An MCP server for interacting with the Financial Datasets stock market API. | `Python` ★ 2.1k | 2025-06-05 |
+| [ranaroussi/yfinance](https://github.com/ranaroussi/yfinance) | Download market data from Yahoo! Finance's API | `Python` ★ 23.5k | 2026-05-09 |
