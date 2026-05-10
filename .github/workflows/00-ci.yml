@@ -23,10 +23,25 @@ jobs:
           node-version: '22'
 
       - name: Install pnpm
-        run: npm install -g pnpm@latest
+        # Pin a known-good pnpm version that matches lockfileVersion 9.0
+        # (pnpm-lock.yaml). `pnpm@latest` previously broke this step with a
+        # silent ~3s failure that left zero diagnostic output.
+        run: npm install -g pnpm@10.13.1
 
       - name: Install dependencies
-        run: pnpm install
+        # Retry up to 3 attempts on transient registry/network failures;
+        # the previous run failed in ~3s with no useful log.
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            if pnpm install --prefer-offline; then
+              exit 0
+            fi
+            echo "::warning::pnpm install attempt $attempt failed; retrying in 5s..."
+            sleep 5
+          done
+          echo "::error::pnpm install failed after 3 attempts"
+          exit 1
 
       - name: Run tests
         run: pnpm test
@@ -34,5 +49,78 @@ jobs:
       - name: Run repro script
         run: pnpm repro:taxonomy
 
-      - name: Validate repos.yml
+      - name: Validate repos.yml (strict)
         run: pnpm validate
+
+      - name: CI summary
+        if: always()
+        run: |
+          {
+            echo "# CI"
+            echo ""
+            echo "- Workflow: \`${{ github.workflow }}\`"
+            echo "- Run ID: \`${{ github.run_id }}\`"
+            echo "- Trigger: \`${{ github.event_name }}\`"
+            echo "- Commit: \`${{ github.sha }}\`"
+            echo ""
+            echo "## Gates"
+            echo "- vitest: \`pnpm test\`"
+            echo "- taxonomy repro: \`pnpm repro:taxonomy\`"
+            echo "- strict manifest validation: \`pnpm validate\`"
+            echo ""
+            echo "Next stage: \`web\` job (lint + build)."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  web:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install web dependencies
+        working-directory: web
+        run: npm ci
+
+      - name: Stage data.json for build
+        run: |
+          mkdir -p web/public
+          # mikefarah/yq is preinstalled on ubuntu-latest runners.
+          yq eval -o=json '.' repos.yml > web/public/data.json
+          test -s web/public/data.json
+
+      - name: Lint web
+        working-directory: web
+        run: npm run lint
+
+      - name: Build web
+        working-directory: web
+        run: npm run build
+
+      - name: Verify build output
+        run: |
+          test -f docs/index.html
+          test -d docs/assets
+
+      - name: Web summary
+        if: always()
+        run: |
+          {
+            echo "# Web build"
+            echo ""
+            echo "- Workflow: \`${{ github.workflow }}\`"
+            echo "- Run ID: \`${{ github.run_id }}\`"
+            echo "- Commit: \`${{ github.sha }}\`"
+            echo ""
+            echo "## Gates"
+            echo "- \`npm ci\` (web)"
+            echo "- \`npm run lint\` (web)"
+            echo "- \`npm run build\` (web → \`docs/\`)"
+            echo "- output existence: \`docs/index.html\`, \`docs/assets/\`"
+          } >> "$GITHUB_STEP_SUMMARY"
