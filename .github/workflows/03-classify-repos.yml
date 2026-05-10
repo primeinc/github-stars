@@ -319,14 +319,10 @@ jobs:
         if: always()
         run: rm -f .github-stars/data/*.json .github-stars/data/*.txt
 
-      - name: Validate
-        if: steps.apply.outputs.count > 0
-        uses: cardinalby/schema-validator-action@v3
-        with:
-          schema: schemas/repos-schema.json
-          file: repos.yml
-          mode: lax
-
+      # Normalize FIRST so taxonomy aliases / casing drift from the AI batch
+      # are canonicalized before any hard gate runs. Without this order,
+      # `cardinalby strict` would reject AI output that the normalizer
+      # would otherwise repair (e.g. `AI` → `ai`, plural/singular tag drift).
       - name: Normalize Manifest
         if: steps.apply.outputs.count > 0
         run: |
@@ -334,7 +330,22 @@ jobs:
           pnpm normalize
           echo "Normalization complete"
 
-      - name: Post-Classification Verification
+      # HARD GATE: structural JSON Schema check on the normalized manifest.
+      # `mode: strict` aligns with 02-sync-stars and prevents repos.yml from
+      # being committed with `additionalProperties` violations or missing
+      # required fields.
+      - name: Validate (schema, strict)
+        if: steps.apply.outputs.count > 0
+        uses: cardinalby/schema-validator-action@v3
+        with:
+          schema: schemas/repos-schema.json
+          file: repos.yml
+          mode: strict
+
+      # HARD GATE: semantic taxonomy check. Each repo's categories/tags must
+      # come from the closed set in `src/manifest/taxonomy.ts`. Schema gate
+      # cannot catch this on its own.
+      - name: Validate (taxonomy)
         if: steps.apply.outputs.count > 0
         run: |
           echo "Running strict taxonomy validation..."
@@ -412,12 +423,12 @@ jobs:
             echo "- Remaining unclassified: \`${REMAINING:-n/a}\`"
             echo "- Self-dispatched next batch: \`${HAS_MORE:-false}\`"
             echo ""
-            echo "## Gates"
+            echo "## Gates (in order)"
             echo "- AI categories filtered against \`taxonomy.categories_allowed\`"
             echo "- AI framework filtered against \`taxonomy.frameworks_allowed\`"
-            echo "- \`pnpm normalize\` (in-place canonicalization)"
-            echo "- \`pnpm validate\` (strict TypeScript validator) — blocks commit"
-            echo "- Schema validation against \`schemas/repos-schema.json\` — blocks commit"
+            echo "- \`pnpm normalize\` (in-place canonicalization of AI output)"
+            echo "- \`cardinalby/schema-validator-action@v3\` strict against \`schemas/repos-schema.json\` — blocks commit"
+            echo "- \`pnpm validate\` (taxonomy strict) — blocks commit"
             echo ""
             echo "## Next stage"
             if [ "${HAS_MORE:-false}" = "true" ]; then

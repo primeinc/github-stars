@@ -5,29 +5,33 @@ This file contains instructions for AI agents (and human contributors) working o
 ## 1. Project Overview
 This is a **GitHub Actions-based automation system** for curating starred repositories.
 - **Core Logic**: Embedded in `.github/workflows/*.yml` (JavaScript via `actions/github-script`).
-- **Database**: `repos.yml` (YAML manifest), validated against `schemas/repos-schema.json`.
+- **Database**: `repos.yml` (YAML manifest). Two independent gates protect it: a **JSON Schema** gate (`schemas/repos-schema.json`) and a **taxonomy** gate (categories/tags must come from the closed set defined in `src/manifest/taxonomy.ts`).
 - **Local Build**: A small TypeScript toolchain in `src/` is used in CI (`00-ci.yml`) and is runnable locally via `pnpm test`, `pnpm validate`, and `pnpm repro:taxonomy`.
+- **Web Surface**: A Vite + React app under `web/` builds to `docs/` and is deployed to GitHub Pages by `04-build-site.yml`. A separate CI gate (`00b-web-ci.yml`) runs `npm ci`/`lint`/`build` on every PR + push to `main`.
 
 ## 2. Build, Test, and Validation
-Two layers of validation exist: local TypeScript tests (`vitest`) and Actions-side schema validation.
+
+`repos.yml` has **two distinct validators** that protect different invariants. Do not confuse them.
+
+| Gate | Implementation | Validates | Local command | Workflows that enforce it |
+|---|---|---|---|---|
+| **JSON Schema** (structural) | `cardinalby/schema-validator-action@v3` against `schemas/repos-schema.json` | Field presence, types, `additionalProperties: false`, enum membership for fixed-shape fields | `ajv validate -s schemas/repos-schema.json -d repos.yml` (if `ajv-cli` installed) | `02-sync-stars.yml` (strict, twice — pre and post update), `03-classify-repos.yml` (strict, post-classify) |
+| **Taxonomy** (semantic) | `src/manifest/validator.ts`, invoked by `src/cli-validate.ts` | Each repo's `categories[]`/`tags[]` are members of the canonical taxonomy in `src/manifest/taxonomy.ts`; no orphan or misspelled labels | `pnpm validate` | `00-ci.yml` (every PR/push to `main`), `03-classify-repos.yml` (post-classify, after `pnpm normalize`) |
+
+**`pnpm validate` is the taxonomy gate, not the schema gate.** It will pass on a manifest that fails JSON Schema and vice versa. To get full coverage locally:
+
+```bash
+pnpm validate                                                      # taxonomy
+ajv validate -s schemas/repos-schema.json -d repos.yml             # schema (if ajv-cli installed)
+```
 
 ### Local toolchain (Node / pnpm)
-- Install: `pnpm install` (lockfile is `pnpm-lock.yaml`).
+- Install: `pnpm install` (lockfile is `pnpm-lock.yaml`, `lockfileVersion 9.0`; CI pins `pnpm@10.13.1`).
 - Unit tests: `pnpm test` (vitest, `vitest.config.ts`).
-- Manifest validator: `pnpm validate` (runs `src/cli-validate.ts` against `schemas/repos-schema.json`).
+- Taxonomy validator: `pnpm validate` (runs `src/cli-validate.ts`).
 - Taxonomy reproduction: `pnpm repro:taxonomy`.
-- These same three commands are what `.github/workflows/00-ci.yml` runs on every PR / push to `main`.
-
-### Schema Validation
-The primary correctness check is JSON Schema validation for `repos.yml`.
-- **Schema**: `schemas/repos-schema.json`
-- **Validation Tool**: `cardinalby/schema-validator-action` (in CI workflows 02/04) or local `pnpm validate` / `ajv-cli` if installed.
-- **Test Command** (Manual):
-  ```bash
-  pnpm validate
-  # or, if you have ajv-cli installed
-  ajv validate -s schemas/repos-schema.json -d repos.yml
-  ```
+- Normalizer: `pnpm normalize` (in-place canonicalization of `repos.yml`).
+- The first three are what `.github/workflows/00-ci.yml` runs on every PR / push to `main`.
 
 ### Running Workflows
 Actual workflow files in `.github/workflows/` (numbered, run in order via `workflow_run` chaining):
@@ -62,7 +66,7 @@ Trigger any workflow manually via the GitHub Actions tab (`workflow_dispatch`).
 - **JS Variables**: `camelCase`.
 - **Schema Properties**: `snake_case` (e.g., `generated_at`, `total_repos`, `ai_sort`).
 
-## 4. AI & Copilot Rules (from docs/COPILOT_SETUP.md)
+## 4. AI & Copilot Rules
 
 ### General Interaction
 - **Explain First**: Use `/explain` or `@workspace` to understand the code/schema before editing.
@@ -120,7 +124,7 @@ GitHub stars (per user)
    ▼  workflow_run "02-Sync Starred Repos" completed
 03-classify-repos.yml
    ├── AI-classifies unclassified/needs_review repos in batches
-   ├── normalizes + strict-validates repos.yml against taxonomy (HARD GATE)
+   ├── pnpm normalize → cardinalby strict (HARD GATE) → pnpm validate (HARD GATE)
    └── commits repos.yml; self-dispatches if more remain
    │
    ▼  workflow_run "03-Classify Repos" completed (fans out)

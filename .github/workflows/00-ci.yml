@@ -56,7 +56,7 @@ jobs:
         if: always()
         run: |
           {
-            echo "# CI"
+            echo "# CI (taxonomy + tests)"
             echo ""
             echo "- Workflow: \`${{ github.workflow }}\`"
             echo "- Run ID: \`${{ github.run_id }}\`"
@@ -66,61 +66,7 @@ jobs:
             echo "## Gates"
             echo "- vitest: \`pnpm test\`"
             echo "- taxonomy repro: \`pnpm repro:taxonomy\`"
-            echo "- strict manifest validation: \`pnpm validate\`"
+            echo "- strict taxonomy validation: \`pnpm validate\` (NOT JSON Schema; that runs in 02/03)"
             echo ""
-            echo "Next stage: \`web\` job (lint + build)."
-          } >> "$GITHUB_STEP_SUMMARY"
-
-  web:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v6
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: web/package-lock.json
-
-      - name: Install web dependencies
-        working-directory: web
-        run: npm ci
-
-      - name: Stage data.json for build
-        run: |
-          mkdir -p web/public
-          # mikefarah/yq is preinstalled on ubuntu-latest runners.
-          yq eval -o=json '.' repos.yml > web/public/data.json
-          test -s web/public/data.json
-
-      - name: Lint web
-        working-directory: web
-        run: npm run lint
-
-      - name: Build web
-        working-directory: web
-        run: npm run build
-
-      - name: Verify build output
-        run: |
-          test -f docs/index.html
-          test -d docs/assets
-
-      - name: Web summary
-        if: always()
-        run: |
-          {
-            echo "# Web build"
-            echo ""
-            echo "- Workflow: \`${{ github.workflow }}\`"
-            echo "- Run ID: \`${{ github.run_id }}\`"
-            echo "- Commit: \`${{ github.sha }}\`"
-            echo ""
-            echo "## Gates"
-            echo "- \`npm ci\` (web)"
-            echo "- \`npm run lint\` (web)"
-            echo "- \`npm run build\` (web → \`docs/\`)"
-            echo "- output existence: \`docs/index.html\`, \`docs/assets/\`"
+            echo "Web build/lint runs in the separate \`Web CI\` workflow (\`.github/workflows/00b-web-ci.yml\`)."
           } >> "$GITHUB_STEP_SUMMARY"
