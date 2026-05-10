@@ -219,3 +219,65 @@ export function statPathSync(path: string): Stats {
 export function fileSizeBytesSync(path: string): number {
 	return nodeStatSync(path).size;
 }
+
+/**
+ * Optional predicates for {@link walkFilesSync}.
+ *
+ * @public
+ */
+export interface WalkFilesOptions {
+	/**
+	 * Predicate called per directory before descending. Returning true
+	 * skips the directory (and its entire subtree).
+	 */
+	readonly skipDir?: (entry: {
+		readonly name: string;
+		readonly absPath: string;
+	}) => boolean;
+	/**
+	 * Predicate called per regular file. Returning true includes the
+	 * file in the result; false skips it.
+	 */
+	readonly includeFile?: (entry: {
+		readonly name: string;
+		readonly absPath: string;
+	}) => boolean;
+}
+
+/**
+ * Recursive sync directory walk. Returns absolute paths to every
+ * regular file under `startDir` that passes the optional predicates.
+ *
+ * @remarks
+ * Wraps node:fs.readdirSync + statSync so callers don't import
+ * node:fs directly. Depth-first; failures to read a child throw
+ * immediately rather than silently skipping (a missing directory is
+ * a config-drift bug, not a fall-through condition). Used by the
+ * gate runner (src/gate/no-loose-zod-cli.ts) to enumerate src/**.
+ *
+ * @public
+ */
+export function walkFilesSync(
+	startDir: string,
+	options: WalkFilesOptions = {},
+): string[] {
+	const out: string[] = [];
+	function visit(dir: string): void {
+		for (const name of nodeReaddirSync(dir)) {
+			const absPath = joinPaths(dir, name);
+			const st = nodeStatSync(absPath);
+			if (st.isDirectory()) {
+				if (options.skipDir?.({ name, absPath })) continue;
+				visit(absPath);
+				continue;
+			}
+			if (!st.isFile()) continue;
+			if (options.includeFile && !options.includeFile({ name, absPath })) {
+				continue;
+			}
+			out.push(absPath);
+		}
+	}
+	visit(startDir);
+	return out;
+}

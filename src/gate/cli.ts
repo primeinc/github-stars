@@ -119,6 +119,16 @@ function main(): void {
 	}
 
 	stages.push(
+		runStage("no-loose-zod (schemas:no-loose-check)", () =>
+			bunRun("gate:no-loose-zod"),
+		),
+	);
+	if (!stages[stages.length - 1]?.ok) {
+		finish(stages);
+		return;
+	}
+
+	stages.push(
 		runStage("generated-artifacts registry", validateGeneratedRegistry),
 	);
 	if (!stages[stages.length - 1]?.ok) {

@@ -7,6 +7,7 @@
 //
 // Doctrine source: ../../../juv2/packages/host-io/src/index.ts.
 
+export type { WalkFilesOptions } from "./fs.js";
 export {
 	acquireFileLockSync,
 	appendFileText,
@@ -22,6 +23,7 @@ export {
 	removePathSync,
 	renameSync,
 	statPathSync,
+	walkFilesSync,
 	writeTextFileAtomicSync,
 	writeTextFileSync,
 } from "./fs.js";

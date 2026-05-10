@@ -19,6 +19,7 @@
     "gate": "bun run src/gate/cli.ts",
     "depcruise": "dependency-cruiser --validate src",
     "knip": "knip",
+    "gate:no-loose-zod": "bun run src/gate/no-loose-zod-cli.ts",
     "paths:generate": "bun run src/contracts/paths-codegen.ts",
     "auth:doctor": "bun run src/auth/setup-doctor.ts",
     "fetch:stars": "bun run src/fetch/cli.ts",
