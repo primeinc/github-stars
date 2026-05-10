@@ -1,5 +1,10 @@
 # Work Plan: MVP Phase 2 - Content Generation (READMEs)
 
+> **Status: ARCHIVED — Implemented.** The proposed
+> `.github/workflows/05-generate-readmes.yml` exists and is the active
+> README generator (categories/, tags/, root README.md). Kept for
+> historical context only.
+
 ## Overview
 Automate the generation of browsable README files for categories, tags, and an index page. This enables repository exploration directly through the GitHub web interface without needing an external site.
 

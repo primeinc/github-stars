@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: fetch-stars-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   fetch-stars:
     runs-on: ubuntu-latest
@@ -17,11 +21,28 @@ jobs:
       archived_count: ${{ steps.fetch-stars.outputs.archived_count }}
       fork_count: ${{ steps.fetch-stars.outputs.fork_count }}
       no_description_count: ${{ steps.fetch-stars.outputs.no_description_count }}
-    
+      token_source: ${{ steps.token.outputs.source }}
+      output_file: ${{ steps.fetch-stars.outputs.output_file }}
+      output_bytes: ${{ steps.fetch-stars.outputs.output_bytes }}
+      artifact_name: fetched-stars-${{ github.run_id }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-        
+
+      - name: Resolve token source
+        id: token
+        env:
+          STARS_TOKEN_VALUE: ${{ secrets.STARS_TOKEN }}
+        run: |
+          if [ -n "${STARS_TOKEN_VALUE:-}" ]; then
+            echo "source=STARS_TOKEN" >> "$GITHUB_OUTPUT"
+            echo "Using STARS_TOKEN (PAT)."
+          else
+            echo "source=GITHUB_TOKEN" >> "$GITHUB_OUTPUT"
+            echo "::warning::STARS_TOKEN secret is not set. Falling back to GITHUB_TOKEN, which fetches stars for the workflow's identity (often the wrong account). Set a STARS_TOKEN PAT with read:user scope to make this deterministic. See AGENTS.md §8."
+          fi
+
       - name: Fetch starred repositories
         uses: actions/github-script@v8
         id: fetch-stars
@@ -39,11 +60,40 @@ jobs:
             const STARS_QUERY = fs.readFileSync(queryPath, 'utf8');
             
             // Configuration
-            const MAX_RETRIES = 3;
+            // Bumped from 3 → 6 with a 60s backoff cap + jitter after run 25591400125
+            // failed 3 consecutive 502 Bad Gateway retries (2s/4s/8s) on api.github.com/graphql.
+            const MAX_RETRIES = 6;
+            const MAX_BACKOFF_SECONDS = 60;
             const OUTPUT_FILE = '.github-stars/data/fetched-stars-graphql.json';
-            const MAX_ERROR_MSG_LENGTH = 50;
+            const MAX_ERROR_MSG_LENGTH = 200;
             
             const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+            
+            // Decide whether an error is a transient/retryable upstream failure.
+            const isRetryable = (error) => (
+              (typeof error.status === 'number' && error.status >= 500 && error.status < 600) ||
+              error.status === 408 ||
+              error.status === 429 ||
+              error.message?.includes('Bad Gateway') ||
+              error.message?.includes('Service Unavailable') ||
+              error.message?.includes('Gateway Timeout') ||
+              error.message?.includes('ECONNRESET') ||
+              error.message?.includes('ETIMEDOUT') ||
+              error.message?.includes('socket hang up') ||
+              error.message?.includes('FetchError')
+            );
+            
+            // Exponential backoff with "equal jitter" (sleep range is
+            // [0.5, 1.0) * cappedExp), capped at MAX_BACKOFF_SECONDS. The
+            // 0.5 floor preserves a minimum backoff so tight retry loops
+            // can't hammer api.github.com during a 502 storm; the random
+            // upper half spreads concurrent runs to avoid synchronized
+            // retries (AWS architecture blog, "exponential backoff and
+            // jitter"). Not full jitter (which would be [0, 1) * cappedExp).
+            const backoffMs = (attempt) => {
+              const expSec = Math.min(MAX_BACKOFF_SECONDS, Math.pow(2, attempt));
+              return Math.floor((0.5 + Math.random() * 0.5) * expSec * 1000);
+            };
             
             const BAD_CREDENTIALS_MSG =
               'Authentication failed: Bad credentials. ' +
@@ -51,15 +101,25 @@ jobs:
               'Please generate a new Personal Access Token with "read:user" scope ' +
               'and update the STARS_TOKEN repository secret.';
             
-            // Validate token before starting fetch
-            try {
-              await github.graphql('{ viewer { login } }');
-            } catch (authError) {
-              if (authError.message?.includes('Bad credentials')) {
-                core.setFailed(BAD_CREDENTIALS_MSG);
-                return;
+            // Validate token before starting fetch (with retry on transient 5xx so
+            // a flaky api.github.com edge does not fail the whole workflow at step 1).
+            for (let authAttempt = 1; ; authAttempt++) {
+              try {
+                await github.graphql('{ viewer { login } }');
+                break;
+              } catch (authError) {
+                if (authError.message?.includes('Bad credentials')) {
+                  core.setFailed(BAD_CREDENTIALS_MSG);
+                  return;
+                }
+                if (authAttempt <= MAX_RETRIES && isRetryable(authError)) {
+                  const wait = backoffMs(authAttempt);
+                  core.warning(`Auth probe transient error (${authError.status || 'n/a'}): retrying in ${wait}ms (attempt ${authAttempt}/${MAX_RETRIES})...`);
+                  await sleep(wait);
+                  continue;
+                }
+                throw authError;
               }
-              throw authError;
             }
             
             let hasNextPage = true;
@@ -128,18 +188,10 @@ jobs:
                   break;
                 }
                 
-                // Retry on HTTP errors (502, 503, 504) and other transient errors
-                const isRetryableError = 
-                  (typeof error.status === 'number' && error.status >= 500 && error.status < 600) || // HTTP 5xx errors
-                  error.message?.includes('Bad Gateway') ||
-                  error.message?.includes('Service Unavailable') ||
-                  error.message?.includes('Gateway Timeout') ||
-                  error.message?.includes('ECONNRESET') ||
-                  error.message?.includes('ETIMEDOUT');
-                
-                if (retryCount < MAX_RETRIES && isRetryableError) {
+                // Retry on HTTP errors (5xx, 408, 429) and other transient errors
+                if (retryCount < MAX_RETRIES && isRetryable(error)) {
                   retryCount++;
-                  const waitTime = Math.pow(2, retryCount);
+                  const waitMs = backoffMs(retryCount);
                   // Format error message for logging
                   let errorMsg = 'unknown';
                   if (error.status) {
@@ -147,8 +199,8 @@ jobs:
                   } else if (typeof error.message === 'string') {
                     errorMsg = error.message.substring(0, MAX_ERROR_MSG_LENGTH);
                   }
-                  core.warning(`Transient error (${errorMsg}): Retrying in ${waitTime}s (retry ${retryCount}/${MAX_RETRIES})...`);
-                  await sleep(waitTime * 1000);
+                  core.warning(`Transient error (${errorMsg}): Retrying in ${waitMs}ms (retry ${retryCount}/${MAX_RETRIES})...`);
+                  await sleep(waitMs);
                   pageCount--;
                   continue;
                 }
@@ -172,51 +224,107 @@ jobs:
               fs.mkdirSync(outputDir, { recursive: true });
             }
             fs.writeFileSync(OUTPUT_FILE, JSON.stringify(allRepos, null, 2));
-            
+            const outputBytes = fs.statSync(OUTPUT_FILE).size;
+
             const archived = allRepos.filter(r => r.archived).length;
             const forks = allRepos.filter(r => r.fork).length;
             const noDesc = allRepos.filter(r => !r.description).length;
-            
+
             core.info(`Archived: ${archived}, Forks: ${forks}, No description: ${noDesc}`);
-            
+
             core.setOutput('total_repos', allRepos.length);
             core.setOutput('archived_count', archived);
             core.setOutput('fork_count', forks);
             core.setOutput('no_description_count', noDesc);
+            core.setOutput('output_file', OUTPUT_FILE);
+            core.setOutput('output_bytes', outputBytes);
 
       - name: Upload results
         if: success() && steps.fetch-stars.outputs.total_repos != '0'
+        id: upload
         uses: actions/upload-artifact@v6
         with:
           name: fetched-stars-${{ github.run_id }}
           path: .github-stars/data/fetched-stars-graphql.json
           retention-days: 30
-          
-      - name: Create job summary
-        run: |
-          echo "# GitHub Stars Fetch" >> $GITHUB_STEP_SUMMARY
-          echo "- **Total**: ${{ steps.fetch-stars.outputs.total_repos }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Archived**: ${{ steps.fetch-stars.outputs.archived_count }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Forks**: ${{ steps.fetch-stars.outputs.fork_count }}" >> $GITHUB_STEP_SUMMARY
-          
+          if-no-files-found: error
+
       - name: Commit results
+        id: commit
         run: |
+          set -euo pipefail
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          
+
           if [ ! -f ".github-stars/data/fetched-stars-graphql.json" ]; then
             echo "No results to commit"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          
+
           git add .github-stars/data/fetched-stars-graphql.json
-          
+
           if git diff --staged --quiet; then
             echo "No changes"
-          else
-            git commit -m "chore: update starred repositories [skip ci]"
-            for i in 1 2 3 4 5; do
-              git pull --rebase --autostash origin main
-              git push && break || sleep 10
-            done
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+
+          git commit -m "chore: update starred repositories [skip ci]"
+          pushed=false
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push; then
+              pushed=true
+              break
+            fi
+            echo "Push attempt $attempt failed; retrying in 10s..."
+            sleep 10
+          done
+          if [ "$pushed" != "true" ]; then
+            echo "::error::Failed to push fetched-stars JSON after 5 attempts. The artifact (fetched-stars-${{ github.run_id }}) is still available for the downstream sync step."
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 1
+          fi
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+          echo "commit_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Fetch summary
+        if: always()
+        env:
+          TOKEN_SOURCE: ${{ steps.token.outputs.source }}
+          TOTAL: ${{ steps.fetch-stars.outputs.total_repos }}
+          ARCHIVED: ${{ steps.fetch-stars.outputs.archived_count }}
+          FORKS: ${{ steps.fetch-stars.outputs.fork_count }}
+          NO_DESC: ${{ steps.fetch-stars.outputs.no_description_count }}
+          OUTPUT_FILE: ${{ steps.fetch-stars.outputs.output_file }}
+          OUTPUT_BYTES: ${{ steps.fetch-stars.outputs.output_bytes }}
+          ARTIFACT_ID: ${{ steps.upload.outputs.artifact-id }}
+          ARTIFACT_URL: ${{ steps.upload.outputs.artifact-url }}
+          COMMIT_PUSHED: ${{ steps.commit.outputs.pushed }}
+          COMMIT_SHA: ${{ steps.commit.outputs.commit_sha }}
+        run: |
+          {
+            echo "# 01 — Fetch GitHub Stars"
+            echo ""
+            echo "- Workflow: \`${{ github.workflow }}\`"
+            echo "- Run ID: \`${{ github.run_id }}\`"
+            echo "- Trigger: \`${{ github.event_name }}\`"
+            echo "- Commit: \`${{ github.sha }}\`"
+            echo "- Token source: \`${TOKEN_SOURCE:-unresolved}\`"
+            echo ""
+            echo "## Counts"
+            echo "- Total repos: \`${TOTAL:-?}\`"
+            echo "- Archived: \`${ARCHIVED:-?}\`"
+            echo "- Forks: \`${FORKS:-?}\`"
+            echo "- No description: \`${NO_DESC:-?}\`"
+            echo ""
+            echo "## Outputs"
+            echo "- File: \`${OUTPUT_FILE:-n/a}\` (${OUTPUT_BYTES:-0} bytes)"
+            echo "- Artifact: \`fetched-stars-${{ github.run_id }}\` (id=\`${ARTIFACT_ID:-n/a}\`)"
+            if [ -n "${ARTIFACT_URL:-}" ]; then echo "- Artifact URL: ${ARTIFACT_URL}"; fi
+            echo "- Commit pushed: \`${COMMIT_PUSHED:-false}\`"
+            echo "- Fetch commit: \`${COMMIT_SHA:-n/a}\`"
+            echo ""
+            echo "## Next stage"
+            echo "- \`02-Sync Starred Repos\` (workflow_run on success); will pull artifact \`fetched-stars-${{ github.run_id }}\` from this run."
+          } >> "$GITHUB_STEP_SUMMARY"

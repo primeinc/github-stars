@@ -23,10 +23,25 @@ jobs:
           node-version: '22'
 
       - name: Install pnpm
-        run: npm install -g pnpm@latest
+        # Pin a known-good pnpm version that matches lockfileVersion 9.0
+        # (pnpm-lock.yaml). `pnpm@latest` previously broke this step with a
+        # silent ~3s failure that left zero diagnostic output.
+        run: npm install -g pnpm@10.13.1
 
       - name: Install dependencies
-        run: pnpm install
+        # Retry up to 3 attempts on transient registry/network failures;
+        # the previous run failed in ~3s with no useful log.
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            if pnpm install --prefer-offline; then
+              exit 0
+            fi
+            echo "::warning::pnpm install attempt $attempt failed; retrying in 5s..."
+            sleep 5
+          done
+          echo "::error::pnpm install failed after 3 attempts"
+          exit 1
 
       - name: Run tests
         run: pnpm test
@@ -34,5 +49,24 @@ jobs:
       - name: Run repro script
         run: pnpm repro:taxonomy
 
-      - name: Validate repos.yml
+      - name: Validate repos.yml (strict)
         run: pnpm validate
+
+      - name: CI summary
+        if: always()
+        run: |
+          {
+            echo "# CI (taxonomy + tests)"
+            echo ""
+            echo "- Workflow: \`${{ github.workflow }}\`"
+            echo "- Run ID: \`${{ github.run_id }}\`"
+            echo "- Trigger: \`${{ github.event_name }}\`"
+            echo "- Commit: \`${{ github.sha }}\`"
+            echo ""
+            echo "## Gates"
+            echo "- vitest: \`pnpm test\`"
+            echo "- taxonomy repro: \`pnpm repro:taxonomy\`"
+            echo "- strict taxonomy validation: \`pnpm validate\` (NOT JSON Schema; that runs in 02/03)"
+            echo ""
+            echo "Web build/lint runs in the separate \`Web CI\` workflow (\`.github/workflows/00b-web-ci.yml\`)."
+          } >> "$GITHUB_STEP_SUMMARY"
