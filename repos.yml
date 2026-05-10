@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-10T07:37:19.972Z'
+  manifest_updated_at: '2026-05-10T07:37:58.257Z'
   total_repos: 2612
   generator_version: v1.0.0
   github_user: primeinc
@@ -8672,13 +8672,19 @@ repositories:
     framework: null
   - repo: docker/docker-credential-helpers
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+      - containers
+    tags:
+      - docker
+      - credentials
+      - keystores
+      - lang:go
     summary: Programs to keep Docker login credentials safe by storing in platform keystores
     last_synced_sha: 312e321de75ab4cb61f3358b01b10b23ad9fc030
     user_starred_at: '2026-03-17T02:33:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -8696,15 +8702,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.066Z'
+      prompt_version: v3
   - repo: microsoft/beachball
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - semantic-versioning
+      - git
+      - lang:ts
     summary: The Sunniest Semantic Version Bumper
     last_synced_sha: 1b7c2b0dcab4194f9eebb59705baa16e0648c55e
     user_starred_at: '2026-03-16T21:31:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8727,15 +8741,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.066Z'
+      prompt_version: v3
   - repo: changesets/changesets
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - versioning
+      - changelogs
+      - monorepos
+      - lang:ts
     summary: 🦋 A way to manage your versioning and changelogs with a focus on monorepos
     last_synced_sha: 6c250f58a128350c6905ed16691a25bf0c8bae0c
     user_starred_at: '2026-03-16T20:57:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -8753,15 +8776,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.066Z'
+      prompt_version: v3
   - repo: verdaccio/verdaccio
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+      - containers
+    tags:
+      - private-npm
+      - npm
+      - registry
+      - lang:ts
     summary: A lightweight Node.js private proxy registry
     last_synced_sha: 7e0ed59c2d89432a7ef1742c65c89138aa518ac0
     user_starred_at: '2026-03-16T20:40:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8793,15 +8826,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.066Z'
+      prompt_version: v3
   - repo: Brainicism/bgutil-ytdlp-pot-provider
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - apis
+    tags:
+      - yt-dlp
+      - plugins
+      - lang:ts
     summary: Proof-of-origin token provider plugin for yt-dlp
     last_synced_sha: 6b497de5a6cbaf106bd94a934c5d2794c3fdf8bb
     user_starred_at: '2026-03-15T20:57:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8822,15 +8863,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.066Z'
+      prompt_version: v3
   - repo: siyuan-note/siyuan
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - note-taking
+      - knowledge-base
+      - markdown
+      - lang:ts
     summary: A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.
     last_synced_sha: 96dfe0bea4742d6664e941f105a17f35fade4a26
     user_starred_at: '2026-03-15T18:43:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -8867,15 +8917,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.066Z'
+      prompt_version: v3
   - repo: PaddlePaddle/PaddleX
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - deployment
+    tags:
+      - classification
+      - object-detection
+      - ocr
+      - lang:python
     summary: All-in-One Development Tool based on Paddle Paddle
     last_synced_sha: f1a31efa1a945d6e167267a0d866e4d6d0b24d98
     user_starred_at: '2026-03-15T18:43:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -8905,15 +8965,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.066Z'
+      prompt_version: v3
   - repo: zotero/zotero
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - learning
+    tags:
+      - research
+      - citation-tool
+      - organization
+      - lang:js
     summary: Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.
     last_synced_sha: 504447de41b81d856688ca7d655faac2b62d79d3
     user_starred_at: '2026-03-12T07:09:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -8931,15 +9000,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.066Z'
+      prompt_version: v3
   - repo: jsegov/autoresearch-win-rtx
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agents
+      - research
+      - nanochat
+      - lang:python
     summary: AI agents running research on single-GPU nanochat training automatically
     last_synced_sha: a4123c6e5c6287f90be04026642ba20b94e424df
     user_starred_at: '2026-03-10T05:50:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     github_metadata:
       language: Python
@@ -8958,15 +9036,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.066Z'
+      prompt_version: v3
   - repo: karpathy/autoresearch
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-agents
+      - research
+      - nanochat
+      - lang:python
     summary: AI agents running research on single-GPU nanochat training automatically
     last_synced_sha: 228791fb499afffb54b46200aca536f79142f117
     user_starred_at: '2026-03-10T05:47:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -8984,15 +9071,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.066Z'
+      prompt_version: v3
   - repo: cloudfoundry/cloud-service-broker
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - automation
+      - apis
+    tags:
+      - terraform
+      - service-broker
+      - lang:go
     summary: OSBAPI service broker that uses Terraform to provision and bind services. Derived from https://github.com/Google Cloud Platform/gcp-service-broker
     last_synced_sha: f36c8c452bf1210dcca19b1c43b460fe17ffae8a
     user_starred_at: '2026-03-10T00:21:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -9019,15 +9115,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.065Z'
+      prompt_version: v3
   - repo: FedRAMP/roadmap
     categories:
+      - documentation
       - unclassified
-    tags: []
+    tags:
+      - roadmap
+      - lang:shell
     summary: Fed RAMP's Public High Level Roadmap
     last_synced_sha: 6a10f4be8e99b841538bd43a6a44ec43f742975e
     user_starred_at: '2026-03-09T23:58:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -9045,15 +9148,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.065Z'
+      prompt_version: v3
   - repo: jdx/fnox
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - encrypted-secrets
+      - secret-manager
+      - lang:rust
     summary: encrypted/remote secret manager
     last_synced_sha: 87c39cbbbe038f499390bca735b3d369d513dea1
     user_starred_at: '2026-03-09T20:38:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -9071,15 +9182,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.065Z'
+      prompt_version: v3
   - repo: HKUDS/CLI-Anything
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - productivity
+    tags:
+      - cli
+      - agent-native
+      - lang:python
     summary: '"CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/'
     last_synced_sha: 5f325f083fe3d5c2d6365ed5dc6aa913864a96c1
     user_starred_at: '2026-03-09T20:22:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -9097,15 +9217,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.065Z'
+      prompt_version: v3
   - repo: InsForge/InsForge
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ai-ml
+      - web-dev
+    tags:
+      - ai-agents
+      - oauth2
+      - postgresql
+      - lang:ts
     summary: The all-in-one, open-source backend platform for agentic coding. Ins Forge gives your coding agent database, auth, storage, compute, hosting, and AI gateway to ship full-stack apps end-to-end.
     last_synced_sha: e77710606c0d88cbefe772c16053d5304cf4f558
     user_starred_at: '2026-03-09T20:21:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9135,7 +9265,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:57.065Z'
+      prompt_version: v3
   - repo: viralcode/vib-OS
     categories:
       - system-admin
