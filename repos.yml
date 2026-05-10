@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-10T07:27:33.609Z'
+  manifest_updated_at: '2026-05-10T07:28:14.979Z'
   total_repos: 2612
   generator_version: v1.0.0
   github_user: primeinc
@@ -16594,13 +16594,19 @@ repositories:
     framework: null
   - repo: Safe3/openresty-manager
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - security
+      - containers
+    tags:
+      - control-panel
+      - openresty
+      - cdn
+      - lang:go
     summary: Modern, secure, and elegant server control panel, alternative to Open Resty Edge and Nginx Proxy Manager.
     last_synced_sha: ff3589849c41a5ee9d8ba13b8857d57602dcd8d8
     user_starred_at: '2026-02-08T13:46:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -16638,15 +16644,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: 1Panel-dev/1Panel
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - ai-ml
+      - cloud
+    tags:
+      - control-panel
+      - docker
+      - ai-agent
+      - lang:go
     summary: 🔥 1Panel is a modern, open-source VPS control panel — and the only one with native AI agent support. Run Ollama models, deploy Open Claw agents, and manage your entire server stack from one clean ...
     last_synced_sha: 20f09b3a0c3e31d211a4c1054dad40f22c2ca9d0
     user_starred_at: '2026-02-08T13:42:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -16678,15 +16694,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: cathrynlavery/wispr-flow-recap
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - voice-dictation
+      - recaps
+      - activity-tracking
+      - lang:js
     summary: Beautiful activity recaps for Wispr Flow voice dictation
     last_synced_sha: 028119fc82aed7bfc2790aaa5951039b159ab491
     user_starred_at: '2026-02-08T13:37:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -16704,15 +16729,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: dkhamsing/open-source-ios-apps
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - documentation
+      - learning
+    tags:
+      - ios
+      - open-source
+      - development
+      - examples
     summary: ':iphone: Collaborative List of Open-Source i OS Apps'
     last_synced_sha: fb67d92a8f4a3ba96fe8823b35fac3efdc7d8071
     user_starred_at: '2026-02-08T13:16:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -16750,15 +16785,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: microsoft/rushstack
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - deployment
+      - productivity
+    tags:
+      - monorepo
+      - build-tools
+      - lang:ts
+      - eslint
     summary: Monorepo for tools developed by the Rush Stack community
     last_synced_sha: 86d53abd56e0234f219f4a320686ce2b31ef5361
     user_starred_at: '2026-02-08T09:48:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16792,15 +16837,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: 11happy/cpx
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - dev-tools
+    tags:
+      - cli
+      - file-management
+      - lang:rust
     summary: cp reimagined
     last_synced_sha: 6ddb32272bf63739663b111ae9ee6c558157724f
     user_starred_at: '2026-02-08T08:15:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -16818,15 +16871,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: zellij-org/zellij
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - terminal
+      - workspace
+      - multiplexer
+      - lang:rust
     summary: A terminal workspace with batteries included
     last_synced_sha: 24f2173fbce61ca6234f4fe4b6ca83833bf3ae64
     user_starred_at: '2026-02-08T08:12:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -16847,15 +16909,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: Azure-Samples/azure-typescript-e2e-apps
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - deployment
+    tags:
+      - azure
+      - monorepo
+      - lang:ts
     summary: Monorepo - Apps written in Type Script to be either 1) deployed to Azure hosting or 2) integrated with Azure services
     last_synced_sha: e3b9c39fbb85c6cc3eeef8702ec9607163f88919
     user_starred_at: '2026-02-08T03:04:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -16873,15 +16943,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: microsoft/zerotrustassessment
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - zero-trust
+      - assessment
+      - lang:html
     summary: Repository for the Zero Trust Assessment project
     last_synced_sha: 62f9ceb3cb76a3d0b54442dd807d561e434e18a3
     user_starred_at: '2026-02-08T03:01:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -16899,15 +16977,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: kodepandai/awesome-gh-cli-extensions
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - dev-tools
+    tags:
+      - awesome-list
+      - github-cli
+      - extensions
+      - lang:html
     summary: Awesome list of github cli extensions.
     last_synced_sha: c09dbb7706840df79d9292d77de6cad45a2305eb
     user_starred_at: '2026-02-07T06:46:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -16929,15 +17016,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: microsoft/cascadia-code
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - font
+      - programming
+      - terminal
+      - lang:python
     summary: This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.
     last_synced_sha: 56bcca3f2c1e4cb19458954f0e2bb4635960df91
     user_starred_at: '2026-02-07T02:50:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -16955,15 +17051,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: Dimillian/CodexMonitor
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - ai-ml
+      - desktop-dev
+    tags:
+      - ai
+      - tauri
+      - application
+      - lang:ts
     summary: An app to monitor the (Codex) situation
     last_synced_sha: dd61b9abd37de5ded86e82b9fe8a83fd49d46fa5
     user_starred_at: '2026-02-06T23:19:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16986,15 +17092,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: mdp/qrterminal
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - qr-code
+      - terminal
+      - cli
+      - lang:go
     summary: QR Codes in your terminal
     last_synced_sha: 4e76afd10340aac2b71923d765da2ad506870bbb
     user_starred_at: '2026-02-06T01:14:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -17012,15 +17127,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: mdp/linkedin-extension-fingerprinting
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+    tags:
+      - linkedin
+      - fingerprinting
+      - lang:js
     summary: No description provided
     last_synced_sha: c039bfbaa45e6dc8cda3195476621cc7f6ef398d
     user_starred_at: '2026-02-06T01:14:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -17038,15 +17161,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: cathrynlavery/codex-skill
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - plan-review
+      - openai
+      - hooks
+      - lang:shell
     summary: Give Claude Code a second opinion using Open AI Codex - automatic plan review via hooks
     last_synced_sha: 6f87ce25af459c8186010bb3335df39131ceecee
     user_starred_at: '2026-02-06T01:13:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -17064,6 +17196,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:13.869Z'
+      prompt_version: v3
   - repo: crazystylus/otadump
     categories:
       - mobile-dev
