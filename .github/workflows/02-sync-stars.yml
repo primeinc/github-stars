@@ -44,10 +44,11 @@ jobs:
       - name: Check if repos.yml exists
         id: check_repos
         run: |
+          set -euo pipefail
           if [ -f "repos.yml" ]; then
-            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "exists=true" >> "$GITHUB_OUTPUT"
           else
-            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "exists=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Validate existing manifest (schema gate)
@@ -371,7 +372,7 @@ jobs:
             echo "- Total repos: \`${TOTAL_REPOS:-?}\`"
             echo ""
             echo "## Gates"
-            echo "- Strict schema validation against \`schemas/repos-schema.json\` (existing + post-update)"
+            echo "- \`cardinalby/schema-validator-action@v3\` (mode: default) against \`schemas/repos-schema.json\` (existing + post-update; both block commit)"
             echo ""
             echo "## Commit"
             echo "- Pushed: \`${COMMIT_PUSHED:-false}\`"
