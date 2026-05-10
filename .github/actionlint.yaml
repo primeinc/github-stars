@@ -1,0 +1,22 @@
+# actionlint configuration. See https://github.com/rhysd/actionlint/blob/main/docs/config.md
+#
+# We use only the path-scoped `ignore` lists below to silence three classes
+# of false positives. We do NOT silence anything project-wide.
+
+paths:
+  '.github/workflows/**/*.{yml,yaml}':
+    ignore:
+      # `models: read` is required by `actions/ai-inference@v2` (used in
+      # 03-classify-repos.yml). actionlint <= 1.7.x does not yet ship the
+      # updated GitHub permission scope set, so it reports this as an
+      # unknown scope. The scope is real and required; do not remove.
+      - 'unknown permission scope "models"'
+      # Retry loops use `for i in 1 2 3 4 5; do …; done` where the loop
+      # variable is intentionally unused — the loop just runs N times.
+      # SC2034 flags the unused `i`. Idiomatic-shell decision; not a bug.
+      - 'shellcheck reported issue in this script: SC2034:warning:\d+:\d+: i appears unused\.'
+      # `git pull --rebase --autostash origin main && git push && break || sleep 10`
+      # in our retry loops uses A && B || C deliberately: only sleep when
+      # either pull or push fails. SC2015 warns about the general footgun;
+      # the body has no side-effect that would silently swallow `&&`.
+      - 'shellcheck reported issue in this script: SC2015:.+'
