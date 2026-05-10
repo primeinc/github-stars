@@ -129,35 +129,81 @@ jobs:
             let hasNextPage = true;
             let partialFailureReason = '';
 
+            // Org-blocked-PAT collector: orgs that return
+            // "forbids access via a personal access token (classic)"
+            // mean classic-PAT tokens can't see repos in those orgs. The
+            // GraphQL endpoint returns the partial-data shape per
+            // refs/octokit/.../@octokit/graphql/dist-src/graphql.js L49-62
+            // (response.data.errors triggers GraphqlResponseError, but the
+            // error object retains .data so downstream still gets what
+            // succeeded — error.js L11-12 sets this.data = response.data).
+            const inaccessibleOrgs = new Set();
+            const otherErrors = [];
+
+            const extractPartialList = (graphqlError) => {
+              // Returns viewer.starredRepositories from the partial response
+              // when GraphqlResponseError carries data; null otherwise.
+              return graphqlError?.data?.viewer?.starredRepositories || null;
+            };
+
             core.info('Stage 1: paginating star list (cheap query)...');
             while (hasNextPage) {
               pageCount++;
-              let response;
+              let repos = null;
               try {
-                response = await github.graphql(LIST_QUERY, { cursor });
+                const response = await github.graphql(LIST_QUERY, { cursor });
+                repos = response.viewer.starredRepositories;
               } catch (error) {
                 if (error.message?.includes('Bad credentials')) {
                   core.setFailed(BAD_CREDENTIALS_MSG);
                   return;
                 }
-                const errStatus = error.status || 'n/a';
-                const errMsg = (typeof error.message === 'string' ? error.message : String(error)).substring(0, MAX_ERROR_MSG_LENGTH);
-                partialFailureReason =
-                  `list_error_at_page_${pageCount}_after_${starredList.length}_repos_status=${errStatus}_msg=${errMsg}`;
-                core.warning(`Stage 1 list query failed at page ${pageCount}: ${error.message}. ` +
-                  `Cursor for resume: ${lastEndCursor || 'null'}.`);
-                break;
+                // Octokit throws GraphqlResponseError when response.data.errors
+                // is present, but preserves response.data on the error object
+                // (see refs/octokit/.../@octokit/graphql/dist-src/error.js L11).
+                // For org-blocked-PAT errors specifically, GitHub returns the
+                // pageful that succeeded plus an error per blocked repo.
+                const partialList = extractPartialList(error);
+                if (partialList) {
+                  repos = partialList;
+                  for (const e of error.errors || []) {
+                    const m = (e.message || '').match(/^`([^`]+)` forbids access via a personal access token \(classic\)/);
+                    if (m) {
+                      inaccessibleOrgs.add(m[1]);
+                    } else {
+                      otherErrors.push((e.message || '').substring(0, MAX_ERROR_MSG_LENGTH));
+                    }
+                  }
+                  core.warning(`page ${pageCount}: partial response (${error.errors?.length || 0} graphql errors, continuing). Sample: ${(error.errors?.[0]?.message || '').substring(0, 120)}`);
+                } else {
+                  const errStatus = error.status || 'n/a';
+                  const errMsg = (typeof error.message === 'string' ? error.message : String(error)).substring(0, MAX_ERROR_MSG_LENGTH);
+                  partialFailureReason =
+                    `list_error_at_page_${pageCount}_after_${starredList.length}_repos_status=${errStatus}_msg=${errMsg}`;
+                  core.warning(`Stage 1 list query failed at page ${pageCount}: ${error.message}. ` +
+                    `Cursor for resume: ${lastEndCursor || 'null'}.`);
+                  break;
+                }
               }
-              const repos = response.viewer.starredRepositories;
+              if (!repos) break;
               for (const edge of repos.edges) {
-                if (!edge.node.isPrivate) {
+                if (edge?.node && !edge.node.isPrivate) {
                   starredList.push({ repo: edge.node.nameWithOwner, user_starred_at: edge.starredAt });
                 }
               }
               lastEndCursor = repos.pageInfo.endCursor;
               hasNextPage = repos.pageInfo.hasNextPage;
               cursor = lastEndCursor;
-              core.info(`  list page ${pageCount}: total=${starredList.length}/${repos.totalCount}`);
+              if (pageCount % 5 === 0) {
+                core.info(`  list page ${pageCount}: total=${starredList.length}/${repos.totalCount}`);
+              }
+            }
+
+            if (inaccessibleOrgs.size > 0) {
+              core.warning(`Skipped ${inaccessibleOrgs.size} orgs that block classic-PAT access: ${[...inaccessibleOrgs].sort().join(', ')}. To include them, regenerate STARS_TOKEN as a fine-grained PAT with read access.`);
+            }
+            if (otherErrors.length > 0) {
+              core.warning(`Stage 1 collected ${otherErrors.length} non-org-blocked GraphQL errors. First 3: ${otherErrors.slice(0, 3).join(' | ')}`);
             }
 
             if (partialFailureReason) {
@@ -236,8 +282,29 @@ jobs:
               const query = buildBatchQuery(batch);
               const vars = {};
               batch.forEach((b, j) => { vars[`o${j}`] = b[0]; vars[`n${j}`] = b[1]; });
+              let resp = null;
               try {
-                const resp = await github.graphql(query, vars);
+                resp = await github.graphql(query, vars);
+              } catch (error) {
+                // Same partial-data handling as stage 1: GraphqlResponseError
+                // preserves response.data on the error object. Aliases that
+                // succeeded are present; failed ones are null.
+                if (error.data && typeof error.data === 'object') {
+                  resp = error.data;
+                  for (const e of error.errors || []) {
+                    const m = (e.message || '').match(/^`([^`]+)` forbids access via a personal access token \(classic\)/);
+                    if (m) inaccessibleOrgs.add(m[1]);
+                  }
+                } else {
+                  const errStatus = error.status || 'n/a';
+                  const errMsg = (typeof error.message === 'string' ? error.message : String(error)).substring(0, MAX_ERROR_MSG_LENGTH);
+                  stage2Failure = `metadata_batch_${batchCount}_failed_after_${allRepos.length}_repos_status=${errStatus}_msg=${errMsg}`;
+                  core.warning(`Stage 2 batch ${batchCount} failed (after plugin-retry exhausted): ${error.message}. ` +
+                    `Will write ${allRepos.length} partial results and fail.`);
+                  break;
+                }
+              }
+              if (resp) {
                 for (let j = 0; j < batch.length; j++) {
                   const node = resp[`r${j}`];
                   if (node) allRepos.push(transformNode(batch[j][2], node));
@@ -245,19 +312,21 @@ jobs:
                 if (batchCount % 10 === 0) {
                   core.info(`  batch ${batchCount}: ${allRepos.length}/${starredList.length} fetched`);
                 }
-              } catch (error) {
-                const errStatus = error.status || 'n/a';
-                const errMsg = (typeof error.message === 'string' ? error.message : String(error)).substring(0, MAX_ERROR_MSG_LENGTH);
-                stage2Failure = `metadata_batch_${batchCount}_failed_after_${allRepos.length}_repos_status=${errStatus}_msg=${errMsg}`;
-                core.warning(`Stage 2 batch ${batchCount} failed (after plugin-retry exhausted): ${error.message}. ` +
-                  `Will write ${allRepos.length} partial results and fail.`);
-                break;
               }
             }
 
-            if (!stage2Failure && allRepos.length < starredList.length) {
-              stage2Failure = `metadata_incomplete_${allRepos.length}_of_${starredList.length}`;
-              core.warning(`Stage 2 left ${starredList.length - allRepos.length} repos unfetched (likely individual repos returned null).`);
+            // A gap of (starredList.length - allRepos.length) is fine when
+            // it matches the count of org-blocked-PAT skips (we already
+            // logged those orgs). Treat as failure only if the gap exceeds
+            // a small tolerance OR no inaccessibleOrgs explain it.
+            const gap = starredList.length - allRepos.length;
+            if (!stage2Failure && gap > 0) {
+              if (inaccessibleOrgs.size > 0 && gap < starredList.length * 0.10) {
+                core.info(`Stage 2 expected gap: ${gap} repos in classic-PAT-blocked orgs (${inaccessibleOrgs.size} orgs).`);
+              } else {
+                stage2Failure = `metadata_incomplete_${allRepos.length}_of_${starredList.length}_gap=${gap}`;
+                core.warning(`Stage 2 left ${gap} repos unfetched, more than the ${inaccessibleOrgs.size} blocked orgs explain.`);
+              }
             }
             partialFailureReason = stage2Failure || partialFailureReason;
 
