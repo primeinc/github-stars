@@ -21,22 +21,22 @@ Last updated: 2026-05-10
 
 ## 🏷️ Popular Tags
 
-[react](tags/react.md) (74) • [awesome-list](tags/awesome-list.md) (72) • [azure](tags/azure.md) (68) • [ai](tags/ai.md) (56) • [automation](tags/automation.md) (54) • [llm](tags/llm.md) (52) • [windows](tags/windows.md) (48) • [self-hosted](tags/self-hosted.md) (42) • [cross-platform](tags/cross-platform.md) (35) • [stable-diffusion](tags/stable-diffusion.md) (34) • [cli](tags/cli.md) (32) • [docker](tags/docker.md) (32) • [nextjs](tags/nextjs.md) (31) • [deep-learning](tags/deep-learning.md) (31) • [ai-agents](tags/ai-agents.md) (30) • [powershell](tags/powershell.md) (29) • [resources](tags/resources.md) (25) • [terminal](tags/terminal.md) (24) • [ndi](tags/ndi.md) (23) • [developer-tools](tags/developer-tools.md) (22) • [llms](tags/llms.md) (21) • [machine-learning](tags/machine-learning.md) (20) • [privacy](tags/privacy.md) (20) • [dashboard](tags/dashboard.md) (19) • [nodejs](tags/nodejs.md) (18) • [open-source](tags/open-source.md) (18) • [bicep](tags/bicep.md) (18) • [streaming](tags/streaming.md) (18) • [osint](tags/osint.md) (17) • [vue](tags/vue.md) (17)
+[azure](tags/azure.md) (86) • [react](tags/react.md) (82) • [awesome-list](tags/awesome-list.md) (79) • [ai](tags/ai.md) (74) • [llm](tags/llm.md) (64) • [automation](tags/automation.md) (60) • [windows](tags/windows.md) (50) • [self-hosted](tags/self-hosted.md) (44) • [cli](tags/cli.md) (40) • [parser](tags/parser.md) (40) • [ai-agents](tags/ai-agents.md) (39) • [cross-platform](tags/cross-platform.md) (39) • [nextjs](tags/nextjs.md) (38) • [docker](tags/docker.md) (35) • [stable-diffusion](tags/stable-diffusion.md) (35) • [mcp](tags/mcp.md) (33) • [deep-learning](tags/deep-learning.md) (32) • [powershell](tags/powershell.md) (31) • [terminal](tags/terminal.md) (28) • [resources](tags/resources.md) (25) • [developer-tools](tags/developer-tools.md) (23) • [ndi](tags/ndi.md) (23) • [nodejs](tags/nodejs.md) (21) • [open-source](tags/open-source.md) (21) • [machine-learning](tags/machine-learning.md) (21) • [llms](tags/llms.md) (21) • [privacy](tags/privacy.md) (21) • [agents](tags/agents.md) (21) • [dashboard](tags/dashboard.md) (20) • [tailwindcss](tags/tailwindcss.md) (20)
 
 <details>
 <summary>📂 All Categories (25)</summary>
 
 | | | |
 |---|---|---|
-| [ai-ml](categories/ai-ml.md) (616) | [productivity](categories/productivity.md) (491) | [unclassified](categories/unclassified.md) (380) |
-| [web-dev](categories/web-dev.md) (315) | [dev-tools](categories/dev-tools.md) (259) | [ui-libraries](categories/ui-libraries.md) (228) |
-| [automation](categories/automation.md) (227) | [data-science](categories/data-science.md) (207) | [desktop-dev](categories/desktop-dev.md) (202) |
-| [security](categories/security.md) (201) | [system-admin](categories/system-admin.md) (195) | [networking](categories/networking.md) (165) |
-| [apis](categories/apis.md) (162) | [learning](categories/learning.md) (158) | [documentation](categories/documentation.md) (152) |
-| [cloud](categories/cloud.md) (119) | [frameworks](categories/frameworks.md) (78) | [game-dev](categories/game-dev.md) (74) |
-| [monitoring](categories/monitoring.md) (69) | [embedded](categories/embedded.md) (67) | [databases](categories/databases.md) (59) |
-| [mobile-dev](categories/mobile-dev.md) (46) | [testing](categories/testing.md) (37) | [containers](categories/containers.md) (37) |
-| [deployment](categories/deployment.md) (24) |  |  |
+| [ai-ml](categories/ai-ml.md) (716) | [productivity](categories/productivity.md) (562) | [web-dev](categories/web-dev.md) (370) |
+| [dev-tools](categories/dev-tools.md) (367) | [automation](categories/automation.md) (288) | [security](categories/security.md) (260) |
+| [ui-libraries](categories/ui-libraries.md) (255) | [data-science](categories/data-science.md) (237) | [system-admin](categories/system-admin.md) (236) |
+| [desktop-dev](categories/desktop-dev.md) (216) | [apis](categories/apis.md) (197) | [documentation](categories/documentation.md) (187) |
+| [learning](categories/learning.md) (187) | [networking](categories/networking.md) (176) | [cloud](categories/cloud.md) (144) |
+| [frameworks](categories/frameworks.md) (88) | [monitoring](categories/monitoring.md) (80) | [game-dev](categories/game-dev.md) (80) |
+| [embedded](categories/embedded.md) (71) | [databases](categories/databases.md) (67) | [mobile-dev](categories/mobile-dev.md) (52) |
+| [testing](categories/testing.md) (48) | [containers](categories/containers.md) (43) | [deployment](categories/deployment.md) (30) |
+| [unclassified](categories/unclassified.md) (20) |  |  |
 
 </details>
 

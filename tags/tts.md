@@ -1,12 +1,15 @@
 # Tag: tts
 
-*7 repositories*
+*10 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [zackham/narrate](https://github.com/zackham/narrate) | Multi-speaker script to audio using local TTS. Excellent quality, zero cost, one command. | `Python` ★ 14 | 2026-04-22 |
+| [QwenLM/Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) | Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice... | `Python` ★ 11.3k | 2026-03-17 |
+| [isaiahbjork/expo-kokoro-onnx](https://github.com/isaiahbjork/expo-kokoro-onnx) | Run Kokoro TTS locally on device using Expo & ONNX Runtime | `TypeScript` ★ 79 | 2025-05-08 |
+| [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro) | Gradio Web UI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, Cosy Voice), with Whisper audio processing, You Tube download, Demucs vocal... | `Python` ★ 9.4k | 2025-12-05 |
 | [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) | Convert any git repository into an engaging podcast | `TypeScript` ★ 807 | 2025-08-30 |
 | [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) | SOTA Open Source TTS | `Python` ★ 30.2k | 2026-05-04 |
 | [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | 1 min voice data can also be used to train a good TTS model! (few shot voice cloning) | `Python` ★ 57.3k | 2026-04-30 |

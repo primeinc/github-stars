@@ -14,5 +14,5 @@
 | [betomoedano/snapai](https://github.com/betomoedano/snapai) | AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using Open AI's latest models. | `TypeScript` ★ 1.8k | 2026-04-22 |
 | [RevenueCat/react-native-purchases](https://github.com/RevenueCat/react-native-purchases) | React Native in-app purchases and subscriptions made easy. Support for i OS and Android. | `TypeScript` ★ 1.2k | 2026-05-10 |
 | [Galaxies-dev/fintech-clone-react-native](https://github.com/Galaxies-dev/fintech-clone-react-native) | No description provided | `TypeScript` ★ 405 | 2024-11-08 |
-| [expo/expo](https://github.com/expo/expo) | An open-source framework for making universal native apps with React. Expo runs on Android, i OS, and the web. | `TypeScript` ★ 49.3k | 2026-05-09 |
+| [expo/expo](https://github.com/expo/expo) | An open-source framework for making universal native apps with React. Expo runs on Android, i OS, and the web. | `TypeScript` ★ 49.3k | 2026-05-10 |
 | [0perationPrivacy/VoIPSuite-Mobile](https://github.com/0perationPrivacy/VoIPSuite-Mobile) | Mobile App code for Android & i OS on React Native | `JavaScript` ★ 26 | 2023-12-07 |

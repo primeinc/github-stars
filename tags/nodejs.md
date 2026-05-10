@@ -1,6 +1,6 @@
 # Tag: nodejs
 
-*18 repositories*
+*21 repositories*
 
 [← Back to Index](../README.md)
 
@@ -11,6 +11,9 @@
 | [auth0/node-auth0](https://github.com/auth0/node-auth0) | Node.js client library for the Auth0 platform. | `TypeScript` ★ 679 | 2026-05-09 |
 | [Yayi-Dev/esc-pos-printer-manager](https://github.com/Yayi-Dev/esc-pos-printer-manager) | A plugin to manage ESC/POS printers via node.js (javascript / typescript) without using zadig (Win USBDriver) | `PHP` ★ 9 | 2024-07-29 |
 | [node-config/node-config](https://github.com/node-config/node-config) | Node.js Application Configuration | `JavaScript` ★ 6.4k | 2026-04-03 |
+| [Hexagon/croner](https://github.com/Hexagon/croner) | Trigger functions or evaluate cron expressions in Java Script or Type Script. No dependencies. Most features. Node. Deno. Bun. Browser. | `TypeScript` ★ 2.6k | 2026-04-30 |
+| [stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core) | Dev environments. In your web app. | ★ 4.6k | 2025-04-22 |
+| [Sunny-117/webcontainer-ide](https://github.com/Sunny-117/webcontainer-ide) | Web Container IDE is a production-ready, browser-based development environment that brings the full power of Node.js to your browser. Built on Stack Blitz's Web Container technology, it enables dev... | `TypeScript` ★ 8 | 2026-01-15 |
 | [nwjs/nw.js](https://github.com/nwjs/nw.js) | Call all Node.js modules directly from DOM/Web Worker and enable a new way of writing applications with all Web technologies. | `JavaScript` ★ 41.2k | 2026-05-07 |
 | [Aetherinox/node-toasted-notifier](https://github.com/Aetherinox/node-toasted-notifier) | A revised fork of node-notifier; Node JS package for pushing notifications to Mac OS, Linux, and Windows. | `JavaScript` ★ 26 | 2025-10-23 |
 | [felixrieseberg/windows-build-tools](https://github.com/felixrieseberg/windows-build-tools) | :package: Install C++ Build Tools for Windows using npm | `TypeScript` ★ 3.4k | 2021-06-20 |

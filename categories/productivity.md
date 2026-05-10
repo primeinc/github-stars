@@ -1,11 +1,17 @@
 # Productivity
 
-*491 repositories*
+*562 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [rdmgator12/awesome-claude-connectors](https://github.com/rdmgator12/awesome-claude-connectors) | A comprehensive directory of every connector in Anthropic's official Claude Connectors Directory — 343 verified MCP integrations, organized by category with descriptions and use cases. | ★ 8 | 2026-05-09 |
+| [zorazrw/workflow-induction-toolkit](https://github.com/zorazrw/workflow-induction-toolkit) | A toolkit to induce interpretable workflows from raw computer-use activities. | `Python` ★ 44 | 2025-11-13 |
+| [sindresorhus/is](https://github.com/sindresorhus/is) | Type check values | `TypeScript` ★ 1.8k | 2026-04-09 |
+| [tbrockman/browser-extension-for-opentelemetry](https://github.com/tbrockman/browser-extension-for-opentelemetry) | An extension for instrumenting your browsing using Open Telemetry | `TypeScript` ★ 22 | 2026-05-04 |
+| [alexmarqs/zod-config](https://github.com/alexmarqs/zod-config) | Load configuration variables from multiple sources with flexible adapters, ensuring type safety with Zod. | `TypeScript` ★ 137 | 2026-05-02 |
+| [colinhacks/zod](https://github.com/colinhacks/zod) | Type Script-first schema validation with static type inference | `TypeScript` ★ 42.6k | 2026-05-08 |
 | [microsoft/work-iq](https://github.com/microsoft/work-iq) | MCP Server and CLI for accessing Work IQ | `PowerShell` ★ 792 | 2026-05-07 |
 | [penpot/penpot](https://github.com/penpot/penpot) | Penpot: The open-source design tool for design and code collaboration | `Clojure` ★ 47.4k | 2026-05-10 |
 | [zammad/zammad](https://github.com/zammad/zammad) | Zammad is a web based open source helpdesk/customer support system. | `Ruby` ★ 5.6k | 2026-05-08 |
@@ -41,10 +47,72 @@
 | [lcromer97/PrinterManager](https://github.com/lcromer97/PrinterManager) | All in one tool to manage printers. Built to be used for Screen Connect's backstage | `C#` ★ 1 | 2026-03-23 |
 | [dot-billy/nodebyte](https://github.com/dot-billy/nodebyte) | Nodebyte - your digital inventory | `TypeScript` ★ 40 | 2026-05-03 |
 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 | `Python` ★ 12k | 2026-04-23 |
+| [zumwald/better-vsts-npm-auth](https://github.com/zumwald/better-vsts-npm-auth) | Platform agnostic library and acompanying oauth service enabling developers to easily obtain and use tokens for authorizing NPM feeds in VSTS | `TypeScript` ★ 60 | 2024-07-26 |
+| [microsoft/beachball](https://github.com/microsoft/beachball) | The Sunniest Semantic Version Bumper | `TypeScript` ★ 812 | 2026-05-09 |
+| [changesets/changesets](https://github.com/changesets/changesets) | 🦋 A way to manage your versioning and changelogs with a focus on monorepos | `TypeScript` ★ 11.8k | 2026-05-07 |
+| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | `TypeScript` ★ 43.8k | 2026-05-10 |
+| [zotero/zotero](https://github.com/zotero/zotero) | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources. | `JavaScript` ★ 14.1k | 2026-05-07 |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ | `Python` ★ 34.1k | 2026-05-06 |
+| [shihan84/obs-profile-generator](https://github.com/shihan84/obs-profile-generator) | A comprehensive, self-hosted OBS Studio profile generator that works across Windows, Linux, and mac OS. Create custom OBS Studio profiles with an intuitive web interface, preset templates, and cros... | `TypeScript` ★ 4 | 2025-09-08 |
+| [go-gitea/gitea](https://github.com/go-gitea/gitea) | Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD | `Go` ★ 55.5k | 2026-05-10 |
+| [sindresorhus/open](https://github.com/sindresorhus/open) | Open stuff like URLs, files, executables. Cross-platform. | `JavaScript` ★ 3.5k | 2025-11-15 |
+| [readest/readest](https://github.com/readest/readest) | Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience. | `TypeScript` ★ 20.4k | 2026-05-09 |
+| [lukinhas-programando/ace-step-studio](https://github.com/lukinhas-programando/ace-step-studio) | 🎵 Create and manage local-first AI-powered music with a fast, self-hosted studio featuring integrated generation, playback, and asset storage. | `TypeScript` ★ 2 | 2026-05-10 |
+| [afairgiant/MediKeep](https://github.com/afairgiant/MediKeep) | A lightweight, self-hosted application for managing your personal medical information. Keep your health records organized and accessible while maintaining complete control over your data privacy. | `JavaScript` ★ 432 | 2026-05-10 |
+| [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Go` ★ 307 | 2026-05-07 |
+| [open-mercato/open-mercato](https://github.com/open-mercato/open-mercato) | AI-Engineering Foundation Framework built with AI and designed for AI. Hundreds of architectural and domain decisions (multi-tenancy, RBAC, event flow, pricing, sales pipeline,CRM/ERP processes) ar... | `TypeScript` ★ 1.3k | 2026-05-09 |
+| [zed-industries/zed](https://github.com/zed-industries/zed) | Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. | `Rust` ★ 82.4k | 2026-05-10 |
+| [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | Tool Jet is the open-source foundation of Tool Jet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀 | `JavaScript` ★ 37.9k | 2026-05-09 |
+| [delorenj/mcp-server-trello](https://github.com/delorenj/mcp-server-trello) | A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards. | `TypeScript` ★ 336 | 2026-05-09 |
+| [Softeria/ms-365-mcp-server](https://github.com/Softeria/ms-365-mcp-server) | A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API | `TypeScript` ★ 693 | 2026-05-09 |
+| [negokaz/excel-mcp-server](https://github.com/negokaz/excel-mcp-server) | A Model Context Protocol (MCP) server that reads and writes MS Excel data | `Go` ★ 946 | 2025-07-19 |
+| [GongRzhe/Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) | A MCP (Model Context Protocol) server for Power Point manipulation using python-pptx. This server provides tools for creating, editing, and manipulating Power Point presentations through the MCP pr... | `Python` ★ 1.7k | 2025-12-31 |
+| [GongRzhe/Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server) | A Model Context Protocol (MCP) server for creating, reading, and manipulating Microsoft Word documents. This server enables AI assistants to work with Word documents through a standardized interfac... | `Python` ★ 1.9k | 2025-12-31 |
+| [FlorianWilhelm/the-hatchlor](https://github.com/FlorianWilhelm/the-hatchlor) | 🌹 Cookiecutter template featuring the modern and extensible Python project manager hatch | `Python` ★ 82 | 2024-11-18 |
+| [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell) | How real engineers run Claude Code: spec-driven planning, enforced TDD, persistent memory, and quality enforcement on all levels. Make Claude Code production-ready. | `TypeScript` ★ 1.7k | 2026-05-08 |
+| [spddl/GoInterruptPolicy](https://github.com/spddl/GoInterruptPolicy) | I just tried to create a better version of the "Interrupt Affinity Policy" and "MSI Mode" Tool | `Go` ★ 461 | 2026-03-27 |
+| [adambajguz/Typin](https://github.com/adambajguz/Typin) | Declarative framework for interactive CLI applications | `C#` ★ 253 | 2025-06-18 |
+| [harshankur/officeParser](https://github.com/harshankur/officeParser) | A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met... | `Rich Text Format` ★ 430 | 2026-04-30 |
+| [AntonBergaker/InterpolatedParser](https://github.com/AntonBergaker/InterpolatedParser) | Interpolated Strings but in reverse! A very cursed C# parser library. | `C#` ★ 295 | 2025-02-24 |
+| [i18next/i18next-cli](https://github.com/i18next/i18next-cli) | A unified, high-performance i18next CLI. | `TypeScript` ★ 206 | 2026-05-07 |
+| [ics-py/ics-py](https://github.com/ics-py/ics-py) | Pythonic and easy i Calendar library (rfc5545) | `Python` ★ 719 | 2026-04-15 |
+| [collective/icalendar](https://github.com/collective/icalendar) | icalendar parser library for Python | `Python` ★ 1.1k | 2026-05-01 |
+| [LibPDF-js/core](https://github.com/LibPDF-js/core) | A modern PDF library for Type Script. Parse, modify, and generate PDFs with a clean, intuitive API. | `TypeScript` ★ 1.7k | 2026-05-04 |
+| [Tyrrrz/YoutubeExplode](https://github.com/Tyrrrz/YoutubeExplode) | Abstraction layer over You Tube's internal API | `C#` ★ 3.7k | 2026-05-03 |
+| [moonrepo/moon](https://github.com/moonrepo/moon) | A build system and monorepo management tool for the web ecosystem, written in Rust. | `Rust` ★ 3.8k | 2026-05-04 |
+| [Natively-AI-assistant/natively-cluely-ai-assistant](https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant) | Natively - Free open-source AI interview copilot & meeting assistant. The best Cluely alternative, Final Round AI alternative, and Interview Coder alternative. Real-time transcription, undetectable... | `TypeScript` ★ 1.2k | 2026-05-10 |
+| [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) | 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more... | `Python` ★ 27.4k | 2026-04-24 |
+| [deadc0de6/gocatcli](https://github.com/deadc0de6/gocatcli) | The command line catalog tool for your offline data | `Go` ★ 46 | 2025-12-30 |
+| [recyclarr/recyclarr](https://github.com/recyclarr/recyclarr) | Automatically sync TRa SH Guides to your Sonarr and Radarr instances | `C#` ★ 2k | 2026-05-08 |
+| [homarr-labs/homarr](https://github.com/homarr-labs/homarr) | A modern and easy to use dashboard. 40+ integrations. 20K+ icons built in. Authentication out of the box. No YAML, drag and drop configuration. | `TypeScript` ★ 3.7k | 2026-05-10 |
+| [s1t5/mail-archiver](https://github.com/s1t5/mail-archiver) | Mail-Archiver is a web application for archiving, searching, and exporting emails from multiple accounts. Featuring folder sync, attachment support, mailbox migration and a dashboard. | `C#` ★ 1.9k | 2026-05-08 |
+| [LogicLabs-OU/OpenArchiver](https://github.com/LogicLabs-OU/OpenArchiver) | An open-source platform for legally compliant email archiving. | `TypeScript` ★ 2k | 2026-04-16 |
+| [jsuto/piler](https://github.com/jsuto/piler) | Email archiving application | `PHP` ★ 309 | 2026-04-25 |
+| [SchwarziLukas/braindump-butler](https://github.com/SchwarziLukas/braindump-butler) | Turns brain dumps and meeting notes into tidy Markdown notes for your Obsidian Vault. | `Python` ★ 54 | 2026-02-05 |
+| [ExperienceLovelace/ha-floorplan](https://github.com/ExperienceLovelace/ha-floorplan) | Bring new life to Home Assistant. By mapping entities to a SVG-object, you're able to control devices, show states, calling services - and much more. Add custom styling on top, to visualize whateve... | `TypeScript` ★ 1.5k | 2026-05-09 |
+| [cathrynlavery/wispr-flow-recap](https://github.com/cathrynlavery/wispr-flow-recap) | Beautiful activity recaps for Wispr Flow voice dictation | `JavaScript` ★ 5 | 2026-02-07 |
+| [microsoft/rushstack](https://github.com/microsoft/rushstack) | Monorepo for tools developed by the Rush Stack community | `TypeScript` ★ 6.5k | 2026-05-07 |
+| [zellij-org/zellij](https://github.com/zellij-org/zellij) | A terminal workspace with batteries included | `Rust` ★ 32.3k | 2026-05-08 |
+| [microsoft/cascadia-code](https://github.com/microsoft/cascadia-code) | This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal. | `Python` ★ 27.7k | 2025-03-06 |
+| [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | A smarter cd command. Supports all major shells. | `Rust` ★ 36.5k | 2026-05-08 |
+| [keylase/nvidia-patch](https://github.com/keylase/nvidia-patch) | This patch removes restriction on maximum number of simultaneous NVENC video encoding sessions imposed by Nvidia to consumer-grade GPUs. | `Python` ★ 4.7k | 2026-05-06 |
+| [codeforamerica/adopt-a-hydrant](https://github.com/codeforamerica/adopt-a-hydrant) | A web application that allows citizens to "adopt" civic infrastructure, such as fire hydrants that need to be shoveled out after it snows. | `Ruby` ★ 779 | 2023-09-26 |
+| [vicinaehq/vicinae](https://github.com/vicinaehq/vicinae) | A focused launcher for your desktop - native, fast, extensible | `C++` ★ 7.5k | 2026-05-10 |
+| [jacob-j/vscode-folder-path-color](https://github.com/jacob-j/vscode-folder-path-color) | All subfolders within a specified path will be assigned a color for easy differentiation. | `TypeScript` ★ 36 | 2025-08-26 |
+| [webpro-nl/knip](https://github.com/webpro-nl/knip) | ✂️ Find unused files, dependencies and exports in your Java Script and Type Script projects. Knip it before you ship it! | `TypeScript` ★ 11.2k | 2026-05-09 |
+| [sindresorhus/eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn) | More than 100 powerful ESLint rules | `JavaScript` ★ 5k | 2026-05-06 |
+| [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) | :sparkles: Monorepo for all the tooling which enables ESLint to support Type Script | `TypeScript` ★ 16.2k | 2026-05-09 |
+| [nrwl/nx-examples](https://github.com/nrwl/nx-examples) | Example repo for Nx workspace | `TypeScript` ★ 959 | 2026-05-08 |
+| [JamieMason/syncpack](https://github.com/JamieMason/syncpack) | Consistent dependency versions in large Java Script Monorepos. | `Rust` ★ 2k | 2026-05-08 |
+| [nrwl/nx](https://github.com/nrwl/nx) | The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time. | `TypeScript` ★ 28.7k | 2026-05-09 |
+| [streetwriters/notesnook](https://github.com/streetwriters/notesnook) | A fully open source & end-to-end encrypted note taking alternative to Evernote. | `TypeScript` ★ 14k | 2026-05-08 |
+| [raphaelsty/knowledge](https://github.com/raphaelsty/knowledge) | Open-source personal bookmarks search engine | `Python` ★ 745 | 2026-04-30 |
+| [HugoRCD/evlog](https://github.com/HugoRCD/evlog) | Digging through logs is not observability. It's hope. — wide events, structured errors, Type Script-first, every runtime. | `TypeScript` ★ 1.3k | 2026-05-09 |
 | [workflowr/workflowr](https://github.com/workflowr/workflowr) | Organize your project into a research website | `R` ★ 893 | 2025-08-19 |
 | [engineering-management/awesome-engineering-management](https://github.com/engineering-management/awesome-engineering-management) | Pointers and tools for learning and day-to-day practice of engineering management & leadership. | ★ 2.6k | 2026-04-05 |
 | [mark-when/markwhen](https://github.com/mark-when/markwhen) | Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more. | `HTML` ★ 4.8k | 2023-12-11 |
 | [endoflife-date/endoflife.date](https://github.com/endoflife-date/endoflife.date) | Informative site with Eo L dates of everything | `Ruby` ★ 3.3k | 2026-05-10 |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 | `TypeScript` ★ 370.3k | 2026-05-10 |
 | [evolus/pencil](https://github.com/evolus/pencil) | The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use. | `JavaScript` ★ 9.8k | 2026-04-07 |
 | [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja) | The to-do app to organize your life. | `Go` ★ 4.2k | 2026-05-08 |
 | [File-New-Project/EarTrumpet](https://github.com/File-New-Project/EarTrumpet) | Ear Trumpet - Volume Control for Windows | `C#` ★ 11k | 2026-05-10 |
@@ -141,6 +209,7 @@
 | [trungdq88/Awesome-Black-Friday-Cyber-Monday](https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday) | Awesome apps, software, and Saa S deals on Black Friday. | ★ 7.5k | 2025-11-30 |
 | [gtsteffaniak/filebrowser](https://github.com/gtsteffaniak/filebrowser) | 📂 Web File Browser | `Go` ★ 7k | 2026-05-10 |
 | [slidevjs/slidev](https://github.com/slidevjs/slidev) | Presentation Slides for Developers | `TypeScript` ★ 46.3k | 2026-05-07 |
+| [stan-smith/FossFLOW](https://github.com/stan-smith/FossFLOW) | Make beautiful isometric infrastructure diagrams | `TypeScript` ★ 20.3k | 2026-05-06 |
 | [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) | A collection of essential Type Script types | `TypeScript` ★ 17.1k | 2026-04-24 |
 | [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop\_computer: :camera\_flash: | `C++` ★ 29.9k | 2026-05-07 |
 | [palashmon/awesome-vscode-settings](https://github.com/palashmon/awesome-vscode-settings) | 🎨 A curated list of simple and awesome VS Code settings | ★ 53 | 2026-04-08 |
@@ -223,6 +292,7 @@
 | [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows) | all of the workflows of n8n i could find (also from the site itself) | `Python` ★ 54.3k | 2026-02-11 |
 | [danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) | Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere. | `Go` ★ 41.6k | 2026-05-04 |
 | [docling-project/docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI | `Python` ★ 59.5k | 2026-05-08 |
+| [ErsatzTV/legacy](https://github.com/ErsatzTV/legacy) | Open-source platform that transforms your personal media library into live, custom TV channels. | `C#` ★ 2.8k | 2026-05-06 |
 | [NVIDIA/NeMo-Agent-Toolkit](https://github.com/NVIDIA/NeMo-Agent-Toolkit) | The NVIDIA Ne Mo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents. | `Python` ★ 2.3k | 2026-05-08 |
 | [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer) | Driver Store Explorer | `C#` ★ 10.6k | 2026-04-21 |
 | [glzr-io/glazewm](https://github.com/glzr-io/glazewm) | Glaze WM is a tiling window manager for Windows inspired by i3wm. | `Rust` ★ 12k | 2026-04-22 |
@@ -237,6 +307,7 @@
 | [dtyq/magic](https://github.com/dtyq/magic) | Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system) | `TypeScript` ★ 4.8k | 2026-05-07 |
 | [photoprism/photoprism](https://github.com/photoprism/photoprism) | AI-Powered Photos App for the Decentralized Web 🌈💎✨ | `Go` ★ 39.6k | 2026-05-09 |
 | [context-labs/uwu](https://github.com/context-labs/uwu) | No description provided | `TypeScript` ★ 938 | 2025-08-23 |
+| [calcom/cal.diy](https://github.com/calcom/cal.diy) | Scheduling infrastructure for absolutely everyone. | `TypeScript` ★ 42.4k | 2026-05-05 |
 | [Tichau/FileConverter](https://github.com/Tichau/FileConverter) | File Converter is a very simple tool which allows you to convert and compress files using the context menu in windows explorer. | `C#` ★ 14.3k | 2026-02-27 |
 | [builtbybel/CrapFixer](https://github.com/builtbybel/CrapFixer) | Cr\*ap Fixer | `C#` ★ 2.4k | 2025-12-25 |
 | [pola-rs/polars](https://github.com/pola-rs/polars) | Extremely fast Query Engine for Data Frames, written in Rust | `Rust` ★ 38.4k | 2026-05-08 |

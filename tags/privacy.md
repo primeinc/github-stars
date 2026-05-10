@@ -1,13 +1,14 @@
 # Tag: privacy
 
-*20 repositories*
+*21 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [microsoft/Sandi](https://github.com/microsoft/Sandi) | This is a Rust implementation of the Sandi privacy-preserving reputation system described in https://arxiv.org/abs/2401.16759 | `Rust` ★ 6 | 2026-04-23 |
-| [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 33.1k | 2026-05-09 |
+| [anonaddy/anonaddy](https://github.com/anonaddy/anonaddy) | Anonymous email forwarding | `PHP` ★ 4.6k | 2026-05-07 |
+| [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 33.1k | 2026-05-10 |
 | [Or1un/MOSAIC](https://github.com/Or1un/MOSAIC) | Privacy-first behavioral intelligence framework for multi-platform analysis and sociodynamic research. | `Python` ★ 41 | 2025-12-30 |
 | [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) | Overview of alternative open source front-ends for popular internet platforms (e.g. You Tube, Twitter, etc.) | ★ 8.9k | 2024-08-18 |
 | [imputnet/helium](https://github.com/imputnet/helium) | Private, fast, and honest web browser | `C++` ★ 15.6k | 2026-05-09 |

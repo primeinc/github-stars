@@ -1,6 +1,6 @@
 # Tag: self-hosted
 
-*42 repositories*
+*44 repositories*
 
 [← Back to Index](../README.md)
 
@@ -10,6 +10,8 @@
 | [gronxb/hot-updater](https://github.com/gronxb/hot-updater) | A self-hostable OTA update solution for React Native (Alternative to Code Push) | `TypeScript` ★ 1.4k | 2026-05-09 |
 | [ChristopherHX/github-act-runner](https://github.com/ChristopherHX/github-act-runner) | act as self-hosted runner | `Go` ★ 378 | 2026-03-21 |
 | [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | An unofficial Local Git Hub Actions and Azure Pipelines Emulator | `C#` ★ 234 | 2026-05-04 |
+| [lukinhas-programando/ace-step-studio](https://github.com/lukinhas-programando/ace-step-studio) | 🎵 Create and manage local-first AI-powered music with a fast, self-hosted studio featuring integrated generation, playback, and asset storage. | `TypeScript` ★ 2 | 2026-05-10 |
+| [afairgiant/MediKeep](https://github.com/afairgiant/MediKeep) | A lightweight, self-hosted application for managing your personal medical information. Keep your health records organized and accessible while maintaining complete control over your data privacy. | `JavaScript` ★ 432 | 2026-05-10 |
 | [Lissy93/domain-locker](https://github.com/Lissy93/domain-locker) | 🌐 The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker! | `TypeScript` ★ 1.4k | 2026-03-16 |
 | [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja) | The to-do app to organize your life. | `Go` ★ 4.2k | 2026-05-08 |
 | [navidrome/navidrome](https://github.com/navidrome/navidrome) | 🎧☁️ Your Personal Streaming Service | `Go` ★ 21k | 2026-05-09 |

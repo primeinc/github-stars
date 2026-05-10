@@ -1,6 +1,6 @@
 # Tag: developer-tools
 
-*22 repositories*
+*23 repositories*
 
 [← Back to Index](../README.md)
 
@@ -10,6 +10,7 @@
 | [gryffus/explainshell-api](https://github.com/gryffus/explainshell-api) | JSON API for explainshell — structured shell command explanations for dev tools and UIs. | `Python` ★ 4 | 2025-05-07 |
 | [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | Code search MCP for Claude Code. Make entire codebase the context for any coding agent. | `TypeScript` ★ 10.9k | 2026-05-06 |
 | [is-a-dev/register](https://github.com/is-a-dev/register) | Grab your own sweet-looking '.is-a.dev' subdomain. | `JavaScript` ★ 10.3k | 2026-05-10 |
+| [Natively-AI-assistant/natively-cluely-ai-assistant](https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant) | Natively - Free open-source AI interview copilot & meeting assistant. The best Cluely alternative, Final Round AI alternative, and Interview Coder alternative. Real-time transcription, undetectable... | `TypeScript` ★ 1.2k | 2026-05-10 |
 | [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) | Convert any git repository into an engaging podcast | `TypeScript` ★ 807 | 2025-08-30 |
 | [charmbracelet/vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder 📼 | `Go` ★ 19.6k | 2026-05-04 |
 | [memvid/claude-brain](https://github.com/memvid/claude-brain) | Give Claude Code photographic memory in ONE portable file. No database, no SQLite, no Chroma DB - just a single .mv2 file you can git commit, scp, or share. Native Rust core with sub-ms operations. | `TypeScript` ★ 491 | 2026-01-19 |

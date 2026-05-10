@@ -1,11 +1,13 @@
 # Tag: opentelemetry
 
-*6 repositories*
+*8 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [metafab/otel-gui](https://github.com/metafab/otel-gui) | A lightweight, local Open Telemetry trace viewer | `TypeScript` ★ 65 | 2026-04-12 |
+| [tbrockman/browser-extension-for-opentelemetry](https://github.com/tbrockman/browser-extension-for-opentelemetry) | An extension for instrumenting your browsing using Open Telemetry | `TypeScript` ★ 22 | 2026-05-04 |
 | [ymtdzzz/otel-tui](https://github.com/ymtdzzz/otel-tui) | A terminal Open Telemetry viewer inspired by otel-desktop-viewer | `Go` ★ 1k | 2026-05-04 |
 | [dash0hq/otelbin](https://github.com/dash0hq/otelbin) | Web-based tool to facilitate Open Telemetry collector configuration editing and verification | `TypeScript` ★ 535 | 2026-05-09 |
 | [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) | Contrib repository for the Open Telemetry Collector | `Go` ★ 4.6k | 2026-05-10 |

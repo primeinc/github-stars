@@ -1,11 +1,12 @@
 # Tag: image-processing
 
-*14 repositories*
+*15 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [Wells-the-Doctor/leaxer](https://github.com/Wells-the-Doctor/leaxer) | 🌟 Build and deploy local AI models with Leaxer for real-time interaction, streamlined document generation, and versatile visual processing capabilities. | `Elixir` ★ 1 | 2026-05-10 |
 | [lovell/sharp](https://github.com/lovell/sharp) | High performance Node.js image processing, the fastest module to resize JPEG, PNG, Web P, AVIF and TIFF images. Uses the libvips library. | `JavaScript` ★ 32.2k | 2026-04-26 |
 | [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11.2k | 2026-05-10 |
 | [Visual-Agent/DeepEyesV2](https://github.com/Visual-Agent/DeepEyesV2) | No description provided | `Python` ★ 592 | 2026-02-26 |

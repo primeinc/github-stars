@@ -1,6 +1,6 @@
 # Tag: ai-tools
 
-*14 repositories*
+*15 repositories*
 
 [← Back to Index](../README.md)
 
@@ -9,6 +9,7 @@
 | [exploreborders/claude-dcp](https://github.com/exploreborders/claude-dcp) | Claude DCP — Dynamic Context Pruning for Claude Code Intelligently manages conversation context to optimize token usage in Claude Code. Inspired by \[opencode-dynamic-context-pruning\](https://github... | `Python` ★ 9 | 2026-04-09 |
 | [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ... | `JavaScript` ★ 19.5k | 2026-05-10 |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | Skill Directory for Open Claw | `TypeScript` ★ 8.5k | 2026-05-10 |
+| [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Convert documentation websites, Git Hub repositories, and PDFs into Claude AI skills with automatic conflict detection | `Python` ★ 13.4k | 2026-05-03 |
 | [daytonaio/ai-enablement-stack](https://github.com/daytonaio/ai-enablement-stack) | A Community-Driven Mapping of AI Development Tools | `HTML` ★ 629 | 2025-08-11 |
 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it! | `TypeScript` ★ 24.3k | 2026-05-10 |
 | [frankbria/cli-ify-plugin](https://github.com/frankbria/cli-ify-plugin) | Convert Claude Code skills, commands, and agents into standalone CLI tools for Linux/Mac (Bash) and Windows (Power Shell). | `PowerShell` ★ 1 | 2026-01-09 |

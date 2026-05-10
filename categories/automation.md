@@ -1,11 +1,12 @@
 # Automation
 
-*227 repositories*
+*288 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [githubnext/agentics](https://github.com/githubnext/agentics) | A sample pack of Git Hub Agentic Workflows! | `Makefile` ★ 684 | 2026-05-09 |
 | [omachala/heroshot](https://github.com/omachala/heroshot) | Screenshot automation framework. Define once, regenerate forever. Visual picker, multi-viewport, light/dark mode, CI-ready. | `TypeScript` ★ 45 | 2026-04-12 |
 | [actions/runner-images](https://github.com/actions/runner-images) | Git Hub Actions runner images | `PowerShell` ★ 12.7k | 2026-05-08 |
 | [listr2/listr2](https://github.com/listr2/listr2) | Node JS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive. | `TypeScript` ★ 661 | 2026-05-02 |
@@ -13,10 +14,10 @@
 | [microsoft/hve-core](https://github.com/microsoft/hve-core) | A refined collection of Hypervelocity Engineering components (instructions, prompts, agents, and skills) to start your project off right, or upgrade your existing projects to get the most out of al... | `PowerShell` ★ 1k | 2026-05-10 |
 | [microsoft/azure-skills](https://github.com/microsoft/azure-skills) | Official agent plugin providing skills and MCP server configurations for Azure scenarios. | `PowerShell` ★ 900 | 2026-05-08 |
 | [exploreborders/claude-dcp](https://github.com/exploreborders/claude-dcp) | Claude DCP — Dynamic Context Pruning for Claude Code Intelligently manages conversation context to optimize token usage in Claude Code. Inspired by \[opencode-dynamic-context-pruning\](https://github... | `Python` ★ 9 | 2026-04-09 |
-| [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption | `Python` ★ 10.3k | 2026-05-09 |
+| [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption | `Python` ★ 10.4k | 2026-05-09 |
 | [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers | `Python` ★ 73.3k | 2026-03-15 |
 | [r0adkll/upload-google-play](https://github.com/r0adkll/upload-google-play) | A Git Hub action to upload an Android .apk or .aab file to the Google Play Console | `JavaScript` ★ 996 | 2026-05-03 |
-| [garrytan/gbrain](https://github.com/garrytan/gbrain) | Garry's Opinionated Open Claw/Hermes Agent Brain | `TypeScript` ★ 14.2k | 2026-05-10 |
+| [garrytan/gbrain](https://github.com/garrytan/gbrain) | Garry's Opinionated Open Claw/Hermes Agent Brain | `TypeScript` ★ 14.3k | 2026-05-10 |
 | [browser-use/browser-harness](https://github.com/browser-use/browser-harness) | Browser Harness | Self-healing harness that enables LLMs to complete any task. | `Python` ★ 11.9k | 2026-05-08 |
 | [maximhq/bifrost](https://github.com/maximhq/bifrost) | Fastest enterprise AI gateway (50x faster than Lite LLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS. | `Go` ★ 4.7k | 2026-05-10 |
 | [Justsenger/ExHyperV](https://github.com/Justsenger/ExHyperV) | The Excalibur of Hyper-V / Hyper-V 神器 | `C#` ★ 3.9k | 2026-05-10 |
@@ -35,10 +36,66 @@
 | [ipat8/cmd-printer-management](https://github.com/ipat8/cmd-printer-management) | Manage WSD Printers via CMD scripts | `Batchfile` ★ 2 | 2017-09-06 |
 | [ChristopherHX/github-act-runner](https://github.com/ChristopherHX/github-act-runner) | act as self-hosted runner | `Go` ★ 378 | 2026-03-21 |
 | [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | An unofficial Local Git Hub Actions and Azure Pipelines Emulator | `C#` ★ 234 | 2026-05-04 |
+| [changesets/ghcommit](https://github.com/changesets/ghcommit) | Type Script library for directly changing files on Git Hub | `TypeScript` ★ 17 | 2026-01-27 |
+| [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 605 | 2026-03-14 |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 80.1k | 2026-03-26 |
+| [cloudfoundry/cloud-service-broker](https://github.com/cloudfoundry/cloud-service-broker) | OSBAPI service broker that uses Terraform to provision and bind services. Derived from https://github.com/Google Cloud Platform/gcp-service-broker | `Go` ★ 84 | 2026-05-08 |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ | `Python` ★ 34.1k | 2026-05-06 |
+| [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Go` ★ 307 | 2026-05-07 |
+| [SpecterShell/Dumplings](https://github.com/SpecterShell/Dumplings) | Dump remote resources and lint outdated packages | `PowerShell` ★ 44 | 2026-05-10 |
+| [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the ... | `Go` ★ 28.3k | 2026-05-08 |
+| [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | ROS 2 Navigation Framework and System | `C++` ★ 4.2k | 2026-05-08 |
+| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | Fully autonomous AI Agents system capable of performing complex penetration testing tasks | `Go` ★ 16.7k | 2026-05-09 |
+| [PV-Bhat/vibe-check-mcp-server](https://github.com/PV-Bhat/vibe-check-mcp-server) | Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-e... | `TypeScript` ★ 486 | 2026-03-30 |
+| [daobataotie/CAD-MCP](https://github.com/daobataotie/CAD-MCP) | CAD MCP Server | `Python` ★ 331 | 2025-07-21 |
+| [cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vaults MCP server - read, write, search, and surgically edit notes, tags, and frontmatter via the Local REST API plugin. | `TypeScript` ★ 499 | 2026-05-09 |
+| [MxIris-Reverse-Engineering/ida-mcp-server](https://github.com/MxIris-Reverse-Engineering/ida-mcp-server) | A Model Context Protocol server for IDA | `Python` ★ 543 | 2025-05-29 |
+| [Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops) | An MCP server for Azure Dev Ops | `TypeScript` ★ 365 | 2026-02-05 |
+| [executeautomation/mcp-database-server](https://github.com/executeautomation/mcp-database-server) | MCP Database Server is a new MCP Server which helps connect with Sqlite, Sql Server and Posgresql Databases | `TypeScript` ★ 349 | 2025-08-27 |
+| [e2b-dev/mcp-server](https://github.com/e2b-dev/mcp-server) | Giving Claude ability to run code with E2B via MCP (Model Context Protocol) | `JavaScript` ★ 395 | 2026-04-16 |
+| [Wh0am123/MCP-Kali-Server](https://github.com/Wh0am123/MCP-Kali-Server) | MCP configuration to connect AI agent to a Linux machine. | `Python` ★ 678 | 2026-03-17 |
+| [mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server) | Go server implementing Model Context Protocol (MCP) for filesystem operations. | `Go` ★ 641 | 2025-11-24 |
+| [negokaz/excel-mcp-server](https://github.com/negokaz/excel-mcp-server) | A Model Context Protocol (MCP) server that reads and writes MS Excel data | `Go` ★ 946 | 2025-07-19 |
+| [echelon-ai-labs/servicenow-mcp](https://github.com/echelon-ai-labs/servicenow-mcp) | MCP Server for Service Now | `Python` ★ 250 | 2026-04-26 |
+| [GH05TCREW/MetasploitMCP](https://github.com/GH05TCREW/MetasploitMCP) | MCP Server for Metasploit | `Python` ★ 607 | 2026-02-05 |
+| [GongRzhe/Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) | A MCP (Model Context Protocol) server for Power Point manipulation using python-pptx. This server provides tools for creating, editing, and manipulating Power Point presentations through the MCP pr... | `Python` ★ 1.7k | 2025-12-31 |
+| [FlorianWilhelm/the-hatchlor](https://github.com/FlorianWilhelm/the-hatchlor) | 🌹 Cookiecutter template featuring the modern and extensible Python project manager hatch | `Python` ★ 82 | 2024-11-18 |
+| [microsoft/PSRule-pipelines](https://github.com/microsoft/PSRule-pipelines) | Validate infrastructure as code (Ia C) and Dev Ops repositories using Azure Pipelines. | `PowerShell` ★ 102 | 2026-05-08 |
+| [knom/AzureResourceOwnerTag](https://github.com/knom/AzureResourceOwnerTag) | Azure Automation Script that Tags Azure Resource Groups with the OWNER and EXPIRY DATE | `PowerShell` ★ 12 | 2018-05-27 |
+| [JWStarkie/PurviewAccelerator](https://github.com/JWStarkie/PurviewAccelerator) | A lightning fast tool to automatically deploy Purview in a super fast at the click of a button. Clone the repo, execute the scripts, wait 10 minutes and boom - your Purview environment is up and ru... | `PowerShell` ★ 14 | 2021-10-22 |
+| [SoyITPro/scripts](https://github.com/SoyITPro/scripts) | Scripts para administradores de servidores Windows, Azure, Docker, Linux y más | `PowerShell` ★ 59 | 2026-04-28 |
+| [michaelmsonne/ManagedIdentityPermissionManager](https://github.com/michaelmsonne/ManagedIdentityPermissionManager) | Azure Managed Identity Permissions Tool, a new Power Shell tool that simplifies and streamlines the management of Managed Identity permissions in Azure (Entra ID) | `PowerShell` ★ 130 | 2026-01-26 |
+| [arcus-azure/arcus.scripting](https://github.com/arcus-azure/arcus.scripting) | Scripting with Microsoft Azure in a breeze. | `PowerShell` ★ 10 | 2026-05-09 |
+| [PSBicep/PSBicep](https://github.com/PSBicep/PSBicep) | This is the repo for the Bicep Power Shell Module. | `PowerShell` ★ 149 | 2026-05-08 |
+| [EvotecIT/O365Essentials](https://github.com/EvotecIT/O365Essentials) | A module that helps to manage some tasks on Office 365/Azure via undocumented API | `PowerShell` ★ 144 | 2026-04-02 |
+| [invictus-ir/Microsoft-Extractor-Suite](https://github.com/invictus-ir/Microsoft-Extractor-Suite) | A Power Shell module for acquisition of data from Microsoft 365 and Azure for Incident Response and Cyber Security purposes. | `PowerShell` ★ 801 | 2026-05-06 |
+| [wesellis/Azure-PowerShell-Toolkit](https://github.com/wesellis/Azure-PowerShell-Toolkit) | Massive collection of 772+ Power Shell scripts for Azure management. CI/CD with PSScript Analyzer, security scanning, and Ia C validation. Enterprise-ready with comprehensive testing. | `PowerShell` ★ 39 | 2025-10-03 |
+| [003random/getJS](https://github.com/003random/getJS) | A tool to fastly get all javascript sources/files | `Go` ★ 869 | 2025-07-04 |
+| [Hexagon/croner](https://github.com/Hexagon/croner) | Trigger functions or evaluate cron expressions in Java Script or Type Script. No dependencies. Most features. Node. Deno. Bun. Browser. | `TypeScript` ★ 2.6k | 2026-04-30 |
+| [dotnet/command-line-api](https://github.com/dotnet/command-line-api) | Command line parsing, invocation, and rendering of terminal output. | `C#` ★ 3.7k | 2026-05-08 |
+| [opendatalab/MinerU](https://github.com/opendatalab/MinerU) | Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows. | `Python` ★ 62.5k | 2026-05-09 |
+| [marshallrichards/ClawPhone](https://github.com/marshallrichards/ClawPhone) | Scripts and Tweaks for running agents like Open Claw, Claude Code, Codex, Hermes Agent, and more on an Android smartphone | `Python` ★ 478 | 2026-02-07 |
+| [snarktank/antfarm](https://github.com/snarktank/antfarm) | Build your agent team in Open Claw with one command. | `TypeScript` ★ 2.4k | 2026-02-26 |
+| [recyclarr/recyclarr](https://github.com/recyclarr/recyclarr) | Automatically sync TRa SH Guides to your Sonarr and Radarr instances | `C#` ★ 2k | 2026-05-08 |
+| [github/gh-aw](https://github.com/github/gh-aw) | Git Hub Agentic Workflows | `Go` ★ 4.4k | 2026-05-10 |
+| [sirkirby/unifi-mcp](https://github.com/sirkirby/unifi-mcp) | MCP servers for the Uni Fi suite of applications, Network, Protect, Access, and Drive | `Python` ★ 327 | 2026-05-10 |
+| [homarr-labs/homarr](https://github.com/homarr-labs/homarr) | A modern and easy to use dashboard. 40+ integrations. 20K+ icons built in. Authentication out of the box. No YAML, drag and drop configuration. | `TypeScript` ★ 3.7k | 2026-05-10 |
+| [cathrynlavery/codex-skill](https://github.com/cathrynlavery/codex-skill) | Give Claude Code a second opinion using Open AI Codex - automatic plan review via hooks | `Shell` ★ 171 | 2026-04-24 |
 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be! | `Python` ★ 48.3k | 2026-05-09 |
+| [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Convert documentation websites, Git Hub repositories, and PDFs into Claude AI skills with automatic conflict detection | `Python` ★ 13.4k | 2026-05-03 |
+| [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) | CLI to control i OS and Android devices for AI agents | `TypeScript` ★ 2k | 2026-05-01 |
+| [Songmu/tagpr](https://github.com/Songmu/tagpr) | automatically creates and updates a pull request for unreleased items, tag them when they are merged, and create releases. | `Go` ★ 295 | 2026-05-09 |
+| [cfpb/open-source-checklist](https://github.com/cfpb/open-source-checklist) | check internal repos against open source checklist requirements | `JavaScript` ★ 647 | 2019-01-18 |
+| [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) | Language-agnostic SLSA provenance generation for Github Actions | `Go` ★ 572 | 2026-03-29 |
+| [nrwl/nx](https://github.com/nrwl/nx) | The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time. | `TypeScript` ★ 28.7k | 2026-05-09 |
+| [cloud-gov/caulking](https://github.com/cloud-gov/caulking) | Caulking installs global Git hooks that run gitleaks so you don’t accidentally commit or push secrets. | `Shell` ★ 34 | 2026-04-30 |
+| [neonichu/githop](https://github.com/neonichu/githop) | Uses Big Query and Git Hub Archive to create something like Time Hop for Git Hub. | `Ruby` ★ 78 | 2024-02-02 |
+| [six2dez/burp-ai-agent](https://github.com/six2dez/burp-ai-agent) | Burp Suite extension that adds built-in MCP tooling, AI-assisted analysis, privacy controls, passive and active scanning and more | `Kotlin` ★ 1.1k | 2026-05-06 |
+| [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 5.5k | 2026-05-09 |
 | [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) | Convert any git repository into an engaging podcast | `TypeScript` ★ 807 | 2025-08-30 |
 | [Lissy93/domain-locker](https://github.com/Lissy93/domain-locker) | 🌐 The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker! | `TypeScript` ★ 1.4k | 2026-03-16 |
 | [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi) | No description provided | `Python` ★ 22.3k | 2026-01-31 |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 | `TypeScript` ★ 370.3k | 2026-05-10 |
 | [trycua/cua](https://github.com/trycua/cua) | Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (mac OS, Linux, Windows). | `HTML` ★ 15.8k | 2026-05-09 |
 | [clusterzx/paperless-ai](https://github.com/clusterzx/paperless-ai) | An automated document analyzer for Paperless-ngx using Open AI API, Ollama, Deepseek-r1, Azure and all Open AI API compatible Services to automatically analyze and tag your documents. | `JavaScript` ★ 5.6k | 2026-05-02 |
 | [RunanywhereAI/on-device-browser-agent](https://github.com/RunanywhereAI/on-device-browser-agent) | On-device AI browser automation using Web LLM. No cloud, no API keys, fully private. | `TypeScript` ★ 291 | 2026-01-22 |
@@ -52,6 +109,7 @@
 | [camel-ai/owl](https://github.com/camel-ai/owl) | 🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation | `Python` ★ 19.8k | 2026-05-01 |
 | [snarktank/ralph](https://github.com/snarktank/ralph) | Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete. | `TypeScript` ★ 18.8k | 2026-02-02 |
 | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition. | `Python` ★ 20.8k | 2026-05-05 |
+| [j178/prek](https://github.com/j178/prek) | ⚡ Better \`pre-commit\`, re-engineered in Rust | `Rust` ★ 7.6k | 2026-05-10 |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. | `Python` ★ 93.2k | 2026-05-09 |
 | [hotheadhacker/no-as-a-service](https://github.com/hotheadhacker/no-as-a-service) | No-as-a-Service (Naa S) is a simple API that returns a random rejection reason. Use it when you need a realistic excuse, a fun “no,” or want to simulate being turned down in style. | `JavaScript` ★ 7.5k | 2026-05-09 |
 | [AutoMaker-Org/automaker](https://github.com/AutoMaker-Org/automaker) | No description provided | `TypeScript` ★ 3.1k | 2026-03-15 |
@@ -63,12 +121,14 @@
 | [nicotsx/zerobyte](https://github.com/nicotsx/zerobyte) | Backup automation for self-hosters. Built on top of restic | `TypeScript` ★ 6.3k | 2026-05-09 |
 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫 | `Python` ★ 49.3k | 2026-04-30 |
 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | An autonomous agent that conducts deep research on any data using any LLM providers. | `Python` ★ 27k | 2026-04-16 |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, v LLM pods | `TypeScript` ★ 47.4k | 2026-05-09 |
 | [rendercv/rendercv](https://github.com/rendercv/rendercv) | CV/resume generator for academics and engineers, YAML to PDF | `Python` ★ 16.6k | 2026-05-01 |
 | [jasonkneen/workflow-builder-template](https://github.com/jasonkneen/workflow-builder-template) | Visual AI workflow automation platform | `TypeScript` ★ 1 | 2026-01-13 |
 | [shadcn/license-generator](https://github.com/shadcn/license-generator) | Generates a license for your open source project. | `JavaScript` ★ 170 | 2024-06-10 |
 | [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 基于图像识别的自动化黑盒测试框架 | An automation black-box testing framework based on image recognition | `C++` ★ 4k | 2026-05-07 |
 | [KnifMelti/WAU-Settings-GUI](https://github.com/KnifMelti/WAU-Settings-GUI) | Provides a user-friendly portable standalone interface to modify every aspect of Winget-Auto Update (WAU) | `PowerShell` ★ 45 | 2026-03-29 |
 | [lux032/MusicAutoTagger](https://github.com/lux032/MusicAutoTagger) | A smart music file organization tool based on audio fingerprinting technology. It automatically monitors the download directory, identifies songs using Acoust ID and Music Brainz, completes metadat... | `Java` ★ 63 | 2026-03-16 |
+| [droidrun/mobilerun](https://github.com/droidrun/mobilerun) | Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖 | `Python` ★ 8.3k | 2026-05-08 |
 | [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) | Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command. | `JavaScript` ★ 1.8k | 2026-05-10 |
 | [ealsur/serverlessnotifications](https://github.com/ealsur/serverlessnotifications) | Serverless notifications with Azure Cosmos DB + Azure Functions + Azure Signal R | `JavaScript` ★ 61 | 2018-05-25 |
 | [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) | Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monito... | `Python` ★ 31.4k | 2026-05-05 |
@@ -107,6 +167,7 @@
 | [rink-turksma/IntunePrepTool](https://github.com/rink-turksma/IntunePrepTool) | Intune Prep Tool is a tool designed for creating Intune packages using the MS Win32 Content Prep Tool. The tool aims to simplify the process of packaging applications for deployment through Intune ... | `PowerShell` ★ 95 | 2026-01-29 |
 | [openstates/openstates-scrapers](https://github.com/openstates/openstates-scrapers) | source for Open States scrapers | `Python` ★ 898 | 2026-05-09 |
 | [dobtco/openrfps-scrapers](https://github.com/dobtco/openrfps-scrapers) | Scraping government contracting opportunities. | `CoffeeScript` ★ 84 | 2014-10-03 |
+| [iii-hq/iii](https://github.com/iii-hq/iii) | Effortlessly compose, extend, and observe every service in real-time for the first time ever. | `Rust` ★ 15.5k | 2026-05-09 |
 | [elsa-workflows/elsa-core](https://github.com/elsa-workflows/elsa-core) | A .NET workflows library | `C#` ★ 7.7k | 2026-05-09 |
 | [mediar-ai/terminator](https://github.com/mediar-ai/terminator) | playwright for windows computer use | `Rust` ★ 1.4k | 2026-04-21 |
 | [documenso/documenso](https://github.com/documenso/documenso) | The Open Source Docu Sign Alternative. | `TypeScript` ★ 12.8k | 2026-05-10 |

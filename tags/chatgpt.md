@@ -1,12 +1,13 @@
 # Tag: chatgpt
 
-*17 repositories*
+*18 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `Python` ★ 141.4k | 2026-05-10 |
+| [MCPJam/inspector](https://github.com/MCPJam/inspector) | Development platform to debug, chat, inspect, and evaluate MCP servers, MCP apps, and Chat GPT apps. | `TypeScript` ★ 1.9k | 2026-05-10 |
 | [pionxzh/chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) | Export and Share your Chat GPT conversation history | `TypeScript` ★ 2.4k | 2026-05-10 |
 | [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 9.9k | 2026-05-10 |
 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best Chat GPT that $100 can buy. | `Python` ★ 53.2k | 2026-05-05 |

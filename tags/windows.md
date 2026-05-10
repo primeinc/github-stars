@@ -1,6 +1,6 @@
 # Tag: windows
 
-*48 repositories*
+*50 repositories*
 
 [← Back to Index](../README.md)
 
@@ -9,6 +9,8 @@
 | [lcromer97/PrinterManager](https://github.com/lcromer97/PrinterManager) | All in one tool to manage printers. Built to be used for Screen Connect's backstage | `C#` ★ 1 | 2026-03-23 |
 | [KnudsenMorten/SecurityInsight](https://github.com/KnudsenMorten/SecurityInsight) | Rethink Secure Score into a new risk-based security risk score, based on consequence, probability and risk factors. Solution includes critical asset tagging, ready-to-use reports (based on Defender... | `PowerShell` ★ 31 | 2026-05-10 |
 | [0x6d69636b/windows_hardening](https://github.com/0x6d69636b/windows_hardening) | Hardening Kitty and Windows Hardening Settings | `PowerShell` ★ 2.6k | 2026-04-10 |
+| [SoyITPro/scripts](https://github.com/SoyITPro/scripts) | Scripts para administradores de servidores Windows, Azure, Docker, Linux y más | `PowerShell` ★ 59 | 2026-04-28 |
+| [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 5.5k | 2026-05-09 |
 | [File-New-Project/EarTrumpet](https://github.com/File-New-Project/EarTrumpet) | Ear Trumpet - Volume Control for Windows | `C#` ★ 11k | 2026-05-10 |
 | [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications. | `C#` ★ 4.7k | 2026-05-10 |
 | [randomascii/UIforETW](https://github.com/randomascii/UIforETW) | User interface for recording and managing ETW traces | `C++` ★ 135 | 2026-01-05 |

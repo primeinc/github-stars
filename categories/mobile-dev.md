@@ -1,6 +1,6 @@
 # Mobile-dev
 
-*46 repositories*
+*52 repositories*
 
 [← Back to Index](../README.md)
 
@@ -10,7 +10,13 @@
 | [gronxb/hot-updater](https://github.com/gronxb/hot-updater) | A self-hostable OTA update solution for React Native (Alternative to Code Push) | `TypeScript` ★ 1.4k | 2026-05-09 |
 | [raulvidis/hermes-android](https://github.com/raulvidis/hermes-android) | Android device control for hermes-agent — bridge app + Python toolset | `Python` ★ 149 | 2026-05-02 |
 | [sunshineLixun/ShipFullStack](https://github.com/sunshineLixun/ShipFullStack) | A modern Type Script stack that combines React, Tan Stack Start, Hono, ORPC, Expo, and more. | `TypeScript` ★ 105 | 2025-11-03 |
-| [farzaa/clicky](https://github.com/farzaa/clicky) | No description provided | `Swift` ★ 5.6k | 2026-04-28 |
+| [farzaa/clicky](https://github.com/farzaa/clicky) | No description provided | `Swift` ★ 5.7k | 2026-04-28 |
+| [isaiahbjork/expo-kokoro-onnx](https://github.com/isaiahbjork/expo-kokoro-onnx) | Run Kokoro TTS locally on device using Expo & ONNX Runtime | `TypeScript` ★ 79 | 2025-05-08 |
+| [unoplatform/uno](https://github.com/unoplatform/uno) | Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow... | `C#` ★ 9.9k | 2026-05-10 |
+| [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app) | Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | `Dart` ★ 29.5k | 2026-04-01 |
+| [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | :iphone: Collaborative List of Open-Source i OS Apps | ★ 50.2k | 2026-05-09 |
+| [crazystylus/otadump](https://github.com/crazystylus/otadump) | Extract partitions from Android OTA files. | `Rust` ★ 207 | 2026-04-13 |
+| [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) | CLI to control i OS and Android devices for AI agents | `TypeScript` ★ 2k | 2026-05-01 |
 | [slopus/happy](https://github.com/slopus/happy) | Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured | `TypeScript` ★ 20.4k | 2026-05-08 |
 | [simpsoka/jules-companion](https://github.com/simpsoka/jules-companion) | No description provided | `Swift` ★ 86 | 2026-01-24 |
 | [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) | bluetooth mesh chat, IRC vibes | `Swift` ★ 25.8k | 2026-05-10 |
@@ -24,14 +30,14 @@
 | [microsoft/react-native-windows-samples](https://github.com/microsoft/react-native-windows-samples) | A repository showcasing React Native samples and templates for Windows, mac OS, and Surface Duo. | `C#` ★ 540 | 2026-05-09 |
 | [RevenueCat/react-native-purchases](https://github.com/RevenueCat/react-native-purchases) | React Native in-app purchases and subscriptions made easy. Support for i OS and Android. | `TypeScript` ★ 1.2k | 2026-05-10 |
 | [nguyenjessev/liquor-locker](https://github.com/nguyenjessev/liquor-locker) | A home bar management app to track your bottles and ingredients, with support for AI-powered cocktail recommendations | `TypeScript` ★ 69 | 2026-02-04 |
-| [harmonoid/harmonoid](https://github.com/harmonoid/harmonoid) | 🎵 Plays & manages your music library. Looks beautiful & juicy. Available for Windows, GNU/Linux, mac OS & Android. | `Dart` ★ 4.5k | 2026-03-21 |
+| [harmonoid/harmonoid](https://github.com/harmonoid/harmonoid) | 🎵 Plays & manages your music library. Looks beautiful & juicy. Available for Windows, GNU/Linux, mac OS & Android. | `Dart` ★ 4.6k | 2026-03-21 |
 | [bdlukaa/fluent_ui](https://github.com/bdlukaa/fluent_ui) | Microsoft's Win UI3 in Flutter. | `Dart` ★ 3.4k | 2026-05-09 |
 | [SandroMaglione/fpdart](https://github.com/SandroMaglione/fpdart) | Functional programming in Dart and Flutter. All the main functional programming types and patterns fully documented, tested, and with examples. | `Dart` ★ 616 | 2025-10-29 |
 | [localsend/localsend](https://github.com/localsend/localsend) | An open-source cross-platform alternative to Air Drop | `Dart` ★ 81k | 2026-04-30 |
 | [Galaxies-dev/fintech-clone-react-native](https://github.com/Galaxies-dev/fintech-clone-react-native) | No description provided | `TypeScript` ★ 405 | 2024-11-08 |
 | [sim-codes/windows-phone-link-ui](https://github.com/sim-codes/windows-phone-link-ui) | No description provided | `TypeScript` ★ 2 | 2024-05-14 |
 | [BasedHardware/omi](https://github.com/BasedHardware/omi) | AI wearables. Put it on, speak, transcribe, automatically | `Dart` ★ 12.5k | 2026-05-09 |
-| [expo/expo](https://github.com/expo/expo) | An open-source framework for making universal native apps with React. Expo runs on Android, i OS, and the web. | `TypeScript` ★ 49.3k | 2026-05-09 |
+| [expo/expo](https://github.com/expo/expo) | An open-source framework for making universal native apps with React. Expo runs on Android, i OS, and the web. | `TypeScript` ★ 49.3k | 2026-05-10 |
 | [4xmen/anubias](https://github.com/4xmen/anubias) | Developed mobile apps so easy and native with GUI 📱 | `Vue` ★ 2.3k | 2025-01-19 |
 | [dev47apps/droidcam-obs-plugin](https://github.com/dev47apps/droidcam-obs-plugin) | Droid Cam OBS Source | `C++` ★ 686 | 2026-04-28 |
 | [seemoo-lab/AirGuard-iOS](https://github.com/seemoo-lab/AirGuard-iOS) | Protect yourself from being tracked 📍by Air Tags, Smart Tags, Chipolo, Google, and Tile Trackers | `Swift` ★ 96 | 2025-01-01 |

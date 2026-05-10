@@ -1,6 +1,6 @@
 # Tag: automation
 
-*54 repositories*
+*60 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,14 +8,20 @@
 |---|---|---|---|
 | [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) | Build your own AI SRE agents. The open source toolkit for the AI era ✨ | `Python` ★ 4.8k | 2026-05-10 |
 | [apireno/DOMShell](https://github.com/apireno/DOMShell) | Agentic Shell | `TypeScript` ★ 34 | 2026-04-20 |
+| [daobataotie/CAD-MCP](https://github.com/daobataotie/CAD-MCP) | CAD MCP Server | `Python` ★ 331 | 2025-07-21 |
+| [pnp/script-samples](https://github.com/pnp/script-samples) | A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more. | `PowerShell` ★ 319 | 2026-05-05 |
+| [wesellis/Azure-PowerShell-Toolkit](https://github.com/wesellis/Azure-PowerShell-Toolkit) | Massive collection of 772+ Power Shell scripts for Azure management. CI/CD with PSScript Analyzer, security scanning, and Ia C validation. Enterprise-ready with comprehensive testing. | `PowerShell` ★ 39 | 2025-10-03 |
+| [003random/getJS](https://github.com/003random/getJS) | A tool to fastly get all javascript sources/files | `Go` ★ 869 | 2025-07-04 |
 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be! | `Python` ★ 48.3k | 2026-05-09 |
+| [Dicklesworthstone/agentic_coding_flywheel_setup](https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup) | Bootstraps a fresh Ubuntu VPS into a complete multi-agent AI development environment in 30 minutes: coding agents, session management, safety tools, and coordination infrastructure | `Shell` ★ 1.5k | 2026-05-09 |
+| [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 5.5k | 2026-05-09 |
 | [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi) | No description provided | `Python` ★ 22.3k | 2026-01-31 |
 | [clusterzx/paperless-ai](https://github.com/clusterzx/paperless-ai) | An automated document analyzer for Paperless-ngx using Open AI API, Ollama, Deepseek-r1, Azure and all Open AI API compatible Services to automatically analyze and tag your documents. | `JavaScript` ★ 5.6k | 2026-05-02 |
 | [junaid-mahmood/nlsh](https://github.com/junaid-mahmood/nlsh) | Turn natural language to terminal commands | `TypeScript` ★ 472 | 2026-01-22 |
 | [zenobi-us/bun-module](https://github.com/zenobi-us/bun-module) | No description provided | `Shell` ★ 35 | 2026-03-20 |
 | [Lidarr/Lidarr](https://github.com/Lidarr/Lidarr) | Looks and smells like Sonarr but made for music. | `C#` ★ 5.3k | 2026-05-09 |
 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code superpowers: core skills library | `Shell` ★ 184.6k | 2026-05-08 |
-| [j178/prek](https://github.com/j178/prek) | ⚡ Better \`pre-commit\`, re-engineered in Rust | `Rust` ★ 7.6k | 2026-05-10 |
+| [AutoForgeAI/autoforge](https://github.com/AutoForgeAI/autoforge) | No description provided | `Python` ★ 1.8k | 2026-04-19 |
 | [IIEleven11/ComfyUI-Dataset_Maker](https://github.com/IIEleven11/ComfyUI-Dataset_Maker) | No description provided | `Python` ★ 5 | 2026-01-09 |
 | [builtbybel/FlyOOBE](https://github.com/builtbybel/FlyOOBE) | Fly through your Windows 11 setup 🐝 | `C#` ★ 6.9k | 2026-01-04 |
 | [jeremylongshore/claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | Hundreds of Claude Code plugins with embedded AI skills. Learn via interactive Jupyter tutorials. | `Python` ★ 2.1k | 2026-05-10 |

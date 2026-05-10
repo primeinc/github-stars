@@ -1,11 +1,14 @@
 # Monitoring
 
-*69 repositories*
+*80 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [metafab/otel-gui](https://github.com/metafab/otel-gui) | A lightweight, local Open Telemetry trace viewer | `TypeScript` ★ 65 | 2026-04-12 |
+| [tbrockman/browser-extension-for-opentelemetry](https://github.com/tbrockman/browser-extension-for-opentelemetry) | An extension for instrumenting your browsing using Open Telemetry | `TypeScript` ★ 22 | 2026-05-04 |
+| [kareldewinter/tdd-azd-monitor](https://github.com/kareldewinter/tdd-azd-monitor) | Trainer-Demo-Deploy scenario for Azure Monitor including system metrics, custom logs, and external telemetry | `Bicep` ★ 3 | 2025-11-23 |
 | [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) | Build your own AI SRE agents. The open source toolkit for the AI era ✨ | `Python` ★ 4.8k | 2026-05-10 |
 | [chamanbravo/upstat](https://github.com/chamanbravo/upstat) | 🟢 a simple open-source, self-hosted status monitoring tool | `TypeScript` ★ 200 | 2026-02-26 |
 | [microsoft/Docker-Provider](https://github.com/microsoft/Docker-Provider) | Azure Monitor for Containers | `Ruby` ★ 171 | 2026-05-09 |
@@ -21,6 +24,12 @@
 | [basillal/TrackNPrint](https://github.com/basillal/TrackNPrint) | Track NPrint is a full-stack application designed to manage and monitor bulk printing jobs with real-time tracking. It enables seamless coordination between a frontend dashboard and backend printin... | `TypeScript` ★ 2 | 2025-07-10 |
 | [KnudsenMorten/SecurityInsight](https://github.com/KnudsenMorten/SecurityInsight) | Rethink Secure Score into a new risk-based security risk score, based on consequence, probability and risk factors. Solution includes critical asset tagging, ready-to-use reports (based on Defender... | `PowerShell` ★ 31 | 2026-05-10 |
 | [BigBodyCobain/Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker) | Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. The knowledge is av... | `Python` ★ 6.2k | 2026-05-07 |
+| [vectordotdev/vector](https://github.com/vectordotdev/vector) | A high-performance observability data pipeline. | `Rust` ★ 21.8k | 2026-05-09 |
+| [SigNoz/signoz](https://github.com/SigNoz/signoz) | Sig Noz is an open-source observability platform native to Open Telemetry with logs, traces and metrics in a single application. An open-source alternative to Data Dog, New Relic, etc. 🔥 🖥. 👉 Op... | `TypeScript` ★ 26.9k | 2026-05-10 |
+| [zabbix/zabbix](https://github.com/zabbix/zabbix) | Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud. | `Go Template` ★ 5.9k | 2026-05-08 |
+| [Dimillian/CodexMonitor](https://github.com/Dimillian/CodexMonitor) | An app to monitor the (Codex) situation | `TypeScript` ★ 3.8k | 2026-03-26 |
+| [Yamato-Security/EnableWindowsLogSettings](https://github.com/Yamato-Security/EnableWindowsLogSettings) | Documentation and scripts to properly enable Windows event logs. | `Batchfile` ★ 702 | 2025-10-03 |
+| [HugoRCD/evlog](https://github.com/HugoRCD/evlog) | Digging through logs is not observability. It's hope. — wide events, structured errors, Type Script-first, every runtime. | `TypeScript` ★ 1.3k | 2026-05-09 |
 | [Lissy93/domain-locker](https://github.com/Lissy93/domain-locker) | 🌐 The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker! | `TypeScript` ★ 1.4k | 2026-03-16 |
 | [traceloop/openllmetry](https://github.com/traceloop/openllmetry) | Open-source observability for your Gen AI or LLM application, based on Open Telemetry | `Python` ★ 7.1k | 2026-05-08 |
 | [sitespeedio/sitespeed.io](https://github.com/sitespeedio/sitespeed.io) | sitespeed.io is an open-source tool for comprehensive web performance analysis, enabling you to test, monitor, and optimize your website’s speed using real browsers in various environments. | `JavaScript` ★ 5k | 2026-05-10 |
@@ -32,6 +41,7 @@
 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool | `JavaScript` ★ 86.5k | 2026-05-10 |
 | [henrygd/beszel](https://github.com/henrygd/beszel) | Lightweight server monitoring hub with historical data, docker stats, and alerts. | `Go` ★ 21.7k | 2026-05-08 |
 | [TwiN/gatus](https://github.com/TwiN/gatus) | Automated developer-oriented status page with alerting and incident support | `Go` ★ 10.9k | 2026-05-01 |
+| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era | `Rust` ★ 18.6k | 2026-05-10 |
 | [rsalmei/alive-progress](https://github.com/rsalmei/alive-progress) | A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations! | `Python` ★ 6.3k | 2025-10-10 |
 | [Azure/azure-monitor-baseline-alerts](https://github.com/Azure/azure-monitor-baseline-alerts) | Azure Monitor Baseline Alerts | `Bicep` ★ 310 | 2026-04-20 |
 | [rybbit-io/rybbit](https://github.com/rybbit-io/rybbit) | 🐸 Rybbit - open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive. | `TypeScript` ★ 12.1k | 2026-05-06 |
@@ -42,6 +52,7 @@
 | [microsoft/Microsoft-Purview-Advanced-Rich-Reports-MPARR-Collector](https://github.com/microsoft/Microsoft-Purview-Advanced-Rich-Reports-MPARR-Collector) | Repository with all the MPARR components solution | `PowerShell` ★ 132 | 2026-04-09 |
 | [Azure/Microsoft-Defender-for-Cloud](https://github.com/Azure/Microsoft-Defender-for-Cloud) | Welcome to the Microsoft Defender for Cloud community repository | `PowerShell` ★ 1.9k | 2026-03-19 |
 | [JulianHayward/AzAdvertizer](https://github.com/JulianHayward/AzAdvertizer) | Az Advertizer helps you to keep up with the pace by providing overview and insights on new releases and changes/updates for Azure Governance capabilities such as Azure Policy's policy definitions, ... | ★ 44 | 2023-09-08 |
+| [Microsoft365DSC/Microsoft365DSC](https://github.com/Microsoft365DSC/Microsoft365DSC) | Manages, configures, extracts and monitors Microsoft 365 tenant configurations | `PowerShell` ★ 2.3k | 2026-05-07 |
 | [upptime/upptime](https://github.com/upptime/upptime) | ⬆️ Git Hub Actions uptime monitor & status page by @Anand Chowdhary | `Markdown` ★ 17k | 2026-05-10 |
 | [ccfos/nightingale](https://github.com/ccfos/nightingale) | Nightingale is to monitoring and alerting what Grafana is to visualization. | `Go` ★ 13k | 2026-05-09 |
 | [kiqu3z/printer-monitoring-dashboard](https://github.com/kiqu3z/printer-monitoring-dashboard) | um programa que faz a monitoria via SMNP das impressoras de sem a necessidade de configurar um Zabbix ou Grafana. | `HTML` ★ 2 | 2024-06-03 |

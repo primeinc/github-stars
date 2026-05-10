@@ -1,11 +1,14 @@
 # Tag: design-system
 
-*8 repositories*
+*11 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [vue-styleguidist/vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) | Created from react styleguidist for Vue Components with a living style guide | `TypeScript` ★ 2.5k | 2026-05-06 |
+| [dialpad/dialtone](https://github.com/dialpad/dialtone) | The main repository for all of Dialpad's design system resources. | `JavaScript` ★ 14 | 2026-05-10 |
+| [pedronauck/docz](https://github.com/pedronauck/docz) | ✍ It has never been so easy to document your things! | `TypeScript` ★ 23.6k | 2025-11-21 |
 | [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5.2k | 2026-05-09 |
 | [wigggle-ui/ui](https://github.com/wigggle-ui/ui) | A beautiful collection of copy-and-paste widgets for your next project. | `TypeScript` ★ 855 | 2026-02-26 |
 | [shane-downes/styleglide](https://github.com/shane-downes/styleglide) | Create your own shadcn/ui and Tailwind CSS design system | `TypeScript` ★ 66 | 2025-12-06 |

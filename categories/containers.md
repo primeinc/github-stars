@@ -1,6 +1,6 @@
 # Containers
 
-*37 repositories*
+*43 repositories*
 
 [← Back to Index](../README.md)
 
@@ -12,6 +12,12 @@
 | [Azure/aca-landing-zone-accelerator](https://github.com/Azure/aca-landing-zone-accelerator) | The Azure Container Apps landing zone accelerator is an open-source collection of architectural guidance and reference implementation to accelerate deployment of Azure Container Apps at scale. | `Bicep` ★ 218 | 2026-01-26 |
 | [garronej/vite-envs](https://github.com/garronej/vite-envs) | ⚙️ Env var in Vite at container startup | `TypeScript` ★ 82 | 2026-04-16 |
 | [dragonflyoss/dragonfly](https://github.com/dragonflyoss/dragonfly) | Delivers efficient, stable, and secure data distribution and acceleration powered by P2P technology, with an optional content‑addressable filesystem that accelerates OCI container launch. | `Go` ★ 3.2k | 2026-05-07 |
+| [docker/docker-credential-helpers](https://github.com/docker/docker-credential-helpers) | Programs to keep Docker login credentials safe by storing in platform keystores | `Go` ★ 1.3k | 2026-05-08 |
+| [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio) | A lightweight Node.js private proxy registry | `TypeScript` ★ 17.6k | 2026-05-10 |
+| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 34.2k | 2026-05-08 |
+| [Safe3/openresty-manager](https://github.com/Safe3/openresty-manager) | Modern, secure, and elegant server control panel, alternative to Open Resty Edge and Nginx Proxy Manager. | `Go` ★ 1.4k | 2026-01-25 |
+| [alibaba/nacos](https://github.com/alibaba/nacos) | an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications. | `Java` ★ 32.9k | 2026-05-09 |
+| [mspnp/aks-baseline](https://github.com/mspnp/aks-baseline) | This is the Azure Kubernetes Service (AKS) Baseline Cluster reference implementation as produced by the Microsoft Azure Architecture Center. | `Bicep` ★ 743 | 2026-04-19 |
 | [m1k1o/neko](https://github.com/m1k1o/neko) | A self hosted virtual browser that runs in docker and uses Web RTC. | `Go` ★ 20.9k | 2026-05-08 |
 | [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | `Go` ★ 51k | 2026-04-19 |
 | [labring/sealos](https://github.com/labring/sealos) | Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfec... | `TypeScript` ★ 17.6k | 2026-05-09 |

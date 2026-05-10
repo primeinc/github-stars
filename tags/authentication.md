@@ -1,15 +1,20 @@
 # Tag: authentication
 
-*14 repositories*
+*19 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [auth0/auth0.js](https://github.com/auth0/auth0.js) | Auth0 headless browser sdk | `JavaScript` ★ 1k | 2026-05-09 |
+| [AzureAD/microsoft-identity-web](https://github.com/AzureAD/microsoft-identity-web) | Helps creating protected web apps and web APIs with Microsoft identity platform and Azure AD B2C | `C#` ★ 779 | 2026-05-09 |
+| [coleam00/remote-mcp-server-with-auth](https://github.com/coleam00/remote-mcp-server-with-auth) | Template for a remote MCP server with Git Hub OAuth - following best practices for building MCP servers so you can take this as a starting point for any MCP server you want to build! | `TypeScript` ★ 293 | 2025-07-11 |
+| [PalmEmanuel/AzAuth](https://github.com/PalmEmanuel/AzAuth) | A Power Shell module to handle authentication for Azure. | `PowerShell` ★ 41 | 2026-05-04 |
+| [LaresLLC/AzureTokenExtractor](https://github.com/LaresLLC/AzureTokenExtractor) | Extracts Azure authentication tokens from Power Shell process minidumps. | `Python` ★ 25 | 2023-05-20 |
 | [better-auth/better-auth](https://github.com/better-auth/better-auth) | The most comprehensive authentication framework for Type Script | `TypeScript` ★ 28.2k | 2026-05-10 |
 | [meteor-useraccounts/core](https://github.com/meteor-useraccounts/core) | Meteor sign up and sign in templates' core functionalities | `JavaScript` ★ 532 | 2021-07-09 |
 | [activadee/opencode-auth-sync](https://github.com/activadee/opencode-auth-sync) | No description provided | `TypeScript` ★ 5 | 2026-01-30 |
+| [tinyauthapp/tinyauth](https://github.com/tinyauthapp/tinyauth) | The tiniest authentication and authorization server you have ever seen. | `Go` ★ 7.3k | 2026-05-10 |
 | [numman-ali/opencode-openai-codex-auth](https://github.com/numman-ali/opencode-openai-codex-auth) | OAuth authentication plugin for personal coding assistance with Chat GPT Plus/Pro subscriptions - uses Open AI's official authentication method | `TypeScript` ★ 2k | 2026-01-09 |
 | [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) | Authentication for the Web. | `TypeScript` ★ 28.2k | 2026-04-14 |
 | [nhost/nhost](https://github.com/nhost/nhost) | The Open Source Firebase Alternative with Graph QL. | `TypeScript` ★ 9.2k | 2026-05-09 |

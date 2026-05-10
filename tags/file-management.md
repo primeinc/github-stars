@@ -1,11 +1,13 @@
 # Tag: file-management
 
-*9 repositories*
+*11 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [changesets/ghcommit](https://github.com/changesets/ghcommit) | Type Script library for directly changing files on Git Hub | `TypeScript` ★ 17 | 2026-01-27 |
+| [11happy/cpx](https://github.com/11happy/cpx) | cp reimagined | `Rust` ★ 423 | 2026-03-06 |
 | [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) | :file\_folder: File Management Platform / Universal Data Access Gateway (without FUSE) | `Go` ★ 14.2k | 2026-05-08 |
 | [simulot/immich-go](https://github.com/simulot/immich-go) | An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives. | `Go` ★ 6.1k | 2026-03-02 |
 | [sxyazi/yazi](https://github.com/sxyazi/yazi) | 💥 Blazing fast terminal file manager written in Rust, based on async I/O. | `Rust` ★ 37.9k | 2026-05-09 |

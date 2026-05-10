@@ -1,6 +1,6 @@
 # Desktop-dev
 
-*202 repositories*
+*216 repositories*
 
 [← Back to Index](../README.md)
 
@@ -23,7 +23,19 @@
 | [epixoul/Inkoray-GUI](https://github.com/epixoul/Inkoray-GUI) | A GUI/cmd base software to control any type of printer (laser, inkjet, thermal, POS, etc.) and create custom templates and patterns! | ★ 2 | 2025-01-24 |
 | [milliytech/printer-service](https://github.com/milliytech/printer-service) | 🔵Python-based service to scan, copy, and print documents with configurable printer settings. | `Python` ★ 3 | 2025-05-06 |
 | [Yayi-Dev/esc-pos-printer-manager](https://github.com/Yayi-Dev/esc-pos-printer-manager) | A plugin to manage ESC/POS printers via node.js (javascript / typescript) without using zadig (Win USBDriver) | `PHP` ★ 9 | 2024-07-29 |
-| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, Open Code & Gemini CLI. | `Rust` ★ 65.3k | 2026-05-09 |
+| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | `TypeScript` ★ 43.8k | 2026-05-10 |
+| [readest/readest](https://github.com/readest/readest) | Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience. | `TypeScript` ★ 20.4k | 2026-05-09 |
+| [Wells-the-Doctor/leaxer](https://github.com/Wells-the-Doctor/leaxer) | 🌟 Build and deploy local AI models with Leaxer for real-time interaction, streamlined document generation, and versatile visual processing capabilities. | `Elixir` ★ 1 | 2026-05-10 |
+| [Ak-sys-sh/qwen3-tts-apple-silicon](https://github.com/Ak-sys-sh/qwen3-tts-apple-silicon) | 🎤 Run Qwen3-TTS locally on Apple Silicon for offline AI text-to-speech, offering voice cloning and customization features without cloud reliance. | `Python` ★ 1 | 2026-05-10 |
+| [megakode/wallrus](https://github.com/megakode/wallrus) | Gnome (GTK4) application to generate colorful wallpapers based on gradients and different effects. | `Rust` ★ 58 | 2026-03-10 |
+| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 117k | 2026-05-10 |
+| [JosefNemec/Playnite](https://github.com/JosefNemec/Playnite) | Video game library manager with support for wide range of 3rd party libraries and game emulation support, providing one unified interface for your games. | `C#` ★ 13k | 2026-05-04 |
+| [unoplatform/uno](https://github.com/unoplatform/uno) | Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow... | `C#` ★ 9.9k | 2026-05-10 |
+| [Dimillian/CodexMonitor](https://github.com/Dimillian/CodexMonitor) | An app to monitor the (Codex) situation | `TypeScript` ★ 3.8k | 2026-03-26 |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, Open Code & Gemini CLI. | `Rust` ★ 65.4k | 2026-05-09 |
+| [vicinaehq/vicinae](https://github.com/vicinaehq/vicinae) | A focused launcher for your desktop - native, fast, extensible | `C++` ★ 7.5k | 2026-05-10 |
+| [streetwriters/notesnook](https://github.com/streetwriters/notesnook) | A fully open source & end-to-end encrypted note taking alternative to Evernote. | `TypeScript` ★ 14k | 2026-05-08 |
+| [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 5.5k | 2026-05-09 |
 | [File-New-Project/EarTrumpet](https://github.com/File-New-Project/EarTrumpet) | Ear Trumpet - Volume Control for Windows | `C#` ★ 11k | 2026-05-10 |
 | [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications. | `C#` ★ 4.7k | 2026-05-10 |
 | [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) | Open Video Downloader - A cross-platform GUI for youtube-dl made in Rust with Tauri and Vue + Typescript. | `Rust` ★ 8.2k | 2026-05-08 |
@@ -35,7 +47,7 @@
 | [cyanfish/naps2](https://github.com/cyanfish/naps2) | Scan documents to PDF and more, as simply as possible. | `C#` ★ 4.2k | 2025-10-18 |
 | [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | The Git Butler version control client, backed by Git, powered by Tauri/Rust/Svelte | `Rust` ★ 20.8k | 2026-05-10 |
 | [Lulzx/zpdf](https://github.com/Lulzx/zpdf) | Zero-copy PDF text extraction library written in Zig. High-performance, memory-mapped parsing with SIMD acceleration. | `Zig` ★ 901 | 2026-03-01 |
-| [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | Play Station 4 emulator for Windows, Linux and mac OS written in C++ | `C++` ★ 31.1k | 2026-05-09 |
+| [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | Play Station 4 emulator for Windows, Linux and mac OS written in C++ | `C++` ★ 31.1k | 2026-05-10 |
 | [cemu-project/Cemu](https://github.com/cemu-project/Cemu) | Cemu - Wii U emulator | `C++` ★ 9.3k | 2026-05-09 |
 | [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 30.4k | 2026-05-07 |
 | [tixl3d/tixl](https://github.com/tixl3d/tixl) | Ti XL is an open source software to create realtime motion graphics. | `C#` ★ 4.9k | 2026-05-02 |
@@ -52,6 +64,7 @@
 | [huynhsontung/Screenbox](https://github.com/huynhsontung/Screenbox) | Lib VLC-based media player for the Universal Windows Platform | `C#` ★ 3.5k | 2026-05-09 |
 | [leukipp/touchkio](https://github.com/leukipp/touchkio) | Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display. | `JavaScript` ★ 1.3k | 2026-04-17 |
 | [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 35.6k | 2026-05-09 |
+| [Sylinko/Everywhere](https://github.com/Sylinko/Everywhere) | Context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools. | `C#` ★ 5.9k | 2026-05-10 |
 | [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop\_computer: :camera\_flash: | `C++` ★ 29.9k | 2026-05-07 |
 | [astrofox-io/astrofox](https://github.com/astrofox-io/astrofox) | Astrofox is a motion graphics program that lets you turn audio into amazing videos. | `TypeScript` ★ 1.9k | 2026-05-05 |
 | [longbridge/gpui-component](https://github.com/longbridge/gpui-component) | Rust GUI components for building fantastic cross-platform desktop application by using GPUI. | `Rust` ★ 11.4k | 2026-05-08 |
@@ -82,6 +95,7 @@
 | [0x7c13/Notepads](https://github.com/0x7c13/Notepads) | A modern, lightweight text editor with a minimalist design. | `C#` ★ 10k | 2026-04-20 |
 | [lepoco/wpfui](https://github.com/lepoco/wpfui) | WPF UI provides the Fluent experience in your known and loved WPF framework. Intuitive design, themes, navigation and new immersive controls. All natively and effortlessly. | `C#` ★ 9.4k | 2026-05-04 |
 | [unchihugo/FluentFlyout](https://github.com/unchihugo/FluentFlyout) | The modern Flyout app for Windows 11, built with Fluent 2 Design principles. Media Flyouts, Taskbar Widgets and more. | `C#` ★ 2.7k | 2026-05-08 |
+| [ErsatzTV/legacy](https://github.com/ErsatzTV/legacy) | Open-source platform that transforms your personal media library into live, custom TV channels. | `C#` ★ 2.8k | 2026-05-06 |
 | [glzr-io/glazewm](https://github.com/glzr-io/glazewm) | Glaze WM is a tiling window manager for Windows inspired by i3wm. | `Rust` ★ 12k | 2026-04-22 |
 | [primeinc/Files](https://github.com/primeinc/Files) | Building the best File Manager for Windows | `C#` ★ 1 | 2025-09-08 |
 | [ashesbloom/LocalLens](https://github.com/ashesbloom/LocalLens) | Local Lens is a privacy-first, AI-powered photo organizer for your PC. Sort and group photos by faces, dates, and locations—all locally, with no cloud upload. Enjoy a modern, intuitive UI and keep ... | `CSS` ★ 117 | 2026-04-30 |
@@ -96,7 +110,7 @@
 | [Tichau/FileConverter](https://github.com/Tichau/FileConverter) | File Converter is a very simple tool which allows you to convert and compress files using the context menu in windows explorer. | `C#` ★ 14.3k | 2026-02-27 |
 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | The open-source Cap Cut alternative | `TypeScript` ★ 48.9k | 2026-05-06 |
 | [Xanashi/Icaros](https://github.com/Xanashi/Icaros) | Official issue tracker and download location for Icaros Shell Extensions | ★ 1.5k | 2026-04-02 |
-| [harmonoid/harmonoid](https://github.com/harmonoid/harmonoid) | 🎵 Plays & manages your music library. Looks beautiful & juicy. Available for Windows, GNU/Linux, mac OS & Android. | `Dart` ★ 4.5k | 2026-03-21 |
+| [harmonoid/harmonoid](https://github.com/harmonoid/harmonoid) | 🎵 Plays & manages your music library. Looks beautiful & juicy. Available for Windows, GNU/Linux, mac OS & Android. | `Dart` ★ 4.6k | 2026-03-21 |
 | [TinosNitso/mpv-scripts](https://github.com/TinosNitso/mpv-scripts) | For mpv & SMPlayer. Windows, Linux, Mac OS & Android. You Tube, MP4, MP3, JPEG, etc. Multi-stereo speed randomization & tri-color clocks (aspeed.lua); cropping, start/end limits & aspect randomizat... | `Lua` ★ 17 | 2024-10-05 |
 | [pdfforge/PDFCreator](https://github.com/pdfforge/PDFCreator) | PDFCreator - The free PDF Converter | `C#` ★ 331 | 2025-07-22 |
 | [mbrlabs/Lorien](https://github.com/mbrlabs/Lorien) | Infinite canvas drawing/whiteboarding app for Windows, Linux and mac OS. Made with Godot. | `GDScript` ★ 6.6k | 2025-09-22 |

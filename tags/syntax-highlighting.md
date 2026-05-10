@@ -1,11 +1,12 @@
 # Tag: syntax-highlighting
 
-*5 repositories*
+*6 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [rtfpessoa/diff2html](https://github.com/rtfpessoa/diff2html) | Pretty diff to html javascript library (diff2html) | `TypeScript` ★ 3.4k | 2026-05-08 |
 | [sharkdp/bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | `Rust` ★ 58.8k | 2026-05-09 |
 | [jdorn/sql-formatter](https://github.com/jdorn/sql-formatter) | A lightweight php class for formatting sql statements. Handles automatic indentation and syntax highlighting. | `HTML` ★ 3.9k | 2023-05-26 |
 | [dbcli/mycli](https://github.com/dbcli/mycli) | A Terminal Client for My SQL with Auto Completion and Syntax Highlighting. | `Python` ★ 11.9k | 2026-05-08 |

@@ -1,11 +1,14 @@
 # Documentation
 
-*152 repositories*
+*187 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [rdmgator12/awesome-claude-connectors](https://github.com/rdmgator12/awesome-claude-connectors) | A comprehensive directory of every connector in Anthropic's official Claude Connectors Directory — 343 verified MCP integrations, organized by category with descriptions and use cases. | ★ 8 | 2026-05-09 |
+| [docs/custom-agents-template](https://github.com/docs/custom-agents-template) | A template repository for enterprise and organization-level Copilot custom agents. | ★ 40 | 2025-10-31 |
+| [sverweij/dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | Validate and visualize dependencies. Your rules. Java Script, Type Script, Coffee Script. ES6, Common JS, AMD. | `JavaScript` ★ 6.6k | 2026-05-02 |
 | [omachala/heroshot](https://github.com/omachala/heroshot) | Screenshot automation framework. Define once, regenerate forever. Visual picker, multi-viewport, light/dark mode, CI-ready. | `TypeScript` ★ 45 | 2026-04-12 |
 | [cisagov/kev-data](https://github.com/cisagov/kev-data) | Mirror of cisa.gov/kev data files | ★ 87 | 2026-05-08 |
 | [mdx-js/mdx](https://github.com/mdx-js/mdx) | Markdown for the component era | `JavaScript` ★ 19.5k | 2026-05-07 |
@@ -15,16 +18,46 @@
 | [OWASP/wstg](https://github.com/OWASP/wstg) | The Web Security Testing Guide is a comprehensive Open Source guide to testing the security of web applications and web services. | ★ 9.2k | 2026-04-24 |
 | [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) | :white\_check\_mark: The Node.js best practices list (July 2024) | `Dockerfile` ★ 105.3k | 2025-04-15 |
 | [adamfowlerit/msportals.io](https://github.com/adamfowlerit/msportals.io) | MSPortals.io - Microsoft Administrator Sites, Training, and Licensing Resources | `HTML` ★ 325 | 2026-05-02 |
-| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | from vibe coding to agentic engineering - practice makes claude perfect | `HTML` ★ 52k | 2026-05-09 |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | from vibe coding to agentic engineering - practice makes claude perfect | `HTML` ★ 52.1k | 2026-05-09 |
 | [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos) | A collection of Microsoft cloud product logos | `Python` ★ 241 | 2026-04-28 |
 | [antfu/vscode-file-nesting-config](https://github.com/antfu/vscode-file-nesting-config) | Config of File Nesting for VS Code | `JavaScript` ★ 3.6k | 2026-04-20 |
+| [FedRAMP/roadmap](https://github.com/FedRAMP/roadmap) | Fed RAMP's Public High Level Roadmap | `Shell` ★ 26 | 2026-02-02 |
+| [cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vaults MCP server - read, write, search, and surgically edit notes, tags, and frontmatter via the Local REST API plugin. | `TypeScript` ★ 499 | 2026-05-09 |
+| [arabold/docs-mcp-server](https://github.com/arabold/docs-mcp-server) | Grounded Docs MCP Server: Open-Source Alternative to Context7, Nia, and Ref.Tools | `TypeScript` ★ 1.3k | 2026-04-26 |
+| [Azure/PSDocs.Azure](https://github.com/Azure/PSDocs.Azure) | Generate documentation from Azure infrastructure as code (Ia C) artifacts. | `C#` ★ 66 | 2026-05-02 |
+| [rasendubi/uniorg](https://github.com/rasendubi/uniorg) | An accurate Org-mode parser for Java Script/Type Script | `TypeScript` ★ 325 | 2026-04-25 |
+| [PoiScript/orgize](https://github.com/PoiScript/orgize) | A Rust library for parsing org-mode files. | `Rust` ★ 335 | 2025-01-27 |
+| [thoqbk/traprange](https://github.com/thoqbk/traprange) | (Java)A Method to Extract Tabular Content from PDF Files | `HTML` ★ 339 | 2023-04-22 |
+| [glayzzle/php-parser](https://github.com/glayzzle/php-parser) | :herb: Node JS PHP Parser - extract AST or tokens | `JavaScript` ★ 562 | 2026-05-09 |
+| [rsms/markdown-wasm](https://github.com/rsms/markdown-wasm) | Very fast Markdown parser and HTML generator implemented in Web Assembly, based on md4c | `C` ★ 1.7k | 2022-11-22 |
+| [vue-styleguidist/vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) | Created from react styleguidist for Vue Components with a living style guide | `TypeScript` ★ 2.5k | 2026-05-06 |
+| [microsoft/tsdoc](https://github.com/microsoft/tsdoc) | A doc comment standard for Type Script | `TypeScript` ★ 5k | 2026-03-31 |
+| [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) | 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more... | `Python` ★ 27.4k | 2026-04-24 |
+| [k1LoW/tbls](https://github.com/k1LoW/tbls) | tbls is a CI-Friendly tool to document a database, written in Go. | `Go` ★ 4.2k | 2026-05-08 |
+| [AgentAlphaAGI/Idea2Paper](https://github.com/AgentAlphaAGI/Idea2Paper) | Idea2Paper Offical Demo | `Python` ★ 1.3k | 2026-03-24 |
+| [s1t5/mail-archiver](https://github.com/s1t5/mail-archiver) | Mail-Archiver is a web application for archiving, searching, and exporting emails from multiple accounts. Featuring folder sync, attachment support, mailbox migration and a dashboard. | `C#` ★ 1.9k | 2026-05-08 |
+| [LogicLabs-OU/OpenArchiver](https://github.com/LogicLabs-OU/OpenArchiver) | An open-source platform for legally compliant email archiving. | `TypeScript` ★ 2k | 2026-04-16 |
+| [jsuto/piler](https://github.com/jsuto/piler) | Email archiving application | `PHP` ★ 309 | 2026-04-25 |
+| [SchwarziLukas/braindump-butler](https://github.com/SchwarziLukas/braindump-butler) | Turns brain dumps and meeting notes into tidy Markdown notes for your Obsidian Vault. | `Python` ★ 54 | 2026-02-05 |
+| [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | :iphone: Collaborative List of Open-Source i OS Apps | ★ 50.2k | 2026-05-09 |
+| [microsoft/zerotrustassessment](https://github.com/microsoft/zerotrustassessment) | Repository for the Zero Trust Assessment project | `HTML` ★ 336 | 2026-05-09 |
+| [kodepandai/awesome-gh-cli-extensions](https://github.com/kodepandai/awesome-gh-cli-extensions) | Awesome list of github cli extensions. | `HTML` ★ 421 | 2026-05-07 |
+| [bbmumford/Intune-Toolkit](https://github.com/bbmumford/Intune-Toolkit) | my personal collection of scripts & guides to configuring a standard enterprise Intune enviroment. | `Opal` ★ 74 | 2026-01-09 |
+| [merill/awesome-entra](https://github.com/merill/awesome-entra) | 😎 Awesome list of all things related to Microsoft Entra | ★ 746 | 2025-09-01 |
+| [project-open-data/project-open-data.github.io](https://github.com/project-open-data/project-open-data.github.io) | Open Data Policy — Managing Information as an Asset | `HTML` ★ 1.5k | 2024-08-19 |
+| [18F/development-guide](https://github.com/18F/development-guide) | A set of guidelines and best practices for an awesome software engineering team | `HTML` ★ 1.4k | 2024-03-19 |
+| [dustinspecker/awesome-eslint](https://github.com/dustinspecker/awesome-eslint) | A list of awesome ESLint plugins, configs, etc. | ★ 4.7k | 2026-04-26 |
+| [cursor/agent-trace](https://github.com/cursor/agent-trace) | A standard format for tracing AI-generated code. | `TypeScript` ★ 712 | 2026-02-06 |
+| [ITContractorsUnion/ITContractorsUnion](https://github.com/ITContractorsUnion/ITContractorsUnion) | Repo For All Downloadable Data | `HTML` ★ 125 | 2026-03-07 |
 | [workflowr/workflowr](https://github.com/workflowr/workflowr) | Organize your project into a research website | `R` ★ 893 | 2025-08-19 |
 | [endoflife-date/endoflife.date](https://github.com/endoflife-date/endoflife.date) | Informative site with Eo L dates of everything | `Ruby` ★ 3.3k | 2026-05-10 |
+| [architecture-decision-record/architecture-decision-record](https://github.com/architecture-decision-record/architecture-decision-record) | Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation | ★ 15.8k | 2026-05-08 |
 | [Simon-He95/markdown-it-ts](https://github.com/Simon-He95/markdown-it-ts) | A modern, type-safe rewrite of markdown-it in Type Script: pluggable rules, split parse/render, Common Mark-compatible; fast one-shot parsing and even faster streaming/incremental updates. | `TypeScript` ★ 141 | 2026-03-20 |
 | [markdown-it/markdown-it](https://github.com/markdown-it/markdown-it) | Markdown parser, done right. 100% Common Mark support, extensions, syntax plugins & high speed | `JavaScript` ★ 21.4k | 2026-03-26 |
 | [davis7dotsh/better-context](https://github.com/davis7dotsh/better-context) | A better way to get up to date context on libraries/technologies in your projects | `TypeScript` ★ 1.1k | 2026-04-12 |
 | [EssexRich/ThreatActors-TTPs](https://github.com/EssexRich/ThreatActors-TTPs) | Repository created to share information about tactics, techniques and procedures used by threat actors. Initially with ransomware groups and evolving to other types of threats. | `JavaScript` ★ 47 | 2026-05-10 |
 | [DoIT-Artificial-Intelligence/youtube-to-docs](https://github.com/DoIT-Artificial-Intelligence/youtube-to-docs) | Convert You Tube videos into structured docs, summaries, audio, and visual assets for easier discovery. | `Python` ★ 45 | 2026-05-03 |
+| [pedronauck/docz](https://github.com/pedronauck/docz) | ✍ It has never been so easy to document your things! | `TypeScript` ★ 23.6k | 2025-11-21 |
 | [shadawck/awesome-cli-frameworks](https://github.com/shadawck/awesome-cli-frameworks) | Collection of tools to build beautiful command line interface in different languages | `HTML` ★ 1.2k | 2024-09-27 |
 | [memvid/awesome-memvid](https://github.com/memvid/awesome-memvid) | A curated list of awesome resources related to Memvid | ★ 10 | 2026-01-13 |
 | [MicrosoftDocs/azure-monitor-docs](https://github.com/MicrosoftDocs/azure-monitor-docs) | Open source documentation repository for Azure monitor-related services. All content in this repository is published to learn.microsoft.com. | ★ 23 | 2026-05-09 |
@@ -81,6 +114,7 @@
 | [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) | 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2024 | `TypeScript` ★ 21.4k | 2026-02-28 |
 | [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | A curated list of awesome READMEs | ★ 20.9k | 2026-04-26 |
 | [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page\_facing\_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 27.5k | 2026-03-13 |
+| [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | 😎 A curated list of awesome Git Hub Profile which updates in real time | ★ 29.9k | 2026-03-03 |
 | [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar\_board: | ★ 82.4k | 2024-07-29 |
 | [openstates/openstates-scrapers](https://github.com/openstates/openstates-scrapers) | source for Open States scrapers | `Python` ★ 898 | 2026-05-09 |
 | [microsoft/poml](https://github.com/microsoft/poml) | Prompt Orchestration Markup Language | `TypeScript` ★ 4.9k | 2026-01-14 |
@@ -100,13 +134,14 @@
 | [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) | ⚡️ A curated list of awesome things related to Vite.js | `JavaScript` ★ 17.1k | 2026-02-04 |
 | [jujumilk3/leaked-system-prompts](https://github.com/jujumilk3/leaked-system-prompts) | Collection of leaked system prompts | ★ 14.6k | 2026-03-30 |
 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | A list of Saa S, Paa S and Iaa S offerings that have free tiers of interest to devops and infradev | `HTML` ★ 121.8k | 2026-05-09 |
+| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | Interactive roadmaps, guides and other educational content to help developers grow in their careers. | `TypeScript` ★ 354.5k | 2026-05-09 |
 | [iamgio/quarkdown](https://github.com/iamgio/quarkdown) | 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases. | `Kotlin` ★ 13.9k | 2026-05-06 |
 | [nathanbuchar/audubon-bird-plates-for-supernote](https://github.com/nathanbuchar/audubon-bird-plates-for-supernote) | All 435 illustrations of John James Audubon's Birds of America adapted for use as screensavers on the Supernote and other similar e-ink tablets. | ★ 42 | 2022-01-09 |
 | [lnenad/newser](https://github.com/lnenad/newser) | Newser is a simple utility to generate a pdf with you favorite news articles | `Go` ★ 92 | 2024-08-23 |
 | [philips/supernote-obsidian-plugin](https://github.com/philips/supernote-obsidian-plugin) | Supernote A5, A5X, A6X, A6X2 (Nomad), and A5X2 (Manta) integration for Obsidian. Generate markdown, capture screen mirror, and more. | `TypeScript` ★ 295 | 2025-11-21 |
 | [TA1312/supernote-a5x](https://github.com/TA1312/supernote-a5x) | various security information on the supernote a5x | `Batchfile` ★ 133 | 2022-12-07 |
 | [Azure/arc_jumpstart_docs](https://github.com/Azure/arc_jumpstart_docs) | A public repo for hosting the Arc Jumpstart docs | `Python` ★ 53 | 2026-03-12 |
-| [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | 📄 Configuration files that enhance Cursor AI editor experience with custom rules and behaviors | `MDX` ★ 39.4k | 2026-05-05 |
+| [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | 📄 Configuration files that enhance Cursor AI editor experience with custom rules and behaviors | `MDX` ★ 39.5k | 2026-05-05 |
 | [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) | \[WIP\] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025) | `Jupyter Notebook` ★ 15.6k | 2025-02-12 |
 | [tauri-apps/tauri-docs](https://github.com/tauri-apps/tauri-docs) | The source for all Tauri project documentation. | `MDX` ★ 1.1k | 2026-05-10 |
 | [heroku/12factor](https://github.com/heroku/12factor) | No description provided | `CSS` ★ 3.8k | 2026-04-26 |

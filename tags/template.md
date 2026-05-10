@@ -1,11 +1,12 @@
 # Tag: template
 
-*9 repositories*
+*10 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [docs/custom-agents-template](https://github.com/docs/custom-agents-template) | A template repository for enterprise and organization-level Copilot custom agents. | ★ 40 | 2025-10-31 |
 | [julianromli/opencode-template](https://github.com/julianromli/opencode-template) | opencode-template | `Python` ★ 140 | 2026-02-03 |
 | [fregante/browser-extension-template](https://github.com/fregante/browser-extension-template) | 📕 Barebones boilerplate with Parcel 2, options handler and auto-publishing | `JavaScript` ★ 845 | 2025-02-03 |
 | [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) | Clean Architecture Solution Template for ASP.NET Core | `C#` ★ 20k | 2026-05-08 |

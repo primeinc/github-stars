@@ -1,6 +1,6 @@
 # Tag: cross-platform
 
-*35 repositories*
+*39 repositories*
 
 [← Back to Index](../README.md)
 
@@ -10,6 +10,10 @@
 | [dail8859/NotepadNext](https://github.com/dail8859/NotepadNext) | A cross-platform, reimplementation of Notepad++ | `C++` ★ 14.1k | 2026-05-10 |
 | [koodo-reader/koodo-reader](https://github.com/koodo-reader/koodo-reader) | A modern ebook manager and reader with sync and backup capacities for Windows, mac OS, Linux, Android, i OS and Web | `JavaScript` ★ 26.8k | 2026-05-10 |
 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | A cross-platform, Open GL terminal emulator. | `Rust` ★ 64k | 2026-05-02 |
+| [shihan84/obs-profile-generator](https://github.com/shihan84/obs-profile-generator) | A comprehensive, self-hosted OBS Studio profile generator that works across Windows, Linux, and mac OS. Create custom OBS Studio profiles with an intuitive web interface, preset templates, and cros... | `TypeScript` ★ 4 | 2025-09-08 |
+| [sindresorhus/open](https://github.com/sindresorhus/open) | Open stuff like URLs, files, executables. Cross-platform. | `JavaScript` ★ 3.5k | 2025-11-15 |
+| [readest/readest](https://github.com/readest/readest) | Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience. | `TypeScript` ★ 20.4k | 2026-05-09 |
+| [unoplatform/uno](https://github.com/unoplatform/uno) | Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow... | `C#` ★ 9.9k | 2026-05-10 |
 | [cjpais/Handy](https://github.com/cjpais/Handy) | A free, open source, and extensible speech-to-text application that works completely offline. | `Rust` ★ 21.4k | 2026-04-30 |
 | [sxyazi/yazi](https://github.com/sxyazi/yazi) | 💥 Blazing fast terminal file manager written in Rust, based on async I/O. | `Rust` ★ 37.9k | 2026-05-09 |
 | [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 30.4k | 2026-05-07 |

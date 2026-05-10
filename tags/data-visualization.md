@@ -1,12 +1,14 @@
 # Tag: data-visualization
 
-*6 repositories*
+*8 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/data-formulator](https://github.com/microsoft/data-formulator) | 🪄 Create rich visualizations with AI | `TypeScript` ★ 15.3k | 2026-05-09 |
+| [d3/d3](https://github.com/d3/d3) | Bring data to life with SVG, Canvas and HTML. :bar\_chart::chart\_with\_upwards\_trend::tada: | `Shell` ★ 112.9k | 2025-12-02 |
+| [visgl/react-map-gl](https://github.com/visgl/react-map-gl) | React friendly API wrapper around Mapbox GL JS | `TypeScript` ★ 8.5k | 2026-04-11 |
+| [microsoft/data-formulator](https://github.com/microsoft/data-formulator) | 🪄 Create rich visualizations with AI | `TypeScript` ★ 15.3k | 2026-05-10 |
 | [apache/superset](https://github.com/apache/superset) | Apache Superset is a Data Visualization and Data Exploration Platform | `TypeScript` ★ 72.8k | 2026-05-10 |
 | [datavzrd/datavzrd](https://github.com/datavzrd/datavzrd) | A tool to create visual HTML reports from collections of CSV/TSV tables | `Rust` ★ 676 | 2026-05-04 |
 | [Eric-Chung-0511/Learning-Record](https://github.com/Eric-Chung-0511/Learning-Record) | Empowering Data Driven insights through hands-on projects, SQL challenges and practical tools. | `Jupyter Notebook` ★ 24 | 2026-03-07 |

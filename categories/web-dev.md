@@ -1,6 +1,6 @@
 # Web-dev
 
-*315 repositories*
+*370 repositories*
 
 [← Back to Index](../README.md)
 
@@ -37,6 +37,53 @@
 | [dot-billy/nodebyte](https://github.com/dot-billy/nodebyte) | Nodebyte - your digital inventory | `TypeScript` ★ 40 | 2026-05-03 |
 | [sergelib/sitemap-visualizer](https://github.com/sergelib/sitemap-visualizer) | An interactive D3.js visualization tool to explore XML sitemaps as navigable tree and sunburst hierarchies | `JavaScript` ★ 2 | 2026-01-28 |
 | [node-config/node-config](https://github.com/node-config/node-config) | Node.js Application Configuration | `JavaScript` ★ 6.4k | 2026-04-03 |
+| [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio) | A lightweight Node.js private proxy registry | `TypeScript` ★ 17.6k | 2026-05-10 |
+| [InsForge/InsForge](https://github.com/InsForge/InsForge) | The all-in-one, open-source backend platform for agentic coding. Ins Forge gives your coding agent database, auth, storage, compute, hosting, and AI gateway to ship full-stack apps end-to-end. | `TypeScript` ★ 9.3k | 2026-05-10 |
+| [shihan84/obs-profile-generator](https://github.com/shihan84/obs-profile-generator) | A comprehensive, self-hosted OBS Studio profile generator that works across Windows, Linux, and mac OS. Create custom OBS Studio profiles with an intuitive web interface, preset templates, and cros... | `TypeScript` ★ 4 | 2025-09-08 |
+| [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro) | Gradio Web UI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, Cosy Voice), with Whisper audio processing, You Tube download, Demucs vocal... | `Python` ★ 9.4k | 2025-12-05 |
+| [talin190/Qwen3-TTS-Daggr-UI](https://github.com/talin190/Qwen3-TTS-Daggr-UI) | 🎤 Create dynamic voice experiences with Qwen3-TTS-Daggr-UI, a Gradio app for voice design, cloning, and speech recognition across multiple languages. | `Python` ★ 3 | 2026-05-10 |
+| [clowerweb/kitten-tts-web-demo](https://github.com/clowerweb/kitten-tts-web-demo) | Kitten TTS web demo using tansformers.js | `JavaScript` ★ 93 | 2025-08-13 |
+| [t3dotgg/stripe-recommendations](https://github.com/t3dotgg/stripe-recommendations) | How to implement Stripe without going mad | ★ 6.3k | 2025-02-07 |
+| [clusterzx/ts6-manager](https://github.com/clusterzx/ts6-manager) | Web-based management interface for Team Speak servers | `TypeScript` ★ 116 | 2026-03-28 |
+| [vivienhenz24/fuzzy-canary](https://github.com/vivienhenz24/fuzzy-canary) | Poor-man's solution to stopping AI companies from scraping your blog | `TypeScript` ★ 269 | 2025-12-19 |
+| [shaka-project/shaka-packager](https://github.com/shaka-project/shaka-packager) | A media packaging and development framework for VOD and Live DASH and HLS applications, supporting Common Encryption for Widevine and other DRM Systems. | `C++` ★ 2.5k | 2026-05-07 |
+| [rollup/rollup](https://github.com/rollup/rollup) | Next-generation ES module bundler | `JavaScript` ★ 26.3k | 2026-05-10 |
+| [Azgaar/Fantasy-Map-Generator](https://github.com/Azgaar/Fantasy-Map-Generator) | Web application generating interactive and highly customizable maps | `JavaScript` ★ 5.6k | 2026-05-08 |
+| [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | Tool Jet is the open-source foundation of Tool Jet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀 | `JavaScript` ★ 37.9k | 2026-05-09 |
+| [AzureAD/microsoft-identity-web](https://github.com/AzureAD/microsoft-identity-web) | Helps creating protected web apps and web APIs with Microsoft identity platform and Azure AD B2C | `C#` ★ 779 | 2026-05-09 |
+| [wxt-dev/wxt](https://github.com/wxt-dev/wxt) | ⚡ Next-gen Web Extension Framework | `TypeScript` ★ 9.8k | 2026-05-08 |
+| [memvid/design-memory](https://github.com/memvid/design-memory) | Extract and reproduce design systems from any website using deterministic analysis and LLM interpretation. | `TypeScript` ★ 125 | 2026-02-15 |
+| [andrelandgraf/fullstackrecipes](https://github.com/andrelandgraf/fullstackrecipes) | A Shadcn registry and collection of production-ready patterns and step-by-step guides (recipes) for full stack web AI apps | `TypeScript` ★ 14 | 2026-03-30 |
+| [mcp-router/mcp-router](https://github.com/mcp-router/mcp-router) | A Unified MCP Server Management App (MCP Manager). | `TypeScript` ★ 2k | 2026-01-24 |
+| [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. | `Python` ★ 347.6k | 2026-03-20 |
+| [HKUDS/MoChat](https://github.com/HKUDS/MoChat) | "Mo Chat: Open Claw as Your Social Agent https://mochat.io" | `TypeScript` ★ 221 | 2026-02-12 |
+| [kinhunt/mcpdog](https://github.com/kinhunt/mcpdog) | 🐕 Universal MCP Server Manager - Configure once, manage multiple MCP servers through a single interface. Perfect for Claude Desktop, Claude Code, Cursor, Gemini CLI & AI assistants. Web dashboard,... | `TypeScript` ★ 18 | 2025-10-19 |
+| [ninenines/cowlib](https://github.com/ninenines/cowlib) | Support library for manipulating Web protocols. | `Erlang` ★ 292 | 2026-05-05 |
+| [rasendubi/uniorg](https://github.com/rasendubi/uniorg) | An accurate Org-mode parser for Java Script/Type Script | `TypeScript` ★ 325 | 2026-04-25 |
+| [aykutkardas/svgps.app](https://github.com/aykutkardas/svgps.app) | SVGPS converts your icons into a single JSON file that is ready to use in your frontend or mobile projects. | `TypeScript` ★ 321 | 2026-02-17 |
+| [g-plane/typed-query-selector](https://github.com/g-plane/typed-query-selector) | Better typed \`query Selector\` and \`query Selector All\`. | `TypeScript` ★ 780 | 2026-05-09 |
+| [meriyah/meriyah](https://github.com/meriyah/meriyah) | A 100% compliant, self-hosted javascript parser - https://meriyah.github.io/meriyah | `TypeScript` ★ 1.2k | 2026-05-01 |
+| [webtoon/psd](https://github.com/webtoon/psd) | Fast zero-dependency PSD parser for the web and Node.js | `TypeScript` ★ 1.3k | 2024-02-05 |
+| [prag-matt-ic/ps5-inspired-landing-page](https://github.com/prag-matt-ic/ps5-inspired-landing-page) | PS5 loading screen inspired showcase | `TypeScript` ★ 16 | 2025-03-25 |
+| [stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core) | Dev environments. In your web app. | ★ 4.6k | 2025-04-22 |
+| [stackblitz/bolt.new](https://github.com/stackblitz/bolt.new) | Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz | `TypeScript` ★ 16.4k | 2024-12-17 |
+| [Sunny-117/webcontainer-ide](https://github.com/Sunny-117/webcontainer-ide) | Web Container IDE is a production-ready, browser-based development environment that brings the full power of Node.js to your browser. Built on Stack Blitz's Web Container technology, it enables dev... | `TypeScript` ★ 8 | 2026-01-15 |
+| [tlsnotary/tlsn-extension](https://github.com/tlsnotary/tlsn-extension) | Chrome Extension for TLSNotary | `TypeScript` ★ 29 | 2026-05-08 |
+| [dialpad/dialtone](https://github.com/dialpad/dialtone) | The main repository for all of Dialpad's design system resources. | `JavaScript` ★ 14 | 2026-05-10 |
+| [LogicLabs-OU/OpenArchiver](https://github.com/LogicLabs-OU/OpenArchiver) | An open-source platform for legally compliant email archiving. | `TypeScript` ★ 2k | 2026-04-16 |
+| [HoppouAI/OctoBrowser](https://github.com/HoppouAI/OctoBrowser) | Built for the Copilot SDK Weekend Contest as a fun project. | `JavaScript` ★ 93 | 2026-03-25 |
+| [bvaughn/react-resizable-panels](https://github.com/bvaughn/react-resizable-panels) | No description provided | `TypeScript` ★ 5.2k | 2026-05-02 |
+| [mathuo/dockview](https://github.com/mathuo/dockview) | Zero dependency docking layout manager supporting tabs, groups, grids and splitviews. Supports React, Vue, Angular, and vanilla Type Script. | `TypeScript` ★ 3.2k | 2026-05-08 |
+| [cathrynlavery/wispr-flow-recap](https://github.com/cathrynlavery/wispr-flow-recap) | Beautiful activity recaps for Wispr Flow voice dictation | `JavaScript` ★ 5 | 2026-02-07 |
+| [merill/graph-permissions-explorer](https://github.com/merill/graph-permissions-explorer) | Repository for public site hosting graph permissions | `HTML` ★ 35 | 2026-05-10 |
+| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | `TypeScript` ★ 29.2k | 2026-05-09 |
+| [killnine/tanstack-msal-entra-troubleshooting](https://github.com/killnine/tanstack-msal-entra-troubleshooting) | Sample Application for Troubleshooting Authz Issues | `TypeScript` ★ 1 | 2026-02-04 |
+| [wet-boew/wet-boew](https://github.com/wet-boew/wet-boew) | Web Experience Toolkit (WET): Open source code library for building innovative websites that are accessible, usable, interoperable, mobile-friendly and multilingual. This collaborative open source ... | `Handlebars` ★ 1.7k | 2026-05-09 |
+| [codeforamerica/adopt-a-hydrant](https://github.com/codeforamerica/adopt-a-hydrant) | A web application that allows citizens to "adopt" civic infrastructure, such as fire hydrants that need to be shoveled out after it snows. | `Ruby` ★ 779 | 2023-09-26 |
+| [nasa/openmct](https://github.com/nasa/openmct) | A web based mission control framework. | `JavaScript` ★ 13k | 2026-05-08 |
+| [patrickhulce/third-party-web](https://github.com/patrickhulce/third-party-web) | Data on third party entities and their impact on the web. | `JavaScript` ★ 1.1k | 2026-05-05 |
+| [notclickable-jordan/starbase-80](https://github.com/notclickable-jordan/starbase-80) | A nice Docker homepage | `TypeScript` ★ 536 | 2025-10-18 |
+| [raphaelsty/knowledge](https://github.com/raphaelsty/knowledge) | Open-source personal bookmarks search engine | `Python` ★ 745 | 2026-04-30 |
 | [sdorra/content-collections](https://github.com/sdorra/content-collections) | Transform your content into type-safe data collections | `TypeScript` ★ 1.1k | 2026-04-25 |
 | [get-convex/convex-saas](https://github.com/get-convex/convex-saas) | A production-ready Convex Stack for your next Saa S application with Convex Auth, Stripe, Tan Stack, Resend, Tailwindcss, and shadcn. | `TypeScript` ★ 358 | 2026-05-02 |
 | [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja) | The to-do app to organize your life. | `Go` ★ 4.2k | 2026-05-08 |
@@ -54,6 +101,7 @@
 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms | `Python` ★ 76.2k | 2026-04-03 |
 | [aagentah/nw_wrld](https://github.com/aagentah/nw_wrld) | nw\_wrld is an event-driven sequencer for triggering visuals using web technologies. It enables users to scale up audiovisual compositions for prototyping, demos, exhibitions, and live performances.... | `TypeScript` ★ 2k | 2026-05-09 |
 | [suitenumerique/meet](https://github.com/suitenumerique/meet) | Open source video conferencing app powered by Live Kit. | `Python` ★ 2k | 2026-05-09 |
+| [tinyauthapp/tinyauth](https://github.com/tinyauthapp/tinyauth) | The tiniest authentication and authorization server you have ever seen. | `Go` ★ 7.3k | 2026-05-10 |
 | [m1k1o/neko](https://github.com/m1k1o/neko) | A self hosted virtual browser that runs in docker and uses Web RTC. | `Go` ★ 20.9k | 2026-05-08 |
 | [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie) | Mealie is a self hosted recipe manager and meal planner with a Rest API backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add reci... | `Python` ★ 12.2k | 2026-05-10 |
 | [usememos/memos](https://github.com/usememos/memos) | An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees. | `Go` ★ 59.5k | 2026-05-09 |
@@ -111,6 +159,7 @@
 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | LLM Frontend for Power Users. | `JavaScript` ★ 27.3k | 2026-05-05 |
 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best Chat GPT that $100 can buy. | `Python` ★ 53.2k | 2026-05-05 |
 | [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 🐬Deep Chat - A smart assistant that connects powerful AI to your personal world | `TypeScript` ★ 5.8k | 2026-05-09 |
+| [next-safe-action/next-safe-action](https://github.com/next-safe-action/next-safe-action) | Type safe and validated Server Actions in your Next.js project. | `TypeScript` ★ 3k | 2026-05-07 |
 | [vercel-labs/chatgpt-apps-sdk-nextjs-starter](https://github.com/vercel-labs/chatgpt-apps-sdk-nextjs-starter) | No description provided | `TypeScript` ★ 251 | 2025-12-12 |
 | [cheeriojs/cheerio](https://github.com/cheeriojs/cheerio) | The fast, flexible, and elegant library for parsing and manipulating HTML and XML. | `TypeScript` ★ 30.3k | 2026-05-08 |
 | [trpc/trpc](https://github.com/trpc/trpc) | 🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | `TypeScript` ★ 40.2k | 2026-05-08 |
@@ -133,14 +182,17 @@
 | [d2phap/fluent-reveal-effect](https://github.com/d2phap/fluent-reveal-effect) | Fluent Reveal Effect Java Script library for web | `TypeScript` ★ 225 | 2026-04-06 |
 | [gin-gonic/gin](https://github.com/gin-gonic/gin) | Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for ... | `Go` ★ 88.5k | 2026-05-09 |
 | [cmkap/realtime-dashboard](https://github.com/cmkap/realtime-dashboard) | Web Socket + real-time data visualisation project | `TypeScript` ★ 1 | 2025-08-13 |
+| [midday-ai/packrun](https://github.com/midday-ai/packrun) | npm for agents and humans | `TypeScript` ★ 3.8k | 2026-02-06 |
 | [midday-ai/midday](https://github.com/midday-ai/midday) | Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers | `TypeScript` ★ 14.2k | 2026-05-07 |
 | [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) | Clean Architecture Solution Template for ASP.NET Core | `C#` ★ 20k | 2026-05-08 |
 | [bigcapitalhq/bigcapital](https://github.com/bigcapitalhq/bigcapital) | 💵 Bigcapital is financial accounting with intelligent reporting for faster decision-making, an open-source alternative to Quickbooks, Xero, etc. | `TypeScript` ★ 3.6k | 2026-04-27 |
 | [leaningtech/webvm](https://github.com/leaningtech/webvm) | Virtual Machine for the Web | `JavaScript` ★ 16.8k | 2026-05-07 |
 | [formatjs/formatjs](https://github.com/formatjs/formatjs) | The monorepo home to all of the Format JS related libraries, most notably react-intl. | `TypeScript` ★ 14.7k | 2026-05-10 |
+| [manaflow-ai/manaflow](https://github.com/manaflow-ai/manaflow) | Open source Claude Code web/Codex Cloud/Devin/Ramp Inspect alternative | `TypeScript` ★ 1k | 2026-05-09 |
 | [beefproject/beef](https://github.com/beefproject/beef) | The Browser Exploitation Framework Project | `JavaScript` ★ 10.8k | 2026-05-08 |
 | [vercel/swr](https://github.com/vercel/swr) | React Hooks for Data Fetching | `TypeScript` ★ 32.4k | 2026-04-17 |
 | [Gregivy/simpleddp](https://github.com/Gregivy/simpleddp) | An easy to use DDP client library | `JavaScript` ★ 167 | 2022-12-07 |
+| [ItzCrazyKns/Vane](https://github.com/ItzCrazyKns/Vane) | Vane is an AI-powered answering engine. | `TypeScript` ★ 34.3k | 2026-04-11 |
 | [vercel/platforms](https://github.com/vercel/platforms) | A full-stack Next.js app with multi-tenancy. | `TypeScript` ★ 6.7k | 2025-12-06 |
 | [Azure-Samples/remote-mcp-webapp-node](https://github.com/Azure-Samples/remote-mcp-webapp-node) | No description provided | `JavaScript` ★ 5 | 2026-02-14 |
 | [Ripple-TS/ripple](https://github.com/Ripple-TS/ripple) | the elegant Type Script UI framework | `JavaScript` ★ 7.3k | 2026-05-09 |
@@ -157,6 +209,7 @@
 | [xyflow/xyflow](https://github.com/xyflow/xyflow) | React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely cust... | `TypeScript` ★ 36.5k | 2026-05-06 |
 | [megh-bari/pattern-craft](https://github.com/megh-bari/pattern-craft) | Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration. | `TypeScript` ★ 2.9k | 2026-03-28 |
 | [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) | Authentication for the Web. | `TypeScript` ★ 28.2k | 2026-04-14 |
+| [calcom/cal.diy](https://github.com/calcom/cal.diy) | Scheduling infrastructure for absolutely everyone. | `TypeScript` ★ 42.4k | 2026-05-05 |
 | [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 31.2k | 2026-05-10 |
 | [openreplay/openreplay](https://github.com/openreplay/openreplay) | Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues and iterating on your product. | `TypeScript` ★ 12k | 2026-05-09 |
 | [Y2Z/monolith](https://github.com/Y2Z/monolith) | ⬛️ CLI tool and library for saving complete web pages as a single HTML file | `Rust` ★ 15.1k | 2026-05-01 |
@@ -177,6 +230,7 @@
 | [imskyleen/animate-ui](https://github.com/imskyleen/animate-ui) | Fully animated, open-source component distribution built with React, Type Script, Tailwind CSS, Motion, and Shadcn CLI. Browse a list of components you can install, modify, and use in your projects. | `TypeScript` ★ 3.6k | 2025-12-31 |
 | [Nachman-Libermensh/tanstack-form-playground](https://github.com/Nachman-Libermensh/tanstack-form-playground) | No description provided | `TypeScript` ★ 2 | 2025-06-18 |
 | [rizzui/rizzui](https://github.com/rizzui/rizzui) | 🎉 A Modern and Minimal React UI Library built with Tailwind CSS | `MDX` ★ 363 | 2026-04-29 |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | f.k.a. Awesome Chat GPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. | `HTML` ★ 161.9k | 2026-05-10 |
 | [Azure/communication-ui-library](https://github.com/Azure/communication-ui-library) | UI Library for Azure Communication Services helps developers build communication applications with ease. From turn-key composites to UI components that can be composited together. | `TypeScript` ★ 204 | 2026-02-26 |
 | [sxzz/rolldown-browser](https://github.com/sxzz/rolldown-browser) | Rolldown on Browser | `Vue` ★ 23 | 2025-05-17 |
 | [garethcheyne/PCF-FluentUi-AutoComplete-Boilerplate](https://github.com/garethcheyne/PCF-FluentUi-AutoComplete-Boilerplate) | No description provided | `TypeScript` ★ 12 | 2025-07-26 |
@@ -188,6 +242,7 @@
 | [Froren/realtorca](https://github.com/Froren/realtorca) | API wrapper for realtor.ca MLS website | `JavaScript` ★ 211 | 2022-06-11 |
 | [adrianhajdin/project_graphql_blog](https://github.com/adrianhajdin/project_graphql_blog) | With featured and recent posts, categories. full markdown articles, author information, comments, and much more, this fully responsive CMS Blog App is the best Blog Application that you can current... | `JavaScript` ★ 1.5k | 2023-10-15 |
 | [kriasoft/graphql-starter-kit](https://github.com/kriasoft/graphql-starter-kit) | 💥 Monorepo template (seed project) pre-configured with Graph QL API, Postgre SQL, React, and Joy UI. | `TypeScript` ★ 4k | 2024-11-10 |
+| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | "The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more | `TypeScript` ★ 83.4k | 2026-05-05 |
 | [MichalLytek/type-graphql](https://github.com/MichalLytek/type-graphql) | Create Graph QL schema and resolvers with Type Script, using classes and decorators! | `TypeScript` ★ 8.1k | 2026-04-03 |
 | [rescript-lang/rescript](https://github.com/rescript-lang/rescript) | Re Script is a robustly typed language that compiles to efficient and human-readable Java Script. | `ReScript` ★ 7.4k | 2026-05-09 |
 | [TryGhost/Ghost](https://github.com/TryGhost/Ghost) | Independent technology for modern publishing, memberships, subscriptions and newsletters. | `JavaScript` ★ 52.8k | 2026-05-09 |

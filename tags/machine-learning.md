@@ -1,6 +1,6 @@
 # Tag: machine-learning
 
-*20 repositories*
+*21 repositories*
 
 [← Back to Index](../README.md)
 
@@ -13,6 +13,7 @@
 | [Babyhamsta/Aimmy](https://github.com/Babyhamsta/Aimmy) | Universal Second Eye for Gamers with Impairments (Universal AI Aim Aligner (AI Aimbot) - ONNX/YOLOv8 - C#) | `C#` ★ 1.4k | 2026-01-20 |
 | [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) | The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement ... | `C#` ★ 19.4k | 2026-05-08 |
 | [NirantK/awesome-project-ideas](https://github.com/NirantK/awesome-project-ideas) | Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas | ★ 9.1k | 2023-03-13 |
+| [ItzCrazyKns/Vane](https://github.com/ItzCrazyKns/Vane) | Vane is an AI-powered answering engine. | `TypeScript` ★ 34.3k | 2026-04-11 |
 | [ByteDance-Seed/Bagel](https://github.com/ByteDance-Seed/Bagel) | Open-source unified multimodal model | `Python` ★ 5.9k | 2026-05-04 |
 | [photoprism/photoprism](https://github.com/photoprism/photoprism) | AI-Powered Photos App for the Decentralized Web 🌈💎✨ | `Go` ★ 39.6k | 2026-05-09 |
 | [ChanChiChoi/awesome-Face_Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition) | papers about Face Detection; Face Alignment; Face Recognition && Face Identification && Face Verification && Face Representation; Face Reconstruction; Face Tracking; Face Super-Resolution && Face D... | ★ 4.7k | 2023-02-09 |

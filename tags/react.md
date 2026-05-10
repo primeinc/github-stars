@@ -1,6 +1,6 @@
 # Tag: react
 
-*74 repositories*
+*82 repositories*
 
 [← Back to Index](../README.md)
 
@@ -11,8 +11,14 @@
 | [opral/paraglide-js](https://github.com/opral/paraglide-js) | Compiler-based i18n library that emits tree-shakable translations, leading to up to 70% smaller bundle sizes. | `TypeScript` ★ 400 | 2026-04-29 |
 | [outsourc-e/hermes-workspace](https://github.com/outsourc-e/hermes-workspace) | Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector. | `JavaScript` ★ 3.7k | 2026-05-08 |
 | [sunshineLixun/ShipFullStack](https://github.com/sunshineLixun/ShipFullStack) | A modern Type Script stack that combines React, Tan Stack Start, Hono, ORPC, Expo, and more. | `TypeScript` ★ 105 | 2025-11-03 |
+| [codesandbox/sandpack](https://github.com/codesandbox/sandpack) | A component toolkit for creating live-running code editing experiences, using the power of Code Sandbox. | `TypeScript` ★ 6.1k | 2025-04-24 |
+| [bvaughn/react-resizable-panels](https://github.com/bvaughn/react-resizable-panels) | No description provided | `TypeScript` ★ 5.2k | 2026-05-02 |
+| [udecode/plate](https://github.com/udecode/plate) | Rich-text editor with AI and shadcn/ui | `TypeScript` ★ 16.2k | 2026-05-09 |
+| [nrwl/nx-examples](https://github.com/nrwl/nx-examples) | Example repo for Nx workspace | `TypeScript` ★ 959 | 2026-05-08 |
+| [visgl/react-map-gl](https://github.com/visgl/react-map-gl) | React friendly API wrapper around Mapbox GL JS | `TypeScript` ★ 8.5k | 2026-04-11 |
 | [tajo/ladle](https://github.com/tajo/ladle) | 🥄 Develop, test and document your React story components faster. | `TypeScript` ★ 2.9k | 2025-12-20 |
 | [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | Open-source, secure environment with real-world tools for enterprise-grade agents. | `Python` ★ 12.1k | 2026-05-09 |
+| [pedronauck/docz](https://github.com/pedronauck/docz) | ✍ It has never been so easy to document your things! | `TypeScript` ★ 23.6k | 2025-11-21 |
 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 🎥 Make videos programmatically with React | `TypeScript` ★ 46.4k | 2026-05-09 |
 | [onlook-dev/onlook](https://github.com/onlook-dev/onlook) | The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI | `TypeScript` ★ 25.7k | 2026-03-27 |
 | [suitenumerique/meet](https://github.com/suitenumerique/meet) | Open source video conferencing app powered by Live Kit. | `Python` ★ 2k | 2026-05-09 |
@@ -32,6 +38,7 @@
 | [lxieyang/chrome-extension-boilerplate-react](https://github.com/lxieyang/chrome-extension-boilerplate-react) | A Chrome Extensions boilerplate using React 18 and Webpack 5. | `JavaScript` ★ 3.9k | 2024-07-24 |
 | [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | Free, simple, and intuitive online database diagram editor and SQL generator. | `JavaScript` ★ 37.2k | 2026-05-08 |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation | `TypeScript` ★ 89.9k | 2026-05-09 |
+| [next-safe-action/next-safe-action](https://github.com/next-safe-action/next-safe-action) | Type safe and validated Server Actions in your Next.js project. | `TypeScript` ★ 3k | 2026-05-07 |
 | [trpc/trpc](https://github.com/trpc/trpc) | 🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | `TypeScript` ★ 40.2k | 2026-05-08 |
 | [vadimdemedes/ink](https://github.com/vadimdemedes/ink) | 🌈 React for interactive command-line apps | `TypeScript` ★ 38.3k | 2026-05-05 |
 | [Build5Nines/azd-react-bootstrap-dashboard](https://github.com/Build5Nines/azd-react-bootstrap-dashboard) | A multi-tier app with a dashboard front-end (React + Bootstrap) hosted in Azure Static Web Apps and back-end API (Node.js) hosted in Azure App Service | `Bicep` ★ 1 | 2025-01-02 |
@@ -56,6 +63,7 @@
 | [pablotanner/RealtorRocket](https://github.com/pablotanner/RealtorRocket) | Real Estate Management Software | `JavaScript` ★ 22 | 2024-09-04 |
 | [Exclusiveideas/Realtor](https://github.com/Exclusiveideas/Realtor) | A real-estate website with realtime data and information on houses for rent and for sale. | `JavaScript` ★ 38 | 2022-11-21 |
 | [kriasoft/graphql-starter-kit](https://github.com/kriasoft/graphql-starter-kit) | 💥 Monorepo template (seed project) pre-configured with Graph QL API, Postgre SQL, React, and Joy UI. | `TypeScript` ★ 4k | 2024-11-10 |
+| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | "The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more | `TypeScript` ★ 83.4k | 2026-05-05 |
 | [alibaba/formily](https://github.com/alibaba/formily) | 📱🚀 🧩 Cross Device & High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3 | `TypeScript` ★ 12.5k | 2025-06-21 |
 | [styleguidist/react-styleguidist](https://github.com/styleguidist/react-styleguidist) | Isolated React component development environment with a living style guide | `TypeScript` ★ 11.1k | 2025-01-07 |
 | [welldone-software/why-did-you-render](https://github.com/welldone-software/why-did-you-render) | why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.) | `JavaScript` ★ 12.5k | 2026-04-15 |

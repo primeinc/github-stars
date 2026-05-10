@@ -1,6 +1,6 @@
 # Tag: github-actions
 
-*11 repositories*
+*13 repositories*
 
 [← Back to Index](../README.md)
 
@@ -9,6 +9,8 @@
 | [actions/runner-images](https://github.com/actions/runner-images) | Git Hub Actions runner images | `PowerShell` ★ 12.7k | 2026-05-08 |
 | [ChristopherHX/github-act-runner](https://github.com/ChristopherHX/github-act-runner) | act as self-hosted runner | `Go` ★ 378 | 2026-03-21 |
 | [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | An unofficial Local Git Hub Actions and Azure Pipelines Emulator | `C#` ★ 234 | 2026-05-04 |
+| [github/gh-aw](https://github.com/github/gh-aw) | Git Hub Agentic Workflows | `Go` ★ 4.4k | 2026-05-10 |
+| [Songmu/tagpr](https://github.com/Songmu/tagpr) | automatically creates and updates a pull request for unreleased items, tag them when they are merged, and create releases. | `Go` ★ 295 | 2026-05-09 |
 | [nrwl/nx-set-shas](https://github.com/nrwl/nx-set-shas) | :sparkles: A Github Action which sets the base and head SHAs required for \`nx affected\` commands in CI | `TypeScript` ★ 199 | 2026-03-26 |
 | [dorny/test-reporter](https://github.com/dorny/test-reporter) | Displays test results from popular testing frameworks directly in Git Hub | `TypeScript` ★ 1.1k | 2026-05-08 |
 | [actions/labeler](https://github.com/actions/labeler) | An action for automatically labelling pull requests | `TypeScript` ★ 2.4k | 2026-05-06 |

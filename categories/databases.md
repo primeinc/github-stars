@@ -1,15 +1,22 @@
 # Databases
 
-*59 repositories*
+*67 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [microsoft/sql-server-samples](https://github.com/microsoft/sql-server-samples) | Azure Data SQL Samples - Official Microsoft Git Hub Repository containing code samples for SQL Server, Azure SQL, Azure Synapse, and Azure SQL Edge | ★ 11.1k | 2026-05-01 |
-| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | Open Viking is an open-source context database designed specifically for AI Agents(such as openclaw). Open Viking unifies the management of context (memory, resources, and skills) that Agents need ... | `Python` ★ 23.7k | 2026-05-09 |
+| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | Open Viking is an open-source context database designed specifically for AI Agents(such as openclaw). Open Viking unifies the management of context (memory, resources, and skills) that Agents need ... | `Python` ★ 23.7k | 2026-05-10 |
 | [Azure-Samples/rag-postgres-openai-python](https://github.com/Azure-Samples/rag-postgres-openai-python) | A RAG app to ask questions about rows in a database table. Deployable on Azure Container Apps with Postgre SQL Flexible Server. | `Python` ★ 490 | 2026-04-11 |
 | [robcole/rentcast-proxy](https://github.com/robcole/rentcast-proxy) | Typed API wrapper and proxy for Rentcast API with SQLite caching | `Crystal` ★ 1 | 2025-06-02 |
+| [postgres-ai/database-lab-engine](https://github.com/postgres-ai/database-lab-engine) | DBLab enables 🖖 database branching and ⚡️ thin cloning for any Postgres database and empowers DB testing in CI/CD. This optimizes database-related costs while improving time-to-market and software... | `Go` ★ 2.5k | 2026-05-08 |
+| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | A modern replacement for Redis and Memcached | `C++` ★ 30.5k | 2026-05-09 |
+| [bytebase/dbhub](https://github.com/bytebase/dbhub) | Zero-dependency, token-efficient database MCP server for Postgres, My SQL, SQL Server, Maria DB, SQLite. | `TypeScript` ★ 2.7k | 2026-04-21 |
+| [executeautomation/mcp-database-server](https://github.com/executeautomation/mcp-database-server) | MCP Database Server is a new MCP Server which helps connect with Sqlite, Sql Server and Posgresql Databases | `TypeScript` ★ 349 | 2025-08-27 |
+| [oguimbal/pgsql-ast-parser](https://github.com/oguimbal/pgsql-ast-parser) | Yet another simple Postgres SQL parser | `TypeScript` ★ 344 | 2026-01-27 |
+| [k1LoW/tbls](https://github.com/k1LoW/tbls) | tbls is a CI-Friendly tool to document a database, written in Go. | `Go` ★ 4.2k | 2026-05-08 |
+| [microsoft/bf-tree](https://github.com/microsoft/bf-tree) | Bf-Tree is a modern read-write-optimized concurrent larger-than-memory range index in Rust from MS Research. | `Rust` ★ 1k | 2026-04-24 |
 | [get-convex/convex-saas](https://github.com/get-convex/convex-saas) | A production-ready Convex Stack for your next Saa S application with Convex Auth, Stripe, Tan Stack, Resend, Tailwindcss, and shadcn. | `TypeScript` ★ 358 | 2026-05-02 |
 | [cometbft/cometbft](https://github.com/cometbft/cometbft) | Comet BFT: A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. A fork and successor to Tendermint Core. | `Go` ★ 893 | 2026-05-08 |
 | [qdrant/qdrant](https://github.com/qdrant/qdrant) | Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/ | `Rust` ★ 31.2k | 2026-05-09 |
@@ -45,6 +52,7 @@
 | [nhost/nhost](https://github.com/nhost/nhost) | The Open Source Firebase Alternative with Graph QL. | `TypeScript` ★ 9.2k | 2026-05-09 |
 | [rustfs/rustfs](https://github.com/rustfs/rustfs) | 🚀2.3x faster than Min IO for 4KB object payloads. Rust FS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible plat... | `Rust` ★ 27.3k | 2026-05-10 |
 | [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | Open Source realtime backend in 1 file | `Go` ★ 58.2k | 2026-05-07 |
+| [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | MCP Toolbox for Databases is an open source MCP server for databases. | `Go` ★ 15.1k | 2026-05-09 |
 | [andrei-markeev/mongodb-livedata-server](https://github.com/andrei-markeev/mongodb-livedata-server) | Standalone live data server implementation extracted from Meteor, Fibers removed and converted to Type Script. | `TypeScript` ★ 4 | 2025-12-25 |
 | [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) | Federated Query Engine for AI - The only MCP Server you'll ever need | `Python` ★ 39.1k | 2026-05-09 |
 | [zilliztech/attu](https://github.com/zilliztech/attu) | The Best GUI for Milvus | `Shell` ★ 2.9k | 2026-05-09 |

@@ -1,11 +1,16 @@
 # Dev-tools
 
-*259 repositories*
+*367 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [sindresorhus/is](https://github.com/sindresorhus/is) | Type check values | `TypeScript` ★ 1.8k | 2026-04-09 |
+| [githubnext/agentics](https://github.com/githubnext/agentics) | A sample pack of Git Hub Agentic Workflows! | `Makefile` ★ 684 | 2026-05-09 |
+| [alexmarqs/zod-config](https://github.com/alexmarqs/zod-config) | Load configuration variables from multiple sources with flexible adapters, ensuring type safety with Zod. | `TypeScript` ★ 137 | 2026-05-02 |
+| [colinhacks/zod](https://github.com/colinhacks/zod) | Type Script-first schema validation with static type inference | `TypeScript` ★ 42.6k | 2026-05-08 |
+| [sverweij/dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | Validate and visualize dependencies. Your rules. Java Script, Type Script, Coffee Script. ES6, Common JS, AMD. | `JavaScript` ★ 6.6k | 2026-05-02 |
 | [listr2/listr2](https://github.com/listr2/listr2) | Node JS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive. | `TypeScript` ★ 661 | 2026-05-02 |
 | [renovatebot/renovate](https://github.com/renovatebot/renovate) | Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io | `TypeScript` ★ 21.5k | 2026-05-10 |
 | [microsoft/apm](https://github.com/microsoft/apm) | Agent Package Manager | `Python` ★ 2.3k | 2026-05-09 |
@@ -39,6 +44,100 @@
 | [openbao/openbao](https://github.com/openbao/openbao) | Open Bao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys. | `Go` ★ 6k | 2026-05-08 |
 | [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ... | `JavaScript` ★ 19.5k | 2026-05-10 |
 | [awesomized/crc-fast-rust](https://github.com/awesomized/crc-fast-rust) | World's fastest generic CRC calculator for all known CRC-16, CRC-32, and CRC-64 variants, as well as bring-your-own custom parameters, using SIMD intrinsics, which can exceed 100Gi B/s on modern sy... | `Rust` ★ 79 | 2025-12-29 |
+| [changesets/ghcommit](https://github.com/changesets/ghcommit) | Type Script library for directly changing files on Git Hub | `TypeScript` ★ 17 | 2026-01-27 |
+| [microsoft/beachball](https://github.com/microsoft/beachball) | The Sunniest Semantic Version Bumper | `TypeScript` ★ 812 | 2026-05-09 |
+| [changesets/changesets](https://github.com/changesets/changesets) | 🦋 A way to manage your versioning and changelogs with a focus on monorepos | `TypeScript` ★ 11.8k | 2026-05-07 |
+| [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio) | A lightweight Node.js private proxy registry | `TypeScript` ★ 17.6k | 2026-05-10 |
+| [Brainicism/bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider) | Proof-of-origin token provider plugin for yt-dlp | `TypeScript` ★ 528 | 2026-04-10 |
+| [microsoft/vscode-extension-samples](https://github.com/microsoft/vscode-extension-samples) | Sample code illustrating the VS Code extension API. | `TypeScript` ★ 10.1k | 2026-02-12 |
+| [pyupio/safety](https://github.com/pyupio/safety) | Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected. | `Python` ★ 2k | 2026-03-23 |
+| [go-gitea/gitea](https://github.com/go-gitea/gitea) | Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD | `Go` ★ 55.5k | 2026-05-10 |
+| [sindresorhus/open](https://github.com/sindresorhus/open) | Open stuff like URLs, files, executables. Cross-platform. | `JavaScript` ★ 3.5k | 2025-11-15 |
+| [cvhariharan/flowctl](https://github.com/cvhariharan/flowctl) | An open source self-service workflow execution platform | `Go` ★ 307 | 2026-05-07 |
+| [puzpuzpuz/go-concurrent-map-bench](https://github.com/puzpuzpuz/go-concurrent-map-bench) | Benchmarks for concurrent hash map implementations in Go | `Go` ★ 65 | 2026-02-21 |
+| [zed-industries/zed](https://github.com/zed-industries/zed) | Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. | `Rust` ★ 82.4k | 2026-05-10 |
+| [rollup/rollup](https://github.com/rollup/rollup) | Next-generation ES module bundler | `JavaScript` ★ 26.3k | 2026-05-10 |
+| [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | Git Nexus: The Zero-Server Code Intelligence Engine - Git Nexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a Git Hub repo or ZIP file, and get an interacti... | `TypeScript` ★ 37.3k | 2026-05-10 |
+| [wxt-dev/wxt](https://github.com/wxt-dev/wxt) | ⚡ Next-gen Web Extension Framework | `TypeScript` ★ 9.8k | 2026-05-08 |
+| [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) | Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (mac OS, Windows, Linux). | `Go` ★ 13.9k | 2026-05-02 |
+| [nushell/nushell](https://github.com/nushell/nushell) | A new type of shell | `Rust` ★ 39.4k | 2026-05-09 |
+| [juehang/vscode-mcp-server](https://github.com/juehang/vscode-mcp-server) | MCP server to expose VS Code editing features to an LLM for AI coding | `TypeScript` ★ 359 | 2026-01-07 |
+| [coleam00/remote-mcp-server-with-auth](https://github.com/coleam00/remote-mcp-server-with-auth) | Template for a remote MCP server with Git Hub OAuth - following best practices for building MCP servers so you can take this as a starting point for any MCP server you want to build! | `TypeScript` ★ 293 | 2025-07-11 |
+| [MCPJam/inspector](https://github.com/MCPJam/inspector) | Development platform to debug, chat, inspect, and evaluate MCP servers, MCP apps, and Chat GPT apps. | `TypeScript` ★ 1.9k | 2026-05-10 |
+| [isaacphi/mcp-language-server](https://github.com/isaacphi/mcp-language-server) | mcp-language-server gives MCP enabled clients access semantic tools like get definition, references, rename, and diagnostics. | `Go` ★ 1.5k | 2026-03-01 |
+| [mcp-router/mcp-router](https://github.com/mcp-router/mcp-router) | A Unified MCP Server Management App (MCP Manager). | `TypeScript` ★ 2k | 2026-01-24 |
+| [dead10ck/nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns) | DNS utility for nushell | `Rust` ★ 53 | 2026-05-03 |
+| [kinhunt/mcpdog](https://github.com/kinhunt/mcpdog) | 🐕 Universal MCP Server Manager - Configure once, manage multiple MCP servers through a single interface. Perfect for Claude Desktop, Claude Code, Cursor, Gemini CLI & AI assistants. Web dashboard,... | `TypeScript` ★ 18 | 2025-10-19 |
+| [microsoft/PSRule-pipelines](https://github.com/microsoft/PSRule-pipelines) | Validate infrastructure as code (Ia C) and Dev Ops repositories using Azure Pipelines. | `PowerShell` ★ 102 | 2026-05-08 |
+| [pnp/script-samples](https://github.com/pnp/script-samples) | A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more. | `PowerShell` ★ 319 | 2026-05-05 |
+| [adambajguz/Typin](https://github.com/adambajguz/Typin) | Declarative framework for interactive CLI applications | `C#` ★ 253 | 2025-06-18 |
+| [harshankur/officeParser](https://github.com/harshankur/officeParser) | A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met... | `Rich Text Format` ★ 430 | 2026-04-30 |
+| [AntonBergaker/InterpolatedParser](https://github.com/AntonBergaker/InterpolatedParser) | Interpolated Strings but in reverse! A very cursed C# parser library. | `C#` ★ 295 | 2025-02-24 |
+| [likexian/whois-parser](https://github.com/likexian/whois-parser) | Whois parser for domain whois information parsing in Go(Golang). | `Go` ★ 330 | 2026-01-04 |
+| [PoiScript/orgize](https://github.com/PoiScript/orgize) | A Rust library for parsing org-mode files. | `Rust` ★ 335 | 2025-01-27 |
+| [oguimbal/pgsql-ast-parser](https://github.com/oguimbal/pgsql-ast-parser) | Yet another simple Postgres SQL parser | `TypeScript` ★ 344 | 2026-01-27 |
+| [MaibornWolff/codecharta](https://github.com/MaibornWolff/codecharta) | Code Charta is a visualization tool that transforms complex software architecture and code metrics into interactive, customizable visual maps, empowering everyone to communicate and analyze your co... | `TypeScript` ★ 442 | 2026-05-07 |
+| [chipsalliance/Surelog](https://github.com/chipsalliance/Surelog) | System Verilog 2017 Pre-processor, Parser, Elaborator, UHDM Compiler. Provides IEEE Design/TB C/C++ VPI and Python AST & UHDM APIs. Compiles on Linux gcc, Windows msys2-gcc & msvc, Os X | `C++` ★ 460 | 2026-05-08 |
+| [postalsys/postal-mime](https://github.com/postalsys/postal-mime) | Email parser for browser and serverless environments | `JavaScript` ★ 525 | 2026-03-17 |
+| [jcubic/lips](https://github.com/jcubic/lips) | Scheme based powerful lisp interpreter in Java Script | `JavaScript` ★ 491 | 2026-05-09 |
+| [glayzzle/php-parser](https://github.com/glayzzle/php-parser) | :herb: Node JS PHP Parser - extract AST or tokens | `JavaScript` ★ 562 | 2026-05-09 |
+| [willdurand/EmailReplyParser](https://github.com/willdurand/EmailReplyParser) | PHP library for parsing plain text email content. | `PHP` ★ 649 | 2022-09-20 |
+| [kach/nearley](https://github.com/kach/nearley) | 📜🔜🌲 Simple, fast, powerful parser toolkit for Java Script. | `JavaScript` ★ 3.7k | 2024-11-14 |
+| [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) | Community maintained fork of pdfminer - we fathom PDF | `Python` ★ 7k | 2026-03-13 |
+| [i18next/i18next-cli](https://github.com/i18next/i18next-cli) | A unified, high-performance i18next CLI. | `TypeScript` ★ 206 | 2026-05-07 |
+| [ImpulseAdventure/JPEGsnoop](https://github.com/ImpulseAdventure/JPEGsnoop) | JPEGsnoop: JPEG decoder and detailed analysis | `C++` ★ 611 | 2023-08-09 |
+| [DFIRKuiper/Kuiper](https://github.com/DFIRKuiper/Kuiper) | Digital Forensics Investigation Platform | `JavaScript` ★ 886 | 2024-10-12 |
+| [microsoft/tolerant-php-parser](https://github.com/microsoft/tolerant-php-parser) | An early-stage PHP parser designed for IDE usage scenarios. | `PHP` ★ 895 | 2024-09-28 |
+| [APIDevTools/json-schema-ref-parser](https://github.com/APIDevTools/json-schema-ref-parser) | Parse, Resolve, and Dereference JSON Schema $ref pointers in Node and browsers | `TypeScript` ★ 1.1k | 2026-03-30 |
+| [meriyah/meriyah](https://github.com/meriyah/meriyah) | A 100% compliant, self-hosted javascript parser - https://meriyah.github.io/meriyah | `TypeScript` ★ 1.2k | 2026-05-01 |
+| [daniele77/cli](https://github.com/daniele77/cli) | A library for interactive command line interfaces in modern C++ | `C++` ★ 1.4k | 2025-12-22 |
+| [ruimarinho/google-libphonenumber](https://github.com/ruimarinho/google-libphonenumber) | The up-to-date and reliable Google's libphonenumber package for node.js. | `JavaScript` ★ 1.5k | 2026-04-09 |
+| [rsms/markdown-wasm](https://github.com/rsms/markdown-wasm) | Very fast Markdown parser and HTML generator implemented in Web Assembly, based on md4c | `C` ★ 1.7k | 2022-11-22 |
+| [run-llama/semtools](https://github.com/run-llama/semtools) | Semantic search and document parsing tools for the command line | `Rust` ★ 1.8k | 2026-03-11 |
+| [omgovich/colord](https://github.com/omgovich/colord) | 👑 A tiny yet powerful tool for high-performance color manipulations and conversions | `TypeScript` ★ 1.9k | 2023-10-02 |
+| [afnanenayet/diffsitter](https://github.com/afnanenayet/diffsitter) | A tree-sitter based AST difftool to get meaningful semantic diffs | `Rust` ★ 2.4k | 2026-05-09 |
+| [Hexagon/croner](https://github.com/Hexagon/croner) | Trigger functions or evaluate cron expressions in Java Script or Type Script. No dependencies. Most features. Node. Deno. Bun. Browser. | `TypeScript` ★ 2.6k | 2026-04-30 |
+| [rtfpessoa/diff2html](https://github.com/rtfpessoa/diff2html) | Pretty diff to html javascript library (diff2html) | `TypeScript` ★ 3.4k | 2026-05-08 |
+| [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | Up to 100x faster strings for C, C++, CUDA, Python, Rust, Swift, JS, & Go, leveraging NEON, AVX2, AVX-512, SVE, GPGPU, & SWAR to accelerate search, hashing, sorting, edit distances, sketches, and m... | `C` ★ 3.4k | 2026-05-05 |
+| [dotnet/command-line-api](https://github.com/dotnet/command-line-api) | Command line parsing, invocation, and rendering of terminal output. | `C#` ★ 3.7k | 2026-05-08 |
+| [mangiucugna/json_repair](https://github.com/mangiucugna/json_repair) | Repair malformed JSON from LLMs, APIs, logs, and user input in Python. | `Python` ★ 4.8k | 2026-05-10 |
+| [microsoft/tsdoc](https://github.com/microsoft/tsdoc) | A doc comment standard for Type Script | `TypeScript` ★ 5k | 2026-03-31 |
+| [fkling/astexplorer](https://github.com/fkling/astexplorer) | A web tool to explore the ASTs generated by various parsers. | `JavaScript` ★ 6.5k | 2024-04-26 |
+| [jquery/esprima](https://github.com/jquery/esprima) | ECMAScript parsing infrastructure for multipurpose analysis | `TypeScript` ★ 7.1k | 2023-04-16 |
+| [ohmjs/ohm](https://github.com/ohmjs/ohm) | A library and language for building parsers, interpreters, compilers, etc. | `JavaScript` ★ 5.5k | 2026-05-06 |
+| [moonrepo/moon](https://github.com/moonrepo/moon) | A build system and monorepo management tool for the web ecosystem, written in Rust. | `Rust` ★ 3.8k | 2026-05-04 |
+| [stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core) | Dev environments. In your web app. | ★ 4.6k | 2025-04-22 |
+| [live-codes/livecodes](https://github.com/live-codes/livecodes) | A Code Playground That Just Works! | `TypeScript` ★ 1.4k | 2026-05-08 |
+| [conradkoh/artifact-cli](https://github.com/conradkoh/artifact-cli) | No description provided | `TypeScript` ★ 1 | 2026-01-12 |
+| [nyeya/live-editor](https://github.com/nyeya/live-editor) | A realtime live code editor for your frontend projects | `TypeScript` ★ 2 | 2025-10-12 |
+| [Sunny-117/webcontainer-ide](https://github.com/Sunny-117/webcontainer-ide) | Web Container IDE is a production-ready, browser-based development environment that brings the full power of Node.js to your browser. Built on Stack Blitz's Web Container technology, it enables dev... | `TypeScript` ★ 8 | 2026-01-15 |
+| [codesandbox/sandpack](https://github.com/codesandbox/sandpack) | A component toolkit for creating live-running code editing experiences, using the power of Code Sandbox. | `TypeScript` ★ 6.1k | 2025-04-24 |
+| [deadc0de6/gocatcli](https://github.com/deadc0de6/gocatcli) | The command line catalog tool for your offline data | `Go` ★ 46 | 2025-12-30 |
+| [github/gh-aw](https://github.com/github/gh-aw) | Git Hub Agentic Workflows | `Go` ★ 4.4k | 2026-05-10 |
+| [bvaughn/react-resizable-panels](https://github.com/bvaughn/react-resizable-panels) | No description provided | `TypeScript` ★ 5.2k | 2026-05-02 |
+| [ExperienceLovelace/ha-floorplan](https://github.com/ExperienceLovelace/ha-floorplan) | Bring new life to Home Assistant. By mapping entities to a SVG-object, you're able to control devices, show states, calling services - and much more. Add custom styling on top, to visualize whateve... | `TypeScript` ★ 1.5k | 2026-05-09 |
+| [mathuo/dockview](https://github.com/mathuo/dockview) | Zero dependency docking layout manager supporting tabs, groups, grids and splitviews. Supports React, Vue, Angular, and vanilla Type Script. | `TypeScript` ★ 3.2k | 2026-05-08 |
+| [microsoft/rushstack](https://github.com/microsoft/rushstack) | Monorepo for tools developed by the Rush Stack community | `TypeScript` ★ 6.5k | 2026-05-07 |
+| [11happy/cpx](https://github.com/11happy/cpx) | cp reimagined | `Rust` ★ 423 | 2026-03-06 |
+| [zellij-org/zellij](https://github.com/zellij-org/zellij) | A terminal workspace with batteries included | `Rust` ★ 32.3k | 2026-05-08 |
+| [kodepandai/awesome-gh-cli-extensions](https://github.com/kodepandai/awesome-gh-cli-extensions) | Awesome list of github cli extensions. | `HTML` ★ 421 | 2026-05-07 |
+| [microsoft/cascadia-code](https://github.com/microsoft/cascadia-code) | This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal. | `Python` ★ 27.7k | 2025-03-06 |
+| [mdp/qrterminal](https://github.com/mdp/qrterminal) | QR Codes in your terminal | `Go` ★ 535 | 2025-03-19 |
+| [crazystylus/otadump](https://github.com/crazystylus/otadump) | Extract partitions from Android OTA files. | `Rust` ★ 207 | 2026-04-13 |
+| [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | A smarter cd command. Supports all major shells. | `Rust` ★ 36.5k | 2026-05-08 |
+| [Songmu/tagpr](https://github.com/Songmu/tagpr) | automatically creates and updates a pull request for unreleased items, tag them when they are merged, and create releases. | `Go` ★ 295 | 2026-05-09 |
+| [hey-api/openapi-ts](https://github.com/hey-api/openapi-ts) | 🌀 Open API to Type Script codegen. Production-grade SDKs, Zod schemas, Tan Stack Query hooks, and 20+ plugins. Used by Vercel, Open Code, and Pay Pal. | `TypeScript` ★ 4.6k | 2026-05-06 |
+| [jacob-j/vscode-folder-path-color](https://github.com/jacob-j/vscode-folder-path-color) | All subfolders within a specified path will be assigned a color for easy differentiation. | `TypeScript` ★ 36 | 2025-08-26 |
+| [webpro-nl/knip](https://github.com/webpro-nl/knip) | ✂️ Find unused files, dependencies and exports in your Java Script and Type Script projects. Knip it before you ship it! | `TypeScript` ★ 11.2k | 2026-05-09 |
+| [sindresorhus/eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn) | More than 100 powerful ESLint rules | `JavaScript` ★ 5k | 2026-05-06 |
+| [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) | :sparkles: Monorepo for all the tooling which enables ESLint to support Type Script | `TypeScript` ★ 16.2k | 2026-05-09 |
+| [eslint/config-inspector](https://github.com/eslint/config-inspector) | A visual tool for inspecting and understanding your ESLint flat configs. | `Vue` ★ 1.3k | 2026-05-07 |
+| [facebook/memlab](https://github.com/facebook/memlab) | A framework for finding Java Script memory leaks and analyzing heap snapshots | `JavaScript` ★ 5k | 2026-05-08 |
+| [sindresorhus/ora](https://github.com/sindresorhus/ora) | Elegant terminal spinner | `JavaScript` ★ 9.7k | 2026-04-22 |
+| [JamieMason/syncpack](https://github.com/JamieMason/syncpack) | Consistent dependency versions in large Java Script Monorepos. | `Rust` ★ 2k | 2026-05-08 |
+| [loeffel-io/ls-lint](https://github.com/loeffel-io/ls-lint) | An extremely fast directory and filename linter - Bring some structure to your project filesystem | `Go` ★ 2.4k | 2026-05-08 |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | The open agent skills tool - npx skills | `TypeScript` ★ 17.7k | 2026-05-08 |
+| [microsoft/agentrc](https://github.com/microsoft/agentrc) | Get your repo ready for AI. | `TypeScript` ★ 854 | 2026-05-10 |
 | [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) | The developer platform for on-demand cloud development environments to create software faster and more securely. | `TypeScript` ★ 13.7k | 2026-05-04 |
 | [tajo/ladle](https://github.com/tajo/ladle) | 🥄 Develop, test and document your React story components faster. | `TypeScript` ★ 2.9k | 2025-12-20 |
 | [sdorra/content-collections](https://github.com/sdorra/content-collections) | Transform your content into type-safe data collections | `TypeScript` ★ 1.1k | 2026-04-25 |
@@ -49,9 +148,11 @@
 | [ChromeDevTools/devtools-protocol](https://github.com/ChromeDevTools/devtools-protocol) | Chrome Dev Tools Protocol | `TypeScript` ★ 1.5k | 2026-05-10 |
 | [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | Open-source, secure environment with real-world tools for enterprise-grade agents. | `Python` ★ 12.1k | 2026-05-09 |
 | [lovell/sharp](https://github.com/lovell/sharp) | High performance Node.js image processing, the fastest module to resize JPEG, PNG, Web P, AVIF and TIFF images. Uses the libvips library. | `JavaScript` ★ 32.2k | 2026-04-26 |
+| [gastownhall/beads](https://github.com/gastownhall/beads) | Beads - A memory upgrade for your coding agent | `Go` ★ 23.5k | 2026-05-10 |
 | [rkyv/rkyv](https://github.com/rkyv/rkyv) | Zero-copy deserialization framework for Rust | `Rust` ★ 4.2k | 2026-05-07 |
 | [zhongguagua/ai-code-decompile](https://github.com/zhongguagua/ai-code-decompile) | 🚀 AI-powered Java Script Decompiler & Deobfuscator. 基于 AI 与 AST 的 JS 代码分析与混淆还原工具，把不可读的构建产物变成人能看懂的代码。 | `TypeScript` ★ 133 | 2026-01-07 |
 | [zenobi-us/bun-module](https://github.com/zenobi-us/bun-module) | No description provided | `Shell` ★ 35 | 2026-03-20 |
+| [openclaw/mcporter](https://github.com/openclaw/mcporter) | Call MCPs via Type Script, masquerading as simple Type Script API. Or package them as cli. | `TypeScript` ★ 4.4k | 2026-05-09 |
 | [onlook-dev/onlook](https://github.com/onlook-dev/onlook) | The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI | `TypeScript` ★ 25.7k | 2026-03-27 |
 | [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒ | `TypeScript` ★ 1.9k | 2026-05-10 |
 | [1rgs/nanocode](https://github.com/1rgs/nanocode) | Minimal Claude Code alternative. Single Python file, zero dependencies, ~250 lines. | `Python` ★ 2.4k | 2026-01-14 |
@@ -64,6 +165,7 @@
 | [taskflow/taskflow](https://github.com/taskflow/taskflow) | A General-purpose Task-parallel Programming System using Modern C++ | `C++` ★ 12k | 2026-05-03 |
 | [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | Autonomous AI development loop for Claude Code with intelligent exit detection | `Shell` ★ 9.1k | 2026-04-13 |
 | [devcontainers/cli](https://github.com/devcontainers/cli) | A reference implementation for the specification that can create and configure a dev container from a devcontainer.json. | `TypeScript` ★ 2.7k | 2026-05-07 |
+| [j178/prek](https://github.com/j178/prek) | ⚡ Better \`pre-commit\`, re-engineered in Rust | `Rust` ★ 7.6k | 2026-05-10 |
 | [jdx/mise](https://github.com/jdx/mise) | dev tools, env vars, task runner | `Rust` ★ 28k | 2026-05-10 |
 | [sharkdp/bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | `Rust` ★ 58.8k | 2026-05-09 |
 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | A browser based code editor | `JavaScript` ★ 46k | 2026-05-09 |
@@ -71,14 +173,17 @@
 | [upx/upx](https://github.com/upx/upx) | UPX - the Ultimate Packer for e Xecutables | `C++` ★ 17.5k | 2026-05-10 |
 | [memvid/claude-brain](https://github.com/memvid/claude-brain) | Give Claude Code photographic memory in ONE portable file. No database, no SQLite, no Chroma DB - just a single .mv2 file you can git commit, scp, or share. Native Rust core with sub-ms operations. | `TypeScript` ★ 491 | 2026-01-19 |
 | [kdcokenny/opencode-worktree](https://github.com/kdcokenny/opencode-worktree) | Zero-friction git worktrees for Open Code. Auto-spawns terminals, syncs files, cleans up on exit. | `TypeScript` ★ 512 | 2026-05-03 |
+| [computerlovetech/agr](https://github.com/computerlovetech/agr) | A package manager for AI agents. Install agent skills from Git Hub with a single command. | `Python` ★ 433 | 2026-05-01 |
 | [microsoft/vscode-generator-code](https://github.com/microsoft/vscode-generator-code) | Visual Studio Code extension generator | `JavaScript` ★ 1.6k | 2026-05-07 |
 | [e18e/eslint-plugin](https://github.com/e18e/eslint-plugin) | The official e18e ESLint plugin for code modernization and performance best practices | `TypeScript` ★ 161 | 2026-05-04 |
 | [numman-ali/opencode-openai-codex-auth](https://github.com/numman-ali/opencode-openai-codex-auth) | OAuth authentication plugin for personal coding assistance with Chat GPT Plus/Pro subscriptions - uses Open AI's official authentication method | `TypeScript` ★ 2k | 2026-01-09 |
+| [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | omo; the best agent harness - previously oh-my-opencode | `TypeScript` ★ 56.9k | 2026-05-10 |
 | [lintsinghua/DeepAudit](https://github.com/lintsinghua/DeepAudit) | Deep Audit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 Po C 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。 | `Python` ★ 6k | 2026-04-01 |
 | [shadcn/license-generator](https://github.com/shadcn/license-generator) | Generates a license for your open source project. | `JavaScript` ★ 170 | 2024-06-10 |
 | [sohzm/cheating-daddy](https://github.com/sohzm/cheating-daddy) | a free and opensource app that lets you gain an unfair advantage | `JavaScript` ★ 5.3k | 2026-04-26 |
 | [agentsmd/agents.md](https://github.com/agentsmd/agents.md) | AGENTS.md — a simple, open format for guiding coding agents | `TypeScript` ★ 21.2k | 2026-03-12 |
 | [korfuri/awesome-monorepo](https://github.com/korfuri/awesome-monorepo) | A curated list of awesome Monorepo tools, software and architectures. | ★ 5.8k | 2024-08-16 |
+| [xxh/xxh](https://github.com/xxh/xxh) | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | `Python` ★ 6k | 2026-04-12 |
 | [chrissimpkins/codeface](https://github.com/chrissimpkins/codeface) | Typefaces for source code beautification | `Python` ★ 6.5k | 2020-09-19 |
 | [ChromeDevTools/awesome-chrome-devtools](https://github.com/ChromeDevTools/awesome-chrome-devtools) | Awesome tooling and resources in the Chrome Dev Tools & Dev Tools Protocol ecosystem | ★ 7k | 2026-03-27 |
 | [thangchung/clean-code-dotnet](https://github.com/thangchung/clean-code-dotnet) | :bathtub: Clean Code concepts and tools adapted for .NET | `C#` ★ 7.7k | 2026-02-27 |
@@ -91,17 +196,19 @@
 | [microsoft/vscode-cosmosdb](https://github.com/microsoft/vscode-cosmosdb) | Azure Cosmos DB extension for VS Code | `TypeScript` ★ 197 | 2026-05-10 |
 | [microsoft/vscode-copilot-chat](https://github.com/microsoft/vscode-copilot-chat) | Copilot Chat extension for VS Code | `TypeScript` ★ 9.9k | 2026-05-08 |
 | [Azure/azure-api-management-policy-toolkit](https://github.com/Azure/azure-api-management-policy-toolkit) | Azure API Management policy toolkit is a set of libraries and tools to help managing and testing policies. | `C#` ★ 87 | 2026-05-07 |
+| [stan-smith/FossFLOW](https://github.com/stan-smith/FossFLOW) | Make beautiful isometric infrastructure diagrams | `TypeScript` ★ 20.3k | 2026-05-06 |
 | [requestly/requestly](https://github.com/requestly/requestly) | Free and open-source API Client & Interceptor. | `TypeScript` ★ 6.7k | 2026-05-09 |
 | [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) | A collection of essential Type Script types | `TypeScript` ★ 17.1k | 2026-04-24 |
 | [palashmon/awesome-vscode-settings](https://github.com/palashmon/awesome-vscode-settings) | 🎨 A curated list of simple and awesome VS Code settings | ★ 53 | 2026-04-08 |
 | [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 9.9k | 2026-05-10 |
 | [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (\`azd\`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 253 | 2026-05-08 |
 | [luckgrid/lg-gnosys](https://github.com/luckgrid/lg-gnosys) | A monorepo architecture starter project for building framework agnostic applications with a feature rich development workspaces configuration... | `CSS` ★ 1 | 2025-09-13 |
+| [nicholas-fedor/shoutrrr](https://github.com/nicholas-fedor/shoutrrr) | A notification library for gophers and their furry friends. | `Go` ★ 132 | 2026-05-09 |
 | [PaulJPhilp/effect-env](https://github.com/PaulJPhilp/effect-env) | No description provided | `TypeScript` ★ 41 | 2025-11-27 |
 | [Aetherinox/node-toasted-notifier](https://github.com/Aetherinox/node-toasted-notifier) | A revised fork of node-notifier; Node JS package for pushing notifications to Mac OS, Linux, and Windows. | `JavaScript` ★ 26 | 2025-10-23 |
 | [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) | A rich terminal UI for Git Hub that doesn't break your flow. | `Go` ★ 11.6k | 2026-05-09 |
 | [python/typeshed](https://github.com/python/typeshed) | Collection of library stubs for Python, with static types | `Python` ★ 5.1k | 2026-05-10 |
-| [severity1/claude-code-prompt-improver](https://github.com/severity1/claude-code-prompt-improver) | Intelligent prompt improver hook for Claude Code. Type vibes, ship precision. | `Python` ★ 1.4k | 2026-05-01 |
+| [severity1/claude-code-prompt-improver](https://github.com/severity1/claude-code-prompt-improver) | Intelligent prompt improver hook for Claude Code. Type vibes, ship precision. | `Python` ★ 1.4k | 2026-05-10 |
 | [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom input pattern highlighters, custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art... | `TypeScript` ★ 2k | 2026-05-10 |
 | [openworkflowdev/openworkflow](https://github.com/openworkflowdev/openworkflow) | Open-source Type Script framework for building durable, resumable workflows. | `TypeScript` ★ 1.2k | 2026-05-09 |
 | [FFmpeg/asm-lessons](https://github.com/FFmpeg/asm-lessons) | FFmpeg Assembly Language Lessons | ★ 11.7k | 2026-02-22 |
@@ -121,7 +228,7 @@
 | [webextension-toolbox/webextension-toolbox](https://github.com/webextension-toolbox/webextension-toolbox) | Small CLI toolbox for cross-browser Web Extension development | `TypeScript` ★ 785 | 2026-05-09 |
 | [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) | The best way to get AI coding agents to solve hard problems in complex codebases. | `TypeScript` ★ 10.7k | 2026-03-07 |
 | [microsoftgraph/microsoft-graph-devx-content](https://github.com/microsoftgraph/microsoft-graph-devx-content) | Content used by the Dev X API to enhance clients and tooling. | `JavaScript` ★ 33 | 2026-05-10 |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome Dev Tools for coding agents | `TypeScript` ★ 38.9k | 2026-05-10 |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome Dev Tools for coding agents | `TypeScript` ★ 39k | 2026-05-10 |
 | [areibman/bottleneck](https://github.com/areibman/bottleneck) | Code review for AI native teams. Native Electron app for reviewing pull requests dramatically faster than Github web. Specialized for handling reviews for background agents working on multiple conc... | `TypeScript` ★ 154 | 2025-12-04 |
 | [download-directory/download-directory.github.io](https://github.com/download-directory/download-directory.github.io) | Web App: Download just a sub directory from a Git Hub repo. | `TypeScript` ★ 1.8k | 2026-03-03 |
 | [felixrieseberg/windows-build-tools](https://github.com/felixrieseberg/windows-build-tools) | :package: Install C++ Build Tools for Windows using npm | `TypeScript` ★ 3.4k | 2021-06-20 |
@@ -135,6 +242,7 @@
 | [its-a-feature/Mythic](https://github.com/its-a-feature/Mythic) | A collaborative, multi-platform, red teaming framework | `JavaScript` ★ 4.5k | 2026-05-10 |
 | [leonardoventurini/meteor-devtools-evolved](https://github.com/leonardoventurini/meteor-devtools-evolved) | The Meteor framework development tool belt, evolved. | `TypeScript` ★ 178 | 2026-04-23 |
 | [thi-ng/umbrella](https://github.com/thi-ng/umbrella) | ⛱ Broadly scoped ecosystem & mono-repository of 210 Type Script projects (and ~185 examples) for general purpose, functional, data driven development | `TypeScript` ★ 3.8k | 2026-05-08 |
+| [midday-ai/packrun](https://github.com/midday-ai/packrun) | npm for agents and humans | `TypeScript` ★ 3.8k | 2026-02-06 |
 | [vercel/swr](https://github.com/vercel/swr) | React Hooks for Data Fetching | `TypeScript` ★ 32.4k | 2026-04-17 |
 | [umijs/father](https://github.com/umijs/father) | NPM package development tool | `TypeScript` ★ 2.2k | 2026-04-29 |
 | [unjs/pathe](https://github.com/unjs/pathe) | 🛣️ Drop-in replacement of the Node.js's path module module that ensures paths are normalized | `TypeScript` ★ 577 | 2026-05-09 |

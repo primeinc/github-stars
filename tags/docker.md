@@ -1,6 +1,6 @@
 # Tag: docker
 
-*32 repositories*
+*35 repositories*
 
 [← Back to Index](../README.md)
 
@@ -9,6 +9,9 @@
 | [AlexRosbach/LanLens](https://github.com/AlexRosbach/LanLens) | Lan Lens continuously scans your local network, identifies every device by MAC address, and gives you a clean dark-themed web UI to manage, document, and connect to them — all in a single Docker co... | `TypeScript` ★ 81 | 2026-05-09 |
 | [dragonflyoss/dragonfly](https://github.com/dragonflyoss/dragonfly) | Delivers efficient, stable, and secure data distribution and acceleration powered by P2P technology, with an optional content‑addressable filesystem that accelerates OCI container launch. | `Go` ★ 3.2k | 2026-05-07 |
 | [ChristopherHX/github-act-runner](https://github.com/ChristopherHX/github-act-runner) | act as self-hosted runner | `Go` ★ 378 | 2026-03-21 |
+| [docker/docker-credential-helpers](https://github.com/docker/docker-credential-helpers) | Programs to keep Docker login credentials safe by storing in platform keystores | `Go` ★ 1.3k | 2026-05-08 |
+| [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) | 🔥 1Panel is a modern, open-source VPS control panel — and the only one with native AI agent support. Run Ollama models, deploy Open Claw agents, and manage your entire server stack from one clean ... | `Go` ★ 35.4k | 2026-05-09 |
+| [notclickable-jordan/starbase-80](https://github.com/notclickable-jordan/starbase-80) | A nice Docker homepage | `TypeScript` ★ 536 | 2025-10-18 |
 | [Lissy93/domain-locker](https://github.com/Lissy93/domain-locker) | 🌐 The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker! | `TypeScript` ★ 1.4k | 2026-03-16 |
 | [plexinc/pms-docker](https://github.com/plexinc/pms-docker) | Plex Media Server Docker repo, for all your PMS docker needs. | `Go Template` ★ 4k | 2026-05-03 |
 | [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden\_rs | `Rust` ★ 60k | 2026-05-03 |

@@ -1,6 +1,6 @@
 # Frameworks
 
-*78 repositories*
+*88 repositories*
 
 [← Back to Index](../README.md)
 
@@ -10,12 +10,20 @@
 | [KGSpin/kgspin-demo-app](https://github.com/KGSpin/kgspin-demo-app) | KGSpin — reference customer application (Layer 3 per ADR-003) | `Python` ★ 1 | 2026-05-08 |
 | [microsoft/webui](https://github.com/microsoft/webui) | Web UI is a language-agnostic server-side rendering framework that compiles HTML templates into a binary protocol at build time and uses Web Components Islands Architecture for client-side interact... | `Rust` ★ 33 | 2026-05-09 |
 | [honojs/hono](https://github.com/honojs/hono) | Web framework built on Web Standards | `TypeScript` ★ 30.4k | 2026-05-08 |
+| [InsForge/InsForge](https://github.com/InsForge/InsForge) | The all-in-one, open-source backend platform for agentic coding. Ins Forge gives your coding agent database, auth, storage, compute, hosting, and AI gateway to ship full-stack apps end-to-end. | `TypeScript` ★ 9.3k | 2026-05-10 |
+| [shaka-project/shaka-packager](https://github.com/shaka-project/shaka-packager) | A media packaging and development framework for VOD and Live DASH and HLS applications, supporting Common Encryption for Widevine and other DRM Systems. | `C++` ★ 2.5k | 2026-05-07 |
+| [open-mercato/open-mercato](https://github.com/open-mercato/open-mercato) | AI-Engineering Foundation Framework built with AI and designed for AI. Hundreds of architectural and domain decisions (multi-tenancy, RBAC, event flow, pricing, sales pipeline,CRM/ERP processes) ar... | `TypeScript` ★ 1.3k | 2026-05-09 |
+| [TrinityCore/TrinityCore](https://github.com/TrinityCore/TrinityCore) | Trinity Core Open Source MMO Framework (master = 12.0.5.67451, 3.3.5 = 3.3.5a.12340, cata classic = 4.4.2.60895) | `C++` ★ 10.6k | 2026-05-09 |
+| [kach/nearley](https://github.com/kach/nearley) | 📜🔜🌲 Simple, fast, powerful parser toolkit for Java Script. | `JavaScript` ★ 3.7k | 2024-11-14 |
+| [ohmjs/ohm](https://github.com/ohmjs/ohm) | A library and language for building parsers, interpreters, compilers, etc. | `JavaScript` ★ 5.5k | 2026-05-06 |
+| [nasa/openmct](https://github.com/nasa/openmct) | A web based mission control framework. | `JavaScript` ★ 13k | 2026-05-08 |
 | [Effect-TS/effect](https://github.com/Effect-TS/effect) | Build production-ready applications in Type Script | `TypeScript` ★ 14.1k | 2026-05-08 |
 | [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5.2k | 2026-05-09 |
 | [rkyv/rkyv](https://github.com/rkyv/rkyv) | Zero-copy deserialization framework for Rust | `Rust` ★ 4.2k | 2026-05-07 |
 | [meteor-useraccounts/core](https://github.com/meteor-useraccounts/core) | Meteor sign up and sign in templates' core functionalities | `JavaScript` ★ 532 | 2021-07-09 |
+| [julianromli/opencode-template](https://github.com/julianromli/opencode-template) | opencode-template | `Python` ★ 140 | 2026-02-03 |
 | [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | A powerful little TUI framework 🏗 | `Go` ★ 42.2k | 2026-04-24 |
-| [danielmiessler/Daemon](https://github.com/danielmiessler/Daemon) | An open-source personal API framework. | `TypeScript` ★ 205 | 2025-12-16 |
+| [danielmiessler/Daemon](https://github.com/danielmiessler/Daemon) | An open-source personal API framework. | `TypeScript` ★ 206 | 2025-12-16 |
 | [google/flatbuffers](https://github.com/google/flatbuffers) | Flat Buffers: Memory Efficient Serialization Library | `C++` ★ 25.9k | 2026-05-08 |
 | [umbraco/Umbraco-CMS](https://github.com/umbraco/Umbraco-CMS) | Umbraco is a free and open source .NET content management system helping you deliver delightful digital experiences. | `C#` ★ 5.2k | 2026-05-09 |
 | [AndurilCode/mcp-apps-kit](https://github.com/AndurilCode/mcp-apps-kit) | A Type Script framework for building interactive MCP applications that work seamlessly with both MCP Apps and Chat GPT (Open AI Apps SDK) from a single codebase. | `TypeScript` ★ 16 | 2026-04-14 |
@@ -30,6 +38,7 @@
 | [Ido-Levi/Hephaestus](https://github.com/Ido-Levi/Hephaestus) | Semi-Structured Agentic Framework. Workflows build themselves as agents discover what needs to be done, not what you predicted upfront. | `Python` ★ 1.1k | 2025-12-01 |
 | [payloadcms/payload](https://github.com/payloadcms/payload) | Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full Type Script backend and admin panel instantly. Use Payload as a headless CMS or for build... | `TypeScript` ★ 42.3k | 2026-05-09 |
 | [jynew/jynew](https://github.com/jynew/jynew) | Jin Yong Legend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game. | `C#` ★ 8.9k | 2026-03-25 |
+| [next-safe-action/next-safe-action](https://github.com/next-safe-action/next-safe-action) | Type safe and validated Server Actions in your Next.js project. | `TypeScript` ★ 3k | 2026-05-07 |
 | [opf/openproject](https://github.com/opf/openproject) | Open Project is the leading open source project management software. | `Ruby` ★ 15k | 2026-05-10 |
 | [trpc/trpc](https://github.com/trpc/trpc) | 🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | `TypeScript` ★ 40.2k | 2026-05-08 |
 | [gin-gonic/gin](https://github.com/gin-gonic/gin) | Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for ... | `Go` ★ 88.5k | 2026-05-09 |
@@ -47,6 +56,7 @@
 | [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first. | `TypeScript` ★ 72.1k | 2026-05-09 |
 | [moov-io/awesome-fintech](https://github.com/moov-io/awesome-fintech) | A curated collection of open source fintech libraries and resources. | ★ 297 | 2026-05-08 |
 | [ChilliCream/graphql-platform](https://github.com/ChilliCream/graphql-platform) | Welcome to the home of the Hot Chocolate Graph QL server for .NET, the Strawberry Shake Graph QL client for .NET and Nitro the awesome Monaco based Graph QL IDE. | `C#` ★ 5.7k | 2026-05-09 |
+| [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | "The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more | `TypeScript` ★ 83.4k | 2026-05-05 |
 | [alibaba/formily](https://github.com/alibaba/formily) | 📱🚀 🧩 Cross Device & High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3 | `TypeScript` ★ 12.5k | 2025-06-21 |
 | [basementstudio/xmcp](https://github.com/basementstudio/xmcp) | The Type Script MCP framework | `TypeScript` ★ 1.3k | 2026-05-07 |
 | [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) | Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. | `TypeScript` ★ 13.8k | 2026-01-13 |
@@ -56,7 +66,7 @@
 | [scrapy/scrapy](https://github.com/scrapy/scrapy) | Scrapy, a fast high-level web crawling & scraping framework for Python. | `Python` ★ 61.6k | 2026-05-09 |
 | [nuejs/nue](https://github.com/nuejs/nue) | Fastest way to build modern websites | `JavaScript` ★ 8.8k | 2026-02-17 |
 | [versotile-org/tauri-runtime-verso](https://github.com/versotile-org/tauri-runtime-verso) | No description provided | `Rust` ★ 118 | 2025-10-03 |
-| [expo/expo](https://github.com/expo/expo) | An open-source framework for making universal native apps with React. Expo runs on Android, i OS, and the web. | `TypeScript` ★ 49.3k | 2026-05-09 |
+| [expo/expo](https://github.com/expo/expo) | An open-source framework for making universal native apps with React. Expo runs on Android, i OS, and the web. | `TypeScript` ★ 49.3k | 2026-05-10 |
 | [Azure/azure-functions-host](https://github.com/Azure/azure-functions-host) | The host/runtime that powers Azure Functions | `C#` ★ 2k | 2026-05-07 |
 | [electron/electron](https://github.com/electron/electron) | :electron: Build cross-platform desktop apps with Java Script, HTML, and CSS | `C++` ★ 121.2k | 2026-05-10 |
 | [tauri-apps/plugins-workspace](https://github.com/tauri-apps/plugins-workspace) | All of the official Tauri plugins in one place! | `Rust` ★ 1.7k | 2026-05-09 |

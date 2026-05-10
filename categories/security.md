@@ -1,6 +1,6 @@
 # Security
 
-*201 repositories*
+*260 repositories*
 
 [← Back to Index](../README.md)
 
@@ -32,6 +32,63 @@
 | [KnudsenMorten/SecurityInsight](https://github.com/KnudsenMorten/SecurityInsight) | Rethink Secure Score into a new risk-based security risk score, based on consequence, probability and risk factors. Solution includes critical asset tagging, ready-to-use reports (based on Defender... | `PowerShell` ★ 31 | 2026-05-10 |
 | [BigBodyCobain/Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker) | Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. The knowledge is av... | `Python` ★ 6.2k | 2026-05-07 |
 | [0x6d69636b/windows_hardening](https://github.com/0x6d69636b/windows_hardening) | Hardening Kitty and Windows Hardening Settings | `PowerShell` ★ 2.6k | 2026-04-10 |
+| [zumwald/better-vsts-npm-auth](https://github.com/zumwald/better-vsts-npm-auth) | Platform agnostic library and acompanying oauth service enabling developers to easily obtain and use tokens for authorizing NPM feeds in VSTS | `TypeScript` ★ 60 | 2024-07-26 |
+| [docker/docker-credential-helpers](https://github.com/docker/docker-credential-helpers) | Programs to keep Docker login credentials safe by storing in platform keystores | `Go` ★ 1.3k | 2026-05-08 |
+| [jdx/fnox](https://github.com/jdx/fnox) | encrypted/remote secret manager | `Rust` ★ 1.6k | 2026-05-09 |
+| [pyupio/safety](https://github.com/pyupio/safety) | Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected. | `Python` ★ 2k | 2026-03-23 |
+| [gradiuscypher/infosec_getting_started](https://github.com/gradiuscypher/infosec_getting_started) | A collection of resources/documentation/links/etc to help people learn about Infosec and break into the field. | `HTML` ★ 614 | 2025-01-11 |
+| [vivienhenz24/fuzzy-canary](https://github.com/vivienhenz24/fuzzy-canary) | Poor-man's solution to stopping AI companies from scraping your blog | `TypeScript` ★ 269 | 2025-12-19 |
+| [afairgiant/MediKeep](https://github.com/afairgiant/MediKeep) | A lightweight, self-hosted application for managing your personal medical information. Keep your health records organized and accessible while maintaining complete control over your data privacy. | `JavaScript` ★ 432 | 2026-05-10 |
+| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. | `JavaScript` ★ 12.3k | 2026-05-10 |
+| [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the ... | `Go` ★ 28.3k | 2026-05-08 |
+| [AzureAD/microsoft-identity-web](https://github.com/AzureAD/microsoft-identity-web) | Helps creating protected web apps and web APIs with Microsoft identity platform and Azure AD B2C | `C#` ★ 779 | 2026-05-09 |
+| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | Fully autonomous AI Agents system capable of performing complex penetration testing tasks | `Go` ★ 16.7k | 2026-05-09 |
+| [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app) | Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | `Dart` ★ 29.5k | 2026-04-01 |
+| [moonD4rk/HackBrowserData](https://github.com/moonD4rk/HackBrowserData) | Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (mac OS, Windows, Linux). | `Go` ★ 13.9k | 2026-05-02 |
+| [coleam00/remote-mcp-server-with-auth](https://github.com/coleam00/remote-mcp-server-with-auth) | Template for a remote MCP server with Git Hub OAuth - following best practices for building MCP servers so you can take this as a starting point for any MCP server you want to build! | `TypeScript` ★ 293 | 2025-07-11 |
+| [Wh0am123/MCP-Kali-Server](https://github.com/Wh0am123/MCP-Kali-Server) | MCP configuration to connect AI agent to a Linux machine. | `Python` ★ 678 | 2026-03-17 |
+| [GH05TCREW/MetasploitMCP](https://github.com/GH05TCREW/MetasploitMCP) | MCP Server for Metasploit | `Python` ★ 607 | 2026-02-05 |
+| [vectra-ai-research/MAAD-AF](https://github.com/vectra-ai-research/MAAD-AF) | MAAD Attack Framework - An attack tool for simple, fast & effective security testing of M365 & Entra ID (Azure AD). | `PowerShell` ★ 424 | 2026-01-13 |
+| [azurekid/blackcat](https://github.com/azurekid/blackcat) | Black Cat is a Power Shell module designed to validate the security of Microsoft Azure. It provides a set of functions to identify potential security holes. | `PowerShell` ★ 203 | 2026-04-10 |
+| [michaelmsonne/ManagedIdentityPermissionManager](https://github.com/michaelmsonne/ManagedIdentityPermissionManager) | Azure Managed Identity Permissions Tool, a new Power Shell tool that simplifies and streamlines the management of Managed Identity permissions in Azure (Entra ID) | `PowerShell` ★ 130 | 2026-01-26 |
+| [zh54321/EntraTokenAid](https://github.com/zh54321/EntraTokenAid) | A pure Power Shell solution for Entra OAuth authentication, enabling easy retrieval of access and refresh tokens | `PowerShell` ★ 140 | 2026-04-09 |
+| [CompassSecurity/EntraFalcon](https://github.com/CompassSecurity/EntraFalcon) | A lightweight Power Shell tool for assessing the security posture of Microsoft Entra ID environments. It helps identify privileged objects, risky assignments, and potential misconfigurations. | `PowerShell` ★ 420 | 2026-04-24 |
+| [SteffMet/Azure-Office365-Security-Reporting](https://github.com/SteffMet/Azure-Office365-Security-Reporting) | Powershell Script to Check Security and Gather Information within Azure and Office 365 | `PowerShell` ★ 55 | 2025-07-15 |
+| [PalmEmanuel/AzAuth](https://github.com/PalmEmanuel/AzAuth) | A Power Shell module to handle authentication for Azure. | `PowerShell` ★ 41 | 2026-05-04 |
+| [LaresLLC/AzureTokenExtractor](https://github.com/LaresLLC/AzureTokenExtractor) | Extracts Azure authentication tokens from Power Shell process minidumps. | `Python` ★ 25 | 2023-05-20 |
+| [Donovand4/ConditionalAccessPolicyReport](https://github.com/Donovand4/ConditionalAccessPolicyReport) | Power Shell Script used to create a report for Azure AD Conditional Access Policies. | `PowerShell` ★ 37 | 2025-11-19 |
+| [invictus-ir/Microsoft-Extractor-Suite](https://github.com/invictus-ir/Microsoft-Extractor-Suite) | A Power Shell module for acquisition of data from Microsoft 365 and Azure for Incident Response and Cyber Security purposes. | `PowerShell` ★ 801 | 2026-05-06 |
+| [darkquasar/AzureHunter](https://github.com/darkquasar/AzureHunter) | A Cloud Forensics Powershell module to run threat hunting playbooks on data from Azure and O365 | `PowerShell` ★ 790 | 2022-10-29 |
+| [hausec/PowerZure](https://github.com/hausec/PowerZure) | Power Shell framework to assess Azure security | `PowerShell` ★ 1.3k | 2025-10-18 |
+| [thewhiteninja/ntfstool](https://github.com/thewhiteninja/ntfstool) | Forensics tool for NTFS (parser, mft, bitlocker, deleted files) | `C++` ★ 610 | 2023-07-23 |
+| [003random/getJS](https://github.com/003random/getJS) | A tool to fastly get all javascript sources/files | `Go` ★ 869 | 2025-07-04 |
+| [DFIRKuiper/Kuiper](https://github.com/DFIRKuiper/Kuiper) | Digital Forensics Investigation Platform | `JavaScript` ★ 886 | 2024-10-12 |
+| [decalage2/oletools](https://github.com/decalage2/oletools) | oletools - python tools to analyze MS OLE2 files (Structured Storage, Compound File Binary Format) and MS Office documents, for malware analysis, forensics and debugging. | `Python` ★ 3.3k | 2026-02-14 |
+| [SeyZ/clawbands](https://github.com/SeyZ/clawbands) | Claw Bands is a security middleware for Open Claw AI agents. | `TypeScript` ★ 196 | 2026-02-09 |
+| [tlsnotary/tlsn-extension](https://github.com/tlsnotary/tlsn-extension) | Chrome Extension for TLSNotary | `TypeScript` ★ 29 | 2026-05-08 |
+| [p-e-w/heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language models | `Python` ★ 20.7k | 2026-05-09 |
+| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities bef... | `TypeScript` ★ 41.6k | 2026-05-06 |
+| [Safe3/openresty-manager](https://github.com/Safe3/openresty-manager) | Modern, secure, and elegant server control panel, alternative to Open Resty Edge and Nginx Proxy Manager. | `Go` ★ 1.4k | 2026-01-25 |
+| [microsoft/zerotrustassessment](https://github.com/microsoft/zerotrustassessment) | Repository for the Zero Trust Assessment project | `HTML` ★ 336 | 2026-05-09 |
+| [mdp/linkedin-extension-fingerprinting](https://github.com/mdp/linkedin-extension-fingerprinting) | No description provided | `JavaScript` ★ 206 | 2026-02-05 |
+| [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) | Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend. | `Rust` ★ 8.7k | 2026-03-17 |
+| [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses. | `Go` ★ 38.4k | 2026-05-09 |
+| [pompelmi/pompelmi](https://github.com/pompelmi/pompelmi) | Clam AV antivirus scanning for Node.js — scan file uploads with a single function call. Zero dependencies. Typed Symbol verdicts. Local or Docker/clamd. | `JavaScript` ★ 635 | 2026-05-08 |
+| [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | Hex Strike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug ... | `Python` ★ 8.6k | 2026-04-27 |
+| [Yamato-Security/EnableWindowsLogSettings](https://github.com/Yamato-Security/EnableWindowsLogSettings) | Documentation and scripts to properly enable Windows event logs. | `Batchfile` ★ 702 | 2025-10-03 |
+| [Yamato-Security/suzaku](https://github.com/Yamato-Security/suzaku) | Suzaku (朱雀) is a sigma-based threat hunting and fast forensics timeline generator for cloud logs. | `Rust` ★ 174 | 2026-05-03 |
+| [nicolonsky/ITDR](https://github.com/nicolonsky/ITDR) | Collection of Microsoft Identity Threat Detection and Response resources. | `PowerShell` ★ 54 | 2026-05-01 |
+| [microsoft/EntraExporter](https://github.com/microsoft/EntraExporter) | Power Shell module to export a local copy of an Entra (Azure AD) tenant configuration. | `PowerShell` ★ 856 | 2025-11-16 |
+| [systommy/TenantReports](https://github.com/systommy/TenantReports) | A Power Shell module for generating Microsoft 365 and Azure security reports. | `PowerShell` ★ 21 | 2026-03-25 |
+| [killnine/tanstack-msal-entra-troubleshooting](https://github.com/killnine/tanstack-msal-entra-troubleshooting) | Sample Application for Troubleshooting Authz Issues | `TypeScript` ★ 1 | 2026-02-04 |
+| [cfpb/open-source-checklist](https://github.com/cfpb/open-source-checklist) | check internal repos against open source checklist requirements | `JavaScript` ★ 647 | 2019-01-18 |
+| [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) | Language-agnostic SLSA provenance generation for Github Actions | `Go` ★ 572 | 2026-03-29 |
+| [gadievron/raptor](https://github.com/gadievron/raptor) | Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and orchestrating security tool usage, we confi... | `Python` ★ 2.5k | 2026-05-10 |
+| [google/timesketch](https://github.com/google/timesketch) | Collaborative forensic timeline analysis | `Python` ★ 3.3k | 2026-05-05 |
+| [cloud-gov/caulking](https://github.com/cloud-gov/caulking) | Caulking installs global Git hooks that run gitleaks so you don’t accidentally commit or push secrets. | `Shell` ★ 34 | 2026-04-30 |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | Find secrets with Gitleaks 🔑 | `Go` ★ 26.8k | 2026-03-25 |
+| [anonaddy/anonaddy](https://github.com/anonaddy/anonaddy) | Anonymous email forwarding | `PHP` ★ 4.6k | 2026-05-07 |
+| [six2dez/burp-ai-agent](https://github.com/six2dez/burp-ai-agent) | Burp Suite extension that adds built-in MCP tooling, AI-assisted analysis, privacy controls, passive and active scanning and more | `Kotlin` ★ 1.1k | 2026-05-06 |
 | [slopus/murmur](https://github.com/slopus/murmur) | Encrypted Messaging for Clawdbot | `TypeScript` ★ 79 | 2026-04-08 |
 | [pimalaya/ortie](https://github.com/pimalaya/ortie) | CLI to manage OAuth 2.0 access tokens | `Rust` ★ 25 | 2026-02-16 |
 | [sashyo/keylessh](https://github.com/sashyo/keylessh) | No description provided | `TypeScript` ★ 5 | 2026-04-23 |
@@ -46,9 +103,10 @@
 | [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) | OSINT Framework | `JavaScript` ★ 11.3k | 2026-04-03 |
 | [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | Community managed domain list. Generate geosite.dat for V2Ray. | `Go` ★ 8.6k | 2026-05-10 |
 | [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another :crocodile: :package: | `Go` ★ 35k | 2026-05-06 |
+| [tinyauthapp/tinyauth](https://github.com/tinyauthapp/tinyauth) | The tiniest authentication and authorization server you have ever seen. | `Go` ★ 7.3k | 2026-05-10 |
 | [chaitin/SafeLine](https://github.com/chaitin/SafeLine) | Safe Line is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits. | `Go` ★ 21.3k | 2026-04-17 |
 | [matijazezelj/sib](https://github.com/matijazezelj/sib) | SIEM in a box | `Python` ★ 88 | 2026-04-08 |
-| [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 33.1k | 2026-05-09 |
+| [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 33.1k | 2026-05-10 |
 | [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden\_rs | `Rust` ★ 60k | 2026-05-03 |
 | [epi052/feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | `Rust` ★ 7.7k | 2026-04-15 |
 | [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static... | `JavaScript` ★ 21k | 2026-05-08 |
@@ -89,6 +147,7 @@
 | [github/codeql-action](https://github.com/github/codeql-action) | Actions for running Code QL analysis | `TypeScript` ★ 1.5k | 2026-05-08 |
 | [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile) | `C++` ★ 11.8k | 2026-05-08 |
 | [spipm/Depixelization_poc](https://github.com/spipm/Depixelization_poc) | Depix is a Po C for a technique to recover plaintext from pixelized screenshots. | `Python` ★ 4.5k | 2026-04-14 |
+| [next-safe-action/next-safe-action](https://github.com/next-safe-action/next-safe-action) | Type safe and validated Server Actions in your Next.js project. | `TypeScript` ★ 3k | 2026-05-07 |
 | [FalconOpsLLC/goexec](https://github.com/FalconOpsLLC/goexec) | Windows remote execution multitool | `Go` ★ 794 | 2026-03-25 |
 | [Orange-Cyberdefense/GOAD](https://github.com/Orange-Cyberdefense/GOAD) | game of active directory | `PowerShell` ★ 7.8k | 2026-03-12 |
 | [tellerops/teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | `Rust` ★ 3.2k | 2026-01-27 |
@@ -160,12 +219,12 @@
 | [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy) | Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS. | ★ 18.7k | 2026-03-21 |
 | [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest) | A collection of awesome penetration testing resources, tools and other shiny things | ★ 26.1k | 2026-01-25 |
 | [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. | ★ 219.5k | 2024-11-19 |
-| [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username from thousands of sites | `Python` ★ 27.1k | 2026-05-09 |
+| [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username from thousands of sites | `Python` ★ 27.2k | 2026-05-10 |
 | [intuitem/ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community) | CISO Assistant is a one-stop-shop GRC platform for Risk Management, App Sec, Compliance & Audit, TPRM, Privacy, and Reporting. It supports 100+ global frameworks with automatic control mapping, inc... | `Python` ★ 4k | 2026-05-09 |
 | [paulveillard/cybersecurity-cyberinsurance](https://github.com/paulveillard/cybersecurity-cyberinsurance) | An ongoing & curated collection of awesome software best practices and techniques, libraries and frameworks, E-books and videos, websites, blog posts, links to github Repositories, technical guidel... | ★ 3 | 2023-10-18 |
 | [openziti/ziti](https://github.com/openziti/ziti) | The parent project for Open Ziti. Here you will find the executables for a fully zero trust, application embedded, programmable network @Open Ziti | `Go` ★ 4.1k | 2026-05-08 |
 | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | The best IP Toolbox. Easy to check what's your IPs, IP geolocation, check for DNS leaks, examine Web RTC connections, speed test, ping test, MTR test, check website availability, whois search and m... | `Vue` ★ 10.3k | 2026-05-07 |
-| [bee-san/RustScan](https://github.com/bee-san/RustScan) | 🤖 The Modern Port Scanner 🤖 | `Rust` ★ 19.7k | 2026-04-30 |
+| [bee-san/RustScan](https://github.com/bee-san/RustScan) | 🤖 The Modern Port Scanner 🤖 | `Rust` ★ 19.8k | 2026-04-30 |
 | [swipelux/zeroid-secrets-storing-widget](https://github.com/swipelux/zeroid-secrets-storing-widget) | No description provided | `TypeScript` ★ 17 | 2024-01-18 |
 | [paolo-projects/auto-unlocker](https://github.com/paolo-projects/auto-unlocker) | Unlocker for VMWare mac OS | `C++` ★ 4.9k | 2025-09-17 |
 | [alufers/mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger) | Automagically reverse-engineer REST APIs via capturing traffic | `HTML` ★ 9.5k | 2026-04-27 |

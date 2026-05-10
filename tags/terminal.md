@@ -1,6 +1,6 @@
 # Tag: terminal
 
-*24 repositories*
+*28 repositories*
 
 [← Back to Index](../README.md)
 
@@ -8,6 +8,10 @@
 |---|---|---|---|
 | [listr2/listr2](https://github.com/listr2/listr2) | Node JS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive. | `TypeScript` ★ 661 | 2026-05-02 |
 | [unixshells/latch](https://github.com/unixshells/latch) | Terminal multiplexer with built-in remote access. tmux you can SSH into, open in a browser, or connect to with mosh. | `Go` ★ 31 | 2026-04-14 |
+| [zellij-org/zellij](https://github.com/zellij-org/zellij) | A terminal workspace with batteries included | `Rust` ★ 32.3k | 2026-05-08 |
+| [microsoft/cascadia-code](https://github.com/microsoft/cascadia-code) | This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal. | `Python` ★ 27.7k | 2025-03-06 |
+| [mdp/qrterminal](https://github.com/mdp/qrterminal) | QR Codes in your terminal | `Go` ★ 535 | 2025-03-19 |
+| [sindresorhus/ora](https://github.com/sindresorhus/ora) | Elegant terminal spinner | `JavaScript` ★ 9.7k | 2026-04-22 |
 | [PraaneshSelvaraj/coffee.tmux](https://github.com/PraaneshSelvaraj/coffee.tmux) | ☕ Coffee - Modern tmux Plugin Manager | `Python` ★ 53 | 2026-04-17 |
 | [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒ | `TypeScript` ★ 1.9k | 2026-05-10 |
 | [charmbracelet/vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder 📼 | `Go` ★ 19.6k | 2026-05-04 |

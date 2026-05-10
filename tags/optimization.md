@@ -1,12 +1,13 @@
 # Tag: optimization
 
-*6 repositories*
+*7 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [bubbleran/telco-network-configuration](https://github.com/bubbleran/telco-network-configuration) | The goal of this blueprint is to develop an agentic AI workflow that provides insight to the end user on close-to-optimal configuration values for specific RAN parameters at a cell-site. | `Python` ★ 32 | 2025-06-11 |
+| [rollup/rollup](https://github.com/rollup/rollup) | Next-generation ES module bundler | `JavaScript` ★ 26.3k | 2026-05-10 |
 | [sitespeedio/browsertime](https://github.com/sitespeedio/browsertime) | Measure and Optimize Web Performance | `JavaScript` ★ 649 | 2026-05-09 |
 | [Opencode-DCP/opencode-dynamic-context-pruning](https://github.com/Opencode-DCP/opencode-dynamic-context-pruning) | Dynamic context pruning plugin for Open Code - intelligently manages conversation context to optimize token usage | `TypeScript` ★ 2.7k | 2026-05-07 |
 | [alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) | Slimmed and cleaned oh-my-opencode, consumes much less tokens; Help us grow, consider giving a ⭐; | `TypeScript` ★ 4.2k | 2026-05-08 |

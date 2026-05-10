@@ -1,6 +1,6 @@
 # Tag: openai
 
-*17 repositories*
+*18 repositories*
 
 [← Back to Index](../README.md)
 
@@ -9,6 +9,7 @@
 | [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | Code search MCP for Claude Code. Make entire codebase the context for any coding agent. | `TypeScript` ★ 10.9k | 2026-05-06 |
 | [Azure-Samples/rag-postgres-openai-python](https://github.com/Azure-Samples/rag-postgres-openai-python) | A RAG app to ask questions about rows in a database table. Deployable on Azure Container Apps with Postgre SQL Flexible Server. | `Python` ★ 490 | 2026-04-11 |
 | [Azure-Samples/azure-openai-rag-workshop](https://github.com/Azure-Samples/azure-openai-rag-workshop) | Create your own Chat GPT with Retrieval-Augmented-Generation workshop | `Bicep` ★ 148 | 2026-01-20 |
+| [cathrynlavery/codex-skill](https://github.com/cathrynlavery/codex-skill) | Give Claude Code a second opinion using Open AI Codex - automatic plan review via hooks | `Shell` ★ 171 | 2026-04-24 |
 | [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) | Convert any git repository into an engaging podcast | `TypeScript` ★ 807 | 2025-08-30 |
 | [clusterzx/paperless-ai](https://github.com/clusterzx/paperless-ai) | An automated document analyzer for Paperless-ngx using Open AI API, Ollama, Deepseek-r1, Azure and all Open AI API compatible Services to automatically analyze and tag your documents. | `JavaScript` ★ 5.6k | 2026-05-02 |
 | [numman-ali/opencode-openai-codex-auth](https://github.com/numman-ali/opencode-openai-codex-auth) | OAuth authentication plugin for personal coding assistance with Chat GPT Plus/Pro subscriptions - uses Open AI's official authentication method | `TypeScript` ★ 2k | 2026-01-09 |

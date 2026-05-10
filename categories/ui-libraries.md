@@ -1,11 +1,12 @@
 # Ui-libraries
 
-*228 repositories*
+*255 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
+| [metafab/otel-gui](https://github.com/metafab/otel-gui) | A lightweight, local Open Telemetry trace viewer | `TypeScript` ★ 65 | 2026-04-12 |
 | [zuice/hono-tailwind](https://github.com/zuice/hono-tailwind) | A Hono 🔥 middleware for getting started with Tailwind right away! | `TypeScript` ★ 17 | 2026-01-31 |
 | [penpot/penpot](https://github.com/penpot/penpot) | Penpot: The open-source design tool for design and code collaboration | `Clojure` ★ 47.4k | 2026-05-10 |
 | [opral/paraglide-js](https://github.com/opral/paraglide-js) | Compiler-based i18n library that emits tree-shakable translations, leading to up to 70% smaller bundle sizes. | `TypeScript` ★ 400 | 2026-04-29 |
@@ -16,7 +17,7 @@
 | [outsourc-e/hermes-workspace](https://github.com/outsourc-e/hermes-workspace) | Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector. | `JavaScript` ★ 3.7k | 2026-05-08 |
 | [tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts) | Performant financial charts built with HTML5 canvas | `TypeScript` ★ 15.7k | 2026-05-05 |
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness better at design. | `JavaScript` ★ 26.6k | 2026-05-04 |
-| [farzaa/clicky](https://github.com/farzaa/clicky) | No description provided | `Swift` ★ 5.6k | 2026-04-28 |
+| [farzaa/clicky](https://github.com/farzaa/clicky) | No description provided | `Swift` ★ 5.7k | 2026-04-28 |
 | [crazyscot/casparcg-client](https://github.com/crazyscot/casparcg-client) | Clients and templates for the Caspar CG broadcast graphics engine | `JavaScript` ★ 17 | 2022-08-18 |
 | [TuomoKu/SPX-GC](https://github.com/TuomoKu/SPX-GC) | SPX is a graphics control client for live video productions and live streams using Caspar CG, OBS, v Mix, or similar software. | `JavaScript` ★ 409 | 2026-03-09 |
 | [nodecg/nodecg](https://github.com/nodecg/nodecg) | Create broadcast graphics using Node.js and a browser | `TypeScript` ★ 1.3k | 2025-12-08 |
@@ -26,10 +27,35 @@
 | [epixoul/Inkoray-GUI](https://github.com/epixoul/Inkoray-GUI) | A GUI/cmd base software to control any type of printer (laser, inkjet, thermal, POS, etc.) and create custom templates and patterns! | ★ 2 | 2025-01-24 |
 | [zhangxilong-43/SecurePdfViewerForReact](https://github.com/zhangxilong-43/SecurePdfViewerForReact) | A secure PDF viewer component for React. Uses canvas-only rendering to prevent XSS attacks from malicious PDF files. | `TypeScript` ★ 2 | 2026-03-17 |
 | [sergelib/sitemap-visualizer](https://github.com/sergelib/sitemap-visualizer) | An interactive D3.js visualization tool to explore XML sitemaps as navigable tree and sunburst hierarchies | `JavaScript` ★ 2 | 2026-01-28 |
+| [megakode/wallrus](https://github.com/megakode/wallrus) | Gnome (GTK4) application to generate colorful wallpapers based on gradients and different effects. | `Rust` ★ 58 | 2026-03-10 |
+| [unoplatform/uno](https://github.com/unoplatform/uno) | Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly. Create rich, C#/XAML, single-codebase apps from any IDE. Hot Reload included! 90m+ Nu Get Dow... | `C#` ★ 9.9k | 2026-05-10 |
+| [memvid/design-memory](https://github.com/memvid/design-memory) | Extract and reproduce design systems from any website using deterministic analysis and LLM interpretation. | `TypeScript` ★ 125 | 2026-02-15 |
+| [aykutkardas/svgps.app](https://github.com/aykutkardas/svgps.app) | SVGPS converts your icons into a single JSON file that is ready to use in your frontend or mobile projects. | `TypeScript` ★ 321 | 2026-02-17 |
+| [MaibornWolff/codecharta](https://github.com/MaibornWolff/codecharta) | Code Charta is a visualization tool that transforms complex software architecture and code metrics into interactive, customizable visual maps, empowering everyone to communicate and analyze your co... | `TypeScript` ★ 442 | 2026-05-07 |
+| [daniele77/cli](https://github.com/daniele77/cli) | A library for interactive command line interfaces in modern C++ | `C++` ★ 1.4k | 2025-12-22 |
+| [omgovich/colord](https://github.com/omgovich/colord) | 👑 A tiny yet powerful tool for high-performance color manipulations and conversions | `TypeScript` ★ 1.9k | 2023-10-02 |
+| [vue-styleguidist/vue-styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) | Created from react styleguidist for Vue Components with a living style guide | `TypeScript` ★ 2.5k | 2026-05-06 |
+| [rtfpessoa/diff2html](https://github.com/rtfpessoa/diff2html) | Pretty diff to html javascript library (diff2html) | `TypeScript` ★ 3.4k | 2026-05-08 |
+| [prag-matt-ic/ps5-inspired-landing-page](https://github.com/prag-matt-ic/ps5-inspired-landing-page) | PS5 loading screen inspired showcase | `TypeScript` ★ 16 | 2025-03-25 |
+| [live-codes/livecodes](https://github.com/live-codes/livecodes) | A Code Playground That Just Works! | `TypeScript` ★ 1.4k | 2026-05-08 |
+| [nyeya/live-editor](https://github.com/nyeya/live-editor) | A realtime live code editor for your frontend projects | `TypeScript` ★ 2 | 2025-10-12 |
+| [codesandbox/sandpack](https://github.com/codesandbox/sandpack) | A component toolkit for creating live-running code editing experiences, using the power of Code Sandbox. | `TypeScript` ★ 6.1k | 2025-04-24 |
+| [dialpad/dialtone](https://github.com/dialpad/dialtone) | The main repository for all of Dialpad's design system resources. | `JavaScript` ★ 14 | 2026-05-10 |
+| [d3/d3](https://github.com/d3/d3) | Bring data to life with SVG, Canvas and HTML. :bar\_chart::chart\_with\_upwards\_trend::tada: | `Shell` ★ 112.9k | 2025-12-02 |
+| [homarr-labs/homarr](https://github.com/homarr-labs/homarr) | A modern and easy to use dashboard. 40+ integrations. 20K+ icons built in. Authentication out of the box. No YAML, drag and drop configuration. | `TypeScript` ★ 3.7k | 2026-05-10 |
+| [bvaughn/react-resizable-panels](https://github.com/bvaughn/react-resizable-panels) | No description provided | `TypeScript` ★ 5.2k | 2026-05-02 |
+| [ExperienceLovelace/ha-floorplan](https://github.com/ExperienceLovelace/ha-floorplan) | Bring new life to Home Assistant. By mapping entities to a SVG-object, you're able to control devices, show states, calling services - and much more. Add custom styling on top, to visualize whateve... | `TypeScript` ★ 1.5k | 2026-05-09 |
+| [mathuo/dockview](https://github.com/mathuo/dockview) | Zero dependency docking layout manager supporting tabs, groups, grids and splitviews. Supports React, Vue, Angular, and vanilla Type Script. | `TypeScript` ★ 3.2k | 2026-05-08 |
+| [udecode/plate](https://github.com/udecode/plate) | Rich-text editor with AI and shadcn/ui | `TypeScript` ★ 16.2k | 2026-05-09 |
+| [wet-boew/wet-boew](https://github.com/wet-boew/wet-boew) | Web Experience Toolkit (WET): Open source code library for building innovative websites that are accessible, usable, interoperable, mobile-friendly and multilingual. This collaborative open source ... | `Handlebars` ★ 1.7k | 2026-05-09 |
+| [cytoscape/cytoscape.js](https://github.com/cytoscape/cytoscape.js) | Graph theory (network) library for visualisation and analysis | `JavaScript` ★ 11k | 2026-05-09 |
+| [eslint/config-inspector](https://github.com/eslint/config-inspector) | A visual tool for inspecting and understanding your ESLint flat configs. | `Vue` ★ 1.3k | 2026-05-07 |
+| [visgl/react-map-gl](https://github.com/visgl/react-map-gl) | React friendly API wrapper around Mapbox GL JS | `TypeScript` ★ 8.5k | 2026-04-11 |
 | [mark-when/markwhen](https://github.com/mark-when/markwhen) | Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more. | `HTML` ★ 4.8k | 2023-12-11 |
 | [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | SVG icons for popular brands | `JavaScript` ★ 25.1k | 2026-05-10 |
 | [evolus/pencil](https://github.com/evolus/pencil) | The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use. | `JavaScript` ★ 9.8k | 2026-04-07 |
 | [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) | Open Video Downloader - A cross-platform GUI for youtube-dl made in Rust with Tauri and Vue + Typescript. | `Rust` ★ 8.2k | 2026-05-08 |
+| [pedronauck/docz](https://github.com/pedronauck/docz) | ✍ It has never been so easy to document your things! | `TypeScript` ★ 23.6k | 2025-11-21 |
 | [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5.2k | 2026-05-09 |
 | [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | AI → JSON → UI | `TypeScript` ★ 14.7k | 2026-05-07 |
 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it! | `TypeScript` ★ 24.3k | 2026-05-10 |
@@ -43,11 +69,12 @@
 | [suitenumerique/meet](https://github.com/suitenumerique/meet) | Open source video conferencing app powered by Live Kit. | `Python` ★ 2k | 2026-05-09 |
 | [devicons/devicon](https://github.com/devicons/devicon) | Set of icons representing programming languages, designing & development tools | `CSS` ★ 11.6k | 2026-04-02 |
 | [dvdsgl/claude-canvas](https://github.com/dvdsgl/claude-canvas) | Give Claude Code an external monitor | `TypeScript` ★ 1.5k | 2026-01-08 |
-| [microsoft/data-formulator](https://github.com/microsoft/data-formulator) | 🪄 Create rich visualizations with AI | `TypeScript` ★ 15.3k | 2026-05-09 |
+| [microsoft/data-formulator](https://github.com/microsoft/data-formulator) | 🪄 Create rich visualizations with AI | `TypeScript` ★ 15.3k | 2026-05-10 |
 | [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 30.4k | 2026-05-07 |
 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | A browser based code editor | `JavaScript` ★ 46k | 2026-05-09 |
 | [engageintellect/spatz-2](https://github.com/engageintellect/spatz-2) | just like spatz... but for svelte5, with shadcn-svelte, svelte-animations, svelte-superforms, stripe payments, subscriptions, content-filtering, and more. | `Svelte` ★ 325 | 2025-09-12 |
 | [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo) | LTX-Video Support for Comfy UI | `Python` ★ 3.6k | 2026-04-26 |
+| [nilbuild/claude-run](https://github.com/nilbuild/claude-run) | A beautiful web UI for browsing Claude Code conversation history. | `TypeScript` ★ 595 | 2026-02-23 |
 | [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) | Map Libre GL JS - Interactive vector tile maps in the browser | `TypeScript` ★ 10.6k | 2026-05-08 |
 | [Quaggles/SwarmUI-FaceTools](https://github.com/Quaggles/SwarmUI-FaceTools) | A Swarm UI extension that adds parameters for Re Actor to the the generate tab | `C#` ★ 28 | 2026-05-09 |
 | [jayfunc/BetterLyrics](https://github.com/jayfunc/BetterLyrics) | An elegant and deeply customizable lyrics visualizer & versatile music player, built with Win UI3/Win2D | 一款优雅且高度自定义的歌词可视化与全能音乐播放应用，基于 Win UI3/Win2D 构建 | `C#` ★ 1.9k | 2026-05-09 |
@@ -105,7 +132,7 @@
 | [CatWaterCodes/ImageToParallaxWallpaper](https://github.com/CatWaterCodes/ImageToParallaxWallpaper) | A simple tool that allows you to create parallax wallpapers using html/css/js from a single image. | `Python` ★ 24 | 2026-02-13 |
 | [OvidijusParsiunas/deep-chat](https://github.com/OvidijusParsiunas/deep-chat) | Fully customizable AI chatbot component for your website | `TypeScript` ★ 3.6k | 2026-05-08 |
 | [formatjs/formatjs](https://github.com/formatjs/formatjs) | The monorepo home to all of the Format JS related libraries, most notably react-intl. | `TypeScript` ★ 14.7k | 2026-05-10 |
-| [home-assistant/frontend](https://github.com/home-assistant/frontend) | :lollipop: Frontend for Home Assistant | `TypeScript` ★ 5.4k | 2026-05-09 |
+| [home-assistant/frontend](https://github.com/home-assistant/frontend) | :lollipop: Frontend for Home Assistant | `TypeScript` ★ 5.4k | 2026-05-10 |
 | [rocksdanister/lively](https://github.com/rocksdanister/lively) | Free and open-source software that allows users to set animated desktop wallpapers and screensavers powered by Win UI 3. | `C#` ★ 18.8k | 2026-04-30 |
 | [puckeditor/puck](https://github.com/puckeditor/puck) | The visual editor for React with AI superpowers | `TypeScript` ★ 12.6k | 2026-05-05 |
 | [usekaneo/kaneo](https://github.com/usekaneo/kaneo) | 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you. | `TypeScript` ★ 3.5k | 2026-05-10 |

@@ -1,6 +1,6 @@
 # Tag: cli
 
-*32 repositories*
+*40 repositories*
 
 [← Back to Index](../README.md)
 
@@ -11,12 +11,20 @@
 | [microsoft/rnx-kit](https://github.com/microsoft/rnx-kit) | Modern, scalable tools. Exceptional developer experience. | `TypeScript` ★ 1.7k | 2026-05-09 |
 | [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ... | `JavaScript` ★ 19.5k | 2026-05-10 |
 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | `Rust` ★ 26k | 2026-05-10 |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ | `Python` ★ 34.1k | 2026-05-06 |
+| [adambajguz/Typin](https://github.com/adambajguz/Typin) | Declarative framework for interactive CLI applications | `C#` ★ 253 | 2025-06-18 |
+| [daniele77/cli](https://github.com/daniele77/cli) | A library for interactive command line interfaces in modern C++ | `C++` ★ 1.4k | 2025-12-22 |
+| [conradkoh/artifact-cli](https://github.com/conradkoh/artifact-cli) | No description provided | `TypeScript` ★ 1 | 2026-01-12 |
+| [11happy/cpx](https://github.com/11happy/cpx) | cp reimagined | `Rust` ★ 423 | 2026-03-06 |
+| [mdp/qrterminal](https://github.com/mdp/qrterminal) | QR Codes in your terminal | `Go` ★ 535 | 2025-03-19 |
+| [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | A smarter cd command. Supports all major shells. | `Rust` ★ 36.5k | 2026-05-08 |
 | [SamyRai/namecheap](https://github.com/SamyRai/namecheap) | A CLI tool for managing Namecheap domains and DNS records with multi-account support | `Go` ★ 2 | 2026-02-05 |
 | [PraaneshSelvaraj/coffee.tmux](https://github.com/PraaneshSelvaraj/coffee.tmux) | ☕ Coffee - Modern tmux Plugin Manager | `Python` ★ 53 | 2026-04-17 |
 | [steipete/summarize](https://github.com/steipete/summarize) | Point at any URL/You Tube/Podcast or file. Get the gist. CLI and Chrome Extension. | `TypeScript` ★ 5.9k | 2026-05-09 |
 | [curtosis-org/phub-cli](https://github.com/curtosis-org/phub-cli) | Terminal-based Porn Hub browser inspired by ani-cli. Browse categories, search videos, and stream instantly in mpv without opening a browser. | `Shell` ★ 136 | 2026-04-29 |
 | [pimalaya/himalaya](https://github.com/pimalaya/himalaya) | CLI to manage emails | `Rust` ★ 6.1k | 2026-05-06 |
 | [shadawck/awesome-cli-frameworks](https://github.com/shadawck/awesome-cli-frameworks) | Collection of tools to build beautiful command line interface in different languages | `HTML` ★ 1.2k | 2024-09-27 |
+| [openclaw/mcporter](https://github.com/openclaw/mcporter) | Call MCPs via Type Script, masquerading as simple Type Script API. Or package them as cli. | `TypeScript` ★ 4.4k | 2026-05-09 |
 | [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | A powerful little TUI framework 🏗 | `Go` ★ 42.2k | 2026-04-24 |
 | [suzuki-shunsuke/ghtkn](https://github.com/suzuki-shunsuke/ghtkn) | A CLI to create short-lived (8 hours) Git Hub App User Access Token for secure local development | `Go` ★ 144 | 2026-05-10 |
 | [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | 🖥 📊 🕹 🛠 A curated list of command line apps | `Shell` ★ 19.5k | 2026-05-08 |

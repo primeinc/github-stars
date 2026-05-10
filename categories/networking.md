@@ -1,6 +1,6 @@
 # Networking
 
-*165 repositories*
+*176 repositories*
 
 [← Back to Index](../README.md)
 
@@ -23,7 +23,18 @@
 | [cityssm/snmp-oid-collector](https://github.com/cityssm/snmp-oid-collector) | Collect OID values from a series of SNMP-enabled servers in a flash! | `TypeScript` ★ 4 | 2026-02-02 |
 | [BigBodyCobain/Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker) | Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. The knowledge is av... | `Python` ★ 6.2k | 2026-05-07 |
 | [dragonflyoss/dragonfly](https://github.com/dragonflyoss/dragonfly) | Delivers efficient, stable, and secure data distribution and acceleration powered by P2P technology, with an optional content‑addressable filesystem that accelerates OCI container launch. | `Go` ★ 3.2k | 2026-05-07 |
+| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 117k | 2026-05-10 |
+| [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 467 | 2026-04-27 |
+| [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app) | Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | `Dart` ★ 29.5k | 2026-04-01 |
 | [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | A community driven registry service for Model Context Protocol (MCP) servers. | `Go` ★ 6.8k | 2026-05-08 |
+| [dead10ck/nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns) | DNS utility for nushell | `Rust` ★ 53 | 2026-05-03 |
+| [ninenines/cowlib](https://github.com/ninenines/cowlib) | Support library for manipulating Web protocols. | `Erlang` ★ 292 | 2026-05-05 |
+| [kevinburke/ssh_config](https://github.com/kevinburke/ssh_config) | Go parser for ssh\_config files | `Go` ★ 469 | 2026-05-04 |
+| [sirkirby/unifi-mcp](https://github.com/sirkirby/unifi-mcp) | MCP servers for the Uni Fi suite of applications, Network, Protect, Access, and Drive | `Python` ★ 327 | 2026-05-10 |
+| [gbassaragh/Unifi-mcp](https://github.com/gbassaragh/Unifi-mcp) | MCP server for Uni Fi Network and Protect API integration - AI-powered network management | `Python` ★ 2 | 2026-01-10 |
+| [zabbix/zabbix](https://github.com/zabbix/zabbix) | Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud. | `Go Template` ★ 5.9k | 2026-05-08 |
+| [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses. | `Go` ★ 38.4k | 2026-05-09 |
+| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | `TypeScript` ★ 29.2k | 2026-05-09 |
 | [slopus/murmur](https://github.com/slopus/murmur) | Encrypted Messaging for Clawdbot | `TypeScript` ★ 79 | 2026-04-08 |
 | [amnezia-vpn/amneziawg-windows-client](https://github.com/amnezia-vpn/amneziawg-windows-client) | Amnezia WG client for Windows | `Go` ★ 791 | 2026-02-27 |
 | [pimalaya/himalaya](https://github.com/pimalaya/himalaya) | CLI to manage emails | `Rust` ★ 6.1k | 2026-05-06 |
@@ -68,7 +79,7 @@
 | [MythicAgents/Apollo](https://github.com/MythicAgents/Apollo) | A .NET Framework 4.0 Windows Agent | `C#` ★ 538 | 2026-04-30 |
 | [SpecterOps/BloodHound](https://github.com/SpecterOps/BloodHound) | Six Degrees of Domain Admin | `Go` ★ 3k | 2026-05-09 |
 | [1r0BIT/TaskHound](https://github.com/1r0BIT/TaskHound) | Tool to enumerate privileged Scheduled Tasks on Remote Systems | `Python` ★ 295 | 2026-03-29 |
-| [deskflow/deskflow](https://github.com/deskflow/deskflow) | Share a single keyboard and mouse between multiple computers. | `C++` ★ 25.7k | 2026-05-09 |
+| [deskflow/deskflow](https://github.com/deskflow/deskflow) | Share a single keyboard and mouse between multiple computers. | `C++` ★ 25.7k | 2026-05-10 |
 | [mikecutalo/unifi-mcp-server](https://github.com/mikecutalo/unifi-mcp-server) | An MCP Server for interacting with Unifi networks. | `Python` ★ 3 | 2025-07-14 |
 | [soimthe1/snmp-printer-utility](https://github.com/soimthe1/snmp-printer-utility) | A fast, Go-powered CLI tool to scan and monitor SNMP-enabled printers across networks. Discover printers, fetch real-time status, supply levels (toner/ink), tray capacities, and page counts using S... | `Go` ★ 3 | 2025-02-26 |
 | [SaintScraTchY/Print-Relay-Server](https://github.com/SaintScraTchY/Print-Relay-Server) | Print Relay is an open-source, self-hosted platform for managing and sharing printers (and potentially other devices) across networks. Designed with modern technologies, it enables seamless device ... | `C#` ★ 6 | 2026-02-20 |
@@ -123,7 +134,7 @@
 | [seriousm4x/UpSnap](https://github.com/seriousm4x/UpSnap) | A simple wake on lan web app written with Svelte Kit, Go and Pocket Base. | `Go` ★ 5.6k | 2026-04-27 |
 | [openziti/ziti](https://github.com/openziti/ziti) | The parent project for Open Ziti. Here you will find the executables for a fully zero trust, application embedded, programmable network @Open Ziti | `Go` ★ 4.1k | 2026-05-08 |
 | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | The best IP Toolbox. Easy to check what's your IPs, IP geolocation, check for DNS leaks, examine Web RTC connections, speed test, ping test, MTR test, check website availability, whois search and m... | `Vue` ★ 10.3k | 2026-05-07 |
-| [bee-san/RustScan](https://github.com/bee-san/RustScan) | 🤖 The Modern Port Scanner 🤖 | `Rust` ★ 19.7k | 2026-04-30 |
+| [bee-san/RustScan](https://github.com/bee-san/RustScan) | 🤖 The Modern Port Scanner 🤖 | `Rust` ★ 19.8k | 2026-04-30 |
 | [timminator/ParsecVDA-Always-Connected](https://github.com/timminator/ParsecVDA-Always-Connected) | Connects a Virtual Display to your PC and allows for a headless operation - no need for Dummy Plugs anymore! Now as a Windows service! | `C++` ★ 149 | 2024-07-15 |
 | [arasharchor/jetson-video](https://github.com/arasharchor/jetson-video) | Unified streaming drivers and utilities for codecs, cameras, and displays including gstreamer, V4L2, Gig E, CUDA, Open GL, and others. | `C++` ★ 11 | 2016-09-18 |
 | [SierraSoftworks/tailscale-unifi](https://github.com/SierraSoftworks/tailscale-unifi) | Run Tailscale on your Uni Fi OS device | `Shell` ★ 1.5k | 2026-05-09 |
@@ -154,7 +165,7 @@
 | [dxa4481/WPA2-HalfHandshake-Crack](https://github.com/dxa4481/WPA2-HalfHandshake-Crack) | This is a POC to show it is possible to capture enough of a handshake with a user from a fake AP to crack a WPA2 network without knowing the passphrase of the actual AP. | `Python` ★ 594 | 2022-03-03 |
 | [liftoff/GateOne](https://github.com/liftoff/GateOne) | Gate One is an HTML5-powered terminal emulator and SSH client | `JavaScript` ★ 6.3k | 2023-03-17 |
 | [glyptodon/guacamole-server](https://github.com/glyptodon/guacamole-server) | The Guacamole project is now Apache Guacamole (http://guacamole.apache.org/). This repository has been repurposed as the base for the Apache Guacamole packages built for Glyptodon Enterprise. | `C` ★ 1k | 2023-07-17 |
-| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 58.5k | 2026-05-09 |
+| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 58.5k | 2026-05-10 |
 | [chall32/WinCDP](https://github.com/chall32/WinCDP) | Cisco Discovery for Windows | ★ 63 | 2012-10-02 |
 | [matbeedotcom/chromecast-audio-stream](https://github.com/matbeedotcom/chromecast-audio-stream) | Stream your Windows PC's audio to the Chromecast | `JavaScript` ★ 965 | 2020-03-26 |
 | [AmirAzodi/cloudflare_ddns](https://github.com/AmirAzodi/cloudflare_ddns) | Python-based Dynamic DNS client for Cloud Flare. | `Python` ★ 59 | 2017-09-21 |

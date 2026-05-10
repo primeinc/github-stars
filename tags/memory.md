@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | Open Viking is an open-source context database designed specifically for AI Agents(such as openclaw). Open Viking unifies the management of context (memory, resources, and skills) that Agents need ... | `Python` ★ 23.7k | 2026-05-09 |
+| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | Open Viking is an open-source context database designed specifically for AI Agents(such as openclaw). Open Viking unifies the management of context (memory, resources, and skills) that Agents need ... | `Python` ★ 23.7k | 2026-05-10 |
 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | The best-benchmarked open-source AI memory system. And it's free. | `Python` ★ 51.8k | 2026-05-10 |
 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory for 24/7 proactive agents like clawdbot. | `Python` ★ 13.6k | 2026-04-22 |
 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | Hindsight: Agent Memory That Works Like Human Memory | `Python` ★ 12.8k | 2026-05-08 |
