@@ -1,0 +1,26 @@
+fragment RepoMetadata on Repository {
+  description
+  primaryLanguage { name }
+  repositoryTopics(first: 20) {
+    nodes { topic { name } }
+  }
+  isArchived
+  isFork
+  isPrivate
+  stargazerCount
+  forkCount
+  updatedAt
+  pushedAt
+  diskUsage
+  owner { avatarUrl }
+  url
+  defaultBranchRef {
+    name
+    target { ... on Commit { oid } }
+  }
+  homepageUrl
+  isMirror
+  mirrorUrl
+  licenseInfo { spdxId }
+  latestRelease { tagName publishedAt }
+}
