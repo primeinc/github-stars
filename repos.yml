@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-10T07:26:13.732Z'
+  manifest_updated_at: '2026-05-10T07:26:54.242Z'
   total_repos: 2612
   generator_version: v1.0.0
   github_user: primeinc
@@ -17736,13 +17736,17 @@ repositories:
     framework: null
   - repo: merill/awesome-entra
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - awesome-list
+      - entra
+      - microsoft
     summary: 😎 Awesome list of all things related to Microsoft Entra
     last_synced_sha: 8a205798cd48d35e47eae57e5a45d6e04b046f07
     user_starred_at: '2026-02-05T04:59:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -17764,15 +17768,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.111Z'
+      prompt_version: v3
   - repo: microsoft/EntraExporter
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - azure-ad
+      - entra
+      - backup
+      - lang:powershell
     summary: Power Shell module to export a local copy of an Entra (Azure AD) tenant configuration.
     last_synced_sha: ce0d04cf096611183258d65a8e5aa487c55a1f5f
     user_starred_at: '2026-02-05T04:58:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -17794,15 +17807,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.111Z'
+      prompt_version: v3
   - repo: systommy/TenantReports
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - microsoft-365
+      - security-reports
+      - lang:powershell
     summary: A Power Shell module for generating Microsoft 365 and Azure security reports.
     last_synced_sha: 434e866f7b7da7285c6984195cad19d6af583225
     user_starred_at: '2026-02-05T04:50:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -17820,15 +17841,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.111Z'
+      prompt_version: v3
   - repo: callstackincubator/agent-device
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - mobile-dev
+    tags:
+      - ai
+      - mobile
+      - testing
+      - lang:ts
     summary: CLI to control i OS and Android devices for AI agents
     last_synced_sha: 0fcb1d561cb71b8b2c7f9f2a2ae7afc4f53c5b20
     user_starred_at: '2026-02-05T01:41:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -17851,15 +17881,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.111Z'
+      prompt_version: v3
   - repo: jitsi/jitsi-meet
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - networking
+    tags:
+      - video-conferencing
+      - webrtc
+      - lang:ts
     summary: Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
     last_synced_sha: 52d031d34889479a9298cc6d0ecbfca9b16bcb55
     user_starred_at: '2026-02-04T19:56:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -17887,15 +17925,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.111Z'
+      prompt_version: v3
   - repo: Songmu/tagpr
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - github-actions
+      - releases
+      - lang:go
     summary: automatically creates and updates a pull request for unreleased items, tag them when they are merged, and create releases.
     last_synced_sha: 555e72cee68c09d43dc2337dc9ba890955b630da
     user_starred_at: '2026-02-04T18:47:31Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17915,15 +17961,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.111Z'
+      prompt_version: v3
   - repo: mspnp/aks-baseline
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+    tags:
+      - kubernetes
+      - aks
+      - azure
+      - lang:bicep
     summary: This is the Azure Kubernetes Service (AKS) Baseline Cluster reference implementation as produced by the Microsoft Azure Architecture Center.
     last_synced_sha: 0b468aa858bb9ca568f2967b90c08252e45cd84c
     user_starred_at: '2026-02-04T18:47:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics:
@@ -17955,15 +18010,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.110Z'
+      prompt_version: v3
   - repo: hey-api/openapi-ts
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - codegen
+      - sdk
+      - lang:ts
+      - nextjs
     summary: 🌀 Open API to Type Script codegen. Production-grade SDKs, Zod schemas, Tan Stack Query hooks, and 20+ plugins. Used by Vercel, Open Code, and Pay Pal.
     last_synced_sha: 1721aa601f0e16d2268815e745a4b80e1798eb2a
     user_starred_at: '2026-02-04T18:44:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -17997,16 +18061,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.110Z'
+      prompt_version: v3
   - repo: killnine/tanstack-msal-entra-troubleshooting
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - authorization
+      - troubleshooting
+      - lang:ts
     summary: Sample Application for Troubleshooting Authz Issues
     last_synced_sha: 9a5a6e89c713acfb722b6c0039d864b11d6f6109
     user_starred_at: '2026-02-04T09:59:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -18024,15 +18096,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.110Z'
+      prompt_version: v3
   - repo: wet-boew/wet-boew
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - accessibility
+      - multilingual
+      - lang:handlebars
     summary: 'Web Experience Toolkit (WET): Open source code library for building innovative websites that are accessible, usable, interoperable, mobile-friendly and multilingual. This collaborative open source ...'
     last_synced_sha: 58e267a255625dde7a0914e02e7ff99ca6d93b9e
     user_starred_at: '2026-02-04T04:59:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Handlebars
       topics:
@@ -18055,15 +18135,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.110Z'
+      prompt_version: v3
   - repo: project-open-data/project-open-data.github.io
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - open-data
+      - policy
+      - lang:html
     summary: Open Data Policy — Managing Information as an Asset
     last_synced_sha: f136070aa9fea595277f6ebd1cd66f57ff504dfd
     user_starred_at: '2026-02-04T04:59:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: HTML
@@ -18082,15 +18170,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.110Z'
+      prompt_version: v3
   - repo: codeforamerica/adopt-a-hydrant
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - productivity
+    tags:
+      - civic-infrastructure
+      - community
+      - lang:ruby
     summary: A web application that allows citizens to "adopt" civic infrastructure, such as fire hydrants that need to be shoveled out after it snows.
     last_synced_sha: 803c8ea993d4bd6fc1a9dd76447de41f106ac5b6
     user_starred_at: '2026-02-04T04:59:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics: []
@@ -18108,15 +18204,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.110Z'
+      prompt_version: v3
   - repo: nasa/openmct
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - mission-control
+      - space
+      - lang:js
     summary: A web based mission control framework.
     last_synced_sha: 9a855cf70274b9b45f4d537b7e23e50450ad738d
     user_starred_at: '2026-02-04T04:59:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -18134,15 +18238,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.110Z'
+      prompt_version: v3
   - repo: cfpb/open-source-checklist
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - security
+    tags:
+      - checklist
+      - open-source
+      - lang:js
     summary: check internal repos against open source checklist requirements
     last_synced_sha: 286af5639e181af553dbff62b076f73b3ffb4a34
     user_starred_at: '2026-02-04T04:58:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: JavaScript
@@ -18161,15 +18273,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.110Z'
+      prompt_version: v3
   - repo: 18F/development-guide
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - guidelines
+      - best-practices
+      - lang:html
     summary: A set of guidelines and best practices for an awesome software engineering team
     last_synced_sha: 8df7e990d969ec1e3708ecdb07a4bd5740c168d6
     user_starred_at: '2026-02-04T04:58:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: HTML
@@ -18188,6 +18308,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:26:53.110Z'
+      prompt_version: v3
   - repo: slsa-framework/slsa-github-generator
     categories:
       - security
