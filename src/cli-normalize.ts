@@ -99,7 +99,7 @@ try {
 
 	if (checkMode) {
 		console.log(
-			pc.cyan("ℹ") + "  Running in check mode - no files will be modified",
+			`${pc.cyan("ℹ")}  Running in check mode - no files will be modified`,
 		);
 		if (result.summary.modifiedRepos > 0) {
 			console.log(`${pc.red("✗")} Manifest needs normalization`);
