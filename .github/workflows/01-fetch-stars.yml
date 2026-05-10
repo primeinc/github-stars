@@ -127,16 +127,26 @@ jobs:
             let allRepos = [];
             let pageCount = 0;
             let retryCount = 0;
-            
+            // Captures the reason this fetch did NOT complete a full pagination
+            // walk. Set to a non-empty string by every "save partial and break"
+            // branch below. Read after the loop to decide between success and
+            // hard-fail. Without this gate, a 502 storm on page 2 of a
+            // thousands-of-stars account silently saves 100 partial results
+            // and reports success — downstream then reconciles repos.yml
+            // against a sliver of the real star set. See run 25619285899
+            // (saved 97 partial results after exhausting 6 retries on page 2)
+            // and `.sisyphus/proofs/02M-mode-correction.md`.
+            let partialFailureReason = '';
+
             while (hasNextPage) {
               pageCount++;
               core.info(`Fetching page ${pageCount}...`);
-              
+
               try {
                 const result = await github.graphql(STARS_QUERY, cursor ? { cursor } : {});
                 const repos = result.viewer.starredRepositories;
                 retryCount = 0;
-                
+
                 const pageRepos = repos.edges.map(edge => ({
                   repo: edge.node.nameWithOwner,
                   description: edge.node.description || '',
@@ -164,30 +174,32 @@ jobs:
                     published_at: edge.node.latestRelease.publishedAt
                   } : null
                 }));
-                
+
                 const publicRepos = pageRepos.filter(r => !r.private);
                 allRepos = allRepos.concat(publicRepos);
-                
+
                 hasNextPage = repos.pageInfo.hasNextPage;
                 cursor = repos.pageInfo.endCursor;
-                
+
                 core.info(`  Found ${publicRepos.length} public repos (total: ${allRepos.length})`);
-                
+
                 if (hasNextPage) await sleep(500);
-                
+
               } catch (error) {
                 // Fail fast on authentication errors - no retries
                 if (error.message?.includes('Bad credentials')) {
                   core.setFailed(BAD_CREDENTIALS_MSG);
                   return;
                 }
-                
-                // Stop on rate limit but save partial results
+
+                // Rate limit: keep partial JSON for forensic, but record the
+                // reason and let post-loop logic mark the run as failure.
                 if (error.message?.includes('rate limit')) {
-                  core.warning('Rate limit hit. Saving partial results.');
+                  partialFailureReason = `rate_limit_at_page_${pageCount}_after_${allRepos.length}_repos`;
+                  core.warning(`Rate limit hit at page ${pageCount} after ${allRepos.length} repos. Will write partial JSON for debugging and fail the workflow.`);
                   break;
                 }
-                
+
                 // Retry on HTTP errors (5xx, 408, 429) and other transient errors
                 if (retryCount < MAX_RETRIES && isRetryable(error)) {
                   retryCount++;
@@ -204,25 +216,32 @@ jobs:
                   pageCount--;
                   continue;
                 }
-                
-                // If we have partial results, save them
+
+                // Retries exhausted on a transient error. We have partial
+                // results — keep them on disk for the forensic artifact, but
+                // record the reason so the post-loop check fails the run.
                 if (allRepos.length > 0) {
-                  core.warning(`Error after ${retryCount} retries: ${error.message}. Saving ${allRepos.length} partial results...`);
+                  const errStatus = error.status || 'n/a';
+                  const errMsg = (typeof error.message === 'string' ? error.message : String(error)).substring(0, MAX_ERROR_MSG_LENGTH);
+                  partialFailureReason = `retries_exhausted_at_page_${pageCount}_after_${allRepos.length}_repos_status=${errStatus}_msg=${errMsg}`;
+                  core.warning(`Error after ${retryCount} retries on page ${pageCount}: ${error.message}. Will write ${allRepos.length} partial results for debugging and fail the workflow.`);
                   break;
                 }
-                
-                // Otherwise, fail the workflow
+
+                // No partial results at all → original throw path.
                 core.error(`Failed after ${retryCount} retry attempts: ${error.message}`);
                 throw error;
               }
             }
-            
+
             core.info(`\nTotal: ${allRepos.length} repositories`);
-            
+
             const outputDir = path.dirname(OUTPUT_FILE);
             if (!fs.existsSync(outputDir)) {
               fs.mkdirSync(outputDir, { recursive: true });
             }
+            // Always write the JSON before the partial-failure check below so
+            // the forensic artifact is uploaded even when we're about to fail.
             fs.writeFileSync(OUTPUT_FILE, JSON.stringify(allRepos, null, 2));
             const outputBytes = fs.statSync(OUTPUT_FILE).size;
 
@@ -238,9 +257,28 @@ jobs:
             core.setOutput('no_description_count', noDesc);
             core.setOutput('output_file', OUTPUT_FILE);
             core.setOutput('output_bytes', outputBytes);
+            core.setOutput('partial_failure_reason', partialFailureReason);
+
+            // Hard-fail if pagination did not complete. The JSON has been
+            // written and outputs are set so the upload + summary steps still
+            // run (their `if:` clauses are `always()` / depend on outputs).
+            // Downstream `02-Sync Starred Repos` only fires on
+            // `workflow_run.conclusion == 'success'`, so failing here keeps
+            // the partial fetch from poisoning repos.yml.
+            if (partialFailureReason) {
+              core.setFailed(
+                `Star fetch incomplete: ${partialFailureReason}. ` +
+                `Wrote ${allRepos.length} partial repos to ${OUTPUT_FILE} (${outputBytes} bytes) for forensic analysis. ` +
+                `Refusing to declare success on a partial fetch — downstream sync would reconcile repos.yml against a sliver of the real star set. ` +
+                `Investigate (likely sustained 5xx on api.github.com/graphql) and re-run.`
+              );
+            }
 
       - name: Upload results
-        if: success() && steps.fetch-stars.outputs.total_repos != '0'
+        # Run on success AND on partial-failure so the forensic JSON for a
+        # failed run is still available for inspection. Skip only when no
+        # JSON was written at all (fetch-stars.outputs.output_bytes empty).
+        if: always() && steps.fetch-stars.outputs.output_bytes != ''
         id: upload
         uses: actions/upload-artifact@v6
         with:
@@ -250,6 +288,10 @@ jobs:
           if-no-files-found: error
 
       - name: Commit results
+        # Only commit on a clean fetch. Partial-failure JSON should not be
+        # committed because downstream code (e.g. local re-runs without the
+        # artifact) trusts the committed file as canonical.
+        if: success()
         id: commit
         run: |
           set -euo pipefail
@@ -298,6 +340,7 @@ jobs:
           NO_DESC: ${{ steps.fetch-stars.outputs.no_description_count }}
           OUTPUT_FILE: ${{ steps.fetch-stars.outputs.output_file }}
           OUTPUT_BYTES: ${{ steps.fetch-stars.outputs.output_bytes }}
+          PARTIAL_REASON: ${{ steps.fetch-stars.outputs.partial_failure_reason }}
           ARTIFACT_ID: ${{ steps.upload.outputs.artifact-id }}
           ARTIFACT_URL: ${{ steps.upload.outputs.artifact-url }}
           COMMIT_PUSHED: ${{ steps.commit.outputs.pushed }}
@@ -325,6 +368,18 @@ jobs:
             echo "- Commit pushed: \`${COMMIT_PUSHED:-false}\`"
             echo "- Fetch commit: \`${COMMIT_SHA:-n/a}\`"
             echo ""
+            if [ -n "${PARTIAL_REASON:-}" ]; then
+              echo "## ⚠ Partial fetch — workflow failed"
+              echo ""
+              echo "- Reason: \`${PARTIAL_REASON}\`"
+              echo "- The forensic JSON was uploaded as the artifact above but **not** committed and downstream sync will not run."
+              echo "- Re-run after upstream stabilizes (typically a sustained 5xx storm on \`api.github.com/graphql\`)."
+              echo ""
+            fi
             echo "## Next stage"
-            echo "- \`02-Sync Starred Repos\` (workflow_run on success); will pull artifact \`fetched-stars-${{ github.run_id }}\` from this run."
+            if [ -n "${PARTIAL_REASON:-}" ]; then
+              echo "- BLOCKED: 02-Sync Starred Repos will not fire because this run ended in failure."
+            else
+              echo "- \`02-Sync Starred Repos\` (workflow_run on success); will pull artifact \`fetched-stars-${{ github.run_id }}\` from this run."
+            fi
           } >> "$GITHUB_STEP_SUMMARY"
