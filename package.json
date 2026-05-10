@@ -21,6 +21,7 @@
     "knip": "knip",
     "gate:no-loose-zod": "bun run src/gate/no-loose-zod-cli.ts",
     "paths:generate": "bun run src/contracts/paths-codegen.ts",
+    "schema:generate": "bun run src/manifest/schema-codegen.ts",
     "auth:doctor": "bun run src/auth/setup-doctor.ts",
     "fetch:stars": "bun run src/fetch/cli.ts",
     "sync:stars": "bun run src/sync/cli.ts",
@@ -30,6 +31,7 @@
     "lefthook:validate": "lefthook validate"
   },
   "dependencies": {
+    "@exodus/schemasafe": "^1.3.0",
     "@octokit/app": "^16.1.2",
     "@octokit/graphql": "^9.0.3",
     "@octokit/graphql-schema": "^15.26.1",

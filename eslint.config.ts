@@ -25,9 +25,11 @@
 //      App code uses `createLogger(scope) + log.{level}(...)` per the
 //      telemetry doctrine memory.
 //
-//   3. ajv / ajv-formats / @exodus/schemasafe are BANNED — Zod replaces
-//      them everywhere. Catches accidental re-introduction of the old
-//      validator stack (which carries the unpatchable fast-uri vuln).
+//   3. ajv / ajv-formats are BANNED — Zod replaces them as the runtime
+//      contract (catches accidental re-introduction of ajv's fast-uri
+//      vuln chain). @exodus/schemasafe (zero-dep JSON-Schema validator)
+//      is allowed for repos.yml boundary checks against the JSON schema
+//      derived from the Zod source of truth.
 //
 //   4. Public-API surfaces in `src/**` (exported types/functions/classes)
 //      require TSDoc with `@public`/`@internal` discrimination, per the
@@ -75,7 +77,9 @@ import tseslint from "typescript-eslint";
  *   - node:url { pathToFileURL } — banned everywhere; use Bun.pathToFileURL.
  *   - pino / pino-opentelemetry-transport / @opentelemetry/* — quarantined
  *     to src/telemetry/**.
- *   - ajv / ajv-formats / @exodus/schemasafe — banned absolutely; use Zod.
+ *   - ajv / ajv-formats — banned absolutely; use Zod (Zod is the runtime
+ *     contract, @exodus/schemasafe is the JSON-Schema-shape boundary
+ *     check for repos.yml — zero deps, no fast-uri vuln).
  */
 const REPO_WIDE_RESTRICTED_IMPORTS = [
 	{
@@ -239,15 +243,11 @@ const REPO_WIDE_RESTRICTED_IMPORTS = [
 	{
 		name: "ajv",
 		message:
-			"Banned. Use Zod schemas + GhStarsSchemaRegistry. ajv pulls fast-uri (currently unpatchable for the GHSA-v39h / GHSA-q3j6 advisories).",
+			"Banned. Use Zod schemas + GhStarsSchemaRegistry. ajv pulls fast-uri (currently unpatchable for the GHSA-v39h / GHSA-q3j6 advisories). For JSON-Schema-shape validation against repos.yml use @exodus/schemasafe (zero deps, no fast-uri).",
 	},
 	{
 		name: "ajv-formats",
 		message: "Banned. Use Zod schemas.",
-	},
-	{
-		name: "@exodus/schemasafe",
-		message: "Banned. Use Zod schemas + GhStarsSchemaRegistry.",
 	},
 	// Replaced wholesale by @octokit/app + @octokit/rest + @octokit/openapi-types
 	{
