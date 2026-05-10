@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-10T07:32:33.233Z'
+  manifest_updated_at: '2026-05-10T07:33:04.320Z'
   total_repos: 2612
   generator_version: v1.0.0
   github_user: primeinc
@@ -12584,13 +12584,17 @@ repositories:
     framework: null
   - repo: JWStarkie/PurviewAccelerator
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - automation
+    tags:
+      - purview
+      - azure
+      - lang:powershell
     summary: A lightning fast tool to automatically deploy Purview in a super fast at the click of a button. Clone the repo, execute the scripts, wait 10 minutes and boom - your Purview environment is up and ru...
     last_synced_sha: 23bd8bf1d6981d53b6dbe8f1b5dc8301ae6bb4e9
     user_starred_at: '2026-02-14T12:17:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -12611,15 +12615,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.123Z'
+      prompt_version: v3
   - repo: SoyITPro/scripts
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - windows
+      - server-management
+      - lang:powershell
     summary: Scripts para administradores de servidores Windows, Azure, Docker, Linux y más
     last_synced_sha: 0a442e1331ea42de34fea9d03bb1a888a9f3d032
     user_starred_at: '2026-02-14T12:17:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -12640,15 +12652,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.123Z'
+      prompt_version: v3
   - repo: michaelmsonne/ManagedIdentityPermissionManager
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - azure-identity
+      - identity-permissions
+      - lang:powershell
     summary: Azure Managed Identity Permissions Tool, a new Power Shell tool that simplifies and streamlines the management of Managed Identity permissions in Azure (Entra ID)
     last_synced_sha: 480d56323b2e78cbe6b20a77d3ea9d3365abe753
     user_starred_at: '2026-02-14T12:17:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -12683,15 +12703,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.123Z'
+      prompt_version: v3
   - repo: zh54321/EntraTokenAid
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - microsoft-entra
+      - oauth2
+      - lang:powershell
     summary: A pure Power Shell solution for Entra OAuth authentication, enabling easy retrieval of access and refresh tokens
     last_synced_sha: 260e684ae46d74fa22858e66ce3854dd392d49a6
     user_starred_at: '2026-02-14T12:16:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -12715,15 +12743,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.123Z'
+      prompt_version: v3
   - repo: CompassSecurity/EntraFalcon
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - microsoft-entra
+      - assessment
+      - lang:powershell
     summary: A lightweight Power Shell tool for assessing the security posture of Microsoft Entra ID environments. It helps identify privileged objects, risky assignments, and potential misconfigurations.
     last_synced_sha: 22d6e52588c30cfd9bad591b732b6c3a551d565c
     user_starred_at: '2026-02-14T12:16:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -12748,15 +12784,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.123Z'
+      prompt_version: v3
   - repo: SteffMet/Azure-Office365-Security-Reporting
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - azure
+      - microsoft-365
+      - lang:powershell
     summary: Powershell Script to Check Security and Gather Information within Azure and Office 365
     last_synced_sha: 5f1917790a5ee517a8a8fcb06b5524118d84021a
     user_starred_at: '2026-02-14T12:15:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -12774,15 +12818,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.123Z'
+      prompt_version: v3
   - repo: arcus-azure/arcus.scripting
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - cloud
+    tags:
+      - azure
+      - microsoft
+      - lang:powershell
     summary: Scripting with Microsoft Azure in a breeze.
     last_synced_sha: 05c84bd0a16bdff4300bf3f602fc3927612b06e2
     user_starred_at: '2026-02-14T12:15:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -12803,15 +12855,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.123Z'
+      prompt_version: v3
   - repo: PalmEmanuel/AzAuth
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - azure
+      - authentication
+      - lang:powershell
     summary: A Power Shell module to handle authentication for Azure.
     last_synced_sha: 7fd22de834cd35c9369c1f1d07ec656001e7b20b
     user_starred_at: '2026-02-14T12:14:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -12832,15 +12892,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.123Z'
+      prompt_version: v3
   - repo: LaresLLC/AzureTokenExtractor
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - azure
+      - authentication
+      - lang:python
     summary: Extracts Azure authentication tokens from Power Shell process minidumps.
     last_synced_sha: ec71855f94fc04791eb50f2586e6f52cad1dbf3a
     user_starred_at: '2026-02-14T12:14:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -12861,15 +12929,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.123Z'
+      prompt_version: v3
   - repo: Donovand4/ConditionalAccessPolicyReport
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - azure-ad
+      - reporting
+      - lang:powershell
     summary: Power Shell Script used to create a report for Azure AD Conditional Access Policies.
     last_synced_sha: 5ae09c85d93dee1cff73bf2dd5f8d112fc331285
     user_starred_at: '2026-02-14T12:14:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -12887,15 +12963,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.123Z'
+      prompt_version: v3
   - repo: Azure/PSDocs.Azure
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - cloud
+    tags:
+      - azure
+      - documentation-generator
+      - infrastructure-as-code
+      - lang:csharp
     summary: Generate documentation from Azure infrastructure as code (Ia C) artifacts.
     last_synced_sha: 53fc6a287e197b6e31c2661f9fe6a26ade3704a7
     user_starred_at: '2026-02-14T12:12:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -12921,15 +13006,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.123Z'
+      prompt_version: v3
   - repo: PSBicep/PSBicep
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - system-admin
+    tags:
+      - azure
+      - bicep
+      - lang:powershell
     summary: This is the repo for the Bicep Power Shell Module.
     last_synced_sha: e31d5f86d66202f788f4ededb483bdcb9d23d9cb
     user_starred_at: '2026-02-14T12:11:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -12957,15 +13050,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.122Z'
+      prompt_version: v3
   - repo: EvotecIT/O365Essentials
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - apis
+    tags:
+      - office365
+      - api
+      - lang:powershell
     summary: A module that helps to manage some tasks on Office 365/Azure via undocumented API
     last_synced_sha: b5b6736b86d8d8b7e5c1c1080df28a98d2fb9607
     user_starred_at: '2026-02-14T12:11:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -12986,15 +13087,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.122Z'
+      prompt_version: v3
   - repo: pnp/script-samples
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - system-admin
+    tags:
+      - microsoft-365
+      - automation
+      - azure
+      - lang:powershell
     summary: A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more.
     last_synced_sha: a49633a4805b6a37f4c870240b4fba467ee5f298
     user_starred_at: '2026-02-14T12:10:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -13029,15 +13139,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.122Z'
+      prompt_version: v3
   - repo: invictus-ir/Microsoft-Extractor-Suite
     categories:
-      - unclassified
-    tags: []
+      - security
+      - automation
+    tags:
+      - microsoft-365
+      - cybersecurity
+      - lang:powershell
     summary: A Power Shell module for acquisition of data from Microsoft 365 and Azure for Incident Response and Cyber Security purposes.
     last_synced_sha: f62281fbe2dbbb1073561f87c191486ab0934fff
     user_starred_at: '2026-02-14T12:09:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -13057,6 +13175,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:33:03.122Z'
+      prompt_version: v3
   - repo: wesellis/Azure-PowerShell-Toolkit
     categories:
       - cloud
