@@ -6,8 +6,8 @@
 // src/manifest/.
 
 import "../../src/contracts/registry.js";
+import "../../src/contracts/env.js";
+import "../../src/contracts/paths-config.js";
 // Future contract modules go here once they exist:
-//   import "../../src/contracts/env.js";
-//   import "../../src/contracts/paths-config.js";
 //   import "../../src/manifest/schema.zod.js";
 //   import "../../src/telemetry/contracts.zod.js";

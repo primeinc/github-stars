@@ -1,8 +1,9 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 /**
  * CLI tool to validate repos.yml against taxonomy
  */
 
+import { getGhStarsPath } from "./contracts/paths.js";
 import { loadManifest } from "./manifest/loader.js";
 import {
 	formatValidationErrors,
@@ -10,7 +11,7 @@ import {
 } from "./manifest/validator.js";
 
 const args = process.argv.slice(2);
-const inputFile = args[0] || "repos.yml";
+const inputFile = args[0] || getGhStarsPath("reposManifest");
 
 console.log("=".repeat(80));
 console.log("VALIDATE MANIFEST");

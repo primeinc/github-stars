@@ -1,8 +1,9 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env bun
 /**
  * CLI tool to normalize repos.yml in place
  */
 
+import { getGhStarsPath } from "./contracts/paths.js";
 import { loadManifest } from "./manifest/loader.js";
 import { normalizeManifest } from "./manifest/normalizer.js";
 import {
@@ -12,7 +13,7 @@ import {
 import { writeManifest } from "./manifest/writer.js";
 
 const args = process.argv.slice(2);
-const inputFile = args[0] || "repos.yml";
+const inputFile = args[0] || getGhStarsPath("reposManifest");
 const checkMode = args.includes("--check") || args.includes("--dry-run");
 
 console.log("=".repeat(80));

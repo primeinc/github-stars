@@ -1,6 +1,7 @@
 // CLI: invoked by .github/workflows/02-sync-stars.yml as the sync step.
 
 import { GhStarsEnv } from "../contracts/env.js";
+import { getGhStarsPath } from "../contracts/paths.js";
 import type { FetchedRepo } from "../fetch/types.js";
 import {
 	appendFileTextSync,
@@ -26,9 +27,12 @@ function setOutput(line: string): void {
 function main(): void {
 	const FETCHED_STARS_PATH = envOrDefault(
 		"FETCHED_STARS_PATH",
-		".github-stars/data/fetched-stars-graphql.json",
+		getGhStarsPath("fetchedStarsGraphql"),
 	);
-	const MANIFEST_PATH = envOrDefault("MANIFEST_PATH", "repos.yml");
+	const MANIFEST_PATH = envOrDefault(
+		"MANIFEST_PATH",
+		getGhStarsPath("reposManifest"),
+	);
 	const githubUser = (getEnv("GITHUB_USER") ?? "").trim() || undefined;
 	const removalOverride =
 		(getEnv("MANIFEST_REMOVAL_OVERRIDE") ?? "").trim().toLowerCase() === "true";

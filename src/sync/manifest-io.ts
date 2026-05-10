@@ -3,6 +3,7 @@
 // directly.
 
 import yaml from "js-yaml";
+import { getGhStarsPath } from "../contracts/paths.js";
 import {
 	pathExistsSync,
 	readTextFileSync,
@@ -10,7 +11,7 @@ import {
 } from "../host-io/index.js";
 import type { Manifest } from "./reconcile.js";
 
-const TEMPLATE_PATH = ".github-stars/repos-template.yml";
+const TEMPLATE_PATH = getGhStarsPath("reposTemplate");
 
 /**
  * Load a manifest from `path`, falling back to the bundled template

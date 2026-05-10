@@ -330,6 +330,10 @@ const NO_SYNC_OPTIONS: [
 			"lockSync",
 			// Bun.Glob sync iterator
 			"scanSync",
+			// zod-config sync loader — used by src/contracts/paths.ts to
+			// load the static-imported paths config through the registered
+			// schema at module init.
+			"loadConfigSync",
 		],
 	},
 ];

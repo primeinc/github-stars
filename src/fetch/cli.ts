@@ -4,6 +4,7 @@
 // host-io's appendFileTextSync (no node:fs / process.env reads here).
 
 import { GhStarsEnv } from "../contracts/env.js";
+import { getGhStarsPath } from "../contracts/paths.js";
 import {
 	appendFileTextSync,
 	dirnameOf,
@@ -63,15 +64,15 @@ async function main(): Promise<void> {
 
 	const LIST_QUERY_PATH = envOrDefault(
 		"LIST_QUERY_PATH",
-		"queries/stars-list-query.graphql",
+		getGhStarsPath("starsListQuery"),
 	);
 	const FRAGMENT_PATH = envOrDefault(
 		"METADATA_FRAGMENT_PATH",
-		"queries/stars-metadata-fragment.graphql",
+		getGhStarsPath("starsMetadataFragment"),
 	);
 	const OUTPUT_FILE = envOrDefault(
 		"OUTPUT_FILE",
-		".github-stars/data/fetched-stars-graphql.json",
+		getGhStarsPath("fetchedStarsGraphql"),
 	);
 	const BATCH_SIZE = parseInt(
 		envOrDefault("METADATA_BATCH_SIZE", String(DEFAULT_METADATA_BATCH_SIZE)),
