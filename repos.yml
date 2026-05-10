@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-10T07:36:45.310Z'
+  manifest_updated_at: '2026-05-10T07:37:19.972Z'
   total_repos: 2612
   generator_version: v1.0.0
   github_user: primeinc
@@ -9138,13 +9138,17 @@ repositories:
     framework: null
   - repo: viralcode/vib-OS
     categories:
+      - system-admin
       - unclassified
-    tags: []
+    tags:
+      - operating-system
+      - ai-os
+      - lang:c
     summary: World's First Vibecoded AI Operating System
     last_synced_sha: 73b64299bf6e591e738c58c9d1845f0babdd6f58
     user_starred_at: '2026-03-09T20:19:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics: []
@@ -9162,15 +9166,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: FurkanGozukara/Stable-Diffusion
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - stable-diffusion
+      - generative-ai
+      - deepfake
+      - guides
+      - lang:js
     summary: FLUX, Stable Diffusion, SDXL, SD3, Lo RA, Fine Tuning, Dream Booth, Training, Automatic1111, Forge Web UI, Swarm UI, Deep Fake, TTS, Animation, Text To Video, Tutorials, Guides, Lectures, Courses, ...
     last_synced_sha: 3a6bf8b0656432676392fad100120f8de6a522e8
     user_starred_at: '2026-03-09T11:14:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -9208,15 +9222,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: kaito-tokyo/live-backgroundremoval-lite
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+    tags:
+      - background-removal
+      - computer-vision
+      - low-latency
+      - lang:c
+      - obs
     summary: A gaming-first, high-performance, and crash-resilient background removal for OBS Studio
     last_synced_sha: a748da98f7bf5be0d6c26b8a7d22d097be3af767
     user_starred_at: '2026-03-09T06:39:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C
       topics:
@@ -9243,15 +9266,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: shihan84/obs-profile-generator
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - obs-studio
+      - profile-generator
+      - lang:ts
+      - cross-platform
     summary: A comprehensive, self-hosted OBS Studio profile generator that works across Windows, Linux, and mac OS. Create custom OBS Studio profiles with an intuitive web interface, preset templates, and cros...
     last_synced_sha: c53116d5974304dd5cc7259113c233ae18024f06
     user_starred_at: '2026-03-09T06:37:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9273,15 +9305,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: areeba0/Image-Segmentation-with-Lazy-Snapping-and-K-Means-Clustering
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - learning
+    tags:
+      - image-segmentation
+      - k-means
+      - jupyter-notebook
+      - lang:jupyter-notebook
+      - matplotlib
     summary: This Jupyter notebook demonstrates image segmentation using Lazy Snapping and K-Means Clustering. It showcases how these algorithms can partition an image into segments based on pixel intensity and...
     last_synced_sha: f1b4fb3dab8dd259b8f571f6ee859d9401a21af0
     user_starred_at: '2026-03-09T05:23:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -9313,15 +9355,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: microsoft/vscode-extension-samples
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - learning
+    tags:
+      - vscode
+      - extension-development
+      - lang:ts
     summary: Sample code illustrating the VS Code extension API.
     last_synced_sha: 61fda64ede073136f3716f69b067d212ef0893e1
     user_starred_at: '2026-03-08T16:28:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -9339,15 +9389,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: pyupio/safety
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - security-vulnerability
+      - dependency-management
+      - vulnerability-detection
+      - lang:python
+      - devsecops
     summary: Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected.
     last_synced_sha: 5049dbf325e5de0c43f731b1670e3815029aac6a
     user_starred_at: '2026-03-07T04:09:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -9376,15 +9436,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: postgres-ai/database-lab-engine
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - testing
+    tags:
+      - database-cloning
+      - ci-cd
+      - postgres
+      - database-branching
+      - lang:go
     summary: DBLab enables 🖖 database branching and ⚡️ thin cloning for any Postgres database and empowers DB testing in CI/CD. This optimizes database-related costs while improving time-to-market and software...
     last_synced_sha: 91bcf0defef71c4b4b19f9cb2c9bfbb844f6ceb0
     user_starred_at: '2026-03-07T04:08:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -9418,15 +9488,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: go-gitea/gitea
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - git
+      - ci-cd
+      - go
+      - team-collaboration
+      - lang:go
     summary: Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
     last_synced_sha: a61598884f9d8b686ef56df407cbe6a709128640
     user_starred_at: '2026-03-07T04:03:17Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -9464,15 +9544,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: sindresorhus/open
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - cross-platform
+      - utilities
+      - lang:js
     summary: Open stuff like URLs, files, executables. Cross-platform.
     last_synced_sha: 88153308461c32974b146f29446837ee290f605b
     user_starred_at: '2026-03-07T01:38:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -9490,15 +9578,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: QwenLM/Qwen3-TTS
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - tts
+      - speech-generation
+      - lang:python
+      - ai
+      - expressive-speech
     summary: Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice...
     last_synced_sha: 022e286b98fbec7e1e916cb940cdf532cd9f488e
     user_starred_at: '2026-03-06T18:35:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -9516,15 +9614,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: isaiahbjork/expo-kokoro-onnx
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - mobile-dev
+    tags:
+      - ai
+      - tts
+      - onnx
+      - expo
+      - lang:ts
     summary: Run Kokoro TTS locally on device using Expo & ONNX Runtime
     last_synced_sha: 8a9ecb17d063675460d9fbaa9afc9f67de53e37e
     user_starred_at: '2026-03-06T18:32:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9550,15 +9658,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: readest/readest
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - desktop-dev
+    tags:
+      - ebook-reader
+      - cross-platform
+      - nextjs
+      - lang:ts
+      - tauri
     summary: Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience.
     last_synced_sha: 5774e00c0925b68bcd3b0a016074a463f6ff825b
     user_starred_at: '2026-03-06T18:30:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -9590,16 +9708,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: babysor/MockingBird
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ai
+      - deep-learning
+      - pytorch
+      - text-to-speech
+      - lang:python
     summary: 🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time
     last_synced_sha: 28dc5e14f12d7c754612af2fde8e78a4b03f8616
     user_starred_at: '2026-03-06T18:30:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -9623,15 +9751,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: gradiuscypher/infosec_getting_started
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - security
+    tags:
+      - infosec
+      - learning
+      - certifications
+      - getting-started
+      - lang:html
     summary: A collection of resources/documentation/links/etc to help people learn about Infosec and break into the field.
     last_synced_sha: 8dacaf2ff0ca392bd0ec829c1b4ca2887f183a13
     user_starred_at: '2026-03-06T18:29:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -9654,6 +9792,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:37:18.786Z'
+      prompt_version: v3
   - repo: abus-aikorea/voice-pro
     categories:
       - ai-ml
