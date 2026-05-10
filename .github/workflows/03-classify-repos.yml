@@ -42,19 +42,16 @@ jobs:
           fetch-depth: 0
           ref: main
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-
-      - name: Install pnpm
-        # Pinned to match 00-ci.yml. `pnpm@latest` (v11+) is stricter on
-        # ignored build scripts and exits 1 even when the script is allowed
-        # via onlyBuiltDependencies (esbuild has multiple versions in lock).
-        run: npm install -g pnpm@10.13.1
+      - name: Setup Bun
+        # Bun version is auto-detected from package.json `packageManager`
+        # field (currently "bun@1.3.13") per setup-bun README L11-15.
+        uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
-        run: pnpm install
+        # `bun install --frozen-lockfile` per refs/oven-sh/bun/docs/cli/install.mdx
+        # — fails the run if bun.lock is out of date instead of silently
+        # mutating the lockfile.
+        run: bun install --frozen-lockfile
 
       - run: |
           for i in 1 2 3; do
@@ -330,7 +327,7 @@ jobs:
         if: steps.apply.outputs.count > 0
         run: |
           echo "Running taxonomy normalization..."
-          pnpm normalize
+          bun run normalize
           echo "Normalization complete"
 
       # HARD GATE: structural JSON Schema check on the normalized manifest.
@@ -355,7 +352,7 @@ jobs:
         if: steps.apply.outputs.count > 0
         run: |
           echo "Running strict taxonomy validation..."
-          pnpm validate
+          bun run validate
           echo "Validation passed"
 
       - name: Commit
@@ -432,9 +429,9 @@ jobs:
             echo "## Gates (in order)"
             echo "- AI categories filtered against \`taxonomy.categories_allowed\`"
             echo "- AI framework filtered against \`taxonomy.frameworks_allowed\`"
-            echo "- \`pnpm normalize\` (in-place canonicalization of AI output)"
+            echo "- \`bun run normalize\` (in-place canonicalization of AI output)"
             echo "- \`cardinalby/schema-validator-action@v3\` (mode: default) against \`schemas/repos-schema.json\` — blocks commit"
-            echo "- \`pnpm validate\` (taxonomy strict via \`src/cli-validate.ts\`) — blocks commit"
+            echo "- \`bun run validate\` (taxonomy strict via \`src/cli-validate.ts\`) — blocks commit"
             echo ""
             echo "## Next stage"
             if [ "${HAS_MORE:-false}" = "true" ]; then

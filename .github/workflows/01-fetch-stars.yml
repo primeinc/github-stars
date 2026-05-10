@@ -69,24 +69,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-
-      - name: Install pnpm
-        run: npm install -g pnpm@10.13.1
+      - name: Setup Bun
+        # Bun version is auto-detected from package.json `packageManager`
+        # field (currently "bun@1.3.13") per setup-bun README L11-15.
+        uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
-        run: |
-          set -euo pipefail
-          for attempt in 1 2 3; do
-            if pnpm install --prefer-offline; then exit 0; fi
-            echo "::warning::pnpm install attempt $attempt failed; retrying in 5s..."
-            sleep 5
-          done
-          echo "::error::pnpm install failed after 3 attempts"
-          exit 1
+        # `bun install --frozen-lockfile` per refs/oven-sh/bun/docs/cli/install.mdx
+        # — fails the run if bun.lock is out of date instead of silently
+        # mutating the lockfile.
+        run: bun install --frozen-lockfile
 
       - name: Resolve auth mode (setup-doctor)
         id: doctor
@@ -98,7 +90,7 @@ jobs:
           STARS_TOKEN: ${{ secrets.STARS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PAT_FALLBACK_TO_GITHUB_TOKEN: ${{ inputs.pat_fallback_to_github_token || 'true' }}
-        run: pnpm auth:doctor
+        run: bun run auth:doctor
 
       # Mint a GitHub App installation token ONLY when the resolver
       # selected github_app mode. Keeps the credential boundary clean —
@@ -132,7 +124,7 @@ jobs:
           # Fallback target for runtime-state.ts; empty when not in pat mode.
           GITHUB_TOKEN_FALLBACK: ${{ steps.doctor.outputs.selected_mode == 'pat' && secrets.GITHUB_TOKEN || '' }}
           RESUME_CURSOR: ${{ inputs.resume_cursor }}
-        run: pnpm fetch:stars
+        run: bun run fetch:stars
 
       - name: Upload results
         # Upload on success and on partial-failure so the forensic JSON is preserved.
