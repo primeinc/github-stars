@@ -17,10 +17,10 @@
 // at the boundary; downstream code sees the typed shape, not raw strings.
 
 import * as z from "zod";
+import { appendStepSummary, setOutput } from "../cli/dual-write.js";
 import { GhStarsEnv } from "../contracts/env.js";
 import { GhStarsSchemaRegistry } from "../contracts/registry.js";
 import {
-	appendFileTextSync,
 	exit,
 	getEnv,
 	processArgv,
@@ -170,8 +170,6 @@ export function renderSummary(r: ResolvedAuth): string {
  * @public
  */
 export function writeJobOutputs(r: ResolvedAuth): void {
-	const out = getEnv(GhStarsEnv.githubOutput);
-	if (!out) return;
 	const lines = [
 		`selected_mode=${r.selected_mode}`,
 		`requested_mode=${r.requested_mode}`,
@@ -182,13 +180,11 @@ export function writeJobOutputs(r: ResolvedAuth): void {
 		`pat_fallback_to_github_token=${r.pat_fallback_to_github_token}`,
 		`reason=${oneLine(r.reason)}`,
 	];
-	appendFileTextSync(out, `${lines.join("\n")}\n`);
+	for (const line of lines) setOutput(line);
 }
 
 function writeSummary(md: string): void {
-	const summary = getEnv(GhStarsEnv.githubStepSummary);
-	if (!summary) return;
-	appendFileTextSync(summary, `${md}\n`);
+	appendStepSummary(md);
 }
 
 function oneLine(s: string): string {
@@ -207,23 +203,19 @@ function main(): void {
 		if (err instanceof AuthConfigError) {
 			writeStderr(`::error::${err.message}\n`);
 			writeStderr(`Missing config: ${err.missing_config.join(", ")}\n`);
-			const out = getEnv(GhStarsEnv.githubOutput);
-			if (out) {
-				appendFileTextSync(
-					out,
-					`${[
-						"selected_mode=",
-						`requested_mode=${inputs.requested_mode || "auto"}`,
-						`star_source_user=${inputs.star_source_user || ""}`,
-						"star_fetch_auth=",
-						"repo_write_auth=",
-						"degraded=true",
-						"pat_fallback_to_github_token=false",
-						`reason=${oneLine(err.message)}`,
-						"config_error=true",
-						`missing_config=${err.missing_config.join(",")}`,
-					].join("\n")}\n`,
-				);
+			for (const line of [
+				"selected_mode=",
+				`requested_mode=${inputs.requested_mode || "auto"}`,
+				`star_source_user=${inputs.star_source_user || ""}`,
+				"star_fetch_auth=",
+				"repo_write_auth=",
+				"degraded=true",
+				"pat_fallback_to_github_token=false",
+				`reason=${oneLine(err.message)}`,
+				"config_error=true",
+				`missing_config=${err.missing_config.join(",")}`,
+			]) {
+				setOutput(line);
 			}
 			writeSummary(
 				`## Auth setup-doctor — CONFIG ERROR\n\n- ${err.message}\n- Missing: ${err.missing_config.join(", ")}\n`,

@@ -1,10 +1,9 @@
 // CLI: invoked by .github/workflows/02-sync-stars.yml as the sync step.
 
-import { GhStarsEnv } from "../contracts/env.js";
+import { setOutput } from "../cli/dual-write.js";
 import { getGhStarsPath } from "../contracts/paths.js";
 import type { FetchedRepo } from "../fetch/types.js";
 import {
-	appendFileTextSync,
 	exit,
 	getEnv,
 	onSignal,
@@ -22,12 +21,6 @@ import { reconcile } from "./reconcile.js";
 function envOrDefault(key: string, dflt: string): string {
 	const v = getEnv(key);
 	return v?.trim() ? v.trim() : dflt;
-}
-
-function setOutput(line: string): void {
-	const out = getEnv(GhStarsEnv.githubOutput);
-	if (!out) return;
-	appendFileTextSync(out, `${line}\n`);
 }
 
 function main(): void {

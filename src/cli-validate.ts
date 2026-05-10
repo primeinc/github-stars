@@ -1,10 +1,16 @@
 #!/usr/bin/env bun
 /**
- * CLI tool to validate repos.yml against taxonomy
+ * CLI tool to validate repos.yml against taxonomy.
+ *
+ * Argument parsing via commander; presentation via picocolors. Both
+ * are scoped to this file's wire-format role per the eslint
+ * `src/cli-*.ts` carve-out (see eslint.config.ts L621-L639).
  */
 
+import { Command } from "commander";
+import pc from "picocolors";
 import { getGhStarsPath } from "./contracts/paths.js";
-import { onSignal } from "./host-io/index.js";
+import { exit, onSignal, processArgv } from "./host-io/index.js";
 import { loadManifest } from "./manifest/loader.js";
 import {
 	formatValidationErrors,
@@ -26,19 +32,30 @@ onSignal("SIGINT", () => {
 const tlog = createLogger("validate");
 tlog.info("validate cli starting");
 
-const args = process.argv.slice(2);
-const inputFile = args[0] || getGhStarsPath("reposManifest");
+const program = new Command();
+program
+	.name("validate")
+	.description(
+		"Validate repos.yml against the taxonomy in src/manifest/taxonomy.ts " +
+			"in strict mode. Hard-fails on any unknown category, framework, or " +
+			"tag.",
+	)
+	.argument("[input]", "manifest path (default: repos.yml)")
+	.parse(processArgv() as string[]);
 
-console.log("=".repeat(80));
-console.log("VALIDATE MANIFEST");
-console.log("=".repeat(80));
+const inputFile: string = program.args[0] ?? getGhStarsPath("reposManifest");
+
+const bar = pc.dim("=".repeat(80));
+console.log(bar);
+console.log(pc.bold("VALIDATE MANIFEST"));
+console.log(bar);
 console.log();
 
 try {
 	console.log(`Loading: ${inputFile}`);
 	const manifest = loadManifest(inputFile);
 	console.log(
-		`✓ Loaded manifest with ${manifest.repositories.length} repositories`,
+		`${pc.green("✓")} Loaded manifest with ${manifest.repositories.length} repositories`,
 	);
 	console.log();
 
@@ -50,17 +67,22 @@ try {
 	console.log();
 
 	if (result.valid) {
-		console.log("=".repeat(80));
-		console.log("✅ VALIDATION PASSED");
-		console.log("=".repeat(80));
-		process.exit(0);
+		console.log(bar);
+		console.log(pc.green(pc.bold("✓ VALIDATION PASSED")));
+		console.log(bar);
+		exit(0);
 	} else {
-		console.log("=".repeat(80));
-		console.log(`❌ VALIDATION FAILED: ${result.errors.length} errors`);
-		console.log("=".repeat(80));
-		process.exit(1);
+		console.log(bar);
+		console.log(
+			pc.red(pc.bold(`✗ VALIDATION FAILED: ${result.errors.length} errors`)),
+		);
+		console.log(bar);
+		exit(1);
 	}
 } catch (error) {
-	console.error("❌ ERROR:", error instanceof Error ? error.message : error);
-	process.exit(1);
+	console.error(
+		`${pc.red("✗")} ERROR:`,
+		error instanceof Error ? error.message : error,
+	);
+	exit(1);
 }
