@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-10T07:26:54.242Z'
+  manifest_updated_at: '2026-05-10T07:27:33.609Z'
   total_repos: 2612
   generator_version: v1.0.0
   github_user: primeinc
@@ -17066,13 +17066,17 @@ repositories:
     framework: null
   - repo: crazystylus/otadump
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - dev-tools
+    tags:
+      - android
+      - ota-extraction
+      - lang:rust
     summary: Extract partitions from Android OTA files.
     last_synced_sha: 6e90b4ff3714f1bde0ee8eadc22a3c8280928e4a
     user_starred_at: '2026-02-05T07:17:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -17093,15 +17097,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.436Z'
+      prompt_version: v3
   - repo: ajeetdsouza/zoxide
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - cli
+      - navigation
+      - shell
+      - lang:rust
     summary: A smarter cd command. Supports all major shells.
     last_synced_sha: 0cc031e98ef8dd4274ea53c10d9ad9d85c4d8c57
     user_starred_at: '2026-02-05T07:14:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -17139,15 +17152,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.436Z'
+      prompt_version: v3
   - repo: reacherhq/check-if-email-exists
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - security
+    tags:
+      - email-validation
+      - email-verification
+      - lang:rust
     summary: Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.
     last_synced_sha: 81da93e8a419f601c05e1bcf4a197d25eb0e349d
     user_starred_at: '2026-02-05T07:14:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -17172,15 +17193,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.435Z'
+      prompt_version: v3
   - repo: XTLS/Xray-core
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - security
+    tags:
+      - proxy
+      - anticensorship
+      - tunnel
+      - lang:go
     summary: Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.
     last_synced_sha: 1bdb488c9ec09ea51e6899697d5b7437f3cf6eb2
     user_starred_at: '2026-02-05T06:59:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -17218,15 +17248,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.435Z'
+      prompt_version: v3
   - repo: keylase/nvidia-patch
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - productivity
+    tags:
+      - nvidia
+      - nvenc
+      - video-encoding
+      - lang:python
     summary: This patch removes restriction on maximum number of simultaneous NVENC video encoding sessions imposed by Nvidia to consumer-grade GPUs.
     last_synced_sha: 0e665c46a87ba99b41a07169fa3acf6162739648
     user_starred_at: '2026-02-05T06:53:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -17244,15 +17283,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.435Z'
+      prompt_version: v3
   - repo: pompelmi/pompelmi
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+    tags:
+      - antivirus
+      - clamav
+      - file-scanner
+      - lang:js
+      - express
     summary: Clam AV antivirus scanning for Node.js — scan file uploads with a single function call. Zero dependencies. Typed Symbol verdicts. Local or Docker/clamd.
     last_synced_sha: 947712ab186cea6c677c20b183e2e9677edddc1d
     user_starred_at: '2026-02-05T06:28:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -17283,16 +17332,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: express
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.435Z'
+      prompt_version: v3
   - repo: 0x4m4/hexstrike-ai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+    tags:
+      - ai-cybersecurity
+      - pentesting
+      - ai-agents
+      - lang:python
     summary: Hex Strike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug ...
     last_synced_sha: 9b8c780f324ce5145a322bfa23c98886f8424ba3
     user_starred_at: '2026-02-05T06:13:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -17330,6 +17388,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.435Z'
+      prompt_version: v3
   - repo: D4Vinci/Scrapling
     categories:
       - automation
@@ -17388,13 +17450,18 @@ repositories:
     framework: null
   - repo: yusufkaraaslan/Skill_Seekers
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-tools
+      - web-scraping
+      - documentation
+      - lang:python
     summary: Convert documentation websites, Git Hub repositories, and PDFs into Claude AI skills with automatic conflict detection
     last_synced_sha: 4cd5140b56b44a42cc3c5be0a0c1ba81e20a4af1
     user_starred_at: '2026-02-05T06:10:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -17430,15 +17497,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.435Z'
+      prompt_version: v3
   - repo: udecode/plate
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - rich-text-editor
+      - react
+      - ai
+      - lang:ts
     summary: Rich-text editor with AI and shadcn/ui
     last_synced_sha: 743db5f147fb2cb4155cce039bfadc193d92c3de
     user_starred_at: '2026-02-05T06:08:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -17462,7 +17538,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.435Z'
+      prompt_version: v3
   - repo: farion1231/cc-switch
     categories:
       - desktop-dev
@@ -17519,13 +17599,18 @@ repositories:
     framework: null
   - repo: alibaba/nacos
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - containers
+    tags:
+      - kubernetes
+      - configuration-management
+      - distributed-systems
+      - lang:java
     summary: an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.
     last_synced_sha: 627130712080e39bec67ec3c3ddc9b8d8bae01b8
     user_starred_at: '2026-02-05T06:06:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Java
       topics:
@@ -17559,15 +17644,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.435Z'
+      prompt_version: v3
   - repo: Yamato-Security/EnableWindowsLogSettings
     categories:
-      - unclassified
-    tags: []
+      - security
+      - monitoring
+    tags:
+      - event-logs
+      - dfir
+      - forensics
+      - lang:batchfile
     summary: Documentation and scripts to properly enable Windows event logs.
     last_synced_sha: 6d2c0a15351650309d9bb325d63c5ef051a2157d
     user_starred_at: '2026-02-05T05:26:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Batchfile
       topics:
@@ -17596,15 +17690,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.435Z'
+      prompt_version: v3
   - repo: Yamato-Security/suzaku
     categories:
-      - unclassified
-    tags: []
+      - security
+      - cloud
+    tags:
+      - hunting
+      - forensics
+      - cloud-logs
+      - lang:rust
     summary: Suzaku (朱雀) is a sigma-based threat hunting and fast forensics timeline generator for cloud logs.
     last_synced_sha: 0271bd5eb1472ebca9ca39223e7b312534ce6a7b
     user_starred_at: '2026-02-05T05:25:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -17640,15 +17743,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.435Z'
+      prompt_version: v3
   - repo: nicolonsky/ITDR
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - microsoft
+      - azuread
+      - entra
+      - itdr
+      - lang:powershell
     summary: Collection of Microsoft Identity Threat Detection and Response resources.
     last_synced_sha: 73de6c051294d8f0d3dbc3a0a1ae465a59f0ffde
     user_starred_at: '2026-02-05T05:24:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -17671,15 +17784,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.435Z'
+      prompt_version: v3
   - repo: merill/graph-permissions-explorer
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - graph
+      - entra
+      - permissions
+      - lang:html
     summary: Repository for public site hosting graph permissions
     last_synced_sha: dc0d215e1cd3ba0b392c66c5afbe959897b78404
     user_starred_at: '2026-02-05T05:12:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -17700,15 +17822,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.435Z'
+      prompt_version: v3
   - repo: bbmumford/Intune-Toolkit
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - documentation
+    tags:
+      - intune
+      - azure
+      - lang:opal
     summary: my personal collection of scripts & guides to configuring a standard enterprise Intune enviroment.
     last_synced_sha: 02c63f1a9bdcfb15591bdbb02322c2c37b6931f9
     user_starred_at: '2026-02-05T05:06:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Opal
       topics:
@@ -17734,6 +17864,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:27:32.435Z'
+      prompt_version: v3
   - repo: merill/awesome-entra
     categories:
       - learning
