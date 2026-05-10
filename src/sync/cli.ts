@@ -1,31 +1,26 @@
 // CLI: invoked by .github/workflows/02-sync-stars.yml as the sync step.
-// Reads the fetched-stars JSON + the existing manifest, runs reconcile,
-// and writes the updated manifest back to repos.yml.
-//
-// Env:
-//   FETCHED_STARS_PATH   default .github-stars/data/fetched-stars-graphql.json
-//   MANIFEST_PATH        default repos.yml
-//   GITHUB_USER          override manifest_metadata.github_user
-//   MANIFEST_REMOVAL_OVERRIDE  set to 'true' to bypass 5% destructive-deletion guard
-//   GITHUB_OUTPUT        if present, writes:
-//                          changed, total_new, total_removed, total_updated,
-//                          total_repos, removal_ratio, destructive_refused
 
-import { appendFileSync, readFileSync } from "node:fs";
-import process from "node:process";
+import { GhStarsEnv } from "../contracts/env.js";
 import type { FetchedRepo } from "../fetch/types.js";
+import {
+	appendFileTextSync,
+	exit,
+	getEnv,
+	readTextFileSync,
+	writeStderrLine,
+} from "../host-io/index.js";
 import { loadManifest, writeManifest } from "./manifest-io.js";
 import { reconcile } from "./reconcile.js";
 
 function envOrDefault(key: string, dflt: string): string {
-	const v = process.env[key];
+	const v = getEnv(key);
 	return v?.trim() ? v.trim() : dflt;
 }
 
 function setOutput(line: string): void {
-	const out = process.env.GITHUB_OUTPUT;
+	const out = getEnv(GhStarsEnv.githubOutput);
 	if (!out) return;
-	appendFileSync(out, `${line}\n`);
+	appendFileTextSync(out, `${line}\n`);
 }
 
 function main(): void {
@@ -34,47 +29,51 @@ function main(): void {
 		".github-stars/data/fetched-stars-graphql.json",
 	);
 	const MANIFEST_PATH = envOrDefault("MANIFEST_PATH", "repos.yml");
-	const githubUser = (process.env.GITHUB_USER || "").trim() || undefined;
+	const githubUser = (getEnv("GITHUB_USER") ?? "").trim() || undefined;
 	const removalOverride =
-		(process.env.MANIFEST_REMOVAL_OVERRIDE || "").trim().toLowerCase() ===
-		"true";
+		(getEnv("MANIFEST_REMOVAL_OVERRIDE") ?? "").trim().toLowerCase() === "true";
 
 	const fetched: FetchedRepo[] = JSON.parse(
-		readFileSync(FETCHED_STARS_PATH, "utf8"),
+		readTextFileSync(FETCHED_STARS_PATH),
 	);
 	if (!Array.isArray(fetched)) {
-		console.error(
+		writeStderrLine(
 			`::error::Invalid fetched-stars data at ${FETCHED_STARS_PATH}: expected array`,
 		);
-		process.exit(2);
+		exit(2);
 	}
-	console.error(
+	writeStderrLine(
 		`Loaded ${fetched.length} fetched repos from ${FETCHED_STARS_PATH}`,
 	);
 
 	const manifest = loadManifest(MANIFEST_PATH);
-	console.error(
+	writeStderrLine(
 		`Loaded manifest with ${manifest.repositories.length} repos from ${MANIFEST_PATH}`,
 	);
 
-	const result = reconcile({ manifest, fetched, githubUser, removalOverride });
+	const result = reconcile({
+		manifest,
+		fetched,
+		...(githubUser !== undefined ? { githubUser } : {}),
+		removalOverride,
+	});
 	if (result.kind === "destructive") {
-		console.error(`::error::${result.reason}`);
+		writeStderrLine(`::error::${result.reason}`);
 		setOutput("changed=false");
 		setOutput("destructive_refused=true");
 		setOutput(`removal_ratio=${result.stats.removal_ratio}`);
 		setOutput(`total_removed=${result.stats.total_removed}`);
 		setOutput(`total_repos=${result.stats.total_repos}`);
-		process.exit(1);
+		exit(1);
 	}
 
 	if (result.stats.changed) {
 		writeManifest(MANIFEST_PATH, result.manifest);
-		console.error(
+		writeStderrLine(
 			`Wrote ${MANIFEST_PATH}: ${result.stats.total_new} new, ${result.stats.total_removed} removed, ${result.stats.total_updated} updated → ${result.stats.total_repos} total`,
 		);
 	} else {
-		console.error("No changes to write.");
+		writeStderrLine("No changes to write.");
 	}
 
 	setOutput(`changed=${result.stats.changed ? "true" : "false"}`);
@@ -89,6 +88,7 @@ function main(): void {
 try {
 	main();
 } catch (err) {
-	console.error(`sync cli crashed: ${(err as Error)?.stack ?? err}`);
-	process.exit(1);
+	const stack = err instanceof Error ? (err.stack ?? err.message) : String(err);
+	writeStderrLine(`sync cli crashed: ${stack}`);
+	exit(1);
 }

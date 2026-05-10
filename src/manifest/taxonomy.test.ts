@@ -2,7 +2,7 @@
  * Unit tests for taxonomy module
  */
 
-import { describe, expect, it } from "vitest";
+import { describe, expect, it } from "bun:test";
 import {
 	canonicalize,
 	createCanonicalSet,

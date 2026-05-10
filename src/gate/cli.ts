@@ -1,31 +1,26 @@
-// pnpm gate — single readiness command per issue #69 lesson 1.
+// bun gate — single readiness command.
 //
 // Runs each stage sequentially, fails fast, prints a summary table at
-// the end. Each stage is a sub-process so it can use whatever toolchain
-// (tsc, vitest, schema validator, actionlint) without polluting this
-// process.
-//
-// Stages mirror the issue's spec L70-78:
-//   pnpm gate
-//     -> typecheck
-//     -> test
-//     -> validate manifest taxonomy
-//     -> validate JSON Schema (manifest against schemas/repos-schema.json)
-//     -> verify generated artifacts are fresh
-//     -> verify auth-mode resolver fixtures (covered by `test`)
-//     -> lint workflow YAML / known workflow footguns
+// the end. Each stage is a sub-process (via host-io's runCommandSync)
+// so it can use whatever toolchain (tsc, bun test, biome, eslint,
+// schema validator, actionlint) without polluting this process.
 
-import { type SpawnSyncReturns, spawnSync } from "node:child_process";
-import { existsSync, readdirSync } from "node:fs";
-import { join } from "node:path";
-import process from "node:process";
-import { validateRegistry } from "../generated/registry.js";
+import { GENERATED_ARTIFACTS } from "../generated/registry.js";
+import {
+	joinPaths,
+	listDirSync,
+	pathExistsSync,
+	platform,
+	runCommandSync,
+	setExitCode,
+	writeStderr,
+} from "../host-io/index.js";
 
 type StageResult = {
-	name: string;
-	ok: boolean;
-	durationMs: number;
-	note?: string;
+	readonly name: string;
+	readonly ok: boolean;
+	readonly durationMs: number;
+	readonly note?: string;
 };
 
 function runStage(
@@ -33,7 +28,7 @@ function runStage(
 	fn: () => boolean | { ok: boolean; note?: string },
 ): StageResult {
 	const t0 = Date.now();
-	process.stderr.write(`\n=== gate stage: ${name} ===\n`);
+	writeStderr(`\n=== gate stage: ${name} ===\n`);
 	let ok = false;
 	let note: string | undefined;
 	try {
@@ -48,27 +43,23 @@ function runStage(
 		note = (err as Error)?.message ?? String(err);
 	}
 	const durationMs = Date.now() - t0;
-	process.stderr.write(
+	writeStderr(
 		`=== ${name}: ${ok ? "PASS" : "FAIL"} (${durationMs}ms)${note ? ` — ${note}` : ""} ===\n`,
 	);
-	return { name, ok, durationMs, note };
+	const result: StageResult =
+		note === undefined
+			? { name, ok, durationMs }
+			: { name, ok, durationMs, note };
+	return result;
 }
 
-function npmRun(script: string): boolean {
-	// shell: true so Windows resolves bun.exe via PATH the same way the
-	// user's shell does. spawnSync with shell:false skips the .cmd shim.
-	const r: SpawnSyncReturns<Buffer> = spawnSync("bun", ["run", script], {
-		stdio: "inherit",
-		shell: true,
-	});
-	return r.status === 0;
+function bunRun(script: string): boolean {
+	return runCommandSync("bun", ["run", script]).ok;
 }
 
 function actionlintAvailable(): boolean {
-	const isWin = process.platform === "win32";
-	const cmd = isWin ? "where" : "which";
-	const r = spawnSync(cmd, ["actionlint"], { stdio: "pipe", shell: true });
-	return r.status === 0;
+	const which = platform() === "win32" ? "where" : "which";
+	return runCommandSync(which, ["actionlint"], { inheritStdio: false }).ok;
 }
 
 function actionlintAll(): { ok: boolean; note?: string } {
@@ -78,56 +69,64 @@ function actionlintAll(): { ok: boolean; note?: string } {
 			note: "actionlint not on PATH; skipping (CI installs it)",
 		};
 	}
-	// Pass files explicitly: actionlint with a directory argument fails on
-	// Windows with "Incorrect function" when shell-routed.
-	const dir = join(".github", "workflows");
-	if (!existsSync(dir)) return { ok: true, note: "no workflows dir" };
-	const files = readdirSync(dir)
+	const dir = joinPaths(".github", "workflows");
+	if (!pathExistsSync(dir)) return { ok: true, note: "no workflows dir" };
+	const files = listDirSync(dir)
 		.filter((f) => f.endsWith(".yml") || f.endsWith(".yaml"))
-		.map((f) => join(dir, f));
+		.map((f) => joinPaths(dir, f));
 	if (files.length === 0) return { ok: true, note: "no workflow files" };
-	const r = spawnSync("actionlint", files, { stdio: "inherit", shell: true });
-	return { ok: r.status === 0 };
+	return { ok: runCommandSync("actionlint", files).ok };
+}
+
+function validateGeneratedRegistry(): { ok: boolean; note?: string } {
+	const missing: string[] = [];
+	for (const a of GENERATED_ARTIFACTS) {
+		if (a.policy !== "committed") continue;
+		if (!pathExistsSync(a.path)) missing.push(`${a.id} (${a.path})`);
+	}
+	return missing.length === 0
+		? { ok: true }
+		: { ok: false, note: `missing: ${missing.join(", ")}` };
 }
 
 function main(): void {
 	const stages: StageResult[] = [];
 
-	stages.push(runStage("typecheck", () => npmRun("typecheck")));
-	if (!stages[stages.length - 1].ok) {
+	stages.push(runStage("typecheck", () => bunRun("typecheck")));
+	if (!stages[stages.length - 1]?.ok) {
 		finish(stages);
 		return;
 	}
 
-	stages.push(runStage("test", () => npmRun("test")));
-	if (!stages[stages.length - 1].ok) {
+	stages.push(runStage("lint", () => bunRun("lint")));
+	if (!stages[stages.length - 1]?.ok) {
+		finish(stages);
+		return;
+	}
+
+	stages.push(runStage("test", () => bunRun("test")));
+	if (!stages[stages.length - 1]?.ok) {
 		finish(stages);
 		return;
 	}
 
 	stages.push(
-		runStage("validate (taxonomy + schema)", () => npmRun("validate")),
+		runStage("validate (taxonomy + schema)", () => bunRun("validate")),
 	);
-	if (!stages[stages.length - 1].ok) {
+	if (!stages[stages.length - 1]?.ok) {
 		finish(stages);
 		return;
 	}
 
 	stages.push(
-		runStage("generated-artifacts registry", () => {
-			const r = validateRegistry(existsSync);
-			return {
-				ok: r.ok,
-				note: r.ok ? undefined : `missing: ${r.missing.join(", ")}`,
-			};
-		}),
+		runStage("generated-artifacts registry", validateGeneratedRegistry),
 	);
-	if (!stages[stages.length - 1].ok) {
+	if (!stages[stages.length - 1]?.ok) {
 		finish(stages);
 		return;
 	}
 
-	stages.push(runStage("actionlint (workflow YAML)", () => actionlintAll()));
+	stages.push(runStage("actionlint (workflow YAML)", actionlintAll));
 
 	finish(stages);
 }
@@ -135,17 +134,17 @@ function main(): void {
 function finish(stages: StageResult[]): void {
 	const totalMs = stages.reduce((acc, s) => acc + s.durationMs, 0);
 	const allOk = stages.every((s) => s.ok);
-	process.stderr.write("\n=== gate summary ===\n");
+	writeStderr("\n=== gate summary ===\n");
 	for (const s of stages) {
-		process.stderr.write(
+		writeStderr(
 			`  ${s.ok ? "PASS" : "FAIL"}  ${s.name.padEnd(36)} ${String(s.durationMs).padStart(6)}ms${s.note ? `  — ${s.note}` : ""}\n`,
 		);
 	}
-	process.stderr.write(
+	writeStderr(
 		`  ----  ${"total".padEnd(36)} ${String(totalMs).padStart(6)}ms\n`,
 	);
-	process.stderr.write(`gate: ${allOk ? "PASS" : "FAIL"}\n`);
-	process.exit(allOk ? 0 : 1);
+	writeStderr(`gate: ${allOk ? "PASS" : "FAIL"}\n`);
+	setExitCode(allOk ? 0 : 1);
 }
 
 main();

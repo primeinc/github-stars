@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from "vitest";
+import { describe, expect, it, mock } from "bun:test";
 import {
 	paginateStarListViaRest,
 	parseRestResumeToken,
@@ -7,7 +7,7 @@ import {
 function fakeOctokit(pages: Array<unknown>) {
 	let i = 0;
 	return {
-		request: vi.fn(async (route: string, _params: Record<string, unknown>) => {
+		request: mock(async (route: string, _params: Record<string, unknown>) => {
 			const p = pages[i++];
 			if (p instanceof Error) throw p;
 			return { data: p, status: 200, url: route, headers: {} };

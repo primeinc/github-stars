@@ -4,26 +4,59 @@
 // `validateRegistry()` to confirm each entry's `path` exists when the
 // artifact policy requires it.
 
-export const ARTIFACT_POLICY = ['committed', 'artifacted', 'ignored'] as const;
+/**
+ * The three artifact policies recognised by the gate's
+ * `validateRegistry` step.
+ *
+ * @remarks
+ * - `committed`  — must exist in git; gate fails if missing.
+ * - `artifacted` — workflow artifact only; gate doesn't check.
+ * - `ignored`    — gate ignores presence/absence (intentionally
+ *                  generated, intentionally not committed).
+ *
+ * @public
+ */
+export const ARTIFACT_POLICY = ["committed", "artifacted", "ignored"] as const;
+
+/**
+ * Literal-union over {@link ARTIFACT_POLICY}.
+ *
+ * @public
+ */
 export type ArtifactPolicy = (typeof ARTIFACT_POLICY)[number];
 
+/**
+ * One row in the generated-artifact registry. Captures the producer
+ * (workflow or TS module that emits it), consumers (downstream
+ * workflows/modules that read it), commit policy, and an optional
+ * validator script.
+ *
+ * @public
+ */
 export type GeneratedArtifact = {
-  /** Stable ID. */
-  id: string;
-  /** Path relative to repo root, OR a directory glob (ends with '/'). */
-  path: string;
-  /** Human description. */
-  description: string;
-  /** What workflow / TS module produces it. */
-  producer: string;
-  /** Who consumes it. */
-  consumers: string[];
-  /** committed = required in git; artifacted = workflow artifact only; ignored = expected absent. */
-  policy: ArtifactPolicy;
-  /** Optional command (npm script name) that validates the artifact. */
-  validate?: string;
+	/** Stable ID. */
+	id: string;
+	/** Path relative to repo root, OR a directory glob (ends with '/'). */
+	path: string;
+	/** Human description. */
+	description: string;
+	/** What workflow / TS module produces it. */
+	producer: string;
+	/** Who consumes it. */
+	consumers: string[];
+	/** committed = required in git; artifacted = workflow artifact only; ignored = expected absent. */
+	policy: ArtifactPolicy;
+	/** Optional command (npm script name) that validates the artifact. */
+	validate?: string;
 };
 
+/**
+ * Source-of-truth list of every generated artifact in this repo. The
+ * gate runner walks this list at the end of each run and confirms
+ * every `committed`-policy entry's path exists.
+ *
+ * @public
+ */
 export const GENERATED_ARTIFACTS: ReadonlyArray<GeneratedArtifact> = [
   {
     id: 'fetched-stars-graphql',
@@ -81,14 +114,31 @@ export const GENERATED_ARTIFACTS: ReadonlyArray<GeneratedArtifact> = [
   },
 ];
 
+/**
+ * Outcome of a {@link validateRegistry} run.
+ *
+ * @public
+ */
 export type RegistryValidation = {
-  ok: boolean;
-  missing: string[];
+	ok: boolean;
+	missing: string[];
 };
 
+/**
+ * Walk a registry and confirm every `committed`-policy entry's path
+ * exists. Pure function — `fsExists` is injected so tests can pass
+ * a stub instead of touching disk.
+ *
+ * @param fsExists - Predicate: does the path exist on disk?
+ * @param artifacts - The registry to validate; defaults to {@link GENERATED_ARTIFACTS}.
+ * @returns `ok: true` when nothing is missing; otherwise the list of
+ *   `<id> (<path>)` strings for missing committed artifacts.
+ *
+ * @public
+ */
 export function validateRegistry(
-  fsExists: (p: string) => boolean,
-  artifacts: ReadonlyArray<GeneratedArtifact> = GENERATED_ARTIFACTS
+	fsExists: (p: string) => boolean,
+	artifacts: ReadonlyArray<GeneratedArtifact> = GENERATED_ARTIFACTS,
 ): RegistryValidation {
   const missing: string[] = [];
   for (const a of artifacts) {

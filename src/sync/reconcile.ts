@@ -7,6 +7,15 @@
 
 import type { FetchedRepo } from "../fetch/types.js";
 
+/**
+ * Loose ManifestRepo shape used by the reconciler. Looser than
+ * {@link "../manifest/types".Repository} because the reconciler tolerates
+ * legacy / experimental fields the typed validator rejects (the open
+ * `[key: string]: unknown` is the escape hatch for fields not yet
+ * promoted into the strict schema).
+ *
+ * @public
+ */
 export type ManifestRepo = {
 	repo: string;
 	categories?: string[];
@@ -23,6 +32,13 @@ export type ManifestRepo = {
 	[key: string]: unknown;
 };
 
+/**
+ * Loose Manifest shape used by the reconciler — matches the YAML
+ * structure 02-sync-stars consumes, with optional fields where the
+ * caller may pass a partial document.
+ *
+ * @public
+ */
 export type Manifest = {
 	schema_version?: string;
 	manifest_metadata?: Record<string, unknown> & {
@@ -35,6 +51,13 @@ export type Manifest = {
 	repositories: ManifestRepo[];
 };
 
+/**
+ * Inputs to {@link reconcile}. The destructive-deletion guard is
+ * load-bearing — see the file header for the recovery incident this
+ * prevents.
+ *
+ * @public
+ */
 export type ReconcileOptions = {
 	manifest: Manifest;
 	fetched: FetchedRepo[];
@@ -47,10 +70,26 @@ export type ReconcileOptions = {
 	now?: () => Date;
 };
 
+/**
+ * Discriminated outcome from {@link reconcile}. `kind: "ok"` carries
+ * the merged manifest ready to write; `kind: "destructive"` carries
+ * the reason string and a stats block but no manifest — the caller
+ * must hard-fail without writing.
+ *
+ * @public
+ */
 export type ReconcileOutcome =
 	| { kind: "ok"; manifest: Manifest; stats: ReconcileStats }
 	| { kind: "destructive"; reason: string; stats: ReconcileStats };
 
+/**
+ * Per-run statistics surfaced via GITHUB_OUTPUT for downstream steps
+ * to gate on. `removal_ratio` is the fraction of existing repos that
+ * would be removed; the destructive-deletion guard fires when it
+ * exceeds {@link DEFAULT_REMOVAL_THRESHOLD}.
+ *
+ * @public
+ */
 export type ReconcileStats = {
 	total_new: number;
 	total_removed: number;
@@ -60,8 +99,37 @@ export type ReconcileStats = {
 	changed: boolean;
 };
 
+/**
+ * Default removal-ratio threshold (5%). When a sync would remove more
+ * than this fraction of existing repos, {@link reconcile} returns
+ * `{ kind: "destructive" }` and the caller must hard-fail. Override
+ * via the workflow input that maps to `removalOverride: true`.
+ *
+ * @public
+ */
 export const DEFAULT_REMOVAL_THRESHOLD = 0.05;
 
+/**
+ * Reconcile a freshly-fetched star list against the existing manifest.
+ * Pure function — does no I/O; the caller is responsible for loading
+ * the inputs and writing the output (see `src/sync/cli.ts`).
+ *
+ * @remarks
+ * Algorithm:
+ * 1. Deep-clone the input manifest so the in-place metadata sync below
+ *    doesn't mutate the caller's data.
+ * 2. Compute new / removed / retained sets by repo identity.
+ * 3. If `removal_ratio > removalThreshold` and `removalOverride` is
+ *    not set, return `kind: "destructive"` without writing.
+ * 4. Otherwise, splice in new entries via {@link cleanDescription}-aware
+ *    construction and update the metadata snapshot of retained entries.
+ *
+ * @param opts - Manifest + fetched stars + tunables.
+ * @returns The merged manifest plus a stats block, or a destructive
+ *   refusal envelope.
+ *
+ * @public
+ */
 export function reconcile(opts: ReconcileOptions): ReconcileOutcome {
 	const threshold = opts.removalThreshold ?? DEFAULT_REMOVAL_THRESHOLD;
 	const now = opts.now ?? (() => new Date());
@@ -212,6 +280,26 @@ export function reconcile(opts: ReconcileOptions): ReconcileOutcome {
 	};
 }
 
+/**
+ * Normalise a GitHub description string into a single-line summary
+ * suitable for the manifest's `summary` field.
+ *
+ * @remarks
+ * Steps (mirrors the historical 02-sync-stars cleanup at L195-203 of
+ * the workflow YAML):
+ * 1. Strip markdown heading prefixes (`# `, `## `, etc.).
+ * 2. Insert spaces between camelCase boundaries (`camelCase` → `camel Case`).
+ * 3. Collapse internal whitespace to single spaces.
+ * 4. Truncate to 200 chars with a `...` suffix when the source is longer.
+ *
+ * Returns `"No description provided"` when the input is empty or
+ * whitespace-only.
+ *
+ * @param desc - The raw GitHub description.
+ * @returns The normalised summary line.
+ *
+ * @public
+ */
 export function cleanDescription(desc: string | null | undefined): string {
 	if (!desc?.trim()) return "No description provided";
 	let cleaned = desc

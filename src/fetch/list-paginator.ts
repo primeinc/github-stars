@@ -15,6 +15,13 @@ import {
 } from "./partial-graphql.js";
 import type { StarListEntry } from "./types.js";
 
+/**
+ * Shape of one `viewer.starredRepositories` page returned by the
+ * GraphQL list query. Carries just enough to feed stage 2 — the
+ * full per-repo metadata is fetched in batched per-repo queries.
+ *
+ * @public
+ */
 export type ListPageResult = {
 	edges: Array<{
 		node: { nameWithOwner: string; isPrivate: boolean };
@@ -24,6 +31,15 @@ export type ListPageResult = {
 	totalCount: number;
 };
 
+/**
+ * Aggregate result of one full GraphQL pagination run. `lastEndCursor`
+ * is the cursor of the last successfully-fetched page — workflows
+ * forward it as `RESUME_CURSOR=` on retry. `inaccessibleOrgs` carries
+ * the org names blocked by classic-PAT access (not surfaced in public
+ * outputs per session-oracle verdict rule 8; the count is).
+ *
+ * @public
+ */
 export type ListPaginationOutcome = {
 	list: StarListEntry[];
 	pageCount: number;
@@ -32,6 +48,13 @@ export type ListPaginationOutcome = {
 	partialFailureReason: string;
 };
 
+/**
+ * Options for {@link paginateStarList}. The query body is supplied so
+ * tests can substitute a stub query without coupling this layer to
+ * the on-disk `queries/stars-list-query.graphql` path.
+ *
+ * @public
+ */
 export type ListPaginationOptions = {
 	octokit: OctokitClient;
 	query: string;
@@ -41,11 +64,29 @@ export type ListPaginationOptions = {
 	warn?: (msg: string) => void;
 };
 
+/**
+ * Canonical bad-credentials error message. Identical text used by both
+ * paginators so workflow log search keys on a single literal.
+ *
+ * @public
+ */
 export const BAD_CREDENTIALS_ERROR =
 	"Authentication failed: Bad credentials. " +
 	"The configured token is expired, revoked, or insufficient. " +
 	"See setup-doctor output for the active auth_mode and missing_config.";
 
+/**
+ * Paginate `viewer.starredRepositories` via GraphQL. Used in PAT and
+ * GITHUB_TOKEN modes — both carry user context so `viewer` resolves.
+ * App installation tokens take the
+ * {@link "./list-paginator-rest".paginateStarListViaRest | REST path}
+ * instead because installation tokens have no user context.
+ *
+ * @param opts - Pre-authenticated client + GraphQL query + cursor.
+ * @returns The accumulated star list plus the cursor for resume.
+ *
+ * @public
+ */
 export async function paginateStarList(
 	opts: ListPaginationOptions,
 ): Promise<ListPaginationOutcome> {

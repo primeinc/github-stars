@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it } from "bun:test";
 import { buildBatchQuery } from "./metadata-batcher.js";
 
 const FRAGMENT = `fragment RepoMetadata on Repository { isArchived }`;

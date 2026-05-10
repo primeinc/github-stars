@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from "vitest";
+import { describe, expect, it, mock } from "bun:test";
 import type { ResolvedAuth } from "./auth-mode.js";
 import {
 	applyRuntimeFailure,
@@ -39,7 +39,7 @@ describe("applyRuntimeFailure — github_app", () => {
 		const e = startEffective(resolved("github_app"));
 		const ctx: RuntimeContext = {
 			has_github_token_at_runtime: true,
-			warn: vi.fn(),
+			warn: mock(),
 		};
 		const failure = {
 			role: "star_fetch" as const,
@@ -56,7 +56,7 @@ describe("applyRuntimeFailure — pat", () => {
 	it("falls back to github_token loudly when flag=true and GITHUB_TOKEN present", () => {
 		// Arrange
 		const e = startEffective(resolved("pat", true));
-		const warn = vi.fn();
+		const warn = mock();
 		const ctx: RuntimeContext = { has_github_token_at_runtime: true, warn };
 		const failure = {
 			role: "star_fetch" as const,
@@ -81,7 +81,7 @@ describe("applyRuntimeFailure — pat", () => {
 
 	it("hard-fails when pat_fallback_to_github_token=false", () => {
 		const e = startEffective(resolved("pat", false));
-		const warn = vi.fn();
+		const warn = mock();
 		const ctx: RuntimeContext = { has_github_token_at_runtime: true, warn };
 		const failure = {
 			role: "star_fetch" as const,
@@ -111,7 +111,7 @@ describe("applyRuntimeFailure — pat", () => {
 		const e0 = startEffective(resolved("pat", true));
 		const ctx: RuntimeContext = {
 			has_github_token_at_runtime: true,
-			warn: vi.fn(),
+			warn: mock(),
 		};
 		const e1 = applyRuntimeFailure(
 			e0,
@@ -138,7 +138,7 @@ describe("applyRuntimeFailure — github_token", () => {
 		const e = startEffective(resolved("github_token"));
 		const ctx: RuntimeContext = {
 			has_github_token_at_runtime: true,
-			warn: vi.fn(),
+			warn: mock(),
 		};
 		const failure = {
 			role: "repo_write" as const,
@@ -154,7 +154,7 @@ describe("summary invariant — no mixed-auth shape ever escapes the layer", () 
 		const e0 = startEffective(resolved("pat", true));
 		const ctx: RuntimeContext = {
 			has_github_token_at_runtime: true,
-			warn: vi.fn(),
+			warn: mock(),
 		};
 		const e1 = applyRuntimeFailure(
 			e0,

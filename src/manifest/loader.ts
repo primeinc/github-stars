@@ -1,20 +1,20 @@
-/**
- * Loader module for reading and parsing repos.yml manifest
- */
+// Loader module for reading and parsing repos.yml manifest.
 
-import * as fs from "node:fs";
 import * as yaml from "js-yaml";
+import { pathExistsSync, readTextFileSync } from "../host-io/index.js";
 import type { Manifest } from "./types.js";
 
 /**
- * Load and parse a YAML manifest file
+ * Load and parse a YAML manifest file.
+ *
+ * @public
  */
 export function loadManifest(filePath: string): Manifest {
-	if (!fs.existsSync(filePath)) {
+	if (!pathExistsSync(filePath)) {
 		throw new Error(`Manifest file not found: ${filePath}`);
 	}
 
-	const content = fs.readFileSync(filePath, "utf8");
+	const content = readTextFileSync(filePath);
 	const data = yaml.load(content) as Manifest;
 
 	if (!data || typeof data !== "object") {
@@ -33,7 +33,9 @@ export function loadManifest(filePath: string): Manifest {
 }
 
 /**
- * Load manifest with error handling and detailed messages
+ * Load manifest with error handling and detailed messages.
+ *
+ * @public
  */
 export function loadManifestSafe(
 	filePath: string,

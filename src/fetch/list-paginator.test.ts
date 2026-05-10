@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from "vitest";
+import { describe, expect, it, mock } from "bun:test";
 import { paginateStarList } from "./list-paginator.js";
 
 const QUERY =
@@ -7,7 +7,7 @@ const QUERY =
 function fakeOctokit(pages: Array<unknown>) {
 	let callIndex = 0;
 	return {
-		graphql: vi.fn(async (_q: string, _vars: unknown) => {
+		graphql: mock(async (_q: string, _vars: unknown) => {
 			const page = pages[callIndex++];
 			if (page instanceof Error) throw page;
 			return page;

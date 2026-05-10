@@ -25,6 +25,19 @@ import {
 	type ResolvedAuth,
 } from "./auth-mode.js";
 
+/**
+ * Thrown when the resolver cannot pick any auth mode because no
+ * required credential is present. The `missing_config` array names the
+ * env-var(s) the operator must add to make the requested mode workable.
+ *
+ * @remarks
+ * Caught at the doctor's `main()` boundary in
+ * {@link "../auth/setup-doctor".main} and converted into a structured
+ * `::error::` line for GitHub Actions plus a populated `GITHUB_OUTPUT`
+ * with `config_error=true` so downstream steps can branch.
+ *
+ * @public
+ */
 export class AuthConfigError extends Error {
 	constructor(
 		message: string,
@@ -35,6 +48,36 @@ export class AuthConfigError extends Error {
 	}
 }
 
+/**
+ * Resolve the requested auth mode against present credentials. Pure
+ * function — does no I/O and does not read env directly; the caller
+ * (the doctor) reads env first and hands the typed
+ * {@link AuthResolverInputs} in.
+ *
+ * @remarks
+ * Selection rules (verbatim from the session-oracle verdict cited at
+ * the top of this file):
+ *
+ * 1. When `requested_mode` is anything other than `"auto"`, only that
+ *    mode is considered. Missing credentials throw {@link AuthConfigError}.
+ * 2. When `requested_mode` is `"auto"`, pick the highest-ranked mode
+ *    whose required credentials are present AND that can serve every
+ *    role end-to-end (the `github_app_supports_fetch` flag gates
+ *    github_app under AUTO).
+ * 3. The selected mode owns ALL roles for the run — `star_fetch_auth`
+ *    and `repo_write_auth` always equal `selected_mode`. The runtime
+ *    fallback transition (pat → github_token) is reported in
+ *    {@link "../auth/runtime-state".applyRuntimeFailure}, never here.
+ *
+ * @param inputs - The auth resolver inputs (env presence + flags).
+ * @returns The {@link ResolvedAuth} with `selected_mode` chosen and
+ *   every role bound to that mode.
+ * @throws {@link AuthConfigError} when no credentials at all are
+ *   present, or when an explicit `requested_mode` is missing its
+ *   required credentials.
+ *
+ * @public
+ */
 export function resolveAuthMode(inputs: AuthResolverInputs): ResolvedAuth {
 	const requested = inputs.requested_mode || "auto";
 	// Default true: PAT-mode runs prefer to keep going under github_token

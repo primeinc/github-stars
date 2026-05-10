@@ -1,23 +1,31 @@
-// Read/write repos.yml using js-yaml (already a project dep).
-//
-// 02-sync historically shelled out to `yq eval -o=json -` and then back to
-// `yq eval '.' manifest.json -o=yaml`. js-yaml gives the same round trip
-// without needing yq pre-installed; tests hit this path directly.
+// Read/write repos.yml using js-yaml. js-yaml gives the round trip yq
+// historically did without needing yq pre-installed; tests hit this path
+// directly.
 
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import yaml from "js-yaml";
+import {
+	pathExistsSync,
+	readTextFileSync,
+	writeTextFileAtomicSync,
+} from "../host-io/index.js";
 import type { Manifest } from "./reconcile.js";
 
 const TEMPLATE_PATH = ".github-stars/repos-template.yml";
 
+/**
+ * Load a manifest from `path`, falling back to the bundled template
+ * when the manifest is absent.
+ *
+ * @public
+ */
 export function loadManifest(path: string): Manifest {
-	const source = existsSync(path) ? path : TEMPLATE_PATH;
-	if (!existsSync(source)) {
+	const source = pathExistsSync(path) ? path : TEMPLATE_PATH;
+	if (!pathExistsSync(source)) {
 		throw new Error(
 			`Manifest not found at ${path} and template ${TEMPLATE_PATH} also missing`,
 		);
 	}
-	const raw = readFileSync(source, "utf8");
+	const raw = readTextFileSync(source);
 	const parsed = yaml.load(raw) as Manifest | null;
 	if (!parsed || typeof parsed !== "object") {
 		throw new Error(`Manifest at ${source} did not parse to an object`);
@@ -26,6 +34,11 @@ export function loadManifest(path: string): Manifest {
 	return parsed;
 }
 
+/**
+ * Atomically write `manifest` back to `path`.
+ *
+ * @public
+ */
 export function writeManifest(path: string, manifest: Manifest): void {
 	const text = yaml.dump(manifest, {
 		lineWidth: -1,
@@ -33,5 +46,5 @@ export function writeManifest(path: string, manifest: Manifest): void {
 		sortKeys: false,
 		forceQuotes: false,
 	});
-	writeFileSync(path, text);
+	writeTextFileAtomicSync(path, text);
 }

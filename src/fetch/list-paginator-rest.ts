@@ -39,11 +39,26 @@ import {
 } from "./partial-graphql.js";
 import type { StarListEntry } from "./types.js";
 
+/**
+ * One element of the `GET /users/{username}/starred` response when the
+ * `application/vnd.github.star+json` Accept header is set — the wrapper
+ * shape that splits out the star timestamp from the repo body.
+ *
+ * @public
+ */
 export type RestStarItem = {
 	starred_at: string;
 	repo: { full_name: string; private: boolean };
 };
 
+/**
+ * Aggregate result of one full REST pagination run. Mirrors
+ * {@link "./list-paginator".ListPaginationOutcome} so consumers (the
+ * orchestrator in `fetch-stars.ts`) can branch on selected mode
+ * without reshape.
+ *
+ * @public
+ */
 export type RestPaginationOutcome = {
 	list: StarListEntry[];
 	pageCount: number;
@@ -66,6 +81,14 @@ export type RestPaginationOutcome = {
 	partialFailureReason: string;
 };
 
+/**
+ * Options for {@link paginateStarListViaRest}. `username` is required
+ * because installation tokens have no user context — the workflow
+ * forwards `STAR_SOURCE_USER` (typed via
+ * {@link "../contracts/env".GhStarsEnv}) to satisfy this.
+ *
+ * @public
+ */
 export type RestPaginationOptions = {
 	octokit: OctokitClient;
 	username: string;
@@ -79,6 +102,18 @@ export type RestPaginationOptions = {
 
 const DEFAULT_PER_PAGE = 100;
 
+/**
+ * Paginate `GET /users/{username}/starred` via REST. Used in
+ * `github_app` mode because the GraphQL `viewer.starredRepositories`
+ * path is `serverToServer: false` — App installation tokens cannot
+ * call it. The REST path is `serverToServer: true` per first-party
+ * GitHub OpenAPI metadata.
+ *
+ * @param opts - Pre-authenticated client + username + start page.
+ * @returns The accumulated star list plus the page-number resume token.
+ *
+ * @public
+ */
 export async function paginateStarListViaRest(
 	opts: RestPaginationOptions,
 ): Promise<RestPaginationOutcome> {

@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it } from "bun:test";
 import { assertNoMixedAuth } from "./auth-mode.js";
 import { AuthConfigError, resolveAuthMode } from "./resolve-auth-mode.js";
 

@@ -2,7 +2,7 @@
  * Unit tests for normalizer module
  */
 
-import { describe, expect, it } from "vitest";
+import { describe, expect, it } from "bun:test";
 import { normalizeManifest, normalizeRepository } from "./normalizer.js";
 import type { Manifest, Repository } from "./types.js";
 

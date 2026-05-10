@@ -19,7 +19,22 @@
 // laundering. This file prevents that combination from being expressible
 // in the type system, and assertNoMixedAuth() enforces it at runtime.
 
+/**
+ * The three credential classes supported by github-stars. Order is
+ * load-bearing: AUTO mode picks the highest-ranked configured class
+ * (`github_app` first, then `pat`, then `github_token`).
+ *
+ * @public
+ */
 export const AUTH_MODES = ["github_app", "pat", "github_token"] as const;
+
+/**
+ * Literal union over {@link AUTH_MODES}. Every place an auth mode is
+ * passed across module boundaries uses this type — there is no
+ * widened-`string` form.
+ *
+ * @public
+ */
 export type AuthMode = (typeof AUTH_MODES)[number];
 
 /** Inputs to the resolver. Resolver decides; never mixes. */
@@ -45,7 +60,7 @@ export type AuthResolverInputs = {
 	/**
 	 * Whether the github_app credential class can serve the star_fetch
 	 * role end-to-end. The App-fetch path uses REST
-	 * /users/{username}/starred which is `serverToServer: true` per
+	 * `/users/\{username\}/starred` which is `serverToServer: true` per
 	 * first-party docs (refs/github/docs/.../activity.json L95321-95330).
 	 * See src/fetch/list-paginator-rest.ts for the implementation
 	 * + cited progAccess block.

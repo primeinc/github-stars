@@ -1,6 +1,20 @@
 // Shape of one transformed repo entry the fetcher emits.
 // Keep in sync with the schema 02-sync consumes.
 
+/**
+ * One transformed repository record produced by the fetcher and
+ * consumed by 02-sync's reconcile step. Shape stays in lockstep with
+ * `schemas/repos-schema.json`.
+ *
+ * @remarks
+ * Nullable fields reflect upstream GitHub responses where the API
+ * itself returns null (`disk_usage` for empty repos, `last_commit_sha`
+ * for repos with no default-branch ref, etc.). The reconciler is
+ * responsible for tolerating each null at the merge site, never for
+ * substituting a default.
+ *
+ * @public
+ */
 export type FetchedRepo = {
 	repo: string;
 	description: string;
@@ -26,8 +40,24 @@ export type FetchedRepo = {
 	latest_release: { tag: string; published_at: string } | null;
 };
 
+/**
+ * Stage-1 list-paginator output element: just the repo identity plus
+ * the user's star timestamp. Stage-2 metadata batches use this as
+ * input to fetch the per-repo details that hydrate {@link FetchedRepo}.
+ *
+ * @public
+ */
 export type StarListEntry = { repo: string; user_starred_at: string };
 
+/**
+ * Aggregate result of a complete star-fetch run. Stage 1 (pagination)
+ * produces the page count + cursor; stage 2 (metadata batches) produces
+ * `repos` and `batchCount`. {@link partialFailureReason} is non-empty
+ * iff the fetch could not complete, in which case the workflow must
+ * hard-fail (per session-oracle verdict).
+ *
+ * @public
+ */
 export type FetchOutcome = {
 	repos: FetchedRepo[];
 	pageCount: number;

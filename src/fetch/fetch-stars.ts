@@ -36,8 +36,24 @@ import {
 import type { OctokitClient } from "./octokit-client.js";
 import type { FetchOutcome } from "./types.js";
 
+/**
+ * Mode the doctor selected for this run. Drives which stage-1
+ * paginator runs ({@link "./list-paginator-rest" | REST} for App mode,
+ * {@link "./list-paginator" | GraphQL} for PAT/GITHUB_TOKEN modes).
+ * Subset of {@link "../auth/auth-mode".AuthMode}; the resolver
+ * narrows to this exact union before reaching the fetcher.
+ *
+ * @public
+ */
 export type SelectedMode = "github_app" | "pat" | "github_token";
 
+/**
+ * Options for {@link fetchStars}. The `octokit` is pre-authenticated
+ * for `selectedMode`'s credential class; this layer never touches the
+ * auth boundary.
+ *
+ * @public
+ */
 export type FetchStarsOptions = {
 	octokit: OctokitClient;
 	/** Drives which stage-1 implementation runs. */
@@ -60,6 +76,26 @@ export type FetchStarsOptions = {
 	warn?: (msg: string) => void;
 };
 
+/**
+ * Run the two-stage star fetch end-to-end. Stage 1 paginates the
+ * star list under `selectedMode`'s endpoint shape; stage 2 fans out
+ * per-repo metadata in aliased GraphQL batches under all modes.
+ *
+ * @remarks
+ * On any partial failure, returns a {@link FetchOutcome} with a
+ * non-empty `partialFailureReason` AND any partial repos already
+ * gathered — the workflow writes the partial JSON anyway so a
+ * follow-up run can `RESUME_CURSOR=` from where this left off, then
+ * exits with a hard-fail.
+ *
+ * Per session-oracle verdict rule 8, blocked-org NAMES are NEVER
+ * emitted; only the count surfaces.
+ *
+ * @param opts - Pre-authenticated client + per-mode inputs.
+ * @returns The complete two-stage outcome.
+ *
+ * @public
+ */
 export async function fetchStars(
 	opts: FetchStarsOptions,
 ): Promise<FetchOutcome> {

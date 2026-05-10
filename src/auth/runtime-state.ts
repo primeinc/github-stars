@@ -24,6 +24,13 @@ import {
 	type ResolvedAuth,
 } from "./auth-mode.js";
 
+/**
+ * Describes a runtime credential failure surfaced by a fetch or write
+ * operation. Passed to {@link applyRuntimeFailure} to decide whether
+ * to re-throw or transition to `effective_mode=github_token`.
+ *
+ * @public
+ */
 export type RuntimeFailure = {
 	/** Where the failure occurred ("star_fetch", "repo_write"). */
 	role: "star_fetch" | "repo_write";
@@ -33,6 +40,14 @@ export type RuntimeFailure = {
 	error: Error;
 };
 
+/**
+ * Ambient runtime state {@link applyRuntimeFailure} reads when
+ * deciding whether a fallback transition is possible. Separated from
+ * {@link RuntimeFailure} so callers supply once and reuse across many
+ * failure-handling sites.
+ *
+ * @public
+ */
 export type RuntimeContext = {
 	warn?: (msg: string) => void;
 	/** True iff GITHUB_TOKEN is available to act as fallback target. */
