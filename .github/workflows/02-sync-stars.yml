@@ -86,10 +86,26 @@ jobs:
           TRIGGER_RUN_ID: ${{ github.event.workflow_run.id }}
         run: |
           set -euo pipefail
-          src="committed"
-          if [ "$MODE" = "artifact" ] && [ "$DOWNLOAD_OUTCOME" = "success" ]; then
-            src="artifact"
+          # In workflow_run mode the artifact is the canonical handoff. If
+          # the download did not succeed (missing artifact, expired
+          # retention, permission failure), fail hard instead of silently
+          # reconciling against potentially-stale committed data. The
+          # committed JSON is only allowed for workflow_dispatch.
+          if [ "$MODE" = "artifact" ] && [ "$DOWNLOAD_OUTCOME" != "success" ]; then
+            {
+              echo "::error::Artifact download failed for triggering run $TRIGGER_RUN_ID (artifact=$ARTIFACT_NAME, outcome=$DOWNLOAD_OUTCOME)."
+              echo "::error::Refusing to fall back to the committed fetched-stars JSON in workflow_run mode; that data may be stale relative to the run that triggered this sync."
+              echo "::error::Investigate the triggering 01-Fetch GitHub Stars run, then rerun this workflow via workflow_dispatch if you intend to use the committed JSON."
+            } >&2
+            exit 1
           fi
+
+          if [ "$MODE" = "artifact" ]; then
+            src="artifact"
+          else
+            src="committed"
+          fi
+
           if [ ! -s ".github-stars/data/fetched-stars-graphql.json" ]; then
             {
               echo "::error::No fetched-stars input found."
