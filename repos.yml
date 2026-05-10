@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-10T07:34:19.094Z'
+  manifest_updated_at: '2026-05-10T07:34:57.178Z'
   total_repos: 2612
   generator_version: v1.0.0
   github_user: primeinc
@@ -11106,13 +11106,19 @@ repositories:
     framework: null
   - repo: vxcontrol/pentagi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+      - automation
+    tags:
+      - ai-agents
+      - security-testing
+      - penetration-testing
+      - lang:go
     summary: Fully autonomous AI Agents system capable of performing complex penetration testing tasks
     last_synced_sha: 2ec8ef3d9b075eabee65389fd0966de974e3acc9
     user_starred_at: '2026-02-22T10:03:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -11147,16 +11153,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: hiddify/hiddify-app
     categories:
-      - unclassified
-    tags: []
+      - security
+      - networking
+      - mobile-dev
+    tags:
+      - multi-platform
+      - proxy
+      - secure-networking
+      - lang:dart
     summary: Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.
     last_synced_sha: fbc6cbd4ed6a978e5923c8203a93080019a7777b
     user_starred_at: '2026-02-22T10:03:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dart
       topics:
@@ -11192,15 +11208,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: wxt-dev/wxt
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - web-dev
+    tags:
+      - web-extension
+      - dev-server
+      - hmr
+      - chrome-extensions
+      - lang:ts
     summary: ⚡ Next-gen Web Extension Framework
     last_synced_sha: a7976d2e63365db66db2bc99afeb065cf5335d01
     user_starred_at: '2026-02-21T06:29:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11223,15 +11249,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: moonD4rk/HackBrowserData
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - browser-security
+      - data-decryption
+      - pentest-tool
+      - lang:go
     summary: Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (mac OS, Windows, Linux).
     last_synced_sha: 5d67d3c3033c73f2a180b78391d6e5f9af411428
     user_starred_at: '2026-02-21T04:24:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -11259,15 +11294,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: memvid/design-memory
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+      - web-dev
+    tags:
+      - ui-design
+      - frontend
+      - llm
+      - tailwindcss
+      - lang:ts
     summary: Extract and reproduce design systems from any website using deterministic analysis and LLM interpretation.
     last_synced_sha: 46ce7ac63062e7937b7e13c8fc1a2d3388535f72
     user_starred_at: '2026-02-17T19:19:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11295,15 +11341,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: nushell/nushell
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - dev-tools
+    tags:
+      - shell
+      - command-line
+      - lang:rust
     summary: A new type of shell
     last_synced_sha: 8a322f66630d2d13473d2c03c5ed978ffcfb29ef
     user_starred_at: '2026-02-16T14:22:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -11324,15 +11378,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: andrelandgraf/fullstackrecipes
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - learning
+    tags:
+      - web-ai
+      - fullstack-guides
+      - web-development
+      - lang:ts
     summary: A Shadcn registry and collection of production-ready patterns and step-by-step guides (recipes) for full stack web AI apps
     last_synced_sha: f4acc5dc1df1c286e4c17f500312600b09cd42c1
     user_starred_at: '2026-02-16T05:29:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -11350,15 +11413,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: PV-Bhat/vibe-check-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - mcp-server
+      - ai-agents
+      - agent-workflow
+      - lang:ts
     summary: Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-e...
     last_synced_sha: e8b3045e58eb4d673e30cb591d07a5ccad57a58b
     user_starred_at: '2026-02-16T05:20:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11388,15 +11460,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: daobataotie/CAD-MCP
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - cad
+      - mcp
+      - automation
+      - lang:python
     summary: CAD MCP Server
     last_synced_sha: 352541820a56823568a90993dd773e7014205f44
     user_starred_at: '2026-02-16T05:20:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -11419,15 +11500,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: bytebase/dbhub
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - ai-ml
+      - apis
+    tags:
+      - mcp-server
+      - database-management
+      - postgres
+      - token-optimization
+      - lang:ts
     summary: Zero-dependency, token-efficient database MCP server for Postgres, My SQL, SQL Server, Maria DB, SQLite.
     last_synced_sha: 72adfdcf7bcfe46b25edbc776ce096006eba9b02
     user_starred_at: '2026-02-16T05:20:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11465,15 +11557,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: stacklok/toolhive
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - system-admin
+      - cloud
+    tags:
+      - mcp-tools
+      - platform
+      - management
+      - golang
+      - lang:go
     summary: Tool Hive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers.
     last_synced_sha: 6733a546fdb845ce601b40c73277439e26d2f5e1
     user_starred_at: '2026-02-16T05:19:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -11502,15 +11605,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: reading-plus-ai/mcp-server-data-exploration
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - data-exploration
+      - mcp
+      - lang:python
     summary: No description provided
     last_synced_sha: 0cd67660c2591f05fe8dfe5bf93c9d5b66c5b95d
     user_starred_at: '2026-02-16T05:19:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11528,15 +11639,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: cyanheads/obsidian-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - automation
+    tags:
+      - note-taking
+      - mcp
+      - obsidian
+      - local-rest-api
+      - lang:ts
     summary: Obsidian vaults MCP server - read, write, search, and surgically edit notes, tags, and frontmatter via the Local REST API plugin.
     last_synced_sha: 71505249b637482b33be0dd14ed1b43e423055cc
     user_starred_at: '2026-02-16T05:18:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -11563,15 +11684,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: MxIris-Reverse-Engineering/ida-mcp-server
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - system-admin
+    tags:
+      - mcp-server
+      - reverse-engineering
+      - lang:python
     summary: A Model Context Protocol server for IDA
     last_synced_sha: 74e2eb8082e4329b11a27ec420f46fbec16c8d9f
     user_starred_at: '2026-02-16T05:18:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -11589,15 +11718,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: delorenj/mcp-server-trello
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - mcp-server
+      - trello-integration
+      - lang:ts
     summary: A Model Context Protocol (MCP) server that provides tools for interacting with Trello boards.
     last_synced_sha: 50f56dae64a98884886a101d21625e2295a7831c
     user_starred_at: '2026-02-16T05:18:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -11615,6 +11752,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:34:55.923Z'
+      prompt_version: v3
   - repo: juehang/vscode-mcp-server
     categories:
       - dev-tools
