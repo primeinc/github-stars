@@ -1,0 +1,31 @@
+# EditorConfig (https://editorconfig.org) — editor-side enforcement of
+# the repo's text format policy. Pairs with .gitattributes (which
+# enforces LF in git itself); .editorconfig stops editors from
+# producing CRLF in the first place.
+
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Markdown: trailing spaces are sometimes meaningful (line break);
+# don't trim them.
+[*.md]
+trim_trailing_whitespace = false
+
+# Makefiles require literal tabs.
+[Makefile]
+indent_style = tab
+
+# Python: PEP 8 default is 4 spaces.
+[*.py]
+indent_size = 4
+
+# Go: tab-indented per gofmt.
+[*.go]
+indent_style = tab

@@ -1,0 +1,58 @@
+# Repo-wide line-ending policy. Per first-party git docs
+# (refs/git/git/Documentation/gitattributes.adoc L145-199):
+#
+#   * text=auto eol=lf
+#
+# - text=auto: git decides if the file is text. If so, line endings are
+#   normalized to LF in the index on every checkin (regardless of what
+#   the contributor's editor saved).
+# - eol=lf: in the working tree, text files are checked out with LF
+#   even on Windows (overriding the Windows default of eol=crlf).
+#
+# Why LF everywhere:
+#   - Bash scripts in workflow `run:` blocks break on CRLF
+#     (`/usr/bin/env: 'bash\r': No such file or directory`).
+#   - GitHub renders LF natively; CRLF surfaces as `^M` noise in PR diffs.
+#   - Contributors on different OSes no longer fight the repo over EOL.
+#
+# Modern editors on Windows (VS Code, JetBrains, vim, Sublime, Notepad++)
+# all handle LF without complaint.
+* text=auto eol=lf
+
+# Explicit binary excludes — git's text/binary autodetection works most
+# of the time but these are unambiguous binaries and should never be
+# normalized.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.avif binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.otf binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.7z binary
+*.mp3 binary
+*.mp4 binary
+*.mov binary
+*.webm binary
+*.wasm binary
+
+# Lockfiles: keep LF (they ARE text), but mark linguist-generated so
+# they don't count against language stats and don't show by default in
+# review.
+pnpm-lock.yaml linguist-generated=true
+package-lock.json linguist-generated=true
+
+# Generated content: linguist-generated keeps it out of language stats,
+# but text=auto eol=lf above still applies (LF in index).
+.github-stars/data/*.json linguist-generated=true
+docs/data.json linguist-generated=true
+web/public/data.json linguist-generated=true
