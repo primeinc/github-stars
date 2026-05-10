@@ -1,0 +1,24 @@
+# Tag: markdown
+
+*16 repositories*
+
+[← Back to Index](../README.md)
+
+| Repository | Description | Metadata | Last Pushed |
+|---|---|---|---|
+| [mdx-js/mdx](https://github.com/mdx-js/mdx) | Markdown for the component era | `JavaScript` ★ 19.5k | 2026-05-07 |
+| [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) | Convert any web page to clean, readable Markdown with just one click. | `TypeScript` ★ 656 | 2026-04-28 |
+| [mark-when/markwhen](https://github.com/mark-when/markwhen) | Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more. | `HTML` ★ 4.8k | 2023-12-11 |
+| [usememos/memos](https://github.com/usememos/memos) | An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees. | `Go` ★ 59.5k | 2026-05-09 |
+| [riccardoruspoli/reko](https://github.com/riccardoruspoli/reko) | Make You Tube videos readable. Local-first Markdown summaries with Ollama, with cloud providers support. | `Python` ★ 63 | 2025-12-28 |
+| [waynesutton/markdown-site](https://github.com/waynesutton/markdown-site) | An open-source publishing framework built for AI agents and developers to ship websites, docs, or blogs. Write markdown, sync from the terminal. Your content is instantly available to browsers, LLM... | `TypeScript` ★ 615 | 2026-04-27 |
+| [jgm/pandoc](https://github.com/jgm/pandoc) | Universal markup converter | `Haskell` ★ 44k | 2026-05-07 |
+| [johnlindquist/mdflow](https://github.com/johnlindquist/mdflow) | Multi-backend CLI for executable markdown prompts. Run .md files against Claude, Codex, Gemini, or Copilot. | `TypeScript` ★ 582 | 2025-12-19 |
+| [pionxzh/chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) | Export and Share your Chat GPT conversation history | `TypeScript` ★ 2.4k | 2026-05-10 |
+| [slidevjs/slidev](https://github.com/slidevjs/slidev) | Presentation Slides for Developers | `TypeScript` ★ 46.3k | 2026-05-07 |
+| [hackmdio/codimd](https://github.com/hackmdio/codimd) | Codi MD - Realtime collaborative markdown notes on all platforms. | `JavaScript` ★ 10.1k | 2025-10-02 |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown. | `Python` ★ 122.3k | 2026-04-20 |
+| [amantus-ai/llm-codes](https://github.com/amantus-ai/llm-codes) | Transform developer documentation to clean Markdown | `TypeScript` ★ 323 | 2026-05-08 |
+| [codexu/note-gen](https://github.com/codexu/note-gen) | A cross-platform Markdown AI note-taking software. | `TypeScript` ★ 11.8k | 2026-04-26 |
+| [iamgio/quarkdown](https://github.com/iamgio/quarkdown) | 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases. | `Kotlin` ★ 13.9k | 2026-05-06 |
+| [outline/outline](https://github.com/outline/outline) | The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible. | `TypeScript` ★ 38.4k | 2026-05-10 |

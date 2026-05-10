@@ -1,10 +1,12 @@
 # Tag: sqlite
 
-*2 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [albanobattistella/EinVault](https://github.com/albanobattistella/EinVault) | Self-hosted animal companion health and care tracker for homelabs. Built with Svelte Kit and SQLite. | `TypeScript` ★ 1 | 2026-04-07 |
+| [albanobattistella/EinVault](https://github.com/albanobattistella/EinVault) | Self-hosted animal companion health and care tracker for homelabs. Built with Svelte Kit and SQLite. | ★ 1 | 2026-04-07 |
 | [robcole/rentcast-proxy](https://github.com/robcole/rentcast-proxy) | Typed API wrapper and proxy for Rentcast API with SQLite caching | `Crystal` ★ 1 | 2025-06-02 |
+| [usememos/memos](https://github.com/usememos/memos) | An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees. | `Go` ★ 59.5k | 2026-05-09 |
+| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 3.1k | 2026-03-25 |

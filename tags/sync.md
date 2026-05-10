@@ -1,0 +1,11 @@
+# Tag: sync
+
+*3 repositories*
+
+[← Back to Index](../README.md)
+
+| Repository | Description | Metadata | Last Pushed |
+|---|---|---|---|
+| [koodo-reader/koodo-reader](https://github.com/koodo-reader/koodo-reader) | A modern ebook manager and reader with sync and backup capacities for Windows, mac OS, Linux, Android, i OS and Web | `JavaScript` ★ 26.8k | 2026-05-10 |
+| [activadee/opencode-auth-sync](https://github.com/activadee/opencode-auth-sync) | No description provided | `TypeScript` ★ 5 | 2026-01-30 |
+| [vrtmrz/obsidian-livesync](https://github.com/vrtmrz/obsidian-livesync) | No description provided | `TypeScript` ★ 10.8k | 2026-05-09 |

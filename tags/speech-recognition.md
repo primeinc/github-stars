@@ -1,0 +1,12 @@
+# Tag: speech-recognition
+
+*4 repositories*
+
+[← Back to Index](../README.md)
+
+| Repository | Description | Metadata | Last Pushed |
+|---|---|---|---|
+| [modelscope/FunASR](https://github.com/modelscope/FunASR) | A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc. | `Python` ★ 16k | 2026-03-17 |
+| [dusty-nv/jetson-voice](https://github.com/dusty-nv/jetson-voice) | ASR/NLP/TTS deep learning inference library for NVIDIA Jetson using Py Torch and Tensor RT | `Python` ★ 227 | 2024-02-09 |
+| [nyrahealth/CrisperWhisper](https://github.com/nyrahealth/CrisperWhisper) | Verbatim Automatic Speech Recognition with improved word-level timestamps and filler detection | `Python` ★ 945 | 2025-06-03 |
+| [m-bain/whisperX](https://github.com/m-bain/whisperX) | Whisper X: Automatic Speech Recognition with Word-level Timestamps (& Diarization) | `Python` ★ 21.8k | 2026-04-04 |

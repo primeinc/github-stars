@@ -1,0 +1,11 @@
+# Tag: web-ui
+
+*3 repositories*
+
+[← Back to Index](../README.md)
+
+| Repository | Description | Metadata | Last Pushed |
+|---|---|---|---|
+| [daggerhashimoto/openclaw-nerve](https://github.com/daggerhashimoto/openclaw-nerve) | Real-time web cockpit for Open Claw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility. | `TypeScript` ★ 804 | 2026-05-10 |
+| [guaneec/custom-diffusion-webui](https://github.com/guaneec/custom-diffusion-webui) | An unofficial implementation of Custom Diffusion for Automatic1111's Web UI. | `Python` ★ 69 | 2023-07-17 |
+| [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Stable Diffusion web UI | `Python` ★ 162.8k | 2026-03-02 |
