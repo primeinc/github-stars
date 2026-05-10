@@ -24,7 +24,7 @@
 | [NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) | ⚒ Evolutionary self-improvement for Hermes Agent — optimize skills, prompts, and code using DSPy + GEPA | `Python` ★ 3k | 2026-03-29 |
 | [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) | Self-hosted AI agent orchestration platform: dispatch tasks, run multi-agent workflows, monitor spend, and govern operations from one mission control dashboard. | `TypeScript` ★ 4.7k | 2026-05-07 |
 | [daveRendon/azd-deepseek-r1-on-azure-container-apps](https://github.com/daveRendon/azd-deepseek-r1-on-azure-container-apps) | Use Infrastructure-As-Code to deploy Deep Seek-R1 on Azure Container Apps with Serverless GPUs. | `Bicep` ★ 2 | 2025-11-09 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `Python` ★ 141.4k | 2026-05-10 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `Python` ★ 141.5k | 2026-05-10 |
 | [alibaba/page-agent](https://github.com/alibaba/page-agent) | Java Script in-page GUI agent. Control web interfaces with natural language. | `TypeScript` ★ 17.7k | 2026-04-28 |
 | [apireno/DOMShell](https://github.com/apireno/DOMShell) | Agentic Shell | `TypeScript` ★ 34 | 2026-04-20 |
 | [cli/gh-extension-precompile](https://github.com/cli/gh-extension-precompile) | Action for publishing binary Git Hub CLI extensions | `Shell` ★ 119 | 2025-10-24 |
@@ -48,7 +48,7 @@
 | [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | Fully autonomous AI Agents system capable of performing complex penetration testing tasks | `Go` ★ 16.7k | 2026-05-09 |
 | [PV-Bhat/vibe-check-mcp-server](https://github.com/PV-Bhat/vibe-check-mcp-server) | Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-e... | `TypeScript` ★ 486 | 2026-03-30 |
 | [daobataotie/CAD-MCP](https://github.com/daobataotie/CAD-MCP) | CAD MCP Server | `Python` ★ 331 | 2025-07-21 |
-| [cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vaults MCP server - read, write, search, and surgically edit notes, tags, and frontmatter via the Local REST API plugin. | `TypeScript` ★ 499 | 2026-05-09 |
+| [cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vaults MCP server - read, write, search, and surgically edit notes, tags, and frontmatter via the Local REST API plugin. | `TypeScript` ★ 500 | 2026-05-09 |
 | [MxIris-Reverse-Engineering/ida-mcp-server](https://github.com/MxIris-Reverse-Engineering/ida-mcp-server) | A Model Context Protocol server for IDA | `Python` ★ 543 | 2025-05-29 |
 | [Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops) | An MCP server for Azure Dev Ops | `TypeScript` ★ 365 | 2026-02-05 |
 | [executeautomation/mcp-database-server](https://github.com/executeautomation/mcp-database-server) | MCP Database Server is a new MCP Server which helps connect with Sqlite, Sql Server and Posgresql Databases | `TypeScript` ★ 349 | 2025-08-27 |
@@ -87,7 +87,7 @@
 | [Songmu/tagpr](https://github.com/Songmu/tagpr) | automatically creates and updates a pull request for unreleased items, tag them when they are merged, and create releases. | `Go` ★ 295 | 2026-05-09 |
 | [cfpb/open-source-checklist](https://github.com/cfpb/open-source-checklist) | check internal repos against open source checklist requirements | `JavaScript` ★ 647 | 2019-01-18 |
 | [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) | Language-agnostic SLSA provenance generation for Github Actions | `Go` ★ 572 | 2026-03-29 |
-| [nrwl/nx](https://github.com/nrwl/nx) | The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time. | `TypeScript` ★ 28.7k | 2026-05-09 |
+| [nrwl/nx](https://github.com/nrwl/nx) | The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time. | `TypeScript` ★ 28.7k | 2026-05-10 |
 | [cloud-gov/caulking](https://github.com/cloud-gov/caulking) | Caulking installs global Git hooks that run gitleaks so you don’t accidentally commit or push secrets. | `Shell` ★ 34 | 2026-04-30 |
 | [neonichu/githop](https://github.com/neonichu/githop) | Uses Big Query and Git Hub Archive to create something like Time Hop for Git Hub. | `Ruby` ★ 78 | 2024-02-02 |
 | [six2dez/burp-ai-agent](https://github.com/six2dez/burp-ai-agent) | Burp Suite extension that adds built-in MCP tooling, AI-assisted analysis, privacy controls, passive and active scanning and more | `Kotlin` ★ 1.1k | 2026-05-06 |
@@ -136,7 +136,7 @@
 | [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) | Automate browser based workflows with AI | `Python` ★ 21.6k | 2026-05-10 |
 | [sarperavci/GoogleRecaptchaBypass](https://github.com/sarperavci/GoogleRecaptchaBypass) | Solve Google re CAPTCHA in less than 5 seconds! 🚀 | `Python` ★ 1.7k | 2026-04-24 |
 | [FoundationAgents/ReCode](https://github.com/FoundationAgents/ReCode) | Next paradigm for LLM Agent. Unify plan and action through recursive code generation for adaptive, human-like decision-making. | `Python` ★ 551 | 2026-04-21 |
-| [raine/anki-llm](https://github.com/raine/anki-llm) | A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs. | `Rust` ★ 242 | 2026-05-03 |
+| [raine/anki-llm](https://github.com/raine/anki-llm) | A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs. | `Rust` ★ 243 | 2026-05-03 |
 | [Azure/deployment-stacks](https://github.com/Azure/deployment-stacks) | Contains Deployment Stacks CLI scripts and releases | `Bicep` ★ 98 | 2024-10-24 |
 | [kayasax/EasyPIM](https://github.com/kayasax/EasyPIM) | Easy PIM let you manage PIM Azure Resource, Entra Role and Groups settings and assignments with simplicity | `PowerShell` ★ 230 | 2026-04-12 |
 | [microsoft/Intune-solutions](https://github.com/microsoft/Intune-solutions) | Git Hub Repository for Solution Intune Sample Scripts | `PowerShell` ★ 69 | 2023-07-02 |
@@ -188,7 +188,7 @@
 | [pangrr/realtor](https://github.com/pangrr/realtor) | crawl house data from realtor.com | `Python` ★ 7 | 2015-05-27 |
 | [harry-s-grewal/mls-real-estate-scraper-for-realtor.ca](https://github.com/harry-s-grewal/mls-real-estate-scraper-for-realtor.ca) | Python MLS and Real-Estate Data Scraper for the Realtor.ca Website | `Python` ★ 77 | 2026-02-26 |
 | [baizel36/property_search](https://github.com/baizel36/property_search) | Python scripts to search for real estate on realtor.com and zillow.com | `Python` ★ 14 | 2021-11-13 |
-| [larsbijl/trending_archive](https://github.com/larsbijl/trending_archive) | An archive of the Git Hub daily trending information | `Python` ★ 375 | 2026-05-09 |
+| [larsbijl/trending_archive](https://github.com/larsbijl/trending_archive) | An archive of the Git Hub daily trending information | `Python` ★ 376 | 2026-05-09 |
 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | Automate the process of making money online. | `Python` ★ 30.4k | 2026-04-04 |
 | [langgenius/dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development. | `TypeScript` ★ 140.8k | 2026-05-10 |
 | [Huanshere/VideoLingo](https://github.com/Huanshere/VideoLingo) | Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组 | `Python` ★ 17k | 2026-03-24 |

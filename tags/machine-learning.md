@@ -15,7 +15,7 @@
 | [NirantK/awesome-project-ideas](https://github.com/NirantK/awesome-project-ideas) | Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas | ★ 9.1k | 2023-03-13 |
 | [ItzCrazyKns/Vane](https://github.com/ItzCrazyKns/Vane) | Vane is an AI-powered answering engine. | `TypeScript` ★ 34.3k | 2026-04-11 |
 | [ByteDance-Seed/Bagel](https://github.com/ByteDance-Seed/Bagel) | Open-source unified multimodal model | `Python` ★ 5.9k | 2026-05-04 |
-| [photoprism/photoprism](https://github.com/photoprism/photoprism) | AI-Powered Photos App for the Decentralized Web 🌈💎✨ | `Go` ★ 39.6k | 2026-05-09 |
+| [photoprism/photoprism](https://github.com/photoprism/photoprism) | AI-Powered Photos App for the Decentralized Web 🌈💎✨ | `Go` ★ 39.6k | 2026-05-10 |
 | [ChanChiChoi/awesome-Face_Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition) | papers about Face Detection; Face Alignment; Face Recognition && Face Identification && Face Verification && Face Representation; Face Reconstruction; Face Tracking; Face Super-Resolution && Face D... | ★ 4.7k | 2023-02-09 |
 | [bibek376/Housing_Price_Prediction](https://github.com/bibek376/Housing_Price_Prediction) | No description provided | `Jupyter Notebook` ★ 53 | 2024-06-16 |
 | [Eric-Chung-0511/Learning-Record](https://github.com/Eric-Chung-0511/Learning-Record) | Empowering Data Driven insights through hands-on projects, SQL challenges and practical tools. | `Jupyter Notebook` ★ 24 | 2026-03-07 |

@@ -16,7 +16,7 @@
 | [pingdotgg/lawn](https://github.com/pingdotgg/lawn) | No description provided | `TypeScript` ★ 589 | 2026-04-29 |
 | [OracleBrain/OracleBrain](https://github.com/OracleBrain/OracleBrain) | No description provided | ★ 104 | 2026-02-20 |
 | [longrackslabs/inbox-classifier](https://github.com/longrackslabs/inbox-classifier) | No description provided | `Python` ★ 2 | 2026-03-09 |
-| [anomalyco/opencode-sdk-python](https://github.com/anomalyco/opencode-sdk-python) | No description provided | `Python` ★ 210 | 2026-01-30 |
+| [anomalyco/opencode-sdk-python](https://github.com/anomalyco/opencode-sdk-python) | No description provided | `Python` ★ 211 | 2026-01-30 |
 | [handlebauer/ts-preview](https://github.com/handlebauer/ts-preview) | No description provided | `TypeScript` ★ 1 | 2025-03-15 |
 | [MicrosoftRajan/CipherStudio](https://github.com/MicrosoftRajan/CipherStudio) | No description provided | `TypeScript` ★ 1 | 2025-10-28 |
 | [dialpad/dialpad-python-sdk](https://github.com/dialpad/dialpad-python-sdk) | No description provided | `Python` ★ 15 | 2026-03-31 |

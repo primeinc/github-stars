@@ -20,7 +20,7 @@
 | [junaid-mahmood/nlsh](https://github.com/junaid-mahmood/nlsh) | Turn natural language to terminal commands | `TypeScript` ★ 472 | 2026-01-22 |
 | [zenobi-us/bun-module](https://github.com/zenobi-us/bun-module) | No description provided | `Shell` ★ 35 | 2026-03-20 |
 | [Lidarr/Lidarr](https://github.com/Lidarr/Lidarr) | Looks and smells like Sonarr but made for music. | `C#` ★ 5.3k | 2026-05-09 |
-| [obra/superpowers](https://github.com/obra/superpowers) | Claude Code superpowers: core skills library | `Shell` ★ 184.6k | 2026-05-08 |
+| [obra/superpowers](https://github.com/obra/superpowers) | Claude Code superpowers: core skills library | `Shell` ★ 184.7k | 2026-05-08 |
 | [AutoForgeAI/autoforge](https://github.com/AutoForgeAI/autoforge) | No description provided | `Python` ★ 1.8k | 2026-04-19 |
 | [IIEleven11/ComfyUI-Dataset_Maker](https://github.com/IIEleven11/ComfyUI-Dataset_Maker) | No description provided | `Python` ★ 5 | 2026-01-09 |
 | [builtbybel/FlyOOBE](https://github.com/builtbybel/FlyOOBE) | Fly through your Windows 11 setup 🐝 | `C#` ★ 6.9k | 2026-01-04 |
@@ -33,7 +33,7 @@
 | [EpicenterHQ/epicenter](https://github.com/EpicenterHQ/epicenter) | Press shortcut → speak → get text. Free and open source. More local-first apps soon ❤️ | `TypeScript` ★ 4.5k | 2026-05-09 |
 | [ClemensElflein/OpenMower](https://github.com/ClemensElflein/OpenMower) | Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots! | `C++` ★ 6.5k | 2025-05-09 |
 | [context-labs/uwu](https://github.com/context-labs/uwu) | No description provided | `TypeScript` ★ 938 | 2025-08-23 |
-| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | AI Agent + Coding Agent + 300+ assistants: agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs. | `TypeScript` ★ 45.3k | 2026-05-10 |
+| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | AI Agent + Coding Agent + 300+ assistants: agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs. | `TypeScript` ★ 45.4k | 2026-05-10 |
 | [peterkrueck/Claude-Code-Development-Kit](https://github.com/peterkrueck/Claude-Code-Development-Kit) | Handle context at scale - my custom Claude Code workflow including hooks, mcp and sub agents | `Shell` ★ 1.3k | 2026-05-06 |
 | [devinmcelheran/Printune](https://github.com/devinmcelheran/Printune) | A one-stop utility for creating Intune packages to deploy printers and printer drivers. | `C#` ★ 59 | 2025-09-18 |
 | [Azure/azqr](https://github.com/Azure/azqr) | Azure Quick Review | `Go` ★ 765 | 2026-05-08 |
