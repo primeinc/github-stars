@@ -3,11 +3,13 @@
 This file contains instructions for AI agents (and human contributors) working on this codebase.
 
 ## 1. Project Overview
-This is a **GitHub Actions-based automation system** for curating starred repositories.
-- **Core Logic**: Embedded in `.github/workflows/*.yml` (JavaScript via `actions/github-script`).
-- **Database**: `repos.yml` (YAML manifest). Two independent gates protect it: a **JSON Schema** gate (`schemas/repos-schema.json`) and a **taxonomy** gate (categories/tags must come from the closed set defined in `src/manifest/taxonomy.ts`).
-- **Local Build**: A small TypeScript toolchain in `src/` is used in CI (`00-ci.yml`) and is runnable locally via `pnpm test`, `pnpm validate`, and `pnpm repro:taxonomy`.
-- **Web Surface**: A Vite + React app under `web/` builds to `docs/` and is deployed to GitHub Pages by `04-build-site.yml`. A separate CI gate (`00b-web-ci.yml`) runs `npm ci`/`lint`/`build` on every PR + push to `main`.
+This is a **TypeScript control plane orchestrated by GitHub Actions** for curating starred repositories. Per issue #69, runtime policy lives in typed modules under `src/`; workflow YAML is orchestration only.
+- **Core logic**: typed modules under `src/auth/`, `src/fetch/`, `src/sync/`, `src/diagnostics/`, `src/generated/`, `src/gate/`, plus the existing `src/manifest/`. Workflows under `.github/workflows/` invoke these via `pnpm <script>` rather than embedding business logic in YAML/JavaScript.
+- **Single readiness command**: `pnpm gate` runs typecheck + test + validate + generated-artifact registry + actionlint, in that order, fail-fast. `00-ci.yml` calls `pnpm gate` as its primary gate.
+- **Auth model**: `src/auth/resolve-auth-mode.ts` is the source of truth for which credential drives which capability. Modes: `github_app` (preferred), `pat`, `public`, `github_token` (degraded), `disabled`. The resolver runs as `pnpm auth:doctor` (alias for `tsx src/auth/setup-doctor.ts`) and writes per-job outputs `auth_mode`, `star_source_user`, `star_fetch_auth`, `repo_write_auth`, `degraded`. See §8.
+- **Generated artifacts**: every committed artifact has a producer/consumer/policy entry in `src/generated/registry.ts`; `pnpm gate` checks each is present.
+- **Database**: `repos.yml` (YAML manifest). Two independent gates protect it: a **JSON Schema** gate (`schemas/repos-schema.json`, enforced by `cardinalby/schema-validator-action@v3`) and a **taxonomy** gate (`src/manifest/taxonomy.ts`).
+- **Web surface**: a Vite + React app under `web/` builds to `docs/` and is deployed to GitHub Pages by `04-build-site.yml`. A separate CI gate (`00b-web-ci.yml`) runs `npm ci`/`lint`/`build` on every PR + push to `main`.
 
 ## 2. Build, Test, and Validation
 
@@ -27,11 +29,18 @@ ajv validate -s schemas/repos-schema.json -d repos.yml             # schema (if 
 
 ### Local toolchain (Node / pnpm)
 - Install: `pnpm install` (lockfile is `pnpm-lock.yaml`, `lockfileVersion 9.0`; CI pins `pnpm@10.13.1`).
-- Unit tests: `pnpm test` (vitest, `vitest.config.ts`).
-- Taxonomy validator: `pnpm validate` (runs `src/cli-validate.ts`).
-- Taxonomy reproduction: `pnpm repro:taxonomy`.
-- Normalizer: `pnpm normalize` (in-place canonicalization of `repos.yml`).
-- The first three are what `.github/workflows/00-ci.yml` runs on every PR / push to `main`.
+- **Readiness check (use this first)**: `pnpm gate` — runs all sub-gates: typecheck, test, validate, generated-artifact registry, actionlint. Mirrors what CI runs.
+- Sub-gates (run individually):
+  - `pnpm typecheck` (`tsc --noEmit`)
+  - `pnpm test` (vitest)
+  - `pnpm validate` (taxonomy strict on `repos.yml`)
+  - `pnpm repro:taxonomy` (regenerates the failing fixture used by tests)
+  - `pnpm normalize` (in-place canonicalization of `repos.yml`)
+- Workflow CLIs (also invocable locally with `GH_TOKEN`):
+  - `pnpm auth:doctor` — print active auth mode + capability matrix.
+  - `pnpm fetch:stars` — full two-stage fetch into `.github-stars/data/fetched-stars-graphql.json`.
+  - `pnpm sync:stars` — reconcile `repos.yml` against the fetched JSON.
+- `00-ci.yml` runs `pnpm gate` as the primary gate; PRs and pushes to `main` must pass it.
 
 ### Running Workflows
 Actual workflow files in `.github/workflows/` (numbered, run in order via `workflow_run` chaining):
@@ -89,9 +98,16 @@ Trigger any workflow manually via the GitHub Actions tab (`workflow_dispatch`).
 - maintain clear instructions for the AI model (GPT-4o) in these prompts.
 
 ## 5. Directory Structure
-- `.github/workflows/`: Automation logic (numbered `00`–`05`, see §2).
+- `.github/workflows/`: Orchestration only. Workflows invoke `pnpm <script>` for any non-trivial logic.
 - `schemas/repos-schema.json`: JSON Schema, source of truth for `repos.yml`.
-- `queries/stars-query.graphql`: GraphQL query consumed by `01-fetch-stars`.
+- `queries/stars-list-query.graphql`: cheap pagination query (stage 1).
+- `queries/stars-metadata-fragment.graphql`: per-repo metadata fragment (stage 2).
+- `src/auth/`: auth mode types, resolver, setup-doctor.
+- `src/fetch/`: fetch-stars orchestrator + cli, list paginator, metadata batcher, partial-graphql handling, octokit client wrapper.
+- `src/sync/`: reconcile (with 5% destructive-deletion guard), manifest io, cli.
+- `src/diagnostics/`: evidence labels, $GITHUB_STEP_SUMMARY helpers.
+- `src/generated/registry.ts`: typed registry of every committed/artifacted output.
+- `src/gate/cli.ts`: `pnpm gate` runner (typecheck + test + validate + registry + actionlint).
 - `src/manifest/`: TypeScript loader/normalizer/validator for `repos.yml`.
 - `src/cli-validate.ts`, `src/cli-normalize.ts`, `src/repro-taxonomy.ts`: Local CLI entry points.
 - `fixtures/repos.invalid.yml`: Failing fixture used by `pnpm repro:taxonomy`.
@@ -106,7 +122,8 @@ Trigger any workflow manually via the GitHub Actions tab (`workflow_dispatch`).
 
 ```
 GitHub stars (per user)
-   │  graphql:`viewer { starredRepositories ... }` (queries/stars-query.graphql)
+   │  graphql: stage 1 cheap list (queries/stars-list-query.graphql)
+   │           + stage 2 per-repo metadata (queries/stars-metadata-fragment.graphql)
    ▼
 01-fetch-stars.yml (cron + workflow_dispatch)
    ├── writes  .github-stars/data/fetched-stars-graphql.json   (transient JSON)
@@ -152,18 +169,27 @@ files in `categories/` and `tags/` automatically.
 - **Free Tier**: Do not introduce paid dependencies or services.
 - **Idempotency**: Workflows should be safe to re-run.
 
-## 8. Token Model (star fetch)
+## 8. Auth model
 
-`01-fetch-stars` uses `secrets.STARS_TOKEN || secrets.GITHUB_TOKEN`.
+The auth resolver (`src/auth/resolve-auth-mode.ts`) is the source of truth — workflows do NOT use implicit `secrets.STARS_TOKEN || secrets.GITHUB_TOKEN` fallthroughs as the auth decision. Run `pnpm auth:doctor` to print the active mode, capability matrix, and missing-config list (no secret values are printed).
 
-- `STARS_TOKEN` is a Personal Access Token with `read:user` scope, owned
-  by the account whose stars you want to fetch. The default
-  `GITHUB_TOKEN` belongs to the workflow's identity, which fetches
-  stars for the wrong account in forks/orgs and may have insufficient
-  scope.
-- The workflow performs a `viewer { login }` auth probe up front. On
-  `Bad credentials` it fails fast with a remediation message; transient
-  5xx are retried with capped, jittered backoff.
-- If `STARS_TOKEN` is missing, the workflow falls back to
-  `GITHUB_TOKEN` and emits a warning in the job summary so the
-  intentional vs. accidental fallback is visible in the run record.
+**Critical invariant**: `repo_write_auth != star_fetch_auth`. The two roles use independent credential decisions because GitHub App installation tokens cannot enumerate `viewer.starredRepositories`.
+
+| Mode            | Purpose                                       | Credential source                        | Status               |
+|-----------------|-----------------------------------------------|------------------------------------------|----------------------|
+| `github_app`    | preferred repo write / commit                 | `vars.GH_APP_CLIENT_ID` + `secrets.GH_APP_PRIVATE_KEY` | preferred       |
+| `pat`           | authenticated user-star fetch                 | `secrets.STARS_TOKEN` (read:user scope)  | supported fallback   |
+| `public`        | public-only star catalog                      | no token; `vars.STAR_SOURCE_USER`        | supported fallback   |
+| `github_token`  | workflow identity fallback                    | built-in `secrets.GITHUB_TOKEN`          | degraded, loud       |
+| `disabled`      | no usable path                                | none                                     | fail-fast            |
+
+**Auto resolution priority** (when no `auth_mode` input is given):
+1. `github_app` if both client id + private key present
+2. `pat` if `STARS_TOKEN` present (degraded — App is preferred)
+3. `public` if `STAR_SOURCE_USER` set
+4. `github_token` if available (degraded — fetches the bot account's stars)
+5. `disabled`
+
+**App configuration**: when the App is installed and its credentials are present, `01-fetch` and `02-sync` mint short-lived installation tokens via `actions/create-github-app-token@v3` and use them for the commit/push step. Star fetch still uses `STARS_TOKEN` because installation tokens lack user context.
+
+**Diagnostics**: every workflow that touches auth surfaces `auth_mode`, `star_source_user`, `star_fetch_auth`, `repo_write_auth`, `degraded` in `$GITHUB_STEP_SUMMARY`. If you see `auth_mode=disabled` or `degraded=true` and didn't expect it, the doctor's `missing_config` field names which key is absent.
