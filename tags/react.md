@@ -47,7 +47,7 @@
 | [tremorlabs/tremor](https://github.com/tremorlabs/tremor) | Copy & Paste React components to build modern web applications. | `TypeScript` ★ 3.4k | 2025-10-10 |
 | [nguyenjessev/liquor-locker](https://github.com/nguyenjessev/liquor-locker) | A home bar management app to track your bottles and ingredients, with support for AI-powered cocktail recommendations | `TypeScript` ★ 69 | 2026-02-04 |
 | [xyflow/xyflow](https://github.com/xyflow/xyflow) | React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely cust... | `TypeScript` ★ 36.5k | 2026-05-06 |
-| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 31.2k | 2026-05-09 |
+| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 31.2k | 2026-05-10 |
 | [openreplay/openreplay](https://github.com/openreplay/openreplay) | Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues and iterating on your product. | `TypeScript` ★ 12k | 2026-05-09 |
 | [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | Full stack, modern web application template. Using Fast API, React, SQLModel, Postgre SQL, Docker, Git Hub Actions, automatic HTTPS and more. | `TypeScript` ★ 43.1k | 2026-05-09 |
 | [untitleduico/react](https://github.com/untitleduico/react) | Untitled UI React is the world’s largest collection of open-source React components built with Tailwind CSS and React Aria. Just copy, paste, and build. | `TypeScript` ★ 1.7k | 2026-05-02 |
@@ -62,7 +62,7 @@
 | [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) | Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. | `TypeScript` ★ 13.8k | 2026-01-13 |
 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, powered by the community. | `TypeScript` ★ 45.7k | 2026-05-09 |
 | [claudio-silva/claude-artifact-runner](https://github.com/claudio-silva/claude-artifact-runner) | From Claude Artifact to deployable React app — in seconds! | `TypeScript` ★ 542 | 2026-01-23 |
-| [novuhq/novu](https://github.com/novuhq/novu) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | `TypeScript` ★ 39k | 2026-05-09 |
+| [novuhq/novu](https://github.com/novuhq/novu) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | `TypeScript` ★ 39k | 2026-05-10 |
 | [makeplane/plane](https://github.com/makeplane/plane) | 🔥🔥🔥 Open-source Jira, Linear, Monday, and Click Up alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | `TypeScript` ★ 48.9k | 2026-05-06 |
 | [risonsimon/claude-artifacts-react](https://github.com/risonsimon/claude-artifacts-react) | Quickly deploy React code from Claude Artifacts to the internet. | `JavaScript` ★ 50 | 2024-07-02 |
 | [microsoft/fluentui](https://github.com/microsoft/fluentui) | Fluent UI web represents a collection of utilities, React components, and web components for building web applications. | `TypeScript` ★ 20k | 2026-05-08 |

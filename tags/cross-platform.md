@@ -40,4 +40,4 @@
 | [MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-) | A beautiful cross platform Desktop Player for Google Play Music | `JavaScript` ★ 8.2k | 2023-01-04 |
 | [syncthing/syncthing](https://github.com/syncthing/syncthing) | Open Source Continuous File Synchronization | `Go` ★ 83.8k | 2026-05-09 |
 | [vladikoff/chromeos-apk](https://github.com/vladikoff/chromeos-apk) | ☢️ Run Android Apps in Chrome OS OR Chrome in OS X, Linux and Windows. | `JavaScript` ★ 7.9k | 2023-07-13 |
-| [xbmc/xbmc](https://github.com/xbmc/xbmc) | Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available f... | `C++` ★ 20.7k | 2026-05-09 |
+| [xbmc/xbmc](https://github.com/xbmc/xbmc) | Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available f... | `C++` ★ 20.7k | 2026-05-10 |

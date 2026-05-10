@@ -1,6 +1,6 @@
 # Data-science
 
-*205 repositories*
+*207 repositories*
 
 [← Back to Index](../README.md)
 
@@ -71,7 +71,7 @@
 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 Page Index: Document Index for Vectorless, Reasoning-based RAG | `Python` ★ 30.3k | 2026-05-08 |
 | [deepseek-ai/DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) | Contexts Optical Compression | `Python` ★ 23.1k | 2026-01-27 |
 | [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) | SOTA Open Source TTS | `Python` ★ 30.2k | 2026-05-04 |
-| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Duck DB is an analytical in-process SQL database management system | `C++` ★ 38k | 2026-05-09 |
+| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Duck DB is an analytical in-process SQL database management system | `C++` ★ 38k | 2026-05-10 |
 | [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) | Instant voice cloning by MIT and My Shell. Audio foundation model. | `Python` ★ 36.5k | 2025-04-19 |
 | [tile-ai/tilelang](https://github.com/tile-ai/tilelang) | Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels | `Python` ★ 6.1k | 2026-05-09 |
 | [TheAlgorithms/TypeScript](https://github.com/TheAlgorithms/TypeScript) | Algorithms and Data Structures implemented in Type Script for beginners, following best practices. | `TypeScript` ★ 2.8k | 2024-10-16 |
@@ -98,7 +98,7 @@
 | [datavzrd/datavzrd](https://github.com/datavzrd/datavzrd) | A tool to create visual HTML reports from collections of CSV/TSV tables | `Rust` ★ 676 | 2026-05-04 |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 38.4k | 2026-05-06 |
 | [NVIDIA/nvImageCodec](https://github.com/NVIDIA/nvImageCodec) | A nv Image Codec library of GPU- and CPU- accelerated codecs featuring a unified interface | `Jupyter Notebook` ★ 148 | 2026-04-14 |
-| [Canner/WrenAI](https://github.com/Canner/WrenAI) | ⚡️ Gen BI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds. | `Rust` ★ 15.1k | 2026-05-09 |
+| [Canner/WrenAI](https://github.com/Canner/WrenAI) | ⚡️ Gen BI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds. | `Rust` ★ 15.2k | 2026-05-09 |
 | [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/j P8Kfh Dhy N | `Python` ★ 65.3k | 2026-05-06 |
 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data | `TypeScript` ★ 117.6k | 2026-05-10 |
 | [pola-rs/polars](https://github.com/pola-rs/polars) | Extremely fast Query Engine for Data Frames, written in Rust | `Rust` ★ 38.4k | 2026-05-08 |
@@ -163,6 +163,7 @@
 | [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust | `Rust` ★ 15.2k | 2026-05-07 |
 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h! | `Python` ★ 49.4k | 2026-05-07 |
 | [bytedance/monolith](https://github.com/bytedance/monolith) | A Lightweight Recommendation System | `Python` ★ 9.3k | 2025-10-13 |
+| [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | Open Gen AI Stack | `Python` ★ 8.4k | 2026-05-09 |
 | [Nerogar/OneTrainer](https://github.com/Nerogar/OneTrainer) | One Trainer is a one-stop solution for all your Diffusion training needs. | `Python` ★ 3k | 2026-05-01 |
 | [neuralchen/SimSwap](https://github.com/neuralchen/SimSwap) | An arbitrary face-swapping framework on images and videos with one single trained model! | `Python` ★ 5.2k | 2024-08-06 |
 | [somanchiu/ReSwapper](https://github.com/somanchiu/ReSwapper) | Re Swapper aims to reproduce the implementation of inswapper. This repository provides code for training, inference, and includes pretrained weights. | `Python` ★ 226 | 2025-06-14 |
@@ -171,6 +172,7 @@
 | [nyrahealth/CrisperWhisper](https://github.com/nyrahealth/CrisperWhisper) | Verbatim Automatic Speech Recognition with improved word-level timestamps and filler detection | `Python` ★ 945 | 2025-06-03 |
 | [katanaml/sparrow](https://github.com/katanaml/sparrow) | Structured data extraction and instruction calling with ML, LLM and Vision LLM | `Python` ★ 5.2k | 2026-05-09 |
 | [aiola-lab/whisper-medusa](https://github.com/aiola-lab/whisper-medusa) | Whisper with Medusa heads | `Python` ★ 862 | 2025-08-06 |
+| [KlingAIResearch/LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | Bring portraits to life! | `Python` ★ 18.3k | 2026-03-02 |
 | [NVlabs/edm2](https://github.com/NVlabs/edm2) | EDM2 and Autoguidance -- Official Py Torch implementation | `Python` ★ 842 | 2024-12-09 |
 | [m-bain/whisperX](https://github.com/m-bain/whisperX) | Whisper X: Automatic Speech Recognition with Word-level Timestamps (& Diarization) | `Python` ★ 21.8k | 2026-04-04 |
 | [GaParmar/img2img-turbo](https://github.com/GaParmar/img2img-turbo) | One-step image-to-image with Stable Diffusion turbo: sketch2image, day2night, and more | `Python` ★ 2.4k | 2025-08-01 |

@@ -9,7 +9,7 @@
 | [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | Useful tool to track location or mobile number | `Python` ★ 13k | 2024-01-11 |
 | [joernio/joern](https://github.com/joernio/joern) | Open-source code analysis platform for C/C++/Java/Binary/Javascript/Python/Kotlin based on code property graphs. Discord https://discord.gg/vv4MH284Hc | `Scala` ★ 3.1k | 2026-05-08 |
 | [cisagov/kev-data](https://github.com/cisagov/kev-data) | Mirror of cisa.gov/kev data files | ★ 87 | 2026-05-08 |
-| [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10. | `Python` ★ 1.5k | 2026-05-09 |
+| [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10. | `Python` ★ 1.5k | 2026-05-10 |
 | [atom0s/Steamless](https://github.com/atom0s/Steamless) | Steamless is a DRM remover of the Steam Stub variants. The goal of Steamless is to make a single solution for unpacking all Steam DRM-packed files. Steamless aims to support as many games as possible. | `C#` ★ 4.7k | 2024-03-30 |
 | [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers | `Python` ★ 73.3k | 2026-03-15 |
 | [microsoft/Sandi](https://github.com/microsoft/Sandi) | This is a Rust implementation of the Sandi privacy-preserving reputation system described in https://arxiv.org/abs/2401.16759 | `Rust` ★ 6 | 2026-04-23 |
@@ -56,7 +56,7 @@
 | [stan-smith/SlingShot](https://github.com/stan-smith/SlingShot) | Dead simple ultra-low bandwidth video over QUIC, written in Rust, dead simple to use, free forever, designed for use in any and all conditions | `Rust` ★ 59 | 2026-03-08 |
 | [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 1.6k | 2026-01-07 |
 | [kaifcodec/Telespot](https://github.com/kaifcodec/Telespot) | Tele Spot OSINT lookup from Telephone number using DDGR + BING + GOOGLE and pattern recognition correlations. | `Python` ★ 6 | 2026-01-09 |
-| [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | `Python` ★ 83.2k | 2026-05-09 |
+| [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | `Python` ★ 83.2k | 2026-05-10 |
 | [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | `C#` ★ 14.5k | 2026-05-09 |
 | [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) | A platform for building proxies to bypass network restrictions. | `Go` ★ 46.9k | 2026-04-24 |
 | [Or1un/MOSAIC](https://github.com/Or1un/MOSAIC) | Privacy-first behavioral intelligence framework for multi-platform analysis and sociodynamic research. | `Python` ★ 41 | 2025-12-30 |

@@ -23,7 +23,7 @@
 | [abpframework/abp](https://github.com/abpframework/abp) | Open-source web application framework for ASP.NET Core! Offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET. Provides the fundamental in... | `C#` ★ 14.2k | 2026-05-10 |
 | [shadcnblocks/mainline-nextjs-template](https://github.com/shadcnblocks/mainline-nextjs-template) | Mainline Next.js template built with shadcn/ui, Tailwind 4 & Next.js | `TypeScript` ★ 304 | 2025-12-26 |
 | [luckgrid/lg-turbo-ui](https://github.com/luckgrid/lg-turbo-ui) | A turborepo workspace with a ready to go Next v15, React v19, and Tailwind CSS v4 UI packages and configs. | `TypeScript` ★ 2 | 2025-05-25 |
-| [withastro/astro](https://github.com/withastro/astro) | The web framework for content-driven websites. ⭐️ Star to support our work! | `TypeScript` ★ 59.1k | 2026-05-09 |
+| [withastro/astro](https://github.com/withastro/astro) | The web framework for content-driven websites. ⭐️ Star to support our work! | `TypeScript` ★ 59.1k | 2026-05-10 |
 | [rohit-gohri/redocusaurus](https://github.com/rohit-gohri/redocusaurus) | Open API for Docusaurus with Redoc | `TypeScript` ★ 739 | 2026-03-30 |
 | [primeinc/turborepo-nextjs](https://github.com/primeinc/turborepo-nextjs) | A production-ready Next.js 15 monorepo with React 19, Type Script, t RPC, and Prisma. | ★ 1 | 2025-11-21 |
 | [openworkflowdev/openworkflow](https://github.com/openworkflowdev/openworkflow) | Open-source Type Script framework for building durable, resumable workflows. | `TypeScript` ★ 1.2k | 2026-05-09 |
@@ -42,7 +42,7 @@
 | [WeChatCV/Stand-In](https://github.com/WeChatCV/Stand-In) | Stand-In is a lightweight, plug-and-play framework for identity-preserving video generation. | `Python` ★ 766 | 2026-02-21 |
 | [it-scripts/it-drugs](https://github.com/it-scripts/it-drugs) | Become a master herbalist with this drug script! Ready for every big Five M framework | `Lua` ★ 118 | 2025-09-27 |
 | [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | Full stack, modern web application template. Using Fast API, React, SQLModel, Postgre SQL, Docker, Git Hub Actions, automatic HTTPS and more. | `TypeScript` ★ 43.1k | 2026-05-09 |
-| [rails/rails](https://github.com/rails/rails) | Ruby on Rails | `Ruby` ★ 58.4k | 2026-05-09 |
+| [rails/rails](https://github.com/rails/rails) | Ruby on Rails | `Ruby` ★ 58.4k | 2026-05-10 |
 | [Stremio/stremio-core](https://github.com/Stremio/stremio-core) | ⚛️ The Stremio Core: types, addon system, UI models, core logic | `Rust` ★ 2k | 2026-05-07 |
 | [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first. | `TypeScript` ★ 72.1k | 2026-05-09 |
 | [moov-io/awesome-fintech](https://github.com/moov-io/awesome-fintech) | A curated collection of open source fintech libraries and resources. | ★ 297 | 2026-05-08 |

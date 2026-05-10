@@ -27,7 +27,7 @@
 | [supabase/etl](https://github.com/supabase/etl) | Stream your Postgres data anywhere in real-time. Simple Rust building blocks for change data capture (CDC) pipelines. | `Rust` ★ 2.2k | 2026-05-08 |
 | [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) | Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc. | `TypeScript` ★ 4.1k | 2026-04-25 |
 | [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | Free, simple, and intuitive online database diagram editor and SQL generator. | `JavaScript` ★ 37.2k | 2026-05-08 |
-| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Duck DB is an analytical in-process SQL database management system | `C++` ★ 38k | 2026-05-09 |
+| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Duck DB is an analytical in-process SQL database management system | `C++` ★ 38k | 2026-05-10 |
 | [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) | Multiplayer at the speed of light | `Rust` ★ 24.6k | 2026-05-09 |
 | [pmpetit/pglinter](https://github.com/pmpetit/pglinter) | database linter rules | `Rust` ★ 167 | 2026-04-22 |
 | [documentdb/documentdb](https://github.com/documentdb/documentdb) | Mongo DB-compatible database engine for cloud-native and open-source workloads. Built for scalability, performance, and developer productivity. | `C` ★ 3.3k | 2026-05-05 |
@@ -40,7 +40,7 @@
 | [mattf96s/QuackDB](https://github.com/mattf96s/QuackDB) | Open-source in-browser Duck DB SQL editor | `TypeScript` ★ 201 | 2026-04-08 |
 | [ariga/atlas](https://github.com/ariga/atlas) | Declarative schema migrations with schema-as-code workflows | `Go` ★ 8.4k | 2026-04-20 |
 | [geldata/gel](https://github.com/geldata/gel) | Gel supercharges Postgres with a modern data model, graph queries, Auth & AI solutions, and much more. | `Python` ★ 14.1k | 2025-12-24 |
-| [Canner/WrenAI](https://github.com/Canner/WrenAI) | ⚡️ Gen BI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds. | `Rust` ★ 15.1k | 2026-05-09 |
+| [Canner/WrenAI](https://github.com/Canner/WrenAI) | ⚡️ Gen BI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds. | `Rust` ★ 15.2k | 2026-05-09 |
 | [qualialabs/mapped-collection](https://github.com/qualialabs/mapped-collection) | Memory-mapped Mongo collections in Meteor | `JavaScript` ★ 12 | 2018-04-13 |
 | [nhost/nhost](https://github.com/nhost/nhost) | The Open Source Firebase Alternative with Graph QL. | `TypeScript` ★ 9.2k | 2026-05-09 |
 | [rustfs/rustfs](https://github.com/rustfs/rustfs) | 🚀2.3x faster than Min IO for 4KB object payloads. Rust FS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible plat... | `Rust` ★ 27.3k | 2026-05-10 |
@@ -61,7 +61,7 @@
 | [ideawu/ssdb](https://github.com/ideawu/ssdb) | SSDB - A fast No SQL database, an alternative to Redis | `C++` ★ 8.3k | 2022-08-20 |
 | [erikdubbelboer/phpRedisAdmin](https://github.com/erikdubbelboer/phpRedisAdmin) | Simple web interface to manage Redis databases. | `PHP` ★ 3.2k | 2025-12-22 |
 | [phpredis/phpredis](https://github.com/phpredis/phpredis) | A PHP extension for Redis | `C` ★ 10.2k | 2026-05-01 |
-| [redis/redis](https://github.com/redis/redis) | For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine. | `C` ★ 74.2k | 2026-05-10 |
+| [redis/redis](https://github.com/redis/redis) | For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine. | `C` ★ 74.3k | 2026-05-10 |
 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | Free and Open Source, Distributed, RESTful Search Engine | `Java` ★ 76.7k | 2026-05-10 |
 | [jprante/elasticsearch-jdbc](https://github.com/jprante/elasticsearch-jdbc) | JDBC importer for Elasticsearch | `Java` ★ 2.8k | 2021-11-05 |
 | [stefangabos/Zebra_Database](https://github.com/stefangabos/Zebra_Database) | PHP My SQLi wrapper that is lightweight and secure, featuring prepared statements, debugging tools, and caching support. | `PHP` ★ 117 | 2026-02-19 |

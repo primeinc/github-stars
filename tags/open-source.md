@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [penpot/penpot](https://github.com/penpot/penpot) | Penpot: The open-source design tool for design and code collaboration | `Clojure` ★ 47.4k | 2026-05-09 |
+| [penpot/penpot](https://github.com/penpot/penpot) | Penpot: The open-source design tool for design and code collaboration | `Clojure` ★ 47.4k | 2026-05-10 |
 | [frappe/lms](https://github.com/frappe/lms) | Easy to Use, 100% Open Source Learning Management System | `Vue` ★ 2.9k | 2026-05-08 |
 | [hunvreus/devpush](https://github.com/hunvreus/devpush) | Like Vercel, but open source and for all languages. | `Python` ★ 4.6k | 2026-03-03 |
 | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKq FWd Built in Rust using oh-my-codex. | `Rust` ★ 190.9k | 2026-05-09 |
@@ -16,7 +16,7 @@
 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI | `Python` ★ 46.9k | 2026-05-06 |
 | [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | A list of open source games. | `Python` ★ 12.6k | 2026-02-25 |
 | [github/docs](https://github.com/github/docs) | The open-source repo for docs.github.com | `TypeScript` ★ 19.4k | 2026-05-08 |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | `Python` ★ 433.6k | 2026-05-09 |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | `Python` ★ 433.6k | 2026-05-10 |
 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL Augment Code, Claude Code, Cluely, Code Buddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, Notion AI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer ... | ★ 137k | 2026-05-07 |
 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | Bring projects, wikis, and teams together with AI. App Flowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative. | `Dart` ★ 70.3k | 2026-04-24 |
 | [Mail-0/Zero](https://github.com/Mail-0/Zero) | Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://mail0.link/discord | `TypeScript` ★ 10.5k | 2025-09-04 |

@@ -1,6 +1,6 @@
 # Desktop-dev
 
-*199 repositories*
+*202 repositories*
 
 [← Back to Index](../README.md)
 
@@ -23,7 +23,7 @@
 | [epixoul/Inkoray-GUI](https://github.com/epixoul/Inkoray-GUI) | A GUI/cmd base software to control any type of printer (laser, inkjet, thermal, POS, etc.) and create custom templates and patterns! | ★ 2 | 2025-01-24 |
 | [milliytech/printer-service](https://github.com/milliytech/printer-service) | 🔵Python-based service to scan, copy, and print documents with configurable printer settings. | `Python` ★ 3 | 2025-05-06 |
 | [Yayi-Dev/esc-pos-printer-manager](https://github.com/Yayi-Dev/esc-pos-printer-manager) | A plugin to manage ESC/POS printers via node.js (javascript / typescript) without using zadig (Win USBDriver) | `PHP` ★ 9 | 2024-07-29 |
-| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, Open Code & Gemini CLI. | `Rust` ★ 65.2k | 2026-05-09 |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, Open Code & Gemini CLI. | `Rust` ★ 65.3k | 2026-05-09 |
 | [File-New-Project/EarTrumpet](https://github.com/File-New-Project/EarTrumpet) | Ear Trumpet - Volume Control for Windows | `C#` ★ 11k | 2026-05-10 |
 | [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications. | `C#` ★ 4.7k | 2026-05-10 |
 | [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) | Open Video Downloader - A cross-platform GUI for youtube-dl made in Rust with Tauri and Vue + Typescript. | `Rust` ★ 8.2k | 2026-05-08 |
@@ -142,12 +142,14 @@
 | [Bennik2000/BetterProjectors](https://github.com/Bennik2000/BetterProjectors) | This plugin for OBS Studio provides dockable projectors for scenes and sources | `C++` ★ 7 | 2023-04-19 |
 | [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | OBS Studio - Free and open source software for live streaming and screen recording | `C` ★ 72.3k | 2026-05-09 |
 | [flipswitchingmonkey/FlexASIO_GUI](https://github.com/flipswitchingmonkey/FlexASIO_GUI) | Simple configuration GUI for Flex ASIO | `C#` ★ 475 | 2024-01-27 |
+| [dechamps/FlexASIO](https://github.com/dechamps/FlexASIO) | A flexible universal ASIO driver that uses the Port Audio sound I/O library. Supports WASAPI (shared and exclusive), KS, Direct Sound and MME. | `C++` ★ 1.9k | 2024-06-27 |
 | [exeldro/obs-media-controls](https://github.com/exeldro/obs-media-controls) | No description provided | `CMake` ★ 86 | 2026-03-06 |
 | [moebiussurfing/ofxNDIHelper](https://github.com/moebiussurfing/ofxNDIHelper) | open Frameworks add-on to fast integrate an NDI Manager with 2x IN + 1x OUT + a Webcam device with a customizable canvas layout. | `C++` ★ 14 | 2026-03-10 |
 | [keijiro/Nsmp](https://github.com/keijiro/Nsmp) | Teleprompter via NDI | `C#` ★ 13 | 2022-11-27 |
 | [leadedge/SpoutVideoPlayer](https://github.com/leadedge/SpoutVideoPlayer) | An Openframeworks video player for Spout and NDI output | `C++` ★ 24 | 2024-03-04 |
 | [pixsper/jit.ndi](https://github.com/pixsper/jit.ndi) | Implementation of New Tek NDI protocol for Cycling 74's Max | `C` ★ 81 | 2026-01-16 |
 | [featherbear/ndi-streamer](https://github.com/featherbear/ndi-streamer) | Cross-platform display capture over NDI. Barebones version of Scan Converter made as an alternative to obs-ndi on Linux | `C++` ★ 34 | 2024-07-08 |
+| [DistroAV/DistroAV](https://github.com/DistroAV/DistroAV) | Distro AV (formerly OBS-NDI): NDI integration for OBS Studio | `C++` ★ 4.3k | 2026-05-08 |
 | [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) | Useful resources for creating apps with Electron | ★ 27.1k | 2026-05-03 |
 | [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) | Use your mac OS terminal shell to do awesome things. | ★ 30.6k | 2026-03-04 |
 | [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | 🚀 Awesome list of open source applications for mac OS. https://t.me/s/opensourcemacosapps | ★ 48.5k | 2026-04-15 |
@@ -171,6 +173,7 @@
 | [tjackenpacken/taskbar-groups](https://github.com/tjackenpacken/taskbar-groups) | Lightweight utility for organizing the taskbar through groups | `C#` ★ 2.7k | 2024-07-04 |
 | [GaspardCulis/slint-tetris](https://github.com/GaspardCulis/slint-tetris) | Tetris game made with Slint | `Rust` ★ 43 | 2023-05-26 |
 | [Surrealism-All/SurrealismUI](https://github.com/Surrealism-All/SurrealismUI) | A third-party UI library using Slint, I think it will give you an extraordinary experience | `Slint` ★ 367 | 2024-12-29 |
+| [oobabooga/textgen](https://github.com/oobabooga/textgen) | Open-source desktop app for local LLMs. Text, vision, tool-calling, Open AI/Anthropic-compatible API. | `Python` ★ 47k | 2026-05-07 |
 | [lencx/nofwl](https://github.com/lencx/nofwl) | No FWL Desktop Application | `Rust` ★ 4.2k | 2024-01-23 |
 | [lencx/ChatGPT](https://github.com/lencx/ChatGPT) | 🔮 Chat GPT Desktop Application (Mac, Windows and Linux) | `Rust` ★ 54.4k | 2024-08-29 |
 | [mpvnet-player/mpv.net](https://github.com/mpvnet-player/mpv.net) | 🎞 mpv.net is a media player for Windows with a modern GUI. | `C#` ★ 5k | 2026-02-09 |
@@ -204,6 +207,6 @@
 | [derceg/explorerplusplus](https://github.com/derceg/explorerplusplus) | Explorer++ is a lightweight and fast file manager for Windows | `C++` ★ 3.2k | 2026-05-07 |
 | [slate/slate](https://github.com/slate/slate) | Slate IRC client | `JavaScript` ★ 1.9k | 2014-05-30 |
 | [64characters/Telephone](https://github.com/64characters/Telephone) | SIP softphone for Mac | `Swift` ★ 1.2k | 2026-03-10 |
-| [xbmc/xbmc](https://github.com/xbmc/xbmc) | Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available f... | `C++` ★ 20.7k | 2026-05-09 |
+| [xbmc/xbmc](https://github.com/xbmc/xbmc) | Kodi is an award-winning free and open source home theater/media center software and entertainment hub for digital media. With its beautiful interface and powerful skinning engine, it's available f... | `C++` ★ 20.7k | 2026-05-10 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

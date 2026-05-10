@@ -72,7 +72,7 @@
 | [spipm/Depixelization_poc](https://github.com/spipm/Depixelization_poc) | Depix is a Po C for a technique to recover plaintext from pixelized screenshots. | `Python` ★ 4.5k | 2026-04-14 |
 | [linexjlin/GPTs](https://github.com/linexjlin/GPTs) | leaked prompts of GPTs | ★ 32k | 2024-09-27 |
 | [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) | An Open Source implementation of Notebook LM with more flexibility and features | `TypeScript` ★ 23.2k | 2026-05-08 |
-| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 131.2k | 2026-05-09 |
+| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 131.3k | 2026-05-09 |
 | [character-ai/Ovi](https://github.com/character-ai/Ovi) | No description provided | `Python` ★ 1.7k | 2025-11-15 |
 | [microsoft/Mastering-GitHub-Copilot-for-Paired-Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming) | A multi-module course teaching everything you need to know about using Git Hub Copilot as an AI Peer Programming resource. | `Python` ★ 7.9k | 2026-04-08 |
 | [pnp/copilot-prompts](https://github.com/pnp/copilot-prompts) | Examples of prompts for Microsoft Copilot | ★ 583 | 2026-05-03 |
@@ -86,7 +86,7 @@
 | [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | A collection of various awesome lists for hackers, pentesters and security researchers | ★ 111.9k | 2026-05-07 |
 | [bytedance/OneReward](https://github.com/bytedance/OneReward) | No description provided | `Python` ★ 345 | 2025-09-15 |
 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and RAG using Open AI, Anthropic, Gemini and opensource models. | `Python` ★ 109.5k | 2026-05-09 |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | `Python` ★ 433.6k | 2026-05-09 |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | `Python` ★ 433.6k | 2026-05-10 |
 | [scraed/LanPaint](https://github.com/scraed/LanPaint) | High quality training free inpaint for every stable diffusion model. Supports Comfy UI | `Python` ★ 1.1k | 2026-04-11 |
 | [Azure-Samples/mcp-workshop-dotnet](https://github.com/Azure-Samples/mcp-workshop-dotnet) | This provides workshop materials using official MCP SDK | `JavaScript` ★ 36 | 2025-10-10 |
 | [ChanChiChoi/awesome-Face_Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition) | papers about Face Detection; Face Alignment; Face Recognition && Face Identification && Face Verification && Face Representation; Face Reconstruction; Face Tracking; Face Super-Resolution && Face D... | ★ 4.7k | 2023-02-09 |
@@ -156,7 +156,7 @@
 | [php-school/learn-you-php](https://github.com/php-school/learn-you-php) | 🏆 Learn You PHP! - An introduction to PHP's core features: i/o, http, arrays, exceptions and so on. | `PHP` ★ 318 | 2024-11-06 |
 | [veltman/clmystery](https://github.com/veltman/clmystery) | A command-line murder mystery | ★ 6.1k | 2023-09-21 |
 | [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) | A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem | ★ 13.1k | 2024-07-03 |
-| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 464.6k | 2026-05-05 |
+| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 464.7k | 2026-05-05 |
 | [derekcsm/hubble_gallery](https://github.com/derekcsm/hubble_gallery) | This project is deprecated! Feel free to DM me or open an issue if you want to try and revive it | `Java` ★ 224 | 2019-10-07 |
 | [swissonid/android-design-support-lib-sample](https://github.com/swissonid/android-design-support-lib-sample) | Just Sample how to use the android design support lib | `Java` ★ 805 | 2015-10-01 |
 | [davidsonfellipe/awesome-wpo](https://github.com/davidsonfellipe/awesome-wpo) | :pencil: A curated list of Web Performance Optimization. Everyone can contribute here! | ★ 8.9k | 2026-05-02 |

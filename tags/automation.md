@@ -38,7 +38,7 @@
 | [github/branch-deploy](https://github.com/github/branch-deploy) | Enabling Branch Deployments through Issue Ops with Git Hub Actions - If you find this project useful, give it a star! ⭐️ | `JavaScript` ★ 549 | 2026-05-04 |
 | [meraki/dashboard-api-python](https://github.com/meraki/dashboard-api-python) | Official Dashboard API library (SDK) for Python | `Python` ★ 341 | 2026-05-08 |
 | [scrapy/scrapy](https://github.com/scrapy/scrapy) | Scrapy, a fast high-level web crawling & scraping framework for Python. | `Python` ★ 61.6k | 2026-05-09 |
-| [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your terminal | `Rust` ★ 81.4k | 2026-05-10 |
+| [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your terminal | `Rust` ★ 81.5k | 2026-05-10 |
 | [neu-se/testpilot2](https://github.com/neu-se/testpilot2) | Test Pilot 2 | `TypeScript` ★ 33 | 2024-07-23 |
 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflo... | `Shell` ★ 122.1k | 2026-05-09 |
 | [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent) | Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are commi... | `Python` ★ 12.9k | 2026-05-08 |

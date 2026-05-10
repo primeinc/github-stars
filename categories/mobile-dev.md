@@ -13,7 +13,7 @@
 | [farzaa/clicky](https://github.com/farzaa/clicky) | No description provided | `Swift` ★ 5.6k | 2026-04-28 |
 | [slopus/happy](https://github.com/slopus/happy) | Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured | `TypeScript` ★ 20.4k | 2026-05-08 |
 | [simpsoka/jules-companion](https://github.com/simpsoka/jules-companion) | No description provided | `Swift` ★ 86 | 2026-01-24 |
-| [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) | bluetooth mesh chat, IRC vibes | `Swift` ★ 25.8k | 2026-05-03 |
+| [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) | bluetooth mesh chat, IRC vibes | `Swift` ★ 25.8k | 2026-05-10 |
 | [callstackincubator/agent-skills](https://github.com/callstackincubator/agent-skills) | A collection of agent-optimized React Native skills for AI coding assistants. | `JavaScript` ★ 1.3k | 2026-04-28 |
 | [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static... | `JavaScript` ★ 21k | 2026-05-08 |
 | [OneKeyHQ/app-monorepo](https://github.com/OneKeyHQ/app-monorepo) | Secure, open source and community driven crypto wallet runs on all platforms and trusted by millions. | `TypeScript` ★ 2.4k | 2026-05-10 |

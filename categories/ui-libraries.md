@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [zuice/hono-tailwind](https://github.com/zuice/hono-tailwind) | A Hono 🔥 middleware for getting started with Tailwind right away! | `TypeScript` ★ 17 | 2026-01-31 |
-| [penpot/penpot](https://github.com/penpot/penpot) | Penpot: The open-source design tool for design and code collaboration | `Clojure` ★ 47.4k | 2026-05-09 |
+| [penpot/penpot](https://github.com/penpot/penpot) | Penpot: The open-source design tool for design and code collaboration | `Clojure` ★ 47.4k | 2026-05-10 |
 | [opral/paraglide-js](https://github.com/opral/paraglide-js) | Compiler-based i18n library that emits tree-shakable translations, leading to up to 70% smaller bundle sizes. | `TypeScript` ★ 400 | 2026-04-29 |
 | [nagix/mini-tokyo-3d](https://github.com/nagix/mini-tokyo-3d) | A real-time 3D digital map of Tokyo's public transport system | `JavaScript` ★ 4.1k | 2026-04-04 |
 | [EKKOLearnAI/hermes-web-ui](https://github.com/EKKOLearnAI/hermes-web-ui) | Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channel configuration (Telegram, Discord, Slack, Whats App) | `TypeScript` ★ 4.2k | 2026-05-10 |
@@ -37,7 +37,7 @@
 | [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) | No description provided | ★ 2.2k | 2026-01-19 |
 | [nibzard/FocusHighlighter](https://github.com/nibzard/FocusHighlighter) | No description provided | `TypeScript` ★ 2 | 2026-01-22 |
 | [puffinsoft/syntux](https://github.com/puffinsoft/syntux) | Consistent, cacheable generative UIs for the web. | `TypeScript` ★ 473 | 2026-05-03 |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms | `Python` ★ 76.1k | 2026-04-03 |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms | `Python` ★ 76.2k | 2026-04-03 |
 | [aagentah/nw_wrld](https://github.com/aagentah/nw_wrld) | nw\_wrld is an event-driven sequencer for triggering visuals using web technologies. It enables users to scale up audiovisual compositions for prototyping, demos, exhibitions, and live performances.... | `TypeScript` ★ 2k | 2026-05-09 |
 | [onlook-dev/onlook](https://github.com/onlook-dev/onlook) | The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI | `TypeScript` ★ 25.7k | 2026-03-27 |
 | [suitenumerique/meet](https://github.com/suitenumerique/meet) | Open source video conferencing app powered by Live Kit. | `Python` ★ 2k | 2026-05-09 |
@@ -63,7 +63,7 @@
 | [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) | The best design tools and plugins for everything 👉 | `JavaScript` ★ 39.9k | 2024-07-28 |
 | [alibaba/hooks](https://github.com/alibaba/hooks) | A high-quality & reliable React Hooks library. https://alibaba.github.io/hooks/ | `TypeScript` ★ 15k | 2026-04-29 |
 | [Ali-Hussein-dev/formcn](https://github.com/Ali-Hussein-dev/formcn) | Build production-ready forms with a few clicks | `TypeScript` ★ 489 | 2026-03-27 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | :octocat: Browser extension that simplifies the Git Hub interface and adds useful features | `TypeScript` ★ 31.3k | 2026-05-09 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | :octocat: Browser extension that simplifies the Git Hub interface and adds useful features | `TypeScript` ★ 31.3k | 2026-05-10 |
 | [ocornut/imgui](https://github.com/ocornut/imgui) | Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies | `C++` ★ 73.1k | 2026-05-07 |
 | [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) | Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command. | `JavaScript` ★ 1.8k | 2026-05-10 |
 | [satnaing/shadcn-admin](https://github.com/satnaing/shadcn-admin) | Admin Dashboard UI built with Shadcn and Vite. | `TypeScript` ★ 12k | 2026-05-08 |
@@ -76,9 +76,9 @@
 | [shadcnblocks/mainline-nextjs-template](https://github.com/shadcnblocks/mainline-nextjs-template) | Mainline Next.js template built with shadcn/ui, Tailwind 4 & Next.js | `TypeScript` ★ 304 | 2025-12-26 |
 | [luckgrid/lg-turbo-ui](https://github.com/luckgrid/lg-turbo-ui) | A turborepo workspace with a ready to go Next v15, React v19, and Tailwind CSS v4 UI packages and configs. | `TypeScript` ★ 2 | 2025-05-25 |
 | [astrofox-io/astrofox](https://github.com/astrofox-io/astrofox) | Astrofox is a motion graphics program that lets you turn audio into amazing videos. | `TypeScript` ★ 1.9k | 2026-05-05 |
-| [satnaing/astro-paper](https://github.com/satnaing/astro-paper) | A minimal, accessible and SEO-friendly Astro blog theme | `Astro` ★ 4.6k | 2026-05-04 |
+| [satnaing/astro-paper](https://github.com/satnaing/astro-paper) | A minimal, accessible and SEO-friendly Astro blog theme | `Astro` ★ 4.6k | 2026-05-10 |
 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. | `TypeScript` ★ 113.9k | 2026-05-09 |
-| [marmelab/shadcn-admin-kit](https://github.com/marmelab/shadcn-admin-kit) | Component kit to build your Admin app with shadcn/ui | `TypeScript` ★ 901 | 2026-04-23 |
+| [marmelab/shadcn-admin-kit](https://github.com/marmelab/shadcn-admin-kit) | Component kit to build your Admin app with shadcn/ui | `TypeScript` ★ 903 | 2026-04-23 |
 | [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) | The largest Open-Source UI Library! Community-made and free to use. Made with either CSS or Tailwind. | `HTML` ★ 10.7k | 2024-09-02 |
 | [aidenybai/react-grab](https://github.com/aidenybai/react-grab) | Select context for coding agents directly from your website | `TypeScript` ★ 7.2k | 2026-05-10 |
 | [maxandrews/Epstein-doc-explorer](https://github.com/maxandrews/Epstein-doc-explorer) | a graph explorer of the Epstein emails | `JavaScript` ★ 581 | 2025-11-20 |
@@ -122,7 +122,7 @@
 | [PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor) | Pixi Editor is a Universal Editor for all your 2D needs | `C#` ★ 7.4k | 2026-05-09 |
 | [xyflow/xyflow](https://github.com/xyflow/xyflow) | React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely cust... | `TypeScript` ★ 36.5k | 2026-05-06 |
 | [megh-bari/pattern-craft](https://github.com/megh-bari/pattern-craft) | Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration. | `TypeScript` ★ 2.9k | 2026-03-28 |
-| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 31.2k | 2026-05-09 |
+| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 31.2k | 2026-05-10 |
 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | The open-source Cap Cut alternative | `TypeScript` ★ 48.9k | 2026-05-06 |
 | [microsoft/magentic-ui](https://github.com/microsoft/magentic-ui) | A research prototype of a human-centered web agent | `Python` ★ 9.8k | 2026-05-09 |
 | [emilk/egui](https://github.com/emilk/egui) | egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native | `Rust` ★ 29k | 2026-05-09 |

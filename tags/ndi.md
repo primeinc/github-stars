@@ -1,6 +1,6 @@
 # Tag: ndi
 
-*24 repositories*
+*23 repositories*
 
 [← Back to Index](../README.md)
 
@@ -28,5 +28,4 @@
 | [satoshi0212/NDISenderExample](https://github.com/satoshi0212/NDISenderExample) | Minimum implementation of the NDI SDK that works on the i Phone using Swift. | `C` ★ 61 | 2020-11-04 |
 | [ykhwong/ppt-ndi](https://github.com/ykhwong/ppt-ndi) | A Power Point plugin for the New Tek NDI integration | `JavaScript` ★ 232 | 2023-10-05 |
 | [buresu/ndi-python](https://github.com/buresu/ndi-python) | New Tek NDI Python wrapper | `C++` ★ 183 | 2024-05-31 |
-| [DistroAV/DistroAV](https://github.com/DistroAV/DistroAV) | Distro AV (formerly OBS-NDI): NDI integration for OBS Studio | `C++` ★ 4.3k | 2026-05-08 |
 | [pandres95/ndi.js](https://github.com/pandres95/ndi.js) | NDI® SDK for Node.js | `C` ★ 57 | 2024-01-11 |

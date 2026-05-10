@@ -1,6 +1,6 @@
 # System-admin
 
-*193 repositories*
+*195 repositories*
 
 [← Back to Index](../README.md)
 
@@ -124,17 +124,19 @@
 | [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting. | `Batchfile` ★ 174.7k | 2026-05-07 |
 | [adbertram/Random-PowerShell-Work](https://github.com/adbertram/Random-PowerShell-Work) | Random Power Shell Work | `PowerShell` ★ 1.1k | 2024-08-06 |
 | [vgrem/office365-rest-python-client](https://github.com/vgrem/office365-rest-python-client) | Microsoft 365 & Microsoft Graph Library for Python | `Python` ★ 1.7k | 2026-04-09 |
-| [JonasKruckenberg/k23](https://github.com/JonasKruckenberg/k23) | Experimental WASM Microkernel Operating System | `Rust` ★ 629 | 2026-05-09 |
+| [JonasKruckenberg/k23](https://github.com/JonasKruckenberg/k23) | Experimental WASM Microkernel Operating System | `Rust` ★ 629 | 2026-05-10 |
 | [DesktopECHO/xWSL](https://github.com/DesktopECHO/xWSL) | Installer script for Ubuntu 22.04 / 24.04 with XFCE Desktop on WSL. Does not require hypervisor, container, or X11 server. | `Batchfile` ★ 352 | 2026-01-03 |
 | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11... | `PowerShell` ★ 46k | 2026-05-09 |
 | [NexusPolytech/NexeFax](https://github.com/NexusPolytech/NexeFax) | A modern open source e Fax server solution written in Python that allows sending and receiving faxes with Asterisk. | `Python` ★ 11 | 2023-09-12 |
 | [dorssel/usbipd-win](https://github.com/dorssel/usbipd-win) | Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2. | `C#` ★ 5.7k | 2026-05-03 |
+| [unifi-utilities/unifi-common](https://github.com/unifi-utilities/unifi-common) | Uni Fi Common - on\_boot.d | `Shell` ★ 4.3k | 2026-04-30 |
 | [ironmansoftware/gallery](https://github.com/ironmansoftware/gallery) | Public gallery of modules for Power Shell Universal | `PowerShell` ★ 86 | 2026-04-22 |
 | [olzzon/ndi-controller](https://github.com/olzzon/ndi-controller) | Windows App - Controlling NDI routing in network | `C` ★ 58 | 2025-03-12 |
 | [inputsh/awesome-linux](https://github.com/inputsh/awesome-linux) | :penguin: A list of awesome projects and resources that make Linux even more awesome. :penguin: | ★ 5k | 2023-02-04 |
 | [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) | Awesome list dedicated to Windows Subsystem for Linux | ★ 6.3k | 2026-03-30 |
 | [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) | A curated list of amazingly awesome open-source sysadmin resources. | ★ 33.9k | 2026-05-09 |
 | [timminator/ParsecVDA-Always-Connected](https://github.com/timminator/ParsecVDA-Always-Connected) | Connects a Virtual Display to your PC and allows for a headless operation - no need for Dummy Plugs anymore! Now as a Windows service! | `C++` ★ 149 | 2024-07-15 |
+| [SierraSoftworks/tailscale-unifi](https://github.com/SierraSoftworks/tailscale-unifi) | Run Tailscale on your Uni Fi OS device | `Shell` ★ 1.5k | 2026-05-09 |
 | [gridironsolutions/unifios-tailscale](https://github.com/gridironsolutions/unifios-tailscale) | Run Tailscale natively on Unifi UDM-Pro Dream Machine | `Shell` ★ 8 | 2023-03-01 |
 | [hkystar35/MDM](https://github.com/hkystar35/MDM) | MDM Related code, docs, scripts, snippets, thoughts, and musings. | `Shell` ★ 141 | 2025-10-21 |
 | [winfsp/winfsp](https://github.com/winfsp/winfsp) | Windows File System Proxy - FUSE for Windows | `C` ★ 8.6k | 2026-04-22 |

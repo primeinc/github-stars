@@ -1,6 +1,6 @@
 # Embedded
 
-*66 repositories*
+*67 repositories*
 
 [← Back to Index](../README.md)
 
@@ -10,7 +10,7 @@
 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π Ru View: Wi Fi Dense Pose turns commodity Wi Fi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video. | `Rust` ★ 52.3k | 2026-05-08 |
 | [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.7k | 2026-05-09 |
 | [edera-dev/sprout](https://github.com/edera-dev/sprout) | Sprout: UEFI Bootloader in Rust | `Rust` ★ 283 | 2026-04-27 |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 109.3k | 2026-05-09 |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 109.3k | 2026-05-10 |
 | [ClemensElflein/OpenMower](https://github.com/ClemensElflein/OpenMower) | Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots! | `C++` ★ 6.5k | 2025-05-09 |
 | [Vector-Wangel/XLeRobot](https://github.com/Vector-Wangel/XLeRobot) | XLe Robot: Practical Dual-Arm Mobile Home Robot for $660 | `Python` ★ 5.1k | 2026-04-29 |
 | [Mentra-Community/MentraOS](https://github.com/Mentra-Community/MentraOS) | Mentra OS is the leading smart glasses platform + SDK. Stream your view, transcribe audio, talk to AI and capture photos hands-free on compatible glasses. | `C` ★ 1.9k | 2026-05-10 |
@@ -40,6 +40,7 @@
 | [frenck/awesome-home-assistant](https://github.com/frenck/awesome-home-assistant) | A curated list of amazingly awesome Home Assistant resources. | `Python` ★ 7.6k | 2026-05-09 |
 | [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) | 🐬 A collection of awesome resources for the Flipper Zero device. | ★ 23.4k | 2024-09-27 |
 | [olm3ca/mirror](https://github.com/olm3ca/mirror) | Enhancements for the Lululemon Mirror | ★ 205 | 2025-08-24 |
+| [cavedweller509/LMDeploy-Jetson](https://github.com/cavedweller509/LMDeploy-Jetson) | Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access. | ★ 107 | 2024-03-23 |
 | [Qengineering/realsr-ncnn-Jetson-Nano](https://github.com/Qengineering/realsr-ncnn-Jetson-Nano) | Award winning Real SR super resolution with ncnn on Jetson Nano | ★ 44 | 2023-11-24 |
 | [rockkingjy/OpenTracker](https://github.com/rockkingjy/OpenTracker) | Real-time C++ ECO tracker etc. speed-up by SSE/NEON, support Linux, Mac, Jetson TX1/2, raspberry pi | `C++` ★ 781 | 2019-06-01 |
 | [arasharchor/jetson-video](https://github.com/arasharchor/jetson-video) | Unified streaming drivers and utilities for codecs, cameras, and displays including gstreamer, V4L2, Gig E, CUDA, Open GL, and others. | `C++` ★ 11 | 2016-09-18 |

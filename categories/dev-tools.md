@@ -1,6 +1,6 @@
 # Dev-tools
 
-*257 repositories*
+*259 repositories*
 
 [← Back to Index](../README.md)
 
@@ -37,7 +37,7 @@
 | [antfu/vscode-file-nesting-config](https://github.com/antfu/vscode-file-nesting-config) | Config of File Nesting for VS Code | `JavaScript` ★ 3.6k | 2026-04-20 |
 | [garronej/vite-envs](https://github.com/garronej/vite-envs) | ⚙️ Env var in Vite at container startup | `TypeScript` ★ 82 | 2026-04-16 |
 | [openbao/openbao](https://github.com/openbao/openbao) | Open Bao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys. | `Go` ★ 6k | 2026-05-08 |
-| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ... | `JavaScript` ★ 19.5k | 2026-05-08 |
+| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ... | `JavaScript` ★ 19.5k | 2026-05-10 |
 | [awesomized/crc-fast-rust](https://github.com/awesomized/crc-fast-rust) | World's fastest generic CRC calculator for all known CRC-16, CRC-32, and CRC-64 variants, as well as bring-your-own custom parameters, using SIMD intrinsics, which can exceed 100Gi B/s on modern sy... | `Rust` ★ 79 | 2025-12-29 |
 | [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) | The developer platform for on-demand cloud development environments to create software faster and more securely. | `TypeScript` ★ 13.7k | 2026-05-04 |
 | [tajo/ladle](https://github.com/tajo/ladle) | 🥄 Develop, test and document your React story components faster. | `TypeScript` ★ 2.9k | 2025-12-20 |
@@ -77,7 +77,7 @@
 | [lintsinghua/DeepAudit](https://github.com/lintsinghua/DeepAudit) | Deep Audit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 Po C 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。 | `Python` ★ 6k | 2026-04-01 |
 | [shadcn/license-generator](https://github.com/shadcn/license-generator) | Generates a license for your open source project. | `JavaScript` ★ 170 | 2024-06-10 |
 | [sohzm/cheating-daddy](https://github.com/sohzm/cheating-daddy) | a free and opensource app that lets you gain an unfair advantage | `JavaScript` ★ 5.3k | 2026-04-26 |
-| [agentsmd/agents.md](https://github.com/agentsmd/agents.md) | AGENTS.md — a simple, open format for guiding coding agents | `TypeScript` ★ 21.1k | 2026-03-12 |
+| [agentsmd/agents.md](https://github.com/agentsmd/agents.md) | AGENTS.md — a simple, open format for guiding coding agents | `TypeScript` ★ 21.2k | 2026-03-12 |
 | [korfuri/awesome-monorepo](https://github.com/korfuri/awesome-monorepo) | A curated list of awesome Monorepo tools, software and architectures. | ★ 5.8k | 2024-08-16 |
 | [chrissimpkins/codeface](https://github.com/chrissimpkins/codeface) | Typefaces for source code beautification | `Python` ★ 6.5k | 2020-09-19 |
 | [ChromeDevTools/awesome-chrome-devtools](https://github.com/ChromeDevTools/awesome-chrome-devtools) | Awesome tooling and resources in the Chrome Dev Tools & Dev Tools Protocol ecosystem | ★ 7k | 2026-03-27 |
@@ -139,7 +139,7 @@
 | [umijs/father](https://github.com/umijs/father) | NPM package development tool | `TypeScript` ★ 2.2k | 2026-04-29 |
 | [unjs/pathe](https://github.com/unjs/pathe) | 🛣️ Drop-in replacement of the Node.js's path module module that ensures paths are normalized | `TypeScript` ★ 577 | 2026-05-09 |
 | [unjs/obuild](https://github.com/unjs/obuild) | 📦 😯 Zero-config ESM/TS package builder. | `TypeScript` ★ 414 | 2026-05-09 |
-| [github/spec-kit](https://github.com/github/spec-kit) | 💫 Toolkit to help you get started with Spec-Driven Development | `Python` ★ 94.6k | 2026-05-08 |
+| [github/spec-kit](https://github.com/github/spec-kit) | 💫 Toolkit to help you get started with Spec-Driven Development | `Python` ★ 94.7k | 2026-05-08 |
 | [continuedev/continue](https://github.com/continuedev/continue) | ⏩ Ship faster with Continuous AI. Open-source CLI that can be used in Headless mode to run async cloud agents or TUI mode as an in sync coding agent | `TypeScript` ★ 33.1k | 2026-05-09 |
 | [nativefier/nativefier](https://github.com/nativefier/nativefier) | Make any web page a desktop application | `TypeScript` ★ 35.3k | 2023-09-29 |
 | [x64dbg/x64dbg](https://github.com/x64dbg/x64dbg) | An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis. | `C++` ★ 48.3k | 2026-04-26 |
@@ -206,6 +206,7 @@
 | [Azure/azure-storage-azcopy](https://github.com/Azure/azure-storage-azcopy) | The new Azure Storage data transfer utility - Az Copy v10 | `Go` ★ 688 | 2026-05-07 |
 | [Azure/azure-functions-openapi-extension](https://github.com/Azure/azure-functions-openapi-extension) | This extension provides an Azure Functions app with Open API capability for better discoverability to consuming parties | `C#` ★ 388 | 2025-10-03 |
 | [ironmansoftware/powershell-pro-tools](https://github.com/ironmansoftware/powershell-pro-tools) | Scripting, automation, and development tools for professionals working with Power Shell. | `C#` ★ 204 | 2025-12-08 |
+| [Azure/awesome-terraform](https://github.com/Azure/awesome-terraform) | An authoritative list of awesome Azure Terraform tools and samples with help from community experiments and contributions. | `HCL` ★ 177 | 2023-12-06 |
 | [s4ptacle/Sims4Tools](https://github.com/s4ptacle/Sims4Tools) | Sims 4 modding tools and library | `C#` ★ 243 | 2024-03-01 |
 | [CmarNYC-Tools/TS4SimRipper](https://github.com/CmarNYC-Tools/TS4SimRipper) | No description provided | `C#` ★ 67 | 2026-02-08 |
 | [sims4toolkit/s4tk-vscode](https://github.com/sims4toolkit/s4tk-vscode) | S4TK extension for Visual Studio Code. | `TypeScript` ★ 13 | 2024-12-17 |
@@ -247,6 +248,7 @@
 | [yudai/gotty](https://github.com/yudai/gotty) | Share your terminal as a web application | `Go` ★ 19.5k | 2024-08-01 |
 | [purifycss/purifycss](https://github.com/purifycss/purifycss) | Remove unused CSS. Also works with single-page apps. | `JavaScript` ★ 9.9k | 2020-10-17 |
 | [jwagner/smartcrop.js](https://github.com/jwagner/smartcrop.js) | Content aware image cropping | `JavaScript` ★ 13k | 2024-03-16 |
+| [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) | Loads environment variables from \`.env\` to \`getenv()\`, \`$\_ENV\` and \`$\_SERVER\` automagically. | `PHP` ★ 13.5k | 2025-12-27 |
 | [Netflix/vector](https://github.com/Netflix/vector) | Vector is an on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer’s browser. | `JavaScript` ★ 3.6k | 2021-08-10 |
 | [Level-2/Dice](https://github.com/Level-2/Dice) | Dice - a lightweight Dependency Injection Container for PHP | `PHP` ★ 437 | 2023-01-17 |
 | [koomai/phpstorm-laravel-live-templates](https://github.com/koomai/phpstorm-laravel-live-templates) | Laravel Live Templates for Php Storm | ★ 1.2k | 2022-09-23 |

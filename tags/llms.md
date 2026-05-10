@@ -1,6 +1,6 @@
 # Tag: llms
 
-*18 repositories*
+*21 repositories*
 
 [← Back to Index](../README.md)
 
@@ -20,7 +20,10 @@
 | [amantus-ai/llm-codes](https://github.com/amantus-ai/llm-codes) | Transform developer documentation to clean Markdown | `TypeScript` ★ 323 | 2026-05-08 |
 | [steipete/agent-rules](https://github.com/steipete/agent-rules) | Rules and Knowledge to work better with agents such as Claude Code or Cursor | `Shell` ★ 5.7k | 2026-05-03 |
 | [tensorzero/tensorzero](https://github.com/tensorzero/tensorzero) | Tensor Zero is an open-source stack for industrial-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluation, and experimentation. | `Rust` ★ 11.3k | 2026-05-09 |
+| [aaif-goose/goose](https://github.com/aaif-goose/goose) | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM | `Rust` ★ 44.9k | 2026-05-10 |
+| [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) | 🚀 The fast, Pythonic way to build MCP servers and clients. | `Python` ★ 25.1k | 2026-05-09 |
 | [octotools/octotools](https://github.com/octotools/octotools) | Octo Tools: An agentic framework with extensible tools for complex reasoning | `Python` ★ 1.4k | 2026-05-02 |
 | [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) | A one stop repository for generative AI research updates, interview resources, notebooks and much more! | `HTML` ★ 26.6k | 2026-05-08 |
 | [TabbyML/tabby](https://github.com/TabbyML/tabby) | Self-hosted AI coding assistant | `Rust` ★ 33.5k | 2026-03-02 |
+| [cavedweller509/LMDeploy-Jetson](https://github.com/cavedweller509/LMDeploy-Jetson) | Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access. | ★ 107 | 2024-03-23 |
 | [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon) | An open-source RAG-based tool for chatting with your documents. | `Python` ★ 25.4k | 2026-04-03 |

@@ -1,12 +1,12 @@
 # Ai-ml
 
-*609 repositories*
+*616 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10. | `Python` ★ 1.5k | 2026-05-09 |
+| [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10. | `Python` ★ 1.5k | 2026-05-10 |
 | [microsoft/apm](https://github.com/microsoft/apm) | Agent Package Manager | `Python` ★ 2.3k | 2026-05-09 |
 | [microsoft/GitHub-Copilot-for-Azure](https://github.com/microsoft/GitHub-Copilot-for-Azure) | Git Hub Copilot for Azure | `TypeScript` ★ 203 | 2026-05-09 |
 | [exploreborders/claude-dcp](https://github.com/exploreborders/claude-dcp) | Claude DCP — Dynamic Context Pruning for Claude Code Intelligently manages conversation context to optimize token usage in Claude Code. Inspired by \[opencode-dynamic-context-pruning\](https://github... | `Python` ★ 9 | 2026-04-09 |
@@ -27,7 +27,7 @@
 | [google-gemma/cookbook](https://github.com/google-gemma/cookbook) | A collection of guides and examples for the Gemma open models from Google. | `Jupyter Notebook` ★ 3.5k | 2026-05-05 |
 | [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). ... | `JavaScript` ★ 12.5k | 2026-05-09 |
 | [Ed1s0nZ/CyberStrikeAI](https://github.com/Ed1s0nZ/CyberStrikeAI) | Cyber Strike AI is an AI-native security testing platform built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a s... | `Go` ★ 3.7k | 2026-05-09 |
-| [maximhq/bifrost](https://github.com/maximhq/bifrost) | Fastest enterprise AI gateway (50x faster than Lite LLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS. | `Go` ★ 4.7k | 2026-05-09 |
+| [maximhq/bifrost](https://github.com/maximhq/bifrost) | Fastest enterprise AI gateway (50x faster than Lite LLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS. | `Go` ★ 4.7k | 2026-05-10 |
 | [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt) | AI You Control: Choose your models. Own your data. Eliminate vendor lock-in. | `TypeScript` ★ 4.5k | 2026-05-09 |
 | [feremabraz/bloomberg-terminal](https://github.com/feremabraz/bloomberg-terminal) | Bloomberg-like terminal with AI. It uses Redis with Alpha Vantage data and local simulations to avoid hitting the API too much. | `TypeScript` ★ 1.2k | 2026-03-05 |
 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π Ru View: Wi Fi Dense Pose turns commodity Wi Fi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video. | `Rust` ★ 52.3k | 2026-05-08 |
@@ -45,7 +45,7 @@
 | [Azure-Samples/dream-team](https://github.com/Azure-Samples/dream-team) | This repo helps you to build a team of AI agents with Autogen | `TypeScript` ★ 235 | 2026-04-21 |
 | [Azure-Samples/rag-postgres-openai-python](https://github.com/Azure-Samples/rag-postgres-openai-python) | A RAG app to ask questions about rows in a database table. Deployable on Azure Container Apps with Postgre SQL Flexible Server. | `Python` ★ 490 | 2026-04-11 |
 | [Azure-Samples/azure-openai-rag-workshop](https://github.com/Azure-Samples/azure-openai-rag-workshop) | Create your own Chat GPT with Retrieval-Augmented-Generation workshop | `Bicep` ★ 148 | 2026-01-20 |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `Python` ★ 141.3k | 2026-05-10 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `Python` ★ 141.4k | 2026-05-10 |
 | [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio | `TypeScript` ★ 25k | 2026-04-26 |
 | [Ataraxy-Labs/sem](https://github.com/Ataraxy-Labs/sem) | Semantic version control — entity-level diffs, blame, and impact analysis on top of git. 26 languages via tree-sitter. Built for coding agents. | `Rust` ★ 2k | 2026-05-09 |
 | [hexiecs/talk-normal](https://github.com/hexiecs/talk-normal) | Make any LLM talk like a normal person. A system prompt that removes AI slop. | `Shell` ★ 1.6k | 2026-04-22 |
@@ -60,7 +60,7 @@
 | [spool-lab/spool](https://github.com/spool-lab/spool) | Search your Claude Code sessions, Codex history, Git Hub stars, and 50+ sources — locally, instantly. Your AI agents can search too. | `TypeScript` ★ 485 | 2026-05-09 |
 | [LG-AI-EXAONE/EXAONE-4.5](https://github.com/LG-AI-EXAONE/EXAONE-4.5) | No description provided | ★ 39 | 2026-04-29 |
 | [TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine) | A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and ser... | `Python` ★ 6.9k | 2026-04-10 |
-| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ... | `JavaScript` ★ 19.5k | 2026-05-08 |
+| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ... | `JavaScript` ★ 19.5k | 2026-05-10 |
 | [daggerhashimoto/openclaw-nerve](https://github.com/daggerhashimoto/openclaw-nerve) | Real-time web cockpit for Open Claw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility. | `TypeScript` ★ 804 | 2026-05-10 |
 | [swarmclawai/swarmclaw](https://github.com/swarmclawai/swarmclaw) | Self-hosted multi-agent AI runtime with MCP server support. Build, orchestrate, and run autonomous agents with memory, skills, schedules, and 23+ LLM providers (Claude, GPT, Gemini, Open Router, Ol... | `TypeScript` ★ 473 | 2026-05-08 |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) | Skill Directory for Open Claw | `TypeScript` ★ 8.5k | 2026-05-10 |
@@ -68,7 +68,7 @@
 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | `Rust` ★ 26k | 2026-05-10 |
 | [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Graphs that teach > graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claud... | `TypeScript` ★ 13.8k | 2026-05-10 |
 | [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 | `Python` ★ 12k | 2026-04-23 |
-| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, Open Code & Gemini CLI. | `Rust` ★ 65.2k | 2026-05-09 |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, Open Code & Gemini CLI. | `Rust` ★ 65.3k | 2026-05-09 |
 | [xinyu1205/recognize-anything](https://github.com/xinyu1205/recognize-anything) | Open-source and strong foundation image recognition models. | `Jupyter Notebook` ★ 3.6k | 2025-02-18 |
 | [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) | Convert any git repository into an engaging podcast | `TypeScript` ★ 807 | 2025-08-30 |
 | [Klavis-AI/klavis](https://github.com/Klavis-AI/klavis) | Klavis AI (YC X25): MCP integration platforms that let AI agents use tools reliably at any scale | `Python` ★ 5.7k | 2026-05-09 |
@@ -102,7 +102,7 @@
 | [Opencode-DCP/opencode-dynamic-context-pruning](https://github.com/Opencode-DCP/opencode-dynamic-context-pruning) | Dynamic context pruning plugin for Open Code - intelligently manages conversation context to optimize token usage | `TypeScript` ★ 2.7k | 2026-05-07 |
 | [alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) | Slimmed and cleaned oh-my-opencode, consumes much less tokens; Help us grow, consider giving a ⭐; | `TypeScript` ★ 4.2k | 2026-05-08 |
 | [lancedb/lancedb](https://github.com/lancedb/lancedb) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | `HTML` ★ 10.3k | 2026-05-08 |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms | `Python` ★ 76.1k | 2026-04-03 |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms | `Python` ★ 76.2k | 2026-04-03 |
 | [parcadei/llm-tldr](https://github.com/parcadei/llm-tldr) | 95% token savings. 155x faster queries. 16 languages. LLMs can't read your entire codebase. TLDR extracts structure, traces dependencies, and gives them exactly what they need. | `Python` ★ 1.2k | 2026-01-17 |
 | [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | A curated catalogue of awesome agentic AI patterns | `HTML` ★ 4.5k | 2026-05-07 |
 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code superpowers: core skills library | `Shell` ★ 184.6k | 2026-05-08 |
@@ -110,7 +110,7 @@
 | [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒ | `TypeScript` ★ 1.9k | 2026-05-10 |
 | [1rgs/nanocode](https://github.com/1rgs/nanocode) | Minimal Claude Code alternative. Single Python file, zero dependencies, ~250 lines. | `Python` ★ 2.4k | 2026-01-14 |
 | [Anjok07/ultimatevocalremovergui](https://github.com/Anjok07/ultimatevocalremovergui) | GUI for a Vocal Remover that uses Deep Neural Networks. | `Python` ★ 24.6k | 2025-03-13 |
-| [joelhooks/swarm-tools](https://github.com/joelhooks/swarm-tools) | 🐝 Multi-agent swarm coordination for Open Code with learning capabilities, agent issue tracking, and management | `TypeScript` ★ 664 | 2026-02-23 |
+| [joelhooks/swarm-tools](https://github.com/joelhooks/swarm-tools) | 🐝 Multi-agent swarm coordination for Open Code with learning capabilities, agent issue tracking, and management | `TypeScript` ★ 665 | 2026-02-23 |
 | [Dicklesworthstone/coding_agent_session_search](https://github.com/Dicklesworthstone/coding_agent_session_search) | No description provided | `Rust` ★ 752 | 2026-05-09 |
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `Go` ★ 14.5k | 2026-05-09 |
 | [keploy/keploy](https://github.com/keploy/keploy) | API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs! | `Go` ★ 17.2k | 2026-05-09 |
@@ -128,7 +128,7 @@
 | [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) | Flash Infer: Kernel Library for LLM Serving | `Python` ★ 5.6k | 2026-05-10 |
 | [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework" | `Python` ★ 20k | 2026-05-06 |
 | [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | \[KDD'2026\] "Video RAG: Chat with Your Videos" | `Python` ★ 3k | 2026-03-18 |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. | `Python` ★ 93.1k | 2026-05-09 |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. | `Python` ★ 93.2k | 2026-05-09 |
 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory for 24/7 proactive agents like clawdbot. | `Python` ★ 13.6k | 2026-04-22 |
 | [charmbracelet/crush](https://github.com/charmbracelet/crush) | Glamourous agentic coding for all 💘 | `Go` ★ 24.1k | 2026-05-10 |
 | [memvid/claude-brain](https://github.com/memvid/claude-brain) | Give Claude Code photographic memory in ONE portable file. No database, no SQLite, no Chroma DB - just a single .mv2 file you can git commit, scp, or share. Native Rust core with sub-ms operations. | `TypeScript` ★ 491 | 2026-01-19 |
@@ -224,7 +224,7 @@
 | [google/adk-web](https://github.com/google/adk-web) | Agent Development Kit Web (adk web) is the built-in developer UI that is integrated with Agent Development Kit for easier agent development and debugging. | `TypeScript` ★ 940 | 2026-04-28 |
 | [google/adk-docs](https://github.com/google/adk-docs) | An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. | `Shell` ★ 1.3k | 2026-05-08 |
 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | Memory for AI Agents in 6 lines of code | `Python` ★ 17.1k | 2026-05-10 |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 109.3k | 2026-05-09 |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 109.3k | 2026-05-10 |
 | [lutzroeder/netron](https://github.com/lutzroeder/netron) | Visualizer for neural network, deep learning and machine learning models | `JavaScript` ★ 32.9k | 2026-05-09 |
 | [ExoFi-Labs/Nexface](https://github.com/ExoFi-Labs/Nexface) | No description provided | `Python` ★ 54 | 2025-06-24 |
 | [Gourieff/ComfyUI-ReActor](https://github.com/Gourieff/ComfyUI-ReActor) | Fast and Simple Face Swap Extension Node for Comfy UI (SFW) | `Python` ★ 1.2k | 2026-04-25 |
@@ -270,7 +270,7 @@
 | [linexjlin/GPTs](https://github.com/linexjlin/GPTs) | leaked prompts of GPTs | ★ 32k | 2024-09-27 |
 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | `Python` ★ 23.8k | 2026-04-13 |
 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. | `Python` ★ 77.5k | 2026-05-06 |
-| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 131.2k | 2026-05-09 |
+| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 131.3k | 2026-05-09 |
 | [Phantom-video/Phantom](https://github.com/Phantom-video/Phantom) | Phantom: Subject-Consistent Video Generation via Cross-Modal Alignment | `Python` ★ 1.5k | 2025-09-11 |
 | [character-ai/Ovi](https://github.com/character-ai/Ovi) | No description provided | `Python` ★ 1.7k | 2025-11-15 |
 | [trycompai/comp](https://github.com/trycompai/comp) | AI Native platform to get companies compliant - Vanta & Drata Alternative | `TypeScript` ★ 1.5k | 2026-05-10 |
@@ -289,7 +289,7 @@
 | [oraios/serena](https://github.com/oraios/serena) | A powerful coding agent toolkit providing semantic retrieval and editing capabilities (MCP server & other integrations) | `Python` ★ 24k | 2026-05-09 |
 | [Azure-Samples/aoai-realtime-audio-sdk](https://github.com/Azure-Samples/aoai-realtime-audio-sdk) | Azure Open AI code resources for using gpt-4o-realtime capabilities. | `TypeScript` ★ 838 | 2025-09-30 |
 | [kalivaraprasad-gonapa/react-mcp](https://github.com/kalivaraprasad-gonapa/react-mcp) | react-mcp integrates with Claude Desktop, enabling the creation and modification of React apps based on user prompts | `JavaScript` ★ 69 | 2025-10-31 |
-| [QwenLM/Qwen3-ASR-Toolkit](https://github.com/QwenLM/Qwen3-ASR-Toolkit) | Official Python toolkit for the Qwen3-ASR API. Parallel high‑throughput calls, robust long‑audio transcription, multi‑sample‑rate support. | `Python` ★ 953 | 2026-02-05 |
+| [QwenLM/Qwen3-ASR-Toolkit](https://github.com/QwenLM/Qwen3-ASR-Toolkit) | Official Python toolkit for the Qwen3-ASR API. Parallel high‑throughput calls, robust long‑audio transcription, multi‑sample‑rate support. | `Python` ★ 954 | 2026-02-05 |
 | [Azure-Samples/contoso-chat](https://github.com/Azure-Samples/contoso-chat) | This sample has the full End2End process of creating RAG application with Prompty and Azure AI Foundry. It includes GPT-4 LLM application code, evaluations, deployment automation with AZD CLI, Git ... | `Bicep` ★ 760 | 2025-10-03 |
 | [sigoden/aichat](https://github.com/sigoden/aichat) | All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to Open AI, Claude, Gemini, Ollama, Groq, and more. | `Rust` ★ 10k | 2026-02-23 |
 | [OvidijusParsiunas/deep-chat](https://github.com/OvidijusParsiunas/deep-chat) | Fully customizable AI chatbot component for your website | `TypeScript` ★ 3.6k | 2026-05-08 |
@@ -344,8 +344,8 @@
 | [photoprism/photoprism](https://github.com/photoprism/photoprism) | AI-Powered Photos App for the Decentralized Web 🌈💎✨ | `Go` ★ 39.6k | 2026-05-09 |
 | [Ido-Levi/claude-code-tamagotchi](https://github.com/Ido-Levi/claude-code-tamagotchi) | Real-time behavioral enforcement for Claude Code. Monitors AI actions, detects violations, and interrupts misbehavior. Also has a cute pet. | `TypeScript` ★ 411 | 2025-10-20 |
 | [Aider-AI/aider](https://github.com/Aider-AI/aider) | aider is AI pair programming in your terminal | `Python` ★ 44.6k | 2026-04-25 |
-| [Canner/WrenAI](https://github.com/Canner/WrenAI) | ⚡️ Gen BI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds. | `Rust` ★ 15.1k | 2026-05-09 |
-| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 31.2k | 2026-05-09 |
+| [Canner/WrenAI](https://github.com/Canner/WrenAI) | ⚡️ Gen BI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds. | `Rust` ★ 15.2k | 2026-05-09 |
+| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 31.2k | 2026-05-10 |
 | [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | 1 min voice data can also be used to train a good TTS model! (few shot voice cloning) | `Python` ★ 57.3k | 2026-04-30 |
 | [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/j P8Kfh Dhy N | `Python` ★ 65.3k | 2026-05-06 |
 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data | `TypeScript` ★ 117.6k | 2026-05-10 |
@@ -411,8 +411,9 @@
 | [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) | Federated Query Engine for AI - The only MCP Server you'll ever need | `Python` ★ 39.1k | 2026-05-09 |
 | [xming521/WeClone](https://github.com/xming521/WeClone) | 🚀 One-stop solution for creating your digital avatar from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life... | `Python` ★ 17.8k | 2026-05-08 |
 | [tensorzero/tensorzero](https://github.com/tensorzero/tensorzero) | Tensor Zero is an open-source stack for industrial-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluation, and experimentation. | `Rust` ★ 11.3k | 2026-05-09 |
+| [aaif-goose/goose](https://github.com/aaif-goose/goose) | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM | `Rust` ★ 44.9k | 2026-05-10 |
 | [codexu/note-gen](https://github.com/codexu/note-gen) | A cross-platform Markdown AI note-taking software. | `TypeScript` ★ 11.8k | 2026-04-26 |
-| [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your terminal | `Rust` ★ 81.4k | 2026-05-10 |
+| [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your terminal | `Rust` ★ 81.5k | 2026-05-10 |
 | [openai/codex-universal](https://github.com/openai/codex-universal) | Base docker image used in Codex environments | `Dockerfile` ★ 906 | 2026-05-02 |
 | [athapong/aio-mcp](https://github.com/athapong/aio-mcp) | 🚀 All-in-one MCP server with AI search, RAG, and multi-service integrations (Git Lab/Jira/Confluence/You Tube) for AI-enhanced development workflows. Folk from https://github.com/nguyenvanduocit/a... | `Go` ★ 36 | 2025-06-12 |
 | [SaM-92/mcp_autogen_sse_stdio](https://github.com/SaM-92/mcp_autogen_sse_stdio) | This repository demonstrates how to use Auto Gen to integrate local and remote MCP (Model Context Protocol) servers. It showcases a local math tool (math\_server.py) using Stdio and a remote Apify t... | `Python` ★ 29 | 2025-04-13 |
@@ -431,9 +432,11 @@
 | [llm-workflow-engine/llm-workflow-engine](https://github.com/llm-workflow-engine/llm-workflow-engine) | Power CLI and Workflow manager for LLMs (core package) | `Python` ★ 3.7k | 2026-04-30 |
 | [camel-ai/camel](https://github.com/camel-ai/camel) | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org | `Python` ★ 16.9k | 2026-05-08 |
 | [modelscope/FunASR](https://github.com/modelscope/FunASR) | A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc. | `Python` ★ 16k | 2026-03-17 |
+| [vercel/chatbot](https://github.com/vercel/chatbot) | A full-featured, hackable Next.js AI chatbot built by Vercel | `TypeScript` ★ 20.3k | 2026-04-17 |
 | [nunchaku-ai/nunchaku](https://github.com/nunchaku-ai/nunchaku) | \[ICLR2025 Spotlight\] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models | `Python` ★ 3.8k | 2026-03-07 |
 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | A high-performance algorithmic trading platform and event-driven backtester | `Rust` ★ 22.6k | 2026-05-10 |
 | [BasedHardware/omi](https://github.com/BasedHardware/omi) | AI wearables. Put it on, speak, transcribe, automatically | `Dart` ★ 12.5k | 2026-05-09 |
+| [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) | 🚀 The fast, Pythonic way to build MCP servers and clients. | `Python` ★ 25.1k | 2026-05-09 |
 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | A collection of MCP servers. | ★ 86.6k | 2026-05-02 |
 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflo... | `Shell` ★ 122.1k | 2026-05-09 |
 | [Qais-Hweidi/ai-assisted-development-guide](https://github.com/Qais-Hweidi/ai-assisted-development-guide) | Practical tips for effective AI-assisted software development | ★ 300 | 2026-02-19 |
@@ -495,10 +498,12 @@
 | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 🙌 Open Hands: AI-Driven Development | `Python` ★ 73k | 2026-05-09 |
 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous ... | `Python` ★ 34.5k | 2026-03-26 |
 | [deepseek-ai/DeepSeek-LLM](https://github.com/deepseek-ai/DeepSeek-LLM) | Deep Seek LLM: Let there be answers | `Makefile` ★ 6.9k | 2024-02-04 |
+| [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | Open Gen AI Stack | `Python` ★ 8.4k | 2026-05-09 |
 | [argenspin/Rope-Live](https://github.com/argenspin/Rope-Live) | Customized fork of Rope Deepfake software featuring live streaming capabilities and support for Deepfacelive models | `Python` ★ 301 | 2024-12-06 |
 | [Alucard24/Rope](https://github.com/Alucard24/Rope) | GUI-focused roop | `Python` ★ 451 | 2024-09-23 |
 | [dusty-nv/NanoDB](https://github.com/dusty-nv/NanoDB) | Zero-copy multimodal vector DB with CUDA and CLIP/Sig LIP | `Python` ★ 65 | 2025-05-06 |
 | [Ryoyo-NV/People-Flow-Analysis-System](https://github.com/Ryoyo-NV/People-Flow-Analysis-System) | People flow analysis system for Jetson Nano, Xavier NX, and AGX Xavier. | `Python` ★ 52 | 2022-01-28 |
+| [cavedweller509/LMDeploy-Jetson](https://github.com/cavedweller509/LMDeploy-Jetson) | Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access. | ★ 107 | 2024-03-23 |
 | [Qengineering/realsr-ncnn-Jetson-Nano](https://github.com/Qengineering/realsr-ncnn-Jetson-Nano) | Award winning Real SR super resolution with ncnn on Jetson Nano | ★ 44 | 2023-11-24 |
 | [NVIDIA-AI-IOT/jetson-copilot](https://github.com/NVIDIA-AI-IOT/jetson-copilot) | A reference application for a local AI assistant with LLM and RAG | `Python` ★ 122 | 2024-12-05 |
 | [Qengineering/Face-Recognition-Jetson-Nano](https://github.com/Qengineering/Face-Recognition-Jetson-Nano) | Recognize 2000+ faces on your Jetson Nano with database auto-fill and anti-spoofing | `C++` ★ 126 | 2023-06-09 |
@@ -529,6 +534,7 @@
 | [openai/chatgpt-retrieval-plugin](https://github.com/openai/chatgpt-retrieval-plugin) | The Chat GPT Retrieval Plugin lets you easily find personal or work documents by asking questions in natural language. | `Python` ★ 21.2k | 2024-07-04 |
 | [acon96/home-llm](https://github.com/acon96/home-llm) | A Home Assistant integration & Model to control your smart home using a Local LLM | `Python` ★ 1.3k | 2026-05-05 |
 | [fudan-generative-vision/hallo](https://github.com/fudan-generative-vision/hallo) | Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation | `Python` ★ 8.6k | 2024-09-14 |
+| [KlingAIResearch/LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | Bring portraits to life! | `Python` ★ 18.3k | 2026-03-02 |
 | [openrecall/openrecall](https://github.com/openrecall/openrecall) | Open Recall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With Open Recall, you can easily access your digital history, enhancing your ... | `Python` ★ 2.8k | 2025-09-24 |
 | [NVlabs/edm2](https://github.com/NVlabs/edm2) | EDM2 and Autoguidance -- Official Py Torch implementation | `Python` ★ 842 | 2024-12-09 |
 | [McCloudS/subgen](https://github.com/McCloudS/subgen) | Autogenerate subtitles using Open AI Whisper Model via Jellyfin, Plex, Emby, Tautulli, or Bazarr | `Python` ★ 1.3k | 2026-05-09 |
@@ -576,6 +582,7 @@
 | [pkuliyi2015/multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111) | Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0 | `Python` ★ 5k | 2024-08-07 |
 | [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | SD.Next: All-in-one Web UI for AI generative image and video creation, captioning and processing | `Python` ★ 7.1k | 2026-05-10 |
 | [rohitrango/automatic-watermark-detection](https://github.com/rohitrango/automatic-watermark-detection) | Project for Digital Image Processing | `Jupyter Notebook` ★ 1.3k | 2022-05-22 |
+| [oobabooga/textgen](https://github.com/oobabooga/textgen) | Open-source desktop app for local LLMs. Text, vision, tool-calling, Open AI/Anthropic-compatible API. | `Python` ★ 47k | 2026-05-07 |
 | [open-mmlab/Multimodal-GPT](https://github.com/open-mmlab/Multimodal-GPT) | Multimodal-GPT | `Python` ★ 1.5k | 2023-06-04 |
 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Auto GPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. | `Python` ★ 184.1k | 2026-05-10 |
 | [Zetaphor/PromptHub](https://github.com/Zetaphor/PromptHub) | Prompt history and management for the Stable Diffusion AUTOMATIC1111 Web UI | `JavaScript` ★ 35 | 2023-03-26 |

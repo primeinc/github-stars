@@ -69,7 +69,7 @@
 | [Azure/azure-sdk-for-js](https://github.com/Azure/azure-sdk-for-js) | This repository is for active development of the Azure SDK for Java Script (Node JS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.co... | `TypeScript` ★ 2.3k | 2026-05-09 |
 | [novatorem/novatorem](https://github.com/novatorem/novatorem) | Dynamic realtime profile Read Me linked with spotify | `Python` ★ 745 | 2026-02-16 |
 | [cloudflare/capnweb](https://github.com/cloudflare/capnweb) | Java Script/Type Script-native, low-boilerplate, object-capability RPC system | `TypeScript` ★ 3.8k | 2026-05-08 |
-| [QwenLM/Qwen3-ASR-Toolkit](https://github.com/QwenLM/Qwen3-ASR-Toolkit) | Official Python toolkit for the Qwen3-ASR API. Parallel high‑throughput calls, robust long‑audio transcription, multi‑sample‑rate support. | `Python` ★ 953 | 2026-02-05 |
+| [QwenLM/Qwen3-ASR-Toolkit](https://github.com/QwenLM/Qwen3-ASR-Toolkit) | Official Python toolkit for the Qwen3-ASR API. Parallel high‑throughput calls, robust long‑audio transcription, multi‑sample‑rate support. | `Python` ★ 954 | 2026-02-05 |
 | [webhooksite/webhook.site](https://github.com/webhooksite/webhook.site) | ⚓️ Easily test HTTP webhooks with this handy tool that displays requests instantly. | `JavaScript` ★ 6.6k | 2026-05-07 |
 | [midday-ai/zuno](https://github.com/midday-ai/zuno) | A unified API that provides a thin layer over multiple ERP systems. | `TypeScript` ★ 143 | 2025-07-18 |
 | [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | The Free Software Media System - Server Backend & API | `C#` ★ 51.4k | 2026-05-09 |
@@ -84,7 +84,7 @@
 | [rigwild/mcp-server-amazon](https://github.com/rigwild/mcp-server-amazon) | 🛍📦 Unofficial Amazon Model Context Protocol Server (MCP) - Search products and purchase directly from Claude AI! ✨ | `TypeScript` ★ 26 | 2025-07-25 |
 | [emcie-co/parlant](https://github.com/emcie-co/parlant) | LLM agents built for control. Designed for real-world use. Deployed in minutes. | `Python` ★ 18.1k | 2026-05-09 |
 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | An open source payments switch written in Rust to make payments fast, reliable and affordable | `Rust` ★ 42.6k | 2026-05-10 |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | `Python` ★ 433.6k | 2026-05-09 |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | `Python` ★ 433.6k | 2026-05-10 |
 | [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `Python` ★ 12k | 2026-05-09 |
 | [Azure-Samples/APICenter-Reference](https://github.com/Azure-Samples/APICenter-Reference) | This provides some reference use cases while using Azure API Center | `Bicep` ★ 22 | 2025-05-06 |
 | [alvarcarto/url-to-pdf-api](https://github.com/alvarcarto/url-to-pdf-api) | Web page PDF/PNG rendering done right. Self-hosted service for rendering receipts, invoices, or any content. | `HTML` ★ 7.1k | 2024-01-18 |
@@ -111,7 +111,7 @@
 | [milistu/anthropic-parallel-calling](https://github.com/milistu/anthropic-parallel-calling) | Faster and cheaper! parallel processing of Anthropic API requests, optimizing for speed, cost-efficiency, and rate limit compliance. | `Python` ★ 16 | 2024-10-01 |
 | [Klingefjord/ChatGPT-API-Python](https://github.com/Klingefjord/ChatGPT-API-Python) | Unofficial Chat GPT headless browser wrapper | `Python` ★ 20 | 2022-12-06 |
 | [aipotheosis-labs/aci](https://github.com/aipotheosis-labs/aci) | ACI.dev is the open source tool-calling platform that hooks up 600+ tools into any agentic IDE or custom AI agent through direct function calling or a unified MCP server. The birthplace of Vibe Ops. | `Python` ★ 4.8k | 2026-04-24 |
-| [novuhq/novu](https://github.com/novuhq/novu) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | `TypeScript` ★ 39k | 2026-05-09 |
+| [novuhq/novu](https://github.com/novuhq/novu) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | `TypeScript` ★ 39k | 2026-05-10 |
 | [getmaxun/maxun](https://github.com/getmaxun/maxun) | Turn websites into clean data pipelines & structured APIs in minutes! | `TypeScript` ★ 15.6k | 2026-05-07 |
 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | A collection of MCP servers. | ★ 86.6k | 2026-05-02 |
 | [ramondeklein/nwebdav](https://github.com/ramondeklein/nwebdav) | .NET implementation of the Web DAV protocol | `C#` ★ 168 | 2024-06-11 |
@@ -135,7 +135,7 @@
 | [buresu/ndi-python](https://github.com/buresu/ndi-python) | New Tek NDI Python wrapper | `C++` ★ 183 | 2024-05-31 |
 | [reorx/awesome-chatgpt-api](https://github.com/reorx/awesome-chatgpt-api) | Curated list of apps and tools that not only use the new Chat GPT API, but also allow users to configure their own API keys, enabling free and on-demand usage of their own quota. | `Python` ★ 6.4k | 2026-03-23 |
 | [Integuru-AI/Integuru](https://github.com/Integuru-AI/Integuru) | The first AI agent that builds permissionless integrations through reverse engineering platforms' internal APIs. | `Python` ★ 4.6k | 2026-04-15 |
-| [n8n-io/n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. | `TypeScript` ★ 187.3k | 2026-05-09 |
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. | `TypeScript` ★ 187.3k | 2026-05-10 |
 | [opethrocks/text-assist](https://github.com/opethrocks/text-assist) | AI Assistant that can communicate via SMS and MMS. Leverages Open AI and a Telnyx SIP phone number. | `JavaScript` ★ 3 | 2025-09-28 |
 | [0perationPrivacy/VoIPSuite-Mobile](https://github.com/0perationPrivacy/VoIPSuite-Mobile) | Mobile App code for Android & i OS on React Native | `JavaScript` ★ 26 | 2023-12-07 |
 | [tiniyo/neoms](https://github.com/tiniyo/neoms) | Open Source Twilio Alternative | `Go` ★ 37 | 2021-11-11 |

@@ -12,7 +12,7 @@
 | [xxh/xxh](https://github.com/xxh/xxh) | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | `Python` ★ 6k | 2026-04-12 |
 | [chr15m/runprompt](https://github.com/chr15m/runprompt) | Run LLM prompts from your shell | `Python` ★ 438 | 2026-05-07 |
 | [jasonkneen/askshell](https://github.com/jasonkneen/askshell) | Natural language to shell commands - AI-powered CLI using Ollama, Claude, Codex, Copilot, or Gemini | `Shell` ★ 5 | 2025-12-08 |
-| [nvbn/thefuck](https://github.com/nvbn/thefuck) | Magnificent app which corrects your previous console command. | `Python` ★ 96.8k | 2024-07-19 |
+| [nvbn/thefuck](https://github.com/nvbn/thefuck) | Magnificent app which corrects your previous console command. | `Python` ★ 96.9k | 2024-07-19 |
 | [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 257 | 2026-05-09 |
 | [atuinsh/atuin](https://github.com/atuinsh/atuin) | ✨ Magical shell history | `Rust` ★ 29.7k | 2026-05-08 |
 | [google/zx](https://github.com/google/zx) | A tool for writing better scripts | `JavaScript` ★ 45.5k | 2026-05-09 |

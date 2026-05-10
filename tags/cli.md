@@ -9,7 +9,7 @@
 | [listr2/listr2](https://github.com/listr2/listr2) | Node JS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive. | `TypeScript` ★ 661 | 2026-05-02 |
 | [microsoft/work-iq](https://github.com/microsoft/work-iq) | MCP Server and CLI for accessing Work IQ | `PowerShell` ★ 792 | 2026-05-07 |
 | [microsoft/rnx-kit](https://github.com/microsoft/rnx-kit) | Modern, scalable tools. Exceptional developer experience. | `TypeScript` ★ 1.7k | 2026-05-09 |
-| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ... | `JavaScript` ★ 19.5k | 2026-05-08 |
+| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ... | `JavaScript` ★ 19.5k | 2026-05-10 |
 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | `Rust` ★ 26k | 2026-05-10 |
 | [SamyRai/namecheap](https://github.com/SamyRai/namecheap) | A CLI tool for managing Namecheap domains and DNS records with multi-account support | `Go` ★ 2 | 2026-02-05 |
 | [PraaneshSelvaraj/coffee.tmux](https://github.com/PraaneshSelvaraj/coffee.tmux) | ☕ Coffee - Modern tmux Plugin Manager | `Python` ★ 53 | 2026-04-17 |

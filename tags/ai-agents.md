@@ -1,6 +1,6 @@
 # Tag: ai-agents
 
-*29 repositories*
+*30 repositories*
 
 [← Back to Index](../README.md)
 
@@ -12,7 +12,7 @@
 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | Open Viking is an open-source context database designed specifically for AI Agents(such as openclaw). Open Viking unifies the management of context (memory, resources, and skills) that Agents need ... | `Python` ★ 23.7k | 2026-05-09 |
 | [Azure-Samples/dream-team](https://github.com/Azure-Samples/dream-team) | This repo helps you to build a team of AI agents with Autogen | `TypeScript` ★ 235 | 2026-04-21 |
 | [spool-lab/spool](https://github.com/spool-lab/spool) | Search your Claude Code sessions, Codex history, Git Hub stars, and 50+ sources — locally, instantly. Your AI agents can search too. | `TypeScript` ★ 485 | 2026-05-09 |
-| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ... | `JavaScript` ★ 19.5k | 2026-05-08 |
+| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to ... | `JavaScript` ★ 19.5k | 2026-05-10 |
 | [Klavis-AI/klavis](https://github.com/Klavis-AI/klavis) | Klavis AI (YC X25): MCP integration platforms that let AI agents use tools reliably at any scale | `Python` ★ 5.7k | 2026-05-09 |
 | [portofcontext/pctx](https://github.com/portofcontext/pctx) | pctx is the execution layer for agentic tool calls. It exposes custom tools and MCP servers as code that runs in secure sandboxes for token-efficient calls. | `Rust` ★ 251 | 2026-05-08 |
 | [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒ | `TypeScript` ★ 1.9k | 2026-05-10 |
@@ -32,6 +32,7 @@
 | [mediar-ai/terminator](https://github.com/mediar-ai/terminator) | playwright for windows computer use | `Rust` ★ 1.4k | 2026-04-21 |
 | [tysonthomas9/realtor-agent](https://github.com/tysonthomas9/realtor-agent) | Realtor Agent: AI-powered tool for property analysis, running comparables, and assisting with contract document finalization in real estate transactions. | `Python` ★ 12 | 2025-02-23 |
 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | An open-source AI agent that brings the power of Gemini directly into your terminal. | `TypeScript` ★ 103.6k | 2026-05-10 |
+| [aaif-goose/goose](https://github.com/aaif-goose/goose) | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM | `Rust` ★ 44.9k | 2026-05-10 |
 | [aipotheosis-labs/aci](https://github.com/aipotheosis-labs/aci) | ACI.dev is the open source tool-calling platform that hooks up 600+ tools into any agentic IDE or custom AI agent through direct function calling or a unified MCP server. The birthplace of Vibe Ops. | `Python` ★ 4.8k | 2026-04-24 |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, Crew AI empowers agents to work together seamlessly, tackling complex tasks. | `Python` ★ 51k | 2026-05-09 |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI Agents | `Python` ★ 55.3k | 2026-05-09 |

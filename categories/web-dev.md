@@ -1,6 +1,6 @@
 # Web-dev
 
-*314 repositories*
+*315 repositories*
 
 [← Back to Index](../README.md)
 
@@ -51,7 +51,7 @@
 | [meteor-useraccounts/core](https://github.com/meteor-useraccounts/core) | Meteor sign up and sign in templates' core functionalities | `JavaScript` ★ 532 | 2021-07-09 |
 | [puffinsoft/syntux](https://github.com/puffinsoft/syntux) | Consistent, cacheable generative UIs for the web. | `TypeScript` ★ 473 | 2026-05-03 |
 | [Kiduzk/google-takeout-viewer](https://github.com/Kiduzk/google-takeout-viewer) | No description provided | `TypeScript` ★ 2 | 2026-01-11 |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms | `Python` ★ 76.1k | 2026-04-03 |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms | `Python` ★ 76.2k | 2026-04-03 |
 | [aagentah/nw_wrld](https://github.com/aagentah/nw_wrld) | nw\_wrld is an event-driven sequencer for triggering visuals using web technologies. It enables users to scale up audiovisual compositions for prototyping, demos, exhibitions, and live performances.... | `TypeScript` ★ 2k | 2026-05-09 |
 | [suitenumerique/meet](https://github.com/suitenumerique/meet) | Open source video conferencing app powered by Live Kit. | `Python` ★ 2k | 2026-05-09 |
 | [m1k1o/neko](https://github.com/m1k1o/neko) | A self hosted virtual browser that runs in docker and uses Web RTC. | `Go` ★ 20.9k | 2026-05-08 |
@@ -93,13 +93,13 @@
 | [gtsteffaniak/filebrowser](https://github.com/gtsteffaniak/filebrowser) | 📂 Web File Browser | `Go` ★ 7k | 2026-05-10 |
 | [resend/react-email](https://github.com/resend/react-email) | 💌 Build and send emails using React | `TypeScript` ★ 19.1k | 2026-05-08 |
 | [vemetric/favicon-api](https://github.com/vemetric/favicon-api) | Free and self-hostable API to fetch favicons from any website. | `TypeScript` ★ 187 | 2026-05-04 |
-| [satnaing/astro-paper](https://github.com/satnaing/astro-paper) | A minimal, accessible and SEO-friendly Astro blog theme | `Astro` ★ 4.6k | 2026-05-04 |
-| [withastro/astro](https://github.com/withastro/astro) | The web framework for content-driven websites. ⭐️ Star to support our work! | `TypeScript` ★ 59.1k | 2026-05-09 |
+| [satnaing/astro-paper](https://github.com/satnaing/astro-paper) | A minimal, accessible and SEO-friendly Astro blog theme | `Astro` ★ 4.6k | 2026-05-10 |
+| [withastro/astro](https://github.com/withastro/astro) | The web framework for content-driven websites. ⭐️ Star to support our work! | `TypeScript` ★ 59.1k | 2026-05-10 |
 | [gmickel/turborepo-shadcn-nextjs](https://github.com/gmickel/turborepo-shadcn-nextjs) | A Turborepo starter template with Next.js, Nextra, Storybook, and a shared pre-configured shadcn/ui package, powered by Bun and Biome | `TypeScript` ★ 96 | 2026-04-13 |
 | [withastro/starlight](https://github.com/withastro/starlight) | 🌟 Build beautiful, accessible, high-performance documentation websites with Astro | `TypeScript` ★ 8.4k | 2026-05-09 |
 | [pwa-builder/PWABuilder](https://github.com/pwa-builder/PWABuilder) | The simplest way to create progressive web apps across platforms and devices. Start here. This repo is home to several projects in the PWABuilder family of tools. | `TypeScript` ★ 3.6k | 2026-05-09 |
 | [middleapi/orpc](https://github.com/middleapi/orpc) | Typesafe APIs Made Simple 🪄 | `TypeScript` ★ 5.2k | 2026-05-09 |
-| [marmelab/shadcn-admin-kit](https://github.com/marmelab/shadcn-admin-kit) | Component kit to build your Admin app with shadcn/ui | `TypeScript` ★ 901 | 2026-04-23 |
+| [marmelab/shadcn-admin-kit](https://github.com/marmelab/shadcn-admin-kit) | Component kit to build your Admin app with shadcn/ui | `TypeScript` ★ 903 | 2026-04-23 |
 | [jonasstrehle/supercookie](https://github.com/jonasstrehle/supercookie) | ⚠️ Browser fingerprinting via favicon! | `HTML` ★ 7.1k | 2025-11-18 |
 | [resemble-ai/transformers.js](https://github.com/resemble-ai/transformers.js) | State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server! | ★ 1 | 2025-11-19 |
 | [WICG/email-verification-protocol](https://github.com/WICG/email-verification-protocol) | verified autofill | ★ 573 | 2026-01-12 |
@@ -157,7 +157,7 @@
 | [xyflow/xyflow](https://github.com/xyflow/xyflow) | React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely cust... | `TypeScript` ★ 36.5k | 2026-05-06 |
 | [megh-bari/pattern-craft](https://github.com/megh-bari/pattern-craft) | Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration. | `TypeScript` ★ 2.9k | 2026-03-28 |
 | [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) | Authentication for the Web. | `TypeScript` ★ 28.2k | 2026-04-14 |
-| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 31.2k | 2026-05-09 |
+| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic Frontend 🪁 | `TypeScript` ★ 31.2k | 2026-05-10 |
 | [openreplay/openreplay](https://github.com/openreplay/openreplay) | Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues and iterating on your product. | `TypeScript` ★ 12k | 2026-05-09 |
 | [Y2Z/monolith](https://github.com/Y2Z/monolith) | ⬛️ CLI tool and library for saving complete web pages as a single HTML file | `Rust` ★ 15.1k | 2026-05-01 |
 | [ghostfolio/ghostfolio](https://github.com/ghostfolio/ghostfolio) | Open Source Wealth Management Software. Angular + Nest JS + Prisma + Nx + Type Script 🤍 | `TypeScript` ★ 8.4k | 2026-05-09 |
@@ -166,7 +166,7 @@
 | [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) | Full stack, modern web application template. Using Fast API, React, SQLModel, Postgre SQL, Docker, Git Hub Actions, automatic HTTPS and more. | `TypeScript` ★ 43.1k | 2026-05-09 |
 | [nytimes/three-loader-3dtiles](https://github.com/nytimes/three-loader-3dtiles) | This is a Three.js loader module for handling OGC 3D Tiles, created by Cesium. It currently supports the two main formats, Batched 3D Model (b3dm) - based on gl TF Point cloud. | `TypeScript` ★ 532 | 2024-10-15 |
 | [storytellingmap/storymap](https://github.com/storytellingmap/storymap) | 3D maps with paths for drawing a story | `JavaScript` ★ 38 | 2024-03-05 |
-| [rails/rails](https://github.com/rails/rails) | Ruby on Rails | `Ruby` ★ 58.4k | 2026-05-09 |
+| [rails/rails](https://github.com/rails/rails) | Ruby on Rails | `Ruby` ★ 58.4k | 2026-05-10 |
 | [alvarcarto/url-to-pdf-api](https://github.com/alvarcarto/url-to-pdf-api) | Web page PDF/PNG rendering done right. Self-hosted service for rendering receipts, invoices, or any content. | `HTML` ★ 7.1k | 2024-01-18 |
 | [docusealco/docuseal](https://github.com/docusealco/docuseal) | Open source Docu Sign alternative. Create, fill, and sign digital documents ✍️ | `Ruby` ★ 16.1k | 2026-05-08 |
 | [frappe/hrms](https://github.com/frappe/hrms) | Open Source HR and Payroll Software | `Python` ★ 7.9k | 2026-05-08 |
@@ -201,6 +201,7 @@
 | [scrapy/scrapy](https://github.com/scrapy/scrapy) | Scrapy, a fast high-level web crawling & scraping framework for Python. | `Python` ★ 61.6k | 2026-05-09 |
 | [cristianvasquez/supernote-web-viewer](https://github.com/cristianvasquez/supernote-web-viewer) | Display a supernote .note file | `JavaScript` ★ 22 | 2026-01-26 |
 | [twbs/icons](https://github.com/twbs/icons) | Official open source SVG icon library for Bootstrap. | `TypeScript` ★ 8k | 2026-05-09 |
+| [vercel/chatbot](https://github.com/vercel/chatbot) | A full-featured, hackable Next.js AI chatbot built by Vercel | `TypeScript` ★ 20.3k | 2026-04-17 |
 | [juliangarnier/anime](https://github.com/juliangarnier/anime) | Java Script animation engine | `JavaScript` ★ 67.9k | 2026-04-30 |
 | [risonsimon/claude-artifacts-react](https://github.com/risonsimon/claude-artifacts-react) | Quickly deploy React code from Claude Artifacts to the internet. | `JavaScript` ★ 50 | 2024-07-02 |
 | [nuejs/nue](https://github.com/nuejs/nue) | Fastest way to build modern websites | `JavaScript` ★ 8.8k | 2026-02-17 |

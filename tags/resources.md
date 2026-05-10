@@ -12,7 +12,7 @@
 | [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | 🖥 📊 🕹 🛠 A curated list of command line apps | `Shell` ★ 19.5k | 2026-05-08 |
 | [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) | A curated list of software and architecture related design patterns. | ★ 47.3k | 2024-10-25 |
 | [RentCast/api-resources](https://github.com/RentCast/api-resources) | Resources to help you start working with the Rent Cast property data API. | ★ 2 | 2025-09-22 |
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | `Python` ★ 433.6k | 2026-05-09 |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs | `Python` ★ 433.6k | 2026-05-10 |
 | [microsoft/FaceSynthetics](https://github.com/microsoft/FaceSynthetics) | Face synthetics datasets | ★ 892 | 2025-07-08 |
 | [ChanChiChoi/awesome-Face_Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition) | papers about Face Detection; Face Alignment; Face Recognition && Face Identification && Face Verification && Face Representation; Face Reconstruction; Face Tracking; Face Super-Resolution && Face D... | ★ 4.7k | 2023-02-09 |
 | [moov-io/awesome-fintech](https://github.com/moov-io/awesome-fintech) | A curated collection of open source fintech libraries and resources. | ★ 297 | 2026-05-08 |
@@ -28,6 +28,6 @@
 | [phmullins/awesome-macos](https://github.com/phmullins/awesome-macos) | A curated list of awesome software for Apple's mac OS. | ★ 3.1k | 2025-01-22 |
 | [Guilouz/Creality-Helper-Script-Wiki](https://github.com/Guilouz/Creality-Helper-Script-Wiki) | Wiki for Creality Helper Script | ★ 1.2k | 2026-04-13 |
 | [TURBODRIVER/WickedWhims](https://github.com/TURBODRIVER/WickedWhims) | Open resources of Wicked Whims for modders | `Python` ★ 29 | 2026-03-25 |
-| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 464.6k | 2026-05-05 |
+| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 464.7k | 2026-05-05 |
 | [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) | A curated list of amazingly awesome PHP libraries, resources and shiny things. | ★ 32.5k | 2026-04-23 |
 | [bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) | A curated list of awesome awesomeness | `Ruby` ★ 33.4k | 2024-06-02 |

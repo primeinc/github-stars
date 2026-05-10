@@ -1,6 +1,6 @@
 # Cloud
 
-*118 repositories*
+*119 repositories*
 
 [← Back to Index](../README.md)
 
@@ -113,6 +113,7 @@
 | [spblog/outlook-spfx-ms-graph-api](https://github.com/spblog/outlook-spfx-ms-graph-api) | Building Outlook add-in with SPFx - save mail to One Drive with Azure Function, MSAL.NET and MS Graph .NET | `TypeScript` ★ 1 | 2021-03-09 |
 | [Azure/azure-storage-azcopy](https://github.com/Azure/azure-storage-azcopy) | The new Azure Storage data transfer utility - Az Copy v10 | `Go` ★ 688 | 2026-05-07 |
 | [Azure/azure-functions-openapi-extension](https://github.com/Azure/azure-functions-openapi-extension) | This extension provides an Azure Functions app with Open API capability for better discoverability to consuming parties | `C#` ★ 388 | 2025-10-03 |
+| [Azure/awesome-terraform](https://github.com/Azure/awesome-terraform) | An authoritative list of awesome Azure Terraform tools and samples with help from community experiments and contributions. | `HCL` ★ 177 | 2023-12-06 |
 | [asyafiqe/Rope-docker-headless-vnc-container](https://github.com/asyafiqe/Rope-docker-headless-vnc-container) | Docker for running Rope using headless VNC environments. Useful for running Rope on cloud GPU services like Runpod.io or Vast.ai. | `Python` ★ 7 | 2025-02-10 |
 | [milvus-io/milvus](https://github.com/milvus-io/milvus) | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search | `Go` ★ 44.2k | 2026-05-10 |
 | [minio/minio](https://github.com/minio/minio) | Min IO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license. | `Go` ★ 60.9k | 2026-04-24 |

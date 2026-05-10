@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `Python` ★ 141.3k | 2026-05-10 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `Python` ★ 141.4k | 2026-05-10 |
 | [hexiecs/talk-normal](https://github.com/hexiecs/talk-normal) | Make any LLM talk like a normal person. A system prompt that removes AI slop. | `Shell` ★ 1.6k | 2026-04-22 |
 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | The best-benchmarked open-source AI memory system. And it's free. | `Python` ★ 51.8k | 2026-05-10 |
 | [traceloop/openllmetry](https://github.com/traceloop/openllmetry) | Open-source observability for your Gen AI or LLM application, based on Open Telemetry | `Python` ★ 7.1k | 2026-05-08 |
@@ -18,7 +18,7 @@
 | [lintsinghua/DeepAudit](https://github.com/lintsinghua/DeepAudit) | Deep Audit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 Po C 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。 | `Python` ★ 6k | 2026-04-01 |
 | [MoonshotAI/kosong](https://github.com/MoonshotAI/kosong) | The LLM abstraction layer for modern AI agent applications. | ★ 522 | 2026-04-28 |
 | [MemoriLabs/Memori](https://github.com/MemoriLabs/Memori) | SQL Native Memory Layer for LLMs, AI Agents & Multi-Agent Systems | `Python` ★ 14.2k | 2026-05-08 |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 109.3k | 2026-05-09 |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 109.3k | 2026-05-10 |
 | [mudler/LocalAI](https://github.com/mudler/LocalAI) | :robot: The free, Open Source alternative to Open AI, Claude and others. Self-hosted and local-first. Drop-in replacement, running on consumer-grade hardware. No GPU required. Runs gguf, transforme... | `Go` ★ 46.2k | 2026-05-09 |
 | [usestrix/strix](https://github.com/usestrix/strix) | Open-source AI agents for penetration testing | `Python` ★ 25.2k | 2026-05-09 |
 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 Page Index: Document Index for Vectorless, Reasoning-based RAG | `Python` ★ 30.3k | 2026-05-08 |

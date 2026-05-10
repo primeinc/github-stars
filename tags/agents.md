@@ -1,6 +1,6 @@
 # Tag: agents
 
-*16 repositories*
+*17 repositories*
 
 [← Back to Index](../README.md)
 
@@ -10,7 +10,7 @@
 | [alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) | Slimmed and cleaned oh-my-opencode, consumes much less tokens; Help us grow, consider giving a ⭐; | `TypeScript` ★ 4.2k | 2026-05-08 |
 | [davidfowl/tally](https://github.com/davidfowl/tally) | Let agents classify your bank transactions. | `Python` ★ 1.1k | 2026-04-11 |
 | [code-yeongyu/agent-engineering-guide](https://github.com/code-yeongyu/agent-engineering-guide) | Aren't you curious how i made Sisyphus? And what could be more? | ★ 11 | 2026-01-04 |
-| [agentsmd/agents.md](https://github.com/agentsmd/agents.md) | AGENTS.md — a simple, open format for guiding coding agents | `TypeScript` ★ 21.1k | 2026-03-12 |
+| [agentsmd/agents.md](https://github.com/agentsmd/agents.md) | AGENTS.md — a simple, open format for guiding coding agents | `TypeScript` ★ 21.2k | 2026-03-12 |
 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | Hindsight: Agent Memory That Works Like Human Memory | `Python` ★ 12.8k | 2026-05-08 |
 | [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) | These are commands I use with agents, mostly Claude | `TypeScript` ★ 2.4k | 2026-05-09 |
 | [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 3.1k | 2026-03-25 |
@@ -22,3 +22,4 @@
 | [OpenPipe/ART](https://github.com/OpenPipe/ART) | Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen2.5, Qwen3, Llama, and more! | `Python` ★ 9.4k | 2026-05-10 |
 | [langchain-ai/agents-from-scratch](https://github.com/langchain-ai/agents-from-scratch) | Build an email assistant with human-in-the-loop and memory | `Jupyter Notebook` ★ 1.8k | 2025-10-20 |
 | [steipete/agent-rules](https://github.com/steipete/agent-rules) | Rules and Knowledge to work better with agents such as Claude Code or Cursor | `Shell` ★ 5.7k | 2026-05-03 |
+| [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) | 🚀 The fast, Pythonic way to build MCP servers and clients. | `Python` ★ 25.1k | 2026-05-09 |

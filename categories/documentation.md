@@ -1,6 +1,6 @@
 # Documentation
 
-*151 repositories*
+*152 repositories*
 
 [← Back to Index](../README.md)
 
@@ -41,7 +41,7 @@
 | [google/dotguides](https://github.com/google/dotguides) | No description provided | `TypeScript` ★ 70 | 2026-03-19 |
 | [undox-rs/undox](https://github.com/undox-rs/undox) | :book: A batteries-included static site generator built for documentation, with first-class support for aggregating content from multiple repositories | `Rust` ★ 9 | 2025-12-16 |
 | [jgm/pandoc](https://github.com/jgm/pandoc) | Universal markup converter | `Haskell` ★ 44k | 2026-05-07 |
-| [agentsmd/agents.md](https://github.com/agentsmd/agents.md) | AGENTS.md — a simple, open format for guiding coding agents | `TypeScript` ★ 21.1k | 2026-03-12 |
+| [agentsmd/agents.md](https://github.com/agentsmd/agents.md) | AGENTS.md — a simple, open format for guiding coding agents | `TypeScript` ★ 21.2k | 2026-03-12 |
 | [0x4D31/awesome-threat-detection](https://github.com/0x4D31/awesome-threat-detection) | ✨ A curated list of awesome threat detection and hunting resources 🕵️‍♂️ | ★ 4.6k | 2026-01-05 |
 | [showlab/Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion) | A curated list of recent diffusion models for video generation, editing, and various other applications. | ★ 5.6k | 2026-05-08 |
 | [awesome-jellyfin/awesome-jellyfin](https://github.com/awesome-jellyfin/awesome-jellyfin) | A Collection of Awesome Jellyfin Plugins, Themes, Guides and More! | `Shell` ★ 7.7k | 2026-05-01 |
@@ -115,6 +115,7 @@
 | [tauri-apps/awesome-tauri](https://github.com/tauri-apps/awesome-tauri) | 🚀 Awesome Tauri Apps, Plugins and Resources | ★ 7.6k | 2026-03-11 |
 | [JonasKruckenberg/tauri-docs-wip](https://github.com/JonasKruckenberg/tauri-docs-wip) | No description provided | `JavaScript` ★ 19 | 2022-07-15 |
 | [jaywcjlove/awesome-uikit](https://github.com/jaywcjlove/awesome-uikit) | Collect JS Frameworks, Web components library and Admin Template. | `Dockerfile` ★ 1.6k | 2026-04-21 |
+| [up-n-atom/PONwiki](https://github.com/up-n-atom/PONwiki) | Passive Optical Network WIKI | `HTML` ★ 196 | 2026-05-07 |
 | [florisporro/awesome-ndi](https://github.com/florisporro/awesome-ndi) | A curated list of awesome tools related to NDI | ★ 297 | 2025-04-22 |
 | [race2infinity/The-Documentation-Compendium](https://github.com/race2infinity/The-Documentation-Compendium) | 📢 Various README templates & tips on writing high-quality documentation that people want to read. | ★ 6k | 2025-10-31 |
 | [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) | A curated list of Awesome Threat Intelligence resources | ★ 10.2k | 2026-01-19 |
@@ -148,7 +149,7 @@
 | [cheat/cheat](https://github.com/cheat/cheat) | cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind \*nix system administrators of options for commands that they use frequently, but not ... | `Go` ★ 13.3k | 2026-04-30 |
 | [rappasoft/laravel-boilerplate](https://github.com/rappasoft/laravel-boilerplate) | The Laravel Boilerplate Project - https://laravel-boilerplate.com | `PHP` ★ 5.6k | 2025-09-28 |
 | [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) | A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem | ★ 13.1k | 2024-07-03 |
-| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 464.6k | 2026-05-05 |
+| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 464.7k | 2026-05-05 |
 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 291.2k | 2026-05-09 |
 | [codex-project/codex](https://github.com/codex-project/codex) | Extendable Documentation Platform written in Laravel 5. Generate easy and awesome documentation! | `PHP` ★ 143 | 2016-07-04 |
 | [phanan/htaccess](https://github.com/phanan/htaccess) | ✂A collection of useful .htaccess snippets. | ★ 13.2k | 2026-03-06 |

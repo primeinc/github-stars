@@ -1,6 +1,6 @@
 # Unclassified
 
-*394 repositories*
+*380 repositories*
 
 [← Back to Index](../README.md)
 
@@ -12,7 +12,7 @@
 | [fit-process-mining/ProMoAI](https://github.com/fit-process-mining/ProMoAI) | An AI-powered process mining suite that converts natural language to process models and uses autonomous agents to analyze event logs and generate actionable process insights. | `Python` ★ 47 | 2026-05-04 |
 | [zorazrw/workflow-induction-toolkit](https://github.com/zorazrw/workflow-induction-toolkit) | A toolkit to induce interpretable workflows from raw computer-use activities. | `Python` ★ 44 | 2025-11-13 |
 | [sindresorhus/is](https://github.com/sindresorhus/is) | Type check values | `TypeScript` ★ 1.8k | 2026-04-09 |
-| [githubnext/agentics](https://github.com/githubnext/agentics) | A sample pack of Git Hub Agentic Workflows! | `Makefile` ★ 683 | 2026-05-09 |
+| [githubnext/agentics](https://github.com/githubnext/agentics) | A sample pack of Git Hub Agentic Workflows! | `Makefile` ★ 684 | 2026-05-09 |
 | [metafab/otel-gui](https://github.com/metafab/otel-gui) | A lightweight, local Open Telemetry trace viewer | `TypeScript` ★ 65 | 2026-04-12 |
 | [tbrockman/browser-extension-for-opentelemetry](https://github.com/tbrockman/browser-extension-for-opentelemetry) | An extension for instrumenting your browsing using Open Telemetry | `TypeScript` ★ 22 | 2026-05-04 |
 | [kareldewinter/tdd-azd-monitor](https://github.com/kareldewinter/tdd-azd-monitor) | Trainer-Demo-Deploy scenario for Azure Monitor including system metrics, custom logs, and external telemetry | `Bicep` ★ 3 | 2025-11-23 |
@@ -40,7 +40,7 @@
 | [FedRAMP/roadmap](https://github.com/FedRAMP/roadmap) | Fed RAMP's Public High Level Roadmap | `Shell` ★ 26 | 2026-02-02 |
 | [jdx/fnox](https://github.com/jdx/fnox) | encrypted/remote secret manager | `Rust` ★ 1.6k | 2026-05-09 |
 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/ | `Python` ★ 34.1k | 2026-05-06 |
-| [InsForge/InsForge](https://github.com/InsForge/InsForge) | The all-in-one, open-source backend platform for agentic coding. Ins Forge gives your coding agent database, auth, storage, compute, hosting, and AI gateway to ship full-stack apps end-to-end. | `TypeScript` ★ 9.3k | 2026-05-09 |
+| [InsForge/InsForge](https://github.com/InsForge/InsForge) | The all-in-one, open-source backend platform for agentic coding. Ins Forge gives your coding agent database, auth, storage, compute, hosting, and AI gateway to ship full-stack apps end-to-end. | `TypeScript` ★ 9.3k | 2026-05-10 |
 | [viralcode/vib-OS](https://github.com/viralcode/vib-OS) | World's First Vibecoded AI Operating System | `C` ★ 441 | 2026-03-10 |
 | [FurkanGozukara/Stable-Diffusion](https://github.com/FurkanGozukara/Stable-Diffusion) | FLUX, Stable Diffusion, SDXL, SD3, Lo RA, Fine Tuning, Dream Booth, Training, Automatic1111, Forge Web UI, Swarm UI, Deep Fake, TTS, Animation, Text To Video, Tutorials, Guides, Lectures, Courses, ... | `JavaScript` ★ 2.7k | 2026-05-04 |
 | [kaito-tokyo/live-backgroundremoval-lite](https://github.com/kaito-tokyo/live-backgroundremoval-lite) | A gaming-first, high-performance, and crash-resilient background removal for OBS Studio | `C` ★ 50 | 2026-05-07 |
@@ -83,7 +83,7 @@
 | [open-mercato/open-mercato](https://github.com/open-mercato/open-mercato) | AI-Engineering Foundation Framework built with AI and designed for AI. Hundreds of architectural and domain decisions (multi-tenancy, RBAC, event flow, pricing, sales pipeline,CRM/ERP processes) ar... | `TypeScript` ★ 1.3k | 2026-05-09 |
 | [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 117k | 2026-05-10 |
 | [storytold/artcraft](https://github.com/storytold/artcraft) | Art Craft is an intentional crafting engine for artists, designers, and filmmakers | `Rust` ★ 1.6k | 2026-05-10 |
-| [zed-industries/zed](https://github.com/zed-industries/zed) | Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. | `Rust` ★ 82.3k | 2026-05-10 |
+| [zed-industries/zed](https://github.com/zed-industries/zed) | Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. | `Rust` ★ 82.4k | 2026-05-10 |
 | [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 34.2k | 2026-05-08 |
 | [google-research/timesfm](https://github.com/google-research/timesfm) | Times FM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | `Python` ★ 19.6k | 2026-05-09 |
 | [roboflow/trackers](https://github.com/roboflow/trackers) | Trackers gives you clean, modular re-implementations of leading multi-object tracking algorithms released under the permissive Apache 2.0 license. You combine them with any detection model you alre... | `Python` ★ 3.4k | 2026-05-08 |
@@ -249,7 +249,7 @@
 | [dialpad/dialtone](https://github.com/dialpad/dialtone) | The main repository for all of Dialpad's design system resources. | `JavaScript` ★ 14 | 2026-05-10 |
 | [d3/d3](https://github.com/d3/d3) | Bring data to life with SVG, Canvas and HTML. :bar\_chart::chart\_with\_upwards\_trend::tada: | `Shell` ★ 112.9k | 2025-12-02 |
 | [k1LoW/tbls](https://github.com/k1LoW/tbls) | tbls is a CI-Friendly tool to document a database, written in Go. | `Go` ★ 4.2k | 2026-05-08 |
-| [sirkirby/unifi-mcp](https://github.com/sirkirby/unifi-mcp) | MCP servers for the Uni Fi suite of applications, Network, Protect, Access, and Drive | `Python` ★ 326 | 2026-05-10 |
+| [sirkirby/unifi-mcp](https://github.com/sirkirby/unifi-mcp) | MCP servers for the Uni Fi suite of applications, Network, Protect, Access, and Drive | `Python` ★ 327 | 2026-05-10 |
 | [gbassaragh/Unifi-mcp](https://github.com/gbassaragh/Unifi-mcp) | MCP server for Uni Fi Network and Protect API integration - AI-powered network management | `Python` ★ 2 | 2026-01-10 |
 | [homarr-labs/homarr](https://github.com/homarr-labs/homarr) | A modern and easy to use dashboard. 40+ integrations. 20K+ icons built in. Authentication out of the box. No YAML, drag and drop configuration. | `TypeScript` ★ 3.7k | 2026-05-10 |
 | [AgentAlphaAGI/Idea2Paper](https://github.com/AgentAlphaAGI/Idea2Paper) | Idea2Paper Offical Demo | `Python` ★ 1.3k | 2026-03-24 |
@@ -342,7 +342,7 @@
 | [streetwriters/notesnook](https://github.com/streetwriters/notesnook) | A fully open source & end-to-end encrypted note taking alternative to Evernote. | `TypeScript` ★ 14k | 2026-05-08 |
 | [six2dez/burp-ai-agent](https://github.com/six2dez/burp-ai-agent) | Burp Suite extension that adds built-in MCP tooling, AI-assisted analysis, privacy controls, passive and active scanning and more | `Kotlin` ★ 1.1k | 2026-05-06 |
 | [raphaelsty/knowledge](https://github.com/raphaelsty/knowledge) | Open-source personal bookmarks search engine | `Python` ★ 745 | 2026-04-30 |
-| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | ★ 122.6k | 2026-04-20 |
+| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | ★ 122.7k | 2026-04-20 |
 | [ITContractorsUnion/ITContractorsUnion](https://github.com/ITContractorsUnion/ITContractorsUnion) | Repo For All Downloadable Data | `HTML` ★ 125 | 2026-03-07 |
 | [HugoRCD/evlog](https://github.com/HugoRCD/evlog) | Digging through logs is not observability. It's hope. — wide events, structured errors, Type Script-first, every runtime. | `TypeScript` ★ 1.3k | 2026-05-09 |
 | [ssmisya/AdaReasoner](https://github.com/ssmisya/AdaReasoner) | \[ICLR 2026\] The official repository for the paper "Ada Reasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning". | `Jupyter Notebook` ★ 81 | 2026-02-27 |
@@ -385,20 +385,6 @@
 | [realworld-apps/realworld](https://github.com/realworld-apps/realworld) | "The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more | `TypeScript` ★ 83.4k | 2026-05-05 |
 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | MCP Toolbox for Databases is an open source MCP server for databases. | `Go` ★ 15.1k | 2026-05-09 |
 | [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | Interactive roadmaps, guides and other educational content to help developers grow in their careers. | `TypeScript` ★ 354.5k | 2026-05-09 |
-| [aaif-goose/goose](https://github.com/aaif-goose/goose) | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM | `Rust` ★ 44.9k | 2026-05-10 |
-| [vercel/chatbot](https://github.com/vercel/chatbot) | A full-featured, hackable Next.js AI chatbot built by Vercel | `TypeScript` ★ 20.3k | 2026-04-17 |
-| [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) | 🚀 The fast, Pythonic way to build MCP servers and clients. | `Python` ★ 25.1k | 2026-05-09 |
-| [Azure/awesome-terraform](https://github.com/Azure/awesome-terraform) | An authoritative list of awesome Azure Terraform tools and samples with help from community experiments and contributions. | `HCL` ★ 177 | 2023-12-06 |
-| [unifi-utilities/unifi-common](https://github.com/unifi-utilities/unifi-common) | Uni Fi Common - on\_boot.d | `Shell` ★ 4.3k | 2026-04-30 |
-| [up-n-atom/PONwiki](https://github.com/up-n-atom/PONwiki) | Passive Optical Network WIKI | `HTML` ★ 196 | 2026-05-07 |
-| [dechamps/FlexASIO](https://github.com/dechamps/FlexASIO) | A flexible universal ASIO driver that uses the Port Audio sound I/O library. Supports WASAPI (shared and exclusive), KS, Direct Sound and MME. | `C++` ★ 1.9k | 2024-06-27 |
 | [v154c1/libyuri](https://github.com/v154c1/libyuri) | No description provided | `C++` ★ 9 | 2025-07-22 |
-| [DistroAV/DistroAV](https://github.com/DistroAV/DistroAV) | Distro AV (formerly OBS-NDI): NDI integration for OBS Studio | `C++` ★ 4.3k | 2026-05-08 |
-| [ogx-ai/ogx](https://github.com/ogx-ai/ogx) | Open Gen AI Stack | `Python` ★ 8.4k | 2026-05-09 |
-| [cavedweller509/LMDeploy-Jetson](https://github.com/cavedweller509/LMDeploy-Jetson) | Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access. | ★ 107 | 2024-03-23 |
-| [SierraSoftworks/tailscale-unifi](https://github.com/SierraSoftworks/tailscale-unifi) | Run Tailscale on your Uni Fi OS device | `Shell` ★ 1.5k | 2026-05-09 |
-| [KlingAIResearch/LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | Bring portraits to life! | `Python` ★ 18.3k | 2026-03-02 |
-| [oobabooga/textgen](https://github.com/oobabooga/textgen) | Open-source desktop app for local LLMs. Text, vision, tool-calling, Open AI/Anthropic-compatible API. | `Python` ★ 47k | 2026-05-07 |
-| [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) | Loads environment variables from \`.env\` to \`getenv()\`, \`$\_ENV\` and \`$\_SERVER\` automagically. | `PHP` ★ 13.5k | 2025-12-27 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*

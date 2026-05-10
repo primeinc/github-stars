@@ -1,13 +1,13 @@
 # Productivity
 
-*489 repositories*
+*491 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [microsoft/work-iq](https://github.com/microsoft/work-iq) | MCP Server and CLI for accessing Work IQ | `PowerShell` ★ 792 | 2026-05-07 |
-| [penpot/penpot](https://github.com/penpot/penpot) | Penpot: The open-source design tool for design and code collaboration | `Clojure` ★ 47.4k | 2026-05-09 |
+| [penpot/penpot](https://github.com/penpot/penpot) | Penpot: The open-source design tool for design and code collaboration | `Clojure` ★ 47.4k | 2026-05-10 |
 | [zammad/zammad](https://github.com/zammad/zammad) | Zammad is a web based open source helpdesk/customer support system. | `Ruby` ★ 5.6k | 2026-05-08 |
 | [stylessh/diffkit](https://github.com/stylessh/diffkit) | A fast, design-first Git Hub dashboard for developers who want to stay on top of their pull requests, issues, and code reviews — without the noise. | `TypeScript` ★ 135 | 2026-04-26 |
 | [microsoft/copilot-brag-sheet](https://github.com/microsoft/copilot-brag-sheet) | Auto-track every Copilot CLI coding session into a structured work impact log. Zero deps, local-first, cross-platform. | `JavaScript` ★ 5 | 2026-05-05 |
@@ -129,14 +129,14 @@
 | [lux032/MusicAutoTagger](https://github.com/lux032/MusicAutoTagger) | A smart music file organization tool based on audio fingerprinting technology. It automatically monitors the download directory, identifies songs using Acoust ID and Music Brainz, completes metadat... | `Java` ★ 63 | 2026-03-16 |
 | [basecamp/fizzy](https://github.com/basecamp/fizzy) | Kanban as it should be. Not as it has been. | `Ruby` ★ 7.7k | 2026-05-06 |
 | [Ali-Hussein-dev/formcn](https://github.com/Ali-Hussein-dev/formcn) | Build production-ready forms with a few clicks | `TypeScript` ★ 489 | 2026-03-27 |
-| [refined-github/refined-github](https://github.com/refined-github/refined-github) | :octocat: Browser extension that simplifies the Git Hub interface and adds useful features | `TypeScript` ★ 31.3k | 2026-05-09 |
+| [refined-github/refined-github](https://github.com/refined-github/refined-github) | :octocat: Browser extension that simplifies the Git Hub interface and adds useful features | `TypeScript` ★ 31.3k | 2026-05-10 |
 | [coleam00/ottomator-agents](https://github.com/coleam00/ottomator-agents) | All the open source AI Agents hosted on the o TTomator Live Agent Studio platform! | `Python` ★ 5.6k | 2025-11-09 |
 | [Cysharp/R3](https://github.com/Cysharp/R3) | The new future of dotnet/reactive and Uni Rx. | `C#` ★ 3.8k | 2026-02-25 |
 | [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | Lean Algorithmic Trading Engine by Quant Connect (Python, C#) | `C#` ★ 18.9k | 2026-05-08 |
 | [satnaing/shadcn-admin](https://github.com/satnaing/shadcn-admin) | Admin Dashboard UI built with Shadcn and Vite. | `TypeScript` ★ 12k | 2026-05-08 |
 | [pionxzh/chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) | Export and Share your Chat GPT conversation history | `TypeScript` ★ 2.4k | 2026-05-10 |
 | [Aldhanekaa/ShadcnVaults](https://github.com/Aldhanekaa/ShadcnVaults) | Collection of blocks for Internal Tools UI built on top of shadcn/ui | `TypeScript` ★ 80 | 2025-07-30 |
-| [nvbn/thefuck](https://github.com/nvbn/thefuck) | Magnificent app which corrects your previous console command. | `Python` ★ 96.8k | 2024-07-19 |
+| [nvbn/thefuck](https://github.com/nvbn/thefuck) | Magnificent app which corrects your previous console command. | `Python` ★ 96.9k | 2024-07-19 |
 | [shane-downes/styleglide](https://github.com/shane-downes/styleglide) | Create your own shadcn/ui and Tailwind CSS design system | `TypeScript` ★ 66 | 2025-12-06 |
 | [trungdq88/Awesome-Black-Friday-Cyber-Monday](https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday) | Awesome apps, software, and Saa S deals on Black Friday. | ★ 7.5k | 2025-11-30 |
 | [gtsteffaniak/filebrowser](https://github.com/gtsteffaniak/filebrowser) | 📂 Web File Browser | `Go` ★ 7k | 2026-05-10 |
@@ -149,7 +149,7 @@
 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. | `TypeScript` ★ 113.9k | 2026-05-09 |
 | [primeinc/turborepo-nextjs](https://github.com/primeinc/turborepo-nextjs) | A production-ready Next.js 15 monorepo with React 19, Type Script, t RPC, and Prisma. | ★ 1 | 2025-11-21 |
 | [gmickel/turborepo-shadcn-nextjs](https://github.com/gmickel/turborepo-shadcn-nextjs) | A Turborepo starter template with Next.js, Nextra, Storybook, and a shared pre-configured shadcn/ui package, powered by Bun and Biome | `TypeScript` ★ 96 | 2026-04-13 |
-| [selfhst/icons](https://github.com/selfhst/icons) | Collection of icons and logos maintained by selfh.st | `Go` ★ 819 | 2026-04-29 |
+| [selfhst/icons](https://github.com/selfhst/icons) | Collection of icons and logos maintained by selfh.st | `Go` ★ 820 | 2026-04-29 |
 | [PaulJPhilp/effect-env](https://github.com/PaulJPhilp/effect-env) | No description provided | `TypeScript` ★ 41 | 2025-11-27 |
 | [Aetherinox/node-toasted-notifier](https://github.com/Aetherinox/node-toasted-notifier) | A revised fork of node-notifier; Node JS package for pushing notifications to Mac OS, Linux, and Windows. | `JavaScript` ★ 26 | 2025-10-23 |
 | [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) | The largest Open-Source UI Library! Community-made and free to use. Made with either CSS or Tailwind. | `HTML` ★ 10.7k | 2024-09-02 |
@@ -289,6 +289,7 @@
 | [microsoft/Modernize-your-code-solution-accelerator](https://github.com/microsoft/Modernize-your-code-solution-accelerator) | Designed to help customers transition their SQL queries to new environments quickly and efficiently. This accelerator is particularly useful for organizations modernizing their data estates, as it ... | `Python` ★ 128 | 2026-05-08 |
 | [OfficeDev/Microsoft-Teams-Adaptive-Card-Samples](https://github.com/OfficeDev/Microsoft-Teams-Adaptive-Card-Samples) | Adaptive Card Samples for Teams | ★ 80 | 2026-02-03 |
 | [xming521/WeClone](https://github.com/xming521/WeClone) | 🚀 One-stop solution for creating your digital avatar from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life... | `Python` ★ 17.8k | 2026-05-08 |
+| [aaif-goose/goose](https://github.com/aaif-goose/goose) | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM | `Rust` ★ 44.9k | 2026-05-10 |
 | [codexu/note-gen](https://github.com/codexu/note-gen) | A cross-platform Markdown AI note-taking software. | `TypeScript` ★ 11.8k | 2026-04-26 |
 | [iamgio/quarkdown](https://github.com/iamgio/quarkdown) | 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases. | `Kotlin` ★ 13.9k | 2026-05-06 |
 | [lnenad/newser](https://github.com/lnenad/newser) | Newser is a simple utility to generate a pdf with you favorite news articles | `Go` ★ 92 | 2024-08-23 |
@@ -300,7 +301,7 @@
 | [vrtmrz/obsidian-livesync](https://github.com/vrtmrz/obsidian-livesync) | No description provided | `TypeScript` ★ 10.8k | 2026-05-09 |
 | [voideditor/void](https://github.com/voideditor/void) | No description provided | `TypeScript` ★ 28.7k | 2026-01-12 |
 | [QiuYannnn/Local-File-Organizer](https://github.com/QiuYannnn/Local-File-Organizer) | An AI-powered file management tool that ensures privacy by organizing local texts, images. Using Llama3.2 3B and Llava v1.6 models with the Nexa SDK, it intuitively scans, restructures, and organiz... | `Python` ★ 3.2k | 2024-10-21 |
-| [novuhq/novu](https://github.com/novuhq/novu) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | `TypeScript` ★ 39k | 2026-05-09 |
+| [novuhq/novu](https://github.com/novuhq/novu) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | `TypeScript` ★ 39k | 2026-05-10 |
 | [makeplane/plane](https://github.com/makeplane/plane) | 🔥🔥🔥 Open-source Jira, Linear, Monday, and Click Up alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | `TypeScript` ★ 48.9k | 2026-05-06 |
 | [RenjiYuusei/CursorFocus](https://github.com/RenjiYuusei/CursorFocus) | A lightweight tool that maintains a focused view of your project structure and environment. Cursor Focus automatically tracks your project files, functions, and environment variables, updating ever... | `Python` ★ 169 | 2025-04-02 |
 | [johnbenac/cursor-watchful-headers](https://github.com/johnbenac/cursor-watchful-headers) | Automated file header management and project structure visualization in cursorrules. Maintains consistent headers across multiple file types while providing real-time project tree updates. Perfect ... | `Python` ★ 51 | 2025-06-09 |
@@ -479,6 +480,7 @@
 | [kriswallsmith/assetic](https://github.com/kriswallsmith/assetic) | Asset Management for PHP | `PHP` ★ 3.7k | 2022-02-03 |
 | [resume/resume.github.com](https://github.com/resume/resume.github.com) | Resumes generated using the Git Hub informations | `JavaScript` ★ 62.8k | 2023-02-15 |
 | [suidroot/sublime-vyatta-syntax](https://github.com/suidroot/sublime-vyatta-syntax) | Sublime Text 2 Syntax for Vyatta | ★ 1 | 2014-04-24 |
+| [vlucas/phpdotenv](https://github.com/vlucas/phpdotenv) | Loads environment variables from \`.env\` to \`getenv()\`, \`$\_ENV\` and \`$\_SERVER\` automagically. | `PHP` ★ 13.5k | 2025-12-27 |
 | [jolicode/JoliNotif](https://github.com/jolicode/JoliNotif) | 🖥️ Send notifications to your desktop directly from your PHP script | `PHP` ★ 1.4k | 2026-01-28 |
 | [resque/resque](https://github.com/resque/resque) | Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later. | `Ruby` ★ 9.5k | 2026-02-27 |
 | [babun/babun](https://github.com/babun/babun) | Babun - a Windows shell you will love! | `Shell` ★ 8.6k | 2019-06-11 |

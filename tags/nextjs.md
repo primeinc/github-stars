@@ -1,6 +1,6 @@
 # Tag: nextjs
 
-*30 repositories*
+*31 repositories*
 
 [← Back to Index](../README.md)
 
@@ -33,6 +33,7 @@
 | [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) | ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs. | `TypeScript` ★ 43.9k | 2026-04-22 |
 | [openai/openai-support-agent-demo](https://github.com/openai/openai-support-agent-demo) | Demo of a customer support agent interface using Next JS and the Open AI Responses API with File Search | `TypeScript` ★ 186 | 2025-12-15 |
 | [codexu/note-gen](https://github.com/codexu/note-gen) | A cross-platform Markdown AI note-taking software. | `TypeScript` ★ 11.8k | 2026-04-26 |
+| [vercel/chatbot](https://github.com/vercel/chatbot) | A full-featured, hackable Next.js AI chatbot built by Vercel | `TypeScript` ★ 20.3k | 2026-04-17 |
 | [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate social media scheduling tool, with a bunch of AI 🤖 | `TypeScript` ★ 30.2k | 2026-05-07 |
 | [amruthpillai/reactive-resume](https://github.com/amruthpillai/reactive-resume) | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today! | `TypeScript` ★ 36.7k | 2026-05-09 |
 | [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | Open Assistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | `Python` ★ 37.4k | 2024-08-17 |

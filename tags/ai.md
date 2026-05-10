@@ -1,6 +1,6 @@
 # Tag: ai
 
-*55 repositories*
+*56 repositories*
 
 [← Back to Index](../README.md)
 
@@ -48,6 +48,7 @@
 | [jujumilk3/leaked-system-prompts](https://github.com/jujumilk3/leaked-system-prompts) | Collection of leaked system prompts | ★ 14.6k | 2026-03-30 |
 | [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) | Federated Query Engine for AI - The only MCP Server you'll ever need | `Python` ★ 39.1k | 2026-05-09 |
 | [AvaLovelace1/BrickGPT](https://github.com/AvaLovelace1/BrickGPT) | Official repository for Brick GPT, the first approach for generating physically stable toy brick models from text prompts. | `Python` ★ 1.6k | 2026-02-07 |
+| [vercel/chatbot](https://github.com/vercel/chatbot) | A full-featured, hackable Next.js AI chatbot built by Vercel | `TypeScript` ★ 20.3k | 2026-04-17 |
 | [choushunn/awesome-RK3588](https://github.com/choushunn/awesome-RK3588) | Useful resources for developing with the RK3588. :rocket: | ★ 503 | 2025-12-07 |
 | [shraddha-gawde/reachInbox-assignment](https://github.com/shraddha-gawde/reachInbox-assignment) | The assignment is to build a tool that will parse and check the emails in a Google and Outlook email ID, and respond to the e-mails based on the context using AI. Use Bull MQ as the tasks scheduler. | `JavaScript` ★ 10 | 2024-08-26 |
 | [ikaijua/Awesome-AITools](https://github.com/ikaijua/Awesome-AITools) | Collection of AI-related utilities. Welcome to submit issues and pull requests /收藏AI相关的实用工具，欢迎提交issues 或者pull requests | `Python` ★ 5.9k | 2026-05-10 |
