@@ -190,6 +190,36 @@ jobs:
 
             console.log(`New: ${newRepos.length}, Removed: ${removedRepos.length}`);
 
+            // DESTRUCTIVE-DELETION GUARD
+            // Refuse to apply a sync that would remove more than 5% of the
+            // current manifest. Direct evidence motivating this guard:
+            // .sisyphus/proofs/02N-recovery.md documents how silent partial
+            // fetches truncated repos.yml from 2,612 → 197 (lost ~92% of
+            // entries) by repeatedly running this exact diff against fetched
+            // pages 1+2 only. The 01-fetch hard-fail (post-ee50e48c) prevents
+            // future poisoning at the source, but this guard is defense in
+            // depth: any fetched-stars JSON that produces a > 5% removal
+            // ratio is, by definition, suspicious.
+            //
+            // Threshold: 5%. Bypass is intentional to require a human
+            // (or workflow_dispatch with explicit input) to confirm a
+            // genuinely large unstar event.
+            const manifestSize = manifestData.repositories.length;
+            const removalRatio = manifestSize > 0 ? removedRepos.length / manifestSize : 0;
+            const REMOVAL_THRESHOLD = 0.05;
+            if (removalRatio > REMOVAL_THRESHOLD) {
+              const removedNames = removedRepos.slice(0, 20).map(r => r.repo).join(', ');
+              core.setFailed(
+                `DESTRUCTIVE SYNC REFUSED: fetched ${starsData.length} stars but ` +
+                `manifest has ${manifestSize}; that would remove ${removedRepos.length} repos ` +
+                `(${(removalRatio * 100).toFixed(1)}% — exceeds ${(REMOVAL_THRESHOLD * 100).toFixed(0)}% threshold). ` +
+                `First 20 to-be-removed: ${removedNames}${removedRepos.length > 20 ? ', ...' : ''}. ` +
+                `If this is intentional (mass unstar), set MANIFEST_REMOVAL_OVERRIDE=true in workflow env. ` +
+                `Otherwise the upstream fetch is suspect — check 01-Fetch GitHub Stars run for partial-success warnings.`
+              );
+              return;
+            }
+
             if (newRepos.length > 0 || removedRepos.length > 0) {
               manifestData.repositories = manifestData.repositories.filter(r => r?.repo && currentStarRepos.has(r.repo));
 
