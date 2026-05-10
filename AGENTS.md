@@ -21,7 +21,7 @@ Two layers of validation exist: local TypeScript tests (`vitest`) and Actions-si
 ### Schema Validation
 The primary correctness check is JSON Schema validation for `repos.yml`.
 - **Schema**: `schemas/repos-schema.json`
-- **Validation Tool**: `cardinalby/schema-validator-action` (in CI workflows 02/04) or local `pnpm validate` / `ajv-cli` if installed.
+- **Validation Tool**: `cardinalby/schema-validator-action` (in CI workflows `02-sync-stars` and `03-classify-repos`) or local `pnpm validate` / `ajv-cli` if installed. `04-build-site` does not re-validate `repos.yml`; the strict gates in 02/03 are what protect the build.
 - **Test Command** (Manual):
   ```bash
   pnpm validate

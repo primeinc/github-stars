@@ -83,7 +83,13 @@ jobs:
               error.message?.includes('FetchError')
             );
             
-            // Exponential backoff with full jitter, capped at MAX_BACKOFF_SECONDS.
+            // Exponential backoff with "equal jitter" (sleep range is
+            // [0.5, 1.0) * cappedExp), capped at MAX_BACKOFF_SECONDS. The
+            // 0.5 floor preserves a minimum backoff so tight retry loops
+            // can't hammer api.github.com during a 502 storm; the random
+            // upper half spreads concurrent runs to avoid synchronized
+            // retries (AWS architecture blog, "exponential backoff and
+            // jitter"). Not full jitter (which would be [0, 1) * cappedExp).
             const backoffMs = (attempt) => {
               const expSec = Math.min(MAX_BACKOFF_SECONDS, Math.pow(2, attempt));
               return Math.floor((0.5 + Math.random() * 0.5) * expSec * 1000);
