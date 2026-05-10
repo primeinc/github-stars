@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-10T07:23:31.901Z'
+  manifest_updated_at: '2026-05-10T07:24:07.525Z'
   total_repos: 2612
   generator_version: v1.0.0
   github_user: primeinc
@@ -23600,19 +23600,20 @@ repositories:
     framework: null
   - repo: julianromli/opencode-template
     categories:
+      - frameworks
       - unclassified
     tags:
       - template
-      - lang:c
+      - lang:python
     summary: opencode-template
     last_synced_sha: 37ceab2d64a33708c9b54c3a002007082a49c3b6
     user_starred_at: '2026-01-18T03:05:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     ai_classification:
       model: gpt-4o
-      classified_at: '2026-01-19T04:21:56.841Z'
-      prompt_version: v2
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
     github_metadata:
       language: Python
       topics: []
@@ -24197,13 +24198,17 @@ repositories:
     framework: null
   - repo: openclaw/mcporter
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - cli
+      - ts-api
+      - lang:ts
     summary: Call MCPs via Type Script, masquerading as simple Type Script API. Or package them as cli.
     last_synced_sha: ed698d9e482310b6efab137cae1e6be3841b12d2
     user_starred_at: '2026-01-14T07:23:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -24224,6 +24229,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
   - repo: 19h/apeiron
     categories:
       - data-science
@@ -25273,13 +25282,17 @@ repositories:
     framework: null
   - repo: tinyauthapp/tinyauth
     categories:
-      - unclassified
-    tags: []
+      - security
+      - web-dev
+    tags:
+      - authentication
+      - selfhosted
+      - lang:go
     summary: The tiniest authentication and authorization server you have ever seen.
     last_synced_sha: 1b18e68ce0d2cab494dad02cc962677d8b36c374
     user_starred_at: '2026-01-09T21:10:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -25309,6 +25322,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
   - repo: keploy/keploy
     categories:
       - testing
@@ -27319,21 +27336,21 @@ repositories:
     framework: null
   - repo: j178/prek
     categories:
-      - unclassified
-    tags:
-      - lang:rust
-      - pre-commit
-      - git-hooks
       - automation
+      - dev-tools
+    tags:
+      - git-hooks
+      - pre-commit
+      - lang:rust
     summary: ⚡ Better `pre-commit`, re-engineered in Rust
     last_synced_sha: b348bada651468b82cd83f771d023e70fab236df
     user_starred_at: '2026-01-09T20:30:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     ai_classification:
       model: gpt-4o
-      classified_at: '2026-01-27T05:05:15.106Z'
-      prompt_version: v2
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
     github_metadata:
       language: Rust
       topics:
@@ -29089,13 +29106,17 @@ repositories:
     framework: null
   - repo: AutoForgeAI/autoforge
     categories:
+      - ai-ml
       - unclassified
-    tags: []
+    tags:
+      - ai
+      - automation
+      - lang:python
     summary: No description provided
     last_synced_sha: 43f4366d19ecec1bc71dc3bce00a26d5472722df
     user_starred_at: '2026-01-09T13:01:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -29113,6 +29134,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
   - repo: jamichss/Stream-DiffVSR
     categories:
       - ai-ml
@@ -29184,13 +29209,17 @@ repositories:
     framework: null
   - repo: computerlovetech/agr
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - package-manager
+      - agent-skills
+      - lang:python
     summary: A package manager for AI agents. Install agent skills from Git Hub with a single command.
     last_synced_sha: e7d33b2676eb69f98e4d23b7336d00b2b7aaea8b
     user_starred_at: '2026-01-05T18:01:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -29211,6 +29240,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
   - repo: davidfowl/tally
     categories:
       - ai-ml
@@ -29354,13 +29387,17 @@ repositories:
     framework: null
   - repo: nilbuild/claude-run
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - ai-ml
+    tags:
+      - web-ui
+      - claude
+      - lang:ts
     summary: A beautiful web UI for browsing Claude Code conversation history.
     last_synced_sha: f8c5f43b2dbd0f4f9bb1df4cbfdde40a7675b12c
     user_starred_at: '2026-01-05T17:52:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -29378,6 +29415,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
   - repo: TRaSH-Guides/Guides
     categories:
       - documentation
@@ -31250,13 +31291,18 @@ repositories:
     framework: null
   - repo: screenpipe/screenpipe
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - monitoring
+    tags:
+      - computer-vision
+      - llm
+      - agents
+      - lang:rust
     summary: Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era
     last_synced_sha: 08453bd3890f1a35daa4edd1e262d5160dd65339
     user_starred_at: '2025-12-28T04:20:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -31283,6 +31329,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
   - repo: nicotsx/zerobyte
     categories:
       - automation
@@ -32009,13 +32059,18 @@ repositories:
     framework: null
   - repo: code-yeongyu/oh-my-openagent
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai
+      - agent-harness
+      - claude
+      - lang:ts
     summary: omo; the best agent harness - previously oh-my-opencode
     last_synced_sha: 6520c70590318134affc99a9707ae3c5184fa9a3
     user_starred_at: '2025-12-22T16:42:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -32049,6 +32104,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
   - repo: Zplusdragon/LowLevelBanana
     categories:
       - ai-ml
@@ -32086,13 +32145,17 @@ repositories:
     framework: null
   - repo: earendil-works/pi
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - llm-api
+      - agent-toolkit
+      - lang:ts
     summary: 'AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, v LLM pods'
     last_synced_sha: e25415dd5f0b68fe084d53333dc4af1b9adf2e49
     user_starred_at: '2025-12-22T16:41:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -32110,6 +32173,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
   - repo: Azure/ALZ-PowerShell-Module
     categories:
       - cloud
@@ -33454,20 +33521,22 @@ repositories:
     framework: null
   - repo: xxh/xxh
     categories:
-      - unclassified
+      - dev-tools
+      - system-admin
     tags:
-      - shell
       - ssh
+      - shell
+      - linux
       - lang:python
     summary: 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on.
     last_synced_sha: f318daf47472dfbecf3a882ae220c6e8dc93ac69
     user_starred_at: '2025-12-18T09:56:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     ai_classification:
       model: gpt-4o
-      classified_at: '2026-01-27T05:01:23.792Z'
-      prompt_version: v2
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
     github_metadata:
       language: Python
       topics:
@@ -36014,13 +36083,18 @@ repositories:
     framework: null
   - repo: droidrun/mobilerun
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - mobile-automation
+      - android
+      - llm
+      - lang:python
     summary: Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖
     last_synced_sha: 7e19cc8b296e5ca42866ab3b59b102f8a8b3507d
     user_starred_at: '2025-11-29T01:51:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -36043,6 +36117,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
   - repo: thinking-machines-lab/tinker-cookbook
     categories:
       - learning
@@ -36491,13 +36569,18 @@ repositories:
     framework: null
   - repo: Sylinko/Everywhere
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - desktop-dev
+    tags:
+      - ai
+      - assistant
+      - llm
+      - lang:csharp
     summary: Context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools.
     last_synced_sha: 662a99229f49efc6d0fc6d489f63ab946e470bd5
     user_starred_at: '2025-11-29T01:45:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -36529,6 +36612,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
   - repo: QuantConnect/Lean
     categories:
       - data-science
@@ -37716,20 +37803,21 @@ repositories:
     framework: null
   - repo: stan-smith/FossFLOW
     categories:
-      - unclassified
+      - productivity
+      - dev-tools
     tags:
+      - infra
       - isometric-diagrams
-      - infrastructure
       - lang:ts
     summary: Make beautiful isometric infrastructure diagrams
     last_synced_sha: 4426d08923bfa59c8098b3132cdc48dd0c38ffb3
     user_starred_at: '2025-11-22T05:48:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     ai_classification:
       model: gpt-4o
-      classified_at: '2026-01-27T04:58:37.156Z'
-      prompt_version: v2
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
     github_metadata:
       language: TypeScript
       topics:
@@ -38762,21 +38850,22 @@ repositories:
     framework: null
   - repo: nicholas-fedor/shoutrrr
     categories:
-      - unclassified
+      - dev-tools
+      - apis
     tags:
-      - golang
-      - notifications
+      - notification
+      - library
       - lang:go
     summary: A notification library for gophers and their furry friends.
     last_synced_sha: 6d94a49c809d2bdd2bf52914585fbe1f5f435ab1
     user_starred_at: '2025-11-21T22:10:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     fork: true
     ai_classification:
       model: gpt-4o
-      classified_at: '2026-01-27T04:57:49.669Z'
-      prompt_version: v2
+      classified_at: '2026-05-10T07:24:06.433Z'
+      prompt_version: v3
     github_metadata:
       language: Go
       topics:
