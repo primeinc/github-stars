@@ -11,6 +11,11 @@ import {
 	writeStderrLine,
 } from "../host-io/index.js";
 import {
+	assertNoPrivateLeak,
+	PRIVATE_SENTINEL_SLUG,
+	quarantinePrivate,
+} from "../privacy/index.js";
+import {
 	createLogger,
 	registerTelemetry,
 	shutdownTelemetry,
@@ -80,11 +85,36 @@ function main(): void {
 		exit(1);
 	}
 
+	// Privacy quarantine — defense in depth per #74. The fetch path
+	// drops `private:true` records before they reach the manifest; this
+	// is the downstream tripwire in case schema drift, hand-edits, or
+	// a future code path lets one slip through. github-stars deploys
+	// from a public repo so visibility is `public` here.
+	const quarantined = quarantinePrivate({
+		visibility: "public",
+		batch: result.manifest.repositories,
+	});
+	if (quarantined.omittedCount > 0) {
+		writeStderrLine(
+			`::warning::Privacy quarantine removed ${quarantined.omittedCount} private repo record(s) from the post-reconcile manifest. Names redacted from public log per session-oracle verdict rule 8.`,
+		);
+		setOutput(`private_repos_quarantined=${quarantined.omittedCount}`);
+	}
+	const sanitizedManifest = {
+		...result.manifest,
+		repositories: [...quarantined.kept],
+	};
+
 	if (result.stats.changed) {
-		writeManifest(MANIFEST_PATH, result.manifest);
+		writeManifest(MANIFEST_PATH, sanitizedManifest);
 		writeStderrLine(
 			`Wrote ${MANIFEST_PATH}: ${result.stats.total_new} new, ${result.stats.total_removed} removed, ${result.stats.total_updated} updated → ${result.stats.total_repos} total`,
 		);
+		// Sentinel tripwire — re-read what we just wrote and assert the
+		// known-private fixture slug is not present. If it is, the
+		// pipeline aborts before the workflow's commit step runs.
+		const written = readTextFileSync(MANIFEST_PATH);
+		assertNoPrivateLeak(written, [PRIVATE_SENTINEL_SLUG], MANIFEST_PATH);
 	} else {
 		writeStderrLine("No changes to write.");
 	}
