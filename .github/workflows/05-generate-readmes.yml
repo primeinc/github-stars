@@ -15,6 +15,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: generate-readmes-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -231,18 +235,56 @@ jobs:
             console.log('README generation complete.');
 
       - name: Commit changes
+        id: commit
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
+
           git add README.md categories/ tags/
-          
+
           if git diff --staged --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "docs: generate READMEs [skip ci]"
-            for i in 1 2 3 4 5; do
-              git pull --rebase --autostash origin main
-              git push && break || sleep 10
-            done
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+
+          git commit -m "docs: generate READMEs [skip ci]"
+          pushed=false
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push; then
+              pushed=true
+              break
+            fi
+            echo "Push attempt $attempt failed; retrying in 10s..."
+            sleep 10
+          done
+          if [ "$pushed" != "true" ]; then
+            echo "::error::Failed to push generated READMEs after 5 attempts."
+            exit 1
+          fi
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+          echo "commit_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: README summary
+        if: always()
+        env:
+          COMMIT_PUSHED: ${{ steps.commit.outputs.pushed }}
+          COMMIT_SHA: ${{ steps.commit.outputs.commit_sha }}
+        run: |
+          set -euo pipefail
+          {
+            echo "# 05 — Generate READMEs"
+            echo ""
+            echo "- Workflow: \`${{ github.workflow }}\`"
+            echo "- Run ID: \`${{ github.run_id }}\`"
+            echo "- Trigger: \`${{ github.event_name }}\`"
+            echo "- Commit: \`${{ github.sha }}\`"
+            echo ""
+            echo "## Outputs"
+            echo "- README.md: $([ -f README.md ] && echo present || echo MISSING)"
+            if [ -d categories ]; then echo "- categories/*.md: \`$(ls categories | grep -c '\.md$' || echo 0)\`"; fi
+            if [ -d tags ]; then echo "- tags/*.md: \`$(ls tags | grep -c '\.md$' || echo 0)\`"; fi
+            echo "- Pushed: \`${COMMIT_PUSHED:-false}\`"
+            echo "- README commit: \`${COMMIT_SHA:-n/a}\`"
+          } >> "$GITHUB_STEP_SUMMARY"

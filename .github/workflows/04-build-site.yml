@@ -74,6 +74,45 @@ jobs:
         with:
           path: docs/
 
+      - name: Build summary
+        if: always()
+        env:
+          ARTIFACT_ID: ${{ steps.upload.outputs.artifact_id }}
+        run: |
+          set -euo pipefail
+          {
+            echo "# 04 — Build site"
+            echo ""
+            echo "- Workflow: \`${{ github.workflow }}\`"
+            echo "- Run ID: \`${{ github.run_id }}\`"
+            echo "- Trigger: \`${{ github.event_name }}\`"
+            echo "- Commit: \`${{ github.sha }}\`"
+            echo ""
+            echo "## Inputs"
+            if [ -f repos.yml ]; then
+              echo "- \`repos.yml\` size: \`$(wc -c < repos.yml | tr -d ' ') bytes\`"
+            fi
+            if [ -f web/public/data.json ]; then
+              echo "- \`web/public/data.json\` size: \`$(wc -c < web/public/data.json | tr -d ' ') bytes\`"
+            fi
+            echo ""
+            echo "## Gates"
+            echo "- \`npm ci\` (web)"
+            echo "- \`npm run lint\` (web)"
+            echo "- \`npm run build\` (web → \`docs/\`)"
+            echo ""
+            echo "## Outputs"
+            if [ -d docs ]; then
+              echo "- \`docs/\` files: \`$(find docs -type f | wc -l | tr -d ' ')\`"
+              echo "- \`docs/index.html\`: $([ -f docs/index.html ] && echo present || echo MISSING)"
+              echo "- \`docs/data.json\`: $([ -f docs/data.json ] && echo present || echo MISSING)"
+            fi
+            echo "- Pages artifact id: \`${ARTIFACT_ID:-n/a}\`"
+            echo ""
+            echo "## Next stage"
+            echo "- \`deploy\` job (GitHub Pages) — only on \`refs/heads/main\`."
+          } >> "$GITHUB_STEP_SUMMARY"
+
   deploy:
     runs-on: ubuntu-latest
     needs: build
