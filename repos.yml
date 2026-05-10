@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-10T07:37:58.257Z'
+  manifest_updated_at: '2026-05-10T07:38:32.469Z'
   total_repos: 2612
   generator_version: v1.0.0
   github_user: primeinc
@@ -94,13 +94,17 @@ taxonomy:
 repositories:
   - repo: vercel/chat
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - ai-ml
+    tags:
+      - chatbots
+      - sdk
+      - lang:ts
     summary: A unified Type Script SDK for building chat bots across Slack, Microsoft Teams, Google Chat, Discord, and more.
     last_synced_sha: d2ec28c447447e160bbf2b7a762e70f32d28c3bd
     user_starred_at: '2026-05-10T01:24:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -125,15 +129,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.373Z'
+      prompt_version: v3
   - repo: rdmgator12/awesome-claude-connectors
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - connectors
+      - awesome-list
     summary: A comprehensive directory of every connector in Anthropic's official Claude Connectors Directory — 343 verified MCP integrations, organized by category with descriptions and use cases.
     last_synced_sha: b2f01586094dba0b570d39f61b0b259dda0a19f3
     user_starred_at: '2026-05-10T01:16:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -157,15 +168,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.373Z'
+      prompt_version: v3
   - repo: docs/custom-agents-template
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+    tags:
+      - template
+      - custom-agents
     summary: A template repository for enterprise and organization-level Copilot custom agents.
     last_synced_sha: fd8abd039c60a8d92db603d41c3d9edcb9f07da0
     user_starred_at: '2026-05-09T21:27:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -183,15 +201,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.373Z'
+      prompt_version: v3
   - repo: fit-process-mining/ProMoAI
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - process-mining
+      - natural-language-processing
+      - lang:python
     summary: An AI-powered process mining suite that converts natural language to process models and uses autonomous agents to analyze event logs and generate actionable process insights.
     last_synced_sha: 678a3b0272fca90afd17b8b2a3f0601853d15a50
     user_starred_at: '2026-05-07T07:29:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -216,15 +242,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.373Z'
+      prompt_version: v3
   - repo: zorazrw/workflow-induction-toolkit
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - workflows
+      - activity-analysis
+      - lang:python
     summary: A toolkit to induce interpretable workflows from raw computer-use activities.
     last_synced_sha: bf43da63b6a66de358ebf6c3e279cb21b60aa59b
     user_starred_at: '2026-05-07T07:23:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -242,15 +276,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.373Z'
+      prompt_version: v3
   - repo: sindresorhus/is
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - dev-tools
+    tags:
+      - type-checking
+      - type-detection
+      - lang:ts
     summary: Type check values
     last_synced_sha: 48df5c429ced9b65fc788aa17ab8b9004d46a772
     user_starred_at: '2026-05-07T04:42:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -275,15 +317,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.372Z'
+      prompt_version: v3
   - repo: githubnext/agentics
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - github
+      - workflows
+      - lang:makefile
     summary: A sample pack of Git Hub Agentic Workflows!
     last_synced_sha: c7d030cd6d4607b90d9ac3ffc8b24aff4f251632
     user_starred_at: '2026-05-06T00:17:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Makefile
       topics: []
@@ -301,15 +351,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.372Z'
+      prompt_version: v3
   - repo: metafab/otel-gui
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - ui-libraries
+    tags:
+      - opentelemetry
+      - trace-viewer
+      - lang:ts
     summary: A lightweight, local Open Telemetry trace viewer
     last_synced_sha: 039ece84a3ab9052b7e44594a454a068f401ad5d
     user_starred_at: '2026-05-05T17:10:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -327,15 +385,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.372Z'
+      prompt_version: v3
   - repo: tbrockman/browser-extension-for-opentelemetry
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - productivity
+    tags:
+      - opentelemetry
+      - browser-instrumentation
+      - lang:ts
     summary: An extension for instrumenting your browsing using Open Telemetry
     last_synced_sha: 13d28ecdc0ccf39ad9c0a29d1999082c0bda42cc
     user_starred_at: '2026-05-05T17:09:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -353,15 +419,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.372Z'
+      prompt_version: v3
   - repo: kareldewinter/tdd-azd-monitor
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - cloud
+    tags:
+      - azure
+      - metrics
+      - lang:bicep
     summary: Trainer-Demo-Deploy scenario for Azure Monitor including system metrics, custom logs, and external telemetry
     last_synced_sha: fb23228fd9d1b39274ddf8b688ca678fb51a0427
     user_starred_at: '2026-05-04T16:52:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Bicep
       topics: []
@@ -379,15 +453,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.372Z'
+      prompt_version: v3
   - repo: alexmarqs/zod-config
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - config
+      - type-safety
+      - lang:ts
     summary: Load configuration variables from multiple sources with flexible adapters, ensuring type safety with Zod.
     last_synced_sha: 3acc73b73a99d89e78cef9d1c9f55df56a079ea0
     user_starred_at: '2026-05-03T17:18:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -419,15 +501,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.372Z'
+      prompt_version: v3
   - repo: colinhacks/zod
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - schema-validation
+      - type-inference
+      - lang:ts
     summary: Type Script-first schema validation with static type inference
     last_synced_sha: b6071fc0ad2be94850ed57e07e418a6f902a9771
     user_starred_at: '2026-05-03T17:10:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -450,15 +540,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.372Z'
+      prompt_version: v3
   - repo: sverweij/dependency-cruiser
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - documentation
+    tags:
+      - dependency-analysis
+      - static-analysis
+      - lang:js
     summary: Validate and visualize dependencies. Your rules. Java Script, Type Script, Coffee Script. ES6, Common JS, AMD.
     last_synced_sha: 0cea5fb9ac6e8352e55d6315f3f8569363138026
     user_starred_at: '2026-05-03T12:11:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -488,6 +586,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.372Z'
+      prompt_version: v3
   - repo: omachala/heroshot
     categories:
       - automation
@@ -8620,13 +8722,17 @@ repositories:
     framework: null
   - repo: zumwald/better-vsts-npm-auth
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+    tags:
+      - npm
+      - oauth
+      - lang:ts
     summary: Platform agnostic library and acompanying oauth service enabling developers to easily obtain and use tokens for authorizing NPM feeds in VSTS
     last_synced_sha: 7a1dffc8c1cb20eb756e3d8bc33da011748d6ca0
     user_starred_at: '2026-03-17T23:13:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -8644,15 +8750,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.372Z'
+      prompt_version: v3
   - repo: changesets/ghcommit
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - automation
+    tags:
+      - github
+      - file-management
+      - lang:ts
     summary: Type Script library for directly changing files on Git Hub
     last_synced_sha: 1723769e9c979d2ca750c8d239414ac560c61e30
     user_starred_at: '2026-03-17T04:46:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -8670,6 +8784,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:38:31.372Z'
+      prompt_version: v3
   - repo: docker/docker-credential-helpers
     categories:
       - security
