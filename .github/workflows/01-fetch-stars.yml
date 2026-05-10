@@ -39,11 +39,34 @@ jobs:
             const STARS_QUERY = fs.readFileSync(queryPath, 'utf8');
             
             // Configuration
-            const MAX_RETRIES = 3;
+            // Bumped from 3 → 6 with a 60s backoff cap + jitter after run 25591400125
+            // failed 3 consecutive 502 Bad Gateway retries (2s/4s/8s) on api.github.com/graphql.
+            const MAX_RETRIES = 6;
+            const MAX_BACKOFF_SECONDS = 60;
             const OUTPUT_FILE = '.github-stars/data/fetched-stars-graphql.json';
-            const MAX_ERROR_MSG_LENGTH = 50;
+            const MAX_ERROR_MSG_LENGTH = 200;
             
             const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+            
+            // Decide whether an error is a transient/retryable upstream failure.
+            const isRetryable = (error) => (
+              (typeof error.status === 'number' && error.status >= 500 && error.status < 600) ||
+              error.status === 408 ||
+              error.status === 429 ||
+              error.message?.includes('Bad Gateway') ||
+              error.message?.includes('Service Unavailable') ||
+              error.message?.includes('Gateway Timeout') ||
+              error.message?.includes('ECONNRESET') ||
+              error.message?.includes('ETIMEDOUT') ||
+              error.message?.includes('socket hang up') ||
+              error.message?.includes('FetchError')
+            );
+            
+            // Exponential backoff with full jitter, capped at MAX_BACKOFF_SECONDS.
+            const backoffMs = (attempt) => {
+              const expSec = Math.min(MAX_BACKOFF_SECONDS, Math.pow(2, attempt));
+              return Math.floor((0.5 + Math.random() * 0.5) * expSec * 1000);
+            };
             
             const BAD_CREDENTIALS_MSG =
               'Authentication failed: Bad credentials. ' +
@@ -51,15 +74,25 @@ jobs:
               'Please generate a new Personal Access Token with "read:user" scope ' +
               'and update the STARS_TOKEN repository secret.';
             
-            // Validate token before starting fetch
-            try {
-              await github.graphql('{ viewer { login } }');
-            } catch (authError) {
-              if (authError.message?.includes('Bad credentials')) {
-                core.setFailed(BAD_CREDENTIALS_MSG);
-                return;
+            // Validate token before starting fetch (with retry on transient 5xx so
+            // a flaky api.github.com edge does not fail the whole workflow at step 1).
+            for (let authAttempt = 1; ; authAttempt++) {
+              try {
+                await github.graphql('{ viewer { login } }');
+                break;
+              } catch (authError) {
+                if (authError.message?.includes('Bad credentials')) {
+                  core.setFailed(BAD_CREDENTIALS_MSG);
+                  return;
+                }
+                if (authAttempt <= MAX_RETRIES && isRetryable(authError)) {
+                  const wait = backoffMs(authAttempt);
+                  core.warning(`Auth probe transient error (${authError.status || 'n/a'}): retrying in ${wait}ms (attempt ${authAttempt}/${MAX_RETRIES})...`);
+                  await sleep(wait);
+                  continue;
+                }
+                throw authError;
               }
-              throw authError;
             }
             
             let hasNextPage = true;
@@ -128,18 +161,10 @@ jobs:
                   break;
                 }
                 
-                // Retry on HTTP errors (502, 503, 504) and other transient errors
-                const isRetryableError = 
-                  (typeof error.status === 'number' && error.status >= 500 && error.status < 600) || // HTTP 5xx errors
-                  error.message?.includes('Bad Gateway') ||
-                  error.message?.includes('Service Unavailable') ||
-                  error.message?.includes('Gateway Timeout') ||
-                  error.message?.includes('ECONNRESET') ||
-                  error.message?.includes('ETIMEDOUT');
-                
-                if (retryCount < MAX_RETRIES && isRetryableError) {
+                // Retry on HTTP errors (5xx, 408, 429) and other transient errors
+                if (retryCount < MAX_RETRIES && isRetryable(error)) {
                   retryCount++;
-                  const waitTime = Math.pow(2, retryCount);
+                  const waitMs = backoffMs(retryCount);
                   // Format error message for logging
                   let errorMsg = 'unknown';
                   if (error.status) {
@@ -147,8 +172,8 @@ jobs:
                   } else if (typeof error.message === 'string') {
                     errorMsg = error.message.substring(0, MAX_ERROR_MSG_LENGTH);
                   }
-                  core.warning(`Transient error (${errorMsg}): Retrying in ${waitTime}s (retry ${retryCount}/${MAX_RETRIES})...`);
-                  await sleep(waitTime * 1000);
+                  core.warning(`Transient error (${errorMsg}): Retrying in ${waitMs}ms (retry ${retryCount}/${MAX_RETRIES})...`);
+                  await sleep(waitMs);
                   pageCount--;
                   continue;
                 }

@@ -6,24 +6,39 @@ This file contains instructions for AI agents (and human contributors) working o
 This is a **GitHub Actions-based automation system** for curating starred repositories.
 - **Core Logic**: Embedded in `.github/workflows/*.yml` (JavaScript via `actions/github-script`).
 - **Database**: `repos.yml` (YAML manifest), validated against `schemas/repos-schema.json`.
-- **No Local Build**: There is no `npm build` or `npm test`. Logic is executed via GitHub Actions.
+- **Local Build**: A small TypeScript toolchain in `src/` is used in CI (`00-ci.yml`) and is runnable locally via `pnpm test`, `pnpm validate`, and `pnpm repro:taxonomy`.
 
 ## 2. Build, Test, and Validation
-Since this is an Actions-first repo, "testing" implies validating schemas or running scripts conceptually.
+Two layers of validation exist: local TypeScript tests (`vitest`) and Actions-side schema validation.
+
+### Local toolchain (Node / pnpm)
+- Install: `pnpm install` (lockfile is `pnpm-lock.yaml`).
+- Unit tests: `pnpm test` (vitest, `vitest.config.ts`).
+- Manifest validator: `pnpm validate` (runs `src/cli-validate.ts` against `schemas/repos-schema.json`).
+- Taxonomy reproduction: `pnpm repro:taxonomy`.
+- These same three commands are what `.github/workflows/00-ci.yml` runs on every PR / push to `main`.
 
 ### Schema Validation
 The primary correctness check is JSON Schema validation for `repos.yml`.
 - **Schema**: `schemas/repos-schema.json`
-- **Validation Tool**: `cardinalby/schema-validator-action` (in CI) or local `ajv-cli` if installed.
+- **Validation Tool**: `cardinalby/schema-validator-action` (in CI workflows 02/04) or local `pnpm validate` / `ajv-cli` if installed.
 - **Test Command** (Manual):
   ```bash
-  # If you have ajv-cli installed
+  pnpm validate
+  # or, if you have ajv-cli installed
   ajv validate -s schemas/repos-schema.json -d repos.yml
   ```
 
 ### Running Workflows
-- Workflows are numbered: `01-fetch-stars`, `02-sync-stars`, `03-curate-stars`.
-- Trigger manually via GitHub Actions tab.
+Actual workflow files in `.github/workflows/` (numbered, run in order via `workflow_run` chaining):
+- `00-ci.yml` — PR/push CI: vitest, taxonomy repro, manifest validation.
+- `01-fetch-stars.yml` — daily cron + manual: pulls starred repos via GraphQL, writes `.github-stars/data/fetched-stars-graphql.json`, uploads artifact, commits.
+- `02-sync-stars.yml` — triggered on `01` success: reconciles `repos.yml` with fetched stars.
+- `03-classify-repos.yml` — triggered on `02` success: AI classification of new/needs-review repos.
+- `04-build-site.yml` — triggered on `03` success: builds the site under `web/` to `docs/` and deploys.
+- `05-generate-readmes.yml` — triggered on `03` success: regenerates per-category README files.
+
+Trigger any workflow manually via the GitHub Actions tab (`workflow_dispatch`).
 
 ## 3. Code Style Guidelines
 
