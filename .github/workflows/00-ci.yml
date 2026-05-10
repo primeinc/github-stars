@@ -51,6 +51,9 @@ jobs:
           ACTIONLINT_VERSION: '1.7.12'
         run: |
           set -euo pipefail
+          # The downloader requires the target dir to already exist
+          # ("Directory '...' does not exist" error otherwise).
+          mkdir -p "$RUNNER_TEMP/actionlint-bin"
           curl -fsSL "https://raw.githubusercontent.com/rhysd/actionlint/v${ACTIONLINT_VERSION}/scripts/download-actionlint.bash" \
             | bash -s -- "${ACTIONLINT_VERSION}" "$RUNNER_TEMP/actionlint-bin"
           echo "$RUNNER_TEMP/actionlint-bin" >> "$GITHUB_PATH"
