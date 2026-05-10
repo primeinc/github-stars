@@ -48,7 +48,10 @@ jobs:
           node-version: '22'
 
       - name: Install pnpm
-        run: npm install -g pnpm@latest
+        # Pinned to match 00-ci.yml. `pnpm@latest` (v11+) is stricter on
+        # ignored build scripts and exits 1 even when the script is allowed
+        # via onlyBuiltDependencies (esbuild has multiple versions in lock).
+        run: npm install -g pnpm@10.13.1
 
       - name: Install dependencies
         run: pnpm install
