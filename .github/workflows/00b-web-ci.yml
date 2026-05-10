@@ -32,12 +32,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: web/package-lock.json
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
       # yq (mikefarah) is preinstalled on ubuntu-latest. Regenerate
       # web/public/data.json from repos.yml on every run so a malformed
@@ -52,33 +48,37 @@ jobs:
 
       - name: Install dependencies
         working-directory: web
-        run: npm ci
+        run: bun install --frozen-lockfile
 
       - name: Lint
         id: lint
         working-directory: web
-        run: npm run lint
+        run: bun run lint
 
       - name: Build
         id: build
         working-directory: web
-        run: npm run build
+        run: bun run build
 
       - name: Verify build output
+        # TanStack Start emits dist/client/_shell.html as the SPA fallback;
+        # the deploy workflow renames it to index.html for the GH Pages
+        # publish step. The PR gate verifies the canonical artifact set
+        # before that rename.
         id: verify
         run: |
           set -euo pipefail
           missing=0
-          for f in docs/index.html docs/data.json; do
+          for f in web/dist/client/_shell.html web/dist/client/data.json; do
             if [ ! -f "$f" ]; then
               echo "::error::Build output missing: $f"
               missing=1
             fi
           done
           if [ "$missing" = "1" ]; then exit 1; fi
-          file_count=$(find docs -type f | wc -l | tr -d ' ')
+          file_count=$(find web/dist/client -type f | wc -l | tr -d ' ')
           echo "docs_files=$file_count" >> "$GITHUB_OUTPUT"
-          echo "docs/ contains $file_count files"
+          echo "web/dist/client/ contains $file_count files"
 
       - name: Web CI summary
         if: always()
@@ -98,9 +98,9 @@ jobs:
             echo "- Commit: \`${{ github.sha }}\`"
             echo ""
             echo "## Gates"
-            echo "- \`npm ci\` (web)"
-            echo "- \`npm run lint\` (web): \`${LINT_OUTCOME:-skipped}\`"
-            echo "- \`npm run build\` (web): \`${BUILD_OUTCOME:-skipped}\`"
+            echo "- \`bun install --frozen-lockfile\` (web)"
+            echo "- \`bun run lint\` (web): \`${LINT_OUTCOME:-skipped}\`"
+            echo "- \`bun run build\` (web): \`${BUILD_OUTCOME:-skipped}\`"
             echo "- Build output verification: \`${VERIFY_OUTCOME:-skipped}\`"
             echo ""
             echo "## Outputs"
