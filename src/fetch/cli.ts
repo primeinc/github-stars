@@ -2,20 +2,26 @@
 // fetch step. Replaces the prior actions/github-script JS blob.
 //
 // Reads env (no positional args):
-//   GH_TOKEN              token for star-fetch (required)
-//   RESUME_CURSOR         optional resume cursor (workflow_dispatch input)
-//   LIST_QUERY_PATH       default queries/stars-list-query.graphql
+//   GH_TOKEN               token for star-fetch (required)
+//   SELECTED_MODE          'github_app' | 'pat' | 'github_token' (required;
+//                          forwarded from setup-doctor.outputs.selected_mode)
+//   STAR_SOURCE_USER       required when SELECTED_MODE=github_app
+//                          (REST /users/{username}/starred takes a username;
+//                          installation tokens have no user context)
+//   RESUME_CURSOR          optional resume token (opaque format depends on mode)
+//   LIST_QUERY_PATH        default queries/stars-list-query.graphql
+//                          (only used in pat / github_token modes)
 //   METADATA_FRAGMENT_PATH default queries/stars-metadata-fragment.graphql
-//   OUTPUT_FILE           default .github-stars/data/fetched-stars-graphql.json
-//   METADATA_BATCH_SIZE   default 25
+//   OUTPUT_FILE            default .github-stars/data/fetched-stars-graphql.json
+//   METADATA_BATCH_SIZE    default 25
 //
 // Writes:
-//   OUTPUT_FILE  — JSON array of FetchedRepo
-//   $GITHUB_OUTPUT — total_repos, archived_count, fork_count,
-//                    no_description_count, output_file, output_bytes,
-//                    partial_failure_reason, resume_cursor, pages_fetched,
-//                    batches_fetched, blocked_orgs (csv)
-//   stderr  — info/warning lines for the runner log
+//   OUTPUT_FILE     — JSON array of FetchedRepo
+//   $GITHUB_OUTPUT  — total_repos, archived_count, fork_count,
+//                     no_description_count, output_file, output_bytes,
+//                     partial_failure_reason, resume_cursor, pages_fetched,
+//                     batches_fetched, blocked_orgs_count
+//   stderr          — info/warning lines for the runner log
 
 import { existsSync, mkdirSync, readFileSync, statSync, writeFileSync, appendFileSync } from 'node:fs';
 import { dirname } from 'node:path';
@@ -42,19 +48,45 @@ async function main(): Promise<void> {
     process.exit(2);
   }
 
+  const selectedModeRaw = (process.env.SELECTED_MODE || '').trim();
+  if (!['github_app', 'pat', 'github_token'].includes(selectedModeRaw)) {
+    console.error(
+      `SELECTED_MODE must be one of: github_app, pat, github_token. ` +
+        `Got: '${selectedModeRaw}'. Forward from setup-doctor.outputs.selected_mode.`
+    );
+    process.exit(2);
+  }
+  const selectedMode = selectedModeRaw as 'github_app' | 'pat' | 'github_token';
+
+  const starSourceUser = (process.env.STAR_SOURCE_USER || '').trim();
+  if (selectedMode === 'github_app' && !starSourceUser) {
+    console.error(
+      'STAR_SOURCE_USER env required when SELECTED_MODE=github_app ' +
+        '(REST /users/{username}/starred path needs a username; installation tokens have no user context).'
+    );
+    process.exit(2);
+  }
+
   const LIST_QUERY_PATH = envOrDefault('LIST_QUERY_PATH', 'queries/stars-list-query.graphql');
   const FRAGMENT_PATH = envOrDefault('METADATA_FRAGMENT_PATH', 'queries/stars-metadata-fragment.graphql');
   const OUTPUT_FILE = envOrDefault('OUTPUT_FILE', '.github-stars/data/fetched-stars-graphql.json');
   const BATCH_SIZE = parseInt(envOrDefault('METADATA_BATCH_SIZE', String(DEFAULT_METADATA_BATCH_SIZE)), 10);
   const resumeCursor = (process.env.RESUME_CURSOR || '').trim() || null;
 
-  for (const p of [LIST_QUERY_PATH, FRAGMENT_PATH]) {
-    if (!existsSync(p)) {
-      console.error(`Required query file not found: ${p}`);
+  // Stage 1 query is only needed in pat/github_token modes; github_app
+  // uses REST. Fragment is needed in ALL modes (stage 2 is GraphQL).
+  if (!existsSync(FRAGMENT_PATH)) {
+    console.error(`Required query file not found: ${FRAGMENT_PATH}`);
+    process.exit(2);
+  }
+  let listQuery = '';
+  if (selectedMode !== 'github_app') {
+    if (!existsSync(LIST_QUERY_PATH)) {
+      console.error(`Required query file not found: ${LIST_QUERY_PATH}`);
       process.exit(2);
     }
+    listQuery = readFileSync(LIST_QUERY_PATH, 'utf8');
   }
-  const listQuery = readFileSync(LIST_QUERY_PATH, 'utf8');
   const metadataFragment = readFileSync(FRAGMENT_PATH, 'utf8');
 
   const octokit = createOctokit({ token, retries: 5 });
@@ -64,6 +96,8 @@ async function main(): Promise<void> {
 
   const result = await fetchStars({
     octokit,
+    selectedMode,
+    starSourceUser,
     listQuery,
     metadataFragment,
     resumeCursor,

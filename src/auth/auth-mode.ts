@@ -43,17 +43,16 @@ export type AuthResolverInputs = {
   pat_fallback_to_github_token?: boolean;
 
   /**
-   * Whether the github_app credential class can actually serve the
-   * star_fetch role end-to-end. Default false until the REST-based
-   * /users/{user}/starred fetch path is wired up under App mode.
-   * When false, AUTO will skip github_app and pick the next mode whose
-   * credentials are present (pat -> github_token), even if App config
-   * is fully present. EXPLICIT `auth_mode: github_app` still selects
-   * the App and will hard-fail at fetch time per doctrine.
+   * Whether the github_app credential class can serve the star_fetch
+   * role end-to-end. The App-fetch path uses REST
+   * /users/{username}/starred which is `serverToServer: true` per
+   * first-party docs (refs/github/docs/.../activity.json L95321-95330).
+   * See src/fetch/list-paginator-rest.ts for the implementation
+   * + cited progAccess block.
    *
-   * Set explicitly via env GITHUB_APP_SUPPORTS_FETCH=true once the
-   * App-fetch path lands; defaults false to avoid breaking the daily
-   * cron with an installation-token-can't-read-viewer error.
+   * Defaults TRUE — the path is implemented and verified. Set
+   * GITHUB_APP_SUPPORTS_FETCH=false to force AUTO to skip github_app
+   * (e.g. while debugging an issue with the REST path).
    */
   github_app_supports_fetch?: boolean;
 };

@@ -40,7 +40,10 @@ function readEnv(): Parameters<typeof resolveAuthMode>[0] {
     );
   }
   const fb = (process.env.PAT_FALLBACK_TO_GITHUB_TOKEN || 'true').trim().toLowerCase();
-  const appFetch = (process.env.GITHUB_APP_SUPPORTS_FETCH || 'false').trim().toLowerCase();
+  // Default true: the App-fetch REST path (src/fetch/list-paginator-rest.ts)
+  // is implemented. Set GITHUB_APP_SUPPORTS_FETCH=false to force auto to
+  // skip github_app while debugging.
+  const appFetch = (process.env.GITHUB_APP_SUPPORTS_FETCH || 'true').trim().toLowerCase();
   return {
     requested_mode: requested,
     star_source_user: process.env.STAR_SOURCE_USER || '',
@@ -49,7 +52,7 @@ function readEnv(): Parameters<typeof resolveAuthMode>[0] {
     has_stars_token: nonEmpty(process.env.STARS_TOKEN),
     has_github_token: nonEmpty(process.env.GITHUB_TOKEN),
     pat_fallback_to_github_token: fb !== 'false' && fb !== '0' && fb !== 'no',
-    github_app_supports_fetch: appFetch === 'true' || appFetch === '1' || appFetch === 'yes',
+    github_app_supports_fetch: appFetch !== 'false' && appFetch !== '0' && appFetch !== 'no',
   };
 }
 

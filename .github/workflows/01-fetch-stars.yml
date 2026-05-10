@@ -121,15 +121,17 @@ jobs:
           # If the resolver said github_app and the App step somehow didn't
           # mint, this resolves to empty and the CLI exits with a clear error.
           GH_TOKEN: ${{ (steps.doctor.outputs.selected_mode == 'github_app' && steps.app-token.outputs.token) || (steps.doctor.outputs.selected_mode == 'pat' && secrets.STARS_TOKEN) || (steps.doctor.outputs.selected_mode == 'github_token' && secrets.GITHUB_TOKEN) || '' }}
-          # Workflow_dispatch input flag, mirrored from doctor output for
-          # the runtime fallback layer to read (when implemented end-to-end).
+          # CLI branches on SELECTED_MODE: github_app uses REST
+          # /users/{STAR_SOURCE_USER}/starred (installation tokens have no
+          # user context); pat / github_token use GraphQL viewer.starredRepositories.
+          # See src/fetch/list-paginator-rest.ts header for citations.
+          SELECTED_MODE: ${{ steps.doctor.outputs.selected_mode }}
+          STAR_SOURCE_USER: ${{ steps.doctor.outputs.star_source_user }}
+          # Mirrored from doctor for the runtime fallback layer.
           PAT_FALLBACK_TO_GITHUB_TOKEN: ${{ steps.doctor.outputs.pat_fallback_to_github_token }}
-          # Available so the runtime fallback layer can switch to it if pat
-          # fails. Empty string when not in pat mode (so the runtime layer
-          # treats it as "no fallback target available").
+          # Fallback target for runtime-state.ts; empty when not in pat mode.
           GITHUB_TOKEN_FALLBACK: ${{ steps.doctor.outputs.selected_mode == 'pat' && secrets.GITHUB_TOKEN || '' }}
           RESUME_CURSOR: ${{ inputs.resume_cursor }}
-          SELECTED_MODE: ${{ steps.doctor.outputs.selected_mode }}
         run: pnpm fetch:stars
 
       - name: Upload results
