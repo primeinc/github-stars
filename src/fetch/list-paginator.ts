@@ -6,6 +6,11 @@
 // a lot of data") — we intentionally fetch only nameWithOwner +
 // isPrivate + starredAt at first:100. Local repro: <3.5s/page.
 
+import type {
+	PageInfo,
+	Repository,
+	StarredRepositoryEdge,
+} from "@octokit/graphql-schema";
 import type { OctokitClient } from "./octokit-client.js";
 import {
 	classifyPartial,
@@ -20,14 +25,22 @@ import type { StarListEntry } from "./types.js";
  * GraphQL list query. Carries just enough to feed stage 2 — the
  * full per-repo metadata is fetched in batched per-repo queries.
  *
+ * Field types are derived as `Pick<>` projections from the canonical
+ * {@link https://github.com/octokit/graphql-schema | @octokit/graphql-schema}
+ * types so a schema rename (e.g. `nameWithOwner` → `nameWithOwnerPath`)
+ * fails this file at compile time. The selection set in
+ * `queries/stars-list-query.graphql` and this projection must move in
+ * lockstep.
+ *
  * @public
  */
 export type ListPageResult = {
-	edges: Array<{
-		node: { nameWithOwner: string; isPrivate: boolean };
-		starredAt: string;
-	}>;
-	pageInfo: { hasNextPage: boolean; endCursor: string | null };
+	edges: Array<
+		Pick<StarredRepositoryEdge, "starredAt"> & {
+			node: Pick<Repository, "nameWithOwner" | "isPrivate">;
+		}
+	>;
+	pageInfo: Pick<PageInfo, "hasNextPage" | "endCursor">;
 	totalCount: number;
 };
 
@@ -155,7 +168,10 @@ export async function paginateStarList(
 				});
 			}
 		}
-		lastEndCursor = page.pageInfo.endCursor;
+		// `endCursor` is `Maybe<string>` on the canonical PageInfo
+		// (string | null | undefined). Coalesce to `string | null` so
+		// the local cursor type stays narrow.
+		lastEndCursor = page.pageInfo.endCursor ?? null;
 		hasNextPage = page.pageInfo.hasNextPage;
 		cursor = lastEndCursor;
 		if (pageCount % 5 === 0) {

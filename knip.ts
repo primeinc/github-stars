@@ -45,8 +45,6 @@ const config: KnipConfig = {
 	ignoreDependencies: [
 		"@octokit/app",
 		"@octokit/graphql",
-		"@octokit/graphql-schema",
-		"@octokit/openapi-types",
 		"@opentelemetry/exporter-logs-otlp-http",
 		"@opentelemetry/resources",
 		"@opentelemetry/sdk-logs",

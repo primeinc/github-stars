@@ -2,6 +2,7 @@
 // One request fetches N repos by aliasing r0..rN-1, all sharing one
 // fragment. Local repro: 25 repos / batch / ~3.4s.
 
+import type { Repository } from "@octokit/graphql-schema";
 import { BAD_CREDENTIALS_ERROR } from "./list-paginator.js";
 import type { OctokitClient } from "./octokit-client.js";
 import {
@@ -20,24 +21,44 @@ import type { FetchedRepo, StarListEntry } from "./types.js";
  */
 export const DEFAULT_METADATA_BATCH_SIZE = 25;
 
-type RepoNode = {
-	description: string | null;
+/**
+ * Scalar slice of {@link Repository} that the metadata batch query
+ * selects directly. The `Pick<>` over the canonical type ensures a
+ * schema rename of any of these fields (e.g. `stargazerCount` →
+ * `stargazersCount`) breaks compilation here, which is the
+ * no-handrolling guarantee.
+ */
+type RepoScalarFields = Pick<
+	Repository,
+	| "description"
+	| "isArchived"
+	| "isFork"
+	| "isPrivate"
+	| "stargazerCount"
+	| "forkCount"
+	| "updatedAt"
+	| "pushedAt"
+	| "diskUsage"
+	| "url"
+	| "homepageUrl"
+	| "isMirror"
+	| "mirrorUrl"
+>;
+
+/**
+ * Composite projection of one repo node returned by the stage-2
+ * `repository(owner, name)` selection. Scalar fields derive their
+ * types from {@link Repository} via {@link RepoScalarFields};
+ * nested fields are query-shape projections (the canonical
+ * `RepositoryTopicConnection`, `Release`, `Ref`, `Owner`,
+ * `License` are full schema types — much wider than what the
+ * query selects).
+ */
+type RepoNode = RepoScalarFields & {
 	primaryLanguage: { name: string } | null;
 	repositoryTopics: { nodes: Array<{ topic: { name: string } }> };
-	isArchived: boolean;
-	isFork: boolean;
-	isPrivate: boolean;
-	stargazerCount: number;
-	forkCount: number;
-	updatedAt: string;
-	pushedAt: string;
-	diskUsage: number | null;
 	owner: { avatarUrl: string };
-	url: string;
 	defaultBranchRef: { name: string; target: { oid: string } | null } | null;
-	homepageUrl: string | null;
-	isMirror: boolean;
-	mirrorUrl: string | null;
 	licenseInfo: { spdxId: string | null } | null;
 	latestRelease: { tagName: string; publishedAt: string } | null;
 };
@@ -206,6 +227,10 @@ function transformNode(
 ): FetchedRepo {
 	return {
 		repo: repoFullName,
+		// Canonical Repository scalars are `Maybe<...>` (string | null |
+		// undefined for nullables). Coalesce to the FetchedRepo contract
+		// (`X | null` or `""` for description) at this boundary so the
+		// rest of the pipeline sees the project's typed shape.
 		description: node.description ?? "",
 		language: node.primaryLanguage?.name ?? null,
 		topics: node.repositoryTopics.nodes.map((n) => n.topic.name),
@@ -214,17 +239,17 @@ function transformNode(
 		private: node.isPrivate,
 		stargazers_count: node.stargazerCount,
 		forks_count: node.forkCount,
-		updated_at: node.updatedAt,
-		pushed_at: node.pushedAt,
-		disk_usage: node.diskUsage,
+		updated_at: node.updatedAt ?? null,
+		pushed_at: node.pushedAt ?? null,
+		disk_usage: node.diskUsage ?? null,
 		owner_avatar: node.owner.avatarUrl,
 		html_url: node.url,
 		default_branch: node.defaultBranchRef?.name ?? "main",
 		last_commit_sha: node.defaultBranchRef?.target?.oid ?? null,
 		user_starred_at: starredAtByRepo.get(repoFullName) ?? null,
-		homepage_url: node.homepageUrl,
+		homepage_url: node.homepageUrl ?? null,
 		is_mirror: node.isMirror,
-		mirror_url: node.mirrorUrl,
+		mirror_url: node.mirrorUrl ?? null,
 		license: node.licenseInfo?.spdxId ?? null,
 		latest_release: node.latestRelease
 			? {

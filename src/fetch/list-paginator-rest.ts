@@ -30,6 +30,7 @@
 // `[ {repo fields directly} ]`. We need starred_at to populate
 // StarListEntry.user_starred_at — same field 02-sync's reconcile reads.
 
+import type { components } from "@octokit/openapi-types";
 import { BAD_CREDENTIALS_ERROR } from "./list-paginator.js";
 import type { OctokitClient } from "./octokit-client.js";
 import {
@@ -44,12 +45,14 @@ import type { StarListEntry } from "./types.js";
  * `application/vnd.github.star+json` Accept header is set — the wrapper
  * shape that splits out the star timestamp from the repo body.
  *
+ * Re-exported as the canonical type alias over
+ * `components["schemas"]["starred-repository"]` from
+ * {@link https://github.com/octokit/openapi-types.ts | @octokit/openapi-types}
+ * so the repo never carries a hand-rolled GitHub API shape.
+ *
  * @public
  */
-export type RestStarItem = {
-	starred_at: string;
-	repo: { full_name: string; private: boolean };
-};
+export type RestStarItem = components["schemas"]["starred-repository"];
 
 /**
  * Aggregate result of one full REST pagination run. Mirrors
@@ -145,7 +148,14 @@ export async function paginateStarListViaRest(
 				// the star was created."
 				headers: { accept: "application/vnd.github.star+json" },
 			});
-			items = res.data as unknown as RestStarItem[];
+			// The route returns
+			// `components["schemas"]["starred-repository"][] |
+			//  components["schemas"]["repository"][]` per the OpenAPI spec;
+			// the `application/vnd.github.star+json` Accept header pins the
+			// `starred-repository[]` branch (the wrapper shape carrying
+			// `starred_at`). Per-element narrowing in the loop below keeps
+			// the runtime guard honest.
+			items = res.data as RestStarItem[];
 		} catch (error: unknown) {
 			if (isBadCredentials(error)) {
 				partialFailureReason = `bad_credentials_at_page_${pageCount}`;
