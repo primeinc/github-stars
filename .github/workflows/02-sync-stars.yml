@@ -4,6 +4,24 @@ name: '02-Sync Starred Repos'
 on:
   workflow_dispatch:
     inputs:
+      auth_mode:
+        description: 'auto | github_app | pat | github_token'
+        required: false
+        default: 'auto'
+        type: choice
+        options:
+          - auto
+          - github_app
+          - pat
+          - github_token
+      pat_fallback_to_github_token:
+        description: 'When pat-mode is selected and PAT fails at runtime, fall back to GITHUB_TOKEN identity (loud, degraded). Set false to hard-fail instead.'
+        required: false
+        default: 'true'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
       removal_override:
         description: 'Set true to bypass the 5% destructive-deletion guard'
         required: false
@@ -20,9 +38,7 @@ permissions:
 
 concurrency:
   # All runs ultimately mutate `main` (Checkout + push below is hardcoded
-  # to `ref: main`), so use a constant group instead of `github.ref` so
-  # workflow_dispatch from a non-main ref still serializes against
-  # workflow_run-triggered sync runs.
+  # to `ref: main`), so use a constant group instead of `github.ref`.
   group: sync-stars-main
   cancel-in-progress: false
 
@@ -61,12 +77,21 @@ jobs:
           echo "::error::pnpm install failed after 3 attempts"
           exit 1
 
-      # Mint a GitHub App installation token when configured. Used for
-      # the commit/push at the end so we can stop relying on
-      # github-actions[bot] identity.
-      - name: Mint GitHub App token (when configured)
+      - name: Resolve auth mode (setup-doctor)
+        id: doctor
+        env:
+          AUTH_MODE_REQUEST: ${{ inputs.auth_mode || 'auto' }}
+          STAR_SOURCE_USER: ${{ vars.STAR_SOURCE_USER || 'primeinc' }}
+          GH_APP_CLIENT_ID: ${{ vars.GH_APP_CLIENT_ID }}
+          GH_APP_PRIVATE_KEY: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          STARS_TOKEN: ${{ secrets.STARS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT_FALLBACK_TO_GITHUB_TOKEN: ${{ inputs.pat_fallback_to_github_token || 'true' }}
+        run: pnpm auth:doctor
+
+      - name: Mint GitHub App token (selected_mode=github_app only)
         id: app-token
-        if: vars.GH_APP_CLIENT_ID != ''
+        if: steps.doctor.outputs.selected_mode == 'github_app'
         uses: actions/create-github-app-token@v3
         with:
           app-id: ${{ vars.GH_APP_CLIENT_ID }}
@@ -75,11 +100,6 @@ jobs:
           repositories: ${{ github.event.repository.name }}
 
       - name: Validate existing manifest (schema gate)
-        # cardinalby/schema-validator-action@v3 mode values are
-        # `default | lax | strong | spec` (per action.yml; uses schemasafe
-        # under the hood). There is NO `strict`. `default` enforces the
-        # schema's `additionalProperties: false`, required fields, types,
-        # enums, and patterns. See `.sisyphus/proofs/02M-mode-correction.md`.
         if: hashFiles('repos.yml') != ''
         uses: cardinalby/schema-validator-action@v3
         with:
@@ -127,9 +147,6 @@ jobs:
           TRIGGER_RUN_ID: ${{ github.event.workflow_run.id }}
         run: |
           set -euo pipefail
-          # In workflow_run mode the artifact is the canonical handoff. If
-          # the download did not succeed, fail hard instead of silently
-          # reconciling against potentially-stale committed data.
           if [ "$MODE" = "artifact" ] && [ "$DOWNLOAD_OUTCOME" != "success" ]; then
             {
               echo "::error::Artifact download failed for triggering run $TRIGGER_RUN_ID (artifact=$ARTIFACT_NAME, outcome=$DOWNLOAD_OUTCOME)."
@@ -177,10 +194,15 @@ jobs:
         if: steps.diff.outputs.changed == 'true'
         id: commit
         env:
-          # Prefer GitHub App token; fall back to GITHUB_TOKEN.
-          GIT_TOKEN: ${{ steps.app-token.outputs.token || secrets.GITHUB_TOKEN }}
+          # Per session-oracle verdict: commit token MUST equal selected_mode's
+          # credential. No `||` ad-hoc chain — that was the laundering.
+          GIT_TOKEN: ${{ (steps.doctor.outputs.selected_mode == 'github_app' && steps.app-token.outputs.token) || (steps.doctor.outputs.selected_mode == 'pat' && secrets.STARS_TOKEN) || (steps.doctor.outputs.selected_mode == 'github_token' && secrets.GITHUB_TOKEN) || '' }}
         run: |
           set -euo pipefail
+          if [ -z "${GIT_TOKEN}" ]; then
+            echo "::error::GIT_TOKEN empty after auth resolution. selected_mode=${{ steps.doctor.outputs.selected_mode }}. Inconsistency between resolver and credential availability — fail loud."
+            exit 1
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add repos.yml
@@ -210,6 +232,10 @@ jobs:
       - name: Sync summary
         if: always()
         env:
+          SELECTED_MODE: ${{ steps.doctor.outputs.selected_mode }}
+          STAR_FETCH_AUTH: ${{ steps.doctor.outputs.star_fetch_auth }}
+          REPO_WRITE_AUTH: ${{ steps.doctor.outputs.repo_write_auth }}
+          DEGRADED: ${{ steps.doctor.outputs.degraded }}
           INPUT_SOURCE: ${{ steps.input.outputs.source }}
           INPUT_BYTES: ${{ steps.input.outputs.input_bytes }}
           ARTIFACT_NAME: ${{ steps.source.outputs.artifact_name }}
@@ -223,7 +249,6 @@ jobs:
           TOTAL_REPOS: ${{ steps.diff.outputs.total_repos }}
           COMMIT_PUSHED: ${{ steps.commit.outputs.pushed }}
           COMMIT_SHA: ${{ steps.commit.outputs.commit_sha }}
-          APP_TOKEN_USED: ${{ steps.app-token.outputs.token != '' }}
         run: |
           {
             echo "# 02 — Sync"
@@ -233,7 +258,11 @@ jobs:
             echo "- Trigger: \`${{ github.event_name }}\`"
             echo "- Triggering run: \`${TRIGGER_RUN_ID:-n/a}\`"
             echo "- Commit: \`${{ github.sha }}\`"
-            echo "- GitHub App token used for commit: \`${APP_TOKEN_USED:-false}\`"
+            echo ""
+            echo "## Auth (strict single-credential mode)"
+            echo "- selected_mode: \`${SELECTED_MODE:-unresolved}\`${DEGRADED:+ (degraded=$DEGRADED)}"
+            echo "- star_fetch_auth: \`${STAR_FETCH_AUTH:-?}\` _(must equal selected_mode)_"
+            echo "- repo_write_auth: \`${REPO_WRITE_AUTH:-?}\` _(must equal selected_mode)_"
             echo ""
             echo "## Inputs"
             echo "- Source: \`${INPUT_SOURCE:-unresolved}\`"

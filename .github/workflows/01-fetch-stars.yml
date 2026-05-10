@@ -4,9 +4,23 @@ on:
   workflow_dispatch:
     inputs:
       auth_mode:
-        description: 'auto | github_app | pat | public | github_token | disabled'
+        description: 'auto | github_app | pat | github_token'
         required: false
         default: 'auto'
+        type: choice
+        options:
+          - auto
+          - github_app
+          - pat
+          - github_token
+      pat_fallback_to_github_token:
+        description: 'When pat-mode is selected and PAT fails at runtime, fall back to GITHUB_TOKEN identity (loud, degraded). Set false to hard-fail instead. Ignored for non-pat modes.'
+        required: false
+        default: 'true'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
       resume_cursor:
         description: 'GraphQL endCursor to resume from. Leave blank to start from page 1.'
         required: false
@@ -26,11 +40,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     outputs:
-      auth_mode: ${{ steps.doctor.outputs.auth_mode }}
+      selected_mode: ${{ steps.doctor.outputs.selected_mode }}
+      requested_mode: ${{ steps.doctor.outputs.requested_mode }}
       star_source_user: ${{ steps.doctor.outputs.star_source_user }}
+      # Per session-oracle verdict rule 7: star_fetch_auth and
+      # repo_write_auth ALWAYS equal selected_mode at config time.
+      # Workflow-lint validates this shape.
       star_fetch_auth: ${{ steps.doctor.outputs.star_fetch_auth }}
       repo_write_auth: ${{ steps.doctor.outputs.repo_write_auth }}
       degraded: ${{ steps.doctor.outputs.degraded }}
+      pat_fallback_to_github_token: ${{ steps.doctor.outputs.pat_fallback_to_github_token }}
       total_repos: ${{ steps.fetch.outputs.total_repos }}
       archived_count: ${{ steps.fetch.outputs.archived_count }}
       fork_count: ${{ steps.fetch.outputs.fork_count }}
@@ -41,7 +60,9 @@ jobs:
       resume_cursor: ${{ steps.fetch.outputs.resume_cursor }}
       pages_fetched: ${{ steps.fetch.outputs.pages_fetched }}
       batches_fetched: ${{ steps.fetch.outputs.batches_fetched }}
-      blocked_orgs: ${{ steps.fetch.outputs.blocked_orgs }}
+      # Per session-oracle verdict rule 8: COUNT only, no names. Org
+      # identifiers may be private/internal sources for the user.
+      blocked_orgs_count: ${{ steps.fetch.outputs.blocked_orgs_count }}
       artifact_name: fetched-stars-${{ github.run_id }}
 
     steps:
@@ -67,21 +88,6 @@ jobs:
           echo "::error::pnpm install failed after 3 attempts"
           exit 1
 
-      # Mint a GitHub App installation token when configured. The App
-      # cannot enumerate viewer.starredRepositories (installation tokens
-      # have no user context), so we mint it for repo-write operations
-      # only; star fetch still uses STARS_TOKEN or public mode per the
-      # auth resolver.
-      - name: Mint GitHub App token (when configured)
-        id: app-token
-        if: vars.GH_APP_CLIENT_ID != ''
-        uses: actions/create-github-app-token@v3
-        with:
-          app-id: ${{ vars.GH_APP_CLIENT_ID }}
-          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
-          owner: ${{ github.repository_owner }}
-          repositories: ${{ github.event.repository.name }}
-
       - name: Resolve auth mode (setup-doctor)
         id: doctor
         env:
@@ -91,14 +97,40 @@ jobs:
           GH_APP_PRIVATE_KEY: ${{ secrets.GH_APP_PRIVATE_KEY }}
           STARS_TOKEN: ${{ secrets.STARS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT_FALLBACK_TO_GITHUB_TOKEN: ${{ inputs.pat_fallback_to_github_token || 'true' }}
         run: pnpm auth:doctor
+
+      # Mint a GitHub App installation token ONLY when the resolver
+      # selected github_app mode. Keeps the credential boundary clean —
+      # no spare App token floating around when pat or github_token mode
+      # is in effect.
+      - name: Mint GitHub App token (selected_mode=github_app only)
+        id: app-token
+        if: steps.doctor.outputs.selected_mode == 'github_app'
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ vars.GH_APP_CLIENT_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
 
       - name: Fetch starred repositories
         id: fetch
         env:
-          # Star-fetch token: PAT preferred (App can't paginate user.starred);
-          # falls back to GITHUB_TOKEN identity (degraded — fetches the bot's stars).
-          GH_TOKEN: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
+          # GH_TOKEN MUST equal selected_mode's credential. No silent fallback.
+          # If the resolver said github_app and the App step somehow didn't
+          # mint, this resolves to empty and the CLI exits with a clear error.
+          GH_TOKEN: ${{ (steps.doctor.outputs.selected_mode == 'github_app' && steps.app-token.outputs.token) || (steps.doctor.outputs.selected_mode == 'pat' && secrets.STARS_TOKEN) || (steps.doctor.outputs.selected_mode == 'github_token' && secrets.GITHUB_TOKEN) || '' }}
+          # CLI branches on SELECTED_MODE: github_app uses REST
+          # /users/{STAR_SOURCE_USER}/starred (installation tokens have no
+          # user context); pat / github_token use GraphQL viewer.starredRepositories.
+          # See src/fetch/list-paginator-rest.ts header for citations.
+          SELECTED_MODE: ${{ steps.doctor.outputs.selected_mode }}
+          STAR_SOURCE_USER: ${{ steps.doctor.outputs.star_source_user }}
+          # Mirrored from doctor for the runtime fallback layer.
+          PAT_FALLBACK_TO_GITHUB_TOKEN: ${{ steps.doctor.outputs.pat_fallback_to_github_token }}
+          # Fallback target for runtime-state.ts; empty when not in pat mode.
+          GITHUB_TOKEN_FALLBACK: ${{ steps.doctor.outputs.selected_mode == 'pat' && secrets.GITHUB_TOKEN || '' }}
           RESUME_CURSOR: ${{ inputs.resume_cursor }}
         run: pnpm fetch:stars
 
@@ -118,11 +150,16 @@ jobs:
         if: success()
         id: commit
         env:
-          # Prefer GitHub App token for commits; fall back to STARS_TOKEN/GITHUB_TOKEN
-          # so existing setups continue to work while the App is being installed.
-          GIT_TOKEN: ${{ steps.app-token.outputs.token || secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
+          # Per session-oracle verdict: commit token MUST equal selected_mode's
+          # credential. No more "App if present, else PAT, else GITHUB_TOKEN"
+          # ad-hoc chain — that was the laundering.
+          GIT_TOKEN: ${{ (steps.doctor.outputs.selected_mode == 'github_app' && steps.app-token.outputs.token) || (steps.doctor.outputs.selected_mode == 'pat' && secrets.STARS_TOKEN) || (steps.doctor.outputs.selected_mode == 'github_token' && secrets.GITHUB_TOKEN) || '' }}
         run: |
           set -euo pipefail
+          if [ -z "${GIT_TOKEN}" ]; then
+            echo "::error::GIT_TOKEN empty after auth resolution. selected_mode=${{ steps.doctor.outputs.selected_mode }}. This indicates an inconsistency between resolver and credential availability — fail loud."
+            exit 1
+          fi
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
@@ -141,7 +178,6 @@ jobs:
           fi
 
           git commit -m "chore: update starred repositories [skip ci]"
-          # Use the resolved token for push so we can use the GitHub App token when present.
           remote_url="https://x-access-token:${GIT_TOKEN}@github.com/${{ github.repository }}.git"
           pushed=false
           for attempt in 1 2 3 4 5; do
@@ -163,11 +199,13 @@ jobs:
       - name: Fetch summary
         if: always()
         env:
-          AUTH_MODE: ${{ steps.doctor.outputs.auth_mode }}
+          SELECTED_MODE: ${{ steps.doctor.outputs.selected_mode }}
+          REQUESTED_MODE: ${{ steps.doctor.outputs.requested_mode }}
           STAR_SOURCE_USER: ${{ steps.doctor.outputs.star_source_user }}
           STAR_FETCH_AUTH: ${{ steps.doctor.outputs.star_fetch_auth }}
           REPO_WRITE_AUTH: ${{ steps.doctor.outputs.repo_write_auth }}
           DEGRADED: ${{ steps.doctor.outputs.degraded }}
+          PAT_FALLBACK: ${{ steps.doctor.outputs.pat_fallback_to_github_token }}
           TOTAL: ${{ steps.fetch.outputs.total_repos }}
           ARCHIVED: ${{ steps.fetch.outputs.archived_count }}
           FORKS: ${{ steps.fetch.outputs.fork_count }}
@@ -178,7 +216,7 @@ jobs:
           PAGES_FETCHED: ${{ steps.fetch.outputs.pages_fetched }}
           BATCHES_FETCHED: ${{ steps.fetch.outputs.batches_fetched }}
           RESUME_CURSOR: ${{ steps.fetch.outputs.resume_cursor }}
-          BLOCKED_ORGS: ${{ steps.fetch.outputs.blocked_orgs }}
+          BLOCKED_ORGS_COUNT: ${{ steps.fetch.outputs.blocked_orgs_count }}
           INPUT_RESUME_CURSOR: ${{ inputs.resume_cursor }}
           ARTIFACT_ID: ${{ steps.upload.outputs.artifact-id }}
           ARTIFACT_URL: ${{ steps.upload.outputs.artifact-url }}
@@ -194,11 +232,15 @@ jobs:
             echo "- Trigger: \`${{ github.event_name }}\`"
             echo "- Commit: \`${{ github.sha }}\`"
             echo ""
-            echo "## Auth"
-            echo "- auth_mode: \`${AUTH_MODE:-unresolved}\`${DEGRADED:+ (degraded=$DEGRADED)}"
+            echo "## Auth (strict single-credential mode)"
+            echo "- selected_mode: \`${SELECTED_MODE:-unresolved}\`${DEGRADED:+ (degraded=$DEGRADED)}"
+            echo "- requested_mode: \`${REQUESTED_MODE:-?}\`"
             echo "- star_source_user: \`${STAR_SOURCE_USER:-unset}\`"
-            echo "- star_fetch_auth: \`${STAR_FETCH_AUTH:-?}\`"
-            echo "- repo_write_auth: \`${REPO_WRITE_AUTH:-?}\`"
+            echo "- star_fetch_auth: \`${STAR_FETCH_AUTH:-?}\` _(must equal selected_mode; verdict rule 7)_"
+            echo "- repo_write_auth: \`${REPO_WRITE_AUTH:-?}\` _(must equal selected_mode; verdict rule 7)_"
+            if [ "${SELECTED_MODE:-}" = "pat" ]; then
+              echo "- pat_fallback_to_github_token: \`${PAT_FALLBACK:-true}\`"
+            fi
             if [ -n "${INPUT_RESUME_CURSOR:-}" ]; then
               echo "- Resumed from cursor: \`${INPUT_RESUME_CURSOR:0:24}…\`"
             fi
@@ -208,8 +250,9 @@ jobs:
             echo "- Archived: \`${ARCHIVED:-?}\`"
             echo "- Forks: \`${FORKS:-?}\`"
             echo "- No description: \`${NO_DESC:-?}\`"
-            if [ -n "${BLOCKED_ORGS:-}" ]; then
-              echo "- Skipped orgs (classic-PAT blocked): \`${BLOCKED_ORGS}\`"
+            if [ -n "${BLOCKED_ORGS_COUNT:-}" ] && [ "${BLOCKED_ORGS_COUNT}" != "0" ]; then
+              # Per session-oracle verdict rule 8: count only, names redacted.
+              echo "- Skipped orgs (classic-PAT blocked): \`${BLOCKED_ORGS_COUNT}\` _(names redacted from public log)_"
             fi
             echo ""
             echo "## Outputs"

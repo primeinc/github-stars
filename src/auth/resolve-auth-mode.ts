@@ -1,147 +1,139 @@
-// Pure resolver: env+inputs -> ResolvedAuth.
+// Strict 3-mode resolver. No credential mixing. Per session-oracle verdict.
 //
-// Priority for `auto`:
-//   1. github_app  if both client id + private key present
-//   2. pat         if STARS_TOKEN present
-//   3. public      if star_source_user present
-//   4. github_token always degraded; only when nothing else applies
-//   5. disabled    when nothing usable
+// Auto priority (presence of credentials only — no capability tests here;
+// runtime is where capability is proven):
+//   1. github_app  — both GH_APP_CLIENT_ID and GH_APP_PRIVATE_KEY present
+//   2. pat         — STARS_TOKEN present
+//   3. github_token — GITHUB_TOKEN present (always degraded; always loud)
 //
-// When the user explicitly requests a mode, only that mode is considered;
-// missing config -> disabled with explicit missing_config list (never silent fallback).
+// When the user explicitly requests a mode, only that mode is considered.
+// Missing config => `disabled`-ish reason via missing_config + a thrown
+// error from the workflow when auth_mode cannot be picked.
+//
+// Behavior on runtime failure (NOT decided here — decided by the runtime
+// fallback layer in runtime-state.ts):
+//   - github_app fails  -> hard fail. ALWAYS. No fallback. Ever.
+//   - pat fails         -> if pat_fallback_to_github_token (default true),
+//                          loud transition to effective_mode=github_token;
+//                          else hard fail.
+//   - github_token fails -> hard fail.
 
-import type { AuthResolverInputs, ResolvedAuth, RoleAuth } from './auth-mode.js';
+import { assertNoMixedAuth, type AuthMode, type AuthResolverInputs, type ResolvedAuth } from './auth-mode.js';
 
-const NO_AUTH: RoleAuth = { source: 'none' };
-
-export function resolveAuthMode(inputs: AuthResolverInputs): ResolvedAuth {
-  const star_source_user = (inputs.star_source_user || '').trim();
-  const requested = inputs.requested_mode || 'auto';
-
-  if (requested !== 'auto') {
-    return resolveExplicit(requested, inputs, star_source_user);
+export class AuthConfigError extends Error {
+  constructor(
+    message: string,
+    readonly missing_config: string[]
+  ) {
+    super(message);
+    this.name = 'AuthConfigError';
   }
-
-  if (inputs.has_gh_app_client_id && inputs.has_gh_app_private_key) {
-    return ok('github_app', star_source_user, inputs, false, 'preferred mode (GitHub App configured)');
-  }
-  if (inputs.has_stars_token) {
-    return ok('pat', star_source_user, inputs, true, 'STARS_TOKEN present, GitHub App not configured');
-  }
-  if (star_source_user) {
-    return ok('public', star_source_user, inputs, true, 'no PAT and no App; falling back to public source');
-  }
-  if (inputs.has_github_token) {
-    return ok('github_token', star_source_user, inputs, true,
-      'last-resort: GITHUB_TOKEN identity will be used; this fetches the bot account stars, not the configured user');
-  }
-  return disabled(inputs, 'no usable credentials and no STAR_SOURCE_USER configured');
 }
 
-function resolveExplicit(mode: ResolvedAuth['auth_mode'], inputs: AuthResolverInputs, user: string): ResolvedAuth {
+export function resolveAuthMode(inputs: AuthResolverInputs): ResolvedAuth {
+  const requested = inputs.requested_mode || 'auto';
+  // Default true: PAT-mode runs prefer to keep going under github_token
+  // if the PAT is broken (better degraded-but-running than not running).
+  // The user can set it false to make PAT failure a hard stop.
+  const pat_fallback = inputs.pat_fallback_to_github_token !== false;
+
+  if (requested !== 'auto') {
+    return resolveExplicit(requested, inputs, pat_fallback);
+  }
+
+  // Auto: highest-ranked mode whose REQUIRED credentials are present
+  // AND which can actually serve every role end-to-end.
+  //
+  // Special case for github_app: until the App-based star fetch path
+  // is wired up (see `github_app_supports_fetch` flag in auth-mode.ts),
+  // AUTO must skip github_app even when its credentials are present.
+  // Otherwise the daily cron hard-fails at fetch time because the App
+  // installation token cannot read viewer.starredRepositories. EXPLICIT
+  // `auth_mode: github_app` still selects the App and is allowed to
+  // hard-fail per doctrine — but auto will never pick a mode it knows
+  // cannot complete.
+  if (
+    inputs.has_gh_app_client_id &&
+    inputs.has_gh_app_private_key &&
+    inputs.github_app_supports_fetch === true
+  ) {
+    return build('github_app', inputs, pat_fallback,
+      'auto: GitHub App credentials present and github_app_supports_fetch=true');
+  }
+  if (inputs.has_stars_token) {
+    const reason =
+      inputs.has_gh_app_client_id && inputs.has_gh_app_private_key
+        ? 'auto: STARS_TOKEN present; GitHub App configured but github_app_supports_fetch=false (App-fetch path not yet implemented)'
+        : 'auto: STARS_TOKEN present, GitHub App not configured';
+    return build('pat', inputs, pat_fallback, reason);
+  }
+  if (inputs.has_github_token) {
+    return build('github_token', inputs, pat_fallback,
+      'auto: only GITHUB_TOKEN available — degraded mode');
+  }
+
+  // Nothing usable.
+  throw new AuthConfigError(
+    'No usable auth credentials. Need at least one of: ' +
+      'GH_APP_CLIENT_ID + GH_APP_PRIVATE_KEY, STARS_TOKEN, or GITHUB_TOKEN.',
+    ['GH_APP_CLIENT_ID|STARS_TOKEN|GITHUB_TOKEN']
+  );
+}
+
+function resolveExplicit(mode: AuthMode, inputs: AuthResolverInputs, pat_fallback: boolean): ResolvedAuth {
   switch (mode) {
     case 'github_app': {
       const missing: string[] = [];
       if (!inputs.has_gh_app_client_id) missing.push('GH_APP_CLIENT_ID');
       if (!inputs.has_gh_app_private_key) missing.push('GH_APP_PRIVATE_KEY');
-      if (missing.length) return disabled(inputs, `github_app explicitly requested but missing: ${missing.join(', ')}`, missing);
-      return ok('github_app', user, inputs, false, 'github_app explicitly requested');
+      if (missing.length) {
+        throw new AuthConfigError(
+          `Explicit github_app requested but missing: ${missing.join(', ')}`,
+          missing
+        );
+      }
+      return build('github_app', inputs, pat_fallback, 'explicit: github_app');
     }
     case 'pat': {
-      if (!inputs.has_stars_token) return disabled(inputs, 'pat explicitly requested but STARS_TOKEN missing', ['STARS_TOKEN']);
-      return ok('pat', user, inputs, false, 'pat explicitly requested');
-    }
-    case 'public': {
-      if (!user) return disabled(inputs, 'public explicitly requested but STAR_SOURCE_USER missing', ['STAR_SOURCE_USER']);
-      return ok('public', user, inputs, false, 'public explicitly requested');
+      if (!inputs.has_stars_token) {
+        throw new AuthConfigError(
+          'Explicit pat requested but STARS_TOKEN missing',
+          ['STARS_TOKEN']
+        );
+      }
+      return build('pat', inputs, pat_fallback, 'explicit: pat');
     }
     case 'github_token': {
-      if (!inputs.has_github_token) return disabled(inputs, 'github_token explicitly requested but no GITHUB_TOKEN available', ['GITHUB_TOKEN']);
-      return ok('github_token', user, inputs, true, 'github_token explicitly requested (degraded)');
+      if (!inputs.has_github_token) {
+        throw new AuthConfigError(
+          'Explicit github_token requested but GITHUB_TOKEN missing',
+          ['GITHUB_TOKEN']
+        );
+      }
+      return build('github_token', inputs, pat_fallback, 'explicit: github_token (degraded)');
     }
-    case 'disabled':
-      return disabled(inputs, 'auth explicitly disabled by request');
   }
 }
 
-function ok(
-  mode: Exclude<ResolvedAuth['auth_mode'], 'disabled'>,
-  user: string,
+function build(
+  selected: AuthMode,
   inputs: AuthResolverInputs,
-  degraded: boolean,
+  pat_fallback: boolean,
   reason: string
 ): ResolvedAuth {
-  const fetch_auth = fetchAuthFor(mode, inputs);
-  const write_auth = writeAuthFor(mode, inputs);
-  return {
-    auth_mode: mode,
-    star_source_user: user,
-    star_fetch_auth: fetch_auth,
-    repo_write_auth: write_auth,
-    degraded,
+  // CORE INVARIANT: every role is the selected_mode's credential class.
+  // No mixing is possible by construction. assertNoMixedAuth confirms.
+  const r: ResolvedAuth = {
+    requested_mode: inputs.requested_mode || 'auto',
+    selected_mode: selected,
+    star_fetch_auth: selected,
+    repo_write_auth: selected,
+    star_source_user: (inputs.star_source_user || '').trim(),
+    pat_fallback_to_github_token: selected === 'pat' ? pat_fallback : false,
+    degraded: selected === 'github_token',
     reason,
     missing_config: [],
-    capabilities: {
-      can_mint_app_token: mode === 'github_app' ? 'yes' : 'no',
-      // 'blocked' = required credential missing for the configured mode.
-      // 'no'      = mode does not provide this capability (e.g. github_token
-      //             cannot mint app tokens because that is structural).
-      can_fetch_star_page: fetch_auth.source === 'none' ? 'blocked' : 'yes',
-      can_checkout_target_repo: write_auth.source === 'none' ? 'blocked' : 'yes',
-    },
   };
-}
-
-function disabled(inputs: AuthResolverInputs, reason: string, missing_config: string[] = []): ResolvedAuth {
-  return {
-    auth_mode: 'disabled',
-    star_source_user: (inputs.star_source_user || '').trim(),
-    star_fetch_auth: NO_AUTH,
-    repo_write_auth: inputs.has_github_token ? { source: 'github_token' } : NO_AUTH,
-    degraded: true,
-    reason,
-    missing_config,
-    capabilities: {
-      can_mint_app_token: missing_config.length ? 'blocked' : 'no',
-      can_fetch_star_page: 'blocked',
-      can_checkout_target_repo: inputs.has_github_token ? 'yes' : 'blocked',
-    },
-  };
-}
-
-/**
- * Star fetch and repo write may use different sources.
- * github_app for repo write is preferred; star fetch under app mode
- * still needs a user-context token, so it falls through to PAT or public.
- */
-function fetchAuthFor(mode: Exclude<ResolvedAuth['auth_mode'], 'disabled'>, inputs: AuthResolverInputs): RoleAuth {
-  switch (mode) {
-    case 'github_app':
-      // App installation tokens cannot enumerate user.starredRepositories;
-      // need a user-context token. Prefer PAT; fall back to public if a user is set.
-      if (inputs.has_stars_token) return { source: 'pat' };
-      if (inputs.star_source_user) return { source: 'public' };
-      return NO_AUTH;
-    case 'pat':
-      return { source: 'pat' };
-    case 'public':
-      return { source: 'public' };
-    case 'github_token':
-      return { source: 'github_token' };
-  }
-}
-
-function writeAuthFor(mode: Exclude<ResolvedAuth['auth_mode'], 'disabled'>, inputs: AuthResolverInputs): RoleAuth {
-  switch (mode) {
-    case 'github_app':
-      return { source: 'github_app' };
-    case 'pat':
-      // PAT can write too; preferred over the workflow identity for commits.
-      return { source: 'pat' };
-    case 'public':
-      // Public-mode fetch still needs *something* to commit results back.
-      return inputs.has_github_token ? { source: 'github_token' } : NO_AUTH;
-    case 'github_token':
-      return { source: 'github_token' };
-  }
+  assertNoMixedAuth(r);
+  return r;
 }
