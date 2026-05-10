@@ -31,3 +31,15 @@ yq
 # Local one-shot reproduction sandboxes (never committed).
 .tmp-repro/
 .tmp-*.log
+
+# Agent / tooling local state — never committed.
+.claude/
+.serena/
+.sisyphus/
+
+# Generated outputs (TS incremental cache, paths.json projection,
+# coverage, reports, dependency-cruiser SVG, etc.).
+generated/
+coverage/
+reports/
+*.tsbuildinfo
