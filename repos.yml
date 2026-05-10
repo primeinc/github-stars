@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-10T07:22:54.405Z'
+  manifest_updated_at: '2026-05-10T07:23:31.901Z'
   total_repos: 2612
   generator_version: v1.0.0
   github_user: primeinc
@@ -44950,13 +44950,20 @@ repositories:
     framework: null
   - repo: next-safe-action/next-safe-action
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - security
+      - frameworks
+    tags:
+      - lang:ts
+      - nextjs
+      - react
+      - type-safe
+      - server-actions
     summary: Type safe and validated Server Actions in your Next.js project.
     last_synced_sha: b36802517332faa2aae43c3bf83b501550aaaa05
     user_starred_at: '2025-10-19T19:05:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -44988,7 +44995,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.715Z'
+      prompt_version: v3
   - repo: pmpetit/pglinter
     categories:
       - databases
@@ -49883,13 +49894,20 @@ repositories:
     framework: null
   - repo: midday-ai/packrun
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - deployment
+      - dev-tools
+    tags:
+      - lang:ts
+      - nextjs
+      - headless-ui
+      - tailwindcss
+      - monorepo
     summary: npm for agents and humans
     last_synced_sha: fe5a8c497bddbef22727b0852433a391725d2c3e
     user_starred_at: '2025-09-22T16:53:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -49911,7 +49929,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.715Z'
+      prompt_version: v3
   - repo: midday-ai/midday
     categories:
       - productivity
@@ -49998,13 +50020,17 @@ repositories:
     framework: null
   - repo: FR33THYFR33THY/Ultimate
     categories:
+      - system-admin
       - unclassified
-    tags: []
+    tags:
+      - lang:powershell
+      - configuration
+      - management
     summary: No description provided
     last_synced_sha: 003fe6e16609ce4de36ce3d67a544eb17f051561
     user_starred_at: '2025-09-22T16:06:51Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -50022,6 +50048,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.715Z'
+      prompt_version: v3
   - repo: mandiant/flare-vm
     categories:
       - security
@@ -50140,13 +50170,20 @@ repositories:
     framework: null
   - repo: Microsoft365DSC/Microsoft365DSC
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+      - cloud
+    tags:
+      - lang:powershell
+      - microsoft365
+      - devops
+      - configuration-as-code
+      - monitoring
     summary: Manages, configures, extracts and monitors Microsoft 365 tenant configurations
     last_synced_sha: c6028f627b443d0e26bec248fb29be3388767059
     user_starred_at: '2025-09-22T16:04:29Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -50182,6 +50219,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.715Z'
+      prompt_version: v3
   - repo: hak5/usbrubberducky-payloads
     categories:
       - security
@@ -51159,13 +51200,18 @@ repositories:
     framework: null
   - repo: manaflow-ai/manaflow
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - lang:ts
+      - open-source
+      - cloud
+      - codex
     summary: Open source Claude Code web/Codex Cloud/Devin/Ramp Inspect alternative
     last_synced_sha: 109b20fdaa6584b69fcf160ca5e38a7bee569cf1
     user_starred_at: '2025-09-22T15:37:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -51183,6 +51229,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.714Z'
+      prompt_version: v3
   - repo: beefproject/beef
     categories:
       - security
@@ -51862,13 +51912,20 @@ repositories:
     framework: null
   - repo: ItzCrazyKns/Vane
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - apis
+      - web-dev
+    tags:
+      - lang:ts
+      - search-engine
+      - ai-agents
+      - machine-learning
+      - answering-engine
     summary: Vane is an AI-powered answering engine.
     last_synced_sha: 7dc5d088f7262fbc5e39037f84940a8a2193c5fb
     user_starred_at: '2025-09-17T09:00:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -51900,6 +51957,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.714Z'
+      prompt_version: v3
   - repo: puckeditor/puck
     categories:
       - ui-libraries
@@ -53001,13 +53062,18 @@ repositories:
     framework: null
   - repo: abhisheknaiidu/awesome-github-profile-readme
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - awesome-list
+      - github-profile-readme
+      - portfolio
+      - github
     summary: 😎 A curated list of awesome Git Hub Profile which updates in real time
     last_synced_sha: 7cb2691619d0b8bb3017289c699f3a0d16dc9c70
     user_starred_at: '2025-09-13T07:48:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -53032,6 +53098,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.714Z'
+      prompt_version: v3
   - repo: DopplerHQ/awesome-interview-questions
     categories:
       - learning
@@ -53923,13 +53993,18 @@ repositories:
     framework: null
   - repo: ErsatzTV/legacy
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - lang:csharp
+      - media-library
+      - tv-stream
+      - custom-tv-channels
     summary: Open-source platform that transforms your personal media library into live, custom TV channels.
     last_synced_sha: 637e6be879d03649bedf9811ae5c3b13aac30b0d
     user_starred_at: '2025-09-11T04:30:56Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -53947,6 +54022,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.714Z'
+      prompt_version: v3
   - repo: reshaped-ui/reshaped
     categories:
       - ui-libraries
@@ -55687,13 +55766,18 @@ repositories:
     framework: null
   - repo: Memento-Teams/Memento
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - lang:python
+      - llm
+      - fine-tuning
+      - ai
     summary: 'Official Code of Memento: Fine-tuning LLM Agents without Fine-tuning LLMs'
     last_synced_sha: 42fbbcac63dd58ed6856c0761357345a58e4f032
     user_starred_at: '2025-08-26T13:42:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -55711,6 +55795,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.714Z'
+      prompt_version: v3
   - repo: vfarcic/dot-ai
     categories:
       - ai-ml
@@ -56712,13 +56800,20 @@ repositories:
     framework: null
   - repo: iii-hq/iii
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+      - apis
+    tags:
+      - lang:rust
+      - agents
+      - genai
+      - api
+      - observability
     summary: Effortlessly compose, extend, and observe every service in real-time for the first time ever.
     last_synced_sha: 73afaf334b822b62c9e3884bb3a99816287855bd
     user_starred_at: '2025-08-18T02:17:41Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -56748,6 +56843,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.714Z'
+      prompt_version: v3
   - repo: photoprism/photoprism
     categories:
       - ai-ml
@@ -57284,13 +57383,20 @@ repositories:
     framework: null
   - repo: calcom/cal.diy
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+      - deployment
+    tags:
+      - nextjs
+      - lang:ts
+      - scheduling
+      - infrastructure
+      - tailwindcss
     summary: Scheduling infrastructure for absolutely everyone.
     last_synced_sha: a4a01a0fa8253254e8c7ab848aeca2cf7ccb4f1f
     user_starred_at: '2025-08-16T08:24:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -57318,7 +57424,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.714Z'
+      prompt_version: v3
   - repo: CopilotKit/CopilotKit
     categories:
       - ui-libraries
@@ -61803,13 +61913,20 @@ repositories:
     framework: null
   - repo: f/prompts.chat
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+      - learning
+    tags:
+      - lang:html
+      - ai
+      - chatgpt-prompts
+      - awesome-list
+      - llm
     summary: f.k.a. Awesome Chat GPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
     last_synced_sha: 4b7c63206abe96a312de7a961637188250fb6699
     user_starred_at: '2025-07-13T16:12:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -61845,6 +61962,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.714Z'
+      prompt_version: v3
   - repo: PanseBossuSmecheru/notes-mcp
     categories:
       - productivity
@@ -63900,13 +64021,21 @@ repositories:
     framework: null
   - repo: realworld-apps/realworld
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - frameworks
+      - learning
+    tags:
+      - fullstack
+      - demo-app
+      - lang:ts
+      - react
+      - angular
+      - django
     summary: '"The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more'
     last_synced_sha: 450bbc5410c7c1b7feca0f238e002162468e2a6c
     user_starred_at: '2025-07-12T04:28:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -63924,6 +64053,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.714Z'
+      prompt_version: v3
   - repo: anishkny/playwright-test-coverage
     categories:
       - testing
@@ -65589,13 +65722,20 @@ repositories:
     framework: null
   - repo: googleapis/mcp-toolbox
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - ai-ml
+      - apis
+    tags:
+      - lang:go
+      - server
+      - ai
+      - database
+      - llm
     summary: MCP Toolbox for Databases is an open source MCP server for databases.
     last_synced_sha: 8d2d521a36d8b2225179846b922856ea1f9994d9
     user_starred_at: '2025-07-11T02:36:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -65633,6 +65773,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.714Z'
+      prompt_version: v3
   - repo: indragiek/Context
     categories:
       - desktop-dev
@@ -68395,13 +68539,19 @@ repositories:
     framework: null
   - repo: nilbuild/developer-roadmap
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - developer-roadmap
+      - lang:ts
+      - frontend-roadmap
+      - backend-roadmap
+      - computer-science
     summary: Interactive roadmaps, guides and other educational content to help developers grow in their careers.
     last_synced_sha: 65383d07a9b83d594ced1b44bcebcb680881d829
     user_starred_at: '2025-06-10T11:36:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -68437,6 +68587,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:23:30.714Z'
+      prompt_version: v3
   - repo: tensorzero/tensorzero
     categories:
       - ai-ml
