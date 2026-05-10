@@ -419,9 +419,11 @@ const config: Config[] = defineConfig(
 			"scripts/generate-readmes.js",
 		],
 	},
-	// Self-config block: ensures eslint.config.ts itself parses cleanly.
+	// Self-config block: ensures eslint.config.ts and other root TS
+	// configs parse cleanly under typescript-eslint without requiring
+	// projectService — these files are loaded via jiti, not tsc.
 	{
-		files: ["eslint.config.ts"],
+		files: ["eslint.config.ts", "knip.ts", "github-stars.paths.config.ts"],
 		languageOptions: {
 			parser: tseslint.parser,
 			parserOptions: { ecmaVersion: 2024, sourceType: "module" },

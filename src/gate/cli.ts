@@ -139,6 +139,14 @@ function main(): void {
 	}
 
 	stages.push(
+		runStage("knip (unused files / exports / deps)", () => bunRun("knip")),
+	);
+	if (!stages[stages.length - 1]?.ok) {
+		finish(stages);
+		return;
+	}
+
+	stages.push(
 		runStage("generated-artifacts registry", validateGeneratedRegistry),
 	);
 	if (!stages[stages.length - 1]?.ok) {
