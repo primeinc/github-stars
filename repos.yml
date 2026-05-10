@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-10T07:28:14.979Z'
+  manifest_updated_at: '2026-05-10T07:28:53.665Z'
   total_repos: 2612
   generator_version: v1.0.0
   github_user: primeinc
@@ -16145,13 +16145,17 @@ repositories:
     framework: null
   - repo: gbassaragh/Unifi-mcp
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - ai-ml
+    tags:
+      - network-management
+      - ai-integration
+      - lang:python
     summary: MCP server for Uni Fi Network and Protect API integration - AI-powered network management
     last_synced_sha: b1ca066a989c971c194fab0048e5fd67961c58df
     user_starred_at: '2026-02-08T15:06:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -16169,15 +16173,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.514Z'
+      prompt_version: v3
   - repo: homarr-labs/homarr
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - productivity
+      - automation
+    tags:
+      - dashboard
+      - drag-and-drop
+      - lang:ts
     summary: A modern and easy to use dashboard. 40+ integrations. 20K+ icons built in. Authentication out of the box. No YAML, drag and drop configuration.
     last_synced_sha: 3a8abe441567cfe1c07e530eb66a695b53733e76
     user_starred_at: '2026-02-08T15:03:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16201,15 +16214,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.514Z'
+      prompt_version: v3
   - repo: AgentAlphaAGI/Idea2Paper
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - idea-to-paper
+      - lang:python
     summary: Idea2Paper Offical Demo
     last_synced_sha: 64170d4d9ca9068b26bd561648ce5c576bf1a2fb
     user_starred_at: '2026-02-08T15:02:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -16227,15 +16247,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.514Z'
+      prompt_version: v3
   - repo: s1t5/mail-archiver
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+      - cloud
+    tags:
+      - email-backup
+      - mailbox-migration
+      - lang:csharp
     summary: Mail-Archiver is a web application for archiving, searching, and exporting emails from multiple accounts. Featuring folder sync, attachment support, mailbox migration and a dashboard.
     last_synced_sha: cff924c573ec6ff278f827d9c822cd3f1953f9d6
     user_starred_at: '2026-02-08T14:44:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -16260,15 +16289,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.514Z'
+      prompt_version: v3
   - repo: LogicLabs-OU/OpenArchiver
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+      - web-dev
+    tags:
+      - email-archiving
+      - legal-compliance
+      - lang:ts
     summary: An open-source platform for legally compliant email archiving.
     last_synced_sha: 0c42b30c9e30964ca1d10c831fafa43ac5564185
     user_starred_at: '2026-02-08T14:40:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -16286,15 +16324,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.514Z'
+      prompt_version: v3
   - repo: jsuto/piler
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - email-archiving
+      - lang:php
     summary: Email archiving application
     last_synced_sha: b6aab548fd67985da574883d482899c104558e1f
     user_starred_at: '2026-02-08T14:31:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PHP
       topics:
@@ -16314,15 +16359,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.514Z'
+      prompt_version: v3
   - repo: zabbix/zabbix
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - system-admin
+      - networking
+    tags:
+      - network-monitoring
+      - metrics
+      - lang:go-template
     summary: Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.
     last_synced_sha: dc5b648504c9d2fa104f97478269c4599ead1c39
     user_starred_at: '2026-02-08T14:01:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go Template
       topics:
@@ -16346,15 +16400,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.514Z'
+      prompt_version: v3
   - repo: HoppouAI/OctoBrowser
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - browser
+      - ai-project
+      - lang:js
     summary: Built for the Copilot SDK Weekend Contest as a fun project.
     last_synced_sha: f90ba6510e64d43e6a6bdbe51cd70b385b04ee2b
     user_starred_at: '2026-02-08T13:59:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -16372,15 +16434,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.514Z'
+      prompt_version: v3
   - repo: smestern/treepilot
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - ai-research
+      - family-tree
+      - lang:python
     summary: A hacky / vibecoded AI family tree researcher
     last_synced_sha: 745afac8699716704cbd19e076bef6343cc9f68a
     user_starred_at: '2026-02-08T13:58:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -16398,15 +16468,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.514Z'
+      prompt_version: v3
   - repo: SchwarziLukas/braindump-butler
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - ai-ml
+      - documentation
+    tags:
+      - markdown
+      - obsidian
+      - lang:python
     summary: Turns brain dumps and meeting notes into tidy Markdown notes for your Obsidian Vault.
     last_synced_sha: 8ab8d0910bfc22d01467ae9b50fdda402bc7ea4b
     user_starred_at: '2026-02-08T13:58:50Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -16424,15 +16503,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.514Z'
+      prompt_version: v3
   - repo: p-e-w/heretic
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - security
+    tags:
+      - llm
+      - transformer
+      - ai-automation
+      - lang:python
     summary: Fully automatic censorship removal for language models
     last_synced_sha: 8b5b85bec904aae764aa8d63170e814bd0222a6d
     user_starred_at: '2026-02-08T13:54:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -16453,15 +16541,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.514Z'
+      prompt_version: v3
   - repo: KeygraphHQ/shannon
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+      - apis
+    tags:
+      - pentesting
+      - security-audit
+      - lang:ts
     summary: Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities bef...
     last_synced_sha: ca86c839ccf6a9b82544c75f4e85be5b24d74ade
     user_starred_at: '2026-02-08T13:53:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16484,15 +16581,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.514Z'
+      prompt_version: v3
   - repo: bvaughn/react-resizable-panels
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+      - dev-tools
+    tags:
+      - resizable-panels
+      - layout
+      - react
+      - lang:ts
     summary: No description provided
     last_synced_sha: 85714d9811b7f984024a4c84a1dc81c7ad6ec9ab
     user_starred_at: '2026-02-08T13:51:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16514,16 +16621,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.514Z'
+      prompt_version: v3
   - repo: ExperienceLovelace/ha-floorplan
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ui-libraries
+      - productivity
+    tags:
+      - home-assistant
+      - floorplan
+      - lang:ts
     summary: Bring new life to Home Assistant. By mapping entities to a SVG-object, you're able to control devices, show states, calling services - and much more. Add custom styling on top, to visualize whateve...
     last_synced_sha: ccbf6a5afeffca6c185f3bf5dffaa2e8a53a5155
     user_starred_at: '2026-02-08T13:50:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16546,15 +16662,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.513Z'
+      prompt_version: v3
   - repo: mathuo/dockview
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+      - dev-tools
+    tags:
+      - dock-manager
+      - drag-and-drop
+      - lang:ts
     summary: Zero dependency docking layout manager supporting tabs, groups, grids and splitviews. Supports React, Vue, Angular, and vanilla Type Script.
     last_synced_sha: 073c119511495a446b2366ef7b35872821708e51
     user_starred_at: '2026-02-08T13:48:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -16592,6 +16717,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:28:52.513Z'
+      prompt_version: v3
   - repo: Safe3/openresty-manager
     categories:
       - system-admin
