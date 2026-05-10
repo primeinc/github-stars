@@ -2,6 +2,11 @@ name: '01-Fetch GitHub Stars'
 
 on:
   workflow_dispatch:
+    inputs:
+      resume_cursor:
+        description: 'GraphQL endCursor to resume from (paste from prior failed-run summary). Leave blank to start from page 1.'
+        required: false
+        default: ''
   schedule:
     - cron: '0 3 * * *'  # Daily at 3 AM UTC
 
@@ -24,6 +29,9 @@ jobs:
       token_source: ${{ steps.token.outputs.source }}
       output_file: ${{ steps.fetch-stars.outputs.output_file }}
       output_bytes: ${{ steps.fetch-stars.outputs.output_bytes }}
+      partial_failure_reason: ${{ steps.fetch-stars.outputs.partial_failure_reason }}
+      resume_cursor: ${{ steps.fetch-stars.outputs.resume_cursor }}
+      pages_fetched: ${{ steps.fetch-stars.outputs.pages_fetched }}
       artifact_name: fetched-stars-${{ github.run_id }}
 
     steps:
@@ -35,6 +43,7 @@ jobs:
         env:
           STARS_TOKEN_VALUE: ${{ secrets.STARS_TOKEN }}
         run: |
+          set -euo pipefail
           if [ -n "${STARS_TOKEN_VALUE:-}" ]; then
             echo "source=STARS_TOKEN" >> "$GITHUB_OUTPUT"
             echo "Using STARS_TOKEN (PAT)."
@@ -48,216 +57,127 @@ jobs:
         id: fetch-stars
         with:
           github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
+          # Enable @octokit/plugin-retry. Per actions/github-script action.yml
+          # L26-31, default is "0" (disabled). With 3 retries enabled the plugin
+          # auto-retries 5xx + the GraphQL "Something went wrong while executing
+          # your query" envelope (refs/octokit/plugin-retry.js wrap-request.ts
+          # L52-66) which is the documented timeout signature
+          # (refs/github/docs/.../rate-limits-and-query-limits-for-the-graphql-api.md
+          # L286-294). Honors Retry-After response headers automatically.
+          retries: 3
+          # Default retry-exempt is 400,401,403,404,422; we keep that and add
+          # nothing extra. 5xx + 408 + 429 are retried by default.
           script: |
             const fs = require('fs');
             const path = require('path');
-            
-            // Read the GraphQL query from file
+            // @octokit/plugin-paginate-graphql is bundled into github-script@v8's
+            // octokit instance via `octokit.graphql.paginate.iterator()`.
+            // First-party plugin source: refs/octokit/plugin-paginate-graphql.js
+            // Requires: cursor variable named $cursor, query has pageInfo
+            // { hasNextPage endCursor }. Both already true for our query.
+            //
+            // Why the iterator and not the merging .paginate(): merging keeps
+            // every edge in memory and prevents per-page incremental writes;
+            // we want to write each page as it arrives so a mid-run failure
+            // still gives us a recoverable cursor for the next dispatch.
+
             const queryPath = 'queries/stars-query.graphql';
             if (!fs.existsSync(queryPath)) {
               throw new Error(`GraphQL query file not found: ${queryPath}`);
             }
             const STARS_QUERY = fs.readFileSync(queryPath, 'utf8');
-            
-            // Configuration
-            // History:
-            //   3 → 6 retries / 60s cap added after run 25591400125 (3 retries
-            //   at 2s/4s/8s = 14s exhausted before 502 storm cleared).
-            //
-            //   6 → 10 retries / 120s cap added after runs 25619285899
-            //   (6 retries on page 2 storm) and 25619534107 (6 retries on
-            //   page 3 storm). Both correctly hard-failed under the new
-            //   partial-failure-as-failure rule, but the underlying
-            //   storms cleared within ~2-3min and we want page-level
-            //   self-healing.
-            //
-            //   Worst-case page wait at MAX_RETRIES=10 / MAX_BACKOFF=120:
-            //   ~1+2+4+8+16+32+60+120+120+120 ≈ 8 minutes per page.
-            //   For thousands of stars (~50 pages of 100), if one page
-            //   hits this worst-case, we still have headroom under the
-            //   30min job timeout. Multiple worst-case pages would
-            //   exceed timeout — that's correct: a sustained, repeated
-            //   storm is genuinely broken upstream and should fail.
-            const MAX_RETRIES = 10;
-            const MAX_BACKOFF_SECONDS = 120;
+
             const OUTPUT_FILE = '.github-stars/data/fetched-stars-graphql.json';
             const MAX_ERROR_MSG_LENGTH = 200;
-            
-            const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-            
-            // Decide whether an error is a transient/retryable upstream failure.
-            const isRetryable = (error) => (
-              (typeof error.status === 'number' && error.status >= 500 && error.status < 600) ||
-              error.status === 408 ||
-              error.status === 429 ||
-              error.message?.includes('Bad Gateway') ||
-              error.message?.includes('Service Unavailable') ||
-              error.message?.includes('Gateway Timeout') ||
-              error.message?.includes('ECONNRESET') ||
-              error.message?.includes('ETIMEDOUT') ||
-              error.message?.includes('socket hang up') ||
-              error.message?.includes('FetchError')
-            );
-            
-            // Exponential backoff with "equal jitter" (sleep range is
-            // [0.5, 1.0) * cappedExp), capped at MAX_BACKOFF_SECONDS. The
-            // 0.5 floor preserves a minimum backoff so tight retry loops
-            // can't hammer api.github.com during a 502 storm; the random
-            // upper half spreads concurrent runs to avoid synchronized
-            // retries (AWS architecture blog, "exponential backoff and
-            // jitter"). Not full jitter (which would be [0, 1) * cappedExp).
-            const backoffMs = (attempt) => {
-              const expSec = Math.min(MAX_BACKOFF_SECONDS, Math.pow(2, attempt));
-              return Math.floor((0.5 + Math.random() * 0.5) * expSec * 1000);
-            };
-            
+
+            // Resume support. workflow_dispatch input wins; otherwise start fresh.
+            // The cursor is GraphQL's opaque endCursor string from the prior page.
+            const resumeCursor = (process.env.RESUME_CURSOR || '').trim() || null;
+            if (resumeCursor) {
+              core.info(`Resuming from cursor: ${resumeCursor.substring(0, 40)}…`);
+            }
+
             const BAD_CREDENTIALS_MSG =
               'Authentication failed: Bad credentials. ' +
               'The STARS_TOKEN secret is expired or invalid. ' +
               'Please generate a new Personal Access Token with "read:user" scope ' +
               'and update the STARS_TOKEN repository secret.';
-            
-            // Validate token before starting fetch (with retry on transient 5xx so
-            // a flaky api.github.com edge does not fail the whole workflow at step 1).
-            for (let authAttempt = 1; ; authAttempt++) {
-              try {
-                await github.graphql('{ viewer { login } }');
-                break;
-              } catch (authError) {
-                if (authError.message?.includes('Bad credentials')) {
-                  core.setFailed(BAD_CREDENTIALS_MSG);
-                  return;
-                }
-                if (authAttempt <= MAX_RETRIES && isRetryable(authError)) {
-                  const wait = backoffMs(authAttempt);
-                  core.warning(`Auth probe transient error (${authError.status || 'n/a'}): retrying in ${wait}ms (attempt ${authAttempt}/${MAX_RETRIES})...`);
-                  await sleep(wait);
-                  continue;
-                }
-                throw authError;
+
+            // Auth probe — separate from pagination so a bad token fails fast
+            // with an actionable error. The retry plugin handles transient 5xx.
+            try {
+              await github.graphql('{ viewer { login } }');
+            } catch (authError) {
+              if (authError.message?.includes('Bad credentials')) {
+                core.setFailed(BAD_CREDENTIALS_MSG);
+                return;
               }
+              throw authError;
             }
-            
-            let hasNextPage = true;
-            let cursor = null;
-            let allRepos = [];
+
+            const transformEdge = (edge) => ({
+              repo: edge.node.nameWithOwner,
+              description: edge.node.description || '',
+              language: edge.node.primaryLanguage?.name || null,
+              topics: edge.node.repositoryTopics.nodes.map(n => n.topic.name),
+              archived: edge.node.isArchived,
+              fork: edge.node.isFork,
+              private: edge.node.isPrivate,
+              stargazers_count: edge.node.stargazerCount,
+              forks_count: edge.node.forkCount,
+              updated_at: edge.node.updatedAt,
+              pushed_at: edge.node.pushedAt,
+              disk_usage: edge.node.diskUsage,
+              owner_avatar: edge.node.owner.avatarUrl,
+              html_url: edge.node.url,
+              default_branch: edge.node.defaultBranchRef?.name || 'main',
+              last_commit_sha: edge.node.defaultBranchRef?.target?.oid || null,
+              user_starred_at: edge.starredAt,
+              homepage_url: edge.node.homepageUrl,
+              is_mirror: edge.node.isMirror,
+              mirror_url: edge.node.mirrorUrl,
+              license: edge.node.licenseInfo?.spdxId || null,
+              latest_release: edge.node.latestRelease ? {
+                tag: edge.node.latestRelease.tagName,
+                published_at: edge.node.latestRelease.publishedAt
+              } : null
+            });
+
+            const allRepos = [];
             let pageCount = 0;
-            let retryCount = 0;
-            // Captures the reason this fetch did NOT complete a full pagination
-            // walk. Set to a non-empty string by every "save partial and break"
-            // branch below. Read after the loop to decide between success and
-            // hard-fail. Without this gate, a 502 storm on page 2 of a
-            // thousands-of-stars account silently saves 100 partial results
-            // and reports success — downstream then reconciles repos.yml
-            // against a sliver of the real star set. See run 25619285899
-            // (saved 97 partial results after exhausting 6 retries on page 2)
-            // and `.sisyphus/proofs/02M-mode-correction.md`.
+            let lastEndCursor = resumeCursor;
             let partialFailureReason = '';
 
-            while (hasNextPage) {
-              pageCount++;
-              core.info(`Fetching page ${pageCount}...`);
+            const initialParams = resumeCursor ? { cursor: resumeCursor } : {};
+            const iterator = octokit.graphql.paginate.iterator(STARS_QUERY, initialParams);
 
-              try {
-                const result = await github.graphql(STARS_QUERY, cursor ? { cursor } : {});
-                const repos = result.viewer.starredRepositories;
-                retryCount = 0;
-
-                const pageRepos = repos.edges.map(edge => ({
-                  repo: edge.node.nameWithOwner,
-                  description: edge.node.description || '',
-                  language: edge.node.primaryLanguage?.name || null,
-                  topics: edge.node.repositoryTopics.nodes.map(n => n.topic.name),
-                  archived: edge.node.isArchived,
-                  fork: edge.node.isFork,
-                  private: edge.node.isPrivate,
-                  stargazers_count: edge.node.stargazerCount,
-                  forks_count: edge.node.forkCount,
-                  updated_at: edge.node.updatedAt,
-                  pushed_at: edge.node.pushedAt,
-                  disk_usage: edge.node.diskUsage,
-                  owner_avatar: edge.node.owner.avatarUrl,
-                  html_url: edge.node.url,
-                  default_branch: edge.node.defaultBranchRef?.name || 'main',
-                  last_commit_sha: edge.node.defaultBranchRef?.target?.oid || null,
-                  user_starred_at: edge.starredAt,
-                  homepage_url: edge.node.homepageUrl,
-                  is_mirror: edge.node.isMirror,
-                  mirror_url: edge.node.mirrorUrl,
-                  license: edge.node.licenseInfo?.spdxId || null,
-                  latest_release: edge.node.latestRelease ? {
-                    tag: edge.node.latestRelease.tagName,
-                    published_at: edge.node.latestRelease.publishedAt
-                  } : null
-                }));
-
-                const publicRepos = pageRepos.filter(r => !r.private);
-                allRepos = allRepos.concat(publicRepos);
-
-                hasNextPage = repos.pageInfo.hasNextPage;
-                cursor = repos.pageInfo.endCursor;
-
-                core.info(`  Found ${publicRepos.length} public repos (total: ${allRepos.length})`);
-
-                if (hasNextPage) await sleep(500);
-
-              } catch (error) {
-                // Fail fast on authentication errors - no retries
-                if (error.message?.includes('Bad credentials')) {
-                  core.setFailed(BAD_CREDENTIALS_MSG);
-                  return;
-                }
-
-                // Rate limit: keep partial JSON for forensic, but record the
-                // reason and let post-loop logic mark the run as failure.
-                if (error.message?.includes('rate limit')) {
-                  partialFailureReason = `rate_limit_at_page_${pageCount}_after_${allRepos.length}_repos`;
-                  core.warning(`Rate limit hit at page ${pageCount} after ${allRepos.length} repos. Will write partial JSON for debugging and fail the workflow.`);
-                  break;
-                }
-
-                // Retry on HTTP errors (5xx, 408, 429) and other transient errors
-                if (retryCount < MAX_RETRIES && isRetryable(error)) {
-                  retryCount++;
-                  const waitMs = backoffMs(retryCount);
-                  // Format error message for logging
-                  let errorMsg = 'unknown';
-                  if (error.status) {
-                    errorMsg = String(error.status);
-                  } else if (typeof error.message === 'string') {
-                    errorMsg = error.message.substring(0, MAX_ERROR_MSG_LENGTH);
-                  }
-                  core.warning(`Transient error (${errorMsg}): Retrying in ${waitMs}ms (retry ${retryCount}/${MAX_RETRIES})...`);
-                  await sleep(waitMs);
-                  pageCount--;
-                  continue;
-                }
-
-                // Retries exhausted on a transient error. We have partial
-                // results — keep them on disk for the forensic artifact, but
-                // record the reason so the post-loop check fails the run.
-                if (allRepos.length > 0) {
-                  const errStatus = error.status || 'n/a';
-                  const errMsg = (typeof error.message === 'string' ? error.message : String(error)).substring(0, MAX_ERROR_MSG_LENGTH);
-                  partialFailureReason = `retries_exhausted_at_page_${pageCount}_after_${allRepos.length}_repos_status=${errStatus}_msg=${errMsg}`;
-                  core.warning(`Error after ${retryCount} retries on page ${pageCount}: ${error.message}. Will write ${allRepos.length} partial results for debugging and fail the workflow.`);
-                  break;
-                }
-
-                // No partial results at all → original throw path.
-                core.error(`Failed after ${retryCount} retry attempts: ${error.message}`);
-                throw error;
+            try {
+              for await (const response of iterator) {
+                pageCount++;
+                const repos = response.viewer.starredRepositories;
+                const pageRepos = repos.edges.map(transformEdge).filter(r => !r.private);
+                allRepos.push(...pageRepos);
+                lastEndCursor = repos.pageInfo.endCursor;
+                core.info(`  Page ${pageCount}: +${pageRepos.length} public (total: ${allRepos.length}) endCursor=${lastEndCursor?.substring(0, 24) || 'null'}…`);
               }
+            } catch (error) {
+              if (error.message?.includes('Bad credentials')) {
+                core.setFailed(BAD_CREDENTIALS_MSG);
+                return;
+              }
+              const errStatus = error.status || 'n/a';
+              const errMsg = (typeof error.message === 'string' ? error.message : String(error)).substring(0, MAX_ERROR_MSG_LENGTH);
+              partialFailureReason =
+                `iterator_error_at_page_${pageCount}_after_${allRepos.length}_repos_status=${errStatus}_msg=${errMsg}`;
+              core.warning(`Pagination failed at page ${pageCount}: ${error.message}. ` +
+                `Cursor for resume: ${lastEndCursor || 'null'}. ` +
+                `Will write ${allRepos.length} partial results and fail.`);
             }
 
-            core.info(`\nTotal: ${allRepos.length} repositories`);
+            core.info(`\nTotal: ${allRepos.length} repositories across ${pageCount} pages`);
 
             const outputDir = path.dirname(OUTPUT_FILE);
-            if (!fs.existsSync(outputDir)) {
-              fs.mkdirSync(outputDir, { recursive: true });
-            }
-            // Always write the JSON before the partial-failure check below so
-            // the forensic artifact is uploaded even when we're about to fail.
+            if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
             fs.writeFileSync(OUTPUT_FILE, JSON.stringify(allRepos, null, 2));
             const outputBytes = fs.statSync(OUTPUT_FILE).size;
 
@@ -274,26 +194,25 @@ jobs:
             core.setOutput('output_file', OUTPUT_FILE);
             core.setOutput('output_bytes', outputBytes);
             core.setOutput('partial_failure_reason', partialFailureReason);
+            core.setOutput('pages_fetched', pageCount);
+            // Always emit the LAST seen cursor so a partial run can be resumed
+            // by a workflow_dispatch with this string pasted into resume_cursor.
+            // Empty when fetch never advanced past the initial state.
+            core.setOutput('resume_cursor', lastEndCursor || '');
 
-            // Hard-fail if pagination did not complete. The JSON has been
-            // written and outputs are set so the upload + summary steps still
-            // run (their `if:` clauses are `always()` / depend on outputs).
-            // Downstream `02-Sync Starred Repos` only fires on
-            // `workflow_run.conclusion == 'success'`, so failing here keeps
-            // the partial fetch from poisoning repos.yml.
             if (partialFailureReason) {
               core.setFailed(
                 `Star fetch incomplete: ${partialFailureReason}. ` +
                 `Wrote ${allRepos.length} partial repos to ${OUTPUT_FILE} (${outputBytes} bytes) for forensic analysis. ` +
-                `Refusing to declare success on a partial fetch — downstream sync would reconcile repos.yml against a sliver of the real star set. ` +
-                `Investigate (likely sustained 5xx on api.github.com/graphql) and re-run.`
+                `To resume, dispatch this workflow with input resume_cursor='${lastEndCursor || ''}'. ` +
+                `Refusing to declare success on a partial fetch — downstream sync would reconcile against a sliver of the real star set.`
               );
             }
+        env:
+          RESUME_CURSOR: ${{ inputs.resume_cursor }}
 
       - name: Upload results
-        # Run on success AND on partial-failure so the forensic JSON for a
-        # failed run is still available for inspection. Skip only when no
-        # JSON was written at all (fetch-stars.outputs.output_bytes empty).
+        # Upload on success and on partial-failure so the forensic JSON is preserved.
         if: always() && steps.fetch-stars.outputs.output_bytes != ''
         id: upload
         uses: actions/upload-artifact@v6
@@ -304,9 +223,7 @@ jobs:
           if-no-files-found: error
 
       - name: Commit results
-        # Only commit on a clean fetch. Partial-failure JSON should not be
-        # committed because downstream code (e.g. local re-runs without the
-        # artifact) trusts the committed file as canonical.
+        # Only commit on a clean fetch. Partial-failure JSON is artifact-only.
         if: success()
         id: commit
         run: |
@@ -357,11 +274,15 @@ jobs:
           OUTPUT_FILE: ${{ steps.fetch-stars.outputs.output_file }}
           OUTPUT_BYTES: ${{ steps.fetch-stars.outputs.output_bytes }}
           PARTIAL_REASON: ${{ steps.fetch-stars.outputs.partial_failure_reason }}
+          PAGES_FETCHED: ${{ steps.fetch-stars.outputs.pages_fetched }}
+          RESUME_CURSOR: ${{ steps.fetch-stars.outputs.resume_cursor }}
+          INPUT_RESUME_CURSOR: ${{ inputs.resume_cursor }}
           ARTIFACT_ID: ${{ steps.upload.outputs.artifact-id }}
           ARTIFACT_URL: ${{ steps.upload.outputs.artifact-url }}
           COMMIT_PUSHED: ${{ steps.commit.outputs.pushed }}
           COMMIT_SHA: ${{ steps.commit.outputs.commit_sha }}
         run: |
+          set -euo pipefail
           {
             echo "# 01 — Fetch GitHub Stars"
             echo ""
@@ -370,9 +291,12 @@ jobs:
             echo "- Trigger: \`${{ github.event_name }}\`"
             echo "- Commit: \`${{ github.sha }}\`"
             echo "- Token source: \`${TOKEN_SOURCE:-unresolved}\`"
+            if [ -n "${INPUT_RESUME_CURSOR:-}" ]; then
+              echo "- Resumed from cursor: \`${INPUT_RESUME_CURSOR:0:24}…\`"
+            fi
             echo ""
             echo "## Counts"
-            echo "- Total repos: \`${TOTAL:-?}\`"
+            echo "- Total repos: \`${TOTAL:-?}\` across \`${PAGES_FETCHED:-?}\` pages"
             echo "- Archived: \`${ARCHIVED:-?}\`"
             echo "- Forks: \`${FORKS:-?}\`"
             echo "- No description: \`${NO_DESC:-?}\`"
@@ -388,13 +312,22 @@ jobs:
               echo "## ⚠ Partial fetch — workflow failed"
               echo ""
               echo "- Reason: \`${PARTIAL_REASON}\`"
-              echo "- The forensic JSON was uploaded as the artifact above but **not** committed and downstream sync will not run."
-              echo "- Re-run after upstream stabilizes (typically a sustained 5xx storm on \`api.github.com/graphql\`)."
+              echo "- Forensic JSON uploaded as the artifact above; **not** committed; downstream sync will not run."
               echo ""
+              if [ -n "${RESUME_CURSOR:-}" ]; then
+                echo "### Resume from where this run stopped"
+                echo ""
+                echo "Re-dispatch this workflow with the following input to continue from page $((${PAGES_FETCHED:-0} + 1)):"
+                echo ""
+                echo "\`\`\`"
+                echo "resume_cursor: ${RESUME_CURSOR}"
+                echo "\`\`\`"
+                echo ""
+              fi
             fi
             echo "## Next stage"
             if [ -n "${PARTIAL_REASON:-}" ]; then
-              echo "- BLOCKED: 02-Sync Starred Repos will not fire because this run ended in failure."
+              echo "- BLOCKED: 02-Sync Starred Repos will not fire (this run ended in failure)."
             else
               echo "- \`02-Sync Starred Repos\` (workflow_run on success); will pull artifact \`fetched-stars-${{ github.run_id }}\` from this run."
             fi
