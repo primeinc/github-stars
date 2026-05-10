@@ -130,7 +130,6 @@ export async function paginateStarListViaRest(
 	let pageCount = 0;
 	let page = startPage;
 	let partialFailureReason = "";
-	let _lastSucceededPage = startPage - 1;
 
 	// Loop until a page returns fewer than perPage items (last page) or
 	// an empty array (past last page). REST gives no cursor — we count.
@@ -188,8 +187,6 @@ export async function paginateStarListViaRest(
 				});
 			}
 		}
-
-		_lastSucceededPage = page;
 
 		if (pageCount % 5 === 0) {
 			log(`  list page ${pageCount} (REST page=${page}): total=${list.length}`);

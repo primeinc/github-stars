@@ -1,5 +1,4 @@
 const fs = require("fs");
-const path = require("path");
 const yaml = require("js-yaml");
 
 // 1. Load Data
@@ -24,7 +23,11 @@ const repos = data.repositories || [];
 });
 
 // 3. Helper Functions
-const escapeMd = (text) => (text || "").replace(/([*_`[\]])/g, "\\$1");
+// Escape markdown meta-characters. The leading `\\\\` covers the
+// backslash itself so input like `a\b` becomes `a\\b` in output —
+// otherwise a stray backslash in source content lets the next escape
+// re-render literally (CodeQL js/incomplete-sanitization).
+const escapeMd = (text) => (text || "").replace(/([\\*_`[\]])/g, "\\$1");
 const formatDate = (iso) =>
 	iso ? new Date(iso).toISOString().split("T")[0] : "N/A";
 
