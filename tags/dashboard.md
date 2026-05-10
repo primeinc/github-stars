@@ -18,7 +18,7 @@
 | [matiasmenares/Nissboard](https://github.com/matiasmenares/Nissboard) | 🚗 Nissan Consult/OBDII Realtime Dashboard | `JavaScript` ★ 54 | 2023-01-05 |
 | [cmkap/realtime-dashboard](https://github.com/cmkap/realtime-dashboard) | Web Socket + real-time data visualisation project | `TypeScript` ★ 1 | 2025-08-13 |
 | [pablotanner/RealtorRocket](https://github.com/pablotanner/RealtorRocket) | Real Estate Management Software | `JavaScript` ★ 22 | 2024-09-04 |
-| [glanceapp/glance](https://github.com/glanceapp/glance) | A self-hosted dashboard that puts all your feeds in one place | `Go` ★ 34k | 2025-12-10 |
+| [glanceapp/glance](https://github.com/glanceapp/glance) | A self-hosted dashboard that puts all your feeds in one place | `Go` ★ 34.1k | 2025-12-10 |
 | [Lissy93/dashy](https://github.com/Lissy93/dashy) | 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more! | `Vue` ★ 25k | 2026-05-09 |
 | [caspii/dinkydash](https://github.com/caspii/dinkydash) | A family dashboard for kids | `HTML` ★ 91 | 2026-02-28 |
 | [dwainscheeren/dwains-lovelace-dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) | An fully auto generating Home Assistant UI dashboard for desktop, tablet and mobile by Dwains for desktop, tablet, mobile | `JavaScript` ★ 2k | 2025-09-01 |

@@ -27,7 +27,7 @@
 | [openclaw/mcporter](https://github.com/openclaw/mcporter) | Call MCPs via Type Script, masquerading as simple Type Script API. Or package them as cli. | `TypeScript` ★ 4.4k | 2026-05-09 |
 | [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | A powerful little TUI framework 🏗 | `Go` ★ 42.2k | 2026-04-24 |
 | [suzuki-shunsuke/ghtkn](https://github.com/suzuki-shunsuke/ghtkn) | A CLI to create short-lived (8 hours) Git Hub App User Access Token for secure local development | `Go` ★ 144 | 2026-05-10 |
-| [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | 🖥 📊 🕹 🛠 A curated list of command line apps | `Shell` ★ 19.5k | 2026-05-08 |
+| [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | 🖥 📊 🕹 🛠 A curated list of command line apps | `Shell` ★ 19.5k | 2026-05-10 |
 | [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (\`azd\`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 253 | 2026-05-08 |
 | [charmbracelet/glow](https://github.com/charmbracelet/glow) | Render markdown on the CLI, with pizzazz! 💅🏻 | `Go` ★ 25k | 2026-04-26 |
 | [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | `Go` ★ 77.7k | 2026-05-09 |
@@ -40,7 +40,7 @@
 | [cli/cli](https://github.com/cli/cli) | Git Hub’s official command line tool | `Go` ★ 44.3k | 2026-05-09 |
 | [satococoa/wtp](https://github.com/satococoa/wtp) | 🌳 A powerful Git worktree CLI tool with automated setup, branch tracking, and smart navigation | `Go` ★ 483 | 2026-03-30 |
 | [scaffdog/scaffdog](https://github.com/scaffdog/scaffdog) | :dog: scaffdog is Markdown driven scaffolding tool. | `TypeScript` ★ 766 | 2026-05-10 |
-| [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files. | `TypeScript` ★ 14k | 2026-05-09 |
+| [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files. | `TypeScript` ★ 14k | 2026-05-10 |
 | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11... | `PowerShell` ★ 46k | 2026-05-09 |
 | [pypa/pipx](https://github.com/pypa/pipx) | Install and Run Python Applications in Isolated Environments | `Python` ★ 12.8k | 2026-05-06 |
 | [acheong08/ChatGPT](https://github.com/acheong08/ChatGPT) | Reverse engineered Chat GPT API | `Python` ★ 27.9k | 2023-08-02 |

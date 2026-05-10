@@ -9,7 +9,7 @@
 | [browser-use/browser-harness](https://github.com/browser-use/browser-harness) | Browser Harness | Self-healing harness that enables LLMs to complete any task. | `Python` ★ 11.9k | 2026-05-08 |
 | [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt) | AI You Control: Choose your models. Own your data. Eliminate vendor lock-in. | `TypeScript` ★ 4.5k | 2026-05-09 |
 | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Agent skills for Obsidian | ★ 30.1k | 2026-05-07 |
-| [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | Wrap Gemini CLI, Antigravity, Chat GPT Codex, Claude Code, Qwen Code, i Flow as an Open AI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, ... | `Go` ★ 31.7k | 2026-05-10 |
+| [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | Wrap Gemini CLI, Antigravity, Chat GPT Codex, Claude Code, Qwen Code, i Flow as an Open AI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, ... | `Go` ★ 31.8k | 2026-05-10 |
 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | An autonomous agent that conducts deep research on any data using any LLM providers. | `Python` ★ 27k | 2026-04-16 |
 | [karpathy/reader3](https://github.com/karpathy/reader3) | Quick illustration of how one can easily read books together with LLMs. It's great and I highly recommend it. | `Python` ★ 3.6k | 2025-11-18 |
 | [linexjlin/GPTs](https://github.com/linexjlin/GPTs) | leaked prompts of GPTs | ★ 32k | 2024-09-27 |

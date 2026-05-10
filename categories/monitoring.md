@@ -69,7 +69,7 @@
 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | Comfortably monitor your Internet traffic 🕵️‍♂️ | `Rust` ★ 37.3k | 2026-05-09 |
 | [google/grr](https://github.com/google/grr) | GRR Rapid Response: remote live forensics for incident response | `Python` ★ 5.1k | 2026-04-16 |
 | [langwatch/langwatch](https://github.com/langwatch/langwatch) | The open LLM Ops platform - Traces, Analytics, Evaluations, Datasets and Prompt Optimization ✨ | `TypeScript` ★ 3.2k | 2026-05-09 |
-| [glanceapp/glance](https://github.com/glanceapp/glance) | A self-hosted dashboard that puts all your feeds in one place | `Go` ★ 34k | 2025-12-10 |
+| [glanceapp/glance](https://github.com/glanceapp/glance) | A self-hosted dashboard that puts all your feeds in one place | `Go` ★ 34.1k | 2025-12-10 |
 | [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre) | A curated list of Site Reliability and Production Engineering resources. | ★ 13.2k | 2025-08-28 |
 | [rbonghi/jetson_stats](https://github.com/rbonghi/jetson_stats) | 📊 Simple package for monitoring and control your NVIDIA Jetson \[Orin, Xavier, Nano, TX\] series | `Python` ★ 2.5k | 2026-05-09 |
 | [Tautulli/Tautulli](https://github.com/Tautulli/Tautulli) | A Python based monitoring and tracking tool for Plex Media Server. | `Python` ★ 6.5k | 2026-05-07 |

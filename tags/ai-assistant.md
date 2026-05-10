@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [microsoft/openclaw](https://github.com/microsoft/openclaw) | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 | ★ 78 | 2026-05-02 |
 | [AtomicBot-ai/atomic-hermes](https://github.com/AtomicBot-ai/atomic-hermes) | The agent that grows with you | `Python` ★ 130 | 2026-05-08 |
-| [safishamsi/graphify](https://github.com/safishamsi/graphify) | AI coding assistant skill (Claude Code, Codex, Open Code, Cursor, Gemini CLI, Git Hub Copilot CLI, Open Claw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images... | `Python` ★ 45.7k | 2026-05-09 |
+| [safishamsi/graphify](https://github.com/safishamsi/graphify) | AI coding assistant skill (Claude Code, Codex, Open Code, Cursor, Gemini CLI, Git Hub Copilot CLI, Open Claw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images... | `Python` ★ 45.8k | 2026-05-09 |
 | [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell) | How real engineers run Claude Code: spec-driven planning, enforced TDD, persistent memory, and quality enforcement on all levels. Make Claude Code production-ready. | `TypeScript` ★ 1.7k | 2026-05-08 |
 | [Natively-AI-assistant/natively-cluely-ai-assistant](https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant) | Natively - Free open-source AI interview copilot & meeting assistant. The best Cluely alternative, Final Round AI alternative, and Interview Coder alternative. Real-time transcription, undetectable... | `TypeScript` ★ 1.2k | 2026-05-10 |
 | [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 🐬Deep Chat - A smart assistant that connects powerful AI to your personal world | `TypeScript` ★ 5.8k | 2026-05-09 |

@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [EvotecIT/O365Essentials](https://github.com/EvotecIT/O365Essentials) | A module that helps to manage some tasks on Office 365/Azure via undocumented API | `PowerShell` ★ 144 | 2026-04-02 |
 | [portofcontext/pctx](https://github.com/portofcontext/pctx) | pctx is the execution layer for agentic tool calls. It exposes custom tools and MCP servers as code that runs in secure sandboxes for token-efficient calls. | `Rust` ★ 251 | 2026-05-08 |
-| [hotheadhacker/no-as-a-service](https://github.com/hotheadhacker/no-as-a-service) | No-as-a-Service (Naa S) is a simple API that returns a random rejection reason. Use it when you need a realistic excuse, a fun “no,” or want to simulate being turned down in style. | `JavaScript` ★ 7.5k | 2026-05-09 |
+| [hotheadhacker/no-as-a-service](https://github.com/hotheadhacker/no-as-a-service) | No-as-a-Service (Naa S) is a simple API that returns a random rejection reason. Use it when you need a realistic excuse, a fun “no,” or want to simulate being turned down in style. | `JavaScript` ★ 7.6k | 2026-05-09 |
 | [numman-ali/opencode-openai-codex-auth](https://github.com/numman-ali/opencode-openai-codex-auth) | OAuth authentication plugin for personal coding assistance with Chat GPT Plus/Pro subscriptions - uses Open AI's official authentication method | `TypeScript` ★ 2k | 2026-01-09 |
 | [vemetric/favicon-api](https://github.com/vemetric/favicon-api) | Free and self-hostable API to fetch favicons from any website. | `TypeScript` ★ 187 | 2026-05-04 |
 | [Azure-Samples/universal-api-center](https://github.com/Azure-Samples/universal-api-center) | APIC ♥️ all APIs - this repo contains labs focused on importing APIs from a wide variety of gateways and sources | `Jupyter Notebook` ★ 20 | 2024-08-08 |

@@ -9,7 +9,7 @@
 | [mdx-js/mdx](https://github.com/mdx-js/mdx) | Markdown for the component era | `JavaScript` ★ 19.5k | 2026-05-07 |
 | [chamanbravo/upstat](https://github.com/chamanbravo/upstat) | 🟢 a simple open-source, self-hosted status monitoring tool | `TypeScript` ★ 200 | 2026-02-26 |
 | [opral/paraglide-js](https://github.com/opral/paraglide-js) | Compiler-based i18n library that emits tree-shakable translations, leading to up to 70% smaller bundle sizes. | `TypeScript` ★ 400 | 2026-04-29 |
-| [outsourc-e/hermes-workspace](https://github.com/outsourc-e/hermes-workspace) | Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector. | `JavaScript` ★ 3.7k | 2026-05-08 |
+| [outsourc-e/hermes-workspace](https://github.com/outsourc-e/hermes-workspace) | Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector. | `JavaScript` ★ 3.8k | 2026-05-08 |
 | [sunshineLixun/ShipFullStack](https://github.com/sunshineLixun/ShipFullStack) | A modern Type Script stack that combines React, Tan Stack Start, Hono, ORPC, Expo, and more. | `TypeScript` ★ 105 | 2025-11-03 |
 | [codesandbox/sandpack](https://github.com/codesandbox/sandpack) | A component toolkit for creating live-running code editing experiences, using the power of Code Sandbox. | `TypeScript` ★ 6.1k | 2025-04-24 |
 | [bvaughn/react-resizable-panels](https://github.com/bvaughn/react-resizable-panels) | No description provided | `TypeScript` ★ 5.2k | 2026-05-02 |
@@ -68,7 +68,7 @@
 | [styleguidist/react-styleguidist](https://github.com/styleguidist/react-styleguidist) | Isolated React component development environment with a living style guide | `TypeScript` ★ 11.1k | 2025-01-07 |
 | [welldone-software/why-did-you-render](https://github.com/welldone-software/why-did-you-render) | why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.) | `JavaScript` ★ 12.5k | 2026-04-15 |
 | [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) | Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. | `TypeScript` ★ 13.8k | 2026-01-13 |
-| [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, powered by the community. | `TypeScript` ★ 45.7k | 2026-05-09 |
+| [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, powered by the community. | `TypeScript` ★ 45.7k | 2026-05-10 |
 | [claudio-silva/claude-artifact-runner](https://github.com/claudio-silva/claude-artifact-runner) | From Claude Artifact to deployable React app — in seconds! | `TypeScript` ★ 542 | 2026-01-23 |
 | [novuhq/novu](https://github.com/novuhq/novu) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | `TypeScript` ★ 39k | 2026-05-10 |
 | [makeplane/plane](https://github.com/makeplane/plane) | 🔥🔥🔥 Open-source Jira, Linear, Monday, and Click Up alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | `TypeScript` ★ 48.9k | 2026-05-06 |

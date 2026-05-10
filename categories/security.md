@@ -73,7 +73,7 @@
 | [mdp/linkedin-extension-fingerprinting](https://github.com/mdp/linkedin-extension-fingerprinting) | No description provided | `JavaScript` ★ 206 | 2026-02-05 |
 | [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) | Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend. | `Rust` ★ 8.7k | 2026-03-17 |
 | [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses. | `Go` ★ 38.4k | 2026-05-09 |
-| [pompelmi/pompelmi](https://github.com/pompelmi/pompelmi) | Clam AV antivirus scanning for Node.js — scan file uploads with a single function call. Zero dependencies. Typed Symbol verdicts. Local or Docker/clamd. | `JavaScript` ★ 635 | 2026-05-08 |
+| [pompelmi/pompelmi](https://github.com/pompelmi/pompelmi) | Clam AV antivirus scanning for Node.js — scan file uploads with a single function call. Zero dependencies. Typed Symbol verdicts. Local or Docker/clamd. | `JavaScript` ★ 636 | 2026-05-08 |
 | [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | Hex Strike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug ... | `Python` ★ 8.6k | 2026-04-27 |
 | [Yamato-Security/EnableWindowsLogSettings](https://github.com/Yamato-Security/EnableWindowsLogSettings) | Documentation and scripts to properly enable Windows event logs. | `Batchfile` ★ 702 | 2025-10-03 |
 | [Yamato-Security/suzaku](https://github.com/Yamato-Security/suzaku) | Suzaku (朱雀) is a sigma-based threat hunting and fast forensics timeline generator for cloud logs. | `Rust` ★ 174 | 2026-05-03 |
@@ -107,7 +107,7 @@
 | [chaitin/SafeLine](https://github.com/chaitin/SafeLine) | Safe Line is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits. | `Go` ★ 21.3k | 2026-04-17 |
 | [matijazezelj/sib](https://github.com/matijazezelj/sib) | SIEM in a box | `Python` ★ 88 | 2026-04-08 |
 | [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 33.1k | 2026-05-10 |
-| [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden\_rs | `Rust` ★ 60k | 2026-05-03 |
+| [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden\_rs | `Rust` ★ 60.1k | 2026-05-03 |
 | [epi052/feroxbuster](https://github.com/epi052/feroxbuster) | A fast, simple, recursive content discovery tool written in Rust. | `Rust` ★ 7.7k | 2026-04-15 |
 | [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | Mobile Security Framework (Mob SF) is an automated, all-in-one mobile application (Android/i OS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static... | `JavaScript` ★ 21k | 2026-05-08 |
 | [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 35.6k | 2026-05-09 |
@@ -128,7 +128,7 @@
 | [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response) | A curated list of tools for incident response | ★ 9k | 2026-05-06 |
 | [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) | A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more | `Shell` ★ 10.6k | 2026-05-07 |
 | [imputnet/helium](https://github.com/imputnet/helium) | Private, fast, and honest web browser | `C++` ★ 15.6k | 2026-05-09 |
-| [HotCakeX/Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security) | Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Pers... | `C#` ★ 4.3k | 2026-05-09 |
+| [HotCakeX/Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security) | Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Pers... | `C#` ★ 4.3k | 2026-05-10 |
 | [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) | Perform username and email OSINT across social, developer, gaming, and creator platforms to identify account existence and digital footprints. Useful for investigations, reconnaissance, brand analy... | `Python` ★ 1.5k | 2026-04-30 |
 | [repplus/rep-chrome](https://github.com/repplus/rep-chrome) | rep+ — Burp-style HTTP Repeater for Chrome Dev Tools with built‑in AI to explain requests and suggest attacks | `JavaScript` ★ 1.6k | 2026-01-16 |
 | [WerWolv/ImHex](https://github.com/WerWolv/ImHex) | 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. | `C++` ★ 53.5k | 2026-05-01 |

@@ -10,5 +10,5 @@
 | [universal-tool-calling-protocol/code-mode](https://github.com/universal-tool-calling-protocol/code-mode) | 🔌 Plug-and-play library to enable agents to call MCP and UTCP tools via code execution. | `Python` ★ 1.4k | 2026-05-03 |
 | [umijs/father](https://github.com/umijs/father) | NPM package development tool | `TypeScript` ★ 2.2k | 2026-04-29 |
 | [context-labs/uwu](https://github.com/context-labs/uwu) | No description provided | `TypeScript` ★ 938 | 2025-08-23 |
-| [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files. | `TypeScript` ★ 14k | 2026-05-09 |
+| [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files. | `TypeScript` ★ 14k | 2026-05-10 |
 | [sims4toolkit/s4tk-vscode](https://github.com/sims4toolkit/s4tk-vscode) | S4TK extension for Visual Studio Code. | `TypeScript` ★ 13 | 2024-12-17 |
