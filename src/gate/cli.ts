@@ -62,6 +62,34 @@ function actionlintAvailable(): boolean {
 	return runCommandSync(which, ["actionlint"], { inheritStdio: false }).ok;
 }
 
+/**
+ * Run `bun audit --audit-level=high` against one workspace (root or
+ * web/). Exit code is the contract: 0 = no advisories at high+, 1 =
+ * advisories present (per `bun audit` docs at
+ * https://bun.com/docs/install/audit). The `--audit-level` threshold
+ * matches the SDL doctrine — moderate/low advisories surface in the
+ * Dependabot tab but do not block CI.
+ */
+function bunAuditOne(cwd: string): boolean {
+	return runCommandSync("bun", ["audit", "--audit-level=high"], { cwd }).ok;
+}
+
+/**
+ * Block the gate when high/critical CVEs are present in either the
+ * root package set or the web/ subtree. Both workspaces are audited;
+ * a failure in either fails the stage so a vulnerable web/ dep can't
+ * pass under cover of a clean kernel audit.
+ */
+function bunAuditAll(): { ok: boolean; note?: string } {
+	const rootOk = bunAuditOne(".");
+	const webOk = pathExistsSync("web/package.json") ? bunAuditOne("web") : true;
+	if (rootOk && webOk) return { ok: true };
+	const failed: string[] = [];
+	if (!rootOk) failed.push("root");
+	if (!webOk) failed.push("web/");
+	return { ok: false, note: `high+ advisories in: ${failed.join(", ")}` };
+}
+
 function actionlintAll(): { ok: boolean; note?: string } {
 	if (!actionlintAvailable()) {
 		return {
@@ -149,6 +177,12 @@ function main(): void {
 	stages.push(
 		runStage("generated-artifacts registry", validateGeneratedRegistry),
 	);
+	if (!stages[stages.length - 1]?.ok) {
+		finish(stages);
+		return;
+	}
+
+	stages.push(runStage("audit (bun audit --audit-level=high)", bunAuditAll));
 	if (!stages[stages.length - 1]?.ok) {
 		finish(stages);
 		return;

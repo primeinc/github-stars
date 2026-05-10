@@ -19,6 +19,8 @@ export interface RunCommandSyncOptions {
 	readonly inheritStdio?: boolean;
 	/** Pass through `shell: true` so Windows `.cmd` shims resolve via PATH. */
 	readonly shell?: boolean;
+	/** Working directory for the subprocess. Defaults to the parent's cwd. */
+	readonly cwd?: string;
 }
 
 /**
@@ -51,6 +53,7 @@ export function runCommandSync(
 	const r: SpawnSyncReturns<Buffer> = nodeSpawnSync(command, [...args], {
 		stdio: options.inheritStdio === false ? "pipe" : "inherit",
 		shell: options.shell ?? true,
+		...(options.cwd !== undefined ? { cwd: options.cwd } : {}),
 	});
 	return {
 		status: r.status,
