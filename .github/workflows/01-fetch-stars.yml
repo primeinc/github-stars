@@ -57,47 +57,51 @@ jobs:
         id: fetch-stars
         with:
           github-token: ${{ secrets.STARS_TOKEN || secrets.GITHUB_TOKEN }}
-          # Enable @octokit/plugin-retry. Per actions/github-script action.yml
-          # L26-31, default is "0" (disabled). With 3 retries enabled the plugin
-          # auto-retries 5xx + the GraphQL "Something went wrong while executing
-          # your query" envelope (refs/octokit/plugin-retry.js wrap-request.ts
-          # L52-66) which is the documented timeout signature
-          # (refs/github/docs/.../rate-limits-and-query-limits-for-the-graphql-api.md
-          # L286-294). Honors Retry-After response headers automatically.
-          retries: 3
+          # Enable @octokit/plugin-retry (refs/actions/github-script/src/main.ts
+          # L60: getOctokit(token, opts, retry, requestLog)). Default is "0"
+          # (disabled). 5 retries cover real 5xx (502/503/504) + the GraphQL
+          # "Something went wrong" timeout envelope (refs/octokit/
+          # plugin-retry.js/src/wrap-request.ts L37-62). Honors Retry-After.
+          retries: 5
           # Default retry-exempt is 400,401,403,404,422; we keep that and add
           # nothing extra. 5xx + 408 + 429 are retried by default.
           script: |
-            // Pagination strategy: hand-rolled while(hasNextPage) loop calling
-            // github.graphql() directly. plugin-retry is loaded by github-script@v8
-            // (refs/actions/github-script/src/main.ts L60: getOctokit(token, opts,
-            // retry, requestLog)) and sits in the request stack, so each
-            // github.graphql() call is automatically retried on real HTTP 5xx
-            // (502/503/504) AND on the GraphQL "Something went wrong while
-            // executing your query" timeout envelope (HTTP 200 with errors[0]
-            // matched in refs/octokit/plugin-retry.js/src/wrap-request.ts L37-62,
-            // which synthesizes a 500 RequestError to feed the bottleneck retry).
+            // Two-stage fetch per GitHub's own published guidance for heavy
+            // queries: refs/github/docs/content/graphql/overview/
+            // rate-limits-and-query-limits-for-the-graphql-api.md L286-294
+            // (10s server-side timeout) + L308-316 ("Split large queries",
+            // "Request only required fields") + the pagination guide L49
+            // ("request fewer than 100 items if your query touches a lot of
+            // data"). Local repro confirmed the prior single-query approach
+            // (first:100 with latestRelease + licenseInfo + repositoryTopics
+            // + defaultBranchRef.target.oid) takes 20s/page and 502s on
+            // page 2 under load. Cheap-only paginates 2,623 stars in 47s
+            // (every page <3.5s); 25-repo aliased metadata batch returns in
+            // ~3.4s. Total ~7min worst case, well under timeout-minutes: 30.
             //
-            // We do NOT use octokit.graphql.paginate.iterator(): the
-            // @octokit/plugin-paginate-graphql plugin is NOT bundled into
-            // github-script@v8 (only retry + requestLog are passed to getOctokit).
+            // plugin-retry IS active (github-script@v8 main.ts L60 passes it
+            // to getOctokit) and handles 5xx + GraphQL "Something went wrong"
+            // envelope per refs/octokit/plugin-retry.js/src/wrap-request.ts
+            // L37-62. retries: 5 below.
             const fs = require('fs');
             const path = require('path');
 
-            const queryPath = 'queries/stars-query.graphql';
-            if (!fs.existsSync(queryPath)) {
-              throw new Error(`GraphQL query file not found: ${queryPath}`);
+            const LIST_QUERY_PATH = 'queries/stars-list-query.graphql';
+            const FRAGMENT_PATH = 'queries/stars-metadata-fragment.graphql';
+            for (const p of [LIST_QUERY_PATH, FRAGMENT_PATH]) {
+              if (!fs.existsSync(p)) throw new Error(`Required query file not found: ${p}`);
             }
-            const STARS_QUERY = fs.readFileSync(queryPath, 'utf8');
+            const LIST_QUERY = fs.readFileSync(LIST_QUERY_PATH, 'utf8');
+            const METADATA_FRAGMENT = fs.readFileSync(FRAGMENT_PATH, 'utf8');
 
             const OUTPUT_FILE = '.github-stars/data/fetched-stars-graphql.json';
             const MAX_ERROR_MSG_LENGTH = 200;
+            const METADATA_BATCH_SIZE = 25;
 
             // Resume support. workflow_dispatch input wins; otherwise start fresh.
-            // The cursor is GraphQL's opaque endCursor string from the prior page.
             const resumeCursor = (process.env.RESUME_CURSOR || '').trim() || null;
             if (resumeCursor) {
-              core.info(`Resuming from cursor: ${resumeCursor.substring(0, 40)}…`);
+              core.info(`Resuming pagination from cursor: ${resumeCursor.substring(0, 40)}…`);
             }
 
             const BAD_CREDENTIALS_MSG =
@@ -106,8 +110,6 @@ jobs:
               'Please generate a new Personal Access Token with "read:user" scope ' +
               'and update the STARS_TOKEN repository secret.';
 
-            // Auth probe — separate from pagination so a bad token fails fast
-            // with an actionable error. The retry plugin handles transient 5xx.
             try {
               await github.graphql('{ viewer { login } }');
             } catch (authError) {
@@ -118,47 +120,21 @@ jobs:
               throw authError;
             }
 
-            const transformEdge = (edge) => ({
-              repo: edge.node.nameWithOwner,
-              description: edge.node.description || '',
-              language: edge.node.primaryLanguage?.name || null,
-              topics: edge.node.repositoryTopics.nodes.map(n => n.topic.name),
-              archived: edge.node.isArchived,
-              fork: edge.node.isFork,
-              private: edge.node.isPrivate,
-              stargazers_count: edge.node.stargazerCount,
-              forks_count: edge.node.forkCount,
-              updated_at: edge.node.updatedAt,
-              pushed_at: edge.node.pushedAt,
-              disk_usage: edge.node.diskUsage,
-              owner_avatar: edge.node.owner.avatarUrl,
-              html_url: edge.node.url,
-              default_branch: edge.node.defaultBranchRef?.name || 'main',
-              last_commit_sha: edge.node.defaultBranchRef?.target?.oid || null,
-              user_starred_at: edge.starredAt,
-              homepage_url: edge.node.homepageUrl,
-              is_mirror: edge.node.isMirror,
-              mirror_url: edge.node.mirrorUrl,
-              license: edge.node.licenseInfo?.spdxId || null,
-              latest_release: edge.node.latestRelease ? {
-                tag: edge.node.latestRelease.tagName,
-                published_at: edge.node.latestRelease.publishedAt
-              } : null
-            });
-
-            const allRepos = [];
+            // ──────── Stage 1: cheap pagination ────────
+            // Returns minimal fields per page. Each page <3.5s in local repro.
+            const starredList = [];
             let pageCount = 0;
             let cursor = resumeCursor;
             let lastEndCursor = resumeCursor;
             let hasNextPage = true;
             let partialFailureReason = '';
 
+            core.info('Stage 1: paginating star list (cheap query)...');
             while (hasNextPage) {
               pageCount++;
-              core.info(`Fetching page ${pageCount}${cursor ? ` (cursor=${cursor.substring(0, 24)}…)` : ''}...`);
               let response;
               try {
-                response = await github.graphql(STARS_QUERY, { cursor });
+                response = await github.graphql(LIST_QUERY, { cursor });
               } catch (error) {
                 if (error.message?.includes('Bad credentials')) {
                   core.setFailed(BAD_CREDENTIALS_MSG);
@@ -167,23 +143,125 @@ jobs:
                 const errStatus = error.status || 'n/a';
                 const errMsg = (typeof error.message === 'string' ? error.message : String(error)).substring(0, MAX_ERROR_MSG_LENGTH);
                 partialFailureReason =
-                  `graphql_error_at_page_${pageCount}_after_${allRepos.length}_repos_status=${errStatus}_msg=${errMsg}`;
-                core.warning(`GraphQL call failed at page ${pageCount} (after plugin-retry retries exhausted): ${error.message}. ` +
-                  `Cursor for resume: ${lastEndCursor || 'null'}. ` +
-                  `Will write ${allRepos.length} partial results and fail.`);
+                  `list_error_at_page_${pageCount}_after_${starredList.length}_repos_status=${errStatus}_msg=${errMsg}`;
+                core.warning(`Stage 1 list query failed at page ${pageCount}: ${error.message}. ` +
+                  `Cursor for resume: ${lastEndCursor || 'null'}.`);
                 break;
               }
-
               const repos = response.viewer.starredRepositories;
-              const pageRepos = repos.edges.map(transformEdge).filter(r => !r.private);
-              allRepos.push(...pageRepos);
+              for (const edge of repos.edges) {
+                if (!edge.node.isPrivate) {
+                  starredList.push({ repo: edge.node.nameWithOwner, user_starred_at: edge.starredAt });
+                }
+              }
               lastEndCursor = repos.pageInfo.endCursor;
               hasNextPage = repos.pageInfo.hasNextPage;
               cursor = lastEndCursor;
-              core.info(`  Page ${pageCount}: +${pageRepos.length} public (total: ${allRepos.length}) endCursor=${lastEndCursor?.substring(0, 24) || 'null'}…`);
+              core.info(`  list page ${pageCount}: total=${starredList.length}/${repos.totalCount}`);
             }
 
-            core.info(`\nTotal: ${allRepos.length} repositories across ${pageCount} pages`);
+            if (partialFailureReason) {
+              // Stage 1 failed; write what we have and bail.
+              fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
+              fs.writeFileSync(OUTPUT_FILE, JSON.stringify([], null, 2));
+              core.setOutput('total_repos', 0);
+              core.setOutput('archived_count', 0);
+              core.setOutput('fork_count', 0);
+              core.setOutput('no_description_count', 0);
+              core.setOutput('output_file', OUTPUT_FILE);
+              core.setOutput('output_bytes', fs.statSync(OUTPUT_FILE).size);
+              core.setOutput('partial_failure_reason', partialFailureReason);
+              core.setOutput('pages_fetched', pageCount);
+              core.setOutput('resume_cursor', lastEndCursor || '');
+              core.setFailed(`Star fetch incomplete (stage 1): ${partialFailureReason}. ` +
+                `To resume, dispatch this workflow with input resume_cursor='${lastEndCursor || ''}'.`);
+              return;
+            }
+
+            core.info(`Stage 1 done: ${starredList.length} public stars across ${pageCount} pages.`);
+
+            // ──────── Stage 2: aliased per-repo metadata batches ────────
+            // 25 repos per query. Each batch ~3.4s in local repro.
+            core.info(`Stage 2: fetching metadata in batches of ${METADATA_BATCH_SIZE}...`);
+            const starredAtByRepo = new Map(starredList.map(s => [s.repo, s.user_starred_at]));
+            const allRepos = [];
+            let batchCount = 0;
+            let stage2Failure = '';
+
+            const buildBatchQuery = (batch) => {
+              const varDecls = batch.map((_, i) => `$o${i}: String!, $n${i}: String!`).join(', ');
+              const aliases = batch.map((_, i) =>
+                `r${i}: repository(owner: $o${i}, name: $n${i}) { ...RepoMetadata }`
+              ).join('\n  ');
+              return `${METADATA_FRAGMENT}\nquery(${varDecls}) {\n  ${aliases}\n}`;
+            };
+
+            const transformNode = (repoFullName, node) => {
+              const [owner, name] = repoFullName.split('/');
+              return {
+                repo: repoFullName,
+                description: node.description || '',
+                language: node.primaryLanguage?.name || null,
+                topics: node.repositoryTopics.nodes.map(n => n.topic.name),
+                archived: node.isArchived,
+                fork: node.isFork,
+                private: node.isPrivate,
+                stargazers_count: node.stargazerCount,
+                forks_count: node.forkCount,
+                updated_at: node.updatedAt,
+                pushed_at: node.pushedAt,
+                disk_usage: node.diskUsage,
+                owner_avatar: node.owner.avatarUrl,
+                html_url: node.url,
+                default_branch: node.defaultBranchRef?.name || 'main',
+                last_commit_sha: node.defaultBranchRef?.target?.oid || null,
+                user_starred_at: starredAtByRepo.get(repoFullName) || null,
+                homepage_url: node.homepageUrl,
+                is_mirror: node.isMirror,
+                mirror_url: node.mirrorUrl,
+                license: node.licenseInfo?.spdxId || null,
+                latest_release: node.latestRelease ? {
+                  tag: node.latestRelease.tagName,
+                  published_at: node.latestRelease.publishedAt
+                } : null
+              };
+            };
+
+            for (let i = 0; i < starredList.length; i += METADATA_BATCH_SIZE) {
+              const batch = starredList.slice(i, i + METADATA_BATCH_SIZE).map(s => {
+                const [owner, name] = s.repo.split('/');
+                return [owner, name, s.repo];
+              });
+              batchCount++;
+              const query = buildBatchQuery(batch);
+              const vars = {};
+              batch.forEach((b, j) => { vars[`o${j}`] = b[0]; vars[`n${j}`] = b[1]; });
+              try {
+                const resp = await github.graphql(query, vars);
+                for (let j = 0; j < batch.length; j++) {
+                  const node = resp[`r${j}`];
+                  if (node) allRepos.push(transformNode(batch[j][2], node));
+                }
+                if (batchCount % 10 === 0) {
+                  core.info(`  batch ${batchCount}: ${allRepos.length}/${starredList.length} fetched`);
+                }
+              } catch (error) {
+                const errStatus = error.status || 'n/a';
+                const errMsg = (typeof error.message === 'string' ? error.message : String(error)).substring(0, MAX_ERROR_MSG_LENGTH);
+                stage2Failure = `metadata_batch_${batchCount}_failed_after_${allRepos.length}_repos_status=${errStatus}_msg=${errMsg}`;
+                core.warning(`Stage 2 batch ${batchCount} failed (after plugin-retry exhausted): ${error.message}. ` +
+                  `Will write ${allRepos.length} partial results and fail.`);
+                break;
+              }
+            }
+
+            if (!stage2Failure && allRepos.length < starredList.length) {
+              stage2Failure = `metadata_incomplete_${allRepos.length}_of_${starredList.length}`;
+              core.warning(`Stage 2 left ${starredList.length - allRepos.length} repos unfetched (likely individual repos returned null).`);
+            }
+            partialFailureReason = stage2Failure || partialFailureReason;
+
+            core.info(`\nTotal: ${allRepos.length} repositories — list pages=${pageCount} metadata batches=${batchCount}`);
 
             const outputDir = path.dirname(OUTPUT_FILE);
             if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
