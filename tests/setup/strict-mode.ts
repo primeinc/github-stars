@@ -26,8 +26,8 @@ export const FROZEN_INSTANT = new Date("2026-01-01T00:00:00.000Z");
  * @public
  */
 export function buildUnhandledRejectionMessage(reason: unknown): string {
-  const tail = reason instanceof Error ? reason.stack : String(reason);
-  return `Unhandled rejection during tests: ${tail}`;
+	const tail = reason instanceof Error ? reason.stack : String(reason);
+	return `Unhandled rejection during tests: ${tail}`;
 }
 
 /**
@@ -38,18 +38,18 @@ export function buildUnhandledRejectionMessage(reason: unknown): string {
  * @public
  */
 export function buildUncaughtExceptionMessage(error: Error): string {
-  const tail = error.stack ?? error.message;
-  return `Uncaught exception during tests: ${tail}`;
+	const tail = error.stack ?? error.message;
+	return `Uncaught exception during tests: ${tail}`;
 }
 
 beforeAll(() => {
-  setSystemTime(FROZEN_INSTANT);
+	setSystemTime(FROZEN_INSTANT);
 });
 
 process.on("unhandledRejection", (reason) => {
-  throw new Error(buildUnhandledRejectionMessage(reason));
+	throw new Error(buildUnhandledRejectionMessage(reason));
 });
 
 process.on("uncaughtException", (error) => {
-  throw new Error(buildUncaughtExceptionMessage(error));
+	throw new Error(buildUncaughtExceptionMessage(error));
 });

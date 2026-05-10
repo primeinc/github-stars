@@ -16,30 +16,30 @@ import { registerSchemaById } from "./registry.js";
  * @public
  */
 export const GH_STARS_ENV_KEYS = [
-  // Auth-mode resolver inputs (src/auth/setup-doctor.ts)
-  "AUTH_MODE_REQUEST",
-  "STAR_SOURCE_USER",
-  "GH_APP_CLIENT_ID",
-  "GH_APP_PRIVATE_KEY",
-  "STARS_TOKEN",
-  "GITHUB_TOKEN",
-  "PAT_FALLBACK_TO_GITHUB_TOKEN",
-  "GITHUB_APP_SUPPORTS_FETCH",
-  // GitHub Actions runtime context
-  "GITHUB_OUTPUT",
-  "GITHUB_STEP_SUMMARY",
-  "GITHUB_RUN_ID",
-  "GITHUB_RUN_ATTEMPT",
-  "GITHUB_REPOSITORY",
-  // Telemetry
-  "LOG_LEVEL",
-  "OTEL_SDK_DISABLED",
-  "OTEL_EXPORTER_OTLP_ENDPOINT",
-  "OTEL_EXPORTER_OTLP_HEADERS",
-  "OTEL_SERVICE_NAME",
-  "OTEL_RESOURCE_ATTRIBUTES",
-  // Node / dev
-  "NODE_ENV",
+	// Auth-mode resolver inputs (src/auth/setup-doctor.ts)
+	"AUTH_MODE_REQUEST",
+	"STAR_SOURCE_USER",
+	"GH_APP_CLIENT_ID",
+	"GH_APP_PRIVATE_KEY",
+	"STARS_TOKEN",
+	"GITHUB_TOKEN",
+	"PAT_FALLBACK_TO_GITHUB_TOKEN",
+	"GITHUB_APP_SUPPORTS_FETCH",
+	// GitHub Actions runtime context
+	"GITHUB_OUTPUT",
+	"GITHUB_STEP_SUMMARY",
+	"GITHUB_RUN_ID",
+	"GITHUB_RUN_ATTEMPT",
+	"GITHUB_REPOSITORY",
+	// Telemetry
+	"LOG_LEVEL",
+	"OTEL_SDK_DISABLED",
+	"OTEL_EXPORTER_OTLP_ENDPOINT",
+	"OTEL_EXPORTER_OTLP_HEADERS",
+	"OTEL_SERVICE_NAME",
+	"OTEL_RESOURCE_ATTRIBUTES",
+	// Node / dev
+	"NODE_ENV",
 ] as const;
 
 /**
@@ -49,16 +49,16 @@ export const GH_STARS_ENV_KEYS = [
  * @public
  */
 export const GhStarsEnvKeySchema = registerSchemaById(
-  z.enum(GH_STARS_ENV_KEYS),
-  {
-    id: "contract.github-stars.env.key.v1",
-    title: "github-stars Env Key",
-    description:
-      "Literal-union of every env var name the kernel reads. Catches typos at compile time and gates the env catalog from drifting.",
-    owner: "src/contracts/env.ts",
-    version: "1.0.0",
-    stability: "p1",
-  },
+	z.enum(GH_STARS_ENV_KEYS),
+	{
+		id: "contract.github-stars.env.key.v1",
+		title: "github-stars Env Key",
+		description:
+			"Literal-union of every env var name the kernel reads. Catches typos at compile time and gates the env catalog from drifting.",
+		owner: "src/contracts/env.ts",
+		version: "1.0.0",
+		stability: "p1",
+	},
 );
 
 /**
@@ -77,24 +77,24 @@ export type GhStarsEnvKey = z.infer<typeof GhStarsEnvKeySchema>;
  * @public
  */
 export const GhStarsEnv = {
-  authModeRequest: "AUTH_MODE_REQUEST",
-  starSourceUser: "STAR_SOURCE_USER",
-  ghAppClientId: "GH_APP_CLIENT_ID",
-  ghAppPrivateKey: "GH_APP_PRIVATE_KEY",
-  starsToken: "STARS_TOKEN",
-  githubToken: "GITHUB_TOKEN",
-  patFallbackToGithubToken: "PAT_FALLBACK_TO_GITHUB_TOKEN",
-  githubAppSupportsFetch: "GITHUB_APP_SUPPORTS_FETCH",
-  githubOutput: "GITHUB_OUTPUT",
-  githubStepSummary: "GITHUB_STEP_SUMMARY",
-  githubRunId: "GITHUB_RUN_ID",
-  githubRunAttempt: "GITHUB_RUN_ATTEMPT",
-  githubRepository: "GITHUB_REPOSITORY",
-  logLevel: "LOG_LEVEL",
-  otelSdkDisabled: "OTEL_SDK_DISABLED",
-  otelExporterOtlpEndpoint: "OTEL_EXPORTER_OTLP_ENDPOINT",
-  otelExporterOtlpHeaders: "OTEL_EXPORTER_OTLP_HEADERS",
-  otelServiceName: "OTEL_SERVICE_NAME",
-  otelResourceAttributes: "OTEL_RESOURCE_ATTRIBUTES",
-  nodeEnv: "NODE_ENV",
+	authModeRequest: "AUTH_MODE_REQUEST",
+	starSourceUser: "STAR_SOURCE_USER",
+	ghAppClientId: "GH_APP_CLIENT_ID",
+	ghAppPrivateKey: "GH_APP_PRIVATE_KEY",
+	starsToken: "STARS_TOKEN",
+	githubToken: "GITHUB_TOKEN",
+	patFallbackToGithubToken: "PAT_FALLBACK_TO_GITHUB_TOKEN",
+	githubAppSupportsFetch: "GITHUB_APP_SUPPORTS_FETCH",
+	githubOutput: "GITHUB_OUTPUT",
+	githubStepSummary: "GITHUB_STEP_SUMMARY",
+	githubRunId: "GITHUB_RUN_ID",
+	githubRunAttempt: "GITHUB_RUN_ATTEMPT",
+	githubRepository: "GITHUB_REPOSITORY",
+	logLevel: "LOG_LEVEL",
+	otelSdkDisabled: "OTEL_SDK_DISABLED",
+	otelExporterOtlpEndpoint: "OTEL_EXPORTER_OTLP_ENDPOINT",
+	otelExporterOtlpHeaders: "OTEL_EXPORTER_OTLP_HEADERS",
+	otelServiceName: "OTEL_SERVICE_NAME",
+	otelResourceAttributes: "OTEL_RESOURCE_ATTRIBUTES",
+	nodeEnv: "NODE_ENV",
 } as const satisfies Record<string, GhStarsEnvKey>;

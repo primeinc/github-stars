@@ -31,12 +31,12 @@ import * as z from "zod";
  * @public
  */
 export type GhStarsSchemaMeta = {
-  readonly id: string;
-  readonly title: string;
-  readonly description: string;
-  readonly owner: string;
-  readonly version: string;
-  readonly stability: "p0" | "p1" | "experimental" | "stable" | "deprecated";
+	readonly id: string;
+	readonly title: string;
+	readonly description: string;
+	readonly owner: string;
+	readonly version: string;
+	readonly stability: "p0" | "p1" | "experimental" | "stable" | "deprecated";
 };
 
 /**
@@ -55,9 +55,9 @@ export const GhStarsSchemaRegistry = z.registry<GhStarsSchemaMeta>();
  * @public
  */
 export interface GhStarsRegisteredSchema {
-  readonly id: string;
-  readonly schema: z.ZodType;
-  readonly meta: GhStarsSchemaMeta;
+	readonly id: string;
+	readonly schema: z.ZodType;
+	readonly meta: GhStarsSchemaMeta;
 }
 
 const SCHEMA_BY_ID = new Map<string, GhStarsRegisteredSchema>();
@@ -81,20 +81,20 @@ const SCHEMA_BY_ID = new Map<string, GhStarsRegisteredSchema>();
  * @public
  */
 export function registerSchemaById<T extends z.ZodType>(
-  schema: T,
-  meta: GhStarsSchemaMeta,
+	schema: T,
+	meta: GhStarsSchemaMeta,
 ): T {
-  const existing = SCHEMA_BY_ID.get(meta.id);
-  if (existing !== undefined && existing.schema !== schema) {
-    throw new Error(
-      `src/contracts/registry: duplicate schema id '${meta.id}' (already registered with a different schema instance)`,
-    );
-  }
-  if (existing === undefined) {
-    (schema as z.ZodType).register(GhStarsSchemaRegistry, meta);
-    SCHEMA_BY_ID.set(meta.id, { id: meta.id, schema, meta });
-  }
-  return schema;
+	const existing = SCHEMA_BY_ID.get(meta.id);
+	if (existing !== undefined && existing.schema !== schema) {
+		throw new Error(
+			`src/contracts/registry: duplicate schema id '${meta.id}' (already registered with a different schema instance)`,
+		);
+	}
+	if (existing === undefined) {
+		(schema as z.ZodType).register(GhStarsSchemaRegistry, meta);
+		SCHEMA_BY_ID.set(meta.id, { id: meta.id, schema, meta });
+	}
+	return schema;
 }
 
 /**
@@ -105,9 +105,9 @@ export function registerSchemaById<T extends z.ZodType>(
  * @public
  */
 export function resolveSchemaById(
-  id: string,
+	id: string,
 ): GhStarsRegisteredSchema | undefined {
-  return SCHEMA_BY_ID.get(id);
+	return SCHEMA_BY_ID.get(id);
 }
 
 /**
@@ -116,7 +116,7 @@ export function resolveSchemaById(
  * @public
  */
 export function hasSchemaId(id: string): boolean {
-  return SCHEMA_BY_ID.has(id);
+	return SCHEMA_BY_ID.has(id);
 }
 
 /**
@@ -127,5 +127,5 @@ export function hasSchemaId(id: string): boolean {
  * @public
  */
 export function listSchemaIds(): ReadonlyArray<string> {
-  return [...SCHEMA_BY_ID.keys()].sort();
+	return [...SCHEMA_BY_ID.keys()].sort();
 }

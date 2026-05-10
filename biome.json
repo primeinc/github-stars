@@ -1,0 +1,108 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "files": {
+    "includes": [
+      "**",
+      "!**/node_modules",
+      "!**/dist",
+      "!**/coverage",
+      "!**/reports",
+      "!**/generated",
+      "!.claude",
+      "!.serena",
+      "!.sisyphus",
+      "!.tmp-repro",
+      "!.tmp-*.log",
+      "!.github-stars/data",
+      "!docs",
+      "!web",
+      "!fixtures",
+      "!queries",
+      "!schemas/repos-schema.json",
+      "!issues",
+      "!categories",
+      "!tags",
+      "!**/*.bak",
+      "!bun.lock",
+      "!package-lock.json",
+      "!pnpm-lock.yaml"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "tab"
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "double",
+      "semicolons": "always"
+    }
+  },
+  "json": {
+    "formatter": {
+      "indentStyle": "space",
+      "indentWidth": 2
+    }
+  },
+  "assist": {
+    "enabled": true,
+    "actions": {
+      "recommended": true,
+      "source": {
+        "organizeImports": "on",
+        "useSortedKeys": "off",
+        "useSortedAttributes": "off",
+        "useSortedInterfaceMembers": "off",
+        "useSortedProperties": "off",
+        "noDuplicateClasses": "on"
+      }
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "complexity": {
+        "useLiteralKeys": "off"
+      },
+      "correctness": {
+        "noUnresolvedImports": "off",
+        "useImportExtensions": "off"
+      }
+    }
+  },
+  "overrides": [
+    {
+      "includes": ["scripts/*.{js,mjs,cjs}"],
+      "linter": {
+        "rules": {
+          "style": {
+            "useNodejsImportProtocol": "off",
+            "useTemplate": "off"
+          },
+          "complexity": {
+            "useOptionalChain": "off"
+          },
+          "correctness": {
+            "noUnusedVariables": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": ["queries/*.graphql"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "useGraphqlNamedOperations": "off"
+          }
+        }
+      }
+    }
+  ]
+}

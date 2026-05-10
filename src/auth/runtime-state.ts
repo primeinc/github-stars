@@ -18,21 +18,25 @@
 // The transition is OBSERVED — not hidden. The effective_mode field on
 // EffectiveAuth is what every workflow output and summary reads.
 
-import { assertNoMixedAuth, type EffectiveAuth, type ResolvedAuth } from './auth-mode.js';
+import {
+	assertNoMixedAuth,
+	type EffectiveAuth,
+	type ResolvedAuth,
+} from "./auth-mode.js";
 
 export type RuntimeFailure = {
-  /** Where the failure occurred ("star_fetch", "repo_write"). */
-  role: 'star_fetch' | 'repo_write';
-  /** What credential was attempted (matches selected_mode). */
-  attempted: ResolvedAuth['selected_mode'];
-  /** Underlying error. */
-  error: Error;
+	/** Where the failure occurred ("star_fetch", "repo_write"). */
+	role: "star_fetch" | "repo_write";
+	/** What credential was attempted (matches selected_mode). */
+	attempted: ResolvedAuth["selected_mode"];
+	/** Underlying error. */
+	error: Error;
 };
 
 export type RuntimeContext = {
-  warn?: (msg: string) => void;
-  /** True iff GITHUB_TOKEN is available to act as fallback target. */
-  has_github_token_at_runtime: boolean;
+	warn?: (msg: string) => void;
+	/** True iff GITHUB_TOKEN is available to act as fallback target. */
+	has_github_token_at_runtime: boolean;
 };
 
 /**
@@ -40,13 +44,13 @@ export type RuntimeContext = {
  * No transition has fired yet, so effective_mode == selected_mode.
  */
 export function startEffective(resolved: ResolvedAuth): EffectiveAuth {
-  const e: EffectiveAuth = {
-    ...resolved,
-    effective_mode: resolved.selected_mode,
-    fallback_fired: false,
-  };
-  assertNoMixedAuth(e);
-  return e;
+	const e: EffectiveAuth = {
+		...resolved,
+		effective_mode: resolved.selected_mode,
+		fallback_fired: false,
+	};
+	assertNoMixedAuth(e);
+	return e;
 }
 
 /**
@@ -58,47 +62,47 @@ export function startEffective(resolved: ResolvedAuth): EffectiveAuth {
  * never one-role-only.
  */
 export function applyRuntimeFailure(
-  current: EffectiveAuth,
-  failure: RuntimeFailure,
-  ctx: RuntimeContext
+	current: EffectiveAuth,
+	failure: RuntimeFailure,
+	ctx: RuntimeContext,
 ): EffectiveAuth {
-  // github_app: doctrine says NEVER fall back. Always hard-fail.
-  if (current.selected_mode === 'github_app') {
-    throw failure.error;
-  }
+	// github_app: doctrine says NEVER fall back. Always hard-fail.
+	if (current.selected_mode === "github_app") {
+		throw failure.error;
+	}
 
-  // github_token already in effect: nothing further to fall back to.
-  if (current.effective_mode === 'github_token') {
-    throw failure.error;
-  }
+	// github_token already in effect: nothing further to fall back to.
+	if (current.effective_mode === "github_token") {
+		throw failure.error;
+	}
 
-  // pat mode: respect the fallback flag.
-  if (current.selected_mode === 'pat') {
-    if (!current.pat_fallback_to_github_token) {
-      throw failure.error;
-    }
-    if (!ctx.has_github_token_at_runtime) {
-      throw failure.error;
-    }
-    ctx.warn?.(
-      `pat-mode runtime failure on role=${failure.role} ` +
-        `(attempted=${failure.attempted}). pat_fallback_to_github_token=true ` +
-        `and GITHUB_TOKEN available; transitioning effective_mode to github_token. ` +
-        `Subsequent roles will use GITHUB_TOKEN identity.`
-    );
-    const next: EffectiveAuth = {
-      ...current,
-      effective_mode: 'github_token',
-      star_fetch_auth: 'github_token',
-      repo_write_auth: 'github_token',
-      degraded: true,
-      reason: `${current.reason} | runtime fallback: pat -> github_token (${failure.role})`,
-      fallback_fired: true,
-    };
-    assertNoMixedAuth(next);
-    return next;
-  }
+	// pat mode: respect the fallback flag.
+	if (current.selected_mode === "pat") {
+		if (!current.pat_fallback_to_github_token) {
+			throw failure.error;
+		}
+		if (!ctx.has_github_token_at_runtime) {
+			throw failure.error;
+		}
+		ctx.warn?.(
+			`pat-mode runtime failure on role=${failure.role} ` +
+				`(attempted=${failure.attempted}). pat_fallback_to_github_token=true ` +
+				`and GITHUB_TOKEN available; transitioning effective_mode to github_token. ` +
+				`Subsequent roles will use GITHUB_TOKEN identity.`,
+		);
+		const next: EffectiveAuth = {
+			...current,
+			effective_mode: "github_token",
+			star_fetch_auth: "github_token",
+			repo_write_auth: "github_token",
+			degraded: true,
+			reason: `${current.reason} | runtime fallback: pat -> github_token (${failure.role})`,
+			fallback_fired: true,
+		};
+		assertNoMixedAuth(next);
+		return next;
+	}
 
-  // Should be unreachable, but defensive.
-  throw failure.error;
+	// Should be unreachable, but defensive.
+	throw failure.error;
 }

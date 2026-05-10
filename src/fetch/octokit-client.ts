@@ -8,25 +8,25 @@
 // with errors[]) and converts the latter into a synthesized 500 so the
 // bottleneck retry path triggers. Honors Retry-After.
 
-import { Octokit } from '@octokit/core';
-import { retry } from '@octokit/plugin-retry';
-import { requestLog } from '@octokit/plugin-request-log';
+import { Octokit } from "@octokit/core";
+import { requestLog } from "@octokit/plugin-request-log";
+import { retry } from "@octokit/plugin-retry";
 
 const RetryingOctokit = Octokit.plugin(retry, requestLog);
 
 export type OctokitClient = InstanceType<typeof RetryingOctokit>;
 
 export type ClientOptions = {
-  token: string;
-  /** Default 5; matches the prior workflow setting. */
-  retries?: number;
-  userAgent?: string;
+	token: string;
+	/** Default 5; matches the prior workflow setting. */
+	retries?: number;
+	userAgent?: string;
 };
 
 export function createOctokit(opts: ClientOptions): OctokitClient {
-  return new RetryingOctokit({
-    auth: opts.token,
-    userAgent: opts.userAgent ?? 'github-stars-control-plane',
-    request: { retries: opts.retries ?? 5 },
-  });
+	return new RetryingOctokit({
+		auth: opts.token,
+		userAgent: opts.userAgent ?? "github-stars-control-plane",
+		request: { retries: opts.retries ?? 5 },
+	});
 }
