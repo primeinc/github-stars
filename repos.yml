@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-10T07:35:34.030Z'
+  manifest_updated_at: '2026-05-10T07:36:07.967Z'
   total_repos: 2612
   generator_version: v1.0.0
   github_user: primeinc
@@ -10166,13 +10166,18 @@ repositories:
     framework: null
   - repo: shaka-project/shaka-packager
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - web-dev
+    tags:
+      - media-packaging
+      - vod
+      - dash
+      - lang:cpp
     summary: A media packaging and development framework for VOD and Live DASH and HLS applications, supporting Common Encryption for Widevine and other DRM Systems.
     last_synced_sha: b1580dd18b804a5d082d50558da38bca4acdef6a
     user_starred_at: '2026-02-24T04:30:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics: []
@@ -10190,15 +10195,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.848Z'
+      prompt_version: v3
   - repo: ashishpatel26/500-AI-Agents-Projects
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - ai-agents
+      - genai
+      - curated-projects
     summary: The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation...
     last_synced_sha: 6a5769e9f3cc61dbd525e2419a1b779911bf8a97
     user_starred_at: '2026-02-24T04:26:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -10218,15 +10231,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.848Z'
+      prompt_version: v3
   - repo: megakode/wallrus
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - desktop-dev
+    tags:
+      - wallpaper
+      - graphic-effects
+      - gtk4
+      - lang:rust
     summary: Gnome (GTK4) application to generate colorful wallpapers based on gradients and different effects.
     last_synced_sha: 18e65463a2ab3d215d3dfe01c66a17c914b6c755
     user_starred_at: '2026-02-24T04:25:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -10244,15 +10266,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.848Z'
+      prompt_version: v3
   - repo: timeframe/ha-addon
     categories:
-      - unclassified
-    tags: []
+      - embedded
+      - system-admin
+    tags:
+      - home-assistant
+      - epaper-displays
+      - smart-home
+      - lang:ruby
     summary: An e-paper calendar, weather, and smart home family dashboard for Home Assistant
     last_synced_sha: d16f86060481dda672b8b54a2e62a96e0fee7a55
     user_starred_at: '2026-02-24T04:25:13Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Ruby
       topics:
@@ -10273,15 +10304,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.848Z'
+      prompt_version: v3
   - repo: cvhariharan/flowctl
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+      - productivity
+    tags:
+      - workflow-automation
+      - platform-engineering
+      - scheduler
+      - lang:go
     summary: An open source self-service workflow execution platform
     last_synced_sha: 29677e39954b1cfa435118dc030c88854edabaf9
     user_starred_at: '2026-02-24T04:24:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -10307,15 +10348,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.848Z'
+      prompt_version: v3
   - repo: puzpuzpuz/go-concurrent-map-bench
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - dev-tools
+    tags:
+      - concurrency
+      - benchmarking
+      - lang:go
     summary: Benchmarks for concurrent hash map implementations in Go
     last_synced_sha: 0ecb5de0789bfb82a018a5b5e4c8c7da52282606
     user_starred_at: '2026-02-24T04:23:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -10333,15 +10382,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.848Z'
+      prompt_version: v3
   - repo: longrackslabs/inbox-classifier
     categories:
+      - ai-ml
       - unclassified
-    tags: []
+    tags:
+      - classification
+      - email-filtering
+      - lang:python
     summary: No description provided
     last_synced_sha: 3c657a90b8c33a316114e25d2a1fe72b70a308e5
     user_starred_at: '2026-02-24T02:13:23Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -10359,15 +10416,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.848Z'
+      prompt_version: v3
   - repo: jjordanbaird/EmailVectorDB
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - email-parsing
+      - gpt-3-5
+      - vector-database
+      - lang:python
     summary: This project demonstrates how to parse emails, process them using Open AI's GPT-3.5, and load the data into a Weaviate vector database for enhanced search capabilities. Utilizing few-shot prompts a...
     last_synced_sha: 6e1b2248aa3059858b3d458f56e1c2e160b19ae5
     user_starred_at: '2026-02-23T19:59:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -10389,15 +10455,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.848Z'
+      prompt_version: v3
   - repo: SpecterShell/Dumplings
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - resource-management
+      - package-linter
+      - lang:powershell
     summary: Dump remote resources and lint outdated packages
     last_synced_sha: 898b7fd99dc48f88f59fa30525dbc1bd83beff6c
     user_starred_at: '2026-02-23T11:32:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics: []
@@ -10415,15 +10489,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.848Z'
+      prompt_version: v3
   - repo: open-mercato/open-mercato
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - ai-ml
+      - productivity
+    tags:
+      - ai-engineering
+      - crm
+      - multi-tenancy
+      - lang:ts
     summary: AI-Engineering Foundation Framework built with AI and designed for AI. Hundreds of architectural and domain decisions (multi-tenancy, RBAC, event flow, pricing, sales pipeline,CRM/ERP processes) ar...
     last_synced_sha: 87ca1bcfdd1d95399f29f440d8f17b7d5e8c8914
     user_starred_at: '2026-02-22T10:18:05Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10447,15 +10531,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.848Z'
+      prompt_version: v3
   - repo: clash-verge-rev/clash-verge-rev
     categories:
-      - unclassified
-    tags: []
+      - networking
+      - desktop-dev
+    tags:
+      - proxy
+      - tauri
+      - modern-gui
+      - lang:ts
     summary: A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience
     last_synced_sha: 753dad7c400a8aca1eae3acf41c91c3283a8ffd1
     user_starred_at: '2026-02-22T10:17:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -10481,15 +10574,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.848Z'
+      prompt_version: v3
   - repo: storytold/artcraft
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - game-dev
+    tags:
+      - 3d-graphics
+      - image-generation
+      - filmmaking
+      - lang:rust
     summary: Art Craft is an intentional crafting engine for artists, designers, and filmmakers
     last_synced_sha: 220cf66dfc66a67c3d828a4dddc1a86daf267df0
     user_starred_at: '2026-02-22T10:16:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -10512,15 +10614,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.847Z'
+      prompt_version: v3
   - repo: zed-industries/zed
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - code-editor
+      - multiplayer
+      - gpui
+      - lang:rust
     summary: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
     last_synced_sha: c8f09caee42ea4e27991ca55257f6f9c7d7c67d2
     user_starred_at: '2026-02-22T10:15:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -10542,15 +10653,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.847Z'
+      prompt_version: v3
   - repo: firecracker-microvm/firecracker
     categories:
-      - unclassified
-    tags: []
+      - containers
+      - system-admin
+    tags:
+      - microvms
+      - virtualization
+      - serverless
+      - lang:rust
     summary: Secure and fast micro VMs for serverless computing.
     last_synced_sha: c3ee1f99d7c605b7e61017f495bdcb628b7770d8
     user_starred_at: '2026-02-22T10:15:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -10577,15 +10697,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.847Z'
+      prompt_version: v3
   - repo: google-research/timesfm
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - time-series
+      - foundation-models
+      - forecasting
+      - lang:python
     summary: Times FM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
     last_synced_sha: d720daa6786539c2566a44464fbda1019c0a82c0
     user_starred_at: '2026-02-22T10:14:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -10603,6 +10732,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:36:06.847Z'
+      prompt_version: v3
   - repo: roboflow/trackers
     categories:
       - ai-ml
