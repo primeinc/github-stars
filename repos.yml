@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-10T07:24:07.525Z'
+  manifest_updated_at: '2026-05-10T07:24:48.221Z'
   total_repos: 2612
   generator_version: v1.0.0
   github_user: primeinc
@@ -19152,13 +19152,20 @@ repositories:
     framework: null
   - repo: six2dez/burp-ai-agent
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+      - automation
+    tags:
+      - burp-suite
+      - ai
+      - lang:kotlin
+      - appsec
+      - scanning
     summary: Burp Suite extension that adds built-in MCP tooling, AI-assisted analysis, privacy controls, passive and active scanning and more
     last_synced_sha: ac3e1cfdadf1958fd7946a1d95df6de8f217cdac
     user_starred_at: '2026-01-29T15:52:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Kotlin
       topics:
@@ -19190,15 +19197,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.019Z'
+      prompt_version: v3
   - repo: raphaelsty/knowledge
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - search-engine
+      - knowledge-base
+      - lang:python
+      - bookmarks
     summary: Open-source personal bookmarks search engine
     last_synced_sha: f753e8a3539bea1cd5ef167453fd535793ab33dc
     user_starred_at: '2026-01-29T15:37:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -19223,15 +19239,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.019Z'
+      prompt_version: v3
   - repo: forrestchang/andrej-karpathy-skills
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - claude
+      - ai-analysis
+      - coding-improvements
     summary: A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
     last_synced_sha: 2c606141936f1eeef17fa3043a72095b4765b9c2
     user_starred_at: '2026-01-29T15:32:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -19249,15 +19273,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.019Z'
+      prompt_version: v3
   - repo: ITContractorsUnion/ITContractorsUnion
     categories:
+      - documentation
       - unclassified
-    tags: []
+    tags:
+      - lang:html
+      - downloadable-data
     summary: Repo For All Downloadable Data
     last_synced_sha: 3500507104eaad7c9a1575be334caf9c5631b712
     user_starred_at: '2026-01-29T15:30:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -19275,15 +19306,25 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.019Z'
+      prompt_version: v3
   - repo: HugoRCD/evlog
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - productivity
+    tags:
+      - logging
+      - observability
+      - lang:ts
+      - debugging
+      - nuxt
     summary: Digging through logs is not observability. It's hope. — wide events, structured errors, Type Script-first, every runtime.
     last_synced_sha: db4588411753ca6b4a8ee1633a94494f3f333fb1
     user_starred_at: '2026-01-29T15:26:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -19312,16 +19353,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: nuxtjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.019Z'
+      prompt_version: v3
   - repo: ssmisya/AdaReasoner
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - visual-reasoning
+      - tool-orchestration
+      - lang:jupyter-notebook
     summary: '[ICLR 2026] The official repository for the paper "Ada Reasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning".'
     last_synced_sha: 19c799dac15223abbcbeb80f843368d045933ba0
     user_starred_at: '2026-01-29T15:17:58Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics: []
@@ -19339,15 +19388,22 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.019Z'
+      prompt_version: v3
   - repo: microsoft/agentrc
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - repo-automation
+      - lang:ts
     summary: Get your repo ready for AI.
     last_synced_sha: b27657ce084559e37ff7ea601a5d4024b5967648
     user_starred_at: '2026-01-29T15:13:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -19365,15 +19421,23 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.019Z'
+      prompt_version: v3
   - repo: microsoft/bf-tree
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - system-admin
+    tags:
+      - range-index
+      - lang:rust
+      - concurrency
     summary: Bf-Tree is a modern read-write-optimized concurrent larger-than-memory range index in Rust from MS Research.
     last_synced_sha: 404db61382e35efb60c243403aa0fe5a83748046
     user_starred_at: '2026-01-29T10:40:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -19391,15 +19455,26 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.019Z'
+      prompt_version: v3
   - repo: CursorTouch/Windows-MCP
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - desktop-dev
+      - ai-ml
+    tags:
+      - windows
+      - mcp
+      - lang:python
+      - automation
+      - tools
     summary: MCP Server for Computer Use in Windows
     last_synced_sha: e81523329a018c17ce05247ed13d00ffa68fcd05
     user_starred_at: '2026-01-29T09:30:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -19423,15 +19498,20 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.019Z'
+      prompt_version: v3
   - repo: itsminhz/convex-smart-tags
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:ts
     summary: convex-smart-tags
     last_synced_sha: d269ea21557866e6b9df76ebf06320dbff76e337
     user_starred_at: '2026-01-29T08:42:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -19449,6 +19529,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.019Z'
+      prompt_version: v3
   - repo: xinyu1205/recognize-anything
     categories:
       - ai-ml
@@ -19903,13 +19987,17 @@ repositories:
     framework: null
   - repo: architecture-decision-record/architecture-decision-record
     categories:
-      - unclassified
-    tags: []
+      - learning
+      - documentation
+    tags:
+      - architectural-design
+      - adr
+      - project-management
     summary: Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation
     last_synced_sha: a5c0ed4e8c54d0f1f009f601a73e6571cea84f6d
     user_starred_at: '2026-01-28T03:15:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -19935,6 +20023,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.019Z'
+      prompt_version: v3
   - repo: tajo/ladle
     categories:
       - dev-tools
@@ -20397,13 +20489,18 @@ repositories:
     framework: null
   - repo: VoltAgent/awesome-openclaw-skills
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - awesome-list
+      - openclaw
+      - skills
+      - catalog
     summary: The awesome collection of Open Claw skills. 5,400+ skills filtered and categorized from the official Open Claw Skills Registry.🦞
     last_synced_sha: 0399eda05c2c9f80aef9bc701ac8287b9cc0af1b
     user_starred_at: '2026-01-27T01:56:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -20433,15 +20530,24 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.019Z'
+      prompt_version: v3
   - repo: openclaw/openclaw
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - automation
+    tags:
+      - ai
+      - personal-assistant
+      - lang:ts
     summary: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
     last_synced_sha: 4643ec761b615dce2188dd6efc5e336f8bf9dc97
     user_starred_at: '2026-01-27T01:49:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -20466,6 +20572,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.019Z'
+      prompt_version: v3
   - repo: sashyo/keylessh
     categories:
       - security
@@ -22163,13 +22273,19 @@ repositories:
     framework: null
   - repo: pedronauck/docz
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ui-libraries
+    tags:
+      - design-system
+      - docs
+      - documentation
+      - lang:ts
+      - react
     summary: ✍ It has never been so easy to document your things!
     last_synced_sha: e0a53cb64fa8bb7a9e02f4f39eada7f74566dd3c
     user_starred_at: '2026-01-25T22:10:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     archived: true
     github_metadata:
       language: TypeScript
@@ -22198,7 +22314,11 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
-    framework: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.019Z'
+      prompt_version: v3
   - repo: chakra-ui/ark
     categories:
       - ui-libraries
@@ -22667,13 +22787,17 @@ repositories:
     framework: null
   - repo: gastownhall/beads
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - agents
+      - coding
+      - lang:go
     summary: Beads - A memory upgrade for your coding agent
     last_synced_sha: c62f012d8aa9be3c865137b3afa965746f853b81
     user_starred_at: '2026-01-24T09:05:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -22694,6 +22818,10 @@ repositories:
       is_mirror: false
       mirror_url: null
     framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-10T07:24:47.018Z'
+      prompt_version: v3
   - repo: permissionlesstech/bitchat
     categories:
       - networking
