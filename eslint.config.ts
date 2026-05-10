@@ -36,12 +36,23 @@
 import { type Config, defineConfig } from "eslint/config";
 import jsdoc from "eslint-plugin-jsdoc";
 import nodePlugin from "eslint-plugin-n";
-// eslint-plugin-security ships JS only; no .d.ts. The TS compiler
-// would emit TS7016 ("Could not find a declaration file"); we silence
-// it once at the import site and cast the runtime value to a minimal
-// shape so flat-config consumers can spread `configs.recommended`
-// without `any`-leaking through the rest of the file.
-// @ts-expect-error TS7016: eslint-plugin-security has no .d.ts shipped.
+// eslint-plugin-security ships JS only; types live in DefinitelyTyped
+// per the canonical README L88-95
+// (refs/eslint-community/eslint-plugin-security/README.md):
+//
+//   "Type definitions for this package are managed by DefinitelyTyped.
+//    Use @types/eslint-plugin-security for type checking."
+//
+// HOWEVER: the DefinitelyTyped package (@types/eslint-plugin-security
+// @3.0.1) depends on @types/eslint@*, which currently resolves to
+// 9.6.1 — pre-eslint-10 — and that version's `Linter.LanguageOptions`
+// shape conflicts with @eslint/core's newer LanguageOptions used by
+// our defineConfig import from eslint/config. Until the @types
+// package catches up to eslint 10, we silence TS7016 once at the
+// import site and cast the runtime value to a minimal shape so the
+// rest of this file stays `any`-free.
+// @ts-expect-error TS7016: @types/eslint-plugin-security pulls a stale
+// @types/eslint that conflicts with eslint v10 / @eslint/core LanguageOptions.
 import securityPluginUntyped from "eslint-plugin-security";
 
 const securityPlugin = securityPluginUntyped as unknown as {
@@ -414,13 +425,32 @@ const config: Config[] = defineConfig(
 	},
 	// eslint-plugin-security recommended config. Enables detect-unsafe-regex,
 	// detect-eval-with-expression, detect-pseudoRandomBytes, detect-bidi-
-	// characters (Trojan Source), etc. detect-object-injection + detect-non-
-	// literal-fs-filename are off below (high false-positive in typed-record
-	// + host-io's whole job IS dynamic filenames).
+	// characters (Trojan Source), detect-non-literal-regexp, detect-non-
+	// literal-require, detect-no-csrf-before-method-override, detect-new-
+	// buffer, detect-buffer-noassert, detect-child-process, detect-disable-
+	// mustache-escape, detect-possible-timing-attacks. Two rules off below
+	// with citations.
 	securityPlugin.configs.recommended,
 	{
 		rules: {
+			// detect-object-injection: per the rule's own docs
+			// (refs/eslint-community/eslint-plugin-security/docs/rules/
+			// detect-object-injection.md L28): "This rule flags any
+			// expression in the form of `object[expression]` no matter
+			// where it occurs." That fires on every typed-record bracket
+			// access in this codebase — `record[k]` over a statically-
+			// known `Record<K, V>` is by definition safe under
+			// `noUncheckedIndexedAccess`. The plugin maintainers themselves
+			// flag this in their README L7: "This project will help
+			// identify potential security hotspots, but finds a lot of
+			// false positives which need triage by a human."
 			"security/detect-object-injection": "off",
+			// detect-non-literal-fs-filename: src/host-io/** IS the
+			// repo-wide boundary that takes dynamic filenames by design
+			// (eslint's no-restricted-imports above quarantines node:fs
+			// to that single dir). The rule fires in the exact place
+			// where it's wrong; outside host-io there are no node:fs
+			// imports for it to flag.
 			"security/detect-non-literal-fs-filename": "off",
 		},
 	},
