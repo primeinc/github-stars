@@ -1,23 +1,32 @@
 name: admin-branch-sync-guard
 
-# Per the protection-stage brief (rule #9): admin/control-plane
-# branches must not silently drift behind `main`. This workflow runs
-# on every PR that targets `main` from an `admin/*` head branch and
-# fails the PR if the head branch is behind main.
+# Per the protection-stage brief: the canonical admin/control-plane
+# lane is exactly one branch — `ghapp/repo-admin`. This guard runs
+# on every PR to `main` and enforces two invariants on that branch:
 #
-# Mechanism: GitHub's
-# `GET /repos/{owner}/{repo}/compare/{base}...{head}` returns
-# `behind_by` — the number of commits in `base` that are not present
-# in `head`. Anything > 0 means the admin PR is stale; the operator
-# must rebase or use the GitHub UI's "Update branch" button (which
-# calls `PUT /repos/{owner}/{repo}/pulls/{pull_number}/update-branch`
-# with the documented `expected_head_sha` for the safe path) before
-# the PR can merge.
+#   1. Behind-main check: `ghapp/repo-admin` must not silently drift
+#      behind `main`. Implemented via
+#      GET /repos/{owner}/{repo}/compare/{base}...{head} — `behind_by`
+#      counts commits in `main` that are not in the PR head. Anything
+#      > 0 fails the gate. Operator unblocks by rebase or by clicking
+#      "Update branch" in the PR UI (which calls
+#      PUT /repos/{owner}/{repo}/pulls/{pull_number}/update-branch
+#      with `expected_head_sha` for the stale-head guard).
 #
-# The 00f-sync-next-with-main.yml workflow uses the same
-# update-branch API for the `next -> main` release PR flow; this
-# workflow is the analogous read-only check for the admin/* PR
-# class.
+#   2. Path-scope check: `ghapp/repo-admin -> main` may ONLY modify
+#      admin/control-plane files. Anything outside the allowed set
+#      fails the gate so unrelated changes can't ride in on an admin
+#      PR. Allowed paths (Medium scope per brief):
+#        - .github/workflows/00*.yml
+#        - .github-stars/control-plane/**
+#        - AGENTS.md
+#        - docs/automation/**
+#        - docs/security.md
+#        - .github/PULL_REQUEST_TEMPLATE.md
+#
+# Pass-through for non-`ghapp/repo-admin` heads so this check name
+# remains a viable required-status-check on every PR to main —
+# required checks that never run leave the PR perpetually pending.
 
 on:
   pull_request:
@@ -34,61 +43,121 @@ permissions:
   contents: read
   pull-requests: read
 
+env:
+  ADMIN_LANE_BRANCH: ghapp/repo-admin
+
 jobs:
   admin-branch-sync-guard:
     name: admin-branch-sync-guard
     runs-on: ubuntu-latest
     steps:
-      - name: Compare head to base (admin/* only)
-        # Pass-through for non-admin heads so this check name remains
-        # available as a required status check on every PR to main —
-        # required checks that never run leave the PR perpetually
-        # pending.
+      - name: Compare head to base + path-scope (ghapp/repo-admin only)
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
           BASE_REF: ${{ github.event.pull_request.base.ref }}
           HEAD_REF: ${{ github.event.pull_request.head.ref }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
           set -euo pipefail
 
           echo "base=${BASE_REF}"
           echo "head=${HEAD_REF}"
           echo "head_sha=${HEAD_SHA}"
+          echo "admin_lane=${ADMIN_LANE_BRANCH}"
 
-          case "${HEAD_REF}" in
-            admin/*)
-              echo "Admin/* head detected. Running behind-base check."
-              ;;
-            *)
-              echo "Non-admin head (${HEAD_REF}); admin sync guard does not apply. Pass."
-              exit 0
-              ;;
-          esac
+          if [ "${HEAD_REF}" != "${ADMIN_LANE_BRANCH}" ]; then
+            echo "Non-admin head (${HEAD_REF}); admin sync guard does not apply. Pass."
+            exit 0
+          fi
 
+          echo "Admin lane head detected. Running behind-base check + path-scope check."
+
+          # ----- behind-main check -----
           # `compare/{base}...{head}` per
           # https://docs.github.com/en/rest/commits/commits#compare-two-commits
-          # — `behind_by` counts commits in base that are not in head.
-          response=$(gh api \
+          # — `behind_by` counts commits in base not in head.
+          compare=$(gh api \
             -H "Accept: application/vnd.github+json" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
             "/repos/${REPO}/compare/${BASE_REF}...${HEAD_SHA}")
 
-          behind_by=$(jq -r '.behind_by' <<<"${response}")
-          ahead_by=$(jq -r '.ahead_by' <<<"${response}")
-          status=$(jq -r '.status' <<<"${response}")
+          behind_by=$(jq -r '.behind_by' <<<"${compare}")
+          ahead_by=$(jq -r '.ahead_by' <<<"${compare}")
+          status=$(jq -r '.status' <<<"${compare}")
 
           echo "ahead_by=${ahead_by}"
           echo "behind_by=${behind_by}"
           echo "status=${status}"
 
           if [ "${behind_by}" -gt 0 ]; then
-            echo "::error::admin/* PR head is ${behind_by} commit(s) behind ${BASE_REF}. Rebase or use the GitHub UI 'Update branch' button before this PR can merge. The update-branch API takes expected_head_sha=${HEAD_SHA} for the safe path."
+            echo "::error::ghapp/repo-admin PR head is ${behind_by} commit(s) behind ${BASE_REF}. Rebase or use the GitHub UI 'Update branch' button before this PR can merge. The update-branch API takes expected_head_sha=${HEAD_SHA} for the safe path."
             exit 1
           fi
 
-          echo "admin/* PR head is up to date with ${BASE_REF} (ahead_by=${ahead_by}, behind_by=0)."
+          echo "behind-main: OK (ahead_by=${ahead_by}, behind_by=0)"
+
+          # ----- path-scope check -----
+          # PRs from the admin lane may ONLY modify admin/control-plane
+          # paths (Medium scope). The
+          # GET /repos/{owner}/{repo}/pulls/{n}/files endpoint returns
+          # every changed path; we paginate to handle large PRs and
+          # match each path against an allow-list of glob patterns.
+          allowed_globs=(
+            ".github/workflows/00*.yml"
+            ".github-stars/control-plane/*"
+            ".github-stars/control-plane/**"
+            "AGENTS.md"
+            "docs/automation/*"
+            "docs/automation/**"
+            "docs/security.md"
+            ".github/PULL_REQUEST_TEMPLATE.md"
+          )
+
+          # bash glob match — enable extglob + globstar for `**`.
+          shopt -s extglob globstar nullglob
+
+          path_in_scope() {
+            local path="$1"
+            local glob
+            for glob in "${allowed_globs[@]}"; do
+              # shellcheck disable=SC2053  # intentional glob match, not literal
+              if [[ "${path}" == ${glob} ]]; then
+                return 0
+              fi
+            done
+            return 1
+          }
+
+          changed=$(gh api --paginate \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "/repos/${REPO}/pulls/${PR_NUMBER}/files" \
+            --jq '.[].filename')
+
+          violations=()
+          while IFS= read -r path; do
+            [ -z "${path}" ] && continue
+            if ! path_in_scope "${path}"; then
+              violations+=("${path}")
+            fi
+          done <<<"${changed}"
+
+          if [ "${#violations[@]}" -gt 0 ]; then
+            echo "::error::ghapp/repo-admin PR touches paths outside the admin/control-plane scope. Move non-admin changes to a separate PR via 'next'. Out-of-scope paths:"
+            for p in "${violations[@]}"; do
+              echo "::error::  - ${p}"
+            done
+            echo ""
+            echo "Allowed paths (Medium scope):"
+            for g in "${allowed_globs[@]}"; do
+              echo "  - ${g}"
+            done
+            exit 1
+          fi
+
+          echo "path-scope: OK (all changed paths are within the admin/control-plane scope)"
 
       - name: Sync guard summary
         if: always()
@@ -96,8 +165,10 @@ jobs:
           {
             echo "# admin-branch-sync-guard"
             echo ""
-            echo "- Trigger: \`pull_request\` to \`main\` from \`admin/*\` head"
-            echo "- Mechanism: GitHub REST \`GET /repos/{owner}/{repo}/compare/{base}...{head}\`"
-            echo "- Block condition: \`behind_by > 0\`"
-            echo "- Unblock: rebase against \`${{ github.event.pull_request.base.ref }}\` or click \"Update branch\" in the PR UI (calls update-branch API with expected_head_sha)"
+            echo "- Trigger: \`pull_request\` to \`main\` from canonical \`${ADMIN_LANE_BRANCH}\` head"
+            echo "- Behind-main: GitHub REST \`GET /repos/{owner}/{repo}/compare/{base}...{head}\`, fail if \`behind_by > 0\`"
+            echo "- Path-scope: \`GET /repos/{owner}/{repo}/pulls/{n}/files\` with paginate, allow-list match"
+            echo "- Allowed paths (Medium scope): \`.github/workflows/00*.yml\`, \`.github-stars/control-plane/**\`, \`AGENTS.md\`, \`docs/automation/**\`, \`docs/security.md\`, \`.github/PULL_REQUEST_TEMPLATE.md\`"
+            echo "- Unblock-stale: rebase against \`${{ github.event.pull_request.base.ref }}\` or click \"Update branch\" in the PR UI (calls update-branch API with expected_head_sha)"
+            echo "- Unblock-paths: split out-of-scope changes to a separate PR via \`next\`"
           } >> "$GITHUB_STEP_SUMMARY"
