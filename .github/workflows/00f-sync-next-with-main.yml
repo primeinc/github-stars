@@ -1,0 +1,97 @@
+name: sync-next-with-main
+
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: 'sync updates the next -> main release PR branch; check only reports the target PR'
+        required: true
+        default: check
+        type: choice
+        options:
+          - check
+          - sync
+
+permissions:
+  contents: read
+
+jobs:
+  sync-next-with-main:
+    name: sync-next-with-main-${{ inputs.operation }}
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
+          permission-contents: write
+          permission-pull-requests: write
+
+      - name: Find and optionally update next -> main pull request branch
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          REPO: ${{ github.repository }}
+          OPERATION: ${{ inputs.operation }}
+        run: |
+          set -euo pipefail
+
+          owner="${REPO%%/*}"
+          repo_name="${REPO#*/}"
+          head_filter="${owner}:next"
+
+          gh_pr_api() {
+            gh api \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "$@"
+          }
+
+          pr_json=$(gh_pr_api "/repos/${REPO}/pulls?state=open&base=main&head=${head_filter}" \
+            | jq 'map(select(.head.ref == "next" and .head.repo.full_name == .base.repo.full_name and .base.ref == "main"))')
+
+          count=$(jq 'length' <<<"${pr_json}")
+          if [ "${count}" -eq 0 ]; then
+            echo "::error::No open repo-owned next -> main pull request found. Create that PR first; GitHub's documented update-branch API operates on a pull request."
+            exit 1
+          fi
+
+          if [ "${count}" -gt 1 ]; then
+            echo "::error::Multiple open next -> main pull requests found; refusing to choose."
+            jq -r '.[] | "- #\(.number) \(.html_url)"' <<<"${pr_json}"
+            exit 1
+          fi
+
+          pr_number=$(jq -r '.[0].number' <<<"${pr_json}")
+          head_sha=$(jq -r '.[0].head.sha' <<<"${pr_json}")
+          html_url=$(jq -r '.[0].html_url' <<<"${pr_json}")
+
+          echo "release_pr=#${pr_number}"
+          echo "release_pr_url=${html_url}"
+          echo "head_sha=${head_sha}"
+
+          if [ "${OPERATION}" = "check" ]; then
+            echo "Check only: next -> main PR exists and can be updated by this workflow."
+            exit 0
+          fi
+
+          gh_pr_api \
+            --method PUT \
+            "/repos/${REPO}/pulls/${pr_number}/update-branch" \
+            -f "expected_head_sha=${head_sha}"
+
+      - name: Sync summary
+        if: always()
+        run: |
+          {
+            echo "# Sync next with main"
+            echo ""
+            echo "- Operation: \`${{ inputs.operation }}\`"
+            echo "- Ref guard: \`refs/heads/main\` only"
+            echo "- Mechanism: GitHub REST \`PUT /repos/{owner}/{repo}/pulls/{pull_number}/update-branch\`"
+            echo "- Required App permissions: \`Pull requests: write\` and \`Contents: write\` for the head repository"
+          } >> "$GITHUB_STEP_SUMMARY"
