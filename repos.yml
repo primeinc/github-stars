@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-11T04:39:42.079Z'
+  manifest_updated_at: '2026-05-11T04:40:14.206Z'
   total_repos: 2618
   generator_version: v1.0.0
   github_user: primeinc
@@ -106805,13 +106805,18 @@ repositories:
     framework: null
   - repo: github/github-well-architected
     categories:
-      - unclassified
-    tags: []
+      - security
+      - productivity
+      - documentation
+    tags:
+      - design-thinking
+      - architecture
+      - lang:ts
     summary: Apply design thinking to build and ship your software securely and at scale with Git Hub
     last_synced_sha: d2b7ae66d59475308ccb22fd53cd38faf34b7882
     user_starred_at: '2026-05-11T03:55:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -106841,15 +106846,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-11T04:40:13.010Z'
+      prompt_version: v3
   - repo: octokit/webhooks-methods.js
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - webhooks
+      - methods
+      - lang:ts
     summary: Methods to handle Git Hub Webhook requests
     last_synced_sha: 15190102472079a4cf0ed573c4e1d3af666dcf4a
     user_starred_at: '2026-05-11T02:13:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -106872,15 +106886,24 @@ repositories:
         published_at: '2025-05-20T15:41:35Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-11T04:40:13.010Z'
+      prompt_version: v3
   - repo: octokit/webhooks.js
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - dev-tools
+    tags:
+      - webhooks
+      - sdk
+      - lang:ts
     summary: Git Hub webhook events toolset for Node.js
     last_synced_sha: b47e4b0049f8353d4ad796a5d0af26c4e568d732
     user_starred_at: '2026-05-11T02:08:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -106903,15 +106926,23 @@ repositories:
         published_at: '2025-12-03T18:02:05Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-11T04:40:13.010Z'
+      prompt_version: v3
   - repo: open-security-tools/ost-environment-gate
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+    tags:
+      - environment-gate
+      - lang:rust
     summary: No description provided
     last_synced_sha: 7eb8d66f44d48eec173c8e9bd75e33d95ebc8219
     user_starred_at: '2026-05-11T02:05:26Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -106928,15 +106959,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-11T04:40:13.010Z'
+      prompt_version: v3
   - repo: github/ruleset-recipes
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - automation
+      - productivity
+    tags:
+      - repository-rules
+      - rulesets
     summary: Quickstart your use of Repository Rules with prebuilt rulesets ready to import.
     last_synced_sha: 82adf8954a5cafb9722c18c421b9834c24ec0cd0
     user_starred_at: '2026-05-11T01:53:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -106953,15 +106993,23 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-11T04:40:13.010Z'
+      prompt_version: v3
   - repo: ukhsa-collaboration/standards-org
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - productivity
+    tags:
+      - standards
+      - lang:js
     summary: UKHSA organisation standards
     last_synced_sha: 314970c7b690da4395baad8a2bf51efdf85936c2
     user_starred_at: '2026-05-11T01:51:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -106978,3 +107026,8 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-11T04:40:13.009Z'
+      prompt_version: v3
