@@ -1,0 +1,31 @@
+name: DoNotMergeYet label gate
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - edited
+      - labeled
+      - unlabeled
+      - ready_for_review
+
+permissions:
+  contents: read
+
+jobs:
+  do-not-merge-yet:
+    name: do-not-merge-yet
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail when PR has DoNotMergeYet label
+        run: |
+          set -euo pipefail
+
+          if jq -e '.pull_request.labels[]? | select(.name == "DoNotMergeYet")' "$GITHUB_EVENT_PATH" >/dev/null; then
+            echo "::error::This pull request has the DoNotMergeYet label. Remove the label before merging."
+            exit 1
+          fi
+
+          echo "No DoNotMergeYet label present."
