@@ -180,7 +180,7 @@ this commit. "Conc." is the concurrency stanza added.
 | 00b-web-ci.yml | `bun web build` | `build succeeds` | `pull_request: [main, next]` + `push: [main, next]` (paths-filtered on push) | true |
 | 00c-main-release-guard.yml | `gh-action protected branch` | `src branch allowed` | `pull_request: [main]` | true |
 | 00d-gh-action-branch-staleness.yml | `gh-action branch staleness` | `head matches main` | `pull_request: [main]` | true |
-| 00e-branch-rulesets.yml | `branch-rulesets` | `branch-rulesets-check` / `branch-rulesets-upsert` | `workflow_dispatch` | **false** (mutation) |
+| 00e-branch-rulesets.yml | `branch-rulesets` | `branch-rulesets-check` / `branch-rulesets-upsert` | `push: [main]` (paths-filtered) + `workflow_dispatch` | **false** (mutation) |
 | 00f-sync-protected-branches-with-main.yml | `sync-protected-branches-with-main` | `sync-protected-branches-with-main` | `push: [main]` + `workflow_dispatch` | **false** (mutation) |
 | 00h-gh-action-file-allowlist.yml | `gh-action file allowlist` | `only allowed files` | `pull_request: [main]` | true |
 | 00i-gh-app-credentials.yml | `gh-app credentials` | `token + install` | `pull_request: [main]` | true |
@@ -198,8 +198,15 @@ Notes:
   doesn't need to re-run on non-web pushes), but the `pull_request`
   trigger has NO `paths:` filter — non-web PRs must still get a green
   status for the required check to clear.
-- 00e is operator-dispatched only. It is NOT a required status check
-  on any ruleset — it's the workflow that OPERATES the rulesets.
+- 00e has a self-bootstrap path: a push to `main` that touches the
+  ruleset specs (`.github-stars/control-plane/rulesets/**`) or 00e
+  itself (`.github/workflows/00e-branch-rulesets.yml`) automatically
+  upserts the live rulesets with `enforcement=active`. The
+  `workflow_dispatch` form is kept for human-driven ops (drift checks,
+  enforcement toggle, manual re-upsert) and still requires the
+  `confirm_upsert=APPLY_RULESETS` typed-string guard on that path.
+  00e is NOT a required status check on any ruleset — it OPERATES
+  the rulesets, it doesn't gate PRs.
 - 00f post-merge sync runs on `push: [main]`, not on `pull_request`
   — the work it does (calling `update-branch` and PATCHing
   `git/refs/heads/<branch>`) is only meaningful AFTER the merge to

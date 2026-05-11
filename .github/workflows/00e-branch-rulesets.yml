@@ -9,18 +9,26 @@ name: branch-rulesets
 #   - upsert (gated):   render + create-or-update the live rulesets
 #            via PUT /repos/{owner}/{repo}/rulesets/{id}.
 #
-# Per Copilot review on PR #81 (00e:36) and per
-# ../refs/github/docs/data/reusables/actions/jobs/section-using-
-# environments-for-jobs.md: the `environment:` job key takes a
-# single name string (or an object with name+url). It does not
-# accept an empty-string expression. Split into two jobs so only
-# the upsert job declares `environment: github-admin`. Bash logic
-# is duplicated inline in each job rather than sourced from a
-# shared file — that's the simpler, more idiomatic shape and
-# avoids spreading the path-scope allow-list to a non-rulesets
-# directory.
+# Split into two jobs (check vs upsert) per Copilot review on PR #81
+# (00e:36). Bash logic is duplicated inline in each job rather than
+# sourced from a shared file — that's the simpler, more idiomatic
+# shape and avoids spreading the admin-lane path-scope allow-list to
+# a non-rulesets directory.
 
 on:
+  # Self-bootstrap path: when a push to main touches either the
+  # tracked ruleset specs or this workflow file, automatically upsert
+  # the live rulesets with enforcement=active. No human dispatch
+  # click required. The same gates as workflow_dispatch (ref-guard +
+  # App-token mint) keep this safe; the typed-string confirmation is
+  # only meaningful for human operators on workflow_dispatch and is
+  # skipped on the push path.
+  push:
+    branches:
+      - main
+    paths:
+      - '.github-stars/control-plane/rulesets/**'
+      - '.github/workflows/00e-branch-rulesets.yml'
   workflow_dispatch:
     inputs:
       operation:
@@ -59,7 +67,7 @@ concurrency:
 jobs:
   # ----------------------------------------------------------------
   # check: always runs. Renders specs, diffs against live rulesets,
-  # fails on drift. No environment gate; this path is read-only.
+  # fails on drift. Read-only.
   # ----------------------------------------------------------------
   check:
     name: branch-rulesets-check
@@ -83,7 +91,9 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           REPO: ${{ github.repository }}
-          ENFORCEMENT: ${{ inputs.enforcement }}
+          # On push: the self-bootstrap path renders enforcement=active,
+          # so the drift check must compare against the same shape.
+          ENFORCEMENT: ${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || 'active' }}
           GH_APP_ID: ${{ vars.GH_APP_ID }}
           OPERATION: check
         run: |
@@ -213,19 +223,14 @@ jobs:
             echo "# Branch rulesets — check"
             echo ""
             echo "- Operation: \`check\` (drift report only; no mutation)"
-            echo "- Enforcement: \`${{ inputs.enforcement }}\`"
+            echo "- Enforcement: \`${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || 'active' }}\`"
+            echo "- Trigger: \`${{ github.event_name }}\`"
             echo "- Ref guard: \`refs/heads/main\` only"
             echo "- Specs: \`.github-stars/control-plane/rulesets/*.json\`"
             echo "- Bypass actor: GitHub App Integration from \`vars.GH_APP_ID\` (rendered at runtime)"
             echo "- App permission required: \`Administration: write\` on this repository"
           } >>"$GITHUB_STEP_SUMMARY"
 
-  # ----------------------------------------------------------------
-  # upsert: gated. Runs only when the operator dispatches
-  # operation=upsert AND confirm_upsert=APPLY_RULESETS. Declares
-  # `environment: github-admin` so deployment protection rules
-  # (when configured) gate the actual mutation.
-  # ----------------------------------------------------------------
   # ----------------------------------------------------------------
   # upsert: gated. Runs INDEPENDENT of the `check` job — `check`
   # fails red when a ruleset does not yet exist (return 1 from
@@ -234,19 +239,39 @@ jobs:
   # own pre-state inspection (`ruleset_id_by_name` -> empty => POST,
   # non-empty => PUT) and post-upsert verification (`upsert_and_verify`
   # diffs the rendered spec against the live ruleset after writing).
-  # The `environment: github-admin` deployment-protection gate is
-  # what authorizes the mutation, not the check job.
+  #
+  # Two trigger paths:
+  #   - push to main on the ruleset specs / this workflow file:
+  #     self-bootstrap. enforcement=active. APPLY_RULESETS guard is
+  #     skipped (the push event itself — already gated by the admin
+  #     ruleset's required-status-checks once enforcement is on — IS
+  #     the authorization).
+  #   - workflow_dispatch with operation=upsert: human-driven.
+  #     Requires inputs.confirm_upsert == 'APPLY_RULESETS' as a
+  #     fat-finger guard. enforcement comes from inputs.enforcement.
+  #
+  # Authorization for the mutation is the combination of:
+  #   - `if: github.ref == 'refs/heads/main'` (only runs from main)
+  #   - On dispatch: APPLY_RULESETS typed-string guard.
+  #   - On push: paths-filter limited to the spec files + this
+  #     workflow itself, so unrelated commits do not trigger.
+  #   - GitHub App token with `Administration: write` (only mints when
+  #     vars.GH_APP_ID + secrets.GH_APP_PRIVATE_KEY match an installed App)
   # ----------------------------------------------------------------
   upsert:
     name: branch-rulesets-upsert
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' && inputs.operation == 'upsert'
-    environment: github-admin
+    if: |
+      github.ref == 'refs/heads/main' && (
+        github.event_name == 'push' ||
+        (github.event_name == 'workflow_dispatch' && inputs.operation == 'upsert')
+      )
     steps:
       - name: Checkout tracked ruleset specs
         uses: actions/checkout@v6
 
-      - name: Validate upsert authorization
+      - name: Validate upsert authorization (workflow_dispatch only)
+        if: github.event_name == 'workflow_dispatch'
         env:
           CONFIRM_UPSERT: ${{ inputs.confirm_upsert }}
         run: |
@@ -270,7 +295,10 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           REPO: ${{ github.repository }}
-          ENFORCEMENT: ${{ inputs.enforcement }}
+          # enforcement source: workflow_dispatch -> inputs.enforcement
+          # (operator's choice); push -> 'active' (self-bootstrap path
+          # always lands the live rulesets enabled).
+          ENFORCEMENT: ${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || 'active' }}
           GH_APP_ID: ${{ vars.GH_APP_ID }}
           OPERATION: upsert
         run: |
@@ -419,10 +447,10 @@ jobs:
             echo "# Branch rulesets — upsert"
             echo ""
             echo "- Operation: \`upsert\` (create or update)"
-            echo "- Enforcement: \`${{ inputs.enforcement }}\`"
+            echo "- Enforcement: \`${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || 'active' }}\`"
+            echo "- Trigger: \`${{ github.event_name }}\`"
             echo "- Ref guard: \`refs/heads/main\` only"
             echo "- Confirmation: \`confirm_upsert=APPLY_RULESETS\` required"
-            echo "- Environment: \`github-admin\` (deployment protection rules apply if configured)"
             echo "- Specs: \`.github-stars/control-plane/rulesets/*.json\`"
             echo "- Bypass actor: GitHub App Integration from \`vars.GH_APP_ID\` (rendered at runtime)"
             echo "- App permission required: \`Administration: write\` on this repository"
