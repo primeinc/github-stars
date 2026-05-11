@@ -52,5 +52,11 @@
       "type": "deletion"
     }
   ],
-  "bypass_actors": []
+  "bypass_actors": [
+    {
+      "actor_id": 3663316,
+      "actor_type": "Integration",
+      "bypass_mode": "always"
+    }
+  ]
 }
