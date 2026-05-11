@@ -1,5 +1,5 @@
 ---
-name: 'bun web build'
+name: 'npm web build'
 
 on:
   # Run on EVERY PR to main/next (no paths filter) so this can be a

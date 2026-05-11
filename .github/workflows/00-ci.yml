@@ -1,5 +1,13 @@
 name: 'bun gate'
 
+# Workflow name is forward-looking and tracks the bun migration in
+# PR #79 (chore: modernization sprint — bun 1.3.13 + ts 6 + zod 4).
+# Until #79 merges, the implementation below still bootstraps pnpm
+# and invokes `pnpm gate`; renaming the status check on every step
+# of the migration would invalidate the ruleset binding. The job
+# `name:` (`all gates pass`) is the required-status-check context
+# in the rulesets and is toolchain-agnostic.
+
 on:
   pull_request:
     branches:
@@ -20,9 +28,12 @@ concurrency:
 jobs:
   gate:
     name: all gates pass
-    # `bun run gate` is the single readiness command per issue #69 lesson 1.
-    # Sub-stages: typecheck, test, validate (taxonomy + schema), generated
-    # artifact registry presence, actionlint workflow lint.
+    # `bun run gate` is the single readiness command per issue #69
+    # lesson 1, and the destination toolchain per PR #79. Until #79
+    # merges, this job bootstraps pnpm and invokes `pnpm gate` (the
+    # same sub-stages, just a different package manager). Sub-stages:
+    # typecheck, test, validate (taxonomy + schema), generated artifact
+    # registry presence, actionlint workflow lint.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -69,11 +80,11 @@ jobs:
       - name: pnpm gate
         run: pnpm gate
 
-      - name: bun gate summary
+      - name: pnpm gate summary
         if: always()
         run: |
           {
-            echo "# bun gate"
+            echo "# pnpm gate"
             echo ""
             echo "- Workflow: \`${{ github.workflow }}\`"
             echo "- Run ID: \`${{ github.run_id }}\`"
@@ -87,6 +98,6 @@ jobs:
             echo "- generated-artifacts registry presence"
             echo "- \`actionlint\` workflow lint"
             echo ""
-            echo "Web build/lint runs in the separate \`bun web build\` workflow (\`.github/workflows/00b-web-ci.yml\`)."
+            echo "Web build/lint runs in the separate \`npm web build\` workflow (\`.github/workflows/00b-web-ci.yml\`)."
             echo "Workflow-lint extra footgun guards run in the separate \`gh-action workflow lint\` workflow (\`.github/workflows/00j-gh-action-workflow-lint.yml\`)."
           } >> "$GITHUB_STEP_SUMMARY"

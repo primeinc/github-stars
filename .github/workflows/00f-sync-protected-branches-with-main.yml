@@ -322,7 +322,7 @@ jobs:
             echo "- GitHub App installation token (no PAT fallback)"
             echo "- Update-branch API: \`PUT /repos/{owner}/{repo}/pulls/{n}/update-branch\` with \`expected_head_sha\`"
             echo "- Fast-forward fallback for \`ghapp/repo-admin\` when no open PR: \`PATCH /repos/{owner}/{repo}/git/refs/heads/{branch}\` with \`force=false\` (FF-only)"
-            echo "- Compare API: \`GET /repos/{owner}/{repo}/compare/{branch}...main\` for FF-state inspection"
+            echo "- Compare API: \`GET /repos/{owner}/{repo}/compare/main...{branch}\` for FF-state inspection (basehead order yields \`ahead_by\` = commits in branch not in main, \`behind_by\` = commits in main not in branch)"
             echo ""
             echo "## Downstream PR unblock condition"
             echo "Downstream PRs targeting either lane remain blocked until BOTH lanes are caught up to main. If either lane is stale or divergent, this workflow fails red and the operator must reconcile manually before the next push to main can clear the gate."

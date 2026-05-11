@@ -155,6 +155,6 @@ jobs:
             echo "- mixed-credential laundering guard (rejects \`STARS_TOKEN || GITHUB_TOKEN\` and \`app-token || secrets.\` patterns)"
             echo "- blocked-org name leakage guard (rejects \`blocked_orgs\` output / \`BLOCKED_ORGS\` env in workflow YAML)"
             echo ""
-            echo "actionlint runs inside \`pnpm gate\` (\`bun gate\` workflow)."
+            echo "actionlint runs inside \`pnpm gate\` (\`pnpm gate\` workflow)."
             echo "Tracking issue for richer dry-run gates: #62"
           } >> "$GITHUB_STEP_SUMMARY"

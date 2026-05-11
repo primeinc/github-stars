@@ -5,24 +5,52 @@ name: branch-rulesets
 # in two modes:
 #
 #   - check  (default): render specs at runtime, diff against the
-#            live rulesets, fail on drift. Read-only.
+#            live rulesets, fail on drift. Read-only. Mints an App
+#            token with `permission-administration: read`.
 #   - upsert (gated):   render + create-or-update the live rulesets
-#            via PUT /repos/{owner}/{repo}/rulesets/{id}.
+#            via PUT /repos/{owner}/{repo}/rulesets/{id}. Mints an
+#            App token with `permission-administration: write` and
+#            is gated by the `github-admin` GitHub Actions environment
+#            (required reviewers). See issue #82 for the doctrine.
 #
 # Split into two jobs (check vs upsert) per Copilot review on PR #81
 # (00e:36). Bash logic is duplicated inline in each job rather than
 # sourced from a shared file — that's the simpler, more idiomatic
 # shape and avoids spreading the admin-lane path-scope allow-list to
 # a non-rulesets directory.
+#
+# Authorization model (per issue #82):
+#
+#   - The GitHub App is the actor that performs the mutation, but
+#     the `environment: github-admin` on the upsert job is the
+#     boundary that controls WHEN the bot is allowed to receive
+#     mutation authority. Environment protection rules (required
+#     reviewers, branch restriction to main) must be configured in
+#     repository Settings → Environments → github-admin. The YAML
+#     alone is not the gate; the repo-side configuration is.
+#   - `deployment: false` is used so this gate does not emit
+#     deployment records (we are not deploying anything; we are
+#     reusing the environment approval mechanism as a credential
+#     release gate). Per GitHub docs, `deployment: false` is
+#     incompatible with custom deployment protection-rule Apps;
+#     this repo does not use those, so the trade-off is correct.
+#
+# Push-triggered self-bootstrap intentionally inherits the
+# enforcement value from the tracked spec JSON (currently
+# `disabled` for both specs). To activate enforcement, edit the
+# spec JSON and push — that change is itself reviewable, and the
+# upsert job will still wait for `github-admin` approval before
+# minting the write-capable App token. This is Option 2 from
+# issue #82 (no automatic activation without explicit operator
+# action).
 
 on:
   # Self-bootstrap path: when a push to main touches either the
-  # tracked ruleset specs or this workflow file, automatically upsert
-  # the live rulesets with enforcement=active. No human dispatch
-  # click required. The same gates as workflow_dispatch (ref-guard +
-  # App-token mint) keep this safe; the typed-string confirmation is
-  # only meaningful for human operators on workflow_dispatch and is
-  # skipped on the push path.
+  # tracked ruleset specs or this workflow file, the upsert job
+  # renders the live rulesets with the enforcement value read from
+  # the tracked JSON spec itself. The `github-admin` environment
+  # approval (configured in repo Settings) authorizes the bot
+  # credential release before the App token is minted.
   push:
     branches:
       - main
@@ -40,7 +68,7 @@ on:
           - check
           - upsert
       enforcement:
-        description: 'Ruleset enforcement mode'
+        description: 'Ruleset enforcement mode (workflow_dispatch only; push reads enforcement from tracked spec JSON)'
         required: true
         default: disabled
         type: choice
@@ -85,15 +113,21 @@ jobs:
           private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
           repositories: ${{ github.event.repository.name }}
-          permission-administration: write
+          # Read-only drift check. `GET /repos/{owner}/{repo}/rulesets`
+          # and `GET /repos/{owner}/{repo}/rulesets/{id}` only need
+          # `Administration: read`. Granting `write` here would be a
+          # credential-exposure surface for a job that does not mutate
+          # (issue #82, section C).
+          permission-administration: read
 
       - name: Check ruleset drift (read-only)
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           REPO: ${{ github.repository }}
-          # On push: the self-bootstrap path renders enforcement=active,
-          # so the drift check must compare against the same shape.
-          ENFORCEMENT: ${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || 'active' }}
+          # On push: the upsert job renders enforcement from the
+          # tracked spec JSON, so the drift check must compare
+          # against the same shape. On dispatch: operator's choice.
+          ENFORCEMENT_OVERRIDE: ${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || '' }}
           GH_APP_ID: ${{ vars.GH_APP_ID }}
           OPERATION: check
         run: |
@@ -175,10 +209,22 @@ jobs:
             # "pull_request means that an actor can only bypass rules
             # on pull requests" and "pull_request is only applicable
             # to branch rulesets." Strictly tighter than `always`.
+            #
+            # Enforcement resolution:
+            #   - workflow_dispatch: ENFORCEMENT_OVERRIDE = inputs.enforcement
+            #   - push: ENFORCEMENT_OVERRIDE empty → inherit the tracked
+            #     spec's own `.enforcement` value (currently `disabled`
+            #     for both specs; activation requires editing the JSON).
             local spec="$1"
             local rendered="$2"
+            local enforcement
+            if [ -n "${ENFORCEMENT_OVERRIDE}" ]; then
+              enforcement="${ENFORCEMENT_OVERRIDE}"
+            else
+              enforcement=$(jq -r '.enforcement' "${spec}")
+            fi
             jq \
-              --arg enforcement "${ENFORCEMENT}" \
+              --arg enforcement "${enforcement}" \
               --argjson app_id "${GH_APP_ID}" \
               '.enforcement = $enforcement
                | .bypass_actors = [
@@ -223,12 +269,12 @@ jobs:
             echo "# Branch rulesets — check"
             echo ""
             echo "- Operation: \`check\` (drift report only; no mutation)"
-            echo "- Enforcement: \`${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || 'active' }}\`"
+            echo "- Enforcement: \`${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || 'from tracked spec JSON' }}\`"
             echo "- Trigger: \`${{ github.event_name }}\`"
             echo "- Ref guard: \`refs/heads/main\` only"
             echo "- Specs: \`.github-stars/control-plane/rulesets/*.json\`"
             echo "- Bypass actor: GitHub App Integration from \`vars.GH_APP_ID\` (rendered at runtime)"
-            echo "- App permission required: \`Administration: write\` on this repository"
+            echo "- App permission required: \`Administration: read\` on this repository"
           } >>"$GITHUB_STEP_SUMMARY"
 
   # ----------------------------------------------------------------
@@ -242,16 +288,28 @@ jobs:
   #
   # Two trigger paths:
   #   - push to main on the ruleset specs / this workflow file:
-  #     self-bootstrap. enforcement=active. APPLY_RULESETS guard is
-  #     skipped (the push event itself — already gated by the admin
-  #     ruleset's required-status-checks once enforcement is on — IS
-  #     the authorization).
+  #     self-bootstrap. enforcement inherited from the tracked spec
+  #     JSON (currently `disabled` for both specs; activation
+  #     requires editing the JSON and pushing, which is itself a
+  #     reviewable change). APPLY_RULESETS guard is skipped on push
+  #     — the `github-admin` environment approval is the authorization.
   #   - workflow_dispatch with operation=upsert: human-driven.
   #     Requires inputs.confirm_upsert == 'APPLY_RULESETS' as a
   #     fat-finger guard. enforcement comes from inputs.enforcement.
+  #     The `github-admin` environment approval is still required
+  #     before the App token is minted.
   #
   # Authorization for the mutation is the combination of:
   #   - `if: github.ref == 'refs/heads/main'` (only runs from main)
+  #   - `environment: github-admin` (required reviewer approval +
+  #     environment-scoped credential release; see issue #82). The
+  #     environment must be pre-configured in repository Settings;
+  #     a missing environment is auto-created with NO protection
+  #     rules, so this guard is hollow until the operator configures
+  #     required reviewers + branch restriction to main.
+  #   - `deployment: false` so the gate runs without emitting
+  #     deployment records (we are not deploying; we are reusing
+  #     environment approval as a credential-release gate).
   #   - On dispatch: APPLY_RULESETS typed-string guard.
   #   - On push: paths-filter limited to the spec files + this
   #     workflow itself, so unrelated commits do not trigger.
@@ -261,6 +319,16 @@ jobs:
   upsert:
     name: branch-rulesets-upsert
     runs-on: ubuntu-latest
+    # `github-admin` is the canonical environment name from issue
+    # #82's acceptance criteria. `deployment: false` opts out of
+    # deployment-record emission while keeping required-reviewer
+    # protection. NOTE: if this environment does not exist in repo
+    # Settings, GitHub auto-creates it with NO protection rules; the
+    # gate is hollow until the operator configures required reviewers
+    # and branch restriction to main.
+    environment:
+      name: github-admin
+      deployment: false
     if: |
       github.ref == 'refs/heads/main' && (
         github.event_name == 'push' ||
@@ -295,10 +363,13 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           REPO: ${{ github.repository }}
-          # enforcement source: workflow_dispatch -> inputs.enforcement
-          # (operator's choice); push -> 'active' (self-bootstrap path
-          # always lands the live rulesets enabled).
-          ENFORCEMENT: ${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || 'active' }}
+          # Enforcement resolution:
+          #   workflow_dispatch -> ENFORCEMENT_OVERRIDE = inputs.enforcement
+          #   push              -> empty, inherit from tracked spec JSON
+          # render_spec() falls back to `.enforcement` from the spec
+          # file when ENFORCEMENT_OVERRIDE is empty (see check job
+          # for the matching shape).
+          ENFORCEMENT_OVERRIDE: ${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || '' }}
           GH_APP_ID: ${{ vars.GH_APP_ID }}
           OPERATION: upsert
         run: |
@@ -376,10 +447,21 @@ jobs:
           }
 
           render_spec() {
+            # Enforcement resolution (mirrors check job):
+            #   - workflow_dispatch: ENFORCEMENT_OVERRIDE = inputs.enforcement
+            #   - push: ENFORCEMENT_OVERRIDE empty → inherit `.enforcement`
+            #     from the tracked spec JSON. Activation therefore
+            #     requires editing the JSON (a reviewable change).
             local spec="$1"
             local rendered="$2"
+            local enforcement
+            if [ -n "${ENFORCEMENT_OVERRIDE}" ]; then
+              enforcement="${ENFORCEMENT_OVERRIDE}"
+            else
+              enforcement=$(jq -r '.enforcement' "${spec}")
+            fi
             jq \
-              --arg enforcement "${ENFORCEMENT}" \
+              --arg enforcement "${enforcement}" \
               --argjson app_id "${GH_APP_ID}" \
               '.enforcement = $enforcement
                | .bypass_actors = [
@@ -447,10 +529,11 @@ jobs:
             echo "# Branch rulesets — upsert"
             echo ""
             echo "- Operation: \`upsert\` (create or update)"
-            echo "- Enforcement: \`${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || 'active' }}\`"
+            echo "- Enforcement: \`${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || 'from tracked spec JSON' }}\`"
             echo "- Trigger: \`${{ github.event_name }}\`"
             echo "- Ref guard: \`refs/heads/main\` only"
-            echo "- Confirmation: \`confirm_upsert=APPLY_RULESETS\` required"
+            echo "- Environment: \`github-admin\` (\`deployment: false\`); environment approval authorizes bot credential release, the App is the actor that performs the mutation"
+            echo "- Confirmation (dispatch only): \`confirm_upsert=APPLY_RULESETS\` required"
             echo "- Specs: \`.github-stars/control-plane/rulesets/*.json\`"
             echo "- Bypass actor: GitHub App Integration from \`vars.GH_APP_ID\` (rendered at runtime)"
             echo "- App permission required: \`Administration: write\` on this repository"

@@ -169,15 +169,15 @@ but in-progress runs complete instead of being canceled.
 
 ## 4. Workflow-by-workflow mapping
 
-Eight workflow files in `.github/workflows/00*.yml`, mapped against
+Ten workflow files in `.github/workflows/00*.yml`, mapped against
 the doctrine above. "Trigger" reflects what the file MUST be after
 this commit. "Conc." is the concurrency stanza added.
 
 | File | Workflow `name` | Job `name` (status check) | Trigger | Conc. cancel |
 |---|---|---|---|---|
-| 00-ci.yml | `bun gate` | `all gates pass` | `pull_request: [main, next]` + `push: [main, next]` | true |
+| 00-ci.yml | `pnpm gate` | `all gates pass` | `pull_request: [main, next]` + `push: [main, next]` | true |
 | 00a-do-not-merge-yet.yml | `gh-action label gate` | `DoNotMergeYet absent` | `pull_request` (any base) | true |
-| 00b-web-ci.yml | `bun web build` | `build succeeds` | `pull_request: [main, next]` + `push: [main, next]` (paths-filtered on push) | true |
+| 00b-web-ci.yml | `npm web build` | `build succeeds` | `pull_request: [main, next]` + `push: [main, next]` (paths-filtered on push) | true |
 | 00c-main-release-guard.yml | `gh-action protected branch` | `src branch allowed` | `pull_request: [main]` | true |
 | 00d-gh-action-branch-staleness.yml | `gh-action branch staleness` | `head matches main` | `pull_request: [main]` | true |
 | 00e-branch-rulesets.yml | `branch-rulesets` | `branch-rulesets-check` / `branch-rulesets-upsert` | `push: [main]` (paths-filtered) + `workflow_dispatch` | **false** (mutation) |
