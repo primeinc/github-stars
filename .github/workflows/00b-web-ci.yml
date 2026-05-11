@@ -2,15 +2,18 @@
 name: 'Web CI'
 
 on:
-  # Run on EVERY PR to main (no paths filter) so this can be a required
-  # status check without leaving non-web PRs stuck on "pending". The
-  # build is ~15s; the cost is negligible. See `.sisyphus/proofs/02-AUDIT-on-main.md` G2.
+  # Run on EVERY PR to main/next (no paths filter) so this can be a
+  # required status check without leaving non-web PRs stuck on "pending".
+  # The build is ~15s; the cost is negligible. See
+  # `.sisyphus/proofs/02-AUDIT-on-main.md` G2.
   pull_request:
     branches:
       - main
+      - next
   push:
     branches:
       - main
+      - next
     paths:
       - 'web/**'
       - 'repos.yml'
