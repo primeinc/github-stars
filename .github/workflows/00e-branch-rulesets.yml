@@ -19,6 +19,11 @@ on:
         options:
           - disabled
           - active
+      confirm_upsert:
+        description: 'Required for operation=upsert: type APPLY_RULESETS'
+        required: false
+        default: ''
+        type: string
 
 permissions:
   contents: read
@@ -28,9 +33,21 @@ jobs:
     name: branch-rulesets-${{ inputs.operation }}
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
+    environment: ${{ inputs.operation == 'upsert' && 'github-admin' || '' }}
     steps:
       - name: Checkout tracked ruleset specs
         uses: actions/checkout@v6
+
+      - name: Validate upsert authorization
+        if: inputs.operation == 'upsert'
+        env:
+          CONFIRM_UPSERT: ${{ inputs.confirm_upsert }}
+        run: |
+          set -euo pipefail
+          if [ "${CONFIRM_UPSERT}" != "APPLY_RULESETS" ]; then
+            echo "::error::operation=upsert requires confirm_upsert=APPLY_RULESETS."
+            exit 1
+          fi
 
       - name: Create GitHub App token
         id: app-token
@@ -220,6 +237,8 @@ jobs:
             echo "- Operation: \`${{ inputs.operation }}\`"
             echo "- Enforcement: \`${{ inputs.enforcement }}\`"
             echo "- Ref guard: \`refs/heads/main\` only"
+            echo "- Upsert confirmation: \`confirm_upsert=APPLY_RULESETS\` required"
+            echo "- Upsert environment: \`github-admin\`"
             echo "- Specs: \`.github-stars/control-plane/rulesets/*.json\`"
             echo "- Bypass actor: GitHub App Integration from \`vars.GH_APP_ID\`"
             echo "- App permission required: \`Administration: write\` on this repository"
