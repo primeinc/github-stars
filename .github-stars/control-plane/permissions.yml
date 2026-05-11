@@ -1,0 +1,176 @@
+# GitHub App permission capability ledger
+#
+# Every permission granted to the `primeinc-github-stars` GitHub App
+# is enumerated here with: purpose, phase (when it's used), proof
+# (how we know it's actually used), and prune rule (when to revoke
+# or downgrade).
+#
+# Source issue: #73. Related: #69.
+#
+# Schema invariant: every permission entry has access, phase,
+# capability, proof_required, and prune_rule. The exact field set may
+# evolve; the discipline cannot.
+
+permissions:
+  contents:
+    access: write
+    phase: runtime
+    capability: |
+      Commit generated catalog artifacts (repos.yml, docs/data.json,
+      categories/*.md, tags/*.md) and update control-plane source via
+      the App-token-authenticated push step in 01-fetch-stars.yml,
+      02-sync-stars.yml, 03-classify-repos.yml, and
+      05-generate-readmes.yml.
+    proof_required:
+      - app-token checkout succeeds in workflows above
+      - direct push or PR created with App installation token
+      - workflow summary cites the commit SHA pushed under app identity
+    prune_rule: |
+      Keep while direct-write is the chosen path. Downgrade to read
+      only after the chain migrates to PR-only updates and
+      pages-build-deployment fires from a branch other than main.
+
+  workflows:
+    access: write
+    phase: bootstrap
+    capability: |
+      Repair and migrate `.github/workflows/*.yml` during the
+      modernization sprint (PR #79 - chore/bun-modernization), including
+      the branch-governance workflows that keep ordinary PRs on `next`
+      and reserve `main` for repo-owned `next` release PRs.
+    proof_required:
+      - PR modifies .github/workflows/* through App-backed flow
+      - workflow-lint job in 00-ci.yml validates structural changes
+      - main-release-guard workflow exists and can be required by ruleset
+    prune_rule: |
+      Downgrade to read once PR #79 lands and the bun toolchain plus
+      branch-governance workflow migration stabilizes. After that,
+      workflow YAML changes should come through PR review, not App-direct.
+
+  pull_requests:
+    access: write
+    phase: runtime
+    capability: |
+      00d-auto-retarget-main-prs.yml retargets non-release pull
+      requests away from `main` and onto `next`. The only allowed release
+      path into `main` is a PR whose head branch is repo-owned `next`.
+    proof_required:
+      - app-token minted with permission-pull-requests: write
+      - pull_request_target event on a non-next PR to main updates base to next
+      - workflow log records base/head/head_repo/base_repo before mutation
+    prune_rule: |
+      Keep while auto-retargeting is preferred. Downgrade if the ruleset
+      plus required check alone is sufficient and maintainers prefer hard
+      failure over bot retargeting.
+
+  issues:
+    access: write
+    phase: runtime
+    capability: |
+      00d-auto-retarget-main-prs.yml comments on retargeted PRs so the
+      contributor sees the branch policy. 03-classify-repos.yml also sets
+      `issues: write` for future router work (#73-related, not yet
+      implemented) that can open issues for classifier failures or
+      model-output review queues.
+    proof_required:
+      - auto-retarget workflow comments on a retargeted PR
+      - future router proof: created issue URL tied to classifier failure
+    prune_rule: |
+      Keep only if retarget comments or router issue creation remain
+      active. Downgrade to none if both surfaces are removed.
+
+  actions:
+    access: write
+    phase: runtime
+    capability: |
+      03-classify-repos.yml self-dispatches additional batches
+      (`actions.createWorkflowDispatch`) when unclassified repos
+      remain after a batch run.
+    proof_required:
+      - 03-classify-repos summary shows `Self-dispatched next batch`
+      - corresponding workflow_dispatch event in Actions audit log
+    prune_rule: |
+      Required as long as the classifier uses self-dispatch for
+      multi-batch processing. Reconsider if the classifier moves to a
+      single long-running job or becomes purely event-driven.
+
+  pages:
+    access: write
+    phase: runtime
+    capability: |
+      04-Build and Deploy Site uses `actions/deploy-pages@v4` to
+      publish docs/ to GitHub Pages.
+    proof_required:
+      - 04-Build and Deploy Site `deploy` job succeeds
+      - https://primeinc.github.io/github-stars/ serves the build
+    prune_rule: |
+      Keep while GitHub Pages is the deploy target. Drop if the site
+      moves to a different host (Vercel/Cloudflare/etc.).
+
+  id-token:
+    access: write
+    phase: runtime
+    capability: |
+      OIDC token minting for GitHub Pages deploy
+      (actions/deploy-pages@v4 requires id-token: write).
+    proof_required:
+      - 04-Build and Deploy Site `deploy` job succeeds without OIDC
+        errors
+    prune_rule: Tied to pages:write - drop with it.
+
+  administration:
+    access: write
+    phase: bootstrap/self-config
+    capability: |
+      Configure repository branch rulesets that protect `next` and
+      reserve `main` for release PRs from repo-owned `next`. GitHub's
+      repository ruleset API requires Administration repository
+      permission (write) for GitHub App installation tokens.
+    proof_required:
+      - App installation grants Administration: write on this repository
+      - ruleset creation/update run records the ruleset ids or settings URL
+      - `protect-next` targets refs/heads/next
+      - `protect-main-release-only` targets refs/heads/main and requires main-release-guard
+    prune_rule: |
+      Downgrade to read or remove after rulesets are created and stable,
+      unless the repo intentionally keeps App-managed ruleset drift repair.
+      This is high-authority bootstrap/self-config permission, not a
+      runtime catalog permission.
+
+  models:
+    access: read
+    phase: runtime
+    capability: |
+      03-classify-repos.yml uses `actions/ai-inference@v2` to call
+      GitHub Models for AI classification.
+    proof_required:
+      - 03-classify-repos `AI classify` step returns a non-empty
+        response file
+    prune_rule: |
+      Required while AI classification runs through GitHub Models.
+      Revisit when #71 lands the typed/grounded classifier - if it
+      moves to a different model surface, this permission goes away.
+
+# Permissions deliberately NOT granted (least-privilege evidence):
+# - checks: not granted; we don't currently use the Checks API
+# - deployments: not granted; pages handles the deploy surface
+# - metadata: implicit (read-only) per GitHub default
+# - packages: not granted; we don't publish packages
+# - secrets: not granted; setup-doctor reads env, not secrets API
+# - statuses: not granted; we use Checks via workflow run conclusions
+
+# Bucket classification (per #73 acceptance criteria):
+buckets:
+  runtime_core:
+    - contents
+    - models
+    - pages
+    - id-token
+    - actions
+  runtime_branch_governance:
+    - pull_requests
+    - issues
+  bootstrap_self_config:
+    - workflows
+    - administration
+  speculative_remove_unless_proven: []

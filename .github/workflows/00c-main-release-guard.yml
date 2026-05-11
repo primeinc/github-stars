@@ -1,0 +1,40 @@
+name: main-release-guard
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - edited
+      - ready_for_review
+
+permissions:
+  contents: read
+
+jobs:
+  main-release-guard:
+    name: main-release-guard
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require repo-owned next as source branch for main
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          BASE_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          echo "base=$BASE_REF"
+          echo "head=$HEAD_REF"
+          echo "head_repo=$HEAD_REPO"
+          echo "base_repo=$BASE_REPO"
+
+          if [ "$BASE_REF" = "main" ] && { [ "$HEAD_REF" != "next" ] || [ "$HEAD_REPO" != "$BASE_REPO" ]; }; then
+            echo "::error::PRs into main must come from the repo-owned next branch. Retarget feature/chore/fork PRs to next first."
+            exit 1
+          fi
+
+          echo "main release guard passed: repo-owned next is the source branch."

@@ -2,6 +2,53 @@
 
 This file contains instructions for AI agents (and human contributors) working on this codebase.
 
+## 0. Read-the-room rule (mandatory before writing code)
+
+**No implementation begins without first-party canonical evidence.**
+
+Required sequence on every implementation surface:
+
+```text
+read local refs (this file, the issue body+comments, the affected
+  workflow/source/test files, .github-stars/docs/* if relevant)
+  -> find upstream canonical implementation shape (../refs/* first;
+     first-party docs second; first-party source third; first-party
+     tests/fixtures fourth)
+  -> understand why upstream chose the shape (read the rationale,
+     not just the code)
+  -> map upstream shape to local constraints (host-io boundary, Zod
+     registry, telemetry doctrine, no-loose-zod, no-handrolling-SDKs)
+  -> write the smallest coherent patch
+  -> prove it with `bun run gate` (10 stages must pass) + targeted
+     tests
+```
+
+**Forbidden as primary authority:** blog posts, StackOverflow answers,
+LLM memory, unread search-result snippets, "I've done this before" in
+another repo. Practitioner sources are usable only after first-party
+sources are exhausted.
+
+**Every PR must include the read-the-room evidence block** specified
+in `.github/PULL_REQUEST_TEMPLATE.md`. No block, no merge.
+
+**Evidence labels** (use in PR body and completion comments):
+
+```text
+Direct evidence: exact local file, issue, upstream doc/source/test,
+  command output, workflow run, or artifact.
+Weak inference: plausible mapping from direct evidence but not
+  literally proven.
+Unsupported: claim not grounded in read evidence.
+Blocked: required source/file/tool unavailable.
+Contradicted: direct evidence conflicts with the implementation claim.
+```
+
+Source: issue #75. Doctrine: PRs that skip this rule produce YAML
+taxidermy and fake architecture; the rule is enforceable governance,
+not aspiration.
+
+
+
 ## 1. Project Overview
 This is a **TypeScript control plane orchestrated by GitHub Actions** for curating starred repositories. Per issue #69, runtime policy lives in typed modules under `src/`; workflow YAML is orchestration only.
 - **Core logic**: typed modules under `src/auth/`, `src/fetch/`, `src/sync/`, `src/diagnostics/`, `src/generated/`, `src/gate/`, plus the existing `src/manifest/`. Workflows under `.github/workflows/` invoke these via `pnpm <script>` rather than embedding business logic in YAML/JavaScript.

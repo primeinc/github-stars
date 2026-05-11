@@ -1,0 +1,168 @@
+name: bootstrap-branch-rulesets
+
+on:
+  workflow_dispatch:
+    inputs:
+      enforcement:
+        description: 'Ruleset enforcement mode: evaluate first, active when verified'
+        required: true
+        default: evaluate
+        type: choice
+        options:
+          - evaluate
+          - active
+          - disabled
+
+permissions:
+  contents: read
+
+jobs:
+  bootstrap:
+    name: bootstrap-branch-rulesets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ vars.GH_APP_CLIENT_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
+          permission-administration: write
+
+      - name: Upsert branch rulesets
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          REPO: ${{ github.repository }}
+          ENFORCEMENT: ${{ inputs.enforcement }}
+        run: |
+          set -euo pipefail
+
+          upsert_ruleset() {
+            local name="$1"
+            local payload="$2"
+            local id
+            id=$(gh api "/repos/${REPO}/rulesets?includes_parents=false" --jq ".[] | select(.name == \"${name}\") | .id" | head -n 1 || true)
+
+            if [ -n "${id}" ]; then
+              echo "Updating ruleset ${name} (${id})"
+              gh api \
+                --method PUT \
+                -H "Accept: application/vnd.github+json" \
+                -H "X-GitHub-Api-Version: 2022-11-28" \
+                "/repos/${REPO}/rulesets/${id}" \
+                --input "${payload}" \
+                --jq '{id, name, enforcement, html_url: ._links.html.href}'
+            else
+              echo "Creating ruleset ${name}"
+              gh api \
+                --method POST \
+                -H "Accept: application/vnd.github+json" \
+                -H "X-GitHub-Api-Version: 2022-11-28" \
+                "/repos/${REPO}/rulesets" \
+                --input "${payload}" \
+                --jq '{id, name, enforcement, html_url: ._links.html.href}'
+            fi
+          }
+
+          cat > /tmp/protect-next.json <<JSON
+          {
+            "name": "protect-next",
+            "target": "branch",
+            "enforcement": "${ENFORCEMENT}",
+            "conditions": {
+              "ref_name": {
+                "include": ["refs/heads/next"],
+                "exclude": []
+              }
+            },
+            "rules": [
+              {
+                "type": "pull_request",
+                "parameters": {
+                  "allowed_merge_methods": ["squash", "rebase"],
+                  "dismiss_stale_reviews_on_push": true,
+                  "require_code_owner_review": false,
+                  "require_last_push_approval": false,
+                  "required_approving_review_count": 0,
+                  "required_review_thread_resolution": true
+                }
+              },
+              {
+                "type": "required_status_checks",
+                "parameters": {
+                  "strict_required_status_checks_policy": true,
+                  "required_status_checks": [
+                    {"context": "gate"},
+                    {"context": "workflow-lint"},
+                    {"context": "build"}
+                  ]
+                }
+              },
+              {"type": "required_linear_history"},
+              {"type": "non_fast_forward"},
+              {"type": "deletion"}
+            ]
+          }
+          JSON
+
+          cat > /tmp/protect-main-release-only.json <<JSON
+          {
+            "name": "protect-main-release-only",
+            "target": "branch",
+            "enforcement": "${ENFORCEMENT}",
+            "conditions": {
+              "ref_name": {
+                "include": ["refs/heads/main"],
+                "exclude": []
+              }
+            },
+            "rules": [
+              {
+                "type": "pull_request",
+                "parameters": {
+                  "allowed_merge_methods": ["squash", "rebase"],
+                  "dismiss_stale_reviews_on_push": true,
+                  "require_code_owner_review": false,
+                  "require_last_push_approval": false,
+                  "required_approving_review_count": 0,
+                  "required_review_thread_resolution": true
+                }
+              },
+              {
+                "type": "required_status_checks",
+                "parameters": {
+                  "strict_required_status_checks_policy": true,
+                  "required_status_checks": [
+                    {"context": "main-release-guard"},
+                    {"context": "gate"},
+                    {"context": "workflow-lint"},
+                    {"context": "build"}
+                  ]
+                }
+              },
+              {"type": "required_linear_history"},
+              {"type": "non_fast_forward"},
+              {"type": "deletion"}
+            ]
+          }
+          JSON
+
+          jq . /tmp/protect-next.json
+          jq . /tmp/protect-main-release-only.json
+
+          upsert_ruleset "protect-next" /tmp/protect-next.json
+          upsert_ruleset "protect-main-release-only" /tmp/protect-main-release-only.json
+
+      - name: Ruleset summary
+        if: always()
+        run: |
+          {
+            echo "# Branch ruleset bootstrap"
+            echo ""
+            echo "- Enforcement: \`${{ inputs.enforcement }}\`"
+            echo "- Target rulesets: \`protect-next\`, \`protect-main-release-only\`"
+            echo "- App permission required: \`Administration: write\` on this repository"
+            echo "- After evaluate mode is clean, rerun with \`active\`."
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,59 @@
+name: auto-retarget-main-prs
+
+on:
+  pull_request_target:
+    branches:
+      - main
+    types:
+      - opened
+      - reopened
+      - edited
+      - ready_for_review
+
+permissions:
+  contents: read
+
+jobs:
+  retarget:
+    name: retarget-main-prs-to-next
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ vars.GH_APP_CLIENT_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
+          permission-pull-requests: write
+          permission-issues: write
+
+      - name: Retarget non-release PRs away from main
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          BASE_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          echo "base=$BASE_REF"
+          echo "head=$HEAD_REF"
+          echo "head_repo=$HEAD_REPO"
+          echo "base_repo=$BASE_REPO"
+
+          if [ "$BASE_REF" != "main" ]; then
+            echo "PR does not target main; no retarget needed."
+            exit 0
+          fi
+
+          if [ "$HEAD_REF" = "next" ] && [ "$HEAD_REPO" = "$BASE_REPO" ]; then
+            echo "PR is the repo-owned next -> main release path; no retarget needed."
+            exit 0
+          fi
+
+          gh pr edit "$PR_NUMBER" --repo "$REPO" --base next
+          gh pr comment "$PR_NUMBER" --repo "$REPO" --body "Retargeted to \`next\`. Branch policy is feature/chore/fork PRs -> \`next\`, then repo-owned \`next\` -> \`main\` for release."

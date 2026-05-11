@@ -24,136 +24,194 @@
 // This is the ONLY place mode-specific code lives. Both downstream stages
 // see the same StarListEntry[] shape regardless of which paginator ran.
 
-import { paginateStarList } from './list-paginator.js';
-import { paginateStarListViaRest, parseRestResumeToken } from './list-paginator-rest.js';
-import { fetchMetadataInBatches, DEFAULT_METADATA_BATCH_SIZE } from './metadata-batcher.js';
-import type { OctokitClient } from './octokit-client.js';
-import type { FetchOutcome } from './types.js';
+import { paginateStarList } from "./list-paginator.js";
+import {
+	paginateStarListViaRest,
+	parseRestResumeToken,
+} from "./list-paginator-rest.js";
+import {
+	DEFAULT_METADATA_BATCH_SIZE,
+	fetchMetadataInBatches,
+} from "./metadata-batcher.js";
+import type { OctokitClient } from "./octokit-client.js";
+import type { FetchOutcome } from "./types.js";
 
-export type SelectedMode = 'github_app' | 'pat' | 'github_token';
+/**
+ * Mode the doctor selected for this run. Drives which stage-1
+ * paginator runs ({@link "./list-paginator-rest" | REST} for App mode,
+ * {@link "./list-paginator" | GraphQL} for PAT/GITHUB_TOKEN modes).
+ * Subset of {@link "../auth/auth-mode".AuthMode}; the resolver
+ * narrows to this exact union before reaching the fetcher.
+ *
+ * @public
+ */
+export type SelectedMode = "github_app" | "pat" | "github_token";
 
+/**
+ * Options for {@link fetchStars}. The `octokit` is pre-authenticated
+ * for `selectedMode`'s credential class; this layer never touches the
+ * auth boundary.
+ *
+ * @public
+ */
 export type FetchStarsOptions = {
-  octokit: OctokitClient;
-  /** Drives which stage-1 implementation runs. */
-  selectedMode: SelectedMode;
-  /** Required when selectedMode === 'github_app' (REST endpoint takes a username). */
-  starSourceUser: string;
-  /** GraphQL list query (used by pat/github_token modes). */
-  listQuery: string;
-  /** GraphQL fragment (used by stage 2 in ALL modes). */
-  metadataFragment: string;
-  /**
-   * Resume token. Opaque to the caller:
-   *   - pat/github_token modes: GraphQL endCursor string
-   *   - github_app mode: REST page number as string
-   * Each paginator interprets its own format.
-   */
-  resumeCursor: string | null;
-  batchSize?: number;
-  log?: (msg: string) => void;
-  warn?: (msg: string) => void;
+	octokit: OctokitClient;
+	/** Drives which stage-1 implementation runs. */
+	selectedMode: SelectedMode;
+	/** Required when selectedMode === 'github_app' (REST endpoint takes a username). */
+	starSourceUser: string;
+	/** GraphQL list query (used by pat/github_token modes). */
+	listQuery: string;
+	/** GraphQL fragment (used by stage 2 in ALL modes). */
+	metadataFragment: string;
+	/**
+	 * Resume token. Opaque to the caller:
+	 *   - pat/github_token modes: GraphQL endCursor string
+	 *   - github_app mode: REST page number as string
+	 * Each paginator interprets its own format.
+	 */
+	resumeCursor: string | null;
+	batchSize?: number;
+	log?: (msg: string) => void;
+	warn?: (msg: string) => void;
 };
 
-export async function fetchStars(opts: FetchStarsOptions): Promise<FetchOutcome> {
-  const log = opts.log ?? (() => {});
-  const warn = opts.warn ?? (() => {});
+/**
+ * Run the two-stage star fetch end-to-end. Stage 1 paginates the
+ * star list under `selectedMode`'s endpoint shape; stage 2 fans out
+ * per-repo metadata in aliased GraphQL batches under all modes.
+ *
+ * @remarks
+ * On any partial failure, returns a {@link FetchOutcome} with a
+ * non-empty `partialFailureReason` AND any partial repos already
+ * gathered — the workflow writes the partial JSON anyway so a
+ * follow-up run can `RESUME_CURSOR=` from where this left off, then
+ * exits with a hard-fail.
+ *
+ * Per session-oracle verdict rule 8, blocked-org NAMES are NEVER
+ * emitted; only the count surfaces.
+ *
+ * @param opts - Pre-authenticated client + per-mode inputs.
+ * @returns The complete two-stage outcome.
+ *
+ * @public
+ */
+export async function fetchStars(
+	opts: FetchStarsOptions,
+): Promise<FetchOutcome> {
+	const log = opts.log ?? (() => {});
+	const warn = opts.warn ?? (() => {});
 
-  log(`Stage 1: paginating star list (mode=${opts.selectedMode})...`);
+	log(`Stage 1: paginating star list (mode=${opts.selectedMode})...`);
 
-  // Stage 1: branch on selected_mode. The "no mixed auth" doctrine is
-  // honored because both branches use opts.octokit, which the workflow
-  // built from selected_mode's credential. The branch picks an ENDPOINT,
-  // not a credential.
-  let stage1List: Array<{ repo: string; user_starred_at: string }>;
-  let stage1PageCount: number;
-  let stage1ResumeToken: string | null;
-  let stage1BlockedOrgs: Set<string>;
-  let stage1PartialFailure: string;
+	// Stage 1: branch on selected_mode. The "no mixed auth" doctrine is
+	// honored because both branches use opts.octokit, which the workflow
+	// built from selected_mode's credential. The branch picks an ENDPOINT,
+	// not a credential.
+	let stage1List: Array<{ repo: string; user_starred_at: string }>;
+	let stage1PageCount: number;
+	let stage1ResumeToken: string | null;
+	let stage1BlockedOrgs: Set<string>;
+	let stage1PartialFailure: string;
 
-  if (opts.selectedMode === 'github_app') {
-    if (!opts.starSourceUser) {
-      throw new Error('github_app mode requires starSourceUser (REST /users/{username}/starred path needs a username)');
-    }
-    const r = await paginateStarListViaRest({
-      octokit: opts.octokit,
-      username: opts.starSourceUser,
-      startPage: parseRestResumeToken(opts.resumeCursor),
-      log,
-      warn,
-    });
-    stage1List = r.list;
-    stage1PageCount = r.pageCount;
-    stage1ResumeToken = r.resumeToken;
-    stage1BlockedOrgs = r.inaccessibleOrgs;
-    stage1PartialFailure = r.partialFailureReason;
-  } else {
-    const r = await paginateStarList({
-      octokit: opts.octokit,
-      query: opts.listQuery,
-      resumeCursor: opts.resumeCursor,
-      log,
-      warn,
-    });
-    stage1List = r.list;
-    stage1PageCount = r.pageCount;
-    stage1ResumeToken = r.lastEndCursor;
-    stage1BlockedOrgs = r.inaccessibleOrgs;
-    stage1PartialFailure = r.partialFailureReason;
-  }
+	if (opts.selectedMode === "github_app") {
+		if (!opts.starSourceUser) {
+			throw new Error(
+				"github_app mode requires starSourceUser (REST /users/{username}/starred path needs a username)",
+			);
+		}
+		const r = await paginateStarListViaRest({
+			octokit: opts.octokit,
+			username: opts.starSourceUser,
+			startPage: parseRestResumeToken(opts.resumeCursor),
+			log,
+			warn,
+		});
+		stage1List = r.list;
+		stage1PageCount = r.pageCount;
+		stage1ResumeToken = r.resumeToken;
+		stage1BlockedOrgs = r.inaccessibleOrgs;
+		stage1PartialFailure = r.partialFailureReason;
+	} else {
+		const r = await paginateStarList({
+			octokit: opts.octokit,
+			query: opts.listQuery,
+			resumeCursor: opts.resumeCursor,
+			log,
+			warn,
+		});
+		stage1List = r.list;
+		stage1PageCount = r.pageCount;
+		stage1ResumeToken = r.lastEndCursor;
+		stage1BlockedOrgs = r.inaccessibleOrgs;
+		stage1PartialFailure = r.partialFailureReason;
+	}
 
-  if (stage1PartialFailure) {
-    return {
-      repos: [],
-      pageCount: stage1PageCount,
-      batchCount: 0,
-      lastEndCursor: stage1ResumeToken,
-      blockedOrgsCount: stage1BlockedOrgs.size,
-      partialFailureReason: stage1PartialFailure,
-    };
-  }
+	if (stage1PartialFailure) {
+		return {
+			repos: [],
+			pageCount: stage1PageCount,
+			batchCount: 0,
+			lastEndCursor: stage1ResumeToken,
+			blockedOrgsCount: stage1BlockedOrgs.size,
+			partialFailureReason: stage1PartialFailure,
+		};
+	}
 
-  log(`Stage 1 done: ${stage1List.length} public stars across ${stage1PageCount} pages.`);
-  if (stage1BlockedOrgs.size > 0) {
-    // Per session-oracle verdict rule 8: do NOT print blocked org NAMES
-    // in public workflow logs. Names are private/internal source identifiers
-    // for the user's stars and may be sensitive. Count is fine.
-    warn(
-      `Skipped ${stage1BlockedOrgs.size} org(s) that block classic-PAT access ` +
-        `(names redacted from public log).`
-    );
-  }
+	log(
+		`Stage 1 done: ${stage1List.length} public stars across ${stage1PageCount} pages.`,
+	);
+	if (stage1BlockedOrgs.size > 0) {
+		// Per session-oracle verdict rule 8: do NOT print blocked org NAMES
+		// in public workflow logs. Names are private/internal source identifiers
+		// for the user's stars and may be sensitive. Count is fine.
+		warn(
+			`Skipped ${stage1BlockedOrgs.size} org(s) that block classic-PAT access ` +
+				`(names redacted from public log).`,
+		);
+	}
 
-  log(`Stage 2: fetching metadata in batches of ${opts.batchSize ?? DEFAULT_METADATA_BATCH_SIZE}...`);
-  const stage2 = await fetchMetadataInBatches({
-    octokit: opts.octokit,
-    fragment: opts.metadataFragment,
-    list: stage1List,
-    batchSize: opts.batchSize,
-    log,
-    warn,
-  });
+	log(
+		`Stage 2: fetching metadata in batches of ${opts.batchSize ?? DEFAULT_METADATA_BATCH_SIZE}...`,
+	);
+	const stage2 = await fetchMetadataInBatches({
+		octokit: opts.octokit,
+		fragment: opts.metadataFragment,
+		list: stage1List,
+		// Conditional spread keeps exactOptionalPropertyTypes happy —
+		// passing `undefined` to a `batchSize?: number` field is rejected
+		// under that strict flag.
+		...(opts.batchSize !== undefined ? { batchSize: opts.batchSize } : {}),
+		log,
+		warn,
+	});
 
-  const blocked = new Set<string>([...stage1BlockedOrgs, ...stage2.blockedOrgs]);
+	const blocked = new Set<string>([
+		...stage1BlockedOrgs,
+		...stage2.blockedOrgs,
+	]);
 
-  let partialFailureReason = stage2.partialFailureReason;
-  const gap = stage1List.length - stage2.repos.length;
-  if (!partialFailureReason && gap > 0) {
-    if (blocked.size > 0 && gap < stage1List.length * 0.1) {
-      log(`Stage 2 expected gap: ${gap} repos in classic-PAT-blocked orgs (${blocked.size} orgs).`);
-    } else {
-      partialFailureReason = `metadata_incomplete_${stage2.repos.length}_of_${stage1List.length}_gap=${gap}`;
-      warn(
-        `Stage 2 left ${gap} repos unfetched, more than the ${blocked.size} blocked orgs explain.`
-      );
-    }
-  }
+	let partialFailureReason = stage2.partialFailureReason;
+	const gap = stage1List.length - stage2.repos.length;
+	if (!partialFailureReason && gap > 0) {
+		if (blocked.size > 0 && gap < stage1List.length * 0.1) {
+			log(
+				`Stage 2 expected gap: ${gap} repos in classic-PAT-blocked orgs (${blocked.size} orgs).`,
+			);
+		} else {
+			partialFailureReason = `metadata_incomplete_${stage2.repos.length}_of_${stage1List.length}_gap=${gap}`;
+			warn(
+				`Stage 2 left ${gap} repos unfetched, more than the ${blocked.size} blocked orgs explain.`,
+			);
+		}
+	}
 
-  return {
-    repos: stage2.repos,
-    pageCount: stage1PageCount,
-    batchCount: stage2.batchCount,
-    lastEndCursor: stage1ResumeToken,
-    blockedOrgsCount: blocked.size,
-    partialFailureReason,
-  };
+	return {
+		repos: stage2.repos,
+		pageCount: stage1PageCount,
+		batchCount: stage2.batchCount,
+		lastEndCursor: stage1ResumeToken,
+		blockedOrgsCount: blocked.size,
+		partialFailureReason,
+	};
 }

@@ -44,29 +44,42 @@ jobs:
           yq eval -o=json '.' repos.yml > web/public/data.json
           echo "Generated web/public/data.json"
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: web/package-lock.json
+      - name: Setup Bun
+        # Bun version is auto-detected from package.json `packageManager`
+        # (currently bun@1.3.13 in the repo root) per setup-bun README.
+        uses: oven-sh/setup-bun@v2
 
       - name: Install Dependencies
         working-directory: web
-        run: npm ci
+        run: bun install --frozen-lockfile
 
       - name: Lint Code
         working-directory: web
-        run: npm run lint
+        run: bun run lint
 
       - name: Build React App
         working-directory: web
-        run: npm run build
+        run: bun run build
 
-      - name: Ensure data.json exists in build output
+      - name: Stage build output to docs/ for GH Pages
+        # TanStack Start emits dist/client/_shell.html as the SPA fallback.
+        # GitHub Pages serves index.html at /, so we rename on stage. The
+        # whole dist/client/ tree carries the assets/ + data.json copy
+        # vite produced from public/.
+        #
+        # Hand-authored docs/ files (e.g. docs/security.md) are
+        # additive — we sweep only the build-managed paths so the
+        # deploy never trashes content the build doesn't own.
         run: |
+          set -euo pipefail
+          rm -rf docs/assets docs/_shell.html docs/index.html docs/data.json
+          mkdir -p docs
+          cp -r web/dist/client/. docs/
+          mv docs/_shell.html docs/index.html
+          # Re-write data.json from the latest repos.yml so a manifest
+          # change between checkout and build doesn't ship stale data.
           yq eval -o=json '.' repos.yml > docs/data.json
-          echo "Regenerated docs/data.json after build"
+          echo "Staged docs/ from web/dist/client/"
 
       - name: Upload Pages artifact
         id: upload
@@ -97,9 +110,9 @@ jobs:
             fi
             echo ""
             echo "## Gates"
-            echo "- \`npm ci\` (web)"
-            echo "- \`npm run lint\` (web)"
-            echo "- \`npm run build\` (web → \`docs/\`)"
+            echo "- \`bun install --frozen-lockfile\` (web)"
+            echo "- \`bun run lint\` (web)"
+            echo "- \`bun run build\` (web → \`web/dist/client/\` → \`docs/\`)"
             echo ""
             echo "## Outputs"
             if [ -d docs ]; then
@@ -138,14 +151,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Install Dependencies
         working-directory: web
-        run: npm ci
+        run: bun install --frozen-lockfile
 
       - name: Wait for Pages CDN propagation
         shell: bash
@@ -167,7 +178,7 @@ jobs:
 
       - name: Run Playwright tests
         working-directory: web
-        run: npx playwright test
+        run: bun x playwright test
 
       - name: Upload verification screenshot
         uses: actions/upload-artifact@v4

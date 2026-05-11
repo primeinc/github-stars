@@ -19,42 +19,57 @@
 // laundering. This file prevents that combination from being expressible
 // in the type system, and assertNoMixedAuth() enforces it at runtime.
 
-export const AUTH_MODES = ['github_app', 'pat', 'github_token'] as const;
+/**
+ * The three credential classes supported by github-stars. Order is
+ * load-bearing: AUTO mode picks the highest-ranked configured class
+ * (`github_app` first, then `pat`, then `github_token`).
+ *
+ * @public
+ */
+export const AUTH_MODES = ["github_app", "pat", "github_token"] as const;
+
+/**
+ * Literal union over {@link AUTH_MODES}. Every place an auth mode is
+ * passed across module boundaries uses this type — there is no
+ * widened-`string` form.
+ *
+ * @public
+ */
 export type AuthMode = (typeof AUTH_MODES)[number];
 
 /** Inputs to the resolver. Resolver decides; never mixes. */
 export type AuthResolverInputs = {
-  /** workflow_dispatch input or schedule default. 'auto' = resolver picks. */
-  requested_mode?: AuthMode | 'auto';
-  /** GitHub user whose stars are fetched. */
-  star_source_user?: string;
+	/** workflow_dispatch input or schedule default. 'auto' = resolver picks. */
+	requested_mode?: AuthMode | "auto";
+	/** GitHub user whose stars are fetched. */
+	star_source_user?: string;
 
-  /** Secrets/vars surface (presence checked, never values printed). */
-  has_gh_app_client_id?: boolean;
-  has_gh_app_private_key?: boolean;
-  has_stars_token?: boolean;
-  has_github_token?: boolean;
+	/** Secrets/vars surface (presence checked, never values printed). */
+	has_gh_app_client_id?: boolean;
+	has_gh_app_private_key?: boolean;
+	has_stars_token?: boolean;
+	has_github_token?: boolean;
 
-  /**
-   * Allow loud fallback from `pat` to `github_token` when PAT is broken
-   * at runtime. Default: true. github_app NEVER falls back; if it can't
-   * do the work, the run hard-fails.
-   */
-  pat_fallback_to_github_token?: boolean;
+	/**
+	 * Allow loud fallback from `pat` to `github_token` when PAT is broken
+	 * at runtime. Default: true. github_app NEVER falls back; if it can't
+	 * do the work, the run hard-fails.
+	 */
+	pat_fallback_to_github_token?: boolean;
 
-  /**
-   * Whether the github_app credential class can serve the star_fetch
-   * role end-to-end. The App-fetch path uses REST
-   * /users/{username}/starred which is `serverToServer: true` per
-   * first-party docs (refs/github/docs/.../activity.json L95321-95330).
-   * See src/fetch/list-paginator-rest.ts for the implementation
-   * + cited progAccess block.
-   *
-   * Defaults TRUE — the path is implemented and verified. Set
-   * GITHUB_APP_SUPPORTS_FETCH=false to force AUTO to skip github_app
-   * (e.g. while debugging an issue with the REST path).
-   */
-  github_app_supports_fetch?: boolean;
+	/**
+	 * Whether the github_app credential class can serve the star_fetch
+	 * role end-to-end. The App-fetch path uses REST
+	 * `/users/\{username\}/starred` which is `serverToServer: true` per
+	 * first-party docs (refs/github/docs/.../activity.json L95321-95330).
+	 * See src/fetch/list-paginator-rest.ts for the implementation
+	 * + cited progAccess block.
+	 *
+	 * Defaults TRUE — the path is implemented and verified. Set
+	 * GITHUB_APP_SUPPORTS_FETCH=false to force AUTO to skip github_app
+	 * (e.g. while debugging an issue with the REST path).
+	 */
+	github_app_supports_fetch?: boolean;
 };
 
 /**
@@ -63,26 +78,26 @@ export type AuthResolverInputs = {
  * not configured — they are always the same as `selected_mode`'s class.
  */
 export type ResolvedAuth = {
-  /** What the user/auto requested. */
-  requested_mode: AuthMode | 'auto';
-  /** What the resolver chose at config time. Owns every role. */
-  selected_mode: AuthMode;
-  /** Same as selected_mode at config time. effective_mode may differ at
-   *  runtime if a fallback transition fires (see runtime-state.ts). */
-  star_fetch_auth: AuthMode;
-  repo_write_auth: AuthMode;
-  /** Passthrough — which user's stars to fetch. Not part of auth decision. */
-  star_source_user: string;
-  /**
-   * For `pat` mode: whether a runtime fallback to `github_token` is allowed
-   * if PAT is broken. Default true. Surfaced so the workflow can branch.
-   */
-  pat_fallback_to_github_token: boolean;
-  /** True when selected_mode is `github_token` (always degraded). */
-  degraded: boolean;
-  reason: string;
-  /** When selected_mode cannot be picked at all — names what's missing. */
-  missing_config: string[];
+	/** What the user/auto requested. */
+	requested_mode: AuthMode | "auto";
+	/** What the resolver chose at config time. Owns every role. */
+	selected_mode: AuthMode;
+	/** Same as selected_mode at config time. effective_mode may differ at
+	 *  runtime if a fallback transition fires (see runtime-state.ts). */
+	star_fetch_auth: AuthMode;
+	repo_write_auth: AuthMode;
+	/** Passthrough — which user's stars to fetch. Not part of auth decision. */
+	star_source_user: string;
+	/**
+	 * For `pat` mode: whether a runtime fallback to `github_token` is allowed
+	 * if PAT is broken. Default true. Surfaced so the workflow can branch.
+	 */
+	pat_fallback_to_github_token: boolean;
+	/** True when selected_mode is `github_token` (always degraded). */
+	degraded: boolean;
+	reason: string;
+	/** When selected_mode cannot be picked at all — names what's missing. */
+	missing_config: string[];
 };
 
 /**
@@ -91,9 +106,9 @@ export type ResolvedAuth = {
  * is true. Represents the transition explicitly — never a hidden role swap.
  */
 export type EffectiveAuth = ResolvedAuth & {
-  effective_mode: AuthMode;
-  /** True iff effective_mode != selected_mode (a transition happened). */
-  fallback_fired: boolean;
+	effective_mode: AuthMode;
+	/** True iff effective_mode != selected_mode (a transition happened). */
+	fallback_fired: boolean;
 };
 
 /**
@@ -103,12 +118,15 @@ export type EffectiveAuth = ResolvedAuth & {
  * mixed-role auth unrepresentable for ResolvedAuth (both fields derive
  * from `selected_mode`); this asserts it for arbitrary inputs.
  */
-export function assertNoMixedAuth(auth: { star_fetch_auth: string; repo_write_auth: string }): void {
-  if (auth.star_fetch_auth !== auth.repo_write_auth) {
-    throw new Error(
-      `Invalid mixed auth boundary: star_fetch_auth=${auth.star_fetch_auth}, ` +
-        `repo_write_auth=${auth.repo_write_auth}. ` +
-        `A selected mode must own every role.`
-    );
-  }
+export function assertNoMixedAuth(auth: {
+	star_fetch_auth: string;
+	repo_write_auth: string;
+}): void {
+	if (auth.star_fetch_auth !== auth.repo_write_auth) {
+		throw new Error(
+			`Invalid mixed auth boundary: star_fetch_auth=${auth.star_fetch_auth}, ` +
+				`repo_write_auth=${auth.repo_write_auth}. ` +
+				`A selected mode must own every role.`,
+		);
+	}
 }

@@ -1,0 +1,51 @@
+# Lefthook config. Refs:
+#   https://lefthook.dev/configuration/
+#   ../refs/oven-sh/bun/docs/cli/run.mdx     — `bun run` semantics
+#   ../../juv2/lefthook.yml                  — shape source (juv2 doctrine)
+#
+# Doctrine: lefthook + the gate runner share their checks. Every git
+# event maps to one or more gate stages — there are no parallel scripts
+# that might drift from CI's truth. CI runs `bun run gate`, git events
+# run a subset of the same.
+
+pre-commit:
+  jobs:
+    - name: reject-private-keys
+      # Hard-fails any commit that stages a *.pem file. The github-stars
+      # GitHub App PEM (App ID 3663316) lives OUTSIDE the repo at
+      # %LOCALAPPDATA%/github-stars/github-stars-app.private-key.pem;
+      # this guard prevents accidental commits.
+      glob:
+        - "*.pem"
+        - "*.private-key"
+      run: |
+        echo "::error::Private key file staged: {staged_files}"
+        echo "PEM / private-key files MUST live OUTSIDE the repo."
+        exit 1
+
+    - name: gate-fix
+      # Run biome + eslint with auto-fix on staged files. lefthook re-stages
+      # the modified files via `stage_fixed: true`. Heavier checks (typecheck,
+      # test) live in pre-push.
+      glob:
+        - "*.ts"
+        - "*.tsx"
+        - "*.js"
+        - "*.jsx"
+        - "*.json"
+        - "*.jsonc"
+        - "*.css"
+        - "*.md"
+      run: |
+        bun x biome check --write --no-errors-on-unmatched {staged_files}
+      stage_fixed: true
+
+pre-push:
+  jobs:
+    - name: lint
+      # Pre-push runs only the FAST, deterministic checks. Heavy stages
+      # (typecheck, test, schema-validate, depcruise, knip) belong in
+      # CI per juv2 doctrine (juv2/lefthook.yml L54-60: pre-push only
+      # runs docs-drift). Pre-push gates that block on a transitional
+      # codebase create false negatives; CI gates the full state.
+      run: bun run lint:biome

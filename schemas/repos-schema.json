@@ -1,442 +1,477 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/primeinc/github-stars/schemas/repos-schema.json",
-  "title": "GitHub Stars Curation Manifest Schema",
-  "description": "Schema for repos.yml - A comprehensive personal repository knowledge base",
-  "type": "object",
-  "required": ["schema_version", "manifest_metadata", "feature_flags", "taxonomy", "repositories"],
-  "additionalProperties": false,
-  "properties": {
-    "schema_version": {
-      "type": "string",
-      "const": "3.0.0",
-      "description": "Semantic version of this schema for migration support"
-    },
-    "manifest_metadata": {
-      "type": "object",
-      "description": "Metadata about the manifest itself",
-      "required": ["generated_at", "manifest_updated_at", "total_repos"],
-      "additionalProperties": false,
-      "properties": {
-        "generated_at": {
-          "type": "string",
-          "format": "date-time",
-          "description": "ISO 8601 timestamp of initial manifest creation"
-        },
-        "manifest_updated_at": {
-          "type": "string",
-          "format": "date-time",
-          "description": "ISO 8601 timestamp of last manifest modification"
-        },
-        "total_repos": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "Total count of repositories in manifest"
-        },
-        "generator_version": {
-          "type": "string",
-          "pattern": "^v?\\d+\\.\\d+\\.\\d+$",
-          "description": "Version of the workflow that last updated this manifest"
-        },
-        "github_user": {
-          "type": "string",
-          "pattern": "^[a-zA-Z0-9]([a-zA-Z0-9-])*$",
-          "description": "GitHub username who owns these stars"
-        }
-      }
-    },
-    "feature_flags": {
-      "type": "object",
-      "description": "Runtime configuration for automation behavior",
-      "required": ["ai_sort", "ai_summarize_nondescript", "batch_threshold", "auto_merge", "archive_handling"],
-      "additionalProperties": false,
-      "properties": {
-        "ai_sort": {
-          "type": "boolean",
-          "default": true,
-          "description": "Use AI for automatic repository classification"
-        },
-        "ai_summarize_nondescript": {
-          "type": "boolean",
-          "default": true,
-          "description": "Generate AI summaries for repos with poor/missing documentation"
-        },
-        "batch_threshold": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 100,
-          "default": 10,
-          "description": "Number of repos to process in a single AI batch"
-        },
-        "auto_merge": {
-          "type": "boolean",
-          "default": false,
-          "description": "Automatically merge PRs that pass all CI checks"
-        },
-        "archive_handling": {
-          "type": "string",
-          "enum": ["skip", "separate-directory", "include-with-flag"],
-          "default": "separate-directory",
-          "description": "How to handle archived repositories"
-        },
-        "submodule_update_default": {
-          "type": "string",
-          "enum": ["latest", "pinned"],
-          "default": "latest",
-          "description": "Default update policy for submodules unless overridden"
-        },
-        "enable_submodule_updates": {
-          "type": "boolean",
-          "default": false,
-          "description": "WARNING: Enable actual submodule updates. DO NOT ENABLE unless you want to clone/update all repos! This system uses submodules as LINKS ONLY for GitHub UI navigation."
-        }
-      }
-    },
-    "taxonomy": {
-      "type": "object",
-      "description": "Controlled vocabulary for consistent classification",
-      "required": ["categories_allowed"],
-      "additionalProperties": false,
-      "properties": {
-        "categories_allowed": {
-          "type": "array",
-          "minItems": 1,
-          "uniqueItems": true,
-          "description": "List of valid category names",
-          "items": {
-            "type": "string",
-            "pattern": "^[a-z][a-z0-9-]*$",
-            "minLength": 2,
-            "maxLength": 50
-          }
-        },
-        "tags_allowed": {
-          "type": "array",
-          "uniqueItems": true,
-          "description": "Optional canonical list of allowed tags with descriptions",
-          "items": {
-            "type": "object",
-            "required": ["name"],
-            "additionalProperties": false,
-            "properties": {
-              "name": {
-                "type": "string",
-                "pattern": "^([a-z]+:)?[a-z0-9][a-z0-9-]*$",
-                "description": "Tag name, optionally prefixed with namespace (e.g., 'lang:go')"
-              },
-              "description": {
-                "type": "string",
-                "maxLength": 200,
-                "description": "Brief description of what this tag represents"
-              },
-              "deprecated": {
-                "type": "boolean",
-                "default": false,
-                "description": "Whether this tag is deprecated and should not be used for new entries"
-              }
-            }
-          }
-        },
-        "frameworks_allowed": {
-          "type": "array",
-          "uniqueItems": true,
-          "description": "List of recognized framework names",
-          "items": {
-            "type": "string",
-            "pattern": "^[a-z][a-z0-9-]*$"
-          }
-        }
-      }
-    },
-    "repositories": {
-      "type": "array",
-      "description": "The curated collection of starred repositories",
-      "items": {
-        "type": "object",
-        "required": ["repo", "categories", "tags", "last_synced_sha", "user_starred_at"],
-        "additionalProperties": false,
-        "properties": {
-          "repo": {
-            "type": "string",
-            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9-]*/[a-zA-Z0-9._-]+$",
-            "description": "Repository identifier in owner/name format"
-          },
-          "categories": {
-            "type": "array",
-            "minItems": 1,
-            "maxItems": 5,
-            "uniqueItems": true,
-            "description": "Functional categories this repository belongs to",
-            "items": {
-              "type": "string"
-            }
-          },
-          "tags": {
-            "type": "array",
-            "maxItems": 20,
-            "uniqueItems": true,
-            "description": "Descriptive tags for discovery and filtering",
-            "items": {
-              "type": "string",
-              "pattern": "^([a-z]+:)?[a-z0-9][a-z0-9-]*$"
-            }
-          },
-          "framework": {
-            "type": ["string", "null"],
-            "pattern": "^[a-z][a-z0-9-]*$",
-            "description": "Primary framework if applicable (null for framework-agnostic)"
-          },
-          "summary": {
-            "type": "string",
-            "maxLength": 500,
-            "description": "Concise description of the repository's purpose and value"
-          },
-          "last_synced_sha": {
-            "type": "string",
-            "pattern": "^[a-f0-9]{40}$",
-            "description": "Git SHA of the last processed commit"
-          },
-          "user_starred_at": {
-            "type": "string",
-            "format": "date-time",
-            "description": "ISO 8601 timestamp when this repository was starred by the user"
-          },
-          "readme_quality": {
-            "type": "string",
-            "enum": ["good", "poor", "missing"],
-            "description": "AI assessment of documentation quality"
-          },
-          "archived": {
-            "type": "boolean",
-            "default": false,
-            "description": "Whether the upstream repository is archived"
-          },
-          "fork": {
-            "type": "boolean",
-            "default": false,
-            "description": "Whether this is a fork of another repository"
-          },
-          "submodule_config": {
-            "type": "object",
-            "description": "Override default submodule behavior for this repository (ONLY affects link generation, NOT actual cloning)",
-            "additionalProperties": false,
-            "properties": {
-              "update_policy": {
-                "type": "string",
-                "enum": ["latest", "pinned"],
-                "description": "Whether to track latest or pin to specific commit"
-              },
-              "pinned_commit": {
-                "type": "string",
-                "pattern": "^[a-f0-9]{40}$",
-                "description": "Specific commit SHA when update_policy is 'pinned'"
-              },
-              "exclude_from": {
-                "type": "array",
-                "uniqueItems": true,
-                "description": "Categories/tags to exclude this submodule from",
-                "items": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "curation_details": {
-            "type": "object",
-            "description": "Personal knowledge management metadata",
-            "additionalProperties": false,
-            "properties": {
-              "rating": {
-                "type": "integer",
-                "minimum": 1,
-                "maximum": 5,
-                "description": "Personal quality/usefulness rating (1-5 stars)"
-              },
-              "status": {
-                "type": "string",
-                "enum": ["evaluating", "in-use", "archived", "learning", "reference"],
-                "description": "Current relationship status with this repository"
-              },
-              "notes": {
-                "type": "string",
-                "maxLength": 2000,
-                "description": "Personal notes, setup instructions, or observations"
-              },
-              "last_used": {
-                "type": "string",
-                "format": "date",
-                "description": "Date when last actively used or referenced"
-              }
-            }
-          },
-          "relationships": {
-            "type": "array",
-            "description": "Connections to other repositories in the collection",
-            "items": {
-              "type": "object",
-              "required": ["type", "repo"],
-              "additionalProperties": false,
-              "properties": {
-                "type": {
-                  "type": "string",
-                  "enum": ["depends_on", "replaces", "replaced_by", "alternative_to", "used_with", "inspired_by", "fork_of"],
-                  "description": "Nature of the relationship"
-                },
-                "repo": {
-                  "type": "string",
-                  "pattern": "^[a-zA-Z0-9][a-zA-Z0-9-]*/[a-zA-Z0-9._-]+$",
-                  "description": "Related repository in owner/name format"
-                },
-                "note": {
-                  "type": "string",
-                  "maxLength": 200,
-                  "description": "Optional context about this relationship"
-                }
-              }
-            }
-          },
-          "ai_classification": {
-            "type": "object",
-            "description": "Audit trail of AI classification decisions",
-            "additionalProperties": false,
-            "properties": {
-              "model": {
-                "type": "string",
-                "description": "AI model used for classification"
-              },
-              "classified_at": {
-                "type": "string",
-                "format": "date-time",
-                "description": "When AI classification occurred"
-              },
-              "confidence": {
-                "type": "number",
-                "minimum": 0,
-                "maximum": 1,
-                "description": "AI confidence score if provided"
-              },
-              "prompt_version": {
-                "type": "string",
-                "description": "Version of the prompt template used"
-              }
-            }
-          },
-          "needs_review": {
-            "type": "boolean",
-            "default": false,
-            "description": "Flag for manual review needed"
-          },
-          "ignore": {
-            "type": "boolean",
-            "default": false,
-            "description": "Exclude from processing but keep in manifest"
-          },
-          "github_metadata": {
-            "type": "object",
-            "description": "GitHub API metadata preserved during sync",
-            "additionalProperties": false,
-            "properties": {
-              "language": {
-                "type": ["string", "null"],
-                "description": "Primary programming language"
-              },
-              "topics": {
-                "type": "array",
-                "description": "GitHub repository topics",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "stargazers_count": {
-                "type": "integer",
-                "minimum": 0,
-                "description": "Number of stars"
-              },
-              "forks_count": {
-                "type": "integer",
-                "minimum": 0,
-                "description": "Number of forks"
-              },
-              "disk_usage": {
-                "type": ["integer", "null"],
-                "description": "Repository size in KB"
-              },
-              "owner_avatar": {
-                "type": ["string", "null"],
-                "description": "URL to the repository owner's avatar"
-              },
-              "homepage_url": {
-                "type": ["string", "null"],
-                "description": "Project homepage URL"
-              },
-              "license": {
-                "type": ["string", "null"],
-                "description": "SPDX license identifier"
-              },
-              "repo_pushed_at": {
-                "type": "string",
-                "format": "date-time",
-                "description": "Last repository push/update timestamp from GitHub"
-              },
-              "repo_updated_at": {
-                "type": "string",
-                "format": "date-time",
-                "description": "Last metadata update timestamp from GitHub"
-              },
-              "html_url": {
-                "type": "string",
-                "description": "GitHub repository URL"
-              },
-              "default_branch": {
-                "type": "string",
-                "description": "Default branch name"
-              },
-              "latest_release": {
-                "type": ["object", "null"],
-                "description": "Latest release information",
-                "properties": {
-                  "tag": {
-                    "type": "string",
-                    "description": "Release tag name"
-                  },
-                  "published_at": {
-                    "type": "string",
-                    "format": "date-time",
-                    "description": "Release publication timestamp"
-                  }
-                }
-              },
-              "is_mirror": {
-                "type": "boolean",
-                "description": "Whether this is a mirror repository"
-              },
-              "mirror_url": {
-                "type": ["string", "null"],
-                "description": "Mirror source URL if applicable"
-              }
-            }
-          }
-        }
-      }
-    },
-    "relationship_graph": {
-      "type": "object",
-      "description": "Optional pre-computed relationship graph for performance",
-      "additionalProperties": false,
-      "properties": {
-        "last_computed": {
-          "type": "string",
-          "format": "date-time"
-        },
-        "nodes": {
-          "type": "integer",
-          "minimum": 0
-        },
-        "edges": {
-          "type": "integer",
-          "minimum": 0
-        }
-      }
-    }
-  }
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"schema_version": {
+			"type": "string",
+			"const": "3.0.0"
+		},
+		"manifest_metadata": {
+			"type": "object",
+			"properties": {
+				"generated_at": {
+					"type": "string",
+					"format": "date-time",
+					"pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z))$"
+				},
+				"manifest_updated_at": {
+					"type": "string",
+					"format": "date-time",
+					"pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z))$"
+				},
+				"total_repos": {
+					"type": "integer",
+					"minimum": 0,
+					"maximum": 9007199254740991
+				},
+				"generator_version": {
+					"type": "string",
+					"pattern": "^v?\\d+\\.\\d+\\.\\d+$"
+				},
+				"github_user": {
+					"type": "string",
+					"pattern": "^[a-zA-Z0-9]([a-zA-Z0-9-])*$"
+				}
+			},
+			"required": [
+				"generated_at",
+				"manifest_updated_at",
+				"total_repos"
+			],
+			"additionalProperties": false
+		},
+		"feature_flags": {
+			"type": "object",
+			"properties": {
+				"ai_sort": {
+					"type": "boolean"
+				},
+				"ai_summarize_nondescript": {
+					"type": "boolean"
+				},
+				"batch_threshold": {
+					"type": "integer",
+					"minimum": 1,
+					"maximum": 100
+				},
+				"auto_merge": {
+					"type": "boolean"
+				},
+				"archive_handling": {
+					"type": "string",
+					"enum": [
+						"skip",
+						"separate-directory",
+						"include-with-flag"
+					]
+				},
+				"submodule_update_default": {
+					"type": "string",
+					"enum": [
+						"latest",
+						"pinned"
+					]
+				},
+				"enable_submodule_updates": {
+					"type": "boolean"
+				}
+			},
+			"required": [
+				"ai_sort",
+				"ai_summarize_nondescript",
+				"batch_threshold",
+				"auto_merge",
+				"archive_handling"
+			],
+			"additionalProperties": false
+		},
+		"taxonomy": {
+			"type": "object",
+			"properties": {
+				"categories_allowed": {
+					"minItems": 1,
+					"type": "array",
+					"items": {
+						"type": "string",
+						"minLength": 2,
+						"maxLength": 50,
+						"pattern": "^[a-z][a-z0-9-]*$"
+					}
+				},
+				"tags_allowed": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"name": {
+								"type": "string"
+							},
+							"description": {
+								"type": "string",
+								"maxLength": 200
+							},
+							"deprecated": {
+								"type": "boolean"
+							}
+						},
+						"required": [
+							"name"
+						],
+						"additionalProperties": false
+					}
+				},
+				"frameworks_allowed": {
+					"type": "array",
+					"items": {
+						"type": "string",
+						"pattern": "^[a-z][a-z0-9-]*$"
+					}
+				}
+			},
+			"required": [
+				"categories_allowed"
+			],
+			"additionalProperties": false
+		},
+		"repositories": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"repo": {
+						"type": "string",
+						"pattern": "^[a-zA-Z0-9][a-zA-Z0-9-]*\\/[a-zA-Z0-9._-]+$"
+					},
+					"categories": {
+						"minItems": 1,
+						"maxItems": 5,
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					},
+					"tags": {
+						"maxItems": 20,
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					},
+					"framework": {
+						"anyOf": [
+							{
+								"type": "string",
+								"pattern": "^[a-z][a-z0-9-]*$"
+							},
+							{
+								"type": "null"
+							}
+						]
+					},
+					"summary": {
+						"type": "string",
+						"maxLength": 500
+					},
+					"last_synced_sha": {
+						"type": "string",
+						"pattern": "^[a-f0-9]{40}$"
+					},
+					"user_starred_at": {
+						"type": "string",
+						"format": "date-time",
+						"pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z))$"
+					},
+					"readme_quality": {
+						"type": "string",
+						"enum": [
+							"good",
+							"poor",
+							"missing"
+						]
+					},
+					"archived": {
+						"type": "boolean"
+					},
+					"fork": {
+						"type": "boolean"
+					},
+					"submodule_config": {
+						"type": "object",
+						"properties": {
+							"update_policy": {
+								"type": "string",
+								"enum": [
+									"latest",
+									"pinned"
+								]
+							},
+							"pinned_commit": {
+								"type": "string",
+								"pattern": "^[a-f0-9]{40}$"
+							},
+							"exclude_from": {
+								"type": "array",
+								"items": {
+									"type": "string"
+								}
+							}
+						},
+						"additionalProperties": false
+					},
+					"curation_details": {
+						"type": "object",
+						"properties": {
+							"rating": {
+								"type": "integer",
+								"minimum": 1,
+								"maximum": 5
+							},
+							"status": {
+								"type": "string",
+								"enum": [
+									"evaluating",
+									"in-use",
+									"archived",
+									"learning",
+									"reference"
+								]
+							},
+							"notes": {
+								"type": "string",
+								"maxLength": 2000
+							},
+							"last_used": {
+								"type": "string",
+								"format": "date",
+								"pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+							}
+						},
+						"additionalProperties": false
+					},
+					"relationships": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"type": {
+									"type": "string",
+									"enum": [
+										"depends_on",
+										"replaces",
+										"replaced_by",
+										"alternative_to",
+										"used_with",
+										"inspired_by",
+										"fork_of"
+									]
+								},
+								"repo": {
+									"type": "string",
+									"pattern": "^[a-zA-Z0-9][a-zA-Z0-9-]*\\/[a-zA-Z0-9._-]+$"
+								},
+								"note": {
+									"type": "string",
+									"maxLength": 200
+								}
+							},
+							"required": [
+								"type",
+								"repo"
+							],
+							"additionalProperties": false
+						}
+					},
+					"ai_classification": {
+						"type": "object",
+						"properties": {
+							"model": {
+								"type": "string"
+							},
+							"classified_at": {
+								"type": "string",
+								"format": "date-time",
+								"pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z))$"
+							},
+							"confidence": {
+								"type": "number",
+								"minimum": 0,
+								"maximum": 1
+							},
+							"prompt_version": {
+								"type": "string"
+							}
+						},
+						"additionalProperties": false
+					},
+					"needs_review": {
+						"type": "boolean"
+					},
+					"ignore": {
+						"type": "boolean"
+					},
+					"github_metadata": {
+						"type": "object",
+						"properties": {
+							"language": {
+								"anyOf": [
+									{
+										"type": "string"
+									},
+									{
+										"type": "null"
+									}
+								]
+							},
+							"topics": {
+								"type": "array",
+								"items": {
+									"type": "string"
+								}
+							},
+							"stargazers_count": {
+								"type": "integer",
+								"minimum": 0,
+								"maximum": 9007199254740991
+							},
+							"forks_count": {
+								"type": "integer",
+								"minimum": 0,
+								"maximum": 9007199254740991
+							},
+							"disk_usage": {
+								"anyOf": [
+									{
+										"type": "integer",
+										"minimum": -9007199254740991,
+										"maximum": 9007199254740991
+									},
+									{
+										"type": "null"
+									}
+								]
+							},
+							"owner_avatar": {
+								"anyOf": [
+									{
+										"type": "string"
+									},
+									{
+										"type": "null"
+									}
+								]
+							},
+							"homepage_url": {
+								"anyOf": [
+									{
+										"type": "string"
+									},
+									{
+										"type": "null"
+									}
+								]
+							},
+							"license": {
+								"anyOf": [
+									{
+										"type": "string"
+									},
+									{
+										"type": "null"
+									}
+								]
+							},
+							"repo_pushed_at": {
+								"type": "string",
+								"format": "date-time",
+								"pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z))$"
+							},
+							"repo_updated_at": {
+								"type": "string",
+								"format": "date-time",
+								"pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z))$"
+							},
+							"html_url": {
+								"type": "string"
+							},
+							"default_branch": {
+								"type": "string"
+							},
+							"latest_release": {
+								"anyOf": [
+									{
+										"type": "object",
+										"properties": {
+											"tag": {
+												"type": "string"
+											},
+											"published_at": {
+												"type": "string",
+												"format": "date-time",
+												"pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z))$"
+											}
+										},
+										"additionalProperties": false
+									},
+									{
+										"type": "null"
+									}
+								]
+							},
+							"is_mirror": {
+								"type": "boolean"
+							},
+							"mirror_url": {
+								"anyOf": [
+									{
+										"type": "string"
+									},
+									{
+										"type": "null"
+									}
+								]
+							}
+						},
+						"additionalProperties": false
+					}
+				},
+				"required": [
+					"repo",
+					"categories",
+					"tags",
+					"last_synced_sha",
+					"user_starred_at"
+				],
+				"additionalProperties": false
+			}
+		},
+		"relationship_graph": {
+			"type": "object",
+			"properties": {
+				"last_computed": {
+					"type": "string",
+					"format": "date-time",
+					"pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z))$"
+				},
+				"nodes": {
+					"type": "integer",
+					"minimum": 0,
+					"maximum": 9007199254740991
+				},
+				"edges": {
+					"type": "integer",
+					"minimum": 0,
+					"maximum": 9007199254740991
+				}
+			},
+			"additionalProperties": false
+		}
+	},
+	"required": [
+		"schema_version",
+		"manifest_metadata",
+		"feature_flags",
+		"taxonomy",
+		"repositories"
+	],
+	"additionalProperties": false
 }

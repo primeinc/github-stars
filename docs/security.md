@@ -49,3 +49,29 @@ Suppress in code with the documented CodeQL [pragma comments](https://docs.githu
 ### Why advanced setup, not default setup
 
 GitHub recommends [default setup](https://docs.github.com/en/code-security/code-scanning/managing-your-code-scanning-configuration/evaluating-default-setup-for-code-scanning) (one-click in repo Settings → Code security) for most projects. This repo uses the advanced setup (a workflow file) so the trigger pattern, query suite, and matrix are version-controlled and reviewable in PRs alongside the code they protect.
+
+## Dependency Audit
+
+`bun audit --audit-level=high` runs as a stage in `bun run gate`, which CI invokes via the `gate` job in `00-ci.yml`. The stage audits both the kernel package (root) and the `web/` workspace; a failure in either fails the gate and blocks merge.
+
+### Coverage
+
+- **Tool:** `bun audit` ([docs](https://bun.com/docs/install/audit)) — queries the registry advisory database for vulnerabilities affecting installed packages.
+- **Threshold:** `--audit-level=high` — high and critical advisories block; moderate and low surface in `gh api repos/.../vulnerability-alerts` and Dependabot but do not fail the gate.
+- **Workspaces:** root `package.json` + `web/package.json`. Both run sequentially under one stage; either failure fails the stage.
+- **Exit-code contract:** `0` = no advisories at threshold, `1` = advisories present (per `bun audit` docs).
+
+### Defense in depth
+
+| Layer | Source | Trigger | Blocking? |
+|---|---|---|---|
+| Pre-commit secret scan | `lefthook.yml` `reject-private-keys` | `git commit` | Yes (commit-side) |
+| Server-side secret scan | GitHub default (public repo) | push to remote | Yes (push protection) |
+| Dependency vulnerability alerts | GitHub Dependabot | Continuous | No (alerts only) |
+| Automated security PRs | GitHub Dependabot | When fixable advisory found | No (PR offered) |
+| **Dependency audit gate** | **`bun audit` in `bun run gate`** | **Every push and PR** | **Yes (high/critical)** |
+| CodeQL static analysis | `codeql.yml` workflow | Every push, PR, weekly | Configurable via branch protection |
+
+### Suppressing a specific advisory
+
+When a high+ advisory is known-safe (false positive, unreachable code path, or upstream-tracking-fix-already-pinned), suppress with `--ignore=GHSA-XXXX-XXXX-XXXX` in the gate stage. Document the suppression in `docs/security.md` with: advisory ID, why it's safe to ignore, and a link to the upstream fix tracker. Do not suppress without all three pieces of evidence.

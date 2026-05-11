@@ -1,32 +1,52 @@
-// Construct an Octokit client matching the workflow's prior posture:
-//   - retry plugin enabled (retries: 5)
-//   - request log plugin enabled (visible attempts in CI)
+// Construct an Octokit client from the workflow-issued token.
 //
-// Verified plugin behavior (refs/octokit/plugin-retry.js/src/wrap-request.ts
-// L37-62): the retry plugin intercepts both real HTTP 5xx and the GraphQL
-// "Something went wrong while executing your query" envelope (HTTP 200
-// with errors[]) and converts the latter into a synthesized 500 so the
-// bottleneck retry path triggers. Honors Retry-After.
+// We use `@octokit/rest` (which bundles paginate + the typed REST
+// endpoint methods on top of `@octokit/core`) instead of bare
+// @octokit/core + a fistful of plugin-* packages. Same retry behaviour
+// is configured via the request.retries option built into Octokit's core
+// — refs/octokit/octokit.js/README.md "Retries" — so the dropped
+// `@octokit/plugin-retry` is replaced by the first-party knob.
+//
+// The token is whatever the workflow minted:
+//   - github_app mode -> installation token (actions/create-github-app-token)
+//   - pat mode        -> STARS_TOKEN
+//   - github_token mode -> GITHUB_TOKEN
+//
+// The token type is opaque to this layer; the auth boundary lives
+// upstream in src/auth/.
 
-import { Octokit } from '@octokit/core';
-import { retry } from '@octokit/plugin-retry';
-import { requestLog } from '@octokit/plugin-request-log';
+import { Octokit } from "@octokit/rest";
 
-const RetryingOctokit = Octokit.plugin(retry, requestLog);
+/**
+ * Octokit instance type. REST endpoint methods + paginate built in via
+ * `\@octokit/rest`.
+ *
+ * @public
+ */
+export type OctokitClient = Octokit;
 
-export type OctokitClient = InstanceType<typeof RetryingOctokit>;
-
+/**
+ * Options for {@link createOctokit}.
+ *
+ * @public
+ */
 export type ClientOptions = {
-  token: string;
-  /** Default 5; matches the prior workflow setting. */
-  retries?: number;
-  userAgent?: string;
+	token: string;
+	/** Default 5; matches the prior workflow setting. */
+	retries?: number;
+	userAgent?: string;
 };
 
+/**
+ * Construct an authenticated Octokit client. Retry/backoff is supplied
+ * to `request.retries` per the Octokit core retry contract.
+ *
+ * @public
+ */
 export function createOctokit(opts: ClientOptions): OctokitClient {
-  return new RetryingOctokit({
-    auth: opts.token,
-    userAgent: opts.userAgent ?? 'github-stars-control-plane',
-    request: { retries: opts.retries ?? 5 },
-  });
+	return new Octokit({
+		auth: opts.token,
+		userAgent: opts.userAgent ?? "github-stars-control-plane",
+		request: { retries: opts.retries ?? 5 },
+	});
 }
