@@ -35,14 +35,49 @@ permissions:
     phase: bootstrap
     capability: |
       Repair and migrate `.github/workflows/*.yml` during the
-      modernization sprint (PR #79 — chore/bun-modernization).
+      modernization sprint (PR #79 - chore/bun-modernization), including
+      the branch-governance workflows that keep ordinary PRs on `next`
+      and reserve `main` for repo-owned `next` release PRs.
     proof_required:
       - PR modifies .github/workflows/* through App-backed flow
       - workflow-lint job in 00-ci.yml validates structural changes
+      - main-release-guard workflow exists and can be required by ruleset
     prune_rule: |
-      Downgrade to read once PR #79 lands and the bun toolchain
-      migration stabilizes. After that, workflow YAML changes should
-      come through PR review, not App-direct.
+      Downgrade to read once PR #79 lands and the bun toolchain plus
+      branch-governance workflow migration stabilizes. After that,
+      workflow YAML changes should come through PR review, not App-direct.
+
+  pull_requests:
+    access: write
+    phase: runtime
+    capability: |
+      00d-auto-retarget-main-prs.yml retargets non-release pull
+      requests away from `main` and onto `next`. The only allowed release
+      path into `main` is a PR whose head branch is repo-owned `next`.
+    proof_required:
+      - app-token minted with permission-pull-requests: write
+      - pull_request_target event on a non-next PR to main updates base to next
+      - workflow log records base/head/head_repo/base_repo before mutation
+    prune_rule: |
+      Keep while auto-retargeting is preferred. Downgrade if the ruleset
+      plus required check alone is sufficient and maintainers prefer hard
+      failure over bot retargeting.
+
+  issues:
+    access: write
+    phase: runtime
+    capability: |
+      00d-auto-retarget-main-prs.yml comments on retargeted PRs so the
+      contributor sees the branch policy. 03-classify-repos.yml also sets
+      `issues: write` for future router work (#73-related, not yet
+      implemented) that can open issues for classifier failures or
+      model-output review queues.
+    proof_required:
+      - auto-retarget workflow comments on a retargeted PR
+      - future router proof: created issue URL tied to classifier failure
+    prune_rule: |
+      Keep only if retarget comments or router issue creation remain
+      active. Downgrade to none if both surfaces are removed.
 
   actions:
     access: write
@@ -81,22 +116,26 @@ permissions:
     proof_required:
       - 04-Build and Deploy Site `deploy` job succeeds without OIDC
         errors
-    prune_rule: Tied to pages:write — drop with it.
+    prune_rule: Tied to pages:write - drop with it.
 
-  issues:
+  administration:
     access: write
-    phase: runtime
+    phase: bootstrap/self-config
     capability: |
-      03-classify-repos.yml sets `issues: write` so future router
-      work (#73-related, not yet implemented) can open issues for
-      classifier failures or model-output review queues.
+      Configure repository branch rulesets that protect `next` and
+      reserve `main` for release PRs from repo-owned `next`. GitHub's
+      repository ruleset API requires Administration repository
+      permission (write) for GitHub App installation tokens.
     proof_required:
-      - currently aspirational; no workflow exercises this
-        permission yet
+      - App installation grants Administration: write on this repository
+      - ruleset creation/update run records the ruleset ids or settings URL
+      - `protect-next` targets refs/heads/next
+      - `protect-main-release-only` targets refs/heads/main and requires main-release-guard
     prune_rule: |
-      Downgrade to none until the router subsystem actually opens
-      issues. Speculative permissions are a violation of the SDL
-      least-privilege rule.
+      Downgrade to read or remove after rulesets are created and stable,
+      unless the repo intentionally keeps App-managed ruleset drift repair.
+      This is high-authority bootstrap/self-config permission, not a
+      runtime catalog permission.
 
   models:
     access: read
@@ -109,11 +148,10 @@ permissions:
         response file
     prune_rule: |
       Required while AI classification runs through GitHub Models.
-      Revisit when #71 lands the typed/grounded classifier — if it
+      Revisit when #71 lands the typed/grounded classifier - if it
       moves to a different model surface, this permission goes away.
 
 # Permissions deliberately NOT granted (least-privilege evidence):
-# - administration: not granted; we never need to manage repo settings
 # - checks: not granted; we don't currently use the Checks API
 # - deployments: not granted; pages handles the deploy surface
 # - metadata: implicit (read-only) per GitHub default
@@ -129,7 +167,10 @@ buckets:
     - pages
     - id-token
     - actions
+  runtime_branch_governance:
+    - pull_requests
+    - issues
   bootstrap_self_config:
     - workflows
-  speculative_remove_unless_proven:
-    - issues
+    - administration
+  speculative_remove_unless_proven: []
