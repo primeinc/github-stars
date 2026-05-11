@@ -1,5 +1,5 @@
 ---
-name: 'Web CI'
+name: 'Site Build'
 
 on:
   # Run on EVERY PR to main/next (no paths filter) so this can be a
@@ -27,6 +27,7 @@ concurrency:
 
 jobs:
   build:
+    name: Build succeeds
     runs-on: ubuntu-latest
     timeout-minutes: 10
 

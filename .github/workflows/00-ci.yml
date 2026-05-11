@@ -1,4 +1,4 @@
-name: 'CI'
+name: 'Code Check'
 
 on:
   pull_request:
@@ -15,6 +15,7 @@ permissions:
 
 jobs:
   gate:
+    name: All gates pass
     # `pnpm gate` is the single readiness command per issue #69 lesson 1.
     # Sub-stages: typecheck, test, validate (taxonomy + schema), generated
     # artifact registry presence, actionlint workflow lint.
@@ -87,6 +88,7 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
 
   workflow-lint:
+    name: Workflows valid
     # Cheap structural guards that pnpm gate's actionlint stage cannot
     # express. See `.sisyphus/proofs/02M-mode-correction.md`.
     runs-on: ubuntu-latest

@@ -1,4 +1,4 @@
-name: admin-branch-sync-guard
+name: Admin Lane
 
 # Per the protection-stage brief: the canonical admin/control-plane
 # lane is exactly one branch — `ghapp/repo-admin`. This guard runs
@@ -48,7 +48,7 @@ env:
 
 jobs:
   admin-branch-sync-guard:
-    name: admin-branch-sync-guard
+    name: Ready to merge
     runs-on: ubuntu-latest
     steps:
       - name: Compare head to base + path-scope (ghapp/repo-admin only)

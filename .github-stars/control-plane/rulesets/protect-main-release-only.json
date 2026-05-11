@@ -31,22 +31,22 @@
         "strict_required_status_checks_policy": true,
         "required_status_checks": [
           {
-            "context": "admin-branch-sync-guard"
+            "context": "Ready to merge"
           },
           {
-            "context": "main-release-guard"
+            "context": "Source allowed"
           },
           {
-            "context": "do-not-merge-yet"
+            "context": "Label cleared"
           },
           {
-            "context": "gate"
+            "context": "All gates pass"
           },
           {
-            "context": "workflow-lint"
+            "context": "Workflows valid"
           },
           {
-            "context": "build"
+            "context": "Build succeeds"
           }
         ]
       }

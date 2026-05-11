@@ -1,4 +1,4 @@
-name: DoNotMergeYet label gate
+name: Merge Block
 
 on:
   pull_request:
@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   do-not-merge-yet:
-    name: do-not-merge-yet
+    name: Label cleared
     runs-on: ubuntu-latest
     steps:
       - name: Fail when PR has DoNotMergeYet label
