@@ -1,4 +1,4 @@
-name: Branch Source
+name: Protected Branch
 
 # Per the protection-stage brief, `main` accepts exactly two
 # repo-owned source branches:
@@ -27,7 +27,7 @@ permissions:
 
 jobs:
   main-release-guard:
-    name: Allowed into main
+    name: Src branch allowed
     runs-on: ubuntu-latest
     steps:
       - name: Require repo-owned next or ghapp/repo-admin as source branch for main
