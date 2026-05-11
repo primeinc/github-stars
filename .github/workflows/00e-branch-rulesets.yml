@@ -27,6 +27,7 @@ jobs:
   branch-rulesets:
     name: branch-rulesets-${{ inputs.operation }}
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: Checkout tracked ruleset specs
         uses: actions/checkout@v6
@@ -55,6 +56,28 @@ jobs:
             echo "::error::vars.GH_APP_ID must be the numeric GitHub App ID used as the ruleset Integration bypass actor."
             exit 1
           fi
+
+          gh_rules_api() {
+            gh api \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "$@"
+          }
+
+          list_rulesets() {
+            gh_rules_api --paginate "/repos/${REPO}/rulesets?includes_parents=false"
+          }
+
+          ruleset_id_by_name() {
+            local name="$1"
+            list_rulesets \
+              | jq -r --arg name "${name}" '
+                  if type == "array" then .[] else . end
+                  | select(.name == $name)
+                  | .id
+                ' \
+              | head -n 1
+          }
 
           normalize_ruleset() {
             jq -S '{
@@ -87,7 +110,7 @@ jobs:
                       required_status_checks: [
                         .parameters.required_status_checks[]?
                         | {context}
-                      ]
+                      ] | sort_by(.context)
                     }
                   }
                   else {type}
@@ -125,25 +148,19 @@ jobs:
             local name="$1"
             local payload="$2"
             local id
-            id=$(gh api "/repos/${REPO}/rulesets?includes_parents=false" \
-              --jq ".[] | select(.name == \"${name}\") | .id" \
-              | head -n 1 || true)
+            id=$(ruleset_id_by_name "${name}" || true)
 
             if [ -n "${id}" ]; then
               echo "Updating ruleset ${name} (${id})"
-              gh api \
+              gh_rules_api \
                 --method PUT \
-                -H "Accept: application/vnd.github+json" \
-                -H "X-GitHub-Api-Version: 2022-11-28" \
                 "/repos/${REPO}/rulesets/${id}" \
                 --input "${payload}" \
                 --jq '{id, name, target, enforcement}'
             else
               echo "Creating ruleset ${name}"
-              gh api \
+              gh_rules_api \
                 --method POST \
-                -H "Accept: application/vnd.github+json" \
-                -H "X-GitHub-Api-Version: 2022-11-28" \
                 "/repos/${REPO}/rulesets" \
                 --input "${payload}" \
                 --jq '{id, name, target, enforcement}'
@@ -166,16 +183,12 @@ jobs:
             render_spec "${spec}" "${rendered}"
             normalize_ruleset < "${rendered}" > "${desired}"
 
-            id=$(gh api "/repos/${REPO}/rulesets?includes_parents=false" \
-              --jq ".[] | select(.name == \"${name}\") | .id" \
-              | head -n 1 || true)
+            id=$(ruleset_id_by_name "${name}" || true)
 
             if [ -z "${id}" ]; then
               if [ "${OPERATION}" = "upsert" ]; then
                 upsert_ruleset "${name}" "${rendered}"
-                id=$(gh api "/repos/${REPO}/rulesets?includes_parents=false" \
-                  --jq ".[] | select(.name == \"${name}\") | .id" \
-                  | head -n 1 || true)
+                id=$(ruleset_id_by_name "${name}" || true)
               else
                 echo "::error::ruleset missing: ${name}"
                 return 1
@@ -184,7 +197,7 @@ jobs:
               upsert_ruleset "${name}" "${rendered}"
             fi
 
-            gh api "/repos/${REPO}/rulesets/${id}" > "${actual}.raw"
+            gh_rules_api "/repos/${REPO}/rulesets/${id}" > "${actual}.raw"
             normalize_ruleset < "${actual}.raw" > "${actual}"
 
             if diff -u "${desired}" "${actual}"; then
@@ -206,6 +219,7 @@ jobs:
             echo ""
             echo "- Operation: \`${{ inputs.operation }}\`"
             echo "- Enforcement: \`${{ inputs.enforcement }}\`"
+            echo "- Ref guard: \`refs/heads/main\` only"
             echo "- Specs: \`.github-stars/control-plane/rulesets/*.json\`"
             echo "- Bypass actor: GitHub App Integration from \`vars.GH_APP_ID\`"
             echo "- App permission required: \`Administration: write\` on this repository"
