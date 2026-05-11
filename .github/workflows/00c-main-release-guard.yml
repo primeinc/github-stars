@@ -1,4 +1,4 @@
-name: Lane Check
+name: Branch Source
 
 # Per the protection-stage brief, `main` accepts exactly two
 # repo-owned source branches:
@@ -27,7 +27,7 @@ permissions:
 
 jobs:
   main-release-guard:
-    name: Source allowed
+    name: Allowed into main
     runs-on: ubuntu-latest
     steps:
       - name: Require repo-owned next or ghapp/repo-admin as source branch for main
