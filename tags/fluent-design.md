@@ -12,6 +12,6 @@
 | [unchihugo/FluentFlyout](https://github.com/unchihugo/FluentFlyout) | The modern Flyout app for Windows 11, built with Fluent 2 Design principles. Media Flyouts, Taskbar Widgets and more. | `C#` ★ 2.7k | 2026-05-08 |
 | [DevToys-app/DevToys](https://github.com/DevToys-app/DevToys) | A Swiss Army knife for developers. | `C#` ★ 31.5k | 2026-02-25 |
 | [bkaankose/Wino-Mail](https://github.com/bkaankose/Wino-Mail) | Built-in Mail & Calendars app clone for Windows. | `C#` ★ 1.5k | 2026-04-25 |
-| [zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) | A fluent design widgets library based on C++ Qt/Py Qt/Py Side. Make Qt Great Again. | `Python` ★ 7.9k | 2026-04-04 |
+| [zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) | A fluent design widgets library based on C++ Qt/Py Qt/Py Side. Make Qt Great Again. | `Python` ★ 7.9k | 2026-05-10 |
 | [kimlimjustin/xplorer](https://github.com/kimlimjustin/xplorer) | Xplorer, a customizable, modern file manager | `TypeScript` ★ 5.5k | 2026-04-30 |
-| [files-community/Files](https://github.com/files-community/Files) | A modern file manager that helps users organize their files and folders. | `C#` ★ 43.3k | 2026-05-08 |
+| [files-community/Files](https://github.com/files-community/Files) | A modern file manager that helps users organize their files and folders. | `C#` ★ 43.4k | 2026-05-10 |

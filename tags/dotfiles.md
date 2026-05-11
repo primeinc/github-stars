@@ -9,4 +9,4 @@
 | [prabirshrestha/dotfiles](https://github.com/prabirshrestha/dotfiles) | There is no place like ~ | `Lua` ★ 97 | 2026-05-05 |
 | [google/dotguides](https://github.com/google/dotguides) | No description provided | `TypeScript` ★ 70 | 2026-03-19 |
 | [jade-tam/dotfiles](https://github.com/jade-tam/dotfiles) | Ricing dotfiles for windows 11 | `Shell` ★ 168 | 2026-04-14 |
-| [KevinNitroG/dotfiles](https://github.com/KevinNitroG/dotfiles) | Linux, Windows dotfiles managed with Chezmoi | `JSON` ★ 87 | 2026-05-06 |
+| [KevinNitroG/dotfiles](https://github.com/KevinNitroG/dotfiles) | Linux, Windows dotfiles managed with Chezmoi | `JSON` ★ 87 | 2026-05-10 |

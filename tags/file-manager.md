@@ -11,5 +11,5 @@
 | [yorukot/superfile](https://github.com/yorukot/superfile) | Pretty fancy and modern terminal file manager | `Go` ★ 17.3k | 2026-05-06 |
 | [TagStudioDev/TagStudio](https://github.com/TagStudioDev/TagStudio) | A User-Focused Photo & File Management System | `Python` ★ 6.9k | 2026-05-10 |
 | [kimlimjustin/xplorer](https://github.com/kimlimjustin/xplorer) | Xplorer, a customizable, modern file manager | `TypeScript` ★ 5.5k | 2026-04-30 |
-| [files-community/Files](https://github.com/files-community/Files) | A modern file manager that helps users organize their files and folders. | `C#` ★ 43.3k | 2026-05-08 |
+| [files-community/Files](https://github.com/files-community/Files) | A modern file manager that helps users organize their files and folders. | `C#` ★ 43.4k | 2026-05-10 |
 | [derceg/explorerplusplus](https://github.com/derceg/explorerplusplus) | Explorer++ is a lightweight and fast file manager for Windows | `C++` ★ 3.2k | 2026-05-07 |

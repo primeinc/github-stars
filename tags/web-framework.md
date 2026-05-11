@@ -8,4 +8,4 @@
 |---|---|---|---|
 | [honojs/hono](https://github.com/honojs/hono) | Web framework built on Web Standards | `TypeScript` ★ 30.4k | 2026-05-08 |
 | [rails/rails](https://github.com/rails/rails) | Ruby on Rails | `Ruby` ★ 58.4k | 2026-05-10 |
-| [jarves/jarves](https://github.com/jarves/jarves) | Jarves CMS/Application Framework based on Symfony - Alpha material | `JavaScript` ★ 329 | 2018-07-17 |
+| [jarves/jarves](https://github.com/jarves/jarves) | Jarves CMS/Application Framework based on Symfony - Alpha material | `JavaScript` ★ 330 | 2018-07-17 |

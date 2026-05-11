@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 3.2k | 2026-05-10 |
+| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 3.2k | 2026-05-11 |
 | [ariccio/altWinDirStat](https://github.com/ariccio/altWinDirStat) | An unofficial modification of Win Dir Stat | `C++` ★ 632 | 2022-01-11 |

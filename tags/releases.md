@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Songmu/tagpr](https://github.com/Songmu/tagpr) | automatically creates and updates a pull request for unreleased items, tag them when they are merged, and create releases. | `Go` ★ 295 | 2026-05-09 |
+| [Songmu/tagpr](https://github.com/Songmu/tagpr) | automatically creates and updates a pull request for unreleased items, tag them when they are merged, and create releases. | `Go` ★ 296 | 2026-05-09 |
 | [intuit/auto](https://github.com/intuit/auto) | Generate releases based on semantic version labels on pull requests. | `TypeScript` ★ 2.4k | 2026-02-10 |

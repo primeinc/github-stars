@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [omachala/heroshot](https://github.com/omachala/heroshot) | Screenshot automation framework. Define once, regenerate forever. Visual picker, multi-viewport, light/dark mode, CI-ready. | `TypeScript` ★ 45 | 2026-04-12 |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. | `Python` ★ 93.2k | 2026-05-09 |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. | `Python` ★ 93.3k | 2026-05-10 |
 | [Azure/playwright-workspaces](https://github.com/Azure/playwright-workspaces) | No description provided | ★ 12 | 2026-04-21 |
 | [mediar-ai/terminator](https://github.com/mediar-ai/terminator) | playwright for windows computer use | `Rust` ★ 1.4k | 2026-04-21 |
 | [anishkny/playwright-test-coverage](https://github.com/anishkny/playwright-test-coverage) | Extends Playwright test to measure code coverage | `JavaScript` ★ 96 | 2026-04-10 |

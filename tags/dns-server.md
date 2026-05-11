@@ -7,5 +7,5 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [coredns/coredns](https://github.com/coredns/coredns) | Core DNS is a DNS server that chains plugins | `Go` ★ 14.1k | 2026-05-07 |
-| [TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer) | Technitium DNS Server | `C#` ★ 8.3k | 2026-05-09 |
+| [TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer) | Technitium DNS Server | `C#` ★ 8.4k | 2026-05-09 |
 | [olimpo88/PyDDNS](https://github.com/olimpo88/PyDDNS) | Complete system to create your own server ddns | `Python` ★ 76 | 2026-05-07 |
