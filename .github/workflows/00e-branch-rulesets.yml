@@ -226,10 +226,20 @@ jobs:
   # `environment: github-admin` so deployment protection rules
   # (when configured) gate the actual mutation.
   # ----------------------------------------------------------------
+  # ----------------------------------------------------------------
+  # upsert: gated. Runs INDEPENDENT of the `check` job — `check`
+  # fails red when a ruleset does not yet exist (return 1 from
+  # `check_ruleset` on missing id), which would deadlock the very
+  # first creation if upsert had `needs: check`. Upsert performs its
+  # own pre-state inspection (`ruleset_id_by_name` -> empty => POST,
+  # non-empty => PUT) and post-upsert verification (`upsert_and_verify`
+  # diffs the rendered spec against the live ruleset after writing).
+  # The `environment: github-admin` deployment-protection gate is
+  # what authorizes the mutation, not the check job.
+  # ----------------------------------------------------------------
   upsert:
     name: branch-rulesets-upsert
     runs-on: ubuntu-latest
-    needs: check
     if: github.ref == 'refs/heads/main' && inputs.operation == 'upsert'
     environment: github-admin
     steps:

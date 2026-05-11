@@ -9,17 +9,24 @@ name: sync-protected-branches-with-main
 #   1. `next`              — integration lane (release flow lives here)
 #   2. `ghapp/repo-admin`  — GitHub App / control-plane admin lane
 #
-# For each lane, prefer GitHub's documented PR update-branch API
-# when there is exactly one open repo-owned `<lane> -> main` PR.
-# Fall back to a fast-forward push on the branch itself for
-# `ghapp/repo-admin` only — the admin lane is allowed to advance
-# without an open PR (release flow is gated by the PR existence;
-# admin sync is gated by FF-ability to avoid blind force).
+# Policy (both lanes, identical — "successful pull to main FFs both
+# branches"):
+#   1. If exactly one open repo-owned `<lane> -> main` PR exists,
+#      call PUT /pulls/{n}/update-branch with expected_head_sha.
+#      The PR-driven path is preferred (carries reviewer + checks).
+#   2. Else fall back to a fast-forward PATCH on the branch itself
+#      (`PATCH /git/refs/heads/<lane>` with `force=false`). This
+#      guarantees that a successful push to `main` advances both
+#      lanes whether or not a release PR happens to be open.
+#   3. Divergent history (ahead_by > 0) fails red — refuses
+#      blind-force push.
+#   4. Multiple open PRs fail red — refuses to choose.
 #
 # Doctrine:
 #   - GitHub App installation token only. No PAT fallback.
 #   - `expected_head_sha` for every update-branch call (stale-head
 #     guard).
+#   - FF-only on the branch-PATCH fallback (`force=false`).
 #   - Fail loudly per lane if the lane cannot be advanced safely.
 #   - Do not silently ignore either branch.
 #   - Do not blindly push.
@@ -177,85 +184,104 @@ jobs:
             echo "${ahead_by} ${behind_by}"
           }
 
+          # ------------------------------------------------------------
+          # Helper: reconcile one lane against main. Policy (both
+          # lanes, identical):
+          #   1. If there is exactly one open repo-owned `<lane> ->
+          #      main` PR, call PUT /pulls/{n}/update-branch with
+          #      expected_head_sha (stale-head guard).
+          #   2. If no open PR:
+          #      - already up-to-date  -> record up_to_date
+          #      - 0 ahead, N behind   -> FF-only PATCH
+          #        /git/refs/heads/<lane> with force=false
+          #      - divergent (ahead>0) -> red, refuse blind push
+          #   3. If multiple open PRs -> red (already errored to FD3
+          #      from find_release_pr).
+          #
+          # This is the canonical "successful pull to main FFs both
+          # branches" policy. PR-driven update-branch is preferred
+          # when a PR exists (carries reviewer + checks + history);
+          # FF-only PATCH is the fallback so absence of a release PR
+          # does not block sync.
+          # ------------------------------------------------------------
+          reconcile_lane() {
+            local lane="$1"
+            local prefix="$2"
+
+            local before
+            before=$(gh_api "/repos/${REPO}/branches/${lane}" --jq '.commit.sha')
+            record "${prefix}_sha_before=${before}"
+            echo "${lane} before: ${before}"
+
+            local pr_json
+            if pr_json=$(find_release_pr "${lane}" 2>/dev/null); then
+              local pr_number pr_head
+              pr_number=$(jq -r '.number' <<<"${pr_json}")
+              pr_head=$(jq -r '.head_sha' <<<"${pr_json}")
+              echo "Found ${lane} -> main PR #${pr_number} (head ${pr_head})"
+              record "${prefix}_pr=#${pr_number}"
+              update_pr_branch "${pr_number}" "${pr_head}"
+              sleep 2
+              local after
+              after=$(gh_api "/repos/${REPO}/branches/${lane}" --jq '.commit.sha')
+              record "${prefix}_sha_after=${after}"
+              record "${prefix}_status=updated_via_pr"
+              echo "${lane} after: ${after}"
+              return 0
+            fi
+
+            local rc=$?
+            if [ "${rc}" -eq 2 ]; then
+              record "${prefix}_status=blocked_multiple_open_prs"
+              echo "${prefix}_sync_failed=true" >>"$GITHUB_OUTPUT"
+              return 0
+            fi
+
+            # rc=1: no open PR. Fall back to FF-only PATCH.
+            echo "No open ${lane} -> main PR. Checking fast-forward state."
+            local ahead_by behind_by
+            read -r ahead_by behind_by < <(ff_state "${lane}")
+            echo "ahead_by=${ahead_by} behind_by=${behind_by}"
+
+            if [ "${ahead_by}" -eq 0 ] && [ "${behind_by}" -eq 0 ]; then
+              echo "${lane} is already up-to-date with main."
+              record "${prefix}_status=up_to_date"
+              record "${prefix}_sha_after=${before}"
+              return 0
+            fi
+
+            if [ "${ahead_by}" -eq 0 ] && [ "${behind_by}" -gt 0 ]; then
+              echo "${lane} is ${behind_by} commit(s) behind main and 0 ahead — fast-forward via App."
+              gh_api \
+                --method PATCH \
+                "/repos/${REPO}/git/refs/heads/${lane}" \
+                -f "sha=${MAIN_SHA}" \
+                -F "force=false"
+              local after
+              after=$(gh_api "/repos/${REPO}/branches/${lane}" --jq '.commit.sha')
+              record "${prefix}_sha_after=${after}"
+              record "${prefix}_status=fast_forwarded"
+              echo "${lane} after: ${after}"
+              return 0
+            fi
+
+            echo "::error::${lane} has ${ahead_by} commit(s) ahead and ${behind_by} commit(s) behind main — divergent history. Manual rebase/update required; refusing to blind-push."
+            record "${prefix}_status=blocked_divergent_${ahead_by}_ahead_${behind_by}_behind"
+            echo "${prefix}_sync_failed=true" >>"$GITHUB_OUTPUT"
+          }
+
           # ============================================================
           # Lane 1: next (release lane)
           # ============================================================
           echo "::group::Reconcile next lane"
-          next_before=$(gh_api "/repos/${REPO}/branches/${RELEASE_LANE_BRANCH}" --jq '.commit.sha')
-          record "next_sha_before=${next_before}"
-          echo "next before: ${next_before}"
-
-          if next_pr_json=$(find_release_pr "${RELEASE_LANE_BRANCH}" 2>/dev/null); then
-            next_pr_number=$(jq -r '.number' <<<"${next_pr_json}")
-            next_pr_head=$(jq -r '.head_sha' <<<"${next_pr_json}")
-            echo "Found release PR #${next_pr_number} (head ${next_pr_head})"
-            record "next_pr=#${next_pr_number}"
-            update_pr_branch "${next_pr_number}" "${next_pr_head}"
-            sleep 2
-            next_after=$(gh_api "/repos/${REPO}/branches/${RELEASE_LANE_BRANCH}" --jq '.commit.sha')
-            record "next_sha_after=${next_after}"
-            echo "next after: ${next_after}"
-          else
-            rc=$?
-            if [ "${rc}" -eq 1 ]; then
-              echo "::error::No open repo-owned ${RELEASE_LANE_BRANCH} -> main PR found. Per release-lane policy, the release PR is the documented surface for next->main update-branch calls. Open the release PR or accept that next will not be auto-synced."
-              record "next_status=blocked_no_release_pr"
-              echo "next_sync_failed=true" >>"$GITHUB_OUTPUT"
-            else
-              record "next_status=blocked_multiple_release_prs"
-              echo "next_sync_failed=true" >>"$GITHUB_OUTPUT"
-              # already errored to stderr inside find_release_pr
-            fi
-          fi
+          reconcile_lane "${RELEASE_LANE_BRANCH}" "next"
           echo "::endgroup::"
 
           # ============================================================
           # Lane 2: ghapp/repo-admin (control-plane admin lane)
           # ============================================================
           echo "::group::Reconcile ghapp/repo-admin lane"
-          admin_before=$(gh_api "/repos/${REPO}/branches/${ADMIN_LANE_BRANCH}" --jq '.commit.sha')
-          record "admin_sha_before=${admin_before}"
-          echo "admin before: ${admin_before}"
-
-          if admin_pr_json=$(find_release_pr "${ADMIN_LANE_BRANCH}" 2>/dev/null); then
-            admin_pr_number=$(jq -r '.number' <<<"${admin_pr_json}")
-            admin_pr_head=$(jq -r '.head_sha' <<<"${admin_pr_json}")
-            echo "Found admin PR #${admin_pr_number} (head ${admin_pr_head})"
-            record "admin_pr=#${admin_pr_number}"
-            update_pr_branch "${admin_pr_number}" "${admin_pr_head}"
-            sleep 2
-            admin_after=$(gh_api "/repos/${REPO}/branches/${ADMIN_LANE_BRANCH}" --jq '.commit.sha')
-            record "admin_sha_after=${admin_after}"
-            echo "admin after: ${admin_after}"
-          else
-            # No open admin PR — try fast-forward of the branch itself.
-            echo "No open ${ADMIN_LANE_BRANCH} -> main PR. Checking fast-forward state."
-            read -r ahead_by behind_by < <(ff_state "${ADMIN_LANE_BRANCH}")
-            echo "ahead_by=${ahead_by} behind_by=${behind_by}"
-            if [ "${ahead_by}" -eq 0 ] && [ "${behind_by}" -eq 0 ]; then
-              echo "${ADMIN_LANE_BRANCH} is already up-to-date with main."
-              record "admin_status=up_to_date"
-              record "admin_sha_after=${admin_before}"
-            elif [ "${ahead_by}" -eq 0 ] && [ "${behind_by}" -gt 0 ]; then
-              echo "${ADMIN_LANE_BRANCH} is ${behind_by} commit(s) behind main and 0 ahead — fast-forward via App."
-              # PATCH /repos/{owner}/{repo}/git/refs/heads/{branch} with
-              # main's SHA. Force=false; FF-only (we already verified
-              # ahead_by=0).
-              gh_api \
-                --method PATCH \
-                "/repos/${REPO}/git/refs/heads/${ADMIN_LANE_BRANCH}" \
-                -f "sha=${MAIN_SHA}" \
-                -F "force=false"
-              admin_after=$(gh_api "/repos/${REPO}/branches/${ADMIN_LANE_BRANCH}" --jq '.commit.sha')
-              record "admin_sha_after=${admin_after}"
-              record "admin_status=fast_forwarded"
-              echo "admin after: ${admin_after}"
-            else
-              echo "::error::${ADMIN_LANE_BRANCH} has ${ahead_by} commit(s) ahead and ${behind_by} commit(s) behind main — divergent history. Manual rebase/update required; refusing to blind-push."
-              record "admin_status=blocked_divergent_${ahead_by}_ahead_${behind_by}_behind"
-              echo "admin_sync_failed=true" >>"$GITHUB_OUTPUT"
-            fi
-          fi
+          reconcile_lane "${ADMIN_LANE_BRANCH}" "admin"
           echo "::endgroup::"
 
           # ============================================================
