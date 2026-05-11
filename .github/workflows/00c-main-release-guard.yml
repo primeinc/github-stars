@@ -9,7 +9,8 @@ name: gh-action protected branch
 # Anything else fails this gate. PRs from forks fail (BASE_REPO !=
 # HEAD_REPO). Feature/chore work flows through `next` first; admin /
 # workflow / ruleset work flows through `ghapp/repo-admin` and is
-# additionally path-scoped by `00d-admin-branch-sync-guard.yml`.
+# additionally path-scoped by `00h-gh-action-file-allowlist.yml` and
+# staleness-checked by `00d-gh-action-branch-staleness.yml`.
 
 on:
   pull_request:

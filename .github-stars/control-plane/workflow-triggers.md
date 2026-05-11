@@ -175,7 +175,7 @@ this commit. "Conc." is the concurrency stanza added.
 
 | File | Workflow `name` | Job `name` (status check) | Trigger | Conc. cancel |
 |---|---|---|---|---|
-| 00-ci.yml | `pnpm gate` | `all gates pass` | `pull_request: [main, next]` + `push: [main, next]` | true |
+| 00-ci.yml | `bun gate` | `all gates pass` | `pull_request: [main, next]` + `push: [main, next]` | true |
 | 00a-do-not-merge-yet.yml | `gh-action label gate` | `DoNotMergeYet absent` | `pull_request` (any base) | true |
 | 00b-web-ci.yml | `npm web build` | `build succeeds` | `pull_request: [main, next]` + `push: [main, next]` (paths-filtered on push) | true |
 | 00c-main-release-guard.yml | `gh-action protected branch` | `src branch allowed` | `pull_request: [main]` | true |
@@ -200,10 +200,16 @@ Notes:
   status for the required check to clear.
 - 00e has a self-bootstrap path: a push to `main` that touches the
   ruleset specs (`.github-stars/control-plane/rulesets/**`) or 00e
-  itself (`.github/workflows/00e-branch-rulesets.yml`) automatically
-  upserts the live rulesets with `enforcement=active`. The
-  `workflow_dispatch` form is kept for human-driven ops (drift checks,
-  enforcement toggle, manual re-upsert) and still requires the
+  itself (`.github/workflows/00e-branch-rulesets.yml`) fires the
+  upsert job. Per issue #82, the upsert job inherits the enforcement
+  value from the tracked spec JSON on the push path (NOT hardcoded to
+  `active`) — to flip enforcement, edit the JSON and push. The
+  upsert job declares `environment: github-admin` with
+  `deployment: false`; the environment's required-reviewer rule
+  (configured in repo Settings) is what authorizes credential release
+  before the App token is minted. The `workflow_dispatch` form is
+  kept for human-driven ops (drift checks, manual enforcement
+  override, manual re-upsert) and still requires the
   `confirm_upsert=APPLY_RULESETS` typed-string guard on that path.
   00e is NOT a required status check on any ruleset — it OPERATES
   the rulesets, it doesn't gate PRs.

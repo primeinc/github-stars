@@ -95,6 +95,20 @@ jobs:
               "$@"
           }
 
+          # URL-encode a value for use as a single REST path segment.
+          # Per ../refs/github/docs/content/rest/using-the-rest-api/
+          # troubleshooting-the-rest-api.md L74: "any path parameters
+          # must be URL encoded. For example, any slashes in the
+          # parameter value must be replaced with `%2F`." Required for
+          # branch names containing `/` like `ghapp/repo-admin` — raw
+          # interpolation produces `/branches/ghapp/repo-admin` which
+          # the API parses as a multi-segment path and returns 404.
+          # Per Copilot review on PR #81 (00f:185) and Codex review
+          # (00f:212).
+          urlencode() {
+            jq -rn --arg v "$1" '$v | @uri'
+          }
+
           # State accumulator for the summary step.
           : >state.txt
           record() {
@@ -176,8 +190,10 @@ jobs:
           # ------------------------------------------------------------
           ff_state() {
             local branch="$1"
+            local branch_enc
+            branch_enc=$(urlencode "${branch}")
             local cmp
-            cmp=$(gh_api "/repos/${REPO}/compare/main...${branch}")
+            cmp=$(gh_api "/repos/${REPO}/compare/main...${branch_enc}")
             local behind_by ahead_by
             ahead_by=$(jq -r '.ahead_by' <<<"${cmp}")
             behind_by=$(jq -r '.behind_by' <<<"${cmp}")
@@ -207,9 +223,11 @@ jobs:
           reconcile_lane() {
             local lane="$1"
             local prefix="$2"
+            local lane_enc
+            lane_enc=$(urlencode "${lane}")
 
             local before
-            before=$(gh_api "/repos/${REPO}/branches/${lane}" --jq '.commit.sha')
+            before=$(gh_api "/repos/${REPO}/branches/${lane_enc}" --jq '.commit.sha')
             record "${prefix}_sha_before=${before}"
             echo "${lane} before: ${before}"
 
@@ -223,7 +241,7 @@ jobs:
               update_pr_branch "${pr_number}" "${pr_head}"
               sleep 2
               local after
-              after=$(gh_api "/repos/${REPO}/branches/${lane}" --jq '.commit.sha')
+              after=$(gh_api "/repos/${REPO}/branches/${lane_enc}" --jq '.commit.sha')
               record "${prefix}_sha_after=${after}"
               record "${prefix}_status=updated_via_pr"
               echo "${lane} after: ${after}"
@@ -254,11 +272,11 @@ jobs:
               echo "${lane} is ${behind_by} commit(s) behind main and 0 ahead — fast-forward via App."
               gh_api \
                 --method PATCH \
-                "/repos/${REPO}/git/refs/heads/${lane}" \
+                "/repos/${REPO}/git/refs/heads/${lane_enc}" \
                 -f "sha=${MAIN_SHA}" \
                 -F "force=false"
               local after
-              after=$(gh_api "/repos/${REPO}/branches/${lane}" --jq '.commit.sha')
+              after=$(gh_api "/repos/${REPO}/branches/${lane_enc}" --jq '.commit.sha')
               record "${prefix}_sha_after=${after}"
               record "${prefix}_status=fast_forwarded"
               echo "${lane} after: ${after}"

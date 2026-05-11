@@ -84,17 +84,24 @@ jobs:
           shopt -s nullglob
           files=( .github/workflows/*.yml .github/workflows/*.yaml )
           bad=""
-          # Strip comment lines (lines whose first non-whitespace char is #)
-          # before grepping. Without this the guard would self-trip on its
-          # own diagnostic comments — same class of bug as the
-          # cardinalby-mode guard hit in v1 (see 02M-mode-correction.md).
+          # Grep the ORIGINAL file with `-n` so reported line numbers
+          # match the source. Drop hits whose matched line is a YAML
+          # comment (first non-space char `#`) via awk post-filter,
+          # preserving the source line number. Prior shape stripped
+          # comments first then grepped -n, which produced shifted
+          # line numbers (Copilot review on PR #81: 00j:97).
+          filter_non_comment_hits() {
+            awk -F: '{
+              n=index($0,":"); content=substr($0, n+1)
+              if (content !~ /^[[:space:]]*#/) print
+            }'
+          }
           for f in "${files[@]}"; do
-            non_comments=$(grep -vE '^[[:space:]]*#' "$f" || true)
             # Pattern 1: STARS_TOKEN || GITHUB_TOKEN (any order, any whitespace).
-            hit1=$(printf '%s\n' "$non_comments" | grep -nE 'secrets\.STARS_TOKEN[[:space:]]*\|\|[[:space:]]*secrets\.GITHUB_TOKEN' || true)
-            hit2=$(printf '%s\n' "$non_comments" | grep -nE 'secrets\.GITHUB_TOKEN[[:space:]]*\|\|[[:space:]]*secrets\.STARS_TOKEN' || true)
+            hit1=$(grep -nE 'secrets\.STARS_TOKEN[[:space:]]*\|\|[[:space:]]*secrets\.GITHUB_TOKEN' "$f" | filter_non_comment_hits || true)
+            hit2=$(grep -nE 'secrets\.GITHUB_TOKEN[[:space:]]*\|\|[[:space:]]*secrets\.STARS_TOKEN' "$f" | filter_non_comment_hits || true)
             # Pattern 2: app-token.outputs.token OR'd with any other secret.
-            hit3=$(printf '%s\n' "$non_comments" | grep -nE 'app-token\.outputs\.token[[:space:]]*\|\|[[:space:]]*secrets\.' || true)
+            hit3=$(grep -nE 'app-token\.outputs\.token[[:space:]]*\|\|[[:space:]]*secrets\.' "$f" | filter_non_comment_hits || true)
             for h in "$hit1" "$hit2" "$hit3"; do
               if [ -n "$h" ]; then bad="${bad}${f}:\n${h}\n"; fi
             done
@@ -120,16 +127,23 @@ jobs:
           shopt -s nullglob
           files=( .github/workflows/*.yml .github/workflows/*.yaml )
           bad=""
-          # Strip comment lines first so the guard cannot self-trip on
-          # its own inline doc text. Same defensive pattern as the
-          # mixed-credential guard above.
+          # Same shape as the mixed-credential guard above: grep the
+          # ORIGINAL file with `-n` so reported line numbers match the
+          # source, then awk-filter out comment-line hits without
+          # losing the source line number (Copilot review on PR #81:
+          # 00j:132).
+          filter_non_comment_hits() {
+            awk -F: '{
+              n=index($0,":"); content=substr($0, n+1)
+              if (content !~ /^[[:space:]]*#/) print
+            }'
+          }
           for f in "${files[@]}"; do
-            non_comments=$(grep -vE '^[[:space:]]*#' "$f" || true)
             # ^\s+blocked_orgs: ... (job/step output key, not _count).
-            hit=$(printf '%s\n' "$non_comments" | grep -nE "^[[:space:]]+blocked_orgs:[[:space:]]" || true)
+            hit=$(grep -nE "^[[:space:]]+blocked_orgs:[[:space:]]" "$f" | filter_non_comment_hits || true)
             if [ -n "$hit" ]; then bad="${bad}${f}:\n${hit}\n"; fi
             # BLOCKED_ORGS env var (used to substitute names into summaries).
-            hit2=$(printf '%s\n' "$non_comments" | grep -nE "^[[:space:]]+BLOCKED_ORGS:[[:space:]]" || true)
+            hit2=$(grep -nE "^[[:space:]]+BLOCKED_ORGS:[[:space:]]" "$f" | filter_non_comment_hits || true)
             if [ -n "$hit2" ]; then bad="${bad}${f}:\n${hit2}\n"; fi
           done
           if [ -n "$bad" ]; then
