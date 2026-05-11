@@ -1,6 +1,26 @@
 name: sync-next-with-main
 
+# Per protection-stage brief rule #10: after the admin/control-plane
+# PR merges to `main`, `next` must absorb latest `main` before any
+# downstream PR (e.g. PR #79) can proceed. This workflow:
+#
+#   - on `push` to main: auto-runs in `sync` mode (default), keeping
+#     the open `next -> main` release PR's head up to date with main
+#     using GitHub's documented update-branch API
+#     (PUT /repos/{owner}/{repo}/pulls/{pull_number}/update-branch)
+#     with `expected_head_sha` for the stale-head guard.
+#   - on `workflow_dispatch`: manual fallback; supports `check` and
+#     `sync` operations for inspection or forced re-run.
+#
+# The same workflow also fires from refs/heads/main only — push from
+# any other branch is ignored — so admin merges to main are the
+# trigger, and pushes to next don't loop the operation back on
+# itself.
+
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       operation:
@@ -17,7 +37,9 @@ permissions:
 
 jobs:
   sync-next-with-main:
-    name: sync-next-with-main-${{ inputs.operation }}
+    # Operation defaults to `sync` on push (rule #10), `check` on
+    # manual dispatch unless the operator explicitly picks `sync`.
+    name: sync-next-with-main-${{ inputs.operation || 'sync' }}
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
@@ -36,12 +58,12 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           REPO: ${{ github.repository }}
-          OPERATION: ${{ inputs.operation }}
+          # On push: default `sync`. On dispatch: use the input.
+          OPERATION: ${{ inputs.operation || 'sync' }}
         run: |
           set -euo pipefail
 
           owner="${REPO%%/*}"
-          repo_name="${REPO#*/}"
           head_filter="${owner}:next"
 
           gh_pr_api() {
@@ -90,8 +112,10 @@ jobs:
           {
             echo "# Sync next with main"
             echo ""
-            echo "- Operation: \`${{ inputs.operation }}\`"
+            echo "- Trigger: \`${{ github.event_name }}\`"
+            echo "- Operation: \`${{ inputs.operation || 'sync' }}\` _(default 'sync' on push, dispatch input on workflow_dispatch)_"
             echo "- Ref guard: \`refs/heads/main\` only"
-            echo "- Mechanism: GitHub REST \`PUT /repos/{owner}/{repo}/pulls/{pull_number}/update-branch\`"
+            echo "- Mechanism: GitHub REST \`PUT /repos/{owner}/{repo}/pulls/{pull_number}/update-branch\` with \`expected_head_sha\` for the stale-head guard"
             echo "- Required App permissions: \`Pull requests: write\` and \`Contents: write\` for the head repository"
+            echo "- Auto-trigger: every push to \`main\` (so admin/control-plane merges propagate to \`next\` immediately)"
           } >> "$GITHUB_STEP_SUMMARY"

@@ -138,7 +138,7 @@ jobs:
                 | {
                     actor_id,
                     actor_type,
-                    bypass_mode: (.bypass_mode // "always")
+                    bypass_mode: (.bypass_mode // "pull_request")
                   }
               ] | sort_by(.actor_type, .actor_id, .bypass_mode)
             }'
@@ -147,6 +147,14 @@ jobs:
           render_spec() {
             local spec="$1"
             local rendered="$2"
+            # `bypass_mode: "pull_request"` per
+            # https://docs.github.com/en/rest/repos/rules#create-a-repository-ruleset
+            # — "pull_request means that an actor can only bypass rules
+            # on pull requests" and "pull_request is only applicable to
+            # branch rulesets." For an automation App that gates merges
+            # via PR (next -> main release flow + admin/control-plane PR
+            # flow), pull_request is strictly tighter than always while
+            # still letting the App close release PRs.
             jq \
               --arg enforcement "${ENFORCEMENT}" \
               --argjson app_id "${GH_APP_ID}" \
@@ -155,7 +163,7 @@ jobs:
                    {
                      actor_id: $app_id,
                      actor_type: "Integration",
-                     bypass_mode: "always"
+                     bypass_mode: "pull_request"
                    }
                  ]' \
               "${spec}" > "${rendered}"
