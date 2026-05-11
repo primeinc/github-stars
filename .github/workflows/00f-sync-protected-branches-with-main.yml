@@ -64,6 +64,12 @@ jobs:
         run: |
           set -euo pipefail
 
+          # Open FD 3 to the workflow's real stderr so helper
+          # functions can emit ::error:: annotations that survive
+          # callers using `... 2>/dev/null` to suppress noise on the
+          # happy path. See Copilot review comment on 00f:106.
+          exec 3>&2
+
           owner="${REPO%%/*}"
 
           gh_api() {
@@ -103,8 +109,24 @@ jobs:
             if [ "${count}" -eq 0 ]; then
               return 1
             fi
-            echo "::error::Multiple open repo-owned ${head_branch} -> main PRs found; refusing to choose."
-            jq -r '.[] | "  - #\(.number) \(.html_url)"' <<<"${pr_json}" >&2
+            # Multi-PR error path. Caller captures stdout via command
+            # substitution + `2>/dev/null`. Write the diagnostic to
+            # the workflow log directly via gh's GITHUB_STEP_SUMMARY
+            # would be wrong here (helper, not a step); instead emit
+            # to file descriptor 3 which we open to a known log path.
+            # Simpler: write to >&2 NOW (before the redirect by the
+            # caller would matter), and ALSO set a global state
+            # variable the caller can read. Since the caller pattern
+            # is `if find_release_pr ... 2>/dev/null; then ... else
+            # rc=$?; fi`, the stderr WILL be swallowed. Use FD 3
+            # (opened in the main script body) to bypass.
+            #
+            # Per Copilot review on PR #81: route both the
+            # `::error::` annotation and the per-PR list to FD 3 so
+            # they survive the caller's `2>/dev/null`. FD 3 is
+            # opened to /dev/stderr at the top of this run script.
+            echo "::error::Multiple open repo-owned ${head_branch} -> main PRs found; refusing to choose." >&3
+            jq -r '.[] | "  - #\(.number) \(.html_url)"' <<<"${pr_json}" >&3
             return 2
           }
 
@@ -123,17 +145,26 @@ jobs:
           }
 
           # ------------------------------------------------------------
-          # Helper: compare a branch against main; returns 0 if FF-able
-          # (behind_by > 0 AND ahead_by == 0), 1 if up-to-date already,
-          # 2 if divergent (both ahead and behind).
+          # Helper: compare a branch against main. Returns
+          # `<branch_ahead_of_main> <branch_behind_main>` on stdout.
+          #
+          # Uses `compare/main...{branch}` (NOT `{branch}...main`)
+          # because the GitHub compare API's `ahead_by`/`behind_by`
+          # are computed relative to the basehead order:
+          #   compare/A...B → ahead_by = commits in B not in A
+          #                  behind_by = commits in A not in B
+          # So compare/main...{branch} gives:
+          #   ahead_by  = commits in branch not in main = branch AHEAD
+          #   behind_by = commits in main not in branch = branch BEHIND
+          # which matches the caller's variable semantic.
           # ------------------------------------------------------------
           ff_state() {
             local branch="$1"
             local cmp
-            cmp=$(gh_api "/repos/${REPO}/compare/${branch}...main")
+            cmp=$(gh_api "/repos/${REPO}/compare/main...${branch}")
             local behind_by ahead_by
-            behind_by=$(jq -r '.behind_by' <<<"${cmp}")
             ahead_by=$(jq -r '.ahead_by' <<<"${cmp}")
+            behind_by=$(jq -r '.behind_by' <<<"${cmp}")
             echo "${ahead_by} ${behind_by}"
           }
 
@@ -219,14 +250,15 @@ jobs:
           echo "::endgroup::"
 
           # ============================================================
-          # Final disposition: if either lane failed to sync, fail the
-          # workflow so the operator sees the red signal. PR #79
-          # remains blocked while either lane is stale.
+          # Final disposition: if either lane failed to sync, fail
+          # the workflow so the operator sees the red signal.
+          # Downstream PRs targeting either lane remain blocked
+          # while that lane is stale.
           # ============================================================
           cat state.txt
 
           if grep -qE '^(next|admin)_sync_failed=true' "${GITHUB_OUTPUT:-/dev/null}" 2>/dev/null; then
-            echo "::error::One or more protected branches could not be synced; PR #79 remains blocked until both lanes are caught up."
+            echo "::error::One or more protected branches could not be synced; downstream PRs remain blocked until both lanes are caught up to main."
             exit 1
           fi
 
@@ -257,6 +289,6 @@ jobs:
             echo "- Fast-forward fallback for \`ghapp/repo-admin\` when no open PR: \`PATCH /repos/{owner}/{repo}/git/refs/heads/{branch}\` with \`force=false\` (FF-only)"
             echo "- Compare API: \`GET /repos/{owner}/{repo}/compare/{branch}...main\` for FF-state inspection"
             echo ""
-            echo "## PR #79 unblock condition"
-            echo "PR #79 remains blocked until BOTH lanes are caught up to main. If either lane is stale or divergent, the workflow fails red and the operator must reconcile manually before the next push to main can clear the gate."
+            echo "## Downstream PR unblock condition"
+            echo "Downstream PRs targeting either lane remain blocked until BOTH lanes are caught up to main. If either lane is stale or divergent, this workflow fails red and the operator must reconcile manually before the next push to main can clear the gate."
           } >>"$GITHUB_STEP_SUMMARY"
