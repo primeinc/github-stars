@@ -48,6 +48,14 @@ on:
 permissions:
   contents: read
 
+# Mutating workflow: serialize to one in-flight run, but do NOT
+# cancel a run mid-PATCH. Ruleset updates are not transactional —
+# canceling mid-flight could leave half-applied state visible to the
+# next operator. See `.github-stars/control-plane/workflow-triggers.md` §3.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   # ----------------------------------------------------------------
   # check: always runs. Renders specs, diffs against live rulesets,

@@ -1,0 +1,160 @@
+name: gh-action workflow lint
+
+# Cheap structural guards on workflow YAML that pnpm gate's actionlint
+# stage cannot express. See `.sisyphus/proofs/02M-mode-correction.md`.
+#
+# Carved out of 00-ci.yml because it has a different dependency
+# surface than the bun-runtime gate — only github builtins (bash +
+# grep), no project source code.
+
+on:
+  pull_request:
+    branches:
+      - main
+      - next
+  push:
+    branches:
+      - main
+      - next
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  workflow-lint:
+    name: workflows valid
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      # Specific guard against the cardinalby/schema-validator-action mode
+      # footgun. The action accepts default | lax | strong | spec only.
+      # `strict` is invalid and would only fail at runtime in the
+      # production chain (see 02M-mode-correction.md Bug A). actionlint
+      # cannot catch this because cardinalby's action.yml does not enum
+      # the mode field.
+      #
+      # The regex is anchored to the start of a YAML key so it cannot
+      # match `mode: 'strict'` substrings inside echo lines or comments
+      # (which is how the v1 of this guard self-tripped on its own
+      # diagnostic strings).
+      - name: Reject invalid cardinalby/schema-validator-action mode values
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          files=( .github/workflows/*.yml .github/workflows/*.yaml )
+          bad=""
+          for f in "${files[@]}"; do
+            # Only inspect files that actually use the action.
+            if ! grep -q 'cardinalby/schema-validator-action' "$f"; then
+              continue
+            fi
+            # Anchored to ^\s*mode: so we only match real YAML keys.
+            hit=$(grep -nE "^[[:space:]]+mode:[[:space:]]*['\"]?strict['\"]?[[:space:]]*$" "$f" || true)
+            if [ -n "$hit" ]; then
+              bad="${bad}${f}:\n${hit}\n"
+            fi
+          done
+          if [ -n "$bad" ]; then
+            {
+              echo "::error::cardinalby/schema-validator-action does not accept the value reserved for an invalid mode."
+              echo "::error::Allowed: default | lax | strong | spec. See .sisyphus/proofs/02M-mode-correction.md."
+              printf '%b' "$bad"
+            } >&2
+            exit 1
+          fi
+          echo "No invalid mode values found in cardinalby/schema-validator-action steps."
+
+      # Per session-oracle verdict rule 1-7: a workflow MUST NOT silently
+      # mix credential classes. The historical laundering shape was
+      #   `secrets.STARS_TOKEN || secrets.GITHUB_TOKEN`
+      # or
+      #   `steps.app-token.outputs.token || secrets.STARS_TOKEN || ...`
+      # Reject any expression that ORs across credential classes inside
+      # a single role (token slot). Allowed: branch on
+      # steps.doctor.outputs.selected_mode and assign one credential per
+      # branch (the new pattern in 01-fetch / 02-sync).
+      - name: Reject mixed-credential laundering in workflow expressions
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          files=( .github/workflows/*.yml .github/workflows/*.yaml )
+          bad=""
+          # Strip comment lines (lines whose first non-whitespace char is #)
+          # before grepping. Without this the guard would self-trip on its
+          # own diagnostic comments — same class of bug as the
+          # cardinalby-mode guard hit in v1 (see 02M-mode-correction.md).
+          for f in "${files[@]}"; do
+            non_comments=$(grep -vE '^[[:space:]]*#' "$f" || true)
+            # Pattern 1: STARS_TOKEN || GITHUB_TOKEN (any order, any whitespace).
+            hit1=$(printf '%s\n' "$non_comments" | grep -nE 'secrets\.STARS_TOKEN[[:space:]]*\|\|[[:space:]]*secrets\.GITHUB_TOKEN' || true)
+            hit2=$(printf '%s\n' "$non_comments" | grep -nE 'secrets\.GITHUB_TOKEN[[:space:]]*\|\|[[:space:]]*secrets\.STARS_TOKEN' || true)
+            # Pattern 2: app-token.outputs.token OR'd with any other secret.
+            hit3=$(printf '%s\n' "$non_comments" | grep -nE 'app-token\.outputs\.token[[:space:]]*\|\|[[:space:]]*secrets\.' || true)
+            for h in "$hit1" "$hit2" "$hit3"; do
+              if [ -n "$h" ]; then bad="${bad}${f}:\n${h}\n"; fi
+            done
+          done
+          if [ -n "$bad" ]; then
+            {
+              echo "::error::Mixed-credential laundering detected in workflow YAML."
+              echo "::error::A token slot must use exactly one credential class per run, selected by steps.doctor.outputs.selected_mode."
+              echo "::error::See session-oracle verdict rules 1-7 (PR adding strict 3-mode resolver)."
+              printf '%b' "$bad"
+            } >&2
+            exit 1
+          fi
+          echo "No mixed-credential expressions detected in workflow YAML."
+
+      # Per session-oracle verdict rule 8: blocked/private source NAMES
+      # must not surface in public outputs/summaries. The legacy
+      # `blocked_orgs` step output (a CSV of org names) is forbidden;
+      # use `blocked_orgs_count` instead.
+      - name: Reject leaked blocked-org names in workflow outputs
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          files=( .github/workflows/*.yml .github/workflows/*.yaml )
+          bad=""
+          # Strip comment lines first so the guard cannot self-trip on
+          # its own inline doc text. Same defensive pattern as the
+          # mixed-credential guard above.
+          for f in "${files[@]}"; do
+            non_comments=$(grep -vE '^[[:space:]]*#' "$f" || true)
+            # ^\s+blocked_orgs: ... (job/step output key, not _count).
+            hit=$(printf '%s\n' "$non_comments" | grep -nE "^[[:space:]]+blocked_orgs:[[:space:]]" || true)
+            if [ -n "$hit" ]; then bad="${bad}${f}:\n${hit}\n"; fi
+            # BLOCKED_ORGS env var (used to substitute names into summaries).
+            hit2=$(printf '%s\n' "$non_comments" | grep -nE "^[[:space:]]+BLOCKED_ORGS:[[:space:]]" || true)
+            if [ -n "$hit2" ]; then bad="${bad}${f}:\n${hit2}\n"; fi
+          done
+          if [ -n "$bad" ]; then
+            {
+              echo "::error::Workflow exposes blocked org NAMES in outputs/env. Use blocked_orgs_count (count only) per session-oracle verdict rule 8."
+              printf '%b' "$bad"
+            } >&2
+            exit 1
+          fi
+          echo "No blocked-org name leakage detected in workflow YAML."
+
+      - name: workflow-lint summary
+        if: always()
+        run: |
+          {
+            echo "# gh-action workflow lint"
+            echo ""
+            echo "- Workflow: \`${{ github.workflow }}\`"
+            echo "- Run ID: \`${{ github.run_id }}\`"
+            echo ""
+            echo "## Gates"
+            echo "- cardinalby/schema-validator-action mode-value guard (rejects unsupported values)"
+            echo "- mixed-credential laundering guard (rejects \`STARS_TOKEN || GITHUB_TOKEN\` and \`app-token || secrets.\` patterns)"
+            echo "- blocked-org name leakage guard (rejects \`blocked_orgs\` output / \`BLOCKED_ORGS\` env in workflow YAML)"
+            echo ""
+            echo "actionlint runs inside \`pnpm gate\` (\`bun gate\` workflow)."
+            echo "Tracking issue for richer dry-run gates: #62"
+          } >> "$GITHUB_STEP_SUMMARY"

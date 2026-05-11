@@ -1,5 +1,5 @@
 ---
-name: 'Site Build'
+name: 'bun web build'
 
 on:
   # Run on EVERY PR to main/next (no paths filter) so this can be a
@@ -27,7 +27,7 @@ concurrency:
 
 jobs:
   build:
-    name: Build succeeds
+    name: build succeeds
     runs-on: ubuntu-latest
     timeout-minutes: 10
 

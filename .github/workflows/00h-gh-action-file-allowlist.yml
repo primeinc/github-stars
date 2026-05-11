@@ -31,6 +31,10 @@ permissions:
   contents: read
   pull-requests: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 env:
   ADMIN_LANE_BRANCH: ghapp/repo-admin
 

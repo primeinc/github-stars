@@ -34,6 +34,15 @@ permissions:
   contents: read
   pull-requests: read
 
+# Mutating workflow: serialize to one in-flight run, but do NOT
+# cancel a run mid-call. Calling `update-branch` and PATCHing
+# `git/refs/heads/<branch>` is not transactional — canceling
+# mid-flight could leave one lane updated and the other not.
+# See `.github-stars/control-plane/workflow-triggers.md` §3.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 env:
   ADMIN_LANE_BRANCH: ghapp/repo-admin
   RELEASE_LANE_BRANCH: next

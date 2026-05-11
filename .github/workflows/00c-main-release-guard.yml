@@ -1,4 +1,4 @@
-name: Protected Branch
+name: gh-action protected branch
 
 # Per the protection-stage brief, `main` accepts exactly two
 # repo-owned source branches:
@@ -25,9 +25,13 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   main-release-guard:
-    name: Src branch allowed
+    name: src branch allowed
     runs-on: ubuntu-latest
     steps:
       - name: Require repo-owned next or ghapp/repo-admin as source branch for main

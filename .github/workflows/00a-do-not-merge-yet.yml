@@ -1,4 +1,4 @@
-name: Merge Block
+name: gh-action label gate
 
 on:
   pull_request:
@@ -14,9 +14,13 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   do-not-merge-yet:
-    name: Label cleared
+    name: DoNotMergeYet absent
     runs-on: ubuntu-latest
     steps:
       - name: Fail when PR has DoNotMergeYet label

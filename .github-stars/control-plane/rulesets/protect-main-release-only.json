@@ -40,19 +40,19 @@
             "context": "token + install"
           },
           {
-            "context": "Src branch allowed"
+            "context": "src branch allowed"
           },
           {
-            "context": "Label cleared"
+            "context": "DoNotMergeYet absent"
           },
           {
-            "context": "All gates pass"
+            "context": "all gates pass"
           },
           {
-            "context": "Workflows valid"
+            "context": "workflows valid"
           },
           {
-            "context": "Build succeeds"
+            "context": "build succeeds"
           }
         ]
       }

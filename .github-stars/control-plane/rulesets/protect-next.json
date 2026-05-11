@@ -31,16 +31,16 @@
         "strict_required_status_checks_policy": true,
         "required_status_checks": [
           {
-            "context": "Label cleared"
+            "context": "DoNotMergeYet absent"
           },
           {
-            "context": "All gates pass"
+            "context": "all gates pass"
           },
           {
-            "context": "Workflows valid"
+            "context": "workflows valid"
           },
           {
-            "context": "Build succeeds"
+            "context": "build succeeds"
           }
         ]
       }
