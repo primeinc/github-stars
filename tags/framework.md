@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [beefproject/beef](https://github.com/beefproject/beef) | The Browser Exploitation Framework Project | `JavaScript` ★ 10.8k | 2026-05-08 |
 | [sentient-agi/ROMA](https://github.com/sentient-agi/ROMA) | Recursive-Open-Meta-Agent v0.1 (Beta). A meta-agent framework to build high-performance multi-agent systems. | `Python` ★ 5k | 2026-02-16 |
-| [rails/rails](https://github.com/rails/rails) | Ruby on Rails | `Ruby` ★ 58.4k | 2026-05-10 |
+| [rails/rails](https://github.com/rails/rails) | Ruby on Rails | `Ruby` ★ 58.4k | 2026-05-11 |
 | [basementstudio/xmcp](https://github.com/basementstudio/xmcp) | The Type Script MCP framework | `TypeScript` ★ 1.3k | 2026-05-07 |
 | [Hillobar/Rope](https://github.com/Hillobar/Rope) | GUI-focused roop | `Python` ★ 5.3k | 2024-05-28 |
 | [FreePBX/framework](https://github.com/FreePBX/framework) | This module provides a facility to install bug fixes to the framework code that is not otherwise housed in a module | `PHP` ★ 71 | 2026-04-06 |

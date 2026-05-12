@@ -10,10 +10,10 @@
 | [KnudsenMorten/SecurityInsight](https://github.com/KnudsenMorten/SecurityInsight) | Rethink Secure Score into a new risk-based security risk score, based on consequence, probability and risk factors. Solution includes critical asset tagging, ready-to-use reports (based on Defender... | `PowerShell` ★ 32 | 2026-05-11 |
 | [0x6d69636b/windows_hardening](https://github.com/0x6d69636b/windows_hardening) | Hardening Kitty and Windows Hardening Settings | `PowerShell` ★ 2.6k | 2026-04-10 |
 | [SoyITPro/scripts](https://github.com/SoyITPro/scripts) | Scripts para administradores de servidores Windows, Azure, Docker, Linux y más | `PowerShell` ★ 59 | 2026-04-28 |
-| [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 5.5k | 2026-05-09 |
+| [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 5.5k | 2026-05-12 |
 | [File-New-Project/EarTrumpet](https://github.com/File-New-Project/EarTrumpet) | Ear Trumpet - Volume Control for Windows | `C#` ★ 11k | 2026-05-10 |
 | [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications. | `C#` ★ 4.7k | 2026-05-10 |
-| [randomascii/UIforETW](https://github.com/randomascii/UIforETW) | User interface for recording and managing ETW traces | `C++` ★ 135 | 2026-01-05 |
+| [randomascii/UIforETW](https://github.com/randomascii/UIforETW) | User interface for recording and managing ETW traces | `C++` ★ 136 | 2026-01-05 |
 | [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 3.2k | 2026-05-11 |
 | [MyOnee/R](https://github.com/MyOnee/R) | Free RDP from Github Actions | `Batchfile` ★ 61 | 2026-02-28 |
 | [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) | 🖱️ 纯粹的Windows右键菜单管理程序 | `C#` ★ 18.9k | 2024-08-17 |
@@ -22,15 +22,15 @@
 | [FalconOpsLLC/goexec](https://github.com/FalconOpsLLC/goexec) | Windows remote execution multitool | `Go` ★ 796 | 2026-03-25 |
 | [dockur/windows](https://github.com/dockur/windows) | Windows inside a Docker container. | `Shell` ★ 51.3k | 2026-05-10 |
 | [felixrieseberg/windows-build-tools](https://github.com/felixrieseberg/windows-build-tools) | :package: Install C++ Build Tools for Windows using npm | `TypeScript` ★ 3.4k | 2021-06-20 |
-| [jade-tam/dotfiles](https://github.com/jade-tam/dotfiles) | Ricing dotfiles for windows 11 | `Shell` ★ 168 | 2026-04-14 |
+| [jade-tam/dotfiles](https://github.com/jade-tam/dotfiles) | Ricing dotfiles for windows 11 | `Shell` ★ 169 | 2026-04-14 |
 | [1r0BIT/TaskHound](https://github.com/1r0BIT/TaskHound) | Tool to enumerate privileged Scheduled Tasks on Remote Systems | `Python` ★ 295 | 2026-03-29 |
 | [microsoft/react-native-windows-samples](https://github.com/microsoft/react-native-windows-samples) | A repository showcasing React Native samples and templates for Windows, mac OS, and Surface Duo. | `C#` ★ 540 | 2026-05-09 |
 | [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer) | Driver Store Explorer | `C#` ★ 10.6k | 2026-04-21 |
 | [primeinc/Files](https://github.com/primeinc/Files) | Building the best File Manager for Windows | `C#` ★ 1 | 2025-09-08 |
 | [microsoft/WinAppDriver](https://github.com/microsoft/WinAppDriver) | Windows Application Driver | `C#` ★ 4k | 2025-04-14 |
-| [Xanashi/Icaros](https://github.com/Xanashi/Icaros) | Official issue tracker and download location for Icaros Shell Extensions | ★ 1.5k | 2026-04-02 |
+| [Xanashi/Icaros](https://github.com/Xanashi/Icaros) | Official issue tracker and download location for Icaros Shell Extensions | ★ 1.6k | 2026-04-02 |
 | [DesktopECHO/xWSL](https://github.com/DesktopECHO/xWSL) | Installer script for Ubuntu 22.04 / 24.04 with XFCE Desktop on WSL. Does not require hypervisor, container, or X11 server. | `Batchfile` ★ 352 | 2026-01-03 |
-| [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11... | `PowerShell` ★ 46.1k | 2026-05-10 |
+| [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11... | `PowerShell` ★ 46.1k | 2026-05-11 |
 | [dorssel/usbipd-win](https://github.com/dorssel/usbipd-win) | Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2. | `C#` ★ 5.7k | 2026-05-03 |
 | [ironmansoftware/gallery](https://github.com/ironmansoftware/gallery) | Public gallery of modules for Power Shell Universal | `PowerShell` ★ 86 | 2026-04-22 |
 | [VirtualDrivers/Virtual-Display-Driver](https://github.com/VirtualDrivers/Virtual-Display-Driver) | Add virtual monitors to your windows 10/11 device! Works with VR, OBS, Sunshine, and/or any desktop sharing software. | `C++` ★ 9.1k | 2026-04-07 |
@@ -42,14 +42,14 @@
 | [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) | Everything integration for the Windows taskbar. | `C#` ★ 14k | 2026-05-08 |
 | [hwtnb/SylphyHornPlusWin11](https://github.com/hwtnb/SylphyHornPlusWin11) | Virtual Desktop Tools for Windows 11 and 10. | `C#` ★ 421 | 2024-12-24 |
 | [MScholtes/VirtualDesktop](https://github.com/MScholtes/VirtualDesktop) | C# command line tool to manage virtual desktops in Windows 10 | `C#` ★ 765 | 2025-08-12 |
-| [dankrusi/WindowsVirtualDesktopHelper](https://github.com/dankrusi/WindowsVirtualDesktopHelper) | App to help manage Virtual Desktops for Windows 10 and Windows 11 | `C#` ★ 838 | 2026-03-16 |
-| [files-community/Files](https://github.com/files-community/Files) | A modern file manager that helps users organize their files and folders. | `C#` ★ 43.4k | 2026-05-10 |
+| [dankrusi/WindowsVirtualDesktopHelper](https://github.com/dankrusi/WindowsVirtualDesktopHelper) | App to help manage Virtual Desktops for Windows 10 and Windows 11 | `C#` ★ 839 | 2026-03-16 |
+| [files-community/Files](https://github.com/files-community/Files) | A modern file manager that helps users organize their files and folders. | `C#` ★ 43.4k | 2026-05-11 |
 | [rcmaehl/MSEdgeRedirect](https://github.com/rcmaehl/MSEdgeRedirect) | A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Browser | `AutoIt` ★ 5.8k | 2026-04-13 |
 | [KjetilSv/Win10As](https://github.com/KjetilSv/Win10As) | Make your windows 10 computer IOT friendly | `C#` ★ 232 | 2022-12-08 |
 | [WADComs/WADComs.github.io](https://github.com/WADComs/WADComs.github.io) | WADComs is an interactive cheat sheet, containing a curated list of offensive security tools and their respective commands, to be used against Windows/AD environments. | `HTML` ★ 1.7k | 2025-08-29 |
 | [mxk/windows-secure-group-policy](https://github.com/mxk/windows-secure-group-policy) | Windows 11 secure group policy for standalone devices | `Batchfile` ★ 250 | 2025-12-14 |
 | [jpginc/windows10DesktopManager](https://github.com/jpginc/windows10DesktopManager) | An autohotkey desktop manager | `AutoHotkey` ★ 166 | 2021-07-10 |
-| [thumbcacheviewer/thumbcacheviewer](https://github.com/thumbcacheviewer/thumbcacheviewer) | Thumbcache Viewer - Extract Windows Vista, Windows 7, Windows 8, Windows 8.1, and Windows 10 thumbcache database files. | `C++` ★ 158 | 2023-10-25 |
+| [thumbcacheviewer/thumbcacheviewer](https://github.com/thumbcacheviewer/thumbcacheviewer) | Thumbcache Viewer - Extract Windows Vista, Windows 7, Windows 8, Windows 8.1, and Windows 10 thumbcache database files. | `C++` ★ 159 | 2023-10-25 |
 | [easyphp/DEVSERVER](https://github.com/easyphp/DEVSERVER) | ⚙️ Development environment on Windows. PHP DEVSERVER is portable, modular, fully configurable, and easy to update and customize. Since 1999. | `PHP` ★ 65 | 2023-08-26 |
 | [chall32/WinCDP](https://github.com/chall32/WinCDP) | Cisco Discovery for Windows | ★ 63 | 2012-10-02 |
 | [tariqporter/Gdip](https://github.com/tariqporter/Gdip) | Official GDI+ library for Autohotkey | `AutoHotkey` ★ 157 | 2019-03-05 |

@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [ruvnet/RuView](https://github.com/ruvnet/RuView) | π Ru View: Wi Fi Dense Pose turns commodity Wi Fi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video. | `Rust` ★ 52.4k | 2026-05-08 |
+| [ruvnet/RuView](https://github.com/ruvnet/RuView) | π Ru View: Wi Fi Dense Pose turns commodity Wi Fi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video. | `Rust` ★ 52.5k | 2026-05-12 |
 | [Azure/azure-monitor-baseline-alerts](https://github.com/Azure/azure-monitor-baseline-alerts) | Azure Monitor Baseline Alerts | `Bicep` ★ 310 | 2026-04-20 |
-| [Microsoft365DSC/Microsoft365DSC](https://github.com/Microsoft365DSC/Microsoft365DSC) | Manages, configures, extracts and monitors Microsoft 365 tenant configurations | `PowerShell` ★ 2.3k | 2026-05-07 |
+| [Microsoft365DSC/Microsoft365DSC](https://github.com/Microsoft365DSC/Microsoft365DSC) | Manages, configures, extracts and monitors Microsoft 365 tenant configurations | `PowerShell` ★ 2.3k | 2026-05-11 |
 | [Captain-Of-Coit/cs2-city-monitor](https://github.com/Captain-Of-Coit/cs2-city-monitor) | "City Vitals" but for Cities: Skylines 2 | `C#` ★ 14 | 2023-11-30 |
-| [Tautulli/Tautulli](https://github.com/Tautulli/Tautulli) | A Python based monitoring and tracking tool for Plex Media Server. | `Python` ★ 6.5k | 2026-05-10 |
+| [Tautulli/Tautulli](https://github.com/Tautulli/Tautulli) | A Python based monitoring and tracking tool for Plex Media Server. | `Python` ★ 6.5k | 2026-05-12 |
 | [MilhouseVH/autoaway.py](https://github.com/MilhouseVH/autoaway.py) | Improved auto-away monitoring for Nest Thermostats | `Python` ★ 15 | 2014-10-12 |

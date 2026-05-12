@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Nandaka/PixivUtil2](https://github.com/Nandaka/PixivUtil2) | Download images from Pixiv and more! | `Python` ★ 2.7k | 2026-05-07 |
+| [Nandaka/PixivUtil2](https://github.com/Nandaka/PixivUtil2) | Download images from Pixiv and more! | `Python` ★ 2.7k | 2026-05-11 |
 | [upbit/pixivpy](https://github.com/upbit/pixivpy) | Pixiv API for Python | `Python` ★ 2k | 2025-07-31 |
