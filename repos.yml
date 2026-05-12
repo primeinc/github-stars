@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-12T04:29:08.468Z'
+  manifest_updated_at: '2026-05-12T04:29:48.353Z'
   total_repos: 2632
   generator_version: v1.0.0
   github_user: primeinc
@@ -107005,13 +107005,18 @@ repositories:
       prompt_version: v3
   - repo: meiji163/gh-notify
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - gh-extension
+      - notifications
+      - cli
+      - lang:shell
     summary: Git Hub CLI extension to display Git Hub notifications
     last_synced_sha: dff46349970f37c42b1a6fe15e6d62514e848d27
     user_starred_at: '2026-05-12T00:33:04Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -107032,15 +107037,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.233Z'
+      prompt_version: v3
   - repo: basecamp/gh-signoff
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - testing
+    tags:
+      - gh-extension
+      - lang:shell
+      - local-ci
     summary: Local CI. Sign off on your own work.
     last_synced_sha: e8bec4839cf7e01727fd5d53fd66d6f401f4105e
     user_starred_at: '2026-05-12T00:31:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics:
@@ -107058,15 +107072,24 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.233Z'
+      prompt_version: v3
   - repo: github/remote-input-element
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - apis
+    tags:
+      - web-components
+      - custom-elements
+      - lang:js
     summary: An input element that sends its value to a server endpoint and renders the response body.
     last_synced_sha: ffc3d697e3cac84204e42850c485c448afb112a0
     user_starred_at: '2026-05-12T00:27:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -107087,15 +107110,25 @@ repositories:
         published_at: '2024-04-08T20:09:15Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.233Z'
+      prompt_version: v3
   - repo: github/eslint-plugin-github
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - testing
+    tags:
+      - eslint
+      - eslintplugin
+      - lang:js
+      - javascript
     summary: An opinionated collection of ESLint rules used by Git Hub.
     last_synced_sha: ec800f485807b37eda468a6626e51bb2830485ec
     user_starred_at: '2026-05-12T00:26:34Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -107117,15 +107150,24 @@ repositories:
         published_at: '2025-03-19T14:37:31Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.233Z'
+      prompt_version: v3
   - repo: github/copilot-language-server-release
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - language-server-protocol
+      - copilot
+      - ai
     summary: Feedback for the Git Hub Copilot Language Server
     last_synced_sha: 30090e20428ca5581f7efe6e973a3bb61e13b6d6
     user_starred_at: '2026-05-12T00:20:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -107147,15 +107189,25 @@ repositories:
         published_at: '2026-05-11T08:04:35Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.233Z'
+      prompt_version: v3
   - repo: github/emergency-pull-request-probot-app
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - security
+    tags:
+      - probot-app
+      - pull-requests
+      - lang:js
+      - services-engineering-team
     summary: Bypass approval and checks in order to merge an emergency change to the main branch with audit controls.
     last_synced_sha: 7909ba4d8cab2269af5ec72963b1d173e03b7a52
     user_starred_at: '2026-05-12T00:19:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -107176,15 +107228,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.233Z'
+      prompt_version: v3
   - repo: github/copilot-cli
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - copilot
+      - cli
+      - lang:shell
+      - coding-agent
     summary: Git Hub Copilot CLI brings the power of Copilot coding agent directly to your terminal.
     last_synced_sha: fd2900c51b8da7703d0f2859e7a123b390cc2b5f
     user_starred_at: '2026-05-12T00:11:07Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -107203,15 +107265,24 @@ repositories:
         published_at: '2026-05-11T17:43:12Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.233Z'
+      prompt_version: v3
   - repo: github/safe-settings
     categories:
-      - unclassified
-    tags: []
+      - security
+      - dev-tools
+    tags:
+      - lang:js
+      - configuration
+      - settings
     summary: No description provided
     last_synced_sha: 3d61f1f44c78ce40ec1e58120250193ebae7787b
     user_starred_at: '2026-05-12T00:06:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics: []
@@ -107230,15 +107301,22 @@ repositories:
         published_at: '2026-05-12T04:00:19Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.233Z'
+      prompt_version: v3
   - repo: github/dmca
     categories:
-      - unclassified
-    tags: []
+      - documentation
+    tags:
+      - dmca
+      - lang:digital-command-language
     summary: Repository with text of DMCA takedown notices as received. Git Hub does not endorse or adopt any assertion contained in the following notices. Users identified in the notices are presumed innocent ...
     last_synced_sha: c658ac8c1662da2425d6c6ccb1291628abb9bc81
     user_starred_at: '2026-05-12T00:06:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: DIGITAL Command Language
       topics:
@@ -107256,15 +107334,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.233Z'
+      prompt_version: v3
   - repo: millionco/react-doctor
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - dev-tools
+    tags:
+      - code-review
+      - doctor
+      - skill
+      - react
+      - lang:ts
     summary: Your agent writes bad React. This catches it
     last_synced_sha: 052cd20aa4a4a6a8caa47ea3348aedbca95f2222
     user_starred_at: '2026-05-11T21:45:47Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -107288,15 +107377,26 @@ repositories:
         published_at: '2026-04-17T04:06:25Z'
       is_mirror: false
       mirror_url: null
+    framework: react
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.232Z'
+      prompt_version: v3
   - repo: rasbt/LLMs-from-scratch
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - gpt
+      - deep-learning
+      - llm
+      - pytorch
+      - lang:jupyter-notebook
     summary: Implement a Chat GPT-like LLM in Py Torch from scratch, step by step
     last_synced_sha: afec22f316189b2a24939fb9a902597ef6380229
     user_starred_at: '2026-05-11T21:45:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -107329,15 +107429,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.232Z'
+      prompt_version: v3
   - repo: playcanvas/supersplat
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - game-dev
+    tags:
+      - webgl
+      - webgpu
+      - 3dgs
+      - playcanvas
+      - lang:ts
     summary: 3D Gaussian Splat Editor
     last_synced_sha: 5b6b8eecec8c7ebf9bbf1c820cba8041a6c50c69
     user_starred_at: '2026-05-11T21:45:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -107364,15 +107475,26 @@ repositories:
         published_at: '2026-05-08T14:43:12Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.232Z'
+      prompt_version: v3
   - repo: tt-a1i/archify
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - documentation
+    tags:
+      - architecture-diagram
+      - system-design
+      - dark-mode
+      - diagram-as-code
+      - lang:html
     summary: 'Claude Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/Web P/SVG export'
     last_synced_sha: de5c534dc762e615484844c9506e7850a7047a6a
     user_starred_at: '2026-05-11T20:59:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -107401,15 +107523,26 @@ repositories:
         published_at: '2026-04-15T06:19:12Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.232Z'
+      prompt_version: v3
   - repo: pinchtab/pinchtab
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - web-dev
+    tags:
+      - browser-automation
+      - headless-chrome
+      - orchestrator
+      - lang:go
+      - web-scraping
     summary: High-performance browser automation bridge and multi-instance orchestrator with advanced stealth injection and real-time dashboard.
     last_synced_sha: 6cd0697389119f882de26e0851ba6812c5ad7285
     user_starred_at: '2026-05-11T20:59:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -107435,15 +107568,26 @@ repositories:
         published_at: '2026-05-06T20:39:08Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.232Z'
+      prompt_version: v3
   - repo: 12Knocksinna/Office365itpros
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+    tags:
+      - microsoft365
+      - microsoftgraph
+      - graphsdk
+      - powershell
+      - lang:powershell
     summary: Power Shell examples for articles published on https://office365itpros.com and https://practical365.com. See https://o365itpros.gumroad.com/l/M365PS for the Automating Microsoft 365 with Power Shel...
     last_synced_sha: 4149bb5d604a4559adb6365f6d36f30cb68dc4f3
     user_starred_at: '2026-05-11T16:27:01Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -107466,3 +107610,8 @@ repositories:
         published_at: '2018-12-17T20:40:56Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-12T04:29:47.232Z'
+      prompt_version: v3
