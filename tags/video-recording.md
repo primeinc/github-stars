@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [charmbracelet/vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder 📼 | `Go` ★ 19.7k | 2026-05-04 |
-| [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | OBS Studio - Free and open source software for live streaming and screen recording | `C` ★ 72.3k | 2026-05-12 |
+| [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | OBS Studio - Free and open source software for live streaming and screen recording | `C` ★ 72.3k | 2026-05-13 |

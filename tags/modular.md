@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [MagicMirrorOrg/MagicMirror](https://github.com/MagicMirrorOrg/MagicMirror) | Magic Mirror² is an open source modular smart mirror platform. With a growing list of installable modules, the Magic Mirror² allows you to convert your hallway or bathroom mirror into your personal... | `JavaScript` ★ 23.5k | 2026-05-09 |
+| [MagicMirrorOrg/MagicMirror](https://github.com/MagicMirrorOrg/MagicMirror) | Magic Mirror² is an open source modular smart mirror platform. With a growing list of installable modules, the Magic Mirror² allows you to convert your hallway or bathroom mirror into your personal... | `JavaScript` ★ 23.5k | 2026-05-12 |
 | [dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe) | Java Script image gallery for mobile and desktop, modular, framework independent | `JavaScript` ★ 25.2k | 2025-12-04 |

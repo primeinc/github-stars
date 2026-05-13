@@ -9,4 +9,4 @@
 | [zuice/hono-tailwind](https://github.com/zuice/hono-tailwind) | A Hono 🔥 middleware for getting started with Tailwind right away! | `TypeScript` ★ 17 | 2026-01-31 |
 | [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) | The largest Open-Source UI Library! Community-made and free to use. Made with either CSS or Tailwind. | `HTML` ★ 10.7k | 2024-09-02 |
 | [midday-ai/midday](https://github.com/midday-ai/midday) | Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers | `TypeScript` ★ 14.2k | 2026-05-07 |
-| [claudio-silva/claude-artifact-runner](https://github.com/claudio-silva/claude-artifact-runner) | From Claude Artifact to deployable React app — in seconds! | `TypeScript` ★ 543 | 2026-01-23 |
+| [claudio-silva/claude-artifact-runner](https://github.com/claudio-silva/claude-artifact-runner) | From Claude Artifact to deployable React app — in seconds! | `TypeScript` ★ 544 | 2026-01-23 |

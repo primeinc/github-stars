@@ -8,8 +8,8 @@
 |---|---|---|---|
 | [microsoft/clarity](https://github.com/microsoft/clarity) | A behavioral analytics library that uses dom mutations and user interactions to generate aggregated insights. | `TypeScript` ★ 2.6k | 2026-05-11 |
 | [qax-os/excelize](https://github.com/qax-os/excelize) | Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets | `Go` ★ 20.6k | 2026-05-12 |
-| [rybbit-io/rybbit](https://github.com/rybbit-io/rybbit) | 🐸 Rybbit - open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive. | `TypeScript` ★ 12.1k | 2026-05-12 |
-| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Duck DB is an analytical in-process SQL database management system | `C++` ★ 38.1k | 2026-05-11 |
+| [rybbit-io/rybbit](https://github.com/rybbit-io/rybbit) | 🐸 Rybbit - open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive. | `TypeScript` ★ 12.1k | 2026-05-13 |
+| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Duck DB is an analytical in-process SQL database management system | `C++` ★ 38.1k | 2026-05-12 |
 | [perspective-dev/perspective](https://github.com/perspective-dev/perspective) | A data visualization and analytics component, especially well-suited for large and/or streaming datasets. | `C++` ★ 10.5k | 2026-05-06 |
 | [langwatch/langwatch](https://github.com/langwatch/langwatch) | The open LLM Ops platform - Traces, Analytics, Evaluations, Datasets and Prompt Optimization ✨ | `TypeScript` ★ 3.3k | 2026-05-12 |
 | [Tautulli/Tautulli](https://github.com/Tautulli/Tautulli) | A Python based monitoring and tracking tool for Plex Media Server. | `Python` ★ 6.5k | 2026-05-12 |

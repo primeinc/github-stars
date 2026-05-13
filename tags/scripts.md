@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [RodericAguilar/Pr_Elevators](https://github.com/RodericAguilar/Pr_Elevators) | Free fivem elevator scripts, works without framework. | `Lua` ★ 26 | 2024-10-14 |
+| [RodericAguilar/Pr_Elevators](https://github.com/RodericAguilar/Pr_Elevators) | Free fivem elevator scripts, works without framework. | `Lua` ★ 27 | 2024-10-14 |
 | [microsoft/Intune-solutions](https://github.com/microsoft/Intune-solutions) | Git Hub Repository for Solution Intune Sample Scripts | `PowerShell` ★ 69 | 2023-07-02 |
 | [hotnops/AzureScripts](https://github.com/hotnops/AzureScripts) | Random scripts for azure stuff | `PowerShell` ★ 14 | 2022-10-12 |
 | [it-scripts/it-drugs](https://github.com/it-scripts/it-drugs) | Become a master herbalist with this drug script! Ready for every big Five M framework | `Lua` ★ 119 | 2025-09-27 |

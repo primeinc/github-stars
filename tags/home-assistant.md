@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [timeframe/ha-addon](https://github.com/timeframe/ha-addon) | An e-paper calendar, weather, and smart home family dashboard for Home Assistant | `Ruby` ★ 795 | 2026-05-12 |
+| [timeframe/ha-addon](https://github.com/timeframe/ha-addon) | An e-paper calendar, weather, and smart home family dashboard for Home Assistant | `Ruby` ★ 796 | 2026-05-13 |
 | [ExperienceLovelace/ha-floorplan](https://github.com/ExperienceLovelace/ha-floorplan) | Bring new life to Home Assistant. By mapping entities to a SVG-object, you're able to control devices, show states, calling services - and much more. Add custom styling on top, to visualize whateve... | `TypeScript` ★ 1.5k | 2026-05-09 |
 | [leukipp/touchkio](https://github.com/leukipp/touchkio) | Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display. | `JavaScript` ★ 1.3k | 2026-04-17 |
 | [itchannel/fordpass-ha](https://github.com/itchannel/fordpass-ha) | Fordpass integration for Home Assistant | `Python` ★ 396 | 2025-11-07 |

@@ -8,11 +8,11 @@
 |---|---|---|---|
 | [PaddlePaddle/PaddleX](https://github.com/PaddlePaddle/PaddleX) | All-in-One Development Tool based on Paddle Paddle | `Python` ★ 6.1k | 2026-05-11 |
 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | Detectron2 is a platform for object detection, segmentation and other visual recognition tasks. | `Python` ★ 34.5k | 2026-04-07 |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 57k | 2026-05-12 |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 38.5k | 2026-05-11 |
-| [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) | NVR with realtime local object detection for IP cameras | `TypeScript` ★ 31.9k | 2026-05-11 |
-| [royshil/obs-detect](https://github.com/royshil/obs-detect) | Object Detection in OBS, real-time, local, GPU optional | `C++` ★ 166 | 2024-12-18 |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 57.1k | 2026-05-13 |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 38.6k | 2026-05-11 |
+| [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) | NVR with realtime local object detection for IP cameras | `TypeScript` ★ 31.9k | 2026-05-12 |
+| [royshil/obs-detect](https://github.com/royshil/obs-detect) | Object Detection in OBS, real-time, local, GPU optional | `C++` ★ 167 | 2024-12-18 |
 | [mihir-m-gandhi/Adaptive-Traffic-Signal-Timer](https://github.com/mihir-m-gandhi/Adaptive-Traffic-Signal-Timer) | This Adaptive Traffic Signal Timer uses live images from the cameras at traffic junctions for real-time traffic density calculation using YOLO object detection and sets the signal timers accordingly. | `Python` ★ 201 | 2022-10-27 |
 | [SkalskiP/make-sense](https://github.com/SkalskiP/make-sense) | Free to use online tool for labelling photos. https://makesense.ai | `TypeScript` ★ 3.5k | 2024-08-15 |
-| [Cartucho/OpenLabeling](https://github.com/Cartucho/OpenLabeling) | Label images and video for Computer Vision applications | `Python` ★ 961 | 2022-07-06 |
+| [Cartucho/OpenLabeling](https://github.com/Cartucho/OpenLabeling) | Label images and video for Computer Vision applications | `Python` ★ 960 | 2022-07-06 |
 | [HumanSignal/labelImg](https://github.com/HumanSignal/labelImg) | Label Img is now part of the Label Studio community. The popular image annotation tool created by Tzutalin is no longer actively being developed, but you can check out Label Studio, the open source... | `Python` ★ 25k | 2024-06-07 |
