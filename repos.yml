@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-13T04:32:27.693Z'
+  manifest_updated_at: '2026-05-13T04:33:05.247Z'
   total_repos: 2642
   generator_version: v1.0.0
   github_user: primeinc
@@ -107581,12 +107581,13 @@ repositories:
   - repo: dnakov/litter
     categories:
       - unclassified
-    tags: []
+    tags:
+      - lang:rust
     summary: No description provided
     last_synced_sha: 46d888cd5af572506ec14939822d9a0c982b6dd4
     user_starred_at: '2026-05-13T04:23:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -107605,15 +107606,27 @@ repositories:
         published_at: '2026-05-11T19:00:59Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-13T04:33:04.085Z'
+      prompt_version: v3
   - repo: zizmorcore/zizmor
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - security
+      - automation
+    tags:
+      - security-tools
+      - lang:rust
+      - github-actions
+      - static-analysis
+      - dev-tools
     summary: Static analysis for Git Hub Actions
     last_synced_sha: 205979aa917353208610cc1550fc71fa8f32257a
     user_starred_at: '2026-05-13T04:22:27Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -107636,15 +107649,27 @@ repositories:
         published_at: '2026-04-13T18:25:21Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-13T04:33:04.085Z'
+      prompt_version: v3
   - repo: Zackriya-Solutions/meetily
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+      - desktop-dev
+    tags:
+      - transcription
+      - lang:rust
+      - privacy
+      - whisper
+      - local-processing
     summary: Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetil...
     last_synced_sha: 91b0c0985932d0797e249033601afa14f22ee3d3
     user_starred_at: '2026-05-13T04:22:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -107683,15 +107708,27 @@ repositories:
         published_at: '2026-03-03T12:30:54Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-13T04:33:04.084Z'
+      prompt_version: v3
   - repo: rohitg00/agentmemory
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - dev-tools
+    tags:
+      - agentmemory
+      - lang:ts
+      - ai
+      - genai
+      - codex
     summary: 1 Persistent memory for AI coding agents based on real-world benchmarks
     last_synced_sha: 25dddc43798c09f8e1dc5179eb48e434a5c89ab2
     user_starred_at: '2026-05-13T04:00:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -107723,15 +107760,26 @@ repositories:
         published_at: '2026-05-12T23:23:04Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-13T04:33:04.084Z'
+      prompt_version: v3
   - repo: mattpocock/skills
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - learning
+    tags:
+      - lang:shell
+      - skills
+      - engineers
+      - claude
+      - learning
     summary: Skills for Real Engineers. Straight from my .claude directory.
     last_synced_sha: f304057d61d3df3c9fd992ac2b6e3833cb9325fb
     user_starred_at: '2026-05-13T03:58:59Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Shell
       topics: []
@@ -107748,15 +107796,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-13T04:33:04.084Z'
+      prompt_version: v3
   - repo: CloakHQ/CloakBrowser
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - web-dev
+      - security
+    tags:
+      - browser-automation
+      - lang:python
+      - bot-detection
+      - web-scraping
+      - stealth-browser
     summary: Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.
     last_synced_sha: ad4d946ca6c5a1490223818e21e8241910deed8b
     user_starred_at: '2026-05-13T03:52:43Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -107795,15 +107855,27 @@ repositories:
         published_at: '2026-04-28T03:44:50Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-13T04:33:04.084Z'
+      prompt_version: v3
   - repo: agent-sh/agnix
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - testing
+    tags:
+      - ai-coding-assistant
+      - lang:rust
+      - code-quality
+      - cli
+      - autofix
     summary: The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.
     last_synced_sha: 5f561b29d7f2db9cfc048bcbe2f48f348b4b1b1e
     user_starred_at: '2026-05-12T13:51:53Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -107842,15 +107914,27 @@ repositories:
         published_at: '2026-05-08T23:58:40Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-13T04:33:04.084Z'
+      prompt_version: v3
   - repo: jongio/memealyzer
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - deployment
+      - monitoring
+    tags:
+      - azure
+      - lang:csharp
+      - kubernetes
+      - microservices
+      - azure-sdk
     summary: Memealyzer is an app built to demonstrate some the latest and greatest Azure tech to dev, debug, and deploy microservice applications.
     last_synced_sha: eee46babd9e97a92354b642bac7251b7f377d719
     user_starred_at: '2026-05-12T13:46:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -107880,15 +107964,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-13T04:33:04.084Z'
+      prompt_version: v3
   - repo: arslank001/MS-Azure-Blob-Storage-Console-App
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - productivity
+    tags:
+      - cloud-storage
+      - lang:csharp
+      - file-upload
+      - file-download
+      - storage-solutions
     summary: A console app demonstrating Azure Blob Storage file upload and download using .NET, ideal for developers integrating cloud storage solutions.
     last_synced_sha: 2bb7c26be227da4cc9b46d78a3c7ec79f6a3ae95
     user_starred_at: '2026-05-12T13:44:21Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -107913,15 +108008,28 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-13T04:33:04.084Z'
+      prompt_version: v3
   - repo: Azure/azure-dev
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - cloud
+      - ai-ml
+      - deployment
+    tags:
+      - azure
+      - lang:go
+      - cli
+      - monitoring
+      - ai
     summary: 'A developer CLI for working with Azure resources to build and deploy AI applications. Commands map to key workflow stages: code, build, deploy, and monitor.'
     last_synced_sha: ebfaad1eea578a123f463279042c3d5253f86b86
     user_starred_at: '2026-05-12T13:40:44Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -107946,15 +108054,27 @@ repositories:
         published_at: '2026-05-09T02:42:23Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-13T04:33:04.084Z'
+      prompt_version: v3
   - repo: mastra-ai/mastra
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+      - automation
+    tags:
+      - agents
+      - lang:ts
+      - workflows
+      - chatbots
+      - llm
     summary: From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern Type Script stack.
     last_synced_sha: 6ba46dc1ac04af635d0f59377d7384ca6af44cd1
     user_starred_at: '2026-05-12T10:48:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -107986,3 +108106,8 @@ repositories:
         published_at: '2026-05-06T11:16:14Z'
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-13T04:33:04.083Z'
+      prompt_version: v3
