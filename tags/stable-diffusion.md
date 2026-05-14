@@ -27,13 +27,13 @@
 | [SipherAGI/sd-webui-agent-scheduler](https://github.com/SipherAGI/sd-webui-agent-scheduler) | An open source Scheduling Agent for Generative AI | `Python` ★ 691 | 2025-01-13 |
 | [s0md3v/sd-webui-roop](https://github.com/s0md3v/sd-webui-roop) | roop extension for Stable Diffusion web-ui | `Python` ★ 3.5k | 2026-03-13 |
 | [pkuliyi2015/multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111) | Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0 | `Python` ★ 5k | 2024-08-07 |
-| [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | SD.Next: All-in-one Web UI for AI generative image and video creation, captioning and processing | `Python` ★ 7.1k | 2026-05-12 |
+| [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | SD.Next: All-in-one Web UI for AI generative image and video creation, captioning and processing | `Python` ★ 7.1k | 2026-05-13 |
 | [Zetaphor/PromptHub](https://github.com/Zetaphor/PromptHub) | Prompt history and management for the Stable Diffusion AUTOMATIC1111 Web UI | `JavaScript` ★ 35 | 2023-03-26 |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `Python` ★ 112.7k | 2026-05-13 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `Python` ★ 112.8k | 2026-05-14 |
 | [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss) | No description provided | `Python` ★ 12.3k | 2026-05-08 |
 | [mattjaybe/sd-wildcards](https://github.com/mattjaybe/sd-wildcards) | A collection of wildcards for Stable Diffusion | ★ 321 | 2024-05-27 |
 | [civitai/sd_civitai_extension](https://github.com/civitai/sd_civitai_extension) | All of the Civitai models inside Automatic 1111 Stable Diffusion Web UI | `Python` ★ 2.4k | 2024-07-17 |
-| [cocktailpeanut/breadboard](https://github.com/cocktailpeanut/breadboard) | Stable Diffusion Browser for Windows, Mac, and Linux | `JavaScript` ★ 400 | 2024-03-17 |
+| [cocktailpeanut/breadboard](https://github.com/cocktailpeanut/breadboard) | Stable Diffusion Browser for Windows, Mac, and Linux | `JavaScript` ★ 401 | 2024-03-17 |
 | [zero01101/openOutpaint-webUI-extension](https://github.com/zero01101/openOutpaint-webUI-extension) | direct A1111 web UI extension for open Outpaint | `JavaScript` ★ 406 | 2024-08-31 |
 | [d8ahazard/sd_dreambooth_extension](https://github.com/d8ahazard/sd_dreambooth_extension) | No description provided | `Python` ★ 1.9k | 2025-09-17 |
 | [devilismyfriend/StableTuner](https://github.com/devilismyfriend/StableTuner) | Finetuning SD in style. | `Python` ★ 680 | 2023-04-01 |

@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [zotero/zotero](https://github.com/zotero/zotero) | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources. | `JavaScript` ★ 14.2k | 2026-05-12 |
-| [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 608 | 2026-03-14 |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 80.7k | 2026-03-26 |
+| [zotero/zotero](https://github.com/zotero/zotero) | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources. | `JavaScript` ★ 14.2k | 2026-05-13 |
+| [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 610 | 2026-03-14 |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 80.9k | 2026-03-26 |
 | [NullandKale/NullSplats](https://github.com/NullandKale/NullSplats) | No description provided | `Python` ★ 136 | 2026-01-12 |
 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | An autonomous agent that conducts deep research on any data using any LLM providers. | `Python` ★ 27k | 2026-04-16 |
 | [bytedance/OneReward](https://github.com/bytedance/OneReward) | No description provided | `Python` ★ 348 | 2025-09-15 |

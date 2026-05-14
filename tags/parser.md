@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [alphanome-ai/sec-parser](https://github.com/alphanome-ai/sec-parser) | Parse SEC EDGAR HTML documents into a tree of elements that correspond to the visual (semantic) structure of the document. | `Python` ★ 285 | 2025-03-25 |
-| [harshankur/officeParser](https://github.com/harshankur/officeParser) | A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met... | `Rich Text Format` ★ 432 | 2026-04-30 |
+| [harshankur/officeParser](https://github.com/harshankur/officeParser) | A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met... | `Rich Text Format` ★ 432 | 2026-05-13 |
 | [ninenines/cowlib](https://github.com/ninenines/cowlib) | Support library for manipulating Web protocols. | `Erlang` ★ 292 | 2026-05-12 |
 | [AntonBergaker/InterpolatedParser](https://github.com/AntonBergaker/InterpolatedParser) | Interpolated Strings but in reverse! A very cursed C# parser library. | `C#` ★ 295 | 2025-02-24 |
 | [rasendubi/uniorg](https://github.com/rasendubi/uniorg) | An accurate Org-mode parser for Java Script/Type Script | `TypeScript` ★ 325 | 2026-04-25 |
@@ -16,7 +16,7 @@
 | [PoiScript/orgize](https://github.com/PoiScript/orgize) | A Rust library for parsing org-mode files. | `Rust` ★ 335 | 2025-01-27 |
 | [chipsalliance/Surelog](https://github.com/chipsalliance/Surelog) | System Verilog 2017 Pre-processor, Parser, Elaborator, UHDM Compiler. Provides IEEE Design/TB C/C++ VPI and Python AST & UHDM APIs. Compiles on Linux gcc, Windows msys2-gcc & msvc, Os X | `C++` ★ 460 | 2026-05-12 |
 | [kevinburke/ssh_config](https://github.com/kevinburke/ssh_config) | Go parser for ssh\_config files | `Go` ★ 469 | 2026-05-04 |
-| [postalsys/postal-mime](https://github.com/postalsys/postal-mime) | Email parser for browser and serverless environments | `JavaScript` ★ 525 | 2026-03-17 |
+| [postalsys/postal-mime](https://github.com/postalsys/postal-mime) | Email parser for browser and serverless environments | `JavaScript` ★ 526 | 2026-03-17 |
 | [jcubic/lips](https://github.com/jcubic/lips) | Scheme based powerful lisp interpreter in Java Script | `JavaScript` ★ 492 | 2026-05-11 |
 | [glayzzle/php-parser](https://github.com/glayzzle/php-parser) | :herb: Node JS PHP Parser - extract AST or tokens | `JavaScript` ★ 562 | 2026-05-12 |
 | [willdurand/EmailReplyParser](https://github.com/willdurand/EmailReplyParser) | PHP library for parsing plain text email content. | `PHP` ★ 649 | 2022-09-20 |
@@ -31,9 +31,9 @@
 | [003random/getJS](https://github.com/003random/getJS) | A tool to fastly get all javascript sources/files | `Go` ★ 871 | 2025-07-04 |
 | [DFIRKuiper/Kuiper](https://github.com/DFIRKuiper/Kuiper) | Digital Forensics Investigation Platform | `JavaScript` ★ 887 | 2024-10-12 |
 | [microsoft/tolerant-php-parser](https://github.com/microsoft/tolerant-php-parser) | An early-stage PHP parser designed for IDE usage scenarios. | `PHP` ★ 895 | 2024-09-28 |
-| [guessit-io/guessit](https://github.com/guessit-io/guessit) | Guess It is a python library that extracts as much information as possible from a video filename. | `Python` ★ 907 | 2024-09-03 |
+| [guessit-io/guessit](https://github.com/guessit-io/guessit) | Guess It is a python library that extracts as much information as possible from a video filename. | `Python` ★ 908 | 2024-09-03 |
 | [APIDevTools/json-schema-ref-parser](https://github.com/APIDevTools/json-schema-ref-parser) | Parse, Resolve, and Dereference JSON Schema $ref pointers in Node and browsers | `TypeScript` ★ 1.1k | 2026-03-30 |
-| [collective/icalendar](https://github.com/collective/icalendar) | icalendar parser library for Python | `Python` ★ 1.1k | 2026-05-01 |
+| [collective/icalendar](https://github.com/collective/icalendar) | icalendar parser library for Python | `Python` ★ 1.1k | 2026-05-13 |
 | [meriyah/meriyah](https://github.com/meriyah/meriyah) | A 100% compliant, self-hosted javascript parser - https://meriyah.github.io/meriyah | `TypeScript` ★ 1.2k | 2026-05-01 |
 | [APIDevTools/swagger-parser](https://github.com/APIDevTools/swagger-parser) | Swagger 2.0 and Open API 3.0 parser/validator | `JavaScript` ★ 1.2k | 2025-11-14 |
 | [webtoon/psd](https://github.com/webtoon/psd) | Fast zero-dependency PSD parser for the web and Node.js | `TypeScript` ★ 1.3k | 2024-02-05 |

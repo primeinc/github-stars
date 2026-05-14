@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [reviewdog/reviewdog](https://github.com/reviewdog/reviewdog) | 🐶 Automated code review tool integrated with any code analysis tools regardless of programming language | `Go` ★ 9.3k | 2026-05-13 |
+| [reviewdog/reviewdog](https://github.com/reviewdog/reviewdog) | 🐶 Automated code review tool integrated with any code analysis tools regardless of programming language | `Go` ★ 9.3k | 2026-05-14 |
 | [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) | :sparkles: Monorepo for all the tooling which enables ESLint to support Type Script | `TypeScript` ★ 16.2k | 2026-05-12 |
 | [loeffel-io/ls-lint](https://github.com/loeffel-io/ls-lint) | An extremely fast directory and filename linter - Bring some structure to your project filesystem | `Go` ★ 2.4k | 2026-05-08 |
 | [haydenbleasel/ultracite](https://github.com/haydenbleasel/ultracite) | A highly opinionated, zero-configuration linter and formatter. | `TypeScript` ★ 2.9k | 2026-05-10 |

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [martymcmodding/qUINT](https://github.com/martymcmodding/qUINT) | Collection of general-purpose effects for the Re Shade shader injector. | `HLSL` ★ 560 | 2023-07-22 |
-| [Mortalitas/GShade](https://github.com/Mortalitas/GShade) | GShade is a highly modified Re Shade fork & utility package with numerous improvements and settings autodetection for over 300 games. | `HLSL` ★ 502 | 2026-03-02 |
+| [martymcmodding/qUINT](https://github.com/martymcmodding/qUINT) | Collection of general-purpose effects for the Re Shade shader injector. | `HLSL` ★ 561 | 2023-07-22 |
+| [Mortalitas/GShade](https://github.com/Mortalitas/GShade) | GShade is a highly modified Re Shade fork & utility package with numerous improvements and settings autodetection for over 300 games. | `HLSL` ★ 505 | 2026-03-02 |

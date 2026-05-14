@@ -6,20 +6,20 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [honojs/hono](https://github.com/honojs/hono) | Web framework built on Web Standards | `TypeScript` ★ 30.4k | 2026-05-12 |
+| [honojs/hono](https://github.com/honojs/hono) | Web framework built on Web Standards | `TypeScript` ★ 30.4k | 2026-05-13 |
 | [g-plane/typed-query-selector](https://github.com/g-plane/typed-query-selector) | Better typed \`query Selector\` and \`query Selector All\`. | `TypeScript` ★ 780 | 2026-05-09 |
 | [microsoft/tsdoc](https://github.com/microsoft/tsdoc) | A doc comment standard for Type Script | `TypeScript` ★ 5k | 2026-03-31 |
-| [notclickable-jordan/starbase-80](https://github.com/notclickable-jordan/starbase-80) | A nice Docker homepage | `TypeScript` ★ 537 | 2025-10-18 |
-| [Simon-He95/markdown-it-ts](https://github.com/Simon-He95/markdown-it-ts) | A modern, type-safe rewrite of markdown-it in Type Script: pluggable rules, split parse/render, Common Mark-compatible; fast one-shot parsing and even faster streaming/incremental updates. | `TypeScript` ★ 141 | 2026-05-13 |
-| [Effect-TS/effect](https://github.com/Effect-TS/effect) | Build production-ready applications in Type Script | `TypeScript` ★ 14.2k | 2026-05-11 |
+| [notclickable-jordan/starbase-80](https://github.com/notclickable-jordan/starbase-80) | A nice Docker homepage | `TypeScript` ★ 538 | 2025-10-18 |
+| [Simon-He95/markdown-it-ts](https://github.com/Simon-He95/markdown-it-ts) | A modern, type-safe rewrite of markdown-it in Type Script: pluggable rules, split parse/render, Common Mark-compatible; fast one-shot parsing and even faster streaming/incremental updates. | `TypeScript` ★ 141 | 2026-05-14 |
+| [Effect-TS/effect](https://github.com/Effect-TS/effect) | Build production-ready applications in Type Script | `TypeScript` ★ 14.2k | 2026-05-13 |
 | [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) | Map Libre GL JS - Interactive vector tile maps in the browser | `TypeScript` ★ 10.6k | 2026-05-12 |
-| [middleapi/orpc](https://github.com/middleapi/orpc) | Typesafe APIs Made Simple 🪄 | `TypeScript` ★ 5.2k | 2026-05-12 |
+| [middleapi/orpc](https://github.com/middleapi/orpc) | Typesafe APIs Made Simple 🪄 | `TypeScript` ★ 5.2k | 2026-05-13 |
 | [PaulJPhilp/effect-env](https://github.com/PaulJPhilp/effect-env) | No description provided | `TypeScript` ★ 41 | 2025-11-27 |
-| [JoshuaKGoldberg/TypeStat](https://github.com/JoshuaKGoldberg/TypeStat) | Converts Java Script to Type Script and Type Script to better Type Script. 🧫 | `TypeScript` ★ 2.2k | 2026-05-11 |
-| [andredesousa/typescript-best-practices](https://github.com/andredesousa/typescript-best-practices) | This is a guideline of best practices that you can apply to your Type Script project. | ★ 191 | 2021-05-03 |
+| [JoshuaKGoldberg/TypeStat](https://github.com/JoshuaKGoldberg/TypeStat) | Converts Java Script to Type Script and Type Script to better Type Script. 🧫 | `TypeScript` ★ 2.2k | 2026-05-12 |
+| [andredesousa/typescript-best-practices](https://github.com/andredesousa/typescript-best-practices) | This is a guideline of best practices that you can apply to your Type Script project. | ★ 193 | 2021-05-03 |
 | [TheAlgorithms/TypeScript](https://github.com/TheAlgorithms/TypeScript) | Algorithms and Data Structures implemented in Type Script for beginners, following best practices. | `TypeScript` ★ 2.8k | 2024-10-16 |
-| [trpc/trpc](https://github.com/trpc/trpc) | 🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | `TypeScript` ★ 40.2k | 2026-05-12 |
-| [Azure/azure-sdk-for-js](https://github.com/Azure/azure-sdk-for-js) | This repository is for active development of the Azure SDK for Java Script (Node JS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.co... | `TypeScript` ★ 2.3k | 2026-05-13 |
+| [trpc/trpc](https://github.com/trpc/trpc) | 🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | `TypeScript` ★ 40.2k | 2026-05-13 |
+| [Azure/azure-sdk-for-js](https://github.com/Azure/azure-sdk-for-js) | This repository is for active development of the Azure SDK for Java Script (Node JS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.co... | `TypeScript` ★ 2.3k | 2026-05-14 |
 | [Nachman-Libermensh/tanstack-form-playground](https://github.com/Nachman-Libermensh/tanstack-form-playground) | No description provided | `TypeScript` ★ 2 | 2025-06-18 |
 | [sim-codes/windows-phone-link-ui](https://github.com/sim-codes/windows-phone-link-ui) | No description provided | `TypeScript` ★ 2 | 2024-05-14 |
 | [Azure-Samples/microblog-ai-remix](https://github.com/Azure-Samples/microblog-ai-remix) | A full-stack AI-powered microblogging application leveraging Azure Static Web Apps, Azure Functions, and Remix SSR with Azure Open AI GPT-4o. | `TypeScript` ★ 52 | 2025-10-27 |

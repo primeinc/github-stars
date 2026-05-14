@@ -6,10 +6,10 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [github/github-well-architected](https://github.com/github/github-well-architected) | Apply design thinking to build and ship your software securely and at scale with Git Hub | `TypeScript` ★ 28 | 2026-05-13 |
+| [github/github-well-architected](https://github.com/github/github-well-architected) | Apply design thinking to build and ship your software securely and at scale with Git Hub | `TypeScript` ★ 29 | 2026-05-14 |
 | [Azure/aca-landing-zone-accelerator](https://github.com/Azure/aca-landing-zone-accelerator) | The Azure Container Apps landing zone accelerator is an open-source collection of architectural guidance and reference implementation to accelerate deployment of Azure Container Apps at scale. | `Bicep` ★ 218 | 2026-01-26 |
 | [mspnp/cloud-design-patterns](https://github.com/mspnp/cloud-design-patterns) | Sample implementations for cloud design patterns found in the Azure Architecture Center. | `C#` ★ 845 | 2026-05-04 |
-| [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code | `TypeScript` ★ 3.2k | 2026-05-12 |
+| [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code | `TypeScript` ★ 3.2k | 2026-05-13 |
 | [Azure-Samples/ai-hub-gateway-solution-accelerator](https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator) | Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure ... | `Bicep` ★ 272 | 2026-04-08 |
 | [heynickc/awesome-ddd](https://github.com/heynickc/awesome-ddd) | A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources | ★ 12.2k | 2025-07-04 |
 | [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) | A curated list of Microservice Architecture related principles and technologies. | ★ 14.3k | 2026-01-17 |

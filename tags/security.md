@@ -1,6 +1,6 @@
 # Tag: security
 
-*10 repositories*
+*11 repositories*
 
 [← Back to Index](../README.md)
 
@@ -11,6 +11,7 @@
 | [DFIRKuiper/Kuiper](https://github.com/DFIRKuiper/Kuiper) | Digital Forensics Investigation Platform | `JavaScript` ★ 887 | 2024-10-12 |
 | [SeyZ/clawbands](https://github.com/SeyZ/clawbands) | Claw Bands is a security middleware for Open Claw AI agents. | `TypeScript` ★ 196 | 2026-02-09 |
 | [pascalvanderheiden/ais-apim-openai](https://github.com/pascalvanderheiden/ais-apim-openai) | Unleash the power of Azure Open AI to your application developers in a secure & manageable way with Azure API Management and Azure Developer CLI. | `Bicep` ★ 35 | 2023-12-28 |
+| [lissy93/personal-security-checklist](https://github.com/lissy93/personal-security-checklist) | 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026 | `TypeScript` ★ 21.4k | 2026-02-28 |
 | [cartesiancs/vessel](https://github.com/cartesiancs/vessel) | Home security / protection system 🦾 | `TypeScript` ★ 323 | 2026-04-30 |
 | [j0eyv/ConditionalAccessBaseline](https://github.com/j0eyv/ConditionalAccessBaseline) | No description provided | ★ 286 | 2026-05-08 |
 | [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) | A curated list of Awesome Threat Intelligence resources | ★ 10.2k | 2026-01-19 |
