@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-14T04:32:04.671Z'
+  manifest_updated_at: '2026-05-14T04:32:41.407Z'
   total_repos: 2646
   generator_version: v1.0.0
   github_user: primeinc
@@ -107856,13 +107856,19 @@ repositories:
       prompt_version: v3
   - repo: aelassas/servy
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - dev-tools
+      - productivity
+    tags:
+      - service-wrapper
+      - windows-service
+      - watchdog
+      - lang:csharp
     summary: Professional-Grade Windows Service Wrapper with Deep Observability - Modern Alternative to NSSM, Win SW & Fire Daemon Pro
     last_synced_sha: 44fedbc5460ef90fca8f3590b0a86f64b3811857
     user_starred_at: '2026-05-13T04:26:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -107888,15 +107894,25 @@ repositories:
         published_at: '2026-05-11T12:15:34Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-14T04:32:40.543Z'
+      prompt_version: v3
   - repo: AIDotNet/OpenDeepWiki
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ai-ml
+      - productivity
+    tags:
+      - knowledge-management
+      - collaboration
+      - lang:csharp
     summary: Open Deep Wiki is the open-source version of the Deep Wiki project, aiming to provide a powerful knowledge management and collaboration platform. The project is mainly developed using C# and Type S...
     last_synced_sha: 541cd9b292a64840e65caac4fefbe72214afe951
     user_starred_at: '2026-05-13T04:25:55Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -107919,15 +107935,26 @@ repositories:
         published_at: '2026-02-14T10:06:43Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-14T04:32:40.543Z'
+      prompt_version: v3
   - repo: domcyrus/rustnet
     categories:
-      - unclassified
-    tags: []
+      - monitoring
+      - networking
+      - system-admin
+    tags:
+      - network-monitoring
+      - packet-capture
+      - tui
+      - lang:rust
     summary: Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed.
     last_synced_sha: df45b2bd27e0f3da3a4a6bd11eff8908b2fb8380
     user_starred_at: '2026-05-13T04:25:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -107963,15 +107990,25 @@ repositories:
         published_at: '2026-05-05T17:06:44Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-14T04:32:40.543Z'
+      prompt_version: v3
   - repo: agavra/tuicr
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+    tags:
+      - code-review
+      - ai-tools
+      - tui
+      - lang:rust
     summary: a terminal UI for local code review
     last_synced_sha: 9552d490d6eb70226889fde8a2fb4d75672076b4
     user_starred_at: '2026-05-13T04:24:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics:
@@ -107994,15 +108031,24 @@ repositories:
         published_at: '2026-05-13T23:28:30Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-14T04:32:40.543Z'
+      prompt_version: v3
   - repo: multica-ai/andrej-karpathy-skills
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - documentation
+    tags:
+      - llm
+      - code-behavior
+      - observations
     summary: A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
     last_synced_sha: 2c606141936f1eeef17fa3043a72095b4765b9c2
     user_starred_at: '2026-01-29T15:32:45Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -108019,15 +108065,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-14T04:32:40.543Z'
+      prompt_version: v3
   - repo: lissy93/domain-locker
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - monitoring
+      - web-dev
+    tags:
+      - domain-management
+      - dashboard
+      - self-hosted
+      - lang:ts
     summary: 🌐 The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker!
     last_synced_sha: f55507afe9d81108ff0534e85ed1d7ad1b65a9b8
     user_starred_at: '2026-01-28T07:34:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -108058,15 +108115,26 @@ repositories:
         published_at: '2026-02-14T07:41:29Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-14T04:32:40.543Z'
+      prompt_version: v3
   - repo: lissy93/web-check
     categories:
-      - unclassified
-    tags: []
+      - security
+      - system-admin
+      - automation
+    tags:
+      - osint
+      - security-tools
+      - sysadmin
+      - lang:ts
     summary: 🕵️‍♂️ All-in-one OSINT tool for analysing any website
     last_synced_sha: 2c9fb0040ac8a6a9f1430cab2a501de85028b6c0
     user_starred_at: '2026-01-09T20:32:35Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -108090,15 +108158,24 @@ repositories:
         published_at: '2026-05-07T21:01:14Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-14T04:32:40.543Z'
+      prompt_version: v3
   - repo: lissy93/awesome-privacy
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+    tags:
+      - awesome-list
+      - privacy
+      - lang:astro
     summary: 🦄 A curated list of privacy & security-focused software and services
     last_synced_sha: 378ab42f40a6576791d27a58c5df730c1cbd3835
     user_starred_at: '2025-09-13T07:52:03Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Astro
       topics:
@@ -108121,15 +108198,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-14T04:32:40.542Z'
+      prompt_version: v3
   - repo: lissy93/personal-security-checklist
     categories:
-      - unclassified
-    tags: []
+      - security
+      - documentation
+      - learning
+    tags:
+      - privacy
+      - security
+      - checklist
+      - lang:ts
     summary: 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026
     last_synced_sha: 6d4ea7245065ab3ec5a4cd6adb10118dff2b1c34
     user_starred_at: '2025-09-13T07:50:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -108159,15 +108247,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-14T04:32:40.542Z'
+      prompt_version: v3
   - repo: lissy93/dashy
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+      - web-dev
+    tags:
+      - dashboard
+      - self-hosted
+      - lang:vue
     summary: 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!
     last_synced_sha: 59c6cbae2e991d7d2ea3084a429ced24fc86c05a
     user_starred_at: '2025-01-28T09:05:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Vue
       topics:
@@ -108199,3 +108297,8 @@ repositories:
         published_at: '2026-04-26T17:32:59Z'
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-14T04:32:40.542Z'
+      prompt_version: v3
