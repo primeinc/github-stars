@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-15T04:35:07.277Z'
+  manifest_updated_at: '2026-05-15T04:35:41.376Z'
   total_repos: 2645
   generator_version: v1.0.0
   github_user: primeinc
@@ -108194,13 +108194,20 @@ repositories:
       prompt_version: v3
   - repo: NoeFabris/opencode-antigravity-auth
     categories:
-      - unclassified
-    tags: []
+      - security
+      - apis
+      - web-dev
+    tags:
+      - oauth
+      - authentication
+      - google
+      - lang:ts
+      - gemini
     summary: Enable Opencode to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking with your Google...
     last_synced_sha: 740e315d98a0a10a13b2e79d5a259171dd88ef87
     user_starred_at: '2025-12-18T10:18:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -108223,15 +108230,28 @@ repositories:
         published_at: '2026-02-20T18:58:46Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-15T04:35:40.166Z'
+      prompt_version: v3
   - repo: mindsdb/minds-platform
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+      - deployment
+    tags:
+      - ai
+      - analytics
+      - lang:python
+      - llms
+      - business-intelligence
+      - rag
     summary: Platform dedicated to building an open foundation for applied Artificial Intelligence, designed for people seeking production-ready AI systems they can truly control, extend and deploy anywhere.
     last_synced_sha: d3cd87fa131c6d9e657fde89cde8785783672bcc
     user_starred_at: '2025-06-10T11:40:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -108264,3 +108284,8 @@ repositories:
         published_at: '2026-04-23T07:11:44Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-15T04:35:40.166Z'
+      prompt_version: v3
