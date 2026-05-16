@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-16T04:25:11.028Z'
+  manifest_updated_at: '2026-05-16T04:25:43.781Z'
   total_repos: 2646
   generator_version: v1.0.0
   github_user: primeinc
@@ -108303,13 +108303,17 @@ repositories:
       prompt_version: v3
   - repo: casey/just
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - command-runner
+      - lang:rust
+      - task-runner
     summary: 🤖 Just a command runner
     last_synced_sha: f92413bb045a058b35206d590c8f3ae147ea68aa
     user_starred_at: '2026-05-15T16:56:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -108328,3 +108332,8 @@ repositories:
         published_at: '2026-05-10T05:48:31Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-16T04:25:42.551Z'
+      prompt_version: v3
