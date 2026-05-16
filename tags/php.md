@@ -12,7 +12,7 @@
 | [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) | A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem | ★ 13.1k | 2024-07-03 |
 | [tzookb/tbmsg](https://github.com/tzookb/tbmsg) | No description provided | `PHP` ★ 107 | 2019-08-27 |
 | [chrisboulton/php-resque](https://github.com/chrisboulton/php-resque) | PHP port of resque (Workers and Queueing) | `PHP` ★ 3.4k | 2023-08-01 |
-| [Level-2/Dice](https://github.com/Level-2/Dice) | Dice - a lightweight Dependency Injection Container for PHP | `PHP` ★ 437 | 2023-01-17 |
+| [Level-2/Dice](https://github.com/Level-2/Dice) | Dice - a lightweight Dependency Injection Container for PHP | `PHP` ★ 436 | 2023-01-17 |
 | [erikdubbelboer/phpRedisAdmin](https://github.com/erikdubbelboer/phpRedisAdmin) | Simple web interface to manage Redis databases. | `PHP` ★ 3.2k | 2025-12-22 |
 | [jeremyFreeAgent/Bitter](https://github.com/jeremyFreeAgent/Bitter) | Bitter is a simple but powerful analytics library | `PHP` ★ 128 | 2013-09-19 |
 | [phpredis/phpredis](https://github.com/phpredis/phpredis) | A PHP extension for Redis | `C` ★ 10.2k | 2026-05-12 |

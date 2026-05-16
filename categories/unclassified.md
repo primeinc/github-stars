@@ -6,14 +6,14 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [dnakov/litter](https://github.com/dnakov/litter) | No description provided | `Swift` ★ 1.8k | 2026-05-15 |
+| [dnakov/litter](https://github.com/dnakov/litter) | No description provided | `Rust` ★ 1.8k | 2026-05-16 |
 | [KGSpin/kgspin-demo-config](https://github.com/KGSpin/kgspin-demo-config) | KGSpin — reference customer instance config (Layer 2 per ADR-003) | ★ 1 | 2026-04-22 |
 | [microsoft/adme-samples](https://github.com/microsoft/adme-samples) | No description provided | `Shell` ★ 16 | 2026-05-11 |
-| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | No description provided | `TypeScript` ★ 11.5k | 2026-05-14 |
+| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | No description provided | `TypeScript` ★ 11.5k | 2026-05-15 |
 | [LG-AI-EXAONE/EXAONE-4.5](https://github.com/LG-AI-EXAONE/EXAONE-4.5) | No description provided | ★ 39 | 2026-04-29 |
 | [cheapmanga/Skin-pack-Template](https://github.com/cheapmanga/Skin-pack-Template) | Minecraft LCE Skin-pack Template | ★ 7 | 2026-04-13 |
 | [FedRAMP/roadmap](https://github.com/FedRAMP/roadmap) | Fed RAMP's Public High Level Roadmap | `Shell` ★ 26 | 2026-02-02 |
-| [viralcode/vib-OS](https://github.com/viralcode/vib-OS) | World's First Vibecoded AI Operating System | `C` ★ 441 | 2026-03-10 |
+| [viralcode/vib-OS](https://github.com/viralcode/vib-OS) | World's First Vibecoded AI Operating System | `C` ★ 442 | 2026-03-10 |
 | [pingdotgg/lawn](https://github.com/pingdotgg/lawn) | No description provided | `TypeScript` ★ 594 | 2026-04-29 |
 | [OracleBrain/OracleBrain](https://github.com/OracleBrain/OracleBrain) | No description provided | ★ 103 | 2026-02-20 |
 | [longrackslabs/inbox-classifier](https://github.com/longrackslabs/inbox-classifier) | No description provided | `Python` ★ 2 | 2026-03-09 |

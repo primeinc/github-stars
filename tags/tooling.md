@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [jdx/mise](https://github.com/jdx/mise) | dev tools, env vars, task runner | `Rust` ★ 28.2k | 2026-05-15 |
+| [jdx/mise](https://github.com/jdx/mise) | dev tools, env vars, task runner | `Rust` ★ 28.2k | 2026-05-16 |
 | [universal-tool-calling-protocol/code-mode](https://github.com/universal-tool-calling-protocol/code-mode) | 🔌 Plug-and-play library to enable agents to call MCP and UTCP tools via code execution. | `Python` ★ 1.5k | 2026-05-03 |
 | [umijs/father](https://github.com/umijs/father) | NPM package development tool | `TypeScript` ★ 2.2k | 2026-04-29 |
 | [context-labs/uwu](https://github.com/context-labs/uwu) | No description provided | `TypeScript` ★ 939 | 2025-08-23 |
