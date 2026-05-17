@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-17T04:37:06.038Z'
+  manifest_updated_at: '2026-05-17T04:37:38.410Z'
   total_repos: 2647
   generator_version: v1.0.0
   github_user: primeinc
@@ -108343,13 +108343,17 @@ repositories:
       prompt_version: v3
   - repo: sweetpad-dev/sweetpad
     categories:
-      - unclassified
-    tags: []
+      - mobile-dev
+      - dev-tools
+    tags:
+      - ios-development
+      - vscode-extension
+      - lang:ts
     summary: Develop Swift/i OS projects using VSCode
     last_synced_sha: e1e681c454649bf220d6a70350d96048421e58a7
     user_starred_at: '2026-05-16T04:38:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -108371,3 +108375,8 @@ repositories:
         published_at: '2026-05-11T22:05:59Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-17T04:37:37.307Z'
+      prompt_version: v3
