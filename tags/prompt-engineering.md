@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/apm](https://github.com/microsoft/apm) | Agent Package Manager | `Python` ★ 2.4k | 2026-05-15 |
-| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman | `JavaScript` ★ 60.8k | 2026-05-12 |
-| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition. | `Python` ★ 21.4k | 2026-05-15 |
+| [microsoft/apm](https://github.com/microsoft/apm) | Agent Package Manager | `Python` ★ 2.4k | 2026-05-17 |
+| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman | `JavaScript` ★ 61.1k | 2026-05-12 |
+| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition. | `Python` ★ 21.4k | 2026-05-16 |
 | [KalyanKS-NLP/Prompt-Engineering-Techniques-Hub](https://github.com/KalyanKS-NLP/Prompt-Engineering-Techniques-Hub) | This repo contains implementation of 25+ prompt engineering techniques. | ★ 457 | 2025-12-18 |
 | [ZeroLu/awesome-nanobanana-pro](https://github.com/ZeroLu/awesome-nanobanana-pro) | 🚀 An awesome list of curated Nano Banana pro prompts and examples. Your go-to resource for mastering prompt engineering and exploring the creative potential of the Nano banana pro(Nano banana 2) A... | ★ 9.9k | 2026-04-21 |
 | [chr15m/runprompt](https://github.com/chr15m/runprompt) | Run LLM prompts from your shell | `Python` ★ 439 | 2026-05-12 |

@@ -9,7 +9,7 @@
 | [dnakov/litter](https://github.com/dnakov/litter) | No description provided | `Rust` ★ 1.8k | 2026-05-16 |
 | [KGSpin/kgspin-demo-config](https://github.com/KGSpin/kgspin-demo-config) | KGSpin — reference customer instance config (Layer 2 per ADR-003) | ★ 1 | 2026-04-22 |
 | [microsoft/adme-samples](https://github.com/microsoft/adme-samples) | No description provided | `Shell` ★ 16 | 2026-05-11 |
-| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | No description provided | `TypeScript` ★ 11.5k | 2026-05-15 |
+| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | No description provided | `TypeScript` ★ 11.6k | 2026-05-16 |
 | [LG-AI-EXAONE/EXAONE-4.5](https://github.com/LG-AI-EXAONE/EXAONE-4.5) | No description provided | ★ 39 | 2026-04-29 |
 | [cheapmanga/Skin-pack-Template](https://github.com/cheapmanga/Skin-pack-Template) | Minecraft LCE Skin-pack Template | ★ 7 | 2026-04-13 |
 | [FedRAMP/roadmap](https://github.com/FedRAMP/roadmap) | Fed RAMP's Public High Level Roadmap | `Shell` ★ 26 | 2026-02-02 |

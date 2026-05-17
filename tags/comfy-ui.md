@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [AIDC-AI/ComfyUI-Copilot](https://github.com/AIDC-AI/ComfyUI-Copilot) | An AI-powered custom node for Comfy UI designed to enhance workflow automation and provide intelligent assistance | `TypeScript` ★ 5.1k | 2026-04-07 |
+| [AIDC-AI/ComfyUI-Copilot](https://github.com/AIDC-AI/ComfyUI-Copilot) | An AI-powered custom node for Comfy UI designed to enhance workflow automation and provide intelligent assistance | `TypeScript` ★ 5.2k | 2026-04-07 |
 | [scraed/LanPaint](https://github.com/scraed/LanPaint) | High quality training free inpaint for every stable diffusion model. Supports Comfy UI | `Python` ★ 1.1k | 2026-04-11 |
 | [aegis72/aegisflow](https://github.com/aegis72/aegisflow) | Aegis Flow XL and Aegis Flow 1.5 are Comfy UI workflows designed by a professional for professionals | ★ 36 | 2024-01-18 |

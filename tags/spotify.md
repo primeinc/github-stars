@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [novatorem/novatorem](https://github.com/novatorem/novatorem) | Dynamic realtime profile Read Me linked with spotify | `Python` ★ 746 | 2026-02-16 |
+| [novatorem/novatorem](https://github.com/novatorem/novatorem) | Dynamic realtime profile Read Me linked with spotify | `Python` ★ 745 | 2026-02-16 |
 | [Loupedeck/SpotifyPremiumPlugin](https://github.com/Loupedeck/SpotifyPremiumPlugin) | A sample plugin for the Loupedeck software, based on the Loupedeck Plugin SDK | `C#` ★ 6 | 2023-05-22 |
 | [dtcooper/raspotify](https://github.com/dtcooper/raspotify) | A Spotify Connect client that mostly Just Works™ | `Shell` ★ 5.1k | 2026-04-24 |

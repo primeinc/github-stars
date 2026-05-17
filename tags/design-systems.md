@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [ant-design/ant-design](https://github.com/ant-design/ant-design) | An enterprise-class UI design language and React UI library | `TypeScript` ★ 98k | 2026-05-16 |
+| [ant-design/ant-design](https://github.com/ant-design/ant-design) | An enterprise-class UI design language and React UI library | `TypeScript` ★ 98.1k | 2026-05-17 |
 | [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) | Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command. | `JavaScript` ★ 1.8k | 2026-05-15 |

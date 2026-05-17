@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [listr2/listr2](https://github.com/listr2/listr2) | Node JS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive. | `TypeScript` ★ 663 | 2026-05-02 |
+| [listr2/listr2](https://github.com/listr2/listr2) | Node JS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive. | `TypeScript` ★ 663 | 2026-05-16 |
 | [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) | :white\_check\_mark: The Node.js best practices list (July 2024) | `Dockerfile` ★ 105.3k | 2025-04-15 |
 | [auth0/node-auth0](https://github.com/auth0/node-auth0) | Node.js client library for the Auth0 platform. | `TypeScript` ★ 679 | 2026-05-13 |
 | [Yayi-Dev/esc-pos-printer-manager](https://github.com/Yayi-Dev/esc-pos-printer-manager) | A plugin to manage ESC/POS printers via node.js (javascript / typescript) without using zadig (Win USBDriver) | `PHP` ★ 9 | 2024-07-29 |
@@ -17,10 +17,10 @@
 | [nwjs/nw.js](https://github.com/nwjs/nw.js) | Call all Node.js modules directly from DOM/Web Worker and enable a new way of writing applications with all Web technologies. | `JavaScript` ★ 41.2k | 2026-05-12 |
 | [Aetherinox/node-toasted-notifier](https://github.com/Aetherinox/node-toasted-notifier) | A revised fork of node-notifier; Node JS package for pushing notifications to Mac OS, Linux, and Windows. | `JavaScript` ★ 26 | 2025-10-23 |
 | [felixrieseberg/windows-build-tools](https://github.com/felixrieseberg/windows-build-tools) | :package: Install C++ Build Tools for Windows using npm | `TypeScript` ★ 3.4k | 2021-06-20 |
-| [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first. | `TypeScript` ★ 72.2k | 2026-05-15 |
+| [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first. | `TypeScript` ★ 72.2k | 2026-05-16 |
 | [tj/commander.js](https://github.com/tj/commander.js) | node.js command-line interfaces made easy | `JavaScript` ★ 28.2k | 2026-05-01 |
 | [google/zx](https://github.com/google/zx) | A tool for writing better scripts | `JavaScript` ★ 45.5k | 2026-05-10 |
-| [Schniz/fnm](https://github.com/Schniz/fnm) | 🚀 Fast and simple Node.js version manager, built in Rust | `Rust` ★ 25.5k | 2026-04-19 |
+| [Schniz/fnm](https://github.com/Schniz/fnm) | 🚀 Fast and simple Node.js version manager, built in Rust | `Rust` ★ 25.6k | 2026-04-19 |
 | [electron/electron](https://github.com/electron/electron) | :electron: Build cross-platform desktop apps with Java Script, HTML, and CSS | `C++` ★ 121.3k | 2026-05-16 |
 | [obs-websocket-community-projects/obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) | Consumes https://github.com/obsproject/obs-websocket | `TypeScript` ★ 765 | 2026-04-20 |
 | [dexteryy/spellbook-of-modern-webdev](https://github.com/dexteryy/spellbook-of-modern-webdev) | A Big Picture, Thesaurus, and Taxonomy of Modern Java Script Web Development | ★ 17.8k | 2023-12-18 |

@@ -6,10 +6,10 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern Type Script stack. | `TypeScript` ★ 23.9k | 2026-05-16 |
+| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern Type Script stack. | `TypeScript` ★ 23.9k | 2026-05-17 |
 | [zorazrw/workflow-induction-toolkit](https://github.com/zorazrw/workflow-induction-toolkit) | A toolkit to induce interpretable workflows from raw computer-use activities. | `Python` ★ 44 | 2025-11-13 |
-| [githubnext/agentics](https://github.com/githubnext/agentics) | A sample pack of Git Hub Agentic Workflows! | `Makefile` ★ 703 | 2026-05-13 |
-| [different-ai/openwork](https://github.com/different-ai/openwork) | An open-source alternative to Claude Cowork, powered by Open Code | `TypeScript` ★ 15.2k | 2026-05-16 |
+| [githubnext/agentics](https://github.com/githubnext/agentics) | A sample pack of Git Hub Agentic Workflows! | `Makefile` ★ 704 | 2026-05-13 |
+| [different-ai/openwork](https://github.com/different-ai/openwork) | An open-source alternative to Claude Cowork, powered by Open Code | `TypeScript` ★ 15.3k | 2026-05-16 |
 | [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) | Automate browser based workflows with AI | `Python` ★ 21.6k | 2026-05-16 |
 | [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows) | all of the workflows of n8n i could find (also from the site itself) | `Python` ★ 54.4k | 2026-02-11 |
 | [elsa-workflows/elsa-core](https://github.com/elsa-workflows/elsa-core) | A .NET workflows library | `C#` ★ 7.7k | 2026-05-16 |

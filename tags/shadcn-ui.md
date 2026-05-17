@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [birobirobiro/awesome-shadcn-ui](https://github.com/birobirobiro/awesome-shadcn-ui) | A curated list of awesome things related to shadcn/ui. | `TypeScript` ★ 19.5k | 2026-05-12 |
-| [satnaing/shadcn-admin](https://github.com/satnaing/shadcn-admin) | Admin Dashboard UI built with Shadcn and Vite. | `TypeScript` ★ 12k | 2026-05-08 |
+| [satnaing/shadcn-admin](https://github.com/satnaing/shadcn-admin) | Admin Dashboard UI built with Shadcn and Vite. | `TypeScript` ★ 12.1k | 2026-05-08 |
 | [tremorlabs/tremor-blocks](https://github.com/tremorlabs/tremor-blocks) | Tremor Blocks Source Code | `TypeScript` ★ 506 | 2025-01-22 |
 | [Aldhanekaa/ShadcnVaults](https://github.com/Aldhanekaa/ShadcnVaults) | Collection of blocks for Internal Tools UI built on top of shadcn/ui | `TypeScript` ★ 80 | 2025-07-30 |
 | [shane-downes/styleglide](https://github.com/shane-downes/styleglide) | Create your own shadcn/ui and Tailwind CSS design system | `TypeScript` ★ 66 | 2025-12-06 |

@@ -7,23 +7,23 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [lcromer97/PrinterManager](https://github.com/lcromer97/PrinterManager) | All in one tool to manage printers. Built to be used for Screen Connect's backstage | `C#` ★ 1 | 2026-03-23 |
-| [KnudsenMorten/SecurityInsight](https://github.com/KnudsenMorten/SecurityInsight) | Rethink Secure Score into a new risk-based security risk score, based on consequence, probability and risk factors. Solution includes critical asset tagging, ready-to-use reports (based on Defender... | `PowerShell` ★ 35 | 2026-05-15 |
+| [KnudsenMorten/SecurityInsight](https://github.com/KnudsenMorten/SecurityInsight) | Rethink Secure Score into a new risk-based security risk score, based on consequence, probability and risk factors. Solution includes critical asset tagging, ready-to-use reports (based on Defender... | `PowerShell` ★ 35 | 2026-05-16 |
 | [0x6d69636b/windows_hardening](https://github.com/0x6d69636b/windows_hardening) | Hardening Kitty and Windows Hardening Settings | `PowerShell` ★ 2.6k | 2026-04-10 |
 | [SoyITPro/scripts](https://github.com/SoyITPro/scripts) | Scripts para administradores de servidores Windows, Azure, Docker, Linux y más | `PowerShell` ★ 59 | 2026-04-28 |
-| [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 5.6k | 2026-05-15 |
-| [File-New-Project/EarTrumpet](https://github.com/File-New-Project/EarTrumpet) | Ear Trumpet - Volume Control for Windows | `C#` ★ 11k | 2026-05-14 |
+| [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 5.6k | 2026-05-17 |
+| [File-New-Project/EarTrumpet](https://github.com/File-New-Project/EarTrumpet) | Ear Trumpet - Volume Control for Windows | `C#` ★ 11k | 2026-05-17 |
 | [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications. | `C#` ★ 4.7k | 2026-05-16 |
 | [randomascii/UIforETW](https://github.com/randomascii/UIforETW) | User interface for recording and managing ETW traces | `C++` ★ 136 | 2026-01-05 |
-| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 3.3k | 2026-05-15 |
+| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 3.3k | 2026-05-16 |
 | [MyOnee/R](https://github.com/MyOnee/R) | Free RDP from Github Actions | `Batchfile` ★ 60 | 2026-02-28 |
-| [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) | 🖱️ 纯粹的Windows右键菜单管理程序 | `C#` ★ 18.9k | 2024-08-17 |
+| [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) | 🖱️ 纯粹的Windows右键菜单管理程序 | `C#` ★ 19k | 2024-08-17 |
 | [KnifMelti/WAU-Settings-GUI](https://github.com/KnifMelti/WAU-Settings-GUI) | Provides a user-friendly portable standalone interface to modify every aspect of Winget-Auto Update (WAU) | `PowerShell` ★ 45 | 2026-03-29 |
 | [ken-yossy/nvmetool-win](https://github.com/ken-yossy/nvmetool-win) | Communicate with NVMe SSD using Windows' inbox device driver | `C` ★ 108 | 2025-03-27 |
 | [FalconOpsLLC/goexec](https://github.com/FalconOpsLLC/goexec) | Windows remote execution multitool | `Go` ★ 795 | 2026-03-25 |
-| [dockur/windows](https://github.com/dockur/windows) | Windows inside a Docker container. | `Shell` ★ 51.4k | 2026-05-16 |
+| [dockur/windows](https://github.com/dockur/windows) | Windows inside a Docker container. | `Shell` ★ 51.4k | 2026-05-17 |
 | [felixrieseberg/windows-build-tools](https://github.com/felixrieseberg/windows-build-tools) | :package: Install C++ Build Tools for Windows using npm | `TypeScript` ★ 3.4k | 2021-06-20 |
 | [jade-tam/dotfiles](https://github.com/jade-tam/dotfiles) | Ricing dotfiles for windows 11 | `Shell` ★ 172 | 2026-04-14 |
-| [1r0BIT/TaskHound](https://github.com/1r0BIT/TaskHound) | Tool to enumerate privileged Scheduled Tasks on Remote Systems | `Python` ★ 296 | 2026-03-29 |
+| [1r0BIT/TaskHound](https://github.com/1r0BIT/TaskHound) | Tool to enumerate privileged Scheduled Tasks on Remote Systems | `Python` ★ 297 | 2026-03-29 |
 | [microsoft/react-native-windows-samples](https://github.com/microsoft/react-native-windows-samples) | A repository showcasing React Native samples and templates for Windows, mac OS, and Surface Duo. | `C#` ★ 540 | 2026-05-09 |
 | [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer) | Driver Store Explorer | `C#` ★ 10.7k | 2026-04-21 |
 | [primeinc/Files](https://github.com/primeinc/Files) | Building the best File Manager for Windows | `C#` ★ 1 | 2025-09-08 |
@@ -41,7 +41,7 @@
 | [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) | Bring mac OS “Quick Look” feature to Windows | `C#` ★ 23.4k | 2026-05-15 |
 | [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) | Everything integration for the Windows taskbar. | `C#` ★ 14k | 2026-05-15 |
 | [hwtnb/SylphyHornPlusWin11](https://github.com/hwtnb/SylphyHornPlusWin11) | Virtual Desktop Tools for Windows 11 and 10. | `C#` ★ 421 | 2024-12-24 |
-| [MScholtes/VirtualDesktop](https://github.com/MScholtes/VirtualDesktop) | C# command line tool to manage virtual desktops in Windows 10 | `C#` ★ 769 | 2025-08-12 |
+| [MScholtes/VirtualDesktop](https://github.com/MScholtes/VirtualDesktop) | C# command line tool to manage virtual desktops in Windows 10 | `C#` ★ 768 | 2025-08-12 |
 | [dankrusi/WindowsVirtualDesktopHelper](https://github.com/dankrusi/WindowsVirtualDesktopHelper) | App to help manage Virtual Desktops for Windows 10 and Windows 11 | `C#` ★ 841 | 2026-03-16 |
 | [files-community/Files](https://github.com/files-community/Files) | A modern file manager that helps users organize their files and folders. | `C#` ★ 43.5k | 2026-05-15 |
 | [rcmaehl/MSEdgeRedirect](https://github.com/rcmaehl/MSEdgeRedirect) | A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Browser | `AutoIt` ★ 5.8k | 2026-04-13 |
@@ -55,4 +55,4 @@
 | [tariqporter/Gdip](https://github.com/tariqporter/Gdip) | Official GDI+ library for Autohotkey | `AutoHotkey` ★ 157 | 2019-03-05 |
 | [Ventajou/WPInfo](https://github.com/Ventajou/WPInfo) | No description provided | `C#` ★ 23 | 2022-02-11 |
 | [ariccio/altWinDirStat](https://github.com/ariccio/altWinDirStat) | An unofficial modification of Win Dir Stat | `C++` ★ 632 | 2022-01-11 |
-| [AlphaDelta/Secure-Desktop](https://github.com/AlphaDelta/Secure-Desktop) | Anti-keylogger/anti-rat application for Windows | `C#` ★ 249 | 2021-09-08 |
+| [AlphaDelta/Secure-Desktop](https://github.com/AlphaDelta/Secure-Desktop) | Anti-keylogger/anti-rat application for Windows | `C#` ★ 248 | 2021-09-08 |

@@ -12,7 +12,7 @@
 | [wigggle-ui/ui](https://github.com/wigggle-ui/ui) | A beautiful collection of copy-and-paste widgets for your next project. | `TypeScript` ★ 855 | 2026-02-26 |
 | [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) | Overview of alternative open source front-ends for popular internet platforms (e.g. You Tube, Twitter, etc.) | ★ 8.9k | 2024-08-18 |
 | [MCP-UI-Org/mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP. Create next-gen UI experiences with the protocol and SDK! | `TypeScript` ★ 4.8k | 2026-05-09 |
-| [home-assistant/frontend](https://github.com/home-assistant/frontend) | :lollipop: Frontend for Home Assistant | `TypeScript` ★ 5.5k | 2026-05-15 |
+| [home-assistant/frontend](https://github.com/home-assistant/frontend) | :lollipop: Frontend for Home Assistant | `TypeScript` ★ 5.5k | 2026-05-17 |
 | [dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks) | Manually curated collection of resources for frontend web developers. | ★ 46.7k | 2024-05-21 |
 | [risonsimon/claude-artifacts-react](https://github.com/risonsimon/claude-artifacts-react) | Quickly deploy React code from Claude Artifacts to the internet. | `JavaScript` ★ 50 | 2024-07-02 |
 | [klyte45/EUIS-baseproj-fe](https://github.com/klyte45/EUIS-baseproj-fe) | Basic project to create EUIS micro-frontend applications. | `JavaScript` ★ 2 | 2023-10-29 |

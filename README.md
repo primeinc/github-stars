@@ -1,23 +1,23 @@
 # Awesome Starred Repositories
 
-> A curated list of **2646** repositories across **25** categories, automatically classified and organized.
+> A curated list of **2647** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-05-16
+Last updated: 2026-05-17
 
 ## ⭐ Recently Starred
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [casey/just](https://github.com/casey/just) | 🤖 Just a command runner | `Rust` ★ 33.7k | 2026-05-14 |
-| [aelassas/servy](https://github.com/aelassas/servy) | Professional-Grade Windows Service Wrapper with Deep Observability - Modern Alternative to NSSM, Win SW & Fire Daemon Pro | `C#` ★ 1.7k | 2026-05-15 |
+| [sweetpad-dev/sweetpad](https://github.com/sweetpad-dev/sweetpad) | Develop Swift/i OS projects using VSCode | `TypeScript` ★ 1.8k | 2026-05-16 |
+| [casey/just](https://github.com/casey/just) | 🤖 Just a command runner | `Rust` ★ 33.7k | 2026-05-17 |
+| [aelassas/servy](https://github.com/aelassas/servy) | Professional-Grade Windows Service Wrapper with Deep Observability - Modern Alternative to NSSM, Win SW & Fire Daemon Pro | `C#` ★ 1.7k | 2026-05-17 |
 | [AIDotNet/OpenDeepWiki](https://github.com/AIDotNet/OpenDeepWiki) | Open Deep Wiki is the open-source version of the Deep Wiki project, aiming to provide a powerful knowledge management and collaboration platform. The project is mainly developed using C# and Type S... | `C#` ★ 3.2k | 2026-05-12 |
-| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 3.2k | 2026-05-15 |
-| [agavra/tuicr](https://github.com/agavra/tuicr) | a terminal UI for local code review | `Rust` ★ 812 | 2026-05-16 |
+| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 3.3k | 2026-05-16 |
+| [agavra/tuicr](https://github.com/agavra/tuicr) | a terminal UI for local code review | `Rust` ★ 815 | 2026-05-16 |
 | [dnakov/litter](https://github.com/dnakov/litter) | No description provided | `Rust` ★ 1.8k | 2026-05-16 |
-| [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | Static analysis for Git Hub Actions | `Rust` ★ 4.9k | 2026-05-15 |
-| [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetil... | `Rust` ★ 12.1k | 2026-05-15 |
-| [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | 1 Persistent memory for AI coding agents based on real-world benchmarks | `TypeScript` ★ 9.8k | 2026-05-15 |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .claude directory. | `Shell` ★ 85.2k | 2026-05-13 |
+| [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | Static analysis for Git Hub Actions | `Rust` ★ 4.9k | 2026-05-16 |
+| [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetil... | `Rust` ★ 12.1k | 2026-05-16 |
+| [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | 1 Persistent memory for AI coding agents based on real-world benchmarks | `TypeScript` ★ 10.4k | 2026-05-16 |
 
 ## 🏷️ Popular Tags
 
@@ -28,14 +28,14 @@ Last updated: 2026-05-16
 
 | | | |
 |---|---|---|
-| [ai-ml](categories/ai-ml.md) (725) | [productivity](categories/productivity.md) (569) | [dev-tools](categories/dev-tools.md) (381) |
+| [ai-ml](categories/ai-ml.md) (725) | [productivity](categories/productivity.md) (569) | [dev-tools](categories/dev-tools.md) (382) |
 | [web-dev](categories/web-dev.md) (376) | [automation](categories/automation.md) (299) | [security](categories/security.md) (265) |
 | [ui-libraries](categories/ui-libraries.md) (256) | [system-admin](categories/system-admin.md) (240) | [data-science](categories/data-science.md) (237) |
 | [desktop-dev](categories/desktop-dev.md) (217) | [apis](categories/apis.md) (200) | [documentation](categories/documentation.md) (194) |
 | [learning](categories/learning.md) (188) | [networking](categories/networking.md) (176) | [cloud](categories/cloud.md) (147) |
 | [frameworks](categories/frameworks.md) (89) | [monitoring](categories/monitoring.md) (82) | [game-dev](categories/game-dev.md) (80) |
 | [embedded](categories/embedded.md) (71) | [databases](categories/databases.md) (67) | [testing](categories/testing.md) (54) |
-| [mobile-dev](categories/mobile-dev.md) (52) | [containers](categories/containers.md) (43) | [deployment](categories/deployment.md) (33) |
+| [mobile-dev](categories/mobile-dev.md) (53) | [containers](categories/containers.md) (43) | [deployment](categories/deployment.md) (33) |
 | [unclassified](categories/unclassified.md) (21) |  |  |
 
 </details>

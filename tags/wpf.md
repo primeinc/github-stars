@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [File-New-Project/EarTrumpet](https://github.com/File-New-Project/EarTrumpet) | Ear Trumpet - Volume Control for Windows | `C#` ★ 11k | 2026-05-14 |
+| [File-New-Project/EarTrumpet](https://github.com/File-New-Project/EarTrumpet) | Ear Trumpet - Volume Control for Windows | `C#` ★ 11k | 2026-05-17 |
 | [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications. | `C#` ★ 4.7k | 2026-05-16 |
-| [lepoco/wpfui](https://github.com/lepoco/wpfui) | WPF UI provides the Fluent experience in your known and loved WPF framework. Intuitive design, themes, navigation and new immersive controls. All natively and effortlessly. | `C#` ★ 9.4k | 2026-05-14 |
+| [lepoco/wpfui](https://github.com/lepoco/wpfui) | WPF UI provides the Fluent experience in your known and loved WPF framework. Intuitive design, themes, navigation and new immersive controls. All natively and effortlessly. | `C#` ★ 9.4k | 2026-05-16 |
 | [kozw/mui](https://github.com/kozw/mui) | Modern UI for WPF | `C#` ★ 2.6k | 2021-07-27 |

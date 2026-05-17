@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [nicholas-fedor/shoutrrr](https://github.com/nicholas-fedor/shoutrrr) | A notification library for gophers and their furry friends. | `Go` ★ 135 | 2026-05-15 |
+| [nicholas-fedor/shoutrrr](https://github.com/nicholas-fedor/shoutrrr) | A notification library for gophers and their furry friends. | `Go` ★ 136 | 2026-05-15 |
 | [jolicode/JoliNotif](https://github.com/jolicode/JoliNotif) | 🖥️ Send notifications to your desktop directly from your PHP script | `PHP` ★ 1.4k | 2026-01-28 |

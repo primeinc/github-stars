@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [githubnext/agentics](https://github.com/githubnext/agentics) | A sample pack of Git Hub Agentic Workflows! | `Makefile` ★ 703 | 2026-05-13 |
-| [renovatebot/renovate](https://github.com/renovatebot/renovate) | Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io | `TypeScript` ★ 21.5k | 2026-05-15 |
-| [changesets/ghcommit](https://github.com/changesets/ghcommit) | Type Script library for directly changing files on Git Hub | `TypeScript` ★ 17 | 2026-05-15 |
+| [githubnext/agentics](https://github.com/githubnext/agentics) | A sample pack of Git Hub Agentic Workflows! | `Makefile` ★ 704 | 2026-05-13 |
+| [renovatebot/renovate](https://github.com/renovatebot/renovate) | Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io | `TypeScript` ★ 21.5k | 2026-05-17 |
+| [changesets/ghcommit](https://github.com/changesets/ghcommit) | Type Script library for directly changing files on Git Hub | `TypeScript` ★ 17 | 2026-05-16 |
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | :octocat: Browser extension that simplifies the Git Hub interface and adds useful features | `TypeScript` ★ 31.3k | 2026-05-16 |
 | [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | 😎 A curated list of awesome Git Hub Profile which updates in real time | ★ 30k | 2026-03-03 |
 | [cli/cli](https://github.com/cli/cli) | Git Hub’s official command line tool | `Go` ★ 44.4k | 2026-05-15 |
