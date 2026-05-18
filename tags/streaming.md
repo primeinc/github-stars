@@ -21,6 +21,6 @@
 | [lplassman/V4L2-to-NDI](https://github.com/lplassman/V4L2-to-NDI) | A video input (V4L2) to NDI converter that works with Raspberry Pi (32-bit and 64-bit), and Intel/AMD CPUs | `C++` ★ 92 | 2025-02-25 |
 | [buresu/ndi-python](https://github.com/buresu/ndi-python) | New Tek NDI Python wrapper | `C++` ★ 184 | 2026-05-16 |
 | [AzuraCast/AzuraCast](https://github.com/AzuraCast/AzuraCast) | A self-hosted web radio management suite, including turnkey installer tools for the full radio software stack and a modern, easy-to-use web app to manage your stations. | `PHP` ★ 3.9k | 2026-05-09 |
-| [argenspin/Rope-Live](https://github.com/argenspin/Rope-Live) | Customized fork of Rope Deepfake software featuring live streaming capabilities and support for Deepfacelive models | `Python` ★ 302 | 2024-12-06 |
+| [argenspin/Rope-Live](https://github.com/argenspin/Rope-Live) | Customized fork of Rope Deepfake software featuring live streaming capabilities and support for Deepfacelive models | `Python` ★ 303 | 2024-12-06 |
 | [pandres95/ndi.js](https://github.com/pandres95/ndi.js) | NDI® SDK for Node.js | `C` ★ 57 | 2024-01-11 |
 | [games-on-whales/wolf](https://github.com/games-on-whales/wolf) | Stream virtual desktops and games running in Docker | `C++` ★ 1.9k | 2026-05-15 |

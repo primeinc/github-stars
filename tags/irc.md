@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [squidowl/halloy](https://github.com/squidowl/halloy) | IRC application written in Rust | `Rust` ★ 4.1k | 2026-05-16 |
-| [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) | bluetooth mesh chat, IRC vibes | `Swift` ★ 25.9k | 2026-05-10 |
+| [squidowl/halloy](https://github.com/squidowl/halloy) | IRC application written in Rust | `Rust` ★ 4.1k | 2026-05-17 |
+| [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) | bluetooth mesh chat, IRC vibes | `Swift` ★ 25.9k | 2026-05-17 |
 | [slate/slate](https://github.com/slate/slate) | Slate IRC client | `JavaScript` ★ 1.9k | 2014-05-30 |

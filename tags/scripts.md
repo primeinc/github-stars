@@ -13,7 +13,7 @@
 | [tabs-not-spaces/CodeDump](https://github.com/tabs-not-spaces/CodeDump) | things that help me. might help others. | `PowerShell` ★ 122 | 2025-03-25 |
 | [MSEndpointMgr/Intune](https://github.com/MSEndpointMgr/Intune) | Microsoft Intune scripts | `PowerShell` ★ 824 | 2025-04-13 |
 | [TinosNitso/mpv-scripts](https://github.com/TinosNitso/mpv-scripts) | For mpv & SMPlayer. Windows, Linux, Mac OS & Android. You Tube, MP4, MP3, JPEG, etc. Multi-stereo speed randomization & tri-color clocks (aspeed.lua); cropping, start/end limits & aspect randomizat... | `Lua` ★ 17 | 2024-10-05 |
-| [JJarv04/ScreenConnect-IntuneWin32](https://github.com/JJarv04/ScreenConnect-IntuneWin32) | An fork of James Vincents: 'How to Deploy Screen Connect using Intune' scripts. | `PowerShell` ★ 1 | 2025-10-07 |
+| [JJarv04/ScreenConnect-IntuneWin32](https://github.com/JJarv04/ScreenConnect-IntuneWin32) | An fork of James Vincents: 'How to Deploy Screen Connect using Intune' scripts. | `PowerShell` ★ 2 | 2025-10-07 |
 | [jhochwald/PowerShell-collection](https://github.com/jhochwald/PowerShell-collection) | Power Shell Scripts, Tools, and Modules | `PowerShell` ★ 308 | 2026-05-09 |
 | [adbertram/Random-PowerShell-Work](https://github.com/adbertram/Random-PowerShell-Work) | Random Power Shell Work | `PowerShell` ★ 1.1k | 2024-08-06 |
 | [danodemano/monitoring-scripts](https://github.com/danodemano/monitoring-scripts) | A dump of the scripts used to monitor my environment and write to Influx DB. Also includes my dashboard export. | `Shell` ★ 110 | 2016-08-30 |

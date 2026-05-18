@@ -16,6 +16,6 @@
 | [inputsh/awesome-linux](https://github.com/inputsh/awesome-linux) | :penguin: A list of awesome projects and resources that make Linux even more awesome. :penguin: | ★ 5k | 2023-02-04 |
 | [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) | Awesome list dedicated to Windows Subsystem for Linux | ★ 6.3k | 2026-05-13 |
 | [abb128/LiveCaptions](https://github.com/abb128/LiveCaptions) | Linux Desktop application that provides live captioning | `C` ★ 1.7k | 2025-02-27 |
-| [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | Primary and community-submitted packages for webinstall.dev | `Shell` ★ 2.9k | 2026-05-17 |
-| [cockpit-project/cockpit](https://github.com/cockpit-project/cockpit) | Cockpit is a web-based graphical interface for servers. | `JavaScript` ★ 14.1k | 2026-05-17 |
+| [webinstall/webi-installers](https://github.com/webinstall/webi-installers) | Primary and community-submitted packages for webinstall.dev | `Shell` ★ 2.9k | 2026-05-18 |
+| [cockpit-project/cockpit](https://github.com/cockpit-project/cockpit) | Cockpit is a web-based graphical interface for servers. | `JavaScript` ★ 14.1k | 2026-05-18 |
 | [tariqbuilds/linux-dash](https://github.com/tariqbuilds/linux-dash) | A beautiful web dashboard for Linux | `JavaScript` ★ 10.6k | 2024-04-16 |

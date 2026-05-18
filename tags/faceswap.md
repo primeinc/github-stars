@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [facefusion/facefusion](https://github.com/facefusion/facefusion) | Industry leading face manipulation platform | `Python` ★ 28.3k | 2026-05-16 |
+| [facefusion/facefusion](https://github.com/facefusion/facefusion) | Industry leading face manipulation platform | `Python` ★ 28.3k | 2026-05-17 |
 | [ArtBot2023/CharacterFaceSwap](https://github.com/ArtBot2023/CharacterFaceSwap) | No description provided | `Python` ★ 101 | 2024-05-22 |
 | [aerophile/awesome-deepfakes](https://github.com/aerophile/awesome-deepfakes) | Everything Deepfakes | ★ 1.7k | 2023-01-14 |
 | [neuralchen/SimSwap](https://github.com/neuralchen/SimSwap) | An arbitrary face-swapping framework on images and videos with one single trained model! | `Python` ★ 5.2k | 2024-08-06 |

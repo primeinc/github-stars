@@ -6,11 +6,11 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 3.3k | 2026-05-16 |
-| [agavra/tuicr](https://github.com/agavra/tuicr) | a terminal UI for local code review | `Rust` ★ 815 | 2026-05-16 |
+| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 3.3k | 2026-05-17 |
+| [agavra/tuicr](https://github.com/agavra/tuicr) | a terminal UI for local code review | `Rust` ★ 821 | 2026-05-17 |
 | [AlexsJones/llmserve](https://github.com/AlexsJones/llmserve) | A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it | `Rust` ★ 243 | 2026-05-10 |
-| [ymtdzzz/otel-tui](https://github.com/ymtdzzz/otel-tui) | A terminal Open Telemetry viewer inspired by otel-desktop-viewer | `Go` ★ 1k | 2026-05-13 |
+| [ymtdzzz/otel-tui](https://github.com/ymtdzzz/otel-tui) | A terminal Open Telemetry viewer inspired by otel-desktop-viewer | `Go` ★ 1k | 2026-05-18 |
 | [curtosis-org/phub-cli](https://github.com/curtosis-org/phub-cli) | Terminal-based Porn Hub browser inspired by ani-cli. Browse categories, search videos, and stream instantly in mpv without opening a browser. | `Shell` ★ 140 | 2026-04-29 |
-| [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | A powerful little TUI framework 🏗 | `Go` ★ 42.4k | 2026-05-12 |
-| [anomalyco/opentui](https://github.com/anomalyco/opentui) | Open TUI is a library for building terminal user interfaces (TUIs) | `TypeScript` ★ 11.1k | 2026-05-16 |
+| [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | A powerful little TUI framework 🏗 | `Go` ★ 42.5k | 2026-05-12 |
+| [anomalyco/opentui](https://github.com/anomalyco/opentui) | Open TUI is a library for building terminal user interfaces (TUIs) | `TypeScript` ★ 11.2k | 2026-05-18 |
 | [yorukot/superfile](https://github.com/yorukot/superfile) | Pretty fancy and modern terminal file manager | `Go` ★ 17.3k | 2026-05-14 |

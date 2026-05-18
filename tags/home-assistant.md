@@ -6,11 +6,11 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [timeframe/ha-addon](https://github.com/timeframe/ha-addon) | An e-paper calendar, weather, and smart home family dashboard for Home Assistant | `Ruby` ★ 799 | 2026-05-16 |
+| [timeframe/ha-addon](https://github.com/timeframe/ha-addon) | An e-paper calendar, weather, and smart home family dashboard for Home Assistant | `Ruby` ★ 800 | 2026-05-17 |
 | [ExperienceLovelace/ha-floorplan](https://github.com/ExperienceLovelace/ha-floorplan) | Bring new life to Home Assistant. By mapping entities to a SVG-object, you're able to control devices, show states, calling services - and much more. Add custom styling on top, to visualize whateve... | `TypeScript` ★ 1.5k | 2026-05-09 |
 | [leukipp/touchkio](https://github.com/leukipp/touchkio) | Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display. | `JavaScript` ★ 1.3k | 2026-05-15 |
 | [itchannel/fordpass-ha](https://github.com/itchannel/fordpass-ha) | Fordpass integration for Home Assistant | `Python` ★ 396 | 2025-11-07 |
-| [frenck/awesome-home-assistant](https://github.com/frenck/awesome-home-assistant) | A curated list of amazingly awesome Home Assistant resources. | `Python` ★ 7.6k | 2026-05-15 |
+| [frenck/awesome-home-assistant](https://github.com/frenck/awesome-home-assistant) | A curated list of amazingly awesome Home Assistant resources. | `Python` ★ 7.6k | 2026-05-17 |
 | [moralmunky/Home-Assistant-Mail-And-Packages](https://github.com/moralmunky/Home-Assistant-Mail-And-Packages) | Home Assistant integration providing day of package counts and USPS informed delivery images. | `Python` ★ 830 | 2026-05-12 |
 | [dwainscheeren/dwains-lovelace-dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) | An fully auto generating Home Assistant UI dashboard for desktop, tablet and mobile by Dwains for desktop, tablet, mobile | `JavaScript` ★ 2k | 2025-09-01 |
 | [danielperna84/hass-configurator](https://github.com/danielperna84/hass-configurator) | Configuration UI for Home Assistant | `Python` ★ 335 | 2026-04-07 |

@@ -18,7 +18,7 @@
 | [kevinburke/ssh_config](https://github.com/kevinburke/ssh_config) | Go parser for ssh\_config files | `Go` ★ 468 | 2026-05-04 |
 | [postalsys/postal-mime](https://github.com/postalsys/postal-mime) | Email parser for browser and serverless environments | `JavaScript` ★ 526 | 2026-03-17 |
 | [jcubic/lips](https://github.com/jcubic/lips) | Scheme based powerful lisp interpreter in Java Script | `JavaScript` ★ 492 | 2026-05-11 |
-| [glayzzle/php-parser](https://github.com/glayzzle/php-parser) | :herb: Node JS PHP Parser - extract AST or tokens | `JavaScript` ★ 562 | 2026-05-15 |
+| [glayzzle/php-parser](https://github.com/glayzzle/php-parser) | :herb: Node JS PHP Parser - extract AST or tokens | `JavaScript` ★ 562 | 2026-05-17 |
 | [willdurand/EmailReplyParser](https://github.com/willdurand/EmailReplyParser) | PHP library for parsing plain text email content. | `PHP` ★ 649 | 2022-09-20 |
 | [kach/nearley](https://github.com/kach/nearley) | 📜🔜🌲 Simple, fast, powerful parser toolkit for Java Script. | `JavaScript` ★ 3.7k | 2024-11-14 |
 | [pdfminer/pdfminer.six](https://github.com/pdfminer/pdfminer.six) | Community maintained fork of pdfminer - we fathom PDF | `Python` ★ 7k | 2026-03-13 |
@@ -28,7 +28,7 @@
 | [ImpulseAdventure/JPEGsnoop](https://github.com/ImpulseAdventure/JPEGsnoop) | JPEGsnoop: JPEG decoder and detailed analysis | `C++` ★ 611 | 2023-08-09 |
 | [ics-py/ics-py](https://github.com/ics-py/ics-py) | Pythonic and easy i Calendar library (rfc5545) | `Python` ★ 719 | 2026-04-15 |
 | [g-plane/typed-query-selector](https://github.com/g-plane/typed-query-selector) | Better typed \`query Selector\` and \`query Selector All\`. | `TypeScript` ★ 780 | 2026-05-09 |
-| [003random/getJS](https://github.com/003random/getJS) | A tool to fastly get all javascript sources/files | `Go` ★ 872 | 2025-07-04 |
+| [003random/getJS](https://github.com/003random/getJS) | A tool to fastly get all javascript sources/files | `Go` ★ 873 | 2025-07-04 |
 | [DFIRKuiper/Kuiper](https://github.com/DFIRKuiper/Kuiper) | Digital Forensics Investigation Platform | `JavaScript` ★ 888 | 2024-10-12 |
 | [microsoft/tolerant-php-parser](https://github.com/microsoft/tolerant-php-parser) | An early-stage PHP parser designed for IDE usage scenarios. | `PHP` ★ 895 | 2024-09-28 |
 | [guessit-io/guessit](https://github.com/guessit-io/guessit) | Guess It is a python library that extracts as much information as possible from a video filename. | `Python` ★ 909 | 2024-09-03 |
