@@ -13,7 +13,7 @@
 | [MCP-UI-Org/mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP. Create next-gen UI experiences with the protocol and SDK! | `TypeScript` ★ 4.8k | 2026-05-09 |
 | [microsoft/magentic-ui](https://github.com/microsoft/magentic-ui) | A research prototype of a human-centered web agent | `Python` ★ 9.8k | 2026-05-17 |
 | [dcordero/FocusTvButton](https://github.com/dcordero/FocusTvButton) | Light wrapper of UIButton that allows extra customization for tv OS | `Swift` ★ 77 | 2026-04-08 |
-| [sveltestrap/sveltestrap](https://github.com/sveltestrap/sveltestrap) | Bootstrap 5 components for Svelte 4+ | `Svelte` ★ 210 | 2026-01-28 |
+| [sveltestrap/sveltestrap](https://github.com/sveltestrap/sveltestrap) | Bootstrap 5 components for Svelte 4+ | `Svelte` ★ 211 | 2026-01-28 |
 | [wandb/openui](https://github.com/wandb/openui) | Open UI let's you describe UI using your imagination, then see it rendered live. | `TypeScript` ★ 22.3k | 2026-02-11 |
 | [Hillobar/Rope](https://github.com/Hillobar/Rope) | GUI-focused roop | `Python` ★ 5.3k | 2024-05-28 |
 | [tjackenpacken/taskbar-groups](https://github.com/tjackenpacken/taskbar-groups) | Lightweight utility for organizing the taskbar through groups | `C#` ★ 2.7k | 2024-07-04 |

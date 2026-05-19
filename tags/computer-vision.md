@@ -7,15 +7,15 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [kaito-tokyo/live-backgroundremoval-lite](https://github.com/kaito-tokyo/live-backgroundremoval-lite) | A gaming-first, high-performance, and crash-resilient background removal for OBS Studio | `C` ★ 51 | 2026-05-14 |
-| [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11.2k | 2026-05-12 |
-| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era | `Rust` ★ 18.7k | 2026-05-18 |
-| [VisoMasterFusion/VisoMaster-Fusion](https://github.com/VisoMasterFusion/VisoMaster-Fusion) | Powerful & Easy-to-Use Video Face Swapping and Editing Software | `Python` ★ 476 | 2026-05-17 |
-| [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 基于图像识别的自动化黑盒测试框架 | An automation black-box testing framework based on image recognition | `C++` ★ 4k | 2026-05-17 |
-| [MrNeRF/LichtFeld-Studio](https://github.com/MrNeRF/LichtFeld-Studio) | Licht Feld Studio: Where reality and the digital world blend. | `C++` ★ 3k | 2026-05-16 |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 57.2k | 2026-05-17 |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 39.2k | 2026-05-15 |
+| [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11.2k | 2026-05-18 |
+| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era | `Rust` ★ 18.8k | 2026-05-19 |
+| [VisoMasterFusion/VisoMaster-Fusion](https://github.com/VisoMasterFusion/VisoMaster-Fusion) | Powerful & Easy-to-Use Video Face Swapping and Editing Software | `Python` ★ 507 | 2026-05-17 |
+| [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 基于图像识别的自动化黑盒测试框架 | An automation black-box testing framework based on image recognition | `C++` ★ 4k | 2026-05-18 |
+| [MrNeRF/LichtFeld-Studio](https://github.com/MrNeRF/LichtFeld-Studio) | Licht Feld Studio: Where reality and the digital world blend. | `C++` ★ 3.1k | 2026-05-18 |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 57.3k | 2026-05-18 |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 39.2k | 2026-05-18 |
 | [towhee-io/towhee](https://github.com/towhee-io/towhee) | Towhee is a framework that is dedicated to making neural data processing pipelines simple and fast. | `Python` ★ 3.4k | 2024-10-18 |
-| [royshil/obs-detect](https://github.com/royshil/obs-detect) | Object Detection in OBS, real-time, local, GPU optional | `C++` ★ 167 | 2024-12-18 |
+| [royshil/obs-detect](https://github.com/royshil/obs-detect) | Object Detection in OBS, real-time, local, GPU optional | `C++` ★ 169 | 2024-12-18 |
 | [ArtBot2023/CharacterFaceSwap](https://github.com/ArtBot2023/CharacterFaceSwap) | No description provided | `Python` ★ 101 | 2024-05-22 |
 | [aerophile/awesome-deepfakes](https://github.com/aerophile/awesome-deepfakes) | Everything Deepfakes | ★ 1.7k | 2023-01-14 |
 | [argenspin/Rope-Live](https://github.com/argenspin/Rope-Live) | Customized fork of Rope Deepfake software featuring live streaming capabilities and support for Deepfacelive models | `Python` ★ 303 | 2024-12-06 |

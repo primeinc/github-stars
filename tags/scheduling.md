@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [langchain-ai/social-media-agent](https://github.com/langchain-ai/social-media-agent) | 📲 An agent for sourcing, curating, and scheduling social media posts with human-in-the-loop. | `TypeScript` ★ 2.6k | 2026-05-14 |
-| [calcom/cal.diy](https://github.com/calcom/cal.diy) | Scheduling infrastructure for absolutely everyone. | `TypeScript` ★ 43.4k | 2026-05-14 |
-| [SipherAGI/sd-webui-agent-scheduler](https://github.com/SipherAGI/sd-webui-agent-scheduler) | An open source Scheduling Agent for Generative AI | `Python` ★ 691 | 2025-01-13 |
+| [langchain-ai/social-media-agent](https://github.com/langchain-ai/social-media-agent) | 📲 An agent for sourcing, curating, and scheduling social media posts with human-in-the-loop. | `TypeScript` ★ 2.6k | 2026-05-19 |
+| [calcom/cal.diy](https://github.com/calcom/cal.diy) | Scheduling infrastructure for absolutely everyone. | `TypeScript` ★ 43.6k | 2026-05-14 |
+| [SipherAGI/sd-webui-agent-scheduler](https://github.com/SipherAGI/sd-webui-agent-scheduler) | An open source Scheduling Agent for Generative AI | `Python` ★ 690 | 2025-01-13 |

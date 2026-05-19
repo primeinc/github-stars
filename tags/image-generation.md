@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [storytold/artcraft](https://github.com/storytold/artcraft) | Art Craft is an intentional crafting engine for artists, designers, and filmmakers | `Rust` ★ 1.6k | 2026-05-18 |
+| [storytold/artcraft](https://github.com/storytold/artcraft) | Art Craft is an intentional crafting engine for artists, designers, and filmmakers | `Rust` ★ 1.6k | 2026-05-19 |
 | [nv-tlabs/ChronoEdit](https://github.com/nv-tlabs/ChronoEdit) | \[ICLR 2026\] Chrono Edit: Towards Temporal Reasoning for Image Editing and World Simulation | `Python` ★ 686 | 2025-11-20 |
-| [mudler/LocalAI](https://github.com/mudler/LocalAI) | :robot: The free, Open Source alternative to Open AI, Claude and others. Self-hosted and local-first. Drop-in replacement, running on consumer-grade hardware. No GPU required. Runs gguf, transforme... | `Go` ★ 46.3k | 2026-05-17 |
+| [mudler/LocalAI](https://github.com/mudler/LocalAI) | :robot: The free, Open Source alternative to Open AI, Claude and others. Self-hosted and local-first. Drop-in replacement, running on consumer-grade hardware. No GPU required. Runs gguf, transforme... | `Go` ★ 46.3k | 2026-05-19 |
 | [mcmonkeyprojects/SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) | Swarm UI (formerly Stable Swarm UI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility. | `C#` ★ 4.1k | 2026-05-18 |
 | [debanjum/ai-wallpaper](https://github.com/debanjum/ai-wallpaper) | Get fresh, personal AI painted wallpapers on your phone or computer. Paints by using your current city, weather and even your recent experiences. Powered by Khoj AI | `Python` ★ 27 | 2024-12-18 |
 | [QwenLM/Qwen-Image](https://github.com/QwenLM/Qwen-Image) | Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing. | `Python` ★ 7.9k | 2026-02-10 |

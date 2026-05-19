@@ -7,6 +7,6 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [KHUSS92/RentcastBackend](https://github.com/KHUSS92/RentcastBackend) | No description provided | `C#` ★ 1 | 2025-01-06 |
-| [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | Distributed server for social and realtime games and apps. | `Go` ★ 12.6k | 2026-05-15 |
-| [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | The Free Software Media System - Server Backend & API | `C#` ★ 51.7k | 2026-05-17 |
-| [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | Open Source realtime backend in 1 file | `Go` ★ 58.4k | 2026-05-15 |
+| [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | Distributed server for social and realtime games and apps. | `Go` ★ 12.6k | 2026-05-18 |
+| [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | The Free Software Media System - Server Backend & API | `C#` ★ 51.7k | 2026-05-18 |
+| [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | Open Source realtime backend in 1 file | `Go` ★ 58.4k | 2026-05-18 |
