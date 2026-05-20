@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server) | Go server implementing Model Context Protocol (MCP) for filesystem operations. | `Go` ★ 641 | 2025-11-24 |
+| [mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server) | Go server implementing Model Context Protocol (MCP) for filesystem operations. | `Go` ★ 643 | 2025-11-24 |
 | [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. | `Rust` ★ 3.1k | 2026-03-25 |
 | [winfsp/winfsp](https://github.com/winfsp/winfsp) | Windows File System Proxy - FUSE for Windows | `C` ★ 8.6k | 2026-05-18 |
 | [thephpleague/flysystem](https://github.com/thephpleague/flysystem) | Abstraction for local and remote filesystems | `PHP` ★ 13.6k | 2026-05-14 |

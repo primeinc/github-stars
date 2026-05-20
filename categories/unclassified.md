@@ -7,10 +7,10 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [MicrosoftRajan/EpifiShare](https://github.com/MicrosoftRajan/EpifiShare) | No description provided | `TypeScript` ★ 2 | 2026-05-16 |
-| [dnakov/litter](https://github.com/dnakov/litter) | No description provided | `Swift` ★ 1.8k | 2026-05-19 |
+| [dnakov/litter](https://github.com/dnakov/litter) | No description provided | `Rust` ★ 1.8k | 2026-05-20 |
 | [KGSpin/kgspin-demo-config](https://github.com/KGSpin/kgspin-demo-config) | KGSpin — reference customer instance config (Layer 2 per ADR-003) | ★ 1 | 2026-04-22 |
 | [microsoft/adme-samples](https://github.com/microsoft/adme-samples) | No description provided | `Shell` ★ 16 | 2026-05-11 |
-| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | No description provided | `TypeScript` ★ 11.7k | 2026-05-18 |
+| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | No description provided | `TypeScript` ★ 11.7k | 2026-05-19 |
 | [LG-AI-EXAONE/EXAONE-4.5](https://github.com/LG-AI-EXAONE/EXAONE-4.5) | No description provided | ★ 39 | 2026-04-29 |
 | [cheapmanga/Skin-pack-Template](https://github.com/cheapmanga/Skin-pack-Template) | Minecraft LCE Skin-pack Template | ★ 7 | 2026-04-13 |
 | [FedRAMP/roadmap](https://github.com/FedRAMP/roadmap) | Fed RAMP's Public High Level Roadmap | `Shell` ★ 26 | 2026-02-02 |
@@ -24,7 +24,7 @@
 | [dialpad/dialpad-python-sdk](https://github.com/dialpad/dialpad-python-sdk) | No description provided | `Python` ★ 15 | 2026-03-31 |
 | [ITContractorsUnion/ITContractorsUnion](https://github.com/ITContractorsUnion/ITContractorsUnion) | Repo For All Downloadable Data | `HTML` ★ 126 | 2026-03-07 |
 | [itsminhz/convex-smart-tags](https://github.com/itsminhz/convex-smart-tags) | convex-smart-tags | `TypeScript` ★ 4 | 2026-01-24 |
-| [julianromli/opencode-template](https://github.com/julianromli/opencode-template) | opencode-template | `Python` ★ 140 | 2026-02-03 |
+| [julianromli/opencode-template](https://github.com/julianromli/opencode-template) | opencode-template | `Python` ★ 141 | 2026-02-03 |
 | [AutoForgeAI/autoforge](https://github.com/AutoForgeAI/autoforge) | No description provided | `Python` ★ 1.8k | 2026-04-19 |
 | [FR33THYFR33THY/Ultimate](https://github.com/FR33THYFR33THY/Ultimate) | No description provided | `PowerShell` ★ 610 | 2026-04-22 |
 | [v154c1/libyuri](https://github.com/v154c1/libyuri) | No description provided | `C++` ★ 9 | 2025-07-22 |

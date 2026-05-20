@@ -2,7 +2,7 @@
 
 > A curated list of **2650** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-05-19
+Last updated: 2026-05-20
 
 ## ⭐ Recently Starred
 
@@ -10,14 +10,14 @@ Last updated: 2026-05-19
 |---|---|---|---|
 | [yunwei37/AI-GitHub-Profile-Generator](https://github.com/yunwei37/AI-GitHub-Profile-Generator) | AI-Driven Git Hub Profile Readme Generation with GPT | `TypeScript` ★ 37 | 2025-01-03 |
 | [MicrosoftRajan/EpifiShare](https://github.com/MicrosoftRajan/EpifiShare) | No description provided | `TypeScript` ★ 2 | 2026-05-16 |
-| [sgl-project/sglang](https://github.com/sgl-project/sglang) | SGLang is a high-performance serving framework for large language models and multimodal models. | `Python` ★ 28k | 2026-05-19 |
-| [sweetpad-dev/sweetpad](https://github.com/sweetpad-dev/sweetpad) | Develop Swift/i OS projects using VSCode | `TypeScript` ★ 1.8k | 2026-05-18 |
-| [casey/just](https://github.com/casey/just) | 🤖 Just a command runner | `Rust` ★ 33.7k | 2026-05-17 |
-| [aelassas/servy](https://github.com/aelassas/servy) | Professional-Grade Windows Service Wrapper with Deep Observability - Modern Alternative to NSSM, Win SW & Fire Daemon Pro | `C#` ★ 1.7k | 2026-05-18 |
+| [sgl-project/sglang](https://github.com/sgl-project/sglang) | SGLang is a high-performance serving framework for large language models and multimodal models. | `Python` ★ 28k | 2026-05-20 |
+| [sweetpad-dev/sweetpad](https://github.com/sweetpad-dev/sweetpad) | Develop Swift/i OS projects using VSCode | `TypeScript` ★ 1.8k | 2026-05-19 |
+| [casey/just](https://github.com/casey/just) | 🤖 Just a command runner | `Rust` ★ 33.8k | 2026-05-17 |
+| [aelassas/servy](https://github.com/aelassas/servy) | Professional-Grade Windows Service Wrapper with Deep Observability - Modern Alternative to NSSM, Win SW & Fire Daemon Pro | `C#` ★ 1.7k | 2026-05-19 |
 | [AIDotNet/OpenDeepWiki](https://github.com/AIDotNet/OpenDeepWiki) | Open Deep Wiki is the open-source version of the Deep Wiki project, aiming to provide a powerful knowledge management and collaboration platform. The project is mainly developed using C# and Type S... | `C#` ★ 3.2k | 2026-05-12 |
-| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 3.4k | 2026-05-18 |
-| [agavra/tuicr](https://github.com/agavra/tuicr) | a terminal UI for local code review | `Rust` ★ 823 | 2026-05-19 |
-| [dnakov/litter](https://github.com/dnakov/litter) | No description provided | `Swift` ★ 1.8k | 2026-05-19 |
+| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 3.5k | 2026-05-19 |
+| [agavra/tuicr](https://github.com/agavra/tuicr) | a terminal UI for local code review | `Rust` ★ 827 | 2026-05-20 |
+| [dnakov/litter](https://github.com/dnakov/litter) | No description provided | `Rust` ★ 1.8k | 2026-05-20 |
 
 ## 🏷️ Popular Tags
 

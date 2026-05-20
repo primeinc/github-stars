@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/tyger](https://github.com/microsoft/tyger) | Remote signal processing. | `Go` ★ 69 | 2026-05-18 |
+| [microsoft/tyger](https://github.com/microsoft/tyger) | Remote signal processing. | `Go` ★ 69 | 2026-05-19 |
 | [pshenok/server-survival](https://github.com/pshenok/server-survival) | Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. | `JavaScript` ★ 5.7k | 2026-05-06 |
 | [pascalvanderheiden/ais-apim-openai](https://github.com/pascalvanderheiden/ais-apim-openai) | Unleash the power of Azure Open AI to your application developers in a secure & manageable way with Azure API Management and Azure Developer CLI. | `Bicep` ★ 35 | 2023-12-28 |
 | [tellerops/teller](https://github.com/tellerops/teller) | Cloud native secrets management for developers - never leave your command line for secrets. | `Rust` ★ 3.2k | 2026-01-27 |

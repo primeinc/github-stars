@@ -8,44 +8,44 @@
 |---|---|---|---|
 | [playcanvas/supersplat](https://github.com/playcanvas/supersplat) | 3D Gaussian Splat Editor | `TypeScript` ★ 8.4k | 2026-05-14 |
 | [atom0s/Steamless](https://github.com/atom0s/Steamless) | Steamless is a DRM remover of the Steam Stub variants. The goal of Steamless is to make a single solution for unpacking all Steam DRM-packed files. Steamless aims to support as many games as possible. | `C#` ★ 4.7k | 2024-03-30 |
-| [facebookresearch/ai4animationpy](https://github.com/facebookresearch/ai4animationpy) | A Python framework for AI-driven character animation using neural networks. | `Python` ★ 1.9k | 2026-04-29 |
+| [facebookresearch/ai4animationpy](https://github.com/facebookresearch/ai4animationpy) | A Python framework for AI-driven character animation using neural networks. | `Python` ★ 1.9k | 2026-05-19 |
 | [cheapmanga/Skin-pack-Template](https://github.com/cheapmanga/Skin-pack-Template) | Minecraft LCE Skin-pack Template | ★ 7 | 2026-04-13 |
 | [nodecg/nodecg](https://github.com/nodecg/nodecg) | Create broadcast graphics using Node.js and a browser | `TypeScript` ★ 1.3k | 2025-12-08 |
 | [kaito-tokyo/live-backgroundremoval-lite](https://github.com/kaito-tokyo/live-backgroundremoval-lite) | A gaming-first, high-performance, and crash-resilient background removal for OBS Studio | `C` ★ 51 | 2026-05-14 |
-| [storytold/artcraft](https://github.com/storytold/artcraft) | Art Craft is an intentional crafting engine for artists, designers, and filmmakers | `Rust` ★ 1.6k | 2026-05-19 |
+| [storytold/artcraft](https://github.com/storytold/artcraft) | Art Craft is an intentional crafting engine for artists, designers, and filmmakers | `Rust` ★ 1.6k | 2026-05-20 |
 | [Azgaar/Fantasy-Map-Generator](https://github.com/Azgaar/Fantasy-Map-Generator) | Web application generating interactive and highly customizable maps | `JavaScript` ★ 5.7k | 2026-05-16 |
-| [TrinityCore/TrinityCore](https://github.com/TrinityCore/TrinityCore) | Trinity Core Open Source MMO Framework (master = 12.0.5.67451, 3.3.5 = 3.3.5a.12340, cata classic = 4.4.2.60895) | `C++` ★ 10.6k | 2026-05-18 |
+| [TrinityCore/TrinityCore](https://github.com/TrinityCore/TrinityCore) | Trinity Core Open Source MMO Framework (master = 12.0.5.67451, 3.3.5 = 3.3.5a.12340, cata classic = 4.4.2.60895) | `C++` ★ 10.6k | 2026-05-19 |
 | [HailToDodongo/pyrite64](https://github.com/HailToDodongo/pyrite64) | N64 Game-Engine and Editor using libdragon & tiny3d | `C++` ★ 3.1k | 2026-05-17 |
-| [JosefNemec/Playnite](https://github.com/JosefNemec/Playnite) | Video game library manager with support for wide range of 3rd party libraries and game emulation support, providing one unified interface for your games. | `C#` ★ 13k | 2026-05-11 |
+| [JosefNemec/Playnite](https://github.com/JosefNemec/Playnite) | Video game library manager with support for wide range of 3rd party libraries and game emulation support, providing one unified interface for your games. | `C#` ★ 13.1k | 2026-05-11 |
 | [maaslalani/gambit](https://github.com/maaslalani/gambit) | Play chess in your terminal | `Go` ★ 898 | 2024-01-25 |
-| [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | Play Station 4 emulator for Windows, Linux and mac OS written in C++ | `C++` ★ 31.1k | 2026-05-18 |
+| [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | Play Station 4 emulator for Windows, Linux and mac OS written in C++ | `C++` ★ 31.2k | 2026-05-19 |
 | [cemu-project/Cemu](https://github.com/cemu-project/Cemu) | Cemu - Wii U emulator | `C++` ★ 9.4k | 2026-05-18 |
-| [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | Complete Open Source and Modular solution for MMO | `C++` ★ 8.4k | 2026-05-19 |
+| [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | Complete Open Source and Modular solution for MMO | `C++` ★ 8.4k | 2026-05-20 |
 | [Babyhamsta/Aimmy](https://github.com/Babyhamsta/Aimmy) | Universal Second Eye for Gamers with Impairments (Universal AI Aim Aligner (AI Aimbot) - ONNX/YOLOv8 - C#) | `C#` ★ 1.5k | 2026-05-18 |
-| [cocos/cocos-cli](https://github.com/cocos/cocos-cli) | COCOS CLI | `TypeScript` ★ 299 | 2026-05-15 |
+| [cocos/cocos-cli](https://github.com/cocos/cocos-cli) | COCOS CLI | `TypeScript` ★ 299 | 2026-05-20 |
 | [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) | The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement ... | `C#` ★ 19.4k | 2026-05-14 |
 | [sohzm/cheating-daddy](https://github.com/sohzm/cheating-daddy) | a free and opensource app that lets you gain an unfair advantage | `JavaScript` ★ 5.3k | 2026-04-26 |
 | [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 9.5k | 2026-05-14 |
 | [pshenok/server-survival](https://github.com/pshenok/server-survival) | Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling. | `JavaScript` ★ 5.7k | 2026-05-06 |
-| [ocornut/imgui](https://github.com/ocornut/imgui) | Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies | `C++` ★ 73.3k | 2026-05-18 |
+| [ocornut/imgui](https://github.com/ocornut/imgui) | Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies | `C++` ★ 73.3k | 2026-05-19 |
 | [facebookresearch/habitat-sim](https://github.com/facebookresearch/habitat-sim) | A flexible, high-performance 3D simulator for Embodied AI research. | `C++` ★ 3.7k | 2026-05-07 |
-| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage a... | `C#` ★ 9.7k | 2026-05-18 |
+| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage a... | `C#` ★ 9.8k | 2026-05-18 |
 | [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | A list of open source games. | `Python` ★ 12.6k | 2026-02-25 |
 | [RodericAguilar/Pr_Elevators](https://github.com/RodericAguilar/Pr_Elevators) | Free fivem elevator scripts, works without framework. | `Lua` ★ 27 | 2024-10-14 |
-| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 37.1k | 2026-05-18 |
-| [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minecraft with a high level of detail. | `Rust` ★ 15.8k | 2026-05-18 |
-| [ppy/osu](https://github.com/ppy/osu) | rhythm is just a \*click\* away! | `C#` ★ 18.4k | 2026-05-18 |
+| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 37.1k | 2026-05-20 |
+| [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minecraft with a high level of detail. | `Rust` ★ 15.8k | 2026-05-19 |
+| [ppy/osu](https://github.com/ppy/osu) | rhythm is just a \*click\* away! | `C#` ★ 18.4k | 2026-05-19 |
 | [jynew/jynew](https://github.com/jynew/jynew) | Jin Yong Legend-like RPG Game Framework with full Modding support and 10+ hours playable samples of game. | `C#` ★ 8.9k | 2026-03-25 |
-| [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) | Multiplayer at the speed of light | `Rust` ★ 24.7k | 2026-05-19 |
+| [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) | Multiplayer at the speed of light | `Rust` ★ 24.7k | 2026-05-20 |
 | [retroplasma/earth-reverse-engineering](https://github.com/retroplasma/earth-reverse-engineering) | Reversing Google's 3D satellite mode | `C` ★ 2.3k | 2020-12-23 |
 | [microsoft/DirectXTK](https://github.com/microsoft/DirectXTK) | The Direct X Tool Kit (aka Direct XTK) is a collection of helper classes for writing Direct X 11.x code in C++ | `C++` ★ 2.8k | 2026-05-13 |
-| [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | Distributed server for social and realtime games and apps. | `Go` ★ 12.6k | 2026-05-18 |
+| [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | Distributed server for social and realtime games and apps. | `Go` ★ 12.6k | 2026-05-19 |
 | [thesephist/burds](https://github.com/thesephist/burds) | Just some burds, jumpin' around in their own little world. | `JavaScript` ★ 86 | 2024-07-20 |
 | [aseprite/aseprite](https://github.com/aseprite/aseprite) | Animated sprite editor & pixel art tool (Windows, mac OS, Linux) | `C++` ★ 37.1k | 2026-05-07 |
 | [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and Open GL. Runs on Windows, Linux, \*BSD and Mac OS X. | `C#` ★ 16.7k | 2026-05-01 |
-| [workadventure/workadventure](https://github.com/workadventure/workadventure) | A collaborative web application (virtual office) presented as a 16-bit RPG video game | `TypeScript` ★ 5.5k | 2026-05-18 |
+| [workadventure/workadventure](https://github.com/workadventure/workadventure) | A collaborative web application (virtual office) presented as a 16-bit RPG video game | `TypeScript` ★ 5.5k | 2026-05-19 |
 | [it-scripts/it-drugs](https://github.com/it-scripts/it-drugs) | Become a master herbalist with this drug script! Ready for every big Five M framework | `Lua` ★ 119 | 2025-09-27 |
-| [emilk/egui](https://github.com/emilk/egui) | egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native | `Rust` ★ 29.1k | 2026-05-18 |
+| [emilk/egui](https://github.com/emilk/egui) | egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native | `Rust` ★ 29.1k | 2026-05-19 |
 | [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) | Play with fluids in your browser (works even on mobile) | `JavaScript` ★ 16.3k | 2024-11-12 |
 | [qbcore-framework/qb-housing](https://github.com/qbcore-framework/qb-housing) | The next iteration of QBCore’s housing system | ★ 37 | 2022-08-23 |
 | [borisnliscool/bnl-housing](https://github.com/borisnliscool/bnl-housing) | 🏠 An open-source Five M player property script with extensive API for ultimate customization | `Lua` ★ 99 | 2024-06-29 |
@@ -76,7 +76,7 @@
 | [slyh/Cities2-TrafficLightsEnhancement](https://github.com/slyh/Cities2-TrafficLightsEnhancement) | Advanced traffic lights for Cities: Skylines II | `C#` ★ 245 | 2025-11-10 |
 | [TURBODRIVER/WickedWhims](https://github.com/TURBODRIVER/WickedWhims) | Open resources of Wicked Whims for modders | `Python` ★ 31 | 2026-03-25 |
 | [GaspardCulis/slint-tetris](https://github.com/GaspardCulis/slint-tetris) | Tetris game made with Slint | `Rust` ★ 43 | 2023-05-26 |
-| [Mortalitas/GShade](https://github.com/Mortalitas/GShade) | GShade is a highly modified Re Shade fork & utility package with numerous improvements and settings autodetection for over 300 games. | `HLSL` ★ 507 | 2026-03-02 |
+| [Mortalitas/GShade](https://github.com/Mortalitas/GShade) | GShade is a highly modified Re Shade fork & utility package with numerous improvements and settings autodetection for over 300 games. | `HLSL` ★ 509 | 2026-03-02 |
 | [games-on-whales/wolf](https://github.com/games-on-whales/wolf) | Stream virtual desktops and games running in Docker | `C++` ★ 1.9k | 2026-05-15 |
 | [NVIDIAGameWorks/rtx-remix](https://github.com/NVIDIAGameWorks/rtx-remix) | Combined repo for the RTX-Remix runtime and toolkit | ★ 1.6k | 2026-05-15 |
 | [microsoft/DirectStorage](https://github.com/microsoft/DirectStorage) | Direct Storage for Windows is an API that allows game developers to unlock the full potential of high speed NVMe drives for loading game assets. | `C++` ★ 856 | 2026-04-27 |

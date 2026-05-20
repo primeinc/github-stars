@@ -13,5 +13,5 @@
 | [DistroAV/DistroAV](https://github.com/DistroAV/DistroAV) | Distro AV (formerly OBS-NDI): NDI integration for OBS Studio | `C++` ★ 4.4k | 2026-05-08 |
 | [CESNET/UltraGrid](https://github.com/CESNET/UltraGrid) | Ultra Grid low-latency audio and video network transmission system | `C` ★ 593 | 2026-05-15 |
 | [pandres95/ndi.js](https://github.com/pandres95/ndi.js) | NDI® SDK for Node.js | `C` ★ 57 | 2024-01-11 |
-| [mpv-player/mpv](https://github.com/mpv-player/mpv) | 🎥 Command line media player | `C` ★ 35.3k | 2026-05-18 |
-| [geekuillaume/soundsync](https://github.com/geekuillaume/soundsync) | Virtual cables between any audio source and any speaker in your home | `C` ★ 893 | 2023-03-04 |
+| [mpv-player/mpv](https://github.com/mpv-player/mpv) | 🎥 Command line media player | `C` ★ 35.3k | 2026-05-19 |
+| [geekuillaume/soundsync](https://github.com/geekuillaume/soundsync) | Virtual cables between any audio source and any speaker in your home | `C` ★ 892 | 2023-03-04 |

@@ -7,5 +7,5 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [rsms/markdown-wasm](https://github.com/rsms/markdown-wasm) | Very fast Markdown parser and HTML generator implemented in Web Assembly, based on md4c | `C` ★ 1.7k | 2022-11-22 |
-| [leaningtech/webvm](https://github.com/leaningtech/webvm) | Virtual Machine for the Web | `JavaScript` ★ 16.8k | 2026-05-18 |
+| [leaningtech/webvm](https://github.com/leaningtech/webvm) | Virtual Machine for the Web | `JavaScript` ★ 16.8k | 2026-05-19 |
 | [perspective-dev/perspective](https://github.com/perspective-dev/perspective) | A data visualization and analytics component, especially well-suited for large and/or streaming datasets. | `C++` ★ 10.5k | 2026-05-16 |

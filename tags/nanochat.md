@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 621 | 2026-03-14 |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 81.8k | 2026-03-26 |
+| [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 623 | 2026-03-14 |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | `Python` ★ 82.1k | 2026-03-26 |
