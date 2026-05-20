@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-20T04:40:00.741Z'
+  manifest_updated_at: '2026-05-20T04:40:33.716Z'
   total_repos: 2650
   generator_version: v1.0.0
   github_user: primeinc
@@ -108468,13 +108468,18 @@ repositories:
       prompt_version: v3
   - repo: simran-s-grewal/mls-real-estate-scraper-for-realtor.ca
     categories:
-      - unclassified
-    tags: []
+      - data-science
+      - automation
+    tags:
+      - webscraping
+      - etl-framework
+      - housing
+      - lang:python
     summary: Python MLS and Real-Estate Data Scraper for the Realtor.ca Website
     last_synced_sha: 649b944652f9e9f95bf73412e23e9c769c129767
     user_starred_at: '2025-07-12T05:52:42Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -108500,3 +108505,8 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-20T04:40:32.535Z'
+      prompt_version: v3
