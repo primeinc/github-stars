@@ -1,0 +1,540 @@
+name: branch-rulesets
+
+# Per the protection-stage brief, this workflow operates the
+# tracked ruleset specs in `.github-stars/control-plane/rulesets/`
+# in two modes:
+#
+#   - check  (default): render specs at runtime, diff against the
+#            live rulesets, fail on drift. Read-only. Mints an App
+#            token with `permission-administration: read`.
+#   - upsert (gated):   render + create-or-update the live rulesets
+#            via PUT /repos/{owner}/{repo}/rulesets/{id}. Mints an
+#            App token with `permission-administration: write` and
+#            is gated by the `github-admin` GitHub Actions environment
+#            (required reviewers). See issue #82 for the doctrine.
+#
+# Split into two jobs (check vs upsert) per Copilot review on PR #81
+# (00e:36). Bash logic is duplicated inline in each job rather than
+# sourced from a shared file — that's the simpler, more idiomatic
+# shape and avoids spreading the admin-lane path-scope allow-list to
+# a non-rulesets directory.
+#
+# Authorization model (per issue #82):
+#
+#   - The GitHub App is the actor that performs the mutation, but
+#     the `environment: github-admin` on the upsert job is the
+#     boundary that controls WHEN the bot is allowed to receive
+#     mutation authority. Environment protection rules (required
+#     reviewers, branch restriction to main) must be configured in
+#     repository Settings → Environments → github-admin. The YAML
+#     alone is not the gate; the repo-side configuration is.
+#   - `deployment: false` is used so this gate does not emit
+#     deployment records (we are not deploying anything; we are
+#     reusing the environment approval mechanism as a credential
+#     release gate). Per GitHub docs, `deployment: false` is
+#     incompatible with custom deployment protection-rule Apps;
+#     this repo does not use those, so the trade-off is correct.
+#
+# Push-triggered self-bootstrap intentionally inherits the
+# enforcement value from the tracked spec JSON (currently
+# `disabled` for both specs). To activate enforcement, edit the
+# spec JSON and push — that change is itself reviewable, and the
+# upsert job will still wait for `github-admin` approval before
+# minting the write-capable App token. This is Option 2 from
+# issue #82 (no automatic activation without explicit operator
+# action).
+
+on:
+  # Self-bootstrap path: when a push to main touches either the
+  # tracked ruleset specs or this workflow file, the upsert job
+  # renders the live rulesets with the enforcement value read from
+  # the tracked JSON spec itself. The `github-admin` environment
+  # approval (configured in repo Settings) authorizes the bot
+  # credential release before the App token is minted.
+  push:
+    branches:
+      - main
+    paths:
+      - '.github-stars/control-plane/rulesets/**'
+      - '.github/workflows/00e-branch-rulesets.yml'
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: 'Ruleset operation: check reports drift, upsert creates/updates'
+        required: true
+        default: check
+        type: choice
+        options:
+          - check
+          - upsert
+      enforcement:
+        description: 'Ruleset enforcement mode (workflow_dispatch only; push reads enforcement from tracked spec JSON)'
+        required: true
+        default: disabled
+        type: choice
+        options:
+          - disabled
+          - active
+      confirm_upsert:
+        description: 'Required for operation=upsert: type APPLY_RULESETS'
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  contents: read
+
+# Mutating workflow: serialize to one in-flight run, but do NOT
+# cancel a run mid-PATCH. Ruleset updates are not transactional —
+# canceling mid-flight could leave half-applied state visible to the
+# next operator. See `.github-stars/control-plane/workflow-triggers.md` §3.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  # ----------------------------------------------------------------
+  # check: always runs. Renders specs, diffs against live rulesets,
+  # fails on drift. Read-only.
+  # ----------------------------------------------------------------
+  check:
+    name: branch-rulesets-check
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout tracked ruleset specs
+        uses: actions/checkout@v6
+
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
+          # Read-only drift check. `GET /repos/{owner}/{repo}/rulesets`
+          # and `GET /repos/{owner}/{repo}/rulesets/{id}` only need
+          # `Administration: read`. Granting `write` here would be a
+          # credential-exposure surface for a job that does not mutate
+          # (issue #82, section C).
+          permission-administration: read
+
+      - name: Check ruleset drift (read-only)
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          REPO: ${{ github.repository }}
+          # On push: the upsert job renders enforcement from the
+          # tracked spec JSON, so the drift check must compare
+          # against the same shape. On dispatch: operator's choice.
+          ENFORCEMENT_OVERRIDE: ${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || '' }}
+          GH_APP_ID: ${{ vars.GH_APP_ID }}
+          OPERATION: check
+        run: |
+          set -euo pipefail
+
+          if ! [[ "${GH_APP_ID}" =~ ^[0-9]+$ ]]; then
+            echo "::error::vars.GH_APP_ID must be the numeric GitHub App ID used as the ruleset Integration bypass actor."
+            exit 1
+          fi
+
+          gh_rules_api() {
+            gh api \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "$@"
+          }
+
+          ruleset_id_by_name() {
+            local name="$1"
+            gh_rules_api --paginate "/repos/${REPO}/rulesets?includes_parents=false" \
+              | jq -r --arg name "${name}" '
+                  if type == "array" then .[] else . end
+                  | select(.name == $name)
+                  | .id
+                ' \
+              | head -n 1
+          }
+
+          normalize_ruleset() {
+            jq -S '{
+              name,
+              target,
+              enforcement,
+              conditions: {
+                ref_name: {
+                  include: (.conditions.ref_name.include // []),
+                  exclude: (.conditions.ref_name.exclude // [])
+                }
+              },
+              rules: [
+                .rules[]
+                | if .type == "pull_request" then {
+                    type,
+                    parameters: {
+                      allowed_merge_methods: (.parameters.allowed_merge_methods // []),
+                      dismiss_stale_reviews_on_push: (.parameters.dismiss_stale_reviews_on_push // false),
+                      require_code_owner_review: (.parameters.require_code_owner_review // false),
+                      require_last_push_approval: (.parameters.require_last_push_approval // false),
+                      required_approving_review_count: (.parameters.required_approving_review_count // 0),
+                      required_review_thread_resolution: (.parameters.required_review_thread_resolution // false)
+                    }
+                  }
+                  elif .type == "required_status_checks" then {
+                    type,
+                    parameters: {
+                      strict_required_status_checks_policy: (.parameters.strict_required_status_checks_policy // false),
+                      required_status_checks: [
+                        .parameters.required_status_checks[]?
+                        | {context}
+                      ] | sort_by(.context)
+                    }
+                  }
+                  else {type}
+                  end
+              ] | sort_by(.type),
+              bypass_actors: [
+                .bypass_actors[]?
+                | {
+                    actor_id,
+                    actor_type,
+                    bypass_mode: (.bypass_mode // "pull_request")
+                  }
+              ] | sort_by(.actor_type, .actor_id, .bypass_mode)
+            }'
+          }
+
+          render_spec() {
+            # `bypass_mode: "pull_request"` per the GitHub REST docs:
+            # "pull_request means that an actor can only bypass rules
+            # on pull requests" and "pull_request is only applicable
+            # to branch rulesets." Strictly tighter than `always`.
+            #
+            # Enforcement resolution:
+            #   - workflow_dispatch: ENFORCEMENT_OVERRIDE = inputs.enforcement
+            #   - push: ENFORCEMENT_OVERRIDE empty → inherit the tracked
+            #     spec's own `.enforcement` value (currently `disabled`
+            #     for both specs; activation requires editing the JSON).
+            local spec="$1"
+            local rendered="$2"
+            local enforcement
+            if [ -n "${ENFORCEMENT_OVERRIDE}" ]; then
+              enforcement="${ENFORCEMENT_OVERRIDE}"
+            else
+              enforcement=$(jq -r '.enforcement' "${spec}")
+            fi
+            jq \
+              --arg enforcement "${enforcement}" \
+              --argjson app_id "${GH_APP_ID}" \
+              '.enforcement = $enforcement
+               | .bypass_actors = [
+                   {
+                     actor_id: $app_id,
+                     actor_type: "Integration",
+                     bypass_mode: "pull_request"
+                   }
+                 ]' \
+              "${spec}" > "${rendered}"
+          }
+
+          check_ruleset() {
+            local spec="$1"
+            local name rendered desired actual id
+            name=$(jq -r '.name' "${spec}")
+            rendered=$(mktemp); desired=$(mktemp); actual=$(mktemp)
+            render_spec "${spec}" "${rendered}"
+            normalize_ruleset < "${rendered}" > "${desired}"
+            id=$(ruleset_id_by_name "${name}" || true)
+            if [ -z "${id}" ]; then
+              echo "::error::ruleset missing: ${name}"
+              return 1
+            fi
+            gh_rules_api "/repos/${REPO}/rulesets/${id}" > "${actual}.raw"
+            normalize_ruleset < "${actual}.raw" > "${actual}"
+            if diff -u "${desired}" "${actual}"; then
+              echo "ruleset ok: ${name}"
+            else
+              echo "::error::ruleset drift: ${name}"
+              return 1
+            fi
+          }
+
+          check_ruleset ".github-stars/control-plane/rulesets/protect-next.json"
+          check_ruleset ".github-stars/control-plane/rulesets/protect-main-release-only.json"
+
+      - name: Check summary
+        if: always()
+        run: |
+          {
+            echo "# Branch rulesets — check"
+            echo ""
+            echo "- Operation: \`check\` (drift report only; no mutation)"
+            echo "- Enforcement: \`${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || 'from tracked spec JSON' }}\`"
+            echo "- Trigger: \`${{ github.event_name }}\`"
+            echo "- Ref guard: \`refs/heads/main\` only"
+            echo "- Specs: \`.github-stars/control-plane/rulesets/*.json\`"
+            echo "- Bypass actor: GitHub App Integration from \`vars.GH_APP_ID\` (rendered at runtime)"
+            echo "- App permission required: \`Administration: read\` on this repository"
+          } >>"$GITHUB_STEP_SUMMARY"
+
+  # ----------------------------------------------------------------
+  # upsert: gated. Runs INDEPENDENT of the `check` job — `check`
+  # fails red when a ruleset does not yet exist (return 1 from
+  # `check_ruleset` on missing id), which would deadlock the very
+  # first creation if upsert had `needs: check`. Upsert performs its
+  # own pre-state inspection (`ruleset_id_by_name` -> empty => POST,
+  # non-empty => PUT) and post-upsert verification (`upsert_and_verify`
+  # diffs the rendered spec against the live ruleset after writing).
+  #
+  # Two trigger paths:
+  #   - push to main on the ruleset specs / this workflow file:
+  #     self-bootstrap. enforcement inherited from the tracked spec
+  #     JSON (currently `disabled` for both specs; activation
+  #     requires editing the JSON and pushing, which is itself a
+  #     reviewable change). APPLY_RULESETS guard is skipped on push
+  #     — the `github-admin` environment approval is the authorization.
+  #   - workflow_dispatch with operation=upsert: human-driven.
+  #     Requires inputs.confirm_upsert == 'APPLY_RULESETS' as a
+  #     fat-finger guard. enforcement comes from inputs.enforcement.
+  #     The `github-admin` environment approval is still required
+  #     before the App token is minted.
+  #
+  # Authorization for the mutation is the combination of:
+  #   - `if: github.ref == 'refs/heads/main'` (only runs from main)
+  #   - `environment: github-admin` (required reviewer approval +
+  #     environment-scoped credential release; see issue #82). The
+  #     environment must be pre-configured in repository Settings;
+  #     a missing environment is auto-created with NO protection
+  #     rules, so this guard is hollow until the operator configures
+  #     required reviewers + branch restriction to main.
+  #   - `deployment: false` so the gate runs without emitting
+  #     deployment records (we are not deploying; we are reusing
+  #     environment approval as a credential-release gate).
+  #   - On dispatch: APPLY_RULESETS typed-string guard.
+  #   - On push: paths-filter limited to the spec files + this
+  #     workflow itself, so unrelated commits do not trigger.
+  #   - GitHub App token with `Administration: write` (only mints when
+  #     vars.GH_APP_ID + secrets.GH_APP_PRIVATE_KEY match an installed App)
+  # ----------------------------------------------------------------
+  upsert:
+    name: branch-rulesets-upsert
+    runs-on: ubuntu-latest
+    # `github-admin` is the canonical environment name from issue
+    # #82's acceptance criteria. `deployment: false` opts out of
+    # deployment-record emission while keeping required-reviewer
+    # protection. NOTE: if this environment does not exist in repo
+    # Settings, GitHub auto-creates it with NO protection rules; the
+    # gate is hollow until the operator configures required reviewers
+    # and branch restriction to main.
+    environment:
+      name: github-admin
+      deployment: false
+    if: |
+      github.ref == 'refs/heads/main' && (
+        github.event_name == 'push' ||
+        (github.event_name == 'workflow_dispatch' && inputs.operation == 'upsert')
+      )
+    steps:
+      - name: Checkout tracked ruleset specs
+        uses: actions/checkout@v6
+
+      - name: Validate upsert authorization (workflow_dispatch only)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          CONFIRM_UPSERT: ${{ inputs.confirm_upsert }}
+        run: |
+          set -euo pipefail
+          if [ "${CONFIRM_UPSERT}" != "APPLY_RULESETS" ]; then
+            echo "::error::operation=upsert requires confirm_upsert=APPLY_RULESETS."
+            exit 1
+          fi
+
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
+          permission-administration: write
+
+      - name: Upsert + verify ruleset state
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          REPO: ${{ github.repository }}
+          # Enforcement resolution:
+          #   workflow_dispatch -> ENFORCEMENT_OVERRIDE = inputs.enforcement
+          #   push              -> empty, inherit from tracked spec JSON
+          # render_spec() falls back to `.enforcement` from the spec
+          # file when ENFORCEMENT_OVERRIDE is empty (see check job
+          # for the matching shape).
+          ENFORCEMENT_OVERRIDE: ${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || '' }}
+          GH_APP_ID: ${{ vars.GH_APP_ID }}
+          OPERATION: upsert
+        run: |
+          set -euo pipefail
+
+          if ! [[ "${GH_APP_ID}" =~ ^[0-9]+$ ]]; then
+            echo "::error::vars.GH_APP_ID must be the numeric GitHub App ID used as the ruleset Integration bypass actor."
+            exit 1
+          fi
+
+          gh_rules_api() {
+            gh api \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "$@"
+          }
+
+          ruleset_id_by_name() {
+            local name="$1"
+            gh_rules_api --paginate "/repos/${REPO}/rulesets?includes_parents=false" \
+              | jq -r --arg name "${name}" '
+                  if type == "array" then .[] else . end
+                  | select(.name == $name)
+                  | .id
+                ' \
+              | head -n 1
+          }
+
+          normalize_ruleset() {
+            jq -S '{
+              name,
+              target,
+              enforcement,
+              conditions: {
+                ref_name: {
+                  include: (.conditions.ref_name.include // []),
+                  exclude: (.conditions.ref_name.exclude // [])
+                }
+              },
+              rules: [
+                .rules[]
+                | if .type == "pull_request" then {
+                    type,
+                    parameters: {
+                      allowed_merge_methods: (.parameters.allowed_merge_methods // []),
+                      dismiss_stale_reviews_on_push: (.parameters.dismiss_stale_reviews_on_push // false),
+                      require_code_owner_review: (.parameters.require_code_owner_review // false),
+                      require_last_push_approval: (.parameters.require_last_push_approval // false),
+                      required_approving_review_count: (.parameters.required_approving_review_count // 0),
+                      required_review_thread_resolution: (.parameters.required_review_thread_resolution // false)
+                    }
+                  }
+                  elif .type == "required_status_checks" then {
+                    type,
+                    parameters: {
+                      strict_required_status_checks_policy: (.parameters.strict_required_status_checks_policy // false),
+                      required_status_checks: [
+                        .parameters.required_status_checks[]?
+                        | {context}
+                      ] | sort_by(.context)
+                    }
+                  }
+                  else {type}
+                  end
+              ] | sort_by(.type),
+              bypass_actors: [
+                .bypass_actors[]?
+                | {
+                    actor_id,
+                    actor_type,
+                    bypass_mode: (.bypass_mode // "pull_request")
+                  }
+              ] | sort_by(.actor_type, .actor_id, .bypass_mode)
+            }'
+          }
+
+          render_spec() {
+            # Enforcement resolution (mirrors check job):
+            #   - workflow_dispatch: ENFORCEMENT_OVERRIDE = inputs.enforcement
+            #   - push: ENFORCEMENT_OVERRIDE empty → inherit `.enforcement`
+            #     from the tracked spec JSON. Activation therefore
+            #     requires editing the JSON (a reviewable change).
+            local spec="$1"
+            local rendered="$2"
+            local enforcement
+            if [ -n "${ENFORCEMENT_OVERRIDE}" ]; then
+              enforcement="${ENFORCEMENT_OVERRIDE}"
+            else
+              enforcement=$(jq -r '.enforcement' "${spec}")
+            fi
+            jq \
+              --arg enforcement "${enforcement}" \
+              --argjson app_id "${GH_APP_ID}" \
+              '.enforcement = $enforcement
+               | .bypass_actors = [
+                   {
+                     actor_id: $app_id,
+                     actor_type: "Integration",
+                     bypass_mode: "pull_request"
+                   }
+                 ]' \
+              "${spec}" > "${rendered}"
+          }
+
+          upsert_ruleset() {
+            local name="$1"
+            local payload="$2"
+            local id
+            id=$(ruleset_id_by_name "${name}" || true)
+            if [ -n "${id}" ]; then
+              echo "Updating ruleset ${name} (${id})"
+              gh_rules_api \
+                --method PUT \
+                "/repos/${REPO}/rulesets/${id}" \
+                --input "${payload}" \
+                --jq '{id, name, target, enforcement}'
+            else
+              echo "Creating ruleset ${name}"
+              gh_rules_api \
+                --method POST \
+                "/repos/${REPO}/rulesets" \
+                --input "${payload}" \
+                --jq '{id, name, target, enforcement}'
+            fi
+          }
+
+          upsert_and_verify() {
+            local spec="$1"
+            local name rendered desired actual id
+            name=$(jq -r '.name' "${spec}")
+            rendered=$(mktemp); desired=$(mktemp); actual=$(mktemp)
+            render_spec "${spec}" "${rendered}"
+            normalize_ruleset < "${rendered}" > "${desired}"
+            upsert_ruleset "${name}" "${rendered}"
+            id=$(ruleset_id_by_name "${name}" || true)
+            if [ -z "${id}" ]; then
+              echo "::error::upsert succeeded but ruleset id not found by name: ${name}"
+              return 1
+            fi
+            gh_rules_api "/repos/${REPO}/rulesets/${id}" > "${actual}.raw"
+            normalize_ruleset < "${actual}.raw" > "${actual}"
+            if diff -u "${desired}" "${actual}"; then
+              echo "ruleset ok: ${name}"
+            else
+              echo "::error::ruleset drift after upsert: ${name}"
+              return 1
+            fi
+          }
+
+          upsert_and_verify ".github-stars/control-plane/rulesets/protect-next.json"
+          upsert_and_verify ".github-stars/control-plane/rulesets/protect-main-release-only.json"
+
+      - name: Upsert summary
+        if: always()
+        run: |
+          {
+            echo "# Branch rulesets — upsert"
+            echo ""
+            echo "- Operation: \`upsert\` (create or update)"
+            echo "- Enforcement: \`${{ github.event_name == 'workflow_dispatch' && inputs.enforcement || 'from tracked spec JSON' }}\`"
+            echo "- Trigger: \`${{ github.event_name }}\`"
+            echo "- Ref guard: \`refs/heads/main\` only"
+            echo "- Environment: \`github-admin\` (\`deployment: false\`); environment approval authorizes bot credential release, the App is the actor that performs the mutation"
+            echo "- Confirmation (dispatch only): \`confirm_upsert=APPLY_RULESETS\` required"
+            echo "- Specs: \`.github-stars/control-plane/rulesets/*.json\`"
+            echo "- Bypass actor: GitHub App Integration from \`vars.GH_APP_ID\` (rendered at runtime)"
+            echo "- App permission required: \`Administration: write\` on this repository"
+          } >>"$GITHUB_STEP_SUMMARY"
