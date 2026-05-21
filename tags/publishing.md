@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [jgm/pandoc](https://github.com/jgm/pandoc) | Universal markup converter | `Haskell` ★ 44.2k | 2026-05-17 |
-| [TryGhost/Ghost](https://github.com/TryGhost/Ghost) | Independent technology for modern publishing, memberships, subscriptions and newsletters. | `JavaScript` ★ 53.6k | 2026-05-20 |
+| [jgm/pandoc](https://github.com/jgm/pandoc) | Universal markup converter | `Haskell` ★ 44.3k | 2026-05-17 |
+| [TryGhost/Ghost](https://github.com/TryGhost/Ghost) | Independent technology for modern publishing, memberships, subscriptions and newsletters. | `JavaScript` ★ 53.6k | 2026-05-21 |

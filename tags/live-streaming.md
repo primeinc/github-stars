@@ -7,5 +7,5 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [GVCLab/PersonaLive](https://github.com/GVCLab/PersonaLive) | Persona Live! : Expressive Portrait Image Animation for Live Streaming | `Python` ★ 3.2k | 2026-05-15 |
-| [royshil/obs-detect](https://github.com/royshil/obs-detect) | Object Detection in OBS, real-time, local, GPU optional | `C++` ★ 171 | 2024-12-18 |
-| [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | OBS Studio - Free and open source software for live streaming and screen recording | `C` ★ 72.5k | 2026-05-19 |
+| [royshil/obs-detect](https://github.com/royshil/obs-detect) | Object Detection in OBS, real-time, local, GPU optional | `C++` ★ 172 | 2024-12-18 |
+| [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | OBS Studio - Free and open source software for live streaming and screen recording | `C` ★ 72.6k | 2026-05-21 |

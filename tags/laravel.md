@@ -13,8 +13,8 @@
 | [teepluss/laravel-theme](https://github.com/teepluss/laravel-theme) | Theme and asset managing for laravel | `PHP` ★ 542 | 2021-08-26 |
 | [spatie/laravel-mail-preview](https://github.com/spatie/laravel-mail-preview) | A mail driver to quickly preview mail | `PHP` ★ 1.3k | 2026-02-23 |
 | [snowfire/Beautymail](https://github.com/snowfire/Beautymail) | Send beautiful HTML emails with Laravel | `Blade` ★ 1.3k | 2025-03-06 |
-| [SpartnerNL/Laravel-Excel](https://github.com/SpartnerNL/Laravel-Excel) | 🚀 Supercharged Excel exports and imports in Laravel | `PHP` ★ 12.7k | 2026-05-07 |
-| [michaeldyrynda/phpstorm-laravel-code-style](https://github.com/michaeldyrynda/phpstorm-laravel-code-style) | Php Storm code style to meet Laravel's contribution guidelines | ★ 292 | 2017-05-16 |
+| [SpartnerNL/Laravel-Excel](https://github.com/SpartnerNL/Laravel-Excel) | 🚀 Supercharged Excel exports and imports in Laravel | `PHP` ★ 12.7k | 2026-05-20 |
+| [michaeldyrynda/phpstorm-laravel-code-style](https://github.com/michaeldyrynda/phpstorm-laravel-code-style) | Php Storm code style to meet Laravel's contribution guidelines | ★ 291 | 2017-05-16 |
 | [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) | A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem | ★ 13.1k | 2024-07-03 |
 | [codex-project/codex](https://github.com/codex-project/codex) | Extendable Documentation Platform written in Laravel 5. Generate easy and awesome documentation! | `PHP` ★ 143 | 2016-07-04 |
 | [flarum/flarum](https://github.com/flarum/flarum) | Simple forum software for building great communities. | `PHP` ★ 16.3k | 2026-05-13 |

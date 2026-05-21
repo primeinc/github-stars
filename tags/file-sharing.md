@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another :crocodile: :package: | `Go` ★ 35.1k | 2026-05-18 |
-| [localsend/localsend](https://github.com/localsend/localsend) | An open-source cross-platform alternative to Air Drop | `Dart` ★ 81.6k | 2026-04-30 |
-| [ShareX/ShareX](https://github.com/ShareX/ShareX) | Share X is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file typ... | `C#` ★ 37.6k | 2026-05-19 |
+| [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another :crocodile: :package: | `Go` ★ 35.1k | 2026-05-20 |
+| [localsend/localsend](https://github.com/localsend/localsend) | An open-source cross-platform alternative to Air Drop | `Dart` ★ 81.7k | 2026-04-30 |
+| [ShareX/ShareX](https://github.com/ShareX/ShareX) | Share X is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file typ... | `C#` ★ 37.6k | 2026-05-20 |

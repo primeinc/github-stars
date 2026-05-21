@@ -9,4 +9,4 @@
 | [EzioBy/Ditto](https://github.com/EzioBy/Ditto) | \[Preprint 2025\] Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset | `Python` ★ 601 | 2025-10-29 |
 | [microsoft/FaceSynthetics](https://github.com/microsoft/FaceSynthetics) | Face synthetics datasets | ★ 892 | 2025-07-08 |
 | [hgrsd/drivel](https://github.com/hgrsd/drivel) | Infer a JSON schema from example data, produce nonsense synthetic data (drivel) according to the schema | `Rust` ★ 48 | 2025-06-08 |
-| [datajuicer/data-juicer](https://github.com/datajuicer/data-juicer) | Data processing for and with foundation models! 🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷 | `Python` ★ 6.4k | 2026-05-20 |
+| [datajuicer/data-juicer](https://github.com/datajuicer/data-juicer) | Data processing for and with foundation models! 🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷 | `Python` ★ 6.4k | 2026-05-21 |

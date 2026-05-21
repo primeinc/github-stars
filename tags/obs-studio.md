@@ -14,7 +14,7 @@
 | [exeldro/obs-source-clone](https://github.com/exeldro/obs-source-clone) | No description provided | `CMake` ★ 186 | 2026-03-13 |
 | [CodeYan01/source-defaults](https://github.com/CodeYan01/source-defaults) | Apply custom source setting defaults on new sources, based on other sources. | `CMake` ★ 16 | 2025-10-15 |
 | [Aitum/obs-vertical-canvas](https://github.com/Aitum/obs-vertical-canvas) | No description provided | `C++` ★ 272 | 2026-04-14 |
-| [CodeYan01/media-playlist-source](https://github.com/CodeYan01/media-playlist-source) | An OBS Studio plugin that supports media playlists, based on the Media Source | `C` ★ 60 | 2025-04-13 |
+| [CodeYan01/media-playlist-source](https://github.com/CodeYan01/media-playlist-source) | An OBS Studio plugin that supports media playlists, based on the Media Source | `C` ★ 61 | 2025-04-13 |
 | [MorseTheCode/OBS-Scripts](https://github.com/MorseTheCode/OBS-Scripts) | My OBS Scripts | `HTML` ★ 7 | 2025-11-27 |
 | [paratustra/tvadblocker](https://github.com/paratustra/tvadblocker) | TV Ad blocker using OBS Studio and Open CV (simple logo detection using template matching) | `Python` ★ 62 | 2025-08-10 |
 | [DistroAV/DistroAV](https://github.com/DistroAV/DistroAV) | Distro AV (formerly OBS-NDI): NDI integration for OBS Studio | `C++` ★ 4.4k | 2026-05-08 |
