@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `Python` ★ 12.4k | 2026-05-21 |
+| [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `Python` ★ 12.4k | 2026-05-22 |
 | [Fosowl/agenticSeek](https://github.com/Fosowl/agenticSeek) | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin... | `Python` ★ 26.4k | 2026-05-17 |
 | [MycroftAI/mycroft-core](https://github.com/MycroftAI/mycroft-core) | Mycroft Core, the Mycroft Artificial Intelligence platform. | `Python` ★ 6.6k | 2024-09-08 |

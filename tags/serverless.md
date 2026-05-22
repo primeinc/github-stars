@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [daveRendon/azd-deepseek-r1-on-azure-container-apps](https://github.com/daveRendon/azd-deepseek-r1-on-azure-container-apps) | Use Infrastructure-As-Code to deploy Deep Seek-R1 on Azure Container Apps with Serverless GPUs. | `Bicep` ★ 2 | 2025-11-09 |
-| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 34.5k | 2026-05-20 |
+| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 34.5k | 2026-05-21 |
 | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) | :zap: Dynamically generated stats for your github readmes | `JavaScript` ★ 79.5k | 2026-03-31 |
 | [ealsur/serverlessnotifications](https://github.com/ealsur/serverlessnotifications) | Serverless notifications with Azure Cosmos DB + Azure Functions + Azure Signal R | `JavaScript` ★ 60 | 2018-05-25 |
 | [serverless-dns/serverless-dns](https://github.com/serverless-dns/serverless-dns) | The Rethink DNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io | `JavaScript` ★ 3.6k | 2026-05-06 |

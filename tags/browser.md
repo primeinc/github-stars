@@ -9,6 +9,6 @@
 | [auth0/auth0.js](https://github.com/auth0/auth0.js) | Auth0 headless browser sdk | `JavaScript` ★ 1.1k | 2026-05-20 |
 | [stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core) | Dev environments. In your web app. | ★ 4.6k | 2025-04-22 |
 | [HoppouAI/OctoBrowser](https://github.com/HoppouAI/OctoBrowser) | Built for the Copilot SDK Weekend Contest as a fun project. | `JavaScript` ★ 99 | 2026-03-25 |
-| [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | A browser based code editor | `JavaScript` ★ 46.1k | 2026-05-20 |
-| [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser | `C++` ★ 63.5k | 2026-05-20 |
+| [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | A browser based code editor | `JavaScript` ★ 46.1k | 2026-05-21 |
+| [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser | `C++` ★ 63.5k | 2026-05-22 |
 | [imputnet/helium](https://github.com/imputnet/helium) | Private, fast, and honest web browser | `C++` ★ 16.2k | 2026-05-20 |

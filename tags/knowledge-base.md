@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | `TypeScript` ★ 44k | 2026-05-20 |
+| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | `TypeScript` ★ 44k | 2026-05-22 |
 | [raphaelsty/knowledge](https://github.com/raphaelsty/knowledge) | Open-source personal bookmarks search engine | `Python` ★ 748 | 2026-05-17 |
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `Go` ★ 15.3k | 2026-05-21 |
 | [gamosoft/NoteDiscovery](https://github.com/gamosoft/NoteDiscovery) | Your Self-Hosted Knowledge Base | `JavaScript` ★ 2.5k | 2026-05-14 |

@@ -15,6 +15,6 @@
 | [Level-2/Dice](https://github.com/Level-2/Dice) | Dice - a lightweight Dependency Injection Container for PHP | `PHP` ★ 436 | 2023-01-17 |
 | [erikdubbelboer/phpRedisAdmin](https://github.com/erikdubbelboer/phpRedisAdmin) | Simple web interface to manage Redis databases. | `PHP` ★ 3.2k | 2025-12-22 |
 | [jeremyFreeAgent/Bitter](https://github.com/jeremyFreeAgent/Bitter) | Bitter is a simple but powerful analytics library | `PHP` ★ 128 | 2013-09-19 |
-| [phpredis/phpredis](https://github.com/phpredis/phpredis) | A PHP extension for Redis | `C` ★ 10.2k | 2026-05-20 |
+| [phpredis/phpredis](https://github.com/phpredis/phpredis) | A PHP extension for Redis | `C` ★ 10.2k | 2026-05-21 |
 | [perusio/php-ini-cleanup](https://github.com/perusio/php-ini-cleanup) | A script that cleans up the php.ini file with security in mind | `Awk` ★ 103 | 2013-07-30 |
 | [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) | A curated list of amazingly awesome PHP libraries, resources and shiny things. | ★ 32.5k | 2026-04-23 |

@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/GitHub-Copilot-for-Azure](https://github.com/microsoft/GitHub-Copilot-for-Azure) | Git Hub Copilot for Azure | `TypeScript` ★ 205 | 2026-05-20 |
+| [microsoft/GitHub-Copilot-for-Azure](https://github.com/microsoft/GitHub-Copilot-for-Azure) | Git Hub Copilot for Azure | `TypeScript` ★ 205 | 2026-05-21 |
 | [microsoft/azure-skills](https://github.com/microsoft/azure-skills) | Official agent plugin providing skills and MCP server configurations for Azure scenarios. | `PowerShell` ★ 1.1k | 2026-05-20 |
-| [agentskills/agentskills](https://github.com/agentskills/agentskills) | Specification and documentation for Agent Skills | `Python` ★ 19k | 2026-05-20 |
+| [agentskills/agentskills](https://github.com/agentskills/agentskills) | Specification and documentation for Agent Skills | `Python` ★ 19.1k | 2026-05-20 |
 | [computerlovetech/agr](https://github.com/computerlovetech/agr) | A package manager for AI agents. Install agent skills from Git Hub with a single command. | `Python` ★ 435 | 2026-05-15 |
-| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 138.4k | 2026-05-19 |
+| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 138.9k | 2026-05-19 |

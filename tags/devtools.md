@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [ChromeDevTools/devtools-protocol](https://github.com/ChromeDevTools/devtools-protocol) | Chrome Dev Tools Protocol | `TypeScript` ★ 1.5k | 2026-05-19 |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome Dev Tools for coding agents | `TypeScript` ★ 40.2k | 2026-05-20 |
+| [ChromeDevTools/devtools-protocol](https://github.com/ChromeDevTools/devtools-protocol) | Chrome Dev Tools Protocol | `TypeScript` ★ 1.5k | 2026-05-21 |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome Dev Tools for coding agents | `TypeScript` ★ 40.6k | 2026-05-21 |

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | Complete Open Source and Modular solution for MMO | `C++` ★ 8.4k | 2026-05-20 |
+| [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | Complete Open Source and Modular solution for MMO | `C++` ★ 8.4k | 2026-05-22 |
 | [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | Distributed server for social and realtime games and apps. | `Go` ★ 12.6k | 2026-05-20 |

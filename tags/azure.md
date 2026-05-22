@@ -7,9 +7,9 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [jongio/memealyzer](https://github.com/jongio/memealyzer) | Memealyzer is an app built to demonstrate some the latest and greatest Azure tech to dev, debug, and deploy microservice applications. | `C#` ★ 105 | 2023-10-18 |
-| [Azure/azure-dev](https://github.com/Azure/azure-dev) | A developer CLI for working with Azure resources to build and deploy AI applications. Commands map to key workflow stages: code, build, deploy, and monitor. | `Go` ★ 534 | 2026-05-21 |
+| [Azure/azure-dev](https://github.com/Azure/azure-dev) | A developer CLI for working with Azure resources to build and deploy AI applications. Commands map to key workflow stages: code, build, deploy, and monitor. | `Go` ★ 534 | 2026-05-22 |
 | [kareldewinter/tdd-azd-monitor](https://github.com/kareldewinter/tdd-azd-monitor) | Trainer-Demo-Deploy scenario for Azure Monitor including system metrics, custom logs, and external telemetry | `Bicep` ★ 3 | 2025-11-23 |
-| [microsoft/GitHub-Copilot-for-Azure](https://github.com/microsoft/GitHub-Copilot-for-Azure) | Git Hub Copilot for Azure | `TypeScript` ★ 205 | 2026-05-20 |
+| [microsoft/GitHub-Copilot-for-Azure](https://github.com/microsoft/GitHub-Copilot-for-Azure) | Git Hub Copilot for Azure | `TypeScript` ★ 205 | 2026-05-21 |
 | [microsoft/azure-skills](https://github.com/microsoft/azure-skills) | Official agent plugin providing skills and MCP server configurations for Azure scenarios. | `PowerShell` ★ 1.1k | 2026-05-20 |
 | [Azure/aaz-dev-tools](https://github.com/Azure/aaz-dev-tools) | Atomic Azure CLI Dev Tools | `Python` ★ 27 | 2026-05-21 |
 | [microsoft/Docker-Provider](https://github.com/microsoft/Docker-Provider) | Azure Monitor for Containers | `Ruby` ★ 172 | 2026-05-20 |
@@ -22,8 +22,8 @@
 | [lopezleandro03/azd-devcenter](https://github.com/lopezleandro03/azd-devcenter) | A template to get started with Azure Deployment Environments. | `HCL` ★ 12 | 2025-05-28 |
 | [Azure/aca-landing-zone-accelerator](https://github.com/Azure/aca-landing-zone-accelerator) | The Azure Container Apps landing zone accelerator is an open-source collection of architectural guidance and reference implementation to accelerate deployment of Azure Container Apps at scale. | `Bicep` ★ 218 | 2026-01-26 |
 | [Azure-Samples/azure-openai-rag-workshop](https://github.com/Azure-Samples/azure-openai-rag-workshop) | Create your own Chat GPT with Retrieval-Augmented-Generation workshop | `Bicep` ★ 148 | 2026-01-20 |
-| [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos) | A collection of Microsoft cloud product logos | `Python` ★ 245 | 2026-04-28 |
-| [mspnp/cloud-design-patterns](https://github.com/mspnp/cloud-design-patterns) | Sample implementations for cloud design patterns found in the Azure Architecture Center. | `C#` ★ 846 | 2026-05-18 |
+| [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos) | A collection of Microsoft cloud product logos | `Python` ★ 247 | 2026-04-28 |
+| [mspnp/cloud-design-patterns](https://github.com/mspnp/cloud-design-patterns) | Sample implementations for cloud design patterns found in the Azure Architecture Center. | `C#` ★ 845 | 2026-05-18 |
 | [mikedzikowski/ZTAImage](https://github.com/mikedzikowski/ZTAImage) | Zero Trust Azure Image Solution | `Bicep` ★ 6 | 2024-04-12 |
 | [azurekid/blackcat](https://github.com/azurekid/blackcat) | Black Cat is a Power Shell module designed to validate the security of Microsoft Azure. It provides a set of functions to identify potential security holes. | `PowerShell` ★ 203 | 2026-04-10 |
 | [knom/AzureResourceOwnerTag](https://github.com/knom/AzureResourceOwnerTag) | Azure Automation Script that Tags Azure Resource Groups with the OWNER and EXPIRY DATE | `PowerShell` ★ 12 | 2018-05-27 |
@@ -34,7 +34,7 @@
 | [LaresLLC/AzureTokenExtractor](https://github.com/LaresLLC/AzureTokenExtractor) | Extracts Azure authentication tokens from Power Shell process minidumps. | `Python` ★ 25 | 2023-05-20 |
 | [Azure/PSDocs.Azure](https://github.com/Azure/PSDocs.Azure) | Generate documentation from Azure infrastructure as code (Ia C) artifacts. | `C#` ★ 66 | 2026-05-02 |
 | [PSBicep/PSBicep](https://github.com/PSBicep/PSBicep) | This is the repo for the Bicep Power Shell Module. | `PowerShell` ★ 149 | 2026-05-13 |
-| [pnp/script-samples](https://github.com/pnp/script-samples) | A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more. | `PowerShell` ★ 333 | 2026-05-05 |
+| [pnp/script-samples](https://github.com/pnp/script-samples) | A gallery of sample scripts to manage all things Microsoft 365 in Bash or Power Shell using tools like Pn P Power Shell, CLI for Microsoft 365, Graph SDK and many more. | `PowerShell` ★ 336 | 2026-05-05 |
 | [wesellis/Azure-PowerShell-Toolkit](https://github.com/wesellis/Azure-PowerShell-Toolkit) | Massive collection of 772+ Power Shell scripts for Azure management. CI/CD with PSScript Analyzer, security scanning, and Ia C validation. Enterprise-ready with comprehensive testing. | `PowerShell` ★ 39 | 2025-10-03 |
 | [darkquasar/AzureHunter](https://github.com/darkquasar/AzureHunter) | A Cloud Forensics Powershell module to run threat hunting playbooks on data from Azure and O365 | `PowerShell` ★ 790 | 2022-10-29 |
 | [Gerenios/AADInternals](https://github.com/Gerenios/AADInternals) | AADInternals Power Shell module for administering Azure AD and Office 365 | `PowerShell` ★ 1.6k | 2025-09-30 |
@@ -42,16 +42,16 @@
 | [Azure-Samples/azure-typescript-e2e-apps](https://github.com/Azure-Samples/azure-typescript-e2e-apps) | Monorepo - Apps written in Type Script to be either 1) deployed to Azure hosting or 2) integrated with Azure services | `TypeScript` ★ 48 | 2026-02-02 |
 | [bbmumford/Intune-Toolkit](https://github.com/bbmumford/Intune-Toolkit) | my personal collection of scripts & guides to configuring a standard enterprise Intune enviroment. | `Opal` ★ 75 | 2026-01-09 |
 | [mspnp/aks-baseline](https://github.com/mspnp/aks-baseline) | This is the Azure Kubernetes Service (AKS) Baseline Cluster reference implementation as produced by the Microsoft Azure Architecture Center. | `Bicep` ★ 744 | 2026-04-19 |
-| [MicrosoftDocs/azure-monitor-docs](https://github.com/MicrosoftDocs/azure-monitor-docs) | Open source documentation repository for Azure monitor-related services. All content in this repository is published to learn.microsoft.com. | ★ 23 | 2026-05-20 |
-| [Azure-Samples/ai-hub-gateway-solution-accelerator](https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator) | Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure ... | `Bicep` ★ 275 | 2026-05-12 |
+| [MicrosoftDocs/azure-monitor-docs](https://github.com/MicrosoftDocs/azure-monitor-docs) | Open source documentation repository for Azure monitor-related services. All content in this repository is published to learn.microsoft.com. | ★ 23 | 2026-05-21 |
+| [Azure-Samples/ai-hub-gateway-solution-accelerator](https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator) | Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure ... | `Bicep` ★ 277 | 2026-05-12 |
 | [Azure-Player/azure.datafactory.tools](https://github.com/Azure-Player/azure.datafactory.tools) | Tools for deploying Data Factory (v2) in Microsoft Azure | `PowerShell` ★ 258 | 2026-03-14 |
 | [Azure/azure-monitor-baseline-alerts](https://github.com/Azure/azure-monitor-baseline-alerts) | Azure Monitor Baseline Alerts | `Bicep` ★ 310 | 2026-04-20 |
 | [Azure/ALZ-PowerShell-Module](https://github.com/Azure/ALZ-PowerShell-Module) | The Azure Landing Zones Accelerators Power Shell module | `PowerShell` ★ 110 | 2026-04-30 |
 | [Azure/ALZ-Bicep](https://github.com/Azure/ALZ-Bicep) | This repository contains the Azure Landing Zones (ALZ) Bicep modules that help deliver and deploy the Azure Landing Zone conceptual architecture in a modular approach. https://aka.ms/alz/docs | `Bicep` ★ 876 | 2026-05-12 |
-| [Azure/azure-api-management-policy-toolkit](https://github.com/Azure/azure-api-management-policy-toolkit) | Azure API Management policy toolkit is a set of libraries and tools to help managing and testing policies. | `C#` ★ 87 | 2026-05-11 |
+| [Azure/azure-api-management-policy-toolkit](https://github.com/Azure/azure-api-management-policy-toolkit) | Azure API Management policy toolkit is a set of libraries and tools to help managing and testing policies. | `C#` ★ 87 | 2026-05-21 |
 | [Azure/api-management-policy-snippets](https://github.com/Azure/api-management-policy-snippets) | Re-usable examples of Azure API Management policies | ★ 400 | 2026-02-25 |
 | [microsoft/CosmosDB_Multi-Tenant](https://github.com/microsoft/CosmosDB_Multi-Tenant) | Cosmos DB for Multi-Tenant Applications | ★ 22 | 2022-12-15 |
-| [olhel/sub2tenant-aca](https://github.com/olhel/sub2tenant-aca) | Lookup Azure tenant information from a subscription ID. | `HTML` ★ 22 | 2026-05-18 |
+| [olhel/sub2tenant-aca](https://github.com/olhel/sub2tenant-aca) | Lookup Azure tenant information from a subscription ID. | `HTML` ★ 22 | 2026-05-21 |
 | [Azure/awesome-azd](https://github.com/Azure/awesome-azd) | An awesome list that curates content (articles, videos, tutorials and docs) and templates (ready to use) for the Azure Developer CLI (\`azd\`). Plus a hosted azd-templates Gallery to simplify search ... | `TypeScript` ★ 254 | 2026-05-21 |
 | [pamelafox/fastapi-azure-function-apim](https://github.com/pamelafox/fastapi-azure-function-apim) | A Fast API app that is designed for deployment to Azure Functions with an API Management Policy. | `Bicep` ★ 60 | 2026-03-02 |
 | [CompositionalIT/farmer](https://github.com/CompositionalIT/farmer) | Repeatable Azure deployments with ARM templates - made easy! | `F#` ★ 546 | 2026-04-21 |
@@ -77,12 +77,12 @@
 | [ronaldbosma/azure-integration-services-quickstart](https://github.com/ronaldbosma/azure-integration-services-quickstart) | An azd template (Bicep) for deploying Azure Integration Services, including Azure API Management, Function App, Logic App, Service Bus and Event Hubs namespace, along with supporting resources such... | `Bicep` ★ 8 | 2026-05-15 |
 | [Azure-Samples/APICenter-Reference](https://github.com/Azure-Samples/APICenter-Reference) | This provides some reference use cases while using Azure API Center | `Bicep` ★ 22 | 2025-05-06 |
 | [Azure-Samples/mcp-workshop-dotnet](https://github.com/Azure-Samples/mcp-workshop-dotnet) | This provides workshop materials using official MCP SDK | `JavaScript` ★ 36 | 2026-05-19 |
-| [Azure/azqr](https://github.com/Azure/azqr) | Azure Quick Review | `Go` ★ 764 | 2026-05-20 |
+| [Azure/azqr](https://github.com/Azure/azqr) | Azure Quick Review | `Go` ★ 765 | 2026-05-22 |
 | [Azure/communication-ui-library](https://github.com/Azure/communication-ui-library) | UI Library for Azure Communication Services helps developers build communication applications with ease. From turn-key composites to UI components that can be composited together. | `TypeScript` ★ 205 | 2026-02-26 |
 | [maartenvandiemen/AZD-AppConfiguration](https://github.com/maartenvandiemen/AZD-AppConfiguration) | No description provided | `Bicep` ★ 1 | 2025-10-17 |
 | [Azure-Samples/azd-starter-bicep](https://github.com/Azure-Samples/azd-starter-bicep) | Starter template with Bicep as infrastructure provider for Azure Developer CLI (azd). | `Bicep` ★ 37 | 2026-03-27 |
 | [microsoft/Modernize-your-code-solution-accelerator](https://github.com/microsoft/Modernize-your-code-solution-accelerator) | Designed to help customers transition their SQL queries to new environments quickly and efficiently. This accelerator is particularly useful for organizations modernizing their data estates, as it ... | `Python` ★ 130 | 2026-05-18 |
-| [Azure/Azure-Verified-Modules](https://github.com/Azure/Azure-Verified-Modules) | Azure Verified Modules (AVM) is an initiative to consolidate and set the standards for what a good Infrastructure-as-Code module looks like. Modules will then align to these standards, across langu... | `PowerShell` ★ 546 | 2026-05-20 |
+| [Azure/Azure-Verified-Modules](https://github.com/Azure/Azure-Verified-Modules) | Azure Verified Modules (AVM) is an initiative to consolidate and set the standards for what a good Infrastructure-as-Code module looks like. Modules will then align to these standards, across langu... | `PowerShell` ★ 547 | 2026-05-20 |
 | [Azure/arc_jumpstart_docs](https://github.com/Azure/arc_jumpstart_docs) | A public repo for hosting the Arc Jumpstart docs | `Python` ★ 54 | 2026-03-12 |
 | [Azure/login](https://github.com/Azure/login) | Connect to Azure | `TypeScript` ★ 522 | 2026-04-23 |
 | [devkimchi/azure-easyauth-sample](https://github.com/devkimchi/azure-easyauth-sample) | This provides a sample code for the Easy Auth feature on Azure App Service, Azure Static Web App and Azure Container Apps | `CSS` ★ 6 | 2025-02-12 |
@@ -93,4 +93,4 @@
 | [mspnp/AzureNamingTool](https://github.com/mspnp/AzureNamingTool) | The Azure Naming Tool is a .NET 10 Blazor application with a RESTful API for generating and validating Azure resource names. Features include SQLite database support, drag-and-drop configuration, A... | `C#` ★ 577 | 2026-01-13 |
 | [GitNirmal-u/Microsoft_Azure_E2E_Project](https://github.com/GitNirmal-u/Microsoft_Azure_E2E_Project) | No description provided | `Jupyter Notebook` ★ 1 | 2024-12-29 |
 | [Azure/azure-storage-azcopy](https://github.com/Azure/azure-storage-azcopy) | The new Azure Storage data transfer utility - Az Copy v10 | `Go` ★ 689 | 2026-05-15 |
-| [Azure/awesome-terraform](https://github.com/Azure/awesome-terraform) | An authoritative list of awesome Azure Terraform tools and samples with help from community experiments and contributions. | `HCL` ★ 177 | 2023-12-06 |
+| [Azure/awesome-terraform](https://github.com/Azure/awesome-terraform) | An authoritative list of awesome Azure Terraform tools and samples with help from community experiments and contributions. | `HCL` ★ 176 | 2023-12-06 |

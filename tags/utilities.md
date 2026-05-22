@@ -11,4 +11,4 @@
 | [wolfdenpublishing/pyccsl](https://github.com/wolfdenpublishing/pyccsl) | Python Claude Code Status Line (Py CCSL, pronounced "pixel") | `Python` ★ 82 | 2025-08-12 |
 | [tabs-not-spaces/CodeDump](https://github.com/tabs-not-spaces/CodeDump) | things that help me. might help others. | `PowerShell` ★ 122 | 2025-03-25 |
 | [DioxusLabs/sdk](https://github.com/DioxusLabs/sdk) | A library to provide abstractions to access common utilities when developing Dioxus applications. | `Rust` ★ 287 | 2025-12-26 |
-| [Anze/KeyCluCask](https://github.com/Anze/KeyCluCask) | Simple and handy overview of applications shortcuts | ★ 2.2k | 2026-01-12 |
+| [Anze/KeyCluCask](https://github.com/Anze/KeyCluCask) | Simple and handy overview of applications shortcuts | ★ 2.3k | 2026-01-12 |

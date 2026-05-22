@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [upptime/upptime](https://github.com/upptime/upptime) | ⬆️ Git Hub Actions uptime monitor & status page by @Anand Chowdhary | `Markdown` ★ 17k | 2026-05-21 |
-| [bluewave-labs/Checkmate](https://github.com/bluewave-labs/Checkmate) | Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join her... | `TypeScript` ★ 9.8k | 2026-05-20 |
+| [upptime/upptime](https://github.com/upptime/upptime) | ⬆️ Git Hub Actions uptime monitor & status page by @Anand Chowdhary | `Markdown` ★ 17k | 2026-05-22 |
+| [bluewave-labs/Checkmate](https://github.com/bluewave-labs/Checkmate) | Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join her... | `TypeScript` ★ 9.8k | 2026-05-21 |

@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [exeldro/obs-move-transition](https://github.com/exeldro/obs-move-transition) | Move transition for OBS Studio | `C` ★ 874 | 2026-04-11 |
+| [exeldro/obs-move-transition](https://github.com/exeldro/obs-move-transition) | Move transition for OBS Studio | `C` ★ 876 | 2026-04-11 |
 | [exeldro/obs-source-clone](https://github.com/exeldro/obs-source-clone) | No description provided | `CMake` ★ 186 | 2026-03-13 |
 | [CodeYan01/source-defaults](https://github.com/CodeYan01/source-defaults) | Apply custom source setting defaults on new sources, based on other sources. | `CMake` ★ 16 | 2025-10-15 |
 | [royshil/obs-detect](https://github.com/royshil/obs-detect) | Object Detection in OBS, real-time, local, GPU optional | `C++` ★ 172 | 2024-12-18 |
