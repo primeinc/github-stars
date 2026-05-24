@@ -7,5 +7,5 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [memvid/design-memory](https://github.com/memvid/design-memory) | Extract and reproduce design systems from any website using deterministic analysis and LLM interpretation. | `TypeScript` ★ 127 | 2026-02-15 |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms | `Python` ★ 81.7k | 2026-04-03 |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms | `Python` ★ 82k | 2026-04-03 |
 | [goabstract/Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools) | The best design tools and plugins for everything 👉 | `JavaScript` ★ 40k | 2024-07-28 |

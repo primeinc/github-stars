@@ -8,6 +8,6 @@
 |---|---|---|---|
 | [unixshells/latch](https://github.com/unixshells/latch) | Terminal multiplexer with built-in remote access. tmux you can SSH into, open in a browser, or connect to with mosh. | `Go` ★ 33 | 2026-04-14 |
 | [MyOnee/R](https://github.com/MyOnee/R) | Free RDP from Github Actions | `Batchfile` ★ 60 | 2026-02-28 |
-| [FalconOpsLLC/goexec](https://github.com/FalconOpsLLC/goexec) | Windows remote execution multitool | `Go` ★ 796 | 2026-03-25 |
+| [FalconOpsLLC/goexec](https://github.com/FalconOpsLLC/goexec) | Windows remote execution multitool | `Go` ★ 795 | 2026-03-25 |
 | [shellinabox/shellinabox](https://github.com/shellinabox/shellinabox) | Official-ish Fork of Shell In A Box | `C` ★ 3.1k | 2025-09-06 |
 | [glyptodon/guacamole-server](https://github.com/glyptodon/guacamole-server) | The Guacamole project is now Apache Guacamole (http://guacamole.apache.org/). This repository has been repurposed as the base for the Apache Guacamole packages built for Glyptodon Enterprise. | `C` ★ 1k | 2023-07-17 |

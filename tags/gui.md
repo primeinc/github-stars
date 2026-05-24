@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 30.6k | 2026-05-22 |
+| [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 30.6k | 2026-05-24 |
 | [KnifMelti/WAU-Settings-GUI](https://github.com/KnifMelti/WAU-Settings-GUI) | Provides a user-friendly portable standalone interface to modify every aspect of Winget-Auto Update (WAU) | `PowerShell` ★ 45 | 2026-03-29 |
 | [ocornut/imgui](https://github.com/ocornut/imgui) | Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies | `C++` ★ 73.4k | 2026-05-22 |
 | [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop\_computer: :camera\_flash: | `C++` ★ 29.9k | 2026-05-21 |

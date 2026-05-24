@@ -7,5 +7,5 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [zh54321/EntraTokenAid](https://github.com/zh54321/EntraTokenAid) | A pure Power Shell solution for Entra OAuth authentication, enabling easy retrieval of access and refresh tokens | `PowerShell` ★ 142 | 2026-04-09 |
-| [CompassSecurity/EntraFalcon](https://github.com/CompassSecurity/EntraFalcon) | A lightweight Power Shell tool for assessing the security posture of Microsoft Entra ID environments. It helps identify privileged objects, risky assignments, and potential misconfigurations. | `PowerShell` ★ 435 | 2026-05-18 |
+| [CompassSecurity/EntraFalcon](https://github.com/CompassSecurity/EntraFalcon) | A lightweight Power Shell tool for assessing the security posture of Microsoft Entra ID environments. It helps identify privileged objects, risky assignments, and potential misconfigurations. | `PowerShell` ★ 436 | 2026-05-18 |
 | [Semperis/EntraGoat](https://github.com/Semperis/EntraGoat) | A deliberately vulnerable Microsoft Entra ID environment. Learn identity security through hands-on, realistic attack challenges. | `PowerShell` ★ 945 | 2026-05-06 |

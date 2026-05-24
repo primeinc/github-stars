@@ -10,5 +10,5 @@
 | [devcontainers/cli](https://github.com/devcontainers/cli) | A reference implementation for the specification that can create and configure a dev container from a devcontainer.json. | `TypeScript` ★ 2.7k | 2026-05-21 |
 | [Azure-Samples/Apim-Samples](https://github.com/Azure-Samples/Apim-Samples) | This repository provides a playground to safely experiment with and learn Azure API Management (APIM) policies in various architectures. | `Python` ★ 90 | 2026-05-22 |
 | [sottlmarek/DevSecOps](https://github.com/sottlmarek/DevSecOps) | Ultimate Dev Sec Ops library | ★ 6.7k | 2026-03-05 |
-| [replicate/cog](https://github.com/replicate/cog) | Containers for machine learning | `Go` ★ 9.4k | 2026-05-22 |
+| [replicate/cog](https://github.com/replicate/cog) | Containers for machine learning | `Go` ★ 9.4k | 2026-05-23 |
 | [mikeroyal/WSL-Guide](https://github.com/mikeroyal/WSL-Guide) | Windows Subsystem for Linux (WSL) Guide. Use WSL develop to with Kubernetes and in the Cloud (Microsoft Azure, AWS, and Google Cloud). | `Rust` ★ 419 | 2024-01-04 |

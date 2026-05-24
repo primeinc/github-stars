@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [rsalmei/alive-progress](https://github.com/rsalmei/alive-progress) | A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations! | `Python` ★ 6.3k | 2025-10-10 |
+| [rsalmei/alive-progress](https://github.com/rsalmei/alive-progress) | A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations! | `Python` ★ 6.3k | 2026-05-22 |
 | [guiguiboy/PHP-CLI-Progress-Bar](https://github.com/guiguiboy/PHP-CLI-Progress-Bar) | A PHP5 CLI Progress bar | `PHP` ★ 157 | 2017-04-10 |

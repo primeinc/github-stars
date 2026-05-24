@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vaults MCP server - read, write, search, and surgically edit notes, tags, and frontmatter via the Local REST API plugin. | `TypeScript` ★ 545 | 2026-05-21 |
+| [cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vaults MCP server - read, write, search, and surgically edit notes, tags, and frontmatter via the Local REST API plugin. | `TypeScript` ★ 551 | 2026-05-23 |
 | [SchwarziLukas/braindump-butler](https://github.com/SchwarziLukas/braindump-butler) | Turns brain dumps and meeting notes into tidy Markdown notes for your Obsidian Vault. | `Python` ★ 59 | 2026-02-05 |
-| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Agent skills for Obsidian | ★ 32.5k | 2026-05-07 |
+| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Agent skills for Obsidian | ★ 32.7k | 2026-05-07 |
 | [ArtemXTech/claude-code-obsidian-starter](https://github.com/ArtemXTech/claude-code-obsidian-starter) | Free starter kit: Claude Code + Obsidian. Pre-configured vault with skills for projects, tasks, clients, and daily routines. Just open and go. | `Typst` ★ 194 | 2026-01-23 |
 | [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian) | 🕶️ Awesome stuff for Obsidian | `CSS` ★ 8.8k | 2024-04-06 |
-| [vrtmrz/obsidian-livesync](https://github.com/vrtmrz/obsidian-livesync) | No description provided | `TypeScript` ★ 10.9k | 2026-05-22 |
+| [vrtmrz/obsidian-livesync](https://github.com/vrtmrz/obsidian-livesync) | No description provided | `TypeScript` ★ 11k | 2026-05-22 |

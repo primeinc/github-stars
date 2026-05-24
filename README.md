@@ -2,7 +2,7 @@
 
 > A curated list of **2648** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-05-23
+Last updated: 2026-05-24
 
 ## ⭐ Recently Starred
 
@@ -10,14 +10,14 @@ Last updated: 2026-05-23
 |---|---|---|---|
 | [yunwei37/AI-GitHub-Profile-Generator](https://github.com/yunwei37/AI-GitHub-Profile-Generator) | AI-Driven Git Hub Profile Readme Generation with GPT | `TypeScript` ★ 37 | 2025-01-03 |
 | [MicrosoftRajan/EpifiShare](https://github.com/MicrosoftRajan/EpifiShare) | No description provided | `TypeScript` ★ 2 | 2026-05-16 |
-| [sgl-project/sglang](https://github.com/sgl-project/sglang) | SGLang is a high-performance serving framework for large language models and multimodal models. | `Python` ★ 28.1k | 2026-05-23 |
-| [sweetpad-dev/sweetpad](https://github.com/sweetpad-dev/sweetpad) | Develop Swift/i OS projects using VSCode | `TypeScript` ★ 1.8k | 2026-05-21 |
-| [casey/just](https://github.com/casey/just) | 🤖 Just a command runner | `Rust` ★ 33.8k | 2026-05-23 |
+| [sgl-project/sglang](https://github.com/sgl-project/sglang) | SGLang is a high-performance serving framework for large language models and multimodal models. | `Python` ★ 28.2k | 2026-05-24 |
+| [sweetpad-dev/sweetpad](https://github.com/sweetpad-dev/sweetpad) | Develop Swift/i OS projects using VSCode | `TypeScript` ★ 1.8k | 2026-05-23 |
+| [casey/just](https://github.com/casey/just) | 🤖 Just a command runner | `Rust` ★ 33.9k | 2026-05-23 |
 | [aelassas/servy](https://github.com/aelassas/servy) | Professional-Grade Windows Service Wrapper with Deep Observability - Modern Alternative to NSSM, Win SW & Fire Daemon Pro | `C#` ★ 1.7k | 2026-05-23 |
 | [AIDotNet/OpenDeepWiki](https://github.com/AIDotNet/OpenDeepWiki) | Open Deep Wiki is the open-source version of the Deep Wiki project, aiming to provide a powerful knowledge management and collaboration platform. The project is mainly developed using C# and Type S... | `C#` ★ 3.2k | 2026-05-12 |
-| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 3.7k | 2026-05-22 |
-| [agavra/tuicr](https://github.com/agavra/tuicr) | a terminal UI for local code review | `Rust` ★ 844 | 2026-05-22 |
-| [dnakov/litter](https://github.com/dnakov/litter) | No description provided | `Rust` ★ 1.8k | 2026-05-22 |
+| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 3.9k | 2026-05-22 |
+| [agavra/tuicr](https://github.com/agavra/tuicr) | a terminal UI for local code review | `Rust` ★ 848 | 2026-05-23 |
+| [dnakov/litter](https://github.com/dnakov/litter) | No description provided | `Rust` ★ 1.9k | 2026-05-23 |
 
 ## 🏷️ Popular Tags
 

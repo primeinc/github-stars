@@ -6,11 +6,11 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [12Knocksinna/Office365itpros](https://github.com/12Knocksinna/Office365itpros) | Power Shell examples for articles published on https://office365itpros.com and https://practical365.com. See https://o365itpros.gumroad.com/l/M365PS for the Automating Microsoft 365 with Power Shel... | `PowerShell` ★ 1.7k | 2026-05-21 |
+| [12Knocksinna/Office365itpros](https://github.com/12Knocksinna/Office365itpros) | Power Shell examples for articles published on https://office365itpros.com and https://practical365.com. See https://o365itpros.gumroad.com/l/M365PS for the Automating Microsoft 365 with Power Shel... | `PowerShell` ★ 1.7k | 2026-05-23 |
 | [Foyerr/Update-PrinterPortConfig](https://github.com/Foyerr/Update-PrinterPortConfig) | This repository contains Power Shell functions focused on resolving mismatches between printer ports and their actual IP addresses in Windows Servers | ★ 2 | 2023-10-30 |
 | [Gerenios/AADInternals](https://github.com/Gerenios/AADInternals) | AADInternals Power Shell module for administering Azure AD and Office 365 | `PowerShell` ★ 1.6k | 2025-09-30 |
 | [hausec/PowerZure](https://github.com/hausec/PowerZure) | Power Shell framework to assess Azure security | `PowerShell` ★ 1.3k | 2025-10-18 |
-| [Azure-Samples/azure-files-samples](https://github.com/Azure-Samples/azure-files-samples) | This repository contains supporting code (Power Shell modules/scripts, ARM templates, etc.) for deploying, configuring, and using Azure Files. | `PowerShell` ★ 258 | 2026-04-07 |
+| [Azure-Samples/azure-files-samples](https://github.com/Azure-Samples/azure-files-samples) | This repository contains supporting code (Power Shell modules/scripts, ARM templates, etc.) for deploying, configuring, and using Azure Files. | `PowerShell` ★ 259 | 2026-04-07 |
 | [Azure-Player/azure.datafactory.tools](https://github.com/Azure-Player/azure.datafactory.tools) | Tools for deploying Data Factory (v2) in Microsoft Azure | `PowerShell` ★ 258 | 2026-03-14 |
 | [Azure/ALZ-PowerShell-Module](https://github.com/Azure/ALZ-PowerShell-Module) | The Azure Landing Zones Accelerators Power Shell module | `PowerShell` ★ 110 | 2026-04-30 |
 | [Semperis/EntraGoat](https://github.com/Semperis/EntraGoat) | A deliberately vulnerable Microsoft Entra ID environment. Learn identity security through hands-on, realistic attack challenges. | `PowerShell` ★ 945 | 2026-05-06 |
@@ -19,7 +19,7 @@
 | [JayRHa/EndpointAnalyticsRemediationScripts](https://github.com/JayRHa/EndpointAnalyticsRemediationScripts) | No description provided | `PowerShell` ★ 616 | 2026-05-15 |
 | [microsoft/Microsoft-Purview-Advanced-Rich-Reports-MPARR-Collector](https://github.com/microsoft/Microsoft-Purview-Advanced-Rich-Reports-MPARR-Collector) | Repository with all the MPARR components solution | `PowerShell` ★ 132 | 2026-04-09 |
 | [mandiant/flare-vm](https://github.com/mandiant/flare-vm) | A collection of software installations scripts for Windows systems that allows you to easily setup and maintain a reverse engineering environment on a VM. | `PowerShell` ★ 8.7k | 2026-04-28 |
-| [The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool](https://github.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool) | The script and configuration files in this repository provide an easy method to customize and apply performance related settings to virtual desktop environments. | `PowerShell` ★ 824 | 2025-11-19 |
+| [The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool](https://github.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool) | The script and configuration files in this repository provide an easy method to customize and apply performance related settings to virtual desktop environments. | `PowerShell` ★ 825 | 2025-11-19 |
 | [rink-turksma/IntunePrepTool](https://github.com/rink-turksma/IntunePrepTool) | Intune Prep Tool is a tool designed for creating Intune packages using the MS Win32 Content Prep Tool. The tool aims to simplify the process of packaging applications for deployment through Intune ... | `PowerShell` ★ 95 | 2026-01-29 |
 | [bcwilhite/PendingReboot](https://github.com/bcwilhite/PendingReboot) | Module to detect Windows OS pending reboots | `PowerShell` ★ 131 | 2024-07-18 |
 | [tabs-not-spaces/Intune-App-Deploy](https://github.com/tabs-not-spaces/Intune-App-Deploy) | A fast, reliable way to package your win32 applications and deploy them to Intune from any source - including SCCM! | `PowerShell` ★ 89 | 2022-09-21 |
@@ -36,5 +36,5 @@
 | [theohbrothers/ItemLinkManagement](https://github.com/theohbrothers/ItemLinkManagement) | A Power Shell module for managing hardlinks, junctions, symbolic links. | `PowerShell` ★ 3 | 2021-10-17 |
 | [PoshCode/PowerShellPracticeAndStyle](https://github.com/PoshCode/PowerShellPracticeAndStyle) | The Unofficial Power Shell Best Practices and Style Guide | ★ 2.4k | 2023-05-19 |
 | [MScholtes/PSVirtualDesktop](https://github.com/MScholtes/PSVirtualDesktop) | Virtual Desktop is a Powershell module that provides commandlets to manage virtual desktops of Windows 10. | `PowerShell` ★ 381 | 2025-08-25 |
-| [nightroman/PowerShellTraps](https://github.com/nightroman/PowerShellTraps) | Collection of Power Shell traps and oddities | `PowerShell` ★ 465 | 2025-10-20 |
+| [nightroman/PowerShellTraps](https://github.com/nightroman/PowerShellTraps) | Collection of Power Shell traps and oddities | `PowerShell` ★ 464 | 2025-10-20 |
 | [MikeShepard/VisioBot3000](https://github.com/MikeShepard/VisioBot3000) | Simple Visio Automation from Powershell | `PowerShell` ★ 51 | 2025-07-17 |

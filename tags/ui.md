@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5.2k | 2026-05-22 |
+| [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5.2k | 2026-05-24 |
 | [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | AI → JSON → UI | `TypeScript` ★ 14.9k | 2026-05-20 |
 | [microsoft/data-formulator](https://github.com/microsoft/data-formulator) | 🪄 Create rich visualizations with AI | `TypeScript` ★ 15.7k | 2026-05-23 |
 | [Quaggles/SwarmUI-FaceTools](https://github.com/Quaggles/SwarmUI-FaceTools) | A Swarm UI extension that adds parameters for Re Actor to the the generate tab | `C#` ★ 28 | 2026-05-09 |

@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 9.5k | 2026-05-21 |
-| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 37.2k | 2026-05-22 |
+| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 37.3k | 2026-05-23 |
 | [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) | Free RDP is a free remote desktop protocol library and clients | `C` ★ 13.2k | 2026-05-22 |
 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | An open-source remote desktop application designed for self-hosting, as an alternative to Team Viewer. | `Rust` ★ 114.8k | 2026-05-22 |
 | [caojianyu/tauri-remote-desktop](https://github.com/caojianyu/tauri-remote-desktop) | This is a remote desktop control tool built using Tauri and implemented based on Web RTC. Build a simple server using Rust. Views built using Vue3+Type Script. | `Vue` ★ 120 | 2023-03-08 |

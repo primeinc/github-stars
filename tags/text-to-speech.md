@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [babysor/MockingBird](https://github.com/babysor/MockingBird) | 🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time | `Python` ★ 36.9k | 2026-03-03 |
-| [natikxy/rick-voice](https://github.com/natikxy/rick-voice) | Convert text into authentic Rick Sanchez voice for bots and apps with a simple Python API supporting streaming and multiple TTS providers. | ★ 1 | 2026-05-23 |
+| [natikxy/rick-voice](https://github.com/natikxy/rick-voice) | Convert text into authentic Rick Sanchez voice for bots and apps with a simple Python API supporting streaming and multiple TTS providers. | ★ 1 | 2026-05-24 |
 | [clowerweb/kitten-tts-web-demo](https://github.com/clowerweb/kitten-tts-web-demo) | Kitten TTS web demo using tansformers.js | `JavaScript` ★ 98 | 2025-08-13 |
 | [ysharma3501/LuxTTS](https://github.com/ysharma3501/LuxTTS) | A high-quality rapid TTS voice cloning model that reaches speeds of 150x realtime. | `Python` ★ 3.9k | 2026-03-12 |
 | [samuel-vitorino/sopro](https://github.com/samuel-vitorino/sopro) | A lightweight text-to-speech model with zero-shot voice cloning | `Python` ★ 821 | 2026-02-06 |

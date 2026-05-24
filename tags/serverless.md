@@ -14,5 +14,5 @@
 | [Azure-Samples/contoso-real-estate](https://github.com/Azure-Samples/contoso-real-estate) | Intelligent enterprise-grade reference architecture for Java Script, featuring Open AI integration, Azure Developer CLI template and Playwright tests. | `JavaScript` ★ 970 | 2025-03-20 |
 | [neondatabase/neon](https://github.com/neondatabase/neon) | Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero. | `Rust` ★ 22k | 2026-03-25 |
 | [openfaas/faas](https://github.com/openfaas/faas) | Open Faa S - Serverless Functions Made Simple | `Go` ★ 26.2k | 2026-04-01 |
-| [nhost/nhost](https://github.com/nhost/nhost) | The Open Source Firebase Alternative with Graph QL. | `TypeScript` ★ 9.2k | 2026-05-22 |
+| [nhost/nhost](https://github.com/nhost/nhost) | The Open Source Firebase Alternative with Graph QL. | `TypeScript` ★ 9.2k | 2026-05-23 |
 | [Azure/azure-functions-host](https://github.com/Azure/azure-functions-host) | The host/runtime that powers Azure Functions | `C#` ★ 2k | 2026-05-21 |

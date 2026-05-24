@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | 1 Persistent memory for AI coding agents based on real-world benchmarks | `TypeScript` ★ 16.5k | 2026-05-22 |
-| [safishamsi/graphify](https://github.com/safishamsi/graphify) | AI coding assistant skill (Claude Code, Codex, Open Code, Cursor, Gemini CLI, Git Hub Copilot CLI, Open Claw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images... | `Python` ★ 51.9k | 2026-05-22 |
-| [manaflow-ai/manaflow](https://github.com/manaflow-ai/manaflow) | Open source Claude Code web/Codex Cloud/Devin/Ramp Inspect alternative | `TypeScript` ★ 1k | 2026-05-21 |
-| [openai/codex-universal](https://github.com/openai/codex-universal) | Base docker image used in Codex environments | `Dockerfile` ★ 921 | 2026-05-02 |
+| [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | 1 Persistent memory for AI coding agents based on real-world benchmarks | `TypeScript` ★ 16.9k | 2026-05-22 |
+| [safishamsi/graphify](https://github.com/safishamsi/graphify) | AI coding assistant skill (Claude Code, Codex, Open Code, Cursor, Gemini CLI, Git Hub Copilot CLI, Open Claw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images... | `Python` ★ 52.6k | 2026-05-23 |
+| [manaflow-ai/manaflow](https://github.com/manaflow-ai/manaflow) | Open source Claude Code web/Codex Cloud/Devin/Ramp Inspect alternative | `TypeScript` ★ 1.1k | 2026-05-23 |
+| [openai/codex-universal](https://github.com/openai/codex-universal) | Base docker image used in Codex environments | `Dockerfile` ★ 922 | 2026-05-02 |

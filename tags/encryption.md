@@ -16,7 +16,7 @@
 | [Jonathanpatta/E2E-Encryption-Chat-App](https://github.com/Jonathanpatta/E2E-Encryption-Chat-App) | End-to-End Encryption Chat Application using Diffie Hellman Key Exchange protocol | `JavaScript` ★ 1 | 2021-11-27 |
 | [ljanyst/peroxide](https://github.com/ljanyst/peroxide) | A third-party Proton Mail bridge serving SMTP and IMAP | `Go` ★ 62 | 2023-01-27 |
 | [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | Cryptomator for Windows, mac OS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data. | `Java` ★ 15.2k | 2026-05-18 |
-| [ente-io/ente](https://github.com/ente-io/ente) | 💚 End-to-end encrypted cloud for everything. | `Dart` ★ 26.7k | 2026-05-22 |
+| [ente-io/ente](https://github.com/ente-io/ente) | 💚 End-to-end encrypted cloud for everything. | `Dart` ★ 26.7k | 2026-05-23 |
 | [netheril96/securefs](https://github.com/netheril96/securefs) | Filesystem in userspace (FUSE) with transparent authenticated encryption | `C++` ★ 820 | 2026-01-09 |
 | [neurodroid/cryptonite](https://github.com/neurodroid/cryptonite) | Enc FS and True Crypt on Android | `C` ★ 207 | 2019-06-24 |
 | [defuse/php-encryption](https://github.com/defuse/php-encryption) | Simple Encryption in PHP. | `PHP` ★ 3.9k | 2024-01-02 |
