@@ -31,9 +31,9 @@
 | [003random/getJS](https://github.com/003random/getJS) | A tool to fastly get all javascript sources/files | `Go` ★ 877 | 2025-07-04 |
 | [DFIRKuiper/Kuiper](https://github.com/DFIRKuiper/Kuiper) | Digital Forensics Investigation Platform | `JavaScript` ★ 887 | 2024-10-12 |
 | [microsoft/tolerant-php-parser](https://github.com/microsoft/tolerant-php-parser) | An early-stage PHP parser designed for IDE usage scenarios. | `PHP` ★ 895 | 2024-09-28 |
-| [guessit-io/guessit](https://github.com/guessit-io/guessit) | Guess It is a python library that extracts as much information as possible from a video filename. | `Python` ★ 910 | 2024-09-03 |
+| [guessit-io/guessit](https://github.com/guessit-io/guessit) | Guess It is a python library that extracts as much information as possible from a video filename. | `Python` ★ 911 | 2024-09-03 |
 | [APIDevTools/json-schema-ref-parser](https://github.com/APIDevTools/json-schema-ref-parser) | Parse, Resolve, and Dereference JSON Schema $ref pointers in Node and browsers | `TypeScript` ★ 1.1k | 2026-03-30 |
-| [collective/icalendar](https://github.com/collective/icalendar) | icalendar parser library for Python | `Python` ★ 1.1k | 2026-05-24 |
+| [collective/icalendar](https://github.com/collective/icalendar) | icalendar parser library for Python | `Python` ★ 1.1k | 2026-05-25 |
 | [meriyah/meriyah](https://github.com/meriyah/meriyah) | A 100% compliant, self-hosted javascript parser - https://meriyah.github.io/meriyah | `TypeScript` ★ 1.2k | 2026-05-01 |
 | [APIDevTools/swagger-parser](https://github.com/APIDevTools/swagger-parser) | Swagger 2.0 and Open API 3.0 parser/validator | `JavaScript` ★ 1.2k | 2025-11-14 |
 | [webtoon/psd](https://github.com/webtoon/psd) | Fast zero-dependency PSD parser for the web and Node.js | `TypeScript` ★ 1.3k | 2024-02-05 |

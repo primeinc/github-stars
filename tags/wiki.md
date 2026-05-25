@@ -11,4 +11,4 @@
 | [up-n-atom/PONwiki](https://github.com/up-n-atom/PONwiki) | Passive Optical Network WIKI | `HTML` ★ 198 | 2026-05-23 |
 | [Guilouz/Creality-Helper-Script-Wiki](https://github.com/Guilouz/Creality-Helper-Script-Wiki) | Wiki for Creality Helper Script | ★ 1.2k | 2026-04-13 |
 | [outline/outline](https://github.com/outline/outline) | The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible. | `TypeScript` ★ 38.6k | 2026-05-24 |
-| [Servarr/Wiki](https://github.com/Servarr/Wiki) | No description provided | `Python` ★ 613 | 2026-05-20 |
+| [Servarr/Wiki](https://github.com/Servarr/Wiki) | No description provided | `Python` ★ 613 | 2026-05-25 |

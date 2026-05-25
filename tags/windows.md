@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [lcromer97/PrinterManager](https://github.com/lcromer97/PrinterManager) | All in one tool to manage printers. Built to be used for Screen Connect's backstage | `C#` ★ 1 | 2026-03-23 |
-| [KnudsenMorten/SecurityInsight](https://github.com/KnudsenMorten/SecurityInsight) | Rethink Secure Score into a new risk-based security risk score, based on consequence, probability and risk factors. Solution includes critical asset tagging, ready-to-use reports (based on Defender... | `PowerShell` ★ 36 | 2026-05-23 |
+| [KnudsenMorten/SecurityInsight](https://github.com/KnudsenMorten/SecurityInsight) | Rethink Secure Score into a new risk-based security risk score, based on consequence, probability and risk factors. Solution includes critical asset tagging, ready-to-use reports (based on Defender... | `PowerShell` ★ 36 | 2026-05-24 |
 | [0x6d69636b/windows_hardening](https://github.com/0x6d69636b/windows_hardening) | Hardening Kitty and Windows Hardening Settings | `PowerShell` ★ 2.6k | 2026-04-10 |
 | [SoyITPro/scripts](https://github.com/SoyITPro/scripts) | Scripts para administradores de servidores Windows, Azure, Docker, Linux y más | `PowerShell` ★ 59 | 2026-04-28 |
 | [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 5.7k | 2026-05-24 |
@@ -30,19 +30,19 @@
 | [microsoft/WinAppDriver](https://github.com/microsoft/WinAppDriver) | Windows Application Driver | `C#` ★ 4k | 2025-04-14 |
 | [Xanashi/Icaros](https://github.com/Xanashi/Icaros) | Official issue tracker and download location for Icaros Shell Extensions | ★ 1.6k | 2026-04-02 |
 | [DesktopECHO/xWSL](https://github.com/DesktopECHO/xWSL) | Installer script for Ubuntu 22.04 / 24.04 with XFCE Desktop on WSL. Does not require hypervisor, container, or X11 server. | `Batchfile` ★ 355 | 2026-01-03 |
-| [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11... | `PowerShell` ★ 46.6k | 2026-05-20 |
-| [dorssel/usbipd-win](https://github.com/dorssel/usbipd-win) | Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2. | `C#` ★ 5.7k | 2026-05-23 |
+| [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11... | `PowerShell` ★ 46.7k | 2026-05-24 |
+| [dorssel/usbipd-win](https://github.com/dorssel/usbipd-win) | Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2. | `C#` ★ 5.7k | 2026-05-25 |
 | [ironmansoftware/gallery](https://github.com/ironmansoftware/gallery) | Public gallery of modules for Power Shell Universal | `PowerShell` ★ 87 | 2026-04-22 |
-| [VirtualDrivers/Virtual-Display-Driver](https://github.com/VirtualDrivers/Virtual-Display-Driver) | Add virtual monitors to your windows 10/11 device! Works with VR, OBS, Sunshine, and/or any desktop sharing software. | `C++` ★ 9.2k | 2026-05-18 |
+| [VirtualDrivers/Virtual-Display-Driver](https://github.com/VirtualDrivers/Virtual-Display-Driver) | Add virtual monitors to your windows 10/11 device! Works with VR, OBS, Sunshine, and/or any desktop sharing software. | `C++` ★ 9.3k | 2026-05-18 |
 | [winfsp/winfsp](https://github.com/winfsp/winfsp) | Windows File System Proxy - FUSE for Windows | `C` ★ 8.6k | 2026-05-18 |
-| [gerardog/gsudo](https://github.com/gerardog/gsudo) | Sudo for Windows | `C#` ★ 6k | 2026-05-20 |
+| [gerardog/gsudo](https://github.com/gerardog/gsudo) | Sudo for Windows | `C#` ★ 6k | 2026-05-24 |
 | [microsoft/sudo](https://github.com/microsoft/sudo) | It's sudo, for Windows | `Rust` ★ 5.8k | 2025-07-07 |
 | [mhammond/pywin32](https://github.com/mhammond/pywin32) | Python for Windows (pywin32) Extensions | `C++` ★ 5.6k | 2026-05-18 |
-| [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) | Bring mac OS “Quick Look” feature to Windows | `C#` ★ 23.5k | 2026-05-22 |
+| [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) | Bring mac OS “Quick Look” feature to Windows | `C#` ★ 23.6k | 2026-05-22 |
 | [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) | Everything integration for the Windows taskbar. | `C#` ★ 14.1k | 2026-05-19 |
 | [hwtnb/SylphyHornPlusWin11](https://github.com/hwtnb/SylphyHornPlusWin11) | Virtual Desktop Tools for Windows 11 and 10. | `C#` ★ 422 | 2024-12-24 |
 | [MScholtes/VirtualDesktop](https://github.com/MScholtes/VirtualDesktop) | C# command line tool to manage virtual desktops in Windows 10 | `C#` ★ 773 | 2025-08-12 |
-| [dankrusi/WindowsVirtualDesktopHelper](https://github.com/dankrusi/WindowsVirtualDesktopHelper) | App to help manage Virtual Desktops for Windows 10 and Windows 11 | `C#` ★ 848 | 2026-03-16 |
+| [dankrusi/WindowsVirtualDesktopHelper](https://github.com/dankrusi/WindowsVirtualDesktopHelper) | App to help manage Virtual Desktops for Windows 10 and Windows 11 | `C#` ★ 850 | 2026-03-16 |
 | [files-community/Files](https://github.com/files-community/Files) | A modern file manager that helps users organize their files and folders. | `C#` ★ 43.6k | 2026-05-22 |
 | [rcmaehl/MSEdgeRedirect](https://github.com/rcmaehl/MSEdgeRedirect) | A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Browser | `AutoIt` ★ 5.8k | 2026-04-13 |
 | [KjetilSv/Win10As](https://github.com/KjetilSv/Win10As) | Make your windows 10 computer IOT friendly | `C#` ★ 232 | 2022-12-08 |

@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `Python` ★ 164.6k | 2026-05-24 |
-| [MCPJam/inspector](https://github.com/MCPJam/inspector) | Development platform to debug, chat, inspect, and evaluate MCP servers, MCP apps, and Chat GPT apps. | `TypeScript` ★ 2k | 2026-05-24 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `Python` ★ 166k | 2026-05-25 |
+| [MCPJam/inspector](https://github.com/MCPJam/inspector) | Development platform to debug, chat, inspect, and evaluate MCP servers, MCP apps, and Chat GPT apps. | `TypeScript` ★ 2k | 2026-05-25 |
 | [pionxzh/chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) | Export and Share your Chat GPT conversation history | `TypeScript` ★ 2.5k | 2026-05-12 |
 | [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 10k | 2026-05-24 |
 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best Chat GPT that $100 can buy. | `Python` ★ 54.1k | 2026-05-05 |

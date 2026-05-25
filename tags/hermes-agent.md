@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [Ridwannurudeen/hermes-council](https://github.com/Ridwannurudeen/hermes-council) | Adversarial multi-perspective council MCP server for hermes-agent | `Python` ★ 29 | 2026-05-11 |
-| [raulvidis/hermes-android](https://github.com/raulvidis/hermes-android) | Android device control for hermes-agent — bridge app + Python toolset | `Python` ★ 203 | 2026-05-23 |
+| [raulvidis/hermes-android](https://github.com/raulvidis/hermes-android) | Android device control for hermes-agent — bridge app + Python toolset | `Python` ★ 204 | 2026-05-24 |

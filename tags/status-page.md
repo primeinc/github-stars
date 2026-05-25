@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [TwiN/gatus](https://github.com/TwiN/gatus) | Automated developer-oriented status page with alerting and incident support | `Go` ★ 11k | 2026-05-22 |
-| [upptime/upptime](https://github.com/upptime/upptime) | ⬆️ Git Hub Actions uptime monitor & status page by @Anand Chowdhary | `Markdown` ★ 17k | 2026-05-24 |
+| [upptime/upptime](https://github.com/upptime/upptime) | ⬆️ Git Hub Actions uptime monitor & status page by @Anand Chowdhary | `Markdown` ★ 17k | 2026-05-25 |

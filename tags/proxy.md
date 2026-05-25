@@ -6,11 +6,11 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Diniboy1123/usque](https://github.com/Diniboy1123/usque) | Open-source reimplementation of the Cloudflare WARP client's MASQUE protocol. | `Go` ★ 976 | 2026-04-21 |
-| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 120.4k | 2026-05-23 |
+| [Diniboy1123/usque](https://github.com/Diniboy1123/usque) | Open-source reimplementation of the Cloudflare WARP client's MASQUE protocol. | `Go` ★ 978 | 2026-04-21 |
+| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 120.6k | 2026-05-25 |
 | [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app) | Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | `Dart` ★ 29.9k | 2026-04-01 |
-| [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses. | `Go` ★ 38.9k | 2026-05-23 |
+| [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses. | `Go` ★ 38.9k | 2026-05-25 |
 | [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 1.6k | 2026-01-07 |
 | [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) | A platform for building proxies to bypass network restrictions. | `Go` ★ 46.9k | 2026-04-24 |
-| [fosrl/pangolin](https://github.com/fosrl/pangolin) | Identity-aware VPN and proxy for remote access to anything, anywhere. | `TypeScript` ★ 20.9k | 2026-05-23 |
+| [fosrl/pangolin](https://github.com/fosrl/pangolin) | Identity-aware VPN and proxy for remote access to anything, anywhere. | `TypeScript` ★ 20.9k | 2026-05-25 |
 | [arunoda/meteor-ddp-analyzer](https://github.com/arunoda/meteor-ddp-analyzer) | Simple DDP Proxy which logs DDP messages | `JavaScript` ★ 151 | 2014-08-15 |

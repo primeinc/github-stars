@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [microsoft/beachball](https://github.com/microsoft/beachball) | The Sunniest Semantic Version Bumper | `TypeScript` ★ 814 | 2026-05-21 |
-| [go-gitea/gitea](https://github.com/go-gitea/gitea) | Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD | `Go` ★ 55.9k | 2026-05-24 |
+| [go-gitea/gitea](https://github.com/go-gitea/gitea) | Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD | `Go` ★ 55.9k | 2026-05-25 |
 | [rtfpessoa/diff2html](https://github.com/rtfpessoa/diff2html) | Pretty diff to html javascript library (diff2html) | `TypeScript` ★ 3.4k | 2026-05-08 |
 | [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | `Go` ★ 78.4k | 2026-05-21 |
 | [thesephist/superstat](https://github.com/thesephist/superstat) | Git status + diff across every repo in a directory | `Makefile` ★ 41 | 2026-03-07 |

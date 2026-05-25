@@ -10,7 +10,7 @@
 | [rodrigouroz/housing_scrapper](https://github.com/rodrigouroz/housing_scrapper) | A script to scrap housing listings sites | `Python` ★ 92 | 2024-08-17 |
 | [laurenshareshian/home_price_estimator](https://github.com/laurenshareshian/home_price_estimator) | Uses Zillow metadata, NLP on realtor description, and VGG16 on home images to predict home sale prices in Portland from 6/16 - 7/17. | `Jupyter Notebook` ★ 64 | 2017-09-10 |
 | [pangrr/realtor](https://github.com/pangrr/realtor) | crawl house data from realtor.com | `Python` ★ 7 | 2015-05-27 |
-| [pablotanner/RealtorRocket](https://github.com/pablotanner/RealtorRocket) | Real Estate Management Software | `JavaScript` ★ 22 | 2024-09-04 |
+| [pablotanner/RealtorRocket](https://github.com/pablotanner/RealtorRocket) | Real Estate Management Software | `JavaScript` ★ 23 | 2024-09-04 |
 | [Exclusiveideas/Realtor](https://github.com/Exclusiveideas/Realtor) | A real-estate website with realtime data and information on houses for rent and for sale. | `JavaScript` ★ 38 | 2022-11-21 |
 | [Froren/realtorca](https://github.com/Froren/realtorca) | API wrapper for realtor.ca MLS website | `JavaScript` ★ 210 | 2022-06-11 |
 | [baizel36/property_search](https://github.com/baizel36/property_search) | Python scripts to search for real estate on realtor.com and zillow.com | `Python` ★ 14 | 2021-11-13 |

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [tensorzero/tensorzero](https://github.com/tensorzero/tensorzero) | Tensor Zero is an open-source stack for industrial-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluation, and experimentation. | `Rust` ★ 11.4k | 2026-05-23 |
-| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | Label Studio is a multi-type data labeling and annotation tool with standardized output format | `TypeScript` ★ 27.4k | 2026-05-22 |
+| [tensorzero/tensorzero](https://github.com/tensorzero/tensorzero) | Tensor Zero is an open-source stack for industrial-grade LLM applications. It unifies an LLM gateway, observability, optimization, evaluation, and experimentation. | `Rust` ★ 11.4k | 2026-05-24 |
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | Label Studio is a multi-type data labeling and annotation tool with standardized output format | `TypeScript` ★ 27.4k | 2026-05-25 |

@@ -11,4 +11,4 @@
 | [Grabacr07/VirtualDesktop](https://github.com/Grabacr07/VirtualDesktop) | C# wrapper for the Virtual Desktop API on Windows 11. | `C#` ★ 693 | 2024-09-03 |
 | [MScholtes/VirtualDesktop](https://github.com/MScholtes/VirtualDesktop) | C# command line tool to manage virtual desktops in Windows 10 | `C#` ★ 773 | 2025-08-12 |
 | [MScholtes/PSVirtualDesktop](https://github.com/MScholtes/PSVirtualDesktop) | Virtual Desktop is a Powershell module that provides commandlets to manage virtual desktops of Windows 10. | `PowerShell` ★ 381 | 2025-08-25 |
-| [dankrusi/WindowsVirtualDesktopHelper](https://github.com/dankrusi/WindowsVirtualDesktopHelper) | App to help manage Virtual Desktops for Windows 10 and Windows 11 | `C#` ★ 848 | 2026-03-16 |
+| [dankrusi/WindowsVirtualDesktopHelper](https://github.com/dankrusi/WindowsVirtualDesktopHelper) | App to help manage Virtual Desktops for Windows 10 and Windows 11 | `C#` ★ 850 | 2026-03-16 |
