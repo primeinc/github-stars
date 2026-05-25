@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-25T04:44:42.185Z'
+  manifest_updated_at: '2026-05-25T04:45:16.147Z'
   total_repos: 2652
   generator_version: v1.0.0
   github_user: primeinc
@@ -108450,13 +108450,16 @@ repositories:
       prompt_version: v3
   - repo: google/A2UI
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - dev-tools
+    tags:
+      - frontend-framework
+      - lang:ts
     summary: No description provided
     last_synced_sha: 305336f137034922053874471d95614a3831e186
     user_starred_at: '2026-05-25T01:15:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -108473,15 +108476,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-25T04:45:14.987Z'
+      prompt_version: v3
   - repo: pydantic/pydantic-ai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - frameworks
+    tags:
+      - agent-framework
+      - genai
+      - llm
+      - lang:python
     summary: AI Agent Framework, the Pydantic way
     last_synced_sha: 2f8868895c42c3c2183dae32bdae76082e0bc54b
     user_starred_at: '2026-05-25T01:15:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -108505,15 +108518,25 @@ repositories:
         published_at: '2026-05-23T01:02:38Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-25T04:45:14.986Z'
+      prompt_version: v3
   - repo: ag-ui-protocol/ag-ui
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+    tags:
+      - agent-ui
+      - agentic-workflow
+      - ai-agents
+      - lang:python
     summary: 'AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.'
     last_synced_sha: f49322bfa7c6a857dba89add5660baf4280aafe2
     user_starred_at: '2026-05-24T22:46:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -108537,15 +108560,25 @@ repositories:
         published_at: '2026-05-22T15:27:40Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-25T04:45:14.986Z'
+      prompt_version: v3
   - repo: jeffijoe/awilix
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - frameworks
+    tags:
+      - dependency-injection
+      - ioc
+      - nodejs
+      - lang:ts
     summary: Extremely powerful Inversion of Control (Io C) container for Node.JS
     last_synced_sha: ae94bfd9635cc27acd4c40048f958bd550264f69
     user_starred_at: '2026-05-24T13:53:37Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -108568,3 +108601,8 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-25T04:45:14.986Z'
+      prompt_version: v3
