@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 30.6k | 2026-05-24 |
-| [wigggle-ui/ui](https://github.com/wigggle-ui/ui) | A beautiful collection of copy-and-paste widgets for your next project. | `TypeScript` ★ 858 | 2026-02-26 |
+| [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 30.6k | 2026-05-26 |
+| [wigggle-ui/ui](https://github.com/wigggle-ui/ui) | A beautiful collection of copy-and-paste widgets for your next project. | `TypeScript` ★ 860 | 2026-02-26 |

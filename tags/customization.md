@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [memstechtips/Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | `C#` ★ 10.4k | 2026-05-22 |
-| [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 36k | 2026-05-24 |
+| [memstechtips/Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | `C#` ★ 10.5k | 2026-05-25 |
+| [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 36k | 2026-05-25 |
 | [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom input pattern highlighters, custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art... | `TypeScript` ★ 2.1k | 2026-05-24 |
 | [aleks-apostle/claude-code-patches](https://github.com/aleks-apostle/claude-code-patches) | A simple patch that toggles claude-code thinking traces to be fully expanded by default without having to press ctrl + o | `JavaScript` ★ 65 | 2025-12-09 |
 | [joelshepherd/tabliss](https://github.com/joelshepherd/tabliss) | A beautiful, customisable New Tab page for Firefox, Chrome, and Edge. | `TypeScript` ★ 2.8k | 2024-08-19 |

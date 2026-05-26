@@ -7,5 +7,5 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [ohmjs/ohm](https://github.com/ohmjs/ohm) | A library and language for building parsers, interpreters, compilers, etc. | `JavaScript` ★ 5.5k | 2026-05-06 |
-| [rescript-lang/rescript](https://github.com/rescript-lang/rescript) | Re Script is a robustly typed language that compiles to efficient and human-readable Java Script. | `ReScript` ★ 7.4k | 2026-05-22 |
+| [rescript-lang/rescript](https://github.com/rescript-lang/rescript) | Re Script is a robustly typed language that compiles to efficient and human-readable Java Script. | `ReScript` ★ 7.4k | 2026-05-23 |
 | [BuilderIO/mitosis](https://github.com/BuilderIO/mitosis) | Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. | `TypeScript` ★ 13.8k | 2026-01-13 |

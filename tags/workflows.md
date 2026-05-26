@@ -6,11 +6,11 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern Type Script stack. | `TypeScript` ★ 24.3k | 2026-05-25 |
+| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern Type Script stack. | `TypeScript` ★ 24.3k | 2026-05-26 |
 | [zorazrw/workflow-induction-toolkit](https://github.com/zorazrw/workflow-induction-toolkit) | A toolkit to induce interpretable workflows from raw computer-use activities. | `Python` ★ 44 | 2025-11-13 |
-| [githubnext/agentics](https://github.com/githubnext/agentics) | A sample pack of Git Hub Agentic Workflows! | `Makefile` ★ 718 | 2026-05-19 |
-| [different-ai/openwork](https://github.com/different-ai/openwork) | An open-source alternative to Claude Cowork, powered by Open Code | `TypeScript` ★ 15.5k | 2026-05-25 |
-| [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) | Automate browser based workflows with AI | `Python` ★ 21.7k | 2026-05-25 |
+| [githubnext/agentics](https://github.com/githubnext/agentics) | A sample pack of Git Hub Agentic Workflows! | `Makefile` ★ 722 | 2026-05-19 |
+| [different-ai/openwork](https://github.com/different-ai/openwork) | An open-source alternative to Claude Cowork, powered by Open Code | `TypeScript` ★ 15.5k | 2026-05-26 |
+| [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) | Automate browser based workflows with AI | `Python` ★ 21.7k | 2026-05-26 |
 | [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows) | all of the workflows of n8n i could find (also from the site itself) | `Python` ★ 54.7k | 2026-02-11 |
 | [elsa-workflows/elsa-core](https://github.com/elsa-workflows/elsa-core) | A .NET workflows library | `C#` ★ 7.8k | 2026-05-25 |
 | [wshobson/commands](https://github.com/wshobson/commands) | A collection of production-ready slash commands for Claude Code | ★ 2.5k | 2025-10-12 |

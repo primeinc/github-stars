@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. | `Python` ★ 13.8k | 2026-05-23 |
-| [outsourc-e/hermes-workspace](https://github.com/outsourc-e/hermes-workspace) | Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector. | `JavaScript` ★ 4.8k | 2026-05-24 |
+| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. | `Python` ★ 13.8k | 2026-05-26 |
+| [outsourc-e/hermes-workspace](https://github.com/outsourc-e/hermes-workspace) | Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector. | `JavaScript` ★ 4.9k | 2026-05-24 |

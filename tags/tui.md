@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 3.9k | 2026-05-22 |
-| [agavra/tuicr](https://github.com/agavra/tuicr) | a terminal UI for local code review | `Rust` ★ 849 | 2026-05-24 |
-| [AlexsJones/llmserve](https://github.com/AlexsJones/llmserve) | A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it | `Rust` ★ 251 | 2026-05-10 |
+| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 4k | 2026-05-25 |
+| [agavra/tuicr](https://github.com/agavra/tuicr) | a terminal UI for local code review | `Rust` ★ 855 | 2026-05-25 |
+| [AlexsJones/llmserve](https://github.com/AlexsJones/llmserve) | A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it | `Rust` ★ 253 | 2026-05-10 |
 | [ymtdzzz/otel-tui](https://github.com/ymtdzzz/otel-tui) | A terminal Open Telemetry viewer inspired by otel-desktop-viewer | `Go` ★ 1k | 2026-05-25 |
 | [curtosis-org/phub-cli](https://github.com/curtosis-org/phub-cli) | Terminal-based Porn Hub browser inspired by ani-cli. Browse categories, search videos, and stream instantly in mpv without opening a browser. | `Shell` ★ 147 | 2026-04-29 |
 | [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | A powerful little TUI framework 🏗 | `Go` ★ 42.7k | 2026-05-18 |

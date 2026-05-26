@@ -8,5 +8,5 @@
 |---|---|---|---|
 | [frostybee/starlight-tags](https://github.com/frostybee/starlight-tags) | A plugin to add tags to your Starlight docs for content organization and discovery. | `TypeScript` ★ 13 | 2026-04-09 |
 | [satnaing/astro-paper](https://github.com/satnaing/astro-paper) | A minimal, accessible and SEO-friendly Astro blog theme | `Astro` ★ 4.7k | 2026-05-22 |
-| [withastro/astro](https://github.com/withastro/astro) | The web framework for content-driven websites. ⭐️ Star to support our work! | `TypeScript` ★ 59.5k | 2026-05-23 |
-| [withastro/starlight](https://github.com/withastro/starlight) | 🌟 Build beautiful, accessible, high-performance documentation websites with Astro | `TypeScript` ★ 8.5k | 2026-05-22 |
+| [withastro/astro](https://github.com/withastro/astro) | The web framework for content-driven websites. ⭐️ Star to support our work! | `TypeScript` ★ 59.6k | 2026-05-25 |
+| [withastro/starlight](https://github.com/withastro/starlight) | 🌟 Build beautiful, accessible, high-performance documentation websites with Astro | `TypeScript` ★ 8.5k | 2026-05-25 |

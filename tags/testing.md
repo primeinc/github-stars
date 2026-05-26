@@ -1,11 +1,12 @@
 # Tag: testing
 
-*3 repositories*
+*4 repositories*
 
 [← Back to Index](../README.md)
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) | CLI to control i OS and Android devices for AI agents | `TypeScript` ★ 2.2k | 2026-05-22 |
+| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 912 | 2026-05-25 |
+| [callstackincubator/agent-device](https://github.com/callstackincubator/agent-device) | CLI to control i OS and Android devices for AI agents | `TypeScript` ★ 2.3k | 2026-05-25 |
 | [dorny/test-reporter](https://github.com/dorny/test-reporter) | Displays test results from popular testing frameworks directly in Git Hub | `TypeScript` ★ 1.2k | 2026-05-21 |
 | [spatie/laravel-mail-preview](https://github.com/spatie/laravel-mail-preview) | A mail driver to quickly preview mail | `PHP` ★ 1.3k | 2026-05-21 |

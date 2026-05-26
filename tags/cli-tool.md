@@ -14,5 +14,5 @@
 | [charmbracelet/vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder 📼 | `Go` ★ 19.8k | 2026-05-04 |
 | [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) | Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command. | `JavaScript` ★ 1.9k | 2026-05-23 |
 | [raine/anki-llm](https://github.com/raine/anki-llm) | A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs. | `Rust` ★ 254 | 2026-05-10 |
-| [Y2Z/monolith](https://github.com/Y2Z/monolith) | ⬛️ CLI tool and library for saving complete web pages as a single HTML file | `Rust` ★ 15.1k | 2026-05-01 |
+| [Y2Z/monolith](https://github.com/Y2Z/monolith) | ⬛️ CLI tool and library for saving complete web pages as a single HTML file | `Rust` ★ 15.1k | 2026-05-25 |
 | [copilot-extensions/gh-debug-cli](https://github.com/copilot-extensions/gh-debug-cli) | CLI tool that lets you chat with your agent locally for faster feedback and debugging | `Go` ★ 34 | 2024-11-21 |

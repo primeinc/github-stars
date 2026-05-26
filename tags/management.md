@@ -10,5 +10,5 @@
 | [stacklok/toolhive](https://github.com/stacklok/toolhive) | Tool Hive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers. | `Go` ★ 1.8k | 2026-05-25 |
 | [joelhooks/swarm-tools](https://github.com/joelhooks/swarm-tools) | 🐝 Multi-agent swarm coordination for Open Code with learning capabilities, agent issue tracking, and management | `TypeScript` ★ 681 | 2026-05-21 |
 | [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | Get 10X more out of Claude Code, Codex or any coding agent | `Rust` ★ 26.5k | 2026-04-24 |
-| [Dictionarry-Hub/profilarr](https://github.com/Dictionarry-Hub/profilarr) | Configuration Management Platform for Radarr/Sonarr | `TypeScript` ★ 2.3k | 2026-05-24 |
+| [Dictionarry-Hub/profilarr](https://github.com/Dictionarry-Hub/profilarr) | Configuration Management Platform for Radarr/Sonarr | `TypeScript` ★ 2.3k | 2026-05-25 |
 | [FR33THYFR33THY/Ultimate](https://github.com/FR33THYFR33THY/Ultimate) | No description provided | `PowerShell` ★ 609 | 2026-04-22 |
