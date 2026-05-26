@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-26T04:38:39.122Z'
+  manifest_updated_at: '2026-05-26T04:39:10.060Z'
   total_repos: 2653
   generator_version: v1.0.0
   github_user: primeinc
@@ -108611,13 +108611,18 @@ repositories:
       prompt_version: v3
   - repo: microsoft/waza
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - dev-tools
+    tags:
+      - cli
+      - agent-skills
+      - testing
+      - lang:go
     summary: CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness
     last_synced_sha: 84a573637aeb964e74c0f89df3aae149a8bbfd86
     user_starred_at: '2026-05-25T21:37:20Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -108636,3 +108641,8 @@ repositories:
         published_at: '2026-05-21T19:54:43Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-26T04:39:08.924Z'
+      prompt_version: v3
