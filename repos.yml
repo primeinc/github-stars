@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-27T04:44:00.204Z'
+  manifest_updated_at: '2026-05-27T04:44:30.513Z'
   total_repos: 2653
   generator_version: v1.0.0
   github_user: primeinc
@@ -108598,13 +108598,19 @@ repositories:
       prompt_version: v3
   - repo: paperboytm/spool
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+      - productivity
+    tags:
+      - ai-agents
+      - full-text-search
+      - local-first
+      - lang:ts
     summary: Your local AI session library. Collects sessions from Claude Code, Codex CLI, Gemini CLI (and more) — browsable and ⌘K-searchable.
     last_synced_sha: cf0d9ffeb6f5fd7ce273a5b46082e43cb44f3371
     user_starred_at: '2026-04-09T13:37:19Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -108637,3 +108643,8 @@ repositories:
         published_at: '2026-05-21T06:19:30Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-27T04:44:29.320Z'
+      prompt_version: v3
