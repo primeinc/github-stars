@@ -8,4 +8,4 @@
 |---|---|---|---|
 | [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 9.6k | 2026-05-21 |
 | [amantus-ai/vibetunnel](https://github.com/amantus-ai/vibetunnel) | Turn any browser into your terminal & command your agents on the go. | `TypeScript` ★ 4.5k | 2026-05-14 |
-| [bsharper/atv-desktop-remote](https://github.com/bsharper/atv-desktop-remote) | A simple app to allow you to control an Apple TV from your desktop | `JavaScript` ★ 540 | 2026-03-29 |
+| [bsharper/atv-desktop-remote](https://github.com/bsharper/atv-desktop-remote) | A simple app to allow you to control an Apple TV from your desktop | `JavaScript` ★ 541 | 2026-03-29 |

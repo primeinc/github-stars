@@ -6,10 +6,10 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) | A source-available invoice, quote, project and time-tracking app built with Laravel | `PHP` ★ 9.8k | 2026-05-26 |
+| [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) | A source-available invoice, quote, project and time-tracking app built with Laravel | `PHP` ★ 9.8k | 2026-05-27 |
 | [ericmakesstuff/laravel-server-monitor](https://github.com/ericmakesstuff/laravel-server-monitor) | Server Monitoring Command for Laravel Applications | `PHP` ★ 426 | 2019-08-15 |
 | [themsaid/laravel-langman](https://github.com/themsaid/laravel-langman) | Language files manager in your artisan console. | `PHP` ★ 873 | 2024-03-30 |
-| [mpociot/laravel-test-factory-helper](https://github.com/mpociot/laravel-test-factory-helper) | Generate Laravel test factories from your existing models | `PHP` ★ 930 | 2024-01-18 |
+| [mpociot/laravel-test-factory-helper](https://github.com/mpociot/laravel-test-factory-helper) | Generate Laravel test factories from your existing models | `PHP` ★ 929 | 2024-01-18 |
 | [teepluss/laravel-theme](https://github.com/teepluss/laravel-theme) | Theme and asset managing for laravel | `PHP` ★ 542 | 2021-08-26 |
 | [spatie/laravel-mail-preview](https://github.com/spatie/laravel-mail-preview) | A mail driver to quickly preview mail | `PHP` ★ 1.3k | 2026-05-21 |
 | [snowfire/Beautymail](https://github.com/snowfire/Beautymail) | Send beautiful HTML emails with Laravel | `Blade` ★ 1.3k | 2025-03-06 |

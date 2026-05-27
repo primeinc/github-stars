@@ -6,11 +6,11 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5.2k | 2026-05-25 |
+| [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5.2k | 2026-05-27 |
 | [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | AI → JSON → UI | `TypeScript` ★ 14.9k | 2026-05-20 |
 | [microsoft/data-formulator](https://github.com/microsoft/data-formulator) | 🪄 Create rich visualizations with AI | `TypeScript` ★ 15.7k | 2026-05-26 |
 | [Quaggles/SwarmUI-FaceTools](https://github.com/Quaggles/SwarmUI-FaceTools) | A Swarm UI extension that adds parameters for Re Actor to the the generate tab | `C#` ★ 28 | 2026-05-09 |
-| [MCP-UI-Org/mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP. Create next-gen UI experiences with the protocol and SDK! | `TypeScript` ★ 4.8k | 2026-05-09 |
+| [MCP-UI-Org/mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) | UI over MCP. Create next-gen UI experiences with the protocol and SDK! | `TypeScript` ★ 4.9k | 2026-05-09 |
 | [microsoft/magentic-ui](https://github.com/microsoft/magentic-ui) | A research prototype of a human-centered web agent | `Python` ★ 9.9k | 2026-05-21 |
 | [dcordero/FocusTvButton](https://github.com/dcordero/FocusTvButton) | Light wrapper of UIButton that allows extra customization for tv OS | `Swift` ★ 77 | 2026-04-08 |
 | [sveltestrap/sveltestrap](https://github.com/sveltestrap/sveltestrap) | Bootstrap 5 components for Svelte 4+ | `Svelte` ★ 211 | 2026-01-28 |

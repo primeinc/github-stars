@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [playcanvas/supersplat](https://github.com/playcanvas/supersplat) | 3D Gaussian Splat Editor | `TypeScript` ★ 8.6k | 2026-05-25 |
-| [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) | A cross-platform, safe, pure-Rust graphics API. | `Rust` ★ 17.2k | 2026-05-25 |
+| [playcanvas/supersplat](https://github.com/playcanvas/supersplat) | 3D Gaussian Splat Editor | `TypeScript` ★ 8.6k | 2026-05-26 |
+| [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) | A cross-platform, safe, pure-Rust graphics API. | `Rust` ★ 17.2k | 2026-05-26 |

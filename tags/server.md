@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [googleapis/gcloud-mcp](https://github.com/googleapis/gcloud-mcp) | gcloud MCP server | `TypeScript` ★ 799 | 2026-05-22 |
-| [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | MCP Toolbox for Databases is an open source MCP server for databases. | `Go` ★ 15.3k | 2026-05-25 |
-| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Model Context Protocol Servers | `TypeScript` ★ 86.2k | 2026-05-21 |
+| [googleapis/gcloud-mcp](https://github.com/googleapis/gcloud-mcp) | gcloud MCP server | `TypeScript` ★ 802 | 2026-05-23 |
+| [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | MCP Toolbox for Databases is an open source MCP server for databases. | `Go` ★ 15.4k | 2026-05-27 |
+| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Model Context Protocol Servers | `TypeScript` ★ 86.3k | 2026-05-21 |
 | [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 59k | 2026-05-25 |
 | [tariqbuilds/linux-dash](https://github.com/tariqbuilds/linux-dash) | A beautiful web dashboard for Linux | `JavaScript` ★ 10.6k | 2024-04-16 |

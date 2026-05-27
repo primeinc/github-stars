@@ -2,20 +2,20 @@
 
 > A curated list of **2653** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-05-26
+Last updated: 2026-05-27
 
 ## ⭐ Recently Starred
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 912 | 2026-05-25 |
-| [google/A2UI](https://github.com/google/A2UI) | No description provided | `TypeScript` ★ 15k | 2026-05-22 |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | AI Agent Framework, the Pydantic way | `Python` ★ 17.3k | 2026-05-26 |
-| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. | `Python` ★ 13.8k | 2026-05-26 |
+| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 927 | 2026-05-26 |
+| [google/A2UI](https://github.com/google/A2UI) | No description provided | `TypeScript` ★ 15k | 2026-05-26 |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | AI Agent Framework, the Pydantic way | `Python` ★ 17.3k | 2026-05-27 |
+| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. | `TypeScript` ★ 13.9k | 2026-05-27 |
 | [jeffijoe/awilix](https://github.com/jeffijoe/awilix) | Extremely powerful Inversion of Control (Io C) container for Node.JS | `TypeScript` ★ 4.2k | 2026-05-09 |
 | [yunwei37/AI-GitHub-Profile-Generator](https://github.com/yunwei37/AI-GitHub-Profile-Generator) | AI-Driven Git Hub Profile Readme Generation with GPT | `TypeScript` ★ 37 | 2025-01-03 |
 | [MicrosoftRajan/EpifiShare](https://github.com/MicrosoftRajan/EpifiShare) | No description provided | `TypeScript` ★ 2 | 2026-05-16 |
-| [sgl-project/sglang](https://github.com/sgl-project/sglang) | SGLang is a high-performance serving framework for large language models and multimodal models. | `Python` ★ 28.3k | 2026-05-26 |
+| [sgl-project/sglang](https://github.com/sgl-project/sglang) | SGLang is a high-performance serving framework for large language models and multimodal models. | `Python` ★ 28.3k | 2026-05-27 |
 | [sweetpad-dev/sweetpad](https://github.com/sweetpad-dev/sweetpad) | Develop Swift/i OS projects using VSCode | `TypeScript` ★ 1.8k | 2026-05-24 |
 | [casey/just](https://github.com/casey/just) | 🤖 Just a command runner | `Rust` ★ 33.9k | 2026-05-23 |
 
@@ -28,7 +28,7 @@ Last updated: 2026-05-26
 
 | | | |
 |---|---|---|
-| [ai-ml](categories/ai-ml.md) (729) | [productivity](categories/productivity.md) (570) | [dev-tools](categories/dev-tools.md) (385) |
+| [ai-ml](categories/ai-ml.md) (729) | [productivity](categories/productivity.md) (571) | [dev-tools](categories/dev-tools.md) (385) |
 | [web-dev](categories/web-dev.md) (375) | [automation](categories/automation.md) (300) | [security](categories/security.md) (265) |
 | [ui-libraries](categories/ui-libraries.md) (258) | [system-admin](categories/system-admin.md) (240) | [data-science](categories/data-science.md) (237) |
 | [desktop-dev](categories/desktop-dev.md) (217) | [apis](categories/apis.md) (200) | [documentation](categories/documentation.md) (193) |
