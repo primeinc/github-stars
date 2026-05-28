@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [honojs/hono](https://github.com/honojs/hono) | Web framework built on Web Standards | `TypeScript` ★ 30.6k | 2026-05-25 |
-| [rails/rails](https://github.com/rails/rails) | Ruby on Rails | `Ruby` ★ 58.5k | 2026-05-26 |
+| [honojs/hono](https://github.com/honojs/hono) | Web framework built on Web Standards | `TypeScript` ★ 30.7k | 2026-05-25 |
+| [rails/rails](https://github.com/rails/rails) | Ruby on Rails | `Ruby` ★ 58.5k | 2026-05-28 |
 | [jarves/jarves](https://github.com/jarves/jarves) | Jarves CMS/Application Framework based on Symfony - Alpha material | `JavaScript` ★ 330 | 2018-07-17 |
