@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-28T04:42:14.688Z'
+  manifest_updated_at: '2026-05-28T04:42:43.164Z'
   total_repos: 2655
   generator_version: v1.0.0
   github_user: primeinc
@@ -108652,13 +108652,19 @@ repositories:
       prompt_version: v3
   - repo: ozgrozer/ai-renamer
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - cli-tool
+      - lang:js
+      - file-management
+      - machine-learning
+      - lm-studio
     summary: A Node.js CLI that uses Ollama and LM Studio models (Llava, Gemma, Llama etc.) to intelligently rename files by their contents
     last_synced_sha: f45d4f64cb14d33f5791e573c54843029ccb55b7
     user_starred_at: '2026-05-27T21:07:48Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -108688,15 +108694,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-28T04:42:42.527Z'
+      prompt_version: v3
   - repo: Beledarian/Beledarians_LM_Studio_Toolbox
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - ai-assistant
+      - tools
+      - lang:ts
+      - llm
+      - enhancement
     summary: This project is a plugin for LM Studio that provides a rich set of tools to a large language model. It allows the LLM to interact with your local file system, execute code, access the internet, and...
     last_synced_sha: d7f8b25d4ecce56533c470f91e59b9f44b7d2197
     user_starred_at: '2026-05-27T21:07:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -108721,3 +108738,8 @@ repositories:
         published_at: '2026-05-04T14:35:49Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-28T04:42:42.527Z'
+      prompt_version: v3
