@@ -10,4 +10,4 @@
 | [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) | Desktop App for downloading Videos and Audios from hundreds of sites | `JavaScript` ★ 9.6k | 2026-04-21 |
 | [Tyrrrz/YoutubeDownloader](https://github.com/Tyrrrz/YoutubeDownloader) | Downloads videos and playlists from You Tube | `C#` ★ 15.1k | 2026-05-26 |
 | [lplassman/FFMPEG-NDI](https://github.com/lplassman/FFMPEG-NDI) | FFMPEG with NDI support | `C` ★ 82 | 2026-03-02 |
-| [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | The swiss army knife of lossless video/audio editing | `TypeScript` ★ 40.7k | 2026-05-23 |
+| [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | The swiss army knife of lossless video/audio editing | `TypeScript` ★ 40.8k | 2026-05-28 |

@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [r0adkll/upload-google-play](https://github.com/r0adkll/upload-google-play) | A Git Hub action to upload an Android .apk or .aab file to the Google Play Console | `JavaScript` ★ 1k | 2026-05-23 |
+| [r0adkll/upload-google-play](https://github.com/r0adkll/upload-google-play) | A Git Hub action to upload an Android .apk or .aab file to the Google Play Console | `JavaScript` ★ 1k | 2026-05-28 |
 | [crazystylus/otadump](https://github.com/crazystylus/otadump) | Extract partitions from Android OTA files. | `Rust` ★ 209 | 2026-04-13 |
 | [droidrun/mobilerun](https://github.com/droidrun/mobilerun) | Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖 | `Python` ★ 8.4k | 2026-05-27 |
 | [expo/expo](https://github.com/expo/expo) | An open-source framework for making universal native apps with React. Expo runs on Android, i OS, and the web. | `TypeScript` ★ 49.7k | 2026-05-28 |

@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [jgarzik/hk](https://github.com/jgarzik/hk) | A modern, Linux compatible OS kernel | `Rust` ★ 351 | 2025-12-30 |
 | [xxh/xxh](https://github.com/xxh/xxh) | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | `Python` ★ 6k | 2026-04-12 |
-| [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | An evolving how-to guide for securing a Linux server. | ★ 27.5k | 2026-03-05 |
+| [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | An evolving how-to guide for securing a Linux server. | ★ 27.6k | 2026-03-05 |
 | [SuperCuber/dotter](https://github.com/SuperCuber/dotter) | A dotfile manager and templater written in rust 🦀 | `Rust` ★ 2k | 2026-04-21 |
 | [TibixDev/winboat](https://github.com/TibixDev/winboat) | Run Windows apps on 🐧 Linux with ✨ seamless integration | `TypeScript` ★ 21.4k | 2026-05-14 |
 | [DesktopECHO/xWSL](https://github.com/DesktopECHO/xWSL) | Installer script for Ubuntu 22.04 / 24.04 with XFCE Desktop on WSL. Does not require hypervisor, container, or X11 server. | `Batchfile` ★ 355 | 2026-01-03 |

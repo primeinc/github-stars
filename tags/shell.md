@@ -9,14 +9,14 @@
 | [gryffus/explainshell-api](https://github.com/gryffus/explainshell-api) | JSON API for explainshell — structured shell command explanations for dev tools and UIs. | `Python` ★ 4 | 2025-05-07 |
 | [idank/explainshell-manpages](https://github.com/idank/explainshell-manpages) | source man pages for explainshell.com | ★ 18 | 2026-04-12 |
 | [apireno/DOMShell](https://github.com/apireno/DOMShell) | Agentic Shell | `TypeScript` ★ 41 | 2026-05-26 |
-| [nushell/nushell](https://github.com/nushell/nushell) | A new type of shell | `Rust` ★ 39.6k | 2026-05-27 |
+| [nushell/nushell](https://github.com/nushell/nushell) | A new type of shell | `Rust` ★ 39.6k | 2026-05-28 |
 | [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | A smarter cd command. Supports all major shells. | `Rust` ★ 36.9k | 2026-05-21 |
 | [xxh/xxh](https://github.com/xxh/xxh) | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | `Python` ★ 6k | 2026-04-12 |
 | [chr15m/runprompt](https://github.com/chr15m/runprompt) | Run LLM prompts from your shell | `Python` ★ 440 | 2026-05-25 |
 | [jasonkneen/askshell](https://github.com/jasonkneen/askshell) | Natural language to shell commands - AI-powered CLI using Ollama, Claude, Codex, Copilot, or Gemini | `Shell` ★ 5 | 2025-12-08 |
-| [nvbn/thefuck](https://github.com/nvbn/thefuck) | Magnificent app which corrects your previous console command. | `Python` ★ 97.1k | 2024-07-19 |
+| [nvbn/thefuck](https://github.com/nvbn/thefuck) | Magnificent app which corrects your previous console command. | `Python` ★ 97.2k | 2024-07-19 |
 | [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 260 | 2026-05-26 |
-| [atuinsh/atuin](https://github.com/atuinsh/atuin) | ✨ Magical shell history | `Rust` ★ 29.9k | 2026-05-27 |
+| [atuinsh/atuin](https://github.com/atuinsh/atuin) | ✨ Magical shell history | `Rust` ★ 29.9k | 2026-05-28 |
 | [google/zx](https://github.com/google/zx) | A tool for writing better scripts | `JavaScript` ★ 45.5k | 2026-05-10 |
 | [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) | A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php. | ★ 37k | 2025-08-28 |
 | [pyenv/pyenv](https://github.com/pyenv/pyenv) | Simple Python version management | `Shell` ★ 44.8k | 2026-05-22 |

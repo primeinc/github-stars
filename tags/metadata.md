@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [mourad-ghafiri/youtube-mcp-server](https://github.com/mourad-ghafiri/youtube-mcp-server) | A powerful Model Context Protocol (MCP) server for You Tube video transcription and metadata extraction. | `Python` ★ 52 | 2026-01-03 |
-| [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c... | `TypeScript` ★ 14k | 2026-05-28 |
+| [mourad-ghafiri/youtube-mcp-server](https://github.com/mourad-ghafiri/youtube-mcp-server) | A powerful Model Context Protocol (MCP) server for You Tube video transcription and metadata extraction. | `Python` ★ 53 | 2026-01-03 |
+| [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | Open Metadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team c... | `TypeScript` ★ 14.1k | 2026-05-29 |
 | [TagStudioDev/TagStudio](https://github.com/TagStudioDev/TagStudio) | A User-Focused Photo & File Management System | `Python` ★ 7k | 2026-05-26 |
-| [RupertAvery/DiffusionToolkit](https://github.com/RupertAvery/DiffusionToolkit) | Metadata-indexer and Viewer for AI-generated images | `C#` ★ 992 | 2026-02-27 |
+| [RupertAvery/DiffusionToolkit](https://github.com/RupertAvery/DiffusionToolkit) | Metadata-indexer and Viewer for AI-generated images | `C#` ★ 994 | 2026-02-27 |
