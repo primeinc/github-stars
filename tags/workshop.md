@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [Azure-Samples/mcp-workshop-dotnet](https://github.com/Azure-Samples/mcp-workshop-dotnet) | This provides workshop materials using official MCP SDK | `JavaScript` ★ 36 | 2026-05-19 |
-| [php-school/learn-you-php](https://github.com/php-school/learn-you-php) | 🏆 Learn You PHP! - An introduction to PHP's core features: i/o, http, arrays, exceptions and so on. | `PHP` ★ 318 | 2024-11-06 |
+| [php-school/learn-you-php](https://github.com/php-school/learn-you-php) | 🏆 Learn You PHP! - An introduction to PHP's core features: i/o, http, arrays, exceptions and so on. | `PHP` ★ 319 | 2024-11-06 |

@@ -2,7 +2,7 @@
 
 > A curated list of **2654** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-05-29
+Last updated: 2026-05-30
 
 ## ⭐ Recently Starred
 
@@ -10,14 +10,14 @@ Last updated: 2026-05-29
 |---|---|---|---|
 | [ozgrozer/ai-renamer](https://github.com/ozgrozer/ai-renamer) | A Node.js CLI that uses Ollama and LM Studio models (Llava, Gemma, Llama etc.) to intelligently rename files by their contents | `JavaScript` ★ 2.1k | 2025-02-09 |
 | [Beledarian/Beledarians_LM_Studio_Toolbox](https://github.com/Beledarian/Beledarians_LM_Studio_Toolbox) | This project is a plugin for LM Studio that provides a rich set of tools to a large language model. It allows the LLM to interact with your local file system, execute code, access the internet, and... | `TypeScript` ★ 79 | 2026-05-10 |
-| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 947 | 2026-05-26 |
-| [google/A2UI](https://github.com/google/A2UI) | No description provided | `TypeScript` ★ 15k | 2026-05-28 |
+| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 950 | 2026-05-26 |
+| [google/A2UI](https://github.com/google/A2UI) | No description provided | `TypeScript` ★ 15.1k | 2026-05-29 |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | AI Agent Framework, the Pydantic way | `Python` ★ 17.4k | 2026-05-29 |
-| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. | `TypeScript` ★ 13.9k | 2026-05-28 |
+| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. | `TypeScript` ★ 13.9k | 2026-05-29 |
 | [jeffijoe/awilix](https://github.com/jeffijoe/awilix) | Extremely powerful Inversion of Control (Io C) container for Node.JS | `TypeScript` ★ 4.2k | 2026-05-09 |
 | [yunwei37/AI-GitHub-Profile-Generator](https://github.com/yunwei37/AI-GitHub-Profile-Generator) | AI-Driven Git Hub Profile Readme Generation with GPT | `TypeScript` ★ 37 | 2025-01-03 |
 | [MicrosoftRajan/EpifiShare](https://github.com/MicrosoftRajan/EpifiShare) | No description provided | `TypeScript` ★ 2 | 2026-05-16 |
-| [sgl-project/sglang](https://github.com/sgl-project/sglang) | SGLang is a high-performance serving framework for large language models and multimodal models. | `Python` ★ 28.4k | 2026-05-29 |
+| [sgl-project/sglang](https://github.com/sgl-project/sglang) | SGLang is a high-performance serving framework for large language models and multimodal models. | `Python` ★ 28.5k | 2026-05-30 |
 
 ## 🏷️ Popular Tags
 

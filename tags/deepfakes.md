@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [datamllab/awesome-deepfakes-materials](https://github.com/datamllab/awesome-deepfakes-materials) | A curated list of awesome Deepfakes materials | ★ 441 | 2023-02-07 |
+| [datamllab/awesome-deepfakes-materials](https://github.com/datamllab/awesome-deepfakes-materials) | A curated list of awesome Deepfakes materials | ★ 442 | 2023-02-07 |
 | [aerophile/awesome-deepfakes](https://github.com/aerophile/awesome-deepfakes) | Everything Deepfakes | ★ 1.7k | 2023-01-14 |
 | [neuralchen/SimSwap](https://github.com/neuralchen/SimSwap) | An arbitrary face-swapping framework on images and videos with one single trained model! | `Python` ★ 5.2k | 2024-08-06 |
 | [xaviviro/refacer](https://github.com/xaviviro/refacer) | Refacer: One-Click Deepfake Multi-Face Swap Tool | `Python` ★ 581 | 2023-06-27 |

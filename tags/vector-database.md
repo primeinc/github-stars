@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [jjordanbaird/EmailVectorDB](https://github.com/jjordanbaird/EmailVectorDB) | This project demonstrates how to parse emails, process them using Open AI's GPT-3.5, and load the data into a Weaviate vector database for enhanced search capabilities. Utilizing few-shot prompts a... | `Python` ★ 22 | 2023-05-03 |
-| [qdrant/qdrant](https://github.com/qdrant/qdrant) | Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/ | `Rust` ★ 31.6k | 2026-05-29 |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant) | Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/ | `Rust` ★ 31.7k | 2026-05-29 |
 | [lancedb/lancedb](https://github.com/lancedb/lancedb) | Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. | `HTML` ★ 10.4k | 2026-05-29 |
 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | Memory for AI Agents in 6 lines of code | `Python` ★ 17.6k | 2026-05-29 |
 | [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory) | Local persistent memory store for LLM applications including claude desktop, github copilot, codex, antigravity, etc. | `TypeScript` ★ 4.2k | 2026-05-29 |
