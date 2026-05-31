@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-05-31T07:10:21.003Z'
+  manifest_updated_at: '2026-05-31T07:10:54.262Z'
   total_repos: 2654
   generator_version: v1.0.0
   github_user: primeinc
@@ -108672,13 +108672,18 @@ repositories:
       prompt_version: v3
   - repo: jonymaster/catalogIT
     categories:
-      - unclassified
-    tags: []
+      - productivity
+      - web-dev
+    tags:
+      - it-management
+      - hardware-tracking
+      - software-tracking
+      - lang:ts
     summary: A Web App to track Hardware and Software in an IT Team
     last_synced_sha: b6e8ec1990b3f19b5085385c9085b4204ebc44d9
     user_starred_at: '2026-05-31T03:20:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -108697,3 +108702,8 @@ repositories:
         published_at: '2026-05-21T14:30:18Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-05-31T07:10:53.146Z'
+      prompt_version: v3
