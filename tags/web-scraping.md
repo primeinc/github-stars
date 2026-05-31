@@ -6,12 +6,12 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) | Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed. | `Python` ★ 22.4k | 2026-05-26 |
-| [pinchtab/pinchtab](https://github.com/pinchtab/pinchtab) | High-performance browser automation bridge and multi-instance orchestrator with advanced stealth injection and real-time dashboard. | `Go` ★ 9.1k | 2026-05-29 |
-| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be! | `Python` ★ 55.2k | 2026-05-27 |
+| [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) | Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed. | `Python` ★ 22.7k | 2026-05-26 |
+| [pinchtab/pinchtab](https://github.com/pinchtab/pinchtab) | High-performance browser automation bridge and multi-instance orchestrator with advanced stealth injection and real-time dashboard. | `Go` ★ 9.1k | 2026-05-30 |
+| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ An undetectable, powerful, flexible, high-performance Python library to make Web Scraping Easy and Effortless as it should be! | `Python` ★ 56k | 2026-05-30 |
 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | Convert documentation websites, Git Hub repositories, and PDFs into Claude AI skills with automatic conflict detection | `Python` ★ 13.8k | 2026-05-30 |
-| [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) | Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command. | `JavaScript` ★ 1.9k | 2026-05-29 |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data | `TypeScript` ★ 126.2k | 2026-05-29 |
+| [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) | Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command. | `JavaScript` ★ 1.9k | 2026-05-31 |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data | `TypeScript` ★ 126.6k | 2026-05-30 |
 | [Y2Z/monolith](https://github.com/Y2Z/monolith) | ⬛️ CLI tool and library for saving complete web pages as a single HTML file | `Rust` ★ 15.1k | 2026-05-25 |
 | [ratacat/slurp-ai](https://github.com/ratacat/slurp-ai) | Tool for scraping and consolidating documentation websites into a single MD file. | `JavaScript` ★ 261 | 2026-01-06 |
 | [Vidito/webscraping_housing](https://github.com/Vidito/webscraping_housing) | Using Beautiful Soup to scrape a real estate agency website and generaate a CSV file based on the findings. | `Python` ★ 32 | 2022-06-09 |

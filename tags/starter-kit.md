@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [get-convex/convex-saas](https://github.com/get-convex/convex-saas) | A production-ready Convex Stack for your next Saa S application with Convex Auth, Stripe, Tan Stack, Resend, Tailwindcss, and shadcn. | `TypeScript` ★ 364 | 2026-05-02 |
+| [get-convex/convex-saas](https://github.com/get-convex/convex-saas) | A production-ready Convex Stack for your next Saa S application with Convex Auth, Stripe, Tan Stack, Resend, Tailwindcss, and shadcn. | `TypeScript` ★ 365 | 2026-05-02 |
 | [meteor-useraccounts/core](https://github.com/meteor-useraccounts/core) | Meteor sign up and sign in templates' core functionalities | `JavaScript` ★ 531 | 2021-07-09 |
 | [vercel-labs/chatgpt-apps-sdk-nextjs-starter](https://github.com/vercel-labs/chatgpt-apps-sdk-nextjs-starter) | No description provided | `TypeScript` ★ 255 | 2025-12-12 |
 | [Azure/APICenter-Portal-Starter](https://github.com/Azure/APICenter-Portal-Starter) | Reference implementation of API Center portal for a web-based API discovery and consumption experience | `TypeScript` ★ 42 | 2026-05-20 |

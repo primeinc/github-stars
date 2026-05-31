@@ -10,4 +10,4 @@
 | [maartenvandiemen/AZD-AppConfiguration](https://github.com/maartenvandiemen/AZD-AppConfiguration) | No description provided | `Bicep` ★ 1 | 2025-10-17 |
 | [swapagarwal/swag-for-dev](https://github.com/swapagarwal/swag-for-dev) | 😎 swag opportunities for developers | `JavaScript` ★ 4.4k | 2024-12-09 |
 | [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) | A curated list of Awesome Threat Intelligence resources | ★ 10.2k | 2026-01-19 |
-| [Seldaek/monolog](https://github.com/Seldaek/monolog) | Sends your logs to files, sockets, inboxes, databases and various web services | `PHP` ★ 21.4k | 2026-05-29 |
+| [Seldaek/monolog](https://github.com/Seldaek/monolog) | Sends your logs to files, sockets, inboxes, databases and various web services | `PHP` ★ 21.4k | 2026-05-30 |

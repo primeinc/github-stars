@@ -6,25 +6,25 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [project-chip/connectedhomeip](https://github.com/project-chip/connectedhomeip) | Matter (formerly Project CHIP) creates more connections between more objects, simplifying development for manufacturers and increasing compatibility for consumers, guided by the Connectivity Standa... | `C++` ★ 8.8k | 2026-05-30 |
-| [ruvnet/RuView](https://github.com/ruvnet/RuView) | π Ru View: Wi Fi Dense Pose turns commodity Wi Fi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video. | `Rust` ★ 68.3k | 2026-05-30 |
-| [timeframe/ha-addon](https://github.com/timeframe/ha-addon) | An e-paper calendar, weather, and smart home family dashboard for Home Assistant | `Ruby` ★ 808 | 2026-05-28 |
+| [project-chip/connectedhomeip](https://github.com/project-chip/connectedhomeip) | Matter (formerly Project CHIP) creates more connections between more objects, simplifying development for manufacturers and increasing compatibility for consumers, guided by the Connectivity Standa... | `C++` ★ 8.8k | 2026-05-31 |
+| [ruvnet/RuView](https://github.com/ruvnet/RuView) | π Ru View: Wi Fi Dense Pose turns commodity Wi Fi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video. | `Rust` ★ 69.1k | 2026-05-31 |
+| [timeframe/ha-addon](https://github.com/timeframe/ha-addon) | An e-paper calendar, weather, and smart home family dashboard for Home Assistant | `Ruby` ★ 808 | 2026-05-31 |
 | [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | ROS 2 Navigation Framework and System | `C++` ★ 4.3k | 2026-05-29 |
 | [HailToDodongo/pyrite64](https://github.com/HailToDodongo/pyrite64) | N64 Game-Engine and Editor using libdragon & tiny3d | `C++` ★ 3.1k | 2026-05-29 |
 | [chipsalliance/Surelog](https://github.com/chipsalliance/Surelog) | System Verilog 2017 Pre-processor, Parser, Elaborator, UHDM Compiler. Provides IEEE Design/TB C/C++ VPI and Python AST & UHDM APIs. Compiles on Linux gcc, Windows msys2-gcc & msvc, Os X | `C++` ★ 463 | 2026-05-30 |
 | [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.7k | 2026-05-29 |
 | [edera-dev/sprout](https://github.com/edera-dev/sprout) | Sprout: UEFI Bootloader in Rust | `Rust` ★ 286 | 2026-05-25 |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 113.7k | 2026-05-29 |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 113.9k | 2026-05-31 |
 | [ClemensElflein/OpenMower](https://github.com/ClemensElflein/OpenMower) | Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots! | ★ 6.5k | 2026-05-30 |
 | [Vector-Wangel/XLeRobot](https://github.com/Vector-Wangel/XLeRobot) | XLe Robot: Practical Dual-Arm Mobile Home Robot for $660 | `Python` ★ 5.2k | 2026-04-29 |
-| [Mentra-Community/MentraOS](https://github.com/Mentra-Community/MentraOS) | Mentra OS is the leading smart glasses platform + SDK. Stream your view, transcribe audio, talk to AI and capture photos hands-free on compatible glasses. | `TypeScript` ★ 2k | 2026-05-30 |
+| [Mentra-Community/MentraOS](https://github.com/Mentra-Community/MentraOS) | Mentra OS is the leading smart glasses platform + SDK. Stream your view, transcribe audio, talk to AI and capture photos hands-free on compatible glasses. | `TypeScript` ★ 2k | 2026-05-31 |
 | [cartesiancs/vessel](https://github.com/cartesiancs/vessel) | Home security / protection system 🦾 | `TypeScript` ★ 325 | 2026-04-30 |
-| [kamailio/kamailio](https://github.com/kamailio/kamailio) | Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms - | `C` ★ 2.8k | 2026-05-29 |
-| [boatbod/op25](https://github.com/boatbod/op25) | Fork of osmocom OP25 by boatbod | `C++` ★ 462 | 2026-05-29 |
+| [kamailio/kamailio](https://github.com/kamailio/kamailio) | Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms - | `C` ★ 2.8k | 2026-05-30 |
+| [boatbod/op25](https://github.com/boatbod/op25) | Fork of osmocom OP25 by boatbod | `C++` ★ 462 | 2026-05-30 |
 | [EmenstaNougat/ESP32-BlueJammer](https://github.com/EmenstaNougat/ESP32-BlueJammer) | The ESP32-Blue Jammer (Bluetooth jammer, BLE jammer, Wi Fi jammer, RC jammer) disrupts 2.4GHz communications. Using an ESP32 and n RF24 modules, it generates noise and unnecessary packets, causing ... | ★ 6.3k | 2026-03-29 |
 | [tysonthomas9/realtor-agent](https://github.com/tysonthomas9/realtor-agent) | Realtor Agent: AI-powered tool for property analysis, running comparables, and assisting with contract document finalization in real estate transactions. | `Python` ★ 12 | 2025-02-23 |
 | [byrdsandbytes/beatnik-pi](https://github.com/byrdsandbytes/beatnik-pi) | Open Source Multiroom Audio Streamer based on Raspberry Pi & Snapcast | `Shell` ★ 466 | 2026-05-12 |
-| [ZitaoTech/HackberryPiCM5](https://github.com/ZitaoTech/HackberryPiCM5) | An ultra portable handheld Linux device using Raspberry CM5 unit as Core with 4" 720X720 TFT Touch display and the original blackberry keyboard | `HTML` ★ 968 | 2025-07-09 |
+| [ZitaoTech/HackberryPiCM5](https://github.com/ZitaoTech/HackberryPiCM5) | An ultra portable handheld Linux device using Raspberry CM5 unit as Core with 4" 720X720 TFT Touch display and the original blackberry keyboard | `HTML` ★ 969 | 2025-07-09 |
 | [team-telnyx/spandsp](https://github.com/team-telnyx/spandsp) | Span DSP is a low-level signal processing library that modulates and demodulates signals commonly used in telephony, such as the "noise" generated by a fax modem or DTMF touchpad. | `C` ★ 1 | 2026-03-18 |
 | [openxc/uds-c](https://github.com/openxc/uds-c) | Unified Diagnostics Service (UDS) and OBD-II (On Board Diagnostics for Vehicles) C Library | `C` ★ 815 | 2021-08-16 |
 | [andrewraharjo/CAN-Bus-Hack_Prius_Focus](https://github.com/andrewraharjo/CAN-Bus-Hack_Prius_Focus) | Leverage from ioactive blog for research purpose in Self Driving Car Development | `Python` ★ 61 | 2016-08-05 |
@@ -57,7 +57,7 @@
 | [caspii/dinkydash](https://github.com/caspii/dinkydash) | A family dashboard for kids | `HTML` ★ 91 | 2026-02-28 |
 | [sb-ocr/ocreeb-mk-2](https://github.com/sb-ocr/ocreeb-mk-2) | Modular Macro Keyboard System | `Python` ★ 576 | 2024-02-04 |
 | [TheCactusVert/mpv-client](https://github.com/TheCactusVert/mpv-client) | Bindings for libmpv client API that allow you to create plugins for MPV in Rust | `Rust` ★ 17 | 2025-12-21 |
-| [ballaswag/guppyscreen](https://github.com/ballaswag/guppyscreen) | A native Touch UI for 3D Printers running Klipper/Moonraker. | `C` ★ 335 | 2024-07-15 |
+| [ballaswag/guppyscreen](https://github.com/ballaswag/guppyscreen) | A native Touch UI for 3D Printers running Klipper/Moonraker. | `C` ★ 336 | 2024-07-15 |
 | [stevenbennett/Open-Task-Light](https://github.com/stevenbennett/Open-Task-Light) | Components for making the Open Task Light | `Python` ★ 643 | 2025-07-22 |
 | [nataliethenerd/picohatpad](https://github.com/nataliethenerd/picohatpad) | No description provided | `Python` ★ 75 | 2023-01-29 |
 | [dtcooper/raspotify](https://github.com/dtcooper/raspotify) | A Spotify Connect client that mostly Just Works™ | `Shell` ★ 5.1k | 2026-04-24 |

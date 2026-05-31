@@ -12,15 +12,15 @@
 | [tremorlabs/tremor-blocks](https://github.com/tremorlabs/tremor-blocks) | Tremor Blocks Source Code | `TypeScript` ★ 510 | 2025-01-22 |
 | [Aldhanekaa/ShadcnVaults](https://github.com/Aldhanekaa/ShadcnVaults) | Collection of blocks for Internal Tools UI built on top of shadcn/ui | `TypeScript` ★ 80 | 2025-07-30 |
 | [shane-downes/styleglide](https://github.com/shane-downes/styleglide) | Create your own shadcn/ui and Tailwind CSS design system | `TypeScript` ★ 66 | 2025-12-06 |
-| [shadcnblocks/mainline-nextjs-template](https://github.com/shadcnblocks/mainline-nextjs-template) | Mainline Next.js template built with shadcn/ui, Tailwind 4 & Next.js | `TypeScript` ★ 311 | 2025-12-26 |
+| [shadcnblocks/mainline-nextjs-template](https://github.com/shadcnblocks/mainline-nextjs-template) | Mainline Next.js template built with shadcn/ui, Tailwind 4 & Next.js | `TypeScript` ★ 313 | 2025-12-26 |
 | [luckgrid/lg-turbo-ui](https://github.com/luckgrid/lg-turbo-ui) | A turborepo workspace with a ready to go Next v15, React v19, and Tailwind CSS v4 UI packages and configs. | `TypeScript` ★ 2 | 2025-05-25 |
-| [satnaing/astro-paper](https://github.com/satnaing/astro-paper) | A minimal, accessible and SEO-friendly Astro blog theme | `Astro` ★ 4.7k | 2026-05-29 |
+| [satnaing/astro-paper](https://github.com/satnaing/astro-paper) | A minimal, accessible and SEO-friendly Astro blog theme | `Astro` ★ 4.7k | 2026-05-30 |
 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. | `TypeScript` ★ 115.3k | 2026-05-29 |
 | [midday-ai/packrun](https://github.com/midday-ai/packrun) | npm for agents and humans | `TypeScript` ★ 3.8k | 2026-02-06 |
 | [vercel/platforms](https://github.com/vercel/platforms) | A full-stack Next.js app with multi-tenancy. | `TypeScript` ★ 6.7k | 2025-12-06 |
-| [megh-bari/pattern-craft](https://github.com/megh-bari/pattern-craft) | Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration. | `TypeScript` ★ 2.9k | 2026-03-28 |
-| [calcom/cal.diy](https://github.com/calcom/cal.diy) | Scheduling infrastructure for absolutely everyone. | `TypeScript` ★ 44.8k | 2026-05-29 |
-| [untitleduico/react](https://github.com/untitleduico/react) | Untitled UI React is the world’s largest collection of open-source React components built with Tailwind CSS and React Aria. Just copy, paste, and build. | `TypeScript` ★ 1.7k | 2026-05-16 |
+| [megh-bari/pattern-craft](https://github.com/megh-bari/pattern-craft) | Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration. | `TypeScript` ★ 3k | 2026-03-28 |
+| [calcom/cal.diy](https://github.com/calcom/cal.diy) | Scheduling infrastructure for absolutely everyone. | `TypeScript` ★ 44.9k | 2026-05-29 |
+| [untitleduico/react](https://github.com/untitleduico/react) | Untitled UI React is the world’s largest collection of open-source React components built with Tailwind CSS and React Aria. Just copy, paste, and build. | `TypeScript` ★ 1.8k | 2026-05-16 |
 | [imskyleen/animate-ui](https://github.com/imskyleen/animate-ui) | Fully animated, open-source component distribution built with React, Type Script, Tailwind CSS, Motion, and Shadcn CLI. Browse a list of components you can install, modify, and use in your projects. | `TypeScript` ★ 3.7k | 2025-12-31 |
 | [rizzui/rizzui](https://github.com/rizzui/rizzui) | 🎉 A Modern and Minimal React UI Library built with Tailwind CSS | `MDX` ★ 362 | 2026-04-29 |
 | [nuxt/ui](https://github.com/nuxt/ui) | The Intuitive Vue UI Library powered by Reka UI & Tailwind CSS. | `Vue` ★ 6.6k | 2026-05-29 |

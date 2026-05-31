@@ -10,4 +10,4 @@
 | [stacklok/toolhive](https://github.com/stacklok/toolhive) | Tool Hive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers. | `Go` ★ 1.8k | 2026-05-30 |
 | [003random/getJS](https://github.com/003random/getJS) | A tool to fastly get all javascript sources/files | `Go` ★ 878 | 2025-07-04 |
 | [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | A modern download manager that supports all platforms. Built with Golang and Flutter. | `Go` ★ 24.7k | 2026-05-07 |
-| [FalconOpsLLC/goexec](https://github.com/FalconOpsLLC/goexec) | Windows remote execution multitool | `Go` ★ 795 | 2026-03-25 |
+| [FalconOpsLLC/goexec](https://github.com/FalconOpsLLC/goexec) | Windows remote execution multitool | `Go` ★ 794 | 2026-03-25 |

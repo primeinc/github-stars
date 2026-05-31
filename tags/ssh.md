@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [sashyo/keylessh](https://github.com/sashyo/keylessh) | No description provided | `TypeScript` ★ 6 | 2026-05-20 |
-| [xpipe-io/xpipe](https://github.com/xpipe-io/xpipe) | Access your entire server infrastructure from your local desktop | `Java` ★ 14.1k | 2026-05-29 |
+| [xpipe-io/xpipe](https://github.com/xpipe-io/xpipe) | Access your entire server infrastructure from your local desktop | `Java` ★ 14.1k | 2026-05-31 |
 | [xxh/xxh](https://github.com/xxh/xxh) | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | `Python` ★ 6k | 2026-04-12 |
 | [mmulet/term.everything](https://github.com/mmulet/term.everything) | Run any GUI app in the terminal❗ | `Go` ★ 8k | 2026-03-18 |
 | [anderspitman/SirTunnel](https://github.com/anderspitman/SirTunnel) | Minimal, self-hosted, 0-config alternative to ngrok. Caddy+Open SSH+50 lines of Python. | `Python` ★ 1.6k | 2024-03-24 |

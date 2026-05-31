@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [microsoft/rnx-kit](https://github.com/microsoft/rnx-kit) | Modern, scalable tools. Exceptional developer experience. | `TypeScript` ★ 1.7k | 2026-05-29 |
-| [moonrepo/moon](https://github.com/moonrepo/moon) | A build system and monorepo management tool for the web ecosystem, written in Rust. | `Rust` ★ 3.9k | 2026-05-28 |
+| [moonrepo/moon](https://github.com/moonrepo/moon) | A build system and monorepo management tool for the web ecosystem, written in Rust. | `Rust` ★ 3.9k | 2026-05-30 |
 | [microsoft/rushstack](https://github.com/microsoft/rushstack) | Monorepo for tools developed by the Rush Stack community | `TypeScript` ★ 6.5k | 2026-05-29 |
 | [Azure-Samples/azure-typescript-e2e-apps](https://github.com/Azure-Samples/azure-typescript-e2e-apps) | Monorepo - Apps written in Type Script to be either 1) deployed to Azure hosting or 2) integrated with Azure services | `TypeScript` ★ 48 | 2026-02-02 |
 | [nrwl/nx-examples](https://github.com/nrwl/nx-examples) | Example repo for Nx workspace | `TypeScript` ★ 961 | 2026-05-22 |

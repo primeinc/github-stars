@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [zackham/narrate](https://github.com/zackham/narrate) | Multi-speaker script to audio using local TTS. Excellent quality, zero cost, one command. | `Python` ★ 14 | 2026-04-22 |
-| [QwenLM/Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) | Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice... | `Python` ★ 11.6k | 2026-03-17 |
+| [QwenLM/Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) | Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice... | `Python` ★ 11.7k | 2026-03-17 |
 | [isaiahbjork/expo-kokoro-onnx](https://github.com/isaiahbjork/expo-kokoro-onnx) | Run Kokoro TTS locally on device using Expo & ONNX Runtime | `TypeScript` ★ 84 | 2025-05-08 |
 | [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro) | Gradio Web UI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, Cosy Voice), with Whisper audio processing, You Tube download, Demucs vocal... | `Python` ★ 10.4k | 2025-12-05 |
 | [BandarLabs/gitpodcast](https://github.com/BandarLabs/gitpodcast) | Convert any git repository into an engaging podcast | `TypeScript` ★ 807 | 2025-08-30 |

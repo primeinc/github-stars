@@ -11,5 +11,5 @@
 | [PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor) | Pixi Editor is a Universal Editor for all your 2D needs | `C#` ★ 7.7k | 2026-05-28 |
 | [CeeJayDK/SweetFX](https://github.com/CeeJayDK/SweetFX) | No description provided | `HLSL` ★ 262 | 2025-07-03 |
 | [martymcmodding/METEOR](https://github.com/martymcmodding/METEOR) | Marty's Extra Effects for Re Shade | `HLSL` ★ 50 | 2026-03-13 |
-| [martymcmodding/iMMERSE](https://github.com/martymcmodding/iMMERSE) | Marty's Mods Epic Re Shade Effects | `HLSL` ★ 427 | 2026-03-13 |
+| [martymcmodding/iMMERSE](https://github.com/martymcmodding/iMMERSE) | Marty's Mods Epic Re Shade Effects | `HLSL` ★ 428 | 2026-03-13 |
 | [tariqporter/Gdip](https://github.com/tariqporter/Gdip) | Official GDI+ library for Autohotkey | `AutoHotkey` ★ 157 | 2019-03-05 |

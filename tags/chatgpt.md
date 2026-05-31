@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `Python` ★ 173k | 2026-05-30 |
-| [MCPJam/inspector](https://github.com/MCPJam/inspector) | Development platform to debug, chat, inspect, and evaluate MCP servers, MCP apps, and Chat GPT apps. | `TypeScript` ★ 2k | 2026-05-30 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `Python` ★ 174k | 2026-05-31 |
+| [MCPJam/inspector](https://github.com/MCPJam/inspector) | Development platform to debug, chat, inspect, and evaluate MCP servers, MCP apps, and Chat GPT apps. | `TypeScript` ★ 2k | 2026-05-31 |
 | [pionxzh/chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) | Export and Share your Chat GPT conversation history | `TypeScript` ★ 2.5k | 2026-05-28 |
 | [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | mcp-use is the easiest way to interact with mcp servers with custom agents | `TypeScript` ★ 10k | 2026-05-29 |
 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best Chat GPT that $100 can buy. | `Python` ★ 54.4k | 2026-05-05 |
@@ -17,7 +17,7 @@
 | [sonnylazuardi/chat-ai-desktop](https://github.com/sonnylazuardi/chat-ai-desktop) | Unofficial Chat GPT desktop app for Mac & Windows menubar using Tauri & Rust | `Rust` ★ 2k | 2023-12-23 |
 | [deskbtm/nitmgpt](https://github.com/deskbtm/nitmgpt) | nitmgpt (Notification-in-the-middle GPT). Filter ads or spam notifications via Chat GPT. | `Dart` ★ 96 | 2024-08-30 |
 | [reorx/awesome-chatgpt-api](https://github.com/reorx/awesome-chatgpt-api) | Curated list of apps and tools that not only use the new Chat GPT API, but also allow users to configure their own API keys, enabling free and on-demand usage of their own quota. | `Python` ★ 6.4k | 2026-03-23 |
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM. | `Python` ★ 70.1k | 2026-05-30 |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM. | `Python` ★ 72.5k | 2026-05-30 |
 | [openai/chatgpt-retrieval-plugin](https://github.com/openai/chatgpt-retrieval-plugin) | The Chat GPT Retrieval Plugin lets you easily find personal or work documents by asking questions in natural language. | `Python` ★ 21.2k | 2024-07-04 |
 | [devisasari/awesome-gpt-store](https://github.com/devisasari/awesome-gpt-store) | A curated list of awesome GPTs in the GPT Store | ★ 2.1k | 2024-10-15 |
 | [ruvnet/Swagger-ChatGPT-Plugin-Creator](https://github.com/ruvnet/Swagger-ChatGPT-Plugin-Creator) | Chat GPT Plugin Creator is an open-source project that helps you convert Swagger specifications into Chat GPT plugins | `HTML` ★ 44 | 2023-04-06 |
