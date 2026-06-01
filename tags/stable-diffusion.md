@@ -27,9 +27,9 @@
 | [SipherAGI/sd-webui-agent-scheduler](https://github.com/SipherAGI/sd-webui-agent-scheduler) | An open source Scheduling Agent for Generative AI | `Python` ★ 690 | 2025-01-13 |
 | [s0md3v/roop](https://github.com/s0md3v/roop) | roop extension for Stable Diffusion web-ui | `Python` ★ 3.5k | 2026-03-13 |
 | [pkuliyi2015/multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111) | Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0 | `Python` ★ 5k | 2024-08-07 |
-| [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | SD.Next: All-in-one Web UI for AI generative image and video creation, captioning and processing | `Python` ★ 7.1k | 2026-05-31 |
+| [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | SD.Next: All-in-one Web UI for AI generative image and video creation, captioning and processing | `Python` ★ 7.1k | 2026-06-01 |
 | [Zetaphor/PromptHub](https://github.com/Zetaphor/PromptHub) | Prompt history and management for the Stable Diffusion AUTOMATIC1111 Web UI | `JavaScript` ★ 35 | 2023-03-26 |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `Python` ★ 115.1k | 2026-05-31 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `Python` ★ 115.2k | 2026-06-01 |
 | [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss) | No description provided | `Python` ★ 12.3k | 2026-05-08 |
 | [mattjaybe/sd-wildcards](https://github.com/mattjaybe/sd-wildcards) | A collection of wildcards for Stable Diffusion | ★ 322 | 2024-05-27 |
 | [civitai/sd_civitai_extension](https://github.com/civitai/sd_civitai_extension) | All of the Civitai models inside Automatic 1111 Stable Diffusion Web UI | `Python` ★ 2.4k | 2024-07-17 |
@@ -38,6 +38,6 @@
 | [d8ahazard/sd_dreambooth_extension](https://github.com/d8ahazard/sd_dreambooth_extension) | No description provided | `Python` ★ 1.9k | 2025-09-17 |
 | [devilismyfriend/StableTuner](https://github.com/devilismyfriend/StableTuner) | Finetuning SD in style. | `Python` ★ 680 | 2023-04-01 |
 | [Maks-s/sd-akashic](https://github.com/Maks-s/sd-akashic) | A compendium of informations regarding Stable Diffusion (SD) | ★ 1.6k | 2023-03-08 |
-| [Sanster/IOPaint](https://github.com/Sanster/IOPaint) | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures. | `Python` ★ 23.1k | 2025-04-29 |
+| [Sanster/IOPaint](https://github.com/Sanster/IOPaint) | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures. | `Python` ★ 23.2k | 2025-04-29 |
 | [ThereforeGames/unprompted](https://github.com/ThereforeGames/unprompted) | Templating language written for Stable Diffusion workflows. Available as an extension for the Automatic1111 Web UI. | `Python` ★ 810 | 2024-07-29 |
-| [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Stable Diffusion web UI | `Python` ★ 163.3k | 2026-03-02 |
+| [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Stable Diffusion web UI | `Python` ★ 163.4k | 2026-03-02 |

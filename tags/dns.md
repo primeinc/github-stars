@@ -10,4 +10,4 @@
 | [SamyRai/namecheap](https://github.com/SamyRai/namecheap) | A CLI tool for managing Namecheap domains and DNS records with multi-account support | `Go` ★ 2 | 2026-02-05 |
 | [publicsuffix/list](https://github.com/publicsuffix/list) | The Public Suffix List | `Go` ★ 2.8k | 2026-05-28 |
 | [zonemaster/zonemaster](https://github.com/zonemaster/zonemaster) | The Zonemaster Project | `Perl` ★ 532 | 2026-05-04 |
-| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 59k | 2026-05-30 |
+| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 59.1k | 2026-05-30 |

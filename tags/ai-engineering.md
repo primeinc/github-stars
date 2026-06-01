@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [open-mercato/open-mercato](https://github.com/open-mercato/open-mercato) | AI-Engineering Foundation Framework built with AI and designed for AI. Hundreds of architectural and domain decisions (multi-tenancy, RBAC, event flow, pricing, sales pipeline,CRM/ERP processes) ar... | `TypeScript` ★ 1.3k | 2026-05-29 |
-| [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell) | How real engineers run Claude Code: spec-driven planning, enforced TDD, persistent memory, and quality enforcement on all levels. Make Claude Code production-ready. | `TypeScript` ★ 1.7k | 2026-05-28 |
+| [open-mercato/open-mercato](https://github.com/open-mercato/open-mercato) | AI-Engineering Foundation Framework built with AI and designed for AI. Hundreds of architectural and domain decisions (multi-tenancy, RBAC, event flow, pricing, sales pipeline,CRM/ERP processes) ar... | `TypeScript` ★ 1.4k | 2026-06-01 |
+| [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell) | How real engineers run Claude Code: spec-driven planning, enforced TDD, persistent memory, and quality enforcement on all levels. Make Claude Code production-ready. | `TypeScript` ★ 1.7k | 2026-05-31 |

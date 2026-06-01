@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) | :white\_check\_mark: The Node.js best practices list (July 2024) | `Dockerfile` ★ 105.3k | 2025-04-15 |
-| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | from vibe coding to agentic engineering - practice makes claude perfect | `HTML` ★ 55.6k | 2026-05-30 |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | from vibe coding to agentic engineering - practice makes claude perfect | `HTML` ★ 55.8k | 2026-06-01 |
 | [18F/development-guide](https://github.com/18F/development-guide) | A set of guidelines and best practices for an awesome software engineering team | `HTML` ★ 1.4k | 2024-03-19 |
 | [thangchung/clean-code-dotnet](https://github.com/thangchung/clean-code-dotnet) | :bathtub: Clean Code concepts and tools adapted for .NET | `C#` ★ 7.7k | 2026-02-27 |
 | [andredesousa/typescript-best-practices](https://github.com/andredesousa/typescript-best-practices) | This is a guideline of best practices that you can apply to your Type Script project. | ★ 194 | 2021-05-03 |

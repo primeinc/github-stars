@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [paratustra/tvadblocker](https://github.com/paratustra/tvadblocker) | TV Ad blocker using OBS Studio and Open CV (simple logo detection using template matching) | `Python` ★ 62 | 2025-08-10 |
-| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 59k | 2026-05-30 |
+| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 59.1k | 2026-05-30 |

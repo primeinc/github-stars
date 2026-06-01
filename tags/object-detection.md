@@ -8,8 +8,8 @@
 |---|---|---|---|
 | [PaddlePaddle/PaddleX](https://github.com/PaddlePaddle/PaddleX) | All-in-One Development Tool based on Paddle Paddle | `Python` ★ 6.2k | 2026-05-29 |
 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | Detectron2 is a platform for object detection, segmentation and other visual recognition tasks. | `Python` ★ 34.5k | 2026-05-15 |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 57.8k | 2026-05-31 |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 39.8k | 2026-05-30 |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 57.8k | 2026-06-01 |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 39.8k | 2026-06-01 |
 | [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) | NVR with realtime local object detection for IP cameras | `TypeScript` ★ 33.4k | 2026-05-31 |
 | [royshil/obs-detect](https://github.com/royshil/obs-detect) | Object Detection in OBS, real-time, local, GPU optional | `C++` ★ 176 | 2024-12-18 |
 | [mihir-m-gandhi/Adaptive-Traffic-Signal-Timer](https://github.com/mihir-m-gandhi/Adaptive-Traffic-Signal-Timer) | This Adaptive Traffic Signal Timer uses live images from the cameras at traffic junctions for real-time traffic density calculation using YOLO object detection and sets the signal timers accordingly. | `Python` ★ 201 | 2022-10-27 |
