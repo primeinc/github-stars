@@ -10,4 +10,4 @@
 | [lnenad/newser](https://github.com/lnenad/newser) | Newser is a simple utility to generate a pdf with you favorite news articles | `Go` ★ 92 | 2024-08-23 |
 | [cristianvasquez/supernote-web-viewer](https://github.com/cristianvasquez/supernote-web-viewer) | Display a supernote .note file | `JavaScript` ★ 22 | 2026-01-26 |
 | [philips/supernote-obsidian-plugin](https://github.com/philips/supernote-obsidian-plugin) | Supernote A5, A5X, A6X, A6X2 (Nomad), and A5X2 (Manta) integration for Obsidian. Generate markdown, capture screen mirror, and more. | `TypeScript` ★ 298 | 2025-11-21 |
-| [TA1312/supernote-a5x](https://github.com/TA1312/supernote-a5x) | various security information on the supernote a5x | `Batchfile` ★ 134 | 2022-12-07 |
+| [TA1312/supernote-a5x](https://github.com/TA1312/supernote-a5x) | various security information on the supernote a5x | `Batchfile` ★ 135 | 2022-12-07 |

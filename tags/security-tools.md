@@ -6,10 +6,10 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | Static analysis for Git Hub Actions | `Rust` ★ 5.5k | 2026-06-01 |
-| [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers | `Python` ★ 76.9k | 2026-03-15 |
-| [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | Find, verify, and analyze leaked credentials | `Go` ★ 26.6k | 2026-06-02 |
-| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | Find secrets with Gitleaks 🔑 | `Go` ★ 27.4k | 2026-06-01 |
+| [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | Static analysis for Git Hub Actions | `Rust` ★ 5.5k | 2026-06-02 |
+| [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers | `Python` ★ 77k | 2026-03-15 |
+| [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | Find, verify, and analyze leaked credentials | `Go` ★ 26.6k | 2026-06-03 |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | Find secrets with Gitleaks 🔑 | `Go` ★ 27.5k | 2026-06-01 |
 | [lissy93/web-check](https://github.com/lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 33.3k | 2026-05-23 |
 | [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response) | A curated list of tools for incident response | ★ 9.1k | 2026-05-06 |
 | [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) | A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more | `Shell` ★ 10.7k | 2026-05-19 |

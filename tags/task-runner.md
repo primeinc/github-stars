@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [casey/just](https://github.com/casey/just) | 🤖 Just a command runner | `Rust` ★ 34k | 2026-05-29 |
-| [jdx/mise](https://github.com/jdx/mise) | dev tools, env vars, task runner | `Rust` ★ 28.9k | 2026-06-02 |
+| [casey/just](https://github.com/casey/just) | 🤖 Just a command runner | `Rust` ★ 34.1k | 2026-05-29 |
+| [jdx/mise](https://github.com/jdx/mise) | dev tools, env vars, task runner | `Rust` ★ 29k | 2026-06-03 |
