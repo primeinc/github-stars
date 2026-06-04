@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-06-04T08:07:48.391Z'
+  manifest_updated_at: '2026-06-04T08:08:24.901Z'
   total_repos: 2653
   generator_version: v1.0.0
   github_user: primeinc
@@ -108608,13 +108608,18 @@ repositories:
       prompt_version: v3
   - repo: a2ui-project/a2ui
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - lang:ts
+      - ui
+      - frontend
+      - web
     summary: No description provided
     last_synced_sha: 6c5aa4b74049f6f34ec643a981cd6d0c1d8071f4
     user_starred_at: '2026-05-25T01:15:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -108631,15 +108636,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-04T08:08:23.786Z'
+      prompt_version: v3
   - repo: callstack/agent-device
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - testing
+      - mobile-dev
+    tags:
+      - mobile
+      - e2e-testing
+      - automation
+      - lang:ts
     summary: CLI to control i OS and Android devices for AI agents
     last_synced_sha: 1881f6f28bcf2eb7bea46606b8abe2cd3e73704a
     user_starred_at: '2026-02-05T01:41:40Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -108675,3 +108691,8 @@ repositories:
         published_at: '2026-06-01T23:03:22Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-04T08:08:23.786Z'
+      prompt_version: v3
