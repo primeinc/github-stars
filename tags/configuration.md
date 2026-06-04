@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [github/safe-settings](https://github.com/github/safe-settings) | No description provided | `JavaScript` ★ 875 | 2026-06-02 |
+| [github/safe-settings](https://github.com/github/safe-settings) | No description provided | `JavaScript` ★ 876 | 2026-06-02 |
 | [node-config/node-config](https://github.com/node-config/node-config) | Node.js Application Configuration | `JavaScript` ★ 6.4k | 2026-04-03 |
 | [prabirshrestha/dotfiles](https://github.com/prabirshrestha/dotfiles) | There is no place like ~ | `Lua` ★ 96 | 2026-06-01 |
 | [palashmon/awesome-vscode-settings](https://github.com/palashmon/awesome-vscode-settings) | 🎨 A curated list of simple and awesome VS Code settings | ★ 60 | 2026-04-08 |

@@ -13,6 +13,6 @@
 | [pixsper/jit.ndi](https://github.com/pixsper/jit.ndi) | Implementation of New Tek NDI protocol for Cycling 74's Max | `C` ★ 81 | 2026-01-16 |
 | [DistroAV/DistroAV](https://github.com/DistroAV/DistroAV) | Distro AV (formerly OBS-NDI): NDI integration for OBS Studio | `C++` ★ 4.4k | 2026-05-08 |
 | [CESNET/UltraGrid](https://github.com/CESNET/UltraGrid) | Ultra Grid low-latency audio and video network transmission system | `C` ★ 594 | 2026-05-29 |
-| [iv-org/invidious](https://github.com/iv-org/invidious) | Invidious is an alternative front-end to You Tube | `Crystal` ★ 20.3k | 2026-05-30 |
+| [iv-org/invidious](https://github.com/iv-org/invidious) | Invidious is an alternative front-end to You Tube | `Crystal` ★ 20.3k | 2026-06-03 |
 | [pandres95/ndi.js](https://github.com/pandres95/ndi.js) | NDI® SDK for Node.js | `C` ★ 57 | 2024-01-11 |
-| [mpv-player/mpv](https://github.com/mpv-player/mpv) | 🎥 Command line media player | `C` ★ 35.4k | 2026-06-03 |
+| [mpv-player/mpv](https://github.com/mpv-player/mpv) | 🎥 Command line media player | `C` ★ 35.5k | 2026-06-04 |
