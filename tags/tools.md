@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [Beledarian/Beledarians_LM_Studio_Toolbox](https://github.com/Beledarian/Beledarians_LM_Studio_Toolbox) | This project is a plugin for LM Studio that provides a rich set of tools to a large language model. It allows the LLM to interact with your local file system, execute code, access the internet, and... | `TypeScript` ★ 80 | 2026-05-10 |
-| [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 5.9k | 2026-06-04 |
+| [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 5.9k | 2026-06-05 |
 | [sohzm/cheating-daddy](https://github.com/sohzm/cheating-daddy) | a free and opensource app that lets you gain an unfair advantage | `JavaScript` ★ 5.3k | 2026-04-26 |
 | [tabs-not-spaces/CodeDump](https://github.com/tabs-not-spaces/CodeDump) | things that help me. might help others. | `PowerShell` ★ 122 | 2025-03-25 |
 | [siwenwang0803/secure-pr-guard](https://github.com/siwenwang0803/secure-pr-guard) | No description provided | `Python` ★ 2 | 2025-07-02 |

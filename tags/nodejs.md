@@ -7,12 +7,12 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [jeffijoe/awilix](https://github.com/jeffijoe/awilix) | Extremely powerful Inversion of Control (Io C) container for Node.JS | `TypeScript` ★ 4.2k | 2026-05-09 |
-| [listr2/listr2](https://github.com/listr2/listr2) | Node JS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive. | `TypeScript` ★ 671 | 2026-06-01 |
+| [listr2/listr2](https://github.com/listr2/listr2) | Node JS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive. | `TypeScript` ★ 670 | 2026-06-01 |
 | [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) | :white\_check\_mark: The Node.js best practices list (July 2024) | `Dockerfile` ★ 105.3k | 2025-04-15 |
 | [auth0/node-auth0](https://github.com/auth0/node-auth0) | Node.js client library for the Auth0 platform. | `TypeScript` ★ 680 | 2026-05-28 |
 | [Yayi-Dev/esc-pos-printer-manager](https://github.com/Yayi-Dev/esc-pos-printer-manager) | A plugin to manage ESC/POS printers via node.js (javascript / typescript) without using zadig (Win USBDriver) | `PHP` ★ 9 | 2024-07-29 |
 | [node-config/node-config](https://github.com/node-config/node-config) | Node.js Application Configuration | `JavaScript` ★ 6.4k | 2026-04-03 |
-| [Hexagon/croner](https://github.com/Hexagon/croner) | Trigger functions or evaluate cron expressions in Java Script or Type Script. No dependencies. Most features. Node. Deno. Bun. Browser. | `TypeScript` ★ 2.6k | 2026-05-25 |
+| [Hexagon/croner](https://github.com/Hexagon/croner) | Trigger functions or evaluate cron expressions in Java Script or Type Script. No dependencies. Most features. Node. Deno. Bun. Browser. | `TypeScript` ★ 2.6k | 2026-06-05 |
 | [stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core) | Dev environments. In your web app. | ★ 4.6k | 2025-04-22 |
 | [Sunny-117/webcontainer-ide](https://github.com/Sunny-117/webcontainer-ide) | Web Container IDE is a production-ready, browser-based development environment that brings the full power of Node.js to your browser. Built on Stack Blitz's Web Container technology, it enables dev... | `TypeScript` ★ 10 | 2026-01-15 |
 | [nwjs/nw.js](https://github.com/nwjs/nw.js) | Call all Node.js modules directly from DOM/Web Worker and enable a new way of writing applications with all Web technologies. | `JavaScript` ★ 41.2k | 2026-05-26 |
@@ -22,7 +22,7 @@
 | [tj/commander.js](https://github.com/tj/commander.js) | node.js command-line interfaces made easy | `JavaScript` ★ 28.2k | 2026-06-01 |
 | [google/zx](https://github.com/google/zx) | A tool for writing better scripts | `JavaScript` ★ 45.5k | 2026-05-10 |
 | [Schniz/fnm](https://github.com/Schniz/fnm) | 🚀 Fast and simple Node.js version manager, built in Rust | `Rust` ★ 25.8k | 2026-04-19 |
-| [electron/electron](https://github.com/electron/electron) | :electron: Build cross-platform desktop apps with Java Script, HTML, and CSS | `C++` ★ 121.5k | 2026-06-04 |
+| [electron/electron](https://github.com/electron/electron) | :electron: Build cross-platform desktop apps with Java Script, HTML, and CSS | `C++` ★ 121.5k | 2026-06-05 |
 | [obs-websocket-community-projects/obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) | Consumes https://github.com/obsproject/obs-websocket | `TypeScript` ★ 765 | 2026-04-20 |
 | [dexteryy/spellbook-of-modern-webdev](https://github.com/dexteryy/spellbook-of-modern-webdev) | A Big Picture, Thesaurus, and Taxonomy of Modern Java Script Web Development | ★ 17.8k | 2023-12-18 |
 | [alex4108/scoreboard](https://github.com/alex4108/scoreboard) | A simple scoreboard webapp using Express, React, and Mongo | `JavaScript` ★ 5 | 2023-03-05 |

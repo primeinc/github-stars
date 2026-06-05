@@ -16,4 +16,4 @@
 | [cipher387/osint_stuff_tool_collection](https://github.com/cipher387/osint_stuff_tool_collection) | A collection of several hundred online tools for OSINT | `HTML` ★ 8.1k | 2026-05-12 |
 | [kitspace/awesome-electronics](https://github.com/kitspace/awesome-electronics) | A curated list of awesome resources for Electronic Engineers and hobbyists | ★ 7.8k | 2026-01-05 |
 | [rShetty/awesome-podcasts](https://github.com/rShetty/awesome-podcasts) | Collection of awesome podcasts | ★ 13k | 2024-03-02 |
-| [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | A list of AI autonomous agents | ★ 28.1k | 2025-02-26 |
+| [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | A list of AI autonomous agents | ★ 28.2k | 2025-02-26 |

@@ -2,7 +2,7 @@
 
 > A curated list of **2653** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-06-04
+Last updated: 2026-06-05
 
 ## ⭐ Recently Starred
 
@@ -13,10 +13,10 @@ Last updated: 2026-06-04
 | [jonymaster/catalogIT](https://github.com/jonymaster/catalogIT) | A Web App to track Hardware and Software in an IT Team | `TypeScript` ★ 95 | 2026-05-21 |
 | [ozgrozer/ai-renamer](https://github.com/ozgrozer/ai-renamer) | A Node.js CLI that uses Ollama and LM Studio models (Llava, Gemma, Llama etc.) to intelligently rename files by their contents | `JavaScript` ★ 2.1k | 2025-02-09 |
 | [Beledarian/Beledarians_LM_Studio_Toolbox](https://github.com/Beledarian/Beledarians_LM_Studio_Toolbox) | This project is a plugin for LM Studio that provides a rich set of tools to a large language model. It allows the LLM to interact with your local file system, execute code, access the internet, and... | `TypeScript` ★ 80 | 2026-05-10 |
-| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 971 | 2026-06-01 |
-| [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) | No description provided | `TypeScript` ★ 15.1k | 2026-06-04 |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | AI Agent Framework, the Pydantic way | `Python` ★ 17.5k | 2026-06-04 |
-| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. | `TypeScript` ★ 14k | 2026-06-04 |
+| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 973 | 2026-06-01 |
+| [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) | No description provided | `TypeScript` ★ 15.2k | 2026-06-05 |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | AI Agent Framework, the Pydantic way | `Python` ★ 17.5k | 2026-06-05 |
+| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. | `TypeScript` ★ 14k | 2026-06-05 |
 | [jeffijoe/awilix](https://github.com/jeffijoe/awilix) | Extremely powerful Inversion of Control (Io C) container for Node.JS | `TypeScript` ★ 4.2k | 2026-05-09 |
 
 ## 🏷️ Popular Tags

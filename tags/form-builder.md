@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Ali-Hussein-dev/formcn](https://github.com/Ali-Hussein-dev/formcn) | Build production-ready forms with a few clicks | `TypeScript` ★ 489 | 2026-03-27 |
+| [Ali-Hussein-dev/formcn](https://github.com/Ali-Hussein-dev/formcn) | Build production-ready forms with a few clicks | `TypeScript` ★ 488 | 2026-03-27 |
 | [alibaba/formily](https://github.com/alibaba/formily) | 📱🚀 🧩 Cross Device & High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3 | `TypeScript` ★ 12.5k | 2025-06-21 |

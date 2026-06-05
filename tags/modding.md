@@ -10,4 +10,4 @@
 | [s4ptacle/Sims4Tools](https://github.com/s4ptacle/Sims4Tools) | Sims 4 modding tools and library | `C#` ★ 245 | 2024-03-01 |
 | [CmarNYC-Tools/TS4SimRipper](https://github.com/CmarNYC-Tools/TS4SimRipper) | No description provided | `C#` ★ 69 | 2026-02-08 |
 | [thardie/Cities2-Mods](https://github.com/thardie/Cities2-Mods) | No description provided | `C#` ★ 7 | 2023-11-28 |
-| [TURBODRIVER/WickedWhims](https://github.com/TURBODRIVER/WickedWhims) | Open resources of Wicked Whims for modders | `Python` ★ 34 | 2026-03-25 |
+| [TURBODRIVER/WickedWhims](https://github.com/TURBODRIVER/WickedWhims) | Open resources of Wicked Whims for modders | `Python` ★ 35 | 2026-03-25 |

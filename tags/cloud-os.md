@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [labring/sealos](https://github.com/labring/sealos) | Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfec... | `TypeScript` ★ 17.9k | 2026-06-03 |
-| [HeyPuter/puter](https://github.com/HeyPuter/puter) | 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable. | `JavaScript` ★ 42.1k | 2026-06-04 |
+| [labring/sealos](https://github.com/labring/sealos) | Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfec... | `TypeScript` ★ 17.9k | 2026-06-04 |
+| [HeyPuter/puter](https://github.com/HeyPuter/puter) | 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable. | `JavaScript` ★ 42.1k | 2026-06-05 |
