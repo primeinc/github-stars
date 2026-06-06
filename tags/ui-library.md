@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [dialpad/dialtone](https://github.com/dialpad/dialtone) | The main repository for all of Dialpad's design system resources. | `JavaScript` ★ 15 | 2026-06-04 |
+| [dialpad/dialtone](https://github.com/dialpad/dialtone) | The main repository for all of Dialpad's design system resources. | `JavaScript` ★ 15 | 2026-06-05 |
 | [meteor-useraccounts/core](https://github.com/meteor-useraccounts/core) | Meteor sign up and sign in templates' core functionalities | `JavaScript` ★ 532 | 2021-07-09 |
-| [ant-design/ant-design](https://github.com/ant-design/ant-design) | An enterprise-class UI design language and React UI library | `TypeScript` ★ 98.3k | 2026-06-05 |
+| [ant-design/ant-design](https://github.com/ant-design/ant-design) | An enterprise-class UI design language and React UI library | `TypeScript` ★ 98.3k | 2026-06-06 |

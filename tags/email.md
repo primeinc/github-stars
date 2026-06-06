@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [anonaddy/anonaddy](https://github.com/anonaddy/anonaddy) | Anonymous email forwarding | `PHP` ★ 4.7k | 2026-05-28 |
-| [pimalaya/himalaya](https://github.com/pimalaya/himalaya) | CLI to manage emails | `Rust` ★ 6.3k | 2026-06-02 |
+| [pimalaya/himalaya](https://github.com/pimalaya/himalaya) | CLI to manage emails | `Rust` ★ 6.4k | 2026-06-05 |
 | [resend/react-email](https://github.com/resend/react-email) | 💌 Build and send emails using React | `TypeScript` ★ 19.3k | 2026-06-02 |
 | [Mail-0/Zero](https://github.com/Mail-0/Zero) | Experience email the way you want with Mail0 – the first open source email app that puts your privacy and safety first. Join the discord: https://mail0.link/discord | `TypeScript` ★ 10.6k | 2026-05-26 |
 | [novuhq/novu](https://github.com/novuhq/novu) | The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations. | `TypeScript` ★ 39.1k | 2026-06-05 |

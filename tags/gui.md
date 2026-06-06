@@ -12,7 +12,7 @@
 | [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop\_computer: :camera\_flash: | `C++` ★ 30.1k | 2026-06-01 |
 | [longbridge/gpui-component](https://github.com/longbridge/gpui-component) | Rust GUI components for building fantastic cross-platform desktop application by using GPUI. | `Rust` ★ 11.6k | 2026-06-05 |
 | [HeyPuter/puter](https://github.com/HeyPuter/puter) | 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable. | `JavaScript` ★ 42.1k | 2026-06-05 |
-| [emilk/egui](https://github.com/emilk/egui) | egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native | `Rust` ★ 29.3k | 2026-06-03 |
+| [emilk/egui](https://github.com/emilk/egui) | egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native | `Rust` ★ 29.3k | 2026-06-05 |
 | [antwaremx/meteorman](https://github.com/antwaremx/meteorman) | A DDP client with GUI (The Postman for Meteor) | `Vue` ★ 53 | 2025-03-30 |
 | [JaredTherriault/Rope](https://github.com/JaredTherriault/Rope) | GUI-focused roop | `Python` ★ 15 | 2025-03-06 |
 | [4xmen/anubias](https://github.com/4xmen/anubias) | Developed mobile apps so easy and native with GUI 📱 | `Vue` ★ 2.3k | 2025-01-19 |

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [p-e-w/heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language models | `Python` ★ 23.7k | 2026-06-04 |
+| [p-e-w/heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language models | `Python` ★ 23.8k | 2026-06-05 |
 | [jasonkneen/workflow-builder-template](https://github.com/jasonkneen/workflow-builder-template) | Visual AI workflow automation platform | `TypeScript` ★ 1 | 2026-01-13 |

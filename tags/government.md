@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [openstates/openstates-scrapers](https://github.com/openstates/openstates-scrapers) | source for Open States scrapers | `Python` ★ 902 | 2026-06-05 |
+| [openstates/openstates-scrapers](https://github.com/openstates/openstates-scrapers) | source for Open States scrapers | `Python` ★ 903 | 2026-06-05 |
 | [dobtco/openrfps-scrapers](https://github.com/dobtco/openrfps-scrapers) | Scraping government contracting opportunities. | `CoffeeScript` ★ 84 | 2014-10-03 |

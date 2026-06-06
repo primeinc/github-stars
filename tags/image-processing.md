@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Wells-the-Doctor/leaxer](https://github.com/Wells-the-Doctor/leaxer) | 🌟 Build and deploy local AI models with Leaxer for real-time interaction, streamlined document generation, and versatile visual processing capabilities. | `Elixir` ★ 1 | 2026-06-05 |
-| [lovell/sharp](https://github.com/lovell/sharp) | High performance Node.js image processing, the fastest module to resize JPEG, PNG, Web P, AVIF and TIFF images. Uses the libvips library. | `JavaScript` ★ 32.3k | 2026-06-04 |
+| [Wells-the-Doctor/leaxer](https://github.com/Wells-the-Doctor/leaxer) | 🌟 Build and deploy local AI models with Leaxer for real-time interaction, streamlined document generation, and versatile visual processing capabilities. | `Elixir` ★ 1 | 2026-06-06 |
+| [lovell/sharp](https://github.com/lovell/sharp) | High performance Node.js image processing, the fastest module to resize JPEG, PNG, Web P, AVIF and TIFF images. Uses the libvips library. | `JavaScript` ★ 32.3k | 2026-06-05 |
 | [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11.2k | 2026-06-01 |
 | [Visual-Agent/DeepEyesV2](https://github.com/Visual-Agent/DeepEyesV2) | No description provided | `Python` ★ 606 | 2026-02-26 |
 | [NVIDIA/nvImageCodec](https://github.com/NVIDIA/nvImageCodec) | A nv Image Codec library of GPU- and CPU- accelerated codecs featuring a unified interface | `Jupyter Notebook` ★ 149 | 2026-04-14 |

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [builtbybel/FlyOOBE](https://github.com/builtbybel/FlyOOBE) | Fly through your Windows 11 setup 🐝 | `C#` ★ 6.9k | 2026-01-04 |
+| [builtbybel/FlyOOBE](https://github.com/builtbybel/FlyOOBE) | Fly through your Windows 11 setup 🐝 | `C#` ★ 7k | 2026-01-04 |
 | [jgarzik/hk](https://github.com/jgarzik/hk) | A modern, Linux compatible OS kernel | `Rust` ★ 351 | 2025-12-30 |

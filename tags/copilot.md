@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [github/copilot-language-server-release](https://github.com/github/copilot-language-server-release) | Feedback for the Git Hub Copilot Language Server | ★ 276 | 2026-06-05 |
-| [github/copilot-cli](https://github.com/github/copilot-cli) | Git Hub Copilot CLI brings the power of Copilot coding agent directly to your terminal. | `Shell` ★ 10.7k | 2026-06-04 |
+| [github/copilot-cli](https://github.com/github/copilot-cli) | Git Hub Copilot CLI brings the power of Copilot coding agent directly to your terminal. | `Shell` ★ 10.7k | 2026-06-05 |
 | [arabold/docs-mcp-server](https://github.com/arabold/docs-mcp-server) | Grounded Docs MCP Server: Open-Source Alternative to Context7, Nia, and Ref.Tools | `TypeScript` ★ 1.4k | 2026-05-19 |
 | [pnp/provision-assist-m365](https://github.com/pnp/provision-assist-m365) | Provision Assist is a request and provisioning solution for Teams, Groups, SPO Sites and Viva Engage Communities in Microsoft 365. It can be used as part of a Copilot for Microsoft 365 deployment. | `PowerShell` ★ 116 | 2025-04-07 |
 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL Augment Code, Claude Code, Cluely, Code Buddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, Notion AI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer ... | ★ 138.8k | 2026-05-23 |
