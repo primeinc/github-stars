@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [gradiuscypher/infosec_getting_started](https://github.com/gradiuscypher/infosec_getting_started) | A collection of resources/documentation/links/etc to help people learn about Infosec and break into the field. | `HTML` ★ 614 | 2025-01-11 |
+| [gradiuscypher/infosec_getting_started](https://github.com/gradiuscypher/infosec_getting_started) | A collection of resources/documentation/links/etc to help people learn about Infosec and break into the field. | `HTML` ★ 615 | 2025-01-11 |
 | [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | The Network Execution Tool | `Python` ★ 5.6k | 2026-06-05 |
 | [AlphaDelta/Secure-Desktop](https://github.com/AlphaDelta/Secure-Desktop) | Anti-keylogger/anti-rat application for Windows | `C#` ★ 248 | 2021-09-08 |

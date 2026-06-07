@@ -14,6 +14,6 @@
 | [shane-downes/styleglide](https://github.com/shane-downes/styleglide) | Create your own shadcn/ui and Tailwind CSS design system | `TypeScript` ★ 66 | 2025-12-06 |
 | [reshaped-ui/reshaped](https://github.com/reshaped-ui/reshaped) | Professionally crafted React & Figma components for building beautiful products or starting your own design system | `TypeScript` ★ 2.2k | 2026-06-04 |
 | [untitleduico/react](https://github.com/untitleduico/react) | Untitled UI React is the world’s largest collection of open-source React components built with Tailwind CSS and React Aria. Just copy, paste, and build. | `TypeScript` ★ 1.8k | 2026-06-01 |
-| [mui/base-ui](https://github.com/mui/base-ui) | Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI. | `TypeScript` ★ 9.9k | 2026-06-05 |
+| [mui/base-ui](https://github.com/mui/base-ui) | Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI. | `TypeScript` ★ 9.9k | 2026-06-06 |
 | [nuejs/nue](https://github.com/nuejs/nue) | Fastest way to build modern websites | `JavaScript` ★ 8.8k | 2026-02-17 |
-| [lobehub/lobe-ui](https://github.com/lobehub/lobe-ui) | 🍭 Lobe UI - an open-source UI component library for building AIGC web apps | `TypeScript` ★ 2k | 2026-06-03 |
+| [lobehub/lobe-ui](https://github.com/lobehub/lobe-ui) | 🍭 Lobe UI - an open-source UI component library for building AIGC web apps | `TypeScript` ★ 2k | 2026-06-07 |

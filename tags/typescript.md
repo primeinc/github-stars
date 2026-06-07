@@ -12,7 +12,7 @@
 | [notclickable-jordan/starbase-80](https://github.com/notclickable-jordan/starbase-80) | A nice Docker homepage | `TypeScript` ★ 540 | 2025-10-18 |
 | [Simon-He95/markdown-it-ts](https://github.com/Simon-He95/markdown-it-ts) | A modern, type-safe rewrite of markdown-it in Type Script: pluggable rules, split parse/render, Common Mark-compatible; fast one-shot parsing and even faster streaming/incremental updates. | `TypeScript` ★ 141 | 2026-05-14 |
 | [Effect-TS/effect](https://github.com/Effect-TS/effect) | Build production-ready applications in Type Script | `TypeScript` ★ 14.5k | 2026-06-05 |
-| [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) | Map Libre GL JS - Interactive vector tile maps in the browser | `TypeScript` ★ 10.8k | 2026-06-05 |
+| [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) | Map Libre GL JS - Interactive vector tile maps in the browser | `TypeScript` ★ 10.8k | 2026-06-07 |
 | [middleapi/orpc](https://github.com/middleapi/orpc) | Typesafe APIs Made Simple 🪄 | `TypeScript` ★ 5.3k | 2026-06-06 |
 | [PaulJPhilp/effect-env](https://github.com/PaulJPhilp/effect-env) | No description provided | `TypeScript` ★ 43 | 2025-11-27 |
 | [JoshuaKGoldberg/TypeStat](https://github.com/JoshuaKGoldberg/TypeStat) | Converts Java Script to Type Script and Type Script to better Type Script. 🧫 | `TypeScript` ★ 2.2k | 2026-06-03 |

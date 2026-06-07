@@ -10,7 +10,7 @@
 | [indragiek/Context](https://github.com/indragiek/Context) | Native mac OS client for Model Context Protocol (MCP) | `Swift` ★ 798 | 2026-02-11 |
 | [hewigovens/app-detective](https://github.com/hewigovens/app-detective) | Detect mac OS apps' GUI tech stack | `Swift` ★ 105 | 2026-05-17 |
 | [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) | Use your mac OS terminal shell to do awesome things. | ★ 30.6k | 2026-03-04 |
-| [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | 🚀 Awesome list of open source applications for mac OS. https://t.me/s/opensourcemacosapps | ★ 48.9k | 2026-04-15 |
+| [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | 🚀 Awesome list of open source applications for mac OS. https://t.me/s/opensourcemacosapps | ★ 49k | 2026-04-15 |
 | [paolo-projects/auto-unlocker](https://github.com/paolo-projects/auto-unlocker) | Unlocker for VMWare mac OS | `C++` ★ 4.9k | 2025-09-17 |
 | [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) | Karabiner-Elements is a powerful tool for customizing keyboards on mac OS | `C++` ★ 22.3k | 2026-06-05 |
 | [Aayush9029/NativeYoutube](https://github.com/Aayush9029/NativeYoutube) | Personal App that turned into "alpha released app" v3 | `Swift` ★ 529 | 2026-02-12 |

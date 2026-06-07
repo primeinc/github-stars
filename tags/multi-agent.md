@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [joelhooks/swarm-tools](https://github.com/joelhooks/swarm-tools) | 🐝 Multi-agent swarm coordination for Open Code with learning capabilities, agent issue tracking, and management | `TypeScript` ★ 690 | 2026-05-21 |
+| [joelhooks/swarm-tools](https://github.com/joelhooks/swarm-tools) | 🐝 Multi-agent swarm coordination for Open Code with learning capabilities, agent issue tracking, and management | `TypeScript` ★ 691 | 2026-05-21 |
 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | Chat Dev 2.0: Dev All through LLM-powered Multi-Agent Collaboration | `Python` ★ 33.3k | 2026-05-27 |
 | [camel-ai/owl](https://github.com/camel-ai/owl) | 🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation | `Python` ★ 19.8k | 2026-05-15 |
 | [AzureCosmosDB/banking-multi-agent-workshop](https://github.com/AzureCosmosDB/banking-multi-agent-workshop) | A multi-agent sample and workshop for a retail banking scenario. Implemented in both C# and Python, using Angular as Frontend! | ★ 116 | 2026-05-05 |
