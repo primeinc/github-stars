@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-06-08T08:25:51.729Z'
+  manifest_updated_at: '2026-06-08T08:26:28.258Z'
   total_repos: 2652
   generator_version: v1.0.0
   github_user: primeinc
@@ -108632,13 +108632,18 @@ repositories:
       prompt_version: v3
   - repo: yumingj/DeepFashion-MultiModal
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+      - learning
+    tags:
+      - multi-modal
+      - dataset
+      - siggraph2022
     summary: A large-scale high-quality human dataset with rich multi-modal annotations
     last_synced_sha: 4265495d8fc672af3a3c134d823b28b34eb5eb2d
     user_starred_at: '2026-06-07T08:12:02Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics:
@@ -108656,3 +108661,8 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-08T08:26:27.169Z'
+      prompt_version: v3
