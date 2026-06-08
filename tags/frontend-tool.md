@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [nibzard/FocusHighlighter](https://github.com/nibzard/FocusHighlighter) | No description provided | `TypeScript` ★ 2 | 2026-01-22 |
-| [vibetunnel/vibetunnel](https://github.com/vibetunnel/vibetunnel) | WIP - we're transitioning to the org soon | `TypeScript` ★ 21 | 2025-07-18 |
+| [vibetunnel/vibetunnel](https://github.com/vibetunnel/vibetunnel) | WIP - we're transitioning to the org soon | `TypeScript` ★ 22 | 2025-07-18 |

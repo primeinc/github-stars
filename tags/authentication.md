@@ -11,14 +11,14 @@
 | [coleam00/remote-mcp-server-with-auth](https://github.com/coleam00/remote-mcp-server-with-auth) | Template for a remote MCP server with Git Hub OAuth - following best practices for building MCP servers so you can take this as a starting point for any MCP server you want to build! | `TypeScript` ★ 291 | 2025-07-11 |
 | [PalmEmanuel/AzAuth](https://github.com/PalmEmanuel/AzAuth) | A Power Shell module to handle authentication for Azure. | `PowerShell` ★ 42 | 2026-05-12 |
 | [LaresLLC/AzureTokenExtractor](https://github.com/LaresLLC/AzureTokenExtractor) | Extracts Azure authentication tokens from Power Shell process minidumps. | `Python` ★ 25 | 2023-05-20 |
-| [better-auth/better-auth](https://github.com/better-auth/better-auth) | The most comprehensive authentication framework for Type Script | `TypeScript` ★ 28.6k | 2026-06-07 |
+| [better-auth/better-auth](https://github.com/better-auth/better-auth) | The most comprehensive authentication framework for Type Script | `TypeScript` ★ 28.6k | 2026-06-08 |
 | [meteor-useraccounts/core](https://github.com/meteor-useraccounts/core) | Meteor sign up and sign in templates' core functionalities | `JavaScript` ★ 532 | 2021-07-09 |
 | [activadee/opencode-auth-sync](https://github.com/activadee/opencode-auth-sync) | No description provided | `TypeScript` ★ 5 | 2026-01-30 |
-| [tinyauthapp/tinyauth](https://github.com/tinyauthapp/tinyauth) | The tiniest authentication and authorization server you have ever seen. | `Go` ★ 7.5k | 2026-06-07 |
+| [tinyauthapp/tinyauth](https://github.com/tinyauthapp/tinyauth) | The tiniest authentication and authorization server you have ever seen. | `Go` ★ 7.5k | 2026-06-08 |
 | [numman-ali/opencode-openai-codex-auth](https://github.com/numman-ali/opencode-openai-codex-auth) | OAuth authentication plugin for personal coding assistance with Chat GPT Plus/Pro subscriptions - uses Open AI's official authentication method | `TypeScript` ★ 2.1k | 2026-01-09 |
 | [NoeFabris/opencode-antigravity-auth](https://github.com/NoeFabris/opencode-antigravity-auth) | Enable Opencode to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking with your Google... | `TypeScript` ★ 10.8k | 2026-04-28 |
 | [nextauthjs/next-auth](https://github.com/nextauthjs/next-auth) | Authentication for the Web. | `TypeScript` ★ 28.3k | 2026-04-14 |
-| [nhost/nhost](https://github.com/nhost/nhost) | The Open Source Firebase Alternative with Graph QL. | `Go` ★ 9.2k | 2026-06-07 |
+| [nhost/nhost](https://github.com/nhost/nhost) | The Open Source Firebase Alternative with Graph QL. | `Go` ★ 9.2k | 2026-06-08 |
 | [devkimchi/azure-easyauth-sample](https://github.com/devkimchi/azure-easyauth-sample) | This provides a sample code for the Easy Auth feature on Azure App Service, Azure Static Web App and Azure Container Apps | `CSS` ★ 6 | 2025-02-12 |
 | [Akash52/msal-with-nuxt3](https://github.com/Akash52/msal-with-nuxt3) | Microsoft Authentication Library (MSAL) with Nuxt 3 | `Vue` ★ 35 | 2023-11-17 |
 | [swipelux/zeroid-secrets-storing-widget](https://github.com/swipelux/zeroid-secrets-storing-widget) | No description provided | `TypeScript` ★ 17 | 2024-01-18 |

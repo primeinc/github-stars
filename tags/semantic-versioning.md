@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Ataraxy-Labs/sem](https://github.com/Ataraxy-Labs/sem) | Semantic version control — entity-level diffs, blame, and impact analysis on top of git. 26 languages via tree-sitter. Built for coding agents. | `Rust` ★ 2.2k | 2026-06-07 |
+| [Ataraxy-Labs/sem](https://github.com/Ataraxy-Labs/sem) | Semantic version control — entity-level diffs, blame, and impact analysis on top of git. 26 languages via tree-sitter. Built for coding agents. | `Rust` ★ 2.4k | 2026-06-07 |
 | [microsoft/beachball](https://github.com/microsoft/beachball) | The Sunniest Semantic Version Bumper | `TypeScript` ★ 814 | 2026-06-04 |
