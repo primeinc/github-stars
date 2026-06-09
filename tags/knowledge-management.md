@@ -8,4 +8,4 @@
 |---|---|---|---|
 | [AIDotNet/OpenDeepWiki](https://github.com/AIDotNet/OpenDeepWiki) | Open Deep Wiki is the open-source version of the Deep Wiki project, aiming to provide a powerful knowledge management and collaboration platform. The project is mainly developed using C# and Type S... | `C#` ★ 3.3k | 2026-06-04 |
 | [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian) | 🕶️ Awesome stuff for Obsidian | `CSS` ★ 8.9k | 2024-04-06 |
-| [coleam00/Archon](https://github.com/coleam00/Archon) | Beta release of Archon OS - the knowledge and task management backbone for AI coding assistants. | `TypeScript` ★ 22.2k | 2026-06-08 |
+| [coleam00/Archon](https://github.com/coleam00/Archon) | Beta release of Archon OS - the knowledge and task management backbone for AI coding assistants. | `TypeScript` ★ 22.3k | 2026-06-09 |

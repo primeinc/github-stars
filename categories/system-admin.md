@@ -6,23 +6,23 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [aelassas/servy](https://github.com/aelassas/servy) | Professional-Grade Windows Service Wrapper with Deep Observability - Modern Alternative to NSSM, Win SW & Fire Daemon Pro | `C#` ★ 1.8k | 2026-06-07 |
-| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 4.3k | 2026-06-04 |
-| [12Knocksinna/Office365itpros](https://github.com/12Knocksinna/Office365itpros) | Power Shell examples for articles published on https://office365itpros.com and https://practical365.com. See https://o365itpros.gumroad.com/l/M365PS for the Automating Microsoft 365 with Power Shel... | `PowerShell` ★ 1.8k | 2026-06-07 |
+| [aelassas/servy](https://github.com/aelassas/servy) | Professional-Grade Windows Service Wrapper with Deep Observability - Modern Alternative to NSSM, Win SW & Fire Daemon Pro | `C#` ★ 1.8k | 2026-06-08 |
+| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 4.3k | 2026-06-08 |
+| [12Knocksinna/Office365itpros](https://github.com/12Knocksinna/Office365itpros) | Power Shell examples for articles published on https://office365itpros.com and https://practical365.com. See https://o365itpros.gumroad.com/l/M365PS for the Automating Microsoft 365 with Power Shel... | `PowerShell` ★ 1.8k | 2026-06-08 |
 | [open-security-tools/ost-environment-gate](https://github.com/open-security-tools/ost-environment-gate) | No description provided | `Rust` ★ 20 | 2026-05-05 |
 | [owu/wsl-dashboard](https://github.com/owu/wsl-dashboard) | A GUI manager for WSL featuring a modern UI — a lightweight, low‑memory, high‑performance dashboard to manage WSL instances. | `Rust` ★ 2.6k | 2026-05-30 |
-| [microsoft/work-iq](https://github.com/microsoft/work-iq) | MCP Server and CLI for accessing Work IQ | `PowerShell` ★ 870 | 2026-06-05 |
-| [microsoft/hve-core](https://github.com/microsoft/hve-core) | A refined collection of Hypervelocity Engineering components (instructions, prompts, agents, and skills) to start your project off right, or upgrade your existing projects to get the most out of al... | `PowerShell` ★ 1.1k | 2026-06-06 |
+| [microsoft/work-iq](https://github.com/microsoft/work-iq) | MCP Server and CLI for accessing Work IQ | `PowerShell` ★ 871 | 2026-06-05 |
+| [microsoft/hve-core](https://github.com/microsoft/hve-core) | A refined collection of Hypervelocity Engineering components (instructions, prompts, agents, and skills) to start your project off right, or upgrade your existing projects to get the most out of al... | `PowerShell` ★ 1.1k | 2026-06-09 |
 | [xec-sh/xec](https://github.com/xec-sh/xec) | Xec - Universal Execution System | `TypeScript` ★ 4 | 2026-03-15 |
 | [Torrekie/Battman](https://github.com/Torrekie/Battman) | Battman the Battery Manager | `Objective-C` ★ 206 | 2026-04-03 |
 | [microsoft/tyger](https://github.com/microsoft/tyger) | Remote signal processing. | `Go` ★ 70 | 2026-06-01 |
 | [fluent/fluent-bit](https://github.com/fluent/fluent-bit) | Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows | `C` ★ 7.9k | 2026-06-08 |
-| [ymtdzzz/otel-tui](https://github.com/ymtdzzz/otel-tui) | A terminal Open Telemetry viewer inspired by otel-desktop-viewer | `Go` ★ 1k | 2026-06-01 |
+| [ymtdzzz/otel-tui](https://github.com/ymtdzzz/otel-tui) | A terminal Open Telemetry viewer inspired by otel-desktop-viewer | `Go` ★ 1k | 2026-06-08 |
 | [sn4k3/NetSonar](https://github.com/sn4k3/NetSonar) | Network pings and other utilities | `C#` ★ 1.6k | 2026-05-24 |
 | [Justsenger/ExHyperV](https://github.com/Justsenger/ExHyperV) | The Excalibur of Hyper-V / Hyper-V 神器 | `C#` ★ 4.2k | 2026-06-08 |
-| [AlexRosbach/LanLens](https://github.com/AlexRosbach/LanLens) | Lan Lens continuously scans your local network, identifies every device by MAC address, and gives you a clean dark-themed web UI to manage, document, and connect to them — all in a single Docker co... | `Python` ★ 102 | 2026-06-05 |
-| [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) | Contrib repository for the Open Telemetry Collector | `Go` ★ 4.7k | 2026-06-08 |
-| [tailscale/tailscale](https://github.com/tailscale/tailscale) | The easiest, most secure way to use Wire Guard and 2FA. | `Go` ★ 32.4k | 2026-06-07 |
+| [AlexRosbach/LanLens](https://github.com/AlexRosbach/LanLens) | Lan Lens continuously scans your local network, identifies every device by MAC address, and gives you a clean dark-themed web UI to manage, document, and connect to them — all in a single Docker co... | `Python` ★ 104 | 2026-06-08 |
+| [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) | Contrib repository for the Open Telemetry Collector | `Go` ★ 4.7k | 2026-06-09 |
+| [tailscale/tailscale](https://github.com/tailscale/tailscale) | The easiest, most secure way to use Wire Guard and 2FA. | `Go` ★ 32.4k | 2026-06-08 |
 | [lopezleandro03/azd-devcenter](https://github.com/lopezleandro03/azd-devcenter) | A template to get started with Azure Deployment Environments. | `HCL` ★ 12 | 2025-05-28 |
 | [Yeachan-Heo/clawhip](https://github.com/Yeachan-Heo/clawhip) | claw + whip: Event-to-channel notification router — bypasses gateway sessions to avoid context pollution | `Rust` ★ 911 | 2026-06-05 |
 | [unixshells/latch](https://github.com/unixshells/latch) | Terminal multiplexer with built-in remote access. tmux you can SSH into, open in a browser, or connect to with mosh. | `Go` ★ 33 | 2026-04-14 |
@@ -35,20 +35,20 @@
 | [Foyerr/Update-PrinterPortConfig](https://github.com/Foyerr/Update-PrinterPortConfig) | This repository contains Power Shell functions focused on resolving mismatches between printer ports and their actual IP addresses in Windows Servers | ★ 2 | 2023-10-30 |
 | [ipat8/cmd-printer-management](https://github.com/ipat8/cmd-printer-management) | Manage WSD Printers via CMD scripts | `Batchfile` ★ 2 | 2017-09-06 |
 | [cityssm/snmp-oid-collector](https://github.com/cityssm/snmp-oid-collector) | Collect OID values from a series of SNMP-enabled servers in a flash! | `TypeScript` ★ 4 | 2026-05-14 |
-| [0x6d69636b/windows_hardening](https://github.com/0x6d69636b/windows_hardening) | Hardening Kitty and Windows Hardening Settings | `PowerShell` ★ 2.6k | 2026-06-03 |
-| [docker/docker-credential-helpers](https://github.com/docker/docker-credential-helpers) | Programs to keep Docker login credentials safe by storing in platform keystores | `Go` ★ 1.3k | 2026-06-04 |
-| [jdx/fnox](https://github.com/jdx/fnox) | encrypted/remote secret manager | `Rust` ★ 1.8k | 2026-06-06 |
+| [0x6d69636b/windows_hardening](https://github.com/0x6d69636b/windows_hardening) | Hardening Kitty and Windows Hardening Settings | `PowerShell` ★ 2.6k | 2026-06-08 |
+| [docker/docker-credential-helpers](https://github.com/docker/docker-credential-helpers) | Programs to keep Docker login credentials safe by storing in platform keystores | `Go` ★ 1.3k | 2026-06-08 |
+| [jdx/fnox](https://github.com/jdx/fnox) | encrypted/remote secret manager | `Rust` ★ 1.8k | 2026-06-09 |
 | [viralcode/vib-OS](https://github.com/viralcode/vib-OS) | World's First Vibecoded AI Operating System | `C` ★ 447 | 2026-03-10 |
-| [clusterzx/ts6-manager](https://github.com/clusterzx/ts6-manager) | Web-based management interface for Team Speak servers | `TypeScript` ★ 133 | 2026-03-28 |
-| [timeframe/ha-addon](https://github.com/timeframe/ha-addon) | An e-paper calendar, weather, and smart home family dashboard for Home Assistant | `Ruby` ★ 817 | 2026-06-06 |
-| [SpecterShell/Dumplings](https://github.com/SpecterShell/Dumplings) | Dump remote resources and lint outdated packages | `PowerShell` ★ 48 | 2026-06-08 |
-| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 34.8k | 2026-06-05 |
+| [clusterzx/ts6-manager](https://github.com/clusterzx/ts6-manager) | Web-based management interface for Team Speak servers | `TypeScript` ★ 134 | 2026-03-28 |
+| [timeframe/ha-addon](https://github.com/timeframe/ha-addon) | An e-paper calendar, weather, and smart home family dashboard for Home Assistant | `Ruby` ★ 818 | 2026-06-08 |
+| [SpecterShell/Dumplings](https://github.com/SpecterShell/Dumplings) | Dump remote resources and lint outdated packages | `PowerShell` ★ 48 | 2026-06-09 |
+| [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) | Secure and fast micro VMs for serverless computing. | `Rust` ★ 34.8k | 2026-06-08 |
 | [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 481 | 2026-04-27 |
-| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | A modern replacement for Redis and Memcached | `C++` ★ 30.6k | 2026-06-08 |
-| [nushell/nushell](https://github.com/nushell/nushell) | A new type of shell | `Rust` ★ 39.7k | 2026-06-07 |
-| [stacklok/toolhive](https://github.com/stacklok/toolhive) | Tool Hive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers. | `Go` ★ 1.9k | 2026-06-07 |
+| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | A modern replacement for Redis and Memcached | `C++` ★ 30.6k | 2026-06-09 |
+| [nushell/nushell](https://github.com/nushell/nushell) | A new type of shell | `Rust` ★ 39.7k | 2026-06-08 |
+| [stacklok/toolhive](https://github.com/stacklok/toolhive) | Tool Hive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers. | `Go` ★ 1.9k | 2026-06-08 |
 | [MxIris-Reverse-Engineering/ida-mcp-server](https://github.com/MxIris-Reverse-Engineering/ida-mcp-server) | A Model Context Protocol server for IDA | `Python` ★ 544 | 2025-05-29 |
-| [mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server) | Go server implementing Model Context Protocol (MCP) for filesystem operations. | `Go` ★ 649 | 2025-11-24 |
+| [mark3labs/mcp-filesystem-server](https://github.com/mark3labs/mcp-filesystem-server) | Go server implementing Model Context Protocol (MCP) for filesystem operations. | `Go` ★ 650 | 2025-11-24 |
 | [microsoft/PSRule-pipelines](https://github.com/microsoft/PSRule-pipelines) | Validate infrastructure as code (Ia C) and Dev Ops repositories using Azure Pipelines. | `PowerShell` ★ 102 | 2026-05-08 |
 | [knom/AzureResourceOwnerTag](https://github.com/knom/AzureResourceOwnerTag) | Azure Automation Script that Tags Azure Resource Groups with the OWNER and EXPIRY DATE | `PowerShell` ★ 12 | 2018-05-27 |
 | [SoyITPro/scripts](https://github.com/SoyITPro/scripts) | Scripts para administradores de servidores Windows, Azure, Docker, Linux y más | `PowerShell` ★ 59 | 2026-04-28 |
@@ -60,54 +60,54 @@
 | [Gerenios/AADInternals](https://github.com/Gerenios/AADInternals) | AADInternals Power Shell module for administering Azure AD and Office 365 | `PowerShell` ★ 1.7k | 2025-09-30 |
 | [spddl/GoInterruptPolicy](https://github.com/spddl/GoInterruptPolicy) | I just tried to create a better version of the "Interrupt Affinity Policy" and "MSI Mode" Tool | `Go` ★ 484 | 2026-03-27 |
 | [kevinburke/ssh_config](https://github.com/kevinburke/ssh_config) | Go parser for ssh\_config files | `Go` ★ 469 | 2026-05-04 |
-| [thewhiteninja/ntfstool](https://github.com/thewhiteninja/ntfstool) | Forensics tool for NTFS (parser, mft, bitlocker, deleted files) | `C++` ★ 614 | 2026-05-14 |
+| [thewhiteninja/ntfstool](https://github.com/thewhiteninja/ntfstool) | Forensics tool for NTFS (parser, mft, bitlocker, deleted files) | `C++` ★ 615 | 2026-05-14 |
 | [zabbix/zabbix](https://github.com/zabbix/zabbix) | Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud. | `Go Template` ★ 6k | 2026-06-08 |
-| [Safe3/openresty-manager](https://github.com/Safe3/openresty-manager) | Modern, secure, and elegant server control panel, alternative to Open Resty Edge and Nginx Proxy Manager. | `Go` ★ 1.4k | 2026-05-17 |
-| [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) | 🔥 1Panel is a modern, open-source VPS control panel — and the only one with native AI agent support. Run Ollama models, deploy Open Claw agents, and manage your entire server stack from one clean ... | `Go` ★ 35.8k | 2026-06-08 |
+| [Safe3/openresty-manager](https://github.com/Safe3/openresty-manager) | Modern, secure, and elegant server control panel, alternative to Open Resty Edge and Nginx Proxy Manager. | `Go` ★ 1.4k | 2026-06-08 |
+| [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) | 🔥 1Panel is a modern, open-source VPS control panel — and the only one with native AI agent support. Run Ollama models, deploy Open Claw agents, and manage your entire server stack from one clean ... | `Go` ★ 35.8k | 2026-06-09 |
 | [11happy/cpx](https://github.com/11happy/cpx) | cp reimagined | `Rust` ★ 428 | 2026-03-06 |
 | [mdp/qrterminal](https://github.com/mdp/qrterminal) | QR Codes in your terminal | `Go` ★ 536 | 2025-03-19 |
 | [keylase/nvidia-patch](https://github.com/keylase/nvidia-patch) | This patch removes restriction on maximum number of simultaneous NVENC video encoding sessions imposed by Nvidia to consumer-grade GPUs. | `Python` ★ 4.7k | 2026-05-06 |
 | [nicolonsky/ITDR](https://github.com/nicolonsky/ITDR) | Collection of Microsoft Identity Threat Detection and Response resources. | `PowerShell` ★ 54 | 2026-06-01 |
 | [bbmumford/Intune-Toolkit](https://github.com/bbmumford/Intune-Toolkit) | my personal collection of scripts & guides to configuring a standard enterprise Intune enviroment. | `Opal` ★ 76 | 2026-01-09 |
 | [microsoft/EntraExporter](https://github.com/microsoft/EntraExporter) | Power Shell module to export a local copy of an Entra (Azure AD) tenant configuration. | `PowerShell` ★ 865 | 2025-11-16 |
-| [systommy/TenantReports](https://github.com/systommy/TenantReports) | A Power Shell module for generating Microsoft 365 and Azure security reports. | `PowerShell` ★ 21 | 2026-03-25 |
+| [systommy/TenantReports](https://github.com/systommy/TenantReports) | A Power Shell module for generating Microsoft 365 and Azure security reports. | `PowerShell` ★ 21 | 2026-06-08 |
 | [Dicklesworthstone/agentic_coding_flywheel_setup](https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup) | Bootstraps a fresh Ubuntu VPS into a complete multi-agent AI development environment in 30 minutes: coding agents, session management, safety tools, and coordination infrastructure | `Shell` ★ 1.5k | 2026-06-08 |
 | [sindresorhus/ora](https://github.com/sindresorhus/ora) | Elegant terminal spinner | `JavaScript` ★ 9.7k | 2026-04-22 |
 | [microsoft/bf-tree](https://github.com/microsoft/bf-tree) | Bf-Tree is a modern read-write-optimized concurrent larger-than-memory range index in Rust from MS Research. | `Rust` ★ 1k | 2026-05-29 |
-| [elm1nst3r/GHOST-osint-crm](https://github.com/elm1nst3r/GHOST-osint-crm) | GHOST - Global Human Operations & Surveillance Tracking: Open-source investigation management platform for tracking people, connections, and intelligence data. Because Excel spreadsheets are for ac... | `JavaScript` ★ 576 | 2026-05-29 |
-| [trycua/cua](https://github.com/trycua/cua) | Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (mac OS, Linux, Windows). | `HTML` ★ 17.8k | 2026-06-08 |
-| [rustic-rs/rustic](https://github.com/rustic-rs/rustic) | rustic - fast, encrypted, and deduplicated backups powered by Rust | `Rust` ★ 3.1k | 2026-06-03 |
+| [elm1nst3r/GHOST-osint-crm](https://github.com/elm1nst3r/GHOST-osint-crm) | GHOST - Global Human Operations & Surveillance Tracking: Open-source investigation management platform for tracking people, connections, and intelligence data. Because Excel spreadsheets are for ac... | `JavaScript` ★ 583 | 2026-05-29 |
+| [trycua/cua](https://github.com/trycua/cua) | Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (mac OS, Linux, Windows). | `HTML` ★ 17.8k | 2026-06-09 |
+| [rustic-rs/rustic](https://github.com/rustic-rs/rustic) | rustic - fast, encrypted, and deduplicated backups powered by Rust | `Rust` ★ 3.1k | 2026-06-08 |
 | [nwg-piotr/nwg-displays](https://github.com/nwg-piotr/nwg-displays) | Output management utility for sway and Hyprland. | `Python` ★ 1k | 2026-06-01 |
 | [xpipe-io/xpipe](https://github.com/xpipe-io/xpipe) | Access your entire server infrastructure from your local desktop | `Java` ★ 14.2k | 2026-06-06 |
-| [prabirshrestha/dotfiles](https://github.com/prabirshrestha/dotfiles) | There is no place like ~ | `Lua` ★ 96 | 2026-06-05 |
+| [prabirshrestha/dotfiles](https://github.com/prabirshrestha/dotfiles) | There is no place like ~ | `Lua` ★ 96 | 2026-06-08 |
 | [sysadminsmedia/homebox](https://github.com/sysadminsmedia/homebox) | A continuation of Home Box the inventory and organization system built for the Home User | `Go` ★ 6.2k | 2026-06-07 |
 | [taskflow/taskflow](https://github.com/taskflow/taskflow) | A General-purpose Task-parallel Programming System using Modern C++ | `C++` ★ 12k | 2026-06-07 |
 | [rayenghanmi/RyTuneX](https://github.com/rayenghanmi/RyTuneX) | Ry Tune X is a cutting-edge optimizer built with the Win UI 3 framework, designed to amplify the performance of Windows devices. Crafted for both Windows 10 and 11. | `C#` ★ 5.1k | 2026-06-07 |
-| [lissy93/web-check](https://github.com/lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 33.3k | 2026-06-06 |
+| [lissy93/web-check](https://github.com/lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 33.4k | 2026-06-06 |
 | [publicsuffix/list](https://github.com/publicsuffix/list) | The Public Suffix List | `Go` ★ 2.8k | 2026-05-28 |
-| [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 35.7k | 2026-06-08 |
+| [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 35.8k | 2026-06-08 |
 | [upx/upx](https://github.com/upx/upx) | UPX - the Ultimate Packer for e Xecutables | `C++` ★ 17.6k | 2026-06-08 |
-| [henrygd/beszel](https://github.com/henrygd/beszel) | Lightweight server monitoring hub with historical data, docker stats, and alerts. | `Go` ★ 22.5k | 2026-06-03 |
-| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 3.4k | 2026-06-07 |
+| [henrygd/beszel](https://github.com/henrygd/beszel) | Lightweight server monitoring hub with historical data, docker stats, and alerts. | `Go` ★ 22.5k | 2026-06-08 |
+| [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 3.4k | 2026-06-08 |
 | [MyOnee/R](https://github.com/MyOnee/R) | Free RDP from Github Actions | `Batchfile` ★ 60 | 2026-02-28 |
 | [memstechtips/Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | `C#` ★ 10.9k | 2026-06-08 |
 | [builtbybel/FlyOOBE](https://github.com/builtbybel/FlyOOBE) | Fly through your Windows 11 setup 🐝 | `C#` ★ 7k | 2026-01-04 |
 | [jgarzik/hk](https://github.com/jgarzik/hk) | A modern, Linux compatible OS kernel | `Rust` ★ 351 | 2025-12-30 |
 | [xxh/xxh](https://github.com/xxh/xxh) | 🚀 Bring your favorite shell wherever you go through the ssh. Xonsh shell, fish, zsh, osquery and so on. | `Python` ★ 6k | 2026-06-02 |
 | [rothgar/awesome-tmux](https://github.com/rothgar/awesome-tmux) | A list of awesome resources for tmux | ★ 10k | 2026-05-20 |
-| [Klocman/Bulk-Crap-Uninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller) | Remove large amounts of unwanted applications quickly. | `C#` ★ 19.6k | 2026-03-07 |
-| [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) | 🖱️ 纯粹的Windows右键菜单管理程序 | `C#` ★ 19.2k | 2024-08-17 |
-| [BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager) | A powerful tool for managing networks and troubleshoot network problems! | `C#` ★ 8.3k | 2026-06-08 |
+| [BCUninstaller/Bulk-Crap-Uninstaller](https://github.com/BCUninstaller/Bulk-Crap-Uninstaller) | Remove large amounts of unwanted applications quickly. | `C#` ★ 19.6k | 2026-06-08 |
+| [BluePointLilac/ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) | 🖱️ 纯粹的Windows右键菜单管理程序 | `C#` ★ 19.3k | 2024-08-17 |
+| [BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager) | A powerful tool for managing networks and troubleshoot network problems! | `C#` ★ 8.4k | 2026-06-08 |
 | [KnifMelti/WAU-Settings-GUI](https://github.com/KnifMelti/WAU-Settings-GUI) | Provides a user-friendly portable standalone interface to modify every aspect of Winget-Auto Update (WAU) | `PowerShell` ★ 46 | 2026-05-29 |
 | [HotCakeX/Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security) | Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Pers... | `C#` ★ 4.3k | 2026-06-05 |
 | [edera-dev/sprout](https://github.com/edera-dev/sprout) | Sprout: UEFI Bootloader in Rust | `Rust` ★ 285 | 2026-06-02 |
 | [leukipp/touchkio](https://github.com/leukipp/touchkio) | Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display. | `JavaScript` ★ 1.4k | 2026-05-15 |
 | [aristocratos/btop](https://github.com/aristocratos/btop) | A monitor of resources | `C++` ★ 32.7k | 2026-06-06 |
-| [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 36.2k | 2026-06-07 |
+| [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 36.3k | 2026-06-08 |
 | [TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer) | Technitium DNS Server | `C#` ★ 8.8k | 2026-05-09 |
 | [olhel/sub2tenant-aca](https://github.com/olhel/sub2tenant-aca) | Lookup Azure tenant information from a subscription ID. | `HTML` ★ 22 | 2026-05-22 |
 | [ken-yossy/nvmetool-win](https://github.com/ken-yossy/nvmetool-win) | Communicate with NVMe SSD using Windows' inbox device driver | `C` ★ 109 | 2025-03-27 |
-| [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | Docker container for managing Nginx proxy hosts with a simple, powerful interface | `TypeScript` ★ 33.2k | 2026-06-07 |
+| [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) | Docker container for managing Nginx proxy hosts with a simple, powerful interface | `TypeScript` ★ 33.2k | 2026-06-09 |
 | [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | An evolving how-to guide for securing a Linux server. | ★ 27.8k | 2026-03-05 |
 | [Azure/Enterprise-Scale](https://github.com/Azure/Enterprise-Scale) | The Azure Landing Zones (Enterprise-Scale) architecture provides prescriptive guidance coupled with Azure best practices, and it follows design principles across the critical design areas for organ... | `PowerShell` ★ 1.9k | 2026-05-25 |
 | [kayasax/EasyPIM](https://github.com/kayasax/EasyPIM) | Easy PIM let you manage PIM Azure Resource, Entra Role and Groups settings and assignments with simplicity | `PowerShell` ★ 231 | 2026-04-12 |
@@ -122,17 +122,17 @@
 | [Mellanox/mstflint](https://github.com/Mellanox/mstflint) | Mstflint - an open source version of MFT (Mellanox Firmware Tools) | `C` ★ 257 | 2026-05-28 |
 | [JayRHa/EndpointAnalyticsRemediationScripts](https://github.com/JayRHa/EndpointAnalyticsRemediationScripts) | No description provided | `PowerShell` ★ 620 | 2026-05-15 |
 | [dockur/windows](https://github.com/dockur/windows) | Windows inside a Docker container. | `Shell` ★ 51.6k | 2026-06-06 |
-| [Dictionarry-Hub/profilarr](https://github.com/Dictionarry-Hub/profilarr) | Configuration Management Platform for Radarr/Sonarr | `TypeScript` ★ 2.4k | 2026-06-07 |
+| [Dictionarry-Hub/profilarr](https://github.com/Dictionarry-Hub/profilarr) | Configuration Management Platform for Radarr/Sonarr | `TypeScript` ★ 2.4k | 2026-06-08 |
 | [felixrieseberg/windows-build-tools](https://github.com/felixrieseberg/windows-build-tools) | :package: Install C++ Build Tools for Windows using npm | `TypeScript` ★ 3.4k | 2021-06-20 |
 | [microsoft/Microsoft-Purview-Advanced-Rich-Reports-MPARR-Collector](https://github.com/microsoft/Microsoft-Purview-Advanced-Rich-Reports-MPARR-Collector) | Repository with all the MPARR components solution | `PowerShell` ★ 132 | 2026-04-09 |
 | [SuperCuber/dotter](https://github.com/SuperCuber/dotter) | A dotfile manager and templater written in rust 🦀 | `Rust` ★ 2k | 2026-04-21 |
-| [jade-tam/dotfiles](https://github.com/jade-tam/dotfiles) | Ricing dotfiles for windows 11 | `Shell` ★ 179 | 2026-06-05 |
+| [jade-tam/dotfiles](https://github.com/jade-tam/dotfiles) | Ricing dotfiles for windows 11 | `Shell` ★ 178 | 2026-06-05 |
 | [mmulet/term.everything](https://github.com/mmulet/term.everything) | Run any GUI app in the terminal❗ | `Go` ★ 8k | 2026-03-18 |
 | [FR33THYFR33THY/Ultimate](https://github.com/FR33THYFR33THY/Ultimate) | No description provided | `PowerShell` ★ 614 | 2026-06-02 |
 | [The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool](https://github.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool) | The script and configuration files in this repository provide an easy method to customize and apply performance related settings to virtual desktop environments. | `PowerShell` ★ 828 | 2025-11-19 |
-| [Microsoft365DSC/Microsoft365DSC](https://github.com/Microsoft365DSC/Microsoft365DSC) | Manages, configures, extracts and monitors Microsoft 365 tenant configurations | `PowerShell` ★ 2.3k | 2026-06-06 |
-| [XTXMarkets/ternfs](https://github.com/XTXMarkets/ternfs) | An exabyte-scale, multi-region distributed file system | `C++` ★ 1.3k | 2026-06-02 |
-| [CompliantSec/M365SAT](https://github.com/CompliantSec/M365SAT) | Microsoft 365 Security Assessment Tool - A Easy-To-Use Microsoft 365 Security Assessment Tool | `PowerShell` ★ 187 | 2025-04-25 |
+| [Microsoft365DSC/Microsoft365DSC](https://github.com/Microsoft365DSC/Microsoft365DSC) | Manages, configures, extracts and monitors Microsoft 365 tenant configurations | `PowerShell` ★ 2.3k | 2026-06-08 |
+| [XTXMarkets/ternfs](https://github.com/XTXMarkets/ternfs) | An exabyte-scale, multi-region distributed file system | `C++` ★ 1.3k | 2026-06-08 |
+| [CompliantSec/M365SAT](https://github.com/CompliantSec/M365SAT) | Microsoft 365 Security Assessment Tool - A Easy-To-Use Microsoft 365 Security Assessment Tool | `PowerShell` ★ 188 | 2025-04-25 |
 | [winapps-org/winapps](https://github.com/winapps-org/winapps) | Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration. Hard fork of https://github.com/Fmstr... | `Shell` ★ 15.3k | 2026-06-07 |
 | [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer) | Driver Store Explorer | `C#` ★ 10.9k | 2026-04-21 |
 | [mikecutalo/unifi-mcp-server](https://github.com/mikecutalo/unifi-mcp-server) | An MCP Server for interacting with Unifi networks. | `Python` ★ 3 | 2025-07-14 |
@@ -140,9 +140,9 @@
 | [kiqu3z/printer-monitoring-dashboard](https://github.com/kiqu3z/printer-monitoring-dashboard) | um programa que faz a monitoria via SMNP das impressoras de sem a necessidade de configurar um Zabbix ou Grafana. | `HTML` ★ 2 | 2024-06-03 |
 | [DuckersMcQuack/ComfyUI-Ram-Bypass](https://github.com/DuckersMcQuack/ComfyUI-Ram-Bypass) | An attempt to bypass ram entirely and load directstorage optimized models straight from storage than stored in ram. | `Python` ★ 1 | 2025-03-17 |
 | [dOpensource/dsiprouter](https://github.com/dOpensource/dsiprouter) | UI Interface for implementing Kamailio to provide PBX Hosting and SIP Trunking Services | `Shell` ★ 232 | 2026-05-14 |
-| [fusionpbx/fusionpbx](https://github.com/fusionpbx/fusionpbx) | Official Fusion PBX - A full-featured domain based multi-tenant PBX and voice switch for Free Switch. | `PHP` ★ 1k | 2026-06-05 |
+| [fusionpbx/fusionpbx](https://github.com/fusionpbx/fusionpbx) | Official Fusion PBX - A full-featured domain based multi-tenant PBX and voice switch for Free Switch. | `PHP` ★ 1k | 2026-06-08 |
 | [builtbybel/CrapFixer](https://github.com/builtbybel/CrapFixer) | Cr\*ap Fixer | `C#` ★ 2.4k | 2025-12-25 |
-| [peass-ng/PEASS-ng](https://github.com/peass-ng/PEASS-ng) | PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) | `C#` ★ 20k | 2026-06-04 |
+| [peass-ng/PEASS-ng](https://github.com/peass-ng/PEASS-ng) | PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) | `C#` ★ 20k | 2026-06-08 |
 | [Jedward23/Tmux-Orchestrator](https://github.com/Jedward23/Tmux-Orchestrator) | No description provided | `Python` ★ 1.8k | 2025-07-14 |
 | [Ylianst/MeshCommander](https://github.com/Ylianst/MeshCommander) | Mesh Commander is a Intel(R) Active Management Technology (Intel(R) AMT) remote management tool. It's feature rich and includes a built-in remote desktop viewer for Hardware-KVM, a Serial-over-LAN ... | `HTML` ★ 636 | 2026-04-21 |
 | [bcwilhite/PendingReboot](https://github.com/bcwilhite/PendingReboot) | Module to detect Windows OS pending reboots | `PowerShell` ★ 131 | 2024-07-18 |
@@ -151,30 +151,30 @@
 | [tabs-not-spaces/Intune-App-Deploy](https://github.com/tabs-not-spaces/Intune-App-Deploy) | A fast, reliable way to package your win32 applications and deploy them to Intune from any source - including SCCM! | `PowerShell` ★ 89 | 2022-09-21 |
 | [tabs-not-spaces/Intune.LogonScript.Helper](https://github.com/tabs-not-spaces/Intune.LogonScript.Helper) | Function App solution to help with getting on-prem file shares and printers into modern management. | `PowerShell` ★ 14 | 2023-02-03 |
 | [isqld/intune-printer-deployment-script](https://github.com/isqld/intune-printer-deployment-script) | This repository contains a powershell scripts to deploy an TCP/IP local network printer using in Tune | `PowerShell` ★ 1 | 2025-12-01 |
-| [MSEndpointMgr/Intune](https://github.com/MSEndpointMgr/Intune) | Microsoft Intune scripts | `PowerShell` ★ 827 | 2026-05-20 |
+| [MSEndpointMgr/Intune](https://github.com/MSEndpointMgr/Intune) | Microsoft Intune scripts | `PowerShell` ★ 828 | 2026-05-20 |
 | [JJarv04/ScreenConnect-IntuneWin32](https://github.com/JJarv04/ScreenConnect-IntuneWin32) | An fork of James Vincents: 'How to Deploy Screen Connect using Intune' scripts. | `PowerShell` ★ 2 | 2025-10-07 |
 | [github/github-mcp-server](https://github.com/github/github-mcp-server) | Git Hub's official MCP Server | `Go` ★ 30.5k | 2026-06-08 |
 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Model Context Protocol Servers | `TypeScript` ★ 86.9k | 2026-06-07 |
 | [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide) | Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, Wire Guard, Autom... | `Dockerfile` ★ 20.2k | 2025-06-27 |
 | [Azure/PSRule.Rules.Azure](https://github.com/Azure/PSRule.Rules.Azure) | Rules to validate Azure resources and infrastructure as code (Ia C) using PSRule. | `PowerShell` ★ 444 | 2026-06-08 |
 | [WhitewaterFoundry/Pengwin](https://github.com/WhitewaterFoundry/Pengwin) | A Linux distro optimized for WSL based on Debian. | `C++` ★ 1.5k | 2026-02-13 |
-| [microsoft/wslg](https://github.com/microsoft/wslg) | Enabling the Windows Subsystem for Linux to include support for Wayland and X server related scenarios | `C++` ★ 11.7k | 2026-06-05 |
+| [microsoft/wslg](https://github.com/microsoft/wslg) | Enabling the Windows Subsystem for Linux to include support for Wayland and X server related scenarios | `C++` ★ 11.7k | 2026-06-08 |
 | [Billionmail/BillionMail](https://github.com/Billionmail/BillionMail) | Billion Mail gives you open-source Mail Server, News Letter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asf Xz BUh Zr | `Go` ★ 15.1k | 2026-04-20 |
 | [microsoft/Microsoft-Win32-Content-Prep-Tool](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool) | A tool to wrap Win32 App and then it can be uploaded to Intune | ★ 1.5k | 2026-03-20 |
 | [anderspitman/SirTunnel](https://github.com/anderspitman/SirTunnel) | Minimal, self-hosted, 0-config alternative to ngrok. Caddy+Open SSH+50 lines of Python. | `Python` ★ 1.6k | 2024-03-24 |
-| [KevinNitroG/dotfiles](https://github.com/KevinNitroG/dotfiles) | Linux, Windows dotfiles managed with Chezmoi | `JSON` ★ 89 | 2026-06-04 |
+| [KevinNitroG/dotfiles](https://github.com/KevinNitroG/dotfiles) | Linux, Windows dotfiles managed with Chezmoi | `JSON` ★ 89 | 2026-06-08 |
 | [juanfont/headscale](https://github.com/juanfont/headscale) | An open source, self-hosted implementation of the Tailscale control server | `Go` ★ 39.8k | 2026-06-08 |
 | [antonmedv/walk](https://github.com/antonmedv/walk) | Terminal file manager | `Go` ★ 3.6k | 2026-01-06 |
-| [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting. | `Batchfile` ★ 177.7k | 2026-05-07 |
+| [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting. | `Batchfile` ★ 177.8k | 2026-05-07 |
 | [adbertram/Random-PowerShell-Work](https://github.com/adbertram/Random-PowerShell-Work) | Random Power Shell Work | `PowerShell` ★ 1.1k | 2024-08-06 |
 | [vgrem/office365-rest-python-client](https://github.com/vgrem/office365-rest-python-client) | Microsoft 365 & Microsoft Graph Library for Python | `Python` ★ 1.7k | 2026-06-08 |
 | [JonasKruckenberg/k23](https://github.com/JonasKruckenberg/k23) | Experimental WASM Microkernel Operating System | `Rust` ★ 640 | 2026-06-06 |
 | [DesktopECHO/xWSL](https://github.com/DesktopECHO/xWSL) | Installer script for Ubuntu 22.04 / 24.04 with XFCE Desktop on WSL. Does not require hypervisor, container, or X11 server. | `Batchfile` ★ 355 | 2026-01-03 |
-| [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11... | `PowerShell` ★ 47.3k | 2026-06-07 |
+| [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11... | `PowerShell` ★ 47.3k | 2026-06-08 |
 | [NexusPolytech/NexeFax](https://github.com/NexusPolytech/NexeFax) | A modern open source e Fax server solution written in Python that allows sending and receiving faxes with Asterisk. | `Python` ★ 11 | 2023-09-12 |
-| [dorssel/usbipd-win](https://github.com/dorssel/usbipd-win) | Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2. | `C#` ★ 5.8k | 2026-06-04 |
+| [dorssel/usbipd-win](https://github.com/dorssel/usbipd-win) | Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2. | `C#` ★ 5.8k | 2026-06-08 |
 | [unifi-utilities/unifi-common](https://github.com/unifi-utilities/unifi-common) | Uni Fi Common - on\_boot.d | `Shell` ★ 4.3k | 2026-06-05 |
-| [Devolutions/powershell-universal-gallery](https://github.com/Devolutions/powershell-universal-gallery) | Public gallery of modules for Power Shell Universal | `PowerShell` ★ 87 | 2026-06-04 |
+| [Devolutions/powershell-universal-gallery](https://github.com/Devolutions/powershell-universal-gallery) | Public gallery of modules for Power Shell Universal | `PowerShell` ★ 87 | 2026-06-08 |
 | [olzzon/ndi-controller](https://github.com/olzzon/ndi-controller) | Windows App - Controlling NDI routing in network | `C` ★ 58 | 2025-03-12 |
 | [inputsh/awesome-linux](https://github.com/inputsh/awesome-linux) | :penguin: A list of awesome projects and resources that make Linux even more awesome. :penguin: | ★ 5k | 2023-02-04 |
 | [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) | Awesome list dedicated to Windows Subsystem for Linux | ★ 6.4k | 2026-05-26 |
@@ -198,7 +198,7 @@
 | [jNizM/NVIDIA_NvAPI](https://github.com/jNizM/NVIDIA_NvAPI) | Converted Nv API-Functions | `AutoHotkey` ★ 39 | 2023-08-18 |
 | [KovaaK/NVidiaHotkeys](https://github.com/KovaaK/NVidiaHotkeys) | Script to change nvidia's Digital Vibrance and Hue settings by pressing hotkeys | `AutoHotkey` ★ 27 | 2019-06-30 |
 | [martymac/fpart](https://github.com/martymac/fpart) | Sort files and pack them into partitions | `C` ★ 300 | 2026-06-05 |
-| [bcpierce00/unison](https://github.com/bcpierce00/unison) | Unison file synchronizer | `OCaml` ★ 5.3k | 2026-06-06 |
+| [bcpierce00/unison](https://github.com/bcpierce00/unison) | Unison file synchronizer | `OCaml` ★ 5.4k | 2026-06-08 |
 | [agarbato/unicloud](https://github.com/agarbato/unicloud) | Unison file sync web interface | `Python` ★ 78 | 2026-05-29 |
 | [jbd/msrsync](https://github.com/jbd/msrsync) | Multi-stream rsync wrapper | `Python` ★ 510 | 2022-10-19 |
 | [mhammond/pywin32](https://github.com/mhammond/pywin32) | Python for Windows (pywin32) Extensions | `C++` ★ 5.6k | 2026-06-06 |
@@ -220,10 +220,10 @@
 | [thumbcacheviewer/thumbcacheviewer](https://github.com/thumbcacheviewer/thumbcacheviewer) | Thumbcache Viewer - Extract Windows Vista, Windows 7, Windows 8, Windows 8.1, and Windows 10 thumbcache database files. | `C++` ★ 159 | 2023-10-25 |
 | [liftoff/GateOne](https://github.com/liftoff/GateOne) | Gate One is an HTML5-powered terminal emulator and SSH client | `JavaScript` ★ 6.3k | 2023-03-17 |
 | [cluberti/VDI](https://github.com/cluberti/VDI) | Repository for VDI scripts | `Visual Basic` ★ 131 | 2018-08-29 |
-| [microsoft/WSL](https://github.com/microsoft/WSL) | Windows Subsystem for Linux | `C++` ★ 32.6k | 2026-06-08 |
+| [microsoft/WSL](https://github.com/microsoft/WSL) | Windows Subsystem for Linux | `C++` ★ 32.6k | 2026-06-09 |
 | [glyptodon/guacamole-server](https://github.com/glyptodon/guacamole-server) | The Guacamole project is now Apache Guacamole (http://guacamole.apache.org/). This repository has been repurposed as the base for the Apache Guacamole packages built for Glyptodon Enterprise. | `C` ★ 1k | 2023-07-17 |
 | [jobbyphp/jobby](https://github.com/jobbyphp/jobby) | Manage all your cron jobs without modifying crontab. Handles locking, logging, error emails, and more. | `PHP` ★ 1k | 2024-03-29 |
-| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 59.2k | 2026-06-06 |
+| [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements | `Shell` ★ 59.2k | 2026-06-08 |
 | [dthree/cash](https://github.com/dthree/cash) | Cross-platform Linux commands in ES6 | `JavaScript` ★ 7.7k | 2020-01-14 |
 | [chall32/WinCDP](https://github.com/chall32/WinCDP) | Cisco Discovery for Windows | ★ 63 | 2012-10-02 |
 | [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) | Smart PVR for newsgroup and bittorrent users. | `C#` ★ 13.9k | 2026-06-07 |
@@ -234,7 +234,7 @@
 | [netheril96/securefs](https://github.com/netheril96/securefs) | Filesystem in userspace (FUSE) with transparent authenticated encryption | `C++` ★ 822 | 2026-01-09 |
 | [hephaest0s/usbkill](https://github.com/hephaest0s/usbkill) | « usbkill » is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer. | `Python` ★ 4.6k | 2024-03-01 |
 | [babun/babun](https://github.com/babun/babun) | Babun - a Windows shell you will love! | `Shell` ★ 8.5k | 2019-06-11 |
-| [syncthing/syncthing](https://github.com/syncthing/syncthing) | Open Source Continuous File Synchronization | `Go` ★ 85.1k | 2026-06-08 |
+| [syncthing/syncthing](https://github.com/syncthing/syncthing) | Open Source Continuous File Synchronization | `Go` ★ 85.2k | 2026-06-09 |
 | [xiaolu/mkbootimg_tools](https://github.com/xiaolu/mkbootimg_tools) | Unpack and repack boot.img,support dtb(dt.img). | `Shell` ★ 585 | 2020-01-01 |
 | [phanan/htaccess](https://github.com/phanan/htaccess) | ✂A collection of useful .htaccess snippets. | ★ 13.2k | 2026-03-06 |
 | [noodle1983/putty-nd3.x](https://github.com/noodle1983/putty-nd3.x) | No description provided | `C++` ★ 65 | 2019-01-24 |

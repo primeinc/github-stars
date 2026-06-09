@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [obs-websocket-community-projects/obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) | Consumes https://github.com/obsproject/obs-websocket | `TypeScript` ★ 765 | 2026-04-20 |
+| [obs-websocket-community-projects/obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) | Consumes https://github.com/obsproject/obs-websocket | `TypeScript` ★ 766 | 2026-04-20 |
 | [aatikturk/obsws-python](https://github.com/aatikturk/obsws-python) | A Python SDK for OBS Studio Web Socket v5.0 | `Python` ★ 127 | 2025-07-01 |
