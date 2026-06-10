@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | A modern replacement for Redis and Memcached | `C++` ★ 30.6k | 2026-06-09 |
+| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | A modern replacement for Redis and Memcached | `C++` ★ 30.6k | 2026-06-10 |
 | [resque/resque](https://github.com/resque/resque) | Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later. | `Ruby` ★ 9.5k | 2026-02-27 |
 | [erikdubbelboer/phpRedisAdmin](https://github.com/erikdubbelboer/phpRedisAdmin) | Simple web interface to manage Redis databases. | `PHP` ★ 3.2k | 2025-12-22 |
 | [phpredis/phpredis](https://github.com/phpredis/phpredis) | A PHP extension for Redis | `C` ★ 10.2k | 2026-06-08 |

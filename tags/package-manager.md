@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/apm](https://github.com/microsoft/apm) | Agent Package Manager | `Python` ★ 2.8k | 2026-06-08 |
-| [computerlovetech/agr](https://github.com/computerlovetech/agr) | A package manager for AI agents. Install agent skills from Git Hub with a single command. | `Python` ★ 439 | 2026-06-08 |
-| [microsoft/vcpkg](https://github.com/microsoft/vcpkg) | C++ Library Manager for Windows, Linux, and Mac OS | `CMake` ★ 27.1k | 2026-06-09 |
+| [microsoft/apm](https://github.com/microsoft/apm) | Agent Package Manager | `Python` ★ 2.8k | 2026-06-09 |
+| [computerlovetech/agr](https://github.com/computerlovetech/agr) | A package manager for AI agents. Install agent skills from Git Hub with a single command. | `Python` ★ 440 | 2026-06-09 |
+| [microsoft/vcpkg](https://github.com/microsoft/vcpkg) | C++ Library Manager for Windows, Linux, and Mac OS | `CMake` ★ 27.1k | 2026-06-10 |
 | [LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) | Multi-Platform Package Manager for Stable Diffusion | `C#` ★ 8.3k | 2026-06-08 |

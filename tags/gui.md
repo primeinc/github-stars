@@ -6,17 +6,17 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 30.7k | 2026-06-07 |
+| [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 30.7k | 2026-06-10 |
 | [KnifMelti/WAU-Settings-GUI](https://github.com/KnifMelti/WAU-Settings-GUI) | Provides a user-friendly portable standalone interface to modify every aspect of Winget-Auto Update (WAU) | `PowerShell` ★ 46 | 2026-05-29 |
-| [ocornut/imgui](https://github.com/ocornut/imgui) | Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies | `C++` ★ 73.7k | 2026-06-08 |
+| [ocornut/imgui](https://github.com/ocornut/imgui) | Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies | `C++` ★ 73.8k | 2026-06-08 |
 | [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop\_computer: :camera\_flash: | `C++` ★ 30.1k | 2026-06-09 |
-| [longbridge/gpui-component](https://github.com/longbridge/gpui-component) | Rust GUI components for building fantastic cross-platform desktop application by using GPUI. | `Rust` ★ 11.6k | 2026-06-09 |
-| [HeyPuter/puter](https://github.com/HeyPuter/puter) | 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable. | `JavaScript` ★ 42.2k | 2026-06-09 |
-| [emilk/egui](https://github.com/emilk/egui) | egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native | `Rust` ★ 29.3k | 2026-06-05 |
+| [longbridge/gpui-component](https://github.com/longbridge/gpui-component) | Rust GUI components for building fantastic cross-platform desktop application by using GPUI. | `Rust` ★ 11.7k | 2026-06-10 |
+| [HeyPuter/puter](https://github.com/HeyPuter/puter) | 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable. | `TypeScript` ★ 42.2k | 2026-06-10 |
+| [emilk/egui](https://github.com/emilk/egui) | egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native | `Rust` ★ 29.4k | 2026-06-09 |
 | [antwaremx/meteorman](https://github.com/antwaremx/meteorman) | A DDP client with GUI (The Postman for Meteor) | `Vue` ★ 53 | 2025-03-30 |
 | [JaredTherriault/Rope](https://github.com/JaredTherriault/Rope) | GUI-focused roop | `Python` ★ 15 | 2025-03-06 |
-| [4xmen/anubias](https://github.com/4xmen/anubias) | Developed mobile apps so easy and native with GUI 📱 | `Vue` ★ 2.3k | 2025-01-19 |
-| [zilliztech/attu](https://github.com/zilliztech/attu) | The Best GUI for Milvus | `Shell` ★ 2.9k | 2026-06-03 |
+| [4xmen/anubias](https://github.com/4xmen/anubias) | Developed mobile apps so easy and native with GUI 📱 | `Vue` ★ 2.3k | 2026-06-09 |
+| [zilliztech/attu](https://github.com/zilliztech/attu) | The Best GUI for Milvus | `Shell` ★ 3k | 2026-06-03 |
 | [Alucard24/Rope](https://github.com/Alucard24/Rope) | GUI-focused roop | `Python` ★ 453 | 2024-09-23 |
 | [Hillobar/Rope](https://github.com/Hillobar/Rope) | GUI-focused roop | `Python` ★ 5.3k | 2024-05-28 |
 | [Surrealism-All/SurrealismUI](https://github.com/Surrealism-All/SurrealismUI) | A third-party UI library using Slint, I think it will give you an extraordinary experience | `Slint` ★ 370 | 2024-12-29 |

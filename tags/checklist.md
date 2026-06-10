@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [cfpb/open-source-checklist](https://github.com/cfpb/open-source-checklist) | check internal repos against open source checklist requirements | `JavaScript` ★ 653 | 2019-01-18 |
+| [cfpb/open-source-checklist](https://github.com/cfpb/open-source-checklist) | check internal repos against open source checklist requirements | `JavaScript` ★ 655 | 2019-01-18 |
 | [lissy93/personal-security-checklist](https://github.com/lissy93/personal-security-checklist) | 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026 | `TypeScript` ★ 21.6k | 2026-02-28 |

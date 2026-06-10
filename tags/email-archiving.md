@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [LogicLabs-OU/OpenArchiver](https://github.com/LogicLabs-OU/OpenArchiver) | An open-source platform for legally compliant email archiving. | `TypeScript` ★ 2.1k | 2026-04-16 |
-| [jsuto/piler](https://github.com/jsuto/piler) | Email archiving application | `PHP` ★ 323 | 2026-05-18 |
+| [jsuto/piler](https://github.com/jsuto/piler) | Email archiving application | `PHP` ★ 322 | 2026-05-18 |

@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [exeldro/obs-move-transition](https://github.com/exeldro/obs-move-transition) | Move transition for OBS Studio | `C` ★ 882 | 2026-04-11 |
-| [exeldro/obs-source-clone](https://github.com/exeldro/obs-source-clone) | No description provided | `CMake` ★ 186 | 2026-03-13 |
+| [exeldro/obs-move-transition](https://github.com/exeldro/obs-move-transition) | Move transition for OBS Studio | `C` ★ 884 | 2026-04-11 |
+| [exeldro/obs-source-clone](https://github.com/exeldro/obs-source-clone) | No description provided | `CMake` ★ 185 | 2026-03-13 |
 | [CodeYan01/source-defaults](https://github.com/CodeYan01/source-defaults) | Apply custom source setting defaults on new sources, based on other sources. | `CMake` ★ 16 | 2025-10-15 |
 | [royshil/obs-detect](https://github.com/royshil/obs-detect) | Object Detection in OBS, real-time, local, GPU optional | `C++` ★ 176 | 2024-12-18 |
 | [norihiro/obs-mute-filter](https://github.com/norihiro/obs-mute-filter) | OBS Studio plugin to mute audio of a source | `CMake` ★ 28 | 2026-03-29 |

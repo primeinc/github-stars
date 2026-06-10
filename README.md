@@ -2,7 +2,7 @@
 
 > A curated list of **2654** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-06-09
+Last updated: 2026-06-10
 
 ## ⭐ Recently Starred
 
@@ -13,11 +13,11 @@ Last updated: 2026-06-09
 | [OfficeDev/generator-office](https://github.com/OfficeDev/generator-office) | Yeoman generator for building Microsoft Office related projects. | `TypeScript` ★ 943 | 2026-03-19 |
 | [jonymaster/catalogIT](https://github.com/jonymaster/catalogIT) | A Web App to track Hardware and Software in an IT Team | `TypeScript` ★ 107 | 2026-05-21 |
 | [ozgrozer/ai-renamer](https://github.com/ozgrozer/ai-renamer) | A Node.js CLI that uses Ollama and LM Studio models (Llava, Gemma, Llama etc.) to intelligently rename files by their contents | `JavaScript` ★ 2.1k | 2025-02-09 |
-| [Beledarian/Beledarians_LM_Studio_Toolbox](https://github.com/Beledarian/Beledarians_LM_Studio_Toolbox) | This project is a plugin for LM Studio that provides a rich set of tools to a large language model. It allows the LLM to interact with your local file system, execute code, access the internet, and... | `TypeScript` ★ 83 | 2026-05-10 |
-| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 985 | 2026-06-06 |
-| [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) | No description provided | `TypeScript` ★ 15.2k | 2026-06-09 |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | AI Agent Framework, the Pydantic way | `Python` ★ 17.6k | 2026-06-09 |
-| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. | `TypeScript` ★ 14.2k | 2026-06-09 |
+| [Beledarian/Beledarians_LM_Studio_Toolbox](https://github.com/Beledarian/Beledarians_LM_Studio_Toolbox) | This project is a plugin for LM Studio that provides a rich set of tools to a large language model. It allows the LLM to interact with your local file system, execute code, access the internet, and... | `TypeScript` ★ 84 | 2026-05-10 |
+| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 986 | 2026-06-06 |
+| [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) | No description provided | `TypeScript` ★ 15.3k | 2026-06-10 |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | AI Agent Framework, the Pydantic way | `Python` ★ 17.7k | 2026-06-10 |
+| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. | `TypeScript` ★ 14.2k | 2026-06-10 |
 
 ## 🏷️ Popular Tags
 
@@ -28,7 +28,7 @@ Last updated: 2026-06-09
 
 | | | |
 |---|---|---|
-| [ai-ml](categories/ai-ml.md) (732) | [productivity](categories/productivity.md) (574) | [dev-tools](categories/dev-tools.md) (384) |
+| [ai-ml](categories/ai-ml.md) (732) | [productivity](categories/productivity.md) (574) | [dev-tools](categories/dev-tools.md) (385) |
 | [web-dev](categories/web-dev.md) (377) | [automation](categories/automation.md) (302) | [security](categories/security.md) (265) |
 | [ui-libraries](categories/ui-libraries.md) (258) | [system-admin](categories/system-admin.md) (239) | [data-science](categories/data-science.md) (237) |
 | [desktop-dev](categories/desktop-dev.md) (217) | [apis](categories/apis.md) (201) | [documentation](categories/documentation.md) (192) |
