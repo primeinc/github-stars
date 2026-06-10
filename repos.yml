@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-06-10T07:22:32.268Z'
+  manifest_updated_at: '2026-06-10T07:23:06.826Z'
   total_repos: 2654
   generator_version: v1.0.0
   github_user: primeinc
@@ -108734,13 +108734,19 @@ repositories:
       prompt_version: v3
   - repo: openinterpreter/openinterpreter
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - natural-language
+      - interpreter
+      - chatgpt
+      - gpt-4
+      - lang:python
     summary: A natural language interface for computers
     last_synced_sha: e00f08e2ed54e97a530326cc2b1a93389bbe5f7c
     user_starred_at: '2024-03-23T08:48:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -108763,3 +108769,8 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-10T07:23:05.660Z'
+      prompt_version: v3
