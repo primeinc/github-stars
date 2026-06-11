@@ -7,10 +7,10 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [streamlink/streamlink](https://github.com/streamlink/streamlink) | Streamlink is a CLI utility which pipes video streams from various services into a video player | `Python` ★ 11.5k | 2026-06-07 |
-| [navidrome/navidrome](https://github.com/navidrome/navidrome) | 🎧☁️ Your Personal Streaming Service | `Go` ★ 21.6k | 2026-06-10 |
-| [curtosis-org/phub-cli](https://github.com/curtosis-org/phub-cli) | Terminal-based Porn Hub browser inspired by ani-cli. Browse categories, search videos, and stream instantly in mpv without opening a browser. | `Shell` ★ 143 | 2026-04-29 |
+| [navidrome/navidrome](https://github.com/navidrome/navidrome) | 🎧☁️ Your Personal Streaming Service | `Go` ★ 21.6k | 2026-06-11 |
+| [curtosis-org/phub-cli](https://github.com/curtosis-org/phub-cli) | Terminal-based Porn Hub browser inspired by ani-cli. Browse categories, search videos, and stream instantly in mpv without opening a browser. | `Shell` ★ 144 | 2026-04-29 |
 | [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 9.8k | 2026-05-21 |
-| [Stremio/stremio-web](https://github.com/Stremio/stremio-web) | Stremio - Freedom to Stream | `JavaScript` ★ 12.1k | 2026-06-03 |
+| [Stremio/stremio-web](https://github.com/Stremio/stremio-web) | Stremio - Freedom to Stream | `JavaScript` ★ 12.1k | 2026-06-10 |
 | [KRTirtho/spotube](https://github.com/KRTirtho/spotube) | 🎧 Open source music streaming app! Available for both desktop & mobile! | `Dart` ★ 46.9k | 2026-06-05 |
 | [mountaintopsolutions/docker-obs-ndi-ng](https://github.com/mountaintopsolutions/docker-obs-ndi-ng) | Dockerized OBS + NDI plugin Next Generation | `Dockerfile` ★ 9 | 2023-03-21 |
 | [featherbear/ndi-streamer](https://github.com/featherbear/ndi-streamer) | Cross-platform display capture over NDI. Barebones version of Scan Converter made as an alternative to obs-ndi on Linux | `C++` ★ 35 | 2024-07-08 |
@@ -23,4 +23,4 @@
 | [AzuraCast/AzuraCast](https://github.com/AzuraCast/AzuraCast) | A self-hosted web radio management suite, including turnkey installer tools for the full radio software stack and a modern, easy-to-use web app to manage your stations. | `PHP` ★ 3.9k | 2026-06-08 |
 | [argenspin/Rope-Live](https://github.com/argenspin/Rope-Live) | Customized fork of Rope Deepfake software featuring live streaming capabilities and support for Deepfacelive models | `Python` ★ 303 | 2024-12-06 |
 | [pandres95/ndi.js](https://github.com/pandres95/ndi.js) | NDI® SDK for Node.js | `C` ★ 57 | 2024-01-11 |
-| [games-on-whales/wolf](https://github.com/games-on-whales/wolf) | Stream virtual desktops and games running in Docker | `C++` ★ 1.9k | 2026-06-08 |
+| [games-on-whales/wolf](https://github.com/games-on-whales/wolf) | Stream virtual desktops and games running in Docker | `C++` ★ 2k | 2026-06-08 |

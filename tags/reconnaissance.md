@@ -8,4 +8,4 @@
 |---|---|---|---|
 | [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) | OSINT Framework | `JavaScript` ★ 11.5k | 2026-04-03 |
 | [jasonxtn/Argus](https://github.com/jasonxtn/Argus) | The Ultimate Information Gathering Toolkit | `Python` ★ 3.6k | 2025-12-10 |
-| [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username from thousands of sites | `Python` ★ 31.6k | 2026-06-08 |
+| [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username from thousands of sites | `Python` ★ 32.2k | 2026-06-10 |

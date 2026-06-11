@@ -10,4 +10,4 @@
 | [NVIDIA/nvImageCodec](https://github.com/NVIDIA/nvImageCodec) | A nv Image Codec library of GPU- and CPU- accelerated codecs featuring a unified interface | `Jupyter Notebook` ★ 150 | 2026-04-14 |
 | [PavelDoGreat/WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) | Play with fluids in your browser (works even on mobile) | `JavaScript` ★ 16.4k | 2024-11-12 |
 | [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) | A cross-platform, safe, pure-Rust graphics API. | `Rust` ★ 17.3k | 2026-06-10 |
-| [ai-dock/onetrainer](https://github.com/ai-dock/onetrainer) | One Trainer docker images for use in GPU cloud and local environments. Includes AI-Dock KDE Plasma desktop with GPU acceleration and audio for authentication and improved user experience. | `Shell` ★ 21 | 2024-04-03 |
+| [ai-dock/onetrainer](https://github.com/ai-dock/onetrainer) | One Trainer docker images for use in GPU cloud and local environments. Includes AI-Dock KDE Plasma desktop with GPU acceleration and audio for authentication and improved user experience. | `Shell` ★ 22 | 2024-04-03 |

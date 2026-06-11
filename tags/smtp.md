@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [pimalaya/himalaya](https://github.com/pimalaya/himalaya) | CLI to manage emails | `Rust` ★ 6.4k | 2026-06-08 |
-| [Billionmail/BillionMail](https://github.com/Billionmail/BillionMail) | Billion Mail gives you open-source Mail Server, News Letter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asf Xz BUh Zr | `Go` ★ 15.1k | 2026-04-20 |
+| [Billionmail/BillionMail](https://github.com/Billionmail/BillionMail) | Billion Mail gives you open-source Mail Server, News Letter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asf Xz BUh Zr | `Go` ★ 15.1k | 2026-06-11 |

@@ -2,22 +2,22 @@
 
 > A curated list of **2654** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-06-10
+Last updated: 2026-06-11
 
 ## ⭐ Recently Starred
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [yumingj/DeepFashion-MultiModal](https://github.com/yumingj/DeepFashion-MultiModal) | A large-scale high-quality human dataset with rich multi-modal annotations | ★ 657 | 2023-01-18 |
-| [OfficeDev/Office-Addin-TaskPane-React](https://github.com/OfficeDev/Office-Addin-TaskPane-React) | Template to get start started writing a Task Pane Office Add-in for the React framework using Type Script | `TypeScript` ★ 87 | 2026-06-01 |
+| [OfficeDev/Office-Addin-TaskPane-React](https://github.com/OfficeDev/Office-Addin-TaskPane-React) | Template to get start started writing a Task Pane Office Add-in for the React framework using Type Script | `TypeScript` ★ 88 | 2026-06-09 |
 | [OfficeDev/generator-office](https://github.com/OfficeDev/generator-office) | Yeoman generator for building Microsoft Office related projects. | `TypeScript` ★ 943 | 2026-03-19 |
 | [jonymaster/catalogIT](https://github.com/jonymaster/catalogIT) | A Web App to track Hardware and Software in an IT Team | `TypeScript` ★ 107 | 2026-05-21 |
 | [ozgrozer/ai-renamer](https://github.com/ozgrozer/ai-renamer) | A Node.js CLI that uses Ollama and LM Studio models (Llava, Gemma, Llama etc.) to intelligently rename files by their contents | `JavaScript` ★ 2.1k | 2025-02-09 |
-| [Beledarian/Beledarians_LM_Studio_Toolbox](https://github.com/Beledarian/Beledarians_LM_Studio_Toolbox) | This project is a plugin for LM Studio that provides a rich set of tools to a large language model. It allows the LLM to interact with your local file system, execute code, access the internet, and... | `TypeScript` ★ 84 | 2026-05-10 |
-| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 986 | 2026-06-06 |
-| [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) | No description provided | `TypeScript` ★ 15.3k | 2026-06-10 |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | AI Agent Framework, the Pydantic way | `Python` ★ 17.7k | 2026-06-10 |
-| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. | `TypeScript` ★ 14.2k | 2026-06-10 |
+| [Beledarian/Beledarians_LM_Studio_Toolbox](https://github.com/Beledarian/Beledarians_LM_Studio_Toolbox) | This project is a plugin for LM Studio that provides a rich set of tools to a large language model. It allows the LLM to interact with your local file system, execute code, access the internet, and... | `TypeScript` ★ 84 | 2026-06-10 |
+| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 990 | 2026-06-06 |
+| [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) | No description provided | `TypeScript` ★ 15.3k | 2026-06-11 |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | AI Agent Framework, the Pydantic way | `Python` ★ 17.7k | 2026-06-11 |
+| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. | `TypeScript` ★ 14.2k | 2026-06-11 |
 
 ## 🏷️ Popular Tags
 
@@ -34,7 +34,7 @@ Last updated: 2026-06-10
 | [desktop-dev](categories/desktop-dev.md) (217) | [apis](categories/apis.md) (201) | [documentation](categories/documentation.md) (192) |
 | [learning](categories/learning.md) (188) | [networking](categories/networking.md) (175) | [cloud](categories/cloud.md) (148) |
 | [frameworks](categories/frameworks.md) (90) | [monitoring](categories/monitoring.md) (82) | [game-dev](categories/game-dev.md) (80) |
-| [embedded](categories/embedded.md) (70) | [databases](categories/databases.md) (67) | [testing](categories/testing.md) (54) |
+| [embedded](categories/embedded.md) (70) | [databases](categories/databases.md) (67) | [testing](categories/testing.md) (55) |
 | [mobile-dev](categories/mobile-dev.md) (53) | [containers](categories/containers.md) (44) | [deployment](categories/deployment.md) (34) |
 | [unclassified](categories/unclassified.md) (20) |  |  |
 
