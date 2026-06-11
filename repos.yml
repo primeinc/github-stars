@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-06-11T08:18:32.654Z'
+  manifest_updated_at: '2026-06-11T08:19:12.465Z'
   total_repos: 2654
   generator_version: v1.0.0
   github_user: primeinc
@@ -108743,13 +108743,18 @@ repositories:
       prompt_version: v3
   - repo: ccusage/ccusage
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - testing
+    tags:
+      - cli
+      - token-usage
+      - analysis
+      - lang:rust
     summary: Analyze coding (agent) CLI token usage and costs from local data.
     last_synced_sha: b7311555b47b0a199b72c24d56f1adba0538d37a
     user_starred_at: '2025-06-27T01:02:46Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -108768,3 +108773,8 @@ repositories:
         published_at: '2026-06-10T21:37:34Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-11T08:19:11.222Z'
+      prompt_version: v3
