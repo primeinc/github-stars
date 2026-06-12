@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-06-12T07:35:13.161Z'
+  manifest_updated_at: '2026-06-12T07:35:47.853Z'
   total_repos: 2654
   generator_version: v1.0.0
   github_user: primeinc
@@ -108690,13 +108690,20 @@ repositories:
       prompt_version: v3
   - repo: jahwag/ctxsync
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - productivity
+      - ai-ml
+    tags:
+      - automation
+      - sync-tool
+      - llm
+      - productivity
+      - lang:python
     summary: Claude Sync is a Python tool that automates the synchronization of local files with Claude.ai Projects
     last_synced_sha: 3ae5228a8388587341ed1b91c3f99eeabd3cc507
     user_starred_at: '2025-06-25T03:28:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -108719,15 +108726,27 @@ repositories:
         published_at: '2026-03-08T07:54:47Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-12T07:35:46.715Z'
+      prompt_version: v3
   - repo: mindsdb/minds
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - databases
+      - data-science
+    tags:
+      - ai
+      - databases
+      - analytics
+      - llms
+      - lang:dockerfile
     summary: General-purpose AI designed for knowledge workers — creators, strategists, and operators — and individuals seeking AI systems they can truly control to help them get work done, with full flexibilit...
     last_synced_sha: 6f30aa32a11860f22532dca32e0df3103d41bfc7
     user_starred_at: '2025-06-10T11:40:22Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Dockerfile
       topics:
@@ -108760,3 +108779,8 @@ repositories:
         published_at: '2026-04-23T07:11:44Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-12T07:35:46.715Z'
+      prompt_version: v3
