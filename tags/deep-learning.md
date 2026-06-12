@@ -8,8 +8,8 @@
 |---|---|---|---|
 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Implement a Chat GPT-like LLM in Py Torch from scratch, step by step | `Jupyter Notebook` ★ 97k | 2026-06-02 |
 | [babysor/MockingBird](https://github.com/babysor/MockingBird) | 🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time | `Python` ★ 36.9k | 2026-03-03 |
-| [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11.2k | 2026-06-11 |
-| [Visual-Agent/DeepEyesV2](https://github.com/Visual-Agent/DeepEyesV2) | No description provided | `Python` ★ 608 | 2026-02-26 |
+| [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11.2k | 2026-06-12 |
+| [Visual-Agent/DeepEyesV2](https://github.com/Visual-Agent/DeepEyesV2) | No description provided | `Python` ★ 609 | 2026-02-26 |
 | [lutzroeder/netron](https://github.com/lutzroeder/netron) | Visualizer for neural network, deep learning and machine learning models | `JavaScript` ★ 33.1k | 2026-06-10 |
 | [SpeechifyInc/Resemblyzer](https://github.com/SpeechifyInc/Resemblyzer) | A python package to analyze and compare voices with deep learning | `Python` ★ 1 | 2025-11-03 |
 | [sapientinc/HRM](https://github.com/sapientinc/HRM) | Hierarchical Reasoning Model Official Release | `Python` ★ 12.5k | 2026-03-31 |
@@ -17,12 +17,12 @@
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 58.3k | 2026-06-11 |
 | [NousResearch/DisTrO](https://github.com/NousResearch/DisTrO) | Distributed Training Over-The-Internet | ★ 1k | 2025-10-14 |
 | [NVlabs/DG-Net](https://github.com/NVlabs/DG-Net) | :couple: Joint Discriminative and Generative Learning for Person Re-identification. CVPR'19 (Oral) :couple: | `Python` ★ 1.3k | 2023-07-09 |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 43.7k | 2026-06-11 |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 43.9k | 2026-06-11 |
 | [datamllab/awesome-deepfakes-materials](https://github.com/datamllab/awesome-deepfakes-materials) | A curated list of awesome Deepfakes materials | ★ 441 | 2023-02-07 |
 | [GeeeekExplorer/nano-vllm](https://github.com/GeeeekExplorer/nano-vllm) | Nano v LLM | `Python` ★ 14k | 2026-04-26 |
 | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) | Wan: Open and Advanced Large-Scale Video Generative Models | `Python` ★ 16.2k | 2026-03-05 |
-| [camel-ai/camel](https://github.com/camel-ai/camel) | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org | `Python` ★ 17.2k | 2026-06-11 |
-| [huggingface/open-r1](https://github.com/huggingface/open-r1) | Fully open reproduction of Deep Seek-R1 | `Python` ★ 26k | 2026-04-02 |
+| [camel-ai/camel](https://github.com/camel-ai/camel) | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org | `Python` ★ 17.2k | 2026-06-12 |
+| [huggingface/open-r1](https://github.com/huggingface/open-r1) | Fully open reproduction of Deep Seek-R1 | `Python` ★ 26.3k | 2026-04-02 |
 | [KaiyangZhou/deep-person-reid](https://github.com/KaiyangZhou/deep-person-reid) | Torchreid: Deep learning person re-identification in Py Torch. | `Python` ★ 4.8k | 2026-01-09 |
 | [keon/awesome-nlp](https://github.com/keon/awesome-nlp) | :book: A curated list of resources dedicated to Natural Language Processing (NLP) | ★ 18.7k | 2026-06-06 |
 | [Qengineering/realsr-ncnn-Jetson-Nano](https://github.com/Qengineering/realsr-ncnn-Jetson-Nano) | Award winning Real SR super resolution with ncnn on Jetson Nano | ★ 45 | 2023-11-24 |
@@ -35,7 +35,7 @@
 | [serengil/deepface](https://github.com/serengil/deepface) | A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python | `Python` ★ 22.9k | 2026-06-10 |
 | [iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab) | Deep Face Lab is the leading software for creating deepfakes. | `Python` ★ 19.2k | 2024-11-13 |
 | [deepinsight/insightface](https://github.com/deepinsight/insightface) | State-of-the-art 2D and 3D Face Analysis Project | `Python` ★ 29k | 2026-05-23 |
-| [voxel51/voxelgpt](https://github.com/voxel51/voxelgpt) | AI assistant that can query visual datasets, search the Fifty One docs, and answer general computer vision questions | `Python` ★ 254 | 2026-03-23 |
+| [voxel51/voxelgpt](https://github.com/voxel51/voxelgpt) | AI assistant that can query visual datasets, search the Fifty One docs, and answer general computer vision questions | `Python` ★ 255 | 2026-03-23 |
 | [NVlabs/prismer](https://github.com/NVlabs/prismer) | The implementation of "Prismer: A Vision-Language Model with Multi-Task Experts". | `Python` ★ 1.3k | 2024-01-17 |
 | [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss) | No description provided | `Python` ★ 12.4k | 2026-05-08 |
 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | Clone a voice in 5 seconds to generate arbitrary speech in real-time | `Python` ★ 59.9k | 2026-03-09 |

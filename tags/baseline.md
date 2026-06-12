@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [kennethvs/cabaseline202510](https://github.com/kennethvs/cabaseline202510) | Conditional Access baseline for October 2025 | ★ 102 | 2025-11-26 |
+| [kennethvs/cabaseline202510](https://github.com/kennethvs/cabaseline202510) | Conditional Access baseline for October 2025 | ★ 103 | 2025-11-26 |
 | [SkipToTheEndpoint/OpenIntuneBaseline](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline) | Community-driven baseline to accelerate Intune adoption and learning. | `PowerShell` ★ 1.3k | 2026-05-08 |

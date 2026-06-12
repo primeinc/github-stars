@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [VisoMasterFusion/VisoMaster-Fusion](https://github.com/VisoMasterFusion/VisoMaster-Fusion) | Powerful & Easy-to-Use Video Face Swapping and Editing Software | `Python` ★ 665 | 2026-06-10 |
+| [VisoMasterFusion/VisoMaster-Fusion](https://github.com/VisoMasterFusion/VisoMaster-Fusion) | Powerful & Easy-to-Use Video Face Swapping and Editing Software | `Python` ★ 666 | 2026-06-11 |
 | [mltframework/shotcut](https://github.com/mltframework/shotcut) | cross-platform (Qt), open-source (GPLv3) video editor | `C++` ★ 14.2k | 2026-06-11 |

@@ -30,7 +30,7 @@
 | [jhochwald/PowerShell-collection](https://github.com/jhochwald/PowerShell-collection) | Power Shell Scripts, Tools, and Modules | `PowerShell` ★ 307 | 2026-05-09 |
 | [adbertram/Random-PowerShell-Work](https://github.com/adbertram/Random-PowerShell-Work) | Random Power Shell Work | `PowerShell` ★ 1.1k | 2024-08-06 |
 | [ironmansoftware/powershell-pro-tools](https://github.com/ironmansoftware/powershell-pro-tools) | Scripting, automation, and development tools for professionals working with Power Shell. | `C#` ★ 208 | 2025-12-08 |
-| [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11... | `PowerShell` ★ 47.4k | 2026-06-10 |
+| [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11... | `PowerShell` ★ 47.5k | 2026-06-11 |
 | [Devolutions/powershell-universal-gallery](https://github.com/Devolutions/powershell-universal-gallery) | Public gallery of modules for Power Shell Universal | `PowerShell` ★ 87 | 2026-06-08 |
 | [Romanitho/Winget-AutoUpdate](https://github.com/Romanitho/Winget-AutoUpdate) | WAU daily updates apps as system and notify connected users. (Allowlist and Blocklist support) | `PowerShell` ★ 1.9k | 2026-05-25 |
 | [theohbrothers/ItemLinkManagement](https://github.com/theohbrothers/ItemLinkManagement) | A Power Shell module for managing hardlinks, junctions, symbolic links. | `PowerShell` ★ 3 | 2021-10-17 |

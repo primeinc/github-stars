@@ -6,10 +6,10 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Wells-the-Doctor/leaxer](https://github.com/Wells-the-Doctor/leaxer) | 🌟 Build and deploy local AI models with Leaxer for real-time interaction, streamlined document generation, and versatile visual processing capabilities. | `Elixir` ★ 1 | 2026-06-11 |
+| [Wells-the-Doctor/leaxer](https://github.com/Wells-the-Doctor/leaxer) | 🌟 Build and deploy local AI models with Leaxer for real-time interaction, streamlined document generation, and versatile visual processing capabilities. | `Elixir` ★ 1 | 2026-06-12 |
 | [lovell/sharp](https://github.com/lovell/sharp) | High performance Node.js image processing, the fastest module to resize JPEG, PNG, Web P, AVIF and TIFF images. Uses the libvips library. | `JavaScript` ★ 32.3k | 2026-06-11 |
-| [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11.2k | 2026-06-11 |
-| [Visual-Agent/DeepEyesV2](https://github.com/Visual-Agent/DeepEyesV2) | No description provided | `Python` ★ 608 | 2026-02-26 |
+| [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11.2k | 2026-06-12 |
+| [Visual-Agent/DeepEyesV2](https://github.com/Visual-Agent/DeepEyesV2) | No description provided | `Python` ★ 609 | 2026-02-26 |
 | [NVIDIA/nvImageCodec](https://github.com/NVIDIA/nvImageCodec) | A nv Image Codec library of GPU- and CPU- accelerated codecs featuring a unified interface | `Jupyter Notebook` ★ 150 | 2026-04-14 |
 | [laurenshareshian/home_price_estimator](https://github.com/laurenshareshian/home_price_estimator) | Uses Zillow metadata, NLP on realtor description, and VGG16 on home images to predict home sale prices in Portland from 6/16 - 7/17. | `Jupyter Notebook` ★ 64 | 2017-09-10 |
 | [yukangcao/FreeMorph](https://github.com/yukangcao/FreeMorph) | \[ICCV'25\] Free Morph: Tuning-Free Generalized Image Morphing with Diffusion Model | `Python` ★ 90 | 2025-07-24 |
