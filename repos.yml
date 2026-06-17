@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-06-17T08:40:38.349Z'
+  manifest_updated_at: '2026-06-17T08:41:11.662Z'
   total_repos: 2653
   generator_version: v1.0.0
   github_user: primeinc
@@ -108659,13 +108659,19 @@ repositories:
       prompt_version: v3
   - repo: EKKOLearnAI/hermes-studio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - ui-libraries
+      - web-dev
+    tags:
+      - ai-agent
+      - dashboard
+      - chat-ui
+      - lang:ts
     summary: Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics
     last_synced_sha: 904a124a6bae09d121fde6fe9b858b5b0de5649a
     user_starred_at: '2026-04-20T14:15:24Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -108698,15 +108704,24 @@ repositories:
         published_at: '2026-06-17T03:03:44Z'
       is_mirror: false
       mirror_url: null
+    framework: vue
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-17T08:41:10.499Z'
+      prompt_version: v3
   - repo: WICG/email-verification
     categories:
-      - unclassified
-    tags: []
+      - web-dev
+      - security
+    tags:
+      - autofill
+      - verification
+      - lang:html
     summary: verified autofill
     last_synced_sha: 0b24404439ac5b591aa2795f22380362e1743e94
     user_starred_at: '2025-11-11T17:34:10Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics: []
@@ -108723,3 +108738,8 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-17T08:41:10.498Z'
+      prompt_version: v3
