@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [smestern/treepilot](https://github.com/smestern/treepilot) | A hacky / vibecoded AI family tree researcher | `Python` ★ 107 | 2026-02-20 |
+| [smestern/treepilot](https://github.com/smestern/treepilot) | A hacky / vibecoded AI family tree researcher | `Python` ★ 109 | 2026-02-20 |
 | [LAION-AI/worldsim](https://github.com/LAION-AI/worldsim) | No description provided | ★ 13 | 2023-08-29 |

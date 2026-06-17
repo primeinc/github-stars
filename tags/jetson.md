@@ -12,4 +12,4 @@
 | [rockkingjy/OpenTracker](https://github.com/rockkingjy/OpenTracker) | Real-time C++ ECO tracker etc. speed-up by SSE/NEON, support Linux, Mac, Jetson TX1/2, raspberry pi | `C++` ★ 782 | 2019-06-01 |
 | [dusty-nv/jetson-voice](https://github.com/dusty-nv/jetson-voice) | ASR/NLP/TTS deep learning inference library for NVIDIA Jetson using Py Torch and Tensor RT | `Python` ★ 229 | 2024-02-09 |
 | [rbonghi/jetson_stats](https://github.com/rbonghi/jetson_stats) | 📊 Simple package for monitoring and control your NVIDIA Jetson \[Orin, Xavier, Nano, TX\] series | `Python` ★ 2.6k | 2026-06-12 |
-| [dusty-nv/jetson-containers](https://github.com/dusty-nv/jetson-containers) | Machine Learning Containers for NVIDIA Jetson and Jet Pack-L4T | `Jupyter Notebook` ★ 4.7k | 2026-05-30 |
+| [dusty-nv/jetson-containers](https://github.com/dusty-nv/jetson-containers) | Machine Learning Containers for NVIDIA Jetson and Jet Pack-L4T | `Jupyter Notebook` ★ 4.7k | 2026-06-15 |
