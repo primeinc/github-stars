@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [ozgrozer/ai-renamer](https://github.com/ozgrozer/ai-renamer) | A Node.js CLI that uses Ollama and LM Studio models (Llava, Gemma, Llama etc.) to intelligently rename files by their contents | `JavaScript` ★ 2.1k | 2025-02-09 |
-| [changesets/ghcommit](https://github.com/changesets/ghcommit) | Type Script library for directly changing files on Git Hub | `TypeScript` ★ 23 | 2026-06-16 |
+| [changesets/ghcommit](https://github.com/changesets/ghcommit) | Type Script library for directly changing files on Git Hub | `TypeScript` ★ 24 | 2026-06-18 |
 | [11happy/cpx](https://github.com/11happy/cpx) | cp reimagined | `Rust` ★ 429 | 2026-03-06 |
 | [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) | :file\_folder: File Management Platform / Universal Data Access Gateway (without FUSE) | `Go` ★ 14.3k | 2026-06-15 |
 | [simulot/immich-go](https://github.com/simulot/immich-go) | An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives. | `Go` ★ 6.4k | 2026-03-02 |

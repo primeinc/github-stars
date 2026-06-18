@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [qbcore-framework/qb-housing](https://github.com/qbcore-framework/qb-housing) | The next iteration of QBCore’s housing system | ★ 37 | 2022-08-23 |
+| [qbcore-framework/qb-housing](https://github.com/qbcore-framework/qb-housing) | The next iteration of QBCore’s housing system | ★ 36 | 2022-08-23 |
 | [rodrigouroz/housing_scrapper](https://github.com/rodrigouroz/housing_scrapper) | A script to scrap housing listings sites | `Python` ★ 92 | 2024-08-17 |
 | [laurenshareshian/home_price_estimator](https://github.com/laurenshareshian/home_price_estimator) | Uses Zillow metadata, NLP on realtor description, and VGG16 on home images to predict home sale prices in Portland from 6/16 - 7/17. | `Jupyter Notebook` ★ 64 | 2017-09-10 |
 | [pangrr/realtor](https://github.com/pangrr/realtor) | crawl house data from realtor.com | `Python` ★ 7 | 2015-05-27 |

@@ -2,7 +2,7 @@
 
 > A curated list of **2653** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-06-17
+Last updated: 2026-06-18
 
 ## ⭐ Recently Starred
 
@@ -10,13 +10,13 @@ Last updated: 2026-06-17
 |---|---|---|---|
 | [yumingj/DeepFashion-MultiModal](https://github.com/yumingj/DeepFashion-MultiModal) | A large-scale high-quality human dataset with rich multi-modal annotations | ★ 657 | 2023-01-18 |
 | [OfficeDev/Office-Addin-TaskPane-React](https://github.com/OfficeDev/Office-Addin-TaskPane-React) | Template to get start started writing a Task Pane Office Add-in for the React framework using Type Script | `TypeScript` ★ 88 | 2026-06-12 |
-| [OfficeDev/generator-office](https://github.com/OfficeDev/generator-office) | Yeoman generator for building Microsoft Office related projects. | `TypeScript` ★ 944 | 2026-06-11 |
+| [OfficeDev/generator-office](https://github.com/OfficeDev/generator-office) | Yeoman generator for building Microsoft Office related projects. | `TypeScript` ★ 944 | 2026-06-18 |
 | [jonymaster/catalogIT](https://github.com/jonymaster/catalogIT) | A Web App to track Hardware and Software in an IT Team | `TypeScript` ★ 112 | 2026-05-21 |
 | [ozgrozer/ai-renamer](https://github.com/ozgrozer/ai-renamer) | A Node.js CLI that uses Ollama and LM Studio models (Llava, Gemma, Llama etc.) to intelligently rename files by their contents | `JavaScript` ★ 2.1k | 2025-02-09 |
 | [Beledarian/Beledarians_LM_Studio_Toolbox](https://github.com/Beledarian/Beledarians_LM_Studio_Toolbox) | This project is a plugin for LM Studio that provides a rich set of tools to a large language model. It allows the LLM to interact with your local file system, execute code, access the internet, and... | `TypeScript` ★ 88 | 2026-06-10 |
-| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 1k | 2026-06-16 |
-| [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) | No description provided | `TypeScript` ★ 15.4k | 2026-06-17 |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | AI Agent Framework, the Pydantic way | `Python` ★ 17.8k | 2026-06-16 |
+| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 1k | 2026-06-17 |
+| [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) | No description provided | `TypeScript` ★ 15.4k | 2026-06-18 |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | AI Agent Framework, the Pydantic way | `Python` ★ 17.8k | 2026-06-18 |
 | [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. | `Python` ★ 14.3k | 2026-06-17 |
 
 ## 🏷️ Popular Tags

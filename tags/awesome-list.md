@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [rdmgator12/awesome-claude-connectors](https://github.com/rdmgator12/awesome-claude-connectors) | A comprehensive directory of every connector in Anthropic's official Claude Connectors Directory — 343 verified MCP integrations, organized by category with descriptions and use cases. | ★ 34 | 2026-06-05 |
-| [kodepandai/awesome-gh-cli-extensions](https://github.com/kodepandai/awesome-gh-cli-extensions) | Awesome list of github cli extensions. | `HTML` ★ 424 | 2026-05-07 |
+| [kodepandai/awesome-gh-cli-extensions](https://github.com/kodepandai/awesome-gh-cli-extensions) | Awesome list of github cli extensions. | `HTML` ★ 425 | 2026-05-07 |
 | [merill/awesome-entra](https://github.com/merill/awesome-entra) | 😎 Awesome list of all things related to Microsoft Entra | ★ 759 | 2026-06-02 |
 | [dustinspecker/awesome-eslint](https://github.com/dustinspecker/awesome-eslint) | A list of awesome ESLint plugins, configs, etc. | ★ 4.7k | 2026-05-13 |
 | [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | The awesome collection of Open Claw skills. 5,400+ skills filtered and categorized from the official Open Claw Skills Registry.🦞 | ★ 50.3k | 2026-06-16 |
@@ -23,7 +23,7 @@
 | [grpc-ecosystem/awesome-grpc](https://github.com/grpc-ecosystem/awesome-grpc) | A curated list of useful resources for g RPC | ★ 8.3k | 2025-10-28 |
 | [mendel5/alternative-front-ends](https://github.com/mendel5/alternative-front-ends) | Overview of alternative open source front-ends for popular internet platforms (e.g. You Tube, Twitter, etc.) | ★ 9k | 2024-08-18 |
 | [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response) | A curated list of tools for incident response | ★ 9.1k | 2026-05-06 |
-| [NirantK/awesome-project-ideas](https://github.com/NirantK/awesome-project-ideas) | Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas | ★ 9.1k | 2023-03-13 |
+| [NirantK/awesome-project-ideas](https://github.com/NirantK/awesome-project-ideas) | Curated list of Machine Learning, NLP, Vision, Recommender Systems Project Ideas | ★ 9.2k | 2023-03-13 |
 | [rothgar/awesome-tmux](https://github.com/rothgar/awesome-tmux) | A list of awesome resources for tmux | ★ 10k | 2026-05-20 |
 | [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) | A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more | `Shell` ★ 10.8k | 2026-06-13 |
 | [heynickc/awesome-ddd](https://github.com/heynickc/awesome-ddd) | A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources | ★ 12.3k | 2025-07-04 |
@@ -35,16 +35,16 @@
 | [trungdq88/Awesome-Black-Friday-Cyber-Monday](https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday) | Awesome apps, software, and Saa S deals on Black Friday. | ★ 7.5k | 2025-11-30 |
 | [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | A list of open source games. | `Python` ★ 13k | 2026-02-25 |
 | [palashmon/awesome-vscode-settings](https://github.com/palashmon/awesome-vscode-settings) | 🎨 A curated list of simple and awesome VS Code settings | ★ 61 | 2026-04-08 |
-| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Master programming by recreating your favorite technologies from scratch. | `Markdown` ★ 516.5k | 2026-02-21 |
+| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Master programming by recreating your favorite technologies from scratch. | `Markdown` ★ 516.8k | 2026-02-21 |
 | [lissy93/awesome-privacy](https://github.com/lissy93/awesome-privacy) | 🦄 A curated list of privacy & security-focused software and services | `Astro` ★ 9.5k | 2026-06-17 |
 | [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | A curated list of awesome READMEs | ★ 21.1k | 2026-06-11 |
-| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page\_facing\_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 27.7k | 2026-03-13 |
+| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | :page\_facing\_up: Awesome CV is La Te X template for your outstanding job application | `TeX` ★ 27.8k | 2026-03-13 |
 | [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | 😎 A curated list of awesome Git Hub Profile which updates in real time | ★ 30.3k | 2026-03-03 |
-| [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar\_board: | ★ 83.1k | 2024-07-29 |
-| [f/prompts.chat](https://github.com/f/prompts.chat) | f.k.a. Awesome Chat GPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. | `HTML` ★ 163.8k | 2026-06-17 |
+| [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) | :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar\_board: | ★ 83.2k | 2024-07-29 |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | f.k.a. Awesome Chat GPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. | `HTML` ★ 163.9k | 2026-06-18 |
 | [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood) | 😱 Falsehoods Programmers Believe in | ★ 27.5k | 2026-04-27 |
 | [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) | ⚡️ A curated list of awesome things related to Vite.js | `JavaScript` ★ 17.1k | 2026-02-04 |
-| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | A list of Saa S, Paa S and Iaa S offerings that have free tiers of interest to devops and infradev | `HTML` ★ 123.2k | 2026-06-15 |
+| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | A list of Saa S, Paa S and Iaa S offerings that have free tiers of interest to devops and infradev | `HTML` ★ 123.2k | 2026-06-17 |
 | [dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks) | Manually curated collection of resources for frontend web developers. | ★ 47k | 2024-05-21 |
 | [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | 📄 Configuration files that enhance Cursor AI editor experience with custom rules and behaviors | `JavaScript` ★ 40k | 2026-05-30 |
 | [iDoka/awesome-automotive-can-id](https://github.com/iDoka/awesome-automotive-can-id) | :tractor: Collect of CAN IDs and its payloads for various car brands/models in one place. Might be useful for Cyber Security Researchers, Reverse Engineers, and Automotive Electronics Enthusiasts. | ★ 946 | 2026-01-27 |
@@ -70,9 +70,9 @@
 | [sdras/awesome-actions](https://github.com/sdras/awesome-actions) | A curated list of awesome actions to use on Git Hub | ★ 27.9k | 2024-09-01 |
 | [sindresorhus/awesome-electron](https://github.com/sindresorhus/awesome-electron) | Useful resources for creating apps with Electron | ★ 27.2k | 2026-05-03 |
 | [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) | A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups | ★ 35.1k | 2026-03-02 |
-| [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) | A curated list of amazingly awesome open-source sysadmin resources. | ★ 34.3k | 2026-06-03 |
+| [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin) | A curated list of amazingly awesome open-source sysadmin resources. | ★ 34.4k | 2026-06-03 |
 | [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) | Use your mac OS terminal shell to do awesome things. | ★ 30.7k | 2026-03-04 |
-| [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) | :whale: A curated list of Docker resources and projects | ★ 36.2k | 2026-06-15 |
+| [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) | :whale: A curated list of Docker resources and projects | ★ 36.2k | 2026-06-17 |
 | [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) | A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php. | ★ 37.1k | 2025-08-28 |
 | [docker/awesome-compose](https://github.com/docker/awesome-compose) | Awesome Docker Compose samples | `HTML` ★ 45.6k | 2026-06-15 |
 | [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | 🚀 Awesome list of open source applications for mac OS. https://t.me/s/opensourcemacosapps | ★ 49.2k | 2026-04-15 |
@@ -82,6 +82,6 @@
 | [devisasari/awesome-gpt-store](https://github.com/devisasari/awesome-gpt-store) | A curated list of awesome GPTs in the GPT Store | ★ 2.1k | 2024-10-15 |
 | [phmullins/awesome-macos](https://github.com/phmullins/awesome-macos) | A curated list of awesome software for Apple's mac OS. | ★ 3.1k | 2025-01-22 |
 | [chiraggude/awesome-laravel](https://github.com/chiraggude/awesome-laravel) | A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem | ★ 13.1k | 2024-07-03 |
-| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 476.4k | 2026-06-02 |
-| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 299.7k | 2026-06-16 |
+| [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics | ★ 476.7k | 2026-06-02 |
+| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 299.8k | 2026-06-16 |
 | [davidsonfellipe/awesome-wpo](https://github.com/davidsonfellipe/awesome-wpo) | :pencil: A curated list of Web Performance Optimization. Everyone can contribute here! | ★ 8.9k | 2026-06-08 |

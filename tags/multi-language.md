@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [shadawck/awesome-cli-frameworks](https://github.com/shadawck/awesome-cli-frameworks) | Collection of tools to build beautiful command line interface in different languages | `HTML` ★ 1.2k | 2024-09-27 |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | Curated list of project-based tutorials | ★ 269.8k | 2024-08-15 |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | Curated list of project-based tutorials | ★ 269.9k | 2024-08-15 |

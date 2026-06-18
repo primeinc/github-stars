@@ -7,11 +7,11 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | Useful tool to track location or mobile number | `Python` ★ 14.1k | 2024-01-11 |
-| [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface | `TypeScript` ★ 56.6k | 2026-06-17 |
-| [BigBodyCobain/Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker) | Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. The knowledge is av... | `Python` ★ 9.3k | 2026-06-16 |
+| [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface | `TypeScript` ★ 56.7k | 2026-06-17 |
+| [BigBodyCobain/Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker) | Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. The knowledge is av... | `Python` ★ 9.3k | 2026-06-17 |
 | [elm1nst3r/GHOST-osint-crm](https://github.com/elm1nst3r/GHOST-osint-crm) | GHOST - Global Human Operations & Surveillance Tracking: Open-source investigation management platform for tracking people, connections, and intelligence data. Because Excel spreadsheets are for ac... | `JavaScript` ★ 587 | 2026-06-14 |
 | [lockfale/OSINT-Framework](https://github.com/lockfale/OSINT-Framework) | OSINT Framework | `JavaScript` ★ 11.5k | 2026-04-03 |
-| [lissy93/web-check](https://github.com/lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 33.7k | 2026-06-15 |
+| [lissy93/web-check](https://github.com/lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 33.8k | 2026-06-15 |
 | [kaifcodec/Telespot](https://github.com/kaifcodec/Telespot) | Tele Spot OSINT lookup from Telephone number using DDGR + BING + GOOGLE and pattern recognition correlations. | `Python` ★ 7 | 2026-01-09 |
 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | `Python` ★ 85.1k | 2026-06-17 |
 | [Or1un/MOSAIC](https://github.com/Or1un/MOSAIC) | Privacy-first behavioral intelligence framework for multi-platform analysis and sociodynamic research. | `Python` ★ 41 | 2025-12-30 |

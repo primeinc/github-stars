@@ -10,5 +10,5 @@
 | [stackblitz/webcontainer-core](https://github.com/stackblitz/webcontainer-core) | Dev environments. In your web app. | ★ 4.6k | 2025-04-22 |
 | [HoppouAI/OctoBrowser](https://github.com/HoppouAI/OctoBrowser) | Built for the Copilot SDK Weekend Contest as a fun project. | `JavaScript` ★ 117 | 2026-03-25 |
 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | A browser based code editor | `JavaScript` ★ 46.2k | 2026-06-15 |
-| [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser | `C++` ★ 64.1k | 2026-06-17 |
-| [imputnet/helium](https://github.com/imputnet/helium) | Private, fast, and honest web browser | `C++` ★ 17.4k | 2026-06-15 |
+| [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser | `C++` ★ 64.1k | 2026-06-18 |
+| [imputnet/helium](https://github.com/imputnet/helium) | Private, fast, and honest web browser | `C++` ★ 17.5k | 2026-06-17 |
