@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-06-19T04:44:47.128Z'
+  manifest_updated_at: '2026-06-19T04:45:27.507Z'
   total_repos: 2654
   generator_version: v1.0.0
   github_user: primeinc
@@ -108606,13 +108606,18 @@ repositories:
       prompt_version: v3
   - repo: ory/lumen
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - semantic-search
+      - lang:go
+      - codebase-optimization
+      - context-management
     summary: Save 30% token costs when using Claude Code, Codex, Open Code for free - with open source, local semantic search. Works for small and large codebases and monorepos! Enterprise-ready and fully compl...
     last_synced_sha: d0dee0efcc8235bf514217ecb12cdac2ed5213fa
     user_starred_at: '2026-06-19T02:45:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -108644,15 +108649,26 @@ repositories:
         published_at: '2026-05-20T12:36:27Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-19T04:45:26.279Z'
+      prompt_version: v3
   - repo: UI5/openui5
     categories:
-      - unclassified
-    tags: []
+      - ui-libraries
+      - web-dev
+    tags:
+      - responsive-design
+      - enterprise-apps
+      - lang:js
+      - openui5
+      - cross-browser
     summary: Open UI5 lets you build enterprise-ready web applications, responsive to all devices, running on almost any browser of your choice.
     last_synced_sha: dce0f6cfb3f2a6ce8262e46ee0818b76b57b5132
     user_starred_at: '2026-06-19T01:02:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -108677,15 +108693,26 @@ repositories:
         published_at: '2026-06-15T12:50:28Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-19T04:45:26.279Z'
+      prompt_version: v3
   - repo: hey-api/hey-api
     categories:
-      - unclassified
-    tags: []
+      - apis
+      - productivity
+    tags:
+      - codegen
+      - sdk
+      - lang:ts
+      - nextjs
+      - pydantic
     summary: 🌀 Open API to Python and Type Script codegen. Production-grade SDKs, Zod schemas, Tan Stack Query hooks, Pydantic models, and 20+ plugins. Used by Vercel, Open Code, and Pay Pal.
     last_synced_sha: e6ee69882a4a14e9664882ce4e14f57b14e8cb39
     user_starred_at: '2026-02-04T18:44:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -108723,15 +108750,24 @@ repositories:
         published_at: '2026-06-08T05:37:30Z'
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-19T04:45:26.279Z'
+      prompt_version: v3
   - repo: jasontang-ai/Context-Engineering
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - context-window
+      - ai-handbook
+      - lang:python
     summary: '"Context engineering is the delicate art and science of filling the context window with just the right information for the next step." — Andrej Karpathy. A frontier, first-principles handbook inspi...'
     last_synced_sha: 6158def66a2d2174ed8356cf376e5f44e10d78ea
     user_starred_at: '2025-07-15T20:21:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -108748,3 +108784,8 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-19T04:45:26.278Z'
+      prompt_version: v3
