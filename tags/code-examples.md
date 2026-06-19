@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [google-gemma/cookbook](https://github.com/google-gemma/cookbook) | A collection of guides and examples for the Gemma open models from Google. | `Jupyter Notebook` ★ 3.7k | 2026-06-17 |
-| [microsoft/Agent365-Samples](https://github.com/microsoft/Agent365-Samples) | No description provided | `Python` ★ 88 | 2026-06-17 |
+| [google-gemma/cookbook](https://github.com/google-gemma/cookbook) | A collection of guides and examples for the Gemma open models from Google. | `Jupyter Notebook` ★ 3.8k | 2026-06-17 |
+| [microsoft/Agent365-Samples](https://github.com/microsoft/Agent365-Samples) | No description provided | `Python` ★ 89 | 2026-06-19 |

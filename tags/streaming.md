@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [streamlink/streamlink](https://github.com/streamlink/streamlink) | Streamlink is a CLI utility which pipes video streams from various services into a video player | `Python` ★ 11.6k | 2026-06-14 |
+| [streamlink/streamlink](https://github.com/streamlink/streamlink) | Streamlink is a CLI utility which pipes video streams from various services into a video player | `Python` ★ 11.6k | 2026-06-18 |
 | [navidrome/navidrome](https://github.com/navidrome/navidrome) | 🎧☁️ Your Personal Streaming Service | `Go` ★ 21.8k | 2026-06-18 |
 | [curtosis-org/phub-cli](https://github.com/curtosis-org/phub-cli) | Terminal-based Porn Hub browser inspired by ani-cli. Browse categories, search videos, and stream instantly in mpv without opening a browser. | `Shell` ★ 144 | 2026-04-29 |
 | [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 9.9k | 2026-05-21 |

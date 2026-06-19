@@ -7,9 +7,9 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [memstechtips/Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | `C#` ★ 11.1k | 2026-06-18 |
-| [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 36.4k | 2026-06-17 |
-| [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom input pattern highlighters, custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art... | `TypeScript` ★ 2.2k | 2026-06-18 |
-| [aleks-apostle/claude-code-patches](https://github.com/aleks-apostle/claude-code-patches) | A simple patch that toggles claude-code thinking traces to be fully expanded by default without having to press ctrl + o | `JavaScript` ★ 64 | 2025-12-09 |
+| [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 36.4k | 2026-06-18 |
+| [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom input pattern highlighters, custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art... | `TypeScript` ★ 2.2k | 2026-06-19 |
+| [aleks-apostle/claude-code-patches](https://github.com/aleks-apostle/claude-code-patches) | A simple patch that toggles claude-code thinking traces to be fully expanded by default without having to press ctrl + o | `JavaScript` ★ 65 | 2025-12-09 |
 | [joelshepherd/tabliss](https://github.com/joelshepherd/tabliss) | A beautiful, customisable New Tab page for Firefox, Chrome, and Edge. | `TypeScript` ★ 2.8k | 2024-08-19 |
 | [catppuccin/windows-terminal](https://github.com/catppuccin/windows-terminal) | 🪟 Soothing pastel theme for Windows Terminal | ★ 887 | 2023-12-26 |
 | [dcordero/FocusTvButton](https://github.com/dcordero/FocusTvButton) | Light wrapper of UIButton that allows extra customization for tv OS | `Swift` ★ 77 | 2026-04-08 |

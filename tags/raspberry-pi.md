@@ -12,5 +12,5 @@
 | [lplassman/NDI-Recorder](https://github.com/lplassman/NDI-Recorder) | A recorder for Full NDI streams | `C` ★ 26 | 2022-05-21 |
 | [caspii/dinkydash](https://github.com/caspii/dinkydash) | A family dashboard for kids | `HTML` ★ 91 | 2026-02-28 |
 | [MagicMirrorOrg/MagicMirror](https://github.com/MagicMirrorOrg/MagicMirror) | Magic Mirror² is an open source modular smart mirror platform. With a growing list of installable modules, the Magic Mirror² allows you to convert your hallway or bathroom mirror into your personal... | `JavaScript` ★ 23.6k | 2026-06-16 |
-| [dtcooper/raspotify](https://github.com/dtcooper/raspotify) | A Spotify Connect client that mostly Just Works™ | `Shell` ★ 5.1k | 2026-04-24 |
+| [dtcooper/raspotify](https://github.com/dtcooper/raspotify) | A Spotify Connect client that mostly Just Works™ | `Shell` ★ 5.2k | 2026-04-24 |
 | [scottlawsonbc/audio-reactive-led-strip](https://github.com/scottlawsonbc/audio-reactive-led-strip) | :musical\_note: :rainbow: Real-time LED strip music visualization using Python and the ESP8266 or Raspberry Pi | `Python` ★ 3k | 2026-01-06 |

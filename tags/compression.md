@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [upx/upx](https://github.com/upx/upx) | UPX - the Ultimate Packer for e Xecutables | `C++` ★ 17.6k | 2026-06-17 |
-| [image-rs/fdeflate](https://github.com/image-rs/fdeflate) | Fast deflate implementation specialized for PNG image data | `Rust` ★ 33 | 2026-05-31 |
+| [upx/upx](https://github.com/upx/upx) | UPX - the Ultimate Packer for e Xecutables | `C++` ★ 17.6k | 2026-06-18 |
+| [image-rs/fdeflate](https://github.com/image-rs/fdeflate) | Fast deflate implementation specialized for PNG image data | `Rust` ★ 34 | 2026-05-31 |
 | [deepseek-ai/DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) | Contexts Optical Compression | `Python` ★ 23.3k | 2026-01-27 |

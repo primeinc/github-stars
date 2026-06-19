@@ -7,5 +7,5 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [Diniboy1123/usque](https://github.com/Diniboy1123/usque) | Open-source reimplementation of the Cloudflare WARP client's MASQUE protocol. | `Go` ★ 1k | 2026-06-17 |
-| [amnezia-vpn/amneziawg-windows-client](https://github.com/amnezia-vpn/amneziawg-windows-client) | Amnezia WG client for Windows | `Go` ★ 871 | 2026-06-12 |
-| [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile) | `C++` ★ 12.6k | 2026-06-17 |
+| [amnezia-vpn/amneziawg-windows-client](https://github.com/amnezia-vpn/amneziawg-windows-client) | Amnezia WG client for Windows | `Go` ★ 875 | 2026-06-12 |
+| [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile) | `C++` ★ 12.6k | 2026-06-18 |

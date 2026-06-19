@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer) | Technitium DNS Server | `C#` ★ 8.9k | 2026-06-13 |
-| [umami-software/umami](https://github.com/umami-software/umami) | Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel and Amplitude. | `TypeScript` ★ 37.2k | 2026-06-17 |
+| [umami-software/umami](https://github.com/umami-software/umami) | Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel and Amplitude. | `TypeScript` ★ 37.2k | 2026-06-18 |
