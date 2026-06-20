@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [nushell/nushell](https://github.com/nushell/nushell) | A new type of shell | `Rust` ★ 39.8k | 2026-06-18 |
+| [nushell/nushell](https://github.com/nushell/nushell) | A new type of shell | `Rust` ★ 39.8k | 2026-06-19 |
 | [adambajguz/Typin](https://github.com/adambajguz/Typin) | Declarative framework for interactive CLI applications | `C#` ★ 253 | 2025-06-18 |
-| [dotnet/command-line-api](https://github.com/dotnet/command-line-api) | Command line parsing, invocation, and rendering of terminal output. | `C#` ★ 3.7k | 2026-06-19 |
+| [dotnet/command-line-api](https://github.com/dotnet/command-line-api) | Command line parsing, invocation, and rendering of terminal output. | `C#` ★ 3.7k | 2026-06-20 |
 | [conradkoh/artifact-cli](https://github.com/conradkoh/artifact-cli) | No description provided | `TypeScript` ★ 1 | 2026-01-12 |
 | [deadc0de6/gocatcli](https://github.com/deadc0de6/gocatcli) | The command line catalog tool for your offline data | `Go` ★ 47 | 2025-12-30 |
 | [spf13/cobra](https://github.com/spf13/cobra) | A Commander for modern Go CLI interactions | `Go` ★ 44.1k | 2026-04-25 |

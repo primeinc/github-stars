@@ -18,7 +18,7 @@
 | [nwjs/nw.js](https://github.com/nwjs/nw.js) | Call all Node.js modules directly from DOM/Web Worker and enable a new way of writing applications with all Web technologies. | `JavaScript` ★ 41.2k | 2026-05-26 |
 | [Aetherinox/node-toasted-notifier](https://github.com/Aetherinox/node-toasted-notifier) | A revised fork of node-notifier; Node JS package for pushing notifications to Mac OS, Linux, and Windows. | `JavaScript` ★ 26 | 2025-10-23 |
 | [felixrieseberg/windows-build-tools](https://github.com/felixrieseberg/windows-build-tools) | :package: Install C++ Build Tools for Windows using npm | `TypeScript` ★ 3.4k | 2021-06-20 |
-| [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first. | `TypeScript` ★ 72.4k | 2026-06-18 |
+| [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first. | `TypeScript` ★ 72.4k | 2026-06-19 |
 | [tj/commander.js](https://github.com/tj/commander.js) | node.js command-line interfaces made easy | `JavaScript` ★ 28.3k | 2026-06-13 |
 | [google/zx](https://github.com/google/zx) | A tool for writing better scripts | `JavaScript` ★ 45.5k | 2026-06-13 |
 | [Schniz/fnm](https://github.com/Schniz/fnm) | 🚀 Fast and simple Node.js version manager, built in Rust | `Rust` ★ 26k | 2026-04-19 |

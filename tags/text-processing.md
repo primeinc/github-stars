@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [openprose/prose](https://github.com/openprose/prose) | No description provided | `TypeScript` ★ 1.5k | 2026-06-15 |
+| [openprose/prose](https://github.com/openprose/prose) | No description provided | `TypeScript` ★ 1.5k | 2026-06-19 |
 | [Kakulukian/youtube-transcript](https://github.com/Kakulukian/youtube-transcript) | Fetch transcript from a youtube video | `TypeScript` ★ 569 | 2026-04-25 |
