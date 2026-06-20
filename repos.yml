@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-06-20T04:40:10.405Z'
+  manifest_updated_at: '2026-06-20T04:40:41.157Z'
   total_repos: 2655
   generator_version: v1.0.0
   github_user: primeinc
@@ -108803,13 +108803,18 @@ repositories:
       prompt_version: v3
   - repo: guinacio/infinite-backrooms
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+    tags:
+      - chatbot
+      - conversational-ai
+      - ai-agents
+      - lang:python
     summary: Interactive multi-persona AI conversation platform using Ollama. Create AI personas with distinct roles and watch them engage in dynamic conversations with @mention support, configurable context, a...
     last_synced_sha: 28b618bbec2693c99eecd7fb4e0e98501011ae2d
     user_starred_at: '2026-06-19T06:20:16Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -108842,3 +108847,8 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-20T04:40:40.008Z'
+      prompt_version: v3
