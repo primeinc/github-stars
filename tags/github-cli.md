@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [cli/gh-extension-precompile](https://github.com/cli/gh-extension-precompile) | Action for publishing binary Git Hub CLI extensions | `Shell` ★ 119 | 2026-06-19 |
-| [kodepandai/awesome-gh-cli-extensions](https://github.com/kodepandai/awesome-gh-cli-extensions) | Awesome list of github cli extensions. | `HTML` ★ 426 | 2026-05-07 |
+| [kodepandai/awesome-gh-cli-extensions](https://github.com/kodepandai/awesome-gh-cli-extensions) | Awesome list of github cli extensions. | `HTML` ★ 427 | 2026-05-07 |

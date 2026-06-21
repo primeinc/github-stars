@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future ... | `JavaScript` ★ 83.3k | 2026-06-20 |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | Memory for AI Agents in 6 lines of code | `Python` ★ 17.9k | 2026-06-19 |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future ... | `JavaScript` ★ 83.4k | 2026-06-20 |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | Memory for AI Agents in 6 lines of code | `Python` ★ 18.3k | 2026-06-21 |

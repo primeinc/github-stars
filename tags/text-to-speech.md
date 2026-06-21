@@ -12,7 +12,7 @@
 | [ysharma3501/LuxTTS](https://github.com/ysharma3501/LuxTTS) | A high-quality rapid TTS voice cloning model that reaches speeds of 150x realtime. | `Python` ★ 4.2k | 2026-06-05 |
 | [samuel-vitorino/sopro](https://github.com/samuel-vitorino/sopro) | A lightweight text-to-speech model with zero-shot voice cloning | `Python` ★ 820 | 2026-02-06 |
 | [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | So TA open-source TTS | `Python` ★ 25.1k | 2026-06-10 |
-| [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) | Instant voice cloning by MIT and My Shell. Audio foundation model. | `Python` ★ 36.7k | 2025-04-19 |
+| [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) | Instant voice cloning by MIT and My Shell. Audio foundation model. | `Python` ★ 36.8k | 2025-04-19 |
 | [dusty-nv/jetson-voice](https://github.com/dusty-nv/jetson-voice) | ASR/NLP/TTS deep learning inference library for NVIDIA Jetson using Py Torch and Tensor RT | `Python` ★ 229 | 2024-02-09 |
 | [lucasnewman/f5-tts-mlx](https://github.com/lucasnewman/f5-tts-mlx) | Implementation of F5-TTS in MLX | `Python` ★ 636 | 2025-03-19 |
 | [SWivid/F5-TTS](https://github.com/SWivid/F5-TTS) | Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching" | `Python` ★ 14.8k | 2026-05-18 |

@@ -18,6 +18,6 @@
 | [wandb/openui](https://github.com/wandb/openui) | Open UI let's you describe UI using your imagination, then see it rendered live. | `TypeScript` ★ 22.4k | 2026-05-20 |
 | [Hillobar/Rope](https://github.com/Hillobar/Rope) | GUI-focused roop | `Python` ★ 5.3k | 2024-05-28 |
 | [tjackenpacken/taskbar-groups](https://github.com/tjackenpacken/taskbar-groups) | Lightweight utility for organizing the taskbar through groups | `C#` ★ 2.7k | 2024-07-04 |
-| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | Fullstack app framework for web, desktop, and mobile. | `Rust` ★ 36.4k | 2026-06-17 |
+| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | Fullstack app framework for web, desktop, and mobile. | `Rust` ★ 36.5k | 2026-06-17 |
 | [metafizzy/infinite-scroll](https://github.com/metafizzy/infinite-scroll) | 📜 Automatically add next page | `HTML` ★ 7.5k | 2025-03-08 |
 | [filp/whoops](https://github.com/filp/whoops) | PHP errors for cool kids | `PHP` ★ 13.2k | 2026-05-06 |

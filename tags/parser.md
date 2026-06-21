@@ -7,14 +7,14 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [alphanome-ai/sec-parser](https://github.com/alphanome-ai/sec-parser) | Parse SEC EDGAR HTML documents into a tree of elements that correspond to the visual (semantic) structure of the document. | `Python` ★ 287 | 2025-03-25 |
-| [harshankur/officeParser](https://github.com/harshankur/officeParser) | A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met... | `Rich Text Format` ★ 482 | 2026-06-12 |
+| [harshankur/officeParser](https://github.com/harshankur/officeParser) | A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met... | `Rich Text Format` ★ 483 | 2026-06-12 |
 | [ninenines/cowlib](https://github.com/ninenines/cowlib) | Support library for manipulating Web protocols. | `Erlang` ★ 293 | 2026-06-11 |
 | [AntonBergaker/InterpolatedParser](https://github.com/AntonBergaker/InterpolatedParser) | Interpolated Strings but in reverse! A very cursed C# parser library. | `C#` ★ 295 | 2025-02-24 |
 | [rasendubi/uniorg](https://github.com/rasendubi/uniorg) | An accurate Org-mode parser for Java Script/Type Script | `TypeScript` ★ 331 | 2026-04-25 |
 | [structuredllm/syncode](https://github.com/structuredllm/syncode) | Efficient and general syntactical decoding for Large Language Models | `Python` ★ 337 | 2026-01-19 |
 | [likexian/whois-parser](https://github.com/likexian/whois-parser) | Whois parser for domain whois information parsing in Go(Golang). | `Go` ★ 332 | 2026-01-04 |
 | [PoiScript/orgize](https://github.com/PoiScript/orgize) | A Rust library for parsing org-mode files. | `Rust` ★ 340 | 2025-01-27 |
-| [chipsalliance/Surelog](https://github.com/chipsalliance/Surelog) | System Verilog 2017 Pre-processor, Parser, Elaborator, UHDM Compiler. Provides IEEE Design/TB C/C++ VPI and Python AST & UHDM APIs. Compiles on Linux gcc, Windows msys2-gcc & msvc, Os X | `C++` ★ 463 | 2026-06-19 |
+| [chipsalliance/Surelog](https://github.com/chipsalliance/Surelog) | System Verilog 2017 Pre-processor, Parser, Elaborator, UHDM Compiler. Provides IEEE Design/TB C/C++ VPI and Python AST & UHDM APIs. Compiles on Linux gcc, Windows msys2-gcc & msvc, Os X | `C++` ★ 463 | 2026-06-20 |
 | [kevinburke/ssh_config](https://github.com/kevinburke/ssh_config) | Go parser for ssh\_config files | `Go` ★ 468 | 2026-05-04 |
 | [postalsys/postal-mime](https://github.com/postalsys/postal-mime) | Email parser for browser and serverless environments | `JavaScript` ★ 531 | 2026-03-17 |
 | [jcubic/lips](https://github.com/jcubic/lips) | Scheme based powerful lisp interpreter in Java Script | `JavaScript` ★ 495 | 2026-05-28 |

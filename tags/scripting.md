@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [google/zx](https://github.com/google/zx) | A tool for writing better scripts | `JavaScript` ★ 45.5k | 2026-06-13 |
+| [google/zx](https://github.com/google/zx) | A tool for writing better scripts | `JavaScript` ★ 45.6k | 2026-06-13 |
 | [ironmansoftware/powershell-pro-tools](https://github.com/ironmansoftware/powershell-pro-tools) | Scripting, automation, and development tools for professionals working with Power Shell. | `C#` ★ 208 | 2025-12-08 |
 | [mycroftjr/Sims4ScriptingTemplate](https://github.com/mycroftjr/Sims4ScriptingTemplate) | Sims 4 Scripting Template Project | `Python` ★ 19 | 2023-09-29 |
 | [MorseTheCode/OBS-Scripts](https://github.com/MorseTheCode/OBS-Scripts) | My OBS Scripts | `HTML` ★ 7 | 2025-11-27 |

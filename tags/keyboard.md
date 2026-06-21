@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [deskflow/deskflow](https://github.com/deskflow/deskflow) | Share a single keyboard and mouse between multiple computers. | `C++` ★ 26.6k | 2026-06-19 |
-| [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) | Karabiner-Elements is a powerful tool for customizing keyboards on mac OS | `C++` ★ 22.3k | 2026-06-19 |
+| [deskflow/deskflow](https://github.com/deskflow/deskflow) | Share a single keyboard and mouse between multiple computers. | `C++` ★ 26.7k | 2026-06-20 |
+| [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) | Karabiner-Elements is a powerful tool for customizing keyboards on mac OS | `C++` ★ 22.3k | 2026-06-21 |

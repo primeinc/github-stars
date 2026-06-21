@@ -14,7 +14,7 @@
 | [microsoft/azure-skills](https://github.com/microsoft/azure-skills) | Official agent plugin providing skills and MCP server configurations for Azure scenarios. | `Python` ★ 1.2k | 2026-06-20 |
 | [Azure/aaz-dev-tools](https://github.com/Azure/aaz-dev-tools) | Atomic Azure CLI Dev Tools | `Python` ★ 27 | 2026-06-19 |
 | [microsoft/tyger](https://github.com/microsoft/tyger) | Remote signal processing. | `Go` ★ 70 | 2026-06-01 |
-| [is-a-dev/register](https://github.com/is-a-dev/register) | Grab your own sweet-looking '.is-a.dev' subdomain. | `JavaScript` ★ 10.5k | 2026-06-19 |
+| [is-a-dev/register](https://github.com/is-a-dev/register) | Grab your own sweet-looking '.is-a.dev' subdomain. | `JavaScript` ★ 10.5k | 2026-06-20 |
 | [adamfowlerit/msportals.io](https://github.com/adamfowlerit/msportals.io) | MSPortals.io - Microsoft Administrator Sites, Training, and Licensing Resources | `HTML` ★ 326 | 2026-06-13 |
 | [Azure-Samples/dotNET-Frontend-AB-Testing-on-Azure-Container-Apps](https://github.com/Azure-Samples/dotNET-Frontend-AB-Testing-on-Azure-Container-Apps) | Demonstration of how ASP.NET Core developers can use Azure App Configuration's Feature Flags capabilities with Azure Container App revisions to A/B test front end apps. | `Bicep` ★ 25 | 2023-07-06 |
 | [daveRendon/azd-deepseek-r1-on-azure-container-apps](https://github.com/daveRendon/azd-deepseek-r1-on-azure-container-apps) | Use Infrastructure-As-Code to deploy Deep Seek-R1 on Azure Container Apps with Serverless GPUs. | `Bicep` ★ 2 | 2025-11-09 |
@@ -24,7 +24,7 @@
 | [lopezleandro03/azd-devcenter](https://github.com/lopezleandro03/azd-devcenter) | A template to get started with Azure Deployment Environments. | `HCL` ★ 12 | 2025-05-28 |
 | [Azure/aca-landing-zone-accelerator](https://github.com/Azure/aca-landing-zone-accelerator) | The Azure Container Apps landing zone accelerator is an open-source collection of architectural guidance and reference implementation to accelerate deployment of Azure Container Apps at scale. | `Bicep` ★ 216 | 2026-01-26 |
 | [Azure-Samples/azure-openai-rag-workshop](https://github.com/Azure-Samples/azure-openai-rag-workshop) | Create your own Chat GPT with Retrieval-Augmented-Generation workshop | `Bicep` ★ 150 | 2026-01-20 |
-| [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos) | A collection of Microsoft cloud product logos | `Python` ★ 263 | 2026-06-20 |
+| [loryanstrant/MicrosoftCloudLogos](https://github.com/loryanstrant/MicrosoftCloudLogos) | A collection of Microsoft cloud product logos | `Python` ★ 264 | 2026-06-20 |
 | [mspnp/cloud-design-patterns](https://github.com/mspnp/cloud-design-patterns) | Sample implementations for cloud design patterns found in the Azure Architecture Center. | `C#` ★ 848 | 2026-06-18 |
 | [mikedzikowski/ZTAImage](https://github.com/mikedzikowski/ZTAImage) | Zero Trust Azure Image Solution | `Bicep` ★ 6 | 2024-04-12 |
 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. | `Rust` ★ 27.2k | 2026-06-10 |
@@ -32,7 +32,7 @@
 | [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | A modern replacement for Redis and Memcached | `C++` ★ 30.7k | 2026-06-20 |
 | [stacklok/toolhive](https://github.com/stacklok/toolhive) | Tool Hive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers. | `Go` ★ 1.9k | 2026-06-20 |
 | [Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops) | An MCP server for Azure Dev Ops | `TypeScript` ★ 375 | 2026-06-09 |
-| [vectra-ai-research/MAAD-AF](https://github.com/vectra-ai-research/MAAD-AF) | MAAD Attack Framework - An attack tool for simple, fast & effective security testing of M365 & Entra ID (Azure AD). | `PowerShell` ★ 427 | 2026-01-13 |
+| [vectra-ai-research/MAAD-AF](https://github.com/vectra-ai-research/MAAD-AF) | MAAD Attack Framework - An attack tool for simple, fast & effective security testing of M365 & Entra ID (Azure AD). | `PowerShell` ★ 428 | 2026-01-13 |
 | [azurekid/blackcat](https://github.com/azurekid/blackcat) | Black Cat is a Power Shell module designed to validate the security of Microsoft Azure. It provides a set of functions to identify potential security holes. | `PowerShell` ★ 203 | 2026-04-10 |
 | [JWStarkie/PurviewAccelerator](https://github.com/JWStarkie/PurviewAccelerator) | A lightning fast tool to automatically deploy Purview in a super fast at the click of a button. Clone the repo, execute the scripts, wait 10 minutes and boom - your Purview environment is up and ru... | `PowerShell` ★ 14 | 2021-10-22 |
 | [zh54321/EntraTokenAid](https://github.com/zh54321/EntraTokenAid) | A pure Power Shell solution for Entra OAuth authentication, enabling easy retrieval of access and refresh tokens | `PowerShell` ★ 147 | 2026-04-09 |
@@ -44,11 +44,11 @@
 | [darkquasar/AzureHunter](https://github.com/darkquasar/AzureHunter) | A Cloud Forensics Powershell module to run threat hunting playbooks on data from Azure and O365 | `PowerShell` ★ 790 | 2022-10-29 |
 | [Gerenios/AADInternals](https://github.com/Gerenios/AADInternals) | AADInternals Power Shell module for administering Azure AD and Office 365 | `PowerShell` ★ 1.7k | 2025-09-30 |
 | [hausec/PowerZure](https://github.com/hausec/PowerZure) | Power Shell framework to assess Azure security | `PowerShell` ★ 1.3k | 2025-10-18 |
-| [SigNoz/signoz](https://github.com/SigNoz/signoz) | Sig Noz is an open-source observability platform native to Open Telemetry with logs, traces and metrics in a single application. An open-source alternative to Data Dog, New Relic, etc. 🔥 🖥. 👉 Op... | `TypeScript` ★ 27.4k | 2026-06-19 |
-| [s1t5/mail-archiver](https://github.com/s1t5/mail-archiver) | Mail-Archiver is a web application for archiving, searching, and exporting emails from multiple accounts. Featuring folder sync, attachment support, mailbox migration and a dashboard. | `C#` ★ 1.9k | 2026-06-19 |
+| [SigNoz/signoz](https://github.com/SigNoz/signoz) | Sig Noz is an open-source observability platform native to Open Telemetry with logs, traces and metrics in a single application. An open-source alternative to Data Dog, New Relic, etc. 🔥 🖥. 👉 Op... | `TypeScript` ★ 27.4k | 2026-06-20 |
+| [s1t5/mail-archiver](https://github.com/s1t5/mail-archiver) | Mail-Archiver is a web application for archiving, searching, and exporting emails from multiple accounts. Featuring folder sync, attachment support, mailbox migration and a dashboard. | `C#` ★ 2k | 2026-06-20 |
 | [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) | 🔥 1Panel is a modern, open-source VPS control panel — and the only one with native AI agent support. Run Ollama models, deploy Open Claw agents, and manage your entire server stack from one clean ... | `Go` ★ 35.9k | 2026-06-19 |
 | [Azure-Samples/azure-typescript-e2e-apps](https://github.com/Azure-Samples/azure-typescript-e2e-apps) | Monorepo - Apps written in Type Script to be either 1) deployed to Azure hosting or 2) integrated with Azure services | `TypeScript` ★ 48 | 2026-02-02 |
-| [alibaba/nacos](https://github.com/alibaba/nacos) | an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications. | `Java` ★ 33k | 2026-06-18 |
+| [alibaba/nacos](https://github.com/alibaba/nacos) | an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications. | `Java` ★ 33k | 2026-06-20 |
 | [Yamato-Security/suzaku](https://github.com/Yamato-Security/suzaku) | Suzaku (朱雀) is a sigma-based threat hunting and fast forensics timeline generator for cloud logs. | `Rust` ★ 180 | 2026-05-22 |
 | [mspnp/aks-baseline](https://github.com/mspnp/aks-baseline) | This is the Azure Kubernetes Service (AKS) Baseline Cluster reference implementation as produced by the Microsoft Azure Architecture Center. | `Bicep` ★ 744 | 2026-04-19 |
 | [gitpod-io/gitpod](https://github.com/gitpod-io/gitpod) | The developer platform for on-demand cloud development environments to create software faster and more securely. | `TypeScript` ★ 13.7k | 2026-06-15 |
@@ -56,14 +56,14 @@
 | [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) | :file\_folder: File Management Platform / Universal Data Access Gateway (without FUSE) | `Go` ★ 14.3k | 2026-06-19 |
 | [Azure-Samples/azure-files-samples](https://github.com/Azure-Samples/azure-files-samples) | This repository contains supporting code (Power Shell modules/scripts, ARM templates, etc.) for deploying, configuring, and using Azure Files. | `PowerShell` ★ 259 | 2026-04-07 |
 | [Lidarr/Lidarr](https://github.com/Lidarr/Lidarr) | Looks and smells like Sonarr but made for music. | `C#` ★ 5.4k | 2026-06-15 |
-| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `TypeScript` ★ 11.1k | 2026-06-20 |
+| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `TypeScript` ★ 11.2k | 2026-06-21 |
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `Go` ★ 16.5k | 2026-06-18 |
 | [labring/sealos](https://github.com/labring/sealos) | Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfec... | `TypeScript` ★ 18.1k | 2026-06-17 |
 | [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden\_rs | `Rust` ★ 62.6k | 2026-06-05 |
-| [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 38.2k | 2026-06-19 |
-| [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | `C#` ★ 14.7k | 2026-06-19 |
+| [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 38.2k | 2026-06-21 |
+| [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | `C#` ★ 14.7k | 2026-06-20 |
 | [MyOnee/R](https://github.com/MyOnee/R) | Free RDP from Github Actions | `Batchfile` ★ 61 | 2026-02-28 |
-| [Azure-Samples/ai-hub-gateway-solution-accelerator](https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator) | Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure ... | `Bicep` ★ 287 | 2026-06-19 |
+| [Azure-Samples/ai-hub-gateway-solution-accelerator](https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator) | Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure ... | `Bicep` ★ 288 | 2026-06-19 |
 | [Azure/azure-monitor-baseline-alerts](https://github.com/Azure/azure-monitor-baseline-alerts) | Azure Monitor Baseline Alerts | `Bicep` ★ 312 | 2026-06-03 |
 | [Azure/ALZ-PowerShell-Module](https://github.com/Azure/ALZ-PowerShell-Module) | The Azure Landing Zones Accelerators Power Shell module | `PowerShell` ★ 112 | 2026-04-30 |
 | [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) | A curated list of Microservice Architecture related principles and technologies. | ★ 14.3k | 2026-06-10 |
@@ -83,10 +83,10 @@
 | [Azure/deployment-stacks](https://github.com/Azure/deployment-stacks) | Contains Deployment Stacks CLI scripts and releases | `Bicep` ★ 98 | 2026-05-30 |
 | [daveRendon/azinsider](https://github.com/daveRendon/azinsider) | 🚀 The Az Insider Repo offers code samples to help you deploy various workloads in your Azure environment using Bicep language. It simplifies the deployment process and makes it easy to get your ap... | `Bicep` ★ 41 | 2026-04-14 |
 | [TheCloudTheory/arm-estimator](https://github.com/TheCloudTheory/arm-estimator) | ACE (Azure Cost Estimator) - automated cost estimations for ARM Templates, Bicep and Terraform | `C#` ★ 218 | 2026-06-09 |
-| [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scalable. The Memory API for the AI era. | `TypeScript` ★ 27.2k | 2026-06-19 |
+| [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scalable. The Memory API for the AI era. | `TypeScript` ★ 27.2k | 2026-06-20 |
 | [coollabsio/coolify](https://github.com/coollabsio/coolify) | An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv... | `PHP` ★ 57.2k | 2026-06-20 |
 | [eddie-jimenez/IntunePolicyChangeReport](https://github.com/eddie-jimenez/IntunePolicyChangeReport) | An Azure runbook that provides a reliable, human-readable record of what changed in Intune policies, who changed it, and when. | `PowerShell` ★ 20 | 2025-10-22 |
-| [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | Cloud-native high-performance edge/middle/service proxy | `C++` ★ 28.4k | 2026-06-19 |
+| [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | Cloud-native high-performance edge/middle/service proxy | `C++` ★ 28.4k | 2026-06-20 |
 | [documentdb/documentdb](https://github.com/documentdb/documentdb) | Mongo DB-compatible database engine for cloud-native and open-source workloads. Built for scalability, performance, and developer productivity. | `C` ★ 3.4k | 2026-06-16 |
 | [pnp/provision-assist-m365](https://github.com/pnp/provision-assist-m365) | Provision Assist is a request and provisioning solution for Teams, Groups, SPO Sites and Viva Engage Communities in Microsoft 365. It can be used as part of a Copilot for Microsoft 365 deployment. | `PowerShell` ★ 117 | 2025-04-07 |
 | [Azure/Medical-Claims-Transaction-Processing-at-scale](https://github.com/Azure/Medical-Claims-Transaction-Processing-at-scale) | No description provided | `CSS` ★ 45 | 2025-05-12 |
@@ -99,20 +99,20 @@
 | [JulianHayward/AzAdvertizer](https://github.com/JulianHayward/AzAdvertizer) | Az Advertizer helps you to keep up with the pace by providing overview and insights on new releases and changes/updates for Azure Governance capabilities such as Azure Policy's policy definitions, ... | ★ 44 | 2023-09-08 |
 | [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An \`azd\` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 27 | 2024-06-26 |
 | [Azure-Samples/aoai-realtime-audio-sdk](https://github.com/Azure-Samples/aoai-realtime-audio-sdk) | Azure Open AI code resources for using gpt-4o-realtime capabilities. | `TypeScript` ★ 837 | 2025-09-30 |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | Azure Data Exporter for Blood Hound | `Go` ★ 920 | 2026-06-04 |
+| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | Azure Data Exporter for Blood Hound | `Go` ★ 921 | 2026-06-15 |
 | [Microsoft365DSC/Microsoft365DSC](https://github.com/Microsoft365DSC/Microsoft365DSC) | Manages, configures, extracts and monitors Microsoft 365 tenant configurations | `PowerShell` ★ 2.3k | 2026-06-19 |
 | [Azure-Samples/contoso-chat](https://github.com/Azure-Samples/contoso-chat) | This sample has the full End2End process of creating RAG application with Prompty and Azure AI Foundry. It includes GPT-4 LLM application code, evaluations, deployment automation with AZD CLI, Git ... | `Bicep` ★ 762 | 2025-10-03 |
 | [NileshGule/techtalks-azure-container-apps-demo](https://github.com/NileshGule/techtalks-azure-container-apps-demo) | A simple example to showcase Azure container apps capabilities using a Tech Talks demo with native integration for Dapr and KEDA | `PowerShell` ★ 4 | 2024-09-23 |
 | [piyushsachdeva/AzureDevOps-Zero-to-Hero](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero) | A central hub for artifacts, agendas, and resources related to the "Azure Dev Ops Zero to Hero" series on Tech Tutorials with Piyush You Tube channel. Access code snippets, agendas, notes, graphics... | `Shell` ★ 1.3k | 2025-09-18 |
 | [Azure-Samples/remote-mcp-webapp-node](https://github.com/Azure-Samples/remote-mcp-webapp-node) | No description provided | `JavaScript` ★ 5 | 2026-02-14 |
-| [microsoft/garnet](https://github.com/microsoft/garnet) | Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication feat... | `C#` ★ 11.9k | 2026-06-19 |
+| [microsoft/garnet](https://github.com/microsoft/garnet) | Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication feat... | `C#` ★ 11.9k | 2026-06-20 |
 | [googleapis/gcloud-mcp](https://github.com/googleapis/gcloud-mcp) | gcloud MCP server | `TypeScript` ★ 842 | 2026-06-20 |
 | [neondatabase/neon](https://github.com/neondatabase/neon) | Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero. | `Rust` ★ 22.3k | 2026-05-25 |
 | [jamesmcroft/bicep-templates](https://github.com/jamesmcroft/bicep-templates) | A centralized resource for providing baseline templates for building and deploying infrastructure-as-code best practices using Azure Bicep | `Bicep` ★ 16 | 2026-05-11 |
 | [Azure/reliable-web-app-pattern-dotnet](https://github.com/Azure/reliable-web-app-pattern-dotnet) | The Reliable Web App Pattern is a set of objectives to help your web application converge on the cloud. This repo contains a reference implementation of a reliable web application for .NET. | `Bicep` ★ 459 | 2025-12-18 |
 | [Azure/CloudShell](https://github.com/Azure/CloudShell) | Container Image for Azure Cloud Shell (https://azure.microsoft.com/en-us/features/cloud-shell/) | `PowerShell` ★ 273 | 2026-06-16 |
 | [cartesiancs/vessel](https://github.com/cartesiancs/vessel) | Home security / protection system 🦾 | `TypeScript` ★ 325 | 2026-06-17 |
-| [HeyPuter/puter](https://github.com/HeyPuter/puter) | 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable. | `TypeScript` ★ 42.4k | 2026-06-19 |
+| [HeyPuter/puter](https://github.com/HeyPuter/puter) | 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable. | `TypeScript` ★ 42.4k | 2026-06-20 |
 | [coderamp-labs/pad.ws](https://github.com/coderamp-labs/pad.ws) | Whiteboard as an IDE, draw and code in your browser | `TypeScript` ★ 4.1k | 2025-08-06 |
 | [fabio-marini/azd-aspire-basic](https://github.com/fabio-marini/azd-aspire-basic) | An azd (Azure Developer CLI) template that uses Aspire to orchestrate: Azure Key Vault for app secrets, Azure App Configuration for app settings, Azure Service Bus or Rabbit MQ for messaging. | `C#` ★ 1 | 2026-04-23 |
 | [ronaldbosma/azure-integration-services-quickstart](https://github.com/ronaldbosma/azure-integration-services-quickstart) | An azd template (Bicep) for deploying Azure Integration Services, including Azure API Management, Function App, Logic App, Service Bus and Event Hubs namespace, along with supporting resources such... | `Bicep` ★ 8 | 2026-06-01 |
@@ -121,8 +121,8 @@
 | [Azure-Samples/getting-started-dotnet-aca](https://github.com/Azure-Samples/getting-started-dotnet-aca) | This provides sample .NET apps to be deployed to Azure Container Apps | `C#` ★ 20 | 2026-04-30 |
 | [Azure/azqr](https://github.com/Azure/azqr) | Azure Quick Review | `Go` ★ 776 | 2026-06-17 |
 | [openfaas/faas](https://github.com/openfaas/faas) | Open Faa S - Serverless Functions Made Simple | `Go` ★ 26.2k | 2026-04-01 |
-| [nhost/nhost](https://github.com/nhost/nhost) | The Open Source Firebase Alternative with Graph QL. | `Go` ★ 9.2k | 2026-06-19 |
-| [rustfs/rustfs](https://github.com/rustfs/rustfs) | 🚀2.3x faster than Min IO for 4KB object payloads. Rust FS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible plat... | `Rust` ★ 29k | 2026-06-20 |
+| [nhost/nhost](https://github.com/nhost/nhost) | The Open Source Firebase Alternative with Graph QL. | `Go` ★ 9.2k | 2026-06-20 |
+| [rustfs/rustfs](https://github.com/rustfs/rustfs) | 🚀2.3x faster than Min IO for 4KB object payloads. Rust FS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible plat... | `Rust` ★ 29k | 2026-06-21 |
 | [radius-project/radius](https://github.com/radius-project/radius) | Radius is a cloud-native, portable application platform that makes app development easier for teams building cloud-native apps. | `Go` ★ 1.6k | 2026-06-19 |
 | [maartenvandiemen/AZD-AppConfiguration](https://github.com/maartenvandiemen/AZD-AppConfiguration) | No description provided | `Bicep` ★ 1 | 2025-10-17 |
 | [Azure-Samples/remote-mcp-functions-dotnet](https://github.com/Azure-Samples/remote-mcp-functions-dotnet) | This is a quickstart template to easily build and deploy a custom remote MCP server to the cloud using Azure functions. You can clone/restore/run on your local machine with debugging, and \`azd up\` ... | `C#` ★ 129 | 2026-05-28 |
@@ -130,13 +130,13 @@
 | [Azure/Azure-Verified-Modules](https://github.com/Azure/Azure-Verified-Modules) | Azure Verified Modules (AVM) is an initiative to consolidate and set the standards for what a good Infrastructure-as-Code module looks like. Modules will then align to these standards, across langu... | `PowerShell` ★ 563 | 2026-06-19 |
 | [Azure/arc_jumpstart_docs](https://github.com/Azure/arc_jumpstart_docs) | A public repo for hosting the Arc Jumpstart docs | `Python` ★ 55 | 2026-03-12 |
 | [vrtmrz/obsidian-livesync](https://github.com/vrtmrz/obsidian-livesync) | No description provided | `TypeScript` ★ 11.3k | 2026-06-19 |
-| [Azure/login](https://github.com/Azure/login) | Connect to Azure | `TypeScript` ★ 524 | 2026-04-23 |
+| [Azure/login](https://github.com/Azure/login) | Connect to Azure | `TypeScript` ★ 525 | 2026-04-23 |
 | [devkimchi/azure-easyauth-sample](https://github.com/devkimchi/azure-easyauth-sample) | This provides a sample code for the Easy Auth feature on Azure App Service, Azure Static Web App and Azure Container Apps | `CSS` ★ 6 | 2025-02-12 |
 | [Azure/AppConfiguration](https://github.com/Azure/AppConfiguration) | Questions, feedback and samples for Azure App Configuration service | ★ 262 | 2026-06-16 |
 | [Azure/AppConfiguration-Announcements](https://github.com/Azure/AppConfiguration-Announcements) | News about Azure App Configuration | ★ 48 | 2020-09-18 |
 | [Azure/azure-functions-host](https://github.com/Azure/azure-functions-host) | The host/runtime that powers Azure Functions | `C#` ★ 2k | 2026-06-19 |
 | [Azure-Samples/azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) | A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure Open AI large language models to power Chat GPT-style and Q&A experiences. | `Python` ★ 7.7k | 2026-06-18 |
-| [Azure/bicep-registry-modules](https://github.com/Azure/bicep-registry-modules) | Bicep registry modules | `Bicep` ★ 726 | 2026-06-19 |
+| [Azure/bicep-registry-modules](https://github.com/Azure/bicep-registry-modules) | Bicep registry modules | `Bicep` ★ 727 | 2026-06-19 |
 | [mspnp/AzureNamingTool](https://github.com/mspnp/AzureNamingTool) | The Azure Naming Tool is a .NET 10 Blazor application with a RESTful API for generating and validating Azure resource names. Features include SQLite database support, drag-and-drop configuration, A... | `C#` ★ 581 | 2026-01-13 |
 | [GitNirmal-u/Microsoft_Azure_E2E_Project](https://github.com/GitNirmal-u/Microsoft_Azure_E2E_Project) | No description provided | `Jupyter Notebook` ★ 1 | 2024-12-29 |
 | [spblog/outlook-spfx-ms-graph-api](https://github.com/spblog/outlook-spfx-ms-graph-api) | Building Outlook add-in with SPFx - save mail to One Drive with Azure Function, MSAL.NET and MS Graph .NET | `TypeScript` ★ 1 | 2021-03-09 |
@@ -144,15 +144,15 @@
 | [Azure/azure-functions-openapi-extension](https://github.com/Azure/azure-functions-openapi-extension) | This extension provides an Azure Functions app with Open API capability for better discoverability to consuming parties | `C#` ★ 387 | 2026-06-17 |
 | [Azure/awesome-terraform](https://github.com/Azure/awesome-terraform) | An authoritative list of awesome Azure Terraform tools and samples with help from community experiments and contributions. | `HCL` ★ 177 | 2023-12-06 |
 | [asyafiqe/Rope-docker-headless-vnc-container](https://github.com/asyafiqe/Rope-docker-headless-vnc-container) | Docker for running Rope using headless VNC environments. Useful for running Rope on cloud GPU services like Runpod.io or Vast.ai. | `Python` ★ 8 | 2025-02-10 |
-| [milvus-io/milvus](https://github.com/milvus-io/milvus) | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search | `Go` ★ 44.8k | 2026-06-20 |
+| [milvus-io/milvus](https://github.com/milvus-io/milvus) | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search | `Go` ★ 44.9k | 2026-06-20 |
 | [minio/minio](https://github.com/minio/minio) | Min IO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license. | `Go` ★ 61.2k | 2026-04-24 |
 | [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | Cryptomator for Windows, mac OS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data. | `Java` ★ 15.4k | 2026-06-19 |
-| [ente-io/ente](https://github.com/ente-io/ente) | 💚 End-to-end encrypted cloud for everything. | `Dart` ★ 27.2k | 2026-06-19 |
-| [mikeroyal/WSL-Guide](https://github.com/mikeroyal/WSL-Guide) | Windows Subsystem for Linux (WSL) Guide. Use WSL develop to with Kubernetes and in the Cloud (Microsoft Azure, AWS, and Google Cloud). | `Rust` ★ 424 | 2024-01-04 |
+| [ente-io/ente](https://github.com/ente-io/ente) | 💚 End-to-end encrypted cloud for everything. | `Dart` ★ 27.2k | 2026-06-20 |
+| [mikeroyal/WSL-Guide](https://github.com/mikeroyal/WSL-Guide) | Windows Subsystem for Linux (WSL) Guide. Use WSL develop to with Kubernetes and in the Cloud (Microsoft Azure, AWS, and Google Cloud). | `Rust` ★ 423 | 2024-01-04 |
 | [Ombi-app/Ombi](https://github.com/Ombi-app/Ombi) | Want a Movie or TV Show on Plex/Emby/Jellyfin? Use Ombi! | `C#` ★ 4.1k | 2026-06-18 |
-| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 300.1k | 2026-06-16 |
+| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | A list of Free Software network services and web applications which can be hosted on your own servers | ★ 300.3k | 2026-06-16 |
 | [SpiderOak/Encryptr](https://github.com/SpiderOak/Encryptr) | Encryptr is a zero-knowledge cloud-based password manager / e-wallet powered by Crypton | `JavaScript` ★ 1.6k | 2017-11-29 |
 | [cobbzilla/s3s3mirror](https://github.com/cobbzilla/s3s3mirror) | Mirror one S3 bucket to another S3 bucket, or to/from the local filesystem. | `Java` ★ 434 | 2024-10-03 |
-| [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | Free and Open Source, Distributed, RESTful Search Engine | `Java` ★ 77.1k | 2026-06-20 |
+| [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | Free and Open Source, Distributed, RESTful Search Engine | `Java` ★ 77.1k | 2026-06-21 |
 
 *Generated by [GitHub Stars Curation](https://github.com/primeinc/github-stars)*
