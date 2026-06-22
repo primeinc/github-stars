@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI Agents | `Python` ★ 59k | 2026-06-20 |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI Agents | `Python` ★ 59.1k | 2026-06-21 |
 | [Nordeus/ansible_iptables_raw](https://github.com/Nordeus/ansible_iptables_raw) | iptables module for Ansible which keeps state | `Python` ★ 127 | 2023-11-03 |

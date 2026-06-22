@@ -2,7 +2,7 @@
 
 > A curated list of **2655** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-06-21
+Last updated: 2026-06-22
 
 ## ⭐ Recently Starred
 

@@ -8,4 +8,4 @@
 |---|---|---|---|
 | [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) | A rich terminal UI for Git Hub that doesn't break your flow. | `Go` ★ 11.9k | 2026-06-19 |
 | [anomalyco/opentui](https://github.com/anomalyco/opentui) | Open TUI is a library for building terminal user interfaces (TUIs) | `TypeScript` ★ 12.1k | 2026-06-19 |
-| [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | `Go` ★ 79.5k | 2026-06-19 |
+| [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | `Go` ★ 79.5k | 2026-06-21 |

@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [github/safe-settings](https://github.com/github/safe-settings) | No description provided | `JavaScript` ★ 880 | 2026-06-18 |
 | [node-config/node-config](https://github.com/node-config/node-config) | Node.js Application Configuration | `JavaScript` ★ 6.4k | 2026-06-13 |
-| [prabirshrestha/dotfiles](https://github.com/prabirshrestha/dotfiles) | There is no place like ~ | `Lua` ★ 97 | 2026-06-20 |
+| [prabirshrestha/dotfiles](https://github.com/prabirshrestha/dotfiles) | There is no place like ~ | `Lua` ★ 97 | 2026-06-21 |
 | [palashmon/awesome-vscode-settings](https://github.com/palashmon/awesome-vscode-settings) | 🎨 A curated list of simple and awesome VS Code settings | ★ 62 | 2026-04-08 |
 | [SuperCuber/dotter](https://github.com/SuperCuber/dotter) | A dotfile manager and templater written in rust 🦀 | `Rust` ★ 2k | 2026-04-21 |
 | [FR33THYFR33THY/Ultimate](https://github.com/FR33THYFR33THY/Ultimate) | No description provided | `PowerShell` ★ 619 | 2026-06-02 |

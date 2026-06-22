@@ -6,14 +6,14 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [kaito-tokyo/live-backgroundremoval-lite](https://github.com/kaito-tokyo/live-backgroundremoval-lite) | A gaming-first, high-performance, and crash-resilient background removal for OBS Studio | `C` ★ 55 | 2026-06-11 |
-| [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11.2k | 2026-06-15 |
-| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era | `Rust` ★ 19.4k | 2026-06-21 |
-| [VisoMasterFusion/VisoMaster-Fusion](https://github.com/VisoMasterFusion/VisoMaster-Fusion) | Powerful & Easy-to-Use Video Face Swapping and Editing Software | `Python` ★ 689 | 2026-06-17 |
+| [kaito-tokyo/live-backgroundremoval-lite](https://github.com/kaito-tokyo/live-backgroundremoval-lite) | A gaming-first, high-performance, and crash-resilient background removal for OBS Studio | `C` ★ 56 | 2026-06-18 |
+| [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11.2k | 2026-06-21 |
+| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era | `Rust` ★ 19.4k | 2026-06-22 |
+| [VisoMasterFusion/VisoMaster-Fusion](https://github.com/VisoMasterFusion/VisoMaster-Fusion) | Powerful & Easy-to-Use Video Face Swapping and Editing Software | `Python` ★ 692 | 2026-06-17 |
 | [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 基于图像识别的自动化黑盒测试框架 | An automation black-box testing framework based on image recognition | `C++` ★ 4.3k | 2026-06-20 |
 | [MrNeRF/LichtFeld-Studio](https://github.com/MrNeRF/LichtFeld-Studio) | Licht Feld Studio: Where reality and the digital world blend. | `C++` ★ 3.3k | 2026-06-18 |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 58.6k | 2026-06-21 |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 44.7k | 2026-06-19 |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 44.8k | 2026-06-22 |
 | [towhee-io/towhee](https://github.com/towhee-io/towhee) | Towhee is a framework that is dedicated to making neural data processing pipelines simple and fast. | `Python` ★ 3.4k | 2024-10-18 |
 | [royshil/obs-detect](https://github.com/royshil/obs-detect) | Object Detection in OBS, real-time, local, GPU optional | `C++` ★ 176 | 2024-12-18 |
 | [ArtBot2023/CharacterFaceSwap](https://github.com/ArtBot2023/CharacterFaceSwap) | No description provided | `Python` ★ 102 | 2024-05-22 |

@@ -13,4 +13,4 @@
 | [datavzrd/datavzrd](https://github.com/datavzrd/datavzrd) | A tool to create visual HTML reports from collections of CSV/TSV tables | `Rust` ★ 679 | 2026-06-18 |
 | [Eric-Chung-0511/Learning-Record](https://github.com/Eric-Chung-0511/Learning-Record) | Empowering Data Driven insights through hands-on projects, SQL challenges and practical tools. | `Jupyter Notebook` ★ 24 | 2026-05-30 |
 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! | `Python` ★ 43k | 2026-06-19 |
-| [grafana/grafana](https://github.com/grafana/grafana) | The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, Influx DB, Postgres and many m... | `TypeScript` ★ 74.6k | 2026-06-20 |
+| [grafana/grafana](https://github.com/grafana/grafana) | The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, Influx DB, Postgres and many m... | `TypeScript` ★ 74.6k | 2026-06-22 |

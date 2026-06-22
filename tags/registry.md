@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [verdaccio/verdaccio](https://github.com/verdaccio/verdaccio) | A lightweight Node.js private proxy registry | `TypeScript` ★ 17.7k | 2026-06-21 |
-| [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | A community driven registry service for Model Context Protocol (MCP) servers. | `Go` ★ 6.9k | 2026-06-19 |
+| [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | A community driven registry service for Model Context Protocol (MCP) servers. | `Go` ★ 6.9k | 2026-06-22 |

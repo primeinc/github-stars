@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | Interactive roadmaps, guides and other educational content to help developers grow in their careers. | `TypeScript` ★ 357.8k | 2026-06-18 |
+| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | Interactive roadmaps, guides and other educational content to help developers grow in their careers. | `TypeScript` ★ 357.9k | 2026-06-18 |
 | [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) | :books: List of awesome university courses for learning Computer Science! | ★ 69.2k | 2023-05-04 |

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [lucasnewman/f5-tts-mlx](https://github.com/lucasnewman/f5-tts-mlx) | Implementation of F5-TTS in MLX | `Python` ★ 636 | 2025-03-19 |
+| [lucasnewman/f5-tts-mlx](https://github.com/lucasnewman/f5-tts-mlx) | Implementation of F5-TTS in MLX | `Python` ★ 637 | 2025-03-19 |
 | [SWivid/F5-TTS](https://github.com/SWivid/F5-TTS) | Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching" | `Python` ★ 14.8k | 2026-05-18 |
