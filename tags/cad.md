@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | An open source harness for generating CAD models | `JavaScript` ★ 6.8k | 2026-06-22 |
-| [daobataotie/CAD-MCP](https://github.com/daobataotie/CAD-MCP) | CAD MCP Server | `Python` ★ 407 | 2025-07-21 |
+| [daobataotie/CAD-MCP](https://github.com/daobataotie/CAD-MCP) | CAD MCP Server | `Python` ★ 409 | 2025-07-21 |

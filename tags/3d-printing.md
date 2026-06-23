@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [unlimitedbacon/stl-thumb](https://github.com/unlimitedbacon/stl-thumb) | Thumbnail generator for STL files | `Rust` ★ 1.4k | 2025-03-11 |
+| [unlimitedbacon/stl-thumb](https://github.com/unlimitedbacon/stl-thumb) | Thumbnail generator for STL files | `Rust` ★ 1.5k | 2025-03-11 |
 | [b-morgan/OctoPrint-FanSpeedMirror](https://github.com/b-morgan/OctoPrint-FanSpeedMirror) | Mirror the parameter(s) of GCode commands M106, M107 to scripts on the Octo Print host | `Python` ★ 5 | 2025-06-21 |
 | [waltmoorhouse/OctoPrint-Filamentstorage](https://github.com/waltmoorhouse/OctoPrint-Filamentstorage) | Octo Print Plugin for an Open Source Filament Storage system. | `Python` ★ 23 | 2022-02-28 |
 | [waltmoorhouse/FilamentBox](https://github.com/waltmoorhouse/FilamentBox) | Open Source 3D printer filament dehydrator / weight sensor with Octo Print integration. | `C++` ★ 49 | 2019-12-12 |

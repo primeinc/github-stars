@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Orange-3DV-Team/MoCha](https://github.com/Orange-3DV-Team/MoCha) | Mo Cha: End-to-End Video Character Replacement without Structural Guidance | `Python` ★ 739 | 2026-04-30 |
+| [Orange-3DV-Team/MoCha](https://github.com/Orange-3DV-Team/MoCha) | Mo Cha: End-to-End Video Character Replacement without Structural Guidance | `Python` ★ 740 | 2026-04-30 |
 | [ali-vilab/videocomposer](https://github.com/ali-vilab/videocomposer) | Official repo for Video Composer: Compositional Video Synthesis with Motion Controllability | `Python` ★ 956 | 2023-11-11 |

@@ -12,4 +12,4 @@
 | [bdlukaa/fluent_ui](https://github.com/bdlukaa/fluent_ui) | Microsoft's Win UI3 in Flutter. | `Dart` ★ 3.4k | 2026-06-10 |
 | [SandroMaglione/fpdart](https://github.com/SandroMaglione/fpdart) | Functional programming in Dart and Flutter. All the main functional programming types and patterns fully documented, tested, and with examples. | `Dart` ★ 622 | 2025-10-29 |
 | [deskbtm/nitmgpt](https://github.com/deskbtm/nitmgpt) | nitmgpt (Notification-in-the-middle GPT). Filter ads or spam notifications via Chat GPT. | `Dart` ★ 95 | 2026-06-17 |
-| [ente-io/ente](https://github.com/ente-io/ente) | 💚 End-to-end encrypted cloud for everything. | `Dart` ★ 27.3k | 2026-06-22 |
+| [ente-io/ente](https://github.com/ente-io/ente) | 💚 End-to-end encrypted cloud for everything. | `Dart` ★ 27.3k | 2026-06-23 |

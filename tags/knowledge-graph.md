@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [safishamsi/graphify](https://github.com/safishamsi/graphify) | AI coding assistant skill (Claude Code, Codex, Open Code, Cursor, Gemini CLI, Git Hub Copilot CLI, Open Claw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images... | `Python` ★ 70.4k | 2026-06-19 |
-| [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini C... | `TypeScript` ★ 65.5k | 2026-06-20 |
-| [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | Git Nexus: The Zero-Server Code Intelligence Engine - Git Nexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a Git Hub repo or ZIP file, and get an interacti... | `TypeScript` ★ 42.7k | 2026-06-21 |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | Memory for AI Agents in 6 lines of code | `Python` ★ 18.7k | 2026-06-21 |
+| [safishamsi/graphify](https://github.com/safishamsi/graphify) | AI coding assistant skill (Claude Code, Codex, Open Code, Cursor, Gemini CLI, Git Hub Copilot CLI, Open Claw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images... | `Python` ★ 70.8k | 2026-06-22 |
+| [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini C... | `TypeScript` ★ 66.3k | 2026-06-20 |
+| [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | Git Nexus: The Zero-Server Code Intelligence Engine - Git Nexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a Git Hub repo or ZIP file, and get an interacti... | `TypeScript` ★ 42.8k | 2026-06-23 |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | Memory for AI Agents in 6 lines of code | `Python` ★ 19.4k | 2026-06-22 |
 | [OpenSPG/KAG](https://github.com/OpenSPG/KAG) | KAG is a logical form-guided reasoning and retrieval framework based on Open SPG engine and LLMs. It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge b... | `Python` ★ 8.8k | 2026-01-28 |

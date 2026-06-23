@@ -14,6 +14,6 @@
 | [lissy93/personal-security-checklist](https://github.com/lissy93/personal-security-checklist) | 🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026 | `TypeScript` ★ 21.7k | 2026-02-28 |
 | [cartesiancs/vessel](https://github.com/cartesiancs/vessel) | Home security / protection system 🦾 | `TypeScript` ★ 325 | 2026-06-17 |
 | [j0eyv/ConditionalAccessBaseline](https://github.com/j0eyv/ConditionalAccessBaseline) | No description provided | ★ 305 | 2026-06-11 |
-| [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) | A curated list of Awesome Threat Intelligence resources | ★ 10.3k | 2026-05-31 |
+| [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) | A curated list of Awesome Threat Intelligence resources | ★ 10.4k | 2026-05-31 |
 | [paralax/awesome-honeypots](https://github.com/paralax/awesome-honeypots) | an awesome list of honeypot resources | `Python` ★ 10.4k | 2026-06-01 |
 | [perusio/php-ini-cleanup](https://github.com/perusio/php-ini-cleanup) | A script that cleans up the php.ini file with security in mind | `Awk` ★ 103 | 2013-07-30 |

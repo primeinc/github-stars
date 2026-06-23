@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [Azure-Samples/azure-files-samples](https://github.com/Azure-Samples/azure-files-samples) | This repository contains supporting code (Power Shell modules/scripts, ARM templates, etc.) for deploying, configuring, and using Azure Files. | `PowerShell` ★ 259 | 2026-04-07 |
-| [Orange-Cyberdefense/GOAD](https://github.com/Orange-Cyberdefense/GOAD) | game of active directory | `PowerShell` ★ 7.9k | 2026-03-12 |
+| [Orange-Cyberdefense/GOAD](https://github.com/Orange-Cyberdefense/GOAD) | game of active directory | `PowerShell` ★ 8k | 2026-03-12 |

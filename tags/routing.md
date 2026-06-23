@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Project-OSRM/osrm-backend](https://github.com/Project-OSRM/osrm-backend) | Open Source Routing Machine - C++ backend | `C++` ★ 7.8k | 2026-06-21 |
+| [Project-OSRM/osrm-backend](https://github.com/Project-OSRM/osrm-backend) | Open Source Routing Machine - C++ backend | `C++` ★ 7.8k | 2026-06-22 |
 | [olzzon/ndi-controller](https://github.com/olzzon/ndi-controller) | Windows App - Controlling NDI routing in network | `C` ★ 58 | 2025-03-12 |

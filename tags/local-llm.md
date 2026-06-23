@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [AlexsJones/llmserve](https://github.com/AlexsJones/llmserve) | A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it | `Rust` ★ 288 | 2026-06-21 |
+| [AlexsJones/llmserve](https://github.com/AlexsJones/llmserve) | A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it | `Rust` ★ 289 | 2026-06-21 |
 | [acon96/home-llm](https://github.com/acon96/home-llm) | A Home Assistant integration & Model to control your smart home using a Local LLM | `Python` ★ 1.4k | 2026-06-11 |

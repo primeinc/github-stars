@@ -11,6 +11,6 @@
 | [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | Fully autonomous AI Agents system capable of performing complex penetration testing tasks | `Go` ★ 17.9k | 2026-06-20 |
 | [Wh0am123/MCP-Kali-Server](https://github.com/Wh0am123/MCP-Kali-Server) | MCP configuration to connect AI agent to a Linux machine. | `Python` ★ 732 | 2026-03-17 |
 | [vectra-ai-research/MAAD-AF](https://github.com/vectra-ai-research/MAAD-AF) | MAAD Attack Framework - An attack tool for simple, fast & effective security testing of M365 & Entra ID (Azure AD). | `PowerShell` ★ 428 | 2026-01-13 |
-| [usestrix/strix](https://github.com/usestrix/strix) | Open-source AI agents for penetration testing | `Python` ★ 26.1k | 2026-06-19 |
+| [usestrix/strix](https://github.com/usestrix/strix) | Open-source AI agents for penetration testing | `Python` ★ 26.1k | 2026-06-22 |
 | [beefproject/beef](https://github.com/beefproject/beef) | The Browser Exploitation Framework Project | `JavaScript` ★ 10.9k | 2026-06-18 |
 | [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | A list of useful payloads and bypass for Web Application Security and Pentest/CTF | `Python` ★ 78.6k | 2026-06-19 |
