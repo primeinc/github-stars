@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [winfsp/winfsp](https://github.com/winfsp/winfsp) | Windows File System Proxy - FUSE for Windows | `C` ★ 8.7k | 2026-06-13 |
-| [vgough/encfs](https://github.com/vgough/encfs) | Enc FS: an Encrypted Filesystem for FUSE. | `Rust` ★ 2.2k | 2026-06-20 |
+| [winfsp/winfsp](https://github.com/winfsp/winfsp) | Windows File System Proxy - FUSE for Windows | `C` ★ 8.7k | 2026-06-23 |
+| [vgough/encfs](https://github.com/vgough/encfs) | Enc FS: an Encrypted Filesystem for FUSE. | `Rust` ★ 2.2k | 2026-06-24 |
 | [netheril96/securefs](https://github.com/netheril96/securefs) | Filesystem in userspace (FUSE) with transparent authenticated encryption | `C++` ★ 821 | 2026-01-09 |

@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [cheapmanga/Skin-pack-Template](https://github.com/cheapmanga/Skin-pack-Template) | Minecraft LCE Skin-pack Template | ★ 7 | 2026-04-13 |
-| [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minecraft with a high level of detail. | `Rust` ★ 16.1k | 2026-06-16 |
+| [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minecraft with a high level of detail. | `Rust` ★ 16.3k | 2026-06-16 |

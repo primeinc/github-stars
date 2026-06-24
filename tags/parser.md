@@ -13,11 +13,11 @@
 | [rasendubi/uniorg](https://github.com/rasendubi/uniorg) | An accurate Org-mode parser for Java Script/Type Script | `TypeScript` ★ 333 | 2026-06-21 |
 | [structuredllm/syncode](https://github.com/structuredllm/syncode) | Efficient and general syntactical decoding for Large Language Models | `Python` ★ 337 | 2026-01-19 |
 | [likexian/whois-parser](https://github.com/likexian/whois-parser) | Whois parser for domain whois information parsing in Go(Golang). | `Go` ★ 332 | 2026-01-04 |
-| [PoiScript/orgize](https://github.com/PoiScript/orgize) | A Rust library for parsing org-mode files. | `Rust` ★ 340 | 2025-01-27 |
+| [PoiScript/orgize](https://github.com/PoiScript/orgize) | A Rust library for parsing org-mode files. | `Rust` ★ 341 | 2025-01-27 |
 | [chipsalliance/Surelog](https://github.com/chipsalliance/Surelog) | System Verilog 2017 Pre-processor, Parser, Elaborator, UHDM Compiler. Provides IEEE Design/TB C/C++ VPI and Python AST & UHDM APIs. Compiles on Linux gcc, Windows msys2-gcc & msvc, Os X | `C++` ★ 463 | 2026-06-20 |
 | [kevinburke/ssh_config](https://github.com/kevinburke/ssh_config) | Go parser for ssh\_config files | `Go` ★ 468 | 2026-05-04 |
 | [postalsys/postal-mime](https://github.com/postalsys/postal-mime) | Email parser for browser and serverless environments | `JavaScript` ★ 532 | 2026-03-17 |
-| [jcubic/lips](https://github.com/jcubic/lips) | Scheme based powerful lisp interpreter in Java Script | `JavaScript` ★ 496 | 2026-06-20 |
+| [jcubic/lips](https://github.com/jcubic/lips) | Scheme based powerful lisp interpreter in Java Script | `JavaScript` ★ 497 | 2026-06-20 |
 | [glayzzle/php-parser](https://github.com/glayzzle/php-parser) | :herb: Node JS PHP Parser - extract AST or tokens | `JavaScript` ★ 563 | 2026-06-17 |
 | [willdurand/EmailReplyParser](https://github.com/willdurand/EmailReplyParser) | PHP library for parsing plain text email content. | `PHP` ★ 650 | 2022-09-20 |
 | [kach/nearley](https://github.com/kach/nearley) | 📜🔜🌲 Simple, fast, powerful parser toolkit for Java Script. | `JavaScript` ★ 3.7k | 2024-11-14 |
@@ -26,14 +26,14 @@
 | [joweich/chat-miner](https://github.com/joweich/chat-miner) | Parsers and visualizations for chats | `Python` ★ 584 | 2026-06-08 |
 | [thewhiteninja/ntfstool](https://github.com/thewhiteninja/ntfstool) | Forensics tool for NTFS (parser, mft, bitlocker, deleted files) | `C++` ★ 618 | 2026-05-14 |
 | [ImpulseAdventure/JPEGsnoop](https://github.com/ImpulseAdventure/JPEGsnoop) | JPEGsnoop: JPEG decoder and detailed analysis | `C++` ★ 613 | 2023-08-09 |
-| [ics-py/ics-py](https://github.com/ics-py/ics-py) | Pythonic and easy i Calendar library (rfc5545) | `Python` ★ 720 | 2026-04-15 |
+| [ics-py/ics-py](https://github.com/ics-py/ics-py) | Pythonic and easy i Calendar library (rfc5545) | `Python` ★ 721 | 2026-04-15 |
 | [g-plane/typed-query-selector](https://github.com/g-plane/typed-query-selector) | Better typed \`query Selector\` and \`query Selector All\`. | `TypeScript` ★ 781 | 2026-06-13 |
 | [003random/getJS](https://github.com/003random/getJS) | A tool to fastly get all javascript sources/files | `Go` ★ 883 | 2025-07-04 |
 | [DFIRKuiper/Kuiper](https://github.com/DFIRKuiper/Kuiper) | Digital Forensics Investigation Platform | `JavaScript` ★ 894 | 2024-10-12 |
 | [microsoft/tolerant-php-parser](https://github.com/microsoft/tolerant-php-parser) | An early-stage PHP parser designed for IDE usage scenarios. | `PHP` ★ 895 | 2024-09-28 |
 | [guessit-io/guessit](https://github.com/guessit-io/guessit) | Guess It is a python library that extracts as much information as possible from a video filename. | `Python` ★ 915 | 2024-09-03 |
 | [APIDevTools/json-schema-ref-parser](https://github.com/APIDevTools/json-schema-ref-parser) | Parse, Resolve, and Dereference JSON Schema $ref pointers in Node and browsers | `TypeScript` ★ 1.1k | 2026-06-19 |
-| [collective/icalendar](https://github.com/collective/icalendar) | icalendar parser library for Python | `Python` ★ 1.1k | 2026-06-22 |
+| [collective/icalendar](https://github.com/collective/icalendar) | icalendar parser library for Python | `Python` ★ 1.1k | 2026-06-23 |
 | [meriyah/meriyah](https://github.com/meriyah/meriyah) | A 100% compliant, self-hosted javascript parser - https://meriyah.github.io/meriyah | `TypeScript` ★ 1.2k | 2026-06-01 |
 | [APIDevTools/swagger-parser](https://github.com/APIDevTools/swagger-parser) | Swagger 2.0 and Open API 3.0 parser/validator | `JavaScript` ★ 1.2k | 2025-11-14 |
 | [webtoon/psd](https://github.com/webtoon/psd) | Fast zero-dependency PSD parser for the web and Node.js | `TypeScript` ★ 1.3k | 2024-02-05 |

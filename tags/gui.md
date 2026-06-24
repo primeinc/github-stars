@@ -6,12 +6,12 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 30.8k | 2026-06-22 |
+| [iced-rs/iced](https://github.com/iced-rs/iced) | A cross-platform GUI library for Rust, inspired by Elm | `Rust` ★ 30.8k | 2026-06-23 |
 | [KnifMelti/WAU-Settings-GUI](https://github.com/KnifMelti/WAU-Settings-GUI) | Provides a user-friendly portable standalone interface to modify every aspect of Winget-Auto Update (WAU) | `PowerShell` ★ 48 | 2026-05-29 |
 | [ocornut/imgui](https://github.com/ocornut/imgui) | Dear Im Gui: Bloat-free Graphical User interface for C++ with minimal dependencies | `C++` ★ 74.1k | 2026-06-18 |
 | [flameshot-org/flameshot](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software :desktop\_computer: :camera\_flash: | `C++` ★ 30.2k | 2026-06-19 |
-| [longbridge/gpui-component](https://github.com/longbridge/gpui-component) | Rust GUI components for building fantastic cross-platform desktop application by using GPUI. | `Rust` ★ 11.9k | 2026-06-23 |
-| [HeyPuter/puter](https://github.com/HeyPuter/puter) | 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable. | `TypeScript` ★ 42.4k | 2026-06-23 |
+| [longbridge/gpui-component](https://github.com/longbridge/gpui-component) | Rust GUI components for building fantastic cross-platform desktop application by using GPUI. | `Rust` ★ 11.9k | 2026-06-24 |
+| [HeyPuter/puter](https://github.com/HeyPuter/puter) | 🌐 The Internet Computer! Free, Open-Source, and Self-Hostable. | `TypeScript` ★ 42.4k | 2026-06-24 |
 | [emilk/egui](https://github.com/emilk/egui) | egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native | `Rust` ★ 29.5k | 2026-06-23 |
 | [antwaremx/meteorman](https://github.com/antwaremx/meteorman) | A DDP client with GUI (The Postman for Meteor) | `Vue` ★ 53 | 2025-03-30 |
 | [JaredTherriault/Rope](https://github.com/JaredTherriault/Rope) | GUI-focused roop | `Python` ★ 15 | 2025-03-06 |

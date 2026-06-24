@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) | The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement ... | `C#` ★ 19.5k | 2026-06-22 |
+| [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) | The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement ... | `C#` ★ 19.5k | 2026-06-23 |
 | [inclusionAI/AEnvironment](https://github.com/inclusionAI/AEnvironment) | Standardized environment infrastructure for Agentic AI development. | `Python` ★ 308 | 2026-06-18 |
-| [alibaba/ROCK](https://github.com/alibaba/ROCK) | A construction kit for reinforcement learning environment management. | `Python` ★ 457 | 2026-06-23 |
+| [alibaba/ROCK](https://github.com/alibaba/ROCK) | A construction kit for reinforcement learning environment management. | `Python` ★ 458 | 2026-06-24 |
 | [bytedance/OneReward](https://github.com/bytedance/OneReward) | No description provided | `Python` ★ 349 | 2025-09-15 |
-| [OpenPipe/ART](https://github.com/OpenPipe/ART) | Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen2.5, Qwen3, Llama, and more! | `Python` ★ 10.2k | 2026-06-23 |
+| [OpenPipe/ART](https://github.com/OpenPipe/ART) | Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen2.5, Qwen3, Llama, and more! | `Python` ★ 10.2k | 2026-06-24 |

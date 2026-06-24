@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [FurkanGozukara/Stable-Diffusion](https://github.com/FurkanGozukara/Stable-Diffusion) | FLUX, Stable Diffusion, SDXL, SD3, Lo RA, Fine Tuning, Dream Booth, Training, Automatic1111, Forge Web UI, Swarm UI, Deep Fake, TTS, Animation, Text To Video, Tutorials, Guides, Lectures, Courses, ... | `HTML` ★ 2.7k | 2026-06-18 |
+| [FurkanGozukara/Stable-Diffusion](https://github.com/FurkanGozukara/Stable-Diffusion) | FLUX, Stable Diffusion, SDXL, SD3, Lo RA, Fine Tuning, Dream Booth, Training, Automatic1111, Forge Web UI, Swarm UI, Deep Fake, TTS, Animation, Text To Video, Tutorials, Guides, Lectures, Courses, ... | `HTML` ★ 2.7k | 2026-06-24 |
 | [Quaggles/SwarmUI-FaceTools](https://github.com/Quaggles/SwarmUI-FaceTools) | A Swarm UI extension that adds parameters for Re Actor to the the generate tab | `C#` ★ 28 | 2026-05-09 |
 | [mcmonkeyprojects/SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) | Swarm UI (formerly Stable Swarm UI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility. | `C#` ★ 4.2k | 2026-06-23 |
 | [LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) | Multi-Platform Package Manager for Stable Diffusion | `C#` ★ 8.4k | 2026-06-16 |
@@ -14,7 +14,7 @@
 | [Fanghua-Yu/SUPIR](https://github.com/Fanghua-Yu/SUPIR) | SUPIR aims at developing Practical Algorithms for Photo-Realistic Image Restoration In the Wild. Our new online demo is also released at suppixel.ai. | `Python` ★ 5.6k | 2025-05-12 |
 | [ai-dock/onetrainer](https://github.com/ai-dock/onetrainer) | One Trainer docker images for use in GPU cloud and local environments. Includes AI-Dock KDE Plasma desktop with GPU acceleration and audio for authentication and improved user experience. | `Shell` ★ 22 | 2024-04-03 |
 | [GaParmar/img2img-turbo](https://github.com/GaParmar/img2img-turbo) | One-step image-to-image with Stable Diffusion turbo: sketch2image, day2night, and more | `Python` ★ 2.5k | 2025-08-01 |
-| [RupertAvery/DiffusionToolkit](https://github.com/RupertAvery/DiffusionToolkit) | Metadata-indexer and Viewer for AI-generated images | `C#` ★ 997 | 2026-02-27 |
+| [RupertAvery/DiffusionToolkit](https://github.com/RupertAvery/DiffusionToolkit) | Metadata-indexer and Viewer for AI-generated images | `C#` ★ 998 | 2026-02-27 |
 | [aegis72/aegisflow](https://github.com/aegis72/aegisflow) | Aegis Flow XL and Aegis Flow 1.5 are Comfy UI workflows designed by a professional for professionals | ★ 36 | 2024-01-18 |
 | [Bing-su/adetailer](https://github.com/Bing-su/adetailer) | Auto detecting, masking and inpainting with detection model. | `Python` ★ 4.8k | 2026-06-23 |
 | [tobecwb/stable-diffusion-regularization-images](https://github.com/tobecwb/stable-diffusion-regularization-images) | Stable Diffusion Regularization Images in 512px, 768px and 1024px on 1.5, 2.1 and SDXL 1.0 checkpoints | ★ 164 | 2023-12-19 |
@@ -29,7 +29,7 @@
 | [pkuliyi2015/multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111) | Tiled Diffusion and VAE optimize, licensed under CC BY-NC-SA 4.0 | `Python` ★ 5k | 2024-08-07 |
 | [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | SD.Next: All-in-one Web UI for AI generative image and video creation, captioning and processing | `Python` ★ 7.1k | 2026-06-23 |
 | [Zetaphor/PromptHub](https://github.com/Zetaphor/PromptHub) | Prompt history and management for the Stable Diffusion AUTOMATIC1111 Web UI | `JavaScript` ★ 35 | 2023-03-26 |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `Python` ★ 118k | 2026-06-23 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `Python` ★ 118.1k | 2026-06-24 |
 | [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss) | No description provided | `Python` ★ 12.4k | 2026-05-08 |
 | [mattjaybe/sd-wildcards](https://github.com/mattjaybe/sd-wildcards) | A collection of wildcards for Stable Diffusion | ★ 323 | 2024-05-27 |
 | [civitai/sd_civitai_extension](https://github.com/civitai/sd_civitai_extension) | All of the Civitai models inside Automatic 1111 Stable Diffusion Web UI | `Python` ★ 2.4k | 2024-07-17 |
@@ -40,4 +40,4 @@
 | [Maks-s/sd-akashic](https://github.com/Maks-s/sd-akashic) | A compendium of informations regarding Stable Diffusion (SD) | ★ 1.6k | 2023-03-08 |
 | [Sanster/IOPaint](https://github.com/Sanster/IOPaint) | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures. | `Python` ★ 23.2k | 2025-04-29 |
 | [ThereforeGames/unprompted](https://github.com/ThereforeGames/unprompted) | Templating language written for Stable Diffusion workflows. Available as an extension for the Automatic1111 Web UI. | `Python` ★ 809 | 2024-07-29 |
-| [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Stable Diffusion web UI | `Python` ★ 163.8k | 2026-03-02 |
+| [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Stable Diffusion web UI | `Python` ★ 163.9k | 2026-03-02 |
