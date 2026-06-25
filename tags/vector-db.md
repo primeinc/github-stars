@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [dusty-nv/NanoDB](https://github.com/dusty-nv/NanoDB) | Zero-copy multimodal vector DB with CUDA and CLIP/Sig LIP | `Python` ★ 65 | 2025-05-06 |
-| [milvus-io/milvus](https://github.com/milvus-io/milvus) | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search | `Go` ★ 44.9k | 2026-06-24 |
+| [milvus-io/milvus](https://github.com/milvus-io/milvus) | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search | `Go` ★ 44.9k | 2026-06-25 |

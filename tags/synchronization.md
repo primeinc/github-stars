@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [bcpierce00/unison](https://github.com/bcpierce00/unison) | Unison file synchronizer | `OCaml` ★ 5.4k | 2026-06-08 |
+| [bcpierce00/unison](https://github.com/bcpierce00/unison) | Unison file synchronizer | `OCaml` ★ 5.4k | 2026-06-24 |
 | [geekuillaume/soundsync](https://github.com/geekuillaume/soundsync) | Virtual cables between any audio source and any speaker in your home | `C` ★ 893 | 2023-03-04 |

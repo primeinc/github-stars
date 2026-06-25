@@ -7,8 +7,8 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [mdx-js/mdx](https://github.com/mdx-js/mdx) | Markdown for the component era | `JavaScript` ★ 19.6k | 2026-06-18 |
-| [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) | Convert any web page to clean, readable Markdown with just one click. | `TypeScript` ★ 878 | 2026-04-28 |
-| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | `TypeScript` ★ 44.6k | 2026-06-24 |
+| [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) | Convert any web page to clean, readable Markdown with just one click. | `TypeScript` ★ 880 | 2026-04-28 |
+| [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang. | `TypeScript` ★ 44.6k | 2026-06-25 |
 | [rsms/markdown-wasm](https://github.com/rsms/markdown-wasm) | Very fast Markdown parser and HTML generator implemented in Web Assembly, based on md4c | `C` ★ 1.7k | 2022-11-22 |
 | [SchwarziLukas/braindump-butler](https://github.com/SchwarziLukas/braindump-butler) | Turns brain dumps and meeting notes into tidy Markdown notes for your Obsidian Vault. | `Python` ★ 71 | 2026-02-05 |
 | [mark-when/markwhen](https://github.com/mark-when/markwhen) | Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more. | `HTML` ★ 4.8k | 2023-12-11 |
@@ -18,10 +18,10 @@
 | [jgm/pandoc](https://github.com/jgm/pandoc) | Universal markup converter | `Haskell` ★ 45k | 2026-06-23 |
 | [johnlindquist/mdflow](https://github.com/johnlindquist/mdflow) | Multi-backend CLI for executable markdown prompts. Run .md files against Claude, Codex, Gemini, or Copilot. | `TypeScript` ★ 593 | 2025-12-19 |
 | [pionxzh/chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) | Export and Share your Chat GPT conversation history | `TypeScript` ★ 2.6k | 2026-05-28 |
-| [slidevjs/slidev](https://github.com/slidevjs/slidev) | Presentation Slides for Developers | `TypeScript` ★ 47.3k | 2026-06-03 |
+| [slidevjs/slidev](https://github.com/slidevjs/slidev) | Presentation Slides for Developers | `TypeScript` ★ 47.4k | 2026-06-03 |
 | [hackmdio/codimd](https://github.com/hackmdio/codimd) | Codi MD - Realtime collaborative markdown notes on all platforms. | `JavaScript` ★ 10.1k | 2025-10-02 |
-| [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown. | `Python` ★ 158.3k | 2026-05-26 |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown. | `Python` ★ 158.8k | 2026-06-24 |
 | [amantus-ai/llm-codes](https://github.com/amantus-ai/llm-codes) | Transform developer documentation to clean Markdown | `TypeScript` ★ 334 | 2026-06-12 |
 | [codexu/note-gen](https://github.com/codexu/note-gen) | A cross-platform Markdown AI note-taking software. | `TypeScript` ★ 12.2k | 2026-06-23 |
 | [iamgio/quarkdown](https://github.com/iamgio/quarkdown) | 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases. | `Kotlin` ★ 15.6k | 2026-06-23 |
-| [outline/outline](https://github.com/outline/outline) | The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible. | `TypeScript` ★ 39k | 2026-06-24 |
+| [outline/outline](https://github.com/outline/outline) | The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible. | `TypeScript` ★ 39.1k | 2026-06-25 |

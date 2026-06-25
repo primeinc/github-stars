@@ -8,4 +8,4 @@
 |---|---|---|---|
 | [rkyv/rkyv](https://github.com/rkyv/rkyv) | Zero-copy deserialization framework for Rust | `Rust` ★ 4.3k | 2026-06-15 |
 | [Lulzx/zpdf](https://github.com/Lulzx/zpdf) | Zero-copy PDF text extraction library written in Zig. High-performance, memory-mapped parsing with SIMD acceleration. | `Zig` ★ 910 | 2026-03-01 |
-| [eclipse-iceoryx/iceoryx2](https://github.com/eclipse-iceoryx/iceoryx2) | Eclipse iceoryx2™ - true zero-copy inter-process-communication with a Rust core | `Rust` ★ 2.3k | 2026-06-22 |
+| [eclipse-iceoryx/iceoryx2](https://github.com/eclipse-iceoryx/iceoryx2) | Eclipse iceoryx2™ - true zero-copy inter-process-communication with a Rust core | `Rust` ★ 2.3k | 2026-06-24 |
