@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [mikedzikowski/ZTAImage](https://github.com/mikedzikowski/ZTAImage) | Zero Trust Azure Image Solution | `Bicep` ★ 6 | 2024-04-12 |
-| [microsoft/zerotrustassessment](https://github.com/microsoft/zerotrustassessment) | Repository for the Zero Trust Assessment project | `HTML` ★ 366 | 2026-06-25 |
-| [fosrl/pangolin](https://github.com/fosrl/pangolin) | Identity-aware VPN and proxy for remote access to anything, anywhere. | `TypeScript` ★ 21.4k | 2026-06-25 |
-| [netbirdio/netbird](https://github.com/netbirdio/netbird) | Connect your devices into a secure Wire Guard®-based overlay network with SSO, MFA and granular access controls. | `Go` ★ 26.2k | 2026-06-25 |
-| [openziti/ziti](https://github.com/openziti/ziti) | The parent project for Open Ziti. Here you will find the executables for a fully zero trust, application embedded, programmable network @Open Ziti | `Go` ★ 4.3k | 2026-06-24 |
+| [microsoft/zerotrustassessment](https://github.com/microsoft/zerotrustassessment) | Repository for the Zero Trust Assessment project | `HTML` ★ 367 | 2026-06-26 |
+| [fosrl/pangolin](https://github.com/fosrl/pangolin) | Identity-aware VPN and proxy for remote access to anything, anywhere. | `TypeScript` ★ 21.4k | 2026-06-26 |
+| [netbirdio/netbird](https://github.com/netbirdio/netbird) | Connect your devices into a secure Wire Guard®-based overlay network with SSO, MFA and granular access controls. | `Go` ★ 26.3k | 2026-06-26 |
+| [openziti/ziti](https://github.com/openziti/ziti) | The parent project for Open Ziti. Here you will find the executables for a fully zero trust, application embedded, programmable network @Open Ziti | `Go` ★ 4.3k | 2026-06-26 |

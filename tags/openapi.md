@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server) | Allow AI to wade through complex Open APIs using Simple Language | `TypeScript` ★ 896 | 2026-02-21 |
+| [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server) | Allow AI to wade through complex Open APIs using Simple Language | `TypeScript` ★ 895 | 2026-02-21 |
 | [APIDevTools/swagger-parser](https://github.com/APIDevTools/swagger-parser) | Swagger 2.0 and Open API 3.0 parser/validator | `JavaScript` ★ 1.2k | 2025-11-14 |
 | [rohit-gohri/redocusaurus](https://github.com/rohit-gohri/redocusaurus) | Open API for Docusaurus with Redoc | `TypeScript` ★ 742 | 2026-03-30 |
 | [team-telnyx/openapi](https://github.com/team-telnyx/openapi) | Open API specification for the Telnyx API | ★ 13 | 2026-06-23 |

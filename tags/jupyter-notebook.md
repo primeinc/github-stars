@@ -7,6 +7,6 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [areeba0/Image-Segmentation-with-Lazy-Snapping-and-K-Means-Clustering](https://github.com/areeba0/Image-Segmentation-with-Lazy-Snapping-and-K-Means-Clustering) | This Jupyter notebook demonstrates image segmentation using Lazy Snapping and K-Means Clustering. It showcases how these algorithms can partition an image into segments based on pixel intensity and... | `Jupyter Notebook` ★ 2 | 2024-06-17 |
-| [QwenLM/Qwen3-Omni](https://github.com/QwenLM/Qwen3-Omni) | Qwen3-omni is a natively end-to-end, omni-modal LLM developed by the Qwen team at Alibaba Cloud, capable of understanding text, audio, images, and video, as well as generating speech in real time. | `Jupyter Notebook` ★ 3.8k | 2026-04-23 |
+| [QwenLM/Qwen3-Omni](https://github.com/QwenLM/Qwen3-Omni) | Qwen3-omni is a natively end-to-end, omni-modal LLM developed by the Qwen team at Alibaba Cloud, capable of understanding text, audio, images, and video, as well as generating speech in real time. | `Jupyter Notebook` ★ 3.9k | 2026-04-23 |
 | [denisa-ms/azure-data-and-ai-examples](https://github.com/denisa-ms/azure-data-and-ai-examples) | No description provided | `Jupyter Notebook` ★ 32 | 2023-11-15 |
 | [GitNirmal-u/Microsoft_Azure_E2E_Project](https://github.com/GitNirmal-u/Microsoft_Azure_E2E_Project) | No description provided | `Jupyter Notebook` ★ 1 | 2024-12-29 |

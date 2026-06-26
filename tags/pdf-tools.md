@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [docling-project/docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI | `Python` ★ 62.1k | 2026-06-24 |
-| [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 1 PDF Application on Git Hub that lets you edit PDFs on any device anywhere | `Java` ★ 84.1k | 2026-06-24 |
+| [docling-project/docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI | `Python` ★ 62.2k | 2026-06-25 |
+| [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 1 PDF Application on Git Hub that lets you edit PDFs on any device anywhere | `Java` ★ 84.4k | 2026-06-25 |

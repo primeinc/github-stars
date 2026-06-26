@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [kennethvs/cabaseline202510](https://github.com/kennethvs/cabaseline202510) | Conditional Access baseline for October 2025 | ★ 103 | 2025-11-26 |
-| [j0eyv/ConditionalAccessBaseline](https://github.com/j0eyv/ConditionalAccessBaseline) | No description provided | ★ 305 | 2026-06-11 |
+| [j0eyv/ConditionalAccessBaseline](https://github.com/j0eyv/ConditionalAccessBaseline) | No description provided | ★ 307 | 2026-06-11 |

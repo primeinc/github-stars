@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices) | A curated list of Microservice Architecture related principles and technologies. | ★ 14.4k | 2026-06-10 |
-| [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | Explain complex systems using visuals and simple terms. Help you prepare for system design interviews. | ★ 83.7k | 2025-04-04 |
+| [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | Explain complex systems using visuals and simple terms. Help you prepare for system design interviews. | ★ 83.8k | 2025-04-04 |
