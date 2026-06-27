@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-06-27T04:33:00.774Z'
+  manifest_updated_at: '2026-06-27T04:33:36.490Z'
   total_repos: 2676
   generator_version: v1.0.0
   github_user: primeinc
@@ -109382,13 +109382,19 @@ repositories:
       prompt_version: v3
   - repo: zzet/gortex
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+      - apis
+    tags:
+      - code-assistant
+      - knowledge-graph
+      - mcp-server
+      - lang:go
     summary: High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - ex...
     last_synced_sha: 26538b8a5f76188c5321cb2e9fa5877c54f73a82
     user_starred_at: '2026-06-26T14:09:25Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -109427,15 +109433,24 @@ repositories:
         published_at: '2026-06-26T08:17:36Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-27T04:33:35.303Z'
+      prompt_version: v3
   - repo: opentofu/opentofu
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - system-admin
+    tags:
+      - infrastructure-as-code
+      - cloud-management
+      - lang:go
     summary: Open Tofu lets you declaratively manage your cloud infrastructure.
     last_synced_sha: 03051a06a7171af03827cfd738abfee4b10cff4e
     user_starred_at: '2026-06-26T14:08:49Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics: []
@@ -109454,15 +109469,26 @@ repositories:
         published_at: '2026-06-18T15:03:59Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-27T04:33:35.303Z'
+      prompt_version: v3
   - repo: seaweedfs/seaweedfs
     categories:
-      - unclassified
-    tags: []
+      - databases
+      - cloud
+    tags:
+      - distributed-storage
+      - s3
+      - hdfs
+      - kubernetes
+      - lang:go
     summary: Seaweed FS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.
     last_synced_sha: 57ffef85435b1428af29a68e2328eba9e7b40922
     user_starred_at: '2026-06-26T14:05:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Go
       topics:
@@ -109498,15 +109524,25 @@ repositories:
         published_at: '2026-06-25T05:13:25Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-27T04:33:35.303Z'
+      prompt_version: v3
   - repo: colmap/colmap
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - structure-from-motion
+      - computer-vision
+      - geometry
+      - lang:cpp
     summary: COLMAP - Structure-from-Motion and Multi-View Stereo
     last_synced_sha: c9459fd0a8af49f2d38cd305049d8666b1acc916
     user_starred_at: '2026-06-26T14:00:38Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -109530,15 +109566,26 @@ repositories:
         published_at: '2026-06-26T12:25:41Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-27T04:33:35.303Z'
+      prompt_version: v3
   - repo: cobusgreyling/loop-engineering
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - automation
+      - dev-tools
+    tags:
+      - ai-coding
+      - github-actions
+      - devops-automation
+      - lang:js
     summary: Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audi...
     last_synced_sha: 9b01390789512642c4c1f12ce66358facbccc289
     user_starred_at: '2026-06-26T09:15:57Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -109572,15 +109619,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-27T04:33:35.302Z'
+      prompt_version: v3
   - repo: DietrichGebert/ponytail
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+      - productivity
+    tags:
+      - ai-agents
+      - prompt-engineering
+      - developer-tools
+      - lang:js
     summary: Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
     last_synced_sha: c4d1925ae9b76a1b641877328209ad25cfeb5ef2
     user_starred_at: '2026-06-26T09:14:08Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: JavaScript
       topics:
@@ -109609,15 +109667,26 @@ repositories:
         published_at: '2026-06-24T02:38:23Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-27T04:33:35.302Z'
+      prompt_version: v3
   - repo: tinfoil-herald/laz
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - automation
+      - testing
+    tags:
+      - desktop-automation
+      - keyboard-emulation
+      - ui-testing
+      - lang:csharp
     summary: Cross-platform user input simulation and screenshots for .NET
     last_synced_sha: 230163e16a392fd4b3a0e6aef96e05bd973d8664
     user_starred_at: '2026-06-26T09:12:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -109643,15 +109712,24 @@ repositories:
         published_at: '2026-06-16T15:09:52Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-27T04:33:35.302Z'
+      prompt_version: v3
   - repo: modelcontextprotocol/inspector
     categories:
-      - unclassified
-    tags: []
+      - testing
+      - ui-libraries
+    tags:
+      - visual-testing
+      - mcp
+      - lang:ts
     summary: Visual testing tool for MCP servers
     last_synced_sha: 638f2bfa5b90f790e89dfb0a2c48feef7af226e4
     user_starred_at: '2026-06-26T09:10:06Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics: []
@@ -109670,15 +109748,25 @@ repositories:
         published_at: '2026-06-04T12:36:14Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-27T04:33:35.302Z'
+      prompt_version: v3
   - repo: open-agent-ai-security/praxen
     categories:
-      - unclassified
-    tags: []
+      - security
+      - ai-ml
+    tags:
+      - agent-security
+      - ai-security
+      - agent-behavior-verifier
+      - lang:html
     summary: Praxen — agent behavior verifier. Compares an AI agent's declared policy against the available evidence; reports where observed behavior diverges from declared intent.
     last_synced_sha: a382a0837c33cf9750e1fc7dd43be4d78fc45415
     user_starred_at: '2026-06-26T09:04:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: HTML
       topics:
@@ -109707,3 +109795,8 @@ repositories:
         published_at: '2026-06-19T16:52:39Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-06-27T04:33:35.299Z'
+      prompt_version: v3
