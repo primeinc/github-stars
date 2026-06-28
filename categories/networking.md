@@ -6,71 +6,71 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 4.6k | 2026-06-25 |
+| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 4.6k | 2026-06-27 |
 | [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | Useful tool to track location or mobile number | `Python` ★ 14.3k | 2024-01-11 |
 | [sn4k3/NetSonar](https://github.com/sn4k3/NetSonar) | Network pings and other utilities | `C#` ★ 1.6k | 2026-05-24 |
 | [Diniboy1123/usque](https://github.com/Diniboy1123/usque) | Open-source reimplementation of the Cloudflare WARP client's MASQUE protocol. | `Go` ★ 1.1k | 2026-06-21 |
 | [maximhq/bifrost](https://github.com/maximhq/bifrost) | Fastest enterprise AI gateway (50x faster than Lite LLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS. | `Go` ★ 6.1k | 2026-06-27 |
-| [project-chip/connectedhomeip](https://github.com/project-chip/connectedhomeip) | Matter (formerly Project CHIP) creates more connections between more objects, simplifying development for manufacturers and increasing compatibility for consumers, guided by the Connectivity Standa... | `C++` ★ 8.8k | 2026-06-27 |
+| [project-chip/connectedhomeip](https://github.com/project-chip/connectedhomeip) | Matter (formerly Project CHIP) creates more connections between more objects, simplifying development for manufacturers and increasing compatibility for consumers, guided by the Connectivity Standa... | `C++` ★ 8.8k | 2026-06-28 |
 | [AlexRosbach/LanLens](https://github.com/AlexRosbach/LanLens) | Lan Lens continuously scans your local network, identifies every device by MAC address, and gives you a clean dark-themed web UI to manage, document, and connect to them — all in a single Docker co... | `Python` ★ 114 | 2026-06-22 |
-| [rajsinghtech/tsflow](https://github.com/rajsinghtech/tsflow) | Network flow visualizer for Tailscale - Requires Premium TS plans | `Go` ★ 183 | 2026-06-25 |
-| [tailscale/tailscale](https://github.com/tailscale/tailscale) | The easiest, most secure way to use Wire Guard and 2FA. | `Go` ★ 32.9k | 2026-06-26 |
+| [rajsinghtech/tsflow](https://github.com/rajsinghtech/tsflow) | Network flow visualizer for Tailscale - Requires Premium TS plans | `Go` ★ 183 | 2026-06-27 |
+| [tailscale/tailscale](https://github.com/tailscale/tailscale) | The easiest, most secure way to use Wire Guard and 2FA. | `Go` ★ 32.9k | 2026-06-27 |
 | [Yeachan-Heo/clawhip](https://github.com/Yeachan-Heo/clawhip) | claw + whip: Event-to-channel notification router — bypasses gateway sessions to avoid context pollution | `Rust` ★ 916 | 2026-06-17 |
 | [unixshells/latch](https://github.com/unixshells/latch) | Terminal multiplexer with built-in remote access. tmux you can SSH into, open in a browser, or connect to with mosh. | `Go` ★ 37 | 2026-04-14 |
-| [squidowl/halloy](https://github.com/squidowl/halloy) | IRC application written in Rust | `Rust` ★ 4.3k | 2026-06-26 |
+| [squidowl/halloy](https://github.com/squidowl/halloy) | IRC application written in Rust | `Rust` ★ 4.3k | 2026-06-27 |
 | [bubbleran/telco-network-configuration](https://github.com/bubbleran/telco-network-configuration) | The goal of this blueprint is to develop an agentic AI workflow that provides insight to the end user on close-to-optimal configuration values for specific RAN parameters at a cell-site. | `Python` ★ 36 | 2025-06-11 |
 | [xtieume/PrinterOne](https://github.com/xtieume/PrinterOne) | A comprehensive TCP network print server with integrated GUI management and system tray support for Windows. | `Python` ★ 66 | 2025-08-05 |
 | [doomspork/printergeist](https://github.com/doomspork/printergeist) | No description provided | `Rust` ★ 1 | 2024-06-14 |
 | [cityssm/snmp-oid-collector](https://github.com/cityssm/snmp-oid-collector) | Collect OID values from a series of SNMP-enabled servers in a flash! | `TypeScript` ★ 4 | 2026-05-14 |
 | [BigBodyCobain/Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker) | Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. The knowledge is av... | `Python` ★ 9.4k | 2026-06-26 |
 | [dragonflyoss/dragonfly](https://github.com/dragonflyoss/dragonfly) | Delivers efficient, stable, and secure data distribution and acceleration powered by P2P technology, with an optional content‑addressable filesystem that accelerates OCI container launch. | `Go` ★ 3.2k | 2026-06-25 |
-| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 128.1k | 2026-06-27 |
-| [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 487 | 2026-04-27 |
-| [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app) | Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | `Dart` ★ 31k | 2026-06-17 |
+| [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | A modern GUI client based on Tauri, designed to run in Windows, mac OS and Linux for tailored proxy experience | `TypeScript` ★ 128.3k | 2026-06-28 |
+| [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) | A suite of tools for Uni Fi network management | `Python` ★ 486 | 2026-04-27 |
+| [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app) | Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. | `Dart` ★ 31.1k | 2026-06-17 |
 | [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | A community driven registry service for Model Context Protocol (MCP) servers. | `Go` ★ 7k | 2026-06-26 |
 | [dead10ck/nu_plugin_dns](https://github.com/dead10ck/nu_plugin_dns) | DNS utility for nushell | `Rust` ★ 54 | 2026-05-31 |
 | [ninenines/cowlib](https://github.com/ninenines/cowlib) | Support library for manipulating Web protocols. | `Erlang` ★ 293 | 2026-06-11 |
-| [kevinburke/ssh_config](https://github.com/kevinburke/ssh_config) | Go parser for ssh\_config files | `Go` ★ 469 | 2026-05-04 |
-| [sirkirby/unifi-mcp](https://github.com/sirkirby/unifi-mcp) | MCP servers for the Uni Fi suite of applications, Network, Protect, Access, and Drive | `Python` ★ 475 | 2026-06-23 |
+| [kevinburke/ssh_config](https://github.com/kevinburke/ssh_config) | Go parser for ssh\_config files | `Go` ★ 470 | 2026-05-04 |
+| [sirkirby/unifi-mcp](https://github.com/sirkirby/unifi-mcp) | MCP servers for the Uni Fi suite of applications, Network, Protect, Access, and Drive | `Python` ★ 478 | 2026-06-28 |
 | [gbassaragh/Unifi-mcp](https://github.com/gbassaragh/Unifi-mcp) | MCP server for Uni Fi Network and Protect API integration - AI-powered network management | `Python` ★ 2 | 2026-01-10 |
-| [zabbix/zabbix](https://github.com/zabbix/zabbix) | Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud. | `Go Template` ★ 6k | 2026-06-26 |
-| [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses. | `Go` ★ 39.9k | 2026-06-24 |
-| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | `TypeScript` ★ 29.5k | 2026-06-26 |
-| [slopus/murmur](https://github.com/slopus/murmur) | Encrypted Messaging for Clawdbot | `TypeScript` ★ 85 | 2026-04-08 |
-| [amnezia-vpn/amneziawg-windows-client](https://github.com/amnezia-vpn/amneziawg-windows-client) | Amnezia WG client for Windows | `Go` ★ 895 | 2026-06-26 |
-| [pimalaya/himalaya](https://github.com/pimalaya/himalaya) | CLI to manage emails | `Rust` ★ 6.5k | 2026-06-17 |
+| [zabbix/zabbix](https://github.com/zabbix/zabbix) | Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud. | `Go Template` ★ 6k | 2026-06-27 |
+| [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses. | `Go` ★ 39.9k | 2026-06-27 |
+| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | `TypeScript` ★ 29.5k | 2026-06-27 |
+| [slopus/murmur](https://github.com/slopus/murmur) | Encrypted Messaging for Clawdbot | `TypeScript` ★ 86 | 2026-04-08 |
+| [amnezia-vpn/amneziawg-windows-client](https://github.com/amnezia-vpn/amneziawg-windows-client) | Amnezia WG client for Windows | `Go` ★ 898 | 2026-06-26 |
+| [pimalaya/himalaya](https://github.com/pimalaya/himalaya) | CLI to manage emails | `Rust` ★ 6.5k | 2026-06-28 |
 | [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) | bluetooth mesh chat, IRC vibes | `Swift` ★ 26.1k | 2026-06-25 |
-| [xpipe-io/xpipe](https://github.com/xpipe-io/xpipe) | Access your entire server infrastructure from your local desktop | `Java` ★ 14.2k | 2026-06-26 |
-| [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | Community managed domain list. Generate geosite.dat for V2Ray. | `Go` ★ 9k | 2026-06-25 |
-| [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another :crocodile: :package: | `Go` ★ 35.4k | 2026-06-25 |
+| [xpipe-io/xpipe](https://github.com/xpipe-io/xpipe) | Access your entire server infrastructure from your local desktop | `Java` ★ 14.2k | 2026-06-27 |
+| [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | Community managed domain list. Generate geosite.dat for V2Ray. | `Go` ★ 9k | 2026-06-27 |
+| [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer to another :crocodile: :package: | `Go` ★ 35.4k | 2026-06-27 |
 | [m1k1o/neko](https://github.com/m1k1o/neko) | A self hosted virtual browser that runs in docker and uses Web RTC. | `Go` ★ 21.2k | 2026-06-14 |
 | [chaitin/SafeLine](https://github.com/chaitin/SafeLine) | Safe Line is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits. | `Go` ★ 21.6k | 2026-06-17 |
 | [dadlerj/tin](https://github.com/dadlerj/tin) | No description provided | `Go` ★ 63 | 2026-01-07 |
-| [coredns/coredns](https://github.com/coredns/coredns) | Core DNS is a DNS server that chains plugins | `Go` ★ 14.1k | 2026-06-26 |
+| [coredns/coredns](https://github.com/coredns/coredns) | Core DNS is a DNS server that chains plugins | `Go` ★ 14.1k | 2026-06-27 |
 | [publicsuffix/list](https://github.com/publicsuffix/list) | The Public Suffix List | `Go` ★ 2.9k | 2026-06-24 |
-| [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 38.2k | 2026-06-26 |
+| [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 38.2k | 2026-06-28 |
 | [0xSero/Azul](https://github.com/0xSero/Azul) | Browse the world in the comfort of your terminal | `Rust` ★ 163 | 2026-01-08 |
 | [x011/smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | A high-speed covert tunnel that disguises TCP traffic as SMTP email communication to bypass Deep Packet Inspection (DPI) firewalls. | `Python` ★ 1.6k | 2026-01-07 |
 | [kaifcodec/Telespot](https://github.com/kaifcodec/Telespot) | Tele Spot OSINT lookup from Telephone number using DDGR + BING + GOOGLE and pattern recognition correlations. | `Python` ★ 7 | 2026-01-09 |
 | [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) | A platform for building proxies to bypass network restrictions. | `Go` ★ 46.9k | 2026-04-24 |
 | [grpc/grpc](https://github.com/grpc/grpc) | C++ based g RPC (C++, Python, Ruby, Objective-C, PHP, C#) | `C++` ★ 44.9k | 2026-06-27 |
 | [AlexandreRouma/SDRPlusPlus](https://github.com/AlexandreRouma/SDRPlusPlus) | Cross-Platform SDR Software | `C++` ★ 6.1k | 2026-05-20 |
-| [nccgroup/wssip](https://github.com/nccgroup/wssip) | Application for capturing, modifying and sending custom Web Socket data from client to server and vice versa. | `JavaScript` ★ 451 | 2022-12-08 |
+| [nccgroup/wssip](https://github.com/nccgroup/wssip) | Application for capturing, modifying and sending custom Web Socket data from client to server and vice versa. | `JavaScript` ★ 452 | 2022-12-08 |
 | [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) | A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more | `Shell` ★ 10.8k | 2026-06-19 |
 | [ClassicOldSong/Apollo](https://github.com/ClassicOldSong/Apollo) | Sunshine fork - The easiest way to stream with the native resolution of your client device | `C++` ★ 10k | 2026-05-21 |
-| [Project-OSRM/osrm-backend](https://github.com/Project-OSRM/osrm-backend) | Open Source Routing Machine - C++ backend | `C++` ★ 7.8k | 2026-06-26 |
+| [Project-OSRM/osrm-backend](https://github.com/Project-OSRM/osrm-backend) | Open Source Routing Machine - C++ backend | `C++` ★ 7.8k | 2026-06-27 |
 | [BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager) | A powerful tool for managing networks and troubleshoot network problems! | `C#` ★ 8.4k | 2026-06-26 |
-| [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels | `Python` ★ 18.4k | 2026-06-17 |
-| [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) | Perform username and email OSINT across social, developer, gaming, and creator platforms to identify account existence and digital footprints. Useful for investigations, reconnaissance, brand analy... | `Python` ★ 2.4k | 2026-06-26 |
-| [TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer) | Technitium DNS Server | `C#` ★ 9k | 2026-06-21 |
-| [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels from all over the world | `TypeScript` ★ 128.7k | 2026-06-27 |
+| [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels | `Python` ★ 18.5k | 2026-06-17 |
+| [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) | Perform username and email OSINT across social, developer, gaming, and creator platforms to identify account existence and digital footprints. Useful for investigations, reconnaissance, brand analy... | `Python` ★ 2.4k | 2026-06-27 |
+| [TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer) | Technitium DNS Server | `C#` ★ 9k | 2026-06-27 |
+| [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels from all over the world | `TypeScript` ★ 128.9k | 2026-06-28 |
 | [fonoster/routr](https://github.com/fonoster/routr) | ⚡ The future of programmable SIP servers. | `TypeScript` ★ 1.7k | 2026-06-19 |
 | [serverless-dns/serverless-dns](https://github.com/serverless-dns/serverless-dns) | The Rethink DNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io | `JavaScript` ★ 3.7k | 2026-05-06 |
 | [p0dalirius/ShareHound](https://github.com/p0dalirius/ShareHound) | A python tool to map the access rights of network shares into a Blood Hound Open Graphs easily | `Go` ★ 306 | 2026-05-11 |
 | [eclipse-iceoryx/iceoryx2](https://github.com/eclipse-iceoryx/iceoryx2) | Eclipse iceoryx2™ - true zero-copy inter-process-communication with a Rust core | `Rust` ★ 2.3k | 2026-06-26 |
-| [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minecraft with a high level of detail. | `Rust` ★ 16.4k | 2026-06-16 |
+| [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minecraft with a high level of detail. | `Rust` ★ 16.5k | 2026-06-27 |
 | [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile) | `C++` ★ 12.7k | 2026-06-26 |
-| [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | Cloud-native high-performance edge/middle/service proxy | `C++` ★ 28.5k | 2026-06-26 |
+| [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | Cloud-native high-performance edge/middle/service proxy | `C++` ★ 28.5k | 2026-06-27 |
 | [bibigon812/xl710-unlocker](https://github.com/bibigon812/xl710-unlocker) | Unlock Intel XL710 / X710 cards for use with any SFP+ | `C` ★ 235 | 2025-04-18 |
 | [retroplasma/earth-reverse-engineering](https://github.com/retroplasma/earth-reverse-engineering) | Reversing Google's 3D satellite mode | `C` ★ 2.3k | 2020-12-23 |
 | [cisco/libsrtp](https://github.com/cisco/libsrtp) | Library for SRTP (Secure Realtime Transport Protocol) | `C` ★ 1.4k | 2026-05-27 |
@@ -84,16 +84,16 @@
 | [soimthe1/snmp-printer-utility](https://github.com/soimthe1/snmp-printer-utility) | A fast, Go-powered CLI tool to scan and monitor SNMP-enabled printers across networks. Discover printers, fetch real-time status, supply levels (toner/ink), tray capacities, and page counts using S... | `Go` ★ 3 | 2025-02-26 |
 | [olimpo88/PyDDNS](https://github.com/olimpo88/PyDDNS) | Complete system to create your own server ddns | `Python` ★ 79 | 2026-05-14 |
 | [pgrok/pgrok](https://github.com/pgrok/pgrok) | Poor man's ngrok - a multi-tenant HTTP/TCP reverse tunnel solution through SSH remote port forwarding | `Go` ★ 3.5k | 2026-06-02 |
-| [lainra/claude-code-telemetry](https://github.com/lainra/claude-code-telemetry) | Claude Code Telemetry is a lightweight bridge that captures telemetry data from Claude Code and forwards it to Langfuse for visualization, with a secure local turnkey installation under a minute. | `JavaScript` ★ 33 | 2026-06-22 |
-| [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) | Free RDP is a free remote desktop protocol library and clients | `C` ★ 13.3k | 2026-06-26 |
-| [kamailio/kamailio](https://github.com/kamailio/kamailio) | Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms - | `C` ★ 2.9k | 2026-06-26 |
+| [lainra/claude-code-telemetry](https://github.com/lainra/claude-code-telemetry) | Claude Code Telemetry is a lightweight bridge that captures telemetry data from Claude Code and forwards it to Langfuse for visualization, with a secure local turnkey installation under a minute. | `JavaScript` ★ 35 | 2026-06-22 |
+| [FreeRDP/FreeRDP](https://github.com/FreeRDP/FreeRDP) | Free RDP is a free remote desktop protocol library and clients | `C` ★ 13.4k | 2026-06-26 |
+| [kamailio/kamailio](https://github.com/kamailio/kamailio) | Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms - | `C` ★ 2.9k | 2026-06-27 |
 | [dOpensource/dsiprouter](https://github.com/dOpensource/dsiprouter) | UI Interface for implementing Kamailio to provide PBX Hosting and SIP Trunking Services | `Shell` ★ 233 | 2026-05-14 |
 | [fusionpbx/fusionpbx](https://github.com/fusionpbx/fusionpbx) | Official Fusion PBX - A full-featured domain based multi-tenant PBX and voice switch for Free Switch. | `PHP` ★ 1k | 2026-06-27 |
 | [jasonxtn/Argus](https://github.com/jasonxtn/Argus) | The Ultimate Information Gathering Toolkit | `Python` ★ 3.6k | 2025-12-10 |
 | [boatbod/op25](https://github.com/boatbod/op25) | Fork of osmocom OP25 by boatbod | `C++` ★ 465 | 2026-06-02 |
 | [9001/copyparty](https://github.com/9001/copyparty) | Portable file server with accelerated resumable uploads, dedup, Web DAV, SFTP, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file | `Python` ★ 45.4k | 2026-06-26 |
 | [isqld/intune-printer-deployment-script](https://github.com/isqld/intune-printer-deployment-script) | This repository contains a powershell scripts to deploy an TCP/IP local network printer using in Tune | `PowerShell` ★ 1 | 2025-12-01 |
-| [localsend/localsend](https://github.com/localsend/localsend) | An open-source cross-platform alternative to Air Drop | `Dart` ★ 84.2k | 2026-06-19 |
+| [localsend/localsend](https://github.com/localsend/localsend) | An open-source cross-platform alternative to Air Drop | `Dart` ★ 84.3k | 2026-06-19 |
 | [ipfs/helia](https://github.com/ipfs/helia) | An implementation of IPFS in Type Script | `TypeScript` ★ 1.3k | 2026-06-22 |
 | [bingal/FastDomainCheck-MCP-Server](https://github.com/bingal/FastDomainCheck-MCP-Server) | A Model Context Protocol for checking domain name registration status in bulk. | `Go` ★ 38 | 2025-10-24 |
 | [fosrl/pangolin](https://github.com/fosrl/pangolin) | Identity-aware VPN and proxy for remote access to anything, anywhere. | `TypeScript` ★ 21.4k | 2026-06-27 |
@@ -101,12 +101,12 @@
 | [mondora/ddp.js](https://github.com/mondora/ddp.js) | Isomorphic Java Script DDP client | `JavaScript` ★ 210 | 2018-03-17 |
 | [byrdsandbytes/beatnik-pi](https://github.com/byrdsandbytes/beatnik-pi) | Open Source Multiroom Audio Streamer based on Raspberry Pi & Snapcast | `Shell` ★ 466 | 2026-05-12 |
 | [Billionmail/BillionMail](https://github.com/Billionmail/BillionMail) | Billion Mail gives you open-source Mail Server, News Letter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asf Xz BUh Zr | `Go` ★ 15.2k | 2026-06-11 |
-| [netbirdio/netbird](https://github.com/netbirdio/netbird) | Connect your devices into a secure Wire Guard®-based overlay network with SSO, MFA and granular access controls. | `Go` ★ 26.3k | 2026-06-27 |
-| [samanhappy/mcphub](https://github.com/samanhappy/mcphub) | A unified hub for centrally managing and dynamically orchestrating multiple MCP servers/APIs into separate endpoints with flexible routing strategies | `TypeScript` ★ 2.2k | 2026-06-26 |
+| [netbirdio/netbird](https://github.com/netbirdio/netbird) | Connect your devices into a secure Wire Guard®-based overlay network with SSO, MFA and granular access controls. | `Go` ★ 26.4k | 2026-06-27 |
+| [samanhappy/mcphub](https://github.com/samanhappy/mcphub) | A unified hub for centrally managing and dynamically orchestrating multiple MCP servers/APIs into separate endpoints with flexible routing strategies | `TypeScript` ★ 2.2k | 2026-06-28 |
 | [anderspitman/SirTunnel](https://github.com/anderspitman/SirTunnel) | Minimal, self-hosted, 0-config alternative to ngrok. Caddy+Open SSH+50 lines of Python. | `Python` ★ 1.6k | 2024-03-24 |
-| [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | The Network Execution Tool | `Python` ★ 5.6k | 2026-06-23 |
-| [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | An open-source remote desktop application designed for self-hosting, as an alternative to Team Viewer. | `Rust` ★ 117.1k | 2026-06-26 |
-| [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) | 🚀 The fast, Pythonic way to build MCP servers and clients. | `Python` ★ 25.8k | 2026-06-24 |
+| [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | The Network Execution Tool | `Python` ★ 5.6k | 2026-06-27 |
+| [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | An open-source remote desktop application designed for self-hosting, as an alternative to Team Viewer. | `Rust` ★ 117.2k | 2026-06-28 |
+| [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) | 🚀 The fast, Pythonic way to build MCP servers and clients. | `Python` ★ 25.8k | 2026-06-27 |
 | [juanfont/headscale](https://github.com/juanfont/headscale) | An open source, self-hosted implementation of the Tailscale control server | `Go` ★ 40.5k | 2026-06-26 |
 | [ramondeklein/nwebdav](https://github.com/ramondeklein/nwebdav) | .NET implementation of the Web DAV protocol | `C#` ★ 169 | 2024-06-11 |
 | [team-telnyx/spandsp](https://github.com/team-telnyx/spandsp) | Span DSP is a low-level signal processing library that modulates and demodulates signals commonly used in telephony, such as the "noise" generated by a fax modem or DTMF touchpad. | `C` ★ 1 | 2026-03-18 |
@@ -120,21 +120,21 @@
 | [dorssel/usbipd-win](https://github.com/dorssel/usbipd-win) | Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2. | `C#` ★ 5.9k | 2026-06-26 |
 | [0x888e/certs](https://github.com/0x888e/certs) | Extracts certificates from BGW210 and BGW320 routers | `Python` ★ 128 | 2025-04-16 |
 | [unifi-utilities/unifi-common](https://github.com/unifi-utilities/unifi-common) | Uni Fi Common - on\_boot.d | `Shell` ★ 4.3k | 2026-06-22 |
-| [up-n-atom/PONwiki](https://github.com/up-n-atom/PONwiki) | Passive Optical Network WIKI | `HTML` ★ 208 | 2026-06-19 |
+| [up-n-atom/PONwiki](https://github.com/up-n-atom/PONwiki) | Passive Optical Network WIKI | `HTML` ★ 208 | 2026-06-27 |
 | [p2sr/discord2ip](https://github.com/p2sr/discord2ip) | A Java program that rebroadcasts a Discord Voice Channel over NDI. Used in the ttv/portal2speedruns setup. | `Java` ★ 5 | 2021-08-04 |
 | [ualmarcus/Newtek-cURL](https://github.com/ualmarcus/Newtek-cURL) | c URL Commands to control Newtek's NDI Studio Monitor on the Windows platform. | ★ 15 | 2018-11-12 |
 | [moschopsuk/ndi-router](https://github.com/moschopsuk/ndi-router) | NDI router that use the blackmagic videohub protocol | `Rust` ★ 34 | 2020-02-04 |
 | [olzzon/ndi-controller](https://github.com/olzzon/ndi-controller) | Windows App - Controlling NDI routing in network | `C` ★ 58 | 2025-03-12 |
 | [lplassman/FFMPEG-NDI](https://github.com/lplassman/FFMPEG-NDI) | FFMPEG with NDI support | `C` ★ 82 | 2026-03-02 |
 | [satoshi0212/NDISenderExample](https://github.com/satoshi0212/NDISenderExample) | Minimum implementation of the NDI SDK that works on the i Phone using Swift. | `C` ★ 60 | 2020-11-04 |
-| [ykhwong/ppt-ndi](https://github.com/ykhwong/ppt-ndi) | A Power Point plugin for the New Tek NDI integration | `JavaScript` ★ 232 | 2023-10-05 |
+| [ykhwong/ppt-ndi](https://github.com/ykhwong/ppt-ndi) | A Power Point plugin for the New Tek NDI integration | `JavaScript` ★ 233 | 2023-10-05 |
 | [buresu/ndi-python](https://github.com/buresu/ndi-python) | New Tek NDI Python wrapper | `C++` ★ 183 | 2026-06-09 |
 | [CESNET/UltraGrid](https://github.com/CESNET/UltraGrid) | Ultra Grid low-latency audio and video network transmission system | `C` ★ 597 | 2026-06-26 |
 | [seriousm4x/UpSnap](https://github.com/seriousm4x/UpSnap) | A simple wake on lan web app written with Svelte Kit, Go and Pocket Base. | `Go` ★ 5.8k | 2026-06-24 |
-| [openziti/ziti](https://github.com/openziti/ziti) | The parent project for Open Ziti. Here you will find the executables for a fully zero trust, application embedded, programmable network @Open Ziti | `Go` ★ 4.3k | 2026-06-26 |
-| [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | The best IP Toolbox. Easy to check what's your IPs, IP geolocation, check for DNS leaks, examine Web RTC connections, speed test, ping test, MTR test, check website availability, whois search and m... | `Vue` ★ 10.9k | 2026-06-24 |
+| [openziti/ziti](https://github.com/openziti/ziti) | The parent project for Open Ziti. Here you will find the executables for a fully zero trust, application embedded, programmable network @Open Ziti | `Go` ★ 4.3k | 2026-06-27 |
+| [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | The best IP Toolbox. Easy to check what's your IPs, IP geolocation, check for DNS leaks, examine Web RTC connections, speed test, ping test, MTR test, check website availability, whois search and m... | `Vue` ★ 10.9k | 2026-06-28 |
 | [bee-san/RustScan](https://github.com/bee-san/RustScan) | 🤖 The Modern Port Scanner 🤖 | `Rust` ★ 20k | 2026-06-26 |
-| [timminator/ParsecVDA-Always-Connected](https://github.com/timminator/ParsecVDA-Always-Connected) | Connects a Virtual Display to your PC and allows for a headless operation - no need for Dummy Plugs anymore! Now as a Windows service! | `C++` ★ 160 | 2024-07-15 |
+| [timminator/ParsecVDA-Always-Connected](https://github.com/timminator/ParsecVDA-Always-Connected) | Connects a Virtual Display to your PC and allows for a headless operation - no need for Dummy Plugs anymore! Now as a Windows service! | `C++` ★ 161 | 2024-07-15 |
 | [arasharchor/jetson-video](https://github.com/arasharchor/jetson-video) | Unified streaming drivers and utilities for codecs, cameras, and displays including gstreamer, V4L2, Gig E, CUDA, Open GL, and others. | `C++` ★ 11 | 2016-09-18 |
 | [SierraSoftworks/tailscale-unifi](https://github.com/SierraSoftworks/tailscale-unifi) | Run Tailscale on your Uni Fi OS device | `Shell` ★ 1.6k | 2026-06-22 |
 | [tiniyo/neoms](https://github.com/tiniyo/neoms) | Open Source Twilio Alternative | `Go` ★ 37 | 2021-11-11 |
@@ -159,7 +159,7 @@
 | [zonemaster/zonemaster](https://github.com/zonemaster/zonemaster) | The Zonemaster Project | `Perl` ★ 533 | 2026-06-17 |
 | [geekuillaume/soundsync](https://github.com/geekuillaume/soundsync) | Virtual cables between any audio source and any speaker in your home | `C` ★ 893 | 2023-03-04 |
 | [alsmith/multicast-relay](https://github.com/alsmith/multicast-relay) | Relay multicast and broadcast packets between interfaces. | `Python` ★ 356 | 2023-11-05 |
-| [netbox-community/netbox](https://github.com/netbox-community/netbox) | The premier source of truth powering network automation. Open source under Apache 2. Try Net Box Cloud free: https://netboxlabs.com/products/free-netbox-cloud/ | `Python` ★ 21k | 2026-06-26 |
+| [netbox-community/netbox](https://github.com/netbox-community/netbox) | The premier source of truth powering network automation. Open source under Apache 2. Try Net Box Cloud free: https://netboxlabs.com/products/free-netbox-cloud/ | `Python` ★ 21k | 2026-06-27 |
 | [square/sharkey](https://github.com/square/sharkey) | Sharkey is a service for managing certificates for use by Open SSH | `Go` ★ 415 | 2026-04-13 |
 | [dxa4481/WPA2-HalfHandshake-Crack](https://github.com/dxa4481/WPA2-HalfHandshake-Crack) | This is a POC to show it is possible to capture enough of a handshake with a user from a fake AP to crack a WPA2 network without knowing the passphrase of the actual AP. | `Python` ★ 593 | 2022-03-03 |
 | [liftoff/GateOne](https://github.com/liftoff/GateOne) | Gate One is an HTML5-powered terminal emulator and SSH client | `JavaScript` ★ 6.3k | 2023-03-17 |
@@ -171,7 +171,7 @@
 | [irontec/sngrep](https://github.com/irontec/sngrep) | Ncurses SIP Messages flow viewer | `C` ★ 1.2k | 2026-01-26 |
 | [bangordailynews/Public-FreePBX-hacks](https://github.com/bangordailynews/Public-FreePBX-hacks) | No description provided | `PHP` ★ 3 | 2015-08-14 |
 | [Herzult/php-ssh](https://github.com/Herzult/php-ssh) | An experimental object oriented SSH api in PHP | `PHP` ★ 359 | 2023-05-11 |
-| [syncthing/syncthing](https://github.com/syncthing/syncthing) | Open Source Continuous File Synchronization | `Go` ★ 85.8k | 2026-06-27 |
+| [syncthing/syncthing](https://github.com/syncthing/syncthing) | Open Source Continuous File Synchronization | `Go` ★ 85.9k | 2026-06-27 |
 | [robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan) | TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. | `C` ★ 25.8k | 2026-04-23 |
 | [shazow/ssh-chat](https://github.com/shazow/ssh-chat) | Chat over SSH. | `Go` ★ 5.9k | 2026-01-10 |
 | [noodle1983/putty-nd3.x](https://github.com/noodle1983/putty-nd3.x) | No description provided | `C++` ★ 65 | 2019-01-24 |

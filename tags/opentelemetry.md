@@ -12,5 +12,5 @@
 | [dash0hq/otelbin](https://github.com/dash0hq/otelbin) | Web-based tool to facilitate Open Telemetry collector configuration editing and verification | `TypeScript` ★ 545 | 2026-06-25 |
 | [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) | Contrib repository for the Open Telemetry Collector | `Go` ★ 4.8k | 2026-06-26 |
 | [Effect-TS/effect](https://github.com/Effect-TS/effect) | Build production-ready applications in Type Script | `TypeScript` ★ 14.7k | 2026-06-24 |
-| [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 2k | 2026-06-27 |
-| [lainra/claude-code-telemetry](https://github.com/lainra/claude-code-telemetry) | Claude Code Telemetry is a lightweight bridge that captures telemetry data from Claude Code and forwards it to Langfuse for visualization, with a secure local turnkey installation under a minute. | `JavaScript` ★ 33 | 2026-06-22 |
+| [VictoriaMetrics/VictoriaLogs](https://github.com/VictoriaMetrics/VictoriaLogs) | Fast and easy to use database for logs, which can efficiently handle terabytes of logs | `Go` ★ 2k | 2026-06-28 |
+| [lainra/claude-code-telemetry](https://github.com/lainra/claude-code-telemetry) | Claude Code Telemetry is a lightweight bridge that captures telemetry data from Claude Code and forwards it to Langfuse for visualization, with a secure local turnkey installation under a minute. | `JavaScript` ★ 35 | 2026-06-22 |

@@ -2,20 +2,20 @@
 
 > A curated list of **2676** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-06-27
+Last updated: 2026-06-28
 
 ## ⭐ Recently Starred
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [zzet/gortex](https://github.com/zzet/gortex) | High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - ex... | `Go` ★ 751 | 2026-06-26 |
+| [zzet/gortex](https://github.com/zzet/gortex) | High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - ex... | `Go` ★ 764 | 2026-06-27 |
 | [opentofu/opentofu](https://github.com/opentofu/opentofu) | Open Tofu lets you declaratively manage your cloud infrastructure. | `Go` ★ 29.3k | 2026-06-26 |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | Seaweed FS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling. | `Go` ★ 33.2k | 2026-06-27 |
-| [colmap/colmap](https://github.com/colmap/colmap) | COLMAP - Structure-from-Motion and Multi-View Stereo | `C++` ★ 12k | 2026-06-26 |
-| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audi... | `JavaScript` ★ 2.7k | 2026-06-26 |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | `JavaScript` ★ 60.4k | 2026-06-26 |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | Seaweed FS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling. | `Go` ★ 33.2k | 2026-06-28 |
+| [colmap/colmap](https://github.com/colmap/colmap) | COLMAP - Structure-from-Motion and Multi-View Stereo | `C++` ★ 12k | 2026-06-27 |
+| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audi... | `JavaScript` ★ 3.3k | 2026-06-27 |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | `JavaScript` ★ 62k | 2026-06-26 |
 | [tinfoil-herald/laz](https://github.com/tinfoil-herald/laz) | Cross-platform user input simulation and screenshots for .NET | `C#` ★ 18 | 2026-06-16 |
-| [modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) | Visual testing tool for MCP servers | `TypeScript` ★ 10.2k | 2026-06-27 |
+| [modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) | Visual testing tool for MCP servers | `TypeScript` ★ 10.2k | 2026-06-28 |
 | [open-agent-ai-security/praxen](https://github.com/open-agent-ai-security/praxen) | Praxen — agent behavior verifier. Compares an AI agent's declared policy against the available evidence; reports where observed behavior diverges from declared intent. | `HTML` ★ 31 | 2026-06-25 |
 | [FredySandoval/ChatGPT-CHROME_EXTENSION](https://github.com/FredySandoval/ChatGPT-CHROME_EXTENSION) | An extension to download individual Chat GPT chats as Markdown | `TypeScript` ★ 15 | 2026-06-20 |
 
