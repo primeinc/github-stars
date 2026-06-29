@@ -9,8 +9,8 @@
 | [rustic-rs/rustic](https://github.com/rustic-rs/rustic) | rustic - fast, encrypted, and deduplicated backups powered by Rust | `Rust` ★ 3.1k | 2026-06-15 |
 | [slopus/happy](https://github.com/slopus/happy) | Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured | `TypeScript` ★ 22.3k | 2026-06-27 |
 | [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management | `Go` ★ 35.8k | 2026-06-26 |
-| [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | `C#` ★ 14.7k | 2026-06-27 |
-| [getsops/sops](https://github.com/getsops/sops) | Simple and flexible tool for managing secrets | `Go` ★ 22.2k | 2026-06-26 |
+| [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | `C#` ★ 14.7k | 2026-06-28 |
+| [getsops/sops](https://github.com/getsops/sops) | Simple and flexible tool for managing secrets | `Go` ★ 22.2k | 2026-06-28 |
 | [FiloSottile/age](https://github.com/FiloSottile/age) | A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability. | `Go` ★ 22.7k | 2026-03-20 |
 | [zama-ai/fhevm](https://github.com/zama-ai/fhevm) | FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications | `Rust` ★ 25.2k | 2026-06-27 |
 | [Jonathanpatta/E2E-Encryption-Chat-App](https://github.com/Jonathanpatta/E2E-Encryption-Chat-App) | End-to-End Encryption Chat Application using Diffie Hellman Key Exchange protocol | `JavaScript` ★ 1 | 2021-11-27 |

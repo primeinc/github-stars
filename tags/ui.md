@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) | No description provided | `TypeScript` ★ 15.5k | 2026-06-27 |
-| [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5.2k | 2026-06-28 |
+| [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5.3k | 2026-06-29 |
 | [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | AI → JSON → UI | `TypeScript` ★ 15.6k | 2026-06-15 |
 | [microsoft/data-formulator](https://github.com/microsoft/data-formulator) | 🪄 Create rich visualizations with AI | `TypeScript` ★ 15.9k | 2026-06-28 |
 | [Quaggles/SwarmUI-FaceTools](https://github.com/Quaggles/SwarmUI-FaceTools) | A Swarm UI extension that adds parameters for Re Actor to the the generate tab | `C#` ★ 28 | 2026-05-09 |
@@ -18,6 +18,6 @@
 | [wandb/openui](https://github.com/wandb/openui) | Open UI let's you describe UI using your imagination, then see it rendered live. | `TypeScript` ★ 22.4k | 2026-06-26 |
 | [Hillobar/Rope](https://github.com/Hillobar/Rope) | GUI-focused roop | `Python` ★ 5.3k | 2024-05-28 |
 | [tjackenpacken/taskbar-groups](https://github.com/tjackenpacken/taskbar-groups) | Lightweight utility for organizing the taskbar through groups | `C#` ★ 2.8k | 2024-07-04 |
-| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | Fullstack app framework for web, desktop, and mobile. | `Rust` ★ 36.5k | 2026-06-22 |
+| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | Fullstack app framework for web, desktop, and mobile. | `Rust` ★ 36.6k | 2026-06-22 |
 | [metafizzy/infinite-scroll](https://github.com/metafizzy/infinite-scroll) | 📜 Automatically add next page | `HTML` ★ 7.5k | 2025-03-08 |
 | [filp/whoops](https://github.com/filp/whoops) | PHP errors for cool kids | `PHP` ★ 13.2k | 2026-05-06 |

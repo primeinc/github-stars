@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [smarzban/herdr-file-viewer](https://github.com/smarzban/herdr-file-viewer) | A git-aware, read-only file viewer for herdr — a keyboard-driven TUI: tree + content pane with diffs, rendered markdown, and syntax highlighting. | `Rust` ★ 14 | 2026-06-28 |
-| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 4.6k | 2026-06-27 |
+| [smarzban/herdr-file-viewer](https://github.com/smarzban/herdr-file-viewer) | A git-aware, read-only file viewer for herdr — a keyboard-driven TUI: tree + content pane with diffs, rendered markdown, and syntax highlighting. | `Rust` ★ 15 | 2026-06-28 |
+| [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 4.6k | 2026-06-28 |
 | [agavra/tuicr](https://github.com/agavra/tuicr) | a terminal UI for local code review | `Rust` ★ 1k | 2026-06-25 |
 | [AlexsJones/llmserve](https://github.com/AlexsJones/llmserve) | A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it | `Rust` ★ 291 | 2026-06-21 |
 | [ymtdzzz/otel-tui](https://github.com/ymtdzzz/otel-tui) | A terminal Open Telemetry viewer inspired by otel-desktop-viewer | `Go` ★ 1k | 2026-06-22 |

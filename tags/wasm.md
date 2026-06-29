@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | An open source harness for generating CAD models | `JavaScript` ★ 7.1k | 2026-06-27 |
+| [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | An open source harness for generating CAD models | `JavaScript` ★ 7.2k | 2026-06-29 |
 | [emilk/egui](https://github.com/emilk/egui) | egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native | `Rust` ★ 29.5k | 2026-06-25 |
-| [JonasKruckenberg/k23](https://github.com/JonasKruckenberg/k23) | Experimental WASM Microkernel Operating System | `Rust` ★ 646 | 2026-06-28 |
-| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | Fullstack app framework for web, desktop, and mobile. | `Rust` ★ 36.5k | 2026-06-22 |
+| [JonasKruckenberg/k23](https://github.com/JonasKruckenberg/k23) | Experimental WASM Microkernel Operating System | `Rust` ★ 646 | 2026-06-29 |
+| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | Fullstack app framework for web, desktop, and mobile. | `Rust` ★ 36.6k | 2026-06-22 |

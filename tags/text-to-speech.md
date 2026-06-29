@@ -7,11 +7,11 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [babysor/MockingBird](https://github.com/babysor/MockingBird) | 🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time | `Python` ★ 36.9k | 2026-03-03 |
-| [natikxy/rick-voice](https://github.com/natikxy/rick-voice) | Convert text into authentic Rick Sanchez voice for bots and apps with a simple Python API supporting streaming and multiple TTS providers. | ★ 1 | 2026-06-28 |
+| [natikxy/rick-voice](https://github.com/natikxy/rick-voice) | Convert text into authentic Rick Sanchez voice for bots and apps with a simple Python API supporting streaming and multiple TTS providers. | ★ 1 | 2026-06-29 |
 | [clowerweb/kitten-tts-web-demo](https://github.com/clowerweb/kitten-tts-web-demo) | Kitten TTS web demo using tansformers.js | `JavaScript` ★ 99 | 2025-08-13 |
 | [ysharma3501/LuxTTS](https://github.com/ysharma3501/LuxTTS) | A high-quality rapid TTS voice cloning model that reaches speeds of 150x realtime. | `Python` ★ 4.3k | 2026-06-05 |
 | [samuel-vitorino/sopro](https://github.com/samuel-vitorino/sopro) | A lightweight text-to-speech model with zero-shot voice cloning | `Python` ★ 820 | 2026-02-06 |
-| [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | So TA open-source TTS | `Python` ★ 25.2k | 2026-06-10 |
+| [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | So TA open-source TTS | `Python` ★ 25.3k | 2026-06-10 |
 | [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice) | Instant voice cloning by MIT and My Shell. Audio foundation model. | `Python` ★ 36.8k | 2025-04-19 |
 | [dusty-nv/jetson-voice](https://github.com/dusty-nv/jetson-voice) | ASR/NLP/TTS deep learning inference library for NVIDIA Jetson using Py Torch and Tensor RT | `Python` ★ 230 | 2024-02-09 |
 | [lucasnewman/f5-tts-mlx](https://github.com/lucasnewman/f5-tts-mlx) | Implementation of F5-TTS in MLX | `Python` ★ 638 | 2025-03-19 |

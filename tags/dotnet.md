@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [dotnet/skills](https://github.com/dotnet/skills) | Repository for skills to assist AI coding agents with .NET and C# | `C#` ★ 3.5k | 2026-06-28 |
-| [dotnet/command-line-api](https://github.com/dotnet/command-line-api) | Command line parsing, invocation, and rendering of terminal output. | `C#` ★ 3.7k | 2026-06-27 |
+| [dotnet/command-line-api](https://github.com/dotnet/command-line-api) | Command line parsing, invocation, and rendering of terminal output. | `C#` ★ 3.7k | 2026-06-29 |
 | [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications. | `C#` ★ 4.8k | 2026-06-20 |
 | [MythicAgents/Apollo](https://github.com/MythicAgents/Apollo) | A .NET Framework 4.0 Windows Agent | `C#` ★ 543 | 2026-06-24 |
 | [Azure/reliable-web-app-pattern-dotnet](https://github.com/Azure/reliable-web-app-pattern-dotnet) | The Reliable Web App Pattern is a set of objectives to help your web application converge on the cloud. This repo contains a reference implementation of a reliable web application for .NET. | `Bicep` ★ 460 | 2025-12-18 |

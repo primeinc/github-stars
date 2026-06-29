@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | Tool Jet is the open-source foundation of Tool Jet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀 | `JavaScript` ★ 38.1k | 2026-06-27 |
+| [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | Tool Jet is the open-source foundation of Tool Jet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀 | `JavaScript` ★ 38.1k | 2026-06-28 |
 | [onlook-dev/onlook](https://github.com/onlook-dev/onlook) | The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI | `TypeScript` ★ 26.1k | 2026-06-09 |
-| [simstudioai/sim](https://github.com/simstudioai/sim) | Open-source platform to build and deploy AI agent workflows. | `TypeScript` ★ 28.9k | 2026-06-28 |
+| [simstudioai/sim](https://github.com/simstudioai/sim) | Open-source platform to build and deploy AI agent workflows. | `TypeScript` ★ 28.9k | 2026-06-29 |
 | [dtyq/magic](https://github.com/dtyq/magic) | Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system) | `TypeScript` ★ 4.9k | 2026-06-11 |
 | [automatisch/automatisch](https://github.com/automatisch/automatisch) | The open source Zapier alternative. Build workflow automation without spending time and money. | `JavaScript` ★ 13.9k | 2026-02-11 |
-| [n8n-io/n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. | `TypeScript` ★ 194.3k | 2026-06-28 |
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. | `TypeScript` ★ 194.4k | 2026-06-29 |

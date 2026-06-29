@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [r0adkll/upload-google-play](https://github.com/r0adkll/upload-google-play) | A Git Hub action to upload an Android .apk or .aab file to the Google Play Console | `JavaScript` ★ 1k | 2026-05-30 |
-| [muesli/readme-scribe](https://github.com/muesli/readme-scribe) | A Git Hub Action that automatically generates & updates markdown content (like your README.md) | ★ 585 | 2021-06-22 |
+| [muesli/readme-scribe](https://github.com/muesli/readme-scribe) | A Git Hub Action that automatically generates & updates markdown content (like your README.md) | ★ 586 | 2021-06-22 |
