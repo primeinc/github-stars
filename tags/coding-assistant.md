@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒ | `TypeScript` ★ 2.2k | 2026-06-29 |
+| [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒ | `TypeScript` ★ 2.2k | 2026-06-30 |
 | [TabbyML/tabby](https://github.com/TabbyML/tabby) | Self-hosted AI coding assistant | `Rust` ★ 33.7k | 2026-03-02 |

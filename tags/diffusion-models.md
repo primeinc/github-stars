@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo) | LTX-Video Support for Comfy UI | `Python` ★ 3.9k | 2026-06-17 |
+| [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo) | LTX-Video Support for Comfy UI | `Python` ★ 3.9k | 2026-06-29 |
 | [showlab/Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion) | A curated list of recent diffusion models for video generation, editing, and various other applications. | ★ 5.7k | 2026-06-16 |
 | [EzioBy/Ditto](https://github.com/EzioBy/Ditto) | \[Preprint 2025\] Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset | `Python` ★ 609 | 2026-06-01 |
 | [TencentARC/GenCompositor](https://github.com/TencentARC/GenCompositor) | \[ICLR 2026\] Gen Compositor: Generative Video Compositing with Diffusion Transformer | `Python` ★ 158 | 2026-03-16 |

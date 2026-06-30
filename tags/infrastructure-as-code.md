@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [opentofu/opentofu](https://github.com/opentofu/opentofu) | Open Tofu lets you declaratively manage your cloud infrastructure. | `Go` ★ 29.3k | 2026-06-26 |
+| [opentofu/opentofu](https://github.com/opentofu/opentofu) | Open Tofu lets you declaratively manage your cloud infrastructure. | `Go` ★ 29.3k | 2026-06-29 |
 | [microsoft/PSRule-pipelines](https://github.com/microsoft/PSRule-pipelines) | Validate infrastructure as code (Ia C) and Dev Ops repositories using Azure Pipelines. | `PowerShell` ★ 102 | 2026-05-08 |
 | [Azure/PSDocs.Azure](https://github.com/Azure/PSDocs.Azure) | Generate documentation from Azure infrastructure as code (Ia C) artifacts. | `C#` ★ 66 | 2026-05-02 |
-| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `TypeScript` ★ 11.3k | 2026-06-29 |
+| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `TypeScript` ★ 11.3k | 2026-06-30 |
 | [Orange-Cyberdefense/GOAD](https://github.com/Orange-Cyberdefense/GOAD) | game of active directory | `PowerShell` ★ 8k | 2026-03-12 |
 | [Azure/PSRule.Rules.Azure](https://github.com/Azure/PSRule.Rules.Azure) | Rules to validate Azure resources and infrastructure as code (Ia C) using PSRule. | `PowerShell` ★ 448 | 2026-06-27 |

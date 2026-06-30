@@ -12,6 +12,6 @@
 | [changesets/ghcommit](https://github.com/changesets/ghcommit) | Type Script library for directly changing files on Git Hub | `TypeScript` ★ 24 | 2026-06-23 |
 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | :octocat: Browser extension that simplifies the Git Hub interface and adds useful features | `TypeScript` ★ 31.6k | 2026-06-27 |
 | [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | 😎 A curated list of awesome Git Hub Profile which updates in real time | ★ 30.4k | 2026-03-03 |
-| [cli/cli](https://github.com/cli/cli) | Git Hub’s official command line tool | `Go` ★ 45k | 2026-06-26 |
-| [github/github-mcp-server](https://github.com/github/github-mcp-server) | Git Hub's official MCP Server | `Go` ★ 31k | 2026-06-28 |
+| [cli/cli](https://github.com/cli/cli) | Git Hub’s official command line tool | `Go` ★ 45.1k | 2026-06-29 |
+| [github/github-mcp-server](https://github.com/github/github-mcp-server) | Git Hub's official MCP Server | `Go` ★ 31.1k | 2026-06-29 |
 | [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) | A list of cool features of Git and Git Hub. | ★ 57.6k | 2024-04-15 |

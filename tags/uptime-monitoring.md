@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool | `JavaScript` ★ 88.5k | 2026-06-29 |
+| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool | `JavaScript` ★ 88.6k | 2026-06-30 |
 | [TwiN/gatus](https://github.com/TwiN/gatus) | Automated developer-oriented status page with alerting and incident support | `Go` ★ 11.4k | 2026-06-19 |

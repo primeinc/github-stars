@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome Dev Tools for coding agents | `TypeScript` ★ 44.6k | 2026-06-28 |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome Dev Tools for coding agents | `TypeScript` ★ 44.7k | 2026-06-29 |
 | [alvarcarto/url-to-pdf-api](https://github.com/alvarcarto/url-to-pdf-api) | Web page PDF/PNG rendering done right. Self-hosted service for rendering receipts, invoices, or any content. | `HTML` ★ 7.1k | 2024-01-18 |

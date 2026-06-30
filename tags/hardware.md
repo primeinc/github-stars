@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [kitspace/awesome-electronics](https://github.com/kitspace/awesome-electronics) | A curated list of awesome resources for Electronic Engineers and hobbyists | ★ 7.8k | 2026-01-05 |
-| [stevenbennett/Open-Task-Light](https://github.com/stevenbennett/Open-Task-Light) | Components for making the Open Task Light | `Python` ★ 647 | 2025-07-22 |
+| [kitspace/awesome-electronics](https://github.com/kitspace/awesome-electronics) | A curated list of awesome resources for Electronic Engineers and hobbyists | ★ 7.9k | 2026-01-05 |
+| [stevenbennett/Open-Task-Light](https://github.com/stevenbennett/Open-Task-Light) | Components for making the Open Task Light | `Python` ★ 646 | 2025-07-22 |
 | [nataliethenerd/picohatpad](https://github.com/nataliethenerd/picohatpad) | No description provided | `Python` ★ 75 | 2023-01-29 |

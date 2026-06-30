@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) | A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more | `Shell` ★ 10.8k | 2026-06-19 |
-| [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | A collection of various awesome lists for hackers, pentesters and security researchers | ★ 115.2k | 2026-05-07 |
+| [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | A collection of various awesome lists for hackers, pentesters and security researchers | ★ 115.3k | 2026-05-07 |
