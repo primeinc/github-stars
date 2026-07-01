@@ -2,21 +2,21 @@
 
 > A curated list of **2676** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-06-30
+Last updated: 2026-07-01
 
 ## ⭐ Recently Starred
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [zzet/gortex](https://github.com/zzet/gortex) | High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - ex... | `Go` ★ 782 | 2026-06-29 |
-| [opentofu/opentofu](https://github.com/opentofu/opentofu) | Open Tofu lets you declaratively manage your cloud infrastructure. | `Go` ★ 29.3k | 2026-06-29 |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | Seaweed FS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling. | `Go` ★ 33.2k | 2026-06-30 |
+| [zzet/gortex](https://github.com/zzet/gortex) | High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - ex... | `Go` ★ 792 | 2026-06-30 |
+| [opentofu/opentofu](https://github.com/opentofu/opentofu) | Open Tofu lets you declaratively manage your cloud infrastructure. | `Go` ★ 29.3k | 2026-06-30 |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | Seaweed FS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling. | `Go` ★ 33.2k | 2026-07-01 |
 | [colmap/colmap](https://github.com/colmap/colmap) | COLMAP - Structure-from-Motion and Multi-View Stereo | `C++` ★ 12.1k | 2026-06-29 |
-| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audi... | `JavaScript` ★ 4.1k | 2026-06-29 |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | `JavaScript` ★ 67.6k | 2026-06-30 |
-| [tinfoil-herald/laz](https://github.com/tinfoil-herald/laz) | Cross-platform user input simulation and screenshots for .NET | `C#` ★ 18 | 2026-06-16 |
+| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audi... | `JavaScript` ★ 4.5k | 2026-06-30 |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | `JavaScript` ★ 69.3k | 2026-06-30 |
+| [tinfoil-herald/laz](https://github.com/tinfoil-herald/laz) | Cross-platform user input simulation and screenshots for .NET | `C#` ★ 19 | 2026-06-30 |
 | [modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) | Visual testing tool for MCP servers | `TypeScript` ★ 10.2k | 2026-06-30 |
-| [open-agent-ai-security/praxen](https://github.com/open-agent-ai-security/praxen) | Praxen — agent behavior verifier. Compares an AI agent's declared policy against the available evidence; reports where observed behavior diverges from declared intent. | `HTML` ★ 35 | 2026-06-29 |
+| [open-agent-ai-security/praxen](https://github.com/open-agent-ai-security/praxen) | Praxen — agent behavior verifier. Compares an AI agent's declared policy against the available evidence; reports where observed behavior diverges from declared intent. | `HTML` ★ 35 | 2026-06-30 |
 | [FredySandoval/ChatGPT-CHROME_EXTENSION](https://github.com/FredySandoval/ChatGPT-CHROME_EXTENSION) | An extension to download individual Chat GPT chats as Markdown | `TypeScript` ★ 15 | 2026-06-20 |
 
 ## 🏷️ Popular Tags
@@ -30,7 +30,7 @@ Last updated: 2026-06-30
 |---|---|---|
 | [ai-ml](categories/ai-ml.md) (745) | [productivity](categories/productivity.md) (578) | [dev-tools](categories/dev-tools.md) (391) |
 | [web-dev](categories/web-dev.md) (381) | [automation](categories/automation.md) (307) | [security](categories/security.md) (267) |
-| [ui-libraries](categories/ui-libraries.md) (261) | [data-science](categories/data-science.md) (241) | [system-admin](categories/system-admin.md) (241) |
+| [ui-libraries](categories/ui-libraries.md) (261) | [system-admin](categories/system-admin.md) (242) | [data-science](categories/data-science.md) (241) |
 | [desktop-dev](categories/desktop-dev.md) (219) | [apis](categories/apis.md) (203) | [documentation](categories/documentation.md) (192) |
 | [learning](categories/learning.md) (188) | [networking](categories/networking.md) (175) | [cloud](categories/cloud.md) (150) |
 | [frameworks](categories/frameworks.md) (91) | [monitoring](categories/monitoring.md) (82) | [game-dev](categories/game-dev.md) (80) |

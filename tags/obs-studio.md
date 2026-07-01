@@ -11,7 +11,7 @@
 | [YorVeX/xObsAsyncImageSource](https://github.com/YorVeX/xObsAsyncImageSource) | OBS plugin providing an image source that loads images asynchronously (causing a lot less lag on load). | `C#` ★ 21 | 2024-02-07 |
 | [dev47apps/droidcam-obs-plugin](https://github.com/dev47apps/droidcam-obs-plugin) | Droid Cam OBS Source | `C++` ★ 707 | 2026-06-23 |
 | [Bennik2000/BetterProjectors](https://github.com/Bennik2000/BetterProjectors) | This plugin for OBS Studio provides dockable projectors for scenes and sources | `C++` ★ 7 | 2023-04-19 |
-| [exeldro/obs-source-clone](https://github.com/exeldro/obs-source-clone) | No description provided | `CMake` ★ 188 | 2026-03-13 |
+| [exeldro/obs-source-clone](https://github.com/exeldro/obs-source-clone) | No description provided | `CMake` ★ 189 | 2026-03-13 |
 | [CodeYan01/source-defaults](https://github.com/CodeYan01/source-defaults) | Apply custom source setting defaults on new sources, based on other sources. | `CMake` ★ 16 | 2025-10-15 |
 | [Aitum/obs-vertical-canvas](https://github.com/Aitum/obs-vertical-canvas) | No description provided | `C++` ★ 279 | 2026-06-11 |
 | [CodeYan01/media-playlist-source](https://github.com/CodeYan01/media-playlist-source) | An OBS Studio plugin that supports media playlists, based on the Media Source | `C` ★ 64 | 2025-04-13 |

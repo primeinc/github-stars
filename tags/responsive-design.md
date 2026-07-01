@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [UI5/openui5](https://github.com/UI5/openui5) | Open UI5 lets you build enterprise-ready web applications, responsive to all devices, running on almost any browser of your choice. | `JavaScript` ★ 3.3k | 2026-06-29 |
-| [twbs/bootstrap](https://github.com/twbs/bootstrap) | The most popular HTML, CSS, and Java Script framework for developing responsive, mobile first projects on the web. | `MDX` ★ 174.4k | 2026-06-29 |
+| [UI5/openui5](https://github.com/UI5/openui5) | Open UI5 lets you build enterprise-ready web applications, responsive to all devices, running on almost any browser of your choice. | `JavaScript` ★ 3.3k | 2026-06-30 |
+| [twbs/bootstrap](https://github.com/twbs/bootstrap) | The most popular HTML, CSS, and Java Script framework for developing responsive, mobile first projects on the web. | `MDX` ★ 174.4k | 2026-07-01 |
 | [google/web-starter-kit](https://github.com/google/web-starter-kit) | Web Starter Kit - a workflow for multi-device websites | `HTML` ★ 18.3k | 2024-04-22 |
