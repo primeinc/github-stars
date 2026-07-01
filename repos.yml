@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-07-01T04:44:24.353Z'
+  manifest_updated_at: '2026-07-01T04:44:59.232Z'
   total_repos: 2676
   generator_version: v1.0.0
   github_user: primeinc
@@ -109746,13 +109746,20 @@ repositories:
       prompt_version: v3
   - repo: wesellis/azure-powershell-toolkit
     categories:
-      - unclassified
-    tags: []
+      - system-admin
+      - automation
+      - cloud
+    tags:
+      - azure
+      - devops
+      - lang:powershell
+      - infrastructure-as-code
+      - automation
     summary: Power Shell scripts for Azure infrastructure management, automation, governance, and Ia C validation
     last_synced_sha: c6dfc64e49f18d45a2c1aa34671a7f71012256d6
     user_starred_at: '2026-02-14T12:09:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: PowerShell
       topics:
@@ -109787,3 +109794,8 @@ repositories:
         published_at: '2026-06-30T17:44:40Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-01T04:44:58.034Z'
+      prompt_version: v3
