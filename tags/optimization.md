@@ -10,6 +10,6 @@
 | [rollup/rollup](https://github.com/rollup/rollup) | Next-generation ES module bundler | `JavaScript` ★ 26.3k | 2026-06-29 |
 | [sitespeedio/browsertime](https://github.com/sitespeedio/browsertime) | Measure and Optimize Web Performance | `JavaScript` ★ 648 | 2026-06-17 |
 | [Opencode-DCP/opencode-dynamic-context-pruning](https://github.com/Opencode-DCP/opencode-dynamic-context-pruning) | Dynamic context pruning plugin for Open Code - intelligently manages conversation context to optimize token usage | `TypeScript` ★ 3.6k | 2026-06-25 |
-| [alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) | Slimmed and cleaned oh-my-opencode, consumes much less tokens; Help us grow, consider giving a ⭐; | `TypeScript` ★ 6.3k | 2026-06-30 |
+| [alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) | Slimmed and cleaned oh-my-opencode, consumes much less tokens; Help us grow, consider giving a ⭐; | `TypeScript` ★ 6.4k | 2026-07-01 |
 | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11... | `PowerShell` ★ 49.9k | 2026-06-28 |
 | [davidsonfellipe/awesome-wpo](https://github.com/davidsonfellipe/awesome-wpo) | :pencil: A curated list of Web Performance Optimization. Everyone can contribute here! | ★ 9k | 2026-06-22 |

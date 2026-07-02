@@ -7,8 +7,8 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [jongio/memealyzer](https://github.com/jongio/memealyzer) | Memealyzer is an app built to demonstrate some the latest and greatest Azure tech to dev, debug, and deploy microservice applications. | `C#` ★ 105 | 2026-06-25 |
-| [Azure/azure-dev](https://github.com/Azure/azure-dev) | A developer CLI for working with Azure resources to build and deploy AI applications. Commands map to key workflow stages: code, build, deploy, and monitor. | `Go` ★ 544 | 2026-07-01 |
-| [actions/runner-images](https://github.com/actions/runner-images) | Git Hub Actions runner images | `PowerShell` ★ 12.9k | 2026-06-30 |
+| [Azure/azure-dev](https://github.com/Azure/azure-dev) | A developer CLI for working with Azure resources to build and deploy AI applications. Commands map to key workflow stages: code, build, deploy, and monitor. | `Go` ★ 545 | 2026-07-01 |
+| [actions/runner-images](https://github.com/actions/runner-images) | Git Hub Actions runner images | `PowerShell` ★ 12.9k | 2026-07-01 |
 | [r0adkll/upload-google-play](https://github.com/r0adkll/upload-google-play) | A Git Hub action to upload an Android .apk or .aab file to the Google Play Console | `JavaScript` ★ 1k | 2026-05-30 |
 | [gronxb/hot-updater](https://github.com/gronxb/hot-updater) | A self-hostable OTA update solution for React Native (Alternative to Code Push) | `TypeScript` ★ 1.6k | 2026-06-30 |
 | [hunvreus/devpush](https://github.com/hunvreus/devpush) | Like Vercel, but open source and for all languages. | `Python` ★ 4.7k | 2026-03-03 |
@@ -17,16 +17,16 @@
 | [PaddlePaddle/PaddleX](https://github.com/PaddlePaddle/PaddleX) | All-in-One Development Tool based on Paddle Paddle | `Python` ★ 6.2k | 2026-06-25 |
 | [microsoft/rushstack](https://github.com/microsoft/rushstack) | Monorepo for tools developed by the Rush Stack community | `TypeScript` ★ 6.5k | 2026-06-29 |
 | [Azure-Samples/azure-typescript-e2e-apps](https://github.com/Azure-Samples/azure-typescript-e2e-apps) | Monorepo - Apps written in Type Script to be either 1) deployed to Azure hosting or 2) integrated with Azure services | `TypeScript` ★ 48 | 2026-02-02 |
-| [notclickable-jordan/starbase-80](https://github.com/notclickable-jordan/starbase-80) | A nice Docker homepage | `TypeScript` ★ 545 | 2025-10-18 |
+| [notclickable-jordan/starbase-80](https://github.com/notclickable-jordan/starbase-80) | A nice Docker homepage | `TypeScript` ★ 547 | 2025-10-18 |
 | [knadh/listmonk](https://github.com/knadh/listmonk) | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app. | `Go` ★ 21.9k | 2026-07-01 |
 | [plexinc/pms-docker](https://github.com/plexinc/pms-docker) | Plex Media Server Docker repo, for all your PMS docker needs. | `Go Template` ★ 4k | 2026-06-10 |
 | [Azure-Player/azure.datafactory.tools](https://github.com/Azure-Player/azure.datafactory.tools) | Tools for deploying Data Factory (v2) in Microsoft Azure | `PowerShell` ★ 258 | 2026-07-01 |
-| [Dokploy/dokploy](https://github.com/Dokploy/dokploy) | Open Source Alternative to Vercel, Netlify and Heroku. | `TypeScript` ★ 35.2k | 2026-06-30 |
+| [Dokploy/dokploy](https://github.com/Dokploy/dokploy) | Open Source Alternative to Vercel, Netlify and Heroku. | `TypeScript` ★ 35.3k | 2026-07-01 |
 | [pamelafox/fastapi-azure-function-apim](https://github.com/pamelafox/fastapi-azure-function-apim) | A Fast API app that is designed for deployment to Azure Functions with an API Management Policy. | `Bicep` ★ 60 | 2026-03-02 |
-| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 38.8k | 2026-07-01 |
+| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. | `C++` ★ 38.9k | 2026-07-01 |
 | [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 267 | 2026-06-29 |
-| [coollabsio/coolify](https://github.com/coollabsio/coolify) | An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv... | `PHP` ★ 57.6k | 2026-06-30 |
-| [nitrojs/nitro](https://github.com/nitrojs/nitro) | Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer. | `TypeScript` ★ 11k | 2026-06-30 |
+| [coollabsio/coolify](https://github.com/coollabsio/coolify) | An open-source, self-hostable Paa S alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own serv... | `PHP` ★ 57.7k | 2026-07-01 |
+| [nitrojs/nitro](https://github.com/nitrojs/nitro) | Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer. | `TypeScript` ★ 11k | 2026-07-01 |
 | [midday-ai/packrun](https://github.com/midday-ai/packrun) | npm for agents and humans | `TypeScript` ★ 3.8k | 2026-02-06 |
 | [rink-turksma/IntunePrepTool](https://github.com/rink-turksma/IntunePrepTool) | Intune Prep Tool is a tool designed for creating Intune packages using the MS Win32 Content Prep Tool. The tool aims to simplify the process of packaging applications for deployment through Intune ... | `PowerShell` ★ 95 | 2026-01-29 |
 | [vfarcic/dot-ai](https://github.com/vfarcic/dot-ai) | Intelligent dual-mode agent for deploying applications to ANY Kubernetes cluster through dynamic discovery and plain English governance | `TypeScript` ★ 327 | 2026-06-29 |
