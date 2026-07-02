@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-07-02T04:35:56.321Z'
+  manifest_updated_at: '2026-07-02T04:36:31.142Z'
   total_repos: 2676
   generator_version: v1.0.0
   github_user: primeinc
@@ -109751,13 +109751,18 @@ repositories:
       prompt_version: v3
   - repo: ATH-MaaS/ComfyUI-Copilot
     categories:
-      - unclassified
-    tags: []
+      - automation
+      - ai-ml
+    tags:
+      - ai-agent
+      - workflow-automation
+      - comfy-ui
+      - lang:ts
     summary: An AI-powered custom node for Comfy UI designed to enhance workflow automation and provide intelligent assistance
     last_synced_sha: f04a01a9fce8e3cb21f2a21a14fc971d5753dc36
     user_starred_at: '2025-09-17T09:02:09Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -109789,3 +109794,8 @@ repositories:
         published_at: '2025-08-18T06:33:23Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-02T04:36:29.985Z'
+      prompt_version: v3
