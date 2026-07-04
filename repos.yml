@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-07-04T04:24:46.442Z'
+  manifest_updated_at: '2026-07-04T04:25:17.000Z'
   total_repos: 2677
   generator_version: v1.0.0
   github_user: primeinc
@@ -109744,13 +109744,16 @@ repositories:
       prompt_version: v3
   - repo: meituan-longcat/LongCat-Image
     categories:
+      - ai-ml
       - unclassified
-    tags: []
+    tags:
+      - lang:python
+      - image-processing
     summary: No description provided
     last_synced_sha: f0e4c43c5ef74b011ff71570fbfc2bdffbc9ab06
     user_starred_at: '2026-07-03T05:38:39Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -109767,15 +109770,26 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-04T04:25:15.870Z'
+      prompt_version: v3
   - repo: Graphify-Labs/graphify
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - knowledge-graph
+      - lang:python
+      - claude-code
+      - codex
+      - gemini
     summary: AI coding assistant skill (Claude Code, Codex, Open Code, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a query...
     last_synced_sha: e2ef4ef3d1f17e3ada990fd722a8a6eaa71edda8
     user_starred_at: '2026-04-09T13:38:00Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -109805,3 +109819,8 @@ repositories:
         published_at: '2026-07-02T12:22:33Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-04T04:25:15.870Z'
+      prompt_version: v3
