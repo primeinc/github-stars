@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [12Knocksinna/Office365itpros](https://github.com/12Knocksinna/Office365itpros) | Power Shell examples for articles published on https://office365itpros.com and https://practical365.com. See https://o365itpros.gumroad.com/l/M365PS for the Automating Microsoft 365 with Power Shel... | `PowerShell` ★ 1.8k | 2026-06-23 |
+| [12Knocksinna/Office365itpros](https://github.com/12Knocksinna/Office365itpros) | Power Shell examples for articles published on https://office365itpros.com and https://practical365.com. See https://o365itpros.gumroad.com/l/M365PS for the Automating Microsoft 365 with Power Shel... | `PowerShell` ★ 1.8k | 2026-07-03 |
 | [Foyerr/Update-PrinterPortConfig](https://github.com/Foyerr/Update-PrinterPortConfig) | This repository contains Power Shell functions focused on resolving mismatches between printer ports and their actual IP addresses in Windows Servers | ★ 2 | 2023-10-30 |
 | [Gerenios/AADInternals](https://github.com/Gerenios/AADInternals) | AADInternals Power Shell module for administering Azure AD and Office 365 | `PowerShell` ★ 1.7k | 2025-09-30 |
 | [hausec/PowerZure](https://github.com/hausec/PowerZure) | Power Shell framework to assess Azure security | `PowerShell` ★ 1.3k | 2025-10-18 |

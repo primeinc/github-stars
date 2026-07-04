@@ -9,9 +9,9 @@
 | [microsoft/clarity](https://github.com/microsoft/clarity) | A behavioral analytics library that uses dom mutations and user interactions to generate aggregated insights. | `TypeScript` ★ 2.7k | 2026-07-02 |
 | [qax-os/excelize](https://github.com/qax-os/excelize) | Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets | `Go` ★ 20.7k | 2026-06-27 |
 | [rybbit-io/rybbit](https://github.com/rybbit-io/rybbit) | 🐸 Rybbit - open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive. | `TypeScript` ★ 12.4k | 2026-06-26 |
-| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Duck DB is an analytical in-process SQL database management system | `C++` ★ 39.2k | 2026-07-02 |
+| [duckdb/duckdb](https://github.com/duckdb/duckdb) | Duck DB is an analytical in-process SQL database management system | `C++` ★ 39.2k | 2026-07-03 |
 | [perspective-dev/perspective](https://github.com/perspective-dev/perspective) | A data visualization and analytics component, especially well-suited for large and/or streaming datasets. | `C++` ★ 11k | 2026-06-25 |
 | [mindsdb/minds](https://github.com/mindsdb/minds) | General-purpose AI designed for knowledge workers — creators, strategists, and operators — and individuals seeking AI systems they can truly control to help them get work done, with full flexibilit... | `Makefile` ★ 39.4k | 2026-07-01 |
 | [langwatch/langwatch](https://github.com/langwatch/langwatch) | The open LLM Ops platform - Traces, Analytics, Evaluations, Datasets and Prompt Optimization ✨ | `TypeScript` ★ 3.3k | 2026-07-03 |
-| [Tautulli/Tautulli](https://github.com/Tautulli/Tautulli) | A Python based monitoring and tracking tool for Plex Media Server. | `Python` ★ 6.5k | 2026-07-01 |
+| [Tautulli/Tautulli](https://github.com/Tautulli/Tautulli) | A Python based monitoring and tracking tool for Plex Media Server. | `Python` ★ 6.5k | 2026-07-03 |
 | [jeremyFreeAgent/Bitter](https://github.com/jeremyFreeAgent/Bitter) | Bitter is a simple but powerful analytics library | `PHP` ★ 128 | 2013-09-19 |

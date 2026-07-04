@@ -12,7 +12,7 @@
 | [SoyITPro/scripts](https://github.com/SoyITPro/scripts) | Scripts para administradores de servidores Windows, Azure, Docker, Linux y más | `PowerShell` ★ 60 | 2026-07-01 |
 | [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | MCP Server for Computer Use in Windows | `Python` ★ 6.3k | 2026-07-02 |
 | [File-New-Project/EarTrumpet](https://github.com/File-New-Project/EarTrumpet) | Ear Trumpet - Volume Control for Windows | `C#` ★ 11.1k | 2026-06-28 |
-| [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications. | `C#` ★ 4.8k | 2026-07-02 |
+| [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications. | `C#` ★ 4.8k | 2026-07-04 |
 | [randomascii/UIforETW](https://github.com/randomascii/UIforETW) | User interface for recording and managing ETW traces | `C++` ★ 142 | 2026-01-05 |
 | [windirstat/windirstat](https://github.com/windirstat/windirstat) | Win Dir Stat is a disk usage statistics viewer and cleanup tool for Microsoft Windows | `C++` ★ 3.6k | 2026-07-03 |
 | [MyOnee/R](https://github.com/MyOnee/R) | Free RDP from Github Actions | `Batchfile` ★ 61 | 2026-02-28 |
@@ -20,7 +20,7 @@
 | [KnifMelti/WAU-Settings-GUI](https://github.com/KnifMelti/WAU-Settings-GUI) | Provides a user-friendly portable standalone interface to modify every aspect of Winget-Auto Update (WAU) | `PowerShell` ★ 49 | 2026-05-29 |
 | [ken-yossy/nvmetool-win](https://github.com/ken-yossy/nvmetool-win) | Communicate with NVMe SSD using Windows' inbox device driver | `C` ★ 110 | 2025-03-27 |
 | [FalconOpsLLC/goexec](https://github.com/FalconOpsLLC/goexec) | Windows remote execution multitool | `Go` ★ 800 | 2026-03-25 |
-| [dockur/windows](https://github.com/dockur/windows) | Windows inside a Docker container. | `Shell` ★ 52.3k | 2026-07-02 |
+| [dockur/windows](https://github.com/dockur/windows) | Windows inside a Docker container. | `Shell` ★ 52.3k | 2026-07-03 |
 | [felixrieseberg/windows-build-tools](https://github.com/felixrieseberg/windows-build-tools) | :package: Install C++ Build Tools for Windows using npm | `TypeScript` ★ 3.4k | 2021-06-20 |
 | [jade-tam/dotfiles](https://github.com/jade-tam/dotfiles) | Ricing dotfiles for windows 11 | `Shell` ★ 183 | 2026-07-01 |
 | [1r0BIT/TaskHound](https://github.com/1r0BIT/TaskHound) | Tool to enumerate privileged Scheduled Tasks on Remote Systems | `Python` ★ 310 | 2026-03-29 |
@@ -41,7 +41,7 @@
 | [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar) | Everything integration for the Windows taskbar. | `C#` ★ 14.3k | 2026-07-01 |
 | [hwtnb/SylphyHornPlusWin11](https://github.com/hwtnb/SylphyHornPlusWin11) | Virtual Desktop Tools for Windows 11 and 10. | `C#` ★ 422 | 2024-12-24 |
 | [MScholtes/VirtualDesktop](https://github.com/MScholtes/VirtualDesktop) | C# command line tool to manage virtual desktops in Windows 10 | `C#` ★ 783 | 2025-08-12 |
-| [dankrusi/WindowsVirtualDesktopHelper](https://github.com/dankrusi/WindowsVirtualDesktopHelper) | App to help manage Virtual Desktops for Windows 10 and Windows 11 | `C#` ★ 936 | 2026-06-29 |
+| [dankrusi/WindowsVirtualDesktopHelper](https://github.com/dankrusi/WindowsVirtualDesktopHelper) | App to help manage Virtual Desktops for Windows 10 and Windows 11 | `C#` ★ 937 | 2026-06-29 |
 | [files-community/Files](https://github.com/files-community/Files) | A modern file manager that helps users organize their files and folders. | `C#` ★ 44.1k | 2026-07-03 |
 | [rcmaehl/MSEdgeRedirect](https://github.com/rcmaehl/MSEdgeRedirect) | A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Browser | `AutoIt` ★ 5.8k | 2026-06-24 |
 | [KjetilSv/Win10As](https://github.com/KjetilSv/Win10As) | Make your windows 10 computer IOT friendly | `C#` ★ 233 | 2022-12-08 |

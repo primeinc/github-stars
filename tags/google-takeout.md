@@ -8,4 +8,4 @@
 |---|---|---|---|
 | [Kiduzk/google-takeout-viewer](https://github.com/Kiduzk/google-takeout-viewer) | No description provided | `TypeScript` ★ 4 | 2026-01-11 |
 | [purarue/google_takeout_parser](https://github.com/purarue/google_takeout_parser) | A library/CLI tool to parse data out of your Google Takeout (History, Activity, Youtube, Locations, etc...) | `Python` ★ 134 | 2026-07-03 |
-| [simulot/immich-go](https://github.com/simulot/immich-go) | An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives. | `Go` ★ 6.4k | 2026-06-25 |
+| [simulot/immich-go](https://github.com/simulot/immich-go) | An alternative to the immich-CLI command that doesn't depend on nodejs installation. It tries its best for importing google photos takeout archives. | `Go` ★ 6.5k | 2026-06-25 |
