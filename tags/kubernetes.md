@@ -6,16 +6,16 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | Seaweed FS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling. | `Go` ★ 33.3k | 2026-07-03 |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | Seaweed FS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling. | `Go` ★ 33.3k | 2026-07-04 |
 | [jongio/memealyzer](https://github.com/jongio/memealyzer) | Memealyzer is an app built to demonstrate some the latest and greatest Azure tech to dev, debug, and deploy microservice applications. | `C#` ★ 105 | 2026-06-25 |
 | [microsoft/Docker-Provider](https://github.com/microsoft/Docker-Provider) | Azure Monitor for Containers | `Ruby` ★ 171 | 2026-07-01 |
 | [alibaba/nacos](https://github.com/alibaba/nacos) | an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications. | `Java` ★ 33.1k | 2026-07-03 |
-| [mspnp/aks-baseline](https://github.com/mspnp/aks-baseline) | This is the Azure Kubernetes Service (AKS) Baseline Cluster reference implementation as produced by the Microsoft Azure Architecture Center. | `Bicep` ★ 744 | 2026-06-26 |
-| [xpipe-io/xpipe](https://github.com/xpipe-io/xpipe) | Access your entire server infrastructure from your local desktop | `Java` ★ 14.2k | 2026-07-04 |
-| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `TypeScript` ★ 11.3k | 2026-07-04 |
-| [rcourtman/Pulse](https://github.com/rcourtman/Pulse) | Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unified dashboard | `Go` ★ 6.1k | 2026-07-03 |
+| [mspnp/aks-baseline](https://github.com/mspnp/aks-baseline) | This is the Azure Kubernetes Service (AKS) Baseline Cluster reference implementation as produced by the Microsoft Azure Architecture Center. | `Bicep` ★ 745 | 2026-06-26 |
+| [xpipe-io/xpipe](https://github.com/xpipe-io/xpipe) | Access your entire server infrastructure from your local desktop | `Java` ★ 14.2k | 2026-07-05 |
+| [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager | `TypeScript` ★ 11.3k | 2026-07-05 |
+| [rcourtman/Pulse](https://github.com/rcourtman/Pulse) | Real-time monitoring for Proxmox, Docker, and Kubernetes with AI-powered insights, smart alerts, and a beautiful unified dashboard | `Go` ★ 6.1k | 2026-07-04 |
 | [labring/sealos](https://github.com/labring/sealos) | Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfec... | `TypeScript` ★ 18.3k | 2026-07-03 |
-| [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 38.2k | 2026-07-03 |
+| [istio/istio](https://github.com/istio/istio) | Connect, secure, control, and observe services. | `Go` ★ 38.3k | 2026-07-05 |
 | [piyushsachdeva/AzureDevOps-Zero-to-Hero](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero) | A central hub for artifacts, agendas, and resources related to the "Azure Dev Ops Zero to Hero" series on Tech Tutorials with Piyush You Tube channel. Access code snippets, agendas, notes, graphics... | `Shell` ★ 1.3k | 2025-09-18 |
 | [vfarcic/dot-ai](https://github.com/vfarcic/dot-ai) | Intelligent dual-mode agent for deploying applications to ANY Kubernetes cluster through dynamic discovery and plain English governance | `TypeScript` ★ 327 | 2026-06-29 |
 | [openfaas/faas](https://github.com/openfaas/faas) | Open Faa S - Serverless Functions Made Simple | `Go` ★ 26.2k | 2026-07-02 |

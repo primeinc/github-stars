@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | The simplest, fastest repository for training/finetuning medium-sized GPTs. | `Python` ★ 60.5k | 2025-11-12 |
-| [ostris/ai-toolkit](https://github.com/ostris/ai-toolkit) | The ultimate training toolkit for finetuning diffusion models | `Python` ★ 11.2k | 2026-07-01 |
+| [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | The simplest, fastest repository for training/finetuning medium-sized GPTs. | `Python` ★ 60.6k | 2025-11-12 |
+| [ostris/ai-toolkit](https://github.com/ostris/ai-toolkit) | The ultimate training toolkit for finetuning diffusion models | `Python` ★ 11.2k | 2026-07-04 |
 | [devilismyfriend/StableTuner](https://github.com/devilismyfriend/StableTuner) | Finetuning SD in style. | `Python` ★ 680 | 2023-04-01 |

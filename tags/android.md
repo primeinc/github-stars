@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [r0adkll/upload-google-play](https://github.com/r0adkll/upload-google-play) | A Git Hub action to upload an Android .apk or .aab file to the Google Play Console | `JavaScript` ★ 1k | 2026-05-30 |
-| [crazystylus/otadump](https://github.com/crazystylus/otadump) | Extract partitions from Android OTA files. | `Rust` ★ 211 | 2026-06-05 |
+| [crazystylus/otadump](https://github.com/crazystylus/otadump) | Extract partitions from Android OTA files. | `Rust` ★ 212 | 2026-06-05 |
 | [droidrun/mobilerun](https://github.com/droidrun/mobilerun) | Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖 | `Python` ★ 8.7k | 2026-07-03 |
 | [expo/expo](https://github.com/expo/expo) | An open-source framework for making universal native apps with React. Expo runs on Android, i OS, and the web. | `TypeScript` ★ 50.4k | 2026-07-04 |
 | [deskbtm/nitmgpt](https://github.com/deskbtm/nitmgpt) | nitmgpt (Notification-in-the-middle GPT). Filter ads or spam notifications via Chat GPT. | `Dart` ★ 95 | 2026-06-17 |

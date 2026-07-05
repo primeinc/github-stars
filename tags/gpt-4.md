@@ -11,4 +11,4 @@
 | [TaxyAI/browser-extension](https://github.com/TaxyAI/browser-extension) | Automate your browser with GPT-4 | `TypeScript` ★ 1.3k | 2025-01-15 |
 | [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) | A natural language interface for computers | `Rust` ★ 64.3k | 2026-06-20 |
 | [open-mmlab/Multimodal-GPT](https://github.com/open-mmlab/Multimodal-GPT) | Multimodal-GPT | `Python` ★ 1.5k | 2023-06-04 |
-| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Auto GPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. | `Python` ★ 185.3k | 2026-07-04 |
+| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Auto GPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. | `Python` ★ 185.4k | 2026-07-04 |

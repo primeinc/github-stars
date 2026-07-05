@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [docs/custom-agents-template](https://github.com/docs/custom-agents-template) | A template repository for enterprise and organization-level Copilot custom agents. | ★ 52 | 2026-06-17 |
+| [docs/custom-agents-template](https://github.com/docs/custom-agents-template) | A template repository for enterprise and organization-level Copilot custom agents. | ★ 53 | 2026-06-17 |
 | [julianromli/opencode-template](https://github.com/julianromli/opencode-template) | opencode-template | `Python` ★ 144 | 2026-02-03 |
 | [fregante/browser-extension-template](https://github.com/fregante/browser-extension-template) | 📕 Barebones boilerplate with Parcel 2, options handler and auto-publishing | `JavaScript` ★ 846 | 2025-02-03 |
 | [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) | Clean Architecture Solution Template for ASP.NET Core | `C#` ★ 20.3k | 2026-07-03 |

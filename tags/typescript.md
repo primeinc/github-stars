@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [honojs/hono](https://github.com/honojs/hono) | Web framework built on Web Standards | `TypeScript` ★ 31.2k | 2026-07-03 |
+| [honojs/hono](https://github.com/honojs/hono) | Web framework built on Web Standards | `TypeScript` ★ 31.2k | 2026-07-04 |
 | [g-plane/typed-query-selector](https://github.com/g-plane/typed-query-selector) | Better typed \`query Selector\` and \`query Selector All\`. | `TypeScript` ★ 783 | 2026-06-13 |
 | [microsoft/tsdoc](https://github.com/microsoft/tsdoc) | A doc comment standard for Type Script | `TypeScript` ★ 5k | 2026-03-31 |
 | [notclickable-jordan/starbase-80](https://github.com/notclickable-jordan/starbase-80) | A nice Docker homepage | `TypeScript` ★ 547 | 2025-10-18 |

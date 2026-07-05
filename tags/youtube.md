@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Tyrrrz/YoutubeExplode](https://github.com/Tyrrrz/YoutubeExplode) | Abstraction layer over You Tube's internal API | `C#` ★ 3.7k | 2026-06-13 |
+| [Tyrrrz/YoutubeExplode](https://github.com/Tyrrrz/YoutubeExplode) | Abstraction layer over You Tube's internal API | `C#` ★ 3.7k | 2026-07-04 |
 | [mourad-ghafiri/youtube-mcp-server](https://github.com/mourad-ghafiri/youtube-mcp-server) | A powerful Model Context Protocol (MCP) server for You Tube video transcription and metadata extraction. | `Python` ★ 53 | 2026-01-03 |
-| [eat-pray-ai/yutu](https://github.com/eat-pray-ai/yutu) | A fully functional MCP server and CLI for You Tube | `Go` ★ 579 | 2026-07-02 |
+| [eat-pray-ai/yutu](https://github.com/eat-pray-ai/yutu) | A fully functional MCP server and CLI for You Tube | `Go` ★ 581 | 2026-07-02 |
 | [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) | Command-line program to download videos from You Tube.com and other video sites | `Python` ★ 140.6k | 2026-02-19 |
 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | An Open Source You Tube app for privacy | `Vue` ★ 21.4k | 2026-07-03 |
 | [0xced/XCDYouTubeKit](https://github.com/0xced/XCDYouTubeKit) | You Tube video player for i OS, tv OS and mac OS | `Objective-C` ★ 2.9k | 2024-04-08 |

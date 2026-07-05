@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [raycast/extensions](https://github.com/raycast/extensions) | Everything you need to extend Raycast. | `TypeScript` ★ 7.6k | 2026-07-03 |
+| [raycast/extensions](https://github.com/raycast/extensions) | Everything you need to extend Raycast. | `TypeScript` ★ 7.6k | 2026-07-05 |
 | [kodepandai/awesome-gh-cli-extensions](https://github.com/kodepandai/awesome-gh-cli-extensions) | Awesome list of github cli extensions. | `HTML` ★ 428 | 2026-05-07 |
 | [microsoft/vscode-generator-code](https://github.com/microsoft/vscode-generator-code) | Visual Studio Code extension generator | `JavaScript` ★ 1.6k | 2026-07-02 |
 | [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) | 🎨 A curated list of delightful VS Code packages and resources. | `JavaScript` ★ 28.8k | 2026-06-21 |
