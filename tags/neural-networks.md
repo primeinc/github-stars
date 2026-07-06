@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [facebookresearch/ai4animationpy](https://github.com/facebookresearch/ai4animationpy) | A Python framework for AI-driven character animation using neural networks. | `Python` ★ 2k | 2026-06-01 |
+| [facebookresearch/ai4animationpy](https://github.com/facebookresearch/ai4animationpy) | A Python framework for AI-driven character animation using neural networks. | `Python` ★ 2k | 2026-07-05 |
 | [iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab) | Deep Face Lab is the leading software for creating deepfakes. | `Python` ★ 19.3k | 2024-11-13 |

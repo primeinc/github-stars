@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [alphanome-ai/sec-parser](https://github.com/alphanome-ai/sec-parser) | Parse SEC EDGAR HTML documents into a tree of elements that correspond to the visual (semantic) structure of the document. | `Python` ★ 288 | 2026-06-25 |
-| [harshankur/officeParser](https://github.com/harshankur/officeParser) | A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met... | `Rich Text Format` ★ 491 | 2026-06-28 |
+| [harshankur/officeParser](https://github.com/harshankur/officeParser) | A robust, strictly-typed Node.js and Browser library for parsing office files (docx, pptx, xlsx, odt, odp, ods, pdf, rtf). It produces a clean, hierarchical Abstract Syntax Tree (AST) with rich met... | `Rich Text Format` ★ 492 | 2026-06-28 |
 | [ninenines/cowlib](https://github.com/ninenines/cowlib) | Support library for manipulating Web protocols. | `Erlang` ★ 293 | 2026-07-02 |
 | [AntonBergaker/InterpolatedParser](https://github.com/AntonBergaker/InterpolatedParser) | Interpolated Strings but in reverse! A very cursed C# parser library. | `C#` ★ 296 | 2025-02-24 |
 | [rasendubi/uniorg](https://github.com/rasendubi/uniorg) | An accurate Org-mode parser for Java Script/Type Script | `TypeScript` ★ 333 | 2026-06-21 |
@@ -31,10 +31,10 @@
 | [003random/getJS](https://github.com/003random/getJS) | A tool to fastly get all javascript sources/files | `Go` ★ 882 | 2025-07-04 |
 | [DFIRKuiper/Kuiper](https://github.com/DFIRKuiper/Kuiper) | Digital Forensics Investigation Platform | `JavaScript` ★ 894 | 2024-10-12 |
 | [microsoft/tolerant-php-parser](https://github.com/microsoft/tolerant-php-parser) | An early-stage PHP parser designed for IDE usage scenarios. | `PHP` ★ 896 | 2024-09-28 |
-| [guessit-io/guessit](https://github.com/guessit-io/guessit) | Guess It is a python library that extracts as much information as possible from a video filename. | `Python` ★ 917 | 2026-07-04 |
+| [guessit-io/guessit](https://github.com/guessit-io/guessit) | Guess It is a python library that extracts as much information as possible from a video filename. | `Python` ★ 917 | 2026-07-05 |
 | [APIDevTools/json-schema-ref-parser](https://github.com/APIDevTools/json-schema-ref-parser) | Parse, Resolve, and Dereference JSON Schema $ref pointers in Node and browsers | `TypeScript` ★ 1.1k | 2026-06-19 |
 | [collective/icalendar](https://github.com/collective/icalendar) | icalendar parser library for Python | `Python` ★ 1.1k | 2026-06-28 |
-| [meriyah/meriyah](https://github.com/meriyah/meriyah) | A 100% compliant, self-hosted javascript parser - https://meriyah.github.io/meriyah | `TypeScript` ★ 1.2k | 2026-07-01 |
+| [meriyah/meriyah](https://github.com/meriyah/meriyah) | A 100% compliant, self-hosted javascript parser - https://meriyah.github.io/meriyah | `TypeScript` ★ 1.2k | 2026-07-05 |
 | [APIDevTools/swagger-parser](https://github.com/APIDevTools/swagger-parser) | Swagger 2.0 and Open API 3.0 parser/validator | `JavaScript` ★ 1.2k | 2025-11-14 |
 | [webtoon/psd](https://github.com/webtoon/psd) | Fast zero-dependency PSD parser for the web and Node.js | `TypeScript` ★ 1.3k | 2024-02-05 |
 | [daniele77/cli](https://github.com/daniele77/cli) | A library for interactive command line interfaces in modern C++ | `C++` ★ 1.4k | 2025-12-22 |

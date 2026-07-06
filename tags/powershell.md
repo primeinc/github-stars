@@ -30,11 +30,11 @@
 | [jhochwald/PowerShell-collection](https://github.com/jhochwald/PowerShell-collection) | Power Shell Scripts, Tools, and Modules | `PowerShell` ★ 306 | 2026-05-09 |
 | [adbertram/Random-PowerShell-Work](https://github.com/adbertram/Random-PowerShell-Work) | Random Power Shell Work | `PowerShell` ★ 1.1k | 2024-08-06 |
 | [ironmansoftware/powershell-pro-tools](https://github.com/ironmansoftware/powershell-pro-tools) | Scripting, automation, and development tools for professionals working with Power Shell. | `C#` ★ 211 | 2025-12-08 |
-| [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11... | `PowerShell` ★ 50k | 2026-07-04 |
+| [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight Power Shell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11... | `PowerShell` ★ 50.1k | 2026-07-04 |
 | [Devolutions/powershell-universal-gallery](https://github.com/Devolutions/powershell-universal-gallery) | Public gallery of modules for Power Shell Universal | `PowerShell` ★ 89 | 2026-06-24 |
 | [Romanitho/Winget-AutoUpdate](https://github.com/Romanitho/Winget-AutoUpdate) | WAU daily updates apps as system and notify connected users. (Allowlist and Blocklist support) | `PowerShell` ★ 1.9k | 2026-06-29 |
 | [theohbrothers/ItemLinkManagement](https://github.com/theohbrothers/ItemLinkManagement) | A Power Shell module for managing hardlinks, junctions, symbolic links. | `PowerShell` ★ 3 | 2021-10-17 |
 | [PoshCode/PowerShellPracticeAndStyle](https://github.com/PoshCode/PowerShellPracticeAndStyle) | The Unofficial Power Shell Best Practices and Style Guide | ★ 2.4k | 2023-05-19 |
-| [MScholtes/PSVirtualDesktop](https://github.com/MScholtes/PSVirtualDesktop) | Virtual Desktop is a Powershell module that provides commandlets to manage virtual desktops of Windows 10. | `PowerShell` ★ 384 | 2025-08-25 |
+| [MScholtes/PSVirtualDesktop](https://github.com/MScholtes/PSVirtualDesktop) | Virtual Desktop is a Powershell module that provides commandlets to manage virtual desktops of Windows 10. | `PowerShell` ★ 385 | 2025-08-25 |
 | [nightroman/PowerShellTraps](https://github.com/nightroman/PowerShellTraps) | Collection of Power Shell traps and oddities | `PowerShell` ★ 465 | 2025-10-20 |
 | [MikeShepard/VisioBot3000](https://github.com/MikeShepard/VisioBot3000) | Simple Visio Automation from Powershell | `PowerShell` ★ 50 | 2025-07-17 |

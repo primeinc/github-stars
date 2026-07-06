@@ -6,20 +6,20 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Implement a Chat GPT-like LLM in Py Torch from scratch, step by step | `Jupyter Notebook` ★ 98.5k | 2026-06-02 |
+| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Implement a Chat GPT-like LLM in Py Torch from scratch, step by step | `Jupyter Notebook` ★ 98.6k | 2026-06-02 |
 | [babysor/MockingBird](https://github.com/babysor/MockingBird) | 🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time | `Python` ★ 36.9k | 2026-03-03 |
-| [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11.3k | 2026-07-05 |
-| [Visual-Agent/DeepEyesV2](https://github.com/Visual-Agent/DeepEyesV2) | No description provided | `Python` ★ 618 | 2026-02-26 |
-| [lutzroeder/netron](https://github.com/lutzroeder/netron) | Visualizer for neural network, deep learning and machine learning models | `JavaScript` ★ 33.2k | 2026-07-04 |
+| [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11.3k | 2026-07-06 |
+| [Visual-Agent/DeepEyesV2](https://github.com/Visual-Agent/DeepEyesV2) | No description provided | `Python` ★ 617 | 2026-02-26 |
+| [lutzroeder/netron](https://github.com/lutzroeder/netron) | Visualizer for neural network, deep learning and machine learning models | `JavaScript` ★ 33.2k | 2026-07-06 |
 | [SpeechifyInc/Resemblyzer](https://github.com/SpeechifyInc/Resemblyzer) | A python package to analyze and compare voices with deep learning | `Python` ★ 1 | 2025-11-03 |
 | [sapientinc/HRM](https://github.com/sapientinc/HRM) | Hierarchical Reasoning Model Official Release | `Python` ★ 12.6k | 2026-03-31 |
-| [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | The simplest, fastest repository for training/finetuning medium-sized GPTs. | `Python` ★ 60.6k | 2025-11-12 |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 59.1k | 2026-07-04 |
+| [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | The simplest, fastest repository for training/finetuning medium-sized GPTs. | `Python` ★ 60.8k | 2025-11-12 |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 59.2k | 2026-07-06 |
 | [NousResearch/DisTrO](https://github.com/NousResearch/DisTrO) | Distributed Training Over-The-Internet | ★ 1k | 2025-10-14 |
 | [NVlabs/DG-Net](https://github.com/NVlabs/DG-Net) | :couple: Joint Discriminative and Generative Learning for Person Re-identification. CVPR'19 (Oral) :couple: | `Python` ★ 1.3k | 2023-07-09 |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 46.7k | 2026-07-04 |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 46.8k | 2026-07-06 |
 | [datamllab/awesome-deepfakes-materials](https://github.com/datamllab/awesome-deepfakes-materials) | A curated list of awesome Deepfakes materials | ★ 441 | 2023-02-07 |
-| [GeeeekExplorer/nano-vllm](https://github.com/GeeeekExplorer/nano-vllm) | Nano v LLM | `Python` ★ 14.3k | 2026-04-26 |
+| [GeeeekExplorer/nano-vllm](https://github.com/GeeeekExplorer/nano-vllm) | Nano v LLM | `Python` ★ 14.4k | 2026-04-26 |
 | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) | Wan: Open and Advanced Large-Scale Video Generative Models | `Python` ★ 16.5k | 2026-03-05 |
 | [camel-ai/camel](https://github.com/camel-ai/camel) | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org | `Python` ★ 17.3k | 2026-06-28 |
 | [huggingface/open-r1](https://github.com/huggingface/open-r1) | Fully open reproduction of Deep Seek-R1 | `Python` ★ 26.4k | 2026-04-02 |

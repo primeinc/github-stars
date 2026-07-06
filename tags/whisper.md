@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetil... | `Rust` ★ 15.4k | 2026-06-05 |
-| [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio | `TypeScript` ★ 37.8k | 2026-07-05 |
+| [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetil... | `Rust` ★ 17.4k | 2026-06-05 |
+| [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio | `TypeScript` ★ 38k | 2026-07-05 |
 | [aiola-lab/whisper-medusa](https://github.com/aiola-lab/whisper-medusa) | Whisper with Medusa heads | `Python` ★ 860 | 2026-07-02 |
 | [McCloudS/subgen](https://github.com/McCloudS/subgen) | Autogenerate subtitles using Open AI Whisper Model via Jellyfin, Plex, Emby, Tautulli, or Bazarr | `Python` ★ 1.4k | 2026-06-29 |

@@ -13,4 +13,4 @@
 | [opethrocks/text-assist](https://github.com/opethrocks/text-assist) | AI Assistant that can communicate via SMS and MMS. Leverages Open AI and a Telnyx SIP phone number. | `JavaScript` ★ 3 | 2025-09-28 |
 | [tiniyo/neoms](https://github.com/tiniyo/neoms) | Open Source Twilio Alternative | `Go` ★ 38 | 2021-11-11 |
 | [0perationPrivacy/VoIP](https://github.com/0perationPrivacy/VoIP) | Web Base Telnyx/Twilio Vo IP Interface enabling SMS, MMS and Voice calls using the providers API Keys and self-hosting the application. | `JavaScript` ★ 292 | 2024-05-28 |
-| [msmhome/miniFaxServer](https://github.com/msmhome/miniFaxServer) | 📠 A tiny, ready to deploy, simple fax server with SMS recieve running on the Telynx Programmable Fax and SMS APIs. | `Python` ★ 8 | 2026-06-04 |
+| [msmhome/miniFaxServer](https://github.com/msmhome/miniFaxServer) | 📠 A tiny, ready to deploy, simple fax server with SMS recieve running on the Telynx Programmable Fax and SMS APIs. | `Python` ★ 8 | 2026-07-05 |

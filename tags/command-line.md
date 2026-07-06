@@ -14,7 +14,7 @@
 | [spf13/cobra](https://github.com/spf13/cobra) | A Commander for modern Go CLI interactions | `Go` ★ 44.2k | 2026-04-25 |
 | [frankbria/cli-ify-plugin](https://github.com/frankbria/cli-ify-plugin) | Convert Claude Code skills, commands, and agents into standalone CLI tools for Linux/Mac (Bash) and Windows (Power Shell). | `PowerShell` ★ 1 | 2026-01-09 |
 | [sharkdp/bat](https://github.com/sharkdp/bat) | A cat(1) clone with wings. | `Rust` ★ 59.6k | 2026-07-01 |
-| [cocos/cocos-cli](https://github.com/cocos/cocos-cli) | COCOS CLI | `TypeScript` ★ 358 | 2026-07-04 |
-| [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | 🖥 📊 🕹 🛠 A curated list of command line apps | `Shell` ★ 19.9k | 2026-07-02 |
-| [tj/commander.js](https://github.com/tj/commander.js) | node.js command-line interfaces made easy | `JavaScript` ★ 28.3k | 2026-07-02 |
+| [cocos/cocos-cli](https://github.com/cocos/cocos-cli) | COCOS CLI | `TypeScript` ★ 359 | 2026-07-06 |
+| [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | 🖥 📊 🕹 🛠 A curated list of command line apps | `Shell` ★ 19.9k | 2026-07-05 |
+| [tj/commander.js](https://github.com/tj/commander.js) | node.js command-line interfaces made easy | `JavaScript` ★ 28.3k | 2026-07-06 |
 | [veltman/clmystery](https://github.com/veltman/clmystery) | A command-line murder mystery | ★ 6.2k | 2023-09-21 |

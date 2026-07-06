@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5.3k | 2026-07-04 |
+| [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5.3k | 2026-07-06 |
 | [wigggle-ui/ui](https://github.com/wigggle-ui/ui) | A beautiful collection of copy-and-paste widgets for your next project. | `TypeScript` ★ 883 | 2026-02-26 |
 | [tremorlabs/tremor](https://github.com/tremorlabs/tremor) | Copy & Paste React components to build modern web applications. | `TypeScript` ★ 3.5k | 2025-10-10 |
 | [untitleduico/react](https://github.com/untitleduico/react) | Untitled UI React is the world’s largest collection of open-source React components built with Tailwind CSS and React Aria. Just copy, paste, and build. | `TypeScript` ★ 1.8k | 2026-06-28 |

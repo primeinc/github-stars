@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) | No description provided | `TypeScript` ★ 15.6k | 2026-07-02 |
-| [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5.3k | 2026-07-04 |
+| [chakra-ui/ark](https://github.com/chakra-ui/ark) | Build scalable design systems with React, Vue, Solid, and Svelte. | `TypeScript` ★ 5.3k | 2026-07-06 |
 | [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | AI → JSON → UI | `TypeScript` ★ 15.6k | 2026-07-01 |
 | [microsoft/data-formulator](https://github.com/microsoft/data-formulator) | 🪄 Create rich visualizations with AI | `TypeScript` ★ 15.9k | 2026-07-01 |
 | [Quaggles/SwarmUI-FaceTools](https://github.com/Quaggles/SwarmUI-FaceTools) | A Swarm UI extension that adds parameters for Re Actor to the the generate tab | `C#` ★ 28 | 2026-05-09 |

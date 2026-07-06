@@ -9,11 +9,11 @@
 | [jongio/memealyzer](https://github.com/jongio/memealyzer) | Memealyzer is an app built to demonstrate some the latest and greatest Azure tech to dev, debug, and deploy microservice applications. | `C#` ★ 105 | 2026-06-25 |
 | [Azure/azure-dev](https://github.com/Azure/azure-dev) | A developer CLI for working with Azure resources to build and deploy AI applications. Commands map to key workflow stages: code, build, deploy, and monitor. | `Go` ★ 546 | 2026-07-03 |
 | [kareldewinter/tdd-azd-monitor](https://github.com/kareldewinter/tdd-azd-monitor) | Trainer-Demo-Deploy scenario for Azure Monitor including system metrics, custom logs, and external telemetry | `Bicep` ★ 3 | 2025-11-23 |
-| [microsoft/GitHub-Copilot-for-Azure](https://github.com/microsoft/GitHub-Copilot-for-Azure) | Git Hub Copilot for Azure | `TypeScript` ★ 226 | 2026-07-03 |
+| [microsoft/GitHub-Copilot-for-Azure](https://github.com/microsoft/GitHub-Copilot-for-Azure) | Git Hub Copilot for Azure | `TypeScript` ★ 227 | 2026-07-06 |
 | [microsoft/azure-skills](https://github.com/microsoft/azure-skills) | Official agent plugin providing skills and MCP server configurations for Azure scenarios. | `Python` ★ 1.3k | 2026-07-02 |
 | [Azure/aaz-dev-tools](https://github.com/Azure/aaz-dev-tools) | Atomic Azure CLI Dev Tools | `Python` ★ 27 | 2026-06-19 |
 | [microsoft/Docker-Provider](https://github.com/microsoft/Docker-Provider) | Azure Monitor for Containers | `Ruby` ★ 171 | 2026-07-01 |
-| [adamfowlerit/msportals.io](https://github.com/adamfowlerit/msportals.io) | MSPortals.io - Microsoft Administrator Sites, Training, and Licensing Resources | `HTML` ★ 327 | 2026-06-25 |
+| [adamfowlerit/msportals.io](https://github.com/adamfowlerit/msportals.io) | MSPortals.io - Microsoft Administrator Sites, Training, and Licensing Resources | `HTML` ★ 327 | 2026-07-06 |
 | [Azure-Samples/dotNET-Frontend-AB-Testing-on-Azure-Container-Apps](https://github.com/Azure-Samples/dotNET-Frontend-AB-Testing-on-Azure-Container-Apps) | Demonstration of how ASP.NET Core developers can use Azure App Configuration's Feature Flags capabilities with Azure Container App revisions to A/B test front end apps. | `Bicep` ★ 25 | 2023-07-06 |
 | [Azure-Samples/dream-team](https://github.com/Azure-Samples/dream-team) | This repo helps you to build a team of AI agents with Autogen | `TypeScript` ★ 237 | 2026-04-21 |
 | [Azure-Samples/apptemplate-wordpress-on-aca](https://github.com/Azure-Samples/apptemplate-wordpress-on-aca) | Template to deploy Wordpress on Azure Container apps | `Bicep` ★ 35 | 2025-01-11 |
@@ -48,7 +48,7 @@
 | [Azure/azure-monitor-baseline-alerts](https://github.com/Azure/azure-monitor-baseline-alerts) | Azure Monitor Baseline Alerts | `Bicep` ★ 313 | 2026-06-03 |
 | [Azure/ALZ-PowerShell-Module](https://github.com/Azure/ALZ-PowerShell-Module) | The Azure Landing Zones Accelerators Power Shell module | `PowerShell` ★ 112 | 2026-06-25 |
 | [Azure/ALZ-Bicep](https://github.com/Azure/ALZ-Bicep) | This repository contains the Azure Landing Zones (ALZ) Bicep modules that help deliver and deploy the Azure Landing Zone conceptual architecture in a modular approach. https://aka.ms/alz/docs | `Bicep` ★ 883 | 2026-06-22 |
-| [Azure/azure-api-management-policy-toolkit](https://github.com/Azure/azure-api-management-policy-toolkit) | Azure API Management policy toolkit is a set of libraries and tools to help managing and testing policies. | `C#` ★ 89 | 2026-05-25 |
+| [Azure/azure-api-management-policy-toolkit](https://github.com/Azure/azure-api-management-policy-toolkit) | Azure API Management policy toolkit is a set of libraries and tools to help managing and testing policies. | `C#` ★ 90 | 2026-05-25 |
 | [Azure/api-management-policy-snippets](https://github.com/Azure/api-management-policy-snippets) | Re-usable examples of Azure API Management policies | ★ 402 | 2026-02-25 |
 | [microsoft/CosmosDB_Multi-Tenant](https://github.com/microsoft/CosmosDB_Multi-Tenant) | Cosmos DB for Multi-Tenant Applications | ★ 22 | 2022-12-15 |
 | [olhel/sub2tenant-aca](https://github.com/olhel/sub2tenant-aca) | Lookup Azure tenant information from a subscription ID. | `HTML` ★ 22 | 2026-05-22 |
@@ -68,7 +68,7 @@
 | [Azure-Samples/aoai-realtime-audio-sdk](https://github.com/Azure-Samples/aoai-realtime-audio-sdk) | Azure Open AI code resources for using gpt-4o-realtime capabilities. | `TypeScript` ★ 838 | 2025-09-30 |
 | [hotnops/AzureScripts](https://github.com/hotnops/AzureScripts) | Random scripts for azure stuff | `PowerShell` ★ 14 | 2022-10-12 |
 | [SpecterOps/TierZeroTable](https://github.com/SpecterOps/TierZeroTable) | Table of AD and Azure assets and whether they belong to Tier Zero | `HTML` ★ 267 | 2026-03-02 |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | Azure Data Exporter for Blood Hound | `Go` ★ 928 | 2026-06-15 |
+| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | Azure Data Exporter for Blood Hound | `Go` ★ 929 | 2026-06-15 |
 | [piyushsachdeva/AzureDevOps-Zero-to-Hero](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero) | A central hub for artifacts, agendas, and resources related to the "Azure Dev Ops Zero to Hero" series on Tech Tutorials with Piyush You Tube channel. Access code snippets, agendas, notes, graphics... | `Shell` ★ 1.3k | 2025-09-18 |
 | [Azure-Samples/communication-services-javascript-quickstarts](https://github.com/Azure-Samples/communication-services-javascript-quickstarts) | Sample code for Azure Communication Services Java Script quickstarts | `JavaScript` ★ 109 | 2025-12-16 |
 | [jamesmcroft/bicep-templates](https://github.com/jamesmcroft/bicep-templates) | A centralized resource for providing baseline templates for building and deploying infrastructure-as-code best practices using Azure Bicep | `Bicep` ★ 16 | 2026-05-11 |
