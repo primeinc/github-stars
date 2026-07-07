@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [github/github-well-architected](https://github.com/github/github-well-architected) | Apply design thinking to build and ship your software securely and at scale with Git Hub | `TypeScript` ★ 40 | 2026-07-01 |
+| [github/github-well-architected](https://github.com/github/github-well-architected) | Apply design thinking to build and ship your software securely and at scale with Git Hub | `TypeScript` ★ 40 | 2026-07-06 |
 | [Azure/aca-landing-zone-accelerator](https://github.com/Azure/aca-landing-zone-accelerator) | The Azure Container Apps landing zone accelerator is an open-source collection of architectural guidance and reference implementation to accelerate deployment of Azure Container Apps at scale. | `Bicep` ★ 217 | 2026-01-26 |
 | [mspnp/cloud-design-patterns](https://github.com/mspnp/cloud-design-patterns) | Sample implementations for cloud design patterns found in the Azure Architecture Center. | `C#` ★ 850 | 2026-06-29 |
 | [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code | `TypeScript` ★ 3.8k | 2026-07-06 |

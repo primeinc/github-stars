@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [sproutmaster/nyuprinters](https://github.com/sproutmaster/nyuprinters) | An application to help students find working printers on the NYU campus | `JavaScript` ★ 15 | 2024-05-19 |
-| [xtieume/PrinterOne](https://github.com/xtieume/PrinterOne) | A comprehensive TCP network print server with integrated GUI management and system tray support for Windows. | `Python` ★ 67 | 2025-08-05 |
+| [xtieume/PrinterOne](https://github.com/xtieume/PrinterOne) | A comprehensive TCP network print server with integrated GUI management and system tray support for Windows. | `Python` ★ 68 | 2025-08-05 |
 | [lcromer97/PrinterManager](https://github.com/lcromer97/PrinterManager) | All in one tool to manage printers. Built to be used for Screen Connect's backstage | `C#` ★ 1 | 2026-03-23 |
 | [doomspork/printergeist](https://github.com/doomspork/printergeist) | No description provided | `Rust` ★ 1 | 2024-06-14 |
 | [basillal/TrackNPrint](https://github.com/basillal/TrackNPrint) | Track NPrint is a full-stack application designed to manage and monitor bulk printing jobs with real-time tracking. It enables seamless coordination between a frontend dashboard and backend printin... | `TypeScript` ★ 2 | 2025-07-10 |

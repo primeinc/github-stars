@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [github/codeql-action](https://github.com/github/codeql-action) | Actions for running Code QL analysis | `TypeScript` ★ 1.6k | 2026-07-02 |
-| [github/codeql](https://github.com/github/codeql) | Code QL: the libraries and queries that power security researchers around the world, as well as code scanning in Git Hub Advanced Security | `CodeQL` ★ 9.8k | 2026-07-04 |
+| [github/codeql-action](https://github.com/github/codeql-action) | Actions for running Code QL analysis | `TypeScript` ★ 1.6k | 2026-07-06 |
+| [github/codeql](https://github.com/github/codeql) | Code QL: the libraries and queries that power security researchers around the world, as well as code scanning in Git Hub Advanced Security | `CodeQL` ★ 9.8k | 2026-07-06 |

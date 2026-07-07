@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) | Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first,... | `TypeScript` ★ 7.1k | 2026-06-28 |
-| [AtomicBot-ai/atomic-hermes](https://github.com/AtomicBot-ai/atomic-hermes) | The agent that grows with you | `Python` ★ 163 | 2026-05-08 |
+| [OpenCoworkAI/open-codesign](https://github.com/OpenCoworkAI/open-codesign) | Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first,... | `TypeScript` ★ 7.2k | 2026-06-28 |
+| [AtomicBot-ai/atomic-hermes](https://github.com/AtomicBot-ai/atomic-hermes) | The agent that grows with you | `Python` ★ 164 | 2026-05-08 |
 | [evolus/pencil](https://github.com/evolus/pencil) | The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use. | `JavaScript` ★ 9.8k | 2026-06-02 |
 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. | `TypeScript` ★ 39.2k | 2026-06-17 |
 | [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) | Desktop App for downloading Videos and Audios from hundreds of sites | `JavaScript` ★ 9.9k | 2026-07-04 |

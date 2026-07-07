@@ -2,19 +2,19 @@
 
 > A curated list of **2677** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-07-06
+Last updated: 2026-07-07
 
 ## ⭐ Recently Starred
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [meituan-longcat/LongCat-Image](https://github.com/meituan-longcat/LongCat-Image) | No description provided | `Python` ★ 703 | 2026-05-09 |
-| [zzet/gortex](https://github.com/zzet/gortex) | High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - ex... | `Go` ★ 819 | 2026-07-05 |
-| [opentofu/opentofu](https://github.com/opentofu/opentofu) | Open Tofu lets you declaratively manage your cloud infrastructure. | `Go` ★ 29.3k | 2026-07-04 |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | Seaweed FS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling. | `Go` ★ 33.3k | 2026-07-06 |
-| [colmap/colmap](https://github.com/colmap/colmap) | COLMAP - Structure-from-Motion and Multi-View Stereo | `C++` ★ 12.1k | 2026-07-05 |
-| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audi... | `JavaScript` ★ 6k | 2026-07-05 |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | `JavaScript` ★ 75.1k | 2026-07-01 |
+| [meituan-longcat/LongCat-Image](https://github.com/meituan-longcat/LongCat-Image) | No description provided | `Python` ★ 704 | 2026-05-09 |
+| [zzet/gortex](https://github.com/zzet/gortex) | High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - ex... | `Go` ★ 823 | 2026-07-06 |
+| [opentofu/opentofu](https://github.com/opentofu/opentofu) | Open Tofu lets you declaratively manage your cloud infrastructure. | `Go` ★ 29.3k | 2026-07-06 |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | Seaweed FS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling. | `Go` ★ 33.3k | 2026-07-07 |
+| [colmap/colmap](https://github.com/colmap/colmap) | COLMAP - Structure-from-Motion and Multi-View Stereo | `C++` ★ 12.1k | 2026-07-06 |
+| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audi... | `JavaScript` ★ 6.3k | 2026-07-06 |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | `JavaScript` ★ 76.1k | 2026-07-07 |
 | [tinfoil-herald/laz](https://github.com/tinfoil-herald/laz) | Cross-platform user input simulation and screenshots for .NET | `C#` ★ 19 | 2026-07-02 |
 | [modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) | Visual testing tool for MCP servers | `TypeScript` ★ 10.3k | 2026-07-06 |
 | [open-agent-ai-security/praxen](https://github.com/open-agent-ai-security/praxen) | Praxen — agent behavior verifier. Compares an AI agent's declared policy against the available evidence; reports where observed behavior diverges from declared intent. | `HTML` ★ 40 | 2026-06-30 |
