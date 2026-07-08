@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-07-08T04:13:25.768Z'
+  manifest_updated_at: '2026-07-08T04:14:04.494Z'
   total_repos: 2680
   generator_version: v1.0.0
   github_user: primeinc
@@ -109830,13 +109830,19 @@ repositories:
       prompt_version: v3
   - repo: cubiq/ComfyUI_Workflows
     categories:
-      - unclassified
-    tags: []
+      - documentation
+      - ui-libraries
+    tags:
+      - workflows
+      - user-interface
+      - guides
+      - easy-to-follow
+      - customization
     summary: A repository of well documented easy to follow workflows for Comfy UI
     last_synced_sha: 038cb775f2e8eb54bdbc99a8b9720177c7f8a336
     user_starred_at: '2026-07-08T00:48:15Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: null
       topics: []
@@ -109853,15 +109859,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-08T04:14:03.421Z'
+      prompt_version: v3
   - repo: Tele-AI/TeleStyleV2
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - productivity
+    tags:
+      - style-transfer
+      - image-editing
+      - lang:python
+      - gradio
+      - state-of-the-art
+      - customization
     summary: open source style transfer model on par with nano banana pro
     last_synced_sha: b9dbcf9c5a30eb815c06769c30aadd6d4327081d
     user_starred_at: '2026-07-07T19:02:30Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -109889,15 +109907,27 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-08T04:14:03.421Z'
+      prompt_version: v3
   - repo: pyannote/pyannote-audio
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - data-science
+    tags:
+      - speech-processing
+      - speaker-diarization
+      - lang:jupyter-notebook
+      - pytorch
+      - pretrained-models
+      - neural-networks
     summary: 'Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding'
     last_synced_sha: b749285c5cdd4636b2edc7f766f1352c8dde9369
     user_starred_at: '2026-07-07T15:50:28Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Jupyter Notebook
       topics:
@@ -109927,3 +109957,8 @@ repositories:
         published_at: '2026-06-30T14:29:21Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-08T04:14:03.421Z'
+      prompt_version: v3
