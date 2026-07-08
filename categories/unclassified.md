@@ -6,12 +6,12 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [meituan-longcat/LongCat-Image](https://github.com/meituan-longcat/LongCat-Image) | No description provided | `Python` ★ 704 | 2026-05-09 |
+| [meituan-longcat/LongCat-Image](https://github.com/meituan-longcat/LongCat-Image) | No description provided | `Python` ★ 703 | 2026-05-09 |
 | [firthstack/firth](https://github.com/firthstack/firth) | No description provided | `TypeScript` ★ 1 | 2026-06-27 |
 | [MicrosoftRajan/EpifiShare](https://github.com/MicrosoftRajan/EpifiShare) | No description provided | `TypeScript` ★ 2 | 2026-05-16 |
 | [dnakov/litter](https://github.com/dnakov/litter) | No description provided | `Rust` ★ 2.3k | 2026-06-01 |
 | [microsoft/adme-samples](https://github.com/microsoft/adme-samples) | No description provided | `Shell` ★ 16 | 2026-06-11 |
-| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | No description provided | `TypeScript` ★ 13.3k | 2026-07-07 |
+| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | No description provided | `TypeScript` ★ 13.4k | 2026-07-08 |
 | [LG-AI-EXAONE/EXAONE-4.5](https://github.com/LG-AI-EXAONE/EXAONE-4.5) | No description provided | ★ 42 | 2026-07-06 |
 | [cheapmanga/Skin-pack-Template](https://github.com/cheapmanga/Skin-pack-Template) | Minecraft LCE Skin-pack Template | ★ 7 | 2026-04-13 |
 | [viralcode/vib-OS](https://github.com/viralcode/vib-OS) | World's First Vibecoded AI Operating System | `C` ★ 452 | 2026-03-10 |

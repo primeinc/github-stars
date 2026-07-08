@@ -6,15 +6,15 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [colmap/colmap](https://github.com/colmap/colmap) | COLMAP - Structure-from-Motion and Multi-View Stereo | `C++` ★ 12.1k | 2026-07-06 |
+| [colmap/colmap](https://github.com/colmap/colmap) | COLMAP - Structure-from-Motion and Multi-View Stereo | `C++` ★ 12.1k | 2026-07-07 |
 | [kaito-tokyo/live-backgroundremoval-lite](https://github.com/kaito-tokyo/live-backgroundremoval-lite) | A gaming-first, high-performance, and crash-resilient background removal for OBS Studio | `C` ★ 56 | 2026-06-18 |
 | [kornia/kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `Python` ★ 11.3k | 2026-07-06 |
-| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era | `Rust` ★ 19.7k | 2026-07-07 |
-| [VisoMasterFusion/VisoMaster-Fusion](https://github.com/VisoMasterFusion/VisoMaster-Fusion) | Powerful & Easy-to-Use Video Face Swapping and Editing Software | `Python` ★ 801 | 2026-07-05 |
+| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era | `Rust` ★ 19.7k | 2026-07-08 |
+| [VisoMasterFusion/VisoMaster-Fusion](https://github.com/VisoMasterFusion/VisoMaster-Fusion) | Powerful & Easy-to-Use Video Face Swapping and Editing Software | `Python` ★ 803 | 2026-07-07 |
 | [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 基于图像识别的自动化黑盒测试框架 | An automation black-box testing framework based on image recognition | `C++` ★ 4.4k | 2026-07-04 |
 | [MrNeRF/LichtFeld-Studio](https://github.com/MrNeRF/LichtFeld-Studio) | Licht Feld Studio: Where reality and the digital world blend. | `C++` ★ 3.4k | 2026-07-07 |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `Python` ★ 59.2k | 2026-07-07 |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 47k | 2026-07-06 |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | `Python` ★ 47.2k | 2026-07-07 |
 | [towhee-io/towhee](https://github.com/towhee-io/towhee) | Towhee is a framework that is dedicated to making neural data processing pipelines simple and fast. | `Python` ★ 3.4k | 2024-10-18 |
 | [royshil/obs-detect](https://github.com/royshil/obs-detect) | Object Detection in OBS, real-time, local, GPU optional | `C++` ★ 178 | 2024-12-18 |
 | [ArtBot2023/CharacterFaceSwap](https://github.com/ArtBot2023/CharacterFaceSwap) | No description provided | `Python` ★ 102 | 2024-05-22 |

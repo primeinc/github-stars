@@ -10,5 +10,5 @@
 | [sindresorhus/type-fest](https://github.com/sindresorhus/type-fest) | A collection of essential Type Script types | `TypeScript` ★ 17.3k | 2026-07-04 |
 | [wolfdenpublishing/pyccsl](https://github.com/wolfdenpublishing/pyccsl) | Python Claude Code Status Line (Py CCSL, pronounced "pixel") | `Python` ★ 83 | 2025-08-12 |
 | [tabs-not-spaces/CodeDump](https://github.com/tabs-not-spaces/CodeDump) | things that help me. might help others. | `PowerShell` ★ 123 | 2025-03-25 |
-| [DioxusLabs/sdk](https://github.com/DioxusLabs/sdk) | A library to provide abstractions to access common utilities when developing Dioxus applications. | `Rust` ★ 293 | 2026-07-02 |
+| [DioxusLabs/sdk](https://github.com/DioxusLabs/sdk) | A library to provide abstractions to access common utilities when developing Dioxus applications. | `Rust` ★ 294 | 2026-07-02 |
 | [Anze/KeyCluCask](https://github.com/Anze/KeyCluCask) | Simple and handy overview of applications shortcuts | ★ 2.3k | 2026-06-09 |

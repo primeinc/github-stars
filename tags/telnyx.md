@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [team-telnyx/demo-node-telnyx](https://github.com/team-telnyx/demo-node-telnyx) | Samples & Examples with Telnyx-Node | `JavaScript` ★ 19 | 2026-03-18 |
-| [team-telnyx/openapi](https://github.com/team-telnyx/openapi) | Open API specification for the Telnyx API | ★ 13 | 2026-07-04 |
+| [team-telnyx/openapi](https://github.com/team-telnyx/openapi) | Open API specification for the Telnyx API | ★ 13 | 2026-07-07 |
 | [team-telnyx/demo-python-telnyx](https://github.com/team-telnyx/demo-python-telnyx) | Samples & Examples with Telnyx-Python | `Python` ★ 26 | 2026-06-08 |
 | [team-telnyx/telnyx-node](https://github.com/team-telnyx/telnyx-node) | Node SDK for the Telnyx API | `TypeScript` ★ 194 | 2026-07-06 |
 | [opethrocks/text-assist](https://github.com/opethrocks/text-assist) | AI Assistant that can communicate via SMS and MMS. Leverages Open AI and a Telnyx SIP phone number. | `JavaScript` ★ 3 | 2025-09-28 |

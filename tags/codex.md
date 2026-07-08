@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | 1 Persistent memory for AI coding agents based on real-world benchmarks | `TypeScript` ★ 24.7k | 2026-07-06 |
-| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | AI coding assistant skill (Claude Code, Codex, Open Code, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a query... | `Python` ★ 78.9k | 2026-07-06 |
-| [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini C... | `TypeScript` ★ 71.5k | 2026-07-06 |
+| [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | 1 Persistent memory for AI coding agents based on real-world benchmarks | `TypeScript` ★ 24.8k | 2026-07-06 |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | AI coding assistant skill (Claude Code, Codex, Open Code, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a query... | `Python` ★ 79.7k | 2026-07-08 |
+| [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini C... | `TypeScript` ★ 71.8k | 2026-07-06 |
 | [manaflow-ai/manaflow](https://github.com/manaflow-ai/manaflow) | Open source Claude Code web/Codex Cloud/Devin/Ramp Inspect alternative | `TypeScript` ★ 1.1k | 2026-07-05 |
-| [openai/codex-universal](https://github.com/openai/codex-universal) | Base docker image used in Codex environments | `Dockerfile` ★ 974 | 2026-05-02 |
+| [openai/codex-universal](https://github.com/openai/codex-universal) | Base docker image used in Codex environments | `Dockerfile` ★ 976 | 2026-05-02 |
