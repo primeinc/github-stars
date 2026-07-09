@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-07-09T04:35:26.790Z'
+  manifest_updated_at: '2026-07-09T04:36:04.067Z'
   total_repos: 2683
   generator_version: v1.0.0
   github_user: primeinc
@@ -109964,13 +109964,18 @@ repositories:
       prompt_version: v3
   - repo: microsoft/CCF
     categories:
-      - unclassified
-    tags: []
+      - frameworks
+      - security
+    tags:
+      - distributed-ledger
+      - governance
+      - confidentiality
+      - lang:cpp
     summary: Confidential Consortium Framework
     last_synced_sha: e22b75994657237554b6001eb4f56271a877f706
     user_starred_at: '2026-07-08T13:04:36Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C++
       topics:
@@ -110000,15 +110005,24 @@ repositories:
         published_at: '2026-07-07T17:43:43Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-09T04:36:02.901Z'
+      prompt_version: v3
   - repo: microsoft/SkillLens
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - learning
+    tags:
+      - framework
+      - skills
+      - lang:python
     summary: 'Skill Lens: a framework for studying model-generated agent skills across the full raw experience generation → skill extraction → skill consumption lifecycle.'
     last_synced_sha: c5ee10f6b566cd2ccf96f7cef115eba59606b01b
     user_starred_at: '2026-07-08T13:02:52Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics: []
@@ -110025,15 +110039,25 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-09T04:36:02.901Z'
+      prompt_version: v3
   - repo: open-webui/open-webui
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - web-dev
+    tags:
+      - llm
+      - webui
+      - self-hosted
+      - lang:python
     summary: User-friendly AI Interface (Supports Ollama, Open AI API, ...)
     last_synced_sha: ecd48e2f718220a6400ecf49eafd4867a38feb10
     user_starred_at: '2026-07-08T12:47:18Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -110067,3 +110091,8 @@ repositories:
         published_at: '2026-07-01T08:41:06Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-09T04:36:02.901Z'
+      prompt_version: v3
