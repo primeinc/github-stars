@@ -13,17 +13,17 @@
 | [vcync/modV](https://github.com/vcync/modV) | modular audio visualisation powered by Java Script | `GLSL` ★ 493 | 2026-02-17 |
 | [mountaintopsolutions/docker-obs-ndi-ng](https://github.com/mountaintopsolutions/docker-obs-ndi-ng) | Dockerized OBS + NDI plugin Next Generation | `Dockerfile` ★ 9 | 2023-03-21 |
 | [moschopsuk/ndi-router](https://github.com/moschopsuk/ndi-router) | NDI router that use the blackmagic videohub protocol | `Rust` ★ 34 | 2020-02-04 |
-| [leadedge/SpoutVideoPlayer](https://github.com/leadedge/SpoutVideoPlayer) | An Openframeworks video player for Spout and NDI output | `C++` ★ 24 | 2024-03-04 |
+| [leadedge/SpoutVideoPlayer](https://github.com/leadedge/SpoutVideoPlayer) | An Openframeworks video player for Spout and NDI output | `C++` ★ 24 | 2026-07-08 |
 | [lplassman/NDI-Recorder](https://github.com/lplassman/NDI-Recorder) | A recorder for Full NDI streams | `C` ★ 26 | 2022-05-21 |
 | [featherbear/ndi-streamer](https://github.com/featherbear/ndi-streamer) | Cross-platform display capture over NDI. Barebones version of Scan Converter made as an alternative to obs-ndi on Linux | `C++` ★ 35 | 2024-07-08 |
 | [patrickstigler/docker-obs-ndi](https://github.com/patrickstigler/docker-obs-ndi) | docker container to steam via OBS, NDI, NVENC support | `Dockerfile` ★ 24 | 2023-09-14 |
-| [gbraad-apps/NDI-Whiteboard](https://github.com/gbraad-apps/NDI-Whiteboard) | Easy to use Whiteboard application which outputs to NDI endpoint named Whiteboard. | `C#` ★ 46 | 2018-07-26 |
+| [gbraad-apps/NDI-Whiteboard](https://github.com/gbraad-apps/NDI-Whiteboard) | Easy to use Whiteboard application which outputs to NDI endpoint named Whiteboard. | `C#` ★ 47 | 2018-07-26 |
 | [featherbear/NDI-Telestrator](https://github.com/featherbear/NDI-Telestrator) | NDI Annotation tool | `C#` ★ 24 | 2024-02-25 |
 | [ningxiaoxiao/comfyui-NDI](https://github.com/ningxiaoxiao/comfyui-NDI) | NDI input and output functionality to the Comfy UI. | `Python` ★ 75 | 2025-04-11 |
 | [olegchomp/StreamDiffusion-NDI](https://github.com/olegchomp/StreamDiffusion-NDI) | No description provided | `Python` ★ 84 | 2024-01-06 |
 | [olzzon/ndi-controller](https://github.com/olzzon/ndi-controller) | Windows App - Controlling NDI routing in network | `C` ★ 58 | 2025-03-12 |
-| [lplassman/V4L2-to-NDI](https://github.com/lplassman/V4L2-to-NDI) | A video input (V4L2) to NDI converter that works with Raspberry Pi (32-bit and 64-bit), and Intel/AMD CPUs | `C++` ★ 92 | 2025-02-25 |
-| [lplassman/FFMPEG-NDI](https://github.com/lplassman/FFMPEG-NDI) | FFMPEG with NDI support | `C` ★ 83 | 2026-03-02 |
+| [lplassman/V4L2-to-NDI](https://github.com/lplassman/V4L2-to-NDI) | A video input (V4L2) to NDI converter that works with Raspberry Pi (32-bit and 64-bit), and Intel/AMD CPUs | `C++` ★ 93 | 2025-02-25 |
+| [lplassman/FFMPEG-NDI](https://github.com/lplassman/FFMPEG-NDI) | FFMPEG with NDI support | `C` ★ 84 | 2026-03-02 |
 | [florisporro/awesome-ndi](https://github.com/florisporro/awesome-ndi) | A curated list of awesome tools related to NDI | ★ 301 | 2025-04-22 |
 | [satoshi0212/NDISenderExample](https://github.com/satoshi0212/NDISenderExample) | Minimum implementation of the NDI SDK that works on the i Phone using Swift. | `C` ★ 60 | 2020-11-04 |
 | [ykhwong/ppt-ndi](https://github.com/ykhwong/ppt-ndi) | A Power Point plugin for the New Tek NDI integration | `JavaScript` ★ 233 | 2023-10-05 |

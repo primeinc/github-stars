@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [Torrekie/Battman](https://github.com/Torrekie/Battman) | Battman the Battery Manager | `Objective-C` ★ 213 | 2026-07-04 |
-| [indragiek/Context](https://github.com/indragiek/Context) | Native mac OS client for Model Context Protocol (MCP) | `Swift` ★ 798 | 2026-02-11 |
+| [indragiek/Context](https://github.com/indragiek/Context) | Native mac OS client for Model Context Protocol (MCP) | `Swift` ★ 799 | 2026-02-11 |
 | [hewigovens/app-detective](https://github.com/hewigovens/app-detective) | Detect mac OS apps' GUI tech stack | `Swift` ★ 107 | 2026-05-17 |
 | [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) | Use your mac OS terminal shell to do awesome things. | ★ 30.7k | 2026-03-04 |
 | [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | 🚀 Awesome list of open source applications for mac OS. https://t.me/s/opensourcemacosapps | ★ 49.5k | 2026-04-15 |

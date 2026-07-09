@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | A collection of notebooks/recipes showcasing some fun and effective ways of using Claude. | `Jupyter Notebook` ★ 46.6k | 2026-07-06 |
+| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | A collection of notebooks/recipes showcasing some fun and effective ways of using Claude. | `Jupyter Notebook` ★ 46.8k | 2026-07-06 |
 | [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) | A one stop repository for generative AI research updates, interview resources, notebooks and much more! | `HTML` ★ 28.2k | 2026-06-24 |
-| [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter Lab computational environment. | `TypeScript` ★ 15.2k | 2026-07-07 |
+| [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter Lab computational environment. | `TypeScript` ★ 15.2k | 2026-07-09 |
