@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-07-12T04:21:36.390Z'
+  manifest_updated_at: '2026-07-12T04:22:17.662Z'
   total_repos: 2683
   generator_version: v1.0.0
   github_user: primeinc
@@ -110056,13 +110056,19 @@ repositories:
       prompt_version: v3
   - repo: 1fairyfox/Sims4ScriptingBPProj
     categories:
-      - unclassified
-    tags: []
+      - game-dev
+      - dev-tools
+    tags:
+      - sims4
+      - modding
+      - boilerplate
+      - lang:python
+      - scripting
     summary: Sims 4 Scripting Boilerplate Project
     last_synced_sha: b165602fb2a114419292943e2e5db77a4de16649
     user_starred_at: '2023-03-22T01:39:11Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Python
       topics:
@@ -110091,3 +110097,8 @@ repositories:
       is_mirror: false
       mirror_url: null
     archived: true
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-12T04:22:16.425Z'
+      prompt_version: v3
