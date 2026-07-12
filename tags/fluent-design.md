@@ -14,4 +14,4 @@
 | [bkaankose/Wino-Mail](https://github.com/bkaankose/Wino-Mail) | Built-in Mail & Calendars app clone for Windows. | `C#` ★ 1.5k | 2026-07-10 |
 | [zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) | A fluent design widgets library based on C++ Qt/Py Qt/Py Side. Make Qt Great Again. | `Python` ★ 8k | 2026-06-28 |
 | [kimlimjustin/xplorer](https://github.com/kimlimjustin/xplorer) | Xplorer, a customizable, modern file manager | `TypeScript` ★ 5.6k | 2026-06-25 |
-| [files-community/Files](https://github.com/files-community/Files) | A modern file manager that helps users organize their files and folders. | `C#` ★ 44.2k | 2026-07-10 |
+| [files-community/Files](https://github.com/files-community/Files) | A modern file manager that helps users organize their files and folders. | `C#` ★ 44.3k | 2026-07-10 |

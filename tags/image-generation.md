@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [storytold/artcraft](https://github.com/storytold/artcraft) | Art Craft is an intentional crafting engine for artists, designers, and filmmakers | `Rust` ★ 1.9k | 2026-07-10 |
+| [storytold/artcraft](https://github.com/storytold/artcraft) | Art Craft is an intentional crafting engine for artists, designers, and filmmakers | `Rust` ★ 1.9k | 2026-07-12 |
 | [nv-tlabs/ChronoEdit](https://github.com/nv-tlabs/ChronoEdit) | \[ICLR 2026\] Chrono Edit: Towards Temporal Reasoning for Image Editing and World Simulation | `Python` ★ 697 | 2025-11-20 |
 | [mudler/LocalAI](https://github.com/mudler/LocalAI) | :robot: The free, Open Source alternative to Open AI, Claude and others. Self-hosted and local-first. Drop-in replacement, running on consumer-grade hardware. No GPU required. Runs gguf, transforme... | `Go` ★ 47.5k | 2026-07-11 |
 | [mcmonkeyprojects/SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) | Swarm UI (formerly Stable Swarm UI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility. | `C#` ★ 4.3k | 2026-07-11 |

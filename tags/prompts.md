@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popular chatbots like Chat GPT, Claude & Gemini | `JavaScript` ★ 55.9k | 2026-07-10 |
+| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popular chatbots like Chat GPT, Claude & Gemini | `JavaScript` ★ 56.3k | 2026-07-10 |
 | [LucasMali/sd-history-slider](https://github.com/LucasMali/sd-history-slider) | History Slider for Automatic 1111 SD to reverse the prompts. | `JavaScript` ★ 19 | 2023-07-18 |

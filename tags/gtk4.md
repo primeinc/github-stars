@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [megakode/wallrus](https://github.com/megakode/wallrus) | Gnome (GTK4) application to generate colorful wallpapers based on gradients and different effects. | `Rust` ★ 57 | 2026-03-10 |
-| [sonnyp/Eloquent](https://github.com/sonnyp/Eloquent) | Your proofreading assistant | `JavaScript` ★ 265 | 2025-12-16 |
+| [megakode/wallrus](https://github.com/megakode/wallrus) | Gnome (GTK4) application to generate colorful wallpapers based on gradients and different effects. | `Rust` ★ 58 | 2026-03-10 |
+| [sonnyp/Eloquent](https://github.com/sonnyp/Eloquent) | Your proofreading assistant | `JavaScript` ★ 268 | 2025-12-16 |

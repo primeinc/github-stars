@@ -9,13 +9,13 @@
 | [memvid/design-memory](https://github.com/memvid/design-memory) | Extract and reproduce design systems from any website using deterministic analysis and LLM interpretation. | `TypeScript` ★ 132 | 2026-02-15 |
 | [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | Open Stock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever ... | `TypeScript` ★ 13.8k | 2026-07-04 |
 | [C4illin/ConvertX](https://github.com/C4illin/ConvertX) | 💾 Self-hosted online file converter. Supports 1000+ formats ⚙️ | `TypeScript` ★ 17.2k | 2026-06-22 |
-| [tremorlabs/tremor-blocks](https://github.com/tremorlabs/tremor-blocks) | Tremor Blocks Source Code | `TypeScript` ★ 523 | 2025-01-22 |
+| [tremorlabs/tremor-blocks](https://github.com/tremorlabs/tremor-blocks) | Tremor Blocks Source Code | `TypeScript` ★ 524 | 2025-01-22 |
 | [Aldhanekaa/ShadcnVaults](https://github.com/Aldhanekaa/ShadcnVaults) | Collection of blocks for Internal Tools UI built on top of shadcn/ui | `TypeScript` ★ 80 | 2026-05-12 |
 | [shane-downes/styleglide](https://github.com/shane-downes/styleglide) | Create your own shadcn/ui and Tailwind CSS design system | `TypeScript` ★ 68 | 2025-12-06 |
 | [shadcnblocks/mainline-nextjs-template](https://github.com/shadcnblocks/mainline-nextjs-template) | Mainline Next.js template built with shadcn/ui, Tailwind 4 & Next.js | `TypeScript` ★ 327 | 2025-12-26 |
 | [luckgrid/lg-turbo-ui](https://github.com/luckgrid/lg-turbo-ui) | A turborepo workspace with a ready to go Next v15, React v19, and Tailwind CSS v4 UI packages and configs. | `TypeScript` ★ 2 | 2025-05-25 |
 | [satnaing/astro-paper](https://github.com/satnaing/astro-paper) | A minimal, accessible and SEO-friendly Astro blog theme | `Astro` ★ 4.8k | 2026-07-07 |
-| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. | `TypeScript` ★ 118.8k | 2026-07-10 |
+| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. | `TypeScript` ★ 118.9k | 2026-07-10 |
 | [midday-ai/packrun](https://github.com/midday-ai/packrun) | npm for agents and humans | `TypeScript` ★ 3.8k | 2026-02-06 |
 | [vercel/platforms](https://github.com/vercel/platforms) | A full-stack Next.js app with multi-tenancy. | `TypeScript` ★ 6.7k | 2026-07-08 |
 | [megh-bari/pattern-craft](https://github.com/megh-bari/pattern-craft) | Professional-grade background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for seamless integration. | `TypeScript` ★ 3k | 2026-07-08 |

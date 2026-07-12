@@ -16,8 +16,8 @@
 | [adriangalilea/namecheap-python](https://github.com/adriangalilea/namecheap-python) | A Python SDK for the Namecheap API & CLI/TUI tools using it | `Python` ★ 37 | 2026-07-09 |
 | [MoonshotAI/kosong](https://github.com/MoonshotAI/kosong) | The LLM abstraction layer for modern AI agent applications. | ★ 515 | 2026-06-22 |
 | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | Integrate cutting-edge LLM technology quickly and easily into your apps | `C#` ★ 28.3k | 2026-07-10 |
-| [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | An open source payments switch written in Rust to make payments fast, reliable and affordable | `Rust` ★ 43.2k | 2026-07-10 |
-| [meraki/dashboard-api-python](https://github.com/meraki/dashboard-api-python) | Official Dashboard API library (SDK) for Python | `Python` ★ 345 | 2026-07-10 |
+| [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | An open source payments switch written in Rust to make payments fast, reliable and affordable | `Rust` ★ 43.2k | 2026-07-11 |
+| [meraki/dashboard-api-python](https://github.com/meraki/dashboard-api-python) | Official Dashboard API library (SDK) for Python | `Python` ★ 346 | 2026-07-10 |
 | [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | The official Python SDK for Model Context Protocol servers and clients | `Python` ★ 23.6k | 2026-07-10 |
 | [team-telnyx/demo-python-telnyx](https://github.com/team-telnyx/demo-python-telnyx) | Samples & Examples with Telnyx-Python | `Python` ★ 26 | 2026-06-08 |
 | [team-telnyx/telnyx-node](https://github.com/team-telnyx/telnyx-node) | Node SDK for the Telnyx API | `TypeScript` ★ 194 | 2026-07-09 |

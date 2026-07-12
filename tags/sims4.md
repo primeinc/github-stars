@@ -1,6 +1,6 @@
 # Tag: sims4
 
-*6 repositories*
+*7 repositories*
 
 [← Back to Index](../README.md)
 
@@ -12,3 +12,4 @@
 | [CmarNYC-Tools/TS4SimRipper](https://github.com/CmarNYC-Tools/TS4SimRipper) | No description provided | `C#` ★ 70 | 2026-02-08 |
 | [mycroftjr/Sims4ScriptingTemplate](https://github.com/mycroftjr/Sims4ScriptingTemplate) | Sims 4 Scripting Template Project | `Python` ★ 19 | 2023-09-29 |
 | [sims4toolkit/s4tk-vscode](https://github.com/sims4toolkit/s4tk-vscode) | S4TK extension for Visual Studio Code. | `TypeScript` ★ 14 | 2024-12-17 |
+| [1fairyfox/Sims4ScriptingBPProj](https://github.com/1fairyfox/Sims4ScriptingBPProj) | Sims 4 Scripting Boilerplate Project | `Python` ★ 59 | 2021-06-06 |
