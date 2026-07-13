@@ -14,4 +14,4 @@
 | [CESNET/UltraGrid](https://github.com/CESNET/UltraGrid) | Ultra Grid low-latency audio and video network transmission system | `C` ★ 599 | 2026-07-10 |
 | [pandres95/ndi.js](https://github.com/pandres95/ndi.js) | NDI® SDK for Node.js | `C` ★ 57 | 2024-01-11 |
 | [mpv-player/mpv](https://github.com/mpv-player/mpv) | 🎥 Command line media player | `C` ★ 36k | 2026-07-09 |
-| [geekuillaume/soundsync](https://github.com/geekuillaume/soundsync) | Virtual cables between any audio source and any speaker in your home | `C` ★ 893 | 2023-03-04 |
+| [geekuillaume/soundsync](https://github.com/geekuillaume/soundsync) | Virtual cables between any audio source and any speaker in your home | `C` ★ 894 | 2023-03-04 |

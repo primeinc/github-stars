@@ -10,4 +10,4 @@
 | [kamailio/kamailio](https://github.com/kamailio/kamailio) | Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms - | `C` ★ 2.9k | 2026-07-11 |
 | [dOpensource/dsiprouter](https://github.com/dOpensource/dsiprouter) | UI Interface for implementing Kamailio to provide PBX Hosting and SIP Trunking Services | `Shell` ★ 233 | 2026-07-06 |
 | [irontec/sngrep](https://github.com/irontec/sngrep) | Ncurses SIP Messages flow viewer | `C` ★ 1.2k | 2026-07-08 |
-| [64characters/Telephone](https://github.com/64characters/Telephone) | SIP softphone for Mac | `Swift` ★ 1.2k | 2026-07-11 |
+| [64characters/Telephone](https://github.com/64characters/Telephone) | SIP softphone for Mac | `Swift` ★ 1.2k | 2026-07-12 |
