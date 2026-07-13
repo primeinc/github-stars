@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-07-13T04:23:58.812Z'
+  manifest_updated_at: '2026-07-13T04:24:32.872Z'
   total_repos: 2684
   generator_version: v1.0.0
   github_user: primeinc
@@ -110104,13 +110104,17 @@ repositories:
       prompt_version: v3
   - repo: faxenoff/montab
     categories:
-      - unclassified
-    tags: []
+      - desktop-dev
+      - productivity
+    tags:
+      - taskbar
+      - window-management
+      - lang:csharp
     summary: Taskbar with permanent previews
     last_synced_sha: 2d381bb531b2223cc867ff25dcf8b19b5d4cd3c0
     user_starred_at: '2026-07-12T16:32:32Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics: []
@@ -110129,3 +110133,8 @@ repositories:
         published_at: '2026-07-05T18:37:29Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-13T04:24:31.953Z'
+      prompt_version: v3
