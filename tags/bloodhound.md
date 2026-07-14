@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [p0dalirius/ShareHound](https://github.com/p0dalirius/ShareHound) | A python tool to map the access rights of network shares into a Blood Hound Open Graphs easily | `Go` ★ 305 | 2026-05-11 |
-| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | Azure Data Exporter for Blood Hound | `Go` ★ 933 | 2026-06-15 |
+| [p0dalirius/ShareHound](https://github.com/p0dalirius/ShareHound) | A python tool to map the access rights of network shares into a Blood Hound Open Graphs easily | `Go` ★ 306 | 2026-05-11 |
+| [SpecterOps/AzureHound](https://github.com/SpecterOps/AzureHound) | Azure Data Exporter for Blood Hound | `Go` ★ 934 | 2026-06-15 |

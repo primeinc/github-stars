@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [GOVCERT-LU/GCNotify](https://github.com/GOVCERT-LU/GCNotify) | GCNotify is an Outlook addin for quickly forwarding mail as attachment to a pre-defined e-mail address. | `Visual Basic .NET` ★ 12 | 2023-01-17 |
-| [tonyfederer/OutlookFileDrag](https://github.com/tonyfederer/OutlookFileDrag) | Drag and drop Outlook items as files into any application | `C#` ★ 154 | 2023-09-28 |
+| [tonyfederer/OutlookFileDrag](https://github.com/tonyfederer/OutlookFileDrag) | Drag and drop Outlook items as files into any application | `C#` ★ 153 | 2023-09-28 |

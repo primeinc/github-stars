@@ -19,7 +19,7 @@
 | [patrickstigler/docker-obs-ndi](https://github.com/patrickstigler/docker-obs-ndi) | docker container to steam via OBS, NDI, NVENC support | `Dockerfile` ★ 25 | 2023-09-14 |
 | [gbraad-apps/NDI-Whiteboard](https://github.com/gbraad-apps/NDI-Whiteboard) | Easy to use Whiteboard application which outputs to NDI endpoint named Whiteboard. | `C#` ★ 47 | 2018-07-26 |
 | [featherbear/NDI-Telestrator](https://github.com/featherbear/NDI-Telestrator) | NDI Annotation tool | `C#` ★ 24 | 2024-02-25 |
-| [ningxiaoxiao/comfyui-NDI](https://github.com/ningxiaoxiao/comfyui-NDI) | NDI input and output functionality to the Comfy UI. | `Python` ★ 75 | 2025-04-11 |
+| [ningxiaoxiao/comfyui-NDI](https://github.com/ningxiaoxiao/comfyui-NDI) | NDI input and output functionality to the Comfy UI. | `JavaScript` ★ 75 | 2026-07-13 |
 | [olegchomp/StreamDiffusion-NDI](https://github.com/olegchomp/StreamDiffusion-NDI) | No description provided | `Python` ★ 84 | 2024-01-06 |
 | [olzzon/ndi-controller](https://github.com/olzzon/ndi-controller) | Windows App - Controlling NDI routing in network | `C` ★ 58 | 2025-03-12 |
 | [lplassman/V4L2-to-NDI](https://github.com/lplassman/V4L2-to-NDI) | A video input (V4L2) to NDI converter that works with Raspberry Pi (32-bit and 64-bit), and Intel/AMD CPUs | `C++` ★ 93 | 2025-02-25 |

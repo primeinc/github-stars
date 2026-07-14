@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [Azure-Samples/snippy](https://github.com/Azure-Samples/snippy) | 🧩 Build AI-powered MCP Tools with Azure Functions, Durable Agents & Cosmos vector search. Features orchestrated multi-agent workflows using Open AI. | `Python` ★ 113 | 2025-12-18 |
-| [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | A library for efficient similarity search and clustering of dense vectors. | `C++` ★ 40.5k | 2026-07-11 |
+| [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | A library for efficient similarity search and clustering of dense vectors. | `C++` ★ 40.5k | 2026-07-13 |

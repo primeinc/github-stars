@@ -17,4 +17,4 @@
 | [jeremyFreeAgent/Bitter](https://github.com/jeremyFreeAgent/Bitter) | Bitter is a simple but powerful analytics library | `PHP` ★ 128 | 2013-09-19 |
 | [phpredis/phpredis](https://github.com/phpredis/phpredis) | A PHP extension for Redis | `C` ★ 10.2k | 2026-07-08 |
 | [perusio/php-ini-cleanup](https://github.com/perusio/php-ini-cleanup) | A script that cleans up the php.ini file with security in mind | `Awk` ★ 103 | 2013-07-30 |
-| [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) | A curated list of amazingly awesome PHP libraries, resources and shiny things. | ★ 32.6k | 2026-06-10 |
+| [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) | A curated list of amazingly awesome PHP libraries, resources and shiny things. | ★ 32.6k | 2026-07-13 |

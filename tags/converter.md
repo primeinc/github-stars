@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [omgovich/colord](https://github.com/omgovich/colord) | 👑 A tiny yet powerful tool for high-performance color manipulations and conversions | `TypeScript` ★ 1.9k | 2026-05-23 |
-| [pdfforge/PDFCreator](https://github.com/pdfforge/PDFCreator) | PDFCreator - The free PDF Converter | `C#` ★ 340 | 2026-07-06 |
+| [pdfforge/PDFCreator](https://github.com/pdfforge/PDFCreator) | PDFCreator - The free PDF Converter | `C#` ★ 341 | 2026-07-06 |

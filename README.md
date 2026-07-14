@@ -2,22 +2,22 @@
 
 > A curated list of **2684** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-07-13
+Last updated: 2026-07-14
 
 ## ⭐ Recently Starred
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [faxenoff/montab](https://github.com/faxenoff/montab) | Taskbar with permanent previews | `C#` ★ 35 | 2026-07-05 |
-| [microsoft/CCF](https://github.com/microsoft/CCF) | Confidential Consortium Framework | `C++` ★ 868 | 2026-07-11 |
-| [microsoft/SkillLens](https://github.com/microsoft/SkillLens) | Skill Lens: a framework for studying model-generated agent skills across the full raw experience generation → skill extraction → skill consumption lifecycle. | `Python` ★ 131 | 2026-05-25 |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, Open AI API, ...) | `Python` ★ 145.2k | 2026-07-10 |
+| [microsoft/CCF](https://github.com/microsoft/CCF) | Confidential Consortium Framework | `C++` ★ 868 | 2026-07-13 |
+| [microsoft/SkillLens](https://github.com/microsoft/SkillLens) | Skill Lens: a framework for studying model-generated agent skills across the full raw experience generation → skill extraction → skill consumption lifecycle. | `Python` ★ 133 | 2026-05-25 |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, Open AI API, ...) | `Python` ★ 145.3k | 2026-07-14 |
 | [cubiq/ComfyUI_Workflows](https://github.com/cubiq/ComfyUI_Workflows) | A repository of well documented easy to follow workflows for Comfy UI | ★ 824 | 2024-01-10 |
-| [Tele-AI/TeleStyleV2](https://github.com/Tele-AI/TeleStyleV2) | open source style transfer model on par with nano banana pro | `Python` ★ 88 | 2026-07-07 |
-| [pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) | Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding | `Jupyter Notebook` ★ 10.3k | 2026-07-02 |
+| [Tele-AI/TeleStyleV2](https://github.com/Tele-AI/TeleStyleV2) | open source style transfer model on par with nano banana pro | `Python` ★ 91 | 2026-07-07 |
+| [pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) | Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding | `Jupyter Notebook` ★ 10.3k | 2026-07-13 |
 | [meituan-longcat/LongCat-Image](https://github.com/meituan-longcat/LongCat-Image) | No description provided | `Python` ★ 706 | 2026-05-09 |
-| [zzet/gortex](https://github.com/zzet/gortex) | High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - ex... | `Go` ★ 847 | 2026-07-13 |
-| [opentofu/opentofu](https://github.com/opentofu/opentofu) | Open Tofu lets you declaratively manage your cloud infrastructure. | `Go` ★ 29.4k | 2026-07-10 |
+| [zzet/gortex](https://github.com/zzet/gortex) | High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - ex... | `Go` ★ 852 | 2026-07-13 |
+| [opentofu/opentofu](https://github.com/opentofu/opentofu) | Open Tofu lets you declaratively manage your cloud infrastructure. | `Go` ★ 29.4k | 2026-07-13 |
 
 ## 🏷️ Popular Tags
 
