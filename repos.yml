@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-07-15T04:11:24.055Z'
+  manifest_updated_at: '2026-07-15T04:11:57.324Z'
   total_repos: 2684
   generator_version: v1.0.0
   github_user: primeinc
@@ -110100,13 +110100,19 @@ repositories:
       prompt_version: v3
   - repo: Azure-Samples/cloud-design-patterns
     categories:
-      - unclassified
-    tags: []
+      - cloud
+      - security
+      - system-admin
+    tags:
+      - design-patterns
+      - azure
+      - cost-optimization
+      - lang:csharp
     summary: Sample implementations for cloud design patterns found in the Azure Architecture Center.
     last_synced_sha: 0a47695200e571489331e5f99465dc8ddf0db211
     user_starred_at: '2026-03-24T20:41:12Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: C#
       topics:
@@ -110131,3 +110137,8 @@ repositories:
       latest_release: null
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-15T04:11:56.132Z'
+      prompt_version: v3
