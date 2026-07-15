@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | Find, verify, and analyze leaked credentials | `Go` ★ 27k | 2026-07-12 |
+| [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | Find, verify, and analyze leaked credentials | `Go` ★ 27k | 2026-07-14 |
 | [rshipp/awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) | Defund the Police. | ★ 14k | 2024-06-07 |

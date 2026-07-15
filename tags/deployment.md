@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [node-config/node-config](https://github.com/node-config/node-config) | Node.js Application Configuration | `JavaScript` ★ 6.4k | 2026-07-10 |
-| [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 268 | 2026-07-14 |
+| [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 269 | 2026-07-14 |
 | [jamesmcroft/bicep-templates](https://github.com/jamesmcroft/bicep-templates) | A centralized resource for providing baseline templates for building and deploying infrastructure-as-code best practices using Azure Bicep | `Bicep` ★ 16 | 2026-05-11 |
-| [dokku/dokku](https://github.com/dokku/dokku) | A docker-powered Paa S that helps you build and manage the lifecycle of applications | `Shell` ★ 32k | 2026-07-13 |
+| [dokku/dokku](https://github.com/dokku/dokku) | A docker-powered Paa S that helps you build and manage the lifecycle of applications | `Shell` ★ 32k | 2026-07-14 |
 | [JJarv04/ScreenConnect-IntuneWin32](https://github.com/JJarv04/ScreenConnect-IntuneWin32) | An fork of James Vincents: 'How to Deploy Screen Connect using Intune' scripts. | `PowerShell` ★ 2 | 2025-10-07 |

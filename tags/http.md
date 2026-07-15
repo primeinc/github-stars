@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [tarampampam/webhook-tester](https://github.com/tarampampam/webhook-tester) | 🔭 Powerful tool for testing Web Hooks and more | `Go` ★ 512 | 2026-07-01 |
+| [tarampampam/webhook-tester](https://github.com/tarampampam/webhook-tester) | 🔭 Powerful tool for testing Web Hooks and more | `Go` ★ 513 | 2026-07-01 |
 | [ninenines/cowlib](https://github.com/ninenines/cowlib) | Support library for manipulating Web protocols. | `Erlang` ★ 295 | 2026-07-02 |
 | [webhooksite/webhook.site](https://github.com/webhooksite/webhook.site) | ⚓️ Easily test HTTP webhooks with this handy tool that displays requests instantly. | `JavaScript` ★ 6.7k | 2026-05-07 |
