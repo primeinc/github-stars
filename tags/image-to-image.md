@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [somanchiu/ReSwapper](https://github.com/somanchiu/ReSwapper) | Re Swapper aims to reproduce the implementation of inswapper. This repository provides code for training, inference, and includes pretrained weights. | `Python` ★ 231 | 2025-06-14 |
+| [somanchiu/ReSwapper](https://github.com/somanchiu/ReSwapper) | Re Swapper aims to reproduce the implementation of inswapper. This repository provides code for training, inference, and includes pretrained weights. | `Python` ★ 230 | 2025-06-14 |
 | [GaParmar/img2img-turbo](https://github.com/GaParmar/img2img-turbo) | One-step image-to-image with Stable Diffusion turbo: sketch2image, day2night, and more | `Python` ★ 2.5k | 2025-08-01 |

@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) | A Foundation for Scalable Cross-Platform Apps | `TypeScript` ★ 24.2k | 2026-04-29 |
+| [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) | A Foundation for Scalable Cross-Platform Apps | `TypeScript` ★ 24.3k | 2026-04-29 |
 | [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) | 👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro! | `TypeScript` ★ 38.6k | 2026-07-15 |
 | [lxieyang/chrome-extension-boilerplate-react](https://github.com/lxieyang/chrome-extension-boilerplate-react) | A Chrome Extensions boilerplate using React 18 and Webpack 5. | `JavaScript` ★ 3.9k | 2024-07-24 |
 | [1fairyfox/Sims4ScriptingBPProj](https://github.com/1fairyfox/Sims4ScriptingBPProj) | Sims 4 Scripting Boilerplate Project | `Python` ★ 59 | 2021-06-06 |

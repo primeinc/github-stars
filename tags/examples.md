@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | :iphone: Collaborative List of Open-Source i OS Apps | ★ 51.2k | 2026-07-14 |
+| [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) | :iphone: Collaborative List of Open-Source i OS Apps | ★ 51.2k | 2026-07-15 |
 | [nrwl/nx-examples](https://github.com/nrwl/nx-examples) | Example repo for Nx workspace | `TypeScript` ★ 962 | 2026-07-13 |
 | [team-telnyx/demo-dotnet-telnyx](https://github.com/team-telnyx/demo-dotnet-telnyx) | Dotnet Core Examples & Learning | `C#` ★ 4 | 2024-10-28 |

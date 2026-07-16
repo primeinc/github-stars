@@ -13,5 +13,5 @@
 | [thesephist/superstat](https://github.com/thesephist/superstat) | Git status + diff across every repo in a directory | `Makefile` ★ 41 | 2026-03-07 |
 | [Vinzent03/obsidian-git](https://github.com/Vinzent03/obsidian-git) | Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md | `TypeScript` ★ 11.6k | 2026-07-11 |
 | [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) | A list of cool features of Git and Git Hub. | ★ 57.9k | 2024-04-15 |
-| [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) | Secure, cross-platform Git credential storage with authentication to Git Hub, Azure Repos, and other popular Git hosting services. | `C#` ★ 9.1k | 2026-07-14 |
-| [microsoft/VFSForGit](https://github.com/microsoft/VFSForGit) | Virtual File System for Git: Enable Git at Enterprise Scale | `C#` ★ 6.1k | 2026-07-14 |
+| [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) | Secure, cross-platform Git credential storage with authentication to Git Hub, Azure Repos, and other popular Git hosting services. | `C#` ★ 9.1k | 2026-07-15 |
+| [microsoft/VFSForGit](https://github.com/microsoft/VFSForGit) | Virtual File System for Git: Enable Git at Enterprise Scale | `C#` ★ 6.1k | 2026-07-15 |

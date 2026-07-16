@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) | A rich terminal UI for Git Hub that doesn't break your flow. | `Go` ★ 12.1k | 2026-07-12 |
+| [dlvhdr/gh-dash](https://github.com/dlvhdr/gh-dash) | A rich terminal UI for Git Hub that doesn't break your flow. | `Go` ★ 12.1k | 2026-07-15 |
 | [resume/resume.github.com](https://github.com/resume/resume.github.com) | Resumes generated using the Git Hub informations | `JavaScript` ★ 62.9k | 2023-02-15 |
