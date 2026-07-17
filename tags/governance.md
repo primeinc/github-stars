@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/CCF](https://github.com/microsoft/CCF) | Confidential Consortium Framework | `C++` ★ 868 | 2026-07-15 |
-| [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10. | `Python` ★ 4.9k | 2026-07-16 |
+| [microsoft/CCF](https://github.com/microsoft/CCF) | Confidential Consortium Framework | `C++` ★ 868 | 2026-07-16 |
+| [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10. | `Python` ★ 4.8k | 2026-07-17 |

@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [listr2/listr2](https://github.com/listr2/listr2) | Node JS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive. | `TypeScript` ★ 679 | 2026-07-15 |
-| [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja) | The to-do app to organize your life. | `Go` ★ 4.8k | 2026-07-15 |
-| [coleam00/Archon](https://github.com/coleam00/Archon) | Beta release of Archon OS - the knowledge and task management backbone for AI coding assistants. | `TypeScript` ★ 22.9k | 2026-07-15 |
+| [listr2/listr2](https://github.com/listr2/listr2) | Node JS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive. | `TypeScript` ★ 678 | 2026-07-16 |
+| [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja) | The to-do app to organize your life. | `Go` ★ 4.8k | 2026-07-16 |
+| [coleam00/Archon](https://github.com/coleam00/Archon) | Beta release of Archon OS - the knowledge and task management backbone for AI coding assistants. | `TypeScript` ★ 22.9k | 2026-07-16 |

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, Open AI API, ...) | `Python` ★ 145.6k | 2026-07-16 |
-| [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | SD.Next: All-in-one Web UI for AI generative image and video creation, captioning and processing | `Python` ★ 7.2k | 2026-07-16 |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, Open AI API, ...) | `Python` ★ 145.7k | 2026-07-17 |
+| [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | SD.Next: All-in-one Web UI for AI generative image and video creation, captioning and processing | `Python` ★ 7.2k | 2026-07-17 |

@@ -6,20 +6,20 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [project-chip/connectedhomeip](https://github.com/project-chip/connectedhomeip) | Matter (formerly Project CHIP) creates more connections between more objects, simplifying development for manufacturers and increasing compatibility for consumers, guided by the Connectivity Standa... | `C++` ★ 8.8k | 2026-07-16 |
-| [ruvnet/RuView](https://github.com/ruvnet/RuView) | π Ru View: Wi Fi Dense Pose turns commodity Wi Fi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video. | `Rust` ★ 80.8k | 2026-07-15 |
-| [timeframe/ha-addon](https://github.com/timeframe/ha-addon) | An e-paper calendar, weather, and smart home family dashboard for Home Assistant | `Ruby` ★ 845 | 2026-07-15 |
+| [project-chip/connectedhomeip](https://github.com/project-chip/connectedhomeip) | Matter (formerly Project CHIP) creates more connections between more objects, simplifying development for manufacturers and increasing compatibility for consumers, guided by the Connectivity Standa... | `C++` ★ 8.8k | 2026-07-17 |
+| [ruvnet/RuView](https://github.com/ruvnet/RuView) | π Ru View: Wi Fi Dense Pose turns commodity Wi Fi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video. | `Rust` ★ 80.9k | 2026-07-15 |
+| [timeframe/ha-addon](https://github.com/timeframe/ha-addon) | An e-paper calendar, weather, and smart home family dashboard for Home Assistant | `Ruby` ★ 845 | 2026-07-16 |
 | [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | ROS 2 Navigation Framework and System | `C++` ★ 4.5k | 2026-07-15 |
-| [HailToDodongo/pyrite64](https://github.com/HailToDodongo/pyrite64) | N64 Game-Engine and Editor using libdragon & tiny3d | `C++` ★ 3.2k | 2026-07-14 |
+| [HailToDodongo/pyrite64](https://github.com/HailToDodongo/pyrite64) | N64 Game-Engine and Editor using libdragon & tiny3d | `C++` ★ 3.2k | 2026-07-16 |
 | [chipsalliance/Surelog](https://github.com/chipsalliance/Surelog) | System Verilog 2017 Pre-processor, Parser, Elaborator, UHDM Compiler. Provides IEEE Design/TB C/C++ VPI and Python AST & UHDM APIs. Compiles on Linux gcc, Windows msys2-gcc & msvc, Os X | `C++` ★ 466 | 2026-07-15 |
-| [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.9k | 2026-07-15 |
-| [edera-dev/sprout](https://github.com/edera-dev/sprout) | Sprout: UEFI Bootloader in Rust | `Rust` ★ 288 | 2026-07-06 |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 120.5k | 2026-07-16 |
+| [facebook/rocksdb](https://github.com/facebook/rocksdb) | A library that provides an embeddable, persistent key-value store for fast storage. | `C++` ★ 31.9k | 2026-07-16 |
+| [edera-dev/sprout](https://github.com/edera-dev/sprout) | Sprout: UEFI Bootloader in Rust | `Rust` ★ 289 | 2026-07-06 |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ | `C++` ★ 120.6k | 2026-07-17 |
 | [ClemensElflein/OpenMower](https://github.com/ClemensElflein/OpenMower) | Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots! | ★ 6.6k | 2026-06-24 |
 | [Vector-Wangel/XLeRobot](https://github.com/Vector-Wangel/XLeRobot) | XLe Robot: Practical Dual-Arm Mobile Home Robot for $660 | `Python` ★ 5.3k | 2026-04-29 |
-| [Mentra-Community/MentraOS](https://github.com/Mentra-Community/MentraOS) | Mentra OS is the leading smart glasses platform + SDK. Stream your view, transcribe audio, talk to AI and capture photos hands-free on compatible glasses. | `TypeScript` ★ 2.2k | 2026-07-16 |
+| [Mentra-Community/MentraOS](https://github.com/Mentra-Community/MentraOS) | Mentra OS is the leading smart glasses platform + SDK. Stream your view, transcribe audio, talk to AI and capture photos hands-free on compatible glasses. | `TypeScript` ★ 2.2k | 2026-07-17 |
 | [cartesiancs/vessel](https://github.com/cartesiancs/vessel) | Home security / protection system 🦾 | `TypeScript` ★ 327 | 2026-07-05 |
-| [kamailio/kamailio](https://github.com/kamailio/kamailio) | Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms - | `C` ★ 2.9k | 2026-07-15 |
+| [kamailio/kamailio](https://github.com/kamailio/kamailio) | Kamailio - The Open Source SIP Server for large Vo IP and real-time communication platforms - | `C` ★ 2.9k | 2026-07-16 |
 | [boatbod/op25](https://github.com/boatbod/op25) | Fork of osmocom OP25 by boatbod | `C++` ★ 473 | 2026-06-02 |
 | [EmenstaNougat/ESP32-BlueJammer](https://github.com/EmenstaNougat/ESP32-BlueJammer) | The ESP32-Blue Jammer (Bluetooth jammer, BLE jammer, Wi Fi jammer, RC jammer) disrupts 2.4GHz communications. Using an ESP32 and n RF24 modules, it generates noise and unnecessary packets, causing ... | ★ 6.9k | 2026-03-29 |
 | [tysonthomas9/realtor-agent](https://github.com/tysonthomas9/realtor-agent) | Realtor Agent: AI-powered tool for property analysis, running comparables, and assisting with contract document finalization in real estate transactions. | `Python` ★ 15 | 2025-02-23 |
@@ -28,7 +28,7 @@
 | [team-telnyx/spandsp](https://github.com/team-telnyx/spandsp) | Span DSP is a low-level signal processing library that modulates and demodulates signals commonly used in telephony, such as the "noise" generated by a fax modem or DTMF touchpad. | `C` ★ 1 | 2026-03-18 |
 | [openxc/uds-c](https://github.com/openxc/uds-c) | Unified Diagnostics Service (UDS) and OBD-II (On Board Diagnostics for Vehicles) C Library | `C` ★ 818 | 2021-08-16 |
 | [andrewraharjo/CAN-Bus-Hack_Prius_Focus](https://github.com/andrewraharjo/CAN-Bus-Hack_Prius_Focus) | Leverage from ioactive blog for research purpose in Self Driving Car Development | `Python` ★ 61 | 2016-08-05 |
-| [iDoka/awesome-automotive-can-id](https://github.com/iDoka/awesome-automotive-can-id) | :tractor: Collect of CAN IDs and its payloads for various car brands/models in one place. Might be useful for Cyber Security Researchers, Reverse Engineers, and Automotive Electronics Enthusiasts. | ★ 956 | 2026-07-07 |
+| [iDoka/awesome-automotive-can-id](https://github.com/iDoka/awesome-automotive-can-id) | :tractor: Collect of CAN IDs and its payloads for various car brands/models in one place. Might be useful for Cyber Security Researchers, Reverse Engineers, and Automotive Electronics Enthusiasts. | ★ 958 | 2026-07-07 |
 | [CANBus-Triple/CANBus-Triple](https://github.com/CANBus-Triple/CANBus-Triple) | CANBus Triple – The car hacking platform | `C` ★ 354 | 2019-11-11 |
 | [Brandawg93/homebridge-fordpass](https://github.com/Brandawg93/homebridge-fordpass) | Control your Ford vehicle in Home Kit using Homebridge. | `TypeScript` ★ 64 | 2026-02-11 |
 | [itchannel/fordpass-ha](https://github.com/itchannel/fordpass-ha) | Fordpass integration for Home Assistant | `Python` ★ 394 | 2025-11-07 |
@@ -43,7 +43,7 @@
 | [kitspace/awesome-electronics](https://github.com/kitspace/awesome-electronics) | A curated list of awesome resources for Electronic Engineers and hobbyists | ★ 7.9k | 2026-01-05 |
 | [frenck/awesome-home-assistant](https://github.com/frenck/awesome-home-assistant) | A curated list of amazingly awesome Home Assistant resources. | `Python` ★ 8.2k | 2026-07-14 |
 | [djsime1/awesome-flipperzero](https://github.com/djsime1/awesome-flipperzero) | 🐬 A collection of awesome resources for the Flipper Zero device. | ★ 23.8k | 2024-09-27 |
-| [olm3ca/mirror](https://github.com/olm3ca/mirror) | Enhancements for the Lululemon Mirror | ★ 237 | 2025-08-24 |
+| [olm3ca/mirror](https://github.com/olm3ca/mirror) | Enhancements for the Lululemon Mirror | ★ 238 | 2025-08-24 |
 | [cavedweller509/LMDeploy-Jetson](https://github.com/cavedweller509/LMDeploy-Jetson) | Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access. | ★ 105 | 2024-03-23 |
 | [Qengineering/realsr-ncnn-Jetson-Nano](https://github.com/Qengineering/realsr-ncnn-Jetson-Nano) | Award winning Real SR super resolution with ncnn on Jetson Nano | ★ 45 | 2023-11-24 |
 | [rockkingjy/OpenTracker](https://github.com/rockkingjy/OpenTracker) | Real-time C++ ECO tracker etc. speed-up by SSE/NEON, support Linux, Mac, Jetson TX1/2, raspberry pi | `C++` ★ 781 | 2019-06-01 |

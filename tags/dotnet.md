@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [dotnet/skills](https://github.com/dotnet/skills) | Repository for skills to assist AI coding agents with .NET and C# | `C#` ★ 4.6k | 2026-07-15 |
+| [dotnet/skills](https://github.com/dotnet/skills) | Repository for skills to assist AI coding agents with .NET and C# | `C#` ★ 4.6k | 2026-07-17 |
 | [dotnet/command-line-api](https://github.com/dotnet/command-line-api) | Command line parsing, invocation, and rendering of terminal output. | `C#` ★ 3.7k | 2026-07-14 |
 | [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) | Use OCR in Windows quickly and easily with Text Grab. With optional background process and notifications. | `C#` ★ 4.8k | 2026-07-13 |
 | [MythicAgents/Apollo](https://github.com/MythicAgents/Apollo) | A .NET Framework 4.0 Windows Agent | `C#` ★ 545 | 2026-07-14 |

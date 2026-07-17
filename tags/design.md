@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [penpot/penpot](https://github.com/penpot/penpot) | Penpot: The open-source design tool for design and code collaboration | `Clojure` ★ 56.5k | 2026-07-15 |
+| [penpot/penpot](https://github.com/penpot/penpot) | Penpot: The open-source design tool for design and code collaboration | `Clojure` ★ 56.6k | 2026-07-16 |
 | [prag-matt-ic/ps5-inspired-landing-page](https://github.com/prag-matt-ic/ps5-inspired-landing-page) | PS5 loading screen inspired showcase | `TypeScript` ★ 16 | 2025-03-25 |
 | [devicons/devicon](https://github.com/devicons/devicon) | Set of icons representing programming languages, designing & development tools | `CSS` ★ 11.7k | 2026-06-09 |
 | [pqoqubbw/icons](https://github.com/pqoqubbw/icons) | beautifully crafted animated icons | `TypeScript` ★ 7.8k | 2026-06-29 |

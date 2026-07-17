@@ -8,10 +8,10 @@
 |---|---|---|---|
 | [ozgrozer/ai-renamer](https://github.com/ozgrozer/ai-renamer) | A Node.js CLI that uses Ollama and LM Studio models (Llava, Gemma, Llama etc.) to intelligently rename files by their contents | `JavaScript` ★ 2.1k | 2025-02-09 |
 | [xec-sh/xec](https://github.com/xec-sh/xec) | Xec - Universal Execution System | `TypeScript` ★ 5 | 2026-03-15 |
-| [streamlink/streamlink](https://github.com/streamlink/streamlink) | Streamlink is a CLI utility which pipes video streams from various services into a video player | `Python` ★ 11.6k | 2026-07-14 |
+| [streamlink/streamlink](https://github.com/streamlink/streamlink) | Streamlink is a CLI utility which pipes video streams from various services into a video player | `Python` ★ 11.6k | 2026-07-16 |
 | [5a9awneh/printer-address-book-converter](https://github.com/5a9awneh/printer-address-book-converter) | Universal printer address book converter with intelligent format detection. Supports multifunction printers using Canon, Sharp, Xerox, and Develop/Konica CSV formats. Features fuzzy deduplication, ... | `PowerShell` ★ 1 | 2026-05-06 |
-| [i18next/i18next-cli](https://github.com/i18next/i18next-cli) | A unified, high-performance i18next CLI. | `TypeScript` ★ 229 | 2026-07-15 |
-| [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | `Go` ★ 52k | 2026-04-19 |
+| [i18next/i18next-cli](https://github.com/i18next/i18next-cli) | A unified, high-performance i18next CLI. | `TypeScript` ★ 229 | 2026-07-16 |
+| [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker) | The lazier way to manage everything docker | `Go` ★ 52.1k | 2026-04-19 |
 | [charmbracelet/vhs](https://github.com/charmbracelet/vhs) | Your CLI home video recorder 📼 | `Go` ★ 20.4k | 2026-06-29 |
 | [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) | Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command. | `TypeScript` ★ 2.1k | 2026-07-12 |
 | [raine/anki-llm](https://github.com/raine/anki-llm) | A CLI toolkit for bulk-processing and generating Anki flashcards with LLMs. | `Rust` ★ 273 | 2026-07-11 |

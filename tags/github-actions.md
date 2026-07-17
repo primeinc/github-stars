@@ -6,16 +6,16 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audi... | `JavaScript` ★ 8k | 2026-07-15 |
-| [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | Static analysis for Git Hub Actions | `Rust` ★ 5.9k | 2026-07-15 |
+| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audi... | `JavaScript` ★ 8.2k | 2026-07-16 |
+| [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | Static analysis for Git Hub Actions | `Rust` ★ 5.9k | 2026-07-16 |
 | [actions/runner-images](https://github.com/actions/runner-images) | Git Hub Actions runner images | `PowerShell` ★ 12.9k | 2026-07-15 |
 | [ChristopherHX/github-act-runner](https://github.com/ChristopherHX/github-act-runner) | act as self-hosted runner | `Go` ★ 388 | 2026-03-21 |
 | [ChristopherHX/runner.server](https://github.com/ChristopherHX/runner.server) | An unofficial Local Git Hub Actions and Azure Pipelines Emulator | `C#` ★ 240 | 2026-06-22 |
-| [github/gh-aw](https://github.com/github/gh-aw) | Git Hub Agentic Workflows | `Go` ★ 4.8k | 2026-07-16 |
+| [github/gh-aw](https://github.com/github/gh-aw) | Git Hub Agentic Workflows | `Go` ★ 4.8k | 2026-07-17 |
 | [Songmu/tagpr](https://github.com/Songmu/tagpr) | automatically creates and updates a pull request for unreleased items, tag them when they are merged, and create releases. | `Go` ★ 307 | 2026-07-14 |
 | [nrwl/nx-set-shas](https://github.com/nrwl/nx-set-shas) | :sparkles: A Github Action which sets the base and head SHAs required for \`nx affected\` commands in CI | `TypeScript` ★ 201 | 2026-03-26 |
 | [dorny/test-reporter](https://github.com/dorny/test-reporter) | Displays test results from popular testing frameworks directly in Git Hub | `TypeScript` ★ 1.2k | 2026-07-15 |
-| [actions/labeler](https://github.com/actions/labeler) | An action for automatically labelling pull requests | `TypeScript` ★ 2.5k | 2026-07-12 |
+| [actions/labeler](https://github.com/actions/labeler) | An action for automatically labelling pull requests | `TypeScript` ★ 2.5k | 2026-07-16 |
 | [actions/ai-inference](https://github.com/actions/ai-inference) | An action for calling AI models with Git Hub Models | `TypeScript` ★ 501 | 2026-07-09 |
 | [github/branch-deploy](https://github.com/github/branch-deploy) | Enabling Branch Deployments through Issue Ops with Git Hub Actions - If you find this project useful, give it a star! ⭐️ | `JavaScript` ★ 556 | 2026-07-06 |
 | [Azure/login](https://github.com/Azure/login) | Connect to Azure | `TypeScript` ★ 531 | 2026-04-23 |

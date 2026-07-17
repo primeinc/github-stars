@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). ... | `JavaScript` ★ 23.7k | 2026-07-15 |
+| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). ... | `JavaScript` ★ 23.8k | 2026-07-15 |
 | [HKUDS/ViMax](https://github.com/HKUDS/ViMax) | "Vi Max: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)" | `Python` ★ 11.2k | 2026-07-13 |
 | [Francis-Rings/FlashPortrait](https://github.com/Francis-Rings/FlashPortrait) | We present Flash Portrait, an end-to-end video diffusion transformer capable of synthesizing ID-preserving, infinite-length videos while achieving up to 6$\times$ acceleration in inference speed. | `Python` ★ 480 | 2026-02-21 |
 | [showlab/Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion) | A curated list of recent diffusion models for video generation, editing, and various other applications. | ★ 5.7k | 2026-06-16 |
@@ -16,4 +16,4 @@
 | [Francis-Rings/StableAvatar](https://github.com/Francis-Rings/StableAvatar) | We present Stable Avatar, the first end-to-end video diffusion transformer, which synthesizes infinite-length high-quality audio-driven avatar videos without any post-processing, conditioned on a r... | `Python` ★ 1.2k | 2026-01-20 |
 | [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1) | Wan: Open and Advanced Large-Scale Video Generative Models | `Python` ★ 16.6k | 2026-03-05 |
 | [aigc-apps/EasyAnimate](https://github.com/aigc-apps/EasyAnimate) | 📺 An End-to-End Solution for High-Resolution and Long Video Generation Based on Transformer Diffusion | `Python` ★ 2.3k | 2025-03-06 |
-| [KlingAIResearch/LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | Bring portraits to life! | `Python` ★ 18.7k | 2026-06-01 |
+| [KlingAIResearch/LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | Bring portraits to life! | `Python` ★ 18.8k | 2026-06-01 |

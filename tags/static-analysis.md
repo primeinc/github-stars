@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | Static analysis for Git Hub Actions | `Rust` ★ 5.9k | 2026-07-15 |
+| [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | Static analysis for Git Hub Actions | `Rust` ★ 5.9k | 2026-07-16 |
 | [sverweij/dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | Validate and visualize dependencies. Your rules. Java Script, Type Script, Coffee Script. ES6, Common JS, AMD. | `JavaScript` ★ 6.9k | 2026-07-12 |
 | [glayzzle/php-parser](https://github.com/glayzzle/php-parser) | :herb: Node JS PHP Parser - extract AST or tokens | `JavaScript` ★ 563 | 2026-06-17 |
 | [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust | `Rust` ★ 15.1k | 2026-07-16 |

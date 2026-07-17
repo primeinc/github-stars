@@ -2,22 +2,22 @@
 
 > A curated list of **2684** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-07-16
+Last updated: 2026-07-17
 
 ## ⭐ Recently Starred
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [faxenoff/montab](https://github.com/faxenoff/montab) | Taskbar with permanent previews | `C#` ★ 35 | 2026-07-05 |
-| [microsoft/CCF](https://github.com/microsoft/CCF) | Confidential Consortium Framework | `C++` ★ 868 | 2026-07-15 |
-| [microsoft/SkillLens](https://github.com/microsoft/SkillLens) | Skill Lens: a framework for studying model-generated agent skills across the full raw experience generation → skill extraction → skill consumption lifecycle. | `Python` ★ 134 | 2026-05-25 |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, Open AI API, ...) | `Python` ★ 145.6k | 2026-07-16 |
-| [cubiq/ComfyUI_Workflows](https://github.com/cubiq/ComfyUI_Workflows) | A repository of well documented easy to follow workflows for Comfy UI | ★ 826 | 2024-01-10 |
+| [faxenoff/montab](https://github.com/faxenoff/montab) | Taskbar with permanent previews | `C#` ★ 36 | 2026-07-05 |
+| [microsoft/CCF](https://github.com/microsoft/CCF) | Confidential Consortium Framework | `C++` ★ 868 | 2026-07-16 |
+| [microsoft/SkillLens](https://github.com/microsoft/SkillLens) | Skill Lens: a framework for studying model-generated agent skills across the full raw experience generation → skill extraction → skill consumption lifecycle. | `Python` ★ 136 | 2026-05-25 |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, Open AI API, ...) | `Python` ★ 145.7k | 2026-07-17 |
+| [cubiq/ComfyUI_Workflows](https://github.com/cubiq/ComfyUI_Workflows) | A repository of well documented easy to follow workflows for Comfy UI | ★ 827 | 2024-01-10 |
 | [Tele-AI/TeleStyleV2](https://github.com/Tele-AI/TeleStyleV2) | open source style transfer model on par with nano banana pro | `Python` ★ 92 | 2026-07-07 |
 | [pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) | Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding | `Jupyter Notebook` ★ 10.3k | 2026-07-13 |
 | [meituan-longcat/LongCat-Image](https://github.com/meituan-longcat/LongCat-Image) | No description provided | `Python` ★ 708 | 2026-05-09 |
-| [zzet/gortex](https://github.com/zzet/gortex) | High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - ex... | `Go` ★ 872 | 2026-07-15 |
-| [opentofu/opentofu](https://github.com/opentofu/opentofu) | Open Tofu lets you declaratively manage your cloud infrastructure. | `Go` ★ 29.4k | 2026-07-15 |
+| [zzet/gortex](https://github.com/zzet/gortex) | High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - ex... | `Go` ★ 877 | 2026-07-15 |
+| [opentofu/opentofu](https://github.com/opentofu/opentofu) | Open Tofu lets you declaratively manage your cloud infrastructure. | `Go` ★ 29.5k | 2026-07-16 |
 
 ## 🏷️ Popular Tags
 
