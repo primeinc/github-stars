@@ -12,10 +12,10 @@
 | [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | `C#` ★ 14.8k | 2026-07-13 |
 | [getsops/sops](https://github.com/getsops/sops) | Simple and flexible tool for managing secrets | `Go` ★ 22.5k | 2026-07-13 |
 | [FiloSottile/age](https://github.com/FiloSottile/age) | A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability. | `Go` ★ 22.9k | 2026-03-20 |
-| [zama-ai/fhevm](https://github.com/zama-ai/fhevm) | FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications | `Rust` ★ 25.2k | 2026-07-16 |
+| [zama-ai/fhevm](https://github.com/zama-ai/fhevm) | FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications | `Rust` ★ 25.2k | 2026-07-17 |
 | [Jonathanpatta/E2E-Encryption-Chat-App](https://github.com/Jonathanpatta/E2E-Encryption-Chat-App) | End-to-End Encryption Chat Application using Diffie Hellman Key Exchange protocol | `JavaScript` ★ 1 | 2021-11-27 |
 | [ljanyst/peroxide](https://github.com/ljanyst/peroxide) | A third-party Proton Mail bridge serving SMTP and IMAP | `Go` ★ 62 | 2023-01-27 |
-| [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | Cryptomator for Windows, mac OS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data. | `Java` ★ 15.7k | 2026-07-16 |
+| [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | Cryptomator for Windows, mac OS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data. | `Java` ★ 15.7k | 2026-07-17 |
 | [netheril96/securefs](https://github.com/netheril96/securefs) | Filesystem in userspace (FUSE) with transparent authenticated encryption | `C++` ★ 823 | 2026-01-09 |
 | [neurodroid/cryptonite](https://github.com/neurodroid/cryptonite) | Enc FS and True Crypt on Android | `C` ★ 207 | 2019-06-24 |
 | [defuse/php-encryption](https://github.com/defuse/php-encryption) | Simple Encryption in PHP. | `PHP` ★ 3.9k | 2024-01-02 |

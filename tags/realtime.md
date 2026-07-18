@@ -11,7 +11,7 @@
 | [supabase/realtime](https://github.com/supabase/realtime) | Broadcast, Presence, and Postgres Changes via Web Sockets | `Elixir` ★ 7.6k | 2026-07-17 |
 | [yjs/yjs](https://github.com/yjs/yjs) | Shared data types for building collaborative software | `JavaScript` ★ 22.2k | 2026-07-15 |
 | [teableio/teable](https://github.com/teableio/teable) | ✨ The Next Gen Airtable Alternative: No-Code Postgres | `TypeScript` ★ 21.5k | 2026-07-17 |
-| [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) | NVR with realtime local object detection for IP cameras | `TypeScript` ★ 34.4k | 2026-07-16 |
+| [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) | NVR with realtime local object detection for IP cameras | `TypeScript` ★ 34.4k | 2026-07-17 |
 | [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | Open Source realtime backend in 1 file | `Go` ★ 59.8k | 2026-07-16 |
 | [kyutai-labs/moshi](https://github.com/kyutai-labs/moshi) | Moshi is a speech-text foundation model and full-duplex spoken dialogue framework. It uses Mimi, a state-of-the-art streaming neural audio codec. | `Python` ★ 10.6k | 2026-05-16 |
 | [KoljaB/RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) | A robust, efficient, low-latency speech-to-text library with advanced voice activity detection, wake word activation and instant transcription. | `Python` ★ 10k | 2026-06-12 |

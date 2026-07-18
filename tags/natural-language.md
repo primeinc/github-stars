@@ -11,4 +11,4 @@
 | [junaid-mahmood/nlsh](https://github.com/junaid-mahmood/nlsh) | Turn natural language to terminal commands | `TypeScript` ★ 469 | 2026-01-22 |
 | [jasonkneen/askshell](https://github.com/jasonkneen/askshell) | Natural language to shell commands - AI-powered CLI using Ollama, Claude, Codex, Copilot, or Gemini | `Shell` ★ 4 | 2025-12-08 |
 | [openai/chatgpt-retrieval-plugin](https://github.com/openai/chatgpt-retrieval-plugin) | The Chat GPT Retrieval Plugin lets you easily find personal or work documents by asking questions in natural language. | `Python` ★ 21.2k | 2024-07-04 |
-| [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) | A natural language interface for computers | `Rust` ★ 66k | 2026-07-17 |
+| [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) | A natural language interface for computers | `Rust` ★ 66.4k | 2026-07-18 |

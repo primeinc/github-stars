@@ -13,4 +13,4 @@
 | [NVIDIAGameWorks/rtx-remix](https://github.com/NVIDIAGameWorks/rtx-remix) | Combined repo for the RTX-Remix runtime and toolkit | ★ 1.6k | 2026-06-24 |
 | [srn/nvapi-node](https://github.com/srn/nvapi-node) | Native C++ module for interfacing with NVIDIA NVAPI | `C++` ★ 4 | 2020-12-23 |
 | [jNizM/NVIDIA_NvAPI](https://github.com/jNizM/NVIDIA_NvAPI) | Converted Nv API-Functions | `AutoHotkey` ★ 39 | 2023-08-18 |
-| [KovaaK/NVidiaHotkeys](https://github.com/KovaaK/NVidiaHotkeys) | Script to change nvidia's Digital Vibrance and Hue settings by pressing hotkeys | `AutoHotkey` ★ 27 | 2019-06-30 |
+| [KovaaK/NVidiaHotkeys](https://github.com/KovaaK/NVidiaHotkeys) | Script to change nvidia's Digital Vibrance and Hue settings by pressing hotkeys | `AutoHotkey` ★ 28 | 2019-06-30 |

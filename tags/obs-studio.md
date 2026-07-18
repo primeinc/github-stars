@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [shihan84/obs-profile-generator](https://github.com/shihan84/obs-profile-generator) | A comprehensive, self-hosted OBS Studio profile generator that works across Windows, Linux, and mac OS. Create custom OBS Studio profiles with an intuitive web interface, preset templates, and cros... | `TypeScript` ★ 5 | 2025-09-08 |
+| [shihan84/obs-profile-generator](https://github.com/shihan84/obs-profile-generator) | A comprehensive, self-hosted OBS Studio profile generator that works across Windows, Linux, and mac OS. Create custom OBS Studio profiles with an intuitive web interface, preset templates, and cros... | `TypeScript` ★ 4 | 2025-09-08 |
 | [obs-websocket-community-projects/obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) | Consumes https://github.com/obsproject/obs-websocket | `TypeScript` ★ 767 | 2026-04-20 |
 | [YorVeX/xObsAsyncImageSource](https://github.com/YorVeX/xObsAsyncImageSource) | OBS plugin providing an image source that loads images asynchronously (causing a lot less lag on load). | `C#` ★ 21 | 2026-07-07 |
 | [dev47apps/droidcam-obs-plugin](https://github.com/dev47apps/droidcam-obs-plugin) | Droid Cam OBS Source | `C++` ★ 708 | 2026-06-23 |

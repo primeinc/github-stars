@@ -11,4 +11,4 @@
 | [devicons/devicon](https://github.com/devicons/devicon) | Set of icons representing programming languages, designing & development tools | `CSS` ★ 11.7k | 2026-06-09 |
 | [selfhst/icons](https://github.com/selfhst/icons) | Collection of icons and logos maintained by selfh.st | `Go` ★ 928 | 2026-07-15 |
 | [twbs/icons](https://github.com/twbs/icons) | Official open source SVG icon library for Bootstrap. | `TypeScript` ★ 8.1k | 2026-07-16 |
-| [sameerasw/folder-icons](https://github.com/sameerasw/folder-icons) | Folder icons I made in Windows 11 style. | `Python` ★ 829 | 2026-06-29 |
+| [sameerasw/folder-icons](https://github.com/sameerasw/folder-icons) | Folder icons I made in Windows 11 style. | `Python` ★ 830 | 2026-06-29 |
