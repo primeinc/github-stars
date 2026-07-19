@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-07-19T04:19:14.460Z'
+  manifest_updated_at: '2026-07-19T04:20:01.776Z'
   total_repos: 2684
   generator_version: v1.0.0
   github_user: primeinc
@@ -110099,13 +110099,20 @@ repositories:
       prompt_version: v3
   - repo: builderz-labs/mission-control
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - ai-ml
+      - productivity
+    tags:
+      - agent-orchestration
+      - task-management
+      - lang:ts
+      - self-hosted
+      - sqlite
     summary: 'Self-hosted control plane for AI agents: dispatch tasks, review runs, track spend, and operate Open Claw, Claude Code, Codex, and other runtimes.'
     last_synced_sha: 87a0277d470854741182f5ff0bec4c9ca7ca1f08
     user_starred_at: '2026-04-20T04:35:54Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -110139,3 +110146,8 @@ repositories:
         published_at: '2026-07-17T05:55:48Z'
       is_mirror: false
       mirror_url: null
+    framework: nextjs
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-19T04:20:00.559Z'
+      prompt_version: v3
