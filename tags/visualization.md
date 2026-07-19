@@ -14,7 +14,7 @@
 | [antvis/Infographic](https://github.com/antvis/Infographic) | 🦋 An Infographic Generation and Rendering Framework, bring words to life with AI! | `TypeScript` ★ 5.6k | 2026-06-01 |
 | [Aprotonix/Rainbow-Music-Visualizer-Wallpaper](https://github.com/Aprotonix/Rainbow-Music-Visualizer-Wallpaper) | Customizable Live Wallpaper showing the music and date | `JavaScript` ★ 18 | 2025-06-15 |
 | [storytellingmap/storymap](https://github.com/storytellingmap/storymap) | 3D maps with paths for drawing a story | `JavaScript` ★ 38 | 2024-03-05 |
-| [perspective-dev/perspective](https://github.com/perspective-dev/perspective) | A data visualization and analytics component, especially well-suited for large and/or streaming datasets. | `Rust` ★ 11k | 2026-07-18 |
+| [perspective-dev/perspective](https://github.com/perspective-dev/perspective) | A data visualization and analytics component, especially well-suited for large and/or streaming datasets. | `Rust` ★ 11k | 2026-07-19 |
 | [gicentre/litvis](https://github.com/gicentre/litvis) | Literate Visualization: Theory, software and examples | `TypeScript` ★ 409 | 2026-04-10 |
 | [poloclub/transformer-explainer](https://github.com/poloclub/transformer-explainer) | Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization | `JavaScript` ★ 8.2k | 2026-06-06 |
 | [chartdb/chartdb](https://github.com/chartdb/chartdb) | Database diagrams editor that allows you to visualize and design your DB with a single query. | `TypeScript` ★ 22.6k | 2026-07-16 |

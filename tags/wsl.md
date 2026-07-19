@@ -13,4 +13,4 @@
 | [dorssel/usbipd-win](https://github.com/dorssel/usbipd-win) | Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2. | `C#` ★ 5.9k | 2026-07-17 |
 | [sirredbeard/awesome-wsl](https://github.com/sirredbeard/awesome-wsl) | Awesome list dedicated to Windows Subsystem for Linux | ★ 6.5k | 2026-07-07 |
 | [mikeroyal/WSL-Guide](https://github.com/mikeroyal/WSL-Guide) | Windows Subsystem for Linux (WSL) Guide. Use WSL develop to with Kubernetes and in the Cloud (Microsoft Azure, AWS, and Google Cloud). | `Rust` ★ 425 | 2024-01-04 |
-| [microsoft/WSL](https://github.com/microsoft/WSL) | Windows Subsystem for Linux | `C++` ★ 33.1k | 2026-07-17 |
+| [microsoft/WSL](https://github.com/microsoft/WSL) | Windows Subsystem for Linux | `C++` ★ 33.1k | 2026-07-18 |

@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [unjs/obuild](https://github.com/unjs/obuild) | 📦 😯 Zero-config ESM/TS package builder. | `TypeScript` ★ 425 | 2026-07-16 |
-| [haydenbleasel/ultracite](https://github.com/haydenbleasel/ultracite) | A highly opinionated, zero-configuration linter and formatter. | `TypeScript` ★ 3.1k | 2026-07-14 |
+| [haydenbleasel/ultracite](https://github.com/haydenbleasel/ultracite) | A highly opinionated, zero-configuration linter and formatter. | `TypeScript` ★ 3.1k | 2026-07-19 |

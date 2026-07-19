@@ -10,6 +10,6 @@
 | [engineering-management/awesome-engineering-management](https://github.com/engineering-management/awesome-engineering-management) | Pointers and tools for learning and day-to-day practice of engineering management & leadership. | ★ 2.7k | 2026-05-28 |
 | [architecture-decision-record/architecture-decision-record](https://github.com/architecture-decision-record/architecture-decision-record) | Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation | ★ 16.5k | 2026-07-12 |
 | [opf/openproject](https://github.com/opf/openproject) | Open Project is the leading open source project management software. | `Ruby` ★ 15.6k | 2026-07-18 |
-| [usekaneo/kaneo](https://github.com/usekaneo/kaneo) | 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you. | `TypeScript` ★ 3.8k | 2026-07-17 |
+| [usekaneo/kaneo](https://github.com/usekaneo/kaneo) | 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you. | `TypeScript` ★ 3.8k | 2026-07-19 |
 | [makeplane/plane](https://github.com/makeplane/plane) | 🔥🔥🔥 Open-source Jira, Linear, Monday, and Click Up alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | `TypeScript` ★ 54.7k | 2026-07-17 |
 | [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) | A source-available invoice, quote, project and time-tracking app built with Laravel | `PHP` ★ 9.9k | 2026-07-15 |

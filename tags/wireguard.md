@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [tailscale/tailscale](https://github.com/tailscale/tailscale) | The easiest, most secure way to use Wire Guard and 2FA. | `Go` ★ 34k | 2026-07-18 |
+| [tailscale/tailscale](https://github.com/tailscale/tailscale) | The easiest, most secure way to use Wire Guard and 2FA. | `Go` ★ 34k | 2026-07-19 |
 | [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile) | `C++` ★ 13k | 2026-07-16 |
 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | Connect your devices into a secure Wire Guard®-based overlay network with SSO, MFA and granular access controls. | `Go` ★ 27.4k | 2026-07-17 |
 | [juanfont/headscale](https://github.com/juanfont/headscale) | An open source, self-hosted implementation of the Tailscale control server | `Go` ★ 41.8k | 2026-07-17 |

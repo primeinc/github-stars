@@ -7,5 +7,5 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [openxc/uds-c](https://github.com/openxc/uds-c) | Unified Diagnostics Service (UDS) and OBD-II (On Board Diagnostics for Vehicles) C Library | `C` ★ 818 | 2021-08-16 |
-| [iDoka/awesome-automotive-can-id](https://github.com/iDoka/awesome-automotive-can-id) | :tractor: Collect of CAN IDs and its payloads for various car brands/models in one place. Might be useful for Cyber Security Researchers, Reverse Engineers, and Automotive Electronics Enthusiasts. | ★ 959 | 2026-07-07 |
+| [iDoka/awesome-automotive-can-id](https://github.com/iDoka/awesome-automotive-can-id) | :tractor: Collect of CAN IDs and its payloads for various car brands/models in one place. Might be useful for Cyber Security Researchers, Reverse Engineers, and Automotive Electronics Enthusiasts. | ★ 960 | 2026-07-07 |
 | [CANBus-Triple/CANBus-Triple](https://github.com/CANBus-Triple/CANBus-Triple) | CANBus Triple – The car hacking platform | `C` ★ 354 | 2019-11-11 |
