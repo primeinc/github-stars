@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-07-20T04:28:42.556Z'
+  manifest_updated_at: '2026-07-20T04:29:18.983Z'
   total_repos: 2684
   generator_version: v1.0.0
   github_user: primeinc
@@ -110120,13 +110120,17 @@ repositories:
       prompt_version: v3
   - repo: 0xSero/litter
     categories:
-      - unclassified
-    tags: []
+      - dev-tools
+      - productivity
+    tags:
+      - lang:rust
+      - tooling
+      - code-organization
     summary: No description provided
     last_synced_sha: abee3ace684204a3cbc4ea1e0e903b9f31518dac
     user_starred_at: '2026-05-13T04:23:33Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: Rust
       topics: []
@@ -110145,3 +110149,8 @@ repositories:
         published_at: '2026-05-22T20:34:55Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-20T04:29:17.776Z'
+      prompt_version: v3
