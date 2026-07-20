@@ -13,4 +13,4 @@
 | [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust | `Rust` ★ 15.6k | 2026-07-18 |
 | [YassKhazzan/openperplex_backend_os](https://github.com/YassKhazzan/openperplex_backend_os) | openperplex is an opensource AI search engine | `Python` ★ 895 | 2024-08-04 |
 | [magwyz/pastec](https://github.com/magwyz/pastec) | Image recognition open source index and search engine | `C++` ★ 625 | 2023-01-09 |
-| [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | Free and Open Source, Distributed, RESTful Search Engine | `Java` ★ 77.6k | 2026-07-19 |
+| [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | Free and Open Source, Distributed, RESTful Search Engine | `Java` ★ 77.6k | 2026-07-20 |

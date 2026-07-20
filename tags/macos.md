@@ -9,10 +9,10 @@
 | [Torrekie/Battman](https://github.com/Torrekie/Battman) | Battman the Battery Manager | `Objective-C` ★ 213 | 2026-07-14 |
 | [indragiek/Context](https://github.com/indragiek/Context) | Native mac OS client for Model Context Protocol (MCP) | `Swift` ★ 799 | 2026-02-11 |
 | [hewigovens/app-detective](https://github.com/hewigovens/app-detective) | Detect mac OS apps' GUI tech stack | `Swift` ★ 108 | 2026-05-17 |
-| [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) | Use your mac OS terminal shell to do awesome things. | ★ 30.7k | 2026-03-04 |
+| [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) | Use your mac OS terminal shell to do awesome things. | ★ 30.8k | 2026-03-04 |
 | [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | 🚀 Awesome list of open source applications for mac OS. https://t.me/s/opensourcemacosapps | ★ 49.7k | 2026-04-15 |
 | [paolo-projects/auto-unlocker](https://github.com/paolo-projects/auto-unlocker) | Unlocker for VMWare mac OS | `C++` ★ 4.9k | 2025-09-17 |
-| [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) | Karabiner-Elements is a powerful tool for customizing keyboards on mac OS | `C++` ★ 22.5k | 2026-07-18 |
+| [pqrs-org/Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) | Karabiner-Elements is a powerful tool for customizing keyboards on mac OS | `C++` ★ 22.5k | 2026-07-19 |
 | [Aayush9029/NativeYoutube](https://github.com/Aayush9029/NativeYoutube) | Personal App that turned into "alpha released app" v3 | `Swift` ★ 527 | 2026-06-09 |
 | [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) |  Now we have become very big, Different from the original idea. Collect premium software in various categories. | `Swift` ★ 108.2k | 2026-07-19 |
 | [Anze/KeyCluCask](https://github.com/Anze/KeyCluCask) | Simple and handy overview of applications shortcuts | ★ 2.4k | 2026-07-17 |

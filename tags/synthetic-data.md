@@ -8,4 +8,4 @@
 |---|---|---|---|
 | [EzioBy/Ditto](https://github.com/EzioBy/Ditto) | \[Preprint 2025\] Ditto: Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset | `Python` ★ 617 | 2026-06-01 |
 | [microsoft/FaceSynthetics](https://github.com/microsoft/FaceSynthetics) | Face synthetics datasets | ★ 897 | 2025-07-08 |
-| [datajuicer/data-juicer](https://github.com/datajuicer/data-juicer) | Data processing for and with foundation models! 🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷 | `Python` ★ 6.7k | 2026-07-17 |
+| [datajuicer/data-juicer](https://github.com/datajuicer/data-juicer) | Data processing for and with foundation models! 🍎 🍋 🌽 ➡️ ➡️🍸 🍹 🍷 | `Python` ★ 6.7k | 2026-07-20 |

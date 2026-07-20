@@ -2,7 +2,7 @@
 
 > A curated list of **2684** repositories across **25** categories, automatically classified and organized.
 
-Last updated: 2026-07-19
+Last updated: 2026-07-20
 
 ## ⭐ Recently Starred
 
@@ -11,12 +11,12 @@ Last updated: 2026-07-19
 | [faxenoff/montab](https://github.com/faxenoff/montab) | Taskbar with permanent previews | `C#` ★ 37 | 2026-07-05 |
 | [microsoft/CCF](https://github.com/microsoft/CCF) | Confidential Consortium Framework | `C++` ★ 869 | 2026-07-17 |
 | [microsoft/SkillLens](https://github.com/microsoft/SkillLens) | Skill Lens: a framework for studying model-generated agent skills across the full raw experience generation → skill extraction → skill consumption lifecycle. | `Python` ★ 137 | 2026-05-25 |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, Open AI API, ...) | `Python` ★ 145.9k | 2026-07-18 |
-| [cubiq/ComfyUI_Workflows](https://github.com/cubiq/ComfyUI_Workflows) | A repository of well documented easy to follow workflows for Comfy UI | ★ 828 | 2024-01-10 |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, Open AI API, ...) | `Python` ★ 146k | 2026-07-18 |
+| [cubiq/ComfyUI_Workflows](https://github.com/cubiq/ComfyUI_Workflows) | A repository of well documented easy to follow workflows for Comfy UI | ★ 830 | 2024-01-10 |
 | [Tele-AI/TeleStyleV2](https://github.com/Tele-AI/TeleStyleV2) | open source style transfer model on par with nano banana pro | `Python` ★ 93 | 2026-07-07 |
 | [pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio) | Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding | `Jupyter Notebook` ★ 10.3k | 2026-07-17 |
-| [meituan-longcat/LongCat-Image](https://github.com/meituan-longcat/LongCat-Image) | No description provided | `Python` ★ 708 | 2026-05-09 |
-| [zzet/gortex](https://github.com/zzet/gortex) | High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - ex... | `Go` ★ 888 | 2026-07-15 |
+| [meituan-longcat/LongCat-Image](https://github.com/meituan-longcat/LongCat-Image) | No description provided | `Python` ★ 709 | 2026-05-09 |
+| [zzet/gortex](https://github.com/zzet/gortex) | High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - ex... | `Go` ★ 890 | 2026-07-19 |
 | [opentofu/opentofu](https://github.com/opentofu/opentofu) | Open Tofu lets you declaratively manage your cloud infrastructure. | `Go` ★ 29.5k | 2026-07-18 |
 
 ## 🏷️ Popular Tags
@@ -28,7 +28,7 @@ Last updated: 2026-07-19
 
 | | | |
 |---|---|---|
-| [ai-ml](categories/ai-ml.md) (750) | [productivity](categories/productivity.md) (578) | [dev-tools](categories/dev-tools.md) (391) |
+| [ai-ml](categories/ai-ml.md) (750) | [productivity](categories/productivity.md) (579) | [dev-tools](categories/dev-tools.md) (392) |
 | [web-dev](categories/web-dev.md) (382) | [automation](categories/automation.md) (306) | [security](categories/security.md) (268) |
 | [ui-libraries](categories/ui-libraries.md) (262) | [data-science](categories/data-science.md) (243) | [system-admin](categories/system-admin.md) (243) |
 | [desktop-dev](categories/desktop-dev.md) (220) | [apis](categories/apis.md) (203) | [documentation](categories/documentation.md) (193) |
@@ -36,7 +36,7 @@ Last updated: 2026-07-19
 | [frameworks](categories/frameworks.md) (92) | [monitoring](categories/monitoring.md) (81) | [game-dev](categories/game-dev.md) (80) |
 | [embedded](categories/embedded.md) (70) | [databases](categories/databases.md) (68) | [testing](categories/testing.md) (57) |
 | [mobile-dev](categories/mobile-dev.md) (54) | [containers](categories/containers.md) (44) | [deployment](categories/deployment.md) (33) |
-| [unclassified](categories/unclassified.md) (23) |  |  |
+| [unclassified](categories/unclassified.md) (22) |  |  |
 
 </details>
 

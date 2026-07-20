@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [listr2/listr2](https://github.com/listr2/listr2) | Node JS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive. | `TypeScript` ★ 678 | 2026-07-18 |
-| [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) | Self-hosted control plane for AI agents: dispatch tasks, review runs, track spend, and operate Open Claw, Claude Code, Codex, and other runtimes. | `TypeScript` ★ 5.8k | 2026-07-18 |
-| [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja) | The to-do app to organize your life. | `Go` ★ 4.8k | 2026-07-19 |
+| [listr2/listr2](https://github.com/listr2/listr2) | Node JS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive. | `TypeScript` ★ 677 | 2026-07-20 |
+| [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) | Self-hosted control plane for AI agents: dispatch tasks, review runs, track spend, and operate Open Claw, Claude Code, Codex, and other runtimes. | `TypeScript` ★ 5.8k | 2026-07-20 |
+| [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja) | The to-do app to organize your life. | `Go` ★ 4.8k | 2026-07-20 |
 | [coleam00/Archon](https://github.com/coleam00/Archon) | Beta release of Archon OS - the knowledge and task management backbone for AI coding assistants. | `TypeScript` ★ 22.9k | 2026-07-17 |

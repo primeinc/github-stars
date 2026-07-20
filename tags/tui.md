@@ -6,10 +6,10 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [smarzban/herdr-file-viewer](https://github.com/smarzban/herdr-file-viewer) | A git-aware, read-only file viewer for herdr — a keyboard-driven TUI: tree + content pane with diffs, rendered markdown, and syntax highlighting. | `Rust` ★ 159 | 2026-07-16 |
+| [smarzban/herdr-file-viewer](https://github.com/smarzban/herdr-file-viewer) | A git-aware, read-only file viewer for herdr — a keyboard-driven TUI: tree + content pane with diffs, rendered markdown, and syntax highlighting. | `Rust` ★ 173 | 2026-07-20 |
 | [domcyrus/rustnet](https://github.com/domcyrus/rustnet) | Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed. | `Rust` ★ 4.7k | 2026-07-18 |
 | [agavra/tuicr](https://github.com/agavra/tuicr) | a terminal UI for local code review | `Rust` ★ 1.1k | 2026-07-18 |
-| [AlexsJones/llmserve](https://github.com/AlexsJones/llmserve) | A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it | `Rust` ★ 309 | 2026-07-18 |
+| [AlexsJones/llmserve](https://github.com/AlexsJones/llmserve) | A simple TUI for serving local LLM models. Pick a model, pick a backend, serve it | `Rust` ★ 313 | 2026-07-19 |
 | [ymtdzzz/otel-tui](https://github.com/ymtdzzz/otel-tui) | A terminal Open Telemetry viewer inspired by otel-desktop-viewer | `Go` ★ 1.1k | 2026-07-13 |
 | [curtosis-org/phub-cli](https://github.com/curtosis-org/phub-cli) | Terminal-based Porn Hub browser inspired by ani-cli. Browse categories, search videos, and stream instantly in mpv without opening a browser. | `Shell` ★ 147 | 2026-06-24 |
 | [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | A powerful little TUI framework 🏗 | `Go` ★ 43.8k | 2026-07-13 |

@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. | `TypeScript` ★ 119.3k | 2026-07-17 |
-| [storybookjs/storybook](https://github.com/storybookjs/storybook) | Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation | `TypeScript` ★ 90.6k | 2026-07-18 |
+| [storybookjs/storybook](https://github.com/storybookjs/storybook) | Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation | `TypeScript` ★ 90.6k | 2026-07-19 |
 | [d2phap/fluent-reveal-effect](https://github.com/d2phap/fluent-reveal-effect) | Fluent Reveal Effect Java Script library for web | `TypeScript` ★ 226 | 2026-04-06 |
 | [microsoft/fluentui](https://github.com/microsoft/fluentui) | Fluent UI web represents a collection of utilities, React components, and web components for building web applications. | `TypeScript` ★ 20.2k | 2026-07-17 |
 | [nuxt/ui](https://github.com/nuxt/ui) | The Intuitive Vue UI Library powered by Reka UI & Tailwind CSS. | `TypeScript` ★ 6.8k | 2026-07-19 |
