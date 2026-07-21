@@ -1,7 +1,7 @@
 schema_version: 3.0.0
 manifest_metadata:
   generated_at: '2025-07-15T00:00:00Z'
-  manifest_updated_at: '2026-07-21T04:13:56.366Z'
+  manifest_updated_at: '2026-07-21T04:14:29.436Z'
   total_repos: 2684
   generator_version: v1.0.0
   github_user: primeinc
@@ -110129,13 +110129,19 @@ repositories:
       prompt_version: v3
   - repo: Code-with-Beto/snapai
     categories:
-      - unclassified
-    tags: []
+      - ai-ml
+      - dev-tools
+    tags:
+      - ai
+      - icon-generator
+      - cli
+      - react-native
+      - lang:ts
     summary: AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using Open AI's latest models.
     last_synced_sha: a60d5393287cbf46794507e6ee0ff54d689d5976
     user_starred_at: '2025-09-14T07:03:14Z'
     readme_quality: missing
-    needs_review: true
+    needs_review: false
     github_metadata:
       language: TypeScript
       topics:
@@ -110161,3 +110167,8 @@ repositories:
         published_at: '2026-07-20T16:21:02Z'
       is_mirror: false
       mirror_url: null
+    framework: null
+    ai_classification:
+      model: gpt-4o
+      classified_at: '2026-07-21T04:14:28.283Z'
+      prompt_version: v3
