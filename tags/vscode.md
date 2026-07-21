@@ -12,4 +12,4 @@
 | [microsoft/vscode-copilot-chat](https://github.com/microsoft/vscode-copilot-chat) | Copilot Chat extension for VS Code | `TypeScript` ★ 10k | 2026-05-20 |
 | [palashmon/awesome-vscode-settings](https://github.com/palashmon/awesome-vscode-settings) | 🎨 A curated list of simple and awesome VS Code settings | ★ 65 | 2026-04-08 |
 | [viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode) | 🎨 A curated list of delightful VS Code packages and resources. | `JavaScript` ★ 28.9k | 2026-06-21 |
-| [hassio-addons/addon-vscode](https://github.com/hassio-addons/addon-vscode) | Studio Code Server - Home Assistant Community Add-ons | `Dockerfile` ★ 673 | 2026-07-18 |
+| [hassio-addons/addon-vscode](https://github.com/hassio-addons/addon-vscode) | Studio Code Server - Home Assistant Community Add-ons | `Dockerfile` ★ 674 | 2026-07-19 |

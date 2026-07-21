@@ -10,7 +10,7 @@
 | [AtomicBot-ai/atomic-hermes](https://github.com/AtomicBot-ai/atomic-hermes) | The agent that grows with you | `Python` ★ 167 | 2026-05-08 |
 | [evolus/pencil](https://github.com/evolus/pencil) | The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use. | `JavaScript` ★ 9.8k | 2026-06-02 |
 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. | `TypeScript` ★ 39.6k | 2026-06-17 |
-| [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) | Desktop App for downloading Videos and Audios from hundreds of sites | `JavaScript` ★ 10k | 2026-07-19 |
+| [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) | Desktop App for downloading Videos and Audios from hundreds of sites | `JavaScript` ★ 10k | 2026-07-20 |
 | [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) | A Foundation for Scalable Cross-Platform Apps | `TypeScript` ★ 24.3k | 2026-04-29 |
 | [volcengine/MineContext](https://github.com/volcengine/MineContext) | Mine Context is your proactive context-aware AI partner（Context-Engineering+Chat GPT Pulse） | `Python` ★ 5.4k | 2026-05-07 |
 | [nativefier/nativefier](https://github.com/nativefier/nativefier) | Make any web page a desktop application | `TypeScript` ★ 35.3k | 2023-09-29 |
