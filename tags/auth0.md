@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [auth0/auth0.js](https://github.com/auth0/auth0.js) | Auth0 headless browser sdk | `JavaScript` ★ 1.1k | 2026-07-14 |
-| [auth0/node-auth0](https://github.com/auth0/node-auth0) | Node.js client library for the Auth0 platform. | `TypeScript` ★ 682 | 2026-07-16 |
+| [auth0/node-auth0](https://github.com/auth0/node-auth0) | Node.js client library for the Auth0 platform. | `TypeScript` ★ 682 | 2026-07-21 |

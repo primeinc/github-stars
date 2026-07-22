@@ -6,12 +6,12 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .claude directory. | `Shell` ★ 179.2k | 2026-07-17 |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .claude directory. | `Shell` ★ 180.8k | 2026-07-21 |
 | [e2b-dev/mcp-server](https://github.com/e2b-dev/mcp-server) | Giving Claude ability to run code with E2B via MCP (Model Context Protocol) | `JavaScript` ★ 395 | 2026-04-16 |
-| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. | `JavaScript` ★ 40.9k | 2026-07-16 |
-| [obra/superpowers](https://github.com/obra/superpowers) | Claude Code superpowers: core skills library | `Shell` ★ 258.3k | 2026-07-20 |
+| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. | `JavaScript` ★ 41.1k | 2026-07-16 |
+| [obra/superpowers](https://github.com/obra/superpowers) | Claude Code superpowers: core skills library | `Shell` ★ 258.9k | 2026-07-21 |
 | [nilbuild/claude-run](https://github.com/nilbuild/claude-run) | A beautiful web UI for browsing Claude Code conversation history. | `TypeScript` ★ 612 | 2026-02-23 |
-| [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | omo; the best agent harness - previously oh-my-opencode | `TypeScript` ★ 66.3k | 2026-07-21 |
+| [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | omo; the best agent harness - previously oh-my-opencode | `TypeScript` ★ 66.4k | 2026-07-22 |
 | [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) | These are commands I use with agents, mostly Claude | `TypeScript` ★ 2.8k | 2026-07-19 |
 | [stravu/crystal](https://github.com/stravu/crystal) | Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app. | `TypeScript` ★ 3.1k | 2026-02-26 |
-| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | A collection of notebooks/recipes showcasing some fun and effective ways of using Claude. | `Jupyter Notebook` ★ 49.2k | 2026-07-13 |
+| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | A collection of notebooks/recipes showcasing some fun and effective ways of using Claude. | `Jupyter Notebook` ★ 49.3k | 2026-07-13 |

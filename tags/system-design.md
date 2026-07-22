@@ -6,6 +6,6 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [tt-a1i/archify](https://github.com/tt-a1i/archify) | Claude Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/Web P/SVG export | `JavaScript` ★ 6.3k | 2026-07-21 |
-| [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. | `Python` ★ 358.5k | 2026-03-20 |
+| [tt-a1i/archify](https://github.com/tt-a1i/archify) | Claude Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/Web P/SVG export | `HTML` ★ 6.8k | 2026-07-22 |
+| [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards. | `Python` ★ 358.7k | 2026-03-20 |
 | [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | Explain complex systems using visuals and simple terms. Help you prepare for system design interviews. | ★ 86.3k | 2025-04-04 |

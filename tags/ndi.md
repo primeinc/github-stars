@@ -10,7 +10,7 @@
 | [p2sr/discord2ip](https://github.com/p2sr/discord2ip) | A Java program that rebroadcasts a Discord Voice Channel over NDI. Used in the ttv/portal2speedruns setup. | `Java` ★ 5 | 2021-08-04 |
 | [keijiro/Nsmp](https://github.com/keijiro/Nsmp) | Teleprompter via NDI | `C#` ★ 13 | 2022-11-27 |
 | [ualmarcus/Newtek-cURL](https://github.com/ualmarcus/Newtek-cURL) | c URL Commands to control Newtek's NDI Studio Monitor on the Windows platform. | ★ 15 | 2018-11-12 |
-| [vcync/modV](https://github.com/vcync/modV) | modular audio visualisation powered by Java Script | `GLSL` ★ 495 | 2026-02-17 |
+| [vcync/modV](https://github.com/vcync/modV) | modular audio visualisation powered by Java Script | `GLSL` ★ 494 | 2026-02-17 |
 | [mountaintopsolutions/docker-obs-ndi-ng](https://github.com/mountaintopsolutions/docker-obs-ndi-ng) | Dockerized OBS + NDI plugin Next Generation | `Dockerfile` ★ 9 | 2023-03-21 |
 | [moschopsuk/ndi-router](https://github.com/moschopsuk/ndi-router) | NDI router that use the blackmagic videohub protocol | `Rust` ★ 34 | 2020-02-04 |
 | [leadedge/SpoutVideoPlayer](https://github.com/leadedge/SpoutVideoPlayer) | An Openframeworks video player for Spout and NDI output | `C++` ★ 24 | 2026-07-08 |
