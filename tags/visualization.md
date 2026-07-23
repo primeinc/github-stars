@@ -16,6 +16,6 @@
 | [storytellingmap/storymap](https://github.com/storytellingmap/storymap) | 3D maps with paths for drawing a story | `JavaScript` ★ 38 | 2024-03-05 |
 | [perspective-dev/perspective](https://github.com/perspective-dev/perspective) | A data visualization and analytics component, especially well-suited for large and/or streaming datasets. | `Rust` ★ 11k | 2026-07-21 |
 | [gicentre/litvis](https://github.com/gicentre/litvis) | Literate Visualization: Theory, software and examples | `TypeScript` ★ 409 | 2026-04-10 |
-| [poloclub/transformer-explainer](https://github.com/poloclub/transformer-explainer) | Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization | `JavaScript` ★ 8.2k | 2026-06-06 |
+| [poloclub/transformer-explainer](https://github.com/poloclub/transformer-explainer) | Transformer Explained Visually: Learn How LLM Transformer Models Work with Interactive Visualization | `JavaScript` ★ 8.3k | 2026-06-06 |
 | [chartdb/chartdb](https://github.com/chartdb/chartdb) | Database diagrams editor that allows you to visualize and design your DB with a single query. | `TypeScript` ★ 22.6k | 2026-07-16 |
 | [Netflix/vector](https://github.com/Netflix/vector) | Vector is an on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer’s browser. | `JavaScript` ★ 3.6k | 2021-08-10 |

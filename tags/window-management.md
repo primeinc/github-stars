@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [faxenoff/montab](https://github.com/faxenoff/montab) | Taskbar with permanent previews | `C#` ★ 38 | 2026-07-05 |
-| [hwtnb/SylphyHornPlusWin11](https://github.com/hwtnb/SylphyHornPlusWin11) | Virtual Desktop Tools for Windows 11 and 10. | `C#` ★ 426 | 2024-12-24 |
+| [faxenoff/montab](https://github.com/faxenoff/montab) | Taskbar with permanent previews | `C#` ★ 39 | 2026-07-05 |
+| [hwtnb/SylphyHornPlusWin11](https://github.com/hwtnb/SylphyHornPlusWin11) | Virtual Desktop Tools for Windows 11 and 10. | `C#` ★ 427 | 2024-12-24 |

@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [payloadcms/payload](https://github.com/payloadcms/payload) | Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full Type Script backend and admin panel instantly. Use Payload as a headless CMS or for build... | `TypeScript` ★ 43.7k | 2026-07-22 |
-| [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first. | `TypeScript` ★ 72.7k | 2026-07-21 |
+| [payloadcms/payload](https://github.com/payloadcms/payload) | Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full Type Script backend and admin panel instantly. Use Payload as a headless CMS or for build... | `TypeScript` ★ 43.7k | 2026-07-23 |
+| [strapi/strapi](https://github.com/strapi/strapi) | 🚀 Strapi is the leading open-source headless CMS. It’s 100% Java Script/Type Script, fully customizable, and developer-first. | `TypeScript` ★ 72.7k | 2026-07-22 |

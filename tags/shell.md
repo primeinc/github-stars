@@ -15,8 +15,8 @@
 | [chr15m/runprompt](https://github.com/chr15m/runprompt) | Run LLM prompts from your shell | `Python` ★ 443 | 2026-06-13 |
 | [jasonkneen/askshell](https://github.com/jasonkneen/askshell) | Natural language to shell commands - AI-powered CLI using Ollama, Claude, Codex, Copilot, or Gemini | `Shell` ★ 4 | 2025-12-08 |
 | [nvbn/thefuck](https://github.com/nvbn/thefuck) | Magnificent app which corrects your previous console command. | `Python` ★ 97.6k | 2024-07-19 |
-| [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `Shell` ★ 271 | 2026-07-16 |
-| [atuinsh/atuin](https://github.com/atuinsh/atuin) | ✨ Magical shell history | `Rust` ★ 30.7k | 2026-07-22 |
+| [Seeed-Projects/jetson-examples](https://github.com/Seeed-Projects/jetson-examples) | The jetson-examples repository by Seeed Studio offers a seamless, one-line command deployment to run vision AI and Generative AI models on the NVIDIA Jetson platform. | `C++` ★ 271 | 2026-07-22 |
+| [atuinsh/atuin](https://github.com/atuinsh/atuin) | ✨ Magical shell history | `Rust` ★ 30.7k | 2026-07-23 |
 | [google/zx](https://github.com/google/zx) | A tool for writing better scripts | `JavaScript` ★ 45.6k | 2026-06-28 |
 | [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) | A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php. | ★ 37.3k | 2025-08-28 |
 | [pyenv/pyenv](https://github.com/pyenv/pyenv) | Simple Python version management | `Shell` ★ 45k | 2026-07-18 |

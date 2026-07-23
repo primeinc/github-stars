@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [dialpad/dialtone](https://github.com/dialpad/dialtone) | The main repository for all of Dialpad's design system resources. | `JavaScript` ★ 15 | 2026-07-21 |
-| [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) | The largest Open-Source UI Library! Community-made and free to use. Made with either CSS or Tailwind. | `HTML` ★ 11.5k | 2024-09-02 |
+| [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) | The largest Open-Source UI Library! Community-made and free to use. Made with either CSS or Tailwind. | `HTML` ★ 11.6k | 2024-09-02 |
 | [andrew--r/channels](https://github.com/andrew--r/channels) | 📺 A collection of useful You Tube channels for javascript developers and web designers | ★ 4.5k | 2021-10-01 |
 | [ivopetkov/responsively-lazy](https://github.com/ivopetkov/responsively-lazy) | Lazy load responsive images and HTML | `JavaScript` ★ 1.1k | 2025-09-09 |
 | [google/WebFundamentals](https://github.com/google/WebFundamentals) | Former git repo for Web Fundamentals on developers.google.com | `JavaScript` ★ 13.9k | 2022-08-10 |

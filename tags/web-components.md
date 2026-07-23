@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [github/remote-input-element](https://github.com/github/remote-input-element) | An input element that sends its value to a server endpoint and renders the response body. | `JavaScript` ★ 90 | 2026-07-16 |
-| [microsoft/webui](https://github.com/microsoft/webui) | Web UI is a language-agnostic server-side rendering framework that compiles HTML templates into a binary protocol at build time and uses Web Components Islands Architecture for client-side interact... | `Rust` ★ 59 | 2026-07-21 |
+| [microsoft/webui](https://github.com/microsoft/webui) | Web UI is a language-agnostic server-side rendering framework that compiles HTML templates into a binary protocol at build time and uses Web Components Islands Architecture for client-side interact... | `Rust` ★ 59 | 2026-07-23 |
