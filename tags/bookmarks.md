@@ -6,5 +6,5 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [raphaelsty/knowledge](https://github.com/raphaelsty/knowledge) | Open-source personal bookmarks search engine | `Python` ★ 766 | 2026-07-19 |
+| [raphaelsty/knowledge](https://github.com/raphaelsty/knowledge) | Open-source personal bookmarks search engine | `Python` ★ 766 | 2026-07-24 |
 | [dudor/BookmarkHub](https://github.com/dudor/BookmarkHub) | Bookmark Hub , sync bookmarks across different browsers | `TypeScript` ★ 2.5k | 2026-04-06 |

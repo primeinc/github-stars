@@ -7,7 +7,7 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [HW-Lab-Hardware-Design-Agency/WebScreen-Software](https://github.com/HW-Lab-Hardware-Design-Agency/WebScreen-Software) | Web Screen Firmware | `C` ★ 42 | 2026-07-06 |
-| [timmbogner/Farm-Data-Relay-System](https://github.com/timmbogner/Farm-Data-Relay-System) | A system that uses ESP-NOW, Lo Ra, and other protocols to transport sensor data in remote areas without relying on Wi Fi. | `C` ★ 614 | 2026-01-29 |
+| [timmbogner/Farm-Data-Relay-System](https://github.com/timmbogner/Farm-Data-Relay-System) | A system that uses ESP-NOW, Lo Ra, and other protocols to transport sensor data in remote areas without relying on Wi Fi. | `C` ★ 615 | 2026-01-29 |
 | [KjetilSv/Win10As](https://github.com/KjetilSv/Win10As) | Make your windows 10 computer IOT friendly | `C#` ★ 233 | 2022-12-08 |
 | [fma965/ESP-MQTT-JSON-Digital-LEDs](https://github.com/fma965/ESP-MQTT-JSON-Digital-LEDs) | ESP MQTT Digital LEDs for Home Assistant's MQTT JSON Light Component. Supports flash, fade, transitions, effects, and OTA uploading! | `C++` ★ 18 | 2021-05-20 |
-| [home-assistant/core](https://github.com/home-assistant/core) | :house\_with\_garden: Open source home automation that puts local control and privacy first. | `Python` ★ 89.4k | 2026-07-23 |
+| [home-assistant/core](https://github.com/home-assistant/core) | :house\_with\_garden: Open source home automation that puts local control and privacy first. | `Python` ★ 89.4k | 2026-07-24 |
