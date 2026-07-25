@@ -13,7 +13,7 @@
 | [Azure-Samples/azure-openai-rag-workshop](https://github.com/Azure-Samples/azure-openai-rag-workshop) | Create your own Chat GPT with Retrieval-Augmented-Generation workshop | `Bicep` ★ 151 | 2026-01-20 |
 | [PSBicep/PSBicep](https://github.com/PSBicep/PSBicep) | This is the repo for the Bicep Power Shell Module. | `PowerShell` ★ 150 | 2026-07-21 |
 | [Azure/ALZ-Bicep](https://github.com/Azure/ALZ-Bicep) | This repository contains the Azure Landing Zones (ALZ) Bicep modules that help deliver and deploy the Azure Landing Zone conceptual architecture in a modular approach. https://aka.ms/alz/docs | `Bicep` ★ 883 | 2026-06-29 |
-| [Azure/deployment-stacks](https://github.com/Azure/deployment-stacks) | Contains Deployment Stacks CLI scripts and releases | `Bicep` ★ 98 | 2026-05-30 |
+| [Azure/deployment-stacks](https://github.com/Azure/deployment-stacks) | Contains Deployment Stacks CLI scripts and releases | `Bicep` ★ 99 | 2026-05-30 |
 | [daveRendon/azinsider](https://github.com/daveRendon/azinsider) | 🚀 The Az Insider Repo offers code samples to help you deploy various workloads in your Azure environment using Bicep language. It simplifies the deployment process and makes it easy to get your ap... | `Bicep` ★ 41 | 2026-04-14 |
 | [HybridBrothers/Hybrid-Brothers-Blogs](https://github.com/HybridBrothers/Hybrid-Brothers-Blogs) | This repository contains code snippets used in blog posts of hybridbrothers.com. | `Bicep` ★ 5 | 2025-04-26 |
 | [CMeeg/nextjs-aca](https://github.com/CMeeg/nextjs-aca) | An \`azd\` (Azure Developer CLI) template for getting a Next.js app running on Azure Container Apps with CDN and Application Insights. | `Bicep` ★ 27 | 2024-06-26 |
@@ -24,4 +24,4 @@
 | [Azure-Samples/remote-mcp-functions-dotnet](https://github.com/Azure-Samples/remote-mcp-functions-dotnet) | This is a quickstart template to easily build and deploy a custom remote MCP server to the cloud using Azure functions. You can clone/restore/run on your local machine with debugging, and \`azd up\` ... | `C#` ★ 130 | 2026-07-17 |
 | [microsoftgraph/msgraph-bicep-types](https://github.com/microsoftgraph/msgraph-bicep-types) | Repo contains Microsoft Graph resource types to integrate with bicep templates. | `TypeScript` ★ 78 | 2026-06-22 |
 | [Azure-Samples/azd-starter-bicep](https://github.com/Azure-Samples/azd-starter-bicep) | Starter template with Bicep as infrastructure provider for Azure Developer CLI (azd). | `Bicep` ★ 38 | 2026-03-27 |
-| [Azure/bicep-registry-modules](https://github.com/Azure/bicep-registry-modules) | Bicep registry modules | `Bicep` ★ 731 | 2026-07-23 |
+| [Azure/bicep-registry-modules](https://github.com/Azure/bicep-registry-modules) | Bicep registry modules | `Bicep` ★ 731 | 2026-07-24 |

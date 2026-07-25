@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [sirkirby/unifi-mcp](https://github.com/sirkirby/unifi-mcp) | MCP servers for the Uni Fi suite of applications, Network, Protect, Access, and Drive | `Python` ★ 548 | 2026-07-21 |
+| [sirkirby/unifi-mcp](https://github.com/sirkirby/unifi-mcp) | MCP servers for the Uni Fi suite of applications, Network, Protect, Access, and Drive | `Python` ★ 559 | 2026-07-21 |
 | [cppqtdev/QT-Home-Automation-Glass-UI](https://github.com/cppqtdev/QT-Home-Automation-Glass-UI) | Linkedin Page | `QML` ★ 27 | 2024-05-18 |
 | [Vector-Wangel/XLeRobot](https://github.com/Vector-Wangel/XLeRobot) | XLe Robot: Practical Dual-Arm Mobile Home Robot for $660 | `Python` ★ 5.3k | 2026-07-22 |
 | [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) | NVR with realtime local object detection for IP cameras | `TypeScript` ★ 34.5k | 2026-07-24 |

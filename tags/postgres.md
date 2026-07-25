@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [Azure-Samples/rag-postgres-openai-python](https://github.com/Azure-Samples/rag-postgres-openai-python) | A RAG app to ask questions about rows in a database table. Deployable on Azure Container Apps with Postgre SQL Flexible Server. | `Python` ★ 497 | 2026-07-08 |
+| [Azure-Samples/rag-postgres-openai-python](https://github.com/Azure-Samples/rag-postgres-openai-python) | A RAG app to ask questions about rows in a database table. Deployable on Azure Container Apps with Postgre SQL Flexible Server. | `Python` ★ 498 | 2026-07-08 |
 | [postgres-ai/database-lab-engine](https://github.com/postgres-ai/database-lab-engine) | DBLab enables 🖖 database branching and ⚡️ thin cloning for any Postgres database and empowers DB testing in CI/CD. This optimizes database-related costs while improving time-to-market and software... | `Go` ★ 2.5k | 2026-07-21 |
 | [bytebase/dbhub](https://github.com/bytebase/dbhub) | Zero-dependency, token-efficient database MCP server for Postgres, My SQL, SQL Server, Maria DB, SQLite. | `TypeScript` ★ 3.2k | 2026-07-22 |
 | [oguimbal/pgsql-ast-parser](https://github.com/oguimbal/pgsql-ast-parser) | Yet another simple Postgres SQL parser | `TypeScript` ★ 347 | 2026-01-27 |

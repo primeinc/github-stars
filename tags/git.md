@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/beachball](https://github.com/microsoft/beachball) | The Sunniest Semantic Version Bumper | `TypeScript` ★ 812 | 2026-07-23 |
+| [microsoft/beachball](https://github.com/microsoft/beachball) | The Sunniest Semantic Version Bumper | `TypeScript` ★ 812 | 2026-07-25 |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD | `Go` ★ 57k | 2026-07-24 |
 | [rtfpessoa/diff2html](https://github.com/rtfpessoa/diff2html) | Pretty diff to html javascript library (diff2html) | `TypeScript` ★ 3.4k | 2026-05-08 |
 | [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | simple terminal UI for git commands | `Go` ★ 80.7k | 2026-07-23 |
