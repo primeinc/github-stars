@@ -8,8 +8,8 @@
 |---|---|---|---|
 | [cubiq/ComfyUI_Workflows](https://github.com/cubiq/ComfyUI_Workflows) | A repository of well documented easy to follow workflows for Comfy UI | ★ 831 | 2024-01-10 |
 | [Tele-AI/TeleStyleV2](https://github.com/Tele-AI/TeleStyleV2) | open source style transfer model on par with nano banana pro | `Python` ★ 95 | 2026-07-07 |
-| [memstechtips/Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | `C#` ★ 12k | 2026-07-25 |
-| [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 37.4k | 2026-07-24 |
+| [memstechtips/Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | `C#` ★ 12.1k | 2026-07-25 |
+| [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland) | Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. | `C++` ★ 37.5k | 2026-07-25 |
 | [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | Customize Claude Code's system prompts, create custom toolsets, add custom input pattern highlighters, custom themes/thinking verbs/spinner, input box style, user message display, sign-in ASCII art... | `TypeScript` ★ 2.4k | 2026-07-25 |
 | [aleks-apostle/claude-code-patches](https://github.com/aleks-apostle/claude-code-patches) | A simple patch that toggles claude-code thinking traces to be fully expanded by default without having to press ctrl + o | `JavaScript` ★ 67 | 2025-12-09 |
 | [joelshepherd/tabliss](https://github.com/joelshepherd/tabliss) | A beautiful, customisable New Tab page for Firefox, Chrome, and Edge. | `TypeScript` ★ 2.8k | 2024-08-19 |

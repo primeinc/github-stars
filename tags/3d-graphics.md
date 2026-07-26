@@ -7,4 +7,4 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [storytold/artcraft](https://github.com/storytold/artcraft) | Art Craft is an intentional crafting engine for artists, designers, and filmmakers | `Rust` ★ 2k | 2026-07-25 |
-| [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) | No description provided | ★ 2.7k | 2026-07-09 |
+| [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) | No description provided | ★ 2.8k | 2026-07-09 |
