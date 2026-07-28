@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 1.1k | 2026-07-25 |
-| [microsoft/GitHub-Copilot-for-Azure](https://github.com/microsoft/GitHub-Copilot-for-Azure) | Git Hub Copilot for Azure | `TypeScript` ★ 238 | 2026-07-24 |
+| [microsoft/waza](https://github.com/microsoft/waza) | CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness | `Go` ★ 1.1k | 2026-07-27 |
+| [microsoft/GitHub-Copilot-for-Azure](https://github.com/microsoft/GitHub-Copilot-for-Azure) | Git Hub Copilot for Azure | `TypeScript` ★ 238 | 2026-07-27 |
 | [microsoft/azure-skills](https://github.com/microsoft/azure-skills) | Official agent plugin providing skills and MCP server configurations for Azure scenarios. | `Python` ★ 1.3k | 2026-07-26 |
-| [agentskills/agentskills](https://github.com/agentskills/agentskills) | Specification and documentation for Agent Skills | `Python` ★ 23.5k | 2026-07-10 |
+| [agentskills/agentskills](https://github.com/agentskills/agentskills) | Specification and documentation for Agent Skills | `Python` ★ 23.6k | 2026-07-10 |
 | [computerlovetech/agr](https://github.com/computerlovetech/agr) | A package manager for AI agents. Install agent skills from Git Hub with a single command. | `Python` ★ 449 | 2026-07-14 |
-| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 164.4k | 2026-07-24 |
+| [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `Python` ★ 164.6k | 2026-07-24 |

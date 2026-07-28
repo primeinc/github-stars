@@ -9,20 +9,20 @@
 | [meituan-longcat/LongCat-Image](https://github.com/meituan-longcat/LongCat-Image) | No description provided | `Python` ★ 711 | 2026-05-09 |
 | [firthstack/firth](https://github.com/firthstack/firth) | No description provided | `TypeScript` ★ 1 | 2026-06-27 |
 | [MicrosoftRajan/EpifiShare](https://github.com/MicrosoftRajan/EpifiShare) | No description provided | `TypeScript` ★ 2 | 2026-05-16 |
-| [github-community-projects/safe-settings](https://github.com/github-community-projects/safe-settings) | No description provided | `JavaScript` ★ 901 | 2026-07-10 |
+| [github-community-projects/safe-settings](https://github.com/github-community-projects/safe-settings) | No description provided | `JavaScript` ★ 901 | 2026-07-27 |
 | [microsoft/adme-samples](https://github.com/microsoft/adme-samples) | No description provided | `Shell` ★ 16 | 2026-06-11 |
-| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | No description provided | `TypeScript` ★ 15.1k | 2026-07-27 |
+| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | No description provided | `TypeScript` ★ 15.3k | 2026-07-28 |
 | [LG-AI-EXAONE/EXAONE-4.5](https://github.com/LG-AI-EXAONE/EXAONE-4.5) | No description provided | ★ 43 | 2026-07-06 |
 | [cheapmanga/Skin-pack-Template](https://github.com/cheapmanga/Skin-pack-Template) | Minecraft LCE Skin-pack Template | ★ 7 | 2026-04-13 |
 | [viralcode/vib-OS](https://github.com/viralcode/vib-OS) | World's First Vibecoded AI Operating System | `C` ★ 451 | 2026-03-10 |
 | [pingdotgg/lawn](https://github.com/pingdotgg/lawn) | No description provided | `TypeScript` ★ 623 | 2026-07-24 |
 | [OracleBrain/OracleBrain](https://github.com/OracleBrain/OracleBrain) | No description provided | ★ 103 | 2026-07-01 |
 | [longrackslabs/inbox-classifier](https://github.com/longrackslabs/inbox-classifier) | No description provided | `Python` ★ 2 | 2026-03-09 |
-| [anomalyco/opencode-sdk-python](https://github.com/anomalyco/opencode-sdk-python) | No description provided | `Python` ★ 262 | 2026-01-30 |
+| [anomalyco/opencode-sdk-python](https://github.com/anomalyco/opencode-sdk-python) | No description provided | `Python` ★ 263 | 2026-01-30 |
 | [handlebauer/ts-preview](https://github.com/handlebauer/ts-preview) | No description provided | `TypeScript` ★ 1 | 2025-03-15 |
 | [MicrosoftRajan/CipherStudio](https://github.com/MicrosoftRajan/CipherStudio) | No description provided | `TypeScript` ★ 1 | 2025-10-28 |
 | [dialpad/dialpad-python-sdk](https://github.com/dialpad/dialpad-python-sdk) | No description provided | `Python` ★ 16 | 2026-03-31 |
-| [ITContractorsUnion/ITContractorsUnion](https://github.com/ITContractorsUnion/ITContractorsUnion) | Repo For All Downloadable Data | `HTML` ★ 131 | 2026-07-26 |
+| [ITContractorsUnion/ITContractorsUnion](https://github.com/ITContractorsUnion/ITContractorsUnion) | Repo For All Downloadable Data | `HTML` ★ 131 | 2026-07-27 |
 | [itsminhz/convex-smart-tags](https://github.com/itsminhz/convex-smart-tags) | convex-smart-tags | `TypeScript` ★ 4 | 2026-01-24 |
 | [julianromli/opencode-template](https://github.com/julianromli/opencode-template) | opencode-template | `Python` ★ 143 | 2026-02-03 |
 | [AutoForgeAI/autoforge](https://github.com/AutoForgeAI/autoforge) | No description provided | `Python` ★ 1.8k | 2026-07-16 |

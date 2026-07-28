@@ -6,8 +6,8 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [timeframe/ha-addon](https://github.com/timeframe/ha-addon) | An e-paper calendar, weather, and smart home family dashboard for Home Assistant | `Ruby` ★ 849 | 2026-07-26 |
-| [ExperienceLovelace/ha-floorplan](https://github.com/ExperienceLovelace/ha-floorplan) | Bring new life to Home Assistant. By mapping entities to a SVG-object, you're able to control devices, show states, calling services - and much more. Add custom styling on top, to visualize whateve... | `TypeScript` ★ 1.6k | 2026-07-25 |
+| [timeframe/ha-addon](https://github.com/timeframe/ha-addon) | An e-paper calendar, weather, and smart home family dashboard for Home Assistant | `Ruby` ★ 850 | 2026-07-27 |
+| [ExperienceLovelace/ha-floorplan](https://github.com/ExperienceLovelace/ha-floorplan) | Bring new life to Home Assistant. By mapping entities to a SVG-object, you're able to control devices, show states, calling services - and much more. Add custom styling on top, to visualize whateve... | `TypeScript` ★ 1.6k | 2026-07-27 |
 | [leukipp/touchkio](https://github.com/leukipp/touchkio) | Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display. | `JavaScript` ★ 1.5k | 2026-06-12 |
 | [itchannel/fordpass-ha](https://github.com/itchannel/fordpass-ha) | Fordpass integration for Home Assistant | `Python` ★ 393 | 2025-11-07 |
 | [frenck/awesome-home-assistant](https://github.com/frenck/awesome-home-assistant) | A curated list of amazingly awesome Home Assistant resources. | `Python` ★ 8.3k | 2026-07-24 |

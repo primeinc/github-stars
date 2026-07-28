@@ -6,9 +6,9 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | Static analysis for Git Hub Actions | `Rust` ★ 5.9k | 2026-07-27 |
-| [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers | `Python` ★ 78.5k | 2026-07-26 |
-| [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | Find, verify, and analyze leaked credentials | `Go` ★ 27.2k | 2026-07-24 |
+| [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | Static analysis for Git Hub Actions | `Rust` ★ 5.9k | 2026-07-28 |
+| [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers | `Python` ★ 78.5k | 2026-07-27 |
+| [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | Find, verify, and analyze leaked credentials | `Go` ★ 27.2k | 2026-07-27 |
 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | Find secrets with Gitleaks 🔑 | `Go` ★ 28.3k | 2026-07-22 |
 | [lissy93/web-check](https://github.com/lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | `TypeScript` ★ 34.3k | 2026-07-26 |
 | [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response) | A curated list of tools for incident response | ★ 9.3k | 2026-07-15 |
