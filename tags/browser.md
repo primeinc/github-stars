@@ -11,4 +11,4 @@
 | [HoppouAI/OctoBrowser](https://github.com/HoppouAI/OctoBrowser) | Built for the Copilot SDK Weekend Contest as a fun project. | `JavaScript` ★ 145 | 2026-03-25 |
 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | A browser based code editor | `JavaScript` ★ 46.4k | 2026-07-24 |
 | [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser | `C++` ★ 64.7k | 2026-07-28 |
-| [imputnet/helium](https://github.com/imputnet/helium) | Private, fast, and honest web browser | `C++` ★ 18.9k | 2026-07-27 |
+| [imputnet/helium](https://github.com/imputnet/helium) | Private, fast, and honest web browser | `C++` ★ 18.9k | 2026-07-28 |

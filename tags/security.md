@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [github-community-projects/safe-settings](https://github.com/github-community-projects/safe-settings) | No description provided | `JavaScript` ★ 901 | 2026-07-27 |
+| [github-community-projects/safe-settings](https://github.com/github-community-projects/safe-settings) | No description provided | `JavaScript` ★ 902 | 2026-07-28 |
 | [azurekid/blackcat](https://github.com/azurekid/blackcat) | Black Cat is a Power Shell module designed to validate the security of Microsoft Azure. It provides a set of functions to identify potential security holes. | `PowerShell` ★ 205 | 2026-06-24 |
 | [hausec/PowerZure](https://github.com/hausec/PowerZure) | Power Shell framework to assess Azure security | `PowerShell` ★ 1.3k | 2025-10-18 |
 | [DFIRKuiper/Kuiper](https://github.com/DFIRKuiper/Kuiper) | Digital Forensics Investigation Platform | `JavaScript` ★ 897 | 2024-10-12 |

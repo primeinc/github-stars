@@ -7,8 +7,8 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [guinacio/infinite-backrooms](https://github.com/guinacio/infinite-backrooms) | Interactive multi-persona AI conversation platform using Ollama. Create AI personas with distinct roles and watch them engage in dynamic conversations with @mention support, configurable context, a... | `Python` ★ 3 | 2025-06-17 |
-| [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it! | `TypeScript` ★ 30.9k | 2026-07-27 |
-| [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 🐬Deep Chat - A smart assistant that connects powerful AI to your personal world | `TypeScript` ★ 6.2k | 2026-07-28 |
+| [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it! | `TypeScript` ★ 31k | 2026-07-29 |
+| [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 🐬Deep Chat - A smart assistant that connects powerful AI to your personal world | `TypeScript` ★ 6.2k | 2026-07-29 |
 | [sigoden/aichat](https://github.com/sigoden/aichat) | All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to Open AI, Claude, Gemini, Ollama, Groq, and more. | `Rust` ★ 10.3k | 2026-02-23 |
 | [OvidijusParsiunas/deep-chat](https://github.com/OvidijusParsiunas/deep-chat) | Fully customizable AI chatbot component for your website | `TypeScript` ★ 3.7k | 2026-07-25 |
 | [vercel/chatbot](https://github.com/vercel/chatbot) | A full-featured, hackable Next.js AI chatbot built by Vercel | `TypeScript` ★ 20.7k | 2026-07-08 |
