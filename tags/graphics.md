@@ -12,4 +12,4 @@
 | [CeeJayDK/SweetFX](https://github.com/CeeJayDK/SweetFX) | No description provided | `HLSL` ★ 262 | 2025-07-03 |
 | [martymcmodding/METEOR](https://github.com/martymcmodding/METEOR) | Marty's Extra Effects for Re Shade | `HLSL` ★ 51 | 2026-07-08 |
 | [martymcmodding/iMMERSE](https://github.com/martymcmodding/iMMERSE) | Marty's Mods Epic Re Shade Effects | `HLSL` ★ 444 | 2026-07-08 |
-| [tariqporter/Gdip](https://github.com/tariqporter/Gdip) | Official GDI+ library for Autohotkey | `AutoHotkey` ★ 157 | 2019-03-05 |
+| [tariqporter/Gdip](https://github.com/tariqporter/Gdip) | Official GDI+ library for Autohotkey | `AutoHotkey` ★ 158 | 2019-03-05 |

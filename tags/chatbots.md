@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern Type Script stack. | `TypeScript` ★ 26.7k | 2026-07-29 |
-| [vercel/chat](https://github.com/vercel/chat) | A unified Type Script SDK for building chat bots across Slack, Microsoft Teams, Google Chat, Discord, and more. | `TypeScript` ★ 2.2k | 2026-07-28 |
-| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popular chatbots like Chat GPT, Claude & Gemini | `JavaScript` ★ 61.2k | 2026-07-27 |
-| [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `Python` ★ 13.8k | 2026-07-28 |
+| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern Type Script stack. | `TypeScript` ★ 26.7k | 2026-07-30 |
+| [vercel/chat](https://github.com/vercel/chat) | A unified Type Script SDK for building chat bots across Slack, Microsoft Teams, Google Chat, Discord, and more. | `TypeScript` ★ 2.3k | 2026-07-28 |
+| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popular chatbots like Chat GPT, Claude & Gemini | `JavaScript` ★ 61.4k | 2026-07-27 |
+| [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `Python` ★ 13.8k | 2026-07-29 |

@@ -6,7 +6,7 @@
 
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
-| [leonardoventurini/meteor-devtools-evolved](https://github.com/leonardoventurini/meteor-devtools-evolved) | The Meteor framework development tool belt, evolved. | `TypeScript` ★ 178 | 2026-04-23 |
+| [leonardoventurini/meteor-devtools-evolved](https://github.com/leonardoventurini/meteor-devtools-evolved) | The Meteor framework development tool belt, evolved. | `TypeScript` ★ 177 | 2026-04-23 |
 | [Gregivy/simpleddp](https://github.com/Gregivy/simpleddp) | An easy to use DDP client library | `JavaScript` ★ 167 | 2022-12-07 |
 | [qualialabs/mapped-collection](https://github.com/qualialabs/mapped-collection) | Memory-mapped Mongo collections in Meteor | `JavaScript` ★ 12 | 2018-04-13 |
 | [arunoda/meteor-ddp-analyzer](https://github.com/arunoda/meteor-ddp-analyzer) | Simple DDP Proxy which logs DDP messages | `JavaScript` ★ 150 | 2014-08-15 |

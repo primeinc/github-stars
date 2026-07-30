@@ -12,11 +12,11 @@
 | [numman-ali/opencode-openai-codex-auth](https://github.com/numman-ali/opencode-openai-codex-auth) | OAuth authentication plugin for personal coding assistance with Chat GPT Plus/Pro subscriptions - uses Open AI's official authentication method | `TypeScript` ★ 2.2k | 2026-01-09 |
 | [vemetric/favicon-api](https://github.com/vemetric/favicon-api) | Free and self-hostable API to fetch favicons from any website. | `TypeScript` ★ 200 | 2026-06-29 |
 | [Azure-Samples/universal-api-center](https://github.com/Azure-Samples/universal-api-center) | APIC ♥️ all APIs - this repo contains labs focused on importing APIs from a wide variety of gateways and sources | `Jupyter Notebook` ★ 20 | 2024-08-08 |
-| [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scalable. The Memory API for the AI era. | `TypeScript` ★ 28.7k | 2026-07-28 |
+| [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scalable. The Memory API for the AI era. | `TypeScript` ★ 28.7k | 2026-07-30 |
 | [midday-ai/zuno](https://github.com/midday-ai/zuno) | A unified API that provides a thin layer over multiple ERP systems. | `TypeScript` ★ 149 | 2025-07-18 |
-| [iii-hq/iii](https://github.com/iii-hq/iii) | Effortlessly compose, extend, and observe every service in real-time for the first time ever. | `Rust` ★ 18.5k | 2026-07-28 |
+| [iii-hq/iii](https://github.com/iii-hq/iii) | Effortlessly compose, extend, and observe every service in real-time for the first time ever. | `Rust` ★ 18.5k | 2026-07-29 |
 | [milistu/anthropic-parallel-calling](https://github.com/milistu/anthropic-parallel-calling) | Faster and cheaper! parallel processing of Anthropic API requests, optimizing for speed, cost-efficiency, and rate limit compliance. | `Python` ★ 17 | 2024-10-01 |
-| [loco-rs/loco](https://github.com/loco-rs/loco) | 🚂 🦀 The one-person framework for Rust for side-projects and startups | `Rust` ★ 9k | 2026-06-19 |
+| [loco-rs/loco](https://github.com/loco-rs/loco) | 🚂 🦀 The one-person framework for Rust for side-projects and startups | `Rust` ★ 9k | 2026-07-29 |
 | [mtorials/dial-phone](https://github.com/mtorials/dial-phone) | Matrix client-server SDK written in Kotlin. | `Kotlin` ★ 9 | 2022-05-24 |
 | [jNizM/NVIDIA_NvAPI](https://github.com/jNizM/NVIDIA_NvAPI) | Converted Nv API-Functions | `AutoHotkey` ★ 39 | 2023-08-18 |
 | [Grabacr07/VirtualDesktop](https://github.com/Grabacr07/VirtualDesktop) | C# wrapper for the Virtual Desktop API on Windows 11. | `C#` ★ 692 | 2024-09-03 |

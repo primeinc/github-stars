@@ -7,6 +7,6 @@
 | Repository | Description | Metadata | Last Pushed |
 |---|---|---|---|
 | [microsoft/EntraExporter](https://github.com/microsoft/EntraExporter) | Power Shell module to export a local copy of an Entra (Azure AD) tenant configuration. | `PowerShell` ★ 873 | 2025-11-16 |
-| [rustic-rs/rustic](https://github.com/rustic-rs/rustic) | rustic - fast, encrypted, and deduplicated backups powered by Rust | `Rust` ★ 3.2k | 2026-07-28 |
+| [rustic-rs/rustic](https://github.com/rustic-rs/rustic) | rustic - fast, encrypted, and deduplicated backups powered by Rust | `Rust` ★ 3.1k | 2026-07-28 |
 | [purarue/google_takeout_parser](https://github.com/purarue/google_takeout_parser) | A library/CLI tool to parse data out of your Google Takeout (History, Activity, Youtube, Locations, etc...) | `Python` ★ 137 | 2026-07-03 |
-| [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | `C#` ★ 14.8k | 2026-07-28 |
+| [duplicati/duplicati](https://github.com/duplicati/duplicati) | Store securely encrypted backups in the cloud! | `C#` ★ 14.8k | 2026-07-29 |
