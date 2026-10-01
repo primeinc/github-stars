@@ -1,0 +1,69 @@
+name: gh-action protected branch
+
+# Per the protection-stage brief, `main` accepts exactly two
+# repo-owned source branches:
+#
+#   1. `next`              — the integration / release lane
+#   2. `ghapp/repo-admin`  — the GitHub App / control-plane admin lane
+#
+# Anything else fails this gate. PRs from forks fail (BASE_REPO !=
+# HEAD_REPO). Feature/chore work flows through `next` first; admin /
+# workflow / ruleset work flows through `ghapp/repo-admin` and is
+# additionally path-scoped by `00h-gh-action-file-allowlist.yml` and
+# staleness-checked by `00d-gh-action-branch-staleness.yml`.
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - edited
+      - ready_for_review
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  main-release-guard:
+    name: src branch allowed
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require repo-owned next or ghapp/repo-admin as source branch for main
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          BASE_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          echo "base=$BASE_REF"
+          echo "head=$HEAD_REF"
+          echo "head_repo=$HEAD_REPO"
+          echo "base_repo=$BASE_REPO"
+
+          if [ "$BASE_REF" != "main" ]; then
+            echo "main-release-guard: base is not main; nothing to enforce."
+            exit 0
+          fi
+
+          if [ "$HEAD_REPO" != "$BASE_REPO" ]; then
+            echo "::error::PRs into main must come from a repo-owned branch. Forks must PR to next first."
+            exit 1
+          fi
+
+          case "$HEAD_REF" in
+            next|ghapp/repo-admin)
+              echo "main-release-guard: repo-owned ${HEAD_REF} -> main is allowed."
+              ;;
+            *)
+              echo "::error::PRs into main must come from one of: 'next' (integration lane) or 'ghapp/repo-admin' (control-plane lane). Got '${HEAD_REF}'. Retarget feature/chore/fork PRs to next first; admin/control-plane work flows through ghapp/repo-admin."
+              exit 1
+              ;;
+          esac
