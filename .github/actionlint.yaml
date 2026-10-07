@@ -20,3 +20,12 @@ paths:
       # either pull or push fails. SC2015 warns about the general footgun;
       # the body has no side-effect that would silently swallow `&&`.
       - 'shellcheck reported issue in this script: SC2015:.+'
+      # `environment.deployment: false` is canonical per
+      # ../refs/github/docs/data/reusables/actions/jobs/section-using-
+      # environments-for-jobs.md L57-67 and three other canonical docs
+      # (deploy-to-environment.md L60, control-deployments.md L69,
+      # create-custom-protection-rules.md L45). actionlint 1.7.12 does
+      # not yet ship the updated environment-section schema. Used by
+      # 00e-branch-rulesets.yml's upsert job per issue #82 to gate
+      # credential release without emitting a deployment record.
+      - 'unexpected key "deployment" for "environment" section'
