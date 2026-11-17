@@ -1,0 +1,71 @@
+{
+  "name": "protect-main-release-only",
+  "target": "branch",
+  "enforcement": "active",
+  "conditions": {
+    "ref_name": {
+      "include": [
+        "refs/heads/main"
+      ],
+      "exclude": []
+    }
+  },
+  "rules": [
+    {
+      "type": "pull_request",
+      "parameters": {
+        "allowed_merge_methods": [
+          "squash",
+          "rebase"
+        ],
+        "dismiss_stale_reviews_on_push": true,
+        "require_code_owner_review": false,
+        "require_last_push_approval": false,
+        "required_approving_review_count": 0,
+        "required_review_thread_resolution": true
+      }
+    },
+    {
+      "type": "required_status_checks",
+      "parameters": {
+        "strict_required_status_checks_policy": true,
+        "required_status_checks": [
+          {
+            "context": "head matches main"
+          },
+          {
+            "context": "only allowed files"
+          },
+          {
+            "context": "token + install"
+          },
+          {
+            "context": "src branch allowed"
+          },
+          {
+            "context": "DoNotMergeYet absent"
+          },
+          {
+            "context": "all gates pass"
+          },
+          {
+            "context": "workflows valid"
+          },
+          {
+            "context": "build succeeds"
+          }
+        ]
+      }
+    },
+    {
+      "type": "required_linear_history"
+    },
+    {
+      "type": "non_fast_forward"
+    },
+    {
+      "type": "deletion"
+    }
+  ],
+  "bypass_actors": []
+}

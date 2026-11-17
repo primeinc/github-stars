@@ -1,0 +1,74 @@
+name: gh-action branch staleness
+
+# Per the protection-stage brief: the canonical admin/control-plane
+# lane is exactly one branch — `ghapp/repo-admin`. This guard runs
+# on every PR to `main` and enforces that the admin lane head is
+# not behind `main`.
+#
+# Mechanism: GET /repos/{owner}/{repo}/compare/{base}...{head_sha}
+# returns `behind_by` (commits in main not in head). Anything > 0
+# fails. Operator unblocks via rebase or "Update branch" in PR UI
+# (which calls PUT /pulls/{n}/update-branch with expected_head_sha).
+#
+# Pass-through for non-`ghapp/repo-admin` heads so this check name
+# remains a viable required-status-check on every PR to main.
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - ready_for_review
+      - edited
+
+permissions:
+  contents: read
+  pull-requests: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  ADMIN_LANE_BRANCH: ghapp/repo-admin
+
+jobs:
+  branch-staleness:
+    name: head matches main
+    runs-on: ubuntu-latest
+    steps:
+      - name: Compare head to base (ghapp/repo-admin only)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          BASE_REF: ${{ github.event.pull_request.base.ref }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+
+          if [ "${HEAD_REF}" != "${ADMIN_LANE_BRANCH}" ]; then
+            echo "Non-admin head (${HEAD_REF}); branch staleness check does not apply. Pass."
+            exit 0
+          fi
+
+          compare=$(gh api \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "/repos/${REPO}/compare/${BASE_REF}...${HEAD_SHA}")
+
+          behind_by=$(jq -r '.behind_by' <<<"${compare}")
+          ahead_by=$(jq -r '.ahead_by' <<<"${compare}")
+
+          echo "ahead_by=${ahead_by}"
+          echo "behind_by=${behind_by}"
+
+          if [ "${behind_by}" -gt 0 ]; then
+            echo "::error::ghapp/repo-admin PR head is ${behind_by} commit(s) behind ${BASE_REF}. Rebase or use the GitHub UI 'Update branch' button before this PR can merge. The update-branch API takes expected_head_sha=${HEAD_SHA} for the safe path."
+            exit 1
+          fi
+
+          echo "head matches main (ahead_by=${ahead_by}, behind_by=0)"
